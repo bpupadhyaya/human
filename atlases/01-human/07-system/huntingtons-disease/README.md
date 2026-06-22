@@ -282,6 +282,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "Neurotrophic support: IGF-1 signalling is dysregulated in Huntington's disease and supports neuronal survival, an axis explored for neuroprotection alongside the loss of BDNF support to the striatum."
+  - target: 01-human/03-molecular/msh2
+    relation: connects-to
+    note: "Somatic CAG expansion: DNA mismatch-repair genes including MSH2 (with MSH3 and MLH1) drive the somatic expansion of the CAG repeat in neurons, the modifier process that GWAS show governs the age of onset of Huntington's disease."
+  - target: 01-human/03-molecular/ntrk
+    relation: connects-to
+    note: "BDNF-TrkB starvation: mutant huntingtin impairs the cortical production and axonal transport of BDNF to the striatum, depriving striatal neurons of the TrkB-mediated trophic support whose loss drives their selective death."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Microglial neuroinflammation: mutant huntingtin and DAMPs activate microglial TLR4, driving the neuroinflammation that accompanies and accelerates the striatal neurodegeneration of Huntington's disease."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -421,3 +430,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Neuroinflammatory recruitment: CCL2 is elevated in Huntington's disease and recruits monocytes and activates microglia, contributing to the neuroinflammation that accompanies striatal degeneration.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — DNA-sensing inflammation: mitochondrial dysfunction in Huntington's disease releases DNA that activates cGAS-STING, an emerging driver of the chronic neuroinflammatory response to mutant huntingtin.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Neurotrophic support: IGF-1 signalling is dysregulated in Huntington's disease and supports neuronal survival, an axis explored for neuroprotection alongside the loss of BDNF support to the striatum.
+- `connects-to` → **[MSH2](../../03-molecular/msh2/README.md)** — DNA mismatch-repair genes including MSH2 (with MSH3 and MLH1) drive the somatic expansion of the CAG repeat within neurons, the modifier process that genome-wide studies show governs the age of onset of Huntington's disease.
+- `connects-to` → **[NTRK / TrkB](../../03-molecular/ntrk/README.md)** — Mutant huntingtin impairs the cortical production and axonal transport of BDNF to the striatum, depriving striatal neurons of the TrkB-mediated trophic support whose loss drives their selective vulnerability and death.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Mutant huntingtin and released DAMPs activate microglial TLR4, driving the neuroinflammation that accompanies and accelerates the striatal neurodegeneration underlying the movement, cognitive, and psychiatric decline of Huntington's disease.
