@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/myostatin
     relation: connects-to
     note: "Arrested myogenesis: rhabdomyosarcoma is skeletal-muscle differentiation frozen mid-programme, and myostatin signalling — a normal brake on muscle growth — is part of the myogenic regulatory network dysregulated in these tumours."
+  - target: 01-human/03-molecular/ntrk
+    relation: connects-to
+    note: "Fusion-driven variant: a subset of spindle-cell/sclerosing rhabdomyosarcomas and infantile spindle-cell tumours carry NTRK gene fusions, conferring exquisite sensitivity to TRK inhibitors (larotrectinib, entrectinib) as a targeted alternative to cytotoxic chemotherapy."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Differentiation brake: canonical Wnt/β-catenin signalling can push rhabdomyosarcoma cells out of the proliferative, undifferentiated state toward terminal myogenic differentiation, making it a candidate differentiation-therapy axis in this myogenically arrested tumour."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Macrophage microenvironment: CCL2 recruits tumour-associated macrophages into rhabdomyosarcoma, a myeloid infiltrate that promotes angiogenesis and an immunosuppressive niche limiting the response of these sarcomas to immunotherapy."
 ---
 
 # Rhabdomyosarcoma
@@ -515,6 +524,9 @@ Maximal safe resection with negative margins (R0) wherever achievable without mu
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — EZH2, a PAX3-FOXO1 target, is overexpressed in rhabdomyosarcoma where it silences the myogenic-differentiation genes that would otherwise mature cells out of the cycle—an emerging epigenetic target to release the differentiation block.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — PAX3-FOXO1 induces CXCR4, so alveolar rhabdomyosarcoma cells follow CXCL12 gradients to the bone marrow—explaining the marrow involvement that marks the disseminated, poor-prognosis disease of fusion-positive tumors.
 - `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — Rhabdomyosarcoma is skeletal-muscle differentiation frozen mid-program, and myostatin signaling—a normal brake on muscle growth—is part of the myogenic regulatory network dysregulated in these tumors of striated-muscle lineage.
+- `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — A subset of spindle-cell/sclerosing rhabdomyosarcomas and infantile spindle-cell tumors carry NTRK gene fusions, conferring exquisite sensitivity to TRK inhibitors (larotrectinib, entrectinib) as a targeted alternative to cytotoxic chemotherapy.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Canonical Wnt/β-catenin signaling can push rhabdomyosarcoma cells out of the proliferative, undifferentiated state toward terminal myogenic differentiation, making it a candidate differentiation-therapy axis in this myogenically arrested tumor.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 recruits tumor-associated macrophages into rhabdomyosarcoma, a myeloid infiltrate that promotes angiogenesis and an immunosuppressive niche limiting the response of these sarcomas to immunotherapy.
 
 [^crist-2001-irs4-rms]: Crist WM, Anderson JR, Meza JL, et al. Intergroup rhabdomyosarcoma study-IV: results for patients with nonmetastatic disease. *J Clin Oncol.* 2001;19(12):3091-3102. [doi:10.1200/JCO.2001.19.12.3091](https://doi.org/10.1200/JCO.2001.19.12.3091) · [PubMed 11408506](https://pubmed.ncbi.nlm.nih.gov/11408506/)
 [^oberlin-2012-mmt95-rms]: Oberlin O, Rey A, Sanchez de Toledo J, et al. Randomized comparison of intensified six-drug versus standard three-drug chemotherapy for high-risk nonmetastatic rhabdomyosarcoma and other chemotherapy-sensitive childhood soft tissue sarcomas. *J Clin Oncol.* 2012;30(19):2457-2465. [doi:10.1200/JCO.2011.39.3538](https://doi.org/10.1200/JCO.2011.39.3538) · [PubMed 22665546](https://pubmed.ncbi.nlm.nih.gov/22665546/)

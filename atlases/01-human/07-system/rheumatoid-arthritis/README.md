@@ -301,6 +301,15 @@ cross_links:
   - target: 01-human/03-molecular/fibronectin
     relation: connects-to
     note: "Citrullinated autoantigen: citrullinated fibronectin in the rheumatoid synovium is a target of anti-citrullinated-protein antibodies, and fibronectin fragments stimulate the matrix-degrading enzymes that erode cartilage."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Symptomatic eicosanoid axis: COX-2-derived prostaglandins generated in the inflamed rheumatoid synovium produce much of the pain, swelling and warmth, the target of the NSAIDs that relieve symptoms without altering the underlying disease course."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "Synovial alarmin: IL-33 released from damaged rheumatoid synoviocytes acts as an alarmin on mast cells and innate lymphoid cells, amplifying the cytokine cascade and helping translate joint injury into self-perpetuating synovial inflammation."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Th17 polarisation and fibrosis: TGF-β together with IL-6 drives naive T cells toward the pathogenic Th17 lineage central to RA, while also activating synovial fibroblasts that build the invasive pannus."
 ---
 
 # Rheumatoid Arthritis
@@ -537,6 +546,9 @@ RA patients have:
 - `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — Rituximab depletes CD20+ B cells in rheumatoid arthritis, cutting autoantibody production and antigen presentation—clinical proof that B cells, not just T cells and cytokines, are central drivers of the disease.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Calprotectin (S100A8/A9) released by activated synovial neutrophils and monocytes amplifies joint inflammation through TLR4 and serves as a sensitive serum marker of rheumatoid disease activity that tracks subclinical synovitis.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Citrullinated fibronectin in the rheumatoid synovium is a target of anti-citrullinated-protein antibodies (ACPA), and fibronectin fragments stimulate the matrix-degrading enzymes that erode cartilage—linking autoimmunity to joint destruction.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — COX-2-derived prostaglandins generated in the inflamed rheumatoid synovium produce much of the pain, swelling and warmth, the target of the NSAIDs that relieve symptoms without altering the underlying disease course.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 released from damaged rheumatoid synoviocytes acts as an alarmin on mast cells and innate lymphoid cells, amplifying the cytokine cascade and helping translate joint injury into self-perpetuating synovial inflammation.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — TGF-β together with IL-6 drives naive T cells toward the pathogenic Th17 lineage central to RA, while also activating synovial fibroblasts that build the invasive pannus.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
