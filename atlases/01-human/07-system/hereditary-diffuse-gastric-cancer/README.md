@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Macrophage microenvironment: CCL2 recruits tumour-associated macrophages into the desmoplastic stroma of diffuse gastric cancer, supporting the infiltrative growth of its scattered tumour cells."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Anoikis resistance: E-cadherin loss confers resistance to anoikis — the caspase-3-mediated apoptosis that normally kills cells detached from their neighbours — letting the discohesive signet-ring cells survive and disseminate."
+  - target: 01-human/03-molecular/yap1
+    relation: connects-to
+    note: "Hippo release: loss of E-cadherin-dependent contact inhibition frees YAP from Hippo-pathway restraint, driving the proliferative transcriptional programme in hereditary diffuse gastric cancer cells."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "Peritoneal spread: the CXCL12-CXCR4 axis directs the discohesive cells of diffuse gastric cancer to the peritoneum, the transcoelomic dissemination behind the linitis plastica and peritoneal carcinomatosis that the syndrome causes."
 ---
 
 # Hereditary Diffuse Gastric Cancer
@@ -495,6 +504,9 @@ Testing for CDH1 (and CTNNA1) is indicated in any of the following:
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — Junction-kinase activation: loss of E-cadherin at adherens junctions unleashes SRC-family kinase signalling, promoting the motility and scattered invasion of the signet-ring cells of hereditary diffuse gastric cancer.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Replicative immortality: TERT reactivation maintains telomeres in hereditary diffuse gastric cancer cells, granting the limitless proliferation that complements the initiating CDH1 loss.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Macrophage microenvironment: CCL2 recruits tumour-associated macrophages into the desmoplastic stroma of diffuse gastric cancer, supporting the infiltrative growth of its scattered tumour cells.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — E-cadherin loss confers resistance to anoikis—the caspase-3-mediated apoptosis that normally kills cells detached from their neighbors—letting the discohesive signet-ring cells of HDGC survive and disseminate freely.
+- `connects-to` → **[YAP1](../../03-molecular/yap1/README.md)** — Loss of E-cadherin-dependent contact inhibition frees YAP from Hippo-pathway restraint, driving the proliferative transcriptional program in hereditary diffuse gastric cancer cells beyond the loss of adhesion itself.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — The CXCL12-CXCR4 axis directs the discohesive cells of diffuse gastric cancer to the peritoneum, the transcoelomic dissemination behind the linitis plastica and peritoneal carcinomatosis that the syndrome causes.
 
 [^van-der-post-2015-hdgc-guidelines]: van der Post RS, Vogelaar IP, Carneiro F, et al. Hereditary diffuse gastric cancer: updated clinical guidelines with an emphasis on germline CDH1 mutation carriers. *J Med Genet.* 2015;52(6):361-374. [doi:10.1136/jmedgenet-2015-103094](https://doi.org/10.1136/jmedgenet-2015-103094) · [PubMed 25979631](https://pubmed.ncbi.nlm.nih.gov/25979631/)
 [^hansford-2015-hdgc]: Hansford S, Kaurah P, Li-Chang H, et al. Hereditary Diffuse Gastric Cancer Syndrome: CDH1 Mutations and Beyond. *JAMA Oncol.* 2015;1(1):23-32. [doi:10.1001/jamaoncol.2014.168](https://doi.org/10.1001/jamaoncol.2014.168) · [PubMed 26182300](https://pubmed.ncbi.nlm.nih.gov/26182300/)
