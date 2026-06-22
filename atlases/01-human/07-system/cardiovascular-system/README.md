@@ -312,6 +312,15 @@ cross_links:
   - target: 01-human/03-molecular/cholesterol
     relation: connects-to
     note: "Atherogenic substrate: cholesterol carried in LDL accumulates in the arterial wall to seed atherosclerotic plaque, the lipid foundation of the coronary and cerebrovascular disease that dominates cardiovascular mortality."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Excitation-contraction coupling: calcium influx triggers calcium-induced calcium release to drive each heartbeat, and calcium controls vascular smooth-muscle tone — the ion central to both cardiac contraction and the regulation of blood-vessel diameter and pressure."
+  - target: 01-human/03-molecular/von-willebrand-factor
+    relation: connects-to
+    note: "Endothelial haemostasis: von Willebrand factor stored in and released from the vascular endothelium captures platelets at sites of injury, the first step of haemostasis and, when the endothelium is diseased, of arterial thrombosis."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "Blood-pressure control: renin from the kidney initiates the renin-angiotensin-aldosterone cascade that sets vascular tone and blood volume, the master endocrine controller of cardiovascular pressure and the target of ACE inhibitors and ARBs."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"
@@ -492,6 +501,9 @@ Each major vascular bed has **autoregulation** — a local mechanism that holds 
 - `connects-to` → **[SERCA2a](../../03-molecular/serca2a/README.md)** — SERCA2a pumps calcium back into the sarcoplasmic reticulum after each beat, setting the rate of cardiomyocyte relaxation and refilling the store for the next contraction—central to both systolic force and diastolic filling.
 - `connects-to` → **[β1-adrenergic receptor](../../03-molecular/beta1-adrenergic-receptor/README.md)** — The β1-adrenergic receptor transduces sympathetic noradrenaline into faster, stronger heartbeats, the target of the beta-blockers that are foundational drugs across heart failure, arrhythmia, and ischemic heart disease.
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Cholesterol carried in LDL accumulates in the arterial wall to seed atherosclerotic plaque, the lipid foundation of the coronary and cerebrovascular disease that dominates cardiovascular mortality worldwide.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium influx triggers calcium-induced calcium release to drive each heartbeat, and calcium controls vascular smooth-muscle tone—the ion central to both cardiac contraction and the regulation of blood-vessel diameter and pressure.
+- `connects-to` → **[von Willebrand Factor](../../03-molecular/von-willebrand-factor/README.md)** — Von Willebrand factor stored in and released from the vascular endothelium captures platelets at sites of injury, the first step of hemostasis and, when the endothelium is diseased, of arterial thrombosis.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — Renin from the kidney initiates the renin-angiotensin-aldosterone cascade that sets vascular tone and blood volume, the master endocrine controller of cardiovascular pressure and the target of ACE inhibitors and ARBs.
 
 ## Pathology
 

@@ -307,6 +307,15 @@ cross_links:
   - target: 01-human/03-molecular/androgen-receptor
     relation: connects-to
     note: "AR-driven subtype: the androgen receptor is expressed in many breast cancers and defines the luminal-androgen-receptor triple-negative subtype, where AR-targeted therapy is under investigation."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "HRD immunogenicity: BRCA-mutant, homologous-recombination-deficient breast cancers accumulate cytosolic DNA that activates cGAS-STING, the innate-immune basis for combining PARP inhibitors with checkpoint blockade in triple-negative disease."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "Endocrine resistance: FGFR1 amplification is a recurrent event in ER-positive breast cancer that drives resistance to endocrine therapy by providing an alternative growth signal, making FGFR a target to restore sensitivity to hormonal treatment."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Cancer stem cells: Notch signalling sustains the breast-cancer stem-cell population that resists chemotherapy and endocrine therapy and seeds recurrence, a developmental pathway driving treatment resistance and a target under investigation."
 ---
 
 # Breast Cancer
@@ -509,6 +518,9 @@ cross_links:
 - `connects-to` → **[E-cadherin (CDH1)](../../03-molecular/cdh1/README.md)** — Loss of E-cadherin (CDH1) defines invasive lobular carcinoma, producing its single-file infiltrative growth and discohesive cells that make it hard to detect on imaging and prone to diffuse, late-presenting spread.
 - `connects-to` → **[RAD51](../../03-molecular/rad51/README.md)** — BRCA-mutant and homologous-recombination-deficient breast cancers depend on RAD51-mediated repair, whose deficiency confers the synthetic-lethal sensitivity to PARP inhibitors (olaparib, talazoparib) now used in germline-BRCA disease.
 - `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — The androgen receptor is expressed in many breast cancers and defines the luminal-androgen-receptor triple-negative subtype, where AR-targeted therapy is being investigated as an alternative to chemotherapy.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — BRCA-mutant, homologous-recombination-deficient breast cancers accumulate cytosolic DNA that activates cGAS-STING, the innate-immune basis for combining PARP inhibitors with checkpoint blockade in triple-negative disease.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — FGFR1 amplification is a recurrent event in ER-positive breast cancer that drives resistance to endocrine therapy by providing an alternative growth signal, making FGFR a target to restore sensitivity to hormonal treatment.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Notch signaling sustains the breast-cancer stem-cell population that resists chemotherapy and endocrine therapy and seeds recurrence, a developmental pathway driving treatment resistance and a target under investigation.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
