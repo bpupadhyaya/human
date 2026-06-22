@@ -303,6 +303,15 @@ cross_links:
   - target: 01-human/03-molecular/mhc-class-ii
     relation: connects-to
     note: "Autoantigen presentation: MHC class II presentation of platelet-glycoprotein peptides to CD4 T cells licenses the B cells that make the anti-GPIIb/IIIa autoantibodies of ITP."
+  - target: 01-human/03-molecular/mpl
+    relation: connects-to
+    note: "Production boost: thrombopoietin-receptor agonists (eltrombopag, romiplostim) stimulate MPL on megakaryocytes to raise platelet production in ITP, a paradigm shift from suppressing destruction to driving production."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Impaired production and apoptosis: antiplatelet antibodies also impair megakaryocyte platelet release and trigger caspase-3-mediated platelet apoptosis, so ITP thrombocytopenia reflects underproduction as well as destruction."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Splenic clearance: CCL2 helps recruit the splenic macrophages that phagocytose antibody-opsonised platelets through their Fcγ receptors, the principal site of the accelerated platelet destruction in ITP."
 ---
 
 # Immune Thrombocytopenia
@@ -533,6 +542,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[PF4](../../03-molecular/pf4/README.md)** — Platelet activation and antigen: PF4 from activated platelets marks the platelet activation in ITP and anchors the antigenic overlap with PF4-driven HIT and VITT that the disorder is distinguished from.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Regulatory T-cell deficit: defective IL-2-dependent regulatory T cells permit the antiplatelet autoimmunity of ITP, and low-dose IL-2 to expand Tregs is under investigation as therapy.
 - `connects-to` → **[MHC Class II](../../03-molecular/mhc-class-ii/README.md)** — Autoantigen presentation: MHC class II presentation of platelet-glycoprotein peptides to CD4 T cells licenses the B cells that make the anti-GPIIb/IIIa autoantibodies of ITP.
+- `connects-to` → **[MPL](../../03-molecular/mpl/README.md)** — Thrombopoietin-receptor agonists (eltrombopag, romiplostim) stimulate MPL on megakaryocytes to raise platelet production in ITP—a paradigm shift from suppressing platelet destruction to driving production that transformed second-line therapy.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Antiplatelet antibodies also impair megakaryocyte platelet release and trigger caspase-3-mediated platelet apoptosis, so the thrombocytopenia of ITP reflects underproduction as well as accelerated destruction.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 helps recruit the splenic macrophages that phagocytose antibody-opsonized platelets through their Fcγ receptors, the principal site of the accelerated platelet destruction that splenectomy historically addressed.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)

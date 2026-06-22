@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/s100a8-a9
     relation: connects-to
     note: "Neutrophil alarmin: S100A8/A9 from neutrophils infiltrating the inflamed glomerulus amplifies the mesangioproliferative injury of IgA nephropathy and serves as a marker of activity."
+  - target: 01-human/03-molecular/btk
+    relation: connects-to
+    note: "Mucosal B-cell signalling: BTK transduces the B-cell-receptor signals in the mucosal B cells that produce galactose-deficient IgA1, the founding abnormality of IgA nephropathy and a target of B-cell-directed therapy."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Mucosal infection trigger: TLR sensing of mucosal infection drives the IgA response that elevates galactose-deficient IgA1, explaining the synpharyngitic haematuria in which gross haematuria flares with respiratory infections."
+  - target: 01-human/03-molecular/fcrn
+    relation: connects-to
+    note: "Autoantibody recycling: the neonatal Fc receptor protects the anti-glycan IgG autoantibodies that bind galactose-deficient IgA1 to form pathogenic immune complexes, the rationale for FcRn antagonists tested in IgA nephropathy."
 ---
 
 # IgA Nephropathy
@@ -471,6 +480,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Alternative-pathway complement: factor H regulates the alternative complement pathway that is activated by mesangial IgA1 deposits, and CFH-region variants are genetic modifiers of IgA nephropathy.
 - `connects-to` → **[MHC Class II](../../03-molecular/mhc-class-ii/README.md)** — HLA genetic risk: MHC class II (HLA-DQ/DR) loci are the strongest genetic associations of IgA nephropathy, linking antigen presentation to the dysregulated mucosal immunity behind the disease.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Neutrophil alarmin: S100A8/A9 from neutrophils infiltrating the inflamed glomerulus amplifies the mesangioproliferative injury of IgA nephropathy and serves as a marker of activity.
+- `connects-to` → **[BTK](../../03-molecular/btk/README.md)** — BTK transduces the B-cell-receptor signals in the mucosal B cells that produce galactose-deficient IgA1, the founding abnormality of IgA nephropathy and an emerging target of B-cell-directed therapy.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR sensing of mucosal infection drives the IgA response that elevates galactose-deficient IgA1, explaining the synpharyngitic hematuria in which visible bleeding flares concurrently with respiratory or gut infections.
+- `connects-to` → **[FcRn](../../03-molecular/fcrn/README.md)** — The neonatal Fc receptor protects the anti-glycan IgG autoantibodies that bind galactose-deficient IgA1 to form the pathogenic mesangial immune complexes—the rationale for FcRn antagonists now being tested in IgA nephropathy.
 
 ---
 
