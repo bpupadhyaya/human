@@ -307,6 +307,15 @@ cross_links:
   - target: 01-human/03-molecular/type-i-interferon
     relation: connects-to
     note: "Interferon marrow suppression: in chronic viral and autoimmune disease, type I interferon directly suppresses erythroid progenitors, an interferon-driven arm of anaemia of chronic disease distinct from the hepcidin-iron axis."
+  - target: 01-human/03-molecular/egln1
+    relation: connects-to
+    note: "HIF-PHI therapy: prolyl-hydroxylase (EGLN/PHD) inhibitors like roxadustat stabilise HIF to raise endogenous erythropoietin and lower hepcidin, treating anaemia of chronic disease by targeting the oxygen-sensing pathway upstream of both."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Shortened red-cell lifespan: the oxidative stress of chronic inflammation, partly from xanthine-oxidase-derived reactive oxygen species, damages erythrocytes and hastens their removal by macrophages, a second mechanism of anaemia layered on iron sequestration."
+  - target: 01-human/03-molecular/rage
+    relation: connects-to
+    note: "DAMP amplification: DAMPs signalling through RAGE sustain the NF-κB-driven cytokine output of chronic inflammation that keeps IL-6 and hepcidin elevated, feeding the iron-restriction that defines anaemia of chronic disease."
 ---
 
 # Anemia of Chronic Disease
@@ -527,6 +536,9 @@ This adaptive rationale explains why **aggressive iron supplementation during ac
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — TGF-β superfamily signaling (alongside activin) suppresses late-stage erythroid maturation in anemia of chronic disease, contributing to the ineffective erythropoiesis that ligand traps like luspatercept relieve.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Inflammatory cytokines and oxidative stress trigger caspase-mediated eryptosis (red-cell suicidal death), shortening erythrocyte survival and compounding anemia of chronic disease beyond the hepcidin-driven iron restriction.
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — In chronic viral and autoimmune disease, type I interferon directly suppresses erythroid progenitors—an interferon-driven arm of anemia of chronic disease distinct from the dominant hepcidin-iron-sequestration axis.
+- `connects-to` → **[EGLN1](../../03-molecular/egln1/README.md)** — Prolyl-hydroxylase (EGLN/PHD) inhibitors like roxadustat stabilize HIF to raise endogenous erythropoietin and lower hepcidin, treating anemia of chronic disease by targeting the oxygen-sensing pathway upstream of both.
+- `connects-to` → **[Xanthine Oxidase](../../03-molecular/xanthine-oxidase/README.md)** — The oxidative stress of chronic inflammation, partly from xanthine-oxidase-derived reactive oxygen species, damages erythrocytes and hastens their removal by macrophages, a second mechanism of anemia layered on iron sequestration.
+- `connects-to` → **[RAGE](../../03-molecular/rage/README.md)** — DAMPs signaling through RAGE sustain the NF-κB-driven cytokine output of chronic inflammation that keeps IL-6 and hepcidin elevated, feeding the iron-restriction that defines anemia of chronic disease.
 
 [^weiss-2005-acd-review]: Weiss G, Goodnough LT. Anemia of chronic disease. *N Engl J Med.* 2005;352(10):1011-1023. [doi:10.1056/NEJMra041809](https://doi.org/10.1056/NEJMra041809) · [PubMed 15758012](https://pubmed.ncbi.nlm.nih.gov/15758012/)
 [^nemeth-2004-il6-hepcidin]: Nemeth E, Rivera S, Gabayan V, et al. IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin. *J Clin Invest.* 2004;113(9):1271-1276. [doi:10.1172/JCI200420945](https://doi.org/10.1172/JCI200420945) · [PubMed 15124018](https://pubmed.ncbi.nlm.nih.gov/15124018/)

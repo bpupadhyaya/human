@@ -310,6 +310,15 @@ cross_links:
   - target: 01-human/03-molecular/endocannabinoid
     relation: connects-to
     note: "Reward and appetite: the endocannabinoid system regulating appetite and food reward is dysregulated in anorexia nervosa, part of the disturbed reward processing that sustains the drive to restrict despite starvation."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "Anorexigenic gut hormone: GLP-1 and other satiety hormones are dysregulated in anorexia nervosa, where heightened anorexigenic signalling reinforces the reduced food intake, part of the gut-hormone disturbance sustaining the restrictive behaviour."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "Starvation hormone: FGF21, the fasting-induced hepatokine that signals through FGFR1c with β-Klotho, is markedly elevated in the chronic starvation of anorexia nervosa, a metabolic adaptation to the energy deficit driving fat oxidation and bone loss."
+  - target: 01-human/03-molecular/gaba
+    relation: connects-to
+    note: "Anxiety and restriction: GABAergic dysfunction contributes to the high anxiety of anorexia nervosa, the inhibitory-neurotransmitter imbalance that links the disorder's anxious temperament to the rigid, fear-driven restriction of food."
 ---
 
 # Anorexia Nervosa
@@ -548,6 +557,9 @@ In healthy individuals, food cues activate the mesolimbic reward circuit (VTA �
 - `connects-to` → **[CRH](../../03-molecular/crh/README.md)** — Starvation activates CRH, which both suppresses appetite centrally and drives the hypercortisolism of anorexia nervosa—reinforcing food restriction while contributing to the bone loss and mood disturbance of the illness.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Hypoestrogenism, hypercortisolism, and low IGF-1 in anorexia uncouple bone remodeling toward RANKL-driven resorption, producing the early and often irreversible osteoporosis that is a major long-term complication.
 - `connects-to` → **[Endocannabinoid](../../03-molecular/endocannabinoid/README.md)** — The endocannabinoid system regulating appetite and food reward is dysregulated in anorexia nervosa, part of the disturbed reward processing that sustains the drive to restrict food intake despite life-threatening starvation.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — GLP-1 and other satiety hormones are dysregulated in anorexia nervosa, where heightened anorexigenic signaling reinforces the reduced food intake, part of the gut-hormone disturbance sustaining the restrictive behavior.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — FGF21, the fasting-induced hepatokine that signals through FGFR1c with β-Klotho, is markedly elevated in the chronic starvation of anorexia nervosa, a metabolic adaptation to the energy deficit driving fat oxidation and bone loss.
+- `connects-to` → **[GABA](../../03-molecular/gaba/README.md)** — GABAergic dysfunction contributes to the high anxiety of anorexia nervosa, the inhibitory-neurotransmitter imbalance that links the disorder's anxious temperament to the rigid, fear-driven restriction of food.
 
 [^treasure-2010-an-lancet]: Treasure J, Claudino AM, Zucker N. Eating disorders. *Lancet.* 2010;375(9714):583-593. [doi:10.1016/S0140-6736(09)61748-7](https://doi.org/10.1016/S0140-6736(09)61748-7) · [PubMed 19931176](https://pubmed.ncbi.nlm.nih.gov/19931176/)
 [^lock-2010-fbt-an]: Lock J, Le Grange D, Agras WS, et al. Randomized clinical trial comparing family-based treatment with adolescent-focused individual therapy for adolescents with anorexia nervosa. *Arch Gen Psychiatry.* 2010;67(10):1025-1032. [doi:10.1001/archgenpsychiatry.2010.128](https://doi.org/10.1001/archgenpsychiatry.2010.128) · [PubMed 20921118](https://pubmed.ncbi.nlm.nih.gov/20921118/)
