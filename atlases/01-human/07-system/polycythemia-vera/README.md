@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/pdgf
     relation: connects-to
     note: "Fibrotic progression: PDGF released by the clonal megakaryocytes stimulates marrow fibroblasts, driving the reticulin fibrosis of post-polycythaemia-vera myelofibrosis as the disease evolves."
+  - target: 01-human/03-molecular/calr
+    relation: connects-to
+    note: "MPN driver landscape: polycythaemia vera is almost universally JAK2-driven, which distinguishes it from the CALR- and MPL-mutant essential thrombocythaemia and primary myelofibrosis — the three classic Philadelphia-negative myeloproliferative neoplasms defined by their driver."
+  - target: 01-human/03-molecular/thrombin
+    relation: connects-to
+    note: "Thrombotic risk: the raised red-cell mass and activated platelets of PV promote thrombin generation and hyperviscosity, making arterial and venous thrombosis — including Budd-Chiari and splanchnic-vein clots — the leading cause of death, the rationale for phlebotomy and aspirin."
+  - target: 01-human/03-molecular/sf3b1
+    relation: connects-to
+    note: "Progression-predicting comutations: spliceosome mutations such as SF3B1, acquired alongside the JAK2 driver, mark the higher-risk PV that is more likely to transform into myelofibrosis or acute myeloid leukaemia."
 ---
 
 # Polycythemia Vera
@@ -509,6 +518,9 @@ PV must be distinguished from secondary erythrocytosis (elevated EPO, JAK2 wild-
 - `connects-to` → **[PF4](../../03-molecular/pf4/README.md)** — The expanded, hyperreactive platelets of polycythemia vera release platelet factor 4 on activation, contributing to the arterial and venous thrombosis that is the leading cause of morbidity—the reason cytoreduction and aspirin anchor treatment.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — The massive hematopoietic turnover of polycythemia vera floods purine catabolism through xanthine oxidase, raising urate and causing the secondary hyperuricemia and gout that complicate the MPN and warrant allopurinol.
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — PDGF released by the clonal megakaryocytes stimulates marrow fibroblasts, driving the reticulin fibrosis of post-polycythemia-vera myelofibrosis—the spent-phase transformation that marks disease progression.
+- `connects-to` → **[CALR](../../03-molecular/calr/README.md)** — Polycythemia vera is almost universally JAK2-driven, which distinguishes it from the CALR- and MPL-mutant essential thrombocythemia and primary myelofibrosis—the three classic Philadelphia-negative myeloproliferative neoplasms defined by their driver.
+- `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — The raised red-cell mass and activated platelets of PV promote thrombin generation and hyperviscosity, making arterial and venous thrombosis—including Budd-Chiari and splanchnic-vein clots—the leading cause of death and the rationale for phlebotomy and aspirin.
+- `connects-to` → **[SF3B1](../../03-molecular/sf3b1/README.md)** — Spliceosome mutations such as SF3B1, acquired alongside the JAK2 driver, mark the higher-risk PV that is more likely to transform into myelofibrosis or acute myeloid leukemia.
 
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409630](https://doi.org/10.1056/NEJMoa1409630) · [PubMed 25577388](https://pubmed.ncbi.nlm.nih.gov/25577388/)
 [^gisslinger-2020-proud-pv]: Gisslinger H, Gotic M, Holowiecki J, et al. Ropeginterferon alfa-2b versus standard therapy for polycythaemia vera (PROUD-PV and CONTINUATION-PV): a randomised, non-inferiority, phase 3 trial and its extension study. *Lancet Haematol.* 2020;7(3):e196-e208. [doi:10.1016/S2352-3026(19)30236-4](https://doi.org/10.1016/S2352-3026(19)30236-4) · [PubMed 32046833](https://pubmed.ncbi.nlm.nih.gov/32046833/)

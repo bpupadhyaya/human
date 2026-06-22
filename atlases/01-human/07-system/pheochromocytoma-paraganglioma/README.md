@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/atrx
     relation: connects-to
     note: "Telomere maintenance and metastasis: ATRX mutations in PPGL engage the alternative-lengthening-of-telomeres pathway and mark the aggressive, metastasis-prone tumours, often co-occurring with SDHB-related disease."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Kinase-cluster driver: loss of TMEM127 — a recurrent PPGL susceptibility gene — disinhibits mTORC1, placing a subset of these tumours in the kinase-signalling group alongside RET and NF1, distinct from the pseudohypoxic SDHx/VHL cluster."
+  - target: 01-human/03-molecular/beta1-adrenergic-receptor
+    relation: connects-to
+    note: "Catecholamine effector: the epinephrine and norepinephrine secreted by PPGL act on β1-adrenergic receptors to drive the tachycardia and hypertension of catecholamine crisis, which is why β-blockade is added only after α-blockade to avoid unopposed vasoconstriction."
+  - target: 01-human/03-molecular/idh1
+    relation: connects-to
+    note: "Oncometabolite parallel: SDH-deficient PPGL accumulates succinate that inhibits 2-oxoglutarate dioxygenases and stabilises HIF, the same pseudohypoxic, epigenetic mechanism by which IDH-mutant tumours act through their oncometabolite 2-hydroxyglutarate."
 ---
 
 # Pheochromocytoma/Paraganglioma
@@ -529,6 +538,9 @@ Active in Cluster 1 (MET/AXL co-expressed in SDH-deficient tumors); Phase 2 CABO
 - `connects-to` → **[EGLN1 (PHD2)](../../03-molecular/egln1/README.md)** — Germline EGLN1/PHD2 mutations cause a pseudohypoxic PPGL subtype (sometimes with polycythemia) by failing to hydroxylate HIF, locking in the hypoxia-response program that drives these tumors—placing the oxygen sensor itself among the susceptibility genes.
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Somatic MAML3 fusions and CSDE1 mutations define a Wnt-signaling PPGL cluster distinct from the pseudohypoxia and kinase-signaling groups, associated with more aggressive behavior and metastatic potential.
 - `connects-to` → **[ATRX](../../03-molecular/atrx/README.md)** — ATRX mutations in PPGL engage the alternative-lengthening-of-telomeres pathway and mark the aggressive, metastasis-prone tumors, often co-occurring with SDHB-related disease where they compound an already high metastatic risk.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Loss of TMEM127, a recurrent PPGL susceptibility gene, disinhibits mTORC1, placing a subset of these tumors in the kinase-signaling group alongside RET and NF1, distinct from the pseudohypoxic SDHx/VHL cluster.
+- `connects-to` → **[β1-Adrenergic Receptor](../../03-molecular/beta1-adrenergic-receptor/README.md)** — The epinephrine and norepinephrine secreted by PPGL act on β1-adrenergic receptors to drive the tachycardia and hypertension of catecholamine crisis, which is why β-blockade is added only after α-blockade to avoid unopposed vasoconstriction.
+- `connects-to` → **[IDH1](../../03-molecular/idh1/README.md)** — SDH-deficient PPGL accumulates succinate that inhibits 2-oxoglutarate dioxygenases and stabilizes HIF, the same pseudohypoxic, epigenetic mechanism by which IDH-mutant tumors act through their oncometabolite 2-hydroxyglutarate.
 
 [^lenders-2014-pheo-guideline]: Lenders JW, Duh QY, Eisenhofer G, et al. Pheochromocytoma and paraganglioma: an endocrine society clinical practice guideline. *J Clin Endocrinol Metab.* 2014;99(6):1915-1942. [doi:10.1210/jc.2014-1498](https://doi.org/10.1210/jc.2014-1498) · [PubMed 24893135](https://pubmed.ncbi.nlm.nih.gov/24893135/)
 [^baudin-2021-firstmappp-sunitinib]: Baudin E, Goichot B, Berruti A, et al. First International Randomized Study in Malignant Progressive Pheochromocytoma and Paragangliomas (FIRSTMAPPP). *Ann Oncol.* 2021;32(10):1245-1254. [doi:10.1016/j.annonc.2021.07.009](https://doi.org/10.1016/j.annonc.2021.07.009) · [PubMed 34246769](https://pubmed.ncbi.nlm.nih.gov/34246769/)
