@@ -298,6 +298,15 @@ cross_links:
   - target: 01-human/03-molecular/cgas-sting
     relation: connects-to
     note: "Cytosolic sensing: parasite DNA reaching the cytosol activates cGAS-STING, an innate sensing pathway that shapes the type-I-interferon response which can paradoxically favour Leishmania persistence in visceral disease."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "PGE2 immune subversion: Leishmania induces macrophage prostaglandin E2 that suppresses microbicidal activity and biases the response toward a permissive Th2 state, an eicosanoid arm of the immune evasion that lets the parasite survive inside the macrophage."
+  - target: 01-human/03-molecular/adenosine
+    relation: connects-to
+    note: "Purinergic evasion: Leishmania surface ecto-nucleotidases hydrolyse host nucleotides to generate immunosuppressive adenosine, dampening macrophage and T-cell activation to create the tolerant niche the parasite needs to establish infection."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Cholesterol parasitism: Leishmania scavenges and depletes host-cell cholesterol, remodelling the macrophage membrane in ways that impair antigen presentation and microbicidal function, a lipid-metabolic dimension of its intracellular survival."
 ---
 
 # Leishmaniasis
@@ -493,3 +502,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Leishmania amastigotes downregulate MHC class II on the infected macrophage and degrade loaded peptides, blunting CD4 T-cell recognition so the parasite survives within the very cell meant to present its antigens.
 - `connects-to` → **[Ferroportin](../../03-molecular/ferroportin/README.md)** — Leishmania scavenges iron inside the macrophage, and host control via ferroportin and the NRAMP1 (SLC11A1) transporter that withholds iron from the phagosome is a key genetic determinant of resistance to infection.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Parasite DNA reaching the cytosol activates cGAS-STING, an innate sensing pathway that shapes the type-I-interferon response which can paradoxically favor Leishmania persistence in visceral disease rather than clearing it.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Leishmania induces macrophage prostaglandin E2 that suppresses microbicidal activity and biases the response toward a permissive Th2 state, an eicosanoid arm of the immune evasion that lets the parasite survive inside the macrophage.
+- `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Leishmania surface ecto-nucleotidases hydrolyze host nucleotides to generate immunosuppressive adenosine, dampening macrophage and T-cell activation to create the tolerant niche the parasite needs to establish infection.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Leishmania scavenges and depletes host-cell cholesterol, remodeling the macrophage membrane in ways that impair antigen presentation and microbicidal function, a lipid-metabolic dimension of its intracellular survival.

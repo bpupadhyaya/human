@@ -303,6 +303,15 @@ cross_links:
   - target: 01-human/03-molecular/cgas-sting
     relation: connects-to
     note: "DNA sensing: Plasmodium DNA and hemozoin-bound DNA reaching the cytosol activate cGAS-STING, contributing the type-I-interferon response that modulates immunity and immunopathology during blood-stage malaria."
+  - target: 01-human/03-molecular/endothelin-1
+    relation: connects-to
+    note: "Cerebral malaria: endothelin-1 released by the activated, parasite-sequestered cerebral endothelium causes vasoconstriction and blood-brain-barrier dysfunction, contributing to the impaired perfusion and coma of cerebral malaria."
+  - target: 01-human/03-molecular/rage
+    relation: connects-to
+    note: "Hemozoin immunopathology: the malaria pigment hemozoin and the DAMP HMGB1 signal through RAGE to amplify the inflammatory cascade, contributing to the cytokine-driven immunopathology of severe and cerebral malaria."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative stress: parasite digestion of haemoglobin and host xanthine-oxidase activity generate reactive oxygen species during blood-stage malaria, the oxidative pressure against which G6PD and sickle-cell traits confer their protective advantage."
 ---
 
 # Malaria
@@ -556,6 +565,9 @@ cross_links:
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Plasmodium GPI anchors and hemozoin engage TLR4 (with TLR2 and TLR9) on macrophages, triggering the NF-κB-driven cytokine surge that produces the paroxysmal fever and systemic inflammation of malaria.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — CD8 T cells deploy perforin against the parasite-sequestered brain endothelium, disrupting the blood-brain barrier in the immunopathology that underlies fatal cerebral malaria—where the host response, not the parasite alone, kills.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Plasmodium DNA and hemozoin-bound DNA reaching the cytosol activate cGAS-STING, contributing the type-I-interferon response that modulates both protective immunity and the immunopathology of blood-stage malaria.
+- `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Endothelin-1 released by the activated, parasite-sequestered cerebral endothelium causes vasoconstriction and blood-brain-barrier dysfunction, contributing to the impaired perfusion and coma of cerebral malaria.
+- `connects-to` → **[RAGE](../../03-molecular/rage/README.md)** — The malaria pigment hemozoin and the DAMP HMGB1 signal through RAGE to amplify the inflammatory cascade, contributing to the cytokine-driven immunopathology of severe and cerebral malaria.
+- `connects-to` → **[Xanthine Oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Parasite digestion of hemoglobin and host xanthine-oxidase activity generate reactive oxygen species during blood-stage malaria, the oxidative pressure against which G6PD and sickle-cell traits confer their protective advantage.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)
