@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "Hamartoma fibrosis: TGF-β drives the fibrotic, matrix-rich stroma of the renal angiomyolipomas and the lymphangioleiomyomatosis (LAM) lung lesions of tuberous sclerosis, beyond the direct mTOR-driven proliferation."
+  - target: 01-human/03-molecular/calcineurin
+    relation: connects-to
+    note: "Epileptogenesis: dysregulated neuronal calcium and calcineurin-NFAT signalling in the malformed cortical tubers of tuberous sclerosis contributes to the hyperexcitability that makes early-onset, often drug-resistant epilepsy a defining feature of the disorder."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "Hamartoma vasculature: angiopoietin-Tie2 signalling supports the abnormal blood vessels of the renal angiomyolipomas — the fat-and-vessel hamartomas prone to aneurysmal haemorrhage — and the remodelled vasculature of pulmonary LAM."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Cytostatic, not curative: mTOR hyperactivation in TSC lesions suppresses caspase-3 apoptosis, so mTOR inhibitors (everolimus, sirolimus) shrink hamartomas only while taken — the tumours regrow on discontinuation because the cells were arrested, not killed."
 ---
 
 # Tuberous Sclerosis Complex
@@ -527,6 +536,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — mTOR hyperactivation in tuberous sclerosis distorts BDNF-dependent synaptic plasticity and dendritic growth, contributing to the epilepsy and the autism and neuropsychiatric features (TAND) that often cause more disability than the tumors.
 - `connects-to` → **[p27 (CDKN1B)](../../03-molecular/cdkn1b/README.md)** — mTORC1-S6K signaling drives degradation of the cell-cycle inhibitor p27, and in TSC1/2-deficient cells the loss of this brake contributes to the hamartomatous overgrowth—linking the pathway's growth signal to unchecked cell-cycle entry.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — TGF-β drives the fibrotic, matrix-rich stroma of the renal angiomyolipomas and the lymphangioleiomyomatosis (LAM) lung lesions of tuberous sclerosis, a fibrotic component layered on the direct mTOR-driven proliferation of the tumor cells.
+- `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Dysregulated neuronal calcium and calcineurin-NFAT signaling in the malformed cortical tubers of tuberous sclerosis contributes to the hyperexcitability that makes early-onset, often drug-resistant epilepsy a defining feature of the disorder.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Angiopoietin-Tie2 signaling supports the abnormal blood vessels of the renal angiomyolipomas—the fat-and-vessel hamartomas prone to aneurysmal hemorrhage—and the remodeled vasculature of pulmonary LAM.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — mTOR hyperactivation in TSC lesions suppresses caspase-3 apoptosis, so mTOR inhibitors (everolimus, sirolimus) shrink hamartomas only while taken—the tumors regrow on discontinuation because the cells were arrested, not killed.
 
 ---
 

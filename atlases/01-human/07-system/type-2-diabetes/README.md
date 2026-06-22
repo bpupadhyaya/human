@@ -301,6 +301,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Endothelial dysfunction: hyperglycaemia and insulin resistance reduce endothelial nitric-oxide bioavailability, the early vascular lesion that underlies the macro- and microvascular complications of type 2 diabetes."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "Receptor-level resistance: in type 2 diabetes the insulin receptor and its downstream IRS-PI3K-AKT cascade respond poorly to insulin, the molecular signalling defect of insulin resistance that forces compensatory hyperinsulinaemia until β-cells fail."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Diabetic retinopathy: chronic hyperglycaemia drives retinal ischaemia and VEGF release, fuelling the pathological neovascularisation of proliferative diabetic retinopathy — the leading cause of working-age blindness and the target of intravitreal anti-VEGF therapy."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Diabetic nephropathy: high glucose induces TGF-β in the glomerulus, driving the mesangial-matrix expansion and basement-membrane thickening that produce diabetic kidney disease, the commonest cause of end-stage renal failure."
 ---
 
 # Type 2 Diabetes
@@ -498,6 +507,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[FOXO1](../../03-molecular/foxo1/README.md)** — Insulin normally inactivates FOXO1 to switch off gluconeogenesis, so the insulin resistance of type 2 diabetes leaves FOXO1 active in the liver—driving the inappropriate fasting glucose output behind the morning hyperglycemia that metformin targets.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 secreted by adipose-tissue macrophages binds the insulin receptor and impairs its signaling—a direct molecular link between the chronic low-grade inflammation of obesity and the systemic insulin resistance that defines type 2 diabetes.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Hyperglycemia and insulin resistance reduce endothelial nitric-oxide bioavailability, the early vascular lesion that underlies both the macrovascular (coronary, stroke) and microvascular (retinopathy, nephropathy) complications of type 2 diabetes.
+- `connects-to` → **[Insulin receptor](../../03-molecular/insulin-receptor/README.md)** — In type 2 diabetes the insulin receptor and its downstream IRS-PI3K-AKT cascade respond poorly to insulin, the molecular signaling defect of insulin resistance that forces compensatory hyperinsulinemia until β-cells fail.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Chronic hyperglycemia drives retinal ischemia and VEGF release, fueling the pathological neovascularization of proliferative diabetic retinopathy—the leading cause of working-age blindness and the target of intravitreal anti-VEGF therapy.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — High glucose induces TGF-β in the glomerulus, driving the mesangial-matrix expansion and basement-membrane thickening that produce diabetic kidney disease, the commonest cause of end-stage renal failure.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
