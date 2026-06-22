@@ -310,6 +310,15 @@ cross_links:
   - target: 01-human/03-molecular/endocannabinoid
     relation: connects-to
     note: "Sleep architecture: endocannabinoid signalling through CB1 receptors modulates sleep-wake regulation and slow-wave sleep, part of the circuitry whose dysregulation contributes to disturbed sleep in insomnia."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Menopausal insomnia: falling estrogen disrupts sleep architecture and thermoregulation, driving the vasomotor hot flushes and the surge in insomnia that accompany the menopausal transition, one of the commonest secondary causes of disturbed sleep in women."
+  - target: 01-human/03-molecular/thyroid-hormones
+    relation: connects-to
+    note: "Thyroid arousal: thyroid hormone excess raises metabolic rate and sympathetic arousal that fragment sleep, making hyperthyroidism a classic medical cause of insomnia that should be excluded before treating it as primary."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Circadian output: vasopressin is a key output neuropeptide of the suprachiasmatic-nucleus master clock, and its rhythmic signalling helps set the circadian timing whose misalignment underlies circadian-pattern insomnia."
 ---
 
 # Insomnia Disorder
@@ -544,6 +553,9 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Prostaglandin D2 is among the most potent endogenous sleep-inducing substances, acting on the basal forebrain to promote non-REM sleep—a sleep-promoting system whose insufficiency contributes to the difficulty achieving restorative sleep in insomnia.
 - `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — The progesterone metabolite allopregnanolone is a positive GABA-A modulator with sedative effects, and the falling progesterone of the late luteal phase and menopause is linked to the insomnia that commonly emerges at those times.
 - `connects-to` → **[Endocannabinoid](../../03-molecular/endocannabinoid/README.md)** — Endocannabinoid signaling through CB1 receptors modulates sleep-wake regulation and slow-wave sleep, part of the circuitry whose dysregulation contributes to the disturbed sleep architecture of insomnia disorder.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Falling estrogen disrupts sleep architecture and thermoregulation, driving the vasomotor hot flushes and the surge in insomnia that accompany the menopausal transition, one of the commonest secondary causes of disturbed sleep in women.
+- `connects-to` → **[Thyroid hormones](../../03-molecular/thyroid-hormones/README.md)** — Thyroid hormone excess raises metabolic rate and sympathetic arousal that fragment sleep, making hyperthyroidism a classic medical cause of insomnia that should be excluded before treating it as primary.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Vasopressin is a key output neuropeptide of the suprachiasmatic-nucleus master clock, and its rhythmic signaling helps set the circadian timing whose misalignment underlies circadian-pattern insomnia.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)

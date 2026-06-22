@@ -301,6 +301,15 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "Regulatory restraint: IL-10 dampens the influenza immune response to limit immunopathology, a protective brake whose balance with effector cytokines determines whether the host clears the virus or suffers a damaging cytokine storm."
+  - target: 01-human/03-molecular/secretory-iga
+    relation: connects-to
+    note: "Mucosal protection: secretory IgA on the respiratory epithelium neutralises influenza at the airway surface and provides cross-protective mucosal immunity, the rationale behind intranasal live-attenuated vaccines that induce it better than injected vaccines."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Endosomal sensing: plasmacytoid dendritic cells detect influenza RNA through TLR7 signalling via MyD88 to make large amounts of type-I interferon, the endosomal innate-sensing arm complementing the cytosolic RIG-I pathway."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative lung injury: xanthine-oxidase activity surges during severe influenza, generating reactive oxygen species that damage the alveolar epithelium and contribute to the acute lung injury of severe and fatal infection."
 ---
 
 # Influenza
@@ -531,3 +540,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Oxidized phospholipids and HMGB1 from influenza-damaged lung engage TLR4 on innate cells, a pathway driving the acute lung injury of severe influenza that TLR4 antagonism mitigates in animal models.
 - `connects-to` → **[TBK1](../../03-molecular/tbk1/README.md)** — RIG-I sensing of influenza RNA signals through MAVS to TBK1, the kinase that phosphorylates IRF3 to launch the type-I-interferon response central to antiviral defence—a node the virus's NS1 protein works to suppress.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — IL-10 dampens the influenza immune response to limit immunopathology, a protective brake whose balance with effector cytokines determines whether the host clears the virus or suffers the damaging cytokine storm of severe disease.
+- `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — Secretory IgA on the respiratory epithelium neutralizes influenza at the airway surface and provides cross-protective mucosal immunity, the rationale behind intranasal live-attenuated vaccines that induce it better than injected vaccines.
+- `connects-to` → **[MyD88](../../03-molecular/myd88/README.md)** — Plasmacytoid dendritic cells detect influenza RNA through TLR7 signaling via MyD88 to make large amounts of type-I interferon, the endosomal innate-sensing arm complementing the cytosolic RIG-I pathway.
+- `connects-to` → **[Xanthine Oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Xanthine-oxidase activity surges during severe influenza, generating reactive oxygen species that damage the alveolar epithelium and contribute to the acute lung injury of severe and fatal infection.
