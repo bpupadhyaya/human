@@ -307,6 +307,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "Treg and genetic risk: IL2RA (CD25) is an established MS susceptibility gene, and impaired IL-2-dependent regulatory-T-cell function lets autoreactive T cells escape control, a basis for low-dose IL-2 approaches."
+  - target: 01-human/03-molecular/lmp1
+    relation: connects-to
+    note: "EBV trigger: Epstein-Barr virus is the leading environmental cause of MS, with EBV-infected B cells expressing latency proteins persisting in patients and EBV antigens cross-reacting with myelin (molecular mimicry), a basis for the efficacy of B-cell depletion."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Axonal degeneration: in the demyelinated axon, dysregulated sodium and calcium influx drives the calcium overload that destroys mitochondria and axons, the mechanism of the progressive neurodegeneration underlying irreversible MS disability."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Remyelination support: IGF-1 promotes the survival and differentiation of oligodendrocyte precursors that remyelinate stripped axons, a trophic axis whose insufficiency contributes to the failed remyelination of chronic MS lesions."
 ---
 
 # Multiple Sclerosis
@@ -513,6 +522,9 @@ MS affects approximately **2.8 million people worldwide** (~1 million in the US)
 - `connects-to` → **[BTK](../../03-molecular/btk/README.md)** — BTK transduces B-cell-receptor and Fc-receptor signals in the B cells and microglia driving MS, the target of CNS-penetrant BTK inhibitors (tolebrutinib) developed to address the smouldering inflammation of progressive disease.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — CD8 T cells, which actually outnumber CD4 cells in MS plaques, use perforin-mediated cytotoxicity to injure oligodendrocytes and transect axons, contributing to the irreversible neurodegeneration of disease progression.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — IL2RA (CD25) is an established MS susceptibility gene, and impaired IL-2-dependent regulatory-T-cell function lets autoreactive T cells escape control—a genetic and mechanistic basis for low-dose IL-2 strategies in MS.
+- `connects-to` → **[LMP1](../../03-molecular/lmp1/README.md)** — Epstein-Barr virus is the leading environmental cause of MS, with EBV-infected B cells expressing latency proteins persisting in patients and EBV antigens cross-reacting with myelin (molecular mimicry), a basis for the efficacy of B-cell depletion.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — In the demyelinated axon, dysregulated sodium and calcium influx drives the calcium overload that destroys mitochondria and axons, the mechanism of the progressive neurodegeneration underlying irreversible MS disability.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — IGF-1 promotes the survival and differentiation of oligodendrocyte precursors that remyelinate stripped axons, a trophic axis whose insufficiency contributes to the failed remyelination of chronic MS lesions.
 
 [^compston-2008-ms-review]: Compston A, Coles A. Multiple sclerosis. *Lancet.* 2008;372(9648):1502-1517. [doi:10.1016/S0140-6736(08)61620-7](https://doi.org/10.1016/S0140-6736(08)61620-7) · [PubMed 18970977](https://pubmed.ncbi.nlm.nih.gov/18970977/)
 [^kappos-2006-natalizumab]: Polman CH, O'Connor PW, Havrdova E, et al. A randomized, placebo-controlled trial of natalizumab for relapsing multiple sclerosis. *N Engl J Med.* 2006;354(9):899-910. [doi:10.1056/NEJMoa044397](https://doi.org/10.1056/NEJMoa044397) · [PubMed 16510744](https://pubmed.ncbi.nlm.nih.gov/16510744/)
