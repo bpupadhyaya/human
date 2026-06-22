@@ -307,6 +307,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Complement in plaque: C3 and the complement cascade are activated within the atherosclerotic lesions of familial hypercholesterolaemia, contributing to the chronic vascular inflammation that drives plaque progression."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Residual inflammatory risk: IL-1β from cholesterol-crystal-activated plaque macrophages drives atherosclerotic inflammation, and the CANTOS trial showed IL-1β blockade cuts cardiovascular events independent of lipid lowering, relevant to FH's inflammatory burden."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Necrotic-core formation: caspase-3-mediated apoptosis of lipid-laden foam cells, when their clearance fails, builds the necrotic lipid core of the atherosclerotic plaque, the unstable centre prone to the rupture that causes the premature heart attacks of FH."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Arterial calcification: advanced atherosclerotic plaques in familial hypercholesterolaemia calcify, the calcium deposition measured by coronary-artery-calcium scoring that quantifies plaque burden and refines cardiovascular-risk prediction."
 ---
 
 # Familial Hypercholesterolemia
@@ -511,6 +520,9 @@ FH is a **monogenic autosomal dominant disorder** caused by mutations in three g
 - `connects-to` → **[RAGE](../../03-molecular/rage/README.md)** — Oxidized LDL and AGEs signaling through RAGE on endothelium and macrophages amplify the NF-κB-driven arterial inflammation that accelerates the atherosclerosis of familial hypercholesterolemia beyond the LDL burden alone.
 - `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — Rupture of the lipid-rich plaques of familial hypercholesterolemia exposes tissue factor that generates thrombin, the coagulation step converting a plaque into the occlusive clot of the premature myocardial infarctions that define the disease.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — C3 and the complement cascade are activated within the atherosclerotic lesions of familial hypercholesterolemia, contributing to the chronic vascular inflammation that drives plaque progression alongside the lipid and myeloid mechanisms.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β from cholesterol-crystal-activated plaque macrophages drives atherosclerotic inflammation, and the CANTOS trial showed IL-1β blockade cuts cardiovascular events independent of lipid lowering, relevant to FH's inflammatory burden.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Caspase-3-mediated apoptosis of lipid-laden foam cells, when their clearance fails, builds the necrotic lipid core of the atherosclerotic plaque, the unstable center prone to the rupture that causes the premature heart attacks of FH.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Advanced atherosclerotic plaques in familial hypercholesterolemia calcify, the calcium deposition measured by coronary-artery-calcium scoring that quantifies plaque burden and refines cardiovascular-risk prediction.
 
 [^goldstein-1985-ldlr-nobel]: Goldstein JL, Brown MS. The LDL receptor. *Arterioscler Thromb Vasc Biol.* 2009;29(4):431-438. [doi:10.1161/ATVBAHA.108.179564](https://doi.org/10.1161/ATVBAHA.108.179564) · [PubMed 19299327](https://pubmed.ncbi.nlm.nih.gov/19299327/)
 [^raal-2020-inclisiran-fh]: Raal FJ, Kallend D, Ray KK, et al. Inclisiran for the Treatment of Heterozygous Familial Hypercholesterolemia. *N Engl J Med.* 2020;382(16):1520-1530. [doi:10.1056/NEJMoa1913805](https://doi.org/10.1056/NEJMoa1913805) · [PubMed 32197277](https://pubmed.ncbi.nlm.nih.gov/32197277/)

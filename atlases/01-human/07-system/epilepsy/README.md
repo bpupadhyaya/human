@@ -310,6 +310,15 @@ cross_links:
   - target: 01-human/03-molecular/estrogen
     relation: connects-to
     note: "Proconvulsant hormone: estrogen lowers the seizure threshold, the counterpart to progesterone's protective effect, underlying the catamenial pattern in which seizures cluster around the high-estrogen phases of the menstrual cycle."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Calcium-channel seizures: T-type voltage-gated calcium channels generate the thalamocortical rhythms of absence seizures — the target of ethosuximide — and other calcium-channel mutations cause genetic epilepsies, making calcium currents a second ionic axis beyond sodium."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Serotonergic control: serotonin raises the seizure threshold and is the mechanism of fenfluramine, now a key drug for Dravet and Lennox-Gastaut syndromes, while serotonergic brainstem dysfunction is implicated in sudden unexpected death in epilepsy (SUDEP)."
+  - target: 01-human/03-molecular/acth
+    relation: connects-to
+    note: "Hormonal therapy: ACTH (corticotropin) is a first-line treatment for infantile spasms (West syndrome), uniquely effective at stopping the epileptic encephalopathy through mechanisms beyond its glucocorticoid induction."
 ---
 
 # Epilepsy
@@ -559,6 +568,9 @@ Anti-NMDAR encephalitis is the most common autoimmune encephalitis (~37% of auto
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — HMGB1 released by injured neurons signals through TLR4 to lower seizure threshold and promote epileptogenesis, a neuroinflammatory pathway under active study as an anti-epileptogenic drug target distinct from symptomatic seizure suppression.
 - `connects-to` → **[NTRK / TrkB](../../03-molecular/ntrk/README.md)** — BDNF signaling through TrkB drives the aberrant synaptic sprouting and network remodeling that convert a normal brain into an epileptic one, making TrkB a target to prevent epilepsy from developing after brain injury.
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Estrogen lowers the seizure threshold, the counterpart to progesterone's protective effect, underlying the catamenial pattern in which seizures cluster around the high-estrogen phases of the menstrual cycle.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — T-type voltage-gated calcium channels generate the thalamocortical rhythms of absence seizures—the target of ethosuximide—and other calcium-channel mutations cause genetic epilepsies, making calcium currents a second ionic axis beyond sodium.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Serotonin raises the seizure threshold and is the mechanism of fenfluramine, now a key drug for Dravet and Lennox-Gastaut syndromes, while serotonergic brainstem dysfunction is implicated in sudden unexpected death in epilepsy (SUDEP).
+- `connects-to` → **[ACTH](../../03-molecular/acth/README.md)** — ACTH (corticotropin) is a first-line treatment for infantile spasms (West syndrome), uniquely effective at stopping the epileptic encephalopathy through mechanisms beyond its glucocorticoid induction.
 
 [^fisher-2017-ilae-classification]: Fisher RS, Cross JH, D'Souza C, et al. Instruction manual for the ILAE 2017 operational classification of seizure types. *Epilepsia.* 2017;58(4):531-542. [doi:10.1111/epi.13671](https://doi.org/10.1111/epi.13671) · [PubMed 28276060](https://pubmed.ncbi.nlm.nih.gov/28276060/)
 [^devinsky-2018-epilepsy-review]: Devinsky O, Vezzani A, O'Brien TJ, et al. Epilepsy. *Nat Rev Dis Primers.* 2018;4:18024. [doi:10.1038/nrdp.2018.24](https://doi.org/10.1038/nrdp.2018.24) · [PubMed 29722352](https://pubmed.ncbi.nlm.nih.gov/29722352/)
