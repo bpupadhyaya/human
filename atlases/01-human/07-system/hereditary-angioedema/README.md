@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/renin
     relation: connects-to
     note: "RAAS crosstalk: the kallikrein-kinin and renin-angiotensin systems converge on ACE, which both degrades bradykinin and generates angiotensin II — the reason ACE inhibitors precipitate dangerous attacks and are contraindicated in HAE."
+  - target: 01-human/03-molecular/fcrn
+    relation: connects-to
+    note: "Long-acting prophylaxis: the IgG anti-plasma-kallikrein antibody lanadelumab relies on FcRn recycling for its weeks-long half-life, enabling subcutaneous prophylaxis that suppresses kallikrein and prevents the bradykinin generation driving HAE attacks."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "Complement dysregulation: C1-inhibitor is the main brake on the classical-complement C1 complex as well as the contact system, so its deficiency causes the chronic complement consumption and low C4 that are diagnostic, even though the swelling itself is bradykinin-mediated."
+  - target: 01-human/03-molecular/endothelin-1
+    relation: connects-to
+    note: "Endothelial effector: the angioedema of HAE is produced at the vascular endothelium, where bradykinin opens inter-endothelial junctions to let plasma leak — the same endothelial barrier whose baseline tone and integrity endothelin-1 helps regulate."
 ---
 
 # Hereditary Angioedema
@@ -534,6 +543,9 @@ Fluid extravasation → ANGIOEDEMA
 - `connects-to` → **[Antithrombin](../../03-molecular/antithrombin/README.md)** — Antithrombin and C1-esterase-inhibitor are both serpins that restrain the contact-pathway proteases (factor XIIa, factor XIa); the loss of the C1-INH arm in HAE leaves the kallikrein-kinin cascade unchecked, generating bradykinin unopposed.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — Adrenomedullin tightens endothelial cell junctions to stabilize the vascular barrier—the physiological opposite of the bradykinin-driven junctional opening that produces the deep, non-pitting tissue swelling characteristic of HAE attacks.
 - `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — The kallikrein-kinin and renin-angiotensin systems converge on ACE, which both degrades bradykinin and generates angiotensin II—the reason ACE inhibitors precipitate dangerous, sometimes laryngeal attacks and are absolutely contraindicated in HAE.
+- `connects-to` → **[FcRn](../../03-molecular/fcrn/README.md)** — The IgG anti-plasma-kallikrein antibody lanadelumab relies on FcRn recycling for its weeks-long half-life, enabling subcutaneous prophylaxis that suppresses kallikrein and prevents the bradykinin generation driving HAE attacks.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C1-inhibitor is the main brake on the classical-complement C1 complex as well as the contact system, so its deficiency causes the chronic complement consumption and low C4 that are diagnostic, even though the swelling itself is bradykinin-mediated.
+- `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — The angioedema of HAE is produced at the vascular endothelium, where bradykinin opens inter-endothelial junctions to let plasma leak—the same endothelial barrier whose baseline tone and integrity endothelin-1 helps regulate.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)

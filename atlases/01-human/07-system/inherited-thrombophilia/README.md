@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/prostaglandins
     relation: connects-to
     note: "Eicosanoid balance: the platelet thromboxane A2/endothelial prostacyclin balance governs platelet aggregation, and a shift toward thromboxane favours the clot propagation that worsens thrombotic risk in inherited thrombophilia."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "NET immunothrombosis: neutrophils releasing S100A8/A9 and extracellular traps (NETs) provide a scaffold that ignites and amplifies venous thrombosis, an innate-immune amplifier that interacts with the inherited clotting-factor defects to precipitate clots."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Innate-immune thrombosis: TLR4 sensing of DAMPs on endothelium and monocytes promotes tissue-factor expression and the immunothrombosis that, layered on a genetic hypercoagulable state, helps tip thrombophilic patients into clinical thrombosis."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement-coagulation crosstalk: complement activation generating C3 and its fragments amplifies coagulation and platelet activation, an inflammatory contributor that compounds the inherited clotting tendency and links thrombosis to immune activation."
 ---
 
 # Inherited Thrombophilia
@@ -558,6 +567,9 @@ Antithrombin (ATIII) is the primary plasma inhibitor of thrombin, FXa, FIXa, and
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Hypoxia in the low-flow valve pockets of veins stabilizes endothelial HIF-1α, which upregulates procoagulant factors—the molecular link between Virchow's stasis and the venous thrombi that an inherited procoagulant defect accelerates.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 recruits monocytes to the forming venous thrombus, where their tissue-factor expression amplifies thrombin generation, tying inflammation to the clot propagation that compounds an inherited procoagulant state into clinical thrombosis.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — The platelet thromboxane A2/endothelial prostacyclin balance governs platelet aggregation, and a shift toward thromboxane favors the platelet recruitment and clot propagation that worsen thrombotic risk in inherited thrombophilia.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Neutrophils releasing S100A8/A9 and extracellular traps (NETs) provide a scaffold that ignites and amplifies venous thrombosis, an innate-immune amplifier that interacts with the inherited clotting-factor defects to precipitate clots.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4 sensing of DAMPs on endothelium and monocytes promotes tissue-factor expression and the immunothrombosis that, layered on a genetic hypercoagulable state, helps tip thrombophilic patients into clinical thrombosis.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement activation generating C3 and its fragments amplifies coagulation and platelet activation, an inflammatory contributor that compounds the inherited clotting tendency and links thrombosis to immune activation.
 
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)
