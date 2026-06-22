@@ -310,6 +310,15 @@ cross_links:
   - target: 01-human/03-molecular/ntrk
     relation: connects-to
     note: "Synaptic neurotrophin signalling: BDNF acting through its TrkB receptor shapes the synapse formation and plasticity disrupted in autism, linking neurotrophin signalling to the connectivity differences of the disorder."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Calcium-channel signalling: gain-of-function mutations in the L-type calcium channel CACNA1C cause Timothy syndrome with autism, and broader calcium-signalling dysregulation is a recurring theme among autism risk genes affecting synaptic activity-dependent transcription."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Synaptic pruning: complement C3 tags synapses for microglial elimination during development, and dysregulated complement-mediated pruning is implicated in the altered synaptic density and connectivity seen in autism."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Maternal immune activation: prenatal type-I-interferon responses to maternal infection raise autism risk, a key strand of the neurodevelopmental immune hypothesis linking gestational inflammation to altered fetal brain development."
 ---
 
 # Autism Spectrum Disorder
@@ -544,6 +553,9 @@ The neural basis of ASD social deficits involves dysfunction of the **social bra
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Gestational infection signaling through TLR4 raises offspring autism risk in both human studies and animal models—the innate-immune trigger central to the maternal-immune-activation hypothesis that links prenatal inflammation to ASD.
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β is dysregulated in Fragile X syndrome and other syndromic autism, a kinase governing synaptic plasticity whose inhibition (e.g. by lithium) rescues phenotypes in ASD models—a convergent signaling node across genetic causes.
 - `connects-to` → **[NTRK / TrkB](../../03-molecular/ntrk/README.md)** — BDNF acting through its TrkB receptor shapes the synapse formation and plasticity disrupted in autism, linking neurotrophin signaling to the altered brain connectivity that underlies the disorder's core features.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Gain-of-function mutations in the L-type calcium channel CACNA1C cause Timothy syndrome with autism, and broader calcium-signaling dysregulation is a recurring theme among autism risk genes affecting synaptic activity-dependent transcription.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 tags synapses for microglial elimination during development, and dysregulated complement-mediated pruning is implicated in the altered synaptic density and connectivity seen in autism.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Prenatal type-I-interferon responses to maternal infection raise autism risk, a key strand of the neurodevelopmental immune hypothesis linking gestational inflammation to altered fetal brain development.
 
 [^maenner-2023-asd-prevalence]: Maenner MJ, Warren Z, Williams AR, et al. Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 2020. *MMWR Surveill Summ.* 2023;72(2):1-14. [doi:10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1) · [PubMed 36952216](https://pubmed.ncbi.nlm.nih.gov/36952216/)
 [^lord-2020-asd-review]: Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum disorder. *Lancet.* 2018;392(10146):508-520. [doi:10.1016/S0140-6736(18)31129-2](https://doi.org/10.1016/S0140-6736(18)31129-2) · [PubMed 30078460](https://pubmed.ncbi.nlm.nih.gov/30078460/)
