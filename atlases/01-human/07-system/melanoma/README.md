@@ -310,6 +310,15 @@ cross_links:
   - target: 01-human/03-molecular/caspase-3
     relation: connects-to
     note: "Targeted-therapy apoptosis: BRAF and MEK inhibitors kill melanoma cells by relieving the mutant-BRAF block on caspase-3-mediated apoptosis, the mechanism behind the rapid responses to targeted therapy in BRAF-mutant disease."
+  - target: 01-human/03-molecular/endothelin-1
+    relation: connects-to
+    note: "Melanocyte-lineage signalling: melanoma cells express the endothelin-B receptor inherited from their melanocyte origin, and EDNRB signalling promotes their proliferation, survival and invasion — a lineage-survival pathway being explored as a therapeutic target."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "Epigenetic reprogramming: DNA-methylation changes silence tumour-suppressor and antigen-presentation genes in melanoma, contributing to its plasticity and immune escape, and DNA-methyltransferase inhibitors are being combined with immunotherapy to re-sensitise resistant tumours."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Resistance signalling: IGF-1R signalling provides a survival and growth input that helps melanoma cells escape BRAF/MEK inhibition, a bypass pathway implicated in acquired resistance to targeted therapy."
 ---
 
 # Melanoma
@@ -497,6 +506,9 @@ cross_links:
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — The high UV-driven mutational burden of melanoma generates cytosolic DNA and neoantigens that engage cGAS-STING—central to why melanoma is the paradigm immunotherapy-responsive cancer and the rationale for intratumoral STING agonists.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — The CXCL12-CXCR4 axis drives the broad metastatic spread of melanoma, including its notorious dissemination to the brain—the pattern that historically made advanced melanoma one of the most lethal solid tumors.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — BRAF and MEK inhibitors kill melanoma cells by relieving the mutant-BRAF block on caspase-3-mediated apoptosis, the mechanism behind the rapid, dramatic responses to targeted therapy in BRAF-V600-mutant disease.
+- `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Melanoma cells express the endothelin-B receptor inherited from their melanocyte origin, and EDNRB signaling promotes their proliferation, survival and invasion—a lineage-survival pathway being explored as a therapeutic target.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNA-methylation changes silence tumor-suppressor and antigen-presentation genes in melanoma, contributing to its plasticity and immune escape, and DNA-methyltransferase inhibitors are being combined with immunotherapy to re-sensitize resistant tumors.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — IGF-1R signaling provides a survival and growth input that helps melanoma cells escape BRAF/MEK inhibition, a bypass pathway implicated in acquired resistance to targeted therapy.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

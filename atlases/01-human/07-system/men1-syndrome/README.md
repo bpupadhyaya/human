@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/smad4
     relation: connects-to
     note: "TGF-β co-factor: menin potentiates TGF-β/SMAD growth-suppressive signalling, so MEN1 loss disables this antiproliferative pathway in parathyroid, pituitary and pancreatic endocrine cells."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Primary hyperparathyroidism: parathyroid tumours causing hypercalcaemia from excess PTH are the earliest and most penetrant manifestation of MEN1, affecting nearly all carriers by mid-adulthood and often the first clue that prompts genetic testing."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "Epigenetic tumour suppression: menin scaffolds the MLL histone-methyltransferase complexes and influences DNA methylation, so MEN1 loss disrupts the epigenetic regulation of growth-control genes — a mechanism shared with the menin-MLL dependence targeted in leukaemia."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Breast-cancer risk: women with MEN1 carry an increased risk of breast cancer, an oestrogen-responsive tumour added to the parathyroid, pancreatic and pituitary triad, extending surveillance beyond the classic endocrine organs."
 ---
 
 # MEN1 Syndrome
@@ -519,6 +528,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[p21 (CDKN1A)](../../03-molecular/cdkn1a/README.md)** — Menin transcriptionally activates the CDK inhibitors p21 and p27, so MEN1 loss removes these cell-cycle brakes in the endocrine cells that form the parathyroid, pituitary, and pancreatic tumors of the syndrome.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — Menin interacts with FOXO transcription factors to restrain endocrine-cell proliferation, an antiproliferative axis lost when the MEN1 tumor suppressor is inactivated and the endocrine glands become tumor-prone.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — Menin potentiates TGF-β/SMAD growth-suppressive signaling, so MEN1 loss disables this antiproliferative pathway in parathyroid, pituitary, and pancreatic endocrine cells—one of the tumor-suppressor functions of menin.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Parathyroid tumors causing hypercalcemia from excess PTH are the earliest and most penetrant manifestation of MEN1, affecting nearly all carriers by mid-adulthood and often the first clue that prompts genetic testing.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — Menin scaffolds the MLL histone-methyltransferase complexes and influences DNA methylation, so MEN1 loss disrupts the epigenetic regulation of growth-control genes—a mechanism shared with the menin-MLL dependence targeted in leukemia.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Women with MEN1 carry an increased risk of breast cancer, an estrogen-responsive tumor added to the parathyroid, pancreatic and pituitary triad, extending surveillance beyond the classic endocrine organs.
 
 ---
 
