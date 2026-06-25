@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/caspase-3
     relation: connects-to
     note: "Radiation response: stereotactic radiosurgery and radiotherapy for residual or high-grade meningiomas kill tumour cells through caspase-3-mediated apoptosis, whose evasion contributes to the recurrence of aggressive tumours."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "Merlin-pathway signalling: the NF2/merlin loss that drives most meningiomas disinhibits Src/FAK at the membrane, since merlin normally restrains them — the loss of contact inhibition that lets the meningothelial cells proliferate."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "Methylation grading: DNA-methylation profiling stratifies meningiomas into prognostic classes that predict recurrence better than histological grade alone, making the methylome an increasingly central tool in their classification and management."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Psammoma bodies: many meningiomas form psammoma bodies — concentric, calcified laminated structures — a characteristic histological hallmark, and the tumour's calcification can be visible on imaging."
 ---
 
 # Meningioma
@@ -516,6 +525,9 @@ VEGF overexpression in meningioma (YAP target); Phase 2 COMBIT (Huang 2019, N=40
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCR4-CXCL12 signaling promotes the brain and bone invasion of higher-grade meningiomas, the infiltrative growth that drives the recurrences dominating the morbidity of these otherwise often-benign dural tumors.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Meningiomas invading the adjacent skull stimulate RANKL-driven bone remodeling, producing the reactive bony thickening (hyperostosis) that is a characteristic radiological sign and a route of local spread.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Stereotactic radiosurgery and radiotherapy for residual or high-grade meningiomas kill tumor cells through caspase-3-mediated apoptosis, whose evasion contributes to the recurrence of the aggressive grade 2 and 3 tumors.
+- `connects-to` → **[Src kinase](../../03-molecular/src-kinase/README.md)** — The NF2/merlin loss that drives most meningiomas disinhibits Src/FAK at the membrane, since merlin normally restrains them—the loss of contact inhibition that lets the meningothelial cells proliferate.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNA-methylation profiling stratifies meningiomas into prognostic classes that predict recurrence better than histological grade alone, making the methylome an increasingly central tool in their classification and management.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Many meningiomas form psammoma bodies—concentric, calcified laminated structures—a characteristic histological hallmark, and the tumor's calcification can be visible on imaging.
 
 [^brastianos-2013-akt1-meningioma]: Brastianos PK, Horowitz PM, Santagata S, et al. Genomic sequencing of meningiomas identifies oncogenic SMO and AKT1 mutations. *Nat Genet.* 2013;45(3):285-289. [doi:10.1038/ng.2526](https://doi.org/10.1038/ng.2526) · [PubMed 23334667](https://pubmed.ncbi.nlm.nih.gov/23334667/)
 [^nassiri-2021-meningioma-classification]: Nassiri F, Liu J, Patil V, et al. A clinically applicable integrative molecular classification of meningiomas. *Nature.* 2021;597(7874):119-125. [doi:10.1038/s41586-021-03850-3](https://doi.org/10.1038/s41586-021-03850-3) · [PubMed 34385709](https://pubmed.ncbi.nlm.nih.gov/34385709/)
