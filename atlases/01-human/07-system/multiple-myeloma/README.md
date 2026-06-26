@@ -310,6 +310,15 @@ cross_links:
   - target: 01-human/03-molecular/hepcidin
     relation: connects-to
     note: "Anaemia of myeloma: inflammation-driven hepcidin elevation, alongside marrow infiltration, causes the functional iron-restricted anaemia that is among the most common presenting features of multiple myeloma."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Cellular immunotherapy: BCMA-directed CAR-T cells and bispecific antibodies (teclistamab), and the ADCC of daratumumab, redirect cytotoxic T and NK cells to kill myeloma plasma cells through perforin and granzyme, transforming relapsed disease."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement-dependent killing: the anti-CD38 antibody daratumumab kills myeloma cells partly through complement-dependent cytotoxicity, fixing C3 and the membrane-attack complex, one of its several immune effector mechanisms."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Hypercalcaemia of CRAB: the osteoclast-driven bone destruction of myeloma releases calcium, producing the hypercalcaemia — the C of the CRAB criteria — that causes confusion, constipation and the renal impairment defining symptomatic disease."
 ---
 
 # Multiple Myeloma
@@ -536,6 +545,9 @@ MM evolves from precursor conditions through a well-defined continuum:
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — The t(4;14) translocation of multiple myeloma overexpresses FGFR3, a recurrent high-risk cytogenetic event that drives a more aggressive disease course and is a candidate target for FGFR-directed therapy.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β from the marrow microenvironment induces the IL-6 that fuels plasma-cell growth and osteolytic bone disease, and blocking it slows the progression of smoldering to active multiple myeloma in trials.
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Inflammation-driven hepcidin elevation, alongside marrow infiltration by plasma cells, causes the functional iron-restricted anemia that is among the most common presenting features of multiple myeloma.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — BCMA-directed CAR-T cells and bispecific antibodies (teclistamab), and the ADCC of daratumumab, redirect cytotoxic T and NK cells to kill myeloma plasma cells through perforin and granzyme, transforming relapsed disease.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — The anti-CD38 antibody daratumumab kills myeloma cells partly through complement-dependent cytotoxicity, fixing C3 and the membrane-attack complex, one of its several immune effector mechanisms.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — The osteoclast-driven bone destruction of myeloma releases calcium, producing the hypercalcemia—the C of the CRAB criteria—that causes confusion, constipation and the renal impairment defining symptomatic disease.
 
 [^kumar-2022-imwg-criteria]: Kumar SK, Callander NS, Adekola K, et al. Multiple myeloma, version 3.2021, NCCN clinical practice guidelines in oncology. *J Natl Compr Canc Netw.* 2020;18(12):1685-1717. [doi:10.6004/jnccn.2020.0057](https://doi.org/10.6004/jnccn.2020.0057) · [PubMed 33285519](https://pubmed.ncbi.nlm.nih.gov/33285519/)
 [^moreau-2022-teclistamab]: Moreau P, Garfall AL, van de Donk NWCJ, et al. Teclistamab in relapsed or refractory multiple myeloma. *N Engl J Med.* 2022;387(6):495-505. [doi:10.1056/NEJMoa2203478](https://doi.org/10.1056/NEJMoa2203478) · [PubMed 35661166](https://pubmed.ncbi.nlm.nih.gov/35661166/)
