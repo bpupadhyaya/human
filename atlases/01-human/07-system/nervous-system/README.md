@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Synaptic pruning: complement C3 tags weak synapses for elimination by microglia, the developmental sculpting of neural circuits whose reactivation contributes to the synapse loss of neurodegenerative disease."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Excitation and transmission: calcium influx triggers neurotransmitter-vesicle fusion at the synapse and shapes neuronal excitability and plasticity, the ion that converts an electrical action potential into the chemical signalling on which the nervous system runs."
+  - target: 01-human/03-molecular/aquaporin-4
+    relation: connects-to
+    note: "Glymphatic clearance: aquaporin-4 water channels on astrocyte endfeet drive the glymphatic flow that washes metabolic waste — including amyloid — from the brain during sleep, the CNS's fluid-clearance system in place of conventional lymphatics."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Neuroimmune surveillance: microglia and border-associated macrophages present antigen on MHC class II within the CNS, the neuroimmune interface whose dysregulation links the nervous and immune systems in neuroinflammatory and neurodegenerative disease."
 ---
 
 # Nervous System
@@ -447,6 +456,9 @@ Distributed cortical networks underlie language (Broca's area, Wernicke's area, 
 - `connects-to` → **[NTRK / Trk](../../03-molecular/ntrk/README.md)** — The Trk family of receptors transduces BDNF, NGF, and other neurotrophin signals that govern neuronal survival, differentiation, and synaptic plasticity throughout the developing and adult nervous system.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Oxytocin acts as a neuromodulator in the brain shaping social behavior, bonding, and stress responses, alongside its classic neurohypophyseal hormonal release—a window onto the nervous system's endocrine reach.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 tags weak synapses for elimination by microglia, the developmental synaptic pruning that sculpts neural circuits—and whose pathological reactivation contributes to the synapse loss of neurodegenerative disease.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium influx triggers neurotransmitter-vesicle fusion at the synapse and shapes neuronal excitability and plasticity, the ion that converts an electrical action potential into the chemical signaling on which the nervous system runs.
+- `connects-to` → **[Aquaporin-4](../../03-molecular/aquaporin-4/README.md)** — Aquaporin-4 water channels on astrocyte endfeet drive the glymphatic flow that washes metabolic waste—including amyloid—from the brain during sleep, the CNS's fluid-clearance system in place of conventional lymphatics.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Microglia and border-associated macrophages present antigen on MHC class II within the CNS, the neuroimmune interface whose dysregulation links the nervous and immune systems in neuroinflammatory and neurodegenerative disease.
 
 ## Pathology
 
