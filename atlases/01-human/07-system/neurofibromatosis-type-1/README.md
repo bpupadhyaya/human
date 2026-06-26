@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/substance-p
     relation: connects-to
     note: "Neurofibroma pain: substance P from the sensory nerve fibres entangled within plexiform neurofibromas mediates the chronic neurogenic pain that is a major source of morbidity in neurofibromatosis type 1."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "Phaeochromocytoma: NF1 predisposes to adrenal phaeochromocytomas that secrete catecholamines including norepinephrine, a cause of secondary hypertension that should be excluded in an NF1 patient with paroxysmal symptoms."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "Cognitive deficits: RAS-MAPK signalling is the effector arm of BDNF-TrkB synaptic plasticity, and its constitutive dysregulation in NF1 disrupts hippocampal learning, underlying the learning difficulties and ADHD that are the commonest NF1 complications in children."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "Malignant-transformation epigenetics: progression of plexiform neurofibroma to MPNST involves loss of PRC2 (EZH2/SUZ12) and accompanying DNA-methylation changes, the epigenetic catastrophe layered on the NF1-driven RAS activation in the malignant nerve-sheath tumour."
 ---
 
 # Neurofibromatosis Type 1
@@ -512,6 +521,9 @@ In glioma and MPNST: additional alterations required — MPNST requires CDKN2A/2
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — NF1 neurofibromas are heavily infiltrated by CCL2-recruited macrophages whose growth factors sustain the Schwann-cell tumor—the inflammatory niche from which plexiform neurofibromas can progress to malignant peripheral nerve sheath tumor.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCR4-CXCL12 signaling drives the metastasis of the malignant peripheral nerve sheath tumors that arise from NF1 plexiform neurofibromas, the transformation that is the leading cause of NF1-related death.
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — Substance P from the sensory nerve fibers entangled within plexiform neurofibromas mediates the chronic neurogenic pain that is a major and under-treated source of morbidity in neurofibromatosis type 1.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — NF1 predisposes to adrenal pheochromocytomas that secrete catecholamines including norepinephrine, a cause of secondary hypertension that should be excluded in an NF1 patient with paroxysmal symptoms.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — RAS-MAPK signaling is the effector arm of BDNF-TrkB synaptic plasticity, and its constitutive dysregulation in NF1 disrupts hippocampal learning, underlying the learning difficulties and ADHD that are the commonest NF1 complications in children.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — Progression of plexiform neurofibroma to MPNST involves loss of PRC2 (EZH2/SUZ12) and accompanying DNA-methylation changes, the epigenetic catastrophe layered on the NF1-driven RAS activation in the malignant nerve-sheath tumor.
 
 [^gutmann-2017-nf1-primer]: Gutmann DH, Ferner RE, Listernick RH, et al. Neurofibromatosis type 1. *Nat Rev Dis Primers.* 2017;3:17004. [doi:10.1038/nrdp.2017.4](https://doi.org/10.1038/nrdp.2017.4) · [PubMed 28230061](https://pubmed.ncbi.nlm.nih.gov/28230061/)
 [^dombi-2016-selumetinib]: Dombi E, Baldwin A, Marcus LJ, et al. Activity of Selumetinib in Neurofibromatosis Type 1-Related Plexiform Neurofibromas. *N Engl J Med.* 2016;375(26):2550-2560. [doi:10.1056/NEJMoa1605943](https://doi.org/10.1056/NEJMoa1605943) · [PubMed 28029918](https://pubmed.ncbi.nlm.nih.gov/28029918/)

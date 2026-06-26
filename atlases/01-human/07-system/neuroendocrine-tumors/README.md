@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "Carcinoid fibrosis: serotonin from carcinoid tumours drives TGF-β-mediated fibrosis, producing the desmoplastic mesenteric fibrosis and the right-sided carcinoid heart disease that complicate the syndrome."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Bispecific immunotherapy: the DLL3-CD3 bispecific tarlatamab redirects cytotoxic T cells to kill DLL3-expressing high-grade neuroendocrine carcinomas through perforin and granzyme, an immunotherapy advance for tumours beyond somatostatin-based control."
+  - target: 01-human/03-molecular/vhl
+    relation: connects-to
+    note: "Hereditary syndrome: von Hippel-Lindau disease predisposes to pancreatic neuroendocrine tumours, one of several inherited syndromes — with MEN1, NF1 and tuberous sclerosis — that cause NETs and prompt germline testing in young or multifocal cases."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "Epigenetic subtyping: pancreatic neuroendocrine tumours are shaped by chromatin and DNA-methylation changes (MEN1, DAXX/ATRX), and methylation profiling defines clinically distinct subgroups, making the epigenome central to their classification."
 ---
 
 # Neuroendocrine Tumors
@@ -504,6 +513,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCR4 on neuroendocrine tumor cells follows CXCL12 gradients to the liver, the dominant metastatic site whose tumor burden drives the carcinoid syndrome and accounts for much of NET mortality.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Peptide-receptor radionuclide therapy (Lutathera) delivers SSTR2-targeted radiation that kills NET cells through DNA-damage-driven caspase-3 apoptosis, a mainstay treatment for progressive somatostatin-receptor-positive tumors.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Serotonin from carcinoid tumors drives TGF-β-mediated fibrosis, producing the desmoplastic mesenteric fibrosis and the right-sided carcinoid heart disease (plaque on the tricuspid and pulmonary valves) that complicate the syndrome.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — The DLL3-CD3 bispecific tarlatamab redirects cytotoxic T cells to kill DLL3-expressing high-grade neuroendocrine carcinomas through perforin and granzyme, an immunotherapy advance for tumors beyond somatostatin-based control.
+- `connects-to` → **[VHL](../../03-molecular/vhl/README.md)** — Von Hippel-Lindau disease predisposes to pancreatic neuroendocrine tumors, one of several inherited syndromes—with MEN1, NF1 and tuberous sclerosis—that cause NETs and prompt germline testing in young or multifocal cases.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — Pancreatic neuroendocrine tumors are shaped by chromatin and DNA-methylation changes (MEN1, DAXX/ATRX), and methylation profiling defines clinically distinct subgroups, making the epigenome central to their classification.
 
 [^yao-2011-radiant3]: Yao JC, Shah MH, Ito T, et al. Everolimus for advanced pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):514-523. [doi:10.1056/NEJMoa1009290](https://doi.org/10.1056/NEJMoa1009290) · [PubMed 21306237](https://pubmed.ncbi.nlm.nih.gov/21306237/)
 [^raymond-2011-sunitinib-pnet]: Raymond E, Dahan L, Raoul JL, et al. Sunitinib malate for the treatment of pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):501-513. [doi:10.1056/NEJMoa1003825](https://doi.org/10.1056/NEJMoa1003825) · [PubMed 21306236](https://pubmed.ncbi.nlm.nih.gov/21306236/)
