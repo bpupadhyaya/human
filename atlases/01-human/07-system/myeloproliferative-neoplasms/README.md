@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "High cell turnover: the massive haematopoietic turnover of myeloproliferative neoplasms floods purine catabolism through xanthine oxidase, raising urate and causing the secondary hyperuricaemia and gout that complicate them."
+  - target: 01-human/03-molecular/sf3b1
+    relation: connects-to
+    note: "Progression comutations: spliceosome mutations such as SF3B1, acquired alongside the JAK2/CALR/MPL driver, mark the myeloproliferative neoplasms more likely to progress to myelofibrosis or acute leukaemia, refining prognosis beyond the driver alone."
+  - target: 01-human/03-molecular/thrombin
+    relation: connects-to
+    note: "Thrombotic state: the raised cell counts and activated platelets and leukocytes of myeloproliferative neoplasms promote thrombin generation and hyperviscosity, making arterial and venous thrombosis — including unusual splanchnic-vein clots — their leading cause of morbidity."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "Stem-cell maintenance: FOXO transcription factors are paradoxically active in JAK2-mutant myeloproliferative neoplasms, maintaining the malignant haematopoietic stem cells that sustain the clone and resist JAK-inhibitor therapy."
 ---
 
 # Myeloproliferative Neoplasms
@@ -543,6 +552,9 @@ In PV and ET, JAK2 V617F also affects myeloid progenitors → granulocytosis and
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — PDGF released by the clonal megakaryocytes of myeloproliferative neoplasms stimulates marrow fibroblasts, driving the reticulin and collagen fibrosis of primary and post-PV/ET myelofibrosis as the disease evolves.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — The hyperreactive platelets of myeloproliferative neoplasms generate thromboxane A2, the target of the low-dose aspirin used to reduce the arterial and venous thrombosis that is their leading cause of morbidity.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — The massive hematopoietic turnover of myeloproliferative neoplasms floods purine catabolism through xanthine oxidase, raising urate and causing the secondary hyperuricemia and gout that frequently complicate these disorders.
+- `connects-to` → **[SF3B1](../../03-molecular/sf3b1/README.md)** — Spliceosome mutations such as SF3B1, acquired alongside the JAK2/CALR/MPL driver, mark the myeloproliferative neoplasms more likely to progress to myelofibrosis or acute leukemia, refining prognosis beyond the driver alone.
+- `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — The raised cell counts and activated platelets and leukocytes of myeloproliferative neoplasms promote thrombin generation and hyperviscosity, making arterial and venous thrombosis—including unusual splanchnic-vein clots—their leading cause of morbidity.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors are paradoxically active in JAK2-mutant myeloproliferative neoplasms, maintaining the malignant hematopoietic stem cells that sustain the clone and resist JAK-inhibitor therapy.
 
 [^verstovsek-2012-comfort-i]: Verstovsek S, Mesa RA, Gotlib J, et al. A double-blind, placebo-controlled trial of ruxolitinib for myelofibrosis. *N Engl J Med.* 2012;366(9):799-807. [doi:10.1056/NEJMoa1110557](https://doi.org/10.1056/NEJMoa1110557) · [PubMed 22375971](https://pubmed.ncbi.nlm.nih.gov/22375971/)
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409002](https://doi.org/10.1056/NEJMoa1409002) · [PubMed 25426978](https://pubmed.ncbi.nlm.nih.gov/25426978/)
