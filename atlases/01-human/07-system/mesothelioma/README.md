@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/caspase-3
     relation: connects-to
     note: "Apoptosis evasion: mesothelioma resists caspase-3-mediated apoptosis through high anti-apoptotic protein expression, a key reason for its notorious chemoresistance and the modest benefit of cytotoxic therapy."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Immunotherapy: dual checkpoint blockade (nivolumab-ipilimumab) is now first-line for unresectable mesothelioma, and mesothelin-directed CAR-T cells aim to kill the tumour through perforin and granzyme, the cytotoxic effector mechanism of these immune therapies."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "Merlin-pathway signalling: the NF2/merlin loss common in mesothelioma disinhibits Src/FAK and the Hippo-YAP pathway at the membrane, driving the proliferation and loss of contact inhibition characteristic of these tumours."
+  - target: 01-human/03-molecular/rad51
+    relation: connects-to
+    note: "DNA-repair vulnerability: BAP1 loss impairs homologous-recombination DNA repair in mesothelioma, leaving cells reliant on RAD51-dependent and alternative repair and raising the prospect of synthetic-lethal PARP inhibition in BAP1-deficient tumours."
 ---
 
 # Mesothelioma
@@ -518,6 +527,9 @@ Cytoreductive surgery (CRS) + hyperthermic intraperitoneal chemotherapy (HIPEC):
 - `connects-to` → **[RAGE](../../03-molecular/rage/README.md)** — Asbestos fibers cause mesothelial-cell necrosis that releases HMGB1, which signals through RAGE to sustain the chronic inflammation central to asbestos-induced mesothelial carcinogenesis over the decades-long latency.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCR4-CXCL12 signaling drives the diffuse pleural and peritoneal spread of mesothelioma, the rind-like encasement of the lung that defines the disease and makes complete surgical resection nearly impossible.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Mesothelioma resists caspase-3-mediated apoptosis through high anti-apoptotic protein expression, a key reason for its notorious chemoresistance and the only modest survival benefit of cytotoxic therapy.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Dual checkpoint blockade (nivolumab-ipilimumab) is now first-line for unresectable mesothelioma, and mesothelin-directed CAR-T cells aim to kill the tumor through perforin and granzyme, the cytotoxic effector mechanism of these immune therapies.
+- `connects-to` → **[Src kinase](../../03-molecular/src-kinase/README.md)** — The NF2/merlin loss common in mesothelioma disinhibits Src/FAK and the Hippo-YAP pathway at the membrane, driving the proliferation and loss of contact inhibition characteristic of these tumors.
+- `connects-to` → **[RAD51](../../03-molecular/rad51/README.md)** — BAP1 loss impairs homologous-recombination DNA repair in mesothelioma, leaving cells reliant on RAD51-dependent and alternative repair and raising the prospect of synthetic-lethal PARP inhibition in BAP1-deficient tumors.
 
 [^baas-2021-checkmate743]: Baas P, Scherpereel A, Nowak AK, et al. First-line nivolumab plus ipilimumab in unresectable malignant pleural mesothelioma (CheckMate 743). *Lancet.* 2021;397(10272):375-386. [doi:10.1016/S0140-6736(20)32714-8](https://doi.org/10.1016/S0140-6736(20)32714-8) · [PubMed 33485464](https://pubmed.ncbi.nlm.nih.gov/33485464/)
 [^vogelzang-2003-pemetrexed]: Vogelzang NJ, Rusthoven JJ, Symanowski J, et al. Phase III study of pemetrexed in combination with cisplatin versus cisplatin alone in patients with malignant pleural mesothelioma. *J Clin Oncol.* 2003;21(14):2636-2644. [doi:10.1200/JCO.2003.11.136](https://doi.org/10.1200/JCO.2003.11.136) · [PubMed 12860938](https://pubmed.ncbi.nlm.nih.gov/12860938/)

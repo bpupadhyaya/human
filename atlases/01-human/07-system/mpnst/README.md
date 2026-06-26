@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/pten
     relation: connects-to
     note: "PI3K activation: PTEN loss activates PI3K-AKT signalling during the progression of plexiform neurofibroma to MPNST, cooperating with the NF1-driven RAS hyperactivation to drive malignant transformation."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "Epigenetic dysregulation: loss of PRC2 (EZH2/SUZ12) that abolishes H3K27 trimethylation is a defining MPNST event, and the accompanying DNA-methylation changes reshape the epigenome, marking the malignant transformation from neurofibroma."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Immunotherapy: MPNST is an aggressive sarcoma being explored for cellular and checkpoint immunotherapy, which would kill tumour cells through perforin and granzyme — a needed option given its poor response to chemotherapy."
+  - target: 01-human/03-molecular/rad51
+    relation: connects-to
+    note: "Radioresistance: RAD51-mediated homologous-recombination repair helps MPNST survive radiation, a mechanism of the radioresistance that limits local control of these tumours, which themselves can arise in prior radiation fields."
 ---
 
 # MPNST
@@ -531,6 +540,9 @@ Wide local excision with negative margins is the only potentially curative inter
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCR4 on MPNST cells follows CXCL12 gradients to the lung, the dominant site of the metastasis that is the principal cause of death in these aggressive nerve-sheath sarcomas arising in neurofibromatosis type 1.
 - `connects-to` → **[KIT](../../03-molecular/kit/README.md)** — The plexiform neurofibromas from which MPNST arises are rich in KIT-dependent mast cells whose stem-cell-factor signaling supports the Schwann-cell tumor microenvironment and its progression toward malignancy.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss activates PI3K-AKT signaling during the progression of plexiform neurofibroma to MPNST, cooperating with the NF1-driven RAS hyperactivation and CDKN2A loss to drive the malignant transformation.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — Loss of PRC2 (EZH2/SUZ12) that abolishes H3K27 trimethylation is a defining MPNST event, and the accompanying DNA-methylation changes reshape the epigenome, marking the malignant transformation from neurofibroma.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — MPNST is an aggressive sarcoma being explored for cellular and checkpoint immunotherapy, which would kill tumor cells through perforin and granzyme—a needed option given its poor response to chemotherapy.
+- `connects-to` → **[RAD51](../../03-molecular/rad51/README.md)** — RAD51-mediated homologous-recombination repair helps MPNST survive radiation, a mechanism of the radioresistance that limits local control of these tumors, which themselves can arise in prior radiation fields.
 
 [^evans-2002-mpnst-nf1]: Evans DGR, Baser ME, McGaughran J, et al. Malignant peripheral nerve sheath tumours in neurofibromatosis 1. *J Med Genet.* 2002;39(5):311-314. [doi:10.1136/jmg.39.5.311](https://doi.org/10.1136/jmg.39.5.311) · [PubMed 12011145](https://pubmed.ncbi.nlm.nih.gov/12011145/)
 [^lee-2014-mpnst-prc2]: Lee W, Teckie S, Wiesner T, et al. PRC2 is recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve sheath tumors. *Nat Genet.* 2014;46(11):1227-1232. [doi:10.1038/ng.3095](https://doi.org/10.1038/ng.3095) · [PubMed 25240281](https://pubmed.ncbi.nlm.nih.gov/25240281/)
