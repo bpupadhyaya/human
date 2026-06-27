@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/bdnf
     relation: connects-to
     note: "Cognitive deficits: RAS-MAPK signalling is the effector arm of BDNF-TrkB synaptic plasticity, and its constitutive dysregulation in Noonan disrupts hippocampal long-term potentiation, contributing to the learning difficulties of the RASopathies."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Genital and pubertal: cryptorchidism is common in Noonan boys and, with the disordered RAS-MAPK signalling, can impair testosterone production and delay puberty, contributing to the reduced fertility seen in affected males."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "Skeletal manifestations: Noonan syndrome features reduced bone mineral density and skeletal anomalies (pectus, scoliosis), reflecting RANKL-driven osteoclast activity dysregulated within the broader RASopathy effects on bone."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Cardiac contraction: the hypertrophic cardiomyopathy of Noonan disrupts myocardial calcium handling and excitation-contraction coupling, the ionic basis of the impaired contractility and arrhythmia risk that accompany the structural heart disease."
 ---
 
 # Noonan Syndrome
@@ -537,6 +546,9 @@ NS is characterized by four cardinal features: **(1) short stature** (below 3rd 
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — TGF-β drives the interstitial myocardial fibrosis of Noonan hypertrophic cardiomyopathy and the myxomatous thickening of the dysplastic pulmonary valve, the structural cardiac lesions that define the syndrome's heart disease.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN is the lipid-phosphatase brake on the RAS-PI3K arm hyperactivated in Noonan; somatic second hits in this pathway underlie the predisposition to juvenile myelomonocytic leukemia and embryonal tumors.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — RAS-MAPK signaling is the effector arm of BDNF-TrkB synaptic plasticity, and its constitutive dysregulation in Noonan disrupts hippocampal long-term potentiation, contributing to the learning difficulties of the RASopathies.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Cryptorchidism is common in Noonan boys and, with the disordered RAS-MAPK signaling, can impair testosterone production and delay puberty, contributing to the reduced fertility seen in affected males.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Noonan syndrome features reduced bone mineral density and skeletal anomalies (pectus, scoliosis), reflecting RANKL-driven osteoclast activity dysregulated within the broader RASopathy effects on bone.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — The hypertrophic cardiomyopathy of Noonan disrupts myocardial calcium handling and excitation-contraction coupling, the ionic basis of the impaired contractility and arrhythmia risk that accompany the structural heart disease.
 
 [^tartaglia-2001-ptpn11-noonan]: Tartaglia M, Mehler EL, Goldberg R, et al. Mutations in PTPN11, encoding the protein tyrosine phosphatase SHP-2, cause Noonan syndrome. *Nat Genet.* 2001;29(4):465-468. [doi:10.1038/ng772](https://doi.org/10.1038/ng772) · [PubMed 11704759](https://pubmed.ncbi.nlm.nih.gov/11704759/)
 [^van-der-burgt-2007-noonan-review]: van der Burgt I. Noonan syndrome. *Orphanet J Rare Dis.* 2007;2:4. [doi:10.1186/1750-1172-2-4](https://doi.org/10.1186/1750-1172-2-4) · [PubMed 17222357](https://pubmed.ncbi.nlm.nih.gov/17222357/)

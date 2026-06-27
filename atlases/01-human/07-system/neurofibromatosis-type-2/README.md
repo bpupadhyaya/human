@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/kit
     relation: connects-to
     note: "Mast-cell infiltration: like other nerve-sheath tumours, NF2 schwannomas contain KIT-dependent mast cells whose stem-cell-factor signalling contributes to the inflammatory tumour microenvironment supporting their growth."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Meningioma calcification: NF2 causes multiple meningiomas, which characteristically form psammoma bodies — concentric calcified laminations — so intracranial calcification on imaging is a clue to the meningiomas of the syndrome."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "Methylation grading: the meningiomas of NF2 are classified and risk-stratified by DNA-methylation profiling, which predicts recurrence better than histology alone, making the methylome central to managing the syndrome's tumours."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Schwannoma growth: IGF-1R signalling supports the proliferation and survival of the bilateral vestibular schwannomas of NF2, a growth-factor input layered on the merlin-Hippo-YAP dysregulation that drives them."
 ---
 
 # Neurofibromatosis Type 2
@@ -519,6 +528,9 @@ Merlin has an N-terminal FERM domain (α, β, γ lobes) that binds membrane lipi
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling supports the growth of the bilateral vestibular schwannomas and meningiomas of NF2, positioning the tumor cells within their nerve and meningeal microenvironments.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Stereotactic radiosurgery for NF2 vestibular schwannomas kills tumor cells through caspase-3-mediated apoptosis, though radiation is used cautiously in NF2 given the merlin-deficient predisposition to radiation-induced new tumors.
 - `connects-to` → **[KIT](../../03-molecular/kit/README.md)** — Like other nerve-sheath tumors, NF2 schwannomas contain KIT-dependent mast cells whose stem-cell-factor signaling contributes to the inflammatory tumor microenvironment that supports their slow but relentless growth.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — NF2 causes multiple meningiomas, which characteristically form psammoma bodies—concentric calcified laminations—so intracranial calcification on imaging is a clue to the meningiomas of the syndrome.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — The meningiomas of NF2 are classified and risk-stratified by DNA-methylation profiling, which predicts recurrence better than histology alone, making the methylome central to managing the syndrome's tumors.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — IGF-1R signaling supports the proliferation and survival of the bilateral vestibular schwannomas of NF2, a growth-factor input layered on the merlin-Hippo-YAP dysregulation that drives them.
 
 [^asthagiri-2009-nf2-lancet]: Asthagiri AR, Parry DM, Butman JA, et al. Neurofibromatosis type 2. *Lancet.* 2009;373(9679):1974-1986. [doi:10.1016/S0140-6736(09)60259-2](https://doi.org/10.1016/S0140-6736(09)60259-2) · [PubMed 19476995](https://pubmed.ncbi.nlm.nih.gov/19476995/)
 [^plotkin-2009-nf2-bevacizumab]: Plotkin SR, Stemmer-Rachamimov AO, Barker FG 2nd, et al. Hearing improvement after bevacizumab in patients with neurofibromatosis type 2. *N Engl J Med.* 2009;361(4):358-367. [doi:10.1056/NEJMoa0902579](https://doi.org/10.1056/NEJMoa0902579) · [PubMed 19587327](https://pubmed.ncbi.nlm.nih.gov/19587327/)
