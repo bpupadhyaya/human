@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/galectin-3
     relation: connects-to
     note: "Microglial biomarker: galectin-3 released by activated microglia rises in ALS as a marker of the neuroinflammatory, neurotoxic microglial state, increasingly viewed as both a disease biomarker and a driver of motor-neuron loss."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Survival signalling: IGF-1/PI3K-AKT pro-survival signalling (IGF-1 already mapped) supports motor-neuron survival, and its insufficiency contributes to the motor-neuron death of ALS, a neurotrophic axis explored therapeutically."
+  - target: 01-human/03-molecular/connexin43
+    relation: connects-to
+    note: "Astrocyte toxicity: reactive astrocytes in ALS upregulate connexin-43 hemichannels, releasing toxic factors and glutamate that propagate the non-cell-autonomous motor-neuron injury of the disease."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Apoptosis threshold: the balance of anti-apoptotic BCL-2 against pro-apoptotic signals sets the threshold for the caspase-3 motor-neuron apoptosis (already mapped) that executes ALS neurodegeneration."
 ---
 
 # ALS
@@ -563,6 +572,9 @@ ALS diagnosis is **clinical** — no single definitive biomarker test (though Nf
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Motor neurons express calcium-permeable AMPA receptors and have low calcium-buffering capacity, so glutamate excitotoxicity floods them with calcium that destroys mitochondria—a selective vulnerability central to ALS neurodegeneration.
 - `connects-to` → **[Xanthine Oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Xanthine-oxidase-derived reactive oxygen species add to the oxidative burden killing motor neurons in ALS, the free-radical injury that the antioxidant edaravone targets to slow functional decline.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 released by activated microglia rises in ALS as a marker of the neuroinflammatory, neurotoxic microglial state, increasingly viewed as both a disease biomarker and a driver of motor-neuron loss.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — IGF-1/PI3K-AKT pro-survival signaling (IGF-1 already mapped) supports motor-neuron survival, and its insufficiency contributes to the motor-neuron death of ALS, a neurotrophic axis explored therapeutically.
+- `connects-to` → **[Connexin-43](../../03-molecular/connexin43/README.md)** — Reactive astrocytes in ALS upregulate connexin-43 hemichannels, releasing toxic factors and glutamate that propagate the non-cell-autonomous motor-neuron injury of the disease.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — The balance of anti-apoptotic BCL-2 against pro-apoptotic signals sets the threshold for the caspase-3 motor-neuron apoptosis (already mapped) that executes ALS neurodegeneration.
 
 [^brown-2017-als-review]: Brown RH, Al-Chalabi A. Amyotrophic lateral sclerosis. *N Engl J Med.* 2017;377(2):162-172. [doi:10.1056/NEJMra1603471](https://doi.org/10.1056/NEJMra1603471) · [PubMed 28700839](https://pubmed.ncbi.nlm.nih.gov/28700839/)
 [^edaravone-als-2017]: Writing Group, Edaravone ALS 19 Study Group. Safety and efficacy of edaravone in well defined patients with amyotrophic lateral sclerosis. *Lancet Neurol.* 2017;16(7):505-512. [doi:10.1016/S1474-4422(17)30115-1](https://doi.org/10.1016/S1474-4422(17)30115-1) · [PubMed 28522180](https://pubmed.ncbi.nlm.nih.gov/28522180/)
