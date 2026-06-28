@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/prostaglandins
     relation: connects-to
     note: "Antiplatelet prevention: low-dose aspirin, by shifting the platelet thromboxane-prostacyclin balance, is used in giant-cell arteritis to reduce the cranial-ischaemic events — visual loss and stroke — that complicate the occlusive vasculitis."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Inflammatory hub: NF-κB is the central transcription factor downstream of TLR4 and IL-1β (both mapped) that drives the cytokine output of the inflamed arterial wall in giant-cell arteritis."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Failed regulation: IL-10 from regulatory T cells normally counters the Th1/Th17 response, and its relative insufficiency permits the sustained vascular inflammation of giant-cell arteritis."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "Intimal hyperplasia: PDGF-driven (PDGF mapped) ERK signalling promotes the myointimal proliferation that narrows the affected artery, producing the ischaemic vision loss and stroke of giant-cell arteritis."
 ---
 
 # Giant Cell Arteritis
@@ -526,6 +535,9 @@ The temporal arteries supply scalp, temporalis muscle, and dura. In GCA, transmu
 - `connects-to` → **[Glucocorticoid receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — High-dose glucocorticoids acting through the glucocorticoid receptor are started urgently in giant-cell arteritis to prevent the irreversible blindness of ophthalmic-artery occlusion, with tocilizumab now allowing steroid sparing.
 - `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Angiopoietin- and VEGF-driven neovascularization of the inflamed arterial wall feeds the intimal hyperplasia that narrows the lumen in giant-cell arteritis, the occlusive remodeling behind the ischemic complications.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Low-dose aspirin, by shifting the platelet thromboxane-prostacyclin balance, is used in giant-cell arteritis to reduce the cranial-ischemic events—visual loss and stroke—that complicate the occlusive vasculitis.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB is the central transcription factor downstream of TLR4 and IL-1β (both mapped) that drives the cytokine output of the inflamed arterial wall in giant-cell arteritis.
+- `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — IL-10 from regulatory T cells normally counters the Th1/Th17 response, and its relative insufficiency permits the sustained vascular inflammation of giant-cell arteritis.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — PDGF-driven (PDGF mapped) ERK signaling promotes the myointimal proliferation that narrows the affected artery, producing the ischemic vision loss and stroke of giant-cell arteritis.
 
 [^stone-2017-giact]: Stone JH, Tuckwell K, Dimonaco S, et al. Trial of tocilizumab in giant-cell arteritis. *N Engl J Med.* 2017;377(4):317-328. [doi:10.1056/NEJMoa1613849](https://doi.org/10.1056/NEJMoa1613849) · [PubMed 28745999](https://pubmed.ncbi.nlm.nih.gov/28745999/)
 [^weyand-2014-gca-review]: Weyand CM, Goronzy JJ. Clinical practice. Giant-cell arteritis and polymyalgia rheumatica. *N Engl J Med.* 2014;371(1):50-57. [doi:10.1056/NEJMcp1214926](https://doi.org/10.1056/NEJMcp1214926) · [PubMed 24988557](https://pubmed.ncbi.nlm.nih.gov/24988557/)

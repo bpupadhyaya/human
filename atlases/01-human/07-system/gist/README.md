@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/foxo
     relation: connects-to
     note: "Survival signalling: oncogenic KIT signals through AKT to inactivate FOXO transcription factors, removing a pro-apoptotic brake — part of the survival programme that imatinib reverses by restoring FOXO activity in GIST cells."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K resistance: KIT and PDGFRA activate PI3K (AKT and mTOR already mapped), and acquired PIK3CA mutations are a mechanism of secondary resistance to imatinib in GIST."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "Loss-of-brake: PTEN normally restrains the same PI3K-AKT signalling, and its loss amplifies survival signalling, contributing to tyrosine-kinase-inhibitor resistance in GIST."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Cell-cycle output: the cyclin-D1-CDK4/6 axis (cyclin-D1 mapped, with CDKN2A loss in malignant GIST) releases E2F1 to drive the proliferation that distinguishes high-risk from indolent tumours."
 ---
 
 # GIST
@@ -542,6 +551,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — In SDH-deficient wild-type GIST, accumulated succinate also inhibits the TET DNA-demethylases, producing a globally hypermethylated genome that drives a distinct epigenetic subtype of the disease.
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Imatinib's killing of KIT-driven GIST depends on tipping the BCL-2-family balance toward apoptosis, and persistent anti-apoptotic signaling leaves a residual drug-tolerant cell population that underlies relapse on therapy.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — Oncogenic KIT signals through AKT to inactivate FOXO transcription factors, removing a pro-apoptotic brake—part of the survival program that imatinib reverses by restoring FOXO activity in GIST cells.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — KIT and PDGFRA activate PI3K (AKT and mTOR already mapped), and acquired PIK3CA mutations are a mechanism of secondary resistance to imatinib in GIST.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN normally restrains the same PI3K-AKT signaling, and its loss amplifies survival signaling, contributing to tyrosine-kinase-inhibitor resistance in GIST.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — The cyclin-D1-CDK4/6 axis (cyclin-D1 mapped, with CDKN2A loss in malignant GIST) releases E2F1 to drive the proliferation that distinguishes high-risk from indolent tumors.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
