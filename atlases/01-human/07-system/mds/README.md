@@ -307,6 +307,15 @@ cross_links:
   - target: 01-human/03-molecular/cxcl12
     relation: connects-to
     note: "Niche dependence: CXCL12 from marrow stromal cells anchors the MDS clone in its bone-marrow niche, and a disordered, inflammatory niche both supports the dysplastic clone and contributes to the ineffective haematopoiesis that defines the disease."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Innate-immune drive: chronic TLR4 activation by danger signals such as the S100A8/A9 already mapped fuels the NLRP3-inflammasome inflammation and pyroptotic cell death behind the ineffective haematopoiesis of MDS."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "Ineffective erythropoiesis: TGF-β-SMAD signalling represses erythroid maturation in MDS, the mechanism that luspatercept — acting on the activin/SMAD pathway already mapped — relieves to improve transfusion-dependent anaemia."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Inflammatory anaemia: IL-6 in the MDS marrow microenvironment drives hepcidin and the anaemia of inflammation while suppressing residual normal haematopoiesis, deepening the cytopenias of the disease."
 ---
 
 # Myelodysplastic Syndromes
@@ -514,6 +523,9 @@ MDS → AML transformation rate: ~10% at 1 year for very-low risk; ~40-50% at 2 
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Higher-risk MDS evolving toward AML becomes dependent on anti-apoptotic BCL-2, the rationale for adding venetoclax to hypomethylating agents to push the dysplastic clone back into the apoptosis it has been evading.
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — In TP53-wild-type MDS, high MDM2 holds p53 in check, so MDM2 inhibitors are a strategy to reactivate p53-driven apoptosis—distinct from the dismal-prognosis TP53-mutant MDS where the protein itself is lost.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12 from marrow stromal cells anchors the MDS clone in its bone-marrow niche, and a disordered, inflammatory niche both supports the dysplastic clone and contributes to the ineffective hematopoiesis that defines the disease.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Chronic TLR4 activation by danger signals such as the S100A8/A9 already mapped fuels the NLRP3-inflammasome inflammation and pyroptotic cell death behind the ineffective hematopoiesis of MDS.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling represses erythroid maturation in MDS, the mechanism that luspatercept—acting on the activin/SMAD pathway already mapped—relieves to improve transfusion-dependent anemia.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 in the MDS marrow microenvironment drives hepcidin and the anemia of inflammation while suppressing residual normal hematopoiesis, deepening the cytopenias of the disease.
 
 [^fenaux-2009-aza001]: Fenaux P, Mufti GJ, Hellstrom-Lindberg E, et al. Efficacy of azacitidine compared with conventional care regimens in patients with higher-risk myelodysplastic syndromes. *Lancet Oncol.* 2009;10(3):223-232. [doi:10.1016/S1470-2045(09)70003-8](https://doi.org/10.1016/S1470-2045(09)70003-8) · [PubMed 19230772](https://pubmed.ncbi.nlm.nih.gov/19230772/)
 [^fenaux-2020-medalist]: Fenaux P, Platzbecker U, Mufti GJ, et al. Luspatercept in patients with lower-risk myelodysplastic syndromes. *N Engl J Med.* 2020;382(2):140-151. [doi:10.1056/NEJMoa1908892](https://doi.org/10.1056/NEJMoa1908892) · [PubMed 31914241](https://pubmed.ncbi.nlm.nih.gov/31914241/)

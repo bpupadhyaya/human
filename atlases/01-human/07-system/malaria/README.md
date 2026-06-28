@@ -312,6 +312,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative stress: parasite digestion of haemoglobin and host xanthine-oxidase activity generate reactive oxygen species during blood-stage malaria, the oxidative pressure against which G6PD and sickle-cell traits confer their protective advantage."
+  - target: 01-human/03-molecular/protein-c
+    relation: connects-to
+    note: "Cerebral-malaria coagulopathy: P. falciparum PfEMP1 binds endothelial EPCR, displacing protein C and crippling its anticoagulant and barrier-protective signalling, a mechanism of the microvascular thrombosis and brain swelling of severe malaria."
+  - target: 01-human/03-molecular/ferroportin
+    relation: connects-to
+    note: "Iron sequestration: malarial inflammation drives hepcidin (already mapped), which degrades ferroportin to lock iron inside macrophages, producing the hypoferraemia and anaemia of malaria while restricting iron from the parasite."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Cytokine storm: IL-6 is part of the pro-inflammatory cytokine surge (with the TNF-α and IL-1β already mapped) that drives the high fever and systemic pathology of severe Plasmodium infection."
 ---
 
 # Malaria
@@ -568,6 +577,9 @@ cross_links:
 - `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Endothelin-1 released by the activated, parasite-sequestered cerebral endothelium causes vasoconstriction and blood-brain-barrier dysfunction, contributing to the impaired perfusion and coma of cerebral malaria.
 - `connects-to` → **[RAGE](../../03-molecular/rage/README.md)** — The malaria pigment hemozoin and the DAMP HMGB1 signal through RAGE to amplify the inflammatory cascade, contributing to the cytokine-driven immunopathology of severe and cerebral malaria.
 - `connects-to` → **[Xanthine Oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Parasite digestion of hemoglobin and host xanthine-oxidase activity generate reactive oxygen species during blood-stage malaria, the oxidative pressure against which G6PD and sickle-cell traits confer their protective advantage.
+- `connects-to` → **[Protein C](../../03-molecular/protein-c/README.md)** — P. falciparum PfEMP1 binds endothelial EPCR, displacing protein C and crippling its anticoagulant and barrier-protective signaling, a mechanism of the microvascular thrombosis and brain swelling of severe malaria.
+- `connects-to` → **[Ferroportin](../../03-molecular/ferroportin/README.md)** — Malarial inflammation drives hepcidin (already mapped), which degrades ferroportin to lock iron inside macrophages, producing the hypoferremia and anemia of malaria while restricting iron from the parasite.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 is part of the pro-inflammatory cytokine surge (with the TNF-α and IL-1β already mapped) that drives the high fever and systemic pathology of severe Plasmodium infection.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)
