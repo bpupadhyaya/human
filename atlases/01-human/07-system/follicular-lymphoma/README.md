@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/dnmt3a
     relation: connects-to
     note: "Epigenetic dysregulation: follicular lymphoma is driven heavily by mutations in chromatin modifiers (CREBBP, KMT2D, EZH2) that, with altered DNA methylation, lock the cell in a germinal-centre programme — the epigenetic basis for EZH2-inhibitor therapy."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "PI3K target: PTEN loss and PI3K-AKT activation (PIK3CA, AKT and mTOR already mapped) support follicular-lymphoma survival, the pathway the PI3K inhibitors copanlisib and idelalisib block in relapsed disease."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Proliferative output: the cyclin-D-CDK4/6 axis (CDK4/6 already mapped) releases E2F1 to drive cell-cycle entry, an increasingly active programme as follicular lymphoma acquires higher grade."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "Histologic transformation: CDKN2A loss is a recurrent driver of the transformation of indolent follicular lymphoma into aggressive diffuse large B-cell lymphoma."
 ---
 
 # Follicular Lymphoma
@@ -537,6 +546,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — CD20-CD3 bispecific antibodies (mosunetuzumab) and CD19 CAR-T cells redirect cytotoxic T cells to kill follicular-lymphoma cells through perforin and granzyme, highly active options in relapsed disease.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Anti-CD20 antibodies (rituximab, obinutuzumab), the backbone of follicular-lymphoma therapy, kill cells partly through complement-dependent cytotoxicity, fixing C3 and the membrane-attack complex on the malignant B cells.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — Follicular lymphoma is driven heavily by mutations in chromatin modifiers (CREBBP, KMT2D, EZH2) that, with altered DNA methylation, lock the cell in a germinal-center program—the epigenetic basis for EZH2-inhibitor therapy.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss and PI3K-AKT activation (PIK3CA, AKT and mTOR already mapped) support follicular-lymphoma survival, the pathway the PI3K inhibitors copanlisib and idelalisib block in relapsed disease.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — The cyclin-D-CDK4/6 axis (CDK4/6 already mapped) releases E2F1 to drive cell-cycle entry, an increasingly active program as follicular lymphoma acquires higher grade.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A loss is a recurrent driver of the transformation of indolent follicular lymphoma into aggressive diffuse large B-cell lymphoma.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

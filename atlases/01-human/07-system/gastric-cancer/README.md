@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/perforin
     relation: connects-to
     note: "Immunotherapy killing: checkpoint inhibitors and emerging CAR-T against targets like Claudin18.2 work by unleashing cytotoxic T cells that kill gastric-cancer cells through perforin and granzyme, especially in the EBV-positive and MSI-high subtypes."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "MAPK convergence: HER2, EGFR, KRAS, FGFR2 and MET (all already mapped) funnel into the MAPK-ERK cascade, the proliferative hub driving gastric carcinoma."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Growth axis: mTOR completes the PI3K-AKT-mTOR pathway (PIK3CA and AKT already mapped) that sustains growth and survival signalling in gastric cancer."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Inflammatory initiation: Helicobacter-pylori-induced IL-1β both suppresses gastric acid and drives the chronic inflammation that initiates carcinogenesis, and IL1B polymorphisms raise gastric-cancer risk."
 ---
 
 # Gastric Cancer
@@ -558,6 +567,9 @@ H. pylori eradication: Reduces GC incidence by ~35-40% (meta-analyses); most ben
 - `connects-to` → **[LMP1](../../03-molecular/lmp1/README.md)** — About a tenth of gastric cancers are driven by Epstein-Barr virus, a molecularly distinct subtype with PD-L1 amplification and dense immune infiltration that is especially responsive to checkpoint blockade.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Perioperative FLOT and platinum-based regimens kill gastric-cancer cells through caspase-3-mediated apoptosis, the cytotoxic backbone whose effect on the resected tumor predicts outcome.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Checkpoint inhibitors and emerging CAR-T against targets like Claudin18.2 work by unleashing cytotoxic T cells that kill gastric-cancer cells through perforin and granzyme, especially in the EBV-positive and MSI-high subtypes.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — HER2, EGFR, KRAS, FGFR2 and MET (all already mapped) funnel into the MAPK-ERK cascade, the proliferative hub driving gastric carcinoma.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR completes the PI3K-AKT-mTOR pathway (PIK3CA and AKT already mapped) that sustains growth and survival signaling in gastric cancer.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Helicobacter-pylori-induced IL-1β both suppresses gastric acid and drives the chronic inflammation that initiates carcinogenesis, and IL1B polymorphisms raise gastric-cancer risk.
 
 [^bang-2010-toga]: Bang YJ, Van Cutsem E, Feyereislova A, et al. Trastuzumab in combination with chemotherapy versus chemotherapy alone for treatment of HER2-positive advanced gastric or gastro-oesophageal junction cancer (ToGA): a phase 3, open-label, randomised controlled trial. *Lancet.* 2010;376(9742):687-697. [doi:10.1016/S0140-6736(10)61121-X](https://doi.org/10.1016/S0140-6736(10)61121-X) · [PubMed 20728210](https://pubmed.ncbi.nlm.nih.gov/20728210/)
 [^janjigian-2021-checkmate649]: Janjigian YY, Shitara K, Moehler M, et al. First-line nivolumab plus chemotherapy versus chemotherapy alone for advanced gastric, gastro-oesophageal junction, and oesophageal adenocarcinoma (CheckMate 649). *Lancet.* 2021;398(10294):27-40. [doi:10.1016/S0140-6736(21)00797-2](https://doi.org/10.1016/S0140-6736(21)00797-2) · [PubMed 34102137](https://pubmed.ncbi.nlm.nih.gov/34102137/)
