@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/nfe2l2
     relation: connects-to
     note: "Oxidative defence: lipotoxic reactive oxygen species in MASH engage the NRF2 antioxidant programme, and inadequate NRF2 defence allows the oxidative hepatocyte injury that drives the progression from steatosis to steatohepatitis."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Lipogenesis switch: mTORC1 drives the SREBP-mediated de novo lipogenesis of hepatic steatosis, opposing the AMPK energy sensor (mapped) in the metabolic imbalance that initiates NASH."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "Fibrosis effector: TGF-β signals through SMAD4 (TGF-β mapped) to activate hepatic stellate cells, the transcriptional driver of the collagen (mapped) fibrosis that defines progressive NASH."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Gut-liver axis: gut-derived endotoxin engages hepatic TLR4 (mapped) and MyD88 to NF-κB (mapped), the innate-immune signalling that converts steatosis into inflammatory steatohepatitis."
 ---
 
 # NASH
@@ -512,6 +521,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Hepatic insulin signaling through AKT (insulin-receptor already mapped) becomes selectively impaired in MASH, so gluconeogenesis escapes suppression while lipogenesis persists—the paradox that fuels steatosis.
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — The AMPK energy sensor (the target of the metformin already mapped, activated by adiponectin) restrains hepatic de-novo lipogenesis, and its relative inactivity in MASH permits the fat accumulation that initiates the disease.
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — Lipotoxic reactive oxygen species in MASH engage the NRF2 antioxidant program, and inadequate NRF2 defense allows the oxidative hepatocyte injury that drives the progression from steatosis to steatohepatitis.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTORC1 drives the SREBP-mediated de novo lipogenesis of hepatic steatosis, opposing the AMPK energy sensor (mapped) in the metabolic imbalance that initiates NASH.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β signals through SMAD4 (TGF-β mapped) to activate hepatic stellate cells, the transcriptional driver of the collagen (mapped) fibrosis that defines progressive NASH.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Gut-derived endotoxin engages hepatic TLR4 (mapped) and MyD88 to NF-κB (mapped), the innate-immune signaling that converts steatosis into inflammatory steatohepatitis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

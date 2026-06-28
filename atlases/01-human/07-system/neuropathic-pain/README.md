@@ -303,6 +303,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "Analgesic restraint: TGF-β exerts a neuroprotective, analgesic influence that restrains microglial activation in neuropathic pain, and its loss permits the neuroinflammation that maintains the chronic pain state."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "Central sensitization: BDNF-TrkB (BDNF and NTRK mapped) and inflammatory signalling activate MAPK-ERK in dorsal-horn neurons and microglia, driving the central sensitization that amplifies neuropathic pain."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Translation-dependent maintenance: spinal mTOR-driven protein synthesis sustains the long-term central sensitization that maintains the chronic neuropathic pain state."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Microglial activation: TLR4 (mapped) signalling through MyD88 activates spinal microglia after nerve injury, a key neuroinflammatory amplifier of neuropathic pain."
 sources:
   - id: jensen-2011-neuropathic-pain-review
     type: peer-reviewed
@@ -561,6 +570,9 @@ Chronic neuropathic pain carries significant psychological burden:
 - `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — Anti-inflammatory IL-10 suppresses the glial pro-inflammatory cytokines (IL-1β, IL-6 and TNF-α already mapped) that sustain neuropathic pain, the rationale for IL-10-based pain-resolution strategies.
 - `connects-to` → **[Connexin-43](../../03-molecular/connexin43/README.md)** — Astrocytic connexin-43 gap junctions and hemichannels propagate central sensitization across the spinal dorsal horn, releasing ATP and glutamate (already mapped) that amplify and spread neuropathic pain.
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β exerts a neuroprotective, analgesic influence that restrains microglial activation in neuropathic pain, and its loss permits the neuroinflammation that maintains the chronic pain state.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — BDNF-TrkB (BDNF and NTRK mapped) and inflammatory signaling activate MAPK-ERK in dorsal-horn neurons and microglia, driving the central sensitization that amplifies neuropathic pain.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Spinal mTOR-driven protein synthesis sustains the long-term central sensitization that maintains the chronic neuropathic pain state.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR4 (mapped) signaling through MyD88 activates spinal microglia after nerve injury, a key neuroinflammatory amplifier of neuropathic pain.
 
 [^jensen-2011-neuropathic-pain-review]: Jensen TS, Baron R, Haanpää M, et al. A new definition of neuropathic pain. *Pain.* 2011;152(10):2204-2205. [doi:10.1016/j.pain.2011.06.017](https://doi.org/10.1016/j.pain.2011.06.017) · [PubMed 21764514](https://pubmed.ncbi.nlm.nih.gov/21764514/)
 [^dworkin-2010-neuropathic-pain-treatment]: Dworkin RH, O'Connor AB, Audette J, et al. Recommendations for the pharmacological management of neuropathic pain. *Mayo Clin Proc.* 2010;85(3 Suppl):S3-14. [doi:10.4065/mcp.2009.0649](https://doi.org/10.4065/mcp.2009.0649) · [PubMed 20194146](https://pubmed.ncbi.nlm.nih.gov/20194146/)
