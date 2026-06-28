@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/mdm2
     relation: connects-to
     note: "Blast-crisis p53: TP53 inactivation, often through MDM2 overexpression, accompanies the transformation of CML to blast crisis, removing the apoptotic brake and conferring the resistance that makes advanced-phase disease so hard to treat."
+  - target: 01-human/03-molecular/kras
+    relation: connects-to
+    note: "RAS-MAPK output: BCR-ABL1 activates RAS, driving the MAPK-ERK cascade (ERK1/2 already mapped) that is a core proliferative output of the Philadelphia-chromosome fusion kinase."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "Survival arm: BCR-ABL1 engages PI3K, initiating the AKT-mTOR signalling (both already mapped) that provides the survival limb cooperating with proliferative RAS-MAPK and JAK-STAT signalling in CML."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Cell-cycle drive: BCR-ABL1 signalling pushes the cyclin-D1-RB axis (cyclin-D1 and RB1 already mapped) to release E2F1, and CDKN2A loss in lymphoid blast crisis further unleashes this proliferative transcription."
 ---
 
 # Chronic Myeloid Leukemia
@@ -524,6 +533,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — CML was the disease in which donor T- and NK-cell perforin-mediated killing of leukemic cells—graft-versus-leukemia, the basis of donor lymphocyte infusion—was first proven curative, the paradigm of cellular immunotherapy.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — Additional mutations such as DNMT3A acquired on the BCR-ABL background drive the progression of chronic-phase CML to accelerated phase and blast crisis, the transformation that TKIs do not by themselves prevent.
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — TP53 inactivation, often through MDM2 overexpression, accompanies the transformation of CML to blast crisis, removing the apoptotic brake and conferring the resistance that makes advanced-phase disease so hard to treat.
+- `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — BCR-ABL1 activates RAS, driving the MAPK-ERK cascade (ERK1/2 already mapped) that is a core proliferative output of the Philadelphia-chromosome fusion kinase.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — BCR-ABL1 engages PI3K, initiating the AKT-mTOR signaling (both already mapped) that provides the survival limb cooperating with proliferative RAS-MAPK and JAK-STAT signaling in CML.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — BCR-ABL1 signaling pushes the cyclin-D1-RB axis (cyclin-D1 and RB1 already mapped) to release E2F1, and CDKN2A loss in lymphoid blast crisis further unleashes this proliferative transcription.
 
 ---
 
