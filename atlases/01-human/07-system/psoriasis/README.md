@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/leptin
     relation: connects-to
     note: "Metabolic comorbidity: leptin is elevated in psoriasis and promotes Th17 responses, mechanistically tying the disease to the obesity, metabolic syndrome and cardiovascular risk that are its major systemic comorbidities."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "Keratinocyte hyperproliferation: EGFR-driven ERK signalling (EGFR already mapped) propels the keratinocyte hyperproliferation that thickens the psoriatic plaque, the epidermal response to the inflammatory cytokine milieu."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 arm: Th1-derived IFN-γ contributes to the early and chronic inflammation of psoriasis alongside the dominant IL-23/IL-17 axis already mapped, activating keratinocytes and dendritic cells."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Lost regulation: a relative deficiency of regulatory IL-10 in psoriatic skin fails to restrain the Th17 inflammation, an imbalance that helps sustain the chronic plaque."
 ---
 
 # Psoriasis
@@ -526,6 +535,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[Glucocorticoid receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Corticosteroids acting through the glucocorticoid receptor are the most widely used topical therapy for psoriasis, broadly suppressing the keratinocyte and immune inflammation of the plaque, often combined with vitamin-D analogues.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Vitamin-D analogues like calcipotriol act on the keratinocyte calcium-differentiation program that is disordered in psoriasis, normalizing the abnormal proliferation and maturation of the epidermis in the plaque.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Leptin is elevated in psoriasis and promotes Th17 responses, mechanistically tying the disease to the obesity, metabolic syndrome and cardiovascular risk that are its major systemic comorbidities.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — EGFR-driven ERK signaling (EGFR already mapped) propels the keratinocyte hyperproliferation that thickens the psoriatic plaque, the epidermal response to the inflammatory cytokine milieu.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1-derived IFN-γ contributes to the early and chronic inflammation of psoriasis alongside the dominant IL-23/IL-17 axis already mapped, activating keratinocytes and dendritic cells.
+- `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — A relative deficiency of regulatory IL-10 in psoriatic skin fails to restrain the Th17 inflammation, an imbalance that helps sustain the chronic plaque.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

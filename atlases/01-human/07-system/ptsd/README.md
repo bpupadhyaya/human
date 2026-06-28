@@ -315,6 +315,15 @@ cross_links:
   - target: 01-human/03-molecular/acetylcholine
     relation: connects-to
     note: "Autonomic startle: cholinergic signalling contributes to the exaggerated startle response and autonomic hyperreactivity of PTSD, the parasympathetic-sympathetic imbalance that accompanies the noradrenergic hyperarousal."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "Fear-memory consolidation: ERK-MAPK signalling in the amygdala consolidates and reconsolidates fear memories, the molecular substrate of the intrusive traumatic-memory persistence and reactivity central to PTSD."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Reconsolidation and extinction: synaptic mTOR-dependent protein synthesis underlies the reconsolidation and extinction of fear memory, a plasticity mechanism of interest for memory-targeted PTSD treatments."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Stress neuroinflammation: innate-immune TLR4 signalling links chronic traumatic stress to the neuroinflammation (IL-1β, IL-6 and TNF-α already mapped) increasingly implicated in the pathophysiology of PTSD."
 ---
 
 # PTSD
@@ -549,6 +558,9 @@ Not all trauma leads to PTSD. Risk and resilience factors include:
 - `connects-to` → **[Orexin](../../03-molecular/orexin/README.md)** — Elevated orexin signaling drives the chronic hyperarousal, fragmented sleep and nightmares of PTSD, the wake-promoting system whose overactivity underlies the disorder's prominent sleep disturbance.
 - `connects-to` → **[Ghrelin](../../03-molecular/ghrelin/README.md)** — Ghrelin enhances fear learning and the persistence of traumatic memories, a stress-responsive hormone that potentiates amygdala fear circuits and is implicated in the over-consolidated fear memory at the core of PTSD.
 - `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Cholinergic signaling contributes to the exaggerated startle response and autonomic hyperreactivity of PTSD, the parasympathetic-sympathetic imbalance that accompanies the noradrenergic hyperarousal.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling in the amygdala consolidates and reconsolidates fear memories, the molecular substrate of the intrusive traumatic-memory persistence and reactivity central to PTSD.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Synaptic mTOR-dependent protein synthesis underlies the reconsolidation and extinction of fear memory, a plasticity mechanism of interest for memory-targeted PTSD treatments.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Innate-immune TLR4 signaling links chronic traumatic stress to the neuroinflammation (IL-1β, IL-6 and TNF-α already mapped) increasingly implicated in the pathophysiology of PTSD.
 
 [^yehuda-2015-ptsd-review]: Yehuda R, Hoge CW, McFarlane AC, et al. Post-traumatic stress disorder. *Nat Rev Dis Primers.* 2015;1:15057. [doi:10.1038/nrdp.2015.57](https://doi.org/10.1038/nrdp.2015.57) · [PubMed 27189040](https://pubmed.ncbi.nlm.nih.gov/27189040/)
 [^foa-2019-ptsd-treatments]: Foa EB, McLean CP. The efficacy of exposure therapy for anxiety and related disorders. *Annu Rev Clin Psychol.* 2016;12:1-28. [doi:10.1146/annurev-clinpsy-021815-093533](https://doi.org/10.1146/annurev-clinpsy-021815-093533) · [PubMed 26928206](https://pubmed.ncbi.nlm.nih.gov/26928206/)
