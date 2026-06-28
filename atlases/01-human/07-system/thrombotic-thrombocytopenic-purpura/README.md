@@ -319,6 +319,15 @@ cross_links:
   - target: 01-human/03-molecular/btk
     relation: connects-to
     note: "Autoantibody production: in acquired TTP, Bruton's tyrosine kinase relays B-cell-receptor signals in the autoreactive B cells that make anti-ADAMTS13 antibodies, an axis (with the CD20 cells and BAFF already mapped) of interest for B-cell-directed therapy."
+  - target: 01-human/03-molecular/ctla-4
+    relation: connects-to
+    note: "Tolerance breakdown: impaired CTLA-4-dependent regulatory T-cell control underlies the loss of self-tolerance that permits the anti-ADAMTS13 autoantibody response of acquired TTP."
+  - target: 01-human/03-molecular/thrombopoietin
+    relation: connects-to
+    note: "Platelet consumption: the consumptive thrombocytopenia of TTP, as platelets are swept into microthrombi, drives a compensatory thrombopoietin response reflecting the high platelet turnover."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "Endothelial activation: Ang-2 release from activated endothelium amplifies the endothelial dysfunction of the thrombotic microangiopathy, promoting the microvascular platelet thrombosis of TTP."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -574,6 +583,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — Disseminated platelet-VWF microthrombi occlude the microvasculature of TTP, and the resulting tissue hypoxia drives HIF-1α responses in brain, kidney and heart—the basis of its neurological and cardiac end-organ injury.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VEGF maintains endothelial and glomerular health, and its blockade causes drug-induced thrombotic microangiopathy that mimics TTP—distinguishing VEGF-disruption TMA from the ADAMTS13-deficient disease.
 - `connects-to` → **[BTK](../../03-molecular/btk/README.md)** — In acquired TTP, Bruton's tyrosine kinase relays B-cell-receptor signals in the autoreactive B cells that make anti-ADAMTS13 antibodies, an axis (with the CD20 cells and BAFF already mapped) of interest for B-cell-directed therapy.
+- `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Impaired CTLA-4-dependent regulatory T-cell control underlies the loss of self-tolerance that permits the anti-ADAMTS13 autoantibody response of acquired TTP.
+- `connects-to` → **[Thrombopoietin](../../03-molecular/thrombopoietin/README.md)** — The consumptive thrombocytopenia of TTP, as platelets are swept into microthrombi, drives a compensatory thrombopoietin response reflecting the high platelet turnover.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Ang-2 release from activated endothelium amplifies the endothelial dysfunction of the thrombotic microangiopathy, promoting the microvascular platelet thrombosis of TTP.
 
 ---
 

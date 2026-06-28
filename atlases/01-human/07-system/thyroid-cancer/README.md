@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "Differentiation control: NOTCH signalling governs thyroid follicular- and C-cell differentiation and is dysregulated in thyroid carcinoma, where restoring NOTCH activity can re-induce the differentiated, iodine-handling phenotype."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Cell-cycle drive: the cyclin-D1-CDK4/6 axis (cyclin-D1 mapped, with CDKN2A loss in aggressive disease) releases E2F1 to drive thyroid-carcinoma proliferation."
+  - target: 01-human/03-molecular/cdh1
+    relation: connects-to
+    note: "EMT and dedifferentiation: loss of E-cadherin during epithelial-mesenchymal transition promotes invasion and the dedifferentiation toward the aggressive, RAI-refractory anaplastic thyroid carcinoma."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "Anaplastic transformation: MDM2-mediated suppression and outright TP53 mutation (p53 mapped) inactivate p53 in the progression to anaplastic thyroid carcinoma, removing its apoptotic and cell-cycle brake."
 ---
 
 # Thyroid Cancer
@@ -555,6 +564,9 @@ Calcitonin doubling time <6 months → poor prognosis → early systemic therapy
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — The BRAF, RET and RAS lesions of thyroid cancer all converge on the MAPK cascade to activate ERK1/2, the central proliferative pathway targeted by BRAF/MEK inhibitors and exploited in redifferentiation therapy to restore iodine uptake.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss—germline in the Cowden syndrome already mapped—activates the PI3K-AKT-mTOR pathway that drives follicular and anaplastic thyroid carcinoma, complementing the AKT and mTOR already mapped.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH signaling governs thyroid follicular- and C-cell differentiation and is dysregulated in thyroid carcinoma, where restoring NOTCH activity can re-induce the differentiated, iodine-handling phenotype.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — The cyclin-D1-CDK4/6 axis (cyclin-D1 mapped, with CDKN2A loss in aggressive disease) releases E2F1 to drive thyroid-carcinoma proliferation.
+- `connects-to` → **[CDH1](../../03-molecular/cdh1/README.md)** — Loss of E-cadherin during epithelial-mesenchymal transition promotes invasion and the dedifferentiation toward the aggressive, RAI-refractory anaplastic thyroid carcinoma.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated suppression and outright TP53 mutation (p53 mapped) inactivate p53 in the progression to anaplastic thyroid carcinoma, removing its apoptotic and cell-cycle brake.
 
 [^schlumberger-2015-lenvatinib]: Schlumberger M, Tahara M, Wirth LJ, et al. Lenvatinib versus placebo in radioiodine-refractory differentiated thyroid cancer. *N Engl J Med.* 2015;372(7):621-630. [doi:10.1056/NEJMoa1406470](https://doi.org/10.1056/NEJMoa1406470) · [PubMed 25671254](https://pubmed.ncbi.nlm.nih.gov/25671254/)
 [^subbiah-2018-atc-dabrafenib]: Subbiah V, Kreitman RJ, Wainberg ZA, et al. Dabrafenib and trametinib treatment in patients with locally advanced or metastatic BRAF V600-mutant anaplastic thyroid cancer. *J Clin Oncol.* 2018;36(1):7-13. [doi:10.1200/JCO.2017.73.6785](https://doi.org/10.1200/JCO.2017.73.6785) · [PubMed 28892432](https://pubmed.ncbi.nlm.nih.gov/28892432/)
