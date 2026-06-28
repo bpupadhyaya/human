@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/dnmt3a
     relation: connects-to
     note: "Epigenetic subtyping: pancreatic neuroendocrine tumours are shaped by chromatin and DNA-methylation changes (MEN1, DAXX/ATRX), and methylation profiling defines clinically distinct subgroups, making the epigenome central to their classification."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "Growth axis: PIK3CA drives the PI3K-AKT-mTOR pathway (AKT and mTOR already mapped) in neuroendocrine tumours, the basis for the mTOR inhibitor everolimus in their treatment."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "DLL3-Notch axis: the Notch ligand DLL3 (mapped) is aberrantly expressed in high-grade neuroendocrine tumours, and dysregulated NOTCH signalling shapes their differentiation, with DLL3 itself a bispecific-antibody target."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Proliferative grading: the cyclin-D-CDK4/6 axis (cyclin-D1 and CDKN2A already mapped) releases E2F1 to drive the cell-cycle activity reflected in the Ki67 index that grades neuroendocrine tumours."
 ---
 
 # Neuroendocrine Tumors
@@ -516,6 +525,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — The DLL3-CD3 bispecific tarlatamab redirects cytotoxic T cells to kill DLL3-expressing high-grade neuroendocrine carcinomas through perforin and granzyme, an immunotherapy advance for tumors beyond somatostatin-based control.
 - `connects-to` → **[VHL](../../03-molecular/vhl/README.md)** — Von Hippel-Lindau disease predisposes to pancreatic neuroendocrine tumors, one of several inherited syndromes—with MEN1, NF1 and tuberous sclerosis—that cause NETs and prompt germline testing in young or multifocal cases.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — Pancreatic neuroendocrine tumors are shaped by chromatin and DNA-methylation changes (MEN1, DAXX/ATRX), and methylation profiling defines clinically distinct subgroups, making the epigenome central to their classification.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PIK3CA drives the PI3K-AKT-mTOR pathway (AKT and mTOR already mapped) in neuroendocrine tumors, the basis for the mTOR inhibitor everolimus in their treatment.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — The Notch ligand DLL3 (mapped) is aberrantly expressed in high-grade neuroendocrine tumors, and dysregulated NOTCH signaling shapes their differentiation, with DLL3 itself a bispecific-antibody target.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — The cyclin-D-CDK4/6 axis (cyclin-D1 and CDKN2A already mapped) releases E2F1 to drive the cell-cycle activity reflected in the Ki67 index that grades neuroendocrine tumors.
 
 [^yao-2011-radiant3]: Yao JC, Shah MH, Ito T, et al. Everolimus for advanced pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):514-523. [doi:10.1056/NEJMoa1009290](https://doi.org/10.1056/NEJMoa1009290) · [PubMed 21306237](https://pubmed.ncbi.nlm.nih.gov/21306237/)
 [^raymond-2011-sunitinib-pnet]: Raymond E, Dahan L, Raoul JL, et al. Sunitinib malate for the treatment of pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):501-513. [doi:10.1056/NEJMoa1003825](https://doi.org/10.1056/NEJMoa1003825) · [PubMed 21306236](https://pubmed.ncbi.nlm.nih.gov/21306236/)

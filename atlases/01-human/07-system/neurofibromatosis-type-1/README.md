@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/dnmt3a
     relation: connects-to
     note: "Malignant-transformation epigenetics: progression of plexiform neurofibroma to MPNST involves loss of PRC2 (EZH2/SUZ12) and accompanying DNA-methylation changes, the epigenetic catastrophe layered on the NF1-driven RAS activation in the malignant nerve-sheath tumour."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K limb: loss of neurofibromin's RAS-GAP activity hyperactivates RAS, which engages PI3K-AKT-mTOR (AKT and mTOR already mapped) alongside the RAS-MAPK cascade in NF1-driven tumours."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "Malignant transformation: TP53 inactivation is a key event driving the progression of a plexiform neurofibroma into malignant peripheral nerve sheath tumour in NF1."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Cell-cycle progression: with CDKN2A loss and CDK4/6 activity (both mapped), E2F1 is released to drive the proliferation that accompanies malignant transformation in NF1-associated tumours."
 ---
 
 # Neurofibromatosis Type 1
@@ -524,6 +533,9 @@ In glioma and MPNST: additional alterations required — MPNST requires CDKN2A/2
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — NF1 predisposes to adrenal pheochromocytomas that secrete catecholamines including norepinephrine, a cause of secondary hypertension that should be excluded in an NF1 patient with paroxysmal symptoms.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — RAS-MAPK signaling is the effector arm of BDNF-TrkB synaptic plasticity, and its constitutive dysregulation in NF1 disrupts hippocampal learning, underlying the learning difficulties and ADHD that are the commonest NF1 complications in children.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — Progression of plexiform neurofibroma to MPNST involves loss of PRC2 (EZH2/SUZ12) and accompanying DNA-methylation changes, the epigenetic catastrophe layered on the NF1-driven RAS activation in the malignant nerve-sheath tumor.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Loss of neurofibromin's RAS-GAP activity hyperactivates RAS, which engages PI3K-AKT-mTOR (AKT and mTOR already mapped) alongside the RAS-MAPK cascade in NF1-driven tumors.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 inactivation is a key event driving the progression of a plexiform neurofibroma into malignant peripheral nerve sheath tumor in NF1.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — With CDKN2A loss and CDK4/6 activity (both mapped), E2F1 is released to drive the proliferation that accompanies malignant transformation in NF1-associated tumors.
 
 [^gutmann-2017-nf1-primer]: Gutmann DH, Ferner RE, Listernick RH, et al. Neurofibromatosis type 1. *Nat Rev Dis Primers.* 2017;3:17004. [doi:10.1038/nrdp.2017.4](https://doi.org/10.1038/nrdp.2017.4) · [PubMed 28230061](https://pubmed.ncbi.nlm.nih.gov/28230061/)
 [^dombi-2016-selumetinib]: Dombi E, Baldwin A, Marcus LJ, et al. Activity of Selumetinib in Neurofibromatosis Type 1-Related Plexiform Neurofibromas. *N Engl J Med.* 2016;375(26):2550-2560. [doi:10.1056/NEJMoa1605943](https://doi.org/10.1056/NEJMoa1605943) · [PubMed 28029918](https://pubmed.ncbi.nlm.nih.gov/28029918/)
