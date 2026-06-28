@@ -321,6 +321,15 @@ cross_links:
   - target: 01-human/03-molecular/src-kinase
     relation: connects-to
     note: "FcγR signalling: macrophage Fcγ-receptor engagement by antibody-coated platelets signals through Src-family and Syk kinases to trigger phagocytosis, the pathway the Syk inhibitor fostamatinib blocks to reduce platelet destruction in ITP."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Failed regulation: regulatory T cells and their IL-10 are deficient in immune thrombocytopenia, removing a brake that normally restrains the autoreactive anti-platelet response."
+  - target: 01-human/03-molecular/ctla-4
+    relation: connects-to
+    note: "Tolerance checkpoint: impaired CTLA-4-dependent regulatory T-cell control contributes to the breakdown of self-tolerance that allows anti-platelet autoantibodies to arise in ITP."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "Th17 skew: an IL-17-producing Th17 skew accompanies the Th1-dominated immune dysregulation of ITP, adding to the inflammatory imbalance behind platelet autoimmunity."
 ---
 
 # Immune Thrombocytopenia
@@ -557,6 +566,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[Glucocorticoid receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Corticosteroids acting through the glucocorticoid receptor are first-line for immune thrombocytopenia, dampening autoantibody production and macrophage Fcγ-receptor-mediated platelet phagocytosis to raise the platelet count.
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Long-lived anti-platelet plasma cells survive on BCL-2 and lack CD20, so they escape rituximab—the basis for relapses after B-cell depletion in ITP and the rationale for plasma-cell-directed approaches.
 - `connects-to` → **[Src kinase](../../03-molecular/src-kinase/README.md)** — Macrophage Fcγ-receptor engagement by antibody-coated platelets signals through Src-family and Syk kinases to trigger phagocytosis, the pathway the Syk inhibitor fostamatinib blocks to reduce platelet destruction in ITP.
+- `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — Regulatory T cells and their IL-10 are deficient in immune thrombocytopenia, removing a brake that normally restrains the autoreactive anti-platelet response.
+- `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Impaired CTLA-4-dependent regulatory T-cell control contributes to the breakdown of self-tolerance that allows anti-platelet autoantibodies to arise in ITP.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — An IL-17-producing Th17 skew accompanies the Th1-dominated immune dysregulation of ITP, adding to the inflammatory imbalance behind platelet autoimmunity.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)

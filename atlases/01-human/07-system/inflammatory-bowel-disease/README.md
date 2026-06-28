@@ -319,6 +319,15 @@ cross_links:
   - target: 01-human/03-molecular/il-33
     relation: connects-to
     note: "Epithelial alarmin: IL-33 released from damaged intestinal epithelium acts as an alarmin on innate lymphoid cells and mast cells, an upstream amplifier of the mucosal inflammation that has both pro-inflammatory and reparative roles in IBD."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Microbial sensing: TLR (TLR4 mapped) and IL-1-receptor signalling through MyD88 to NF-κB (mapped) transduces the dysregulated response to gut microbiota that drives the mucosal inflammation of IBD."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Regulatory T cells: IL-2 sustains the regulatory T cells that maintain mucosal tolerance, and defective IL-2/Treg signalling contributes to the loss of tolerance to gut antigens in IBD."
+  - target: 01-human/03-molecular/cdh1
+    relation: connects-to
+    note: "Barrier integrity: E-cadherin junctions seal the intestinal epithelium, and the barrier breakdown that lets luminal microbes contact the mucosa is a central permissive step in IBD pathogenesis."
 ---
 
 # Inflammatory Bowel Disease
@@ -547,6 +556,9 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[Glucocorticoid receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Corticosteroids acting through the glucocorticoid receptor—systemic prednisone or gut-targeted budesonide—induce remission of IBD flares, though their toxicity and failure to heal mucosa long-term make them bridging rather than maintenance therapy.
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Chronic transmural inflammation in Crohn's disease drives myofibroblast collagen deposition that forms the fibrotic strictures causing bowel obstruction, a complication that immunosuppression does not reverse and that often needs surgery.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 released from damaged intestinal epithelium acts as an alarmin on innate lymphoid cells and mast cells, an upstream amplifier of the mucosal inflammation that has both pro-inflammatory and reparative roles in IBD.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR (TLR4 mapped) and IL-1-receptor signaling through MyD88 to NF-κB (mapped) transduces the dysregulated response to gut microbiota that drives the mucosal inflammation of IBD.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — IL-2 sustains the regulatory T cells that maintain mucosal tolerance, and defective IL-2/Treg signaling contributes to the loss of tolerance to gut antigens in IBD.
+- `connects-to` → **[CDH1](../../03-molecular/cdh1/README.md)** — E-cadherin junctions seal the intestinal epithelium, and the barrier breakdown that lets luminal microbes contact the mucosa is a central permissive step in IBD pathogenesis.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)
