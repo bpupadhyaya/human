@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "Metastatic switch: TGF-β shifts from tumour suppressor to driver as prostate cancer advances, promoting epithelial-mesenchymal transition, the bone-metastatic niche and the immunosuppression of the tumour microenvironment."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "MAPK and castration resistance: TMPRSS2-ERG and RAS-MAPK signalling cooperate with the androgen receptor to drive prostate-cancer proliferation, and MAPK reactivation underlies progression to castration-resistant disease."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Lineage plasticity: the cyclin-D1-RB-E2F axis (cyclin-D1 mapped) drives proliferation, and RB loss releasing E2F1 promotes the lineage plasticity that yields treatment-emergent neuroendocrine prostate cancer."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "p53 inactivation: MDM2-mediated suppression and outright TP53 loss (p53 mapped) mark the aggressive, often neuroendocrine castration-resistant prostate cancer."
 ---
 
 # Prostate Cancer
@@ -550,6 +559,9 @@ cross_links:
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PTEN loss (already mapped) and PIK3CA activation drive the PI3K-AKT-mTOR pathway in prostate cancer, a resistance route that reciprocally cross-talks with androgen-receptor signaling to sustain castration-resistant growth.
 - `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Wnt/β-catenin signaling drives castration-resistant progression and contributes to the osteoblastic bone metastases (RANKL and osteoblasts already mapped) that characterize advanced prostate cancer.
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β shifts from tumor suppressor to driver as prostate cancer advances, promoting epithelial-mesenchymal transition, the bone-metastatic niche and the immunosuppression of the tumor microenvironment.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — TMPRSS2-ERG and RAS-MAPK signaling cooperate with the androgen receptor to drive prostate-cancer proliferation, and MAPK reactivation underlies progression to castration-resistant disease.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — The cyclin-D1-RB-E2F axis (cyclin-D1 mapped) drives proliferation, and RB loss releasing E2F1 promotes the lineage plasticity that yields treatment-emergent neuroendocrine prostate cancer.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated suppression and outright TP53 loss (p53 mapped) mark the aggressive, often neuroendocrine castration-resistant prostate cancer.
 
 [^beer-2014-prevail]: Beer TM, Armstrong AJ, Rathkopf D, et al. Enzalutamide in metastatic prostate cancer before chemotherapy. *N Engl J Med.* 2014;371(5):424-433. [doi:10.1056/NEJMoa1405095](https://doi.org/10.1056/NEJMoa1405095) · [PubMed 24881730](https://pubmed.ncbi.nlm.nih.gov/24881730/)
 [^sartor-2021-vision]: Sartor O, de Bono J, Chi KN, et al. Lutetium-PSMA-617 for metastatic castration-resistant prostate cancer. *N Engl J Med.* 2021;385(12):1091-1103. [doi:10.1056/NEJMoa2107322](https://doi.org/10.1056/NEJMoa2107322) · [PubMed 34161051](https://pubmed.ncbi.nlm.nih.gov/34161051/)

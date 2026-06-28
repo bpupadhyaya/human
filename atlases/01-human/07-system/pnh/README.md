@@ -316,6 +316,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Haemolytic hypoxia: chronic intravascular haemolysis and anaemia in PNH produce tissue hypoxia that drives HIF-mediated erythropoietin and adaptive responses, part of the systemic burden of the disease."
+  - target: 01-human/03-molecular/endothelin-1
+    relation: connects-to
+    note: "NO-depletion dystonia: free haemoglobin from intravascular haemolysis scavenges nitric oxide (mapped), unleashing endothelin-1-driven vasoconstriction that causes the abdominal pain, dysphagia and pulmonary hypertension of PNH."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "Endothelial thrombosis: complement-mediated endothelial activation releases Ang-2, contributing to the endothelial dysfunction and thrombosis that is the leading cause of death in PNH."
+  - target: 01-human/03-molecular/runx1
+    relation: connects-to
+    note: "Clonal evolution: PNH arises within a failing, clonal marrow and can progress to myelodysplasia or acute leukaemia, transitions marked by lesions in genes such as RUNX1."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -507,6 +516,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[TNF-α (Tumor Necrosis Factor-alpha)](../../03-molecular/tnf-alpha/README.md)** — The bone-marrow failure of PNH, overlapping with aplastic anemia, involves T-cell and TNF-α-mediated immune attack on hematopoietic stem cells, the autoimmune pressure that selects the GPI-negative clone.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Complement C5a (already mapped) and free heme from intravascular hemolysis prime the NLRP3 inflammasome, adding an inflammatory dimension to the thrombosis and tissue injury of PNH.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — Chronic intravascular hemolysis and anemia in PNH produce tissue hypoxia that drives HIF-mediated erythropoietin and adaptive responses, part of the systemic burden of the disease.
+- `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Free hemoglobin from intravascular hemolysis scavenges nitric oxide (mapped), unleashing endothelin-1-driven vasoconstriction that causes the abdominal pain, dysphagia and pulmonary hypertension of PNH.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Complement-mediated endothelial activation releases Ang-2, contributing to the endothelial dysfunction and thrombosis that is the leading cause of death in PNH.
+- `connects-to` → **[RUNX1](../../03-molecular/runx1/README.md)** — PNH arises within a failing, clonal marrow and can progress to myelodysplasia or acute leukemia, transitions marked by lesions in genes such as RUNX1.
 
 ---
 
