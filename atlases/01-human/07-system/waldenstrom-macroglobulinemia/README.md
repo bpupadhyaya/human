@@ -307,6 +307,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Macrophage microenvironment: CCL2 recruits monocytes and macrophages into the Waldenström marrow, part of the supportive niche that — alongside the mast cells — feeds the lymphoplasmacytic clone with survival signals."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K survival arm: MYD88 L265P signalling (already mapped) activates not only BTK-NF-κB but the PI3K-AKT pathway (PIK3CA and mTOR already mapped), a survival axis and route of resistance in Waldenström macroglobulinemia."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "MAPK proliferation: MYD88-driven signalling also engages the MAPK-ERK1/2 cascade, contributing to the proliferation of the lymphoplasmacytic clone and to incomplete responses to BTK inhibition."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "Transformation: MYC activation cooperates with the MYD88 driver in the progression and high-grade transformation of Waldenström macroglobulinemia to diffuse large B-cell lymphoma."
 ---
 
 # Waldenström Macroglobulinemia
@@ -521,6 +530,9 @@ For symptomatic hyperviscosity → removes IgM immediately; does not treat under
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Bendamustine-rituximab and BTK inhibitors ultimately kill Waldenström cells through caspase-3 apoptosis, and the anti-apoptotic BCL-2 these cells express both limits responses and motivates adding venetoclax.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Marrow infiltration by the lymphoplasmacytic clone and IL-6-driven hepcidin blunt erythropoietin-driven red-cell production, making anemia the commonest presenting feature and the usual trigger to start treatment.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 recruits monocytes and macrophages into the Waldenström marrow, part of the supportive niche that—alongside the mast cells—feeds the lymphoplasmacytic clone with survival signals.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — MYD88 L265P signaling (already mapped) activates not only BTK-NF-κB but the PI3K-AKT pathway (PIK3CA and mTOR already mapped), a survival axis and route of resistance in Waldenström macroglobulinemia.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — MYD88-driven signaling also engages the MAPK-ERK1/2 cascade, contributing to the proliferation of the lymphoplasmacytic clone and to incomplete responses to BTK inhibition.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — MYC activation cooperates with the MYD88 driver in the progression and high-grade transformation of Waldenström macroglobulinemia to diffuse large B-cell lymphoma.
 
 [^treon-2015-ibrutinib-wm]: Treon SP, Tripsas CK, Meid K, et al. Ibrutinib in previously treated Waldenström's macroglobulinemia. *N Engl J Med.* 2015;373(18):1765-1774. [doi:10.1056/NEJMoa1501548](https://doi.org/10.1056/NEJMoa1501548) · [PubMed 26352686](https://pubmed.ncbi.nlm.nih.gov/26352686/)
 [^tam-2020-aspen]: Tam CS, Opat S, D'Sa S, et al. A randomized phase 3 trial of zanubrutinib vs ibrutinib in symptomatic Waldenström macroglobulinemia: the ASPEN study. *Blood.* 2020;136(18):2038-2050. [doi:10.1182/blood.2020006844](https://doi.org/10.1182/blood.2020006844) · [PubMed 32828187](https://pubmed.ncbi.nlm.nih.gov/32828187/)

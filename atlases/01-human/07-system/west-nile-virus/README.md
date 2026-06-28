@@ -309,6 +309,15 @@ cross_links:
   - target: 01-human/03-molecular/mhc-class-ii
     relation: connects-to
     note: "CD4 help: presentation of West Nile antigens on MHC class II primes the CD4 T-cell help needed for durable antibody responses and for supporting the CD8 T cells that clear virus from infected neurons."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Neuronal apoptosis: West Nile virus drives caspase-3-mediated apoptosis of infected neurons, the cell death directly responsible for the encephalitis and the poliomyelitis-like acute flaccid paralysis of neuroinvasive disease."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Protective complement: the complement system (C3 already mapped, through C5) is essential for the protective antibody and T-cell responses that control West Nile virus, shaping both clearance and immunopathology."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Barrier breakdown: cytokine- and VEGF-driven blood-brain-barrier permeability lets West Nile virus and inflammatory cells enter the CNS, a key step enabling its neuroinvasion."
 ---
 
 # West Nile Virus
@@ -526,3 +535,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[MyD88](../../03-molecular/myd88/README.md)** — MyD88-dependent Toll-like-receptor signaling is essential for controlling West Nile virus, organizing leukocyte positioning in the brain, and MyD88-deficient hosts suffer markedly higher viral burden and neuroinvasion.
 - `connects-to` → **[FcRn](../../03-molecular/fcrn/README.md)** — Neutralizing IgG against the viral envelope is the key correlate of protection from West Nile encephalitis, and FcRn recycling sustains the circulating antibody and the half-life of therapeutic monoclonals and immune globulin under study.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Presentation of West Nile antigens on MHC class II primes the CD4 T-cell help needed for durable antibody responses and for supporting the CD8 T cells that clear virus from infected neurons.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — West Nile virus drives caspase-3-mediated apoptosis of infected neurons, the cell death directly responsible for the encephalitis and the poliomyelitis-like acute flaccid paralysis of neuroinvasive disease.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — The complement system (C3 already mapped, through C5) is essential for the protective antibody and T-cell responses that control West Nile virus, shaping both clearance and immunopathology.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Cytokine- and VEGF-driven blood-brain-barrier permeability lets West Nile virus and inflammatory cells enter the CNS, a key step enabling its neuroinvasion.
