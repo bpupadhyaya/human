@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative stress: markers of oxidative stress, partly from xanthine-oxidase activity, are raised in depression, the redox imbalance that — with neuroinflammation — is increasingly implicated in the neurobiology of the disorder."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "Mood and neuroplasticity: GSK-3β is a convergence node for mood regulation and synaptic plasticity, inhibited by lithium and modulated downstream of the serotonergic and BDNF signalling implicated in depression."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Anti-inflammatory deficit: a relative shortfall of regulatory IL-10 against the raised pro-inflammatory cytokines (IL-6, IL-1β and TNF mapped) is part of the neuroinflammatory hypothesis of depression."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Synaptic pruning: complement-mediated microglial pruning of synapses contributes to the loss of prefrontal and hippocampal connectivity implicated in the pathophysiology of depression."
 ---
 
 # Major Depressive Disorder
@@ -580,6 +589,9 @@ Approximately 30–40% of MDD patients have elevated inflammatory markers:
 - `connects-to` → **[Orexin](../../03-molecular/orexin/README.md)** — Orexin signaling that governs wakefulness, reward and motivation is dysregulated in depression, contributing to the disturbed sleep, fatigue and anhedonia that are core symptoms beyond low mood.
 - `connects-to` → **[Ghrelin](../../03-molecular/ghrelin/README.md)** — Ghrelin rises with chronic stress and has antidepressant-like central effects, a gut-derived hormone linking appetite, the stress response and mood in the metabolic-psychiatric overlap of depression.
 - `connects-to` → **[Xanthine Oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Markers of oxidative stress, partly from xanthine-oxidase activity, are raised in depression, the redox imbalance that—with neuroinflammation—is increasingly implicated in the neurobiology of the disorder.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β is a convergence node for mood regulation and synaptic plasticity, inhibited by lithium and modulated downstream of the serotonergic and BDNF signaling implicated in depression.
+- `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — A relative shortfall of regulatory IL-10 against the raised pro-inflammatory cytokines (IL-6, IL-1β and TNF mapped) is part of the neuroinflammatory hypothesis of depression.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement-mediated microglial pruning of synapses contributes to the loss of prefrontal and hippocampal connectivity implicated in the pathophysiology of depression.
 
 [^cipriani-2018-antidepressants-meta]: Cipriani A, Furukawa TA, Salanti G, et al. Comparative efficacy and acceptability of 21 antidepressant drugs for acute treatment of adults with major depressive disorder. *Lancet.* 2018;391(10128):1357-1366. [doi:10.1016/S0140-6736(17)32802-7](https://doi.org/10.1016/S0140-6736(17)32802-7) · [PubMed 29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/)
 [^zarate-2006-ketamine-rapid]: Zarate CA Jr, Singh JB, Carlson PJ, et al. A randomized trial of an N-methyl-D-aspartate antagonist in treatment-resistant major depression. *Arch Gen Psychiatry.* 2006;63(8):856-864. [doi:10.1001/archpsyc.63.8.856](https://doi.org/10.1001/archpsyc.63.8.856) · [PubMed 16894061](https://pubmed.ncbi.nlm.nih.gov/16894061/)

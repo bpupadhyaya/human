@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/immunoglobulin-g
     relation: connects-to
     note: "Translocation and BCR: the defining t(11;14) places cyclin D1 under the immunoglobulin heavy-chain enhancer, driving its overexpression, while tonic B-cell-receptor signalling sustains the cell — the dependence that BTK inhibitors exploit."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Proliferative output: overexpressed cyclin D1 (mapped) drives CDK4/6 (mapped) to phosphorylate RB (mapped) and release E2F1, the cell-cycle engine central to mantle cell lymphoma."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "Aggressive variant: CDKN2A/p16 deletion removes the brake on the cyclin-D1-CDK4/6 axis and marks the blastoid, high-proliferation form of mantle cell lymphoma."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "PI3K survival and resistance: PTEN loss activates PI3K-AKT (PIK3CA, AKT and mTOR already mapped), a survival pathway and a mechanism of resistance to BTK inhibitors in mantle cell lymphoma."
 ---
 
 # Mantle Cell Lymphoma
@@ -533,6 +542,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — CD19 CAR-T (brexucabtagene) and CD20-CD3 bispecific antibodies redirect cytotoxic T cells to kill mantle-cell lymphoma through perforin and granzyme, achieving durable remissions after chemotherapy and BTK inhibitors fail.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Anti-CD20 antibodies (rituximab, obinutuzumab), a backbone of mantle-cell therapy, kill cells partly through complement-dependent cytotoxicity, fixing C3 and the membrane-attack complex on the lymphoma cells.
 - `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — The defining t(11;14) places cyclin D1 under the immunoglobulin heavy-chain enhancer, driving its overexpression, while tonic B-cell-receptor signaling sustains the cell—the dependence that BTK inhibitors exploit.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — Overexpressed cyclin D1 (mapped) drives CDK4/6 (mapped) to phosphorylate RB (mapped) and release E2F1, the cell-cycle engine central to mantle cell lymphoma.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A/p16 deletion removes the brake on the cyclin-D1-CDK4/6 axis and marks the blastoid, high-proliferation form of mantle cell lymphoma.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss activates PI3K-AKT (PIK3CA, AKT and mTOR already mapped), a survival pathway and a mechanism of resistance to BTK inhibitors in mantle cell lymphoma.
 
 ---
 
