@@ -319,6 +319,15 @@ cross_links:
   - target: 01-human/03-molecular/il-23
     relation: connects-to
     note: "Th17 maintenance: IL-23 sustains the pathogenic Th17 cells whose IL-17A contributes to the inflammatory infiltrate and tissue injury of pemphigus lesions, an axis being assessed for targeted therapy."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "Acantholysis signalling: binding of anti-desmoglein-3 IgG triggers intracellular p38-MAPK and ERK signalling in keratinocytes that actively drives the cell-cell detachment of acantholysis, beyond simple steric blockade."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Keratinocyte signalling: Dsg3-antibody binding perturbs PI3K-AKT survival signalling in keratinocytes, contributing to the apoptosis-like 'apoptolysis' that accompanies loss of adhesion in pemphigus."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Th2 skew: IL-5, alongside the IL-4 and IL-13 already mapped, marks the Th2 polarisation that drives the IgG4-skewed anti-desmoglein autoantibody response of pemphigus vulgaris."
 ---
 
 # Pemphigus Vulgaris
@@ -563,6 +572,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[Interleukin-13](../../03-molecular/il-13/README.md)** — IL-13 partners IL-4 to drive the IgG4-skewed class switch of the desmoglein-3 autoantibodies in pemphigus, so blocking the shared IL-4Rα with dupilumab is being explored to dampen autoantibody production.
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — Defective TGF-β-dependent regulatory T-cell control of desmoglein-3-reactive lymphocytes permits the autoreactive T- and B-cell response that fuels autoantibody production in pemphigus vulgaris.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — IL-23 sustains the pathogenic Th17 cells whose IL-17A contributes to the inflammatory infiltrate and tissue injury of pemphigus lesions, an axis being assessed for targeted therapy.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Binding of anti-desmoglein-3 IgG triggers intracellular p38-MAPK and ERK signaling in keratinocytes that actively drives the cell-cell detachment of acantholysis, beyond simple steric blockade.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Dsg3-antibody binding perturbs PI3K-AKT survival signaling in keratinocytes, contributing to the apoptosis-like "apoptolysis" that accompanies loss of adhesion in pemphigus.
+- `connects-to` → **[Interleukin-5](../../03-molecular/il-5/README.md)** — IL-5, alongside the IL-4 and IL-13 already mapped, marks the Th2 polarization that drives the IgG4-skewed anti-desmoglein autoantibody response of pemphigus vulgaris.
 
 ---
 

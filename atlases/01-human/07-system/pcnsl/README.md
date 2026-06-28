@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/stat1
     relation: connects-to
     note: "IFN-γ signalling: STAT1 is the transcription factor relaying interferon-γ signals to induce PD-L1 and antigen-presentation genes in PCNSL, the JAK-STAT arm (with the JAK2 of 9p24.1) shaping its immunosuppressive microenvironment."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Cell-cycle drive: CDKN2A loss (mapped) frees the cyclin-D1-CDK4/6 axis to release E2F1, driving the high proliferative rate of primary CNS lymphoma."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "Adverse genetics: TP53 alterations occur in primary CNS lymphoma and are associated with a poorer response to high-dose-methotrexate-based therapy."
+  - target: 01-human/03-molecular/baff
+    relation: connects-to
+    note: "B-cell survival: the cytokine BAFF supports the survival of the malignant B cells of PCNSL, reinforcing the MYD88-CD79B-BTK-NF-κB signalling (mapped) on which they depend."
 ---
 
 # Primary CNS Lymphoma
@@ -525,6 +534,9 @@ Score 0-1: 2-year OS ~80%; Score 2-3: ~48%; Score 4-5: ~15%
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — With PTEN deleted, PIK3CA-driven PI3K signaling sustains the constitutive AKT-mTOR activity of PCNSL, working alongside the BTK/MYD88-NF-κB axis and offering a second targetable node for PI3K inhibitors in this aggressive CNS lymphoma.
 - `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Interferon-γ from the reactive T-cell infiltrate, together with 9p24.1 copy gains, drives PD-L1 expression on PCNSL cells, creating the immune-checkpoint vulnerability that motivates PD-1 blockade in this immune-privileged tumor.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — STAT1 is the transcription factor relaying interferon-γ signals to induce PD-L1 and antigen-presentation genes in PCNSL, the JAK-STAT arm (with the JAK2 of 9p24.1) shaping its immunosuppressive microenvironment.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — CDKN2A loss (mapped) frees the cyclin-D1-CDK4/6 axis to release E2F1, driving the high proliferative rate of primary CNS lymphoma.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 alterations occur in primary CNS lymphoma and are associated with a poorer response to high-dose-methotrexate-based therapy.
+- `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — The cytokine BAFF supports the survival of the malignant B cells of PCNSL, reinforcing the MYD88-CD79B-BTK-NF-κB signaling (mapped) on which they depend.
 
 [^bromberg-2019-hovon105]: Bromberg JE, Issa S, Bakunina K, et al. Rituximab in patients with primary CNS lymphoma (HOVON 105/ALLG NHL 24): a randomised, open-label, phase 3 intergroup study. *Lancet Oncol.* 2019;20(2):216-228. [doi:10.1016/S1470-2045(18)30747-2](https://doi.org/10.1016/S1470-2045(18)30747-2) · [PubMed 30528440](https://pubmed.ncbi.nlm.nih.gov/30528440/)
 [^grommes-2017-ibrutinib-pcnsl]: Grommes C, Pastore A, Palaskas N, et al. Ibrutinib unmasks critical role of Bruton tyrosine kinase in primary CNS lymphoma. *Cancer Cell.* 2017;31(6):833-843. [doi:10.1016/j.ccell.2017.04.012](https://doi.org/10.1016/j.ccell.2017.04.012) · [PubMed 28552327](https://pubmed.ncbi.nlm.nih.gov/28552327/)
