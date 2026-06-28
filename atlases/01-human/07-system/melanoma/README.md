@@ -319,6 +319,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "Resistance signalling: IGF-1R signalling provides a survival and growth input that helps melanoma cells escape BRAF/MEK inhibition, a bypass pathway implicated in acquired resistance to targeted therapy."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "Cell-cycle target: the CDK4/6-cyclin-D1 axis (cyclin-D1 mapped, with CDKN2A loss mapped) drives melanoma proliferation, a node combined with BRAF/MEK inhibition to deepen responses."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "Resistance pathway: PI3K-AKT activation (PTEN, AKT and mTOR already mapped) is a major mechanism by which melanoma escapes BRAF/MEK inhibition, the rationale for combined pathway blockade."
+  - target: 01-human/03-molecular/kras
+    relation: connects-to
+    note: "RAS-driven subtype: NRAS mutation is the second-commonest melanoma driver after BRAF, activating the RAS-MAPK cascade (ERK1/2 mapped) in a subgroup that resists BRAF inhibitors."
 ---
 
 # Melanoma
@@ -509,6 +518,9 @@ cross_links:
 - `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Melanoma cells express the endothelin-B receptor inherited from their melanocyte origin, and EDNRB signaling promotes their proliferation, survival and invasion—a lineage-survival pathway being explored as a therapeutic target.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNA-methylation changes silence tumor-suppressor and antigen-presentation genes in melanoma, contributing to its plasticity and immune escape, and DNA-methyltransferase inhibitors are being combined with immunotherapy to re-sensitize resistant tumors.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — IGF-1R signaling provides a survival and growth input that helps melanoma cells escape BRAF/MEK inhibition, a bypass pathway implicated in acquired resistance to targeted therapy.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — The CDK4/6-cyclin-D1 axis (cyclin-D1 mapped, with CDKN2A loss mapped) drives melanoma proliferation, a node combined with BRAF/MEK inhibition to deepen responses.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K-AKT activation (PTEN, AKT and mTOR already mapped) is a major mechanism by which melanoma escapes BRAF/MEK inhibition, the rationale for combined pathway blockade.
+- `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — NRAS mutation is the second-commonest melanoma driver after BRAF, activating the RAS-MAPK cascade (ERK1/2 mapped) in a subgroup that resists BRAF inhibitors.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

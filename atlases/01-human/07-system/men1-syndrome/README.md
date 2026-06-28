@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/estrogen
     relation: connects-to
     note: "Breast-cancer risk: women with MEN1 carry an increased risk of breast cancer, an oestrogen-responsive tumour added to the parathyroid, pancreatic and pituitary triad, extending surveillance beyond the classic endocrine organs."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "pNET growth axis: the PI3K-AKT-mTOR pathway (AKT and mTOR already mapped) drives the pancreatic neuroendocrine tumours of MEN1, the basis for the mTOR inhibitor everolimus in their treatment."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Cell-cycle release: menin normally restrains the cell cycle via the CDK inhibitors p21 and p27 (CDKN1A and CDKN1B mapped); its loss frees the CDK4/6-cyclin-D1-RB-E2F1 axis in MEN1 endocrine tumours."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "Proliferative MAPK: growth-factor-driven RAS-MAPK-ERK signalling promotes the proliferation of the parathyroid, pancreatic and pituitary tumours of MEN1, complementing the PI3K and cell-cycle pathways."
 ---
 
 # MEN1 Syndrome
@@ -531,6 +540,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Parathyroid tumors causing hypercalcemia from excess PTH are the earliest and most penetrant manifestation of MEN1, affecting nearly all carriers by mid-adulthood and often the first clue that prompts genetic testing.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — Menin scaffolds the MLL histone-methyltransferase complexes and influences DNA methylation, so MEN1 loss disrupts the epigenetic regulation of growth-control genes—a mechanism shared with the menin-MLL dependence targeted in leukemia.
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Women with MEN1 carry an increased risk of breast cancer, an estrogen-responsive tumor added to the parathyroid, pancreatic and pituitary triad, extending surveillance beyond the classic endocrine organs.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — The PI3K-AKT-mTOR pathway (AKT and mTOR already mapped) drives the pancreatic neuroendocrine tumors of MEN1, the basis for the mTOR inhibitor everolimus in their treatment.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — Menin normally restrains the cell cycle via the CDK inhibitors p21 and p27 (CDKN1A and CDKN1B mapped); its loss frees the CDK4/6-cyclin-D1-RB-E2F1 axis in MEN1 endocrine tumors.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Growth-factor-driven RAS-MAPK-ERK signaling promotes the proliferation of the parathyroid, pancreatic and pituitary tumors of MEN1, complementing the PI3K and cell-cycle pathways.
 
 ---
 
