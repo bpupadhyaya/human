@@ -311,6 +311,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "Vasoactive endocrine peptide: adrenomedullin, secreted widely including by the adrenal medulla and endothelium, is a potent vasodilator and part of the endocrine control of vascular tone and fluid balance, integrating the hormonal and cardiovascular systems."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "Hormone-receptor coupling: the insulin receptor transduces the signal of insulin (already mapped) into target cells, the prototypical endocrine receptor linking a circulating hormone to cellular metabolism."
+  - target: 01-human/03-molecular/npy
+    relation: connects-to
+    note: "Energy-balance peptide: neuropeptide Y is a hypothalamic orexigenic signal that integrates the endocrine control of appetite and energy balance alongside the adipokine and gut hormones leptin and ghrelin (both mapped)."
+  - target: 01-human/03-molecular/endothelin-1
+    relation: connects-to
+    note: "Vascular endocrine tone: endothelin-1 is a potent paracrine and endocrine vasoconstrictor that, with the renin-angiotensin and adrenomedullin systems already mapped, helps set the hormonal control of vascular tone and fluid balance."
 ---
 
 # Endocrine System
@@ -566,6 +575,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Serum calcium is the regulated variable of a dedicated endocrine axis—parathyroid hormone and vitamin D raise it, calcitonin lowers it—the tightly controlled ion essential for nerve, muscle and bone whose dysregulation causes endocrine disease.
 - `connects-to` → **[Activin A](../../03-molecular/activin-a/README.md)** — The activin-inhibin system provides a peptide feedback loop, distinct from the steroid hormones, that tunes pituitary FSH secretion and gonadal function, layered onto the classic steroid-hormone axes of the endocrine system.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — Adrenomedullin, secreted widely including by the adrenal medulla and endothelium, is a potent vasodilator and part of the endocrine control of vascular tone and fluid balance, integrating the hormonal and cardiovascular systems.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — The insulin receptor transduces the signal of insulin (already mapped) into target cells, the prototypical endocrine receptor linking a circulating hormone to cellular metabolism.
+- `connects-to` → **[Neuropeptide Y](../../03-molecular/npy/README.md)** — Neuropeptide Y is a hypothalamic orexigenic signal that integrates the endocrine control of appetite and energy balance alongside the adipokine and gut hormones leptin and ghrelin (both mapped).
+- `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Endothelin-1 is a potent paracrine and endocrine vasoconstrictor that, with the renin-angiotensin and adrenomedullin systems already mapped, helps set the hormonal control of vascular tone and fluid balance.
 
 ## Pathology
 

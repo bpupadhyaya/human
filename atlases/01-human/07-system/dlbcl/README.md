@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/caspase-3
     relation: connects-to
     note: "Chemotherapy apoptosis: R-CHOP chemoimmunotherapy kills DLBCL cells through caspase-3-mediated apoptosis, and the BCL-2-driven apoptotic resistance of double-hit lymphoma underlies its poor response to standard treatment."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "PI3K survival: PTEN loss activates the PI3K-AKT pathway (PIK3CA and AKT already mapped), a survival signal particularly active in the germinal-centre-B-cell subtype of DLBCL."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Proliferative output: MYC and the cyclin-D-CDK4/6 axis (MYC and CDK4/6 already mapped) converge to release E2F1, driving the high proliferative rate of DLBCL."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "Cell-cycle brake lost: CDKN2A/p16 deletion is a recurrent adverse lesion in DLBCL, removing the restraint on the cyclin-D-CDK4/6 axis and predicting inferior outcome."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -533,6 +542,9 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — CD19 CAR-T cells and CD20-CD3 bispecific antibodies redirect cytotoxic T cells to kill DLBCL through perforin and granzyme, transforming the outlook for relapsed and refractory disease.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — The anti-CD20 antibody rituximab—the R of R-CHOP—kills DLBCL cells partly through complement-dependent cytotoxicity, fixing C3 and the membrane-attack complex alongside antibody-dependent cellular cytotoxicity.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — R-CHOP chemoimmunotherapy kills DLBCL cells through caspase-3-mediated apoptosis, and the BCL-2-driven apoptotic resistance of double-hit lymphoma underlies its poor response to standard treatment.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss activates the PI3K-AKT pathway (PIK3CA and AKT already mapped), a survival signal particularly active in the germinal-center-B-cell subtype of DLBCL.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — MYC and the cyclin-D-CDK4/6 axis (MYC and CDK4/6 already mapped) converge to release E2F1, driving the high proliferative rate of DLBCL.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A/p16 deletion is a recurrent adverse lesion in DLBCL, removing the restraint on the cyclin-D-CDK4/6 axis and predicting inferior outcome.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
