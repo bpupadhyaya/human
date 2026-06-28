@@ -319,6 +319,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "Barrier breakdown: VEGF released from injured astrocytes increases blood-brain-barrier permeability in NMO, letting more pathogenic anti-AQP4 antibody and complement reach the CNS and amplifying the lesion."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6 effector: IL-6 signalling (already mapped, the target of satralizumab) acts through STAT3 to drive the pathogenic plasmablasts and Th17 cells that produce the AQP4-IgG of neuromyelitis optica."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Astrocyte death: complement- and antibody-mediated astrocyte injury in NMO triggers caspase-3 apoptosis of astrocytes and bystander neurons, the cell death underlying its destructive optic-nerve and spinal-cord lesions."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "Lost trophic support: AQP4-IgG-mediated astrocyte injury strips the BDNF and other trophic factors that astrocytes normally supply, contributing to the neuronal and oligodendrocyte damage of NMO lesions."
 ---
 
 # NMOSD
@@ -565,6 +574,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — Complement activation on AQP4-bound astrocytes generates C5a, which through C5aR1 recruits the neutrophils and eosinophils that inflict the necrotic tissue damage of NMO lesions—downstream of the C5 blockade achieved by eculizumab.
 - `connects-to` → **[Connexin-43](../../03-molecular/connexin43/README.md)** — AQP4 and connexin-43 are co-concentrated at astrocyte endfeet, so the AQP4-targeted attack disrupts connexin-43 gap-junction coupling between astrocytes, helping the lesion spread along the astroglial network of the spinal cord and optic nerve.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VEGF released from injured astrocytes increases blood-brain-barrier permeability in NMO, letting more pathogenic anti-AQP4 antibody and complement reach the CNS and amplifying the lesion.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6 signaling (already mapped, the target of satralizumab) acts through STAT3 to drive the pathogenic plasmablasts and Th17 cells that produce the AQP4-IgG of neuromyelitis optica.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Complement- and antibody-mediated astrocyte injury in NMO triggers caspase-3 apoptosis of astrocytes and bystander neurons, the cell death underlying its destructive optic-nerve and spinal-cord lesions.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — AQP4-IgG-mediated astrocyte injury strips the BDNF and other trophic factors that astrocytes normally supply, contributing to the neuronal and oligodendrocyte damage of NMO lesions.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)

@@ -316,6 +316,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "Adipose angiogenesis: expanding fat depots require VEGF-driven angiogenesis to vascularise, and when adipose growth outstrips its blood supply the resulting hypoxia drives the inflammation and fibrosis of dysfunctional obese adipose tissue."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Insulin resistance: insulin signalling through AKT (insulin-receptor already mapped) is progressively impaired in expanding, inflamed adipose tissue, the molecular basis of the insulin resistance linking obesity to type-2 diabetes."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Metaflammation: the NLRP3 inflammasome (already mapped) in adipose-tissue macrophages generates IL-1β, a key driver of the chronic low-grade inflammation that produces the metabolic complications of obesity."
+  - target: 01-human/03-molecular/glucagon
+    relation: connects-to
+    note: "Energy-balance therapeutics: glucagon governs hepatic glucose output and energy expenditure, and glucagon/GLP-1 dual-agonist drugs exploit this axis (alongside the GLP-1 already mapped) to drive weight loss in obesity."
 ---
 
 # Obesity
@@ -555,6 +564,9 @@ This **metainflammation** mechanistically links obesity to type 2 diabetes, athe
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — BDNF signaling through TrkB sits downstream of the hypothalamic melanocortin (MC4R) pathway controlling energy balance, and rare BDNF/TrkB mutations cause severe early-onset human obesity, marking it as a core appetite regulator.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — FGF21 acting through FGFR1c with β-Klotho promotes fat oxidation, browning of white adipose tissue and energy expenditure, an endocrine axis being targeted by FGF21 analogues for obesity and its metabolic complications.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Expanding fat depots require VEGF-driven angiogenesis to vascularize, and when adipose growth outstrips its blood supply the resulting hypoxia drives the inflammation and fibrosis of dysfunctional obese adipose tissue.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Insulin signaling through AKT (insulin-receptor already mapped) is progressively impaired in expanding, inflamed adipose tissue, the molecular basis of the insulin resistance linking obesity to type-2 diabetes.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — The NLRP3 inflammasome (already mapped) in adipose-tissue macrophages generates IL-1β, a key driver of the chronic low-grade inflammation that produces the metabolic complications of obesity.
+- `connects-to` → **[Glucagon](../../03-molecular/glucagon/README.md)** — Glucagon governs hepatic glucose output and energy expenditure, and glucagon/GLP-1 dual-agonist drugs exploit this axis (alongside the GLP-1 already mapped) to drive weight loss in obesity.
 
 [^bluher-2019-obesity-review]: Blüher M. Obesity: global epidemiology and pathogenesis. *Nat Rev Endocrinol.* 2019;15(5):288-298. [doi:10.1038/s41574-019-0176-8](https://doi.org/10.1038/s41574-019-0176-8) · [PubMed 30814686](https://pubmed.ncbi.nlm.nih.gov/30814686/)
 [^wilding-2021-semaglutide-step1]: Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. *N Engl J Med.* 2021;384(11):989-1002. [doi:10.1056/NEJMoa2032183](https://doi.org/10.1056/NEJMoa2032183) · [PubMed 33567185](https://pubmed.ncbi.nlm.nih.gov/33567185/)
