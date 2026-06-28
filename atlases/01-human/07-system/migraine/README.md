@@ -319,6 +319,15 @@ cross_links:
   - target: 01-human/03-molecular/oxytocin
     relation: connects-to
     note: "Trigeminal modulation: oxytocin acting on trigeminal-ganglion receptors inhibits nociceptive signalling and CGRP release, the basis for intranasal oxytocin being explored as a migraine treatment and a possible mediator of hormonal migraine patterns."
+  - target: 01-human/03-molecular/connexin43
+    relation: connects-to
+    note: "Cortical spreading depression: astrocytic connexin-43 gap junctions propagate the slow wave of depolarisation — cortical spreading depression — that underlies the migraine aura."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Sterile neuroinflammation: cortical spreading depression activates the NLRP3 inflammasome and IL-1β in microglia (already mapped), driving the sterile neuroinflammation that sensitises the trigeminovascular pain pathway in migraine."
+  - target: 01-human/03-molecular/crh
+    relation: connects-to
+    note: "Stress trigger: stress is a major migraine trigger, and CRH-driven HPA-axis activation lowers the threshold for attacks, linking the stress system to migraine susceptibility."
 ---
 
 # Migraine
@@ -556,6 +565,9 @@ Episodic migraine (EM, <15 headache days/month) transforms to **chronic migraine
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Mutations in the P/Q-type calcium channel gene CACNA1A cause familial hemiplegic migraine type 1, directly linking dysregulated neuronal calcium currents and glutamate release to the cortical spreading depression of migraine aura.
 - `connects-to` → **[KIT](../../03-molecular/kit/README.md)** — KIT-dependent mast cells in the dura degranulate to release histamine, tryptase and cytokines that sensitize trigeminal nociceptors, an arm of the neurogenic meningeal inflammation that generates migraine pain.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Oxytocin acting on trigeminal-ganglion receptors inhibits nociceptive signaling and CGRP release, the basis for intranasal oxytocin being explored as a migraine treatment and a possible mediator of hormonal migraine patterns.
+- `connects-to` → **[Connexin-43](../../03-molecular/connexin43/README.md)** — Astrocytic connexin-43 gap junctions propagate the slow wave of depolarization—cortical spreading depression—that underlies the migraine aura.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Cortical spreading depression activates the NLRP3 inflammasome and IL-1β in microglia (already mapped), driving the sterile neuroinflammation that sensitizes the trigeminovascular pain pathway in migraine.
+- `connects-to` → **[CRH](../../03-molecular/crh/README.md)** — Stress is a major migraine trigger, and CRH-driven HPA-axis activation lowers the threshold for attacks, linking the stress system to migraine susceptibility.
 
 [^gbd-2016-migraine-burden]: GBD 2016 Headache Collaborators. Global, regional, and national burden of migraine and tension-type headache, 1990-2016. *Lancet Neurol.* 2018;17(11):954-976. [doi:10.1016/S1474-4422(18)30322-3](https://doi.org/10.1016/S1474-4422(18)30322-3) · [PubMed 30353868](https://pubmed.ncbi.nlm.nih.gov/30353868/)
 [^goadsby-2002-migraine-review]: Goadsby PJ, Lipton RB, Ferrari MD. Migraine — current understanding and treatment. *N Engl J Med.* 2002;346(4):257-270. [doi:10.1056/NEJMra010917](https://doi.org/10.1056/NEJMra010917) · [PubMed 11807151](https://pubmed.ncbi.nlm.nih.gov/11807151/)

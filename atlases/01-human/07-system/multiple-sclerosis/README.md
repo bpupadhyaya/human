@@ -316,6 +316,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "Remyelination support: IGF-1 promotes the survival and differentiation of oligodendrocyte precursors that remyelinate stripped axons, a trophic axis whose insufficiency contributes to the failed remyelination of chronic MS lesions."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "NRF2 therapy: dimethyl fumarate, a first-line MS therapy, activates the NRF2 antioxidant pathway to protect oligodendrocytes and neurons from the oxidative injury that drives demyelination and neurodegeneration."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Apoptotic demyelination: caspase-3-mediated apoptosis of oligodendrocytes and neurons contributes to the demyelination and the progressive axonal loss that underlies disability accumulation in multiple sclerosis."
+  - target: 01-human/03-molecular/connexin43
+    relation: connects-to
+    note: "Panglial disruption: loss of astrocyte-oligodendrocyte connexin-43 gap junctions in MS plaques impairs the panglial network that supports myelin, contributing to lesion formation and expansion."
 ---
 
 # Multiple Sclerosis
@@ -525,6 +534,9 @@ MS affects approximately **2.8 million people worldwide** (~1 million in the US)
 - `connects-to` → **[LMP1](../../03-molecular/lmp1/README.md)** — Epstein-Barr virus is the leading environmental cause of MS, with EBV-infected B cells expressing latency proteins persisting in patients and EBV antigens cross-reacting with myelin (molecular mimicry), a basis for the efficacy of B-cell depletion.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — In the demyelinated axon, dysregulated sodium and calcium influx drives the calcium overload that destroys mitochondria and axons, the mechanism of the progressive neurodegeneration underlying irreversible MS disability.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — IGF-1 promotes the survival and differentiation of oligodendrocyte precursors that remyelinate stripped axons, a trophic axis whose insufficiency contributes to the failed remyelination of chronic MS lesions.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — Dimethyl fumarate, a first-line MS therapy, activates the NRF2 antioxidant pathway to protect oligodendrocytes and neurons from the oxidative injury that drives demyelination and neurodegeneration.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Caspase-3-mediated apoptosis of oligodendrocytes and neurons contributes to the demyelination and the progressive axonal loss that underlies disability accumulation in multiple sclerosis.
+- `connects-to` → **[Connexin-43](../../03-molecular/connexin43/README.md)** — Loss of astrocyte-oligodendrocyte connexin-43 gap junctions in MS plaques impairs the panglial network that supports myelin, contributing to lesion formation and expansion.
 
 [^compston-2008-ms-review]: Compston A, Coles A. Multiple sclerosis. *Lancet.* 2008;372(9648):1502-1517. [doi:10.1016/S0140-6736(08)61620-7](https://doi.org/10.1016/S0140-6736(08)61620-7) · [PubMed 18970977](https://pubmed.ncbi.nlm.nih.gov/18970977/)
 [^kappos-2006-natalizumab]: Polman CH, O'Connor PW, Havrdova E, et al. A randomized, placebo-controlled trial of natalizumab for relapsing multiple sclerosis. *N Engl J Med.* 2006;354(9):899-910. [doi:10.1056/NEJMoa044397](https://doi.org/10.1056/NEJMoa044397) · [PubMed 16510744](https://pubmed.ncbi.nlm.nih.gov/16510744/)
