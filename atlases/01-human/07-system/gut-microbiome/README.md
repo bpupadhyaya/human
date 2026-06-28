@@ -316,6 +316,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "Epithelial renewal: the microbiota influences Wnt/β-catenin signalling in the intestinal crypt, modulating the stem-cell-driven regeneration that continuously renews the gut lining the microbiome inhabits."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Innate sensing hub: microbiota-derived molecular patterns signal through TLRs (TLR4 mapped) and MyD88 to NF-κB (mapped), the core innate pathway by which the host senses and tolerates its commensal microbiome."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Immune education: the microbiota calibrates the balance between IFN-γ-producing Th1 cells and regulatory T cells during the development of mucosal immunity, shaping systemic immune tone."
+  - target: 01-human/03-molecular/ghrelin
+    relation: connects-to
+    note: "Metabolic axis: the gut microbiome modulates appetite-regulating hormones including ghrelin (with leptin and GLP-1 mapped), part of the microbiome's influence on host energy balance and metabolism."
 ---
 
 # Gut Microbiome
@@ -493,6 +502,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — Microbial butyrate is consumed by colonocytes, lowering epithelial oxygen and stabilizing HIF-1α, a physiological hypoxia signal that maintains the gut barrier and the anaerobic niche favoring beneficial commensals.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Microbial signals sensed through pattern-recognition receptors tune epithelial NF-κB activity, balancing antimicrobial defense against tolerance to the commensal microbiota that prevents inappropriate inflammation.
 - `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — The microbiota influences Wnt/β-catenin signaling in the intestinal crypt, modulating the stem-cell-driven regeneration that continuously renews the gut lining the microbiome inhabits.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Microbiota-derived molecular patterns signal through TLRs (TLR4 mapped) and MyD88 to NF-κB (mapped), the core innate pathway by which the host senses and tolerates its commensal microbiome.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — The microbiota calibrates the balance between IFN-γ-producing Th1 cells and regulatory T cells during the development of mucosal immunity, shaping systemic immune tone.
+- `connects-to` → **[Ghrelin](../../03-molecular/ghrelin/README.md)** — The gut microbiome modulates appetite-regulating hormones including ghrelin (with leptin and GLP-1 mapped), part of the microbiome's influence on host energy balance and metabolism.
 
 ## Pathology
 
