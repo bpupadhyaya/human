@@ -316,6 +316,15 @@ cross_links:
   - target: 01-human/03-molecular/glp-1
     relation: connects-to
     note: "Metabolic renoprotection: GLP-1 receptor agonists exert direct renal effects that reduce albuminuria and slow the decline of kidney function in diabetic kidney disease, linking the incretin axis to renal outcomes."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Oxygen sensing: the kidney is the body's oxygen sensor — peritubular cells stabilise HIF in hypoxia to produce the erythropoietin already mapped, the axis exploited by HIF-prolyl-hydroxylase inhibitors to treat renal anaemia."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Development and fibrosis: Wnt/β-catenin signalling patterns nephron development and, when pathologically reactivated, drives the tubulointerstitial fibrosis that is the final common pathway of chronic kidney disease."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Nephron patterning: NOTCH signalling directs nephron-progenitor differentiation and podocyte specification during kidney development, and its reactivation contributes to glomerular disease."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -510,6 +519,9 @@ Natriuretic counterpoint:
 - **Connects to:** [Calcium](../../02-atomic/calcium/README.md) — mineral homeostasis: the kidney is central to calcium balance, filtering it and reabsorbing it under PTH and vitamin-D control through channels like TRPV5 in the distal tubule, linking renal function to bone health and the disturbances of chronic kidney disease.
 - **Connects to:** [Dopamine](../../03-molecular/dopamine/README.md) — intrarenal natriuresis: locally produced dopamine acts on proximal-tubule D1 receptors to inhibit sodium reabsorption and promote its excretion, an intrarenal natriuretic system that helps regulate blood pressure independent of the systemic circulation.
 - **Connects to:** [GLP-1](../../03-molecular/glp-1/README.md) — metabolic renoprotection: GLP-1 receptor agonists exert direct renal effects that reduce albuminuria and slow the decline of kidney function in diabetic kidney disease, linking the incretin axis to renal outcomes.
+- **Connects to:** [HIF-1alpha](../../03-molecular/hif-1alpha/README.md) — oxygen sensing: the kidney is the body's oxygen sensor, where peritubular cells stabilize HIF in hypoxia to produce the erythropoietin already mapped, the axis exploited by HIF-prolyl-hydroxylase inhibitors to treat renal anemia.
+- **Connects to:** [Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md) — development and fibrosis: Wnt/β-catenin signaling patterns nephron development and, when pathologically reactivated, drives the tubulointerstitial fibrosis that is the final common pathway of chronic kidney disease.
+- **Connects to:** [NOTCH](../../03-molecular/notch/README.md) — nephron patterning: NOTCH signaling directs nephron-progenitor differentiation and podocyte specification during kidney development, and its reactivation contributes to glomerular disease.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 

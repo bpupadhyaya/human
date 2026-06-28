@@ -309,6 +309,15 @@ cross_links:
   - target: 01-human/03-molecular/substance-p
     relation: connects-to
     note: "Neurogenic inflammation: RSV upregulates substance P and its NK1 receptor in the airways, driving neurogenic inflammation, mucus secretion and the airway hyper-reactivity that contributes to the wheeze of bronchiolitis and post-RSV wheezing."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Atopy link: RSV bronchiolitis in infancy promotes Th2 sensitisation and IgE production (with the IL-4/IL-5/IL-13 already mapped), the mechanism linking severe early RSV to later recurrent wheeze and asthma."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Inflammasome bronchiolitis: RSV activates the NLRP3 inflammasome (already mapped) to release IL-1β, amplifying the airway inflammation and neutrophil recruitment of severe bronchiolitis."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Epithelial death: RSV induces caspase-3 apoptosis of infected airway epithelial cells, and the resulting epithelial sloughing — with mucus and the syncytia that name the virus — plugs the small airways in bronchiolitis."
 ---
 
 # RSV
@@ -550,3 +559,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[FcRn](../../03-molecular/fcrn/README.md)** — The anti-F-protein antibody nirsevimab carries an FcRn-binding (YTE) modification that extends its half-life to protect infants across a whole RSV season with one dose, the passive-immunization strategy that has transformed prevention.
 - `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — Secretory IgA on the airway surface neutralizes RSV at the portal of entry, the first-line mucosal antibody whose relative immaturity in infancy is one reason the very young suffer the most severe bronchiolitis.
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — RSV upregulates substance P and its NK1 receptor in the airways, driving neurogenic inflammation, mucus secretion and the airway hyper-reactivity that contributes to the wheeze of bronchiolitis and post-RSV wheezing.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — RSV bronchiolitis in infancy promotes Th2 sensitization and IgE production (with the IL-4/IL-5/IL-13 already mapped), the mechanism linking severe early RSV to later recurrent wheeze and asthma.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — RSV activates the NLRP3 inflammasome (already mapped) to release IL-1β, amplifying the airway inflammation and neutrophil recruitment of severe bronchiolitis.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — RSV induces caspase-3 apoptosis of infected airway epithelial cells, and the resulting epithelial sloughing—with mucus and the syncytia that name the virus—plugs the small airways in bronchiolitis.
