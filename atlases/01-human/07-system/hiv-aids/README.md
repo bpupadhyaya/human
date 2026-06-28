@@ -319,6 +319,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "Lymphoid fibrosis: TGF-β drives the collagen deposition and lymphoid-tissue fibrosis of chronic HIV that impairs immune reconstitution even on effective antiretroviral therapy."
+  - target: 01-human/03-molecular/hiv-gp120
+    relation: connects-to
+    note: "Viral entry and cytopathicity: HIV gp120 binds CD4 and the CCR5 co-receptor (already mapped) to mediate entry, and its engagement of bystander cells drives the syncytia formation and CD4 depletion that define progression to AIDS."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Chronic immune activation: interferon and inflammatory-cytokine signalling through JAK-STAT (type-I IFN and STAT3 already mapped) sustains the persistent immune activation that drives AIDS progression and is a JAK-inhibitor target under study."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "T-cell apoptosis: HIV dysregulates the Bcl-2 family to tip infected and bystander CD4+ T cells toward apoptosis, a major mechanism of the progressive lymphocyte depletion of AIDS."
 ---
 
 # HIV/AIDS
@@ -534,6 +543,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Leakage of microbial products across the damaged gut epithelium in AIDS engages TLR4, driving the chronic immune activation that accelerates CD4 decline and progression.
 - `connects-to` → **[MAVS](../../03-molecular/mavs/README.md)** — HIV antagonizes RIG-I/MAVS antiviral signaling, contributing to the impaired innate control of the virus that permits progression to AIDS.
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β drives the collagen deposition and lymphoid-tissue fibrosis of chronic HIV that impairs immune reconstitution even on effective antiretroviral therapy.
+- `connects-to` → **[HIV gp120](../../03-molecular/hiv-gp120/README.md)** — HIV gp120 binds CD4 and the CCR5 co-receptor (already mapped) to mediate entry, and its engagement of bystander cells drives the syncytia formation and CD4 depletion that define progression to AIDS.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Interferon and inflammatory-cytokine signaling through JAK-STAT (type-I IFN and STAT3 already mapped) sustains the persistent immune activation that drives AIDS progression and is a JAK-inhibitor target under study.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — HIV dysregulates the Bcl-2 family to tip infected and bystander CD4+ T cells toward apoptosis, a major mechanism of the progressive lymphocyte depletion of AIDS.
 
 ## See Also
 

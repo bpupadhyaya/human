@@ -319,6 +319,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Severe-flu hypoxia: the diffuse alveolar damage and hypoxaemia of severe influenza pneumonia drive HIF-mediated responses in the injured lung, part of the pathophysiology of influenza ARDS."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Interferon signal transduction: type-I interferon produced through the RIG-I-MAVS-IRF3 axis (all already mapped) signals via JAK-STAT to STAT1 (mapped), inducing the antiviral interferon-stimulated genes that restrict influenza replication."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1/NK antiviral arm: IL-12 from activated dendritic cells drives NK-cell and Th1 IFN-γ responses (already mapped) that augment the cellular clearance of influenza-infected respiratory epithelium."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement antiviral and immunopathology: complement C3 opsonises influenza virions and enhances neutralisation, while excessive activation also contributes to the lung immunopathology of severe influenza."
 ---
 
 # Influenza
@@ -555,3 +564,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[IRF3](../../03-molecular/irf3/README.md)** — IRF3, activated by the RIG-I/MAVS/TBK1 sensing pathway already mapped, drives the type-I interferon front-line defense against influenza, the response the viral NS1 protein antagonizes.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Influenza induces caspase-3 apoptosis of infected respiratory epithelial cells, both an antiviral defense and a cause of the epithelial damage that opens the airway to secondary bacterial pneumonia.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — The diffuse alveolar damage and hypoxemia of severe influenza pneumonia drive HIF-mediated responses in the injured lung, part of the pathophysiology of influenza ARDS.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Type-I interferon produced through the RIG-I-MAVS-IRF3 axis (all already mapped) signals via JAK-STAT to STAT1 (mapped), inducing the antiviral interferon-stimulated genes that restrict influenza replication.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — IL-12 from activated dendritic cells drives NK-cell and Th1 IFN-γ responses (already mapped) that augment the cellular clearance of influenza-infected respiratory epithelium.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 opsonizes influenza virions and enhances neutralization, while excessive activation also contributes to the lung immunopathology of severe influenza.
