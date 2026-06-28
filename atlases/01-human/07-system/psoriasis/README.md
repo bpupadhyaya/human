@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "Lost regulation: a relative deficiency of regulatory IL-10 in psoriatic skin fails to restrain the Th17 inflammation, an imbalance that helps sustain the chronic plaque."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Innate amplification: the IL-36 and IL-1 receptors (IL-36 and IL-1β mapped) and TLRs signal through MyD88 to NF-κB (mapped), amplifying the innate inflammation that drives psoriatic plaques, especially pustular psoriasis."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Keratinocyte hyperproliferation: PI3K-AKT-mTOR signalling drives the keratinocyte hyperproliferation that thickens the psoriatic epidermis into its characteristic scaly plaque."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Accelerated turnover: cyclin-D-CDK4/6 release of E2F1 shortens keratinocyte cell-cycle time, compressing epidermal turnover from weeks to days in the psoriatic plaque."
 ---
 
 # Psoriasis
@@ -538,6 +547,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — EGFR-driven ERK signaling (EGFR already mapped) propels the keratinocyte hyperproliferation that thickens the psoriatic plaque, the epidermal response to the inflammatory cytokine milieu.
 - `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1-derived IFN-γ contributes to the early and chronic inflammation of psoriasis alongside the dominant IL-23/IL-17 axis already mapped, activating keratinocytes and dendritic cells.
 - `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — A relative deficiency of regulatory IL-10 in psoriatic skin fails to restrain the Th17 inflammation, an imbalance that helps sustain the chronic plaque.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — The IL-36 and IL-1 receptors (IL-36 and IL-1β mapped) and TLRs signal through MyD88 to NF-κB (mapped), amplifying the innate inflammation that drives psoriatic plaques, especially pustular psoriasis.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — PI3K-AKT-mTOR signaling drives the keratinocyte hyperproliferation that thickens the psoriatic epidermis into its characteristic scaly plaque.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — Cyclin-D-CDK4/6 release of E2F1 shortens keratinocyte cell-cycle time, compressing epidermal turnover from weeks to days in the psoriatic plaque.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
