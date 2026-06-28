@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/galectin-3
     relation: connects-to
     note: "Microglial response: galectin-3 from activated microglia contributes to the neuroinflammatory microenvironment of IDH-mutant glioma, a microglial signal increasingly studied as a modifier of glioma progression."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K growth signal: PIK3CA activates the PI3K-AKT-mTOR axis (AKT and mTOR already mapped) that is co-active in IDH-mutant glioma and contributes to its growth."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Cell-cycle progression: the cyclin-D-CDK4/6 axis (mapped, with CDKN2A loss marking grade progression) releases E2F1 to drive the proliferation accompanying transformation of IDH-mutant glioma to higher grade."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Glial lineage: NOTCH signalling shapes the oligodendroglial and astrocytic differentiation programmes of IDH-mutant glioma, influencing the lineage and behaviour of these lower-grade tumours."
 ---
 
 # IDH-Mutant Glioma
@@ -543,6 +552,9 @@ IDH-mutant glioma with MGMT methylation shows strong alkylating agent sensitivit
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — The uniform IDH1 R132H mutation creates a shared neoantigen, and IDH vaccines aim to direct cytotoxic T cells to kill the tumor through perforin and granzyme, an immunotherapy strategy unique to this molecularly defined glioma.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — The oncometabolite 2-hydroxyglutarate suppresses innate immune signaling including the STING-interferon axis and impairs T-cell function, helping make IDH-mutant glioma an immunologically cold tumor that IDH inhibitors may help thaw.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 from activated microglia contributes to the neuroinflammatory microenvironment of IDH-mutant glioma, a microglial signal increasingly studied as a modifier of glioma progression.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PIK3CA activates the PI3K-AKT-mTOR axis (AKT and mTOR already mapped) that is co-active in IDH-mutant glioma and contributes to its growth.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — The cyclin-D-CDK4/6 axis (mapped, with CDKN2A loss marking grade progression) releases E2F1 to drive the proliferation accompanying transformation of IDH-mutant glioma to higher grade.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH signaling shapes the oligodendroglial and astrocytic differentiation programs of IDH-mutant glioma, influencing the lineage and behavior of these lower-grade tumors.
 
 [^mellinghoff-2023-vorasidenib-lgg]: Mellinghoff IK, van den Bent MJ, Blumenthal DT, et al. Vorasidenib in IDH1- or IDH2-mutant low-grade glioma. *N Engl J Med.* 2023;389(7):589-601. [doi:10.1056/NEJMoa2304194](https://doi.org/10.1056/NEJMoa2304194) · [PubMed 37272530](https://pubmed.ncbi.nlm.nih.gov/37272530/)
 [^jiao-2012-atrx-glioma]: Jiao Y, Killela PJ, Reitman ZJ, et al. Frequent ATRX, CIC, FUBP1 and IDH mutations refine the classification of malignant gliomas. *Oncotarget.* 2012;3(7):709-722. [doi:10.18632/oncotarget.588](https://doi.org/10.18632/oncotarget.588) · [PubMed 22869205](https://pubmed.ncbi.nlm.nih.gov/22869205/)

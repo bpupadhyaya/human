@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Urate and oxidative stress: xanthine-oxidase activity raises uric acid and generates reactive oxygen species that impair endothelial nitric oxide, and elevated serum urate is an independent associate of hypertension, especially in the young."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic link: the low adiponectin of visceral adiposity (insulin and leptin already mapped) is associated with endothelial dysfunction and elevated blood pressure, tying obesity to the metabolic-syndrome form of hypertension."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Inflammasome limb: NLRP3 inflammasome activation (mapped) generates IL-1β, which promotes vascular inflammation and renal sodium handling that contribute to hypertension."
+  - target: 01-human/03-molecular/fgf23
+    relation: connects-to
+    note: "Cardiorenal link: FGF23 rises in chronic kidney disease and independently associates with hypertension and left-ventricular hypertrophy, connecting phosphate-regulating endocrinology to blood-pressure control."
 ---
 
 # Hypertension
@@ -502,6 +511,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium influx through L-type channels triggers vascular-smooth-muscle contraction that sets peripheral resistance, the mechanism blocked by the calcium-channel-blocker drugs (amlodipine) that are a first-line treatment for hypertension.
 - `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — Locally produced renal dopamine acts on proximal-tubule D1 receptors to promote sodium excretion, an intrarenal natriuretic system whose impairment contributes to the salt retention behind salt-sensitive hypertension.
 - `connects-to` → **[Xanthine Oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Xanthine-oxidase activity raises uric acid and generates reactive oxygen species that impair endothelial nitric oxide, and elevated serum urate is an independent associate of hypertension, especially in the young.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — The low adiponectin of visceral adiposity (insulin and leptin already mapped) is associated with endothelial dysfunction and elevated blood pressure, tying obesity to the metabolic-syndrome form of hypertension.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — NLRP3 inflammasome activation (mapped) generates IL-1β, which promotes vascular inflammation and renal sodium handling that contribute to hypertension.
+- `connects-to` → **[FGF23](../../03-molecular/fgf23/README.md)** — FGF23 rises in chronic kidney disease and independently associates with hypertension and left-ventricular hypertrophy, connecting phosphate-regulating endocrinology to blood-pressure control.
 
 ## Pathology
 
