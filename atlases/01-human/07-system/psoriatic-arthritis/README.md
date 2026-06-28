@@ -321,6 +321,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Immune-bone bridge: osteopontin is elevated in psoriatic arthritis serum and synovium, promoting both Th17 inflammation and the osteoclastogenesis behind erosive joint damage, linking the immune drive to the bone destruction of the disease."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Innate signalling hub: the IL-1 receptor family (IL-36 and IL-1β mapped) and TLRs signal through MyD88 to activate NF-κB (mapped), an innate-immune hub amplifying the inflammation of psoriatic arthritis."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Regulatory balance: a relative deficiency of anti-inflammatory IL-10 against the dominant IL-23/IL-17 axis (mapped) contributes to the unchecked synovial and entheseal inflammation of psoriatic arthritis."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "Neuro-immune enthesitis: sensory neuropeptide CGRP at entheses links neurogenic signalling to the enthesitis and new-bone formation that distinguish psoriatic arthritis from rheumatoid arthritis."
 ---
 
 # Psoriatic Arthritis
@@ -569,6 +578,9 @@ Risankizumab (anti-IL-23p19) **failed primary endpoints** in the SURPASS trial f
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — With the IL-6 already mapped, TGF-β licenses the pathogenic Th17 cells central to psoriatic arthritis, and its pro-osteogenic activity contributes to the entheseal new-bone formation that distinguishes PsA from rheumatoid arthritis.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Alongside the leptin already mapped, adiponectin from adipose tissue modulates joint inflammation, and the adiponectin-leptin imbalance of obesity helps explain the metabolic comorbidity and disease activity of psoriatic arthritis.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin is elevated in psoriatic arthritis serum and synovium, promoting both Th17 inflammation and the osteoclastogenesis behind erosive joint damage, linking the immune drive to the bone destruction of the disease.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — The IL-1 receptor family (IL-36 and IL-1β mapped) and TLRs signal through MyD88 to activate NF-κB (mapped), an innate-immune hub amplifying the inflammation of psoriatic arthritis.
+- `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — A relative deficiency of anti-inflammatory IL-10 against the dominant IL-23/IL-17 axis (mapped) contributes to the unchecked synovial and entheseal inflammation of psoriatic arthritis.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Sensory neuropeptide CGRP at entheses links neurogenic signaling to the enthesitis and new-bone formation that distinguish psoriatic arthritis from rheumatoid arthritis.
 
 [^ritchlin-2017-psa-review]: Ritchlin CT, Colbert RA, Gladman DD. Psoriatic arthritis. *N Engl J Med.* 2017;376(10):957-970. [doi:10.1056/NEJMra1505557](https://doi.org/10.1056/NEJMra1505557) · [PubMed 28273019](https://pubmed.ncbi.nlm.nih.gov/28273019/)
 [^mease-2015-secukinumab-psa-future2]: Mease PJ, et al. Secukinumab inhibition of interleukin-17A in patients with psoriatic arthritis. *N Engl J Med.* 2015;373(14):1329-1339. [doi:10.1056/NEJMoa1503317](https://doi.org/10.1056/NEJMoa1503317) · [PubMed 26422723](https://pubmed.ncbi.nlm.nih.gov/26422723/)

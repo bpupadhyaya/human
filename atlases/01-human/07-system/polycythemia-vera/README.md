@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/ferroportin
     relation: connects-to
     note: "Iron supply: the high erythropoietic drive of PV suppresses hepcidin, leaving ferroportin active to feed iron into red-cell production; hepcidin-mimetics (rusfertide) exploit this by degrading ferroportin to starve the clone of iron and control erythrocytosis."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K limb: constitutive JAK2 signalling (mapped) engages PI3K (AKT already mapped) as a parallel effector pathway supporting the erythroid expansion of polycythemia vera."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Growth axis: mTOR completes the PI3K-AKT-mTOR pathway (AKT already mapped) downstream of JAK2, and mTOR inhibition has been explored to control the clone in polycythemia vera."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "Leukaemic transformation: TP53 inactivation drives the progression of polycythemia vera to post-PV myelofibrosis and acute myeloid leukaemia."
 ---
 
 # Polycythemia Vera
@@ -533,6 +542,9 @@ PV must be distinguished from secondary erythrocytosis (elevated EPO, JAK2 wild-
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — JAK2 V617F signals not only through STAT5 but the RAS-ERK MAPK pathway, broadening the cytokine-independent proliferation of polycythemia vera and a reason JAK inhibition alone fails to eradicate the clone.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — Epigenetic-regulator mutations in DNMT3A, acquired with the TET2 already mapped here, can precede or accompany the JAK2 driver and shape the clonal evolution and progression risk of polycythemia vera.
 - `connects-to` → **[Ferroportin](../../03-molecular/ferroportin/README.md)** — The high erythropoietic drive of PV suppresses hepcidin, leaving ferroportin active to feed iron into red-cell production; hepcidin-mimetics (rusfertide) exploit this by degrading ferroportin to starve the clone of iron and control erythrocytosis.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Constitutive JAK2 signaling (mapped) engages PI3K (AKT already mapped) as a parallel effector pathway supporting the erythroid expansion of polycythemia vera.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR completes the PI3K-AKT-mTOR pathway (AKT already mapped) downstream of JAK2, and mTOR inhibition has been explored to control the clone in polycythemia vera.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 inactivation drives the progression of polycythemia vera to post-PV myelofibrosis and acute myeloid leukemia.
 
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409630](https://doi.org/10.1056/NEJMoa1409630) · [PubMed 25577388](https://pubmed.ncbi.nlm.nih.gov/25577388/)
 [^gisslinger-2020-proud-pv]: Gisslinger H, Gotic M, Holowiecki J, et al. Ropeginterferon alfa-2b versus standard therapy for polycythaemia vera (PROUD-PV and CONTINUATION-PV): a randomised, non-inferiority, phase 3 trial and its extension study. *Lancet Haematol.* 2020;7(3):e196-e208. [doi:10.1016/S2352-3026(19)30236-4](https://doi.org/10.1016/S2352-3026(19)30236-4) · [PubMed 32046833](https://pubmed.ncbi.nlm.nih.gov/32046833/)
