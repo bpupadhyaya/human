@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/src-kinase
     relation: connects-to
     note: "Invasive signalling: SRC-family kinase activity promotes the proliferation and invasive migration of synovial sarcoma cells, relayed from the MET, FGFR and EGFR receptor tyrosine kinases already mapped."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "RTK-MAPK: the MET, FGFR, EGFR and IGF-1R receptors (all mapped) converge on the MAPK-ERK cascade driving proliferation in synovial sarcoma."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "PI3K restraint: PTEN limits the PI3K-AKT-mTOR axis (PIK3CA, AKT and mTOR already mapped), an IGF-1R-driven survival pathway active in synovial sarcoma."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "p53 suppression: synovial sarcoma usually retains wild-type TP53 (mapped) held in check by MDM2, making MDM2 inhibition a strategy to reactivate p53-driven apoptosis."
 ---
 
 # Synovial Sarcoma
@@ -537,6 +546,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K-AKT-mTOR signaling (AKT and mTOR already mapped) is activated in synovial sarcoma and supports growth and survival, a targetable dependency downstream of its receptor tyrosine kinases.
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — Deregulated RB-E2F1 transcription powers the proliferation of synovial sarcoma, cooperating with the CDK4/6-cyclin-D and CDKN2A lesions already mapped.
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase activity promotes the proliferation and invasive migration of synovial sarcoma cells, relayed from the MET, FGFR and EGFR receptor tyrosine kinases already mapped.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — The MET, FGFR, EGFR and IGF-1R receptors (all mapped) converge on the MAPK-ERK cascade driving proliferation in synovial sarcoma.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN limits the PI3K-AKT-mTOR axis (PIK3CA, AKT and mTOR already mapped), an IGF-1R-driven survival pathway active in synovial sarcoma.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — Synovial sarcoma usually retains wild-type TP53 (mapped) held in check by MDM2, making MDM2 inhibition a strategy to reactivate p53-driven apoptosis.
 
 ---
 

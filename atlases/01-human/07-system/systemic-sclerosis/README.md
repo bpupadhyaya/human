@@ -319,6 +319,15 @@ cross_links:
   - target: 01-human/03-molecular/baff
     relation: connects-to
     note: "B-cell activation: BAFF-driven B-cell survival and autoantibody production contribute to systemic sclerosis, the rationale for the B-cell-depleting therapy (rituximab against the CD20 already mapped) used in skin and lung disease."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "Fibroblast proliferation: PDGFR and FGFR signalling (PDGF mapped) drives the MAPK-ERK cascade that activates fibroblasts in systemic sclerosis, the axis blocked by the antifibrotic TKI nintedanib."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Myofibroblast differentiation: mTOR signalling promotes the differentiation of fibroblasts into collagen-secreting myofibroblasts (collagen mapped), driving the progressive fibrosis of systemic sclerosis."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "TLR-driven fibrosis: endogenous DAMPs activate TLR4 on fibroblasts, signalling through MyD88 to sustain TGF-β-driven (mapped) collagen production and the persistent fibrosis of systemic sclerosis."
 ---
 
 # Systemic Sclerosis
@@ -533,6 +542,9 @@ Identical to IPAH: medial hypertrophy, intimal fibrosis, concentric laminar inti
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β signals through the SMAD pathway (common mediator SMAD4) to drive the fibroblast activation and excess collagen deposition central to systemic sclerosis, the core fibrotic mechanism of the disease.
 - `connects-to` → **[PF4](../../03-molecular/pf4/README.md)** — CXCL4/platelet factor 4, released by plasmacytoid dendritic cells, is a leading systemic-sclerosis biomarker that drives the type-I interferon response and fibrosis, linking platelet and innate-immune activation to the disease.
 - `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — BAFF-driven B-cell survival and autoantibody production contribute to systemic sclerosis, the rationale for the B-cell-depleting therapy (rituximab against the CD20 already mapped) used in skin and lung disease.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — PDGFR and FGFR signaling (PDGF mapped) drives the MAPK-ERK cascade that activates fibroblasts in systemic sclerosis, the axis blocked by the antifibrotic TKI nintedanib.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR signaling promotes the differentiation of fibroblasts into collagen-secreting myofibroblasts (collagen mapped), driving the progressive fibrosis of systemic sclerosis.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Endogenous DAMPs activate TLR4 on fibroblasts, signaling through MyD88 to sustain TGF-β-driven (mapped) collagen production and the persistent fibrosis of systemic sclerosis.
 
 [^denton-2017-ssc-review]: Denton CP, Khanna D. Systemic sclerosis. *Lancet.* 2017;390(10103):1685-1699. [doi:10.1016/S0140-6736(17)30933-9](https://doi.org/10.1016/S0140-6736(17)30933-9) · [PubMed 28413064](https://pubmed.ncbi.nlm.nih.gov/28413064/)
 [^distler-2019-nintedanib-senscis]: Distler O, Highland KB, Gahlemann M, et al. Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease. *N Engl J Med.* 2019;380(26):2518-2528. [doi:10.1056/NEJMoa1903076](https://doi.org/10.1056/NEJMoa1903076) · [PubMed 31112379](https://pubmed.ncbi.nlm.nih.gov/31112379/)
