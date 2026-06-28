@@ -325,6 +325,15 @@ cross_links:
   - target: 01-human/03-molecular/bcl-2
     relation: connects-to
     note: "Immunoparalysis: sepsis-induced apoptosis of lymphocytes, shifting the BCL-2 anti-apoptotic balance, depletes the adaptive immune compartment — the basis of the immunoparalysis that leaves patients vulnerable to secondary infection."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Innate trigger: TLR4 sensing of bacterial PAMPs and host DAMPs signals through MyD88 to NF-κB (both already mapped), the master innate pathway that ignites the dysregulated cytokine response of sepsis."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Cytokine amplification: IFN-γ and inflammatory-cytokine signalling through JAK-STAT (IFN-γ already mapped) amplifies the systemic inflammatory response of sepsis and is a therapeutic target under investigation."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "Neutrophilic inflammation: IL-17A from Th17 and innate lymphoid sources drives the neutrophil recruitment and tissue inflammation that contribute to organ injury in the sepsis host response."
 ---
 
 # Sepsis
@@ -533,6 +542,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — Tissue hypoxia and the metabolic reprogramming of immune cells in sepsis stabilize HIF-1α, driving glycolytic immune activation and the microvascular responses to the oxygen-delivery failure of septic shock.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Uncontrolled complement activation generates C3a/C5a (C5 already mapped) anaphylatoxins that amplify the inflammation, neutrophil dysfunction and coagulopathy of severe sepsis.
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Sepsis-induced apoptosis of lymphocytes, shifting the BCL-2 anti-apoptotic balance, depletes the adaptive immune compartment—the basis of the immunoparalysis that leaves patients vulnerable to secondary infection.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR4 sensing of bacterial PAMPs and host DAMPs signals through MyD88 to NF-κB (both already mapped), the master innate pathway that ignites the dysregulated cytokine response of sepsis.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IFN-γ and inflammatory-cytokine signaling through JAK-STAT (IFN-γ already mapped) amplifies the systemic inflammatory response of sepsis and is a therapeutic target under investigation.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A from Th17 and innate lymphoid sources drives the neutrophil recruitment and tissue inflammation that contribute to organ injury in the sepsis host response.
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

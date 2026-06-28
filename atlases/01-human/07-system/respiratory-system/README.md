@@ -324,6 +324,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "Airway cell fate: NOTCH signalling specifies the ciliated, club, goblet and neuroendocrine cell fates of the airway epithelium, patterning the conducting airways and their mucociliary defence."
+  - target: 01-human/03-molecular/cftr
+    relation: connects-to
+    note: "Airway surface liquid: CFTR chloride and bicarbonate transport sets the airway surface liquid that enables mucociliary clearance, the frontline airway defence whose failure defines cystic fibrosis."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Th2 airway response: IL-13 drives the goblet-cell mucus hypersecretion and bronchial hyperreactivity of the Th2 airway response that underlies asthma and allergic airway disease."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Oxidant defence: NRF2 governs the antioxidant programme that protects the airway and alveolar epithelium from inhaled oxidants, pollutants and cigarette smoke at the gas-exchange surface."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -507,6 +516,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Connects-to** → [HIF-1alpha](../../03-molecular/hif-1alpha/README.md): hypoxic response: alongside the HIF-2α/EPAS1 already mapped, HIF-1α mediates the lung's response to low oxygen, including the hypoxic pulmonary vasoconstriction that matches perfusion to ventilation.
 - **Connects-to** → [FGFR](../../03-molecular/fgfr/README.md): lung morphogenesis: FGF10-FGFR signaling drives the branching morphogenesis that builds the bronchial tree and alveoli, the core developmental program of the respiratory system.
 - **Connects-to** → [NOTCH](../../03-molecular/notch/README.md): airway cell fate: NOTCH signaling specifies the ciliated, club, goblet and neuroendocrine cell fates of the airway epithelium, patterning the conducting airways and their mucociliary defense.
+- **Connects-to** → [CFTR](../../03-molecular/cftr/README.md): airway surface liquid: CFTR chloride and bicarbonate transport sets the airway surface liquid that enables mucociliary clearance, the frontline airway defense whose failure defines cystic fibrosis.
+- **Connects-to** → [Interleukin-13](../../03-molecular/il-13/README.md): Th2 airway response: IL-13 drives the goblet-cell mucus hypersecretion and bronchial hyperreactivity of the Th2 airway response that underlies asthma and allergic airway disease.
+- **Connects-to** → [NRF2](../../03-molecular/nfe2l2/README.md): oxidant defense: NRF2 governs the antioxidant program that protects the airway and alveolar epithelium from inhaled oxidants, pollutants and cigarette smoke at the gas-exchange surface.
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.
 
 ## Pathology
