@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "Jaw bone remodelling: the odontogenic keratocysts of Gorlin syndrome expand by RANKL-driven osteoclastic resorption of the surrounding jaw bone, the bone destruction that makes them locally aggressive and prone to recurrence."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "Hedgehog-driven cycle: GLI transactivates cyclin-D (cyclin-D1 already mapped), which partners CDK4/6 to drive the proliferation of the basal-cell carcinomas and medulloblastomas of Gorlin syndrome."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Restriction-point release: CDK4/6-cyclin-D1 phosphorylates RB (mapped) to free E2F1, the proliferative output of constitutive Hedgehog signalling in Gorlin-syndrome tumours."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "Pathway cooperation: PI3K-AKT-mTOR signalling (AKT, mTOR and PTEN already mapped) cooperates with Hedgehog activation and contributes to resistance to SMO inhibitors such as vismodegib in Gorlin basal-cell carcinomas."
 ---
 
 # Gorlin Syndrome
@@ -522,6 +531,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Lamellar calcification of the falx cerebri and other ectopic calcification, along with skeletal anomalies like bifid ribs, are diagnostic features of Gorlin syndrome, reflecting the role of Hedgehog signaling in skeletal patterning.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — When the multiple basal cell carcinomas of Gorlin syndrome become advanced or Hedgehog-inhibitor-resistant, the PD-1 inhibitor cemiplimab unleashes perforin-mediated cytotoxic T-cell killing of the UV-mutated tumors.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — The odontogenic keratocysts of Gorlin syndrome expand by RANKL-driven osteoclastic resorption of the surrounding jaw bone, the bone destruction that makes them locally aggressive and prone to recurrence.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — GLI transactivates cyclin-D (cyclin-D1 already mapped), which partners CDK4/6 to drive the proliferation of the basal-cell carcinomas and medulloblastomas of Gorlin syndrome.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — CDK4/6-cyclin-D1 phosphorylates RB (mapped) to free E2F1, the proliferative output of constitutive Hedgehog signaling in Gorlin-syndrome tumors.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K-AKT-mTOR signaling (AKT, mTOR and PTEN already mapped) cooperates with Hedgehog activation and contributes to resistance to SMO inhibitors such as vismodegib in Gorlin basal-cell carcinomas.
 
 ---
 

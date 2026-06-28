@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/perforin
     relation: connects-to
     note: "Immunotherapy: EGFRvIII- and other-targeted CAR-T cells aim to kill glioblastoma through perforin and granzyme, though the immunosuppressive microenvironment of this 'cold' tumour has so far limited durable responses."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "RTK-PI3K core pathway: PIK3CA and PIK3R1 mutations activate PI3K (PTEN loss, AKT and mTOR already mapped), the central effector of the receptor-tyrosine-kinase axis that is one of glioblastoma's three core dysregulated pathways."
+  - target: 01-human/03-molecular/rb1
+    relation: connects-to
+    note: "RB core pathway: the RB pathway (CDK4/6, cyclin-D1 and CDKN2A already mapped) is inactivated in most glioblastomas, the second of the three core pathways driving this tumour."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "p53 core pathway: MDM2 amplification inactivates p53 (already mapped) in glioblastoma, completing the trio of core dysregulated pathways alongside RTK/PI3K and RB."
 ---
 
 # Glioblastoma
@@ -541,6 +550,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Glioblastoma cells form electrical and AMPA-receptor synapses with neurons and connect to each other through gap junctions, and the resulting calcium-mediated network activity drives invasion and proliferation.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — Methylation of the MGMT DNA-repair-gene promoter silences it and predicts response to temozolomide, the single most important predictive epigenetic biomarker in glioblastoma and an example of DNA methylation determining therapy.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — EGFRvIII- and other-targeted CAR-T cells aim to kill glioblastoma through perforin and granzyme, though the immunosuppressive microenvironment of this "cold" tumor has so far limited durable responses.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PIK3CA and PIK3R1 mutations activate PI3K (PTEN loss, AKT and mTOR already mapped), the central effector of the receptor-tyrosine-kinase axis that is one of glioblastoma's three core dysregulated pathways.
+- `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — The RB pathway (CDK4/6, cyclin-D1 and CDKN2A already mapped) is inactivated in most glioblastomas, the second of the three core pathways driving this tumor.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2 amplification inactivates p53 (already mapped) in glioblastoma, completing the trio of core dysregulated pathways alongside RTK/PI3K and RB.
 
 ---
 
