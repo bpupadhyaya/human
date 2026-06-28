@@ -319,6 +319,15 @@ cross_links:
   - target: 01-human/03-molecular/fgfr
     relation: connects-to
     note: "Plexiform proliferation: FGF2-FGFR signalling drives the endothelial and smooth-muscle-cell proliferation of the plexiform lesions of PAH, an angiogenic growth-factor axis acting alongside the PDGF and VEGF already mapped."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "Proliferative MAPK: PDGF and FGF (both mapped) signal through the MAPK-ERK cascade to drive the pulmonary-artery smooth-muscle proliferation of PAH, the rationale behind PDGFR-inhibitor (imatinib) trials."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Remodelling axis: PI3K-AKT-mTOR signalling (AKT already mapped) sustains the survival and proliferation of the remodelled pulmonary vascular cells in PAH."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Quasi-neoplastic growth: the apoptosis-resistant, proliferative pulmonary-artery smooth-muscle and endothelial cells of PAH show E2F-driven cell-cycle activity reminiscent of a cancer-like phenotype."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -542,6 +551,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[EPAS1](../../03-molecular/epas1/README.md)** — HIF-2α/EPAS1 is a master driver of the pulmonary vascular remodeling of PAH and hypoxic pulmonary hypertension, and gain-of-function EPAS1 variants cause heritable pulmonary hypertension.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — BMPR2 and TGF-β signals converge on SMAD4, and the loss of BMP-SMAD signaling with preserved TGF-β-SMAD signaling drives the proliferative vasculopathy that sotatercept (rebalancing the activin-A arm already mapped) aims to correct.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — FGF2-FGFR signaling drives the endothelial and smooth-muscle-cell proliferation of the plexiform lesions of PAH, an angiogenic growth-factor axis acting alongside the PDGF and VEGF already mapped.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — PDGF and FGF (both mapped) signal through the MAPK-ERK cascade to drive the pulmonary-artery smooth-muscle proliferation of PAH, the rationale behind PDGFR-inhibitor (imatinib) trials.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — PI3K-AKT-mTOR signaling (AKT already mapped) sustains the survival and proliferation of the remodeled pulmonary vascular cells in PAH.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — The apoptosis-resistant, proliferative pulmonary-artery smooth-muscle and endothelial cells of PAH show E2F-driven cell-cycle activity reminiscent of a cancer-like phenotype.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

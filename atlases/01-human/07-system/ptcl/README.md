@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "Immune dysregulation: the Tfh tumour and microenvironment of angioimmunoblastic T-cell lymphoma secrete immunosuppressive IL-10, contributing to the autoimmunity, hypergammaglobulinaemia and infection susceptibility characteristic of the disease."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "ALK-MAPK: the NPM-ALK fusion of ALK-positive anaplastic large cell lymphoma (ALK mapped) signals through the MAPK-ERK cascade to drive proliferation of this PTCL subtype."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "ALK-PI3K survival: ALK also engages PI3K-AKT (PIK3CA and mTOR already mapped), a survival pathway downstream of the fusion kinase in anaplastic large cell lymphoma."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Cell-cycle output: cyclin-D1 (mapped) and CDK4/6 release E2F1 to drive the cell-cycle progression of peripheral T-cell lymphoma."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -556,6 +565,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — MYC deregulation drives the aggressive behavior and large-cell transformation of peripheral T-cell lymphomas, cooperating with the epigenetic TET2/DNMT3A/IDH2 lesions already mapped to accelerate disease.
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — AITL, the commonest Tfh-derived PTCL, shows prominent arborizing high-endothelial venules, and PDGF angiogenic signaling helps build this vascular, follicular-dendritic-cell-rich microenvironment alongside the VEGF already mapped.
 - `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — The Tfh tumor and microenvironment of angioimmunoblastic T-cell lymphoma secrete immunosuppressive IL-10, contributing to the autoimmunity, hypergammaglobulinemia and infection susceptibility characteristic of the disease.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — The NPM-ALK fusion of ALK-positive anaplastic large cell lymphoma (ALK mapped) signals through the MAPK-ERK cascade to drive proliferation of this PTCL subtype.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — ALK also engages PI3K-AKT (PIK3CA and mTOR already mapped), a survival pathway downstream of the fusion kinase in anaplastic large cell lymphoma.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — Cyclin-D1 (mapped) and CDK4/6 release E2F1 to drive the cell-cycle progression of peripheral T-cell lymphoma.
 
 ---
 
