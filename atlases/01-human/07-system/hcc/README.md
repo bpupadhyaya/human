@@ -319,6 +319,15 @@ cross_links:
   - target: 01-human/03-molecular/pdgf
     relation: connects-to
     note: "Stromal angiogenesis: PDGF signalling drives the tumour stroma and angiogenesis of HCC, a target of the lenvatinib and regorafenib multikinase inhibitors used in its treatment."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Oxidative-stress oncogenesis: recurrent NFE2L2/KEAP1 mutations constitutively activate NRF2 in HCC, conferring antioxidant and metabolic advantages that promote hepatocyte survival and tumour progression on a background of chronic liver oxidative injury."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Inflammation-driven cancer: TLR-MyD88-NF-κB signalling, fuelled by gut-derived microbial products reaching the injured liver, sustains the chronic inflammation that links cirrhosis to hepatocarcinogenesis (TLR4 and NF-κB already mapped)."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Invasion and prognosis: osteopontin is overexpressed in HCC, promoting tumour-cell invasion, metastasis, and angiogenesis, and serving as a circulating biomarker of aggressive disease and poor prognosis."
 ---
 
 # Hepatocellular Carcinoma
@@ -557,6 +566,9 @@ In high-risk patients (cirrhosis, HBV regardless of cirrhosis): ultrasound ± AF
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — The RAF-MEK-ERK MAPK cascade is a key proliferative pathway in hepatocellular carcinoma and the target of the multikinase inhibitor sorafenib, a backbone of systemic HCC therapy.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K-AKT-mTOR signaling (AKT and mTOR already mapped) is recurrently activated in HCC, supporting growth and providing a resistance route to anti-angiogenic therapy.
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — PDGF signaling drives the tumor stroma and angiogenesis of HCC, a target of the lenvatinib and regorafenib multikinase inhibitors used in its treatment.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — Recurrent NFE2L2/KEAP1 mutations constitutively activate NRF2 in HCC, conferring antioxidant and metabolic advantages that promote hepatocyte survival and tumor progression on a background of chronic liver oxidative injury.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88-NF-κB signaling, fueled by gut-derived microbial products reaching the injured liver, sustains the chronic inflammation that links cirrhosis to hepatocarcinogenesis (TLR4 and NF-κB already mapped).
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin is overexpressed in HCC, promoting tumor-cell invasion, metastasis, and angiogenesis, and serving as a circulating biomarker of aggressive disease and poor prognosis.
 
 [^llovet-2008-sorafenib]: Llovet JM, Ricci S, Mazzaferro V, et al. Sorafenib in advanced hepatocellular carcinoma. *N Engl J Med.* 2008;359(4):378-390. [doi:10.1056/NEJMoa0708857](https://doi.org/10.1056/NEJMoa0708857) · [PubMed 18650514](https://pubmed.ncbi.nlm.nih.gov/18650514/)
 [^finn-2020-imbrave150]: Finn RS, Qin S, Ikeda M, et al. Atezolizumab plus bevacizumab in unresectable hepatocellular carcinoma. *N Engl J Med.* 2020;382(20):1894-1905. [doi:10.1056/NEJMoa1915745](https://doi.org/10.1056/NEJMoa1915745) · [PubMed 32402160](https://pubmed.ncbi.nlm.nih.gov/32402160/)

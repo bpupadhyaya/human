@@ -328,6 +328,15 @@ cross_links:
   - target: 01-human/03-molecular/irf3
     relation: connects-to
     note: "Interferon evasion: HIV accessory proteins degrade IRF3 to blunt the type-I interferon response (already mapped), an immune-evasion mechanism that helps the virus establish infection."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "CD4 homeostasis: IL-2 sustains CD4+ T-cell proliferation and survival, and progressive loss of this homeostatic support contributes to the T-cell depletion that defines HIV immunodeficiency."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Chronic immune activation: type-I-interferon and inflammatory-cytokine signalling through JAK-STAT (type-I IFN and STAT3 already mapped) drives the persistent immune activation that paradoxically fuels HIV pathogenesis and is under study as a JAK-inhibitor target."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Microbial-translocation inflammation: TLR sensing of HIV nucleic acids and gut-derived microbial products signals through MyD88 to NF-κB (TLR4 and NF-κB already mapped), sustaining the systemic immune activation central to disease progression."
 ---
 
 # HIV
@@ -566,6 +575,9 @@ The **latent reservoir** — HIV integrated into quiescent resting memory CD4+ T
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Beyond the pyroptotic CD4 death of the NLRP3 pathway already mapped, HIV drives caspase-3 apoptosis of infected and bystander CD4 T cells, the dual cell-death mechanism behind progressive immunodeficiency.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR signaling supports HIV replication and the survival of the latent reservoir in resting memory CD4 T cells, an axis of interest for reservoir-targeting cure strategies.
 - `connects-to` → **[IRF3](../../03-molecular/irf3/README.md)** — HIV accessory proteins degrade IRF3 to blunt the type-I interferon response (already mapped), an immune-evasion mechanism that helps the virus establish infection.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — IL-2 sustains CD4+ T-cell proliferation and survival, and progressive loss of this homeostatic support contributes to the T-cell depletion that defines HIV immunodeficiency.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Type-I-interferon and inflammatory-cytokine signaling through JAK-STAT (type-I IFN and STAT3 already mapped) drives the persistent immune activation that paradoxically fuels HIV pathogenesis and is under study as a JAK-inhibitor target.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR sensing of HIV nucleic acids and gut-derived microbial products signals through MyD88 to NF-κB (TLR4 and NF-κB already mapped), sustaining the systemic immune activation central to disease progression.
 
 [^barre-sinoussi-1983-hiv-isolation]: Barré-Sinoussi F, Chermann JC, Rey F, et al. Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS). *Science.* 1983;220(4599):868-871. [doi:10.1126/science.6189183](https://doi.org/10.1126/science.6189183) · [PubMed 6189183](https://pubmed.ncbi.nlm.nih.gov/6189183/)
 [^ho-1995-viral-dynamics]: Ho DD, Neumann AU, Perelson AS, et al. Rapid turnover of plasma virions and CD4 lymphocytes in HIV-1 infection. *Nature.* 1995;373(6510):123-126. [doi:10.1038/373123a0](https://doi.org/10.1038/373123a0) · [PubMed 7816094](https://pubmed.ncbi.nlm.nih.gov/7816094/)
