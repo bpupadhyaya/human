@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/cgas-sting
     relation: connects-to
     note: "HRD immunogenicity: BRCA/ATM-mutant, homologous-recombination-deficient prostate cancers accumulate cytosolic DNA that activates cGAS-STING, the innate-immune rationale for combining PARP inhibitors with checkpoint blockade in this molecular subset."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K-AR crosstalk: PTEN loss (already mapped) and PIK3CA activation drive the PI3K-AKT-mTOR pathway in prostate cancer, a resistance route that reciprocally cross-talks with androgen-receptor signalling to sustain castration-resistant growth."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Castration-resistant progression: Wnt/β-catenin signalling drives castration-resistant progression and contributes to the osteoblastic bone metastases (RANKL and osteoblasts already mapped) that characterise advanced prostate cancer."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Metastatic switch: TGF-β shifts from tumour suppressor to driver as prostate cancer advances, promoting epithelial-mesenchymal transition, the bone-metastatic niche and the immunosuppression of the tumour microenvironment."
 ---
 
 # Prostate Cancer
@@ -538,6 +547,9 @@ cross_links:
 - `connects-to` → **[Glucocorticoid receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Upregulation of the glucocorticoid receptor lets prostate-cancer cells drive an AR-like transcriptional program despite AR blockade, a key mechanism of resistance to enzalutamide in castration-resistant disease.
 - `connects-to` → **[SSTR2](../../03-molecular/sstr2/README.md)** — Under potent AR-pathway inhibition some prostate cancers transdifferentiate into aggressive neuroendocrine tumors that lose AR and express neuroendocrine markers like SSTR2, a lethal, treatment-induced phenotype switch.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — BRCA/ATM-mutant, homologous-recombination-deficient prostate cancers accumulate cytosolic DNA that activates cGAS-STING, the innate-immune rationale for combining PARP inhibitors with checkpoint blockade in this molecular subset.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PTEN loss (already mapped) and PIK3CA activation drive the PI3K-AKT-mTOR pathway in prostate cancer, a resistance route that reciprocally cross-talks with androgen-receptor signaling to sustain castration-resistant growth.
+- `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Wnt/β-catenin signaling drives castration-resistant progression and contributes to the osteoblastic bone metastases (RANKL and osteoblasts already mapped) that characterize advanced prostate cancer.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β shifts from tumor suppressor to driver as prostate cancer advances, promoting epithelial-mesenchymal transition, the bone-metastatic niche and the immunosuppression of the tumor microenvironment.
 
 [^beer-2014-prevail]: Beer TM, Armstrong AJ, Rathkopf D, et al. Enzalutamide in metastatic prostate cancer before chemotherapy. *N Engl J Med.* 2014;371(5):424-433. [doi:10.1056/NEJMoa1405095](https://doi.org/10.1056/NEJMoa1405095) · [PubMed 24881730](https://pubmed.ncbi.nlm.nih.gov/24881730/)
 [^sartor-2021-vision]: Sartor O, de Bono J, Chi KN, et al. Lutetium-PSMA-617 for metastatic castration-resistant prostate cancer. *N Engl J Med.* 2021;385(12):1091-1103. [doi:10.1056/NEJMoa2107322](https://doi.org/10.1056/NEJMoa2107322) · [PubMed 34161051](https://pubmed.ncbi.nlm.nih.gov/34161051/)

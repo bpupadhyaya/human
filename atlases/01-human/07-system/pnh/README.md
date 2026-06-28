@@ -307,6 +307,15 @@ cross_links:
   - target: 01-human/03-molecular/rage
     relation: connects-to
     note: "Free-heme inflammation: chronic intravascular haemolysis releases free haem that, as a DAMP signalling through RAGE, sustains a pro-inflammatory, pro-thrombotic vascular state beyond the nitric-oxide scavenging that drives the dystonic symptoms."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Marrow-failure immunity: the bone-marrow failure of PNH, overlapping with aplastic anaemia, involves T-cell and TNF-α-mediated immune attack on haematopoietic stem cells, the autoimmune pressure that selects the GPI-negative clone."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Complement-inflammasome crosstalk: complement C5a (already mapped) and free haem from intravascular haemolysis prime the NLRP3 inflammasome, adding an inflammatory dimension to the thrombosis and tissue injury of PNH."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Haemolytic hypoxia: chronic intravascular haemolysis and anaemia in PNH produce tissue hypoxia that drives HIF-mediated erythropoietin and adaptive responses, part of the systemic burden of the disease."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -495,6 +504,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[Thrombopoietin](../../03-molecular/thrombopoietin/README.md)** — PNH arises from a PIGA-mutant clone expanding on a background of bone-marrow failure, and thrombopoietin-receptor agonists like eltrombopag can stimulate trilineage recovery in the aplastic-anemia/PNH overlap syndromes.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Complement-activated neutrophils releasing S100A8/A9 and extracellular traps contribute to the venous thrombosis—often at unusual sites like the hepatic veins—that is the leading cause of death in PNH.
 - `connects-to` → **[RAGE](../../03-molecular/rage/README.md)** — Chronic intravascular hemolysis releases free heme that, as a DAMP signaling through RAGE, sustains a pro-inflammatory, pro-thrombotic vascular state beyond the nitric-oxide scavenging that drives the dystonic symptoms.
+- `connects-to` → **[TNF-α (Tumor Necrosis Factor-alpha)](../../03-molecular/tnf-alpha/README.md)** — The bone-marrow failure of PNH, overlapping with aplastic anemia, involves T-cell and TNF-α-mediated immune attack on hematopoietic stem cells, the autoimmune pressure that selects the GPI-negative clone.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Complement C5a (already mapped) and free heme from intravascular hemolysis prime the NLRP3 inflammasome, adding an inflammatory dimension to the thrombosis and tissue injury of PNH.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — Chronic intravascular hemolysis and anemia in PNH produce tissue hypoxia that drives HIF-mediated erythropoietin and adaptive responses, part of the systemic burden of the disease.
 
 ---
 
