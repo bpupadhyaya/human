@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/pik3ca
     relation: connects-to
     note: "PI3K survival axis: PI3K-AKT-mTOR signalling (AKT already mapped) is recurrently activated in SCLC and supports growth and survival, a targetable dependency beyond the defining RB1/TP53 loss."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "mTOR effector: mTOR is the growth-controlling output of the PI3K-AKT axis (PIK3CA and AKT mapped) recurrently activated in SCLC, integrating the survival signalling layered on its RB1/TP53 loss."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Angiogenesis: SCLC is a highly vascular, rapidly growing tumour driven by VEGF-mediated angiogenesis, the basis for anti-angiogenic agents combined with chemotherapy."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Immunotherapy killing: the DLL3-CD3 bispecific tarlatamab (DLL3 mapped) and checkpoint inhibitors redirect cytotoxic T cells to kill SCLC through perforin and granzyme."
 ---
 
 # Small Cell Lung Cancer
@@ -521,6 +530,9 @@ SCLC has highest rate of brain metastases among solid tumors (~50% at 2 years); 
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — Near-universal RB1 loss in SCLC (RB1 already mapped) releases E2F1-driven transcription, the engine of unchecked cell-cycle entry behind the explosive growth of this neuroendocrine carcinoma.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — SCLC is strikingly chemosensitive at first, undergoing caspase-3-mediated apoptosis to etoposide-platinum, but rapidly evolves apoptotic resistance that drives its near-universal relapse.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K-AKT-mTOR signaling (AKT already mapped) is recurrently activated in SCLC and supports growth and survival, a targetable dependency beyond the defining RB1/TP53 loss.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR is the growth-controlling output of the PI3K-AKT axis (PIK3CA and AKT mapped) recurrently activated in SCLC, integrating the survival signaling layered on its RB1/TP53 loss.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — SCLC is a highly vascular, rapidly growing tumor driven by VEGF-mediated angiogenesis, the basis for anti-angiogenic agents combined with chemotherapy.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — The DLL3-CD3 bispecific tarlatamab (DLL3 mapped) and checkpoint inhibitors redirect cytotoxic T cells to kill SCLC through perforin and granzyme.
 
 [^horn-2018-impower133]: Horn L, Mansfield AS, Szczęsna A, et al. First-line atezolizumab plus chemotherapy in extensive-stage small-cell lung cancer. *N Engl J Med.* 2018;379(23):2220-2229. [doi:10.1056/NEJMoa1809064](https://doi.org/10.1056/NEJMoa1809064) · [PubMed 30280641](https://pubmed.ncbi.nlm.nih.gov/30280641/)
 [^paz-ares-2019-caspian]: Paz-Ares L, Dvorkin M, Chen Y, et al. Durvalumab plus platinum-etoposide versus platinum-etoposide in first-line treatment of extensive-stage small-cell lung cancer (CASPIAN). *Lancet.* 2019;394(10212):1929-1939. [doi:10.1016/S0140-6736(19)32222-6](https://doi.org/10.1016/S0140-6736(19)32222-6) · [PubMed 31590988](https://pubmed.ncbi.nlm.nih.gov/31590988/)

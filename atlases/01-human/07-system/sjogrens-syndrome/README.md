@@ -319,6 +319,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c5
     relation: connects-to
     note: "Vasculitis and lymphoma risk: complement activation (with the C3 already mapped) drives the cryoglobulinaemic vasculitis of Sjögren's, and complement consumption marks the patients at highest risk of B-cell lymphoma."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "TLR-IFN drive: anti-Ro/La immune complexes engage endosomal TLR7/9, signalling through MyD88 to activate NF-κB (mapped) and the type-I interferon programme (mapped) that defines the Sjögren's IFN signature."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic nucleic-acid sensing: the cGAS-STING pathway senses self nucleic acids in the inflamed glands and feeds the type-I interferon signature (mapped) central to Sjögren's pathogenesis."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "Lymphomagenesis: the chronic B-cell hyperactivation of Sjögren's (BAFF mapped) carries a marked risk of transformation to MALT/marginal-zone lymphoma, a MYC-associated event in the salivary glands."
 ---
 
 # Sjögren's Syndrome
@@ -549,6 +558,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Caspase-3-mediated apoptosis of salivary- and lacrimal-gland epithelial cells contributes to the loss of secretory tissue that produces the dry mouth and eyes of Sjögren's syndrome.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — IL-12-driven Th1 and IFN-γ polarization reinforces the interferon signature already mapped here, sustaining the lymphocytic infiltration of the exocrine glands in Sjögren's.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Complement activation (with the C3 already mapped) drives the cryoglobulinemic vasculitis of Sjögren's, and complement consumption marks the patients at highest risk of B-cell lymphoma.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Anti-Ro/La immune complexes engage endosomal TLR7/9, signaling through MyD88 to activate NF-κB (mapped) and the type-I interferon program (mapped) that defines the Sjögren's IFN signature.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — The cGAS-STING pathway senses self nucleic acids in the inflamed glands and feeds the type-I interferon signature (mapped) central to Sjögren's pathogenesis.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — The chronic B-cell hyperactivation of Sjögren's (BAFF mapped) carries a marked risk of transformation to MALT/marginal-zone lymphoma, a MYC-associated event in the salivary glands.
 
 ---
 
