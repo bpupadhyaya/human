@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/estrogen
     relation: connects-to
     note: "Uterine leiomyomas: HLRCC causes oestrogen-dependent uterine fibroids that are typically numerous, early-onset and symptomatic, often the first manifestation of the syndrome in affected women and a clue to the FH mutation."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K-mTOR target: PIK3CA drives the PI3K-AKT-mTOR axis (AKT, mTOR and AMPK already mapped) active in HLRCC renal cancer, a rationale for the bevacizumab-erlotinib and mTOR-directed regimens used in this aggressive papillary RCC."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Proliferative output: the cyclin-D1 axis (mapped) drives RB phosphorylation that releases E2F1, powering the cell-cycle entry of the aggressive type-2 papillary renal cancer of HLRCC."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "Cell-cycle brake: CDKN2A loss removes restraint on the cyclin-D-CDK4/6 axis, a cooperating lesion in the malignant progression of HLRCC renal tumours."
 ---
 
 # Hereditary Leiomyomatosis and Renal Cell Carcinoma
@@ -543,6 +552,9 @@ Cutaneous:
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — Accumulated fumarate in FH-deficient HLRCC inhibits the TET DNA-demethylases, producing a globally hypermethylated genome that silences tumor-suppressor genes—the epigenetic consequence of the oncometabolite.
 - `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — The combination of the anti-VEGF antibody bevacizumab with the EGFR inhibitor erlotinib is an effective regimen for HLRCC-associated papillary renal cell carcinoma, hitting the angiogenic and growth-factor arms of these aggressive tumors.
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — HLRCC causes estrogen-dependent uterine fibroids that are typically numerous, early-onset and symptomatic, often the first manifestation of the syndrome in affected women and a clue to the FH mutation.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PIK3CA drives the PI3K-AKT-mTOR axis (AKT, mTOR and AMPK already mapped) active in HLRCC renal cancer, a rationale for the bevacizumab-erlotinib and mTOR-directed regimens used in this aggressive papillary RCC.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — The cyclin-D1 axis (mapped) drives RB phosphorylation that releases E2F1, powering the cell-cycle entry of the aggressive type-2 papillary renal cancer of HLRCC.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A loss removes restraint on the cyclin-D-CDK4/6 axis, a cooperating lesion in the malignant progression of HLRCC renal tumors.
 
 [^tomlinson-2002-fh]: Tomlinson IP, Alam NA, Rowan AJ, et al. Germline mutations in FH predispose to dominantly inherited uterine fibroids, skin leiomyomata and papillary renal cell cancer. *Nat Genet.* 2002;30(4):406-410. [doi:10.1038/ng849](https://doi.org/10.1038/ng849) · [PubMed 11865300](https://pubmed.ncbi.nlm.nih.gov/11865300/)
 [^linehan-2013-fh-review]: Linehan WM, Rouault TA. Molecular pathways: fumarate hydratase-deficient kidney cancer — targeting the Warburg effect in cancer. *Clin Cancer Res.* 2013;19(13):3345-3352. [doi:10.1158/1078-0432.CCR-13-0304](https://doi.org/10.1158/1078-0432.CCR-13-0304) · [PubMed 23836472](https://pubmed.ncbi.nlm.nih.gov/23836472/)

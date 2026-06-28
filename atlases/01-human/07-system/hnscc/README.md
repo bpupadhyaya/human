@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/immunoglobulin-g
     relation: connects-to
     note: "Vaccine prevention: HPV vaccines induce neutralising IgG that blocks the oral HPV infection driving the rising epidemic of oropharyngeal HNSCC, extending cervical-cancer prevention to head-and-neck cancer."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "MAPK proliferation: EGFR, FGFR and MET (all already mapped) converge on the MAPK-ERK cascade driving HNSCC proliferation, the pathway downstream of the cetuximab-targeted EGFR."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Growth axis: mTOR completes the PI3K-AKT-mTOR pathway (PIK3CA and AKT already mapped) that is frequently activated in head-and-neck squamous cell carcinoma."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Chemoradiation resistance: NFE2L2/KEAP1 mutations activate NRF2 antioxidant signalling in HNSCC, neutralising the oxidative damage of chemotherapy and radiation and conferring treatment resistance."
 ---
 
 # HNSCC
@@ -526,6 +535,9 @@ HPV+ oropharyngeal: Node staging based on number (not laterality); HPV-negative 
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — In HPV-positive HNSCC the viral E7 protein inactivates Rb, freeing E2F to drive the cell cycle, while E6 degrades p53—the viral pair that transforms the oropharyngeal cell, distinct from the TP53-mutant smoking-driven disease.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Cisplatin-based chemoradiation, the organ-preserving standard for locally advanced HNSCC, kills tumor cells through caspase-3-mediated apoptosis, the death pathway whose evasion underlies radioresistance.
 - `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — HPV vaccines induce neutralizing IgG that blocks the oral HPV infection driving the rising epidemic of oropharyngeal HNSCC, extending cervical-cancer prevention to head-and-neck cancer.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — EGFR, FGFR and MET (all already mapped) converge on the MAPK-ERK cascade driving HNSCC proliferation, the pathway downstream of the cetuximab-targeted EGFR.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR completes the PI3K-AKT-mTOR pathway (PIK3CA and AKT already mapped) that is frequently activated in head-and-neck squamous cell carcinoma.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NFE2L2/KEAP1 mutations activate NRF2 antioxidant signaling in HNSCC, neutralizing the oxidative damage of chemotherapy and radiation and conferring treatment resistance.
 
 [^burtness-2019-keynote048]: Burtness B, Harrington KJ, Greil R, et al. Pembrolizumab alone or with chemotherapy versus cetuximab with chemotherapy for recurrent or metastatic squamous cell carcinoma of the head and neck (KEYNOTE-048). *Lancet.* 2019;394(10212):1915-1928. [doi:10.1016/S0140-6736(19)32591-7](https://doi.org/10.1016/S0140-6736(19)32591-7) · [PubMed 31679945](https://pubmed.ncbi.nlm.nih.gov/31679945/)
 [^vermorken-2008-extreme]: Vermorken JB, Mesia R, Rivera F, et al. Platinum-based chemotherapy plus cetuximab in head and neck cancer. *N Engl J Med.* 2008;359(11):1116-1127. [doi:10.1056/NEJMoa0802656](https://doi.org/10.1056/NEJMoa0802656) · [PubMed 18784101](https://pubmed.ncbi.nlm.nih.gov/18784101/)
