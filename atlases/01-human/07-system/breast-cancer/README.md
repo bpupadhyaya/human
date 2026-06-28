@@ -316,6 +316,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "Cancer stem cells: Notch signalling sustains the breast-cancer stem-cell population that resists chemotherapy and endocrine therapy and seeds recurrence, a developmental pathway driving treatment resistance and a target under investigation."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "PI3K resistance: PTEN loss activates the PI3K-AKT-mTOR pathway (PIK3CA, AKT and mTOR already mapped) in breast cancer and is a major mechanism of resistance to endocrine and HER2-targeted therapy."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Cell-cycle engine: the cyclin-D-CDK4/6-RB-E2F axis (CDK4/6 and cyclin-D1 already mapped) drives proliferation in ER-positive breast cancer, the pathway whose blockade by CDK4/6 inhibitors transformed its treatment."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "Endocrine-resistance crosstalk: RAS-MAPK-ERK signalling crosstalks with estrogen-receptor signalling and is a route of acquired resistance to endocrine therapy in breast cancer."
 ---
 
 # Breast Cancer
@@ -521,6 +530,9 @@ cross_links:
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — BRCA-mutant, homologous-recombination-deficient breast cancers accumulate cytosolic DNA that activates cGAS-STING, the innate-immune basis for combining PARP inhibitors with checkpoint blockade in triple-negative disease.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — FGFR1 amplification is a recurrent event in ER-positive breast cancer that drives resistance to endocrine therapy by providing an alternative growth signal, making FGFR a target to restore sensitivity to hormonal treatment.
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Notch signaling sustains the breast-cancer stem-cell population that resists chemotherapy and endocrine therapy and seeds recurrence, a developmental pathway driving treatment resistance and a target under investigation.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss activates the PI3K-AKT-mTOR pathway (PIK3CA, AKT and mTOR already mapped) in breast cancer and is a major mechanism of resistance to endocrine and HER2-targeted therapy.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — The cyclin-D-CDK4/6-RB-E2F axis (CDK4/6 and cyclin-D1 already mapped) drives proliferation in ER-positive breast cancer, the pathway whose blockade by CDK4/6 inhibitors transformed its treatment.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — RAS-MAPK-ERK signaling crosstalks with estrogen-receptor signaling and is a route of acquired resistance to endocrine therapy in breast cancer.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
