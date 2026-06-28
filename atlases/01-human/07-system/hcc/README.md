@@ -310,6 +310,15 @@ cross_links:
   - target: 01-human/03-molecular/hepcidin
     relation: connects-to
     note: "Iron-overload carcinogenesis: hepatic iron loading — in hereditary haemochromatosis and dysmetabolic overload — generates oxidative stress that drives hepatocarcinogenesis, with hepcidin dysregulation central to the iron accumulation that raises HCC risk."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "Sorafenib pathway: the RAF-MEK-ERK MAPK cascade is a key proliferative pathway in hepatocellular carcinoma and the target of the multikinase inhibitor sorafenib, a backbone of systemic HCC therapy."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K survival axis: PI3K-AKT-mTOR signalling (AKT and mTOR already mapped) is recurrently activated in HCC, supporting growth and providing a resistance route to anti-angiogenic therapy."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "Stromal angiogenesis: PDGF signalling drives the tumour stroma and angiogenesis of HCC, a target of the lenvatinib and regorafenib multikinase inhibitors used in its treatment."
 ---
 
 # Hepatocellular Carcinoma
@@ -545,6 +554,9 @@ In high-risk patients (cirrhosis, HBV regardless of cirrhosis): ultrasound ± AF
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — The chromosomal instability of HCC generates cytosolic DNA that activates cGAS-STING, part of the innate-immune context behind the responses to atezolizumab-bevacizumab and other checkpoint-based regimens now standard in advanced disease.
 - `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — Hepatocellular carcinoma is two-to-four times commoner in men, and androgen-receptor signaling promotes hepatocarcinogenesis, a hormonal contributor to the striking sex bias of the disease beyond differences in risk-factor exposure.
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Hepatic iron loading—in hereditary hemochromatosis and dysmetabolic overload—generates oxidative stress that drives hepatocarcinogenesis, with hepcidin dysregulation central to the iron accumulation that raises HCC risk.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — The RAF-MEK-ERK MAPK cascade is a key proliferative pathway in hepatocellular carcinoma and the target of the multikinase inhibitor sorafenib, a backbone of systemic HCC therapy.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K-AKT-mTOR signaling (AKT and mTOR already mapped) is recurrently activated in HCC, supporting growth and providing a resistance route to anti-angiogenic therapy.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — PDGF signaling drives the tumor stroma and angiogenesis of HCC, a target of the lenvatinib and regorafenib multikinase inhibitors used in its treatment.
 
 [^llovet-2008-sorafenib]: Llovet JM, Ricci S, Mazzaferro V, et al. Sorafenib in advanced hepatocellular carcinoma. *N Engl J Med.* 2008;359(4):378-390. [doi:10.1056/NEJMoa0708857](https://doi.org/10.1056/NEJMoa0708857) · [PubMed 18650514](https://pubmed.ncbi.nlm.nih.gov/18650514/)
 [^finn-2020-imbrave150]: Finn RS, Qin S, Ikeda M, et al. Atezolizumab plus bevacizumab in unresectable hepatocellular carcinoma. *N Engl J Med.* 2020;382(20):1894-1905. [doi:10.1056/NEJMoa1915745](https://doi.org/10.1056/NEJMoa1915745) · [PubMed 32402160](https://pubmed.ncbi.nlm.nih.gov/32402160/)
