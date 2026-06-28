@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/tnf-alpha
     relation: connects-to
     note: "Procoagulant endothelium: TNF-α induces endothelial tissue factor and suppresses thrombomodulin and the protein-C pathway, tipping the haemostatic balance toward clotting that precipitates events in inherited thrombophilia."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "Thromboinflammation: complement C5a acting through C5aR1 (C3 and C5 mapped) induces tissue factor and activates platelets, amplifying the thrombotic tendency that becomes clinically manifest in inherited thrombophilia."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Platelet amplifier: serotonin released from platelet dense granules promotes further platelet aggregation and vasoconstriction, propagating the thrombus growth that underlies events in thrombophilic patients."
+  - target: 01-human/03-molecular/thrombopoietin
+    relation: connects-to
+    note: "Platelet supply: thrombopoietin sets the circulating platelet mass available for thrombus formation, a quantitative contributor to thrombotic risk in inherited thrombophilia."
 ---
 
 # Inherited Thrombophilia
@@ -582,6 +591,9 @@ Antithrombin (ATIII) is the primary plasma inhibitor of thrombin, FXa, FIXa, and
 - `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Angiopoietin-2/Tie2 signaling shifts the endothelium toward a procoagulant, permeable phenotype that, on inflammatory triggers, compounds the baseline hypercoagulability of inherited thrombophilia.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β induces endothelial and monocyte tissue factor and downregulates anticoagulant pathways, the cytokine arm (with the IL-6 already mapped) that converts inflammation into the thrombosis triggered in thrombophilic patients.
 - `connects-to` → **[TNF-α (Tumor Necrosis Factor-alpha)](../../03-molecular/tnf-alpha/README.md)** — TNF-α induces endothelial tissue factor and suppresses thrombomodulin and the protein-C pathway, tipping the hemostatic balance toward clotting that precipitates events in inherited thrombophilia.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — Complement C5a acting through C5aR1 (C3 and C5 mapped) induces tissue factor and activates platelets, amplifying the thrombotic tendency that becomes clinically manifest in inherited thrombophilia.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Serotonin released from platelet dense granules promotes further platelet aggregation and vasoconstriction, propagating the thrombus growth that underlies events in thrombophilic patients.
+- `connects-to` → **[Thrombopoietin](../../03-molecular/thrombopoietin/README.md)** — Thrombopoietin sets the circulating platelet mass available for thrombus formation, a quantitative contributor to thrombotic risk in inherited thrombophilia.
 
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)

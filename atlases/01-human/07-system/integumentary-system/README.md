@@ -314,6 +314,15 @@ cross_links:
   - target: 01-human/03-molecular/il-17a
     relation: connects-to
     note: "Cutaneous immunity: the skin is a principal site of IL-17A-driven immunity, central both to its antifungal defence and to the inflammatory skin diseases (psoriasis already mapped) of the integument."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Atopic Th2 axis: IL-13, with the TSLP and IL-31 already mapped, drives the barrier dysfunction and itch of atopic dermatitis, the archetypal type-2 inflammatory disease of the skin."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Psoriatic axis: the IL-23/IL-17 axis (IL-17A already mapped) drives the keratinocyte hyperproliferation and inflammation of psoriasis, a defining immune disease of the integument."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "Neurocutaneous innervation: the densely innervated skin relies on BDNF and neurotrophins to maintain its sensory nerves, and their upregulation sensitises the cutaneous itch-and-pain network in inflammatory skin disease."
 ---
 
 # Integumentary System
@@ -518,6 +527,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH signaling drives keratinocyte differentiation as cells move outward through the epidermal layers and patterns the hair-follicle and sebaceous-gland lineages of the skin.
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β governs dermal fibroblast activity, wound repair and hair-follicle cycling, and its dysregulation underlies the cutaneous fibrosis of scleroderma and keloids.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — The skin is a principal site of IL-17A-driven immunity, central both to its antifungal defense and to the inflammatory skin diseases (psoriasis already mapped) of the integument.
+- `connects-to` → **[Interleukin-13](../../03-molecular/il-13/README.md)** — IL-13, with the TSLP and IL-31 already mapped, drives the barrier dysfunction and itch of atopic dermatitis, the archetypal type-2 inflammatory disease of the skin.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — The IL-23/IL-17 axis (IL-17A already mapped) drives the keratinocyte hyperproliferation and inflammation of psoriasis, a defining immune disease of the integument.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — The densely innervated skin relies on BDNF and neurotrophins to maintain its sensory nerves, and their upregulation sensitizes the cutaneous itch-and-pain network in inflammatory skin disease.
 
 ## Pathology
 
