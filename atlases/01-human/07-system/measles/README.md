@@ -317,6 +317,15 @@ cross_links:
   - target: 01-human/03-molecular/caspase-3
     relation: connects-to
     note: "Lymphocyte depletion: measles drives caspase-3-mediated apoptosis of infected and bystander lymphocytes, the cell loss that produces the transient lymphopenia and contributes to the immune amnesia leaving children vulnerable to other infections."
+  - target: 01-human/03-molecular/irf3
+    relation: connects-to
+    note: "Interferon evasion: measles V and other proteins block IRF3 and the downstream interferon induction (RIG-I/MAVS already mapped), an immune-evasion mechanism that helps the virus disseminate."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Immunosuppression: measles induces immunosuppressive TGF-β (with the IL-10 already mapped), part of the profound transient immunosuppression and immune amnesia that leave survivors vulnerable to other infections."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Memory-cell loss: by tipping pre-existing memory lymphocytes toward apoptosis (lowering anti-apoptotic BCL-2), measles erases prior immunological memory, the cellular basis of measles immune amnesia."
 ---
 
 # Measles
@@ -561,6 +570,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — Secretory IgA on the respiratory epithelium neutralizes measles at its airway portal of entry, and the durable mucosal and systemic antibody induced by vaccination is what makes measles immunity so long-lasting.
 - `connects-to` → **[MyD88](../../03-molecular/myd88/README.md)** — Plasmacytoid dendritic cells sense measles RNA through TLR7 signaling via MyD88 to produce type-I interferon, the endosomal innate arm complementing the cytosolic RIG-I pathway the virus's V protein antagonizes.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Measles drives caspase-3-mediated apoptosis of infected and bystander lymphocytes, the cell loss that produces the transient lymphopenia and contributes to the immune amnesia leaving children vulnerable to other infections.
+- `connects-to` → **[IRF3](../../03-molecular/irf3/README.md)** — Measles V and other proteins block IRF3 and the downstream interferon induction (RIG-I/MAVS already mapped), an immune-evasion mechanism that helps the virus disseminate.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — Measles induces immunosuppressive TGF-β (with the IL-10 already mapped), part of the profound transient immunosuppression and immune amnesia that leave survivors vulnerable to other infections.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — By tipping pre-existing memory lymphocytes toward apoptosis (lowering anti-apoptotic BCL-2), measles erases prior immunological memory, the cellular basis of measles immune amnesia.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)

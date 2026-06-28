@@ -319,6 +319,15 @@ cross_links:
   - target: 01-human/03-molecular/bdnf
     relation: connects-to
     note: "Lost trophic support: declining BDNF removes neurotrophic support for the cortical and brainstem neurons targeted in Lewy-body dementia, contributing to the synaptic loss behind the fluctuating cognition and visual hallucinations."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Oxidative defence: oxidative stress drives the α-synuclein aggregation and neurodegeneration of Lewy-body dementia, and a declining NRF2 antioxidant response permits this damage, as in the related Parkinson's disease."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "α-synuclein clearance: mTOR restrains the autophagy (already mapped) that clears α-synuclein, and its dysregulation impairs the lysosomal clearance whose failure allows Lewy bodies to accumulate."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Neuroinflammation: IL-6 from the activated microglia (already mapped) contributes to the neuroinflammation, with IL-1β and TNF-α, that accelerates the neurodegeneration of Lewy-body dementia."
 ---
 
 # Lewy Body Dementia
@@ -545,6 +554,9 @@ Approximately 25-50% of clinically diagnosed DLB cases have significant AD co-pa
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — α-Synuclein aggregates form membrane pores and disrupt calcium handling, and the resulting calcium overload stresses mitochondria—a mechanism of neuronal vulnerability shared with the substantia-nigra neurons lost in Parkinson's.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 released by microglia activated around Lewy pathology amplifies the neuroinflammatory response, a microglial signal increasingly implicated as a driver of α-synucleinopathy neurodegeneration.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Declining BDNF removes neurotrophic support for the cortical and brainstem neurons targeted in Lewy-body dementia, contributing to the synaptic loss behind the fluctuating cognition and visual hallucinations.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — Oxidative stress drives the α-synuclein aggregation and neurodegeneration of Lewy-body dementia, and a declining NRF2 antioxidant response permits this damage, as in the related Parkinson's disease.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR restrains the autophagy (already mapped) that clears α-synuclein, and its dysregulation impairs the lysosomal clearance whose failure allows Lewy bodies to accumulate.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 from the activated microglia (already mapped) contributes to the neuroinflammation, with IL-1β and TNF-α, that accelerates the neurodegeneration of Lewy-body dementia.
 
 [^mckeith-2017-dlb-criteria]: McKeith IG, Boeve BF, Dickson DW, et al. Diagnosis and management of dementia with Lewy bodies: Fourth consensus report of the DLB Consortium. *Neurology.* 2017;89(1):88-100. [doi:10.1212/WNL.0000000000004058](https://doi.org/10.1212/WNL.0000000000004058) · [PubMed 28592453](https://pubmed.ncbi.nlm.nih.gov/28592453/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
