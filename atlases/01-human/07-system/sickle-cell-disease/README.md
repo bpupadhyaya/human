@@ -316,6 +316,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c5
     relation: connects-to
     note: "Complement amplification: heme and ischaemia activate the complement system in sickle-cell disease, and C5-driven inflammation contributes to vaso-occlusion and to the severe delayed haemolytic transfusion reactions seen in these patients."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Heme oxidative stress: free heme from intravascular haemolysis imposes severe oxidative stress in sickle-cell disease, against which NRF2 is the antioxidant defence; NRF2 activation also induces protective fetal haemoglobin."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Sterile inflammation: heme and DAMPs from sickle-cell haemolysis activate the NLRP3 inflammasome and IL-1β, driving the sterile inflammation that fuels vaso-occlusive crises."
+  - target: 01-human/03-molecular/ferroportin
+    relation: connects-to
+    note: "Transfusional iron overload: chronic transfusion and haemolysis cause iron overload in sickle-cell disease, with hepcidin-mediated degradation of ferroportin governing the macrophage iron handling behind it."
 ---
 
 # Sickle Cell Disease
@@ -574,6 +583,9 @@ SCD vaso-occlusion is not just from sickled RBCs mechanically blocking vessels �
 - `connects-to` → **[RAGE](../../03-molecular/rage/README.md)** — The chronic intravascular hemolysis of sickle-cell disease releases free heme that, as a DAMP signaling through RAGE, drives the sterile vascular inflammation amplifying endothelial activation and vaso-occlusion.
 - `connects-to` → **[Xanthine Oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Cycles of ischemia and reperfusion during vaso-occlusion drive xanthine-oxidase-derived reactive oxygen species, the oxidative injury that damages the sickle endothelium and consumes the nitric oxide already depleted by hemolysis.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Heme and ischemia activate the complement system in sickle-cell disease, and C5-driven inflammation contributes to vaso-occlusion and to the severe delayed hemolytic transfusion reactions seen in these patients.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — Free heme from intravascular hemolysis imposes severe oxidative stress in sickle-cell disease, against which NRF2 is the antioxidant defense; NRF2 activation also induces protective fetal hemoglobin.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Heme and DAMPs from sickle-cell hemolysis activate the NLRP3 inflammasome and IL-1β, driving the sterile inflammation that fuels vaso-occlusive crises.
+- `connects-to` → **[Ferroportin](../../03-molecular/ferroportin/README.md)** — Chronic transfusion and hemolysis cause iron overload in sickle-cell disease, with hepcidin-mediated degradation of ferroportin governing the macrophage iron handling behind it.
 
 [^steinberg-1999-scd-management]: Steinberg MH. Management of sickle cell disease. *N Engl J Med.* 1999;340(13):1021-1030. [doi:10.1056/NEJM199904013401307](https://doi.org/10.1056/NEJM199904013401307) · [PubMed 10099145](https://pubmed.ncbi.nlm.nih.gov/10099145/)
 [^vichinsky-2000-acs-scd]: Vichinsky EP, Neumayr LD, Earles AN, et al. Causes and outcomes of the acute chest syndrome in sickle cell disease. *N Engl J Med.* 2000;342(25):1855-1865. [doi:10.1056/NEJM200006223422502](https://doi.org/10.1056/NEJM200006223422502) · [PubMed 10861320](https://pubmed.ncbi.nlm.nih.gov/10861320/)

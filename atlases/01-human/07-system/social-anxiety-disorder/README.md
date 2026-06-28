@@ -316,6 +316,15 @@ cross_links:
   - target: 01-human/03-molecular/ghrelin
     relation: connects-to
     note: "Social-stress hormone: chronic social-defeat stress dysregulates ghrelin, which potentiates fear-memory consolidation, a gut-derived stress hormone linking the social adversity that often precedes social anxiety to its persistent fear learning."
+  - target: 01-human/03-molecular/glucocorticoid-receptor
+    relation: connects-to
+    note: "HPA response: anticipatory social stress activates the HPA axis (cortisol and CRH already mapped), and glucocorticoid-receptor signalling mediates the cortisol response that characterises social anxiety disorder."
+  - target: 01-human/03-molecular/beta1-adrenergic-receptor
+    relation: connects-to
+    note: "Performance symptoms: the palpitations, tremor and blushing of social anxiety arise from catecholamine activation of β-adrenergic receptors, the target of the β-blockers already mapped for performance anxiety."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "Fear-memory consolidation: amygdala ERK-MAPK signalling consolidates the fear-conditioned memories of social threat that underlie the persistence and generalisation of social anxiety disorder."
 ---
 
 # Social Anxiety Disorder
@@ -545,6 +554,9 @@ The unique **dopaminergic social reward deficit** in SAD has clinical implicatio
 - `connects-to` → **[Orexin](../../03-molecular/orexin/README.md)** — Orexin signaling that drives wakefulness and stress reactivity is implicated in anxiety, contributing to the physiological hyperarousal—racing heart, sweating, trembling—that anticipatory social fear triggers.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — CGRP projecting from the parabrachial nucleus into the amygdala signals threat and amplifies fear and avoidance, a neuropeptide arm of the threat circuitry overactive in social anxiety disorder.
 - `connects-to` → **[Ghrelin](../../03-molecular/ghrelin/README.md)** — Chronic social-defeat stress dysregulates ghrelin, which potentiates fear-memory consolidation, a gut-derived stress hormone linking the social adversity that often precedes social anxiety to its persistent fear learning.
+- `connects-to` → **[Glucocorticoid Receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Anticipatory social stress activates the HPA axis (cortisol and CRH already mapped), and glucocorticoid-receptor signaling mediates the cortisol response that characterizes social anxiety disorder.
+- `connects-to` → **[β1-adrenergic receptor](../../03-molecular/beta1-adrenergic-receptor/README.md)** — The palpitations, tremor and blushing of social anxiety arise from catecholamine activation of β-adrenergic receptors, the target of the β-blockers already mapped for performance anxiety.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Amygdala ERK-MAPK signaling consolidates the fear-conditioned memories of social threat that underlie the persistence and generalization of social anxiety disorder.
 
 [^liebowitz-1987-sad-scale]: Liebowitz MR. Social phobia. *Mod Probl Pharmacopsychiatry.* 1987;22:141-173. [PubMed 2885745](https://pubmed.ncbi.nlm.nih.gov/2885745/)
 [^stein-2008-sad-review]: Stein MB, Stein DJ. Social anxiety disorder. *Lancet.* 2008;371(9618):1115-1125. [doi:10.1016/S0140-6736(08)60488-2](https://doi.org/10.1016/S0140-6736(08)60488-2) · [PubMed 18374843](https://pubmed.ncbi.nlm.nih.gov/18374843/)
