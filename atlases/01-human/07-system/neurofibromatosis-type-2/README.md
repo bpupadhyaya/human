@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "Schwannoma growth: IGF-1R signalling supports the proliferation and survival of the bilateral vestibular schwannomas of NF2, a growth-factor input layered on the merlin-Hippo-YAP dysregulation that drives them."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Cell-cycle drive: the cyclin-D1-CDK4/6 axis (mapped, with CDKN2A loss) releases E2F1 to drive the proliferation of the schwannomas and meningiomas of NF2."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "PI3K restraint: merlin loss de-represses PI3K-AKT-mTOR signalling (PIK3CA, AKT and mTOR already mapped), which PTEN normally limits, contributing to NF2 tumour growth."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Schwannoma stroma: TGF-β signalling shapes the collagenous extracellular matrix (collagen mapped) and fibroblastic stroma of the schwannomas characteristic of NF2."
 ---
 
 # Neurofibromatosis Type 2
@@ -531,6 +540,9 @@ Merlin has an N-terminal FERM domain (α, β, γ lobes) that binds membrane lipi
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — NF2 causes multiple meningiomas, which characteristically form psammoma bodies—concentric calcified laminations—so intracranial calcification on imaging is a clue to the meningiomas of the syndrome.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — The meningiomas of NF2 are classified and risk-stratified by DNA-methylation profiling, which predicts recurrence better than histology alone, making the methylome central to managing the syndrome's tumors.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — IGF-1R signaling supports the proliferation and survival of the bilateral vestibular schwannomas of NF2, a growth-factor input layered on the merlin-Hippo-YAP dysregulation that drives them.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — The cyclin-D1-CDK4/6 axis (mapped, with CDKN2A loss) releases E2F1 to drive the proliferation of the schwannomas and meningiomas of NF2.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — Merlin loss de-represses PI3K-AKT-mTOR signaling (PIK3CA, AKT and mTOR already mapped), which PTEN normally limits, contributing to NF2 tumor growth.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β signaling shapes the collagenous extracellular matrix (collagen mapped) and fibroblastic stroma of the schwannomas characteristic of NF2.
 
 [^asthagiri-2009-nf2-lancet]: Asthagiri AR, Parry DM, Butman JA, et al. Neurofibromatosis type 2. *Lancet.* 2009;373(9679):1974-1986. [doi:10.1016/S0140-6736(09)60259-2](https://doi.org/10.1016/S0140-6736(09)60259-2) · [PubMed 19476995](https://pubmed.ncbi.nlm.nih.gov/19476995/)
 [^plotkin-2009-nf2-bevacizumab]: Plotkin SR, Stemmer-Rachamimov AO, Barker FG 2nd, et al. Hearing improvement after bevacizumab in patients with neurofibromatosis type 2. *N Engl J Med.* 2009;361(4):358-367. [doi:10.1056/NEJMoa0902579](https://doi.org/10.1056/NEJMoa0902579) · [PubMed 19587327](https://pubmed.ncbi.nlm.nih.gov/19587327/)
