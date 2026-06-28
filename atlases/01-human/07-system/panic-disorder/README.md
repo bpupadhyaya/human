@@ -310,6 +310,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "HPA amplification: arginine vasopressin co-secreted with CRH synergistically drives ACTH release at the V1b receptor, and this AVP arm of the stress axis is implicated in the heightened neuroendocrine reactivity of panic disorder."
+  - target: 01-human/03-molecular/beta1-adrenergic-receptor
+    relation: connects-to
+    note: "Somatic symptoms: the palpitations, tachycardia and chest discomfort of a panic attack arise from catecholamine activation of cardiac β1-adrenergic receptors, the target of the β-blockers used to blunt the peripheral symptoms that fuel catastrophic misinterpretation."
+  - target: 01-human/03-molecular/glucocorticoid-receptor
+    relation: connects-to
+    note: "HPA feedback: impaired glucocorticoid-receptor sensitivity weakens cortisol's negative feedback on the CRH-ACTH axis, sustaining the stress-hormone tone that lowers the threshold for panic in vulnerable individuals."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Neuroinflammation: psychological stress activates the NLRP3 inflammasome to generate IL-1β, the upstream source of the inflammatory cytokines linked here to panic, connecting stress signalling to the low-grade neuroinflammation seen in anxiety disorders."
 ---
 
 # Panic Disorder
@@ -552,6 +561,9 @@ The **interoceptive fear conditioning model** (Bouton, Mineka, Barlow) explains 
 - `connects-to` → **[Endocannabinoid](../../03-molecular/endocannabinoid/README.md)** — Endocannabinoid signaling at amygdala CB1 receptors is essential for extinguishing conditioned fear, and a deficient endocannabinoid tone impairs the extinction learning whose failure perpetuates panic and anticipatory anxiety.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — CGRP released from the parabrachial nucleus into the amygdala signals threat and arousal, and CGRP infusion provokes panic-like anxiety—a neuropeptide pathway linking panic disorder to the migraine with which it is comorbid.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Arginine vasopressin co-secreted with CRH synergistically drives ACTH release at the V1b receptor, and this AVP arm of the stress axis is implicated in the heightened neuroendocrine reactivity of panic disorder.
+- `connects-to` → **[β1-adrenergic receptor](../../03-molecular/beta1-adrenergic-receptor/README.md)** — The palpitations, tachycardia and chest discomfort of a panic attack arise from catecholamine activation of cardiac β1-adrenergic receptors, the target of the β-blockers used to blunt the peripheral symptoms that fuel catastrophic misinterpretation.
+- `connects-to` → **[Glucocorticoid Receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Impaired glucocorticoid-receptor sensitivity weakens cortisol's negative feedback on the CRH-ACTH axis, sustaining the stress-hormone tone that lowers the threshold for panic in vulnerable individuals.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Psychological stress activates the NLRP3 inflammasome to generate IL-1β, the upstream source of the inflammatory cytokines linked here to panic, connecting stress signaling to the low-grade neuroinflammation seen in anxiety disorders.
 
 [^gorman-2000-panic-neurobiology]: Gorman JM, Kent JM, Sullivan GM, Coplan JD. Neuroanatomical hypothesis of panic disorder, revised. *Am J Psychiatry.* 2000;157(4):493-505. [doi:10.1176/appi.ajp.157.4.493](https://doi.org/10.1176/appi.ajp.157.4.493) · [PubMed 10739407](https://pubmed.ncbi.nlm.nih.gov/10739407/)
 [^nardi-2009-clonazepam-panic]: Nardi AE, Freire RC, Zin WA. Panic disorder and control of breathing. *Respir Physiol Neurobiol.* 2009;167(1):133-143. [doi:10.1016/j.resp.2008.07.011](https://doi.org/10.1016/j.resp.2008.07.011) · [PubMed 18708168](https://pubmed.ncbi.nlm.nih.gov/18708168/)
