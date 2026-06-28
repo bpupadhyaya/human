@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "Angiogenesis: VEGF-driven angiogenesis supports the growth and peritoneal spread of diffuse gastric cancer, the basis for the anti-VEGFR2 antibody ramucirumab used in advanced gastric cancer."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "MAPK convergence: HER2, MET and FGFR (all already mapped) funnel into the MAPK-ERK cascade, the proliferative hub of the diffuse gastric carcinoma that arises once E-cadherin is lost."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Growth axis: mTOR completes the PI3K-AKT-mTOR pathway (PIK3CA and AKT already mapped) sustaining growth and survival signalling in hereditary diffuse gastric cancer."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Cell-cycle output: the cyclin-D-CDK4/6 axis (with CDKN2A already mapped) releases E2F1 to drive the proliferation accompanying the E-cadherin-loss-initiated diffuse gastric tumour."
 ---
 
 # Hereditary Diffuse Gastric Cancer
@@ -519,6 +528,9 @@ Testing for CDH1 (and CTNNA1) is indicated in any of the following:
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — The discohesive signet-ring cells of hereditary diffuse gastric cancer infiltrate diffusely and provoke a dense collagenous desmoplastic reaction, the fibrosis that stiffens the stomach wall into the classic "leather-bottle" linitis plastica.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Diffuse gastric cancers often express Claudin-18.2, and CAR-T and bispecific approaches against it aim to direct perforin-mediated cytotoxic killing at a tumor otherwise poorly responsive to checkpoint blockade.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VEGF-driven angiogenesis supports the growth and peritoneal spread of diffuse gastric cancer, the basis for the anti-VEGFR2 antibody ramucirumab used in advanced gastric cancer.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — HER2, MET and FGFR (all already mapped) funnel into the MAPK-ERK cascade, the proliferative hub of the diffuse gastric carcinoma that arises once E-cadherin is lost.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR completes the PI3K-AKT-mTOR pathway (PIK3CA and AKT already mapped) sustaining growth and survival signaling in hereditary diffuse gastric cancer.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — The cyclin-D-CDK4/6 axis (with CDKN2A already mapped) releases E2F1 to drive the proliferation accompanying the E-cadherin-loss-initiated diffuse gastric tumor.
 
 [^van-der-post-2015-hdgc-guidelines]: van der Post RS, Vogelaar IP, Carneiro F, et al. Hereditary diffuse gastric cancer: updated clinical guidelines with an emphasis on germline CDH1 mutation carriers. *J Med Genet.* 2015;52(6):361-374. [doi:10.1136/jmedgenet-2015-103094](https://doi.org/10.1136/jmedgenet-2015-103094) · [PubMed 25979631](https://pubmed.ncbi.nlm.nih.gov/25979631/)
 [^hansford-2015-hdgc]: Hansford S, Kaurah P, Li-Chang H, et al. Hereditary Diffuse Gastric Cancer Syndrome: CDH1 Mutations and Beyond. *JAMA Oncol.* 2015;1(1):23-32. [doi:10.1001/jamaoncol.2014.168](https://doi.org/10.1001/jamaoncol.2014.168) · [PubMed 26182300](https://pubmed.ncbi.nlm.nih.gov/26182300/)
