@@ -316,6 +316,15 @@ cross_links:
   - target: 01-human/03-molecular/rage
     relation: connects-to
     note: "DAMP amplification: DAMPs signalling through RAGE sustain the NF-κB-driven cytokine output of chronic inflammation that keeps IL-6 and hepcidin elevated, feeding the iron-restriction that defines anaemia of chronic disease."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "Hepcidin transcription: the BMP-SMAD pathway acting through SMAD4 is the principal transcriptional driver of hepcidin (already mapped), and inflammation amplifies it to lock iron away in the anaemia of chronic disease."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "EPO-resistant erythropoiesis: inflammatory cytokines and erythropoietin both signal through JAK kinases, and chronic JAK-STAT cytokine signalling blunts the erythropoietin response, contributing to the EPO-resistant anaemia of chronic disease."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Erythroid survival: erythropoietin signals through PI3K-AKT to support erythroid-progenitor survival, and the blunted EPO response of chronic inflammation weakens this pro-survival signal, deepening the anaemia."
 ---
 
 # Anemia of Chronic Disease
@@ -539,6 +548,9 @@ This adaptive rationale explains why **aggressive iron supplementation during ac
 - `connects-to` → **[EGLN1](../../03-molecular/egln1/README.md)** — Prolyl-hydroxylase (EGLN/PHD) inhibitors like roxadustat stabilize HIF to raise endogenous erythropoietin and lower hepcidin, treating anemia of chronic disease by targeting the oxygen-sensing pathway upstream of both.
 - `connects-to` → **[Xanthine Oxidase](../../03-molecular/xanthine-oxidase/README.md)** — The oxidative stress of chronic inflammation, partly from xanthine-oxidase-derived reactive oxygen species, damages erythrocytes and hastens their removal by macrophages, a second mechanism of anemia layered on iron sequestration.
 - `connects-to` → **[RAGE](../../03-molecular/rage/README.md)** — DAMPs signaling through RAGE sustain the NF-κB-driven cytokine output of chronic inflammation that keeps IL-6 and hepcidin elevated, feeding the iron-restriction that defines anemia of chronic disease.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — The BMP-SMAD pathway acting through SMAD4 is the principal transcriptional driver of hepcidin (already mapped), and inflammation amplifies it to lock iron away in the anemia of chronic disease.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Inflammatory cytokines and erythropoietin both signal through JAK kinases, and chronic JAK-STAT cytokine signaling blunts the erythropoietin response, contributing to the EPO-resistant anemia of chronic disease.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Erythropoietin signals through PI3K-AKT to support erythroid-progenitor survival, and the blunted EPO response of chronic inflammation weakens this pro-survival signal, deepening the anemia.
 
 [^weiss-2005-acd-review]: Weiss G, Goodnough LT. Anemia of chronic disease. *N Engl J Med.* 2005;352(10):1011-1023. [doi:10.1056/NEJMra041809](https://doi.org/10.1056/NEJMra041809) · [PubMed 15758012](https://pubmed.ncbi.nlm.nih.gov/15758012/)
 [^nemeth-2004-il6-hepcidin]: Nemeth E, Rivera S, Gabayan V, et al. IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin. *J Clin Invest.* 2004;113(9):1271-1276. [doi:10.1172/JCI200420945](https://doi.org/10.1172/JCI200420945) · [PubMed 15124018](https://pubmed.ncbi.nlm.nih.gov/15124018/)

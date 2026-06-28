@@ -316,6 +316,15 @@ cross_links:
   - target: 01-human/03-molecular/norepinephrine
     relation: connects-to
     note: "Locus-coeruleus origin: the noradrenergic locus coeruleus is one of the earliest sites of tau pathology in Alzheimer's, and its degeneration depletes norepinephrine, removing a neuroprotective, anti-inflammatory signal and contributing to early cognitive symptoms."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Brain insulin resistance: impaired AKT signalling from brain insulin resistance disinhibits GSK3β (already mapped) to hyperphosphorylate tau, the 'type-3 diabetes' link between the insulin already mapped and Alzheimer neurodegeneration."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Oxidative defence: oxidative stress is central to Alzheimer's, and a declining NRF2 antioxidant response permits the lipid peroxidation and mitochondrial damage that injure neurons."
+  - target: 01-human/03-molecular/calcineurin
+    relation: connects-to
+    note: "Calcium-driven synapse loss: dysregulated calcium-calcineurin signalling in Alzheimer's drives dendritic-spine retraction, synapse loss and astrocyte activation that track closely with cognitive decline."
 ---
 
 # Alzheimer's Disease
@@ -514,6 +523,9 @@ Microglia play a central, dual role in AD:
 - `connects-to` → **[RAGE](../../03-molecular/rage/README.md)** — RAGE transports circulating amyloid-β across the blood-brain barrier into the brain, the influx counterpart to LRP1-mediated efflux, so RAGE upregulation tips the balance toward the amyloid accumulation of Alzheimer's.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 released by activated microglia around amyloid plaques amplifies the neuroinflammatory response, a microglial signal increasingly seen as a driver of Alzheimer's neurodegeneration and a candidate therapeutic target.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — The noradrenergic locus coeruleus is one of the earliest sites of tau pathology in Alzheimer's, and its degeneration depletes norepinephrine, removing a neuroprotective, anti-inflammatory signal and contributing to early cognitive symptoms.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Impaired AKT signaling from brain insulin resistance disinhibits GSK3β (already mapped) to hyperphosphorylate tau, the "type-3 diabetes" link between the insulin already mapped and Alzheimer neurodegeneration.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — Oxidative stress is central to Alzheimer's, and a declining NRF2 antioxidant response permits the lipid peroxidation and mitochondrial damage that injure neurons.
+- `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Dysregulated calcium-calcineurin signaling in Alzheimer's drives dendritic-spine retraction, synapse loss and astrocyte activation that track closely with cognitive decline.
 
 [^selkoe-2016-alzheimer]: Selkoe DJ, Hardy J. The amyloid hypothesis of Alzheimer's disease at 25 years. *EMBO Mol Med.* 2016;8(6):595-608. [doi:10.15252/emmm.201606210](https://doi.org/10.15252/emmm.201606210) · [PubMed 27025652](https://pubmed.ncbi.nlm.nih.gov/27025652/)
 [^jack-2018-nia-aa]: Jack CR Jr, Bennett DA, Blennow K, et al. NIA-AA Research Framework: Toward a biological definition of Alzheimer's disease. *Alzheimers Dement.* 2018;14(4):535-562. [doi:10.1016/j.jalz.2018.02.018](https://doi.org/10.1016/j.jalz.2018.02.018) · [PubMed 29653606](https://pubmed.ncbi.nlm.nih.gov/29653606/)
