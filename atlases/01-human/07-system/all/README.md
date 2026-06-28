@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/e2f1
     relation: connects-to
     note: "Cell-cycle drive: deregulated RB-E2F1 transcription (with the CDK4/6 and CDKN2A lesions already mapped) powers the unchecked proliferation of acute lymphoblastic leukemia blasts."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "PI3K tumour suppression: PTEN loss unleashes the PI3K-AKT-mTOR axis (AKT and mTOR already mapped), a frequent driver of T-cell ALL that promotes leukemic-cell growth and survival."
+  - target: 01-human/03-molecular/kras
+    relation: connects-to
+    note: "RAS proliferation: activating RAS-pathway mutations (KRAS/NRAS) are among the most common lesions in B-cell ALL, driving the ERK-MAPK proliferative signalling (ERK1/2 already mapped) of the leukemic clone."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Leukemic stemness: Wnt/β-catenin signalling sustains the leukemia-initiating cells of ALL, contributing to the self-renewal and chemoresistance of the leukemic stem-cell compartment."
 ---
 
 # Acute Lymphoblastic Leukemia
@@ -563,6 +572,9 @@ Childhood ALL survivors (now majority of patients): neurocognitive impairment (M
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K-AKT-mTOR signaling (AKT and mTOR already mapped) is activated in acute lymphoblastic leukemia, especially T-ALL downstream of NOTCH and PTEN loss, supporting blast survival.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — RAS-MAPK-ERK activation, common in B-cell ALL and the Ph-like subtype, drives blast proliferation and is a target of MEK inhibition in resistant disease.
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — Deregulated RB-E2F1 transcription (with the CDK4/6 and CDKN2A lesions already mapped) powers the unchecked proliferation of acute lymphoblastic leukemia blasts.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss unleashes the PI3K-AKT-mTOR axis (AKT and mTOR already mapped), a frequent driver of T-cell ALL that promotes leukemic-cell growth and survival.
+- `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — Activating RAS-pathway mutations (KRAS/NRAS) are among the most common lesions in B-cell ALL, driving the ERK-MAPK proliferative signaling (ERK1/2 already mapped) of the leukemic clone.
+- `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Wnt/β-catenin signaling sustains the leukemia-initiating cells of ALL, contributing to the self-renewal and chemoresistance of the leukemic stem-cell compartment.
 
 [^pui-2018-all-cure]: Pui CH, Yang JJ, Bhakta N, et al. Global efforts toward the cure of childhood acute lymphoblastic leukemia. *Lancet Child Adolesc Health.* 2018;2(6):440-454. [doi:10.1016/S2352-4642(18)30066-X](https://doi.org/10.1016/S2352-4642(18)30066-X) · [PubMed 29976322](https://pubmed.ncbi.nlm.nih.gov/29976322/)
 [^maude-2018-tisagenlecleucel]: Maude SL, Laetsch TW, Buechner J, et al. Tisagenlecleucel in children and young adults with B-cell lymphoblastic leukemia. *N Engl J Med.* 2018;378(5):439-448. [doi:10.1056/NEJMoa1709866](https://doi.org/10.1056/NEJMoa1709866) · [PubMed 29385370](https://pubmed.ncbi.nlm.nih.gov/29385370/)
