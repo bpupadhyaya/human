@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/rad51
     relation: connects-to
     note: "DNA-repair vulnerability: BAP1 loss impairs homologous-recombination DNA repair in mesothelioma, leaving cells reliant on RAD51-dependent and alternative repair and raising the prospect of synthetic-lethal PARP inhibition in BAP1-deficient tumours."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "Unrestrained cell cycle: homozygous CDKN2A deletion (mapped) removes p16, leaving the CDK4/6-cyclin-D1 axis (cyclin-D1 mapped) unchecked in mesothelioma and a candidate target for CDK4/6 inhibition."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K signalling: PIK3CA drives the PI3K-AKT-mTOR axis (PTEN, AKT and mTOR already mapped) that supports growth and survival in mesothelioma."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Asbestos inflammation: TNF-α released by asbestos-activated macrophages promotes the survival and malignant transformation of mesothelial cells, part of the chronic inflammation (with the IL-1β/NLRP3 axis mapped) that drives mesothelioma."
 ---
 
 # Mesothelioma
@@ -530,6 +539,9 @@ Cytoreductive surgery (CRS) + hyperthermic intraperitoneal chemotherapy (HIPEC):
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Dual checkpoint blockade (nivolumab-ipilimumab) is now first-line for unresectable mesothelioma, and mesothelin-directed CAR-T cells aim to kill the tumor through perforin and granzyme, the cytotoxic effector mechanism of these immune therapies.
 - `connects-to` → **[Src kinase](../../03-molecular/src-kinase/README.md)** — The NF2/merlin loss common in mesothelioma disinhibits Src/FAK and the Hippo-YAP pathway at the membrane, driving the proliferation and loss of contact inhibition characteristic of these tumors.
 - `connects-to` → **[RAD51](../../03-molecular/rad51/README.md)** — BAP1 loss impairs homologous-recombination DNA repair in mesothelioma, leaving cells reliant on RAD51-dependent and alternative repair and raising the prospect of synthetic-lethal PARP inhibition in BAP1-deficient tumors.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Homozygous CDKN2A deletion (mapped) removes p16, leaving the CDK4/6-cyclin-D1 axis (cyclin-D1 mapped) unchecked in mesothelioma and a candidate target for CDK4/6 inhibition.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PIK3CA drives the PI3K-AKT-mTOR axis (PTEN, AKT and mTOR already mapped) that supports growth and survival in mesothelioma.
+- `connects-to` → **[TNF-α (Tumor Necrosis Factor-alpha)](../../03-molecular/tnf-alpha/README.md)** — TNF-α released by asbestos-activated macrophages promotes the survival and malignant transformation of mesothelial cells, part of the chronic inflammation (with the IL-1β/NLRP3 axis mapped) that drives mesothelioma.
 
 [^baas-2021-checkmate743]: Baas P, Scherpereel A, Nowak AK, et al. First-line nivolumab plus ipilimumab in unresectable malignant pleural mesothelioma (CheckMate 743). *Lancet.* 2021;397(10272):375-386. [doi:10.1016/S0140-6736(20)32714-8](https://doi.org/10.1016/S0140-6736(20)32714-8) · [PubMed 33485464](https://pubmed.ncbi.nlm.nih.gov/33485464/)
 [^vogelzang-2003-pemetrexed]: Vogelzang NJ, Rusthoven JJ, Symanowski J, et al. Phase III study of pemetrexed in combination with cisplatin versus cisplatin alone in patients with malignant pleural mesothelioma. *J Clin Oncol.* 2003;21(14):2636-2644. [doi:10.1200/JCO.2003.11.136](https://doi.org/10.1200/JCO.2003.11.136) · [PubMed 12860938](https://pubmed.ncbi.nlm.nih.gov/12860938/)
