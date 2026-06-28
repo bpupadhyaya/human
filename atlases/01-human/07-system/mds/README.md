@@ -316,6 +316,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "Inflammatory anaemia: IL-6 in the MDS marrow microenvironment drives hepcidin and the anaemia of inflammation while suppressing residual normal haematopoiesis, deepening the cytopenias of the disease."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Innate-immune ineffective haematopoiesis: chronic TLR-MyD88 signalling (TLR4 and S100A8/A9 mapped) in MDS stem and progenitor cells activates the NLRP3 inflammasome and pyroptosis, driving the ineffective haematopoiesis and cytopenias."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Clonal survival: PI3K-AKT-mTOR signalling (AKT mapped) supports the survival and growth advantage of the MDS clone over normal haematopoiesis."
+  - target: 01-human/03-molecular/kras
+    relation: connects-to
+    note: "Leukaemic progression: acquisition of RAS-pathway mutations marks the progression of MDS toward secondary acute myeloid leukaemia."
 ---
 
 # Myelodysplastic Syndromes
@@ -526,6 +535,9 @@ MDS → AML transformation rate: ~10% at 1 year for very-low risk; ~40-50% at 2 
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Chronic TLR4 activation by danger signals such as the S100A8/A9 already mapped fuels the NLRP3-inflammasome inflammation and pyroptotic cell death behind the ineffective hematopoiesis of MDS.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling represses erythroid maturation in MDS, the mechanism that luspatercept—acting on the activin/SMAD pathway already mapped—relieves to improve transfusion-dependent anemia.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 in the MDS marrow microenvironment drives hepcidin and the anemia of inflammation while suppressing residual normal hematopoiesis, deepening the cytopenias of the disease.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Chronic TLR-MyD88 signaling (TLR4 and S100A8/A9 mapped) in MDS stem and progenitor cells activates the NLRP3 inflammasome and pyroptosis, driving the ineffective hematopoiesis and cytopenias.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — PI3K-AKT-mTOR signaling (AKT mapped) supports the survival and growth advantage of the MDS clone over normal hematopoiesis.
+- `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — Acquisition of RAS-pathway mutations marks the progression of MDS toward secondary acute myeloid leukemia.
 
 [^fenaux-2009-aza001]: Fenaux P, Mufti GJ, Hellstrom-Lindberg E, et al. Efficacy of azacitidine compared with conventional care regimens in patients with higher-risk myelodysplastic syndromes. *Lancet Oncol.* 2009;10(3):223-232. [doi:10.1016/S1470-2045(09)70003-8](https://doi.org/10.1016/S1470-2045(09)70003-8) · [PubMed 19230772](https://pubmed.ncbi.nlm.nih.gov/19230772/)
 [^fenaux-2020-medalist]: Fenaux P, Platzbecker U, Mufti GJ, et al. Luspatercept in patients with lower-risk myelodysplastic syndromes. *N Engl J Med.* 2020;382(2):140-151. [doi:10.1056/NEJMoa1908892](https://doi.org/10.1056/NEJMoa1908892) · [PubMed 31914241](https://pubmed.ncbi.nlm.nih.gov/31914241/)

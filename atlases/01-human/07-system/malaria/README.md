@@ -321,6 +321,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "Cytokine storm: IL-6 is part of the pro-inflammatory cytokine surge (with the TNF-α and IL-1β already mapped) that drives the high fever and systemic pathology of severe Plasmodium infection."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Innate sensing: TLR recognition of parasite GPI anchors and hemozoin (TLR4 mapped) signals through MyD88 to NF-κB (mapped), driving the TNF/IL-1 cytokine surge that times the febrile paroxysms of malaria."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 induction: IL-12 from infected macrophages drives the protective Th1/IFN-γ response (IFN-γ mapped) against blood-stage malaria, while its dysregulation contributes to immunopathology."
+  - target: 01-human/03-molecular/thrombin
+    relation: connects-to
+    note: "Cerebral microthrombosis: endothelial activation and thrombin generation (with protein-C and von Willebrand factor mapped) drive the microvascular coagulation and sequestration of cerebral malaria."
 ---
 
 # Malaria
@@ -580,6 +589,9 @@ cross_links:
 - `connects-to` → **[Protein C](../../03-molecular/protein-c/README.md)** — P. falciparum PfEMP1 binds endothelial EPCR, displacing protein C and crippling its anticoagulant and barrier-protective signaling, a mechanism of the microvascular thrombosis and brain swelling of severe malaria.
 - `connects-to` → **[Ferroportin](../../03-molecular/ferroportin/README.md)** — Malarial inflammation drives hepcidin (already mapped), which degrades ferroportin to lock iron inside macrophages, producing the hypoferremia and anemia of malaria while restricting iron from the parasite.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 is part of the pro-inflammatory cytokine surge (with the TNF-α and IL-1β already mapped) that drives the high fever and systemic pathology of severe Plasmodium infection.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR recognition of parasite GPI anchors and hemozoin (TLR4 mapped) signals through MyD88 to NF-κB (mapped), driving the TNF/IL-1 cytokine surge that times the febrile paroxysms of malaria.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — IL-12 from infected macrophages drives the protective Th1/IFN-γ response (IFN-γ mapped) against blood-stage malaria, while its dysregulation contributes to immunopathology.
+- `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — Endothelial activation and thrombin generation (with protein-C and von Willebrand factor mapped) drive the microvascular coagulation and sequestration of cerebral malaria.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)
