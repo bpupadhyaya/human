@@ -332,6 +332,15 @@ cross_links:
   - target: 01-human/03-molecular/erk1-2
     relation: connects-to
     note: "Habit-circuit plasticity: dopamine- and glutamate-driven ERK signalling in the striatum mediates the synaptic plasticity of habit formation that underlies the repetitive compulsive behaviour of OCD."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "Synaptic regulation: GSK-3β regulates glutamatergic synaptic plasticity in the cortico-striato-thalamo-cortical circuits implicated in OCD, and is a target of the lithium augmentation used in refractory cases."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Neuroplastic signalling: PI3K-AKT signalling (with mTOR and ERK1/2 mapped) relays the BDNF-driven (mapped) neuroplasticity altered in the circuits underlying OCD."
+  - target: 01-human/03-molecular/acth
+    relation: connects-to
+    note: "Stress axis: CRH-driven pituitary ACTH release (CRH, cortisol and the glucocorticoid receptor mapped) links stress to the symptom exacerbations of obsessive-compulsive disorder."
 ---
 
 # Obsessive-Compulsive Disorder
@@ -561,6 +570,9 @@ OCD is often underdiagnosed due to shame and secrecy. Mean time from symptom ons
 - `connects-to` → **[Glucocorticoid Receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — HPA-axis signaling through the glucocorticoid receptor (cortisol and CRH already mapped) modulates OCD symptom severity and the stress-triggered exacerbations characteristic of the disorder.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR-dependent synaptic plasticity in the cortico-striatal-thalamo-cortical circuit shapes the maladaptive habit learning behind compulsions, and is implicated in rapid-acting glutamatergic treatments for OCD.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Dopamine- and glutamate-driven ERK signaling in the striatum mediates the synaptic plasticity of habit formation that underlies the repetitive compulsive behavior of OCD.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β regulates glutamatergic synaptic plasticity in the cortico-striato-thalamo-cortical circuits implicated in OCD, and is a target of the lithium augmentation used in refractory cases.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling (with mTOR and ERK1/2 mapped) relays the BDNF-driven (mapped) neuroplasticity altered in the circuits underlying OCD.
+- `connects-to` → **[ACTH](../../03-molecular/acth/README.md)** — CRH-driven pituitary ACTH release (CRH, cortisol and the glucocorticoid receptor mapped) links stress to the symptom exacerbations of obsessive-compulsive disorder.
 
 [^abramowitz-2009-ocd-review]: Abramowitz JS, Taylor S, McKay D. Obsessive-compulsive disorder. *Lancet.* 2009;374(9688):491-499. [doi:10.1016/S0140-6736(09)60240-3](https://doi.org/10.1016/S0140-6736(09)60240-3) · [PubMed 19665647](https://pubmed.ncbi.nlm.nih.gov/19665647/)
 [^chamberlain-2008-ocd-neuroscience]: Chamberlain SR, Menzies L, Hampshire A, et al. Orbitofrontal dysfunction in patients with OCD and their unaffected relatives. *Science.* 2008;321(5887):421-422. [doi:10.1126/science.1154433](https://doi.org/10.1126/science.1154433) · [PubMed 18635808](https://pubmed.ncbi.nlm.nih.gov/18635808/)
