@@ -325,6 +325,15 @@ cross_links:
   - target: 01-human/03-molecular/nfe2l2
     relation: connects-to
     note: "Oxidative bone loss: oxidative stress promotes osteoclast activity and osteoblast/osteocyte apoptosis, and a declining NRF2 antioxidant defence with ageing tips the balance toward the bone loss of osteoporosis."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "Inflammatory resorption: Th17-derived IL-17A promotes osteoclastogenesis by upregulating RANKL (already mapped), driving the inflammatory bone loss that links autoimmunity and oestrogen deficiency to osteoporosis."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Osteoblast formation: PI3K-AKT signalling mediates osteoblast survival and bone formation downstream of IGF-1 and Wnt (both already mapped), and its decline contributes to the impaired formation arm of osteoporosis."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Innate osteoclastogenesis: TLR-MyD88-NF-κB innate signalling (NF-κB already mapped) promotes osteoclast differentiation and the inflammatory bone resorption that accelerates age-related and postmenopausal bone loss."
 ---
 
 # Osteoporosis
@@ -535,6 +544,9 @@ All newly diagnosed osteoporosis should be evaluated for secondary causes: CBC (
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH signaling regulates the differentiation balance of osteoblasts and osteoclasts from their progenitors, tuning the bone-remodeling equilibrium whose disruption produces osteoporosis.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-driven coupling of blood-vessel formation to bone formation (VEGF already mapped) declines with age, contributing to the impaired bone formation of osteoporosis.
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — Oxidative stress promotes osteoclast activity and osteoblast/osteocyte apoptosis, and a declining NRF2 antioxidant defense with aging tips the balance toward the bone loss of osteoporosis.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Th17-derived IL-17A promotes osteoclastogenesis by upregulating RANKL (already mapped), driving the inflammatory bone loss that links autoimmunity and estrogen deficiency to osteoporosis.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling mediates osteoblast survival and bone formation downstream of IGF-1 and Wnt (both already mapped), and its decline contributes to the impaired formation arm of osteoporosis.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88-NF-κB innate signaling (NF-κB already mapped) promotes osteoclast differentiation and the inflammatory bone resorption that accelerates age-related and postmenopausal bone loss.
 
 [^kanis-2019-who-osteoporosis]: Kanis JA, Cooper C, Rizzoli R, Reginster JY. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. *Osteoporos Int.* 2019;30(1):3-44. [doi:10.1007/s00198-018-4704-5](https://doi.org/10.1007/s00198-018-4704-5) · [PubMed 30324412](https://pubmed.ncbi.nlm.nih.gov/30324412/)
 [^cosman-2016-romosozumab]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)

@@ -319,6 +319,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "T-cell expansion: IL-2-driven T-cell expansion sustains the dense dermal T-cell infiltrate of prurigo-nodularis lesions, part of the adaptive immune component of the disease."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Epidermal hyperplasia: mTOR-driven keratinocyte proliferation underlies the marked epidermal hyperplasia and dermal nodule formation that define the lesions of prurigo nodularis."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Itch-scratch neuroinflammation: TLR4 innate sensing of barrier disruption and scratch-induced tissue damage sustains the cutaneous neuroinflammation that perpetuates the self-reinforcing itch-scratch cycle."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "Neural sensitisation: neurotrophin signalling through TrkA/B (NTRK already mapped) activates ERK1/2 in cutaneous sensory neurons, driving the dermal neural hyperplasia and peripheral sensitisation central to the chronic itch of prurigo nodularis."
 ---
 
 # Prurigo Nodularis
@@ -502,6 +511,9 @@ PN affects approximately **72,000 patients** in the US; true prevalence is likel
 - `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — Regulatory IL-10 restrains the type-2 and Th17 itch-inflammation (IL-4/IL-13/IL-31 already mapped), and its relative deficiency permits the chronic immune activation sustaining prurigo nodularis.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — NLRP3-inflammasome activation and IL-1β in the chronically scratched, lichenified skin amplify the inflammation that perpetuates the itch-scratch cycle of prurigo nodularis.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — IL-2-driven T-cell expansion sustains the dense dermal T-cell infiltrate of prurigo-nodularis lesions, part of the adaptive immune component of the disease.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR-driven keratinocyte proliferation underlies the marked epidermal hyperplasia and dermal nodule formation that define the lesions of prurigo nodularis.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4 innate sensing of barrier disruption and scratch-induced tissue damage sustains the cutaneous neuroinflammation that perpetuates the self-reinforcing itch-scratch cycle.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Neurotrophin signaling through TrkA/B (NTRK already mapped) activates ERK1/2 in cutaneous sensory neurons, driving the dermal neural hyperplasia and peripheral sensitization central to the chronic itch of prurigo nodularis.
 
 [^stander-2020-nemolizumab-pn]: Ständer S, Yosipovitch G, Legat FJ, et al. Trial of nemolizumab in moderate-to-severe prurigo nodularis. *N Engl J Med.* 2020;382(8):706-716. [doi:10.1056/NEJMoa1908316](https://doi.org/10.1056/NEJMoa1908316) · [PubMed 32053299](https://pubmed.ncbi.nlm.nih.gov/32053299/)
 [^briggs-2022-dupilumab-pn-liberty]: Briggs JN, Cho YY, Khanna R, et al. Dupilumab for prurigo nodularis: the LIBERTY-PN PRIME and PRIME2 trials. *N Engl J Med.* 2022;387(18):1683-1693. [doi:10.1056/NEJMoa2205093](https://doi.org/10.1056/NEJMoa2205093) · [PubMed 36300905](https://pubmed.ncbi.nlm.nih.gov/36300905/)
