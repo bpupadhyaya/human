@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/dnmt3a
     relation: connects-to
     note: "Clonal evolution: surviving stem cells in aplastic anaemia can acquire mutations such as DNMT3A, and a subset of patients progress to myelodysplastic syndrome or acute leukaemia, the late clonal transformation that shadows the disease."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "HSC apoptosis: Fas- and perforin-driven T-cell attack on haematopoietic stem cells (perforin already mapped) tips the BCL-2 anti-apoptotic balance toward the HSC apoptosis (caspase-3 already mapped) that empties the marrow in aplastic anaemia."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "TPO-survival axis: thrombopoietin signalling through its receptor activates PI3K-AKT to support haematopoietic stem-cell survival, the axis eltrombopag exploits to restore haematopoiesis in aplastic anaemia."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immune dysregulation: deficient regulatory IL-10 and regulatory T cells (already mapped) fail to restrain the autoreactive T-cell attack on the marrow in aplastic anaemia."
 ---
 
 # Aplastic Anemia
@@ -524,6 +533,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — HLA-DR15 is over-represented in acquired aplastic anemia, where MHC-class-II presentation of stem-cell antigens primes the autoreactive T cells that attack the marrow—explaining its response to immunosuppression.
 - `connects-to` → **[Glucocorticoid receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Corticosteroids acting through the glucocorticoid receptor accompany antithymocyte globulin and ciclosporin in the immunosuppression that rescues the marrow from the autoreactive T-cell attack of aplastic anemia.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — Surviving stem cells in aplastic anemia can acquire mutations such as DNMT3A, and a subset of patients progress to myelodysplastic syndrome or acute leukemia, the late clonal transformation that shadows the disease.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Fas- and perforin-driven T-cell attack on hematopoietic stem cells (perforin already mapped) tips the BCL-2 anti-apoptotic balance toward the HSC apoptosis (caspase-3 already mapped) that empties the marrow in aplastic anemia.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Thrombopoietin signaling through its receptor activates PI3K-AKT to support hematopoietic stem-cell survival, the axis eltrombopag exploits to restore hematopoiesis in aplastic anemia.
+- `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — Deficient regulatory IL-10 and regulatory T cells (already mapped) fail to restrain the autoreactive T-cell attack on the marrow in aplastic anemia.
 
 ---
 

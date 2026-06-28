@@ -319,6 +319,15 @@ cross_links:
   - target: 01-human/03-molecular/galectin-3
     relation: connects-to
     note: "Foam-cell marker: galectin-3 is highly expressed by the lipid-laden macrophages of the atherosclerotic plaque, promoting their inflammatory activation and serving as a circulating biomarker of plaque burden and cardiovascular risk."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "Neointima formation: PDGF from platelets and plaque cells drives migration and proliferation of vascular smooth-muscle cells (already mapped) from media to intima, building the fibrous cap and stenotic neointima of atherosclerosis."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Cap stability: TGF-β regulates collagen synthesis and the stability of the atherosclerotic fibrous cap, opposing the inflammatory forces (IL-1β already mapped) that thin the cap toward rupture."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "Plaque neovascularisation: angiopoietin-driven angiogenesis produces the fragile intraplaque neovessels that haemorrhage and destabilise advanced atherosclerotic plaques, precipitating acute events."
 ---
 
 # Atherosclerosis
@@ -533,6 +542,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Advanced atherosclerotic plaques calcify as smooth-muscle cells transdifferentiate toward an osteoblast-like phenotype, the calcium deposition measured by coronary-artery-calcium scoring to quantify plaque burden and refine cardiovascular risk.
 - `connects-to` → **[Xanthine Oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Xanthine-oxidase-derived reactive oxygen species oxidize LDL trapped in the arterial wall, and it is this oxidized LDL—not native LDL—that macrophages devour to become the foam cells at the heart of the plaque.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 is highly expressed by the lipid-laden macrophages of the atherosclerotic plaque, promoting their inflammatory activation and serving as a circulating biomarker of plaque burden and cardiovascular risk.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — PDGF from platelets and plaque cells drives migration and proliferation of vascular smooth-muscle cells (already mapped) from media to intima, building the fibrous cap and stenotic neointima of atherosclerosis.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β regulates collagen synthesis and the stability of the atherosclerotic fibrous cap, opposing the inflammatory forces (IL-1β already mapped) that thin the cap toward rupture.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Angiopoietin-driven angiogenesis produces the fragile intraplaque neovessels that hemorrhage and destabilize advanced atherosclerotic plaques, precipitating acute events.
 
 ---
 
