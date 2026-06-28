@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/acetylcholine
     relation: connects-to
     note: "Cholinergic itch: in atopic skin, acetylcholine provokes itch rather than the pain it evokes in normal skin, a switched neural response that contributes to the intense, treatment-resistant pruritus of atopic dermatitis."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Spongiosis: T-cell-driven caspase-3 apoptosis of keratinocytes produces the intercellular oedema (spongiosis) of acute atopic-dermatitis lesions, disrupting the epidermal barrier."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Innate alarmin: IL-1β released by stressed keratinocytes, alongside the TSLP and IL-33 already mapped, amplifies the innate inflammation that initiates and sustains the atopic-dermatitis lesion."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Barrier oxidative defence: barrier disruption and inflammation in atopic dermatitis impose oxidative stress, and the NRF2 antioxidant pathway that normally supports keratinocyte barrier function is impaired in the disease."
 ---
 
 # Atopic Dermatitis
@@ -534,6 +543,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[Glucocorticoid receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Corticosteroids acting through the glucocorticoid receptor are the first-line topical anti-inflammatory for atopic dermatitis, broadly suppressing the type-2 immune response of the eczematous skin lesion.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — The epidermal calcium gradient that drives keratinocyte differentiation into the cornified barrier is disordered in atopic dermatitis, contributing to the defective barrier that lets allergens and microbes penetrate the skin.
 - `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — In atopic skin, acetylcholine provokes itch rather than the pain it evokes in normal skin, a switched neural response that contributes to the intense, treatment-resistant pruritus of atopic dermatitis.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — T-cell-driven caspase-3 apoptosis of keratinocytes produces the intercellular edema (spongiosis) of acute atopic-dermatitis lesions, disrupting the epidermal barrier.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β released by stressed keratinocytes, alongside the TSLP and IL-33 already mapped, amplifies the innate inflammation that initiates and sustains the atopic-dermatitis lesion.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — Barrier disruption and inflammation in atopic dermatitis impose oxidative stress, and the NRF2 antioxidant pathway that normally supports keratinocyte barrier function is impaired in the disease.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

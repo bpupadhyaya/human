@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Nitrergic signalling: neuronal nitric-oxide synthase shapes dopaminergic and glutamatergic transmission in the prefrontal circuits governing attention, and nNOS gene variants have been associated with ADHD and impulsivity."
+  - target: 01-human/03-molecular/glucocorticoid-receptor
+    relation: connects-to
+    note: "Stress reactivity: HPA-axis dysregulation (cortisol already mapped) and altered glucocorticoid-receptor signalling are implicated in ADHD, linking stress reactivity to its inattention and emotional dysregulation."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "Dopamine signalling: dopamine D2-receptor signalling through the AKT-GSK3β axis modulates the striatal dopamine circuitry central to ADHD and to the action of its dopaminergic stimulant treatments."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "Circuit plasticity: dopamine- and BDNF-driven ERK signalling supports the prefrontal-striatal synaptic plasticity whose disruption contributes to the attentional and executive deficits of ADHD."
 ---
 
 # Attention-Deficit/Hyperactivity Disorder
@@ -569,6 +578,9 @@ ADHD is a clinical diagnosis requiring [^biederman-2005-adhd-adults]:
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Iron is a cofactor for tyrosine hydroxylase in dopamine synthesis, and low iron stores (ferritin) are associated with ADHD severity and restless legs, a basis for checking and replacing iron in affected children.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium-channel genes such as CACNA1C are shared risk loci across ADHD and other psychiatric disorders, implicating dysregulated neuronal calcium signaling in the activity-dependent synaptic processes underlying attention.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Neuronal nitric-oxide synthase shapes dopaminergic and glutamatergic transmission in the prefrontal circuits governing attention, and nNOS gene variants have been associated with ADHD and impulsivity.
+- `connects-to` → **[Glucocorticoid Receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — HPA-axis dysregulation (cortisol already mapped) and altered glucocorticoid-receptor signaling are implicated in ADHD, linking stress reactivity to its inattention and emotional dysregulation.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — Dopamine D2-receptor signaling through the AKT-GSK3β axis modulates the striatal dopamine circuitry central to ADHD and to the action of its dopaminergic stimulant treatments.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Dopamine- and BDNF-driven ERK signaling supports the prefrontal-striatal synaptic plasticity whose disruption contributes to the attentional and executive deficits of ADHD.
 
 [^faraone-2021-adhd-primer]: Faraone SV, Banaschewski T, Coghill D, et al. The World Federation of ADHD International Consensus Statement: 208 Evidence-based conclusions about the disorder. *Neurosci Biobehav Rev.* 2021;128:789-818. [doi:10.1016/j.neubiorev.2021.01.022](https://doi.org/10.1016/j.neubiorev.2021.01.022) · [PubMed 33549739](https://pubmed.ncbi.nlm.nih.gov/33549739/)
 [^arnsten-2009-adhd-neuroscience]: Arnsten AF. Toward a new understanding of ADHD pathophysiology: an important role for prefrontal cortex dysfunction. *CNS Drugs.* 2009;23(Suppl 1):33-41. [doi:10.2165/00023210-200923000-00005](https://doi.org/10.2165/00023210-200923000-00005) · [PubMed 19621976](https://pubmed.ncbi.nlm.nih.gov/19621976/)
