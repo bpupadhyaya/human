@@ -294,6 +294,15 @@ cross_links:
   - target: 01-human/03-molecular/il-1b
     relation: connects-to
     note: "Sleep-regulatory cytokine: IL-1β is a physiological sleep-regulating cytokine, and the chronic sleep loss of compulsive gaming dysregulates it, linking disrupted sleep to the mood and cognitive impairment that accompany internet gaming disorder."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "Reward plasticity: repetitive gaming reward drives dopamine-induced ERK activation in striatal reward circuitry, the synaptic-plasticity pathway underlying the habit formation and compulsivity of internet gaming disorder."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Dopamine signalling: dopamine D2-receptor signalling through the AKT-GSK3β axis (GSK3β already mapped) is implicated in the reward and impulse-control circuitry of behavioural addictions including internet gaming disorder."
+  - target: 01-human/03-molecular/glucocorticoid-receptor
+    relation: connects-to
+    note: "Stress and relapse: HPA-axis stress signalling through the glucocorticoid receptor (cortisol and CRH already mapped) links stress and craving to the relapse behaviour of internet gaming disorder."
 sources:
   - id: kuss-2012-gaming-disorder-review
     type: peer-reviewed
@@ -560,6 +569,9 @@ A pattern of persistent or recurrent gaming behavior characterized by:
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Vasopressin, with oxytocin, mediates social bonding, and the intense online social affiliation of multiplayer gaming engages this system, part of why guild and team belonging make the behavior so reinforcing and hard to quit.
 - `connects-to` → **[Growth hormone](../../03-molecular/growth-hormone/README.md)** — Late-night gaming suppresses the deep-sleep-dependent nocturnal pulse of growth hormone, a developmental concern in the adolescents most prone to internet gaming disorder whose bodies still depend on that secretion.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β is a physiological sleep-regulating cytokine, and the chronic sleep loss of compulsive gaming dysregulates it, linking disrupted sleep to the mood and cognitive impairment that accompany internet gaming disorder.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Repetitive gaming reward drives dopamine-induced ERK activation in striatal reward circuitry, the synaptic-plasticity pathway underlying the habit formation and compulsivity of internet gaming disorder.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Dopamine D2-receptor signaling through the AKT-GSK3β axis (GSK3β already mapped) is implicated in the reward and impulse-control circuitry of behavioral addictions including internet gaming disorder.
+- `connects-to` → **[Glucocorticoid Receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — HPA-axis stress signaling through the glucocorticoid receptor (cortisol and CRH already mapped) links stress and craving to the relapse behavior of internet gaming disorder.
 
 [^kuss-2012-gaming-disorder-review]: Kuss DJ, Griffiths MD. Internet gaming addiction: a systematic review of empirical research. *Int J Ment Health Addict.* 2012;10(2):278-296. [doi:10.1007/s11469-011-9318-5](https://doi.org/10.1007/s11469-011-9318-5)
 [^who-icd11-gaming-disorder]: World Health Organization. ICD-11: Gaming Disorder (6C51). Geneva: WHO; 2019. [icd.who.int](https://icd.who.int/browse/2025-01/mms/en#1448597234)

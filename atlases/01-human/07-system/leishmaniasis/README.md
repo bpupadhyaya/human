@@ -307,6 +307,15 @@ cross_links:
   - target: 01-human/03-molecular/cholesterol
     relation: connects-to
     note: "Cholesterol parasitism: Leishmania scavenges and depletes host-cell cholesterol, remodelling the macrophage membrane in ways that impair antigen presentation and microbicidal function, a lipid-metabolic dimension of its intracellular survival."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Th2 permissiveness: with the IL-4 already mapped, IL-13 drives the Th2 response that deactivates macrophage killing and permits Leishmania persistence, the immune polarisation that determines progression to visceral disease."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Host-cell subversion: Leishmania manipulates host macrophage PI3K-AKT signalling to suppress apoptosis and microbicidal function, securing the intracellular niche in which the amastigote survives and replicates."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Inflammasome double edge: inflammasome-driven IL-1β shapes the response to Leishmania with a context-dependent role in both parasite control and the immunopathology of the leishmaniases."
 ---
 
 # Leishmaniasis
@@ -505,3 +514,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Leishmania induces macrophage prostaglandin E2 that suppresses microbicidal activity and biases the response toward a permissive Th2 state, an eicosanoid arm of the immune evasion that lets the parasite survive inside the macrophage.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Leishmania surface ecto-nucleotidases hydrolyze host nucleotides to generate immunosuppressive adenosine, dampening macrophage and T-cell activation to create the tolerant niche the parasite needs to establish infection.
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Leishmania scavenges and depletes host-cell cholesterol, remodeling the macrophage membrane in ways that impair antigen presentation and microbicidal function, a lipid-metabolic dimension of its intracellular survival.
+- `connects-to` → **[Interleukin-13](../../03-molecular/il-13/README.md)** — With the IL-4 already mapped, IL-13 drives the Th2 response that deactivates macrophage killing and permits Leishmania persistence, the immune polarization that determines progression to visceral disease.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Leishmania manipulates host macrophage PI3K-AKT signaling to suppress apoptosis and microbicidal function, securing the intracellular niche in which the amastigote survives and replicates.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Inflammasome-driven IL-1β shapes the response to Leishmania with a context-dependent role in both parasite control and the immunopathology of the leishmaniases.
