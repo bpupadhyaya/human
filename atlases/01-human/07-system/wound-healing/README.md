@@ -319,6 +319,15 @@ cross_links:
   - target: 01-human/03-molecular/cxcl12
     relation: connects-to
     note: "Progenitor recruitment: CXCL12 (SDF-1) recruits bone-marrow-derived endothelial and mesenchymal progenitor cells into the wound to support angiogenesis and granulation, an axis blunted in diabetic non-healing wounds."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "Proliferative phase: EGF, PDGF and FGF (all mapped) drive the MAPK-ERK cascade that powers the keratinocyte re-epithelialisation and fibroblast proliferation of the wound's proliferative phase."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Survival and migration: PI3K-AKT signalling downstream of the wound growth factors promotes the cell survival, migration and angiogenesis that build granulation tissue."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "Remodeling and scar: TGF-β signals through SMAD4 (TGF-β mapped) to drive fibroblast-to-myofibroblast transition and the collagen deposition (collagen mapped) of the remodeling phase, and its excess produces fibrotic scarring."
 ---
 
 # Wound Healing
@@ -538,6 +547,9 @@ cross_links:
 - `connects-to` → **[MET](../../03-molecular/met/README.md)** — HGF acting through the MET receptor drives the keratinocyte migration and proliferation that resurface a wound, together with endothelial responses supporting granulation-tissue angiogenesis.
 - `connects-to` → **[Connexin-43](../../03-molecular/connexin43/README.md)** — Connexin-43 is downregulated at the wound edge to permit keratinocyte and fibroblast migration, and its abnormal persistence in chronic and diabetic wounds impairs closure, making Cx43 a wound-healing target.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12 (SDF-1) recruits bone-marrow-derived endothelial and mesenchymal progenitor cells into the wound to support angiogenesis and granulation, an axis blunted in diabetic non-healing wounds.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — EGF, PDGF and FGF (all mapped) drive the MAPK-ERK cascade that powers the keratinocyte re-epithelialization and fibroblast proliferation of the wound's proliferative phase.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling downstream of the wound growth factors promotes the cell survival, migration and angiogenesis that build granulation tissue.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β signals through SMAD4 (TGF-β mapped) to drive fibroblast-to-myofibroblast transition and the collagen deposition (collagen mapped) of the remodeling phase, and its excess produces fibrotic scarring.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)
