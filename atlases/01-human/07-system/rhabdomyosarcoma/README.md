@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/caspase-3
     relation: connects-to
     note: "Chemotherapy apoptosis: the VAC regimen (vincristine, actinomycin-D, cyclophosphamide) kills rhabdomyosarcoma cells through caspase-3-mediated apoptosis, and resistance to this death programme drives the poor outcomes of metastatic and relapsed disease."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "RAS-MAPK driver: in fusion-negative embryonal rhabdomyosarcoma, RAS-pathway mutations (KRAS, FGFR and MET mapped) activate the MAPK-ERK cascade as a central proliferative driver."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Cell-cycle output: the CDK4/6-cyclin-D1 axis (mapped, with CDKN2A loss) releases E2F1 to drive the proliferation of rhabdomyosarcoma."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "IGF-PI3K axis: IGF-1R signalling (IGF-1 mapped) drives PI3K-AKT-mTOR (PIK3CA, AKT and mTOR already mapped), which PTEN restrains, a key growth-and-survival pathway in rhabdomyosarcoma."
 ---
 
 # Rhabdomyosarcoma
@@ -539,6 +548,9 @@ Maximal safe resection with negative margins (R0) wherever achievable without mu
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K-AKT-mTOR signaling is frequently activated in rhabdomyosarcoma, complementing the AKT and mTOR already mapped, supporting growth and survival especially in fusion-negative embryonal disease.
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β superfamily signaling, alongside the myostatin already mapped, helps enforce the arrest in myogenic differentiation that keeps rhabdomyosarcoma cells proliferating instead of maturing into muscle.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — The VAC regimen (vincristine, actinomycin-D, cyclophosphamide) kills rhabdomyosarcoma cells through caspase-3-mediated apoptosis, and resistance to this death program drives the poor outcomes of metastatic and relapsed disease.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — In fusion-negative embryonal rhabdomyosarcoma, RAS-pathway mutations (KRAS, FGFR and MET mapped) activate the MAPK-ERK cascade as a central proliferative driver.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — The CDK4/6-cyclin-D1 axis (mapped, with CDKN2A loss) releases E2F1 to drive the proliferation of rhabdomyosarcoma.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — IGF-1R signaling (IGF-1 mapped) drives PI3K-AKT-mTOR (PIK3CA, AKT and mTOR already mapped), which PTEN restrains, a key growth-and-survival pathway in rhabdomyosarcoma.
 
 [^crist-2001-irs4-rms]: Crist WM, Anderson JR, Meza JL, et al. Intergroup rhabdomyosarcoma study-IV: results for patients with nonmetastatic disease. *J Clin Oncol.* 2001;19(12):3091-3102. [doi:10.1200/JCO.2001.19.12.3091](https://doi.org/10.1200/JCO.2001.19.12.3091) · [PubMed 11408506](https://pubmed.ncbi.nlm.nih.gov/11408506/)
 [^oberlin-2012-mmt95-rms]: Oberlin O, Rey A, Sanchez de Toledo J, et al. Randomized comparison of intensified six-drug versus standard three-drug chemotherapy for high-risk nonmetastatic rhabdomyosarcoma and other chemotherapy-sensitive childhood soft tissue sarcomas. *J Clin Oncol.* 2012;30(19):2457-2465. [doi:10.1200/JCO.2011.39.3538](https://doi.org/10.1200/JCO.2011.39.3538) · [PubMed 22665546](https://pubmed.ncbi.nlm.nih.gov/22665546/)

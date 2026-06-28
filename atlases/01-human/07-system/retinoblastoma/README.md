@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/dnmt3a
     relation: connects-to
     note: "Epigenetic progression: retinoblastoma carries strikingly few genetic lesions beyond RB1 loss and instead advances through widespread epigenetic deregulation, including DNA-methylation changes effected by DNMTs such as DNMT3A."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "Survival signalling: PTEN restrains the PI3K-AKT-mTOR axis (PIK3CA, AKT and mTOR already mapped) that supports the survival of retinoblastoma cells and is a candidate therapeutic target."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "Growth-factor MAPK: IGF-1R signalling (IGF-1 mapped) feeds the MAPK-ERK cascade that supports proliferation and survival in retinoblastoma."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "Pro-survival STAT3: STAT3 signalling promotes the survival and chemoresistance of retinoblastoma cells, complementing the loss of RB-mediated cell-cycle control."
 ---
 
 # Retinoblastoma
@@ -524,6 +533,9 @@ Standard regimen: **vincristine + carboplatin + etoposide (VCE)**, 6 cycles; red
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K-AKT-mTOR activity supports retinoblastoma cell survival and growth downstream of the deregulated RB-E2F proliferation, complementing the AKT and mTOR already mapped as a targetable dependency.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — IGF-1/IGF-1R signaling is expressed in retinoblastoma and drives proliferation and survival, a growth-factor axis under study as a therapeutic target in this childhood retinal tumor.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — Retinoblastoma carries strikingly few genetic lesions beyond RB1 loss and instead advances through widespread epigenetic deregulation, including DNA-methylation changes effected by DNMTs such as DNMT3A.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN restrains the PI3K-AKT-mTOR axis (PIK3CA, AKT and mTOR already mapped) that supports the survival of retinoblastoma cells and is a candidate therapeutic target.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — IGF-1R signaling (IGF-1 mapped) feeds the MAPK-ERK cascade that supports proliferation and survival in retinoblastoma.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 signaling promotes the survival and chemoresistance of retinoblastoma cells, complementing the loss of RB-mediated cell-cycle control.
 
 [^knudson-1971-two-hit]: Knudson AG Jr. Mutation and cancer: statistical study of retinoblastoma. *Proc Natl Acad Sci USA.* 1971;68(4):820-823. [doi:10.1073/pnas.68.4.820](https://doi.org/10.1073/pnas.68.4.820) · [PubMed 5279523](https://pubmed.ncbi.nlm.nih.gov/5279523/)
 [^shields-2008-retinoblastoma]: Shields CL, Shields JA. Retinoblastoma management: advances in enucleation, intravenous chemoreduction, and intra-arterial chemotherapy. *Curr Opin Ophthalmol.* 2010;21(3):203-212. [doi:10.1097/ICU.0b013e328338676a](https://doi.org/10.1097/ICU.0b013e328338676a) · [PubMed 20224400](https://pubmed.ncbi.nlm.nih.gov/20224400/)
