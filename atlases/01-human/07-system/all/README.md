@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/foxo
     relation: connects-to
     note: "Stem-cell quiescence: FOXO transcription factors maintain quiescent leukaemia-initiating cells that survive chemotherapy in the marrow niche, a reservoir that seeds the relapse which remains the main cause of treatment failure in ALL."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K survival: PI3K-AKT-mTOR signalling (AKT and mTOR already mapped) is activated in acute lymphoblastic leukemia, especially T-ALL downstream of NOTCH and PTEN loss, supporting blast survival."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "RAS-MAPK proliferation: RAS-MAPK-ERK activation, common in B-cell ALL and the Ph-like subtype, drives blast proliferation and is a target of MEK inhibition in resistant disease."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Cell-cycle drive: deregulated RB-E2F1 transcription (with the CDK4/6 and CDKN2A lesions already mapped) powers the unchecked proliferation of acute lymphoblastic leukemia blasts."
 ---
 
 # Acute Lymphoblastic Leukemia
@@ -551,6 +560,9 @@ Childhood ALL survivors (now majority of patients): neurocognitive impairment (M
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — The CD19-CD3 bispecific blinatumomab and CD19 CAR-T cells redirect cytotoxic T cells to destroy B-ALL blasts through perforin and granzyme, the immune effector mechanism that has transformed relapsed and refractory disease.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Lymphoblasts depend on IGF-1R signaling for proliferation and survival, a growth-factor axis that supports leukemic growth and is being explored as a therapeutic target in ALL.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors maintain quiescent leukemia-initiating cells that survive chemotherapy in the marrow niche, a reservoir that seeds the relapse which remains the main cause of treatment failure in ALL.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K-AKT-mTOR signaling (AKT and mTOR already mapped) is activated in acute lymphoblastic leukemia, especially T-ALL downstream of NOTCH and PTEN loss, supporting blast survival.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — RAS-MAPK-ERK activation, common in B-cell ALL and the Ph-like subtype, drives blast proliferation and is a target of MEK inhibition in resistant disease.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — Deregulated RB-E2F1 transcription (with the CDK4/6 and CDKN2A lesions already mapped) powers the unchecked proliferation of acute lymphoblastic leukemia blasts.
 
 [^pui-2018-all-cure]: Pui CH, Yang JJ, Bhakta N, et al. Global efforts toward the cure of childhood acute lymphoblastic leukemia. *Lancet Child Adolesc Health.* 2018;2(6):440-454. [doi:10.1016/S2352-4642(18)30066-X](https://doi.org/10.1016/S2352-4642(18)30066-X) · [PubMed 29976322](https://pubmed.ncbi.nlm.nih.gov/29976322/)
 [^maude-2018-tisagenlecleucel]: Maude SL, Laetsch TW, Buechner J, et al. Tisagenlecleucel in children and young adults with B-cell lymphoblastic leukemia. *N Engl J Med.* 2018;378(5):439-448. [doi:10.1056/NEJMoa1709866](https://doi.org/10.1056/NEJMoa1709866) · [PubMed 29385370](https://pubmed.ncbi.nlm.nih.gov/29385370/)

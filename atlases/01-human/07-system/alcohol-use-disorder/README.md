@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/oxytocin
     relation: connects-to
     note: "Withdrawal and craving: oxytocin dampens stress and craving and can ease alcohol-withdrawal severity in studies, an endogenous social-bonding system being explored as an adjunct to reduce relapse in alcohol use disorder."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "Reward plasticity: alcohol engages dopamine-driven ERK signalling in the striatal reward circuitry, the synaptic plasticity that consolidates alcohol reward and craving."
+  - target: 01-human/03-molecular/glucocorticoid-receptor
+    relation: connects-to
+    note: "Withdrawal stress: the cortisol/CRH stress response of alcohol withdrawal (already mapped) acts through the glucocorticoid receptor, the HPA dysregulation that drives negative-affect relapse in alcohol use disorder."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Oxidative injury: alcohol metabolism generates reactive oxygen species and acetaldehyde, and the NRF2 antioxidant response defends against the oxidative damage underlying alcoholic liver disease and neurotoxicity."
 ---
 
 # Alcohol Use Disorder
@@ -603,6 +612,9 @@ Prenatal alcohol exposure → leading preventable cause of intellectual disabili
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — GLP-1 receptor agonists like semaglutide reduce alcohol craving and consumption by acting on the mesolimbic reward circuit, an emerging metabolic-pathway therapy generating strong interest for alcohol use disorder.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Chronic alcohol activates hepatic stellate cells through TGF-β to deposit collagen, driving the progression from steatosis to the alcoholic cirrhosis that is a leading cause of death in alcohol use disorder.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Oxytocin dampens stress and craving and can ease alcohol-withdrawal severity in studies, an endogenous social-bonding system being explored as an adjunct to reduce relapse in alcohol use disorder.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Alcohol engages dopamine-driven ERK signaling in the striatal reward circuitry, the synaptic plasticity that consolidates alcohol reward and craving.
+- `connects-to` → **[Glucocorticoid Receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — The cortisol/CRH stress response of alcohol withdrawal (already mapped) acts through the glucocorticoid receptor, the HPA dysregulation that drives negative-affect relapse in alcohol use disorder.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — Alcohol metabolism generates reactive oxygen species and acetaldehyde, and the NRF2 antioxidant response defends against the oxidative damage underlying alcoholic liver disease and neurotoxicity.
 
 [^koob-2013-addiction-neuroscience]: Koob GF, Volkow ND. Neurocircuitry of addiction. *Neuropsychopharmacology.* 2010;35(1):217-238. [doi:10.1038/npp.2009.110](https://doi.org/10.1038/npp.2009.110) · [PubMed 19710631](https://pubmed.ncbi.nlm.nih.gov/19710631/)
 [^anton-2006-combine]: Anton RF, O'Malley SS, Ciraulo DA, et al. Combined pharmacotherapies and behavioral interventions for alcohol dependence: the COMBINE study. *JAMA.* 2006;295(17):2003-2017. [doi:10.1001/jama.295.17.2003](https://doi.org/10.1001/jama.295.17.2003) · [PubMed 16670409](https://pubmed.ncbi.nlm.nih.gov/16670409/)
