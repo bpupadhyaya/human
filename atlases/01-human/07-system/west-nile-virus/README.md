@@ -318,6 +318,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "Barrier breakdown: cytokine- and VEGF-driven blood-brain-barrier permeability lets West Nile virus and inflammatory cells enter the CNS, a key step enabling its neuroinvasion."
+  - target: 01-human/03-molecular/glutamate
+    relation: connects-to
+    note: "Excitotoxicity: West-Nile-infected neuron death and the inflammatory milieu drive glutamate excitotoxicity, a mechanism of the neuronal injury underlying West Nile encephalitis."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Neuronal apoptosis: the balance of anti-apoptotic BCL-2 against viral- and immune-driven pro-apoptotic signals (caspase-3 mapped) sets neuronal survival in West Nile neuroinvasive disease."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Survival hijack: West Nile virus manipulates host PI3K-AKT signalling to delay apoptosis early in infection, sustaining the cellular environment for viral replication."
 ---
 
 # West Nile Virus
@@ -538,3 +547,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — West Nile virus drives caspase-3-mediated apoptosis of infected neurons, the cell death directly responsible for the encephalitis and the poliomyelitis-like acute flaccid paralysis of neuroinvasive disease.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — The complement system (C3 already mapped, through C5) is essential for the protective antibody and T-cell responses that control West Nile virus, shaping both clearance and immunopathology.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Cytokine- and VEGF-driven blood-brain-barrier permeability lets West Nile virus and inflammatory cells enter the CNS, a key step enabling its neuroinvasion.
+- `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — West-Nile-infected neuron death and the inflammatory milieu drive glutamate excitotoxicity, a mechanism of the neuronal injury underlying West Nile encephalitis.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — The balance of anti-apoptotic BCL-2 against viral- and immune-driven pro-apoptotic signals (caspase-3 mapped) sets neuronal survival in West Nile neuroinvasive disease.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — West Nile virus manipulates host PI3K-AKT signaling to delay apoptosis early in infection, sustaining the cellular environment for viral replication.

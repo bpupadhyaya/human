@@ -316,6 +316,15 @@ cross_links:
   - target: 01-human/03-molecular/myc
     relation: connects-to
     note: "Transformation: MYC activation cooperates with the MYD88 driver in the progression and high-grade transformation of Waldenström macroglobulinemia to diffuse large B-cell lymphoma."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "BCR proximal signalling: Src-family (LYN) kinases relay B-cell-receptor signals upstream of BTK (mapped), feeding the BTK-MYD88-NF-κB axis that drives Waldenström cell survival."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "Adverse genetics: TP53 mutation is an adverse-prognostic lesion in Waldenström macroglobulinemia, associated with treatment resistance and risk of high-grade transformation."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Proliferative output: the cyclin-D-CDK4/6 axis releases E2F1 to drive proliferation of the lymphoplasmacytic clone (MYC mapped) in Waldenström macroglobulinemia."
 ---
 
 # Waldenström Macroglobulinemia
@@ -533,6 +542,9 @@ For symptomatic hyperviscosity → removes IgM immediately; does not treat under
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — MYD88 L265P signaling (already mapped) activates not only BTK-NF-κB but the PI3K-AKT pathway (PIK3CA and mTOR already mapped), a survival axis and route of resistance in Waldenström macroglobulinemia.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — MYD88-driven signaling also engages the MAPK-ERK1/2 cascade, contributing to the proliferation of the lymphoplasmacytic clone and to incomplete responses to BTK inhibition.
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — MYC activation cooperates with the MYD88 driver in the progression and high-grade transformation of Waldenström macroglobulinemia to diffuse large B-cell lymphoma.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — Src-family (LYN) kinases relay B-cell-receptor signals upstream of BTK (mapped), feeding the BTK-MYD88-NF-κB axis that drives Waldenström cell survival.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 mutation is an adverse-prognostic lesion in Waldenström macroglobulinemia, associated with treatment resistance and risk of high-grade transformation.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — The cyclin-D-CDK4/6 axis releases E2F1 to drive proliferation of the lymphoplasmacytic clone (MYC mapped) in Waldenström macroglobulinemia.
 
 [^treon-2015-ibrutinib-wm]: Treon SP, Tripsas CK, Meid K, et al. Ibrutinib in previously treated Waldenström's macroglobulinemia. *N Engl J Med.* 2015;373(18):1765-1774. [doi:10.1056/NEJMoa1501548](https://doi.org/10.1056/NEJMoa1501548) · [PubMed 26352686](https://pubmed.ncbi.nlm.nih.gov/26352686/)
 [^tam-2020-aspen]: Tam CS, Opat S, D'Sa S, et al. A randomized phase 3 trial of zanubrutinib vs ibrutinib in symptomatic Waldenström macroglobulinemia: the ASPEN study. *Blood.* 2020;136(18):2038-2050. [doi:10.1182/blood.2020006844](https://doi.org/10.1182/blood.2020006844) · [PubMed 32828187](https://pubmed.ncbi.nlm.nih.gov/32828187/)
