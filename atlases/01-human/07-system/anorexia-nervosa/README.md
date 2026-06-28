@@ -319,6 +319,15 @@ cross_links:
   - target: 01-human/03-molecular/gaba
     relation: connects-to
     note: "Anxiety and restriction: GABAergic dysfunction contributes to the high anxiety of anorexia nervosa, the inhibitory-neurotransmitter imbalance that links the disorder's anxious temperament to the rigid, fear-driven restriction of food."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "Starvation energy sensing: chronic caloric restriction activates the AMPK energy sensor (engaged by the leptin and adiponectin axes already mapped), driving the catabolic adaptations and possibly the paradoxical hyperactivity of anorexia nervosa."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Anabolic shutdown: the mTOR nutrient sensor falls in the sustained starvation of anorexia nervosa, restraining the anabolic protein synthesis and growth that its caloric deficit cannot support."
+  - target: 01-human/03-molecular/glucocorticoid-receptor
+    relation: connects-to
+    note: "Starvation hypercortisolaemia: chronic starvation activates the HPA axis (cortisol and CRH already mapped), and glucocorticoid-receptor signalling mediates the hypercortisolaemia that drives the bone and muscle loss of anorexia nervosa."
 ---
 
 # Anorexia Nervosa
@@ -560,6 +569,9 @@ In healthy individuals, food cues activate the mesolimbic reward circuit (VTA �
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — GLP-1 and other satiety hormones are dysregulated in anorexia nervosa, where heightened anorexigenic signaling reinforces the reduced food intake, part of the gut-hormone disturbance sustaining the restrictive behavior.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — FGF21, the fasting-induced hepatokine that signals through FGFR1c with β-Klotho, is markedly elevated in the chronic starvation of anorexia nervosa, a metabolic adaptation to the energy deficit driving fat oxidation and bone loss.
 - `connects-to` → **[GABA](../../03-molecular/gaba/README.md)** — GABAergic dysfunction contributes to the high anxiety of anorexia nervosa, the inhibitory-neurotransmitter imbalance that links the disorder's anxious temperament to the rigid, fear-driven restriction of food.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — Chronic caloric restriction activates the AMPK energy sensor (engaged by the leptin and adiponectin axes already mapped), driving the catabolic adaptations and possibly the paradoxical hyperactivity of anorexia nervosa.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — The mTOR nutrient sensor falls in the sustained starvation of anorexia nervosa, restraining the anabolic protein synthesis and growth that its caloric deficit cannot support.
+- `connects-to` → **[Glucocorticoid Receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Chronic starvation activates the HPA axis (cortisol and CRH already mapped), and glucocorticoid-receptor signaling mediates the hypercortisolemia that drives the bone and muscle loss of anorexia nervosa.
 
 [^treasure-2010-an-lancet]: Treasure J, Claudino AM, Zucker N. Eating disorders. *Lancet.* 2010;375(9714):583-593. [doi:10.1016/S0140-6736(09)61748-7](https://doi.org/10.1016/S0140-6736(09)61748-7) · [PubMed 19931176](https://pubmed.ncbi.nlm.nih.gov/19931176/)
 [^lock-2010-fbt-an]: Lock J, Le Grange D, Agras WS, et al. Randomized clinical trial comparing family-based treatment with adolescent-focused individual therapy for adolescents with anorexia nervosa. *Arch Gen Psychiatry.* 2010;67(10):1025-1032. [doi:10.1001/archgenpsychiatry.2010.128](https://doi.org/10.1001/archgenpsychiatry.2010.128) · [PubMed 20921118](https://pubmed.ncbi.nlm.nih.gov/20921118/)

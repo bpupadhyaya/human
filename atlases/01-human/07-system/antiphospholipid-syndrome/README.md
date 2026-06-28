@@ -310,6 +310,15 @@ cross_links:
   - target: 01-human/03-molecular/mhc-class-ii
     relation: connects-to
     note: "Genetic predisposition: particular HLA class II alleles predispose to producing antiphospholipid antibodies by favouring presentation of β2-glycoprotein-I peptides to helper T cells, linking the genetic risk to the breaking of tolerance."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Vasculopathy signalling: anti-β2GPI antibodies activate endothelial PI3K-AKT-mTOR signalling (mTOR already mapped), driving the intimal hyperplasia of APS vasculopathy and nephropathy that mTOR inhibitors like sirolimus can treat."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Obstetric inflammation: TNF-α is a key mediator of the placental inflammation and thrombosis of obstetric antiphospholipid syndrome, linking the autoantibodies to recurrent fetal loss."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Thrombo-inflammation: antiphospholipid antibodies engage TLR4 (already mapped) to activate the NLRP3 inflammasome and IL-1β in monocytes and endothelium, amplifying the thrombo-inflammatory state of APS."
 ---
 
 # Antiphospholipid Syndrome
@@ -553,6 +562,9 @@ In APS, anti-B2GPI IgG bound to B2GPI on phospholipid surfaces converts this ant
 - `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — BAFF supports the autoreactive B cells that produce the anti-β2-glycoprotein-I and anticardiolipin antibodies defining APS, the humoral origin of the disease and a rationale for B-cell-directed therapy in refractory cases.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Antiphospholipid antibodies binding β2-glycoprotein-I on trophoblast trigger caspase-3-mediated apoptosis and impair invasion, a direct cellular mechanism of the placental failure in obstetric APS beyond thrombosis.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Particular HLA class II alleles predispose to producing antiphospholipid antibodies by favoring presentation of β2-glycoprotein-I peptides to helper T cells, linking the genetic risk to the breaking of tolerance.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Anti-β2GPI antibodies activate endothelial PI3K-AKT-mTOR signaling (mTOR already mapped), driving the intimal hyperplasia of APS vasculopathy and nephropathy that mTOR inhibitors like sirolimus can treat.
+- `connects-to` → **[TNF-α (Tumor Necrosis Factor-alpha)](../../03-molecular/tnf-alpha/README.md)** — TNF-α is a key mediator of the placental inflammation and thrombosis of obstetric antiphospholipid syndrome, linking the autoantibodies to recurrent fetal loss.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Antiphospholipid antibodies engage TLR4 (already mapped) to activate the NLRP3 inflammasome and IL-1β in monocytes and endothelium, amplifying the thrombo-inflammatory state of APS.
 
 [^miyakis-2006-sydney-aps]: Miyakis S, Lockshin MD, Atsumi T, et al. International consensus statement on an update of the classification criteria for definite antiphospholipid syndrome (APS). *J Thromb Haemost.* 2006;4(2):295-306. [doi:10.1111/j.1538-7836.2006.01753.x](https://doi.org/10.1111/j.1538-7836.2006.01753.x) · [PubMed 16420554](https://pubmed.ncbi.nlm.nih.gov/16420554/)
 [^barbhaiya-2023-acreular-aps]: Barbhaiya M, Zuily S, Naden R, et al. The 2023 ACR/EULAR antiphospholipid syndrome classification criteria. *Ann Rheum Dis.* 2023;82(10):1258-1270. [doi:10.1136/ard-2023-224609](https://doi.org/10.1136/ard-2023-224609) · [PubMed 37643823](https://pubmed.ncbi.nlm.nih.gov/37643823/)
