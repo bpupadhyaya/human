@@ -325,6 +325,15 @@ cross_links:
   - target: 01-human/03-molecular/ferroportin
     relation: connects-to
     note: "Transfusional iron overload: chronic transfusion and haemolysis cause iron overload in sickle-cell disease, with hepcidin-mediated degradation of ferroportin governing the macrophage iron handling behind it."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Heme-driven sterile inflammation: free heme released by intravascular haemolysis acts as a TLR4 agonist signalling through MyD88 to NF-κB (both already mapped), driving the sterile inflammation that promotes vaso-occlusion in sickle-cell disease."
+  - target: 01-human/03-molecular/thrombin
+    relation: connects-to
+    note: "Hypercoagulable state: chronic activation of coagulation generates thrombin and a prothrombotic milieu (protein C already mapped) that contributes to the thrombotic complications and elevated stroke risk of sickle-cell disease."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "Endothelial dysfunction: disruption of the angiopoietin-Tie2 axis that maintains endothelial barrier integrity promotes the endothelial activation and vascular leak underlying the vaso-occlusive injury of sickle-cell disease."
 ---
 
 # Sickle Cell Disease
@@ -586,6 +595,9 @@ SCD vaso-occlusion is not just from sickled RBCs mechanically blocking vessels �
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — Free heme from intravascular hemolysis imposes severe oxidative stress in sickle-cell disease, against which NRF2 is the antioxidant defense; NRF2 activation also induces protective fetal hemoglobin.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Heme and DAMPs from sickle-cell hemolysis activate the NLRP3 inflammasome and IL-1β, driving the sterile inflammation that fuels vaso-occlusive crises.
 - `connects-to` → **[Ferroportin](../../03-molecular/ferroportin/README.md)** — Chronic transfusion and hemolysis cause iron overload in sickle-cell disease, with hepcidin-mediated degradation of ferroportin governing the macrophage iron handling behind it.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Free heme released by intravascular hemolysis acts as a TLR4 agonist signaling through MyD88 to NF-κB (both already mapped), driving the sterile inflammation that promotes vaso-occlusion in sickle-cell disease.
+- `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — Chronic activation of coagulation generates thrombin and a prothrombotic milieu (protein C already mapped) that contributes to the thrombotic complications and elevated stroke risk of sickle-cell disease.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Disruption of the angiopoietin-Tie2 axis that maintains endothelial barrier integrity promotes the endothelial activation and vascular leak underlying the vaso-occlusive injury of sickle-cell disease.
 
 [^steinberg-1999-scd-management]: Steinberg MH. Management of sickle cell disease. *N Engl J Med.* 1999;340(13):1021-1030. [doi:10.1056/NEJM199904013401307](https://doi.org/10.1056/NEJM199904013401307) · [PubMed 10099145](https://pubmed.ncbi.nlm.nih.gov/10099145/)
 [^vichinsky-2000-acs-scd]: Vichinsky EP, Neumayr LD, Earles AN, et al. Causes and outcomes of the acute chest syndrome in sickle cell disease. *N Engl J Med.* 2000;342(25):1855-1865. [doi:10.1056/NEJM200006223422502](https://doi.org/10.1056/NEJM200006223422502) · [PubMed 10861320](https://pubmed.ncbi.nlm.nih.gov/10861320/)
