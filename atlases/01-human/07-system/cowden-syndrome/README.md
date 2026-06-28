@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/mlh1
     relation: connects-to
     note: "Endometrial-cancer differential: Cowden's high endometrial-cancer risk overlaps clinically with Lynch syndrome's mismatch-repair-deficient endometrial cancer, two distinct hereditary routes to the same tumour that genetic testing must distinguish."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "AKT substrate: the unrestrained AKT of PTEN-deficient Cowden tissue phosphoinhibits GSK-3β (AKT already mapped), stabilising cyclin-D1 and feeding the Wnt/β-catenin signalling (both mapped) that fuels hamartoma overgrowth."
+  - target: 01-human/03-molecular/her2
+    relation: connects-to
+    note: "Breast-cancer input: HER2 and related receptors converge on the PI3K-AKT axis (already mapped), the receptor-level driver feeding the breast carcinomas that are a defining Cowden-syndrome cancer risk."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Proliferative output: downstream of constitutive mTOR-AKT signalling, the cyclin-D1-RB axis (cyclin-D1 and CDKN1B already mapped) releases E2F1 to drive the cell-cycle entry underlying Cowden hamartomas and tumours."
 ---
 
 # Cowden Syndrome
@@ -591,6 +600,9 @@ cross_links:
 - `connects-to` → **[STK11](../../03-molecular/stk11/README.md)** — Cowden (PTEN) sits beside Peutz-Jeghers (LKB1/STK11) and juvenile polyposis among the hamartomatous-polyposis syndromes, distinct tumor suppressors that converge on mTOR to produce overlapping GI-polyp and cancer phenotypes.
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — The gastrointestinal hamartomas of Cowden carry an elevated colorectal-cancer risk, and malignant progression engages Wnt/β-catenin signaling, the canonical driver of colorectal carcinogenesis, prompting colonoscopic surveillance.
 - `connects-to` → **[MLH1](../../03-molecular/mlh1/README.md)** — Cowden's high endometrial-cancer risk overlaps clinically with Lynch syndrome's mismatch-repair-deficient endometrial cancer, two distinct hereditary routes to the same tumor that genetic testing must distinguish.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — The unrestrained AKT of PTEN-deficient Cowden tissue phosphoinhibits GSK-3β (AKT already mapped), stabilizing cyclin-D1 and feeding the Wnt/β-catenin signaling (both mapped) that fuels hamartoma overgrowth.
+- `connects-to` → **[HER2](../../03-molecular/her2/README.md)** — HER2 and related receptors converge on the PI3K-AKT axis (already mapped), the receptor-level driver feeding the breast carcinomas that are a defining Cowden-syndrome cancer risk.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — Downstream of constitutive mTOR-AKT signaling, the cyclin-D1-RB axis (cyclin-D1 and CDKN1B already mapped) releases E2F1 to drive the cell-cycle entry underlying Cowden hamartomas and tumors.
 
 ---
 

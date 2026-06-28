@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/caspase-3
     relation: connects-to
     note: "Failed inflammation resolution: airway neutrophils in cystic fibrosis show delayed caspase-3-mediated apoptosis, so they persist and necrose rather than being cleared, perpetuating the self-amplifying inflammation that destroys the lung."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Oxidative imbalance: CFTR dysfunction impairs NRF2-driven antioxidant defence and glutathione transport, so oxidant stress goes unchecked and amplifies the airway inflammation that drives cystic-fibrosis lung damage."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Failed regulation: relative deficiency of the anti-inflammatory cytokine IL-10 in the cystic-fibrosis airway removes a brake on neutrophilic inflammation, contributing to the exaggerated, self-perpetuating immune response."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Infection-driven complement: chronic Pseudomonas colonisation in cystic fibrosis activates complement (C3) and generates immune complexes, and the resulting complement-mediated injury accelerates the progressive bronchiectasis."
 ---
 
 # Cystic Fibrosis
@@ -539,6 +548,9 @@ AND
 - `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — The dehydrated, viscous airway surface liquid of cystic fibrosis impairs mucociliary clearance and the function of secretory IgA, weakening the first-line mucosal barrier and helping the chronic Pseudomonas and Staphylococcus infections take hold.
 - `connects-to` → **[Xanthine Oxidase](../../03-molecular/xanthine-oxidase/README.md)** — The massive neutrophil infiltrate of the cystic-fibrosis airway, with xanthine-oxidase activity, generates reactive oxygen species that damage the epithelium, compounding the oxidative stress worsened by depleted antioxidant glutathione.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Airway neutrophils in cystic fibrosis show delayed caspase-3-mediated apoptosis, so they persist and necrose rather than being cleared, perpetuating the self-amplifying inflammation that destroys the lung.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — CFTR dysfunction impairs NRF2-driven antioxidant defense and glutathione transport, so oxidant stress goes unchecked and amplifies the airway inflammation that drives cystic-fibrosis lung damage.
+- `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — Relative deficiency of the anti-inflammatory cytokine IL-10 in the cystic-fibrosis airway removes a brake on neutrophilic inflammation, contributing to the exaggerated, self-perpetuating immune response.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Chronic Pseudomonas colonization in cystic fibrosis activates complement (C3) and generates immune complexes, and the resulting complement-mediated injury accelerates the progressive bronchiectasis.
 
 ---
 
