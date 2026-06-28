@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "Psammoma bodies: many meningiomas form psammoma bodies — concentric, calcified laminated structures — a characteristic histological hallmark, and the tumour's calcification can be visible on imaging."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Grade progression: the CDK4/6-cyclin-D1 axis (mapped, with CDKN2A loss marking higher grade) releases E2F1 to drive the accelerated proliferation of atypical and anaplastic meningioma."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "Anaplastic transformation: TP53 inactivation accompanies the progression of meningioma to the anaplastic grade-3 tumour, removing an apoptotic and cell-cycle brake on the malignant clone."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Stromal phenotype: TGF-β signalling shapes the fibroblastic and transitional phenotypes of meningioma and the collagenous stroma of these dura-derived tumours."
 ---
 
 # Meningioma
@@ -528,6 +537,9 @@ VEGF overexpression in meningioma (YAP target); Phase 2 COMBIT (Huang 2019, N=40
 - `connects-to` → **[Src kinase](../../03-molecular/src-kinase/README.md)** — The NF2/merlin loss that drives most meningiomas disinhibits Src/FAK at the membrane, since merlin normally restrains them—the loss of contact inhibition that lets the meningothelial cells proliferate.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNA-methylation profiling stratifies meningiomas into prognostic classes that predict recurrence better than histological grade alone, making the methylome an increasingly central tool in their classification and management.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Many meningiomas form psammoma bodies—concentric, calcified laminated structures—a characteristic histological hallmark, and the tumor's calcification can be visible on imaging.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — The CDK4/6-cyclin-D1 axis (mapped, with CDKN2A loss marking higher grade) releases E2F1 to drive the accelerated proliferation of atypical and anaplastic meningioma.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 inactivation accompanies the progression of meningioma to the anaplastic grade-3 tumor, removing an apoptotic and cell-cycle brake on the malignant clone.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β signaling shapes the fibroblastic and transitional phenotypes of meningioma and the collagenous stroma of these dura-derived tumors.
 
 [^brastianos-2013-akt1-meningioma]: Brastianos PK, Horowitz PM, Santagata S, et al. Genomic sequencing of meningiomas identifies oncogenic SMO and AKT1 mutations. *Nat Genet.* 2013;45(3):285-289. [doi:10.1038/ng.2526](https://doi.org/10.1038/ng.2526) · [PubMed 23334667](https://pubmed.ncbi.nlm.nih.gov/23334667/)
 [^nassiri-2021-meningioma-classification]: Nassiri F, Liu J, Patil V, et al. A clinically applicable integrative molecular classification of meningiomas. *Nature.* 2021;597(7874):119-125. [doi:10.1038/s41586-021-03850-3](https://doi.org/10.1038/s41586-021-03850-3) · [PubMed 34385709](https://pubmed.ncbi.nlm.nih.gov/34385709/)

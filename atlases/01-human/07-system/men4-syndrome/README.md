@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/glucagon
     relation: connects-to
     note: "Functional pancreatic NETs: MEN4 predisposes to pancreatic neuroendocrine tumours that can secrete hormones such as glucagon, gastrin or insulin, the functioning tumours whose hormonal syndromes can be the presenting feature."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "pNET growth axis: PIK3CA drives the PI3K-AKT-mTOR pathway (AKT and mTOR already mapped) in the pancreatic neuroendocrine tumours of MEN4, the basis for mTOR-inhibitor therapy."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "MAPK proliferation: growth-factor-driven RAS-MAPK-ERK signalling promotes proliferation of the parathyroid, pituitary and pancreatic tumours of MEN4, complementing the loss of p27-mediated cell-cycle restraint."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Neuroendocrine signalling: NOTCH signalling shapes the differentiation and growth of neuroendocrine tumours, a pathway dysregulated in the pancreatic and pituitary tumours of MEN4."
 ---
 
 # MEN4 Syndrome
@@ -523,6 +532,9 @@ When clinical MEN features are present:
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Like MEN1, MEN4 most often presents with parathyroid tumors causing hypercalcemia from excess PTH, the commonest and usually earliest manifestation that prompts the genetic testing distinguishing it from MEN1.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β signaling normally induces the CDK inhibitor p27 (CDKN1B) to arrest the cell cycle, so the CDKN1B loss that causes MEN4 disables this growth-suppressive output, releasing endocrine cells to proliferate.
 - `connects-to` → **[Glucagon](../../03-molecular/glucagon/README.md)** — MEN4 predisposes to pancreatic neuroendocrine tumors that can secrete hormones such as glucagon, gastrin or insulin, the functioning tumors whose hormonal syndromes can be the presenting feature.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PIK3CA drives the PI3K-AKT-mTOR pathway (AKT and mTOR already mapped) in the pancreatic neuroendocrine tumors of MEN4, the basis for mTOR-inhibitor therapy.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Growth-factor-driven RAS-MAPK-ERK signaling promotes proliferation of the parathyroid, pituitary and pancreatic tumors of MEN4, complementing the loss of p27-mediated cell-cycle restraint.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH signaling shapes the differentiation and growth of neuroendocrine tumors, a pathway dysregulated in the pancreatic and pituitary tumors of MEN4.
 
 [^alrezk-2017-men4]: Alrezk R, Hannah-Shmouni F, Stratakis CA. MEN4 and CDKN1B mutations: the latest of the MEN syndromes. *Endocr Relat Cancer.* 2017;24(10):T195-T208. [doi:10.1530/ERC-17-0243](https://doi.org/10.1530/ERC-17-0243) · [PubMed 28894007](https://pubmed.ncbi.nlm.nih.gov/28894007/)
 [^pellegata-2006-cdkn1b-men4]: Pellegata NS, Quintanilla-Martinez L, Siggelkow H, et al. Germ-line mutations in p27Kip1 cause a multiple endocrine neoplasia syndrome in rats and humans. *Proc Natl Acad Sci USA.* 2006;103(42):15558-15563. [doi:10.1073/pnas.0603306103](https://doi.org/10.1073/pnas.0603306103) · [PubMed 17030811](https://pubmed.ncbi.nlm.nih.gov/17030811/)
