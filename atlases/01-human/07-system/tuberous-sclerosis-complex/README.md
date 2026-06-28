@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Hamartoma macrophages: CCL2 recruits macrophages into TSC hamartomas and lymphangioleiomyomatosis, the inflammatory and lymphangiogenic component of the smooth-muscle lesions that destroy the lung in LAM."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "TSC2 regulation: GSK-3β phosphorylates TSC2 to modulate the TSC complex's restraint of mTORC1 (mTOR mapped), integrating Wnt and AKT inputs into the pathway whose loss drives tuberous sclerosis."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Proliferative output: constitutive mTORC1 activity feeds cyclin-D1 (mapped) and the release of E2F1, driving the cell-cycle entry of the hamartoma cells of tuberous sclerosis."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Metabolic reprogramming: hyperactive mTORC1 drives NRF2-mediated antioxidant and anabolic metabolism in TSC lesions, supporting the growth of their hamartomatous cells."
 ---
 
 # Tuberous Sclerosis Complex
@@ -551,6 +560,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN restrains the PI3K-AKT signaling that lies upstream of mTORC1, the same node hyperactivated by TSC1/TSC2 loss, so the two tumor-suppressor systems converge on the mTOR pathway central to tuberous sclerosis.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH signaling is dysregulated downstream of mTOR hyperactivation in TSC-associated lesions such as subependymal giant cell astrocytomas, contributing to their growth.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 recruits macrophages into TSC hamartomas and lymphangioleiomyomatosis, the inflammatory and lymphangiogenic component of the smooth-muscle lesions that destroy the lung in LAM.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β phosphorylates TSC2 to modulate the TSC complex's restraint of mTORC1 (mTOR mapped), integrating Wnt and AKT inputs into the pathway whose loss drives tuberous sclerosis.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — Constitutive mTORC1 activity feeds cyclin-D1 (mapped) and the release of E2F1, driving the cell-cycle entry of the hamartoma cells of tuberous sclerosis.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — Hyperactive mTORC1 drives NRF2-mediated antioxidant and anabolic metabolism in TSC lesions, supporting the growth of their hamartomatous cells.
 
 ---
 

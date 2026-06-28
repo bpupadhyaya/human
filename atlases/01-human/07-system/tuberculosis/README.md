@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/il-23
     relation: connects-to
     note: "Th17 maintenance: IL-23 sustains the Th17 cells whose IL-17A (already mapped) recruits neutrophils and helps organise the protective granuloma in tuberculosis."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Innate sensing: TLR2/TLR4 recognition of Mtb lipoproteins (TLR4 mapped) signals through MyD88 to activate NF-κB (mapped) and the macrophage antimycobacterial response in tuberculosis."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Autophagy brake: mTOR suppresses the autophagy (mapped) that delivers Mtb to lysosomes, so mTOR inhibition enhances xenophagic clearance — a host-directed-therapy strategy in tuberculosis."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Apoptosis vs necrosis: the fate of the infected macrophage is decisive in TB — caspase-3-mediated apoptosis contains Mtb, whereas necrosis releases it, the balance the bacterium manipulates to spread."
 ---
 
 # Tuberculosis
@@ -545,6 +554,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β within the tuberculous granuloma promotes the fibrotic walling-off of the lesion while suppressing protective Th1 immunity, a host-pathogen balance Mtb exploits for persistence.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 is an early macrophage cytokine in M. tuberculosis infection that shapes the Th17/Th1 balance and drives the acute-phase response and wasting of active tuberculosis.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — IL-23 sustains the Th17 cells whose IL-17A (already mapped) recruits neutrophils and helps organise the protective granuloma in tuberculosis.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR2/TLR4 recognition of Mtb lipoproteins (TLR4 mapped) signals through MyD88 to activate NF-κB (mapped) and the macrophage antimycobacterial response in tuberculosis.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR suppresses the autophagy (mapped) that delivers Mtb to lysosomes, so mTOR inhibition enhances xenophagic clearance—a host-directed-therapy strategy in tuberculosis.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — The fate of the infected macrophage is decisive in TB—caspase-3-mediated apoptosis contains Mtb, whereas necrosis releases it, the balance the bacterium manipulates to spread.
 
 ## See Also
 
