@@ -318,6 +318,15 @@ cross_links:
   - target: 01-human/03-molecular/nlrp3-inflammasome
     relation: connects-to
     note: "Inflammatory liver injury: HCV activates the hepatic NLRP3 inflammasome and IL-1β, driving the chronic inflammatory injury that progresses to fibrosis and cirrhosis."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Survival and HCC: HCV NS5A and core proteins activate PI3K-AKT-mTOR signalling, promoting hepatocyte survival and contributing to the hepatocellular carcinoma that can follow chronic hepatitis C even after viral cure."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Inflammatory signalling: HCV core protein activates NF-κB, driving the chronic inflammatory and pro-survival signalling that promotes fibrosis and carcinogenesis in the infected liver."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Oxidative stress: HCV induces marked hepatocyte oxidative stress and dysregulates NRF2 antioxidant signalling, contributing to liver injury, steatosis and transformation."
 ---
 
 # Hepatitis C
@@ -544,3 +553,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — HCV-driven hepatic IL-6 sustains the acute-phase and inflammatory response of chronic hepatitis C and, via the STAT3 already mapped, promotes the fibrogenesis and hepatocellular-carcinoma development of the disease.
 - `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — HCV induces regulatory IL-10 that dampens antiviral T-cell responses, contributing to the immune tolerance behind the high rate of chronic infection.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — HCV activates the hepatic NLRP3 inflammasome and IL-1β, driving the chronic inflammatory injury that progresses to fibrosis and cirrhosis.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — HCV NS5A and core proteins activate PI3K-AKT-mTOR signaling, promoting hepatocyte survival and contributing to the hepatocellular carcinoma that can follow chronic hepatitis C even after viral cure.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — HCV core protein activates NF-κB, driving the chronic inflammatory and pro-survival signaling that promotes fibrosis and carcinogenesis in the infected liver.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — HCV induces marked hepatocyte oxidative stress and dysregulates NRF2 antioxidant signaling, contributing to liver injury, steatosis and transformation.

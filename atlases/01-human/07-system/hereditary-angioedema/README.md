@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/tnf-alpha
     relation: connects-to
     note: "Permeability cytokine: TNF-α released during the endothelial activation of HAE attacks further loosens inter-endothelial junctions, compounding the bradykinin-driven vascular leak that produces the angioedema."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "Shared permeability peptide: like bradykinin (mapped), substance P is a vascular-permeability neuropeptide degraded by ACE, and the overlap explains why ACE inhibitors precipitate bradykinin-mediated angioedema."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "Vasodilatory peptide: CGRP is a potent vasodilator and permeability mediator that contributes to the tissue swelling of an angioedema attack alongside bradykinin."
+  - target: 01-human/03-molecular/protein-c
+    relation: connects-to
+    note: "Contact-coagulation crosstalk: C1-esterase inhibitor (mapped) also restrains the intrinsic coagulation cascade (FXIIa, FXIa), so its deficiency in HAE perturbs the coagulation balance that the protein-C anticoagulant system normally maintains."
 ---
 
 # Hereditary Angioedema
@@ -558,6 +567,9 @@ Fluid extravasation → ANGIOEDEMA
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Bradykinin signaling through the B2 receptor activates endothelial NF-κB, amplifying the vascular inflammation and permeability that drive the swelling of a hereditary-angioedema attack.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — HAE attacks are accompanied by a systemic acute-phase response with rising IL-6, reflecting the contact-system activation and endothelial inflammation that accompany the bradykinin-driven swelling.
 - `connects-to` → **[TNF-α (Tumor Necrosis Factor-alpha)](../../03-molecular/tnf-alpha/README.md)** — TNF-α released during the endothelial activation of HAE attacks further loosens inter-endothelial junctions, compounding the bradykinin-driven vascular leak that produces the angioedema.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — Like bradykinin (mapped), substance P is a vascular-permeability neuropeptide degraded by ACE, and the overlap explains why ACE inhibitors precipitate bradykinin-mediated angioedema.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — CGRP is a potent vasodilator and permeability mediator that contributes to the tissue swelling of an angioedema attack alongside bradykinin.
+- `connects-to` → **[Protein C](../../03-molecular/protein-c/README.md)** — C1-esterase inhibitor (mapped) also restrains the intrinsic coagulation cascade (FXIIa, FXIa), so its deficiency in HAE perturbs the coagulation balance that the protein-C anticoagulant system normally maintains.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)
