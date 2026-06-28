@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/acetylcholine
     relation: connects-to
     note: "Lambert-Eaton syndrome: SCLC is the classic trigger of Lambert-Eaton myasthenic syndrome, where antibodies against presynaptic P/Q-type calcium channels reduce acetylcholine release at the neuromuscular junction, causing the paraneoplastic proximal weakness."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Unrestrained proliferation: near-universal RB1 loss in SCLC (RB1 already mapped) releases E2F1-driven transcription, the engine of unchecked cell-cycle entry behind the explosive growth of this neuroendocrine carcinoma."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Chemo-response then resistance: SCLC is strikingly chemosensitive at first, undergoing caspase-3-mediated apoptosis to etoposide-platinum, but rapidly evolves apoptotic resistance that drives its near-universal relapse."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K survival axis: PI3K-AKT-mTOR signalling (AKT already mapped) is recurrently activated in SCLC and supports growth and survival, a targetable dependency beyond the defining RB1/TP53 loss."
 ---
 
 # Small Cell Lung Cancer
@@ -509,6 +518,9 @@ SCLC has highest rate of brain metastases among solid tumors (~50% at 2 years); 
 - `connects-to` → **[RAD51](../../03-molecular/rad51/README.md)** — The genomic instability of RB1/TP53-null SCLC leaves it reliant on homologous-recombination and replication-stress repair, the basis for the high PARP expression that makes SCLC a leading candidate for PARP inhibition.
 - `connects-to` → **[SSTR2](../../03-molecular/sstr2/README.md)** — As a high-grade neuroendocrine tumor SCLC can express somatostatin receptor SSTR2, the target for DOTATATE imaging and a rationale for peptide-receptor radionuclide approaches in the neuroendocrine fraction of these tumors.
 - `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — SCLC is the classic trigger of Lambert-Eaton myasthenic syndrome, where antibodies against presynaptic P/Q-type calcium channels reduce acetylcholine release at the neuromuscular junction, causing the paraneoplastic proximal weakness.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — Near-universal RB1 loss in SCLC (RB1 already mapped) releases E2F1-driven transcription, the engine of unchecked cell-cycle entry behind the explosive growth of this neuroendocrine carcinoma.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — SCLC is strikingly chemosensitive at first, undergoing caspase-3-mediated apoptosis to etoposide-platinum, but rapidly evolves apoptotic resistance that drives its near-universal relapse.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K-AKT-mTOR signaling (AKT already mapped) is recurrently activated in SCLC and supports growth and survival, a targetable dependency beyond the defining RB1/TP53 loss.
 
 [^horn-2018-impower133]: Horn L, Mansfield AS, Szczęsna A, et al. First-line atezolizumab plus chemotherapy in extensive-stage small-cell lung cancer. *N Engl J Med.* 2018;379(23):2220-2229. [doi:10.1056/NEJMoa1809064](https://doi.org/10.1056/NEJMoa1809064) · [PubMed 30280641](https://pubmed.ncbi.nlm.nih.gov/30280641/)
 [^paz-ares-2019-caspian]: Paz-Ares L, Dvorkin M, Chen Y, et al. Durvalumab plus platinum-etoposide versus platinum-etoposide in first-line treatment of extensive-stage small-cell lung cancer (CASPIAN). *Lancet.* 2019;394(10212):1929-1939. [doi:10.1016/S0140-6736(19)32222-6](https://doi.org/10.1016/S0140-6736(19)32222-6) · [PubMed 31590988](https://pubmed.ncbi.nlm.nih.gov/31590988/)

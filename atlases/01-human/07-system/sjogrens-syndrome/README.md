@@ -310,6 +310,15 @@ cross_links:
   - target: 01-human/03-molecular/il-33
     relation: connects-to
     note: "Epithelial alarmin: IL-33 released from stressed salivary-gland epithelium is elevated in Sjögren's, acting as an alarmin that amplifies the innate and type-2 inflammation injuring the secretory tissue."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Glandular destruction: caspase-3-mediated apoptosis of salivary- and lacrimal-gland epithelial cells contributes to the loss of secretory tissue that produces the dry mouth and eyes of Sjögren's syndrome."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 amplification: IL-12-driven Th1 and IFN-γ polarisation reinforces the interferon signature already mapped here, sustaining the lymphocytic infiltration of the exocrine glands in Sjögren's."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Vasculitis and lymphoma risk: complement activation (with the C3 already mapped) drives the cryoglobulinaemic vasculitis of Sjögren's, and complement consumption marks the patients at highest risk of B-cell lymphoma."
 ---
 
 # Sjögren's Syndrome
@@ -537,6 +546,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12 helps organize the tertiary lymphoid structures with germinal centers that form within Sjögren's salivary glands, the ectopic B-cell follicles that drive local autoantibody production and mark lymphoma-prone disease.
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Chronic BAFF-driven B-cell survival via anti-apoptotic BCL-2 underlies Sjögren's uniquely high risk of MALT lymphoma, the transformation of persistently stimulated glandular B-cell clones into malignancy.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 released from stressed salivary-gland epithelium is elevated in Sjögren's, acting as an alarmin that amplifies the innate and type-2 inflammation injuring the secretory tissue.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Caspase-3-mediated apoptosis of salivary- and lacrimal-gland epithelial cells contributes to the loss of secretory tissue that produces the dry mouth and eyes of Sjögren's syndrome.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — IL-12-driven Th1 and IFN-γ polarization reinforces the interferon signature already mapped here, sustaining the lymphocytic infiltration of the exocrine glands in Sjögren's.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Complement activation (with the C3 already mapped) drives the cryoglobulinemic vasculitis of Sjögren's, and complement consumption marks the patients at highest risk of B-cell lymphoma.
 
 ---
 
