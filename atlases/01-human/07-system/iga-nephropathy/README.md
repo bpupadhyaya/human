@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/galectin-3
     relation: connects-to
     note: "Fibrosis driver: galectin-3 released by infiltrating macrophages promotes the renal interstitial fibrosis of progressive IgA nephropathy, a profibrotic lectin that helps convert the immune injury into irreversible scarring."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "Complement amplification: C5a acting through C5aR1 (complement C5, C3 and factor-H already mapped) amplifies the glomerular inflammation of IgA nephropathy, a target of the emerging complement-directed therapies for the disease."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Mucosal balance: regulatory IL-10 modulates the mucosal IgA response, and its balance against the Th17/IL-23 axis (mapped) shapes production of the galactose-deficient IgA1 that initiates IgA nephropathy."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Inflammasome injury: NLRP3 inflammasome activation (mapped) generates IL-1β that drives the glomerular and tubulointerstitial inflammation of progressive IgA nephropathy."
 ---
 
 # IgA Nephropathy
@@ -495,6 +504,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[Glucocorticoid receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — The targeted-release budesonide Nefecon acts through the glucocorticoid receptor on the gut-associated lymphoid tissue of the distal ileum, reducing production of the galactose-deficient IgA1 at its mucosal source—a first targeted IgA-nephropathy therapy.
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Chronic mesangial immune-complex deposition drives matrix expansion and collagen deposition, the glomerulosclerosis and tubulointerstitial fibrosis that progress to the end-stage kidney failure of advanced IgA nephropathy.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 released by infiltrating macrophages promotes the renal interstitial fibrosis of progressive IgA nephropathy, a profibrotic lectin that helps convert the immune injury into irreversible scarring.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a acting through C5aR1 (complement C5, C3 and factor-H already mapped) amplifies the glomerular inflammation of IgA nephropathy, a target of the emerging complement-directed therapies for the disease.
+- `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — Regulatory IL-10 modulates the mucosal IgA response, and its balance against the Th17/IL-23 axis (mapped) shapes production of the galactose-deficient IgA1 that initiates IgA nephropathy.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — NLRP3 inflammasome activation (mapped) generates IL-1β that drives the glomerular and tubulointerstitial inflammation of progressive IgA nephropathy.
 
 ---
 

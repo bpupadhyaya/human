@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/07-system/measles
     relation: connects-to
     note: "Measles immune amnesia (Mina 2019): MV SLAM/CD150 tropism infects SLAM-high memory B cells → erases 20-70% of pre-existing antibody diversity; naive B cells cannot reconstitute pathogen-specific memory → 2-3 years re-susceptibility to other infections post-measles."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Cell-mediated immunity: IFN-γ is the signature cytokine of Th1 and cytotoxic responses, activating macrophages and orchestrating the cell-mediated arm of the immune system against intracellular pathogens."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Antiviral innate arm: the type-I interferons are the rapid innate antiviral response, inducing an antiviral state in infected and neighbouring cells and bridging to the adaptive immune system."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Tolerance and checkpoint: the inhibitory receptor PD-1 enforces peripheral tolerance and limits immunopathology, the brake on T-cell responses that checkpoint-blockade immunotherapy releases against cancer."
 ---
 
 # Immune System
@@ -445,6 +454,9 @@ After primary response contraction, long-lived memory cells persist:
 - `damaged-by` → **[Herpesviridae](../../../02-pathogen/01-viruses/herpesvirus/README.md)** — all nine human herpesviruses encode dedicated immune evasion genes: HSV ICP47/CMV US6 block MHC-I via TAP inhibition; CMV UL16-21 downregulate NKG2D ligands; all subfamilies antagonize IFN signaling; latency renders infected cells invisible to CTLs indefinitely.
 - `connects-to` → **[MV-H Protein](../../03-molecular/mv-h-protein/README.md)** — MV-H SLAM/CD150 tropism infects CD150+ T cells, B cells, and DCs → loss of pre-existing pathogen-specific memory (measles immune amnesia, 2–3 years); MMR vaccination prevents this memory deletion and the consequent elevated all-cause child mortality risk.
 - `connects-to` → **[Measles](../../07-system/measles/README.md)** — Measles immune amnesia (Mina 2019): MV SLAM/CD150 tropism infects memory B cells → erases 20-70% of pre-existing antibody diversity; naive B cells cannot reconstitute pathogen-specific memory → 2-3 years re-susceptibility to other infections post-measles.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — IFN-γ is the signature cytokine of Th1 and cytotoxic responses, activating macrophages and orchestrating the cell-mediated arm of the immune system against intracellular pathogens.
+- `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — The type-I interferons are the rapid innate antiviral response, inducing an antiviral state in infected and neighboring cells and bridging to the adaptive immune system.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — The inhibitory receptor PD-1 enforces peripheral tolerance and limits immunopathology, the brake on T-cell responses that checkpoint-blockade immunotherapy releases against cancer.
 
 ## Pathology
 
