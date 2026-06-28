@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/src-kinase
     relation: connects-to
     note: "Merlin-pathway signalling: schwannomatosis tumours frequently carry a second-hit NF2/merlin loss, and because merlin normally restrains Src/FAK at the membrane, Src disinhibition drives the loss of contact inhibition that lets schwannoma cells proliferate."
+  - target: 01-human/03-molecular/egfr
+    relation: connects-to
+    note: "ErbB disinhibition: merlin normally holds EGFR/ErbB receptors inactive at cell contacts, so the merlin-pathway loss of schwannomatosis releases EGFR-driven proliferative signalling in Schwann cells."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K survival axis: downstream of merlin loss, PI3K-AKT-mTOR signalling (AKT and mTOR already mapped) is activated in schwannomas, a proliferative survival pathway and candidate target for these otherwise drug-resistant tumours."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Pain mediator: the chronic neuropathic pain that dominates schwannomatosis involves inflammatory cytokines including IL-6 sensitising sensory neurons, acting alongside the substance-P and CGRP already mapped."
 ---
 
 # Schwannomatosis
@@ -501,6 +510,9 @@ Both NF2 (22q12.2), SMARCB1 (22q11.23), and LZTR1 (22q11.21) are on chromosome 2
 - `connects-to` → **[KIT](../../03-molecular/kit/README.md)** — Like other nerve-sheath tumors, schwannomatosis schwannomas contain KIT-dependent mast cells whose stem-cell-factor signaling contributes to the inflammatory microenvironment that supports tumor growth and nociceptor sensitization.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling supports the growth and survival of the multiple schwannomas of schwannomatosis, anchoring the Schwann tumor cells within their peripheral-nerve microenvironment.
 - `connects-to` → **[Src kinase](../../03-molecular/src-kinase/README.md)** — Schwannomatosis tumors frequently carry a second-hit NF2/merlin loss, and because merlin normally restrains Src/FAK at the membrane, Src disinhibition drives the loss of contact inhibition that lets schwannoma cells proliferate.
+- `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — Merlin normally holds EGFR/ErbB receptors inactive at cell contacts, so the merlin-pathway loss of schwannomatosis releases EGFR-driven proliferative signaling in Schwann cells.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Downstream of merlin loss, PI3K-AKT-mTOR signaling (AKT and mTOR already mapped) is activated in schwannomas, a proliferative survival pathway and candidate target for these otherwise drug-resistant tumors.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — The chronic neuropathic pain that dominates schwannomatosis involves inflammatory cytokines including IL-6 sensitizing sensory neurons, acting alongside the substance-P and CGRP already mapped.
 
 [^merker-2012-schwannomatosis]: Merker VL, Esparza S, Smith MJ, Stemmer-Rachamimov A, Plotkin SR. Clinical features of schwannomatosis: a retrospective analysis of 87 patients. *Oncologist.* 2012;17(10):1317-1322. [doi:10.1634/theoncologist.2012-0162](https://doi.org/10.1634/theoncologist.2012-0162) · [PubMed 22927469](https://pubmed.ncbi.nlm.nih.gov/22927469/)
 [^piotrowski-2014-lztr1]: Piotrowski A, Xie J, Liu YF, et al. Germline loss-of-function mutations in LZTR1 predispose to an inherited disorder of multiple schwannomas. *Nat Genet.* 2014;46(2):182-187. [doi:10.1038/ng.2855](https://doi.org/10.1038/ng.2855) · [PubMed 24362817](https://pubmed.ncbi.nlm.nih.gov/24362817/)

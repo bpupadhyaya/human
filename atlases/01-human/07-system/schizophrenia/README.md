@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/calcineurin
     relation: connects-to
     note: "Synaptic-signalling risk gene: the calcineurin subunit gene PPP3CC is associated with schizophrenia, and calcineurin-knockout mice show schizophrenia-like deficits — implicating this NMDA-coupled phosphatase in the synaptic dysfunction of psychosis."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "AKT-GSK3β axis: AKT1 is a schizophrenia-susceptibility gene, and dopamine-D2-receptor signalling through the AKT-GSK3β pathway (GSK3β already mapped) is a core node at which antipsychotics and lithium act on the disorder."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Neurodevelopmental synapse: mTOR signalling regulates the activity-dependent protein synthesis and dendritic-spine maturation that are disrupted in schizophrenia, tying its neurodevelopmental origins to synaptic dysfunction."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "Metabolic comorbidity: antipsychotics cause weight gain and the metabolic syndrome already mapped here (obesity, type-2 diabetes, metformin), and GLP-1 receptor agonists are increasingly used to counter this iatrogenic metabolic burden."
 ---
 
 # Schizophrenia
@@ -575,6 +584,9 @@ Notably, schizophrenia shares genetic loci with bipolar disorder, ASD, ADHD, maj
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — The MHC region on chromosome 6 holds schizophrenia's largest genetic signal, driven largely by complement C4 alleles that increase synaptic pruning—tying the immune-gene locus to the loss of cortical synapses seen in the disease.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — The adenosine hypothesis holds that deficient adenosine signaling disinhibits dopamine and glutamate transmission, and adenosine A2A receptors that heteromerize with dopamine D2 receptors are an emerging antipsychotic target.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — The calcineurin subunit gene PPP3CC is associated with schizophrenia, and calcineurin-knockout mice show schizophrenia-like deficits—implicating this NMDA-coupled phosphatase in the synaptic dysfunction of psychosis.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — AKT1 is a schizophrenia-susceptibility gene, and dopamine-D2-receptor signaling through the AKT-GSK3β pathway (GSK3β already mapped) is a core node at which antipsychotics and lithium act on the disorder.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR signaling regulates the activity-dependent protein synthesis and dendritic-spine maturation that are disrupted in schizophrenia, tying its neurodevelopmental origins to synaptic dysfunction.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Antipsychotics cause weight gain and the metabolic syndrome already mapped here (obesity, type-2 diabetes, metformin), and GLP-1 receptor agonists are increasingly used to counter this iatrogenic metabolic burden.
 
 [^howes-2009-dopamine-hypothesis]: Howes OD, Kapur S. The dopamine hypothesis of schizophrenia: version III—the final common pathway. *Schizophr Bull.* 2009;35(3):549-562. [doi:10.1093/schbul/sbp006](https://doi.org/10.1093/schbul/sbp006) · [PubMed 19325164](https://pubmed.ncbi.nlm.nih.gov/19325164/)
 [^moghaddam-2012-glutamate]: Moghaddam B, Javitt D. From revolution to evolution: the glutamate hypothesis of schizophrenia and its implication for treatment. *Neuropsychopharmacology.* 2012;37(1):4-15. [doi:10.1038/npp.2011.181](https://doi.org/10.1038/npp.2011.181) · [PubMed 21956446](https://pubmed.ncbi.nlm.nih.gov/21956446/)
