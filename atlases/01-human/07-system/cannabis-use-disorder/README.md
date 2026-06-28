@@ -294,6 +294,15 @@ cross_links:
   - target: 01-human/03-molecular/growth-hormone
     relation: connects-to
     note: "Somatotropic suppression: THC acutely blunts growth-hormone secretion, and chronic cannabis use perturbs the somatotropic and reproductive neuroendocrine axes, a concern for the adolescent brain and body still undergoing maturation."
+  - target: 01-human/03-molecular/glucocorticoid-receptor
+    relation: connects-to
+    note: "Stress-relapse axis: cannabis withdrawal and stress-induced craving engage glucocorticoid-receptor signalling (cortisol and CRH already mapped), coupling HPA-axis dysregulation to the relapse risk of cannabis use disorder."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "Reward learning: THC acting on the CB1 receptor stimulates ERK signalling in striatal reward circuitry, driving the synaptic plasticity that underlies cannabis reward learning and the development of dependence."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Memory impairment: CB1-receptor activation engages mTOR-dependent protein synthesis, the pathway through which chronic THC produces the working-memory deficits and synaptic adaptations of heavy cannabis use."
 sources:
   - id: hasin-2015-cannabis-disorder
     type: peer-reviewed
@@ -541,6 +550,9 @@ Paradoxical syndrome in heavy long-term users: cyclic vomiting relieved by hot b
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Cannabinoids acting on CB2 receptors on immune cells suppress pro-inflammatory cytokines and skew responses toward IL-10 and Th2, the immunological arm of cannabis pharmacology that can blunt host defense in heavy users.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Cannabis perturbs vascular nitric-oxide and endothelial function, contributing to the vasospasm, cannabis arteritis and raised risk of myocardial infarction and stroke associated with heavy use.
 - `connects-to` → **[Growth hormone](../../03-molecular/growth-hormone/README.md)** — THC acutely blunts growth-hormone secretion, and chronic cannabis use perturbs the somatotropic and reproductive neuroendocrine axes, a concern for the adolescent brain and body still undergoing maturation.
+- `connects-to` → **[Glucocorticoid Receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Cannabis withdrawal and stress-induced craving engage glucocorticoid-receptor signaling (cortisol and CRH already mapped), coupling HPA-axis dysregulation to the relapse risk of cannabis use disorder.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — THC acting on the CB1 receptor stimulates ERK signaling in striatal reward circuitry, driving the synaptic plasticity that underlies cannabis reward learning and the development of dependence.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — CB1-receptor activation engages mTOR-dependent protein synthesis, the pathway through which chronic THC produces the working-memory deficits and synaptic adaptations of heavy cannabis use.
 
 [^hasin-2015-cannabis-disorder]: Hasin DS, Saha TD, Kerridge BT, et al. Prevalence of marijuana use disorders in the United States between 2001-2002 and 2012-2013. *JAMA Psychiatry.* 2015;72(12):1235-1242. [doi:10.1001/jamapsychiatry.2015.1858](https://doi.org/10.1001/jamapsychiatry.2015.1858) · [PubMed 26502112](https://pubmed.ncbi.nlm.nih.gov/26502112/)
 [^budney-2004-cannabis-withdrawal]: Budney AJ, Moore BA, Vandrey RG, Hughes JR. The time course and significance of cannabis withdrawal. *J Abnorm Psychol.* 2003;112(3):393-402. [doi:10.1037/0021-843X.112.3.393](https://doi.org/10.1037/0021-843X.112.3.393) · [PubMed 12943018](https://pubmed.ncbi.nlm.nih.gov/12943018/)

@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Myeloid microenvironment: CCL2 recruits tumour-associated macrophages into colorectal cancer, building the immunosuppressive myeloid niche that helps explain why the microsatellite-stable majority resist immunotherapy."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "PI3K resistance: PTEN loss activates the PI3K-AKT axis (PIK3CA and AKT already mapped) in colorectal cancer and is associated with resistance to anti-EGFR antibodies in KRAS-wild-type tumours."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Stem-cell maintenance: NOTCH signalling cooperates with Wnt in the intestinal crypt stem-cell compartment, and its dysregulation sustains the cancer-stem-cell population driving colorectal tumour growth and relapse."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Chemotherapy apoptosis: 5-fluorouracil and oxaliplatin kill colorectal cancer cells through caspase-3-mediated apoptosis, and defects in this death programme underlie the chemoresistance that limits cure in metastatic disease."
 ---
 
 # Colorectal Cancer
@@ -527,6 +536,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[MSH2](../../03-molecular/msh2/README.md)** — Germline MSH2 mutations, alongside MLH1, cause Lynch syndrome and the microsatellite-instable colorectal cancers, the mismatch-repair defect that both drives hereditary risk and predicts response to checkpoint blockade.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Mismatch-repair-deficient colorectal cancers accumulate mutations and cytosolic DNA that engage cGAS-STING, the innate-immune basis for the striking sensitivity of MSI-high tumors to PD-1 blockade, unlike the immune-cold MSS majority.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 recruits tumor-associated macrophages into colorectal cancer, building the immunosuppressive myeloid niche that helps explain why the microsatellite-stable majority resist immunotherapy.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss activates the PI3K-AKT axis (PIK3CA and AKT already mapped) in colorectal cancer and is associated with resistance to anti-EGFR antibodies in KRAS-wild-type tumors.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH signaling cooperates with Wnt in the intestinal crypt stem-cell compartment, and its dysregulation sustains the cancer-stem-cell population driving colorectal tumor growth and relapse.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — 5-fluorouracil and oxaliplatin kill colorectal cancer cells through caspase-3-mediated apoptosis, and defects in this death program underlie the chemoresistance that limits cure in metastatic disease.
 
 ---
 
