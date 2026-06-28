@@ -315,6 +315,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Urate retention: failing renal clearance raises serum urate, and xanthine-oxidase-generated uric acid contributes both to the gout common in CKD and, debated, to progression itself, the rationale behind urate-lowering trials in kidney disease."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Fibrogenic reactivation: sustained reactivation of Wnt/β-catenin signalling drives the myofibroblast activation and tubulointerstitial fibrosis that is the final common pathway of progressive chronic kidney disease."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD fibrosis: TGF-β signals through the SMAD pathway (SMAD4) to drive the renal fibrosis (TGF-β already mapped) that scars glomeruli and interstitium and destroys nephrons in CKD."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Inflammatory progression: NLRP3-inflammasome activation and IL-1β in the injured kidney sustain the chronic inflammation that accelerates fibrosis and nephron loss in chronic kidney disease."
 ---
 
 # Chronic Kidney Disease
@@ -490,6 +499,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Failing kidneys lose phosphate and calcium control, and the resulting hyperphosphatemia and secondary hyperparathyroidism drive both renal bone disease and the vascular calcification that worsens CKD cardiovascular mortality.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — GLP-1 receptor agonists reduce albuminuria and slow eGFR decline in diabetic chronic kidney disease, adding a metabolic-pathway renoprotective therapy alongside RAAS blockade and SGLT2 inhibition.
 - `connects-to` → **[Xanthine Oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Failing renal clearance raises serum urate, and xanthine-oxidase-generated uric acid contributes both to the gout common in CKD and, debated, to progression itself, the rationale behind urate-lowering trials in kidney disease.
+- `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Sustained reactivation of Wnt/β-catenin signaling drives the myofibroblast activation and tubulointerstitial fibrosis that is the final common pathway of progressive chronic kidney disease.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β signals through the SMAD pathway (SMAD4) to drive the renal fibrosis (TGF-β already mapped) that scars glomeruli and interstitium and destroys nephrons in CKD.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — NLRP3-inflammasome activation and IL-1β in the injured kidney sustain the chronic inflammation that accelerates fibrosis and nephron loss in chronic kidney disease.
 
 ## Pathology
 

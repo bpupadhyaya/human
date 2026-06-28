@@ -321,6 +321,15 @@ cross_links:
   - target: 01-human/03-molecular/renin
     relation: connects-to
     note: "Blood-pressure control: renin from the kidney initiates the renin-angiotensin-aldosterone cascade that sets vascular tone and blood volume, the master endocrine controller of cardiovascular pressure and the target of ACE inhibitors and ARBs."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Cardiovascular morphogenesis: NOTCH signalling governs cardiac chamber, valve and coronary-vessel development and sets arterial-venous endothelial identity, a master developmental pathway of the cardiovascular system."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Wall homeostasis and fibrosis: TGF-β controls vascular smooth-muscle and extracellular-matrix homeostasis of the arterial wall (its dysregulation causing the aortic disease of Marfan, already mapped) and drives the cardiac fibrosis of remodelling."
+  - target: 01-human/03-molecular/calcineurin
+    relation: connects-to
+    note: "Hypertrophic growth: the calcineurin-NFAT pathway transduces calcium signals into the hypertrophic growth programme of cardiomyocytes, central to the heart's maladaptive response to pressure and volume overload."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"
@@ -504,6 +513,9 @@ Each major vascular bed has **autoregulation** — a local mechanism that holds 
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium influx triggers calcium-induced calcium release to drive each heartbeat, and calcium controls vascular smooth-muscle tone—the ion central to both cardiac contraction and the regulation of blood-vessel diameter and pressure.
 - `connects-to` → **[von Willebrand Factor](../../03-molecular/von-willebrand-factor/README.md)** — Von Willebrand factor stored in and released from the vascular endothelium captures platelets at sites of injury, the first step of hemostasis and, when the endothelium is diseased, of arterial thrombosis.
 - `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — Renin from the kidney initiates the renin-angiotensin-aldosterone cascade that sets vascular tone and blood volume, the master endocrine controller of cardiovascular pressure and the target of ACE inhibitors and ARBs.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH signaling governs cardiac chamber, valve and coronary-vessel development and sets arterial-venous endothelial identity, a master developmental pathway of the cardiovascular system.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β controls vascular smooth-muscle and extracellular-matrix homeostasis of the arterial wall (its dysregulation causing the aortic disease of Marfan, already mapped) and drives the cardiac fibrosis of remodeling.
+- `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — The calcineurin-NFAT pathway transduces calcium signals into the hypertrophic growth program of cardiomyocytes, central to the heart's maladaptive response to pressure and volume overload.
 
 ## Pathology
 
