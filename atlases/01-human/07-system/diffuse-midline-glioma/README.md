@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/dnmt3a
     relation: connects-to
     note: "Epigenome reprogramming: the H3K27M mutation globally reshapes the epigenome, redistributing DNA methylation alongside the loss of PRC2-mediated H3K27 trimethylation, the epigenetic catastrophe at the root of diffuse midline glioma."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "PI3K activation: PTEN loss activates the PI3K-AKT-mTOR axis (PIK3CA, AKT and mTOR already mapped), a recurrent co-alteration with H3K27M that supports growth in diffuse midline glioma."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Progenitor maintenance: NOTCH signalling sustains the neural-progenitor-like state that the H3K27M epigenetic reprogramming exploits, helping maintain the stem-like, proliferative cell population of diffuse midline glioma."
+  - target: 01-human/03-molecular/rb1
+    relation: connects-to
+    note: "Cell-cycle restraint lost: the RB-E2F axis (CDK4/6, cyclin-D1, CDKN2A and E2F1 all already mapped) is deregulated in diffuse midline glioma, and RB inactivation releases the cell-cycle progression these tumours depend on."
 ---
 
 # Diffuse Midline Glioma
@@ -550,6 +559,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Diffuse midline glioma cells form functional AMPA-receptor synapses with neurons, and the resulting calcium-mediated electrical activity drives tumor proliferation—a striking dependence on neuronal activity that opens new therapeutic angles.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — GD2-directed CAR-T cells, the first immunotherapy to show responses in diffuse midline glioma, kill the GD2-expressing tumor cells through perforin and granzyme, a breakthrough against this previously untreatable cancer.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — The H3K27M mutation globally reshapes the epigenome, redistributing DNA methylation alongside the loss of PRC2-mediated H3K27 trimethylation, the epigenetic catastrophe at the root of diffuse midline glioma.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss activates the PI3K-AKT-mTOR axis (PIK3CA, AKT and mTOR already mapped), a recurrent co-alteration with H3K27M that supports growth in diffuse midline glioma.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH signaling sustains the neural-progenitor-like state that the H3K27M epigenetic reprogramming exploits, helping maintain the stem-like, proliferative cell population of diffuse midline glioma.
+- `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — The RB-E2F axis (CDK4/6, cyclin-D1, CDKN2A and E2F1 all already mapped) is deregulated in diffuse midline glioma, and RB inactivation releases the cell-cycle progression these tumors depend on.
 
 ---
 

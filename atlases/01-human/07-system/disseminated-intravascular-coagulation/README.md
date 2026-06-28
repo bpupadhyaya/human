@@ -319,6 +319,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative endothelial injury: xanthine-oxidase-derived reactive oxygen species damage the endothelium in the systemic inflammation that triggers DIC, shifting the vessel wall to a procoagulant state that feeds the microvascular thrombosis."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "Endothelial destabilisation: Ang-2 released from activated, injured endothelium in sepsis-associated DIC destabilises the vasculature, amplifying the endothelial dysfunction that triggers and sustains the coagulopathy."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "Complement-coagulation crosstalk: C5a acting through C5aR1 (complement C5 already mapped) induces tissue-factor expression and amplifies the thromboinflammation that drives the microvascular clotting of DIC."
+  - target: 01-human/03-molecular/thrombopoietin
+    relation: connects-to
+    note: "Platelet consumption: the consumptive thrombocytopenia central to DIC drives a compensatory thrombopoietin response, reflecting the accelerated platelet turnover as clots form throughout the microvasculature."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -550,6 +559,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[ADAMTS13](../../03-molecular/adamts13/README.md)** — The inflammatory consumption of ADAMTS13 in sepsis leaves uncleaved ultra-large von Willebrand factor multimers that capture platelets, adding a microvascular thrombotic mechanism to the tissue-factor-driven coagulopathy of DIC.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Inflammatory injury drives caspase-3-mediated apoptosis of endothelial cells, exposing the procoagulant tissue factor and basement membrane that ignite and sustain the disseminated clotting of DIC.
 - `connects-to` → **[Xanthine Oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Xanthine-oxidase-derived reactive oxygen species damage the endothelium in the systemic inflammation that triggers DIC, shifting the vessel wall to a procoagulant state that feeds the microvascular thrombosis.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Ang-2 released from activated, injured endothelium in sepsis-associated DIC destabilizes the vasculature, amplifying the endothelial dysfunction that triggers and sustains the coagulopathy.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a acting through C5aR1 (complement C5 already mapped) induces tissue-factor expression and amplifies the thromboinflammation that drives the microvascular clotting of DIC.
+- `connects-to` → **[Thrombopoietin](../../03-molecular/thrombopoietin/README.md)** — The consumptive thrombocytopenia central to DIC drives a compensatory thrombopoietin response, reflecting the accelerated platelet turnover as clots form throughout the microvasculature.
 
 ---
 
