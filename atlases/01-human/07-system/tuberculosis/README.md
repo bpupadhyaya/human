@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/hepcidin
     relation: connects-to
     note: "Iron nutritional immunity: infection-driven hepcidin sequesters iron inside macrophages to starve Mtb, but this also produces the anaemia of chronic disease common in active tuberculosis, a double-edged host strategy in the fight for iron."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Granuloma and immune evasion: TGF-β within the tuberculous granuloma promotes the fibrotic walling-off of the lesion while suppressing protective Th1 immunity, a host-pathogen balance Mtb exploits for persistence."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Early innate cytokine: IL-6 is an early macrophage cytokine in M. tuberculosis infection that shapes the Th17/Th1 balance and drives the acute-phase response and wasting of active tuberculosis."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 maintenance: IL-23 sustains the Th17 cells whose IL-17A (already mapped) recruits neutrophils and helps organise the protective granuloma in tuberculosis."
 ---
 
 # Tuberculosis
@@ -533,6 +542,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — The balance between prostaglandin E2 and lipoxin A4 in infected macrophages decides whether they die by protective apoptosis, which contains Mtb, or by necrosis, which releases viable bacilli—a host-directed-therapy target in tuberculosis.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VEGF drives the abnormal vascularization of the tuberculous granuloma, and the resulting leaky vessels limit drug penetration, the rationale for VEGF-blocking host-directed therapy to normalize granuloma vasculature.
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Infection-driven hepcidin sequesters iron inside macrophages to starve Mtb, but this also produces the anemia of chronic disease common in active tuberculosis, a double-edged host strategy in the fight for iron.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β within the tuberculous granuloma promotes the fibrotic walling-off of the lesion while suppressing protective Th1 immunity, a host-pathogen balance Mtb exploits for persistence.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 is an early macrophage cytokine in M. tuberculosis infection that shapes the Th17/Th1 balance and drives the acute-phase response and wasting of active tuberculosis.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — IL-23 sustains the Th17 cells whose IL-17A (already mapped) recruits neutrophils and helps organise the protective granuloma in tuberculosis.
 
 ## See Also
 

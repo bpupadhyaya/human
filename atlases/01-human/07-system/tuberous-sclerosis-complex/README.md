@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/caspase-3
     relation: connects-to
     note: "Cytostatic, not curative: mTOR hyperactivation in TSC lesions suppresses caspase-3 apoptosis, so mTOR inhibitors (everolimus, sirolimus) shrink hamartomas only while taken — the tumours regrow on discontinuation because the cells were arrested, not killed."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "Convergence on mTOR: PTEN restrains the PI3K-AKT signalling that lies upstream of mTORC1, the same node hyperactivated by TSC1/TSC2 loss, so the two tumour-suppressor systems converge on the mTOR pathway central to tuberous sclerosis."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Tumour growth: NOTCH signalling is dysregulated downstream of mTOR hyperactivation in TSC-associated lesions such as subependymal giant cell astrocytomas, contributing to their growth."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Hamartoma macrophages: CCL2 recruits macrophages into TSC hamartomas and lymphangioleiomyomatosis, the inflammatory and lymphangiogenic component of the smooth-muscle lesions that destroy the lung in LAM."
 ---
 
 # Tuberous Sclerosis Complex
@@ -539,6 +548,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Dysregulated neuronal calcium and calcineurin-NFAT signaling in the malformed cortical tubers of tuberous sclerosis contributes to the hyperexcitability that makes early-onset, often drug-resistant epilepsy a defining feature of the disorder.
 - `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Angiopoietin-Tie2 signaling supports the abnormal blood vessels of the renal angiomyolipomas—the fat-and-vessel hamartomas prone to aneurysmal hemorrhage—and the remodeled vasculature of pulmonary LAM.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — mTOR hyperactivation in TSC lesions suppresses caspase-3 apoptosis, so mTOR inhibitors (everolimus, sirolimus) shrink hamartomas only while taken—the tumors regrow on discontinuation because the cells were arrested, not killed.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN restrains the PI3K-AKT signaling that lies upstream of mTORC1, the same node hyperactivated by TSC1/TSC2 loss, so the two tumor-suppressor systems converge on the mTOR pathway central to tuberous sclerosis.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH signaling is dysregulated downstream of mTOR hyperactivation in TSC-associated lesions such as subependymal giant cell astrocytomas, contributing to their growth.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 recruits macrophages into TSC hamartomas and lymphangioleiomyomatosis, the inflammatory and lymphangiogenic component of the smooth-muscle lesions that destroy the lung in LAM.
 
 ---
 
