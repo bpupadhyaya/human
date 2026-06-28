@@ -319,6 +319,15 @@ cross_links:
   - target: 01-human/03-molecular/rage
     relation: connects-to
     note: "DAMP amplification: monosodium urate crystals and the DAMPs of crystal-induced cell injury signal through RAGE to amplify the NF-κB-driven inflammation, adding to the NLRP3-IL-1β axis that drives the intense pain of a gout flare."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Signal relay: TLR4 and the IL-1 receptor (TLR4 mapped) signal through MyD88 to activate NF-κB (mapped), the adaptor relaying the crystal-triggered danger signal into the cytokine output of a gout flare."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "Neutrophilic flare: IL-17-producing cells help recruit the dense neutrophil infiltrate that, ingesting urate crystals, produces the acute, intensely painful joint inflammation of gout."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic link: gout is tightly tied to metabolic syndrome (insulin and leptin mapped), and the low adiponectin of visceral adiposity reflects the adipose-driven milieu that raises urate and sustains inflammation."
 ---
 
 # Gout
@@ -512,6 +521,9 @@ The central mechanism linking MSU crystals to acute gouty arthritis is **NLRP3 i
 - `connects-to` → **[Glucocorticoid receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Glucocorticoids acting through the glucocorticoid receptor are a mainstay for acute gout flares, especially when NSAIDs and colchicine are contraindicated, broadly suppressing the urate-crystal-triggered inflammation.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Gout (monosodium urate crystals) must be distinguished from pseudogout, in which calcium pyrophosphate crystals provoke a similar acute crystal arthritis—a key distinction made on polarized-light microscopy of joint fluid.
 - `connects-to` → **[RAGE](../../03-molecular/rage/README.md)** — Monosodium urate crystals and the DAMPs of crystal-induced cell injury signal through RAGE to amplify the NF-κB-driven inflammation, adding to the NLRP3-IL-1β axis that drives the intense pain of a gout flare.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR4 and the IL-1 receptor (TLR4 mapped) signal through MyD88 to activate NF-κB (mapped), the adaptor relaying the crystal-triggered danger signal into the cytokine output of a gout flare.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17-producing cells help recruit the dense neutrophil infiltrate that, ingesting urate crystals, produces the acute, intensely painful joint inflammation of gout.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Gout is tightly tied to metabolic syndrome (insulin and leptin mapped), and the low adiponectin of visceral adiposity reflects the adipose-driven milieu that raises urate and sustains inflammation.
 
 [^dalbeth-2019-gout-primer]: Dalbeth N, Choi HK, Joosten LAB, et al. Gout. *Nat Rev Dis Primers.* 2019;5(1):69. [doi:10.1038/s41572-019-0115-y](https://doi.org/10.1038/s41572-019-0115-y) · [PubMed 31558729](https://pubmed.ncbi.nlm.nih.gov/31558729/)
 [^martinon-2006-nlrp3-gout]: Martinon F, Pétrilli V, Mayor A, Tardivel A, Tschopp J. Gout-associated uric acid crystals activate the NALP3 inflammasome. *Nature.* 2006;440(7081):237-241. [doi:10.1038/nature04516](https://doi.org/10.1038/nature04516) · [PubMed 16407889](https://pubmed.ncbi.nlm.nih.gov/16407889/)

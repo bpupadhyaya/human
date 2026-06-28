@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/androgen-receptor
     relation: connects-to
     note: "Subtype heterogeneity: a fraction of the triple-negative breast cancers BRCA carriers develop are of the luminal-androgen-receptor subtype, where AR-targeted therapy is being explored, reflecting the molecular diversity within the disease."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "Cooperating PI3K hit: PTEN loss activates the PI3K-AKT-mTOR axis (PIK3CA, AKT and mTOR already mapped), a frequent cooperating event in BRCA-associated breast and ovarian cancers."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Repair-proliferation link: the cyclin-D-CDK4/6 axis (CDK4/6 and CDKN2A already mapped) releases E2F1, which itself transactivates homologous-recombination genes including BRCA1 and RAD51 (both mapped), tying proliferation to the repair pathway lost in HBOC."
+  - target: 01-human/03-molecular/egfr
+    relation: connects-to
+    note: "Basal-like biology: the triple-negative, basal-like breast cancers that predominate in BRCA1 carriers frequently express EGFR, a hallmark of the basal phenotype and a candidate therapeutic target."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -547,6 +556,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — PARP inhibitors and platinum exploit the homologous-recombination defect of BRCA-mutant tumors to drive lethal DNA damage and caspase-3-mediated apoptosis, the synthetic-lethal killing central to treating HBOC cancers.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — The high genomic instability of BRCA-mutant, homologous-recombination-deficient tumors makes them more immunogenic, and checkpoint blockade unleashing perforin-mediated cytotoxic killing is active in triple-negative breast cancer.
 - `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — A fraction of the triple-negative breast cancers BRCA carriers develop are of the luminal-androgen-receptor subtype, where AR-targeted therapy is being explored, reflecting the molecular diversity within the disease.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss activates the PI3K-AKT-mTOR axis (PIK3CA, AKT and mTOR already mapped), a frequent cooperating event in BRCA-associated breast and ovarian cancers.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — The cyclin-D-CDK4/6 axis (CDK4/6 and CDKN2A already mapped) releases E2F1, which itself transactivates homologous-recombination genes including BRCA1 and RAD51 (both mapped), tying proliferation to the repair pathway lost in HBOC.
+- `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — The triple-negative, basal-like breast cancers that predominate in BRCA1 carriers frequently express EGFR, a hallmark of the basal phenotype and a candidate therapeutic target.
 
 ---
 
