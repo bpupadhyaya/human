@@ -314,6 +314,15 @@ cross_links:
   - target: 01-human/03-molecular/pdgf
     relation: connects-to
     note: "Repair recruitment: PDGF recruits the mesenchymal and perivascular progenitor cells that build and repair bone, muscle and connective tissue after injury throughout the musculoskeletal system."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Muscle hypertrophy: the IGF-1-AKT-mTOR pathway (IGF-1 mapped) drives the protein synthesis underlying skeletal-muscle hypertrophy, the anabolic switch that builds muscle in response to load."
+  - target: 01-human/03-molecular/calcineurin
+    relation: connects-to
+    note: "Fiber-type specification: the calcium-activated phosphatase calcineurin drives NFAT-dependent slow-twitch fiber-type programming and muscle adaptation to endurance activity."
+  - target: 01-human/03-molecular/glucocorticoid-receptor
+    relation: connects-to
+    note: "Steroid catabolism: glucocorticoids acting through the glucocorticoid receptor (cortisol mapped) cause both skeletal-muscle atrophy and osteoporosis, the dual musculoskeletal toxicity of steroid excess."
 ---
 
 # Musculoskeletal System
@@ -549,6 +558,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH signaling controls mesenchymal-progenitor commitment in bone and the satellite-cell self-renewal that regenerates skeletal muscle, a core developmental pathway of the musculoskeletal system.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — FGF/FGFR signaling regulates the chondrocyte proliferation of the growth plate that lengthens long bones, the pathway whose constitutive activation causes achondroplasia.
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — PDGF recruits the mesenchymal and perivascular progenitor cells that build and repair bone, muscle and connective tissue after injury throughout the musculoskeletal system.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — The IGF-1-AKT-mTOR pathway (IGF-1 mapped) drives the protein synthesis underlying skeletal-muscle hypertrophy, the anabolic switch that builds muscle in response to load.
+- `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — The calcium-activated phosphatase calcineurin drives NFAT-dependent slow-twitch fiber-type programming and muscle adaptation to endurance activity.
+- `connects-to` → **[Glucocorticoid Receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Glucocorticoids acting through the glucocorticoid receptor (cortisol mapped) cause both skeletal-muscle atrophy and osteoporosis, the dual musculoskeletal toxicity of steroid excess.
 
 ## Pathology
 

@@ -316,6 +316,15 @@ cross_links:
   - target: 01-human/03-molecular/nlrp3-inflammasome
     relation: connects-to
     note: "Inflammatory fibrosis: chronic NLRP3-inflammasome activation and IL-1β (already mapped) sustain the inflammatory milieu that drives the marrow fibrosis and constitutional symptoms of myelofibrosis."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "Fibrosis effector: TGF-β released by the clonal megakaryocytes signals through SMAD4 (TGF-β mapped) to activate marrow fibroblasts that lay down the collagen (mapped) reticulin fibrosis defining myelofibrosis."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K limb: JAK2 (mapped) also engages PI3K-AKT-mTOR, a parallel survival-and-proliferation pathway supporting the myelofibrosis clone alongside JAK-STAT."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "Leukaemic transformation: TP53 inactivation drives the progression of myelofibrosis to the blast phase, a secondary acute myeloid leukaemia with dismal prognosis."
 ---
 
 # Myelofibrosis
@@ -543,6 +552,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — JAK2 V617F signals through the MAPK-ERK1/2 pathway as well as STAT5, contributing to the clonal myeloproliferation of myelofibrosis and to incomplete responses to JAK inhibition.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — High-molecular-risk epigenetic and splicing mutations (with the SF3B1 already mapped) accumulate on the JAK2/CALR/MPL driver in myelofibrosis, accelerating its progression to leukemic transformation.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Chronic NLRP3-inflammasome activation and IL-1β (already mapped) sustain the inflammatory milieu that drives the marrow fibrosis and constitutional symptoms of myelofibrosis.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β released by the clonal megakaryocytes signals through SMAD4 (TGF-β mapped) to activate marrow fibroblasts that lay down the collagen (mapped) reticulin fibrosis defining myelofibrosis.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — JAK2 (mapped) also engages PI3K-AKT-mTOR, a parallel survival-and-proliferation pathway supporting the myelofibrosis clone alongside JAK-STAT.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 inactivation drives the progression of myelofibrosis to the blast phase, a secondary acute myeloid leukemia with dismal prognosis.
 
 ---
 
