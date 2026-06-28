@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin
     relation: connects-to
     note: "Catecholamine hyperglycaemia: excess catecholamines suppress pancreatic insulin secretion via α2-adrenergic receptors and induce insulin resistance, producing the hyperglycaemia and secondary diabetes of PPGL that typically resolve after tumour resection."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "Kinase-cluster restraint: PTEN limits the PI3K-AKT-mTOR axis (PIK3CA, AKT and mTOR already mapped) that is activated in the kinase-signalling (cluster 2) PPGL driven by RET, NF1 and RAS (all mapped)."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Oncometabolite-NRF2: in SDH- and FH-deficient (cluster 1) PPGL, accumulated succinate and fumarate succinate KEAP1 to activate NRF2 (SDHB and FH mapped), an antioxidant programme of the pseudohypoxic tumours."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Cell-cycle output: the cyclin-D1 axis (mapped) releases E2F1 to drive proliferation, the engine of growth shared across the hereditary clusters of pheochromocytoma and paraganglioma."
 ---
 
 # Pheochromocytoma/Paraganglioma
@@ -553,6 +562,9 @@ Active in Cluster 1 (MET/AXL co-expressed in SDH-deficient tumors); Phase 2 CABO
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — The RET-, NF1- and RAS-driven cluster of PPGL activates PI3K-AKT-mTOR through PIK3CA, the proliferative arm complementing the pseudohypoxia pathway and a node addressable by PI3K/mTOR inhibition.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Paroxysmal catecholamine surges from PPGL can cause Takotsubo-like stress cardiomyopathy and myocardial injury, releasing troponin from damaged myocytes—the biochemical signature of the cardiac complications of pheochromocytoma crisis.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Excess catecholamines suppress pancreatic insulin secretion via α2-adrenergic receptors and induce insulin resistance, producing the hyperglycemia and secondary diabetes of PPGL that typically resolve after tumor resection.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN limits the PI3K-AKT-mTOR axis (PIK3CA, AKT and mTOR already mapped) that is activated in the kinase-signaling (cluster 2) PPGL driven by RET, NF1 and RAS (all mapped).
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — In SDH- and FH-deficient (cluster 1) PPGL, accumulated succinate and fumarate succinate KEAP1 to activate NRF2 (SDHB and FH mapped), an antioxidant program of the pseudohypoxic tumors.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — The cyclin-D1 axis (mapped) releases E2F1 to drive proliferation, the engine of growth shared across the hereditary clusters of pheochromocytoma and paraganglioma.
 
 [^lenders-2014-pheo-guideline]: Lenders JW, Duh QY, Eisenhofer G, et al. Pheochromocytoma and paraganglioma: an endocrine society clinical practice guideline. *J Clin Endocrinol Metab.* 2014;99(6):1915-1942. [doi:10.1210/jc.2014-1498](https://doi.org/10.1210/jc.2014-1498) · [PubMed 24893135](https://pubmed.ncbi.nlm.nih.gov/24893135/)
 [^baudin-2021-firstmappp-sunitinib]: Baudin E, Goichot B, Berruti A, et al. First International Randomized Study in Malignant Progressive Pheochromocytoma and Paragangliomas (FIRSTMAPPP). *Ann Oncol.* 2021;32(10):1245-1254. [doi:10.1016/j.annonc.2021.07.009](https://doi.org/10.1016/j.annonc.2021.07.009) · [PubMed 34246769](https://pubmed.ncbi.nlm.nih.gov/34246769/)

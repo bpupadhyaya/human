@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "Hamartomatous stroma: the smooth-muscle-rich hamartomatous polyps of Peutz-Jeghers carry an active TGF-β stromal programme, overlapping the SMAD4/TGF-β biology of juvenile polyposis and linking LKB1 loss to the polyp's mesenchymal compartment."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "Unrestrained PI3K-mTOR: LKB1 loss removes AMPK-mediated restraint on mTOR (AMPK, mTOR and TSC1-TSC2 mapped), and PIK3CA-driven PI3K signalling further amplifies the growth axis in Peutz-Jeghers polyps and cancers."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Cell-cycle output: the cyclin-D1 axis (mapped, with CDK-inhibitor p21/p27 also mapped) releases E2F1 to drive proliferation in the malignant progression of Peutz-Jeghers-associated tumours."
+  - target: 01-human/03-molecular/cdh1
+    relation: connects-to
+    note: "EMT and invasion: loss of E-cadherin during epithelial-mesenchymal transition contributes to the invasion of the gastrointestinal and other carcinomas that complicate Peutz-Jeghers syndrome."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -535,6 +544,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[CDKN1B](../../03-molecular/cdkn1b/README.md)** — LKB1 normally supports the p27 (CDKN1B) checkpoint, so its loss in Peutz-Jeghers syndrome weakens p27-mediated cell-cycle arrest and contributes to the hamartoma-to-carcinoma progression that drives the syndrome's broad cancer risk.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — LKB1 is the upstream kinase required for both metformin and adiponectin to activate AMPK, so its germline loss in Peutz-Jeghers blunts this metabolic-sensing axis, part of why metformin is studied as chemoprevention here.
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — The smooth-muscle-rich hamartomatous polyps of Peutz-Jeghers carry an active TGF-β stromal program, overlapping the SMAD4/TGF-β biology of juvenile polyposis and linking LKB1 loss to the polyp's mesenchymal compartment.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — LKB1 loss removes AMPK-mediated restraint on mTOR (AMPK, mTOR and TSC1-TSC2 mapped), and PIK3CA-driven PI3K signaling further amplifies the growth axis in Peutz-Jeghers polyps and cancers.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — The cyclin-D1 axis (mapped, with CDK-inhibitor p21/p27 also mapped) releases E2F1 to drive proliferation in the malignant progression of Peutz-Jeghers-associated tumors.
+- `connects-to` → **[CDH1](../../03-molecular/cdh1/README.md)** — Loss of E-cadherin during epithelial-mesenchymal transition contributes to the invasion of the gastrointestinal and other carcinomas that complicate Peutz-Jeghers syndrome.
 
 ---
 
