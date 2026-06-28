@@ -328,6 +328,15 @@ cross_links:
   - target: 01-human/03-molecular/crh
     relation: connects-to
     note: "Stress trigger: stress is a major migraine trigger, and CRH-driven HPA-axis activation lowers the threshold for attacks, linking the stress system to migraine susceptibility."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Neurogenic inflammation: TLR4-driven neuroinflammation in the trigeminovascular system sensitises meningeal nociceptors, contributing to the neurogenic inflammation that sustains the migraine attack."
+  - target: 01-human/03-molecular/ntrk
+    relation: connects-to
+    note: "Central sensitisation: BDNF signalling through its TrkB receptor (NTRK) mediates the central sensitisation of trigeminal pain pathways that underlies the allodynia and chronification of migraine."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Oxidative susceptibility: NRF2-regulated antioxidant defences counter the oxidative stress implicated in migraine pathophysiology and in the metabolic vulnerability to cortical spreading depression."
 ---
 
 # Migraine
@@ -568,6 +577,9 @@ Episodic migraine (EM, <15 headache days/month) transforms to **chronic migraine
 - `connects-to` → **[Connexin-43](../../03-molecular/connexin43/README.md)** — Astrocytic connexin-43 gap junctions propagate the slow wave of depolarization—cortical spreading depression—that underlies the migraine aura.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Cortical spreading depression activates the NLRP3 inflammasome and IL-1β in microglia (already mapped), driving the sterile neuroinflammation that sensitizes the trigeminovascular pain pathway in migraine.
 - `connects-to` → **[CRH](../../03-molecular/crh/README.md)** — Stress is a major migraine trigger, and CRH-driven HPA-axis activation lowers the threshold for attacks, linking the stress system to migraine susceptibility.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4-driven neuroinflammation in the trigeminovascular system sensitizes meningeal nociceptors, contributing to the neurogenic inflammation that sustains the migraine attack.
+- `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — BDNF signaling through its TrkB receptor (NTRK) mediates the central sensitization of trigeminal pain pathways that underlies the allodynia and chronification of migraine.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2-regulated antioxidant defenses counter the oxidative stress implicated in migraine pathophysiology and in the metabolic vulnerability to cortical spreading depression.
 
 [^gbd-2016-migraine-burden]: GBD 2016 Headache Collaborators. Global, regional, and national burden of migraine and tension-type headache, 1990-2016. *Lancet Neurol.* 2018;17(11):954-976. [doi:10.1016/S1474-4422(18)30322-3](https://doi.org/10.1016/S1474-4422(18)30322-3) · [PubMed 30353868](https://pubmed.ncbi.nlm.nih.gov/30353868/)
 [^goadsby-2002-migraine-review]: Goadsby PJ, Lipton RB, Ferrari MD. Migraine — current understanding and treatment. *N Engl J Med.* 2002;346(4):257-270. [doi:10.1056/NEJMra010917](https://doi.org/10.1056/NEJMra010917) · [PubMed 11807151](https://pubmed.ncbi.nlm.nih.gov/11807151/)

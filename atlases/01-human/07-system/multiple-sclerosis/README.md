@@ -325,6 +325,15 @@ cross_links:
   - target: 01-human/03-molecular/connexin43
     relation: connects-to
     note: "Panglial disruption: loss of astrocyte-oligodendrocyte connexin-43 gap junctions in MS plaques impairs the panglial network that supports myelin, contributing to lesion formation and expansion."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 maintenance: IL-23 sustains the pathogenic Th17 cells (IL-17A already mapped) that cross the blood-brain barrier and drive the demyelinating inflammation of multiple sclerosis."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Cytokine signal transduction: inflammatory-cytokine and type-I-interferon signalling through JAK-STAT (type-I IFN already mapped) governs the autoreactive T-cell responses of MS, the axis through which IFN-β therapy partly acts."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Treg-Th17 balance: TGF-β drives regulatory T-cell differentiation that restrains CNS autoimmunity, and its balance against the IL-6/IL-23 milieu (both mapped) sets the Treg-Th17 equilibrium central to MS."
 ---
 
 # Multiple Sclerosis
@@ -537,6 +546,9 @@ MS affects approximately **2.8 million people worldwide** (~1 million in the US)
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — Dimethyl fumarate, a first-line MS therapy, activates the NRF2 antioxidant pathway to protect oligodendrocytes and neurons from the oxidative injury that drives demyelination and neurodegeneration.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Caspase-3-mediated apoptosis of oligodendrocytes and neurons contributes to the demyelination and the progressive axonal loss that underlies disability accumulation in multiple sclerosis.
 - `connects-to` → **[Connexin-43](../../03-molecular/connexin43/README.md)** — Loss of astrocyte-oligodendrocyte connexin-43 gap junctions in MS plaques impairs the panglial network that supports myelin, contributing to lesion formation and expansion.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — IL-23 sustains the pathogenic Th17 cells (IL-17A already mapped) that cross the blood-brain barrier and drive the demyelinating inflammation of multiple sclerosis.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Inflammatory-cytokine and type-I-interferon signaling through JAK-STAT (type-I IFN already mapped) governs the autoreactive T-cell responses of MS, the axis through which IFN-β therapy partly acts.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β drives regulatory T-cell differentiation that restrains CNS autoimmunity, and its balance against the IL-6/IL-23 milieu (both mapped) sets the Treg-Th17 equilibrium central to MS.
 
 [^compston-2008-ms-review]: Compston A, Coles A. Multiple sclerosis. *Lancet.* 2008;372(9648):1502-1517. [doi:10.1016/S0140-6736(08)61620-7](https://doi.org/10.1016/S0140-6736(08)61620-7) · [PubMed 18970977](https://pubmed.ncbi.nlm.nih.gov/18970977/)
 [^kappos-2006-natalizumab]: Polman CH, O'Connor PW, Havrdova E, et al. A randomized, placebo-controlled trial of natalizumab for relapsing multiple sclerosis. *N Engl J Med.* 2006;354(9):899-910. [doi:10.1056/NEJMoa044397](https://doi.org/10.1056/NEJMoa044397) · [PubMed 16510744](https://pubmed.ncbi.nlm.nih.gov/16510744/)
