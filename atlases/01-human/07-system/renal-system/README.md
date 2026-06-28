@@ -325,6 +325,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "Nephron patterning: NOTCH signalling directs nephron-progenitor differentiation and podocyte specification during kidney development, and its reactivation contributes to glomerular disease."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "Fibrosis effector: TGF-β signalling through SMAD4 (TGF-β mapped) activates myofibroblasts to lay down the tubulointerstitial fibrosis that is the final common pathway of chronic kidney disease."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Tubular growth and cysts: mTOR governs tubular-cell and podocyte size, and its dysregulation drives the cyst growth of polycystic kidney disease and the hypertrophy of diabetic nephropathy."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Antioxidant defence: NRF2 protects the kidney against oxidative injury, and pharmacological NRF2 activation (bardoxolone) raises filtration rate in chronic kidney disease."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -522,6 +531,9 @@ Natriuretic counterpoint:
 - **Connects to:** [HIF-1alpha](../../03-molecular/hif-1alpha/README.md) — oxygen sensing: the kidney is the body's oxygen sensor, where peritubular cells stabilize HIF in hypoxia to produce the erythropoietin already mapped, the axis exploited by HIF-prolyl-hydroxylase inhibitors to treat renal anemia.
 - **Connects to:** [Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md) — development and fibrosis: Wnt/β-catenin signaling patterns nephron development and, when pathologically reactivated, drives the tubulointerstitial fibrosis that is the final common pathway of chronic kidney disease.
 - **Connects to:** [NOTCH](../../03-molecular/notch/README.md) — nephron patterning: NOTCH signaling directs nephron-progenitor differentiation and podocyte specification during kidney development, and its reactivation contributes to glomerular disease.
+- **Connects to:** [SMAD4](../../03-molecular/smad4/README.md) — fibrosis effector: TGF-β signaling through SMAD4 (TGF-β mapped) activates myofibroblasts to lay down the tubulointerstitial fibrosis that is the final common pathway of chronic kidney disease.
+- **Connects to:** [mTOR](../../03-molecular/mtor/README.md) — tubular growth and cysts: mTOR governs tubular-cell and podocyte size, and its dysregulation drives the cyst growth of polycystic kidney disease and the hypertrophy of diabetic nephropathy.
+- **Connects to:** [NRF2](../../03-molecular/nfe2l2/README.md) — antioxidant defense: NRF2 protects the kidney against oxidative injury, and pharmacological NRF2 activation (bardoxolone) raises filtration rate in chronic kidney disease.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 

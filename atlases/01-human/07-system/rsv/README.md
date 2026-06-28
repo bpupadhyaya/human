@@ -318,6 +318,15 @@ cross_links:
   - target: 01-human/03-molecular/caspase-3
     relation: connects-to
     note: "Epithelial death: RSV induces caspase-3 apoptosis of infected airway epithelial cells, and the resulting epithelial sloughing — with mucus and the syncytia that name the virus — plugs the small airways in bronchiolitis."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Innate amplification: TLR4 sensing of RSV F protein (RSV-F and TLR4 mapped) signals through MyD88 to NF-κB (mapped), driving the airway inflammatory response of RSV bronchiolitis."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "Interferon evasion: type-I interferon signals through STAT1 to mount the antiviral response, which the RSV NS1 and NS2 proteins antagonise — blunting interferon and enabling viral replication."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immune regulation: IL-10 modulates the Th2-skewed immunopathology (IL-4, IL-5 and IL-13 mapped) of severe RSV bronchiolitis, balancing viral control against airway damage."
 ---
 
 # RSV
@@ -562,3 +571,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — RSV bronchiolitis in infancy promotes Th2 sensitization and IgE production (with the IL-4/IL-5/IL-13 already mapped), the mechanism linking severe early RSV to later recurrent wheeze and asthma.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — RSV activates the NLRP3 inflammasome (already mapped) to release IL-1β, amplifying the airway inflammation and neutrophil recruitment of severe bronchiolitis.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — RSV induces caspase-3 apoptosis of infected airway epithelial cells, and the resulting epithelial sloughing—with mucus and the syncytia that name the virus—plugs the small airways in bronchiolitis.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR4 sensing of RSV F protein (RSV-F and TLR4 mapped) signals through MyD88 to NF-κB (mapped), driving the airway inflammatory response of RSV bronchiolitis.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — Type-I interferon signals through STAT1 to mount the antiviral response, which the RSV NS1 and NS2 proteins antagonize—blunting interferon and enabling viral replication.
+- `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — IL-10 modulates the Th2-skewed immunopathology (IL-4, IL-5 and IL-13 mapped) of severe RSV bronchiolitis, balancing viral control against airway damage.
