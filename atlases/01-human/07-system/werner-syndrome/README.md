@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Metabolic syndrome: Werner syndrome is a classic model of hypoadiponectinaemia, where the loss of insulin-sensitising adiponectin from dysfunctional visceral fat underlies its severe insulin resistance and early type-2 diabetes."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Inflammaging SASP: Werner cells undergo accelerated replicative senescence and adopt a senescence-associated secretory phenotype rich in IL-6, the chronic inflammation that drives the premature atherosclerosis and tissue ageing of the syndrome."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Genome-instability cell cycle: WRN-helicase loss causes replication stress that deregulates the RB-E2F1 cell-cycle checkpoint (with the CDKN2A and cyclin-D already mapped), pushing cells toward senescence and the cancer predisposition of Werner syndrome."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "Energy-sensing dysfunction: the severe insulin resistance and metabolic derangement of Werner syndrome engage the AMPK energy-sensing pathway (the target of the metformin already mapped), part of its accelerated-ageing metabolic phenotype."
 ---
 
 # Werner Syndrome
@@ -562,6 +571,9 @@ cross_links:
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — WRN-deficient cells accumulate micronuclei and cytosolic DNA that activate cGAS-STING, generating the chronic senescence-associated inflammatory secretome (SASP) that helps drive the accelerated tissue aging of Werner syndrome.
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Severe, early atherosclerosis is a leading cause of death in Werner syndrome, the cholesterol-laden arterial disease appearing decades early and compounded by the syndrome's dyslipidemia and insulin resistance.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Werner syndrome is a classic model of hypoadiponectinemia, where the loss of insulin-sensitizing adiponectin from dysfunctional visceral fat underlies its severe insulin resistance and early type-2 diabetes.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Werner cells undergo accelerated replicative senescence and adopt a senescence-associated secretory phenotype rich in IL-6, the chronic inflammation that drives the premature atherosclerosis and tissue aging of the syndrome.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — WRN-helicase loss causes replication stress that deregulates the RB-E2F1 cell-cycle checkpoint (with the CDKN2A and cyclin-D already mapped), pushing cells toward senescence and the cancer predisposition of Werner syndrome.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — The severe insulin resistance and metabolic derangement of Werner syndrome engage the AMPK energy-sensing pathway (the target of the metformin already mapped), part of its accelerated-aging metabolic phenotype.
 
 [^yu-1996-wrn]: Yu CE, Oshima J, Fu YH, et al. Positional cloning of the Werner's syndrome gene. *Science.* 1996;272(5259):258-262. [doi:10.1126/science.272.5259.258](https://doi.org/10.1126/science.272.5259.258) · [PubMed 8602509](https://pubmed.ncbi.nlm.nih.gov/8602509/)
 [^lauper-2013-wrn-neoplasia]: Lauper JM, Krause A, Vaughan TL, Monnat RJ Jr. Spectrum and risk of neoplasia in Werner syndrome: a systematic review. *PLoS One.* 2013;8(4):e59709. [doi:10.1371/journal.pone.0059709](https://doi.org/10.1371/journal.pone.0059709) · [PubMed 23579047](https://pubmed.ncbi.nlm.nih.gov/23579047/)

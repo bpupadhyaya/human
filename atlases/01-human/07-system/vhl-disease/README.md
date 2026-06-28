@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/norepinephrine
     relation: connects-to
     note: "Noradrenergic phaeochromocytoma: VHL adrenal phaeochromocytomas secrete predominantly norepinephrine because they lack PNMT, a biochemical phenotype distinct from the epinephrine-producing RET/MEN2 tumours, useful in directing genetic testing."
+  - target: 01-human/03-molecular/egfr
+    relation: connects-to
+    note: "HIF-EGFR autocrine loop: VHL loss stabilises HIF, which induces TGF-α to drive an autocrine EGFR loop that sustains proliferation of VHL-deficient renal carcinoma and hemangioblastoma."
+  - target: 01-human/03-molecular/bap1
+    relation: connects-to
+    note: "3p co-driver: BAP1, like VHL on chromosome 3p, is a renal tumour-suppressor, and its loss cooperates with VHL inactivation to drive the aggressive, high-grade clear-cell renal carcinoma of the disease."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Vascular phenotype: NOTCH signalling activated downstream of HIF in VHL-deficient hemangioblastomas and clear-cell renal carcinoma promotes their vascular, stem-like phenotype."
 ---
 
 # VHL Disease
@@ -521,6 +530,9 @@ The genotype-phenotype correlation reflects the degree of pVHL function retained
 - `connects-to` → **[FH](../../03-molecular/fh/README.md)** — VHL loss stabilizes HIF directly, whereas fumarate-hydratase loss does so via accumulated fumarate—convergent pseudohypoxic routes that both cause hereditary pheochromocytoma-paraganglioma and renal tumors through the same HIF endpoint.
 - `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Angiopoietin-Tie2 signaling, driven downstream of the constitutive HIF activation in VHL, helps build the strikingly vascular hemangioblastomas and clear-cell renal carcinomas that characterize the syndrome.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — VHL adrenal pheochromocytomas secrete predominantly norepinephrine because they lack PNMT, a biochemical phenotype distinct from the epinephrine-producing RET/MEN2 tumors, useful in directing genetic testing.
+- `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — VHL loss stabilizes HIF, which induces TGF-α to drive an autocrine EGFR loop that sustains proliferation of VHL-deficient renal carcinoma and hemangioblastoma.
+- `connects-to` → **[BAP1](../../03-molecular/bap1/README.md)** — BAP1, like VHL on chromosome 3p, is a renal tumor-suppressor, and its loss cooperates with VHL inactivation to drive the aggressive, high-grade clear-cell renal carcinoma of the disease.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH signaling activated downstream of HIF in VHL-deficient hemangioblastomas and clear-cell renal carcinoma promotes their vascular, stem-like phenotype.
 
 [^lonser-2003-vhl-disease]: Lonser RR, Glenn GM, Walther M, et al. von Hippel-Lindau disease. *Lancet.* 2003;361(9374):2059-2067. [doi:10.1016/S0140-6736(03)13643-4](https://doi.org/10.1016/S0140-6736(03)13643-4) · [PubMed 12814730](https://pubmed.ncbi.nlm.nih.gov/12814730/)
 [^choueiri-2020-hif2-rcc]: Choueiri TK, Kaelin WG Jr. Targeting the HIF2-VEGF axis in renal cell carcinoma. *Nat Med.* 2020;26(10):1519-1530. [doi:10.1038/s41591-020-1093-z](https://doi.org/10.1038/s41591-020-1093-z) · [PubMed 33020650](https://pubmed.ncbi.nlm.nih.gov/33020650/)
