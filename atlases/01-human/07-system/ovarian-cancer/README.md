@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/mlh1
     relation: connects-to
     note: "Mismatch-repair deficiency: MLH1 silencing produces the microsatellite-instable endometrioid and clear-cell ovarian cancers seen in Lynch syndrome, a DNA-repair defect distinct from BRCA-related homologous-recombination loss and a basis for checkpoint blockade."
+  - target: 01-human/03-molecular/kras
+    relation: connects-to
+    note: "MAPK pathway: KRAS-activating mutations define the low-grade serous and mucinous ovarian carcinomas, a biology distinct from the p53/BRCA-driven high-grade serous disease and the rationale for MEK inhibitors in these chemo-resistant histotypes."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K activation: PIK3CA mutation and amplification activate the PI3K-AKT-mTOR axis already mapped here through AKT and PTEN, sustaining ovarian cancer survival signalling and supporting combination strategies with PI3K-pathway inhibitors."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Ascites macrophages: CCL2 secreted by ovarian tumour cells recruits monocytes that become the tumour-associated macrophages dominating malignant ascites, building the immunosuppressive peritoneal niche that drives chemoresistance and spread."
 ---
 
 # Ovarian Cancer
@@ -515,6 +524,9 @@ FTSEC ciliated and secretory cells line the Fallopian tube; secretory cells are 
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Carboplatin-paclitaxel kills ovarian carcinoma through caspase-3-mediated apoptosis, and the eventual evasion of this death program defines the platinum-resistant relapse that is the lethal phase of high-grade serous disease.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss activates PI3K-AKT signaling in the endometriosis-associated endometrioid and clear-cell ovarian carcinomas, the histotypes distinct from BRCA-driven high-grade serous disease.
 - `connects-to` → **[MLH1](../../03-molecular/mlh1/README.md)** — MLH1 silencing produces the microsatellite-instable endometrioid and clear-cell ovarian cancers seen in Lynch syndrome, a DNA-repair defect distinct from BRCA-related homologous-recombination loss and a basis for checkpoint blockade.
+- `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — KRAS-activating mutations define the low-grade serous and mucinous ovarian carcinomas, a biology distinct from the p53/BRCA-driven high-grade serous disease and the rationale for MEK inhibitors in these chemo-resistant histotypes.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PIK3CA mutation and amplification activate the PI3K-AKT-mTOR axis already mapped here through AKT and PTEN, sustaining ovarian cancer survival signaling and supporting combination strategies with PI3K-pathway inhibitors.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 secreted by ovarian tumor cells recruits monocytes that become the tumor-associated macrophages dominating malignant ascites, building the immunosuppressive peritoneal niche that drives chemoresistance and spread.
 
 [^burger-2011-gog0218]: Burger RA, Brady MF, Bookman MA, et al. Incorporation of bevacizumab in the primary treatment of ovarian cancer. *N Engl J Med.* 2011;365(26):2473-2483. [doi:10.1056/NEJMoa1104390](https://doi.org/10.1056/NEJMoa1104390) · [PubMed 22204724](https://pubmed.ncbi.nlm.nih.gov/22204724/)
 [^moore-2018-olaparib-solo1]: Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. *N Engl J Med.* 2018;379(26):2495-2505. [doi:10.1056/NEJMoa1810858](https://doi.org/10.1056/NEJMoa1810858) · [PubMed 30345884](https://pubmed.ncbi.nlm.nih.gov/30345884/)

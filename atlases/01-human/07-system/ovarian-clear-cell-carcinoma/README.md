@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/thrombin
     relation: connects-to
     note: "Venous thromboembolism: OCCC carries the highest rate of venous thromboembolism among ovarian histotypes, its tissue-factor-rich tumour cells triggering thrombin generation and the deep-vein thromboses and pulmonary emboli that complicate the disease."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Platinum resistance: ovarian clear-cell carcinoma is notoriously chemoresistant, and upregulation of anti-apoptotic BCL-2-family proteins raises the threshold for the caspase-mediated death triggered by platinum chemotherapy, underpinning its poor response."
+  - target: 01-human/03-molecular/mlh1
+    relation: connects-to
+    note: "Mismatch-repair subset: a fraction of ovarian clear-cell carcinomas are MLH1-deficient and microsatellite-instable, often Lynch-associated, generating the high neoantigen load that makes this histotype subset responsive to checkpoint blockade."
+  - target: 01-human/03-molecular/epas1
+    relation: connects-to
+    note: "Hypoxia and clear-cell phenotype: HIF-2α/EPAS1 stabilisation drives the angiogenic, glycogen-laden clear-cell morphology of OCCC, the hypoxic transcriptional programme it shares with clear-cell renal carcinoma."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -541,6 +550,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — OCCC resists the platinum chemotherapy that controls high-grade serous disease, evading caspase-3-mediated apoptosis—the biological basis for its notoriously poor response and the search for non-cytotoxic strategies.
 - `connects-to` → **[PTH](../../03-molecular/pth/README.md)** — OCCC is the gynecological cancer most associated with humoral hypercalcemia of malignancy, secreting PTHrP that mimics parathyroid hormone to drive the elevated calcium seen at presentation.
 - `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — OCCC carries the highest rate of venous thromboembolism among ovarian histotypes, its tissue-factor-rich tumor cells triggering thrombin generation and the deep-vein thromboses and pulmonary emboli that complicate the disease.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Ovarian clear-cell carcinoma is notoriously chemoresistant, and upregulation of anti-apoptotic BCL-2-family proteins raises the threshold for the caspase-mediated death triggered by platinum chemotherapy, underpinning its poor treatment response.
+- `connects-to` → **[MLH1](../../03-molecular/mlh1/README.md)** — A fraction of ovarian clear-cell carcinomas are MLH1-deficient and microsatellite-instable, often Lynch-associated, generating the high neoantigen load that makes this histotype subset responsive to checkpoint blockade.
+- `connects-to` → **[EPAS1](../../03-molecular/epas1/README.md)** — HIF-2α/EPAS1 stabilization drives the angiogenic, glycogen-laden clear-cell morphology of OCCC, the hypoxic transcriptional program it shares with clear-cell renal carcinoma.
 
 ---
 
