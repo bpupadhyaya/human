@@ -294,6 +294,15 @@ cross_links:
   - target: 01-human/03-molecular/acetylcholine
     relation: connects-to
     note: "Autonomic dysfunction: fibromyalgia features reduced vagal tone and a blunted cholinergic anti-inflammatory reflex, an autonomic imbalance that leaves inflammation unchecked and contributes to the dysautonomia accompanying the chronic pain."
+  - target: 01-human/03-molecular/crh
+    relation: connects-to
+    note: "HPA stress axis: corticotropin-releasing hormone sits at the apex of the dysregulated HPA stress axis of fibromyalgia, and its altered signalling links chronic stress to the central pain amplification of the disorder."
+  - target: 01-human/03-molecular/glucocorticoid-receptor
+    relation: connects-to
+    note: "Blunted cortisol feedback: a hypofunctional cortisol response and impaired glucocorticoid-receptor feedback characterise the HPA dysregulation of fibromyalgia, contributing to its fatigue, poor stress resilience and widespread pain."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Neuroinflammation balance: the low-grade neuroinflammation of fibromyalgia (IL-1β, IL-6 and TNF-α already mapped) is normally restrained by regulatory IL-10, whose relative deficiency may sustain glial pain signalling."
 sources:
   - id: wolfe-2016-fibromyalgia-criteria
     type: peer-reviewed
@@ -546,6 +555,9 @@ FM is not a single-etiology disorder but a convergent syndrome resulting from th
 - `connects-to` → **[Orexin](../../03-molecular/orexin/README.md)** — Orexin signaling that stabilizes sleep-wake states and modulates descending pain control is dysregulated in fibromyalgia, contributing to the unrefreshing sleep and arousal disturbance that worsen the pain and fatigue.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Increased dermal mast cells releasing histamine are found in fibromyalgia skin, a peripheral neuroinflammatory contributor to the sensory symptoms and one proposed link to its frequent overlap with mast-cell-activation conditions.
 - `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Fibromyalgia features reduced vagal tone and a blunted cholinergic anti-inflammatory reflex, an autonomic imbalance that leaves inflammation unchecked and contributes to the dysautonomia accompanying the chronic pain.
+- `connects-to` → **[CRH](../../03-molecular/crh/README.md)** — Corticotropin-releasing hormone sits at the apex of the dysregulated HPA stress axis of fibromyalgia, and its altered signaling links chronic stress to the central pain amplification of the disorder.
+- `connects-to` → **[Glucocorticoid Receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — A hypofunctional cortisol response and impaired glucocorticoid-receptor feedback characterize the HPA dysregulation of fibromyalgia, contributing to its fatigue, poor stress resilience and widespread pain.
+- `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — The low-grade neuroinflammation of fibromyalgia (IL-1β, IL-6 and TNF-α already mapped) is normally restrained by regulatory IL-10, whose relative deficiency may sustain glial pain signaling.
 
 [^wolfe-2016-fibromyalgia-criteria]: Wolfe F, Clauw DJ, Fitzcharles MA, et al. 2016 Revisions to the 2010/2011 fibromyalgia diagnostic criteria. *Semin Arthritis Rheum.* 2016;46(3):319-329. [doi:10.1016/j.semarthrit.2016.08.012](https://doi.org/10.1016/j.semarthrit.2016.08.012) · [PubMed 27916278](https://pubmed.ncbi.nlm.nih.gov/27916278/)
 [^clauw-2014-fibromyalgia-review]: Clauw DJ. Fibromyalgia: a clinical review. *JAMA.* 2014;311(15):1547-1555. [doi:10.1001/jama.2014.3266](https://doi.org/10.1001/jama.2014.3266) · [PubMed 24737367](https://pubmed.ncbi.nlm.nih.gov/24737367/)

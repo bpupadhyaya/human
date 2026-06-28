@@ -307,6 +307,15 @@ cross_links:
   - target: 01-human/03-molecular/acetylcholine
     relation: connects-to
     note: "Gut-brain vagal axis: microbial metabolites signal to vagal afferents that use acetylcholine, a neural limb of the microbiota-gut-brain axis through which the microbiome influences mood, appetite and the cholinergic anti-inflammatory reflex."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Barrier hypoxia: microbial butyrate is consumed by colonocytes, lowering epithelial oxygen and stabilising HIF-1α, a physiological hypoxia signal that maintains the gut barrier and the anaerobic niche favouring beneficial commensals."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Tolerance set-point: microbial signals sensed through pattern-recognition receptors tune epithelial NF-κB activity, balancing antimicrobial defence against tolerance to the commensal microbiota that prevents inappropriate inflammation."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Epithelial renewal: the microbiota influences Wnt/β-catenin signalling in the intestinal crypt, modulating the stem-cell-driven regeneration that continuously renews the gut lining the microbiome inhabits."
 ---
 
 # Gut Microbiome
@@ -481,6 +490,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Gut bacteria deconjugate and transform host bile acids made from cholesterol into secondary bile acids that signal through FXR and TGR5, a microbial arm of cholesterol and metabolic regulation linking the microbiome to host lipid handling.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Commensal bacteria and their metabolites induce IL-10-producing regulatory T cells in the gut, the tolerogenic response that keeps the immune system from attacking the resident microbiota and whose failure underlies inflammatory bowel disease.
 - `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Microbial metabolites signal to vagal afferents that use acetylcholine, a neural limb of the microbiota-gut-brain axis through which the microbiome influences mood, appetite and the cholinergic anti-inflammatory reflex.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — Microbial butyrate is consumed by colonocytes, lowering epithelial oxygen and stabilizing HIF-1α, a physiological hypoxia signal that maintains the gut barrier and the anaerobic niche favoring beneficial commensals.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Microbial signals sensed through pattern-recognition receptors tune epithelial NF-κB activity, balancing antimicrobial defense against tolerance to the commensal microbiota that prevents inappropriate inflammation.
+- `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — The microbiota influences Wnt/β-catenin signaling in the intestinal crypt, modulating the stem-cell-driven regeneration that continuously renews the gut lining the microbiome inhabits.
 
 ## Pathology
 
