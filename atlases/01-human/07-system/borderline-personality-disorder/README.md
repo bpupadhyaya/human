@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/ghrelin
     relation: connects-to
     note: "Trauma-stress axis: early-life maltreatment, near-universal in borderline personality disorder, durably alters ghrelin signalling, tying the gut-derived stress and reward hormone to the trauma history and dysregulated eating behaviours of the disorder."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Rapid-acting plasticity: glutamatergic antidepressants such as ketamine act through synaptic mTOR-driven synaptogenesis, a mechanism relevant to the affective instability and acute suicidality that characterise borderline personality disorder."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Neuroinflammation balance: the low-grade neuroinflammation of BPD (IL-6, TNF-α and IL-1β already mapped) is normally counter-balanced by regulatory IL-10, whose relative deficiency tracks with symptom severity."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Mood signalling: the AKT-GSK3β pathway, a convergence point of the serotonergic and dopaminergic neurotransmission already mapped and of mood-stabiliser action, is implicated in the affective dysregulation of borderline personality disorder."
 ---
 
 # Borderline Personality Disorder
@@ -551,6 +560,9 @@ This model directly informs DBT treatment: validate emotional experience (the bi
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — A blunted prolactin response to serotonergic agents like fenfluramine is a classic neuroendocrine marker of the central serotonin deficit linked to the impulsive aggression of borderline personality disorder.
 - `connects-to` → **[Orexin](../../03-molecular/orexin/README.md)** — Orexin signaling that governs arousal, reward and sleep-wake stability is implicated in the chronic hyperarousal and the disturbed, fragmented sleep that commonly accompany borderline personality disorder.
 - `connects-to` → **[Ghrelin](../../03-molecular/ghrelin/README.md)** — Early-life maltreatment, near-universal in borderline personality disorder, durably alters ghrelin signaling, tying the gut-derived stress and reward hormone to the trauma history and dysregulated eating behaviors of the disorder.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Glutamatergic antidepressants such as ketamine act through synaptic mTOR-driven synaptogenesis, a mechanism relevant to the affective instability and acute suicidality that characterize borderline personality disorder.
+- `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — The low-grade neuroinflammation of BPD (IL-6, TNF-α and IL-1β already mapped) is normally counter-balanced by regulatory IL-10, whose relative deficiency tracks with symptom severity.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — The AKT-GSK3β pathway, a convergence point of the serotonergic and dopaminergic neurotransmission already mapped and of mood-stabilizer action, is implicated in the affective dysregulation of borderline personality disorder.
 
 [^linehan-1993-dbt]: Linehan MM. *Cognitive-Behavioral Treatment of Borderline Personality Disorder.* Guilford; 1993. [PubMed 8192506](https://pubmed.ncbi.nlm.nih.gov/8192506/)
 [^skodol-2002-bpd-neurobiology]: Siever LJ, Davis KL. A psychobiological perspective on the personality disorders. *Am J Psychiatry.* 1991;148(12):1647-1658. [doi:10.1176/ajp.148.12.1647](https://doi.org/10.1176/ajp.148.12.1647) · [PubMed 1957927](https://pubmed.ncbi.nlm.nih.gov/1957927/)

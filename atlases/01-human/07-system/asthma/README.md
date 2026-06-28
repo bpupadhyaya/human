@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Obese-asthma phenotype: low adiponectin in obesity removes an anti-inflammatory brake on the airways, part of why the obese-asthma phenotype is more severe and steroid-resistant, complementing the pro-inflammatory leptin of the same metabolic axis."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Severe non-T2 asthma: the NLRP3 inflammasome and IL-1β drive the neutrophilic, type-2-low inflammation of severe steroid-resistant asthma, a phenotype distinct from the eosinophilic IL-4/5/13 axis already mapped."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Tolerance brake: regulatory IL-10 from regulatory T cells normally restrains airway allergic inflammation, and deficient IL-10-mediated tolerance permits the type-2 response of asthma — the principle behind allergen immunotherapy."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Innate gene-environment axis: TLR4 sensing of microbial and pollutant exposures shapes asthma risk and exacerbations, the molecular substrate of the hygiene-hypothesis interaction between environment and airway immunity."
 ---
 
 # Asthma
@@ -520,6 +529,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 from airway neutrophils marks the non-type-2, neutrophilic asthma that responds poorly to corticosteroids and eosinophil-targeted biologics, defining a distinct endotype that needs different therapeutic strategies.
 - `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Endothelin-1 from airway epithelium is a potent bronchoconstrictor and mitogen for airway smooth muscle, contributing to the smooth-muscle hyperplasia and subepithelial fibrosis of asthmatic airway remodeling.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Low adiponectin in obesity removes an anti-inflammatory brake on the airways, part of why the obese-asthma phenotype is more severe and steroid-resistant, complementing the pro-inflammatory leptin of the same metabolic axis.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — The NLRP3 inflammasome and IL-1β drive the neutrophilic, type-2-low inflammation of severe steroid-resistant asthma, a phenotype distinct from the eosinophilic IL-4/5/13 axis already mapped.
+- `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — Regulatory IL-10 from regulatory T cells normally restrains airway allergic inflammation, and deficient IL-10-mediated tolerance permits the type-2 response of asthma—the principle behind allergen immunotherapy.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4 sensing of microbial and pollutant exposures shapes asthma risk and exacerbations, the molecular substrate of the hygiene-hypothesis interaction between environment and airway immunity.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)
