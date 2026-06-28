@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "Metastatic phenotype: NOTCH signalling promotes the proliferation and invasive, metastatic phenotype of uveal melanoma, cooperating with the YAP and MAPK arms already mapped downstream of GNAQ/GNA11."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Cell-cycle drive: cyclin-D1 (mapped) and CDK4/6 release E2F1 to drive proliferation downstream of the constitutive GNAQ/GNA11-MAPK signalling of uveal melanoma."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "Cell-cycle brake: CDKN2A loss removes the restraint on the cyclin-D1-CDK4/6 axis and is associated with progression of uveal melanoma."
+  - target: 01-human/03-molecular/cdh1
+    relation: connects-to
+    note: "Metastatic spread: loss of E-cadherin and the dedifferentiation accompanying BAP1 loss (mapped) promote the epithelial-mesenchymal-like transition that drives the hepatotropic metastasis of uveal melanoma."
 ---
 
 # Uveal Melanoma
@@ -548,6 +557,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Downstream of the GNAQ/GNA11 drivers, PI3K-AKT-mTOR signaling (AKT, mTOR and PTEN already mapped) supports uveal melanoma survival, a targetable axis parallel to its YAP and MAPK arms.
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Uveal melanoma characteristically over-expresses anti-apoptotic BCL-2, underlying its resistance to chemotherapy and the long survival of the dormant liver micrometastases that determine its lethality.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH signaling promotes the proliferation and invasive, metastatic phenotype of uveal melanoma, cooperating with the YAP and MAPK arms already mapped downstream of GNAQ/GNA11.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — Cyclin-D1 (mapped) and CDK4/6 release E2F1 to drive proliferation downstream of the constitutive GNAQ/GNA11-MAPK signaling of uveal melanoma.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A loss removes the restraint on the cyclin-D1-CDK4/6 axis and is associated with progression of uveal melanoma.
+- `connects-to` → **[CDH1](../../03-molecular/cdh1/README.md)** — Loss of E-cadherin and the dedifferentiation accompanying BAP1 loss (mapped) promote the epithelial-mesenchymal-like transition that drives the hepatotropic metastasis of uveal melanoma.
 
 ---
 

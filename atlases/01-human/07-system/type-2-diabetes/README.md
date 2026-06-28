@@ -319,6 +319,15 @@ cross_links:
   - target: 01-human/03-molecular/pcsk9
     relation: connects-to
     note: "Diabetic dyslipidaemia: the atherogenic dyslipidaemia of type 2 diabetes amplifies cardiovascular risk, and PCSK9 (which raises LDL) is targeted alongside the statins already mapped to lower that risk in these high-risk patients."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "Metabolic insulin arm: the insulin receptor (mapped) signals through IRS to PI3K and AKT (mapped); blunting of this PI3K branch is the molecular core of insulin resistance in type 2 diabetes."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "Glycogen control: insulin-activated AKT (mapped) inhibits GSK-3β to switch on glycogen synthase; elevated GSK-3β activity in type 2 diabetes impairs glycogen storage and insulin signalling."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "Selective insulin resistance: while the PI3K metabolic arm is blunted, insulin's MAPK-ERK mitogenic arm remains active in type 2 diabetes, a selectivity that drives the vascular and proliferative complications."
 ---
 
 # Type 2 Diabetes
@@ -522,6 +531,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Insulin signals through the insulin-receptor-PI3K-AKT axis (insulin-receptor and FOXO1 already mapped) to drive glucose uptake and suppress hepatic gluconeogenesis, and impaired AKT signaling is the molecular heart of insulin resistance.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Chronic nutrient excess activates mTORC1-S6K, which feeds back to inhibit insulin-receptor-substrate signaling, a mechanism coupling overnutrition and obesity to the insulin resistance of type 2 diabetes.
 - `connects-to` → **[PCSK9](../../03-molecular/pcsk9/README.md)** — The atherogenic dyslipidemia of type 2 diabetes amplifies cardiovascular risk, and PCSK9 (which raises LDL) is targeted alongside the statins already mapped to lower that risk in these high-risk patients.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — The insulin receptor (mapped) signals through IRS to PI3K and AKT (mapped); blunting of this PI3K branch is the molecular core of insulin resistance in type 2 diabetes.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — Insulin-activated AKT (mapped) inhibits GSK-3β to switch on glycogen synthase; elevated GSK-3β activity in type 2 diabetes impairs glycogen storage and insulin signaling.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — While the PI3K metabolic arm is blunted, insulin's MAPK-ERK mitogenic arm remains active in type 2 diabetes, a selectivity that drives the vascular and proliferative complications.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
