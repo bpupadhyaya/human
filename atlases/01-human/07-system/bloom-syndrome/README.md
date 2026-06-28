@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/secretory-iga
     relation: connects-to
     note: "Immunodeficiency: Bloom syndrome features low immunoglobulins, including secretory IgA, and the resulting impaired mucosal immunity underlies the recurrent respiratory and gastrointestinal infections that complicate the disorder."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Repair-gene transcription: E2F1 transactivates homologous-recombination genes including RAD51 and BRCA1 (already mapped), so the RB-E2F axis intersects the very repair machinery BLM helicase loss compromises in Bloom syndrome."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "Proliferative drive: cyclin-D-CDK4/6 (cyclin-D1 already mapped) propels cell-cycle entry, and the genomic instability of BLM-deficient cells accelerates the mutational hits that deregulate this axis in Bloom-associated cancers."
+  - target: 01-human/03-molecular/rb1
+    relation: connects-to
+    note: "Checkpoint restraint: RB1 holds back E2F-driven S-phase entry until repair is complete, and the relentless replication stress of Bloom syndrome makes this restraint critical to limiting propagation of damaged genomes."
 ---
 
 # Bloom Syndrome
@@ -549,6 +558,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — BLM-deficient cells accumulate micronuclei and cytosolic DNA from their excess chromosomal breakage, activating cGAS-STING and a chronic type-I-interferon inflammation that accompanies the genomic instability of Bloom syndrome.
 - `connects-to` → **[Xanthine Oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Xanthine-oxidase-derived reactive oxygen species add oxidative lesions to the already unstable BLM-deficient genome, compounding the DNA damage that drives the cancer predisposition and sun-sensitive skin of Bloom syndrome.
 - `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — Bloom syndrome features low immunoglobulins, including secretory IgA, and the resulting impaired mucosal immunity underlies the recurrent respiratory and gastrointestinal infections that complicate the disorder.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — E2F1 transactivates homologous-recombination genes including RAD51 and BRCA1 (already mapped), so the RB-E2F axis intersects the very repair machinery BLM helicase loss compromises in Bloom syndrome.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Cyclin-D-CDK4/6 (cyclin-D1 already mapped) propels cell-cycle entry, and the genomic instability of BLM-deficient cells accelerates the mutational hits that deregulate this axis in Bloom-associated cancers.
+- `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — RB1 holds back E2F-driven S-phase entry until repair is complete, and the relentless replication stress of Bloom syndrome makes this restraint critical to limiting propagation of damaged genomes.
 
 ---
 

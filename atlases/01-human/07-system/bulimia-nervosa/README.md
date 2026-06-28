@@ -315,6 +315,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "Fluid dysregulation: repeated vomiting and laxative abuse activate vasopressin and the renin-angiotensin system, and the rebound fluid retention on stopping purging — pseudo-Bartter syndrome with oedema — is a distressing complication of bulimia recovery."
+  - target: 01-human/03-molecular/orexin
+    relation: connects-to
+    note: "Arousal and reward feeding: orexin (hypocretin) links arousal state to food reward and motivated eating, and its dysregulation contributes to the loss-of-control binge episodes that define bulimia nervosa."
+  - target: 01-human/03-molecular/glucocorticoid-receptor
+    relation: connects-to
+    note: "HPA-axis output: cortisol and CRH (already mapped) act through the glucocorticoid receptor, and the heightened HPA tone of bulimia drives stress-induced binge eating and the reward sensitisation that perpetuates the binge-purge cycle."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "Glycaemic swings: the binge-purge cycle drives wide insulin excursions (insulin already mapped), and insulin-receptor signalling in hypothalamic appetite circuits couples these metabolic swings to the disordered hunger and satiety of bulimia."
 ---
 
 # Bulimia Nervosa
@@ -543,6 +552,9 @@ All of the following must be met:
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — FGF21 signaling through FGFR1c with β-Klotho suppresses the preference for sugar and sweet foods, a metabolic appetite axis relevant to the carbohydrate-rich binges that characterize bulimia nervosa.
 - `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Acetylcholine from accumbens cholinergic interneurons signals meal termination, and dysfunction of this striatal off-switch is implicated in the loss-of-control overeating that defines a bulimic binge.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Repeated vomiting and laxative abuse activate vasopressin and the renin-angiotensin system, and the rebound fluid retention on stopping purging—pseudo-Bartter syndrome with edema—is a distressing complication of bulimia recovery.
+- `connects-to` → **[Orexin](../../03-molecular/orexin/README.md)** — Orexin (hypocretin) links arousal state to food reward and motivated eating, and its dysregulation contributes to the loss-of-control binge episodes that define bulimia nervosa.
+- `connects-to` → **[Glucocorticoid Receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Cortisol and CRH (already mapped) act through the glucocorticoid receptor, and the heightened HPA tone of bulimia drives stress-induced binge eating and the reward sensitization that perpetuates the binge-purge cycle.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — The binge-purge cycle drives wide insulin excursions (insulin already mapped), and insulin-receptor signaling in hypothalamic appetite circuits couples these metabolic swings to the disordered hunger and satiety of bulimia.
 
 ## Treatment
 
