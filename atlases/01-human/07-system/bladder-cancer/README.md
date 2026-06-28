@@ -319,6 +319,15 @@ cross_links:
   - target: 01-human/03-molecular/cdh1
     relation: connects-to
     note: "EMT and invasion: loss of E-cadherin during epithelial-mesenchymal transition releases urothelial-cancer cells from their junctions, a step in the progression from papillary non-invasive tumour to the muscle-invasive disease that metastasises."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "MAPK proliferation: activating FGFR3 and RAS mutations (FGFR and KRAS already mapped) signal through the MAPK-ERK cascade, the proliferative driver of urothelial cancer targeted by FGFR inhibitors such as erdafitinib."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Cell-cycle release: the RB-E2F axis (RB1, CDKN2A and cyclin-D1 already mapped) is disrupted in muscle-invasive bladder cancer, releasing E2F1-driven transcription and unrestrained proliferation."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "PI3K activation: PTEN loss activates the PI3K-AKT-mTOR pathway (PIK3CA, AKT and mTOR already mapped) in bladder cancer, supporting growth and serving as a candidate therapeutic node."
 ---
 
 # Bladder Cancer
@@ -540,6 +549,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Intravesical BCG for non-muscle-invasive bladder cancer works by provoking a Th1, IFN-γ-driven immune response against the urothelium, the oldest and still standard cancer immunotherapy, predating checkpoint blockade by decades.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Cisplatin-based regimens (gemcitabine-cisplatin) kill urothelial-cancer cells through caspase-3-mediated apoptosis, the cytotoxic backbone of neoadjuvant and metastatic bladder-cancer treatment whose evasion drives platinum resistance.
 - `connects-to` → **[E-cadherin](../../03-molecular/cdh1/README.md)** — Loss of E-cadherin during epithelial-mesenchymal transition releases urothelial-cancer cells from their junctions, a step in the progression from papillary non-invasive tumor to the muscle-invasive disease that metastasizes.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Activating FGFR3 and RAS mutations (FGFR and KRAS already mapped) signal through the MAPK-ERK cascade, the proliferative driver of urothelial cancer targeted by FGFR inhibitors such as erdafitinib.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — The RB-E2F axis (RB1, CDKN2A and cyclin-D1 already mapped) is disrupted in muscle-invasive bladder cancer, releasing E2F1-driven transcription and unrestrained proliferation.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss activates the PI3K-AKT-mTOR pathway (PIK3CA, AKT and mTOR already mapped) in bladder cancer, supporting growth and serving as a candidate therapeutic node.
 
 ---
 

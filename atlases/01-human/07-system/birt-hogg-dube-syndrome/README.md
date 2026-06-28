@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/caspase-3
     relation: connects-to
     note: "Cytostatic mTOR therapy: folliculin loss disinhibits mTOR and suppresses caspase-3 apoptosis, so mTOR inhibitors restrain rather than kill BHD tumour cells — a cytostatic effect that mirrors their action in the related mTOR-driven hamartoma syndromes."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K dysregulation: FLCN loss in Birt-Hogg-Dubé dysregulates the PI3K-AKT-mTOR axis (AKT and mTOR already mapped), driving the renal tumours and skin lesions of the syndrome."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Fibrofolliculoma origin: NOTCH governs hair-follicle development, and its dysregulation downstream of FLCN loss contributes to the fibrofolliculomas — hair-follicle hamartomas — that are the defining skin lesion of BHD."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Apoptosis resistance: anti-apoptotic BCL-2 supports the survival of the slow-growing renal tumours of Birt-Hogg-Dubé, complementing the mTOR-driven suppression of caspase-3 apoptosis already mapped."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -552,6 +561,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[FH](../../03-molecular/fh/README.md)** — Birt-Hogg-Dubé (FLCN) sits among the inherited renal-cancer syndromes alongside VHL, SDHB and fumarate-hydratase-driven HLRCC, each producing a characteristic histology—BHD the chromophobe and hybrid oncocytic tumors.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — IGF-1R signaling, converging on the same AKT-mTOR axis dysregulated by folliculin loss, supports the proliferation of the renal tumors of Birt-Hogg-Dubé syndrome.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Folliculin loss disinhibits mTOR and suppresses caspase-3 apoptosis, so mTOR inhibitors restrain rather than kill BHD tumor cells—a cytostatic effect that mirrors their action in the related mTOR-driven hamartoma syndromes.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — FLCN loss in Birt-Hogg-Dubé dysregulates the PI3K-AKT-mTOR axis (AKT and mTOR already mapped), driving the renal tumors and skin lesions of the syndrome.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH governs hair-follicle development, and its dysregulation downstream of FLCN loss contributes to the fibrofolliculomas—hair-follicle hamartomas—that are the defining skin lesion of BHD.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Anti-apoptotic BCL-2 supports survival of the slow-growing renal tumors of Birt-Hogg-Dubé, complementing the mTOR-driven suppression of caspase-3 apoptosis already mapped.
 
 ---
 
