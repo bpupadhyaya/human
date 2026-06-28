@@ -310,6 +310,15 @@ cross_links:
   - target: 01-human/03-molecular/jak1-2
     relation: connects-to
     note: "Checkpoint resistance: acquired loss-of-function mutations in JAK1/JAK2 render NSCLC cells unresponsive to interferon-γ, abolishing PD-L1 induction and antigen presentation — a key mechanism of acquired resistance to PD-1 blockade."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "PI3K-AKT brake: PTEN loss is a recurrent event in NSCLC that unleashes the PI3K-AKT-mTOR axis already driven by PIK3CA and EGFR, promoting survival signalling and contributing to resistance against EGFR tyrosine-kinase inhibitors."
+  - target: 01-human/03-molecular/axl-receptor
+    relation: connects-to
+    note: "Targeted-therapy resistance: AXL receptor tyrosine kinase drives epithelial-mesenchymal transition and is upregulated in NSCLC escaping EGFR- and ALK-targeted therapy, a bypass survival pathway that motivates AXL inhibitors in combination regimens."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "Cell-cycle control: CDKN2A loss and cyclin-D1 overexpression in NSCLC converge on CDK4/6 to inactivate RB and force the G1-S transition, the proliferative engine that makes CDK4/6 inhibitors an emerging strategy in RB-intact disease."
 ---
 
 # NSCLC
@@ -508,6 +517,9 @@ cross_links:
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — FGFR1 amplification is a recurrent oncogenic event in squamous NSCLC, the histology that lacks the EGFR/ALK targets of adenocarcinoma, making FGFR inhibitors one of the few precision options in lung squamous-cell carcinoma.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCR4-CXCL12 signaling directs NSCLC metastasis to CXCL12-rich bone marrow, brain and adrenal niches, and sustains an immunosuppressive microenvironment that excludes T cells from the tumor.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Acquired loss-of-function mutations in JAK1/JAK2 render NSCLC cells unresponsive to interferon-γ, abolishing PD-L1 induction and antigen presentation—a key mechanism of acquired resistance to PD-1 blockade.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss is a recurrent event in NSCLC that unleashes the PI3K-AKT-mTOR axis already driven by PIK3CA and EGFR, promoting survival signaling and contributing to resistance against EGFR tyrosine-kinase inhibitors.
+- `connects-to` → **[AXL Receptor Tyrosine Kinase](../../03-molecular/axl-receptor/README.md)** — AXL drives epithelial-mesenchymal transition and is upregulated in NSCLC escaping EGFR- and ALK-targeted therapy, a bypass survival pathway that motivates AXL inhibitors in combination regimens.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDKN2A loss and cyclin-D1 overexpression in NSCLC converge on CDK4/6 to inactivate RB and force the G1-S transition, the proliferative engine that makes CDK4/6 inhibitors an emerging strategy in RB-intact disease.
 
 [^soria-2018-osimertinib-flaura]: Soria JC, Ohe Y, Vansteenkiste J, et al. Osimertinib in untreated EGFR-mutated advanced non-small-cell lung cancer. *N Engl J Med.* 2018;378(2):113-125. [doi:10.1056/NEJMoa1713137](https://doi.org/10.1056/NEJMoa1713137) · [PubMed 29151359](https://pubmed.ncbi.nlm.nih.gov/29151359/)
 [^reck-2016-pembrolizumab-keynote024]: Reck M, Rodríguez-Abreu D, Robinson AG, et al. Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell lung cancer. *N Engl J Med.* 2016;375(19):1823-1833. [doi:10.1056/NEJMoa1606774](https://doi.org/10.1056/NEJMoa1606774) · [PubMed 27718347](https://pubmed.ncbi.nlm.nih.gov/27718347/)

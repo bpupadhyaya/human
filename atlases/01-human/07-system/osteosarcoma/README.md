@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Macrophage immunotherapy: CCL2 recruits the tumour-associated macrophages of osteosarcoma, the cells reprogrammed by mifamurtide (liposomal MTP-PE), the macrophage-activating immunotherapy added to chemotherapy in non-metastatic disease."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Bone-matrix vicious cycle: bone is the body's largest reservoir of latent TGF-β, and osteoclastic resorption in osteosarcoma releases it to drive tumour proliferation and lung metastasis, the feed-forward loop that links bone turnover to disease progression."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "IL-6/STAT3 axis: osteosarcoma cells and their microenvironment secrete IL-6, activating the STAT3 signalling already mapped here to promote proliferation, chemoresistance and lung metastasis, with high IL-6 marking poorer prognosis."
+  - target: 01-human/03-molecular/met
+    relation: connects-to
+    note: "HGF-MET driver: MET overexpression establishes an autocrine HGF-MET loop capable of transforming osteoblasts, driving the invasive, metastatic phenotype of osteosarcoma and offering a target for MET tyrosine-kinase inhibitors."
 ---
 
 # Osteosarcoma
@@ -530,6 +539,9 @@ OS is relatively radiation-resistant (high-dose radiation ~70+ Gy may achieve lo
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — The MAP regimen (methotrexate, doxorubicin, cisplatin) kills osteosarcoma cells through caspase-3-mediated apoptosis, and defects in this death program underlie the chemoresistance that limits survival in metastatic disease.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteosarcoma cells secrete osteopontin, the bone-matrix phosphoprotein that promotes their migration and seeding of the lungs, the metastatic site that determines prognosis in this aggressive bone tumor.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 recruits the tumor-associated macrophages of osteosarcoma, the cells reprogrammed by mifamurtide (liposomal MTP-PE), the macrophage-activating immunotherapy added to chemotherapy in non-metastatic disease.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — Bone is the body's largest reservoir of latent TGF-β, and osteoclastic resorption in osteosarcoma releases it to drive tumor proliferation and lung metastasis, a feed-forward loop linking bone turnover to disease progression.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Osteosarcoma cells and their microenvironment secrete IL-6, activating the STAT3 signaling already mapped here to promote proliferation, chemoresistance and lung metastasis, with high IL-6 marking poorer prognosis.
+- `connects-to` → **[MET](../../03-molecular/met/README.md)** — MET overexpression establishes an autocrine HGF-MET loop capable of transforming osteoblasts, driving the invasive, metastatic phenotype of osteosarcoma and offering a target for MET tyrosine-kinase inhibitors.
 
 [^bielack-2002-coss-osteosarcoma]: Bielack SS, Kempf-Bielack B, Delling G, et al. Prognostic factors in high-grade osteosarcoma of the extremities or trunk: an analysis of 1,702 patients treated on neoadjuvant Cooperative Osteosarcoma Study Group protocols. *J Clin Oncol.* 2002;20(3):776-790. [doi:10.1200/JCO.2002.20.3.776](https://doi.org/10.1200/JCO.2002.20.3.776) · [PubMed 11821461](https://pubmed.ncbi.nlm.nih.gov/11821461/)
 [^marina-2016-euramos1-osteosarcoma]: Marina NM, Smeland S, Bielack SS, et al. Comparison of MAPIE versus MAP in patients with a poor response to preoperative chemotherapy for newly diagnosed high-grade osteosarcoma (EURAMOS-1). *Lancet Oncol.* 2016;17(10):1396-1408. [doi:10.1016/S1470-2045(16)30214-5](https://doi.org/10.1016/S1470-2045(16)30214-5) · [PubMed 27569442](https://pubmed.ncbi.nlm.nih.gov/27569442/)
