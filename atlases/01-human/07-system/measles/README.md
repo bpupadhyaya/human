@@ -326,6 +326,15 @@ cross_links:
   - target: 01-human/03-molecular/bcl-2
     relation: connects-to
     note: "Memory-cell loss: by tipping pre-existing memory lymphocytes toward apoptosis (lowering anti-apoptotic BCL-2), measles erases prior immunological memory, the cellular basis of measles immune amnesia."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Interferon evasion: measles V and P proteins target JAK-STAT signalling to block interferon-stimulated-gene induction downstream of STAT1 and type-I interferon (both already mapped), a central immune-evasion mechanism of the virus."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement neutralisation: complement C3 opsonises measles virions and amplifies antibody-mediated neutralisation (IgG already mapped), part of the humoral protection conferred by infection and vaccination."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Inflammasome activation: measles virus activates the NLRP3 inflammasome, contributing to the inflammatory cytokine response and to the rare CNS immunopathology of subacute sclerosing panencephalitis."
 ---
 
 # Measles
@@ -573,6 +582,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[IRF3](../../03-molecular/irf3/README.md)** — Measles V and other proteins block IRF3 and the downstream interferon induction (RIG-I/MAVS already mapped), an immune-evasion mechanism that helps the virus disseminate.
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — Measles induces immunosuppressive TGF-β (with the IL-10 already mapped), part of the profound transient immunosuppression and immune amnesia that leave survivors vulnerable to other infections.
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — By tipping pre-existing memory lymphocytes toward apoptosis (lowering anti-apoptotic BCL-2), measles erases prior immunological memory, the cellular basis of measles immune amnesia.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Measles V and P proteins target JAK-STAT signaling to block interferon-stimulated-gene induction downstream of STAT1 and type-I interferon (both already mapped), a central immune-evasion mechanism of the virus.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 opsonizes measles virions and amplifies antibody-mediated neutralization (IgG already mapped), part of the humoral protection conferred by infection and vaccination.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Measles virus activates the NLRP3 inflammasome, contributing to the inflammatory cytokine response and to the rare CNS immunopathology of subacute sclerosing panencephalitis.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)

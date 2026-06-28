@@ -328,6 +328,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "Neuroinflammation: IL-6 from the activated microglia (already mapped) contributes to the neuroinflammation, with IL-1β and TNF-α, that accelerates the neurodegeneration of Lewy-body dementia."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Innate neuroinflammation: aggregated α-synuclein (SNCA already mapped) engages microglial TLRs that signal through MyD88 to NF-κB, sustaining the chronic innate-immune activation that drives Lewy-body neurodegeneration."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "Dual proteinopathy: GSK-3β phosphorylates tau (MAPT already mapped) and modulates α-synuclein toxicity, mechanistically linking the combined tau and synuclein pathology characteristic of Lewy body dementia."
+  - target: 01-human/03-molecular/ntrk
+    relation: connects-to
+    note: "Neurotrophic decline: BDNF signalling through its TrkB receptor (NTRK) supports neuronal survival, and the loss of this trophic support accelerates the cholinergic and cortical degeneration of Lewy body dementia."
 ---
 
 # Lewy Body Dementia
@@ -557,6 +566,9 @@ Approximately 25-50% of clinically diagnosed DLB cases have significant AD co-pa
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — Oxidative stress drives the α-synuclein aggregation and neurodegeneration of Lewy-body dementia, and a declining NRF2 antioxidant response permits this damage, as in the related Parkinson's disease.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR restrains the autophagy (already mapped) that clears α-synuclein, and its dysregulation impairs the lysosomal clearance whose failure allows Lewy bodies to accumulate.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 from the activated microglia (already mapped) contributes to the neuroinflammation, with IL-1β and TNF-α, that accelerates the neurodegeneration of Lewy-body dementia.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Aggregated α-synuclein (SNCA already mapped) engages microglial TLRs that signal through MyD88 to NF-κB, sustaining the chronic innate-immune activation that drives Lewy-body neurodegeneration.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β phosphorylates tau (MAPT already mapped) and modulates α-synuclein toxicity, mechanistically linking the combined tau and synuclein pathology characteristic of Lewy body dementia.
+- `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — BDNF signaling through its TrkB receptor (NTRK) supports neuronal survival, and the loss of this trophic support accelerates the cholinergic and cortical degeneration of Lewy body dementia.
 
 [^mckeith-2017-dlb-criteria]: McKeith IG, Boeve BF, Dickson DW, et al. Diagnosis and management of dementia with Lewy bodies: Fourth consensus report of the DLB Consortium. *Neurology.* 2017;89(1):88-100. [doi:10.1212/WNL.0000000000004058](https://doi.org/10.1212/WNL.0000000000004058) · [PubMed 28592453](https://pubmed.ncbi.nlm.nih.gov/28592453/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
