@@ -319,6 +319,15 @@ cross_links:
   - target: 01-human/03-molecular/endothelin-1
     relation: connects-to
     note: "Capillary vasculopathy: endothelin-1-driven vasoconstriction contributes to the capillary dropout and ischaemia that underlie the perifascicular atrophy of dermatomyositis muscle and the nailfold capillary changes of its vasculopathy."
+  - target: 01-human/03-molecular/mavs
+    relation: connects-to
+    note: "MDA5-IFN axis: in anti-MDA5 dermatomyositis the cytosolic RNA sensor signals through MAVS to drive the type-I interferon response that defines the disease and its rapidly progressive interstitial lung disease."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Nucleic-acid sensing: cytosolic DNA sensing through cGAS-STING contributes to the interferon-driven muscle and skin inflammation of dermatomyositis, complementing the RIG-I-like RNA sensing already mapped."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Checkpoint tolerance: immune-checkpoint-inhibitor therapy can trigger a dermatomyositis-like myositis, implicating PD-1 in maintaining the peripheral tolerance whose loss permits the muscle and skin autoimmunity of the disease."
 ---
 ---
 
@@ -545,6 +554,9 @@ DM carries a ~3–7× elevated cancer risk overall. Anti-TIF1γ (TRIM33) suppres
 - `connects-to` → **[RIG-I](../../03-molecular/rig-i/README.md)** — MDA5 (IFIH1), a RIG-I-like cytosolic RNA sensor, is itself a major dermatomyositis autoantigen—anti-MDA5 antibodies define the clinically-amyopathic subset with rapidly progressive interstitial lung disease and a vasculopathic, ulcerating skin phenotype.
 - `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — BAFF supports the autoreactive B cells producing the myositis-specific antibodies (anti-Mi-2, TIF1-γ, NXP2, MDA5), part of the humoral arm that rituximab targets in refractory dermatomyositis.
 - `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Endothelin-1-driven vasoconstriction contributes to the capillary dropout and ischemia that underlie the perifascicular atrophy of dermatomyositis muscle and the nailfold capillary changes of its vasculopathy.
+- `connects-to` → **[MAVS](../../03-molecular/mavs/README.md)** — In anti-MDA5 dermatomyositis the cytosolic RNA sensor signals through MAVS to drive the type-I interferon response that defines the disease and its rapidly progressive interstitial lung disease.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING contributes to the interferon-driven muscle and skin inflammation of dermatomyositis, complementing the RIG-I-like RNA sensing already mapped.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Immune-checkpoint-inhibitor therapy can trigger a dermatomyositis-like myositis, implicating PD-1 in maintaining the peripheral tolerance whose loss permits the muscle and skin autoimmunity of the disease.
 
 [^bohan-peter-1975-dm-criteria]: Bohan A, Peter JB. Polymyositis and dermatomyositis. *N Engl J Med.* 1975;292(7):344-347. [doi:10.1056/NEJM197502132920706](https://doi.org/10.1056/NEJM197502132920706) · [PubMed 1090839](https://pubmed.ncbi.nlm.nih.gov/1090839/)
 [^lundberg-2021-iim-classification]: Lundberg IE, et al. 2017 EULAR/ACR classification criteria for adult and juvenile idiopathic inflammatory myopathies. *Arthritis Rheumatol.* 2017;69(12):2271-2282. [doi:10.1002/art.40320](https://doi.org/10.1002/art.40320) · [PubMed 29106061](https://pubmed.ncbi.nlm.nih.gov/29106061/)

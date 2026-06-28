@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/thrombin
     relation: connects-to
     note: "Immunothrombosis: endothelial injury and neutrophil activation in severe COVID-19 drive excess thrombin generation, producing the pulmonary microthrombi and venous thromboembolism that are a major cause of death and the rationale for anticoagulation."
+  - target: 01-human/03-molecular/mavs
+    relation: connects-to
+    note: "Interferon evasion: SARS-CoV-2 proteins antagonise RIG-I/MAVS antiviral signalling (RIG-I already mapped) to suppress the early type-I interferon response, an immune-evasion mechanism that contributes to severe, delayed-interferon COVID-19."
+  - target: 01-human/03-molecular/irf3
+    relation: connects-to
+    note: "Blocked IFN induction: multiple SARS-CoV-2 ORF proteins block IRF3 activation and nuclear translocation, dampening interferon induction so that the dysregulated, delayed interferon response shapes COVID-19 severity."
+  - target: 01-human/03-molecular/pf4
+    relation: connects-to
+    note: "Platelet immunothrombosis: platelet factor 4 is central to the platelet activation and immunothrombosis of severe COVID-19, and anti-PF4 antibodies underlie the rare vaccine-induced thrombotic thrombocytopenia (VITT)."
 ---
 
 # COVID-19 Disease
@@ -476,6 +485,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[Glucocorticoid receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Dexamethasone acting through the glucocorticoid receptor was the first treatment shown to cut mortality in severe COVID-19, broadly suppressing the NF-κB-driven cytokine program that injures the lungs in the hyperinflammatory phase.
 - `connects-to` → **[RIG-I](../../03-molecular/rig-i/README.md)** — The cytosolic sensor RIG-I detects SARS-CoV-2 RNA to trigger the type-I-interferon response, and the virus's active antagonism of this pathway explains the blunted, delayed interferon that permits early uncontrolled replication.
 - `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — Endothelial injury and neutrophil activation in severe COVID-19 drive excess thrombin generation, producing the pulmonary microthrombi and venous thromboembolism that are a major cause of death and the rationale for anticoagulation.
+- `connects-to` → **[MAVS](../../03-molecular/mavs/README.md)** — SARS-CoV-2 proteins antagonize RIG-I/MAVS antiviral signaling (RIG-I already mapped) to suppress the early type-I interferon response, an immune-evasion mechanism that contributes to severe, delayed-interferon COVID-19.
+- `connects-to` → **[IRF3](../../03-molecular/irf3/README.md)** — Multiple SARS-CoV-2 ORF proteins block IRF3 activation and nuclear translocation, dampening interferon induction so that the dysregulated, delayed interferon response shapes COVID-19 severity.
+- `connects-to` → **[PF4](../../03-molecular/pf4/README.md)** — Platelet factor 4 is central to the platelet activation and immunothrombosis of severe COVID-19, and anti-PF4 antibodies underlie the rare vaccine-induced thrombotic thrombocytopenia (VITT).
 
 ## Pathology
 
