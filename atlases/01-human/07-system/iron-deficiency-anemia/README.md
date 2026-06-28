@@ -309,6 +309,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "Hypoxic compensation: the tissue hypoxia of anaemia stabilises HIF and drives VEGF release, the angiogenic and erythropoietic compensatory response that the body mounts to the reduced oxygen-carrying capacity of iron-deficient blood."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "Hepcidin suppression: the BMP-SMAD pathway (SMAD4) driving hepcidin transcription is downregulated when iron is scarce, lowering hepcidin to maximise iron absorption — the appropriate response distinguishing iron-deficiency anaemia from the anaemia of inflammation."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Diagnostic contrast: IL-6 raises hepcidin to sequester iron, and its absence in true iron-deficiency anaemia keeps hepcidin low — the key mechanistic distinction from the iron-restricted anaemia of chronic disease."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Ineffective erythropoiesis: iron deficiency impairs erythroid maturation and increases caspase-3 apoptosis of developing erythroblasts, contributing to the ineffective erythropoiesis of severe iron deficiency."
 ---
 
 # Iron Deficiency Anemia
@@ -526,6 +535,9 @@ Iron is essential for:
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Iron is the cofactor for tyrosine hydroxylase, the rate-limiting enzyme for noradrenaline and dopamine, so iron deficiency blunts catecholamine signaling—a basis for the poor concentration, fatigue and attention problems beyond the anemia.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Dietary calcium competitively inhibits non-heme iron uptake at the enterocyte, a clinically important interaction explaining why calcium supplements and dairy taken with meals can worsen iron deficiency.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — The tissue hypoxia of anemia stabilizes HIF and drives VEGF release, the angiogenic and erythropoietic compensatory response that the body mounts to the reduced oxygen-carrying capacity of iron-deficient blood.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — The BMP-SMAD pathway (SMAD4) driving hepcidin transcription is downregulated when iron is scarce, lowering hepcidin to maximize iron absorption—the appropriate response distinguishing iron-deficiency anemia from the anemia of inflammation.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 raises hepcidin to sequester iron, and its absence in true iron-deficiency anemia keeps hepcidin low—the key mechanistic distinction from the iron-restricted anemia of chronic disease.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Iron deficiency impairs erythroid maturation and increases caspase-3 apoptosis of developing erythroblasts, contributing to the ineffective erythropoiesis of severe iron deficiency.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)

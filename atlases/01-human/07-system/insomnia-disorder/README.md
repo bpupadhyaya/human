@@ -319,6 +319,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "Circadian output: vasopressin is a key output neuropeptide of the suprachiasmatic-nucleus master clock, and its rhythmic signalling helps set the circadian timing whose misalignment underlies circadian-pattern insomnia."
+  - target: 01-human/03-molecular/glucocorticoid-receptor
+    relation: connects-to
+    note: "Hyperarousal axis: the cortisol/CRH hyperarousal of insomnia (already mapped) acts through the glucocorticoid receptor, the HPA-axis overactivity that both causes and is worsened by chronic sleep loss."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "Sleep-dependent plasticity: sleep regulates BDNF-dependent synaptic plasticity and memory consolidation, and the disrupted sleep of insomnia impairs this restorative function, linking it to the cognitive and mood symptoms of the disorder."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Synaptic restoration: sleep promotes mTOR-dependent protein synthesis that restores synaptic and cellular homeostasis, a recuperative process curtailed by the chronic sleep loss of insomnia."
 ---
 
 # Insomnia Disorder
@@ -556,6 +565,9 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Falling estrogen disrupts sleep architecture and thermoregulation, driving the vasomotor hot flushes and the surge in insomnia that accompany the menopausal transition, one of the commonest secondary causes of disturbed sleep in women.
 - `connects-to` → **[Thyroid hormones](../../03-molecular/thyroid-hormones/README.md)** — Thyroid hormone excess raises metabolic rate and sympathetic arousal that fragment sleep, making hyperthyroidism a classic medical cause of insomnia that should be excluded before treating it as primary.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Vasopressin is a key output neuropeptide of the suprachiasmatic-nucleus master clock, and its rhythmic signaling helps set the circadian timing whose misalignment underlies circadian-pattern insomnia.
+- `connects-to` → **[Glucocorticoid Receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — The cortisol/CRH hyperarousal of insomnia (already mapped) acts through the glucocorticoid receptor, the HPA-axis overactivity that both causes and is worsened by chronic sleep loss.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Sleep regulates BDNF-dependent synaptic plasticity and memory consolidation, and the disrupted sleep of insomnia impairs this restorative function, linking it to the cognitive and mood symptoms of the disorder.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Sleep promotes mTOR-dependent protein synthesis that restores synaptic and cellular homeostasis, a recuperative process curtailed by the chronic sleep loss of insomnia.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)
