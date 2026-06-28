@@ -300,6 +300,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative stress: mitochondrial dysfunction and xanthine-oxidase-derived reactive oxygen species add an oxidative burden to the striatal neurons in Huntington's, compounding the energy failure that the NRF2 antioxidant response struggles to offset."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Pro-survival phosphorylation: IGF-1 and BDNF (both mapped) signal through PI3K-AKT, and AKT phosphorylates huntingtin at serine-421 to reduce its toxicity — a neuroprotective axis that is impaired in Huntington's disease."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "Energy sensing: the bioenergetic failure of Huntington's (ATP already mapped) activates AMPK, which both reflects the energy deficit and promotes the autophagic clearance (autophagy mapped) of mutant huntingtin aggregates."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Mitochondrial apoptosis: a shift in the BCL-2 family balance toward apoptosis engages the mitochondrial caspase pathway (caspase-3 mapped) that drives the death of striatal medium spiny neurons in Huntington's."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -445,3 +454,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Mutant huntingtin sensitizes striatal NMDA receptors and disrupts mitochondrial calcium handling, so glutamate excitotoxicity floods medium spiny neurons with calcium—a central mechanism of their selective vulnerability in Huntington's.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 released by activated microglia in the Huntington's striatum amplifies the neuroinflammatory response, a microglial signal increasingly implicated as a driver of the neurodegeneration alongside the cell-autonomous huntingtin toxicity.
 - `connects-to` → **[Xanthine Oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Mitochondrial dysfunction and xanthine-oxidase-derived reactive oxygen species add an oxidative burden to the striatal neurons in Huntington's, compounding the energy failure that the NRF2 antioxidant response struggles to offset.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — IGF-1 and BDNF (both mapped) signal through PI3K-AKT, and AKT phosphorylates huntingtin at serine-421 to reduce its toxicity—a neuroprotective axis that is impaired in Huntington's disease.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — The bioenergetic failure of Huntington's (ATP already mapped) activates AMPK, which both reflects the energy deficit and promotes the autophagic clearance (autophagy mapped) of mutant huntingtin aggregates.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — A shift in the BCL-2 family balance toward apoptosis engages the mitochondrial caspase pathway (caspase-3 mapped) that drives the death of striatal medium spiny neurons in Huntington's.

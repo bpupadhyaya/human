@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/collagen
     relation: connects-to
     note: "Nodular sclerosis: the commonest Hodgkin subtype, nodular sclerosis, is defined by broad collagen bands that divide the node into nodules, a fibrotic stromal reaction orchestrated by the cytokine-secreting Reed-Sternberg cells."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Th2 microenvironment: IL-4, with the IL-5 and IL-13 already mapped, completes the Th2 cytokine programme that Reed-Sternberg cells secrete to build their permissive, eosinophil-rich tumour microenvironment."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Survival and lost identity: NOTCH1 signalling supports Reed-Sternberg cell survival and contributes to the loss of B-cell identity that characterises the malignant cells of classical Hodgkin lymphoma."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Apoptosis resistance: anti-apoptotic BCL-2 helps Reed-Sternberg cells survive against the apoptotic pressure of their inflammatory milieu, contributing to treatment resistance in some Hodgkin lymphomas."
 ---
 
 # Hodgkin Lymphoma
@@ -533,6 +542,9 @@ Modern protocols minimize RT fields and doses (ISRT replacing extended-field RT)
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — ABVD and escalated-BEACOPP chemotherapy kill Reed-Sternberg cells through caspase-3-mediated apoptosis, the cytotoxic backbone that cures the majority of Hodgkin lymphoma.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Reed-Sternberg cells often downregulate MHC class I and II to escape T-cell recognition, an antigen-presentation defect that, with their PD-L1 amplification, shapes the immunosuppressed niche they build around themselves.
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — The commonest Hodgkin subtype, nodular sclerosis, is defined by broad collagen bands that divide the node into nodules, a fibrotic stromal reaction orchestrated by the cytokine-secreting Reed-Sternberg cells.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — IL-4, with the IL-5 and IL-13 already mapped, completes the Th2 cytokine program that Reed-Sternberg cells secrete to build their permissive, eosinophil-rich tumor microenvironment.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH1 signaling supports Reed-Sternberg cell survival and contributes to the loss of B-cell identity that characterizes the malignant cells of classical Hodgkin lymphoma.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Anti-apoptotic BCL-2 helps Reed-Sternberg cells survive against the apoptotic pressure of their inflammatory milieu, contributing to treatment resistance in some Hodgkin lymphomas.
 
 [^connors-2018-echelon1]: Connors JM, Jurczak W, Straus DJ, et al. Brentuximab vedotin with chemotherapy for stage III or IV Hodgkin's lymphoma. *N Engl J Med.* 2018;378(4):331-344. [doi:10.1056/NEJMoa1708984](https://doi.org/10.1056/NEJMoa1708984) · [PubMed 29360494](https://pubmed.ncbi.nlm.nih.gov/29360494/)
 [^armand-2018-nivo-hl]: Armand P, Engert A, Younes A, et al. Nivolumab for relapsed/refractory classic Hodgkin lymphoma after failure of autologous hematopoietic cell transplantation: extended follow-up of the multicohort single-arm phase II CheckMate 205 trial. *J Clin Oncol.* 2018;36(14):1428-1439. [doi:10.1200/JCO.2017.77.6717](https://doi.org/10.1200/JCO.2017.77.6717) · [PubMed 29584546](https://pubmed.ncbi.nlm.nih.gov/29584546/)
