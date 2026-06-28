@@ -325,6 +325,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c5
     relation: connects-to
     note: "Plaque complement: complement activation by cholesterol-rich plaque (C3 already mapped, through C5) amplifies the vascular inflammation of the atherosclerosis driven by familial hypercholesterolaemia."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Innate plaque inflammation: TLR sensing of oxidised LDL signals through MyD88 to NF-κB, igniting the sterile innate-immune inflammation that converts the lipid burden of FH into progressive atherosclerotic plaque."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Oxidative defence: NRF2 mounts the antioxidant response that counters the oxidative modification of the LDL accumulating in FH — the oxidised LDL that, unopposed, drives foam-cell formation and endothelial injury."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Endothelial protection: the PI3K-AKT-eNOS axis sustains endothelial nitric-oxide production, a vasoprotective pathway statins enhance pleiotropically and that the lipid excess of FH progressively impairs."
 ---
 
 # Familial Hypercholesterolemia
@@ -535,6 +544,9 @@ FH is a **monogenic autosomal dominant disorder** caused by mutations in three g
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — PDGF drives the migration and proliferation of the vascular smooth-muscle cells (already mapped) into the atherosclerotic plaque, building the neointima of the accelerated atherosclerosis of familial hypercholesterolemia.
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β regulates the collagen synthesis and fibrous-cap stability of atherosclerotic plaques, opposing the inflammatory destabilization that causes the early myocardial infarctions of FH.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Complement activation by cholesterol-rich plaque (C3 already mapped, through C5) amplifies the vascular inflammation of the atherosclerosis driven by familial hypercholesterolemia.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR sensing of oxidized LDL signals through MyD88 to NF-κB, igniting the sterile innate-immune inflammation that converts the lipid burden of FH into progressive atherosclerotic plaque.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2 mounts the antioxidant response that counters the oxidative modification of the LDL accumulating in FH — the oxidized LDL that, unopposed, drives foam-cell formation and endothelial injury.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — The PI3K-AKT-eNOS axis sustains endothelial nitric-oxide production, a vasoprotective pathway statins enhance pleiotropically and that the lipid excess of FH progressively impairs.
 
 [^goldstein-1985-ldlr-nobel]: Goldstein JL, Brown MS. The LDL receptor. *Arterioscler Thromb Vasc Biol.* 2009;29(4):431-438. [doi:10.1161/ATVBAHA.108.179564](https://doi.org/10.1161/ATVBAHA.108.179564) · [PubMed 19299327](https://pubmed.ncbi.nlm.nih.gov/19299327/)
 [^raal-2020-inclisiran-fh]: Raal FJ, Kallend D, Ray KK, et al. Inclisiran for the Treatment of Heterozygous Familial Hypercholesterolemia. *N Engl J Med.* 2020;382(16):1520-1530. [doi:10.1056/NEJMoa1913805](https://doi.org/10.1056/NEJMoa1913805) · [PubMed 32197277](https://pubmed.ncbi.nlm.nih.gov/32197277/)

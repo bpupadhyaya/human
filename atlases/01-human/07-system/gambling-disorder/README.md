@@ -306,6 +306,15 @@ cross_links:
   - target: 01-human/03-molecular/glucocorticoid-receptor
     relation: connects-to
     note: "Stress and relapse: HPA-axis stress signalling through the glucocorticoid receptor (cortisol and CRH already mapped) links stress and craving to the relapse behaviour of gambling disorder."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Reward plasticity: mTOR-dependent synaptic plasticity in the mesolimbic reward circuit consolidates the maladaptive reward learning that entrenches compulsive gambling."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "Dopamine-reward signalling: PI3K (PIK3CA) sits upstream of the AKT-GSK3β cascade (both already mapped) that transduces dopamine signalling into the reward-learning plasticity dysregulated in gambling disorder."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Reward-circuit neuroinflammation: NF-κB-driven neuroinflammation in reward regions is increasingly implicated in the persistence of addictive behaviours, including behavioural addictions such as gambling."
 sources:
   - id: grant-2016-gambling-review
     type: peer-reviewed
@@ -548,6 +557,9 @@ Persistent and recurrent problematic gambling behavior causing distress (≥4 of
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Dopamine-driven ERK signaling in the ventral striatum mediates the reward-learning plasticity that entrenches the compulsive betting of gambling disorder, paralleling substance addictions.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Dopamine D2-receptor signaling through the AKT-GSK3β axis (GSK3β already mapped) shapes the reward and impulse-control circuitry implicated in gambling disorder.
 - `connects-to` → **[Glucocorticoid Receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — HPA-axis stress signaling through the glucocorticoid receptor (cortisol and CRH already mapped) links stress and craving to the relapse behavior of gambling disorder.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR-dependent synaptic plasticity in the mesolimbic reward circuit consolidates the maladaptive reward learning that entrenches compulsive gambling.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA) sits upstream of the AKT-GSK3β cascade (both already mapped) that transduces dopamine signaling into the reward-learning plasticity dysregulated in gambling disorder.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB-driven neuroinflammation in reward regions is increasingly implicated in the persistence of addictive behaviors, including behavioral addictions such as gambling.
 
 [^potenza-2014-gambling-neuroscience]: Potenza MN. The neurobiology of pathological gambling and drug addiction: an overview and new findings. *Philos Trans R Soc Lond B Biol Sci.* 2008;363(1507):3181-3189. [doi:10.1098/rstb.2008.0100](https://doi.org/10.1098/rstb.2008.0100) · [PubMed 18640909](https://pubmed.ncbi.nlm.nih.gov/18640909/)
 [^grant-2016-gambling-review]: Grant JE, Chamberlain SR. Gambling disorder and its relationship with substance use disorders. *Am J Addict.* 2015;24(2):126-131. [doi:10.1111/ajad.12112](https://doi.org/10.1111/ajad.12112) · [PubMed 25376793](https://pubmed.ncbi.nlm.nih.gov/25376793/)
