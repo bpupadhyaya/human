@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/smad4
     relation: connects-to
     note: "Fibrogenic signalling: TGF-β signalling through SMAD4 sustains the myofibroblast phenotype and collagen production of desmoid tumours, the fibrogenic transcriptional arm cooperating with Wnt/β-catenin to build the fibromatosis."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K co-activation: PIK3CA drives the PI3K-AKT-mTOR axis (AKT and mTOR already mapped) co-active in desmoid fibromatosis, the basis for the antitumour activity of mTOR inhibitors such as sirolimus."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Proliferative output: β-catenin transactivates cyclin-D1 (mapped), and the resulting CDK4/6 activity phosphorylates RB to release E2F1, driving the cell-cycle entry that makes desmoid fibromatosis locally aggressive."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "PI3K brake: PTEN normally restrains the same PI3K-AKT signalling, and its relative loss tips desmoid fibroblasts toward the growth and survival that complement Wnt-driven proliferation."
 ---
 
 # Desmoid Tumor
@@ -545,6 +554,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Periostin produced by the desmoid myofibroblasts organizes the dense collagenous extracellular matrix that gives these tumors their firm, infiltrative consistency and supports the fibroblast invasion into surrounding tissue.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 promotes the activation and survival of the myofibroblasts that drive desmoid fibromatosis, a profibrotic lectin contributing to the relentless local growth of these Wnt-driven tumors.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β signaling through SMAD4 sustains the myofibroblast phenotype and collagen production of desmoid tumors, the fibrogenic transcriptional arm cooperating with Wnt/β-catenin to build the fibromatosis.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PIK3CA drives the PI3K-AKT-mTOR axis (AKT and mTOR already mapped) co-active in desmoid fibromatosis, the basis for the antitumor activity of mTOR inhibitors such as sirolimus.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — β-catenin transactivates cyclin-D1 (mapped), and the resulting CDK4/6 activity phosphorylates RB to release E2F1, driving the cell-cycle entry that makes desmoid fibromatosis locally aggressive.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN normally restrains the same PI3K-AKT signaling, and its relative loss tips desmoid fibroblasts toward the growth and survival that complement Wnt-driven proliferation.
 
 ---
 

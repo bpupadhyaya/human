@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "Developmental signalling: loss of DICER1-dependent microRNA regulation derepresses developmental pathways including Wnt/β-catenin in the embryonal DICER1 tumours, reflecting their origin in dysregulated organ development."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "MAPK proliferation: KRAS and FGFR (both already mapped) drive the MAPK-ERK cascade in DICER1-associated tumours such as pleuropulmonary blastoma and Sertoli-Leydig cell tumours."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "PI3K restraint: PTEN normally limits the PI3K-AKT-mTOR axis (PIK3CA, AKT and mTOR already mapped) that is co-activated in DICER1 tumours to support their growth."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Cell-cycle derepression: loss of DICER1-dependent microRNA control over cell-cycle genes, alongside the RB-CDKN2A-cyclin-D1 axis already mapped, releases E2F1 to drive proliferation in embryonal DICER1 tumours."
 ---
 
 # DICER1 Syndrome
@@ -526,6 +535,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — DICER1 causes ovarian Sertoli-Leydig cell tumors that secrete androgens, producing the virilization—hirsutism, deepening voice—that often brings these young patients to attention and declares the syndrome.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — The embryonal tumors of DICER1 syndrome, especially pleuropulmonary blastoma, are treated with intensive chemotherapy that kills cells through caspase-3-mediated apoptosis, the effector step underlying treatment response.
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Loss of DICER1-dependent microRNA regulation derepresses developmental pathways including Wnt/β-catenin in the embryonal DICER1 tumors, reflecting their origin in dysregulated organ development.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — KRAS and FGFR (both already mapped) drive the MAPK-ERK cascade in DICER1-associated tumors such as pleuropulmonary blastoma and Sertoli-Leydig cell tumors.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN normally limits the PI3K-AKT-mTOR axis (PIK3CA, AKT and mTOR already mapped) that is co-activated in DICER1 tumors to support their growth.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — Loss of DICER1-dependent microRNA control over cell-cycle genes, alongside the RB-CDKN2A-cyclin-D1 axis already mapped, releases E2F1 to drive proliferation in embryonal DICER1 tumors.
 
 ---
 
