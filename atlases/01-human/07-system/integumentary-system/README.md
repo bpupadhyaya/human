@@ -305,6 +305,15 @@ cross_links:
   - target: 01-human/03-molecular/glucocorticoid-receptor
     relation: connects-to
     note: "Topical anti-inflammatory: corticosteroids acting through the glucocorticoid receptor are the mainstay anti-inflammatory therapy across dermatology, suppressing the cutaneous immune response in eczema, psoriasis and dermatitis."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Epidermal differentiation: NOTCH signalling drives keratinocyte differentiation as cells move outward through the epidermal layers and patterns the hair-follicle and sebaceous-gland lineages of the skin."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Dermal homeostasis: TGF-β governs dermal fibroblast activity, wound repair and hair-follicle cycling, and its dysregulation underlies the cutaneous fibrosis of scleroderma and keloids."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "Cutaneous immunity: the skin is a principal site of IL-17A-driven immunity, central both to its antifungal defence and to the inflammatory skin diseases (psoriasis already mapped) of the integument."
 ---
 
 # Integumentary System
@@ -506,6 +515,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Wnt/β-catenin signaling drives the cyclical regeneration of hair follicles and the self-renewal of epidermal stem cells, the developmental pathway that patterns skin appendages and whose dysregulation contributes to alopecia and skin tumors.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — A calcium gradient rising from the basal to the outer epidermis drives keratinocytes through their differentiation program into the cornified barrier, the ionic signal that builds the skin's waterproof outer layer.
 - `connects-to` → **[Glucocorticoid receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Corticosteroids acting through the glucocorticoid receptor are the mainstay anti-inflammatory therapy across dermatology, suppressing the cutaneous immune response in eczema, psoriasis and dermatitis.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH signaling drives keratinocyte differentiation as cells move outward through the epidermal layers and patterns the hair-follicle and sebaceous-gland lineages of the skin.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β governs dermal fibroblast activity, wound repair and hair-follicle cycling, and its dysregulation underlies the cutaneous fibrosis of scleroderma and keloids.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — The skin is a principal site of IL-17A-driven immunity, central both to its antifungal defense and to the inflammatory skin diseases (psoriasis already mapped) of the integument.
 
 ## Pathology
 

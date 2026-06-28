@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Complement-coagulation crosstalk: complement activation generating C3 and its fragments amplifies coagulation and platelet activation, an inflammatory contributor that compounds the inherited clotting tendency and links thrombosis to immune activation."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "Endothelial activation: Angiopoietin-2/Tie2 signalling shifts the endothelium toward a procoagulant, permeable phenotype that, on inflammatory triggers, compounds the baseline hypercoagulability of inherited thrombophilia."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Thromboinflammation: IL-1β induces endothelial and monocyte tissue factor and downregulates anticoagulant pathways, the cytokine arm (with the IL-6 already mapped) that converts inflammation into the thrombosis triggered in thrombophilic patients."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Procoagulant endothelium: TNF-α induces endothelial tissue factor and suppresses thrombomodulin and the protein-C pathway, tipping the haemostatic balance toward clotting that precipitates events in inherited thrombophilia."
 ---
 
 # Inherited Thrombophilia
@@ -570,6 +579,9 @@ Antithrombin (ATIII) is the primary plasma inhibitor of thrombin, FXa, FIXa, and
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Neutrophils releasing S100A8/A9 and extracellular traps (NETs) provide a scaffold that ignites and amplifies venous thrombosis, an innate-immune amplifier that interacts with the inherited clotting-factor defects to precipitate clots.
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4 sensing of DAMPs on endothelium and monocytes promotes tissue-factor expression and the immunothrombosis that, layered on a genetic hypercoagulable state, helps tip thrombophilic patients into clinical thrombosis.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement activation generating C3 and its fragments amplifies coagulation and platelet activation, an inflammatory contributor that compounds the inherited clotting tendency and links thrombosis to immune activation.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Angiopoietin-2/Tie2 signaling shifts the endothelium toward a procoagulant, permeable phenotype that, on inflammatory triggers, compounds the baseline hypercoagulability of inherited thrombophilia.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β induces endothelial and monocyte tissue factor and downregulates anticoagulant pathways, the cytokine arm (with the IL-6 already mapped) that converts inflammation into the thrombosis triggered in thrombophilic patients.
+- `connects-to` → **[TNF-α (Tumor Necrosis Factor-alpha)](../../03-molecular/tnf-alpha/README.md)** — TNF-α induces endothelial tissue factor and suppresses thrombomodulin and the protein-C pathway, tipping the hemostatic balance toward clotting that precipitates events in inherited thrombophilia.
 
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)
