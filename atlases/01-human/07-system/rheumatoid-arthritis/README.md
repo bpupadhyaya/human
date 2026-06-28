@@ -319,6 +319,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c5
     relation: connects-to
     note: "Complement amplification: the immune complexes of rheumatoid arthritis activate complement in the synovium, and C5/C5a amplify the inflammatory cell recruitment and joint damage, extending the C3 arm already mapped."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6-JAK-STAT effector: IL-6 signalling through JAK (both mapped) activates STAT3, the transcription factor driving synovial inflammation and Th17 differentiation, central to the JAK-inhibitor and anti-IL-6 mechanisms in RA."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Innate hub: IL-1 receptor and TLR signalling converge on MyD88 to activate NF-κB (mapped), amplifying the innate-immune drive of rheumatoid synovitis."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Regulatory deficit: a relative shortfall of anti-inflammatory IL-10 against the dominant TNF, IL-6 and IL-17 (all mapped) contributes to the failure of resolution in rheumatoid synovitis."
 ---
 
 # Rheumatoid Arthritis
@@ -561,6 +570,9 @@ RA patients have:
 - `connects-to` → **[Fibrinogen](../../03-molecular/fibrinogen/README.md)** — Citrullinated fibrinogen is a principal target of the anti-citrullinated-protein antibodies (anti-CCP) of rheumatoid arthritis, and immune complexes formed with it deposit in the joint to drive synovial inflammation.
 - `connects-to` → **[BTK](../../03-molecular/btk/README.md)** — Bruton's tyrosine kinase relays B-cell-receptor and Fc-receptor signals in the autoreactive B cells and myeloid effectors of rheumatoid arthritis, an axis (with the CD20 B cells and BAFF already mapped) targeted by BTK inhibitors under study.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — The immune complexes of rheumatoid arthritis activate complement in the synovium, and C5/C5a amplify the inflammatory cell recruitment and joint damage, extending the C3 arm already mapped.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6 signaling through JAK (both mapped) activates STAT3, the transcription factor driving synovial inflammation and Th17 differentiation, central to the JAK-inhibitor and anti-IL-6 mechanisms in RA.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — IL-1 receptor and TLR signaling converge on MyD88 to activate NF-κB (mapped), amplifying the innate-immune drive of rheumatoid synovitis.
+- `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — A relative shortfall of anti-inflammatory IL-10 against the dominant TNF, IL-6 and IL-17 (all mapped) contributes to the failure of resolution in rheumatoid synovitis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
