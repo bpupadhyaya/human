@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/caspase-3
     relation: connects-to
     note: "Autoantigen source: defective clearance of caspase-3-driven apoptotic cell debris exposes nuclear self-antigens (dsDNA, nucleosomes) that become the autoantibody targets initiating systemic lupus."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "TLR-IFN drive: endosomal TLR7/9 sensing of nucleic-acid-containing immune complexes signals through MyD88 to drive the type-I interferon (mapped) production central to systemic lupus."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "Interferon signature: type-I interferon signals through STAT1 to induce the interferon-stimulated gene signature that defines SLE and is targeted by anifrolumab and JAK inhibitors."
+  - target: 01-human/03-molecular/ctla-4
+    relation: connects-to
+    note: "Tolerance breakdown: impaired CTLA-4-dependent regulatory T-cell control contributes to the loss of self-tolerance that permits the autoantibody response of systemic lupus."
 ---
 
 # Systemic Lupus Erythematosus
@@ -547,6 +556,9 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[IRF3](../../03-molecular/irf3/README.md)** — IRF transcription factors drive the type-I interferon signature (already mapped) central to SLE, downstream of the cGAS-STING and RIG-I sensors that detect the self-DNA/RNA of immune complexes.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Immune complexes consume C3 (already mapped) and generate C5a, whose inflammatory tissue injury drives lupus nephritis and motivates complement-targeted therapy.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Defective clearance of caspase-3-driven apoptotic cell debris exposes nuclear self-antigens (dsDNA, nucleosomes) that become the autoantibody targets initiating systemic lupus.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Endosomal TLR7/9 sensing of nucleic-acid-containing immune complexes signals through MyD88 to drive the type-I interferon (mapped) production central to systemic lupus.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — Type-I interferon signals through STAT1 to induce the interferon-stimulated gene signature that defines SLE and is targeted by anifrolumab and JAK inhibitors.
+- `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Impaired CTLA-4-dependent regulatory T-cell control contributes to the loss of self-tolerance that permits the autoantibody response of systemic lupus.
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)
