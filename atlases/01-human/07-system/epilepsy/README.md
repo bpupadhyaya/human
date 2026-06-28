@@ -328,6 +328,15 @@ cross_links:
   - target: 01-human/03-molecular/caspase-3
     relation: connects-to
     note: "Excitotoxic death: prolonged seizures and status epilepticus trigger caspase-3-mediated neuronal apoptosis, the excitotoxic cell death contributing to the hippocampal sclerosis and progression of epilepsy."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Seizure-induced inflammation: seizures induce COX-2 and prostaglandin synthesis in the brain, amplifying neuroinflammation and blood-brain-barrier breakdown that lower seizure threshold and drive epileptogenesis."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Innate epileptogenesis: the TLR4-MyD88-NF-κB axis, activated by HMGB1 and other damage signals released during seizures, sustains the neuroinflammatory loop that promotes hyperexcitability and recurrent seizures."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Oxidative epileptogenesis: seizures generate oxidative stress that NRF2-driven antioxidant defences counter, and NRF2 activation is neuroprotective against the mitochondrial injury and neuronal loss of chronic epilepsy."
 ---
 
 # Epilepsy
@@ -583,6 +592,9 @@ Anti-NMDAR encephalitis is the most common autoimmune encephalitis (~37% of auto
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — The PI3K-AKT-mTOR pathway (mTOR already mapped) is hyperactivated in the mTORopathies—tuberous sclerosis and focal cortical dysplasia (already mapped)—that cause drug-resistant focal epilepsy.
 - `connects-to` → **[Connexin-43](../../03-molecular/connexin43/README.md)** — Astrocytic connexin-43 gap junctions synchronize neuronal networks and buffer extracellular potassium and glutamate, and their dysregulation contributes to seizure generation and spread in epilepsy.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Prolonged seizures and status epilepticus trigger caspase-3-mediated neuronal apoptosis, the excitotoxic cell death contributing to the hippocampal sclerosis and progression of epilepsy.
+- `connects-to` → **[Prostaglandins (Eicosanoids)](../../03-molecular/prostaglandins/README.md)** — Seizures induce COX-2 and prostaglandin synthesis in the brain, amplifying neuroinflammation and blood-brain-barrier breakdown that lower seizure threshold and drive epileptogenesis.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — The TLR4-MyD88-NF-κB axis, activated by HMGB1 and other damage signals released during seizures, sustains the neuroinflammatory loop that promotes hyperexcitability and recurrent seizures.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — Seizures generate oxidative stress that NRF2-driven antioxidant defenses counter, and NRF2 activation is neuroprotective against the mitochondrial injury and neuronal loss of chronic epilepsy.
 
 [^fisher-2017-ilae-classification]: Fisher RS, Cross JH, D'Souza C, et al. Instruction manual for the ILAE 2017 operational classification of seizure types. *Epilepsia.* 2017;58(4):531-542. [doi:10.1111/epi.13671](https://doi.org/10.1111/epi.13671) · [PubMed 28276060](https://pubmed.ncbi.nlm.nih.gov/28276060/)
 [^devinsky-2018-epilepsy-review]: Devinsky O, Vezzani A, O'Brien TJ, et al. Epilepsy. *Nat Rev Dis Primers.* 2018;4:18024. [doi:10.1038/nrdp.2018.24](https://doi.org/10.1038/nrdp.2018.24) · [PubMed 29722352](https://pubmed.ncbi.nlm.nih.gov/29722352/)

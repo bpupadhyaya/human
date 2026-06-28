@@ -319,6 +319,15 @@ cross_links:
   - target: 01-human/03-molecular/bcl-2
     relation: connects-to
     note: "Hormonal survival: estrogen induces anti-apoptotic BCL-2 in the endometrium, and its overexpression supports the survival of endometrioid endometrial-cancer cells in this hormonally driven tumour."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Obesity-driven inflammation: adipose-derived IL-6 fuels the chronic inflammatory and estrogenic milieu of obesity that is the dominant modifiable risk factor for endometrioid endometrial cancer, promoting tumour-cell proliferation and survival."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "p53 inactivation: MDM2 amplification degrades p53, providing an alternative route to loss of p53 tumour-suppressor function in serous endometrial cancer beyond the TP53 mutations that define this aggressive subtype."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Oncogenic Wnt: constitutive Wnt/β-catenin signalling — through CTNNB1 exon-3 mutations — defines a molecular subgroup of endometrioid endometrial cancer associated with younger age and recurrence risk."
 ---
 
 # Endometrial Cancer
@@ -544,6 +553,9 @@ cross_links:
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — KRAS and FGFR2 mutations (already mapped) in endometrioid endometrial cancer activate the MAPK-ERK pathway, a proliferative driver complementing the dominant PI3K-AKT axis.
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — The CDK4/6-RB-E2F axis (CDK4/6 already mapped) powers the cell-cycle progression of endometrial cancer, particularly the estrogen-stimulated proliferation of endometrioid tumors.
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Estrogen induces anti-apoptotic BCL-2 in the endometrium, and its overexpression supports the survival of endometrioid endometrial-cancer cells in this hormonally driven tumor.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Adipose-derived IL-6 fuels the chronic inflammatory and estrogenic milieu of obesity that is the dominant modifiable risk factor for endometrioid endometrial cancer, promoting tumor-cell proliferation and survival.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2 amplification degrades p53, providing an alternative route to loss of p53 tumor-suppressor function in serous endometrial cancer beyond the TP53 mutations that define this aggressive subtype.
+- `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Constitutive Wnt/β-catenin signaling — through CTNNB1 exon-3 mutations — defines a molecular subgroup of endometrioid endometrial cancer associated with younger age and recurrence risk.
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)
