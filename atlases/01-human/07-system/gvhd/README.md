@@ -316,6 +316,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Fibrotic remodelling: periostin and other matricellular proteins drive the tissue fibrosis of chronic GVHD, the sclerodermatous skin, fasciitis and bronchiolitis-obliterans lung disease that make advanced chronic GVHD so disabling."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Alloreactive differentiation: NOTCH signalling in donor T cells drives their differentiation into the pathogenic alloreactive effectors of graft-versus-host disease, a targetable axis distinct from calcineurin and JAK inhibition."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "T-cell proliferation: the PI3K-AKT-mTOR pathway (mTOR already mapped, the target of sirolimus) drives the proliferation and metabolic activation of alloreactive donor T cells in GVHD."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 from activated host antigen-presenting cells polarises donor T cells toward the Th1/IFN-γ response (already mapped) that mediates acute graft-versus-host disease."
 ---
 
 # Graft-Versus-Host Disease
@@ -553,6 +562,9 @@ The protective Treg/IL-10 axis is the key biological counterbalance to alloreact
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — The IL-33/ST2 alarmin axis is activated by conditioning-induced tissue damage, and a high soluble ST2 level is a validated biomarker predicting steroid-refractory, lethal acute graft-versus-host disease.
 - `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — Excess BAFF after transplant rescues alloreactive and autoreactive B cells, driving the antibody-mediated, sclerodermatous chronic graft-versus-host disease that B-cell-directed therapies like rituximab and ibrutinib target.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Periostin and other matricellular proteins drive the tissue fibrosis of chronic GVHD, the sclerodermatous skin, fasciitis and bronchiolitis-obliterans lung disease that make advanced chronic GVHD so disabling.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH signaling in donor T cells drives their differentiation into the pathogenic alloreactive effectors of graft-versus-host disease, a targetable axis distinct from calcineurin and JAK inhibition.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — The PI3K-AKT-mTOR pathway (mTOR already mapped, the target of sirolimus) drives the proliferation and metabolic activation of alloreactive donor T cells in GVHD.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — IL-12 from activated host antigen-presenting cells polarizes donor T cells toward the Th1/IFN-γ response (already mapped) that mediates acute graft-versus-host disease.
 
 [^ferrara-2009-gvhd-review]: Ferrara JL, Levine JE, Reddy P, Holler E. Graft-versus-host disease. *Lancet.* 2009;373(9674):1550-1561. [doi:10.1016/S0140-6736(09)60237-3](https://doi.org/10.1016/S0140-6736(09)60237-3) · [PubMed 19380114](https://pubmed.ncbi.nlm.nih.gov/19380114/)
 [^zeiser-2020-ruxolitinib-gvhd-reach]: Zeiser R, von Bubnoff N, Butler J, et al. Ruxolitinib for Glucocorticoid-Refractory Acute Graft-versus-Host Disease. *N Engl J Med.* 2020;382(19):1800-1810. [doi:10.1056/NEJMoa1917635](https://doi.org/10.1056/NEJMoa1917635) · [PubMed 32374962](https://pubmed.ncbi.nlm.nih.gov/32374962/)

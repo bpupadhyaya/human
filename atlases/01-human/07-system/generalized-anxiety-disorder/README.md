@@ -319,6 +319,15 @@ cross_links:
   - target: 01-human/03-molecular/acetylcholine
     relation: connects-to
     note: "Autonomic anxiety: cholinergic signalling shapes the autonomic and arousal responses of anxiety, and an imbalance between cholinergic and adrenergic tone contributes to the somatic symptoms — restlessness, palpitations — of generalized anxiety disorder."
+  - target: 01-human/03-molecular/glucocorticoid-receptor
+    relation: connects-to
+    note: "HPA dysregulation: chronic worry sustains HPA-axis activation, and altered glucocorticoid-receptor feedback (cortisol and CRH already mapped) underlies the dysregulated stress response of generalized anxiety disorder."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Neuroinflammation balance: the low-grade neuroinflammation of GAD (IL-1β, IL-6 and TNF-α already mapped) is counter-balanced by regulatory IL-10, whose relative deficiency tracks with anxiety severity."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Fear-circuit plasticity: synaptic mTOR-dependent plasticity in the prefrontal-amygdala fear circuitry is implicated in anxiety and in the rapid anxiolytic action of glutamatergic agents."
 ---
 
 # Generalized Anxiety Disorder
@@ -557,6 +566,9 @@ Allow **4-8 weeks** for onset of anxiolytic effect. Continue treatment ≥12 mon
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — CGRP released from the parabrachial nucleus into the amygdala signals threat and heightens anxiety, a neuropeptide arm of the fear circuitry implicated in generalized anxiety and its comorbidity with migraine.
 - `connects-to` → **[Orexin](../../03-molecular/orexin/README.md)** — Orexin signaling that drives wakefulness and stress responses is elevated in anxiety, contributing to the persistent hyperarousal, tension and disturbed sleep that characterize generalized anxiety disorder.
 - `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Cholinergic signaling shapes the autonomic and arousal responses of anxiety, and an imbalance between cholinergic and adrenergic tone contributes to the somatic symptoms—restlessness, palpitations—of generalized anxiety disorder.
+- `connects-to` → **[Glucocorticoid Receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Chronic worry sustains HPA-axis activation, and altered glucocorticoid-receptor feedback (cortisol and CRH already mapped) underlies the dysregulated stress response of generalized anxiety disorder.
+- `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — The low-grade neuroinflammation of GAD (IL-1β, IL-6 and TNF-α already mapped) is counter-balanced by regulatory IL-10, whose relative deficiency tracks with anxiety severity.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Synaptic mTOR-dependent plasticity in the prefrontal-amygdala fear circuitry is implicated in anxiety and in the rapid anxiolytic action of glutamatergic agents.
 
 [^kessler-2005-gad-prevalence]: Kessler RC, Berglund P, Demler O, et al. Lifetime prevalence and age-of-onset distributions of DSM-IV disorders in the NCS Replication. *Arch Gen Psychiatry.* 2005;62(6):593-602. [doi:10.1001/archpsyc.62.6.593](https://doi.org/10.1001/archpsyc.62.6.593) · [PubMed 15939837](https://pubmed.ncbi.nlm.nih.gov/15939837/)
 [^bandelow-2015-anxiety-biology]: Bandelow B, Michaelis S. Epidemiology of anxiety disorders in the 21st century. *Dialogues Clin Neurosci.* 2015;17(3):327-335. [doi:10.31887/DCNS.2015.17.3/bbandelow](https://doi.org/10.31887/DCNS.2015.17.3/bbandelow) · [PubMed 26487812](https://pubmed.ncbi.nlm.nih.gov/26487812/)
