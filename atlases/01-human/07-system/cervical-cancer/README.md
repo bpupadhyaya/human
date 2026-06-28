@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/immunoglobulin-g
     relation: connects-to
     note: "Vaccine prevention: HPV vaccines induce neutralising IgG against the L1 capsid that blocks infection, the primary-prevention strategy that is now driving cervical cancer toward elimination where vaccination is widespread."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "PI3K amplification: PTEN loss intensifies PI3K-AKT-mTOR signalling (PIK3CA, AKT and mTOR already mapped), a frequent somatic event cooperating with HPV E6/E7 in cervical carcinoma."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "MAPK proliferation: EGFR and RAS signalling (EGFR and KRAS already mapped) drive the MAPK-ERK cascade in cervical cancer, sustaining proliferation and serving as a candidate therapeutic axis."
+  - target: 01-human/03-molecular/cdh1
+    relation: connects-to
+    note: "EMT and invasion: loss of E-cadherin during epithelial-mesenchymal transition releases cervical-carcinoma cells from their junctions, enabling stromal invasion and the lymph-node spread that worsens prognosis."
 ---
 
 # Cervical Cancer
@@ -534,6 +543,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — The HPV E7 oncoprotein inactivates Rb, freeing E2F transcription factors to drive the cell cycle—the second arm of viral transformation alongside E6's degradation of p53, the pair that immortalizes the infected cervical cell.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Concurrent cisplatin chemoradiation, the standard for locally advanced cervical cancer, kills tumor cells through caspase-3-mediated apoptosis, the death pathway whose evasion underlies radioresistance.
 - `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — HPV vaccines induce neutralizing IgG against the L1 capsid that blocks infection, the primary-prevention strategy now driving cervical cancer toward elimination where vaccination is widespread.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss intensifies PI3K-AKT-mTOR signaling (PIK3CA, AKT and mTOR already mapped), a frequent somatic event cooperating with HPV E6/E7 in cervical carcinoma.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — EGFR and RAS signaling (EGFR and KRAS already mapped) drive the MAPK-ERK cascade in cervical cancer, sustaining proliferation and serving as a candidate therapeutic axis.
+- `connects-to` → **[CDH1](../../03-molecular/cdh1/README.md)** — Loss of E-cadherin during epithelial-mesenchymal transition releases cervical-carcinoma cells from their junctions, enabling stromal invasion and the lymph-node spread that worsens prognosis.
 
 ---
 

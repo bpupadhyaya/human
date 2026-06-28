@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/cholesterol
     relation: connects-to
     note: "Bile-acid carcinogenesis: retained bile acids in chronic cholestasis activate signalling that promotes cholangiocyte proliferation and survival, a metabolic limb of the inflammation-and-cholestasis milieu from which cholangiocarcinoma arises."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "MAPK convergence: KRAS, BRAF, FGFR2 fusions and MET (all already mapped) funnel into the MAPK-ERK cascade, the central proliferative driver and a key therapeutic target in cholangiocarcinoma."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Growth axis: mTOR completes the PI3K-AKT-mTOR pathway (PIK3CA and AKT already mapped) that sustains growth and survival signalling in cholangiocarcinoma."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "Cell-cycle release: CDKN2A/p16 loss is a frequent event in cholangiocarcinoma, removing the brake on CDK4/6-cyclin-D-driven entry into the cell cycle."
 ---
 
 # Cholangiocarcinoma
@@ -508,6 +517,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Genomic instability in cholangiocarcinoma generates cytosolic DNA that activates cGAS-STING, part of the innate-immune context behind adding the PD-L1 inhibitor durvalumab to gemcitabine-cisplatin, now first-line in advanced biliary cancer.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Gemcitabine-cisplatin, the cytotoxic backbone of advanced cholangiocarcinoma treatment, kills tumor cells through caspase-3-mediated apoptosis, the death pathway whose evasion underlies the chemoresistance of this aggressive cancer.
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Retained bile acids in chronic cholestasis activate signaling that promotes cholangiocyte proliferation and survival, a metabolic limb of the inflammation-and-cholestasis milieu from which cholangiocarcinoma arises.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — KRAS, BRAF, FGFR2 fusions and MET (all already mapped) funnel into the MAPK-ERK cascade, the central proliferative driver and a key therapeutic target in cholangiocarcinoma.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR completes the PI3K-AKT-mTOR pathway (PIK3CA and AKT already mapped) that sustains growth and survival signaling in cholangiocarcinoma.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A/p16 loss is a frequent event in cholangiocarcinoma, removing the brake on CDK4/6-cyclin-D-driven entry into the cell cycle.
 
 ---
 
