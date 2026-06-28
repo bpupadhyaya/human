@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/tlr4
     relation: connects-to
     note: "Innate gene-environment axis: TLR4 sensing of microbial and pollutant exposures shapes asthma risk and exacerbations, the molecular substrate of the hygiene-hypothesis interaction between environment and airway immunity."
+  - target: 01-human/03-molecular/glucocorticoid-receptor
+    relation: connects-to
+    note: "Controller mechanism: inhaled corticosteroids act through the glucocorticoid receptor to suppress airway inflammation, the cornerstone asthma controller, with steroid resistance marking severe neutrophilic disease."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Exacerbation signalling: TLR sensing of viruses and allergens (TLR4 mapped) signals through MyD88 to NF-κB (mapped), driving the innate inflammation behind asthma exacerbations."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "Airway remodeling: growth-factor and TGF-β signalling (mapped) through the MAPK-ERK cascade drives the airway-smooth-muscle proliferation and remodeling of chronic asthma."
 ---
 
 # Asthma
@@ -532,6 +541,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — The NLRP3 inflammasome and IL-1β drive the neutrophilic, type-2-low inflammation of severe steroid-resistant asthma, a phenotype distinct from the eosinophilic IL-4/5/13 axis already mapped.
 - `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — Regulatory IL-10 from regulatory T cells normally restrains airway allergic inflammation, and deficient IL-10-mediated tolerance permits the type-2 response of asthma—the principle behind allergen immunotherapy.
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4 sensing of microbial and pollutant exposures shapes asthma risk and exacerbations, the molecular substrate of the hygiene-hypothesis interaction between environment and airway immunity.
+- `connects-to` → **[Glucocorticoid Receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Inhaled corticosteroids act through the glucocorticoid receptor to suppress airway inflammation, the cornerstone asthma controller, with steroid resistance marking severe neutrophilic disease.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR sensing of viruses and allergens (TLR4 mapped) signals through MyD88 to NF-κB (mapped), driving the innate inflammation behind asthma exacerbations.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Growth-factor and TGF-β signaling (mapped) through the MAPK-ERK cascade drives the airway-smooth-muscle proliferation and remodeling of chronic asthma.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)

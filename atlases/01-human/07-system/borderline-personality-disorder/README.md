@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/akt
     relation: connects-to
     note: "Mood signalling: the AKT-GSK3β pathway, a convergence point of the serotonergic and dopaminergic neurotransmission already mapped and of mood-stabiliser action, is implicated in the affective dysregulation of borderline personality disorder."
+  - target: 01-human/03-molecular/acth
+    relation: connects-to
+    note: "HPA dysregulation: childhood trauma reprograms the CRH-driven stress axis (CRH, cortisol and the glucocorticoid receptor mapped), and altered pituitary ACTH responses characterise the stress sensitivity of borderline personality disorder."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "Neuroplasticity: BDNF-TrkB signalling (BDNF mapped) through the MAPK-ERK cascade shapes the synaptic plasticity disrupted by early-life stress in borderline personality disorder."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Neuroinflammation: TLR signalling (TLR4 mapped) through MyD88 contributes to the low-grade neuroinflammation (with IL-6 and TNF mapped) increasingly linked to the affective instability of borderline personality disorder."
 ---
 
 # Borderline Personality Disorder
@@ -563,6 +572,9 @@ This model directly informs DBT treatment: validate emotional experience (the bi
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Glutamatergic antidepressants such as ketamine act through synaptic mTOR-driven synaptogenesis, a mechanism relevant to the affective instability and acute suicidality that characterize borderline personality disorder.
 - `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — The low-grade neuroinflammation of BPD (IL-6, TNF-α and IL-1β already mapped) is normally counter-balanced by regulatory IL-10, whose relative deficiency tracks with symptom severity.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — The AKT-GSK3β pathway, a convergence point of the serotonergic and dopaminergic neurotransmission already mapped and of mood-stabilizer action, is implicated in the affective dysregulation of borderline personality disorder.
+- `connects-to` → **[ACTH](../../03-molecular/acth/README.md)** — Childhood trauma reprograms the CRH-driven stress axis (CRH, cortisol and the glucocorticoid receptor mapped), and altered pituitary ACTH responses characterize the stress sensitivity of borderline personality disorder.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — BDNF-TrkB signaling (BDNF mapped) through the MAPK-ERK cascade shapes the synaptic plasticity disrupted by early-life stress in borderline personality disorder.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR signaling (TLR4 mapped) through MyD88 contributes to the low-grade neuroinflammation (with IL-6 and TNF mapped) increasingly linked to the affective instability of borderline personality disorder.
 
 [^linehan-1993-dbt]: Linehan MM. *Cognitive-Behavioral Treatment of Borderline Personality Disorder.* Guilford; 1993. [PubMed 8192506](https://pubmed.ncbi.nlm.nih.gov/8192506/)
 [^skodol-2002-bpd-neurobiology]: Siever LJ, Davis KL. A psychobiological perspective on the personality disorders. *Am J Psychiatry.* 1991;148(12):1647-1658. [doi:10.1176/ajp.148.12.1647](https://doi.org/10.1176/ajp.148.12.1647) · [PubMed 1957927](https://pubmed.ncbi.nlm.nih.gov/1957927/)
