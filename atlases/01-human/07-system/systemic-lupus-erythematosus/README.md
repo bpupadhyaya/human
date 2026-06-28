@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/dnmt3a
     relation: connects-to
     note: "Epigenetic dysregulation: lupus CD4 T cells show DNA hypomethylation that overexpresses autoimmune genes, and DNMT-inhibiting drugs like hydralazine and procainamide can trigger drug-induced lupus, implicating DNA methylation in the disease."
+  - target: 01-human/03-molecular/irf3
+    relation: connects-to
+    note: "Interferon induction: IRF transcription factors drive the type-I interferon signature (already mapped) central to SLE, downstream of the cGAS-STING and RIG-I sensors that detect the self-DNA/RNA of immune complexes."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Nephritis effector: immune complexes consume C3 (already mapped) and generate C5a, whose inflammatory tissue injury drives lupus nephritis and motivates complement-targeted therapy."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Autoantigen source: defective clearance of caspase-3-driven apoptotic cell debris exposes nuclear self-antigens (dsDNA, nucleosomes) that become the autoantibody targets initiating systemic lupus."
 ---
 
 # Systemic Lupus Erythematosus
@@ -535,6 +544,9 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Lupus features an IL-2 deficiency and failure of regulatory T cells, and low-dose IL-2 that preferentially expands Tregs is a tolerance-restoring therapy under investigation to rebalance the autoreactive immune response.
 - `connects-to` → **[Glucocorticoid receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Glucocorticoids acting through the glucocorticoid receptor remain central to controlling lupus flares, broadly suppressing the cytokine and immune-complex inflammation, though their long-term toxicity drives the search for steroid-sparing agents.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — Lupus CD4 T cells show DNA hypomethylation that overexpresses autoimmune genes, and DNMT-inhibiting drugs like hydralazine and procainamide can trigger drug-induced lupus, implicating DNA methylation in the disease.
+- `connects-to` → **[IRF3](../../03-molecular/irf3/README.md)** — IRF transcription factors drive the type-I interferon signature (already mapped) central to SLE, downstream of the cGAS-STING and RIG-I sensors that detect the self-DNA/RNA of immune complexes.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Immune complexes consume C3 (already mapped) and generate C5a, whose inflammatory tissue injury drives lupus nephritis and motivates complement-targeted therapy.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Defective clearance of caspase-3-driven apoptotic cell debris exposes nuclear self-antigens (dsDNA, nucleosomes) that become the autoantibody targets initiating systemic lupus.
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)

@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/baff
     relation: connects-to
     note: "B-cell autoimmunity: although T-cell-mediated, type 1 diabetes depends on autoreactive B cells presenting islet antigens and making islet autoantibodies, the BAFF-supported B-cell arm targeted by the anti-CD20 therapy that can slow progression."
+  - target: 01-human/03-molecular/rig-i
+    relation: connects-to
+    note: "Viral trigger sensing: enteroviral infection of islet β-cells (Coxsackie B already mapped) activates RIG-I-like sensing and a type-I interferon response that helps trigger the autoimmune destruction of type 1 diabetes."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "β-cell sensitisation: interferon signalling through STAT1 in β-cells upregulates MHC and pro-apoptotic genes, sensitising them to the autoimmune CD8 T-cell attack (perforin already mapped) that destroys them in type 1 diabetes."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Apoptosis threshold: the balance of anti-apoptotic BCL-2 against cytokine- and CTL-driven pro-apoptotic signals sets the threshold for the β-cell apoptosis (caspase-3 already mapped) that depletes insulin-producing cells."
 ---
 
 # Type 1 Diabetes
@@ -507,6 +516,9 @@ cross_links:
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Interferon and cytokine signals stressing beta cells run through JAK-STAT, and the JAK inhibitor baricitinib has been shown to preserve residual beta-cell function in new-onset type 1 diabetes, a disease-modifying strategy.
 - `connects-to` → **[GABA](../../03-molecular/gaba/README.md)** — Beta cells co-secrete GABA, which acts in a paracrine loop to promote beta-cell survival and regeneration and to dampen islet inflammation, an endogenous protective signaling axis explored as a type 1 diabetes therapy.
 - `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — Although T-cell-mediated, type 1 diabetes depends on autoreactive B cells presenting islet antigens and making islet autoantibodies, the BAFF-supported B-cell arm targeted by the anti-CD20 therapy that can slow progression.
+- `connects-to` → **[RIG-I](../../03-molecular/rig-i/README.md)** — Enteroviral infection of islet β-cells (Coxsackie B already mapped) activates RIG-I-like sensing and a type-I interferon response that helps trigger the autoimmune destruction of type 1 diabetes.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — Interferon signaling through STAT1 in β-cells upregulates MHC and pro-apoptotic genes, sensitizing them to the autoimmune CD8 T-cell attack (perforin already mapped) that destroys them in type 1 diabetes.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — The balance of anti-apoptotic BCL-2 against cytokine- and CTL-driven pro-apoptotic signals sets the threshold for the β-cell apoptosis (caspase-3 already mapped) that depletes insulin-producing cells.
 
 [^atkinson-2014-t1d-lancet]: Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. *Lancet.* 2014;383(9911):69-82. [doi:10.1016/S0140-6736(13)60591-7](https://doi.org/10.1016/S0140-6736(13)60591-7) · [PubMed 23890997](https://pubmed.ncbi.nlm.nih.gov/23890997/)
 [^herold-2019-teplizumab-t1d]: Herold KC, Bundy BN, Long SA, et al. An anti-CD3 antibody, teplizumab, in relatives at risk for type 1 diabetes. *N Engl J Med.* 2019;381(7):603-613. [doi:10.1056/NEJMoa1905155](https://doi.org/10.1056/NEJMoa1905155) · [PubMed 31180675](https://pubmed.ncbi.nlm.nih.gov/31180675/)
