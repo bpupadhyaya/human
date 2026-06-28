@@ -310,6 +310,15 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "Immunosuppressive milieu: the IL-10-skewed, exhausted immune state of advanced AIDS suppresses the residual cellular immunity, helping explain the susceptibility to the opportunistic infections that define the syndrome."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Microbial translocation: leakage of microbial products across the damaged gut epithelium in AIDS engages TLR4, driving the chronic immune activation that accelerates CD4 decline and progression."
+  - target: 01-human/03-molecular/mavs
+    relation: connects-to
+    note: "Innate evasion: HIV antagonises RIG-I/MAVS antiviral signalling, contributing to the impaired innate control of the virus that permits progression to AIDS."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Lymphoid fibrosis: TGF-β drives the collagen deposition and lymphoid-tissue fibrosis of chronic HIV that impairs immune reconstitution even on effective antiretroviral therapy."
 ---
 
 # HIV/AIDS
@@ -522,6 +531,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — HIV destroys CD4 T cells both by caspase-3 apoptosis of infected cells and by abortive-infection-triggered inflammatory death of bystander cells, the depletion that drives the progression to AIDS-defining immunodeficiency.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Loss of CD4 T cells in AIDS removes a major source of IL-2 needed to sustain T-cell proliferation and survival, deepening the lymphopenia in a self-reinforcing failure of the adaptive immune compartment.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — The IL-10-skewed, exhausted immune state of advanced AIDS suppresses the residual cellular immunity, helping explain the susceptibility to the opportunistic infections that define the syndrome.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Leakage of microbial products across the damaged gut epithelium in AIDS engages TLR4, driving the chronic immune activation that accelerates CD4 decline and progression.
+- `connects-to` → **[MAVS](../../03-molecular/mavs/README.md)** — HIV antagonizes RIG-I/MAVS antiviral signaling, contributing to the impaired innate control of the virus that permits progression to AIDS.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β drives the collagen deposition and lymphoid-tissue fibrosis of chronic HIV that impairs immune reconstitution even on effective antiretroviral therapy.
 
 ## See Also
 

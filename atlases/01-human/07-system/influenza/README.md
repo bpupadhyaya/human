@@ -310,6 +310,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative lung injury: xanthine-oxidase activity surges during severe influenza, generating reactive oxygen species that damage the alveolar epithelium and contribute to the acute lung injury of severe and fatal infection."
+  - target: 01-human/03-molecular/irf3
+    relation: connects-to
+    note: "Interferon induction: IRF3, activated by the RIG-I/MAVS/TBK1 sensing pathway already mapped, drives the type-I interferon front-line defence against influenza, the response the viral NS1 protein antagonises."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Epithelial apoptosis: influenza induces caspase-3 apoptosis of infected respiratory epithelial cells, both an antiviral defence and a cause of the epithelial damage that opens the airway to secondary bacterial pneumonia."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Severe-flu hypoxia: the diffuse alveolar damage and hypoxaemia of severe influenza pneumonia drive HIF-mediated responses in the injured lung, part of the pathophysiology of influenza ARDS."
 ---
 
 # Influenza
@@ -543,3 +552,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — Secretory IgA on the respiratory epithelium neutralizes influenza at the airway surface and provides cross-protective mucosal immunity, the rationale behind intranasal live-attenuated vaccines that induce it better than injected vaccines.
 - `connects-to` → **[MyD88](../../03-molecular/myd88/README.md)** — Plasmacytoid dendritic cells detect influenza RNA through TLR7 signaling via MyD88 to make large amounts of type-I interferon, the endosomal innate-sensing arm complementing the cytosolic RIG-I pathway.
 - `connects-to` → **[Xanthine Oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Xanthine-oxidase activity surges during severe influenza, generating reactive oxygen species that damage the alveolar epithelium and contribute to the acute lung injury of severe and fatal infection.
+- `connects-to` → **[IRF3](../../03-molecular/irf3/README.md)** — IRF3, activated by the RIG-I/MAVS/TBK1 sensing pathway already mapped, drives the type-I interferon front-line defense against influenza, the response the viral NS1 protein antagonizes.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Influenza induces caspase-3 apoptosis of infected respiratory epithelial cells, both an antiviral defense and a cause of the epithelial damage that opens the airway to secondary bacterial pneumonia.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — The diffuse alveolar damage and hypoxemia of severe influenza pneumonia drive HIF-mediated responses in the injured lung, part of the pathophysiology of influenza ARDS.
