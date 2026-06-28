@@ -307,6 +307,15 @@ cross_links:
   - target: 01-human/03-molecular/glp-1
     relation: connects-to
     note: "Obesity-HFpEF: GLP-1 receptor agonists (semaglutide) improve symptoms and exercise capacity in the obesity phenotype of heart failure with preserved ejection fraction, linking the metabolic axis to a major and growing HF subtype."
+  - target: 01-human/03-molecular/calcineurin
+    relation: connects-to
+    note: "Pathological hypertrophy: the calcineurin-NFAT pathway transduces sustained cardiomyocyte calcium signals into the maladaptive hypertrophic gene programme that drives the ventricular remodelling of heart failure."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Myocardial fibrosis: TGF-β drives the cardiac-fibroblast activation and interstitial fibrosis (fibrosis and periostin already mapped) that stiffen the failing ventricle, central to heart failure with preserved ejection fraction."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "Hypertrophic signalling: neurohormonal and mechanical stress signal through the MAPK-ERK1/2 cascade to drive the hypertrophic growth of cardiomyocytes during the remodelling of heart failure."
 ---
 
 # Heart Failure
@@ -476,6 +485,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Inflammation-driven hepcidin elevation causes functional iron deficiency in heart failure, impairing exercise capacity independent of anemia and reversed by intravenous iron, which improves symptoms and reduces admissions.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Impaired nitric-oxide-cGMP signaling drives the myocardial stiffness and microvascular dysfunction of heart failure, especially HFpEF, the pathway targeted by the soluble-guanylate-cyclase stimulator vericiguat.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — GLP-1 receptor agonists (semaglutide) improve symptoms and exercise capacity in the obesity phenotype of heart failure with preserved ejection fraction, linking the metabolic axis to a major and growing HF subtype.
+- `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — The calcineurin-NFAT pathway transduces sustained cardiomyocyte calcium signals into the maladaptive hypertrophic gene program that drives the ventricular remodeling of heart failure.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β drives the cardiac-fibroblast activation and interstitial fibrosis (fibrosis and periostin already mapped) that stiffen the failing ventricle, central to heart failure with preserved ejection fraction.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Neurohormonal and mechanical stress signal through the MAPK-ERK1/2 cascade to drive the hypertrophic growth of cardiomyocytes during the remodeling of heart failure.
 
 ## Pathology
 
