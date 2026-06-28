@@ -297,6 +297,15 @@ cross_links:
   - target: 01-human/03-molecular/adenosine
     relation: connects-to
     note: "Reward modulation: adenosine A2A receptors that form heteromers with dopamine D2 receptors tune striatal reward signalling, part of the purinergic modulation of the food-reward circuitry dysregulated in binge-eating disorder."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "Reward plasticity: palatable-food reward drives dopamine-induced ERK signalling in the striatal reward circuitry, the plasticity that entrenches the compulsive overeating of binge-eating disorder, paralleling substance addiction."
+  - target: 01-human/03-molecular/glucocorticoid-receptor
+    relation: connects-to
+    note: "Stress eating: HPA-axis stress signalling through the glucocorticoid receptor (cortisol and CRH already mapped) promotes stress-induced binge episodes and the cortisol-driven visceral adiposity that accompanies the disorder."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "Dopamine signalling: dopamine D2-receptor signalling through the AKT-GSK3β axis modulates the reward and impulse-control circuitry implicated in binge-eating disorder."
 sources:
   - id: american-psychiatric-2013-bed-dsm5
     type: clinical-guideline
@@ -551,6 +560,9 @@ BED is among the most psychiatrically comorbid of all eating disorders:
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — FGF21 signaling through FGFR1c with β-Klotho specifically suppresses the preference for sugar and sweet foods, a metabolic appetite axis relevant to the carbohydrate-rich binges characteristic of binge-eating disorder.
 - `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Acetylcholine from accumbens cholinergic interneurons signals meal termination and modulates dopaminergic food reward, a striatal off-switch whose dysfunction can let a meal escalate into a binge.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine A2A receptors that form heteromers with dopamine D2 receptors tune striatal reward signaling, part of the purinergic modulation of the food-reward circuitry dysregulated in binge-eating disorder.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Palatable-food reward drives dopamine-induced ERK signaling in the striatal reward circuitry, the plasticity that entrenches the compulsive overeating of binge-eating disorder, paralleling substance addiction.
+- `connects-to` → **[Glucocorticoid Receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — HPA-axis stress signaling through the glucocorticoid receptor (cortisol and CRH already mapped) promotes stress-induced binge episodes and the cortisol-driven visceral adiposity that accompanies the disorder.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — Dopamine D2-receptor signaling through the AKT-GSK3β axis modulates the reward and impulse-control circuitry implicated in binge-eating disorder.
 
 [^american-psychiatric-2013-bed-dsm5]: American Psychiatric Association. Binge Eating Disorder (307.51). In: *Diagnostic and Statistical Manual of Mental Disorders, 5th ed.* Arlington, VA: APA; 2013. [doi:10.1176/appi.books.9780890425596](https://doi.org/10.1176/appi.books.9780890425596)
 [^mccallum-2003-bed-review]: McCallum K, Bruton AM. Binge eating disorder: eating disorder or somatic syndrome? *Prim Care Companion J Clin Psychiatry.* 2003;5(Suppl 4):20-25. [PubMed 15213784](https://pubmed.ncbi.nlm.nih.gov/15213784/)

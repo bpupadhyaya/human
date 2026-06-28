@@ -319,6 +319,15 @@ cross_links:
   - target: 01-human/03-molecular/type-i-interferon
     relation: connects-to
     note: "Maternal immune activation: prenatal type-I-interferon responses to maternal infection raise autism risk, a key strand of the neurodevelopmental immune hypothesis linking gestational inflammation to altered fetal brain development."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PTEN-AKT-mTOR convergence: the PTEN-PI3K-AKT-mTOR pathway (PTEN, mTOR and TSC1/2 already mapped) is a convergence point of syndromic autism, where excess AKT-mTOR signalling drives the synaptic overgrowth and macrocephaly of ASD."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "RASopathy MAPK: RAS-MAPK-ERK signalling, hyperactivated in the RASopathies (neurofibromatosis-1 and Noonan already mapped) that carry high autism risk, regulates the synaptic plasticity disrupted in autism spectrum disorder."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Neurodevelopmental Wnt: Wnt/β-catenin signalling, regulated by high-confidence autism genes such as CHD8, governs the neuronal proliferation and synaptic development perturbed in autism spectrum disorder."
 ---
 
 # Autism Spectrum Disorder
@@ -556,6 +565,9 @@ The neural basis of ASD social deficits involves dysfunction of the **social bra
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Gain-of-function mutations in the L-type calcium channel CACNA1C cause Timothy syndrome with autism, and broader calcium-signaling dysregulation is a recurring theme among autism risk genes affecting synaptic activity-dependent transcription.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 tags synapses for microglial elimination during development, and dysregulated complement-mediated pruning is implicated in the altered synaptic density and connectivity seen in autism.
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Prenatal type-I-interferon responses to maternal infection raise autism risk, a key strand of the neurodevelopmental immune hypothesis linking gestational inflammation to altered fetal brain development.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — The PTEN-PI3K-AKT-mTOR pathway (PTEN, mTOR and TSC1/2 already mapped) is a convergence point of syndromic autism, where excess AKT-mTOR signaling drives the synaptic overgrowth and macrocephaly of ASD.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — RAS-MAPK-ERK signaling, hyperactivated in the RASopathies (neurofibromatosis-1 and Noonan already mapped) that carry high autism risk, regulates the synaptic plasticity disrupted in autism spectrum disorder.
+- `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Wnt/β-catenin signaling, regulated by high-confidence autism genes such as CHD8, governs the neuronal proliferation and synaptic development perturbed in autism spectrum disorder.
 
 [^maenner-2023-asd-prevalence]: Maenner MJ, Warren Z, Williams AR, et al. Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 2020. *MMWR Surveill Summ.* 2023;72(2):1-14. [doi:10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1) · [PubMed 36952216](https://pubmed.ncbi.nlm.nih.gov/36952216/)
 [^lord-2020-asd-review]: Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum disorder. *Lancet.* 2018;392(10146):508-520. [doi:10.1016/S0140-6736(18)31129-2](https://doi.org/10.1016/S0140-6736(18)31129-2) · [PubMed 30078460](https://pubmed.ncbi.nlm.nih.gov/30078460/)
