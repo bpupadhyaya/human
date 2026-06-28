@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/glp-1
     relation: connects-to
     note: "Metabolic comorbidity: antipsychotics cause weight gain and the metabolic syndrome already mapped here (obesity, type-2 diabetes, metformin), and GLP-1 receptor agonists are increasingly used to counter this iatrogenic metabolic burden."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "AKT1 signalling: AKT1 (mapped) is a schizophrenia-risk gene, and the PI3K-AKT-GSK3β-mTOR axis (AKT, GSK-3β and mTOR already mapped) relays dopamine and neurotrophin signals implicated in the disorder."
+  - target: 01-human/03-molecular/crh
+    relation: connects-to
+    note: "HPA stress reactivity: heightened CRH-driven HPA-axis activity (cortisol mapped) is associated with the onset and relapse of psychosis, linking stress to the dopaminergic dysregulation of schizophrenia."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "Neurodevelopmental MAPK: neuregulin-ErbB and BDNF-TrkB signalling converge on MAPK-ERK, a pathway implicated in the synaptic and neurodevelopmental abnormalities of schizophrenia."
 ---
 
 # Schizophrenia
@@ -587,6 +596,9 @@ Notably, schizophrenia shares genetic loci with bipolar disorder, ASD, ADHD, maj
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — AKT1 is a schizophrenia-susceptibility gene, and dopamine-D2-receptor signaling through the AKT-GSK3β pathway (GSK3β already mapped) is a core node at which antipsychotics and lithium act on the disorder.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR signaling regulates the activity-dependent protein synthesis and dendritic-spine maturation that are disrupted in schizophrenia, tying its neurodevelopmental origins to synaptic dysfunction.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Antipsychotics cause weight gain and the metabolic syndrome already mapped here (obesity, type-2 diabetes, metformin), and GLP-1 receptor agonists are increasingly used to counter this iatrogenic metabolic burden.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — AKT1 (mapped) is a schizophrenia-risk gene, and the PI3K-AKT-GSK3β-mTOR axis (AKT, GSK-3β and mTOR already mapped) relays dopamine and neurotrophin signals implicated in the disorder.
+- `connects-to` → **[CRH](../../03-molecular/crh/README.md)** — Heightened CRH-driven HPA-axis activity (cortisol mapped) is associated with the onset and relapse of psychosis, linking stress to the dopaminergic dysregulation of schizophrenia.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Neuregulin-ErbB and BDNF-TrkB signaling converge on MAPK-ERK, a pathway implicated in the synaptic and neurodevelopmental abnormalities of schizophrenia.
 
 [^howes-2009-dopamine-hypothesis]: Howes OD, Kapur S. The dopamine hypothesis of schizophrenia: version III—the final common pathway. *Schizophr Bull.* 2009;35(3):549-562. [doi:10.1093/schbul/sbp006](https://doi.org/10.1093/schbul/sbp006) · [PubMed 19325164](https://pubmed.ncbi.nlm.nih.gov/19325164/)
 [^moghaddam-2012-glutamate]: Moghaddam B, Javitt D. From revolution to evolution: the glutamate hypothesis of schizophrenia and its implication for treatment. *Neuropsychopharmacology.* 2012;37(1):4-15. [doi:10.1038/npp.2011.181](https://doi.org/10.1038/npp.2011.181) · [PubMed 21956446](https://pubmed.ncbi.nlm.nih.gov/21956446/)

@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "Pain mediator: the chronic neuropathic pain that dominates schwannomatosis involves inflammatory cytokines including IL-6 sensitising sensory neurons, acting alongside the substance-P and CGRP already mapped."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Cell-cycle drive: the cyclin-D1-CDK4/6 axis (both mapped) releases E2F1 to drive the proliferation of the multiple schwannomas of schwannomatosis."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "PI3K restraint: loss of the SMARCB1/LZTR1-merlin tumour-suppressor network de-represses PI3K-AKT-mTOR signalling (PIK3CA, AKT and mTOR already mapped), which PTEN normally limits, fuelling schwannoma growth."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Schwannoma stroma: TGF-β signalling shapes the collagenous extracellular matrix (collagen mapped) and fibroblastic stroma of the schwannomas of schwannomatosis."
 ---
 
 # Schwannomatosis
@@ -513,6 +522,9 @@ Both NF2 (22q12.2), SMARCB1 (22q11.23), and LZTR1 (22q11.21) are on chromosome 2
 - `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — Merlin normally holds EGFR/ErbB receptors inactive at cell contacts, so the merlin-pathway loss of schwannomatosis releases EGFR-driven proliferative signaling in Schwann cells.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Downstream of merlin loss, PI3K-AKT-mTOR signaling (AKT and mTOR already mapped) is activated in schwannomas, a proliferative survival pathway and candidate target for these otherwise drug-resistant tumors.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — The chronic neuropathic pain that dominates schwannomatosis involves inflammatory cytokines including IL-6 sensitizing sensory neurons, acting alongside the substance-P and CGRP already mapped.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — The cyclin-D1-CDK4/6 axis (both mapped) releases E2F1 to drive the proliferation of the multiple schwannomas of schwannomatosis.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — Loss of the SMARCB1/LZTR1-merlin tumor-suppressor network de-represses PI3K-AKT-mTOR signaling (PIK3CA, AKT and mTOR already mapped), which PTEN normally limits, fueling schwannoma growth.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β signaling shapes the collagenous extracellular matrix (collagen mapped) and fibroblastic stroma of the schwannomas of schwannomatosis.
 
 [^merker-2012-schwannomatosis]: Merker VL, Esparza S, Smith MJ, Stemmer-Rachamimov A, Plotkin SR. Clinical features of schwannomatosis: a retrospective analysis of 87 patients. *Oncologist.* 2012;17(10):1317-1322. [doi:10.1634/theoncologist.2012-0162](https://doi.org/10.1634/theoncologist.2012-0162) · [PubMed 22927469](https://pubmed.ncbi.nlm.nih.gov/22927469/)
 [^piotrowski-2014-lztr1]: Piotrowski A, Xie J, Liu YF, et al. Germline loss-of-function mutations in LZTR1 predispose to an inherited disorder of multiple schwannomas. *Nat Genet.* 2014;46(2):182-187. [doi:10.1038/ng.2855](https://doi.org/10.1038/ng.2855) · [PubMed 24362817](https://pubmed.ncbi.nlm.nih.gov/24362817/)
