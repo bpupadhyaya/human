@@ -310,6 +310,15 @@ cross_links:
   - target: 01-human/03-molecular/s100a8-a9
     relation: connects-to
     note: "Neutrophil thrombo-inflammation: neutrophils releasing S100A8/A9 and extracellular traps (NETs) within the microvasculature amplify the platelet-VWF microthrombi of TTP, adding an innate-immune layer to the ADAMTS13-deficient thrombotic process."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Ischaemic organ damage: disseminated platelet-VWF microthrombi occlude the microvasculature of TTP, and the resulting tissue hypoxia drives HIF-1α responses in brain, kidney and heart — the basis of its neurological and cardiac end-organ injury."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Endothelial integrity: VEGF maintains endothelial and glomerular health, and its blockade causes drug-induced thrombotic microangiopathy that mimics TTP — distinguishing VEGF-disruption TMA from the ADAMTS13-deficient disease."
+  - target: 01-human/03-molecular/btk
+    relation: connects-to
+    note: "Autoantibody production: in acquired TTP, Bruton's tyrosine kinase relays B-cell-receptor signals in the autoreactive B cells that make anti-ADAMTS13 antibodies, an axis (with the CD20 cells and BAFF already mapped) of interest for B-cell-directed therapy."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -562,6 +571,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — The HLA-DRB1*11 allele predisposes to acquired TTP by favoring presentation of ADAMTS13 peptides to T cells, helping break tolerance and license the autoantibodies that inhibit the enzyme.
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Long-lived anti-ADAMTS13 plasma cells survive on BCL-2 and escape rituximab, the rationale for proteasome-inhibitor or anti-CD38 plasma-cell-directed therapy in relapsing or refractory acquired TTP.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Neutrophils releasing S100A8/A9 and extracellular traps (NETs) within the microvasculature amplify the platelet-VWF microthrombi of TTP, adding an innate-immune layer to the ADAMTS13-deficient thrombotic process.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — Disseminated platelet-VWF microthrombi occlude the microvasculature of TTP, and the resulting tissue hypoxia drives HIF-1α responses in brain, kidney and heart—the basis of its neurological and cardiac end-organ injury.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VEGF maintains endothelial and glomerular health, and its blockade causes drug-induced thrombotic microangiopathy that mimics TTP—distinguishing VEGF-disruption TMA from the ADAMTS13-deficient disease.
+- `connects-to` → **[BTK](../../03-molecular/btk/README.md)** — In acquired TTP, Bruton's tyrosine kinase relays B-cell-receptor signals in the autoreactive B cells that make anti-ADAMTS13 antibodies, an axis (with the CD20 cells and BAFF already mapped) of interest for B-cell-directed therapy.
 
 ---
 
