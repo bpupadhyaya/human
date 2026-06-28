@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Macrophage microenvironment: CCL2 recruits tumour-associated macrophages into rhabdomyosarcoma, a myeloid infiltrate that promotes angiogenesis and an immunosuppressive niche limiting the response of these sarcomas to immunotherapy."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K activation: PI3K-AKT-mTOR signalling is frequently activated in rhabdomyosarcoma, complementing the AKT and mTOR already mapped, supporting growth and survival especially in fusion-negative embryonal disease."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Differentiation block: TGF-β superfamily signalling, alongside the myostatin already mapped, helps enforce the arrest in myogenic differentiation that keeps rhabdomyosarcoma cells proliferating instead of maturing into muscle."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Chemotherapy apoptosis: the VAC regimen (vincristine, actinomycin-D, cyclophosphamide) kills rhabdomyosarcoma cells through caspase-3-mediated apoptosis, and resistance to this death programme drives the poor outcomes of metastatic and relapsed disease."
 ---
 
 # Rhabdomyosarcoma
@@ -527,6 +536,9 @@ Maximal safe resection with negative margins (R0) wherever achievable without mu
 - `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — A subset of spindle-cell/sclerosing rhabdomyosarcomas and infantile spindle-cell tumors carry NTRK gene fusions, conferring exquisite sensitivity to TRK inhibitors (larotrectinib, entrectinib) as a targeted alternative to cytotoxic chemotherapy.
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Canonical Wnt/β-catenin signaling can push rhabdomyosarcoma cells out of the proliferative, undifferentiated state toward terminal myogenic differentiation, making it a candidate differentiation-therapy axis in this myogenically arrested tumor.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 recruits tumor-associated macrophages into rhabdomyosarcoma, a myeloid infiltrate that promotes angiogenesis and an immunosuppressive niche limiting the response of these sarcomas to immunotherapy.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K-AKT-mTOR signaling is frequently activated in rhabdomyosarcoma, complementing the AKT and mTOR already mapped, supporting growth and survival especially in fusion-negative embryonal disease.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β superfamily signaling, alongside the myostatin already mapped, helps enforce the arrest in myogenic differentiation that keeps rhabdomyosarcoma cells proliferating instead of maturing into muscle.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — The VAC regimen (vincristine, actinomycin-D, cyclophosphamide) kills rhabdomyosarcoma cells through caspase-3-mediated apoptosis, and resistance to this death program drives the poor outcomes of metastatic and relapsed disease.
 
 [^crist-2001-irs4-rms]: Crist WM, Anderson JR, Meza JL, et al. Intergroup rhabdomyosarcoma study-IV: results for patients with nonmetastatic disease. *J Clin Oncol.* 2001;19(12):3091-3102. [doi:10.1200/JCO.2001.19.12.3091](https://doi.org/10.1200/JCO.2001.19.12.3091) · [PubMed 11408506](https://pubmed.ncbi.nlm.nih.gov/11408506/)
 [^oberlin-2012-mmt95-rms]: Oberlin O, Rey A, Sanchez de Toledo J, et al. Randomized comparison of intensified six-drug versus standard three-drug chemotherapy for high-risk nonmetastatic rhabdomyosarcoma and other chemotherapy-sensitive childhood soft tissue sarcomas. *J Clin Oncol.* 2012;30(19):2457-2465. [doi:10.1200/JCO.2011.39.3538](https://doi.org/10.1200/JCO.2011.39.3538) · [PubMed 22665546](https://pubmed.ncbi.nlm.nih.gov/22665546/)

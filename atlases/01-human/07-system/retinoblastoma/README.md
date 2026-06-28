@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/bdnf
     relation: connects-to
     note: "Neurotrophin survival: retinoblastoma cells express TrkB and respond to BDNF with pro-survival signalling, a neurotrophic dependency inherited from their neural-retina origin that helps the tumour resist apoptosis."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "Survival signalling: PI3K-AKT-mTOR activity supports retinoblastoma cell survival and growth downstream of the deregulated RB-E2F proliferation, complementing the AKT and mTOR already mapped as a targetable dependency."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Growth-factor dependence: IGF-1/IGF-1R signalling is expressed in retinoblastoma and drives proliferation and survival, a growth-factor axis under study as a therapeutic target in this childhood retinal tumour."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "Epigenetic progression: retinoblastoma carries strikingly few genetic lesions beyond RB1 loss and instead advances through widespread epigenetic deregulation, including DNA-methylation changes effected by DNMTs such as DNMT3A."
 ---
 
 # Retinoblastoma
@@ -512,6 +521,9 @@ Standard regimen: **vincristine + carboplatin + etoposide (VCE)**, 6 cycles; red
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Retinoblastoma arises from a cone-precursor cell whose fate and proliferation are patterned by Notch signaling during retinal development, the developmental context in which RB1 loss unleashes uncontrolled division.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 recruits the macrophages found within retinoblastoma, a myeloid infiltrate that supports angiogenesis and invasion and is being studied as part of the tumor microenvironment beyond the malignant cells themselves.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Retinoblastoma cells express TrkB and respond to BDNF with pro-survival signaling, a neurotrophic dependency inherited from their neural-retina origin that helps the tumor resist apoptosis.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K-AKT-mTOR activity supports retinoblastoma cell survival and growth downstream of the deregulated RB-E2F proliferation, complementing the AKT and mTOR already mapped as a targetable dependency.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — IGF-1/IGF-1R signaling is expressed in retinoblastoma and drives proliferation and survival, a growth-factor axis under study as a therapeutic target in this childhood retinal tumor.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — Retinoblastoma carries strikingly few genetic lesions beyond RB1 loss and instead advances through widespread epigenetic deregulation, including DNA-methylation changes effected by DNMTs such as DNMT3A.
 
 [^knudson-1971-two-hit]: Knudson AG Jr. Mutation and cancer: statistical study of retinoblastoma. *Proc Natl Acad Sci USA.* 1971;68(4):820-823. [doi:10.1073/pnas.68.4.820](https://doi.org/10.1073/pnas.68.4.820) · [PubMed 5279523](https://pubmed.ncbi.nlm.nih.gov/5279523/)
 [^shields-2008-retinoblastoma]: Shields CL, Shields JA. Retinoblastoma management: advances in enucleation, intravenous chemoreduction, and intra-arterial chemotherapy. *Curr Opin Ophthalmol.* 2010;21(3):203-212. [doi:10.1097/ICU.0b013e328338676a](https://doi.org/10.1097/ICU.0b013e328338676a) · [PubMed 20224400](https://pubmed.ncbi.nlm.nih.gov/20224400/)
