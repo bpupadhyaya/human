@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "Myxoid stroma: TGF-β drives the production of the abundant myxoid, chondroid extracellular matrix that gives chordoma its characteristic gelatinous histology and supports the physaliphorous tumour cells embedded within it."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "RTK convergence: the receptor kinases driving chordoma — EGFR, MET, PDGFR, KIT and FGFR (all already mapped) — funnel into the MAPK-ERK cascade, the proliferative hub targeted by the multi-kinase inhibitors used in this tumour."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K initiation: PIK3CA activates the AKT-mTOR axis (AKT, mTOR and PTEN already mapped) that is co-activated downstream of chordoma's receptor tyrosine kinases to sustain growth and survival."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Cell-cycle output: RB phosphorylation by the CDK4/6-cyclin-D1 axis (mapped, with CDKN2A loss) releases E2F1 to drive S-phase entry in the slow-growing but relentless proliferation of chordoma."
 ---
 
 # Chordoma
@@ -546,6 +555,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Because brachyury (TBXT) is the lineage-defining oncogenic dependency of chordoma, brachyury-targeted cancer vaccines aim to direct cytotoxic T cells to kill tumor cells through perforin and granzyme, an immunotherapeutic strategy unique to this tumor.
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Brachyury sits within the Wnt/β-catenin developmental program that builds the notochord, the embryonic structure whose persistent remnants give rise to chordoma along the axial skeleton.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — TGF-β drives the production of the abundant myxoid, chondroid extracellular matrix that gives chordoma its characteristic gelatinous histology and supports the physaliphorous tumor cells embedded within it.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — The receptor kinases driving chordoma—EGFR, MET, PDGFR, KIT and FGFR (all already mapped)—funnel into the MAPK-ERK cascade, the proliferative hub targeted by the multi-kinase inhibitors used in this tumor.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PIK3CA activates the AKT-mTOR axis (AKT, mTOR and PTEN already mapped) that is co-activated downstream of chordoma's receptor tyrosine kinases to sustain growth and survival.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — RB phosphorylation by the CDK4/6-cyclin-D1 axis (mapped, with CDKN2A loss) releases E2F1 to drive S-phase entry in the slow-growing but relentless proliferation of chordoma.
 
 ---
 

@@ -321,6 +321,15 @@ cross_links:
   - target: 01-human/03-molecular/perforin
     relation: connects-to
     note: "Cell-mediated demyelination: macrophages and cytotoxic T cells strip myelin from peripheral nerves in CIDP, with perforin-based cytotoxicity contributing to the segmental demyelination that slows nerve conduction."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 drives differentiation of Th1 cells and their IFN-γ output (IFN-γ already mapped), polarising the autoreactive T-cell response that attacks peripheral myelin in CIDP."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 maintenance: IL-23 sustains pathogenic Th17 cells and their IL-17A production (IL-17A already mapped), a second effector arm of the autoimmune demyelination of CIDP."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Regulatory restraint: IL-10 from regulatory T cells normally dampens these responses, and its relative insufficiency permits the sustained autoimmune nerve injury of CIDP, with recovery often accompanying remission."
 ---
 
 # CIDP
@@ -564,6 +573,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[Glucocorticoid receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Corticosteroids acting through the glucocorticoid receptor are a first-line treatment for CIDP, broadly suppressing the autoreactive immune attack on peripheral myelin, used alongside IVIG and plasma exchange.
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Long-lived plasma cells making the anti-nodal and anti-myelin antibodies of CIDP survive on BCL-2 and escape CD20-targeted depletion, the basis for relapse after rituximab in the autoimmune-nodopathy subset.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Macrophages and cytotoxic T cells strip myelin from peripheral nerves in CIDP, with perforin-based cytotoxicity contributing to the segmental demyelination that slows nerve conduction.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — IL-12 drives differentiation of Th1 cells and their IFN-γ output (IFN-γ already mapped), polarizing the autoreactive T-cell response that attacks peripheral myelin in CIDP.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — IL-23 sustains pathogenic Th17 cells and their IL-17A production (IL-17A already mapped), a second effector arm of the autoimmune demyelination of CIDP.
+- `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — IL-10 from regulatory T cells normally dampens these responses, and its relative insufficiency permits the sustained autoimmune nerve injury of CIDP, with recovery often accompanying remission.
 
 ---
 
