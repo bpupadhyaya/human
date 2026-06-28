@@ -328,6 +328,15 @@ cross_links:
   - target: 01-human/03-molecular/glucocorticoid-receptor
     relation: connects-to
     note: "Starvation hypercortisolaemia: chronic starvation activates the HPA axis (cortisol and CRH already mapped), and glucocorticoid-receptor signalling mediates the hypercortisolaemia that drives the bone and muscle loss of anorexia nervosa."
+  - target: 01-human/03-molecular/acth
+    relation: connects-to
+    note: "HPA driver: starvation-driven CRH (mapped) raises pituitary ACTH and thus cortisol (mapped), the hypercortisolaemia of anorexia nervosa that contributes to its bone loss and metabolic adaptation."
+  - target: 01-human/03-molecular/orexin
+    relation: connects-to
+    note: "Arousal and drive: hypothalamic orexin links the starvation state to arousal and feeding drive, a circuit dysregulated in the appetite suppression and paradoxical hyperactivity of anorexia nervosa."
+  - target: 01-human/03-molecular/sclerostin
+    relation: connects-to
+    note: "Bone loss: chronic energy deficit shifts the sclerostin-Wnt and RANKL (mapped) balance in bone, contributing to the severe osteoporosis of anorexia nervosa alongside low estrogen and IGF-1 (both mapped)."
 ---
 
 # Anorexia Nervosa
@@ -572,6 +581,9 @@ In healthy individuals, food cues activate the mesolimbic reward circuit (VTA �
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — Chronic caloric restriction activates the AMPK energy sensor (engaged by the leptin and adiponectin axes already mapped), driving the catabolic adaptations and possibly the paradoxical hyperactivity of anorexia nervosa.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — The mTOR nutrient sensor falls in the sustained starvation of anorexia nervosa, restraining the anabolic protein synthesis and growth that its caloric deficit cannot support.
 - `connects-to` → **[Glucocorticoid Receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Chronic starvation activates the HPA axis (cortisol and CRH already mapped), and glucocorticoid-receptor signaling mediates the hypercortisolemia that drives the bone and muscle loss of anorexia nervosa.
+- `connects-to` → **[ACTH](../../03-molecular/acth/README.md)** — Starvation-driven CRH (mapped) raises pituitary ACTH and thus cortisol (mapped), the hypercortisolemia of anorexia nervosa that contributes to its bone loss and metabolic adaptation.
+- `connects-to` → **[Orexin](../../03-molecular/orexin/README.md)** — Hypothalamic orexin links the starvation state to arousal and feeding drive, a circuit dysregulated in the appetite suppression and paradoxical hyperactivity of anorexia nervosa.
+- `connects-to` → **[Sclerostin](../../03-molecular/sclerostin/README.md)** — Chronic energy deficit shifts the sclerostin-Wnt and RANKL (mapped) balance in bone, contributing to the severe osteoporosis of anorexia nervosa alongside low estrogen and IGF-1 (both mapped).
 
 [^treasure-2010-an-lancet]: Treasure J, Claudino AM, Zucker N. Eating disorders. *Lancet.* 2010;375(9714):583-593. [doi:10.1016/S0140-6736(09)61748-7](https://doi.org/10.1016/S0140-6736(09)61748-7) · [PubMed 19931176](https://pubmed.ncbi.nlm.nih.gov/19931176/)
 [^lock-2010-fbt-an]: Lock J, Le Grange D, Agras WS, et al. Randomized clinical trial comparing family-based treatment with adolescent-focused individual therapy for adolescents with anorexia nervosa. *Arch Gen Psychiatry.* 2010;67(10):1025-1032. [doi:10.1001/archgenpsychiatry.2010.128](https://doi.org/10.1001/archgenpsychiatry.2010.128) · [PubMed 20921118](https://pubmed.ncbi.nlm.nih.gov/20921118/)
