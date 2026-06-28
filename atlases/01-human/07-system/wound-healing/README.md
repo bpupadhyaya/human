@@ -310,6 +310,15 @@ cross_links:
   - target: 01-human/03-molecular/s100a8-a9
     relation: connects-to
     note: "Neutrophil amplification: S100A8/A9 (calprotectin) released by the neutrophils of the early wound amplifies inflammation, and its persistence marks the stalled, neutrophil-dominated inflammatory phase of chronic non-healing wounds."
+  - target: 01-human/03-molecular/met
+    relation: connects-to
+    note: "Re-epithelialisation: HGF acting through the MET receptor drives the keratinocyte migration and proliferation that resurface a wound, together with endothelial responses supporting granulation-tissue angiogenesis."
+  - target: 01-human/03-molecular/connexin43
+    relation: connects-to
+    note: "Gap-junction remodelling: connexin-43 is downregulated at the wound edge to permit keratinocyte and fibroblast migration, and its abnormal persistence in chronic and diabetic wounds impairs closure, making Cx43 a wound-healing target."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "Progenitor recruitment: CXCL12 (SDF-1) recruits bone-marrow-derived endothelial and mesenchymal progenitor cells into the wound to support angiogenesis and granulation, an axis blunted in diabetic non-healing wounds."
 ---
 
 # Wound Healing
@@ -526,6 +535,9 @@ cross_links:
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — IL-4 polarizes wound macrophages to the M2 phenotype that resolves inflammation and drives the proliferative phase, secreting growth factors for fibroblasts and angiogenesis—the switch from clearing debris to rebuilding tissue.
 - `connects-to` → **[RAGE](../../03-molecular/rage/README.md)** — Advanced glycation end-products signaling through RAGE sustains a chronic inflammatory, pro-oxidant state in diabetic skin that stalls wounds in the inflammatory phase, a central reason diabetic foot ulcers fail to heal.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 (calprotectin) released by the neutrophils of the early wound amplifies inflammation, and its persistence marks the stalled, neutrophil-dominated inflammatory phase of chronic non-healing wounds.
+- `connects-to` → **[MET](../../03-molecular/met/README.md)** — HGF acting through the MET receptor drives the keratinocyte migration and proliferation that resurface a wound, together with endothelial responses supporting granulation-tissue angiogenesis.
+- `connects-to` → **[Connexin-43](../../03-molecular/connexin43/README.md)** — Connexin-43 is downregulated at the wound edge to permit keratinocyte and fibroblast migration, and its abnormal persistence in chronic and diabetic wounds impairs closure, making Cx43 a wound-healing target.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12 (SDF-1) recruits bone-marrow-derived endothelial and mesenchymal progenitor cells into the wound to support angiogenesis and granulation, an axis blunted in diabetic non-healing wounds.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)
