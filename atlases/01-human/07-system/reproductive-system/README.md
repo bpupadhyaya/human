@@ -311,6 +311,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "Gonadal regulation: the TGF-β superfamily, including the activin/inhibin axis already mapped, regulates gonadal function, follicular and Sertoli-cell development and FSH feedback, governing fertility across both sexes."
+  - target: 01-human/03-molecular/npy
+    relation: connects-to
+    note: "Energy-fertility gate: hypothalamic neuropeptide Y links nutritional and energy status to the GnRH pulse generator, gating reproduction on energy availability alongside the leptin signal already mapped."
+  - target: 01-human/03-molecular/endocannabinoid
+    relation: connects-to
+    note: "Fertility modulator: the endocannabinoid system regulates implantation, oviductal embryo transport and gametogenesis, a lipid-signalling system that tunes the early reproductive events governing fertility."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "Metabolic-reproductive link: insulin-receptor signalling in ovarian theca cells couples metabolic state to androgen production, the mechanism behind the reproductive dysfunction of polycystic ovary syndrome (insulin and androgen receptor mapped)."
 ---
 
 # Reproductive System
@@ -524,6 +533,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Cholesterol is the common substrate from which the gonads synthesize the steroid sex hormones—estrogen, progesterone and testosterone—that govern reproduction, making it the foundational molecule of reproductive endocrinology.
 - `connects-to` → **[KIT](../../03-molecular/kit/README.md)** — KIT receptor signaling is essential for primordial germ-cell survival and migration, spermatogenesis and ovarian follicle development, a core pathway driving formation of the gametes the reproductive system exists to produce.
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — The TGF-β superfamily, including the activin/inhibin axis already mapped, regulates gonadal function, follicular and Sertoli-cell development and FSH feedback, governing fertility across both sexes.
+- `connects-to` → **[Neuropeptide Y](../../03-molecular/npy/README.md)** — Hypothalamic neuropeptide Y links nutritional and energy status to the GnRH pulse generator, gating reproduction on energy availability alongside the leptin signal already mapped.
+- `connects-to` → **[Endocannabinoid System](../../03-molecular/endocannabinoid/README.md)** — The endocannabinoid system regulates implantation, oviductal embryo transport and gametogenesis, a lipid-signaling system that tunes the early reproductive events governing fertility.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — Insulin-receptor signaling in ovarian theca cells couples metabolic state to androgen production, the mechanism behind the reproductive dysfunction of polycystic ovary syndrome (insulin and androgen receptor mapped).
 
 ## Pathology
 
