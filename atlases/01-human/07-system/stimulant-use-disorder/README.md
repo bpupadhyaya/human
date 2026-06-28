@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/troponin-complex
     relation: connects-to
     note: "Cardiotoxicity: cocaine causes coronary vasospasm, accelerated atherosclerosis and direct myocardial injury, producing the troponin-positive myocardial infarction and cardiomyopathy that make stimulant use a major cardiovascular hazard."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "Reward plasticity: cocaine and amphetamine drive dopamine-induced ERK activation in the striatum, the molecular trigger of the synaptic plasticity that consolidates stimulant reward and craving."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Sensitisation signalling: stimulant action on dopamine D2 receptors signals through the AKT-GSK3β axis (GSK3β already mapped), a pathway shaping the reward and behavioural sensitisation of stimulant use disorder."
+  - target: 01-human/03-molecular/glucocorticoid-receptor
+    relation: connects-to
+    note: "Stress and relapse: HPA-axis stress signalling through the glucocorticoid receptor (CRH already mapped) drives the stress-induced craving and relapse of stimulant use disorder."
 ---
 
 # Stimulant Use Disorder
@@ -533,6 +542,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — GLP-1 receptor agonists reduce the dopaminergic reward response to cocaine and methamphetamine in models, an emerging metabolic-pathway approach to dampening craving and relapse in stimulant use disorder.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Methamphetamine drives caspase-3-mediated apoptosis of dopaminergic neurons and terminals, the cell death behind the lasting cognitive and motor deficits and Parkinson's-disease risk of chronic heavy use.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cocaine causes coronary vasospasm, accelerated atherosclerosis and direct myocardial injury, producing the troponin-positive myocardial infarction and cardiomyopathy that make stimulant use a major cardiovascular hazard.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Cocaine and amphetamine drive dopamine-induced ERK activation in the striatum, the molecular trigger of the synaptic plasticity that consolidates stimulant reward and craving.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Stimulant action on dopamine D2 receptors signals through the AKT-GSK3β axis (GSK3β already mapped), a pathway shaping the reward and behavioral sensitization of stimulant use disorder.
+- `connects-to` → **[Glucocorticoid Receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — HPA-axis stress signaling through the glucocorticoid receptor (CRH already mapped) drives the stress-induced craving and relapse of stimulant use disorder.
 
 ## Treatment
 

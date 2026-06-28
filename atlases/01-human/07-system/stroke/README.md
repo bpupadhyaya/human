@@ -316,6 +316,15 @@ cross_links:
   - target: 01-human/03-molecular/endothelin-1
     relation: connects-to
     note: "Cerebral vasospasm: endothelin-1 released after subarachnoid haemorrhage is a key driver of the delayed cerebral vasospasm that causes secondary ischaemic stroke days after the initial bleed, a major cause of poor outcome."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Reperfusion oxidative stress: reperfusion after ischaemic stroke generates a burst of reactive oxygen species, and the NRF2 antioxidant response is a key endogenous defence protecting the salvageable penumbra."
+  - target: 01-human/03-molecular/connexin43
+    relation: connects-to
+    note: "Penumbral spread: astrocytic connexin-43 gap junctions and hemichannels propagate peri-infarct spreading depolarisations and release glutamate and ATP, expanding the ischaemic penumbra into completed infarct."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Post-ischaemic inflammation: complement activation after stroke contributes to the secondary neuroinflammatory injury, while also influencing the neural repair and plasticity of recovery."
 ---
 
 # Stroke
@@ -519,6 +528,9 @@ Normal brain maintains CBF constant (50-150 mmHg MAP range) via autoregulation (
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Glutamate flooding the ischemic core opens NMDA channels to a lethal calcium influx, and the resulting calcium overload activates proteases and destroys mitochondria—the final common pathway of neuronal death in the stroke penumbra.
 - `connects-to` → **[Xanthine Oxidase](../../03-molecular/xanthine-oxidase/README.md)** — When blood flow is restored by thrombolysis or thrombectomy, xanthine-oxidase-derived reactive oxygen species burst into the reoxygenated tissue, the oxidative reperfusion injury that can extend the damage the clot began.
 - `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Endothelin-1 released after subarachnoid hemorrhage is a key driver of the delayed cerebral vasospasm that causes secondary ischemic stroke days after the initial bleed, a major cause of poor outcome.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — Reperfusion after ischemic stroke generates a burst of reactive oxygen species, and the NRF2 antioxidant response is a key endogenous defense protecting the salvageable penumbra.
+- `connects-to` → **[Connexin-43](../../03-molecular/connexin43/README.md)** — Astrocytic connexin-43 gap junctions and hemichannels propagate peri-infarct spreading depolarizations and release glutamate and ATP, expanding the ischemic penumbra into completed infarct.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement activation after stroke contributes to the secondary neuroinflammatory injury, while also influencing the neural repair and plasticity of recovery.
 
 [^powers-2019-aha-stroke]: Powers WJ, Rabinstein AA, Ackerson T, et al. Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines. *Stroke.* 2019;50(12):e344-e418. [doi:10.1161/STR.0000000000000211](https://doi.org/10.1161/STR.0000000000000211) · [PubMed 31662037](https://pubmed.ncbi.nlm.nih.gov/31662037/)
 [^feigin-2021-gbd-stroke]: Feigin VL, Krishnamurthi RV, Parmar P, et al. Update on the Global Burden of Ischemic and Hemorrhagic Stroke in 1990-2013. *Neuroepidemiology.* 2015;45(3):161-176. [doi:10.1159/000441085](https://doi.org/10.1159/000441085) · [PubMed 26505981](https://pubmed.ncbi.nlm.nih.gov/26505981/)
