@@ -319,6 +319,15 @@ cross_links:
   - target: 01-human/03-molecular/pdgf
     relation: connects-to
     note: "Desmoplastic stroma: tumour-derived PDGF activates pancreatic stellate cells into the cancer-associated fibroblasts that lay down PDAC's dense collagenous stroma, the physical barrier that impairs drug delivery and shields tumour cells."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "KRAS effector: mutant KRAS (mapped), present in ~90% of PDAC, signals through the MAPK-ERK cascade as the central proliferative driver and the focus of KRAS- and MEK-directed therapy."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Growth axis: mTOR completes the PI3K-AKT-mTOR pathway (AKT already mapped) that, alongside KRAS-MAPK, sustains the growth and metabolism of pancreatic cancer."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Cell-cycle release: CDKN2A loss (mapped) frees the cyclin-D1-CDK4/6 axis to phosphorylate RB and release E2F1, driving the cell-cycle progression of pancreatic cancer."
 ---
 
 # Pancreatic Cancer
@@ -539,6 +548,9 @@ cross_links:
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH signaling is reactivated downstream of mutant KRAS to drive the acinar-to-ductal metaplasia and PanIN precursor lesions of pancreatic cancer, and sustains the desmoplastic, stem-like phenotype of established tumors.
 - `connects-to` → **[AXL Receptor Tyrosine Kinase](../../03-molecular/axl-receptor/README.md)** — AXL drives epithelial-mesenchymal transition, gemcitabine resistance and immune evasion in PDAC, marking the aggressive mesenchymal subtype and motivating AXL inhibitors in combination therapy.
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Tumor-derived PDGF activates pancreatic stellate cells into the cancer-associated fibroblasts that lay down PDAC's dense collagenous stroma, the physical barrier that impairs drug delivery and shields tumor cells.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Mutant KRAS (mapped), present in ~90% of PDAC, signals through the MAPK-ERK cascade as the central proliferative driver and the focus of KRAS- and MEK-directed therapy.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR completes the PI3K-AKT-mTOR pathway (AKT already mapped) that, alongside KRAS-MAPK, sustains the growth and metabolism of pancreatic cancer.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — CDKN2A loss (mapped) frees the cyclin-D1-CDK4/6 axis to phosphorylate RB and release E2F1, driving the cell-cycle progression of pancreatic cancer.
 
 ---
 
