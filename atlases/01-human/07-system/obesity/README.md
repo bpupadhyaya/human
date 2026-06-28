@@ -325,6 +325,15 @@ cross_links:
   - target: 01-human/03-molecular/glucagon
     relation: connects-to
     note: "Energy-balance therapeutics: glucagon governs hepatic glucose output and energy expenditure, and glucagon/GLP-1 dual-agonist drugs exploit this axis (alongside the GLP-1 already mapped) to drive weight loss in obesity."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "Insulin-signalling defect: the insulin receptor (mapped) signals through IRS-PI3K to AKT (mapped), and blunting of this PI3K branch in overnourished tissue is the molecular core of obesity-associated insulin resistance."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Adipose inflammation: saturated fatty acids and gut-derived LPS activate adipose-tissue TLR4 (mapped) through MyD88 to NF-κB (mapped), driving the macrophage inflammation that links obesity to insulin resistance."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "Glycogen and metabolism: AKT normally inhibits GSK-3β to switch on glycogen synthesis, and elevated GSK-3β activity in obesity impairs insulin action and glucose storage."
 ---
 
 # Obesity
@@ -567,6 +576,9 @@ This **metainflammation** mechanistically links obesity to type 2 diabetes, athe
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Insulin signaling through AKT (insulin-receptor already mapped) is progressively impaired in expanding, inflamed adipose tissue, the molecular basis of the insulin resistance linking obesity to type-2 diabetes.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — The NLRP3 inflammasome (already mapped) in adipose-tissue macrophages generates IL-1β, a key driver of the chronic low-grade inflammation that produces the metabolic complications of obesity.
 - `connects-to` → **[Glucagon](../../03-molecular/glucagon/README.md)** — Glucagon governs hepatic glucose output and energy expenditure, and glucagon/GLP-1 dual-agonist drugs exploit this axis (alongside the GLP-1 already mapped) to drive weight loss in obesity.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — The insulin receptor (mapped) signals through IRS-PI3K to AKT (mapped), and blunting of this PI3K branch in overnourished tissue is the molecular core of obesity-associated insulin resistance.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Saturated fatty acids and gut-derived LPS activate adipose-tissue TLR4 (mapped) through MyD88 to NF-κB (mapped), driving the macrophage inflammation that links obesity to insulin resistance.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — AKT normally inhibits GSK-3β to switch on glycogen synthesis, and elevated GSK-3β activity in obesity impairs insulin action and glucose storage.
 
 [^bluher-2019-obesity-review]: Blüher M. Obesity: global epidemiology and pathogenesis. *Nat Rev Endocrinol.* 2019;15(5):288-298. [doi:10.1038/s41574-019-0176-8](https://doi.org/10.1038/s41574-019-0176-8) · [PubMed 30814686](https://pubmed.ncbi.nlm.nih.gov/30814686/)
 [^wilding-2021-semaglutide-step1]: Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. *N Engl J Med.* 2021;384(11):989-1002. [doi:10.1056/NEJMoa2032183](https://doi.org/10.1056/NEJMoa2032183) · [PubMed 33567185](https://pubmed.ncbi.nlm.nih.gov/33567185/)

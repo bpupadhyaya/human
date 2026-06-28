@@ -328,6 +328,15 @@ cross_links:
   - target: 01-human/03-molecular/bdnf
     relation: connects-to
     note: "Lost trophic support: AQP4-IgG-mediated astrocyte injury strips the BDNF and other trophic factors that astrocytes normally supply, contributing to the neuronal and oligodendrocyte damage of NMO lesions."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 maintenance: IL-23 sustains the pathogenic Th17 cells whose IL-17A (mapped) helps disrupt the blood-brain barrier and recruit neutrophils to the AQP4-targeted lesions of NMO."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Eosinophilic component: IL-13, with the IL-5 already mapped, recruits the eosinophils that are a characteristic feature of the inflammatory infiltrate in NMO lesions."
+  - target: 01-human/03-molecular/ctla-4
+    relation: connects-to
+    note: "Tolerance breakdown: loss of CTLA-4-dependent regulatory control underlies the anti-AQP4 autoantibody response, and checkpoint-inhibitor therapy can trigger NMO-like autoimmunity."
 ---
 
 # NMOSD
@@ -577,6 +586,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6 signaling (already mapped, the target of satralizumab) acts through STAT3 to drive the pathogenic plasmablasts and Th17 cells that produce the AQP4-IgG of neuromyelitis optica.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Complement- and antibody-mediated astrocyte injury in NMO triggers caspase-3 apoptosis of astrocytes and bystander neurons, the cell death underlying its destructive optic-nerve and spinal-cord lesions.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — AQP4-IgG-mediated astrocyte injury strips the BDNF and other trophic factors that astrocytes normally supply, contributing to the neuronal and oligodendrocyte damage of NMO lesions.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — IL-23 sustains the pathogenic Th17 cells whose IL-17A (mapped) helps disrupt the blood-brain barrier and recruit neutrophils to the AQP4-targeted lesions of NMO.
+- `connects-to` → **[Interleukin-13](../../03-molecular/il-13/README.md)** — IL-13, with the IL-5 already mapped, recruits the eosinophils that are a characteristic feature of the inflammatory infiltrate in NMO lesions.
+- `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Loss of CTLA-4-dependent regulatory control underlies the anti-AQP4 autoantibody response, and checkpoint-inhibitor therapy can trigger NMO-like autoimmunity.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)
