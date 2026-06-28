@@ -311,6 +311,15 @@ cross_links:
   - target: 01-human/03-molecular/mhc-class-ii
     relation: connects-to
     note: "Lymph-node immunity: lymph carries antigen-presenting cells to the lymph nodes, where MHC-class-II presentation to T cells launches the adaptive immune response — the immune-surveillance function that is the lymphatic system's defining role."
+  - target: 01-human/03-molecular/endothelin-1
+    relation: connects-to
+    note: "Lymphatic tone: endothelin-1 modulates the contractility of lymphatic collecting vessels, working alongside the nitric oxide and norepinephrine already mapped to set the intrinsic pumping that propels lymph."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Node lymphocyte expansion: IL-2 drives the clonal proliferation of T cells within lymph nodes, the amplification step of the adaptive immune response that the lymphatic system organises."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Fluid filtration: bradykinin raises capillary permeability and interstitial fluid formation, increasing the filtered load that the lymphatics must return to the circulation to prevent oedema."
 ---
 
 # Lymphatic System
@@ -518,6 +527,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Rhythmic calcium transients in lymphatic-vessel smooth muscle drive the spontaneous contractions of each lymphangion that actively pump lymph against gravity, the intrinsic pacemaker mechanism propelling lymph back to the bloodstream.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Sympathetic norepinephrine acting on lymphatic-muscle adrenergic receptors modulates the frequency and force of lymphatic contractions, the neural control of lymph flow that adjusts drainage to the body's needs.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Lymph carries antigen-presenting cells to the lymph nodes, where MHC-class-II presentation to T cells launches the adaptive immune response—the immune-surveillance function that is the lymphatic system's defining role.
+- `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Endothelin-1 modulates the contractility of lymphatic collecting vessels, working alongside the nitric oxide and norepinephrine already mapped to set the intrinsic pumping that propels lymph.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — IL-2 drives the clonal proliferation of T cells within lymph nodes, the amplification step of the adaptive immune response that the lymphatic system organizes.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Bradykinin raises capillary permeability and interstitial fluid formation, increasing the filtered load that the lymphatics must return to the circulation to prevent edema.
 
 ## Pathology
 

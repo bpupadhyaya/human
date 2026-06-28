@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/immunoglobulin-g
     relation: connects-to
     note: "Neoantigen vaccine: the mismatch-repair deficiency of Lynch tumours generates recurrent frameshift-peptide neoantigens, the basis for shared cancer-prevention vaccines being trialled to prime antibody and T-cell immunity before tumours arise."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "MAPK driver: KRAS and BRAF (both already mapped) signal through MAPK-ERK in Lynch-associated colorectal cancer, with BRAF testing used to distinguish sporadic MSI-high tumours from true Lynch syndrome."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Growth axis: mTOR completes the PI3K-AKT-mTOR pathway (PIK3CA and AKT already mapped) active in the colorectal and endometrial cancers of Lynch syndrome."
+  - target: 01-human/03-molecular/apc
+    relation: connects-to
+    note: "Wnt initiation: APC inactivation activates Wnt/β-catenin (mapped) to initiate the adenoma-carcinoma sequence in Lynch colorectal cancer, on which the mismatch-repair defect then layers rapid mutation accumulation."
 ---
 
 # Lynch Syndrome
@@ -551,6 +560,9 @@ MSI-H stage II CRC: adjuvant 5-FU/leucovorin does NOT improve OS (may be harmful
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — The CAPP2 trial showed that long-term aspirin, by inhibiting COX-derived prostaglandins, substantially reduces colorectal-cancer incidence in Lynch syndrome, an evidence-based chemoprevention recommended for carriers.
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Endometrial cancer is the commonest extracolonic Lynch tumor and often the first to present in women, an estrogen-responsive cancer for which risk-reducing hysterectomy is offered once childbearing is complete.
 - `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — The mismatch-repair deficiency of Lynch tumors generates recurrent frameshift-peptide neoantigens, the basis for shared cancer-prevention vaccines being trialled to prime antibody and T-cell immunity before tumors arise.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — KRAS and BRAF (both already mapped) signal through MAPK-ERK in Lynch-associated colorectal cancer, with BRAF testing used to distinguish sporadic MSI-high tumors from true Lynch syndrome.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR completes the PI3K-AKT-mTOR pathway (PIK3CA and AKT already mapped) active in the colorectal and endometrial cancers of Lynch syndrome.
+- `connects-to` → **[APC](../../03-molecular/apc/README.md)** — APC inactivation activates Wnt/β-catenin (mapped) to initiate the adenoma-carcinoma sequence in Lynch colorectal cancer, on which the mismatch-repair defect then layers rapid mutation accumulation.
 
 [^bonadona-2011-lynch-risks]: Bonadona V, Bonaïti B, Olschwang S, et al. Cancer risks associated with germline mutations in MLH1, MSH2, and MSH6 genes in Lynch syndrome. *JAMA.* 2011;305(22):2304-2310. [doi:10.1001/jama.2011.743](https://doi.org/10.1001/jama.2011.743) · [PubMed 21642683](https://pubmed.ncbi.nlm.nih.gov/21642683/)
 [^lynch-2015-lynch-review]: Lynch HT, Snyder CL, Shaw TG, et al. Milestones of Lynch syndrome: 1895-2015. *Nat Rev Cancer.* 2015;15(3):181-194. [doi:10.1038/nrc3878](https://doi.org/10.1038/nrc3878) · [PubMed 25673086](https://pubmed.ncbi.nlm.nih.gov/25673086/)
