@@ -324,6 +324,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "Inflammatory iron block: chronic inflammation with IL-6 contributes to dysregulated iron homeostasis and an anaemia-of-chronic-disease component overlying the inherited anaemia of thalassemia."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Ineffective erythropoiesis: TGF-β-superfamily ligands (activin-A already mapped) suppress late erythroid maturation through SMAD signalling (SMAD4 mapped), the axis blocked by luspatercept to relieve the ineffective erythropoiesis of thalassemia."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Heme-driven inflammation: TLR-MyD88-NF-κB innate signalling (TLR4 and NF-κB already mapped), driven by haemolysis-derived heme and oxidative damage, sustains the chronic inflammation that compounds the anaemia of thalassemia."
+  - target: 01-human/03-molecular/thrombin
+    relation: connects-to
+    note: "Hypercoagulable state: chronic platelet and coagulation activation generates a thrombin-rich prothrombotic state (von Willebrand factor already mapped) underlying the thrombotic risk of thalassemia, especially after splenectomy."
 ---
 
 # Thalassemia
@@ -570,6 +579,9 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — Expanded ineffective erythropoiesis in thalassemia suppresses hepcidin via erythroferrone and shifts the BMP-SMAD set-point, derepressing ferroportin (already mapped) to drive the iron overload that dominates non-transfusional disease.
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — Unpaired globin chains and excess iron generate severe oxidative stress in thalassemic erythroid cells, and the NRF2 antioxidant response is the key defense against this damage.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Chronic inflammation with IL-6 contributes to dysregulated iron homeostasis and an anemia-of-chronic-disease component overlying the inherited anemia of thalassemia.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β-superfamily ligands (activin-A already mapped) suppress late erythroid maturation through SMAD signaling (SMAD4 mapped), the axis blocked by luspatercept to relieve the ineffective erythropoiesis of thalassemia.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88-NF-κB innate signaling (TLR4 and NF-κB already mapped), driven by hemolysis-derived heme and oxidative damage, sustains the chronic inflammation that compounds the anemia of thalassemia.
+- `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — Chronic platelet and coagulation activation generates a thrombin-rich prothrombotic state (von Willebrand factor already mapped) underlying the thrombotic risk of thalassemia, especially after splenectomy.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.
