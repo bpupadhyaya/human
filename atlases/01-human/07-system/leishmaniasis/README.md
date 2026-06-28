@@ -316,6 +316,15 @@ cross_links:
   - target: 01-human/03-molecular/il-1b
     relation: connects-to
     note: "Inflammasome double edge: inflammasome-driven IL-1β shapes the response to Leishmania with a context-dependent role in both parasite control and the immunopathology of the leishmaniases."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Protective innate signalling: TLR sensing of Leishmania (TLR4 mapped) through MyD88 to NF-κB (mapped) drives the IL-12/IFN-γ-dependent macrophage activation that controls the parasite; MyD88 deficiency causes susceptibility."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "Immune subversion: Leishmania manipulates host MAPK-ERK signalling to dampen macrophage activation and IL-12 production, promoting its own intracellular survival."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Macrophage metabolism: mTOR-regulated macrophage metabolism and autophagy influence the balance between killing and harbouring intracellular Leishmania amastigotes."
 ---
 
 # Leishmaniasis
@@ -517,3 +526,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[Interleukin-13](../../03-molecular/il-13/README.md)** — With the IL-4 already mapped, IL-13 drives the Th2 response that deactivates macrophage killing and permits Leishmania persistence, the immune polarization that determines progression to visceral disease.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Leishmania manipulates host macrophage PI3K-AKT signaling to suppress apoptosis and microbicidal function, securing the intracellular niche in which the amastigote survives and replicates.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Inflammasome-driven IL-1β shapes the response to Leishmania with a context-dependent role in both parasite control and the immunopathology of the leishmaniases.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR sensing of Leishmania (TLR4 mapped) through MyD88 to NF-κB (mapped) drives the IL-12/IFN-γ-dependent macrophage activation that controls the parasite; MyD88 deficiency causes susceptibility.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Leishmania manipulates host MAPK-ERK signaling to dampen macrophage activation and IL-12 production, promoting its own intracellular survival.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR-regulated macrophage metabolism and autophagy influence the balance between killing and harboring intracellular Leishmania amastigotes.

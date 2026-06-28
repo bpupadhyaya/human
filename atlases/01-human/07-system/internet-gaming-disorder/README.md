@@ -303,6 +303,15 @@ cross_links:
   - target: 01-human/03-molecular/glucocorticoid-receptor
     relation: connects-to
     note: "Stress and relapse: HPA-axis stress signalling through the glucocorticoid receptor (cortisol and CRH already mapped) links stress and craving to the relapse behaviour of internet gaming disorder."
+  - target: 01-human/03-molecular/acth
+    relation: connects-to
+    note: "HPA axis: CRH (mapped) drives pituitary ACTH release that raises cortisol (mapped), the neuroendocrine stress cascade engaged in the craving and relapse cycles of internet gaming disorder."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Reward plasticity: PI3K-AKT-mTOR signalling (AKT mapped) drives the synaptic plasticity in reward circuits that consolidates compulsive gaming behaviour."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Neuroinflammation: chronic stress and sleep disruption in internet gaming disorder activate the NLRP3 inflammasome and the IL-1β/IL-6/TNF response (all mapped), part of its low-grade neuroinflammation."
 sources:
   - id: kuss-2012-gaming-disorder-review
     type: peer-reviewed
@@ -572,6 +581,9 @@ A pattern of persistent or recurrent gaming behavior characterized by:
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Repetitive gaming reward drives dopamine-induced ERK activation in striatal reward circuitry, the synaptic-plasticity pathway underlying the habit formation and compulsivity of internet gaming disorder.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Dopamine D2-receptor signaling through the AKT-GSK3β axis (GSK3β already mapped) is implicated in the reward and impulse-control circuitry of behavioral addictions including internet gaming disorder.
 - `connects-to` → **[Glucocorticoid Receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — HPA-axis stress signaling through the glucocorticoid receptor (cortisol and CRH already mapped) links stress and craving to the relapse behavior of internet gaming disorder.
+- `connects-to` → **[ACTH](../../03-molecular/acth/README.md)** — CRH (mapped) drives pituitary ACTH release that raises cortisol (mapped), the neuroendocrine stress cascade engaged in the craving and relapse cycles of internet gaming disorder.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — PI3K-AKT-mTOR signaling (AKT mapped) drives the synaptic plasticity in reward circuits that consolidates compulsive gaming behavior.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Chronic stress and sleep disruption in internet gaming disorder activate the NLRP3 inflammasome and the IL-1β/IL-6/TNF response (all mapped), part of its low-grade neuroinflammation.
 
 [^kuss-2012-gaming-disorder-review]: Kuss DJ, Griffiths MD. Internet gaming addiction: a systematic review of empirical research. *Int J Ment Health Addict.* 2012;10(2):278-296. [doi:10.1007/s11469-011-9318-5](https://doi.org/10.1007/s11469-011-9318-5)
 [^who-icd11-gaming-disorder]: World Health Organization. ICD-11: Gaming Disorder (6C51). Geneva: WHO; 2019. [icd.who.int](https://icd.who.int/browse/2025-01/mms/en#1448597234)
