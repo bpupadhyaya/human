@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/mutyh
     relation: connects-to
     note: "Polyposis differential: the hamartomatous polyps of juvenile polyposis must be distinguished histologically and genetically from the adenomatous polyposis of FAP and MUTYH-associated polyposis, a distinction that determines cancer risk and management."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "MAPK progression: KRAS-driven (mapped) MAPK-ERK signalling contributes to the progression of juvenile-polyposis hamartomatous polyps toward colorectal and gastric carcinoma."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K cooperation: PIK3CA activation of the PI3K-AKT-mTOR axis (PTEN, AKT and mTOR already mapped) cooperates in the malignant transformation of juvenile-polyposis polyps."
+  - target: 01-human/03-molecular/cdh1
+    relation: connects-to
+    note: "EMT and invasion: loss of E-cadherin during epithelial-mesenchymal transition accompanies the progression of juvenile-polyposis polyps to invasive adenocarcinoma."
 ---
 
 # Juvenile Polyposis Syndrome
@@ -541,6 +550,9 @@ No approved chemopreventive agents specifically for JPS. Options under investiga
 - `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — SMAD4-mutant juvenile polyposis overlaps with hereditary hemorrhagic telangiectasia, where the same BMP/TGF-β defect produces arteriovenous malformations and the endothelial dysfunction reflected in endothelin signaling, causing epistaxis and GI bleeding.
 - `connects-to` → **[MLH1](../../03-molecular/mlh1/README.md)** — Juvenile polyposis (SMAD4/BMPR1A) sits among the hereditary gastrointestinal-cancer syndromes that must be distinguished from Lynch syndrome (MLH1 and other mismatch-repair genes), each with its own surveillance and risk profile.
 - `connects-to` → **[MUTYH](../../03-molecular/mutyh/README.md)** — The hamartomatous polyps of juvenile polyposis must be distinguished histologically and genetically from the adenomatous polyposis of FAP and MUTYH-associated polyposis, a distinction that determines cancer risk and management.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — KRAS-driven (mapped) MAPK-ERK signaling contributes to the progression of juvenile-polyposis hamartomatous polyps toward colorectal and gastric carcinoma.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PIK3CA activation of the PI3K-AKT-mTOR axis (PTEN, AKT and mTOR already mapped) cooperates in the malignant transformation of juvenile-polyposis polyps.
+- `connects-to` → **[CDH1](../../03-molecular/cdh1/README.md)** — Loss of E-cadherin during epithelial-mesenchymal transition accompanies the progression of juvenile-polyposis polyps to invasive adenocarcinoma.
 
 [^howe-1998-smad4-jps]: Howe JR, Roth S, Ringold JC, et al. Mutations in the SMAD4/DPC4 gene in juvenile polyposis. *Science.* 1998;280(5366):1086-1088. [doi:10.1126/science.280.5366.1086](https://doi.org/10.1126/science.280.5366.1086) · [PubMed 9582123](https://pubmed.ncbi.nlm.nih.gov/9582123/)
 [^aretz-2007-jps-spectrum]: Aretz S, Stienen D, Uhlhaas S, et al. High proportion of large genomic deletions and a genotype-phenotype update in 80 unrelated families with juvenile polyposis syndrome. *J Med Genet.* 2007;44(11):702-709. [doi:10.1136/jmg.2007.051839](https://doi.org/10.1136/jmg.2007.051839) · [PubMed 17601924](https://pubmed.ncbi.nlm.nih.gov/17601924/)

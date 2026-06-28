@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/dnmt3a
     relation: connects-to
     note: "Therapy-related leukaemia: the genotoxic chemotherapy and radiation used to treat Li-Fraumeni cancers select for clonal haematopoiesis with mutations such as DNMT3A, raising the risk of therapy-related myelodysplasia and leukaemia in these multiply-treated patients."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Lost apoptotic partner: p53 normally cooperates with E2F1 to trigger apoptosis after DNA damage, so germline TP53 loss in Li-Fraumeni leaves the RB-E2F axis (RB1, CDK4/6, CDKN2A mapped) driving proliferation without that fail-safe."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "Reciprocal tumour suppressors: p53 and PTEN reinforce each other, so loss of p53 in Li-Fraumeni leaves the PI3K-AKT-mTOR axis (AKT and mTOR already mapped) less restrained, accelerating the syndrome's diverse tumours."
+  - target: 01-human/03-molecular/her2
+    relation: connects-to
+    note: "Breast-cancer subtype: the early-onset breast cancers of Li-Fraumeni syndrome are disproportionately HER2-positive, a distinctive feature that guides screening and targeted treatment in TP53 carriers."
 ---
 
 # Li-Fraumeni Syndrome
@@ -562,6 +571,9 @@ Annual surveillance significantly reduces mortality in LFS carriers (Villani 201
 - `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — A near-pathognomonic childhood tumor of Li-Fraumeni is adrenocortical carcinoma, which often secretes cortisol and androgens, so unexplained Cushing's or virilization in a child can be the first clue to a germline TP53 mutation.
 - `connects-to` → **[Xanthine Oxidase](../../03-molecular/xanthine-oxidase/README.md)** — With p53 lost, Li-Fraumeni cells handle radiation-induced oxidative DNA damage poorly and readily form radiation-induced second cancers, the basis for avoiding radiotherapy whenever possible in these patients.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — The genotoxic chemotherapy and radiation used to treat Li-Fraumeni cancers select for clonal hematopoiesis with mutations such as DNMT3A, raising the risk of therapy-related myelodysplasia and leukemia in these multiply-treated patients.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — p53 normally cooperates with E2F1 to trigger apoptosis after DNA damage, so germline TP53 loss in Li-Fraumeni leaves the RB-E2F axis (RB1, CDK4/6, CDKN2A mapped) driving proliferation without that fail-safe.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — p53 and PTEN reinforce each other, so loss of p53 in Li-Fraumeni leaves the PI3K-AKT-mTOR axis (AKT and mTOR already mapped) less restrained, accelerating the syndrome's diverse tumors.
+- `connects-to` → **[HER2](../../03-molecular/her2/README.md)** — The early-onset breast cancers of Li-Fraumeni syndrome are disproportionately HER2-positive, a distinctive feature that guides screening and targeted treatment in TP53 carriers.
 
 [^bougeard-2015-lfs-chompret]: Bougeard G, Renaux-Petel M, Flaman JM, et al. Revisiting Li-Fraumeni Syndrome From TP53 Mutation Carriers. *J Clin Oncol.* 2015;33(21):2345-2352. [doi:10.1200/JCO.2014.59.5728](https://doi.org/10.1200/JCO.2014.59.5728) · [PubMed 26014290](https://pubmed.ncbi.nlm.nih.gov/26014290/)
 [^villani-2016-lfs-surveillance]: Villani A, Shore A, Wasserman JD, et al. Biochemical and imaging surveillance in germline TP53 mutation carriers with Li-Fraumeni syndrome: 11 year follow-up of a prospective observational study. *Lancet Oncol.* 2016;17(9):1295-1305. [doi:10.1016/S1470-2045(16)30249-2](https://doi.org/10.1016/S1470-2045(16)30249-2) · [PubMed 27501770](https://pubmed.ncbi.nlm.nih.gov/27501770/)
