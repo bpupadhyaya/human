@@ -328,6 +328,15 @@ cross_links:
   - target: 01-human/03-molecular/mtor
     relation: connects-to
     note: "Synaptic restoration: sleep promotes mTOR-dependent protein synthesis that restores synaptic and cellular homeostasis, a recuperative process curtailed by the chronic sleep loss of insomnia."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Inflammatory hyperarousal: TLR4-driven neuroinflammation links the systemic low-grade inflammation of chronic sleep loss to the cortical hyperarousal that perpetuates insomnia, a bidirectional sleep-immune loop."
+  - target: 01-human/03-molecular/ntrk
+    relation: connects-to
+    note: "Sleep-dependent plasticity: BDNF signalling through its TrkB receptor (NTRK) mediates the sleep-dependent synaptic plasticity and slow-wave homeostasis that chronic insomnia degrades."
+  - target: 01-human/03-molecular/npy
+    relation: connects-to
+    note: "Arousal dampening: neuropeptide Y opposes CRH-driven arousal (CRH already mapped) and promotes sleep onset, and deficient NPY-mediated calming contributes to the stress-related hyperarousal of insomnia."
 ---
 
 # Insomnia Disorder
@@ -568,6 +577,9 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[Glucocorticoid Receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — The cortisol/CRH hyperarousal of insomnia (already mapped) acts through the glucocorticoid receptor, the HPA-axis overactivity that both causes and is worsened by chronic sleep loss.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Sleep regulates BDNF-dependent synaptic plasticity and memory consolidation, and the disrupted sleep of insomnia impairs this restorative function, linking it to the cognitive and mood symptoms of the disorder.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Sleep promotes mTOR-dependent protein synthesis that restores synaptic and cellular homeostasis, a recuperative process curtailed by the chronic sleep loss of insomnia.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4-driven neuroinflammation links the systemic low-grade inflammation of chronic sleep loss to the cortical hyperarousal that perpetuates insomnia, a bidirectional sleep-immune loop.
+- `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — BDNF signaling through its TrkB receptor (NTRK) mediates the sleep-dependent synaptic plasticity and slow-wave homeostasis that chronic insomnia degrades.
+- `connects-to` → **[Neuropeptide Y](../../03-molecular/npy/README.md)** — Neuropeptide Y opposes CRH-driven arousal (CRH already mapped) and promotes sleep onset, and deficient NPY-mediated calming contributes to the stress-related hyperarousal of insomnia.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)
