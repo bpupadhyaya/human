@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Thrombo-inflammation: complement activation generating C3 fragments amplifies the platelet and neutrophil activation of essential thrombocythemia, an inflammatory limb of the prothrombotic state that drives its arterial and venous thrombosis."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "MAPK limb: the JAK2, CALR and MPL driver mutations (all already mapped) activate the MAPK-ERK cascade alongside JAK-STAT, driving the megakaryocyte proliferation that produces the thrombocytosis of essential thrombocythemia."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K limb: the same constitutively active receptor-kinase signalling engages PI3K (AKT already mapped) as a third effector pathway supporting megakaryocyte growth and survival in essential thrombocythemia."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "Leukaemic transformation: TP53 inactivation drives the transformation of essential thrombocythemia to acute myeloid leukaemia, a feared progression alongside the RUNX1 lesions already mapped."
 ---
 
 # Essential Thrombocythemia
@@ -529,6 +538,9 @@ Management:
 - `connects-to` → **[SF3B1](../../03-molecular/sf3b1/README.md)** — Spliceosome mutations such as SF3B1, acquired alongside the JAK2/CALR/MPL driver, mark the essential thrombocythemia more likely to progress to myelofibrosis or acute leukemia, refining its otherwise indolent prognosis.
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Should essential thrombocythemia transform to acute leukemia, the blasts become dependent on anti-apoptotic BCL-2, a vulnerability targeted by venetoclax in the otherwise dismal post-MPN leukemia.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement activation generating C3 fragments amplifies the platelet and neutrophil activation of essential thrombocythemia, an inflammatory limb of the prothrombotic state that drives its arterial and venous thrombosis.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — The JAK2, CALR and MPL driver mutations (all already mapped) activate the MAPK-ERK cascade alongside JAK-STAT, driving the megakaryocyte proliferation that produces the thrombocytosis of essential thrombocythemia.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — The same constitutively active receptor-kinase signaling engages PI3K (AKT already mapped) as a third effector pathway supporting megakaryocyte growth and survival in essential thrombocythemia.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 inactivation drives the transformation of essential thrombocythemia to acute myeloid leukemia, a feared progression alongside the RUNX1 lesions already mapped.
 
 [^harrison-2005-pt1-et]: Harrison CN, Campbell PJ, Buck G, et al. Hydroxyurea compared with anagrelide in high-risk essential thrombocythemia. *N Engl J Med.* 2005;353(1):33-45. [doi:10.1056/NEJMoa043800](https://doi.org/10.1056/NEJMoa043800) · [PubMed 16000354](https://pubmed.ncbi.nlm.nih.gov/16000354/)
 [^barbui-2012-ipset]: Barbui T, Finazzi G, Carobbio A, et al. Development and validation of an International Prognostic Score of thrombosis in World Health Organization-essential thrombocythemia (IPSET-thrombosis). *Blood.* 2012;120(26):5128-5133. [doi:10.1182/blood-2012-07-444067](https://doi.org/10.1182/blood-2012-07-444067) · [PubMed 23086758](https://pubmed.ncbi.nlm.nih.gov/23086758/)

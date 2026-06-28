@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/leptin
     relation: connects-to
     note: "Obesity-driven risk: central obesity raises both mechanical reflux and leptin, which promotes oesophageal epithelial proliferation, two ways the obesity epidemic drives the rising incidence of oesophageal adenocarcinoma."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "MAPK convergence: EGFR, HER2, KRAS and FGFR (all already mapped) funnel into the MAPK-ERK cascade, the proliferative hub driving both squamous-cell and adenocarcinoma forms of oesophageal cancer."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Growth axis: mTOR completes the PI3K-AKT-mTOR pathway (PIK3CA and AKT already mapped) that sustains growth and survival signalling in oesophageal carcinoma."
+  - target: 01-human/03-molecular/cdh1
+    relation: connects-to
+    note: "EMT and invasion: loss of E-cadherin during epithelial-mesenchymal transition releases oesophageal-carcinoma cells from their junctions, enabling the invasion and nodal spread that worsen prognosis."
 ---
 
 # Esophageal Cancer
@@ -549,6 +558,9 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Chronic reflux of acid and bile acids, which derive from cholesterol, into the lower esophagus drives the Barrett's metaplasia-dysplasia sequence behind esophageal adenocarcinoma, the histology rising sharply in Western countries.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Neoadjuvant chemoradiation and perioperative chemotherapy kill esophageal-cancer cells through caspase-3-mediated apoptosis, the cytotoxic backbone whose effect on the primary tumor predicts surgical outcome.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Central obesity raises both mechanical reflux and leptin, which promotes esophageal epithelial proliferation, two ways the obesity epidemic drives the rising incidence of esophageal adenocarcinoma.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — EGFR, HER2, KRAS and FGFR (all already mapped) funnel into the MAPK-ERK cascade, the proliferative hub driving both squamous-cell and adenocarcinoma forms of esophageal cancer.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR completes the PI3K-AKT-mTOR pathway (PIK3CA and AKT already mapped) that sustains growth and survival signaling in esophageal carcinoma.
+- `connects-to` → **[CDH1](../../03-molecular/cdh1/README.md)** — Loss of E-cadherin during epithelial-mesenchymal transition releases esophageal-carcinoma cells from their junctions, enabling the invasion and nodal spread that worsen prognosis.
 
 ---
 
