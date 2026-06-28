@@ -328,6 +328,15 @@ cross_links:
   - target: 01-human/03-molecular/glucocorticoid-receptor
     relation: connects-to
     note: "Withdrawal stress: the cortisol/CRH stress response of opioid withdrawal (already mapped) acts through the glucocorticoid receptor, the HPA dysregulation that drives the dysphoria and relapse of opioid use disorder."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Glial activation: opioids engage microglial TLR4 that signals through MyD88 to NF-κB (TLR4 and NF-κB already mapped), driving the neuroinflammation that contributes to tolerance, hyperalgesia, and the reward dysregulation of opioid use disorder."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Addiction plasticity: mTOR-dependent synaptic plasticity in the mesolimbic reward circuit consolidates the maladaptive learning and drug-cue associations that entrench compulsive opioid use."
+  - target: 01-human/03-molecular/ntrk
+    relation: connects-to
+    note: "Neurotrophic remodelling: BDNF signalling through its TrkB receptor (NTRK) mediates the reward-circuit synaptic remodelling that underlies opioid craving and the persistence of relapse vulnerability."
 ---
 
 # Opioid Use Disorder
@@ -586,6 +595,9 @@ The primary mechanism by which opioids produce euphoria:
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Mu-opioid-receptor activation drives ERK-MAPK signaling in the reward circuitry, the synaptic plasticity underlying opioid reward, tolerance and the entrenched drug-seeking of opioid use disorder.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Opioid signaling through the AKT-GSK3β axis (GSK3β already mapped) contributes to the neuroadaptations of dependence and to opioid-induced reward and analgesic tolerance.
 - `connects-to` → **[Glucocorticoid Receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — The cortisol/CRH stress response of opioid withdrawal (already mapped) acts through the glucocorticoid receptor, the HPA dysregulation that drives the dysphoria and relapse of opioid use disorder.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Opioids engage microglial TLR4 that signals through MyD88 to NF-κB (TLR4 and NF-κB already mapped), driving the neuroinflammation that contributes to tolerance, hyperalgesia, and the reward dysregulation of opioid use disorder.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR-dependent synaptic plasticity in the mesolimbic reward circuit consolidates the maladaptive learning and drug-cue associations that entrench compulsive opioid use.
+- `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — BDNF signaling through its TrkB receptor (NTRK) mediates the reward-circuit synaptic remodeling that underlies opioid craving and the persistence of relapse vulnerability.
 
 [^volkow-2016-opioid-crisis]: Volkow ND, Collins FS. The role of science in addressing the opioid crisis. *N Engl J Med.* 2017;377(4):391-394. [doi:10.1056/NEJMsr1706626](https://doi.org/10.1056/NEJMsr1706626) · [PubMed 28723324](https://pubmed.ncbi.nlm.nih.gov/28723324/)
 [^mattick-2009-bupe-meta]: Mattick RP, Breen C, Kimber J, Davoli M. Buprenorphine maintenance versus placebo or methadone maintenance for opioid dependence. *Cochrane Database Syst Rev.* 2014;2:CD002207. [doi:10.1002/14651858.CD002207.pub4](https://doi.org/10.1002/14651858.CD002207.pub4) · [PubMed 24500948](https://pubmed.ncbi.nlm.nih.gov/24500948/)
