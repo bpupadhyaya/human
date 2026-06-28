@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/renin
     relation: connects-to
     note: "RAAS-TGF-β crosstalk: angiotensin signalling downstream of renin amplifies aortic TGF-β activity, the rationale for the angiotensin-receptor blocker losartan, which slows aortic-root dilatation in Marfan beyond simple blood-pressure lowering."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K-mTOR limb: dysregulated TGF-β and IGF-1 signalling (both mapped) engages PI3K-AKT-mTOR (AKT and mTOR already mapped), driving the smooth-muscle-cell changes of the Marfan aortic wall and a candidate target in aneurysm."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "Aortic inflammation: a Th17/IL-17 inflammatory infiltrate in the aortic media contributes to the wall remodelling and progression of aneurysm in Marfan syndrome."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement in the wall: complement activation generating C3 fragments amplifies the inflammatory injury of the Marfan aortic media, adding to the matrix breakdown that predisposes to dissection."
 ---
 
 # Marfan Syndrome
@@ -550,6 +559,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Periostin is upregulated in the Marfan aortic wall, where this matricellular protein participates in the maladaptive medial remodeling and matrix disorganization that weaken the aorta and predispose it to aneurysm and dissection.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 promotes the inflammation and fibrosis of the degenerating Marfan aortic media, a profibrotic lectin studied as a biomarker of aortic-wall disease and risk of aneurysm progression.
 - `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — Angiotensin signaling downstream of renin amplifies aortic TGF-β activity, the rationale for the angiotensin-receptor blocker losartan, which slows aortic-root dilatation in Marfan beyond simple blood-pressure lowering.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Dysregulated TGF-β and IGF-1 signaling (both mapped) engages PI3K-AKT-mTOR (AKT and mTOR already mapped), driving the smooth-muscle-cell changes of the Marfan aortic wall and a candidate target in aneurysm.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — A Th17/IL-17 inflammatory infiltrate in the aortic media contributes to the wall remodeling and progression of aneurysm in Marfan syndrome.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement activation generating C3 fragments amplifies the inflammatory injury of the Marfan aortic media, adding to the matrix breakdown that predisposes to dissection.
 
 ---
 

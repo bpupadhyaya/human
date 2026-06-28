@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/ntrk
     relation: connects-to
     note: "Granule-precursor origin: SHH-subgroup medulloblastoma arises from cerebellar granule-neuron precursors, whose normal proliferation and differentiation are shaped by neurotrophin-Trk signalling, the developmental context the tumour hijacks."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K growth signal: PIK3CA activates the PI3K-AKT-mTOR axis (AKT and mTOR already mapped) across medulloblastoma subgroups, contributing to growth and to resistance to SHH-pathway inhibitors."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Cell-cycle engine: the cyclin-D-CDK4/6 axis (mapped) releases E2F1 to drive S-phase entry, the proliferative output amplified by the MYC and MYCN (both mapped) of high-risk medulloblastoma."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Group 3 driver: TGF-β pathway signalling is a recurrent driver of the aggressive Group 3 medulloblastoma, cooperating with MYC amplification in this poor-prognosis subgroup."
 ---
 
 # Medulloblastoma
@@ -541,6 +550,9 @@ MB survivors face substantial late effects — inversely proportional to age at 
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — Medulloblastoma is now defined by its DNA-methylation profile, which separates the WNT, SHH, Group 3 and Group 4 subgroups with their different biology, prognosis and therapy—making the methylome the basis of modern diagnosis.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Group 3 medulloblastomas express GD2, and GD2-directed CAR-T cells aim to kill them through perforin and granzyme, an emerging immunotherapy for the highest-risk subgroup that responds poorly to standard treatment.
 - `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — SHH-subgroup medulloblastoma arises from cerebellar granule-neuron precursors, whose normal proliferation and differentiation are shaped by neurotrophin-Trk signaling, the developmental context the tumor hijacks.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PIK3CA activates the PI3K-AKT-mTOR axis (AKT and mTOR already mapped) across medulloblastoma subgroups, contributing to growth and to resistance to SHH-pathway inhibitors.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — The cyclin-D-CDK4/6 axis (mapped) releases E2F1 to drive S-phase entry, the proliferative output amplified by the MYC and MYCN (both mapped) of high-risk medulloblastoma.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β pathway signaling is a recurrent driver of the aggressive Group 3 medulloblastoma, cooperating with MYC amplification in this poor-prognosis subgroup.
 
 [^packer-2006-std-risk-mb]: Packer RJ, Gajjar A, Vezina G, et al. Phase III study of craniospinal radiation therapy followed by adjuvant chemotherapy for newly diagnosed average-risk medulloblastoma. *J Clin Oncol.* 2006;24(25):4202-4208. [doi:10.1200/JCO.2006.06.4980](https://doi.org/10.1200/JCO.2006.06.4980) · [PubMed 16943538](https://pubmed.ncbi.nlm.nih.gov/16943538/)
 [^taylor-2012-mb-subgroups]: Taylor MD, Northcott PA, Korshunov A, et al. Molecular subgroups of medulloblastoma: the current consensus. *Acta Neuropathol.* 2012;123(4):465-472. [doi:10.1007/s00401-011-0922-z](https://doi.org/10.1007/s00401-011-0922-z) · [PubMed 22134537](https://pubmed.ncbi.nlm.nih.gov/22134537/)
