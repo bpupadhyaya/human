@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/fgfr
     relation: connects-to
     note: "Growth-factor dependency: a subset of rhabdoid tumours upregulate FGFR signalling as SMARCB1 loss reshapes the enhancer landscape, an oncogenic pathway under study as a targetable vulnerability in ATRT."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Derepressed cell cycle: SMARCB1 loss derepresses the CDK4/6-cyclin-D-RB axis (all already mapped), and E2F1-driven transcription powers the aggressive proliferation of atypical teratoid/rhabdoid tumour."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K survival: PI3K-AKT-mTOR signalling (AKT and mTOR already mapped) is activated in ATRT and supports its growth, a targetable axis in this therapy-resistant infant brain tumour."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Apoptosis resistance: high anti-apoptotic BCL-2 contributes to the chemoresistance of ATRT, a dependency that BH3-mimetic agents are being explored to exploit."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -530,6 +539,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — SMARCB1 (SWI/SNF) loss can derepress endogenous retroelements whose double-stranded RNA and DNA activate innate sensing including cGAS-STING, a "viral mimicry" that EZH2 inhibition enhances to make ATRT more immunogenic.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — ATRT is epigenetically driven and divides into distinct DNA-methylation subgroups (TYR, SHH, MYC) with different biology and outcome, making DNA methylation both a classifier and a therapeutic axis in this SWI/SNF-deficient tumor.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — A subset of rhabdoid tumors upregulate FGFR signaling as SMARCB1 loss reshapes the enhancer landscape, an oncogenic pathway under study as a targetable vulnerability in ATRT.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — SMARCB1 loss derepresses the CDK4/6-cyclin-D-RB axis (all already mapped), and E2F1-driven transcription powers the aggressive proliferation of atypical teratoid/rhabdoid tumor.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K-AKT-mTOR signaling (AKT and mTOR already mapped) is activated in ATRT and supports its growth, a targetable axis in this therapy-resistant infant brain tumor.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — High anti-apoptotic BCL-2 contributes to the chemoresistance of ATRT, a dependency that BH3-mimetic agents are being explored to exploit.
 
 ---
 

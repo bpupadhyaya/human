@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "Growth signalling: IGF-1R signalling promotes the proliferation and survival of basal keratinocytes and the basal-cell carcinomas arising from them, a growth-factor axis cooperating with Hedgehog activation to drive tumour growth."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K crosstalk: PI3K-AKT-mTOR signalling (AKT, mTOR and PTEN already mapped) cooperates with Hedgehog activation in basal cell carcinoma and contributes to resistance against smoothened inhibitors."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Cell-cycle drive: the RB-E2F axis (RB1, CDKN2A and cyclin-D1 already mapped) drives the proliferation of basal cell carcinoma downstream of the Hedgehog-induced cyclin D1."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "UV oxidative defence: chronic ultraviolet exposure, the principal cause of basal cell carcinoma, generates oxidative DNA damage against which the NRF2 antioxidant response defends, and NRF2 dysregulation features in cutaneous carcinogenesis."
 ---
 
 # Basal Cell Carcinoma
@@ -533,6 +542,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — The PTCH1-driven Gorlin (basal-cell-nevus) syndrome that predisposes to multiple BCCs features ectopic calcification, classically lamellar calcification of the falx cerebri, a diagnostic clue to the hereditary form.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — The heavy ultraviolet mutation load of basal cell carcinoma makes it visible to T cells, and the PD-1 inhibitor cemiplimab unleashes perforin-mediated cytotoxic killing in advanced tumors resistant to Hedgehog inhibitors.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — IGF-1R signaling promotes the proliferation and survival of basal keratinocytes and the basal-cell carcinomas arising from them, a growth-factor axis cooperating with Hedgehog activation to drive tumor growth.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K-AKT-mTOR signaling (AKT, mTOR and PTEN already mapped) cooperates with Hedgehog activation in basal cell carcinoma and contributes to resistance against smoothened inhibitors.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — The RB-E2F axis (RB1, CDKN2A and cyclin-D1 already mapped) drives the proliferation of basal cell carcinoma downstream of the Hedgehog-induced cyclin D1.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — Chronic ultraviolet exposure, the principal cause of basal cell carcinoma, generates oxidative DNA damage against which the NRF2 antioxidant response defends, and NRF2 dysregulation features in cutaneous carcinogenesis.
 
 ---
 
