@@ -318,6 +318,15 @@ cross_links:
   - target: 01-human/03-molecular/nlrp3-inflammasome
     relation: connects-to
     note: "Inflammatory injury: chronic HBV drives hepatic NLRP3-inflammasome activation and IL-1β release, part of the immune-mediated liver injury that progresses to fibrosis and cirrhosis."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "HBx survival signalling: the HBV X protein activates PI3K-AKT-mTOR signalling, promoting hepatocyte survival and contributing to the hepatocellular carcinogenesis of chronic hepatitis B."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "HBx proliferative signalling: HBx also activates the RAS-MAPK-ERK cascade, driving the proliferative signalling behind HBV-associated hepatocellular carcinoma."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "Cirrhotic fibrosis: chronic HBV hepatitis activates hepatic stellate cells to deposit collagen (TGF-β and PDGF mapped), the fibrosis that progresses to the cirrhosis underlying most HBV-related liver cancer."
 ---
 
 # Hepatitis B
@@ -553,3 +562,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[MAVS](../../03-molecular/mavs/README.md)** — The HBV polymerase cleaves the antiviral adaptor MAVS to disrupt RIG-I signaling (RIG-I already mapped) and suppress the type-I interferon response, a key immune-evasion strategy enabling chronic infection.
 - `connects-to` → **[IRF3](../../03-molecular/irf3/README.md)** — HBV proteins block IRF3 activation to dampen interferon induction, contributing to the muted innate response and the establishment of chronic hepatitis B.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Chronic HBV drives hepatic NLRP3-inflammasome activation and IL-1β release, part of the immune-mediated liver injury that progresses to fibrosis and cirrhosis.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — The HBV X protein activates PI3K-AKT-mTOR signaling, promoting hepatocyte survival and contributing to the hepatocellular carcinogenesis of chronic hepatitis B.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — HBx also activates the RAS-MAPK-ERK cascade, driving the proliferative signaling behind HBV-associated hepatocellular carcinoma.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Chronic HBV hepatitis activates hepatic stellate cells to deposit collagen (TGF-β and PDGF mapped), the fibrosis that progresses to the cirrhosis underlying most HBV-related liver cancer.

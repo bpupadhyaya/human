@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/caspase-3
     relation: connects-to
     note: "Procoagulant platelets: FcγRIIa-driven platelet activation in HIT triggers caspase-dependent procoagulant membrane changes and microparticle shedding, expanding the catalytic surface that accelerates thrombin generation."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "FcγRIIa signalling: clustering of platelet FcγRIIa by PF4-heparin immune complexes (PF4 and IgG mapped) triggers Src-family/Syk kinase signalling, the proximal step driving the platelet activation that causes HIT thrombosis."
+  - target: 01-human/03-molecular/thrombopoietin
+    relation: connects-to
+    note: "Consumptive thrombocytopenia: as activated platelets aggregate and clear in HIT, the falling platelet count drives a compensatory thrombopoietin response reflecting the accelerated turnover."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "Complement amplification: complement activation on PF4-heparin complexes (C3 and C5 mapped) acting through C5aR1 amplifies the procoagulant, prothrombotic response of HIT."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -567,6 +576,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — The limb- and organ-threatening arterial and venous thromboses of HIT cause tissue hypoxia that drives HIF-1α responses, the basis of the gangrene and infarction that make HIT thrombosis so dangerous.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — The systemic inflammatory milieu of HIT includes IL-6, which amplifies the hypercoagulable, platelet- and endothelial-activating state underlying its paradoxical thrombosis despite falling platelet counts.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — FcγRIIa-driven platelet activation in HIT triggers caspase-dependent procoagulant membrane changes and microparticle shedding, expanding the catalytic surface that accelerates thrombin generation.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — Clustering of platelet FcγRIIa by PF4-heparin immune complexes (PF4 and IgG mapped) triggers Src-family/Syk kinase signaling, the proximal step driving the platelet activation that causes HIT thrombosis.
+- `connects-to` → **[Thrombopoietin](../../03-molecular/thrombopoietin/README.md)** — As activated platelets aggregate and clear in HIT, the falling platelet count drives a compensatory thrombopoietin response reflecting the accelerated turnover.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — Complement activation on PF4-heparin complexes (C3 and C5 mapped) acting through C5aR1 amplifies the procoagulant, prothrombotic response of HIT.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)
