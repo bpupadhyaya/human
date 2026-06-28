@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/foxo
     relation: connects-to
     note: "Stem-cell maintenance: FOXO transcription factors are paradoxically active in JAK2-mutant myeloproliferative neoplasms, maintaining the malignant haematopoietic stem cells that sustain the clone and resist JAK-inhibitor therapy."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "MAPK limb: JAK2, CALR and MPL (all already mapped) activate the RAS-MAPK-ERK cascade alongside JAK-STAT, a parallel proliferative driver in myeloproliferative neoplasms."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K limb: the same constitutively active receptor-kinase signalling engages PI3K-AKT as a third effector pathway supporting myeloid proliferation and survival in MPN."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "Leukaemic transformation: TP53 inactivation drives the progression of myeloproliferative neoplasms, particularly myelofibrosis, to acute myeloid leukaemia."
 ---
 
 # Myeloproliferative Neoplasms
@@ -555,6 +564,9 @@ In PV and ET, JAK2 V617F also affects myeloid progenitors → granulocytosis and
 - `connects-to` → **[SF3B1](../../03-molecular/sf3b1/README.md)** — Spliceosome mutations such as SF3B1, acquired alongside the JAK2/CALR/MPL driver, mark the myeloproliferative neoplasms more likely to progress to myelofibrosis or acute leukemia, refining prognosis beyond the driver alone.
 - `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — The raised cell counts and activated platelets and leukocytes of myeloproliferative neoplasms promote thrombin generation and hyperviscosity, making arterial and venous thrombosis—including unusual splanchnic-vein clots—their leading cause of morbidity.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors are paradoxically active in JAK2-mutant myeloproliferative neoplasms, maintaining the malignant hematopoietic stem cells that sustain the clone and resist JAK-inhibitor therapy.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — JAK2, CALR and MPL (all already mapped) activate the RAS-MAPK-ERK cascade alongside JAK-STAT, a parallel proliferative driver in myeloproliferative neoplasms.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — The same constitutively active receptor-kinase signaling engages PI3K-AKT as a third effector pathway supporting myeloid proliferation and survival in MPN.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 inactivation drives the progression of myeloproliferative neoplasms, particularly myelofibrosis, to acute myeloid leukemia.
 
 [^verstovsek-2012-comfort-i]: Verstovsek S, Mesa RA, Gotlib J, et al. A double-blind, placebo-controlled trial of ruxolitinib for myelofibrosis. *N Engl J Med.* 2012;366(9):799-807. [doi:10.1056/NEJMoa1110557](https://doi.org/10.1056/NEJMoa1110557) · [PubMed 22375971](https://pubmed.ncbi.nlm.nih.gov/22375971/)
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409002](https://doi.org/10.1056/NEJMoa1409002) · [PubMed 25426978](https://pubmed.ncbi.nlm.nih.gov/25426978/)

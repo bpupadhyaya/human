@@ -300,6 +300,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "Circadian output: vasopressin is a key output neuropeptide of the suprachiasmatic-nucleus clock that times sleep and wake, the circadian system whose interplay with the lost hypocretin signal shapes the disturbed sleep-wake cycling of narcolepsy."
+  - target: 01-human/03-molecular/ctla-4
+    relation: connects-to
+    note: "Tolerance checkpoint: narcolepsy can be triggered by checkpoint-inhibitor therapy and CTLA-4 variants associate with risk, reflecting the loss of T-cell tolerance that permits the autoimmune destruction of orexin neurons."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Regulatory deficit: a shortfall of regulatory IL-10 against the Th1/Th17 response (IFN-γ and IL-17A mapped) helps permit the autoimmune attack on hypocretin neurons in narcolepsy type 1."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Treg differentiation: TGF-β drives the regulatory T cells that normally maintain tolerance to self-antigens, and impaired Treg control is implicated in the autoimmune loss of orexin neurons in narcolepsy."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -534,6 +543,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Prostaglandin D2 is one of the most potent endogenous sleep-inducing substances, acting in the basal forebrain to promote sleep—part of the sleep-regulatory chemistry that the hypocretin loss of narcolepsy throws into disarray.
 - `connects-to` → **[Growth hormone](../../03-molecular/growth-hormone/README.md)** — The fragmented, abnormal sleep architecture of narcolepsy disturbs the deep-sleep-dependent nocturnal pulse of growth hormone, one of several neuroendocrine rhythms uncoupled by the loss of normal sleep-wake structure.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Vasopressin is a key output neuropeptide of the suprachiasmatic-nucleus clock that times sleep and wake, the circadian system whose interplay with the lost hypocretin signal shapes the disturbed sleep-wake cycling of narcolepsy.
+- `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Narcolepsy can be triggered by checkpoint-inhibitor therapy and CTLA-4 variants associate with risk, reflecting the loss of T-cell tolerance that permits the autoimmune destruction of orexin neurons.
+- `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — A shortfall of regulatory IL-10 against the Th1/Th17 response (IFN-γ and IL-17A mapped) helps permit the autoimmune attack on hypocretin neurons in narcolepsy type 1.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β drives the regulatory T cells that normally maintain tolerance to self-antigens, and impaired Treg control is implicated in the autoimmune loss of orexin neurons in narcolepsy.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)
