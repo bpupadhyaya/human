@@ -315,6 +315,15 @@ cross_links:
   - target: 01-human/03-molecular/epinephrine
     relation: connects-to
     note: "Bronchodilation: epinephrine acting on β2-adrenergic receptors relaxes airway smooth muscle to widen the bronchi, the basis of the β2-agonist inhalers that are the mainstay of relieving acute airflow obstruction."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Hypoxic response: alongside the HIF-2α/EPAS1 already mapped, HIF-1α mediates the lung's response to low oxygen, including the hypoxic pulmonary vasoconstriction that diverts blood from poorly ventilated regions to match perfusion to ventilation."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "Lung morphogenesis: FGF10-FGFR signalling drives the branching morphogenesis that builds the bronchial tree and alveoli, the core developmental programme of the respiratory system."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Airway cell fate: NOTCH signalling specifies the ciliated, club, goblet and neuroendocrine cell fates of the airway epithelium, patterning the conducting airways and their mucociliary defence."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -495,6 +504,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Connects-to** → [Secretory IgA](../../03-molecular/secretory-iga/README.md): mucosal defense: secretory IgA coating the airway epithelium neutralizes inhaled pathogens at the mucosal surface, the first line of respiratory immune defense that protects the vast air-tissue interface of the lungs from constant microbial exposure.
 - **Connects-to** → [EPAS1](../../03-molecular/epas1/README.md): oxygen sensing: HIF-2α (EPAS1) is the master oxygen sensor of the pulmonary circulation and carotid body, driving hypoxic pulmonary vasoconstriction and the ventilatory and erythropoietic responses that adapt the respiratory system to low oxygen.
 - **Connects-to** → [Epinephrine](../../03-molecular/epinephrine/README.md): bronchodilation: epinephrine acting on β2-adrenergic receptors relaxes airway smooth muscle to widen the bronchi, the basis of the β2-agonist inhalers that are the mainstay of relieving acute airflow obstruction.
+- **Connects-to** → [HIF-1alpha](../../03-molecular/hif-1alpha/README.md): hypoxic response: alongside the HIF-2α/EPAS1 already mapped, HIF-1α mediates the lung's response to low oxygen, including the hypoxic pulmonary vasoconstriction that matches perfusion to ventilation.
+- **Connects-to** → [FGFR](../../03-molecular/fgfr/README.md): lung morphogenesis: FGF10-FGFR signaling drives the branching morphogenesis that builds the bronchial tree and alveoli, the core developmental program of the respiratory system.
+- **Connects-to** → [NOTCH](../../03-molecular/notch/README.md): airway cell fate: NOTCH signaling specifies the ciliated, club, goblet and neuroendocrine cell fates of the airway epithelium, patterning the conducting airways and their mucociliary defense.
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.
 
 ## Pathology

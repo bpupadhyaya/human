@@ -316,6 +316,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "Vascular leak: VEGF released in sepsis increases endothelial permeability, contributing to the capillary leak, tissue oedema and hypotension that characterise the circulatory failure of septic shock."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Immunometabolism and hypoxia: tissue hypoxia and the metabolic reprogramming of immune cells in sepsis stabilise HIF-1α, driving glycolytic immune activation and the microvascular responses to the oxygen-delivery failure of septic shock."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Anaphylatoxin storm: uncontrolled complement activation generates C3a/C5a (C5 already mapped) anaphylatoxins that amplify the inflammation, neutrophil dysfunction and coagulopathy of severe sepsis."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Immunoparalysis: sepsis-induced apoptosis of lymphocytes, shifting the BCL-2 anti-apoptotic balance, depletes the adaptive immune compartment — the basis of the immunoparalysis that leaves patients vulnerable to secondary infection."
 ---
 
 # Sepsis
@@ -521,6 +530,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[Glucocorticoid receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Hydrocortisone acting through the glucocorticoid receptor is used in vasopressor-refractory septic shock, supporting vascular tone and dampening inflammation amid the critical-illness-related corticosteroid insufficiency of sepsis.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Sepsis drives massive caspase-3-mediated apoptosis of lymphocytes, depleting T and B cells and producing the immunosuppressive "immunoparalysis" phase that leaves survivors vulnerable to secondary infections.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VEGF released in sepsis increases endothelial permeability, contributing to the capillary leak, tissue edema and hypotension that characterize the circulatory failure of septic shock.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — Tissue hypoxia and the metabolic reprogramming of immune cells in sepsis stabilize HIF-1α, driving glycolytic immune activation and the microvascular responses to the oxygen-delivery failure of septic shock.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Uncontrolled complement activation generates C3a/C5a (C5 already mapped) anaphylatoxins that amplify the inflammation, neutrophil dysfunction and coagulopathy of severe sepsis.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Sepsis-induced apoptosis of lymphocytes, shifting the BCL-2 anti-apoptotic balance, depletes the adaptive immune compartment—the basis of the immunoparalysis that leaves patients vulnerable to secondary infection.
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
