@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/met
     relation: connects-to
     note: "HGF-MET driver: MET overexpression establishes an autocrine HGF-MET loop capable of transforming osteoblasts, driving the invasive, metastatic phenotype of osteosarcoma and offering a target for MET tyrosine-kinase inhibitors."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "RB-pathway loss: RB1 inactivation (mapped) — the same lesion that links hereditary retinoblastoma to osteosarcoma — releases E2F1 to drive unrestrained proliferation, reinforced by the CDK4/cyclin-D1 amplification already mapped."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K signalling: PIK3CA drives the PI3K-AKT-mTOR axis (AKT and mTOR already mapped) that supports growth and survival in osteosarcoma."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "RTK-MAPK proliferation: the receptor kinases of osteosarcoma — MET, FGFR, HER2 and PDGFR (all already mapped) — converge on the MAPK-ERK cascade to drive proliferation."
 ---
 
 # Osteosarcoma
@@ -542,6 +551,9 @@ OS is relatively radiation-resistant (high-dose radiation ~70+ Gy may achieve lo
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — Bone is the body's largest reservoir of latent TGF-β, and osteoclastic resorption in osteosarcoma releases it to drive tumor proliferation and lung metastasis, a feed-forward loop linking bone turnover to disease progression.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Osteosarcoma cells and their microenvironment secrete IL-6, activating the STAT3 signaling already mapped here to promote proliferation, chemoresistance and lung metastasis, with high IL-6 marking poorer prognosis.
 - `connects-to` → **[MET](../../03-molecular/met/README.md)** — MET overexpression establishes an autocrine HGF-MET loop capable of transforming osteoblasts, driving the invasive, metastatic phenotype of osteosarcoma and offering a target for MET tyrosine-kinase inhibitors.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — RB1 inactivation (mapped)—the same lesion that links hereditary retinoblastoma to osteosarcoma—releases E2F1 to drive unrestrained proliferation, reinforced by the CDK4/cyclin-D1 amplification already mapped.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PIK3CA drives the PI3K-AKT-mTOR axis (AKT and mTOR already mapped) that supports growth and survival in osteosarcoma.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — The receptor kinases of osteosarcoma—MET, FGFR, HER2 and PDGFR (all already mapped)—converge on the MAPK-ERK cascade to drive proliferation.
 
 [^bielack-2002-coss-osteosarcoma]: Bielack SS, Kempf-Bielack B, Delling G, et al. Prognostic factors in high-grade osteosarcoma of the extremities or trunk: an analysis of 1,702 patients treated on neoadjuvant Cooperative Osteosarcoma Study Group protocols. *J Clin Oncol.* 2002;20(3):776-790. [doi:10.1200/JCO.2002.20.3.776](https://doi.org/10.1200/JCO.2002.20.3.776) · [PubMed 11821461](https://pubmed.ncbi.nlm.nih.gov/11821461/)
 [^marina-2016-euramos1-osteosarcoma]: Marina NM, Smeland S, Bielack SS, et al. Comparison of MAPIE versus MAP in patients with a poor response to preoperative chemotherapy for newly diagnosed high-grade osteosarcoma (EURAMOS-1). *Lancet Oncol.* 2016;17(10):1396-1408. [doi:10.1016/S1470-2045(16)30214-5](https://doi.org/10.1016/S1470-2045(16)30214-5) · [PubMed 27569442](https://pubmed.ncbi.nlm.nih.gov/27569442/)

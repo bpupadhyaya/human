@@ -319,6 +319,15 @@ cross_links:
   - target: 01-human/03-molecular/cdk4-6
     relation: connects-to
     note: "Cell-cycle control: CDKN2A loss and cyclin-D1 overexpression in NSCLC converge on CDK4/6 to inactivate RB and force the G1-S transition, the proliferative engine that makes CDK4/6 inhibitors an emerging strategy in RB-intact disease."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "MAPK convergence: EGFR, ALK, KRAS, BRAF, MET, RET and FGFR (all already mapped) funnel into the MAPK-ERK cascade, the shared proliferative output of NSCLC's diverse oncogenic drivers."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Growth axis: mTOR completes the PI3K-AKT-mTOR pathway (PIK3CA, AKT and PTEN already mapped) that sustains growth and survival signalling in NSCLC."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Forced S-phase: the CDK4/6-cyclin-D1 axis (mapped) inactivates RB to release E2F1, the transcription factor that executes the G1-S transition driving NSCLC proliferation."
 ---
 
 # NSCLC
@@ -520,6 +529,9 @@ cross_links:
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss is a recurrent event in NSCLC that unleashes the PI3K-AKT-mTOR axis already driven by PIK3CA and EGFR, promoting survival signaling and contributing to resistance against EGFR tyrosine-kinase inhibitors.
 - `connects-to` → **[AXL Receptor Tyrosine Kinase](../../03-molecular/axl-receptor/README.md)** — AXL drives epithelial-mesenchymal transition and is upregulated in NSCLC escaping EGFR- and ALK-targeted therapy, a bypass survival pathway that motivates AXL inhibitors in combination regimens.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDKN2A loss and cyclin-D1 overexpression in NSCLC converge on CDK4/6 to inactivate RB and force the G1-S transition, the proliferative engine that makes CDK4/6 inhibitors an emerging strategy in RB-intact disease.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — EGFR, ALK, KRAS, BRAF, MET, RET and FGFR (all already mapped) funnel into the MAPK-ERK cascade, the shared proliferative output of NSCLC's diverse oncogenic drivers.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR completes the PI3K-AKT-mTOR pathway (PIK3CA, AKT and PTEN already mapped) that sustains growth and survival signaling in NSCLC.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — The CDK4/6-cyclin-D1 axis (mapped) inactivates RB to release E2F1, the transcription factor that executes the G1-S transition driving NSCLC proliferation.
 
 [^soria-2018-osimertinib-flaura]: Soria JC, Ohe Y, Vansteenkiste J, et al. Osimertinib in untreated EGFR-mutated advanced non-small-cell lung cancer. *N Engl J Med.* 2018;378(2):113-125. [doi:10.1056/NEJMoa1713137](https://doi.org/10.1056/NEJMoa1713137) · [PubMed 29151359](https://pubmed.ncbi.nlm.nih.gov/29151359/)
 [^reck-2016-pembrolizumab-keynote024]: Reck M, Rodríguez-Abreu D, Robinson AG, et al. Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell lung cancer. *N Engl J Med.* 2016;375(19):1823-1833. [doi:10.1056/NEJMoa1606774](https://doi.org/10.1056/NEJMoa1606774) · [PubMed 27718347](https://pubmed.ncbi.nlm.nih.gov/27718347/)
