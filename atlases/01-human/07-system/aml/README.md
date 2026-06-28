@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/perforin
     relation: connects-to
     note: "Graft-versus-leukaemia: the curative power of allogeneic stem-cell transplant in AML comes from donor T and NK cells killing residual leukaemia through perforin and granzyme, the immunological effect that underlies long-term remission after transplant."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "MAPK proliferation: FLT3-ITD and RAS mutations in AML signal through the MAPK cascade to ERK1/2, driving blast expansion and acting as a route of resistance to FLT3 inhibitors."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Venetoclax dependency: AML blasts evade caspase-3 apoptosis through high anti-apoptotic BCL-2 (already mapped), the dependency the BCL-2 inhibitor venetoclax exploits to restore blast-cell death."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K survival axis: PI3K-AKT-mTOR signalling (AKT already mapped) is constitutively activated in AML and supports blast survival and chemoresistance, a targetable dependency."
 ---
 
 # AML
@@ -522,6 +531,9 @@ AML requires cooperative mutations in at least 2 functional categories (Gillilan
 - `connects-to` → **[SRSF2](../../03-molecular/srsf2/README.md)** — SRSF2 mutations define the secondary, MDS-related AML that arises from a preceding myelodysplasia, a poor-prognosis subgroup distinct from de-novo disease and a target for splicing-modulator therapy.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — Although a tumor suppressor elsewhere, FOXO transcription factors are paradoxically active in many AMLs, maintaining the quiescent leukemic stem cells that survive chemotherapy and seed relapse.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — The curative power of allogeneic stem-cell transplant in AML comes from donor T and NK cells killing residual leukemia through perforin and granzyme, the graft-versus-leukemia effect that underlies long-term remission after transplant.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — FLT3-ITD and RAS mutations in AML signal through the MAPK cascade to ERK1/2, driving blast expansion and acting as a route of resistance to FLT3 inhibitors.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — AML blasts evade caspase-3 apoptosis through high anti-apoptotic BCL-2 (already mapped), the dependency the BCL-2 inhibitor venetoclax exploits to restore blast-cell death.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K-AKT-mTOR signaling (AKT already mapped) is constitutively activated in AML and supports blast survival and chemoresistance, a targetable dependency.
 
 [^dinardo-2020-viale-a]: DiNardo CD, Jonas BA, Pullarkat V, et al. Azacitidine and venetoclax in previously untreated acute myeloid leukemia. *N Engl J Med.* 2020;383(7):617-629. [doi:10.1056/NEJMoa2012971](https://doi.org/10.1056/NEJMoa2012971) · [PubMed 32786187](https://pubmed.ncbi.nlm.nih.gov/32786187/)
 [^stone-2017-midostaurin]: Stone RM, Mandrekar SJ, Sanford BL, et al. Midostaurin plus chemotherapy for acute myeloid leukemia with a FLT3 mutation. *N Engl J Med.* 2017;377(5):454-464. [doi:10.1056/NEJMoa1614359](https://doi.org/10.1056/NEJMoa1614359) · [PubMed 28644114](https://pubmed.ncbi.nlm.nih.gov/28644114/)
