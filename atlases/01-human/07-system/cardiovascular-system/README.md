@@ -330,6 +330,15 @@ cross_links:
   - target: 01-human/03-molecular/calcineurin
     relation: connects-to
     note: "Hypertrophic growth: the calcineurin-NFAT pathway transduces calcium signals into the hypertrophic growth programme of cardiomyocytes, central to the heart's maladaptive response to pressure and volume overload."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Vascular inflammation: IL-1β drives the inflammatory cascade of atherosclerosis, validated clinically by the CANTOS trial in which IL-1β blockade reduced recurrent cardiovascular events independent of lipid lowering."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "Growth signalling: ERK1/2 MAPK transduces growth-factor and mechanical signals into cardiomyocyte hypertrophy and vascular smooth-muscle proliferation, a core driver of cardiac remodelling and arterial restenosis."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Survival and growth: PI3K-AKT signalling mediates the IGF/insulin survival programme of cardiomyocytes and endothelial nitric-oxide production, balancing physiological adaptation against pathological hypertrophy."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"
@@ -516,6 +525,9 @@ Each major vascular bed has **autoregulation** — a local mechanism that holds 
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH signaling governs cardiac chamber, valve and coronary-vessel development and sets arterial-venous endothelial identity, a master developmental pathway of the cardiovascular system.
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β controls vascular smooth-muscle and extracellular-matrix homeostasis of the arterial wall (its dysregulation causing the aortic disease of Marfan, already mapped) and drives the cardiac fibrosis of remodeling.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — The calcineurin-NFAT pathway transduces calcium signals into the hypertrophic growth program of cardiomyocytes, central to the heart's maladaptive response to pressure and volume overload.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β drives the inflammatory cascade of atherosclerosis, validated clinically by the CANTOS trial in which IL-1β blockade reduced recurrent cardiovascular events independent of lipid lowering.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK1/2 MAPK transduces growth-factor and mechanical signals into cardiomyocyte hypertrophy and vascular smooth-muscle proliferation, a core driver of cardiac remodelling and arterial restenosis.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signalling mediates the IGF/insulin survival programme of cardiomyocytes and endothelial nitric-oxide production, balancing physiological adaptation against pathological hypertrophy.
 
 ## Pathology
 

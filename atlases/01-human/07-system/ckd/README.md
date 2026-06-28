@@ -324,6 +324,15 @@ cross_links:
   - target: 01-human/03-molecular/nlrp3-inflammasome
     relation: connects-to
     note: "Inflammatory progression: NLRP3-inflammasome activation and IL-1β in the injured kidney sustain the chronic inflammation that accelerates fibrosis and nephron loss in chronic kidney disease."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Antioxidant defence: NRF2 orchestrates the antioxidant response that protects tubular cells from the oxidative injury of CKD, and its pharmacological activation (bardoxolone) raises glomerular filtration rate in diabetic kidney disease."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Compensatory hypertrophy: mTOR drives the glomerular and tubular hypertrophy that follows nephron loss — initially adaptive but ultimately accelerating podocyte stress and progressive kidney failure."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Innate inflammation: TLR sensing of uremic damage-associated molecular patterns signals through MyD88 to NF-κB, sustaining the chronic innate-immune activation that propels CKD progression."
 ---
 
 # Chronic Kidney Disease
@@ -502,6 +511,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Sustained reactivation of Wnt/β-catenin signaling drives the myofibroblast activation and tubulointerstitial fibrosis that is the final common pathway of progressive chronic kidney disease.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β signals through the SMAD pathway (SMAD4) to drive the renal fibrosis (TGF-β already mapped) that scars glomeruli and interstitium and destroys nephrons in CKD.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — NLRP3-inflammasome activation and IL-1β in the injured kidney sustain the chronic inflammation that accelerates fibrosis and nephron loss in chronic kidney disease.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2 orchestrates the antioxidant response that protects tubular cells from the oxidative injury of CKD, and its pharmacological activation (bardoxolone) raises glomerular filtration rate in diabetic kidney disease.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR drives the glomerular and tubular hypertrophy that follows nephron loss — initially adaptive but ultimately accelerating podocyte stress and progressive kidney failure.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR sensing of uremic damage-associated molecular patterns signals through MyD88 to NF-κB, sustaining the chronic innate-immune activation that propels CKD progression.
 
 ## Pathology
 
