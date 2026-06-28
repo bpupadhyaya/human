@@ -334,6 +334,15 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "Microbiota tolerance: regulatory IL-10 maintains immune tolerance to the gut microbiota, and its loss breaks digestive-tract homeostasis to drive the intestinal inflammation of inflammatory bowel disease."
+  - target: 01-human/03-molecular/egfr
+    relation: connects-to
+    note: "Epithelial renewal: EGF-family signalling drives the continuous renewal of the gut epithelium from Wnt-driven crypt stem cells (Wnt mapped), maintaining the rapidly turning-over digestive lining."
+  - target: 01-human/03-molecular/mu-opioid-receptor
+    relation: connects-to
+    note: "Enteric motility: μ-opioid receptors on enteric neurons slow gut motility and secretion, the basis of opioid-induced constipation and a node of the enteric nervous control of digestion."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Microbiota sensing: intestinal epithelial TLR4 senses the gut microbiota, calibrating the mucosal immune tolerance (with secretory-IgA and IL-10 mapped) that maintains digestive homeostasis."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -528,6 +537,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md) — crypt stem-cell renewal: Wnt/β-catenin signaling from the intestinal crypt base drives the continuous self-renewal of the gut epithelium, the most rapidly regenerating tissue in the body and the basis of digestive-tract homeostasis.
 - **Connects to:** [NOTCH](../../03-molecular/notch/README.md) — cell-fate patterning: NOTCH signaling sets the choice between absorptive enterocytes and secretory (goblet, enteroendocrine, Paneth) cells in the intestinal epithelium, patterning the functional surface of the digestive lining.
 - **Connects to:** [Interleukin-10](../../03-molecular/il-10/README.md) — microbiota tolerance: regulatory IL-10 maintains immune tolerance to the gut microbiota, and its loss breaks digestive-tract homeostasis to drive the intestinal inflammation of inflammatory bowel disease.
+- **Connects to:** [EGFR](../../03-molecular/egfr/README.md) — epithelial renewal: EGF-family signaling drives the continuous renewal of the gut epithelium from Wnt-driven crypt stem cells (Wnt mapped), maintaining the rapidly turning-over digestive lining.
+- **Connects to:** [Mu-Opioid Receptor](../../03-molecular/mu-opioid-receptor/README.md) — enteric motility: μ-opioid receptors on enteric neurons slow gut motility and secretion, the basis of opioid-induced constipation and a node of the enteric nervous control of digestion.
+- **Connects to:** [TLR4](../../03-molecular/tlr4/README.md) — microbiota sensing: intestinal epithelial TLR4 senses the gut microbiota, calibrating the mucosal immune tolerance (with secretory-IgA and IL-10 mapped) that maintains digestive homeostasis.
 
 ## Pathology
 
