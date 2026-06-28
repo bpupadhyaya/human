@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/bdnf
     relation: connects-to
     note: "Lost trophic support: BDNF normally sustains the survival of substantia-nigra dopaminergic neurons, and its reduction in Parkinson's removes a key neurotrophic support, contributing to the progressive degeneration of the nigrostriatal pathway."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Oxidative defence: substantia-nigra dopaminergic neurons face intense oxidative stress, and the NRF2 antioxidant response is a key defence whose decline permits the oxidative and mitochondrial damage driving Parkinson's neurodegeneration."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Neuronal apoptosis: caspase-3-mediated apoptosis executes the loss of nigral dopaminergic neurons in Parkinson's, downstream of the mitochondrial dysfunction and α-synuclein toxicity already mapped."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement neuroinflammation: microglial complement C3 tags synapses and neurons for elimination in Parkinson's, an arm of the neuroinflammation (with the NLRP3 inflammasome already mapped) that propagates neurodegeneration."
 ---
 
 # Parkinson's Disease
@@ -550,6 +559,9 @@ PD is primarily a disease of aging (mean onset ~60 years), but **~10–15% of ca
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Substantia-nigra dopaminergic neurons use L-type Cav1.3 calcium channels for autonomous pacemaking, and the resulting chronic calcium load stresses mitochondria—a selective vulnerability that motivated the isradipine trials in Parkinson's.
 - `connects-to` → **[Xanthine Oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Xanthine oxidase produces urate, and higher urate levels are associated with lower Parkinson's risk and slower progression, suggesting that antioxidant urate partly offsets the oxidative stress damaging dopaminergic neurons.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — BDNF normally sustains the survival of substantia-nigra dopaminergic neurons, and its reduction in Parkinson's removes a key neurotrophic support, contributing to the progressive degeneration of the nigrostriatal pathway.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — Substantia-nigra dopaminergic neurons face intense oxidative stress, and the NRF2 antioxidant response is a key defense whose decline permits the oxidative and mitochondrial damage driving Parkinson's neurodegeneration.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Caspase-3-mediated apoptosis executes the loss of nigral dopaminergic neurons in Parkinson's, downstream of the mitochondrial dysfunction and α-synuclein toxicity already mapped.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Microglial complement C3 tags synapses and neurons for elimination in Parkinson's, an arm of the neuroinflammation (with the NLRP3 inflammasome already mapped) that propagates neurodegeneration.
 
 [^kalia-2015-pd-review]: Kalia LV, Lang AE. Parkinson's disease. *Lancet.* 2015;386(9996):896-912. [doi:10.1016/S0140-6736(14)61393-3](https://doi.org/10.1016/S0140-6736(14)61393-3) · [PubMed 25904081](https://pubmed.ncbi.nlm.nih.gov/25904081/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
