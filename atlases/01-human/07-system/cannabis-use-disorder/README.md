@@ -303,6 +303,15 @@ cross_links:
   - target: 01-human/03-molecular/mtor
     relation: connects-to
     note: "Memory impairment: CB1-receptor activation engages mTOR-dependent protein synthesis, the pathway through which chronic THC produces the working-memory deficits and synaptic adaptations of heavy cannabis use."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "CB1 intracellular cascade: CB1-receptor signalling engages PI3K-AKT (with ERK1/2 and mTOR already mapped), the cascade mediating cannabinoid effects on neuronal survival, plasticity and reward."
+  - target: 01-human/03-molecular/acth
+    relation: connects-to
+    note: "Withdrawal HPA axis: CRH-driven release of pituitary ACTH (CRH, cortisol and the glucocorticoid receptor mapped) underlies the stress, irritability and dysphoria of cannabis withdrawal."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Neuroinflammation: chronic cannabinoid exposure modulates NLRP3-inflammasome activity and the IL-1β/IL-6/TNF response (all mapped), part of the neuroinflammatory changes accompanying cannabis use disorder."
 sources:
   - id: hasin-2015-cannabis-disorder
     type: peer-reviewed
@@ -553,6 +562,9 @@ Paradoxical syndrome in heavy long-term users: cyclic vomiting relieved by hot b
 - `connects-to` → **[Glucocorticoid Receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Cannabis withdrawal and stress-induced craving engage glucocorticoid-receptor signaling (cortisol and CRH already mapped), coupling HPA-axis dysregulation to the relapse risk of cannabis use disorder.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — THC acting on the CB1 receptor stimulates ERK signaling in striatal reward circuitry, driving the synaptic plasticity that underlies cannabis reward learning and the development of dependence.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — CB1-receptor activation engages mTOR-dependent protein synthesis, the pathway through which chronic THC produces the working-memory deficits and synaptic adaptations of heavy cannabis use.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — CB1-receptor signaling engages PI3K-AKT (with ERK1/2 and mTOR already mapped), the cascade mediating cannabinoid effects on neuronal survival, plasticity and reward.
+- `connects-to` → **[ACTH](../../03-molecular/acth/README.md)** — CRH-driven release of pituitary ACTH (CRH, cortisol and the glucocorticoid receptor mapped) underlies the stress, irritability and dysphoria of cannabis withdrawal.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Chronic cannabinoid exposure modulates NLRP3-inflammasome activity and the IL-1β/IL-6/TNF response (all mapped), part of the neuroinflammatory changes accompanying cannabis use disorder.
 
 [^hasin-2015-cannabis-disorder]: Hasin DS, Saha TD, Kerridge BT, et al. Prevalence of marijuana use disorders in the United States between 2001-2002 and 2012-2013. *JAMA Psychiatry.* 2015;72(12):1235-1242. [doi:10.1001/jamapsychiatry.2015.1858](https://doi.org/10.1001/jamapsychiatry.2015.1858) · [PubMed 26502112](https://pubmed.ncbi.nlm.nih.gov/26502112/)
 [^budney-2004-cannabis-withdrawal]: Budney AJ, Moore BA, Vandrey RG, Hughes JR. The time course and significance of cannabis withdrawal. *J Abnorm Psychol.* 2003;112(3):393-402. [doi:10.1037/0021-843X.112.3.393](https://doi.org/10.1037/0021-843X.112.3.393) · [PubMed 12943018](https://pubmed.ncbi.nlm.nih.gov/12943018/)

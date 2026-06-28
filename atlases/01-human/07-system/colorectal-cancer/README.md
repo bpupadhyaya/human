@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/caspase-3
     relation: connects-to
     note: "Chemotherapy apoptosis: 5-fluorouracil and oxaliplatin kill colorectal cancer cells through caspase-3-mediated apoptosis, and defects in this death programme underlie the chemoresistance that limits cure in metastatic disease."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "MAPK driver: EGFR, KRAS and BRAF (all mapped) signal through the MAPK-ERK cascade in colorectal cancer, the axis whose RAS-mutation status determines response to anti-EGFR therapy."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Growth axis: mTOR completes the PI3K-AKT-mTOR pathway (PIK3CA, AKT and PTEN already mapped) that cooperates with the adenoma-carcinoma drivers in colorectal cancer."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Cell-cycle release: β-catenin-driven cyclin-D1 (mapped) and CDK4/6 release E2F1 to drive the proliferation initiated by APC loss in the colorectal adenoma-carcinoma sequence."
 ---
 
 # Colorectal Cancer
@@ -539,6 +548,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss activates the PI3K-AKT axis (PIK3CA and AKT already mapped) in colorectal cancer and is associated with resistance to anti-EGFR antibodies in KRAS-wild-type tumors.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH signaling cooperates with Wnt in the intestinal crypt stem-cell compartment, and its dysregulation sustains the cancer-stem-cell population driving colorectal tumor growth and relapse.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — 5-fluorouracil and oxaliplatin kill colorectal cancer cells through caspase-3-mediated apoptosis, and defects in this death program underlie the chemoresistance that limits cure in metastatic disease.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — EGFR, KRAS and BRAF (all mapped) signal through the MAPK-ERK cascade in colorectal cancer, the axis whose RAS-mutation status determines response to anti-EGFR therapy.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR completes the PI3K-AKT-mTOR pathway (PIK3CA, AKT and PTEN already mapped) that cooperates with the adenoma-carcinoma drivers in colorectal cancer.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — β-catenin-driven cyclin-D1 (mapped) and CDK4/6 release E2F1 to drive the proliferation initiated by APC loss in the colorectal adenoma-carcinoma sequence.
 
 ---
 
