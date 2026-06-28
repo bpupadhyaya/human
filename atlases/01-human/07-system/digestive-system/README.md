@@ -325,6 +325,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "Colonic fluid recovery: aldosterone drives sodium and water reabsorption across the distal colonic epithelium, the final electrolyte- and fluid-conserving step of the gastrointestinal tract that hardens stool and prevents dehydration."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Crypt stem-cell renewal: Wnt/β-catenin signalling from the intestinal crypt base drives the continuous self-renewal of the gut epithelium, the most rapidly regenerating tissue in the body and the basis of digestive-tract homeostasis."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Cell-fate patterning: NOTCH signalling sets the choice between absorptive enterocytes and secretory (goblet, enteroendocrine, Paneth) cells in the intestinal epithelium, patterning the functional surface of the digestive lining."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Microbiota tolerance: regulatory IL-10 maintains immune tolerance to the gut microbiota, and its loss breaks digestive-tract homeostasis to drive the intestinal inflammation of inflammatory bowel disease."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -516,6 +525,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [SSTR2](../../03-molecular/sstr2/README.md) — universal inhibitory hormone: somatostatin from gut D cells acts through SSTR2 to brake acid secretion, gastrin release and motility, the master off-switch of the gastrointestinal tract exploited therapeutically by octreotide in bleeding and secretory diarrhea.
 - **Connects to:** [Cholesterol](../../03-molecular/cholesterol/README.md) — bile-acid digestion: the liver converts cholesterol into bile acids that emulsify dietary fat into micelles for pancreatic-lipase digestion and absorption, then recovers them through the enterohepatic circulation, the GI tract's fat-handling system.
 - **Connects to:** [Aldosterone](../../03-molecular/aldosterone/README.md) — colonic fluid recovery: aldosterone drives sodium and water reabsorption across the distal colonic epithelium, the final electrolyte- and fluid-conserving step of the gastrointestinal tract that hardens stool and prevents dehydration.
+- **Connects to:** [Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md) — crypt stem-cell renewal: Wnt/β-catenin signaling from the intestinal crypt base drives the continuous self-renewal of the gut epithelium, the most rapidly regenerating tissue in the body and the basis of digestive-tract homeostasis.
+- **Connects to:** [NOTCH](../../03-molecular/notch/README.md) — cell-fate patterning: NOTCH signaling sets the choice between absorptive enterocytes and secretory (goblet, enteroendocrine, Paneth) cells in the intestinal epithelium, patterning the functional surface of the digestive lining.
+- **Connects to:** [Interleukin-10](../../03-molecular/il-10/README.md) — microbiota tolerance: regulatory IL-10 maintains immune tolerance to the gut microbiota, and its loss breaks digestive-tract homeostasis to drive the intestinal inflammation of inflammatory bowel disease.
 
 ## Pathology
 

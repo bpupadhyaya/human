@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/caspase-3
     relation: connects-to
     note: "Pericyte dropout: hyperglycaemia drives caspase-3-mediated apoptosis of retinal pericytes, the earliest structural lesion of diabetic retinopathy that weakens capillary walls to form the microaneurysms that mark its onset."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Oxidative-stress defence: chronic hyperglycaemia floods the retina with reactive oxygen species, and an impaired NRF2 antioxidant response permits the oxidative damage that initiates and accelerates diabetic retinopathy."
+  - target: 01-human/03-molecular/connexin43
+    relation: connects-to
+    note: "Pericyte gap junctions: loss of connexin-43 gap-junctional coupling between retinal endothelial cells and pericytes contributes to the pericyte dropout and microaneurysm formation of early diabetic retinopathy."
+  - target: 01-human/03-molecular/aquaporin-4
+    relation: connects-to
+    note: "Macular oedema: Müller-cell aquaporin-4 governs retinal water handling, and its dysregulation drives the fluid accumulation of diabetic macular oedema, the leading cause of vision loss in the disease."
 ---
 
 # Diabetic Retinopathy
@@ -521,6 +530,9 @@ DR encompasses a spectrum from subtle vascular changes to sight-threatening neov
 - `connects-to` → **[Glucocorticoid receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Dexamethasone and fluocinolone implants acting through the glucocorticoid receptor reduce diabetic macular edema by suppressing inflammatory cytokines and tightening the blood-retinal barrier, an option for eyes resistant to anti-VEGF.
 - `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — Impaired glutamate clearance by Müller cells in the diabetic retina causes excitotoxic loss of retinal neurons, the neurodegenerative component that begins before the visible microvascular lesions of diabetic retinopathy.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Hyperglycemia drives caspase-3-mediated apoptosis of retinal pericytes, the earliest structural lesion of diabetic retinopathy that weakens capillary walls to form the microaneurysms that mark its onset.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — Chronic hyperglycemia floods the retina with reactive oxygen species, and an impaired NRF2 antioxidant response permits the oxidative damage that initiates and accelerates diabetic retinopathy.
+- `connects-to` → **[Connexin-43](../../03-molecular/connexin43/README.md)** — Loss of connexin-43 gap-junctional coupling between retinal endothelial cells and pericytes contributes to the pericyte dropout and microaneurysm formation of early diabetic retinopathy.
+- `connects-to` → **[Aquaporin-4](../../03-molecular/aquaporin-4/README.md)** — Müller-cell aquaporin-4 governs retinal water handling, and its dysregulation drives the fluid accumulation of diabetic macular edema, the leading cause of vision loss in the disease.
 
 [^fong-2004-dr-review]: Fong DS, Aiello L, Gardner TW, et al. Diabetic retinopathy. *Diabetes Care.* 2004;27(10):2540-2553. [doi:10.2337/diacare.27.10.2540](https://doi.org/10.2337/diacare.27.10.2540) · [PubMed 15451934](https://pubmed.ncbi.nlm.nih.gov/15451934/)
 [^brown-2015-aflibercept-protocol-t]: Diabetic Retinopathy Clinical Research Network; Wells JA, Glassman AR, et al. Aflibercept, Bevacizumab, or Ranibizumab for Diabetic Macular Edema. *N Engl J Med.* 2015;372(13):1193-1203. [doi:10.1056/NEJMoa1414264](https://doi.org/10.1056/NEJMoa1414264) · [PubMed 25692915](https://pubmed.ncbi.nlm.nih.gov/25692915/)
