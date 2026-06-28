@@ -297,6 +297,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Neuroendocrine probe: serotonergic and dopaminergic challenge tests in pathological gambling use the prolactin response as a readout of monoaminergic function, revealing the altered serotonin signalling linked to its impulsivity."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "Reward plasticity: dopamine-driven ERK signalling in the ventral striatum mediates the reward-learning plasticity that entrenches the compulsive betting of gambling disorder, paralleling substance addictions."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Dopamine signalling: dopamine D2-receptor signalling through the AKT-GSK3β axis (GSK3β already mapped) shapes the reward and impulse-control circuitry implicated in gambling disorder."
+  - target: 01-human/03-molecular/glucocorticoid-receptor
+    relation: connects-to
+    note: "Stress and relapse: HPA-axis stress signalling through the glucocorticoid receptor (cortisol and CRH already mapped) links stress and craving to the relapse behaviour of gambling disorder."
 sources:
   - id: grant-2016-gambling-review
     type: peer-reviewed
@@ -536,6 +545,9 @@ Persistent and recurrent problematic gambling behavior causing distress (≥4 of
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — The chronic stress, sleep loss and sedentary sessions of gambling disorder raise inflammatory cytokines including TNF-α, a peripheral correlate of the cardiovascular and metabolic health toll that accompanies the behavioral addiction.
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Estrogen modulates dopaminergic reward circuitry, part of why gambling disorder shows sex differences in onset and course, with women tending to develop problems later but progress faster (telescoping).
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Serotonergic and dopaminergic challenge tests in pathological gambling use the prolactin response as a readout of monoaminergic function, revealing the altered serotonin signaling linked to its impulsivity.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Dopamine-driven ERK signaling in the ventral striatum mediates the reward-learning plasticity that entrenches the compulsive betting of gambling disorder, paralleling substance addictions.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Dopamine D2-receptor signaling through the AKT-GSK3β axis (GSK3β already mapped) shapes the reward and impulse-control circuitry implicated in gambling disorder.
+- `connects-to` → **[Glucocorticoid Receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — HPA-axis stress signaling through the glucocorticoid receptor (cortisol and CRH already mapped) links stress and craving to the relapse behavior of gambling disorder.
 
 [^potenza-2014-gambling-neuroscience]: Potenza MN. The neurobiology of pathological gambling and drug addiction: an overview and new findings. *Philos Trans R Soc Lond B Biol Sci.* 2008;363(1507):3181-3189. [doi:10.1098/rstb.2008.0100](https://doi.org/10.1098/rstb.2008.0100) · [PubMed 18640909](https://pubmed.ncbi.nlm.nih.gov/18640909/)
 [^grant-2016-gambling-review]: Grant JE, Chamberlain SR. Gambling disorder and its relationship with substance use disorders. *Am J Addict.* 2015;24(2):126-131. [doi:10.1111/ajad.12112](https://doi.org/10.1111/ajad.12112) · [PubMed 25376793](https://pubmed.ncbi.nlm.nih.gov/25376793/)

@@ -316,6 +316,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "Arterial calcification: advanced atherosclerotic plaques in familial hypercholesterolaemia calcify, the calcium deposition measured by coronary-artery-calcium scoring that quantifies plaque burden and refines cardiovascular-risk prediction."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "Neointima formation: PDGF drives the migration and proliferation of the vascular smooth-muscle cells (already mapped) into the atherosclerotic plaque, building the neointima of the accelerated atherosclerosis of familial hypercholesterolaemia."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Plaque-cap stability: TGF-β regulates the collagen synthesis and fibrous-cap stability of atherosclerotic plaques, opposing the inflammatory destabilisation that causes the early myocardial infarctions of FH."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Plaque complement: complement activation by cholesterol-rich plaque (C3 already mapped, through C5) amplifies the vascular inflammation of the atherosclerosis driven by familial hypercholesterolaemia."
 ---
 
 # Familial Hypercholesterolemia
@@ -523,6 +532,9 @@ FH is a **monogenic autosomal dominant disorder** caused by mutations in three g
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β from cholesterol-crystal-activated plaque macrophages drives atherosclerotic inflammation, and the CANTOS trial showed IL-1β blockade cuts cardiovascular events independent of lipid lowering, relevant to FH's inflammatory burden.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Caspase-3-mediated apoptosis of lipid-laden foam cells, when their clearance fails, builds the necrotic lipid core of the atherosclerotic plaque, the unstable center prone to the rupture that causes the premature heart attacks of FH.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Advanced atherosclerotic plaques in familial hypercholesterolemia calcify, the calcium deposition measured by coronary-artery-calcium scoring that quantifies plaque burden and refines cardiovascular-risk prediction.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — PDGF drives the migration and proliferation of the vascular smooth-muscle cells (already mapped) into the atherosclerotic plaque, building the neointima of the accelerated atherosclerosis of familial hypercholesterolemia.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β regulates the collagen synthesis and fibrous-cap stability of atherosclerotic plaques, opposing the inflammatory destabilization that causes the early myocardial infarctions of FH.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Complement activation by cholesterol-rich plaque (C3 already mapped, through C5) amplifies the vascular inflammation of the atherosclerosis driven by familial hypercholesterolemia.
 
 [^goldstein-1985-ldlr-nobel]: Goldstein JL, Brown MS. The LDL receptor. *Arterioscler Thromb Vasc Biol.* 2009;29(4):431-438. [doi:10.1161/ATVBAHA.108.179564](https://doi.org/10.1161/ATVBAHA.108.179564) · [PubMed 19299327](https://pubmed.ncbi.nlm.nih.gov/19299327/)
 [^raal-2020-inclisiran-fh]: Raal FJ, Kallend D, Ray KK, et al. Inclisiran for the Treatment of Heterozygous Familial Hypercholesterolemia. *N Engl J Med.* 2020;382(16):1520-1530. [doi:10.1056/NEJMoa1913805](https://doi.org/10.1056/NEJMoa1913805) · [PubMed 32197277](https://pubmed.ncbi.nlm.nih.gov/32197277/)
