@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/idh1
     relation: connects-to
     note: "Oncometabolite parallel: SDH-deficient PPGL accumulates succinate that inhibits 2-oxoglutarate dioxygenases and stabilises HIF, the same pseudohypoxic, epigenetic mechanism by which IDH-mutant tumours act through their oncometabolite 2-hydroxyglutarate."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "Kinase-signalling subtype: the RET-, NF1- and RAS-driven cluster of PPGL activates PI3K-AKT-mTOR through PIK3CA, the proliferative arm complementing the pseudohypoxia pathway and a node addressable by PI3K/mTOR inhibition."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Catecholamine cardiotoxicity: paroxysmal catecholamine surges from PPGL can cause Takotsubo-like stress cardiomyopathy and myocardial injury, releasing troponin from damaged myocytes — the biochemical signature of the cardiac complications of pheochromocytoma crisis."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Catecholamine hyperglycaemia: excess catecholamines suppress pancreatic insulin secretion via α2-adrenergic receptors and induce insulin resistance, producing the hyperglycaemia and secondary diabetes of PPGL that typically resolve after tumour resection."
 ---
 
 # Pheochromocytoma/Paraganglioma
@@ -541,6 +550,9 @@ Active in Cluster 1 (MET/AXL co-expressed in SDH-deficient tumors); Phase 2 CABO
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Loss of TMEM127, a recurrent PPGL susceptibility gene, disinhibits mTORC1, placing a subset of these tumors in the kinase-signaling group alongside RET and NF1, distinct from the pseudohypoxic SDHx/VHL cluster.
 - `connects-to` → **[β1-Adrenergic Receptor](../../03-molecular/beta1-adrenergic-receptor/README.md)** — The epinephrine and norepinephrine secreted by PPGL act on β1-adrenergic receptors to drive the tachycardia and hypertension of catecholamine crisis, which is why β-blockade is added only after α-blockade to avoid unopposed vasoconstriction.
 - `connects-to` → **[IDH1](../../03-molecular/idh1/README.md)** — SDH-deficient PPGL accumulates succinate that inhibits 2-oxoglutarate dioxygenases and stabilizes HIF, the same pseudohypoxic, epigenetic mechanism by which IDH-mutant tumors act through their oncometabolite 2-hydroxyglutarate.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — The RET-, NF1- and RAS-driven cluster of PPGL activates PI3K-AKT-mTOR through PIK3CA, the proliferative arm complementing the pseudohypoxia pathway and a node addressable by PI3K/mTOR inhibition.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Paroxysmal catecholamine surges from PPGL can cause Takotsubo-like stress cardiomyopathy and myocardial injury, releasing troponin from damaged myocytes—the biochemical signature of the cardiac complications of pheochromocytoma crisis.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Excess catecholamines suppress pancreatic insulin secretion via α2-adrenergic receptors and induce insulin resistance, producing the hyperglycemia and secondary diabetes of PPGL that typically resolve after tumor resection.
 
 [^lenders-2014-pheo-guideline]: Lenders JW, Duh QY, Eisenhofer G, et al. Pheochromocytoma and paraganglioma: an endocrine society clinical practice guideline. *J Clin Endocrinol Metab.* 2014;99(6):1915-1942. [doi:10.1210/jc.2014-1498](https://doi.org/10.1210/jc.2014-1498) · [PubMed 24893135](https://pubmed.ncbi.nlm.nih.gov/24893135/)
 [^baudin-2021-firstmappp-sunitinib]: Baudin E, Goichot B, Berruti A, et al. First International Randomized Study in Malignant Progressive Pheochromocytoma and Paragangliomas (FIRSTMAPPP). *Ann Oncol.* 2021;32(10):1245-1254. [doi:10.1016/j.annonc.2021.07.009](https://doi.org/10.1016/j.annonc.2021.07.009) · [PubMed 34246769](https://pubmed.ncbi.nlm.nih.gov/34246769/)

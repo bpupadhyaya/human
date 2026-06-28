@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/caspase-3
     relation: connects-to
     note: "Apoptosis-resistant growth: LKB1 loss leaves polyp cells with unrestrained mTOR-driven survival signalling that resists caspase-3 apoptosis, the biology that rapalogs (everolimus, rapamycin) reverse to shrink polyps in Peutz-Jeghers models."
+  - target: 01-human/03-molecular/cdkn1b
+    relation: connects-to
+    note: "Cell-cycle restraint: LKB1 normally supports the p27 (CDKN1B) checkpoint, so its loss in Peutz-Jeghers syndrome weakens p27-mediated cell-cycle arrest and contributes to the hamartoma-to-carcinoma progression that drives the syndrome's broad cancer risk."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "AMPK activation requirement: LKB1 is the upstream kinase required for both metformin and adiponectin to activate AMPK, so its germline loss in Peutz-Jeghers blunts this metabolic-sensing axis, part of why metformin is studied as chemoprevention here."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Hamartomatous stroma: the smooth-muscle-rich hamartomatous polyps of Peutz-Jeghers carry an active TGF-β stromal programme, overlapping the SMAD4/TGF-β biology of juvenile polyposis and linking LKB1 loss to the polyp's mesenchymal compartment."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -523,6 +532,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — The benign LKB1-driven hamartomas of Peutz-Jeghers acquire somatic driver mutations such as KRAS as they transform into the gastrointestinal adenocarcinomas behind the syndrome's markedly elevated GI-cancer risk.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — Peutz-Jeghers (LKB1) sits beside juvenile polyposis (SMAD4/BMPR1A) among the inherited hamartomatous-polyposis syndromes, distinct BMP-versus-LKB1 lesions that share GI polyps and cancer predisposition.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — LKB1 loss leaves polyp cells with unrestrained mTOR-driven survival signaling that resists caspase-3 apoptosis, the biology that rapalogs (everolimus, rapamycin) reverse to shrink polyps in Peutz-Jeghers models.
+- `connects-to` → **[CDKN1B](../../03-molecular/cdkn1b/README.md)** — LKB1 normally supports the p27 (CDKN1B) checkpoint, so its loss in Peutz-Jeghers syndrome weakens p27-mediated cell-cycle arrest and contributes to the hamartoma-to-carcinoma progression that drives the syndrome's broad cancer risk.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — LKB1 is the upstream kinase required for both metformin and adiponectin to activate AMPK, so its germline loss in Peutz-Jeghers blunts this metabolic-sensing axis, part of why metformin is studied as chemoprevention here.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — The smooth-muscle-rich hamartomatous polyps of Peutz-Jeghers carry an active TGF-β stromal program, overlapping the SMAD4/TGF-β biology of juvenile polyposis and linking LKB1 loss to the polyp's mesenchymal compartment.
 
 ---
 
