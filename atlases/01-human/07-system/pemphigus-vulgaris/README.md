@@ -310,6 +310,15 @@ cross_links:
   - target: 01-human/03-molecular/bcl-2
     relation: connects-to
     note: "Plasma-cell persistence: long-lived autoreactive plasma cells survive on BCL-2 and lack CD20, so they escape rituximab — the basis for the relapses that follow B-cell depletion and the rationale for plasma-cell-directed therapy in pemphigus."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Th2 class-switch: IL-13 partners IL-4 to drive the IgG4-skewed class switch of the desmoglein-3 autoantibodies in pemphigus, so blocking the shared IL-4Rα with dupilumab is being explored to dampen autoantibody production."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Lost tolerance: defective TGF-β-dependent regulatory T-cell control of desmoglein-3-reactive lymphocytes permits the autoreactive T- and B-cell response that fuels autoantibody production in pemphigus vulgaris."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 maintenance: IL-23 sustains the pathogenic Th17 cells whose IL-17A contributes to the inflammatory infiltrate and tissue injury of pemphigus lesions, an axis being assessed for targeted therapy."
 ---
 
 # Pemphigus Vulgaris
@@ -551,6 +560,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — The Th2 and Th1 cytokines driving desmoglein autoantibody production signal through JAK-STAT, and JAK inhibitors are being explored in refractory pemphigus to switch off the cytokine circuits sustaining the autoreactive response.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Pemphigus features a deficit of desmoglein-specific regulatory T cells, and low-dose IL-2—which preferentially expands Tregs over effector cells—is a tolerance-restoring strategy under investigation in the disease.
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Long-lived autoreactive plasma cells survive on BCL-2 and lack CD20, so they escape rituximab—the basis for the relapses that follow B-cell depletion and the rationale for plasma-cell-directed therapy in pemphigus.
+- `connects-to` → **[Interleukin-13](../../03-molecular/il-13/README.md)** — IL-13 partners IL-4 to drive the IgG4-skewed class switch of the desmoglein-3 autoantibodies in pemphigus, so blocking the shared IL-4Rα with dupilumab is being explored to dampen autoantibody production.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — Defective TGF-β-dependent regulatory T-cell control of desmoglein-3-reactive lymphocytes permits the autoreactive T- and B-cell response that fuels autoantibody production in pemphigus vulgaris.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — IL-23 sustains the pathogenic Th17 cells whose IL-17A contributes to the inflammatory infiltrate and tissue injury of pemphigus lesions, an axis being assessed for targeted therapy.
 
 ---
 

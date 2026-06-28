@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/pten
     relation: connects-to
     note: "PI3K-pathway loss: PCNSL frequently deletes PTEN on 9p alongside CDKN2A, releasing the brake on PI3K-AKT-mTOR signalling that drives proliferation and supports the dependence on the same pathway targeted by mTOR and PI3K inhibitors."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K activation: with PTEN deleted, PIK3CA-driven PI3K signalling sustains the constitutive AKT-mTOR activity of PCNSL, working alongside the BTK/MYD88-NF-κB axis and offering a second targetable node for PI3K inhibitors in this aggressive CNS lymphoma."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "PD-L1 induction: interferon-γ from the reactive T-cell infiltrate, together with 9p24.1 copy gains, drives PD-L1 expression on PCNSL cells, creating the immune-checkpoint vulnerability that motivates PD-1 blockade in this immune-privileged tumour."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-γ signalling: STAT1 is the transcription factor relaying interferon-γ signals to induce PD-L1 and antigen-presentation genes in PCNSL, the JAK-STAT arm (with the JAK2 of 9p24.1) shaping its immunosuppressive microenvironment."
 ---
 
 # Primary CNS Lymphoma
@@ -513,6 +522,9 @@ Score 0-1: 2-year OS ~80%; Score 2-3: ~48%; Score 4-5: ~15%
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — High-dose methotrexate that crosses the blood-brain barrier kills PCNSL cells through caspase-3-mediated apoptosis, and the BCL-2-driven apoptotic resistance of this lymphoma underlies the relapses that follow initial response.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — PCNSL cells secrete IL-10, and an elevated cerebrospinal-fluid IL-10 level (and high IL-10/IL-6 ratio) is a diagnostic and prognostic marker that also serves as autocrine survival signaling for the tumor.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PCNSL frequently deletes PTEN on 9p alongside CDKN2A, releasing the brake on PI3K-AKT-mTOR signaling that drives proliferation and supports the dependence on the same pathway targeted by mTOR and PI3K inhibitors.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — With PTEN deleted, PIK3CA-driven PI3K signaling sustains the constitutive AKT-mTOR activity of PCNSL, working alongside the BTK/MYD88-NF-κB axis and offering a second targetable node for PI3K inhibitors in this aggressive CNS lymphoma.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Interferon-γ from the reactive T-cell infiltrate, together with 9p24.1 copy gains, drives PD-L1 expression on PCNSL cells, creating the immune-checkpoint vulnerability that motivates PD-1 blockade in this immune-privileged tumor.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — STAT1 is the transcription factor relaying interferon-γ signals to induce PD-L1 and antigen-presentation genes in PCNSL, the JAK-STAT arm (with the JAK2 of 9p24.1) shaping its immunosuppressive microenvironment.
 
 [^bromberg-2019-hovon105]: Bromberg JE, Issa S, Bakunina K, et al. Rituximab in patients with primary CNS lymphoma (HOVON 105/ALLG NHL 24): a randomised, open-label, phase 3 intergroup study. *Lancet Oncol.* 2019;20(2):216-228. [doi:10.1016/S1470-2045(18)30747-2](https://doi.org/10.1016/S1470-2045(18)30747-2) · [PubMed 30528440](https://pubmed.ncbi.nlm.nih.gov/30528440/)
 [^grommes-2017-ibrutinib-pcnsl]: Grommes C, Pastore A, Palaskas N, et al. Ibrutinib unmasks critical role of Bruton tyrosine kinase in primary CNS lymphoma. *Cancer Cell.* 2017;31(6):833-843. [doi:10.1016/j.ccell.2017.04.012](https://doi.org/10.1016/j.ccell.2017.04.012) · [PubMed 28552327](https://pubmed.ncbi.nlm.nih.gov/28552327/)
