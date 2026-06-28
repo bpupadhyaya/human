@@ -325,6 +325,15 @@ cross_links:
   - target: 01-human/03-molecular/calcineurin
     relation: connects-to
     note: "Calcium-driven synapse loss: dysregulated calcium-calcineurin signalling in Alzheimer's drives dendritic-spine retraction, synapse loss and astrocyte activation that track closely with cognitive decline."
+  - target: 01-human/03-molecular/aquaporin-4
+    relation: connects-to
+    note: "Glymphatic clearance: astrocytic aquaporin-4 drives the glymphatic flow that clears amyloid-β during sleep, and the loss of AQP4 polarisation impairs Aβ removal in Alzheimer's disease."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "Tau phosphorylation: MAPK-ERK, alongside GSK-3β (mapped), hyperphosphorylates tau (MAPT mapped) into the paired helical filaments that form the neurofibrillary tangles of Alzheimer's."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Microglial neuroinflammation: microglial TLR4 (mapped) sensing of amyloid-β signals through MyD88 to NF-κB (mapped), driving the neuroinflammation that propagates Alzheimer's pathology."
 ---
 
 # Alzheimer's Disease
@@ -526,6 +535,9 @@ Microglia play a central, dual role in AD:
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Impaired AKT signaling from brain insulin resistance disinhibits GSK3β (already mapped) to hyperphosphorylate tau, the "type-3 diabetes" link between the insulin already mapped and Alzheimer neurodegeneration.
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — Oxidative stress is central to Alzheimer's, and a declining NRF2 antioxidant response permits the lipid peroxidation and mitochondrial damage that injure neurons.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Dysregulated calcium-calcineurin signaling in Alzheimer's drives dendritic-spine retraction, synapse loss and astrocyte activation that track closely with cognitive decline.
+- `connects-to` → **[Aquaporin-4](../../03-molecular/aquaporin-4/README.md)** — Astrocytic aquaporin-4 drives the glymphatic flow that clears amyloid-β during sleep, and the loss of AQP4 polarization impairs Aβ removal in Alzheimer's disease.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — MAPK-ERK, alongside GSK-3β (mapped), hyperphosphorylates tau (MAPT mapped) into the paired helical filaments that form the neurofibrillary tangles of Alzheimer's.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Microglial TLR4 (mapped) sensing of amyloid-β signals through MyD88 to NF-κB (mapped), driving the neuroinflammation that propagates Alzheimer's pathology.
 
 [^selkoe-2016-alzheimer]: Selkoe DJ, Hardy J. The amyloid hypothesis of Alzheimer's disease at 25 years. *EMBO Mol Med.* 2016;8(6):595-608. [doi:10.15252/emmm.201606210](https://doi.org/10.15252/emmm.201606210) · [PubMed 27025652](https://pubmed.ncbi.nlm.nih.gov/27025652/)
 [^jack-2018-nia-aa]: Jack CR Jr, Bennett DA, Blennow K, et al. NIA-AA Research Framework: Toward a biological definition of Alzheimer's disease. *Alzheimers Dement.* 2018;14(4):535-562. [doi:10.1016/j.jalz.2018.02.018](https://doi.org/10.1016/j.jalz.2018.02.018) · [PubMed 29653606](https://pubmed.ncbi.nlm.nih.gov/29653606/)
