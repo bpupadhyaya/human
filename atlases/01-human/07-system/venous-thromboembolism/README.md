@@ -316,6 +316,15 @@ cross_links:
   - target: 01-human/03-molecular/rage
     relation: connects-to
     note: "Thrombo-inflammation: DAMPs such as HMGB1 signalling through RAGE on endothelium and leukocytes promote the tissue-factor expression and NET formation that knit together the immunothrombosis of venous clot."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "Endothelial injury arm: endothelial Angiopoietin-2 activation shifts the vein-wall endothelium to a procoagulant, permeable phenotype, part of the endothelial-injury limb of Virchow's triad in venous thromboembolism."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Thromboinflammation: IL-1β, downstream of the NLRP3 inflammasome already mapped, induces endothelial and monocyte tissue factor that initiates the coagulation of venous thrombosis."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Complement crosstalk: complement activation (C3 already mapped, through C5) amplifies platelet and endothelial activation in venous thromboembolism, part of the thromboinflammatory crosstalk that promotes clot formation."
 ---
 
 # Venous Thromboembolism
@@ -534,6 +543,9 @@ cross_links:
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — The intrinsic contact system—factor XII and kallikrein, which also generates bradykinin—feeds venous thrombus growth, making factor XI/XII the targets of the new anticoagulants that aim to block clotting without causing bleeding.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement activation generating C3 fragments amplifies platelet activation and tissue factor, an inflammatory limb of immunothrombosis that compounds the stasis and hypercoagulability driving venous thromboembolism.
 - `connects-to` → **[RAGE](../../03-molecular/rage/README.md)** — DAMPs such as HMGB1 signaling through RAGE on endothelium and leukocytes promote the tissue-factor expression and NET formation that knit together the immunothrombosis of venous clot.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Endothelial Angiopoietin-2 activation shifts the vein-wall endothelium to a procoagulant, permeable phenotype, part of the endothelial-injury limb of Virchow's triad in venous thromboembolism.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β, downstream of the NLRP3 inflammasome already mapped, induces endothelial and monocyte tissue factor that initiates the coagulation of venous thrombosis.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Complement activation (C3 already mapped, through C5) amplifies platelet and endothelial activation in venous thromboembolism, part of the thromboinflammatory crosstalk that promotes clot formation.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)

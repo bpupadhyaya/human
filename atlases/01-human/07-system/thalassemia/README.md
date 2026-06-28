@@ -315,6 +315,15 @@ cross_links:
   - target: 01-human/03-molecular/rage
     relation: connects-to
     note: "Iron-DAMP inflammation: chronic haemolysis and iron overload in thalassemia release free haem that signals through RAGE as a DAMP, sustaining the vascular inflammation that contributes to the endothelial dysfunction and thrombotic risk of the disease."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "Iron-overload axis: expanded ineffective erythropoiesis in thalassemia suppresses hepcidin via erythroferrone and shifts the BMP-SMAD set-point, derepressing ferroportin (already mapped) to drive the iron overload that dominates non-transfusional disease."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Oxidative defence: unpaired globin chains and excess iron generate severe oxidative stress in thalassemic erythroid cells, and the NRF2 antioxidant response is the key defence against this damage."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Inflammatory iron block: chronic inflammation with IL-6 contributes to dysregulated iron homeostasis and an anaemia-of-chronic-disease component overlying the inherited anaemia of thalassemia."
 ---
 
 # Thalassemia
@@ -558,6 +567,9 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — The apoptosis of maturing erythroid precursors, governed by the balance of BCL-2-family survival proteins, is the core of the ineffective erythropoiesis of thalassemia, where most red-cell precursors die in the marrow before reaching the circulation.
 - `connects-to` → **[Xanthine Oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Unpaired globin chains and free iron in thalassemic red cells generate reactive oxygen species, compounded by xanthine-oxidase activity, the oxidative damage that destabilizes membranes and drives the chronic hemolysis.
 - `connects-to` → **[RAGE](../../03-molecular/rage/README.md)** — Chronic hemolysis and iron overload in thalassemia release free heme that signals through RAGE as a DAMP, sustaining the vascular inflammation that contributes to the endothelial dysfunction and thrombotic risk of the disease.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — Expanded ineffective erythropoiesis in thalassemia suppresses hepcidin via erythroferrone and shifts the BMP-SMAD set-point, derepressing ferroportin (already mapped) to drive the iron overload that dominates non-transfusional disease.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — Unpaired globin chains and excess iron generate severe oxidative stress in thalassemic erythroid cells, and the NRF2 antioxidant response is the key defense against this damage.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Chronic inflammation with IL-6 contributes to dysregulated iron homeostasis and an anemia-of-chronic-disease component overlying the inherited anemia of thalassemia.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.
