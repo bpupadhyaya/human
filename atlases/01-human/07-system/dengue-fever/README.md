@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/bradykinin
     relation: connects-to
     note: "Vascular permeability: kinin-system activation generating bradykinin increases endothelial permeability in severe dengue, contributing alongside the viral NS1 protein to the plasma leak that defines dengue shock syndrome."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Severity biomarker: IL-10 rises sharply in severe dengue, and its immunosuppressive action — blunting antiviral T-cell responses — tracks with and helps predict progression to dengue haemorrhagic fever and shock syndrome."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Endothelial dysfunction: dysregulated nitric oxide signalling in the dengue-infected endothelium contributes to the loss of vascular barrier integrity that underlies the plasma leak of severe disease."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "Th17 permeability: IL-17A is elevated in severe dengue and amplifies endothelial inflammation and vascular permeability, adding to the cytokine-driven leak that characterises dengue haemorrhagic fever."
 ---
 
 # Dengue Fever
@@ -523,3 +532,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[FcRn](../../03-molecular/fcrn/README.md)** — FcRn transfers maternal anti-dengue IgG across the placenta, and as it wanes to sub-neutralizing levels it can enhance rather than protect, explaining the peak of severe dengue in infants of previously infected mothers.
 - `connects-to` → **[Fibrinogen](../../03-molecular/fibrinogen/README.md)** — Severe dengue activates and consumes the coagulation system, lowering fibrinogen and producing the disseminated intravascular coagulation that, with thrombocytopenia, drives the bleeding of dengue hemorrhagic fever.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-system activation generating bradykinin increases endothelial permeability in severe dengue, contributing alongside the viral NS1 protein to the plasma leak that defines dengue shock syndrome.
+- `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — IL-10 rises sharply in severe dengue, and its immunosuppressive action—blunting antiviral T-cell responses—tracks with and helps predict progression to dengue hemorrhagic fever and shock syndrome.
+- `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — Dysregulated nitric oxide signaling in the dengue-infected endothelium contributes to the loss of vascular barrier integrity that underlies the plasma leak of severe disease.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A is elevated in severe dengue and amplifies endothelial inflammation and vascular permeability, adding to the cytokine-driven leak that characterizes dengue hemorrhagic fever.

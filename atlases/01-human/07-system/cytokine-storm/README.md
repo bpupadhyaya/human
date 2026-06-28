@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/thrombin
     relation: connects-to
     note: "Consumptive coagulopathy: the cytokine storm activates coagulation through tissue factor and thrombin generation, producing the disseminated intravascular coagulation and microthrombi that drive the multi-organ failure of severe hyperinflammation."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "IFN-γ amplifier: IL-12 drives Th1 and NK cells to pour out IFN-γ (already mapped), the cytokine that dominates the haemophagocytic lymphohistiocytosis and macrophage-activation forms of cytokine storm."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Distributive shock: cytokine-induced iNOS floods the circulation with nitric oxide, causing the vasodilation and refractory hypotension that produce the distributive shock of severe cytokine storm."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement amplification: the cytokine storm activates complement at C3, feeding the C5-C5aR1 axis already mapped to amplify neutrophil recruitment, endothelial injury and the thromboinflammation of hyperinflammatory states."
 ---
 
 # Cytokine Storm
@@ -502,6 +511,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — The cytokine storm of macrophage activation syndrome and HLH drives extreme hyperferritinemia through IL-6-stimulated hepcidin and macrophage ferritin release, a striking biomarker that helps diagnose and grade the hyperinflammatory state.
 - `connects-to` → **[Glucocorticoid receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — High-dose glucocorticoids acting through the glucocorticoid receptor are a first-line therapy for cytokine storm, broadly suppressing the runaway cytokine production, used alongside targeted blockers like anti-IL-6 and JAK inhibitors.
 - `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — The cytokine storm activates coagulation through tissue factor and thrombin generation, producing the disseminated intravascular coagulation and microthrombi that drive the multi-organ failure of severe hyperinflammation.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — IL-12 drives Th1 and NK cells to pour out IFN-γ (already mapped), the cytokine that dominates the hemophagocytic lymphohistiocytosis and macrophage-activation forms of cytokine storm.
+- `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — Cytokine-induced iNOS floods the circulation with nitric oxide, causing the vasodilation and refractory hypotension that produce the distributive shock of severe cytokine storm.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — The cytokine storm activates complement at C3, feeding the C5-C5aR1 axis already mapped to amplify neutrophil recruitment, endothelial injury and the thromboinflammation of hyperinflammatory states.
 
 ## Pathology
 
