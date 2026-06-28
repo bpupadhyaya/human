@@ -310,6 +310,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "Diabetic nephropathy: high glucose induces TGF-β in the glomerulus, driving the mesangial-matrix expansion and basement-membrane thickening that produce diabetic kidney disease, the commonest cause of end-stage renal failure."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Core of insulin resistance: insulin signals through the insulin-receptor-PI3K-AKT axis (insulin-receptor and FOXO1 already mapped) to drive glucose uptake and suppress hepatic gluconeogenesis, and impaired AKT signalling is the molecular heart of insulin resistance."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Nutrient-overload feedback: chronic nutrient excess activates mTORC1-S6K, which feeds back to inhibit insulin-receptor-substrate signalling, a mechanism coupling overnutrition and obesity to the insulin resistance of type 2 diabetes."
+  - target: 01-human/03-molecular/pcsk9
+    relation: connects-to
+    note: "Diabetic dyslipidaemia: the atherogenic dyslipidaemia of type 2 diabetes amplifies cardiovascular risk, and PCSK9 (which raises LDL) is targeted alongside the statins already mapped to lower that risk in these high-risk patients."
 ---
 
 # Type 2 Diabetes
@@ -510,6 +519,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[Insulin receptor](../../03-molecular/insulin-receptor/README.md)** — In type 2 diabetes the insulin receptor and its downstream IRS-PI3K-AKT cascade respond poorly to insulin, the molecular signaling defect of insulin resistance that forces compensatory hyperinsulinemia until β-cells fail.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Chronic hyperglycemia drives retinal ischemia and VEGF release, fueling the pathological neovascularization of proliferative diabetic retinopathy—the leading cause of working-age blindness and the target of intravitreal anti-VEGF therapy.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — High glucose induces TGF-β in the glomerulus, driving the mesangial-matrix expansion and basement-membrane thickening that produce diabetic kidney disease, the commonest cause of end-stage renal failure.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Insulin signals through the insulin-receptor-PI3K-AKT axis (insulin-receptor and FOXO1 already mapped) to drive glucose uptake and suppress hepatic gluconeogenesis, and impaired AKT signaling is the molecular heart of insulin resistance.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Chronic nutrient excess activates mTORC1-S6K, which feeds back to inhibit insulin-receptor-substrate signaling, a mechanism coupling overnutrition and obesity to the insulin resistance of type 2 diabetes.
+- `connects-to` → **[PCSK9](../../03-molecular/pcsk9/README.md)** — The atherogenic dyslipidemia of type 2 diabetes amplifies cardiovascular risk, and PCSK9 (which raises LDL) is targeted alongside the statins already mapped to lower that risk in these high-risk patients.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

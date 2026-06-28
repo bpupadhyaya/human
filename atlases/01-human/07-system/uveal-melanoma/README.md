@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/endothelin-1
     relation: connects-to
     note: "Melanocyte GPCR: uveal melanoma cells express the endothelin-B receptor inherited from their melanocyte lineage, an EDNRB signalling axis that supports proliferation and survival and is being explored as a therapeutic vulnerability."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K survival arm: downstream of the GNAQ/GNA11 drivers, PI3K-AKT-mTOR signalling (AKT, mTOR and PTEN already mapped) supports uveal melanoma survival, a targetable axis parallel to its YAP and MAPK arms."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Apoptosis resistance: uveal melanoma characteristically over-expresses anti-apoptotic BCL-2, underlying its resistance to chemotherapy and the long survival of the dormant liver micrometastases that determine its lethality."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Metastatic phenotype: NOTCH signalling promotes the proliferation and invasive, metastatic phenotype of uveal melanoma, cooperating with the YAP and MAPK arms already mapped downstream of GNAQ/GNA11."
 ---
 
 # Uveal Melanoma
@@ -536,6 +545,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — The gp100-HLA-A*02/CD3 bispecific tebentafusp—the first therapy to extend survival in metastatic uveal melanoma—redirects cytotoxic T cells to kill tumor cells through perforin and granzyme, despite this tumor's low mutational burden.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Uveal melanoma cells strongly express IGF-1R, and the liver's abundant IGF-1 helps explain the near-exclusive hepatic homing of metastases, making IGF-1R a candidate target against the liver disease that dominates outcome.
 - `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Uveal melanoma cells express the endothelin-B receptor inherited from their melanocyte lineage, an EDNRB signaling axis that supports proliferation and survival and is being explored as a therapeutic vulnerability.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Downstream of the GNAQ/GNA11 drivers, PI3K-AKT-mTOR signaling (AKT, mTOR and PTEN already mapped) supports uveal melanoma survival, a targetable axis parallel to its YAP and MAPK arms.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Uveal melanoma characteristically over-expresses anti-apoptotic BCL-2, underlying its resistance to chemotherapy and the long survival of the dormant liver micrometastases that determine its lethality.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH signaling promotes the proliferation and invasive, metastatic phenotype of uveal melanoma, cooperating with the YAP and MAPK arms already mapped downstream of GNAQ/GNA11.
 
 ---
 
