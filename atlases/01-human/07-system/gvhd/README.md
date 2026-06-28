@@ -325,6 +325,15 @@ cross_links:
   - target: 01-human/03-molecular/il-12
     relation: connects-to
     note: "Th1 polarisation: IL-12 from activated host antigen-presenting cells polarises donor T cells toward the Th1/IFN-γ response (already mapped) that mediates acute graft-versus-host disease."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Innate DNA sensing: cGAS-STING detection of cytosolic DNA released by conditioning-regimen tissue damage drives type-I-interferon production that amplifies the inflammatory priming of acute graft-versus-host disease."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Alloreactive checkpoint: PD-1 engagement restrains alloreactive donor T cells, and checkpoint-inhibitor blockade of this brake can precipitate GVHD-like immunopathology — underscoring its role in tolerance after transplant."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "Fibrotic chronicity: PDGF drives the fibroblast activation and tissue fibrosis of chronic sclerodermatous graft-versus-host disease, alongside the periostin and TGF-β pathways already mapped."
 ---
 
 # Graft-Versus-Host Disease
@@ -565,6 +574,9 @@ The protective Treg/IL-10 axis is the key biological counterbalance to alloreact
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH signaling in donor T cells drives their differentiation into the pathogenic alloreactive effectors of graft-versus-host disease, a targetable axis distinct from calcineurin and JAK inhibition.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — The PI3K-AKT-mTOR pathway (mTOR already mapped, the target of sirolimus) drives the proliferation and metabolic activation of alloreactive donor T cells in GVHD.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — IL-12 from activated host antigen-presenting cells polarizes donor T cells toward the Th1/IFN-γ response (already mapped) that mediates acute graft-versus-host disease.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — cGAS-STING detection of cytosolic DNA released by conditioning-regimen tissue damage drives type-I-interferon production that amplifies the inflammatory priming of acute graft-versus-host disease.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — PD-1 engagement restrains alloreactive donor T cells, and checkpoint-inhibitor blockade of this brake can precipitate GVHD-like immunopathology — underscoring its role in tolerance after transplant.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — PDGF drives the fibroblast activation and tissue fibrosis of chronic sclerodermatous graft-versus-host disease, alongside the periostin and TGF-β pathways already mapped.
 
 [^ferrara-2009-gvhd-review]: Ferrara JL, Levine JE, Reddy P, Holler E. Graft-versus-host disease. *Lancet.* 2009;373(9674):1550-1561. [doi:10.1016/S0140-6736(09)60237-3](https://doi.org/10.1016/S0140-6736(09)60237-3) · [PubMed 19380114](https://pubmed.ncbi.nlm.nih.gov/19380114/)
 [^zeiser-2020-ruxolitinib-gvhd-reach]: Zeiser R, von Bubnoff N, Butler J, et al. Ruxolitinib for Glucocorticoid-Refractory Acute Graft-versus-Host Disease. *N Engl J Med.* 2020;382(19):1800-1810. [doi:10.1056/NEJMoa1917635](https://doi.org/10.1056/NEJMoa1917635) · [PubMed 32374962](https://pubmed.ncbi.nlm.nih.gov/32374962/)

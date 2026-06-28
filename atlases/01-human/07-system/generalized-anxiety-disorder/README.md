@@ -328,6 +328,15 @@ cross_links:
   - target: 01-human/03-molecular/mtor
     relation: connects-to
     note: "Fear-circuit plasticity: synaptic mTOR-dependent plasticity in the prefrontal-amygdala fear circuitry is implicated in anxiety and in the rapid anxiolytic action of glutamatergic agents."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Neuroinflammatory anxiety: TLR4 innate-immune signalling links peripheral inflammation and psychological stress to the central neuroinflammation increasingly implicated in the pathophysiology of anxiety disorders."
+  - target: 01-human/03-molecular/ntrk
+    relation: connects-to
+    note: "Neurotrophic plasticity: BDNF acts through its TrkB receptor (NTRK) to drive the hippocampal and prefrontal neuroplasticity whose deficit underlies chronic anxiety and whose restoration accompanies anxiolytic response."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Oxidative stress: NRF2-regulated antioxidant defences counter the oxidative stress that accompanies chronic anxiety and sustained HPA-axis overactivation, a link between redox imbalance and mood."
 ---
 
 # Generalized Anxiety Disorder
@@ -569,6 +578,9 @@ Allow **4-8 weeks** for onset of anxiolytic effect. Continue treatment ≥12 mon
 - `connects-to` → **[Glucocorticoid Receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Chronic worry sustains HPA-axis activation, and altered glucocorticoid-receptor feedback (cortisol and CRH already mapped) underlies the dysregulated stress response of generalized anxiety disorder.
 - `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — The low-grade neuroinflammation of GAD (IL-1β, IL-6 and TNF-α already mapped) is counter-balanced by regulatory IL-10, whose relative deficiency tracks with anxiety severity.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Synaptic mTOR-dependent plasticity in the prefrontal-amygdala fear circuitry is implicated in anxiety and in the rapid anxiolytic action of glutamatergic agents.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4 innate-immune signaling links peripheral inflammation and psychological stress to the central neuroinflammation increasingly implicated in the pathophysiology of anxiety disorders.
+- `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — BDNF acts through its TrkB receptor (NTRK) to drive the hippocampal and prefrontal neuroplasticity whose deficit underlies chronic anxiety and whose restoration accompanies anxiolytic response.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2-regulated antioxidant defenses counter the oxidative stress that accompanies chronic anxiety and sustained HPA-axis overactivation, a link between redox imbalance and mood.
 
 [^kessler-2005-gad-prevalence]: Kessler RC, Berglund P, Demler O, et al. Lifetime prevalence and age-of-onset distributions of DSM-IV disorders in the NCS Replication. *Arch Gen Psychiatry.* 2005;62(6):593-602. [doi:10.1001/archpsyc.62.6.593](https://doi.org/10.1001/archpsyc.62.6.593) · [PubMed 15939837](https://pubmed.ncbi.nlm.nih.gov/15939837/)
 [^bandelow-2015-anxiety-biology]: Bandelow B, Michaelis S. Epidemiology of anxiety disorders in the 21st century. *Dialogues Clin Neurosci.* 2015;17(3):327-335. [doi:10.31887/DCNS.2015.17.3/bbandelow](https://doi.org/10.31887/DCNS.2015.17.3/bbandelow) · [PubMed 26487812](https://pubmed.ncbi.nlm.nih.gov/26487812/)
