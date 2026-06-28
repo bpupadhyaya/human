@@ -328,6 +328,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "Neurodevelopmental Wnt: Wnt/β-catenin signalling, regulated by high-confidence autism genes such as CHD8, governs the neuronal proliferation and synaptic development perturbed in autism spectrum disorder."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "Syndromic mTOR axis: the PTEN-PI3K-AKT-mTOR pathway (PTEN, AKT, mTOR and TSC1-TSC2 all mapped) is dysregulated in syndromic autism, driving the synaptic-protein-synthesis imbalance underlying its phenotype."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Maternal immune activation: maternal infection signals through TLR (TLR4 mapped) and MyD88, and the resulting maternal IL-6/IL-17 (mapped) shapes fetal brain development, a major environmental autism-risk pathway."
+  - target: 01-human/03-molecular/calcineurin
+    relation: connects-to
+    note: "Synaptic plasticity: calcium-calcineurin-NFAT signalling regulates activity-dependent synaptic plasticity, a process disrupted in the excitatory/inhibitory imbalance of autism spectrum disorder."
 ---
 
 # Autism Spectrum Disorder
@@ -568,6 +577,9 @@ The neural basis of ASD social deficits involves dysfunction of the **social bra
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — The PTEN-PI3K-AKT-mTOR pathway (PTEN, mTOR and TSC1/2 already mapped) is a convergence point of syndromic autism, where excess AKT-mTOR signaling drives the synaptic overgrowth and macrocephaly of ASD.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — RAS-MAPK-ERK signaling, hyperactivated in the RASopathies (neurofibromatosis-1 and Noonan already mapped) that carry high autism risk, regulates the synaptic plasticity disrupted in autism spectrum disorder.
 - `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Wnt/β-catenin signaling, regulated by high-confidence autism genes such as CHD8, governs the neuronal proliferation and synaptic development perturbed in autism spectrum disorder.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — The PTEN-PI3K-AKT-mTOR pathway (PTEN, AKT, mTOR and TSC1-TSC2 all mapped) is dysregulated in syndromic autism, driving the synaptic-protein-synthesis imbalance underlying its phenotype.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Maternal infection signals through TLR (TLR4 mapped) and MyD88, and the resulting maternal IL-6/IL-17 (mapped) shapes fetal brain development, a major environmental autism-risk pathway.
+- `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcium-calcineurin-NFAT signaling regulates activity-dependent synaptic plasticity, a process disrupted in the excitatory/inhibitory imbalance of autism spectrum disorder.
 
 [^maenner-2023-asd-prevalence]: Maenner MJ, Warren Z, Williams AR, et al. Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 2020. *MMWR Surveill Summ.* 2023;72(2):1-14. [doi:10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1) · [PubMed 36952216](https://pubmed.ncbi.nlm.nih.gov/36952216/)
 [^lord-2020-asd-review]: Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum disorder. *Lancet.* 2018;392(10146):508-520. [doi:10.1016/S0140-6736(18)31129-2](https://doi.org/10.1016/S0140-6736(18)31129-2) · [PubMed 30078460](https://pubmed.ncbi.nlm.nih.gov/30078460/)
