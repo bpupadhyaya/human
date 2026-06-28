@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/ferroportin
     relation: connects-to
     note: "Joint iron overload: recurrent hemarthroses overwhelm macrophage iron export through ferroportin, leaving hemosiderin deposits in the synovium that perpetuate the inflammatory and oxidative damage of hemophilic arthropathy."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "Synovitis amplifier: blood in the joint drives synovial macrophages to release S100A8/A9 (calprotectin), amplifying the inflammatory synovitis that destroys cartilage in hemophilic arthropathy."
+  - target: 01-human/03-molecular/fcrn
+    relation: connects-to
+    note: "Half-life and inhibitors: the neonatal Fc receptor extends the half-life of Fc-fused factor VIII concentrates (efmoroctocog) and recycles IgG, including the inhibitor antibodies (anti-FVIII) that complicate hemophilia A therapy."
+  - target: 01-human/03-molecular/ctla-4
+    relation: connects-to
+    note: "Inhibitor tolerance: development of anti-FVIII inhibitor antibodies reflects loss of immune tolerance, and CTLA-4-dependent regulatory mechanisms underlie the immune-tolerance-induction protocols used to eradicate them."
 ---
 
 # Hemophilia A
@@ -544,6 +553,9 @@ FVIII is a critical **amplifier** of the coagulation cascade at the junction bet
 - `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — Regulatory IL-10 and regulatory T cells (already mapped) mediate immune tolerance to factor VIII, and their failure permits the neutralizing-antibody inhibitors that are the major complication of hemophilia A therapy.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Repeated joint bleeds deposit iron (already mapped) that activates the NLRP3 inflammasome and IL-1β in the synovium, driving the chronic synovitis and progressive hemophilic arthropathy.
 - `connects-to` → **[Ferroportin](../../03-molecular/ferroportin/README.md)** — Recurrent hemarthroses overwhelm macrophage iron export through ferroportin, leaving hemosiderin deposits in the synovium that perpetuate the inflammatory and oxidative damage of hemophilic arthropathy.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Blood in the joint drives synovial macrophages to release S100A8/A9 (calprotectin), amplifying the inflammatory synovitis that destroys cartilage in hemophilic arthropathy.
+- `connects-to` → **[FcRn](../../03-molecular/fcrn/README.md)** — The neonatal Fc receptor extends the half-life of Fc-fused factor VIII concentrates (efmoroctocog) and recycles IgG, including the inhibitor antibodies (anti-FVIII) that complicate hemophilia A therapy.
+- `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Development of anti-FVIII inhibitor antibodies reflects loss of immune tolerance, and CTLA-4-dependent regulatory mechanisms underlie the immune-tolerance-induction protocols used to eradicate them.
 
 [^oldenburg-2017-emicizumab-haven1]: Oldenburg J, Mahlangu JN, Kim B, et al. Emicizumab prophylaxis in hemophilia A with inhibitors. *N Engl J Med.* 2017;377(9):809-818. [doi:10.1056/NEJMoa1703068](https://doi.org/10.1056/NEJMoa1703068) · [PubMed 28691557](https://pubmed.ncbi.nlm.nih.gov/28691557/)
 [^mahlangu-2018-emicizumab-haven3]: Mahlangu J, Oldenburg J, Paz-Priel I, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors. *N Engl J Med.* 2018;379(9):811-822. [doi:10.1056/NEJMoa1803550](https://doi.org/10.1056/NEJMoa1803550) · [PubMed 30157389](https://pubmed.ncbi.nlm.nih.gov/30157389/)

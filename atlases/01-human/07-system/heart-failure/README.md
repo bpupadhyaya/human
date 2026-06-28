@@ -316,6 +316,15 @@ cross_links:
   - target: 01-human/03-molecular/erk1-2
     relation: connects-to
     note: "Hypertrophic signalling: neurohormonal and mechanical stress signal through the MAPK-ERK1/2 cascade to drive the hypertrophic growth of cardiomyocytes during the remodelling of heart failure."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Hypertrophy switch: PI3K-AKT signalling governs cardiomyocyte growth — physiological when IGF-driven, but its sustained pathological activation (with mTOR mapped) contributes to the maladaptive hypertrophy of heart failure."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Oxidative injury: oxidative stress overwhelms NRF2 antioxidant defences in the failing myocardium, contributing to the cardiomyocyte injury and adverse remodelling of heart failure."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Cardiomyocyte loss: caspase-3-mediated apoptosis of cardiomyocytes progressively depletes contractile units, a cell-death mechanism driving the decline of the failing heart."
 ---
 
 # Heart Failure
@@ -488,6 +497,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — The calcineurin-NFAT pathway transduces sustained cardiomyocyte calcium signals into the maladaptive hypertrophic gene program that drives the ventricular remodeling of heart failure.
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β drives the cardiac-fibroblast activation and interstitial fibrosis (fibrosis and periostin already mapped) that stiffen the failing ventricle, central to heart failure with preserved ejection fraction.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Neurohormonal and mechanical stress signal through the MAPK-ERK1/2 cascade to drive the hypertrophic growth of cardiomyocytes during the remodeling of heart failure.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling governs cardiomyocyte growth—physiological when IGF-driven, but its sustained pathological activation (with mTOR mapped) contributes to the maladaptive hypertrophy of heart failure.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — Oxidative stress overwhelms NRF2 antioxidant defenses in the failing myocardium, contributing to the cardiomyocyte injury and adverse remodeling of heart failure.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Caspase-3-mediated apoptosis of cardiomyocytes progressively depletes contractile units, a cell-death mechanism driving the decline of the failing heart.
 
 ## Pathology
 
