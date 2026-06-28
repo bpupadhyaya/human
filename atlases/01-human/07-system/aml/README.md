@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/pik3ca
     relation: connects-to
     note: "PI3K survival axis: PI3K-AKT-mTOR signalling (AKT already mapped) is constitutively activated in AML and supports blast survival and chemoresistance, a targetable dependency."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "mTOR effector: mTOR is the growth-controlling output of the PI3K-AKT axis (PIK3CA and AKT mapped) constitutively activated downstream of FLT3 in AML, sustaining blast metabolism and survival."
+  - target: 01-human/03-molecular/jak2
+    relation: connects-to
+    note: "JAK-STAT survival: FLT3 and KIT (both mapped) signal through JAK2-STAT5, a survival and proliferation pathway driving AML blasts and a mechanism of resistance to FLT3 inhibitors."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Cell-cycle drive: the cyclin-D-CDK4/6 axis (CDK4/6 mapped) releases E2F1 to drive the proliferation of AML blasts."
 ---
 
 # AML
@@ -534,6 +543,9 @@ AML requires cooperative mutations in at least 2 functional categories (Gillilan
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — FLT3-ITD and RAS mutations in AML signal through the MAPK cascade to ERK1/2, driving blast expansion and acting as a route of resistance to FLT3 inhibitors.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — AML blasts evade caspase-3 apoptosis through high anti-apoptotic BCL-2 (already mapped), the dependency the BCL-2 inhibitor venetoclax exploits to restore blast-cell death.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K-AKT-mTOR signaling (AKT already mapped) is constitutively activated in AML and supports blast survival and chemoresistance, a targetable dependency.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR is the growth-controlling output of the PI3K-AKT axis (PIK3CA and AKT mapped) constitutively activated downstream of FLT3 in AML, sustaining blast metabolism and survival.
+- `connects-to` → **[JAK2](../../03-molecular/jak2/README.md)** — FLT3 and KIT (both mapped) signal through JAK2-STAT5, a survival and proliferation pathway driving AML blasts and a mechanism of resistance to FLT3 inhibitors.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — The cyclin-D-CDK4/6 axis (CDK4/6 mapped) releases E2F1 to drive the proliferation of AML blasts.
 
 [^dinardo-2020-viale-a]: DiNardo CD, Jonas BA, Pullarkat V, et al. Azacitidine and venetoclax in previously untreated acute myeloid leukemia. *N Engl J Med.* 2020;383(7):617-629. [doi:10.1056/NEJMoa2012971](https://doi.org/10.1056/NEJMoa2012971) · [PubMed 32786187](https://pubmed.ncbi.nlm.nih.gov/32786187/)
 [^stone-2017-midostaurin]: Stone RM, Mandrekar SJ, Sanford BL, et al. Midostaurin plus chemotherapy for acute myeloid leukemia with a FLT3 mutation. *N Engl J Med.* 2017;377(5):454-464. [doi:10.1056/NEJMoa1614359](https://doi.org/10.1056/NEJMoa1614359) · [PubMed 28644114](https://pubmed.ncbi.nlm.nih.gov/28644114/)

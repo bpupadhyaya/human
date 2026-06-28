@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/il-12
     relation: connects-to
     note: "IL-12/23 axis: IL-12 shares its p40 subunit with the IL-23 already mapped, and this type-3-skewing IL-12/23 axis underlies the immune response targeting the entheses in ankylosing spondylitis."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Gut-joint innate signalling: TLR signalling (TLR4 mapped) through MyD88 to NF-κB (mapped), driven by the dysbiotic gut in the gut-joint axis, helps initiate the inflammation of ankylosing spondylitis."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "Entheseal neuro-immunity: sensory CGRP at entheses links neurogenic signalling to the enthesitis and new-bone formation (syndesmophytes) that characterise ankylosing spondylitis."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Regulatory balance: a relative shortfall of anti-inflammatory IL-10 against the dominant IL-23/IL-17 axis (mapped) contributes to the persistent spinal and entheseal inflammation of ankylosing spondylitis."
 ---
 
 # Ankylosing Spondylitis
@@ -532,6 +541,9 @@ AS originates at the **enthesis** — the site where tendons, ligaments, and joi
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — FGF/FGFR signaling drives the pathological osteoblast activity that builds the syndesmophytes bridging and fusing the vertebrae, the defining new-bone phenotype of ankylosing spondylitis.
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — PDGF activates entheseal fibroblasts and the angiogenesis that accompanies the enthesitis of ankylosing spondylitis, contributing to the inflamed, vascularized insertion sites.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — IL-12 shares its p40 subunit with the IL-23 already mapped, and this type-3-skewing IL-12/23 axis underlies the immune response targeting the entheses in ankylosing spondylitis.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR signaling (TLR4 mapped) through MyD88 to NF-κB (mapped), driven by the dysbiotic gut in the gut-joint axis, helps initiate the inflammation of ankylosing spondylitis.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Sensory CGRP at entheses links neurogenic signaling to the enthesitis and new-bone formation (syndesmophytes) that characterize ankylosing spondylitis.
+- `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — A relative shortfall of anti-inflammatory IL-10 against the dominant IL-23/IL-17 axis (mapped) contributes to the persistent spinal and entheseal inflammation of ankylosing spondylitis.
 
 [^sieper-2015-ankylosing-spondylitis-review]: Sieper J, Poddubnyy D. Ankylosing spondylitis. *Lancet.* 2017;390(10089):73-84. [doi:10.1016/S0140-6736(16)31591-4](https://doi.org/10.1016/S0140-6736(16)31591-4) · [PubMed 28110981](https://pubmed.ncbi.nlm.nih.gov/28110981/)
 [^baeten-2015-secukinumab-as]: Baeten D, Sieper J, Braun J, et al. Secukinumab, an Interleukin-17A Inhibitor, in Ankylosing Spondylitis. *N Engl J Med.* 2015;373(26):2534-2548. [doi:10.1056/NEJMoa1505066](https://doi.org/10.1056/NEJMoa1505066) · [PubMed 26699169](https://pubmed.ncbi.nlm.nih.gov/26699169/)
