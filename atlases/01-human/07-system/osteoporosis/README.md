@@ -316,6 +316,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Adipokine regulation: adipose-derived adiponectin influences bone remodelling, part of the fat-bone endocrine crosstalk — alongside leptin — through which body composition and energy balance shape bone density and fracture risk."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Remodelling balance: NOTCH signalling regulates the differentiation balance of osteoblasts and osteoclasts from their progenitors, tuning the bone-remodelling equilibrium whose disruption produces osteoporosis."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Angiogenesis-osteogenesis coupling: HIF-driven coupling of blood-vessel formation to bone formation (VEGF already mapped) declines with age, contributing to the impaired bone formation of osteoporosis."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Oxidative bone loss: oxidative stress promotes osteoclast activity and osteoblast/osteocyte apoptosis, and a declining NRF2 antioxidant defence with ageing tips the balance toward the bone loss of osteoporosis."
 ---
 
 # Osteoporosis
@@ -523,6 +532,9 @@ All newly diagnosed osteoporosis should be evaluated for secondary causes: CBC (
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium stored as hydroxyapatite gives bone its strength, and inadequate calcium and vitamin D—or its withdrawal from bone to maintain serum levels—undermines bone mineral density, the foundation of calcium-and-vitamin-D therapy in osteoporosis.
 - `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — The muscle-derived growth inhibitor myostatin restrains both muscle and bone mass, and the sarcopenia of aging closely tracks osteoporosis, the basis for myostatin inhibition being explored to treat the combined loss of muscle and bone.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipose-derived adiponectin influences bone remodeling, part of the fat-bone endocrine crosstalk—alongside leptin—through which body composition and energy balance shape bone density and fracture risk.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH signaling regulates the differentiation balance of osteoblasts and osteoclasts from their progenitors, tuning the bone-remodeling equilibrium whose disruption produces osteoporosis.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-driven coupling of blood-vessel formation to bone formation (VEGF already mapped) declines with age, contributing to the impaired bone formation of osteoporosis.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — Oxidative stress promotes osteoclast activity and osteoblast/osteocyte apoptosis, and a declining NRF2 antioxidant defense with aging tips the balance toward the bone loss of osteoporosis.
 
 [^kanis-2019-who-osteoporosis]: Kanis JA, Cooper C, Rizzoli R, Reginster JY. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. *Osteoporos Int.* 2019;30(1):3-44. [doi:10.1007/s00198-018-4704-5](https://doi.org/10.1007/s00198-018-4704-5) · [PubMed 30324412](https://pubmed.ncbi.nlm.nih.gov/30324412/)
 [^cosman-2016-romosozumab]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)

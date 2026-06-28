@@ -310,6 +310,15 @@ cross_links:
   - target: 01-human/03-molecular/prostaglandins
     relation: connects-to
     note: "Pruritogenic eicosanoids: prostaglandins released in inflamed skin sensitise sensory nerve endings and lower the itch threshold, an eicosanoid contributor to the relentless pruritus that drives the scratching behind prurigo nodularis."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Lost regulation: regulatory IL-10 restrains the type-2 and Th17 itch-inflammation (IL-4/IL-13/IL-31 already mapped), and its relative deficiency permits the chronic immune activation sustaining prurigo nodularis."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Cutaneous inflammasome: NLRP3-inflammasome activation and IL-1β in the chronically scratched, lichenified skin amplify the inflammation that perpetuates the itch-scratch cycle of prurigo nodularis."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "T-cell expansion: IL-2-driven T-cell expansion sustains the dense dermal T-cell infiltrate of prurigo-nodularis lesions, part of the adaptive immune component of the disease."
 ---
 
 # Prurigo Nodularis
@@ -490,6 +499,9 @@ PN affects approximately **72,000 patients** in the US; true prevalence is likel
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — TGF-β drives the dermal fibroblast activation and collagen deposition that build the firm, hyperkeratotic nodules of prurigo nodularis, the fibrotic remodeling that distinguishes its lesions from ordinary eczema.
 - `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — Glutamatergic transmission in the spinal dorsal horn relays and amplifies itch, and central sensitization of these pathways helps explain the intractable, self-perpetuating itch-scratch cycle of prurigo nodularis.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Prostaglandins released in inflamed skin sensitize sensory nerve endings and lower the itch threshold, an eicosanoid contributor to the relentless pruritus that drives the scratching behind prurigo nodularis.
+- `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — Regulatory IL-10 restrains the type-2 and Th17 itch-inflammation (IL-4/IL-13/IL-31 already mapped), and its relative deficiency permits the chronic immune activation sustaining prurigo nodularis.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — NLRP3-inflammasome activation and IL-1β in the chronically scratched, lichenified skin amplify the inflammation that perpetuates the itch-scratch cycle of prurigo nodularis.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — IL-2-driven T-cell expansion sustains the dense dermal T-cell infiltrate of prurigo-nodularis lesions, part of the adaptive immune component of the disease.
 
 [^stander-2020-nemolizumab-pn]: Ständer S, Yosipovitch G, Legat FJ, et al. Trial of nemolizumab in moderate-to-severe prurigo nodularis. *N Engl J Med.* 2020;382(8):706-716. [doi:10.1056/NEJMoa1908316](https://doi.org/10.1056/NEJMoa1908316) · [PubMed 32053299](https://pubmed.ncbi.nlm.nih.gov/32053299/)
 [^briggs-2022-dupilumab-pn-liberty]: Briggs JN, Cho YY, Khanna R, et al. Dupilumab for prurigo nodularis: the LIBERTY-PN PRIME and PRIME2 trials. *N Engl J Med.* 2022;387(18):1683-1693. [doi:10.1056/NEJMoa2205093](https://doi.org/10.1056/NEJMoa2205093) · [PubMed 36300905](https://pubmed.ncbi.nlm.nih.gov/36300905/)
