@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/tlr4
     relation: connects-to
     note: "Innate priming: PF4-heparin immune complexes engage innate receptors including TLR4 on monocytes, driving the tissue-factor expression and inflammatory state that couples the immune response to the thrombin generation behind HIT thrombosis."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Ischaemic sequelae: the limb- and organ-threatening arterial and venous thromboses of HIT cause tissue hypoxia that drives HIF-1α responses, the basis of the gangrene and infarction that make HIT thrombosis so dangerous."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Prothrombotic inflammation: the systemic inflammatory milieu of HIT includes IL-6, which amplifies the hypercoagulable, platelet- and endothelial-activating state underlying its paradoxical thrombosis despite falling platelet counts."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Procoagulant platelets: FcγRIIa-driven platelet activation in HIT triggers caspase-dependent procoagulant membrane changes and microparticle shedding, expanding the catalytic surface that accelerates thrombin generation."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -555,6 +564,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Activated neutrophils releasing S100A8/A9 and extracellular traps (NETs) scaffold and amplify the immunothrombosis of HIT, adding an innate-immune amplifier to the platelet-driven clotting that makes the syndrome so prothrombotic.
 - `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — BAFF-supported B cells generate the anti-PF4/heparin IgG that drives HIT, an unusually rapid and transient antibody response without lasting memory, explaining why the antibodies wane and re-exposure can sometimes be tolerated.
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — PF4-heparin immune complexes engage innate receptors including TLR4 on monocytes, driving the tissue-factor expression and inflammatory state that couples the immune response to the thrombin generation behind HIT thrombosis.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — The limb- and organ-threatening arterial and venous thromboses of HIT cause tissue hypoxia that drives HIF-1α responses, the basis of the gangrene and infarction that make HIT thrombosis so dangerous.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — The systemic inflammatory milieu of HIT includes IL-6, which amplifies the hypercoagulable, platelet- and endothelial-activating state underlying its paradoxical thrombosis despite falling platelet counts.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — FcγRIIa-driven platelet activation in HIT triggers caspase-dependent procoagulant membrane changes and microparticle shedding, expanding the catalytic surface that accelerates thrombin generation.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)

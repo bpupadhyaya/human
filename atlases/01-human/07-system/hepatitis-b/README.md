@@ -309,6 +309,15 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "T-cell exhaustion: chronic HBV induces IL-10 and an exhausted, PD-1-high T-cell state that fails to clear the virus, the immunological tolerance underlying lifelong persistence and a target for immune-restoring functional-cure strategies."
+  - target: 01-human/03-molecular/mavs
+    relation: connects-to
+    note: "Interferon evasion: the HBV polymerase cleaves the antiviral adaptor MAVS to disrupt RIG-I signalling (RIG-I already mapped) and suppress the type-I interferon response, a key immune-evasion strategy enabling chronic infection."
+  - target: 01-human/03-molecular/irf3
+    relation: connects-to
+    note: "Blocked IFN induction: HBV proteins block IRF3 activation to dampen interferon induction, contributing to the muted innate response and the establishment of chronic hepatitis B."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Inflammatory injury: chronic HBV drives hepatic NLRP3-inflammasome activation and IL-1β release, part of the immune-mediated liver injury that progresses to fibrosis and cirrhosis."
 ---
 
 # Hepatitis B
@@ -541,3 +550,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — HBV-driven cirrhosis and viral integration produce one of the world's leading causes of HCC, an intensely vascular tumor whose VEGF-driven angiogenesis is the target of bevacizumab and the multikinase inhibitors used against it.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — HBV is largely non-cytopathic, so the liver damage comes from cytotoxic T cells driving caspase-3-mediated apoptosis of infected hepatocytes—the immune attack, not the virus itself, that causes the hepatitis and fibrosis.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Chronic HBV induces IL-10 and an exhausted, PD-1-high T-cell state that fails to clear the virus, the immunological tolerance underlying lifelong persistence and a target for immune-restoring functional-cure strategies.
+- `connects-to` → **[MAVS](../../03-molecular/mavs/README.md)** — The HBV polymerase cleaves the antiviral adaptor MAVS to disrupt RIG-I signaling (RIG-I already mapped) and suppress the type-I interferon response, a key immune-evasion strategy enabling chronic infection.
+- `connects-to` → **[IRF3](../../03-molecular/irf3/README.md)** — HBV proteins block IRF3 activation to dampen interferon induction, contributing to the muted innate response and the establishment of chronic hepatitis B.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Chronic HBV drives hepatic NLRP3-inflammasome activation and IL-1β release, part of the immune-mediated liver injury that progresses to fibrosis and cirrhosis.
