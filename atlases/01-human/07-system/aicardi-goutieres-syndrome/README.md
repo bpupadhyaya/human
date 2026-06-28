@@ -321,6 +321,15 @@ cross_links:
   - target: 01-human/03-molecular/glutamate
     relation: connects-to
     note: "Excitotoxic injury: excitotoxic glutamate signalling contributes to the neuronal injury and seizures of Aicardi-Goutières syndrome, compounding the interferon-driven neurodegeneration of the developing brain."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Neuronal apoptosis: type-I-interferon-driven apoptosis of neurons and glia (caspase-3 mapped), set against anti-apoptotic BCL-2, contributes to the progressive encephalopathy of Aicardi-Goutières syndrome."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "TLR nucleic-acid sensing: endosomal TLRs sensing the accumulated nucleic acids of AGS signal through MyD88 to NF-κB (mapped), adding to the cGAS-STING/RIG-I-driven interferon response (both mapped)."
+  - target: 01-human/03-molecular/endothelin-1
+    relation: connects-to
+    note: "Interferon vasculopathy: the type-I-interferon vasculopathy of AGS — chilblains and cerebral small-vessel disease with calcification — involves endothelial dysfunction with dysregulated endothelin signalling."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -516,6 +525,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR restrains the autophagy (already mapped) that clears endogenous nucleic acids, and insufficient clearance in Aicardi-Goutières lets self-DNA/RNA accumulate and feed the cytosolic sensors driving the interferon response.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Alongside the STAT1 already mapped, JAK-STAT3 signaling transmits the chronic type-I interferon stimulus of Aicardi-Goutières syndrome, part of the axis blocked therapeutically by JAK inhibitors.
 - `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — Excitotoxic glutamate signaling contributes to the neuronal injury and seizures of Aicardi-Goutières syndrome, compounding the interferon-driven neurodegeneration of the developing brain.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Type-I-interferon-driven apoptosis of neurons and glia (caspase-3 mapped), set against anti-apoptotic BCL-2, contributes to the progressive encephalopathy of Aicardi-Goutières syndrome.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Endosomal TLRs sensing the accumulated nucleic acids of AGS signal through MyD88 to NF-κB (mapped), adding to the cGAS-STING/RIG-I-driven interferon response (both mapped).
+- `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — The type-I-interferon vasculopathy of AGS—chilblains and cerebral small-vessel disease with calcification—involves endothelial dysfunction with dysregulated endothelin signaling.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
