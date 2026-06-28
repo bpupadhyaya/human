@@ -328,6 +328,15 @@ cross_links:
   - target: 01-human/03-molecular/glucocorticoid-receptor
     relation: connects-to
     note: "HPA dysregulation: altered glucocorticoid-receptor feedback (cortisol already mapped) is a consistent finding in bipolar disorder, linking HPA-axis stress physiology to the onset of mood episodes."
+  - target: 01-human/03-molecular/crh
+    relation: connects-to
+    note: "Stress trigger: heightened CRH-driven HPA activity (cortisol and the glucocorticoid receptor mapped) precedes and precipitates mood episodes in bipolar disorder."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "Lithium signalling node: PI3K-AKT-GSK3β-mTOR signalling (AKT, GSK-3β and mTOR mapped) is the intracellular cascade through which lithium and neurotrophins modulate the neuroplasticity disrupted in bipolar disorder."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Neuroinflammation: TLR-MyD88 signalling contributes to the low-grade neuroinflammation (IL-1β, IL-6 and TNF mapped) increasingly linked to the mood episodes of bipolar disorder."
 ---
 
 # Bipolar Disorder
@@ -561,6 +570,9 @@ During bipolar depression (often longer and more disabling than mania):
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — The AKT-GSK3β pathway (GSK3β already mapped, the lithium target) is central to the mood-stabilizing and neuroprotective signaling whose dysregulation is implicated in bipolar disorder.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Neurotrophin-driven ERK-MAPK signaling, enhanced by lithium and valproate, supports the neuroplasticity and neuroprotection whose deficit is implicated in bipolar disorder.
 - `connects-to` → **[Glucocorticoid Receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Altered glucocorticoid-receptor feedback (cortisol already mapped) is a consistent finding in bipolar disorder, linking HPA-axis stress physiology to the onset of mood episodes.
+- `connects-to` → **[CRH](../../03-molecular/crh/README.md)** — Heightened CRH-driven HPA activity (cortisol and the glucocorticoid receptor mapped) precedes and precipitates mood episodes in bipolar disorder.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K-AKT-GSK3β-mTOR signaling (AKT, GSK-3β and mTOR mapped) is the intracellular cascade through which lithium and neurotrophins modulate the neuroplasticity disrupted in bipolar disorder.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88 signaling contributes to the low-grade neuroinflammation (IL-1β, IL-6 and TNF mapped) increasingly linked to the mood episodes of bipolar disorder.
 
 [^grande-2016-bipolar-review]: Grande I, Berk M, Birmaher B, Vieta E. Bipolar disorder. *Lancet.* 2016;387(10027):1561-1572. [doi:10.1016/S0140-6736(15)00241-X](https://doi.org/10.1016/S0140-6736(15)00241-X) · [PubMed 26388529](https://pubmed.ncbi.nlm.nih.gov/26388529/)
 [^geddes-2013-bipolar-treatment]: Geddes JR, Miklowitz DJ. Treatment of bipolar disorder. *Lancet.* 2013;381(9878):1672-1682. [doi:10.1016/S0140-6736(13)60857-0](https://doi.org/10.1016/S0140-6736(13)60857-0) · [PubMed 23663953](https://pubmed.ncbi.nlm.nih.gov/23663953/)

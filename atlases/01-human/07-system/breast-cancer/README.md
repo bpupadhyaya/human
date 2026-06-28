@@ -325,6 +325,15 @@ cross_links:
   - target: 01-human/03-molecular/erk1-2
     relation: connects-to
     note: "Endocrine-resistance crosstalk: RAS-MAPK-ERK signalling crosstalks with estrogen-receptor signalling and is a route of acquired resistance to endocrine therapy in breast cancer."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Growth-factor resistance: IGF-1R signalling crosstalks with the estrogen receptor and HER2 (both mapped), driving acquired resistance to endocrine and HER2-targeted therapy in breast cancer."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Cancer stem cells: Wnt/β-catenin signalling sustains the breast-cancer stem-cell compartment and is especially active in triple-negative breast cancer, contributing to recurrence."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "p53 inactivation: MDM2 amplification suppresses p53 (mapped), an alternative to outright TP53 mutation that disables the apoptotic checkpoint in breast cancer."
 ---
 
 # Breast Cancer
@@ -533,6 +542,9 @@ cross_links:
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss activates the PI3K-AKT-mTOR pathway (PIK3CA, AKT and mTOR already mapped) in breast cancer and is a major mechanism of resistance to endocrine and HER2-targeted therapy.
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — The cyclin-D-CDK4/6-RB-E2F axis (CDK4/6 and cyclin-D1 already mapped) drives proliferation in ER-positive breast cancer, the pathway whose blockade by CDK4/6 inhibitors transformed its treatment.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — RAS-MAPK-ERK signaling crosstalks with estrogen-receptor signaling and is a route of acquired resistance to endocrine therapy in breast cancer.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — IGF-1R signaling crosstalks with the estrogen receptor and HER2 (both mapped), driving acquired resistance to endocrine and HER2-targeted therapy in breast cancer.
+- `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Wnt/β-catenin signaling sustains the breast-cancer stem-cell compartment and is especially active in triple-negative breast cancer, contributing to recurrence.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2 amplification suppresses p53 (mapped), an alternative to outright TP53 mutation that disables the apoptotic checkpoint in breast cancer.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
