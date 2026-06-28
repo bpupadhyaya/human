@@ -294,6 +294,15 @@ cross_links:
   - target: 01-human/03-molecular/perforin
     relation: connects-to
     note: "Adaptive-immune pain: infiltrating CD8 T cells releasing perforin and granzyme contribute to the maintenance of neuropathic pain after nerve injury, a T-cell arm of neuroimmune sensitisation distinct from the better-known microglial component."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Resolution cytokine: anti-inflammatory IL-10 suppresses the glial pro-inflammatory cytokines (IL-1β, IL-6 and TNF-α already mapped) that sustain neuropathic pain, the rationale for IL-10-based pain-resolution strategies."
+  - target: 01-human/03-molecular/connexin43
+    relation: connects-to
+    note: "Astrocytic spread: astrocytic connexin-43 gap junctions and hemichannels propagate central sensitisation across the spinal dorsal horn, releasing ATP and glutamate (already mapped) that amplify and spread neuropathic pain."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Analgesic restraint: TGF-β exerts a neuroprotective, analgesic influence that restrains microglial activation in neuropathic pain, and its loss permits the neuroinflammation that maintains the chronic pain state."
 sources:
   - id: jensen-2011-neuropathic-pain-review
     type: peer-reviewed
@@ -549,6 +558,9 @@ Chronic neuropathic pain carries significant psychological burden:
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Oxytocinergic projections from the hypothalamic paraventricular nucleus to the spinal dorsal horn inhibit nociceptive transmission, an endogenous analgesic pathway being explored therapeutically for neuropathic pain.
 - `connects-to` → **[RAGE](../../03-molecular/rage/README.md)** — Advanced glycation end-products signaling through RAGE injure peripheral nerves and sensitize nociceptors, a central mechanism of the painful diabetic neuropathy that is among the commonest causes of neuropathic pain.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Infiltrating CD8 T cells releasing perforin and granzyme contribute to the maintenance of neuropathic pain after nerve injury, a T-cell arm of neuroimmune sensitization distinct from the better-known microglial component.
+- `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — Anti-inflammatory IL-10 suppresses the glial pro-inflammatory cytokines (IL-1β, IL-6 and TNF-α already mapped) that sustain neuropathic pain, the rationale for IL-10-based pain-resolution strategies.
+- `connects-to` → **[Connexin-43](../../03-molecular/connexin43/README.md)** — Astrocytic connexin-43 gap junctions and hemichannels propagate central sensitization across the spinal dorsal horn, releasing ATP and glutamate (already mapped) that amplify and spread neuropathic pain.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β exerts a neuroprotective, analgesic influence that restrains microglial activation in neuropathic pain, and its loss permits the neuroinflammation that maintains the chronic pain state.
 
 [^jensen-2011-neuropathic-pain-review]: Jensen TS, Baron R, Haanpää M, et al. A new definition of neuropathic pain. *Pain.* 2011;152(10):2204-2205. [doi:10.1016/j.pain.2011.06.017](https://doi.org/10.1016/j.pain.2011.06.017) · [PubMed 21764514](https://pubmed.ncbi.nlm.nih.gov/21764514/)
 [^dworkin-2010-neuropathic-pain-treatment]: Dworkin RH, O'Connor AB, Audette J, et al. Recommendations for the pharmacological management of neuropathic pain. *Mayo Clin Proc.* 2010;85(3 Suppl):S3-14. [doi:10.4065/mcp.2009.0649](https://doi.org/10.4065/mcp.2009.0649) · [PubMed 20194146](https://pubmed.ncbi.nlm.nih.gov/20194146/)

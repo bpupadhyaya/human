@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative and urate stress: xanthine-oxidase activity in the steatotic liver generates reactive oxygen species and the hyperuricaemia associated with NAFLD, both contributing to the lipotoxic, pro-inflammatory milieu that drives progression to NASH."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Selective insulin resistance: hepatic insulin signalling through AKT (insulin-receptor already mapped) becomes selectively impaired in MASH, so gluconeogenesis escapes suppression while lipogenesis persists — the paradox that fuels steatosis."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "Lipogenesis brake: the AMPK energy sensor (the target of the metformin already mapped, activated by adiponectin) restrains hepatic de-novo lipogenesis, and its relative inactivity in MASH permits the fat accumulation that initiates the disease."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Oxidative defence: lipotoxic reactive oxygen species in MASH engage the NRF2 antioxidant programme, and inadequate NRF2 defence allows the oxidative hepatocyte injury that drives the progression from steatosis to steatohepatitis."
 ---
 
 # NASH
@@ -500,6 +509,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — FGF21 acting through FGFR1c with β-Klotho improves hepatic fat handling and insulin sensitivity, the rationale for the FGF21-analogue drugs (efruxifermin, pegozafermin) that reduce liver fat and fibrosis in NASH trials.
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Many NASH patients accumulate hepatic iron with raised ferritin, and the hepcidin-controlled iron loading adds oxidative stress that aggravates lipotoxic injury and fibrosis, the basis for venesection trials in the disease.
 - `connects-to` → **[Xanthine Oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Xanthine-oxidase activity in the steatotic liver generates reactive oxygen species and the hyperuricemia associated with NAFLD, both contributing to the lipotoxic, pro-inflammatory milieu that drives progression to NASH.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Hepatic insulin signaling through AKT (insulin-receptor already mapped) becomes selectively impaired in MASH, so gluconeogenesis escapes suppression while lipogenesis persists—the paradox that fuels steatosis.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — The AMPK energy sensor (the target of the metformin already mapped, activated by adiponectin) restrains hepatic de-novo lipogenesis, and its relative inactivity in MASH permits the fat accumulation that initiates the disease.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — Lipotoxic reactive oxygen species in MASH engage the NRF2 antioxidant program, and inadequate NRF2 defense allows the oxidative hepatocyte injury that drives the progression from steatosis to steatohepatitis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
