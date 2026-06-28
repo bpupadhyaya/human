@@ -310,6 +310,15 @@ cross_links:
   - target: 01-human/03-molecular/von-willebrand-factor
     relation: connects-to
     note: "Endothelial dysfunction: the diseased pulmonary endothelium of PAH releases von Willebrand factor and supports the in-situ thrombosis of small pulmonary arteries, with raised vWF levels marking endothelial injury and adverse outcome."
+  - target: 01-human/03-molecular/epas1
+    relation: connects-to
+    note: "Hypoxic remodelling: HIF-2α/EPAS1 is a master driver of the pulmonary vascular remodelling of PAH and hypoxic pulmonary hypertension, and gain-of-function EPAS1 variants cause heritable pulmonary hypertension."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "BMP/TGF-β imbalance: BMPR2 and TGF-β signals converge on SMAD4, and the loss of BMP-SMAD signalling with preserved TGF-β-SMAD signalling drives the proliferative vasculopathy that sotatercept (rebalancing the activin-A arm already mapped) aims to correct."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "Plexiform proliferation: FGF2-FGFR signalling drives the endothelial and smooth-muscle-cell proliferation of the plexiform lesions of PAH, an angiogenic growth-factor axis acting alongside the PDGF and VEGF already mapped."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -530,6 +539,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[SERCA2a](../../03-molecular/serca2a/README.md)** — As the pressure-loaded right ventricle decompensates in PAH, SERCA2a is downregulated and calcium reuptake fails, impairing RV contractility and relaxation—the maladaptive remodeling that ultimately determines survival in the disease.
 - `connects-to` → **[Xanthine Oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Xanthine oxidase activity is raised in PAH, generating reactive oxygen species and the hyperuricemia whose serum urate level correlates with pulmonary hemodynamic severity and prognosis.
 - `connects-to` → **[von Willebrand Factor](../../03-molecular/von-willebrand-factor/README.md)** — The diseased pulmonary endothelium of PAH releases von Willebrand factor and supports the in-situ thrombosis of small pulmonary arteries, with raised vWF levels marking endothelial injury and adverse outcome.
+- `connects-to` → **[EPAS1](../../03-molecular/epas1/README.md)** — HIF-2α/EPAS1 is a master driver of the pulmonary vascular remodeling of PAH and hypoxic pulmonary hypertension, and gain-of-function EPAS1 variants cause heritable pulmonary hypertension.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — BMPR2 and TGF-β signals converge on SMAD4, and the loss of BMP-SMAD signaling with preserved TGF-β-SMAD signaling drives the proliferative vasculopathy that sotatercept (rebalancing the activin-A arm already mapped) aims to correct.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — FGF2-FGFR signaling drives the endothelial and smooth-muscle-cell proliferation of the plexiform lesions of PAH, an angiogenic growth-factor axis acting alongside the PDGF and VEGF already mapped.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/perforin
     relation: connects-to
     note: "Cytotoxic cell of origin: a subset of peripheral T-cell lymphomas derive from cytotoxic T or NK cells and express perforin and granzyme, the cytotoxic-molecule phenotype that defines extranodal NK/T-cell and hepatosplenic lymphomas with their aggressive course."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "Transformation driver: MYC deregulation drives the aggressive behaviour and large-cell transformation of peripheral T-cell lymphomas, cooperating with the epigenetic TET2/DNMT3A/IDH2 lesions already mapped to accelerate disease."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "Angioimmunoblastic vasculature: AITL, the commonest Tfh-derived PTCL, shows prominent arborizing high-endothelial venules, and PDGF angiogenic signalling helps build this vascular, follicular-dendritic-cell-rich microenvironment alongside the VEGF already mapped."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immune dysregulation: the Tfh tumour and microenvironment of angioimmunoblastic T-cell lymphoma secrete immunosuppressive IL-10, contributing to the autoimmunity, hypergammaglobulinaemia and infection susceptibility characteristic of the disease."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -544,6 +553,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Peripheral T-cell lymphomas frequently depend on PI3K signaling, the rationale for the dual PI3K-δ/γ inhibitor duvelisib, which targets both the malignant T cells and the supportive tumor-microenvironment cells.
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Anti-apoptotic BCL-2-family proteins help PTCL cells evade the death program, underlying the chemoresistance of these aggressive lymphomas and motivating BH3-mimetic combinations under study.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — A subset of peripheral T-cell lymphomas derive from cytotoxic T or NK cells and express perforin and granzyme, the cytotoxic-molecule phenotype that defines extranodal NK/T-cell and hepatosplenic lymphomas with their aggressive course.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — MYC deregulation drives the aggressive behavior and large-cell transformation of peripheral T-cell lymphomas, cooperating with the epigenetic TET2/DNMT3A/IDH2 lesions already mapped to accelerate disease.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — AITL, the commonest Tfh-derived PTCL, shows prominent arborizing high-endothelial venules, and PDGF angiogenic signaling helps build this vascular, follicular-dendritic-cell-rich microenvironment alongside the VEGF already mapped.
+- `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — The Tfh tumor and microenvironment of angioimmunoblastic T-cell lymphoma secrete immunosuppressive IL-10, contributing to the autoimmunity, hypergammaglobulinemia and infection susceptibility characteristic of the disease.
 
 ---
 
