@@ -310,6 +310,15 @@ cross_links:
   - target: 01-human/03-molecular/il-33
     relation: connects-to
     note: "Profibrotic alarmin: IL-33 released from damaged endothelium and epithelium in systemic sclerosis activates type-2 innate lymphoid cells and amplifies the IL-13/IL-4 axis, driving the Th2-skewed fibrotic response in skin and lung."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD fibrosis: TGF-β signals through the SMAD pathway (common mediator SMAD4) to drive the fibroblast activation and excess collagen deposition central to systemic sclerosis, the core fibrotic mechanism of the disease."
+  - target: 01-human/03-molecular/pf4
+    relation: connects-to
+    note: "CXCL4 biomarker: CXCL4/platelet factor 4, released by plasmacytoid dendritic cells, is a leading systemic-sclerosis biomarker that drives the type-I interferon response and fibrosis, linking platelet and innate-immune activation to the disease."
+  - target: 01-human/03-molecular/baff
+    relation: connects-to
+    note: "B-cell activation: BAFF-driven B-cell survival and autoantibody production contribute to systemic sclerosis, the rationale for the B-cell-depleting therapy (rituximab against the CD20 already mapped) used in skin and lung disease."
 ---
 
 # Systemic Sclerosis
@@ -521,6 +530,9 @@ Identical to IPAH: medial hypertrophy, intimal fibrosis, concentric laminar inti
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Periostin is upregulated in the skin and lung of systemic sclerosis, where this matricellular protein crosslinks collagen and amplifies TGF-β-driven fibroblast activation, and serum periostin tracks the extent of fibrosis.
 - `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — An imbalance of angiopoietin-Tie2 signaling destabilizes the microvasculature of systemic sclerosis, contributing to the capillary loss, digital ulcers and pulmonary arterial hypertension that mark its obliterative vasculopathy.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 released from damaged endothelium and epithelium in systemic sclerosis activates type-2 innate lymphoid cells and amplifies the IL-13/IL-4 axis, driving the Th2-skewed fibrotic response in skin and lung.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β signals through the SMAD pathway (common mediator SMAD4) to drive the fibroblast activation and excess collagen deposition central to systemic sclerosis, the core fibrotic mechanism of the disease.
+- `connects-to` → **[PF4](../../03-molecular/pf4/README.md)** — CXCL4/platelet factor 4, released by plasmacytoid dendritic cells, is a leading systemic-sclerosis biomarker that drives the type-I interferon response and fibrosis, linking platelet and innate-immune activation to the disease.
+- `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — BAFF-driven B-cell survival and autoantibody production contribute to systemic sclerosis, the rationale for the B-cell-depleting therapy (rituximab against the CD20 already mapped) used in skin and lung disease.
 
 [^denton-2017-ssc-review]: Denton CP, Khanna D. Systemic sclerosis. *Lancet.* 2017;390(10103):1685-1699. [doi:10.1016/S0140-6736(17)30933-9](https://doi.org/10.1016/S0140-6736(17)30933-9) · [PubMed 28413064](https://pubmed.ncbi.nlm.nih.gov/28413064/)
 [^distler-2019-nintedanib-senscis]: Distler O, Highland KB, Gahlemann M, et al. Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease. *N Engl J Med.* 2019;380(26):2518-2528. [doi:10.1056/NEJMoa1903076](https://doi.org/10.1056/NEJMoa1903076) · [PubMed 31112379](https://pubmed.ncbi.nlm.nih.gov/31112379/)

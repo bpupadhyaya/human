@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/caspase-3
     relation: connects-to
     note: "Chemotherapy apoptosis: synovial sarcoma is one of the more chemosensitive soft-tissue sarcomas, and doxorubicin and ifosfamide kill its cells through caspase-3-mediated apoptosis, the cytotoxic backbone of treatment alongside surgery."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K survival axis: PI3K-AKT-mTOR signalling (AKT and mTOR already mapped) is activated in synovial sarcoma and supports growth and survival, a targetable dependency downstream of its receptor tyrosine kinases."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Cell-cycle drive: deregulated RB-E2F1 transcription powers the proliferation of synovial sarcoma, cooperating with the CDK4/6-cyclin-D and CDKN2A lesions already mapped."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "Invasive signalling: SRC-family kinase activity promotes the proliferation and invasive migration of synovial sarcoma cells, relayed from the MET, FGFR and EGFR receptor tyrosine kinases already mapped."
 ---
 
 # Synovial Sarcoma
@@ -525,6 +534,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDKN2A loss is common in synovial sarcoma, releasing CDK4/6-cyclin-D to drive the cell cycle and providing a rationale for CDK4/6 inhibitors in tumors that have deleted their p16 brake.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 recruits tumor-associated macrophages into synovial sarcoma, building a myeloid-rich immunosuppressive microenvironment that helps explain the limited efficacy of checkpoint blockade despite the tumor's NY-ESO-1 antigen.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Synovial sarcoma is one of the more chemosensitive soft-tissue sarcomas, and doxorubicin and ifosfamide kill its cells through caspase-3-mediated apoptosis, the cytotoxic backbone of treatment alongside surgery.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K-AKT-mTOR signaling (AKT and mTOR already mapped) is activated in synovial sarcoma and supports growth and survival, a targetable dependency downstream of its receptor tyrosine kinases.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — Deregulated RB-E2F1 transcription powers the proliferation of synovial sarcoma, cooperating with the CDK4/6-cyclin-D and CDKN2A lesions already mapped.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase activity promotes the proliferation and invasive migration of synovial sarcoma cells, relayed from the MET, FGFR and EGFR receptor tyrosine kinases already mapped.
 
 ---
 
