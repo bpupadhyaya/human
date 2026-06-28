@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/mdm2
     relation: connects-to
     note: "p53 restraint: Ewing sarcoma usually retains wild-type TP53 held in check by MDM2, so MDM2 inhibitors that reactivate p53 are a strategy to restore apoptosis in this genomically quiet, fusion-driven tumour."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "IGF-PI3K axis: IGF-1R signalling (IGF-1 already mapped) drives PI3K in Ewing sarcoma, feeding the AKT-mTOR pathway (both mapped) that sustains the growth of this fusion-driven tumour."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "Cell-cycle target: the cyclin-D-CDK4/6 axis (cyclin-D1 mapped, with CDKN2A loss in a subset) drives proliferation in Ewing sarcoma, making CDK4/6 inhibition an active area of clinical investigation."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Proliferative output: EWS-FLI1 and the CDK4/6-cyclin-D1 axis converge to release E2F1 from RB control, driving the cell-cycle entry that powers Ewing sarcoma growth."
 ---
 
 # Ewing Sarcoma
@@ -534,6 +543,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Ewing sarcoma expresses GD2 and other surface antigens, and GD2-directed CAR-T and other cellular therapies aim to kill the tumor through perforin and granzyme, an emerging approach against this immunologically cold sarcoma.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — The EWS-FLI1 fusion acts as a neomorphic transcription factor at GGAA microsatellites, reshaping the chromatin and DNA-methylation landscape—an epigenetic dependency that makes Ewing sarcoma a target for epigenetic therapy.
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — Ewing sarcoma usually retains wild-type TP53 held in check by MDM2, so MDM2 inhibitors that reactivate p53 are a strategy to restore apoptosis in this genomically quiet, fusion-driven tumor.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — IGF-1R signaling (IGF-1 already mapped) drives PI3K in Ewing sarcoma, feeding the AKT-mTOR pathway (both mapped) that sustains the growth of this fusion-driven tumor.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — The cyclin-D-CDK4/6 axis (cyclin-D1 mapped, with CDKN2A loss in a subset) drives proliferation in Ewing sarcoma, making CDK4/6 inhibition an active area of clinical investigation.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — EWS-FLI1 and the CDK4/6-cyclin-D1 axis converge to release E2F1 from RB control, driving the cell-cycle entry that powers Ewing sarcoma growth.
 
 ---
 

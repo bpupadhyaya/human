@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/fgfr
     relation: connects-to
     note: "Desmoid signalling: FAP patients develop desmoid tumours, especially after abdominal surgery, in which FGFR and Wnt signalling drive the myofibroblast proliferation, a leading cause of FAP morbidity after the colon is removed."
+  - target: 01-human/03-molecular/egfr
+    relation: connects-to
+    note: "Adenoma growth: EGFR signalling drives the proliferation of colorectal adenomas and carcinomas in the FAP adenoma-carcinoma sequence, an upstream receptor input feeding the RAS-MAPK axis and a target of anti-EGFR therapy in metastatic disease."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "MAPK progression: once a KRAS mutation is acquired (KRAS already mapped), the MAPK-ERK cascade drives the progression of FAP adenomas toward invasive carcinoma."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K cooperation: PIK3CA mutations activating PI3K-AKT-mTOR (AKT and mTOR already mapped) are a cooperating late event in the malignant progression of FAP colorectal adenomas."
 ---
 
 # Familial Adenomatous Polyposis
@@ -551,6 +560,9 @@ With modern surveillance and prophylactic colectomy: FAP is no longer an inevita
 - `connects-to` → **[MUTYH](../../03-molecular/mutyh/README.md)** — FAP (dominant APC loss) must be distinguished from MUTYH-associated polyposis, a recessive base-excision-repair defect that produces a similar but usually milder adenomatous polyposis, a key distinction for genetic counseling and family screening.
 - `connects-to` → **[MLH1](../../03-molecular/mlh1/README.md)** — FAP and Lynch syndrome (MLH1 and other mismatch-repair genes) are the two major hereditary colorectal-cancer syndromes, distinguished by FAP's florid adenomatous polyposis versus Lynch's few polyps but high per-polyp cancer risk.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — FAP patients develop desmoid tumors, especially after abdominal surgery, in which FGFR and Wnt signaling drive the myofibroblast proliferation, a leading cause of FAP morbidity after the colon is removed.
+- `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — EGFR signaling drives the proliferation of colorectal adenomas and carcinomas in the FAP adenoma-carcinoma sequence, an upstream receptor input feeding the RAS-MAPK axis and a target of anti-EGFR therapy in metastatic disease.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Once a KRAS mutation is acquired (KRAS already mapped), the MAPK-ERK cascade drives the progression of FAP adenomas toward invasive carcinoma.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PIK3CA mutations activating PI3K-AKT-mTOR (AKT and mTOR already mapped) are a cooperating late event in the malignant progression of FAP colorectal adenomas.
 
 [^kinzler-1991-apc]: Kinzler KW, Nilbert MC, Su LK, et al. Identification of FAP locus genes from chromosome 5q21. *Science.* 1991;253(5020):661-665. [doi:10.1126/science.1651562](https://doi.org/10.1126/science.1651562) · [PubMed 1651562](https://pubmed.ncbi.nlm.nih.gov/1651562/)
 [^fearon-1990-vogelstein]: Fearon ER, Vogelstein B. A genetic model for colorectal tumorigenesis. *Cell.* 1990;61(5):759-767. [doi:10.1016/0092-8674(90)90186-i](https://doi.org/10.1016/0092-8674(90)90186-i) · [PubMed 2188735](https://pubmed.ncbi.nlm.nih.gov/2188735/)
