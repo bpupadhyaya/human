@@ -325,6 +325,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Post-ischaemic inflammation: complement activation after stroke contributes to the secondary neuroinflammatory injury, while also influencing the neural repair and plasticity of recovery."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Sterile neuroinflammation: ischaemic damage-associated molecular patterns engage TLR4 signalling through MyD88 to NF-κB (TLR4 and NF-κB already mapped), igniting the sterile neuroinflammation that expands the infarct in the hours after stroke."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Inflammatory injury: TNF-α from activated microglia amplifies blood-brain-barrier breakdown and neuronal death in the ischaemic penumbra, a key cytokine driver of secondary injury after stroke."
+  - target: 01-human/03-molecular/ntrk
+    relation: connects-to
+    note: "Recovery plasticity: BDNF signalling through its TrkB receptor (NTRK) drives the neuroplasticity and axonal sprouting that underpin functional recovery in the weeks after stroke."
 ---
 
 # Stroke
@@ -531,6 +540,9 @@ Normal brain maintains CBF constant (50-150 mmHg MAP range) via autoregulation (
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — Reperfusion after ischemic stroke generates a burst of reactive oxygen species, and the NRF2 antioxidant response is a key endogenous defense protecting the salvageable penumbra.
 - `connects-to` → **[Connexin-43](../../03-molecular/connexin43/README.md)** — Astrocytic connexin-43 gap junctions and hemichannels propagate peri-infarct spreading depolarizations and release glutamate and ATP, expanding the ischemic penumbra into completed infarct.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement activation after stroke contributes to the secondary neuroinflammatory injury, while also influencing the neural repair and plasticity of recovery.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Ischemic damage-associated molecular patterns engage TLR4 signaling through MyD88 to NF-κB (TLR4 and NF-κB already mapped), igniting the sterile neuroinflammation that expands the infarct in the hours after stroke.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — TNF-α from activated microglia amplifies blood-brain-barrier breakdown and neuronal death in the ischemic penumbra, a key cytokine driver of secondary injury after stroke.
+- `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — BDNF signaling through its TrkB receptor (NTRK) drives the neuroplasticity and axonal sprouting that underpin functional recovery in the weeks after stroke.
 
 [^powers-2019-aha-stroke]: Powers WJ, Rabinstein AA, Ackerson T, et al. Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines. *Stroke.* 2019;50(12):e344-e418. [doi:10.1161/STR.0000000000000211](https://doi.org/10.1161/STR.0000000000000211) · [PubMed 31662037](https://pubmed.ncbi.nlm.nih.gov/31662037/)
 [^feigin-2021-gbd-stroke]: Feigin VL, Krishnamurthi RV, Parmar P, et al. Update on the Global Burden of Ischemic and Hemorrhagic Stroke in 1990-2013. *Neuroepidemiology.* 2015;45(3):161-176. [doi:10.1159/000441085](https://doi.org/10.1159/000441085) · [PubMed 26505981](https://pubmed.ncbi.nlm.nih.gov/26505981/)

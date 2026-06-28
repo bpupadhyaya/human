@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/glucocorticoid-receptor
     relation: connects-to
     note: "Stress and relapse: HPA-axis stress signalling through the glucocorticoid receptor (CRH already mapped) drives the stress-induced craving and relapse of stimulant use disorder."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Glial neuroinflammation: stimulants activate microglial TLR4 signalling through MyD88 to NF-κB (TLR4 and NF-κB already mapped), driving the neuroinflammation that contributes to the neurotoxicity and reward dysregulation of stimulant use disorder."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Addiction plasticity: mTOR-dependent synaptic plasticity in the mesolimbic reward circuit consolidates the maladaptive learning and drug-cue associations that entrench compulsive stimulant use."
+  - target: 01-human/03-molecular/ntrk
+    relation: connects-to
+    note: "Neurotrophic remodelling: BDNF signalling through its TrkB receptor (NTRK) mediates the reward-circuit synaptic remodelling underlying stimulant craving and the persistence of relapse vulnerability."
 ---
 
 # Stimulant Use Disorder
@@ -545,6 +554,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Cocaine and amphetamine drive dopamine-induced ERK activation in the striatum, the molecular trigger of the synaptic plasticity that consolidates stimulant reward and craving.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Stimulant action on dopamine D2 receptors signals through the AKT-GSK3β axis (GSK3β already mapped), a pathway shaping the reward and behavioral sensitization of stimulant use disorder.
 - `connects-to` → **[Glucocorticoid Receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — HPA-axis stress signaling through the glucocorticoid receptor (CRH already mapped) drives the stress-induced craving and relapse of stimulant use disorder.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Stimulants activate microglial TLR4 signaling through MyD88 to NF-κB (TLR4 and NF-κB already mapped), driving the neuroinflammation that contributes to the neurotoxicity and reward dysregulation of stimulant use disorder.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR-dependent synaptic plasticity in the mesolimbic reward circuit consolidates the maladaptive learning and drug-cue associations that entrench compulsive stimulant use.
+- `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — BDNF signaling through its TrkB receptor (NTRK) mediates the reward-circuit synaptic remodeling underlying stimulant craving and the persistence of relapse vulnerability.
 
 ## Treatment
 
