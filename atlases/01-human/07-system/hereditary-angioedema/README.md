@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/endothelin-1
     relation: connects-to
     note: "Endothelial effector: the angioedema of HAE is produced at the vascular endothelium, where bradykinin opens inter-endothelial junctions to let plasma leak — the same endothelial barrier whose baseline tone and integrity endothelin-1 helps regulate."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Endothelial activation: bradykinin signalling through the B2 receptor activates endothelial NF-κB, amplifying the vascular inflammation and permeability that drive the swelling of a hereditary-angioedema attack."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Attack acute-phase: HAE attacks are accompanied by a systemic acute-phase response with rising IL-6, reflecting the contact-system activation and endothelial inflammation that accompany the bradykinin-driven swelling."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Permeability cytokine: TNF-α released during the endothelial activation of HAE attacks further loosens inter-endothelial junctions, compounding the bradykinin-driven vascular leak that produces the angioedema."
 ---
 
 # Hereditary Angioedema
@@ -546,6 +555,9 @@ Fluid extravasation → ANGIOEDEMA
 - `connects-to` → **[FcRn](../../03-molecular/fcrn/README.md)** — The IgG anti-plasma-kallikrein antibody lanadelumab relies on FcRn recycling for its weeks-long half-life, enabling subcutaneous prophylaxis that suppresses kallikrein and prevents the bradykinin generation driving HAE attacks.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C1-inhibitor is the main brake on the classical-complement C1 complex as well as the contact system, so its deficiency causes the chronic complement consumption and low C4 that are diagnostic, even though the swelling itself is bradykinin-mediated.
 - `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — The angioedema of HAE is produced at the vascular endothelium, where bradykinin opens inter-endothelial junctions to let plasma leak—the same endothelial barrier whose baseline tone and integrity endothelin-1 helps regulate.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Bradykinin signaling through the B2 receptor activates endothelial NF-κB, amplifying the vascular inflammation and permeability that drive the swelling of a hereditary-angioedema attack.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — HAE attacks are accompanied by a systemic acute-phase response with rising IL-6, reflecting the contact-system activation and endothelial inflammation that accompany the bradykinin-driven swelling.
+- `connects-to` → **[TNF-α (Tumor Necrosis Factor-alpha)](../../03-molecular/tnf-alpha/README.md)** — TNF-α released during the endothelial activation of HAE attacks further loosens inter-endothelial junctions, compounding the bradykinin-driven vascular leak that produces the angioedema.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)

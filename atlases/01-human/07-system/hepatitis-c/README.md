@@ -309,6 +309,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "Hepatocellular carcinoma: HCV cirrhosis is a major cause of HCC, and although direct-acting antivirals now cure the infection, the residual cirrhotic liver still grows VEGF-driven vascular tumours that require ongoing surveillance."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Inflammation to cancer: HCV-driven hepatic IL-6 sustains the acute-phase and inflammatory response of chronic hepatitis C and, via the STAT3 already mapped, promotes the fibrogenesis and hepatocellular-carcinoma development of the disease."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Tolerance and persistence: HCV induces regulatory IL-10 that dampens antiviral T-cell responses, contributing to the immune tolerance behind the high rate of chronic infection."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Inflammatory liver injury: HCV activates the hepatic NLRP3 inflammasome and IL-1β, driving the chronic inflammatory injury that progresses to fibrosis and cirrhosis."
 ---
 
 # Hepatitis C
@@ -532,3 +541,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — Chronic HCV stimulation of B cells, supported by BAFF, drives the clonal expansion behind mixed cryoglobulinemia, its vasculitis and membranoproliferative glomerulonephritis, and the raised risk of B-cell non-Hodgkin lymphoma.
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Persistent HCV inflammation activates hepatic stellate cells to deposit collagen, the progressive fibrosis that over decades builds the cirrhosis on which most HCV hepatocellular carcinoma arises.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — HCV cirrhosis is a major cause of HCC, and although direct-acting antivirals now cure the infection, the residual cirrhotic liver still grows VEGF-driven vascular tumors that require ongoing surveillance.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — HCV-driven hepatic IL-6 sustains the acute-phase and inflammatory response of chronic hepatitis C and, via the STAT3 already mapped, promotes the fibrogenesis and hepatocellular-carcinoma development of the disease.
+- `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — HCV induces regulatory IL-10 that dampens antiviral T-cell responses, contributing to the immune tolerance behind the high rate of chronic infection.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — HCV activates the hepatic NLRP3 inflammasome and IL-1β, driving the chronic inflammatory injury that progresses to fibrosis and cirrhosis.
