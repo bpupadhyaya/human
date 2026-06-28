@@ -319,6 +319,15 @@ cross_links:
   - target: 01-human/03-molecular/acth
     relation: connects-to
     note: "Hormonal therapy: ACTH (corticotropin) is a first-line treatment for infantile spasms (West syndrome), uniquely effective at stopping the epileptic encephalopathy through mechanisms beyond its glucocorticoid induction."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "mTORopathy epilepsy: the PI3K-AKT-mTOR pathway (mTOR already mapped) is hyperactivated in the mTORopathies — tuberous sclerosis and focal cortical dysplasia (already mapped) — that cause drug-resistant focal epilepsy."
+  - target: 01-human/03-molecular/connexin43
+    relation: connects-to
+    note: "Network synchronisation: astrocytic connexin-43 gap junctions synchronise neuronal networks and buffer extracellular potassium and glutamate, and their dysregulation contributes to seizure generation and spread in epilepsy."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Excitotoxic death: prolonged seizures and status epilepticus trigger caspase-3-mediated neuronal apoptosis, the excitotoxic cell death contributing to the hippocampal sclerosis and progression of epilepsy."
 ---
 
 # Epilepsy
@@ -571,6 +580,9 @@ Anti-NMDAR encephalitis is the most common autoimmune encephalitis (~37% of auto
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — T-type voltage-gated calcium channels generate the thalamocortical rhythms of absence seizures—the target of ethosuximide—and other calcium-channel mutations cause genetic epilepsies, making calcium currents a second ionic axis beyond sodium.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Serotonin raises the seizure threshold and is the mechanism of fenfluramine, now a key drug for Dravet and Lennox-Gastaut syndromes, while serotonergic brainstem dysfunction is implicated in sudden unexpected death in epilepsy (SUDEP).
 - `connects-to` → **[ACTH](../../03-molecular/acth/README.md)** — ACTH (corticotropin) is a first-line treatment for infantile spasms (West syndrome), uniquely effective at stopping the epileptic encephalopathy through mechanisms beyond its glucocorticoid induction.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — The PI3K-AKT-mTOR pathway (mTOR already mapped) is hyperactivated in the mTORopathies—tuberous sclerosis and focal cortical dysplasia (already mapped)—that cause drug-resistant focal epilepsy.
+- `connects-to` → **[Connexin-43](../../03-molecular/connexin43/README.md)** — Astrocytic connexin-43 gap junctions synchronize neuronal networks and buffer extracellular potassium and glutamate, and their dysregulation contributes to seizure generation and spread in epilepsy.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Prolonged seizures and status epilepticus trigger caspase-3-mediated neuronal apoptosis, the excitotoxic cell death contributing to the hippocampal sclerosis and progression of epilepsy.
 
 [^fisher-2017-ilae-classification]: Fisher RS, Cross JH, D'Souza C, et al. Instruction manual for the ILAE 2017 operational classification of seizure types. *Epilepsia.* 2017;58(4):531-542. [doi:10.1111/epi.13671](https://doi.org/10.1111/epi.13671) · [PubMed 28276060](https://pubmed.ncbi.nlm.nih.gov/28276060/)
 [^devinsky-2018-epilepsy-review]: Devinsky O, Vezzani A, O'Brien TJ, et al. Epilepsy. *Nat Rev Dis Primers.* 2018;4:18024. [doi:10.1038/nrdp.2018.24](https://doi.org/10.1038/nrdp.2018.24) · [PubMed 29722352](https://pubmed.ncbi.nlm.nih.gov/29722352/)

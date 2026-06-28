@@ -310,6 +310,15 @@ cross_links:
   - target: 01-human/03-molecular/cxcl12
     relation: connects-to
     note: "Metastatic spread: CXCR4-CXCL12 signalling directs endometrial-cancer cells toward the pelvic lymph nodes and peritoneum, the lymphatic and transcoelomic routes of spread that define advanced-stage disease."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "MAPK arm: KRAS and FGFR2 mutations (already mapped) in endometrioid endometrial cancer activate the MAPK-ERK pathway, a proliferative driver complementing the dominant PI3K-AKT axis."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Cell-cycle drive: the CDK4/6-RB-E2F axis (CDK4/6 already mapped) powers the cell-cycle progression of endometrial cancer, particularly the estrogen-stimulated proliferation of endometrioid tumours."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Hormonal survival: estrogen induces anti-apoptotic BCL-2 in the endometrium, and its overexpression supports the survival of endometrioid endometrial-cancer cells in this hormonally driven tumour."
 ---
 
 # Endometrial Cancer
@@ -532,6 +541,9 @@ cross_links:
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Activating FGFR2 mutations occur in a substantial fraction of endometrioid endometrial cancers and are associated with worse outcome, a targetable oncogenic driver distinct from the dominant PTEN/PI3K and mismatch-repair lesions.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Carboplatin-paclitaxel, the backbone of advanced endometrial-cancer treatment, kills tumor cells through caspase-3-mediated apoptosis, the death pathway whose evasion underlies chemoresistance in serous and high-grade disease.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCR4-CXCL12 signaling directs endometrial-cancer cells toward the pelvic lymph nodes and peritoneum, the lymphatic and transcoelomic routes of spread that define advanced-stage disease.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — KRAS and FGFR2 mutations (already mapped) in endometrioid endometrial cancer activate the MAPK-ERK pathway, a proliferative driver complementing the dominant PI3K-AKT axis.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — The CDK4/6-RB-E2F axis (CDK4/6 already mapped) powers the cell-cycle progression of endometrial cancer, particularly the estrogen-stimulated proliferation of endometrioid tumors.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Estrogen induces anti-apoptotic BCL-2 in the endometrium, and its overexpression supports the survival of endometrioid endometrial-cancer cells in this hormonally driven tumor.
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)
