@@ -307,6 +307,15 @@ cross_links:
   - target: 01-human/03-molecular/s100a8-a9
     relation: connects-to
     note: "Inflammatory niche: S100A8/A9 alarmins released in the myelofibrotic marrow amplify the chronic inflammation that both drives the constitutional symptoms and feeds the fibrotic, cytokine-rich niche supporting the malignant clone."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "MAPK arm: JAK2 V617F signals through the MAPK-ERK1/2 pathway as well as STAT5, contributing to the clonal myeloproliferation of myelofibrosis and to incomplete responses to JAK inhibition."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "Progression mutations: high-molecular-risk epigenetic and splicing mutations (with the SF3B1 already mapped) accumulate on the JAK2/CALR/MPL driver in myelofibrosis, accelerating its progression to leukaemic transformation."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Inflammatory fibrosis: chronic NLRP3-inflammasome activation and IL-1β (already mapped) sustain the inflammatory milieu that drives the marrow fibrosis and constitutional symptoms of myelofibrosis."
 ---
 
 # Myelofibrosis
@@ -531,6 +540,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[SF3B1](../../03-molecular/sf3b1/README.md)** — Spliceosome mutations such as SF3B1, U2AF1 and SRSF2, acquired alongside the JAK2/CALR/MPL driver, mark the higher-risk myelofibrosis more likely to progress to leukemia and inform prognostic scoring.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Clonal megakaryocytes release basic FGF that, with PDGF and TGF-β, signals through FGFR on marrow fibroblasts to drive the reticulin and collagen fibrosis that progressively replaces the hematopoietic marrow.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins released in the myelofibrotic marrow amplify the chronic inflammation that both drives the constitutional symptoms and feeds the fibrotic, cytokine-rich niche supporting the malignant clone.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — JAK2 V617F signals through the MAPK-ERK1/2 pathway as well as STAT5, contributing to the clonal myeloproliferation of myelofibrosis and to incomplete responses to JAK inhibition.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — High-molecular-risk epigenetic and splicing mutations (with the SF3B1 already mapped) accumulate on the JAK2/CALR/MPL driver in myelofibrosis, accelerating its progression to leukemic transformation.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Chronic NLRP3-inflammasome activation and IL-1β (already mapped) sustain the inflammatory milieu that drives the marrow fibrosis and constitutional symptoms of myelofibrosis.
 
 ---
 

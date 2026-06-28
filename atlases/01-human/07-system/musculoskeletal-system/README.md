@@ -305,6 +305,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Bone-muscle-fat axis: adipose-derived adiponectin signals to bone and muscle, part of the endocrine crosstalk by which fat mass, bone remodelling and muscle metabolism are coordinated, integrating the musculoskeletal system with whole-body energy balance."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Progenitor fate: NOTCH signalling controls mesenchymal-progenitor commitment in bone and the satellite-cell self-renewal that regenerates skeletal muscle, a core developmental pathway of the musculoskeletal system."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "Growth-plate biology: FGF/FGFR signalling regulates the chondrocyte proliferation of the growth plate that lengthens long bones, the pathway whose constitutive activation causes achondroplasia."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "Repair recruitment: PDGF recruits the mesenchymal and perivascular progenitor cells that build and repair bone, muscle and connective tissue after injury throughout the musculoskeletal system."
 ---
 
 # Musculoskeletal System
@@ -537,6 +546,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium is the mineral stored as hydroxyapatite that gives bone its rigidity and the ion that triggers skeletal-muscle contraction through troponin, linking the skeleton's structural and the muscle's contractile roles.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Articular cartilage has no blood supply, so its chondrocytes survive on HIF-1α-driven anaerobic glycolysis, the hypoxic adaptation that maintains the joint surface and whose failure contributes to osteoarthritis.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipose-derived adiponectin signals to bone and muscle, part of the endocrine crosstalk by which fat mass, bone remodeling and muscle metabolism are coordinated, integrating the musculoskeletal system with whole-body energy balance.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH signaling controls mesenchymal-progenitor commitment in bone and the satellite-cell self-renewal that regenerates skeletal muscle, a core developmental pathway of the musculoskeletal system.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — FGF/FGFR signaling regulates the chondrocyte proliferation of the growth plate that lengthens long bones, the pathway whose constitutive activation causes achondroplasia.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — PDGF recruits the mesenchymal and perivascular progenitor cells that build and repair bone, muscle and connective tissue after injury throughout the musculoskeletal system.
 
 ## Pathology
 
