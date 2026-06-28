@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Ascites macrophages: CCL2 secreted by ovarian tumour cells recruits monocytes that become the tumour-associated macrophages dominating malignant ascites, building the immunosuppressive peritoneal niche that drives chemoresistance and spread."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "MAPK in low-grade disease: KRAS and BRAF mutations (KRAS mapped) activate the MAPK-ERK cascade that drives low-grade serous and mucinous ovarian cancers, a MEK-inhibitor-responsive subset distinct from high-grade serous disease."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Cell-cycle drive: cyclin-E and the CDK4/6 axis (mapped) release E2F1 to force the G1-S transition, with CCNE1 amplification a recurrent proliferative driver of high-grade serous ovarian cancer."
+  - target: 01-human/03-molecular/her2
+    relation: connects-to
+    note: "Targetable subset: a fraction of ovarian carcinomas overexpress HER2, feeding the PI3K and MAPK pathways (mapped) and offering a target for HER2-directed antibody-drug conjugates."
 ---
 
 # Ovarian Cancer
@@ -527,6 +536,9 @@ FTSEC ciliated and secretory cells line the Fallopian tube; secretory cells are 
 - `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — KRAS-activating mutations define the low-grade serous and mucinous ovarian carcinomas, a biology distinct from the p53/BRCA-driven high-grade serous disease and the rationale for MEK inhibitors in these chemo-resistant histotypes.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PIK3CA mutation and amplification activate the PI3K-AKT-mTOR axis already mapped here through AKT and PTEN, sustaining ovarian cancer survival signaling and supporting combination strategies with PI3K-pathway inhibitors.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 secreted by ovarian tumor cells recruits monocytes that become the tumor-associated macrophages dominating malignant ascites, building the immunosuppressive peritoneal niche that drives chemoresistance and spread.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — KRAS and BRAF mutations (KRAS mapped) activate the MAPK-ERK cascade that drives low-grade serous and mucinous ovarian cancers, a MEK-inhibitor-responsive subset distinct from high-grade serous disease.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — Cyclin-E and the CDK4/6 axis (mapped) release E2F1 to force the G1-S transition, with CCNE1 amplification a recurrent proliferative driver of high-grade serous ovarian cancer.
+- `connects-to` → **[HER2](../../03-molecular/her2/README.md)** — A fraction of ovarian carcinomas overexpress HER2, feeding the PI3K and MAPK pathways (mapped) and offering a target for HER2-directed antibody-drug conjugates.
 
 [^burger-2011-gog0218]: Burger RA, Brady MF, Bookman MA, et al. Incorporation of bevacizumab in the primary treatment of ovarian cancer. *N Engl J Med.* 2011;365(26):2473-2483. [doi:10.1056/NEJMoa1104390](https://doi.org/10.1056/NEJMoa1104390) · [PubMed 22204724](https://pubmed.ncbi.nlm.nih.gov/22204724/)
 [^moore-2018-olaparib-solo1]: Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. *N Engl J Med.* 2018;379(26):2495-2505. [doi:10.1056/NEJMoa1810858](https://doi.org/10.1056/NEJMoa1810858) · [PubMed 30345884](https://pubmed.ncbi.nlm.nih.gov/30345884/)

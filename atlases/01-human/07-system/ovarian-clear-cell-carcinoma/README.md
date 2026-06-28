@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/epas1
     relation: connects-to
     note: "Hypoxia and clear-cell phenotype: HIF-2α/EPAS1 stabilisation drives the angiogenic, glycogen-laden clear-cell morphology of OCCC, the hypoxic transcriptional programme it shares with clear-cell renal carcinoma."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Cell-cycle progression: the cyclin-D1-CDK4/6 axis (both mapped) releases E2F1 to drive the proliferation of ovarian clear cell carcinoma."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "MAPK signalling: KRAS and MET (both mapped) activate the MAPK-ERK cascade contributing to the growth of ovarian clear cell carcinoma."
+  - target: 01-human/03-molecular/cdh1
+    relation: connects-to
+    note: "EMT and invasion: loss of E-cadherin during epithelial-mesenchymal transition promotes the invasion of ovarian clear cell carcinoma, a tumour arising from endometriotic epithelium."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -553,6 +562,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Ovarian clear-cell carcinoma is notoriously chemoresistant, and upregulation of anti-apoptotic BCL-2-family proteins raises the threshold for the caspase-mediated death triggered by platinum chemotherapy, underpinning its poor treatment response.
 - `connects-to` → **[MLH1](../../03-molecular/mlh1/README.md)** — A fraction of ovarian clear-cell carcinomas are MLH1-deficient and microsatellite-instable, often Lynch-associated, generating the high neoantigen load that makes this histotype subset responsive to checkpoint blockade.
 - `connects-to` → **[EPAS1](../../03-molecular/epas1/README.md)** — HIF-2α/EPAS1 stabilization drives the angiogenic, glycogen-laden clear-cell morphology of OCCC, the hypoxic transcriptional program it shares with clear-cell renal carcinoma.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — The cyclin-D1-CDK4/6 axis (both mapped) releases E2F1 to drive the proliferation of ovarian clear cell carcinoma.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — KRAS and MET (both mapped) activate the MAPK-ERK cascade contributing to the growth of ovarian clear cell carcinoma.
+- `connects-to` → **[CDH1](../../03-molecular/cdh1/README.md)** — Loss of E-cadherin during epithelial-mesenchymal transition promotes the invasion of ovarian clear cell carcinoma, a tumor arising from endometriotic epithelium.
 
 ---
 
