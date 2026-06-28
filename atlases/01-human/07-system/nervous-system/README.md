@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/mhc-class-ii
     relation: connects-to
     note: "Neuroimmune surveillance: microglia and border-associated macrophages present antigen on MHC class II within the CNS, the neuroimmune interface whose dysregulation links the nervous and immune systems in neuroinflammatory and neurodegenerative disease."
+  - target: 01-human/03-molecular/mu-opioid-receptor
+    relation: connects-to
+    note: "Endogenous opioid system: the mu-opioid receptor transduces the endorphin and enkephalin signals that modulate pain and reward, a core neuromodulatory system of the nervous system and the target of opioid analgesics."
+  - target: 01-human/03-molecular/orexin
+    relation: connects-to
+    note: "Arousal switch: hypothalamic orexin (hypocretin) neurons stabilise wakefulness and gate the sleep-wake transition, the arousal system whose loss causes narcolepsy."
+  - target: 01-human/03-molecular/crh
+    relation: connects-to
+    note: "Stress neuroendocrine link: hypothalamic CRH initiates the neuroendocrine stress response, the bridge by which the nervous system drives the HPA axis and cortisol (mapped) output."
 ---
 
 # Nervous System
@@ -459,6 +468,9 @@ Distributed cortical networks underlie language (Broca's area, Wernicke's area, 
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium influx triggers neurotransmitter-vesicle fusion at the synapse and shapes neuronal excitability and plasticity, the ion that converts an electrical action potential into the chemical signaling on which the nervous system runs.
 - `connects-to` → **[Aquaporin-4](../../03-molecular/aquaporin-4/README.md)** — Aquaporin-4 water channels on astrocyte endfeet drive the glymphatic flow that washes metabolic waste—including amyloid—from the brain during sleep, the CNS's fluid-clearance system in place of conventional lymphatics.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Microglia and border-associated macrophages present antigen on MHC class II within the CNS, the neuroimmune interface whose dysregulation links the nervous and immune systems in neuroinflammatory and neurodegenerative disease.
+- `connects-to` → **[Mu-Opioid Receptor](../../03-molecular/mu-opioid-receptor/README.md)** — The mu-opioid receptor transduces the endorphin and enkephalin signals that modulate pain and reward, a core neuromodulatory system of the nervous system and the target of opioid analgesics.
+- `connects-to` → **[Orexin](../../03-molecular/orexin/README.md)** — Hypothalamic orexin (hypocretin) neurons stabilize wakefulness and gate the sleep-wake transition, the arousal system whose loss causes narcolepsy.
+- `connects-to` → **[CRH](../../03-molecular/crh/README.md)** — Hypothalamic CRH initiates the neuroendocrine stress response, the bridge by which the nervous system drives the HPA axis and cortisol (mapped) output.
 
 ## Pathology
 
