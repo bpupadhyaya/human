@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "Tumoral calcification: the large-cell CALCIFYING Sertoli cell tumours that typify Carney complex deposit calcium, the characteristic calcification visible on imaging that helps identify these testicular tumours in affected boys."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "Proliferative output: unrestrained PKA from PRKAR1A loss drives cyclin-D1 (already mapped) and CDK4/6 activity, pushing the endocrine and myxomatous tumours of Carney complex through the cell-cycle restriction point."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PKA-PI3K crosstalk: aberrant PKA signalling in Carney complex engages the PI3K-AKT-mTOR pathway (AKT and mTOR already mapped), and PIK3CA-driven survival signalling cooperates in the growth of its endocrine tumours."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Restriction-point release: downstream of cyclin-D-CDK4/6, RB phosphorylation frees E2F1 to drive S-phase entry, the proliferative engine activated by constitutive PKA signalling in Carney complex tumours."
 ---
 
 # Carney Complex
@@ -533,6 +542,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[Glucocorticoid receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Carney complex causes primary pigmented nodular adrenocortical disease, an ACTH-independent cortisol excess whose glucocorticoid-receptor-mediated effects produce the Cushing syndrome that is a hallmark endocrine manifestation.
 - `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — The large-cell calcifying Sertoli cell tumors and other sex-steroid-producing gonadal tumors of Carney complex disturb androgen-receptor and estrogen signaling, causing precocious puberty and gynecomastia.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — The large-cell CALCIFYING Sertoli cell tumors that typify Carney complex deposit calcium, the characteristic calcification visible on imaging that helps identify these testicular tumors in affected boys.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Unrestrained PKA from PRKAR1A loss drives cyclin-D1 (already mapped) and CDK4/6 activity, pushing the endocrine and myxomatous tumors of Carney complex through the cell-cycle restriction point.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Aberrant PKA signaling in Carney complex engages the PI3K-AKT-mTOR pathway (AKT and mTOR already mapped), and PIK3CA-driven survival signaling cooperates in the growth of its endocrine tumors.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — Downstream of cyclin-D-CDK4/6, RB phosphorylation frees E2F1 to drive S-phase entry, the proliferative engine activated by constitutive PKA signaling in Carney complex tumors.
 
 ---
 

@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/perforin
     relation: connects-to
     note: "Immunotherapy: CD19-directed CAR-T cells and the CD19-CD3 bispecific blinatumomab redirect cytotoxic T cells to kill Burkitt cells through perforin and granzyme, an emerging option in relapsed or refractory disease."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Forced S-phase: MYC transactivates E2F1, and the two cooperate to drive cell-cycle entry alongside the cyclin-D1/CDK4-6 axis already mapped, underpinning Burkitt lymphoma's extreme proliferative rate."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "Cooperating PI3K hit: PTEN loss activates the PI3K-AKT-mTOR pathway (PIK3CA, AKT and mTOR already mapped), a tonic-BCR-driven second hit that cooperates with the MYC translocation in Burkitt lymphomagenesis."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "ARF-p53 backup: the CDKN2A locus encodes p14ARF, which normally stabilises p53 against MDM2 (both mapped); its loss removes the apoptotic brake on MYC-driven proliferation in Burkitt lymphoma."
 ---
 
 # Burkitt Lymphoma
@@ -546,6 +555,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[LMP1](../../03-molecular/lmp1/README.md)** — Endemic Burkitt lymphoma is driven by Epstein-Barr virus together with chronic malaria, and the EBV-infected germinal-center B cell is the cell of origin in which the MYC translocation arises in the African childhood form.
 - `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — The defining t(8;14) places MYC under the control of the immunoglobulin heavy-chain enhancer, driving its overexpression, and tonic B-cell-receptor signaling further sustains the Burkitt cell—the basis for BTK and PI3K targeting.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — CD19-directed CAR-T cells and the CD19-CD3 bispecific blinatumomab redirect cytotoxic T cells to kill Burkitt cells through perforin and granzyme, an emerging option in relapsed or refractory disease.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — MYC transactivates E2F1, and the two cooperate to drive cell-cycle entry alongside the cyclin-D1/CDK4-6 axis already mapped, underpinning Burkitt lymphoma's extreme proliferative rate.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss activates the PI3K-AKT-mTOR pathway (PIK3CA, AKT and mTOR already mapped), a tonic-BCR-driven second hit that cooperates with the MYC translocation in Burkitt lymphomagenesis.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — The CDKN2A locus encodes p14ARF, which normally stabilizes p53 against MDM2 (both mapped); its loss removes the apoptotic brake on MYC-driven proliferation in Burkitt lymphoma.
 
 ---
 
