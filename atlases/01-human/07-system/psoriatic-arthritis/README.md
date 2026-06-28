@@ -312,6 +312,15 @@ cross_links:
   - target: 01-human/03-molecular/leptin
     relation: connects-to
     note: "Adipokine link to comorbidity: obesity-associated leptin is elevated in psoriatic disease and promotes Th17 differentiation, mechanistically tying the metabolic syndrome and cardiovascular risk of psoriatic arthritis to its joint and skin inflammation."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Th17 and new bone: with the IL-6 already mapped, TGF-β licenses the pathogenic Th17 cells central to psoriatic arthritis, and its pro-osteogenic activity contributes to the entheseal new-bone formation that distinguishes PsA from rheumatoid arthritis."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Counter-regulatory adipokine: alongside the leptin already mapped, adiponectin from adipose tissue modulates joint inflammation, and the adiponectin-leptin imbalance of obesity helps explain the metabolic comorbidity and disease activity of psoriatic arthritis."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Immune-bone bridge: osteopontin is elevated in psoriatic arthritis serum and synovium, promoting both Th17 inflammation and the osteoclastogenesis behind erosive joint damage, linking the immune drive to the bone destruction of the disease."
 ---
 
 # Psoriatic Arthritis
@@ -557,6 +566,9 @@ Risankizumab (anti-IL-23p19) **failed primary endpoints** in the SURPASS trial f
 - `connects-to` → **[Sclerostin](../../03-molecular/sclerostin/README.md)** — Unlike the pure erosion of rheumatoid arthritis, psoriatic arthritis also forms new bone at entheses (enthesophytes, periostitis), and low sclerostin—releasing the Wnt brake on osteoblasts—drives this osteoproliferation.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 released from stressed stromal cells at the enthesis activates innate lymphoid cells and γδ T cells to produce IL-17, an upstream alarmin feeding the IL-23/IL-17 axis that drives psoriatic enthesitis.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Obesity-associated leptin is elevated in psoriatic disease and promotes Th17 differentiation, mechanistically tying the metabolic syndrome and cardiovascular risk of psoriatic arthritis to its joint and skin inflammation.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — With the IL-6 already mapped, TGF-β licenses the pathogenic Th17 cells central to psoriatic arthritis, and its pro-osteogenic activity contributes to the entheseal new-bone formation that distinguishes PsA from rheumatoid arthritis.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Alongside the leptin already mapped, adiponectin from adipose tissue modulates joint inflammation, and the adiponectin-leptin imbalance of obesity helps explain the metabolic comorbidity and disease activity of psoriatic arthritis.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin is elevated in psoriatic arthritis serum and synovium, promoting both Th17 inflammation and the osteoclastogenesis behind erosive joint damage, linking the immune drive to the bone destruction of the disease.
 
 [^ritchlin-2017-psa-review]: Ritchlin CT, Colbert RA, Gladman DD. Psoriatic arthritis. *N Engl J Med.* 2017;376(10):957-970. [doi:10.1056/NEJMra1505557](https://doi.org/10.1056/NEJMra1505557) · [PubMed 28273019](https://pubmed.ncbi.nlm.nih.gov/28273019/)
 [^mease-2015-secukinumab-psa-future2]: Mease PJ, et al. Secukinumab inhibition of interleukin-17A in patients with psoriatic arthritis. *N Engl J Med.* 2015;373(14):1329-1339. [doi:10.1056/NEJMoa1503317](https://doi.org/10.1056/NEJMoa1503317) · [PubMed 26422723](https://pubmed.ncbi.nlm.nih.gov/26422723/)
