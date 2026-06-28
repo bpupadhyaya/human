@@ -312,6 +312,15 @@ cross_links:
   - target: 01-human/03-molecular/s100a8-a9
     relation: connects-to
     note: "Inflammatory amplification: S100A8/A9 released by activated myeloid cells in the interferon-driven inflammation of Aicardi-Goutières feeds the chronic neuroinflammation injuring the developing brain."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Autophagy regulation: mTOR restrains the autophagy (already mapped) that clears endogenous nucleic acids, and insufficient clearance in Aicardi-Goutières lets self-DNA/RNA accumulate and feed the cytosolic sensors driving the interferon response."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "JAK-STAT transmission: alongside the STAT1 already mapped, JAK-STAT3 signalling transmits the chronic type-I interferon stimulus of Aicardi-Goutières syndrome, part of the axis blocked therapeutically by JAK inhibitors."
+  - target: 01-human/03-molecular/glutamate
+    relation: connects-to
+    note: "Excitotoxic injury: excitotoxic glutamate signalling contributes to the neuronal injury and seizures of Aicardi-Goutières syndrome, compounding the interferon-driven neurodegeneration of the developing brain."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -504,6 +513,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Bilateral basal-ganglia and white-matter calcification is a radiological hallmark of Aicardi-Goutières, calcium deposition in the chronically interferon-inflamed brain that helps distinguish it from acquired congenital infection.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — The sustained type-I-interferon state of Aicardi-Goutières drives complement activation and the chilblain-lupus and SLE-overlap autoimmunity that mark the disorder as a monogenic interferonopathy bridging to lupus.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 released by activated myeloid cells in the interferon-driven inflammation of Aicardi-Goutières feeds the chronic neuroinflammation injuring the developing brain.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR restrains the autophagy (already mapped) that clears endogenous nucleic acids, and insufficient clearance in Aicardi-Goutières lets self-DNA/RNA accumulate and feed the cytosolic sensors driving the interferon response.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Alongside the STAT1 already mapped, JAK-STAT3 signaling transmits the chronic type-I interferon stimulus of Aicardi-Goutières syndrome, part of the axis blocked therapeutically by JAK inhibitors.
+- `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — Excitotoxic glutamate signaling contributes to the neuronal injury and seizures of Aicardi-Goutières syndrome, compounding the interferon-driven neurodegeneration of the developing brain.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
