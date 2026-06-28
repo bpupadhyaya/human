@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "Vascular phenotype: NOTCH signalling activated downstream of HIF in VHL-deficient hemangioblastomas and clear-cell renal carcinoma promotes their vascular, stem-like phenotype."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Cell-cycle drive: HIF-driven cyclin-D1 (mapped) and CDK4/6 release E2F1 to push the proliferation of VHL-deficient tumours such as clear-cell renal carcinoma."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "PI3K restraint: PTEN limits the PI3K-AKT-mTOR axis (PIK3CA, AKT and mTOR already mapped) that cooperates with HIF activation in the growth of VHL-associated tumours."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "RTK-MAPK: MET, EGFR and PDGFR (all mapped) signal through the MAPK-ERK cascade in VHL-deficient tumours, complementing the pseudohypoxic HIF programme."
 ---
 
 # VHL Disease
@@ -533,6 +542,9 @@ The genotype-phenotype correlation reflects the degree of pVHL function retained
 - `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — VHL loss stabilizes HIF, which induces TGF-α to drive an autocrine EGFR loop that sustains proliferation of VHL-deficient renal carcinoma and hemangioblastoma.
 - `connects-to` → **[BAP1](../../03-molecular/bap1/README.md)** — BAP1, like VHL on chromosome 3p, is a renal tumor-suppressor, and its loss cooperates with VHL inactivation to drive the aggressive, high-grade clear-cell renal carcinoma of the disease.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH signaling activated downstream of HIF in VHL-deficient hemangioblastomas and clear-cell renal carcinoma promotes their vascular, stem-like phenotype.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — HIF-driven cyclin-D1 (mapped) and CDK4/6 release E2F1 to push the proliferation of VHL-deficient tumors such as clear-cell renal carcinoma.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN limits the PI3K-AKT-mTOR axis (PIK3CA, AKT and mTOR already mapped) that cooperates with HIF activation in the growth of VHL-associated tumors.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — MET, EGFR and PDGFR (all mapped) signal through the MAPK-ERK cascade in VHL-deficient tumors, complementing the pseudohypoxic HIF program.
 
 [^lonser-2003-vhl-disease]: Lonser RR, Glenn GM, Walther M, et al. von Hippel-Lindau disease. *Lancet.* 2003;361(9374):2059-2067. [doi:10.1016/S0140-6736(03)13643-4](https://doi.org/10.1016/S0140-6736(03)13643-4) · [PubMed 12814730](https://pubmed.ncbi.nlm.nih.gov/12814730/)
 [^choueiri-2020-hif2-rcc]: Choueiri TK, Kaelin WG Jr. Targeting the HIF2-VEGF axis in renal cell carcinoma. *Nat Med.* 2020;26(10):1519-1530. [doi:10.1038/s41591-020-1093-z](https://doi.org/10.1038/s41591-020-1093-z) · [PubMed 33020650](https://pubmed.ncbi.nlm.nih.gov/33020650/)
