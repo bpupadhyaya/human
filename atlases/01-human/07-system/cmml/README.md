@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/perforin
     relation: connects-to
     note: "Curative transplant: allogeneic stem-cell transplant is the only curative therapy for CMML, working through donor T- and NK-cell graft-versus-leukaemia killing of the clone via perforin and granzyme."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K limb: downstream of CMML's activated RAS pathway (KRAS, PTPN11 and ERK1/2 already mapped), PIK3CA initiates PI3K signalling that provides a parallel growth-and-survival input to the monocytic clone."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Survival kinase: AKT relays PI3K signalling to mTOR (already mapped), sustaining the survival and cytokine-hypersensitive proliferation of CMML monocytes."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "Leukaemic progression: CDKN2A loss removes the cell-cycle brake and is associated with transformation of CMML to secondary acute myeloid leukaemia."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -537,6 +546,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — CMML, like the AML it can transform into, depends on anti-apoptotic BCL-2, the rationale for adding venetoclax to hypomethylating agents to push the dysplastic monocytic clone into apoptosis.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12 from stromal cells anchors the CMML clone in its bone-marrow niche, an inflammatory microenvironment that both supports the abnormal monocytic proliferation and contributes to the ineffective hematopoiesis of the disease.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Allogeneic stem-cell transplant is the only curative therapy for CMML, working through donor T- and NK-cell graft-versus-leukemia killing of the clone via perforin and granzyme.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Downstream of CMML's activated RAS pathway (KRAS, PTPN11 and ERK1/2 already mapped), PIK3CA initiates PI3K signaling that provides a parallel growth-and-survival input to the monocytic clone.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — AKT relays PI3K signaling to mTOR (already mapped), sustaining the survival and cytokine-hypersensitive proliferation of CMML monocytes.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A loss removes the cell-cycle brake and is associated with transformation of CMML to secondary acute myeloid leukemia.
 
 ---
 

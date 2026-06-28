@@ -319,6 +319,15 @@ cross_links:
   - target: 01-human/03-molecular/glucocorticoid-receptor
     relation: connects-to
     note: "Inhaled corticosteroids: glucocorticoids acting through the glucocorticoid receptor reduce exacerbations in the eosinophilic, exacerbation-prone subset of COPD, though steroid resistance limits their benefit in the predominantly neutrophilic disease."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Mucus hypersecretion: type-2 cytokine IL-13 drives goblet-cell metaplasia and mucin overproduction in the eosinophilic COPD subset, contributing to the chronic-bronchitis phenotype and airway obstruction."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Cytotoxic emphysema: CD8+ T cells and Th1 IFN-γ accumulate in COPD airways, driving the cytotoxic alveolar-wall destruction that produces emphysematous loss of lung parenchyma."
+  - target: 01-human/03-molecular/surfactant
+    relation: connects-to
+    note: "Airway collapse: oxidant- and protease-mediated surfactant dysfunction in COPD raises surface tension in small airways, promoting their collapse on expiration and worsening air trapping and host-defence impairment."
 ---
 
 # COPD
@@ -562,6 +571,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Vagal acetylcholine acting on airway muscarinic receptors is the dominant reversible component of airflow obstruction in COPD, the target of the long-acting muscarinic antagonist (LAMA) bronchodilators central to its treatment.
 - `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — Epinephrine and β2-agonist drugs relax airway smooth muscle through β2-adrenergic receptors, the long-acting β-agonist (LABA) inhalers that, with LAMAs, form the bronchodilator backbone of COPD therapy.
 - `connects-to` → **[Glucocorticoid receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Glucocorticoids acting through the glucocorticoid receptor reduce exacerbations in the eosinophilic, exacerbation-prone subset of COPD, though steroid resistance limits their benefit in the predominantly neutrophilic disease.
+- `connects-to` → **[Interleukin-13](../../03-molecular/il-13/README.md)** — Type-2 cytokine IL-13 drives goblet-cell metaplasia and mucin overproduction in the eosinophilic COPD subset, contributing to the chronic-bronchitis phenotype and airway obstruction.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — CD8+ T cells and Th1 IFN-γ accumulate in COPD airways, driving the cytotoxic alveolar-wall destruction that produces emphysematous loss of lung parenchyma.
+- `connects-to` → **[Pulmonary Surfactant](../../03-molecular/surfactant/README.md)** — Oxidant- and protease-mediated surfactant dysfunction in COPD raises surface tension in small airways, promoting their collapse on expiration and worsening air trapping and host-defense impairment.
 
 ---
 
