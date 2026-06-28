@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/pf4
     relation: connects-to
     note: "Platelet immunothrombosis: platelet factor 4 is central to the platelet activation and immunothrombosis of severe COVID-19, and anti-PF4 antibodies underlie the rare vaccine-induced thrombotic thrombocytopenia (VITT)."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "Antiviral IFN signaling: type-I interferon signals through JAK (mapped) to STAT1 to induce antiviral genes, the program SARS-CoV-2 antagonizes — delayed and then dysregulated IFN-STAT1 signaling drives severe COVID-19."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Innate amplification: TLR4 (mapped) sensing of spike and DAMPs signals through MyD88 to NF-κB (mapped), amplifying the innate inflammatory response that fuels severe COVID-19."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "Endotheliopathy: Ang-2 released from activated endothelium marks the endothelial dysfunction and microvascular thrombosis of severe COVID-19, correlating with disease severity."
 ---
 
 # COVID-19 Disease
@@ -488,6 +497,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[MAVS](../../03-molecular/mavs/README.md)** — SARS-CoV-2 proteins antagonize RIG-I/MAVS antiviral signaling (RIG-I already mapped) to suppress the early type-I interferon response, an immune-evasion mechanism that contributes to severe, delayed-interferon COVID-19.
 - `connects-to` → **[IRF3](../../03-molecular/irf3/README.md)** — Multiple SARS-CoV-2 ORF proteins block IRF3 activation and nuclear translocation, dampening interferon induction so that the dysregulated, delayed interferon response shapes COVID-19 severity.
 - `connects-to` → **[PF4](../../03-molecular/pf4/README.md)** — Platelet factor 4 is central to the platelet activation and immunothrombosis of severe COVID-19, and anti-PF4 antibodies underlie the rare vaccine-induced thrombotic thrombocytopenia (VITT).
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — Type-I interferon signals through JAK (mapped) to STAT1 to induce antiviral genes, the program SARS-CoV-2 antagonizes—delayed and then dysregulated IFN-STAT1 signaling drives severe COVID-19.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR4 (mapped) sensing of spike and DAMPs signals through MyD88 to NF-κB (mapped), amplifying the innate inflammatory response that fuels severe COVID-19.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Ang-2 released from activated endothelium marks the endothelial dysfunction and microvascular thrombosis of severe COVID-19, correlating with disease severity.
 
 ## Pathology
 
