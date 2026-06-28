@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/pdgf
     relation: connects-to
     note: "Osteosarcoma predisposition: Rothmund-Thomson confers a markedly raised risk of osteosarcoma, the bone tumour whose growth and angiogenesis are sustained by PDGFR signalling — linking the RECQL4 DNA-repair defect to its characteristic malignancy."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Proliferative coupling: with RB1 already mapped, deregulated E2F1 transcription links the genome instability of RECQL4 deficiency to unchecked cell-cycle entry, a route by which Rothmund-Thomson cells accumulate the lesions behind its osteosarcoma risk."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Oxidative stress: RECQL4 has a mitochondrial role, and its loss in Rothmund-Thomson raises reactive-oxygen levels that engage the NRF2 antioxidant-response programme, part of the cellular stress phenotype of the syndrome."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Skeletal development: Wnt-β-catenin signalling governs the osteoblast differentiation disrupted in the radial-ray and other skeletal defects of Rothmund-Thomson, and its dysregulation also features in the osteosarcomas to which patients are prone."
 ---
 
 # Rothmund-Thomson Syndrome
@@ -536,6 +545,9 @@ The cardinal features of RTS type II are: (1) **poikiloderma** — the defining 
 - `connects-to` → **[Xanthine Oxidase](../../03-molecular/xanthine-oxidase/README.md)** — RECQL4 has a mitochondrial role beyond nuclear DNA repair, and its loss raises reactive-oxygen-species production from sources such as xanthine oxidase, compounding the oxidative DNA damage that drives the premature cellular aging of Rothmund-Thomson.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — RECQL4-deficient cells accumulate micronuclei and cytosolic DNA that activate cGAS-STING, generating the chronic type-I-interferon inflammation characteristic of progeroid genome-instability syndromes.
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Rothmund-Thomson confers a markedly raised risk of osteosarcoma, the bone tumor whose growth and angiogenesis are sustained by PDGFR signaling—linking the RECQL4 DNA-repair defect to its characteristic malignancy.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — With RB1 already mapped, deregulated E2F1 transcription links the genome instability of RECQL4 deficiency to unchecked cell-cycle entry, a route by which Rothmund-Thomson cells accumulate the lesions behind its osteosarcoma risk.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — RECQL4 has a mitochondrial role, and its loss in Rothmund-Thomson raises reactive-oxygen levels that engage the NRF2 antioxidant-response program, part of the cellular stress phenotype of the syndrome.
+- `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Wnt-β-catenin signaling governs the osteoblast differentiation disrupted in the radial-ray and other skeletal defects of Rothmund-Thomson, and its dysregulation also features in the osteosarcomas to which patients are prone.
 
 [^kitao-1999-recql4-rts]: Kitao S, Shimamoto A, Goto M, et al. Mutations in RECQL4 cause a subset of cases of Rothmund-Thomson syndrome. *Nat Genet.* 1999;22(1):82-84. [doi:10.1038/8788](https://doi.org/10.1038/8788) · [PubMed 10319867](https://pubmed.ncbi.nlm.nih.gov/10319867/)
 [^wang-2003-rts-cancer]: Wang LL, Gannavarapu A, Kozinetz CA, et al. Association between osteosarcoma and deleterious mutations in the RECQL4 gene in Rothmund-Thomson syndrome. *J Natl Cancer Inst.* 2003;95(9):669-674. [doi:10.1093/jnci/95.9.669](https://doi.org/10.1093/jnci/95.9.669) · [PubMed 12734318](https://pubmed.ncbi.nlm.nih.gov/12734318/)

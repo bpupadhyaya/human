@@ -310,6 +310,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "Th17 polarisation and fibrosis: TGF-β together with IL-6 drives naive T cells toward the pathogenic Th17 lineage central to RA, while also activating synovial fibroblasts that build the invasive pannus."
+  - target: 01-human/03-molecular/fibrinogen
+    relation: connects-to
+    note: "Citrullinated autoantigen: citrullinated fibrinogen is a principal target of the anti-citrullinated-protein antibodies (anti-CCP) of rheumatoid arthritis, and immune complexes formed with it deposit in the joint to drive synovial inflammation."
+  - target: 01-human/03-molecular/btk
+    relation: connects-to
+    note: "B-cell and Fc signalling: Bruton's tyrosine kinase relays B-cell-receptor and Fc-receptor signals in the autoreactive B cells and myeloid effectors of rheumatoid arthritis, an axis (with the CD20 B cells and BAFF already mapped) targeted by BTK inhibitors under study."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Complement amplification: the immune complexes of rheumatoid arthritis activate complement in the synovium, and C5/C5a amplify the inflammatory cell recruitment and joint damage, extending the C3 arm already mapped."
 ---
 
 # Rheumatoid Arthritis
@@ -549,6 +558,9 @@ RA patients have:
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — COX-2-derived prostaglandins generated in the inflamed rheumatoid synovium produce much of the pain, swelling and warmth, the target of the NSAIDs that relieve symptoms without altering the underlying disease course.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 released from damaged rheumatoid synoviocytes acts as an alarmin on mast cells and innate lymphoid cells, amplifying the cytokine cascade and helping translate joint injury into self-perpetuating synovial inflammation.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — TGF-β together with IL-6 drives naive T cells toward the pathogenic Th17 lineage central to RA, while also activating synovial fibroblasts that build the invasive pannus.
+- `connects-to` → **[Fibrinogen](../../03-molecular/fibrinogen/README.md)** — Citrullinated fibrinogen is a principal target of the anti-citrullinated-protein antibodies (anti-CCP) of rheumatoid arthritis, and immune complexes formed with it deposit in the joint to drive synovial inflammation.
+- `connects-to` → **[BTK](../../03-molecular/btk/README.md)** — Bruton's tyrosine kinase relays B-cell-receptor and Fc-receptor signals in the autoreactive B cells and myeloid effectors of rheumatoid arthritis, an axis (with the CD20 B cells and BAFF already mapped) targeted by BTK inhibitors under study.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — The immune complexes of rheumatoid arthritis activate complement in the synovium, and C5/C5a amplify the inflammatory cell recruitment and joint damage, extending the C3 arm already mapped.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
