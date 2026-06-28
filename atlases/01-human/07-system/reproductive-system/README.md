@@ -302,6 +302,15 @@ cross_links:
   - target: 01-human/03-molecular/ghrelin
     relation: connects-to
     note: "Energy-deficit gating: ghrelin, the fasting hunger signal, suppresses GnRH pulsatility and gonadotropin release, the counterpart to leptin's sufficiency signal — together coupling nutritional state to fertility so reproduction pauses during starvation."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Steroid precursor: cholesterol is the common substrate from which the gonads synthesise the steroid sex hormones — estrogen, progesterone and testosterone — that govern reproduction, making it the foundational molecule of reproductive endocrinology."
+  - target: 01-human/03-molecular/kit
+    relation: connects-to
+    note: "Gametogenesis: KIT receptor signalling is essential for primordial germ-cell survival and migration, spermatogenesis and ovarian follicle development, a core pathway driving formation of the gametes the reproductive system exists to produce."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Gonadal regulation: the TGF-β superfamily, including the activin/inhibin axis already mapped, regulates gonadal function, follicular and Sertoli-cell development and FSH feedback, governing fertility across both sexes."
 ---
 
 # Reproductive System
@@ -512,6 +521,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — IGF-1 acts on ovarian granulosa cells and testicular Sertoli cells to amplify gonadotropin-driven folliculogenesis and spermatogenesis, coupling somatic growth status to the maturation of the reproductive axis at puberty.
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — WNT4/β-catenin signaling directs the bipotential gonad toward ovarian fate and patterns the Müllerian ducts, the developmental pathway that builds the female reproductive tract opposite the SRY-driven testicular program.
 - `connects-to` → **[Ghrelin](../../03-molecular/ghrelin/README.md)** — Ghrelin, the fasting hunger signal, suppresses GnRH pulsatility and gonadotropin release, the counterpart to leptin's sufficiency signal—together coupling nutritional state to fertility so reproduction pauses during starvation.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Cholesterol is the common substrate from which the gonads synthesize the steroid sex hormones—estrogen, progesterone and testosterone—that govern reproduction, making it the foundational molecule of reproductive endocrinology.
+- `connects-to` → **[KIT](../../03-molecular/kit/README.md)** — KIT receptor signaling is essential for primordial germ-cell survival and migration, spermatogenesis and ovarian follicle development, a core pathway driving formation of the gametes the reproductive system exists to produce.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — The TGF-β superfamily, including the activin/inhibin axis already mapped, regulates gonadal function, follicular and Sertoli-cell development and FSH feedback, governing fertility across both sexes.
 
 ## Pathology
 

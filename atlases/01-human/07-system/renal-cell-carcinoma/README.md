@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/cdkn2a
     relation: connects-to
     note: "Progression marker: somatic CDKN2A loss, releasing the brake on the CDK4/6-cyclin-D cell cycle, is associated with sarcomatoid dedifferentiation and aggressive, poor-prognosis clear-cell renal carcinoma."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Fumarate-NRF2 axis: in fumarate-hydratase-deficient (HLRCC) renal carcinoma, accumulated fumarate succinates KEAP1 to constitutively activate NRF2, an antioxidant-response programme that fuels the aggressive growth of this hereditary RCC subtype."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Macrophage microenvironment: RCC recruits tumour-associated macrophages via CCL2 into an immunosuppressive, highly angiogenic stroma, complementing the VEGF-driven biology that makes it responsive to anti-angiogenic and checkpoint therapy."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "Chromatin remodelling: ARID1A and the SWI/SNF complex are recurrently mutated in clear-cell RCC alongside the 3p PBRM1/BAP1 class (BAP1 already mapped), and this chromatin dysregulation shapes the epigenetic landscape of the disease."
 ---
 
 # Renal Cell Carcinoma
@@ -518,6 +527,9 @@ Kidney → primary site of EPO production under hypoxia; VHL-intact renal inters
 - `connects-to` → **[FH](../../03-molecular/fh/README.md)** — Germline fumarate-hydratase loss causes hereditary leiomyomatosis and renal cell cancer (HLRCC), an aggressive papillary type-2 RCC where accumulated fumarate stabilizes HIF and inactivates the KEAP1-NRF2 antioxidant pathway.
 - `connects-to` → **[FLCN](../../03-molecular/flcn/README.md)** — Germline folliculin loss causes Birt-Hogg-Dubé syndrome, predisposing to chromophobe renal carcinoma and hybrid oncocytic tumors through dysregulated AMPK-mTOR and TFE3/TFEB signaling distinct from the VHL-HIF axis.
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — Somatic CDKN2A loss, releasing the brake on the CDK4/6-cyclin-D cell cycle, is associated with sarcomatoid dedifferentiation and aggressive, poor-prognosis clear-cell renal carcinoma.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — In fumarate-hydratase-deficient (HLRCC) renal carcinoma, accumulated fumarate succinates KEAP1 to constitutively activate NRF2, an antioxidant-response program that fuels the aggressive growth of this hereditary RCC subtype.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — RCC recruits tumor-associated macrophages via CCL2 into an immunosuppressive, highly angiogenic stroma, complementing the VEGF-driven biology that makes it responsive to anti-angiogenic and checkpoint therapy.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A and the SWI/SNF complex are recurrently mutated in clear-cell RCC alongside the 3p PBRM1/BAP1 class (BAP1 already mapped), and this chromatin dysregulation shapes the epigenetic landscape of the disease.
 
 [^motzer-2018-checkmate214]: Motzer RJ, Tannir NM, McDermott DF, et al. Nivolumab plus ipilimumab versus sunitinib in advanced renal-cell carcinoma. *N Engl J Med.* 2018;378(14):1277-1290. [doi:10.1056/NEJMoa1712126](https://doi.org/10.1056/NEJMoa1712126) · [PubMed 29562145](https://pubmed.ncbi.nlm.nih.gov/29562145/)
 [^rini-2019-keynote426]: Rini BI, Plimack ER, Stus V, et al. Pembrolizumab plus axitinib versus sunitinib for advanced renal-cell carcinoma. *N Engl J Med.* 2019;380(12):1116-1127. [doi:10.1056/NEJMoa1816714](https://doi.org/10.1056/NEJMoa1816714) · [PubMed 30779529](https://pubmed.ncbi.nlm.nih.gov/30779529/)
