@@ -316,6 +316,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "Presynaptic contrast: acetylcholine release depends on calcium-triggered vesicle fusion at the nerve terminal — the presynaptic step intact in myasthenia's postsynaptic disease but blocked in Lambert-Eaton syndrome, where antibodies target presynaptic calcium channels."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "Autoantibody help: IL-6-driven STAT3 signalling (IL-6 already mapped) promotes the T-follicular-helper and Th17 responses that sustain the anti-AChR autoantibody production of myasthenia gravis."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Lost regulation: regulatory IL-10 from B-regulatory and T-regulatory cells restrains the autoantibody response of myasthenia gravis, and a deficit in this regulation helps permit the breaking of tolerance."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Failed tolerance: defective TGF-β-dependent regulatory T-cell control allows the anti-AChR autoreactivity of myasthenia gravis, with the thymus (already mapped) a site of this failed central and peripheral tolerance."
 ---
 
 # Myasthenia Gravis
@@ -526,6 +535,9 @@ cross_links:
 - `connects-to` → **[Glucocorticoid receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Glucocorticoids acting through the glucocorticoid receptor broadly suppress the autoreactive T- and B-cell response driving anti-AChR antibody production, a first-line immunosuppressive therapy for myasthenia gravis.
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Long-lived anti-AChR plasma cells survive on BCL-2 and lack CD20, so they escape rituximab—the basis for relapses after B-cell depletion and the rationale for plasma-cell-directed therapy in refractory myasthenia.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Acetylcholine release depends on calcium-triggered vesicle fusion at the nerve terminal—the presynaptic step intact in myasthenia's postsynaptic disease but blocked in Lambert-Eaton syndrome, where antibodies target presynaptic calcium channels.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-driven STAT3 signaling (IL-6 already mapped) promotes the T-follicular-helper and Th17 responses that sustain the anti-AChR autoantibody production of myasthenia gravis.
+- `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — Regulatory IL-10 from B-regulatory and T-regulatory cells restrains the autoantibody response of myasthenia gravis, and a deficit in this regulation helps permit the breaking of tolerance.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — Defective TGF-β-dependent regulatory T-cell control allows the anti-AChR autoreactivity of myasthenia gravis, with the thymus (already mapped) a site of this failed central and peripheral tolerance.
 
 [^gilhus-2016-mg-review]: Gilhus NE. Myasthenia Gravis. *N Engl J Med.* 2016;375(26):2570-2581. [doi:10.1056/NEJMra1602678](https://doi.org/10.1056/NEJMra1602678) · [PubMed 28029925](https://pubmed.ncbi.nlm.nih.gov/28029925/)
 [^howard-2021-efgartigimod-adapt]: Howard JF Jr, Bril V, Vu T, et al. Safety, efficacy, and tolerability of efgartigimod in patients with generalised myasthenia gravis (ADAPT). *Lancet Neurol.* 2021;20(7):526-536. [doi:10.1016/S1474-4422(21)00159-9](https://doi.org/10.1016/S1474-4422(21)00159-9) · [PubMed 34146511](https://pubmed.ncbi.nlm.nih.gov/34146511/)
