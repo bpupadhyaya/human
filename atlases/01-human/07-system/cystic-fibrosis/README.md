@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Infection-driven complement: chronic Pseudomonas colonisation in cystic fibrosis activates complement (C3) and generates immune complexes, and the resulting complement-mediated injury accelerates the progressive bronchiectasis."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Neutrophilic airway inflammation: TLR-MyD88-NF-κB innate signalling (TLR4 and NF-κB already mapped), driven by chronic Pseudomonas and Staphylococcus infection, sustains the destructive neutrophilic inflammation of the cystic-fibrosis lung."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Autophagy and CFTR clearance: mTOR-regulated autophagy (autophagy already mapped) governs the handling of misfolded ΔF508-CFTR, and its modulation is explored to rescue mutant CFTR trafficking in cystic fibrosis."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Cytokine amplification: IL-6 and inflammatory-cytokine signalling through JAK-STAT3 (IL-6 and STAT3 already mapped) amplifies the chronic airway inflammation of cystic fibrosis."
 ---
 
 # Cystic Fibrosis
@@ -551,6 +560,9 @@ AND
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — CFTR dysfunction impairs NRF2-driven antioxidant defense and glutathione transport, so oxidant stress goes unchecked and amplifies the airway inflammation that drives cystic-fibrosis lung damage.
 - `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — Relative deficiency of the anti-inflammatory cytokine IL-10 in the cystic-fibrosis airway removes a brake on neutrophilic inflammation, contributing to the exaggerated, self-perpetuating immune response.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Chronic Pseudomonas colonization in cystic fibrosis activates complement (C3) and generates immune complexes, and the resulting complement-mediated injury accelerates the progressive bronchiectasis.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88-NF-κB innate signaling (TLR4 and NF-κB already mapped), driven by chronic Pseudomonas and Staphylococcus infection, sustains the destructive neutrophilic inflammation of the cystic-fibrosis lung.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR-regulated autophagy (autophagy already mapped) governs the handling of misfolded ΔF508-CFTR, and its modulation is explored to rescue mutant CFTR trafficking in cystic fibrosis.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6 and inflammatory-cytokine signaling through JAK-STAT3 (IL-6 and STAT3 already mapped) amplifies the chronic airway inflammation of cystic fibrosis.
 
 ---
 

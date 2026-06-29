@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/e2f1
     relation: connects-to
     note: "Proliferative output: downstream of constitutive mTOR-AKT signalling, the cyclin-D1-RB axis (cyclin-D1 and CDKN1B already mapped) releases E2F1 to drive the cell-cycle entry underlying Cowden hamartomas and tumours."
+  - target: 01-human/03-molecular/egfr
+    relation: connects-to
+    note: "Unopposed RTK input: receptor-tyrosine-kinase signalling through EGFR feeds the PI3K-AKT-mTOR axis that PTEN normally restrains (PI3K, AKT and mTOR all mapped), and its unopposed activity drives the tumours of PTEN-deficient Cowden syndrome."
+  - target: 01-human/03-molecular/rb1
+    relation: connects-to
+    note: "Checkpoint restraint: the RB1-E2F checkpoint (E2F1, cyclin-D1 and CDKN1B already mapped) restrains the proliferation driven by the mTOR-AKT growth signalling characteristic of Cowden-syndrome lesions."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Apoptosis evasion: anti-apoptotic BCL-2 raises the threshold for caspase-3 apoptosis (already mapped), supporting the survival of the hamartomas and carcinomas of Cowden syndrome."
 ---
 
 # Cowden Syndrome
@@ -603,6 +612,9 @@ cross_links:
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — The unrestrained AKT of PTEN-deficient Cowden tissue phosphoinhibits GSK-3β (AKT already mapped), stabilizing cyclin-D1 and feeding the Wnt/β-catenin signaling (both mapped) that fuels hamartoma overgrowth.
 - `connects-to` → **[HER2](../../03-molecular/her2/README.md)** — HER2 and related receptors converge on the PI3K-AKT axis (already mapped), the receptor-level driver feeding the breast carcinomas that are a defining Cowden-syndrome cancer risk.
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — Downstream of constitutive mTOR-AKT signaling, the cyclin-D1-RB axis (cyclin-D1 and CDKN1B already mapped) releases E2F1 to drive the cell-cycle entry underlying Cowden hamartomas and tumors.
+- `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — Receptor-tyrosine-kinase signaling through EGFR feeds the PI3K-AKT-mTOR axis that PTEN normally restrains (PI3K, AKT and mTOR all mapped), and its unopposed activity drives the tumors of PTEN-deficient Cowden syndrome.
+- `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — The RB1-E2F checkpoint (E2F1, cyclin-D1 and CDKN1B already mapped) restrains the proliferation driven by the mTOR-AKT growth signaling characteristic of Cowden-syndrome lesions.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Anti-apoptotic BCL-2 raises the threshold for caspase-3 apoptosis (already mapped), supporting the survival of the hamartomas and carcinomas of Cowden syndrome.
 
 ---
 
