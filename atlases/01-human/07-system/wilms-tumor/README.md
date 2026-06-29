@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/cdh1
     relation: connects-to
     note: "Developmental MET: Wilms tumour recapitulates nephrogenesis, and E-cadherin marks the mesenchymal-to-epithelial transition that forms its epithelial (tubular) component within the triphasic histology."
+  - target: 01-human/03-molecular/rb1
+    relation: connects-to
+    note: "Cell-cycle drive: dysregulation of the RB1-E2F checkpoint (CDK4/6, cyclin-D1 and E2F1 already mapped) contributes to the proliferation of the blastemal cells of Wilms tumour."
+  - target: 01-human/03-molecular/kras
+    relation: connects-to
+    note: "RAS proliferation: RAS-ERK signalling (ERK1/2 already mapped) downstream of receptor tyrosine kinases provides a proliferative input in Wilms tumour."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "Anaplastic p53 loss: MDM2-mediated p53 inactivation (p53 already mapped) contributes to the apoptosis evasion of the aggressive anaplastic subtype of Wilms tumour."
 ---
 
 # Wilms Tumor
@@ -552,6 +561,9 @@ Wilms tumor survivors face late effects proportional to treatment intensity:
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — FGFR and PDGFR signaling (both mapped) drives the MAPK-ERK cascade promoting proliferation of the blastemal component of Wilms tumor.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — IGF2-driven (IGF-1 mapped) PI3K-AKT-mTOR signaling (PIK3CA, AKT and mTOR mapped), restrained by PTEN, supports the growth of Wilms tumor.
 - `connects-to` → **[CDH1](../../03-molecular/cdh1/README.md)** — Wilms tumor recapitulates nephrogenesis, and E-cadherin marks the mesenchymal-to-epithelial transition that forms its epithelial (tubular) component within the triphasic histology.
+- `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — Dysregulation of the RB1-E2F checkpoint (CDK4/6, cyclin-D1 and E2F1 already mapped) contributes to the proliferation of the blastemal cells of Wilms tumor.
+- `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — RAS-ERK signaling (ERK1/2 already mapped) downstream of receptor tyrosine kinases provides a proliferative input in Wilms tumor.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated p53 inactivation (p53 already mapped) contributes to the apoptosis evasion of the aggressive anaplastic subtype of Wilms tumor.
 
 [^dome-2015-wilms]: Dome JS, Graf N, Geller JI, et al. Advances in Wilms tumor treatment and biology: progress through international collaboration. *J Clin Oncol.* 2015;33(27):2999-3007. [doi:10.1200/JCO.2015.62.1888](https://doi.org/10.1200/JCO.2015.62.1888) · [PubMed 26261251](https://pubmed.ncbi.nlm.nih.gov/26261251/)
 [^dix-2006-arenl0002]: Dix DB, Bhatt SM, Geller JI, et al. Treatment of Stage IV favorable histology Wilms tumor with incomplete lung metastasis response after chemotherapy: a report from Children's Oncology Group Study AREN0533. *J Clin Oncol.* 2018;36(16):1564-1570. [doi:10.1200/JCO.2017.77.1877](https://doi.org/10.1200/JCO.2017.77.1877) · [PubMed 29584550](https://pubmed.ncbi.nlm.nih.gov/29584550/)

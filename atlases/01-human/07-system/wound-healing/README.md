@@ -328,6 +328,15 @@ cross_links:
   - target: 01-human/03-molecular/smad4
     relation: connects-to
     note: "Remodeling and scar: TGF-β signals through SMAD4 (TGF-β mapped) to drive fibroblast-to-myofibroblast transition and the collagen deposition (collagen mapped) of the remodeling phase, and its excess produces fibrotic scarring."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Injury sensing: TLR4 sensing of damage-associated molecular patterns released by tissue injury initiates the inflammatory phase of wound healing (with NF-κB already mapped)."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Proliferative phase: mTOR-driven protein synthesis and cell growth power the proliferative phase of wound healing, supporting keratinocyte migration, fibroblast proliferation and granulation-tissue formation."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Redox-balanced repair: NRF2-regulated redox balance governs the reactive-oxygen-species signalling that drives wound healing while limiting the oxidative damage that impairs chronic-wound closure."
 ---
 
 # Wound Healing
@@ -550,6 +559,9 @@ cross_links:
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — EGF, PDGF and FGF (all mapped) drive the MAPK-ERK cascade that powers the keratinocyte re-epithelialization and fibroblast proliferation of the wound's proliferative phase.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling downstream of the wound growth factors promotes the cell survival, migration and angiogenesis that build granulation tissue.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β signals through SMAD4 (TGF-β mapped) to drive fibroblast-to-myofibroblast transition and the collagen deposition (collagen mapped) of the remodeling phase, and its excess produces fibrotic scarring.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4 sensing of damage-associated molecular patterns released by tissue injury initiates the inflammatory phase of wound healing (with NF-κB already mapped).
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR-driven protein synthesis and cell growth power the proliferative phase of wound healing, supporting keratinocyte migration, fibroblast proliferation and granulation-tissue formation.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2-regulated redox balance governs the reactive-oxygen-species signaling that drives wound healing while limiting the oxidative damage that impairs chronic-wound closure.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)
