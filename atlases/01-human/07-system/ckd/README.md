@@ -342,6 +342,15 @@ cross_links:
   - target: 01-human/03-molecular/pdgf
     relation: connects-to
     note: "PDGF drives mesangial and fibroblast proliferation, contributing to the glomerulosclerosis and tubulointerstitial fibrosis of chronic kidney disease."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6-STAT3 signalling drives the tubulointerstitial inflammation and fibrotic progression of chronic kidney disease."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA sensing through cGAS-STING links tubular cell injury to the sterile inflammation that drives progression of chronic kidney disease."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the immune-mediated and interferon-driven inflammation of chronic kidney disease."
 ---
 
 # Chronic Kidney Disease
@@ -526,6 +535,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 is a driver and biomarker of the renal and cardiac fibrosis that links CKD to its cardiovascular complications.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling (mTOR mapped) governs podocyte and tubular-cell survival and the hypertrophic responses that shape CKD progression.
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — PDGF drives mesangial and fibroblast proliferation, contributing to the glomerulosclerosis and tubulointerstitial fibrosis of chronic kidney disease.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling drives the tubulointerstitial inflammation and fibrotic progression of chronic kidney disease.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING links tubular cell injury to the sterile inflammation that drives progression of chronic kidney disease.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the immune-mediated and interferon-driven inflammation of chronic kidney disease.
 
 ## Pathology
 

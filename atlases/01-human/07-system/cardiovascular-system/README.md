@@ -348,6 +348,15 @@ cross_links:
   - target: 01-human/03-molecular/nf-kb
     relation: connects-to
     note: "NF-κB-driven endothelial and vascular inflammation is central to atherogenesis and the inflammatory component of cardiovascular disease."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 drives cardiac and vascular fibrosis and is an established biomarker of heart failure and adverse cardiovascular remodelling."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6-STAT3 signalling mediates cardiomyocyte hypertrophy and the vascular inflammation shared across cardiovascular diseases."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling (TGF-β already mapped) drives the cardiac and vascular fibrosis central to adverse remodelling in cardiovascular disease."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"
@@ -540,6 +549,9 @@ Each major vascular bed has **autoregulation** — a local mechanism that holds 
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR signaling (downstream of the AKT axis mapped) governs cardiomyocyte growth and the hypertrophic remodeling of the heart in pressure and volume overload.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α coordinates the myocardial and vascular response to ischemia, driving angiogenesis and metabolic adaptation in the cardiovascular system.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB-driven endothelial and vascular inflammation is central to atherogenesis and the inflammatory component of cardiovascular disease.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 drives cardiac and vascular fibrosis and is an established biomarker of heart failure and adverse cardiovascular remodeling.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling mediates cardiomyocyte hypertrophy and the vascular inflammation shared across cardiovascular diseases.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β already mapped) drives the cardiac and vascular fibrosis central to adverse remodeling in cardiovascular disease.
 
 ## Pathology
 
