@@ -332,6 +332,15 @@ cross_links:
   - target: 01-human/03-molecular/il-17a
     relation: connects-to
     note: "IL-17A links immune activation to bone and joint pathology, driving osteoclastogenesis and the enthesitis of spondyloarthritis."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β/BMP-SMAD signalling (TGF-β already mapped) governs bone and cartilage formation and the matrix homeostasis of the musculoskeletal system."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6-STAT3 signalling drives the muscle wasting and bone remodelling shared across catabolic and inflammatory disorders of the musculoskeletal system."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 modulates chondrocyte and osteoclast biology and the inflammatory matrix remodelling of the musculoskeletal system."
 ---
 
 # Musculoskeletal System
@@ -573,6 +582,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — IGF-1/insulin signaling through PI3K-AKT-mTOR (IGF-1 and mTOR mapped) governs skeletal-muscle hypertrophy and bone anabolic responses.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — TNF-α is a potent osteoclastogenic and catabolic cytokine driving bone resorption and muscle wasting in inflammatory and age-related musculoskeletal disease.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A links immune activation to bone and joint pathology, driving osteoclastogenesis and the enthesitis of spondyloarthritis.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β/BMP-SMAD signaling (TGF-β already mapped) governs bone and cartilage formation and the matrix homeostasis of the musculoskeletal system.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling drives the muscle wasting and bone remodeling shared across catabolic and inflammatory disorders of the musculoskeletal system.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 modulates chondrocyte and osteoclast biology and the inflammatory matrix remodeling of the musculoskeletal system.
 
 ## Pathology
 
