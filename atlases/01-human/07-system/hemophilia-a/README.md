@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/erk1-2
     relation: connects-to
     note: "Synovial proliferation: ERK-MAPK signalling drives the synovial proliferation and neoangiogenesis (VEGF already mapped) of the hypertrophic synovium in hemophilic arthropathy."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 amplifies the iron-driven synovial inflammation that drives the chronic synovitis of hemophilic arthropathy after recurrent haemarthrosis."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling (TGF-β already mapped) drives the joint fibrosis and cartilage degradation of the hemophilic arthropathy that follows repeated bleeds."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6-STAT3 signalling transduces the inflammatory cytokine milieu of the hypertrophic synovium in hemophilic arthropathy."
 ---
 
 # Hemophilia A
@@ -568,6 +577,9 @@ FVIII is a critical **amplifier** of the coagulation cascade at the junction bet
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Iron and blood-breakdown products in the hemophilic joint activate TLR-MyD88-NF-κB signaling (TLR4 and NF-κB already mapped), driving the chronic synovitis of recurrent hemarthrosis.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6-JAK-STAT signaling (IL-6 already mapped) sustains the inflammatory synovitis that progresses to destructive hemophilic arthropathy.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling drives the synovial proliferation and neoangiogenesis (VEGF already mapped) of the hypertrophic synovium in hemophilic arthropathy.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 amplifies the iron-driven synovial inflammation that drives the chronic synovitis of hemophilic arthropathy after recurrent hemarthrosis.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β already mapped) drives the joint fibrosis and cartilage degradation of the hemophilic arthropathy that follows repeated bleeds.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling transduces the inflammatory cytokine milieu of the hypertrophic synovium in hemophilic arthropathy.
 
 [^oldenburg-2017-emicizumab-haven1]: Oldenburg J, Mahlangu JN, Kim B, et al. Emicizumab prophylaxis in hemophilia A with inhibitors. *N Engl J Med.* 2017;377(9):809-818. [doi:10.1056/NEJMoa1703068](https://doi.org/10.1056/NEJMoa1703068) · [PubMed 28691557](https://pubmed.ncbi.nlm.nih.gov/28691557/)
 [^mahlangu-2018-emicizumab-haven3]: Mahlangu J, Oldenburg J, Paz-Priel I, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors. *N Engl J Med.* 2018;379(9):811-822. [doi:10.1056/NEJMoa1803550](https://doi.org/10.1056/NEJMoa1803550) · [PubMed 30157389](https://pubmed.ncbi.nlm.nih.gov/30157389/)

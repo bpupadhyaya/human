@@ -334,6 +334,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Myocardial hypoxia: HIF-1α responses to the hypoxia of the failing heart drive metabolic and angiogenic adaptations that are initially protective but maladaptive when sustained."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling (TGF-β already mapped) drives the cardiac fibrosis and adverse ventricular remodelling central to the progression of heart failure."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6-STAT3 signalling mediates cardiomyocyte hypertrophy and the inflammatory remodelling of the failing myocardium in heart failure."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Mitochondrial DNA released by stressed cardiomyocytes engages cGAS-STING, driving the sterile inflammation that contributes to adverse remodelling in heart failure."
 ---
 
 # Heart Failure
@@ -512,6 +521,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4 sensing of damage-associated molecular patterns from injured myocardium drives the sterile inflammation that contributes to adverse remodeling in heart failure.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6-JAK-STAT signaling (IL-6 already mapped) participates in the inflammatory and hypertrophic remodeling of the failing heart, with STAT3 also mediating cardioprotection.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α responses to the hypoxia of the failing heart drive metabolic and angiogenic adaptations that are initially protective but maladaptive when sustained.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β already mapped) drives the cardiac fibrosis and adverse ventricular remodeling central to the progression of heart failure.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling mediates cardiomyocyte hypertrophy and the inflammatory remodeling of the failing myocardium in heart failure.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Mitochondrial DNA released by stressed cardiomyocytes engages cGAS-STING, driving the sterile inflammation that contributes to adverse remodeling in heart failure.
 
 ## Pathology
 
