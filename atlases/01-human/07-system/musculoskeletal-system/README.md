@@ -323,6 +323,15 @@ cross_links:
   - target: 01-human/03-molecular/glucocorticoid-receptor
     relation: connects-to
     note: "Steroid catabolism: glucocorticoids acting through the glucocorticoid receptor (cortisol mapped) cause both skeletal-muscle atrophy and osteoporosis, the dual musculoskeletal toxicity of steroid excess."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "IGF-1/insulin signalling through PI3K-AKT-mTOR (IGF-1 and mTOR mapped) governs skeletal-muscle hypertrophy and bone anabolic responses."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "TNF-α is a potent osteoclastogenic and catabolic cytokine driving bone resorption and muscle wasting in inflammatory and age-related musculoskeletal disease."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "IL-17A links immune activation to bone and joint pathology, driving osteoclastogenesis and the enthesitis of spondyloarthritis."
 ---
 
 # Musculoskeletal System
@@ -561,6 +570,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — The IGF-1-AKT-mTOR pathway (IGF-1 mapped) drives the protein synthesis underlying skeletal-muscle hypertrophy, the anabolic switch that builds muscle in response to load.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — The calcium-activated phosphatase calcineurin drives NFAT-dependent slow-twitch fiber-type programming and muscle adaptation to endurance activity.
 - `connects-to` → **[Glucocorticoid Receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Glucocorticoids acting through the glucocorticoid receptor (cortisol mapped) cause both skeletal-muscle atrophy and osteoporosis, the dual musculoskeletal toxicity of steroid excess.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — IGF-1/insulin signaling through PI3K-AKT-mTOR (IGF-1 and mTOR mapped) governs skeletal-muscle hypertrophy and bone anabolic responses.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — TNF-α is a potent osteoclastogenic and catabolic cytokine driving bone resorption and muscle wasting in inflammatory and age-related musculoskeletal disease.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A links immune activation to bone and joint pathology, driving osteoclastogenesis and the enthesitis of spondyloarthritis.
 
 ## Pathology
 

@@ -325,6 +325,15 @@ cross_links:
   - target: 01-human/03-molecular/p53
     relation: connects-to
     note: "Leukaemic transformation: TP53 inactivation drives the progression of myelofibrosis to the blast phase, a secondary acute myeloid leukaemia with dismal prognosis."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "JAK2-driven PI3K-AKT-mTOR signalling (JAK2 and AKT mapped) supports clonal proliferation in myelofibrosis and is a target of mTOR-inhibitor trials."
+  - target: 01-human/03-molecular/runx1
+    relation: connects-to
+    note: "Acquisition of RUNX1 mutations marks clonal evolution of myelofibrosis toward blast-phase (secondary AML) transformation."
+  - target: 01-human/03-molecular/idh1
+    relation: connects-to
+    note: "IDH1 mutations are recurrent high-risk lesions driving epigenetic dysregulation and leukaemic transformation in myelofibrosis, complementing the EZH2/DNMT3A lesions already mapped."
 ---
 
 # Myelofibrosis
@@ -555,6 +564,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β released by the clonal megakaryocytes signals through SMAD4 (TGF-β mapped) to activate marrow fibroblasts that lay down the collagen (mapped) reticulin fibrosis defining myelofibrosis.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — JAK2 (mapped) also engages PI3K-AKT-mTOR, a parallel survival-and-proliferation pathway supporting the myelofibrosis clone alongside JAK-STAT.
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 inactivation drives the progression of myelofibrosis to the blast phase, a secondary acute myeloid leukemia with dismal prognosis.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — JAK2-driven PI3K-AKT-mTOR signaling (JAK2 and AKT mapped) supports clonal proliferation in myelofibrosis and is a target of mTOR-inhibitor trials.
+- `connects-to` → **[RUNX1](../../03-molecular/runx1/README.md)** — Acquisition of RUNX1 mutations marks clonal evolution of myelofibrosis toward blast-phase (secondary AML) transformation.
+- `connects-to` → **[IDH1](../../03-molecular/idh1/README.md)** — IDH1 mutations are recurrent high-risk lesions driving epigenetic dysregulation and leukemic transformation in myelofibrosis, complementing the EZH2/DNMT3A lesions already mapped.
 
 ---
 
