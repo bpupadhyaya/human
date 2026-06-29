@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/e2f1
     relation: connects-to
     note: "Cell-cycle progression: with CDKN2A loss and CDK4/6 activity (both mapped), E2F1 is released to drive the proliferation that accompanies malignant transformation in NF1-associated tumours."
+  - target: 01-human/03-molecular/rb1
+    relation: connects-to
+    note: "MPNST transformation: loss of the RB1-E2F checkpoint (CDK4/6, CDKN2A and E2F1 already mapped) is a cooperating event in the transformation of plexiform neurofibroma to malignant peripheral nerve sheath tumour in NF1."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "p53 inactivation: MDM2-mediated p53 inactivation (p53 already mapped) contributes to the malignant transformation of NF1 neurofibromas to MPNST."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "PRC2 loss: loss of PRC2 components (EZH2/SUZ12) marks the malignant transformation of NF1 plexiform neurofibroma to MPNST, the resulting H3K27me3 loss being diagnostic of this aggressive sarcoma."
 ---
 
 # Neurofibromatosis Type 1
@@ -536,6 +545,9 @@ In glioma and MPNST: additional alterations required — MPNST requires CDKN2A/2
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Loss of neurofibromin's RAS-GAP activity hyperactivates RAS, which engages PI3K-AKT-mTOR (AKT and mTOR already mapped) alongside the RAS-MAPK cascade in NF1-driven tumors.
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 inactivation is a key event driving the progression of a plexiform neurofibroma into malignant peripheral nerve sheath tumor in NF1.
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — With CDKN2A loss and CDK4/6 activity (both mapped), E2F1 is released to drive the proliferation that accompanies malignant transformation in NF1-associated tumors.
+- `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — Loss of the RB1-E2F checkpoint (CDK4/6, CDKN2A and E2F1 already mapped) is a cooperating event in the transformation of plexiform neurofibroma to malignant peripheral nerve sheath tumor in NF1.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated p53 inactivation (p53 already mapped) contributes to the malignant transformation of NF1 neurofibromas to MPNST.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Loss of PRC2 components (EZH2/SUZ12) marks the malignant transformation of NF1 plexiform neurofibroma to MPNST, the resulting H3K27me3 loss being diagnostic of this aggressive sarcoma.
 
 [^gutmann-2017-nf1-primer]: Gutmann DH, Ferner RE, Listernick RH, et al. Neurofibromatosis type 1. *Nat Rev Dis Primers.* 2017;3:17004. [doi:10.1038/nrdp.2017.4](https://doi.org/10.1038/nrdp.2017.4) · [PubMed 28230061](https://pubmed.ncbi.nlm.nih.gov/28230061/)
 [^dombi-2016-selumetinib]: Dombi E, Baldwin A, Marcus LJ, et al. Activity of Selumetinib in Neurofibromatosis Type 1-Related Plexiform Neurofibromas. *N Engl J Med.* 2016;375(26):2550-2560. [doi:10.1056/NEJMoa1605943](https://doi.org/10.1056/NEJMoa1605943) · [PubMed 28029918](https://pubmed.ncbi.nlm.nih.gov/28029918/)

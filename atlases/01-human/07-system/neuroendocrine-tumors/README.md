@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/e2f1
     relation: connects-to
     note: "Proliferative grading: the cyclin-D-CDK4/6 axis (cyclin-D1 and CDKN2A already mapped) releases E2F1 to drive the cell-cycle activity reflected in the Ki67 index that grades neuroendocrine tumours."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "Antiangiogenic target: the VEGF/PDGF angiogenic axis (VEGF already mapped) sustains the characteristically vascular neuroendocrine tumours and is the target of the multikinase inhibitor sunitinib."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "mTOR pathway: PTEN loss releases the PI3K-AKT-mTOR axis (AKT, PIK3CA and mTOR already mapped) that drives neuroendocrine-tumour growth and is inhibited therapeutically by everolimus."
+  - target: 01-human/03-molecular/rb1
+    relation: connects-to
+    note: "Grade dichotomy: combined RB1 and TP53 loss distinguishes the high-grade, poorly-differentiated neuroendocrine carcinomas from well-differentiated NETs, releasing the cell-cycle checkpoint (CDKN2A and E2F1 already mapped)."
 ---
 
 # Neuroendocrine Tumors
@@ -528,6 +537,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PIK3CA drives the PI3K-AKT-mTOR pathway (AKT and mTOR already mapped) in neuroendocrine tumors, the basis for the mTOR inhibitor everolimus in their treatment.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — The Notch ligand DLL3 (mapped) is aberrantly expressed in high-grade neuroendocrine tumors, and dysregulated NOTCH signaling shapes their differentiation, with DLL3 itself a bispecific-antibody target.
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — The cyclin-D-CDK4/6 axis (cyclin-D1 and CDKN2A already mapped) releases E2F1 to drive the cell-cycle activity reflected in the Ki67 index that grades neuroendocrine tumors.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — The VEGF/PDGF angiogenic axis (VEGF already mapped) sustains the characteristically vascular neuroendocrine tumors and is the target of the multikinase inhibitor sunitinib.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss releases the PI3K-AKT-mTOR axis (AKT, PIK3CA and mTOR already mapped) that drives neuroendocrine-tumor growth and is inhibited therapeutically by everolimus.
+- `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — Combined RB1 and TP53 loss distinguishes the high-grade, poorly-differentiated neuroendocrine carcinomas from well-differentiated NETs, releasing the cell-cycle checkpoint (CDKN2A and E2F1 already mapped).
 
 [^yao-2011-radiant3]: Yao JC, Shah MH, Ito T, et al. Everolimus for advanced pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):514-523. [doi:10.1056/NEJMoa1009290](https://doi.org/10.1056/NEJMoa1009290) · [PubMed 21306237](https://pubmed.ncbi.nlm.nih.gov/21306237/)
 [^raymond-2011-sunitinib-pnet]: Raymond E, Dahan L, Raoul JL, et al. Sunitinib malate for the treatment of pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):501-513. [doi:10.1056/NEJMoa1003825](https://doi.org/10.1056/NEJMoa1003825) · [PubMed 21306236](https://pubmed.ncbi.nlm.nih.gov/21306236/)
