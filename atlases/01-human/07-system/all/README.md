@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "HIF-1α in the hypoxic bone-marrow niche supports the survival and metabolic adaptation of acute lymphoblastic leukemia cells."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the antileukemic immune response and immune-evasion balance of acute lymphoblastic leukemia, relevant to its immunotherapy."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA sensing through cGAS-STING modulates the inflammatory and immune microenvironment of the bone marrow infiltrated by acute lymphoblastic leukemia."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling in the bone-marrow niche contributes to the immunosuppression and chemoprotection of acute lymphoblastic leukemia cells."
 ---
 
 # Acute Lymphoblastic Leukemia
@@ -587,6 +596,9 @@ Childhood ALL survivors (now majority of patients): neurocognitive impairment (M
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β within the bone-marrow niche regulates leukemic-cell quiescence and chemoresistance in acute lymphoblastic leukemia.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Stromal and leukemic galectin-3 promotes the marrow-niche survival signaling and chemoresistance of acute lymphoblastic leukemia blasts.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α in the hypoxic bone-marrow niche supports the survival and metabolic adaptation of acute lymphoblastic leukemia cells.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antileukemic immune response and immune-evasion balance of acute lymphoblastic leukemia, relevant to its immunotherapy.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING modulates the inflammatory and immune microenvironment of the bone marrow infiltrated by acute lymphoblastic leukemia.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling in the bone-marrow niche contributes to the immunosuppression and chemoprotection of acute lymphoblastic leukemia cells.
 
 [^pui-2018-all-cure]: Pui CH, Yang JJ, Bhakta N, et al. Global efforts toward the cure of childhood acute lymphoblastic leukemia. *Lancet Child Adolesc Health.* 2018;2(6):440-454. [doi:10.1016/S2352-4642(18)30066-X](https://doi.org/10.1016/S2352-4642(18)30066-X) · [PubMed 29976322](https://pubmed.ncbi.nlm.nih.gov/29976322/)
 [^maude-2018-tisagenlecleucel]: Maude SL, Laetsch TW, Buechner J, et al. Tisagenlecleucel in children and young adults with B-cell lymphoblastic leukemia. *N Engl J Med.* 2018;378(5):439-448. [doi:10.1056/NEJMoa1709866](https://doi.org/10.1056/NEJMoa1709866) · [PubMed 29385370](https://pubmed.ncbi.nlm.nih.gov/29385370/)

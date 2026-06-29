@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/jak1-2
     relation: connects-to
     note: "Cytokine-driven JAK-STAT signalling (IL-6 mapped) transduces the systemic and neuroinflammation accompanying chronic alcohol exposure."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β signalling in reward and stress circuits shapes the synaptic plasticity underlying dependence and relapse in alcohol use disorder."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6-STAT3 signalling (JAK1/2 already mapped) transduces the systemic and neuroinflammatory tone driven by chronic alcohol exposure, including alcoholic liver disease."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic and gut-derived microbial DNA engages cGAS-STING, contributing to the TLR4-associated hepatic and neuroinflammation of alcohol use disorder."
 ---
 
 # Alcohol Use Disorder
@@ -639,6 +648,9 @@ Prenatal alcohol exposure → leading preventable cause of intellectual disabili
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT-mTOR signaling (mTOR mapped) participates in the reward-circuit synaptic plasticity and neuroadaptations of alcohol use disorder.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Alcohol-induced microglial and Kupffer-cell activation induces galectin-3, amplifying the neuroinflammation and hepatic injury of alcohol use disorder.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Cytokine-driven JAK-STAT signaling (IL-6 mapped) transduces the systemic and neuroinflammation accompanying chronic alcohol exposure.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β signaling in reward and stress circuits shapes the synaptic plasticity underlying dependence and relapse in alcohol use disorder.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling (JAK1/2 already mapped) transduces the systemic and neuroinflammatory tone driven by chronic alcohol exposure, including alcoholic liver disease.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic and gut-derived microbial DNA engages cGAS-STING, contributing to the TLR4-associated hepatic and neuroinflammation of alcohol use disorder.
 
 [^koob-2013-addiction-neuroscience]: Koob GF, Volkow ND. Neurocircuitry of addiction. *Neuropsychopharmacology.* 2010;35(1):217-238. [doi:10.1038/npp.2009.110](https://doi.org/10.1038/npp.2009.110) · [PubMed 19710631](https://pubmed.ncbi.nlm.nih.gov/19710631/)
 [^anton-2006-combine]: Anton RF, O'Malley SS, Ciraulo DA, et al. Combined pharmacotherapies and behavioral interventions for alcohol dependence: the COMBINE study. *JAMA.* 2006;295(17):2003-2017. [doi:10.1001/jama.295.17.2003](https://doi.org/10.1001/jama.295.17.2003) · [PubMed 16670409](https://pubmed.ncbi.nlm.nih.gov/16670409/)
