@@ -337,6 +337,15 @@ cross_links:
   - target: 01-human/03-molecular/akt
     relation: connects-to
     note: "Fibroblast survival: PI3K-AKT signalling promotes the survival, proliferation and apoptosis-resistance of the rheumatoid synovial fibroblasts that drive joint destruction."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "ERK-MAPK signalling drives the aggressive fibroblast-like synoviocyte proliferation that builds the invasive pannus of rheumatoid arthritis."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 is highly expressed by rheumatoid synovial fibroblasts, amplifying joint inflammation and serving as a biomarker of disease activity."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-γ-STAT1 signalling (IFN-γ mapped) drives the Th1 and macrophage activation contributing to rheumatoid synovitis."
 ---
 
 # Rheumatoid Arthritis
@@ -585,6 +594,9 @@ RA patients have:
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4 sensing of damage-associated and citrullinated self-molecules (with MyD88 already mapped) helps initiate and perpetuate the synovial inflammation of rheumatoid arthritis.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR-driven metabolic reprogramming of synovial fibroblasts and Th17 cells sustains the aggressive, invasive pannus of rheumatoid arthritis.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling promotes the survival, proliferation and apoptosis-resistance of the rheumatoid synovial fibroblasts that drive joint destruction.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling drives the aggressive fibroblast-like synoviocyte proliferation that builds the invasive pannus of rheumatoid arthritis.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 is highly expressed by rheumatoid synovial fibroblasts, amplifying joint inflammation and serving as a biomarker of disease activity.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-γ-STAT1 signaling (IFN-γ mapped) drives the Th1 and macrophage activation contributing to rheumatoid synovitis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
