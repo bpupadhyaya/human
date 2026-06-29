@@ -337,6 +337,15 @@ cross_links:
   - target: 01-human/03-molecular/smad4
     relation: connects-to
     note: "Altered TGF-β-SMAD signalling (TGF-β mapped) contributes to invasion and epithelial-mesenchymal transition in aggressive endometrial cancer."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 supports immune evasion and the invasive progression of endometrial cancer."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the antitumour immune response of endometrial cancer, particularly the immunotherapy-responsive mismatch-repair-deficient subtype."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "EZH2-mediated polycomb repression silences tumour-suppressor genes and contributes to the epigenetic dysregulation of endometrial cancer."
 ---
 
 # Endometrial Cancer
@@ -568,6 +577,9 @@ cross_links:
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-JAK-STAT3 signaling (IL-6 mapped) links the obesity-associated inflammatory state to proliferation and immune evasion in endometrial cancer.
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A loss releases CDK4/6-cyclin-D control (CDK4/6 mapped) of the cell cycle, a recurrent lesion contributing to endometrial carcinogenesis.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — Altered TGF-β-SMAD signaling (TGF-β mapped) contributes to invasion and epithelial-mesenchymal transition in aggressive endometrial cancer.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 supports immune evasion and the invasive progression of endometrial cancer.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antitumor immune response of endometrial cancer, particularly the immunotherapy-responsive mismatch-repair-deficient subtype.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — EZH2-mediated polycomb repression silences tumor-suppressor genes and contributes to the epigenetic dysregulation of endometrial cancer.
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)

@@ -346,6 +346,15 @@ cross_links:
   - target: 01-human/03-molecular/erk1-2
     relation: connects-to
     note: "ERK-MAPK signalling is activated during epileptogenesis, contributing to the neuronal hyperexcitability and network reorganisation of chronic epilepsy."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 released by activated microglia amplifies the neuroinflammation that contributes to epileptogenesis and seizure progression."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "JAK-STAT3 signalling drives the reactive astrogliosis that remodels neural networks during the development of chronic epilepsy."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA released by neuronal injury can engage cGAS-STING, contributing to the neuroinflammation that promotes epileptogenesis."
 ---
 
 # Epilepsy
@@ -607,6 +616,9 @@ Anti-NMDAR encephalitis is the most common autoimmune encephalitis (~37% of auto
 - `connects-to` → **[TSC1-TSC2](../../03-molecular/tsc1-tsc2/README.md)** — Loss of TSC1-TSC2 control of mTOR (mTOR mapped) causes the cortical malformations and mTORopathy epilepsies such as tuberous sclerosis.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN regulation of the PI3K-AKT-mTOR axis (AKT and mTOR mapped) underlies the malformations of cortical development that cause refractory epilepsy.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling is activated during epileptogenesis, contributing to the neuronal hyperexcitability and network reorganization of chronic epilepsy.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 released by activated microglia amplifies the neuroinflammation that contributes to epileptogenesis and seizure progression.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — JAK-STAT3 signaling drives the reactive astrogliosis that remodels neural networks during the development of chronic epilepsy.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA released by neuronal injury can engage cGAS-STING, contributing to the neuroinflammation that promotes epileptogenesis.
 
 [^fisher-2017-ilae-classification]: Fisher RS, Cross JH, D'Souza C, et al. Instruction manual for the ILAE 2017 operational classification of seizure types. *Epilepsia.* 2017;58(4):531-542. [doi:10.1111/epi.13671](https://doi.org/10.1111/epi.13671) · [PubMed 28276060](https://pubmed.ncbi.nlm.nih.gov/28276060/)
 [^devinsky-2018-epilepsy-review]: Devinsky O, Vezzani A, O'Brien TJ, et al. Epilepsy. *Nat Rev Dis Primers.* 2018;4:18024. [doi:10.1038/nrdp.2018.24](https://doi.org/10.1038/nrdp.2018.24) · [PubMed 29722352](https://pubmed.ncbi.nlm.nih.gov/29722352/)
