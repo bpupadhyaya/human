@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/idh1
     relation: connects-to
     note: "Metabolic-RCC parallel: oncometabolite-producing IDH mutations parallel the FH and SDHB lesions (both already mapped) in the metabolically-driven hereditary renal cancers, where altered metabolites stabilise HIF."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 is expressed in renal cell carcinoma and contributes to its invasion, metastasis and immune evasion."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6-JAK-STAT3 signalling (IL-6 and JAK mapped) supports proliferation and immune modulation in renal cell carcinoma."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "cGAS-STING signalling shapes the immune microenvironment underlying the marked immunotherapy responsiveness of renal cell carcinoma."
 ---
 
 # Renal Cell Carcinoma
@@ -554,6 +563,9 @@ Kidney → primary site of EPO production under hypoxia; VHL-intact renal inters
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6-JAK-STAT signaling (IL-6 already mapped) sustains an inflammatory, immunosuppressive microenvironment in renal cell carcinoma.
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — Dysregulation of the RB1-E2F checkpoint (CDKN2A and cyclin-D1 already mapped) contributes to the proliferation of renal cell carcinoma.
 - `connects-to` → **[IDH1](../../03-molecular/idh1/README.md)** — Oncometabolite-producing IDH mutations parallel the FH and SDHB lesions (both already mapped) in the metabolically-driven hereditary renal cancers, where altered metabolites stabilize HIF.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 is expressed in renal cell carcinoma and contributes to its invasion, metastasis and immune evasion.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-JAK-STAT3 signaling (IL-6 and JAK mapped) supports proliferation and immune modulation in renal cell carcinoma.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — cGAS-STING signaling shapes the immune microenvironment underlying the marked immunotherapy responsiveness of renal cell carcinoma.
 
 [^motzer-2018-checkmate214]: Motzer RJ, Tannir NM, McDermott DF, et al. Nivolumab plus ipilimumab versus sunitinib in advanced renal-cell carcinoma. *N Engl J Med.* 2018;378(14):1277-1290. [doi:10.1056/NEJMoa1712126](https://doi.org/10.1056/NEJMoa1712126) · [PubMed 29562145](https://pubmed.ncbi.nlm.nih.gov/29562145/)
 [^rini-2019-keynote426]: Rini BI, Plimack ER, Stus V, et al. Pembrolizumab plus axitinib versus sunitinib for advanced renal-cell carcinoma. *N Engl J Med.* 2019;380(12):1116-1127. [doi:10.1056/NEJMoa1816714](https://doi.org/10.1056/NEJMoa1816714) · [PubMed 30779529](https://pubmed.ncbi.nlm.nih.gov/30779529/)

@@ -329,6 +329,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "Gametogenesis signalling: NOTCH signalling regulates folliculogenesis in the ovary and Sertoli-germ-cell interactions in the testis, a developmental pathway central to gametogenesis."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K-AKT signalling governs oocyte and follicle survival and the Sertoli-cell support of spermatogenesis in the reproductive system."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "Activin/TGF-β-SMAD signalling (activin-A and TGF-β mapped) regulates FSH secretion, folliculogenesis and gonadal development."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Prolactin and growth hormone signal through JAK-STAT (prolactin and GH mapped), a core endocrine transduction in reproductive physiology and lactation."
 ---
 
 # Reproductive System
@@ -548,6 +557,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling transduces gonadotropin (LH/FSH) and growth-factor cues into the steroidogenesis, oocyte maturation and spermatogenesis coordinated by the reproductive system.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR nutrient-sensing couples metabolic state to oocyte and follicular development and to spermatogenesis, integrating energy availability with fertility.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH signaling regulates folliculogenesis in the ovary and Sertoli-germ-cell interactions in the testis, a developmental pathway central to gametogenesis.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling governs oocyte and follicle survival and the Sertoli-cell support of spermatogenesis in the reproductive system.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — Activin/TGF-β-SMAD signaling (activin-A and TGF-β mapped) regulates FSH secretion, folliculogenesis and gonadal development.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Prolactin and growth hormone signal through JAK-STAT (prolactin and GH mapped), a core endocrine transduction in reproductive physiology and lactation.
 
 ## Pathology
 
