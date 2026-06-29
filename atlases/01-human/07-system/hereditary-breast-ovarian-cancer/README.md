@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/bcl-2
     relation: connects-to
     note: "Hormonal survival: estrogen-induced anti-apoptotic BCL-2 supports the survival of the hormone-receptor-positive breast cancers arising in HBOC, balancing the caspase-3 apoptosis already mapped."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 promotes invasion and immune evasion in the breast and ovarian cancers of hereditary breast-ovarian cancer syndrome."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "TGF-β signalling, a context-dependent regulator, shapes EMT, invasion and the immunosuppressive microenvironment in BRCA-associated cancers."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "ERK-MAPK signalling downstream of EGFR/HER2 (both mapped) provides a proliferative input in BRCA-associated breast and ovarian cancers."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -571,6 +580,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2 negatively regulates p53 (already mapped), and its dysregulation cooperates with the homologous-recombination defects of BRCA-mutant tumors to permit survival of genomically unstable cells.
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — The RB1-E2F checkpoint (E2F1, CDK4/6 and CDKN2A already mapped) is frequently disrupted in BRCA-associated basal-like breast and high-grade serous ovarian cancer, driving proliferation.
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Estrogen-induced anti-apoptotic BCL-2 supports the survival of the hormone-receptor-positive breast cancers arising in HBOC, balancing the caspase-3 apoptosis already mapped.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 promotes invasion and immune evasion in the breast and ovarian cancers of hereditary breast-ovarian cancer syndrome.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β signaling, a context-dependent regulator, shapes EMT, invasion and the immunosuppressive microenvironment in BRCA-associated cancers.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling downstream of EGFR/HER2 (both mapped) provides a proliferative input in BRCA-associated breast and ovarian cancers.
 
 ---
 

@@ -337,6 +337,15 @@ cross_links:
   - target: 01-human/03-molecular/mtor
     relation: connects-to
     note: "Macrophage metabolic activation: mTOR-dependent metabolic reprogramming of urate-crystal-activated macrophages supports the inflammatory cytokine output and trained-immunity features of acute gout."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 is released by urate-crystal-activated macrophages, amplifying the inflammation and contributing to tophus formation in gout."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K-AKT signalling (mTOR mapped) participates in the macrophage priming that licenses NLRP3-inflammasome activation by urate crystals in gout."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "ERK-MAPK signalling is engaged by urate-crystal sensing, contributing to the neutrophil and macrophage activation of the acute gout flare."
 ---
 
 # Gout
@@ -536,6 +545,9 @@ The central mechanism linking MSU crystals to acute gouty arthritis is **NLRP3 i
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — Urate crystals and xanthine-oxidase activity (already mapped) generate reactive oxygen species, and NRF2 antioxidant signaling modulates the oxidative component of the gouty inflammatory response.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6 released during the gout flare signals through JAK-STAT (IL-6 already mapped) to amplify the systemic inflammatory response.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR-dependent metabolic reprogramming of urate-crystal-activated macrophages supports the inflammatory cytokine output and trained-immunity features of acute gout.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 is released by urate-crystal-activated macrophages, amplifying the inflammation and contributing to tophus formation in gout.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling (mTOR mapped) participates in the macrophage priming that licenses NLRP3-inflammasome activation by urate crystals in gout.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling is engaged by urate-crystal sensing, contributing to the neutrophil and macrophage activation of the acute gout flare.
 
 [^dalbeth-2019-gout-primer]: Dalbeth N, Choi HK, Joosten LAB, et al. Gout. *Nat Rev Dis Primers.* 2019;5(1):69. [doi:10.1038/s41572-019-0115-y](https://doi.org/10.1038/s41572-019-0115-y) · [PubMed 31558729](https://pubmed.ncbi.nlm.nih.gov/31558729/)
 [^martinon-2006-nlrp3-gout]: Martinon F, Pétrilli V, Mayor A, Tardivel A, Tschopp J. Gout-associated uric acid crystals activate the NALP3 inflammasome. *Nature.* 2006;440(7081):237-241. [doi:10.1038/nature04516](https://doi.org/10.1038/nature04516) · [PubMed 16407889](https://pubmed.ncbi.nlm.nih.gov/16407889/)
