@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/perforin
     relation: connects-to
     note: "Cytotoxic antiviral arm: CD8 cytotoxic T cells and NK cells deploy perforin against infected cells in COVID-19, an antiviral effector arm whose dysregulation accompanies the lymphopenia of severe disease."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 amplifies the macrophage-driven cytokine storm and NET-associated thromboinflammation of severe COVID-19."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling drives the post-COVID pulmonary fibrosis that follows the diffuse alveolar damage of severe COVID-19."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K-AKT signalling in endothelium shapes the vascular dysfunction and procoagulant phenotype underlying the thrombotic complications of COVID-19."
 ---
 
 # COVID-19 Disease
@@ -512,6 +521,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement activation at C3 (feeding the C5 axis already mapped) amplifies the thromboinflammation and endothelial injury of severe COVID-19.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — cGAS-STING sensing of cytosolic and mitochondrial DNA released during severe SARS-CoV-2 infection amplifies the type-I-interferon and inflammatory response (already mapped) contributing to immunopathology.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — CD8 cytotoxic T cells and NK cells deploy perforin against infected cells in COVID-19, an antiviral effector arm whose dysregulation accompanies the lymphopenia of severe disease.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 amplifies the macrophage-driven cytokine storm and NET-associated thromboinflammation of severe COVID-19.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling drives the post-COVID pulmonary fibrosis that follows the diffuse alveolar damage of severe COVID-19.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling in endothelium shapes the vascular dysfunction and procoagulant phenotype underlying the thrombotic complications of COVID-19.
 
 ## Pathology
 
