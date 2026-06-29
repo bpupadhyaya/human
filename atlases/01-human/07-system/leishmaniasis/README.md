@@ -334,6 +334,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "HIF-1α drives the glycolytic, antimicrobial macrophage program that constrains intracellular Leishmania, a metabolic determinant of parasite killing."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 recognises Leishmania surface glycoconjugates and modulates the macrophage inflammatory response that determines parasite control versus persistence."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling (TGF-β already mapped) drives the macrophage deactivation and immunosuppression that Leishmania exploits to survive intracellularly."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "Leishmania subverts macrophage PI3K-AKT signalling (AKT already mapped) to suppress the microbicidal program and promote its intracellular survival."
 ---
 
 # Leishmaniasis
@@ -541,3 +550,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Protective immunity against Leishmania depends on IFN-γ and IL-12 signaling through JAK-STAT (STAT1 mapped), the axis the parasite subverts to survive inside macrophages.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — The IL-23/IL-17 axis (IL-17A mapped) modulates the inflammatory response in cutaneous and mucocutaneous leishmaniasis, shaping lesion immunopathology.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α drives the glycolytic, antimicrobial macrophage program that constrains intracellular Leishmania, a metabolic determinant of parasite killing.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 recognizes Leishmania surface glycoconjugates and modulates the macrophage inflammatory response that determines parasite control versus persistence.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β already mapped) drives the macrophage deactivation and immunosuppression that Leishmania exploits to survive intracellularly.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Leishmania subverts macrophage PI3K-AKT signaling (AKT already mapped) to suppress the microbicidal program and promote its intracellular survival.

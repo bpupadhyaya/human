@@ -321,6 +321,15 @@ cross_links:
   - target: 01-human/03-molecular/nf-kb
     relation: connects-to
     note: "NF-κB is the central transcriptional hub converting neuroimmune activation into the inflammatory gene program associated with addiction neuroplasticity."
+  - target: 01-human/03-molecular/ntrk
+    relation: connects-to
+    note: "BDNF-TrkB (NTRK) signalling drives the synaptic plasticity of reward circuits (BDNF already mapped), a substrate for the maladaptive learning of internet gaming disorder."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6-STAT3 signalling transduces the neuroinflammatory tone implicated in the reward dysregulation of internet gaming disorder."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 released by activated microglia amplifies the neuroinflammation associated with the addiction neuroplasticity of internet gaming disorder."
 sources:
   - id: kuss-2012-gaming-disorder-review
     type: peer-reviewed
@@ -596,6 +605,9 @@ A pattern of persistent or recurrent gaming behavior characterized by:
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4 on microglia drives the neuroinflammatory signaling increasingly implicated in behavioral addiction, upstream of the IL-1β/TNF response already mapped.
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88 signaling transduces microglial activation into the NF-κB-driven cytokine output linked to reward-circuit dysregulation in internet gaming disorder.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB is the central transcriptional hub converting neuroimmune activation into the inflammatory gene program associated with addiction neuroplasticity.
+- `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — BDNF-TrkB (NTRK) signaling drives the synaptic plasticity of reward circuits (BDNF already mapped), a substrate for the maladaptive learning of internet gaming disorder.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling transduces the neuroinflammatory tone implicated in the reward dysregulation of internet gaming disorder.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 released by activated microglia amplifies the neuroinflammation associated with the addiction neuroplasticity of internet gaming disorder.
 
 [^kuss-2012-gaming-disorder-review]: Kuss DJ, Griffiths MD. Internet gaming addiction: a systematic review of empirical research. *Int J Ment Health Addict.* 2012;10(2):278-296. [doi:10.1007/s11469-011-9318-5](https://doi.org/10.1007/s11469-011-9318-5)
 [^who-icd11-gaming-disorder]: World Health Organization. ICD-11: Gaming Disorder (6C51). Geneva: WHO; 2019. [icd.who.int](https://icd.who.int/browse/2025-01/mms/en#1448597234)
