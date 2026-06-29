@@ -337,6 +337,15 @@ cross_links:
   - target: 01-human/03-molecular/akt
     relation: connects-to
     note: "Myofibroblast survival: PI3K-AKT signalling promotes the activation, survival and matrix production of the myofibroblasts (alongside TGF-β/SMAD already mapped) that drive the fibrosis of systemic sclerosis."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 is a key profibrotic mediator and biomarker driving the skin and lung fibrosis of systemic sclerosis."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "Type-I-interferon signalling through STAT1 (type-I-interferon mapped) underlies the interferon signature characteristic of systemic sclerosis."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "Loss of PTEN in systemic-sclerosis fibroblasts releases the PI3K-AKT-mTOR signalling (AKT and mTOR mapped) that drives myofibroblast activation and fibrosis."
 ---
 
 # Systemic Sclerosis
@@ -557,6 +566,9 @@ Identical to IPAH: medial hypertrophy, intimal fibrosis, concentric laminar inti
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB-driven inflammatory transcription amplifies the cytokine production and fibroblast activation that perpetuate the inflammation-fibrosis loop of systemic sclerosis.
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2 antioxidant defense counters the oxidative stress driving the endothelial injury and fibroblast activation central to the vasculopathy and fibrosis of systemic sclerosis.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling promotes the activation, survival and matrix production of the myofibroblasts (alongside TGF-β/SMAD already mapped) that drive the fibrosis of systemic sclerosis.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 is a key profibrotic mediator and biomarker driving the skin and lung fibrosis of systemic sclerosis.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — Type-I-interferon signaling through STAT1 (type-I-interferon mapped) underlies the interferon signature characteristic of systemic sclerosis.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — Loss of PTEN in systemic-sclerosis fibroblasts releases the PI3K-AKT-mTOR signaling (AKT and mTOR mapped) that drives myofibroblast activation and fibrosis.
 
 [^denton-2017-ssc-review]: Denton CP, Khanna D. Systemic sclerosis. *Lancet.* 2017;390(10103):1685-1699. [doi:10.1016/S0140-6736(17)30933-9](https://doi.org/10.1016/S0140-6736(17)30933-9) · [PubMed 28413064](https://pubmed.ncbi.nlm.nih.gov/28413064/)
 [^distler-2019-nintedanib-senscis]: Distler O, Highland KB, Gahlemann M, et al. Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease. *N Engl J Med.* 2019;380(26):2518-2528. [doi:10.1056/NEJMoa1903076](https://doi.org/10.1056/NEJMoa1903076) · [PubMed 31112379](https://pubmed.ncbi.nlm.nih.gov/31112379/)
