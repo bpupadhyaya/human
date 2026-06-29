@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/e2f1
     relation: connects-to
     note: "Cell-cycle output: the cyclin-D1-CDK4/6 axis (cyclin-D1 mapped, with CDKN2A loss in malignant GIST) releases E2F1 to drive the proliferation that distinguishes high-risk from indolent tumours."
+  - target: 01-human/03-molecular/kras
+    relation: connects-to
+    note: "Downstream RAS drive: RAS-MAPK signalling (NF1 and BRAF already mapped) lies downstream of the KIT and PDGFRA driver mutations, transmitting the proliferative signal of gastrointestinal stromal tumour."
+  - target: 01-human/03-molecular/rb1
+    relation: connects-to
+    note: "Progression checkpoint: deregulation of the RB1-E2F checkpoint (CDKN2A, cyclin-D1 and E2F1 already mapped) marks the progression of GIST toward higher-risk, more aggressive disease."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "KIT survival signalling: JAK-STAT3 signalling (STAT3 already mapped) contributes to the survival signalling downstream of KIT in gastrointestinal stromal tumour."
 ---
 
 # GIST
@@ -554,6 +563,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — KIT and PDGFRA activate PI3K (AKT and mTOR already mapped), and acquired PIK3CA mutations are a mechanism of secondary resistance to imatinib in GIST.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN normally restrains the same PI3K-AKT signaling, and its loss amplifies survival signaling, contributing to tyrosine-kinase-inhibitor resistance in GIST.
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — The cyclin-D1-CDK4/6 axis (cyclin-D1 mapped, with CDKN2A loss in malignant GIST) releases E2F1 to drive the proliferation that distinguishes high-risk from indolent tumors.
+- `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — RAS-MAPK signaling (NF1 and BRAF already mapped) lies downstream of the KIT and PDGFRA driver mutations, transmitting the proliferative signal of gastrointestinal stromal tumor.
+- `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — Deregulation of the RB1-E2F checkpoint (CDKN2A, cyclin-D1 and E2F1 already mapped) marks the progression of GIST toward higher-risk, more aggressive disease.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK-STAT3 signaling (STAT3 already mapped) contributes to the survival signaling downstream of KIT in gastrointestinal stromal tumor.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
