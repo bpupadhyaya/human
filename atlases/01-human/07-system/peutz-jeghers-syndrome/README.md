@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/rb1
     relation: connects-to
     note: "Cancer progression: loss of the RB1-E2F checkpoint (cyclin-D1 and E2F1 already mapped) is among the cooperating events in the malignant progression of Peutz-Jeghers-associated neoplasia."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 is upregulated in the polyp-to-carcinoma progression of Peutz-Jeghers syndrome, modulating adhesion and immune evasion."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "IL-6-JAK-STAT3 signalling (IL-6 and STAT3 mapped) provides a tumour-promoting inflammatory input in the gastrointestinal neoplasia of Peutz-Jeghers syndrome."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA sensing through cGAS-STING shapes the immune microenvironment of the tumours that arise in Peutz-Jeghers syndrome."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -559,6 +568,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6-STAT3 signaling (STAT3 already mapped) sustains the inflammatory stroma of the hamartomatous polyps and the tumor-promoting microenvironment of Peutz-Jeghers syndrome.
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Gut-microbiota-driven TLR-MyD88-NF-κB signaling (NF-κB already mapped) provides an inflammatory drive promoting the elevated gastrointestinal-cancer risk of Peutz-Jeghers syndrome.
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — Loss of the RB1-E2F checkpoint (cyclin-D1 and E2F1 already mapped) is among the cooperating events in the malignant progression of Peutz-Jeghers-associated neoplasia.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 is upregulated in the polyp-to-carcinoma progression of Peutz-Jeghers syndrome, modulating adhesion and immune evasion.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6-JAK-STAT3 signaling (IL-6 and STAT3 mapped) provides a tumor-promoting inflammatory input in the gastrointestinal neoplasia of Peutz-Jeghers syndrome.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING shapes the immune microenvironment of the tumors that arise in Peutz-Jeghers syndrome.
 
 ---
 
