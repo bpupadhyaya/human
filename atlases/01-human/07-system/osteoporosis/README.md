@@ -334,6 +334,15 @@ cross_links:
   - target: 01-human/03-molecular/myd88
     relation: connects-to
     note: "Innate osteoclastogenesis: TLR-MyD88-NF-κB innate signalling (NF-κB already mapped) promotes osteoclast differentiation and the inflammatory bone resorption that accelerates age-related and postmenopausal bone loss."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "mTOR signalling regulates the balance of osteoblast and osteoclast activity, influencing bone mass and the remodelling imbalance that drives osteoporosis."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "ERK-MAPK mechanotransduction in osteoblasts couples mechanical loading to bone formation, a pathway whose decline contributes to disuse and age-related osteoporosis."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "IL-6-family JAK-STAT signalling (IL-6 mapped) promotes osteoclastogenesis, contributing to the bone resorption of inflammatory and postmenopausal osteoporosis."
 ---
 
 # Osteoporosis
@@ -547,6 +556,9 @@ All newly diagnosed osteoporosis should be evaluated for secondary causes: CBC (
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Th17-derived IL-17A promotes osteoclastogenesis by upregulating RANKL (already mapped), driving the inflammatory bone loss that links autoimmunity and estrogen deficiency to osteoporosis.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling mediates osteoblast survival and bone formation downstream of IGF-1 and Wnt (both already mapped), and its decline contributes to the impaired formation arm of osteoporosis.
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88-NF-κB innate signaling (NF-κB already mapped) promotes osteoclast differentiation and the inflammatory bone resorption that accelerates age-related and postmenopausal bone loss.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR signaling regulates the balance of osteoblast and osteoclast activity, influencing bone mass and the remodeling imbalance that drives osteoporosis.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK mechanotransduction in osteoblasts couples mechanical loading to bone formation, a pathway whose decline contributes to disuse and age-related osteoporosis.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6-family JAK-STAT signaling (IL-6 mapped) promotes osteoclastogenesis, contributing to the bone resorption of inflammatory and postmenopausal osteoporosis.
 
 [^kanis-2019-who-osteoporosis]: Kanis JA, Cooper C, Rizzoli R, Reginster JY. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. *Osteoporos Int.* 2019;30(1):3-44. [doi:10.1007/s00198-018-4704-5](https://doi.org/10.1007/s00198-018-4704-5) · [PubMed 30324412](https://pubmed.ncbi.nlm.nih.gov/30324412/)
 [^cosman-2016-romosozumab]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)

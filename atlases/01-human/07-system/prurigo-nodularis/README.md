@@ -328,6 +328,15 @@ cross_links:
   - target: 01-human/03-molecular/erk1-2
     relation: connects-to
     note: "Neural sensitisation: neurotrophin signalling through TrkA/B (NTRK already mapped) activates ERK1/2 in cutaneous sensory neurons, driving the dermal neural hyperplasia and peripheral sensitisation central to the chronic itch of prurigo nodularis."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K-AKT-mTOR signalling (mTOR mapped) drives the keratinocyte and fibroblast proliferation that builds the hyperkeratotic nodules of prurigo nodularis."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling (TGF-β mapped) drives the dermal fibrosis and collagen deposition (collagen mapped) forming the characteristic nodules of prurigo nodularis."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 amplifies the dermal inflammation and fibrosis contributing to the chronic lesions of prurigo nodularis."
 ---
 
 # Prurigo Nodularis
@@ -514,6 +523,9 @@ PN affects approximately **72,000 patients** in the US; true prevalence is likel
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR-driven keratinocyte proliferation underlies the marked epidermal hyperplasia and dermal nodule formation that define the lesions of prurigo nodularis.
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4 innate sensing of barrier disruption and scratch-induced tissue damage sustains the cutaneous neuroinflammation that perpetuates the self-reinforcing itch-scratch cycle.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Neurotrophin signaling through TrkA/B (NTRK already mapped) activates ERK1/2 in cutaneous sensory neurons, driving the dermal neural hyperplasia and peripheral sensitization central to the chronic itch of prurigo nodularis.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT-mTOR signaling (mTOR mapped) drives the keratinocyte and fibroblast proliferation that builds the hyperkeratotic nodules of prurigo nodularis.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β mapped) drives the dermal fibrosis and collagen deposition (collagen mapped) forming the characteristic nodules of prurigo nodularis.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 amplifies the dermal inflammation and fibrosis contributing to the chronic lesions of prurigo nodularis.
 
 [^stander-2020-nemolizumab-pn]: Ständer S, Yosipovitch G, Legat FJ, et al. Trial of nemolizumab in moderate-to-severe prurigo nodularis. *N Engl J Med.* 2020;382(8):706-716. [doi:10.1056/NEJMoa1908316](https://doi.org/10.1056/NEJMoa1908316) · [PubMed 32053299](https://pubmed.ncbi.nlm.nih.gov/32053299/)
 [^briggs-2022-dupilumab-pn-liberty]: Briggs JN, Cho YY, Khanna R, et al. Dupilumab for prurigo nodularis: the LIBERTY-PN PRIME and PRIME2 trials. *N Engl J Med.* 2022;387(18):1683-1693. [doi:10.1056/NEJMoa2205093](https://doi.org/10.1056/NEJMoa2205093) · [PubMed 36300905](https://pubmed.ncbi.nlm.nih.gov/36300905/)
