@@ -337,6 +337,15 @@ cross_links:
   - target: 01-human/03-molecular/nfe2l2
     relation: connects-to
     note: "Oxidative epileptogenesis: seizures generate oxidative stress that NRF2-driven antioxidant defences counter, and NRF2 activation is neuroprotective against the mitochondrial injury and neuronal loss of chronic epilepsy."
+  - target: 01-human/03-molecular/tsc1-tsc2
+    relation: connects-to
+    note: "Loss of TSC1-TSC2 control of mTOR (mTOR mapped) causes the cortical malformations and mTORopathy epilepsies such as tuberous sclerosis."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "PTEN regulation of the PI3K-AKT-mTOR axis (AKT and mTOR mapped) underlies the malformations of cortical development that cause refractory epilepsy."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "ERK-MAPK signalling is activated during epileptogenesis, contributing to the neuronal hyperexcitability and network reorganisation of chronic epilepsy."
 ---
 
 # Epilepsy
@@ -595,6 +604,9 @@ Anti-NMDAR encephalitis is the most common autoimmune encephalitis (~37% of auto
 - `connects-to` → **[Prostaglandins (Eicosanoids)](../../03-molecular/prostaglandins/README.md)** — Seizures induce COX-2 and prostaglandin synthesis in the brain, amplifying neuroinflammation and blood-brain-barrier breakdown that lower seizure threshold and drive epileptogenesis.
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — The TLR4-MyD88-NF-κB axis, activated by HMGB1 and other damage signals released during seizures, sustains the neuroinflammatory loop that promotes hyperexcitability and recurrent seizures.
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — Seizures generate oxidative stress that NRF2-driven antioxidant defenses counter, and NRF2 activation is neuroprotective against the mitochondrial injury and neuronal loss of chronic epilepsy.
+- `connects-to` → **[TSC1-TSC2](../../03-molecular/tsc1-tsc2/README.md)** — Loss of TSC1-TSC2 control of mTOR (mTOR mapped) causes the cortical malformations and mTORopathy epilepsies such as tuberous sclerosis.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN regulation of the PI3K-AKT-mTOR axis (AKT and mTOR mapped) underlies the malformations of cortical development that cause refractory epilepsy.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling is activated during epileptogenesis, contributing to the neuronal hyperexcitability and network reorganization of chronic epilepsy.
 
 [^fisher-2017-ilae-classification]: Fisher RS, Cross JH, D'Souza C, et al. Instruction manual for the ILAE 2017 operational classification of seizure types. *Epilepsia.* 2017;58(4):531-542. [doi:10.1111/epi.13671](https://doi.org/10.1111/epi.13671) · [PubMed 28276060](https://pubmed.ncbi.nlm.nih.gov/28276060/)
 [^devinsky-2018-epilepsy-review]: Devinsky O, Vezzani A, O'Brien TJ, et al. Epilepsy. *Nat Rev Dis Primers.* 2018;4:18024. [doi:10.1038/nrdp.2018.24](https://doi.org/10.1038/nrdp.2018.24) · [PubMed 29722352](https://pubmed.ncbi.nlm.nih.gov/29722352/)

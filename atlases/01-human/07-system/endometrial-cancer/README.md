@@ -328,6 +328,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "Oncogenic Wnt: constitutive Wnt/β-catenin signalling — through CTNNB1 exon-3 mutations — defines a molecular subgroup of endometrioid endometrial cancer associated with younger age and recurrence risk."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6-JAK-STAT3 signalling (IL-6 mapped) links the obesity-associated inflammatory state to proliferation and immune evasion in endometrial cancer."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "CDKN2A loss releases CDK4/6-cyclin-D control (CDK4/6 mapped) of the cell cycle, a recurrent lesion contributing to endometrial carcinogenesis."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "Altered TGF-β-SMAD signalling (TGF-β mapped) contributes to invasion and epithelial-mesenchymal transition in aggressive endometrial cancer."
 ---
 
 # Endometrial Cancer
@@ -556,6 +565,9 @@ cross_links:
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Adipose-derived IL-6 fuels the chronic inflammatory and estrogenic milieu of obesity that is the dominant modifiable risk factor for endometrioid endometrial cancer, promoting tumor-cell proliferation and survival.
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2 amplification degrades p53, providing an alternative route to loss of p53 tumor-suppressor function in serous endometrial cancer beyond the TP53 mutations that define this aggressive subtype.
 - `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Constitutive Wnt/β-catenin signaling — through CTNNB1 exon-3 mutations — defines a molecular subgroup of endometrioid endometrial cancer associated with younger age and recurrence risk.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-JAK-STAT3 signaling (IL-6 mapped) links the obesity-associated inflammatory state to proliferation and immune evasion in endometrial cancer.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A loss releases CDK4/6-cyclin-D control (CDK4/6 mapped) of the cell cycle, a recurrent lesion contributing to endometrial carcinogenesis.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — Altered TGF-β-SMAD signaling (TGF-β mapped) contributes to invasion and epithelial-mesenchymal transition in aggressive endometrial cancer.
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)
