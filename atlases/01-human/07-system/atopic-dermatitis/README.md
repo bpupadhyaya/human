@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/erk1-2
     relation: connects-to
     note: "EGFR-ERK-MAPK signalling (EGFR mapped) regulates keratinocyte proliferation and barrier responses in atopic dermatitis."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the antiviral skin defence whose impairment predisposes to the eczema herpeticum that complicates atopic dermatitis."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling (TGF-β already mapped) shapes the skin-barrier homeostasis and remodelling perturbed in atopic dermatitis."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "cGAS-STING sensing of cytosolic DNA from barrier-damaged keratinocytes contributes to the innate inflammation of atopic dermatitis."
 ---
 
 # Atopic Dermatitis
@@ -570,6 +579,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling upstream of mTOR (mTOR mapped) drives the keratinocyte proliferation and survival accompanying the epidermal barrier disruption of atopic dermatitis.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 modulates the dermal Th2 inflammation and dendritic-cell responses contributing to atopic dermatitis.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — EGFR-ERK-MAPK signaling (EGFR mapped) regulates keratinocyte proliferation and barrier responses in atopic dermatitis.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antiviral skin defense whose impairment predisposes to the eczema herpeticum that complicates atopic dermatitis.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β already mapped) shapes the skin-barrier homeostasis and remodeling perturbed in atopic dermatitis.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — cGAS-STING sensing of cytosolic DNA from barrier-damaged keratinocytes contributes to the innate inflammation of atopic dermatitis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
