@@ -343,6 +343,15 @@ cross_links:
   - target: 01-human/03-molecular/stat3
     relation: connects-to
     note: "IL-6-JAK-STAT3 signalling supports breast cancer stem-cell maintenance, proliferation and immune evasion."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 supports immune evasion and the metastatic colonisation that drives mortality in breast cancer."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the antitumour immune response of breast cancer, particularly the immunotherapy-relevant triple-negative subtype."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "EZH2-mediated polycomb repression silences tumour-suppressor genes and contributes to the epigenetic dysregulation and aggressiveness of breast cancer."
 ---
 
 # Breast Cancer
@@ -557,6 +566,9 @@ cross_links:
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β mapped) is a context-dependent regulator in breast cancer, switching from tumor suppression to promotion of EMT and metastasis.
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — BCL-2 expression, driven by estrogen-receptor signaling (estrogen mapped), promotes survival of luminal breast cancer cells and carries prognostic significance.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-JAK-STAT3 signaling supports breast cancer stem-cell maintenance, proliferation and immune evasion.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 supports immune evasion and the metastatic colonization that drives mortality in breast cancer.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antitumor immune response of breast cancer, particularly the immunotherapy-relevant triple-negative subtype.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — EZH2-mediated polycomb repression silences tumor-suppressor genes and contributes to the epigenetic dysregulation and aggressiveness of breast cancer.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

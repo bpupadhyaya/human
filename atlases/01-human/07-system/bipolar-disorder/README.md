@@ -346,6 +346,15 @@ cross_links:
   - target: 01-human/03-molecular/jak1-2
     relation: connects-to
     note: "Cytokine-driven JAK-STAT signalling (IL-6 mapped) transduces the systemic inflammation associated with bipolar disorder."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6-STAT3 signalling (JAK1/2 already mapped) transduces the inflammatory tone implicated in the neuroprogression of bipolar disorder."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Mitochondrial dysfunction in bipolar disorder releases cytosolic DNA that can engage cGAS-STING, linking bioenergetic stress to its neuroinflammation."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the interferon-associated inflammatory component reported in mood episodes of bipolar disorder."
 ---
 
 # Bipolar Disorder
@@ -585,6 +594,9 @@ During bipolar depression (often longer and more disabling than mania):
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — Oxidative stress with impaired NRF2 antioxidant defense is a consistent feature of bipolar disorder, linked to its mitochondrial dysfunction.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Microglial galectin-3 reflects the neuroinflammatory activation increasingly implicated in the mood episodes of bipolar disorder.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Cytokine-driven JAK-STAT signaling (IL-6 mapped) transduces the systemic inflammation associated with bipolar disorder.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling (JAK1/2 already mapped) transduces the inflammatory tone implicated in the neuroprogression of bipolar disorder.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Mitochondrial dysfunction in bipolar disorder releases cytosolic DNA that can engage cGAS-STING, linking bioenergetic stress to its neuroinflammation.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the interferon-associated inflammatory component reported in mood episodes of bipolar disorder.
 
 [^grande-2016-bipolar-review]: Grande I, Berk M, Birmaher B, Vieta E. Bipolar disorder. *Lancet.* 2016;387(10027):1561-1572. [doi:10.1016/S0140-6736(15)00241-X](https://doi.org/10.1016/S0140-6736(15)00241-X) · [PubMed 26388529](https://pubmed.ncbi.nlm.nih.gov/26388529/)
 [^geddes-2013-bipolar-treatment]: Geddes JR, Miklowitz DJ. Treatment of bipolar disorder. *Lancet.* 2013;381(9878):1672-1682. [doi:10.1016/S0140-6736(13)60857-0](https://doi.org/10.1016/S0140-6736(13)60857-0) · [PubMed 23663953](https://pubmed.ncbi.nlm.nih.gov/23663953/)
