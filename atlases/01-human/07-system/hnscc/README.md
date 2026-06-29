@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/nfe2l2
     relation: connects-to
     note: "Chemoradiation resistance: NFE2L2/KEAP1 mutations activate NRF2 antioxidant signalling in HNSCC, neutralising the oxidative damage of chemotherapy and radiation and conferring treatment resistance."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Immunosuppressive microenvironment: IL-6-STAT3 signalling (STAT3 already mapped) sustains the inflammatory, immunosuppressive microenvironment and proliferation of head-and-neck squamous cell carcinoma."
+  - target: 01-human/03-molecular/kras
+    relation: connects-to
+    note: "RAS proliferation: RAS-MAPK signalling (ERK1/2 already mapped), activated by HRAS mutation or EGFR amplification, drives proliferation in head-and-neck squamous cell carcinoma."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Therapy resistance: anti-apoptotic BCL-2 raises the threshold for caspase-3 apoptosis (already mapped), contributing to the chemo- and radio-resistance of head-and-neck squamous cell carcinoma."
 ---
 
 # HNSCC
@@ -538,6 +547,9 @@ HPV+ oropharyngeal: Node staging based on number (not laterality); HPV-negative 
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — EGFR, FGFR and MET (all already mapped) converge on the MAPK-ERK cascade driving HNSCC proliferation, the pathway downstream of the cetuximab-targeted EGFR.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR completes the PI3K-AKT-mTOR pathway (PIK3CA and AKT already mapped) that is frequently activated in head-and-neck squamous cell carcinoma.
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NFE2L2/KEAP1 mutations activate NRF2 antioxidant signaling in HNSCC, neutralizing the oxidative damage of chemotherapy and radiation and conferring treatment resistance.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6-STAT3 signaling (STAT3 already mapped) sustains the inflammatory, immunosuppressive microenvironment and proliferation of head-and-neck squamous cell carcinoma.
+- `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — RAS-MAPK signaling (ERK1/2 already mapped), activated by HRAS mutation or EGFR amplification, drives proliferation in head-and-neck squamous cell carcinoma.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Anti-apoptotic BCL-2 raises the threshold for caspase-3 apoptosis (already mapped), contributing to the chemo- and radio-resistance of head-and-neck squamous cell carcinoma.
 
 [^burtness-2019-keynote048]: Burtness B, Harrington KJ, Greil R, et al. Pembrolizumab alone or with chemotherapy versus cetuximab with chemotherapy for recurrent or metastatic squamous cell carcinoma of the head and neck (KEYNOTE-048). *Lancet.* 2019;394(10212):1915-1928. [doi:10.1016/S0140-6736(19)32591-7](https://doi.org/10.1016/S0140-6736(19)32591-7) · [PubMed 31679945](https://pubmed.ncbi.nlm.nih.gov/31679945/)
 [^vermorken-2008-extreme]: Vermorken JB, Mesia R, Rivera F, et al. Platinum-based chemotherapy plus cetuximab in head and neck cancer. *N Engl J Med.* 2008;359(11):1116-1127. [doi:10.1056/NEJMoa0802656](https://doi.org/10.1056/NEJMoa0802656) · [PubMed 18784101](https://pubmed.ncbi.nlm.nih.gov/18784101/)

@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/cdkn2a
     relation: connects-to
     note: "Cell-cycle brake: CDKN2A loss removes restraint on the cyclin-D-CDK4/6 axis, a cooperating lesion in the malignant progression of HLRCC renal tumours."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "Renal-tumour angiogenesis: the VEGF/PDGF angiogenic axis (VEGF already mapped) drives the highly vascular type-2 papillary renal cell carcinoma of HLRCC and is targeted by the tyrosine-kinase inhibitors used in its treatment."
+  - target: 01-human/03-molecular/kras
+    relation: connects-to
+    note: "RAS proliferation: RAS-MAPK signalling (ERK1/2 already mapped) provides a proliferative input downstream of MET and EGFR in the aggressive renal tumours of HLRCC."
+  - target: 01-human/03-molecular/rb1
+    relation: connects-to
+    note: "Checkpoint loss: the RB1-E2F checkpoint (CDKN2A, cyclin-D1 and E2F1 already mapped) restrains proliferation, and its disruption contributes to the aggressive growth of HLRCC-associated renal cancer."
 ---
 
 # Hereditary Leiomyomatosis and Renal Cell Carcinoma
@@ -555,6 +564,9 @@ Cutaneous:
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PIK3CA drives the PI3K-AKT-mTOR axis (AKT, mTOR and AMPK already mapped) active in HLRCC renal cancer, a rationale for the bevacizumab-erlotinib and mTOR-directed regimens used in this aggressive papillary RCC.
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — The cyclin-D1 axis (mapped) drives RB phosphorylation that releases E2F1, powering the cell-cycle entry of the aggressive type-2 papillary renal cancer of HLRCC.
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A loss removes restraint on the cyclin-D-CDK4/6 axis, a cooperating lesion in the malignant progression of HLRCC renal tumors.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — The VEGF/PDGF angiogenic axis (VEGF already mapped) drives the highly vascular type-2 papillary renal cell carcinoma of HLRCC and is targeted by the tyrosine-kinase inhibitors used in its treatment.
+- `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — RAS-MAPK signaling (ERK1/2 already mapped) provides a proliferative input downstream of MET and EGFR in the aggressive renal tumors of HLRCC.
+- `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — The RB1-E2F checkpoint (CDKN2A, cyclin-D1 and E2F1 already mapped) restrains proliferation, and its disruption contributes to the aggressive growth of HLRCC-associated renal cancer.
 
 [^tomlinson-2002-fh]: Tomlinson IP, Alam NA, Rowan AJ, et al. Germline mutations in FH predispose to dominantly inherited uterine fibroids, skin leiomyomata and papillary renal cell cancer. *Nat Genet.* 2002;30(4):406-410. [doi:10.1038/ng849](https://doi.org/10.1038/ng849) · [PubMed 11865300](https://pubmed.ncbi.nlm.nih.gov/11865300/)
 [^linehan-2013-fh-review]: Linehan WM, Rouault TA. Molecular pathways: fumarate hydratase-deficient kidney cancer — targeting the Warburg effect in cancer. *Clin Cancer Res.* 2013;19(13):3345-3352. [doi:10.1158/1078-0432.CCR-13-0304](https://doi.org/10.1158/1078-0432.CCR-13-0304) · [PubMed 23836472](https://pubmed.ncbi.nlm.nih.gov/23836472/)
