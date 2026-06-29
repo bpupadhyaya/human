@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/mdm2
     relation: connects-to
     note: "p53 suppression: synovial sarcoma usually retains wild-type TP53 (mapped) held in check by MDM2, making MDM2 inhibition a strategy to reactivate p53-driven apoptosis."
+  - target: 01-human/03-molecular/rb1
+    relation: connects-to
+    note: "Cell-cycle restraint: dysregulation of the RB1-E2F checkpoint (CDK4/6, CDKN2A and cyclin-D1 already mapped) contributes to the proliferation of synovial sarcoma."
+  - target: 01-human/03-molecular/kras
+    relation: connects-to
+    note: "RTK-RAS proliferation: RAS-ERK signalling (ERK1/2 already mapped) downstream of the receptor tyrosine kinases active in synovial sarcoma provides a proliferative input."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "STAT3 survival: JAK-STAT3 signalling (STAT3 already mapped) contributes to the survival signalling of synovial sarcoma."
 ---
 
 # Synovial Sarcoma
@@ -549,6 +558,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — The MET, FGFR, EGFR and IGF-1R receptors (all mapped) converge on the MAPK-ERK cascade driving proliferation in synovial sarcoma.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN limits the PI3K-AKT-mTOR axis (PIK3CA, AKT and mTOR already mapped), an IGF-1R-driven survival pathway active in synovial sarcoma.
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — Synovial sarcoma usually retains wild-type TP53 (mapped) held in check by MDM2, making MDM2 inhibition a strategy to reactivate p53-driven apoptosis.
+- `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — Dysregulation of the RB1-E2F checkpoint (CDK4/6, CDKN2A and cyclin-D1 already mapped) contributes to the proliferation of synovial sarcoma.
+- `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — RAS-ERK signaling (ERK1/2 already mapped) downstream of the receptor tyrosine kinases active in synovial sarcoma provides a proliferative input.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK-STAT3 signaling (STAT3 already mapped) contributes to the survival signaling of synovial sarcoma.
 
 ---
 

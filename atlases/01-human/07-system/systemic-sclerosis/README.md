@@ -328,6 +328,15 @@ cross_links:
   - target: 01-human/03-molecular/myd88
     relation: connects-to
     note: "TLR-driven fibrosis: endogenous DAMPs activate TLR4 on fibroblasts, signalling through MyD88 to sustain TGF-β-driven (mapped) collagen production and the persistent fibrosis of systemic sclerosis."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Inflammation-fibrosis loop: NF-κB-driven inflammatory transcription amplifies the cytokine production and fibroblast activation that perpetuate the inflammation-fibrosis loop of systemic sclerosis."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Oxidative vasculopathy: NRF2 antioxidant defence counters the oxidative stress driving the endothelial injury and fibroblast activation central to the vasculopathy and fibrosis of systemic sclerosis."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Myofibroblast survival: PI3K-AKT signalling promotes the activation, survival and matrix production of the myofibroblasts (alongside TGF-β/SMAD already mapped) that drive the fibrosis of systemic sclerosis."
 ---
 
 # Systemic Sclerosis
@@ -545,6 +554,9 @@ Identical to IPAH: medial hypertrophy, intimal fibrosis, concentric laminar inti
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — PDGFR and FGFR signaling (PDGF mapped) drives the MAPK-ERK cascade that activates fibroblasts in systemic sclerosis, the axis blocked by the antifibrotic TKI nintedanib.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR signaling promotes the differentiation of fibroblasts into collagen-secreting myofibroblasts (collagen mapped), driving the progressive fibrosis of systemic sclerosis.
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Endogenous DAMPs activate TLR4 on fibroblasts, signaling through MyD88 to sustain TGF-β-driven (mapped) collagen production and the persistent fibrosis of systemic sclerosis.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB-driven inflammatory transcription amplifies the cytokine production and fibroblast activation that perpetuate the inflammation-fibrosis loop of systemic sclerosis.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2 antioxidant defense counters the oxidative stress driving the endothelial injury and fibroblast activation central to the vasculopathy and fibrosis of systemic sclerosis.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling promotes the activation, survival and matrix production of the myofibroblasts (alongside TGF-β/SMAD already mapped) that drive the fibrosis of systemic sclerosis.
 
 [^denton-2017-ssc-review]: Denton CP, Khanna D. Systemic sclerosis. *Lancet.* 2017;390(10103):1685-1699. [doi:10.1016/S0140-6736(17)30933-9](https://doi.org/10.1016/S0140-6736(17)30933-9) · [PubMed 28413064](https://pubmed.ncbi.nlm.nih.gov/28413064/)
 [^distler-2019-nintedanib-senscis]: Distler O, Highland KB, Gahlemann M, et al. Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease. *N Engl J Med.* 2019;380(26):2518-2528. [doi:10.1056/NEJMoa1903076](https://doi.org/10.1056/NEJMoa1903076) · [PubMed 31112379](https://pubmed.ncbi.nlm.nih.gov/31112379/)
