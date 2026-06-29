@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/thrombin
     relation: connects-to
     note: "Haemorrhagic coagulopathy: activation of coagulation generates thrombin and, with thrombocytopenia, produces the bleeding diathesis and disseminated intravascular coagulation of severe dengue haemorrhagic fever."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "ERK-MAPK signalling is engaged during dengue-virus entry and replication and contributes to the endothelial activation of severe dengue."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Dengue virus exploits PI3K-AKT signalling to support replication and delay apoptosis in infected cells."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 contributes to the endothelial dysfunction and vascular permeability underlying the plasma leakage of severe dengue."
 ---
 
 # Dengue Fever
@@ -547,3 +556,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Dengue NS5 degrades STAT2 to block JAK-STAT interferon signaling (type-I interferon and STAT1 already mapped), a key immune-evasion strategy that permits high viral replication.
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88-NF-κB innate signaling (TLR4 and NF-κB already mapped) contributes to the inflammatory cytokine response that drives the vascular permeability of severe dengue.
 - `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — Activation of coagulation generates thrombin and, with thrombocytopenia, produces the bleeding diathesis and disseminated intravascular coagulation of severe dengue hemorrhagic fever.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling is engaged during dengue-virus entry and replication and contributes to the endothelial activation of severe dengue.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Dengue virus exploits PI3K-AKT signaling to support replication and delay apoptosis in infected cells.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 contributes to the endothelial dysfunction and vascular permeability underlying the plasma leakage of severe dengue.

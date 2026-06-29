@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/stat1
     relation: connects-to
     note: "Macrophage hyperactivation: IFN-γ signalling through STAT1 (IFN-γ already mapped) hyperactivates macrophages, the central effector mechanism of the macrophage-activation-syndrome form of cytokine storm."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "mTOR-regulated immunometabolic reprogramming fuels the hyperactivated immune cells driving the cytokine storm."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 amplifies macrophage activation, contributing to the macrophage-activation-syndrome forms of cytokine storm."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K-AKT signalling sustains the survival and effector responses of the hyperactivated immune cells in cytokine storm."
 ---
 
 # Cytokine Storm
@@ -526,6 +535,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88-NF-κB signaling (TLR4 and NF-κB already mapped), triggered by PAMPs and DAMPs, is a principal initiating circuit of the runaway cytokine production in cytokine storm.
 - `connects-to` → **[MAVS](../../03-molecular/mavs/README.md)** — RIG-I-MAVS sensing of viral RNA drives the type-I-interferon response (already mapped) that, when unrestrained, contributes to the cytokine storm of severe viral infection.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-γ signaling through STAT1 (IFN-γ already mapped) hyperactivates macrophages, the central effector mechanism of the macrophage-activation-syndrome form of cytokine storm.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR-regulated immunometabolic reprogramming fuels the hyperactivated immune cells driving the cytokine storm.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 amplifies macrophage activation, contributing to the macrophage-activation-syndrome forms of cytokine storm.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling sustains the survival and effector responses of the hyperactivated immune cells in cytokine storm.
 
 ## Pathology
 
