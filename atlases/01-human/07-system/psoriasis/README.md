@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/e2f1
     relation: connects-to
     note: "Accelerated turnover: cyclin-D-CDK4/6 release of E2F1 shortens keratinocyte cell-cycle time, compressing epidermal turnover from weeks to days in the psoriatic plaque."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K-AKT-mTOR signalling (mTOR mapped) drives the keratinocyte hyperproliferation and survival that thickens the psoriatic epidermis."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "NRF2 antioxidant signalling is dysregulated in psoriatic keratinocytes, linking the oxidative-stress milieu of the plaque to barrier and inflammatory abnormalities."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement activation with C3 deposition contributes to neutrophil recruitment and the innate inflammatory amplification of psoriatic lesions."
 ---
 
 # Psoriasis
@@ -550,6 +559,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — The IL-36 and IL-1 receptors (IL-36 and IL-1β mapped) and TLRs signal through MyD88 to NF-κB (mapped), amplifying the innate inflammation that drives psoriatic plaques, especially pustular psoriasis.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — PI3K-AKT-mTOR signaling drives the keratinocyte hyperproliferation that thickens the psoriatic epidermis into its characteristic scaly plaque.
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — Cyclin-D-CDK4/6 release of E2F1 shortens keratinocyte cell-cycle time, compressing epidermal turnover from weeks to days in the psoriatic plaque.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT-mTOR signaling (mTOR mapped) drives the keratinocyte hyperproliferation and survival that thickens the psoriatic epidermis.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2 antioxidant signaling is dysregulated in psoriatic keratinocytes, linking the oxidative-stress milieu of the plaque to barrier and inflammatory abnormalities.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement activation with C3 deposition contributes to neutrophil recruitment and the innate inflammatory amplification of psoriatic lesions.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

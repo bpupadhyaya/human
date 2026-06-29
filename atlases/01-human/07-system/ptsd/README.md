@@ -333,6 +333,15 @@ cross_links:
   - target: 01-human/03-molecular/myd88
     relation: connects-to
     note: "Microglial relay: TLR4 (mapped) signals through MyD88 to drive the microglial neuroinflammation (IL-1β, IL-6 and TNF mapped) increasingly linked to PTSD risk and severity."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Cytokine-driven JAK-STAT signalling (IL-6 mapped) transduces the peripheral and central inflammatory milieu associated with PTSD symptom severity."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement-mediated synaptic pruning (C3 tagging) in fear-circuit regions is implicated in the aberrant remodelling that underlies PTSD memory pathology."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Microglial galectin-3 is induced during stress-driven neuroinflammation, amplifying the reactive microglial state linked to PTSD."
 ---
 
 # PTSD
@@ -573,6 +582,9 @@ Not all trauma leads to PTSD. Risk and resilience factors include:
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling (with mTOR and ERK1/2 mapped) relays the BDNF-driven (mapped) synaptic plasticity that consolidates the traumatic fear memories of PTSD.
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β regulates fear-memory reconsolidation and extinction, the processes disrupted in PTSD and modulated by mood-stabilizer therapy.
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR4 (mapped) signals through MyD88 to drive the microglial neuroinflammation (IL-1β, IL-6 and TNF mapped) increasingly linked to PTSD risk and severity.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Cytokine-driven JAK-STAT signaling (IL-6 mapped) transduces the peripheral and central inflammatory milieu associated with PTSD symptom severity.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement-mediated synaptic pruning (C3 tagging) in fear-circuit regions is implicated in the aberrant remodeling that underlies PTSD memory pathology.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Microglial galectin-3 is induced during stress-driven neuroinflammation, amplifying the reactive microglial state linked to PTSD.
 
 [^yehuda-2015-ptsd-review]: Yehuda R, Hoge CW, McFarlane AC, et al. Post-traumatic stress disorder. *Nat Rev Dis Primers.* 2015;1:15057. [doi:10.1038/nrdp.2015.57](https://doi.org/10.1038/nrdp.2015.57) · [PubMed 27189040](https://pubmed.ncbi.nlm.nih.gov/27189040/)
 [^foa-2019-ptsd-treatments]: Foa EB, McLean CP. The efficacy of exposure therapy for anxiety and related disorders. *Annu Rev Clin Psychol.* 2016;12:1-28. [doi:10.1146/annurev-clinpsy-021815-093533](https://doi.org/10.1146/annurev-clinpsy-021815-093533) · [PubMed 26928206](https://pubmed.ncbi.nlm.nih.gov/26928206/)
