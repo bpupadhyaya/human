@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "Regulatory balance: a relative shortfall of anti-inflammatory IL-10 against the dominant IL-23/IL-17 axis (mapped) contributes to the persistent spinal and entheseal inflammation of ankylosing spondylitis."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Th17 immunometabolism: mTOR-driven metabolic activation of Th17 cells and entheseal stromal cells sustains the IL-23/IL-17 inflammation of ankylosing spondylitis."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Inflammation and osteoproliferation: PI3K-AKT signalling participates in both the inflammatory-cell survival and the osteoblast-driven new-bone formation that characterise the spinal ankylosis of ankylosing spondylitis."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "HLA-B27 cytotoxicity: HLA-B27-restricted CD8 cytotoxic T cells deploy perforin in the entheseal and synovial inflammation of ankylosing spondylitis."
 ---
 
 # Ankylosing Spondylitis
@@ -544,6 +553,9 @@ AS originates at the **enthesis** — the site where tendons, ligaments, and joi
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR signaling (TLR4 mapped) through MyD88 to NF-κB (mapped), driven by the dysbiotic gut in the gut-joint axis, helps initiate the inflammation of ankylosing spondylitis.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Sensory CGRP at entheses links neurogenic signaling to the enthesitis and new-bone formation (syndesmophytes) that characterize ankylosing spondylitis.
 - `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — A relative shortfall of anti-inflammatory IL-10 against the dominant IL-23/IL-17 axis (mapped) contributes to the persistent spinal and entheseal inflammation of ankylosing spondylitis.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR-driven metabolic activation of Th17 cells and entheseal stromal cells sustains the IL-23/IL-17 inflammation of ankylosing spondylitis.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling participates in both the inflammatory-cell survival and the osteoblast-driven new-bone formation that characterize the spinal ankylosis of ankylosing spondylitis.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — HLA-B27-restricted CD8 cytotoxic T cells deploy perforin in the entheseal and synovial inflammation of ankylosing spondylitis.
 
 [^sieper-2015-ankylosing-spondylitis-review]: Sieper J, Poddubnyy D. Ankylosing spondylitis. *Lancet.* 2017;390(10089):73-84. [doi:10.1016/S0140-6736(16)31591-4](https://doi.org/10.1016/S0140-6736(16)31591-4) · [PubMed 28110981](https://pubmed.ncbi.nlm.nih.gov/28110981/)
 [^baeten-2015-secukinumab-as]: Baeten D, Sieper J, Braun J, et al. Secukinumab, an Interleukin-17A Inhibitor, in Ankylosing Spondylitis. *N Engl J Med.* 2015;373(26):2534-2548. [doi:10.1056/NEJMoa1505066](https://doi.org/10.1056/NEJMoa1505066) · [PubMed 26699169](https://pubmed.ncbi.nlm.nih.gov/26699169/)
