@@ -330,6 +330,15 @@ cross_links:
   - target: 01-human/03-molecular/endothelin-1
     relation: connects-to
     note: "Interferon vasculopathy: the type-I-interferon vasculopathy of AGS — chilblains and cerebral small-vessel disease with calcification — involves endothelial dysfunction with dysregulated endothelin signalling."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Microglial galectin-3 is induced by the chronic type-I-interferon milieu, amplifying the reactive microgliosis that drives the neuroinflammatory brain injury of AGS."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K-AKT signalling shapes the survival and inflammatory responses of neurons and glia exposed to the sustained interferon and cytokine environment of AGS."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "ERK-MAPK signalling transduces the interferon/cytokine milieu (IFN-γ mapped) into the glial inflammatory activation underlying AGS encephalopathy."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -528,6 +537,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Type-I-interferon-driven apoptosis of neurons and glia (caspase-3 mapped), set against anti-apoptotic BCL-2, contributes to the progressive encephalopathy of Aicardi-Goutières syndrome.
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Endosomal TLRs sensing the accumulated nucleic acids of AGS signal through MyD88 to NF-κB (mapped), adding to the cGAS-STING/RIG-I-driven interferon response (both mapped).
 - `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — The type-I-interferon vasculopathy of AGS—chilblains and cerebral small-vessel disease with calcification—involves endothelial dysfunction with dysregulated endothelin signaling.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Microglial galectin-3 is induced by the chronic type-I-interferon milieu, amplifying the reactive microgliosis that drives the neuroinflammatory brain injury of AGS.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling shapes the survival and inflammatory responses of neurons and glia exposed to the sustained interferon and cytokine environment of AGS.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling transduces the interferon/cytokine milieu (IFN-γ mapped) into the glial inflammatory activation underlying AGS encephalopathy.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
