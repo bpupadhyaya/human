@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/cdkn2a
     relation: connects-to
     note: "Leukaemic progression: CDKN2A loss removes the cell-cycle brake and is associated with transformation of CMML to secondary acute myeloid leukaemia."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Inflammatory monocytosis: TLR-MyD88-NF-κB innate signalling (NF-κB already mapped) drives the inflammatory cytokine milieu and the characteristic monocytosis of CMML."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Marrow dysplasia: TGF-β signalling contributes to the marrow dysplasia and fibrosis of CMML, its suppression of normal haematopoiesis favouring the dysplastic clone."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Clonal self-renewal: aberrant Wnt/β-catenin signalling supports the self-renewal of the leukemic stem cells driving the clonal myeloproliferation of CMML."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -549,6 +558,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Downstream of CMML's activated RAS pathway (KRAS, PTPN11 and ERK1/2 already mapped), PIK3CA initiates PI3K signaling that provides a parallel growth-and-survival input to the monocytic clone.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — AKT relays PI3K signaling to mTOR (already mapped), sustaining the survival and cytokine-hypersensitive proliferation of CMML monocytes.
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A loss removes the cell-cycle brake and is associated with transformation of CMML to secondary acute myeloid leukemia.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88-NF-κB innate signaling (NF-κB already mapped) drives the inflammatory cytokine milieu and the characteristic monocytosis of CMML.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β signaling contributes to the marrow dysplasia and fibrosis of CMML, its suppression of normal hematopoiesis favoring the dysplastic clone.
+- `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Aberrant Wnt/β-catenin signaling supports the self-renewal of the leukemic stem cells driving the clonal myeloproliferation of CMML.
 
 ---
 

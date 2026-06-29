@@ -328,6 +328,15 @@ cross_links:
   - target: 01-human/03-molecular/surfactant
     relation: connects-to
     note: "Airway collapse: oxidant- and protease-mediated surfactant dysfunction in COPD raises surface tension in small airways, promoting their collapse on expiration and worsening air trapping and host-defence impairment."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Innate airway inflammation: TLR-MyD88-NF-κB innate signalling (TLR4 and NF-κB already mapped), activated by cigarette-smoke products and bacterial colonisation, sustains the chronic airway inflammation of COPD."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Cellular senescence: dysregulated mTOR signalling and impaired autophagy promote the senescence of airway and alveolar cells that underlies the accelerated lung ageing and emphysema of COPD."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Cytokine amplification: IL-6 and IFN-γ signalling through JAK-STAT (both already mapped) amplifies the inflammatory response of COPD and is an emerging anti-inflammatory therapeutic target."
 ---
 
 # COPD
@@ -574,6 +583,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[Interleukin-13](../../03-molecular/il-13/README.md)** — Type-2 cytokine IL-13 drives goblet-cell metaplasia and mucin overproduction in the eosinophilic COPD subset, contributing to the chronic-bronchitis phenotype and airway obstruction.
 - `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — CD8+ T cells and Th1 IFN-γ accumulate in COPD airways, driving the cytotoxic alveolar-wall destruction that produces emphysematous loss of lung parenchyma.
 - `connects-to` → **[Pulmonary Surfactant](../../03-molecular/surfactant/README.md)** — Oxidant- and protease-mediated surfactant dysfunction in COPD raises surface tension in small airways, promoting their collapse on expiration and worsening air trapping and host-defense impairment.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88-NF-κB innate signaling (TLR4 and NF-κB already mapped), activated by cigarette-smoke products and bacterial colonization, sustains the chronic airway inflammation of COPD.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Dysregulated mTOR signaling and impaired autophagy promote the senescence of airway and alveolar cells that underlies the accelerated lung aging and emphysema of COPD.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6 and IFN-γ signaling through JAK-STAT (both already mapped) amplifies the inflammatory response of COPD and is an emerging anti-inflammatory therapeutic target.
 
 ---
 
