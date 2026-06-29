@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/stat3
     relation: connects-to
     note: "STAT3 signalling provides a proliferative input to the endocrine and mesenchymal tumours of Carney complex."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the immune microenvironment of the diverse endocrine and mesenchymal tumours of Carney complex."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA sensing through cGAS-STING modulates the inflammatory microenvironment of the tumours arising in Carney complex."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "EZH2-mediated polycomb repression contributes to the epigenetic dysregulation of the PRKAR1A-driven tumours of Carney complex."
 ---
 
 # Carney Complex
@@ -569,6 +578,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN regulation of the PI3K-AKT-mTOR axis (AKT, PIK3CA and mTOR mapped) interacts with the dysregulated PKA signaling driving the tumorigenesis of Carney complex.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 is a marker of the thyroid neoplasia occurring in Carney complex and modulates tumor-cell survival.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 signaling provides a proliferative input to the endocrine and mesenchymal tumors of Carney complex.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the immune microenvironment of the diverse endocrine and mesenchymal tumors of Carney complex.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING modulates the inflammatory microenvironment of the tumors arising in Carney complex.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — EZH2-mediated polycomb repression contributes to the epigenetic dysregulation of the PRKAR1A-driven tumors of Carney complex.
 
 ---
 

@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/galectin-3
     relation: connects-to
     note: "Galectin-3 modulates apoptosis resistance and the microenvironment interactions of Burkitt lymphoma cells."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6/IL-10-STAT3 signalling supports the survival of Burkitt lymphoma cells, exploited by the Epstein-Barr-virus-associated subtype."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the antiviral and antitumour immune response to the Epstein-Barr-virus-driven Burkitt lymphoma."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling normally restrains B-cell proliferation, a brake overridden by the MYC translocation of Burkitt lymphoma."
 ---
 
 # Burkitt Lymphoma
@@ -582,6 +591,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK-STAT signaling contributes to the cytokine-responsive proliferation of Burkitt lymphoma cells.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING participates in the response to EBV (LMP1 mapped) in EBV-associated Burkitt lymphoma.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 modulates apoptosis resistance and the microenvironment interactions of Burkitt lymphoma cells.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6/IL-10-STAT3 signaling supports the survival of Burkitt lymphoma cells, exploited by the Epstein-Barr-virus-associated subtype.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antiviral and antitumor immune response to the Epstein-Barr-virus-driven Burkitt lymphoma.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling normally restrains B-cell proliferation, a brake overridden by the MYC translocation of Burkitt lymphoma.
 
 ---
 
