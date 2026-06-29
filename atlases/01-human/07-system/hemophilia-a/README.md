@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/ctla-4
     relation: connects-to
     note: "Inhibitor tolerance: development of anti-FVIII inhibitor antibodies reflects loss of immune tolerance, and CTLA-4-dependent regulatory mechanisms underlie the immune-tolerance-induction protocols used to eradicate them."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Hemarthrosis synovitis: iron and blood-breakdown products in the hemophilic joint activate TLR-MyD88-NF-κB signalling (TLR4 and NF-κB already mapped), driving the chronic synovitis of recurrent hemarthrosis."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Inflammatory arthropathy: IL-6-JAK-STAT signalling (IL-6 already mapped) sustains the inflammatory synovitis that progresses to destructive hemophilic arthropathy."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "Synovial proliferation: ERK-MAPK signalling drives the synovial proliferation and neoangiogenesis (VEGF already mapped) of the hypertrophic synovium in hemophilic arthropathy."
 ---
 
 # Hemophilia A
@@ -556,6 +565,9 @@ FVIII is a critical **amplifier** of the coagulation cascade at the junction bet
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Blood in the joint drives synovial macrophages to release S100A8/A9 (calprotectin), amplifying the inflammatory synovitis that destroys cartilage in hemophilic arthropathy.
 - `connects-to` → **[FcRn](../../03-molecular/fcrn/README.md)** — The neonatal Fc receptor extends the half-life of Fc-fused factor VIII concentrates (efmoroctocog) and recycles IgG, including the inhibitor antibodies (anti-FVIII) that complicate hemophilia A therapy.
 - `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Development of anti-FVIII inhibitor antibodies reflects loss of immune tolerance, and CTLA-4-dependent regulatory mechanisms underlie the immune-tolerance-induction protocols used to eradicate them.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Iron and blood-breakdown products in the hemophilic joint activate TLR-MyD88-NF-κB signaling (TLR4 and NF-κB already mapped), driving the chronic synovitis of recurrent hemarthrosis.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6-JAK-STAT signaling (IL-6 already mapped) sustains the inflammatory synovitis that progresses to destructive hemophilic arthropathy.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling drives the synovial proliferation and neoangiogenesis (VEGF already mapped) of the hypertrophic synovium in hemophilic arthropathy.
 
 [^oldenburg-2017-emicizumab-haven1]: Oldenburg J, Mahlangu JN, Kim B, et al. Emicizumab prophylaxis in hemophilia A with inhibitors. *N Engl J Med.* 2017;377(9):809-818. [doi:10.1056/NEJMoa1703068](https://doi.org/10.1056/NEJMoa1703068) · [PubMed 28691557](https://pubmed.ncbi.nlm.nih.gov/28691557/)
 [^mahlangu-2018-emicizumab-haven3]: Mahlangu J, Oldenburg J, Paz-Priel I, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors. *N Engl J Med.* 2018;379(9):811-822. [doi:10.1056/NEJMoa1803550](https://doi.org/10.1056/NEJMoa1803550) · [PubMed 30157389](https://pubmed.ncbi.nlm.nih.gov/30157389/)

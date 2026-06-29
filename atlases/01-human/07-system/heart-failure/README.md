@@ -325,6 +325,15 @@ cross_links:
   - target: 01-human/03-molecular/caspase-3
     relation: connects-to
     note: "Cardiomyocyte loss: caspase-3-mediated apoptosis of cardiomyocytes progressively depletes contractile units, a cell-death mechanism driving the decline of the failing heart."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Sterile inflammation: TLR4 sensing of damage-associated molecular patterns from injured myocardium drives the sterile inflammation that contributes to adverse remodelling in heart failure."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Inflammatory remodelling: IL-6-JAK-STAT signalling (IL-6 already mapped) participates in the inflammatory and hypertrophic remodelling of the failing heart, with STAT3 also mediating cardioprotection."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Myocardial hypoxia: HIF-1α responses to the hypoxia of the failing heart drive metabolic and angiogenic adaptations that are initially protective but maladaptive when sustained."
 ---
 
 # Heart Failure
@@ -500,6 +509,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling governs cardiomyocyte growth—physiological when IGF-driven, but its sustained pathological activation (with mTOR mapped) contributes to the maladaptive hypertrophy of heart failure.
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — Oxidative stress overwhelms NRF2 antioxidant defenses in the failing myocardium, contributing to the cardiomyocyte injury and adverse remodeling of heart failure.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Caspase-3-mediated apoptosis of cardiomyocytes progressively depletes contractile units, a cell-death mechanism driving the decline of the failing heart.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4 sensing of damage-associated molecular patterns from injured myocardium drives the sterile inflammation that contributes to adverse remodeling in heart failure.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6-JAK-STAT signaling (IL-6 already mapped) participates in the inflammatory and hypertrophic remodeling of the failing heart, with STAT3 also mediating cardioprotection.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α responses to the hypoxia of the failing heart drive metabolic and angiogenic adaptations that are initially protective but maladaptive when sustained.
 
 ## Pathology
 
