@@ -343,6 +343,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "The adipocyte-derived complement axis (C3/adipsin) is upregulated in obesity and contributes to adipose inflammation and metabolic dysfunction."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Mitochondrial and metabolic stress in expanding adipose tissue releases cytosolic DNA that engages cGAS-STING, fuelling the metabolic inflammation of obesity."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling drives the adipose-tissue fibrosis that accompanies the dysfunctional expansion of fat in obesity."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the pro-inflammatory macrophage polarisation of obese adipose tissue, linking immunity to metabolic dysfunction."
 ---
 
 # Obesity
@@ -591,6 +600,9 @@ This **metainflammation** mechanistically links obesity to type 2 diabetes, athe
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Leptin signals through the JAK2-STAT3 axis (leptin and STAT3 mapped) in hypothalamic neurons; leptin resistance at this node underlies the failure of satiety signaling in obesity.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 released by adipose-tissue macrophages drives the chronic low-grade inflammation and fibrosis of expanding fat depots in obesity.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — The adipocyte-derived complement axis (C3/adipsin) is upregulated in obesity and contributes to adipose inflammation and metabolic dysfunction.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Mitochondrial and metabolic stress in expanding adipose tissue releases cytosolic DNA that engages cGAS-STING, fueling the metabolic inflammation of obesity.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling drives the adipose-tissue fibrosis that accompanies the dysfunctional expansion of fat in obesity.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the pro-inflammatory macrophage polarization of obese adipose tissue, linking immunity to metabolic dysfunction.
 
 [^bluher-2019-obesity-review]: Blüher M. Obesity: global epidemiology and pathogenesis. *Nat Rev Endocrinol.* 2019;15(5):288-298. [doi:10.1038/s41574-019-0176-8](https://doi.org/10.1038/s41574-019-0176-8) · [PubMed 30814686](https://pubmed.ncbi.nlm.nih.gov/30814686/)
 [^wilding-2021-semaglutide-step1]: Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. *N Engl J Med.* 2021;384(11):989-1002. [doi:10.1056/NEJMoa2032183](https://doi.org/10.1056/NEJMoa2032183) · [PubMed 33567185](https://pubmed.ncbi.nlm.nih.gov/33567185/)

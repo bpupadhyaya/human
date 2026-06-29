@@ -346,6 +346,15 @@ cross_links:
   - target: 01-human/03-molecular/myd88
     relation: connects-to
     note: "TLR-MyD88 innate signalling amplifies the astrocytic and microglial inflammatory response that follows AQP4-IgG/complement attack in NMO."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 released by reactive astrocytes and microglia amplifies the neuroinflammation that follows the AQP4-IgG astrocytopathy of NMO."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the interferon-driven component of the immune response in the astrocyte-targeted inflammation of NMO."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA released by astrocyte injury can engage cGAS-STING, contributing to the innate inflammatory amplification of NMO lesions."
 ---
 
 # NMOSD
@@ -601,6 +610,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — BAFF-driven PI3K-AKT signaling (BAFF mapped) sustains the autoreactive B-cell/plasmablast pool that produces pathogenic AQP4-IgG in NMO.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — The mTOR-regulated metabolic program supports antibody-secreting plasmablast expansion in NMO and is an investigational therapeutic target.
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88 innate signaling amplifies the astrocytic and microglial inflammatory response that follows AQP4-IgG/complement attack in NMO.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 released by reactive astrocytes and microglia amplifies the neuroinflammation that follows the AQP4-IgG astrocytopathy of NMO.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the interferon-driven component of the immune response in the astrocyte-targeted inflammation of NMO.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA released by astrocyte injury can engage cGAS-STING, contributing to the innate inflammatory amplification of NMO lesions.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)
