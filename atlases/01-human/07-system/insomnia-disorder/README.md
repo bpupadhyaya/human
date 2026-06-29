@@ -346,6 +346,15 @@ cross_links:
   - target: 01-human/03-molecular/nfe2l2
     relation: connects-to
     note: "Sleep deprivation generates oxidative stress that NRF2 antioxidant defences counter, linking insomnia to redox imbalance and its systemic consequences."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β is a core regulator of the circadian clock and of arousal-related plasticity, linking its activity to the hyperarousal of insomnia disorder."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6-STAT3 signalling transduces the low-grade systemic inflammation that both results from and reinforces chronic sleep loss in insomnia disorder."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Sleep-loss-associated cellular stress can engage cGAS-STING, contributing to the neuroinflammatory consequences of chronic insomnia."
 ---
 
 # Insomnia Disorder
@@ -592,6 +601,9 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT-mTOR signaling (mTOR mapped) participates in the synaptic and homeostatic regulation of sleep-wake states disrupted in insomnia.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Microglial galectin-3 reflects the low-grade neuroinflammation linked to chronic sleep loss and insomnia.
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — Sleep deprivation generates oxidative stress that NRF2 antioxidant defenses counter, linking insomnia to redox imbalance and its systemic consequences.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β is a core regulator of the circadian clock and of arousal-related plasticity, linking its activity to the hyperarousal of insomnia disorder.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling transduces the low-grade systemic inflammation that both results from and reinforces chronic sleep loss in insomnia disorder.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Sleep-loss-associated cellular stress can engage cGAS-STING, contributing to the neuroinflammatory consequences of chronic insomnia.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)

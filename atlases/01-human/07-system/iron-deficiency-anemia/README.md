@@ -336,6 +336,15 @@ cross_links:
   - target: 01-human/03-molecular/erk1-2
     relation: connects-to
     note: "EPO-ERK-MAPK signalling drives erythroid progenitor proliferation, which iron restriction limits in iron deficiency anemia."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK energy sensing responds to the impaired mitochondrial respiration of iron-deficient cells, linking iron deficiency to the metabolic and exercise-intolerance symptoms of the anemia."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "NRF2 governs the heme- and iron-handling antioxidant response (including HO-1), shaping the cellular adaptation to the iron restriction of iron deficiency anemia."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors integrate the oxidative and metabolic stress of iron-restricted erythropoiesis, modulating erythroid progenitor survival in iron deficiency anemia."
 ---
 
 # Iron Deficiency Anemia
@@ -562,6 +571,9 @@ Iron is essential for:
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — The erythropoietin receptor signals through JAK2 (EPO mapped); iron-restricted erythropoiesis blunts the output of this pathway in iron deficiency anemia.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — EPO-driven PI3K-AKT signaling supports erythroid progenitor survival, a response constrained by the iron limitation of iron deficiency anemia.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — EPO-ERK-MAPK signaling drives erythroid progenitor proliferation, which iron restriction limits in iron deficiency anemia.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK energy sensing responds to the impaired mitochondrial respiration of iron-deficient cells, linking iron deficiency to the metabolic and exercise-intolerance symptoms of the anemia.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2 governs the heme- and iron-handling antioxidant response (including HO-1), shaping the cellular adaptation to the iron restriction of iron deficiency anemia.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors integrate the oxidative and metabolic stress of iron-restricted erythropoiesis, modulating erythroid progenitor survival in iron deficiency anemia.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)
