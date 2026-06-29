@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/angiopoietin
     relation: connects-to
     note: "Endotheliopathy: Ang-2 released from activated endothelium marks the endothelial dysfunction and microvascular thrombosis of severe COVID-19, correlating with disease severity."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement amplification: complement activation at C3 (feeding the C5 axis already mapped) amplifies the thromboinflammation and endothelial injury of severe COVID-19."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "DNA-sensing amplification: cGAS-STING sensing of cytosolic and mitochondrial DNA released during severe SARS-CoV-2 infection amplifies the type-I-interferon and inflammatory response (already mapped) contributing to immunopathology."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Cytotoxic antiviral arm: CD8 cytotoxic T cells and NK cells deploy perforin against infected cells in COVID-19, an antiviral effector arm whose dysregulation accompanies the lymphopenia of severe disease."
 ---
 
 # COVID-19 Disease
@@ -500,6 +509,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — Type-I interferon signals through JAK (mapped) to STAT1 to induce antiviral genes, the program SARS-CoV-2 antagonizes—delayed and then dysregulated IFN-STAT1 signaling drives severe COVID-19.
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR4 (mapped) sensing of spike and DAMPs signals through MyD88 to NF-κB (mapped), amplifying the innate inflammatory response that fuels severe COVID-19.
 - `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Ang-2 released from activated endothelium marks the endothelial dysfunction and microvascular thrombosis of severe COVID-19, correlating with disease severity.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement activation at C3 (feeding the C5 axis already mapped) amplifies the thromboinflammation and endothelial injury of severe COVID-19.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — cGAS-STING sensing of cytosolic and mitochondrial DNA released during severe SARS-CoV-2 infection amplifies the type-I-interferon and inflammatory response (already mapped) contributing to immunopathology.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — CD8 cytotoxic T cells and NK cells deploy perforin against infected cells in COVID-19, an antiviral effector arm whose dysregulation accompanies the lymphopenia of severe disease.
 
 ## Pathology
 

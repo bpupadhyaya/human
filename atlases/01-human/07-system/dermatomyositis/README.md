@@ -337,6 +337,15 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "Regulatory balance: a relative deficit of anti-inflammatory IL-10 against the type-I-IFN and Th17 response (mapped) contributes to the sustained muscle and skin inflammation of dermatomyositis."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 helper arm: IL-12-driven Th1 polarisation (IFN-γ already mapped) participates in the cell-mediated component of the muscle and skin inflammation of dermatomyositis."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 maintenance: IL-23 sustains the Th17 response (IL-17A already mapped) contributing to the inflammatory infiltrate of dermatomyositis."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Innate interferon skew: TLR-MyD88 innate signalling (NF-κB already mapped) helps drive the type-I-interferon-skewed innate immune activation characteristic of dermatomyositis."
 ---
 ---
 
@@ -569,6 +578,9 @@ DM carries a ~3–7× elevated cancer risk overall. Anti-TIF1γ (TRIM33) suppres
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a acting through C5aR1 (complement C3 and C5 mapped) amplifies the complement-mediated capillary destruction and perifascicular ischemia that characterize the vasculopathy of dermatomyositis.
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Dermatomyositis—especially with anti-TIF1γ antibodies—is strongly associated with occult malignancy, the paraneoplastic link (to MYC-driven tumors) that mandates cancer screening at diagnosis.
 - `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — A relative deficit of anti-inflammatory IL-10 against the type-I-IFN and Th17 response (mapped) contributes to the sustained muscle and skin inflammation of dermatomyositis.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — IL-12-driven Th1 polarization (IFN-γ already mapped) participates in the cell-mediated component of the muscle and skin inflammation of dermatomyositis.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — IL-23 sustains the Th17 response (IL-17A already mapped) contributing to the inflammatory infiltrate of dermatomyositis.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88 innate signaling (NF-κB already mapped) helps drive the type-I-interferon-skewed innate immune activation characteristic of dermatomyositis.
 
 [^bohan-peter-1975-dm-criteria]: Bohan A, Peter JB. Polymyositis and dermatomyositis. *N Engl J Med.* 1975;292(7):344-347. [doi:10.1056/NEJM197502132920706](https://doi.org/10.1056/NEJM197502132920706) · [PubMed 1090839](https://pubmed.ncbi.nlm.nih.gov/1090839/)
 [^lundberg-2021-iim-classification]: Lundberg IE, et al. 2017 EULAR/ACR classification criteria for adult and juvenile idiopathic inflammatory myopathies. *Arthritis Rheumatol.* 2017;69(12):2271-2282. [doi:10.1002/art.40320](https://doi.org/10.1002/art.40320) · [PubMed 29106061](https://pubmed.ncbi.nlm.nih.gov/29106061/)
