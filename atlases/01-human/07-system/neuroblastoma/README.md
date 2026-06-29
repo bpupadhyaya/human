@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/jak1-2
     relation: connects-to
     note: "STAT3 microenvironment: JAK-STAT3 signalling (STAT3 already mapped) supports the survival and immunosuppressive microenvironment of neuroblastoma."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 modulates neuroblastoma differentiation, survival and the immune microenvironment."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "TGF-β signalling shapes neuroblastoma differentiation and the immunosuppressive tumour microenvironment."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "Loss of PTEN restraint on PI3K-AKT-mTOR signalling (AKT, PIK3CA and mTOR mapped) cooperates with MYCN amplification in high-risk neuroblastoma."
 ---
 
 # Neuroblastoma
@@ -572,6 +581,9 @@ Stage MS (metastatic, <18 months, skin/liver/bone marrow only, MYCN wild-type): 
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — The RB1-E2F checkpoint (CDK4/6, CDKN2A and E2F1 already mapped) restrains proliferation, and its dysregulation in high-risk neuroblastoma is a target of CDK4/6 inhibition.
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — TP53 is rarely mutated in neuroblastoma; instead MDM2 amplification (transactivated by MYCN) inactivates wild-type p53 (already mapped), an actively pursued MDM2-p53 therapeutic axis.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK-STAT3 signaling (STAT3 already mapped) supports the survival and immunosuppressive microenvironment of neuroblastoma.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 modulates neuroblastoma differentiation, survival and the immune microenvironment.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β signaling shapes neuroblastoma differentiation and the immunosuppressive tumor microenvironment.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — Loss of PTEN restraint on PI3K-AKT-mTOR signaling (AKT, PIK3CA and mTOR mapped) cooperates with MYCN amplification in high-risk neuroblastoma.
 
 [^yu-2010-dinutuximab-nb]: Yu AL, Gilman AL, Ozkaynak MF, et al. Anti-GD2 antibody with GM-CSF, interleukin-2, and isotretinoin for neuroblastoma. *N Engl J Med.* 2010;363(14):1324-1334. [doi:10.1056/NEJMoa0911123](https://doi.org/10.1056/NEJMoa0911123) · [PubMed 20879881](https://pubmed.ncbi.nlm.nih.gov/20879881/)
 [^park-2019-tandem-sct-nb]: Park JR, Kreissman SG, London WB, et al. Effect of tandem autologous stem cell transplant vs single transplant on event-free survival in patients with high-risk neuroblastoma: a randomized clinical trial. *JAMA.* 2019;322(8):746-755. [doi:10.1001/jama.2019.11642](https://doi.org/10.1001/jama.2019.11642) · [PubMed 31454023](https://pubmed.ncbi.nlm.nih.gov/31454023/)

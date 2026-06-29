@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/tlr4
     relation: connects-to
     note: "Microglial surveillance: microglial TLR4 innate sensing surveys the CNS for danger signals, initiating the neuroinflammatory responses that shape both defence and disease in the nervous system."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K-AKT-mTOR signalling (mTOR mapped) is a central survival and growth pathway for neurons, governing plasticity and the response to neurotrophins (BDNF/NTRK mapped)."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Microglial galectin-3 is a key effector of the neuroinflammatory responses that shape injury and disease across the nervous system."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β is a pivotal neuronal kinase regulating synaptic plasticity, neuronal polarity and survival, and a target of the mood-stabiliser lithium."
 ---
 
 # Nervous System
@@ -483,6 +492,9 @@ Distributed cortical networks underlie language (Broca's area, Wernicke's area, 
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR signaling governs the activity-dependent protein synthesis underlying synaptic plasticity, neuronal growth, and the developmental wiring of the nervous system.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling, engaged downstream of neurotrophin (BDNF-TrkB) and neurotransmitter receptors (both mapped), transduces neuronal activity into the gene expression of long-term plasticity and memory.
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Microglial TLR4 innate sensing surveys the CNS for danger signals, initiating the neuroinflammatory responses that shape both defense and disease in the nervous system.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT-mTOR signaling (mTOR mapped) is a central survival and growth pathway for neurons, governing plasticity and the response to neurotrophins (BDNF/NTRK mapped).
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Microglial galectin-3 is a key effector of the neuroinflammatory responses that shape injury and disease across the nervous system.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β is a pivotal neuronal kinase regulating synaptic plasticity, neuronal polarity and survival, and a target of the mood-stabilizer lithium.
 
 ## Pathology
 
