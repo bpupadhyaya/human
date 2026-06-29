@@ -320,6 +320,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin-receptor
     relation: connects-to
     note: "Metabolic-reproductive link: insulin-receptor signalling in ovarian theca cells couples metabolic state to androgen production, the mechanism behind the reproductive dysfunction of polycystic ovary syndrome (insulin and androgen receptor mapped)."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "Gonadotropin signal transduction: ERK-MAPK signalling transduces gonadotropin (LH/FSH) and growth-factor cues into the steroidogenesis, oocyte maturation and spermatogenesis coordinated by the reproductive system."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Nutrient-fertility coupling: mTOR nutrient-sensing couples metabolic state to oocyte and follicular development and to spermatogenesis, integrating energy availability with fertility."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Gametogenesis signalling: NOTCH signalling regulates folliculogenesis in the ovary and Sertoli-germ-cell interactions in the testis, a developmental pathway central to gametogenesis."
 ---
 
 # Reproductive System
@@ -536,6 +545,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[Neuropeptide Y](../../03-molecular/npy/README.md)** — Hypothalamic neuropeptide Y links nutritional and energy status to the GnRH pulse generator, gating reproduction on energy availability alongside the leptin signal already mapped.
 - `connects-to` → **[Endocannabinoid System](../../03-molecular/endocannabinoid/README.md)** — The endocannabinoid system regulates implantation, oviductal embryo transport and gametogenesis, a lipid-signaling system that tunes the early reproductive events governing fertility.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — Insulin-receptor signaling in ovarian theca cells couples metabolic state to androgen production, the mechanism behind the reproductive dysfunction of polycystic ovary syndrome (insulin and androgen receptor mapped).
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling transduces gonadotropin (LH/FSH) and growth-factor cues into the steroidogenesis, oocyte maturation and spermatogenesis coordinated by the reproductive system.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR nutrient-sensing couples metabolic state to oocyte and follicular development and to spermatogenesis, integrating energy availability with fertility.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH signaling regulates folliculogenesis in the ovary and Sertoli-germ-cell interactions in the testis, a developmental pathway central to gametogenesis.
 
 ## Pathology
 

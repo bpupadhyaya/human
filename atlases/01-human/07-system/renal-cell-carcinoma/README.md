@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/pten
     relation: connects-to
     note: "PI3K restraint: PTEN limits the PI3K-AKT-mTOR axis (PIK3CA, AKT and mTOR already mapped) active in renal cell carcinoma and targeted by mTOR inhibitors such as everolimus."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Inflammatory microenvironment: IL-6-JAK-STAT signalling (IL-6 already mapped) sustains an inflammatory, immunosuppressive microenvironment in renal cell carcinoma."
+  - target: 01-human/03-molecular/rb1
+    relation: connects-to
+    note: "Cell-cycle restraint: dysregulation of the RB1-E2F checkpoint (CDKN2A and cyclin-D1 already mapped) contributes to the proliferation of renal cell carcinoma."
+  - target: 01-human/03-molecular/idh1
+    relation: connects-to
+    note: "Metabolic-RCC parallel: oncometabolite-producing IDH mutations parallel the FH and SDHB lesions (both already mapped) in the metabolically-driven hereditary renal cancers, where altered metabolites stabilise HIF."
 ---
 
 # Renal Cell Carcinoma
@@ -542,6 +551,9 @@ Kidney → primary site of EPO production under hypoxia; VHL-intact renal inters
 - `connects-to` → **[EGLN1](../../03-molecular/egln1/README.md)** — EGLN1 (PHD2) hydroxylates HIF to target it for VHL-mediated degradation (VHL and EPAS1 mapped); in clear-cell RCC, VHL loss stabilizes HIF-2α, the very axis the inhibitor belzutifan targets.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — MET, PDGFR and VEGFR (MET, PDGF and VEGF mapped) signal through the MAPK-ERK cascade driving proliferation and angiogenesis in renal cell carcinoma, the target of multikinase TKIs.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN limits the PI3K-AKT-mTOR axis (PIK3CA, AKT and mTOR already mapped) active in renal cell carcinoma and targeted by mTOR inhibitors such as everolimus.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6-JAK-STAT signaling (IL-6 already mapped) sustains an inflammatory, immunosuppressive microenvironment in renal cell carcinoma.
+- `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — Dysregulation of the RB1-E2F checkpoint (CDKN2A and cyclin-D1 already mapped) contributes to the proliferation of renal cell carcinoma.
+- `connects-to` → **[IDH1](../../03-molecular/idh1/README.md)** — Oncometabolite-producing IDH mutations parallel the FH and SDHB lesions (both already mapped) in the metabolically-driven hereditary renal cancers, where altered metabolites stabilize HIF.
 
 [^motzer-2018-checkmate214]: Motzer RJ, Tannir NM, McDermott DF, et al. Nivolumab plus ipilimumab versus sunitinib in advanced renal-cell carcinoma. *N Engl J Med.* 2018;378(14):1277-1290. [doi:10.1056/NEJMoa1712126](https://doi.org/10.1056/NEJMoa1712126) · [PubMed 29562145](https://pubmed.ncbi.nlm.nih.gov/29562145/)
 [^rini-2019-keynote426]: Rini BI, Plimack ER, Stus V, et al. Pembrolizumab plus axitinib versus sunitinib for advanced renal-cell carcinoma. *N Engl J Med.* 2019;380(12):1116-1127. [doi:10.1056/NEJMoa1816714](https://doi.org/10.1056/NEJMoa1816714) · [PubMed 30779529](https://pubmed.ncbi.nlm.nih.gov/30779529/)
