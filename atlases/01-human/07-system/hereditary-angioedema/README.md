@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/nlrp3-inflammasome
     relation: connects-to
     note: "Contact-system and bradykinin activation can engage the NLRP3 inflammasome, an inflammatory amplifier increasingly implicated in the pathophysiology of angioedema attacks."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K signalling downstream of the bradykinin B2 receptor on endothelial cells contributes to the eNOS activation and vascular permeability of the angioedema attacks in hereditary angioedema."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 modulates endothelial activation and vascular inflammation relevant to the localised permeability that produces the swelling of hereditary angioedema."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6-STAT3 signalling transduces the acute-phase inflammatory response that accompanies the attacks of hereditary angioedema."
 ---
 
 # Hereditary Angioedema
@@ -582,6 +591,9 @@ Fluid extravasation → ANGIOEDEMA
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Bradykinin acting on the B2 receptor activates PI3K-AKT-eNOS signaling (nitric oxide mapped) that increases the endothelial permeability driving HAE swelling attacks.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Bradykinin B2-receptor signaling engages ERK-MAPK in endothelial cells, contributing to the vascular-permeability response of hereditary angioedema attacks.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Contact-system and bradykinin activation can engage the NLRP3 inflammasome, an inflammatory amplifier increasingly implicated in the pathophysiology of angioedema attacks.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K signaling downstream of the bradykinin B2 receptor on endothelial cells contributes to the eNOS activation and vascular permeability of the angioedema attacks in hereditary angioedema.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 modulates endothelial activation and vascular inflammation relevant to the localized permeability that produces the swelling of hereditary angioedema.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling transduces the acute-phase inflammatory response that accompanies the attacks of hereditary angioedema.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)

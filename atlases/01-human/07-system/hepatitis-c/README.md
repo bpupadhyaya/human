@@ -336,6 +336,15 @@ cross_links:
   - target: 01-human/03-molecular/smad4
     relation: connects-to
     note: "TGF-β-SMAD signalling (TGF-β mapped) drives the progressive hepatic fibrosis of chronic hepatitis C that advances to cirrhosis and hepatocellular carcinoma."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 amplifies hepatic stellate-cell activation and fibrosis and supports the immune evasion of the hepatocellular carcinoma that complicates chronic hepatitis C."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "EZH2-mediated polycomb repression silences tumour-suppressor genes and contributes to the hepatocarcinogenesis of chronic hepatitis C."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "PI3K-AKT-mTOR signalling, modulated by HCV proteins, drives the proliferative and metabolic reprogramming of hepatitis-C-associated hepatocellular carcinoma."
 ---
 
 # Hepatitis C
@@ -568,3 +577,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Interferon signaling through JAK-STAT (type-I IFN and STAT1 mapped) is the antiviral axis against HCV that interferon-based therapy formerly exploited and that the virus actively antagonizes.
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88-NF-κB innate signaling (NF-κB mapped) drives the hepatic inflammation sustaining chronic hepatitis C.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β mapped) drives the progressive hepatic fibrosis of chronic hepatitis C that advances to cirrhosis and hepatocellular carcinoma.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 amplifies hepatic stellate-cell activation and fibrosis and supports the immune evasion of the hepatocellular carcinoma that complicates chronic hepatitis C.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — EZH2-mediated polycomb repression silences tumor-suppressor genes and contributes to the hepatocarcinogenesis of chronic hepatitis C.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — PI3K-AKT-mTOR signaling, modulated by HCV proteins, drives the proliferative and metabolic reprogramming of hepatitis-C-associated hepatocellular carcinoma.
