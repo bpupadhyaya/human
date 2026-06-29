@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/cdkn2a
     relation: connects-to
     note: "ARF-p53 backup: the CDKN2A locus encodes p14ARF, which normally stabilises p53 against MDM2 (both mapped); its loss removes the apoptotic brake on MYC-driven proliferation in Burkitt lymphoma."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "BCR-MAPK proliferation: tonic B-cell-receptor and RAS signalling converge on ERK1/2 MAPK to drive the proliferation that cooperates with the MYC translocation in Burkitt lymphoma."
+  - target: 01-human/03-molecular/kras
+    relation: connects-to
+    note: "RAS cooperation: activating RAS-pathway mutations recurrently accompany the MYC translocation in Burkitt lymphoma, reinforcing the proliferative and survival signalling of the tumour."
+  - target: 01-human/03-molecular/rb1
+    relation: connects-to
+    note: "Cell-cycle brake: the RB1-E2F checkpoint (E2F1, CDK4/6 and cyclin-D already mapped) restrains S-phase entry, and its inactivation removes a brake on the MYC-driven proliferation of Burkitt lymphoma."
 ---
 
 # Burkitt Lymphoma
@@ -558,6 +567,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — MYC transactivates E2F1, and the two cooperate to drive cell-cycle entry alongside the cyclin-D1/CDK4-6 axis already mapped, underpinning Burkitt lymphoma's extreme proliferative rate.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss activates the PI3K-AKT-mTOR pathway (PIK3CA, AKT and mTOR already mapped), a tonic-BCR-driven second hit that cooperates with the MYC translocation in Burkitt lymphomagenesis.
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — The CDKN2A locus encodes p14ARF, which normally stabilizes p53 against MDM2 (both mapped); its loss removes the apoptotic brake on MYC-driven proliferation in Burkitt lymphoma.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Tonic B-cell-receptor and RAS signaling converge on ERK1/2 MAPK to drive the proliferation that cooperates with the MYC translocation in Burkitt lymphoma.
+- `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — Activating RAS-pathway mutations recurrently accompany the MYC translocation in Burkitt lymphoma, reinforcing the proliferative and survival signaling of the tumor.
+- `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — The RB1-E2F checkpoint (E2F1, CDK4/6 and cyclin-D already mapped) restrains S-phase entry, and its inactivation removes a brake on the MYC-driven proliferation of Burkitt lymphoma.
 
 ---
 

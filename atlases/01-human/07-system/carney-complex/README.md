@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/e2f1
     relation: connects-to
     note: "Restriction-point release: downstream of cyclin-D-CDK4/6, RB phosphorylation frees E2F1 to drive S-phase entry, the proliferative engine activated by constitutive PKA signalling in Carney complex tumours."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "Endocrine-tumour growth control: TGF-β/activin-SMAD signalling (activin-A and TGF-β already mapped) shapes the growth of the endocrine and gonadal tumours of Carney complex, intersecting the constitutive PKA signalling that drives them."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Tumour survival: anti-apoptotic BCL-2 supports the survival of the slow-growing cardiac myxomas and endocrine tumours characteristic of Carney complex."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Neural-crest lesions: NOTCH developmental signalling contributes to the neural-crest-derived psammomatous melanotic schwannomas and pigmented lesions of Carney complex."
 ---
 
 # Carney Complex
@@ -545,6 +554,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Unrestrained PKA from PRKAR1A loss drives cyclin-D1 (already mapped) and CDK4/6 activity, pushing the endocrine and myxomatous tumors of Carney complex through the cell-cycle restriction point.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Aberrant PKA signaling in Carney complex engages the PI3K-AKT-mTOR pathway (AKT and mTOR already mapped), and PIK3CA-driven survival signaling cooperates in the growth of its endocrine tumors.
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — Downstream of cyclin-D-CDK4/6, RB phosphorylation frees E2F1 to drive S-phase entry, the proliferative engine activated by constitutive PKA signaling in Carney complex tumors.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β/activin-SMAD signaling (activin-A and TGF-β already mapped) shapes the growth of the endocrine and gonadal tumors of Carney complex, intersecting the constitutive PKA signaling that drives them.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Anti-apoptotic BCL-2 supports the survival of the slow-growing cardiac myxomas and endocrine tumors characteristic of Carney complex.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH developmental signaling contributes to the neural-crest-derived psammomatous melanotic schwannomas and pigmented lesions of Carney complex.
 
 ---
 
