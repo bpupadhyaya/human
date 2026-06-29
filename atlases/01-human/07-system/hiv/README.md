@@ -337,6 +337,15 @@ cross_links:
   - target: 01-human/03-molecular/myd88
     relation: connects-to
     note: "Microbial-translocation inflammation: TLR sensing of HIV nucleic acids and gut-derived microbial products signals through MyD88 to NF-κB (TLR4 and NF-κB already mapped), sustaining the systemic immune activation central to disease progression."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "HIV exploits host PI3K-AKT signalling (mTOR mapped) to promote infected-cell survival and to regulate viral latency and reactivation."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "HIV Tat and Nef engage ERK-MAPK signalling, which supports viral transcription and replication in infected cells."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "Type-I-interferon signalling through STAT1 (type-I-interferon mapped) is the antiviral response restricting HIV that the virus counteracts."
 ---
 
 # HIV
@@ -578,6 +587,9 @@ The **latent reservoir** — HIV integrated into quiescent resting memory CD4+ T
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — IL-2 sustains CD4+ T-cell proliferation and survival, and progressive loss of this homeostatic support contributes to the T-cell depletion that defines HIV immunodeficiency.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Type-I-interferon and inflammatory-cytokine signaling through JAK-STAT (type-I IFN and STAT3 already mapped) drives the persistent immune activation that paradoxically fuels HIV pathogenesis and is under study as a JAK-inhibitor target.
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR sensing of HIV nucleic acids and gut-derived microbial products signals through MyD88 to NF-κB (TLR4 and NF-κB already mapped), sustaining the systemic immune activation central to disease progression.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — HIV exploits host PI3K-AKT signaling (mTOR mapped) to promote infected-cell survival and to regulate viral latency and reactivation.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — HIV Tat and Nef engage ERK-MAPK signaling, which supports viral transcription and replication in infected cells.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — Type-I-interferon signaling through STAT1 (type-I-interferon mapped) is the antiviral response restricting HIV that the virus counteracts.
 
 [^barre-sinoussi-1983-hiv-isolation]: Barré-Sinoussi F, Chermann JC, Rey F, et al. Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS). *Science.* 1983;220(4599):868-871. [doi:10.1126/science.6189183](https://doi.org/10.1126/science.6189183) · [PubMed 6189183](https://pubmed.ncbi.nlm.nih.gov/6189183/)
 [^ho-1995-viral-dynamics]: Ho DD, Neumann AU, Perelson AS, et al. Rapid turnover of plasma virions and CD4 lymphocytes in HIV-1 infection. *Nature.* 1995;373(6510):123-126. [doi:10.1038/373123a0](https://doi.org/10.1038/373123a0) · [PubMed 7816094](https://pubmed.ncbi.nlm.nih.gov/7816094/)

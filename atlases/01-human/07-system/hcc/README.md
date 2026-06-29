@@ -328,6 +328,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Invasion and prognosis: osteopontin is overexpressed in HCC, promoting tumour-cell invasion, metastasis, and angiogenesis, and serving as a circulating biomarker of aggressive disease and poor prognosis."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling (TGF-β mapped) plays a dual tumour-suppressive and pro-invasive role in hepatocellular carcinoma, with SMAD4 loss promoting progression."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "IL-6-JAK-STAT3 signalling (IL-6 and STAT3 mapped) links chronic hepatic inflammation to the proliferation and survival of hepatocellular carcinoma."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "CDKN2A silencing releases CDK4/6-cyclin-D control (cyclin-D1 mapped) of the cell cycle, a recurrent epigenetic lesion in hepatocellular carcinoma."
 ---
 
 # Hepatocellular Carcinoma
@@ -569,6 +578,9 @@ In high-risk patients (cirrhosis, HBV regardless of cirrhosis): ultrasound ± AF
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — Recurrent NFE2L2/KEAP1 mutations constitutively activate NRF2 in HCC, conferring antioxidant and metabolic advantages that promote hepatocyte survival and tumor progression on a background of chronic liver oxidative injury.
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88-NF-κB signaling, fueled by gut-derived microbial products reaching the injured liver, sustains the chronic inflammation that links cirrhosis to hepatocarcinogenesis (TLR4 and NF-κB already mapped).
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin is overexpressed in HCC, promoting tumor-cell invasion, metastasis, and angiogenesis, and serving as a circulating biomarker of aggressive disease and poor prognosis.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β mapped) plays a dual tumor-suppressive and pro-invasive role in hepatocellular carcinoma, with SMAD4 loss promoting progression.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6-JAK-STAT3 signaling (IL-6 and STAT3 mapped) links chronic hepatic inflammation to the proliferation and survival of hepatocellular carcinoma.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A silencing releases CDK4/6-cyclin-D control (cyclin-D1 mapped) of the cell cycle, a recurrent epigenetic lesion in hepatocellular carcinoma.
 
 [^llovet-2008-sorafenib]: Llovet JM, Ricci S, Mazzaferro V, et al. Sorafenib in advanced hepatocellular carcinoma. *N Engl J Med.* 2008;359(4):378-390. [doi:10.1056/NEJMoa0708857](https://doi.org/10.1056/NEJMoa0708857) · [PubMed 18650514](https://pubmed.ncbi.nlm.nih.gov/18650514/)
 [^finn-2020-imbrave150]: Finn RS, Qin S, Ikeda M, et al. Atezolizumab plus bevacizumab in unresectable hepatocellular carcinoma. *N Engl J Med.* 2020;382(20):1894-1905. [doi:10.1056/NEJMoa1915745](https://doi.org/10.1056/NEJMoa1915745) · [PubMed 32402160](https://pubmed.ncbi.nlm.nih.gov/32402160/)
