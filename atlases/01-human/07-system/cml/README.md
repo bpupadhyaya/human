@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/e2f1
     relation: connects-to
     note: "Cell-cycle drive: BCR-ABL1 signalling pushes the cyclin-D1-RB axis (cyclin-D1 and RB1 already mapped) to release E2F1, and CDKN2A loss in lymphoid blast crisis further unleashes this proliferative transcription."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "Blast-crisis transformation: TP53 inactivation drives the transformation from chronic phase to the aggressive, treatment-resistant blast crisis of CML."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "Lymphoid blast crisis: CDKN2A/p16 deletion is a recurrent lesion in the progression of CML to lymphoid blast crisis, removing a cell-cycle brake on the proliferating clone."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "TKI resistance: NRF2 antioxidant signalling protects CML cells — including leukemic stem cells — from oxidative stress and contributes to resistance against tyrosine-kinase inhibitors."
 ---
 
 # Chronic Myeloid Leukemia
@@ -536,6 +545,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — BCR-ABL1 activates RAS, driving the MAPK-ERK cascade (ERK1/2 already mapped) that is a core proliferative output of the Philadelphia-chromosome fusion kinase.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — BCR-ABL1 engages PI3K, initiating the AKT-mTOR signaling (both already mapped) that provides the survival limb cooperating with proliferative RAS-MAPK and JAK-STAT signaling in CML.
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — BCR-ABL1 signaling pushes the cyclin-D1-RB axis (cyclin-D1 and RB1 already mapped) to release E2F1, and CDKN2A loss in lymphoid blast crisis further unleashes this proliferative transcription.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 inactivation drives the transformation from chronic phase to the aggressive, treatment-resistant blast crisis of CML.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A/p16 deletion is a recurrent lesion in the progression of CML to lymphoid blast crisis, removing a cell-cycle brake on the proliferating clone.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2 antioxidant signaling protects CML cells — including leukemic stem cells — from oxidative stress and contributes to resistance against tyrosine-kinase inhibitors.
 
 ---
 

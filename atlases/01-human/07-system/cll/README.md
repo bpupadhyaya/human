@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/cdkn2a
     relation: connects-to
     note: "Richter transformation: deletion of the CDKN2A locus is a recurrent event in the transformation of CLL to aggressive diffuse large B-cell lymphoma, releasing the cell-cycle brake on the cyclin-D1 axis already mapped."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "TLR survival signalling: MyD88-dependent Toll-like-receptor signalling (recurrently mutated in a CLL subset) amplifies NF-κB (already mapped) survival signals in the leukemic B cells of CLL."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Microenvironmental cytokines: cytokine signalling through JAK-STAT3 (STAT3 already mapped) from the supportive lymphoid niche promotes the survival of CLL cells outside the circulation."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "BCR growth axis: the PI3K-AKT-mTOR pathway (AKT and PIK3CA already mapped) downstream of tonic B-cell-receptor signalling drives the growth and survival of CLL cells."
 ---
 
 # CLL
@@ -536,6 +545,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN normally restrains the PI3K-AKT signaling (PIK3CA and AKT already mapped) that drives CLL survival, the very pathway the PI3Kδ inhibitors idelalisib and duvelisib block in this leukemia.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Alongside BTK and SRC (both mapped), the B-cell receptor activates the RAS-MAPK-ERK cascade in CLL, a parallel proliferative limb of the antigen-driven signaling that sustains the malignant clone.
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — Deletion of the CDKN2A locus is a recurrent event in the transformation of CLL to aggressive diffuse large B-cell lymphoma, releasing the cell-cycle brake on the cyclin-D1 axis already mapped.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — MyD88-dependent Toll-like-receptor signaling (recurrently mutated in a CLL subset) amplifies NF-κB (already mapped) survival signals in the leukemic B cells of CLL.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Cytokine signaling through JAK-STAT3 (STAT3 already mapped) from the supportive lymphoid niche promotes the survival of CLL cells outside the circulation.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — The PI3K-AKT-mTOR pathway (AKT and PIK3CA already mapped) downstream of tonic B-cell-receptor signaling drives the growth and survival of CLL cells.
 
 ---
 
