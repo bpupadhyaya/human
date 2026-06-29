@@ -329,6 +329,15 @@ cross_links:
   - target: 01-human/03-molecular/ampk
     relation: connects-to
     note: "Energy-sensing counterbalance: AMPK is the cellular energy sensor that counterbalances the insulin/mTOR anabolic axis (both already mapped), integrating the metabolic hormones with cellular energy status."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Growth hormone, prolactin and leptin signal through JAK-STAT (their receptors are cytokine-receptor-family members), a core transduction mechanism of the endocrine system."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "ERK-MAPK transduces the receptor-tyrosine-kinase and GPCR signals of many hormones into the proliferative and trophic responses of endocrine target tissues."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β, inhibited by insulin-AKT signalling (insulin, insulin-receptor and AKT mapped), couples endocrine signalling to glycogen and metabolic control."
 ---
 
 # Endocrine System
@@ -582,6 +591,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — The androgen receptor mediates the actions of testosterone and DHT across reproductive and somatic tissues, the nuclear-receptor endpoint of the male endocrine axis and the target of anti-androgen therapy.
 - `connects-to` → **[SSTR2](../../03-molecular/sstr2/README.md)** — Somatostatin acting on SSTR2 broadly suppresses the secretion of growth hormone, insulin, glucagon, and gut hormones—the inhibitory regulator of the endocrine system and the basis for octreotide in acromegaly and neuroendocrine tumors.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Serum calcium is the regulated variable of a dedicated endocrine axis—parathyroid hormone and vitamin D raise it, calcitonin lowers it—the tightly controlled ion essential for nerve, muscle and bone whose dysregulation causes endocrine disease.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Growth hormone, prolactin and leptin signal through JAK-STAT (their receptors are cytokine-receptor-family members), a core transduction mechanism of the endocrine system.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK transduces the receptor-tyrosine-kinase and GPCR signals of many hormones into the proliferative and trophic responses of endocrine target tissues.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β, inhibited by insulin-AKT signaling (insulin, insulin-receptor and AKT mapped), couples endocrine signaling to glycogen and metabolic control.
 - `connects-to` → **[Activin A](../../03-molecular/activin-a/README.md)** — The activin-inhibin system provides a peptide feedback loop, distinct from the steroid hormones, that tunes pituitary FSH secretion and gonadal function, layered onto the classic steroid-hormone axes of the endocrine system.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — Adrenomedullin, secreted widely including by the adrenal medulla and endothelium, is a potent vasodilator and part of the endocrine control of vascular tone and fluid balance, integrating the hormonal and cardiovascular systems.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — The insulin receptor transduces the signal of insulin (already mapped) into target cells, the prototypical endocrine receptor linking a circulating hormone to cellular metabolism.

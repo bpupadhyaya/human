@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "Microenvironmental support: IL-6 from the tumour microenvironment signals through STAT3 (already mapped) to support the survival and proliferation of DLBCL cells."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "PI3K-AKT-mTOR signalling (AKT, PIK3CA and PTEN mapped) downstream of B-cell-receptor signalling drives the proliferation and survival of DLBCL."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 supports DLBCL-cell survival and contributes to the immunosuppressive tumour microenvironment."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "TGF-β within the lymphoma microenvironment modulates immune evasion and the stromal niche of DLBCL."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -551,6 +560,9 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — CD19 CAR-T cells and CD20-CD3 bispecific antibodies redirect cytotoxic T cells to kill DLBCL through perforin and granzyme, transforming the outlook for relapsed and refractory disease.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — The anti-CD20 antibody rituximab—the R of R-CHOP—kills DLBCL cells partly through complement-dependent cytotoxicity, fixing C3 and the membrane-attack complex alongside antibody-dependent cellular cytotoxicity.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — R-CHOP chemoimmunotherapy kills DLBCL cells through caspase-3-mediated apoptosis, and the BCL-2-driven apoptotic resistance of double-hit lymphoma underlies its poor response to standard treatment.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — PI3K-AKT-mTOR signaling (AKT, PIK3CA and PTEN mapped) downstream of B-cell-receptor signaling drives the proliferation and survival of DLBCL.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 supports DLBCL-cell survival and contributes to the immunosuppressive tumor microenvironment.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β within the lymphoma microenvironment modulates immune evasion and the stromal niche of DLBCL.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss activates the PI3K-AKT pathway (PIK3CA and AKT already mapped), a survival signal particularly active in the germinal-center-B-cell subtype of DLBCL.
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — MYC and the cyclin-D-CDK4/6 axis (MYC and CDK4/6 already mapped) converge to release E2F1, driving the high proliferative rate of DLBCL.
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A/p16 deletion is a recurrent adverse lesion in DLBCL, removing the restraint on the cyclin-D-CDK4/6 axis and predicting inferior outcome.
