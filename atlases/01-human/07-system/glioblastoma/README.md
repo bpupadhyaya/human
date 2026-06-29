@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/mdm2
     relation: connects-to
     note: "p53 core pathway: MDM2 amplification inactivates p53 (already mapped) in glioblastoma, completing the trio of core dysregulated pathways alongside RTK/PI3K and RB."
+  - target: 01-human/03-molecular/kras
+    relation: connects-to
+    note: "RTK-RAS proliferation: RAS-MAPK signalling (NF1 loss and ERK1/2 already mapped) downstream of amplified EGFR and PDGFRA drives the proliferation of glioblastoma."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "STAT3 stemness: JAK-STAT3 signalling (STAT3 already mapped) sustains glioblastoma-cell proliferation, stemness, and the immunosuppressive tumour microenvironment."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Therapy resistance: NRF2 antioxidant signalling protects glioblastoma cells from oxidative and alkylating (temozolomide) stress, contributing to treatment resistance."
 ---
 
 # Glioblastoma
@@ -553,6 +562,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PIK3CA and PIK3R1 mutations activate PI3K (PTEN loss, AKT and mTOR already mapped), the central effector of the receptor-tyrosine-kinase axis that is one of glioblastoma's three core dysregulated pathways.
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — The RB pathway (CDK4/6, cyclin-D1 and CDKN2A already mapped) is inactivated in most glioblastomas, the second of the three core pathways driving this tumor.
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2 amplification inactivates p53 (already mapped) in glioblastoma, completing the trio of core dysregulated pathways alongside RTK/PI3K and RB.
+- `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — RAS-MAPK signaling (NF1 loss and ERK1/2 already mapped) downstream of amplified EGFR and PDGFRA drives the proliferation of glioblastoma.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK-STAT3 signaling (STAT3 already mapped) sustains glioblastoma-cell proliferation, stemness, and the immunosuppressive tumor microenvironment.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2 antioxidant signaling protects glioblastoma cells from oxidative and alkylating (temozolomide) stress, contributing to treatment resistance.
 
 ---
 

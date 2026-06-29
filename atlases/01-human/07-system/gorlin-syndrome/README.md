@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/pik3ca
     relation: connects-to
     note: "Pathway cooperation: PI3K-AKT-mTOR signalling (AKT, mTOR and PTEN already mapped) cooperates with Hedgehog activation and contributes to resistance to SMO inhibitors such as vismodegib in Gorlin basal-cell carcinomas."
+  - target: 01-human/03-molecular/kras
+    relation: connects-to
+    note: "Hedgehog crosstalk: RAS-MAPK signalling (ERK1/2 already mapped) crosstalks with the Hedgehog pathway and is implicated in resistance to SMO inhibitors in the basal-cell carcinomas of Gorlin syndrome."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "UV oxidative defence: NRF2 antioxidant defence counters the ultraviolet oxidative stress that, with constitutive Hedgehog signalling, drives the multiple basal-cell carcinomas of Gorlin syndrome."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Tumour-promoting inflammation: IL-6-STAT3 signalling (STAT3 already mapped) contributes a tumour-promoting inflammatory input to the neoplasms of Gorlin syndrome."
 ---
 
 # Gorlin Syndrome
@@ -534,6 +543,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — GLI transactivates cyclin-D (cyclin-D1 already mapped), which partners CDK4/6 to drive the proliferation of the basal-cell carcinomas and medulloblastomas of Gorlin syndrome.
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — CDK4/6-cyclin-D1 phosphorylates RB (mapped) to free E2F1, the proliferative output of constitutive Hedgehog signaling in Gorlin-syndrome tumors.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K-AKT-mTOR signaling (AKT, mTOR and PTEN already mapped) cooperates with Hedgehog activation and contributes to resistance to SMO inhibitors such as vismodegib in Gorlin basal-cell carcinomas.
+- `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — RAS-MAPK signaling (ERK1/2 already mapped) crosstalks with the Hedgehog pathway and is implicated in resistance to SMO inhibitors in the basal-cell carcinomas of Gorlin syndrome.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2 antioxidant defense counters the ultraviolet oxidative stress that, with constitutive Hedgehog signaling, drives the multiple basal-cell carcinomas of Gorlin syndrome.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6-STAT3 signaling (STAT3 already mapped) contributes a tumor-promoting inflammatory input to the neoplasms of Gorlin syndrome.
 
 ---
 
