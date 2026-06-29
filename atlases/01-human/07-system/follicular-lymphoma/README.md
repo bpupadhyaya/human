@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/erk1-2
     relation: connects-to
     note: "BCR-MAPK input: tonic B-cell-receptor and RAS signalling through ERK1/2 MAPK provides a proliferative input in follicular lymphoma, particularly upon transformation."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 in the follicular-lymphoma microenvironment modulates the T-follicular-helper interactions and immune evasion on which the tumour depends."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling (TGF-β mapped) shapes the immunosuppressive microenvironment that sustains follicular lymphoma."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA sensing through cGAS-STING contributes to the immune microenvironment and immunotherapy responsiveness of follicular lymphoma."
 ---
 
 # Follicular Lymphoma
@@ -561,6 +570,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — An IL-10-rich, regulatory-T-cell-laden microenvironment supports immune evasion and the survival of follicular-lymphoma B cells in their germinal-center-like niche.
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — Deregulation of the RB1-E2F checkpoint (E2F1, CDK4/6 and CDKN2A already mapped) accompanies the histologic transformation of indolent follicular lymphoma to aggressive disease.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Tonic B-cell-receptor and RAS signaling through ERK1/2 MAPK provides a proliferative input in follicular lymphoma, particularly upon transformation.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 in the follicular-lymphoma microenvironment modulates the T-follicular-helper interactions and immune evasion on which the tumor depends.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β mapped) shapes the immunosuppressive microenvironment that sustains follicular lymphoma.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING contributes to the immune microenvironment and immunotherapy responsiveness of follicular lymphoma.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
