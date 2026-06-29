@@ -350,6 +350,15 @@ cross_links:
   - target: 01-human/03-molecular/adenosine
     relation: connects-to
     note: "Striatal adenosine A2A receptors functionally oppose dopamine D2 signalling (dopamine mapped) in the cortico-striatal circuits whose dysregulation underlies OCD."
+  - target: 01-human/03-molecular/ntrk
+    relation: connects-to
+    note: "BDNF-TrkB (NTRK) signalling shapes the cortico-striatal synaptic plasticity (BDNF already mapped) implicated in the habit-circuit dysfunction of OCD."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6-STAT3 signalling transduces the neuroinflammatory tone implicated in OCD, including the autoimmune PANDAS subtype."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 released by activated microglia amplifies the neuroinflammation linked to the cortico-striatal dysfunction of OCD."
 ---
 
 # Obsessive-Compulsive Disorder
@@ -585,6 +594,9 @@ OCD is often underdiagnosed due to shame and secrecy. Mean time from symptom ons
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR4-MyD88 innate neuroinflammatory signaling (TLR4 mapped) is implicated in the post-infectious/autoimmune (PANDAS) forms of obsessive-compulsive disorder.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN-regulated PI3K-AKT-mTOR signaling (AKT, mTOR and GSK-3β mapped) shapes the cortico-striatal synaptic plasticity disrupted in OCD.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Striatal adenosine A2A receptors functionally oppose dopamine D2 signaling (dopamine mapped) in the cortico-striatal circuits whose dysregulation underlies OCD.
+- `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — BDNF-TrkB (NTRK) signaling shapes the cortico-striatal synaptic plasticity (BDNF already mapped) implicated in the habit-circuit dysfunction of OCD.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling transduces the neuroinflammatory tone implicated in OCD, including the autoimmune PANDAS subtype.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 released by activated microglia amplifies the neuroinflammation linked to the cortico-striatal dysfunction of OCD.
 
 [^abramowitz-2009-ocd-review]: Abramowitz JS, Taylor S, McKay D. Obsessive-compulsive disorder. *Lancet.* 2009;374(9688):491-499. [doi:10.1016/S0140-6736(09)60240-3](https://doi.org/10.1016/S0140-6736(09)60240-3) · [PubMed 19665647](https://pubmed.ncbi.nlm.nih.gov/19665647/)
 [^chamberlain-2008-ocd-neuroscience]: Chamberlain SR, Menzies L, Hampshire A, et al. Orbitofrontal dysfunction in patients with OCD and their unaffected relatives. *Science.* 2008;321(5887):421-422. [doi:10.1126/science.1154433](https://doi.org/10.1126/science.1154433) · [PubMed 18635808](https://pubmed.ncbi.nlm.nih.gov/18635808/)
