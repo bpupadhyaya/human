@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/ntrk
     relation: connects-to
     note: "Neurotrophic support: signalling through the TrkB receptor (NTRK), engaged by BDNF and complementing IGF-1 (both already mapped), supports motor-neuron survival whose failure contributes to ALS degeneration."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "STAT3-driven reactive astrogliosis is a prominent feature of the neuroinflammatory response in ALS motor-neuron degeneration."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "ERK-MAPK signalling participates in the stress responses and excitotoxic injury of motor neurons in ALS."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "PTEN modulation of the PI3K-AKT-mTOR axis (AKT and mTOR mapped) influences motor-neuron survival, a candidate neuroprotective target in ALS."
 ---
 
 # ALS
@@ -587,6 +596,9 @@ ALS diagnosis is **clinical** — no single definitive biomarker test (though Nf
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88-NF-κB innate signaling in microglia (TLR4 and NF-κB already mapped) drives the chronic neuroinflammation that accelerates motor-neuron loss in ALS.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — cGAS-STING-driven type-I interferon (both already mapped) signals through JAK-STAT to amplify the innate neuroinflammation increasingly implicated in ALS progression.
 - `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — Signaling through the TrkB receptor (NTRK), engaged by BDNF and complementing IGF-1 (both already mapped), supports motor-neuron survival whose failure contributes to ALS degeneration.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3-driven reactive astrogliosis is a prominent feature of the neuroinflammatory response in ALS motor-neuron degeneration.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling participates in the stress responses and excitotoxic injury of motor neurons in ALS.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN modulation of the PI3K-AKT-mTOR axis (AKT and mTOR mapped) influences motor-neuron survival, a candidate neuroprotective target in ALS.
 
 [^brown-2017-als-review]: Brown RH, Al-Chalabi A. Amyotrophic lateral sclerosis. *N Engl J Med.* 2017;377(2):162-172. [doi:10.1056/NEJMra1603471](https://doi.org/10.1056/NEJMra1603471) · [PubMed 28700839](https://pubmed.ncbi.nlm.nih.gov/28700839/)
 [^edaravone-als-2017]: Writing Group, Edaravone ALS 19 Study Group. Safety and efficacy of edaravone in well defined patients with amyotrophic lateral sclerosis. *Lancet Neurol.* 2017;16(7):505-512. [doi:10.1016/S1474-4422(17)30115-1](https://doi.org/10.1016/S1474-4422(17)30115-1) · [PubMed 28522180](https://pubmed.ncbi.nlm.nih.gov/28522180/)

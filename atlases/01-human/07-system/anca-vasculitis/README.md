@@ -343,6 +343,15 @@ cross_links:
   - target: 01-human/03-molecular/il-23
     relation: connects-to
     note: "Th17 maintenance: IL-23 sustains the pathogenic Th17 cells (IL-17A already mapped) implicated in the granulomatous inflammation of ANCA-associated vasculitis."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "ANCA binding to primed neutrophils triggers ERK-MAPK signalling that drives the respiratory burst, degranulation and NET formation injuring small vessels."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K-AKT signalling mediates neutrophil priming and the B-cell survival that sustain the autoantibody response of ANCA vasculitis."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 amplifies the NET-driven thromboinflammation and endothelial injury of ANCA-associated vasculitis."
 ---
 
 # ANCA Vasculitis
@@ -583,6 +592,9 @@ EGPA is mechanistically distinct — eosinophils, not neutrophils, mediate tissu
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88-NF-κB innate signaling (TLR4 and NF-κB already mapped) primes neutrophils, lowering the threshold for ANCA-induced respiratory burst and degranulation that injures the vessel wall.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6 and IFN-γ signaling through JAK-STAT (both already mapped) sustains the inflammatory milieu and T-cell responses of ANCA-associated vasculitis.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — IL-23 sustains the pathogenic Th17 cells (IL-17A already mapped) implicated in the granulomatous inflammation of ANCA-associated vasculitis.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ANCA binding to primed neutrophils triggers ERK-MAPK signaling that drives the respiratory burst, degranulation and NET formation injuring small vessels.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling mediates neutrophil priming and the B-cell survival that sustain the autoantibody response of ANCA vasculitis.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 amplifies the NET-driven thromboinflammation and endothelial injury of ANCA-associated vasculitis.
 
 [^yates-2022-anca-review]: Yates M, Watts RA, Bajema IM, et al. EULAR/ERA-EDTA recommendations for the management of ANCA-associated vasculitis. *Ann Rheum Dis.* 2016;75(9):1583-1594. [doi:10.1136/annrheumdis-2016-209133](https://doi.org/10.1136/annrheumdis-2016-209133) · [PubMed 27338776](https://pubmed.ncbi.nlm.nih.gov/27338776/)
 [^stone-2010-rituximab-gpa-rave]: Stone JH, Merkel PA, Spiera R, et al. Rituximab versus cyclophosphamide for ANCA-associated vasculitis. *N Engl J Med.* 2010;363(3):221-232. [doi:10.1056/NEJMoa0909905](https://doi.org/10.1056/NEJMoa0909905) · [PubMed 20647199](https://pubmed.ncbi.nlm.nih.gov/20647199/)
