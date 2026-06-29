@@ -309,6 +309,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "Treg differentiation: TGF-β drives the regulatory T cells that normally maintain tolerance to self-antigens, and impaired Treg control is implicated in the autoimmune loss of orexin neurons in narcolepsy."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Autoimmune cytokine signalling: interferon and cytokine signalling through JAK-STAT (type-I IFN, IFN-γ and STAT3 already mapped) participates in the autoimmune attack on orexin neurons in narcolepsy type 1."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Molecular-mimicry trigger: TLR-MyD88 innate signalling (TLR4 already mapped), triggered by influenza infection and the Pandemrix vaccine via molecular mimicry, helps initiate the autoimmune destruction of orexin neurons in narcolepsy."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 autoimmunity: IL-23 sustains the autoreactive Th17 response (IL-17A already mapped) implicated in the immune-mediated loss of orexin neurons in narcolepsy type 1."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -546,6 +555,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Narcolepsy can be triggered by checkpoint-inhibitor therapy and CTLA-4 variants associate with risk, reflecting the loss of T-cell tolerance that permits the autoimmune destruction of orexin neurons.
 - `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — A shortfall of regulatory IL-10 against the Th1/Th17 response (IFN-γ and IL-17A mapped) helps permit the autoimmune attack on hypocretin neurons in narcolepsy type 1.
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β drives the regulatory T cells that normally maintain tolerance to self-antigens, and impaired Treg control is implicated in the autoimmune loss of orexin neurons in narcolepsy.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Interferon and cytokine signaling through JAK-STAT (type-I IFN, IFN-γ and STAT3 already mapped) participates in the autoimmune attack on orexin neurons in narcolepsy type 1.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88 innate signaling (TLR4 already mapped), triggered by influenza infection and the Pandemrix vaccine via molecular mimicry, helps initiate the autoimmune destruction of orexin neurons in narcolepsy.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — IL-23 sustains the autoreactive Th17 response (IL-17A already mapped) implicated in the immune-mediated loss of orexin neurons in narcolepsy type 1.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)

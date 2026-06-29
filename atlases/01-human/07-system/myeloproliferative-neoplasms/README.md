@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/p53
     relation: connects-to
     note: "Leukaemic transformation: TP53 inactivation drives the progression of myeloproliferative neoplasms, particularly myelofibrosis, to acute myeloid leukaemia."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Downstream proliferation: the PI3K-AKT axis (PIK3CA already mapped) operates downstream of constitutive JAK2 signalling to drive the proliferation and survival of myeloproliferative-neoplasm clones."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Inflammatory milieu: TLR-MyD88-NF-κB innate signalling (NF-κB already mapped) sustains the chronic inflammatory milieu that characterises and propels myeloproliferative neoplasms."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "Transformation lesion: CDKN2A loss is among the cooperating lesions in the leukaemic transformation of myeloproliferative neoplasms to acute myeloid leukaemia."
 ---
 
 # Myeloproliferative Neoplasms
@@ -567,6 +576,9 @@ In PV and ET, JAK2 V617F also affects myeloid progenitors → granulocytosis and
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — JAK2, CALR and MPL (all already mapped) activate the RAS-MAPK-ERK cascade alongside JAK-STAT, a parallel proliferative driver in myeloproliferative neoplasms.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — The same constitutively active receptor-kinase signaling engages PI3K-AKT as a third effector pathway supporting myeloid proliferation and survival in MPN.
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 inactivation drives the progression of myeloproliferative neoplasms, particularly myelofibrosis, to acute myeloid leukemia.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — The PI3K-AKT axis (PIK3CA already mapped) operates downstream of constitutive JAK2 signaling to drive the proliferation and survival of myeloproliferative-neoplasm clones.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88-NF-κB innate signaling (NF-κB already mapped) sustains the chronic inflammatory milieu that characterizes and propels myeloproliferative neoplasms.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A loss is among the cooperating lesions in the leukemic transformation of myeloproliferative neoplasms to acute myeloid leukemia.
 
 [^verstovsek-2012-comfort-i]: Verstovsek S, Mesa RA, Gotlib J, et al. A double-blind, placebo-controlled trial of ruxolitinib for myelofibrosis. *N Engl J Med.* 2012;366(9):799-807. [doi:10.1056/NEJMoa1110557](https://doi.org/10.1056/NEJMoa1110557) · [PubMed 22375971](https://pubmed.ncbi.nlm.nih.gov/22375971/)
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409002](https://doi.org/10.1056/NEJMoa1409002) · [PubMed 25426978](https://pubmed.ncbi.nlm.nih.gov/25426978/)
