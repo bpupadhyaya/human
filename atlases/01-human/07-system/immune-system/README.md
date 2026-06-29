@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/pd-1
     relation: connects-to
     note: "Tolerance and checkpoint: the inhibitory receptor PD-1 enforces peripheral tolerance and limits immunopathology, the brake on T-cell responses that checkpoint-blockade immunotherapy releases against cancer."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Master inflammatory switch: NF-κB is the central transcription factor of immune activation, converting signals from pattern-recognition and cytokine receptors into the inflammatory gene programme."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Pattern recognition: Toll-like receptors such as TLR4 are the innate sensors that detect microbial molecular patterns and initiate the first-line immune response."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Inflammasome sensing: the NLRP3 inflammasome senses danger signals and activates caspase-1 to release IL-1β, a central effector arm of innate inflammation."
 ---
 
 # Immune System
@@ -457,6 +466,9 @@ After primary response contraction, long-lived memory cells persist:
 - `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — IFN-γ is the signature cytokine of Th1 and cytotoxic responses, activating macrophages and orchestrating the cell-mediated arm of the immune system against intracellular pathogens.
 - `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — The type-I interferons are the rapid innate antiviral response, inducing an antiviral state in infected and neighboring cells and bridging to the adaptive immune system.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — The inhibitory receptor PD-1 enforces peripheral tolerance and limits immunopathology, the brake on T-cell responses that checkpoint-blockade immunotherapy releases against cancer.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB is the central transcription factor of immune activation, converting signals from pattern-recognition and cytokine receptors into the inflammatory gene program.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Toll-like receptors such as TLR4 are the innate sensors that detect microbial molecular patterns and initiate the first-line immune response.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — The NLRP3 inflammasome senses danger signals and activates caspase-1 to release IL-1β, a central effector arm of innate inflammation.
 
 ## Pathology
 

@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/il-1b
     relation: connects-to
     note: "Inflammasome injury: NLRP3 inflammasome activation (mapped) generates IL-1β that drives the glomerular and tubulointerstitial inflammation of progressive IgA nephropathy."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Mucosal IgA trigger: mucosal TLR-MyD88 signalling (TLR4 already mapped) drives the dysregulated IgA response and the synpharyngitic flares characteristic of IgA nephropathy."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Mesangial inflammation: IL-6 signalling through JAK-STAT (IL-6 already mapped) promotes mesangial-cell proliferation and the inflammatory injury of IgA nephropathy."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "Glomerulosclerosis: TGF-β-SMAD signalling (TGF-β already mapped) drives the mesangial matrix expansion and glomerulosclerosis that determine progression to kidney failure in IgA nephropathy."
 ---
 
 # IgA Nephropathy
@@ -507,6 +516,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a acting through C5aR1 (complement C5, C3 and factor-H already mapped) amplifies the glomerular inflammation of IgA nephropathy, a target of the emerging complement-directed therapies for the disease.
 - `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — Regulatory IL-10 modulates the mucosal IgA response, and its balance against the Th17/IL-23 axis (mapped) shapes production of the galactose-deficient IgA1 that initiates IgA nephropathy.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — NLRP3 inflammasome activation (mapped) generates IL-1β that drives the glomerular and tubulointerstitial inflammation of progressive IgA nephropathy.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Mucosal TLR-MyD88 signaling (TLR4 already mapped) drives the dysregulated IgA response and the synpharyngitic flares characteristic of IgA nephropathy.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6 signaling through JAK-STAT (IL-6 already mapped) promotes mesangial-cell proliferation and the inflammatory injury of IgA nephropathy.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β already mapped) drives the mesangial matrix expansion and glomerulosclerosis that determine progression to kidney failure in IgA nephropathy.
 
 ---
 
