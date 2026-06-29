@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/galectin-3
     relation: connects-to
     note: "Galectin-3 is expressed in rhabdoid tumours and contributes to their invasive and immunomodulatory phenotype."
+  - target: 01-human/03-molecular/rb1
+    relation: connects-to
+    note: "SMARCB1 loss in ATRT derepresses the cyclin-D-CDK4/6 axis (cyclin-D1 and CDK4/6 mapped), driving RB1 inactivation and the cell-cycle progression of the tumour."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the antitumour immune response of the immunologically variable atypical teratoid/rhabdoid tumour."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling shapes the differentiation block and microenvironment of the SMARCB1-deficient atypical teratoid/rhabdoid tumour."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -566,6 +575,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK-STAT3 signaling (STAT3 mapped) contributes to the proliferative and immunosuppressive program of atypical teratoid/rhabdoid tumor.
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β signaling modulates the tumor microenvironment and invasive behavior of atypical teratoid/rhabdoid tumor.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 is expressed in rhabdoid tumors and contributes to their invasive and immunomodulatory phenotype.
+- `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — SMARCB1 loss in ATRT derepresses the cyclin-D-CDK4/6 axis (cyclin-D1 and CDK4/6 mapped), driving RB1 inactivation and the cell-cycle progression of the tumor.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antitumor immune response of the immunologically variable atypical teratoid/rhabdoid tumor.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling shapes the differentiation block and microenvironment of the SMARCB1-deficient atypical teratoid/rhabdoid tumor.
 
 ---
 

@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/galectin-3
     relation: connects-to
     note: "Galectin-3 modulates the tumour-stroma interaction and immune microenvironment of basal cell carcinoma."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "Hedgehog-driven cyclin-D-CDK4/6 activity (cyclin-D1 and RB1 mapped) drives the cell-cycle progression of basal cell carcinoma."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the antitumour immune response of basal cell carcinoma, relevant to checkpoint immunotherapy in advanced disease."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors integrate the UV-induced oxidative stress that drives the mutagenesis underlying basal cell carcinoma."
 ---
 
 # Basal Cell Carcinoma
@@ -569,6 +578,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK kinases transduce the IL-6 signal to STAT3 (IL-6 and STAT3 mapped) supporting proliferation and immune evasion in basal cell carcinoma.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — Loss of TGF-β-SMAD4 signaling (TGF-β mapped) contributes to tumor progression and the stromal response in basal cell carcinoma.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 modulates the tumor-stroma interaction and immune microenvironment of basal cell carcinoma.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Hedgehog-driven cyclin-D-CDK4/6 activity (cyclin-D1 and RB1 mapped) drives the cell-cycle progression of basal cell carcinoma.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antitumor immune response of basal cell carcinoma, relevant to checkpoint immunotherapy in advanced disease.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors integrate the UV-induced oxidative stress that drives the mutagenesis underlying basal cell carcinoma.
 
 ---
 
