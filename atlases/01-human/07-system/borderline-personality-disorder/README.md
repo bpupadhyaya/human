@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/nfe2l2
     relation: connects-to
     note: "Oxidative stress: NRF2-regulated antioxidant defence counters the oxidative stress that accompanies the chronic stress and neuroinflammation of borderline personality disorder."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β signalling downstream of neurotrophin and serotonergic pathways shapes the neuroplasticity and mood-stabilisation balance relevant to the affective instability of borderline personality disorder."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 released by activated microglia amplifies the neuroinflammation implicated in the stress reactivity of borderline personality disorder."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6-STAT3 signalling transduces the peripheral and central inflammatory tone associated with the chronic stress of borderline personality disorder."
 ---
 
 # Borderline Personality Disorder
@@ -587,6 +596,9 @@ This model directly informs DBT treatment: validate emotional experience (the bi
 - `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — BDNF signaling through its TrkB receptor (NTRK) mediates the limbic-prefrontal neuroplasticity implicated in the emotion dysregulation of borderline personality disorder.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB-driven neuroinflammation (downstream of the TLR-MyD88 signaling already mapped) contributes to the chronic low-grade inflammation linked to borderline personality disorder and its early-life-adversity origins.
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2-regulated antioxidant defense counters the oxidative stress that accompanies the chronic stress and neuroinflammation of borderline personality disorder.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β signaling downstream of neurotrophin and serotonergic pathways shapes the neuroplasticity and mood-stabilization balance relevant to the affective instability of borderline personality disorder.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 released by activated microglia amplifies the neuroinflammation implicated in the stress reactivity of borderline personality disorder.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling transduces the peripheral and central inflammatory tone associated with the chronic stress of borderline personality disorder.
 
 [^linehan-1993-dbt]: Linehan MM. *Cognitive-Behavioral Treatment of Borderline Personality Disorder.* Guilford; 1993. [PubMed 8192506](https://pubmed.ncbi.nlm.nih.gov/8192506/)
 [^skodol-2002-bpd-neurobiology]: Siever LJ, Davis KL. A psychobiological perspective on the personality disorders. *Am J Psychiatry.* 1991;148(12):1647-1658. [doi:10.1176/ajp.148.12.1647](https://doi.org/10.1176/ajp.148.12.1647) · [PubMed 1957927](https://pubmed.ncbi.nlm.nih.gov/1957927/)

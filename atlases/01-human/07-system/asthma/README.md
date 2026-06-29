@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/il-23
     relation: connects-to
     note: "Neutrophilic phenotype: IL-23 sustains the Th17 response (IL-17A already mapped) that drives the neutrophilic, often steroid-resistant phenotype of severe asthma."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 promotes eosinophil recruitment, airway inflammation and the subepithelial remodelling that characterises chronic asthma."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling (TGF-β already mapped) drives the airway smooth-muscle hyperplasia and subepithelial fibrosis of airway remodelling in asthma."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling underlies the antiviral Th1 response that drives virus-induced exacerbations of asthma."
 ---
 
 # Asthma
@@ -556,6 +565,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR-dependent metabolism and airway-smooth-muscle proliferation contribute to the bronchial hyperreactivity and airway remodeling of asthma.
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2 antioxidant defense protects the airway epithelium from the oxidative stress of allergic inflammation and pollutant exposure, a pathway impaired in severe asthma.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — IL-23 sustains the Th17 response (IL-17A already mapped) that drives the neutrophilic, often steroid-resistant phenotype of severe asthma.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 promotes eosinophil recruitment, airway inflammation and the subepithelial remodeling that characterizes chronic asthma.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β already mapped) drives the airway smooth-muscle hyperplasia and subepithelial fibrosis of airway remodeling in asthma.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling underlies the antiviral Th1 response that drives virus-induced exacerbations of asthma.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)
