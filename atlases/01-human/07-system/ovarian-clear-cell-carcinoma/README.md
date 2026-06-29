@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/rb1
     relation: connects-to
     note: "Cell-cycle drive: RB-pathway dysregulation (CDK4/6, cyclin-D1 and E2F1 already mapped) contributes to the cell-cycle progression of ovarian clear cell carcinoma."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 contributes to the adhesion, chemoresistance and immune evasion of ovarian clear cell carcinoma."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling (TGF-β mapped) modulates invasion and the immunosuppressive microenvironment of ovarian clear cell carcinoma."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "PDGF signalling drives the stromal and angiogenic responses of the endometriosis-associated ovarian clear cell carcinoma."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -577,6 +586,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6-JAK-STAT3 signaling (IL-6 and STAT3 already mapped) from the endometriosis-associated inflammatory milieu drives the development and chemoresistance of ovarian clear cell carcinoma.
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88-NF-κB innate signaling (NF-κB already mapped), driven by the iron and inflammation of endometriotic cysts, contributes to the malignant transformation underlying ovarian clear cell carcinoma.
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — RB-pathway dysregulation (CDK4/6, cyclin-D1 and E2F1 already mapped) contributes to the cell-cycle progression of ovarian clear cell carcinoma.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 contributes to the adhesion, chemoresistance and immune evasion of ovarian clear cell carcinoma.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β mapped) modulates invasion and the immunosuppressive microenvironment of ovarian clear cell carcinoma.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — PDGF signaling drives the stromal and angiogenic responses of the endometriosis-associated ovarian clear cell carcinoma.
 
 ---
 

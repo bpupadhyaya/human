@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/mdm2
     relation: connects-to
     note: "Alternative p53 loss: MDM2 amplification offers an alternative route to inactivation of the near-universally dysfunctional p53 (already mapped) in high-grade serous ovarian cancer."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 promotes ovarian-cancer cell adhesion, spheroid formation and the peritoneal dissemination of metastatic disease."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling (TGF-β mapped) drives EMT and the peritoneal-metastatic, immunosuppressive microenvironment of ovarian cancer."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "CDKN2A loss releases CDK4/6-cyclin-D control of the cell cycle, a recurrent lesion in high-grade serous ovarian cancer."
 ---
 
 # Ovarian Cancer
@@ -551,6 +560,9 @@ FTSEC ciliated and secretory cells line the Fallopian tube; secretory cells are 
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6-JAK-STAT3 signaling (IL-6 and STAT3 already mapped), abundant in malignant ascites, supports the survival and chemoresistance of ovarian-cancer cells.
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — RB-pathway dysregulation, including the CCNE1 amplification frequent in high-grade serous ovarian cancer, drives cell-cycle progression released through E2F1 (already mapped).
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2 amplification offers an alternative route to inactivation of the near-universally dysfunctional p53 (already mapped) in high-grade serous ovarian cancer.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 promotes ovarian-cancer cell adhesion, spheroid formation and the peritoneal dissemination of metastatic disease.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β mapped) drives EMT and the peritoneal-metastatic, immunosuppressive microenvironment of ovarian cancer.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A loss releases CDK4/6-cyclin-D control of the cell cycle, a recurrent lesion in high-grade serous ovarian cancer.
 
 [^burger-2011-gog0218]: Burger RA, Brady MF, Bookman MA, et al. Incorporation of bevacizumab in the primary treatment of ovarian cancer. *N Engl J Med.* 2011;365(26):2473-2483. [doi:10.1056/NEJMoa1104390](https://doi.org/10.1056/NEJMoa1104390) · [PubMed 22204724](https://pubmed.ncbi.nlm.nih.gov/22204724/)
 [^moore-2018-olaparib-solo1]: Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. *N Engl J Med.* 2018;379(26):2495-2505. [doi:10.1056/NEJMoa1810858](https://doi.org/10.1056/NEJMoa1810858) · [PubMed 30345884](https://pubmed.ncbi.nlm.nih.gov/30345884/)
