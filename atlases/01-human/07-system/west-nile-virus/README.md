@@ -336,6 +336,15 @@ cross_links:
   - target: 01-human/03-molecular/erk1-2
     relation: connects-to
     note: "ERK-MAPK signalling is engaged during West Nile virus entry and replication and contributes to the inflammatory response in neuroinvasive disease."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 released by activated microglia amplifies the neuroinflammation and blood-brain-barrier disruption of West Nile virus neuroinvasive disease."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6-STAT3 signalling transduces the inflammatory cytokine response that accompanies West Nile virus encephalitis."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling modulates the blood-brain-barrier integrity and the balance between protective and pathological responses in West Nile virus neuroinvasion."
 ---
 
 # West Nile Virus
@@ -562,3 +571,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Type-I-interferon signaling through JAK-STAT (STAT1 mapped) is the principal antiviral defense controlling West Nile virus, which the virus actively antagonizes.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — West Nile virus modulates mTOR-regulated translation and autophagy to support its replication in infected cells.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling is engaged during West Nile virus entry and replication and contributes to the inflammatory response in neuroinvasive disease.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 released by activated microglia amplifies the neuroinflammation and blood-brain-barrier disruption of West Nile virus neuroinvasive disease.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling transduces the inflammatory cytokine response that accompanies West Nile virus encephalitis.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling modulates the blood-brain-barrier integrity and the balance between protective and pathological responses in West Nile virus neuroinvasion.
