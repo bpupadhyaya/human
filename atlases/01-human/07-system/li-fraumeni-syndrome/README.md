@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/her2
     relation: connects-to
     note: "Breast-cancer subtype: the early-onset breast cancers of Li-Fraumeni syndrome are disproportionately HER2-positive, a distinctive feature that guides screening and targeted treatment in TP53 carriers."
+  - target: 01-human/03-molecular/kras
+    relation: connects-to
+    note: "Oncogene cooperation: in the absence of functional p53, cooperating RAS-pathway activation drives the diverse tumours of Li-Fraumeni syndrome, the lost p53 removing the oncogene-induced-senescence barrier to RAS transformation."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Redox crosstalk: p53 and NRF2 jointly govern the cellular antioxidant response, and p53 loss in Li-Fraumeni syndrome shifts redox control and the oxidative-stress handling (xanthine-oxidase already mapped) of its tumours."
+  - target: 01-human/03-molecular/egfr
+    relation: connects-to
+    note: "RTK proliferation: receptor-tyrosine-kinase signalling through EGFR drives proliferation in many of the epithelial tumours of Li-Fraumeni syndrome, unopposed by the lost p53 checkpoint."
 ---
 
 # Li-Fraumeni Syndrome
@@ -574,6 +583,9 @@ Annual surveillance significantly reduces mortality in LFS carriers (Villani 201
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — p53 normally cooperates with E2F1 to trigger apoptosis after DNA damage, so germline TP53 loss in Li-Fraumeni leaves the RB-E2F axis (RB1, CDK4/6, CDKN2A mapped) driving proliferation without that fail-safe.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — p53 and PTEN reinforce each other, so loss of p53 in Li-Fraumeni leaves the PI3K-AKT-mTOR axis (AKT and mTOR already mapped) less restrained, accelerating the syndrome's diverse tumors.
 - `connects-to` → **[HER2](../../03-molecular/her2/README.md)** — The early-onset breast cancers of Li-Fraumeni syndrome are disproportionately HER2-positive, a distinctive feature that guides screening and targeted treatment in TP53 carriers.
+- `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — In the absence of functional p53, cooperating RAS-pathway activation drives the diverse tumors of Li-Fraumeni syndrome, the lost p53 removing the oncogene-induced-senescence barrier to RAS transformation.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — p53 and NRF2 jointly govern the cellular antioxidant response, and p53 loss in Li-Fraumeni syndrome shifts redox control and the oxidative-stress handling (xanthine-oxidase already mapped) of its tumors.
+- `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — Receptor-tyrosine-kinase signaling through EGFR drives proliferation in many of the epithelial tumors of Li-Fraumeni syndrome, unopposed by the lost p53 checkpoint.
 
 [^bougeard-2015-lfs-chompret]: Bougeard G, Renaux-Petel M, Flaman JM, et al. Revisiting Li-Fraumeni Syndrome From TP53 Mutation Carriers. *J Clin Oncol.* 2015;33(21):2345-2352. [doi:10.1200/JCO.2014.59.5728](https://doi.org/10.1200/JCO.2014.59.5728) · [PubMed 26014290](https://pubmed.ncbi.nlm.nih.gov/26014290/)
 [^villani-2016-lfs-surveillance]: Villani A, Shore A, Wasserman JD, et al. Biochemical and imaging surveillance in germline TP53 mutation carriers with Li-Fraumeni syndrome: 11 year follow-up of a prospective observational study. *Lancet Oncol.* 2016;17(9):1295-1305. [doi:10.1016/S1470-2045(16)30249-2](https://doi.org/10.1016/S1470-2045(16)30249-2) · [PubMed 27501770](https://pubmed.ncbi.nlm.nih.gov/27501770/)

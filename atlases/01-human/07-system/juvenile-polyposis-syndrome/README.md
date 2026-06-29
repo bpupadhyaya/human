@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/cdh1
     relation: connects-to
     note: "EMT and invasion: loss of E-cadherin during epithelial-mesenchymal transition accompanies the progression of juvenile-polyposis polyps to invasive adenocarcinoma."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Inflammatory stroma: IL-6-STAT3 signalling (IL-6 and STAT3 already mapped) sustains the inflammatory stroma of the hamartomatous polyps and contributes to their malignant potential in juvenile polyposis syndrome."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Microbiota inflammation: gut-microbiota-driven TLR-MyD88-NF-κB signalling (NF-κB already mapped) provides an inflammatory drive promoting the polyp-to-carcinoma progression of juvenile polyposis syndrome."
+  - target: 01-human/03-molecular/rb1
+    relation: connects-to
+    note: "Cancer progression: loss of the RB1-E2F checkpoint is among the cooperating events in the progression of juvenile-polyposis polyps to gastrointestinal carcinoma."
 ---
 
 # Juvenile Polyposis Syndrome
@@ -553,6 +562,9 @@ No approved chemopreventive agents specifically for JPS. Options under investiga
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — KRAS-driven (mapped) MAPK-ERK signaling contributes to the progression of juvenile-polyposis hamartomatous polyps toward colorectal and gastric carcinoma.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PIK3CA activation of the PI3K-AKT-mTOR axis (PTEN, AKT and mTOR already mapped) cooperates in the malignant transformation of juvenile-polyposis polyps.
 - `connects-to` → **[CDH1](../../03-molecular/cdh1/README.md)** — Loss of E-cadherin during epithelial-mesenchymal transition accompanies the progression of juvenile-polyposis polyps to invasive adenocarcinoma.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6-STAT3 signaling (IL-6 and STAT3 already mapped) sustains the inflammatory stroma of the hamartomatous polyps and contributes to their malignant potential in juvenile polyposis syndrome.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Gut-microbiota-driven TLR-MyD88-NF-κB signaling (NF-κB already mapped) provides an inflammatory drive promoting the polyp-to-carcinoma progression of juvenile polyposis syndrome.
+- `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — Loss of the RB1-E2F checkpoint is among the cooperating events in the progression of juvenile-polyposis polyps to gastrointestinal carcinoma.
 
 [^howe-1998-smad4-jps]: Howe JR, Roth S, Ringold JC, et al. Mutations in the SMAD4/DPC4 gene in juvenile polyposis. *Science.* 1998;280(5366):1086-1088. [doi:10.1126/science.280.5366.1086](https://doi.org/10.1126/science.280.5366.1086) · [PubMed 9582123](https://pubmed.ncbi.nlm.nih.gov/9582123/)
 [^aretz-2007-jps-spectrum]: Aretz S, Stienen D, Uhlhaas S, et al. High proportion of large genomic deletions and a genotype-phenotype update in 80 unrelated families with juvenile polyposis syndrome. *J Med Genet.* 2007;44(11):702-709. [doi:10.1136/jmg.2007.051839](https://doi.org/10.1136/jmg.2007.051839) · [PubMed 17601924](https://pubmed.ncbi.nlm.nih.gov/17601924/)
