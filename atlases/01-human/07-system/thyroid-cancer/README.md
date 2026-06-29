@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/mdm2
     relation: connects-to
     note: "Anaplastic transformation: MDM2-mediated suppression and outright TP53 mutation (p53 mapped) inactivate p53 in the progression to anaplastic thyroid carcinoma, removing its apoptotic and cell-cycle brake."
+  - target: 01-human/03-molecular/rb1
+    relation: connects-to
+    note: "Dedifferentiation: dysregulation of the RB1-E2F checkpoint (CDKN2A, cyclin-D1 and E2F1 already mapped) accompanies the dedifferentiation of thyroid cancer toward the aggressive anaplastic phenotype."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Inflammatory microenvironment: IL-6-JAK-STAT3 signalling (STAT3 already mapped) contributes to an inflammatory, pro-tumorigenic microenvironment in thyroid cancer."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Radioiodine resistance: NRF2 antioxidant signalling modulates the oxidative balance of thyroid follicular cells and contributes to resistance against radioiodine and oxidative therapy."
 ---
 
 # Thyroid Cancer
@@ -567,6 +576,9 @@ Calcitonin doubling time <6 months → poor prognosis → early systemic therapy
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — The cyclin-D1-CDK4/6 axis (cyclin-D1 mapped, with CDKN2A loss in aggressive disease) releases E2F1 to drive thyroid-carcinoma proliferation.
 - `connects-to` → **[CDH1](../../03-molecular/cdh1/README.md)** — Loss of E-cadherin during epithelial-mesenchymal transition promotes invasion and the dedifferentiation toward the aggressive, RAI-refractory anaplastic thyroid carcinoma.
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated suppression and outright TP53 mutation (p53 mapped) inactivate p53 in the progression to anaplastic thyroid carcinoma, removing its apoptotic and cell-cycle brake.
+- `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — Dysregulation of the RB1-E2F checkpoint (CDKN2A, cyclin-D1 and E2F1 already mapped) accompanies the dedifferentiation of thyroid cancer toward the aggressive anaplastic phenotype.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6-JAK-STAT3 signaling (STAT3 already mapped) contributes to an inflammatory, pro-tumorigenic microenvironment in thyroid cancer.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2 antioxidant signaling modulates the oxidative balance of thyroid follicular cells and contributes to resistance against radioiodine and oxidative therapy.
 
 [^schlumberger-2015-lenvatinib]: Schlumberger M, Tahara M, Wirth LJ, et al. Lenvatinib versus placebo in radioiodine-refractory differentiated thyroid cancer. *N Engl J Med.* 2015;372(7):621-630. [doi:10.1056/NEJMoa1406470](https://doi.org/10.1056/NEJMoa1406470) · [PubMed 25671254](https://pubmed.ncbi.nlm.nih.gov/25671254/)
 [^subbiah-2018-atc-dabrafenib]: Subbiah V, Kreitman RJ, Wainberg ZA, et al. Dabrafenib and trametinib treatment in patients with locally advanced or metastatic BRAF V600-mutant anaplastic thyroid cancer. *J Clin Oncol.* 2018;36(1):7-13. [doi:10.1200/JCO.2017.73.6785](https://doi.org/10.1200/JCO.2017.73.6785) · [PubMed 28892432](https://pubmed.ncbi.nlm.nih.gov/28892432/)

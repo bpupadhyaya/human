@@ -328,6 +328,15 @@ cross_links:
   - target: 01-human/03-molecular/angiopoietin
     relation: connects-to
     note: "Endothelial activation: Ang-2 release from activated endothelium amplifies the endothelial dysfunction of the thrombotic microangiopathy, promoting the microvascular platelet thrombosis of TTP."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Inflammatory trigger: TLR-MyD88-NF-κB innate signalling (TLR4 and NF-κB already mapped) contributes to the endothelial activation and inflammatory milieu that can trigger and amplify TTP episodes."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Cytokine response: IL-6-JAK-STAT3 signalling (IL-6 and STAT3 already mapped) participates in the systemic inflammatory response accompanying acute TTP."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "Complement amplification: complement activation generating C5a engages C5aR1 (C3 and C5 already mapped) to amplify the endothelial and platelet activation of the thrombotic microangiopathy in TTP."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -586,6 +595,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Impaired CTLA-4-dependent regulatory T-cell control underlies the loss of self-tolerance that permits the anti-ADAMTS13 autoantibody response of acquired TTP.
 - `connects-to` → **[Thrombopoietin](../../03-molecular/thrombopoietin/README.md)** — The consumptive thrombocytopenia of TTP, as platelets are swept into microthrombi, drives a compensatory thrombopoietin response reflecting the high platelet turnover.
 - `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Ang-2 release from activated endothelium amplifies the endothelial dysfunction of the thrombotic microangiopathy, promoting the microvascular platelet thrombosis of TTP.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88-NF-κB innate signaling (TLR4 and NF-κB already mapped) contributes to the endothelial activation and inflammatory milieu that can trigger and amplify TTP episodes.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6-JAK-STAT3 signaling (IL-6 and STAT3 already mapped) participates in the systemic inflammatory response accompanying acute TTP.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — Complement activation generating C5a engages C5aR1 (C3 and C5 already mapped) to amplify the endothelial and platelet activation of the thrombotic microangiopathy in TTP.
 
 ---
 
