@@ -341,6 +341,15 @@ cross_links:
   - target: 01-human/03-molecular/acth
     relation: connects-to
     note: "Stress axis: CRH-driven pituitary ACTH release (CRH, cortisol and the glucocorticoid receptor mapped) links stress to the symptom exacerbations of obsessive-compulsive disorder."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "TLR4-MyD88 innate neuroinflammatory signalling (TLR4 mapped) is implicated in the post-infectious/autoimmune (PANDAS) forms of obsessive-compulsive disorder."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "PTEN-regulated PI3K-AKT-mTOR signalling (AKT, mTOR and GSK-3β mapped) shapes the cortico-striatal synaptic plasticity disrupted in OCD."
+  - target: 01-human/03-molecular/adenosine
+    relation: connects-to
+    note: "Striatal adenosine A2A receptors functionally oppose dopamine D2 signalling (dopamine mapped) in the cortico-striatal circuits whose dysregulation underlies OCD."
 ---
 
 # Obsessive-Compulsive Disorder
@@ -573,6 +582,9 @@ OCD is often underdiagnosed due to shame and secrecy. Mean time from symptom ons
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β regulates glutamatergic synaptic plasticity in the cortico-striato-thalamo-cortical circuits implicated in OCD, and is a target of the lithium augmentation used in refractory cases.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling (with mTOR and ERK1/2 mapped) relays the BDNF-driven (mapped) neuroplasticity altered in the circuits underlying OCD.
 - `connects-to` → **[ACTH](../../03-molecular/acth/README.md)** — CRH-driven pituitary ACTH release (CRH, cortisol and the glucocorticoid receptor mapped) links stress to the symptom exacerbations of obsessive-compulsive disorder.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR4-MyD88 innate neuroinflammatory signaling (TLR4 mapped) is implicated in the post-infectious/autoimmune (PANDAS) forms of obsessive-compulsive disorder.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN-regulated PI3K-AKT-mTOR signaling (AKT, mTOR and GSK-3β mapped) shapes the cortico-striatal synaptic plasticity disrupted in OCD.
+- `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Striatal adenosine A2A receptors functionally oppose dopamine D2 signaling (dopamine mapped) in the cortico-striatal circuits whose dysregulation underlies OCD.
 
 [^abramowitz-2009-ocd-review]: Abramowitz JS, Taylor S, McKay D. Obsessive-compulsive disorder. *Lancet.* 2009;374(9688):491-499. [doi:10.1016/S0140-6736(09)60240-3](https://doi.org/10.1016/S0140-6736(09)60240-3) · [PubMed 19665647](https://pubmed.ncbi.nlm.nih.gov/19665647/)
 [^chamberlain-2008-ocd-neuroscience]: Chamberlain SR, Menzies L, Hampshire A, et al. Orbitofrontal dysfunction in patients with OCD and their unaffected relatives. *Science.* 2008;321(5887):421-422. [doi:10.1126/science.1154433](https://doi.org/10.1126/science.1154433) · [PubMed 18635808](https://pubmed.ncbi.nlm.nih.gov/18635808/)

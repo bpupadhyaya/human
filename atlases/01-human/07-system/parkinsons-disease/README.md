@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/myd88
     relation: connects-to
     note: "α-synuclein-driven microglia: TLR4 (mapped) sensing of aggregated α-synuclein (SNCA mapped) signals through MyD88 to activate microglia, driving the neuroinflammation that propagates Parkinson's neurodegeneration."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K-AKT signalling (GSK-3β and mTOR mapped) maintains dopaminergic-neuron survival, and its failure promotes the apoptotic loss characteristic of Parkinson's disease."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "IFN-γ/cytokine-driven JAK-STAT signalling (IFN-γ mapped) sustains the reactive microgliosis that propagates dopaminergic neuroinflammation in Parkinson's disease."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Microglial galectin-3 is induced by α-synuclein (SNCA mapped) and amplifies the neuroinflammatory response driving dopaminergic neurodegeneration."
 ---
 
 # Parkinson's Disease
@@ -574,6 +583,9 @@ PD is primarily a disease of aging (mean onset ~60 years), but **~10–15% of ca
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK senses the bioenergetic failure of Parkinson's (ATP mapped) and, opposing mTOR (mapped), promotes the autophagy/mitophagy (autophagy mapped) that clears the damaged mitochondria central to dopaminergic neuron death.
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β phosphorylates tau (MAPT mapped) and promotes neuronal apoptosis, a convergence node linking the genetic and degenerative threads of Parkinson's disease.
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR4 (mapped) sensing of aggregated α-synuclein (SNCA mapped) signals through MyD88 to activate microglia, driving the neuroinflammation that propagates Parkinson's neurodegeneration.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling (GSK-3β and mTOR mapped) maintains dopaminergic-neuron survival, and its failure promotes the apoptotic loss characteristic of Parkinson's disease.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IFN-γ/cytokine-driven JAK-STAT signaling (IFN-γ mapped) sustains the reactive microgliosis that propagates dopaminergic neuroinflammation in Parkinson's disease.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Microglial galectin-3 is induced by α-synuclein (SNCA mapped) and amplifies the neuroinflammatory response driving dopaminergic neurodegeneration.
 
 [^kalia-2015-pd-review]: Kalia LV, Lang AE. Parkinson's disease. *Lancet.* 2015;386(9996):896-912. [doi:10.1016/S0140-6736(14)61393-3](https://doi.org/10.1016/S0140-6736(14)61393-3) · [PubMed 25904081](https://pubmed.ncbi.nlm.nih.gov/25904081/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
