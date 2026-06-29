@@ -337,6 +337,15 @@ cross_links:
   - target: 01-human/03-molecular/pik3ca
     relation: connects-to
     note: "Acantholysis signalling: PI3K (PIK3CA)-AKT signalling (AKT already mapped), activated downstream of desmoglein-3 antibody binding, participates in the intracellular signalling that drives keratinocyte acantholysis in pemphigus vulgaris."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "The mTOR-regulated metabolic program supports the autoreactive B-cell and plasmablast expansion producing anti-desmoglein-3 antibodies in pemphigus vulgaris."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 modulates the cutaneous inflammation and immune dysregulation of pemphigus vulgaris."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling (TGF-β mapped) modulates the regulatory-T-cell tolerance whose impairment permits the anti-desmoglein autoimmunity of pemphigus vulgaris."
 ---
 
 # Pemphigus Vulgaris
@@ -587,6 +596,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — IL-12-driven Th1 polarization (IFN-γ already mapped) contributes to the autoreactive T-cell help underlying anti-desmoglein autoantibody production in pemphigus vulgaris.
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88-NF-κB innate signaling (NF-κB already mapped) provides an innate-immune contribution to the inflammatory blistering of pemphigus vulgaris.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped), activated downstream of desmoglein-3 antibody binding, participates in the intracellular signaling that drives keratinocyte acantholysis in pemphigus vulgaris.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — The mTOR-regulated metabolic program supports the autoreactive B-cell and plasmablast expansion producing anti-desmoglein-3 antibodies in pemphigus vulgaris.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 modulates the cutaneous inflammation and immune dysregulation of pemphigus vulgaris.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β mapped) modulates the regulatory-T-cell tolerance whose impairment permits the anti-desmoglein autoimmunity of pemphigus vulgaris.
 
 ---
 
