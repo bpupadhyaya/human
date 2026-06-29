@@ -337,6 +337,15 @@ cross_links:
   - target: 01-human/03-molecular/c5ar1
     relation: connects-to
     note: "Complement amplification: complement activation generating C5a engages C5aR1 (C3 and C5 already mapped) to amplify the endothelial and platelet activation of the thrombotic microangiopathy in TTP."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Endothelial and platelet PI3K-AKT signalling shapes the activated, procoagulant phenotype that propagates the microvascular thrombosis of TTP."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "ERK-MAPK signalling in platelets and endothelium amplifies the cellular activation driving the von-Willebrand-factor-rich microthrombi of TTP."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 promotes the neutrophil-extracellular-trap-driven thromboinflammation that contributes to the microvascular injury of TTP."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -598,6 +607,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88-NF-κB innate signaling (TLR4 and NF-κB already mapped) contributes to the endothelial activation and inflammatory milieu that can trigger and amplify TTP episodes.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6-JAK-STAT3 signaling (IL-6 and STAT3 already mapped) participates in the systemic inflammatory response accompanying acute TTP.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — Complement activation generating C5a engages C5aR1 (C3 and C5 already mapped) to amplify the endothelial and platelet activation of the thrombotic microangiopathy in TTP.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Endothelial and platelet PI3K-AKT signaling shapes the activated, procoagulant phenotype that propagates the microvascular thrombosis of TTP.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling in platelets and endothelium amplifies the cellular activation driving the von-Willebrand-factor-rich microthrombi of TTP.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 promotes the neutrophil-extracellular-trap-driven thromboinflammation that contributes to the microvascular injury of TTP.
 
 ---
 
