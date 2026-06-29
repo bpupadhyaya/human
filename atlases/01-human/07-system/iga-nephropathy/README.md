@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/smad4
     relation: connects-to
     note: "Glomerulosclerosis: TGF-β-SMAD signalling (TGF-β already mapped) drives the mesangial matrix expansion and glomerulosclerosis that determine progression to kidney failure in IgA nephropathy."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "Galactose-deficient IgA1 immune complexes activate mesangial-cell ERK-MAPK signalling, driving the proliferation and matrix production of IgA nephropathy."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K-AKT signalling sustains mesangial-cell proliferation and survival in response to the IgA1 immune-complex deposits of IgA nephropathy."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6-STAT3 signalling (IL-6 mapped) amplifies the mesangial inflammatory response to IgA1 deposition in IgA nephropathy."
 ---
 
 # IgA Nephropathy
@@ -519,6 +528,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Mucosal TLR-MyD88 signaling (TLR4 already mapped) drives the dysregulated IgA response and the synpharyngitic flares characteristic of IgA nephropathy.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6 signaling through JAK-STAT (IL-6 already mapped) promotes mesangial-cell proliferation and the inflammatory injury of IgA nephropathy.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β already mapped) drives the mesangial matrix expansion and glomerulosclerosis that determine progression to kidney failure in IgA nephropathy.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Galactose-deficient IgA1 immune complexes activate mesangial-cell ERK-MAPK signaling, driving the proliferation and matrix production of IgA nephropathy.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling sustains mesangial-cell proliferation and survival in response to the IgA1 immune-complex deposits of IgA nephropathy.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling (IL-6 mapped) amplifies the mesangial inflammatory response to IgA1 deposition in IgA nephropathy.
 
 ---
 

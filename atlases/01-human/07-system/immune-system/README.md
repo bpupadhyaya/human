@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/nlrp3-inflammasome
     relation: connects-to
     note: "Inflammasome sensing: the NLRP3 inflammasome senses danger signals and activates caspase-1 to release IL-1β, a central effector arm of innate inflammation."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "JAK-STAT signalling transduces the cytokine receptors that coordinate immune-cell differentiation and effector function across the immune system."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "The TLR adaptor MyD88 transduces innate pattern-recognition into NF-κB-driven inflammation (NF-κB mapped), a foundational mechanism of innate immunity."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Perforin-mediated cytotoxicity is the core killing mechanism by which cytotoxic T cells and NK cells eliminate infected and transformed cells."
 ---
 
 # Immune System
@@ -469,6 +478,9 @@ After primary response contraction, long-lived memory cells persist:
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB is the central transcription factor of immune activation, converting signals from pattern-recognition and cytokine receptors into the inflammatory gene program.
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Toll-like receptors such as TLR4 are the innate sensors that detect microbial molecular patterns and initiate the first-line immune response.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — The NLRP3 inflammasome senses danger signals and activates caspase-1 to release IL-1β, a central effector arm of innate inflammation.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK-STAT signaling transduces the cytokine receptors that coordinate immune-cell differentiation and effector function across the immune system.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — The TLR adaptor MyD88 transduces innate pattern-recognition into NF-κB-driven inflammation (NF-κB mapped), a foundational mechanism of innate immunity.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated cytotoxicity is the core killing mechanism by which cytotoxic T cells and NK cells eliminate infected and transformed cells.
 
 ## Pathology
 
