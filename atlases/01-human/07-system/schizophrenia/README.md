@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/nfe2l2
     relation: connects-to
     note: "Redox dysregulation: NRF2-regulated antioxidant defence counters the oxidative stress increasingly implicated in the parvalbumin-interneuron dysfunction of schizophrenia."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Microglial galectin-3 reflects the aberrant microglial synaptic pruning increasingly implicated in the neurodevelopmental pathogenesis of schizophrenia."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Cytokine-driven JAK-STAT signalling (IL-6 mapped) transduces the maternal-immune-activation and chronic inflammation linked to schizophrenia risk."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "PTEN regulation of the PI3K-AKT-GSK-3β axis (AKT and GSK-3β mapped) shapes the neurodevelopmental signalling implicated in schizophrenia."
 ---
 
 # Schizophrenia
@@ -611,6 +620,9 @@ Notably, schizophrenia shares genetic loci with bipolar disorder, ASD, ADHD, maj
 - `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — BDNF signaling through its TrkB receptor (NTRK) supports the cortical neurodevelopment and synaptic plasticity whose disruption is central to schizophrenia.
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4-driven microglial neuroinflammation, linked to maternal immune activation and prenatal infection, contributes to the neurodevelopmental origins of schizophrenia.
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2-regulated antioxidant defense counters the oxidative stress increasingly implicated in the parvalbumin-interneuron dysfunction of schizophrenia.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Microglial galectin-3 reflects the aberrant microglial synaptic pruning increasingly implicated in the neurodevelopmental pathogenesis of schizophrenia.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Cytokine-driven JAK-STAT signaling (IL-6 mapped) transduces the maternal-immune-activation and chronic inflammation linked to schizophrenia risk.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN regulation of the PI3K-AKT-GSK-3β axis (AKT and GSK-3β mapped) shapes the neurodevelopmental signaling implicated in schizophrenia.
 
 [^howes-2009-dopamine-hypothesis]: Howes OD, Kapur S. The dopamine hypothesis of schizophrenia: version III—the final common pathway. *Schizophr Bull.* 2009;35(3):549-562. [doi:10.1093/schbul/sbp006](https://doi.org/10.1093/schbul/sbp006) · [PubMed 19325164](https://pubmed.ncbi.nlm.nih.gov/19325164/)
 [^moghaddam-2012-glutamate]: Moghaddam B, Javitt D. From revolution to evolution: the glutamate hypothesis of schizophrenia and its implication for treatment. *Neuropsychopharmacology.* 2012;37(1):4-15. [doi:10.1038/npp.2011.181](https://doi.org/10.1038/npp.2011.181) · [PubMed 21956446](https://pubmed.ncbi.nlm.nih.gov/21956446/)
