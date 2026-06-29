@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Complement activation with C3 deposition contributes to neutrophil recruitment and the innate inflammatory amplification of psoriatic lesions."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 modulates keratinocyte and immune-cell crosstalk and amplifies the innate inflammation of psoriatic plaques."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling (type-I interferon already mapped) drives the early interferon-skewed innate activation that precedes the Th17 inflammation of psoriasis."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling (TGF-β already mapped) shapes the dysregulated keratinocyte proliferation and differentiation of the psoriatic epidermis."
 ---
 
 # Psoriasis
@@ -562,6 +571,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT-mTOR signaling (mTOR mapped) drives the keratinocyte hyperproliferation and survival that thickens the psoriatic epidermis.
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2 antioxidant signaling is dysregulated in psoriatic keratinocytes, linking the oxidative-stress milieu of the plaque to barrier and inflammatory abnormalities.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement activation with C3 deposition contributes to neutrophil recruitment and the innate inflammatory amplification of psoriatic lesions.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 modulates keratinocyte and immune-cell crosstalk and amplifies the innate inflammation of psoriatic plaques.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling (type-I interferon already mapped) drives the early interferon-skewed innate activation that precedes the Th17 inflammation of psoriasis.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β already mapped) shapes the dysregulated keratinocyte proliferation and differentiation of the psoriatic epidermis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

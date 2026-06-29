@@ -342,6 +342,15 @@ cross_links:
   - target: 01-human/03-molecular/galectin-3
     relation: connects-to
     note: "Microglial galectin-3 is induced during stress-driven neuroinflammation, amplifying the reactive microglial state linked to PTSD."
+  - target: 01-human/03-molecular/ntrk
+    relation: connects-to
+    note: "BDNF-TrkB (NTRK) signalling (BDNF already mapped) drives the hippocampal and amygdalar plasticity underlying fear conditioning and extinction in PTSD."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6-STAT3 signalling transduces the chronic inflammatory tone associated with the stress-driven neuroinflammation of PTSD."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic mitochondrial DNA released during chronic stress can engage cGAS-STING, contributing to the neuroinflammation implicated in PTSD."
 ---
 
 # PTSD
@@ -585,6 +594,9 @@ Not all trauma leads to PTSD. Risk and resilience factors include:
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Cytokine-driven JAK-STAT signaling (IL-6 mapped) transduces the peripheral and central inflammatory milieu associated with PTSD symptom severity.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement-mediated synaptic pruning (C3 tagging) in fear-circuit regions is implicated in the aberrant remodeling that underlies PTSD memory pathology.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Microglial galectin-3 is induced during stress-driven neuroinflammation, amplifying the reactive microglial state linked to PTSD.
+- `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — BDNF-TrkB (NTRK) signaling (BDNF already mapped) drives the hippocampal and amygdalar plasticity underlying fear conditioning and extinction in PTSD.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling transduces the chronic inflammatory tone associated with the stress-driven neuroinflammation of PTSD.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic mitochondrial DNA released during chronic stress can engage cGAS-STING, contributing to the neuroinflammation implicated in PTSD.
 
 [^yehuda-2015-ptsd-review]: Yehuda R, Hoge CW, McFarlane AC, et al. Post-traumatic stress disorder. *Nat Rev Dis Primers.* 2015;1:15057. [doi:10.1038/nrdp.2015.57](https://doi.org/10.1038/nrdp.2015.57) · [PubMed 27189040](https://pubmed.ncbi.nlm.nih.gov/27189040/)
 [^foa-2019-ptsd-treatments]: Foa EB, McLean CP. The efficacy of exposure therapy for anxiety and related disorders. *Annu Rev Clin Psychol.* 2016;12:1-28. [doi:10.1146/annurev-clinpsy-021815-093533](https://doi.org/10.1146/annurev-clinpsy-021815-093533) · [PubMed 26928206](https://pubmed.ncbi.nlm.nih.gov/26928206/)
