@@ -312,6 +312,15 @@ cross_links:
   - target: 01-human/03-molecular/myd88
     relation: connects-to
     note: "Microglial activation: TLR4 (mapped) signalling through MyD88 activates spinal microglia after nerve injury, a key neuroinflammatory amplifier of neuropathic pain."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K-AKT signalling downstream of neurotrophin (NTRK/BDNF mapped) and cytokine receptors drives the central and peripheral sensitisation underlying neuropathic pain."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Glial JAK-STAT signalling transduces the IL-6/cytokine milieu (IL-6 mapped) into the reactive astro-microgliosis that sustains neuropathic pain."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "IL-17A from infiltrating T cells sensitises nociceptors and amplifies spinal glial activation, contributing to chronic neuropathic pain."
 sources:
   - id: jensen-2011-neuropathic-pain-review
     type: peer-reviewed
@@ -573,6 +582,9 @@ Chronic neuropathic pain carries significant psychological burden:
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — BDNF-TrkB (BDNF and NTRK mapped) and inflammatory signaling activate MAPK-ERK in dorsal-horn neurons and microglia, driving the central sensitization that amplifies neuropathic pain.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Spinal mTOR-driven protein synthesis sustains the long-term central sensitization that maintains the chronic neuropathic pain state.
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR4 (mapped) signaling through MyD88 activates spinal microglia after nerve injury, a key neuroinflammatory amplifier of neuropathic pain.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling downstream of neurotrophin (NTRK/BDNF mapped) and cytokine receptors drives the central and peripheral sensitization underlying neuropathic pain.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Glial JAK-STAT signaling transduces the IL-6/cytokine milieu (IL-6 mapped) into the reactive astro-microgliosis that sustains neuropathic pain.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A from infiltrating T cells sensitizes nociceptors and amplifies spinal glial activation, contributing to chronic neuropathic pain.
 
 [^jensen-2011-neuropathic-pain-review]: Jensen TS, Baron R, Haanpää M, et al. A new definition of neuropathic pain. *Pain.* 2011;152(10):2204-2205. [doi:10.1016/j.pain.2011.06.017](https://doi.org/10.1016/j.pain.2011.06.017) · [PubMed 21764514](https://pubmed.ncbi.nlm.nih.gov/21764514/)
 [^dworkin-2010-neuropathic-pain-treatment]: Dworkin RH, O'Connor AB, Audette J, et al. Recommendations for the pharmacological management of neuropathic pain. *Mayo Clin Proc.* 2010;85(3 Suppl):S3-14. [doi:10.4065/mcp.2009.0649](https://doi.org/10.4065/mcp.2009.0649) · [PubMed 20194146](https://pubmed.ncbi.nlm.nih.gov/20194146/)

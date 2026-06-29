@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/myd88
     relation: connects-to
     note: "Gut-liver axis: gut-derived endotoxin engages hepatic TLR4 (mapped) and MyD88 to NF-κB (mapped), the innate-immune signalling that converts steatosis into inflammatory steatohepatitis."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Leptin and IL-6 signalling through JAK-STAT3 (STAT3 mapped) links adipose-derived and hepatic inflammation to the progression of steatohepatitis."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement activation with C3 deposition in the steatotic liver contributes to the innate inflammatory drive of NASH alongside the TLR4/NLRP3 pathways already mapped."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "Hepatic loss of PTEN-restrained PI3K-AKT signalling (AKT and mTOR mapped) promotes lipogenesis and steatosis, linking insulin resistance to fatty-liver disease."
 ---
 
 # NASH
@@ -524,6 +533,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTORC1 drives the SREBP-mediated de novo lipogenesis of hepatic steatosis, opposing the AMPK energy sensor (mapped) in the metabolic imbalance that initiates NASH.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β signals through SMAD4 (TGF-β mapped) to activate hepatic stellate cells, the transcriptional driver of the collagen (mapped) fibrosis that defines progressive NASH.
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Gut-derived endotoxin engages hepatic TLR4 (mapped) and MyD88 to NF-κB (mapped), the innate-immune signaling that converts steatosis into inflammatory steatohepatitis.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Leptin and IL-6 signaling through JAK-STAT3 (STAT3 mapped) links adipose-derived and hepatic inflammation to the progression of steatohepatitis.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement activation with C3 deposition in the steatotic liver contributes to the innate inflammatory drive of NASH alongside the TLR4/NLRP3 pathways already mapped.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — Hepatic loss of PTEN-restrained PI3K-AKT signaling (AKT and mTOR mapped) promotes lipogenesis and steatosis, linking insulin resistance to fatty-liver disease.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
