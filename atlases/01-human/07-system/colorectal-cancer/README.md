@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/rb1
     relation: connects-to
     note: "Cell-cycle restraint: dysregulation of the RB1-E2F checkpoint (cyclin-D1 and E2F1 already mapped) contributes to the cell-cycle progression of colorectal cancer."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 promotes immune evasion and the liver-metastatic colonisation that drives mortality in colorectal cancer."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling governs the antitumour immune response of colorectal cancer, particularly the immunotherapy-responsive mismatch-repair-deficient subtype."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "EZH2-mediated polycomb repression silences tumour-suppressor genes and contributes to the epigenetic dysregulation of colorectal cancer."
 ---
 
 # Colorectal Cancer
@@ -563,6 +572,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Gut-microbiota TLR-MyD88-NF-κB signaling (NF-κB already mapped), exemplified by Fusobacterium nucleatum, promotes inflammation-associated colorectal carcinogenesis and links inflammatory bowel disease to cancer risk.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6-JAK-STAT3 signaling (IL-6 and STAT3 already mapped) sustains the tumor-promoting inflammatory microenvironment of colorectal cancer.
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — Dysregulation of the RB1-E2F checkpoint (cyclin-D1 and E2F1 already mapped) contributes to the cell-cycle progression of colorectal cancer.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 promotes immune evasion and the liver-metastatic colonization that drives mortality in colorectal cancer.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling governs the antitumor immune response of colorectal cancer, particularly the immunotherapy-responsive mismatch-repair-deficient subtype.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — EZH2-mediated polycomb repression silences tumor-suppressor genes and contributes to the epigenetic dysregulation of colorectal cancer.
 
 ---
 
