@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/e2f1
     relation: connects-to
     note: "Leukaemia predisposition: RAS-MAPK overactivation drives cyclin-D1 (mapped) and E2F1-dependent cell-cycle entry, underpinning the juvenile myelomonocytic leukaemia predisposition of Noonan syndrome."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "SHP2-cytokine signalling: the PTPN11/SHP2 phosphatase mutated in Noonan syndrome positively regulates both RAS-MAPK and JAK-STAT signalling, the latter contributing to the cytokine-driven myeloproliferation of its JMML predisposition."
+  - target: 01-human/03-molecular/ryr2
+    relation: connects-to
+    note: "Cardiac calcium handling: RyR2-mediated sarcoplasmic calcium release (with SERCA2a already mapped) governs the excitation-contraction coupling of the cardiomyocyte, stressed in the hypertrophic cardiomyopathy of Noonan syndrome."
+  - target: 01-human/03-molecular/rb1
+    relation: connects-to
+    note: "Cell-cycle restraint: the RB1-E2F checkpoint (cyclin-D1 and E2F1 already mapped) restrains the RAS-MAPK-driven proliferation underlying the leukaemia predisposition of Noonan syndrome."
 ---
 
 # Noonan Syndrome
@@ -561,6 +570,9 @@ NS is characterized by four cardinal features: **(1) short stature** (below 3rd 
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH signaling governs cardiac valve and outflow-tract development, and its interplay with the RAS-MAPK overactivation of Noonan contributes to the pulmonary-valve stenosis that is the commonest cardiac defect.
 - `connects-to` → **[Connexin-43](../../03-molecular/connexin43/README.md)** — Gap-junction connexin-43 couples cardiomyocytes for coordinated conduction, relevant to the conduction abnormalities and arrhythmia risk of the Noonan heart.
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — RAS-MAPK overactivation drives cyclin-D1 (mapped) and E2F1-dependent cell-cycle entry, underpinning the juvenile myelomonocytic leukemia predisposition of Noonan syndrome.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — The PTPN11/SHP2 phosphatase mutated in Noonan syndrome positively regulates both RAS-MAPK and JAK-STAT signaling, the latter contributing to the cytokine-driven myeloproliferation of its JMML predisposition.
+- `connects-to` → **[Ryanodine receptor 2 (RyR2)](../../03-molecular/ryr2/README.md)** — RyR2-mediated sarcoplasmic calcium release (with SERCA2a already mapped) governs the excitation-contraction coupling of the cardiomyocyte, stressed in the hypertrophic cardiomyopathy of Noonan syndrome.
+- `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — The RB1-E2F checkpoint (cyclin-D1 and E2F1 already mapped) restrains the RAS-MAPK-driven proliferation underlying the leukemia predisposition of Noonan syndrome.
 
 [^tartaglia-2001-ptpn11-noonan]: Tartaglia M, Mehler EL, Goldberg R, et al. Mutations in PTPN11, encoding the protein tyrosine phosphatase SHP-2, cause Noonan syndrome. *Nat Genet.* 2001;29(4):465-468. [doi:10.1038/ng772](https://doi.org/10.1038/ng772) · [PubMed 11704759](https://pubmed.ncbi.nlm.nih.gov/11704759/)
 [^van-der-burgt-2007-noonan-review]: van der Burgt I. Noonan syndrome. *Orphanet J Rare Dis.* 2007;2:4. [doi:10.1186/1750-1172-2-4](https://doi.org/10.1186/1750-1172-2-4) · [PubMed 17222357](https://pubmed.ncbi.nlm.nih.gov/17222357/)

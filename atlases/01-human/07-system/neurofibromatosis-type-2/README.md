@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "Schwannoma stroma: TGF-β signalling shapes the collagenous extracellular matrix (collagen mapped) and fibroblastic stroma of the schwannomas characteristic of NF2."
+  - target: 01-human/03-molecular/kras
+    relation: connects-to
+    note: "RTK-RAS proliferation: RAS-MAPK signalling (ERK1/2 already mapped) downstream of the receptor tyrosine kinases active in schwannomas provides a proliferative input in NF2-related tumours."
+  - target: 01-human/03-molecular/rb1
+    relation: connects-to
+    note: "Meningioma progression: the RB1-E2F checkpoint (CDK4/6, CDKN2A and E2F1 already mapped) restrains proliferation, and its dysregulation accompanies progression of NF2-associated meningiomas to higher grade."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "STAT3 survival: JAK-STAT3 signalling (STAT3 already mapped) contributes to the survival signalling of the schwannomas and meningiomas of NF2."
 ---
 
 # Neurofibromatosis Type 2
@@ -543,6 +552,9 @@ Merlin has an N-terminal FERM domain (α, β, γ lobes) that binds membrane lipi
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — The cyclin-D1-CDK4/6 axis (mapped, with CDKN2A loss) releases E2F1 to drive the proliferation of the schwannomas and meningiomas of NF2.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — Merlin loss de-represses PI3K-AKT-mTOR signaling (PIK3CA, AKT and mTOR already mapped), which PTEN normally limits, contributing to NF2 tumor growth.
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β signaling shapes the collagenous extracellular matrix (collagen mapped) and fibroblastic stroma of the schwannomas characteristic of NF2.
+- `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — RAS-MAPK signaling (ERK1/2 already mapped) downstream of the receptor tyrosine kinases active in schwannomas provides a proliferative input in NF2-related tumors.
+- `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — The RB1-E2F checkpoint (CDK4/6, CDKN2A and E2F1 already mapped) restrains proliferation, and its dysregulation accompanies progression of NF2-associated meningiomas to higher grade.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK-STAT3 signaling (STAT3 already mapped) contributes to the survival signaling of the schwannomas and meningiomas of NF2.
 
 [^asthagiri-2009-nf2-lancet]: Asthagiri AR, Parry DM, Butman JA, et al. Neurofibromatosis type 2. *Lancet.* 2009;373(9679):1974-1986. [doi:10.1016/S0140-6736(09)60259-2](https://doi.org/10.1016/S0140-6736(09)60259-2) · [PubMed 19476995](https://pubmed.ncbi.nlm.nih.gov/19476995/)
 [^plotkin-2009-nf2-bevacizumab]: Plotkin SR, Stemmer-Rachamimov AO, Barker FG 2nd, et al. Hearing improvement after bevacizumab in patients with neurofibromatosis type 2. *N Engl J Med.* 2009;361(4):358-367. [doi:10.1056/NEJMoa0902579](https://doi.org/10.1056/NEJMoa0902579) · [PubMed 19587327](https://pubmed.ncbi.nlm.nih.gov/19587327/)
