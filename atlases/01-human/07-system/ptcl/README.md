@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/e2f1
     relation: connects-to
     note: "Cell-cycle output: cyclin-D1 (mapped) and CDK4/6 release E2F1 to drive the cell-cycle progression of peripheral T-cell lymphoma."
+  - target: 01-human/03-molecular/rb1
+    relation: connects-to
+    note: "Checkpoint loss: dysregulation of the RB1-E2F checkpoint (cyclin-D1 and E2F1 already mapped) contributes to the proliferation of peripheral T-cell lymphoma."
+  - target: 01-human/03-molecular/kras
+    relation: connects-to
+    note: "RAS proliferation: RAS-ERK signalling (ERK1/2 already mapped) downstream of T-cell-receptor and cytokine inputs provides a proliferative drive in peripheral T-cell lymphoma."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "NF-κB activation: TLR-MyD88-NF-κB signalling (NF-κB already mapped) contributes to the constitutive NF-κB activation characteristic of several peripheral T-cell lymphoma subtypes."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -568,6 +577,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — The NPM-ALK fusion of ALK-positive anaplastic large cell lymphoma (ALK mapped) signals through the MAPK-ERK cascade to drive proliferation of this PTCL subtype.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — ALK also engages PI3K-AKT (PIK3CA and mTOR already mapped), a survival pathway downstream of the fusion kinase in anaplastic large cell lymphoma.
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — Cyclin-D1 (mapped) and CDK4/6 release E2F1 to drive the cell-cycle progression of peripheral T-cell lymphoma.
+- `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — Dysregulation of the RB1-E2F checkpoint (cyclin-D1 and E2F1 already mapped) contributes to the proliferation of peripheral T-cell lymphoma.
+- `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — RAS-ERK signaling (ERK1/2 already mapped) downstream of T-cell-receptor and cytokine inputs provides a proliferative drive in peripheral T-cell lymphoma.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88-NF-κB signaling (NF-κB already mapped) contributes to the constitutive NF-κB activation characteristic of several peripheral T-cell lymphoma subtypes.
 
 ---
 

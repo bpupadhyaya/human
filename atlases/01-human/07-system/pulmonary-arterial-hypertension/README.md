@@ -328,6 +328,15 @@ cross_links:
   - target: 01-human/03-molecular/e2f1
     relation: connects-to
     note: "Quasi-neoplastic growth: the apoptosis-resistant, proliferative pulmonary-artery smooth-muscle and endothelial cells of PAH show E2F-driven cell-cycle activity reminiscent of a cancer-like phenotype."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Remodelling cytokine axis: IL-6-JAK-STAT3 signalling (IL-6 and STAT3 already mapped) drives the proliferative pulmonary vascular remodelling of pulmonary arterial hypertension."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Vascular inflammation: NF-κB-driven inflammation in the pulmonary vasculature sustains the perivascular immune-cell recruitment and cytokine production that promote the vascular remodelling of PAH."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Oxidative dysfunction: NRF2 antioxidant signalling counters the oxidative stress (xanthine-oxidase already mapped) that contributes to endothelial dysfunction and smooth-muscle proliferation in pulmonary arterial hypertension."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -554,6 +563,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — PDGF and FGF (both mapped) signal through the MAPK-ERK cascade to drive the pulmonary-artery smooth-muscle proliferation of PAH, the rationale behind PDGFR-inhibitor (imatinib) trials.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — PI3K-AKT-mTOR signaling (AKT already mapped) sustains the survival and proliferation of the remodeled pulmonary vascular cells in PAH.
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — The apoptosis-resistant, proliferative pulmonary-artery smooth-muscle and endothelial cells of PAH show E2F-driven cell-cycle activity reminiscent of a cancer-like phenotype.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6-JAK-STAT3 signaling (IL-6 and STAT3 already mapped) drives the proliferative pulmonary vascular remodeling of pulmonary arterial hypertension.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB-driven inflammation in the pulmonary vasculature sustains the perivascular immune-cell recruitment and cytokine production that promote the vascular remodeling of PAH.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2 antioxidant signaling counters the oxidative stress (xanthine-oxidase already mapped) that contributes to endothelial dysfunction and smooth-muscle proliferation in pulmonary arterial hypertension.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
