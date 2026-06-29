@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/pten
     relation: connects-to
     note: "IGF-PI3K axis: IGF-1R signalling (IGF-1 mapped) drives PI3K-AKT-mTOR (PIK3CA, AKT and mTOR already mapped), which PTEN restrains, a key growth-and-survival pathway in rhabdomyosarcoma."
+  - target: 01-human/03-molecular/rb1
+    relation: connects-to
+    note: "Cell-cycle drive: dysregulation of the RB1-E2F checkpoint (CDK4/6, CDKN2A, cyclin-D1 and E2F1 already mapped) drives the proliferation of rhabdomyosarcoma."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "p53 inactivation: MDM2 amplification inactivates p53 (already mapped) in rhabdomyosarcoma, an alternative to TP53 mutation that impairs the apoptotic response."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "STAT3 survival: JAK-STAT3 signalling (STAT3 already mapped) supports the survival and proliferation of rhabdomyosarcoma cells."
 ---
 
 # Rhabdomyosarcoma
@@ -551,6 +560,9 @@ Maximal safe resection with negative margins (R0) wherever achievable without mu
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — In fusion-negative embryonal rhabdomyosarcoma, RAS-pathway mutations (KRAS, FGFR and MET mapped) activate the MAPK-ERK cascade as a central proliferative driver.
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — The CDK4/6-cyclin-D1 axis (mapped, with CDKN2A loss) releases E2F1 to drive the proliferation of rhabdomyosarcoma.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — IGF-1R signaling (IGF-1 mapped) drives PI3K-AKT-mTOR (PIK3CA, AKT and mTOR already mapped), which PTEN restrains, a key growth-and-survival pathway in rhabdomyosarcoma.
+- `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — Dysregulation of the RB1-E2F checkpoint (CDK4/6, CDKN2A, cyclin-D1 and E2F1 already mapped) drives the proliferation of rhabdomyosarcoma.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2 amplification inactivates p53 (already mapped) in rhabdomyosarcoma, an alternative to TP53 mutation that impairs the apoptotic response.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK-STAT3 signaling (STAT3 already mapped) supports the survival and proliferation of rhabdomyosarcoma cells.
 
 [^crist-2001-irs4-rms]: Crist WM, Anderson JR, Meza JL, et al. Intergroup rhabdomyosarcoma study-IV: results for patients with nonmetastatic disease. *J Clin Oncol.* 2001;19(12):3091-3102. [doi:10.1200/JCO.2001.19.12.3091](https://doi.org/10.1200/JCO.2001.19.12.3091) · [PubMed 11408506](https://pubmed.ncbi.nlm.nih.gov/11408506/)
 [^oberlin-2012-mmt95-rms]: Oberlin O, Rey A, Sanchez de Toledo J, et al. Randomized comparison of intensified six-drug versus standard three-drug chemotherapy for high-risk nonmetastatic rhabdomyosarcoma and other chemotherapy-sensitive childhood soft tissue sarcomas. *J Clin Oncol.* 2012;30(19):2457-2465. [doi:10.1200/JCO.2011.39.3538](https://doi.org/10.1200/JCO.2011.39.3538) · [PubMed 22665546](https://pubmed.ncbi.nlm.nih.gov/22665546/)

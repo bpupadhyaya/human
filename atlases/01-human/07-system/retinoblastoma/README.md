@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/stat3
     relation: connects-to
     note: "Pro-survival STAT3: STAT3 signalling promotes the survival and chemoresistance of retinoblastoma cells, complementing the loss of RB-mediated cell-cycle control."
+  - target: 01-human/03-molecular/kras
+    relation: connects-to
+    note: "RAS proliferation: RAS-ERK signalling (ERK1/2 already mapped) provides a proliferative input cooperating with RB1 loss and MYCN amplification in retinoblastoma."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Upstream of STAT3: JAK kinases signal to STAT3 (already mapped), the survival pathway whose activity sustains retinoblastoma-cell chemoresistance."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Survival signalling: NF-κB-driven survival and inflammatory signalling supports the growth of retinoblastoma and contributes to chemoresistance."
 ---
 
 # Retinoblastoma
@@ -536,6 +545,9 @@ Standard regimen: **vincristine + carboplatin + etoposide (VCE)**, 6 cycles; red
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN restrains the PI3K-AKT-mTOR axis (PIK3CA, AKT and mTOR already mapped) that supports the survival of retinoblastoma cells and is a candidate therapeutic target.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — IGF-1R signaling (IGF-1 mapped) feeds the MAPK-ERK cascade that supports proliferation and survival in retinoblastoma.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 signaling promotes the survival and chemoresistance of retinoblastoma cells, complementing the loss of RB-mediated cell-cycle control.
+- `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — RAS-ERK signaling (ERK1/2 already mapped) provides a proliferative input cooperating with RB1 loss and MYCN amplification in retinoblastoma.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK kinases signal to STAT3 (already mapped), the survival pathway whose activity sustains retinoblastoma-cell chemoresistance.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB-driven survival and inflammatory signaling supports the growth of retinoblastoma and contributes to chemoresistance.
 
 [^knudson-1971-two-hit]: Knudson AG Jr. Mutation and cancer: statistical study of retinoblastoma. *Proc Natl Acad Sci USA.* 1971;68(4):820-823. [doi:10.1073/pnas.68.4.820](https://doi.org/10.1073/pnas.68.4.820) · [PubMed 5279523](https://pubmed.ncbi.nlm.nih.gov/5279523/)
 [^shields-2008-retinoblastoma]: Shields CL, Shields JA. Retinoblastoma management: advances in enucleation, intravenous chemoreduction, and intra-arterial chemotherapy. *Curr Opin Ophthalmol.* 2010;21(3):203-212. [doi:10.1097/ICU.0b013e328338676a](https://doi.org/10.1097/ICU.0b013e328338676a) · [PubMed 20224400](https://pubmed.ncbi.nlm.nih.gov/20224400/)
