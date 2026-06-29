@@ -328,6 +328,15 @@ cross_links:
   - target: 01-human/03-molecular/thrombopoietin
     relation: connects-to
     note: "Platelet turnover: thrombopoietin sets the platelet mass available for thrombus formation, relevant to both the thrombocytopenia and the thrombosis that characterise antiphospholipid syndrome."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "Antiphospholipid antibodies engaging β2-glycoprotein-1 (mapped) on endothelium, platelets and monocytes activate ERK-MAPK, inducing tissue factor and the prothrombotic phenotype of APS."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "aPL signalling recruits PI3K (PIK3CA) upstream of the AKT-mTOR axis (AKT and mTOR mapped) that drives endothelial activation and the vasculopathy of antiphospholipid syndrome."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 amplifies the monocyte and endothelial inflammatory response to antiphospholipid antibodies, contributing to APS thromboinflammation."
 ---
 
 # Antiphospholipid Syndrome
@@ -577,6 +586,9 @@ In APS, anti-B2GPI IgG bound to B2GPI on phospholipid surfaces converts this ant
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Anti-β2-glycoprotein-1 antibodies (β2GPI and TLR4 mapped) signal through MyD88 to NF-κB (mapped) in endothelium and monocytes, inducing the tissue factor that drives the prothrombotic state of APS.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Serotonin released from antibody-activated platelet dense granules promotes further aggregation and vasoconstriction, propagating the thrombosis of antiphospholipid syndrome.
 - `connects-to` → **[Thrombopoietin](../../03-molecular/thrombopoietin/README.md)** — Thrombopoietin sets the platelet mass available for thrombus formation, relevant to both the thrombocytopenia and the thrombosis that characterize antiphospholipid syndrome.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Antiphospholipid antibodies engaging β2-glycoprotein-1 (mapped) on endothelium, platelets and monocytes activate ERK-MAPK, inducing tissue factor and the prothrombotic phenotype of APS.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — aPL signaling recruits PI3K (PIK3CA) upstream of the AKT-mTOR axis (AKT and mTOR mapped) that drives endothelial activation and the vasculopathy of antiphospholipid syndrome.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 amplifies the monocyte and endothelial inflammatory response to antiphospholipid antibodies, contributing to APS thromboinflammation.
 
 [^miyakis-2006-sydney-aps]: Miyakis S, Lockshin MD, Atsumi T, et al. International consensus statement on an update of the classification criteria for definite antiphospholipid syndrome (APS). *J Thromb Haemost.* 2006;4(2):295-306. [doi:10.1111/j.1538-7836.2006.01753.x](https://doi.org/10.1111/j.1538-7836.2006.01753.x) · [PubMed 16420554](https://pubmed.ncbi.nlm.nih.gov/16420554/)
 [^barbhaiya-2023-acreular-aps]: Barbhaiya M, Zuily S, Naden R, et al. The 2023 ACR/EULAR antiphospholipid syndrome classification criteria. *Ann Rheum Dis.* 2023;82(10):1258-1270. [doi:10.1136/ard-2023-224609](https://doi.org/10.1136/ard-2023-224609) · [PubMed 37643823](https://pubmed.ncbi.nlm.nih.gov/37643823/)

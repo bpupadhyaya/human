@@ -337,6 +337,15 @@ cross_links:
   - target: 01-human/03-molecular/sclerostin
     relation: connects-to
     note: "Bone loss: chronic energy deficit shifts the sclerostin-Wnt and RANKL (mapped) balance in bone, contributing to the severe osteoporosis of anorexia nervosa alongside low estrogen and IGF-1 (both mapped)."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Suppressed Wnt/β-catenin osteoblast signalling (sclerostin, its antagonist, is mapped) underlies the impaired bone formation that drives the osteoporosis of anorexia nervosa."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Blunted IGF-1/insulin PI3K-AKT-mTOR signalling (IGF-1, insulin and mTOR mapped) reflects the GH-resistant, energy-deficient anabolic state of anorexia nervosa."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Disrupted melatonin rhythm accompanies the circadian and sleep disturbances of anorexia nervosa, interacting with its neuroendocrine dysregulation."
 ---
 
 # Anorexia Nervosa
@@ -584,6 +593,9 @@ In healthy individuals, food cues activate the mesolimbic reward circuit (VTA �
 - `connects-to` → **[ACTH](../../03-molecular/acth/README.md)** — Starvation-driven CRH (mapped) raises pituitary ACTH and thus cortisol (mapped), the hypercortisolemia of anorexia nervosa that contributes to its bone loss and metabolic adaptation.
 - `connects-to` → **[Orexin](../../03-molecular/orexin/README.md)** — Hypothalamic orexin links the starvation state to arousal and feeding drive, a circuit dysregulated in the appetite suppression and paradoxical hyperactivity of anorexia nervosa.
 - `connects-to` → **[Sclerostin](../../03-molecular/sclerostin/README.md)** — Chronic energy deficit shifts the sclerostin-Wnt and RANKL (mapped) balance in bone, contributing to the severe osteoporosis of anorexia nervosa alongside low estrogen and IGF-1 (both mapped).
+- `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Suppressed Wnt/β-catenin osteoblast signaling (sclerostin, its antagonist, is mapped) underlies the impaired bone formation that drives the osteoporosis of anorexia nervosa.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Blunted IGF-1/insulin PI3K-AKT-mTOR signaling (IGF-1, insulin and mTOR mapped) reflects the GH-resistant, energy-deficient anabolic state of anorexia nervosa.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Disrupted melatonin rhythm accompanies the circadian and sleep disturbances of anorexia nervosa, interacting with its neuroendocrine dysregulation.
 
 [^treasure-2010-an-lancet]: Treasure J, Claudino AM, Zucker N. Eating disorders. *Lancet.* 2010;375(9714):583-593. [doi:10.1016/S0140-6736(09)61748-7](https://doi.org/10.1016/S0140-6736(09)61748-7) · [PubMed 19931176](https://pubmed.ncbi.nlm.nih.gov/19931176/)
 [^lock-2010-fbt-an]: Lock J, Le Grange D, Agras WS, et al. Randomized clinical trial comparing family-based treatment with adolescent-focused individual therapy for adolescents with anorexia nervosa. *Arch Gen Psychiatry.* 2010;67(10):1025-1032. [doi:10.1001/archgenpsychiatry.2010.128](https://doi.org/10.1001/archgenpsychiatry.2010.128) · [PubMed 20921118](https://pubmed.ncbi.nlm.nih.gov/20921118/)
