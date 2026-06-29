@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "Stromal phenotype: TGF-β signalling shapes the fibroblastic and transitional phenotypes of meningioma and the collagenous stroma of these dura-derived tumours."
+  - target: 01-human/03-molecular/rb1
+    relation: connects-to
+    note: "Grade progression: deregulation of the RB1-E2F checkpoint (E2F1, CDK4/6, CDKN2A and cyclin-D1 already mapped) marks the progression of meningioma toward higher WHO grade."
+  - target: 01-human/03-molecular/kras
+    relation: connects-to
+    note: "Proliferative MAPK: RAS-MAPK signalling (ERK1/2 already mapped) contributes a proliferative input to meningioma growth."
+  - target: 01-human/03-molecular/sufu
+    relation: connects-to
+    note: "Hedgehog subgroup: SUFU is a negative regulator of the Sonic-Hedgehog pathway (SMO already mapped), the pathway recurrently activated in the non-NF2 molecular subgroup of skull-base meningiomas."
 ---
 
 # Meningioma
@@ -540,6 +549,9 @@ VEGF overexpression in meningioma (YAP target); Phase 2 COMBIT (Huang 2019, N=40
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — The CDK4/6-cyclin-D1 axis (mapped, with CDKN2A loss marking higher grade) releases E2F1 to drive the accelerated proliferation of atypical and anaplastic meningioma.
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 inactivation accompanies the progression of meningioma to the anaplastic grade-3 tumor, removing an apoptotic and cell-cycle brake on the malignant clone.
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β signaling shapes the fibroblastic and transitional phenotypes of meningioma and the collagenous stroma of these dura-derived tumors.
+- `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — Deregulation of the RB1-E2F checkpoint (E2F1, CDK4/6, CDKN2A and cyclin-D1 already mapped) marks the progression of meningioma toward higher WHO grade.
+- `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — RAS-MAPK signaling (ERK1/2 already mapped) contributes a proliferative input to meningioma growth.
+- `connects-to` → **[SUFU](../../03-molecular/sufu/README.md)** — SUFU is a negative regulator of the Sonic-Hedgehog pathway (SMO already mapped), the pathway recurrently activated in the non-NF2 molecular subgroup of skull-base meningiomas.
 
 [^brastianos-2013-akt1-meningioma]: Brastianos PK, Horowitz PM, Santagata S, et al. Genomic sequencing of meningiomas identifies oncogenic SMO and AKT1 mutations. *Nat Genet.* 2013;45(3):285-289. [doi:10.1038/ng.2526](https://doi.org/10.1038/ng.2526) · [PubMed 23334667](https://pubmed.ncbi.nlm.nih.gov/23334667/)
 [^nassiri-2021-meningioma-classification]: Nassiri F, Liu J, Patil V, et al. A clinically applicable integrative molecular classification of meningiomas. *Nature.* 2021;597(7874):119-125. [doi:10.1038/s41586-021-03850-3](https://doi.org/10.1038/s41586-021-03850-3) · [PubMed 34385709](https://pubmed.ncbi.nlm.nih.gov/34385709/)

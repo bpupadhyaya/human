@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "Neuroendocrine signalling: NOTCH signalling shapes the differentiation and growth of neuroendocrine tumours, a pathway dysregulated in the pancreatic and pituitary tumours of MEN4."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "mTOR pathway: PTEN loss releases the PI3K-AKT-mTOR axis (AKT, PIK3CA and mTOR already mapped) driving the neuroendocrine tumours of MEN4, the p27/CDKN1B-deficient counterpart of MEN1."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "NET angiogenesis: the VEGF/PDGF angiogenic axis (VEGF already mapped) supports the vascular neuroendocrine tumours of MEN4."
+  - target: 01-human/03-molecular/kras
+    relation: connects-to
+    note: "Proliferative MAPK: RAS-MAPK signalling (ERK1/2 already mapped) provides a proliferative input to the parathyroid, pituitary and pancreatic tumours of MEN4."
 ---
 
 # MEN4 Syndrome
@@ -535,6 +544,9 @@ When clinical MEN features are present:
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PIK3CA drives the PI3K-AKT-mTOR pathway (AKT and mTOR already mapped) in the pancreatic neuroendocrine tumors of MEN4, the basis for mTOR-inhibitor therapy.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Growth-factor-driven RAS-MAPK-ERK signaling promotes proliferation of the parathyroid, pituitary and pancreatic tumors of MEN4, complementing the loss of p27-mediated cell-cycle restraint.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH signaling shapes the differentiation and growth of neuroendocrine tumors, a pathway dysregulated in the pancreatic and pituitary tumors of MEN4.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss releases the PI3K-AKT-mTOR axis (AKT, PIK3CA and mTOR already mapped) driving the neuroendocrine tumors of MEN4, the p27/CDKN1B-deficient counterpart of MEN1.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — The VEGF/PDGF angiogenic axis (VEGF already mapped) supports the vascular neuroendocrine tumors of MEN4.
+- `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — RAS-MAPK signaling (ERK1/2 already mapped) provides a proliferative input to the parathyroid, pituitary and pancreatic tumors of MEN4.
 
 [^alrezk-2017-men4]: Alrezk R, Hannah-Shmouni F, Stratakis CA. MEN4 and CDKN1B mutations: the latest of the MEN syndromes. *Endocr Relat Cancer.* 2017;24(10):T195-T208. [doi:10.1530/ERC-17-0243](https://doi.org/10.1530/ERC-17-0243) · [PubMed 28894007](https://pubmed.ncbi.nlm.nih.gov/28894007/)
 [^pellegata-2006-cdkn1b-men4]: Pellegata NS, Quintanilla-Martinez L, Siggelkow H, et al. Germ-line mutations in p27Kip1 cause a multiple endocrine neoplasia syndrome in rats and humans. *Proc Natl Acad Sci USA.* 2006;103(42):15558-15563. [doi:10.1073/pnas.0603306103](https://doi.org/10.1073/pnas.0603306103) · [PubMed 17030811](https://pubmed.ncbi.nlm.nih.gov/17030811/)
