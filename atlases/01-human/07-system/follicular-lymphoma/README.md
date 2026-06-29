@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/cdkn2a
     relation: connects-to
     note: "Histologic transformation: CDKN2A loss is a recurrent driver of the transformation of indolent follicular lymphoma into aggressive diffuse large B-cell lymphoma."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive niche: an IL-10-rich, regulatory-T-cell-laden microenvironment supports immune evasion and the survival of follicular-lymphoma B cells in their germinal-centre-like niche."
+  - target: 01-human/03-molecular/rb1
+    relation: connects-to
+    note: "Transformation checkpoint: deregulation of the RB1-E2F checkpoint (E2F1, CDK4/6 and CDKN2A already mapped) accompanies the histologic transformation of indolent follicular lymphoma to aggressive disease."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "BCR-MAPK input: tonic B-cell-receptor and RAS signalling through ERK1/2 MAPK provides a proliferative input in follicular lymphoma, particularly upon transformation."
 ---
 
 # Follicular Lymphoma
@@ -549,6 +558,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss and PI3K-AKT activation (PIK3CA, AKT and mTOR already mapped) support follicular-lymphoma survival, the pathway the PI3K inhibitors copanlisib and idelalisib block in relapsed disease.
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — The cyclin-D-CDK4/6 axis (CDK4/6 already mapped) releases E2F1 to drive cell-cycle entry, an increasingly active program as follicular lymphoma acquires higher grade.
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A loss is a recurrent driver of the transformation of indolent follicular lymphoma into aggressive diffuse large B-cell lymphoma.
+- `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — An IL-10-rich, regulatory-T-cell-laden microenvironment supports immune evasion and the survival of follicular-lymphoma B cells in their germinal-center-like niche.
+- `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — Deregulation of the RB1-E2F checkpoint (E2F1, CDK4/6 and CDKN2A already mapped) accompanies the histologic transformation of indolent follicular lymphoma to aggressive disease.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Tonic B-cell-receptor and RAS signaling through ERK1/2 MAPK provides a proliferative input in follicular lymphoma, particularly upon transformation.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

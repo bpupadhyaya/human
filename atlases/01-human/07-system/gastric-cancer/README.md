@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/il-1b
     relation: connects-to
     note: "Inflammatory initiation: Helicobacter-pylori-induced IL-1β both suppresses gastric acid and drives the chronic inflammation that initiates carcinogenesis, and IL1B polymorphisms raise gastric-cancer risk."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "H. pylori innate sensing: Helicobacter pylori activates TLR-MyD88-NF-κB signalling (TLR4 and NF-κB already mapped), the chronic inflammation that drives the intestinal-type gastric-carcinogenesis cascade."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Inflammatory microenvironment: IL-6-STAT3 signalling (STAT3 already mapped) sustains the pro-proliferative inflammatory microenvironment linking chronic gastritis to gastric cancer."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "Cell-cycle silencing: CDKN2A/p16 silencing is a frequent epigenetic and deletional event in gastric cancer, releasing the cyclin-D-CDK4/6 brake on proliferation."
 ---
 
 # Gastric Cancer
@@ -570,6 +579,9 @@ H. pylori eradication: Reduces GC incidence by ~35-40% (meta-analyses); most ben
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — HER2, EGFR, KRAS, FGFR2 and MET (all already mapped) funnel into the MAPK-ERK cascade, the proliferative hub driving gastric carcinoma.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR completes the PI3K-AKT-mTOR pathway (PIK3CA and AKT already mapped) that sustains growth and survival signaling in gastric cancer.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Helicobacter-pylori-induced IL-1β both suppresses gastric acid and drives the chronic inflammation that initiates carcinogenesis, and IL1B polymorphisms raise gastric-cancer risk.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Helicobacter pylori activates TLR-MyD88-NF-κB signaling (TLR4 and NF-κB already mapped), the chronic inflammation that drives the intestinal-type gastric-carcinogenesis cascade.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6-STAT3 signaling (STAT3 already mapped) sustains the pro-proliferative inflammatory microenvironment linking chronic gastritis to gastric cancer.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A/p16 silencing is a frequent epigenetic and deletional event in gastric cancer, releasing the cyclin-D-CDK4/6 brake on proliferation.
 
 [^bang-2010-toga]: Bang YJ, Van Cutsem E, Feyereislova A, et al. Trastuzumab in combination with chemotherapy versus chemotherapy alone for treatment of HER2-positive advanced gastric or gastro-oesophageal junction cancer (ToGA): a phase 3, open-label, randomised controlled trial. *Lancet.* 2010;376(9742):687-697. [doi:10.1016/S0140-6736(10)61121-X](https://doi.org/10.1016/S0140-6736(10)61121-X) · [PubMed 20728210](https://pubmed.ncbi.nlm.nih.gov/20728210/)
 [^janjigian-2021-checkmate649]: Janjigian YY, Shitara K, Moehler M, et al. First-line nivolumab plus chemotherapy versus chemotherapy alone for advanced gastric, gastro-oesophageal junction, and oesophageal adenocarcinoma (CheckMate 649). *Lancet.* 2021;398(10294):27-40. [doi:10.1016/S0140-6736(21)00797-2](https://doi.org/10.1016/S0140-6736(21)00797-2) · [PubMed 34102137](https://pubmed.ncbi.nlm.nih.gov/34102137/)
