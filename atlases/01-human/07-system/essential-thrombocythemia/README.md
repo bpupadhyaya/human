@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/p53
     relation: connects-to
     note: "Leukaemic transformation: TP53 inactivation drives the transformation of essential thrombocythemia to acute myeloid leukaemia, a feared progression alongside the RUNX1 lesions already mapped."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Downstream growth axis: the PI3K-AKT-mTOR axis (AKT and PIK3CA already mapped) operates downstream of constitutive JAK2 signalling to drive the megakaryocyte proliferation of essential thrombocythemia."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Inflammatory clonal drive: IL-1β-driven inflammation contributes to the clonal expansion and disease progression of the myeloproliferative neoplasm essential thrombocythemia."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Innate inflammatory milieu: TLR-MyD88-NF-κB innate signalling (NF-κB already mapped) sustains the chronic inflammatory milieu that characterises and propels myeloproliferative neoplasms including essential thrombocythemia."
 ---
 
 # Essential Thrombocythemia
@@ -541,6 +550,9 @@ Management:
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — The JAK2, CALR and MPL driver mutations (all already mapped) activate the MAPK-ERK cascade alongside JAK-STAT, driving the megakaryocyte proliferation that produces the thrombocytosis of essential thrombocythemia.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — The same constitutively active receptor-kinase signaling engages PI3K (AKT already mapped) as a third effector pathway supporting megakaryocyte growth and survival in essential thrombocythemia.
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 inactivation drives the transformation of essential thrombocythemia to acute myeloid leukemia, a feared progression alongside the RUNX1 lesions already mapped.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — The PI3K-AKT-mTOR axis (AKT and PIK3CA already mapped) operates downstream of constitutive JAK2 signaling to drive the megakaryocyte proliferation of essential thrombocythemia.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation contributes to the clonal expansion and disease progression of the myeloproliferative neoplasm essential thrombocythemia.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88-NF-κB innate signaling (NF-κB already mapped) sustains the chronic inflammatory milieu that characterizes and propels myeloproliferative neoplasms including essential thrombocythemia.
 
 [^harrison-2005-pt1-et]: Harrison CN, Campbell PJ, Buck G, et al. Hydroxyurea compared with anagrelide in high-risk essential thrombocythemia. *N Engl J Med.* 2005;353(1):33-45. [doi:10.1056/NEJMoa043800](https://doi.org/10.1056/NEJMoa043800) · [PubMed 16000354](https://pubmed.ncbi.nlm.nih.gov/16000354/)
 [^barbui-2012-ipset]: Barbui T, Finazzi G, Carobbio A, et al. Development and validation of an International Prognostic Score of thrombosis in World Health Organization-essential thrombocythemia (IPSET-thrombosis). *Blood.* 2012;120(26):5128-5133. [doi:10.1182/blood-2012-07-444067](https://doi.org/10.1182/blood-2012-07-444067) · [PubMed 23086758](https://pubmed.ncbi.nlm.nih.gov/23086758/)

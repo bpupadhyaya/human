@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/cdh1
     relation: connects-to
     note: "EMT and invasion: loss of E-cadherin during epithelial-mesenchymal transition releases oesophageal-carcinoma cells from their junctions, enabling the invasion and nodal spread that worsen prognosis."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Reflux-driven inflammation: chronic reflux- and inflammation-driven TLR-MyD88-NF-κB signalling (NF-κB already mapped) promotes the Barrett's-metaplasia-to-adenocarcinoma sequence of oesophageal cancer."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Inflammatory microenvironment: IL-6 signalling through JAK-STAT3 (IL-6 and STAT3 already mapped) sustains the inflammatory, pro-tumorigenic microenvironment of oesophageal cancer."
+  - target: 01-human/03-molecular/rb1
+    relation: connects-to
+    note: "Cell-cycle restraint: the RB1-E2F checkpoint (CDKN2A and cyclin-D1 already mapped) restrains cell-cycle entry, and its disruption contributes to the proliferation of oesophageal cancer."
 ---
 
 # Esophageal Cancer
@@ -561,6 +570,9 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — EGFR, HER2, KRAS and FGFR (all already mapped) funnel into the MAPK-ERK cascade, the proliferative hub driving both squamous-cell and adenocarcinoma forms of esophageal cancer.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR completes the PI3K-AKT-mTOR pathway (PIK3CA and AKT already mapped) that sustains growth and survival signaling in esophageal carcinoma.
 - `connects-to` → **[CDH1](../../03-molecular/cdh1/README.md)** — Loss of E-cadherin during epithelial-mesenchymal transition releases esophageal-carcinoma cells from their junctions, enabling the invasion and nodal spread that worsen prognosis.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Chronic reflux- and inflammation-driven TLR-MyD88-NF-κB signaling (NF-κB already mapped) promotes the Barrett's-metaplasia-to-adenocarcinoma sequence of esophageal cancer.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6 signaling through JAK-STAT3 (IL-6 and STAT3 already mapped) sustains the inflammatory, pro-tumorigenic microenvironment of esophageal cancer.
+- `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — The RB1-E2F checkpoint (CDKN2A and cyclin-D1 already mapped) restrains cell-cycle entry, and its disruption contributes to the proliferation of esophageal cancer.
 
 ---
 
