@@ -337,6 +337,15 @@ cross_links:
   - target: 01-human/03-molecular/mtor
     relation: connects-to
     note: "Influenza modulates mTOR-regulated translation to favour viral protein synthesis during infection."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 amplifies the macrophage-driven cytokine storm and lung inflammation of severe influenza pneumonia."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6-STAT3 signalling transduces the inflammatory cytokine response that contributes to the lung pathology of severe influenza."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling shapes the lung epithelial repair and fibrosis that follow the diffuse alveolar damage of severe influenza."
 ---
 
 # Influenza
@@ -579,3 +588,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Influenza activates the Raf-MEK-ERK pathway to drive nuclear export of viral ribonucleoproteins, a host-directed antiviral target.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — The influenza NS1 protein activates PI3K-AKT signaling to delay apoptosis and support efficient viral replication.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Influenza modulates mTOR-regulated translation to favor viral protein synthesis during infection.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 amplifies the macrophage-driven cytokine storm and lung inflammation of severe influenza pneumonia.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling transduces the inflammatory cytokine response that contributes to the lung pathology of severe influenza.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling shapes the lung epithelial repair and fibrosis that follow the diffuse alveolar damage of severe influenza.

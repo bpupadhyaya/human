@@ -337,6 +337,15 @@ cross_links:
   - target: 01-human/03-molecular/myd88
     relation: connects-to
     note: "TLR-MyD88 signalling driven by gut microbial translocation sustains the chronic immune activation that accelerates progression to AIDS."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 promotes HIV-1 budding and amplifies the chronic immune activation that drives progression to AIDS."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling (type-I interferon already mapped) drives the antiviral and chronic interferon response that shapes immune exhaustion in AIDS."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "ERK-MAPK signalling is engaged during HIV replication and contributes to the activation state of infected and bystander immune cells in AIDS."
 ---
 
 # HIV/AIDS
@@ -558,6 +567,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — HIV exploits PI3K-AKT signaling to promote infected-cell survival and viral persistence as immunity collapses in AIDS.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR-regulated T-cell metabolism shapes both HIV replication and the exhausted, dysfunctional immune state of AIDS.
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88 signaling driven by gut microbial translocation sustains the chronic immune activation that accelerates progression to AIDS.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 promotes HIV-1 budding and amplifies the chronic immune activation that drives progression to AIDS.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling (type-I interferon already mapped) drives the antiviral and chronic interferon response that shapes immune exhaustion in AIDS.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling is engaged during HIV replication and contributes to the activation state of infected and bystander immune cells in AIDS.
 
 ## See Also
 
