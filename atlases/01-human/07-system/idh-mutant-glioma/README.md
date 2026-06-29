@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "Glial lineage: NOTCH signalling shapes the oligodendroglial and astrocytic differentiation programmes of IDH-mutant glioma, influencing the lineage and behaviour of these lower-grade tumours."
+  - target: 01-human/03-molecular/rb1
+    relation: connects-to
+    note: "Grade progression: deregulation of the RB1-E2F checkpoint (CDKN2A, CDK4/6 and cyclin-D1 already mapped) drives the malignant progression of IDH-mutant glioma toward higher grade."
+  - target: 01-human/03-molecular/kras
+    relation: connects-to
+    note: "RAS proliferation: RAS-MAPK signalling (ERK1/2 already mapped) downstream of receptor tyrosine kinases contributes a proliferative input to IDH-mutant glioma."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Redox vulnerability: the IDH-mutant oncometabolite 2-hydroxyglutarate alters cellular redox and glutathione metabolism, and NRF2 antioxidant signalling shapes the resulting oxidative vulnerability of these gliomas."
 ---
 
 # IDH-Mutant Glioma
@@ -555,6 +564,9 @@ IDH-mutant glioma with MGMT methylation shows strong alkylating agent sensitivit
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PIK3CA activates the PI3K-AKT-mTOR axis (AKT and mTOR already mapped) that is co-active in IDH-mutant glioma and contributes to its growth.
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — The cyclin-D-CDK4/6 axis (mapped, with CDKN2A loss marking grade progression) releases E2F1 to drive the proliferation accompanying transformation of IDH-mutant glioma to higher grade.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH signaling shapes the oligodendroglial and astrocytic differentiation programs of IDH-mutant glioma, influencing the lineage and behavior of these lower-grade tumors.
+- `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — Deregulation of the RB1-E2F checkpoint (CDKN2A, CDK4/6 and cyclin-D1 already mapped) drives the malignant progression of IDH-mutant glioma toward higher grade.
+- `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — RAS-MAPK signaling (ERK1/2 already mapped) downstream of receptor tyrosine kinases contributes a proliferative input to IDH-mutant glioma.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — The IDH-mutant oncometabolite 2-hydroxyglutarate alters cellular redox and glutathione metabolism, and NRF2 antioxidant signaling shapes the resulting oxidative vulnerability of these gliomas.
 
 [^mellinghoff-2023-vorasidenib-lgg]: Mellinghoff IK, van den Bent MJ, Blumenthal DT, et al. Vorasidenib in IDH1- or IDH2-mutant low-grade glioma. *N Engl J Med.* 2023;389(7):589-601. [doi:10.1056/NEJMoa2304194](https://doi.org/10.1056/NEJMoa2304194) · [PubMed 37272530](https://pubmed.ncbi.nlm.nih.gov/37272530/)
 [^jiao-2012-atrx-glioma]: Jiao Y, Killela PJ, Reitman ZJ, et al. Frequent ATRX, CIC, FUBP1 and IDH mutations refine the classification of malignant gliomas. *Oncotarget.* 2012;3(7):709-722. [doi:10.18632/oncotarget.588](https://doi.org/10.18632/oncotarget.588) · [PubMed 22869205](https://pubmed.ncbi.nlm.nih.gov/22869205/)

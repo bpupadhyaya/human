@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/fgf23
     relation: connects-to
     note: "Cardiorenal link: FGF23 rises in chronic kidney disease and independently associates with hypertension and left-ventricular hypertrophy, connecting phosphate-regulating endocrinology to blood-pressure control."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Innate vascular inflammation: TLR4-driven innate immune activation by damage-associated patterns contributes to the vascular and renal inflammation that sustains salt-sensitive and essential hypertension."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Endothelial NO: the PI3K-AKT-eNOS axis maintains endothelial nitric-oxide production (NO already mapped), and its impairment produces the endothelial dysfunction underlying hypertension."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Vascular oxidative defence: NRF2 antioxidant defence counters the vascular oxidative stress (xanthine-oxidase already mapped) that drives endothelial dysfunction and vascular remodelling in hypertension."
 ---
 
 # Hypertension
@@ -514,6 +523,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — The low adiponectin of visceral adiposity (insulin and leptin already mapped) is associated with endothelial dysfunction and elevated blood pressure, tying obesity to the metabolic-syndrome form of hypertension.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — NLRP3 inflammasome activation (mapped) generates IL-1β, which promotes vascular inflammation and renal sodium handling that contribute to hypertension.
 - `connects-to` → **[FGF23](../../03-molecular/fgf23/README.md)** — FGF23 rises in chronic kidney disease and independently associates with hypertension and left-ventricular hypertrophy, connecting phosphate-regulating endocrinology to blood-pressure control.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4-driven innate immune activation by damage-associated patterns contributes to the vascular and renal inflammation that sustains salt-sensitive and essential hypertension.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — The PI3K-AKT-eNOS axis maintains endothelial nitric-oxide production (NO already mapped), and its impairment produces the endothelial dysfunction underlying hypertension.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2 antioxidant defense counters the vascular oxidative stress (xanthine-oxidase already mapped) that drives endothelial dysfunction and vascular remodeling in hypertension.
 
 ## Pathology
 
