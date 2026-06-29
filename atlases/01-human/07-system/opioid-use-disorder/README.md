@@ -346,6 +346,15 @@ cross_links:
   - target: 01-human/03-molecular/jak1-2
     relation: connects-to
     note: "Cytokine-driven JAK-STAT signalling (IL-6 mapped) transduces the neuroinflammatory milieu accompanying chronic opioid exposure and withdrawal."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6-STAT3 signalling (JAK1/2 already mapped) transduces the neuroinflammatory tone implicated in the reward dysregulation of opioid use disorder."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA sensing through cGAS-STING contributes to the TLR4-associated glial neuroinflammation driven by chronic opioid exposure."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the interferon-associated microglial activation reported with chronic opioid exposure and withdrawal."
 ---
 
 # Opioid Use Disorder
@@ -610,6 +619,9 @@ The primary mechanism by which opioids produce euphoria:
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN regulation of the PI3K-AKT-mTOR axis (AKT, mTOR and GSK-3β mapped) shapes the reward-circuit synaptic plasticity underlying opioid addiction.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Opioid-driven microglial activation (TLR4 mapped) induces galectin-3, amplifying the neuroinflammation linked to opioid tolerance and dependence.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Cytokine-driven JAK-STAT signaling (IL-6 mapped) transduces the neuroinflammatory milieu accompanying chronic opioid exposure and withdrawal.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling (JAK1/2 already mapped) transduces the neuroinflammatory tone implicated in the reward dysregulation of opioid use disorder.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING contributes to the TLR4-associated glial neuroinflammation driven by chronic opioid exposure.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the interferon-associated microglial activation reported with chronic opioid exposure and withdrawal.
 
 [^volkow-2016-opioid-crisis]: Volkow ND, Collins FS. The role of science in addressing the opioid crisis. *N Engl J Med.* 2017;377(4):391-394. [doi:10.1056/NEJMsr1706626](https://doi.org/10.1056/NEJMsr1706626) · [PubMed 28723324](https://pubmed.ncbi.nlm.nih.gov/28723324/)
 [^mattick-2009-bupe-meta]: Mattick RP, Breen C, Kimber J, Davoli M. Buprenorphine maintenance versus placebo or methadone maintenance for opioid dependence. *Cochrane Database Syst Rev.* 2014;2:CD002207. [doi:10.1002/14651858.CD002207.pub4](https://doi.org/10.1002/14651858.CD002207.pub4) · [PubMed 24500948](https://pubmed.ncbi.nlm.nih.gov/24500948/)
