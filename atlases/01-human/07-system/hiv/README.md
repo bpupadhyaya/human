@@ -346,6 +346,15 @@ cross_links:
   - target: 01-human/03-molecular/stat1
     relation: connects-to
     note: "Type-I-interferon signalling through STAT1 (type-I-interferon mapped) is the antiviral response restricting HIV that the virus counteracts."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 promotes HIV-1 budding and modulates the chronic immune activation that drives the inflammation of HIV infection."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K-AKT signalling (AKT already mapped) supports the survival of HIV-infected cells and the maintenance of the latent viral reservoir."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling drives the lymphoid-tissue fibrosis and immune dysregulation that accompany chronic HIV infection."
 ---
 
 # HIV
@@ -590,6 +599,9 @@ The **latent reservoir** — HIV integrated into quiescent resting memory CD4+ T
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — HIV exploits host PI3K-AKT signaling (mTOR mapped) to promote infected-cell survival and to regulate viral latency and reactivation.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — HIV Tat and Nef engage ERK-MAPK signaling, which supports viral transcription and replication in infected cells.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — Type-I-interferon signaling through STAT1 (type-I-interferon mapped) is the antiviral response restricting HIV that the virus counteracts.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 promotes HIV-1 budding and modulates the chronic immune activation that drives the inflammation of HIV infection.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K-AKT signaling (AKT already mapped) supports the survival of HIV-infected cells and the maintenance of the latent viral reservoir.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling drives the lymphoid-tissue fibrosis and immune dysregulation that accompany chronic HIV infection.
 
 [^barre-sinoussi-1983-hiv-isolation]: Barré-Sinoussi F, Chermann JC, Rey F, et al. Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS). *Science.* 1983;220(4599):868-871. [doi:10.1126/science.6189183](https://doi.org/10.1126/science.6189183) · [PubMed 6189183](https://pubmed.ncbi.nlm.nih.gov/6189183/)
 [^ho-1995-viral-dynamics]: Ho DD, Neumann AU, Perelson AS, et al. Rapid turnover of plasma virions and CD4 lymphocytes in HIV-1 infection. *Nature.* 1995;373(6510):123-126. [doi:10.1038/373123a0](https://doi.org/10.1038/373123a0) · [PubMed 7816094](https://pubmed.ncbi.nlm.nih.gov/7816094/)

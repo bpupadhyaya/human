@@ -337,6 +337,15 @@ cross_links:
   - target: 01-human/03-molecular/cdkn2a
     relation: connects-to
     note: "CDKN2A silencing releases CDK4/6-cyclin-D control (cyclin-D1 mapped) of the cell cycle, a recurrent epigenetic lesion in hepatocellular carcinoma."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 supports immune evasion and the metastatic progression of hepatocellular carcinoma."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the antitumour immune response of hepatocellular carcinoma, relevant to its checkpoint-immunotherapy responsiveness."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "EZH2-mediated polycomb repression silences tumour-suppressor genes and drives the epigenetic dysregulation of hepatocellular carcinoma."
 ---
 
 # Hepatocellular Carcinoma
@@ -581,6 +590,9 @@ In high-risk patients (cirrhosis, HBV regardless of cirrhosis): ultrasound ± AF
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β mapped) plays a dual tumor-suppressive and pro-invasive role in hepatocellular carcinoma, with SMAD4 loss promoting progression.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6-JAK-STAT3 signaling (IL-6 and STAT3 mapped) links chronic hepatic inflammation to the proliferation and survival of hepatocellular carcinoma.
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A silencing releases CDK4/6-cyclin-D control (cyclin-D1 mapped) of the cell cycle, a recurrent epigenetic lesion in hepatocellular carcinoma.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 supports immune evasion and the metastatic progression of hepatocellular carcinoma.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antitumor immune response of hepatocellular carcinoma, relevant to its checkpoint-immunotherapy responsiveness.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — EZH2-mediated polycomb repression silences tumor-suppressor genes and drives the epigenetic dysregulation of hepatocellular carcinoma.
 
 [^llovet-2008-sorafenib]: Llovet JM, Ricci S, Mazzaferro V, et al. Sorafenib in advanced hepatocellular carcinoma. *N Engl J Med.* 2008;359(4):378-390. [doi:10.1056/NEJMoa0708857](https://doi.org/10.1056/NEJMoa0708857) · [PubMed 18650514](https://pubmed.ncbi.nlm.nih.gov/18650514/)
 [^finn-2020-imbrave150]: Finn RS, Qin S, Ikeda M, et al. Atezolizumab plus bevacizumab in unresectable hepatocellular carcinoma. *N Engl J Med.* 2020;382(20):1894-1905. [doi:10.1056/NEJMoa1915745](https://doi.org/10.1056/NEJMoa1915745) · [PubMed 32402160](https://pubmed.ncbi.nlm.nih.gov/32402160/)
