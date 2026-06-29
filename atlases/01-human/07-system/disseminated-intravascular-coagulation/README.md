@@ -337,6 +337,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "Endothelial dysfunction: VEGF-mediated endothelial activation and permeability, alongside the angiopoietin-Tie2 axis (already mapped), contributes to the endothelial injury underlying the microvascular thrombosis of DIC."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "C5a acting on C5aR (C5aR1 mapped) and platelet agonists engage ERK-MAPK, amplifying the cellular activation that propagates DIC."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Endothelial and platelet PI3K-AKT signalling shapes the procoagulant, activated phenotype that drives the widespread microthrombosis of DIC."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 promotes the neutrophil-extracellular-trap-driven thromboinflammation that fuels disseminated intravascular coagulation."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -574,6 +583,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — In sepsis-induced DIC — its commonest cause — TLR-MyD88-NF-κB signaling (TLR4 and NF-κB already mapped) couples infection to the tissue-factor expression and inflammation that ignite systemic coagulation.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6 signaling through JAK-STAT (IL-6 already mapped) amplifies the cytokine response and drives the hepatic acute-phase and procoagulant changes of DIC.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VEGF-mediated endothelial activation and permeability, alongside the angiopoietin-Tie2 axis (already mapped), contributes to the endothelial injury underlying the microvascular thrombosis of DIC.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — C5a acting on C5aR (C5aR1 mapped) and platelet agonists engage ERK-MAPK, amplifying the cellular activation that propagates DIC.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Endothelial and platelet PI3K-AKT signaling shapes the procoagulant, activated phenotype that drives the widespread microthrombosis of DIC.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 promotes the neutrophil-extracellular-trap-driven thromboinflammation that fuels disseminated intravascular coagulation.
 
 ---
 
