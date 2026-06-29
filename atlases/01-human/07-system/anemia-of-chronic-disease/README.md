@@ -334,6 +334,15 @@ cross_links:
   - target: 01-human/03-molecular/bcl-2
     relation: connects-to
     note: "Progenitor apoptosis: inflammatory cytokines tip the BCL-2 balance toward apoptosis of erythroid progenitors (caspase-3 mapped), reducing red-cell output in anaemia of inflammation."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "EPO-driven ERK-MAPK signalling promotes erythroid progenitor proliferation (EPO mapped); the blunted EPO responsiveness of ACD impairs this proliferative drive."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "mTOR-regulated translation and iron-sensing govern erythroid maturation, coupling the iron restriction of ACD to ineffective erythropoiesis."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "PTEN restrains the PI3K-AKT signalling downstream of the erythropoietin receptor that drives erythroid survival and expansion, a node in the impaired EPO response of ACD."
 ---
 
 # Anemia of Chronic Disease
@@ -563,6 +572,9 @@ This adaptive rationale explains why **aggressive iron supplementation during ac
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR (TLR4 mapped) and IL-1 signaling through MyD88 helps drive the hepcidin (mapped) induction that sequesters iron in anemia of chronic disease.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-γ (mapped) signaling through STAT1 directly inhibits erythroid-progenitor proliferation, blunting the marrow response that would otherwise correct the anemia.
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Inflammatory cytokines tip the BCL-2 balance toward apoptosis of erythroid progenitors (caspase-3 mapped), reducing red-cell output in anemia of inflammation.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — EPO-driven ERK-MAPK signaling promotes erythroid progenitor proliferation (EPO mapped); the blunted EPO responsiveness of ACD impairs this proliferative drive.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR-regulated translation and iron-sensing govern erythroid maturation, coupling the iron restriction of ACD to ineffective erythropoiesis.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN restrains the PI3K-AKT signaling downstream of the erythropoietin receptor that drives erythroid survival and expansion, a node in the impaired EPO response of ACD.
 
 [^weiss-2005-acd-review]: Weiss G, Goodnough LT. Anemia of chronic disease. *N Engl J Med.* 2005;352(10):1011-1023. [doi:10.1056/NEJMra041809](https://doi.org/10.1056/NEJMra041809) · [PubMed 15758012](https://pubmed.ncbi.nlm.nih.gov/15758012/)
 [^nemeth-2004-il6-hepcidin]: Nemeth E, Rivera S, Gabayan V, et al. IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin. *J Clin Invest.* 2004;113(9):1271-1276. [doi:10.1172/JCI200420945](https://doi.org/10.1172/JCI200420945) · [PubMed 15124018](https://pubmed.ncbi.nlm.nih.gov/15124018/)

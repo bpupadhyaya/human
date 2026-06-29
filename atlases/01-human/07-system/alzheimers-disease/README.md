@@ -334,6 +334,15 @@ cross_links:
   - target: 01-human/03-molecular/myd88
     relation: connects-to
     note: "Microglial neuroinflammation: microglial TLR4 (mapped) sensing of amyloid-β signals through MyD88 to NF-κB (mapped), driving the neuroinflammation that propagates Alzheimer's pathology."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Cytokine-driven JAK-STAT signalling sustains the reactive astrogliosis and microglial activation (IL-6 mapped) that amplify Alzheimer's neuroinflammation."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "STAT3 activation drives the reactive-astrocyte transcriptional program around amyloid plaques, contributing to neuroinflammation in Alzheimer's disease."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "PTEN regulation of the PI3K-AKT-GSK-3β axis (AKT, mTOR and GSK-3β mapped) links insulin/IGF resistance to tau phosphorylation and neuronal vulnerability in Alzheimer's disease."
 ---
 
 # Alzheimer's Disease
@@ -538,6 +547,9 @@ Microglia play a central, dual role in AD:
 - `connects-to` → **[Aquaporin-4](../../03-molecular/aquaporin-4/README.md)** — Astrocytic aquaporin-4 drives the glymphatic flow that clears amyloid-β during sleep, and the loss of AQP4 polarization impairs Aβ removal in Alzheimer's disease.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — MAPK-ERK, alongside GSK-3β (mapped), hyperphosphorylates tau (MAPT mapped) into the paired helical filaments that form the neurofibrillary tangles of Alzheimer's.
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Microglial TLR4 (mapped) sensing of amyloid-β signals through MyD88 to NF-κB (mapped), driving the neuroinflammation that propagates Alzheimer's pathology.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Cytokine-driven JAK-STAT signaling sustains the reactive astrogliosis and microglial activation (IL-6 mapped) that amplify Alzheimer's neuroinflammation.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 activation drives the reactive-astrocyte transcriptional program around amyloid plaques, contributing to neuroinflammation in Alzheimer's disease.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN regulation of the PI3K-AKT-GSK-3β axis (AKT, mTOR and GSK-3β mapped) links insulin/IGF resistance to tau phosphorylation and neuronal vulnerability in Alzheimer's disease.
 
 [^selkoe-2016-alzheimer]: Selkoe DJ, Hardy J. The amyloid hypothesis of Alzheimer's disease at 25 years. *EMBO Mol Med.* 2016;8(6):595-608. [doi:10.15252/emmm.201606210](https://doi.org/10.15252/emmm.201606210) · [PubMed 27025652](https://pubmed.ncbi.nlm.nih.gov/27025652/)
 [^jack-2018-nia-aa]: Jack CR Jr, Bennett DA, Blennow K, et al. NIA-AA Research Framework: Toward a biological definition of Alzheimer's disease. *Alzheimers Dement.* 2018;14(4):535-562. [doi:10.1016/j.jalz.2018.02.018](https://doi.org/10.1016/j.jalz.2018.02.018) · [PubMed 29653606](https://pubmed.ncbi.nlm.nih.gov/29653606/)
