@@ -330,6 +330,15 @@ cross_links:
   - target: 01-human/03-molecular/thrombin
     relation: connects-to
     note: "Cerebral microthrombosis: endothelial activation and thrombin generation (with protein-C and von Willebrand factor mapped) drive the microvascular coagulation and sequestration of cerebral malaria."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "IFN-γ-driven control of blood-stage malaria signals through JAK-STAT (IFN-γ mapped), the macrophage-activating axis central to parasite clearance."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Microvascular sequestration of infected erythrocytes produces local hypoxia that stabilises HIF-1α, contributing to the tissue injury of severe and cerebral malaria."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "VEGF-mediated endothelial activation and blood-brain-barrier disruption contributes to the cerebral malaria syndrome, complementing the angiopoietin-Tie axis already mapped."
 ---
 
 # Malaria
@@ -592,6 +601,9 @@ cross_links:
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR recognition of parasite GPI anchors and hemozoin (TLR4 mapped) signals through MyD88 to NF-κB (mapped), driving the TNF/IL-1 cytokine surge that times the febrile paroxysms of malaria.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — IL-12 from infected macrophages drives the protective Th1/IFN-γ response (IFN-γ mapped) against blood-stage malaria, while its dysregulation contributes to immunopathology.
 - `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — Endothelial activation and thrombin generation (with protein-C and von Willebrand factor mapped) drive the microvascular coagulation and sequestration of cerebral malaria.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IFN-γ-driven control of blood-stage malaria signals through JAK-STAT (IFN-γ mapped), the macrophage-activating axis central to parasite clearance.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — Microvascular sequestration of infected erythrocytes produces local hypoxia that stabilizes HIF-1α, contributing to the tissue injury of severe and cerebral malaria.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VEGF-mediated endothelial activation and blood-brain-barrier disruption contributes to the cerebral malaria syndrome, complementing the angiopoietin-Tie axis already mapped.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)
