@@ -334,6 +334,15 @@ cross_links:
   - target: 01-human/03-molecular/ntrk
     relation: connects-to
     note: "Gut-brain neurotrophin axis: the microbiome modulates BDNF and its TrkB receptor (NTRK) signalling in the gut-brain axis (BDNF already mapped), influencing enteric and central neural function."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 at the mucosal interface helps shape the host immune recognition of commensal and pathobiont bacteria, linking the microbiome to mucosal immunity."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "Microbiota-derived signals drive IL-6/IL-23-STAT3 activation that programmes intestinal Th17 responses and epithelial homeostasis in the gut."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Microbial and damage-associated cytosolic DNA engages cGAS-STING in the gut mucosa, coupling the microbiome to innate inflammatory tone."
 ---
 
 # Gut Microbiome
@@ -517,6 +526,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Microbial metabolites such as short-chain fatty acids and amino acids signal through mTOR in host epithelial and immune cells, linking the gut microbiome to host nutrient sensing and immune-cell differentiation.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — The gut microbiota tunes systemic IL-6 and inflammatory-cytokine tone, a route by which dysbiosis influences host inflammation beyond the gut.
 - `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — The microbiome modulates BDNF and its TrkB receptor (NTRK) signaling in the gut-brain axis (BDNF already mapped), influencing enteric and central neural function.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 at the mucosal interface helps shape the host immune recognition of commensal and pathobiont bacteria, linking the microbiome to mucosal immunity.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Microbiota-derived signals drive IL-6/IL-23-STAT3 activation that programs intestinal Th17 responses and epithelial homeostasis in the gut.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Microbial and damage-associated cytosolic DNA engages cGAS-STING in the gut mucosa, coupling the microbiome to innate inflammatory tone.
 
 ## Pathology
 

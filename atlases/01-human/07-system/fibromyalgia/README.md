@@ -321,6 +321,15 @@ cross_links:
   - target: 01-human/03-molecular/jak1-2
     relation: connects-to
     note: "Cytokine signalling: IL-6 and inflammatory-cytokine signalling through JAK-STAT (IL-6 already mapped) contributes to the neuroinflammatory component of fibromyalgia."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β signalling in the central nervous system shapes the synaptic plasticity and pain-modulation balance relevant to the central sensitisation of fibromyalgia."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6-STAT3 signalling transduces the inflammatory tone implicated in the neuroinflammatory component and fatigue of fibromyalgia."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 released by activated microglia amplifies the neuroinflammation thought to contribute to the central pain amplification of fibromyalgia."
 sources:
   - id: wolfe-2016-fibromyalgia-criteria
     type: peer-reviewed
@@ -582,6 +591,9 @@ FM is not a single-etiology disorder but a convergent syndrome resulting from th
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB-driven neuroinflammation (downstream of the TLR4-MyD88 signaling already mapped) contributes to the glial activation and central sensitization of fibromyalgia.
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2-regulated antioxidant defense counters the oxidative stress implicated in the muscle and central-nervous-system dysfunction of fibromyalgia.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6 and inflammatory-cytokine signaling through JAK-STAT (IL-6 already mapped) contributes to the neuroinflammatory component of fibromyalgia.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β signaling in the central nervous system shapes the synaptic plasticity and pain-modulation balance relevant to the central sensitization of fibromyalgia.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling transduces the inflammatory tone implicated in the neuroinflammatory component and fatigue of fibromyalgia.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 released by activated microglia amplifies the neuroinflammation thought to contribute to the central pain amplification of fibromyalgia.
 
 [^wolfe-2016-fibromyalgia-criteria]: Wolfe F, Clauw DJ, Fitzcharles MA, et al. 2016 Revisions to the 2010/2011 fibromyalgia diagnostic criteria. *Semin Arthritis Rheum.* 2016;46(3):319-329. [doi:10.1016/j.semarthrit.2016.08.012](https://doi.org/10.1016/j.semarthrit.2016.08.012) · [PubMed 27916278](https://pubmed.ncbi.nlm.nih.gov/27916278/)
 [^clauw-2014-fibromyalgia-review]: Clauw DJ. Fibromyalgia: a clinical review. *JAMA.* 2014;311(15):1547-1555. [doi:10.1001/jama.2014.3266](https://doi.org/10.1001/jama.2014.3266) · [PubMed 24737367](https://pubmed.ncbi.nlm.nih.gov/24737367/)
