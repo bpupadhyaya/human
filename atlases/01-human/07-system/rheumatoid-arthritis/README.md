@@ -328,6 +328,15 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "Regulatory deficit: a relative shortfall of anti-inflammatory IL-10 against the dominant TNF, IL-6 and IL-17 (all mapped) contributes to the failure of resolution in rheumatoid synovitis."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Innate perpetuation: TLR4 sensing of damage-associated and citrullinated self-molecules (with MyD88 already mapped) helps initiate and perpetuate the synovial inflammation of rheumatoid arthritis."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Synovial immunometabolism: mTOR-driven metabolic reprogramming of synovial fibroblasts and Th17 cells sustains the aggressive, invasive pannus of rheumatoid arthritis."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Fibroblast survival: PI3K-AKT signalling promotes the survival, proliferation and apoptosis-resistance of the rheumatoid synovial fibroblasts that drive joint destruction."
 ---
 
 # Rheumatoid Arthritis
@@ -573,6 +582,9 @@ RA patients have:
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6 signaling through JAK (both mapped) activates STAT3, the transcription factor driving synovial inflammation and Th17 differentiation, central to the JAK-inhibitor and anti-IL-6 mechanisms in RA.
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — IL-1 receptor and TLR signaling converge on MyD88 to activate NF-κB (mapped), amplifying the innate-immune drive of rheumatoid synovitis.
 - `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — A relative shortfall of anti-inflammatory IL-10 against the dominant TNF, IL-6 and IL-17 (all mapped) contributes to the failure of resolution in rheumatoid synovitis.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4 sensing of damage-associated and citrullinated self-molecules (with MyD88 already mapped) helps initiate and perpetuate the synovial inflammation of rheumatoid arthritis.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR-driven metabolic reprogramming of synovial fibroblasts and Th17 cells sustains the aggressive, invasive pannus of rheumatoid arthritis.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling promotes the survival, proliferation and apoptosis-resistance of the rheumatoid synovial fibroblasts that drive joint destruction.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

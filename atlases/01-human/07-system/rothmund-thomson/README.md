@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/erk1-2
     relation: connects-to
     note: "RTK-MAPK: PDGFR and other receptor kinases (PDGF mapped) signal through MAPK-ERK to drive proliferation in the Rothmund-Thomson-associated osteosarcoma."
+  - target: 01-human/03-molecular/kras
+    relation: connects-to
+    note: "RAS proliferation: RAS-ERK signalling (ERK1/2 already mapped) drives the proliferation of the osteosarcomas to which the genomic instability of Rothmund-Thomson syndrome predisposes."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Apoptosis evasion: anti-apoptotic BCL-2 raises the threshold for caspase-3 apoptosis (already mapped), supporting the survival of genomically unstable cells and the tumours of Rothmund-Thomson syndrome."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "STAT3 survival: JAK-STAT3 signalling contributes to the survival signalling of the osteosarcomas characteristic of Rothmund-Thomson syndrome."
 ---
 
 # Rothmund-Thomson Syndrome
@@ -560,6 +569,9 @@ The cardinal features of RTS type II are: (1) **poikiloderma** — the defining 
 - `connects-to` → **[ATRX](../../03-molecular/atrx/README.md)** — The osteosarcomas of Rothmund-Thomson, like other osteosarcomas, frequently use alternative lengthening of telomeres, the ATRX-associated, telomerase-independent mechanism that sustains their genomically unstable cells.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PIK3CA-driven PI3K-AKT signaling (AKT already mapped) supports the proliferation of the osteosarcomas that are the major malignancy of Rothmund-Thomson syndrome.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — PDGFR and other receptor kinases (PDGF mapped) signal through MAPK-ERK to drive proliferation in the Rothmund-Thomson-associated osteosarcoma.
+- `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — RAS-ERK signaling (ERK1/2 already mapped) drives the proliferation of the osteosarcomas to which the genomic instability of Rothmund-Thomson syndrome predisposes.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Anti-apoptotic BCL-2 raises the threshold for caspase-3 apoptosis (already mapped), supporting the survival of genomically unstable cells and the tumors of Rothmund-Thomson syndrome.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK-STAT3 signaling contributes to the survival signaling of the osteosarcomas characteristic of Rothmund-Thomson syndrome.
 
 [^kitao-1999-recql4-rts]: Kitao S, Shimamoto A, Goto M, et al. Mutations in RECQL4 cause a subset of cases of Rothmund-Thomson syndrome. *Nat Genet.* 1999;22(1):82-84. [doi:10.1038/8788](https://doi.org/10.1038/8788) · [PubMed 10319867](https://pubmed.ncbi.nlm.nih.gov/10319867/)
 [^wang-2003-rts-cancer]: Wang LL, Gannavarapu A, Kozinetz CA, et al. Association between osteosarcoma and deleterious mutations in the RECQL4 gene in Rothmund-Thomson syndrome. *J Natl Cancer Inst.* 2003;95(9):669-674. [doi:10.1093/jnci/95.9.669](https://doi.org/10.1093/jnci/95.9.669) · [PubMed 12734318](https://pubmed.ncbi.nlm.nih.gov/12734318/)
