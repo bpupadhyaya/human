@@ -337,6 +337,15 @@ cross_links:
   - target: 01-human/03-molecular/ntrk
     relation: connects-to
     note: "Neurotrophic remodelling: BDNF signalling through its TrkB receptor (NTRK) mediates the reward-circuit synaptic remodelling that underlies opioid craving and the persistence of relapse vulnerability."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "PTEN regulation of the PI3K-AKT-mTOR axis (AKT, mTOR and GSK-3β mapped) shapes the reward-circuit synaptic plasticity underlying opioid addiction."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Opioid-driven microglial activation (TLR4 mapped) induces galectin-3, amplifying the neuroinflammation linked to opioid tolerance and dependence."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Cytokine-driven JAK-STAT signalling (IL-6 mapped) transduces the neuroinflammatory milieu accompanying chronic opioid exposure and withdrawal."
 ---
 
 # Opioid Use Disorder
@@ -598,6 +607,9 @@ The primary mechanism by which opioids produce euphoria:
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Opioids engage microglial TLR4 that signals through MyD88 to NF-κB (TLR4 and NF-κB already mapped), driving the neuroinflammation that contributes to tolerance, hyperalgesia, and the reward dysregulation of opioid use disorder.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR-dependent synaptic plasticity in the mesolimbic reward circuit consolidates the maladaptive learning and drug-cue associations that entrench compulsive opioid use.
 - `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — BDNF signaling through its TrkB receptor (NTRK) mediates the reward-circuit synaptic remodeling that underlies opioid craving and the persistence of relapse vulnerability.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN regulation of the PI3K-AKT-mTOR axis (AKT, mTOR and GSK-3β mapped) shapes the reward-circuit synaptic plasticity underlying opioid addiction.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Opioid-driven microglial activation (TLR4 mapped) induces galectin-3, amplifying the neuroinflammation linked to opioid tolerance and dependence.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Cytokine-driven JAK-STAT signaling (IL-6 mapped) transduces the neuroinflammatory milieu accompanying chronic opioid exposure and withdrawal.
 
 [^volkow-2016-opioid-crisis]: Volkow ND, Collins FS. The role of science in addressing the opioid crisis. *N Engl J Med.* 2017;377(4):391-394. [doi:10.1056/NEJMsr1706626](https://doi.org/10.1056/NEJMsr1706626) · [PubMed 28723324](https://pubmed.ncbi.nlm.nih.gov/28723324/)
 [^mattick-2009-bupe-meta]: Mattick RP, Breen C, Kimber J, Davoli M. Buprenorphine maintenance versus placebo or methadone maintenance for opioid dependence. *Cochrane Database Syst Rev.* 2014;2:CD002207. [doi:10.1002/14651858.CD002207.pub4](https://doi.org/10.1002/14651858.CD002207.pub4) · [PubMed 24500948](https://pubmed.ncbi.nlm.nih.gov/24500948/)

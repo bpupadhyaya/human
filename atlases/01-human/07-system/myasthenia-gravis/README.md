@@ -334,6 +334,15 @@ cross_links:
   - target: 01-human/03-molecular/il-12
     relation: connects-to
     note: "Th1 helper drive: IL-12 polarises the Th1/IFN-γ responses (already mapped) that provide the T-cell help underpinning anti-AChR autoantibody production in myasthenia gravis."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "BAFF-driven PI3K-AKT signalling (BAFF mapped) sustains the autoreactive B cells and plasma cells producing pathogenic anti-AChR antibodies in myasthenia gravis."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "The mTOR-regulated metabolic program supports antibody-secreting plasmablast expansion in myasthenia gravis."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "B-cell-receptor ERK-MAPK signalling contributes to the activation and survival of the autoreactive B cells driving myasthenia gravis."
 ---
 
 # Myasthenia Gravis
@@ -550,6 +559,9 @@ cross_links:
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK-STAT signaling transduces the IL-6 and IFN-γ cues (both already mapped) that drive the autoreactive T- and B-cell responses of myasthenia gravis, an axis under investigation for JAK inhibition.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — IL-23 sustains the Th17 cells (IL-17A already mapped) that promote thymic germinal-center formation and the autoimmune attack on the neuromuscular junction in myasthenia gravis.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — IL-12 polarizes the Th1/IFN-γ responses (already mapped) that provide the T-cell help underpinning anti-AChR autoantibody production in myasthenia gravis.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — BAFF-driven PI3K-AKT signaling (BAFF mapped) sustains the autoreactive B cells and plasma cells producing pathogenic anti-AChR antibodies in myasthenia gravis.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — The mTOR-regulated metabolic program supports antibody-secreting plasmablast expansion in myasthenia gravis.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — B-cell-receptor ERK-MAPK signaling contributes to the activation and survival of the autoreactive B cells driving myasthenia gravis.
 
 [^gilhus-2016-mg-review]: Gilhus NE. Myasthenia Gravis. *N Engl J Med.* 2016;375(26):2570-2581. [doi:10.1056/NEJMra1602678](https://doi.org/10.1056/NEJMra1602678) · [PubMed 28029925](https://pubmed.ncbi.nlm.nih.gov/28029925/)
 [^howard-2021-efgartigimod-adapt]: Howard JF Jr, Bril V, Vu T, et al. Safety, efficacy, and tolerability of efgartigimod in patients with generalised myasthenia gravis (ADAPT). *Lancet Neurol.* 2021;20(7):526-536. [doi:10.1016/S1474-4422(21)00159-9](https://doi.org/10.1016/S1474-4422(21)00159-9) · [PubMed 34146511](https://pubmed.ncbi.nlm.nih.gov/34146511/)
