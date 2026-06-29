@@ -337,6 +337,15 @@ cross_links:
   - target: 01-human/03-molecular/nfe2l2
     relation: connects-to
     note: "Glucotoxic oxidative defence: NRF2 antioxidant defence counters the glucotoxic oxidative stress that damages β-cells and impairs insulin signalling in type 2 diabetes."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "Pro-inflammatory IL-6-STAT3 signalling in adipose tissue and liver contributes to the chronic low-grade inflammation that drives insulin resistance in type 2 diabetes."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Mitochondrial and metabolic stress releases cytosolic DNA that engages cGAS-STING, fuelling the metabolic inflammation of adipose tissue in type 2 diabetes."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling (TGF-β already mapped) drives the islet and renal fibrosis that accompanies β-cell failure and diabetic nephropathy in type 2 diabetes."
 ---
 
 # Type 2 Diabetes
@@ -546,6 +555,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4 sensing of saturated free fatty acids drives the lipotoxic metabolic inflammation that links obesity to the insulin resistance of type 2 diabetes.
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88-NF-κB signaling (NF-κB and NLRP3 already mapped) transduces nutrient-excess and lipotoxic signals into the chronic metabolic inflammation underlying type 2 diabetes.
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2 antioxidant defense counters the glucotoxic oxidative stress that damages β-cells and impairs insulin signaling in type 2 diabetes.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Pro-inflammatory IL-6-STAT3 signaling in adipose tissue and liver contributes to the chronic low-grade inflammation that drives insulin resistance in type 2 diabetes.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Mitochondrial and metabolic stress releases cytosolic DNA that engages cGAS-STING, fueling the metabolic inflammation of adipose tissue in type 2 diabetes.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β already mapped) drives the islet and renal fibrosis that accompanies β-cell failure and diabetic nephropathy in type 2 diabetes.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

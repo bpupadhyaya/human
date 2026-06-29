@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "Hepatic-metastasis niche: IL-6-STAT3 signalling (STAT3 already mapped) supports the survival of uveal-melanoma cells, particularly in the liver microenvironment that is its predominant site of metastasis."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA sensing through cGAS-STING shapes the immune microenvironment of uveal melanoma, a tumour notable for its poor response to checkpoint immunotherapy."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling governs the interferon-driven antitumour response and immune-evasion balance of the immunologically cold uveal melanoma."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 supports immune evasion and the hepatic metastatic colonisation that determines outcome in uveal melanoma."
 ---
 
 # Uveal Melanoma
@@ -572,6 +581,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — Dysregulation of the RB1-E2F checkpoint (CDKN2A, cyclin-D1 and E2F1 already mapped) contributes to the proliferation of uveal melanoma.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK-STAT3 signaling (STAT3 already mapped) contributes to the survival and immune-evasion signaling of uveal melanoma.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6-STAT3 signaling (STAT3 already mapped) supports the survival of uveal-melanoma cells, particularly in the liver microenvironment that is its predominant site of metastasis.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING shapes the immune microenvironment of uveal melanoma, a tumor notable for its poor response to checkpoint immunotherapy.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling governs the interferon-driven antitumor response and immune-evasion balance of the immunologically cold uveal melanoma.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 supports immune evasion and the hepatic metastatic colonization that determines outcome in uveal melanoma.
 
 ---
 
