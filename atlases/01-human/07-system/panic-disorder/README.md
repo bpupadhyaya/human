@@ -328,6 +328,15 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "Anti-inflammatory balance: a relative deficit of regulatory IL-10 against the IL-6, IL-1β and TNF (all mapped) elevated in anxiety is part of the neuroinflammatory contribution to panic disorder."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Neuroinflammatory hyperexcitability: TLR4-driven neuroinflammation links peripheral and central inflammation to the amygdala hyperexcitability implicated in the panic response."
+  - target: 01-human/03-molecular/ntrk
+    relation: connects-to
+    note: "Fear-circuit plasticity: BDNF signalling through its TrkB receptor (NTRK) mediates the amygdala-prefrontal fear-circuit plasticity whose dysregulation underlies panic disorder."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "Fear-memory consolidation: amygdala ERK-MAPK signalling consolidates the fear-conditioned memories that drive the recurrent, interoception-triggered attacks of panic disorder."
 ---
 
 # Panic Disorder
@@ -576,6 +585,9 @@ The **interoceptive fear conditioning model** (Bouton, Mineka, Barlow) explains 
 - `connects-to` → **[ACTH](../../03-molecular/acth/README.md)** — A panic attack drives CRH (mapped) to release pituitary ACTH, which raises cortisol (mapped), completing the stress-hormone axis engaged in panic disorder.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histaminergic neurons promote wakefulness and vigilance alongside orexin (mapped), and this arousal circuitry contributes to the hypervigilance and nocturnal panic attacks of panic disorder.
 - `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — A relative deficit of regulatory IL-10 against the IL-6, IL-1β and TNF (all mapped) elevated in anxiety is part of the neuroinflammatory contribution to panic disorder.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4-driven neuroinflammation links peripheral and central inflammation to the amygdala hyperexcitability implicated in the panic response.
+- `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — BDNF signaling through its TrkB receptor (NTRK) mediates the amygdala-prefrontal fear-circuit plasticity whose dysregulation underlies panic disorder.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Amygdala ERK-MAPK signaling consolidates the fear-conditioned memories that drive the recurrent, interoception-triggered attacks of panic disorder.
 
 [^gorman-2000-panic-neurobiology]: Gorman JM, Kent JM, Sullivan GM, Coplan JD. Neuroanatomical hypothesis of panic disorder, revised. *Am J Psychiatry.* 2000;157(4):493-505. [doi:10.1176/appi.ajp.157.4.493](https://doi.org/10.1176/appi.ajp.157.4.493) · [PubMed 10739407](https://pubmed.ncbi.nlm.nih.gov/10739407/)
 [^nardi-2009-clonazepam-panic]: Nardi AE, Freire RC, Zin WA. Panic disorder and control of breathing. *Respir Physiol Neurobiol.* 2009;167(1):133-143. [doi:10.1016/j.resp.2008.07.011](https://doi.org/10.1016/j.resp.2008.07.011) · [PubMed 18708168](https://pubmed.ncbi.nlm.nih.gov/18708168/)

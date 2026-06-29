@@ -328,6 +328,15 @@ cross_links:
   - target: 01-human/03-molecular/e2f1
     relation: connects-to
     note: "Cell-cycle release: CDKN2A loss (mapped) frees the cyclin-D1-CDK4/6 axis to phosphorylate RB and release E2F1, driving the cell-cycle progression of pancreatic cancer."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Desmoplasia and cachexia: IL-6-JAK-STAT3 signalling (IL-6 and STAT3 already mapped) drives the desmoplastic, immunosuppressive stroma and the cancer cachexia characteristic of pancreatic ductal adenocarcinoma."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "KRAS-NRF2 redox: oncogenic KRAS upregulates NRF2 antioxidant signalling, and the resulting redox balance supports the proliferation and chemoresistance of pancreatic cancer."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Microbiota-driven carcinogenesis: gut- and pancreatic-microbiota-driven TLR-MyD88-NF-κB signalling (NF-κB already mapped) promotes the inflammation-associated initiation and progression of pancreatic ductal adenocarcinoma."
 ---
 
 # Pancreatic Cancer
@@ -551,6 +560,9 @@ cross_links:
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Mutant KRAS (mapped), present in ~90% of PDAC, signals through the MAPK-ERK cascade as the central proliferative driver and the focus of KRAS- and MEK-directed therapy.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR completes the PI3K-AKT-mTOR pathway (AKT already mapped) that, alongside KRAS-MAPK, sustains the growth and metabolism of pancreatic cancer.
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — CDKN2A loss (mapped) frees the cyclin-D1-CDK4/6 axis to phosphorylate RB and release E2F1, driving the cell-cycle progression of pancreatic cancer.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6-JAK-STAT3 signaling (IL-6 and STAT3 already mapped) drives the desmoplastic, immunosuppressive stroma and the cancer cachexia characteristic of pancreatic ductal adenocarcinoma.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — Oncogenic KRAS upregulates NRF2 antioxidant signaling, and the resulting redox balance supports the proliferation and chemoresistance of pancreatic cancer.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Gut- and pancreatic-microbiota-driven TLR-MyD88-NF-κB signaling (NF-κB already mapped) promotes the inflammation-associated initiation and progression of pancreatic ductal adenocarcinoma.
 
 ---
 
