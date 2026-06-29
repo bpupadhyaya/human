@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/myd88
     relation: connects-to
     note: "Inflammatory remodelling: macrophage TLR-MyD88-NF-κB signalling (NF-κB already mapped) contributes the inflammatory component of aortic-wall remodelling and aneurysm progression in Marfan syndrome."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "IL-6-JAK-STAT signalling (IL-6 mapped) contributes to the medial inflammation accompanying aortic-wall degeneration in Marfan syndrome."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "STAT3-driven inflammatory signalling participates in the vascular-smooth-muscle and inflammatory response of the Marfan aortopathy."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "PTEN regulation of PI3K-AKT-mTOR signalling (AKT, PIK3CA and mTOR mapped) modulates the vascular-smooth-muscle phenotype in the aortic wall affected by Marfan syndrome."
 ---
 
 # Marfan Syndrome
@@ -574,6 +583,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — Non-canonical TGF-β signaling activates RAS-ERK (ERK1/2 already mapped), a driver of the aortic-wall degeneration in Marfan syndrome that complements the canonical SMAD pathway.
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2 antioxidant defense counters the oxidative stress accompanying the smooth-muscle-cell dysfunction and matrix breakdown of the Marfan aorta.
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Macrophage TLR-MyD88-NF-κB signaling (NF-κB already mapped) contributes the inflammatory component of aortic-wall remodeling and aneurysm progression in Marfan syndrome.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6-JAK-STAT signaling (IL-6 mapped) contributes to the medial inflammation accompanying aortic-wall degeneration in Marfan syndrome.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3-driven inflammatory signaling participates in the vascular-smooth-muscle and inflammatory response of the Marfan aortopathy.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN regulation of PI3K-AKT-mTOR signaling (AKT, PIK3CA and mTOR mapped) modulates the vascular-smooth-muscle phenotype in the aortic wall affected by Marfan syndrome.
 
 ---
 
