@@ -333,6 +333,15 @@ cross_links:
   - target: 01-human/03-molecular/thrombin
     relation: connects-to
     note: "Hypercoagulable state: chronic platelet and coagulation activation generates a thrombin-rich prothrombotic state (von Willebrand factor already mapped) underlying the thrombotic risk of thalassemia, especially after splenectomy."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "The erythropoietin receptor signals through JAK2 (EPO mapped); the markedly elevated EPO of thalassemia drives the expanded but ineffective erythropoiesis via this axis."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "EPO-driven PI3K-AKT signalling promotes erythroid progenitor survival, dysregulated in the ineffective erythropoiesis of thalassemia."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "EPO-ERK-MAPK signalling drives the erythroid proliferation that expands the marrow in thalassemia, contributing to its skeletal complications."
 ---
 
 # Thalassemia
@@ -582,6 +591,9 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β-superfamily ligands (activin-A already mapped) suppress late erythroid maturation through SMAD signaling (SMAD4 mapped), the axis blocked by luspatercept to relieve the ineffective erythropoiesis of thalassemia.
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88-NF-κB innate signaling (TLR4 and NF-κB already mapped), driven by hemolysis-derived heme and oxidative damage, sustains the chronic inflammation that compounds the anemia of thalassemia.
 - `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — Chronic platelet and coagulation activation generates a thrombin-rich prothrombotic state (von Willebrand factor already mapped) underlying the thrombotic risk of thalassemia, especially after splenectomy.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — The erythropoietin receptor signals through JAK2 (EPO mapped); the markedly elevated EPO of thalassemia drives the expanded but ineffective erythropoiesis via this axis.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — EPO-driven PI3K-AKT signaling promotes erythroid progenitor survival, dysregulated in the ineffective erythropoiesis of thalassemia.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — EPO-ERK-MAPK signaling drives the erythroid proliferation that expands the marrow in thalassemia, contributing to its skeletal complications.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.

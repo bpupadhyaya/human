@@ -334,6 +334,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "Thrombus remodelling: VEGF-driven angiogenesis participates in thrombus organisation and recanalisation, the vascular remodelling that determines resolution versus the post-thrombotic syndrome after venous thromboembolism."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "ERK-MAPK signalling in platelets and endothelium amplifies the activation responses that initiate venous thrombosis."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Endothelial and platelet PI3K-AKT signalling regulates the procoagulant and adhesive phenotype that drives venous thromboembolism."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 promotes the neutrophil-extracellular-trap-driven thromboinflammation central to venous thrombus formation."
 ---
 
 # Venous Thromboembolism
@@ -558,6 +567,9 @@ cross_links:
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88-NF-κB innate signaling (TLR4 and NF-κB already mapped) underlies the immunothrombosis in which activated neutrophils and monocytes — through NETs and tissue factor — seed venous thrombus formation.
 - `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Raised endothelin-1 from a dysfunctional endothelium shifts the vessel wall toward the vasoconstricted, procoagulant state that, with venous stasis, completes Virchow's triad in venous thromboembolism.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VEGF-driven angiogenesis participates in thrombus organization and recanalization, the vascular remodeling that determines resolution versus the post-thrombotic syndrome after venous thromboembolism.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling in platelets and endothelium amplifies the activation responses that initiate venous thrombosis.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Endothelial and platelet PI3K-AKT signaling regulates the procoagulant and adhesive phenotype that drives venous thromboembolism.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 promotes the neutrophil-extracellular-trap-driven thromboinflammation central to venous thrombus formation.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)
