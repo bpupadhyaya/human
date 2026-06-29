@@ -325,6 +325,15 @@ cross_links:
   - target: 01-human/03-molecular/runx1
     relation: connects-to
     note: "Clonal evolution: PNH arises within a failing, clonal marrow and can progress to myelodysplasia or acute leukaemia, transitions marked by lesions in genes such as RUNX1."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Erythropoietin and thrombopoietin signal through JAK2 (EPO and TPO mapped), the cytokine axis driving erythroid compensation against haemolysis and relevant to the marrow-failure background of PNH."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Sublytic complement attack on PNH cells triggers PI3K-AKT survival and activation signalling in platelets and endothelium, contributing to the prothrombotic state of the disease."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "C5a acting on C5aR (C5aR1 mapped) engages ERK-MAPK in neutrophils and platelets, amplifying the cellular activation that drives PNH thrombosis."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -519,6 +528,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Free hemoglobin from intravascular hemolysis scavenges nitric oxide (mapped), unleashing endothelin-1-driven vasoconstriction that causes the abdominal pain, dysphagia and pulmonary hypertension of PNH.
 - `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Complement-mediated endothelial activation releases Ang-2, contributing to the endothelial dysfunction and thrombosis that is the leading cause of death in PNH.
 - `connects-to` → **[RUNX1](../../03-molecular/runx1/README.md)** — PNH arises within a failing, clonal marrow and can progress to myelodysplasia or acute leukemia, transitions marked by lesions in genes such as RUNX1.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Erythropoietin and thrombopoietin signal through JAK2 (EPO and TPO mapped), the cytokine axis driving erythroid compensation against hemolysis and relevant to the marrow-failure background of PNH.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Sublytic complement attack on PNH cells triggers PI3K-AKT survival and activation signaling in platelets and endothelium, contributing to the prothrombotic state of the disease.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — C5a acting on C5aR (C5aR1 mapped) engages ERK-MAPK in neutrophils and platelets, amplifying the cellular activation that drives PNH thrombosis.
 
 ---
 

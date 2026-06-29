@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/mdm2
     relation: connects-to
     note: "p53 inactivation: MDM2-mediated suppression and outright TP53 loss (p53 mapped) mark the aggressive, often neuroendocrine castration-resistant prostate cancer."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "IL-6-STAT3 signalling promotes androgen-receptor reactivation and neuroendocrine differentiation in castration-resistant prostate cancer."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "Loss of TGF-β-SMAD4 signalling (TGF-β mapped) is a key metastasis-suppressor lesion whose inactivation drives aggressive, bone-metastatic prostate cancer."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "CDKN2A (p16) loss releases CDK4/6-cyclin-D control (cyclin-D1 mapped) of the cell cycle, a recurrent lesion in lethal prostate cancer."
 ---
 
 # Prostate Cancer
@@ -562,6 +571,9 @@ cross_links:
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — TMPRSS2-ERG and RAS-MAPK signaling cooperate with the androgen receptor to drive prostate-cancer proliferation, and MAPK reactivation underlies progression to castration-resistant disease.
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — The cyclin-D1-RB-E2F axis (cyclin-D1 mapped) drives proliferation, and RB loss releasing E2F1 promotes the lineage plasticity that yields treatment-emergent neuroendocrine prostate cancer.
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated suppression and outright TP53 loss (p53 mapped) mark the aggressive, often neuroendocrine castration-resistant prostate cancer.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6-STAT3 signaling promotes androgen-receptor reactivation and neuroendocrine differentiation in castration-resistant prostate cancer.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — Loss of TGF-β-SMAD4 signaling (TGF-β mapped) is a key metastasis-suppressor lesion whose inactivation drives aggressive, bone-metastatic prostate cancer.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A (p16) loss releases CDK4/6-cyclin-D control (cyclin-D1 mapped) of the cell cycle, a recurrent lesion in lethal prostate cancer.
 
 [^beer-2014-prevail]: Beer TM, Armstrong AJ, Rathkopf D, et al. Enzalutamide in metastatic prostate cancer before chemotherapy. *N Engl J Med.* 2014;371(5):424-433. [doi:10.1056/NEJMoa1405095](https://doi.org/10.1056/NEJMoa1405095) · [PubMed 24881730](https://pubmed.ncbi.nlm.nih.gov/24881730/)
 [^sartor-2021-vision]: Sartor O, de Bono J, Chi KN, et al. Lutetium-PSMA-617 for metastatic castration-resistant prostate cancer. *N Engl J Med.* 2021;385(12):1091-1103. [doi:10.1056/NEJMoa2107322](https://doi.org/10.1056/NEJMoa2107322) · [PubMed 34161051](https://pubmed.ncbi.nlm.nih.gov/34161051/)
