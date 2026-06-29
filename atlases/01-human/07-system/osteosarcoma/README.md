@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/erk1-2
     relation: connects-to
     note: "RTK-MAPK proliferation: the receptor kinases of osteosarcoma — MET, FGFR, HER2 and PDGFR (all already mapped) — converge on the MAPK-ERK cascade to drive proliferation."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Inflammatory metastasis: IL-6-JAK-STAT3 signalling (IL-6 and STAT3 already mapped) supports osteosarcoma-cell proliferation and the immunosuppressive, pro-metastatic microenvironment."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Chemoresistance: anti-apoptotic BCL-2 raises the threshold for caspase-3 apoptosis (already mapped), contributing to the chemoresistance of osteosarcoma."
+  - target: 01-human/03-molecular/kras
+    relation: connects-to
+    note: "RAS proliferation: RAS-ERK signalling (ERK1/2 already mapped) downstream of the receptor tyrosine kinases active in osteosarcoma provides a proliferative input."
 ---
 
 # Osteosarcoma
@@ -554,6 +563,9 @@ OS is relatively radiation-resistant (high-dose radiation ~70+ Gy may achieve lo
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — RB1 inactivation (mapped)—the same lesion that links hereditary retinoblastoma to osteosarcoma—releases E2F1 to drive unrestrained proliferation, reinforced by the CDK4/cyclin-D1 amplification already mapped.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PIK3CA drives the PI3K-AKT-mTOR axis (AKT and mTOR already mapped) that supports growth and survival in osteosarcoma.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — The receptor kinases of osteosarcoma—MET, FGFR, HER2 and PDGFR (all already mapped)—converge on the MAPK-ERK cascade to drive proliferation.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6-JAK-STAT3 signaling (IL-6 and STAT3 already mapped) supports osteosarcoma-cell proliferation and the immunosuppressive, pro-metastatic microenvironment.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Anti-apoptotic BCL-2 raises the threshold for caspase-3 apoptosis (already mapped), contributing to the chemoresistance of osteosarcoma.
+- `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — RAS-ERK signaling (ERK1/2 already mapped) downstream of the receptor tyrosine kinases active in osteosarcoma provides a proliferative input.
 
 [^bielack-2002-coss-osteosarcoma]: Bielack SS, Kempf-Bielack B, Delling G, et al. Prognostic factors in high-grade osteosarcoma of the extremities or trunk: an analysis of 1,702 patients treated on neoadjuvant Cooperative Osteosarcoma Study Group protocols. *J Clin Oncol.* 2002;20(3):776-790. [doi:10.1200/JCO.2002.20.3.776](https://doi.org/10.1200/JCO.2002.20.3.776) · [PubMed 11821461](https://pubmed.ncbi.nlm.nih.gov/11821461/)
 [^marina-2016-euramos1-osteosarcoma]: Marina NM, Smeland S, Bielack SS, et al. Comparison of MAPIE versus MAP in patients with a poor response to preoperative chemotherapy for newly diagnosed high-grade osteosarcoma (EURAMOS-1). *Lancet Oncol.* 2016;17(10):1396-1408. [doi:10.1016/S1470-2045(16)30214-5](https://doi.org/10.1016/S1470-2045(16)30214-5) · [PubMed 27569442](https://pubmed.ncbi.nlm.nih.gov/27569442/)
