@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/erk1-2
     relation: connects-to
     note: "RTK proliferation: ERK1/2 MAPK transduces receptor-tyrosine-kinase signals (FGFR already mapped) into the proliferative drive of ATRT, supporting its rapid growth."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "JAK-STAT3 signalling (STAT3 mapped) contributes to the proliferative and immunosuppressive programme of atypical teratoid/rhabdoid tumor."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "TGF-β signalling modulates the tumour microenvironment and invasive behaviour of atypical teratoid/rhabdoid tumor."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 is expressed in rhabdoid tumours and contributes to their invasive and immunomodulatory phenotype."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -554,6 +563,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[SUFU](../../03-molecular/sufu/README.md)** — SUFU negatively regulates GLI in the Sonic-Hedgehog pathway (PTCH1 and SMO already mapped), the pathway driving the SHH molecular subgroup of atypical teratoid/rhabdoid tumor.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss releases the PI3K-AKT-mTOR axis (all three already mapped), a growth-driving pathway exploited by the aggressive proliferation of ATRT.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK1/2 MAPK transduces receptor-tyrosine-kinase signals (FGFR already mapped) into the proliferative drive of ATRT, supporting its rapid growth.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK-STAT3 signaling (STAT3 mapped) contributes to the proliferative and immunosuppressive program of atypical teratoid/rhabdoid tumor.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β signaling modulates the tumor microenvironment and invasive behavior of atypical teratoid/rhabdoid tumor.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 is expressed in rhabdoid tumors and contributes to their invasive and immunomodulatory phenotype.
 
 ---
 

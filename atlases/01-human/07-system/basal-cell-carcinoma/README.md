@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "Tumour-promoting inflammation: IL-6-driven STAT3 signalling (STAT3 already mapped) sustains the tumour-promoting inflammatory microenvironment of basal cell carcinoma."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "JAK kinases transduce the IL-6 signal to STAT3 (IL-6 and STAT3 mapped) supporting proliferation and immune evasion in basal cell carcinoma."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "Loss of TGF-β-SMAD4 signalling (TGF-β mapped) contributes to tumour progression and the stromal response in basal cell carcinoma."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 modulates the tumour-stroma interaction and immune microenvironment of basal cell carcinoma."
 ---
 
 # Basal Cell Carcinoma
@@ -557,6 +566,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK1/2 transduces receptor-tyrosine-kinase signals (EGFR and FGFR already mapped) into proliferation in basal cell carcinoma, a pathway implicated in acquired resistance to Hedgehog-pathway inhibitors.
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Ultraviolet-induced innate-immune signaling through TLR-MyD88 contributes to the cutaneous inflammation and photo-immunosuppression that promote basal cell carcinoma development.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6-driven STAT3 signaling (STAT3 already mapped) sustains the tumor-promoting inflammatory microenvironment of basal cell carcinoma.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK kinases transduce the IL-6 signal to STAT3 (IL-6 and STAT3 mapped) supporting proliferation and immune evasion in basal cell carcinoma.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — Loss of TGF-β-SMAD4 signaling (TGF-β mapped) contributes to tumor progression and the stromal response in basal cell carcinoma.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 modulates the tumor-stroma interaction and immune microenvironment of basal cell carcinoma.
 
 ---
 
