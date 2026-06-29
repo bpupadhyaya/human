@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/ntrk
     relation: connects-to
     note: "Neurotrophic remodelling: BDNF signalling through its TrkB receptor (NTRK) mediates the reward-circuit synaptic remodelling underlying stimulant craving and the persistence of relapse vulnerability."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "PTEN regulation of the PI3K-AKT-mTOR axis (AKT, mTOR and GSK-3β mapped) shapes the reward-circuit synaptic plasticity underlying stimulant addiction."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Stimulant-induced microglial activation induces galectin-3, amplifying the neuroinflammation linked to stimulant neurotoxicity and addiction."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Cytokine-driven JAK-STAT signalling (IL-6 mapped) transduces the neuroinflammatory milieu accompanying chronic stimulant exposure."
 ---
 
 # Stimulant Use Disorder
@@ -557,6 +566,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Stimulants activate microglial TLR4 signaling through MyD88 to NF-κB (TLR4 and NF-κB already mapped), driving the neuroinflammation that contributes to the neurotoxicity and reward dysregulation of stimulant use disorder.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR-dependent synaptic plasticity in the mesolimbic reward circuit consolidates the maladaptive learning and drug-cue associations that entrench compulsive stimulant use.
 - `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — BDNF signaling through its TrkB receptor (NTRK) mediates the reward-circuit synaptic remodeling underlying stimulant craving and the persistence of relapse vulnerability.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN regulation of the PI3K-AKT-mTOR axis (AKT, mTOR and GSK-3β mapped) shapes the reward-circuit synaptic plasticity underlying stimulant addiction.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Stimulant-induced microglial activation induces galectin-3, amplifying the neuroinflammation linked to stimulant neurotoxicity and addiction.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Cytokine-driven JAK-STAT signaling (IL-6 mapped) transduces the neuroinflammatory milieu accompanying chronic stimulant exposure.
 
 ## Treatment
 
