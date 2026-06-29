@@ -333,6 +333,15 @@ cross_links:
   - target: 01-human/03-molecular/myd88
     relation: connects-to
     note: "Innate inflammation: TLR sensing of uremic damage-associated molecular patterns signals through MyD88 to NF-κB, sustaining the chronic innate-immune activation that propels CKD progression."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 is a driver and biomarker of the renal and cardiac fibrosis that links CKD to its cardiovascular complications."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K-AKT signalling (mTOR mapped) governs podocyte and tubular-cell survival and the hypertrophic responses that shape CKD progression."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "PDGF drives mesangial and fibroblast proliferation, contributing to the glomerulosclerosis and tubulointerstitial fibrosis of chronic kidney disease."
 ---
 
 # Chronic Kidney Disease
@@ -514,6 +523,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2 orchestrates the antioxidant response that protects tubular cells from the oxidative injury of CKD, and its pharmacological activation (bardoxolone) raises glomerular filtration rate in diabetic kidney disease.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR drives the glomerular and tubular hypertrophy that follows nephron loss — initially adaptive but ultimately accelerating podocyte stress and progressive kidney failure.
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR sensing of uremic damage-associated molecular patterns signals through MyD88 to NF-κB, sustaining the chronic innate-immune activation that propels CKD progression.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 is a driver and biomarker of the renal and cardiac fibrosis that links CKD to its cardiovascular complications.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling (mTOR mapped) governs podocyte and tubular-cell survival and the hypertrophic responses that shape CKD progression.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — PDGF drives mesangial and fibroblast proliferation, contributing to the glomerulosclerosis and tubulointerstitial fibrosis of chronic kidney disease.
 
 ## Pathology
 

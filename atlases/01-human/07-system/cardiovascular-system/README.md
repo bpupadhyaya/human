@@ -339,6 +339,15 @@ cross_links:
   - target: 01-human/03-molecular/akt
     relation: connects-to
     note: "Survival and growth: PI3K-AKT signalling mediates the IGF/insulin survival programme of cardiomyocytes and endothelial nitric-oxide production, balancing physiological adaptation against pathological hypertrophy."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "mTOR signalling (downstream of the AKT axis mapped) governs cardiomyocyte growth and the hypertrophic remodelling of the heart in pressure and volume overload."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "HIF-1α coordinates the myocardial and vascular response to ischemia, driving angiogenesis and metabolic adaptation in the cardiovascular system."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "NF-κB-driven endothelial and vascular inflammation is central to atherogenesis and the inflammatory component of cardiovascular disease."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"
@@ -528,6 +537,9 @@ Each major vascular bed has **autoregulation** — a local mechanism that holds 
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β drives the inflammatory cascade of atherosclerosis, validated clinically by the CANTOS trial in which IL-1β blockade reduced recurrent cardiovascular events independent of lipid lowering.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK1/2 MAPK transduces growth-factor and mechanical signals into cardiomyocyte hypertrophy and vascular smooth-muscle proliferation, a core driver of cardiac remodelling and arterial restenosis.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signalling mediates the IGF/insulin survival programme of cardiomyocytes and endothelial nitric-oxide production, balancing physiological adaptation against pathological hypertrophy.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR signaling (downstream of the AKT axis mapped) governs cardiomyocyte growth and the hypertrophic remodeling of the heart in pressure and volume overload.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α coordinates the myocardial and vascular response to ischemia, driving angiogenesis and metabolic adaptation in the cardiovascular system.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB-driven endothelial and vascular inflammation is central to atherogenesis and the inflammatory component of cardiovascular disease.
 
 ## Pathology
 
