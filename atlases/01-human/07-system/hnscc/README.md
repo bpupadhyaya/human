@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/bcl-2
     relation: connects-to
     note: "Therapy resistance: anti-apoptotic BCL-2 raises the threshold for caspase-3 apoptosis (already mapped), contributing to the chemo- and radio-resistance of head-and-neck squamous cell carcinoma."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "IL-6-JAK-STAT3 signalling (IL-6 and STAT3 mapped) drives proliferation and immune evasion in head and neck squamous cell carcinoma."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "Loss of TGF-β-SMAD4 signalling (TGF-β mapped) is a recurrent event promoting progression and the inflammatory microenvironment of HNSCC."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 promotes invasion, nodal metastasis and immune evasion in head and neck squamous cell carcinoma."
 ---
 
 # HNSCC
@@ -550,6 +559,9 @@ HPV+ oropharyngeal: Node staging based on number (not laterality); HPV-negative 
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6-STAT3 signaling (STAT3 already mapped) sustains the inflammatory, immunosuppressive microenvironment and proliferation of head-and-neck squamous cell carcinoma.
 - `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — RAS-MAPK signaling (ERK1/2 already mapped), activated by HRAS mutation or EGFR amplification, drives proliferation in head-and-neck squamous cell carcinoma.
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Anti-apoptotic BCL-2 raises the threshold for caspase-3 apoptosis (already mapped), contributing to the chemo- and radio-resistance of head-and-neck squamous cell carcinoma.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6-JAK-STAT3 signaling (IL-6 and STAT3 mapped) drives proliferation and immune evasion in head and neck squamous cell carcinoma.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — Loss of TGF-β-SMAD4 signaling (TGF-β mapped) is a recurrent event promoting progression and the inflammatory microenvironment of HNSCC.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 promotes invasion, nodal metastasis and immune evasion in head and neck squamous cell carcinoma.
 
 [^burtness-2019-keynote048]: Burtness B, Harrington KJ, Greil R, et al. Pembrolizumab alone or with chemotherapy versus cetuximab with chemotherapy for recurrent or metastatic squamous cell carcinoma of the head and neck (KEYNOTE-048). *Lancet.* 2019;394(10212):1915-1928. [doi:10.1016/S0140-6736(19)32591-7](https://doi.org/10.1016/S0140-6736(19)32591-7) · [PubMed 31679945](https://pubmed.ncbi.nlm.nih.gov/31679945/)
 [^vermorken-2008-extreme]: Vermorken JB, Mesia R, Rivera F, et al. Platinum-based chemotherapy plus cetuximab in head and neck cancer. *N Engl J Med.* 2008;359(11):1116-1127. [doi:10.1056/NEJMoa0802656](https://doi.org/10.1056/NEJMoa0802656) · [PubMed 18784101](https://pubmed.ncbi.nlm.nih.gov/18784101/)
