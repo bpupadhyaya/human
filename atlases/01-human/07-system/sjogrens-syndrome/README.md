@@ -337,6 +337,15 @@ cross_links:
   - target: 01-human/03-molecular/perforin
     relation: connects-to
     note: "Glandular cytotoxicity: CD8 cytotoxic T cells deploy perforin to destroy the salivary and lacrimal glandular epithelium, a direct effector mechanism of the sicca symptoms of Sjögren's syndrome."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "BAFF-driven PI3K-AKT signalling (BAFF mapped) sustains the autoreactive B cells and ectopic germinal centres of Sjögren's syndrome."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "The mTOR-regulated metabolic program supports the B-cell and plasmablast expansion driving the autoantibody response of Sjögren's syndrome."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 is upregulated in the inflamed salivary glands of Sjögren's syndrome, contributing to glandular inflammation and dysfunction."
 ---
 
 # Sjögren's Syndrome
@@ -573,6 +582,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — IL-23 sustains the pathogenic Th17 response (IL-17A already mapped) that contributes to the glandular inflammation of Sjögren's syndrome.
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR-driven innate sensing of viral and self-nucleic-acid signals (with MyD88 already mapped) helps trigger the type-I-interferon-driven autoimmunity of Sjögren's syndrome.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — CD8 cytotoxic T cells deploy perforin to destroy the salivary and lacrimal glandular epithelium, a direct effector mechanism of the sicca symptoms of Sjögren's syndrome.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — BAFF-driven PI3K-AKT signaling (BAFF mapped) sustains the autoreactive B cells and ectopic germinal centers of Sjögren's syndrome.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — The mTOR-regulated metabolic program supports the B-cell and plasmablast expansion driving the autoantibody response of Sjögren's syndrome.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 is upregulated in the inflamed salivary glands of Sjögren's syndrome, contributing to glandular inflammation and dysfunction.
 
 ---
 
