@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/p53
     relation: connects-to
     note: "Leukaemic transformation: TP53 inactivation drives the progression of polycythemia vera to post-PV myelofibrosis and acute myeloid leukaemia."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Inflammatory milieu: TLR-MyD88-NF-κB innate signalling (NF-κB already mapped) sustains the chronic inflammatory milieu that drives symptoms and clonal progression in polycythemia vera."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "Transformation lesion: CDKN2A loss is among the cooperating lesions in the leukaemic transformation of polycythemia vera to acute myeloid leukaemia."
+  - target: 01-human/03-molecular/runx1
+    relation: connects-to
+    note: "Leukaemic progression: acquired RUNX1 mutations mark the transformation of polycythemia vera to secondary acute myeloid leukaemia."
 ---
 
 # Polycythemia Vera
@@ -545,6 +554,9 @@ PV must be distinguished from secondary erythrocytosis (elevated EPO, JAK2 wild-
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Constitutive JAK2 signaling (mapped) engages PI3K (AKT already mapped) as a parallel effector pathway supporting the erythroid expansion of polycythemia vera.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR completes the PI3K-AKT-mTOR pathway (AKT already mapped) downstream of JAK2, and mTOR inhibition has been explored to control the clone in polycythemia vera.
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 inactivation drives the progression of polycythemia vera to post-PV myelofibrosis and acute myeloid leukemia.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88-NF-κB innate signaling (NF-κB already mapped) sustains the chronic inflammatory milieu that drives symptoms and clonal progression in polycythemia vera.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A loss is among the cooperating lesions in the leukemic transformation of polycythemia vera to acute myeloid leukemia.
+- `connects-to` → **[RUNX1](../../03-molecular/runx1/README.md)** — Acquired RUNX1 mutations mark the transformation of polycythemia vera to secondary acute myeloid leukemia.
 
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409630](https://doi.org/10.1056/NEJMoa1409630) · [PubMed 25577388](https://pubmed.ncbi.nlm.nih.gov/25577388/)
 [^gisslinger-2020-proud-pv]: Gisslinger H, Gotic M, Holowiecki J, et al. Ropeginterferon alfa-2b versus standard therapy for polycythaemia vera (PROUD-PV and CONTINUATION-PV): a randomised, non-inferiority, phase 3 trial and its extension study. *Lancet Haematol.* 2020;7(3):e196-e208. [doi:10.1016/S2352-3026(19)30236-4](https://doi.org/10.1016/S2352-3026(19)30236-4) · [PubMed 32046833](https://pubmed.ncbi.nlm.nih.gov/32046833/)

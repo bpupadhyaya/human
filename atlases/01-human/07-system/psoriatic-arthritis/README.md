@@ -330,6 +330,15 @@ cross_links:
   - target: 01-human/03-molecular/cgrp
     relation: connects-to
     note: "Neuro-immune enthesitis: sensory neuropeptide CGRP at entheses links neurogenic signalling to the enthesitis and new-bone formation that distinguish psoriatic arthritis from rheumatoid arthritis."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Innate initiation: TLR4 innate sensing of microbial and damage signals (with MyD88 already mapped) contributes to the initiation of the synovial and entheseal inflammation of psoriatic arthritis."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Immunometabolic activation: mTOR-driven metabolic activation of Th17 cells and synovial fibroblasts supports the persistent inflammation of psoriatic arthritis."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Synovial survival: PI3K-AKT signalling promotes the survival and proliferation of the activated synovial fibroblasts and immune cells driving the joint destruction of psoriatic arthritis."
 ---
 
 # Psoriatic Arthritis
@@ -581,6 +590,9 @@ Risankizumab (anti-IL-23p19) **failed primary endpoints** in the SURPASS trial f
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — The IL-1 receptor family (IL-36 and IL-1β mapped) and TLRs signal through MyD88 to activate NF-κB (mapped), an innate-immune hub amplifying the inflammation of psoriatic arthritis.
 - `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — A relative deficiency of anti-inflammatory IL-10 against the dominant IL-23/IL-17 axis (mapped) contributes to the unchecked synovial and entheseal inflammation of psoriatic arthritis.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Sensory neuropeptide CGRP at entheses links neurogenic signaling to the enthesitis and new-bone formation that distinguish psoriatic arthritis from rheumatoid arthritis.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4 innate sensing of microbial and damage signals (with MyD88 already mapped) contributes to the initiation of the synovial and entheseal inflammation of psoriatic arthritis.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR-driven metabolic activation of Th17 cells and synovial fibroblasts supports the persistent inflammation of psoriatic arthritis.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling promotes the survival and proliferation of the activated synovial fibroblasts and immune cells driving the joint destruction of psoriatic arthritis.
 
 [^ritchlin-2017-psa-review]: Ritchlin CT, Colbert RA, Gladman DD. Psoriatic arthritis. *N Engl J Med.* 2017;376(10):957-970. [doi:10.1056/NEJMra1505557](https://doi.org/10.1056/NEJMra1505557) · [PubMed 28273019](https://pubmed.ncbi.nlm.nih.gov/28273019/)
 [^mease-2015-secukinumab-psa-future2]: Mease PJ, et al. Secukinumab inhibition of interleukin-17A in patients with psoriatic arthritis. *N Engl J Med.* 2015;373(14):1329-1339. [doi:10.1056/NEJMoa1503317](https://doi.org/10.1056/NEJMoa1503317) · [PubMed 26422723](https://pubmed.ncbi.nlm.nih.gov/26422723/)
