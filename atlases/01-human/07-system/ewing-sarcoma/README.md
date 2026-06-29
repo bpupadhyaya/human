@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/bcl-2
     relation: connects-to
     note: "Apoptosis resistance: anti-apoptotic BCL-2 raises the threshold for caspase-3 apoptosis (already mapped), contributing to chemoresistance in Ewing sarcoma."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 is expressed in Ewing sarcoma and contributes to its survival and the bone-tumour microenvironment."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "TGF-β within the bone microenvironment modulates Ewing-sarcoma invasion and immune evasion."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "NRF2 antioxidant signalling buffers the oxidative stress of EWSR1-FLI1-driven transcription, contributing to Ewing-sarcoma cell survival and therapy resistance."
 ---
 
 # Ewing Sarcoma
@@ -558,6 +567,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — The RB1-E2F checkpoint (E2F1, CDK4/6 and CDKN2A already mapped) restrains cell-cycle entry, and its disruption cooperates with the EWSR1-FLI1 fusion to drive Ewing-sarcoma proliferation.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK-STAT3 signaling (STAT3 already mapped) supports the survival and proliferation of Ewing-sarcoma cells.
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Anti-apoptotic BCL-2 raises the threshold for caspase-3 apoptosis (already mapped), contributing to chemoresistance in Ewing sarcoma.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 is expressed in Ewing sarcoma and contributes to its survival and the bone-tumor microenvironment.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β within the bone microenvironment modulates Ewing-sarcoma invasion and immune evasion.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2 antioxidant signaling buffers the oxidative stress of EWSR1-FLI1-driven transcription, contributing to Ewing-sarcoma cell survival and therapy resistance.
 
 ---
 
