@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/rb1
     relation: connects-to
     note: "Cell-cycle restraint: the RB1-E2F checkpoint (cyclin-D1 and E2F1 already mapped) restrains the RAS-MAPK-driven proliferation underlying the leukaemia predisposition of Noonan syndrome."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 drives the cardiac fibrosis underlying the hypertrophic cardiomyopathy of Noonan syndrome and is a biomarker of its progression."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling (TGF-β mapped) contributes to the cardiac and connective-tissue remodelling of Noonan syndrome."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "The CDK4/6-cyclin-D inhibitor CDKN2A (cyclin-D1 mapped) is a brake on the RAS-MAPK-driven myelomonocytic proliferation that predisposes Noonan syndrome to juvenile myelomonocytic leukaemia."
 ---
 
 # Noonan Syndrome
@@ -573,6 +582,9 @@ NS is characterized by four cardinal features: **(1) short stature** (below 3rd 
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — The PTPN11/SHP2 phosphatase mutated in Noonan syndrome positively regulates both RAS-MAPK and JAK-STAT signaling, the latter contributing to the cytokine-driven myeloproliferation of its JMML predisposition.
 - `connects-to` → **[Ryanodine receptor 2 (RyR2)](../../03-molecular/ryr2/README.md)** — RyR2-mediated sarcoplasmic calcium release (with SERCA2a already mapped) governs the excitation-contraction coupling of the cardiomyocyte, stressed in the hypertrophic cardiomyopathy of Noonan syndrome.
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — The RB1-E2F checkpoint (cyclin-D1 and E2F1 already mapped) restrains the RAS-MAPK-driven proliferation underlying the leukemia predisposition of Noonan syndrome.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 drives the cardiac fibrosis underlying the hypertrophic cardiomyopathy of Noonan syndrome and is a biomarker of its progression.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β mapped) contributes to the cardiac and connective-tissue remodeling of Noonan syndrome.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — The CDK4/6-cyclin-D inhibitor CDKN2A (cyclin-D1 mapped) is a brake on the RAS-MAPK-driven myelomonocytic proliferation that predisposes Noonan syndrome to juvenile myelomonocytic leukemia.
 
 [^tartaglia-2001-ptpn11-noonan]: Tartaglia M, Mehler EL, Goldberg R, et al. Mutations in PTPN11, encoding the protein tyrosine phosphatase SHP-2, cause Noonan syndrome. *Nat Genet.* 2001;29(4):465-468. [doi:10.1038/ng772](https://doi.org/10.1038/ng772) · [PubMed 11704759](https://pubmed.ncbi.nlm.nih.gov/11704759/)
 [^van-der-burgt-2007-noonan-review]: van der Burgt I. Noonan syndrome. *Orphanet J Rare Dis.* 2007;2:4. [doi:10.1186/1750-1172-2-4](https://doi.org/10.1186/1750-1172-2-4) · [PubMed 17222357](https://pubmed.ncbi.nlm.nih.gov/17222357/)
