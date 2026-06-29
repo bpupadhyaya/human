@@ -328,6 +328,15 @@ cross_links:
   - target: 01-human/03-molecular/cdh1
     relation: connects-to
     note: "Barrier integrity: E-cadherin junctions seal the intestinal epithelium, and the barrier breakdown that lets luminal microbes contact the mucosa is a central permissive step in IBD pathogenesis."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Paneth-cell autophagy: mTOR signalling regulates Paneth-cell function and the autophagy (already mapped) that clears intracellular bacteria, a pathway whose Crohn's-associated defects impair mucosal antimicrobial defence."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Mucosal oxidative defence: NRF2 antioxidant defence protects the intestinal epithelium from the oxidative stress of chronic mucosal inflammation in inflammatory bowel disease."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Epithelial apoptosis: caspase-3-mediated apoptosis of intestinal epithelial cells contributes to the barrier breakdown that perpetuates the inflammation of inflammatory bowel disease."
 ---
 
 # Inflammatory Bowel Disease
@@ -559,6 +568,9 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR (TLR4 mapped) and IL-1-receptor signaling through MyD88 to NF-κB (mapped) transduces the dysregulated response to gut microbiota that drives the mucosal inflammation of IBD.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — IL-2 sustains the regulatory T cells that maintain mucosal tolerance, and defective IL-2/Treg signaling contributes to the loss of tolerance to gut antigens in IBD.
 - `connects-to` → **[CDH1](../../03-molecular/cdh1/README.md)** — E-cadherin junctions seal the intestinal epithelium, and the barrier breakdown that lets luminal microbes contact the mucosa is a central permissive step in IBD pathogenesis.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR signaling regulates Paneth-cell function and the autophagy (already mapped) that clears intracellular bacteria, a pathway whose Crohn's-associated defects impair mucosal antimicrobial defense.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2 antioxidant defense protects the intestinal epithelium from the oxidative stress of chronic mucosal inflammation in inflammatory bowel disease.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Caspase-3-mediated apoptosis of intestinal epithelial cells contributes to the barrier breakdown that perpetuates the inflammation of inflammatory bowel disease.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)

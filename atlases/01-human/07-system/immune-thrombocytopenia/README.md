@@ -330,6 +330,15 @@ cross_links:
   - target: 01-human/03-molecular/il-17a
     relation: connects-to
     note: "Th17 skew: an IL-17-producing Th17 skew accompanies the Th1-dominated immune dysregulation of ITP, adding to the inflammatory imbalance behind platelet autoimmunity."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Thrombopoietin signalling: thrombopoietin acting through the MPL receptor and JAK-STAT (MPL and STAT3 already mapped) drives megakaryopoiesis, the pathway harnessed by TPO-receptor agonists to raise platelet counts in ITP."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12-driven Th1 polarisation (IFN-γ already mapped) skews the autoimmune response that targets platelets for destruction in immune thrombocytopenia."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Checkpoint tolerance: impaired PD-1 and other inhibitory-checkpoint control of autoreactive T and B cells contributes to the loss of self-tolerance underlying immune thrombocytopenia."
 ---
 
 # Immune Thrombocytopenia
@@ -569,6 +578,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — Regulatory T cells and their IL-10 are deficient in immune thrombocytopenia, removing a brake that normally restrains the autoreactive anti-platelet response.
 - `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Impaired CTLA-4-dependent regulatory T-cell control contributes to the breakdown of self-tolerance that allows anti-platelet autoantibodies to arise in ITP.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — An IL-17-producing Th17 skew accompanies the Th1-dominated immune dysregulation of ITP, adding to the inflammatory imbalance behind platelet autoimmunity.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Thrombopoietin acting through the MPL receptor and JAK-STAT (MPL and STAT3 already mapped) drives megakaryopoiesis, the pathway harnessed by TPO-receptor agonists to raise platelet counts in ITP.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — IL-12-driven Th1 polarization (IFN-γ already mapped) skews the autoimmune response that targets platelets for destruction in immune thrombocytopenia.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Impaired PD-1 and other inhibitory-checkpoint control of autoreactive T and B cells contributes to the loss of self-tolerance underlying immune thrombocytopenia.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)
