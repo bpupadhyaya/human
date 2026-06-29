@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Complement in the wall: complement activation generating C3 fragments amplifies the inflammatory injury of the Marfan aortic media, adding to the matrix breakdown that predisposes to dissection."
+  - target: 01-human/03-molecular/kras
+    relation: connects-to
+    note: "Non-canonical TGF-β: non-canonical TGF-β signalling activates RAS-ERK (ERK1/2 already mapped), a driver of the aortic-wall degeneration in Marfan syndrome that complements the canonical SMAD pathway."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Aortic oxidative stress: NRF2 antioxidant defence counters the oxidative stress accompanying the smooth-muscle-cell dysfunction and matrix breakdown of the Marfan aorta."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Inflammatory remodelling: macrophage TLR-MyD88-NF-κB signalling (NF-κB already mapped) contributes the inflammatory component of aortic-wall remodelling and aneurysm progression in Marfan syndrome."
 ---
 
 # Marfan Syndrome
@@ -562,6 +571,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Dysregulated TGF-β and IGF-1 signaling (both mapped) engages PI3K-AKT-mTOR (AKT and mTOR already mapped), driving the smooth-muscle-cell changes of the Marfan aortic wall and a candidate target in aneurysm.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — A Th17/IL-17 inflammatory infiltrate in the aortic media contributes to the wall remodeling and progression of aneurysm in Marfan syndrome.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement activation generating C3 fragments amplifies the inflammatory injury of the Marfan aortic media, adding to the matrix breakdown that predisposes to dissection.
+- `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — Non-canonical TGF-β signaling activates RAS-ERK (ERK1/2 already mapped), a driver of the aortic-wall degeneration in Marfan syndrome that complements the canonical SMAD pathway.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2 antioxidant defense counters the oxidative stress accompanying the smooth-muscle-cell dysfunction and matrix breakdown of the Marfan aorta.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Macrophage TLR-MyD88-NF-κB signaling (NF-κB already mapped) contributes the inflammatory component of aortic-wall remodeling and aneurysm progression in Marfan syndrome.
 
 ---
 

@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "Group 3 driver: TGF-β pathway signalling is a recurrent driver of the aggressive Group 3 medulloblastoma, cooperating with MYC amplification in this poor-prognosis subgroup."
+  - target: 01-human/03-molecular/rb1
+    relation: connects-to
+    note: "Cell-cycle drive: deregulation of the RB1-E2F checkpoint (E2F1, CDK4/6 and CDKN2A already mapped) drives the proliferation of medulloblastoma, particularly the aggressive MYC-amplified subgroups."
+  - target: 01-human/03-molecular/kras
+    relation: connects-to
+    note: "RAS proliferation: RAS-MAPK signalling (ERK1/2 already mapped) provides a proliferative input cooperating with the subgroup-defining drivers of medulloblastoma."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "p53 inactivation: MDM2-mediated p53 inactivation (p53 already mapped) contributes to the poor prognosis of TP53-altered SHH medulloblastoma."
 ---
 
 # Medulloblastoma
@@ -553,6 +562,9 @@ MB survivors face substantial late effects — inversely proportional to age at 
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PIK3CA activates the PI3K-AKT-mTOR axis (AKT and mTOR already mapped) across medulloblastoma subgroups, contributing to growth and to resistance to SHH-pathway inhibitors.
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — The cyclin-D-CDK4/6 axis (mapped) releases E2F1 to drive S-phase entry, the proliferative output amplified by the MYC and MYCN (both mapped) of high-risk medulloblastoma.
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β pathway signaling is a recurrent driver of the aggressive Group 3 medulloblastoma, cooperating with MYC amplification in this poor-prognosis subgroup.
+- `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — Deregulation of the RB1-E2F checkpoint (E2F1, CDK4/6 and CDKN2A already mapped) drives the proliferation of medulloblastoma, particularly the aggressive MYC-amplified subgroups.
+- `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — RAS-MAPK signaling (ERK1/2 already mapped) provides a proliferative input cooperating with the subgroup-defining drivers of medulloblastoma.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated p53 inactivation (p53 already mapped) contributes to the poor prognosis of TP53-altered SHH medulloblastoma.
 
 [^packer-2006-std-risk-mb]: Packer RJ, Gajjar A, Vezina G, et al. Phase III study of craniospinal radiation therapy followed by adjuvant chemotherapy for newly diagnosed average-risk medulloblastoma. *J Clin Oncol.* 2006;24(25):4202-4208. [doi:10.1200/JCO.2006.06.4980](https://doi.org/10.1200/JCO.2006.06.4980) · [PubMed 16943538](https://pubmed.ncbi.nlm.nih.gov/16943538/)
 [^taylor-2012-mb-subgroups]: Taylor MD, Northcott PA, Korshunov A, et al. Molecular subgroups of medulloblastoma: the current consensus. *Acta Neuropathol.* 2012;123(4):465-472. [doi:10.1007/s00401-011-0922-z](https://doi.org/10.1007/s00401-011-0922-z) · [PubMed 22134537](https://pubmed.ncbi.nlm.nih.gov/22134537/)
