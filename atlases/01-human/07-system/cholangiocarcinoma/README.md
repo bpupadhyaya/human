@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/myd88
     relation: connects-to
     note: "Innate carcinogenesis: TLR-MyD88-NF-κB innate signalling (TLR4 and NF-κB already mapped), driven by liver-fluke infection and primary sclerosing cholangitis, sustains the inflammation that promotes cholangiocarcinogenesis."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 promotes the desmoplastic stroma and immune evasion of cholangiocarcinoma and serves as a marker of biliary malignancy."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "Loss of PTEN restraint on PI3K-AKT-mTOR signalling (AKT, PIK3CA and mTOR mapped) drives proliferation and survival in cholangiocarcinoma."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Wnt/β-catenin signalling contributes to cholangiocyte transformation and the progression of cholangiocarcinoma."
 ---
 
 # Cholangiocarcinoma
@@ -532,6 +541,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — SMAD4 loss disables TGF-β tumor-suppressor signaling (TGF-β already mapped), a frequent and prognostically adverse event in cholangiocarcinoma.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Chronic biliary inflammation signals through IL-6-JAK-STAT3 (IL-6 and STAT3 already mapped) to drive the cholangiocyte proliferation and survival underlying cholangiocarcinoma.
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88-NF-κB innate signaling (TLR4 and NF-κB already mapped), driven by liver-fluke infection and primary sclerosing cholangitis, sustains the inflammation that promotes cholangiocarcinogenesis.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 promotes the desmoplastic stroma and immune evasion of cholangiocarcinoma and serves as a marker of biliary malignancy.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — Loss of PTEN restraint on PI3K-AKT-mTOR signaling (AKT, PIK3CA and mTOR mapped) drives proliferation and survival in cholangiocarcinoma.
+- `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Wnt/β-catenin signaling contributes to cholangiocyte transformation and the progression of cholangiocarcinoma.
 
 ---
 

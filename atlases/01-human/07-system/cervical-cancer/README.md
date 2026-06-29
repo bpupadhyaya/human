@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "Progression to invasion: Wnt/β-catenin signalling cooperates with HPV oncoproteins in the progression from cervical intraepithelial neoplasia to invasive carcinoma."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling (TGF-β mapped) shifts from tumour suppression to promotion of invasion and EMT in cervical carcinogenesis."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 modulates apoptosis resistance and the immune microenvironment of cervical cancer."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "Cyclin-D-CDK4/6 activity (CDKN2A/p16, RB1 and E2F1 mapped) drives the cell-cycle dysregulation that HPV E7 amplifies in cervical cancer."
 ---
 
 # Cervical Cancer
@@ -558,6 +567,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — HPV oncoproteins suppress the type-I-interferon response (already mapped), and JAK-STAT signaling (STAT3 mapped) governs the immune evasion and inflammatory signaling of cervical cancer.
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2 antioxidant activation contributes to the chemo- and radio-resistance of cervical cancer, protecting tumor cells from treatment-induced oxidative stress.
 - `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Wnt/β-catenin signaling cooperates with HPV oncoproteins in the progression from cervical intraepithelial neoplasia to invasive carcinoma.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β mapped) shifts from tumor suppression to promotion of invasion and EMT in cervical carcinogenesis.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 modulates apoptosis resistance and the immune microenvironment of cervical cancer.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cyclin-D-CDK4/6 activity (CDKN2A/p16, RB1 and E2F1 mapped) drives the cell-cycle dysregulation that HPV E7 amplifies in cervical cancer.
 
 ---
 
