@@ -342,6 +342,15 @@ cross_links:
   - target: 01-human/03-molecular/galectin-3
     relation: connects-to
     note: "Microglial galectin-3 reflects the low-grade neuroinflammation associated with eating disorders including bulimia nervosa."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β signalling in reward and impulse-control circuits shapes the synaptic plasticity underlying the binge-purge cycle of bulimia nervosa."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "Hypothalamic leptin-STAT3 signalling (leptin already mapped) couples adiposity signals to the dysregulated satiety control of bulimia nervosa."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA released during chronic stress can engage cGAS-STING, contributing to the low-grade neuroinflammation associated with bulimia nervosa."
 ---
 
 # Bulimia Nervosa
@@ -579,6 +588,9 @@ All of the following must be met:
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Insulin and leptin PI3K-AKT-mTOR signaling (insulin, leptin and mTOR mapped) integrates metabolic state with the reward and appetite circuits dysregulated in bulimia nervosa.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Leptin signaling through JAK2-STAT3 (leptin mapped) in hypothalamic appetite centers is disrupted in the disordered eating of bulimia nervosa.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Microglial galectin-3 reflects the low-grade neuroinflammation associated with eating disorders including bulimia nervosa.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β signaling in reward and impulse-control circuits shapes the synaptic plasticity underlying the binge-purge cycle of bulimia nervosa.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Hypothalamic leptin-STAT3 signaling (leptin already mapped) couples adiposity signals to the dysregulated satiety control of bulimia nervosa.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA released during chronic stress can engage cGAS-STING, contributing to the low-grade neuroinflammation associated with bulimia nervosa.
 
 ## Treatment
 

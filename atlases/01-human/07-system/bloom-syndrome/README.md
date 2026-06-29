@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/erk1-2
     relation: connects-to
     note: "RAS-ERK-MAPK proliferative signalling cooperates with the genomic instability of BLM-helicase loss in driving the cancer predisposition of Bloom syndrome."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "Genomic instability from BLM-helicase loss generates cytosolic DNA that engages cGAS-STING (mapped) and IFN-STAT1 signalling, contributing to the inflammatory phenotype of Bloom syndrome."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors integrate the chronic oxidative and replicative stress of the genomically unstable cells of Bloom syndrome."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 modulates the immune-cell activation relevant to the immunodeficiency and cancer surveillance of Bloom syndrome."
 ---
 
 # Bloom Syndrome
@@ -585,6 +594,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — GH/IGF-1/insulin signaling through PI3K-AKT-mTOR (GH, IGF-1, insulin and AKT mapped) governs the growth axis, dysregulated in the growth deficiency of Bloom syndrome.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN restraint of PI3K-AKT signaling (AKT mapped) is a tumor-suppressor counterweight to the proliferative drive in the cancer-prone cells of Bloom syndrome.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — RAS-ERK-MAPK proliferative signaling cooperates with the genomic instability of BLM-helicase loss in driving the cancer predisposition of Bloom syndrome.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — Genomic instability from BLM-helicase loss generates cytosolic DNA that engages cGAS-STING (mapped) and IFN-STAT1 signaling, contributing to the inflammatory phenotype of Bloom syndrome.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors integrate the chronic oxidative and replicative stress of the genomically unstable cells of Bloom syndrome.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 modulates the immune-cell activation relevant to the immunodeficiency and cancer surveillance of Bloom syndrome.
 
 ---
 
