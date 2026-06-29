@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/e2f1
     relation: connects-to
     note: "Cell-cycle release: β-catenin-driven cyclin-D1 (mapped) and CDK4/6 release E2F1 to drive the proliferation initiated by APC loss in the colorectal adenoma-carcinoma sequence."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Microbiota-driven carcinogenesis: gut-microbiota TLR-MyD88-NF-κB signalling (NF-κB already mapped), exemplified by Fusobacterium nucleatum, promotes inflammation-associated colorectal carcinogenesis and links inflammatory bowel disease to cancer risk."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Inflammatory microenvironment: IL-6-JAK-STAT3 signalling (IL-6 and STAT3 already mapped) sustains the tumour-promoting inflammatory microenvironment of colorectal cancer."
+  - target: 01-human/03-molecular/rb1
+    relation: connects-to
+    note: "Cell-cycle restraint: dysregulation of the RB1-E2F checkpoint (cyclin-D1 and E2F1 already mapped) contributes to the cell-cycle progression of colorectal cancer."
 ---
 
 # Colorectal Cancer
@@ -551,6 +560,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — EGFR, KRAS and BRAF (all mapped) signal through the MAPK-ERK cascade in colorectal cancer, the axis whose RAS-mutation status determines response to anti-EGFR therapy.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR completes the PI3K-AKT-mTOR pathway (PIK3CA, AKT and PTEN already mapped) that cooperates with the adenoma-carcinoma drivers in colorectal cancer.
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — β-catenin-driven cyclin-D1 (mapped) and CDK4/6 release E2F1 to drive the proliferation initiated by APC loss in the colorectal adenoma-carcinoma sequence.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Gut-microbiota TLR-MyD88-NF-κB signaling (NF-κB already mapped), exemplified by Fusobacterium nucleatum, promotes inflammation-associated colorectal carcinogenesis and links inflammatory bowel disease to cancer risk.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6-JAK-STAT3 signaling (IL-6 and STAT3 already mapped) sustains the tumor-promoting inflammatory microenvironment of colorectal cancer.
+- `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — Dysregulation of the RB1-E2F checkpoint (cyclin-D1 and E2F1 already mapped) contributes to the cell-cycle progression of colorectal cancer.
 
 ---
 
