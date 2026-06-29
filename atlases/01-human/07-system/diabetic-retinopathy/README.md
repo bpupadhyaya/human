@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/il-17a
     relation: connects-to
     note: "Inflammatory leak: IL-17 contributes to the chronic low-grade inflammation and blood-retinal-barrier breakdown that drive macular oedema in diabetic retinopathy."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "AGE-driven inflammation: TLR4 sensing of advanced glycation end-products and damage signals (RAGE already mapped) drives the chronic retinal inflammation of diabetic retinopathy."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Cytokine amplification: IL-6-JAK-STAT3 signalling (IL-6 and STAT3 already mapped) amplifies the inflammatory and angiogenic response underlying diabetic retinopathy."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "VEGF survival signalling: PI3K (PIK3CA)-AKT signalling (AKT and mTOR already mapped) downstream of VEGF and insulin receptors drives the endothelial proliferation and survival of the neovascularisation in proliferative diabetic retinopathy."
 ---
 
 # Diabetic Retinopathy
@@ -545,6 +554,9 @@ DR encompasses a spectrum from subtle vascular changes to sight-threatening neov
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — VEGF and growth factors (VEGF, PDGF and IGF-1 mapped) signal through the MAPK-ERK cascade driving the pathological retinal neovascularization of proliferative diabetic retinopathy.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — PI3K-AKT-mTOR signaling (AKT already mapped) supports the endothelial proliferation of diabetic retinopathy and is studied as an anti-angiogenic target.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17 contributes to the chronic low-grade inflammation and blood-retinal-barrier breakdown that drive macular edema in diabetic retinopathy.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4 sensing of advanced glycation end-products and damage signals (RAGE already mapped) drives the chronic retinal inflammation of diabetic retinopathy.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6-JAK-STAT3 signaling (IL-6 and STAT3 already mapped) amplifies the inflammatory and angiogenic response underlying diabetic retinopathy.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT and mTOR already mapped) downstream of VEGF and insulin receptors drives the endothelial proliferation and survival of the neovascularization in proliferative diabetic retinopathy.
 
 [^fong-2004-dr-review]: Fong DS, Aiello L, Gardner TW, et al. Diabetic retinopathy. *Diabetes Care.* 2004;27(10):2540-2553. [doi:10.2337/diacare.27.10.2540](https://doi.org/10.2337/diacare.27.10.2540) · [PubMed 15451934](https://pubmed.ncbi.nlm.nih.gov/15451934/)
 [^brown-2015-aflibercept-protocol-t]: Diabetic Retinopathy Clinical Research Network; Wells JA, Glassman AR, et al. Aflibercept, Bevacizumab, or Ranibizumab for Diabetic Macular Edema. *N Engl J Med.* 2015;372(13):1193-1203. [doi:10.1056/NEJMoa1414264](https://doi.org/10.1056/NEJMoa1414264) · [PubMed 25692915](https://pubmed.ncbi.nlm.nih.gov/25692915/)

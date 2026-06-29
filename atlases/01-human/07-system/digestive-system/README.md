@@ -343,6 +343,15 @@ cross_links:
   - target: 01-human/03-molecular/tlr4
     relation: connects-to
     note: "Microbiota sensing: intestinal epithelial TLR4 senses the gut microbiota, calibrating the mucosal immune tolerance (with secretory-IgA and IL-10 mapped) that maintains digestive homeostasis."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Microbiota signal transduction: epithelial and immune TLR signalling through MyD88 (TLR4 already mapped) transduces gut-microbiota cues into the mucosal homeostasis and barrier defence of the digestive tract."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Crypt nutrient sensing: mTOR nutrient-sensing in intestinal crypt stem cells couples luminal nutrient availability to the continuous epithelial renewal of the gut lining."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Mucosal inflammatory balance: NF-κB signalling in the intestinal epithelium balances antimicrobial defence against tolerance, governing the inflammatory homeostasis of the gut mucosa."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -540,6 +549,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [EGFR](../../03-molecular/egfr/README.md) — epithelial renewal: EGF-family signaling drives the continuous renewal of the gut epithelium from Wnt-driven crypt stem cells (Wnt mapped), maintaining the rapidly turning-over digestive lining.
 - **Connects to:** [Mu-Opioid Receptor](../../03-molecular/mu-opioid-receptor/README.md) — enteric motility: μ-opioid receptors on enteric neurons slow gut motility and secretion, the basis of opioid-induced constipation and a node of the enteric nervous control of digestion.
 - **Connects to:** [TLR4](../../03-molecular/tlr4/README.md) — microbiota sensing: intestinal epithelial TLR4 senses the gut microbiota, calibrating the mucosal immune tolerance (with secretory-IgA and IL-10 mapped) that maintains digestive homeostasis.
+- **Connects to:** [MYD88](../../03-molecular/myd88/README.md) — microbiota signal transduction: epithelial and immune TLR signaling through MyD88 (TLR4 already mapped) transduces gut-microbiota cues into the mucosal homeostasis and barrier defense of the digestive tract.
+- **Connects to:** [mTOR](../../03-molecular/mtor/README.md) — crypt nutrient sensing: mTOR nutrient-sensing in intestinal crypt stem cells couples luminal nutrient availability to the continuous epithelial renewal of the gut lining.
+- **Connects to:** [NF-κB](../../03-molecular/nf-kb/README.md) — mucosal inflammatory balance: NF-κB signaling in the intestinal epithelium balances antimicrobial defense against tolerance, governing the inflammatory homeostasis of the gut mucosa.
 
 ## Pathology
 
