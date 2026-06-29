@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/pten
     relation: connects-to
     note: "PI3K survival and resistance: PTEN loss activates PI3K-AKT (PIK3CA, AKT and mTOR already mapped), a survival pathway and a mechanism of resistance to BTK inhibitors in mantle cell lymphoma."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "STAT3 survival: JAK-STAT3 signalling (STAT3 already mapped) contributes to the survival and microenvironmental support of mantle cell lymphoma."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Nodal microenvironment: IL-6 from the tumour microenvironment signals through STAT3 (already mapped) to support the survival of mantle-cell-lymphoma cells, particularly in their protective nodal niches."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "p53 inactivation: MDM2 overexpression provides an alternative route to p53 inactivation (p53 already mapped), cooperating with cyclin-D1 overexpression and ATM loss in mantle cell lymphoma."
 ---
 
 # Mantle Cell Lymphoma
@@ -545,6 +554,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — Overexpressed cyclin D1 (mapped) drives CDK4/6 (mapped) to phosphorylate RB (mapped) and release E2F1, the cell-cycle engine central to mantle cell lymphoma.
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A/p16 deletion removes the brake on the cyclin-D1-CDK4/6 axis and marks the blastoid, high-proliferation form of mantle cell lymphoma.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss activates PI3K-AKT (PIK3CA, AKT and mTOR already mapped), a survival pathway and a mechanism of resistance to BTK inhibitors in mantle cell lymphoma.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK-STAT3 signaling (STAT3 already mapped) contributes to the survival and microenvironmental support of mantle cell lymphoma.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 from the tumor microenvironment signals through STAT3 (already mapped) to support the survival of mantle-cell-lymphoma cells, particularly in their protective nodal niches.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2 overexpression provides an alternative route to p53 inactivation (p53 already mapped), cooperating with cyclin-D1 overexpression and ATM loss in mantle cell lymphoma.
 
 ---
 

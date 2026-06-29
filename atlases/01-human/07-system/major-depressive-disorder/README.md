@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Synaptic pruning: complement-mediated microglial pruning of synapses contributes to the loss of prefrontal and hippocampal connectivity implicated in the pathophysiology of depression."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Inflammatory depression: TLR4-MyD88-NF-κB innate signalling (TLR4 and NF-κB already mapped) transduces the inflammatory state increasingly implicated in the pathophysiology and treatment resistance of major depression."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Oxidative neurobiology: NRF2-regulated antioxidant defence counters the oxidative stress (xanthine-oxidase already mapped) associated with major depression, a redox component of its neurobiology."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "Neuroplasticity: ERK-MAPK signalling downstream of BDNF-TrkB (both already mapped) mediates the synaptic plasticity whose impairment underlies depression and whose restoration accompanies antidepressant response."
 ---
 
 # Major Depressive Disorder
@@ -592,6 +601,9 @@ Approximately 30–40% of MDD patients have elevated inflammatory markers:
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β is a convergence node for mood regulation and synaptic plasticity, inhibited by lithium and modulated downstream of the serotonergic and BDNF signaling implicated in depression.
 - `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — A relative shortfall of regulatory IL-10 against the raised pro-inflammatory cytokines (IL-6, IL-1β and TNF mapped) is part of the neuroinflammatory hypothesis of depression.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement-mediated microglial pruning of synapses contributes to the loss of prefrontal and hippocampal connectivity implicated in the pathophysiology of depression.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR4-MyD88-NF-κB innate signaling (TLR4 and NF-κB already mapped) transduces the inflammatory state increasingly implicated in the pathophysiology and treatment resistance of major depression.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2-regulated antioxidant defense counters the oxidative stress (xanthine-oxidase already mapped) associated with major depression, a redox component of its neurobiology.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling downstream of BDNF-TrkB (both already mapped) mediates the synaptic plasticity whose impairment underlies depression and whose restoration accompanies antidepressant response.
 
 [^cipriani-2018-antidepressants-meta]: Cipriani A, Furukawa TA, Salanti G, et al. Comparative efficacy and acceptability of 21 antidepressant drugs for acute treatment of adults with major depressive disorder. *Lancet.* 2018;391(10128):1357-1366. [doi:10.1016/S0140-6736(17)32802-7](https://doi.org/10.1016/S0140-6736(17)32802-7) · [PubMed 29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/)
 [^zarate-2006-ketamine-rapid]: Zarate CA Jr, Singh JB, Carlson PJ, et al. A randomized trial of an N-methyl-D-aspartate antagonist in treatment-resistant major depression. *Arch Gen Psychiatry.* 2006;63(8):856-864. [doi:10.1001/archpsyc.63.8.856](https://doi.org/10.1001/archpsyc.63.8.856) · [PubMed 16894061](https://pubmed.ncbi.nlm.nih.gov/16894061/)
