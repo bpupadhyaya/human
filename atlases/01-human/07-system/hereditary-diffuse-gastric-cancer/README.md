@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/e2f1
     relation: connects-to
     note: "Cell-cycle output: the cyclin-D-CDK4/6 axis (with CDKN2A already mapped) releases E2F1 to drive the proliferation accompanying the E-cadherin-loss-initiated diffuse gastric tumour."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Inflammatory cofactor: Helicobacter-pylori- and inflammation-driven TLR-MyD88-NF-κB signalling acts as an environmental cofactor accelerating gastric carcinogenesis in CDH1-mutation carriers."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "EMT cooperation: TGF-β-SMAD signalling (TGF-β already mapped) drives the epithelial-mesenchymal transition that, compounding the E-cadherin loss of HDGC, promotes the diffuse infiltrative growth of signet-ring carcinoma."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Inflammatory microenvironment: IL-6-STAT3 signalling (STAT3 already mapped) sustains the inflammatory, pro-survival microenvironment of diffuse gastric carcinoma."
 ---
 
 # Hereditary Diffuse Gastric Cancer
@@ -531,6 +540,9 @@ Testing for CDH1 (and CTNNA1) is indicated in any of the following:
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — HER2, MET and FGFR (all already mapped) funnel into the MAPK-ERK cascade, the proliferative hub of the diffuse gastric carcinoma that arises once E-cadherin is lost.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR completes the PI3K-AKT-mTOR pathway (PIK3CA and AKT already mapped) sustaining growth and survival signaling in hereditary diffuse gastric cancer.
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — The cyclin-D-CDK4/6 axis (with CDKN2A already mapped) releases E2F1 to drive the proliferation accompanying the E-cadherin-loss-initiated diffuse gastric tumor.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Helicobacter-pylori- and inflammation-driven TLR-MyD88-NF-κB signaling acts as an environmental cofactor accelerating gastric carcinogenesis in CDH1-mutation carriers.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β already mapped) drives the epithelial-mesenchymal transition that, compounding the E-cadherin loss of HDGC, promotes the diffuse infiltrative growth of signet-ring carcinoma.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6-STAT3 signaling (STAT3 already mapped) sustains the inflammatory, pro-survival microenvironment of diffuse gastric carcinoma.
 
 [^van-der-post-2015-hdgc-guidelines]: van der Post RS, Vogelaar IP, Carneiro F, et al. Hereditary diffuse gastric cancer: updated clinical guidelines with an emphasis on germline CDH1 mutation carriers. *J Med Genet.* 2015;52(6):361-374. [doi:10.1136/jmedgenet-2015-103094](https://doi.org/10.1136/jmedgenet-2015-103094) · [PubMed 25979631](https://pubmed.ncbi.nlm.nih.gov/25979631/)
 [^hansford-2015-hdgc]: Hansford S, Kaurah P, Li-Chang H, et al. Hereditary Diffuse Gastric Cancer Syndrome: CDH1 Mutations and Beyond. *JAMA Oncol.* 2015;1(1):23-32. [doi:10.1001/jamaoncol.2014.168](https://doi.org/10.1001/jamaoncol.2014.168) · [PubMed 26182300](https://pubmed.ncbi.nlm.nih.gov/26182300/)

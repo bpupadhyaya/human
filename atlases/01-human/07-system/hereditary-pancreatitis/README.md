@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/smad4
     relation: connects-to
     note: "Fibrosis and progression: TGF-β/SMAD4 signalling (TGF-β mapped) drives the pancreatic stellate-cell fibrosis of chronic pancreatitis, and SMAD4 loss marks progression to pancreatic ductal adenocarcinoma."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Inflammatory reprogramming: IL-6 signalling through JAK-STAT3 (IL-6 and STAT3 already mapped) sustains the chronic inflammation and acinar-to-ductal reprogramming of hereditary pancreatitis."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Oxidative acinar injury: NRF2 antioxidant defence counters the oxidative stress of recurrent acinar injury (xanthine-oxidase already mapped) in hereditary pancreatitis."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "Cancer progression: CDKN2A loss is a key step in the markedly elevated progression of hereditary pancreatitis to pancreatic ductal adenocarcinoma, alongside the KRAS and TP53 lesions already mapped."
 ---
 
 # Hereditary Pancreatitis
@@ -567,6 +576,9 @@ cross_links:
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Repeated injury and oncogenic KRAS (mapped) drive MAPK-ERK signaling that pushes acinar cells toward acinar-to-ductal metaplasia, the step that raises pancreatic-cancer risk in hereditary pancreatitis.
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR4 (mapped) signals through MyD88 to activate NF-κB (mapped) in response to acinar-cell injury, relaying the danger signal into the cytokine cascade of a pancreatitis attack.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β/SMAD4 signaling (TGF-β mapped) drives the pancreatic stellate-cell fibrosis of chronic pancreatitis, and SMAD4 loss marks progression to pancreatic ductal adenocarcinoma.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6 signaling through JAK-STAT3 (IL-6 and STAT3 already mapped) sustains the chronic inflammation and acinar-to-ductal reprogramming of hereditary pancreatitis.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2 antioxidant defense counters the oxidative stress of recurrent acinar injury (xanthine-oxidase already mapped) in hereditary pancreatitis.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A loss is a key step in the markedly elevated progression of hereditary pancreatitis to pancreatic ductal adenocarcinoma, alongside the KRAS and TP53 lesions already mapped.
 
 [^whitcomb-1996-prss1]: Whitcomb DC, Gorry MC, Preston RA, et al. Hereditary pancreatitis is caused by a mutation in the cationic trypsinogen gene. *Nat Genet.* 1996;14(2):141-145. [doi:10.1038/ng1096-141](https://doi.org/10.1038/ng1096-141) · [PubMed 8841182](https://pubmed.ncbi.nlm.nih.gov/8841182/)
 [^lowenfels-2001-hp-pdac]: Lowenfels AB, Maisonneuve P, DiMagno EP, et al. Hereditary pancreatitis and the risk of pancreatic cancer. *J Natl Cancer Inst.* 2001;93(1):26-31. [doi:10.1093/jnci/93.1.26](https://doi.org/10.1093/jnci/93.1.26) · [PubMed 11136838](https://pubmed.ncbi.nlm.nih.gov/11136838/)
