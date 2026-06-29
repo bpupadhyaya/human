@@ -325,6 +325,15 @@ cross_links:
   - target: 01-human/03-molecular/mtor
     relation: connects-to
     note: "Macrophage metabolism: mTOR-regulated macrophage metabolism and autophagy influence the balance between killing and harbouring intracellular Leishmania amastigotes."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Protective immunity against Leishmania depends on IFN-γ and IL-12 signalling through JAK-STAT (STAT1 mapped), the axis the parasite subverts to survive inside macrophages."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "The IL-23/IL-17 axis (IL-17A mapped) modulates the inflammatory response in cutaneous and mucocutaneous leishmaniasis, shaping lesion immunopathology."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "HIF-1α drives the glycolytic, antimicrobial macrophage program that constrains intracellular Leishmania, a metabolic determinant of parasite killing."
 ---
 
 # Leishmaniasis
@@ -529,3 +538,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR sensing of Leishmania (TLR4 mapped) through MyD88 to NF-κB (mapped) drives the IL-12/IFN-γ-dependent macrophage activation that controls the parasite; MyD88 deficiency causes susceptibility.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Leishmania manipulates host MAPK-ERK signaling to dampen macrophage activation and IL-12 production, promoting its own intracellular survival.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR-regulated macrophage metabolism and autophagy influence the balance between killing and harboring intracellular Leishmania amastigotes.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Protective immunity against Leishmania depends on IFN-γ and IL-12 signaling through JAK-STAT (STAT1 mapped), the axis the parasite subverts to survive inside macrophages.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — The IL-23/IL-17 axis (IL-17A mapped) modulates the inflammatory response in cutaneous and mucocutaneous leishmaniasis, shaping lesion immunopathology.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α drives the glycolytic, antimicrobial macrophage program that constrains intracellular Leishmania, a metabolic determinant of parasite killing.

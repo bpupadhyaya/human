@@ -312,6 +312,15 @@ cross_links:
   - target: 01-human/03-molecular/nlrp3-inflammasome
     relation: connects-to
     note: "Neuroinflammation: chronic stress and sleep disruption in internet gaming disorder activate the NLRP3 inflammasome and the IL-1β/IL-6/TNF response (all mapped), part of its low-grade neuroinflammation."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "TLR4 on microglia drives the neuroinflammatory signalling increasingly implicated in behavioural addiction, upstream of the IL-1β/TNF response already mapped."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "TLR-MyD88 signalling transduces microglial activation into the NF-κB-driven cytokine output linked to reward-circuit dysregulation in internet gaming disorder."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "NF-κB is the central transcriptional hub converting neuroimmune activation into the inflammatory gene program associated with addiction neuroplasticity."
 sources:
   - id: kuss-2012-gaming-disorder-review
     type: peer-reviewed
@@ -584,6 +593,9 @@ A pattern of persistent or recurrent gaming behavior characterized by:
 - `connects-to` → **[ACTH](../../03-molecular/acth/README.md)** — CRH (mapped) drives pituitary ACTH release that raises cortisol (mapped), the neuroendocrine stress cascade engaged in the craving and relapse cycles of internet gaming disorder.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — PI3K-AKT-mTOR signaling (AKT mapped) drives the synaptic plasticity in reward circuits that consolidates compulsive gaming behavior.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Chronic stress and sleep disruption in internet gaming disorder activate the NLRP3 inflammasome and the IL-1β/IL-6/TNF response (all mapped), part of its low-grade neuroinflammation.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4 on microglia drives the neuroinflammatory signaling increasingly implicated in behavioral addiction, upstream of the IL-1β/TNF response already mapped.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88 signaling transduces microglial activation into the NF-κB-driven cytokine output linked to reward-circuit dysregulation in internet gaming disorder.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB is the central transcriptional hub converting neuroimmune activation into the inflammatory gene program associated with addiction neuroplasticity.
 
 [^kuss-2012-gaming-disorder-review]: Kuss DJ, Griffiths MD. Internet gaming addiction: a systematic review of empirical research. *Int J Ment Health Addict.* 2012;10(2):278-296. [doi:10.1007/s11469-011-9318-5](https://doi.org/10.1007/s11469-011-9318-5)
 [^who-icd11-gaming-disorder]: World Health Organization. ICD-11: Gaming Disorder (6C51). Geneva: WHO; 2019. [icd.who.int](https://icd.who.int/browse/2025-01/mms/en#1448597234)
