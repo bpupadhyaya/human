@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/nfe2l2
     relation: connects-to
     note: "Redox vulnerability: the IDH-mutant oncometabolite 2-hydroxyglutarate alters cellular redox and glutathione metabolism, and NRF2 antioxidant signalling shapes the resulting oxidative vulnerability of these gliomas."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "TGF-β signalling modulates the invasion and immunosuppressive microenvironment of IDH-mutant glioma."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "STAT3 signalling contributes to the proliferative and reactive-astrocytic responses in IDH-mutant glioma."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "Loss of PTEN restraint on PI3K-AKT-mTOR signalling (AKT, PIK3CA and mTOR mapped) accompanies progression of IDH-mutant glioma toward secondary glioblastoma."
 ---
 
 # IDH-Mutant Glioma
@@ -567,6 +576,9 @@ IDH-mutant glioma with MGMT methylation shows strong alkylating agent sensitivit
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — Deregulation of the RB1-E2F checkpoint (CDKN2A, CDK4/6 and cyclin-D1 already mapped) drives the malignant progression of IDH-mutant glioma toward higher grade.
 - `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — RAS-MAPK signaling (ERK1/2 already mapped) downstream of receptor tyrosine kinases contributes a proliferative input to IDH-mutant glioma.
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — The IDH-mutant oncometabolite 2-hydroxyglutarate alters cellular redox and glutathione metabolism, and NRF2 antioxidant signaling shapes the resulting oxidative vulnerability of these gliomas.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β signaling modulates the invasion and immunosuppressive microenvironment of IDH-mutant glioma.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 signaling contributes to the proliferative and reactive-astrocytic responses in IDH-mutant glioma.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — Loss of PTEN restraint on PI3K-AKT-mTOR signaling (AKT, PIK3CA and mTOR mapped) accompanies progression of IDH-mutant glioma toward secondary glioblastoma.
 
 [^mellinghoff-2023-vorasidenib-lgg]: Mellinghoff IK, van den Bent MJ, Blumenthal DT, et al. Vorasidenib in IDH1- or IDH2-mutant low-grade glioma. *N Engl J Med.* 2023;389(7):589-601. [doi:10.1056/NEJMoa2304194](https://doi.org/10.1056/NEJMoa2304194) · [PubMed 37272530](https://pubmed.ncbi.nlm.nih.gov/37272530/)
 [^jiao-2012-atrx-glioma]: Jiao Y, Killela PJ, Reitman ZJ, et al. Frequent ATRX, CIC, FUBP1 and IDH mutations refine the classification of malignant gliomas. *Oncotarget.* 2012;3(7):709-722. [doi:10.18632/oncotarget.588](https://doi.org/10.18632/oncotarget.588) · [PubMed 22869205](https://pubmed.ncbi.nlm.nih.gov/22869205/)

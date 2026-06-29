@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/nfe2l2
     relation: connects-to
     note: "Vascular oxidative defence: NRF2 antioxidant defence counters the vascular oxidative stress (xanthine-oxidase already mapped) that drives endothelial dysfunction and vascular remodelling in hypertension."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "Angiotensin-II and endothelin-1 signalling (both mapped) through ERK-MAPK drives the vascular-smooth-muscle proliferation and remodelling of hypertension."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 promotes the vascular and cardiac fibrosis that mediates hypertensive target-organ damage."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "mTOR-driven vascular-smooth-muscle hypertrophy contributes to the arterial-wall remodelling and stiffening of hypertension."
 ---
 
 # Hypertension
@@ -526,6 +535,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4-driven innate immune activation by damage-associated patterns contributes to the vascular and renal inflammation that sustains salt-sensitive and essential hypertension.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — The PI3K-AKT-eNOS axis maintains endothelial nitric-oxide production (NO already mapped), and its impairment produces the endothelial dysfunction underlying hypertension.
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2 antioxidant defense counters the vascular oxidative stress (xanthine-oxidase already mapped) that drives endothelial dysfunction and vascular remodeling in hypertension.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Angiotensin-II and endothelin-1 signaling (both mapped) through ERK-MAPK drives the vascular-smooth-muscle proliferation and remodeling of hypertension.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 promotes the vascular and cardiac fibrosis that mediates hypertensive target-organ damage.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR-driven vascular-smooth-muscle hypertrophy contributes to the arterial-wall remodeling and stiffening of hypertension.
 
 ## Pathology
 
