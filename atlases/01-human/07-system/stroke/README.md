@@ -343,6 +343,15 @@ cross_links:
   - target: 01-human/03-molecular/stat3
     relation: connects-to
     note: "STAT3-driven reactive astrogliosis shapes glial-scar formation and tissue repair after stroke."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Mitochondrial and nuclear DNA released by ischaemic cell death engages cGAS-STING, driving the sterile neuroinflammation of the post-stroke penumbra."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling drives the interferon-responsive microglial activation that shapes the inflammatory injury after stroke."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling contributes to the neuroprotective and tissue-repair responses that follow the acute ischaemic injury of stroke."
 ---
 
 # Stroke
@@ -555,6 +564,9 @@ Normal brain maintains CBF constant (50-150 mmHg MAP range) via autoregulation (
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT prosurvival signaling protects penumbral neurons after ischemic stroke, a target for neuroprotection.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Microglial galectin-3 is strongly induced after ischemic stroke, driving the post-stroke neuroinflammatory response.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3-driven reactive astrogliosis shapes glial-scar formation and tissue repair after stroke.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Mitochondrial and nuclear DNA released by ischemic cell death engages cGAS-STING, driving the sterile neuroinflammation of the post-stroke penumbra.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling drives the interferon-responsive microglial activation that shapes the inflammatory injury after stroke.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling contributes to the neuroprotective and tissue-repair responses that follow the acute ischemic injury of stroke.
 
 [^powers-2019-aha-stroke]: Powers WJ, Rabinstein AA, Ackerson T, et al. Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines. *Stroke.* 2019;50(12):e344-e418. [doi:10.1161/STR.0000000000000211](https://doi.org/10.1161/STR.0000000000000211) · [PubMed 31662037](https://pubmed.ncbi.nlm.nih.gov/31662037/)
 [^feigin-2021-gbd-stroke]: Feigin VL, Krishnamurthi RV, Parmar P, et al. Update on the Global Burden of Ischemic and Hemorrhagic Stroke in 1990-2013. *Neuroepidemiology.* 2015;45(3):161-176. [doi:10.1159/000441085](https://doi.org/10.1159/000441085) · [PubMed 26505981](https://pubmed.ncbi.nlm.nih.gov/26505981/)

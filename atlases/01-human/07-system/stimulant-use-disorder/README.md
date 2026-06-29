@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/jak1-2
     relation: connects-to
     note: "Cytokine-driven JAK-STAT signalling (IL-6 mapped) transduces the neuroinflammatory milieu accompanying chronic stimulant exposure."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6-STAT3 signalling (JAK1/2 already mapped) transduces the neuroinflammatory tone implicated in the reward dysregulation of stimulant use disorder."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA released by stimulant-induced glial and neuronal stress can engage cGAS-STING, contributing to the neuroinflammation of stimulant use disorder."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the interferon-associated microglial activation reported with chronic stimulant exposure."
 ---
 
 # Stimulant Use Disorder
@@ -569,6 +578,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN regulation of the PI3K-AKT-mTOR axis (AKT, mTOR and GSK-3β mapped) shapes the reward-circuit synaptic plasticity underlying stimulant addiction.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Stimulant-induced microglial activation induces galectin-3, amplifying the neuroinflammation linked to stimulant neurotoxicity and addiction.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Cytokine-driven JAK-STAT signaling (IL-6 mapped) transduces the neuroinflammatory milieu accompanying chronic stimulant exposure.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling (JAK1/2 already mapped) transduces the neuroinflammatory tone implicated in the reward dysregulation of stimulant use disorder.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA released by stimulant-induced glial and neuronal stress can engage cGAS-STING, contributing to the neuroinflammation of stimulant use disorder.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the interferon-associated microglial activation reported with chronic stimulant exposure.
 
 ## Treatment
 
