@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/c5ar1
     relation: connects-to
     note: "Complement amplification: complement activation on PF4-heparin complexes (C3 and C5 mapped) acting through C5aR1 amplifies the procoagulant, prothrombotic response of HIT."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Monocyte innate amplification: TLR-MyD88-NF-κB innate signalling (TLR4 and NF-κB already mapped) on monocytes amplifies the prothrombotic inflammatory response of heparin-induced thrombocytopenia."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "FcγRIIa platelet activation: FcγRIIa engagement by PF4-heparin immune complexes signals through Src and ERK1/2 (Src kinase already mapped) to drive the platelet activation central to heparin-induced thrombocytopenia."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K platelet signalling: PI3K (PIK3CA)-AKT signalling (AKT already mapped) downstream of FcγRIIa contributes to the platelet activation and aggregation of heparin-induced thrombocytopenia."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -579,6 +588,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — Clustering of platelet FcγRIIa by PF4-heparin immune complexes (PF4 and IgG mapped) triggers Src-family/Syk kinase signaling, the proximal step driving the platelet activation that causes HIT thrombosis.
 - `connects-to` → **[Thrombopoietin](../../03-molecular/thrombopoietin/README.md)** — As activated platelets aggregate and clear in HIT, the falling platelet count drives a compensatory thrombopoietin response reflecting the accelerated turnover.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — Complement activation on PF4-heparin complexes (C3 and C5 mapped) acting through C5aR1 amplifies the procoagulant, prothrombotic response of HIT.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88-NF-κB innate signaling (TLR4 and NF-κB already mapped) on monocytes amplifies the prothrombotic inflammatory response of heparin-induced thrombocytopenia.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — FcγRIIa engagement by PF4-heparin immune complexes signals through Src and ERK1/2 (Src kinase already mapped) to drive the platelet activation central to heparin-induced thrombocytopenia.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) downstream of FcγRIIa contributes to the platelet activation and aggregation of heparin-induced thrombocytopenia.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)

@@ -327,6 +327,15 @@ cross_links:
   - target: 01-human/03-molecular/collagen
     relation: connects-to
     note: "Cirrhotic fibrosis: chronic HBV hepatitis activates hepatic stellate cells to deposit collagen (TGF-β and PDGF mapped), the fibrosis that progresses to the cirrhosis underlying most HBV-related liver cancer."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Interferon antiviral axis: interferon signalling through JAK-STAT (type-I IFN, IFN-γ and STAT1 already mapped) drives antiviral defence against HBV, an axis the virus antagonises and the basis of interferon therapy."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Innate sensing: TLR-MyD88 innate sensing of HBV contributes to the hepatic innate immune response (NF-κB already mapped), though HBV's stealthy replication limits its activation."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "Fibrotic progression: TGF-β-SMAD signalling (TGF-β already mapped) drives the hepatic stellate-cell fibrosis of chronic hepatitis B that progresses toward cirrhosis and hepatocellular carcinoma."
 ---
 
 # Hepatitis B
@@ -565,3 +574,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — The HBV X protein activates PI3K-AKT-mTOR signaling, promoting hepatocyte survival and contributing to the hepatocellular carcinogenesis of chronic hepatitis B.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — HBx also activates the RAS-MAPK-ERK cascade, driving the proliferative signaling behind HBV-associated hepatocellular carcinoma.
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Chronic HBV hepatitis activates hepatic stellate cells to deposit collagen (TGF-β and PDGF mapped), the fibrosis that progresses to the cirrhosis underlying most HBV-related liver cancer.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Interferon signaling through JAK-STAT (type-I IFN, IFN-γ and STAT1 already mapped) drives antiviral defense against HBV, an axis the virus antagonizes and the basis of interferon therapy.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88 innate sensing of HBV contributes to the hepatic innate immune response (NF-κB already mapped), though HBV's stealthy replication limits its activation.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β already mapped) drives the hepatic stellate-cell fibrosis of chronic hepatitis B that progresses toward cirrhosis and hepatocellular carcinoma.
