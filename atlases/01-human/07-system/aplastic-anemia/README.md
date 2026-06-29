@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/cgas-sting
     relation: connects-to
     note: "Cytosolic DNA sensing through cGAS-STING contributes to the type-I-interferon and inflammatory milieu implicated in immune-mediated marrow failure."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 modulates the immune-cell activation that drives the T-cell-mediated destruction of haematopoietic stem cells in aplastic anemia."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling shapes the suppression of haematopoietic stem cells and the immune dysregulation of aplastic anemia."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors govern the oxidative-stress resistance and quiescence of haematopoietic stem cells, whose failure contributes to the marrow exhaustion of aplastic anemia."
 ---
 
 # Aplastic Anemia
@@ -560,6 +569,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR-regulated metabolism drives both the autoreactive T-cell attack and the survival signaling of residual hematopoietic progenitors in aplastic anemia.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling downstream of hematopoietic growth-factor and TPO receptors (MPL mapped) supports the progenitor responses compromised in aplastic anemia.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING contributes to the type-I-interferon and inflammatory milieu implicated in immune-mediated marrow failure.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 modulates the immune-cell activation that drives the T-cell-mediated destruction of hematopoietic stem cells in aplastic anemia.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling shapes the suppression of hematopoietic stem cells and the immune dysregulation of aplastic anemia.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors govern the oxidative-stress resistance and quiescence of hematopoietic stem cells, whose failure contributes to the marrow exhaustion of aplastic anemia.
 
 ---
 

@@ -346,6 +346,15 @@ cross_links:
   - target: 01-human/03-molecular/jak1-2
     relation: connects-to
     note: "IFN-γ and IL-6 signalling through JAK-STAT (both mapped) drives the chronic vascular inflammation central to atherogenesis."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cholesterol-crystal and mitochondrial DNA engagement of cGAS-STING amplifies the sterile inflammation of the atherosclerotic plaque."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling (TGF-β already mapped) governs the smooth-muscle and fibrous-cap responses that determine plaque stability in atherosclerosis."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-γ-STAT1 signalling drives the macrophage activation and antigen presentation that propagate the chronic immune response of atherosclerosis."
 ---
 
 # Atherosclerosis
@@ -569,6 +578,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Oxidized-LDL and PDGF-driven ERK-MAPK signaling (PDGF mapped) promotes the smooth-muscle proliferation and migration that build the atherosclerotic plaque.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR regulation of macrophage autophagy and efferocytosis governs dead-cell clearance and the necrotic-core expansion of atherosclerotic plaques.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IFN-γ and IL-6 signaling through JAK-STAT (both mapped) drives the chronic vascular inflammation central to atherogenesis.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cholesterol-crystal and mitochondrial DNA engagement of cGAS-STING amplifies the sterile inflammation of the atherosclerotic plaque.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β already mapped) governs the smooth-muscle and fibrous-cap responses that determine plaque stability in atherosclerosis.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-γ-STAT1 signaling drives the macrophage activation and antigen presentation that propagate the chronic immune response of atherosclerosis.
 
 ---
 
