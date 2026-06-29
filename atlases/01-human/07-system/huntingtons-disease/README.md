@@ -309,6 +309,15 @@ cross_links:
   - target: 01-human/03-molecular/bcl-2
     relation: connects-to
     note: "Mitochondrial apoptosis: a shift in the BCL-2 family balance toward apoptosis engages the mitochondrial caspase pathway (caspase-3 mapped) that drives the death of striatal medium spiny neurons in Huntington's."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Microglial neuroinflammation: TLR-MyD88-NF-κB innate signalling (TLR4 and NF-κB already mapped) in microglia drives the neuroinflammation that accelerates striatal neurodegeneration in Huntington's disease."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Cytokine inflammation: IL-6 and interferon signalling through JAK-STAT (IL-6 already mapped) contributes to the central and peripheral inflammation characteristic of Huntington's disease."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "Neurotrophic survival: ERK-MAPK signalling engaged downstream of BDNF-TrkB (both already mapped) is a pro-survival pathway whose impairment contributes to the vulnerability of striatal medium spiny neurons in Huntington's disease."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -457,3 +466,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — IGF-1 and BDNF (both mapped) signal through PI3K-AKT, and AKT phosphorylates huntingtin at serine-421 to reduce its toxicity—a neuroprotective axis that is impaired in Huntington's disease.
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — The bioenergetic failure of Huntington's (ATP already mapped) activates AMPK, which both reflects the energy deficit and promotes the autophagic clearance (autophagy mapped) of mutant huntingtin aggregates.
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — A shift in the BCL-2 family balance toward apoptosis engages the mitochondrial caspase pathway (caspase-3 mapped) that drives the death of striatal medium spiny neurons in Huntington's.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88-NF-κB innate signaling (TLR4 and NF-κB already mapped) in microglia drives the neuroinflammation that accelerates striatal neurodegeneration in Huntington's disease.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6 and interferon signaling through JAK-STAT (IL-6 already mapped) contributes to the central and peripheral inflammation characteristic of Huntington's disease.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling engaged downstream of BDNF-TrkB (both already mapped) is a pro-survival pathway whose impairment contributes to the vulnerability of striatal medium spiny neurons in Huntington's disease.
