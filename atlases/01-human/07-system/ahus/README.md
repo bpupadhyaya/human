@@ -343,6 +343,15 @@ cross_links:
   - target: 01-human/03-molecular/fibrinogen
     relation: connects-to
     note: "Fibrinogen conversion to fibrin underlies the platelet-fibrin microthrombi that occlude the microvasculature in the thrombotic microangiopathy of aHUS (thrombin and vWF mapped)."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 promotes the neutrophil-extracellular-trap-driven thromboinflammation and endothelial activation that amplify the thrombotic microangiopathy of aHUS."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "DNA within complement-triggered neutrophil extracellular traps engages cGAS-STING, linking NET-driven inflammation to the microvascular thrombosis of aHUS."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6-STAT3 signalling transduces the inflammatory cytokine response that accompanies the endothelial injury of aHUS."
 ---
 
 # Atypical HUS
@@ -613,6 +622,9 @@ Repeated TMA episodes → glomerular fibrosis → CKD → ESRD
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Sublytic complement attack on the renal endothelium triggers PI3K-AKT survival and activation signaling, shaping the endothelial response that determines microangiopathic injury in aHUS.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — C5a acting on C5aR (C5aR1 mapped) engages ERK-MAPK in endothelium and leukocytes, amplifying the complement-driven thromboinflammation of aHUS.
 - `connects-to` → **[Fibrinogen](../../03-molecular/fibrinogen/README.md)** — Fibrinogen conversion to fibrin underlies the platelet-fibrin microthrombi that occlude the microvasculature in the thrombotic microangiopathy of aHUS (thrombin and vWF mapped).
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 promotes the neutrophil-extracellular-trap-driven thromboinflammation and endothelial activation that amplify the thrombotic microangiopathy of aHUS.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — DNA within complement-triggered neutrophil extracellular traps engages cGAS-STING, linking NET-driven inflammation to the microvascular thrombosis of aHUS.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling transduces the inflammatory cytokine response that accompanies the endothelial injury of aHUS.
 
 [^fakhouri-2017-ahus-lancet]: Fakhouri F, Zuber J, Frémeaux-Bacchi V, Loirat C. Haemolytic uraemic syndrome. *Lancet.* 2017;390(10095):681-696. [doi:10.1016/S0140-6736(17)30062-4](https://doi.org/10.1016/S0140-6736(17)30062-4) · [PubMed 28242109](https://pubmed.ncbi.nlm.nih.gov/28242109/)
 [^legendre-2013-eculizumab-ahus-nejm]: Legendre CM, Licht C, Muus P, et al. Terminal complement inhibitor eculizumab in atypical hemolytic-uremic syndrome. *N Engl J Med.* 2013;368(23):2169-2181. [doi:10.1056/NEJMoa1208981](https://doi.org/10.1056/NEJMoa1208981) · [PubMed 23738544](https://pubmed.ncbi.nlm.nih.gov/23738544/)

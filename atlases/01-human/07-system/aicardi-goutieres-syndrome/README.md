@@ -339,6 +339,15 @@ cross_links:
   - target: 01-human/03-molecular/erk1-2
     relation: connects-to
     note: "ERK-MAPK signalling transduces the interferon/cytokine milieu (IFN-γ mapped) into the glial inflammatory activation underlying AGS encephalopathy."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "PDGF signalling in pericytes and vascular smooth muscle contributes to the cerebral microangiopathy and intracranial calcification characteristic of Aicardi-Goutières syndrome."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β signalling in the developing brain shapes the neurodevelopmental trajectory disrupted by the chronic interferon toxicity of Aicardi-Goutières syndrome."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling modulates the cerebral vascular and glial responses that shape the leukodystrophy of Aicardi-Goutières syndrome."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -540,6 +549,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Microglial galectin-3 is induced by the chronic type-I-interferon milieu, amplifying the reactive microgliosis that drives the neuroinflammatory brain injury of AGS.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling shapes the survival and inflammatory responses of neurons and glia exposed to the sustained interferon and cytokine environment of AGS.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling transduces the interferon/cytokine milieu (IFN-γ mapped) into the glial inflammatory activation underlying AGS encephalopathy.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — PDGF signaling in pericytes and vascular smooth muscle contributes to the cerebral microangiopathy and intracranial calcification characteristic of Aicardi-Goutières syndrome.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β signaling in the developing brain shapes the neurodevelopmental trajectory disrupted by the chronic interferon toxicity of Aicardi-Goutières syndrome.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling modulates the cerebral vascular and glial responses that shape the leukodystrophy of Aicardi-Goutières syndrome.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
