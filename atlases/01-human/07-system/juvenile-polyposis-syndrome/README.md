@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/rb1
     relation: connects-to
     note: "Cancer progression: loss of the RB1-E2F checkpoint is among the cooperating events in the progression of juvenile-polyposis polyps to gastrointestinal carcinoma."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 is upregulated during the polyp-to-carcinoma progression of juvenile polyposis syndrome, modulating tumour-cell adhesion and immune evasion."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "CDKN2A loss contributes to the malignant progression of the hamartomatous polyps of juvenile polyposis syndrome."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA sensing through cGAS-STING shapes the inflammatory and immune microenvironment of the gastrointestinal neoplasia in juvenile polyposis syndrome."
 ---
 
 # Juvenile Polyposis Syndrome
@@ -565,6 +574,9 @@ No approved chemopreventive agents specifically for JPS. Options under investiga
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6-STAT3 signaling (IL-6 and STAT3 already mapped) sustains the inflammatory stroma of the hamartomatous polyps and contributes to their malignant potential in juvenile polyposis syndrome.
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Gut-microbiota-driven TLR-MyD88-NF-κB signaling (NF-κB already mapped) provides an inflammatory drive promoting the polyp-to-carcinoma progression of juvenile polyposis syndrome.
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — Loss of the RB1-E2F checkpoint is among the cooperating events in the progression of juvenile-polyposis polyps to gastrointestinal carcinoma.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 is upregulated during the polyp-to-carcinoma progression of juvenile polyposis syndrome, modulating tumor-cell adhesion and immune evasion.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A loss contributes to the malignant progression of the hamartomatous polyps of juvenile polyposis syndrome.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING shapes the inflammatory and immune microenvironment of the gastrointestinal neoplasia in juvenile polyposis syndrome.
 
 [^howe-1998-smad4-jps]: Howe JR, Roth S, Ringold JC, et al. Mutations in the SMAD4/DPC4 gene in juvenile polyposis. *Science.* 1998;280(5366):1086-1088. [doi:10.1126/science.280.5366.1086](https://doi.org/10.1126/science.280.5366.1086) · [PubMed 9582123](https://pubmed.ncbi.nlm.nih.gov/9582123/)
 [^aretz-2007-jps-spectrum]: Aretz S, Stienen D, Uhlhaas S, et al. High proportion of large genomic deletions and a genotype-phenotype update in 80 unrelated families with juvenile polyposis syndrome. *J Med Genet.* 2007;44(11):702-709. [doi:10.1136/jmg.2007.051839](https://doi.org/10.1136/jmg.2007.051839) · [PubMed 17601924](https://pubmed.ncbi.nlm.nih.gov/17601924/)

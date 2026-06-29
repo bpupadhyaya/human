@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/egfr
     relation: connects-to
     note: "RTK proliferation: receptor-tyrosine-kinase signalling through EGFR drives proliferation in many of the epithelial tumours of Li-Fraumeni syndrome, unopposed by the lost p53 checkpoint."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "RAS-ERK-MAPK proliferative signalling (KRAS mapped) cooperates with germline p53 loss in driving the diverse cancers of Li-Fraumeni syndrome."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K-AKT-mTOR signalling (AKT, mTOR and PTEN mapped) provides a survival and growth input cooperating with p53 deficiency in Li-Fraumeni-associated tumours."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 modulates tumour-cell survival and immune evasion across the spectrum of Li-Fraumeni-associated cancers."
 ---
 
 # Li-Fraumeni Syndrome
@@ -586,6 +595,9 @@ Annual surveillance significantly reduces mortality in LFS carriers (Villani 201
 - `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — In the absence of functional p53, cooperating RAS-pathway activation drives the diverse tumors of Li-Fraumeni syndrome, the lost p53 removing the oncogene-induced-senescence barrier to RAS transformation.
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — p53 and NRF2 jointly govern the cellular antioxidant response, and p53 loss in Li-Fraumeni syndrome shifts redox control and the oxidative-stress handling (xanthine-oxidase already mapped) of its tumors.
 - `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — Receptor-tyrosine-kinase signaling through EGFR drives proliferation in many of the epithelial tumors of Li-Fraumeni syndrome, unopposed by the lost p53 checkpoint.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — RAS-ERK-MAPK proliferative signaling (KRAS mapped) cooperates with germline p53 loss in driving the diverse cancers of Li-Fraumeni syndrome.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K-AKT-mTOR signaling (AKT, mTOR and PTEN mapped) provides a survival and growth input cooperating with p53 deficiency in Li-Fraumeni-associated tumors.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 modulates tumor-cell survival and immune evasion across the spectrum of Li-Fraumeni-associated cancers.
 
 [^bougeard-2015-lfs-chompret]: Bougeard G, Renaux-Petel M, Flaman JM, et al. Revisiting Li-Fraumeni Syndrome From TP53 Mutation Carriers. *J Clin Oncol.* 2015;33(21):2345-2352. [doi:10.1200/JCO.2014.59.5728](https://doi.org/10.1200/JCO.2014.59.5728) · [PubMed 26014290](https://pubmed.ncbi.nlm.nih.gov/26014290/)
 [^villani-2016-lfs-surveillance]: Villani A, Shore A, Wasserman JD, et al. Biochemical and imaging surveillance in germline TP53 mutation carriers with Li-Fraumeni syndrome: 11 year follow-up of a prospective observational study. *Lancet Oncol.* 2016;17(9):1295-1305. [doi:10.1016/S1470-2045(16)30249-2](https://doi.org/10.1016/S1470-2045(16)30249-2) · [PubMed 27501770](https://pubmed.ncbi.nlm.nih.gov/27501770/)
