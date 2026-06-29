@@ -334,6 +334,15 @@ cross_links:
   - target: 01-human/03-molecular/il-17a
     relation: connects-to
     note: "Neutrophilic inflammation: IL-17A from Th17 and innate lymphoid sources drives the neutrophil recruitment and tissue inflammation that contribute to organ injury in the sepsis host response."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6-JAK-STAT3 signalling (IL-6 mapped) drives the acute-phase response and the dysregulated inflammation of the septic cytokine storm."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "mTOR-regulated immunometabolic reprogramming shapes the shift between hyperinflammation and immunoparalysis in sepsis."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 amplifies innate-immune activation and contributes to the organ injury of sepsis."
 ---
 
 # Sepsis
@@ -545,6 +554,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR4 sensing of bacterial PAMPs and host DAMPs signals through MyD88 to NF-κB (both already mapped), the master innate pathway that ignites the dysregulated cytokine response of sepsis.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IFN-γ and inflammatory-cytokine signaling through JAK-STAT (IFN-γ already mapped) amplifies the systemic inflammatory response of sepsis and is a therapeutic target under investigation.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A from Th17 and innate lymphoid sources drives the neutrophil recruitment and tissue inflammation that contribute to organ injury in the sepsis host response.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-JAK-STAT3 signaling (IL-6 mapped) drives the acute-phase response and the dysregulated inflammation of the septic cytokine storm.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR-regulated immunometabolic reprogramming shapes the shift between hyperinflammation and immunoparalysis in sepsis.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 amplifies innate-immune activation and contributes to the organ injury of sepsis.
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

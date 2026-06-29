@@ -333,6 +333,15 @@ cross_links:
   - target: 01-human/03-molecular/nfe2l2
     relation: connects-to
     note: "Oxidant defence: NRF2 governs the antioxidant programme that protects the airway and alveolar epithelium from inhaled oxidants, pollutants and cigarette smoke at the gas-exchange surface."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "TGF-β drives airway remodelling and the fibrotic repair of lung injury, a central effector across chronic respiratory disease."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "NF-κB is the master transcriptional hub of airway and alveolar inflammation across infection, asthma and COPD."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K-AKT signalling supports alveolar and airway-epithelial survival and the repair responses that maintain the gas-exchange surface."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -519,6 +528,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Connects-to** → [CFTR](../../03-molecular/cftr/README.md): airway surface liquid: CFTR chloride and bicarbonate transport sets the airway surface liquid that enables mucociliary clearance, the frontline airway defense whose failure defines cystic fibrosis.
 - **Connects-to** → [Interleukin-13](../../03-molecular/il-13/README.md): Th2 airway response: IL-13 drives the goblet-cell mucus hypersecretion and bronchial hyperreactivity of the Th2 airway response that underlies asthma and allergic airway disease.
 - **Connects-to** → [NRF2](../../03-molecular/nfe2l2/README.md): oxidant defense: NRF2 governs the antioxidant program that protects the airway and alveolar epithelium from inhaled oxidants, pollutants and cigarette smoke at the gas-exchange surface.
+- **Connects-to** → [Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md): airway remodeling: TGF-β drives airway remodeling and the fibrotic repair of lung injury, a central effector across chronic respiratory disease.
+- **Connects-to** → [NF-κB](../../03-molecular/nf-kb/README.md): inflammation hub: NF-κB is the master transcriptional hub of airway and alveolar inflammation across infection, asthma and COPD.
+- **Connects-to** → [AKT](../../03-molecular/akt/README.md): epithelial survival: PI3K-AKT signaling supports alveolar and airway-epithelial survival and the repair responses that maintain the gas-exchange surface.
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.
 
 ## Pathology
