@@ -346,6 +346,15 @@ cross_links:
   - target: 01-human/03-molecular/galectin-3
     relation: connects-to
     note: "Galectin-3 promotes the invasion and immune evasion of urothelial bladder cancer."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling underlies the antitumour interferon response central to the BCG immunotherapy and checkpoint responsiveness of bladder cancer."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Perforin-mediated CD8 cytotoxicity drives the antitumour response elicited by intravesical BCG immunotherapy in bladder cancer."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "CDK4/6-cyclin-D activity (cyclin-D1 and RB1 already mapped) drives the cell-cycle progression of bladder cancer."
 ---
 
 # Bladder Cancer
@@ -576,6 +585,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Wnt/β-catenin signaling contributes to urothelial proliferation and the luminal molecular subtype of bladder cancer.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK-STAT3 signaling (STAT3 mapped) downstream of IL-6 and interferons drives proliferation and immune modulation in bladder cancer.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 promotes the invasion and immune evasion of urothelial bladder cancer.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling underlies the antitumor interferon response central to the BCG immunotherapy and checkpoint responsiveness of bladder cancer.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated CD8 cytotoxicity drives the antitumor response elicited by intravesical BCG immunotherapy in bladder cancer.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6-cyclin-D activity (cyclin-D1 and RB1 already mapped) drives the cell-cycle progression of bladder cancer.
 
 ---
 

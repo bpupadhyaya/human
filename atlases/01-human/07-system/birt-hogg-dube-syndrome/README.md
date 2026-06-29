@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/jak1-2
     relation: connects-to
     note: "JAK-STAT3 signalling (STAT3 mapped) provides a proliferative and survival input cooperating with FLCN loss in Birt-Hogg-Dubé tumorigenesis."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the antitumour immune response of the renal tumours that arise in Birt-Hogg-Dubé syndrome."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling shapes the connective-tissue and lung-cyst phenotypes (fibrofolliculomas, pulmonary cysts) of Birt-Hogg-Dubé syndrome."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "FLCN loss perturbs autophagy and mitochondrial quality control, and the resulting cytosolic DNA can engage cGAS-STING in the lesions of Birt-Hogg-Dubé syndrome."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -588,6 +597,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[EPAS1](../../03-molecular/epas1/README.md)** — FLCN loss dysregulates HIF activity; HIF-2α (EPAS1) signaling links Birt-Hogg-Dubé syndrome to the hypoxia-driven renal tumorigenesis it shares with the VHL/MET hereditary-RCC differential (all mapped).
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 is a marker and modulator of the renal tumors that arise in Birt-Hogg-Dubé syndrome.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK-STAT3 signaling (STAT3 mapped) provides a proliferative and survival input cooperating with FLCN loss in Birt-Hogg-Dubé tumorigenesis.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antitumor immune response of the renal tumors that arise in Birt-Hogg-Dubé syndrome.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling shapes the connective-tissue and lung-cyst phenotypes (fibrofolliculomas, pulmonary cysts) of Birt-Hogg-Dubé syndrome.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — FLCN loss perturbs autophagy and mitochondrial quality control, and the resulting cytosolic DNA can engage cGAS-STING in the lesions of Birt-Hogg-Dubé syndrome.
 
 ---
 
