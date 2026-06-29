@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/mdm2
     relation: connects-to
     note: "Apoptosis evasion: MDM2 overexpression degrades p53, contributing to the apoptosis evasion that allows the genomically aberrant Hodgkin Reed-Sternberg cell to survive."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K-AKT-mTOR signalling (mTOR mapped) supports the survival of Reed-Sternberg cells in Hodgkin lymphoma."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 contributes to the immunosuppressive microenvironment and T-cell evasion that protect Reed-Sternberg cells in Hodgkin lymphoma."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling (TGF-β mapped) helps establish the immunosuppressive microenvironment that Reed-Sternberg cells exploit in Hodgkin lymphoma."
 ---
 
 # Hodgkin Lymphoma
@@ -557,6 +566,9 @@ Modern protocols minimize RT fields and doses (ISRT replacing extended-field RT)
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — MYC-driven transcription supports the proliferation and metabolic demands of the Hodgkin Reed-Sternberg cell.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — PI3K-AKT-mTOR signaling sustains the survival of Hodgkin Reed-Sternberg cells, complementing their constitutive NF-κB and JAK-STAT activation (both already mapped).
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2 overexpression degrades p53, contributing to the apoptosis evasion that allows the genomically aberrant Hodgkin Reed-Sternberg cell to survive.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT-mTOR signaling (mTOR mapped) supports the survival of Reed-Sternberg cells in Hodgkin lymphoma.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 contributes to the immunosuppressive microenvironment and T-cell evasion that protect Reed-Sternberg cells in Hodgkin lymphoma.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β mapped) helps establish the immunosuppressive microenvironment that Reed-Sternberg cells exploit in Hodgkin lymphoma.
 
 [^connors-2018-echelon1]: Connors JM, Jurczak W, Straus DJ, et al. Brentuximab vedotin with chemotherapy for stage III or IV Hodgkin's lymphoma. *N Engl J Med.* 2018;378(4):331-344. [doi:10.1056/NEJMoa1708984](https://doi.org/10.1056/NEJMoa1708984) · [PubMed 29360494](https://pubmed.ncbi.nlm.nih.gov/29360494/)
 [^armand-2018-nivo-hl]: Armand P, Engert A, Younes A, et al. Nivolumab for relapsed/refractory classic Hodgkin lymphoma after failure of autologous hematopoietic cell transplantation: extended follow-up of the multicohort single-arm phase II CheckMate 205 trial. *J Clin Oncol.* 2018;36(14):1428-1439. [doi:10.1200/JCO.2017.77.6717](https://doi.org/10.1200/JCO.2017.77.6717) · [PubMed 29584546](https://pubmed.ncbi.nlm.nih.gov/29584546/)

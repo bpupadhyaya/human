@@ -318,6 +318,15 @@ cross_links:
   - target: 01-human/03-molecular/erk1-2
     relation: connects-to
     note: "Neurotrophic survival: ERK-MAPK signalling engaged downstream of BDNF-TrkB (both already mapped) is a pro-survival pathway whose impairment contributes to the vulnerability of striatal medium spiny neurons in Huntington's disease."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β dysregulation, downstream of impaired BDNF/AKT signalling (BDNF and AKT mapped), contributes to the neuronal dysfunction and death of Huntington's disease."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "PTEN regulation of the PI3K-AKT-mTOR axis (AKT and mTOR mapped) influences the autophagic clearance of mutant huntingtin and neuronal survival in Huntington's disease."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "STAT3-driven reactive astrogliosis is part of the neuroinflammatory response to striatal degeneration in Huntington's disease."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -469,3 +478,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88-NF-κB innate signaling (TLR4 and NF-κB already mapped) in microglia drives the neuroinflammation that accelerates striatal neurodegeneration in Huntington's disease.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6 and interferon signaling through JAK-STAT (IL-6 already mapped) contributes to the central and peripheral inflammation characteristic of Huntington's disease.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling engaged downstream of BDNF-TrkB (both already mapped) is a pro-survival pathway whose impairment contributes to the vulnerability of striatal medium spiny neurons in Huntington's disease.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β dysregulation, downstream of impaired BDNF/AKT signaling (BDNF and AKT mapped), contributes to the neuronal dysfunction and death of Huntington's disease.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN regulation of the PI3K-AKT-mTOR axis (AKT and mTOR mapped) influences the autophagic clearance of mutant huntingtin and neuronal survival in Huntington's disease.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3-driven reactive astrogliosis is part of the neuroinflammatory response to striatal degeneration in Huntington's disease.
