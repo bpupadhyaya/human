@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/rb1
     relation: connects-to
     note: "Cell-cycle brake: the RB1-E2F checkpoint (E2F1, CDK4/6 and cyclin-D already mapped) restrains S-phase entry, and its inactivation removes a brake on the MYC-driven proliferation of Burkitt lymphoma."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "JAK-STAT signalling contributes to the cytokine-responsive proliferation of Burkitt lymphoma cells."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA sensing through cGAS-STING participates in the response to EBV (LMP1 mapped) in EBV-associated Burkitt lymphoma."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 modulates apoptosis resistance and the microenvironment interactions of Burkitt lymphoma cells."
 ---
 
 # Burkitt Lymphoma
@@ -570,6 +579,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Tonic B-cell-receptor and RAS signaling converge on ERK1/2 MAPK to drive the proliferation that cooperates with the MYC translocation in Burkitt lymphoma.
 - `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — Activating RAS-pathway mutations recurrently accompany the MYC translocation in Burkitt lymphoma, reinforcing the proliferative and survival signaling of the tumor.
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — The RB1-E2F checkpoint (E2F1, CDK4/6 and cyclin-D already mapped) restrains S-phase entry, and its inactivation removes a brake on the MYC-driven proliferation of Burkitt lymphoma.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK-STAT signaling contributes to the cytokine-responsive proliferation of Burkitt lymphoma cells.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING participates in the response to EBV (LMP1 mapped) in EBV-associated Burkitt lymphoma.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 modulates apoptosis resistance and the microenvironment interactions of Burkitt lymphoma cells.
 
 ---
 

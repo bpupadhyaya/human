@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "Neural-crest lesions: NOTCH developmental signalling contributes to the neural-crest-derived psammomatous melanotic schwannomas and pigmented lesions of Carney complex."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "PTEN regulation of the PI3K-AKT-mTOR axis (AKT, PIK3CA and mTOR mapped) interacts with the dysregulated PKA signalling driving the tumorigenesis of Carney complex."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 is a marker of the thyroid neoplasia occurring in Carney complex and modulates tumour-cell survival."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "STAT3 signalling provides a proliferative input to the endocrine and mesenchymal tumours of Carney complex."
 ---
 
 # Carney Complex
@@ -557,6 +566,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β/activin-SMAD signaling (activin-A and TGF-β already mapped) shapes the growth of the endocrine and gonadal tumors of Carney complex, intersecting the constitutive PKA signaling that drives them.
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Anti-apoptotic BCL-2 supports the survival of the slow-growing cardiac myxomas and endocrine tumors characteristic of Carney complex.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH developmental signaling contributes to the neural-crest-derived psammomatous melanotic schwannomas and pigmented lesions of Carney complex.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN regulation of the PI3K-AKT-mTOR axis (AKT, PIK3CA and mTOR mapped) interacts with the dysregulated PKA signaling driving the tumorigenesis of Carney complex.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 is a marker of the thyroid neoplasia occurring in Carney complex and modulates tumor-cell survival.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 signaling provides a proliferative input to the endocrine and mesenchymal tumors of Carney complex.
 
 ---
 
