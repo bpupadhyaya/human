@@ -337,6 +337,15 @@ cross_links:
   - target: 01-human/03-molecular/caspase-3
     relation: connects-to
     note: "Epithelial apoptosis: caspase-3-mediated apoptosis of intestinal epithelial cells contributes to the barrier breakdown that perpetuates the inflammation of inflammatory bowel disease."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K-AKT-mTOR signalling (mTOR mapped) regulates intestinal-epithelial survival and restitution, processes disrupted in the barrier failure of inflammatory bowel disease."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 modulates the mucosal macrophage and epithelial inflammatory responses of inflammatory bowel disease."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling (TGF-β mapped) drives both regulatory-T-cell tolerance and the intestinal fibrosis (strictures) of inflammatory bowel disease."
 ---
 
 # Inflammatory Bowel Disease
@@ -571,6 +580,9 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR signaling regulates Paneth-cell function and the autophagy (already mapped) that clears intracellular bacteria, a pathway whose Crohn's-associated defects impair mucosal antimicrobial defense.
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2 antioxidant defense protects the intestinal epithelium from the oxidative stress of chronic mucosal inflammation in inflammatory bowel disease.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Caspase-3-mediated apoptosis of intestinal epithelial cells contributes to the barrier breakdown that perpetuates the inflammation of inflammatory bowel disease.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT-mTOR signaling (mTOR mapped) regulates intestinal-epithelial survival and restitution, processes disrupted in the barrier failure of inflammatory bowel disease.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 modulates the mucosal macrophage and epithelial inflammatory responses of inflammatory bowel disease.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β mapped) drives both regulatory-T-cell tolerance and the intestinal fibrosis (strictures) of inflammatory bowel disease.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)

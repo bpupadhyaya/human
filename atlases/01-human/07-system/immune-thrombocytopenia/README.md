@@ -339,6 +339,15 @@ cross_links:
   - target: 01-human/03-molecular/pd-1
     relation: connects-to
     note: "Checkpoint tolerance: impaired PD-1 and other inhibitory-checkpoint control of autoreactive T and B cells contributes to the loss of self-tolerance underlying immune thrombocytopenia."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K-AKT signalling downstream of BAFF and the TPO receptor MPL (both mapped) participates in both the autoimmunity and the megakaryocyte responses of immune thrombocytopenia."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "mTOR-regulated T-cell metabolism shapes the regulatory-T-cell deficiency of ITP, and mTOR inhibition (sirolimus) restores tolerance in refractory disease."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 modulates the macrophage-mediated platelet clearance and immune dysregulation of immune thrombocytopenia."
 ---
 
 # Immune Thrombocytopenia
@@ -581,6 +590,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Thrombopoietin acting through the MPL receptor and JAK-STAT (MPL and STAT3 already mapped) drives megakaryopoiesis, the pathway harnessed by TPO-receptor agonists to raise platelet counts in ITP.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — IL-12-driven Th1 polarization (IFN-γ already mapped) skews the autoimmune response that targets platelets for destruction in immune thrombocytopenia.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Impaired PD-1 and other inhibitory-checkpoint control of autoreactive T and B cells contributes to the loss of self-tolerance underlying immune thrombocytopenia.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling downstream of BAFF and the TPO receptor MPL (both mapped) participates in both the autoimmunity and the megakaryocyte responses of immune thrombocytopenia.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR-regulated T-cell metabolism shapes the regulatory-T-cell deficiency of ITP, and mTOR inhibition (sirolimus) restores tolerance in refractory disease.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 modulates the macrophage-mediated platelet clearance and immune dysregulation of immune thrombocytopenia.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)
