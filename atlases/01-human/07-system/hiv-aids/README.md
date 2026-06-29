@@ -328,6 +328,15 @@ cross_links:
   - target: 01-human/03-molecular/bcl-2
     relation: connects-to
     note: "T-cell apoptosis: HIV dysregulates the Bcl-2 family to tip infected and bystander CD4+ T cells toward apoptosis, a major mechanism of the progressive lymphocyte depletion of AIDS."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "HIV exploits PI3K-AKT signalling to promote infected-cell survival and viral persistence as immunity collapses in AIDS."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "mTOR-regulated T-cell metabolism shapes both HIV replication and the exhausted, dysfunctional immune state of AIDS."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "TLR-MyD88 signalling driven by gut microbial translocation sustains the chronic immune activation that accelerates progression to AIDS."
 ---
 
 # HIV/AIDS
@@ -546,6 +555,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[HIV gp120](../../03-molecular/hiv-gp120/README.md)** — HIV gp120 binds CD4 and the CCR5 co-receptor (already mapped) to mediate entry, and its engagement of bystander cells drives the syncytia formation and CD4 depletion that define progression to AIDS.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Interferon and inflammatory-cytokine signaling through JAK-STAT (type-I IFN and STAT3 already mapped) sustains the persistent immune activation that drives AIDS progression and is a JAK-inhibitor target under study.
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — HIV dysregulates the Bcl-2 family to tip infected and bystander CD4+ T cells toward apoptosis, a major mechanism of the progressive lymphocyte depletion of AIDS.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — HIV exploits PI3K-AKT signaling to promote infected-cell survival and viral persistence as immunity collapses in AIDS.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR-regulated T-cell metabolism shapes both HIV replication and the exhausted, dysfunctional immune state of AIDS.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88 signaling driven by gut microbial translocation sustains the chronic immune activation that accelerates progression to AIDS.
 
 ## See Also
 

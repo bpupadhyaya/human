@@ -328,6 +328,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Complement antiviral and immunopathology: complement C3 opsonises influenza virions and enhances neutralisation, while excessive activation also contributes to the lung immunopathology of severe influenza."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "Influenza activates the Raf-MEK-ERK pathway to drive nuclear export of viral ribonucleoproteins, a host-directed antiviral target."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "The influenza NS1 protein activates PI3K-AKT signalling to delay apoptosis and support efficient viral replication."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Influenza modulates mTOR-regulated translation to favour viral protein synthesis during infection."
 ---
 
 # Influenza
@@ -567,3 +576,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Type-I interferon produced through the RIG-I-MAVS-IRF3 axis (all already mapped) signals via JAK-STAT to STAT1 (mapped), inducing the antiviral interferon-stimulated genes that restrict influenza replication.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — IL-12 from activated dendritic cells drives NK-cell and Th1 IFN-γ responses (already mapped) that augment the cellular clearance of influenza-infected respiratory epithelium.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 opsonizes influenza virions and enhances neutralization, while excessive activation also contributes to the lung immunopathology of severe influenza.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Influenza activates the Raf-MEK-ERK pathway to drive nuclear export of viral ribonucleoproteins, a host-directed antiviral target.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — The influenza NS1 protein activates PI3K-AKT signaling to delay apoptosis and support efficient viral replication.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Influenza modulates mTOR-regulated translation to favor viral protein synthesis during infection.
