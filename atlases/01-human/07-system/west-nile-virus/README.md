@@ -327,6 +327,15 @@ cross_links:
   - target: 01-human/03-molecular/akt
     relation: connects-to
     note: "Survival hijack: West Nile virus manipulates host PI3K-AKT signalling to delay apoptosis early in infection, sustaining the cellular environment for viral replication."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Type-I-interferon signalling through JAK-STAT (STAT1 mapped) is the principal antiviral defence controlling West Nile virus, which the virus actively antagonises."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "West Nile virus modulates mTOR-regulated translation and autophagy to support its replication in infected cells."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "ERK-MAPK signalling is engaged during West Nile virus entry and replication and contributes to the inflammatory response in neuroinvasive disease."
 ---
 
 # West Nile Virus
@@ -550,3 +559,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — West-Nile-infected neuron death and the inflammatory milieu drive glutamate excitotoxicity, a mechanism of the neuronal injury underlying West Nile encephalitis.
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — The balance of anti-apoptotic BCL-2 against viral- and immune-driven pro-apoptotic signals (caspase-3 mapped) sets neuronal survival in West Nile neuroinvasive disease.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — West Nile virus manipulates host PI3K-AKT signaling to delay apoptosis early in infection, sustaining the cellular environment for viral replication.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Type-I-interferon signaling through JAK-STAT (STAT1 mapped) is the principal antiviral defense controlling West Nile virus, which the virus actively antagonizes.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — West Nile virus modulates mTOR-regulated translation and autophagy to support its replication in infected cells.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling is engaged during West Nile virus entry and replication and contributes to the inflammatory response in neuroinvasive disease.
