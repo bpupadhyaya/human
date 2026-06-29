@@ -324,6 +324,15 @@ cross_links:
   - target: 01-human/03-molecular/galectin-3
     relation: connects-to
     note: "Microglial galectin-3 reflects the neuroinflammatory activation implicated in the reward-circuit dysregulation of behavioural addiction."
+  - target: 01-human/03-molecular/ntrk
+    relation: connects-to
+    note: "BDNF-TrkB (NTRK) signalling (BDNF already mapped) drives the reward-circuit synaptic plasticity underlying the maladaptive learning of gambling disorder."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6-STAT3 signalling transduces the neuroinflammatory tone implicated in the reward dysregulation of gambling disorder."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA sensing through cGAS-STING contributes to the microglial neuroinflammation associated with the addiction neuroplasticity of gambling disorder."
 sources:
   - id: grant-2016-gambling-review
     type: peer-reviewed
@@ -572,6 +581,9 @@ Persistent and recurrent problematic gambling behavior causing distress (≥4 of
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN regulation of the PI3K-AKT-mTOR axis (AKT, PIK3CA and mTOR mapped) shapes the reward-circuit synaptic plasticity underlying compulsive gambling.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Cytokine-driven JAK-STAT signaling (IL-6 mapped) transduces the low-grade neuroinflammation increasingly linked to behavioral addictions including gambling disorder.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Microglial galectin-3 reflects the neuroinflammatory activation implicated in the reward-circuit dysregulation of behavioral addiction.
+- `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — BDNF-TrkB (NTRK) signaling (BDNF already mapped) drives the reward-circuit synaptic plasticity underlying the maladaptive learning of gambling disorder.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling transduces the neuroinflammatory tone implicated in the reward dysregulation of gambling disorder.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING contributes to the microglial neuroinflammation associated with the addiction neuroplasticity of gambling disorder.
 
 [^potenza-2014-gambling-neuroscience]: Potenza MN. The neurobiology of pathological gambling and drug addiction: an overview and new findings. *Philos Trans R Soc Lond B Biol Sci.* 2008;363(1507):3181-3189. [doi:10.1098/rstb.2008.0100](https://doi.org/10.1098/rstb.2008.0100) · [PubMed 18640909](https://pubmed.ncbi.nlm.nih.gov/18640909/)
 [^grant-2016-gambling-review]: Grant JE, Chamberlain SR. Gambling disorder and its relationship with substance use disorders. *Am J Addict.* 2015;24(2):126-131. [doi:10.1111/ajad.12112](https://doi.org/10.1111/ajad.12112) · [PubMed 25376793](https://pubmed.ncbi.nlm.nih.gov/25376793/)
