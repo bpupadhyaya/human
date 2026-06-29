@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/protein-c
     relation: connects-to
     note: "Contact-coagulation crosstalk: C1-esterase inhibitor (mapped) also restrains the intrinsic coagulation cascade (FXIIa, FXIa), so its deficiency in HAE perturbs the coagulation balance that the protein-C anticoagulant system normally maintains."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Bradykinin acting on the B2 receptor activates PI3K-AKT-eNOS signalling (nitric oxide mapped) that increases the endothelial permeability driving HAE swelling attacks."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "Bradykinin B2-receptor signalling engages ERK-MAPK in endothelial cells, contributing to the vascular-permeability response of hereditary angioedema attacks."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Contact-system and bradykinin activation can engage the NLRP3 inflammasome, an inflammatory amplifier increasingly implicated in the pathophysiology of angioedema attacks."
 ---
 
 # Hereditary Angioedema
@@ -570,6 +579,9 @@ Fluid extravasation → ANGIOEDEMA
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — Like bradykinin (mapped), substance P is a vascular-permeability neuropeptide degraded by ACE, and the overlap explains why ACE inhibitors precipitate bradykinin-mediated angioedema.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — CGRP is a potent vasodilator and permeability mediator that contributes to the tissue swelling of an angioedema attack alongside bradykinin.
 - `connects-to` → **[Protein C](../../03-molecular/protein-c/README.md)** — C1-esterase inhibitor (mapped) also restrains the intrinsic coagulation cascade (FXIIa, FXIa), so its deficiency in HAE perturbs the coagulation balance that the protein-C anticoagulant system normally maintains.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Bradykinin acting on the B2 receptor activates PI3K-AKT-eNOS signaling (nitric oxide mapped) that increases the endothelial permeability driving HAE swelling attacks.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Bradykinin B2-receptor signaling engages ERK-MAPK in endothelial cells, contributing to the vascular-permeability response of hereditary angioedema attacks.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Contact-system and bradykinin activation can engage the NLRP3 inflammasome, an inflammatory amplifier increasingly implicated in the pathophysiology of angioedema attacks.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)

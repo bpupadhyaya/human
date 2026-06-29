@@ -327,6 +327,15 @@ cross_links:
   - target: 01-human/03-molecular/nfe2l2
     relation: connects-to
     note: "Oxidative stress: HCV induces marked hepatocyte oxidative stress and dysregulates NRF2 antioxidant signalling, contributing to liver injury, steatosis and transformation."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Interferon signalling through JAK-STAT (type-I IFN and STAT1 mapped) is the antiviral axis against HCV that interferon-based therapy formerly exploited and that the virus actively antagonises."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "TLR-MyD88-NF-κB innate signalling (NF-κB mapped) drives the hepatic inflammation sustaining chronic hepatitis C."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling (TGF-β mapped) drives the progressive hepatic fibrosis of chronic hepatitis C that advances to cirrhosis and hepatocellular carcinoma."
 ---
 
 # Hepatitis C
@@ -556,3 +565,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — HCV NS5A and core proteins activate PI3K-AKT-mTOR signaling, promoting hepatocyte survival and contributing to the hepatocellular carcinoma that can follow chronic hepatitis C even after viral cure.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — HCV core protein activates NF-κB, driving the chronic inflammatory and pro-survival signaling that promotes fibrosis and carcinogenesis in the infected liver.
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — HCV induces marked hepatocyte oxidative stress and dysregulates NRF2 antioxidant signaling, contributing to liver injury, steatosis and transformation.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Interferon signaling through JAK-STAT (type-I IFN and STAT1 mapped) is the antiviral axis against HCV that interferon-based therapy formerly exploited and that the virus actively antagonizes.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88-NF-κB innate signaling (NF-κB mapped) drives the hepatic inflammation sustaining chronic hepatitis C.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β mapped) drives the progressive hepatic fibrosis of chronic hepatitis C that advances to cirrhosis and hepatocellular carcinoma.
