@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/runx1
     relation: connects-to
     note: "Clonal evolution: acquired clonal-haematopoiesis mutations (DNMT3A already mapped) including RUNX1 mark the evolution of aplastic anaemia toward myelodysplastic syndrome and acute leukaemia."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "mTOR-regulated metabolism drives both the autoreactive T-cell attack and the survival signalling of residual haematopoietic progenitors in aplastic anaemia."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "ERK-MAPK signalling downstream of haematopoietic growth-factor and TPO receptors (MPL mapped) supports the progenitor responses compromised in aplastic anaemia."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA sensing through cGAS-STING contributes to the type-I-interferon and inflammatory milieu implicated in immune-mediated marrow failure."
 ---
 
 # Aplastic Anemia
@@ -548,6 +557,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IFN-γ and the thrombopoietin receptor MPL both signal through JAK-STAT (STAT1, STAT3 and MPL already mapped) — the axis driving both the immune stem-cell destruction and the eltrombopag-stimulated marrow recovery of aplastic anemia.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — IL-12 polarizes the Th1/IFN-γ response (already mapped) that mediates the cytotoxic T-cell attack on hematopoietic stem cells in aplastic anemia.
 - `connects-to` → **[RUNX1](../../03-molecular/runx1/README.md)** — Acquired clonal-hematopoiesis mutations (DNMT3A already mapped) including RUNX1 mark the evolution of aplastic anemia toward myelodysplastic syndrome and acute leukemia.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR-regulated metabolism drives both the autoreactive T-cell attack and the survival signaling of residual hematopoietic progenitors in aplastic anemia.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling downstream of hematopoietic growth-factor and TPO receptors (MPL mapped) supports the progenitor responses compromised in aplastic anemia.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING contributes to the type-I-interferon and inflammatory milieu implicated in immune-mediated marrow failure.
 
 ---
 

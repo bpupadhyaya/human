@@ -337,6 +337,15 @@ cross_links:
   - target: 01-human/03-molecular/akt
     relation: connects-to
     note: "Endothelial protection: the PI3K-AKT-eNOS axis maintains endothelial nitric-oxide production (NO already mapped), and its impairment promotes the endothelial dysfunction that initiates atherosclerosis."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "Oxidized-LDL and PDGF-driven ERK-MAPK signalling (PDGF mapped) promotes the smooth-muscle proliferation and migration that build the atherosclerotic plaque."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "mTOR regulation of macrophage autophagy and efferocytosis governs dead-cell clearance and the necrotic-core expansion of atherosclerotic plaques."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "IFN-γ and IL-6 signalling through JAK-STAT (both mapped) drives the chronic vascular inflammation central to atherogenesis."
 ---
 
 # Atherosclerosis
@@ -557,6 +566,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR4 sensing of oxidized LDL signals through MyD88 to NF-κB (both already mapped), igniting the sterile innate inflammation that converts lipid deposition into progressive atherosclerotic plaque.
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2 antioxidant signaling counters the oxidative modification of LDL and the vascular oxidative stress central to atherogenesis and endothelial injury.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — The PI3K-AKT-eNOS axis maintains endothelial nitric-oxide production (NO already mapped), and its impairment promotes the endothelial dysfunction that initiates atherosclerosis.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Oxidized-LDL and PDGF-driven ERK-MAPK signaling (PDGF mapped) promotes the smooth-muscle proliferation and migration that build the atherosclerotic plaque.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR regulation of macrophage autophagy and efferocytosis governs dead-cell clearance and the necrotic-core expansion of atherosclerotic plaques.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IFN-γ and IL-6 signaling through JAK-STAT (both mapped) drives the chronic vascular inflammation central to atherogenesis.
 
 ---
 
