@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/rb1
     relation: connects-to
     note: "Cell-cycle restraint: the RB1-E2F checkpoint (CDKN1B, CDK4/6 and cyclin-D1 already mapped) restrains proliferation, and its dysregulation contributes to the neuroendocrine tumourigenesis of MEN1."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 is a marker and modulator of the neuroendocrine and parathyroid tumours arising in MEN1 syndrome."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "JAK-STAT3 signalling (STAT3 mapped) provides a proliferative input to the endocrine tumours of MEN1 syndrome."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Menin interacts with TGF-β-SMAD signalling (SMAD4 mapped), and disruption of this growth-suppressive pathway contributes to MEN1 tumorigenesis."
 ---
 
 # MEN1 Syndrome
@@ -555,6 +564,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — The VEGF/PDGF angiogenic axis (VEGF already mapped) supports the vascular pancreatic neuroendocrine tumors of MEN1 and is targeted by the multikinase inhibitors (sunitinib) used to treat them.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss releases the PI3K-AKT-mTOR axis (AKT, PIK3CA and mTOR already mapped) that drives MEN1 neuroendocrine tumors and is targeted therapeutically by everolimus.
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — The RB1-E2F checkpoint (CDKN1B, CDK4/6 and cyclin-D1 already mapped) restrains proliferation, and its dysregulation contributes to the neuroendocrine tumorigenesis of MEN1.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 is a marker and modulator of the neuroendocrine and parathyroid tumors arising in MEN1 syndrome.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK-STAT3 signaling (STAT3 mapped) provides a proliferative input to the endocrine tumors of MEN1 syndrome.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — Menin interacts with TGF-β-SMAD signaling (SMAD4 mapped), and disruption of this growth-suppressive pathway contributes to MEN1 tumorigenesis.
 
 ---
 

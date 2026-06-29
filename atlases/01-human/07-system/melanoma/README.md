@@ -337,6 +337,15 @@ cross_links:
   - target: 01-human/03-molecular/myd88
     relation: connects-to
     note: "Innate microenvironment: UV-induced and TLR-MyD88-NF-κB innate signalling (NF-κB already mapped) shapes the inflammatory microenvironment that promotes melanoma initiation and progression."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 promotes melanoma invasion, metastasis and immune evasion."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling (TGF-β mapped) drives immunosuppression and the invasive/metastatic phenotype switch in melanoma."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-γ-STAT1 signalling (IFN-γ mapped) shapes both the antitumour immune response and the adaptive immune resistance of melanoma to checkpoint therapy."
 ---
 
 # Melanoma
@@ -533,6 +542,9 @@ cross_links:
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Interferon-γ signaling through JAK-STAT (IFN-γ already mapped) drives the antitumor immune response in melanoma, and loss-of-function JAK1/2 mutations are a key mechanism of acquired resistance to checkpoint immunotherapy.
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2 antioxidant signaling counters the ultraviolet- and metabolism-derived oxidative stress of melanoma and contributes to its therapy resistance.
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — UV-induced and TLR-MyD88-NF-κB innate signaling (NF-κB already mapped) shapes the inflammatory microenvironment that promotes melanoma initiation and progression.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 promotes melanoma invasion, metastasis and immune evasion.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β mapped) drives immunosuppression and the invasive/metastatic phenotype switch in melanoma.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-γ-STAT1 signaling (IFN-γ mapped) shapes both the antitumor immune response and the adaptive immune resistance of melanoma to checkpoint therapy.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
