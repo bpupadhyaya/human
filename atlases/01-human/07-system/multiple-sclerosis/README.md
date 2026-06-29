@@ -334,6 +334,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "Treg-Th17 balance: TGF-β drives regulatory T-cell differentiation that restrains CNS autoimmunity, and its balance against the IL-6/IL-23 milieu (both mapped) sets the Treg-Th17 equilibrium central to MS."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "STAT3 signalling downstream of IL-6 and IL-23 (both mapped) drives the pathogenic Th17 differentiation central to multiple sclerosis."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K-AKT signalling supports oligodendrocyte survival and remyelination, processes whose failure contributes to progressive multiple sclerosis."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Microglial galectin-3 promotes the demyelinating neuroinflammation of multiple sclerosis lesions."
 ---
 
 # Multiple Sclerosis
@@ -549,6 +558,9 @@ MS affects approximately **2.8 million people worldwide** (~1 million in the US)
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — IL-23 sustains the pathogenic Th17 cells (IL-17A already mapped) that cross the blood-brain barrier and drive the demyelinating inflammation of multiple sclerosis.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Inflammatory-cytokine and type-I-interferon signaling through JAK-STAT (type-I IFN already mapped) governs the autoreactive T-cell responses of MS, the axis through which IFN-β therapy partly acts.
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β drives regulatory T-cell differentiation that restrains CNS autoimmunity, and its balance against the IL-6/IL-23 milieu (both mapped) sets the Treg-Th17 equilibrium central to MS.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 signaling downstream of IL-6 and IL-23 (both mapped) drives the pathogenic Th17 differentiation central to multiple sclerosis.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling supports oligodendrocyte survival and remyelination, processes whose failure contributes to progressive multiple sclerosis.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Microglial galectin-3 promotes the demyelinating neuroinflammation of multiple sclerosis lesions.
 
 [^compston-2008-ms-review]: Compston A, Coles A. Multiple sclerosis. *Lancet.* 2008;372(9648):1502-1517. [doi:10.1016/S0140-6736(08)61620-7](https://doi.org/10.1016/S0140-6736(08)61620-7) · [PubMed 18970977](https://pubmed.ncbi.nlm.nih.gov/18970977/)
 [^kappos-2006-natalizumab]: Polman CH, O'Connor PW, Havrdova E, et al. A randomized, placebo-controlled trial of natalizumab for relapsing multiple sclerosis. *N Engl J Med.* 2006;354(9):899-910. [doi:10.1056/NEJMoa044397](https://doi.org/10.1056/NEJMoa044397) · [PubMed 16510744](https://pubmed.ncbi.nlm.nih.gov/16510744/)

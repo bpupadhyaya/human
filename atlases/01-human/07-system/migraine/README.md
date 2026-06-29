@@ -337,6 +337,15 @@ cross_links:
   - target: 01-human/03-molecular/nfe2l2
     relation: connects-to
     note: "Oxidative susceptibility: NRF2-regulated antioxidant defences counter the oxidative stress implicated in migraine pathophysiology and in the metabolic vulnerability to cortical spreading depression."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "ERK-MAPK activation in trigeminal neurons mediates the central sensitisation and CGRP-related signalling (CGRP mapped) that sustain migraine pain."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K-AKT signalling participates in trigeminovascular neuronal excitability and the neurogenic inflammation underlying migraine attacks."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Microglial galectin-3 reflects the neuroinflammatory activation increasingly implicated in migraine chronification."
 ---
 
 # Migraine
@@ -580,6 +589,9 @@ Episodic migraine (EM, <15 headache days/month) transforms to **chronic migraine
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4-driven neuroinflammation in the trigeminovascular system sensitizes meningeal nociceptors, contributing to the neurogenic inflammation that sustains the migraine attack.
 - `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — BDNF signaling through its TrkB receptor (NTRK) mediates the central sensitization of trigeminal pain pathways that underlies the allodynia and chronification of migraine.
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2-regulated antioxidant defenses counter the oxidative stress implicated in migraine pathophysiology and in the metabolic vulnerability to cortical spreading depression.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK activation in trigeminal neurons mediates the central sensitization and CGRP-related signaling (CGRP mapped) that sustain migraine pain.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling participates in trigeminovascular neuronal excitability and the neurogenic inflammation underlying migraine attacks.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Microglial galectin-3 reflects the neuroinflammatory activation increasingly implicated in migraine chronification.
 
 [^gbd-2016-migraine-burden]: GBD 2016 Headache Collaborators. Global, regional, and national burden of migraine and tension-type headache, 1990-2016. *Lancet Neurol.* 2018;17(11):954-976. [doi:10.1016/S1474-4422(18)30322-3](https://doi.org/10.1016/S1474-4422(18)30322-3) · [PubMed 30353868](https://pubmed.ncbi.nlm.nih.gov/30353868/)
 [^goadsby-2002-migraine-review]: Goadsby PJ, Lipton RB, Ferrari MD. Migraine — current understanding and treatment. *N Engl J Med.* 2002;346(4):257-270. [doi:10.1056/NEJMra010917](https://doi.org/10.1056/NEJMra010917) · [PubMed 11807151](https://pubmed.ncbi.nlm.nih.gov/11807151/)
