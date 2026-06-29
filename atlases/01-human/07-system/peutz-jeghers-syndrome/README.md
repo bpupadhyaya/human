@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/cdh1
     relation: connects-to
     note: "EMT and invasion: loss of E-cadherin during epithelial-mesenchymal transition contributes to the invasion of the gastrointestinal and other carcinomas that complicate Peutz-Jeghers syndrome."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Inflammatory polyp stroma: IL-6-STAT3 signalling (STAT3 already mapped) sustains the inflammatory stroma of the hamartomatous polyps and the tumour-promoting microenvironment of Peutz-Jeghers syndrome."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Microbiota inflammation: gut-microbiota-driven TLR-MyD88-NF-κB signalling (NF-κB already mapped) provides an inflammatory drive promoting the elevated gastrointestinal-cancer risk of Peutz-Jeghers syndrome."
+  - target: 01-human/03-molecular/rb1
+    relation: connects-to
+    note: "Cancer progression: loss of the RB1-E2F checkpoint (cyclin-D1 and E2F1 already mapped) is among the cooperating events in the malignant progression of Peutz-Jeghers-associated neoplasia."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -547,6 +556,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — LKB1 loss removes AMPK-mediated restraint on mTOR (AMPK, mTOR and TSC1-TSC2 mapped), and PIK3CA-driven PI3K signaling further amplifies the growth axis in Peutz-Jeghers polyps and cancers.
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — The cyclin-D1 axis (mapped, with CDK-inhibitor p21/p27 also mapped) releases E2F1 to drive proliferation in the malignant progression of Peutz-Jeghers-associated tumors.
 - `connects-to` → **[CDH1](../../03-molecular/cdh1/README.md)** — Loss of E-cadherin during epithelial-mesenchymal transition contributes to the invasion of the gastrointestinal and other carcinomas that complicate Peutz-Jeghers syndrome.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6-STAT3 signaling (STAT3 already mapped) sustains the inflammatory stroma of the hamartomatous polyps and the tumor-promoting microenvironment of Peutz-Jeghers syndrome.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Gut-microbiota-driven TLR-MyD88-NF-κB signaling (NF-κB already mapped) provides an inflammatory drive promoting the elevated gastrointestinal-cancer risk of Peutz-Jeghers syndrome.
+- `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — Loss of the RB1-E2F checkpoint (cyclin-D1 and E2F1 already mapped) is among the cooperating events in the malignant progression of Peutz-Jeghers-associated neoplasia.
 
 ---
 
