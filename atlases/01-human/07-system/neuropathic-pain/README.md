@@ -321,6 +321,15 @@ cross_links:
   - target: 01-human/03-molecular/il-17a
     relation: connects-to
     note: "IL-17A from infiltrating T cells sensitises nociceptors and amplifies spinal glial activation, contributing to chronic neuropathic pain."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 released by activated spinal microglia amplifies the neuroinflammation and central sensitisation that sustain chronic neuropathic pain."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "JAK-STAT3 signalling (JAK1/2 already mapped) in spinal glia drives the reactive gliosis that maintains chronic neuropathic pain."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β signalling in dorsal-horn neurons contributes to the synaptic plasticity underlying the central sensitisation of neuropathic pain."
 sources:
   - id: jensen-2011-neuropathic-pain-review
     type: peer-reviewed
@@ -585,6 +594,9 @@ Chronic neuropathic pain carries significant psychological burden:
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling downstream of neurotrophin (NTRK/BDNF mapped) and cytokine receptors drives the central and peripheral sensitization underlying neuropathic pain.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Glial JAK-STAT signaling transduces the IL-6/cytokine milieu (IL-6 mapped) into the reactive astro-microgliosis that sustains neuropathic pain.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A from infiltrating T cells sensitizes nociceptors and amplifies spinal glial activation, contributing to chronic neuropathic pain.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 released by activated spinal microglia amplifies the neuroinflammation and central sensitization that sustain chronic neuropathic pain.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — JAK-STAT3 signaling (JAK1/2 already mapped) in spinal glia drives the reactive gliosis that maintains chronic neuropathic pain.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β signaling in dorsal-horn neurons contributes to the synaptic plasticity underlying the central sensitization of neuropathic pain.
 
 [^jensen-2011-neuropathic-pain-review]: Jensen TS, Baron R, Haanpää M, et al. A new definition of neuropathic pain. *Pain.* 2011;152(10):2204-2205. [doi:10.1016/j.pain.2011.06.017](https://doi.org/10.1016/j.pain.2011.06.017) · [PubMed 21764514](https://pubmed.ncbi.nlm.nih.gov/21764514/)
 [^dworkin-2010-neuropathic-pain-treatment]: Dworkin RH, O'Connor AB, Audette J, et al. Recommendations for the pharmacological management of neuropathic pain. *Mayo Clin Proc.* 2010;85(3 Suppl):S3-14. [doi:10.4065/mcp.2009.0649](https://doi.org/10.4065/mcp.2009.0649) · [PubMed 20194146](https://pubmed.ncbi.nlm.nih.gov/20194146/)

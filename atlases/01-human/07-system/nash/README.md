@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/pten
     relation: connects-to
     note: "Hepatic loss of PTEN-restrained PI3K-AKT signalling (AKT and mTOR mapped) promotes lipogenesis and steatosis, linking insulin resistance to fatty-liver disease."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the intrahepatic immune response and the inflammatory progression from steatosis to steatohepatitis in NASH."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "ERK-MAPK signalling transduces the lipotoxic and growth-factor stimuli that drive hepatocyte stress and the proliferative progression toward hepatocellular carcinoma in NASH."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "EZH2-mediated polycomb repression contributes to the epigenetic dysregulation underlying the fibrotic progression and hepatocarcinogenesis of NASH."
 ---
 
 # NASH
@@ -536,6 +545,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Leptin and IL-6 signaling through JAK-STAT3 (STAT3 mapped) links adipose-derived and hepatic inflammation to the progression of steatohepatitis.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement activation with C3 deposition in the steatotic liver contributes to the innate inflammatory drive of NASH alongside the TLR4/NLRP3 pathways already mapped.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — Hepatic loss of PTEN-restrained PI3K-AKT signaling (AKT and mTOR mapped) promotes lipogenesis and steatosis, linking insulin resistance to fatty-liver disease.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the intrahepatic immune response and the inflammatory progression from steatosis to steatohepatitis in NASH.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling transduces the lipotoxic and growth-factor stimuli that drive hepatocyte stress and the proliferative progression toward hepatocellular carcinoma in NASH.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — EZH2-mediated polycomb repression contributes to the epigenetic dysregulation underlying the fibrotic progression and hepatocarcinogenesis of NASH.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
