@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/mtor
     relation: connects-to
     note: "BCR growth axis: the PI3K-AKT-mTOR pathway (AKT and PIK3CA already mapped) downstream of tonic B-cell-receptor signalling drives the growth and survival of CLL cells."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "TGF-β within the lymph-node and marrow microenvironment modulates CLL-cell survival and the immune suppression characteristic of the disease."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 in the CLL microenvironment supports leukemic B-cell survival and stromal interactions."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA sensing through cGAS-STING links the genomic instability of CLL to its inflammatory and immune microenvironment."
 ---
 
 # CLL
@@ -548,6 +557,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — MyD88-dependent Toll-like-receptor signaling (recurrently mutated in a CLL subset) amplifies NF-κB (already mapped) survival signals in the leukemic B cells of CLL.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Cytokine signaling through JAK-STAT3 (STAT3 already mapped) from the supportive lymphoid niche promotes the survival of CLL cells outside the circulation.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — The PI3K-AKT-mTOR pathway (AKT and PIK3CA already mapped) downstream of tonic B-cell-receptor signaling drives the growth and survival of CLL cells.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β within the lymph-node and marrow microenvironment modulates CLL-cell survival and the immune suppression characteristic of the disease.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 in the CLL microenvironment supports leukemic B-cell survival and stromal interactions.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING links the genomic instability of CLL to its inflammatory and immune microenvironment.
 
 ---
 

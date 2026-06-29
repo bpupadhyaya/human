@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/nfe2l2
     relation: connects-to
     note: "TKI resistance: NRF2 antioxidant signalling protects CML cells — including leukemic stem cells — from oxidative stress and contributes to resistance against tyrosine-kinase inhibitors."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 in the bone-marrow niche promotes leukemic-stem-cell survival and tyrosine-kinase-inhibitor resistance in chronic myeloid leukemia."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "PTEN restraint of PI3K-AKT-mTOR signalling (AKT, PIK3CA and mTOR mapped) downstream of BCR-ABL shapes CML-cell proliferation and survival."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling (TGF-β and FOXO mapped) maintains the quiescent leukemic stem cells that resist BCR-ABL-targeted therapy in CML."
 ---
 
 # Chronic Myeloid Leukemia
@@ -548,6 +557,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 inactivation drives the transformation from chronic phase to the aggressive, treatment-resistant blast crisis of CML.
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A/p16 deletion is a recurrent lesion in the progression of CML to lymphoid blast crisis, removing a cell-cycle brake on the proliferating clone.
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2 antioxidant signaling protects CML cells — including leukemic stem cells — from oxidative stress and contributes to resistance against tyrosine-kinase inhibitors.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 in the bone-marrow niche promotes leukemic-stem-cell survival and tyrosine-kinase-inhibitor resistance in chronic myeloid leukemia.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN restraint of PI3K-AKT-mTOR signaling (AKT, PIK3CA and mTOR mapped) downstream of BCR-ABL shapes CML-cell proliferation and survival.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β and FOXO mapped) maintains the quiescent leukemic stem cells that resist BCR-ABL-targeted therapy in CML.
 
 ---
 
