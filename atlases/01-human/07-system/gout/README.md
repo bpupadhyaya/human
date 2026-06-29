@@ -328,6 +328,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Metabolic link: gout is tightly tied to metabolic syndrome (insulin and leptin mapped), and the low adiponectin of visceral adiposity reflects the adipose-driven milieu that raises urate and sustains inflammation."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Crystal oxidative stress: urate crystals and xanthine-oxidase activity (already mapped) generate reactive oxygen species, and NRF2 antioxidant signalling modulates the oxidative component of the gouty inflammatory response."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Flare amplification: IL-6 released during the gout flare signals through JAK-STAT (IL-6 already mapped) to amplify the systemic inflammatory response."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Macrophage metabolic activation: mTOR-dependent metabolic reprogramming of urate-crystal-activated macrophages supports the inflammatory cytokine output and trained-immunity features of acute gout."
 ---
 
 # Gout
@@ -524,6 +533,9 @@ The central mechanism linking MSU crystals to acute gouty arthritis is **NLRP3 i
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR4 and the IL-1 receptor (TLR4 mapped) signal through MyD88 to activate NF-κB (mapped), the adaptor relaying the crystal-triggered danger signal into the cytokine output of a gout flare.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17-producing cells help recruit the dense neutrophil infiltrate that, ingesting urate crystals, produces the acute, intensely painful joint inflammation of gout.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Gout is tightly tied to metabolic syndrome (insulin and leptin mapped), and the low adiponectin of visceral adiposity reflects the adipose-driven milieu that raises urate and sustains inflammation.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — Urate crystals and xanthine-oxidase activity (already mapped) generate reactive oxygen species, and NRF2 antioxidant signaling modulates the oxidative component of the gouty inflammatory response.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6 released during the gout flare signals through JAK-STAT (IL-6 already mapped) to amplify the systemic inflammatory response.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR-dependent metabolic reprogramming of urate-crystal-activated macrophages supports the inflammatory cytokine output and trained-immunity features of acute gout.
 
 [^dalbeth-2019-gout-primer]: Dalbeth N, Choi HK, Joosten LAB, et al. Gout. *Nat Rev Dis Primers.* 2019;5(1):69. [doi:10.1038/s41572-019-0115-y](https://doi.org/10.1038/s41572-019-0115-y) · [PubMed 31558729](https://pubmed.ncbi.nlm.nih.gov/31558729/)
 [^martinon-2006-nlrp3-gout]: Martinon F, Pétrilli V, Mayor A, Tardivel A, Tschopp J. Gout-associated uric acid crystals activate the NALP3 inflammasome. *Nature.* 2006;440(7081):237-241. [doi:10.1038/nature04516](https://doi.org/10.1038/nature04516) · [PubMed 16407889](https://pubmed.ncbi.nlm.nih.gov/16407889/)

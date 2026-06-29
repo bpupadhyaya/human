@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/egfr
     relation: connects-to
     note: "Basal-like biology: the triple-negative, basal-like breast cancers that predominate in BRCA1 carriers frequently express EGFR, a hallmark of the basal phenotype and a candidate therapeutic target."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "p53 regulation: MDM2 negatively regulates p53 (already mapped), and its dysregulation cooperates with the homologous-recombination defects of BRCA-mutant tumours to permit survival of genomically unstable cells."
+  - target: 01-human/03-molecular/rb1
+    relation: connects-to
+    note: "Cell-cycle disruption: the RB1-E2F checkpoint (E2F1, CDK4/6 and CDKN2A already mapped) is frequently disrupted in BRCA-associated basal-like breast and high-grade serous ovarian cancer, driving proliferation."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Hormonal survival: estrogen-induced anti-apoptotic BCL-2 supports the survival of the hormone-receptor-positive breast cancers arising in HBOC, balancing the caspase-3 apoptosis already mapped."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -559,6 +568,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss activates the PI3K-AKT-mTOR axis (PIK3CA, AKT and mTOR already mapped), a frequent cooperating event in BRCA-associated breast and ovarian cancers.
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — The cyclin-D-CDK4/6 axis (CDK4/6 and CDKN2A already mapped) releases E2F1, which itself transactivates homologous-recombination genes including BRCA1 and RAD51 (both mapped), tying proliferation to the repair pathway lost in HBOC.
 - `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — The triple-negative, basal-like breast cancers that predominate in BRCA1 carriers frequently express EGFR, a hallmark of the basal phenotype and a candidate therapeutic target.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2 negatively regulates p53 (already mapped), and its dysregulation cooperates with the homologous-recombination defects of BRCA-mutant tumors to permit survival of genomically unstable cells.
+- `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — The RB1-E2F checkpoint (E2F1, CDK4/6 and CDKN2A already mapped) is frequently disrupted in BRCA-associated basal-like breast and high-grade serous ovarian cancer, driving proliferation.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Estrogen-induced anti-apoptotic BCL-2 supports the survival of the hormone-receptor-positive breast cancers arising in HBOC, balancing the caspase-3 apoptosis already mapped.
 
 ---
 
