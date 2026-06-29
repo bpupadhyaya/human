@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "Cancer angiogenesis: VEGF-driven angiogenesis supports the diverse early-onset malignancies to which the genomic instability of Bloom syndrome predisposes."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "GH/IGF-1/insulin signalling through PI3K-AKT-mTOR (GH, IGF-1, insulin and AKT mapped) governs the growth axis, dysregulated in the growth deficiency of Bloom syndrome."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "PTEN restraint of PI3K-AKT signalling (AKT mapped) is a tumour-suppressor counterweight to the proliferative drive in the cancer-prone cells of Bloom syndrome."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "RAS-ERK-MAPK proliferative signalling cooperates with the genomic instability of BLM-helicase loss in driving the cancer predisposition of Bloom syndrome."
 ---
 
 # Bloom Syndrome
@@ -573,6 +582,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2 antioxidant defense limits the reactive-oxygen-species-driven DNA damage that compounds the genomic instability of BLM-helicase deficiency in Bloom syndrome.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling downstream of growth hormone, IGF-1 and insulin (all already mapped) governs the growth programs constrained in the growth failure of Bloom syndrome yet co-opted by its cancers.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VEGF-driven angiogenesis supports the diverse early-onset malignancies to which the genomic instability of Bloom syndrome predisposes.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — GH/IGF-1/insulin signaling through PI3K-AKT-mTOR (GH, IGF-1, insulin and AKT mapped) governs the growth axis, dysregulated in the growth deficiency of Bloom syndrome.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN restraint of PI3K-AKT signaling (AKT mapped) is a tumor-suppressor counterweight to the proliferative drive in the cancer-prone cells of Bloom syndrome.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — RAS-ERK-MAPK proliferative signaling cooperates with the genomic instability of BLM-helicase loss in driving the cancer predisposition of Bloom syndrome.
 
 ---
 

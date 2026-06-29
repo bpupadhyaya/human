@@ -333,6 +333,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "Inflammatory appetite modulation: IL-6 and inflammatory-cytokine signalling, altered in eating disorders, modulates the appetite and mood circuits implicated in bulimia nervosa."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Insulin and leptin PI3K-AKT-mTOR signalling (insulin, leptin and mTOR mapped) integrates metabolic state with the reward and appetite circuits dysregulated in bulimia nervosa."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Leptin signalling through JAK2-STAT3 (leptin mapped) in hypothalamic appetite centres is disrupted in the disordered eating of bulimia nervosa."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Microglial galectin-3 reflects the low-grade neuroinflammation associated with eating disorders including bulimia nervosa."
 ---
 
 # Bulimia Nervosa
@@ -567,6 +576,9 @@ All of the following must be met:
 - `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — BDNF acting through its TrkB receptor (NTRK) regulates feeding behavior and reward (BDNF already mapped), and disruption of this signaling is implicated in the binge-purge cycles of bulimia nervosa.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Hypothalamic mTOR integrates energy and nutrient status into appetite control, a pathway whose dysregulation contributes to the disordered eating of bulimia nervosa.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 and inflammatory-cytokine signaling, altered in eating disorders, modulates the appetite and mood circuits implicated in bulimia nervosa.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Insulin and leptin PI3K-AKT-mTOR signaling (insulin, leptin and mTOR mapped) integrates metabolic state with the reward and appetite circuits dysregulated in bulimia nervosa.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Leptin signaling through JAK2-STAT3 (leptin mapped) in hypothalamic appetite centers is disrupted in the disordered eating of bulimia nervosa.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Microglial galectin-3 reflects the low-grade neuroinflammation associated with eating disorders including bulimia nervosa.
 
 ## Treatment
 
