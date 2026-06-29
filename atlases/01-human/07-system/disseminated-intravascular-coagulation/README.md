@@ -328,6 +328,15 @@ cross_links:
   - target: 01-human/03-molecular/thrombopoietin
     relation: connects-to
     note: "Platelet consumption: the consumptive thrombocytopenia central to DIC drives a compensatory thrombopoietin response, reflecting the accelerated platelet turnover as clots form throughout the microvasculature."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Sepsis trigger: in sepsis-induced DIC — its commonest cause — TLR-MyD88-NF-κB signalling (TLR4 and NF-κB already mapped) couples infection to the tissue-factor expression and inflammation that ignite systemic coagulation."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Thromboinflammatory amplification: IL-6 signalling through JAK-STAT (IL-6 already mapped) amplifies the cytokine response and drives the hepatic acute-phase and procoagulant changes of DIC."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Endothelial dysfunction: VEGF-mediated endothelial activation and permeability, alongside the angiopoietin-Tie2 axis (already mapped), contributes to the endothelial injury underlying the microvascular thrombosis of DIC."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -562,6 +571,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Ang-2 released from activated, injured endothelium in sepsis-associated DIC destabilizes the vasculature, amplifying the endothelial dysfunction that triggers and sustains the coagulopathy.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a acting through C5aR1 (complement C5 already mapped) induces tissue-factor expression and amplifies the thromboinflammation that drives the microvascular clotting of DIC.
 - `connects-to` → **[Thrombopoietin](../../03-molecular/thrombopoietin/README.md)** — The consumptive thrombocytopenia central to DIC drives a compensatory thrombopoietin response, reflecting the accelerated platelet turnover as clots form throughout the microvasculature.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — In sepsis-induced DIC — its commonest cause — TLR-MyD88-NF-κB signaling (TLR4 and NF-κB already mapped) couples infection to the tissue-factor expression and inflammation that ignite systemic coagulation.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6 signaling through JAK-STAT (IL-6 already mapped) amplifies the cytokine response and drives the hepatic acute-phase and procoagulant changes of DIC.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VEGF-mediated endothelial activation and permeability, alongside the angiopoietin-Tie2 axis (already mapped), contributes to the endothelial injury underlying the microvascular thrombosis of DIC.
 
 ---
 

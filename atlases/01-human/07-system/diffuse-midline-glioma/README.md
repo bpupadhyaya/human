@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/rb1
     relation: connects-to
     note: "Cell-cycle restraint lost: the RB-E2F axis (CDK4/6, cyclin-D1, CDKN2A and E2F1 all already mapped) is deregulated in diffuse midline glioma, and RB inactivation releases the cell-cycle progression these tumours depend on."
+  - target: 01-human/03-molecular/kras
+    relation: connects-to
+    note: "RAS proliferative drive: RAS-MAPK signalling (NF1 loss and ERK1/2 already mapped) provides a proliferative input cooperating with the H3K27M epigenetic reprogramming that defines diffuse midline glioma."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "STAT3 survival: JAK-STAT3 signalling (STAT3 already mapped) supports the survival and immunosuppressive microenvironment of diffuse midline glioma."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Therapy resistance: anti-apoptotic BCL-2 raises the threshold for caspase-3 apoptosis (already mapped), contributing to the profound radio- and chemo-resistance of diffuse midline glioma."
 ---
 
 # Diffuse Midline Glioma
@@ -562,6 +571,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss activates the PI3K-AKT-mTOR axis (PIK3CA, AKT and mTOR already mapped), a recurrent co-alteration with H3K27M that supports growth in diffuse midline glioma.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH signaling sustains the neural-progenitor-like state that the H3K27M epigenetic reprogramming exploits, helping maintain the stem-like, proliferative cell population of diffuse midline glioma.
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — The RB-E2F axis (CDK4/6, cyclin-D1, CDKN2A and E2F1 all already mapped) is deregulated in diffuse midline glioma, and RB inactivation releases the cell-cycle progression these tumors depend on.
+- `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — RAS-MAPK signaling (NF1 loss and ERK1/2 already mapped) provides a proliferative input cooperating with the H3K27M epigenetic reprogramming that defines diffuse midline glioma.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK-STAT3 signaling (STAT3 already mapped) supports the survival and immunosuppressive microenvironment of diffuse midline glioma.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Anti-apoptotic BCL-2 raises the threshold for caspase-3 apoptosis (already mapped), contributing to the profound radio- and chemo-resistance of diffuse midline glioma.
 
 ---
 
