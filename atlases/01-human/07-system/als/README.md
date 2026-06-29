@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/pten
     relation: connects-to
     note: "PTEN modulation of the PI3K-AKT-mTOR axis (AKT and mTOR mapped) influences motor-neuron survival, a candidate neuroprotective target in ALS."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling drives the interferon response of activated microglia (cGAS-STING already mapped) contributing to the neuroinflammation of ALS."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β signalling promotes the cytoskeletal and TDP-43 pathology and motor-neuron degeneration of ALS, a candidate therapeutic target."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling shapes the astrocyte and microglial responses that balance neuroprotection against neuroinflammation in ALS."
 ---
 
 # ALS
@@ -599,6 +608,9 @@ ALS diagnosis is **clinical** — no single definitive biomarker test (though Nf
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3-driven reactive astrogliosis is a prominent feature of the neuroinflammatory response in ALS motor-neuron degeneration.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling participates in the stress responses and excitotoxic injury of motor neurons in ALS.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN modulation of the PI3K-AKT-mTOR axis (AKT and mTOR mapped) influences motor-neuron survival, a candidate neuroprotective target in ALS.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling drives the interferon response of activated microglia (cGAS-STING already mapped) contributing to the neuroinflammation of ALS.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β signaling promotes the cytoskeletal and TDP-43 pathology and motor-neuron degeneration of ALS, a candidate therapeutic target.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling shapes the astrocyte and microglial responses that balance neuroprotection against neuroinflammation in ALS.
 
 [^brown-2017-als-review]: Brown RH, Al-Chalabi A. Amyotrophic lateral sclerosis. *N Engl J Med.* 2017;377(2):162-172. [doi:10.1056/NEJMra1603471](https://doi.org/10.1056/NEJMra1603471) · [PubMed 28700839](https://pubmed.ncbi.nlm.nih.gov/28700839/)
 [^edaravone-als-2017]: Writing Group, Edaravone ALS 19 Study Group. Safety and efficacy of edaravone in well defined patients with amyotrophic lateral sclerosis. *Lancet Neurol.* 2017;16(7):505-512. [doi:10.1016/S1474-4422(17)30115-1](https://doi.org/10.1016/S1474-4422(17)30115-1) · [PubMed 28522180](https://pubmed.ncbi.nlm.nih.gov/28522180/)

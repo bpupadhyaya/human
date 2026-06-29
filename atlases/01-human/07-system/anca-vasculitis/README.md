@@ -352,6 +352,15 @@ cross_links:
   - target: 01-human/03-molecular/galectin-3
     relation: connects-to
     note: "Galectin-3 amplifies the NET-driven thromboinflammation and endothelial injury of ANCA-associated vasculitis."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "DNA within the neutrophil extracellular traps central to ANCA-associated vasculitis engages cGAS-STING, amplifying the autoimmune inflammation."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6-STAT3 signalling transduces the inflammatory cytokine milieu and Th17 response driving ANCA-associated vasculitis."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the interferon-driven component of the immune response in ANCA-associated vasculitis."
 ---
 
 # ANCA Vasculitis
@@ -595,6 +604,9 @@ EGPA is mechanistically distinct — eosinophils, not neutrophils, mediate tissu
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ANCA binding to primed neutrophils triggers ERK-MAPK signaling that drives the respiratory burst, degranulation and NET formation injuring small vessels.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling mediates neutrophil priming and the B-cell survival that sustain the autoantibody response of ANCA vasculitis.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 amplifies the NET-driven thromboinflammation and endothelial injury of ANCA-associated vasculitis.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — DNA within the neutrophil extracellular traps central to ANCA-associated vasculitis engages cGAS-STING, amplifying the autoimmune inflammation.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling transduces the inflammatory cytokine milieu and Th17 response driving ANCA-associated vasculitis.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the interferon-driven component of the immune response in ANCA-associated vasculitis.
 
 [^yates-2022-anca-review]: Yates M, Watts RA, Bajema IM, et al. EULAR/ERA-EDTA recommendations for the management of ANCA-associated vasculitis. *Ann Rheum Dis.* 2016;75(9):1583-1594. [doi:10.1136/annrheumdis-2016-209133](https://doi.org/10.1136/annrheumdis-2016-209133) · [PubMed 27338776](https://pubmed.ncbi.nlm.nih.gov/27338776/)
 [^stone-2010-rituximab-gpa-rave]: Stone JH, Merkel PA, Spiera R, et al. Rituximab versus cyclophosphamide for ANCA-associated vasculitis. *N Engl J Med.* 2010;363(3):221-232. [doi:10.1056/NEJMoa0909905](https://doi.org/10.1056/NEJMoa0909905) · [PubMed 20647199](https://pubmed.ncbi.nlm.nih.gov/20647199/)
