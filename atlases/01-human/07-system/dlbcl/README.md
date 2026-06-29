@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/cdkn2a
     relation: connects-to
     note: "Cell-cycle brake lost: CDKN2A/p16 deletion is a recurrent adverse lesion in DLBCL, removing the restraint on the cyclin-D-CDK4/6 axis and predicting inferior outcome."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "BCR-MAPK proliferation: B-cell-receptor and RAS signalling converge on ERK1/2 MAPK to drive the proliferation of diffuse large B-cell lymphoma."
+  - target: 01-human/03-molecular/rb1
+    relation: connects-to
+    note: "Checkpoint restraint: the RB1-E2F checkpoint (E2F1, CDK4/6 and CDKN2A already mapped) restrains cell-cycle entry, and its disruption removes a brake on DLBCL proliferation."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Microenvironmental support: IL-6 from the tumour microenvironment signals through STAT3 (already mapped) to support the survival and proliferation of DLBCL cells."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -545,6 +554,9 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss activates the PI3K-AKT pathway (PIK3CA and AKT already mapped), a survival signal particularly active in the germinal-center-B-cell subtype of DLBCL.
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — MYC and the cyclin-D-CDK4/6 axis (MYC and CDK4/6 already mapped) converge to release E2F1, driving the high proliferative rate of DLBCL.
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A/p16 deletion is a recurrent adverse lesion in DLBCL, removing the restraint on the cyclin-D-CDK4/6 axis and predicting inferior outcome.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — B-cell-receptor and RAS signaling converge on ERK1/2 MAPK to drive the proliferation of diffuse large B-cell lymphoma.
+- `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — The RB1-E2F checkpoint (E2F1, CDK4/6 and CDKN2A already mapped) restrains cell-cycle entry, and its disruption removes a brake on DLBCL proliferation.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 from the tumor microenvironment signals through STAT3 (already mapped) to support the survival and proliferation of DLBCL cells.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

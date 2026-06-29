@@ -320,6 +320,15 @@ cross_links:
   - target: 01-human/03-molecular/endothelin-1
     relation: connects-to
     note: "Vascular endocrine tone: endothelin-1 is a potent paracrine and endocrine vasoconstrictor that, with the renin-angiotensin and adrenomedullin systems already mapped, helps set the hormonal control of vascular tone and fluid balance."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Hormone signal transduction: AKT is the central kinase transducing insulin and IGF-1 receptor signalling (both already mapped) into the metabolic and growth actions of these hormones throughout the endocrine system."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Anabolic integration: mTOR integrates hormonal (insulin, IGF-1) and nutrient signals to govern the anabolic growth responses coordinated by the endocrine system."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "Energy-sensing counterbalance: AMPK is the cellular energy sensor that counterbalances the insulin/mTOR anabolic axis (both already mapped), integrating the metabolic hormones with cellular energy status."
 ---
 
 # Endocrine System
@@ -578,6 +587,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — The insulin receptor transduces the signal of insulin (already mapped) into target cells, the prototypical endocrine receptor linking a circulating hormone to cellular metabolism.
 - `connects-to` → **[Neuropeptide Y](../../03-molecular/npy/README.md)** — Neuropeptide Y is a hypothalamic orexigenic signal that integrates the endocrine control of appetite and energy balance alongside the adipokine and gut hormones leptin and ghrelin (both mapped).
 - `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Endothelin-1 is a potent paracrine and endocrine vasoconstrictor that, with the renin-angiotensin and adrenomedullin systems already mapped, helps set the hormonal control of vascular tone and fluid balance.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — AKT is the central kinase transducing insulin and IGF-1 receptor signaling (both already mapped) into the metabolic and growth actions of these hormones throughout the endocrine system.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR integrates hormonal (insulin, IGF-1) and nutrient signals to govern the anabolic growth responses coordinated by the endocrine system.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK is the cellular energy sensor that counterbalances the insulin/mTOR anabolic axis (both already mapped), integrating the metabolic hormones with cellular energy status.
 
 ## Pathology
 
