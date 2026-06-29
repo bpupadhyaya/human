@@ -337,6 +337,15 @@ cross_links:
   - target: 01-human/03-molecular/ctla-4
     relation: connects-to
     note: "Tolerance breakdown: loss of CTLA-4-dependent regulatory control underlies the anti-AQP4 autoantibody response, and checkpoint-inhibitor therapy can trigger NMO-like autoimmunity."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "BAFF-driven PI3K-AKT signalling (BAFF mapped) sustains the autoreactive B-cell/plasmablast pool that produces pathogenic AQP4-IgG in NMO."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "The mTOR-regulated metabolic program supports antibody-secreting plasmablast expansion in NMO and is an investigational therapeutic target."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "TLR-MyD88 innate signalling amplifies the astrocytic and microglial inflammatory response that follows AQP4-IgG/complement attack in NMO."
 ---
 
 # NMOSD
@@ -589,6 +598,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — IL-23 sustains the pathogenic Th17 cells whose IL-17A (mapped) helps disrupt the blood-brain barrier and recruit neutrophils to the AQP4-targeted lesions of NMO.
 - `connects-to` → **[Interleukin-13](../../03-molecular/il-13/README.md)** — IL-13, with the IL-5 already mapped, recruits the eosinophils that are a characteristic feature of the inflammatory infiltrate in NMO lesions.
 - `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Loss of CTLA-4-dependent regulatory control underlies the anti-AQP4 autoantibody response, and checkpoint-inhibitor therapy can trigger NMO-like autoimmunity.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — BAFF-driven PI3K-AKT signaling (BAFF mapped) sustains the autoreactive B-cell/plasmablast pool that produces pathogenic AQP4-IgG in NMO.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — The mTOR-regulated metabolic program supports antibody-secreting plasmablast expansion in NMO and is an investigational therapeutic target.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88 innate signaling amplifies the astrocytic and microglial inflammatory response that follows AQP4-IgG/complement attack in NMO.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)

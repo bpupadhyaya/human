@@ -334,6 +334,15 @@ cross_links:
   - target: 01-human/03-molecular/gsk-3b
     relation: connects-to
     note: "Glycogen and metabolism: AKT normally inhibits GSK-3β to switch on glycogen synthesis, and elevated GSK-3β activity in obesity impairs insulin action and glucose storage."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Leptin signals through the JAK2-STAT3 axis (leptin and STAT3 mapped) in hypothalamic neurons; leptin resistance at this node underlies the failure of satiety signalling in obesity."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 released by adipose-tissue macrophages drives the chronic low-grade inflammation and fibrosis of expanding fat depots in obesity."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "The adipocyte-derived complement axis (C3/adipsin) is upregulated in obesity and contributes to adipose inflammation and metabolic dysfunction."
 ---
 
 # Obesity
@@ -579,6 +588,9 @@ This **metainflammation** mechanistically links obesity to type 2 diabetes, athe
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — The insulin receptor (mapped) signals through IRS-PI3K to AKT (mapped), and blunting of this PI3K branch in overnourished tissue is the molecular core of obesity-associated insulin resistance.
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Saturated fatty acids and gut-derived LPS activate adipose-tissue TLR4 (mapped) through MyD88 to NF-κB (mapped), driving the macrophage inflammation that links obesity to insulin resistance.
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — AKT normally inhibits GSK-3β to switch on glycogen synthesis, and elevated GSK-3β activity in obesity impairs insulin action and glucose storage.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Leptin signals through the JAK2-STAT3 axis (leptin and STAT3 mapped) in hypothalamic neurons; leptin resistance at this node underlies the failure of satiety signaling in obesity.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 released by adipose-tissue macrophages drives the chronic low-grade inflammation and fibrosis of expanding fat depots in obesity.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — The adipocyte-derived complement axis (C3/adipsin) is upregulated in obesity and contributes to adipose inflammation and metabolic dysfunction.
 
 [^bluher-2019-obesity-review]: Blüher M. Obesity: global epidemiology and pathogenesis. *Nat Rev Endocrinol.* 2019;15(5):288-298. [doi:10.1038/s41574-019-0176-8](https://doi.org/10.1038/s41574-019-0176-8) · [PubMed 30814686](https://pubmed.ncbi.nlm.nih.gov/30814686/)
 [^wilding-2021-semaglutide-step1]: Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. *N Engl J Med.* 2021;384(11):989-1002. [doi:10.1056/NEJMoa2032183](https://doi.org/10.1056/NEJMoa2032183) · [PubMed 33567185](https://pubmed.ncbi.nlm.nih.gov/33567185/)
