@@ -323,6 +323,15 @@ cross_links:
   - target: 01-human/03-molecular/bdnf
     relation: connects-to
     note: "Neurocutaneous innervation: the densely innervated skin relies on BDNF and neurotrophins to maintain its sensory nerves, and their upregulation sensitises the cutaneous itch-and-pain network in inflammatory skin disease."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "NRF2 governs the keratinocyte antioxidant response to UV and environmental oxidative stress, central to epidermal barrier maintenance and photoprotection."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "HIF-1α coordinates the cutaneous response to hypoxia during wound healing and supports dermal angiogenesis (VEGF mapped)."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "IL-6 is a key cutaneous inflammatory cytokine driving keratinocyte responses and dermal inflammation across many skin diseases."
 ---
 
 # Integumentary System
@@ -530,6 +539,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[Interleukin-13](../../03-molecular/il-13/README.md)** — IL-13, with the TSLP and IL-31 already mapped, drives the barrier dysfunction and itch of atopic dermatitis, the archetypal type-2 inflammatory disease of the skin.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — The IL-23/IL-17 axis (IL-17A already mapped) drives the keratinocyte hyperproliferation and inflammation of psoriasis, a defining immune disease of the integument.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — The densely innervated skin relies on BDNF and neurotrophins to maintain its sensory nerves, and their upregulation sensitizes the cutaneous itch-and-pain network in inflammatory skin disease.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2 governs the keratinocyte antioxidant response to UV and environmental oxidative stress, central to epidermal barrier maintenance and photoprotection.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α coordinates the cutaneous response to hypoxia during wound healing and supports dermal angiogenesis (VEGF mapped).
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 is a key cutaneous inflammatory cytokine driving keratinocyte responses and dermal inflammation across many skin diseases.
 
 ## Pathology
 

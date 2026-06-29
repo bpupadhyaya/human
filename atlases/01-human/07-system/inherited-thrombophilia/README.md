@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/thrombopoietin
     relation: connects-to
     note: "Platelet supply: thrombopoietin sets the circulating platelet mass available for thrombus formation, a quantitative contributor to thrombotic risk in inherited thrombophilia."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Endothelial PI3K-AKT signalling sustains eNOS-derived nitric oxide and the protein-C anticoagulant axis (NO and protein C mapped); its impairment shifts the endothelium toward the prothrombotic state that compounds inherited thrombophilia."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "Thrombin acting through PAR receptors engages ERK-MAPK in platelets and endothelium (thrombin mapped), amplifying the prothrombotic activation state in inherited thrombophilia."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "VEGF-driven endothelial activation and permeability contributes to the prothrombotic endothelial phenotype, complementing the angiopoietin-Tie axis already mapped."
 ---
 
 # Inherited Thrombophilia
@@ -594,6 +603,9 @@ Antithrombin (ATIII) is the primary plasma inhibitor of thrombin, FXa, FIXa, and
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — Complement C5a acting through C5aR1 (C3 and C5 mapped) induces tissue factor and activates platelets, amplifying the thrombotic tendency that becomes clinically manifest in inherited thrombophilia.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Serotonin released from platelet dense granules promotes further platelet aggregation and vasoconstriction, propagating the thrombus growth that underlies events in thrombophilic patients.
 - `connects-to` → **[Thrombopoietin](../../03-molecular/thrombopoietin/README.md)** — Thrombopoietin sets the circulating platelet mass available for thrombus formation, a quantitative contributor to thrombotic risk in inherited thrombophilia.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Endothelial PI3K-AKT signaling sustains eNOS-derived nitric oxide and the protein-C anticoagulant axis (NO and protein C mapped); its impairment shifts the endothelium toward the prothrombotic state that compounds inherited thrombophilia.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Thrombin acting through PAR receptors engages ERK-MAPK in platelets and endothelium (thrombin mapped), amplifying the prothrombotic activation state in inherited thrombophilia.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VEGF-driven endothelial activation and permeability contributes to the prothrombotic endothelial phenotype, complementing the angiopoietin-Tie axis already mapped.
 
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)
