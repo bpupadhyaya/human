@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/ctla-4
     relation: connects-to
     note: "Tolerance breakdown: impaired CTLA-4-dependent regulatory T-cell control contributes to the loss of self-tolerance that permits the autoantibody response of systemic lupus."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K-AKT signalling sustains the survival and activation of the autoreactive lymphocytes that drive systemic lupus."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "mTOR is hyperactivated in lupus T cells, skewing them toward inflammatory effector phenotypes; mTOR inhibition (sirolimus) is therapeutic in SLE."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Dysregulated IL-10 in SLE drives B-cell hyperactivity and autoantibody production despite its conventional regulatory role."
 ---
 
 # Systemic Lupus Erythematosus
@@ -559,6 +568,9 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Endosomal TLR7/9 sensing of nucleic-acid-containing immune complexes signals through MyD88 to drive the type-I interferon (mapped) production central to systemic lupus.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — Type-I interferon signals through STAT1 to induce the interferon-stimulated gene signature that defines SLE and is targeted by anifrolumab and JAK inhibitors.
 - `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Impaired CTLA-4-dependent regulatory T-cell control contributes to the loss of self-tolerance that permits the autoantibody response of systemic lupus.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling sustains the survival and activation of the autoreactive lymphocytes that drive systemic lupus.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR is hyperactivated in lupus T cells, skewing them toward inflammatory effector phenotypes; mTOR inhibition (sirolimus) is therapeutic in SLE.
+- `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — Dysregulated IL-10 in SLE drives B-cell hyperactivity and autoantibody production despite its conventional regulatory role.
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)

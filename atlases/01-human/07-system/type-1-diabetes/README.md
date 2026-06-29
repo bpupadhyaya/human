@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/il-12
     relation: connects-to
     note: "Th1 induction: IL-12 drives the Th1/IFN-γ response (IFN-γ mapped) that directs the cytotoxic CD8 T-cell destruction of insulin-producing β-cells."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "β-cell PI3K-AKT signalling promotes insulin secretion and β-cell survival, and its failure under cytokine attack contributes to the β-cell apoptosis of type 1 diabetes."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "TGF-β-dependent regulatory T-cell tolerance restrains islet autoimmunity, and its insufficiency permits the autoreactive destruction of β-cells."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "IL-10 is a key regulatory cytokine limiting islet inflammation; deficient IL-10-mediated control contributes to progression of type 1 diabetes."
 ---
 
 # Type 1 Diabetes
@@ -531,6 +540,9 @@ cross_links:
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Enteroviral and TLR signaling through MyD88 in islets and innate cells contributes to initiating the autoimmune attack on β-cells in type 1 diabetes.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic sensing of viral and self nucleic acids via cGAS-STING drives the type-I interferon (mapped) response implicated in triggering islet autoimmunity.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — IL-12 drives the Th1/IFN-γ response (IFN-γ mapped) that directs the cytotoxic CD8 T-cell destruction of insulin-producing β-cells.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — β-cell PI3K-AKT signaling promotes insulin secretion and β-cell survival, and its failure under cytokine attack contributes to the β-cell apoptosis of type 1 diabetes.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β-dependent regulatory T-cell tolerance restrains islet autoimmunity, and its insufficiency permits the autoreactive destruction of β-cells.
+- `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — IL-10 is a key regulatory cytokine limiting islet inflammation; deficient IL-10-mediated control contributes to progression of type 1 diabetes.
 
 [^atkinson-2014-t1d-lancet]: Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. *Lancet.* 2014;383(9911):69-82. [doi:10.1016/S0140-6736(13)60591-7](https://doi.org/10.1016/S0140-6736(13)60591-7) · [PubMed 23890997](https://pubmed.ncbi.nlm.nih.gov/23890997/)
 [^herold-2019-teplizumab-t1d]: Herold KC, Bundy BN, Long SA, et al. An anti-CD3 antibody, teplizumab, in relatives at risk for type 1 diabetes. *N Engl J Med.* 2019;381(7):603-613. [doi:10.1056/NEJMoa1905155](https://doi.org/10.1056/NEJMoa1905155) · [PubMed 31180675](https://pubmed.ncbi.nlm.nih.gov/31180675/)
