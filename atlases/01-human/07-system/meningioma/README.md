@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/sufu
     relation: connects-to
     note: "Hedgehog subgroup: SUFU is a negative regulator of the Sonic-Hedgehog pathway (SMO already mapped), the pathway recurrently activated in the non-NF2 molecular subgroup of skull-base meningiomas."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 expression marks higher-grade meningiomas and modulates their invasive and immune behaviour."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling (TGF-β mapped) modulates the proliferation and stromal interactions of meningioma."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "JAK-STAT3 signalling (STAT3 mapped) provides a proliferative input contributing to meningioma growth."
 ---
 
 # Meningioma
@@ -552,6 +561,9 @@ VEGF overexpression in meningioma (YAP target); Phase 2 COMBIT (Huang 2019, N=40
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — Deregulation of the RB1-E2F checkpoint (E2F1, CDK4/6, CDKN2A and cyclin-D1 already mapped) marks the progression of meningioma toward higher WHO grade.
 - `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — RAS-MAPK signaling (ERK1/2 already mapped) contributes a proliferative input to meningioma growth.
 - `connects-to` → **[SUFU](../../03-molecular/sufu/README.md)** — SUFU is a negative regulator of the Sonic-Hedgehog pathway (SMO already mapped), the pathway recurrently activated in the non-NF2 molecular subgroup of skull-base meningiomas.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 expression marks higher-grade meningiomas and modulates their invasive and immune behavior.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β mapped) modulates the proliferation and stromal interactions of meningioma.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK-STAT3 signaling (STAT3 mapped) provides a proliferative input contributing to meningioma growth.
 
 [^brastianos-2013-akt1-meningioma]: Brastianos PK, Horowitz PM, Santagata S, et al. Genomic sequencing of meningiomas identifies oncogenic SMO and AKT1 mutations. *Nat Genet.* 2013;45(3):285-289. [doi:10.1038/ng.2526](https://doi.org/10.1038/ng.2526) · [PubMed 23334667](https://pubmed.ncbi.nlm.nih.gov/23334667/)
 [^nassiri-2021-meningioma-classification]: Nassiri F, Liu J, Patil V, et al. A clinically applicable integrative molecular classification of meningiomas. *Nature.* 2021;597(7874):119-125. [doi:10.1038/s41586-021-03850-3](https://doi.org/10.1038/s41586-021-03850-3) · [PubMed 34385709](https://pubmed.ncbi.nlm.nih.gov/34385709/)
