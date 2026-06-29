@@ -337,6 +337,15 @@ cross_links:
   - target: 01-human/03-molecular/myd88
     relation: connects-to
     note: "Smoking-driven inflammation: cigarette-smoke- and infection-driven TLR-MyD88-NF-κB signalling (NF-κB already mapped) provides a chronic inflammatory drive in lung carcinogenesis."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 promotes invasion and immune evasion in non-small-cell lung cancer."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "LKB1 (STK11 mapped) activates AMPK to restrain anabolic growth, and its loss in NSCLC drives metabolic reprogramming and immunotherapy resistance."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling (TGF-β mapped) drives EMT, invasion and the immunosuppressive microenvironment of non-small-cell lung cancer."
 ---
 
 # NSCLC
@@ -544,6 +553,9 @@ cross_links:
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — Combined RB1 and TP53 loss drives the histologic transformation of EGFR-mutant adenocarcinoma to small-cell lung cancer, a notable mechanism of acquired resistance to EGFR inhibitors (CDK4/6 and CDKN2A already mapped).
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6-STAT3 signaling (STAT3 already mapped) sustains a tumor-promoting inflammatory microenvironment and contributes to therapy resistance in non-small cell lung cancer.
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Cigarette-smoke- and infection-driven TLR-MyD88-NF-κB signaling (NF-κB already mapped) provides a chronic inflammatory drive in lung carcinogenesis.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 promotes invasion and immune evasion in non-small-cell lung cancer.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — LKB1 (STK11 mapped) activates AMPK to restrain anabolic growth, and its loss in NSCLC drives metabolic reprogramming and immunotherapy resistance.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β mapped) drives EMT, invasion and the immunosuppressive microenvironment of non-small-cell lung cancer.
 
 [^soria-2018-osimertinib-flaura]: Soria JC, Ohe Y, Vansteenkiste J, et al. Osimertinib in untreated EGFR-mutated advanced non-small-cell lung cancer. *N Engl J Med.* 2018;378(2):113-125. [doi:10.1056/NEJMoa1713137](https://doi.org/10.1056/NEJMoa1713137) · [PubMed 29151359](https://pubmed.ncbi.nlm.nih.gov/29151359/)
 [^reck-2016-pembrolizumab-keynote024]: Reck M, Rodríguez-Abreu D, Robinson AG, et al. Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell lung cancer. *N Engl J Med.* 2016;375(19):1823-1833. [doi:10.1056/NEJMoa1606774](https://doi.org/10.1056/NEJMoa1606774) · [PubMed 27718347](https://pubmed.ncbi.nlm.nih.gov/27718347/)
