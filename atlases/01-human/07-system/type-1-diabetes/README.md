@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "IL-10 is a key regulatory cytokine limiting islet inflammation; deficient IL-10-mediated control contributes to progression of type 1 diabetes."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 modulates the macrophage and dendritic-cell inflammation within the insulitis that destroys pancreatic β-cells in type 1 diabetes."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6-STAT3 signalling shapes the pathogenic Th17 response and inflammatory milieu of the islet autoimmunity of type 1 diabetes."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling (TGF-β already mapped) governs the regulatory-T-cell control that, when insufficient, permits the islet autoimmunity of type 1 diabetes."
 ---
 
 # Type 1 Diabetes
@@ -543,6 +552,9 @@ cross_links:
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — β-cell PI3K-AKT signaling promotes insulin secretion and β-cell survival, and its failure under cytokine attack contributes to the β-cell apoptosis of type 1 diabetes.
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β-dependent regulatory T-cell tolerance restrains islet autoimmunity, and its insufficiency permits the autoreactive destruction of β-cells.
 - `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — IL-10 is a key regulatory cytokine limiting islet inflammation; deficient IL-10-mediated control contributes to progression of type 1 diabetes.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 modulates the macrophage and dendritic-cell inflammation within the insulitis that destroys pancreatic β-cells in type 1 diabetes.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling shapes the pathogenic Th17 response and inflammatory milieu of the islet autoimmunity of type 1 diabetes.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β already mapped) governs the regulatory-T-cell control that, when insufficient, permits the islet autoimmunity of type 1 diabetes.
 
 [^atkinson-2014-t1d-lancet]: Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. *Lancet.* 2014;383(9911):69-82. [doi:10.1016/S0140-6736(13)60591-7](https://doi.org/10.1016/S0140-6736(13)60591-7) · [PubMed 23890997](https://pubmed.ncbi.nlm.nih.gov/23890997/)
 [^herold-2019-teplizumab-t1d]: Herold KC, Bundy BN, Long SA, et al. An anti-CD3 antibody, teplizumab, in relatives at risk for type 1 diabetes. *N Engl J Med.* 2019;381(7):603-613. [doi:10.1056/NEJMoa1905155](https://doi.org/10.1056/NEJMoa1905155) · [PubMed 31180675](https://pubmed.ncbi.nlm.nih.gov/31180675/)

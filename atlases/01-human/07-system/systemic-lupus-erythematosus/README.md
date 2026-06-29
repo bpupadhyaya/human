@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "Dysregulated IL-10 in SLE drives B-cell hyperactivity and autoantibody production despite its conventional regulatory role."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 amplifies the renal and systemic inflammation of SLE and is a candidate biomarker of lupus nephritis activity."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling drives the glomerular and interstitial fibrosis of the lupus nephritis that determines renal outcome in SLE."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Perforin-mediated CD8 cytotoxicity contributes to the tissue injury of SLE, complementing the autoantibody- and complement-driven damage."
 ---
 
 # Systemic Lupus Erythematosus
@@ -571,6 +580,9 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling sustains the survival and activation of the autoreactive lymphocytes that drive systemic lupus.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR is hyperactivated in lupus T cells, skewing them toward inflammatory effector phenotypes; mTOR inhibition (sirolimus) is therapeutic in SLE.
 - `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — Dysregulated IL-10 in SLE drives B-cell hyperactivity and autoantibody production despite its conventional regulatory role.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 amplifies the renal and systemic inflammation of SLE and is a candidate biomarker of lupus nephritis activity.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling drives the glomerular and interstitial fibrosis of the lupus nephritis that determines renal outcome in SLE.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated CD8 cytotoxicity contributes to the tissue injury of SLE, complementing the autoantibody- and complement-driven damage.
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)
