@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/pik3ca
     relation: connects-to
     note: "PI3K platelet signalling: PI3K (PIK3CA)-AKT signalling (AKT already mapped) downstream of FcγRIIa contributes to the platelet activation and aggregation of heparin-induced thrombocytopenia."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 promotes the neutrophil-extracellular-trap-driven thromboinflammation that amplifies the prothrombotic state of heparin-induced thrombocytopenia."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6-STAT3 signalling transduces the inflammatory cytokine response of activated monocytes that contributes to the thrombosis of heparin-induced thrombocytopenia."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "DNA released within neutrophil extracellular traps engages cGAS-STING, linking NET-driven thromboinflammation to the prothrombotic milieu of heparin-induced thrombocytopenia."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -591,6 +600,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88-NF-κB innate signaling (TLR4 and NF-κB already mapped) on monocytes amplifies the prothrombotic inflammatory response of heparin-induced thrombocytopenia.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — FcγRIIa engagement by PF4-heparin immune complexes signals through Src and ERK1/2 (Src kinase already mapped) to drive the platelet activation central to heparin-induced thrombocytopenia.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) downstream of FcγRIIa contributes to the platelet activation and aggregation of heparin-induced thrombocytopenia.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 promotes the neutrophil-extracellular-trap-driven thromboinflammation that amplifies the prothrombotic state of heparin-induced thrombocytopenia.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling transduces the inflammatory cytokine response of activated monocytes that contributes to the thrombosis of heparin-induced thrombocytopenia.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — DNA released within neutrophil extracellular traps engages cGAS-STING, linking NET-driven thromboinflammation to the prothrombotic milieu of heparin-induced thrombocytopenia.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)

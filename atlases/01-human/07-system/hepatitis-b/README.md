@@ -336,6 +336,15 @@ cross_links:
   - target: 01-human/03-molecular/smad4
     relation: connects-to
     note: "Fibrotic progression: TGF-β-SMAD signalling (TGF-β already mapped) drives the hepatic stellate-cell fibrosis of chronic hepatitis B that progresses toward cirrhosis and hepatocellular carcinoma."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 amplifies hepatic stellate-cell activation and fibrosis and supports the immune evasion of the hepatocellular carcinoma that complicates chronic hepatitis B."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "EZH2-mediated polycomb repression, exploited by the HBx protein, silences tumour-suppressor genes and contributes to the hepatocarcinogenesis of chronic hepatitis B."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "PI3K-AKT-mTOR signalling, activated in part by the HBx protein, drives the proliferative and metabolic reprogramming of hepatitis-B-associated hepatocellular carcinoma."
 ---
 
 # Hepatitis B
@@ -577,3 +586,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Interferon signaling through JAK-STAT (type-I IFN, IFN-γ and STAT1 already mapped) drives antiviral defense against HBV, an axis the virus antagonizes and the basis of interferon therapy.
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88 innate sensing of HBV contributes to the hepatic innate immune response (NF-κB already mapped), though HBV's stealthy replication limits its activation.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β already mapped) drives the hepatic stellate-cell fibrosis of chronic hepatitis B that progresses toward cirrhosis and hepatocellular carcinoma.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 amplifies hepatic stellate-cell activation and fibrosis and supports the immune evasion of the hepatocellular carcinoma that complicates chronic hepatitis B.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — EZH2-mediated polycomb repression, exploited by the HBx protein, silences tumor-suppressor genes and contributes to the hepatocarcinogenesis of chronic hepatitis B.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — PI3K-AKT-mTOR signaling, activated in part by the HBx protein, drives the proliferative and metabolic reprogramming of hepatitis-B-associated hepatocellular carcinoma.
