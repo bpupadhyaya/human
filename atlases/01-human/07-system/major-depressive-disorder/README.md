@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/erk1-2
     relation: connects-to
     note: "Neuroplasticity: ERK-MAPK signalling downstream of BDNF-TrkB (both already mapped) mediates the synaptic plasticity whose impairment underlies depression and whose restoration accompanies antidepressant response."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K-AKT-mTOR signalling (mTOR and GSK-3β mapped) downstream of BDNF mediates the rapid synaptogenic antidepressant action of ketamine and the neuroplasticity deficits of major depression."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Microglial galectin-3 reflects the neuroinflammatory activation increasingly implicated in major depressive disorder."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Cytokine-driven JAK-STAT signalling (IL-6 mapped) transduces the systemic inflammation associated with major depressive disorder and its treatment resistance."
 ---
 
 # Major Depressive Disorder
@@ -604,6 +613,9 @@ Approximately 30–40% of MDD patients have elevated inflammatory markers:
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR4-MyD88-NF-κB innate signaling (TLR4 and NF-κB already mapped) transduces the inflammatory state increasingly implicated in the pathophysiology and treatment resistance of major depression.
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2-regulated antioxidant defense counters the oxidative stress (xanthine-oxidase already mapped) associated with major depression, a redox component of its neurobiology.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling downstream of BDNF-TrkB (both already mapped) mediates the synaptic plasticity whose impairment underlies depression and whose restoration accompanies antidepressant response.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT-mTOR signaling (mTOR and GSK-3β mapped) downstream of BDNF mediates the rapid synaptogenic antidepressant action of ketamine and the neuroplasticity deficits of major depression.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Microglial galectin-3 reflects the neuroinflammatory activation increasingly implicated in major depressive disorder.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Cytokine-driven JAK-STAT signaling (IL-6 mapped) transduces the systemic inflammation associated with major depressive disorder and its treatment resistance.
 
 [^cipriani-2018-antidepressants-meta]: Cipriani A, Furukawa TA, Salanti G, et al. Comparative efficacy and acceptability of 21 antidepressant drugs for acute treatment of adults with major depressive disorder. *Lancet.* 2018;391(10128):1357-1366. [doi:10.1016/S0140-6736(17)32802-7](https://doi.org/10.1016/S0140-6736(17)32802-7) · [PubMed 29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/)
 [^zarate-2006-ketamine-rapid]: Zarate CA Jr, Singh JB, Carlson PJ, et al. A randomized trial of an N-methyl-D-aspartate antagonist in treatment-resistant major depression. *Arch Gen Psychiatry.* 2006;63(8):856-864. [doi:10.1001/archpsyc.63.8.856](https://doi.org/10.1001/archpsyc.63.8.856) · [PubMed 16894061](https://pubmed.ncbi.nlm.nih.gov/16894061/)

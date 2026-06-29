@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/mdm2
     relation: connects-to
     note: "p53 inactivation: MDM2 overexpression provides an alternative route to p53 inactivation (p53 already mapped), cooperating with cyclin-D1 overexpression and ATM loss in mantle cell lymphoma."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "B-cell-receptor signalling through ERK-MAPK provides a proliferative input in mantle cell lymphoma, downstream of the BTK-dependent BCR pathway already mapped."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 supports mantle-cell-lymphoma survival and its interactions with the nodal microenvironment."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "TGF-β within the lymph-node microenvironment modulates immune evasion and the stromal niche of mantle cell lymphoma."
 ---
 
 # Mantle Cell Lymphoma
@@ -557,6 +566,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK-STAT3 signaling (STAT3 already mapped) contributes to the survival and microenvironmental support of mantle cell lymphoma.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 from the tumor microenvironment signals through STAT3 (already mapped) to support the survival of mantle-cell-lymphoma cells, particularly in their protective nodal niches.
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2 overexpression provides an alternative route to p53 inactivation (p53 already mapped), cooperating with cyclin-D1 overexpression and ATM loss in mantle cell lymphoma.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — B-cell-receptor signaling through ERK-MAPK provides a proliferative input in mantle cell lymphoma, downstream of the BTK-dependent BCR pathway already mapped.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 supports mantle-cell-lymphoma survival and its interactions with the nodal microenvironment.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β within the lymph-node microenvironment modulates immune evasion and the stromal niche of mantle cell lymphoma.
 
 ---
 
