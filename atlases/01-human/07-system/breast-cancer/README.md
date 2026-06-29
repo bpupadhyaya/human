@@ -334,6 +334,15 @@ cross_links:
   - target: 01-human/03-molecular/mdm2
     relation: connects-to
     note: "p53 inactivation: MDM2 amplification suppresses p53 (mapped), an alternative to outright TP53 mutation that disables the apoptotic checkpoint in breast cancer."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling (TGF-β mapped) is a context-dependent regulator in breast cancer, switching from tumour suppression to promotion of EMT and metastasis."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "BCL-2 expression, driven by estrogen-receptor signalling (estrogen mapped), promotes survival of luminal breast cancer cells and carries prognostic significance."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6-JAK-STAT3 signalling supports breast cancer stem-cell maintenance, proliferation and immune evasion."
 ---
 
 # Breast Cancer
@@ -545,6 +554,9 @@ cross_links:
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — IGF-1R signaling crosstalks with the estrogen receptor and HER2 (both mapped), driving acquired resistance to endocrine and HER2-targeted therapy in breast cancer.
 - `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Wnt/β-catenin signaling sustains the breast-cancer stem-cell compartment and is especially active in triple-negative breast cancer, contributing to recurrence.
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2 amplification suppresses p53 (mapped), an alternative to outright TP53 mutation that disables the apoptotic checkpoint in breast cancer.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β mapped) is a context-dependent regulator in breast cancer, switching from tumor suppression to promotion of EMT and metastasis.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — BCL-2 expression, driven by estrogen-receptor signaling (estrogen mapped), promotes survival of luminal breast cancer cells and carries prognostic significance.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-JAK-STAT3 signaling supports breast cancer stem-cell maintenance, proliferation and immune evasion.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
