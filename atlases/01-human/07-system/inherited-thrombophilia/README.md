@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "VEGF-driven endothelial activation and permeability contributes to the prothrombotic endothelial phenotype, complementing the angiopoietin-Tie axis already mapped."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 promotes the neutrophil-extracellular-trap-driven thromboinflammation that amplifies the venous thrombotic risk of inherited thrombophilia."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "DNA within neutrophil extracellular traps engages cGAS-STING, linking NET-driven sterile inflammation to the prothrombotic state of inherited thrombophilia."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K-AKT signalling (AKT already mapped) in platelets and endothelium supports the activated, procoagulant phenotype that drives thrombosis in inherited thrombophilia."
 ---
 
 # Inherited Thrombophilia
@@ -606,6 +615,9 @@ Antithrombin (ATIII) is the primary plasma inhibitor of thrombin, FXa, FIXa, and
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Endothelial PI3K-AKT signaling sustains eNOS-derived nitric oxide and the protein-C anticoagulant axis (NO and protein C mapped); its impairment shifts the endothelium toward the prothrombotic state that compounds inherited thrombophilia.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Thrombin acting through PAR receptors engages ERK-MAPK in platelets and endothelium (thrombin mapped), amplifying the prothrombotic activation state in inherited thrombophilia.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VEGF-driven endothelial activation and permeability contributes to the prothrombotic endothelial phenotype, complementing the angiopoietin-Tie axis already mapped.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 promotes the neutrophil-extracellular-trap-driven thromboinflammation that amplifies the venous thrombotic risk of inherited thrombophilia.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — DNA within neutrophil extracellular traps engages cGAS-STING, linking NET-driven sterile inflammation to the prothrombotic state of inherited thrombophilia.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K-AKT signaling (AKT already mapped) in platelets and endothelium supports the activated, procoagulant phenotype that drives thrombosis in inherited thrombophilia.
 
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)
