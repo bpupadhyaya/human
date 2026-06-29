@@ -334,6 +334,15 @@ cross_links:
   - target: 01-human/03-molecular/cgas-sting
     relation: connects-to
     note: "Cytosolic DNA sensing through cGAS-STING amplifies the NLRP3-inflammasome-driven inflammatory bone-marrow milieu (NLRP3 mapped) characteristic of MDS."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 supports the survival and bone-marrow-niche adhesion of the dysplastic clone and contributes to the inflammatory marrow microenvironment of MDS."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the immune-mediated cytopenias and the inflammatory bone-marrow milieu of MDS."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "RAS-ERK signalling (KRAS already mapped) provides a proliferative input in the subset of MDS that progresses toward acute myeloid leukemia."
 ---
 
 # Myelodysplastic Syndromes
@@ -550,6 +559,9 @@ MDS → AML transformation rate: ~10% at 1 year for very-low risk; ~40-50% at 2 
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK-STAT signaling (STAT3 mapped) is constitutively engaged in MDS progenitors and in MDS/MPN-overlap disease, a target of JAK inhibitor therapy.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — Loss of PTEN-restrained PI3K-AKT-mTOR signaling (AKT and mTOR mapped) promotes survival and proliferation of the dysplastic clone in MDS.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING amplifies the NLRP3-inflammasome-driven inflammatory bone-marrow milieu (NLRP3 mapped) characteristic of MDS.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 supports the survival and bone-marrow-niche adhesion of the dysplastic clone and contributes to the inflammatory marrow microenvironment of MDS.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the immune-mediated cytopenias and the inflammatory bone-marrow milieu of MDS.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — RAS-ERK signaling (KRAS already mapped) provides a proliferative input in the subset of MDS that progresses toward acute myeloid leukemia.
 
 [^fenaux-2009-aza001]: Fenaux P, Mufti GJ, Hellstrom-Lindberg E, et al. Efficacy of azacitidine compared with conventional care regimens in patients with higher-risk myelodysplastic syndromes. *Lancet Oncol.* 2009;10(3):223-232. [doi:10.1016/S1470-2045(09)70003-8](https://doi.org/10.1016/S1470-2045(09)70003-8) · [PubMed 19230772](https://pubmed.ncbi.nlm.nih.gov/19230772/)
 [^fenaux-2020-medalist]: Fenaux P, Platzbecker U, Mufti GJ, et al. Luspatercept in patients with lower-risk myelodysplastic syndromes. *N Engl J Med.* 2020;382(2):140-151. [doi:10.1056/NEJMoa1908892](https://doi.org/10.1056/NEJMoa1908892) · [PubMed 31914241](https://pubmed.ncbi.nlm.nih.gov/31914241/)

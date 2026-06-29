@@ -339,6 +339,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "VEGF-mediated endothelial activation and blood-brain-barrier disruption contributes to the cerebral malaria syndrome, complementing the angiopoietin-Tie axis already mapped."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 amplifies the macrophage inflammatory response to Plasmodium and contributes to the endothelial activation underlying severe malaria."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-γ-STAT1 signalling drives the macrophage antiparasitic program that controls Plasmodium but also contributes to the immunopathology of severe malaria."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K-AKT signalling is exploited by Plasmodium during the hepatocyte liver-stage infection and shapes the endothelial responses of severe malaria."
 ---
 
 # Malaria
@@ -604,6 +613,9 @@ cross_links:
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IFN-γ-driven control of blood-stage malaria signals through JAK-STAT (IFN-γ mapped), the macrophage-activating axis central to parasite clearance.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — Microvascular sequestration of infected erythrocytes produces local hypoxia that stabilizes HIF-1α, contributing to the tissue injury of severe and cerebral malaria.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VEGF-mediated endothelial activation and blood-brain-barrier disruption contributes to the cerebral malaria syndrome, complementing the angiopoietin-Tie axis already mapped.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 amplifies the macrophage inflammatory response to Plasmodium and contributes to the endothelial activation underlying severe malaria.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-γ-STAT1 signaling drives the macrophage antiparasitic program that controls Plasmodium but also contributes to the immunopathology of severe malaria.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling is exploited by Plasmodium during the hepatocyte liver-stage infection and shapes the endothelial responses of severe malaria.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)
