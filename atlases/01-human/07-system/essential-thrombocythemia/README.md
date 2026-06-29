@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/myd88
     relation: connects-to
     note: "Innate inflammatory milieu: TLR-MyD88-NF-κB innate signalling (NF-κB already mapped) sustains the chronic inflammatory milieu that characterises and propels myeloproliferative neoplasms including essential thrombocythemia."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "Type-I-interferon signalling through STAT1 (type-I-interferon mapped) underlies the disease-modifying activity of interferon therapy in essential thrombocythemia."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 expressed by megakaryocytes contributes to the marrow microenvironment and fibrotic potential of essential thrombocythemia."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "PTEN restraint of PI3K-AKT-mTOR signalling (AKT, PIK3CA and mTOR mapped) downstream of JAK2-driven activation shapes the clonal proliferation of essential thrombocythemia."
 ---
 
 # Essential Thrombocythemia
@@ -553,6 +562,9 @@ Management:
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — The PI3K-AKT-mTOR axis (AKT and PIK3CA already mapped) operates downstream of constitutive JAK2 signaling to drive the megakaryocyte proliferation of essential thrombocythemia.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation contributes to the clonal expansion and disease progression of the myeloproliferative neoplasm essential thrombocythemia.
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88-NF-κB innate signaling (NF-κB already mapped) sustains the chronic inflammatory milieu that characterizes and propels myeloproliferative neoplasms including essential thrombocythemia.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — Type-I-interferon signaling through STAT1 (type-I-interferon mapped) underlies the disease-modifying activity of interferon therapy in essential thrombocythemia.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 expressed by megakaryocytes contributes to the marrow microenvironment and fibrotic potential of essential thrombocythemia.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN restraint of PI3K-AKT-mTOR signaling (AKT, PIK3CA and mTOR mapped) downstream of JAK2-driven activation shapes the clonal proliferation of essential thrombocythemia.
 
 [^harrison-2005-pt1-et]: Harrison CN, Campbell PJ, Buck G, et al. Hydroxyurea compared with anagrelide in high-risk essential thrombocythemia. *N Engl J Med.* 2005;353(1):33-45. [doi:10.1056/NEJMoa043800](https://doi.org/10.1056/NEJMoa043800) · [PubMed 16000354](https://pubmed.ncbi.nlm.nih.gov/16000354/)
 [^barbui-2012-ipset]: Barbui T, Finazzi G, Carobbio A, et al. Development and validation of an International Prognostic Score of thrombosis in World Health Organization-essential thrombocythemia (IPSET-thrombosis). *Blood.* 2012;120(26):5128-5133. [doi:10.1182/blood-2012-07-444067](https://doi.org/10.1182/blood-2012-07-444067) · [PubMed 23086758](https://pubmed.ncbi.nlm.nih.gov/23086758/)

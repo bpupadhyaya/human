@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/rb1
     relation: connects-to
     note: "Cell-cycle restraint: the RB1-E2F checkpoint (CDKN2A and cyclin-D1 already mapped) restrains cell-cycle entry, and its disruption contributes to the proliferation of oesophageal cancer."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD4 signalling (TGF-β mapped) is a context-dependent tumour suppressor whose loss promotes progression in oesophageal cancer, particularly the Barrett-adenocarcinoma sequence."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 promotes invasion and immune evasion in oesophageal cancer."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "Loss of PTEN restraint on PI3K-AKT-mTOR signalling (AKT, PIK3CA and mTOR mapped) drives proliferation and survival in oesophageal cancer."
 ---
 
 # Esophageal Cancer
@@ -573,6 +582,9 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Chronic reflux- and inflammation-driven TLR-MyD88-NF-κB signaling (NF-κB already mapped) promotes the Barrett's-metaplasia-to-adenocarcinoma sequence of esophageal cancer.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6 signaling through JAK-STAT3 (IL-6 and STAT3 already mapped) sustains the inflammatory, pro-tumorigenic microenvironment of esophageal cancer.
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — The RB1-E2F checkpoint (CDKN2A and cyclin-D1 already mapped) restrains cell-cycle entry, and its disruption contributes to the proliferation of esophageal cancer.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD4 signaling (TGF-β mapped) is a context-dependent tumor suppressor whose loss promotes progression in esophageal cancer, particularly the Barrett-adenocarcinoma sequence.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 promotes invasion and immune evasion in esophageal cancer.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — Loss of PTEN restraint on PI3K-AKT-mTOR signaling (AKT, PIK3CA and mTOR mapped) drives proliferation and survival in esophageal cancer.
 
 ---
 
