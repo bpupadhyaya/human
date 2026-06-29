@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Complement amplification: the cytokine storm activates complement at C3, feeding the C5-C5aR1 axis already mapped to amplify neutrophil recruitment, endothelial injury and the thromboinflammation of hyperinflammatory states."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Initiating innate circuit: TLR-MyD88-NF-κB signalling (TLR4 and NF-κB already mapped), triggered by PAMPs and DAMPs, is a principal initiating circuit of the runaway cytokine production in cytokine storm."
+  - target: 01-human/03-molecular/mavs
+    relation: connects-to
+    note: "Viral-RNA sensing: RIG-I-MAVS sensing of viral RNA drives the type-I-interferon response (already mapped) that, when unrestrained, contributes to the cytokine storm of severe viral infection."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "Macrophage hyperactivation: IFN-γ signalling through STAT1 (IFN-γ already mapped) hyperactivates macrophages, the central effector mechanism of the macrophage-activation-syndrome form of cytokine storm."
 ---
 
 # Cytokine Storm
@@ -514,6 +523,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — IL-12 drives Th1 and NK cells to pour out IFN-γ (already mapped), the cytokine that dominates the hemophagocytic lymphohistiocytosis and macrophage-activation forms of cytokine storm.
 - `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — Cytokine-induced iNOS floods the circulation with nitric oxide, causing the vasodilation and refractory hypotension that produce the distributive shock of severe cytokine storm.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — The cytokine storm activates complement at C3, feeding the C5-C5aR1 axis already mapped to amplify neutrophil recruitment, endothelial injury and the thromboinflammation of hyperinflammatory states.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88-NF-κB signaling (TLR4 and NF-κB already mapped), triggered by PAMPs and DAMPs, is a principal initiating circuit of the runaway cytokine production in cytokine storm.
+- `connects-to` → **[MAVS](../../03-molecular/mavs/README.md)** — RIG-I-MAVS sensing of viral RNA drives the type-I-interferon response (already mapped) that, when unrestrained, contributes to the cytokine storm of severe viral infection.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-γ signaling through STAT1 (IFN-γ already mapped) hyperactivates macrophages, the central effector mechanism of the macrophage-activation-syndrome form of cytokine storm.
 
 ## Pathology
 

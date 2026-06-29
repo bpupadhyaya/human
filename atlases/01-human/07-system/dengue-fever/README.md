@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/il-17a
     relation: connects-to
     note: "Th17 permeability: IL-17A is elevated in severe dengue and amplifies endothelial inflammation and vascular permeability, adding to the cytokine-driven leak that characterises dengue haemorrhagic fever."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Interferon evasion: dengue NS5 degrades STAT2 to block JAK-STAT interferon signalling (type-I interferon and STAT1 already mapped), a key immune-evasion strategy that permits high viral replication."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Innate inflammatory drive: TLR-MyD88-NF-κB innate signalling (TLR4 and NF-κB already mapped) contributes to the inflammatory cytokine response that drives the vascular permeability of severe dengue."
+  - target: 01-human/03-molecular/thrombin
+    relation: connects-to
+    note: "Haemorrhagic coagulopathy: activation of coagulation generates thrombin and, with thrombocytopenia, produces the bleeding diathesis and disseminated intravascular coagulation of severe dengue haemorrhagic fever."
 ---
 
 # Dengue Fever
@@ -535,3 +544,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — IL-10 rises sharply in severe dengue, and its immunosuppressive action—blunting antiviral T-cell responses—tracks with and helps predict progression to dengue hemorrhagic fever and shock syndrome.
 - `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — Dysregulated nitric oxide signaling in the dengue-infected endothelium contributes to the loss of vascular barrier integrity that underlies the plasma leak of severe disease.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A is elevated in severe dengue and amplifies endothelial inflammation and vascular permeability, adding to the cytokine-driven leak that characterizes dengue hemorrhagic fever.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Dengue NS5 degrades STAT2 to block JAK-STAT interferon signaling (type-I interferon and STAT1 already mapped), a key immune-evasion strategy that permits high viral replication.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88-NF-κB innate signaling (TLR4 and NF-κB already mapped) contributes to the inflammatory cytokine response that drives the vascular permeability of severe dengue.
+- `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — Activation of coagulation generates thrombin and, with thrombocytopenia, produces the bleeding diathesis and disseminated intravascular coagulation of severe dengue hemorrhagic fever.
