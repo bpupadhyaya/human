@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/nf-kb
     relation: connects-to
     note: "Survival signalling: NF-κB-driven survival and inflammatory signalling supports the growth of retinoblastoma and contributes to chemoresistance."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 contributes to the invasion and survival of retinoblastoma cells."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "TGF-β signalling modulates the proliferation and microenvironment of retinoblastoma."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA sensing through cGAS-STING shapes the immune microenvironment of retinoblastoma."
 ---
 
 # Retinoblastoma
@@ -548,6 +557,9 @@ Standard regimen: **vincristine + carboplatin + etoposide (VCE)**, 6 cycles; red
 - `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — RAS-ERK signaling (ERK1/2 already mapped) provides a proliferative input cooperating with RB1 loss and MYCN amplification in retinoblastoma.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK kinases signal to STAT3 (already mapped), the survival pathway whose activity sustains retinoblastoma-cell chemoresistance.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB-driven survival and inflammatory signaling supports the growth of retinoblastoma and contributes to chemoresistance.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 contributes to the invasion and survival of retinoblastoma cells.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β signaling modulates the proliferation and microenvironment of retinoblastoma.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING shapes the immune microenvironment of retinoblastoma.
 
 [^knudson-1971-two-hit]: Knudson AG Jr. Mutation and cancer: statistical study of retinoblastoma. *Proc Natl Acad Sci USA.* 1971;68(4):820-823. [doi:10.1073/pnas.68.4.820](https://doi.org/10.1073/pnas.68.4.820) · [PubMed 5279523](https://pubmed.ncbi.nlm.nih.gov/5279523/)
 [^shields-2008-retinoblastoma]: Shields CL, Shields JA. Retinoblastoma management: advances in enucleation, intravenous chemoreduction, and intra-arterial chemotherapy. *Curr Opin Ophthalmol.* 2010;21(3):203-212. [doi:10.1097/ICU.0b013e328338676a](https://doi.org/10.1097/ICU.0b013e328338676a) · [PubMed 20224400](https://pubmed.ncbi.nlm.nih.gov/20224400/)
