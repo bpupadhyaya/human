@@ -343,6 +343,15 @@ cross_links:
   - target: 01-human/03-molecular/pten
     relation: connects-to
     note: "PTEN restrains the PI3K-AKT signalling downstream of the erythropoietin receptor that drives erythroid survival and expansion, a node in the impaired EPO response of ACD."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 amplifies the macrophage inflammatory activation that drives the hepcidin-mediated iron sequestration of anemia of chronic disease."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA sensing through cGAS-STING contributes to the chronic inflammatory tone that sustains the hepcidin response and iron restriction of anemia of chronic disease."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "CCL2-driven monocyte recruitment sustains the inflammatory macrophage activity that underlies the iron sequestration of anemia of chronic disease."
 ---
 
 # Anemia of Chronic Disease
@@ -575,6 +584,9 @@ This adaptive rationale explains why **aggressive iron supplementation during ac
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — EPO-driven ERK-MAPK signaling promotes erythroid progenitor proliferation (EPO mapped); the blunted EPO responsiveness of ACD impairs this proliferative drive.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR-regulated translation and iron-sensing govern erythroid maturation, coupling the iron restriction of ACD to ineffective erythropoiesis.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN restrains the PI3K-AKT signaling downstream of the erythropoietin receptor that drives erythroid survival and expansion, a node in the impaired EPO response of ACD.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 amplifies the macrophage inflammatory activation that drives the hepcidin-mediated iron sequestration of anemia of chronic disease.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING contributes to the chronic inflammatory tone that sustains the hepcidin response and iron restriction of anemia of chronic disease.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2-driven monocyte recruitment sustains the inflammatory macrophage activity that underlies the iron sequestration of anemia of chronic disease.
 
 [^weiss-2005-acd-review]: Weiss G, Goodnough LT. Anemia of chronic disease. *N Engl J Med.* 2005;352(10):1011-1023. [doi:10.1056/NEJMra041809](https://doi.org/10.1056/NEJMra041809) · [PubMed 15758012](https://pubmed.ncbi.nlm.nih.gov/15758012/)
 [^nemeth-2004-il6-hepcidin]: Nemeth E, Rivera S, Gabayan V, et al. IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin. *J Clin Invest.* 2004;113(9):1271-1276. [doi:10.1172/JCI200420945](https://doi.org/10.1172/JCI200420945) · [PubMed 15124018](https://pubmed.ncbi.nlm.nih.gov/15124018/)
