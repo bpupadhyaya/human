@@ -346,6 +346,15 @@ cross_links:
   - target: 01-human/03-molecular/galectin-3
     relation: connects-to
     note: "Microglial galectin-3 marks the reactive-microglia state reported in autism brains, contributing to the neuroinflammatory component of the disorder."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling transduces the maternal-immune-activation interferon exposure epidemiologically linked to autism spectrum disorder."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA sensing through cGAS-STING contributes to the innate neuroinflammatory activation implicated in autism spectrum disorder."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling shapes the neurodevelopmental and synaptic processes whose perturbation is implicated in autism spectrum disorder."
 ---
 
 # Autism Spectrum Disorder
@@ -592,6 +601,9 @@ The neural basis of ASD social deficits involves dysfunction of the **social bra
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Maternal IL-6 acting through STAT3 (IL-6 mapped) is a central mediator of the maternal-immune-activation pathway linked to autism risk in offspring.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Cytokine-driven JAK-STAT signaling transduces the maternal and neuroinflammatory cytokine milieu implicated in the neurodevelopmental alterations of autism.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Microglial galectin-3 marks the reactive-microglia state reported in autism brains, contributing to the neuroinflammatory component of the disorder.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling transduces the maternal-immune-activation interferon exposure epidemiologically linked to autism spectrum disorder.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING contributes to the innate neuroinflammatory activation implicated in autism spectrum disorder.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling shapes the neurodevelopmental and synaptic processes whose perturbation is implicated in autism spectrum disorder.
 
 [^maenner-2023-asd-prevalence]: Maenner MJ, Warren Z, Williams AR, et al. Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 2020. *MMWR Surveill Summ.* 2023;72(2):1-14. [doi:10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1) · [PubMed 36952216](https://pubmed.ncbi.nlm.nih.gov/36952216/)
 [^lord-2020-asd-review]: Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum disorder. *Lancet.* 2018;392(10146):508-520. [doi:10.1016/S0140-6736(18)31129-2](https://doi.org/10.1016/S0140-6736(18)31129-2) · [PubMed 30078460](https://pubmed.ncbi.nlm.nih.gov/30078460/)

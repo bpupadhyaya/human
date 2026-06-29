@@ -324,6 +324,15 @@ cross_links:
   - target: 01-human/03-molecular/tlr4
     relation: connects-to
     note: "Diet-induced TLR4 activation contributes to the hypothalamic inflammation that blunts satiety signalling in binge eating disorder."
+  - target: 01-human/03-molecular/ntrk
+    relation: connects-to
+    note: "BDNF-TrkB (NTRK) signalling (BDNF already mapped) shapes the reward and appetite plasticity implicated in the loss of control over eating in binge eating disorder."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "Hypothalamic leptin-STAT3 signalling (leptin already mapped) couples adiposity signals to the satiety regulation that is dysregulated in binge eating disorder."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 released by activated microglia amplifies the hypothalamic neuroinflammation linked to the satiety dysregulation of binge eating disorder."
 sources:
   - id: american-psychiatric-2013-bed-dsm5
     type: clinical-guideline
@@ -587,6 +596,9 @@ BED is among the most psychiatrically comorbid of all eating disorders:
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Leptin signaling through JAK2-STAT3 (leptin mapped) in hypothalamic appetite centers is dysregulated in the impaired satiety of binge eating disorder.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Insulin and leptin PI3K-AKT-mTOR signaling (insulin, leptin and mTOR mapped) integrates metabolic state with the reward and appetite circuits disrupted in binge eating disorder.
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Diet-induced TLR4 activation contributes to the hypothalamic inflammation that blunts satiety signaling in binge eating disorder.
+- `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — BDNF-TrkB (NTRK) signaling (BDNF already mapped) shapes the reward and appetite plasticity implicated in the loss of control over eating in binge eating disorder.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Hypothalamic leptin-STAT3 signaling (leptin already mapped) couples adiposity signals to the satiety regulation that is dysregulated in binge eating disorder.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 released by activated microglia amplifies the hypothalamic neuroinflammation linked to the satiety dysregulation of binge eating disorder.
 
 [^american-psychiatric-2013-bed-dsm5]: American Psychiatric Association. Binge Eating Disorder (307.51). In: *Diagnostic and Statistical Manual of Mental Disorders, 5th ed.* Arlington, VA: APA; 2013. [doi:10.1176/appi.books.9780890425596](https://doi.org/10.1176/appi.books.9780890425596)
 [^mccallum-2003-bed-review]: McCallum K, Bruton AM. Binge eating disorder: eating disorder or somatic syndrome? *Prim Care Companion J Clin Psychiatry.* 2003;5(Suppl 4):20-25. [PubMed 15213784](https://pubmed.ncbi.nlm.nih.gov/15213784/)
