@@ -328,6 +328,15 @@ cross_links:
   - target: 01-human/03-molecular/myc
     relation: connects-to
     note: "Lymphomagenesis: the chronic B-cell hyperactivation of Sjögren's (BAFF mapped) carries a marked risk of transformation to MALT/marginal-zone lymphoma, a MYC-associated event in the salivary glands."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 inflammation: IL-23 sustains the pathogenic Th17 response (IL-17A already mapped) that contributes to the glandular inflammation of Sjögren's syndrome."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Innate interferon trigger: TLR-driven innate sensing of viral and self-nucleic-acid signals (with MyD88 already mapped) helps trigger the type-I-interferon-driven autoimmunity of Sjögren's syndrome."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Glandular cytotoxicity: CD8 cytotoxic T cells deploy perforin to destroy the salivary and lacrimal glandular epithelium, a direct effector mechanism of the sicca symptoms of Sjögren's syndrome."
 ---
 
 # Sjögren's Syndrome
@@ -561,6 +570,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Anti-Ro/La immune complexes engage endosomal TLR7/9, signaling through MyD88 to activate NF-κB (mapped) and the type-I interferon program (mapped) that defines the Sjögren's IFN signature.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — The cGAS-STING pathway senses self nucleic acids in the inflamed glands and feeds the type-I interferon signature (mapped) central to Sjögren's pathogenesis.
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — The chronic B-cell hyperactivation of Sjögren's (BAFF mapped) carries a marked risk of transformation to MALT/marginal-zone lymphoma, a MYC-associated event in the salivary glands.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — IL-23 sustains the pathogenic Th17 response (IL-17A already mapped) that contributes to the glandular inflammation of Sjögren's syndrome.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR-driven innate sensing of viral and self-nucleic-acid signals (with MyD88 already mapped) helps trigger the type-I-interferon-driven autoimmunity of Sjögren's syndrome.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — CD8 cytotoxic T cells deploy perforin to destroy the salivary and lacrimal glandular epithelium, a direct effector mechanism of the sicca symptoms of Sjögren's syndrome.
 
 ---
 

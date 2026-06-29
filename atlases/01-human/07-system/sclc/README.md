@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/perforin
     relation: connects-to
     note: "Immunotherapy killing: the DLL3-CD3 bispecific tarlatamab (DLL3 mapped) and checkpoint inhibitors redirect cytotoxic T cells to kill SCLC through perforin and granzyme."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Survival microenvironment: IL-6-JAK-STAT3 signalling (IL-6 and STAT3 already mapped) supports the survival and immunosuppressive microenvironment of small cell lung cancer."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Smoking oxidative defence: NRF2 antioxidant signalling, induced by cigarette-smoke oxidants, contributes to the rapid proliferation and chemoresistance of small cell lung cancer."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Smoking-driven inflammation: cigarette-smoke-driven TLR-MyD88-NF-κB signalling (NF-κB already mapped) provides a chronic inflammatory drive in the lung carcinogenesis underlying small cell lung cancer."
 ---
 
 # Small Cell Lung Cancer
@@ -533,6 +542,9 @@ SCLC has highest rate of brain metastases among solid tumors (~50% at 2 years); 
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR is the growth-controlling output of the PI3K-AKT axis (PIK3CA and AKT mapped) recurrently activated in SCLC, integrating the survival signaling layered on its RB1/TP53 loss.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — SCLC is a highly vascular, rapidly growing tumor driven by VEGF-mediated angiogenesis, the basis for anti-angiogenic agents combined with chemotherapy.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — The DLL3-CD3 bispecific tarlatamab (DLL3 mapped) and checkpoint inhibitors redirect cytotoxic T cells to kill SCLC through perforin and granzyme.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6-JAK-STAT3 signaling (IL-6 and STAT3 already mapped) supports the survival and immunosuppressive microenvironment of small cell lung cancer.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2 antioxidant signaling, induced by cigarette-smoke oxidants, contributes to the rapid proliferation and chemoresistance of small cell lung cancer.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Cigarette-smoke-driven TLR-MyD88-NF-κB signaling (NF-κB already mapped) provides a chronic inflammatory drive in the lung carcinogenesis underlying small cell lung cancer.
 
 [^horn-2018-impower133]: Horn L, Mansfield AS, Szczęsna A, et al. First-line atezolizumab plus chemotherapy in extensive-stage small-cell lung cancer. *N Engl J Med.* 2018;379(23):2220-2229. [doi:10.1056/NEJMoa1809064](https://doi.org/10.1056/NEJMoa1809064) · [PubMed 30280641](https://pubmed.ncbi.nlm.nih.gov/30280641/)
 [^paz-ares-2019-caspian]: Paz-Ares L, Dvorkin M, Chen Y, et al. Durvalumab plus platinum-etoposide versus platinum-etoposide in first-line treatment of extensive-stage small-cell lung cancer (CASPIAN). *Lancet.* 2019;394(10212):1929-1939. [doi:10.1016/S0140-6736(19)32222-6](https://doi.org/10.1016/S0140-6736(19)32222-6) · [PubMed 31590988](https://pubmed.ncbi.nlm.nih.gov/31590988/)
