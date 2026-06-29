@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/cdh1
     relation: connects-to
     note: "EMT and invasion: loss of E-cadherin during epithelial-mesenchymal transition releases cervical-carcinoma cells from their junctions, enabling stromal invasion and the lymph-node spread that worsens prognosis."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Interferon evasion: HPV oncoproteins suppress the type-I-interferon response (already mapped), and JAK-STAT signalling (STAT3 mapped) governs the immune evasion and inflammatory signalling of cervical cancer."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Treatment resistance: NRF2 antioxidant activation contributes to the chemo- and radio-resistance of cervical cancer, protecting tumour cells from treatment-induced oxidative stress."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Progression to invasion: Wnt/β-catenin signalling cooperates with HPV oncoproteins in the progression from cervical intraepithelial neoplasia to invasive carcinoma."
 ---
 
 # Cervical Cancer
@@ -546,6 +555,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss intensifies PI3K-AKT-mTOR signaling (PIK3CA, AKT and mTOR already mapped), a frequent somatic event cooperating with HPV E6/E7 in cervical carcinoma.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — EGFR and RAS signaling (EGFR and KRAS already mapped) drive the MAPK-ERK cascade in cervical cancer, sustaining proliferation and serving as a candidate therapeutic axis.
 - `connects-to` → **[CDH1](../../03-molecular/cdh1/README.md)** — Loss of E-cadherin during epithelial-mesenchymal transition releases cervical-carcinoma cells from their junctions, enabling stromal invasion and the lymph-node spread that worsens prognosis.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — HPV oncoproteins suppress the type-I-interferon response (already mapped), and JAK-STAT signaling (STAT3 mapped) governs the immune evasion and inflammatory signaling of cervical cancer.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2 antioxidant activation contributes to the chemo- and radio-resistance of cervical cancer, protecting tumor cells from treatment-induced oxidative stress.
+- `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Wnt/β-catenin signaling cooperates with HPV oncoproteins in the progression from cervical intraepithelial neoplasia to invasive carcinoma.
 
 ---
 

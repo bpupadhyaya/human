@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/cdkn2a
     relation: connects-to
     note: "Cell-cycle release: CDKN2A/p16 loss is a frequent event in cholangiocarcinoma, removing the brake on CDK4/6-cyclin-D-driven entry into the cell cycle."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "Tumour-suppressor loss: SMAD4 loss disables TGF-β tumour-suppressor signalling (TGF-β already mapped), a frequent and prognostically adverse event in cholangiocarcinoma."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Inflammation-driven growth: chronic biliary inflammation signals through IL-6-JAK-STAT3 (IL-6 and STAT3 already mapped) to drive the cholangiocyte proliferation and survival underlying cholangiocarcinoma."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Innate carcinogenesis: TLR-MyD88-NF-κB innate signalling (TLR4 and NF-κB already mapped), driven by liver-fluke infection and primary sclerosing cholangitis, sustains the inflammation that promotes cholangiocarcinogenesis."
 ---
 
 # Cholangiocarcinoma
@@ -520,6 +529,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — KRAS, BRAF, FGFR2 fusions and MET (all already mapped) funnel into the MAPK-ERK cascade, the central proliferative driver and a key therapeutic target in cholangiocarcinoma.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR completes the PI3K-AKT-mTOR pathway (PIK3CA and AKT already mapped) that sustains growth and survival signaling in cholangiocarcinoma.
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A/p16 loss is a frequent event in cholangiocarcinoma, removing the brake on CDK4/6-cyclin-D-driven entry into the cell cycle.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — SMAD4 loss disables TGF-β tumor-suppressor signaling (TGF-β already mapped), a frequent and prognostically adverse event in cholangiocarcinoma.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Chronic biliary inflammation signals through IL-6-JAK-STAT3 (IL-6 and STAT3 already mapped) to drive the cholangiocyte proliferation and survival underlying cholangiocarcinoma.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88-NF-κB innate signaling (TLR4 and NF-κB already mapped), driven by liver-fluke infection and primary sclerosing cholangitis, sustains the inflammation that promotes cholangiocarcinogenesis.
 
 ---
 
