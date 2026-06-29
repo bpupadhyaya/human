@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/pten
     relation: connects-to
     note: "PI3K brake: PTEN normally restrains the same PI3K-AKT signalling, and its relative loss tips desmoid fibroblasts toward the growth and survival that complement Wnt-driven proliferation."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Inflammatory stroma: IL-6 signalling through JAK-STAT3 (IL-6 and STAT3 already mapped) sustains the inflammatory, proliferative stroma of the desmoid tumour."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Apoptosis resistance: anti-apoptotic BCL-2 raises the threshold for caspase-3 apoptosis (already mapped), contributing to the persistence and treatment-resistance of desmoid fibromatosis."
+  - target: 01-human/03-molecular/kras
+    relation: connects-to
+    note: "RTK-RAS proliferation: receptor-tyrosine-kinase signalling (PDGFR and FGFR mapped) converges on RAS-ERK (ERK1/2 mapped) to provide a proliferative input cooperating with Wnt/β-catenin in desmoid growth."
 ---
 
 # Desmoid Tumor
@@ -557,6 +566,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PIK3CA drives the PI3K-AKT-mTOR axis (AKT and mTOR already mapped) co-active in desmoid fibromatosis, the basis for the antitumor activity of mTOR inhibitors such as sirolimus.
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — β-catenin transactivates cyclin-D1 (mapped), and the resulting CDK4/6 activity phosphorylates RB to release E2F1, driving the cell-cycle entry that makes desmoid fibromatosis locally aggressive.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN normally restrains the same PI3K-AKT signaling, and its relative loss tips desmoid fibroblasts toward the growth and survival that complement Wnt-driven proliferation.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6 signaling through JAK-STAT3 (IL-6 and STAT3 already mapped) sustains the inflammatory, proliferative stroma of the desmoid tumor.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Anti-apoptotic BCL-2 raises the threshold for caspase-3 apoptosis (already mapped), contributing to the persistence and treatment-resistance of desmoid fibromatosis.
+- `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — Receptor-tyrosine-kinase signaling (PDGFR and FGFR mapped) converges on RAS-ERK (ERK1/2 mapped) to provide a proliferative input cooperating with Wnt/β-catenin in desmoid growth.
 
 ---
 

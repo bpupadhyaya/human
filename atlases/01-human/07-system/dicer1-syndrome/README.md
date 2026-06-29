@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/e2f1
     relation: connects-to
     note: "Cell-cycle derepression: loss of DICER1-dependent microRNA control over cell-cycle genes, alongside the RB-CDKN2A-cyclin-D1 axis already mapped, releases E2F1 to drive proliferation in embryonal DICER1 tumours."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Gonadal-stromal tumours: TGF-β/activin-superfamily signalling (activin-A already mapped) shapes the Sertoli-Leydig and other gonadal-stromal tumours characteristic of DICER1 syndrome."
+  - target: 01-human/03-molecular/kit
+    relation: connects-to
+    note: "Germ-cell signalling: KIT receptor-tyrosine-kinase signalling contributes to the embryonal and germ-cell-related tumours that arise in DICER1 syndrome."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Apoptosis evasion: anti-apoptotic BCL-2 raises the threshold for caspase-3 apoptosis (already mapped), supporting the survival of the diverse embryonal tumours of DICER1 syndrome."
 ---
 
 # DICER1 Syndrome
@@ -538,6 +547,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — KRAS and FGFR (both already mapped) drive the MAPK-ERK cascade in DICER1-associated tumors such as pleuropulmonary blastoma and Sertoli-Leydig cell tumors.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN normally limits the PI3K-AKT-mTOR axis (PIK3CA, AKT and mTOR already mapped) that is co-activated in DICER1 tumors to support their growth.
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — Loss of DICER1-dependent microRNA control over cell-cycle genes, alongside the RB-CDKN2A-cyclin-D1 axis already mapped, releases E2F1 to drive proliferation in embryonal DICER1 tumors.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β/activin-superfamily signaling (activin-A already mapped) shapes the Sertoli-Leydig and other gonadal-stromal tumors characteristic of DICER1 syndrome.
+- `connects-to` → **[KIT](../../03-molecular/kit/README.md)** — KIT receptor-tyrosine-kinase signaling contributes to the embryonal and germ-cell-related tumors that arise in DICER1 syndrome.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Anti-apoptotic BCL-2 raises the threshold for caspase-3 apoptosis (already mapped), supporting the survival of the diverse embryonal tumors of DICER1 syndrome.
 
 ---
 
