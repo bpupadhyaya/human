@@ -334,6 +334,15 @@ cross_links:
   - target: 01-human/03-molecular/nfe2l2
     relation: connects-to
     note: "Oxidative stress: NRF2-regulated antioxidant defences counter the oxidative stress that accompanies chronic anxiety and HPA-axis overactivation, linking redox imbalance to the persistence of social anxiety."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "BDNF/serotonergic PI3K-AKT-mTOR signalling supports the neuroplasticity that anxiolytic treatment restores in social anxiety disorder."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Microglial galectin-3 reflects the low-grade neuroinflammation associated with chronic anxiety states including social anxiety disorder."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "TLR4-MyD88 innate signalling (TLR4 mapped) drives the neuroinflammation increasingly linked to anxiety pathophysiology."
 ---
 
 # Social Anxiety Disorder
@@ -569,6 +578,9 @@ The unique **dopaminergic social reward deficit** in SAD has clinical implicatio
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4-driven neuroinflammation links systemic and stress-induced inflammation to the cortico-amygdala hyperarousal implicated in social anxiety disorder.
 - `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — BDNF signaling through its TrkB receptor (NTRK) supports the prefrontal-amygdala plasticity required for fear extinction, the deficient process underlying persistent social fear.
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2-regulated antioxidant defenses counter the oxidative stress that accompanies chronic anxiety and HPA-axis overactivation, linking redox imbalance to the persistence of social anxiety.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — BDNF/serotonergic PI3K-AKT-mTOR signaling supports the neuroplasticity that anxiolytic treatment restores in social anxiety disorder.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Microglial galectin-3 reflects the low-grade neuroinflammation associated with chronic anxiety states including social anxiety disorder.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR4-MyD88 innate signaling (TLR4 mapped) drives the neuroinflammation increasingly linked to anxiety pathophysiology.
 
 [^liebowitz-1987-sad-scale]: Liebowitz MR. Social phobia. *Mod Probl Pharmacopsychiatry.* 1987;22:141-173. [PubMed 2885745](https://pubmed.ncbi.nlm.nih.gov/2885745/)
 [^stein-2008-sad-review]: Stein MB, Stein DJ. Social anxiety disorder. *Lancet.* 2008;371(9618):1115-1125. [doi:10.1016/S0140-6736(08)60488-2](https://doi.org/10.1016/S0140-6736(08)60488-2) · [PubMed 18374843](https://pubmed.ncbi.nlm.nih.gov/18374843/)

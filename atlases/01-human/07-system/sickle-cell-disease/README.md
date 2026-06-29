@@ -334,6 +334,15 @@ cross_links:
   - target: 01-human/03-molecular/angiopoietin
     relation: connects-to
     note: "Endothelial dysfunction: disruption of the angiopoietin-Tie2 axis that maintains endothelial barrier integrity promotes the endothelial activation and vascular leak underlying the vaso-occlusive injury of sickle-cell disease."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K-AKT-eNOS signalling regulates endothelial nitric-oxide production (NO mapped), a vasoprotective axis impaired by the hemolysis and oxidative stress of sickle-cell disease."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "ERK-MAPK signalling in activated endothelium and leukocytes amplifies the adhesion and inflammatory responses driving vaso-occlusion in sickle-cell disease."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 amplifies the sterile inflammation of haemolysis and vaso-occlusion, contributing to the chronic vascular injury of sickle-cell disease."
 ---
 
 # Sickle Cell Disease
@@ -598,6 +607,9 @@ SCD vaso-occlusion is not just from sickled RBCs mechanically blocking vessels �
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Free heme released by intravascular hemolysis acts as a TLR4 agonist signaling through MyD88 to NF-κB (both already mapped), driving the sterile inflammation that promotes vaso-occlusion in sickle-cell disease.
 - `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — Chronic activation of coagulation generates thrombin and a prothrombotic milieu (protein C already mapped) that contributes to the thrombotic complications and elevated stroke risk of sickle-cell disease.
 - `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Disruption of the angiopoietin-Tie2 axis that maintains endothelial barrier integrity promotes the endothelial activation and vascular leak underlying the vaso-occlusive injury of sickle-cell disease.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT-eNOS signaling regulates endothelial nitric-oxide production (NO mapped), a vasoprotective axis impaired by the hemolysis and oxidative stress of sickle-cell disease.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling in activated endothelium and leukocytes amplifies the adhesion and inflammatory responses driving vaso-occlusion in sickle-cell disease.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 amplifies the sterile inflammation of hemolysis and vaso-occlusion, contributing to the chronic vascular injury of sickle-cell disease.
 
 [^steinberg-1999-scd-management]: Steinberg MH. Management of sickle cell disease. *N Engl J Med.* 1999;340(13):1021-1030. [doi:10.1056/NEJM199904013401307](https://doi.org/10.1056/NEJM199904013401307) · [PubMed 10099145](https://pubmed.ncbi.nlm.nih.gov/10099145/)
 [^vichinsky-2000-acs-scd]: Vichinsky EP, Neumayr LD, Earles AN, et al. Causes and outcomes of the acute chest syndrome in sickle cell disease. *N Engl J Med.* 2000;342(25):1855-1865. [doi:10.1056/NEJM200006223422502](https://doi.org/10.1056/NEJM200006223422502) · [PubMed 10861320](https://pubmed.ncbi.nlm.nih.gov/10861320/)
