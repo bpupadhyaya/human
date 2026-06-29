@@ -339,6 +339,15 @@ cross_links:
   - target: 01-human/03-molecular/akt
     relation: connects-to
     note: "Synovial survival: PI3K-AKT signalling promotes the survival and proliferation of the activated synovial fibroblasts and immune cells driving the joint destruction of psoriatic arthritis."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "ERK-MAPK signalling drives the fibroblast-like synoviocyte proliferation and inflammatory response of psoriatic-arthritis synovitis."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 amplifies the synovial inflammation and is elevated in the joints of psoriatic arthritis."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling (TGF-β mapped) contributes to the entheseal new-bone formation characteristic of psoriatic arthritis."
 ---
 
 # Psoriatic Arthritis
@@ -593,6 +602,9 @@ Risankizumab (anti-IL-23p19) **failed primary endpoints** in the SURPASS trial f
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4 innate sensing of microbial and damage signals (with MyD88 already mapped) contributes to the initiation of the synovial and entheseal inflammation of psoriatic arthritis.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR-driven metabolic activation of Th17 cells and synovial fibroblasts supports the persistent inflammation of psoriatic arthritis.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling promotes the survival and proliferation of the activated synovial fibroblasts and immune cells driving the joint destruction of psoriatic arthritis.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling drives the fibroblast-like synoviocyte proliferation and inflammatory response of psoriatic-arthritis synovitis.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 amplifies the synovial inflammation and is elevated in the joints of psoriatic arthritis.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β mapped) contributes to the entheseal new-bone formation characteristic of psoriatic arthritis.
 
 [^ritchlin-2017-psa-review]: Ritchlin CT, Colbert RA, Gladman DD. Psoriatic arthritis. *N Engl J Med.* 2017;376(10):957-970. [doi:10.1056/NEJMra1505557](https://doi.org/10.1056/NEJMra1505557) · [PubMed 28273019](https://pubmed.ncbi.nlm.nih.gov/28273019/)
 [^mease-2015-secukinumab-psa-future2]: Mease PJ, et al. Secukinumab inhibition of interleukin-17A in patients with psoriatic arthritis. *N Engl J Med.* 2015;373(14):1329-1339. [doi:10.1056/NEJMoa1503317](https://doi.org/10.1056/NEJMoa1503317) · [PubMed 26422723](https://pubmed.ncbi.nlm.nih.gov/26422723/)

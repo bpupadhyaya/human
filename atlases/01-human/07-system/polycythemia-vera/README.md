@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/runx1
     relation: connects-to
     note: "Leukaemic progression: acquired RUNX1 mutations mark the transformation of polycythemia vera to secondary acute myeloid leukaemia."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "Type-I-interferon signalling through STAT1 (type-I-interferon mapped) underlies the disease-modifying activity of ropeginterferon in polycythemia vera."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 expressed by megakaryocytes contributes to the marrow microenvironment and the fibrotic potential of polycythemia vera."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "PTEN restraint of PI3K-AKT-mTOR signalling (AKT, PIK3CA and mTOR mapped) downstream of JAK2-driven activation shapes the clonal proliferation of polycythemia vera."
 ---
 
 # Polycythemia Vera
@@ -557,6 +566,9 @@ PV must be distinguished from secondary erythrocytosis (elevated EPO, JAK2 wild-
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88-NF-κB innate signaling (NF-κB already mapped) sustains the chronic inflammatory milieu that drives symptoms and clonal progression in polycythemia vera.
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A loss is among the cooperating lesions in the leukemic transformation of polycythemia vera to acute myeloid leukemia.
 - `connects-to` → **[RUNX1](../../03-molecular/runx1/README.md)** — Acquired RUNX1 mutations mark the transformation of polycythemia vera to secondary acute myeloid leukemia.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — Type-I-interferon signaling through STAT1 (type-I-interferon mapped) underlies the disease-modifying activity of ropeginterferon in polycythemia vera.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 expressed by megakaryocytes contributes to the marrow microenvironment and the fibrotic potential of polycythemia vera.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN restraint of PI3K-AKT-mTOR signaling (AKT, PIK3CA and mTOR mapped) downstream of JAK2-driven activation shapes the clonal proliferation of polycythemia vera.
 
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409630](https://doi.org/10.1056/NEJMoa1409630) · [PubMed 25577388](https://pubmed.ncbi.nlm.nih.gov/25577388/)
 [^gisslinger-2020-proud-pv]: Gisslinger H, Gotic M, Holowiecki J, et al. Ropeginterferon alfa-2b versus standard therapy for polycythaemia vera (PROUD-PV and CONTINUATION-PV): a randomised, non-inferiority, phase 3 trial and its extension study. *Lancet Haematol.* 2020;7(3):e196-e208. [doi:10.1016/S2352-3026(19)30236-4](https://doi.org/10.1016/S2352-3026(19)30236-4) · [PubMed 32046833](https://pubmed.ncbi.nlm.nih.gov/32046833/)
