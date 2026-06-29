@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/cdh1
     relation: connects-to
     note: "EMT and invasion: loss of E-cadherin during epithelial-mesenchymal transition promotes the invasion of ovarian clear cell carcinoma, a tumour arising from endometriotic epithelium."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Endometriosis inflammation: IL-6-JAK-STAT3 signalling (IL-6 and STAT3 already mapped) from the endometriosis-associated inflammatory milieu drives the development and chemoresistance of ovarian clear cell carcinoma."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Iron-driven innate inflammation: TLR-MyD88-NF-κB innate signalling (NF-κB already mapped), driven by the iron and inflammation of endometriotic cysts, contributes to the malignant transformation underlying ovarian clear cell carcinoma."
+  - target: 01-human/03-molecular/rb1
+    relation: connects-to
+    note: "Cell-cycle drive: RB-pathway dysregulation (CDK4/6, cyclin-D1 and E2F1 already mapped) contributes to the cell-cycle progression of ovarian clear cell carcinoma."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -565,6 +574,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — The cyclin-D1-CDK4/6 axis (both mapped) releases E2F1 to drive the proliferation of ovarian clear cell carcinoma.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — KRAS and MET (both mapped) activate the MAPK-ERK cascade contributing to the growth of ovarian clear cell carcinoma.
 - `connects-to` → **[CDH1](../../03-molecular/cdh1/README.md)** — Loss of E-cadherin during epithelial-mesenchymal transition promotes the invasion of ovarian clear cell carcinoma, a tumor arising from endometriotic epithelium.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6-JAK-STAT3 signaling (IL-6 and STAT3 already mapped) from the endometriosis-associated inflammatory milieu drives the development and chemoresistance of ovarian clear cell carcinoma.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88-NF-κB innate signaling (NF-κB already mapped), driven by the iron and inflammation of endometriotic cysts, contributes to the malignant transformation underlying ovarian clear cell carcinoma.
+- `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — RB-pathway dysregulation (CDK4/6, cyclin-D1 and E2F1 already mapped) contributes to the cell-cycle progression of ovarian clear cell carcinoma.
 
 ---
 
