@@ -343,6 +343,15 @@ cross_links:
   - target: 01-human/03-molecular/galectin-3
     relation: connects-to
     note: "Microglial galectin-3 promotes the demyelinating neuroinflammation of multiple sclerosis lesions."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling underlies both the antiviral interferon response and the mechanism of IFN-β disease-modifying therapy in multiple sclerosis."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA sensing through cGAS-STING contributes to the innate neuroinflammation that drives demyelinating lesion formation in multiple sclerosis."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling (TGF-β already mapped) governs the regulatory-T-cell balance and remyelination responses relevant to multiple sclerosis."
 ---
 
 # Multiple Sclerosis
@@ -561,6 +570,9 @@ MS affects approximately **2.8 million people worldwide** (~1 million in the US)
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 signaling downstream of IL-6 and IL-23 (both mapped) drives the pathogenic Th17 differentiation central to multiple sclerosis.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling supports oligodendrocyte survival and remyelination, processes whose failure contributes to progressive multiple sclerosis.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Microglial galectin-3 promotes the demyelinating neuroinflammation of multiple sclerosis lesions.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling underlies both the antiviral interferon response and the mechanism of IFN-β disease-modifying therapy in multiple sclerosis.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING contributes to the innate neuroinflammation that drives demyelinating lesion formation in multiple sclerosis.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β already mapped) governs the regulatory-T-cell balance and remyelination responses relevant to multiple sclerosis.
 
 [^compston-2008-ms-review]: Compston A, Coles A. Multiple sclerosis. *Lancet.* 2008;372(9648):1502-1517. [doi:10.1016/S0140-6736(08)61620-7](https://doi.org/10.1016/S0140-6736(08)61620-7) · [PubMed 18970977](https://pubmed.ncbi.nlm.nih.gov/18970977/)
 [^kappos-2006-natalizumab]: Polman CH, O'Connor PW, Havrdova E, et al. A randomized, placebo-controlled trial of natalizumab for relapsing multiple sclerosis. *N Engl J Med.* 2006;354(9):899-910. [doi:10.1056/NEJMoa044397](https://doi.org/10.1056/NEJMoa044397) · [PubMed 16510744](https://pubmed.ncbi.nlm.nih.gov/16510744/)
