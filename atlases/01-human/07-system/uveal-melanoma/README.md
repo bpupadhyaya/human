@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/cdh1
     relation: connects-to
     note: "Metastatic spread: loss of E-cadherin and the dedifferentiation accompanying BAP1 loss (mapped) promote the epithelial-mesenchymal-like transition that drives the hepatotropic metastasis of uveal melanoma."
+  - target: 01-human/03-molecular/rb1
+    relation: connects-to
+    note: "Cell-cycle restraint: dysregulation of the RB1-E2F checkpoint (CDKN2A, cyclin-D1 and E2F1 already mapped) contributes to the proliferation of uveal melanoma."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Immune-evasion signalling: JAK-STAT3 signalling (STAT3 already mapped) contributes to the survival and immune-evasion signalling of uveal melanoma."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Hepatic-metastasis niche: IL-6-STAT3 signalling (STAT3 already mapped) supports the survival of uveal-melanoma cells, particularly in the liver microenvironment that is its predominant site of metastasis."
 ---
 
 # Uveal Melanoma
@@ -560,6 +569,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — Cyclin-D1 (mapped) and CDK4/6 release E2F1 to drive proliferation downstream of the constitutive GNAQ/GNA11-MAPK signaling of uveal melanoma.
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A loss removes the restraint on the cyclin-D1-CDK4/6 axis and is associated with progression of uveal melanoma.
 - `connects-to` → **[CDH1](../../03-molecular/cdh1/README.md)** — Loss of E-cadherin and the dedifferentiation accompanying BAP1 loss (mapped) promote the epithelial-mesenchymal-like transition that drives the hepatotropic metastasis of uveal melanoma.
+- `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — Dysregulation of the RB1-E2F checkpoint (CDKN2A, cyclin-D1 and E2F1 already mapped) contributes to the proliferation of uveal melanoma.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK-STAT3 signaling (STAT3 already mapped) contributes to the survival and immune-evasion signaling of uveal melanoma.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6-STAT3 signaling (STAT3 already mapped) supports the survival of uveal-melanoma cells, particularly in the liver microenvironment that is its predominant site of metastasis.
 
 ---
 

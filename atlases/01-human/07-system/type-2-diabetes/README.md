@@ -328,6 +328,15 @@ cross_links:
   - target: 01-human/03-molecular/erk1-2
     relation: connects-to
     note: "Selective insulin resistance: while the PI3K metabolic arm is blunted, insulin's MAPK-ERK mitogenic arm remains active in type 2 diabetes, a selectivity that drives the vascular and proliferative complications."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Lipotoxic inflammation: TLR4 sensing of saturated free fatty acids drives the lipotoxic metabolic inflammation that links obesity to the insulin resistance of type 2 diabetes."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Innate metabolic inflammation: TLR-MyD88-NF-κB signalling (NF-κB and NLRP3 already mapped) transduces nutrient-excess and lipotoxic signals into the chronic metabolic inflammation underlying type 2 diabetes."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Glucotoxic oxidative defence: NRF2 antioxidant defence counters the glucotoxic oxidative stress that damages β-cells and impairs insulin signalling in type 2 diabetes."
 ---
 
 # Type 2 Diabetes
@@ -534,6 +543,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — The insulin receptor (mapped) signals through IRS to PI3K and AKT (mapped); blunting of this PI3K branch is the molecular core of insulin resistance in type 2 diabetes.
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — Insulin-activated AKT (mapped) inhibits GSK-3β to switch on glycogen synthase; elevated GSK-3β activity in type 2 diabetes impairs glycogen storage and insulin signaling.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — While the PI3K metabolic arm is blunted, insulin's MAPK-ERK mitogenic arm remains active in type 2 diabetes, a selectivity that drives the vascular and proliferative complications.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4 sensing of saturated free fatty acids drives the lipotoxic metabolic inflammation that links obesity to the insulin resistance of type 2 diabetes.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88-NF-κB signaling (NF-κB and NLRP3 already mapped) transduces nutrient-excess and lipotoxic signals into the chronic metabolic inflammation underlying type 2 diabetes.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2 antioxidant defense counters the glucotoxic oxidative stress that damages β-cells and impairs insulin signaling in type 2 diabetes.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
