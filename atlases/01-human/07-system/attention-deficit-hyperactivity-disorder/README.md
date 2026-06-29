@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/nfe2l2
     relation: connects-to
     note: "Oxidative stress: NRF2-regulated antioxidant defences counter the oxidative stress reported in ADHD, a redox component of its neurodevelopmental pathophysiology."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "BDNF/neurotrophin PI3K-AKT-mTOR signalling (mTOR, GSK-3β and ERK mapped) supports the neurodevelopmental processes implicated in ADHD."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "PTEN regulation of the PI3K-AKT-mTOR axis influences neuronal connectivity and is implicated in neurodevelopmental phenotypes overlapping ADHD."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Microglial galectin-3 reflects the low-grade neuroinflammation increasingly associated with ADHD."
 ---
 
 # Attention-Deficit/Hyperactivity Disorder
@@ -593,6 +602,9 @@ ADHD is a clinical diagnosis requiring [^biederman-2005-adhd-adults]:
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4-driven neuroinflammation is increasingly implicated in ADHD, linking immune activation and maternal-immune-activation risk to the catecholaminergic dysfunction of the disorder.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR-dependent synaptic plasticity shapes the prefrontal-striatal circuit development whose alterations underlie the executive-function deficits of ADHD.
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2-regulated antioxidant defenses counter the oxidative stress reported in ADHD, a redox component of its neurodevelopmental pathophysiology.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — BDNF/neurotrophin PI3K-AKT-mTOR signaling (mTOR, GSK-3β and ERK mapped) supports the neurodevelopmental processes implicated in ADHD.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN regulation of the PI3K-AKT-mTOR axis influences neuronal connectivity and is implicated in neurodevelopmental phenotypes overlapping ADHD.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Microglial galectin-3 reflects the low-grade neuroinflammation increasingly associated with ADHD.
 
 [^faraone-2021-adhd-primer]: Faraone SV, Banaschewski T, Coghill D, et al. The World Federation of ADHD International Consensus Statement: 208 Evidence-based conclusions about the disorder. *Neurosci Biobehav Rev.* 2021;128:789-818. [doi:10.1016/j.neubiorev.2021.01.022](https://doi.org/10.1016/j.neubiorev.2021.01.022) · [PubMed 33549739](https://pubmed.ncbi.nlm.nih.gov/33549739/)
 [^arnsten-2009-adhd-neuroscience]: Arnsten AF. Toward a new understanding of ADHD pathophysiology: an important role for prefrontal cortex dysfunction. *CNS Drugs.* 2009;23(Suppl 1):33-41. [doi:10.2165/00023210-200923000-00005](https://doi.org/10.2165/00023210-200923000-00005) · [PubMed 19621976](https://pubmed.ncbi.nlm.nih.gov/19621976/)

@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/mtor
     relation: connects-to
     note: "Epidermal hyperplasia: mTOR-driven keratinocyte proliferation contributes to the epidermal hyperplasia (acanthosis) and barrier remodelling of chronic atopic-dermatitis lesions."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K-AKT signalling upstream of mTOR (mTOR mapped) drives the keratinocyte proliferation and survival accompanying the epidermal barrier disruption of atopic dermatitis."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 modulates the dermal Th2 inflammation and dendritic-cell responses contributing to atopic dermatitis."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "EGFR-ERK-MAPK signalling (EGFR mapped) regulates keratinocyte proliferation and barrier responses in atopic dermatitis."
 ---
 
 # Atopic Dermatitis
@@ -558,6 +567,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4 sensing of Staphylococcus aureus products and barrier-disruption signals drives the innate skin inflammation that, with cutaneous dysbiosis, amplifies atopic-dermatitis flares.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — IL-23 sustains the Th17/Th22 responses (IL-17A already mapped) that contribute to the chronic and intrinsic-type inflammation of atopic dermatitis alongside the dominant Th2 axis.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR-driven keratinocyte proliferation contributes to the epidermal hyperplasia (acanthosis) and barrier remodeling of chronic atopic-dermatitis lesions.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling upstream of mTOR (mTOR mapped) drives the keratinocyte proliferation and survival accompanying the epidermal barrier disruption of atopic dermatitis.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 modulates the dermal Th2 inflammation and dendritic-cell responses contributing to atopic dermatitis.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — EGFR-ERK-MAPK signaling (EGFR mapped) regulates keratinocyte proliferation and barrier responses in atopic dermatitis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
