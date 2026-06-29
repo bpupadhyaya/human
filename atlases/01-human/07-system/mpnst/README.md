@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/nfe2l2
     relation: connects-to
     note: "Redox and resistance: NRF2 antioxidant signalling shapes the redox balance and treatment resistance of malignant peripheral nerve sheath tumour."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "TGF-β signalling modulates the invasion and immunosuppressive microenvironment of malignant peripheral nerve sheath tumour."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 contributes to the invasion and survival of malignant peripheral nerve sheath tumour cells."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA sensing through cGAS-STING shapes the immune microenvironment relevant to immunotherapy in MPNST."
 ---
 
 # MPNST
@@ -567,6 +576,9 @@ Wide local excision with negative margins is the only potentially curative inter
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK-STAT3 signaling (STAT3 already mapped) supports the survival and proliferation of malignant peripheral nerve sheath tumor cells.
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Anti-apoptotic BCL-2 raises the threshold for caspase-3 apoptosis (already mapped), contributing to the chemoresistance of MPNST.
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2 antioxidant signaling shapes the redox balance and treatment resistance of malignant peripheral nerve sheath tumor.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β signaling modulates the invasion and immunosuppressive microenvironment of malignant peripheral nerve sheath tumor.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 contributes to the invasion and survival of malignant peripheral nerve sheath tumor cells.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING shapes the immune microenvironment relevant to immunotherapy in MPNST.
 
 [^evans-2002-mpnst-nf1]: Evans DGR, Baser ME, McGaughran J, et al. Malignant peripheral nerve sheath tumours in neurofibromatosis 1. *J Med Genet.* 2002;39(5):311-314. [doi:10.1136/jmg.39.5.311](https://doi.org/10.1136/jmg.39.5.311) · [PubMed 12011145](https://pubmed.ncbi.nlm.nih.gov/12011145/)
 [^lee-2014-mpnst-prc2]: Lee W, Teckie S, Wiesner T, et al. PRC2 is recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve sheath tumors. *Nat Genet.* 2014;46(11):1227-1232. [doi:10.1038/ng.3095](https://doi.org/10.1038/ng.3095) · [PubMed 25240281](https://pubmed.ncbi.nlm.nih.gov/25240281/)

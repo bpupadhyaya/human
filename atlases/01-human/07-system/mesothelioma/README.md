@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/erk1-2
     relation: connects-to
     note: "RTK-RAS proliferation: RAS-ERK signalling downstream of EGFR and PDGFR (both already mapped) provides a proliferative input to mesothelioma growth."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 is expressed in mesothelioma and contributes to its invasion and immunosuppressive microenvironment."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "IL-6-JAK-STAT3 signalling (IL-6 and STAT3 mapped), driven by asbestos-induced chronic inflammation, promotes mesothelioma growth."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling (TGF-β mapped) shapes the immunosuppressive and fibrotic microenvironment of mesothelioma."
 ---
 
 # Mesothelioma
@@ -554,6 +563,9 @@ Cytoreductive surgery (CRS) + hyperthermic intraperitoneal chemotherapy (HIPEC):
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Asbestos fibers trigger sustained NF-κB-driven inflammation (NLRP3 and IL-1β already mapped) in the pleura, the inflammatory milieu central to mesothelioma development.
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2 antioxidant defense counters the iron-catalyzed reactive-oxygen-species generation by asbestos fibers that drives the oxidative DNA damage of mesothelioma.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — RAS-ERK signaling downstream of EGFR and PDGFR (both already mapped) provides a proliferative input to mesothelioma growth.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 is expressed in mesothelioma and contributes to its invasion and immunosuppressive microenvironment.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6-JAK-STAT3 signaling (IL-6 and STAT3 mapped), driven by asbestos-induced chronic inflammation, promotes mesothelioma growth.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β mapped) shapes the immunosuppressive and fibrotic microenvironment of mesothelioma.
 
 [^baas-2021-checkmate743]: Baas P, Scherpereel A, Nowak AK, et al. First-line nivolumab plus ipilimumab in unresectable malignant pleural mesothelioma (CheckMate 743). *Lancet.* 2021;397(10272):375-386. [doi:10.1016/S0140-6736(20)32714-8](https://doi.org/10.1016/S0140-6736(20)32714-8) · [PubMed 33485464](https://pubmed.ncbi.nlm.nih.gov/33485464/)
 [^vogelzang-2003-pemetrexed]: Vogelzang NJ, Rusthoven JJ, Symanowski J, et al. Phase III study of pemetrexed in combination with cisplatin versus cisplatin alone in patients with malignant pleural mesothelioma. *J Clin Oncol.* 2003;21(14):2636-2644. [doi:10.1200/JCO.2003.11.136](https://doi.org/10.1200/JCO.2003.11.136) · [PubMed 12860938](https://pubmed.ncbi.nlm.nih.gov/12860938/)
