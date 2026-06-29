@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "Tumour-promoting inflammation: IL-6-STAT3 signalling (STAT3 already mapped) sustains the inflammatory, tumour-promoting microenvironment of MUTYH-associated colorectal neoplasia."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 is upregulated in the colorectal adenoma-to-carcinoma progression of MUTYH-associated polyposis, modulating adhesion and immune evasion."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "JAK kinases transduce the IL-6 signal to STAT3 (IL-6 and STAT3 mapped), a tumour-promoting inflammatory input in MUTYH-associated polyposis."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "The genomic instability of MUTYH-deficient base-excision repair generates cytosolic DNA sensed by cGAS-STING, shaping the immune microenvironment of MAP tumours."
 ---
 
 # MUTYH-Associated Polyposis
@@ -552,6 +561,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss releases PI3K-AKT signaling (AKT and PIK3CA already mapped) that cooperates with the KRAS-driven Wnt activation in the colorectal tumorigenesis of MUTYH-associated polyposis.
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Gut-microbiota-driven TLR-MyD88-NF-κB signaling (NF-κB already mapped) provides an inflammatory cofactor in the adenoma-to-carcinoma progression of MUTYH-associated polyposis.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6-STAT3 signaling (STAT3 already mapped) sustains the inflammatory, tumor-promoting microenvironment of MUTYH-associated colorectal neoplasia.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 is upregulated in the colorectal adenoma-to-carcinoma progression of MUTYH-associated polyposis, modulating adhesion and immune evasion.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK kinases transduce the IL-6 signal to STAT3 (IL-6 and STAT3 mapped), a tumor-promoting inflammatory input in MUTYH-associated polyposis.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — The genomic instability of MUTYH-deficient base-excision repair generates cytosolic DNA sensed by cGAS-STING, shaping the immune microenvironment of MAP tumors.
 
 ---
 
