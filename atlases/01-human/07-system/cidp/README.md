@@ -330,6 +330,15 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "Regulatory restraint: IL-10 from regulatory T cells normally dampens these responses, and its relative insufficiency permits the sustained autoimmune nerve injury of CIDP, with recovery often accompanying remission."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Innate macrophage activation: TLR-MyD88-NF-κB innate signalling (TLR4 and NF-κB already mapped) in endoneurial macrophages drives the inflammatory demyelination of peripheral nerve in CIDP."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "Complement effector: complement activation generates C5a that engages C5aR1 to recruit and activate macrophages (C3 and C5 already mapped), effecting the complement-mediated myelin injury of CIDP."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Oxidative axonal injury: NRF2-regulated antioxidant defence counters the oxidative stress of chronic nerve inflammation, modulating the secondary axonal injury that determines lasting disability in CIDP."
 ---
 
 # CIDP
@@ -576,6 +585,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — IL-12 drives differentiation of Th1 cells and their IFN-γ output (IFN-γ already mapped), polarizing the autoreactive T-cell response that attacks peripheral myelin in CIDP.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — IL-23 sustains pathogenic Th17 cells and their IL-17A production (IL-17A already mapped), a second effector arm of the autoimmune demyelination of CIDP.
 - `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — IL-10 from regulatory T cells normally dampens these responses, and its relative insufficiency permits the sustained autoimmune nerve injury of CIDP, with recovery often accompanying remission.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88-NF-κB innate signaling (TLR4 and NF-κB already mapped) in endoneurial macrophages drives the inflammatory demyelination of peripheral nerve in CIDP.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — Complement activation generates C5a that engages C5aR1 to recruit and activate macrophages (C3 and C5 already mapped), effecting the complement-mediated myelin injury of CIDP.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2-regulated antioxidant defense counters the oxidative stress of chronic nerve inflammation, modulating the secondary axonal injury that determines lasting disability in CIDP.
 
 ---
 

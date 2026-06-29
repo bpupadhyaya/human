@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/e2f1
     relation: connects-to
     note: "Cell-cycle output: RB phosphorylation by the CDK4/6-cyclin-D1 axis (mapped, with CDKN2A loss) releases E2F1 to drive S-phase entry in the slow-growing but relentless proliferation of chordoma."
+  - target: 01-human/03-molecular/rb1
+    relation: connects-to
+    note: "Checkpoint loss: functional loss of the RB1 checkpoint (E2F1, CDK4/6 and CDKN2A already mapped) removes a brake on cell-cycle entry, contributing to the dysregulated proliferation of chordoma."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "STAT3 survival signalling: JAK-STAT signalling to STAT3 (already mapped) sustains the survival and proliferative programmes of chordoma cells downstream of receptor-tyrosine-kinase and cytokine inputs."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Apoptosis resistance: anti-apoptotic BCL-2 raises the threshold for caspase-3 apoptosis (already mapped), contributing to the treatment resistance of the slow-growing but locally aggressive chordoma."
 ---
 
 # Chordoma
@@ -558,6 +567,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — The receptor kinases driving chordoma—EGFR, MET, PDGFR, KIT and FGFR (all already mapped)—funnel into the MAPK-ERK cascade, the proliferative hub targeted by the multi-kinase inhibitors used in this tumor.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PIK3CA activates the AKT-mTOR axis (AKT, mTOR and PTEN already mapped) that is co-activated downstream of chordoma's receptor tyrosine kinases to sustain growth and survival.
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — RB phosphorylation by the CDK4/6-cyclin-D1 axis (mapped, with CDKN2A loss) releases E2F1 to drive S-phase entry in the slow-growing but relentless proliferation of chordoma.
+- `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — Functional loss of the RB1 checkpoint (E2F1, CDK4/6 and CDKN2A already mapped) removes a brake on cell-cycle entry, contributing to the dysregulated proliferation of chordoma.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK-STAT signaling to STAT3 (already mapped) sustains the survival and proliferative programs of chordoma cells downstream of receptor-tyrosine-kinase and cytokine inputs.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Anti-apoptotic BCL-2 raises the threshold for caspase-3 apoptosis (already mapped), contributing to the treatment resistance of the slow-growing but locally aggressive chordoma.
 
 ---
 
