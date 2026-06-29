@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/erk1-2
     relation: connects-to
     note: "Airway remodeling: growth-factor and TGF-β signalling (mapped) through the MAPK-ERK cascade drives the airway-smooth-muscle proliferation and remodeling of chronic asthma."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Smooth-muscle proliferation: mTOR-dependent metabolism and airway-smooth-muscle proliferation contribute to the bronchial hyperreactivity and airway remodelling of asthma."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Airway oxidative defence: NRF2 antioxidant defence protects the airway epithelium from the oxidative stress of allergic inflammation and pollutant exposure, a pathway impaired in severe asthma."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Neutrophilic phenotype: IL-23 sustains the Th17 response (IL-17A already mapped) that drives the neutrophilic, often steroid-resistant phenotype of severe asthma."
 ---
 
 # Asthma
@@ -544,6 +553,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[Glucocorticoid Receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Inhaled corticosteroids act through the glucocorticoid receptor to suppress airway inflammation, the cornerstone asthma controller, with steroid resistance marking severe neutrophilic disease.
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR sensing of viruses and allergens (TLR4 mapped) signals through MyD88 to NF-κB (mapped), driving the innate inflammation behind asthma exacerbations.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Growth-factor and TGF-β signaling (mapped) through the MAPK-ERK cascade drives the airway-smooth-muscle proliferation and remodeling of chronic asthma.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR-dependent metabolism and airway-smooth-muscle proliferation contribute to the bronchial hyperreactivity and airway remodeling of asthma.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2 antioxidant defense protects the airway epithelium from the oxidative stress of allergic inflammation and pollutant exposure, a pathway impaired in severe asthma.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — IL-23 sustains the Th17 response (IL-17A already mapped) that drives the neutrophilic, often steroid-resistant phenotype of severe asthma.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)
