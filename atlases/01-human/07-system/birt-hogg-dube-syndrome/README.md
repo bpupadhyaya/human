@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/kras
     relation: connects-to
     note: "Proliferative cooperation: RAS-MAPK signalling through ERK1/2 (already mapped) provides a proliferative input that cooperates with FLCN loss in driving the tumours of Birt-Hogg-Dubé syndrome."
+  - target: 01-human/03-molecular/epas1
+    relation: connects-to
+    note: "FLCN loss dysregulates HIF activity; HIF-2α (EPAS1) signalling links Birt-Hogg-Dubé syndrome to the hypoxia-driven renal tumorigenesis it shares with the VHL/MET hereditary-RCC differential (all mapped)."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 is a marker and modulator of the renal tumours that arise in Birt-Hogg-Dubé syndrome."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "JAK-STAT3 signalling (STAT3 mapped) provides a proliferative and survival input cooperating with FLCN loss in Birt-Hogg-Dubé tumorigenesis."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -576,6 +585,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[IDH1](../../03-molecular/idh1/README.md)** — Oncometabolite-producing IDH mutations parallel the FH and SDHB metabolic lesions (both already mapped) within the spectrum of metabolically-driven hereditary renal tumors, where altered metabolites stabilize HIF and reprogram the epigenome.
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — VEGF/PDGF-axis angiogenesis (VEGF already mapped) supports the renal tumors that Birt-Hogg-Dubé predisposes to and is the target of the tyrosine-kinase inhibitors used in renal cell carcinoma.
 - `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — RAS-MAPK signaling through ERK1/2 (already mapped) provides a proliferative input that cooperates with FLCN loss in driving the tumors of Birt-Hogg-Dubé syndrome.
+- `connects-to` → **[EPAS1](../../03-molecular/epas1/README.md)** — FLCN loss dysregulates HIF activity; HIF-2α (EPAS1) signaling links Birt-Hogg-Dubé syndrome to the hypoxia-driven renal tumorigenesis it shares with the VHL/MET hereditary-RCC differential (all mapped).
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 is a marker and modulator of the renal tumors that arise in Birt-Hogg-Dubé syndrome.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK-STAT3 signaling (STAT3 mapped) provides a proliferative and survival input cooperating with FLCN loss in Birt-Hogg-Dubé tumorigenesis.
 
 ---
 

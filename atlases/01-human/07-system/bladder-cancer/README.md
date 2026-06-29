@@ -337,6 +337,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "Invasive EMT: TGF-β-driven epithelial-mesenchymal transition (CDH1/E-cadherin already mapped) promotes the invasion and progression of muscle-invasive bladder cancer."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Wnt/β-catenin signalling contributes to urothelial proliferation and the luminal molecular subtype of bladder cancer."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "JAK-STAT3 signalling (STAT3 mapped) downstream of IL-6 and interferons drives proliferation and immune modulation in bladder cancer."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 promotes the invasion and immune evasion of urothelial bladder cancer."
 ---
 
 # Bladder Cancer
@@ -564,6 +573,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Intravesical BCG acts in part through TLR-MyD88 signaling (TLR4 already mapped) to trigger the innate and adaptive antitumor response that treats non-muscle-invasive bladder cancer.
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — Tobacco and aromatic-amine carcinogens — the principal causes of bladder cancer — impose oxidative stress, and NRF2-pathway activation contributes to carcinogenesis and chemoresistance.
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β-driven epithelial-mesenchymal transition (CDH1/E-cadherin already mapped) promotes the invasion and progression of muscle-invasive bladder cancer.
+- `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Wnt/β-catenin signaling contributes to urothelial proliferation and the luminal molecular subtype of bladder cancer.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK-STAT3 signaling (STAT3 mapped) downstream of IL-6 and interferons drives proliferation and immune modulation in bladder cancer.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 promotes the invasion and immune evasion of urothelial bladder cancer.
 
 ---
 
