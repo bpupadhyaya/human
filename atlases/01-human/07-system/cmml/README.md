@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "Clonal self-renewal: aberrant Wnt/β-catenin signalling supports the self-renewal of the leukemic stem cells driving the clonal myeloproliferation of CMML."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3, abundantly expressed by the monocytic lineage that expands in CMML, supports monocyte/macrophage survival and the inflammatory phenotype of the disease."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "PTEN restraint of PI3K-AKT-mTOR signalling (AKT, PIK3CA and mTOR mapped) downstream of the RAS-pathway mutations (KRAS and PTPN11 mapped) shapes proliferation in CMML."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling (TGF-β mapped) modulates the dysplastic haematopoiesis and marrow microenvironment of CMML."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -561,6 +570,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88-NF-κB innate signaling (NF-κB already mapped) drives the inflammatory cytokine milieu and the characteristic monocytosis of CMML.
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β signaling contributes to the marrow dysplasia and fibrosis of CMML, its suppression of normal hematopoiesis favoring the dysplastic clone.
 - `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Aberrant Wnt/β-catenin signaling supports the self-renewal of the leukemic stem cells driving the clonal myeloproliferation of CMML.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3, abundantly expressed by the monocytic lineage that expands in CMML, supports monocyte/macrophage survival and the inflammatory phenotype of the disease.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN restraint of PI3K-AKT-mTOR signaling (AKT, PIK3CA and mTOR mapped) downstream of the RAS-pathway mutations (KRAS and PTPN11 mapped) shapes proliferation in CMML.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β mapped) modulates the dysplastic hematopoiesis and marrow microenvironment of CMML.
 
 ---
 

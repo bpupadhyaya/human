@@ -337,6 +337,15 @@ cross_links:
   - target: 01-human/03-molecular/jak1-2
     relation: connects-to
     note: "Cytokine amplification: IL-6 and IFN-γ signalling through JAK-STAT (both already mapped) amplifies the inflammatory response of COPD and is an emerging anti-inflammatory therapeutic target."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K-AKT-mTOR signalling (mTOR mapped) governs alveolar-epithelial survival and the cellular senescence implicated in emphysema and COPD progression."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "EGFR-ERK-MAPK signalling (EGFR mapped) drives the airway mucus hypersecretion and epithelial remodelling of chronic bronchitis in COPD."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 amplifies the macrophage-driven airway inflammation of COPD and serves as a biomarker of disease activity."
 ---
 
 # COPD
@@ -586,6 +595,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88-NF-κB innate signaling (TLR4 and NF-κB already mapped), activated by cigarette-smoke products and bacterial colonization, sustains the chronic airway inflammation of COPD.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Dysregulated mTOR signaling and impaired autophagy promote the senescence of airway and alveolar cells that underlies the accelerated lung aging and emphysema of COPD.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6 and IFN-γ signaling through JAK-STAT (both already mapped) amplifies the inflammatory response of COPD and is an emerging anti-inflammatory therapeutic target.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT-mTOR signaling (mTOR mapped) governs alveolar-epithelial survival and the cellular senescence implicated in emphysema and COPD progression.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — EGFR-ERK-MAPK signaling (EGFR mapped) drives the airway mucus hypersecretion and epithelial remodeling of chronic bronchitis in COPD.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 amplifies the macrophage-driven airway inflammation of COPD and serves as a biomarker of disease activity.
 
 ---
 
