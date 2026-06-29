@@ -343,6 +343,15 @@ cross_links:
   - target: 01-human/03-molecular/galectin-3
     relation: connects-to
     note: "Galectin-3 amplifies innate-immune activation and contributes to the organ injury of sepsis."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling drives the interferon response of the early hyperinflammatory phase and shapes the immune dysregulation of sepsis."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K-AKT signalling governs the immunometabolic reprogramming and endothelial responses that shape the host response in sepsis."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling contributes to the immunosuppressive phase and the organ fibrosis that follow the acute insult of sepsis."
 ---
 
 # Sepsis
@@ -557,6 +566,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-JAK-STAT3 signaling (IL-6 mapped) drives the acute-phase response and the dysregulated inflammation of the septic cytokine storm.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR-regulated immunometabolic reprogramming shapes the shift between hyperinflammation and immunoparalysis in sepsis.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 amplifies innate-immune activation and contributes to the organ injury of sepsis.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling drives the interferon response of the early hyperinflammatory phase and shapes the immune dysregulation of sepsis.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling governs the immunometabolic reprogramming and endothelial responses that shape the host response in sepsis.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling contributes to the immunosuppressive phase and the organ fibrosis that follow the acute insult of sepsis.
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

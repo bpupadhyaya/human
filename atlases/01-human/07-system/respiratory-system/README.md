@@ -342,6 +342,15 @@ cross_links:
   - target: 01-human/03-molecular/akt
     relation: connects-to
     note: "PI3K-AKT signalling supports alveolar and airway-epithelial survival and the repair responses that maintain the gas-exchange surface."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 amplifies airway and alveolar inflammation and drives the pulmonary fibrosis shared across chronic lung diseases of the respiratory system."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6-STAT3 signalling drives the airway inflammation and mucus responses common to inflammatory diseases of the respiratory system."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "cGAS-STING sensing of viral and damage-associated cytosolic DNA shapes the antiviral and inflammatory responses of the respiratory epithelium."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -531,6 +540,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Connects-to** → [Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md): airway remodeling: TGF-β drives airway remodeling and the fibrotic repair of lung injury, a central effector across chronic respiratory disease.
 - **Connects-to** → [NF-κB](../../03-molecular/nf-kb/README.md): inflammation hub: NF-κB is the master transcriptional hub of airway and alveolar inflammation across infection, asthma and COPD.
 - **Connects-to** → [AKT](../../03-molecular/akt/README.md): epithelial survival: PI3K-AKT signaling supports alveolar and airway-epithelial survival and the repair responses that maintain the gas-exchange surface.
+- **Connects-to** → [Galectin-3](../../03-molecular/galectin-3/README.md): fibro-inflammation: galectin-3 amplifies airway and alveolar inflammation and drives the pulmonary fibrosis shared across chronic lung diseases.
+- **Connects-to** → [STAT3](../../03-molecular/stat3/README.md): airway inflammation: IL-6-STAT3 signaling drives the airway inflammation and mucus responses common to inflammatory diseases of the respiratory system.
+- **Connects-to** → [cGAS-STING](../../03-molecular/cgas-sting/README.md): pulmonary DNA sensing: cGAS-STING sensing of viral and damage-associated cytosolic DNA shapes the antiviral and inflammatory responses of the respiratory epithelium.
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.
 
 ## Pathology
