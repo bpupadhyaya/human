@@ -337,6 +337,15 @@ cross_links:
   - target: 01-human/03-molecular/myd88
     relation: connects-to
     note: "Microbiota-driven carcinogenesis: gut- and pancreatic-microbiota-driven TLR-MyD88-NF-κB signalling (NF-κB already mapped) promotes the inflammation-associated initiation and progression of pancreatic ductal adenocarcinoma."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 is abundantly expressed in the desmoplastic stroma of pancreatic cancer, promoting fibrosis, KRAS signalling and immune evasion."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "Loss of PTEN restraint on PI3K-AKT-mTOR signalling (AKT and mTOR mapped) cooperates with KRAS in driving pancreatic cancer."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "cGAS-STING signalling in the pancreatic-cancer microenvironment shapes the immunologically cold phenotype that limits immunotherapy response."
 ---
 
 # Pancreatic Cancer
@@ -563,6 +572,9 @@ cross_links:
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6-JAK-STAT3 signaling (IL-6 and STAT3 already mapped) drives the desmoplastic, immunosuppressive stroma and the cancer cachexia characteristic of pancreatic ductal adenocarcinoma.
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — Oncogenic KRAS upregulates NRF2 antioxidant signaling, and the resulting redox balance supports the proliferation and chemoresistance of pancreatic cancer.
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Gut- and pancreatic-microbiota-driven TLR-MyD88-NF-κB signaling (NF-κB already mapped) promotes the inflammation-associated initiation and progression of pancreatic ductal adenocarcinoma.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 is abundantly expressed in the desmoplastic stroma of pancreatic cancer, promoting fibrosis, KRAS signaling and immune evasion.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — Loss of PTEN restraint on PI3K-AKT-mTOR signaling (AKT and mTOR mapped) cooperates with KRAS in driving pancreatic cancer.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — cGAS-STING signaling in the pancreatic-cancer microenvironment shapes the immunologically cold phenotype that limits immunotherapy response.
 
 ---
 

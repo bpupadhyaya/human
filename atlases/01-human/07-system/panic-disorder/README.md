@@ -337,6 +337,15 @@ cross_links:
   - target: 01-human/03-molecular/erk1-2
     relation: connects-to
     note: "Fear-memory consolidation: amygdala ERK-MAPK signalling consolidates the fear-conditioned memories that drive the recurrent, interoception-triggered attacks of panic disorder."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "BDNF/serotonergic PI3K-AKT-mTOR signalling supports the fear-circuit neuroplasticity that anxiolytic treatment restores in panic disorder."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Microglial galectin-3 reflects the low-grade neuroinflammation increasingly associated with panic disorder."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "TLR4-MyD88 innate signalling (TLR4 mapped) contributes to the neuroinflammation implicated in panic-disorder pathophysiology."
 ---
 
 # Panic Disorder
@@ -588,6 +597,9 @@ The **interoceptive fear conditioning model** (Bouton, Mineka, Barlow) explains 
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4-driven neuroinflammation links peripheral and central inflammation to the amygdala hyperexcitability implicated in the panic response.
 - `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — BDNF signaling through its TrkB receptor (NTRK) mediates the amygdala-prefrontal fear-circuit plasticity whose dysregulation underlies panic disorder.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Amygdala ERK-MAPK signaling consolidates the fear-conditioned memories that drive the recurrent, interoception-triggered attacks of panic disorder.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — BDNF/serotonergic PI3K-AKT-mTOR signaling supports the fear-circuit neuroplasticity that anxiolytic treatment restores in panic disorder.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Microglial galectin-3 reflects the low-grade neuroinflammation increasingly associated with panic disorder.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR4-MyD88 innate signaling (TLR4 mapped) contributes to the neuroinflammation implicated in panic-disorder pathophysiology.
 
 [^gorman-2000-panic-neurobiology]: Gorman JM, Kent JM, Sullivan GM, Coplan JD. Neuroanatomical hypothesis of panic disorder, revised. *Am J Psychiatry.* 2000;157(4):493-505. [doi:10.1176/appi.ajp.157.4.493](https://doi.org/10.1176/appi.ajp.157.4.493) · [PubMed 10739407](https://pubmed.ncbi.nlm.nih.gov/10739407/)
 [^nardi-2009-clonazepam-panic]: Nardi AE, Freire RC, Zin WA. Panic disorder and control of breathing. *Respir Physiol Neurobiol.* 2009;167(1):133-143. [doi:10.1016/j.resp.2008.07.011](https://doi.org/10.1016/j.resp.2008.07.011) · [PubMed 18708168](https://pubmed.ncbi.nlm.nih.gov/18708168/)
