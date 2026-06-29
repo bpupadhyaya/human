@@ -337,6 +337,15 @@ cross_links:
   - target: 01-human/03-molecular/nfe2l2
     relation: connects-to
     note: "Oxidative dysfunction: NRF2 antioxidant signalling counters the oxidative stress (xanthine-oxidase already mapped) that contributes to endothelial dysfunction and smooth-muscle proliferation in pulmonary arterial hypertension."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 drives the pulmonary-vascular and right-ventricular fibrosis of pulmonary arterial hypertension and is a biomarker of disease severity."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "Loss of PTEN restraint on PI3K-AKT-mTOR signalling (AKT and mTOR mapped) promotes the pulmonary-arterial-smooth-muscle proliferation that obliterates the vessel lumen in PAH."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement activation in the pulmonary vascular wall contributes to the perivascular inflammation and remodelling of pulmonary arterial hypertension."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -566,6 +575,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6-JAK-STAT3 signaling (IL-6 and STAT3 already mapped) drives the proliferative pulmonary vascular remodeling of pulmonary arterial hypertension.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB-driven inflammation in the pulmonary vasculature sustains the perivascular immune-cell recruitment and cytokine production that promote the vascular remodeling of PAH.
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2 antioxidant signaling counters the oxidative stress (xanthine-oxidase already mapped) that contributes to endothelial dysfunction and smooth-muscle proliferation in pulmonary arterial hypertension.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 drives the pulmonary-vascular and right-ventricular fibrosis of pulmonary arterial hypertension and is a biomarker of disease severity.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — Loss of PTEN restraint on PI3K-AKT-mTOR signaling (AKT and mTOR mapped) promotes the pulmonary-arterial-smooth-muscle proliferation that obliterates the vessel lumen in PAH.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement activation in the pulmonary vascular wall contributes to the perivascular inflammation and remodeling of pulmonary arterial hypertension.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

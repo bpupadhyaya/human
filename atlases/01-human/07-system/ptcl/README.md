@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/myd88
     relation: connects-to
     note: "NF-κB activation: TLR-MyD88-NF-κB signalling (NF-κB already mapped) contributes to the constitutive NF-κB activation characteristic of several peripheral T-cell lymphoma subtypes."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 modulates T-cell-lymphoma survival and the immune microenvironment of peripheral T-cell lymphoma."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling (TGF-β mapped) shapes the immunosuppressive microenvironment, prominent in the Tfh-derived angioimmunoblastic subtype of peripheral T-cell lymphoma."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "Loss of PTEN restraint on PI3K-AKT-mTOR signalling (AKT, PIK3CA and mTOR mapped) supports proliferation and survival in peripheral T-cell lymphoma."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -580,6 +589,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — Dysregulation of the RB1-E2F checkpoint (cyclin-D1 and E2F1 already mapped) contributes to the proliferation of peripheral T-cell lymphoma.
 - `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — RAS-ERK signaling (ERK1/2 already mapped) downstream of T-cell-receptor and cytokine inputs provides a proliferative drive in peripheral T-cell lymphoma.
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88-NF-κB signaling (NF-κB already mapped) contributes to the constitutive NF-κB activation characteristic of several peripheral T-cell lymphoma subtypes.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 modulates T-cell-lymphoma survival and the immune microenvironment of peripheral T-cell lymphoma.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β mapped) shapes the immunosuppressive microenvironment, prominent in the Tfh-derived angioimmunoblastic subtype of peripheral T-cell lymphoma.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — Loss of PTEN restraint on PI3K-AKT-mTOR signaling (AKT, PIK3CA and mTOR mapped) supports proliferation and survival in peripheral T-cell lymphoma.
 
 ---
 
