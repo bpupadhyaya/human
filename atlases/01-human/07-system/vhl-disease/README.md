@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/erk1-2
     relation: connects-to
     note: "RTK-MAPK: MET, EGFR and PDGFR (all mapped) signal through the MAPK-ERK cascade in VHL-deficient tumours, complementing the pseudohypoxic HIF programme."
+  - target: 01-human/03-molecular/idh1
+    relation: connects-to
+    note: "Metabolic-RCC parallel: oncometabolite-producing IDH mutations parallel the FH and SDHB lesions (both already mapped) within the metabolically-driven hereditary renal tumours related to the VHL-HIF pseudohypoxia axis."
+  - target: 01-human/03-molecular/rb1
+    relation: connects-to
+    note: "Cell-cycle restraint: dysregulation of the RB1-E2F checkpoint (cyclin-D1, CDK4/6 and E2F1 already mapped) contributes to the proliferation of the renal and CNS tumours of von Hippel-Lindau disease."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Survival signalling: JAK-STAT3 signalling (STAT3 already mapped) contributes to the survival and angiogenic signalling of VHL-associated tumours."
 ---
 
 # VHL Disease
@@ -545,6 +554,9 @@ The genotype-phenotype correlation reflects the degree of pVHL function retained
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — HIF-driven cyclin-D1 (mapped) and CDK4/6 release E2F1 to push the proliferation of VHL-deficient tumors such as clear-cell renal carcinoma.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN limits the PI3K-AKT-mTOR axis (PIK3CA, AKT and mTOR already mapped) that cooperates with HIF activation in the growth of VHL-associated tumors.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — MET, EGFR and PDGFR (all mapped) signal through the MAPK-ERK cascade in VHL-deficient tumors, complementing the pseudohypoxic HIF program.
+- `connects-to` → **[IDH1](../../03-molecular/idh1/README.md)** — Oncometabolite-producing IDH mutations parallel the FH and SDHB lesions (both already mapped) within the metabolically-driven hereditary renal tumors related to the VHL-HIF pseudohypoxia axis.
+- `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — Dysregulation of the RB1-E2F checkpoint (cyclin-D1, CDK4/6 and E2F1 already mapped) contributes to the proliferation of the renal and CNS tumors of von Hippel-Lindau disease.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK-STAT3 signaling (STAT3 already mapped) contributes to the survival and angiogenic signaling of VHL-associated tumors.
 
 [^lonser-2003-vhl-disease]: Lonser RR, Glenn GM, Walther M, et al. von Hippel-Lindau disease. *Lancet.* 2003;361(9374):2059-2067. [doi:10.1016/S0140-6736(03)13643-4](https://doi.org/10.1016/S0140-6736(03)13643-4) · [PubMed 12814730](https://pubmed.ncbi.nlm.nih.gov/12814730/)
 [^choueiri-2020-hif2-rcc]: Choueiri TK, Kaelin WG Jr. Targeting the HIF2-VEGF axis in renal cell carcinoma. *Nat Med.* 2020;26(10):1519-1530. [doi:10.1038/s41591-020-1093-z](https://doi.org/10.1038/s41591-020-1093-z) · [PubMed 33020650](https://pubmed.ncbi.nlm.nih.gov/33020650/)
