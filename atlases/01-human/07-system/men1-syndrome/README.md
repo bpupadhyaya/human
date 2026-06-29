@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/erk1-2
     relation: connects-to
     note: "Proliferative MAPK: growth-factor-driven RAS-MAPK-ERK signalling promotes the proliferation of the parathyroid, pancreatic and pituitary tumours of MEN1, complementing the PI3K and cell-cycle pathways."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "NET angiogenesis: the VEGF/PDGF angiogenic axis (VEGF already mapped) supports the vascular pancreatic neuroendocrine tumours of MEN1 and is targeted by the multikinase inhibitors (sunitinib) used to treat them."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "mTOR pathway: PTEN loss releases the PI3K-AKT-mTOR axis (AKT, PIK3CA and mTOR already mapped) that drives MEN1 neuroendocrine tumours and is targeted therapeutically by everolimus."
+  - target: 01-human/03-molecular/rb1
+    relation: connects-to
+    note: "Cell-cycle restraint: the RB1-E2F checkpoint (CDKN1B, CDK4/6 and cyclin-D1 already mapped) restrains proliferation, and its dysregulation contributes to the neuroendocrine tumourigenesis of MEN1."
 ---
 
 # MEN1 Syndrome
@@ -543,6 +552,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — The PI3K-AKT-mTOR pathway (AKT and mTOR already mapped) drives the pancreatic neuroendocrine tumors of MEN1, the basis for the mTOR inhibitor everolimus in their treatment.
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — Menin normally restrains the cell cycle via the CDK inhibitors p21 and p27 (CDKN1A and CDKN1B mapped); its loss frees the CDK4/6-cyclin-D1-RB-E2F1 axis in MEN1 endocrine tumors.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Growth-factor-driven RAS-MAPK-ERK signaling promotes the proliferation of the parathyroid, pancreatic and pituitary tumors of MEN1, complementing the PI3K and cell-cycle pathways.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — The VEGF/PDGF angiogenic axis (VEGF already mapped) supports the vascular pancreatic neuroendocrine tumors of MEN1 and is targeted by the multikinase inhibitors (sunitinib) used to treat them.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss releases the PI3K-AKT-mTOR axis (AKT, PIK3CA and mTOR already mapped) that drives MEN1 neuroendocrine tumors and is targeted therapeutically by everolimus.
+- `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — The RB1-E2F checkpoint (CDKN1B, CDK4/6 and cyclin-D1 already mapped) restrains proliferation, and its dysregulation contributes to the neuroendocrine tumorigenesis of MEN1.
 
 ---
 

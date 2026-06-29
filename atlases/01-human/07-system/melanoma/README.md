@@ -328,6 +328,15 @@ cross_links:
   - target: 01-human/03-molecular/kras
     relation: connects-to
     note: "RAS-driven subtype: NRAS mutation is the second-commonest melanoma driver after BRAF, activating the RAS-MAPK cascade (ERK1/2 mapped) in a subgroup that resists BRAF inhibitors."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Immunotherapy resistance: interferon-γ signalling through JAK-STAT (IFN-γ already mapped) drives the antitumour immune response in melanoma, and loss-of-function JAK1/2 mutations are a key mechanism of acquired resistance to checkpoint immunotherapy."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Oxidative defence: NRF2 antioxidant signalling counters the ultraviolet- and metabolism-derived oxidative stress of melanoma and contributes to its therapy resistance."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Innate microenvironment: UV-induced and TLR-MyD88-NF-κB innate signalling (NF-κB already mapped) shapes the inflammatory microenvironment that promotes melanoma initiation and progression."
 ---
 
 # Melanoma
@@ -521,6 +530,9 @@ cross_links:
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — The CDK4/6-cyclin-D1 axis (cyclin-D1 mapped, with CDKN2A loss mapped) drives melanoma proliferation, a node combined with BRAF/MEK inhibition to deepen responses.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K-AKT activation (PTEN, AKT and mTOR already mapped) is a major mechanism by which melanoma escapes BRAF/MEK inhibition, the rationale for combined pathway blockade.
 - `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — NRAS mutation is the second-commonest melanoma driver after BRAF, activating the RAS-MAPK cascade (ERK1/2 mapped) in a subgroup that resists BRAF inhibitors.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Interferon-γ signaling through JAK-STAT (IFN-γ already mapped) drives the antitumor immune response in melanoma, and loss-of-function JAK1/2 mutations are a key mechanism of acquired resistance to checkpoint immunotherapy.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2 antioxidant signaling counters the ultraviolet- and metabolism-derived oxidative stress of melanoma and contributes to its therapy resistance.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — UV-induced and TLR-MyD88-NF-κB innate signaling (NF-κB already mapped) shapes the inflammatory microenvironment that promotes melanoma initiation and progression.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
