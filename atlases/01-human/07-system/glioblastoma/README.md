@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/nfe2l2
     relation: connects-to
     note: "Therapy resistance: NRF2 antioxidant signalling protects glioblastoma cells from oxidative and alkylating (temozolomide) stress, contributing to treatment resistance."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 is highly expressed in glioblastoma, promoting invasion, the mesenchymal phenotype and immune suppression."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling (TGF-β mapped) drives the invasion, stemness and immunosuppression of glioblastoma."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "STAT1-dependent interferon signalling shapes the immune microenvironment and the therapy response of glioblastoma."
 ---
 
 # Glioblastoma
@@ -565,6 +574,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — RAS-MAPK signaling (NF1 loss and ERK1/2 already mapped) downstream of amplified EGFR and PDGFRA drives the proliferation of glioblastoma.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK-STAT3 signaling (STAT3 already mapped) sustains glioblastoma-cell proliferation, stemness, and the immunosuppressive tumor microenvironment.
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2 antioxidant signaling protects glioblastoma cells from oxidative and alkylating (temozolomide) stress, contributing to treatment resistance.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 is highly expressed in glioblastoma, promoting invasion, the mesenchymal phenotype and immune suppression.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β mapped) drives the invasion, stemness and immunosuppression of glioblastoma.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — STAT1-dependent interferon signaling shapes the immune microenvironment and the therapy response of glioblastoma.
 
 ---
 

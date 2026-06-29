@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "Tumour-promoting inflammation: IL-6-STAT3 signalling (STAT3 already mapped) contributes a tumour-promoting inflammatory input to the neoplasms of Gorlin syndrome."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "JAK kinases transduce the IL-6 signal to STAT3 (IL-6 and STAT3 mapped), providing a proliferative and inflammatory input to the tumours of Gorlin syndrome."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "TGF-β signalling crosstalks with Hedgehog (PTCH1/SMO/SUFU mapped) and shapes the stroma of the basal cell carcinomas and odontogenic keratocysts of Gorlin syndrome."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 modulates tumour-cell survival and the stromal microenvironment of the neoplasms of Gorlin syndrome."
 ---
 
 # Gorlin Syndrome
@@ -546,6 +555,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — RAS-MAPK signaling (ERK1/2 already mapped) crosstalks with the Hedgehog pathway and is implicated in resistance to SMO inhibitors in the basal-cell carcinomas of Gorlin syndrome.
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2 antioxidant defense counters the ultraviolet oxidative stress that, with constitutive Hedgehog signaling, drives the multiple basal-cell carcinomas of Gorlin syndrome.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6-STAT3 signaling (STAT3 already mapped) contributes a tumor-promoting inflammatory input to the neoplasms of Gorlin syndrome.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK kinases transduce the IL-6 signal to STAT3 (IL-6 and STAT3 mapped), providing a proliferative and inflammatory input to the tumors of Gorlin syndrome.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β signaling crosstalks with Hedgehog (PTCH1/SMO/SUFU mapped) and shapes the stroma of the basal cell carcinomas and odontogenic keratocysts of Gorlin syndrome.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 modulates tumor-cell survival and the stromal microenvironment of the neoplasms of Gorlin syndrome.
 
 ---
 
