@@ -342,6 +342,15 @@ cross_links:
   - target: 01-human/03-molecular/erk1-2
     relation: connects-to
     note: "EPO-ERK-MAPK signalling drives the erythroid proliferation that expands the marrow in thalassemia, contributing to its skeletal complications."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 amplifies the macrophage inflammation that accompanies iron overload and contributes to the organ fibrosis of thalassemia."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6-STAT3 signalling links the chronic inflammation of thalassemia to hepcidin regulation and the iron-loading anaemia."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA released by the apoptosis of ineffective erythroid precursors can engage cGAS-STING, contributing to the inflammatory milieu of thalassemia."
 ---
 
 # Thalassemia
@@ -594,6 +603,9 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — The erythropoietin receptor signals through JAK2 (EPO mapped); the markedly elevated EPO of thalassemia drives the expanded but ineffective erythropoiesis via this axis.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — EPO-driven PI3K-AKT signaling promotes erythroid progenitor survival, dysregulated in the ineffective erythropoiesis of thalassemia.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — EPO-ERK-MAPK signaling drives the erythroid proliferation that expands the marrow in thalassemia, contributing to its skeletal complications.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 amplifies the macrophage inflammation that accompanies iron overload and contributes to the organ fibrosis of thalassemia.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling links the chronic inflammation of thalassemia to hepcidin regulation and the iron-loading anemia.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA released by the apoptosis of ineffective erythroid precursors can engage cGAS-STING, contributing to the inflammatory milieu of thalassemia.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.
