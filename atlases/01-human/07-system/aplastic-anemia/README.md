@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "Immune dysregulation: deficient regulatory IL-10 and regulatory T cells (already mapped) fail to restrain the autoreactive T-cell attack on the marrow in aplastic anaemia."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Dual JAK-STAT axis: IFN-γ and the thrombopoietin receptor MPL both signal through JAK-STAT (STAT1, STAT3 and MPL already mapped) — the axis driving both the immune stem-cell destruction and the eltrombopag-stimulated marrow recovery of aplastic anaemia."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1/IFN-γ response (already mapped) that mediates the cytotoxic T-cell attack on haematopoietic stem cells in aplastic anaemia."
+  - target: 01-human/03-molecular/runx1
+    relation: connects-to
+    note: "Clonal evolution: acquired clonal-haematopoiesis mutations (DNMT3A already mapped) including RUNX1 mark the evolution of aplastic anaemia toward myelodysplastic syndrome and acute leukaemia."
 ---
 
 # Aplastic Anemia
@@ -536,6 +545,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Fas- and perforin-driven T-cell attack on hematopoietic stem cells (perforin already mapped) tips the BCL-2 anti-apoptotic balance toward the HSC apoptosis (caspase-3 already mapped) that empties the marrow in aplastic anemia.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Thrombopoietin signaling through its receptor activates PI3K-AKT to support hematopoietic stem-cell survival, the axis eltrombopag exploits to restore hematopoiesis in aplastic anemia.
 - `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — Deficient regulatory IL-10 and regulatory T cells (already mapped) fail to restrain the autoreactive T-cell attack on the marrow in aplastic anemia.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IFN-γ and the thrombopoietin receptor MPL both signal through JAK-STAT (STAT1, STAT3 and MPL already mapped) — the axis driving both the immune stem-cell destruction and the eltrombopag-stimulated marrow recovery of aplastic anemia.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — IL-12 polarizes the Th1/IFN-γ response (already mapped) that mediates the cytotoxic T-cell attack on hematopoietic stem cells in aplastic anemia.
+- `connects-to` → **[RUNX1](../../03-molecular/runx1/README.md)** — Acquired clonal-hematopoiesis mutations (DNMT3A already mapped) including RUNX1 mark the evolution of aplastic anemia toward myelodysplastic syndrome and acute leukemia.
 
 ---
 

@@ -328,6 +328,15 @@ cross_links:
   - target: 01-human/03-molecular/angiopoietin
     relation: connects-to
     note: "Plaque neovascularisation: angiopoietin-driven angiogenesis produces the fragile intraplaque neovessels that haemorrhage and destabilise advanced atherosclerotic plaques, precipitating acute events."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Innate plaque inflammation: TLR4 sensing of oxidised LDL signals through MyD88 to NF-κB (both already mapped), igniting the sterile innate inflammation that converts lipid deposition into progressive atherosclerotic plaque."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Vascular oxidant defence: NRF2 antioxidant signalling counters the oxidative modification of LDL and the vascular oxidative stress central to atherogenesis and endothelial injury."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Endothelial protection: the PI3K-AKT-eNOS axis maintains endothelial nitric-oxide production (NO already mapped), and its impairment promotes the endothelial dysfunction that initiates atherosclerosis."
 ---
 
 # Atherosclerosis
@@ -545,6 +554,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — PDGF from platelets and plaque cells drives migration and proliferation of vascular smooth-muscle cells (already mapped) from media to intima, building the fibrous cap and stenotic neointima of atherosclerosis.
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β regulates collagen synthesis and the stability of the atherosclerotic fibrous cap, opposing the inflammatory forces (IL-1β already mapped) that thin the cap toward rupture.
 - `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Angiopoietin-driven angiogenesis produces the fragile intraplaque neovessels that hemorrhage and destabilize advanced atherosclerotic plaques, precipitating acute events.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR4 sensing of oxidized LDL signals through MyD88 to NF-κB (both already mapped), igniting the sterile innate inflammation that converts lipid deposition into progressive atherosclerotic plaque.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2 antioxidant signaling counters the oxidative modification of LDL and the vascular oxidative stress central to atherogenesis and endothelial injury.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — The PI3K-AKT-eNOS axis maintains endothelial nitric-oxide production (NO already mapped), and its impairment promotes the endothelial dysfunction that initiates atherosclerosis.
 
 ---
 
