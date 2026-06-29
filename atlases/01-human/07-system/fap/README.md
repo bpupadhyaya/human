@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/pik3ca
     relation: connects-to
     note: "PI3K cooperation: PIK3CA mutations activating PI3K-AKT-mTOR (AKT and mTOR already mapped) are a cooperating late event in the malignant progression of FAP colorectal adenomas."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "PI3K suppressor loss: loss of the PTEN tumour suppressor releases the same PI3K-AKT-mTOR axis (AKT, PIK3CA and mTOR already mapped), cooperating with Wnt/β-catenin in the progression of FAP adenomas."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Microbiota-driven progression: gut-microbiota-driven TLR-MyD88-NF-κB signalling (NF-κB already mapped) promotes the adenoma-to-carcinoma progression of the APC-mutant epithelium in familial adenomatous polyposis."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Tumour-promoting inflammation: IL-6-STAT3 signalling (STAT3 already mapped) sustains the inflammatory, tumour-promoting microenvironment of the colorectal neoplasia of FAP."
 ---
 
 # Familial Adenomatous Polyposis
@@ -563,6 +572,9 @@ With modern surveillance and prophylactic colectomy: FAP is no longer an inevita
 - `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — EGFR signaling drives the proliferation of colorectal adenomas and carcinomas in the FAP adenoma-carcinoma sequence, an upstream receptor input feeding the RAS-MAPK axis and a target of anti-EGFR therapy in metastatic disease.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Once a KRAS mutation is acquired (KRAS already mapped), the MAPK-ERK cascade drives the progression of FAP adenomas toward invasive carcinoma.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PIK3CA mutations activating PI3K-AKT-mTOR (AKT and mTOR already mapped) are a cooperating late event in the malignant progression of FAP colorectal adenomas.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — Loss of the PTEN tumor suppressor releases the same PI3K-AKT-mTOR axis (AKT, PIK3CA and mTOR already mapped), cooperating with Wnt/β-catenin in the progression of FAP adenomas.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Gut-microbiota-driven TLR-MyD88-NF-κB signaling (NF-κB already mapped) promotes the adenoma-to-carcinoma progression of the APC-mutant epithelium in familial adenomatous polyposis.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6-STAT3 signaling (STAT3 already mapped) sustains the inflammatory, tumor-promoting microenvironment of the colorectal neoplasia of FAP.
 
 [^kinzler-1991-apc]: Kinzler KW, Nilbert MC, Su LK, et al. Identification of FAP locus genes from chromosome 5q21. *Science.* 1991;253(5020):661-665. [doi:10.1126/science.1651562](https://doi.org/10.1126/science.1651562) · [PubMed 1651562](https://pubmed.ncbi.nlm.nih.gov/1651562/)
 [^fearon-1990-vogelstein]: Fearon ER, Vogelstein B. A genetic model for colorectal tumorigenesis. *Cell.* 1990;61(5):759-767. [doi:10.1016/0092-8674(90)90186-i](https://doi.org/10.1016/0092-8674(90)90186-i) · [PubMed 2188735](https://pubmed.ncbi.nlm.nih.gov/2188735/)

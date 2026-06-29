@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/e2f1
     relation: connects-to
     note: "Proliferative output: EWS-FLI1 and the CDK4/6-cyclin-D1 axis converge to release E2F1 from RB control, driving the cell-cycle entry that powers Ewing sarcoma growth."
+  - target: 01-human/03-molecular/rb1
+    relation: connects-to
+    note: "Checkpoint loss: the RB1-E2F checkpoint (E2F1, CDK4/6 and CDKN2A already mapped) restrains cell-cycle entry, and its disruption cooperates with the EWSR1-FLI1 fusion to drive Ewing-sarcoma proliferation."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "STAT3 survival: JAK-STAT3 signalling (STAT3 already mapped) supports the survival and proliferation of Ewing-sarcoma cells."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Apoptosis resistance: anti-apoptotic BCL-2 raises the threshold for caspase-3 apoptosis (already mapped), contributing to chemoresistance in Ewing sarcoma."
 ---
 
 # Ewing Sarcoma
@@ -546,6 +555,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — IGF-1R signaling (IGF-1 already mapped) drives PI3K in Ewing sarcoma, feeding the AKT-mTOR pathway (both mapped) that sustains the growth of this fusion-driven tumor.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — The cyclin-D-CDK4/6 axis (cyclin-D1 mapped, with CDKN2A loss in a subset) drives proliferation in Ewing sarcoma, making CDK4/6 inhibition an active area of clinical investigation.
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — EWS-FLI1 and the CDK4/6-cyclin-D1 axis converge to release E2F1 from RB control, driving the cell-cycle entry that powers Ewing sarcoma growth.
+- `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — The RB1-E2F checkpoint (E2F1, CDK4/6 and CDKN2A already mapped) restrains cell-cycle entry, and its disruption cooperates with the EWSR1-FLI1 fusion to drive Ewing-sarcoma proliferation.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK-STAT3 signaling (STAT3 already mapped) supports the survival and proliferation of Ewing-sarcoma cells.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Anti-apoptotic BCL-2 raises the threshold for caspase-3 apoptosis (already mapped), contributing to chemoresistance in Ewing sarcoma.
 
 ---
 
