@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/jak1-2
     relation: connects-to
     note: "KIT survival signalling: JAK-STAT3 signalling (STAT3 already mapped) contributes to the survival signalling downstream of KIT in gastrointestinal stromal tumour."
+  - target: 01-human/03-molecular/epas1
+    relation: connects-to
+    note: "In SDH-deficient GIST, succinate accumulation stabilises HIF-2α (EPAS1), producing a pseudohypoxic transcriptional program (EGLN1 and HIF-1α mapped) that drives tumorigenesis."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 contributes to the survival and stromal interactions of gastrointestinal stromal tumours."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "TGF-β within the tumour microenvironment modulates the invasive and immune behaviour of GIST."
 ---
 
 # GIST
@@ -566,6 +575,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — RAS-MAPK signaling (NF1 and BRAF already mapped) lies downstream of the KIT and PDGFRA driver mutations, transmitting the proliferative signal of gastrointestinal stromal tumor.
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — Deregulation of the RB1-E2F checkpoint (CDKN2A, cyclin-D1 and E2F1 already mapped) marks the progression of GIST toward higher-risk, more aggressive disease.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK-STAT3 signaling (STAT3 already mapped) contributes to the survival signaling downstream of KIT in gastrointestinal stromal tumor.
+- `connects-to` → **[EPAS1](../../03-molecular/epas1/README.md)** — In SDH-deficient GIST, succinate accumulation stabilizes HIF-2α (EPAS1), producing a pseudohypoxic transcriptional program (EGLN1 and HIF-1α mapped) that drives tumorigenesis.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 contributes to the survival and stromal interactions of gastrointestinal stromal tumors.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β within the tumor microenvironment modulates the invasive and immune behavior of GIST.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/perforin
     relation: connects-to
     note: "Cytotoxic injury: CD8 cytotoxic T cells and NK cells contribute perforin-mediated injury to the inflamed arterial wall in giant-cell arteritis."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-γ signalling through STAT1 (IFN-γ mapped) drives the macrophage and Th1 activation central to the granulomatous vascular inflammation of giant-cell arteritis."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K-AKT-mTOR signalling (mTOR mapped) sustains the pathogenic T-cell responses and vascular-smooth-muscle proliferation of giant-cell arteritis."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 amplifies the macrophage-driven vascular inflammation of giant-cell arteritis."
 ---
 
 # Giant Cell Arteritis
@@ -550,6 +559,9 @@ The temporal arteries supply scalp, temporalis muscle, and dura. In GCA, transmu
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Vascular dendritic cells activated through TLR-MyD88-NF-κB signaling (TLR4 and NF-κB already mapped) initiate the adventitial immune response of giant-cell arteritis.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — A deficient PD-1/PD-L1 checkpoint in the arterial wall fails to restrain the vasculitogenic T-cell response, a mechanism permitting the persistent inflammation of giant-cell arteritis.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — CD8 cytotoxic T cells and NK cells contribute perforin-mediated injury to the inflamed arterial wall in giant-cell arteritis.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-γ signaling through STAT1 (IFN-γ mapped) drives the macrophage and Th1 activation central to the granulomatous vascular inflammation of giant-cell arteritis.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT-mTOR signaling (mTOR mapped) sustains the pathogenic T-cell responses and vascular-smooth-muscle proliferation of giant-cell arteritis.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 amplifies the macrophage-driven vascular inflammation of giant-cell arteritis.
 
 [^stone-2017-giact]: Stone JH, Tuckwell K, Dimonaco S, et al. Trial of tocilizumab in giant-cell arteritis. *N Engl J Med.* 2017;377(4):317-328. [doi:10.1056/NEJMoa1613849](https://doi.org/10.1056/NEJMoa1613849) · [PubMed 28745999](https://pubmed.ncbi.nlm.nih.gov/28745999/)
 [^weyand-2014-gca-review]: Weyand CM, Goronzy JJ. Clinical practice. Giant-cell arteritis and polymyalgia rheumatica. *N Engl J Med.* 2014;371(1):50-57. [doi:10.1056/NEJMcp1214926](https://doi.org/10.1056/NEJMcp1214926) · [PubMed 24988557](https://pubmed.ncbi.nlm.nih.gov/24988557/)
