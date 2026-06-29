@@ -337,6 +337,15 @@ cross_links:
   - target: 01-human/03-molecular/ntrk
     relation: connects-to
     note: "Neurotrophic decline: BDNF signalling through its TrkB receptor (NTRK) supports neuronal survival, and the loss of this trophic support accelerates the cholinergic and cortical degeneration of Lewy body dementia."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K-AKT signalling (GSK-3β and mTOR mapped) maintains neuronal survival and regulates α-synuclein-related autophagy, its decline contributing to neurodegeneration in Lewy body dementia."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Cytokine-driven JAK-STAT signalling sustains the microglial and astrocytic neuroinflammation accompanying α-synuclein pathology in Lewy body dementia."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "STAT3-driven reactive astrogliosis is part of the neuroinflammatory response to Lewy pathology in Lewy body dementia."
 ---
 
 # Lewy Body Dementia
@@ -569,6 +578,9 @@ Approximately 25-50% of clinically diagnosed DLB cases have significant AD co-pa
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Aggregated α-synuclein (SNCA already mapped) engages microglial TLRs that signal through MyD88 to NF-κB, sustaining the chronic innate-immune activation that drives Lewy-body neurodegeneration.
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β phosphorylates tau (MAPT already mapped) and modulates α-synuclein toxicity, mechanistically linking the combined tau and synuclein pathology characteristic of Lewy body dementia.
 - `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — BDNF signaling through its TrkB receptor (NTRK) supports neuronal survival, and the loss of this trophic support accelerates the cholinergic and cortical degeneration of Lewy body dementia.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling (GSK-3β and mTOR mapped) maintains neuronal survival and regulates α-synuclein-related autophagy, its decline contributing to neurodegeneration in Lewy body dementia.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Cytokine-driven JAK-STAT signaling sustains the microglial and astrocytic neuroinflammation accompanying α-synuclein pathology in Lewy body dementia.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3-driven reactive astrogliosis is part of the neuroinflammatory response to Lewy pathology in Lewy body dementia.
 
 [^mckeith-2017-dlb-criteria]: McKeith IG, Boeve BF, Dickson DW, et al. Diagnosis and management of dementia with Lewy bodies: Fourth consensus report of the DLB Consortium. *Neurology.* 2017;89(1):88-100. [doi:10.1212/WNL.0000000000004058](https://doi.org/10.1212/WNL.0000000000004058) · [PubMed 28592453](https://pubmed.ncbi.nlm.nih.gov/28592453/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)

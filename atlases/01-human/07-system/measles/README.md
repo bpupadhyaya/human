@@ -335,6 +335,15 @@ cross_links:
   - target: 01-human/03-molecular/nlrp3-inflammasome
     relation: connects-to
     note: "Inflammasome activation: measles virus activates the NLRP3 inflammasome, contributing to the inflammatory cytokine response and to the rare CNS immunopathology of subacute sclerosing panencephalitis."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Measles virus modulates host PI3K-AKT signalling to support replication and influence infected-cell survival."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "ERK-MAPK signalling is engaged during measles virus replication and contributes to the cellular response to infection."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Measles virus manipulates mTOR-regulated translation to favour viral protein synthesis in infected cells."
 ---
 
 # Measles
@@ -585,6 +594,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Measles V and P proteins target JAK-STAT signaling to block interferon-stimulated-gene induction downstream of STAT1 and type-I interferon (both already mapped), a central immune-evasion mechanism of the virus.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 opsonizes measles virions and amplifies antibody-mediated neutralization (IgG already mapped), part of the humoral protection conferred by infection and vaccination.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Measles virus activates the NLRP3 inflammasome, contributing to the inflammatory cytokine response and to the rare CNS immunopathology of subacute sclerosing panencephalitis.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Measles virus modulates host PI3K-AKT signaling to support replication and influence infected-cell survival.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling is engaged during measles virus replication and contributes to the cellular response to infection.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Measles virus manipulates mTOR-regulated translation to favor viral protein synthesis in infected cells.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)
