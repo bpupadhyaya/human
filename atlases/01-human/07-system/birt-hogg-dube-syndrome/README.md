@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/bcl-2
     relation: connects-to
     note: "Apoptosis resistance: anti-apoptotic BCL-2 supports the survival of the slow-growing renal tumours of Birt-Hogg-Dubé, complementing the mTOR-driven suppression of caspase-3 apoptosis already mapped."
+  - target: 01-human/03-molecular/idh1
+    relation: connects-to
+    note: "Metabolic-RCC spectrum: oncometabolite-producing IDH mutations parallel the FH and SDHB metabolic lesions (both already mapped) within the spectrum of metabolically-driven hereditary renal tumours, where altered metabolites stabilise HIF and reprogram the epigenome."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "Renal-tumour angiogenesis: VEGF/PDGF-axis angiogenesis (VEGF already mapped) supports the renal tumours that Birt-Hogg-Dubé predisposes to and is the target of the tyrosine-kinase inhibitors used in renal cell carcinoma."
+  - target: 01-human/03-molecular/kras
+    relation: connects-to
+    note: "Proliferative cooperation: RAS-MAPK signalling through ERK1/2 (already mapped) provides a proliferative input that cooperates with FLCN loss in driving the tumours of Birt-Hogg-Dubé syndrome."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -564,6 +573,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — FLCN loss in Birt-Hogg-Dubé dysregulates the PI3K-AKT-mTOR axis (AKT and mTOR already mapped), driving the renal tumors and skin lesions of the syndrome.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH governs hair-follicle development, and its dysregulation downstream of FLCN loss contributes to the fibrofolliculomas—hair-follicle hamartomas—that are the defining skin lesion of BHD.
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Anti-apoptotic BCL-2 supports survival of the slow-growing renal tumors of Birt-Hogg-Dubé, complementing the mTOR-driven suppression of caspase-3 apoptosis already mapped.
+- `connects-to` → **[IDH1](../../03-molecular/idh1/README.md)** — Oncometabolite-producing IDH mutations parallel the FH and SDHB metabolic lesions (both already mapped) within the spectrum of metabolically-driven hereditary renal tumors, where altered metabolites stabilize HIF and reprogram the epigenome.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — VEGF/PDGF-axis angiogenesis (VEGF already mapped) supports the renal tumors that Birt-Hogg-Dubé predisposes to and is the target of the tyrosine-kinase inhibitors used in renal cell carcinoma.
+- `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — RAS-MAPK signaling through ERK1/2 (already mapped) provides a proliferative input that cooperates with FLCN loss in driving the tumors of Birt-Hogg-Dubé syndrome.
 
 ---
 
