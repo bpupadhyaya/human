@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/crh
     relation: connects-to
     note: "Stress neuroendocrine link: hypothalamic CRH initiates the neuroendocrine stress response, the bridge by which the nervous system drives the HPA axis and cortisol (mapped) output."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Synaptic plasticity: mTOR signalling governs the activity-dependent protein synthesis underlying synaptic plasticity, neuronal growth, and the developmental wiring of the nervous system."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "Plasticity signal transduction: ERK-MAPK signalling, engaged downstream of neurotrophin (BDNF-TrkB) and neurotransmitter receptors (both mapped), transduces neuronal activity into the gene expression of long-term plasticity and memory."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Microglial surveillance: microglial TLR4 innate sensing surveys the CNS for danger signals, initiating the neuroinflammatory responses that shape both defence and disease in the nervous system."
 ---
 
 # Nervous System
@@ -471,6 +480,9 @@ Distributed cortical networks underlie language (Broca's area, Wernicke's area, 
 - `connects-to` → **[Mu-Opioid Receptor](../../03-molecular/mu-opioid-receptor/README.md)** — The mu-opioid receptor transduces the endorphin and enkephalin signals that modulate pain and reward, a core neuromodulatory system of the nervous system and the target of opioid analgesics.
 - `connects-to` → **[Orexin](../../03-molecular/orexin/README.md)** — Hypothalamic orexin (hypocretin) neurons stabilize wakefulness and gate the sleep-wake transition, the arousal system whose loss causes narcolepsy.
 - `connects-to` → **[CRH](../../03-molecular/crh/README.md)** — Hypothalamic CRH initiates the neuroendocrine stress response, the bridge by which the nervous system drives the HPA axis and cortisol (mapped) output.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR signaling governs the activity-dependent protein synthesis underlying synaptic plasticity, neuronal growth, and the developmental wiring of the nervous system.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling, engaged downstream of neurotrophin (BDNF-TrkB) and neurotransmitter receptors (both mapped), transduces neuronal activity into the gene expression of long-term plasticity and memory.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Microglial TLR4 innate sensing surveys the CNS for danger signals, initiating the neuroinflammatory responses that shape both defense and disease in the nervous system.
 
 ## Pathology
 
