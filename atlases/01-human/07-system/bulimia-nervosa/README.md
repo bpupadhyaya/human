@@ -324,6 +324,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin-receptor
     relation: connects-to
     note: "Glycaemic swings: the binge-purge cycle drives wide insulin excursions (insulin already mapped), and insulin-receptor signalling in hypothalamic appetite circuits couples these metabolic swings to the disordered hunger and satiety of bulimia."
+  - target: 01-human/03-molecular/ntrk
+    relation: connects-to
+    note: "Feeding-reward control: BDNF acting through its TrkB receptor (NTRK) regulates feeding behaviour and reward (BDNF already mapped), and disruption of this signalling is implicated in the binge-purge cycles of bulimia nervosa."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Hypothalamic nutrient sensing: hypothalamic mTOR integrates energy and nutrient status into appetite control, a pathway whose dysregulation contributes to the disordered eating of bulimia nervosa."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Inflammatory appetite modulation: IL-6 and inflammatory-cytokine signalling, altered in eating disorders, modulates the appetite and mood circuits implicated in bulimia nervosa."
 ---
 
 # Bulimia Nervosa
@@ -555,6 +564,9 @@ All of the following must be met:
 - `connects-to` → **[Orexin](../../03-molecular/orexin/README.md)** — Orexin (hypocretin) links arousal state to food reward and motivated eating, and its dysregulation contributes to the loss-of-control binge episodes that define bulimia nervosa.
 - `connects-to` → **[Glucocorticoid Receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Cortisol and CRH (already mapped) act through the glucocorticoid receptor, and the heightened HPA tone of bulimia drives stress-induced binge eating and the reward sensitization that perpetuates the binge-purge cycle.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — The binge-purge cycle drives wide insulin excursions (insulin already mapped), and insulin-receptor signaling in hypothalamic appetite circuits couples these metabolic swings to the disordered hunger and satiety of bulimia.
+- `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — BDNF acting through its TrkB receptor (NTRK) regulates feeding behavior and reward (BDNF already mapped), and disruption of this signaling is implicated in the binge-purge cycles of bulimia nervosa.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Hypothalamic mTOR integrates energy and nutrient status into appetite control, a pathway whose dysregulation contributes to the disordered eating of bulimia nervosa.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 and inflammatory-cytokine signaling, altered in eating disorders, modulates the appetite and mood circuits implicated in bulimia nervosa.
 
 ## Treatment
 

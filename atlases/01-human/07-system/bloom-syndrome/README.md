@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/rb1
     relation: connects-to
     note: "Checkpoint restraint: RB1 holds back E2F-driven S-phase entry until repair is complete, and the relentless replication stress of Bloom syndrome makes this restraint critical to limiting propagation of damaged genomes."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Oxidative genomic stress: NRF2 antioxidant defence limits the reactive-oxygen-species-driven DNA damage that compounds the genomic instability of BLM-helicase deficiency in Bloom syndrome."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Growth and survival: PI3K-AKT signalling downstream of growth hormone, IGF-1 and insulin (all already mapped) governs the growth programmes constrained in the growth failure of Bloom syndrome yet co-opted by its cancers."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Cancer angiogenesis: VEGF-driven angiogenesis supports the diverse early-onset malignancies to which the genomic instability of Bloom syndrome predisposes."
 ---
 
 # Bloom Syndrome
@@ -561,6 +570,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — E2F1 transactivates homologous-recombination genes including RAD51 and BRCA1 (already mapped), so the RB-E2F axis intersects the very repair machinery BLM helicase loss compromises in Bloom syndrome.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Cyclin-D-CDK4/6 (cyclin-D1 already mapped) propels cell-cycle entry, and the genomic instability of BLM-deficient cells accelerates the mutational hits that deregulate this axis in Bloom-associated cancers.
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — RB1 holds back E2F-driven S-phase entry until repair is complete, and the relentless replication stress of Bloom syndrome makes this restraint critical to limiting propagation of damaged genomes.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2 antioxidant defense limits the reactive-oxygen-species-driven DNA damage that compounds the genomic instability of BLM-helicase deficiency in Bloom syndrome.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling downstream of growth hormone, IGF-1 and insulin (all already mapped) governs the growth programs constrained in the growth failure of Bloom syndrome yet co-opted by its cancers.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VEGF-driven angiogenesis supports the diverse early-onset malignancies to which the genomic instability of Bloom syndrome predisposes.
 
 ---
 
