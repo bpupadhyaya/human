@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/erk1-2
     relation: connects-to
     note: "Circuit plasticity: dopamine- and BDNF-driven ERK signalling supports the prefrontal-striatal synaptic plasticity whose disruption contributes to the attentional and executive deficits of ADHD."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Neuroinflammatory contribution: TLR4-driven neuroinflammation is increasingly implicated in ADHD, linking immune activation and maternal-immune-activation risk to the catecholaminergic dysfunction of the disorder."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Neurodevelopmental plasticity: mTOR-dependent synaptic plasticity shapes the prefrontal-striatal circuit development whose alterations underlie the executive-function deficits of ADHD."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Oxidative stress: NRF2-regulated antioxidant defences counter the oxidative stress reported in ADHD, a redox component of its neurodevelopmental pathophysiology."
 ---
 
 # Attention-Deficit/Hyperactivity Disorder
@@ -581,6 +590,9 @@ ADHD is a clinical diagnosis requiring [^biederman-2005-adhd-adults]:
 - `connects-to` → **[Glucocorticoid Receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — HPA-axis dysregulation (cortisol already mapped) and altered glucocorticoid-receptor signaling are implicated in ADHD, linking stress reactivity to its inattention and emotional dysregulation.
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — Dopamine D2-receptor signaling through the AKT-GSK3β axis modulates the striatal dopamine circuitry central to ADHD and to the action of its dopaminergic stimulant treatments.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Dopamine- and BDNF-driven ERK signaling supports the prefrontal-striatal synaptic plasticity whose disruption contributes to the attentional and executive deficits of ADHD.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4-driven neuroinflammation is increasingly implicated in ADHD, linking immune activation and maternal-immune-activation risk to the catecholaminergic dysfunction of the disorder.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR-dependent synaptic plasticity shapes the prefrontal-striatal circuit development whose alterations underlie the executive-function deficits of ADHD.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2-regulated antioxidant defenses counter the oxidative stress reported in ADHD, a redox component of its neurodevelopmental pathophysiology.
 
 [^faraone-2021-adhd-primer]: Faraone SV, Banaschewski T, Coghill D, et al. The World Federation of ADHD International Consensus Statement: 208 Evidence-based conclusions about the disorder. *Neurosci Biobehav Rev.* 2021;128:789-818. [doi:10.1016/j.neubiorev.2021.01.022](https://doi.org/10.1016/j.neubiorev.2021.01.022) · [PubMed 33549739](https://pubmed.ncbi.nlm.nih.gov/33549739/)
 [^arnsten-2009-adhd-neuroscience]: Arnsten AF. Toward a new understanding of ADHD pathophysiology: an important role for prefrontal cortex dysfunction. *CNS Drugs.* 2009;23(Suppl 1):33-41. [doi:10.2165/00023210-200923000-00005](https://doi.org/10.2165/00023210-200923000-00005) · [PubMed 19621976](https://pubmed.ncbi.nlm.nih.gov/19621976/)

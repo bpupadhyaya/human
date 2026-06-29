@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/nfe2l2
     relation: connects-to
     note: "Barrier oxidative defence: barrier disruption and inflammation in atopic dermatitis impose oxidative stress, and the NRF2 antioxidant pathway that normally supports keratinocyte barrier function is impaired in the disease."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Innate skin inflammation: TLR4 sensing of Staphylococcus aureus products and barrier-disruption signals drives the innate skin inflammation that, with cutaneous dysbiosis, amplifies atopic-dermatitis flares."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17/Th22 arm: IL-23 sustains the Th17/Th22 responses (IL-17A already mapped) that contribute to the chronic and intrinsic-type inflammation of atopic dermatitis alongside the dominant Th2 axis."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Epidermal hyperplasia: mTOR-driven keratinocyte proliferation contributes to the epidermal hyperplasia (acanthosis) and barrier remodelling of chronic atopic-dermatitis lesions."
 ---
 
 # Atopic Dermatitis
@@ -546,6 +555,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — T-cell-driven caspase-3 apoptosis of keratinocytes produces the intercellular edema (spongiosis) of acute atopic-dermatitis lesions, disrupting the epidermal barrier.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β released by stressed keratinocytes, alongside the TSLP and IL-33 already mapped, amplifies the innate inflammation that initiates and sustains the atopic-dermatitis lesion.
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — Barrier disruption and inflammation in atopic dermatitis impose oxidative stress, and the NRF2 antioxidant pathway that normally supports keratinocyte barrier function is impaired in the disease.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4 sensing of Staphylococcus aureus products and barrier-disruption signals drives the innate skin inflammation that, with cutaneous dysbiosis, amplifies atopic-dermatitis flares.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — IL-23 sustains the Th17/Th22 responses (IL-17A already mapped) that contribute to the chronic and intrinsic-type inflammation of atopic dermatitis alongside the dominant Th2 axis.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR-driven keratinocyte proliferation contributes to the epidermal hyperplasia (acanthosis) and barrier remodeling of chronic atopic-dermatitis lesions.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
