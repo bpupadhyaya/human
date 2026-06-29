@@ -337,6 +337,15 @@ cross_links:
   - target: 01-human/03-molecular/npy
     relation: connects-to
     note: "Arousal dampening: neuropeptide Y opposes CRH-driven arousal (CRH already mapped) and promotes sleep onset, and deficient NPY-mediated calming contributes to the stress-related hyperarousal of insomnia."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K-AKT-mTOR signalling (mTOR mapped) participates in the synaptic and homeostatic regulation of sleep-wake states disrupted in insomnia."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Microglial galectin-3 reflects the low-grade neuroinflammation linked to chronic sleep loss and insomnia."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Sleep deprivation generates oxidative stress that NRF2 antioxidant defences counter, linking insomnia to redox imbalance and its systemic consequences."
 ---
 
 # Insomnia Disorder
@@ -580,6 +589,9 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4-driven neuroinflammation links the systemic low-grade inflammation of chronic sleep loss to the cortical hyperarousal that perpetuates insomnia, a bidirectional sleep-immune loop.
 - `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — BDNF signaling through its TrkB receptor (NTRK) mediates the sleep-dependent synaptic plasticity and slow-wave homeostasis that chronic insomnia degrades.
 - `connects-to` → **[Neuropeptide Y](../../03-molecular/npy/README.md)** — Neuropeptide Y opposes CRH-driven arousal (CRH already mapped) and promotes sleep onset, and deficient NPY-mediated calming contributes to the stress-related hyperarousal of insomnia.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT-mTOR signaling (mTOR mapped) participates in the synaptic and homeostatic regulation of sleep-wake states disrupted in insomnia.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Microglial galectin-3 reflects the low-grade neuroinflammation linked to chronic sleep loss and insomnia.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — Sleep deprivation generates oxidative stress that NRF2 antioxidant defenses counter, linking insomnia to redox imbalance and its systemic consequences.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)

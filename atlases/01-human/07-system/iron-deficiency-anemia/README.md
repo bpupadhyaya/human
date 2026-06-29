@@ -327,6 +327,15 @@ cross_links:
   - target: 01-human/03-molecular/mtor
     relation: connects-to
     note: "Erythroid translation: mTOR couples iron and nutrient availability to protein synthesis in developing erythroblasts, so iron deficiency restrains mTOR-dependent translation and limits haemoglobinisation."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "The erythropoietin receptor signals through JAK2 (EPO mapped); iron-restricted erythropoiesis blunts the output of this pathway in iron deficiency anemia."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "EPO-driven PI3K-AKT signalling supports erythroid progenitor survival, a response constrained by the iron limitation of iron deficiency anemia."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "EPO-ERK-MAPK signalling drives erythroid progenitor proliferation, which iron restriction limits in iron deficiency anemia."
 ---
 
 # Iron Deficiency Anemia
@@ -550,6 +559,9 @@ Iron is essential for:
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — BMP/TGF-β-superfamily signaling through SMAD (SMAD4 already mapped) is the central hepatocyte pathway that transcriptionally tunes hepcidin to iron stores, governing the iron availability that iron-deficiency anemia depletes.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β, alongside IL-6 (already mapped), induces hepcidin and the functional iron sequestration that compounds iron-deficiency anemia when inflammation coexists.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR couples iron and nutrient availability to protein synthesis in developing erythroblasts, so iron deficiency restrains mTOR-dependent translation and limits hemoglobinization.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — The erythropoietin receptor signals through JAK2 (EPO mapped); iron-restricted erythropoiesis blunts the output of this pathway in iron deficiency anemia.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — EPO-driven PI3K-AKT signaling supports erythroid progenitor survival, a response constrained by the iron limitation of iron deficiency anemia.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — EPO-ERK-MAPK signaling drives erythroid progenitor proliferation, which iron restriction limits in iron deficiency anemia.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)
