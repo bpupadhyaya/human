@@ -328,6 +328,15 @@ cross_links:
   - target: 01-human/03-molecular/il-5
     relation: connects-to
     note: "Th2 skew: IL-5, alongside the IL-4 and IL-13 already mapped, marks the Th2 polarisation that drives the IgG4-skewed anti-desmoglein autoantibody response of pemphigus vulgaris."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 helper drive: IL-12-driven Th1 polarisation (IFN-γ already mapped) contributes to the autoreactive T-cell help underlying anti-desmoglein autoantibody production in pemphigus vulgaris."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Innate contribution: TLR-MyD88-NF-κB innate signalling (NF-κB already mapped) provides an innate-immune contribution to the inflammatory blistering of pemphigus vulgaris."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "Acantholysis signalling: PI3K (PIK3CA)-AKT signalling (AKT already mapped), activated downstream of desmoglein-3 antibody binding, participates in the intracellular signalling that drives keratinocyte acantholysis in pemphigus vulgaris."
 ---
 
 # Pemphigus Vulgaris
@@ -575,6 +584,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Binding of anti-desmoglein-3 IgG triggers intracellular p38-MAPK and ERK signaling in keratinocytes that actively drives the cell-cell detachment of acantholysis, beyond simple steric blockade.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Dsg3-antibody binding perturbs PI3K-AKT survival signaling in keratinocytes, contributing to the apoptosis-like "apoptolysis" that accompanies loss of adhesion in pemphigus.
 - `connects-to` → **[Interleukin-5](../../03-molecular/il-5/README.md)** — IL-5, alongside the IL-4 and IL-13 already mapped, marks the Th2 polarization that drives the IgG4-skewed anti-desmoglein autoantibody response of pemphigus vulgaris.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — IL-12-driven Th1 polarization (IFN-γ already mapped) contributes to the autoreactive T-cell help underlying anti-desmoglein autoantibody production in pemphigus vulgaris.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88-NF-κB innate signaling (NF-κB already mapped) provides an innate-immune contribution to the inflammatory blistering of pemphigus vulgaris.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped), activated downstream of desmoglein-3 antibody binding, participates in the intracellular signaling that drives keratinocyte acantholysis in pemphigus vulgaris.
 
 ---
 

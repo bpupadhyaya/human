@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/baff
     relation: connects-to
     note: "B-cell survival: the cytokine BAFF supports the survival of the malignant B cells of PCNSL, reinforcing the MYD88-CD79B-BTK-NF-κB signalling (mapped) on which they depend."
+  - target: 01-human/03-molecular/rb1
+    relation: connects-to
+    note: "Cell-cycle restraint: the RB1-E2F checkpoint (CDKN2A, cyclin-D1 and E2F1 already mapped) restrains proliferation, and its dysregulation contributes to the aggressive growth of primary CNS lymphoma."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "BCR-MAPK proliferation: chronic-active B-cell-receptor signalling activates RAS-ERK alongside the MYD88-NF-κB axis (already mapped) to drive proliferation in primary CNS lymphoma."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "Apoptosis evasion: MDM2-mediated p53 inactivation (p53 already mapped) contributes to the apoptosis evasion of primary CNS lymphoma."
 ---
 
 # Primary CNS Lymphoma
@@ -537,6 +546,9 @@ Score 0-1: 2-year OS ~80%; Score 2-3: ~48%; Score 4-5: ~15%
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — CDKN2A loss (mapped) frees the cyclin-D1-CDK4/6 axis to release E2F1, driving the high proliferative rate of primary CNS lymphoma.
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 alterations occur in primary CNS lymphoma and are associated with a poorer response to high-dose-methotrexate-based therapy.
 - `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — The cytokine BAFF supports the survival of the malignant B cells of PCNSL, reinforcing the MYD88-CD79B-BTK-NF-κB signaling (mapped) on which they depend.
+- `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — The RB1-E2F checkpoint (CDKN2A, cyclin-D1 and E2F1 already mapped) restrains proliferation, and its dysregulation contributes to the aggressive growth of primary CNS lymphoma.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Chronic-active B-cell-receptor signaling activates RAS-ERK alongside the MYD88-NF-κB axis (already mapped) to drive proliferation in primary CNS lymphoma.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated p53 inactivation (p53 already mapped) contributes to the apoptosis evasion of primary CNS lymphoma.
 
 [^bromberg-2019-hovon105]: Bromberg JE, Issa S, Bakunina K, et al. Rituximab in patients with primary CNS lymphoma (HOVON 105/ALLG NHL 24): a randomised, open-label, phase 3 intergroup study. *Lancet Oncol.* 2019;20(2):216-228. [doi:10.1016/S1470-2045(18)30747-2](https://doi.org/10.1016/S1470-2045(18)30747-2) · [PubMed 30528440](https://pubmed.ncbi.nlm.nih.gov/30528440/)
 [^grommes-2017-ibrutinib-pcnsl]: Grommes C, Pastore A, Palaskas N, et al. Ibrutinib unmasks critical role of Bruton tyrosine kinase in primary CNS lymphoma. *Cancer Cell.* 2017;31(6):833-843. [doi:10.1016/j.ccell.2017.04.012](https://doi.org/10.1016/j.ccell.2017.04.012) · [PubMed 28552327](https://pubmed.ncbi.nlm.nih.gov/28552327/)
