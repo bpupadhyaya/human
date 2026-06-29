@@ -334,6 +334,15 @@ cross_links:
   - target: 01-human/03-molecular/erk1-2
     relation: connects-to
     note: "C5a acting on C5aR (C5aR1 mapped) engages ERK-MAPK in neutrophils and platelets, amplifying the cellular activation that drives PNH thrombosis."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 promotes the neutrophil-extracellular-trap-driven thromboinflammation that amplifies the prothrombotic state of paroxysmal nocturnal haemoglobinuria."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "DNA within complement-triggered neutrophil extracellular traps engages cGAS-STING, linking NET-driven inflammation to the thrombosis of PNH."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6-STAT3 signalling transduces the inflammatory cytokine response that accompanies the chronic complement-mediated haemolysis of PNH."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -531,6 +540,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Erythropoietin and thrombopoietin signal through JAK2 (EPO and TPO mapped), the cytokine axis driving erythroid compensation against hemolysis and relevant to the marrow-failure background of PNH.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Sublytic complement attack on PNH cells triggers PI3K-AKT survival and activation signaling in platelets and endothelium, contributing to the prothrombotic state of the disease.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — C5a acting on C5aR (C5aR1 mapped) engages ERK-MAPK in neutrophils and platelets, amplifying the cellular activation that drives PNH thrombosis.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 promotes the neutrophil-extracellular-trap-driven thromboinflammation that amplifies the prothrombotic state of paroxysmal nocturnal hemoglobinuria.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — DNA within complement-triggered neutrophil extracellular traps engages cGAS-STING, linking NET-driven inflammation to the thrombosis of PNH.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling transduces the inflammatory cytokine response that accompanies the chronic complement-mediated hemolysis of PNH.
 
 ---
 

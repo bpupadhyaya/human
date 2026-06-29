@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/cdkn2a
     relation: connects-to
     note: "CDKN2A (p16) loss releases CDK4/6-cyclin-D control (cyclin-D1 mapped) of the cell cycle, a recurrent lesion in lethal prostate cancer."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 supports immune evasion and the bone-metastatic colonisation that drives mortality in advanced prostate cancer."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6-STAT3 signalling supports androgen-independent growth and contributes to the castration resistance of advanced prostate cancer."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the antitumour immune response of the immunologically cold prostate cancer, relevant to its limited immunotherapy responsiveness."
 ---
 
 # Prostate Cancer
@@ -574,6 +583,9 @@ cross_links:
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6-STAT3 signaling promotes androgen-receptor reactivation and neuroendocrine differentiation in castration-resistant prostate cancer.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — Loss of TGF-β-SMAD4 signaling (TGF-β mapped) is a key metastasis-suppressor lesion whose inactivation drives aggressive, bone-metastatic prostate cancer.
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A (p16) loss releases CDK4/6-cyclin-D control (cyclin-D1 mapped) of the cell cycle, a recurrent lesion in lethal prostate cancer.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 supports immune evasion and the bone-metastatic colonization that drives mortality in advanced prostate cancer.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling supports androgen-independent growth and contributes to the castration resistance of advanced prostate cancer.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antitumor immune response of the immunologically cold prostate cancer, relevant to its limited immunotherapy responsiveness.
 
 [^beer-2014-prevail]: Beer TM, Armstrong AJ, Rathkopf D, et al. Enzalutamide in metastatic prostate cancer before chemotherapy. *N Engl J Med.* 2014;371(5):424-433. [doi:10.1056/NEJMoa1405095](https://doi.org/10.1056/NEJMoa1405095) · [PubMed 24881730](https://pubmed.ncbi.nlm.nih.gov/24881730/)
 [^sartor-2021-vision]: Sartor O, de Bono J, Chi KN, et al. Lutetium-PSMA-617 for metastatic castration-resistant prostate cancer. *N Engl J Med.* 2021;385(12):1091-1103. [doi:10.1056/NEJMoa2107322](https://doi.org/10.1056/NEJMoa2107322) · [PubMed 34161051](https://pubmed.ncbi.nlm.nih.gov/34161051/)
