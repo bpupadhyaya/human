@@ -325,6 +325,15 @@ cross_links:
   - target: 01-human/03-molecular/ghrelin
     relation: connects-to
     note: "Metabolic axis: the gut microbiome modulates appetite-regulating hormones including ghrelin (with leptin and GLP-1 mapped), part of the microbiome's influence on host energy balance and metabolism."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Metabolite nutrient sensing: microbial metabolites such as short-chain fatty acids and amino acids signal through mTOR in host epithelial and immune cells, linking the gut microbiome to host nutrient sensing and immune-cell differentiation."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Systemic cytokine tone: the gut microbiota tunes systemic IL-6 and inflammatory-cytokine tone, a route by which dysbiosis influences host inflammation beyond the gut."
+  - target: 01-human/03-molecular/ntrk
+    relation: connects-to
+    note: "Gut-brain neurotrophin axis: the microbiome modulates BDNF and its TrkB receptor (NTRK) signalling in the gut-brain axis (BDNF already mapped), influencing enteric and central neural function."
 ---
 
 # Gut Microbiome
@@ -505,6 +514,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Microbiota-derived molecular patterns signal through TLRs (TLR4 mapped) and MyD88 to NF-κB (mapped), the core innate pathway by which the host senses and tolerates its commensal microbiome.
 - `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — The microbiota calibrates the balance between IFN-γ-producing Th1 cells and regulatory T cells during the development of mucosal immunity, shaping systemic immune tone.
 - `connects-to` → **[Ghrelin](../../03-molecular/ghrelin/README.md)** — The gut microbiome modulates appetite-regulating hormones including ghrelin (with leptin and GLP-1 mapped), part of the microbiome's influence on host energy balance and metabolism.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Microbial metabolites such as short-chain fatty acids and amino acids signal through mTOR in host epithelial and immune cells, linking the gut microbiome to host nutrient sensing and immune-cell differentiation.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — The gut microbiota tunes systemic IL-6 and inflammatory-cytokine tone, a route by which dysbiosis influences host inflammation beyond the gut.
+- `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — The microbiome modulates BDNF and its TrkB receptor (NTRK) signaling in the gut-brain axis (BDNF already mapped), influencing enteric and central neural function.
 
 ## Pathology
 

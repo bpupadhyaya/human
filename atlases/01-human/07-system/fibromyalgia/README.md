@@ -312,6 +312,15 @@ cross_links:
   - target: 01-human/03-molecular/myd88
     relation: connects-to
     note: "Glial activation: TLR4 (mapped) signalling through MyD88 activates microglia and the neuroinflammatory cytokine response that contributes to the central pain amplification of fibromyalgia."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Neuroinflammatory transcription: NF-κB-driven neuroinflammation (downstream of the TLR4-MyD88 signalling already mapped) contributes to the glial activation and central sensitisation of fibromyalgia."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Oxidative stress: NRF2-regulated antioxidant defence counters the oxidative stress implicated in the muscle and central-nervous-system dysfunction of fibromyalgia."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Cytokine signalling: IL-6 and inflammatory-cytokine signalling through JAK-STAT (IL-6 already mapped) contributes to the neuroinflammatory component of fibromyalgia."
 sources:
   - id: wolfe-2016-fibromyalgia-criteria
     type: peer-reviewed
@@ -570,6 +579,9 @@ FM is not a single-etiology disorder but a convergent syndrome resulting from th
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — BDNF-TrkB signaling (BDNF and NTRK mapped) through MAPK-ERK in dorsal-horn neurons drives the spinal central sensitization that amplifies pain in fibromyalgia.
 - `connects-to` → **[ACTH](../../03-molecular/acth/README.md)** — Blunted and dysregulated CRH-ACTH-cortisol stress-axis reactivity (CRH, cortisol and the glucocorticoid receptor mapped) is a characteristic neuroendocrine feature of fibromyalgia.
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR4 (mapped) signaling through MyD88 activates microglia and the neuroinflammatory cytokine response that contributes to the central pain amplification of fibromyalgia.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB-driven neuroinflammation (downstream of the TLR4-MyD88 signaling already mapped) contributes to the glial activation and central sensitization of fibromyalgia.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2-regulated antioxidant defense counters the oxidative stress implicated in the muscle and central-nervous-system dysfunction of fibromyalgia.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6 and inflammatory-cytokine signaling through JAK-STAT (IL-6 already mapped) contributes to the neuroinflammatory component of fibromyalgia.
 
 [^wolfe-2016-fibromyalgia-criteria]: Wolfe F, Clauw DJ, Fitzcharles MA, et al. 2016 Revisions to the 2010/2011 fibromyalgia diagnostic criteria. *Semin Arthritis Rheum.* 2016;46(3):319-329. [doi:10.1016/j.semarthrit.2016.08.012](https://doi.org/10.1016/j.semarthrit.2016.08.012) · [PubMed 27916278](https://pubmed.ncbi.nlm.nih.gov/27916278/)
 [^clauw-2014-fibromyalgia-review]: Clauw DJ. Fibromyalgia: a clinical review. *JAMA.* 2014;311(15):1547-1555. [doi:10.1001/jama.2014.3266](https://doi.org/10.1001/jama.2014.3266) · [PubMed 24737367](https://pubmed.ncbi.nlm.nih.gov/24737367/)
