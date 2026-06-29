@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/ntrk
     relation: connects-to
     note: "Neurotrophic adaptation: BDNF signalling through its TrkB receptor (NTRK) mediates the reward-circuit synaptic adaptations underlying alcohol craving and relapse vulnerability."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K-AKT-mTOR signalling (mTOR mapped) participates in the reward-circuit synaptic plasticity and neuroadaptations of alcohol use disorder."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Alcohol-induced microglial and Kupffer-cell activation induces galectin-3, amplifying the neuroinflammation and hepatic injury of alcohol use disorder."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Cytokine-driven JAK-STAT signalling (IL-6 mapped) transduces the systemic and neuroinflammation accompanying chronic alcohol exposure."
 ---
 
 # Alcohol Use Disorder
@@ -627,6 +636,9 @@ Prenatal alcohol exposure → leading preventable cause of intellectual disabili
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Alcohol-driven gut-barrier disruption releases microbial products that engage TLR4-MyD88-NF-κB signaling (TLR4 and NF-κB already mapped), driving the systemic and neuroinflammation that sustain alcohol use disorder.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR-dependent synaptic plasticity in the mesolimbic reward circuit consolidates the maladaptive learning and cue associations that entrench compulsive alcohol use.
 - `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — BDNF signaling through its TrkB receptor (NTRK) mediates the reward-circuit synaptic adaptations underlying alcohol craving and relapse vulnerability.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT-mTOR signaling (mTOR mapped) participates in the reward-circuit synaptic plasticity and neuroadaptations of alcohol use disorder.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Alcohol-induced microglial and Kupffer-cell activation induces galectin-3, amplifying the neuroinflammation and hepatic injury of alcohol use disorder.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Cytokine-driven JAK-STAT signaling (IL-6 mapped) transduces the systemic and neuroinflammation accompanying chronic alcohol exposure.
 
 [^koob-2013-addiction-neuroscience]: Koob GF, Volkow ND. Neurocircuitry of addiction. *Neuropsychopharmacology.* 2010;35(1):217-238. [doi:10.1038/npp.2009.110](https://doi.org/10.1038/npp.2009.110) · [PubMed 19710631](https://pubmed.ncbi.nlm.nih.gov/19710631/)
 [^anton-2006-combine]: Anton RF, O'Malley SS, Ciraulo DA, et al. Combined pharmacotherapies and behavioral interventions for alcohol dependence: the COMBINE study. *JAMA.* 2006;295(17):2003-2017. [doi:10.1001/jama.295.17.2003](https://doi.org/10.1001/jama.295.17.2003) · [PubMed 16670409](https://pubmed.ncbi.nlm.nih.gov/16670409/)

@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "Leukemic stemness: Wnt/β-catenin signalling sustains the leukemia-initiating cells of ALL, contributing to the self-renewal and chemoresistance of the leukemic stem-cell compartment."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "TGF-β within the bone-marrow niche regulates leukemic-cell quiescence and chemoresistance in acute lymphoblastic leukemia."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Stromal and leukemic galectin-3 promotes the marrow-niche survival signalling and chemoresistance of acute lymphoblastic leukemia blasts."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "HIF-1α in the hypoxic bone-marrow niche supports the survival and metabolic adaptation of acute lymphoblastic leukemia cells."
 ---
 
 # Acute Lymphoblastic Leukemia
@@ -575,6 +584,9 @@ Childhood ALL survivors (now majority of patients): neurocognitive impairment (M
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss unleashes the PI3K-AKT-mTOR axis (AKT and mTOR already mapped), a frequent driver of T-cell ALL that promotes leukemic-cell growth and survival.
 - `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — Activating RAS-pathway mutations (KRAS/NRAS) are among the most common lesions in B-cell ALL, driving the ERK-MAPK proliferative signaling (ERK1/2 already mapped) of the leukemic clone.
 - `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Wnt/β-catenin signaling sustains the leukemia-initiating cells of ALL, contributing to the self-renewal and chemoresistance of the leukemic stem-cell compartment.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β within the bone-marrow niche regulates leukemic-cell quiescence and chemoresistance in acute lymphoblastic leukemia.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Stromal and leukemic galectin-3 promotes the marrow-niche survival signaling and chemoresistance of acute lymphoblastic leukemia blasts.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α in the hypoxic bone-marrow niche supports the survival and metabolic adaptation of acute lymphoblastic leukemia cells.
 
 [^pui-2018-all-cure]: Pui CH, Yang JJ, Bhakta N, et al. Global efforts toward the cure of childhood acute lymphoblastic leukemia. *Lancet Child Adolesc Health.* 2018;2(6):440-454. [doi:10.1016/S2352-4642(18)30066-X](https://doi.org/10.1016/S2352-4642(18)30066-X) · [PubMed 29976322](https://pubmed.ncbi.nlm.nih.gov/29976322/)
 [^maude-2018-tisagenlecleucel]: Maude SL, Laetsch TW, Buechner J, et al. Tisagenlecleucel in children and young adults with B-cell lymphoblastic leukemia. *N Engl J Med.* 2018;378(5):439-448. [doi:10.1056/NEJMoa1709866](https://doi.org/10.1056/NEJMoa1709866) · [PubMed 29385370](https://pubmed.ncbi.nlm.nih.gov/29385370/)
