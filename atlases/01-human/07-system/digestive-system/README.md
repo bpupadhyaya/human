@@ -352,6 +352,15 @@ cross_links:
   - target: 01-human/03-molecular/nf-kb
     relation: connects-to
     note: "Mucosal inflammatory balance: NF-κB signalling in the intestinal epithelium balances antimicrobial defence against tolerance, governing the inflammatory homeostasis of the gut mucosa."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 modulates mucosal immunity and epithelial repair in the gut and contributes to the fibrosis that follows chronic intestinal inflammation."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA sensing through cGAS-STING in the intestinal mucosa links microbial and damage-associated DNA to the inflammatory tone of the gut."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "HIF-1α responds to the steep physiological oxygen gradient of the gut lumen and supports the barrier function and metabolism of the intestinal epithelium."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -552,6 +561,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [MYD88](../../03-molecular/myd88/README.md) — microbiota signal transduction: epithelial and immune TLR signaling through MyD88 (TLR4 already mapped) transduces gut-microbiota cues into the mucosal homeostasis and barrier defense of the digestive tract.
 - **Connects to:** [mTOR](../../03-molecular/mtor/README.md) — crypt nutrient sensing: mTOR nutrient-sensing in intestinal crypt stem cells couples luminal nutrient availability to the continuous epithelial renewal of the gut lining.
 - **Connects to:** [NF-κB](../../03-molecular/nf-kb/README.md) — mucosal inflammatory balance: NF-κB signaling in the intestinal epithelium balances antimicrobial defense against tolerance, governing the inflammatory homeostasis of the gut mucosa.
+- **Connects to:** [Galectin-3](../../03-molecular/galectin-3/README.md) — mucosal immunity and repair: galectin-3 modulates mucosal immunity and epithelial repair in the gut and contributes to the fibrosis that follows chronic intestinal inflammation.
+- **Connects to:** [cGAS-STING](../../03-molecular/cgas-sting/README.md) — DNA-sensing in the mucosa: cytosolic DNA sensing through cGAS-STING links microbial and damage-associated DNA to the inflammatory tone of the gut.
+- **Connects to:** [HIF-1alpha](../../03-molecular/hif-1alpha/README.md) — physiological gut hypoxia: HIF-1α responds to the steep oxygen gradient of the gut lumen and supports the barrier function and metabolism of the intestinal epithelium.
 
 ## Pathology
 
