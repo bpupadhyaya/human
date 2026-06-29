@@ -318,6 +318,15 @@ cross_links:
   - target: 01-human/03-molecular/il-23
     relation: connects-to
     note: "Th17 autoimmunity: IL-23 sustains the autoreactive Th17 response (IL-17A already mapped) implicated in the immune-mediated loss of orexin neurons in narcolepsy type 1."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K-AKT signalling participates in the activation of the autoreactive T cells that destroy orexin neurons and in the survival signalling of the targeted hypothalamic neurons in narcolepsy."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Microglial galectin-3 reflects the neuroinflammatory response accompanying the autoimmune loss of orexin neurons in narcolepsy type 1."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "Interferon signalling through STAT1 (IFN-γ and type-I-interferon mapped), engaged by the H1N1/vaccine trigger, contributes to the autoimmune pathogenesis of narcolepsy."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -558,6 +567,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Interferon and cytokine signaling through JAK-STAT (type-I IFN, IFN-γ and STAT3 already mapped) participates in the autoimmune attack on orexin neurons in narcolepsy type 1.
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88 innate signaling (TLR4 already mapped), triggered by influenza infection and the Pandemrix vaccine via molecular mimicry, helps initiate the autoimmune destruction of orexin neurons in narcolepsy.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — IL-23 sustains the autoreactive Th17 response (IL-17A already mapped) implicated in the immune-mediated loss of orexin neurons in narcolepsy type 1.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling participates in the activation of the autoreactive T cells that destroy orexin neurons and in the survival signaling of the targeted hypothalamic neurons in narcolepsy.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Microglial galectin-3 reflects the neuroinflammatory response accompanying the autoimmune loss of orexin neurons in narcolepsy type 1.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — Interferon signaling through STAT1 (IFN-γ and type-I-interferon mapped), engaged by the H1N1/vaccine trigger, contributes to the autoimmune pathogenesis of narcolepsy.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)
