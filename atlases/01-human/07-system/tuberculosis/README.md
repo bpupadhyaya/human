@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/caspase-3
     relation: connects-to
     note: "Apoptosis vs necrosis: the fate of the infected macrophage is decisive in TB — caspase-3-mediated apoptosis contains Mtb, whereas necrosis releases it, the balance the bacterium manipulates to spread."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Interferon signal transduction: IFN-γ and type-I-interferon signalling through JAK-STAT (IFN-γ, STAT1 and type-I IFN already mapped) governs both the protective macrophage activation and the detrimental type-I-IFN response in tuberculosis."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Macrophage fate: the BCL-2 family balance between apoptosis and necrosis of infected macrophages determines whether Mycobacterium tuberculosis is contained or disseminated (caspase-3 already mapped), a fate Mtb actively manipulates."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Macrophage redox: NRF2 antioxidant signalling shapes the macrophage redox environment and the oxidative-burst control of Mycobacterium tuberculosis within the granuloma."
 ---
 
 # Tuberculosis
@@ -557,6 +566,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR2/TLR4 recognition of Mtb lipoproteins (TLR4 mapped) signals through MyD88 to activate NF-κB (mapped) and the macrophage antimycobacterial response in tuberculosis.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR suppresses the autophagy (mapped) that delivers Mtb to lysosomes, so mTOR inhibition enhances xenophagic clearance—a host-directed-therapy strategy in tuberculosis.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — The fate of the infected macrophage is decisive in TB—caspase-3-mediated apoptosis contains Mtb, whereas necrosis releases it, the balance the bacterium manipulates to spread.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IFN-γ and type-I-interferon signaling through JAK-STAT (IFN-γ, STAT1 and type-I IFN already mapped) governs both the protective macrophage activation and the detrimental type-I-IFN response in tuberculosis.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — The BCL-2 family balance between apoptosis and necrosis of infected macrophages determines whether Mycobacterium tuberculosis is contained or disseminated (caspase-3 already mapped), a fate Mtb actively manipulates.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2 antioxidant signaling shapes the macrophage redox environment and the oxidative-burst control of Mycobacterium tuberculosis within the granuloma.
 
 ## See Also
 

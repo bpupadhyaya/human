@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/nfe2l2
     relation: connects-to
     note: "Metabolic reprogramming: hyperactive mTORC1 drives NRF2-mediated antioxidant and anabolic metabolism in TSC lesions, supporting the growth of their hamartomatous cells."
+  - target: 01-human/03-molecular/rb1
+    relation: connects-to
+    note: "Cell-cycle output: the RB1-E2F checkpoint (CDKN1B, cyclin-D1 and E2F1 already mapped) operates downstream of the mTOR-driven growth signalling that powers proliferation in TSC hamartomas."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Lesion microenvironment: JAK-STAT3 signalling (STAT3 already mapped) cooperates with mTORC1 hyperactivation in the lymphangioleiomyomatosis and hamartomatous lesions of tuberous sclerosis complex."
+  - target: 01-human/03-molecular/kras
+    relation: connects-to
+    note: "RAS cooperation: RAS-ERK signalling (ERK1/2 already mapped) provides a proliferative input that cooperates with mTORC1 hyperactivation in the hamartomas of tuberous sclerosis complex."
 ---
 
 # Tuberous Sclerosis Complex
@@ -563,6 +572,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β phosphorylates TSC2 to modulate the TSC complex's restraint of mTORC1 (mTOR mapped), integrating Wnt and AKT inputs into the pathway whose loss drives tuberous sclerosis.
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — Constitutive mTORC1 activity feeds cyclin-D1 (mapped) and the release of E2F1, driving the cell-cycle entry of the hamartoma cells of tuberous sclerosis.
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — Hyperactive mTORC1 drives NRF2-mediated antioxidant and anabolic metabolism in TSC lesions, supporting the growth of their hamartomatous cells.
+- `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — The RB1-E2F checkpoint (CDKN1B, cyclin-D1 and E2F1 already mapped) operates downstream of the mTOR-driven growth signaling that powers proliferation in TSC hamartomas.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK-STAT3 signaling (STAT3 already mapped) cooperates with mTORC1 hyperactivation in the lymphangioleiomyomatosis and hamartomatous lesions of tuberous sclerosis complex.
+- `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — RAS-ERK signaling (ERK1/2 already mapped) provides a proliferative input that cooperates with mTORC1 hyperactivation in the hamartomas of tuberous sclerosis complex.
 
 ---
 
