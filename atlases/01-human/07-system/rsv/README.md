@@ -336,6 +336,15 @@ cross_links:
   - target: 01-human/03-molecular/akt
     relation: connects-to
     note: "RSV activates PI3K-AKT signalling to promote epithelial-cell survival and support viral replication, a host pathway exploited during infection."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 amplifies the airway inflammation and mucus-associated immunopathology of RSV bronchiolitis in infants."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6-STAT3 signalling transduces the inflammatory cytokine response that contributes to the airway pathology of severe RSV infection."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling shapes the airway remodelling and the link between severe infant RSV bronchiolitis and later wheezing and asthma."
 ---
 
 # RSV
@@ -586,3 +595,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Type-I-interferon and cytokine signaling through JAK-STAT (STAT1 mapped) governs the antiviral and Th2-skewed immune response to RSV bronchiolitis.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — Airway hypoxia during severe RSV bronchiolitis stabilizes HIF-1α, shaping the inflammatory and epithelial response to infection.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — RSV activates PI3K-AKT signaling to promote epithelial-cell survival and support viral replication, a host pathway exploited during infection.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 amplifies the airway inflammation and mucus-associated immunopathology of RSV bronchiolitis in infants.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling transduces the inflammatory cytokine response that contributes to the airway pathology of severe RSV infection.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling shapes the airway remodeling and the link between severe infant RSV bronchiolitis and later wheezing and asthma.

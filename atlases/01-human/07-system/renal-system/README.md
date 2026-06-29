@@ -343,6 +343,15 @@ cross_links:
   - target: 01-human/03-molecular/galectin-3
     relation: connects-to
     note: "Galectin-3 drives renal interstitial fibrosis and is a biomarker of progressive kidney disease, complementing the TGF-β/SMAD4 fibrotic axis already mapped."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6-STAT3 signalling drives tubulointerstitial inflammation and the fibrotic progression shared across chronic kidney diseases of the renal system."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA sensing through cGAS-STING links tubular cell injury to the sterile inflammation of acute kidney injury and progressive renal disease."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "PDGF signalling drives mesangial and interstitial fibroblast proliferation, a core mechanism of the glomerulosclerosis and fibrosis of the renal system."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -546,6 +555,9 @@ Natriuretic counterpoint:
 - **Connects to:** [AKT](../../03-molecular/akt/README.md) — cell survival and growth: PI3K-AKT signaling maintains podocyte and tubular-cell survival and mediates the hypertrophic responses central to renal physiology and disease.
 - **Connects to:** [NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md) — sterile inflammation: the NLRP3 inflammasome links metabolic and crystalline injury to the tubulointerstitial inflammation and fibrosis of chronic kidney disease.
 - **Connects to:** [Galectin-3](../../03-molecular/galectin-3/README.md) — fibrosis biomarker: galectin-3 drives renal interstitial fibrosis and marks progressive kidney disease, complementing the TGF-β/SMAD4 fibrotic axis already mapped.
+- **Connects to:** [STAT3](../../03-molecular/stat3/README.md) — inflammatory fibrosis: IL-6-STAT3 signaling drives tubulointerstitial inflammation and the fibrotic progression shared across chronic kidney diseases.
+- **Connects to:** [cGAS-STING](../../03-molecular/cgas-sting/README.md) — tubular DNA sensing: cytosolic DNA sensing through cGAS-STING links tubular cell injury to the sterile inflammation of acute kidney injury and progressive renal disease.
+- **Connects to:** [PDGF](../../03-molecular/pdgf/README.md) — mesangial proliferation: PDGF signaling drives mesangial and interstitial fibroblast proliferation, a core mechanism of glomerulosclerosis and renal fibrosis.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 
