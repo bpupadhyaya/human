@@ -343,6 +343,15 @@ cross_links:
   - target: 01-human/03-molecular/galectin-3
     relation: connects-to
     note: "Galectin-3 amplifies the sterile inflammation of haemolysis and vaso-occlusion, contributing to the chronic vascular injury of sickle-cell disease."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "DNA within neutrophil extracellular traps and from haemolysis-stressed cells engages cGAS-STING, amplifying the sterile thromboinflammation of sickle-cell vaso-occlusion."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6-STAT3 signalling transduces the chronic inflammatory tone that accompanies the recurrent haemolysis and vaso-occlusion of sickle-cell disease."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling drives the organ fibrosis (renal, pulmonary) that follows the repeated ischaemic injury of sickle-cell disease."
 ---
 
 # Sickle Cell Disease
@@ -610,6 +619,9 @@ SCD vaso-occlusion is not just from sickled RBCs mechanically blocking vessels �
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT-eNOS signaling regulates endothelial nitric-oxide production (NO mapped), a vasoprotective axis impaired by the hemolysis and oxidative stress of sickle-cell disease.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling in activated endothelium and leukocytes amplifies the adhesion and inflammatory responses driving vaso-occlusion in sickle-cell disease.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 amplifies the sterile inflammation of hemolysis and vaso-occlusion, contributing to the chronic vascular injury of sickle-cell disease.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — DNA within neutrophil extracellular traps and from hemolysis-stressed cells engages cGAS-STING, amplifying the sterile thromboinflammation of sickle-cell vaso-occlusion.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling transduces the chronic inflammatory tone that accompanies the recurrent hemolysis and vaso-occlusion of sickle-cell disease.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling drives the organ fibrosis (renal, pulmonary) that follows the repeated ischemic injury of sickle-cell disease.
 
 [^steinberg-1999-scd-management]: Steinberg MH. Management of sickle cell disease. *N Engl J Med.* 1999;340(13):1021-1030. [doi:10.1056/NEJM199904013401307](https://doi.org/10.1056/NEJM199904013401307) · [PubMed 10099145](https://pubmed.ncbi.nlm.nih.gov/10099145/)
 [^vichinsky-2000-acs-scd]: Vichinsky EP, Neumayr LD, Earles AN, et al. Causes and outcomes of the acute chest syndrome in sickle cell disease. *N Engl J Med.* 2000;342(25):1855-1865. [doi:10.1056/NEJM200006223422502](https://doi.org/10.1056/NEJM200006223422502) · [PubMed 10861320](https://pubmed.ncbi.nlm.nih.gov/10861320/)

@@ -343,6 +343,15 @@ cross_links:
   - target: 01-human/03-molecular/myd88
     relation: connects-to
     note: "TLR4-MyD88 innate signalling (TLR4 mapped) drives the neuroinflammation increasingly linked to anxiety pathophysiology."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β signalling in limbic circuits shapes the synaptic plasticity and fear-learning balance implicated in social anxiety disorder."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6-STAT3 signalling transduces the chronic inflammatory tone associated with the heightened stress reactivity of social anxiety disorder."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic mitochondrial DNA released during chronic stress can engage cGAS-STING, contributing to the neuroinflammation implicated in social anxiety disorder."
 ---
 
 # Social Anxiety Disorder
@@ -581,6 +590,9 @@ The unique **dopaminergic social reward deficit** in SAD has clinical implicatio
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — BDNF/serotonergic PI3K-AKT-mTOR signaling supports the neuroplasticity that anxiolytic treatment restores in social anxiety disorder.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Microglial galectin-3 reflects the low-grade neuroinflammation associated with chronic anxiety states including social anxiety disorder.
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR4-MyD88 innate signaling (TLR4 mapped) drives the neuroinflammation increasingly linked to anxiety pathophysiology.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β signaling in limbic circuits shapes the synaptic plasticity and fear-learning balance implicated in social anxiety disorder.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling transduces the chronic inflammatory tone associated with the heightened stress reactivity of social anxiety disorder.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic mitochondrial DNA released during chronic stress can engage cGAS-STING, contributing to the neuroinflammation implicated in social anxiety disorder.
 
 [^liebowitz-1987-sad-scale]: Liebowitz MR. Social phobia. *Mod Probl Pharmacopsychiatry.* 1987;22:141-173. [PubMed 2885745](https://pubmed.ncbi.nlm.nih.gov/2885745/)
 [^stein-2008-sad-review]: Stein MB, Stein DJ. Social anxiety disorder. *Lancet.* 2008;371(9618):1115-1125. [doi:10.1016/S0140-6736(08)60488-2](https://doi.org/10.1016/S0140-6736(08)60488-2) · [PubMed 18374843](https://pubmed.ncbi.nlm.nih.gov/18374843/)
