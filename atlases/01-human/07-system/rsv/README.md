@@ -327,6 +327,15 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "Immune regulation: IL-10 modulates the Th2-skewed immunopathology (IL-4, IL-5 and IL-13 mapped) of severe RSV bronchiolitis, balancing viral control against airway damage."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Type-I-interferon and cytokine signalling through JAK-STAT (STAT1 mapped) governs the antiviral and Th2-skewed immune response to RSV bronchiolitis."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Airway hypoxia during severe RSV bronchiolitis stabilises HIF-1α, shaping the inflammatory and epithelial response to infection."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "RSV activates PI3K-AKT signalling to promote epithelial-cell survival and support viral replication, a host pathway exploited during infection."
 ---
 
 # RSV
@@ -574,3 +583,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR4 sensing of RSV F protein (RSV-F and TLR4 mapped) signals through MyD88 to NF-κB (mapped), driving the airway inflammatory response of RSV bronchiolitis.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — Type-I interferon signals through STAT1 to mount the antiviral response, which the RSV NS1 and NS2 proteins antagonize—blunting interferon and enabling viral replication.
 - `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — IL-10 modulates the Th2-skewed immunopathology (IL-4, IL-5 and IL-13 mapped) of severe RSV bronchiolitis, balancing viral control against airway damage.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Type-I-interferon and cytokine signaling through JAK-STAT (STAT1 mapped) governs the antiviral and Th2-skewed immune response to RSV bronchiolitis.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — Airway hypoxia during severe RSV bronchiolitis stabilizes HIF-1α, shaping the inflammatory and epithelial response to infection.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — RSV activates PI3K-AKT signaling to promote epithelial-cell survival and support viral replication, a host pathway exploited during infection.

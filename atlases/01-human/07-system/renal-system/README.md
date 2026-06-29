@@ -334,6 +334,15 @@ cross_links:
   - target: 01-human/03-molecular/nfe2l2
     relation: connects-to
     note: "Antioxidant defence: NRF2 protects the kidney against oxidative injury, and pharmacological NRF2 activation (bardoxolone) raises filtration rate in chronic kidney disease."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K-AKT signalling maintains podocyte and tubular-cell survival and mediates the hypertrophic responses central to renal physiology and disease."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "The NLRP3 inflammasome links metabolic and crystalline injury to the tubulointerstitial inflammation and fibrosis of chronic kidney disease."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 drives renal interstitial fibrosis and is a biomarker of progressive kidney disease, complementing the TGF-β/SMAD4 fibrotic axis already mapped."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -534,6 +543,9 @@ Natriuretic counterpoint:
 - **Connects to:** [SMAD4](../../03-molecular/smad4/README.md) — fibrosis effector: TGF-β signaling through SMAD4 (TGF-β mapped) activates myofibroblasts to lay down the tubulointerstitial fibrosis that is the final common pathway of chronic kidney disease.
 - **Connects to:** [mTOR](../../03-molecular/mtor/README.md) — tubular growth and cysts: mTOR governs tubular-cell and podocyte size, and its dysregulation drives the cyst growth of polycystic kidney disease and the hypertrophy of diabetic nephropathy.
 - **Connects to:** [NRF2](../../03-molecular/nfe2l2/README.md) — antioxidant defense: NRF2 protects the kidney against oxidative injury, and pharmacological NRF2 activation (bardoxolone) raises filtration rate in chronic kidney disease.
+- **Connects to:** [AKT](../../03-molecular/akt/README.md) — cell survival and growth: PI3K-AKT signaling maintains podocyte and tubular-cell survival and mediates the hypertrophic responses central to renal physiology and disease.
+- **Connects to:** [NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md) — sterile inflammation: the NLRP3 inflammasome links metabolic and crystalline injury to the tubulointerstitial inflammation and fibrosis of chronic kidney disease.
+- **Connects to:** [Galectin-3](../../03-molecular/galectin-3/README.md) — fibrosis biomarker: galectin-3 drives renal interstitial fibrosis and marks progressive kidney disease, complementing the TGF-β/SMAD4 fibrotic axis already mapped.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 
