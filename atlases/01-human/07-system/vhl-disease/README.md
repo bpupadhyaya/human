@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/jak1-2
     relation: connects-to
     note: "Survival signalling: JAK-STAT3 signalling (STAT3 already mapped) contributes to the survival and angiogenic signalling of VHL-associated tumours."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA sensing through cGAS-STING shapes the immune microenvironment of VHL-associated clear-cell renal carcinoma, relevant to its immunotherapy responsiveness."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling governs the antitumour immune response and immune-evasion balance of the highly vascular, immunogenic VHL-associated renal carcinoma."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 supports angiogenesis and immune evasion in the HIF-driven, hypervascular tumours of von Hippel-Lindau disease."
 ---
 
 # VHL Disease
@@ -557,6 +566,9 @@ The genotype-phenotype correlation reflects the degree of pVHL function retained
 - `connects-to` → **[IDH1](../../03-molecular/idh1/README.md)** — Oncometabolite-producing IDH mutations parallel the FH and SDHB lesions (both already mapped) within the metabolically-driven hereditary renal tumors related to the VHL-HIF pseudohypoxia axis.
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — Dysregulation of the RB1-E2F checkpoint (cyclin-D1, CDK4/6 and E2F1 already mapped) contributes to the proliferation of the renal and CNS tumors of von Hippel-Lindau disease.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK-STAT3 signaling (STAT3 already mapped) contributes to the survival and angiogenic signaling of VHL-associated tumors.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING shapes the immune microenvironment of VHL-associated clear-cell renal carcinoma, relevant to its immunotherapy responsiveness.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling governs the antitumor immune response and immune-evasion balance of the highly vascular, immunogenic VHL-associated renal carcinoma.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 supports angiogenesis and immune evasion in the HIF-driven, hypervascular tumors of von Hippel-Lindau disease.
 
 [^lonser-2003-vhl-disease]: Lonser RR, Glenn GM, Walther M, et al. von Hippel-Lindau disease. *Lancet.* 2003;361(9374):2059-2067. [doi:10.1016/S0140-6736(03)13643-4](https://doi.org/10.1016/S0140-6736(03)13643-4) · [PubMed 12814730](https://pubmed.ncbi.nlm.nih.gov/12814730/)
 [^choueiri-2020-hif2-rcc]: Choueiri TK, Kaelin WG Jr. Targeting the HIF2-VEGF axis in renal cell carcinoma. *Nat Med.* 2020;26(10):1519-1530. [doi:10.1038/s41591-020-1093-z](https://doi.org/10.1038/s41591-020-1093-z) · [PubMed 33020650](https://pubmed.ncbi.nlm.nih.gov/33020650/)

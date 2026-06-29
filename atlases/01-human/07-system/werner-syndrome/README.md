@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/mdm2
     relation: connects-to
     note: "Senescence-cancer balance: MDM2 regulation of p53 (already mapped) shapes the balance between senescence and apoptosis of genomically unstable cells and the cancer predisposition of Werner syndrome."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling is activated by the cytosolic DNA of senescent cells and contributes to the inflammatory, interferon-driven component of the premature ageing of Werner syndrome."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 promotes the tissue fibrosis and chronic inflammation that accompany the accelerated ageing phenotype of Werner syndrome."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling drives the premature atherosclerosis and fibrotic tissue remodelling characteristic of the accelerated ageing of Werner syndrome."
 ---
 
 # Werner Syndrome
@@ -598,6 +607,9 @@ cross_links:
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6-JAK-STAT3 signaling (IL-6 and STAT3 already mapped) drives the senescence-associated secretory phenotype and chronic inflammation ('inflammaging') that accelerates the premature aging of Werner syndrome.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — NLRP3-inflammasome activation by the accumulating cellular damage of Werner syndrome contributes to the inflammaging underlying its premature atherosclerosis and metabolic disease.
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2 regulation of p53 (already mapped) shapes the balance between senescence and apoptosis of genomically unstable cells and the cancer predisposition of Werner syndrome.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling is activated by the cytosolic DNA of senescent cells and contributes to the inflammatory, interferon-driven component of the premature aging of Werner syndrome.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 promotes the tissue fibrosis and chronic inflammation that accompany the accelerated aging phenotype of Werner syndrome.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling drives the premature atherosclerosis and fibrotic tissue remodeling characteristic of the accelerated aging of Werner syndrome.
 
 [^yu-1996-wrn]: Yu CE, Oshima J, Fu YH, et al. Positional cloning of the Werner's syndrome gene. *Science.* 1996;272(5259):258-262. [doi:10.1126/science.272.5259.258](https://doi.org/10.1126/science.272.5259.258) · [PubMed 8602509](https://pubmed.ncbi.nlm.nih.gov/8602509/)
 [^lauper-2013-wrn-neoplasia]: Lauper JM, Krause A, Vaughan TL, Monnat RJ Jr. Spectrum and risk of neoplasia in Werner syndrome: a systematic review. *PLoS One.* 2013;8(4):e59709. [doi:10.1371/journal.pone.0059709](https://doi.org/10.1371/journal.pone.0059709) · [PubMed 23579047](https://pubmed.ncbi.nlm.nih.gov/23579047/)
