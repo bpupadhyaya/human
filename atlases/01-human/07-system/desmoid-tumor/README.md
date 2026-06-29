@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/kras
     relation: connects-to
     note: "RTK-RAS proliferation: receptor-tyrosine-kinase signalling (PDGFR and FGFR mapped) converges on RAS-ERK (ERK1/2 mapped) to provide a proliferative input cooperating with Wnt/β-catenin in desmoid growth."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "CDKN2A loss is associated with more aggressive, progressive desmoid tumours, releasing CDK4/6-cyclin-D control (CDK4/6 and cyclin-D mapped)."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "NF-κB signalling, in crosstalk with Wnt/β-catenin (mapped), supports fibroblast survival and the inflammatory matrix-producing phenotype of desmoid tumours."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA sensing through cGAS-STING shapes the immune microenvironment of desmoid fibromatosis."
 ---
 
 # Desmoid Tumor
@@ -569,6 +578,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6 signaling through JAK-STAT3 (IL-6 and STAT3 already mapped) sustains the inflammatory, proliferative stroma of the desmoid tumor.
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Anti-apoptotic BCL-2 raises the threshold for caspase-3 apoptosis (already mapped), contributing to the persistence and treatment-resistance of desmoid fibromatosis.
 - `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — Receptor-tyrosine-kinase signaling (PDGFR and FGFR mapped) converges on RAS-ERK (ERK1/2 mapped) to provide a proliferative input cooperating with Wnt/β-catenin in desmoid growth.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A loss is associated with more aggressive, progressive desmoid tumors, releasing CDK4/6-cyclin-D control (CDK4/6 and cyclin-D mapped).
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB signaling, in crosstalk with Wnt/β-catenin (mapped), supports fibroblast survival and the inflammatory matrix-producing phenotype of desmoid tumors.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING shapes the immune microenvironment of desmoid fibromatosis.
 
 ---
 

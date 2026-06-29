@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/bcl-2
     relation: connects-to
     note: "Apoptosis evasion: anti-apoptotic BCL-2 raises the threshold for caspase-3 apoptosis (already mapped), supporting the survival of the diverse embryonal tumours of DICER1 syndrome."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 is a marker of the thyroid neoplasia that is a hallmark of DICER1 syndrome and modulates tumour-cell behaviour."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β/activin-SMAD signalling (TGF-β and activin-A mapped) shapes the gonadal-stromal and embryonal tumours of DICER1 syndrome."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "JAK-STAT3 signalling (STAT3 mapped) provides a proliferative input across the diverse tumours of DICER1 syndrome."
 ---
 
 # DICER1 Syndrome
@@ -550,6 +559,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β/activin-superfamily signaling (activin-A already mapped) shapes the Sertoli-Leydig and other gonadal-stromal tumors characteristic of DICER1 syndrome.
 - `connects-to` → **[KIT](../../03-molecular/kit/README.md)** — KIT receptor-tyrosine-kinase signaling contributes to the embryonal and germ-cell-related tumors that arise in DICER1 syndrome.
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Anti-apoptotic BCL-2 raises the threshold for caspase-3 apoptosis (already mapped), supporting the survival of the diverse embryonal tumors of DICER1 syndrome.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 is a marker of the thyroid neoplasia that is a hallmark of DICER1 syndrome and modulates tumor-cell behavior.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β/activin-SMAD signaling (TGF-β and activin-A mapped) shapes the gonadal-stromal and embryonal tumors of DICER1 syndrome.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK-STAT3 signaling (STAT3 mapped) provides a proliferative input across the diverse tumors of DICER1 syndrome.
 
 ---
 
