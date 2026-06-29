@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/rb1
     relation: connects-to
     note: "Grade dichotomy: combined RB1 and TP53 loss distinguishes the high-grade, poorly-differentiated neuroendocrine carcinomas from well-differentiated NETs, releasing the cell-cycle checkpoint (CDKN2A and E2F1 already mapped)."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 is a marker and modulator of the survival and microenvironment interactions of neuroendocrine tumours."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "RAS-ERK-MAPK signalling, engaged downstream of RET and other receptor tyrosine kinases (RET mapped), provides a proliferative input to neuroendocrine tumours."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "JAK-STAT3 signalling (STAT3 mapped) provides a proliferative and immunomodulatory input to neuroendocrine tumours."
 ---
 
 # Neuroendocrine Tumors
@@ -540,6 +549,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — The VEGF/PDGF angiogenic axis (VEGF already mapped) sustains the characteristically vascular neuroendocrine tumors and is the target of the multikinase inhibitor sunitinib.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss releases the PI3K-AKT-mTOR axis (AKT, PIK3CA and mTOR already mapped) that drives neuroendocrine-tumor growth and is inhibited therapeutically by everolimus.
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — Combined RB1 and TP53 loss distinguishes the high-grade, poorly-differentiated neuroendocrine carcinomas from well-differentiated NETs, releasing the cell-cycle checkpoint (CDKN2A and E2F1 already mapped).
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 is a marker and modulator of the survival and microenvironment interactions of neuroendocrine tumors.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — RAS-ERK-MAPK signaling, engaged downstream of RET and other receptor tyrosine kinases (RET mapped), provides a proliferative input to neuroendocrine tumors.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK-STAT3 signaling (STAT3 mapped) provides a proliferative and immunomodulatory input to neuroendocrine tumors.
 
 [^yao-2011-radiant3]: Yao JC, Shah MH, Ito T, et al. Everolimus for advanced pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):514-523. [doi:10.1056/NEJMoa1009290](https://doi.org/10.1056/NEJMoa1009290) · [PubMed 21306237](https://pubmed.ncbi.nlm.nih.gov/21306237/)
 [^raymond-2011-sunitinib-pnet]: Raymond E, Dahan L, Raoul JL, et al. Sunitinib malate for the treatment of pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):501-513. [doi:10.1056/NEJMoa1003825](https://doi.org/10.1056/NEJMoa1003825) · [PubMed 21306236](https://pubmed.ncbi.nlm.nih.gov/21306236/)

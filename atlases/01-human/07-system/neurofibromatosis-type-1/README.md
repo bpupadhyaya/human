@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/ezh2
     relation: connects-to
     note: "PRC2 loss: loss of PRC2 components (EZH2/SUZ12) marks the malignant transformation of NF1 plexiform neurofibroma to MPNST, the resulting H3K27me3 loss being diagnostic of this aggressive sarcoma."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 is expressed in neurofibromas and contributes to the tumour-microenvironment interactions of NF1-associated tumours."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "TGF-β signalling shapes the Schwann-cell and inflammatory microenvironment of the neurofibromas of neurofibromatosis type 1."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "STAT3 signalling provides a proliferative and inflammatory input to the tumours of neurofibromatosis type 1."
 ---
 
 # Neurofibromatosis Type 1
@@ -548,6 +557,9 @@ In glioma and MPNST: additional alterations required — MPNST requires CDKN2A/2
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — Loss of the RB1-E2F checkpoint (CDK4/6, CDKN2A and E2F1 already mapped) is a cooperating event in the transformation of plexiform neurofibroma to malignant peripheral nerve sheath tumor in NF1.
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated p53 inactivation (p53 already mapped) contributes to the malignant transformation of NF1 neurofibromas to MPNST.
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Loss of PRC2 components (EZH2/SUZ12) marks the malignant transformation of NF1 plexiform neurofibroma to MPNST, the resulting H3K27me3 loss being diagnostic of this aggressive sarcoma.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 is expressed in neurofibromas and contributes to the tumor-microenvironment interactions of NF1-associated tumors.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β signaling shapes the Schwann-cell and inflammatory microenvironment of the neurofibromas of neurofibromatosis type 1.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 signaling provides a proliferative and inflammatory input to the tumors of neurofibromatosis type 1.
 
 [^gutmann-2017-nf1-primer]: Gutmann DH, Ferner RE, Listernick RH, et al. Neurofibromatosis type 1. *Nat Rev Dis Primers.* 2017;3:17004. [doi:10.1038/nrdp.2017.4](https://doi.org/10.1038/nrdp.2017.4) · [PubMed 28230061](https://pubmed.ncbi.nlm.nih.gov/28230061/)
 [^dombi-2016-selumetinib]: Dombi E, Baldwin A, Marcus LJ, et al. Activity of Selumetinib in Neurofibromatosis Type 1-Related Plexiform Neurofibromas. *N Engl J Med.* 2016;375(26):2550-2560. [doi:10.1056/NEJMoa1605943](https://doi.org/10.1056/NEJMoa1605943) · [PubMed 28029918](https://pubmed.ncbi.nlm.nih.gov/28029918/)
