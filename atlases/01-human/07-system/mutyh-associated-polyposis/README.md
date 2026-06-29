@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/e2f1
     relation: connects-to
     note: "Cell-cycle release: the cyclin-D-CDK4/6 axis (CDK4/6, cyclin-D1 and CDKN2A already mapped) releases E2F1 to drive proliferation in the carcinomas arising from MUTYH-associated polyposis."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "PI3K cooperation: PTEN loss releases PI3K-AKT signalling (AKT and PIK3CA already mapped) that cooperates with the KRAS-driven Wnt activation in the colorectal tumourigenesis of MUTYH-associated polyposis."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Microbiota inflammation: gut-microbiota-driven TLR-MyD88-NF-κB signalling (NF-κB already mapped) provides an inflammatory cofactor in the adenoma-to-carcinoma progression of MUTYH-associated polyposis."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Tumour-promoting inflammation: IL-6-STAT3 signalling (STAT3 already mapped) sustains the inflammatory, tumour-promoting microenvironment of MUTYH-associated colorectal neoplasia."
 ---
 
 # MUTYH-Associated Polyposis
@@ -540,6 +549,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — The G:C→T:A transversions of MUTYH deficiency preferentially hit KRAS (mapped), activating MAPK-ERK to drive adenoma progression in MUTYH-associated polyposis.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PIK3CA activation of the PI3K-AKT axis (AKT already mapped) is a cooperating event in the malignant progression of MUTYH-associated colorectal adenomas.
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — The cyclin-D-CDK4/6 axis (CDK4/6, cyclin-D1 and CDKN2A already mapped) releases E2F1 to drive proliferation in the carcinomas arising from MUTYH-associated polyposis.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss releases PI3K-AKT signaling (AKT and PIK3CA already mapped) that cooperates with the KRAS-driven Wnt activation in the colorectal tumorigenesis of MUTYH-associated polyposis.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Gut-microbiota-driven TLR-MyD88-NF-κB signaling (NF-κB already mapped) provides an inflammatory cofactor in the adenoma-to-carcinoma progression of MUTYH-associated polyposis.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6-STAT3 signaling (STAT3 already mapped) sustains the inflammatory, tumor-promoting microenvironment of MUTYH-associated colorectal neoplasia.
 
 ---
 

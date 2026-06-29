@@ -328,6 +328,15 @@ cross_links:
   - target: 01-human/03-molecular/pik3ca
     relation: connects-to
     note: "Survival signalling: the PI3K-AKT-mTOR axis (AKT and mTOR already mapped) supports myeloma-cell survival downstream of IL-6 and the bone-marrow microenvironment."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Central survival axis: IL-6 from the bone-marrow microenvironment signals through JAK-STAT3 (IL-6 and STAT3 already mapped) as the central survival and proliferation axis of malignant plasma cells in multiple myeloma."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Proteasome-inhibitor resistance: NRF2 antioxidant signalling counters the proteasome-inhibitor-induced oxidative and proteotoxic stress, contributing to bortezomib resistance in multiple myeloma."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "RAS proliferation: RAS-ERK signalling (KRAS already mapped) is among the most frequently activated proliferative pathways in multiple myeloma."
 ---
 
 # Multiple Myeloma
@@ -560,6 +569,9 @@ MM evolves from precursor conditions through a well-defined continuum:
 - `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — Activating KRAS and NRAS mutations are among the commonest drivers in multiple myeloma, engaging the RAS-MAPK pathway to sustain plasma-cell proliferation.
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 deletion or mutation (del17p) defines high-risk multiple myeloma with poor response to therapy and shortened survival.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — The PI3K-AKT-mTOR axis (AKT and mTOR already mapped) supports myeloma-cell survival downstream of IL-6 and the bone-marrow microenvironment.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6 from the bone-marrow microenvironment signals through JAK-STAT3 (IL-6 and STAT3 already mapped) as the central survival and proliferation axis of malignant plasma cells in multiple myeloma.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2 antioxidant signaling counters the proteasome-inhibitor-induced oxidative and proteotoxic stress, contributing to bortezomib resistance in multiple myeloma.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — RAS-ERK signaling (KRAS already mapped) is among the most frequently activated proliferative pathways in multiple myeloma.
 
 [^kumar-2022-imwg-criteria]: Kumar SK, Callander NS, Adekola K, et al. Multiple myeloma, version 3.2021, NCCN clinical practice guidelines in oncology. *J Natl Compr Canc Netw.* 2020;18(12):1685-1717. [doi:10.6004/jnccn.2020.0057](https://doi.org/10.6004/jnccn.2020.0057) · [PubMed 33285519](https://pubmed.ncbi.nlm.nih.gov/33285519/)
 [^moreau-2022-teclistamab]: Moreau P, Garfall AL, van de Donk NWCJ, et al. Teclistamab in relapsed or refractory multiple myeloma. *N Engl J Med.* 2022;387(6):495-505. [doi:10.1056/NEJMoa2203478](https://doi.org/10.1056/NEJMoa2203478) · [PubMed 35661166](https://pubmed.ncbi.nlm.nih.gov/35661166/)
