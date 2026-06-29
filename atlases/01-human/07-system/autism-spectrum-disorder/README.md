@@ -337,6 +337,15 @@ cross_links:
   - target: 01-human/03-molecular/calcineurin
     relation: connects-to
     note: "Synaptic plasticity: calcium-calcineurin-NFAT signalling regulates activity-dependent synaptic plasticity, a process disrupted in the excitatory/inhibitory imbalance of autism spectrum disorder."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "Maternal IL-6 acting through STAT3 (IL-6 mapped) is a central mediator of the maternal-immune-activation pathway linked to autism risk in offspring."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Cytokine-driven JAK-STAT signalling transduces the maternal and neuroinflammatory cytokine milieu implicated in the neurodevelopmental alterations of autism."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Microglial galectin-3 marks the reactive-microglia state reported in autism brains, contributing to the neuroinflammatory component of the disorder."
 ---
 
 # Autism Spectrum Disorder
@@ -580,6 +589,9 @@ The neural basis of ASD social deficits involves dysfunction of the **social bra
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — The PTEN-PI3K-AKT-mTOR pathway (PTEN, AKT, mTOR and TSC1-TSC2 all mapped) is dysregulated in syndromic autism, driving the synaptic-protein-synthesis imbalance underlying its phenotype.
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Maternal infection signals through TLR (TLR4 mapped) and MyD88, and the resulting maternal IL-6/IL-17 (mapped) shapes fetal brain development, a major environmental autism-risk pathway.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcium-calcineurin-NFAT signaling regulates activity-dependent synaptic plasticity, a process disrupted in the excitatory/inhibitory imbalance of autism spectrum disorder.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Maternal IL-6 acting through STAT3 (IL-6 mapped) is a central mediator of the maternal-immune-activation pathway linked to autism risk in offspring.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Cytokine-driven JAK-STAT signaling transduces the maternal and neuroinflammatory cytokine milieu implicated in the neurodevelopmental alterations of autism.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Microglial galectin-3 marks the reactive-microglia state reported in autism brains, contributing to the neuroinflammatory component of the disorder.
 
 [^maenner-2023-asd-prevalence]: Maenner MJ, Warren Z, Williams AR, et al. Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 2020. *MMWR Surveill Summ.* 2023;72(2):1-14. [doi:10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1) · [PubMed 36952216](https://pubmed.ncbi.nlm.nih.gov/36952216/)
 [^lord-2020-asd-review]: Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum disorder. *Lancet.* 2018;392(10146):508-520. [doi:10.1016/S0140-6736(18)31129-2](https://doi.org/10.1016/S0140-6736(18)31129-2) · [PubMed 30078460](https://pubmed.ncbi.nlm.nih.gov/30078460/)

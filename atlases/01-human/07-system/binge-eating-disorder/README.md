@@ -315,6 +315,15 @@ cross_links:
   - target: 01-human/03-molecular/il-1b
     relation: connects-to
     note: "Metabolic neuroinflammation: IL-1β and the NLRP3 inflammasome (mapped) of the obesity-associated inflammatory state accompany binge-eating disorder, linking its metabolic comorbidity to appetite dysregulation."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Leptin signalling through JAK2-STAT3 (leptin mapped) in hypothalamic appetite centres is dysregulated in the impaired satiety of binge eating disorder."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Insulin and leptin PI3K-AKT-mTOR signalling (insulin, leptin and mTOR mapped) integrates metabolic state with the reward and appetite circuits disrupted in binge eating disorder."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Diet-induced TLR4 activation contributes to the hypothalamic inflammation that blunts satiety signalling in binge eating disorder."
 sources:
   - id: american-psychiatric-2013-bed-dsm5
     type: clinical-guideline
@@ -575,6 +584,9 @@ BED is among the most psychiatrically comorbid of all eating disorders:
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — PI3K-AKT-mTOR signaling drives the synaptic plasticity in reward circuits that consolidates the compulsive overeating behavior of binge-eating disorder.
 - `connects-to` → **[ACTH](../../03-molecular/acth/README.md)** — CRH-driven pituitary ACTH release (CRH, cortisol and the glucocorticoid receptor mapped) links stress to the stress-induced binge episodes of binge-eating disorder.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β and the NLRP3 inflammasome (mapped) of the obesity-associated inflammatory state accompany binge-eating disorder, linking its metabolic comorbidity to appetite dysregulation.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Leptin signaling through JAK2-STAT3 (leptin mapped) in hypothalamic appetite centers is dysregulated in the impaired satiety of binge eating disorder.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Insulin and leptin PI3K-AKT-mTOR signaling (insulin, leptin and mTOR mapped) integrates metabolic state with the reward and appetite circuits disrupted in binge eating disorder.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Diet-induced TLR4 activation contributes to the hypothalamic inflammation that blunts satiety signaling in binge eating disorder.
 
 [^american-psychiatric-2013-bed-dsm5]: American Psychiatric Association. Binge Eating Disorder (307.51). In: *Diagnostic and Statistical Manual of Mental Disorders, 5th ed.* Arlington, VA: APA; 2013. [doi:10.1176/appi.books.9780890425596](https://doi.org/10.1176/appi.books.9780890425596)
 [^mccallum-2003-bed-review]: McCallum K, Bruton AM. Binge eating disorder: eating disorder or somatic syndrome? *Prim Care Companion J Clin Psychiatry.* 2003;5(Suppl 4):20-25. [PubMed 15213784](https://pubmed.ncbi.nlm.nih.gov/15213784/)
