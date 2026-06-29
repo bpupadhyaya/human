@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/bcl-2
     relation: connects-to
     note: "Apoptosis resistance: anti-apoptotic BCL-2 raises the threshold for caspase-3 apoptosis (already mapped), contributing to the treatment resistance of the slow-growing but locally aggressive chordoma."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 is expressed in the physaliphorous tumour cells of chordoma and contributes to its survival and matrix interactions."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling (TGF-β mapped) modulates the matrix-rich, slowly proliferating phenotype of chordoma."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA sensing through cGAS-STING shapes the immune microenvironment relevant to emerging immunotherapy in chordoma."
 ---
 
 # Chordoma
@@ -570,6 +579,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — Functional loss of the RB1 checkpoint (E2F1, CDK4/6 and CDKN2A already mapped) removes a brake on cell-cycle entry, contributing to the dysregulated proliferation of chordoma.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK-STAT signaling to STAT3 (already mapped) sustains the survival and proliferative programs of chordoma cells downstream of receptor-tyrosine-kinase and cytokine inputs.
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Anti-apoptotic BCL-2 raises the threshold for caspase-3 apoptosis (already mapped), contributing to the treatment resistance of the slow-growing but locally aggressive chordoma.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 is expressed in the physaliphorous tumor cells of chordoma and contributes to its survival and matrix interactions.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β mapped) modulates the matrix-rich, slowly proliferating phenotype of chordoma.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING shapes the immune microenvironment relevant to emerging immunotherapy in chordoma.
 
 ---
 

@@ -339,6 +339,15 @@ cross_links:
   - target: 01-human/03-molecular/nfe2l2
     relation: connects-to
     note: "Oxidative axonal injury: NRF2-regulated antioxidant defence counters the oxidative stress of chronic nerve inflammation, modulating the secondary axonal injury that determines lasting disability in CIDP."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "BAFF-driven PI3K-AKT signalling (BAFF mapped) sustains the autoreactive B cells producing the pathogenic antibodies of CIDP."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "The mTOR-regulated metabolic program supports the antibody-secreting plasmablast and effector-T-cell responses in CIDP."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Macrophage galectin-3 participates in the macrophage-mediated demyelination of peripheral nerves in CIDP."
 ---
 
 # CIDP
@@ -588,6 +597,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88-NF-κB innate signaling (TLR4 and NF-κB already mapped) in endoneurial macrophages drives the inflammatory demyelination of peripheral nerve in CIDP.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — Complement activation generates C5a that engages C5aR1 to recruit and activate macrophages (C3 and C5 already mapped), effecting the complement-mediated myelin injury of CIDP.
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2-regulated antioxidant defense counters the oxidative stress of chronic nerve inflammation, modulating the secondary axonal injury that determines lasting disability in CIDP.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — BAFF-driven PI3K-AKT signaling (BAFF mapped) sustains the autoreactive B cells producing the pathogenic antibodies of CIDP.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — The mTOR-regulated metabolic program supports the antibody-secreting plasmablast and effector-T-cell responses in CIDP.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Macrophage galectin-3 participates in the macrophage-mediated demyelination of peripheral nerves in CIDP.
 
 ---
 
