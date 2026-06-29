@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/nfe2l2
     relation: connects-to
     note: "UV oxidative defence: chronic ultraviolet exposure, the principal cause of basal cell carcinoma, generates oxidative DNA damage against which the NRF2 antioxidant response defends, and NRF2 dysregulation features in cutaneous carcinogenesis."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "RTK-MAPK proliferation: ERK1/2 transduces receptor-tyrosine-kinase signals (EGFR and FGFR already mapped) into proliferation in basal cell carcinoma, a pathway implicated in acquired resistance to Hedgehog-pathway inhibitors."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "UV innate inflammation: ultraviolet-induced innate-immune signalling through TLR-MyD88 contributes to the cutaneous inflammation and photo-immunosuppression that promote basal cell carcinoma development."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Tumour-promoting inflammation: IL-6-driven STAT3 signalling (STAT3 already mapped) sustains the tumour-promoting inflammatory microenvironment of basal cell carcinoma."
 ---
 
 # Basal Cell Carcinoma
@@ -545,6 +554,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K-AKT-mTOR signaling (AKT, mTOR and PTEN already mapped) cooperates with Hedgehog activation in basal cell carcinoma and contributes to resistance against smoothened inhibitors.
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — The RB-E2F axis (RB1, CDKN2A and cyclin-D1 already mapped) drives the proliferation of basal cell carcinoma downstream of the Hedgehog-induced cyclin D1.
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — Chronic ultraviolet exposure, the principal cause of basal cell carcinoma, generates oxidative DNA damage against which the NRF2 antioxidant response defends, and NRF2 dysregulation features in cutaneous carcinogenesis.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK1/2 transduces receptor-tyrosine-kinase signals (EGFR and FGFR already mapped) into proliferation in basal cell carcinoma, a pathway implicated in acquired resistance to Hedgehog-pathway inhibitors.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Ultraviolet-induced innate-immune signaling through TLR-MyD88 contributes to the cutaneous inflammation and photo-immunosuppression that promote basal cell carcinoma development.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6-driven STAT3 signaling (STAT3 already mapped) sustains the tumor-promoting inflammatory microenvironment of basal cell carcinoma.
 
 ---
 

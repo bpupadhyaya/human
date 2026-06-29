@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/bcl-2
     relation: connects-to
     note: "Apoptosis resistance: high anti-apoptotic BCL-2 contributes to the chemoresistance of ATRT, a dependency that BH3-mimetic agents are being explored to exploit."
+  - target: 01-human/03-molecular/sufu
+    relation: connects-to
+    note: "Hedgehog subgroup: SUFU negatively regulates GLI in the Sonic-Hedgehog pathway (PTCH1 and SMO already mapped), the pathway driving the SHH molecular subgroup of atypical teratoid/rhabdoid tumor."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "Growth signalling: PTEN loss releases the PI3K-AKT-mTOR axis (all three already mapped), a growth-driving pathway exploited by the aggressive proliferation of ATRT."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "RTK proliferation: ERK1/2 MAPK transduces receptor-tyrosine-kinase signals (FGFR already mapped) into the proliferative drive of ATRT, supporting its rapid growth."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -542,6 +551,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — SMARCB1 loss derepresses the CDK4/6-cyclin-D-RB axis (all already mapped), and E2F1-driven transcription powers the aggressive proliferation of atypical teratoid/rhabdoid tumor.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K-AKT-mTOR signaling (AKT and mTOR already mapped) is activated in ATRT and supports its growth, a targetable axis in this therapy-resistant infant brain tumor.
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — High anti-apoptotic BCL-2 contributes to the chemoresistance of ATRT, a dependency that BH3-mimetic agents are being explored to exploit.
+- `connects-to` → **[SUFU](../../03-molecular/sufu/README.md)** — SUFU negatively regulates GLI in the Sonic-Hedgehog pathway (PTCH1 and SMO already mapped), the pathway driving the SHH molecular subgroup of atypical teratoid/rhabdoid tumor.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss releases the PI3K-AKT-mTOR axis (all three already mapped), a growth-driving pathway exploited by the aggressive proliferation of ATRT.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK1/2 MAPK transduces receptor-tyrosine-kinase signals (FGFR already mapped) into the proliferative drive of ATRT, supporting its rapid growth.
 
 ---
 
