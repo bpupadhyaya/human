@@ -337,6 +337,15 @@ cross_links:
   - target: 01-human/03-molecular/nfe2l2
     relation: connects-to
     note: "Oxidative stress: NRF2-regulated antioxidant defences counter the oxidative stress that accompanies chronic anxiety and sustained HPA-axis overactivation, a link between redox imbalance and mood."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "BDNF/neurotrophin and serotonergic PI3K-AKT-mTOR signalling (mTOR mapped) supports the neuroplasticity that anxiolytic and antidepressant treatment restores in generalized anxiety disorder."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "TLR4-MyD88 innate signalling (TLR4 mapped) drives the low-grade neuroinflammation increasingly linked to the pathophysiology of generalized anxiety disorder."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Microglial galectin-3 reflects the neuroinflammatory activation associated with chronic anxiety and sustained stress."
 ---
 
 # Generalized Anxiety Disorder
@@ -581,6 +590,9 @@ Allow **4-8 weeks** for onset of anxiolytic effect. Continue treatment ≥12 mon
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4 innate-immune signaling links peripheral inflammation and psychological stress to the central neuroinflammation increasingly implicated in the pathophysiology of anxiety disorders.
 - `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — BDNF acts through its TrkB receptor (NTRK) to drive the hippocampal and prefrontal neuroplasticity whose deficit underlies chronic anxiety and whose restoration accompanies anxiolytic response.
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2-regulated antioxidant defenses counter the oxidative stress that accompanies chronic anxiety and sustained HPA-axis overactivation, a link between redox imbalance and mood.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — BDNF/neurotrophin and serotonergic PI3K-AKT-mTOR signaling (mTOR mapped) supports the neuroplasticity that anxiolytic and antidepressant treatment restores in generalized anxiety disorder.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR4-MyD88 innate signaling (TLR4 mapped) drives the low-grade neuroinflammation increasingly linked to the pathophysiology of generalized anxiety disorder.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Microglial galectin-3 reflects the neuroinflammatory activation associated with chronic anxiety and sustained stress.
 
 [^kessler-2005-gad-prevalence]: Kessler RC, Berglund P, Demler O, et al. Lifetime prevalence and age-of-onset distributions of DSM-IV disorders in the NCS Replication. *Arch Gen Psychiatry.* 2005;62(6):593-602. [doi:10.1001/archpsyc.62.6.593](https://doi.org/10.1001/archpsyc.62.6.593) · [PubMed 15939837](https://pubmed.ncbi.nlm.nih.gov/15939837/)
 [^bandelow-2015-anxiety-biology]: Bandelow B, Michaelis S. Epidemiology of anxiety disorders in the 21st century. *Dialogues Clin Neurosci.* 2015;17(3):327-335. [doi:10.31887/DCNS.2015.17.3/bbandelow](https://doi.org/10.31887/DCNS.2015.17.3/bbandelow) · [PubMed 26487812](https://pubmed.ncbi.nlm.nih.gov/26487812/)
