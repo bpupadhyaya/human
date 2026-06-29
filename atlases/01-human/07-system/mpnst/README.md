@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/mdm2
     relation: connects-to
     note: "p53 inactivation: MDM2 amplification and TP53 loss (p53 mapped) contribute to the malignant transformation of a plexiform neurofibroma into MPNST."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "STAT3 survival: JAK-STAT3 signalling (STAT3 already mapped) supports the survival and proliferation of malignant peripheral nerve sheath tumour cells."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Apoptosis resistance: anti-apoptotic BCL-2 raises the threshold for caspase-3 apoptosis (already mapped), contributing to the chemoresistance of MPNST."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Redox and resistance: NRF2 antioxidant signalling shapes the redox balance and treatment resistance of malignant peripheral nerve sheath tumour."
 ---
 
 # MPNST
@@ -555,6 +564,9 @@ Wide local excision with negative margins is the only potentially curative inter
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — With CDKN2A loss and the RB pathway engaged (CDK4/6, cyclin-D1 and RB1 already mapped), E2F1 is released to drive the aggressive proliferation of malignant peripheral nerve sheath tumor.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — The RAS hyperactivation that follows NF1 loss also engages PI3K (AKT, mTOR and PTEN already mapped), a parallel growth-and-survival pathway in MPNST.
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2 amplification and TP53 loss (p53 mapped) contribute to the malignant transformation of a plexiform neurofibroma into MPNST.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK-STAT3 signaling (STAT3 already mapped) supports the survival and proliferation of malignant peripheral nerve sheath tumor cells.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Anti-apoptotic BCL-2 raises the threshold for caspase-3 apoptosis (already mapped), contributing to the chemoresistance of MPNST.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2 antioxidant signaling shapes the redox balance and treatment resistance of malignant peripheral nerve sheath tumor.
 
 [^evans-2002-mpnst-nf1]: Evans DGR, Baser ME, McGaughran J, et al. Malignant peripheral nerve sheath tumours in neurofibromatosis 1. *J Med Genet.* 2002;39(5):311-314. [doi:10.1136/jmg.39.5.311](https://doi.org/10.1136/jmg.39.5.311) · [PubMed 12011145](https://pubmed.ncbi.nlm.nih.gov/12011145/)
 [^lee-2014-mpnst-prc2]: Lee W, Teckie S, Wiesner T, et al. PRC2 is recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve sheath tumors. *Nat Genet.* 2014;46(11):1227-1232. [doi:10.1038/ng.3095](https://doi.org/10.1038/ng.3095) · [PubMed 25240281](https://pubmed.ncbi.nlm.nih.gov/25240281/)

@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/tnf-alpha
     relation: connects-to
     note: "Asbestos inflammation: TNF-α released by asbestos-activated macrophages promotes the survival and malignant transformation of mesothelial cells, part of the chronic inflammation (with the IL-1β/NLRP3 axis mapped) that drives mesothelioma."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Chronic inflammatory drive: asbestos fibres trigger sustained NF-κB-driven inflammation (NLRP3 and IL-1β already mapped) in the pleura, the inflammatory milieu central to mesothelioma development."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Asbestos oxidative stress: NRF2 antioxidant defence counters the iron-catalysed reactive-oxygen-species generation by asbestos fibres that drives the oxidative DNA damage of mesothelioma."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "RTK-RAS proliferation: RAS-ERK signalling downstream of EGFR and PDGFR (both already mapped) provides a proliferative input to mesothelioma growth."
 ---
 
 # Mesothelioma
@@ -542,6 +551,9 @@ Cytoreductive surgery (CRS) + hyperthermic intraperitoneal chemotherapy (HIPEC):
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Homozygous CDKN2A deletion (mapped) removes p16, leaving the CDK4/6-cyclin-D1 axis (cyclin-D1 mapped) unchecked in mesothelioma and a candidate target for CDK4/6 inhibition.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PIK3CA drives the PI3K-AKT-mTOR axis (PTEN, AKT and mTOR already mapped) that supports growth and survival in mesothelioma.
 - `connects-to` → **[TNF-α (Tumor Necrosis Factor-alpha)](../../03-molecular/tnf-alpha/README.md)** — TNF-α released by asbestos-activated macrophages promotes the survival and malignant transformation of mesothelial cells, part of the chronic inflammation (with the IL-1β/NLRP3 axis mapped) that drives mesothelioma.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Asbestos fibers trigger sustained NF-κB-driven inflammation (NLRP3 and IL-1β already mapped) in the pleura, the inflammatory milieu central to mesothelioma development.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2 antioxidant defense counters the iron-catalyzed reactive-oxygen-species generation by asbestos fibers that drives the oxidative DNA damage of mesothelioma.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — RAS-ERK signaling downstream of EGFR and PDGFR (both already mapped) provides a proliferative input to mesothelioma growth.
 
 [^baas-2021-checkmate743]: Baas P, Scherpereel A, Nowak AK, et al. First-line nivolumab plus ipilimumab in unresectable malignant pleural mesothelioma (CheckMate 743). *Lancet.* 2021;397(10272):375-386. [doi:10.1016/S0140-6736(20)32714-8](https://doi.org/10.1016/S0140-6736(20)32714-8) · [PubMed 33485464](https://pubmed.ncbi.nlm.nih.gov/33485464/)
 [^vogelzang-2003-pemetrexed]: Vogelzang NJ, Rusthoven JJ, Symanowski J, et al. Phase III study of pemetrexed in combination with cisplatin versus cisplatin alone in patients with malignant pleural mesothelioma. *J Clin Oncol.* 2003;21(14):2636-2644. [doi:10.1200/JCO.2003.11.136](https://doi.org/10.1200/JCO.2003.11.136) · [PubMed 12860938](https://pubmed.ncbi.nlm.nih.gov/12860938/)
