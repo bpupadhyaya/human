@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/apc
     relation: connects-to
     note: "Wnt initiation: APC inactivation activates Wnt/β-catenin (mapped) to initiate the adenoma-carcinoma sequence in Lynch colorectal cancer, on which the mismatch-repair defect then layers rapid mutation accumulation."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Immunogenic interferon response: the high neoantigen load of MMR-deficient Lynch tumours drives an interferon-rich microenvironment signalling through JAK-STAT (IFN-γ already mapped), underlying their responsiveness to checkpoint immunotherapy."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Microbiota inflammation: gut-microbiota-driven TLR-MyD88-NF-κB signalling (NF-κB already mapped) provides an inflammatory cofactor in the colorectal carcinogenesis of Lynch syndrome."
+  - target: 01-human/03-molecular/rb1
+    relation: connects-to
+    note: "Cancer progression: loss of the RB1-E2F checkpoint cooperates with mismatch-repair deficiency in the progression of Lynch-syndrome adenomas to carcinoma."
 ---
 
 # Lynch Syndrome
@@ -563,6 +572,9 @@ MSI-H stage II CRC: adjuvant 5-FU/leucovorin does NOT improve OS (may be harmful
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — KRAS and BRAF (both already mapped) signal through MAPK-ERK in Lynch-associated colorectal cancer, with BRAF testing used to distinguish sporadic MSI-high tumors from true Lynch syndrome.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR completes the PI3K-AKT-mTOR pathway (PIK3CA and AKT already mapped) active in the colorectal and endometrial cancers of Lynch syndrome.
 - `connects-to` → **[APC](../../03-molecular/apc/README.md)** — APC inactivation activates Wnt/β-catenin (mapped) to initiate the adenoma-carcinoma sequence in Lynch colorectal cancer, on which the mismatch-repair defect then layers rapid mutation accumulation.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — The high neoantigen load of MMR-deficient Lynch tumors drives an interferon-rich microenvironment signaling through JAK-STAT (IFN-γ already mapped), underlying their responsiveness to checkpoint immunotherapy.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — Gut-microbiota-driven TLR-MyD88-NF-κB signaling (NF-κB already mapped) provides an inflammatory cofactor in the colorectal carcinogenesis of Lynch syndrome.
+- `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — Loss of the RB1-E2F checkpoint cooperates with mismatch-repair deficiency in the progression of Lynch-syndrome adenomas to carcinoma.
 
 [^bonadona-2011-lynch-risks]: Bonadona V, Bonaïti B, Olschwang S, et al. Cancer risks associated with germline mutations in MLH1, MSH2, and MSH6 genes in Lynch syndrome. *JAMA.* 2011;305(22):2304-2310. [doi:10.1001/jama.2011.743](https://doi.org/10.1001/jama.2011.743) · [PubMed 21642683](https://pubmed.ncbi.nlm.nih.gov/21642683/)
 [^lynch-2015-lynch-review]: Lynch HT, Snyder CL, Shaw TG, et al. Milestones of Lynch syndrome: 1895-2015. *Nat Rev Cancer.* 2015;15(3):181-194. [doi:10.1038/nrc3878](https://doi.org/10.1038/nrc3878) · [PubMed 25673086](https://pubmed.ncbi.nlm.nih.gov/25673086/)
