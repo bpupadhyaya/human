@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "Schwannoma stroma: TGF-β signalling shapes the collagenous extracellular matrix (collagen mapped) and fibroblastic stroma of the schwannomas of schwannomatosis."
+  - target: 01-human/03-molecular/rb1
+    relation: connects-to
+    note: "Cell-cycle restraint: dysregulation of the RB1-E2F checkpoint (CDK4/6, cyclin-D1 and E2F1 already mapped) contributes to the proliferation of the schwannomas of schwannomatosis."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "STAT3 survival: JAK-STAT3 signalling (STAT3 already mapped) contributes to the survival signalling of schwannomatosis-associated schwannomas."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Neuropathic pain: TLR4-driven neuroinflammation around tumour-infiltrated nerves contributes to the chronic neuropathic pain that is the predominant clinical feature of schwannomatosis."
 ---
 
 # Schwannomatosis
@@ -525,6 +534,9 @@ Both NF2 (22q12.2), SMARCB1 (22q11.23), and LZTR1 (22q11.21) are on chromosome 2
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — The cyclin-D1-CDK4/6 axis (both mapped) releases E2F1 to drive the proliferation of the multiple schwannomas of schwannomatosis.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — Loss of the SMARCB1/LZTR1-merlin tumor-suppressor network de-represses PI3K-AKT-mTOR signaling (PIK3CA, AKT and mTOR already mapped), which PTEN normally limits, fueling schwannoma growth.
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β signaling shapes the collagenous extracellular matrix (collagen mapped) and fibroblastic stroma of the schwannomas of schwannomatosis.
+- `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — Dysregulation of the RB1-E2F checkpoint (CDK4/6, cyclin-D1 and E2F1 already mapped) contributes to the proliferation of the schwannomas of schwannomatosis.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK-STAT3 signaling (STAT3 already mapped) contributes to the survival signaling of schwannomatosis-associated schwannomas.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4-driven neuroinflammation around tumor-infiltrated nerves contributes to the chronic neuropathic pain that is the predominant clinical feature of schwannomatosis.
 
 [^merker-2012-schwannomatosis]: Merker VL, Esparza S, Smith MJ, Stemmer-Rachamimov A, Plotkin SR. Clinical features of schwannomatosis: a retrospective analysis of 87 patients. *Oncologist.* 2012;17(10):1317-1322. [doi:10.1634/theoncologist.2012-0162](https://doi.org/10.1634/theoncologist.2012-0162) · [PubMed 22927469](https://pubmed.ncbi.nlm.nih.gov/22927469/)
 [^piotrowski-2014-lztr1]: Piotrowski A, Xie J, Liu YF, et al. Germline loss-of-function mutations in LZTR1 predispose to an inherited disorder of multiple schwannomas. *Nat Genet.* 2014;46(2):182-187. [doi:10.1038/ng.2855](https://doi.org/10.1038/ng.2855) · [PubMed 24362817](https://pubmed.ncbi.nlm.nih.gov/24362817/)
