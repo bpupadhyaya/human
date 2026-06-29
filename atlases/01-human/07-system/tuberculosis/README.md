@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/nfe2l2
     relation: connects-to
     note: "Macrophage redox: NRF2 antioxidant signalling shapes the macrophage redox environment and the oxidative-burst control of Mycobacterium tuberculosis within the granuloma."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 accumulates around the phagosomal membrane damaged by Mycobacterium tuberculosis, marking the bacillus for selective autophagy within the macrophage."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K-AKT signalling promotes the survival of Mtb-infected macrophages and is subverted by the bacillus to inhibit phagosome maturation in the granuloma."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "ERK-MAPK signalling downstream of pattern-recognition receptors tunes the macrophage cytokine response (including TNF-α) to Mycobacterium tuberculosis."
 ---
 
 # Tuberculosis
@@ -569,6 +578,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IFN-γ and type-I-interferon signaling through JAK-STAT (IFN-γ, STAT1 and type-I IFN already mapped) governs both the protective macrophage activation and the detrimental type-I-IFN response in tuberculosis.
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — The BCL-2 family balance between apoptosis and necrosis of infected macrophages determines whether Mycobacterium tuberculosis is contained or disseminated (caspase-3 already mapped), a fate Mtb actively manipulates.
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2 antioxidant signaling shapes the macrophage redox environment and the oxidative-burst control of Mycobacterium tuberculosis within the granuloma.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 accumulates around the phagosomal membrane damaged by Mycobacterium tuberculosis, marking the bacillus for selective autophagy within the macrophage.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling promotes the survival of Mtb-infected macrophages and is subverted by the bacillus to inhibit phagosome maturation in the granuloma.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling downstream of pattern-recognition receptors tunes the macrophage cytokine response (including TNF-α) to Mycobacterium tuberculosis.
 
 ## See Also
 

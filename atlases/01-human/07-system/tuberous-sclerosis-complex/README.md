@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/kras
     relation: connects-to
     note: "RAS cooperation: RAS-ERK signalling (ERK1/2 already mapped) provides a proliferative input that cooperates with mTORC1 hyperactivation in the hamartomas of tuberous sclerosis complex."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "mTORC1 hyperactivation perturbs autophagy and mitochondrial quality control, and the resulting cytosolic DNA can engage cGAS-STING within the lesions of tuberous sclerosis complex."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the immune microenvironment of TSC-associated tumours such as angiomyolipoma and lymphangioleiomyomatosis."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling (TGF-β already mapped) contributes to the fibrotic and matrix-remodelling component of TSC-associated lesions including pulmonary lymphangioleiomyomatosis."
 ---
 
 # Tuberous Sclerosis Complex
@@ -575,6 +584,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — The RB1-E2F checkpoint (CDKN1B, cyclin-D1 and E2F1 already mapped) operates downstream of the mTOR-driven growth signaling that powers proliferation in TSC hamartomas.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK-STAT3 signaling (STAT3 already mapped) cooperates with mTORC1 hyperactivation in the lymphangioleiomyomatosis and hamartomatous lesions of tuberous sclerosis complex.
 - `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — RAS-ERK signaling (ERK1/2 already mapped) provides a proliferative input that cooperates with mTORC1 hyperactivation in the hamartomas of tuberous sclerosis complex.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — mTORC1 hyperactivation perturbs autophagy and mitochondrial quality control, and the resulting cytosolic DNA can engage cGAS-STING within the lesions of tuberous sclerosis complex.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the immune microenvironment of TSC-associated tumors such as angiomyolipoma and lymphangioleiomyomatosis.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β already mapped) contributes to the fibrotic and matrix-remodeling component of TSC-associated lesions including pulmonary lymphangioleiomyomatosis.
 
 ---
 
