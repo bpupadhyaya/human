@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/perforin
     relation: connects-to
     note: "HLA-B27 cytotoxicity: HLA-B27-restricted CD8 cytotoxic T cells deploy perforin in the entheseal and synovial inflammation of ankylosing spondylitis."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-γ-STAT1 signalling in the Th1 arm of the inflammatory response shapes the entheseal and axial inflammation of ankylosing spondylitis."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling (TGF-β already mapped) drives the pathological new bone formation and syndesmophyte growth that fuse the spine in ankylosing spondylitis."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 amplifies the innate inflammation and tissue remodelling of the enthesis in ankylosing spondylitis."
 ---
 
 # Ankylosing Spondylitis
@@ -556,6 +565,9 @@ AS originates at the **enthesis** — the site where tendons, ligaments, and joi
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR-driven metabolic activation of Th17 cells and entheseal stromal cells sustains the IL-23/IL-17 inflammation of ankylosing spondylitis.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling participates in both the inflammatory-cell survival and the osteoblast-driven new-bone formation that characterize the spinal ankylosis of ankylosing spondylitis.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — HLA-B27-restricted CD8 cytotoxic T cells deploy perforin in the entheseal and synovial inflammation of ankylosing spondylitis.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-γ-STAT1 signaling in the Th1 arm of the inflammatory response shapes the entheseal and axial inflammation of ankylosing spondylitis.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β already mapped) drives the pathological new bone formation and syndesmophyte growth that fuse the spine in ankylosing spondylitis.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 amplifies the innate inflammation and tissue remodeling of the enthesis in ankylosing spondylitis.
 
 [^sieper-2015-ankylosing-spondylitis-review]: Sieper J, Poddubnyy D. Ankylosing spondylitis. *Lancet.* 2017;390(10089):73-84. [doi:10.1016/S0140-6736(16)31591-4](https://doi.org/10.1016/S0140-6736(16)31591-4) · [PubMed 28110981](https://pubmed.ncbi.nlm.nih.gov/28110981/)
 [^baeten-2015-secukinumab-as]: Baeten D, Sieper J, Braun J, et al. Secukinumab, an Interleukin-17A Inhibitor, in Ankylosing Spondylitis. *N Engl J Med.* 2015;373(26):2534-2548. [doi:10.1056/NEJMoa1505066](https://doi.org/10.1056/NEJMoa1505066) · [PubMed 26699169](https://pubmed.ncbi.nlm.nih.gov/26699169/)

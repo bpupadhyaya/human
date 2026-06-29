@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/nfe2l2
     relation: connects-to
     note: "Chemoresistance: NRF2 antioxidant signalling protects AML blasts and leukemic stem cells from oxidative stress and contributes to chemoresistance."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 supports the survival and bone-marrow-niche adhesion of leukemic stem cells, contributing to chemoresistance and relapse in AML."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the antileukemic immune response and immune-evasion balance of AML, relevant to relapse after allogeneic transplant."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA sensing through cGAS-STING modulates the inflammatory and immune microenvironment of the AML bone marrow."
 ---
 
 # AML
@@ -558,6 +567,9 @@ AML requires cooperative mutations in at least 2 functional categories (Gillilan
 - `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — Activating RAS-pathway mutations (KRAS/NRAS) are common cooperating lesions in AML, driving the proliferative ERK-MAPK signaling (ERK1/2 already mapped) of the leukemic clone.
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — Dysregulation of the RB1-E2F checkpoint (CDK4/6 and E2F1 already mapped) contributes to the cell-cycle drive of acute myeloid leukemia.
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2 antioxidant signaling protects AML blasts and leukemic stem cells from oxidative stress and contributes to chemoresistance.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 supports the survival and bone-marrow-niche adhesion of leukemic stem cells, contributing to chemoresistance and relapse in AML.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antileukemic immune response and immune-evasion balance of AML, relevant to relapse after allogeneic transplant.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING modulates the inflammatory and immune microenvironment of the AML bone marrow.
 
 [^dinardo-2020-viale-a]: DiNardo CD, Jonas BA, Pullarkat V, et al. Azacitidine and venetoclax in previously untreated acute myeloid leukemia. *N Engl J Med.* 2020;383(7):617-629. [doi:10.1056/NEJMoa2012971](https://doi.org/10.1056/NEJMoa2012971) · [PubMed 32786187](https://pubmed.ncbi.nlm.nih.gov/32786187/)
 [^stone-2017-midostaurin]: Stone RM, Mandrekar SJ, Sanford BL, et al. Midostaurin plus chemotherapy for acute myeloid leukemia with a FLT3 mutation. *N Engl J Med.* 2017;377(5):454-464. [doi:10.1056/NEJMoa1614359](https://doi.org/10.1056/NEJMoa1614359) · [PubMed 28644114](https://pubmed.ncbi.nlm.nih.gov/28644114/)
