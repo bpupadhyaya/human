@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/jak1-2
     relation: connects-to
     note: "Cytokine amplification: IL-6 and inflammatory-cytokine signalling through JAK-STAT3 (IL-6 and STAT3 already mapped) amplifies the chronic airway inflammation of cystic fibrosis."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K-AKT-mTOR signalling (mTOR mapped) is dysregulated in CFTR-deficient epithelia and shapes the inflammatory and autophagy responses of cystic fibrosis."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "EGFR-ERK-MAPK signalling (EGFR mapped) drives the mucin hypersecretion and airway epithelial remodelling of cystic fibrosis."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 amplifies the neutrophil-dominated airway inflammation characteristic of cystic fibrosis lung disease."
 ---
 
 # Cystic Fibrosis
@@ -563,6 +572,9 @@ AND
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — TLR-MyD88-NF-κB innate signaling (TLR4 and NF-κB already mapped), driven by chronic Pseudomonas and Staphylococcus infection, sustains the destructive neutrophilic inflammation of the cystic-fibrosis lung.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR-regulated autophagy (autophagy already mapped) governs the handling of misfolded ΔF508-CFTR, and its modulation is explored to rescue mutant CFTR trafficking in cystic fibrosis.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6 and inflammatory-cytokine signaling through JAK-STAT3 (IL-6 and STAT3 already mapped) amplifies the chronic airway inflammation of cystic fibrosis.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT-mTOR signaling (mTOR mapped) is dysregulated in CFTR-deficient epithelia and shapes the inflammatory and autophagy responses of cystic fibrosis.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — EGFR-ERK-MAPK signaling (EGFR mapped) drives the mucin hypersecretion and airway epithelial remodeling of cystic fibrosis.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 amplifies the neutrophil-dominated airway inflammation characteristic of cystic fibrosis lung disease.
 
 ---
 

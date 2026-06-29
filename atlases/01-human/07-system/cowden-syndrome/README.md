@@ -331,6 +331,15 @@ cross_links:
   - target: 01-human/03-molecular/bcl-2
     relation: connects-to
     note: "Apoptosis evasion: anti-apoptotic BCL-2 raises the threshold for caspase-3 apoptosis (already mapped), supporting the survival of the hamartomas and carcinomas of Cowden syndrome."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 is a marker of the thyroid neoplasia common in Cowden syndrome and modulates tumour-cell survival."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling (TGF-β mapped) provides a tumour-suppressive counterweight whose loss cooperates with PTEN deficiency in Cowden-associated tumours."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "JAK-STAT3 signalling (STAT3 mapped) provides an additional proliferative input in the multi-organ tumours of Cowden syndrome."
 ---
 
 # Cowden Syndrome
@@ -615,6 +624,9 @@ cross_links:
 - `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — Receptor-tyrosine-kinase signaling through EGFR feeds the PI3K-AKT-mTOR axis that PTEN normally restrains (PI3K, AKT and mTOR all mapped), and its unopposed activity drives the tumors of PTEN-deficient Cowden syndrome.
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — The RB1-E2F checkpoint (E2F1, cyclin-D1 and CDKN1B already mapped) restrains the proliferation driven by the mTOR-AKT growth signaling characteristic of Cowden-syndrome lesions.
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Anti-apoptotic BCL-2 raises the threshold for caspase-3 apoptosis (already mapped), supporting the survival of the hamartomas and carcinomas of Cowden syndrome.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 is a marker of the thyroid neoplasia common in Cowden syndrome and modulates tumor-cell survival.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β mapped) provides a tumor-suppressive counterweight whose loss cooperates with PTEN deficiency in Cowden-associated tumors.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK-STAT3 signaling (STAT3 mapped) provides an additional proliferative input in the multi-organ tumors of Cowden syndrome.
 
 ---
 
