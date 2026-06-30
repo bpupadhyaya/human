@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/galectin-3
     relation: connects-to
     note: "Galectin-3 secreted in the injured pancreas activates stellate cells and amplifies the fibrosis of chronic hereditary pancreatitis."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "DNA released by repeated acinar-cell injury engages cGAS-STING, amplifying the sterile inflammation of recurrent hereditary pancreatitis."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the immune response within the chronically inflamed pancreas of hereditary pancreatitis."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K-AKT signalling (AKT already mapped) in stressed acinar cells contributes to the survival and the malignant-transformation risk of hereditary pancreatitis."
 ---
 
 # Hereditary Pancreatitis
@@ -591,6 +600,9 @@ cross_links:
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling modulates acinar-cell survival and the inflammatory response in the recurrent acute episodes of hereditary pancreatitis.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR regulation of autophagy/zymophagy (autophagy mapped) governs the clearance of prematurely activated zymogens, a protective process overwhelmed in hereditary pancreatitis.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 secreted in the injured pancreas activates stellate cells and amplifies the fibrosis of chronic hereditary pancreatitis.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — DNA released by repeated acinar-cell injury engages cGAS-STING, amplifying the sterile inflammation of recurrent hereditary pancreatitis.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the immune response within the chronically inflamed pancreas of hereditary pancreatitis.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K-AKT signaling (AKT already mapped) in stressed acinar cells contributes to the survival and the malignant-transformation risk of hereditary pancreatitis.
 
 [^whitcomb-1996-prss1]: Whitcomb DC, Gorry MC, Preston RA, et al. Hereditary pancreatitis is caused by a mutation in the cationic trypsinogen gene. *Nat Genet.* 1996;14(2):141-145. [doi:10.1038/ng1096-141](https://doi.org/10.1038/ng1096-141) · [PubMed 8841182](https://pubmed.ncbi.nlm.nih.gov/8841182/)
 [^lowenfels-2001-hp-pdac]: Lowenfels AB, Maisonneuve P, DiMagno EP, et al. Hereditary pancreatitis and the risk of pancreatic cancer. *J Natl Cancer Inst.* 2001;93(1):26-31. [doi:10.1093/jnci/93.1.26](https://doi.org/10.1093/jnci/93.1.26) · [PubMed 11136838](https://pubmed.ncbi.nlm.nih.gov/11136838/)
