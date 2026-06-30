@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/akt
     relation: connects-to
     note: "PI3K-AKT signalling sustains the survival and effector responses of the hyperactivated immune cells in cytokine storm."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "ERK-MAPK signalling downstream of cytokine and pattern-recognition receptors amplifies the feed-forward cytokine production of the cytokine storm."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K (PIK3CA) signalling (AKT already mapped) drives the immunometabolic activation of the hyperinflammatory myeloid and lymphoid cells in cytokine storm."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling participates in the counter-regulatory resolution phase that must restrain the hyperinflammation of cytokine storm."
 ---
 
 # Cytokine Storm
@@ -538,6 +547,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR-regulated immunometabolic reprogramming fuels the hyperactivated immune cells driving the cytokine storm.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 amplifies macrophage activation, contributing to the macrophage-activation-syndrome forms of cytokine storm.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling sustains the survival and effector responses of the hyperactivated immune cells in cytokine storm.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling downstream of cytokine and pattern-recognition receptors amplifies the feed-forward cytokine production of the cytokine storm.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA) signaling (AKT already mapped) drives the immunometabolic activation of the hyperinflammatory myeloid and lymphoid cells in cytokine storm.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling participates in the counter-regulatory resolution phase that must restrain the hyperinflammation of cytokine storm.
 
 ## Pathology
 

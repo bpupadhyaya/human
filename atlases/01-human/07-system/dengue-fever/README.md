@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/galectin-3
     relation: connects-to
     note: "Galectin-3 contributes to the endothelial dysfunction and vascular permeability underlying the plasma leakage of severe dengue."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6-STAT3 signalling transduces the inflammatory cytokine response that drives the vascular leak and plasma leakage of severe dengue."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "Dengue virus exploits PI3K-AKT signalling (AKT already mapped) to support its replication and modulate the survival of infected cells."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling shapes the endothelial and immune responses that contribute to the vascular permeability of severe dengue."
 ---
 
 # Dengue Fever
@@ -559,3 +568,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling is engaged during dengue-virus entry and replication and contributes to the endothelial activation of severe dengue.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Dengue virus exploits PI3K-AKT signaling to support replication and delay apoptosis in infected cells.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 contributes to the endothelial dysfunction and vascular permeability underlying the plasma leakage of severe dengue.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling transduces the inflammatory cytokine response that drives the vascular leak and plasma leakage of severe dengue.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Dengue virus exploits PI3K-AKT signaling (AKT already mapped) to support its replication and modulate the survival of infected cells.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling shapes the endothelial and immune responses that contribute to the vascular permeability of severe dengue.
