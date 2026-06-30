@@ -355,6 +355,15 @@ cross_links:
   - target: 01-human/03-molecular/stat1
     relation: connects-to
     note: "IFN-STAT1 signalling underlies the antiviral response that drives the viral exacerbations of COPD."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors regulate the airway epithelial oxidative-stress defense and cellular senescence that drive the accelerated lung aging of COPD."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signaling (TGF-β already mapped) drives the small-airway fibrosis and remodeling of COPD."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β participates in the corticosteroid-insensitive inflammation and cellular senescence of COPD."
 ---
 
 # COPD
@@ -610,6 +619,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling drives the chronic airway inflammation and mucus responses central to the progression of COPD.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cigarette-smoke-induced DNA damage releases cytosolic DNA that engages cGAS-STING, amplifying the sterile inflammation and cellular senescence of COPD.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling underlies the antiviral response that drives the viral exacerbations of COPD.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors regulate the airway epithelial oxidative-stress defense and cellular senescence that drive the accelerated lung aging of COPD.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β already mapped) drives the small-airway fibrosis and remodeling of COPD.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β participates in the corticosteroid-insensitive inflammation and cellular senescence of COPD.
 
 ---
 

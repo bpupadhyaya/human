@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/cdk4-6
     relation: connects-to
     note: "CDK4/6-cyclin-D activity drives the myeloproliferative cell-cycle progression of chronic myelomonocytic leukemia, often alongside CDKN2A loss."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO regulates the hematopoietic stem-cell quiescence and oxidative-stress handling dysregulated in chronic myelomonocytic leukemia."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the myeloid progenitor survival and differentiation signaling perturbed in chronic myelomonocytic leukemia."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis in chronic myelomonocytic leukemia."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -585,6 +594,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the inflammatory bone-marrow milieu and immune surveillance of chronic myelomonocytic leukemia.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING amplifies the inflammatory marrow microenvironment characteristic of chronic myelomonocytic leukemia.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6-cyclin-D activity drives the myeloproliferative cell-cycle progression of chronic myelomonocytic leukemia, often alongside CDKN2A loss.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO regulates the hematopoietic stem-cell quiescence and oxidative-stress handling dysregulated in chronic myelomonocytic leukemia.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the myeloid progenitor survival and differentiation signaling perturbed in chronic myelomonocytic leukemia.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis in chronic myelomonocytic leukemia.
 
 ---
 
