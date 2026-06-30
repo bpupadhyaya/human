@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/smad4
     relation: connects-to
     note: "TGF-β-SMAD signalling drives the premature atherosclerosis and fibrotic tissue remodelling characteristic of the accelerated ageing of Werner syndrome."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO longevity transcription factors govern the oxidative-stress resistance and senescence programs whose dysregulation accelerates the aging phenotype of Werner syndrome."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Perforin-mediated cytotoxic clearance of senescent cells by NK and T cells is a surveillance axis whose failure lets senescent cells accumulate in Werner syndrome."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 is a senescence-associated secretory-phenotype alarmin that amplifies the chronic inflammaging underlying Werner syndrome tissue damage."
 ---
 
 # Werner Syndrome
@@ -610,6 +619,9 @@ cross_links:
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling is activated by the cytosolic DNA of senescent cells and contributes to the inflammatory, interferon-driven component of the premature aging of Werner syndrome.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 promotes the tissue fibrosis and chronic inflammation that accompany the accelerated aging phenotype of Werner syndrome.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling drives the premature atherosclerosis and fibrotic tissue remodeling characteristic of the accelerated aging of Werner syndrome.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO longevity transcription factors govern the oxidative-stress resistance and senescence programs whose dysregulation accelerates the aging phenotype of Werner syndrome.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated cytotoxic clearance of senescent cells by NK and T cells is a surveillance axis whose failure lets senescent cells accumulate in Werner syndrome.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 is a senescence-associated secretory-phenotype alarmin that amplifies the chronic inflammaging underlying Werner syndrome tissue damage.
 
 [^yu-1996-wrn]: Yu CE, Oshima J, Fu YH, et al. Positional cloning of the Werner's syndrome gene. *Science.* 1996;272(5259):258-262. [doi:10.1126/science.272.5259.258](https://doi.org/10.1126/science.272.5259.258) · [PubMed 8602509](https://pubmed.ncbi.nlm.nih.gov/8602509/)
 [^lauper-2013-wrn-neoplasia]: Lauper JM, Krause A, Vaughan TL, Monnat RJ Jr. Spectrum and risk of neoplasia in Werner syndrome: a systematic review. *PLoS One.* 2013;8(4):e59709. [doi:10.1371/journal.pone.0059709](https://doi.org/10.1371/journal.pone.0059709) · [PubMed 23579047](https://pubmed.ncbi.nlm.nih.gov/23579047/)
