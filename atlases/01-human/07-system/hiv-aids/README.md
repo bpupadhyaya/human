@@ -346,6 +346,15 @@ cross_links:
   - target: 01-human/03-molecular/erk1-2
     relation: connects-to
     note: "ERK-MAPK signalling is engaged during HIV replication and contributes to the activation state of infected and bystander immune cells in AIDS."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "HIV-driven PI3K-AKT-FOXO modulation (AKT already mapped) shapes the T-cell survival-versus-depletion balance underlying progression to AIDS."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "HIF-1α supports viral replication and the metabolic dysregulation of immune cells in advanced HIV/AIDS."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins reflect the chronic myeloid inflammatory activation and immune exhaustion of HIV/AIDS."
 ---
 
 # HIV/AIDS
@@ -570,6 +579,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 promotes HIV-1 budding and amplifies the chronic immune activation that drives progression to AIDS.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling (type-I interferon already mapped) drives the antiviral and chronic interferon response that shapes immune exhaustion in AIDS.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling is engaged during HIV replication and contributes to the activation state of infected and bystander immune cells in AIDS.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — HIV-driven PI3K-AKT-FOXO modulation (AKT already mapped) shapes the T-cell survival-versus-depletion balance underlying progression to AIDS.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α supports viral replication and the metabolic dysregulation of immune cells in advanced HIV/AIDS.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins reflect the chronic myeloid inflammatory activation and immune exhaustion of HIV/AIDS.
 
 ## See Also
 

@@ -346,6 +346,15 @@ cross_links:
   - target: 01-human/03-molecular/smad4
     relation: connects-to
     note: "TGF-β-SMAD signalling shapes the lung epithelial repair and fibrosis that follow the diffuse alveolar damage of severe influenza."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic nucleic-acid sensing through cGAS-STING, including mitochondrial DNA from damaged cells, augments the innate antiviral and inflammatory response to influenza."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins released by recruited neutrophils amplify the lung inflammation and severity of influenza pneumonia."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO regulates the airway epithelial oxidative-stress and survival responses to influenza infection."
 ---
 
 # Influenza
@@ -591,3 +600,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 amplifies the macrophage-driven cytokine storm and lung inflammation of severe influenza pneumonia.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling transduces the inflammatory cytokine response that contributes to the lung pathology of severe influenza.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling shapes the lung epithelial repair and fibrosis that follow the diffuse alveolar damage of severe influenza.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic nucleic-acid sensing through cGAS-STING, including mitochondrial DNA from damaged cells, augments the innate antiviral and inflammatory response to influenza.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins released by recruited neutrophils amplify the lung inflammation and severity of influenza pneumonia.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO regulates the airway epithelial oxidative-stress and survival responses to influenza infection.
