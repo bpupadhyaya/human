@@ -355,6 +355,15 @@ cross_links:
   - target: 01-human/03-molecular/ntrk
     relation: connects-to
     note: "BDNF-TrkB (NTRK) signalling (BDNF already mapped) shapes the appetite-regulating and reward plasticity implicated in the pathophysiology of anorexia nervosa."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO, released from the suppressed insulin-IGF-1-PI3K-AKT signaling of starvation (AKT, IGF-1, and insulin already mapped), drives the catabolic atrophy and autophagy programs of anorexia nervosa."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "JAK1/2-STAT cytokine signaling (IL-6 already mapped) relays the inflammatory tone linked to the appetite and mood circuitry of anorexia nervosa."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 neuroinflammatory signaling contributes to the immune-metabolic dysregulation associated with anorexia nervosa."
 ---
 
 # Anorexia Nervosa
@@ -608,6 +617,9 @@ In healthy individuals, food cues activate the mesolimbic reward circuit (VTA �
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β signaling in reward and habit circuits contributes to the cognitive rigidity and maladaptive learning that sustain the restrictive behavior of anorexia nervosa.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Hypothalamic leptin-STAT3 signaling (leptin already mapped) couples the starvation-driven hypoleptinemia of anorexia nervosa to its neuroendocrine adaptation.
 - `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — BDNF-TrkB (NTRK) signaling (BDNF already mapped) shapes the appetite-regulating and reward plasticity implicated in the pathophysiology of anorexia nervosa.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO, released from the suppressed insulin-IGF-1-PI3K-AKT signaling of starvation (AKT, IGF-1, and insulin already mapped), drives the catabolic atrophy and autophagy programs of anorexia nervosa.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK1/2-STAT cytokine signaling (IL-6 already mapped) relays the inflammatory tone linked to the appetite and mood circuitry of anorexia nervosa.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 neuroinflammatory signaling contributes to the immune-metabolic dysregulation associated with anorexia nervosa.
 
 [^treasure-2010-an-lancet]: Treasure J, Claudino AM, Zucker N. Eating disorders. *Lancet.* 2010;375(9714):583-593. [doi:10.1016/S0140-6736(09)61748-7](https://doi.org/10.1016/S0140-6736(09)61748-7) · [PubMed 19931176](https://pubmed.ncbi.nlm.nih.gov/19931176/)
 [^lock-2010-fbt-an]: Lock J, Le Grange D, Agras WS, et al. Randomized clinical trial comparing family-based treatment with adolescent-focused individual therapy for adolescents with anorexia nervosa. *Arch Gen Psychiatry.* 2010;67(10):1025-1032. [doi:10.1001/archgenpsychiatry.2010.128](https://doi.org/10.1001/archgenpsychiatry.2010.128) · [PubMed 20921118](https://pubmed.ncbi.nlm.nih.gov/20921118/)

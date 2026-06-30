@@ -346,6 +346,15 @@ cross_links:
   - target: 01-human/03-molecular/smad4
     relation: connects-to
     note: "TGF-β-SMAD signalling contributes to the placental dysfunction and decidual remodelling underlying the pregnancy morbidity of obstetric APS."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "JAK1/2-STAT cytokine signaling (IL-6-STAT3 already mapped) amplifies the endothelial and monocyte inflammatory activation that drives the thrombosis of antiphospholipid syndrome."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signaling, reflecting the type-I interferon signature of APS, shapes the immune activation underlying antiphospholipid syndrome."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO downstream of antiphospholipid-antibody-triggered PI3K-AKT-mTOR signaling (AKT, PIK3CA, and mTOR already mapped) regulates the endothelial activation balance in antiphospholipid syndrome."
 ---
 
 # Antiphospholipid Syndrome
@@ -601,6 +610,9 @@ In APS, anti-B2GPI IgG bound to B2GPI on phospholipid surfaces converts this ant
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling transduces the inflammatory cytokine response of monocytes and endothelium activated by antiphospholipid antibodies in APS.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — DNA within antiphospholipid-antibody-triggered neutrophil extracellular traps engages cGAS-STING, linking NET-driven inflammation to the thrombosis of APS.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling contributes to the placental dysfunction and decidual remodeling underlying the pregnancy morbidity of obstetric APS.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK1/2-STAT cytokine signaling (IL-6-STAT3 already mapped) amplifies the endothelial and monocyte inflammatory activation that drives the thrombosis of antiphospholipid syndrome.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling, reflecting the type-I interferon signature of APS, shapes the immune activation underlying antiphospholipid syndrome.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO downstream of antiphospholipid-antibody-triggered PI3K-AKT-mTOR signaling (AKT, PIK3CA, and mTOR already mapped) regulates the endothelial activation balance in antiphospholipid syndrome.
 
 [^miyakis-2006-sydney-aps]: Miyakis S, Lockshin MD, Atsumi T, et al. International consensus statement on an update of the classification criteria for definite antiphospholipid syndrome (APS). *J Thromb Haemost.* 2006;4(2):295-306. [doi:10.1111/j.1538-7836.2006.01753.x](https://doi.org/10.1111/j.1538-7836.2006.01753.x) · [PubMed 16420554](https://pubmed.ncbi.nlm.nih.gov/16420554/)
 [^barbhaiya-2023-acreular-aps]: Barbhaiya M, Zuily S, Naden R, et al. The 2023 ACR/EULAR antiphospholipid syndrome classification criteria. *Ann Rheum Dis.* 2023;82(10):1258-1270. [doi:10.1136/ard-2023-224609](https://doi.org/10.1136/ard-2023-224609) · [PubMed 37643823](https://pubmed.ncbi.nlm.nih.gov/37643823/)
