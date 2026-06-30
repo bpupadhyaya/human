@@ -355,6 +355,15 @@ cross_links:
   - target: 01-human/03-molecular/cgas-sting
     relation: connects-to
     note: "Cytosolic DNA released by astrocyte injury can engage cGAS-STING, contributing to the innate inflammatory amplification of NMO lesions."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO regulates the oxidative-stress and survival responses of the astrocytes targeted by AQP4-IgG in neuromyelitis optica."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins released by infiltrating granulocytes amplify the inflammatory tissue damage of the eosinophil- and neutrophil-rich lesions of neuromyelitis optica."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "ERK-MAPK signaling downstream of cytokine and complement stimuli contributes to the astrocyte and immune-cell activation of neuromyelitis optica."
 ---
 
 # NMOSD
@@ -613,6 +622,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 released by reactive astrocytes and microglia amplifies the neuroinflammation that follows the AQP4-IgG astrocytopathy of NMO.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the interferon-driven component of the immune response in the astrocyte-targeted inflammation of NMO.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA released by astrocyte injury can engage cGAS-STING, contributing to the innate inflammatory amplification of NMO lesions.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO regulates the oxidative-stress and survival responses of the astrocytes targeted by AQP4-IgG in neuromyelitis optica.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins released by infiltrating granulocytes amplify the inflammatory tissue damage of the eosinophil- and neutrophil-rich lesions of neuromyelitis optica.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling downstream of cytokine and complement stimuli contributes to the astrocyte and immune-cell activation of neuromyelitis optica.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)

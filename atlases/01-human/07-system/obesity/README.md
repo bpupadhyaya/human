@@ -352,6 +352,15 @@ cross_links:
   - target: 01-human/03-molecular/stat1
     relation: connects-to
     note: "IFN-STAT1 signalling shapes the pro-inflammatory macrophage polarisation of obese adipose tissue, linking immunity to metabolic dysfunction."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO1 integrates insulin-PI3K-AKT signaling (AKT and PIK3CA already mapped) to control adipocyte differentiation and hepatic metabolism dysregulated in obesity."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins released by adipose-tissue macrophages amplify the chronic low-grade metabolic inflammation of obesity."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "ERK-MAPK signaling contributes to adipogenesis and the inflammatory adipocyte stress response of obese adipose tissue."
 ---
 
 # Obesity
@@ -603,6 +612,9 @@ This **metainflammation** mechanistically links obesity to type 2 diabetes, athe
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Mitochondrial and metabolic stress in expanding adipose tissue releases cytosolic DNA that engages cGAS-STING, fueling the metabolic inflammation of obesity.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling drives the adipose-tissue fibrosis that accompanies the dysfunctional expansion of fat in obesity.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the pro-inflammatory macrophage polarization of obese adipose tissue, linking immunity to metabolic dysfunction.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO1 integrates insulin-PI3K-AKT signaling (AKT and PIK3CA already mapped) to control adipocyte differentiation and hepatic metabolism dysregulated in obesity.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins released by adipose-tissue macrophages amplify the chronic low-grade metabolic inflammation of obesity.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling contributes to adipogenesis and the inflammatory adipocyte stress response of obese adipose tissue.
 
 [^bluher-2019-obesity-review]: Blüher M. Obesity: global epidemiology and pathogenesis. *Nat Rev Endocrinol.* 2019;15(5):288-298. [doi:10.1038/s41574-019-0176-8](https://doi.org/10.1038/s41574-019-0176-8) · [PubMed 30814686](https://pubmed.ncbi.nlm.nih.gov/30814686/)
 [^wilding-2021-semaglutide-step1]: Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. *N Engl J Med.* 2021;384(11):989-1002. [doi:10.1056/NEJMoa2032183](https://doi.org/10.1056/NEJMoa2032183) · [PubMed 33567185](https://pubmed.ncbi.nlm.nih.gov/33567185/)
