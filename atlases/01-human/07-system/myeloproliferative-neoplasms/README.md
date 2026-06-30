@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/galectin-3
     relation: connects-to
     note: "Galectin-3 expressed by megakaryocytes contributes to the marrow microenvironment and the fibrotic progression of myeloproliferative neoplasms."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA sensing through cGAS-STING amplifies the chronic inflammatory marrow milieu (type-I interferon already mapped) of myeloproliferative neoplasms."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling (TGF-β already mapped) released by clonal megakaryocytes drives the bone-marrow fibrosis of myeloproliferative neoplasms."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "CDK4/6-cyclin-D activity (CDKN2A already mapped) drives the JAK2-fuelled myeloproliferative cell-cycle progression of myeloproliferative neoplasms."
 ---
 
 # Myeloproliferative Neoplasms
@@ -591,6 +600,9 @@ In PV and ET, JAK2 V617F also affects myeloid progenitors → granulocytosis and
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — JAK2-driven PI3K-AKT-mTOR signaling (JAK2 and AKT mapped) supports clonal proliferation in myeloproliferative neoplasms, a target of mTOR-inhibitor combinations.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — Type-I-interferon signaling through STAT1 (type-I-interferon mapped) underlies the disease-modifying activity of interferon therapy across the myeloproliferative neoplasms.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 expressed by megakaryocytes contributes to the marrow microenvironment and the fibrotic progression of myeloproliferative neoplasms.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING amplifies the chronic inflammatory marrow milieu (type-I interferon already mapped) of myeloproliferative neoplasms.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β already mapped) released by clonal megakaryocytes drives the bone-marrow fibrosis of myeloproliferative neoplasms.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6-cyclin-D activity (CDKN2A already mapped) drives the JAK2-fueled myeloproliferative cell-cycle progression of myeloproliferative neoplasms.
 
 [^verstovsek-2012-comfort-i]: Verstovsek S, Mesa RA, Gotlib J, et al. A double-blind, placebo-controlled trial of ruxolitinib for myelofibrosis. *N Engl J Med.* 2012;366(9):799-807. [doi:10.1056/NEJMoa1110557](https://doi.org/10.1056/NEJMoa1110557) · [PubMed 22375971](https://pubmed.ncbi.nlm.nih.gov/22375971/)
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409002](https://doi.org/10.1056/NEJMoa1409002) · [PubMed 25426978](https://pubmed.ncbi.nlm.nih.gov/25426978/)

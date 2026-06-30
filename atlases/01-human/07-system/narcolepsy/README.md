@@ -327,6 +327,15 @@ cross_links:
   - target: 01-human/03-molecular/stat1
     relation: connects-to
     note: "Interferon signalling through STAT1 (IFN-γ and type-I-interferon mapped), engaged by the H1N1/vaccine trigger, contributes to the autoimmune pathogenesis of narcolepsy."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA sensing through cGAS-STING contributes to the innate-immune activation underlying the autoimmune destruction of orexin neurons in narcolepsy."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β signalling in orexinergic and arousal circuits modulates the neuronal stability relevant to the sleep-wake dysregulation of narcolepsy."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K-AKT signalling (AKT already mapped) supports the survival of the autoreactive T cells implicated in the orexin-neuron loss of narcolepsy."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -570,6 +579,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling participates in the activation of the autoreactive T cells that destroy orexin neurons and in the survival signaling of the targeted hypothalamic neurons in narcolepsy.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Microglial galectin-3 reflects the neuroinflammatory response accompanying the autoimmune loss of orexin neurons in narcolepsy type 1.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — Interferon signaling through STAT1 (IFN-γ and type-I-interferon mapped), engaged by the H1N1/vaccine trigger, contributes to the autoimmune pathogenesis of narcolepsy.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING contributes to the innate-immune activation underlying the autoimmune destruction of orexin neurons in narcolepsy.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β signaling in orexinergic and arousal circuits modulates the neuronal stability relevant to the sleep-wake dysregulation of narcolepsy.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K-AKT signaling (AKT already mapped) supports the survival of the autoreactive T cells implicated in the orexin-neuron loss of narcolepsy.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)
