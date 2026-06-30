@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/ezh2
     relation: connects-to
     note: "EZH2-mediated polycomb repression silences tumour-suppressor genes and contributes to the epigenetic dysregulation of colorectal cancer."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "CDK4/6-driven cyclin-D1-RB1 cell-cycle entry (cyclin-D1 and RB1 already mapped) sustains the proliferation of colorectal cancer."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "PI3K-AKT-mediated FOXO inactivation (PI3K-AKT already mapped) removes a pro-apoptotic brake, favoring survival in colorectal cancer."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Perforin-delivered cytotoxic killing by CD8 T and NK cells mediates the immune clearance that the immunogenic mismatch-repair-deficient colorectal cancer must evade."
 ---
 
 # Colorectal Cancer
@@ -575,6 +584,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 promotes immune evasion and the liver-metastatic colonization that drives mortality in colorectal cancer.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling governs the antitumor immune response of colorectal cancer, particularly the immunotherapy-responsive mismatch-repair-deficient subtype.
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — EZH2-mediated polycomb repression silences tumor-suppressor genes and contributes to the epigenetic dysregulation of colorectal cancer.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6-driven cyclin-D1-RB1 cell-cycle entry (cyclin-D1 and RB1 already mapped) sustains the proliferation of colorectal cancer.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — PI3K-AKT-mediated FOXO inactivation (PI3K-AKT already mapped) removes a pro-apoptotic brake, favoring survival in colorectal cancer.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-delivered cytotoxic killing by CD8 T and NK cells mediates the immune clearance that the immunogenic mismatch-repair-deficient colorectal cancer must evade.
 
 ---
 
