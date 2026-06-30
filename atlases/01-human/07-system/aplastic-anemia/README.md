@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/foxo
     relation: connects-to
     note: "FOXO transcription factors govern the oxidative-stress resistance and quiescence of haematopoietic stem cells, whose failure contributes to the marrow exhaustion of aplastic anemia."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "HIF-1α shapes the hypoxic bone-marrow niche and the stem-cell stress responses relevant to the marrow failure of aplastic anemia."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins reflect the inflammatory immune activation that accompanies the T-cell-mediated marrow destruction of aplastic anemia."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the hematopoietic stem-cell survival and self-renewal signaling whose disruption contributes to aplastic anemia."
 ---
 
 # Aplastic Anemia
@@ -572,6 +581,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 modulates the immune-cell activation that drives the T-cell-mediated destruction of hematopoietic stem cells in aplastic anemia.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling shapes the suppression of hematopoietic stem cells and the immune dysregulation of aplastic anemia.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors govern the oxidative-stress resistance and quiescence of hematopoietic stem cells, whose failure contributes to the marrow exhaustion of aplastic anemia.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α shapes the hypoxic bone-marrow niche and the stem-cell stress responses relevant to the marrow failure of aplastic anemia.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins reflect the inflammatory immune activation that accompanies the T-cell-mediated marrow destruction of aplastic anemia.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the hematopoietic stem-cell survival and self-renewal signaling whose disruption contributes to aplastic anemia.
 
 ---
 

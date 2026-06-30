@@ -355,6 +355,15 @@ cross_links:
   - target: 01-human/03-molecular/stat1
     relation: connects-to
     note: "IFN-γ-STAT1 signalling drives the macrophage activation and antigen presentation that propagate the chronic immune response of atherosclerosis."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors regulate the endothelial and macrophage oxidative-stress and lipid-handling responses relevant to atherosclerotic plaque biology."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Perforin-mediated cytotoxic CD8 and NK activity contributes to the plaque instability and necrotic-core formation of atherosclerosis."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "CDK4/6-driven vascular smooth-muscle-cell proliferation contributes to the intimal hyperplasia of the atherosclerotic plaque."
 ---
 
 # Atherosclerosis
@@ -581,6 +590,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cholesterol-crystal and mitochondrial DNA engagement of cGAS-STING amplifies the sterile inflammation of the atherosclerotic plaque.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β already mapped) governs the smooth-muscle and fibrous-cap responses that determine plaque stability in atherosclerosis.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-γ-STAT1 signaling drives the macrophage activation and antigen presentation that propagate the chronic immune response of atherosclerosis.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors regulate the endothelial and macrophage oxidative-stress and lipid-handling responses relevant to atherosclerotic plaque biology.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated cytotoxic CD8 and NK activity contributes to the plaque instability and necrotic-core formation of atherosclerosis.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6-driven vascular smooth-muscle-cell proliferation contributes to the intimal hyperplasia of the atherosclerotic plaque.
 
 ---
 
