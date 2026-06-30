@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/cgas-sting
     relation: connects-to
     note: "Cytosolic DNA sensing through cGAS-STING shapes the inflammatory and immune microenvironment of the gastrointestinal neoplasia in juvenile polyposis syndrome."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the antitumour immune surveillance of the gastrointestinal neoplasia in juvenile polyposis syndrome."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "CDK4/6-cyclin-D activity (RB1 already mapped) drives the cell-cycle progression of the adenoma-carcinoma sequence in juvenile polyposis syndrome."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO tumour-suppressor activity, antagonised by PI3K-AKT signalling, is progressively lost in the malignant transformation of juvenile polyposis syndrome."
 ---
 
 # Juvenile Polyposis Syndrome
@@ -577,6 +586,9 @@ No approved chemopreventive agents specifically for JPS. Options under investiga
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 is upregulated during the polyp-to-carcinoma progression of juvenile polyposis syndrome, modulating tumor-cell adhesion and immune evasion.
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A loss contributes to the malignant progression of the hamartomatous polyps of juvenile polyposis syndrome.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING shapes the inflammatory and immune microenvironment of the gastrointestinal neoplasia in juvenile polyposis syndrome.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antitumor immune surveillance of the gastrointestinal neoplasia in juvenile polyposis syndrome.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6-cyclin-D activity (RB1 already mapped) drives the cell-cycle progression of the adenoma-carcinoma sequence in juvenile polyposis syndrome.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO tumor-suppressor activity, antagonized by PI3K-AKT signaling, is progressively lost in the malignant transformation of juvenile polyposis syndrome.
 
 [^howe-1998-smad4-jps]: Howe JR, Roth S, Ringold JC, et al. Mutations in the SMAD4/DPC4 gene in juvenile polyposis. *Science.* 1998;280(5366):1086-1088. [doi:10.1126/science.280.5366.1086](https://doi.org/10.1126/science.280.5366.1086) · [PubMed 9582123](https://pubmed.ncbi.nlm.nih.gov/9582123/)
 [^aretz-2007-jps-spectrum]: Aretz S, Stienen D, Uhlhaas S, et al. High proportion of large genomic deletions and a genotype-phenotype update in 80 unrelated families with juvenile polyposis syndrome. *J Med Genet.* 2007;44(11):702-709. [doi:10.1136/jmg.2007.051839](https://doi.org/10.1136/jmg.2007.051839) · [PubMed 17601924](https://pubmed.ncbi.nlm.nih.gov/17601924/)

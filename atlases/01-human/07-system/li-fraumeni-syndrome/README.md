@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/galectin-3
     relation: connects-to
     note: "Galectin-3 modulates tumour-cell survival and immune evasion across the spectrum of Li-Fraumeni-associated cancers."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "p53 loss in Li-Fraumeni syndrome perturbs the cGAS-STING (mapped) and IFN-STAT1 axis that links genomic instability to antitumour immunity."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6-STAT3 signalling supports the survival and inflammatory microenvironment of the diverse Li-Fraumeni-associated cancers."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors cooperate with p53 in tumour suppression, a partnership disrupted by the germline TP53 loss of Li-Fraumeni syndrome."
 ---
 
 # Li-Fraumeni Syndrome
@@ -598,6 +607,9 @@ Annual surveillance significantly reduces mortality in LFS carriers (Villani 201
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — RAS-ERK-MAPK proliferative signaling (KRAS mapped) cooperates with germline p53 loss in driving the diverse cancers of Li-Fraumeni syndrome.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K-AKT-mTOR signaling (AKT, mTOR and PTEN mapped) provides a survival and growth input cooperating with p53 deficiency in Li-Fraumeni-associated tumors.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 modulates tumor-cell survival and immune evasion across the spectrum of Li-Fraumeni-associated cancers.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — p53 loss in Li-Fraumeni syndrome perturbs the cGAS-STING (mapped) and IFN-STAT1 axis that links genomic instability to antitumor immunity.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling supports the survival and inflammatory microenvironment of the diverse Li-Fraumeni-associated cancers.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors cooperate with p53 in tumor suppression, a partnership disrupted by the germline TP53 loss of Li-Fraumeni syndrome.
 
 [^bougeard-2015-lfs-chompret]: Bougeard G, Renaux-Petel M, Flaman JM, et al. Revisiting Li-Fraumeni Syndrome From TP53 Mutation Carriers. *J Clin Oncol.* 2015;33(21):2345-2352. [doi:10.1200/JCO.2014.59.5728](https://doi.org/10.1200/JCO.2014.59.5728) · [PubMed 26014290](https://pubmed.ncbi.nlm.nih.gov/26014290/)
 [^villani-2016-lfs-surveillance]: Villani A, Shore A, Wasserman JD, et al. Biochemical and imaging surveillance in germline TP53 mutation carriers with Li-Fraumeni syndrome: 11 year follow-up of a prospective observational study. *Lancet Oncol.* 2016;17(9):1295-1305. [doi:10.1016/S1470-2045(16)30249-2](https://doi.org/10.1016/S1470-2045(16)30249-2) · [PubMed 27501770](https://pubmed.ncbi.nlm.nih.gov/27501770/)
