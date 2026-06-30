@@ -345,6 +345,15 @@ cross_links:
   - target: 01-human/03-molecular/foxo
     relation: connects-to
     note: "FOXO transcription factors integrate the oxidative and metabolic stress of iron-restricted erythropoiesis, modulating erythroid progenitor survival in iron deficiency anemia."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6-STAT3 signaling (IL-6 already mapped) induces hepcidin, the inflammatory axis that compounds iron restriction when inflammation accompanies iron deficiency anemia."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "CDK4/6-driven erythroid progenitor cell-cycle progression is constrained by the limited iron available for hemoglobinization in iron deficiency anemia."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "Class I PI3K (PIK3CA) signaling transduces the erythropoietin survival and proliferation signal in the iron-restricted erythroid progenitors of iron deficiency anemia (AKT already mapped)."
 ---
 
 # Iron Deficiency Anemia
@@ -574,6 +583,9 @@ Iron is essential for:
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK energy sensing responds to the impaired mitochondrial respiration of iron-deficient cells, linking iron deficiency to the metabolic and exercise-intolerance symptoms of the anemia.
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2 governs the heme- and iron-handling antioxidant response (including HO-1), shaping the cellular adaptation to the iron restriction of iron deficiency anemia.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors integrate the oxidative and metabolic stress of iron-restricted erythropoiesis, modulating erythroid progenitor survival in iron deficiency anemia.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling (IL-6 already mapped) induces hepcidin, the inflammatory axis that compounds iron restriction when inflammation accompanies iron deficiency anemia.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6-driven erythroid progenitor cell-cycle progression is constrained by the limited iron available for hemoglobinization in iron deficiency anemia.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Class I PI3K (PIK3CA) signaling transduces the erythropoietin survival and proliferation signal in the iron-restricted erythroid progenitors of iron deficiency anemia (AKT already mapped).
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)

@@ -355,6 +355,15 @@ cross_links:
   - target: 01-human/03-molecular/cgas-sting
     relation: connects-to
     note: "Sleep-loss-associated cellular stress can engage cGAS-STING, contributing to the neuroinflammatory consequences of chronic insomnia."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO downstream of PI3K-AKT signaling (AKT already mapped) regulates neuronal oxidative-stress handling relevant to the hyperarousal and stress physiology of insomnia disorder."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 neuroinflammatory signaling contributes to the inflammatory tone associated with chronic insomnia disorder."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "JAK1/2 signaling upstream of STAT3 (IL-6 already mapped) relays the inflammatory tone linked to the sleep-wake dysregulation of insomnia disorder."
 ---
 
 # Insomnia Disorder
@@ -604,6 +613,9 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β is a core regulator of the circadian clock and of arousal-related plasticity, linking its activity to the hyperarousal of insomnia disorder.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling transduces the low-grade systemic inflammation that both results from and reinforces chronic sleep loss in insomnia disorder.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Sleep-loss-associated cellular stress can engage cGAS-STING, contributing to the neuroinflammatory consequences of chronic insomnia.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO downstream of PI3K-AKT signaling (AKT already mapped) regulates neuronal oxidative-stress handling relevant to the hyperarousal and stress physiology of insomnia disorder.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 neuroinflammatory signaling contributes to the inflammatory tone associated with chronic insomnia disorder.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK1/2 signaling upstream of STAT3 (IL-6 already mapped) relays the inflammatory tone linked to the sleep-wake dysregulation of insomnia disorder.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)
