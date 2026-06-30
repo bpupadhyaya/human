@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/cdkn2a
     relation: connects-to
     note: "The CDK4/6-cyclin-D inhibitor CDKN2A (cyclin-D1 mapped) is a brake on the RAS-MAPK-driven myelomonocytic proliferation that predisposes Noonan syndrome to juvenile myelomonocytic leukaemia."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the immune surveillance relevant to the leukemia predisposition of Noonan syndrome."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA sensing through cGAS-STING contributes to the inflammatory tone associated with the RAS-MAPK dysregulation of Noonan syndrome."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors, antagonised by the constitutive RAS-PI3K-AKT signalling of Noonan syndrome, modulate the growth and developmental programmes it disrupts."
 ---
 
 # Noonan Syndrome
@@ -585,6 +594,9 @@ NS is characterized by four cardinal features: **(1) short stature** (below 3rd 
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 drives the cardiac fibrosis underlying the hypertrophic cardiomyopathy of Noonan syndrome and is a biomarker of its progression.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β mapped) contributes to the cardiac and connective-tissue remodeling of Noonan syndrome.
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — The CDK4/6-cyclin-D inhibitor CDKN2A (cyclin-D1 mapped) is a brake on the RAS-MAPK-driven myelomonocytic proliferation that predisposes Noonan syndrome to juvenile myelomonocytic leukemia.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the immune surveillance relevant to the leukemia predisposition of Noonan syndrome.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING contributes to the inflammatory tone associated with the RAS-MAPK dysregulation of Noonan syndrome.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors, antagonized by the constitutive RAS-PI3K-AKT signaling of Noonan syndrome, modulate the growth and developmental programs it disrupts.
 
 [^tartaglia-2001-ptpn11-noonan]: Tartaglia M, Mehler EL, Goldberg R, et al. Mutations in PTPN11, encoding the protein tyrosine phosphatase SHP-2, cause Noonan syndrome. *Nat Genet.* 2001;29(4):465-468. [doi:10.1038/ng772](https://doi.org/10.1038/ng772) · [PubMed 11704759](https://pubmed.ncbi.nlm.nih.gov/11704759/)
 [^van-der-burgt-2007-noonan-review]: van der Burgt I. Noonan syndrome. *Orphanet J Rare Dis.* 2007;2:4. [doi:10.1186/1750-1172-2-4](https://doi.org/10.1186/1750-1172-2-4) · [PubMed 17222357](https://pubmed.ncbi.nlm.nih.gov/17222357/)
