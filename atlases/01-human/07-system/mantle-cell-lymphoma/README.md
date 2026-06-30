@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "TGF-β within the lymph-node microenvironment modulates immune evasion and the stromal niche of mantle cell lymphoma."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the antitumour immune response of mantle cell lymphoma."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling (TGF-β already mapped) normally restrains B-cell proliferation, a brake overridden by the cyclin-D1 translocation of mantle cell lymphoma."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors, restrained by BCR-PI3K-AKT signalling, modulate the survival of the cyclin-D1-driven cells of mantle cell lymphoma."
 ---
 
 # Mantle Cell Lymphoma
@@ -569,6 +578,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — B-cell-receptor signaling through ERK-MAPK provides a proliferative input in mantle cell lymphoma, downstream of the BTK-dependent BCR pathway already mapped.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 supports mantle-cell-lymphoma survival and its interactions with the nodal microenvironment.
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β within the lymph-node microenvironment modulates immune evasion and the stromal niche of mantle cell lymphoma.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antitumor immune response of mantle cell lymphoma.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β already mapped) normally restrains B-cell proliferation, a brake overridden by the cyclin-D1 translocation of mantle cell lymphoma.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors, restrained by BCR-PI3K-AKT signaling, modulate the survival of the cyclin-D1-driven cells of mantle cell lymphoma.
 
 ---
 
