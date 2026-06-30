@@ -346,6 +346,15 @@ cross_links:
   - target: 01-human/03-molecular/galectin-3
     relation: connects-to
     note: "Galectin-3 promotes the neutrophil-extracellular-trap-driven thromboinflammation that contributes to the microvascular injury of TTP."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA released from NETs and lysed cells engages cGAS-STING, amplifying the type-I-interferon thromboinflammation of TTP."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signaling propagates the interferon-driven endothelial activation that aggravates the microvascular injury of TTP."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K (PIK3CA) signaling in platelets and endothelium reinforces the activated, procoagulant phenotype that sustains the microthrombi of TTP."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -610,6 +619,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Endothelial and platelet PI3K-AKT signaling shapes the activated, procoagulant phenotype that propagates the microvascular thrombosis of TTP.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling in platelets and endothelium amplifies the cellular activation driving the von-Willebrand-factor-rich microthrombi of TTP.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 promotes the neutrophil-extracellular-trap-driven thromboinflammation that contributes to the microvascular injury of TTP.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA released from NETs and lysed cells engages cGAS-STING, amplifying the type-I-interferon thromboinflammation of TTP.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling propagates the interferon-driven endothelial activation that aggravates the microvascular injury of TTP.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA) signaling in platelets and endothelium reinforces the activated, procoagulant phenotype that sustains the microthrombi of TTP.
 
 ---
 

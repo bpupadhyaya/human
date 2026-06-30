@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/stat1
     relation: connects-to
     note: "IFN-STAT1 signalling shapes the antitumour immune response and immune-evasion balance of thyroid cancer."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "CDK4/6 acting on the cyclin-D1-RB1 axis (both mapped) drives the cell-cycle entry that sustains proliferation in thyroid cancer."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "PI3K-AKT-mediated FOXO inactivation removes a pro-apoptotic, growth-restraining brake, favoring survival in thyroid cancer."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Perforin-delivered cytotoxic granule killing by CD8 T and NK cells mediates immune clearance that thyroid cancer must evade."
 ---
 
 # Thyroid Cancer
@@ -591,6 +600,9 @@ Calcitonin doubling time <6 months → poor prognosis → early systemic therapy
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β mapped) drives EMT and dedifferentiation in the progression toward aggressive and anaplastic thyroid cancer.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING shapes the immune microenvironment of thyroid cancer, relevant to immunotherapy in anaplastic disease.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antitumor immune response and immune-evasion balance of thyroid cancer.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6 acting on the cyclin-D1-RB1 axis (both mapped) drives the cell-cycle entry that sustains proliferation in thyroid cancer.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — PI3K-AKT-mediated FOXO inactivation removes a pro-apoptotic, growth-restraining brake, favoring survival in thyroid cancer.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-delivered cytotoxic granule killing by CD8 T and NK cells mediates immune clearance that thyroid cancer must evade.
 
 [^schlumberger-2015-lenvatinib]: Schlumberger M, Tahara M, Wirth LJ, et al. Lenvatinib versus placebo in radioiodine-refractory differentiated thyroid cancer. *N Engl J Med.* 2015;372(7):621-630. [doi:10.1056/NEJMoa1406470](https://doi.org/10.1056/NEJMoa1406470) · [PubMed 25671254](https://pubmed.ncbi.nlm.nih.gov/25671254/)
 [^subbiah-2018-atc-dabrafenib]: Subbiah V, Kreitman RJ, Wainberg ZA, et al. Dabrafenib and trametinib treatment in patients with locally advanced or metastatic BRAF V600-mutant anaplastic thyroid cancer. *J Clin Oncol.* 2018;36(1):7-13. [doi:10.1200/JCO.2017.73.6785](https://doi.org/10.1200/JCO.2017.73.6785) · [PubMed 28892432](https://pubmed.ncbi.nlm.nih.gov/28892432/)
