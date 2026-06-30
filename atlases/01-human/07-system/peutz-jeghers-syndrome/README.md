@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/cgas-sting
     relation: connects-to
     note: "Cytosolic DNA sensing through cGAS-STING shapes the immune microenvironment of the tumours that arise in Peutz-Jeghers syndrome."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the antitumour immune surveillance of the gastrointestinal and other neoplasms of Peutz-Jeghers syndrome."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "STK11/LKB1 loss in Peutz-Jeghers syndrome dysregulates the AMPK-FOXO axis (AMPK already mapped) that couples energy stress to growth control."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "CDK4/6-cyclin-D activity (cyclin-D1 and RB1 already mapped) drives the cell-cycle progression of the hamartoma-to-carcinoma sequence in Peutz-Jeghers syndrome."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -571,6 +580,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 is upregulated in the polyp-to-carcinoma progression of Peutz-Jeghers syndrome, modulating adhesion and immune evasion.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6-JAK-STAT3 signaling (IL-6 and STAT3 mapped) provides a tumor-promoting inflammatory input in the gastrointestinal neoplasia of Peutz-Jeghers syndrome.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING shapes the immune microenvironment of the tumors that arise in Peutz-Jeghers syndrome.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antitumor immune surveillance of the gastrointestinal and other neoplasms of Peutz-Jeghers syndrome.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — STK11/LKB1 loss in Peutz-Jeghers syndrome dysregulates the AMPK-FOXO axis (AMPK already mapped) that couples energy stress to growth control.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6-cyclin-D activity (cyclin-D1 and RB1 already mapped) drives the cell-cycle progression of the hamartoma-to-carcinoma sequence in Peutz-Jeghers syndrome.
 
 ---
 
