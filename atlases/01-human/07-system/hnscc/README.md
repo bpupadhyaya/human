@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/galectin-3
     relation: connects-to
     note: "Galectin-3 promotes invasion, nodal metastasis and immune evasion in head and neck squamous cell carcinoma."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the antitumour immune response of head and neck squamous cell carcinoma, central to its checkpoint immunotherapy."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "CDK4/6-cyclin-D activity (cyclin-D1, CDKN2A and RB1 already mapped) drives the cell-cycle dysregulation of head and neck squamous cell carcinoma."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO tumour-suppressor activity, antagonised by PI3K-AKT signalling, is lost in the proliferative progression of head and neck squamous cell carcinoma."
 ---
 
 # HNSCC
@@ -562,6 +571,9 @@ HPV+ oropharyngeal: Node staging based on number (not laterality); HPV-negative 
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6-JAK-STAT3 signaling (IL-6 and STAT3 mapped) drives proliferation and immune evasion in head and neck squamous cell carcinoma.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — Loss of TGF-β-SMAD4 signaling (TGF-β mapped) is a recurrent event promoting progression and the inflammatory microenvironment of HNSCC.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 promotes invasion, nodal metastasis and immune evasion in head and neck squamous cell carcinoma.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antitumor immune response of head and neck squamous cell carcinoma, central to its checkpoint immunotherapy.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6-cyclin-D activity (cyclin-D1, CDKN2A and RB1 already mapped) drives the cell-cycle dysregulation of head and neck squamous cell carcinoma.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO tumor-suppressor activity, antagonized by PI3K-AKT signaling, is lost in the proliferative progression of head and neck squamous cell carcinoma.
 
 [^burtness-2019-keynote048]: Burtness B, Harrington KJ, Greil R, et al. Pembrolizumab alone or with chemotherapy versus cetuximab with chemotherapy for recurrent or metastatic squamous cell carcinoma of the head and neck (KEYNOTE-048). *Lancet.* 2019;394(10212):1915-1928. [doi:10.1016/S0140-6736(19)32591-7](https://doi.org/10.1016/S0140-6736(19)32591-7) · [PubMed 31679945](https://pubmed.ncbi.nlm.nih.gov/31679945/)
 [^vermorken-2008-extreme]: Vermorken JB, Mesia R, Rivera F, et al. Platinum-based chemotherapy plus cetuximab in head and neck cancer. *N Engl J Med.* 2008;359(11):1116-1127. [doi:10.1056/NEJMoa0802656](https://doi.org/10.1056/NEJMoa0802656) · [PubMed 18784101](https://pubmed.ncbi.nlm.nih.gov/18784101/)

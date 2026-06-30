@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/pten
     relation: connects-to
     note: "PTEN restraint of PI3K-AKT-mTOR signalling (AKT, PIK3CA and mTOR mapped) shapes proliferation in HLRCC-associated tumours."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the antitumour immune response of the aggressive FH-deficient renal cancer of HLRCC."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Fumarate accumulation and mitochondrial dysfunction from FH loss release cytosolic DNA that can engage cGAS-STING in the tumours of HLRCC."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "CDK4/6-cyclin-D activity (cyclin-D1, CDKN2A and RB1 already mapped) drives the cell-cycle progression of the HLRCC-associated tumours."
 ---
 
 # Hereditary Leiomyomatosis and Renal Cell Carcinoma
@@ -579,6 +588,9 @@ Cutaneous:
 - `connects-to` → **[EPAS1](../../03-molecular/epas1/README.md)** — Fumarate accumulation inhibits prolyl hydroxylases (EGLN1 mapped) and stabilizes HIF-2α (EPAS1), the pseudohypoxic driver of the renal cancers of HLRCC.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 modulates survival and the microenvironment of the aggressive type-2 papillary renal cancers of HLRCC.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN restraint of PI3K-AKT-mTOR signaling (AKT, PIK3CA and mTOR mapped) shapes proliferation in HLRCC-associated tumors.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antitumor immune response of the aggressive FH-deficient renal cancer of HLRCC.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Fumarate accumulation and mitochondrial dysfunction from FH loss release cytosolic DNA that can engage cGAS-STING in the tumors of HLRCC.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6-cyclin-D activity (cyclin-D1, CDKN2A and RB1 already mapped) drives the cell-cycle progression of the HLRCC-associated tumors.
 
 [^tomlinson-2002-fh]: Tomlinson IP, Alam NA, Rowan AJ, et al. Germline mutations in FH predispose to dominantly inherited uterine fibroids, skin leiomyomata and papillary renal cell cancer. *Nat Genet.* 2002;30(4):406-410. [doi:10.1038/ng849](https://doi.org/10.1038/ng849) · [PubMed 11865300](https://pubmed.ncbi.nlm.nih.gov/11865300/)
 [^linehan-2013-fh-review]: Linehan WM, Rouault TA. Molecular pathways: fumarate hydratase-deficient kidney cancer — targeting the Warburg effect in cancer. *Clin Cancer Res.* 2013;19(13):3345-3352. [doi:10.1158/1078-0432.CCR-13-0304](https://doi.org/10.1158/1078-0432.CCR-13-0304) · [PubMed 23836472](https://pubmed.ncbi.nlm.nih.gov/23836472/)
