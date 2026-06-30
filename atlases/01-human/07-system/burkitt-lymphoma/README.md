@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/smad4
     relation: connects-to
     note: "TGF-β-SMAD signalling normally restrains B-cell proliferation, a brake overridden by the MYC translocation of Burkitt lymphoma."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β regulates MYC phosphorylation and turnover (MYC already mapped) and the survival signaling of Burkitt lymphoma cells."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins from infiltrating myeloid cells shape the inflammatory microenvironment of Burkitt lymphoma."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "NOTCH signaling, recurrently mutated in a subset of Burkitt lymphoma, contributes to its pathogenesis."
 ---
 
 # Burkitt Lymphoma
@@ -594,6 +603,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6/IL-10-STAT3 signaling supports the survival of Burkitt lymphoma cells, exploited by the Epstein-Barr-virus-associated subtype.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antiviral and antitumor immune response to the Epstein-Barr-virus-driven Burkitt lymphoma.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling normally restrains B-cell proliferation, a brake overridden by the MYC translocation of Burkitt lymphoma.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β regulates MYC phosphorylation and turnover (MYC already mapped) and the survival signaling of Burkitt lymphoma cells.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins from infiltrating myeloid cells shape the inflammatory microenvironment of Burkitt lymphoma.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH signaling, recurrently mutated in a subset of Burkitt lymphoma, contributes to its pathogenesis.
 
 ---
 
