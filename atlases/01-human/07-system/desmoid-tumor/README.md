@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/ezh2
     relation: connects-to
     note: "EZH2-mediated polycomb repression contributes to the epigenetic programme sustaining the proliferative myofibroblast phenotype of desmoid fibromatosis."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-kinase signaling downstream of PDGFR and KIT (PDGF and KIT already mapped) drives the proliferative and migratory signaling of desmoid fibromatosis."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins shape the inflammatory stroma of the locally aggressive desmoid fibromatosis."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Perforin-mediated cytotoxic immunosurveillance is an immune axis relevant to the locally invasive desmoid fibromatosis."
 ---
 
 # Desmoid Tumor
@@ -593,6 +602,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the immune microenvironment of the locally aggressive but non-metastasizing desmoid fibromatosis.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors integrate the survival and metabolic signaling of the Wnt-driven myofibroblasts of desmoid fibromatosis.
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — EZH2-mediated polycomb repression contributes to the epigenetic program sustaining the proliferative myofibroblast phenotype of desmoid fibromatosis.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-kinase signaling downstream of PDGFR and KIT (PDGF and KIT already mapped) drives the proliferative and migratory signaling of desmoid fibromatosis.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins shape the inflammatory stroma of the locally aggressive desmoid fibromatosis.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated cytotoxic immunosurveillance is an immune axis relevant to the locally invasive desmoid fibromatosis.
 
 ---
 

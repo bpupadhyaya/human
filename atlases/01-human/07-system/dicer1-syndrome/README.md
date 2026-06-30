@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/foxo
     relation: connects-to
     note: "FOXO transcription factors integrate the metabolic and oxidative stress of the proliferating cells of DICER1-syndrome tumours, downstream of the disrupted miRNA programme."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "CDK4/6-cyclin-D-RB axis (cyclin-D1 and RB1 already mapped) drives the proliferation of DICER1-syndrome tumors."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis in DICER1-syndrome tumors."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Perforin-mediated cytotoxic immunosurveillance is the immune clearance that the multiple DICER1-associated tumors must evade."
 ---
 
 # DICER1 Syndrome
@@ -574,6 +583,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antitumor immune surveillance of the diverse neoplasms that arise in DICER1 syndrome.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING modulates the immune microenvironment of the DICER1-driven tumors.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors integrate the metabolic and oxidative stress of the proliferating cells of DICER1-syndrome tumors, downstream of the disrupted miRNA program.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6-cyclin-D-RB axis (cyclin-D1 and RB1 already mapped) drives the proliferation of DICER1-syndrome tumors.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis in DICER1-syndrome tumors.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated cytotoxic immunosurveillance is the immune clearance that the multiple DICER1-associated tumors must evade.
 
 ---
 
