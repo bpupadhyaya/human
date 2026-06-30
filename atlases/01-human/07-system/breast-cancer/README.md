@@ -352,6 +352,15 @@ cross_links:
   - target: 01-human/03-molecular/ezh2
     relation: connects-to
     note: "EZH2-mediated polycomb repression silences tumour-suppressor genes and contributes to the epigenetic dysregulation and aggressiveness of breast cancer."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "PI3K-AKT-driven FOXO inactivation (PTEN, AKT, and PIK3CA already mapped) removes a tumor-suppressive, pro-apoptotic brake in breast cancer."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Perforin-delivered cytotoxic killing by CD8 T and NK cells mediates the immune clearance that breast cancer, especially the triple-negative subtype, must evade."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins from myeloid-derived suppressor cells promote the pre-metastatic niche and immunosuppression of breast cancer."
 ---
 
 # Breast Cancer
@@ -569,6 +578,9 @@ cross_links:
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 supports immune evasion and the metastatic colonization that drives mortality in breast cancer.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antitumor immune response of breast cancer, particularly the immunotherapy-relevant triple-negative subtype.
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — EZH2-mediated polycomb repression silences tumor-suppressor genes and contributes to the epigenetic dysregulation and aggressiveness of breast cancer.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — PI3K-AKT-driven FOXO inactivation (PTEN, AKT, and PIK3CA already mapped) removes a tumor-suppressive, pro-apoptotic brake in breast cancer.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-delivered cytotoxic killing by CD8 T and NK cells mediates the immune clearance that breast cancer, especially the triple-negative subtype, must evade.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins from myeloid-derived suppressor cells promote the pre-metastatic niche and immunosuppression of breast cancer.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

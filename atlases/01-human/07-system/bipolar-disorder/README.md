@@ -355,6 +355,15 @@ cross_links:
   - target: 01-human/03-molecular/stat1
     relation: connects-to
     note: "IFN-STAT1 signalling shapes the interferon-associated inflammatory component reported in mood episodes of bipolar disorder."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO downstream of the PI3K-AKT-GSK-3β axis (AKT, PIK3CA, and the lithium target GSK-3β already mapped) regulates neuronal resilience and oxidative-stress handling implicated in bipolar disorder."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins reflect the peripheral myeloid inflammatory activation linked to mood episodes in bipolar disorder."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "HIF-1α-linked mitochondrial and metabolic dysfunction is implicated in the bioenergetic dysregulation of bipolar disorder."
 ---
 
 # Bipolar Disorder
@@ -597,6 +606,9 @@ During bipolar depression (often longer and more disabling than mania):
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling (JAK1/2 already mapped) transduces the inflammatory tone implicated in the neuroprogression of bipolar disorder.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Mitochondrial dysfunction in bipolar disorder releases cytosolic DNA that can engage cGAS-STING, linking bioenergetic stress to its neuroinflammation.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the interferon-associated inflammatory component reported in mood episodes of bipolar disorder.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO downstream of the PI3K-AKT-GSK-3β axis (AKT, PIK3CA, and the lithium target GSK-3β already mapped) regulates neuronal resilience and oxidative-stress handling implicated in bipolar disorder.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins reflect the peripheral myeloid inflammatory activation linked to mood episodes in bipolar disorder.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α-linked mitochondrial and metabolic dysfunction is implicated in the bioenergetic dysregulation of bipolar disorder.
 
 [^grande-2016-bipolar-review]: Grande I, Berk M, Birmaher B, Vieta E. Bipolar disorder. *Lancet.* 2016;387(10027):1561-1572. [doi:10.1016/S0140-6736(15)00241-X](https://doi.org/10.1016/S0140-6736(15)00241-X) · [PubMed 26388529](https://pubmed.ncbi.nlm.nih.gov/26388529/)
 [^geddes-2013-bipolar-treatment]: Geddes JR, Miklowitz DJ. Treatment of bipolar disorder. *Lancet.* 2013;381(9878):1672-1682. [doi:10.1016/S0140-6736(13)60857-0](https://doi.org/10.1016/S0140-6736(13)60857-0) · [PubMed 23663953](https://pubmed.ncbi.nlm.nih.gov/23663953/)
