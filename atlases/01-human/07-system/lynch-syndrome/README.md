@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/pten
     relation: connects-to
     note: "Loss of PTEN restraint on PI3K-AKT-mTOR signalling (AKT, PIK3CA and mTOR mapped) cooperates with mismatch-repair deficiency in Lynch-syndrome tumorigenesis."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "The high neoantigen load of mismatch-repair-deficient Lynch tumours drives IFN-STAT1 signalling, underlying their marked responsiveness to checkpoint immunotherapy."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "CDK4/6-cyclin-D activity (CDKN2A and RB1 already mapped) drives the cell-cycle progression of the colorectal and endometrial cancers of Lynch syndrome."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO tumour-suppressor activity, antagonised by PI3K-AKT signalling, is lost in the malignant progression of Lynch-syndrome tumours."
 ---
 
 # Lynch Syndrome
@@ -587,6 +596,9 @@ MSI-H stage II CRC: adjuvant 5-FU/leucovorin does NOT improve OS (may be harmful
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — MMR-deficient tumors frequently acquire TGFBR2 frameshift mutations that cripple TGF-β-SMAD signaling (TGF-β mapped), removing a growth-suppressive brake in Lynch-syndrome cancers.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 modulates tumor-cell adhesion and the immune microenvironment of the colorectal and endometrial cancers of Lynch syndrome.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — Loss of PTEN restraint on PI3K-AKT-mTOR signaling (AKT, PIK3CA and mTOR mapped) cooperates with mismatch-repair deficiency in Lynch-syndrome tumorigenesis.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — The high neoantigen load of mismatch-repair-deficient Lynch tumors drives IFN-STAT1 signaling, underlying their marked responsiveness to checkpoint immunotherapy.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6-cyclin-D activity (CDKN2A and RB1 already mapped) drives the cell-cycle progression of the colorectal and endometrial cancers of Lynch syndrome.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO tumor-suppressor activity, antagonized by PI3K-AKT signaling, is lost in the malignant progression of Lynch-syndrome tumors.
 
 [^bonadona-2011-lynch-risks]: Bonadona V, Bonaïti B, Olschwang S, et al. Cancer risks associated with germline mutations in MLH1, MSH2, and MSH6 genes in Lynch syndrome. *JAMA.* 2011;305(22):2304-2310. [doi:10.1001/jama.2011.743](https://doi.org/10.1001/jama.2011.743) · [PubMed 21642683](https://pubmed.ncbi.nlm.nih.gov/21642683/)
 [^lynch-2015-lynch-review]: Lynch HT, Snyder CL, Shaw TG, et al. Milestones of Lynch syndrome: 1895-2015. *Nat Rev Cancer.* 2015;15(3):181-194. [doi:10.1038/nrc3878](https://doi.org/10.1038/nrc3878) · [PubMed 25673086](https://pubmed.ncbi.nlm.nih.gov/25673086/)

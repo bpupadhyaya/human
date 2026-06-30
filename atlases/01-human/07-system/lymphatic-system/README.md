@@ -338,6 +338,15 @@ cross_links:
   - target: 01-human/03-molecular/jak1-2
     relation: connects-to
     note: "JAK-STAT cytokine signalling coordinates the lymphocyte differentiation and effector responses orchestrated within the lymphatic organs."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "STAT3 (JAK1/2 already mapped) programs the T-follicular-helper and Th17 differentiation and germinal-centre responses of the lymphatic organs."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling drives the interferon-programmed antiviral and antitumour lymphocyte responses coordinated within the lymphatic system."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 modulates lymphocyte apoptosis, lymphangiogenesis and the immune regulation that occurs within the lymphatic organs."
 ---
 
 # Lymphatic System
@@ -554,6 +563,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling downstream of VEGFR3 (VEGF mapped) drives lymphatic-endothelial proliferation and lymphangiogenesis and supports lymphocyte survival in lymphoid organs.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR governs lymphatic-endothelial growth — its inhibition (sirolimus) treats lymphatic malformations — and shapes the metabolism of lymphocytes trafficking through the system.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK-STAT cytokine signaling coordinates the lymphocyte differentiation and effector responses orchestrated within the lymphatic organs.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 (JAK1/2 already mapped) programs the T-follicular-helper and Th17 differentiation and germinal-center responses of the lymphatic organs.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling drives the interferon-programmed antiviral and antitumor lymphocyte responses coordinated within the lymphatic system.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 modulates lymphocyte apoptosis, lymphangiogenesis and the immune regulation that occurs within the lymphatic organs.
 
 ## Pathology
 
