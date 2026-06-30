@@ -346,6 +346,15 @@ cross_links:
   - target: 01-human/03-molecular/smad4
     relation: connects-to
     note: "TGF-β-SMAD signalling (TGF-β mapped) modulates the regulatory-T-cell tolerance whose impairment permits the anti-desmoglein autoimmunity of pemphigus vulgaris."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-γ-STAT1 signalling shapes the Th1 component of the autoimmune response that drives the anti-desmoglein-3 antibody production of pemphigus vulgaris."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA released by acantholytic keratinocyte injury can engage cGAS-STING, amplifying the inflammation of pemphigus vulgaris lesions."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors modulate the keratinocyte survival and apoptosis balance perturbed by the desmoglein-3-directed signalling of pemphigus vulgaris."
 ---
 
 # Pemphigus Vulgaris
@@ -599,6 +608,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — The mTOR-regulated metabolic program supports the autoreactive B-cell and plasmablast expansion producing anti-desmoglein-3 antibodies in pemphigus vulgaris.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 modulates the cutaneous inflammation and immune dysregulation of pemphigus vulgaris.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β mapped) modulates the regulatory-T-cell tolerance whose impairment permits the anti-desmoglein autoimmunity of pemphigus vulgaris.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-γ-STAT1 signaling shapes the Th1 component of the autoimmune response that drives the anti-desmoglein-3 antibody production of pemphigus vulgaris.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA released by acantholytic keratinocyte injury can engage cGAS-STING, amplifying the inflammation of pemphigus vulgaris lesions.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors modulate the keratinocyte survival and apoptosis balance perturbed by the desmoglein-3-directed signaling of pemphigus vulgaris.
 
 ---
 
