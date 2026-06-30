@@ -338,6 +338,15 @@ cross_links:
   - target: 01-human/03-molecular/jak1-2
     relation: connects-to
     note: "Prolactin and growth hormone signal through JAK-STAT (prolactin and GH mapped), a core endocrine transduction in reproductive physiology and lactation."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "STAT3 (JAK1/2 already mapped) transduces gonadal cytokine and hormone signals governing ovarian, testicular and uterine function in the reproductive system."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 contributes to the immune tolerance and tissue remodelling of the maternal-fetal interface and reproductive tissues."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the antimicrobial and immune defence of the reproductive tract, balancing protection against tolerance."
 ---
 
 # Reproductive System
@@ -560,6 +569,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling governs oocyte and follicle survival and the Sertoli-cell support of spermatogenesis in the reproductive system.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — Activin/TGF-β-SMAD signaling (activin-A and TGF-β mapped) regulates FSH secretion, folliculogenesis and gonadal development.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Prolactin and growth hormone signal through JAK-STAT (prolactin and GH mapped), a core endocrine transduction in reproductive physiology and lactation.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 (JAK1/2 already mapped) transduces gonadal cytokine and hormone signals governing ovarian, testicular and uterine function in the reproductive system.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 contributes to the immune tolerance and tissue remodeling of the maternal-fetal interface and reproductive tissues.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antimicrobial and immune defense of the reproductive tract, balancing protection against tolerance.
 
 ## Pathology
 
