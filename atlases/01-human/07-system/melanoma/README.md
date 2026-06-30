@@ -346,6 +346,15 @@ cross_links:
   - target: 01-human/03-molecular/stat1
     relation: connects-to
     note: "IFN-γ-STAT1 signalling (IFN-γ mapped) shapes both the antitumour immune response and the adaptive immune resistance of melanoma to checkpoint therapy."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β regulation of the Wnt/β-catenin axis and of MITF shapes the proliferative-versus-invasive phenotype switch of melanoma."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors, restrained by the BRAF-MAPK and PI3K-AKT axes, regulate the oxidative-stress balance and survival of melanoma cells."
+  - target: 01-human/03-molecular/yap1
+    relation: connects-to
+    note: "YAP1 activity drives the invasive, drug-tolerant phenotype and contributes to BRAF/MEK-inhibitor resistance in melanoma."
 ---
 
 # Melanoma
@@ -545,6 +554,9 @@ cross_links:
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 promotes melanoma invasion, metastasis and immune evasion.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β mapped) drives immunosuppression and the invasive/metastatic phenotype switch in melanoma.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-γ-STAT1 signaling (IFN-γ mapped) shapes both the antitumor immune response and the adaptive immune resistance of melanoma to checkpoint therapy.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β regulation of the Wnt/β-catenin axis and of MITF shapes the proliferative-versus-invasive phenotype switch of melanoma.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors, restrained by the BRAF-MAPK and PI3K-AKT axes, regulate the oxidative-stress balance and survival of melanoma cells.
+- `connects-to` → **[YAP1](../../03-molecular/yap1/README.md)** — YAP1 activity drives the invasive, drug-tolerant phenotype and contributes to BRAF/MEK-inhibitor resistance in melanoma.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
