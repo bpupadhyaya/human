@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "Wnt/β-catenin signalling contributes to cholangiocyte transformation and the progression of cholangiocarcinoma."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the antitumour immune response of cholangiocarcinoma, relevant to its limited checkpoint-immunotherapy responsiveness."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "EZH2-mediated polycomb repression cooperates with the IDH mutations (IDH1/IDH2 already mapped) in the epigenetic dysregulation of cholangiocarcinoma."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "CDK4/6-cyclin-D activity drives the cell-cycle progression of cholangiocarcinoma, often alongside CDKN2A loss."
 ---
 
 # Cholangiocarcinoma
@@ -544,6 +553,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 promotes the desmoplastic stroma and immune evasion of cholangiocarcinoma and serves as a marker of biliary malignancy.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — Loss of PTEN restraint on PI3K-AKT-mTOR signaling (AKT, PIK3CA and mTOR mapped) drives proliferation and survival in cholangiocarcinoma.
 - `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Wnt/β-catenin signaling contributes to cholangiocyte transformation and the progression of cholangiocarcinoma.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antitumor immune response of cholangiocarcinoma, relevant to its limited checkpoint-immunotherapy responsiveness.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — EZH2-mediated polycomb repression cooperates with the IDH mutations (IDH1/IDH2 already mapped) in the epigenetic dysregulation of cholangiocarcinoma.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6-cyclin-D activity drives the cell-cycle progression of cholangiocarcinoma, often alongside CDKN2A loss.
 
 ---
 

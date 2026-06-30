@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/cyclin-d1
     relation: connects-to
     note: "Cyclin-D-CDK4/6 activity (CDKN2A/p16, RB1 and E2F1 mapped) drives the cell-cycle dysregulation that HPV E7 amplifies in cervical cancer."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling (type-I interferon already mapped) underlies the antiviral and antitumour immune response to the HPV-driven cervical cancer."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "HPV oncoproteins disrupt FOXO tumour-suppressor function, removing a brake on proliferation and survival in cervical cancer."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "PDGF signalling drives the stromal and angiogenic responses that support the invasive progression of cervical cancer."
 ---
 
 # Cervical Cancer
@@ -570,6 +579,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β mapped) shifts from tumor suppression to promotion of invasion and EMT in cervical carcinogenesis.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 modulates apoptosis resistance and the immune microenvironment of cervical cancer.
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cyclin-D-CDK4/6 activity (CDKN2A/p16, RB1 and E2F1 mapped) drives the cell-cycle dysregulation that HPV E7 amplifies in cervical cancer.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling (type-I interferon already mapped) underlies the antiviral and antitumor immune response to the HPV-driven cervical cancer.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — HPV oncoproteins disrupt FOXO tumor-suppressor function, removing a brake on proliferation and survival in cervical cancer.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — PDGF signaling drives the stromal and angiogenic responses that support the invasive progression of cervical cancer.
 
 ---
 
