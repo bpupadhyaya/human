@@ -348,6 +348,15 @@ cross_links:
   - target: 01-human/03-molecular/smad4
     relation: connects-to
     note: "TGF-β-SMAD signalling modulates the cerebral vascular and glial responses that shape the leukodystrophy of Aicardi-Goutières syndrome."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO regulates neuronal and glial oxidative-stress responses to the chronic type-I interferon milieu of Aicardi-Goutières syndrome."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "HIF-1α responses in the inflamed, calcifying CNS tissue contribute to the neurovascular pathology of Aicardi-Goutières syndrome."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Complement activation through C5 amplifies the neuroinflammatory tissue damage of Aicardi-Goutières syndrome (complement C3 already mapped)."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -552,6 +561,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — PDGF signaling in pericytes and vascular smooth muscle contributes to the cerebral microangiopathy and intracranial calcification characteristic of Aicardi-Goutières syndrome.
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β signaling in the developing brain shapes the neurodevelopmental trajectory disrupted by the chronic interferon toxicity of Aicardi-Goutières syndrome.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling modulates the cerebral vascular and glial responses that shape the leukodystrophy of Aicardi-Goutières syndrome.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO regulates neuronal and glial oxidative-stress responses to the chronic type-I interferon milieu of Aicardi-Goutières syndrome.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α responses in the inflamed, calcifying CNS tissue contribute to the neurovascular pathology of Aicardi-Goutières syndrome.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Complement activation through C5 amplifies the neuroinflammatory tissue damage of Aicardi-Goutières syndrome (complement C3 already mapped).
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
