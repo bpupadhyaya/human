@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/cgas-sting
     relation: connects-to
     note: "Cytosolic DNA sensing through cGAS-STING links the genomic instability of CLL to its inflammatory and immune microenvironment."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the antileukemic immune response and immune-evasion balance of chronic lymphocytic leukemia."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling normally restrains B-cell proliferation, a brake that the CLL clone evades within its supportive microenvironment."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "CDK4/6-cyclin-D activity (cyclin-D1 already mapped) drives the proliferative-centre expansion of chronic lymphocytic leukemia."
 ---
 
 # CLL
@@ -560,6 +569,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β within the lymph-node and marrow microenvironment modulates CLL-cell survival and the immune suppression characteristic of the disease.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 in the CLL microenvironment supports leukemic B-cell survival and stromal interactions.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING links the genomic instability of CLL to its inflammatory and immune microenvironment.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antileukemic immune response and immune-evasion balance of chronic lymphocytic leukemia.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling normally restrains B-cell proliferation, a brake that the CLL clone evades within its supportive microenvironment.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6-cyclin-D activity (cyclin-D1 already mapped) drives the proliferative-centre expansion of chronic lymphocytic leukemia.
 
 ---
 
