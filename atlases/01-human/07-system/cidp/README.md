@@ -348,6 +348,15 @@ cross_links:
   - target: 01-human/03-molecular/galectin-3
     relation: connects-to
     note: "Macrophage galectin-3 participates in the macrophage-mediated demyelination of peripheral nerves in CIDP."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the Th1/interferon component of the autoimmune attack on peripheral-nerve myelin in CIDP."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA released by nerve and Schwann-cell injury can engage cGAS-STING, amplifying the innate inflammation of CIDP."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling shapes the Schwann-cell remyelination responses that determine recovery in CIDP."
 ---
 
 # CIDP
@@ -600,6 +609,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — BAFF-driven PI3K-AKT signaling (BAFF mapped) sustains the autoreactive B cells producing the pathogenic antibodies of CIDP.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — The mTOR-regulated metabolic program supports the antibody-secreting plasmablast and effector-T-cell responses in CIDP.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Macrophage galectin-3 participates in the macrophage-mediated demyelination of peripheral nerves in CIDP.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the Th1/interferon component of the autoimmune attack on peripheral-nerve myelin in CIDP.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA released by nerve and Schwann-cell injury can engage cGAS-STING, amplifying the innate inflammation of CIDP.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling shapes the Schwann-cell remyelination responses that determine recovery in CIDP.
 
 ---
 

@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/cgas-sting
     relation: connects-to
     note: "Cytosolic DNA sensing through cGAS-STING shapes the immune microenvironment relevant to emerging immunotherapy in chordoma."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the antitumour immune response of chordoma, relevant to its emerging checkpoint immunotherapy."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors integrate the metabolic and oxidative stress of the slow-growing notochordal tumour cells of chordoma."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β signalling modulates the brachyury (TBXT) and Wnt activity (both mapped) that drive the notochordal phenotype of chordoma."
 ---
 
 # Chordoma
@@ -582,6 +591,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 is expressed in the physaliphorous tumor cells of chordoma and contributes to its survival and matrix interactions.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β mapped) modulates the matrix-rich, slowly proliferating phenotype of chordoma.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING shapes the immune microenvironment relevant to emerging immunotherapy in chordoma.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antitumor immune response of chordoma, relevant to its emerging checkpoint immunotherapy.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors integrate the metabolic and oxidative stress of the slow-growing notochordal tumor cells of chordoma.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β signaling modulates the brachyury (TBXT) and Wnt activity (both mapped) that drive the notochordal phenotype of chordoma.
 
 ---
 
