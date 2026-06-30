@@ -355,6 +355,15 @@ cross_links:
   - target: 01-human/03-molecular/erk1-2
     relation: connects-to
     note: "ERK-MAPK signalling transduces the inflammatory cytokine and interferon stimuli that sustain myofibre stress and regeneration in dermatomyositis."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins released by infiltrating myeloid cells amplify the innate inflammation and track disease activity in dermatomyositis."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "HIF-1α in the hypoperfused, capillary-dropout muscle drives the hypoxic-ischemic injury underlying the perifascicular atrophy of dermatomyositis."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO activation drives the atrogene muscle-atrophy program in the stressed myofibers of dermatomyositis."
 ---
 ---
 
@@ -593,6 +602,9 @@ DM carries a ~3–7× elevated cancer risk overall. Anti-TIF1γ (TRIM33) suppres
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 amplifies the perivascular and perifascicular inflammation of the muscle and skin in dermatomyositis.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling drives the fibrosis and dystrophic calcinosis that complicate chronic dermatomyositis.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling transduces the inflammatory cytokine and interferon stimuli that sustain myofiber stress and regeneration in dermatomyositis.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins released by infiltrating myeloid cells amplify the innate inflammation and track disease activity in dermatomyositis.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α in the hypoperfused, capillary-dropout muscle drives the hypoxic-ischemic injury underlying the perifascicular atrophy of dermatomyositis.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO activation drives the atrogene muscle-atrophy program in the stressed myofibers of dermatomyositis.
 
 [^bohan-peter-1975-dm-criteria]: Bohan A, Peter JB. Polymyositis and dermatomyositis. *N Engl J Med.* 1975;292(7):344-347. [doi:10.1056/NEJM197502132920706](https://doi.org/10.1056/NEJM197502132920706) · [PubMed 1090839](https://pubmed.ncbi.nlm.nih.gov/1090839/)
 [^lundberg-2021-iim-classification]: Lundberg IE, et al. 2017 EULAR/ACR classification criteria for adult and juvenile idiopathic inflammatory myopathies. *Arthritis Rheumatol.* 2017;69(12):2271-2282. [doi:10.1002/art.40320](https://doi.org/10.1002/art.40320) · [PubMed 29106061](https://pubmed.ncbi.nlm.nih.gov/29106061/)

@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/akt
     relation: connects-to
     note: "PI3K-AKT signalling in endothelium shapes the vascular dysfunction and procoagulant phenotype underlying the thrombotic complications of COVID-19."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "Calprotectin (S100A8/A9) released by emergency myelopoiesis-derived neutrophils is a key driver and severity biomarker of the hyperinflammatory cytokine storm in severe COVID-19."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO regulates lymphocyte homeostasis and oxidative-stress handling, processes whose dysregulation accompanies the lymphopenia and immune dysfunction of severe COVID-19."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "ERK-MAPK signaling downstream of pattern-recognition and cytokine receptors amplifies the macrophage inflammatory response that fuels severe COVID-19."
 ---
 
 # COVID-19 Disease
@@ -524,6 +533,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 amplifies the macrophage-driven cytokine storm and NET-associated thromboinflammation of severe COVID-19.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling drives the post-COVID pulmonary fibrosis that follows the diffuse alveolar damage of severe COVID-19.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling in endothelium shapes the vascular dysfunction and procoagulant phenotype underlying the thrombotic complications of COVID-19.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Calprotectin (S100A8/A9) released by emergency myelopoiesis-derived neutrophils is a key driver and severity biomarker of the hyperinflammatory cytokine storm in severe COVID-19.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO regulates lymphocyte homeostasis and oxidative-stress handling, processes whose dysregulation accompanies the lymphopenia and immune dysfunction of severe COVID-19.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling downstream of pattern-recognition and cytokine receptors amplifies the macrophage inflammatory response that fuels severe COVID-19.
 
 ## Pathology
 
