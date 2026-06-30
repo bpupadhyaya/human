@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "TGF-β within the lymphoma microenvironment modulates immune evasion and the stromal niche of DLBCL."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the antitumour immune response of DLBCL, relevant to its CAR-T and checkpoint immunotherapy."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA sensing through cGAS-STING modulates the inflammatory and immune microenvironment of diffuse large B-cell lymphoma."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling (TGF-β already mapped) normally restrains B-cell proliferation, a brake overridden in the lymphomagenesis of DLBCL."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -569,6 +578,9 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — B-cell-receptor and RAS signaling converge on ERK1/2 MAPK to drive the proliferation of diffuse large B-cell lymphoma.
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — The RB1-E2F checkpoint (E2F1, CDK4/6 and CDKN2A already mapped) restrains cell-cycle entry, and its disruption removes a brake on DLBCL proliferation.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 from the tumor microenvironment signals through STAT3 (already mapped) to support the survival and proliferation of DLBCL cells.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antitumor immune response of DLBCL, relevant to its CAR-T and checkpoint immunotherapy.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING modulates the inflammatory and immune microenvironment of diffuse large B-cell lymphoma.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β already mapped) normally restrains B-cell proliferation, a brake overridden in the lymphomagenesis of DLBCL.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

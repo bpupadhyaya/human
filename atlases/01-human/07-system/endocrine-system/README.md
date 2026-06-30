@@ -338,6 +338,15 @@ cross_links:
   - target: 01-human/03-molecular/gsk-3b
     relation: connects-to
     note: "GSK-3β, inhibited by insulin-AKT signalling (insulin, insulin-receptor and AKT mapped), couples endocrine signalling to glycogen and metabolic control."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "STAT3 transduces the growth-hormone, leptin and cytokine signals of the endocrine system and drives proliferation in many endocrine tumours."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β/activin-SMAD signalling (activin-A already mapped) provides feedback control of pituitary and gonadal hormone axes across the endocrine system."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 is a marker of malignancy in thyroid and other endocrine tumours and modulates their inflammatory microenvironment."
 ---
 
 # Endocrine System
@@ -602,6 +611,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — AKT is the central kinase transducing insulin and IGF-1 receptor signaling (both already mapped) into the metabolic and growth actions of these hormones throughout the endocrine system.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR integrates hormonal (insulin, IGF-1) and nutrient signals to govern the anabolic growth responses coordinated by the endocrine system.
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK is the cellular energy sensor that counterbalances the insulin/mTOR anabolic axis (both already mapped), integrating the metabolic hormones with cellular energy status.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 transduces the growth-hormone, leptin and cytokine signals of the endocrine system and drives proliferation in many endocrine tumors.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β/activin-SMAD signaling (activin-A already mapped) provides feedback control of pituitary and gonadal hormone axes across the endocrine system.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 is a marker of malignancy in thyroid and other endocrine tumors and modulates their inflammatory microenvironment.
 
 ## Pathology
 
