@@ -352,6 +352,15 @@ cross_links:
   - target: 01-human/03-molecular/smad4
     relation: connects-to
     note: "TGF-β/BMP-SMAD signalling (TGF-β already mapped) governs osteoblast differentiation and the bone-formation arm of remodelling that fails in osteoporosis."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors regulate osteoblast oxidative-stress defense and the osteoblast-osteoclast balance whose decline drives the bone loss of osteoporosis."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signaling modulates osteoclastogenesis and the inflammatory bone resorption of osteoporosis."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA sensing through cGAS-STING links cellular senescence to the inflammaging that promotes age-related bone loss in osteoporosis."
 ---
 
 # Osteoporosis
@@ -571,6 +580,9 @@ All newly diagnosed osteoporosis should be evaluated for secondary causes: CBC (
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 modulates osteoclast and osteoblast activity, influencing the bone-remodeling imbalance of osteoporosis.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling (JAK1/2 already mapped) drives the osteoclastogenesis underlying the bone loss of inflammatory and postmenopausal osteoporosis.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β/BMP-SMAD signaling (TGF-β already mapped) governs osteoblast differentiation and the bone-formation arm of remodeling that fails in osteoporosis.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors regulate osteoblast oxidative-stress defense and the osteoblast-osteoclast balance whose decline drives the bone loss of osteoporosis.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling modulates osteoclastogenesis and the inflammatory bone resorption of osteoporosis.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING links cellular senescence to the inflammaging that promotes age-related bone loss in osteoporosis.
 
 [^kanis-2019-who-osteoporosis]: Kanis JA, Cooper C, Rizzoli R, Reginster JY. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. *Osteoporos Int.* 2019;30(1):3-44. [doi:10.1007/s00198-018-4704-5](https://doi.org/10.1007/s00198-018-4704-5) · [PubMed 30324412](https://pubmed.ncbi.nlm.nih.gov/30324412/)
 [^cosman-2016-romosozumab]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)

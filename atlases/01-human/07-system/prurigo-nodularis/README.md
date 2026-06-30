@@ -346,6 +346,15 @@ cross_links:
   - target: 01-human/03-molecular/pik3ca
     relation: connects-to
     note: "PI3K-AKT signalling (AKT already mapped) drives the keratinocyte and fibroblast proliferation that builds the hyperkeratotic nodules of prurigo nodularis."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO downstream of PI3K-AKT signaling (AKT and PIK3CA already mapped) regulates the keratinocyte and sensory-neuron stress responses relevant to the chronic itch-scratch cycle of prurigo nodularis."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins amplify the innate inflammation and epidermal activation of the lichenified nodules of prurigo nodularis."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "HIF-1α in the chronically scratched, hyperplastic skin contributes to the angiogenesis and tissue remodeling of prurigo nodularis."
 ---
 
 # Prurigo Nodularis
@@ -538,6 +547,9 @@ PN affects approximately **72,000 patients** in the US; true prevalence is likel
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling contributes to the mixed Th1/Th2/Th17 immune milieu of the chronic itch-scratch lesions of prurigo nodularis.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA released by the repeated scratch-induced keratinocyte damage can engage cGAS-STING, amplifying the inflammation of prurigo nodularis.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K-AKT signaling (AKT already mapped) drives the keratinocyte and fibroblast proliferation that builds the hyperkeratotic nodules of prurigo nodularis.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO downstream of PI3K-AKT signaling (AKT and PIK3CA already mapped) regulates the keratinocyte and sensory-neuron stress responses relevant to the chronic itch-scratch cycle of prurigo nodularis.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins amplify the innate inflammation and epidermal activation of the lichenified nodules of prurigo nodularis.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α in the chronically scratched, hyperplastic skin contributes to the angiogenesis and tissue remodeling of prurigo nodularis.
 
 [^stander-2020-nemolizumab-pn]: Ständer S, Yosipovitch G, Legat FJ, et al. Trial of nemolizumab in moderate-to-severe prurigo nodularis. *N Engl J Med.* 2020;382(8):706-716. [doi:10.1056/NEJMoa1908316](https://doi.org/10.1056/NEJMoa1908316) · [PubMed 32053299](https://pubmed.ncbi.nlm.nih.gov/32053299/)
 [^briggs-2022-dupilumab-pn-liberty]: Briggs JN, Cho YY, Khanna R, et al. Dupilumab for prurigo nodularis: the LIBERTY-PN PRIME and PRIME2 trials. *N Engl J Med.* 2022;387(18):1683-1693. [doi:10.1056/NEJMoa2205093](https://doi.org/10.1056/NEJMoa2205093) · [PubMed 36300905](https://pubmed.ncbi.nlm.nih.gov/36300905/)
