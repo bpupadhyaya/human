@@ -341,6 +341,15 @@ cross_links:
   - target: 01-human/03-molecular/galectin-3
     relation: connects-to
     note: "Galectin-3 modulates chondrocyte and osteoclast biology and the inflammatory matrix remodelling of the musculoskeletal system."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors regulate the osteoblast-osteoclast balance, the atrogene muscle-atrophy program, and oxidative-stress defense across the musculoskeletal system."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "ERK-MAPK signaling downstream of growth factors (FGFR and IGF-1 already mapped) drives osteoblast and myocyte proliferation and differentiation in the musculoskeletal system."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signaling modulates osteoclastogenesis and the inflammatory regulation of bone and muscle in the musculoskeletal system."
 ---
 
 # Musculoskeletal System
@@ -585,6 +594,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β/BMP-SMAD signaling (TGF-β already mapped) governs bone and cartilage formation and the matrix homeostasis of the musculoskeletal system.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling drives the muscle wasting and bone remodeling shared across catabolic and inflammatory disorders of the musculoskeletal system.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 modulates chondrocyte and osteoclast biology and the inflammatory matrix remodeling of the musculoskeletal system.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors regulate the osteoblast-osteoclast balance, the atrogene muscle-atrophy program, and oxidative-stress defense across the musculoskeletal system.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling downstream of growth factors (FGFR and IGF-1 already mapped) drives osteoblast and myocyte proliferation and differentiation in the musculoskeletal system.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling modulates osteoclastogenesis and the inflammatory regulation of bone and muscle in the musculoskeletal system.
 
 ## Pathology
 

@@ -343,6 +343,15 @@ cross_links:
   - target: 01-human/03-molecular/cgas-sting
     relation: connects-to
     note: "Cytosolic DNA sensing through cGAS-STING amplifies the chronic inflammatory bone-marrow microenvironment that drives the fibrosis of myelofibrosis."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors regulate hematopoietic stem-cell quiescence and oxidative-stress handling disrupted in the clonal myeloproliferation of myelofibrosis."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β dysregulation contributes to the aberrant megakaryocyte and progenitor signaling that drives the marrow fibrosis of myelofibrosis."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "CDK4/6 cell-cycle activity supports the clonal proliferation of JAK2/CALR/MPL-mutant progenitors in myelofibrosis."
 ---
 
 # Myelofibrosis
@@ -579,6 +588,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 secreted by the clonal megakaryocytes is a key driver of the bone-marrow fibrosis that defines myelofibrosis.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling (type-I interferon already mapped) shapes the inflammatory bone-marrow milieu and contributes to the cytopenias of myelofibrosis.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING amplifies the chronic inflammatory bone-marrow microenvironment that drives the fibrosis of myelofibrosis.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors regulate hematopoietic stem-cell quiescence and oxidative-stress handling disrupted in the clonal myeloproliferation of myelofibrosis.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β dysregulation contributes to the aberrant megakaryocyte and progenitor signaling that drives the marrow fibrosis of myelofibrosis.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6 cell-cycle activity supports the clonal proliferation of JAK2/CALR/MPL-mutant progenitors in myelofibrosis.
 
 ---
 
