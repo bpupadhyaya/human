@@ -346,6 +346,15 @@ cross_links:
   - target: 01-human/03-molecular/stat1
     relation: connects-to
     note: "IFN-γ-STAT1 signalling (IFN-γ mapped) drives the Th1 and macrophage activation contributing to rheumatoid synovitis."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "DNA within the neutrophil extracellular traps that source citrullinated autoantigens engages cGAS-STING, amplifying the autoimmune inflammation of rheumatoid arthritis."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling governs the regulatory-T-cell balance and the synovial fibrosis of rheumatoid arthritis."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Perforin-mediated CD8 cytotoxicity contributes to the synovial tissue injury of rheumatoid arthritis."
 ---
 
 # Rheumatoid Arthritis
@@ -597,6 +606,9 @@ RA patients have:
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling drives the aggressive fibroblast-like synoviocyte proliferation that builds the invasive pannus of rheumatoid arthritis.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 is highly expressed by rheumatoid synovial fibroblasts, amplifying joint inflammation and serving as a biomarker of disease activity.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-γ-STAT1 signaling (IFN-γ mapped) drives the Th1 and macrophage activation contributing to rheumatoid synovitis.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — DNA within the neutrophil extracellular traps that source citrullinated autoantigens engages cGAS-STING, amplifying the autoimmune inflammation of rheumatoid arthritis.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling governs the regulatory-T-cell balance and the synovial fibrosis of rheumatoid arthritis.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated CD8 cytotoxicity contributes to the synovial tissue injury of rheumatoid arthritis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

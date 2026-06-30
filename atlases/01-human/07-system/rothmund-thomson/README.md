@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/galectin-3
     relation: connects-to
     note: "Galectin-3 modulates survival in the osteosarcomas that arise at high frequency in Rothmund-Thomson syndrome."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "Genomic instability from RECQL4 helicase loss generates cytosolic DNA that engages cGAS-STING (mapped) and IFN-STAT1 signalling, contributing to the inflammatory phenotype of Rothmund-Thomson syndrome."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors integrate the chronic oxidative and replicative stress of the genomically unstable cells of Rothmund-Thomson syndrome."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling shapes the skeletal and connective-tissue abnormalities and the osteosarcoma microenvironment of Rothmund-Thomson syndrome."
 ---
 
 # Rothmund-Thomson Syndrome
@@ -584,6 +593,9 @@ The cardinal features of RTS type II are: (1) **poikiloderma** — the defining 
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — GH/IGF-1 signaling through PI3K-AKT-mTOR (GH, IGF-1 and AKT mapped) governs the growth axis dysregulated in the growth deficiency of Rothmund-Thomson syndrome.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN restraint of PI3K-AKT signaling (AKT mapped) is a tumor-suppressor counterweight to the proliferative drive in the cancer-prone cells of Rothmund-Thomson syndrome.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 modulates survival in the osteosarcomas that arise at high frequency in Rothmund-Thomson syndrome.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — Genomic instability from RECQL4 helicase loss generates cytosolic DNA that engages cGAS-STING (mapped) and IFN-STAT1 signaling, contributing to the inflammatory phenotype of Rothmund-Thomson syndrome.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors integrate the chronic oxidative and replicative stress of the genomically unstable cells of Rothmund-Thomson syndrome.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling shapes the skeletal and connective-tissue abnormalities and the osteosarcoma microenvironment of Rothmund-Thomson syndrome.
 
 [^kitao-1999-recql4-rts]: Kitao S, Shimamoto A, Goto M, et al. Mutations in RECQL4 cause a subset of cases of Rothmund-Thomson syndrome. *Nat Genet.* 1999;22(1):82-84. [doi:10.1038/8788](https://doi.org/10.1038/8788) · [PubMed 10319867](https://pubmed.ncbi.nlm.nih.gov/10319867/)
 [^wang-2003-rts-cancer]: Wang LL, Gannavarapu A, Kozinetz CA, et al. Association between osteosarcoma and deleterious mutations in the RECQL4 gene in Rothmund-Thomson syndrome. *J Natl Cancer Inst.* 2003;95(9):669-674. [doi:10.1093/jnci/95.9.669](https://doi.org/10.1093/jnci/95.9.669) · [PubMed 12734318](https://pubmed.ncbi.nlm.nih.gov/12734318/)
