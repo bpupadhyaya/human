@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/cdk4-6
     relation: connects-to
     note: "CDK4/6-cyclin-D activity (cyclin-D1 and RB1 already mapped) drives the cell-cycle progression downstream of BCR-ABL in chronic myeloid leukemia."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β misregulation in CML blast crisis impairs myeloid differentiation and supports leukemic stem-cell self-renewal."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins shape the inflammatory bone-marrow niche of chronic myeloid leukemia."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "JAK1/2-STAT5 signaling (JAK2 and STAT3 already mapped) is co-opted by BCR-ABL to sustain leukemic survival in chronic myeloid leukemia."
 ---
 
 # Chronic Myeloid Leukemia
@@ -572,6 +581,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling underlies the antileukemic effect of interferon-α, a historic and adjunctive therapy in chronic myeloid leukemia.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING modulates the inflammatory bone-marrow microenvironment of chronic myeloid leukemia.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6-cyclin-D activity (cyclin-D1 and RB1 already mapped) drives the cell-cycle progression downstream of BCR-ABL in chronic myeloid leukemia.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β misregulation in CML blast crisis impairs myeloid differentiation and supports leukemic stem-cell self-renewal.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins shape the inflammatory bone-marrow niche of chronic myeloid leukemia.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK1/2-STAT5 signaling (JAK2 and STAT3 already mapped) is co-opted by BCR-ABL to sustain leukemic survival in chronic myeloid leukemia.
 
 ---
 
