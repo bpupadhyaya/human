@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/cgas-sting
     relation: connects-to
     note: "The genomic instability of MUTYH-deficient base-excision repair generates cytosolic DNA sensed by cGAS-STING, shaping the immune microenvironment of MAP tumours."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "The mutational burden of MUTYH-deficient tumours drives IFN-STAT1 signalling, shaping their antitumour immune response and immunotherapy potential."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors govern the oxidative-stress defences whose failure, with the loss of MUTYH base-excision repair of oxidised guanine, drives the mutagenesis of MUTYH-associated polyposis."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Perforin-mediated CD8 cytotoxicity contributes to the immune surveillance of the neoantigen-rich tumours of MUTYH-associated polyposis."
 ---
 
 # MUTYH-Associated Polyposis
@@ -564,6 +573,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 is upregulated in the colorectal adenoma-to-carcinoma progression of MUTYH-associated polyposis, modulating adhesion and immune evasion.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK kinases transduce the IL-6 signal to STAT3 (IL-6 and STAT3 mapped), a tumor-promoting inflammatory input in MUTYH-associated polyposis.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — The genomic instability of MUTYH-deficient base-excision repair generates cytosolic DNA sensed by cGAS-STING, shaping the immune microenvironment of MAP tumors.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — The mutational burden of MUTYH-deficient tumors drives IFN-STAT1 signaling, shaping their antitumor immune response and immunotherapy potential.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors govern the oxidative-stress defenses whose failure, with the loss of MUTYH base-excision repair of oxidized guanine, drives the mutagenesis of MUTYH-associated polyposis.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated CD8 cytotoxicity contributes to the immune surveillance of the neoantigen-rich tumors of MUTYH-associated polyposis.
 
 ---
 
