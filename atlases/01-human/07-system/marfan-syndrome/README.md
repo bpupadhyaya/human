@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/pten
     relation: connects-to
     note: "PTEN regulation of PI3K-AKT-mTOR signalling (AKT, PIK3CA and mTOR mapped) modulates the vascular-smooth-muscle phenotype in the aortic wall affected by Marfan syndrome."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA sensing through cGAS-STING contributes to the vascular-wall inflammation that accompanies the aortic aneurysm progression of Marfan syndrome."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the immune-cell infiltration of the aortic wall in the aneurysmal disease of Marfan syndrome."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors regulate the oxidative-stress resistance and contractile phenotype of the aortic smooth-muscle cells weakened in Marfan syndrome."
 ---
 
 # Marfan Syndrome
@@ -586,6 +595,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6-JAK-STAT signaling (IL-6 mapped) contributes to the medial inflammation accompanying aortic-wall degeneration in Marfan syndrome.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3-driven inflammatory signaling participates in the vascular-smooth-muscle and inflammatory response of the Marfan aortopathy.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN regulation of PI3K-AKT-mTOR signaling (AKT, PIK3CA and mTOR mapped) modulates the vascular-smooth-muscle phenotype in the aortic wall affected by Marfan syndrome.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING contributes to the vascular-wall inflammation that accompanies the aortic aneurysm progression of Marfan syndrome.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the immune-cell infiltration of the aortic wall in the aneurysmal disease of Marfan syndrome.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors regulate the oxidative-stress resistance and contractile phenotype of the aortic smooth-muscle cells weakened in Marfan syndrome.
 
 ---
 
