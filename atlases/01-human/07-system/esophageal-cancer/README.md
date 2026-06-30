@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/pten
     relation: connects-to
     note: "Loss of PTEN restraint on PI3K-AKT-mTOR signalling (AKT, PIK3CA and mTOR mapped) drives proliferation and survival in oesophageal cancer."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the antitumour immune response of oesophageal cancer, relevant to its checkpoint immunotherapy."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "CDK4/6-cyclin-D activity (cyclin-D1, CDKN2A and RB1 already mapped) drives the cell-cycle progression of oesophageal cancer."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO tumour-suppressor activity, restrained by the PI3K-AKT axis, is lost in the proliferative progression of oesophageal cancer."
 ---
 
 # Esophageal Cancer
@@ -585,6 +594,9 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD4 signaling (TGF-β mapped) is a context-dependent tumor suppressor whose loss promotes progression in esophageal cancer, particularly the Barrett-adenocarcinoma sequence.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 promotes invasion and immune evasion in esophageal cancer.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — Loss of PTEN restraint on PI3K-AKT-mTOR signaling (AKT, PIK3CA and mTOR mapped) drives proliferation and survival in esophageal cancer.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antitumor immune response of esophageal cancer, relevant to its checkpoint immunotherapy.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6-cyclin-D activity (cyclin-D1, CDKN2A and RB1 already mapped) drives the cell-cycle progression of esophageal cancer.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO tumor-suppressor activity, restrained by the PI3K-AKT axis, is lost in the proliferative progression of esophageal cancer.
 
 ---
 
