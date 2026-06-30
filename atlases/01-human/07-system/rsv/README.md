@@ -345,6 +345,15 @@ cross_links:
   - target: 01-human/03-molecular/smad4
     relation: connects-to
     note: "TGF-β-SMAD signalling shapes the airway remodelling and the link between severe infant RSV bronchiolitis and later wheezing and asthma."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO regulates airway epithelial oxidative-stress and survival responses to RSV infection."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins released by recruited neutrophils amplify the airway inflammation and mucus obstruction of severe RSV bronchiolitis."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "ERK-MAPK signaling activated by RSV in airway epithelium promotes mucin production and the inflammatory response of RSV bronchiolitis."
 ---
 
 # RSV
@@ -598,3 +607,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 amplifies the airway inflammation and mucus-associated immunopathology of RSV bronchiolitis in infants.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling transduces the inflammatory cytokine response that contributes to the airway pathology of severe RSV infection.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling shapes the airway remodeling and the link between severe infant RSV bronchiolitis and later wheezing and asthma.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO regulates airway epithelial oxidative-stress and survival responses to RSV infection.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins released by recruited neutrophils amplify the airway inflammation and mucus obstruction of severe RSV bronchiolitis.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling activated by RSV in airway epithelium promotes mucin production and the inflammatory response of RSV bronchiolitis.

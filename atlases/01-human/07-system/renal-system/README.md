@@ -352,6 +352,15 @@ cross_links:
   - target: 01-human/03-molecular/pdgf
     relation: connects-to
     note: "PDGF signalling drives mesangial and interstitial fibroblast proliferation, a core mechanism of the glomerulosclerosis and fibrosis of the renal system."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors regulate podocyte and tubular-cell oxidative-stress defense and metabolic homeostasis across the renal system."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signaling shapes the immune-mediated glomerular and tubulointerstitial inflammation of renal disorders."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "ERK-MAPK signaling downstream of growth factors and angiotensin II (PDGF and angiotensin-II already mapped) drives mesangial and tubular proliferation and fibrosis in the renal system."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -558,6 +567,9 @@ Natriuretic counterpoint:
 - **Connects to:** [STAT3](../../03-molecular/stat3/README.md) — inflammatory fibrosis: IL-6-STAT3 signaling drives tubulointerstitial inflammation and the fibrotic progression shared across chronic kidney diseases.
 - **Connects to:** [cGAS-STING](../../03-molecular/cgas-sting/README.md) — tubular DNA sensing: cytosolic DNA sensing through cGAS-STING links tubular cell injury to the sterile inflammation of acute kidney injury and progressive renal disease.
 - **Connects to:** [PDGF](../../03-molecular/pdgf/README.md) — mesangial proliferation: PDGF signaling drives mesangial and interstitial fibroblast proliferation, a core mechanism of glomerulosclerosis and renal fibrosis.
+- **Connects to:** [FOXO](../../03-molecular/foxo/README.md) — podocyte stress defense: FOXO transcription factors regulate podocyte and tubular-cell oxidative-stress defense and metabolic homeostasis across the renal system.
+- **Connects to:** [STAT1](../../03-molecular/stat1/README.md) — immune renal inflammation: IFN-STAT1 signaling shapes the immune-mediated glomerular and tubulointerstitial inflammation of renal disorders.
+- **Connects to:** [ERK1/2](../../03-molecular/erk1-2/README.md) — proliferation and fibrosis: ERK-MAPK signaling downstream of growth factors and angiotensin II (PDGF and angiotensin-II already mapped) drives mesangial and tubular proliferation and fibrosis in the renal system.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 
