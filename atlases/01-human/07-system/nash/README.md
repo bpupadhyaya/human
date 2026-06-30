@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/ezh2
     relation: connects-to
     note: "EZH2-mediated polycomb repression contributes to the epigenetic dysregulation underlying the fibrotic progression and hepatocarcinogenesis of NASH."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "Hepatic FOXO1 regulates gluconeogenesis and lipid metabolism, and its dysregulation in insulin resistance drives the steatosis and lipotoxicity of NASH."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins released by recruited myeloid cells amplify the lobular inflammation that distinguishes NASH from simple steatosis."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "CDK4/6-driven cell-cycle activity contributes to the hepatocyte proliferation in the progression toward NASH-related hepatocellular carcinoma."
 ---
 
 # NASH
@@ -548,6 +557,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the intrahepatic immune response and the inflammatory progression from steatosis to steatohepatitis in NASH.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling transduces the lipotoxic and growth-factor stimuli that drive hepatocyte stress and the proliferative progression toward hepatocellular carcinoma in NASH.
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — EZH2-mediated polycomb repression contributes to the epigenetic dysregulation underlying the fibrotic progression and hepatocarcinogenesis of NASH.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — Hepatic FOXO1 regulates gluconeogenesis and lipid metabolism, and its dysregulation in insulin resistance drives the steatosis and lipotoxicity of NASH.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins released by recruited myeloid cells amplify the lobular inflammation that distinguishes NASH from simple steatosis.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6-driven cell-cycle activity contributes to the hepatocyte proliferation in the progression toward NASH-related hepatocellular carcinoma.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

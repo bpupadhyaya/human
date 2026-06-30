@@ -330,6 +330,15 @@ cross_links:
   - target: 01-human/03-molecular/gsk-3b
     relation: connects-to
     note: "GSK-3β signalling in dorsal-horn neurons contributes to the synaptic plasticity underlying the central sensitisation of neuropathic pain."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA sensing through cGAS-STING in spinal microglia and macrophages contributes to the neuroinflammation that sustains neuropathic pain."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signaling in spinal microglia drives the neuroinflammatory sensitization that maintains neuropathic pain."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO regulates neuronal oxidative-stress and survival pathways relevant to the maladaptive plasticity of neuropathic pain."
 sources:
   - id: jensen-2011-neuropathic-pain-review
     type: peer-reviewed
@@ -597,6 +606,9 @@ Chronic neuropathic pain carries significant psychological burden:
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 released by activated spinal microglia amplifies the neuroinflammation and central sensitization that sustain chronic neuropathic pain.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — JAK-STAT3 signaling (JAK1/2 already mapped) in spinal glia drives the reactive gliosis that maintains chronic neuropathic pain.
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β signaling in dorsal-horn neurons contributes to the synaptic plasticity underlying the central sensitization of neuropathic pain.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING in spinal microglia and macrophages contributes to the neuroinflammation that sustains neuropathic pain.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling in spinal microglia drives the neuroinflammatory sensitization that maintains neuropathic pain.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO regulates neuronal oxidative-stress and survival pathways relevant to the maladaptive plasticity of neuropathic pain.
 
 [^jensen-2011-neuropathic-pain-review]: Jensen TS, Baron R, Haanpää M, et al. A new definition of neuropathic pain. *Pain.* 2011;152(10):2204-2205. [doi:10.1016/j.pain.2011.06.017](https://doi.org/10.1016/j.pain.2011.06.017) · [PubMed 21764514](https://pubmed.ncbi.nlm.nih.gov/21764514/)
 [^dworkin-2010-neuropathic-pain-treatment]: Dworkin RH, O'Connor AB, Audette J, et al. Recommendations for the pharmacological management of neuropathic pain. *Mayo Clin Proc.* 2010;85(3 Suppl):S3-14. [doi:10.4065/mcp.2009.0649](https://doi.org/10.4065/mcp.2009.0649) · [PubMed 20194146](https://pubmed.ncbi.nlm.nih.gov/20194146/)
