@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/galectin-3
     relation: connects-to
     note: "Galectin-3 modulates the immune-cell activation relevant to the immunodeficiency and cancer surveillance of Bloom syndrome."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6-STAT3 signaling shapes the inflammatory tumor-promoting microenvironment relevant to the cancer predisposition of Bloom syndrome."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Perforin-mediated cytotoxic immunosurveillance is the immune clearance that the genomically unstable, malignancy-prone cells of Bloom syndrome depend on."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β participates in the DNA-damage response and Wnt/β-catenin signaling relevant to the genomic instability and cancer predisposition of Bloom syndrome."
 ---
 
 # Bloom Syndrome
@@ -597,6 +606,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — Genomic instability from BLM-helicase loss generates cytosolic DNA that engages cGAS-STING (mapped) and IFN-STAT1 signaling, contributing to the inflammatory phenotype of Bloom syndrome.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors integrate the chronic oxidative and replicative stress of the genomically unstable cells of Bloom syndrome.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 modulates the immune-cell activation relevant to the immunodeficiency and cancer surveillance of Bloom syndrome.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling shapes the inflammatory tumor-promoting microenvironment relevant to the cancer predisposition of Bloom syndrome.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated cytotoxic immunosurveillance is the immune clearance that the genomically unstable, malignancy-prone cells of Bloom syndrome depend on.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β participates in the DNA-damage response and Wnt/β-catenin signaling relevant to the genomic instability and cancer predisposition of Bloom syndrome.
 
 ---
 

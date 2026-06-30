@@ -351,6 +351,15 @@ cross_links:
   - target: 01-human/03-molecular/cgas-sting
     relation: connects-to
     note: "Cytosolic DNA released during chronic stress can engage cGAS-STING, contributing to the low-grade neuroinflammation associated with bulimia nervosa."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO downstream of insulin-PI3K-AKT signaling (AKT, insulin, and insulin-receptor already mapped) links the metabolic dysregulation to the reward neurocircuitry of bulimia nervosa."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 neuroinflammatory signaling contributes to the inflammatory tone associated with bulimia nervosa."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "ERK-MAPK signaling participates in the reward and stress neuroplasticity of bulimia nervosa."
 ---
 
 # Bulimia Nervosa
@@ -591,6 +600,9 @@ All of the following must be met:
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β signaling in reward and impulse-control circuits shapes the synaptic plasticity underlying the binge-purge cycle of bulimia nervosa.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Hypothalamic leptin-STAT3 signaling (leptin already mapped) couples adiposity signals to the dysregulated satiety control of bulimia nervosa.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA released during chronic stress can engage cGAS-STING, contributing to the low-grade neuroinflammation associated with bulimia nervosa.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO downstream of insulin-PI3K-AKT signaling (AKT, insulin, and insulin-receptor already mapped) links the metabolic dysregulation to the reward neurocircuitry of bulimia nervosa.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 neuroinflammatory signaling contributes to the inflammatory tone associated with bulimia nervosa.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling participates in the reward and stress neuroplasticity of bulimia nervosa.
 
 ## Treatment
 
