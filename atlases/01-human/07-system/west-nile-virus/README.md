@@ -345,6 +345,15 @@ cross_links:
   - target: 01-human/03-molecular/smad4
     relation: connects-to
     note: "TGF-β-SMAD signalling modulates the blood-brain-barrier integrity and the balance between protective and pathological responses in West Nile virus neuroinvasion."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic nucleic-acid sensing through cGAS-STING contributes to the innate antiviral and neuroinflammatory response that restrains West Nile virus."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO regulates neuronal survival and oxidative-stress responses during West Nile virus neuroinvasion."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "HIF-1α responses in infected and inflamed CNS tissue shape the blood-brain-barrier disruption of neuroinvasive West Nile virus."
 ---
 
 # West Nile Virus
@@ -574,3 +583,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 released by activated microglia amplifies the neuroinflammation and blood-brain-barrier disruption of West Nile virus neuroinvasive disease.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling transduces the inflammatory cytokine response that accompanies West Nile virus encephalitis.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling modulates the blood-brain-barrier integrity and the balance between protective and pathological responses in West Nile virus neuroinvasion.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic nucleic-acid sensing through cGAS-STING contributes to the innate antiviral and neuroinflammatory response that restrains West Nile virus.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO regulates neuronal survival and oxidative-stress responses during West Nile virus neuroinvasion.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α responses in infected and inflamed CNS tissue shape the blood-brain-barrier disruption of neuroinvasive West Nile virus.

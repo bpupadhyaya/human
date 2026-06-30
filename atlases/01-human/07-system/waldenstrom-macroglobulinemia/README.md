@@ -343,6 +343,15 @@ cross_links:
   - target: 01-human/03-molecular/stat1
     relation: connects-to
     note: "IFN-STAT1 signalling shapes the immune microenvironment of the bone marrow infiltrated by Waldenström macroglobulinemia."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "BTK and PI3K-AKT signaling (BTK, AKT, and PIK3CA already mapped) inactivates FOXO, supporting survival of the malignant lymphoplasmacytic clone in Waldenström macroglobulinemia."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "CDK4/6 acting on the cyclin-D-RB axis (E2F1 and CDKN2A already mapped) drives the cell-cycle progression of Waldenström macroglobulinemia cells."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signaling shapes the bone-marrow microenvironment and immune tone that support Waldenström macroglobulinemia."
 ---
 
 # Waldenström Macroglobulinemia
@@ -569,6 +578,9 @@ For symptomatic hyperviscosity → removes IgM immediately; does not treat under
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 supports the survival and bone-marrow-niche adhesion of the lymphoplasmacytic clone in Waldenström macroglobulinemia.
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — EZH2-mediated polycomb repression contributes to the epigenetic dysregulation of the malignant clone in Waldenström macroglobulinemia.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the immune microenvironment of the bone marrow infiltrated by Waldenström macroglobulinemia.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — BTK and PI3K-AKT signaling (BTK, AKT, and PIK3CA already mapped) inactivates FOXO, supporting survival of the malignant lymphoplasmacytic clone in Waldenström macroglobulinemia.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6 acting on the cyclin-D-RB axis (E2F1 and CDKN2A already mapped) drives the cell-cycle progression of Waldenström macroglobulinemia cells.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling shapes the bone-marrow microenvironment and immune tone that support Waldenström macroglobulinemia.
 
 [^treon-2015-ibrutinib-wm]: Treon SP, Tripsas CK, Meid K, et al. Ibrutinib in previously treated Waldenström's macroglobulinemia. *N Engl J Med.* 2015;373(18):1765-1774. [doi:10.1056/NEJMoa1501548](https://doi.org/10.1056/NEJMoa1501548) · [PubMed 26352686](https://pubmed.ncbi.nlm.nih.gov/26352686/)
 [^tam-2020-aspen]: Tam CS, Opat S, D'Sa S, et al. A randomized phase 3 trial of zanubrutinib vs ibrutinib in symptomatic Waldenström macroglobulinemia: the ASPEN study. *Blood.* 2020;136(18):2038-2050. [doi:10.1182/blood.2020006844](https://doi.org/10.1182/blood.2020006844) · [PubMed 32828187](https://pubmed.ncbi.nlm.nih.gov/32828187/)
