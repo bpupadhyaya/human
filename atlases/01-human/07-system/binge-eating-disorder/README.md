@@ -333,6 +333,15 @@ cross_links:
   - target: 01-human/03-molecular/galectin-3
     relation: connects-to
     note: "Galectin-3 released by activated microglia amplifies the hypothalamic neuroinflammation linked to the satiety dysregulation of binge eating disorder."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO downstream of insulin-PI3K-AKT signaling (AKT and insulin already mapped) links the metabolic dysregulation to the reward neurocircuitry of binge eating disorder."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 neuroinflammatory signaling contributes to the inflammatory tone associated with binge eating disorder."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA sensing through cGAS-STING contributes to the neuroinflammation linked to the reward and satiety dysregulation of binge eating disorder."
 sources:
   - id: american-psychiatric-2013-bed-dsm5
     type: clinical-guideline
@@ -599,6 +608,9 @@ BED is among the most psychiatrically comorbid of all eating disorders:
 - `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — BDNF-TrkB (NTRK) signaling (BDNF already mapped) shapes the reward and appetite plasticity implicated in the loss of control over eating in binge eating disorder.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Hypothalamic leptin-STAT3 signaling (leptin already mapped) couples adiposity signals to the satiety regulation that is dysregulated in binge eating disorder.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 released by activated microglia amplifies the hypothalamic neuroinflammation linked to the satiety dysregulation of binge eating disorder.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO downstream of insulin-PI3K-AKT signaling (AKT and insulin already mapped) links the metabolic dysregulation to the reward neurocircuitry of binge eating disorder.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 neuroinflammatory signaling contributes to the inflammatory tone associated with binge eating disorder.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING contributes to the neuroinflammation linked to the reward and satiety dysregulation of binge eating disorder.
 
 [^american-psychiatric-2013-bed-dsm5]: American Psychiatric Association. Binge Eating Disorder (307.51). In: *Diagnostic and Statistical Manual of Mental Disorders, 5th ed.* Arlington, VA: APA; 2013. [doi:10.1176/appi.books.9780890425596](https://doi.org/10.1176/appi.books.9780890425596)
 [^mccallum-2003-bed-review]: McCallum K, Bruton AM. Binge eating disorder: eating disorder or somatic syndrome? *Prim Care Companion J Clin Psychiatry.* 2003;5(Suppl 4):20-25. [PubMed 15213784](https://pubmed.ncbi.nlm.nih.gov/15213784/)
