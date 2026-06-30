@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/jak1-2
     relation: connects-to
     note: "JAK-STAT3 signalling (STAT3 mapped) provides a proliferative and immunomodulatory input to neuroendocrine tumours."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the immune microenvironment of neuroendocrine tumours, relevant to immunotherapy in the high-grade neuroendocrine carcinomas."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling shapes the differentiation and microenvironment of neuroendocrine tumours."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "CDK4/6-cyclin-D activity (cyclin-D1, CDKN2A and RB1 already mapped) drives the cell-cycle progression of neuroendocrine tumours."
 ---
 
 # Neuroendocrine Tumors
@@ -552,6 +561,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 is a marker and modulator of the survival and microenvironment interactions of neuroendocrine tumors.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — RAS-ERK-MAPK signaling, engaged downstream of RET and other receptor tyrosine kinases (RET mapped), provides a proliferative input to neuroendocrine tumors.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK-STAT3 signaling (STAT3 mapped) provides a proliferative and immunomodulatory input to neuroendocrine tumors.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the immune microenvironment of neuroendocrine tumors, relevant to immunotherapy in the high-grade neuroendocrine carcinomas.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling shapes the differentiation and microenvironment of neuroendocrine tumors.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6-cyclin-D activity (cyclin-D1, CDKN2A and RB1 already mapped) drives the cell-cycle progression of neuroendocrine tumors.
 
 [^yao-2011-radiant3]: Yao JC, Shah MH, Ito T, et al. Everolimus for advanced pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):514-523. [doi:10.1056/NEJMoa1009290](https://doi.org/10.1056/NEJMoa1009290) · [PubMed 21306237](https://pubmed.ncbi.nlm.nih.gov/21306237/)
 [^raymond-2011-sunitinib-pnet]: Raymond E, Dahan L, Raoul JL, et al. Sunitinib malate for the treatment of pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):501-513. [doi:10.1056/NEJMoa1003825](https://doi.org/10.1056/NEJMoa1003825) · [PubMed 21306236](https://pubmed.ncbi.nlm.nih.gov/21306236/)

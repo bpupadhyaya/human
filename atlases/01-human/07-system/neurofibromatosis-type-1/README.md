@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/stat3
     relation: connects-to
     note: "STAT3 signalling provides a proliferative and inflammatory input to the tumours of neurofibromatosis type 1."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the immune microenvironment of the neurofibromas and the MPNSTs that arise in neurofibromatosis type 1."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA sensing through cGAS-STING modulates the inflammatory microenvironment of the NF1-driven tumours."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors, antagonised by NF1-loss-driven RAS-PI3K-AKT signalling, modulate the survival of the Schwann-cell-lineage tumours of neurofibromatosis type 1."
 ---
 
 # Neurofibromatosis Type 1
@@ -560,6 +569,9 @@ In glioma and MPNST: additional alterations required — MPNST requires CDKN2A/2
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 is expressed in neurofibromas and contributes to the tumor-microenvironment interactions of NF1-associated tumors.
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β signaling shapes the Schwann-cell and inflammatory microenvironment of the neurofibromas of neurofibromatosis type 1.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 signaling provides a proliferative and inflammatory input to the tumors of neurofibromatosis type 1.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the immune microenvironment of the neurofibromas and the MPNSTs that arise in neurofibromatosis type 1.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING modulates the inflammatory microenvironment of the NF1-driven tumors.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors, antagonized by NF1-loss-driven RAS-PI3K-AKT signaling, modulate the survival of the Schwann-cell-lineage tumors of neurofibromatosis type 1.
 
 [^gutmann-2017-nf1-primer]: Gutmann DH, Ferner RE, Listernick RH, et al. Neurofibromatosis type 1. *Nat Rev Dis Primers.* 2017;3:17004. [doi:10.1038/nrdp.2017.4](https://doi.org/10.1038/nrdp.2017.4) · [PubMed 28230061](https://pubmed.ncbi.nlm.nih.gov/28230061/)
 [^dombi-2016-selumetinib]: Dombi E, Baldwin A, Marcus LJ, et al. Activity of Selumetinib in Neurofibromatosis Type 1-Related Plexiform Neurofibromas. *N Engl J Med.* 2016;375(26):2550-2560. [doi:10.1056/NEJMoa1605943](https://doi.org/10.1056/NEJMoa1605943) · [PubMed 28029918](https://pubmed.ncbi.nlm.nih.gov/28029918/)
