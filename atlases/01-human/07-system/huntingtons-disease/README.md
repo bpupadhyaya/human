@@ -327,6 +327,15 @@ cross_links:
   - target: 01-human/03-molecular/stat3
     relation: connects-to
     note: "STAT3-driven reactive astrogliosis is part of the neuroinflammatory response to striatal degeneration in Huntington's disease."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling (cGAS-STING already mapped) drives the interferon-responsive microglial activation of the neuroinflammation in Huntington's disease."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors (notably FOXO3) promote the autophagy and proteostasis that clear mutant huntingtin, a neuroprotective axis in Huntington's disease."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling shapes the neuroprotective-versus-inflammatory glial balance in the striatal degeneration of Huntington's disease."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -481,3 +490,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β dysregulation, downstream of impaired BDNF/AKT signaling (BDNF and AKT mapped), contributes to the neuronal dysfunction and death of Huntington's disease.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN regulation of the PI3K-AKT-mTOR axis (AKT and mTOR mapped) influences the autophagic clearance of mutant huntingtin and neuronal survival in Huntington's disease.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3-driven reactive astrogliosis is part of the neuroinflammatory response to striatal degeneration in Huntington's disease.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling (cGAS-STING already mapped) drives the interferon-responsive microglial activation of the neuroinflammation in Huntington's disease.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors (notably FOXO3) promote the autophagy and proteostasis that clear mutant huntingtin, a neuroprotective axis in Huntington's disease.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling shapes the neuroprotective-versus-inflammatory glial balance in the striatal degeneration of Huntington's disease.
