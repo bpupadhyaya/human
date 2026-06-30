@@ -346,6 +346,15 @@ cross_links:
   - target: 01-human/03-molecular/cgas-sting
     relation: connects-to
     note: "cGAS-STING signalling in the pancreatic-cancer microenvironment shapes the immunologically cold phenotype that limits immunotherapy response."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the weak antitumour immunity of the immunologically cold pancreatic ductal adenocarcinoma."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "CDKN2A loss (CDKN2A and cyclin-D1 already mapped) releases CDK4/6-cyclin-D control of the cell cycle, a near-universal lesion in pancreatic cancer."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO tumour-suppressor activity, antagonised by KRAS-driven PI3K-AKT signalling, is lost in the progression of pancreatic cancer."
 ---
 
 # Pancreatic Cancer
@@ -575,6 +584,9 @@ cross_links:
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 is abundantly expressed in the desmoplastic stroma of pancreatic cancer, promoting fibrosis, KRAS signaling and immune evasion.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — Loss of PTEN restraint on PI3K-AKT-mTOR signaling (AKT and mTOR mapped) cooperates with KRAS in driving pancreatic cancer.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — cGAS-STING signaling in the pancreatic-cancer microenvironment shapes the immunologically cold phenotype that limits immunotherapy response.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the weak antitumor immunity of the immunologically cold pancreatic ductal adenocarcinoma.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDKN2A loss (CDKN2A and cyclin-D1 already mapped) releases CDK4/6-cyclin-D control of the cell cycle, a near-universal lesion in pancreatic cancer.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO tumor-suppressor activity, antagonized by KRAS-driven PI3K-AKT signaling, is lost in the progression of pancreatic cancer.
 
 ---
 
