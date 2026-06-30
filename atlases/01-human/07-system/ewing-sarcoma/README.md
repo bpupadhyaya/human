@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/nfe2l2
     relation: connects-to
     note: "NRF2 antioxidant signalling buffers the oxidative stress of EWSR1-FLI1-driven transcription, contributing to Ewing-sarcoma cell survival and therapy resistance."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the immunologically cold microenvironment of Ewing sarcoma, a barrier to its immunotherapy."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling shapes the mesenchymal microenvironment and metastatic progression of Ewing sarcoma."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors integrate the oxidative and metabolic stress of the EWSR1-FLI1-driven cells of Ewing sarcoma."
 ---
 
 # Ewing Sarcoma
@@ -570,6 +579,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 is expressed in Ewing sarcoma and contributes to its survival and the bone-tumor microenvironment.
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β within the bone microenvironment modulates Ewing-sarcoma invasion and immune evasion.
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2 antioxidant signaling buffers the oxidative stress of EWSR1-FLI1-driven transcription, contributing to Ewing-sarcoma cell survival and therapy resistance.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the immunologically cold microenvironment of Ewing sarcoma, a barrier to its immunotherapy.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling shapes the mesenchymal microenvironment and metastatic progression of Ewing sarcoma.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors integrate the oxidative and metabolic stress of the EWSR1-FLI1-driven cells of Ewing sarcoma.
 
 ---
 
