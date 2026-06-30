@@ -347,6 +347,15 @@ cross_links:
   - target: 01-human/03-molecular/galectin-3
     relation: connects-to
     note: "Galectin-3 is a marker of malignancy in thyroid and other endocrine tumours and modulates their inflammatory microenvironment."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors integrate insulin/IGF and stress signaling across endocrine tissues, governing metabolism and hormone-secreting-cell homeostasis."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signaling shapes the autoimmune and inflammatory processes that target endocrine glands across the endocrine system."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "HIF-1α couples the oxygen and metabolic status of endocrine glands to their hormone-secretory and proliferative responses."
 ---
 
 # Endocrine System
@@ -614,6 +623,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 transduces the growth-hormone, leptin and cytokine signals of the endocrine system and drives proliferation in many endocrine tumors.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β/activin-SMAD signaling (activin-A already mapped) provides feedback control of pituitary and gonadal hormone axes across the endocrine system.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 is a marker of malignancy in thyroid and other endocrine tumors and modulates their inflammatory microenvironment.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors integrate insulin/IGF and stress signaling across endocrine tissues, governing metabolism and hormone-secreting-cell homeostasis.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the autoimmune and inflammatory processes that target endocrine glands across the endocrine system.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α couples the oxygen and metabolic status of endocrine glands to their hormone-secretory and proliferative responses.
 
 ## Pathology
 

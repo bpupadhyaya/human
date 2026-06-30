@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/smad4
     relation: connects-to
     note: "TGF-β-SMAD signalling (TGF-β already mapped) normally restrains B-cell proliferation, a brake overridden in the lymphomagenesis of DLBCL."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the MYC stability and NF-κB-driven survival signaling of diffuse large B-cell lymphoma."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins shape the inflammatory tumor microenvironment of diffuse large B-cell lymphoma."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "NOTCH-pathway mutations occur in subsets of diffuse large B-cell lymphoma and contribute to its survival and differentiation biology."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -581,6 +590,9 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antitumor immune response of DLBCL, relevant to its CAR-T and checkpoint immunotherapy.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING modulates the inflammatory and immune microenvironment of diffuse large B-cell lymphoma.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β already mapped) normally restrains B-cell proliferation, a brake overridden in the lymphomagenesis of DLBCL.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the MYC stability and NF-κB-driven survival signaling of diffuse large B-cell lymphoma.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins shape the inflammatory tumor microenvironment of diffuse large B-cell lymphoma.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH-pathway mutations occur in subsets of diffuse large B-cell lymphoma and contribute to its survival and differentiation biology.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
