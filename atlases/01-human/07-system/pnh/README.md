@@ -343,6 +343,15 @@ cross_links:
   - target: 01-human/03-molecular/stat3
     relation: connects-to
     note: "IL-6-STAT3 signalling transduces the inflammatory cytokine response that accompanies the chronic complement-mediated haemolysis of PNH."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO downstream of PI3K-AKT signaling (AKT already mapped) regulates the hematopoietic stem-cell survival that underlies the clonal expansion of the PIGA-mutant clone in PNH."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signaling shapes the immune bone-marrow microenvironment that favors escape of the PNH clone, often on an aplastic-anemia background."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signaling contributes to the immune marrow-failure background on which the PNH clone preferentially expands."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -543,6 +552,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 promotes the neutrophil-extracellular-trap-driven thromboinflammation that amplifies the prothrombotic state of paroxysmal nocturnal hemoglobinuria.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — DNA within complement-triggered neutrophil extracellular traps engages cGAS-STING, linking NET-driven inflammation to the thrombosis of PNH.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling transduces the inflammatory cytokine response that accompanies the chronic complement-mediated hemolysis of PNH.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO downstream of PI3K-AKT signaling (AKT already mapped) regulates the hematopoietic stem-cell survival that underlies the clonal expansion of the PIGA-mutant clone in PNH.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the immune bone-marrow microenvironment that favors escape of the PNH clone, often on an aplastic-anemia background.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling contributes to the immune marrow-failure background on which the PNH clone preferentially expands.
 
 ---
 

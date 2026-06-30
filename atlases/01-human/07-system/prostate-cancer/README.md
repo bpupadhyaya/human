@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/stat1
     relation: connects-to
     note: "IFN-STAT1 signalling shapes the antitumour immune response of the immunologically cold prostate cancer, relevant to its limited immunotherapy responsiveness."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "PTEN-loss-driven PI3K-AKT signaling (PTEN, AKT, and PIK3CA already mapped) inactivates FOXO, removing a tumor-suppressive brake in prostate cancer."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "CDK4/6 acting on the cyclin-D1-RB axis (cyclin-D1 already mapped) drives the cell-cycle progression of prostate cancer."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Perforin-delivered cytotoxic killing by CD8 T and NK cells mediates the immune clearance that the immunologically cold prostate cancer evades."
 ---
 
 # Prostate Cancer
@@ -586,6 +595,9 @@ cross_links:
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 supports immune evasion and the bone-metastatic colonization that drives mortality in advanced prostate cancer.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling supports androgen-independent growth and contributes to the castration resistance of advanced prostate cancer.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antitumor immune response of the immunologically cold prostate cancer, relevant to its limited immunotherapy responsiveness.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — PTEN-loss-driven PI3K-AKT signaling (PTEN, AKT, and PIK3CA already mapped) inactivates FOXO, removing a tumor-suppressive brake in prostate cancer.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6 acting on the cyclin-D1-RB axis (cyclin-D1 already mapped) drives the cell-cycle progression of prostate cancer.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-delivered cytotoxic killing by CD8 T and NK cells mediates the immune clearance that the immunologically cold prostate cancer evades.
 
 [^beer-2014-prevail]: Beer TM, Armstrong AJ, Rathkopf D, et al. Enzalutamide in metastatic prostate cancer before chemotherapy. *N Engl J Med.* 2014;371(5):424-433. [doi:10.1056/NEJMoa1405095](https://doi.org/10.1056/NEJMoa1405095) · [PubMed 24881730](https://pubmed.ncbi.nlm.nih.gov/24881730/)
 [^sartor-2021-vision]: Sartor O, de Bono J, Chi KN, et al. Lutetium-PSMA-617 for metastatic castration-resistant prostate cancer. *N Engl J Med.* 2021;385(12):1091-1103. [doi:10.1056/NEJMoa2107322](https://doi.org/10.1056/NEJMoa2107322) · [PubMed 34161051](https://pubmed.ncbi.nlm.nih.gov/34161051/)
