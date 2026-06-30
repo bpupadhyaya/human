@@ -346,6 +346,15 @@ cross_links:
   - target: 01-human/03-molecular/galectin-3
     relation: connects-to
     note: "Galectin-3 promotes the neutrophil-extracellular-trap-driven thromboinflammation that fuels disseminated intravascular coagulation."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6-STAT3 signalling transduces the inflammatory cytokine response that drives the tissue-factor expression and procoagulant state of disseminated intravascular coagulation."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K-AKT signalling (AKT already mapped) in platelets and endothelium supports the activated, procoagulant phenotype of disseminated intravascular coagulation."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the interferon component of the systemic inflammation (often sepsis-driven) underlying disseminated intravascular coagulation."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -586,6 +595,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — C5a acting on C5aR (C5aR1 mapped) and platelet agonists engage ERK-MAPK, amplifying the cellular activation that propagates DIC.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Endothelial and platelet PI3K-AKT signaling shapes the procoagulant, activated phenotype that drives the widespread microthrombosis of DIC.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 promotes the neutrophil-extracellular-trap-driven thromboinflammation that fuels disseminated intravascular coagulation.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling transduces the inflammatory cytokine response that drives the tissue-factor expression and procoagulant state of disseminated intravascular coagulation.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K-AKT signaling (AKT already mapped) in platelets and endothelium supports the activated, procoagulant phenotype of disseminated intravascular coagulation.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the interferon component of the systemic inflammation (often sepsis-driven) underlying disseminated intravascular coagulation.
 
 ---
 

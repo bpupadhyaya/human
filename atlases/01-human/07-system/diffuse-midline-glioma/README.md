@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/cgas-sting
     relation: connects-to
     note: "Cytosolic DNA sensing through cGAS-STING shapes the immune microenvironment and radiation response of diffuse midline glioma."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the immunologically cold microenvironment of diffuse midline glioma, a barrier to its immunotherapy."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors integrate the metabolic and oxidative stress of the H3K27M-driven tumour cells of diffuse midline glioma."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β signalling modulates the neural-progenitor proliferation and survival programmes hijacked by diffuse midline glioma."
 ---
 
 # Diffuse Midline Glioma
@@ -586,6 +595,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — ACVR1-activin-SMAD signaling (activin-A mapped) is constitutively activated by the ACVR1 mutations that co-occur with H3K27M in diffuse midline glioma.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 promotes the invasive and immunosuppressive phenotype of diffuse midline glioma.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING shapes the immune microenvironment and radiation response of diffuse midline glioma.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the immunologically cold microenvironment of diffuse midline glioma, a barrier to its immunotherapy.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors integrate the metabolic and oxidative stress of the H3K27M-driven tumor cells of diffuse midline glioma.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β signaling modulates the neural-progenitor proliferation and survival programs hijacked by diffuse midline glioma.
 
 ---
 
