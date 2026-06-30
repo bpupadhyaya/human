@@ -357,6 +357,15 @@ cross_links:
   - target: 01-human/03-molecular/smad4
     relation: connects-to
     note: "TGF-β-SMAD signalling shapes the Schwann-cell remyelination responses that determine recovery in CIDP."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO regulates the autoreactive lymphocyte tolerance and Schwann-cell oxidative-stress responses relevant to the demyelination of CIDP."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "ERK-MAPK signaling transduces the macrophage and Schwann-cell responses driving the demyelination of CIDP."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins from infiltrating macrophages amplify the inflammatory nerve injury of CIDP."
 ---
 
 # CIDP
@@ -612,6 +621,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the Th1/interferon component of the autoimmune attack on peripheral-nerve myelin in CIDP.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA released by nerve and Schwann-cell injury can engage cGAS-STING, amplifying the innate inflammation of CIDP.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling shapes the Schwann-cell remyelination responses that determine recovery in CIDP.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO regulates the autoreactive lymphocyte tolerance and Schwann-cell oxidative-stress responses relevant to the demyelination of CIDP.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling transduces the macrophage and Schwann-cell responses driving the demyelination of CIDP.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins from infiltrating macrophages amplify the inflammatory nerve injury of CIDP.
 
 ---
 

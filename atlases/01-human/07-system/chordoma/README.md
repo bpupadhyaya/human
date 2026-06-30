@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/gsk-3b
     relation: connects-to
     note: "GSK-3β signalling modulates the brachyury (TBXT) and Wnt activity (both mapped) that drive the notochordal phenotype of chordoma."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-kinase signaling downstream of the receptor tyrosine kinases (EGFR, MET, and PDGFR already mapped) drives the invasive and survival signaling of chordoma."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis in chordoma."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins from infiltrating myeloid cells shape the inflammatory microenvironment of chordoma."
 ---
 
 # Chordoma
@@ -594,6 +603,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antitumor immune response of chordoma, relevant to its emerging checkpoint immunotherapy.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors integrate the metabolic and oxidative stress of the slow-growing notochordal tumor cells of chordoma.
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β signaling modulates the brachyury (TBXT) and Wnt activity (both mapped) that drive the notochordal phenotype of chordoma.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-kinase signaling downstream of the receptor tyrosine kinases (EGFR, MET, and PDGFR already mapped) drives the invasive and survival signaling of chordoma.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis in chordoma.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins from infiltrating myeloid cells shape the inflammatory microenvironment of chordoma.
 
 ---
 
