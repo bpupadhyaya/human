@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/stat3
     relation: connects-to
     note: "IL-6-STAT3 signalling (IL-6 mapped) amplifies the mesangial inflammatory response to IgA1 deposition in IgA nephropathy."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA sensing through cGAS-STING contributes to the innate inflammatory amplification of mesangial injury in IgA nephropathy."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the interferon component of the immune response to mucosal triggers in IgA nephropathy."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K-AKT signalling (AKT already mapped) drives the mesangial-cell proliferation that follows galactose-deficient IgA1 deposition in IgA nephropathy."
 ---
 
 # IgA Nephropathy
@@ -531,6 +540,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Galactose-deficient IgA1 immune complexes activate mesangial-cell ERK-MAPK signaling, driving the proliferation and matrix production of IgA nephropathy.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling sustains mesangial-cell proliferation and survival in response to the IgA1 immune-complex deposits of IgA nephropathy.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling (IL-6 mapped) amplifies the mesangial inflammatory response to IgA1 deposition in IgA nephropathy.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING contributes to the innate inflammatory amplification of mesangial injury in IgA nephropathy.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the interferon component of the immune response to mucosal triggers in IgA nephropathy.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K-AKT signaling (AKT already mapped) drives the mesangial-cell proliferation that follows galactose-deficient IgA1 deposition in IgA nephropathy.
 
 ---
 
