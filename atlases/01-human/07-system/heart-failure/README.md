@@ -343,6 +343,15 @@ cross_links:
   - target: 01-human/03-molecular/cgas-sting
     relation: connects-to
     note: "Mitochondrial DNA released by stressed cardiomyocytes engages cGAS-STING, driving the sterile inflammation that contributes to adverse remodelling in heart failure."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors regulate cardiomyocyte autophagy, atrophy, and oxidative-stress defense, processes that shape adverse remodeling in heart failure."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates pathological cardiac hypertrophy and fibrosis, acting as a brake whose dysregulation contributes to heart failure remodeling."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signaling promotes cardiomyocyte apoptosis and the inflammatory remodeling of the failing myocardium in heart failure."
 ---
 
 # Heart Failure
@@ -524,6 +533,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β already mapped) drives the cardiac fibrosis and adverse ventricular remodeling central to the progression of heart failure.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling mediates cardiomyocyte hypertrophy and the inflammatory remodeling of the failing myocardium in heart failure.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Mitochondrial DNA released by stressed cardiomyocytes engages cGAS-STING, driving the sterile inflammation that contributes to adverse remodeling in heart failure.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors regulate cardiomyocyte autophagy, atrophy, and oxidative-stress defense, processes that shape adverse remodeling in heart failure.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates pathological cardiac hypertrophy and fibrosis, acting as a brake whose dysregulation contributes to heart failure remodeling.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling promotes cardiomyocyte apoptosis and the inflammatory remodeling of the failing myocardium in heart failure.
 
 ## Pathology
 

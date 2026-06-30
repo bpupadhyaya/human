@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/stat3
     relation: connects-to
     note: "IL-6-STAT3 signalling transduces the inflammatory cytokine milieu of the hypertrophic synovium in hemophilic arthropathy."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO regulates the chondrocyte and synovial oxidative-stress response to the iron-driven joint degeneration of hemophilic arthropathy."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signaling shapes the T-helper response that governs anti-factor-VIII inhibitor antibody development in hemophilia A."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Hemarthrosis-derived cytosolic and mitochondrial DNA engages cGAS-STING, contributing to the chronic synovial inflammation of hemophilic arthropathy."
 ---
 
 # Hemophilia A
@@ -580,6 +589,9 @@ FVIII is a critical **amplifier** of the coagulation cascade at the junction bet
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 amplifies the iron-driven synovial inflammation that drives the chronic synovitis of hemophilic arthropathy after recurrent hemarthrosis.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β already mapped) drives the joint fibrosis and cartilage degradation of the hemophilic arthropathy that follows repeated bleeds.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling transduces the inflammatory cytokine milieu of the hypertrophic synovium in hemophilic arthropathy.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO regulates the chondrocyte and synovial oxidative-stress response to the iron-driven joint degeneration of hemophilic arthropathy.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the T-helper response that governs anti-factor-VIII inhibitor antibody development in hemophilia A.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Hemarthrosis-derived cytosolic and mitochondrial DNA engages cGAS-STING, contributing to the chronic synovial inflammation of hemophilic arthropathy.
 
 [^oldenburg-2017-emicizumab-haven1]: Oldenburg J, Mahlangu JN, Kim B, et al. Emicizumab prophylaxis in hemophilia A with inhibitors. *N Engl J Med.* 2017;377(9):809-818. [doi:10.1056/NEJMoa1703068](https://doi.org/10.1056/NEJMoa1703068) · [PubMed 28691557](https://pubmed.ncbi.nlm.nih.gov/28691557/)
 [^mahlangu-2018-emicizumab-haven3]: Mahlangu J, Oldenburg J, Paz-Priel I, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors. *N Engl J Med.* 2018;379(9):811-822. [doi:10.1056/NEJMoa1803550](https://doi.org/10.1056/NEJMoa1803550) · [PubMed 30157389](https://pubmed.ncbi.nlm.nih.gov/30157389/)
