@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/smad4
     relation: connects-to
     note: "TGF-β-SMAD signalling shapes the differentiation block and microenvironment of the SMARCB1-deficient atypical teratoid/rhabdoid tumour."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "PI3K-AKT-driven FOXO inactivation (PTEN, AKT, and PIK3CA already mapped) removes a pro-apoptotic brake in atypical teratoid/rhabdoid tumor."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Perforin-delivered cytotoxic killing by CD8 T and NK cells mediates the immune clearance that the often immune-cold atypical teratoid/rhabdoid tumor must evade."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins from infiltrating myeloid cells shape the inflammatory tumor microenvironment of atypical teratoid/rhabdoid tumor."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -578,6 +587,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — SMARCB1 loss in ATRT derepresses the cyclin-D-CDK4/6 axis (cyclin-D1 and CDK4/6 mapped), driving RB1 inactivation and the cell-cycle progression of the tumor.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antitumor immune response of the immunologically variable atypical teratoid/rhabdoid tumor.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling shapes the differentiation block and microenvironment of the SMARCB1-deficient atypical teratoid/rhabdoid tumor.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — PI3K-AKT-driven FOXO inactivation (PTEN, AKT, and PIK3CA already mapped) removes a pro-apoptotic brake in atypical teratoid/rhabdoid tumor.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-delivered cytotoxic killing by CD8 T and NK cells mediates the immune clearance that the often immune-cold atypical teratoid/rhabdoid tumor must evade.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins from infiltrating myeloid cells shape the inflammatory tumor microenvironment of atypical teratoid/rhabdoid tumor.
 
 ---
 

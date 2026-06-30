@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/foxo
     relation: connects-to
     note: "FOXO transcription factors integrate the UV-induced oxidative stress that drives the mutagenesis underlying basal cell carcinoma."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins from infiltrating myeloid cells amplify the inflammatory stroma of basal cell carcinoma."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β regulates GLI and β-catenin stability (SHH and WNT-β-catenin already mapped), modulating the Hedgehog-driven oncogenic signaling of basal cell carcinoma."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis in the UV-mutated keratinocytes of basal cell carcinoma."
 ---
 
 # Basal Cell Carcinoma
@@ -581,6 +590,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Hedgehog-driven cyclin-D-CDK4/6 activity (cyclin-D1 and RB1 mapped) drives the cell-cycle progression of basal cell carcinoma.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antitumor immune response of basal cell carcinoma, relevant to checkpoint immunotherapy in advanced disease.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors integrate the UV-induced oxidative stress that drives the mutagenesis underlying basal cell carcinoma.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins from infiltrating myeloid cells amplify the inflammatory stroma of basal cell carcinoma.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β regulates GLI and β-catenin stability (SHH and WNT-β-catenin already mapped), modulating the Hedgehog-driven oncogenic signaling of basal cell carcinoma.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis in the UV-mutated keratinocytes of basal cell carcinoma.
 
 ---
 
