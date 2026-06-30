@@ -355,6 +355,15 @@ cross_links:
   - target: 01-human/03-molecular/pik3ca
     relation: connects-to
     note: "PI3K-AKT signalling (AKT already mapped) shapes the immune-cell activation and epithelial responses of inflammatory bowel disease."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO regulates the intestinal epithelial oxidative-stress defense and the T-cell programs implicated in inflammatory bowel disease."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "HIF-1α in the hypoxic inflamed mucosa shapes the barrier and inflammatory responses of inflammatory bowel disease."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the NF-κB-driven mucosal inflammation of inflammatory bowel disease."
 ---
 
 # Inflammatory Bowel Disease
@@ -595,6 +604,9 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-γ-STAT1 signaling drives the Th1 epithelial injury characteristic of the mucosal inflammation of inflammatory bowel disease.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling in intestinal epithelium and immune cells transduces the cytokine stimuli that sustain the inflammation of inflammatory bowel disease.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K-AKT signaling (AKT already mapped) shapes the immune-cell activation and epithelial responses of inflammatory bowel disease.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO regulates the intestinal epithelial oxidative-stress defense and the T-cell programs implicated in inflammatory bowel disease.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α in the hypoxic inflamed mucosa shapes the barrier and inflammatory responses of inflammatory bowel disease.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the NF-κB-driven mucosal inflammation of inflammatory bowel disease.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)
