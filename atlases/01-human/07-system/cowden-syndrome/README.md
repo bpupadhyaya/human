@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/jak1-2
     relation: connects-to
     note: "JAK-STAT3 signalling (STAT3 mapped) provides an additional proliferative input in the multi-organ tumours of Cowden syndrome."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the antitumour immune surveillance of the multi-organ neoplasms that arise in Cowden syndrome."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "PTEN loss perturbs genome stability and PTEN's nuclear functions, and the resulting cytosolic DNA can engage cGAS-STING in the lesions of Cowden syndrome."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "Loss of PTEN-restrained PI3K-AKT signalling drives cyclin-D-CDK4/6 activity (cyclin-D1 and RB1 mapped) in the hamartomatous and neoplastic growths of Cowden syndrome."
 ---
 
 # Cowden Syndrome
@@ -627,6 +636,9 @@ cross_links:
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 is a marker of the thyroid neoplasia common in Cowden syndrome and modulates tumor-cell survival.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β mapped) provides a tumor-suppressive counterweight whose loss cooperates with PTEN deficiency in Cowden-associated tumors.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK-STAT3 signaling (STAT3 mapped) provides an additional proliferative input in the multi-organ tumors of Cowden syndrome.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antitumor immune surveillance of the multi-organ neoplasms that arise in Cowden syndrome.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — PTEN loss perturbs genome stability and PTEN's nuclear functions, and the resulting cytosolic DNA can engage cGAS-STING in the lesions of Cowden syndrome.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Loss of PTEN-restrained PI3K-AKT signaling drives cyclin-D-CDK4/6 activity (cyclin-D1 and RB1 mapped) in the hamartomatous and neoplastic growths of Cowden syndrome.
 
 ---
 

@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/galectin-3
     relation: connects-to
     note: "Galectin-3 amplifies the neutrophil-dominated airway inflammation characteristic of cystic fibrosis lung disease."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling underlies the antiviral and antibacterial response that shapes the recurrent infections of cystic fibrosis lung disease."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "DNA from neutrophil extracellular traps and bacteria in the cystic-fibrosis airway engages cGAS-STING, amplifying the chronic airway inflammation."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling (TGFB1 a recognised modifier of cystic-fibrosis severity) drives the airway and pancreatic fibrosis of cystic fibrosis."
 ---
 
 # Cystic Fibrosis
@@ -575,6 +584,9 @@ AND
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT-mTOR signaling (mTOR mapped) is dysregulated in CFTR-deficient epithelia and shapes the inflammatory and autophagy responses of cystic fibrosis.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — EGFR-ERK-MAPK signaling (EGFR mapped) drives the mucin hypersecretion and airway epithelial remodeling of cystic fibrosis.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 amplifies the neutrophil-dominated airway inflammation characteristic of cystic fibrosis lung disease.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling underlies the antiviral and antibacterial response that shapes the recurrent infections of cystic fibrosis lung disease.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — DNA from neutrophil extracellular traps and bacteria in the cystic-fibrosis airway engages cGAS-STING, amplifying the chronic airway inflammation.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGFB1 a recognized modifier of cystic-fibrosis severity) drives the airway and pancreatic fibrosis of cystic fibrosis.
 
 ---
 
