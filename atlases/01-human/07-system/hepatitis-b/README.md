@@ -345,6 +345,15 @@ cross_links:
   - target: 01-human/03-molecular/mtor
     relation: connects-to
     note: "PI3K-AKT-mTOR signalling, activated in part by the HBx protein, drives the proliferative and metabolic reprogramming of hepatitis-B-associated hepatocellular carcinoma."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "HBx-driven PI3K-AKT signaling inactivates FOXO, removing a pro-apoptotic brake and promoting hepatocyte survival in the progression toward hepatitis-B-associated HCC."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "HIF-1α induced by the HBx protein supports the angiogenesis and metabolic reprogramming of hepatitis-B-associated hepatocarcinogenesis."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "HBx dysregulates the cyclin-D-CDK4/6-RB axis to drive hepatocyte cell-cycle entry in hepatitis-B-associated hepatocellular carcinoma."
 ---
 
 # Hepatitis B
@@ -589,3 +598,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 amplifies hepatic stellate-cell activation and fibrosis and supports the immune evasion of the hepatocellular carcinoma that complicates chronic hepatitis B.
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — EZH2-mediated polycomb repression, exploited by the HBx protein, silences tumor-suppressor genes and contributes to the hepatocarcinogenesis of chronic hepatitis B.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — PI3K-AKT-mTOR signaling, activated in part by the HBx protein, drives the proliferative and metabolic reprogramming of hepatitis-B-associated hepatocellular carcinoma.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — HBx-driven PI3K-AKT signaling inactivates FOXO, removing a pro-apoptotic brake and promoting hepatocyte survival in the progression toward hepatitis-B-associated HCC.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α induced by the HBx protein supports the angiogenesis and metabolic reprogramming of hepatitis-B-associated hepatocarcinogenesis.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — HBx dysregulates the cyclin-D-CDK4/6-RB axis to drive hepatocyte cell-cycle entry in hepatitis-B-associated hepatocellular carcinoma.

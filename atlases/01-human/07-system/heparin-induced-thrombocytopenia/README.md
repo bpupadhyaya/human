@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/cgas-sting
     relation: connects-to
     note: "DNA released within neutrophil extracellular traps engages cGAS-STING, linking NET-driven thromboinflammation to the prothrombotic milieu of heparin-induced thrombocytopenia."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "JAK1/2 cytokine signaling (IL-6 already mapped) amplifies the inflammatory milieu accompanying the prothrombotic immune response of heparin-induced thrombocytopenia."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signaling shapes the immune activation underlying the anti-PF4/heparin antibody response in heparin-induced thrombocytopenia."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO downstream of PI3K-AKT signaling (AKT and PIK3CA already mapped) helps set the platelet and endothelial activation balance in heparin-induced thrombocytopenia."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -603,6 +612,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 promotes the neutrophil-extracellular-trap-driven thromboinflammation that amplifies the prothrombotic state of heparin-induced thrombocytopenia.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling transduces the inflammatory cytokine response of activated monocytes that contributes to the thrombosis of heparin-induced thrombocytopenia.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — DNA released within neutrophil extracellular traps engages cGAS-STING, linking NET-driven thromboinflammation to the prothrombotic milieu of heparin-induced thrombocytopenia.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK1/2 cytokine signaling (IL-6 already mapped) amplifies the inflammatory milieu accompanying the prothrombotic immune response of heparin-induced thrombocytopenia.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the immune activation underlying the anti-PF4/heparin antibody response in heparin-induced thrombocytopenia.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO downstream of PI3K-AKT signaling (AKT and PIK3CA already mapped) helps set the platelet and endothelial activation balance in heparin-induced thrombocytopenia.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)
