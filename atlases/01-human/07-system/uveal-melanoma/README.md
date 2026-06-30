@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/galectin-3
     relation: connects-to
     note: "Galectin-3 supports immune evasion and the hepatic metastatic colonisation that determines outcome in uveal melanoma."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signaling shapes EMT and the hepatic metastatic niche that dictates the liver-tropic spread of uveal melanoma."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "PI3K-AKT-mediated FOXO inactivation removes a pro-apoptotic brake, supporting survival of uveal melanoma cells (PI3K-AKT already mapped)."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "CDK4/6-driven cyclin-D1-RB1 cell-cycle entry (cyclin-D1 and RB1 mapped) sustains proliferation in uveal melanoma."
 ---
 
 # Uveal Melanoma
@@ -584,6 +593,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING shapes the immune microenvironment of uveal melanoma, a tumor notable for its poor response to checkpoint immunotherapy.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling governs the interferon-driven antitumor response and immune-evasion balance of the immunologically cold uveal melanoma.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 supports immune evasion and the hepatic metastatic colonization that determines outcome in uveal melanoma.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling shapes EMT and the hepatic metastatic niche that dictates the liver-tropic spread of uveal melanoma.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — PI3K-AKT-mediated FOXO inactivation removes a pro-apoptotic brake, supporting survival of uveal melanoma cells (PI3K-AKT already mapped).
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6-driven cyclin-D1-RB1 cell-cycle entry (cyclin-D1 and RB1 mapped) sustains proliferation in uveal melanoma.
 
 ---
 

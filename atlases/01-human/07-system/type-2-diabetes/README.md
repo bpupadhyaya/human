@@ -346,6 +346,15 @@ cross_links:
   - target: 01-human/03-molecular/smad4
     relation: connects-to
     note: "TGF-β-SMAD signalling (TGF-β already mapped) drives the islet and renal fibrosis that accompanies β-cell failure and diabetic nephropathy in type 2 diabetes."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "JAK1/2 signaling downstream of IL-6 and other cytokines (IL-6 mapped) propagates the inflammatory insulin resistance of adipose and liver in type 2 diabetes."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signaling contributes to islet inflammation and β-cell stress in the metabolic-immune milieu of type 2 diabetes."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "Calprotectin (S100A8/A9) released by myeloid cells amplifies the chronic low-grade adipose-tissue inflammation that drives insulin resistance in type 2 diabetes."
 ---
 
 # Type 2 Diabetes
@@ -558,6 +567,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Pro-inflammatory IL-6-STAT3 signaling in adipose tissue and liver contributes to the chronic low-grade inflammation that drives insulin resistance in type 2 diabetes.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Mitochondrial and metabolic stress releases cytosolic DNA that engages cGAS-STING, fueling the metabolic inflammation of adipose tissue in type 2 diabetes.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β already mapped) drives the islet and renal fibrosis that accompanies β-cell failure and diabetic nephropathy in type 2 diabetes.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK1/2 signaling downstream of IL-6 and other cytokines (IL-6 mapped) propagates the inflammatory insulin resistance of adipose and liver in type 2 diabetes.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling contributes to islet inflammation and β-cell stress in the metabolic-immune milieu of type 2 diabetes.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Calprotectin (S100A8/A9) released by myeloid cells amplifies the chronic low-grade adipose-tissue inflammation that drives insulin resistance in type 2 diabetes.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
