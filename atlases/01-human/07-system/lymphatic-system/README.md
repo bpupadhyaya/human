@@ -347,6 +347,15 @@ cross_links:
   - target: 01-human/03-molecular/galectin-3
     relation: connects-to
     note: "Galectin-3 modulates lymphocyte apoptosis, lymphangiogenesis and the immune regulation that occurs within the lymphatic organs."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors regulate lymphocyte homeostasis and the lymphatic-endothelial stress responses across the lymphatic system."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signaling governs lymphatic-vessel development and remodeling and the regulatory immune tone of the lymphatic system."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "HIF-1α couples the metabolic and inflammatory status of lymphoid tissue to the lymphangiogenesis (VEGF already mapped) of the lymphatic system."
 ---
 
 # Lymphatic System
@@ -566,6 +575,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 (JAK1/2 already mapped) programs the T-follicular-helper and Th17 differentiation and germinal-center responses of the lymphatic organs.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling drives the interferon-programmed antiviral and antitumor lymphocyte responses coordinated within the lymphatic system.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 modulates lymphocyte apoptosis, lymphangiogenesis and the immune regulation that occurs within the lymphatic organs.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors regulate lymphocyte homeostasis and the lymphatic-endothelial stress responses across the lymphatic system.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling governs lymphatic-vessel development and remodeling and the regulatory immune tone of the lymphatic system.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α couples the metabolic and inflammatory status of lymphoid tissue to the lymphangiogenesis (VEGF already mapped) of the lymphatic system.
 
 ## Pathology
 
