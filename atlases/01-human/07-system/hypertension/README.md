@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/mtor
     relation: connects-to
     note: "mTOR-driven vascular-smooth-muscle hypertrophy contributes to the arterial-wall remodelling and stiffening of hypertension."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6-STAT3 signalling transduces the vascular inflammation that contributes to endothelial dysfunction and arterial remodelling in hypertension."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling (TGF-β already mapped) drives the vascular fibrosis and arterial stiffening central to the end-organ damage of hypertension."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA sensing through cGAS-STING contributes to the vascular inflammation and immune activation implicated in hypertension."
 ---
 
 # Hypertension
@@ -538,6 +547,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Angiotensin-II and endothelin-1 signaling (both mapped) through ERK-MAPK drives the vascular-smooth-muscle proliferation and remodeling of hypertension.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 promotes the vascular and cardiac fibrosis that mediates hypertensive target-organ damage.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR-driven vascular-smooth-muscle hypertrophy contributes to the arterial-wall remodeling and stiffening of hypertension.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling transduces the vascular inflammation that contributes to endothelial dysfunction and arterial remodeling in hypertension.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β already mapped) drives the vascular fibrosis and arterial stiffening central to the end-organ damage of hypertension.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING contributes to the vascular inflammation and immune activation implicated in hypertension.
 
 ## Pathology
 
