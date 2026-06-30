@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/cdk4-6
     relation: connects-to
     note: "Loss of PTEN-restrained PI3K-AKT signalling drives cyclin-D-CDK4/6 activity (cyclin-D1 and RB1 mapped) in the hamartomatous and neoplastic growths of Cowden syndrome."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis in the PTEN-deficient tumors of Cowden syndrome."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Perforin-mediated cytotoxic immunosurveillance is the immune clearance that the multiple hamartomas and cancers of Cowden syndrome must evade."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins from infiltrating myeloid cells shape the inflammatory microenvironment of Cowden syndrome lesions."
 ---
 
 # Cowden Syndrome
@@ -639,6 +648,9 @@ cross_links:
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antitumor immune surveillance of the multi-organ neoplasms that arise in Cowden syndrome.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — PTEN loss perturbs genome stability and PTEN's nuclear functions, and the resulting cytosolic DNA can engage cGAS-STING in the lesions of Cowden syndrome.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Loss of PTEN-restrained PI3K-AKT signaling drives cyclin-D-CDK4/6 activity (cyclin-D1 and RB1 mapped) in the hamartomatous and neoplastic growths of Cowden syndrome.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis in the PTEN-deficient tumors of Cowden syndrome.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated cytotoxic immunosurveillance is the immune clearance that the multiple hamartomas and cancers of Cowden syndrome must evade.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins from infiltrating myeloid cells shape the inflammatory microenvironment of Cowden syndrome lesions.
 
 ---
 

@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/smad4
     relation: connects-to
     note: "TGF-β-SMAD signalling (TGFB1 a recognised modifier of cystic-fibrosis severity) drives the airway and pancreatic fibrosis of cystic fibrosis."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO regulates the airway epithelial oxidative-stress defense and immune-metabolic balance perturbed in the chronic infection of cystic fibrosis."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the NF-κB-driven hyperinflammation of the cystic-fibrosis airway."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Perforin-mediated cytotoxic activity by CD8 T and NK cells contributes to the immune-mediated tissue damage of the chronically infected cystic-fibrosis airway."
 ---
 
 # Cystic Fibrosis
@@ -587,6 +596,9 @@ AND
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling underlies the antiviral and antibacterial response that shapes the recurrent infections of cystic fibrosis lung disease.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — DNA from neutrophil extracellular traps and bacteria in the cystic-fibrosis airway engages cGAS-STING, amplifying the chronic airway inflammation.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGFB1 a recognized modifier of cystic-fibrosis severity) drives the airway and pancreatic fibrosis of cystic fibrosis.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO regulates the airway epithelial oxidative-stress defense and immune-metabolic balance perturbed in the chronic infection of cystic fibrosis.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the NF-κB-driven hyperinflammation of the cystic-fibrosis airway.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated cytotoxic activity by CD8 T and NK cells contributes to the immune-mediated tissue damage of the chronically infected cystic-fibrosis airway.
 
 ---
 
