@@ -357,6 +357,15 @@ cross_links:
   - target: 01-human/03-molecular/smad4
     relation: connects-to
     note: "TGF-β-SMAD signalling (TGF-β already mapped) drives the cardiac and vascular fibrosis central to adverse remodelling in cardiovascular disease."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors regulate cardiomyocyte and endothelial oxidative-stress defense, autophagy, and metabolic homeostasis across the cardiovascular system."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signaling shapes the vascular and myocardial inflammatory responses shared across cardiovascular disorders."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA sensing through cGAS-STING links cellular and mitochondrial stress to the sterile inflammation of cardiovascular disease."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"
@@ -552,6 +561,9 @@ Each major vascular bed has **autoregulation** — a local mechanism that holds 
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 drives cardiac and vascular fibrosis and is an established biomarker of heart failure and adverse cardiovascular remodeling.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling mediates cardiomyocyte hypertrophy and the vascular inflammation shared across cardiovascular diseases.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β already mapped) drives the cardiac and vascular fibrosis central to adverse remodeling in cardiovascular disease.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors regulate cardiomyocyte and endothelial oxidative-stress defense, autophagy, and metabolic homeostasis across the cardiovascular system.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the vascular and myocardial inflammatory responses shared across cardiovascular disorders.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING links cellular and mitochondrial stress to the sterile inflammation of cardiovascular disease.
 
 ## Pathology
 

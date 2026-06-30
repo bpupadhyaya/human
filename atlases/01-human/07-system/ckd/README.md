@@ -351,6 +351,15 @@ cross_links:
   - target: 01-human/03-molecular/stat1
     relation: connects-to
     note: "IFN-STAT1 signalling shapes the immune-mediated and interferon-driven inflammation of chronic kidney disease."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors regulate podocyte and tubular oxidative-stress defense whose failure accelerates the progression of chronic kidney disease."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "ERK-MAPK signaling downstream of angiotensin II and growth factors (angiotensin-II and PDGF already mapped) drives the tubulointerstitial fibrosis of chronic kidney disease."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins amplify the chronic inflammation and tubular injury that drive progression of chronic kidney disease."
 ---
 
 # Chronic Kidney Disease
@@ -538,6 +547,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling drives the tubulointerstitial inflammation and fibrotic progression of chronic kidney disease.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING links tubular cell injury to the sterile inflammation that drives progression of chronic kidney disease.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the immune-mediated and interferon-driven inflammation of chronic kidney disease.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors regulate podocyte and tubular oxidative-stress defense whose failure accelerates the progression of chronic kidney disease.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling downstream of angiotensin II and growth factors (angiotensin-II and PDGF already mapped) drives the tubulointerstitial fibrosis of chronic kidney disease.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins amplify the chronic inflammation and tubular injury that drive progression of chronic kidney disease.
 
 ## Pathology
 
