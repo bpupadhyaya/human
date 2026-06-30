@@ -343,6 +343,15 @@ cross_links:
   - target: 01-human/03-molecular/erk1-2
     relation: connects-to
     note: "RAS-ERK signalling (KRAS already mapped) provides a proliferative input in the subset of MDS that progresses toward acute myeloid leukemia."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors regulate hematopoietic stem-cell quiescence and oxidative-stress handling, programs disrupted in myelodysplastic syndromes."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "HIF-1α shapes the hypoxic bone-marrow niche and the ineffective erythropoiesis of myelodysplastic syndromes."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β dysregulation contributes to the impaired differentiation and clonal advantage of myelodysplastic-syndrome progenitors."
 ---
 
 # Myelodysplastic Syndromes
@@ -562,6 +571,9 @@ MDS → AML transformation rate: ~10% at 1 year for very-low risk; ~40-50% at 2 
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 supports the survival and bone-marrow-niche adhesion of the dysplastic clone and contributes to the inflammatory marrow microenvironment of MDS.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the immune-mediated cytopenias and the inflammatory bone-marrow milieu of MDS.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — RAS-ERK signaling (KRAS already mapped) provides a proliferative input in the subset of MDS that progresses toward acute myeloid leukemia.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors regulate hematopoietic stem-cell quiescence and oxidative-stress handling, programs disrupted in myelodysplastic syndromes.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α shapes the hypoxic bone-marrow niche and the ineffective erythropoiesis of myelodysplastic syndromes.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β dysregulation contributes to the impaired differentiation and clonal advantage of myelodysplastic-syndrome progenitors.
 
 [^fenaux-2009-aza001]: Fenaux P, Mufti GJ, Hellstrom-Lindberg E, et al. Efficacy of azacitidine compared with conventional care regimens in patients with higher-risk myelodysplastic syndromes. *Lancet Oncol.* 2009;10(3):223-232. [doi:10.1016/S1470-2045(09)70003-8](https://doi.org/10.1016/S1470-2045(09)70003-8) · [PubMed 19230772](https://pubmed.ncbi.nlm.nih.gov/19230772/)
 [^fenaux-2020-medalist]: Fenaux P, Platzbecker U, Mufti GJ, et al. Luspatercept in patients with lower-risk myelodysplastic syndromes. *N Engl J Med.* 2020;382(2):140-151. [doi:10.1056/NEJMoa1908892](https://doi.org/10.1056/NEJMoa1908892) · [PubMed 31914241](https://pubmed.ncbi.nlm.nih.gov/31914241/)

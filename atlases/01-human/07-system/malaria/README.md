@@ -348,6 +348,15 @@ cross_links:
   - target: 01-human/03-molecular/akt
     relation: connects-to
     note: "PI3K-AKT signalling is exploited by Plasmodium during the hepatocyte liver-stage infection and shapes the endothelial responses of severe malaria."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6/IL-10-STAT3 signaling shapes the inflammatory-versus-regulatory balance and the anemia of inflammation in malaria."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins released by activated myeloid cells amplify the systemic inflammation and endothelial activation of severe malaria."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors regulate the oxidative-stress and cytokine balance that tips immunopathology versus parasite control in malaria."
 ---
 
 # Malaria
@@ -616,6 +625,9 @@ cross_links:
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 amplifies the macrophage inflammatory response to Plasmodium and contributes to the endothelial activation underlying severe malaria.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-γ-STAT1 signaling drives the macrophage antiparasitic program that controls Plasmodium but also contributes to the immunopathology of severe malaria.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling is exploited by Plasmodium during the hepatocyte liver-stage infection and shapes the endothelial responses of severe malaria.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6/IL-10-STAT3 signaling shapes the inflammatory-versus-regulatory balance and the anemia of inflammation in malaria.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins released by activated myeloid cells amplify the systemic inflammation and endothelial activation of severe malaria.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors regulate the oxidative-stress and cytokine balance that tips immunopathology versus parasite control in malaria.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)
