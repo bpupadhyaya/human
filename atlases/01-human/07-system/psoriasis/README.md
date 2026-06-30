@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/smad4
     relation: connects-to
     note: "TGF-β-SMAD signalling (TGF-β already mapped) shapes the dysregulated keratinocyte proliferation and differentiation of the psoriatic epidermis."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO regulates keratinocyte differentiation and oxidative-stress balance, programs disrupted in the hyperproliferative epidermis of psoriasis."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "CDK4/6-driven cell-cycle entry (E2F1 already mapped) sustains the keratinocyte hyperproliferation that builds the psoriatic plaque."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Perforin-expressing cytotoxic CD8 (Tc17) T cells in the epidermis contribute to the keratinocyte targeting and lesion formation of psoriasis."
 ---
 
 # Psoriasis
@@ -574,6 +583,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 modulates keratinocyte and immune-cell crosstalk and amplifies the innate inflammation of psoriatic plaques.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling (type-I interferon already mapped) drives the early interferon-skewed innate activation that precedes the Th17 inflammation of psoriasis.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β already mapped) shapes the dysregulated keratinocyte proliferation and differentiation of the psoriatic epidermis.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO regulates keratinocyte differentiation and oxidative-stress balance, programs disrupted in the hyperproliferative epidermis of psoriasis.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6-driven cell-cycle entry (E2F1 already mapped) sustains the keratinocyte hyperproliferation that builds the psoriatic plaque.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-expressing cytotoxic CD8 (Tc17) T cells in the epidermis contribute to the keratinocyte targeting and lesion formation of psoriasis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
