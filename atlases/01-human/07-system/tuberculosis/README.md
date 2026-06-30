@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/erk1-2
     relation: connects-to
     note: "ERK-MAPK signalling downstream of pattern-recognition receptors tunes the macrophage cytokine response (including TNF-α) to Mycobacterium tuberculosis."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors regulate macrophage autophagy and antimicrobial gene programs that determine control of intracellular Mtb."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "Class I PI3K (PIK3CA) signaling shapes macrophage autophagy and the inflammatory cytokine output that tips containment versus progression of Mtb."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "Calprotectin (S100A8/A9) released by neutrophils in TB granulomas amplifies inflammation and contributes to tissue destruction and cavitation."
 ---
 
 # Tuberculosis
@@ -581,6 +590,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 accumulates around the phagosomal membrane damaged by Mycobacterium tuberculosis, marking the bacillus for selective autophagy within the macrophage.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling promotes the survival of Mtb-infected macrophages and is subverted by the bacillus to inhibit phagosome maturation in the granuloma.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling downstream of pattern-recognition receptors tunes the macrophage cytokine response (including TNF-α) to Mycobacterium tuberculosis.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors regulate macrophage autophagy and antimicrobial gene programs that determine control of intracellular Mtb.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Class I PI3K (PIK3CA) signaling shapes macrophage autophagy and the inflammatory cytokine output that tips containment versus progression of Mtb.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Calprotectin (S100A8/A9) released by neutrophils in TB granulomas amplifies inflammation and contributes to tissue destruction and cavitation.
 
 ## See Also
 

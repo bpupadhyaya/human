@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/smad4
     relation: connects-to
     note: "TGF-β-SMAD signalling (TGF-β already mapped) contributes to the fibrotic and matrix-remodelling component of TSC-associated lesions including pulmonary lymphangioleiomyomatosis."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "TSC1/TSC2 loss drives mTORC1-AKT activity that inactivates FOXO, removing a growth-restraining, pro-autophagy brake in TSC hamartomas."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "CDK4/6-driven cyclin-D1-RB1 cell-cycle entry (cyclin-D1 and RB1 already mapped) sustains the proliferative hamartomatous growth of TSC lesions."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 is expressed in TSC-associated tumors such as angiomyolipoma and LAM, shaping their inflammatory and fibrotic stroma."
 ---
 
 # Tuberous Sclerosis Complex
@@ -587,6 +596,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — mTORC1 hyperactivation perturbs autophagy and mitochondrial quality control, and the resulting cytosolic DNA can engage cGAS-STING within the lesions of tuberous sclerosis complex.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the immune microenvironment of TSC-associated tumors such as angiomyolipoma and lymphangioleiomyomatosis.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β already mapped) contributes to the fibrotic and matrix-remodeling component of TSC-associated lesions including pulmonary lymphangioleiomyomatosis.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — TSC1/TSC2 loss drives mTORC1-AKT activity that inactivates FOXO, removing a growth-restraining, pro-autophagy brake in TSC hamartomas.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6-driven cyclin-D1-RB1 cell-cycle entry (cyclin-D1 and RB1 already mapped) sustains the proliferative hamartomatous growth of TSC lesions.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 is expressed in TSC-associated tumors such as angiomyolipoma and LAM, shaping their inflammatory and fibrotic stroma.
 
 ---
 
