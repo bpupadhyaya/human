@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/cgas-sting
     relation: connects-to
     note: "Cytosolic mitochondrial DNA from hyperglycaemia-stressed retinal cells engages cGAS-STING, contributing to the chronic inflammation of diabetic retinopathy."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signaling in retinal microglia and endothelium contributes to the chronic neuroinflammation of diabetic retinopathy."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO1 in retinal endothelial cells drives pericyte loss and the breakdown of the blood-retinal barrier in diabetic retinopathy."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9-RAGE signaling (RAGE already mapped) amplifies the inflammatory microvascular damage of diabetic retinopathy."
 ---
 
 # Diabetic Retinopathy
@@ -569,6 +578,9 @@ DR encompasses a spectrum from subtle vascular changes to sight-threatening neov
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 released by activated retinal microglia and Müller glia amplifies the neuroinflammation and pathological angiogenesis of diabetic retinopathy.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling drives the fibrovascular membrane formation and tractional retinal detachment of advanced proliferative diabetic retinopathy.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic mitochondrial DNA from hyperglycemia-stressed retinal cells engages cGAS-STING, contributing to the chronic inflammation of diabetic retinopathy.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling in retinal microglia and endothelium contributes to the chronic neuroinflammation of diabetic retinopathy.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO1 in retinal endothelial cells drives pericyte loss and the breakdown of the blood-retinal barrier in diabetic retinopathy.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9-RAGE signaling (RAGE already mapped) amplifies the inflammatory microvascular damage of diabetic retinopathy.
 
 [^fong-2004-dr-review]: Fong DS, Aiello L, Gardner TW, et al. Diabetic retinopathy. *Diabetes Care.* 2004;27(10):2540-2553. [doi:10.2337/diacare.27.10.2540](https://doi.org/10.2337/diacare.27.10.2540) · [PubMed 15451934](https://pubmed.ncbi.nlm.nih.gov/15451934/)
 [^brown-2015-aflibercept-protocol-t]: Diabetic Retinopathy Clinical Research Network; Wells JA, Glassman AR, et al. Aflibercept, Bevacizumab, or Ranibizumab for Diabetic Macular Edema. *N Engl J Med.* 2015;372(13):1193-1203. [doi:10.1056/NEJMoa1414264](https://doi.org/10.1056/NEJMoa1414264) · [PubMed 25692915](https://pubmed.ncbi.nlm.nih.gov/25692915/)

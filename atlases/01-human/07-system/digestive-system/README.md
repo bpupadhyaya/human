@@ -361,6 +361,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "HIF-1α responds to the steep physiological oxygen gradient of the gut lumen and supports the barrier function and metabolism of the intestinal epithelium."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signaling (TGF-β already mapped) governs epithelial homeostasis, mucosal fibrosis, and the regulatory immune tone of the digestive tract."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6-STAT3 signaling drives the epithelial regeneration and mucosal inflammatory tone of the gastrointestinal tract."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors regulate intestinal stem-cell homeostasis and the metabolic and oxidative-stress responses of the gut epithelium."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -564,6 +573,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [Galectin-3](../../03-molecular/galectin-3/README.md) — mucosal immunity and repair: galectin-3 modulates mucosal immunity and epithelial repair in the gut and contributes to the fibrosis that follows chronic intestinal inflammation.
 - **Connects to:** [cGAS-STING](../../03-molecular/cgas-sting/README.md) — DNA-sensing in the mucosa: cytosolic DNA sensing through cGAS-STING links microbial and damage-associated DNA to the inflammatory tone of the gut.
 - **Connects to:** [HIF-1alpha](../../03-molecular/hif-1alpha/README.md) — physiological gut hypoxia: HIF-1α responds to the steep oxygen gradient of the gut lumen and supports the barrier function and metabolism of the intestinal epithelium.
+- **Connects to:** [SMAD4](../../03-molecular/smad4/README.md) — epithelial homeostasis and fibrosis: TGF-β-SMAD signaling (TGF-β already mapped) governs epithelial homeostasis, mucosal fibrosis, and the regulatory immune tone of the digestive tract.
+- **Connects to:** [STAT3](../../03-molecular/stat3/README.md) — mucosal regeneration: IL-6-STAT3 signaling drives the epithelial regeneration and mucosal inflammatory tone of the gastrointestinal tract.
+- **Connects to:** [FOXO](../../03-molecular/foxo/README.md) — epithelial stem-cell homeostasis: FOXO transcription factors regulate intestinal stem-cell homeostasis and the metabolic and oxidative-stress responses of the gut epithelium.
 
 ## Pathology
 
