@@ -346,6 +346,15 @@ cross_links:
   - target: 01-human/03-molecular/galectin-3
     relation: connects-to
     note: "Galectin-3 amplifies the macrophage-driven airway inflammation of COPD and serves as a biomarker of disease activity."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6-STAT3 signalling drives the chronic airway inflammation and mucus responses central to the progression of COPD."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cigarette-smoke-induced DNA damage releases cytosolic DNA that engages cGAS-STING, amplifying the sterile inflammation and cellular senescence of COPD."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling underlies the antiviral response that drives the viral exacerbations of COPD."
 ---
 
 # COPD
@@ -598,6 +607,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT-mTOR signaling (mTOR mapped) governs alveolar-epithelial survival and the cellular senescence implicated in emphysema and COPD progression.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — EGFR-ERK-MAPK signaling (EGFR mapped) drives the airway mucus hypersecretion and epithelial remodeling of chronic bronchitis in COPD.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 amplifies the macrophage-driven airway inflammation of COPD and serves as a biomarker of disease activity.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling drives the chronic airway inflammation and mucus responses central to the progression of COPD.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cigarette-smoke-induced DNA damage releases cytosolic DNA that engages cGAS-STING, amplifying the sterile inflammation and cellular senescence of COPD.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling underlies the antiviral response that drives the viral exacerbations of COPD.
 
 ---
 

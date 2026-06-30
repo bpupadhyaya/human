@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/smad4
     relation: connects-to
     note: "TGF-β-SMAD signalling (TGF-β mapped) modulates the dysplastic haematopoiesis and marrow microenvironment of CMML."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the inflammatory bone-marrow milieu and immune surveillance of chronic myelomonocytic leukemia."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA sensing through cGAS-STING amplifies the inflammatory marrow microenvironment characteristic of chronic myelomonocytic leukemia."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "CDK4/6-cyclin-D activity drives the myeloproliferative cell-cycle progression of chronic myelomonocytic leukemia, often alongside CDKN2A loss."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -573,6 +582,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3, abundantly expressed by the monocytic lineage that expands in CMML, supports monocyte/macrophage survival and the inflammatory phenotype of the disease.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN restraint of PI3K-AKT-mTOR signaling (AKT, PIK3CA and mTOR mapped) downstream of the RAS-pathway mutations (KRAS and PTPN11 mapped) shapes proliferation in CMML.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β mapped) modulates the dysplastic hematopoiesis and marrow microenvironment of CMML.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the inflammatory bone-marrow milieu and immune surveillance of chronic myelomonocytic leukemia.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING amplifies the inflammatory marrow microenvironment characteristic of chronic myelomonocytic leukemia.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6-cyclin-D activity drives the myeloproliferative cell-cycle progression of chronic myelomonocytic leukemia, often alongside CDKN2A loss.
 
 ---
 
