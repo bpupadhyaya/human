@@ -346,6 +346,15 @@ cross_links:
   - target: 01-human/03-molecular/cgas-sting
     relation: connects-to
     note: "Cytosolic DNA released by damaged cells engages cGAS-STING to drive the early inflammatory signalling that initiates wound healing."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors regulate keratinocyte migration, oxidative-stress handling, and TGF-β output during repair; their dysregulation underlies chronic non-healing diabetic wounds."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "JAK1/2-STAT signaling downstream of inflammatory cytokines (IL-6 already mapped) coordinates the inflammatory-to-proliferative transition of wound healing."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "Class I PI3K (PIK3CA)-AKT signaling (AKT already mapped) drives the keratinocyte and fibroblast migration and proliferation of the proliferative phase of wound healing."
 ---
 
 # Wound Healing
@@ -574,6 +583,9 @@ cross_links:
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 promotes macrophage activation, re-epithelialization and the fibrotic phase of tissue repair in wound healing.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the inflammatory phase of wound healing and the macrophage polarization balance that governs resolution versus chronic non-healing.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA released by damaged cells engages cGAS-STING to drive the early inflammatory signaling that initiates wound healing.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors regulate keratinocyte migration, oxidative-stress handling, and TGF-β output during repair; their dysregulation underlies chronic non-healing diabetic wounds.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK1/2-STAT signaling downstream of inflammatory cytokines (IL-6 already mapped) coordinates the inflammatory-to-proliferative transition of wound healing.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Class I PI3K (PIK3CA)-AKT signaling (AKT already mapped) drives the keratinocyte and fibroblast migration and proliferation of the proliferative phase of wound healing.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)
