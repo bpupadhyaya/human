@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/pik3ca
     relation: connects-to
     note: "PI3K-AKT signalling (AKT already mapped) supports the T-cell and macrophage activation that drives the granulomatous inflammation of giant-cell arteritis."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO regulates the T-cell and vascular smooth-muscle oxidative-stress responses relevant to the arterial inflammation of giant-cell arteritis."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "CDK4/6-driven vascular smooth-muscle and myofibroblast proliferation contributes to the intimal hyperplasia and luminal occlusion of giant-cell arteritis."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β participates in the T-cell activation and Notch signaling (Notch already mapped) that drive the vascular inflammation of giant-cell arteritis."
 ---
 
 # Giant Cell Arteritis
@@ -574,6 +583,9 @@ The temporal arteries supply scalp, temporalis muscle, and dura. In GCA, transmu
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β already mapped) drives the intimal hyperplasia and vascular remodeling that occlude the arteries in giant-cell arteritis.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING contributes to the innate inflammatory activation of the arterial wall in giant-cell arteritis.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K-AKT signaling (AKT already mapped) supports the T-cell and macrophage activation that drives the granulomatous inflammation of giant-cell arteritis.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO regulates the T-cell and vascular smooth-muscle oxidative-stress responses relevant to the arterial inflammation of giant-cell arteritis.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6-driven vascular smooth-muscle and myofibroblast proliferation contributes to the intimal hyperplasia and luminal occlusion of giant-cell arteritis.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β participates in the T-cell activation and Notch signaling (Notch already mapped) that drive the vascular inflammation of giant-cell arteritis.
 
 [^stone-2017-giact]: Stone JH, Tuckwell K, Dimonaco S, et al. Trial of tocilizumab in giant-cell arteritis. *N Engl J Med.* 2017;377(4):317-328. [doi:10.1056/NEJMoa1613849](https://doi.org/10.1056/NEJMoa1613849) · [PubMed 28745999](https://pubmed.ncbi.nlm.nih.gov/28745999/)
 [^weyand-2014-gca-review]: Weyand CM, Goronzy JJ. Clinical practice. Giant-cell arteritis and polymyalgia rheumatica. *N Engl J Med.* 2014;371(1):50-57. [doi:10.1056/NEJMcp1214926](https://doi.org/10.1056/NEJMcp1214926) · [PubMed 24988557](https://pubmed.ncbi.nlm.nih.gov/24988557/)
