@@ -352,6 +352,15 @@ cross_links:
   - target: 01-human/03-molecular/cgas-sting
     relation: connects-to
     note: "Cholesterol-crystal and mitochondrial DNA engagement of cGAS-STING amplifies the sterile inflammation of the atherosclerotic plaque in familial hypercholesterolemia."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors regulate hepatic lipid metabolism and the endothelial oxidative-stress response relevant to the accelerated atherosclerosis of familial hypercholesterolemia."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signaling shapes the macrophage inflammatory activation within the cholesterol-laden atherosclerotic plaques of familial hypercholesterolemia."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "JAK1/2-STAT cytokine signaling (IL-6-STAT3 already mapped) amplifies the vascular inflammation driving premature atherosclerosis in familial hypercholesterolemia."
 ---
 
 # Familial Hypercholesterolemia
@@ -571,6 +580,9 @@ FH is a **monogenic autosomal dominant disorder** caused by mutations in three g
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling transduces the vascular inflammation that accelerates atherosclerotic plaque progression in familial hypercholesterolemia.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β already mapped) shapes the fibrous-cap formation and plaque stability of the accelerated atherosclerosis of familial hypercholesterolemia.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cholesterol-crystal and mitochondrial DNA engagement of cGAS-STING amplifies the sterile inflammation of the atherosclerotic plaque in familial hypercholesterolemia.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors regulate hepatic lipid metabolism and the endothelial oxidative-stress response relevant to the accelerated atherosclerosis of familial hypercholesterolemia.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the macrophage inflammatory activation within the cholesterol-laden atherosclerotic plaques of familial hypercholesterolemia.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK1/2-STAT cytokine signaling (IL-6-STAT3 already mapped) amplifies the vascular inflammation driving premature atherosclerosis in familial hypercholesterolemia.
 
 [^goldstein-1985-ldlr-nobel]: Goldstein JL, Brown MS. The LDL receptor. *Arterioscler Thromb Vasc Biol.* 2009;29(4):431-438. [doi:10.1161/ATVBAHA.108.179564](https://doi.org/10.1161/ATVBAHA.108.179564) · [PubMed 19299327](https://pubmed.ncbi.nlm.nih.gov/19299327/)
 [^raal-2020-inclisiran-fh]: Raal FJ, Kallend D, Ray KK, et al. Inclisiran for the Treatment of Heterozygous Familial Hypercholesterolemia. *N Engl J Med.* 2020;382(16):1520-1530. [doi:10.1056/NEJMoa1913805](https://doi.org/10.1056/NEJMoa1913805) · [PubMed 32197277](https://pubmed.ncbi.nlm.nih.gov/32197277/)
