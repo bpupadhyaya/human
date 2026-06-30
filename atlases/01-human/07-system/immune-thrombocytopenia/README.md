@@ -348,6 +348,15 @@ cross_links:
   - target: 01-human/03-molecular/galectin-3
     relation: connects-to
     note: "Galectin-3 modulates the macrophage-mediated platelet clearance and immune dysregulation of immune thrombocytopenia."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the dysregulated T-cell and interferon response that drives the anti-platelet autoimmunity of immune thrombocytopenia."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA sensing through cGAS-STING contributes to the loss of tolerance and inflammatory tone of immune thrombocytopenia."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K-AKT signalling (AKT already mapped) supports the survival of the autoreactive B and T cells driving immune thrombocytopenia."
 ---
 
 # Immune Thrombocytopenia
@@ -593,6 +602,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling downstream of BAFF and the TPO receptor MPL (both mapped) participates in both the autoimmunity and the megakaryocyte responses of immune thrombocytopenia.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR-regulated T-cell metabolism shapes the regulatory-T-cell deficiency of ITP, and mTOR inhibition (sirolimus) restores tolerance in refractory disease.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 modulates the macrophage-mediated platelet clearance and immune dysregulation of immune thrombocytopenia.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the dysregulated T-cell and interferon response that drives the anti-platelet autoimmunity of immune thrombocytopenia.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING contributes to the loss of tolerance and inflammatory tone of immune thrombocytopenia.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K-AKT signaling (AKT already mapped) supports the survival of the autoreactive B and T cells driving immune thrombocytopenia.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)

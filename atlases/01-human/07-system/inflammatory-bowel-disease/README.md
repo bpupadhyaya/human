@@ -346,6 +346,15 @@ cross_links:
   - target: 01-human/03-molecular/smad4
     relation: connects-to
     note: "TGF-β-SMAD signalling (TGF-β mapped) drives both regulatory-T-cell tolerance and the intestinal fibrosis (strictures) of inflammatory bowel disease."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-γ-STAT1 signalling drives the Th1 epithelial injury characteristic of the mucosal inflammation of inflammatory bowel disease."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "ERK-MAPK signalling in intestinal epithelium and immune cells transduces the cytokine stimuli that sustain the inflammation of inflammatory bowel disease."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K-AKT signalling (AKT already mapped) shapes the immune-cell activation and epithelial responses of inflammatory bowel disease."
 ---
 
 # Inflammatory Bowel Disease
@@ -583,6 +592,9 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT-mTOR signaling (mTOR mapped) regulates intestinal-epithelial survival and restitution, processes disrupted in the barrier failure of inflammatory bowel disease.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 modulates the mucosal macrophage and epithelial inflammatory responses of inflammatory bowel disease.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β mapped) drives both regulatory-T-cell tolerance and the intestinal fibrosis (strictures) of inflammatory bowel disease.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-γ-STAT1 signaling drives the Th1 epithelial injury characteristic of the mucosal inflammation of inflammatory bowel disease.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling in intestinal epithelium and immune cells transduces the cytokine stimuli that sustain the inflammation of inflammatory bowel disease.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K-AKT signaling (AKT already mapped) shapes the immune-cell activation and epithelial responses of inflammatory bowel disease.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)
