@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/gsk-3b
     relation: connects-to
     note: "GSK-3β signalling modulates the neural-progenitor proliferation and survival programmes hijacked by diffuse midline glioma."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis in diffuse midline glioma."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins shape the immunosuppressive microenvironment of diffuse midline glioma."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-kinase signaling downstream of PDGFR (PDGF already mapped) drives the invasive signaling of diffuse midline glioma."
 ---
 
 # Diffuse Midline Glioma
@@ -598,6 +607,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the immunologically cold microenvironment of diffuse midline glioma, a barrier to its immunotherapy.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors integrate the metabolic and oxidative stress of the H3K27M-driven tumor cells of diffuse midline glioma.
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β signaling modulates the neural-progenitor proliferation and survival programs hijacked by diffuse midline glioma.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis in diffuse midline glioma.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins shape the immunosuppressive microenvironment of diffuse midline glioma.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-kinase signaling downstream of PDGFR (PDGF already mapped) drives the invasive signaling of diffuse midline glioma.
 
 ---
 

@@ -355,6 +355,15 @@ cross_links:
   - target: 01-human/03-molecular/stat1
     relation: connects-to
     note: "IFN-STAT1 signalling shapes the interferon component of the systemic inflammation (often sepsis-driven) underlying disseminated intravascular coagulation."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO downstream of PI3K-AKT signaling (AKT and PIK3CA already mapped) regulates the endothelial activation balance disrupted in the thromboinflammation of disseminated intravascular coagulation."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "HIF-1α in the hypoxic, microthrombosed tissues amplifies the endothelial dysfunction of disseminated intravascular coagulation."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signaling drives the organ fibrosis that can follow the microvascular ischemic injury of disseminated intravascular coagulation."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -598,6 +607,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling transduces the inflammatory cytokine response that drives the tissue-factor expression and procoagulant state of disseminated intravascular coagulation.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K-AKT signaling (AKT already mapped) in platelets and endothelium supports the activated, procoagulant phenotype of disseminated intravascular coagulation.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the interferon component of the systemic inflammation (often sepsis-driven) underlying disseminated intravascular coagulation.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO downstream of PI3K-AKT signaling (AKT and PIK3CA already mapped) regulates the endothelial activation balance disrupted in the thromboinflammation of disseminated intravascular coagulation.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α in the hypoxic, microthrombosed tissues amplifies the endothelial dysfunction of disseminated intravascular coagulation.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling drives the organ fibrosis that can follow the microvascular ischemic injury of disseminated intravascular coagulation.
 
 ---
 
