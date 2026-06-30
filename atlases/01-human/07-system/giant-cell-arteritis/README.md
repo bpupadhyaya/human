@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/galectin-3
     relation: connects-to
     note: "Galectin-3 amplifies the macrophage-driven vascular inflammation of giant-cell arteritis."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling (TGF-β already mapped) drives the intimal hyperplasia and vascular remodelling that occlude the arteries in giant-cell arteritis."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA sensing through cGAS-STING contributes to the innate inflammatory activation of the arterial wall in giant-cell arteritis."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K-AKT signalling (AKT already mapped) supports the T-cell and macrophage activation that drives the granulomatous inflammation of giant-cell arteritis."
 ---
 
 # Giant Cell Arteritis
@@ -562,6 +571,9 @@ The temporal arteries supply scalp, temporalis muscle, and dura. In GCA, transmu
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-γ signaling through STAT1 (IFN-γ mapped) drives the macrophage and Th1 activation central to the granulomatous vascular inflammation of giant-cell arteritis.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT-mTOR signaling (mTOR mapped) sustains the pathogenic T-cell responses and vascular-smooth-muscle proliferation of giant-cell arteritis.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 amplifies the macrophage-driven vascular inflammation of giant-cell arteritis.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β already mapped) drives the intimal hyperplasia and vascular remodeling that occlude the arteries in giant-cell arteritis.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING contributes to the innate inflammatory activation of the arterial wall in giant-cell arteritis.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K-AKT signaling (AKT already mapped) supports the T-cell and macrophage activation that drives the granulomatous inflammation of giant-cell arteritis.
 
 [^stone-2017-giact]: Stone JH, Tuckwell K, Dimonaco S, et al. Trial of tocilizumab in giant-cell arteritis. *N Engl J Med.* 2017;377(4):317-328. [doi:10.1056/NEJMoa1613849](https://doi.org/10.1056/NEJMoa1613849) · [PubMed 28745999](https://pubmed.ncbi.nlm.nih.gov/28745999/)
 [^weyand-2014-gca-review]: Weyand CM, Goronzy JJ. Clinical practice. Giant-cell arteritis and polymyalgia rheumatica. *N Engl J Med.* 2014;371(1):50-57. [doi:10.1056/NEJMcp1214926](https://doi.org/10.1056/NEJMcp1214926) · [PubMed 24988557](https://pubmed.ncbi.nlm.nih.gov/24988557/)

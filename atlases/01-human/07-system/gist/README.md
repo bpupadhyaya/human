@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "TGF-β within the tumour microenvironment modulates the invasive and immune behaviour of GIST."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the antitumour immune response of GIST, relevant to combining immunotherapy with KIT-targeted therapy."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "CDK4/6-cyclin-D activity (cyclin-D1, CDKN2A and RB1 already mapped) drives the cell-cycle progression downstream of KIT/PDGFRA in GIST."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA sensing through cGAS-STING modulates the immune microenvironment of gastrointestinal stromal tumour."
 ---
 
 # GIST
@@ -578,6 +587,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[EPAS1](../../03-molecular/epas1/README.md)** — In SDH-deficient GIST, succinate accumulation stabilizes HIF-2α (EPAS1), producing a pseudohypoxic transcriptional program (EGLN1 and HIF-1α mapped) that drives tumorigenesis.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 contributes to the survival and stromal interactions of gastrointestinal stromal tumors.
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β within the tumor microenvironment modulates the invasive and immune behavior of GIST.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antitumor immune response of GIST, relevant to combining immunotherapy with KIT-targeted therapy.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6-cyclin-D activity (cyclin-D1, CDKN2A and RB1 already mapped) drives the cell-cycle progression downstream of KIT/PDGFRA in GIST.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING modulates the immune microenvironment of gastrointestinal stromal tumor.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
