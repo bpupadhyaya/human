@@ -352,6 +352,15 @@ cross_links:
   - target: 01-human/03-molecular/cxcl12
     relation: connects-to
     note: "CXCL12-CXCR4 chemokine signalling directs the trafficking of alloreactive donor T cells to the target organs of graft-versus-host disease."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO regulates the alloreactive T-cell survival and tissue oxidative-stress responses that shape graft-versus-host disease."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "HIF-1α-driven metabolic reprogramming of alloreactive T cells and the hypoxic inflamed target tissues contributes to graft-versus-host disease."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "CDK4/6-driven cell-cycle activity fuels the clonal expansion of alloreactive donor T cells in graft-versus-host disease, an emerging therapeutic target."
 ---
 
 # Graft-Versus-Host Disease
@@ -601,6 +610,9 @@ The protective Treg/IL-10 axis is the key biological counterbalance to alloreact
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K-AKT signaling (AKT already mapped) drives the proliferation and effector differentiation of the alloreactive donor T cells that mediate graft-versus-host disease.
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — EZH2-mediated epigenetic programming of alloreactive donor T cells shapes their pathogenicity in graft-versus-host disease, an emerging therapeutic target.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 chemokine signaling directs the trafficking of alloreactive donor T cells to the target organs of graft-versus-host disease.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO regulates the alloreactive T-cell survival and tissue oxidative-stress responses that shape graft-versus-host disease.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α-driven metabolic reprogramming of alloreactive T cells and the hypoxic inflamed target tissues contributes to graft-versus-host disease.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6-driven cell-cycle activity fuels the clonal expansion of alloreactive donor T cells in graft-versus-host disease, an emerging therapeutic target.
 
 [^ferrara-2009-gvhd-review]: Ferrara JL, Levine JE, Reddy P, Holler E. Graft-versus-host disease. *Lancet.* 2009;373(9674):1550-1561. [doi:10.1016/S0140-6736(09)60237-3](https://doi.org/10.1016/S0140-6736(09)60237-3) · [PubMed 19380114](https://pubmed.ncbi.nlm.nih.gov/19380114/)
 [^zeiser-2020-ruxolitinib-gvhd-reach]: Zeiser R, von Bubnoff N, Butler J, et al. Ruxolitinib for Glucocorticoid-Refractory Acute Graft-versus-Host Disease. *N Engl J Med.* 2020;382(19):1800-1810. [doi:10.1056/NEJMoa1917635](https://doi.org/10.1056/NEJMoa1917635) · [PubMed 32374962](https://pubmed.ncbi.nlm.nih.gov/32374962/)
