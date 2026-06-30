@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/ezh2
     relation: connects-to
     note: "EZH2-mediated polycomb repression contributes to the silencing of B-cell identity genes in the Reed-Sternberg cells of Hodgkin lymphoma."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors, antagonized by the constitutive PI3K-AKT and JAK-STAT signaling of Reed-Sternberg cells (AKT and JAK1/2 already mapped), are inactivated in Hodgkin lymphoma."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins shape the abundant reactive inflammatory infiltrate that characterizes Hodgkin lymphoma."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "ERK-MAPK signaling downstream of CD30 and other receptors (CD30 already mapped) contributes to the survival of the Reed-Sternberg cells of Hodgkin lymphoma."
 ---
 
 # Hodgkin Lymphoma
@@ -581,6 +590,9 @@ Modern protocols minimize RT fields and doses (ISRT replacing extended-field RT)
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antitumor immune response of Hodgkin lymphoma, central to its highly effective PD-1 checkpoint immunotherapy.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING modulates the inflammatory, immune-cell-rich microenvironment of Hodgkin lymphoma.
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — EZH2-mediated polycomb repression contributes to the silencing of B-cell identity genes in the Reed-Sternberg cells of Hodgkin lymphoma.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors, antagonized by the constitutive PI3K-AKT and JAK-STAT signaling of Reed-Sternberg cells (AKT and JAK1/2 already mapped), are inactivated in Hodgkin lymphoma.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins shape the abundant reactive inflammatory infiltrate that characterizes Hodgkin lymphoma.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling downstream of CD30 and other receptors (CD30 already mapped) contributes to the survival of the Reed-Sternberg cells of Hodgkin lymphoma.
 
 [^connors-2018-echelon1]: Connors JM, Jurczak W, Straus DJ, et al. Brentuximab vedotin with chemotherapy for stage III or IV Hodgkin's lymphoma. *N Engl J Med.* 2018;378(4):331-344. [doi:10.1056/NEJMoa1708984](https://doi.org/10.1056/NEJMoa1708984) · [PubMed 29360494](https://pubmed.ncbi.nlm.nih.gov/29360494/)
 [^armand-2018-nivo-hl]: Armand P, Engert A, Younes A, et al. Nivolumab for relapsed/refractory classic Hodgkin lymphoma after failure of autologous hematopoietic cell transplantation: extended follow-up of the multicohort single-arm phase II CheckMate 205 trial. *J Clin Oncol.* 2018;36(14):1428-1439. [doi:10.1200/JCO.2017.77.6717](https://doi.org/10.1200/JCO.2017.77.6717) · [PubMed 29584546](https://pubmed.ncbi.nlm.nih.gov/29584546/)

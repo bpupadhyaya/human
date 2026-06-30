@@ -336,6 +336,15 @@ cross_links:
   - target: 01-human/03-molecular/smad4
     relation: connects-to
     note: "TGF-β-SMAD signalling shapes the neuroprotective-versus-inflammatory glial balance in the striatal degeneration of Huntington's disease."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins released by activated microglia amplify the neuroinflammation of Huntington's disease."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "HIF-1α-linked metabolic and mitochondrial stress responses contribute to the striatal neurodegeneration of Huntington's disease."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "Aberrant CDK4/6-driven cell-cycle re-entry of post-mitotic neurons contributes to the neuronal death of Huntington's disease."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -493,3 +502,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling (cGAS-STING already mapped) drives the interferon-responsive microglial activation of the neuroinflammation in Huntington's disease.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors (notably FOXO3) promote the autophagy and proteostasis that clear mutant huntingtin, a neuroprotective axis in Huntington's disease.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling shapes the neuroprotective-versus-inflammatory glial balance in the striatal degeneration of Huntington's disease.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins released by activated microglia amplify the neuroinflammation of Huntington's disease.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α-linked metabolic and mitochondrial stress responses contribute to the striatal neurodegeneration of Huntington's disease.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Aberrant CDK4/6-driven cell-cycle re-entry of post-mitotic neurons contributes to the neuronal death of Huntington's disease.
