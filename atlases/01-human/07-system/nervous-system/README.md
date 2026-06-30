@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/gsk-3b
     relation: connects-to
     note: "GSK-3β is a pivotal neuronal kinase regulating synaptic plasticity, neuronal polarity and survival, and a target of the mood-stabiliser lithium."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "STAT3 drives the reactive astrogliosis and glial-scar formation that are a core response to injury across the nervous system."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "cGAS-STING sensing of cytosolic and mitochondrial DNA links neuronal damage to the innate neuroinflammation common to neurodegeneration and CNS injury."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling drives the interferon-responsive microglial activation that shapes neuroinflammation across the nervous system."
 ---
 
 # Nervous System
@@ -495,6 +504,9 @@ Distributed cortical networks underlie language (Broca's area, Wernicke's area, 
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT-mTOR signaling (mTOR mapped) is a central survival and growth pathway for neurons, governing plasticity and the response to neurotrophins (BDNF/NTRK mapped).
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Microglial galectin-3 is a key effector of the neuroinflammatory responses that shape injury and disease across the nervous system.
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β is a pivotal neuronal kinase regulating synaptic plasticity, neuronal polarity and survival, and a target of the mood-stabilizer lithium.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 drives the reactive astrogliosis and glial-scar formation that are a core response to injury across the nervous system.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — cGAS-STING sensing of cytosolic and mitochondrial DNA links neuronal damage to the innate neuroinflammation common to neurodegeneration and CNS injury.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling drives the interferon-responsive microglial activation that shapes neuroinflammation across the nervous system.
 
 ## Pathology
 
