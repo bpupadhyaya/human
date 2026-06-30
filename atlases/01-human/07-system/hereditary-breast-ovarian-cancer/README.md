@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/erk1-2
     relation: connects-to
     note: "ERK-MAPK signalling downstream of EGFR/HER2 (both mapped) provides a proliferative input in BRCA-associated breast and ovarian cancers."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "BRCA deficiency floods the cytosol with DNA that activates cGAS-STING (mapped) and IFN-STAT1 signalling, shaping the immunogenicity of BRCA-associated cancers."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6-STAT3 signalling supports the survival and immune evasion of the BRCA-associated breast and ovarian cancers."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling shapes the invasion and microenvironment of the BRCA-associated breast and ovarian cancers."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -583,6 +592,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 promotes invasion and immune evasion in the breast and ovarian cancers of hereditary breast-ovarian cancer syndrome.
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β signaling, a context-dependent regulator, shapes EMT, invasion and the immunosuppressive microenvironment in BRCA-associated cancers.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling downstream of EGFR/HER2 (both mapped) provides a proliferative input in BRCA-associated breast and ovarian cancers.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — BRCA deficiency floods the cytosol with DNA that activates cGAS-STING (mapped) and IFN-STAT1 signaling, shaping the immunogenicity of BRCA-associated cancers.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling supports the survival and immune evasion of the BRCA-associated breast and ovarian cancers.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling shapes the invasion and microenvironment of the BRCA-associated breast and ovarian cancers.
 
 ---
 

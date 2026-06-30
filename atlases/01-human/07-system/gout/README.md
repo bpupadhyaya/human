@@ -346,6 +346,15 @@ cross_links:
   - target: 01-human/03-molecular/erk1-2
     relation: connects-to
     note: "ERK-MAPK signalling is engaged by urate-crystal sensing, contributing to the neutrophil and macrophage activation of the acute gout flare."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6-STAT3 signalling transduces the inflammatory cytokine response amplifying the acute and chronic inflammation of gout."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "DNA within neutrophil extracellular traps and damaged cells around urate crystals engages cGAS-STING, amplifying the sterile inflammation of the gout flare."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling participates in the resolution of the gout flare and the fibrotic encapsulation of chronic tophi."
 ---
 
 # Gout
@@ -548,6 +557,9 @@ The central mechanism linking MSU crystals to acute gouty arthritis is **NLRP3 i
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 is released by urate-crystal-activated macrophages, amplifying the inflammation and contributing to tophus formation in gout.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling (mTOR mapped) participates in the macrophage priming that licenses NLRP3-inflammasome activation by urate crystals in gout.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling is engaged by urate-crystal sensing, contributing to the neutrophil and macrophage activation of the acute gout flare.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling transduces the inflammatory cytokine response amplifying the acute and chronic inflammation of gout.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — DNA within neutrophil extracellular traps and damaged cells around urate crystals engages cGAS-STING, amplifying the sterile inflammation of the gout flare.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling participates in the resolution of the gout flare and the fibrotic encapsulation of chronic tophi.
 
 [^dalbeth-2019-gout-primer]: Dalbeth N, Choi HK, Joosten LAB, et al. Gout. *Nat Rev Dis Primers.* 2019;5(1):69. [doi:10.1038/s41572-019-0115-y](https://doi.org/10.1038/s41572-019-0115-y) · [PubMed 31558729](https://pubmed.ncbi.nlm.nih.gov/31558729/)
 [^martinon-2006-nlrp3-gout]: Martinon F, Pétrilli V, Mayor A, Tardivel A, Tschopp J. Gout-associated uric acid crystals activate the NALP3 inflammasome. *Nature.* 2006;440(7081):237-241. [doi:10.1038/nature04516](https://doi.org/10.1038/nature04516) · [PubMed 16407889](https://pubmed.ncbi.nlm.nih.gov/16407889/)
