@@ -343,6 +343,15 @@ cross_links:
   - target: 01-human/03-molecular/pik3ca
     relation: connects-to
     note: "Leishmania subverts macrophage PI3K-AKT signalling (AKT already mapped) to suppress the microbicidal program and promote its intracellular survival."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors regulate macrophage autophagy and antimicrobial gene programs that determine control versus persistence of intracellular Leishmania."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins released by recruited myeloid cells amplify the inflammation of cutaneous and visceral leishmaniasis lesions."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the macrophage inflammatory-versus-anti-inflammatory polarization that governs the intracellular survival of Leishmania."
 ---
 
 # Leishmaniasis
@@ -553,3 +562,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 recognizes Leishmania surface glycoconjugates and modulates the macrophage inflammatory response that determines parasite control versus persistence.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β already mapped) drives the macrophage deactivation and immunosuppression that Leishmania exploits to survive intracellularly.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Leishmania subverts macrophage PI3K-AKT signaling (AKT already mapped) to suppress the microbicidal program and promote its intracellular survival.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors regulate macrophage autophagy and antimicrobial gene programs that determine control versus persistence of intracellular Leishmania.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins released by recruited myeloid cells amplify the inflammation of cutaneous and visceral leishmaniasis lesions.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the macrophage inflammatory-versus-anti-inflammatory polarization that governs the intracellular survival of Leishmania.

@@ -330,6 +330,15 @@ cross_links:
   - target: 01-human/03-molecular/galectin-3
     relation: connects-to
     note: "Galectin-3 released by activated microglia amplifies the neuroinflammation associated with the addiction neuroplasticity of internet gaming disorder."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "JAK1/2 signaling upstream of STAT3 (IL-6 already mapped) relays the peripheral-to-central inflammatory tone associated with internet gaming disorder."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 neuroinflammatory signaling contributes to the microglial activation implicated in internet gaming disorder."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO downstream of PI3K-AKT signaling (AKT already mapped) regulates neuronal plasticity and oxidative-stress handling relevant to the reward neuroadaptations of internet gaming disorder."
 sources:
   - id: kuss-2012-gaming-disorder-review
     type: peer-reviewed
@@ -608,6 +617,9 @@ A pattern of persistent or recurrent gaming behavior characterized by:
 - `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — BDNF-TrkB (NTRK) signaling drives the synaptic plasticity of reward circuits (BDNF already mapped), a substrate for the maladaptive learning of internet gaming disorder.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling transduces the neuroinflammatory tone implicated in the reward dysregulation of internet gaming disorder.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 released by activated microglia amplifies the neuroinflammation associated with the addiction neuroplasticity of internet gaming disorder.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK1/2 signaling upstream of STAT3 (IL-6 already mapped) relays the peripheral-to-central inflammatory tone associated with internet gaming disorder.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 neuroinflammatory signaling contributes to the microglial activation implicated in internet gaming disorder.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO downstream of PI3K-AKT signaling (AKT already mapped) regulates neuronal plasticity and oxidative-stress handling relevant to the reward neuroadaptations of internet gaming disorder.
 
 [^kuss-2012-gaming-disorder-review]: Kuss DJ, Griffiths MD. Internet gaming addiction: a systematic review of empirical research. *Int J Ment Health Addict.* 2012;10(2):278-296. [doi:10.1007/s11469-011-9318-5](https://doi.org/10.1007/s11469-011-9318-5)
 [^who-icd11-gaming-disorder]: World Health Organization. ICD-11: Gaming Disorder (6C51). Geneva: WHO; 2019. [icd.who.int](https://icd.who.int/browse/2025-01/mms/en#1448597234)
