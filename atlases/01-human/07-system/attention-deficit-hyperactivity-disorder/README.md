@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/stat1
     relation: connects-to
     note: "IFN-STAT1 signalling transduces the maternal-immune-activation interferon exposure epidemiologically linked to ADHD."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO downstream of the PTEN-PI3K-AKT axis (PTEN and AKT already mapped) regulates the neuronal plasticity and oxidative-stress handling relevant to the neurodevelopmental circuitry of ADHD."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "JAK1/2 signaling upstream of STAT3 (IL-6 already mapped) relays the low-grade inflammatory tone associated with ADHD."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins reflect the peripheral myeloid inflammatory activation linked to ADHD."
 ---
 
 # Attention-Deficit/Hyperactivity Disorder
@@ -617,6 +626,9 @@ ADHD is a clinical diagnosis requiring [^biederman-2005-adhd-adults]:
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling transduces the low-grade inflammatory tone linked to the neurodevelopmental dysregulation of ADHD.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING contributes to the innate neuroinflammation implicated in the neurodevelopmental component of ADHD.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling transduces the maternal-immune-activation interferon exposure epidemiologically linked to ADHD.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO downstream of the PTEN-PI3K-AKT axis (PTEN and AKT already mapped) regulates the neuronal plasticity and oxidative-stress handling relevant to the neurodevelopmental circuitry of ADHD.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK1/2 signaling upstream of STAT3 (IL-6 already mapped) relays the low-grade inflammatory tone associated with ADHD.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins reflect the peripheral myeloid inflammatory activation linked to ADHD.
 
 [^faraone-2021-adhd-primer]: Faraone SV, Banaschewski T, Coghill D, et al. The World Federation of ADHD International Consensus Statement: 208 Evidence-based conclusions about the disorder. *Neurosci Biobehav Rev.* 2021;128:789-818. [doi:10.1016/j.neubiorev.2021.01.022](https://doi.org/10.1016/j.neubiorev.2021.01.022) · [PubMed 33549739](https://pubmed.ncbi.nlm.nih.gov/33549739/)
 [^arnsten-2009-adhd-neuroscience]: Arnsten AF. Toward a new understanding of ADHD pathophysiology: an important role for prefrontal cortex dysfunction. *CNS Drugs.* 2009;23(Suppl 1):33-41. [doi:10.2165/00023210-200923000-00005](https://doi.org/10.2165/00023210-200923000-00005) · [PubMed 19621976](https://pubmed.ncbi.nlm.nih.gov/19621976/)

@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/cgas-sting
     relation: connects-to
     note: "cGAS-STING sensing of cytosolic DNA from barrier-damaged keratinocytes contributes to the innate inflammation of atopic dermatitis."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO regulates the keratinocyte differentiation and oxidative-stress responses relevant to the epidermal barrier dysfunction of atopic dermatitis."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins amplify the innate inflammation and epidermal activation of atopic dermatitis lesions."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Perforin-expressing cytotoxic T cells contribute to the keratinocyte apoptosis and epidermal injury of atopic dermatitis."
 ---
 
 # Atopic Dermatitis
@@ -582,6 +591,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antiviral skin defense whose impairment predisposes to the eczema herpeticum that complicates atopic dermatitis.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β already mapped) shapes the skin-barrier homeostasis and remodeling perturbed in atopic dermatitis.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — cGAS-STING sensing of cytosolic DNA from barrier-damaged keratinocytes contributes to the innate inflammation of atopic dermatitis.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO regulates the keratinocyte differentiation and oxidative-stress responses relevant to the epidermal barrier dysfunction of atopic dermatitis.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins amplify the innate inflammation and epidermal activation of atopic dermatitis lesions.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-expressing cytotoxic T cells contribute to the keratinocyte apoptosis and epidermal injury of atopic dermatitis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
