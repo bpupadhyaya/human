@@ -352,6 +352,15 @@ cross_links:
   - target: 01-human/03-molecular/cgas-sting
     relation: connects-to
     note: "Cytosolic mitochondrial DNA released during chronic stress can engage cGAS-STING, contributing to the neuroinflammation implicated in social anxiety disorder."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO downstream of PI3K-AKT signaling (AKT already mapped) regulates neuronal oxidative-stress and resilience relevant to the stress vulnerability of social anxiety disorder."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 neuroinflammatory signaling contributes to the inflammatory tone associated with social anxiety disorder."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "JAK1/2 signaling upstream of STAT3 (IL-6 already mapped) relays the inflammatory tone linked to the fear and anxiety circuitry of social anxiety disorder."
 ---
 
 # Social Anxiety Disorder
@@ -593,6 +602,9 @@ The unique **dopaminergic social reward deficit** in SAD has clinical implicatio
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β signaling in limbic circuits shapes the synaptic plasticity and fear-learning balance implicated in social anxiety disorder.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling transduces the chronic inflammatory tone associated with the heightened stress reactivity of social anxiety disorder.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic mitochondrial DNA released during chronic stress can engage cGAS-STING, contributing to the neuroinflammation implicated in social anxiety disorder.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO downstream of PI3K-AKT signaling (AKT already mapped) regulates neuronal oxidative-stress and resilience relevant to the stress vulnerability of social anxiety disorder.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 neuroinflammatory signaling contributes to the inflammatory tone associated with social anxiety disorder.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK1/2 signaling upstream of STAT3 (IL-6 already mapped) relays the inflammatory tone linked to the fear and anxiety circuitry of social anxiety disorder.
 
 [^liebowitz-1987-sad-scale]: Liebowitz MR. Social phobia. *Mod Probl Pharmacopsychiatry.* 1987;22:141-173. [PubMed 2885745](https://pubmed.ncbi.nlm.nih.gov/2885745/)
 [^stein-2008-sad-review]: Stein MB, Stein DJ. Social anxiety disorder. *Lancet.* 2008;371(9618):1115-1125. [doi:10.1016/S0140-6736(08)60488-2](https://doi.org/10.1016/S0140-6736(08)60488-2) · [PubMed 18374843](https://pubmed.ncbi.nlm.nih.gov/18374843/)
