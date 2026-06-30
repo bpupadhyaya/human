@@ -353,6 +353,15 @@ cross_links:
   - target: 01-human/03-molecular/smad4
     relation: connects-to
     note: "TGF-β-SMAD signalling contributes to the immunosuppressive milieu that underlies the prolonged immune amnesia following measles."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic nucleic-acid sensing through cGAS-STING, augmented by mitochondrial DNA from damaged cells, contributes to the innate antiviral response to measles virus."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins released by recruited myeloid cells amplify the inflammation of measles, relevant to its respiratory complications."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO regulates the lymphocyte survival and oxidative-stress responses relevant to the profound immune suppression and memory-cell depletion of measles."
 ---
 
 # Measles
@@ -609,6 +618,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 modulates the macrophage and dendritic-cell responses involved in the profound immune dysregulation caused by measles.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling transduces the inflammatory cytokine response to measles infection and its giant-cell pathology.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling contributes to the immunosuppressive milieu that underlies the prolonged immune amnesia following measles.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic nucleic-acid sensing through cGAS-STING, augmented by mitochondrial DNA from damaged cells, contributes to the innate antiviral response to measles virus.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins released by recruited myeloid cells amplify the inflammation of measles, relevant to its respiratory complications.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO regulates the lymphocyte survival and oxidative-stress responses relevant to the profound immune suppression and memory-cell depletion of measles.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)

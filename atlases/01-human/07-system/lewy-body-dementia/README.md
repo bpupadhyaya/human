@@ -355,6 +355,15 @@ cross_links:
   - target: 01-human/03-molecular/pten
     relation: connects-to
     note: "PTEN regulation of PI3K-AKT survival signalling (AKT already mapped) shapes the autophagy and neuronal vulnerability relevant to α-synuclein clearance in Lewy body dementia."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors regulate the neuronal autophagy and oxidative-stress defense whose failure permits α-synuclein accumulation in Lewy body dementia."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins released by activated microglia amplify the neuroinflammation of Lewy body dementia."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "HIF-1α-linked metabolic and mitochondrial stress responses contribute to the neurodegeneration of Lewy body dementia."
 ---
 
 # Lewy Body Dementia
@@ -593,6 +602,9 @@ Approximately 25-50% of clinically diagnosed DLB cases have significant AD co-pa
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling drives the interferon-responsive microglial activation contributing to the neuroinflammation of Lewy body dementia.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling transduces the cytokine and growth-factor stimuli that modulate neuronal stress and glial activation in Lewy body dementia.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN regulation of PI3K-AKT survival signaling (AKT already mapped) shapes the autophagy and neuronal vulnerability relevant to α-synuclein clearance in Lewy body dementia.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors regulate the neuronal autophagy and oxidative-stress defense whose failure permits α-synuclein accumulation in Lewy body dementia.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins released by activated microglia amplify the neuroinflammation of Lewy body dementia.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α-linked metabolic and mitochondrial stress responses contribute to the neurodegeneration of Lewy body dementia.
 
 [^mckeith-2017-dlb-criteria]: McKeith IG, Boeve BF, Dickson DW, et al. Diagnosis and management of dementia with Lewy bodies: Fourth consensus report of the DLB Consortium. *Neurology.* 2017;89(1):88-100. [doi:10.1212/WNL.0000000000004058](https://doi.org/10.1212/WNL.0000000000004058) · [PubMed 28592453](https://pubmed.ncbi.nlm.nih.gov/28592453/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
