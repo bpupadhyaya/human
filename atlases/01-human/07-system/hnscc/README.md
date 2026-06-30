@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/foxo
     relation: connects-to
     note: "FOXO tumour-suppressor activity, antagonised by PI3K-AKT signalling, is lost in the proliferative progression of head and neck squamous cell carcinoma."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the β-catenin and survival signaling of head and neck squamous cell carcinoma."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "MDM2-mediated p53 degradation (p53 already mapped), complementing HPV-E6 in HPV-positive tumors, restrains apoptosis in head and neck squamous cell carcinoma."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins shape the inflammatory and immunosuppressive microenvironment of head and neck squamous cell carcinoma."
 ---
 
 # HNSCC
@@ -574,6 +583,9 @@ HPV+ oropharyngeal: Node staging based on number (not laterality); HPV-negative 
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antitumor immune response of head and neck squamous cell carcinoma, central to its checkpoint immunotherapy.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6-cyclin-D activity (cyclin-D1, CDKN2A and RB1 already mapped) drives the cell-cycle dysregulation of head and neck squamous cell carcinoma.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO tumor-suppressor activity, antagonized by PI3K-AKT signaling, is lost in the proliferative progression of head and neck squamous cell carcinoma.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the β-catenin and survival signaling of head and neck squamous cell carcinoma.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated p53 degradation (p53 already mapped), complementing HPV-E6 in HPV-positive tumors, restrains apoptosis in head and neck squamous cell carcinoma.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins shape the inflammatory and immunosuppressive microenvironment of head and neck squamous cell carcinoma.
 
 [^burtness-2019-keynote048]: Burtness B, Harrington KJ, Greil R, et al. Pembrolizumab alone or with chemotherapy versus cetuximab with chemotherapy for recurrent or metastatic squamous cell carcinoma of the head and neck (KEYNOTE-048). *Lancet.* 2019;394(10212):1915-1928. [doi:10.1016/S0140-6736(19)32591-7](https://doi.org/10.1016/S0140-6736(19)32591-7) · [PubMed 31679945](https://pubmed.ncbi.nlm.nih.gov/31679945/)
 [^vermorken-2008-extreme]: Vermorken JB, Mesia R, Rivera F, et al. Platinum-based chemotherapy plus cetuximab in head and neck cancer. *N Engl J Med.* 2008;359(11):1116-1127. [doi:10.1056/NEJMoa0802656](https://doi.org/10.1056/NEJMoa0802656) · [PubMed 18784101](https://pubmed.ncbi.nlm.nih.gov/18784101/)

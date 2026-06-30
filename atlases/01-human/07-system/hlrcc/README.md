@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/cdk4-6
     relation: connects-to
     note: "CDK4/6-cyclin-D activity (cyclin-D1, CDKN2A and RB1 already mapped) drives the cell-cycle progression of the HLRCC-associated tumours."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "PI3K-AKT-driven FOXO inactivation (AKT and PIK3CA already mapped) removes a pro-apoptotic brake in the aggressive renal carcinoma of HLRCC."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Perforin-delivered cytotoxic killing by CD8 T and NK cells mediates the immune clearance that the immunotherapy-treated HLRCC renal carcinoma must evade."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis in the HLRCC-associated tumors."
 ---
 
 # Hereditary Leiomyomatosis and Renal Cell Carcinoma
@@ -591,6 +600,9 @@ Cutaneous:
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antitumor immune response of the aggressive FH-deficient renal cancer of HLRCC.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Fumarate accumulation and mitochondrial dysfunction from FH loss release cytosolic DNA that can engage cGAS-STING in the tumors of HLRCC.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6-cyclin-D activity (cyclin-D1, CDKN2A and RB1 already mapped) drives the cell-cycle progression of the HLRCC-associated tumors.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — PI3K-AKT-driven FOXO inactivation (AKT and PIK3CA already mapped) removes a pro-apoptotic brake in the aggressive renal carcinoma of HLRCC.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-delivered cytotoxic killing by CD8 T and NK cells mediates the immune clearance that the immunotherapy-treated HLRCC renal carcinoma must evade.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis in the HLRCC-associated tumors.
 
 [^tomlinson-2002-fh]: Tomlinson IP, Alam NA, Rowan AJ, et al. Germline mutations in FH predispose to dominantly inherited uterine fibroids, skin leiomyomata and papillary renal cell cancer. *Nat Genet.* 2002;30(4):406-410. [doi:10.1038/ng849](https://doi.org/10.1038/ng849) · [PubMed 11865300](https://pubmed.ncbi.nlm.nih.gov/11865300/)
 [^linehan-2013-fh-review]: Linehan WM, Rouault TA. Molecular pathways: fumarate hydratase-deficient kidney cancer — targeting the Warburg effect in cancer. *Clin Cancer Res.* 2013;19(13):3345-3352. [doi:10.1158/1078-0432.CCR-13-0304](https://doi.org/10.1158/1078-0432.CCR-13-0304) · [PubMed 23836472](https://pubmed.ncbi.nlm.nih.gov/23836472/)
