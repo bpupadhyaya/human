@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/perforin
     relation: connects-to
     note: "Perforin-mediated CD8 cytotoxicity contributes to the tissue injury of SLE, complementing the autoantibody- and complement-driven damage."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors regulate lymphocyte tolerance and apoptosis, processes whose dysregulation favors the autoreactive lymphocyte survival of SLE."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "Reduced ERK-MAPK signaling in lupus T cells downregulates DNMT (DNMT3A already mapped), driving the DNA hypomethylation and autoreactivity of SLE."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "HIF-1α shapes the metabolic reprogramming of autoreactive T cells and the hypoxic inflamed tissue of SLE."
 ---
 
 # Systemic Lupus Erythematosus
@@ -583,6 +592,9 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 amplifies the renal and systemic inflammation of SLE and is a candidate biomarker of lupus nephritis activity.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling drives the glomerular and interstitial fibrosis of the lupus nephritis that determines renal outcome in SLE.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated CD8 cytotoxicity contributes to the tissue injury of SLE, complementing the autoantibody- and complement-driven damage.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors regulate lymphocyte tolerance and apoptosis, processes whose dysregulation favors the autoreactive lymphocyte survival of SLE.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Reduced ERK-MAPK signaling in lupus T cells downregulates DNMT (DNMT3A already mapped), driving the DNA hypomethylation and autoreactivity of SLE.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α shapes the metabolic reprogramming of autoreactive T cells and the hypoxic inflamed tissue of SLE.
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)
