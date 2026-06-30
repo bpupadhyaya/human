@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/src-kinase
     relation: connects-to
     note: "SRC-family kinase signalling downstream of receptor tyrosine kinases drives the invasion and migration of glioblastoma cells."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins from myeloid-derived suppressor cells shape the immunosuppressive microenvironment of glioblastoma."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Wnt-β-catenin signaling sustains glioma stem-cell self-renewal and therapy resistance in glioblastoma."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy supports the metabolic adaptation and treatment resistance of glioblastoma cells."
 ---
 
 # Glioblastoma
@@ -589,6 +598,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors, restrained by the PTEN-PI3K-AKT axis, regulate the stemness and metabolic adaptation of glioblastoma stem cells.
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β signaling supports the survival and self-renewal of glioblastoma stem cells and is a candidate therapeutic target.
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of receptor tyrosine kinases drives the invasion and migration of glioblastoma cells.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins from myeloid-derived suppressor cells shape the immunosuppressive microenvironment of glioblastoma.
+- `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Wnt-β-catenin signaling sustains glioma stem-cell self-renewal and therapy resistance in glioblastoma.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy supports the metabolic adaptation and treatment resistance of glioblastoma cells.
 
 ---
 
