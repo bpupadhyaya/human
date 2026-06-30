@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/kras
     relation: connects-to
     note: "RAS-ERK signalling (KRAS upstream of the mapped ERK1/2) provides a proliferative input cooperating with the BCL2 translocation in follicular lymphoma."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the survival and Wnt signaling of the follicular lymphoma clone."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins shape the follicular-lymphoma tumor microenvironment, a key determinant of prognosis."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis, complementing the anti-apoptotic BCL2 translocation in follicular lymphoma."
 ---
 
 # Follicular Lymphoma
@@ -585,6 +594,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antitumor immune response within the T-cell-rich microenvironment of follicular lymphoma.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors, restrained by PI3K-AKT signaling, modulate the survival and quiescence of the BCL2-translocated cells of follicular lymphoma.
 - `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — RAS-ERK signaling (KRAS upstream of the mapped ERK1/2) provides a proliferative input cooperating with the BCL2 translocation in follicular lymphoma.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the survival and Wnt signaling of the follicular lymphoma clone.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins shape the follicular-lymphoma tumor microenvironment, a key determinant of prognosis.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis, complementing the anti-apoptotic BCL2 translocation in follicular lymphoma.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
