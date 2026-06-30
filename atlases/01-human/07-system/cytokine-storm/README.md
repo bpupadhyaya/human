@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/smad4
     relation: connects-to
     note: "TGF-β-SMAD signalling participates in the counter-regulatory resolution phase that must restrain the hyperinflammation of cytokine storm."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors regulate the immune-cell survival and metabolic reprogramming that shape the hyperinflammatory response of cytokine storm."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the NF-κB- and inflammasome-driven cytokine production that sustains cytokine storm."
+  - target: 01-human/03-molecular/btk
+    relation: connects-to
+    note: "BTK signaling in macrophages amplifies the inflammatory cytokine release of cytokine storm, the rationale for BTK inhibition in severe cases."
 ---
 
 # Cytokine Storm
@@ -550,6 +559,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling downstream of cytokine and pattern-recognition receptors amplifies the feed-forward cytokine production of the cytokine storm.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA) signaling (AKT already mapped) drives the immunometabolic activation of the hyperinflammatory myeloid and lymphoid cells in cytokine storm.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling participates in the counter-regulatory resolution phase that must restrain the hyperinflammation of cytokine storm.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors regulate the immune-cell survival and metabolic reprogramming that shape the hyperinflammatory response of cytokine storm.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the NF-κB- and inflammasome-driven cytokine production that sustains cytokine storm.
+- `connects-to` → **[BTK](../../03-molecular/btk/README.md)** — BTK signaling in macrophages amplifies the inflammatory cytokine release of cytokine storm, the rationale for BTK inhibition in severe cases.
 
 ## Pathology
 

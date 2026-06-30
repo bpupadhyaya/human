@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/smad4
     relation: connects-to
     note: "TGF-β-SMAD signalling shapes the endothelial and immune responses that contribute to the vascular permeability of severe dengue."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO downstream of PI3K-AKT signaling (AKT and PIK3CA already mapped) regulates the endothelial and immune-cell responses to dengue virus."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "HIF-1α contributes to the vascular permeability and metabolic reprogramming of the plasma-leakage phase of severe dengue."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins amplify the myeloid inflammation and correlate with disease severity in dengue."
 ---
 
 # Dengue Fever
@@ -571,3 +580,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling transduces the inflammatory cytokine response that drives the vascular leak and plasma leakage of severe dengue.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Dengue virus exploits PI3K-AKT signaling (AKT already mapped) to support its replication and modulate the survival of infected cells.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling shapes the endothelial and immune responses that contribute to the vascular permeability of severe dengue.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO downstream of PI3K-AKT signaling (AKT and PIK3CA already mapped) regulates the endothelial and immune-cell responses to dengue virus.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α contributes to the vascular permeability and metabolic reprogramming of the plasma-leakage phase of severe dengue.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins amplify the myeloid inflammation and correlate with disease severity in dengue.
