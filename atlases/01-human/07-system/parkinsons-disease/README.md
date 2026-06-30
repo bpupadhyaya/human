@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/pten
     relation: connects-to
     note: "PTEN, the phosphatase that restrains PI3K-AKT survival signalling (and the namesake of PINK1's pathway), modulates the mitochondrial quality control and neuronal survival relevant to Parkinson's disease."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors regulate the autophagy and oxidative-stress defense of dopaminergic neurons, programs that fail in Parkinson's disease."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins released by activated microglia amplify the neuroinflammation contributing to dopaminergic degeneration in Parkinson's disease."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "ERK-MAPK signaling participates in dopaminergic neuron stress and in the L-DOPA-induced dyskinesia associated with Parkinson's disease therapy."
 ---
 
 # Parkinson's Disease
@@ -598,6 +607,9 @@ PD is primarily a disease of aging (mean onset ~60 years), but **~10–15% of ca
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling drives the interferon-responsive microglial activation that contributes to the neuroinflammation of Parkinson's disease.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — JAK-STAT3 signaling (JAK1/2 already mapped) in microglia and astrocytes sustains the reactive gliosis accompanying dopaminergic neurodegeneration in Parkinson's disease.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN, the phosphatase that restrains PI3K-AKT survival signaling (and the namesake of PINK1's pathway), modulates the mitochondrial quality control and neuronal survival relevant to Parkinson's disease.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors regulate the autophagy and oxidative-stress defense of dopaminergic neurons, programs that fail in Parkinson's disease.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins released by activated microglia amplify the neuroinflammation contributing to dopaminergic degeneration in Parkinson's disease.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling participates in dopaminergic neuron stress and in the L-DOPA-induced dyskinesia associated with Parkinson's disease therapy.
 
 [^kalia-2015-pd-review]: Kalia LV, Lang AE. Parkinson's disease. *Lancet.* 2015;386(9996):896-912. [doi:10.1016/S0140-6736(14)61393-3](https://doi.org/10.1016/S0140-6736(14)61393-3) · [PubMed 25904081](https://pubmed.ncbi.nlm.nih.gov/25904081/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
