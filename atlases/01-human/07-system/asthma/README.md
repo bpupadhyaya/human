@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/stat1
     relation: connects-to
     note: "IFN-STAT1 signalling underlies the antiviral Th1 response that drives virus-induced exacerbations of asthma."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors regulate airway smooth-muscle and T-cell programs and influence the glucocorticoid responsiveness that varies across asthma phenotypes."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "HIF-1α in the hypoxic inflamed airway promotes angiogenesis and the airway remodeling of chronic asthma."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "Class I PI3K (PIK3CA, PI3Kδ) signaling drives airway inflammation, smooth-muscle proliferation, and the corticosteroid insensitivity of severe asthma."
 ---
 
 # Asthma
@@ -568,6 +577,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 promotes eosinophil recruitment, airway inflammation and the subepithelial remodeling that characterizes chronic asthma.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β already mapped) drives the airway smooth-muscle hyperplasia and subepithelial fibrosis of airway remodeling in asthma.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling underlies the antiviral Th1 response that drives virus-induced exacerbations of asthma.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors regulate airway smooth-muscle and T-cell programs and influence the glucocorticoid responsiveness that varies across asthma phenotypes.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α in the hypoxic inflamed airway promotes angiogenesis and the airway remodeling of chronic asthma.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Class I PI3K (PIK3CA, PI3Kδ) signaling drives airway inflammation, smooth-muscle proliferation, and the corticosteroid insensitivity of severe asthma.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)

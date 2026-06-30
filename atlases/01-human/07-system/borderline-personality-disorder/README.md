@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/stat3
     relation: connects-to
     note: "IL-6-STAT3 signalling transduces the peripheral and central inflammatory tone associated with the chronic stress of borderline personality disorder."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "JAK1/2 signaling upstream of STAT3 (IL-6 already mapped) relays the cytokine tone that links peripheral inflammation to the affective neurocircuitry implicated in borderline personality disorder."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 neuroinflammatory signaling contributes to the chronic low-grade inflammation reported in borderline personality disorder."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO downstream of stress and PI3K-AKT signaling (AKT already mapped) governs neuronal oxidative-stress handling relevant to the stress vulnerability of borderline personality disorder."
 ---
 
 # Borderline Personality Disorder
@@ -599,6 +608,9 @@ This model directly informs DBT treatment: validate emotional experience (the bi
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β signaling downstream of neurotrophin and serotonergic pathways shapes the neuroplasticity and mood-stabilization balance relevant to the affective instability of borderline personality disorder.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 released by activated microglia amplifies the neuroinflammation implicated in the stress reactivity of borderline personality disorder.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling transduces the peripheral and central inflammatory tone associated with the chronic stress of borderline personality disorder.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK1/2 signaling upstream of STAT3 (IL-6 already mapped) relays the cytokine tone that links peripheral inflammation to the affective neurocircuitry implicated in borderline personality disorder.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 neuroinflammatory signaling contributes to the chronic low-grade inflammation reported in borderline personality disorder.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO downstream of stress and PI3K-AKT signaling (AKT already mapped) governs neuronal oxidative-stress handling relevant to the stress vulnerability of borderline personality disorder.
 
 [^linehan-1993-dbt]: Linehan MM. *Cognitive-Behavioral Treatment of Borderline Personality Disorder.* Guilford; 1993. [PubMed 8192506](https://pubmed.ncbi.nlm.nih.gov/8192506/)
 [^skodol-2002-bpd-neurobiology]: Siever LJ, Davis KL. A psychobiological perspective on the personality disorders. *Am J Psychiatry.* 1991;148(12):1647-1658. [doi:10.1176/ajp.148.12.1647](https://doi.org/10.1176/ajp.148.12.1647) · [PubMed 1957927](https://pubmed.ncbi.nlm.nih.gov/1957927/)
