@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/pten
     relation: connects-to
     note: "PTEN regulation of the PI3K-AKT-GSK-3β axis (AKT and GSK-3β mapped) shapes the neurodevelopmental signalling implicated in schizophrenia."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6-STAT3 signalling transduces the neuroinflammatory tone implicated in the neurodevelopmental pathophysiology of schizophrenia."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA sensing through cGAS-STING contributes to the maternal-immune-activation and innate neuroinflammation implicated in schizophrenia."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling (type-I interferon already mapped) transduces the maternal-immune-activation interferon exposure epidemiologically linked to schizophrenia."
 ---
 
 # Schizophrenia
@@ -623,6 +632,9 @@ Notably, schizophrenia shares genetic loci with bipolar disorder, ASD, ADHD, maj
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Microglial galectin-3 reflects the aberrant microglial synaptic pruning increasingly implicated in the neurodevelopmental pathogenesis of schizophrenia.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Cytokine-driven JAK-STAT signaling (IL-6 mapped) transduces the maternal-immune-activation and chronic inflammation linked to schizophrenia risk.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN regulation of the PI3K-AKT-GSK-3β axis (AKT and GSK-3β mapped) shapes the neurodevelopmental signaling implicated in schizophrenia.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling transduces the neuroinflammatory tone implicated in the neurodevelopmental pathophysiology of schizophrenia.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING contributes to the maternal-immune-activation and innate neuroinflammation implicated in schizophrenia.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling (type-I interferon already mapped) transduces the maternal-immune-activation interferon exposure epidemiologically linked to schizophrenia.
 
 [^howes-2009-dopamine-hypothesis]: Howes OD, Kapur S. The dopamine hypothesis of schizophrenia: version III—the final common pathway. *Schizophr Bull.* 2009;35(3):549-562. [doi:10.1093/schbul/sbp006](https://doi.org/10.1093/schbul/sbp006) · [PubMed 19325164](https://pubmed.ncbi.nlm.nih.gov/19325164/)
 [^moghaddam-2012-glutamate]: Moghaddam B, Javitt D. From revolution to evolution: the glutamate hypothesis of schizophrenia and its implication for treatment. *Neuropsychopharmacology.* 2012;37(1):4-15. [doi:10.1038/npp.2011.181](https://doi.org/10.1038/npp.2011.181) · [PubMed 21956446](https://pubmed.ncbi.nlm.nih.gov/21956446/)
