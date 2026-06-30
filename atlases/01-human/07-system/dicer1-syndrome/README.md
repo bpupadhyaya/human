@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/jak1-2
     relation: connects-to
     note: "JAK-STAT3 signalling (STAT3 mapped) provides a proliferative input across the diverse tumours of DICER1 syndrome."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the antitumour immune surveillance of the diverse neoplasms that arise in DICER1 syndrome."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA sensing through cGAS-STING modulates the immune microenvironment of the DICER1-driven tumours."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors integrate the metabolic and oxidative stress of the proliferating cells of DICER1-syndrome tumours, downstream of the disrupted miRNA programme."
 ---
 
 # DICER1 Syndrome
@@ -562,6 +571,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 is a marker of the thyroid neoplasia that is a hallmark of DICER1 syndrome and modulates tumor-cell behavior.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β/activin-SMAD signaling (TGF-β and activin-A mapped) shapes the gonadal-stromal and embryonal tumors of DICER1 syndrome.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK-STAT3 signaling (STAT3 mapped) provides a proliferative input across the diverse tumors of DICER1 syndrome.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antitumor immune surveillance of the diverse neoplasms that arise in DICER1 syndrome.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING modulates the immune microenvironment of the DICER1-driven tumors.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors integrate the metabolic and oxidative stress of the proliferating cells of DICER1-syndrome tumors, downstream of the disrupted miRNA program.
 
 ---
 
