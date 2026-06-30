@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/cgas-sting
     relation: connects-to
     note: "FLCN loss perturbs autophagy and mitochondrial quality control, and the resulting cytosolic DNA can engage cGAS-STING in the lesions of Birt-Hogg-Dubé syndrome."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "CDK4/6-cyclin-D1 cell-cycle entry (cyclin-D1 already mapped) drives the proliferation of the renal tumors of Birt-Hogg-Dubé syndrome."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Perforin-delivered cytotoxic killing by CD8 T and NK cells mediates the immune clearance that the renal tumors of Birt-Hogg-Dubé syndrome must evade."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β interacts with the AMPK-mTOR axis (AMPK and mTOR already mapped) that FLCN loss dysregulates in Birt-Hogg-Dubé syndrome."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -600,6 +609,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antitumor immune response of the renal tumors that arise in Birt-Hogg-Dubé syndrome.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling shapes the connective-tissue and lung-cyst phenotypes (fibrofolliculomas, pulmonary cysts) of Birt-Hogg-Dubé syndrome.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — FLCN loss perturbs autophagy and mitochondrial quality control, and the resulting cytosolic DNA can engage cGAS-STING in the lesions of Birt-Hogg-Dubé syndrome.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6-cyclin-D1 cell-cycle entry (cyclin-D1 already mapped) drives the proliferation of the renal tumors of Birt-Hogg-Dubé syndrome.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-delivered cytotoxic killing by CD8 T and NK cells mediates the immune clearance that the renal tumors of Birt-Hogg-Dubé syndrome must evade.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β interacts with the AMPK-mTOR axis (AMPK and mTOR already mapped) that FLCN loss dysregulates in Birt-Hogg-Dubé syndrome.
 
 ---
 

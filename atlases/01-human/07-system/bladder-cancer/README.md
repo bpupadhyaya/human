@@ -355,6 +355,15 @@ cross_links:
   - target: 01-human/03-molecular/cdk4-6
     relation: connects-to
     note: "CDK4/6-cyclin-D activity (cyclin-D1 and RB1 already mapped) drives the cell-cycle progression of bladder cancer."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "PTEN-PI3K-AKT-driven FOXO inactivation (PTEN, AKT, and PIK3CA already mapped) removes a tumor-suppressive brake in bladder cancer."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signaling (TGF-β already mapped) drives the EMT and stromal remodeling of muscle-invasive bladder cancer."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins from infiltrating myeloid cells shape the inflammatory, BCG-immunotherapy-relevant microenvironment of bladder cancer."
 ---
 
 # Bladder Cancer
@@ -588,6 +597,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling underlies the antitumor interferon response central to the BCG immunotherapy and checkpoint responsiveness of bladder cancer.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated CD8 cytotoxicity drives the antitumor response elicited by intravesical BCG immunotherapy in bladder cancer.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6-cyclin-D activity (cyclin-D1 and RB1 already mapped) drives the cell-cycle progression of bladder cancer.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — PTEN-PI3K-AKT-driven FOXO inactivation (PTEN, AKT, and PIK3CA already mapped) removes a tumor-suppressive brake in bladder cancer.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β already mapped) drives the EMT and stromal remodeling of muscle-invasive bladder cancer.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins from infiltrating myeloid cells shape the inflammatory, BCG-immunotherapy-relevant microenvironment of bladder cancer.
 
 ---
 
