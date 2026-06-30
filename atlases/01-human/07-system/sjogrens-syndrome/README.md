@@ -346,6 +346,15 @@ cross_links:
   - target: 01-human/03-molecular/galectin-3
     relation: connects-to
     note: "Galectin-3 is upregulated in the inflamed salivary glands of Sjögren's syndrome, contributing to glandular inflammation and dysfunction."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signalling governs the regulatory-T-cell balance and the glandular fibrosis of Sjögren's syndrome."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors modulate the survival of glandular epithelial cells and the autoreactive lymphocytes of Sjögren's syndrome."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "ERK-MAPK signalling transduces the cytokine and B-cell-receptor stimuli that sustain the lymphocytic infiltration of Sjögren's syndrome."
 ---
 
 # Sjögren's Syndrome
@@ -585,6 +594,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — BAFF-driven PI3K-AKT signaling (BAFF mapped) sustains the autoreactive B cells and ectopic germinal centers of Sjögren's syndrome.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — The mTOR-regulated metabolic program supports the B-cell and plasmablast expansion driving the autoantibody response of Sjögren's syndrome.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 is upregulated in the inflamed salivary glands of Sjögren's syndrome, contributing to glandular inflammation and dysfunction.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling governs the regulatory-T-cell balance and the glandular fibrosis of Sjögren's syndrome.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors modulate the survival of glandular epithelial cells and the autoreactive lymphocytes of Sjögren's syndrome.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling transduces the cytokine and B-cell-receptor stimuli that sustain the lymphocytic infiltration of Sjögren's syndrome.
 
 ---
 
