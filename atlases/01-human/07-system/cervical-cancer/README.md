@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/pdgf
     relation: connects-to
     note: "PDGF signalling drives the stromal and angiogenic responses that support the invasive progression of cervical cancer."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins from infiltrating myeloid cells shape the inflammatory microenvironment of cervical cancer."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β regulates β-catenin and MYC stability (WNT-β-catenin and MYC already mapped), modulating the proliferative signaling of cervical cancer."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "MDM2 participates in p53 regulation (p53 already mapped) that, alongside HPV-E6-mediated p53 degradation, restrains apoptosis in cervical cancer."
 ---
 
 # Cervical Cancer
@@ -582,6 +591,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling (type-I interferon already mapped) underlies the antiviral and antitumor immune response to the HPV-driven cervical cancer.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — HPV oncoproteins disrupt FOXO tumor-suppressor function, removing a brake on proliferation and survival in cervical cancer.
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — PDGF signaling drives the stromal and angiogenic responses that support the invasive progression of cervical cancer.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins from infiltrating myeloid cells shape the inflammatory microenvironment of cervical cancer.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β regulates β-catenin and MYC stability (WNT-β-catenin and MYC already mapped), modulating the proliferative signaling of cervical cancer.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2 participates in p53 regulation (p53 already mapped) that, alongside HPV-E6-mediated p53 degradation, restrains apoptosis in cervical cancer.
 
 ---
 
