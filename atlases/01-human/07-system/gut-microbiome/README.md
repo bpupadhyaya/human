@@ -343,6 +343,15 @@ cross_links:
   - target: 01-human/03-molecular/cgas-sting
     relation: connects-to
     note: "Microbial and damage-associated cytosolic DNA engages cGAS-STING in the gut mucosa, coupling the microbiome to innate inflammatory tone."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signaling (TGF-β already mapped) mediates the microbial-metabolite-driven regulatory T-cell induction and epithelial homeostasis of the gut."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signaling links microbiota-shaped interferon tone to mucosal immune homeostasis and antimicrobial defense in the gut."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors integrate microbial-metabolite and nutrient signals to regulate gut epithelial and immune homeostasis."
 ---
 
 # Gut Microbiome
@@ -529,6 +538,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 at the mucosal interface helps shape the host immune recognition of commensal and pathobiont bacteria, linking the microbiome to mucosal immunity.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Microbiota-derived signals drive IL-6/IL-23-STAT3 activation that programs intestinal Th17 responses and epithelial homeostasis in the gut.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Microbial and damage-associated cytosolic DNA engages cGAS-STING in the gut mucosa, coupling the microbiome to innate inflammatory tone.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β already mapped) mediates the microbial-metabolite-driven regulatory T-cell induction and epithelial homeostasis of the gut.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling links microbiota-shaped interferon tone to mucosal immune homeostasis and antimicrobial defense in the gut.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors integrate microbial-metabolite and nutrient signals to regulate gut epithelial and immune homeostasis.
 
 ## Pathology
 

@@ -330,6 +330,15 @@ cross_links:
   - target: 01-human/03-molecular/galectin-3
     relation: connects-to
     note: "Galectin-3 released by activated microglia amplifies the neuroinflammation thought to contribute to the central pain amplification of fibromyalgia."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 neuroinflammatory signaling in activated microglia is implicated in the central sensitization of fibromyalgia."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA sensing through cGAS-STING contributes to the low-grade neuroinflammatory tone proposed in fibromyalgia."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO downstream of stress and insulin-PI3K signaling governs neuronal oxidative-stress handling relevant to the stress vulnerability of fibromyalgia."
 sources:
   - id: wolfe-2016-fibromyalgia-criteria
     type: peer-reviewed
@@ -594,6 +603,9 @@ FM is not a single-etiology disorder but a convergent syndrome resulting from th
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β signaling in the central nervous system shapes the synaptic plasticity and pain-modulation balance relevant to the central sensitization of fibromyalgia.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling transduces the inflammatory tone implicated in the neuroinflammatory component and fatigue of fibromyalgia.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 released by activated microglia amplifies the neuroinflammation thought to contribute to the central pain amplification of fibromyalgia.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 neuroinflammatory signaling in activated microglia is implicated in the central sensitization of fibromyalgia.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING contributes to the low-grade neuroinflammatory tone proposed in fibromyalgia.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO downstream of stress and insulin-PI3K signaling governs neuronal oxidative-stress handling relevant to the stress vulnerability of fibromyalgia.
 
 [^wolfe-2016-fibromyalgia-criteria]: Wolfe F, Clauw DJ, Fitzcharles MA, et al. 2016 Revisions to the 2010/2011 fibromyalgia diagnostic criteria. *Semin Arthritis Rheum.* 2016;46(3):319-329. [doi:10.1016/j.semarthrit.2016.08.012](https://doi.org/10.1016/j.semarthrit.2016.08.012) · [PubMed 27916278](https://pubmed.ncbi.nlm.nih.gov/27916278/)
 [^clauw-2014-fibromyalgia-review]: Clauw DJ. Fibromyalgia: a clinical review. *JAMA.* 2014;311(15):1547-1555. [doi:10.1001/jama.2014.3266](https://doi.org/10.1001/jama.2014.3266) · [PubMed 24737367](https://pubmed.ncbi.nlm.nih.gov/24737367/)
