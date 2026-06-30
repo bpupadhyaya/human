@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/cgas-sting
     relation: connects-to
     note: "Cytosolic DNA sensing through cGAS-STING contributes to the immune microenvironment and immunotherapy responsiveness of follicular lymphoma."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the antitumour immune response within the T-cell-rich microenvironment of follicular lymphoma."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors, restrained by PI3K-AKT signalling, modulate the survival and quiescence of the BCL2-translocated cells of follicular lymphoma."
+  - target: 01-human/03-molecular/kras
+    relation: connects-to
+    note: "RAS-ERK signalling (KRAS upstream of the mapped ERK1/2) provides a proliferative input cooperating with the BCL2 translocation in follicular lymphoma."
 ---
 
 # Follicular Lymphoma
@@ -573,6 +582,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 in the follicular-lymphoma microenvironment modulates the T-follicular-helper interactions and immune evasion on which the tumor depends.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β mapped) shapes the immunosuppressive microenvironment that sustains follicular lymphoma.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING contributes to the immune microenvironment and immunotherapy responsiveness of follicular lymphoma.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antitumor immune response within the T-cell-rich microenvironment of follicular lymphoma.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors, restrained by PI3K-AKT signaling, modulate the survival and quiescence of the BCL2-translocated cells of follicular lymphoma.
+- `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — RAS-ERK signaling (KRAS upstream of the mapped ERK1/2) provides a proliferative input cooperating with the BCL2 translocation in follicular lymphoma.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
