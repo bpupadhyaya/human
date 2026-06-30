@@ -346,6 +346,15 @@ cross_links:
   - target: 01-human/03-molecular/ezh2
     relation: connects-to
     note: "EZH2-mediated polycomb repression silences tumour-suppressor genes and drives the epigenetic dysregulation of hepatocellular carcinoma."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "PI3K-AKT-mTOR-driven FOXO inactivation (AKT, PIK3CA, and mTOR already mapped) removes a pro-apoptotic brake, favoring hepatocyte survival in hepatocellular carcinoma."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "CDK4/6 acting on the cyclin-D1-RB axis (cyclin-D1 and CDKN2A already mapped) drives the cell-cycle progression of hepatocellular carcinoma."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Perforin-delivered cytotoxic killing by CD8 T and NK cells mediates the immune clearance that the checkpoint-immunotherapy-treated hepatocellular carcinoma must evade."
 ---
 
 # Hepatocellular Carcinoma
@@ -593,6 +602,9 @@ In high-risk patients (cirrhosis, HBV regardless of cirrhosis): ultrasound ± AF
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 supports immune evasion and the metastatic progression of hepatocellular carcinoma.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antitumor immune response of hepatocellular carcinoma, relevant to its checkpoint-immunotherapy responsiveness.
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — EZH2-mediated polycomb repression silences tumor-suppressor genes and drives the epigenetic dysregulation of hepatocellular carcinoma.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — PI3K-AKT-mTOR-driven FOXO inactivation (AKT, PIK3CA, and mTOR already mapped) removes a pro-apoptotic brake, favoring hepatocyte survival in hepatocellular carcinoma.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6 acting on the cyclin-D1-RB axis (cyclin-D1 and CDKN2A already mapped) drives the cell-cycle progression of hepatocellular carcinoma.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-delivered cytotoxic killing by CD8 T and NK cells mediates the immune clearance that the checkpoint-immunotherapy-treated hepatocellular carcinoma must evade.
 
 [^llovet-2008-sorafenib]: Llovet JM, Ricci S, Mazzaferro V, et al. Sorafenib in advanced hepatocellular carcinoma. *N Engl J Med.* 2008;359(4):378-390. [doi:10.1056/NEJMoa0708857](https://doi.org/10.1056/NEJMoa0708857) · [PubMed 18650514](https://pubmed.ncbi.nlm.nih.gov/18650514/)
 [^finn-2020-imbrave150]: Finn RS, Qin S, Ikeda M, et al. Atezolizumab plus bevacizumab in unresectable hepatocellular carcinoma. *N Engl J Med.* 2020;382(20):1894-1905. [doi:10.1056/NEJMoa1915745](https://doi.org/10.1056/NEJMoa1915745) · [PubMed 32402160](https://pubmed.ncbi.nlm.nih.gov/32402160/)

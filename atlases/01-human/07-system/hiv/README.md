@@ -355,6 +355,15 @@ cross_links:
   - target: 01-human/03-molecular/smad4
     relation: connects-to
     note: "TGF-β-SMAD signalling drives the lymphoid-tissue fibrosis and immune dysregulation that accompany chronic HIV infection."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "HIV Nef and Tat modulation of PI3K-AKT-FOXO signaling (AKT and PIK3CA already mapped) shifts the survival-versus-apoptosis balance of infected and bystander T cells in HIV."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "HIF-1α induced by HIV supports viral transcription and the metabolic reprogramming of infected cells and the inflamed reservoir."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins reflect the chronic myeloid inflammatory activation that persists in treated HIV infection."
 ---
 
 # HIV
@@ -602,6 +611,9 @@ The **latent reservoir** — HIV integrated into quiescent resting memory CD4+ T
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 promotes HIV-1 budding and modulates the chronic immune activation that drives the inflammation of HIV infection.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K-AKT signaling (AKT already mapped) supports the survival of HIV-infected cells and the maintenance of the latent viral reservoir.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling drives the lymphoid-tissue fibrosis and immune dysregulation that accompany chronic HIV infection.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — HIV Nef and Tat modulation of PI3K-AKT-FOXO signaling (AKT and PIK3CA already mapped) shifts the survival-versus-apoptosis balance of infected and bystander T cells in HIV.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α induced by HIV supports viral transcription and the metabolic reprogramming of infected cells and the inflamed reservoir.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins reflect the chronic myeloid inflammatory activation that persists in treated HIV infection.
 
 [^barre-sinoussi-1983-hiv-isolation]: Barré-Sinoussi F, Chermann JC, Rey F, et al. Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS). *Science.* 1983;220(4599):868-871. [doi:10.1126/science.6189183](https://doi.org/10.1126/science.6189183) · [PubMed 6189183](https://pubmed.ncbi.nlm.nih.gov/6189183/)
 [^ho-1995-viral-dynamics]: Ho DD, Neumann AU, Perelson AS, et al. Rapid turnover of plasma virions and CD4 lymphocytes in HIV-1 infection. *Nature.* 1995;373(6510):123-126. [doi:10.1038/373123a0](https://doi.org/10.1038/373123a0) · [PubMed 7816094](https://pubmed.ncbi.nlm.nih.gov/7816094/)
