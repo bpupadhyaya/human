@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/cdkn2a
     relation: connects-to
     note: "CDKN2A loss releases CDK4/6-cyclin-D control of the cell cycle, a recurrent lesion in high-grade serous ovarian cancer."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "BRCA/HRD-driven cytosolic DNA activates cGAS-STING (mapped) and IFN-STAT1 signalling, shaping the immunogenicity of high-grade serous ovarian cancer."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO tumour-suppressor activity, antagonised by PI3K-AKT signalling, is lost in the proliferative progression of ovarian cancer."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Perforin-mediated CD8 cytotoxicity drives the antitumour immune response whose magnitude predicts outcome in high-grade serous ovarian cancer."
 ---
 
 # Ovarian Cancer
@@ -563,6 +572,9 @@ FTSEC ciliated and secretory cells line the Fallopian tube; secretory cells are 
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 promotes ovarian-cancer cell adhesion, spheroid formation and the peritoneal dissemination of metastatic disease.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β mapped) drives EMT and the peritoneal-metastatic, immunosuppressive microenvironment of ovarian cancer.
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A loss releases CDK4/6-cyclin-D control of the cell cycle, a recurrent lesion in high-grade serous ovarian cancer.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — BRCA/HRD-driven cytosolic DNA activates cGAS-STING (mapped) and IFN-STAT1 signaling, shaping the immunogenicity of high-grade serous ovarian cancer.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO tumor-suppressor activity, antagonized by PI3K-AKT signaling, is lost in the proliferative progression of ovarian cancer.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated CD8 cytotoxicity drives the antitumor immune response whose magnitude predicts outcome in high-grade serous ovarian cancer.
 
 [^burger-2011-gog0218]: Burger RA, Brady MF, Bookman MA, et al. Incorporation of bevacizumab in the primary treatment of ovarian cancer. *N Engl J Med.* 2011;365(26):2473-2483. [doi:10.1056/NEJMoa1104390](https://doi.org/10.1056/NEJMoa1104390) · [PubMed 22204724](https://pubmed.ncbi.nlm.nih.gov/22204724/)
 [^moore-2018-olaparib-solo1]: Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. *N Engl J Med.* 2018;379(26):2495-2505. [doi:10.1056/NEJMoa1810858](https://doi.org/10.1056/NEJMoa1810858) · [PubMed 30345884](https://pubmed.ncbi.nlm.nih.gov/30345884/)

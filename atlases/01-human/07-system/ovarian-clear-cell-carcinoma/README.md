@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/pdgf
     relation: connects-to
     note: "PDGF signalling drives the stromal and angiogenic responses of the endometriosis-associated ovarian clear cell carcinoma."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the immune microenvironment of the often chemoresistant ovarian clear cell carcinoma, relevant to its immunotherapy."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors, antagonised by the PIK3CA-AKT signalling characteristic of this subtype, modulate the survival of ovarian clear cell carcinoma."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "CDKN2A loss releases CDK4/6-cyclin-D control (cyclin-D1 and RB1 already mapped) of the cell cycle in ovarian clear cell carcinoma."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -589,6 +598,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 contributes to the adhesion, chemoresistance and immune evasion of ovarian clear cell carcinoma.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β mapped) modulates invasion and the immunosuppressive microenvironment of ovarian clear cell carcinoma.
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — PDGF signaling drives the stromal and angiogenic responses of the endometriosis-associated ovarian clear cell carcinoma.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the immune microenvironment of the often chemoresistant ovarian clear cell carcinoma, relevant to its immunotherapy.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors, antagonized by the PIK3CA-AKT signaling characteristic of this subtype, modulate the survival of ovarian clear cell carcinoma.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A loss releases CDK4/6-cyclin-D control (cyclin-D1 and RB1 already mapped) of the cell cycle in ovarian clear cell carcinoma.
 
 ---
 
