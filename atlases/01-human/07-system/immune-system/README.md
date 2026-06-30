@@ -376,6 +376,15 @@ cross_links:
   - target: 01-human/03-molecular/galectin-3
     relation: connects-to
     note: "Galectin-3 is a broadly immunomodulatory lectin shaping macrophage activation, T-cell regulation and the resolution of inflammation across the immune system."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors regulate lymphocyte homeostasis, tolerance, and the memory-versus-effector balance across the immune system."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β-SMAD signaling governs the regulatory-T-cell induction and peripheral immune tolerance central to the immune system."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "ERK-MAPK signaling downstream of antigen and cytokine receptors transduces the activation and differentiation of immune cells."
 ---
 
 # Immune System
@@ -493,6 +502,9 @@ After primary response contraction, long-lived memory cells persist:
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling (IFN-γ and type-I interferon already mapped) is the central transducer of the interferon responses that program antiviral and antitumor immunity.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — cGAS-STING is the core cytosolic-DNA sensor of the innate immune system, triggering the type-I-interferon response to pathogens and damaged self.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 is a broadly immunomodulatory lectin shaping macrophage activation, T-cell regulation and the resolution of inflammation across the immune system.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors regulate lymphocyte homeostasis, tolerance, and the memory-versus-effector balance across the immune system.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling governs the regulatory-T-cell induction and peripheral immune tolerance central to the immune system.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling downstream of antigen and cytokine receptors transduces the activation and differentiation of immune cells.
 
 ## Pathology
 

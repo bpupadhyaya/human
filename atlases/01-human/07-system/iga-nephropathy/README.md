@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/pik3ca
     relation: connects-to
     note: "PI3K-AKT signalling (AKT already mapped) drives the mesangial-cell proliferation that follows galactose-deficient IgA1 deposition in IgA nephropathy."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO regulates the mesangial-cell and immune-cell oxidative-stress responses relevant to the glomerular injury of IgA nephropathy."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β participates in the podocyte and mesangial signaling that drives the proteinuria and glomerulosclerosis of IgA nephropathy."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Perforin-mediated cytotoxic T-cell activity contributes to the cellular immune injury of crescentic IgA nephropathy."
 ---
 
 # IgA Nephropathy
@@ -543,6 +552,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING contributes to the innate inflammatory amplification of mesangial injury in IgA nephropathy.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the interferon component of the immune response to mucosal triggers in IgA nephropathy.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K-AKT signaling (AKT already mapped) drives the mesangial-cell proliferation that follows galactose-deficient IgA1 deposition in IgA nephropathy.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO regulates the mesangial-cell and immune-cell oxidative-stress responses relevant to the glomerular injury of IgA nephropathy.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β participates in the podocyte and mesangial signaling that drives the proteinuria and glomerulosclerosis of IgA nephropathy.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated cytotoxic T-cell activity contributes to the cellular immune injury of crescentic IgA nephropathy.
 
 ---
 
