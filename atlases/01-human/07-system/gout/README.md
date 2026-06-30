@@ -355,6 +355,15 @@ cross_links:
   - target: 01-human/03-molecular/smad4
     relation: connects-to
     note: "TGF-β-SMAD signalling participates in the resolution of the gout flare and the fibrotic encapsulation of chronic tophi."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO regulates the macrophage oxidative-stress and metabolic responses to monosodium urate crystals in gout."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signaling modulates the macrophage activation accompanying the crystal-induced inflammation of gout."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β participates in the NF-κB- and NLRP3-driven inflammatory signaling of the gout flare."
 ---
 
 # Gout
@@ -560,6 +569,9 @@ The central mechanism linking MSU crystals to acute gouty arthritis is **NLRP3 i
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling transduces the inflammatory cytokine response amplifying the acute and chronic inflammation of gout.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — DNA within neutrophil extracellular traps and damaged cells around urate crystals engages cGAS-STING, amplifying the sterile inflammation of the gout flare.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling participates in the resolution of the gout flare and the fibrotic encapsulation of chronic tophi.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO regulates the macrophage oxidative-stress and metabolic responses to monosodium urate crystals in gout.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling modulates the macrophage activation accompanying the crystal-induced inflammation of gout.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β participates in the NF-κB- and NLRP3-driven inflammatory signaling of the gout flare.
 
 [^dalbeth-2019-gout-primer]: Dalbeth N, Choi HK, Joosten LAB, et al. Gout. *Nat Rev Dis Primers.* 2019;5(1):69. [doi:10.1038/s41572-019-0115-y](https://doi.org/10.1038/s41572-019-0115-y) · [PubMed 31558729](https://pubmed.ncbi.nlm.nih.gov/31558729/)
 [^martinon-2006-nlrp3-gout]: Martinon F, Pétrilli V, Mayor A, Tardivel A, Tschopp J. Gout-associated uric acid crystals activate the NALP3 inflammasome. *Nature.* 2006;440(7081):237-241. [doi:10.1038/nature04516](https://doi.org/10.1038/nature04516) · [PubMed 16407889](https://pubmed.ncbi.nlm.nih.gov/16407889/)

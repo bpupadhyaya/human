@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/smad4
     relation: connects-to
     note: "TGF-β-SMAD signalling shapes the invasion and microenvironment of the BRCA-associated breast and ovarian cancers."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "PI3K-AKT-driven FOXO inactivation (AKT and PIK3CA already mapped) removes a tumor-suppressive brake in BRCA-associated breast and ovarian cancers."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins shape the inflammatory and pre-metastatic microenvironment of hereditary breast and ovarian cancers."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the survival and Wnt/β-catenin signaling of BRCA-associated breast and ovarian tumors."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -595,6 +604,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — BRCA deficiency floods the cytosol with DNA that activates cGAS-STING (mapped) and IFN-STAT1 signaling, shaping the immunogenicity of BRCA-associated cancers.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling supports the survival and immune evasion of the BRCA-associated breast and ovarian cancers.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling shapes the invasion and microenvironment of the BRCA-associated breast and ovarian cancers.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — PI3K-AKT-driven FOXO inactivation (AKT and PIK3CA already mapped) removes a tumor-suppressive brake in BRCA-associated breast and ovarian cancers.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins shape the inflammatory and pre-metastatic microenvironment of hereditary breast and ovarian cancers.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the survival and Wnt/β-catenin signaling of BRCA-associated breast and ovarian tumors.
 
 ---
 
