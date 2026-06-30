@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/foxo
     relation: connects-to
     note: "FOXO tumour-suppressor activity, antagonised by Wnt and PI3K-AKT signalling, is progressively lost in the polyp-to-cancer progression of familial adenomatous polyposis."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Perforin-mediated cytotoxic immunosurveillance is the immune clearance that the adenoma-to-carcinoma progression of familial adenomatous polyposis must evade."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins shape the inflammatory colonic microenvironment that promotes the adenoma progression of familial adenomatous polyposis."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis during the adenoma-carcinoma sequence of familial adenomatous polyposis."
 ---
 
 # Familial Adenomatous Polyposis
@@ -599,6 +608,9 @@ With modern surveillance and prophylactic colectomy: FAP is no longer an inevita
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antitumor immune surveillance of the adenomas and carcinomas arising in familial adenomatous polyposis.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — APC loss stabilizes β-catenin and drives cyclin-D-CDK4/6 activity (cyclin-D1 already mapped), accelerating the adenoma-carcinoma progression of familial adenomatous polyposis.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO tumor-suppressor activity, antagonized by Wnt and PI3K-AKT signaling, is progressively lost in the polyp-to-cancer progression of familial adenomatous polyposis.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated cytotoxic immunosurveillance is the immune clearance that the adenoma-to-carcinoma progression of familial adenomatous polyposis must evade.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins shape the inflammatory colonic microenvironment that promotes the adenoma progression of familial adenomatous polyposis.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis during the adenoma-carcinoma sequence of familial adenomatous polyposis.
 
 [^kinzler-1991-apc]: Kinzler KW, Nilbert MC, Su LK, et al. Identification of FAP locus genes from chromosome 5q21. *Science.* 1991;253(5020):661-665. [doi:10.1126/science.1651562](https://doi.org/10.1126/science.1651562) · [PubMed 1651562](https://pubmed.ncbi.nlm.nih.gov/1651562/)
 [^fearon-1990-vogelstein]: Fearon ER, Vogelstein B. A genetic model for colorectal tumorigenesis. *Cell.* 1990;61(5):759-767. [doi:10.1016/0092-8674(90)90186-i](https://doi.org/10.1016/0092-8674(90)90186-i) · [PubMed 2188735](https://pubmed.ncbi.nlm.nih.gov/2188735/)

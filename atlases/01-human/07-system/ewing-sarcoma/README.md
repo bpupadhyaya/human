@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/foxo
     relation: connects-to
     note: "FOXO transcription factors integrate the oxidative and metabolic stress of the EWSR1-FLI1-driven cells of Ewing sarcoma."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the β-catenin and survival signaling co-opted by the EWSR1-FLI1 fusion in Ewing sarcoma."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins shape the immunosuppressive microenvironment of the immune-cold Ewing sarcoma."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-kinase signaling downstream of IGF-1R and PDGFR (IGF-1 and PDGF already mapped) drives the invasive signaling of Ewing sarcoma."
 ---
 
 # Ewing Sarcoma
@@ -582,6 +591,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the immunologically cold microenvironment of Ewing sarcoma, a barrier to its immunotherapy.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling shapes the mesenchymal microenvironment and metastatic progression of Ewing sarcoma.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors integrate the oxidative and metabolic stress of the EWSR1-FLI1-driven cells of Ewing sarcoma.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the β-catenin and survival signaling co-opted by the EWSR1-FLI1 fusion in Ewing sarcoma.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins shape the immunosuppressive microenvironment of the immune-cold Ewing sarcoma.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-kinase signaling downstream of IGF-1R and PDGFR (IGF-1 and PDGF already mapped) drives the invasive signaling of Ewing sarcoma.
 
 ---
 
