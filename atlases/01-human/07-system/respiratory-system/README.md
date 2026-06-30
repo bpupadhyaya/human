@@ -351,6 +351,15 @@ cross_links:
   - target: 01-human/03-molecular/cgas-sting
     relation: connects-to
     note: "cGAS-STING sensing of viral and damage-associated cytosolic DNA shapes the antiviral and inflammatory responses of the respiratory epithelium."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors regulate the airway epithelial oxidative-stress defense and immune-metabolic balance across respiratory disorders."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signaling shapes the antiviral and inflammatory responses of the airway epithelium across the respiratory system."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "ERK-MAPK signaling downstream of growth factors (FGFR already mapped) drives airway epithelial proliferation, repair, and remodeling in the respiratory system."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -543,6 +552,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Connects-to** → [Galectin-3](../../03-molecular/galectin-3/README.md): fibro-inflammation: galectin-3 amplifies airway and alveolar inflammation and drives the pulmonary fibrosis shared across chronic lung diseases.
 - **Connects-to** → [STAT3](../../03-molecular/stat3/README.md): airway inflammation: IL-6-STAT3 signaling drives the airway inflammation and mucus responses common to inflammatory diseases of the respiratory system.
 - **Connects-to** → [cGAS-STING](../../03-molecular/cgas-sting/README.md): pulmonary DNA sensing: cGAS-STING sensing of viral and damage-associated cytosolic DNA shapes the antiviral and inflammatory responses of the respiratory epithelium.
+- **Connects-to** → [FOXO](../../03-molecular/foxo/README.md): epithelial stress defense: FOXO transcription factors regulate the airway epithelial oxidative-stress defense and immune-metabolic balance across respiratory disorders.
+- **Connects-to** → [STAT1](../../03-molecular/stat1/README.md): antiviral airway response: IFN-STAT1 signaling shapes the antiviral and inflammatory responses of the airway epithelium across the respiratory system.
+- **Connects-to** → [ERK1/2](../../03-molecular/erk1-2/README.md): epithelial repair: ERK-MAPK signaling downstream of growth factors (FGFR already mapped) drives airway epithelial proliferation, repair, and remodeling in the respiratory system.
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.
 
 ## Pathology
