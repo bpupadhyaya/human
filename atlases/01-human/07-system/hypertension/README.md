@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/cgas-sting
     relation: connects-to
     note: "Cytosolic DNA sensing through cGAS-STING contributes to the vascular inflammation and immune activation implicated in hypertension."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO regulates the vascular smooth-muscle and endothelial oxidative-stress responses relevant to the vascular remodeling of hypertension."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signaling contributes to the T-cell-driven vascular inflammation implicated in hypertension."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "HIF-1α links the renal and vascular hypoxic and metabolic responses to the pathophysiology of hypertension."
 ---
 
 # Hypertension
@@ -550,6 +559,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling transduces the vascular inflammation that contributes to endothelial dysfunction and arterial remodeling in hypertension.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β already mapped) drives the vascular fibrosis and arterial stiffening central to the end-organ damage of hypertension.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING contributes to the vascular inflammation and immune activation implicated in hypertension.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO regulates the vascular smooth-muscle and endothelial oxidative-stress responses relevant to the vascular remodeling of hypertension.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling contributes to the T-cell-driven vascular inflammation implicated in hypertension.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α links the renal and vascular hypoxic and metabolic responses to the pathophysiology of hypertension.
 
 ## Pathology
 
