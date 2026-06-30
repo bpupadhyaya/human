@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/cgas-sting
     relation: connects-to
     note: "Cytosolic DNA sensing through cGAS-STING shapes the immune microenvironment relevant to the NY-ESO-1-directed cell therapy and immunotherapy of synovial sarcoma."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the antitumour immune response of synovial sarcoma, relevant to its NY-ESO-1-directed cell therapy."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors, restrained by the PI3K-AKT axis, modulate the survival of the SS18-SSX-driven cells of synovial sarcoma."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Perforin-mediated CD8 cytotoxicity is the effector mechanism of the NY-ESO-1-directed cell therapy used in synovial sarcoma."
 ---
 
 # Synovial Sarcoma
@@ -573,6 +582,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 contributes to the invasion and survival of synovial sarcoma cells.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β mapped) shapes the fibrotic and immunosuppressive microenvironment of synovial sarcoma.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING shapes the immune microenvironment relevant to the NY-ESO-1-directed cell therapy and immunotherapy of synovial sarcoma.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antitumor immune response of synovial sarcoma, relevant to its NY-ESO-1-directed cell therapy.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors, restrained by the PI3K-AKT axis, modulate the survival of the SS18-SSX-driven cells of synovial sarcoma.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated CD8 cytotoxicity is the effector mechanism of the NY-ESO-1-directed cell therapy used in synovial sarcoma.
 
 ---
 
