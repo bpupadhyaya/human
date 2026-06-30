@@ -346,6 +346,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Complement activation in the pulmonary vascular wall contributes to the perivascular inflammation and remodelling of pulmonary arterial hypertension."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA sensing through cGAS-STING amplifies the perivascular inflammation that drives the vascular remodelling of pulmonary arterial hypertension."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "Downregulation of FOXO1 in pulmonary-artery smooth-muscle cells drives the apoptosis-resistant, proliferative phenotype central to pulmonary arterial hypertension."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling contributes to the interferon and immune component of the pulmonary vascular inflammation of pulmonary arterial hypertension."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -578,6 +587,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 drives the pulmonary-vascular and right-ventricular fibrosis of pulmonary arterial hypertension and is a biomarker of disease severity.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — Loss of PTEN restraint on PI3K-AKT-mTOR signaling (AKT and mTOR mapped) promotes the pulmonary-arterial-smooth-muscle proliferation that obliterates the vessel lumen in PAH.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement activation in the pulmonary vascular wall contributes to the perivascular inflammation and remodeling of pulmonary arterial hypertension.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING amplifies the perivascular inflammation that drives the vascular remodeling of pulmonary arterial hypertension.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — Downregulation of FOXO1 in pulmonary-artery smooth-muscle cells drives the apoptosis-resistant, proliferative phenotype central to pulmonary arterial hypertension.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling contributes to the interferon and immune component of the pulmonary vascular inflammation of pulmonary arterial hypertension.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
