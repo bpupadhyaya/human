@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/smad4
     relation: connects-to
     note: "TGF-β-SMAD signalling (TGF-β mapped) shapes the immunosuppressive and fibrotic microenvironment of mesothelioma."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the antitumour immune response of mesothelioma, relevant to its checkpoint immunotherapy."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Asbestos-induced DNA damage and chronic inflammation engage cGAS-STING, contributing to the carcinogenesis and immune microenvironment of mesothelioma."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors integrate the oxidative stress of asbestos exposure relevant to the cellular transformation of mesothelioma."
 ---
 
 # Mesothelioma
@@ -566,6 +575,9 @@ Cytoreductive surgery (CRS) + hyperthermic intraperitoneal chemotherapy (HIPEC):
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 is expressed in mesothelioma and contributes to its invasion and immunosuppressive microenvironment.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-6-JAK-STAT3 signaling (IL-6 and STAT3 mapped), driven by asbestos-induced chronic inflammation, promotes mesothelioma growth.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β mapped) shapes the immunosuppressive and fibrotic microenvironment of mesothelioma.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antitumor immune response of mesothelioma, relevant to its checkpoint immunotherapy.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Asbestos-induced DNA damage and chronic inflammation engage cGAS-STING, contributing to the carcinogenesis and immune microenvironment of mesothelioma.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors integrate the oxidative stress of asbestos exposure relevant to the cellular transformation of mesothelioma.
 
 [^baas-2021-checkmate743]: Baas P, Scherpereel A, Nowak AK, et al. First-line nivolumab plus ipilimumab in unresectable malignant pleural mesothelioma (CheckMate 743). *Lancet.* 2021;397(10272):375-386. [doi:10.1016/S0140-6736(20)32714-8](https://doi.org/10.1016/S0140-6736(20)32714-8) · [PubMed 33485464](https://pubmed.ncbi.nlm.nih.gov/33485464/)
 [^vogelzang-2003-pemetrexed]: Vogelzang NJ, Rusthoven JJ, Symanowski J, et al. Phase III study of pemetrexed in combination with cisplatin versus cisplatin alone in patients with malignant pleural mesothelioma. *J Clin Oncol.* 2003;21(14):2636-2644. [doi:10.1200/JCO.2003.11.136](https://doi.org/10.1200/JCO.2003.11.136) · [PubMed 12860938](https://pubmed.ncbi.nlm.nih.gov/12860938/)
