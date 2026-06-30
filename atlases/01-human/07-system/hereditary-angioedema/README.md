@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/stat3
     relation: connects-to
     note: "IL-6-STAT3 signalling transduces the acute-phase inflammatory response that accompanies the attacks of hereditary angioedema."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "JAK1/2-STAT cytokine signaling (IL-6 already mapped) modulates the endothelial inflammatory tone that influences attack susceptibility in hereditary angioedema."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "HIF-1α-VEGF signaling (VEGF already mapped) heightens the vascular permeability that underlies the bradykinin-driven swelling of hereditary angioedema."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO downstream of bradykinin-PI3K-AKT signaling (AKT and PIK3CA already mapped) regulates the endothelial oxidative-stress and barrier responses in hereditary angioedema."
 ---
 
 # Hereditary Angioedema
@@ -594,6 +603,9 @@ Fluid extravasation → ANGIOEDEMA
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K signaling downstream of the bradykinin B2 receptor on endothelial cells contributes to the eNOS activation and vascular permeability of the angioedema attacks in hereditary angioedema.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 modulates endothelial activation and vascular inflammation relevant to the localized permeability that produces the swelling of hereditary angioedema.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling transduces the acute-phase inflammatory response that accompanies the attacks of hereditary angioedema.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK1/2-STAT cytokine signaling (IL-6 already mapped) modulates the endothelial inflammatory tone that influences attack susceptibility in hereditary angioedema.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α-VEGF signaling (VEGF already mapped) heightens the vascular permeability that underlies the bradykinin-driven swelling of hereditary angioedema.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO downstream of bradykinin-PI3K-AKT signaling (AKT and PIK3CA already mapped) regulates the endothelial oxidative-stress and barrier responses in hereditary angioedema.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)

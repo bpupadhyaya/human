@@ -345,6 +345,15 @@ cross_links:
   - target: 01-human/03-molecular/mtor
     relation: connects-to
     note: "PI3K-AKT-mTOR signalling, modulated by HCV proteins, drives the proliferative and metabolic reprogramming of hepatitis-C-associated hepatocellular carcinoma."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "HCV-induced PI3K-AKT signaling inactivates FOXO, promoting hepatocyte survival and the metabolic dysregulation of chronic hepatitis C."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "HCV proteins induce HIF-1α, supporting the angiogenesis and metabolic reprogramming of hepatitis-C-associated steatosis and hepatocarcinogenesis."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "HCV core and NS proteins dysregulate the cyclin-D-CDK4/6-RB axis to drive hepatocyte cell-cycle entry in hepatitis-C-related hepatocellular carcinoma."
 ---
 
 # Hepatitis C
@@ -580,3 +589,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 amplifies hepatic stellate-cell activation and fibrosis and supports the immune evasion of the hepatocellular carcinoma that complicates chronic hepatitis C.
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — EZH2-mediated polycomb repression silences tumor-suppressor genes and contributes to the hepatocarcinogenesis of chronic hepatitis C.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — PI3K-AKT-mTOR signaling, modulated by HCV proteins, drives the proliferative and metabolic reprogramming of hepatitis-C-associated hepatocellular carcinoma.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — HCV-induced PI3K-AKT signaling inactivates FOXO, promoting hepatocyte survival and the metabolic dysregulation of chronic hepatitis C.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HCV proteins induce HIF-1α, supporting the angiogenesis and metabolic reprogramming of hepatitis-C-associated steatosis and hepatocarcinogenesis.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — HCV core and NS proteins dysregulate the cyclin-D-CDK4/6-RB axis to drive hepatocyte cell-cycle entry in hepatitis-C-related hepatocellular carcinoma.
