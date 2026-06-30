@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/stat1
     relation: connects-to
     note: "STAT1-dependent interferon signalling shapes the immune microenvironment and the therapy response of glioblastoma."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors, restrained by the PTEN-PI3K-AKT axis, regulate the stemness and metabolic adaptation of glioblastoma stem cells."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β signalling supports the survival and self-renewal of glioblastoma stem cells and is a candidate therapeutic target."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signalling downstream of receptor tyrosine kinases drives the invasion and migration of glioblastoma cells."
 ---
 
 # Glioblastoma
@@ -577,6 +586,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 is highly expressed in glioblastoma, promoting invasion, the mesenchymal phenotype and immune suppression.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β mapped) drives the invasion, stemness and immunosuppression of glioblastoma.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — STAT1-dependent interferon signaling shapes the immune microenvironment and the therapy response of glioblastoma.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors, restrained by the PTEN-PI3K-AKT axis, regulate the stemness and metabolic adaptation of glioblastoma stem cells.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β signaling supports the survival and self-renewal of glioblastoma stem cells and is a candidate therapeutic target.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of receptor tyrosine kinases drives the invasion and migration of glioblastoma cells.
 
 ---
 

@@ -340,6 +340,15 @@ cross_links:
   - target: 01-human/03-molecular/galectin-3
     relation: connects-to
     note: "Galectin-3 modulates tumour-cell survival and the stromal microenvironment of the neoplasms of Gorlin syndrome."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signalling shapes the antitumour immune surveillance of the basal cell carcinomas and medulloblastomas of Gorlin syndrome."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA sensing through cGAS-STING modulates the immune microenvironment of the Hedgehog-driven tumours of Gorlin syndrome."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors integrate the survival and oxidative-stress signalling of the proliferating cells of the Hedgehog-driven tumours of Gorlin syndrome."
 ---
 
 # Gorlin Syndrome
@@ -558,6 +567,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK kinases transduce the IL-6 signal to STAT3 (IL-6 and STAT3 mapped), providing a proliferative and inflammatory input to the tumors of Gorlin syndrome.
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β signaling crosstalks with Hedgehog (PTCH1/SMO/SUFU mapped) and shapes the stroma of the basal cell carcinomas and odontogenic keratocysts of Gorlin syndrome.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 modulates tumor-cell survival and the stromal microenvironment of the neoplasms of Gorlin syndrome.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antitumor immune surveillance of the basal cell carcinomas and medulloblastomas of Gorlin syndrome.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING modulates the immune microenvironment of the Hedgehog-driven tumors of Gorlin syndrome.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors integrate the survival and oxidative-stress signaling of the proliferating cells of the Hedgehog-driven tumors of Gorlin syndrome.
 
 ---
 
