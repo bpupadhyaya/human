@@ -367,6 +367,15 @@ cross_links:
   - target: 01-human/03-molecular/src-kinase
     relation: connects-to
     note: "SRC-family kinase signaling downstream of FGFR, MET, and EGFR (all already mapped) drives the invasion of cholangiocarcinoma."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked metabolic signaling participates in the metabolic adaptation of cholangiocarcinoma (interacting with the IDH-mutant metabolism; IDH1/2 already mapped)."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy supports the survival and therapy resistance of cholangiocarcinoma cells."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven myeloid recruitment shapes the desmoplastic, immunosuppressive microenvironment of cholangiocarcinoma."
 ---
 
 # Cholangiocarcinoma
@@ -580,6 +589,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β regulates the Wnt/β-catenin and survival signaling (Wnt already mapped) of cholangiocarcinoma.
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis in cholangiocarcinoma.
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of FGFR, MET, and EGFR (all already mapped) drives the invasion of cholangiocarcinoma.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the metabolic adaptation of cholangiocarcinoma (interacting with the IDH-mutant metabolism; IDH1/2 already mapped).
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy supports the survival and therapy resistance of cholangiocarcinoma cells.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven myeloid recruitment shapes the desmoplastic, immunosuppressive microenvironment of cholangiocarcinoma.
 
 ---
 
