@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/perforin
     relation: connects-to
     note: "Perforin-mediated cytotoxic killing contributes to the imatinib-enhanced antitumor immune response in gastrointestinal stromal tumor."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins shape the inflammatory microenvironment of gastrointestinal stromal tumor."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked metabolic signaling participates in the metabolic adaptation of gastrointestinal stromal tumor, particularly in SDH-deficient subtypes."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "NOTCH signaling participates in the proliferation and differentiation biology of gastrointestinal stromal tumor."
 ---
 
 # GIST
@@ -602,6 +611,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β supports the survival signaling downstream of KIT/PDGFRA in gastrointestinal stromal tumor.
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis in gastrointestinal stromal tumor.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated cytotoxic killing contributes to the imatinib-enhanced antitumor immune response in gastrointestinal stromal tumor.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins shape the inflammatory microenvironment of gastrointestinal stromal tumor.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the metabolic adaptation of gastrointestinal stromal tumor, particularly in SDH-deficient subtypes.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH signaling participates in the proliferation and differentiation biology of gastrointestinal stromal tumor.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
