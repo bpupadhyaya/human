@@ -379,6 +379,15 @@ cross_links:
   - target: 01-human/03-molecular/src-kinase
     relation: connects-to
     note: "SRC-family kinase signaling downstream of Fcγ-receptor engagement by ANCA drives the neutrophil activation central to ANCA-associated vasculitis."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked immunometabolic signaling shapes the neutrophil and autoreactive-lymphocyte metabolism of ANCA-associated vasculitis."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy participates in the neutrophil NETosis and autoreactive-immune-cell responses of ANCA-associated vasculitis."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven leukocyte recruitment contributes to the vascular and glomerular inflammation of ANCA-associated vasculitis."
 ---
 
 # ANCA Vasculitis
@@ -631,6 +640,9 @@ EGPA is mechanistically distinct — eosinophils, not neutrophils, mediate tissu
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the neutrophil activation and inflammatory signaling that drive the necrotizing vasculitis of ANCA-associated vasculitis.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) participates in the ANCA-triggered neutrophil respiratory burst and degranulation of ANCA-associated vasculitis.
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of Fcγ-receptor engagement by ANCA drives the neutrophil activation central to ANCA-associated vasculitis.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked immunometabolic signaling shapes the neutrophil and autoreactive-lymphocyte metabolism of ANCA-associated vasculitis.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy participates in the neutrophil NETosis and autoreactive-immune-cell responses of ANCA-associated vasculitis.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven leukocyte recruitment contributes to the vascular and glomerular inflammation of ANCA-associated vasculitis.
 
 [^yates-2022-anca-review]: Yates M, Watts RA, Bajema IM, et al. EULAR/ERA-EDTA recommendations for the management of ANCA-associated vasculitis. *Ann Rheum Dis.* 2016;75(9):1583-1594. [doi:10.1136/annrheumdis-2016-209133](https://doi.org/10.1136/annrheumdis-2016-209133) · [PubMed 27338776](https://pubmed.ncbi.nlm.nih.gov/27338776/)
 [^stone-2010-rituximab-gpa-rave]: Stone JH, Merkel PA, Spiera R, et al. Rituximab versus cyclophosphamide for ANCA-associated vasculitis. *N Engl J Med.* 2010;363(3):221-232. [doi:10.1056/NEJMoa0909905](https://doi.org/10.1056/NEJMoa0909905) · [PubMed 20647199](https://pubmed.ncbi.nlm.nih.gov/20647199/)
