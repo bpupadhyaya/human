@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/autophagy
     relation: connects-to
     note: "Autophagy supports the metabolic adaptation and treatment resistance of glioblastoma cells."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked metabolic signaling participates in the metabolic adaptation of the treatment-resistant glioblastoma stem cells."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "ARID1A-containing SWI/SNF chromatin remodeling contributes to the epigenetic dysregulation of glioblastoma."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "IL-6-STAT3 signaling (STAT3 already mapped) from the tumor and microglia sustains the immunosuppressive, proliferative microenvironment of glioblastoma."
 ---
 
 # Glioblastoma
@@ -601,6 +610,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins from myeloid-derived suppressor cells shape the immunosuppressive microenvironment of glioblastoma.
 - `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Wnt-β-catenin signaling sustains glioma stem-cell self-renewal and therapy resistance in glioblastoma.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy supports the metabolic adaptation and treatment resistance of glioblastoma cells.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the metabolic adaptation of the treatment-resistant glioblastoma stem cells.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling contributes to the epigenetic dysregulation of glioblastoma.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6-STAT3 signaling (STAT3 already mapped) from the tumor and microglia sustains the immunosuppressive, proliferative microenvironment of glioblastoma.
 
 ---
 

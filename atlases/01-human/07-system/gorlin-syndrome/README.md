@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/s100a8-a9
     relation: connects-to
     note: "S100A8/A9 alarmins shape the inflammatory stroma of the Hedgehog-driven tumors of Gorlin syndrome."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling downstream of growth-factor receptors contributes to the proliferative signaling of the Hedgehog-driven tumors of Gorlin syndrome."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation contributes to the epigenetic dysregulation of the tumors of Gorlin syndrome."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy supports the survival and therapy resistance of the Hedgehog-driven cells of Gorlin syndrome."
 ---
 
 # Gorlin Syndrome
@@ -582,6 +591,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β regulates GLI and β-catenin stability (SHH/SMO and WNT-β-catenin already mapped), modulating the Hedgehog-driven tumorigenesis of Gorlin syndrome.
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis in the basal cell carcinomas and medulloblastomas of Gorlin syndrome.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins shape the inflammatory stroma of the Hedgehog-driven tumors of Gorlin syndrome.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of growth-factor receptors contributes to the proliferative signaling of the Hedgehog-driven tumors of Gorlin syndrome.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the epigenetic dysregulation of the tumors of Gorlin syndrome.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy supports the survival and therapy resistance of the Hedgehog-driven cells of Gorlin syndrome.
 
 ---
 
