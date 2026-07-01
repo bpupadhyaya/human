@@ -373,6 +373,15 @@ cross_links:
   - target: 01-human/03-molecular/src-kinase
     relation: connects-to
     note: "SRC-family (LCK) kinase signaling downstream of the T-cell receptor and CD4 co-receptor participates in the T-cell activation exploited by HIV infection."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked immunometabolic signaling shapes the T-cell metabolism and viral-replication interplay of HIV infection."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation contributes to the epigenetic silencing of the HIV provirus (latency) and to T-cell exhaustion."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "MDM2-p53 signaling participates in the apoptotic control of HIV-infected and bystander CD4 T cells."
 ---
 
 # HIV
@@ -626,6 +635,9 @@ The **latent reservoir** — HIV integrated into quiescent resting memory CD4+ T
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the T-cell activation and survival signaling relevant to the immune dysfunction and latency of HIV infection.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — HIV modulates host autophagy to support its replication while evading the xenophagic degradation of viral components in HIV infection.
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family (LCK) kinase signaling downstream of the T-cell receptor and CD4 co-receptor participates in the T-cell activation exploited by HIV infection.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked immunometabolic signaling shapes the T-cell metabolism and viral-replication interplay of HIV infection.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the epigenetic silencing of the HIV provirus (latency) and to T-cell exhaustion.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-p53 signaling participates in the apoptotic control of HIV-infected and bystander CD4 T cells.
 
 [^barre-sinoussi-1983-hiv-isolation]: Barré-Sinoussi F, Chermann JC, Rey F, et al. Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS). *Science.* 1983;220(4599):868-871. [doi:10.1126/science.6189183](https://doi.org/10.1126/science.6189183) · [PubMed 6189183](https://pubmed.ncbi.nlm.nih.gov/6189183/)
 [^ho-1995-viral-dynamics]: Ho DD, Neumann AU, Perelson AS, et al. Rapid turnover of plasma virions and CD4 lymphocytes in HIV-1 infection. *Nature.* 1995;373(6510):123-126. [doi:10.1038/373123a0](https://doi.org/10.1038/373123a0) · [PubMed 7816094](https://pubmed.ncbi.nlm.nih.gov/7816094/)
