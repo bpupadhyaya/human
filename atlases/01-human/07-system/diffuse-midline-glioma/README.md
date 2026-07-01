@@ -367,6 +367,15 @@ cross_links:
   - target: 01-human/03-molecular/ampk
     relation: connects-to
     note: "AMPK-linked metabolic signaling participates in the metabolic adaptation of the brainstem-infiltrating cells of diffuse midline glioma."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven microglial and myeloid recruitment shapes the immunosuppressive microenvironment of diffuse midline glioma."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "IL-6-STAT3 signaling (STAT3 already mapped) participates in the tumor-microenvironment and survival signaling of diffuse midline glioma."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Wnt-β-catenin signaling participates in the glioma-stem-cell maintenance of diffuse midline glioma."
 ---
 
 # Diffuse Midline Glioma
@@ -622,6 +631,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy supports the survival and therapy resistance of the H3K27M-driven cells of diffuse midline glioma.
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling contributes to the epigenetic dysregulation cooperating with the H3K27M mutation of diffuse midline glioma.
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the metabolic adaptation of the brainstem-infiltrating cells of diffuse midline glioma.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven microglial and myeloid recruitment shapes the immunosuppressive microenvironment of diffuse midline glioma.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6-STAT3 signaling (STAT3 already mapped) participates in the tumor-microenvironment and survival signaling of diffuse midline glioma.
+- `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Wnt-β-catenin signaling participates in the glioma-stem-cell maintenance of diffuse midline glioma.
 
 ---
 

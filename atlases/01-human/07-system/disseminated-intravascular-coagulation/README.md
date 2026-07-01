@@ -373,6 +373,15 @@ cross_links:
   - target: 01-human/03-molecular/perforin
     relation: connects-to
     note: "Perforin-bearing cytotoxic lymphocytes contribute to the endothelial injury that triggers the coagulation cascade in sepsis-associated disseminated intravascular coagulation."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling participates in the platelet activation and endothelial responses of disseminated intravascular coagulation."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked endothelial metabolic signaling modulates the vascular homeostasis disrupted in disseminated intravascular coagulation."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven leukocyte recruitment contributes to the thrombo-inflammation of disseminated intravascular coagulation."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -622,6 +631,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the platelet-activation and inflammatory signaling that drive the systemic coagulation activation of disseminated intravascular coagulation.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR signaling in activated endothelium and immune cells participates in the immunothrombosis underlying disseminated intravascular coagulation.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-bearing cytotoxic lymphocytes contribute to the endothelial injury that triggers the coagulation cascade in sepsis-associated disseminated intravascular coagulation.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the platelet activation and endothelial responses of disseminated intravascular coagulation.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked endothelial metabolic signaling modulates the vascular homeostasis disrupted in disseminated intravascular coagulation.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven leukocyte recruitment contributes to the thrombo-inflammation of disseminated intravascular coagulation.
 
 ---
 
