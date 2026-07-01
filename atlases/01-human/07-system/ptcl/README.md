@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/cdk4-6
     relation: connects-to
     note: "CDK4/6-cyclin-D activity (cyclin-D1 and RB1 already mapped) drives the cell-cycle progression of peripheral T-cell lymphoma."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "PI3K-AKT signaling (AKT already mapped) inactivates FOXO, supporting the survival of the malignant T cells of peripheral T-cell lymphoma."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the survival and Wnt/NF-κB signaling of peripheral T-cell lymphoma."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "MDM2-mediated p53 degradation restrains apoptosis in peripheral T-cell lymphoma."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -604,6 +613,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antitumor immune response and the interferon-associated subtypes of peripheral T-cell lymphoma.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING modulates the inflammatory microenvironment of peripheral T-cell lymphoma.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6-cyclin-D activity (cyclin-D1 and RB1 already mapped) drives the cell-cycle progression of peripheral T-cell lymphoma.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — PI3K-AKT signaling (AKT already mapped) inactivates FOXO, supporting the survival of the malignant T cells of peripheral T-cell lymphoma.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the survival and Wnt/NF-κB signaling of peripheral T-cell lymphoma.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated p53 degradation restrains apoptosis in peripheral T-cell lymphoma.
 
 ---
 

@@ -355,6 +355,15 @@ cross_links:
   - target: 01-human/03-molecular/stat1
     relation: connects-to
     note: "IFN-STAT1 signalling contributes to the interferon and immune component of the pulmonary vascular inflammation of pulmonary arterial hypertension."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β signaling contributes to the proliferative, apoptosis-resistant phenotype of the pulmonary-artery smooth-muscle cells in pulmonary arterial hypertension."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins reflect the perivascular inflammation that drives the vascular remodeling of pulmonary arterial hypertension."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "CDK4/6-cyclin-D-driven proliferation of pulmonary-artery smooth-muscle cells contributes to the occlusive vascular remodeling of pulmonary arterial hypertension."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -590,6 +599,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING amplifies the perivascular inflammation that drives the vascular remodeling of pulmonary arterial hypertension.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — Downregulation of FOXO1 in pulmonary-artery smooth-muscle cells drives the apoptosis-resistant, proliferative phenotype central to pulmonary arterial hypertension.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling contributes to the interferon and immune component of the pulmonary vascular inflammation of pulmonary arterial hypertension.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β signaling contributes to the proliferative, apoptosis-resistant phenotype of the pulmonary-artery smooth-muscle cells in pulmonary arterial hypertension.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins reflect the perivascular inflammation that drives the vascular remodeling of pulmonary arterial hypertension.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6-cyclin-D-driven proliferation of pulmonary-artery smooth-muscle cells contributes to the occlusive vascular remodeling of pulmonary arterial hypertension.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
