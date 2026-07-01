@@ -355,6 +355,15 @@ cross_links:
   - target: 01-human/03-molecular/pik3ca
     relation: connects-to
     note: "PI3K (PIK3CA) signaling in platelets and endothelium reinforces the activated, procoagulant phenotype that sustains the microthrombi of TTP."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO downstream of PI3K-AKT signaling (AKT and PIK3CA already mapped) regulates the survival of the autoantibody-producing B and plasma cells driving acquired thrombotic thrombocytopenic purpura."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the platelet-activation and inflammatory signaling relevant to the microthrombosis of thrombotic thrombocytopenic purpura."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Perforin-mediated cytotoxicity contributes to the endothelial injury that provokes the von-Willebrand-factor release of thrombotic thrombocytopenic purpura."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -622,6 +631,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA released from NETs and lysed cells engages cGAS-STING, amplifying the type-I-interferon thromboinflammation of TTP.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling propagates the interferon-driven endothelial activation that aggravates the microvascular injury of TTP.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA) signaling in platelets and endothelium reinforces the activated, procoagulant phenotype that sustains the microthrombi of TTP.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO downstream of PI3K-AKT signaling (AKT and PIK3CA already mapped) regulates the survival of the autoantibody-producing B and plasma cells driving acquired thrombotic thrombocytopenic purpura.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the platelet-activation and inflammatory signaling relevant to the microthrombosis of thrombotic thrombocytopenic purpura.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated cytotoxicity contributes to the endothelial injury that provokes the von-Willebrand-factor release of thrombotic thrombocytopenic purpura.
 
 ---
 
