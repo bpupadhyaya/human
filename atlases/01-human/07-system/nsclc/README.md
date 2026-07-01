@@ -373,6 +373,15 @@ cross_links:
   - target: 01-human/03-molecular/dnmt3a
     relation: connects-to
     note: "DNMT3A-mediated DNA methylation contributes to the epigenetic silencing of tumor-suppressor genes in non-small-cell lung cancer."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy supports the survival and therapy resistance of non-small-cell lung cancer cells."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven myeloid recruitment shapes the immunosuppressive microenvironment of non-small-cell lung cancer."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic landscape of non-small-cell lung cancer."
 ---
 
 # NSCLC
@@ -592,6 +601,9 @@ cross_links:
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β regulates the Wnt/β-catenin and survival signaling of non-small-cell lung cancer.
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of EGFR, MET, and other receptor tyrosine kinases (all already mapped) drives the invasion of non-small-cell lung cancer.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the epigenetic silencing of tumor-suppressor genes in non-small-cell lung cancer.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy supports the survival and therapy resistance of non-small-cell lung cancer cells.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven myeloid recruitment shapes the immunosuppressive microenvironment of non-small-cell lung cancer.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic landscape of non-small-cell lung cancer.
 
 [^soria-2018-osimertinib-flaura]: Soria JC, Ohe Y, Vansteenkiste J, et al. Osimertinib in untreated EGFR-mutated advanced non-small-cell lung cancer. *N Engl J Med.* 2018;378(2):113-125. [doi:10.1056/NEJMoa1713137](https://doi.org/10.1056/NEJMoa1713137) · [PubMed 29151359](https://pubmed.ncbi.nlm.nih.gov/29151359/)
 [^reck-2016-pembrolizumab-keynote024]: Reck M, Rodríguez-Abreu D, Robinson AG, et al. Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell lung cancer. *N Engl J Med.* 2016;375(19):1823-1833. [doi:10.1056/NEJMoa1606774](https://doi.org/10.1056/NEJMoa1606774) · [PubMed 27718347](https://pubmed.ncbi.nlm.nih.gov/27718347/)
