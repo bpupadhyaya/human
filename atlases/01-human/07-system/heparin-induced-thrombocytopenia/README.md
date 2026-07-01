@@ -367,6 +367,15 @@ cross_links:
   - target: 01-human/03-molecular/endothelin-1
     relation: connects-to
     note: "Endothelin-1 released by the activated endothelium contributes to the prothrombotic vascular tone of heparin-induced thrombocytopenia."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven monocyte recruitment contributes to the tissue-factor-bearing prothrombotic monocyte activation of heparin-induced thrombocytopenia."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy modulates the platelet and endothelial activation responses relevant to heparin-induced thrombocytopenia."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked metabolic signaling participates in the platelet and immune-cell activation of heparin-induced thrombocytopenia."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -627,6 +636,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β participates in the platelet-activation signaling downstream of FcγRIIa engagement in heparin-induced thrombocytopenia.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR signaling in activated platelets and immune cells participates in the prothrombotic immune activation of heparin-induced thrombocytopenia.
 - `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Endothelin-1 released by the activated endothelium contributes to the prothrombotic vascular tone of heparin-induced thrombocytopenia.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven monocyte recruitment contributes to the tissue-factor-bearing prothrombotic monocyte activation of heparin-induced thrombocytopenia.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the platelet and endothelial activation responses relevant to heparin-induced thrombocytopenia.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the platelet and immune-cell activation of heparin-induced thrombocytopenia.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)

@@ -363,6 +363,15 @@ cross_links:
   - target: 01-human/03-molecular/s100a8-a9
     relation: connects-to
     note: "S100A8/A9 alarmins amplify the necroinflammatory liver injury of chronic hepatitis B."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped) is modulated by HBV proteins to support hepatocyte survival and viral persistence."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "HBV subverts host autophagy to support its replication, and autophagy shapes the hepatocyte response to hepatitis B."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation, including HBV-driven silencing of tumor suppressors, contributes to the hepatocarcinogenesis of chronic hepatitis B."
 ---
 
 # Hepatitis B
@@ -613,3 +622,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β regulates the β-catenin stability (CTNNB1 already mapped) and survival signaling relevant to HBV-driven hepatocarcinogenesis.
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis, cooperating with HBx in the malignant progression of chronic hepatitis B.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins amplify the necroinflammatory liver injury of chronic hepatitis B.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) is modulated by HBV proteins to support hepatocyte survival and viral persistence.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — HBV subverts host autophagy to support its replication, and autophagy shapes the hepatocyte response to hepatitis B.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation, including HBV-driven silencing of tumor suppressors, contributes to the hepatocarcinogenesis of chronic hepatitis B.
