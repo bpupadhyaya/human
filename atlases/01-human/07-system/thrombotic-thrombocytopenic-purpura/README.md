@@ -373,6 +373,15 @@ cross_links:
   - target: 01-human/03-molecular/autophagy
     relation: connects-to
     note: "Autophagy modulates the endothelial and immune-cell responses relevant to thrombotic thrombocytopenic purpura."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked endothelial metabolic signaling modulates the vascular homeostasis relevant to thrombotic thrombocytopenic purpura."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven leukocyte recruitment contributes to the autoantibody-driven inflammation of acquired thrombotic thrombocytopenic purpura."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the autoreactive immune response in acquired thrombotic thrombocytopenic purpura."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -646,6 +655,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family (LYN) kinase signaling downstream of the B-cell receptor participates in the autoreactive anti-ADAMTS13 B-cell response of immune thrombotic thrombocytopenic purpura.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR signaling in the autoreactive B and plasma cells participates in the immune process of thrombotic thrombocytopenic purpura.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the endothelial and immune-cell responses relevant to thrombotic thrombocytopenic purpura.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked endothelial metabolic signaling modulates the vascular homeostasis relevant to thrombotic thrombocytopenic purpura.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven leukocyte recruitment contributes to the autoantibody-driven inflammation of acquired thrombotic thrombocytopenic purpura.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the autoreactive immune response in acquired thrombotic thrombocytopenic purpura.
 
 ---
 
