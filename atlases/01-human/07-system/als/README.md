@@ -367,6 +367,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "HIF-1α-linked metabolic and vascular stress responses contribute to motor-neuron vulnerability in ALS."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK signaling, coupled to autophagy and mTOR (both already mapped), regulates the proteostasis and metabolic stress of the degenerating motor neurons of ALS."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped) governs the neuronal survival pathways whose failure contributes to motor-neuron degeneration in ALS."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Perforin-bearing cytotoxic CD8 T cells infiltrate the ALS spinal cord and contribute to motor-neuron injury."
 ---
 
 # ALS
@@ -623,6 +632,9 @@ ALS diagnosis is **clinical** — no single definitive biomarker test (though Nf
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors regulate the motor-neuron autophagy and oxidative-stress defense whose failure permits TDP-43 aggregation in ALS.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins released by activated microglia amplify the neuroinflammation of ALS.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α-linked metabolic and vascular stress responses contribute to motor-neuron vulnerability in ALS.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK signaling, coupled to autophagy and mTOR (both already mapped), regulates the proteostasis and metabolic stress of the degenerating motor neurons of ALS.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) governs the neuronal survival pathways whose failure contributes to motor-neuron degeneration in ALS.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-bearing cytotoxic CD8 T cells infiltrate the ALS spinal cord and contribute to motor-neuron injury.
 
 [^brown-2017-als-review]: Brown RH, Al-Chalabi A. Amyotrophic lateral sclerosis. *N Engl J Med.* 2017;377(2):162-172. [doi:10.1056/NEJMra1603471](https://doi.org/10.1056/NEJMra1603471) · [PubMed 28700839](https://pubmed.ncbi.nlm.nih.gov/28700839/)
 [^edaravone-als-2017]: Writing Group, Edaravone ALS 19 Study Group. Safety and efficacy of edaravone in well defined patients with amyotrophic lateral sclerosis. *Lancet Neurol.* 2017;16(7):505-512. [doi:10.1016/S1474-4422(17)30115-1](https://doi.org/10.1016/S1474-4422(17)30115-1) · [PubMed 28522180](https://pubmed.ncbi.nlm.nih.gov/28522180/)

@@ -370,6 +370,15 @@ cross_links:
   - target: 01-human/03-molecular/perforin
     relation: connects-to
     note: "Perforin-mediated cytotoxic T- and NK-cell activity contributes to the endothelial and tissue injury of ANCA-associated vasculitis."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the neutrophil activation and inflammatory signaling that drive the necrotizing vasculitis of ANCA-associated vasculitis."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped) participates in the ANCA-triggered neutrophil respiratory burst and degranulation of ANCA-associated vasculitis."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling downstream of Fcγ-receptor engagement by ANCA drives the neutrophil activation central to ANCA-associated vasculitis."
 ---
 
 # ANCA Vasculitis
@@ -619,6 +628,9 @@ EGPA is mechanistically distinct — eosinophils, not neutrophils, mediate tissu
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO regulates the neutrophil and lymphocyte survival and oxidative-stress balance relevant to the autoreactivity and NET formation of ANCA-associated vasculitis.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α in the inflamed, hypoxic vessel wall shapes the granulomatous and necrotizing inflammation of ANCA-associated vasculitis.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated cytotoxic T- and NK-cell activity contributes to the endothelial and tissue injury of ANCA-associated vasculitis.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the neutrophil activation and inflammatory signaling that drive the necrotizing vasculitis of ANCA-associated vasculitis.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) participates in the ANCA-triggered neutrophil respiratory burst and degranulation of ANCA-associated vasculitis.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of Fcγ-receptor engagement by ANCA drives the neutrophil activation central to ANCA-associated vasculitis.
 
 [^yates-2022-anca-review]: Yates M, Watts RA, Bajema IM, et al. EULAR/ERA-EDTA recommendations for the management of ANCA-associated vasculitis. *Ann Rheum Dis.* 2016;75(9):1583-1594. [doi:10.1136/annrheumdis-2016-209133](https://doi.org/10.1136/annrheumdis-2016-209133) · [PubMed 27338776](https://pubmed.ncbi.nlm.nih.gov/27338776/)
 [^stone-2010-rituximab-gpa-rave]: Stone JH, Merkel PA, Spiera R, et al. Rituximab versus cyclophosphamide for ANCA-associated vasculitis. *N Engl J Med.* 2010;363(3):221-232. [doi:10.1056/NEJMoa0909905](https://doi.org/10.1056/NEJMoa0909905) · [PubMed 20647199](https://pubmed.ncbi.nlm.nih.gov/20647199/)
