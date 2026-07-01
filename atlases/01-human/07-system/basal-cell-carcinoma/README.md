@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/mdm2
     relation: connects-to
     note: "MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis in the UV-mutated keratinocytes of basal cell carcinoma."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling downstream of growth-factor receptors contributes to the invasive signaling of basal cell carcinoma."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation contributes to the epigenetic dysregulation of basal cell carcinoma."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy supports the survival and therapy resistance of the Hedgehog-driven cells of basal cell carcinoma."
 ---
 
 # Basal Cell Carcinoma
@@ -593,6 +602,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins from infiltrating myeloid cells amplify the inflammatory stroma of basal cell carcinoma.
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β regulates GLI and β-catenin stability (SHH and WNT-β-catenin already mapped), modulating the Hedgehog-driven oncogenic signaling of basal cell carcinoma.
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis in the UV-mutated keratinocytes of basal cell carcinoma.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of growth-factor receptors contributes to the invasive signaling of basal cell carcinoma.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the epigenetic dysregulation of basal cell carcinoma.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy supports the survival and therapy resistance of the Hedgehog-driven cells of basal cell carcinoma.
 
 ---
 

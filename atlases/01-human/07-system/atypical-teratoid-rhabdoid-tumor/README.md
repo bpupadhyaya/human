@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/s100a8-a9
     relation: connects-to
     note: "S100A8/A9 alarmins from infiltrating myeloid cells shape the inflammatory tumor microenvironment of atypical teratoid/rhabdoid tumor."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β regulates the GLI and β-catenin stability (SHH/SMO and WNT already mapped) of the developmental-signaling programs of atypical teratoid/rhabdoid tumor."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis in atypical teratoid/rhabdoid tumor."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling contributes to the invasive and survival signaling of atypical teratoid/rhabdoid tumor."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -590,6 +599,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — PI3K-AKT-driven FOXO inactivation (PTEN, AKT, and PIK3CA already mapped) removes a pro-apoptotic brake in atypical teratoid/rhabdoid tumor.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-delivered cytotoxic killing by CD8 T and NK cells mediates the immune clearance that the often immune-cold atypical teratoid/rhabdoid tumor must evade.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins from infiltrating myeloid cells shape the inflammatory tumor microenvironment of atypical teratoid/rhabdoid tumor.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β regulates the GLI and β-catenin stability (SHH/SMO and WNT already mapped) of the developmental-signaling programs of atypical teratoid/rhabdoid tumor.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis in atypical teratoid/rhabdoid tumor.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling contributes to the invasive and survival signaling of atypical teratoid/rhabdoid tumor.
 
 ---
 
