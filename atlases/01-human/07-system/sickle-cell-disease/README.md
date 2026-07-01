@@ -370,6 +370,15 @@ cross_links:
   - target: 01-human/03-molecular/ampk
     relation: connects-to
     note: "AMPK metabolic signaling participates in the response to the hypoxic-ischemic tissue stress of sickle-cell disease."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy (including erythroid mitophagy) participates in the red-cell maturation and oxidative-stress responses of sickle cell disease."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling participates in the endothelial activation and platelet responses driving the vaso-occlusion of sickle cell disease."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven leukocyte recruitment contributes to the vaso-occlusive inflammation of sickle cell disease."
 ---
 
 # Sickle Cell Disease
@@ -646,6 +655,9 @@ SCD vaso-occlusion is not just from sickled RBCs mechanically blocking vessels �
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the endothelial and platelet activation signaling relevant to the vaso-occlusion of sickle-cell disease.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) participates in the endothelial activation and adhesion that drive the vaso-occlusive crises of sickle-cell disease.
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK metabolic signaling participates in the response to the hypoxic-ischemic tissue stress of sickle-cell disease.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy (including erythroid mitophagy) participates in the red-cell maturation and oxidative-stress responses of sickle cell disease.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the endothelial activation and platelet responses driving the vaso-occlusion of sickle cell disease.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven leukocyte recruitment contributes to the vaso-occlusive inflammation of sickle cell disease.
 
 [^steinberg-1999-scd-management]: Steinberg MH. Management of sickle cell disease. *N Engl J Med.* 1999;340(13):1021-1030. [doi:10.1056/NEJM199904013401307](https://doi.org/10.1056/NEJM199904013401307) · [PubMed 10099145](https://pubmed.ncbi.nlm.nih.gov/10099145/)
 [^vichinsky-2000-acs-scd]: Vichinsky EP, Neumayr LD, Earles AN, et al. Causes and outcomes of the acute chest syndrome in sickle cell disease. *N Engl J Med.* 2000;342(25):1855-1865. [doi:10.1056/NEJM200006223422502](https://doi.org/10.1056/NEJM200006223422502) · [PubMed 10861320](https://pubmed.ncbi.nlm.nih.gov/10861320/)
