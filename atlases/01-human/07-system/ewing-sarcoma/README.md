@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/src-kinase
     relation: connects-to
     note: "SRC-kinase signaling downstream of IGF-1R and PDGFR (IGF-1 and PDGF already mapped) drives the invasive signaling of Ewing sarcoma."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy supports the survival and therapy resistance of the EWSR1-FLI1-driven cells of Ewing sarcoma."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "ARID1A-containing SWI/SNF (BAF) chromatin remodeling, co-opted by EWSR1-FLI1, contributes to the aberrant transcriptional program of Ewing sarcoma."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "NOTCH signaling participates in the differentiation and proliferation biology of Ewing sarcoma."
 ---
 
 # Ewing Sarcoma
@@ -594,6 +603,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the β-catenin and survival signaling co-opted by the EWSR1-FLI1 fusion in Ewing sarcoma.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins shape the immunosuppressive microenvironment of the immune-cold Ewing sarcoma.
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-kinase signaling downstream of IGF-1R and PDGFR (IGF-1 and PDGF already mapped) drives the invasive signaling of Ewing sarcoma.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy supports the survival and therapy resistance of the EWSR1-FLI1-driven cells of Ewing sarcoma.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF (BAF) chromatin remodeling, co-opted by EWSR1-FLI1, contributes to the aberrant transcriptional program of Ewing sarcoma.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH signaling participates in the differentiation and proliferation biology of Ewing sarcoma.
 
 ---
 
