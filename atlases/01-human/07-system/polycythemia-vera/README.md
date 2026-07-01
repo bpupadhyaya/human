@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/s100a8-a9
     relation: connects-to
     note: "S100A8/A9 alarmins reflect the inflammatory myeloid activation of polycythemia vera."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family and LYN kinase signaling cooperates with JAK2-STAT to support the survival of the clonal erythroid cells of polycythemia vera."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "MDM2-p53 signaling (p53 already mapped) participates in the clonal survival and leukemic-evolution risk of polycythemia vera."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Perforin-mediated cytotoxic immunosurveillance targets the neoantigen-bearing JAK2-mutant clone of polycythemia vera."
 ---
 
 # Polycythemia Vera
@@ -593,6 +602,9 @@ PV must be distinguished from secondary erythrocytosis (elevated EPO, JAK2 wild-
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — JAK2-STAT5-PI3K-AKT signaling (AKT already mapped) inactivates FOXO, supporting the survival of the clonal erythroid progenitors of polycythemia vera.
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β misregulation contributes to the aberrant hematopoietic stem-cell self-renewal of polycythemia vera.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins reflect the inflammatory myeloid activation of polycythemia vera.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family and LYN kinase signaling cooperates with JAK2-STAT to support the survival of the clonal erythroid cells of polycythemia vera.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-p53 signaling (p53 already mapped) participates in the clonal survival and leukemic-evolution risk of polycythemia vera.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated cytotoxic immunosurveillance targets the neoantigen-bearing JAK2-mutant clone of polycythemia vera.
 
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409630](https://doi.org/10.1056/NEJMoa1409630) · [PubMed 25577388](https://pubmed.ncbi.nlm.nih.gov/25577388/)
 [^gisslinger-2020-proud-pv]: Gisslinger H, Gotic M, Holowiecki J, et al. Ropeginterferon alfa-2b versus standard therapy for polycythaemia vera (PROUD-PV and CONTINUATION-PV): a randomised, non-inferiority, phase 3 trial and its extension study. *Lancet Haematol.* 2020;7(3):e196-e208. [doi:10.1016/S2352-3026(19)30236-4](https://doi.org/10.1016/S2352-3026(19)30236-4) · [PubMed 32046833](https://pubmed.ncbi.nlm.nih.gov/32046833/)
