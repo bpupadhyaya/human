@@ -355,6 +355,15 @@ cross_links:
   - target: 01-human/03-molecular/foxo
     relation: connects-to
     note: "FOXO regulates the airway epithelial oxidative-stress and survival responses to influenza infection."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the innate antiviral signaling and inflammatory response to influenza and is also exploited by the virus for replication."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "Class I PI3K (PIK3CA)-AKT signaling (AKT already mapped) is activated by influenza NS1 to support viral replication and modulate apoptosis."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Influenza modulates host autophagy through its M2 and NS1 proteins to favor its replication and evade degradation."
 ---
 
 # Influenza
@@ -603,3 +612,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic nucleic-acid sensing through cGAS-STING, including mitochondrial DNA from damaged cells, augments the innate antiviral and inflammatory response to influenza.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins released by recruited neutrophils amplify the lung inflammation and severity of influenza pneumonia.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO regulates the airway epithelial oxidative-stress and survival responses to influenza infection.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the innate antiviral signaling and inflammatory response to influenza and is also exploited by the virus for replication.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Class I PI3K (PIK3CA)-AKT signaling (AKT already mapped) is activated by influenza NS1 to support viral replication and modulate apoptosis.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Influenza modulates host autophagy through its M2 and NS1 proteins to favor its replication and evade degradation.

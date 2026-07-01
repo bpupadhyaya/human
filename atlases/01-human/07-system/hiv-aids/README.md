@@ -355,6 +355,15 @@ cross_links:
   - target: 01-human/03-molecular/s100a8-a9
     relation: connects-to
     note: "S100A8/A9 alarmins reflect the chronic myeloid inflammatory activation and immune exhaustion of HIV/AIDS."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the T-cell survival and inflammatory signaling relevant to the immune exhaustion and reservoir persistence of HIV/AIDS."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "HIV subverts host autophagy in CD4 T cells and macrophages, contributing to the immune-cell depletion and viral persistence of HIV/AIDS."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped) governs the T-cell survival pathways dysregulated in the profound immunodeficiency of HIV/AIDS."
 ---
 
 # HIV/AIDS
@@ -582,6 +591,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — HIV-driven PI3K-AKT-FOXO modulation (AKT already mapped) shapes the T-cell survival-versus-depletion balance underlying progression to AIDS.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α supports viral replication and the metabolic dysregulation of immune cells in advanced HIV/AIDS.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins reflect the chronic myeloid inflammatory activation and immune exhaustion of HIV/AIDS.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the T-cell survival and inflammatory signaling relevant to the immune exhaustion and reservoir persistence of HIV/AIDS.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — HIV subverts host autophagy in CD4 T cells and macrophages, contributing to the immune-cell depletion and viral persistence of HIV/AIDS.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) governs the T-cell survival pathways dysregulated in the profound immunodeficiency of HIV/AIDS.
 
 ## See Also
 
