@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/jak1-2
     relation: connects-to
     note: "JAK1/2-STAT5 signaling (JAK2 and STAT3 already mapped) is co-opted by BCR-ABL to sustain leukemic survival in chronic myeloid leukemia."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked metabolic signaling participates in the metabolic adaptation and quiescence of the leukemic stem cells of chronic myeloid leukemia."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "CCL2-driven monocyte and macrophage recruitment contributes to the inflammatory bone-marrow niche of chronic myeloid leukemia."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "NOTCH signaling participates in the maintenance of the leukemic stem cells of chronic myeloid leukemia."
 ---
 
 # Chronic Myeloid Leukemia
@@ -584,6 +593,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β misregulation in CML blast crisis impairs myeloid differentiation and supports leukemic stem-cell self-renewal.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins shape the inflammatory bone-marrow niche of chronic myeloid leukemia.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK1/2-STAT5 signaling (JAK2 and STAT3 already mapped) is co-opted by BCR-ABL to sustain leukemic survival in chronic myeloid leukemia.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the metabolic adaptation and quiescence of the leukemic stem cells of chronic myeloid leukemia.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2-driven monocyte and macrophage recruitment contributes to the inflammatory bone-marrow niche of chronic myeloid leukemia.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH signaling participates in the maintenance of the leukemic stem cells of chronic myeloid leukemia.
 
 ---
 

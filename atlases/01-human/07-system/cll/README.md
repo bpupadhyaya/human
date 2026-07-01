@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/mdm2
     relation: connects-to
     note: "MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis in chronic lymphocytic leukemia, relevant given the prognostic weight of TP53 status."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "HIF-1α in the hypoxic lymph-node and marrow niche supports the survival and metabolic adaptation of chronic lymphocytic leukemia cells."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy supports the survival and drug resistance of chronic lymphocytic leukemia cells, a candidate therapeutic vulnerability."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation contributes to the epigenetic dysregulation of chronic lymphocytic leukemia."
 ---
 
 # CLL
@@ -584,6 +593,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the survival and Wnt/β-catenin signaling of the chronic lymphocytic leukemia clone.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins shape the inflammatory nurse-like-cell-supported microenvironment of chronic lymphocytic leukemia.
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis in chronic lymphocytic leukemia, relevant given the prognostic weight of TP53 status.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α in the hypoxic lymph-node and marrow niche supports the survival and metabolic adaptation of chronic lymphocytic leukemia cells.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy supports the survival and drug resistance of chronic lymphocytic leukemia cells, a candidate therapeutic vulnerability.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the epigenetic dysregulation of chronic lymphocytic leukemia.
 
 ---
 
