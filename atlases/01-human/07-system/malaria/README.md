@@ -357,6 +357,15 @@ cross_links:
   - target: 01-human/03-molecular/foxo
     relation: connects-to
     note: "FOXO transcription factors regulate the oxidative-stress and cytokine balance that tips immunopathology versus parasite control in malaria."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the macrophage inflammatory response and cytokine balance that shape the pathology of severe malaria."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "ERK-MAPK signaling downstream of pattern-recognition receptors amplifies the inflammatory cytokine output driving the pathology of malaria."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "CCL2-driven monocyte recruitment contributes to the sequestration and inflammation of the cerebral and placental pathology of malaria."
 ---
 
 # Malaria
@@ -628,6 +637,9 @@ cross_links:
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6/IL-10-STAT3 signaling shapes the inflammatory-versus-regulatory balance and the anemia of inflammation in malaria.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins released by activated myeloid cells amplify the systemic inflammation and endothelial activation of severe malaria.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors regulate the oxidative-stress and cytokine balance that tips immunopathology versus parasite control in malaria.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the macrophage inflammatory response and cytokine balance that shape the pathology of severe malaria.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling downstream of pattern-recognition receptors amplifies the inflammatory cytokine output driving the pathology of malaria.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2-driven monocyte recruitment contributes to the sequestration and inflammation of the cerebral and placental pathology of malaria.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)

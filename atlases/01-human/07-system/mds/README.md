@@ -352,6 +352,15 @@ cross_links:
   - target: 01-human/03-molecular/gsk-3b
     relation: connects-to
     note: "GSK-3β dysregulation contributes to the impaired differentiation and clonal advantage of myelodysplastic-syndrome progenitors."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Perforin-mediated cytotoxic immunosurveillance of the dysplastic clone shapes the immune-mediated cytopenias and clonal evolution of myelodysplastic syndrome."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "Dysregulated CDK4/6-cyclin-D cell-cycle control contributes to the clonal proliferation and leukemic evolution of myelodysplastic syndrome."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling participates in the aberrant survival and inflammatory signaling of the myelodysplastic clone."
 ---
 
 # Myelodysplastic Syndromes
@@ -574,6 +583,9 @@ MDS → AML transformation rate: ~10% at 1 year for very-low risk; ~40-50% at 2 
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors regulate hematopoietic stem-cell quiescence and oxidative-stress handling, programs disrupted in myelodysplastic syndromes.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α shapes the hypoxic bone-marrow niche and the ineffective erythropoiesis of myelodysplastic syndromes.
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β dysregulation contributes to the impaired differentiation and clonal advantage of myelodysplastic-syndrome progenitors.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated cytotoxic immunosurveillance of the dysplastic clone shapes the immune-mediated cytopenias and clonal evolution of myelodysplastic syndrome.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Dysregulated CDK4/6-cyclin-D cell-cycle control contributes to the clonal proliferation and leukemic evolution of myelodysplastic syndrome.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the aberrant survival and inflammatory signaling of the myelodysplastic clone.
 
 [^fenaux-2009-aza001]: Fenaux P, Mufti GJ, Hellstrom-Lindberg E, et al. Efficacy of azacitidine compared with conventional care regimens in patients with higher-risk myelodysplastic syndromes. *Lancet Oncol.* 2009;10(3):223-232. [doi:10.1016/S1470-2045(09)70003-8](https://doi.org/10.1016/S1470-2045(09)70003-8) · [PubMed 19230772](https://pubmed.ncbi.nlm.nih.gov/19230772/)
 [^fenaux-2020-medalist]: Fenaux P, Platzbecker U, Mufti GJ, et al. Luspatercept in patients with lower-risk myelodysplastic syndromes. *N Engl J Med.* 2020;382(2):140-151. [doi:10.1056/NEJMoa1908892](https://doi.org/10.1056/NEJMoa1908892) · [PubMed 31914241](https://pubmed.ncbi.nlm.nih.gov/31914241/)
