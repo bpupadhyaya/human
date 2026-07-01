@@ -364,6 +364,15 @@ cross_links:
   - target: 01-human/03-molecular/perforin
     relation: connects-to
     note: "Perforin-mediated cytotoxicity contributes to the endothelial injury that provokes the von-Willebrand-factor release of thrombotic thrombocytopenic purpura."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family (LYN) kinase signaling downstream of the B-cell receptor participates in the autoreactive anti-ADAMTS13 B-cell response of immune thrombotic thrombocytopenic purpura."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "mTOR signaling in the autoreactive B and plasma cells participates in the immune process of thrombotic thrombocytopenic purpura."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy modulates the endothelial and immune-cell responses relevant to thrombotic thrombocytopenic purpura."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -634,6 +643,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO downstream of PI3K-AKT signaling (AKT and PIK3CA already mapped) regulates the survival of the autoantibody-producing B and plasma cells driving acquired thrombotic thrombocytopenic purpura.
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the platelet-activation and inflammatory signaling relevant to the microthrombosis of thrombotic thrombocytopenic purpura.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated cytotoxicity contributes to the endothelial injury that provokes the von-Willebrand-factor release of thrombotic thrombocytopenic purpura.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family (LYN) kinase signaling downstream of the B-cell receptor participates in the autoreactive anti-ADAMTS13 B-cell response of immune thrombotic thrombocytopenic purpura.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR signaling in the autoreactive B and plasma cells participates in the immune process of thrombotic thrombocytopenic purpura.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the endothelial and immune-cell responses relevant to thrombotic thrombocytopenic purpura.
 
 ---
 
