@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/perforin
     relation: connects-to
     note: "Perforin-delivered cytotoxic killing by CD8 T and NK cells mediates the immune clearance that the immunologically cold prostate cancer evades."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β regulates AR and β-catenin stability (androgen receptor and Wnt already mapped), modulating the survival signaling of prostate cancer."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins shape the immunosuppressive, bone-metastatic microenvironment of prostate cancer."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling contributes to the castration-resistant progression and bone-metastatic tropism of prostate cancer."
 ---
 
 # Prostate Cancer
@@ -598,6 +607,9 @@ cross_links:
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — PTEN-loss-driven PI3K-AKT signaling (PTEN, AKT, and PIK3CA already mapped) inactivates FOXO, removing a tumor-suppressive brake in prostate cancer.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6 acting on the cyclin-D1-RB axis (cyclin-D1 already mapped) drives the cell-cycle progression of prostate cancer.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-delivered cytotoxic killing by CD8 T and NK cells mediates the immune clearance that the immunologically cold prostate cancer evades.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β regulates AR and β-catenin stability (androgen receptor and Wnt already mapped), modulating the survival signaling of prostate cancer.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins shape the immunosuppressive, bone-metastatic microenvironment of prostate cancer.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling contributes to the castration-resistant progression and bone-metastatic tropism of prostate cancer.
 
 [^beer-2014-prevail]: Beer TM, Armstrong AJ, Rathkopf D, et al. Enzalutamide in metastatic prostate cancer before chemotherapy. *N Engl J Med.* 2014;371(5):424-433. [doi:10.1056/NEJMoa1405095](https://doi.org/10.1056/NEJMoa1405095) · [PubMed 24881730](https://pubmed.ncbi.nlm.nih.gov/24881730/)
 [^sartor-2021-vision]: Sartor O, de Bono J, Chi KN, et al. Lutetium-PSMA-617 for metastatic castration-resistant prostate cancer. *N Engl J Med.* 2021;385(12):1091-1103. [doi:10.1056/NEJMoa2107322](https://doi.org/10.1056/NEJMoa2107322) · [PubMed 34161051](https://pubmed.ncbi.nlm.nih.gov/34161051/)

@@ -352,6 +352,15 @@ cross_links:
   - target: 01-human/03-molecular/smad4
     relation: connects-to
     note: "TGF-β-SMAD signaling contributes to the immune marrow-failure background on which the PNH clone preferentially expands."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the platelet-activation and survival signaling relevant to the thrombotic complications of paroxysmal nocturnal hemoglobinuria."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "mTOR signaling supports the clonal expansion of the PIGA-mutant hematopoietic stem cells of paroxysmal nocturnal hemoglobinuria."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped) supports the survival and clonal advantage of the GPI-anchor-deficient clone of paroxysmal nocturnal hemoglobinuria."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -555,6 +564,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO downstream of PI3K-AKT signaling (AKT already mapped) regulates the hematopoietic stem-cell survival that underlies the clonal expansion of the PIGA-mutant clone in PNH.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the immune bone-marrow microenvironment that favors escape of the PNH clone, often on an aplastic-anemia background.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling contributes to the immune marrow-failure background on which the PNH clone preferentially expands.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the platelet-activation and survival signaling relevant to the thrombotic complications of paroxysmal nocturnal hemoglobinuria.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR signaling supports the clonal expansion of the PIGA-mutant hematopoietic stem cells of paroxysmal nocturnal hemoglobinuria.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) supports the survival and clonal advantage of the GPI-anchor-deficient clone of paroxysmal nocturnal hemoglobinuria.
 
 ---
 
