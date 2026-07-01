@@ -373,6 +373,15 @@ cross_links:
   - target: 01-human/03-molecular/autophagy
     relation: connects-to
     note: "Dysregulated autophagy contributes to the cellular senescence and impaired clearance underlying the emphysema of COPD."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling participates in the airway epithelial and neutrophil responses of chronic obstructive pulmonary disease."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven leukocyte recruitment contributes to the airway and parenchymal inflammation of chronic obstructive pulmonary disease."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation contributes to the smoking-linked epigenetic dysregulation of chronic obstructive pulmonary disease."
 ---
 
 # COPD
@@ -634,6 +643,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Class I PI3K (PIK3CA)-AKT signaling (AKT already mapped) participates in the airway inflammation and corticosteroid resistance of COPD.
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK signaling, coupled to mitochondrial and autophagic quality control, is dysregulated in the cellular senescence and oxidative stress of COPD.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Dysregulated autophagy contributes to the cellular senescence and impaired clearance underlying the emphysema of COPD.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the airway epithelial and neutrophil responses of chronic obstructive pulmonary disease.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven leukocyte recruitment contributes to the airway and parenchymal inflammation of chronic obstructive pulmonary disease.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the smoking-linked epigenetic dysregulation of chronic obstructive pulmonary disease.
 
 ---
 

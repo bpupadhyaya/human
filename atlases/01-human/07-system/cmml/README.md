@@ -367,6 +367,15 @@ cross_links:
   - target: 01-human/03-molecular/ampk
     relation: connects-to
     note: "AMPK-linked metabolic signaling participates in the metabolic adaptation of the clonal hematopoietic cells of chronic myelomonocytic leukemia."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-family chemokine signaling (CXCL12/CXCR4 already mapped) participates in the marrow homing and monocyte trafficking of chronic myelomonocytic leukemia."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic dysregulation of chronic myelomonocytic leukemia."
+  - target: 01-human/03-molecular/idh1
+    relation: connects-to
+    note: "IDH1 mutation (IDH2 already mapped) contributes to the epigenetic (2-hydroxyglutarate-driven) dysregulation of a subset of chronic myelomonocytic leukemia."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -609,6 +618,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family and LYN kinase signaling downstream of FLT3 and KIT (both already mapped) supports the survival of the leukemic monocytes of chronic myelomonocytic leukemia.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy supports the survival and differentiation of the clonal myelomonocytic cells of chronic myelomonocytic leukemia.
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the metabolic adaptation of the clonal hematopoietic cells of chronic myelomonocytic leukemia.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-family chemokine signaling (CXCL12/CXCR4 already mapped) participates in the marrow homing and monocyte trafficking of chronic myelomonocytic leukemia.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic dysregulation of chronic myelomonocytic leukemia.
+- `connects-to` → **[IDH1](../../03-molecular/idh1/README.md)** — IDH1 mutation (IDH2 already mapped) contributes to the epigenetic (2-hydroxyglutarate-driven) dysregulation of a subset of chronic myelomonocytic leukemia.
 
 ---
 
