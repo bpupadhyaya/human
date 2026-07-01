@@ -379,6 +379,15 @@ cross_links:
   - target: 01-human/03-molecular/gsk-3b
     relation: connects-to
     note: "GSK-3β, within the Wnt destruction complex (Wnt already mapped), governs the crypt stem-cell renewal of the intestinal epithelium of the digestive system."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped) drives the epithelial proliferation and renewal of the gastrointestinal mucosa of the digestive system."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK integrates the nutrient and energy status of the enterocytes and hepatocytes of the digestive system."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signaling shapes the mucosal immune surveillance of the digestive system."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -588,6 +597,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [AKT](../../03-molecular/akt/README.md) — epithelial renewal: PI3K-AKT signaling governs the proliferation and survival of the rapidly renewing intestinal epithelium of the digestive system.
 - **Connects to:** [ERK1/2](../../03-molecular/erk1-2/README.md) — growth-factor signaling: ERK-MAPK signaling downstream of growth-factor and hormone receptors drives the epithelial renewal and secretory responses of the digestive system.
 - **Connects to:** [GSK-3β](../../03-molecular/gsk-3b/README.md) — crypt stem-cell renewal: GSK-3β, within the Wnt destruction complex (Wnt already mapped), governs the crypt stem-cell renewal of the intestinal epithelium of the digestive system.
+- **Connects to:** [PIK3CA](../../03-molecular/pik3ca/README.md) — epithelial proliferation: PI3K (PIK3CA)-AKT signaling (AKT already mapped) drives the epithelial proliferation and renewal of the gastrointestinal mucosa of the digestive system.
+- **Connects to:** [AMPK](../../03-molecular/ampk/README.md) — nutrient sensing: AMPK integrates the nutrient and energy status of the enterocytes and hepatocytes of the digestive system.
+- **Connects to:** [STAT1](../../03-molecular/stat1/README.md) — mucosal immunity: IFN-STAT1 signaling shapes the mucosal immune surveillance of the digestive system.
 
 ## Pathology
 
