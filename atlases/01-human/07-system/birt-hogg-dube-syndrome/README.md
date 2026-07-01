@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/gsk-3b
     relation: connects-to
     note: "GSK-3β interacts with the AMPK-mTOR axis (AMPK and mTOR already mapped) that FLCN loss dysregulates in Birt-Hogg-Dubé syndrome."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis in the renal tumors of Birt-Hogg-Dubé syndrome."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins shape the inflammatory microenvironment of the tumors of Birt-Hogg-Dubé syndrome."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling downstream of MET and other receptor tyrosine kinases (MET already mapped) contributes to the survival signaling of the renal tumors of Birt-Hogg-Dubé syndrome."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -612,6 +621,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6-cyclin-D1 cell-cycle entry (cyclin-D1 already mapped) drives the proliferation of the renal tumors of Birt-Hogg-Dubé syndrome.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-delivered cytotoxic killing by CD8 T and NK cells mediates the immune clearance that the renal tumors of Birt-Hogg-Dubé syndrome must evade.
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β interacts with the AMPK-mTOR axis (AMPK and mTOR already mapped) that FLCN loss dysregulates in Birt-Hogg-Dubé syndrome.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis in the renal tumors of Birt-Hogg-Dubé syndrome.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins shape the inflammatory microenvironment of the tumors of Birt-Hogg-Dubé syndrome.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of MET and other receptor tyrosine kinases (MET already mapped) contributes to the survival signaling of the renal tumors of Birt-Hogg-Dubé syndrome.
 
 ---
 

@@ -364,6 +364,15 @@ cross_links:
   - target: 01-human/03-molecular/s100a8-a9
     relation: connects-to
     note: "S100A8/A9 alarmins from infiltrating myeloid cells shape the inflammatory, BCG-immunotherapy-relevant microenvironment of bladder cancer."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β regulates the Wnt/β-catenin and survival signaling (Wnt already mapped) of bladder cancer."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis in bladder cancer."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling downstream of FGFR and EGFR (both already mapped) drives the invasion of muscle-invasive bladder cancer."
 ---
 
 # Bladder Cancer
@@ -600,6 +609,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — PTEN-PI3K-AKT-driven FOXO inactivation (PTEN, AKT, and PIK3CA already mapped) removes a tumor-suppressive brake in bladder cancer.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β already mapped) drives the EMT and stromal remodeling of muscle-invasive bladder cancer.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins from infiltrating myeloid cells shape the inflammatory, BCG-immunotherapy-relevant microenvironment of bladder cancer.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β regulates the Wnt/β-catenin and survival signaling (Wnt already mapped) of bladder cancer.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis in bladder cancer.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of FGFR and EGFR (both already mapped) drives the invasion of muscle-invasive bladder cancer.
 
 ---
 
