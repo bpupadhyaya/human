@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/src-kinase
     relation: connects-to
     note: "SRC-family kinase signaling downstream of the GNAQ/11-activated pathways contributes to the invasion and hepatic-metastatic tropism of uveal melanoma."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation contributes to the epigenetic dysregulation, alongside BAP1 loss (BAP1 already mapped), of uveal melanoma."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy supports the survival and dormancy of the hepatic-metastatic cells of uveal melanoma."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "ARID1A-containing SWI/SNF chromatin remodeling contributes to the epigenetic dysregulation of uveal melanoma."
 ---
 
 # Uveal Melanoma
@@ -608,6 +617,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β acts downstream of the GNAQ/GNA11-PKC-YAP axis, modulating the survival signaling of uveal melanoma.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins shape the immunosuppressive, immune-cold microenvironment of uveal melanoma.
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of the GNAQ/11-activated pathways contributes to the invasion and hepatic-metastatic tropism of uveal melanoma.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the epigenetic dysregulation, alongside BAP1 loss (BAP1 already mapped), of uveal melanoma.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy supports the survival and dormancy of the hepatic-metastatic cells of uveal melanoma.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling contributes to the epigenetic dysregulation of uveal melanoma.
 
 ---
 

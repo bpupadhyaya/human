@@ -364,6 +364,15 @@ cross_links:
   - target: 01-human/03-molecular/perforin
     relation: connects-to
     note: "Perforin-bearing cytotoxic CD8 T cells contribute to the adipose-tissue immune activation that drives insulin resistance in type 2 diabetes."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy modulates the pancreatic β-cell survival and insulin-target-tissue homeostasis whose failure contributes to type 2 diabetes."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation contributes to the epigenetic (metabolic-memory) programming of type 2 diabetes."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven chemokine signaling recruits macrophages into adipose tissue, amplifying the inflammation that drives insulin resistance in type 2 diabetes."
 ---
 
 # Type 2 Diabetes
@@ -582,6 +591,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors (distinct from FOXO1 already mapped) integrate insulin-PI3K-AKT signaling to regulate hepatic gluconeogenesis and β-cell stress responses in type 2 diabetes.
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the inflammatory insulin-resistance signaling of adipose and hepatic tissue in type 2 diabetes.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-bearing cytotoxic CD8 T cells contribute to the adipose-tissue immune activation that drives insulin resistance in type 2 diabetes.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the pancreatic β-cell survival and insulin-target-tissue homeostasis whose failure contributes to type 2 diabetes.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the epigenetic (metabolic-memory) programming of type 2 diabetes.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven chemokine signaling recruits macrophages into adipose tissue, amplifying the inflammation that drives insulin resistance in type 2 diabetes.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
