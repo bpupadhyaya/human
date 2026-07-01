@@ -367,6 +367,15 @@ cross_links:
   - target: 01-human/03-molecular/s100a8-a9
     relation: connects-to
     note: "S100A8/A9 alarmins released by activated microglia amplify the neuroinflammation shared across nervous-system disorders."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped), downstream of neurotrophin-TrkB (BDNF and NTRK already mapped), governs the neuronal survival and synaptic plasticity of the nervous system."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "NF-κB signaling in neurons and glia regulates the neuroinflammatory and synaptic-plasticity responses of the nervous system."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK integrates the energy status of neurons and glia to their metabolic and autophagic homeostasis across the nervous system."
 ---
 
 # Nervous System
@@ -519,6 +528,9 @@ Distributed cortical networks underlie language (Broca's area, Wernicke's area, 
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors regulate neuronal oxidative-stress defense, autophagy, and metabolic homeostasis across the nervous system.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α couples the neuronal and glial responses to hypoxic and metabolic stress across the nervous system.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins released by activated microglia amplify the neuroinflammation shared across nervous-system disorders.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped), downstream of neurotrophin-TrkB (BDNF and NTRK already mapped), governs the neuronal survival and synaptic plasticity of the nervous system.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB signaling in neurons and glia regulates the neuroinflammatory and synaptic-plasticity responses of the nervous system.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK integrates the energy status of neurons and glia to their metabolic and autophagic homeostasis across the nervous system.
 
 ## Pathology
 
