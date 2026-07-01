@@ -359,6 +359,15 @@ cross_links:
   - target: 01-human/03-molecular/stat1
     relation: connects-to
     note: "IFN-STAT1 signaling shapes the antimicrobial and immune-surveillance functions of the skin in the integumentary system."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped) governs the keratinocyte and hair-follicle proliferation and survival of the integumentary system."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "mTOR signaling integrates nutrient and growth-factor cues to drive the epidermal proliferation and barrier renewal of the integumentary system."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "NF-κB signaling governs the keratinocyte inflammatory and barrier-defense responses of the integumentary system."
 ---
 
 # Integumentary System
@@ -578,6 +587,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling governs the proliferation and survival of keratinocytes and the epidermal barrier renewal of the integumentary system.
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β, within the Wnt signaling that patterns hair follicles (Wnt already mapped), regulates the skin-appendage development and epidermal homeostasis of the integumentary system.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antimicrobial and immune-surveillance functions of the skin in the integumentary system.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) governs the keratinocyte and hair-follicle proliferation and survival of the integumentary system.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR signaling integrates nutrient and growth-factor cues to drive the epidermal proliferation and barrier renewal of the integumentary system.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB signaling governs the keratinocyte inflammatory and barrier-defense responses of the integumentary system.
 
 ## Pathology
 

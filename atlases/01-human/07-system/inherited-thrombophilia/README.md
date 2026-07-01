@@ -367,6 +367,15 @@ cross_links:
   - target: 01-human/03-molecular/mtor
     relation: connects-to
     note: "mTOR signaling in platelets and endothelium participates in the prothrombotic vascular phenotype of inherited thrombophilia."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling downstream of platelet and endothelial receptors participates in the platelet activation and thrombus formation of inherited thrombophilia."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked endothelial metabolic signaling modulates the vascular homeostasis relevant to the thrombotic tendency of inherited thrombophilia."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven monocyte recruitment contributes to the inflammation-linked thrombosis of inherited thrombophilia."
 ---
 
 # Inherited Thrombophilia
@@ -642,6 +651,9 @@ Antithrombin (ATIII) is the primary plasma inhibitor of thrombin, FXa, FIXa, and
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the platelet-activation and endothelial signaling that shape the prothrombotic tendency of inherited thrombophilia.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling (IL-6 already mapped) links the inflammatory state to the hypercoagulability of inherited thrombophilia.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR signaling in platelets and endothelium participates in the prothrombotic vascular phenotype of inherited thrombophilia.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of platelet and endothelial receptors participates in the platelet activation and thrombus formation of inherited thrombophilia.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked endothelial metabolic signaling modulates the vascular homeostasis relevant to the thrombotic tendency of inherited thrombophilia.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven monocyte recruitment contributes to the inflammation-linked thrombosis of inherited thrombophilia.
 
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)
