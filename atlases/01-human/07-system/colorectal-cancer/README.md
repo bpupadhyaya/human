@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/perforin
     relation: connects-to
     note: "Perforin-delivered cytotoxic killing by CD8 T and NK cells mediates the immune clearance that the immunogenic mismatch-repair-deficient colorectal cancer must evade."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β regulates the β-catenin destruction-complex activity (APC/CTNNB1/Wnt already mapped) whose disruption drives colorectal cancer."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis in colorectal cancer."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins from myeloid cells shape the inflammatory, tumor-promoting microenvironment of colorectal cancer."
 ---
 
 # Colorectal Cancer
@@ -587,6 +596,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6-driven cyclin-D1-RB1 cell-cycle entry (cyclin-D1 and RB1 already mapped) sustains the proliferation of colorectal cancer.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — PI3K-AKT-mediated FOXO inactivation (PI3K-AKT already mapped) removes a pro-apoptotic brake, favoring survival in colorectal cancer.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-delivered cytotoxic killing by CD8 T and NK cells mediates the immune clearance that the immunogenic mismatch-repair-deficient colorectal cancer must evade.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β regulates the β-catenin destruction-complex activity (APC/CTNNB1/Wnt already mapped) whose disruption drives colorectal cancer.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis in colorectal cancer.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins from myeloid cells shape the inflammatory, tumor-promoting microenvironment of colorectal cancer.
 
 ---
 
