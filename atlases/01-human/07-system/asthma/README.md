@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/pik3ca
     relation: connects-to
     note: "Class I PI3K (PIK3CA, PI3Kδ) signaling drives airway inflammation, smooth-muscle proliferation, and the corticosteroid insensitivity of severe asthma."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "AKT downstream of PI3K (PIK3CA already mapped) drives airway smooth-muscle proliferation and the survival of Th2 cells in asthma."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the NF-κB-driven airway inflammation and remodeling of asthma."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA sensing through cGAS-STING contributes to the innate inflammatory activation of virus-induced asthma exacerbations."
 ---
 
 # Asthma
@@ -580,6 +589,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors regulate airway smooth-muscle and T-cell programs and influence the glucocorticoid responsiveness that varies across asthma phenotypes.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α in the hypoxic inflamed airway promotes angiogenesis and the airway remodeling of chronic asthma.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Class I PI3K (PIK3CA, PI3Kδ) signaling drives airway inflammation, smooth-muscle proliferation, and the corticosteroid insensitivity of severe asthma.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — AKT downstream of PI3K (PIK3CA already mapped) drives airway smooth-muscle proliferation and the survival of Th2 cells in asthma.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the NF-κB-driven airway inflammation and remodeling of asthma.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING contributes to the innate inflammatory activation of virus-induced asthma exacerbations.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)

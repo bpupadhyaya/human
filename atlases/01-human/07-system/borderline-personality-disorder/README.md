@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/foxo
     relation: connects-to
     note: "FOXO downstream of stress and PI3K-AKT signaling (AKT already mapped) governs neuronal oxidative-stress handling relevant to the stress vulnerability of borderline personality disorder."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA sensing through cGAS-STING contributes to the stress-related neuroinflammation implicated in borderline personality disorder."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "HIF-1α-linked metabolic and mitochondrial stress responses contribute to the neurobiology of borderline personality disorder."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins reflect the peripheral inflammatory activation associated with borderline personality disorder."
 ---
 
 # Borderline Personality Disorder
@@ -611,6 +620,9 @@ This model directly informs DBT treatment: validate emotional experience (the bi
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK1/2 signaling upstream of STAT3 (IL-6 already mapped) relays the cytokine tone that links peripheral inflammation to the affective neurocircuitry implicated in borderline personality disorder.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 neuroinflammatory signaling contributes to the chronic low-grade inflammation reported in borderline personality disorder.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO downstream of stress and PI3K-AKT signaling (AKT already mapped) governs neuronal oxidative-stress handling relevant to the stress vulnerability of borderline personality disorder.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING contributes to the stress-related neuroinflammation implicated in borderline personality disorder.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α-linked metabolic and mitochondrial stress responses contribute to the neurobiology of borderline personality disorder.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins reflect the peripheral inflammatory activation associated with borderline personality disorder.
 
 [^linehan-1993-dbt]: Linehan MM. *Cognitive-Behavioral Treatment of Borderline Personality Disorder.* Guilford; 1993. [PubMed 8192506](https://pubmed.ncbi.nlm.nih.gov/8192506/)
 [^skodol-2002-bpd-neurobiology]: Siever LJ, Davis KL. A psychobiological perspective on the personality disorders. *Am J Psychiatry.* 1991;148(12):1647-1658. [doi:10.1176/ajp.148.12.1647](https://doi.org/10.1176/ajp.148.12.1647) · [PubMed 1957927](https://pubmed.ncbi.nlm.nih.gov/1957927/)
