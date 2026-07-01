@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/perforin
     relation: connects-to
     note: "Perforin-mediated cytotoxic immunosurveillance is the immune clearance that the multiple DICER1-associated tumors must evade."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β regulates the Wnt/β-catenin and survival signaling (Wnt already mapped) of the tumors of DICER1 syndrome."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation, alongside the miRNA-processing defect of DICER1 loss, contributes to the epigenetic dysregulation of DICER1 syndrome."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins shape the inflammatory microenvironment of the tumors of DICER1 syndrome."
 ---
 
 # DICER1 Syndrome
@@ -586,6 +595,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6-cyclin-D-RB axis (cyclin-D1 and RB1 already mapped) drives the proliferation of DICER1-syndrome tumors.
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis in DICER1-syndrome tumors.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated cytotoxic immunosurveillance is the immune clearance that the multiple DICER1-associated tumors must evade.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β regulates the Wnt/β-catenin and survival signaling (Wnt already mapped) of the tumors of DICER1 syndrome.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation, alongside the miRNA-processing defect of DICER1 loss, contributes to the epigenetic dysregulation of DICER1 syndrome.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins shape the inflammatory microenvironment of the tumors of DICER1 syndrome.
 
 ---
 
