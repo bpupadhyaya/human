@@ -376,6 +376,15 @@ cross_links:
   - target: 01-human/03-molecular/autophagy
     relation: connects-to
     note: "Autophagy modulates the synaptic pruning and neuronal homeostasis implicated in schizophrenia."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family (FYN) kinase signaling participates in the NMDA-receptor and synaptic-plasticity mechanisms implicated in schizophrenia."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven neuroimmune signaling participates in the microglial activation and neuroinflammation implicated in schizophrenia."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Complement signaling, alongside complement-mediated synaptic pruning (complement-C3 already mapped), participates in the synaptic pathology of schizophrenia."
 ---
 
 # Schizophrenia
@@ -659,6 +668,9 @@ Notably, schizophrenia shares genetic loci with bipolar disorder, ASD, ADHD, maj
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the epigenetic and neurodevelopmental dysregulation implicated in schizophrenia.
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked immunometabolic signaling participates in the metabolic and neuroinflammatory disturbances of schizophrenia.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the synaptic pruning and neuronal homeostasis implicated in schizophrenia.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family (FYN) kinase signaling participates in the NMDA-receptor and synaptic-plasticity mechanisms implicated in schizophrenia.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven neuroimmune signaling participates in the microglial activation and neuroinflammation implicated in schizophrenia.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Complement signaling, alongside complement-mediated synaptic pruning (complement-C3 already mapped), participates in the synaptic pathology of schizophrenia.
 
 [^howes-2009-dopamine-hypothesis]: Howes OD, Kapur S. The dopamine hypothesis of schizophrenia: version III—the final common pathway. *Schizophr Bull.* 2009;35(3):549-562. [doi:10.1093/schbul/sbp006](https://doi.org/10.1093/schbul/sbp006) · [PubMed 19325164](https://pubmed.ncbi.nlm.nih.gov/19325164/)
 [^moghaddam-2012-glutamate]: Moghaddam B, Javitt D. From revolution to evolution: the glutamate hypothesis of schizophrenia and its implication for treatment. *Neuropsychopharmacology.* 2012;37(1):4-15. [doi:10.1038/npp.2011.181](https://doi.org/10.1038/npp.2011.181) · [PubMed 21956446](https://pubmed.ncbi.nlm.nih.gov/21956446/)
