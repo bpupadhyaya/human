@@ -367,6 +367,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "HIF-1α-linked metabolic and oxidative-stress adaptation participates in the cellular stress of the genomically unstable cells of Bloom syndrome."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked metabolic signaling participates in the metabolic and growth homeostasis relevant to Bloom syndrome."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy modulates the cellular stress responses to the genomic instability of Bloom syndrome."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation contributes to the epigenetic dysregulation accompanying the genomic instability of Bloom syndrome."
 ---
 
 # Bloom Syndrome
@@ -621,6 +630,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) supports the survival of the genomically unstable cells of Bloom syndrome.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins reflect the inflammatory context of the tumor microenvironment in the cancer-prone Bloom syndrome.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α-linked metabolic and oxidative-stress adaptation participates in the cellular stress of the genomically unstable cells of Bloom syndrome.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the metabolic and growth homeostasis relevant to Bloom syndrome.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the cellular stress responses to the genomic instability of Bloom syndrome.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the epigenetic dysregulation accompanying the genomic instability of Bloom syndrome.
 
 ---
 

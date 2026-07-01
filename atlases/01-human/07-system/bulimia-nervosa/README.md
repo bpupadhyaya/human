@@ -369,6 +369,15 @@ cross_links:
   - target: 01-human/03-molecular/pik3ca
     relation: connects-to
     note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped) links insulin and reward signaling to the neuroadaptations of bulimia nervosa."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked metabolic signaling participates in the appetite-regulatory and reward neurocircuitry of bulimia nervosa."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy modulates the hypothalamic-neuron and reward-circuit homeostasis implicated in bulimia nervosa."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation contributes to the epigenetic programming of the reward and appetite circuits in bulimia nervosa."
 ---
 
 # Bulimia Nervosa
@@ -615,6 +624,9 @@ All of the following must be met:
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α-linked metabolic adaptation participates in the reward and metabolic dysregulation of bulimia nervosa.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins reflect the low-grade peripheral inflammation associated with bulimia nervosa.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) links insulin and reward signaling to the neuroadaptations of bulimia nervosa.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the appetite-regulatory and reward neurocircuitry of bulimia nervosa.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the hypothalamic-neuron and reward-circuit homeostasis implicated in bulimia nervosa.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the epigenetic programming of the reward and appetite circuits in bulimia nervosa.
 
 ## Treatment
 
