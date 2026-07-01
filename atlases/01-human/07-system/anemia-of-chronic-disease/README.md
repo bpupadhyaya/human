@@ -361,6 +361,15 @@ cross_links:
   - target: 01-human/03-molecular/cdk4-6
     relation: connects-to
     note: "CDK4/6-driven cell-cycle progression of erythroid progenitors is restrained by the inflammatory cytokine milieu of anemia of chronic disease."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the inflammatory signaling that drives the hepcidin-mediated iron sequestration of anemia of chronic disease."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Perforin-bearing cytotoxic lymphocytes contribute to the immune-mediated suppression of erythropoiesis in anemia of chronic disease."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Macrophage autophagy participates in the iron-recycling and erythrophagocytosis dysregulated in anemia of chronic disease."
 ---
 
 # Anemia of Chronic Disease
@@ -599,6 +608,9 @@ This adaptive rationale explains why **aggressive iron supplementation during ac
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO regulates the oxidative-stress and survival programs of erythroid progenitors that are suppressed in the inflammatory milieu of anemia of chronic disease.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Class I PI3K (PIK3CA) signaling transduces the erythropoietin survival signal in erythroid progenitors that is blunted in anemia of chronic disease (AKT already mapped).
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6-driven cell-cycle progression of erythroid progenitors is restrained by the inflammatory cytokine milieu of anemia of chronic disease.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the inflammatory signaling that drives the hepcidin-mediated iron sequestration of anemia of chronic disease.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-bearing cytotoxic lymphocytes contribute to the immune-mediated suppression of erythropoiesis in anemia of chronic disease.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Macrophage autophagy participates in the iron-recycling and erythrophagocytosis dysregulated in anemia of chronic disease.
 
 [^weiss-2005-acd-review]: Weiss G, Goodnough LT. Anemia of chronic disease. *N Engl J Med.* 2005;352(10):1011-1023. [doi:10.1056/NEJMra041809](https://doi.org/10.1056/NEJMra041809) · [PubMed 15758012](https://pubmed.ncbi.nlm.nih.gov/15758012/)
 [^nemeth-2004-il6-hepcidin]: Nemeth E, Rivera S, Gabayan V, et al. IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin. *J Clin Invest.* 2004;113(9):1271-1276. [doi:10.1172/JCI200420945](https://doi.org/10.1172/JCI200420945) · [PubMed 15124018](https://pubmed.ncbi.nlm.nih.gov/15124018/)

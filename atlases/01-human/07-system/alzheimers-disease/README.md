@@ -361,6 +361,15 @@ cross_links:
   - target: 01-human/03-molecular/perforin
     relation: connects-to
     note: "Perforin-mediated cytotoxic T-cell activity in the infiltrated brain contributes to the adaptive-immune component of neurodegeneration in Alzheimer's disease."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped) governs the neuronal insulin/IGF survival pathways whose impairment contributes to Alzheimer's disease."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK signaling, coupled to autophagy (autophagy already mapped), regulates the clearance of amyloid and tau aggregates in Alzheimer's disease."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "Aberrant CDK-driven cell-cycle re-entry of postmitotic neurons contributes to the tau hyperphosphorylation and neuronal death of Alzheimer's disease."
 ---
 
 # Alzheimer's Disease
@@ -574,6 +583,9 @@ Microglia play a central, dual role in AD:
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors regulate neuronal autophagy and oxidative-stress defense, programs that fail in the neurodegeneration of Alzheimer's disease.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins released by activated microglia amplify the neuroinflammation associated with amyloid pathology in Alzheimer's disease.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated cytotoxic T-cell activity in the infiltrated brain contributes to the adaptive-immune component of neurodegeneration in Alzheimer's disease.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) governs the neuronal insulin/IGF survival pathways whose impairment contributes to Alzheimer's disease.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK signaling, coupled to autophagy (autophagy already mapped), regulates the clearance of amyloid and tau aggregates in Alzheimer's disease.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Aberrant CDK-driven cell-cycle re-entry of postmitotic neurons contributes to the tau hyperphosphorylation and neuronal death of Alzheimer's disease.
 
 [^selkoe-2016-alzheimer]: Selkoe DJ, Hardy J. The amyloid hypothesis of Alzheimer's disease at 25 years. *EMBO Mol Med.* 2016;8(6):595-608. [doi:10.15252/emmm.201606210](https://doi.org/10.15252/emmm.201606210) · [PubMed 27025652](https://pubmed.ncbi.nlm.nih.gov/27025652/)
 [^jack-2018-nia-aa]: Jack CR Jr, Bennett DA, Blennow K, et al. NIA-AA Research Framework: Toward a biological definition of Alzheimer's disease. *Alzheimers Dement.* 2018;14(4):535-562. [doi:10.1016/j.jalz.2018.02.018](https://doi.org/10.1016/j.jalz.2018.02.018) · [PubMed 29653606](https://pubmed.ncbi.nlm.nih.gov/29653606/)
