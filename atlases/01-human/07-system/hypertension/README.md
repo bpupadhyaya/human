@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "HIF-1α links the renal and vascular hypoxic and metabolic responses to the pathophysiology of hypertension."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β participates in the vascular smooth-muscle and cardiac hypertrophic signaling relevant to hypertension."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped) transduces the angiotensin-II and growth-factor signals driving vascular remodeling in hypertension."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK signaling, coupled to nitric-oxide-dependent endothelial function (nitric-oxide already mapped), is a vasodilatory regulator dysregulated in hypertension."
 ---
 
 # Hypertension
@@ -562,6 +571,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO regulates the vascular smooth-muscle and endothelial oxidative-stress responses relevant to the vascular remodeling of hypertension.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling contributes to the T-cell-driven vascular inflammation implicated in hypertension.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α links the renal and vascular hypoxic and metabolic responses to the pathophysiology of hypertension.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β participates in the vascular smooth-muscle and cardiac hypertrophic signaling relevant to hypertension.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) transduces the angiotensin-II and growth-factor signals driving vascular remodeling in hypertension.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK signaling, coupled to nitric-oxide-dependent endothelial function (nitric-oxide already mapped), is a vasodilatory regulator dysregulated in hypertension.
 
 ## Pathology
 
