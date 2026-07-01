@@ -355,6 +355,15 @@ cross_links:
   - target: 01-human/03-molecular/pik3ca
     relation: connects-to
     note: "Class I PI3K (PIK3CA)-AKT signaling (AKT already mapped) drives the keratinocyte and fibroblast migration and proliferation of the proliferative phase of wound healing."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β regulates the Wnt/β-catenin and metabolic signaling that governs keratinocyte migration and fibroblast activation during wound healing."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling drives the keratinocyte migration and focal-adhesion turnover of re-epithelialization in wound healing."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "CDK4/6-cyclin-D-driven proliferation of keratinocytes and fibroblasts sustains the proliferative phase of wound healing."
 ---
 
 # Wound Healing
@@ -586,6 +595,9 @@ cross_links:
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors regulate keratinocyte migration, oxidative-stress handling, and TGF-β output during repair; their dysregulation underlies chronic non-healing diabetic wounds.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK1/2-STAT signaling downstream of inflammatory cytokines (IL-6 already mapped) coordinates the inflammatory-to-proliferative transition of wound healing.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Class I PI3K (PIK3CA)-AKT signaling (AKT already mapped) drives the keratinocyte and fibroblast migration and proliferation of the proliferative phase of wound healing.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β regulates the Wnt/β-catenin and metabolic signaling that governs keratinocyte migration and fibroblast activation during wound healing.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling drives the keratinocyte migration and focal-adhesion turnover of re-epithelialization in wound healing.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6-cyclin-D-driven proliferation of keratinocytes and fibroblasts sustains the proliferative phase of wound healing.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)
