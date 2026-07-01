@@ -363,6 +363,15 @@ cross_links:
   - target: 01-human/03-molecular/s100a8-a9
     relation: connects-to
     note: "S100A8/A9 alarmins amplify the necroinflammatory liver injury of chronic hepatitis C."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped) is co-opted by HCV to support hepatocyte survival and viral persistence."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "HCV induces and subverts host autophagy to support its replication in hepatocytes."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation contributes to the epigenetic dysregulation and hepatocarcinogenesis of chronic hepatitis C."
 ---
 
 # Hepatitis C
@@ -604,3 +613,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the Wnt/β-catenin and survival signaling implicated in HCV-driven hepatocarcinogenesis.
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated p53 degradation contributes to the malignant progression of chronic hepatitis C.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins amplify the necroinflammatory liver injury of chronic hepatitis C.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) is co-opted by HCV to support hepatocyte survival and viral persistence.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — HCV induces and subverts host autophagy to support its replication in hepatocytes.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the epigenetic dysregulation and hepatocarcinogenesis of chronic hepatitis C.
