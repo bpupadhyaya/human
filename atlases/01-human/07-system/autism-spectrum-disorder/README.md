@@ -373,6 +373,15 @@ cross_links:
   - target: 01-human/03-molecular/ezh2
     relation: connects-to
     note: "EZH2-mediated polycomb repression participates in the chromatin regulation of the neurodevelopmental programs implicated in autism spectrum disorder (ARID1A already mapped)."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy modulates the synaptic pruning and dendritic-spine homeostasis (mTOR already mapped) implicated in autism spectrum disorder."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family (FYN) kinase signaling participates in the NMDA-receptor and synaptic signaling implicated in autism spectrum disorder."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven neuroimmune signaling participates in the maternal-immune-activation and neuroinflammation implicated in autism spectrum disorder."
 ---
 
 # Autism Spectrum Disorder
@@ -628,6 +637,9 @@ The neural basis of ASD social deficits involves dysfunction of the **social bra
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK signaling, in balance with the mTOR pathway (mTOR already mapped), regulates the neuronal metabolic and autophagy homeostasis implicated in autism spectrum disorder.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the epigenetic regulation of the neurodevelopmental gene expression disrupted in autism spectrum disorder.
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — EZH2-mediated polycomb repression participates in the chromatin regulation of the neurodevelopmental programs implicated in autism spectrum disorder (ARID1A already mapped).
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the synaptic pruning and dendritic-spine homeostasis (mTOR already mapped) implicated in autism spectrum disorder.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family (FYN) kinase signaling participates in the NMDA-receptor and synaptic signaling implicated in autism spectrum disorder.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven neuroimmune signaling participates in the maternal-immune-activation and neuroinflammation implicated in autism spectrum disorder.
 
 [^maenner-2023-asd-prevalence]: Maenner MJ, Warren Z, Williams AR, et al. Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 2020. *MMWR Surveill Summ.* 2023;72(2):1-14. [doi:10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1) · [PubMed 36952216](https://pubmed.ncbi.nlm.nih.gov/36952216/)
 [^lord-2020-asd-review]: Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum disorder. *Lancet.* 2018;392(10146):508-520. [doi:10.1016/S0140-6736(18)31129-2](https://doi.org/10.1016/S0140-6736(18)31129-2) · [PubMed 30078460](https://pubmed.ncbi.nlm.nih.gov/30078460/)
