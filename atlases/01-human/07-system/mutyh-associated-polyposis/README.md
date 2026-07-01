@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/ezh2
     relation: connects-to
     note: "EZH2-mediated polycomb repression contributes to the epigenetic dysregulation of the colorectal tumors of MUTYH-associated polyposis."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling downstream of EGFR (EGFR already mapped) contributes to the progression of the adenomas of MUTYH-associated polyposis."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation contributes to the epigenetic progression of the adenoma-carcinoma sequence in MUTYH-associated polyposis."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy modulates the survival of the oxidatively stressed, base-excision-repair-deficient epithelial cells of MUTYH-associated polyposis."
 ---
 
 # MUTYH-Associated Polyposis
@@ -588,6 +597,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis during the adenoma-carcinoma progression of MUTYH-associated polyposis.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins shape the inflammatory colonic microenvironment that promotes tumor progression in MUTYH-associated polyposis.
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — EZH2-mediated polycomb repression contributes to the epigenetic dysregulation of the colorectal tumors of MUTYH-associated polyposis.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of EGFR (EGFR already mapped) contributes to the progression of the adenomas of MUTYH-associated polyposis.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the epigenetic progression of the adenoma-carcinoma sequence in MUTYH-associated polyposis.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the survival of the oxidatively stressed, base-excision-repair-deficient epithelial cells of MUTYH-associated polyposis.
 
 ---
 
