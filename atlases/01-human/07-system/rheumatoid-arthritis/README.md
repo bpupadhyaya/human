@@ -355,6 +355,15 @@ cross_links:
   - target: 01-human/03-molecular/perforin
     relation: connects-to
     note: "Perforin-mediated CD8 cytotoxicity contributes to the synovial tissue injury of rheumatoid arthritis."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors regulate the survival and activation of the T cells and synovial fibroblasts driving rheumatoid arthritis, their dysregulation contributing to synovial hyperplasia."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the NF-κB-driven inflammatory cytokine production of the rheumatoid synovium."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling in synovial fibroblasts and osteoclasts contributes to the invasive pannus and bone erosion of rheumatoid arthritis."
 ---
 
 # Rheumatoid Arthritis
@@ -609,6 +618,9 @@ RA patients have:
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — DNA within the neutrophil extracellular traps that source citrullinated autoantigens engages cGAS-STING, amplifying the autoimmune inflammation of rheumatoid arthritis.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling governs the regulatory-T-cell balance and the synovial fibrosis of rheumatoid arthritis.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated CD8 cytotoxicity contributes to the synovial tissue injury of rheumatoid arthritis.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors regulate the survival and activation of the T cells and synovial fibroblasts driving rheumatoid arthritis, their dysregulation contributing to synovial hyperplasia.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the NF-κB-driven inflammatory cytokine production of the rheumatoid synovium.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling in synovial fibroblasts and osteoclasts contributes to the invasive pannus and bone erosion of rheumatoid arthritis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

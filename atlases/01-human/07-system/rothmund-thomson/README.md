@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/smad4
     relation: connects-to
     note: "TGF-β-SMAD signalling shapes the skeletal and connective-tissue abnormalities and the osteosarcoma microenvironment of Rothmund-Thomson syndrome."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the Wnt/β-catenin and survival signaling relevant to the cancer predisposition of Rothmund-Thomson syndrome."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Perforin-mediated cytotoxic immunosurveillance clears the genomically unstable, neoantigen-bearing cells arising in Rothmund-Thomson syndrome."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins reflect the inflammatory context of the poikiloderma and tumor microenvironment of Rothmund-Thomson syndrome."
 ---
 
 # Rothmund-Thomson Syndrome
@@ -596,6 +605,9 @@ The cardinal features of RTS type II are: (1) **poikiloderma** — the defining 
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — Genomic instability from RECQL4 helicase loss generates cytosolic DNA that engages cGAS-STING (mapped) and IFN-STAT1 signaling, contributing to the inflammatory phenotype of Rothmund-Thomson syndrome.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors integrate the chronic oxidative and replicative stress of the genomically unstable cells of Rothmund-Thomson syndrome.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling shapes the skeletal and connective-tissue abnormalities and the osteosarcoma microenvironment of Rothmund-Thomson syndrome.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the Wnt/β-catenin and survival signaling relevant to the cancer predisposition of Rothmund-Thomson syndrome.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated cytotoxic immunosurveillance clears the genomically unstable, neoantigen-bearing cells arising in Rothmund-Thomson syndrome.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins reflect the inflammatory context of the poikiloderma and tumor microenvironment of Rothmund-Thomson syndrome.
 
 [^kitao-1999-recql4-rts]: Kitao S, Shimamoto A, Goto M, et al. Mutations in RECQL4 cause a subset of cases of Rothmund-Thomson syndrome. *Nat Genet.* 1999;22(1):82-84. [doi:10.1038/8788](https://doi.org/10.1038/8788) · [PubMed 10319867](https://pubmed.ncbi.nlm.nih.gov/10319867/)
 [^wang-2003-rts-cancer]: Wang LL, Gannavarapu A, Kozinetz CA, et al. Association between osteosarcoma and deleterious mutations in the RECQL4 gene in Rothmund-Thomson syndrome. *J Natl Cancer Inst.* 2003;95(9):669-674. [doi:10.1093/jnci/95.9.669](https://doi.org/10.1093/jnci/95.9.669) · [PubMed 12734318](https://pubmed.ncbi.nlm.nih.gov/12734318/)
