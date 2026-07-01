@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/s100a8-a9
     relation: connects-to
     note: "S100A8/A9 alarmins reflect the inflammatory component of the aortic-wall remodeling in Marfan syndrome."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked metabolic and mechanotransduction signaling participates in the vascular smooth-muscle homeostasis disrupted in the aortic wall of Marfan syndrome."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy modulates the vascular smooth-muscle-cell survival and phenotypic switching in the aortic aneurysm of Marfan syndrome."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling downstream of angiotensin-II and TGF-β receptors (both already mapped) contributes to the aortic-wall remodeling of Marfan syndrome."
 ---
 
 # Marfan Syndrome
@@ -610,6 +619,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β participates in the vascular smooth-muscle signaling and TGF-β crosstalk relevant to the aortic remodeling of Marfan syndrome.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α in the mechanically stressed aortic wall contributes to the vascular remodeling and matrix dysregulation of Marfan syndrome.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins reflect the inflammatory component of the aortic-wall remodeling in Marfan syndrome.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic and mechanotransduction signaling participates in the vascular smooth-muscle homeostasis disrupted in the aortic wall of Marfan syndrome.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the vascular smooth-muscle-cell survival and phenotypic switching in the aortic aneurysm of Marfan syndrome.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of angiotensin-II and TGF-β receptors (both already mapped) contributes to the aortic-wall remodeling of Marfan syndrome.
 
 ---
 
