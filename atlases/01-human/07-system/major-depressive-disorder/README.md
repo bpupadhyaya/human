@@ -376,6 +376,15 @@ cross_links:
   - target: 01-human/03-molecular/autophagy
     relation: connects-to
     note: "Autophagy modulates neuronal resilience and the stress responses implicated in major depressive disorder, a candidate antidepressant mechanism."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family (FYN) kinase signaling participates in the NMDA-receptor and synaptic-plasticity mechanisms implicated in major depressive disorder."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven neuroimmune signaling participates in the neuroinflammation associated with major depressive disorder."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation contributes to the epigenetic (early-life-stress) programming implicated in major depressive disorder."
 ---
 
 # Major Depressive Disorder
@@ -652,6 +661,9 @@ Approximately 30–40% of MDD patients have elevated inflammatory markers:
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped), downstream of BDNF-TrkB (BDNF and NTRK already mapped), supports the neuroplasticity compromised in major depressive disorder.
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked immunometabolic signaling participates in the metabolic and neuroinflammatory dysregulation of major depressive disorder.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates neuronal resilience and the stress responses implicated in major depressive disorder, a candidate antidepressant mechanism.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family (FYN) kinase signaling participates in the NMDA-receptor and synaptic-plasticity mechanisms implicated in major depressive disorder.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven neuroimmune signaling participates in the neuroinflammation associated with major depressive disorder.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the epigenetic (early-life-stress) programming implicated in major depressive disorder.
 
 [^cipriani-2018-antidepressants-meta]: Cipriani A, Furukawa TA, Salanti G, et al. Comparative efficacy and acceptability of 21 antidepressant drugs for acute treatment of adults with major depressive disorder. *Lancet.* 2018;391(10128):1357-1366. [doi:10.1016/S0140-6736(17)32802-7](https://doi.org/10.1016/S0140-6736(17)32802-7) · [PubMed 29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/)
 [^zarate-2006-ketamine-rapid]: Zarate CA Jr, Singh JB, Carlson PJ, et al. A randomized trial of an N-methyl-D-aspartate antagonist in treatment-resistant major depression. *Arch Gen Psychiatry.* 2006;63(8):856-864. [doi:10.1001/archpsyc.63.8.856](https://doi.org/10.1001/archpsyc.63.8.856) · [PubMed 16894061](https://pubmed.ncbi.nlm.nih.gov/16894061/)

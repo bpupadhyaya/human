@@ -367,6 +367,15 @@ cross_links:
   - target: 01-human/03-molecular/arid1a
     relation: connects-to
     note: "ARID1A-containing SWI/SNF chromatin remodeling is recurrently mutated in mantle cell lymphoma, dysregulating its transcriptional program."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked metabolic signaling participates in the metabolic adaptation of mantle cell lymphoma."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-family chemokine signaling (CXCL12/CXCR4 already mapped) participates in the microenvironment homing of mantle cell lymphoma."
+  - target: 01-human/03-molecular/baff
+    relation: connects-to
+    note: "BAFF-driven B-cell survival signaling participates in the microenvironment-dependent survival of mantle cell lymphoma."
 ---
 
 # Mantle Cell Lymphoma
@@ -605,6 +614,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the epigenetic dysregulation of mantle cell lymphoma.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy supports the survival and drug resistance of mantle cell lymphoma cells, particularly under BTK-inhibitor therapy.
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling is recurrently mutated in mantle cell lymphoma, dysregulating its transcriptional program.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the metabolic adaptation of mantle cell lymphoma.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-family chemokine signaling (CXCL12/CXCR4 already mapped) participates in the microenvironment homing of mantle cell lymphoma.
+- `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — BAFF-driven B-cell survival signaling participates in the microenvironment-dependent survival of mantle cell lymphoma.
 
 ---
 
