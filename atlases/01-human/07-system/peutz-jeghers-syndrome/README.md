@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/cdk4-6
     relation: connects-to
     note: "CDK4/6-cyclin-D activity (cyclin-D1 and RB1 already mapped) drives the cell-cycle progression of the hamartoma-to-carcinoma sequence in Peutz-Jeghers syndrome."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β, integrated with LKB1-AMPK metabolic signaling, modulates the Wnt/β-catenin and survival pathways of the hamartomatous polyps of Peutz-Jeghers syndrome."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis during the polyp-to-cancer progression of Peutz-Jeghers syndrome."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins shape the inflammatory stroma of the hamartomatous polyps of Peutz-Jeghers syndrome."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -583,6 +592,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antitumor immune surveillance of the gastrointestinal and other neoplasms of Peutz-Jeghers syndrome.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — STK11/LKB1 loss in Peutz-Jeghers syndrome dysregulates the AMPK-FOXO axis (AMPK already mapped) that couples energy stress to growth control.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6-cyclin-D activity (cyclin-D1 and RB1 already mapped) drives the cell-cycle progression of the hamartoma-to-carcinoma sequence in Peutz-Jeghers syndrome.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β, integrated with LKB1-AMPK metabolic signaling, modulates the Wnt/β-catenin and survival pathways of the hamartomatous polyps of Peutz-Jeghers syndrome.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis during the polyp-to-cancer progression of Peutz-Jeghers syndrome.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins shape the inflammatory stroma of the hamartomatous polyps of Peutz-Jeghers syndrome.
 
 ---
 
