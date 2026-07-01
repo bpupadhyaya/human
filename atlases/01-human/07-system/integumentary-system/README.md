@@ -350,6 +350,15 @@ cross_links:
   - target: 01-human/03-molecular/erk1-2
     relation: connects-to
     note: "ERK-MAPK signaling downstream of EGFR (EGFR already mapped) drives the keratinocyte proliferation and epidermal renewal of the integumentary system."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K-AKT signaling governs the proliferation and survival of keratinocytes and the epidermal barrier renewal of the integumentary system."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β, within the Wnt signaling that patterns hair follicles (Wnt already mapped), regulates the skin-appendage development and epidermal homeostasis of the integumentary system."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signaling shapes the antimicrobial and immune-surveillance functions of the skin in the integumentary system."
 ---
 
 # Integumentary System
@@ -566,6 +575,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β already mapped) governs keratinocyte differentiation, wound repair, and dermal fibrosis across the integumentary system.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors regulate keratinocyte oxidative-stress defense, hair-follicle cycling, and epidermal homeostasis in the skin.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling downstream of EGFR (EGFR already mapped) drives the keratinocyte proliferation and epidermal renewal of the integumentary system.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling governs the proliferation and survival of keratinocytes and the epidermal barrier renewal of the integumentary system.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β, within the Wnt signaling that patterns hair follicles (Wnt already mapped), regulates the skin-appendage development and epidermal homeostasis of the integumentary system.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antimicrobial and immune-surveillance functions of the skin in the integumentary system.
 
 ## Pathology
 

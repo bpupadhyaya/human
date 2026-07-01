@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/foxo
     relation: connects-to
     note: "FOXO downstream of PI3K-AKT signaling (AKT and PIK3CA already mapped) regulates the endothelial quiescence-versus-activation balance relevant to inherited thrombophilia."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the platelet-activation and endothelial signaling that shape the prothrombotic tendency of inherited thrombophilia."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6-STAT3 signaling (IL-6 already mapped) links the inflammatory state to the hypercoagulability of inherited thrombophilia."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "mTOR signaling in platelets and endothelium participates in the prothrombotic vascular phenotype of inherited thrombophilia."
 ---
 
 # Inherited Thrombophilia
@@ -630,6 +639,9 @@ Antithrombin (ATIII) is the primary plasma inhibitor of thrombin, FXa, FIXa, and
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK1/2-STAT cytokine signaling (IL-6 already mapped) links inflammatory tone to the endothelial procoagulant phenotype that potentiates venous thrombosis in inherited thrombophilia.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling modulates the endothelial activation that contributes to thrombotic risk in inherited thrombophilia.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO downstream of PI3K-AKT signaling (AKT and PIK3CA already mapped) regulates the endothelial quiescence-versus-activation balance relevant to inherited thrombophilia.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the platelet-activation and endothelial signaling that shape the prothrombotic tendency of inherited thrombophilia.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling (IL-6 already mapped) links the inflammatory state to the hypercoagulability of inherited thrombophilia.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR signaling in platelets and endothelium participates in the prothrombotic vascular phenotype of inherited thrombophilia.
 
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)
