@@ -367,6 +367,15 @@ cross_links:
   - target: 01-human/03-molecular/ampk
     relation: connects-to
     note: "AMPK-linked metabolic signaling, exploited by dengue for its lipid-dependent replication, participates in dengue infection."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling participates in the endothelial barrier dysfunction and vascular leak of severe dengue."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven leukocyte recruitment contributes to the immune response and immunopathology of dengue fever."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation modulates the host immune-cell responses to dengue virus infection."
 ---
 
 # Dengue Fever
@@ -595,3 +604,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the innate inflammatory signaling and endothelial activation relevant to the vascular leak of severe dengue.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Dengue virus induces and subverts host autophagy to support its replication and lipid metabolism.
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling, exploited by dengue for its lipid-dependent replication, participates in dengue infection.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the endothelial barrier dysfunction and vascular leak of severe dengue.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven leukocyte recruitment contributes to the immune response and immunopathology of dengue fever.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation modulates the host immune-cell responses to dengue virus infection.

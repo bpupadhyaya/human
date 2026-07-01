@@ -367,6 +367,15 @@ cross_links:
   - target: 01-human/03-molecular/autophagy
     relation: connects-to
     note: "Autophagy modulates inflammasome activation and the survival of the hyperinflammatory immune cells in the cytokine storm."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven leukocyte recruitment amplifies the immune-cell infiltration and hyperinflammation of a cytokine storm."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated epigenetic regulation of immune-cell activation modulates the hyperinflammatory response of a cytokine storm."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "VEGF-driven vascular permeability contributes to the endothelial leak and hypotension of a cytokine storm."
 ---
 
 # Cytokine Storm
@@ -574,6 +583,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK signaling regulates the immunometabolic reprogramming of the hyperactivated immune cells driving the cytokine storm.
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of Fc and cytokine receptors amplifies the myeloid and lymphocyte activation of the cytokine storm.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates inflammasome activation and the survival of the hyperinflammatory immune cells in the cytokine storm.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven leukocyte recruitment amplifies the immune-cell infiltration and hyperinflammation of a cytokine storm.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated epigenetic regulation of immune-cell activation modulates the hyperinflammatory response of a cytokine storm.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VEGF-driven vascular permeability contributes to the endothelial leak and hypotension of a cytokine storm.
 
 ## Pathology
 
