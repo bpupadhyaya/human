@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "HIF-1α in the hypoxic inflamed enthesis promotes angiogenesis and osteogenic differentiation, contributing to syndesmophyte formation in ankylosing spondylitis."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the NF-κB-driven inflammatory and Wnt-dependent osteoproliferative signaling of ankylosing spondylitis."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA sensing through cGAS-STING contributes to the innate inflammatory activation of the enthesis in ankylosing spondylitis."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling in osteoblasts and immune cells contributes to the pathological new-bone formation and inflammation of ankylosing spondylitis."
 ---
 
 # Ankylosing Spondylitis
@@ -580,6 +589,9 @@ AS originates at the **enthesis** — the site where tendons, ligaments, and joi
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling downstream of TNF and IL-17 (both mapped) couples entheseal inflammation to the osteoblast differentiation that drives new bone in ankylosing spondylitis.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors regulate osteoblast differentiation and oxidative-stress balance relevant to the pathologic bone formation of ankylosing spondylitis.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α in the hypoxic inflamed enthesis promotes angiogenesis and osteogenic differentiation, contributing to syndesmophyte formation in ankylosing spondylitis.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the NF-κB-driven inflammatory and Wnt-dependent osteoproliferative signaling of ankylosing spondylitis.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING contributes to the innate inflammatory activation of the enthesis in ankylosing spondylitis.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling in osteoblasts and immune cells contributes to the pathological new-bone formation and inflammation of ankylosing spondylitis.
 
 [^sieper-2015-ankylosing-spondylitis-review]: Sieper J, Poddubnyy D. Ankylosing spondylitis. *Lancet.* 2017;390(10089):73-84. [doi:10.1016/S0140-6736(16)31591-4](https://doi.org/10.1016/S0140-6736(16)31591-4) · [PubMed 28110981](https://pubmed.ncbi.nlm.nih.gov/28110981/)
 [^baeten-2015-secukinumab-as]: Baeten D, Sieper J, Braun J, et al. Secukinumab, an Interleukin-17A Inhibitor, in Ankylosing Spondylitis. *N Engl J Med.* 2015;373(26):2534-2548. [doi:10.1056/NEJMoa1505066](https://doi.org/10.1056/NEJMoa1505066) · [PubMed 26699169](https://pubmed.ncbi.nlm.nih.gov/26699169/)

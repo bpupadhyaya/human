@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/gsk-3b
     relation: connects-to
     note: "GSK-3β sustains leukemic stem cell self-renewal and survival, making it a targetable dependency in AML."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family and LYN kinase signaling downstream of FLT3 and KIT (FLT3 and KIT already mapped) supports the survival of the leukemic blasts of AML."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "JAK1/2-STAT signaling relays the cytokine-driven survival of AML blasts (distinct from the JAK2 mutation already mapped)."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "CDKN2A loss releases CDK4/6-cyclin-D control (CDK4/6 already mapped) of the cell cycle in AML."
 ---
 
 # AML
@@ -582,6 +591,9 @@ AML requires cooperative mutations in at least 2 functional categories (Gillilan
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling regulates leukemic stem cell quiescence and the protective bone-marrow niche that fosters chemoresistance in AML.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins released by myeloid blasts drive inflammatory signaling and associate with poor prognosis and chemoresistance in AML.
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β sustains leukemic stem cell self-renewal and survival, making it a targetable dependency in AML.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family and LYN kinase signaling downstream of FLT3 and KIT (FLT3 and KIT already mapped) supports the survival of the leukemic blasts of AML.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK1/2-STAT signaling relays the cytokine-driven survival of AML blasts (distinct from the JAK2 mutation already mapped).
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A loss releases CDK4/6-cyclin-D control (CDK4/6 already mapped) of the cell cycle in AML.
 
 [^dinardo-2020-viale-a]: DiNardo CD, Jonas BA, Pullarkat V, et al. Azacitidine and venetoclax in previously untreated acute myeloid leukemia. *N Engl J Med.* 2020;383(7):617-629. [doi:10.1056/NEJMoa2012971](https://doi.org/10.1056/NEJMoa2012971) · [PubMed 32786187](https://pubmed.ncbi.nlm.nih.gov/32786187/)
 [^stone-2017-midostaurin]: Stone RM, Mandrekar SJ, Sanford BL, et al. Midostaurin plus chemotherapy for acute myeloid leukemia with a FLT3 mutation. *N Engl J Med.* 2017;377(5):454-464. [doi:10.1056/NEJMoa1614359](https://doi.org/10.1056/NEJMoa1614359) · [PubMed 28644114](https://pubmed.ncbi.nlm.nih.gov/28644114/)
