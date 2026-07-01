@@ -373,6 +373,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "CCL2-driven monocyte recruitment contributes to the inflammatory infiltrate of the lesional skin of pemphigus vulgaris."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked immunometabolic signaling shapes the autoreactive T- and B-cell metabolism of pemphigus vulgaris."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven leukocyte recruitment contributes to the dermal inflammation of pemphigus vulgaris."
+  - target: 01-human/03-molecular/calcineurin
+    relation: connects-to
+    note: "Calcineurin-NFAT signaling, a target of immunosuppressive therapy, participates in the autoreactive T-cell activation of pemphigus vulgaris."
 ---
 
 # Pemphigus Vulgaris
@@ -635,6 +644,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the keratinocyte stress responses to the desmoglein-3-antibody-induced signaling of pemphigus vulgaris.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the epigenetic regulation of the autoreactive immune responses of pemphigus vulgaris.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2-driven monocyte recruitment contributes to the inflammatory infiltrate of the lesional skin of pemphigus vulgaris.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked immunometabolic signaling shapes the autoreactive T- and B-cell metabolism of pemphigus vulgaris.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven leukocyte recruitment contributes to the dermal inflammation of pemphigus vulgaris.
+- `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling, a target of immunosuppressive therapy, participates in the autoreactive T-cell activation of pemphigus vulgaris.
 
 ---
 
