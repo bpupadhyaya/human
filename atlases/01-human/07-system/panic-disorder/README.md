@@ -364,6 +364,15 @@ cross_links:
   - target: 01-human/03-molecular/jak1-2
     relation: connects-to
     note: "JAK1/2 signaling upstream of STAT3 (IL-6 already mapped) relays the inflammatory tone linked to the anxiety circuitry of panic disorder."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped), downstream of BDNF-TrkB (BDNF and NTRK already mapped), participates in the fear-circuit neuroplasticity of panic disorder."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "mTOR signaling participates in the synaptic plasticity of the fear and anxiety circuits implicated in panic disorder."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Melatonin and circadian signaling modulate the sleep-related and nocturnal-panic features of panic disorder."
 ---
 
 # Panic Disorder
@@ -624,6 +633,9 @@ The **interoceptive fear conditioning model** (Bouton, Mineka, Barlow) explains 
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO downstream of PI3K-AKT signaling (AKT already mapped) regulates neuronal oxidative-stress handling relevant to the fear-circuit dysregulation of panic disorder.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 neuroinflammatory signaling contributes to the inflammatory tone associated with panic disorder.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK1/2 signaling upstream of STAT3 (IL-6 already mapped) relays the inflammatory tone linked to the anxiety circuitry of panic disorder.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped), downstream of BDNF-TrkB (BDNF and NTRK already mapped), participates in the fear-circuit neuroplasticity of panic disorder.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR signaling participates in the synaptic plasticity of the fear and anxiety circuits implicated in panic disorder.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Melatonin and circadian signaling modulate the sleep-related and nocturnal-panic features of panic disorder.
 
 [^gorman-2000-panic-neurobiology]: Gorman JM, Kent JM, Sullivan GM, Coplan JD. Neuroanatomical hypothesis of panic disorder, revised. *Am J Psychiatry.* 2000;157(4):493-505. [doi:10.1176/appi.ajp.157.4.493](https://doi.org/10.1176/appi.ajp.157.4.493) · [PubMed 10739407](https://pubmed.ncbi.nlm.nih.gov/10739407/)
 [^nardi-2009-clonazepam-panic]: Nardi AE, Freire RC, Zin WA. Panic disorder and control of breathing. *Respir Physiol Neurobiol.* 2009;167(1):133-143. [doi:10.1016/j.resp.2008.07.011](https://doi.org/10.1016/j.resp.2008.07.011) · [PubMed 18708168](https://pubmed.ncbi.nlm.nih.gov/18708168/)

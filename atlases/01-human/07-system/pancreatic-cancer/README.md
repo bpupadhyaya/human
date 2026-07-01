@@ -364,6 +364,15 @@ cross_links:
   - target: 01-human/03-molecular/s100a8-a9
     relation: connects-to
     note: "S100A8/A9 alarmins from myeloid-derived suppressor cells shape the immunosuppressive desmoplastic stroma of pancreatic cancer."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β regulates the NF-κB and survival signaling of pancreatic cancer, a candidate therapeutic target."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped) downstream of KRAS supports the survival of pancreatic cancer cells."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling downstream of EGFR and AXL (both already mapped) drives the invasion of pancreatic cancer."
 ---
 
 # Pancreatic Cancer
@@ -599,6 +608,9 @@ cross_links:
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-delivered cytotoxic killing by CD8 T and NK cells is the immune-clearance axis that the immune-cold, desmoplastic pancreatic cancer evades.
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis in pancreatic cancer.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins from myeloid-derived suppressor cells shape the immunosuppressive desmoplastic stroma of pancreatic cancer.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β regulates the NF-κB and survival signaling of pancreatic cancer, a candidate therapeutic target.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) downstream of KRAS supports the survival of pancreatic cancer cells.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of EGFR and AXL (both already mapped) drives the invasion of pancreatic cancer.
 
 ---
 
