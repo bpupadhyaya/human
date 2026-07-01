@@ -364,6 +364,15 @@ cross_links:
   - target: 01-human/03-molecular/gsk-3b
     relation: connects-to
     note: "GSK-3β modulates the NF-κB-driven mucosal inflammation of inflammatory bowel disease."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked immunometabolic signaling shapes the intestinal-epithelial and immune-cell responses of inflammatory bowel disease."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Perforin-mediated cytotoxic T-cell activity contributes to the epithelial injury of inflammatory bowel disease."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling participates in the immune-cell activation and epithelial-barrier signaling of inflammatory bowel disease."
 ---
 
 # Inflammatory Bowel Disease
@@ -607,6 +616,9 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO regulates the intestinal epithelial oxidative-stress defense and the T-cell programs implicated in inflammatory bowel disease.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α in the hypoxic inflamed mucosa shapes the barrier and inflammatory responses of inflammatory bowel disease.
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the NF-κB-driven mucosal inflammation of inflammatory bowel disease.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked immunometabolic signaling shapes the intestinal-epithelial and immune-cell responses of inflammatory bowel disease.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated cytotoxic T-cell activity contributes to the epithelial injury of inflammatory bowel disease.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the immune-cell activation and epithelial-barrier signaling of inflammatory bowel disease.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)

@@ -366,6 +366,15 @@ cross_links:
   - target: 01-human/03-molecular/s100a8-a9
     relation: connects-to
     note: "S100A8/A9 alarmins reflect the innate inflammatory activation accompanying immune thrombocytopenia."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the T-cell and B-cell inflammatory signaling that drives the autoantibody response of immune thrombocytopenia."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "ERK-MAPK signaling downstream of the B-cell and Fc receptors participates in the immune activation of immune thrombocytopenia."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy modulates megakaryocyte and immune-cell survival relevant to the impaired platelet production of immune thrombocytopenia."
 ---
 
 # Immune Thrombocytopenia
@@ -617,6 +626,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO regulates the autoreactive lymphocyte tolerance and survival balance relevant to the anti-platelet antibody production of immune thrombocytopenia.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling shapes the regulatory-T-cell control whose deficiency permits the autoimmunity of immune thrombocytopenia.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins reflect the innate inflammatory activation accompanying immune thrombocytopenia.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the T-cell and B-cell inflammatory signaling that drives the autoantibody response of immune thrombocytopenia.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling downstream of the B-cell and Fc receptors participates in the immune activation of immune thrombocytopenia.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates megakaryocyte and immune-cell survival relevant to the impaired platelet production of immune thrombocytopenia.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)
