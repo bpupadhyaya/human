@@ -367,6 +367,15 @@ cross_links:
   - target: 01-human/03-molecular/src-kinase
     relation: connects-to
     note: "SRC-family kinase signaling in osteoblasts and immune cells contributes to the pathological new-bone formation and inflammation of ankylosing spondylitis."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped) supports the survival and activation of the immune cells and osteoprogenitors of ankylosing spondylitis."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked immunometabolic signaling shapes the T-cell activation and osteogenic metabolism of ankylosing spondylitis."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy, linked to HLA-B27 misfolding and ER stress, participates in the immune activation of ankylosing spondylitis."
 ---
 
 # Ankylosing Spondylitis
@@ -592,6 +601,9 @@ AS originates at the **enthesis** — the site where tendons, ligaments, and joi
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the NF-κB-driven inflammatory and Wnt-dependent osteoproliferative signaling of ankylosing spondylitis.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING contributes to the innate inflammatory activation of the enthesis in ankylosing spondylitis.
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling in osteoblasts and immune cells contributes to the pathological new-bone formation and inflammation of ankylosing spondylitis.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) supports the survival and activation of the immune cells and osteoprogenitors of ankylosing spondylitis.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked immunometabolic signaling shapes the T-cell activation and osteogenic metabolism of ankylosing spondylitis.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy, linked to HLA-B27 misfolding and ER stress, participates in the immune activation of ankylosing spondylitis.
 
 [^sieper-2015-ankylosing-spondylitis-review]: Sieper J, Poddubnyy D. Ankylosing spondylitis. *Lancet.* 2017;390(10089):73-84. [doi:10.1016/S0140-6736(16)31591-4](https://doi.org/10.1016/S0140-6736(16)31591-4) · [PubMed 28110981](https://pubmed.ncbi.nlm.nih.gov/28110981/)
 [^baeten-2015-secukinumab-as]: Baeten D, Sieper J, Braun J, et al. Secukinumab, an Interleukin-17A Inhibitor, in Ankylosing Spondylitis. *N Engl J Med.* 2015;373(26):2534-2548. [doi:10.1056/NEJMoa1505066](https://doi.org/10.1056/NEJMoa1505066) · [PubMed 26699169](https://pubmed.ncbi.nlm.nih.gov/26699169/)
