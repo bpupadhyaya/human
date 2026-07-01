@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/perforin
     relation: connects-to
     note: "Perforin-mediated cytotoxic immunosurveillance is the immune clearance that the multiple neuroendocrine tumors of MEN1 syndrome must evade."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling downstream of growth-factor receptors contributes to the proliferative signaling of the endocrine tumors of MEN1 syndrome."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins shape the inflammatory microenvironment of the neuroendocrine tumors of MEN1 syndrome."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy modulates the survival of the menin-deficient endocrine tumor cells of MEN1 syndrome."
 ---
 
 # MEN1 Syndrome
@@ -591,6 +600,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the Wnt/β-catenin and survival signaling co-opted by menin loss in MEN1-syndrome tumors.
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated p53 degradation restrains apoptosis in the endocrine tumors of MEN1 syndrome.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated cytotoxic immunosurveillance is the immune clearance that the multiple neuroendocrine tumors of MEN1 syndrome must evade.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of growth-factor receptors contributes to the proliferative signaling of the endocrine tumors of MEN1 syndrome.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins shape the inflammatory microenvironment of the neuroendocrine tumors of MEN1 syndrome.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the survival of the menin-deficient endocrine tumor cells of MEN1 syndrome.
 
 ---
 

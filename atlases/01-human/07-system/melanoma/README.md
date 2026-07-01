@@ -364,6 +364,15 @@ cross_links:
   - target: 01-human/03-molecular/src-kinase
     relation: connects-to
     note: "SRC-kinase signaling contributes to the invasion and metastatic dissemination of melanoma."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy supports the survival and BRAF-inhibitor resistance of melanoma cells."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "ARID1A-containing SWI/SNF chromatin remodeling contributes to the epigenetic dysregulation and immunotherapy response of melanoma."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked metabolic signaling participates in the metabolic plasticity of melanoma."
 ---
 
 # Melanoma
@@ -569,6 +578,9 @@ cross_links:
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2 restrains p53-mediated apoptosis in melanoma, a survival axis often intact given melanoma's typically wild-type TP53.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins from myeloid-derived suppressor cells shape the immunosuppressive premetastatic niche of melanoma.
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-kinase signaling contributes to the invasion and metastatic dissemination of melanoma.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy supports the survival and BRAF-inhibitor resistance of melanoma cells.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling contributes to the epigenetic dysregulation and immunotherapy response of melanoma.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the metabolic plasticity of melanoma.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
