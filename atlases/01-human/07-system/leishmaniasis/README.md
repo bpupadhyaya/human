@@ -352,6 +352,15 @@ cross_links:
   - target: 01-human/03-molecular/gsk-3b
     relation: connects-to
     note: "GSK-3β modulates the macrophage inflammatory-versus-anti-inflammatory polarization that governs the intracellular survival of Leishmania."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling in infected macrophages modulates the phagosome and inflammatory response that Leishmania subverts."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Host autophagy participates in the intracellular control of Leishmania, a defense the parasite modulates to survive within macrophages."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK signaling, coupled to autophagy and metabolic reprogramming, shapes the macrophage's capacity to control intracellular Leishmania."
 ---
 
 # Leishmaniasis
@@ -565,3 +574,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors regulate macrophage autophagy and antimicrobial gene programs that determine control versus persistence of intracellular Leishmania.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins released by recruited myeloid cells amplify the inflammation of cutaneous and visceral leishmaniasis lesions.
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the macrophage inflammatory-versus-anti-inflammatory polarization that governs the intracellular survival of Leishmania.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling in infected macrophages modulates the phagosome and inflammatory response that Leishmania subverts.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Host autophagy participates in the intracellular control of Leishmania, a defense the parasite modulates to survive within macrophages.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK signaling, coupled to autophagy and metabolic reprogramming, shapes the macrophage's capacity to control intracellular Leishmania.
