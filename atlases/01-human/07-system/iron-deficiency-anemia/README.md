@@ -363,6 +363,15 @@ cross_links:
   - target: 01-human/03-molecular/stat1
     relation: connects-to
     note: "IFN-STAT1 signaling links inflammatory stimuli to the hepcidin regulation and iron sequestration that overlaps with iron deficiency anemia."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy (including the erythroid mitophagy of reticulocyte maturation) participates in the erythropoiesis impaired in iron deficiency anemia."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling downstream of the EPO and cytokine receptors participates in the erythroid signaling disrupted in iron deficiency anemia."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation participates in the transcriptional regulation of erythroid differentiation relevant to iron deficiency anemia."
 ---
 
 # Iron Deficiency Anemia
@@ -598,6 +607,9 @@ Iron is essential for:
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the erythropoietin and metabolic signaling in erythroid progenitors relevant to the impaired erythropoiesis of iron deficiency anemia.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins reflect the inflammatory context that can contribute to the functional iron restriction overlapping with iron deficiency anemia.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling links inflammatory stimuli to the hepcidin regulation and iron sequestration that overlaps with iron deficiency anemia.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy (including the erythroid mitophagy of reticulocyte maturation) participates in the erythropoiesis impaired in iron deficiency anemia.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of the EPO and cytokine receptors participates in the erythroid signaling disrupted in iron deficiency anemia.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the transcriptional regulation of erythroid differentiation relevant to iron deficiency anemia.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)
