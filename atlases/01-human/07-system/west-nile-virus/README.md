@@ -363,6 +363,15 @@ cross_links:
   - target: 01-human/03-molecular/s100a8-a9
     relation: connects-to
     note: "S100A8/A9 alarmins amplify the neuroinflammation of West Nile virus encephalitis."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "West Nile virus modulates host autophagy to support its replication in neurons and other cells."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling participates in the endothelial and blood-brain-barrier responses to West Nile virus neuroinvasion."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked metabolic signaling, exploited for the lipid-dependent replication of West Nile virus, participates in the host response."
 ---
 
 # West Nile Virus
@@ -598,3 +607,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the innate antiviral and neuronal survival signaling relevant to West Nile virus neuroinvasion.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Class I PI3K (PIK3CA)-AKT signaling (AKT already mapped) is exploited by West Nile virus to support its replication and modulate neuronal survival.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins amplify the neuroinflammation of West Nile virus encephalitis.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — West Nile virus modulates host autophagy to support its replication in neurons and other cells.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the endothelial and blood-brain-barrier responses to West Nile virus neuroinvasion.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling, exploited for the lipid-dependent replication of West Nile virus, participates in the host response.
