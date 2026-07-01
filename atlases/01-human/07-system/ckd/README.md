@@ -360,6 +360,15 @@ cross_links:
   - target: 01-human/03-molecular/s100a8-a9
     relation: connects-to
     note: "S100A8/A9 alarmins amplify the chronic inflammation and tubular injury that drive progression of chronic kidney disease."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β, within the Wnt/β-catenin signaling that drives tubulointerstitial fibrosis (Wnt already mapped), modulates the progressive fibrosis of chronic kidney disease."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped) governs the tubular-cell survival and hypertrophic responses of chronic kidney disease."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Perforin-bearing cytotoxic lymphocytes contribute to the immune-mediated tubulointerstitial injury of chronic kidney disease."
 ---
 
 # Chronic Kidney Disease
@@ -550,6 +559,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors regulate podocyte and tubular oxidative-stress defense whose failure accelerates the progression of chronic kidney disease.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling downstream of angiotensin II and growth factors (angiotensin-II and PDGF already mapped) drives the tubulointerstitial fibrosis of chronic kidney disease.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins amplify the chronic inflammation and tubular injury that drive progression of chronic kidney disease.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β, within the Wnt/β-catenin signaling that drives tubulointerstitial fibrosis (Wnt already mapped), modulates the progressive fibrosis of chronic kidney disease.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) governs the tubular-cell survival and hypertrophic responses of chronic kidney disease.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-bearing cytotoxic lymphocytes contribute to the immune-mediated tubulointerstitial injury of chronic kidney disease.
 
 ## Pathology
 

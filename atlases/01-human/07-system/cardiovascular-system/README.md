@@ -366,6 +366,15 @@ cross_links:
   - target: 01-human/03-molecular/cgas-sting
     relation: connects-to
     note: "Cytosolic DNA sensing through cGAS-STING links cellular and mitochondrial stress to the sterile inflammation of cardiovascular disease."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the cardiac hypertrophy and vascular remodeling signaling of the cardiovascular system."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped) governs the physiological cardiac growth and endothelial survival of the cardiovascular system."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins participate in the inflammatory signaling of atherosclerosis and myocardial injury in the cardiovascular system."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"
@@ -564,6 +573,9 @@ Each major vascular bed has **autoregulation** — a local mechanism that holds 
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors regulate cardiomyocyte and endothelial oxidative-stress defense, autophagy, and metabolic homeostasis across the cardiovascular system.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the vascular and myocardial inflammatory responses shared across cardiovascular disorders.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING links cellular and mitochondrial stress to the sterile inflammation of cardiovascular disease.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the cardiac hypertrophy and vascular remodeling signaling of the cardiovascular system.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) governs the physiological cardiac growth and endothelial survival of the cardiovascular system.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins participate in the inflammatory signaling of atherosclerosis and myocardial injury in the cardiovascular system.
 
 ## Pathology
 
