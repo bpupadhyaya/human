@@ -354,6 +354,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "HIF-1α responses in infected and inflamed CNS tissue shape the blood-brain-barrier disruption of neuroinvasive West Nile virus."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the innate antiviral and neuronal survival signaling relevant to West Nile virus neuroinvasion."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "Class I PI3K (PIK3CA)-AKT signaling (AKT already mapped) is exploited by West Nile virus to support its replication and modulate neuronal survival."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins amplify the neuroinflammation of West Nile virus encephalitis."
 ---
 
 # West Nile Virus
@@ -586,3 +595,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic nucleic-acid sensing through cGAS-STING contributes to the innate antiviral and neuroinflammatory response that restrains West Nile virus.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO regulates neuronal survival and oxidative-stress responses during West Nile virus neuroinvasion.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α responses in infected and inflamed CNS tissue shape the blood-brain-barrier disruption of neuroinvasive West Nile virus.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the innate antiviral and neuronal survival signaling relevant to West Nile virus neuroinvasion.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Class I PI3K (PIK3CA)-AKT signaling (AKT already mapped) is exploited by West Nile virus to support its replication and modulate neuronal survival.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins amplify the neuroinflammation of West Nile virus encephalitis.
