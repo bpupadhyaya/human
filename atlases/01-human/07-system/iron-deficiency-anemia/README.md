@@ -354,6 +354,15 @@ cross_links:
   - target: 01-human/03-molecular/pik3ca
     relation: connects-to
     note: "Class I PI3K (PIK3CA) signaling transduces the erythropoietin survival and proliferation signal in the iron-restricted erythroid progenitors of iron deficiency anemia (AKT already mapped)."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the erythropoietin and metabolic signaling in erythroid progenitors relevant to the impaired erythropoiesis of iron deficiency anemia."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins reflect the inflammatory context that can contribute to the functional iron restriction overlapping with iron deficiency anemia."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-STAT1 signaling links inflammatory stimuli to the hepcidin regulation and iron sequestration that overlaps with iron deficiency anemia."
 ---
 
 # Iron Deficiency Anemia
@@ -586,6 +595,9 @@ Iron is essential for:
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling (IL-6 already mapped) induces hepcidin, the inflammatory axis that compounds iron restriction when inflammation accompanies iron deficiency anemia.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6-driven erythroid progenitor cell-cycle progression is constrained by the limited iron available for hemoglobinization in iron deficiency anemia.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Class I PI3K (PIK3CA) signaling transduces the erythropoietin survival and proliferation signal in the iron-restricted erythroid progenitors of iron deficiency anemia (AKT already mapped).
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the erythropoietin and metabolic signaling in erythroid progenitors relevant to the impaired erythropoiesis of iron deficiency anemia.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins reflect the inflammatory context that can contribute to the functional iron restriction overlapping with iron deficiency anemia.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling links inflammatory stimuli to the hepcidin regulation and iron sequestration that overlaps with iron deficiency anemia.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)
