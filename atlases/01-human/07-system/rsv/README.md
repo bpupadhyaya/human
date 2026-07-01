@@ -354,6 +354,15 @@ cross_links:
   - target: 01-human/03-molecular/erk1-2
     relation: connects-to
     note: "ERK-MAPK signaling activated by RSV in airway epithelium promotes mucin production and the inflammatory response of RSV bronchiolitis."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the NF-κB-driven airway inflammation and the innate immune response to respiratory syncytial virus."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "mTOR signaling regulates the immune-cell metabolism and memory-response programming to respiratory syncytial virus."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "Class I PI3K (PIK3CA)-AKT signaling (AKT already mapped) is exploited by respiratory syncytial virus to support its replication and modulate airway epithelial survival."
 ---
 
 # RSV
@@ -610,3 +619,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO regulates airway epithelial oxidative-stress and survival responses to RSV infection.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins released by recruited neutrophils amplify the airway inflammation and mucus obstruction of severe RSV bronchiolitis.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling activated by RSV in airway epithelium promotes mucin production and the inflammatory response of RSV bronchiolitis.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the NF-κB-driven airway inflammation and the innate immune response to respiratory syncytial virus.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR signaling regulates the immune-cell metabolism and memory-response programming to respiratory syncytial virus.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Class I PI3K (PIK3CA)-AKT signaling (AKT already mapped) is exploited by respiratory syncytial virus to support its replication and modulate airway epithelial survival.

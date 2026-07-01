@@ -361,6 +361,15 @@ cross_links:
   - target: 01-human/03-molecular/erk1-2
     relation: connects-to
     note: "ERK-MAPK signaling downstream of growth factors and angiotensin II (PDGF and angiotensin-II already mapped) drives mesangial and tubular proliferation and fibrosis in the renal system."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β, within the Wnt/β-catenin signaling that governs nephron development and repair (Wnt already mapped), regulates the tubular and podocyte homeostasis of the renal system."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped) governs the growth, survival, and metabolic homeostasis of the renal tubular epithelium."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins participate in the inflammatory signaling of tubulointerstitial injury in the renal system."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -570,6 +579,9 @@ Natriuretic counterpoint:
 - **Connects to:** [FOXO](../../03-molecular/foxo/README.md) — podocyte stress defense: FOXO transcription factors regulate podocyte and tubular-cell oxidative-stress defense and metabolic homeostasis across the renal system.
 - **Connects to:** [STAT1](../../03-molecular/stat1/README.md) — immune renal inflammation: IFN-STAT1 signaling shapes the immune-mediated glomerular and tubulointerstitial inflammation of renal disorders.
 - **Connects to:** [ERK1/2](../../03-molecular/erk1-2/README.md) — proliferation and fibrosis: ERK-MAPK signaling downstream of growth factors and angiotensin II (PDGF and angiotensin-II already mapped) drives mesangial and tubular proliferation and fibrosis in the renal system.
+- **Connects to:** [GSK-3β](../../03-molecular/gsk-3b/README.md) — nephron homeostasis: GSK-3β, within the Wnt/β-catenin signaling that governs nephron development and repair (Wnt already mapped), regulates the tubular and podocyte homeostasis of the renal system.
+- **Connects to:** [PIK3CA](../../03-molecular/pik3ca/README.md) — tubular growth and survival: PI3K (PIK3CA)-AKT signaling (AKT already mapped) governs the growth, survival, and metabolic homeostasis of the renal tubular epithelium.
+- **Connects to:** [S100A8/A9](../../03-molecular/s100a8-a9/README.md) — tubulointerstitial inflammation: S100A8/A9 alarmins participate in the inflammatory signaling of tubulointerstitial injury in the renal system.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 
