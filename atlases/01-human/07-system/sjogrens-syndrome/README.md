@@ -373,6 +373,15 @@ cross_links:
   - target: 01-human/03-molecular/autophagy
     relation: connects-to
     note: "Autophagy modulates the salivary-gland epithelial and immune-cell responses of Sjögren's syndrome."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked immunometabolic signaling shapes the autoreactive T- and B-cell metabolism of Sjögren's syndrome."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven leukocyte recruitment into the exocrine glands contributes to the lymphocytic infiltration of Sjögren's syndrome."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation participates in the epigenetic dysregulation of the immune responses of Sjögren's syndrome."
 ---
 
 # Sjögren's Syndrome
@@ -621,6 +630,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) supports the survival and activation of the autoreactive B and T cells of Sjögren's syndrome.
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family (LYN) kinase signaling downstream of the B-cell receptor participates in the autoreactive B-cell activation of Sjögren's syndrome.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the salivary-gland epithelial and immune-cell responses of Sjögren's syndrome.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked immunometabolic signaling shapes the autoreactive T- and B-cell metabolism of Sjögren's syndrome.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven leukocyte recruitment into the exocrine glands contributes to the lymphocytic infiltration of Sjögren's syndrome.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the epigenetic dysregulation of the immune responses of Sjögren's syndrome.
 
 ---
 
