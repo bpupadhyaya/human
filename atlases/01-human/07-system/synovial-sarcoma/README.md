@@ -367,6 +367,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "IL-6-STAT3 signaling (STAT3 already mapped) shapes the inflammatory microenvironment of synovial sarcoma."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven myeloid recruitment shapes the immunosuppressive microenvironment of synovial sarcoma."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "IL-1β-driven inflammation participates in the tumor microenvironment of synovial sarcoma."
+  - target: 01-human/03-molecular/cdkn1a
+    relation: connects-to
+    note: "CDKN1A-p21 cell-cycle control participates in the checkpoint regulation dysregulated in synovial sarcoma."
 ---
 
 # Synovial Sarcoma
@@ -609,6 +618,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy supports the survival and therapy resistance of the SS18-SSX-driven cells of synovial sarcoma.
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the metabolic adaptation of synovial sarcoma.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6-STAT3 signaling (STAT3 already mapped) shapes the inflammatory microenvironment of synovial sarcoma.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven myeloid recruitment shapes the immunosuppressive microenvironment of synovial sarcoma.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the tumor microenvironment of synovial sarcoma.
+- `connects-to` → **[CDKN1A](../../03-molecular/cdkn1a/README.md)** — CDKN1A-p21 cell-cycle control participates in the checkpoint regulation dysregulated in synovial sarcoma.
 
 ---
 
