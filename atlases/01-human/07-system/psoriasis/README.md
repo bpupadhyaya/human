@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/perforin
     relation: connects-to
     note: "Perforin-expressing cytotoxic CD8 (Tc17) T cells in the epidermis contribute to the keratinocyte targeting and lesion formation of psoriasis."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the NF-κB-driven inflammatory and keratinocyte-proliferative signaling of psoriasis."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped) drives the keratinocyte hyperproliferation and immune-cell activation of psoriasis."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling participates in the keratinocyte and immune-cell activation of the psoriatic plaque."
 ---
 
 # Psoriasis
@@ -586,6 +595,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO regulates keratinocyte differentiation and oxidative-stress balance, programs disrupted in the hyperproliferative epidermis of psoriasis.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6-driven cell-cycle entry (E2F1 already mapped) sustains the keratinocyte hyperproliferation that builds the psoriatic plaque.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-expressing cytotoxic CD8 (Tc17) T cells in the epidermis contribute to the keratinocyte targeting and lesion formation of psoriasis.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the NF-κB-driven inflammatory and keratinocyte-proliferative signaling of psoriasis.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) drives the keratinocyte hyperproliferation and immune-cell activation of psoriasis.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the keratinocyte and immune-cell activation of the psoriatic plaque.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

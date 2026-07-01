@@ -360,6 +360,15 @@ cross_links:
   - target: 01-human/03-molecular/foxo
     relation: connects-to
     note: "FOXO downstream of stress and PI3K-AKT signaling (AKT already mapped) regulates neuronal oxidative-stress and resilience relevant to the fear-circuit plasticity of PTSD."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "HIF-1α-linked metabolic and mitochondrial stress responses contribute to the neurobiology of post-traumatic stress disorder."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped) regulates the neuronal plasticity of the fear-memory circuits altered in post-traumatic stress disorder."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK metabolic signaling participates in the neuronal energetic and stress-adaptation responses relevant to post-traumatic stress disorder."
 ---
 
 # PTSD
@@ -609,6 +618,9 @@ Not all trauma leads to PTSD. Risk and resilience factors include:
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 neuroinflammatory signaling contributes to the chronic low-grade inflammation reported in PTSD.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins reflect the peripheral myeloid inflammatory activation linked to the stress physiology of PTSD.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO downstream of stress and PI3K-AKT signaling (AKT already mapped) regulates neuronal oxidative-stress and resilience relevant to the fear-circuit plasticity of PTSD.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α-linked metabolic and mitochondrial stress responses contribute to the neurobiology of post-traumatic stress disorder.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) regulates the neuronal plasticity of the fear-memory circuits altered in post-traumatic stress disorder.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK metabolic signaling participates in the neuronal energetic and stress-adaptation responses relevant to post-traumatic stress disorder.
 
 [^yehuda-2015-ptsd-review]: Yehuda R, Hoge CW, McFarlane AC, et al. Post-traumatic stress disorder. *Nat Rev Dis Primers.* 2015;1:15057. [doi:10.1038/nrdp.2015.57](https://doi.org/10.1038/nrdp.2015.57) · [PubMed 27189040](https://pubmed.ncbi.nlm.nih.gov/27189040/)
 [^foa-2019-ptsd-treatments]: Foa EB, McLean CP. The efficacy of exposure therapy for anxiety and related disorders. *Annu Rev Clin Psychol.* 2016;12:1-28. [doi:10.1146/annurev-clinpsy-021815-093533](https://doi.org/10.1146/annurev-clinpsy-021815-093533) · [PubMed 26928206](https://pubmed.ncbi.nlm.nih.gov/26928206/)
