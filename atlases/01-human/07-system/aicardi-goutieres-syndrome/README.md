@@ -366,6 +366,15 @@ cross_links:
   - target: 01-human/03-molecular/ampk
     relation: connects-to
     note: "AMPK signaling, coupled to autophagy (autophagy already mapped), participates in the clearance of the endogenous nucleic acids whose accumulation drives the interferonopathy of Aicardi-Goutières syndrome."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation and the broader epigenetic control of interferon-stimulated genes shape the interferon signature of Aicardi-Goutières syndrome."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven leukocyte recruitment contributes to the neuroinflammation of Aicardi-Goutières syndrome."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "MDM2-p53 signaling participates in the cellular stress and apoptosis responses to the chronic interferon activation of Aicardi-Goutières syndrome."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -576,6 +585,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) supports the survival and activation of the interferon-driven immune cells of Aicardi-Goutières syndrome.
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the immune-cell activation of the type-I-interferon-driven neuroinflammation of Aicardi-Goutières syndrome.
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK signaling, coupled to autophagy (autophagy already mapped), participates in the clearance of the endogenous nucleic acids whose accumulation drives the interferonopathy of Aicardi-Goutières syndrome.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation and the broader epigenetic control of interferon-stimulated genes shape the interferon signature of Aicardi-Goutières syndrome.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven leukocyte recruitment contributes to the neuroinflammation of Aicardi-Goutières syndrome.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-p53 signaling participates in the cellular stress and apoptosis responses to the chronic interferon activation of Aicardi-Goutières syndrome.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
