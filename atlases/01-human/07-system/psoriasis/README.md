@@ -367,6 +367,15 @@ cross_links:
   - target: 01-human/03-molecular/src-kinase
     relation: connects-to
     note: "SRC-family kinase signaling participates in the keratinocyte and immune-cell activation of the psoriatic plaque."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked immunometabolic signaling shapes the keratinocyte and T-cell metabolism of psoriasis."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy modulates the keratinocyte differentiation and innate immune responses of psoriasis."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation contributes to the epigenetic dysregulation of the keratinocyte and immune-cell programs of psoriasis."
 ---
 
 # Psoriasis
@@ -598,6 +607,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the NF-κB-driven inflammatory and keratinocyte-proliferative signaling of psoriasis.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) drives the keratinocyte hyperproliferation and immune-cell activation of psoriasis.
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the keratinocyte and immune-cell activation of the psoriatic plaque.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked immunometabolic signaling shapes the keratinocyte and T-cell metabolism of psoriasis.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the keratinocyte differentiation and innate immune responses of psoriasis.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the epigenetic dysregulation of the keratinocyte and immune-cell programs of psoriasis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
