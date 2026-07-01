@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/foxo
     relation: connects-to
     note: "FOXO transcription factors, restrained by BCR-PI3K-AKT signalling, modulate the survival of the cyclin-D1-driven cells of mantle cell lymphoma."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the cyclin-D1 stability and survival signaling of mantle cell lymphoma."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins shape the inflammatory tumor microenvironment of mantle cell lymphoma."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA sensing through cGAS-STING modulates the inflammatory and immune microenvironment of mantle cell lymphoma."
 ---
 
 # Mantle Cell Lymphoma
@@ -581,6 +590,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antitumor immune response of mantle cell lymphoma.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β already mapped) normally restrains B-cell proliferation, a brake overridden by the cyclin-D1 translocation of mantle cell lymphoma.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors, restrained by BCR-PI3K-AKT signaling, modulate the survival of the cyclin-D1-driven cells of mantle cell lymphoma.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the cyclin-D1 stability and survival signaling of mantle cell lymphoma.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins shape the inflammatory tumor microenvironment of mantle cell lymphoma.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING modulates the inflammatory and immune microenvironment of mantle cell lymphoma.
 
 ---
 
