@@ -364,6 +364,15 @@ cross_links:
   - target: 01-human/03-molecular/s100a8-a9
     relation: connects-to
     note: "S100A8/A9 alarmins reflect the chronic myeloid inflammatory activation that persists in treated HIV infection."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the T-cell activation and survival signaling relevant to the immune dysfunction and latency of HIV infection."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "HIV modulates host autophagy to support its replication while evading the xenophagic degradation of viral components in HIV infection."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family (LCK) kinase signaling downstream of the T-cell receptor and CD4 co-receptor participates in the T-cell activation exploited by HIV infection."
 ---
 
 # HIV
@@ -614,6 +623,9 @@ The **latent reservoir** — HIV integrated into quiescent resting memory CD4+ T
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — HIV Nef and Tat modulation of PI3K-AKT-FOXO signaling (AKT and PIK3CA already mapped) shifts the survival-versus-apoptosis balance of infected and bystander T cells in HIV.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α induced by HIV supports viral transcription and the metabolic reprogramming of infected cells and the inflamed reservoir.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins reflect the chronic myeloid inflammatory activation that persists in treated HIV infection.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the T-cell activation and survival signaling relevant to the immune dysfunction and latency of HIV infection.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — HIV modulates host autophagy to support its replication while evading the xenophagic degradation of viral components in HIV infection.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family (LCK) kinase signaling downstream of the T-cell receptor and CD4 co-receptor participates in the T-cell activation exploited by HIV infection.
 
 [^barre-sinoussi-1983-hiv-isolation]: Barré-Sinoussi F, Chermann JC, Rey F, et al. Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS). *Science.* 1983;220(4599):868-871. [doi:10.1126/science.6189183](https://doi.org/10.1126/science.6189183) · [PubMed 6189183](https://pubmed.ncbi.nlm.nih.gov/6189183/)
 [^ho-1995-viral-dynamics]: Ho DD, Neumann AU, Perelson AS, et al. Rapid turnover of plasma virions and CD4 lymphocytes in HIV-1 infection. *Nature.* 1995;373(6510):123-126. [doi:10.1038/373123a0](https://doi.org/10.1038/373123a0) · [PubMed 7816094](https://pubmed.ncbi.nlm.nih.gov/7816094/)
