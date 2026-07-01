@@ -355,6 +355,15 @@ cross_links:
   - target: 01-human/03-molecular/foxo
     relation: connects-to
     note: "FOXO transcription factors modulate the keratinocyte survival and apoptosis balance perturbed by the desmoglein-3-directed signalling of pemphigus vulgaris."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins amplify the innate inflammation of the pemphigus vulgaris blistering lesion."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β participates in the intracellular signaling downstream of desmoglein-3 antibody binding that promotes acantholysis in pemphigus vulgaris."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Perforin-mediated cytotoxic activity by desmoglein-3-specific CD8 T cells contributes to the keratinocyte injury of pemphigus vulgaris."
 ---
 
 # Pemphigus Vulgaris
@@ -611,6 +620,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-γ-STAT1 signaling shapes the Th1 component of the autoimmune response that drives the anti-desmoglein-3 antibody production of pemphigus vulgaris.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA released by acantholytic keratinocyte injury can engage cGAS-STING, amplifying the inflammation of pemphigus vulgaris lesions.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors modulate the keratinocyte survival and apoptosis balance perturbed by the desmoglein-3-directed signaling of pemphigus vulgaris.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins amplify the innate inflammation of the pemphigus vulgaris blistering lesion.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β participates in the intracellular signaling downstream of desmoglein-3 antibody binding that promotes acantholysis in pemphigus vulgaris.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated cytotoxic activity by desmoglein-3-specific CD8 T cells contributes to the keratinocyte injury of pemphigus vulgaris.
 
 ---
 
