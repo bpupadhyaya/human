@@ -365,6 +365,15 @@ cross_links:
   - target: 01-human/03-molecular/nf-kb
     relation: connects-to
     note: "NF-κB inflammatory signaling regulates the lymphatic-endothelial and lymph-node immune responses of the lymphatic system."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked metabolic signaling participates in the lymphatic-endothelial and immune-cell metabolism of the lymphatic system."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy participates in the lymphocyte homeostasis and lymphatic-endothelial maintenance of the lymphatic system."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-family chemokine signaling participates in the trafficking of leukocytes through the lymphatic vessels and nodes of the lymphatic system."
 ---
 
 # Lymphatic System
@@ -590,6 +599,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped), acting downstream of VEGFR-3 (VEGF already mapped), governs the lymphatic-endothelial growth and remodeling of the lymphatic system.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling downstream of VEGFR-3 and other receptors drives the lymphangiogenesis and lymphatic-endothelial responses of the lymphatic system.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB inflammatory signaling regulates the lymphatic-endothelial and lymph-node immune responses of the lymphatic system.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the lymphatic-endothelial and immune-cell metabolism of the lymphatic system.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy participates in the lymphocyte homeostasis and lymphatic-endothelial maintenance of the lymphatic system.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-family chemokine signaling participates in the trafficking of leukocytes through the lymphatic vessels and nodes of the lymphatic system.
 
 ## Pathology
 
