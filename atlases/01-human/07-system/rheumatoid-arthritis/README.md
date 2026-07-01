@@ -373,6 +373,15 @@ cross_links:
   - target: 01-human/03-molecular/autophagy
     relation: connects-to
     note: "Autophagy modulates the citrullination, osteoclastogenesis, and synoviocyte survival relevant to rheumatoid arthritis."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation contributes to the epigenetic dysregulation of the synovial fibroblasts and immune cells of rheumatoid arthritis."
+  - target: 01-human/03-molecular/calcineurin
+    relation: connects-to
+    note: "Calcineurin-NFAT signaling, a target of immunosuppressive therapy, participates in the autoreactive T-cell activation of rheumatoid arthritis."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "CXCL12-CXCR4 signaling participates in the leukocyte and fibroblast recruitment into the inflamed synovium of rheumatoid arthritis."
 ---
 
 # Rheumatoid Arthritis
@@ -633,6 +642,9 @@ RA patients have:
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) supports the survival and activation of the fibroblast-like synoviocytes and immune cells of rheumatoid arthritis.
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked immunometabolic signaling shapes the T-cell activation and synoviocyte metabolism of rheumatoid arthritis.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the citrullination, osteoclastogenesis, and synoviocyte survival relevant to rheumatoid arthritis.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the epigenetic dysregulation of the synovial fibroblasts and immune cells of rheumatoid arthritis.
+- `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling, a target of immunosuppressive therapy, participates in the autoreactive T-cell activation of rheumatoid arthritis.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the leukocyte and fibroblast recruitment into the inflamed synovium of rheumatoid arthritis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
