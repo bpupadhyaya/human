@@ -367,6 +367,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "IL-6-STAT3 signaling (STAT3 already mapped) from the tumor and microglia sustains the immunosuppressive, proliferative microenvironment of glioblastoma."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven tumor-associated-macrophage recruitment shapes the immunosuppressive microenvironment of glioblastoma."
+  - target: 01-human/03-molecular/yap1
+    relation: connects-to
+    note: "YAP1-Hippo signaling participates in the mesenchymal transition and glioma-stem-cell biology of glioblastoma."
+  - target: 01-human/03-molecular/calcineurin
+    relation: connects-to
+    note: "Calcineurin-NFAT signaling participates in the invasion and proliferation of glioblastoma."
 ---
 
 # Glioblastoma
@@ -613,6 +622,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the metabolic adaptation of the treatment-resistant glioblastoma stem cells.
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling contributes to the epigenetic dysregulation of glioblastoma.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6-STAT3 signaling (STAT3 already mapped) from the tumor and microglia sustains the immunosuppressive, proliferative microenvironment of glioblastoma.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven tumor-associated-macrophage recruitment shapes the immunosuppressive microenvironment of glioblastoma.
+- `connects-to` → **[YAP1](../../03-molecular/yap1/README.md)** — YAP1-Hippo signaling participates in the mesenchymal transition and glioma-stem-cell biology of glioblastoma.
+- `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the invasion and proliferation of glioblastoma.
 
 ---
 
