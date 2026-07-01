@@ -356,6 +356,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "HIF-1α couples the metabolic and inflammatory status of lymphoid tissue to the lymphangiogenesis (VEGF already mapped) of the lymphatic system."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped), acting downstream of VEGFR-3 (VEGF already mapped), governs the lymphatic-endothelial growth and remodeling of the lymphatic system."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "ERK-MAPK signaling downstream of VEGFR-3 and other receptors drives the lymphangiogenesis and lymphatic-endothelial responses of the lymphatic system."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "NF-κB inflammatory signaling regulates the lymphatic-endothelial and lymph-node immune responses of the lymphatic system."
 ---
 
 # Lymphatic System
@@ -578,6 +587,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors regulate lymphocyte homeostasis and the lymphatic-endothelial stress responses across the lymphatic system.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling governs lymphatic-vessel development and remodeling and the regulatory immune tone of the lymphatic system.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α couples the metabolic and inflammatory status of lymphoid tissue to the lymphangiogenesis (VEGF already mapped) of the lymphatic system.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped), acting downstream of VEGFR-3 (VEGF already mapped), governs the lymphatic-endothelial growth and remodeling of the lymphatic system.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling downstream of VEGFR-3 and other receptors drives the lymphangiogenesis and lymphatic-endothelial responses of the lymphatic system.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB inflammatory signaling regulates the lymphatic-endothelial and lymph-node immune responses of the lymphatic system.
 
 ## Pathology
 
