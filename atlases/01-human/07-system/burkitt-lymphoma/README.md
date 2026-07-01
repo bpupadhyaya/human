@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "NOTCH signaling, recurrently mutated in a subset of Burkitt lymphoma, contributes to its pathogenesis."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family (LYN) kinase signaling downstream of the tonic B-cell receptor supports the survival of the MYC-driven cells of Burkitt lymphoma."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation contributes to the epigenetic dysregulation of Burkitt lymphoma."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy supports the survival and metabolic-stress management of the highly proliferative MYC-driven cells of Burkitt lymphoma."
 ---
 
 # Burkitt Lymphoma
@@ -606,6 +615,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β regulates MYC phosphorylation and turnover (MYC already mapped) and the survival signaling of Burkitt lymphoma cells.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins from infiltrating myeloid cells shape the inflammatory microenvironment of Burkitt lymphoma.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH signaling, recurrently mutated in a subset of Burkitt lymphoma, contributes to its pathogenesis.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family (LYN) kinase signaling downstream of the tonic B-cell receptor supports the survival of the MYC-driven cells of Burkitt lymphoma.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the epigenetic dysregulation of Burkitt lymphoma.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy supports the survival and metabolic-stress management of the highly proliferative MYC-driven cells of Burkitt lymphoma.
 
 ---
 
