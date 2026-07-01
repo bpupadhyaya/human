@@ -364,6 +364,15 @@ cross_links:
   - target: 01-human/03-molecular/src-kinase
     relation: connects-to
     note: "SRC-family kinase signaling in synovial fibroblasts and osteoclasts contributes to the invasive pannus and bone erosion of rheumatoid arthritis."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped) supports the survival and activation of the fibroblast-like synoviocytes and immune cells of rheumatoid arthritis."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked immunometabolic signaling shapes the T-cell activation and synoviocyte metabolism of rheumatoid arthritis."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy modulates the citrullination, osteoclastogenesis, and synoviocyte survival relevant to rheumatoid arthritis."
 ---
 
 # Rheumatoid Arthritis
@@ -621,6 +630,9 @@ RA patients have:
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors regulate the survival and activation of the T cells and synovial fibroblasts driving rheumatoid arthritis, their dysregulation contributing to synovial hyperplasia.
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the NF-κB-driven inflammatory cytokine production of the rheumatoid synovium.
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling in synovial fibroblasts and osteoclasts contributes to the invasive pannus and bone erosion of rheumatoid arthritis.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) supports the survival and activation of the fibroblast-like synoviocytes and immune cells of rheumatoid arthritis.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked immunometabolic signaling shapes the T-cell activation and synoviocyte metabolism of rheumatoid arthritis.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the citrullination, osteoclastogenesis, and synoviocyte survival relevant to rheumatoid arthritis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
