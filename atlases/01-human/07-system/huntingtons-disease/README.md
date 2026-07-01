@@ -345,6 +345,15 @@ cross_links:
   - target: 01-human/03-molecular/cdk4-6
     relation: connects-to
     note: "Aberrant CDK4/6-driven cell-cycle re-entry of post-mitotic neurons contributes to the neuronal death of Huntington's disease."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped) participates in the neuronal survival pathways compromised in Huntington's disease."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation contributes to the epigenetic dysregulation of gene expression in Huntington's disease."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "MDM2-p53 signaling (p53 already mapped) participates in the neuronal apoptosis of Huntington's disease."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -505,3 +514,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins released by activated microglia amplify the neuroinflammation of Huntington's disease.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α-linked metabolic and mitochondrial stress responses contribute to the striatal neurodegeneration of Huntington's disease.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Aberrant CDK4/6-driven cell-cycle re-entry of post-mitotic neurons contributes to the neuronal death of Huntington's disease.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) participates in the neuronal survival pathways compromised in Huntington's disease.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the epigenetic dysregulation of gene expression in Huntington's disease.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-p53 signaling (p53 already mapped) participates in the neuronal apoptosis of Huntington's disease.
