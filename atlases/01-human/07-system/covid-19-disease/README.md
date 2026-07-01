@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/erk1-2
     relation: connects-to
     note: "ERK-MAPK signaling downstream of pattern-recognition and cytokine receptors amplifies the macrophage inflammatory response that fuels severe COVID-19."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "mTOR signaling drives the metabolic reprogramming of the hyperinflammatory immune cells and is a therapeutic target in severe COVID-19."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the NF-κB-driven cytokine storm and the platelet activation of COVID-19 coagulopathy."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "Class I PI3K (PIK3CA) signaling participates in the immune-cell activation and endothelial dysfunction of severe COVID-19."
 ---
 
 # COVID-19 Disease
@@ -536,6 +545,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Calprotectin (S100A8/A9) released by emergency myelopoiesis-derived neutrophils is a key driver and severity biomarker of the hyperinflammatory cytokine storm in severe COVID-19.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO regulates lymphocyte homeostasis and oxidative-stress handling, processes whose dysregulation accompanies the lymphopenia and immune dysfunction of severe COVID-19.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling downstream of pattern-recognition and cytokine receptors amplifies the macrophage inflammatory response that fuels severe COVID-19.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR signaling drives the metabolic reprogramming of the hyperinflammatory immune cells and is a therapeutic target in severe COVID-19.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the NF-κB-driven cytokine storm and the platelet activation of COVID-19 coagulopathy.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Class I PI3K (PIK3CA) signaling participates in the immune-cell activation and endothelial dysfunction of severe COVID-19.
 
 ## Pathology
 
