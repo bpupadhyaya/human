@@ -355,6 +355,15 @@ cross_links:
   - target: 01-human/03-molecular/erk1-2
     relation: connects-to
     note: "ERK-MAPK signalling transduces the cytokine and B-cell-receptor stimuli that sustain the lymphocytic infiltration of Sjögren's syndrome."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the NF-κB-driven inflammatory and B-cell survival signaling of Sjögren's syndrome."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins amplify the innate inflammation of the salivary and lacrimal gland lesions of Sjögren's syndrome."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "HIF-1α in the hypoxic inflamed glandular tissue contributes to the metabolic and inflammatory adaptation of Sjögren's syndrome."
 ---
 
 # Sjögren's Syndrome
@@ -597,6 +606,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling governs the regulatory-T-cell balance and the glandular fibrosis of Sjögren's syndrome.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors modulate the survival of glandular epithelial cells and the autoreactive lymphocytes of Sjögren's syndrome.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling transduces the cytokine and B-cell-receptor stimuli that sustain the lymphocytic infiltration of Sjögren's syndrome.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the NF-κB-driven inflammatory and B-cell survival signaling of Sjögren's syndrome.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins amplify the innate inflammation of the salivary and lacrimal gland lesions of Sjögren's syndrome.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α in the hypoxic inflamed glandular tissue contributes to the metabolic and inflammatory adaptation of Sjögren's syndrome.
 
 ---
 
