@@ -367,6 +367,15 @@ cross_links:
   - target: 01-human/03-molecular/autophagy
     relation: connects-to
     note: "Autophagy modulates the podocyte survival and mesangial-cell responses to immune-complex-driven injury in IgA nephropathy."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling participates in the mesangial-cell activation and proliferation of IgA nephropathy."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven leukocyte recruitment contributes to the glomerular and tubulointerstitial inflammation of IgA nephropathy."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the IgA1-glycosylation and immune abnormalities of IgA nephropathy."
 ---
 
 # IgA Nephropathy
@@ -567,6 +576,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the podocyte and mesangial-cell stress responses of IgA nephropathy.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR signaling in mesangial and immune cells participates in the proliferative response to IgA immune-complex deposition in IgA nephropathy.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the podocyte survival and mesangial-cell responses to immune-complex-driven injury in IgA nephropathy.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the mesangial-cell activation and proliferation of IgA nephropathy.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven leukocyte recruitment contributes to the glomerular and tubulointerstitial inflammation of IgA nephropathy.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the IgA1-glycosylation and immune abnormalities of IgA nephropathy.
 
 ---
 

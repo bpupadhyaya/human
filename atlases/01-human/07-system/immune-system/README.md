@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "CCL2 and the chemokine network orchestrate the trafficking of monocytes and other leukocytes throughout the immune system."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked immunometabolic signaling shapes the differentiation and effector metabolism of the immune cells of the immune system."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy participates in the antigen presentation, lymphocyte homeostasis, and innate immune responses of the immune system."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling downstream of antigen and Fc receptors participates in the activation of the lymphocytes and myeloid cells of the immune system."
 ---
 
 # Immune System
@@ -517,6 +526,9 @@ After primary response contraction, long-lived memory cells persist:
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Class I PI3K (PIK3CA)-AKT signaling downstream of immune receptors drives the activation and expansion of lymphocytes across the immune system.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR integrates nutrient and immune signals to program the differentiation and effector function of T cells and other immune cells of the immune system.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 and the chemokine network orchestrate the trafficking of monocytes and other leukocytes throughout the immune system.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked immunometabolic signaling shapes the differentiation and effector metabolism of the immune cells of the immune system.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy participates in the antigen presentation, lymphocyte homeostasis, and innate immune responses of the immune system.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of antigen and Fc receptors participates in the activation of the lymphocytes and myeloid cells of the immune system.
 
 ## Pathology
 
