@@ -339,6 +339,15 @@ cross_links:
   - target: 01-human/03-molecular/foxo
     relation: connects-to
     note: "FOXO downstream of stress and insulin-PI3K signaling governs neuronal oxidative-stress handling relevant to the stress vulnerability of fibromyalgia."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K-AKT signaling in dorsal-horn neurons participates in the central sensitization underlying the amplified pain of fibromyalgia."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "HIF-1α-linked metabolic and mitochondrial dysfunction contributes to the muscle and neural energetics implicated in fibromyalgia."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins reflect the low-grade neuroinflammatory activation associated with fibromyalgia."
 sources:
   - id: wolfe-2016-fibromyalgia-criteria
     type: peer-reviewed
@@ -606,6 +615,9 @@ FM is not a single-etiology disorder but a convergent syndrome resulting from th
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 neuroinflammatory signaling in activated microglia is implicated in the central sensitization of fibromyalgia.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING contributes to the low-grade neuroinflammatory tone proposed in fibromyalgia.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO downstream of stress and insulin-PI3K signaling governs neuronal oxidative-stress handling relevant to the stress vulnerability of fibromyalgia.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT signaling in dorsal-horn neurons participates in the central sensitization underlying the amplified pain of fibromyalgia.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α-linked metabolic and mitochondrial dysfunction contributes to the muscle and neural energetics implicated in fibromyalgia.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins reflect the low-grade neuroinflammatory activation associated with fibromyalgia.
 
 [^wolfe-2016-fibromyalgia-criteria]: Wolfe F, Clauw DJ, Fitzcharles MA, et al. 2016 Revisions to the 2010/2011 fibromyalgia diagnostic criteria. *Semin Arthritis Rheum.* 2016;46(3):319-329. [doi:10.1016/j.semarthrit.2016.08.012](https://doi.org/10.1016/j.semarthrit.2016.08.012) · [PubMed 27916278](https://pubmed.ncbi.nlm.nih.gov/27916278/)
 [^clauw-2014-fibromyalgia-review]: Clauw DJ. Fibromyalgia: a clinical review. *JAMA.* 2014;311(15):1547-1555. [doi:10.1001/jama.2014.3266](https://doi.org/10.1001/jama.2014.3266) · [PubMed 24737367](https://pubmed.ncbi.nlm.nih.gov/24737367/)

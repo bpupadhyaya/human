@@ -352,6 +352,15 @@ cross_links:
   - target: 01-human/03-molecular/foxo
     relation: connects-to
     note: "FOXO transcription factors integrate microbial-metabolite and nutrient signals to regulate gut epithelial and immune homeostasis."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Microbial metabolites and pattern-recognition signals feed into host PI3K-AKT signaling that governs the intestinal epithelial homeostasis shaped by the gut microbiome."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "ERK-MAPK signaling transduces the microbial and metabolite stimuli that modulate the epithelial and immune responses to the gut microbiome."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β integrates microbial pattern-recognition signaling to modulate the NF-κB inflammatory tone and Wnt-dependent epithelial renewal shaped by the gut microbiome."
 ---
 
 # Gut Microbiome
@@ -541,6 +550,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β already mapped) mediates the microbial-metabolite-driven regulatory T-cell induction and epithelial homeostasis of the gut.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling links microbiota-shaped interferon tone to mucosal immune homeostasis and antimicrobial defense in the gut.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors integrate microbial-metabolite and nutrient signals to regulate gut epithelial and immune homeostasis.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Microbial metabolites and pattern-recognition signals feed into host PI3K-AKT signaling that governs the intestinal epithelial homeostasis shaped by the gut microbiome.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling transduces the microbial and metabolite stimuli that modulate the epithelial and immune responses to the gut microbiome.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β integrates microbial pattern-recognition signaling to modulate the NF-κB inflammatory tone and Wnt-dependent epithelial renewal shaped by the gut microbiome.
 
 ## Pathology
 
