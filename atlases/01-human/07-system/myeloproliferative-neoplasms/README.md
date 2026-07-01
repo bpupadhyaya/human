@@ -367,6 +367,15 @@ cross_links:
   - target: 01-human/03-molecular/arid1a
     relation: connects-to
     note: "ARID1A and the broader chromatin machinery contribute to the epigenetic dysregulation of myeloproliferative neoplasms."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-family chemokine signaling participates in the aberrant myeloid trafficking and inflammatory bone-marrow niche of myeloproliferative neoplasms."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "CXCL12-CXCR4 signaling in the bone-marrow niche participates in the clonal hematopoiesis and megakaryocyte-driven fibrosis of myeloproliferative neoplasms."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "NOTCH signaling participates in the megakaryocyte and stromal biology contributing to the myelofibrosis of myeloproliferative neoplasms."
 ---
 
 # Myeloproliferative Neoplasms
@@ -627,6 +636,9 @@ In PV and ET, JAK2 V617F also affects myeloid progenitors → granulocytosis and
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family and LYN kinase signaling cooperates with JAK2-STAT to support the survival of the clonal myeloid cells of myeloproliferative neoplasms.
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the metabolic adaptation of the clonal hematopoietic stem cells of myeloproliferative neoplasms.
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A and the broader chromatin machinery contribute to the epigenetic dysregulation of myeloproliferative neoplasms.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-family chemokine signaling participates in the aberrant myeloid trafficking and inflammatory bone-marrow niche of myeloproliferative neoplasms.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling in the bone-marrow niche participates in the clonal hematopoiesis and megakaryocyte-driven fibrosis of myeloproliferative neoplasms.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH signaling participates in the megakaryocyte and stromal biology contributing to the myelofibrosis of myeloproliferative neoplasms.
 
 [^verstovsek-2012-comfort-i]: Verstovsek S, Mesa RA, Gotlib J, et al. A double-blind, placebo-controlled trial of ruxolitinib for myelofibrosis. *N Engl J Med.* 2012;366(9):799-807. [doi:10.1056/NEJMoa1110557](https://doi.org/10.1056/NEJMoa1110557) · [PubMed 22375971](https://pubmed.ncbi.nlm.nih.gov/22375971/)
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409002](https://doi.org/10.1056/NEJMoa1409002) · [PubMed 25426978](https://pubmed.ncbi.nlm.nih.gov/25426978/)

@@ -354,6 +354,15 @@ cross_links:
   - target: 01-human/03-molecular/autophagy
     relation: connects-to
     note: "Autophagy modulates the survival of the orexin neurons and the immune-cell responses relevant to narcolepsy."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked metabolic signaling participates in the neurometabolic and sleep-wake energy homeostasis relevant to narcolepsy."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven T-cell trafficking participates in the autoimmune destruction of the orexin neurons in narcolepsy."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the immune and sleep-wake genes implicated in narcolepsy."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -606,6 +615,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family (LCK) kinase signaling downstream of the T-cell receptor participates in the autoreactive T-cell activation that destroys the orexin neurons in narcolepsy type 1.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR signaling in the autoreactive T cells participates in the immune process targeting the hypocretin/orexin neurons of narcolepsy.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the survival of the orexin neurons and the immune-cell responses relevant to narcolepsy.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the neurometabolic and sleep-wake energy homeostasis relevant to narcolepsy.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven T-cell trafficking participates in the autoimmune destruction of the orexin neurons in narcolepsy.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the immune and sleep-wake genes implicated in narcolepsy.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)
