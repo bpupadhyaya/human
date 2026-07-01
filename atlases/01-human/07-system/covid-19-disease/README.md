@@ -367,6 +367,15 @@ cross_links:
   - target: 01-human/03-molecular/pik3ca
     relation: connects-to
     note: "Class I PI3K (PIK3CA) signaling participates in the immune-cell activation and endothelial dysfunction of severe COVID-19."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked immunometabolic signaling shapes the immune-cell metabolism of the hyperinflammatory response to SARS-CoV-2."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "SARS-CoV-2 modulates host autophagy to support its replication, and autophagy shapes the innate immune response to COVID-19."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling participates in the endothelial and platelet activation of COVID-19 coagulopathy."
 ---
 
 # COVID-19 Disease
@@ -548,6 +557,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR signaling drives the metabolic reprogramming of the hyperinflammatory immune cells and is a therapeutic target in severe COVID-19.
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the NF-κB-driven cytokine storm and the platelet activation of COVID-19 coagulopathy.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Class I PI3K (PIK3CA) signaling participates in the immune-cell activation and endothelial dysfunction of severe COVID-19.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked immunometabolic signaling shapes the immune-cell metabolism of the hyperinflammatory response to SARS-CoV-2.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — SARS-CoV-2 modulates host autophagy to support its replication, and autophagy shapes the innate immune response to COVID-19.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the endothelial and platelet activation of COVID-19 coagulopathy.
 
 ## Pathology
 
