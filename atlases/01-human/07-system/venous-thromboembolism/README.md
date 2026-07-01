@@ -370,6 +370,15 @@ cross_links:
   - target: 01-human/03-molecular/ampk
     relation: connects-to
     note: "AMPK metabolic signaling in endothelial cells modulates the vascular homeostasis whose disruption promotes venous thromboembolism."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy modulates the endothelial and leukocyte responses relevant to the thrombo-inflammation of venous thromboembolism."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling participates in the platelet activation and endothelial responses driving venous thromboembolism."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven monocyte recruitment contributes to the thrombo-inflammation and thrombus resolution of venous thromboembolism."
 ---
 
 # Venous Thromboembolism
@@ -606,6 +615,9 @@ cross_links:
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the platelet-activation and endothelial signaling relevant to the thrombus formation of venous thromboembolism.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR signaling in activated endothelium and immune cells participates in the immunothrombosis of venous thromboembolism.
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK metabolic signaling in endothelial cells modulates the vascular homeostasis whose disruption promotes venous thromboembolism.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the endothelial and leukocyte responses relevant to the thrombo-inflammation of venous thromboembolism.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the platelet activation and endothelial responses driving venous thromboembolism.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven monocyte recruitment contributes to the thrombo-inflammation and thrombus resolution of venous thromboembolism.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)

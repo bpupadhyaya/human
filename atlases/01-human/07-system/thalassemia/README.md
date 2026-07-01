@@ -369,6 +369,15 @@ cross_links:
   - target: 01-human/03-molecular/ampk
     relation: connects-to
     note: "AMPK metabolic signaling participates in the oxidative and iron-overload stress responses of thalassemia."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy (including erythroid mitophagy and clearance of excess globin chains) participates in the ineffective erythropoiesis of thalassemia."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling downstream of EPO and cytokine receptors participates in the erythroid signaling of thalassemia."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation participates in the epigenetic regulation of globin genes and erythroid differentiation relevant to thalassemia."
 ---
 
 # Thalassemia
@@ -630,6 +639,9 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the erythroid-progenitor survival and metabolic signaling relevant to the ineffective erythropoiesis of thalassemia.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) transduces the erythropoietin survival signal in the expanded but ineffective erythroid precursors of thalassemia.
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK metabolic signaling participates in the oxidative and iron-overload stress responses of thalassemia.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy (including erythroid mitophagy and clearance of excess globin chains) participates in the ineffective erythropoiesis of thalassemia.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of EPO and cytokine receptors participates in the erythroid signaling of thalassemia.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the epigenetic regulation of globin genes and erythroid differentiation relevant to thalassemia.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.
