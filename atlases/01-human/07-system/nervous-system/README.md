@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/stat1
     relation: connects-to
     note: "IFN-STAT1 signalling drives the interferon-responsive microglial activation that shapes neuroinflammation across the nervous system."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors regulate neuronal oxidative-stress defense, autophagy, and metabolic homeostasis across the nervous system."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "HIF-1α couples the neuronal and glial responses to hypoxic and metabolic stress across the nervous system."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins released by activated microglia amplify the neuroinflammation shared across nervous-system disorders."
 ---
 
 # Nervous System
@@ -507,6 +516,9 @@ Distributed cortical networks underlie language (Broca's area, Wernicke's area, 
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 drives the reactive astrogliosis and glial-scar formation that are a core response to injury across the nervous system.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — cGAS-STING sensing of cytosolic and mitochondrial DNA links neuronal damage to the innate neuroinflammation common to neurodegeneration and CNS injury.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling drives the interferon-responsive microglial activation that shapes neuroinflammation across the nervous system.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors regulate neuronal oxidative-stress defense, autophagy, and metabolic homeostasis across the nervous system.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α couples the neuronal and glial responses to hypoxic and metabolic stress across the nervous system.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins released by activated microglia amplify the neuroinflammation shared across nervous-system disorders.
 
 ## Pathology
 
