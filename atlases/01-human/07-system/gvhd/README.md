@@ -361,6 +361,15 @@ cross_links:
   - target: 01-human/03-molecular/cdk4-6
     relation: connects-to
     note: "CDK4/6-driven cell-cycle activity fuels the clonal expansion of alloreactive donor T cells in graft-versus-host disease, an emerging therapeutic target."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the T-cell activation and inflammatory signaling that drive the alloreactivity of graft-versus-host disease."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family (LCK) kinase signaling downstream of the T-cell receptor drives the donor-T-cell activation central to graft-versus-host disease."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation shapes the effector differentiation of the donor T cells that mediate graft-versus-host disease."
 ---
 
 # Graft-Versus-Host Disease
@@ -613,6 +622,9 @@ The protective Treg/IL-10 axis is the key biological counterbalance to alloreact
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO regulates the alloreactive T-cell survival and tissue oxidative-stress responses that shape graft-versus-host disease.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α-driven metabolic reprogramming of alloreactive T cells and the hypoxic inflamed target tissues contributes to graft-versus-host disease.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6-driven cell-cycle activity fuels the clonal expansion of alloreactive donor T cells in graft-versus-host disease, an emerging therapeutic target.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the T-cell activation and inflammatory signaling that drive the alloreactivity of graft-versus-host disease.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family (LCK) kinase signaling downstream of the T-cell receptor drives the donor-T-cell activation central to graft-versus-host disease.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation shapes the effector differentiation of the donor T cells that mediate graft-versus-host disease.
 
 [^ferrara-2009-gvhd-review]: Ferrara JL, Levine JE, Reddy P, Holler E. Graft-versus-host disease. *Lancet.* 2009;373(9674):1550-1561. [doi:10.1016/S0140-6736(09)60237-3](https://doi.org/10.1016/S0140-6736(09)60237-3) · [PubMed 19380114](https://pubmed.ncbi.nlm.nih.gov/19380114/)
 [^zeiser-2020-ruxolitinib-gvhd-reach]: Zeiser R, von Bubnoff N, Butler J, et al. Ruxolitinib for Glucocorticoid-Refractory Acute Graft-versus-Host Disease. *N Engl J Med.* 2020;382(19):1800-1810. [doi:10.1056/NEJMoa1917635](https://doi.org/10.1056/NEJMoa1917635) · [PubMed 32374962](https://pubmed.ncbi.nlm.nih.gov/32374962/)

@@ -364,6 +364,15 @@ cross_links:
   - target: 01-human/03-molecular/jak1-2
     relation: connects-to
     note: "JAK1/2 signaling upstream of STAT3 (IL-6 already mapped) relays the inflammatory tone linked to the mood and anxiety circuitry of generalized anxiety disorder."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "HIF-1α-linked metabolic and oxidative-stress adaptation participates in the neurobiology of generalized anxiety disorder."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins reflect the low-grade peripheral inflammation associated with generalized anxiety disorder."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped) regulates the neuronal plasticity of the fear and worry circuits implicated in generalized anxiety disorder."
 ---
 
 # Generalized Anxiety Disorder
@@ -617,6 +626,9 @@ Allow **4-8 weeks** for onset of anxiolytic effect. Continue treatment ≥12 mon
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO downstream of PI3K-AKT signaling (AKT already mapped) regulates neuronal oxidative-stress and resilience relevant to the stress vulnerability of generalized anxiety disorder.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 neuroinflammatory signaling contributes to the inflammatory tone associated with generalized anxiety disorder.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK1/2 signaling upstream of STAT3 (IL-6 already mapped) relays the inflammatory tone linked to the mood and anxiety circuitry of generalized anxiety disorder.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α-linked metabolic and oxidative-stress adaptation participates in the neurobiology of generalized anxiety disorder.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins reflect the low-grade peripheral inflammation associated with generalized anxiety disorder.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) regulates the neuronal plasticity of the fear and worry circuits implicated in generalized anxiety disorder.
 
 [^kessler-2005-gad-prevalence]: Kessler RC, Berglund P, Demler O, et al. Lifetime prevalence and age-of-onset distributions of DSM-IV disorders in the NCS Replication. *Arch Gen Psychiatry.* 2005;62(6):593-602. [doi:10.1001/archpsyc.62.6.593](https://doi.org/10.1001/archpsyc.62.6.593) · [PubMed 15939837](https://pubmed.ncbi.nlm.nih.gov/15939837/)
 [^bandelow-2015-anxiety-biology]: Bandelow B, Michaelis S. Epidemiology of anxiety disorders in the 21st century. *Dialogues Clin Neurosci.* 2015;17(3):327-335. [doi:10.31887/DCNS.2015.17.3/bbandelow](https://doi.org/10.31887/DCNS.2015.17.3/bbandelow) · [PubMed 26487812](https://pubmed.ncbi.nlm.nih.gov/26487812/)
