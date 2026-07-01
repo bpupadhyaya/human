@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/mdm2
     relation: connects-to
     note: "MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis in chronic myelomonocytic leukemia."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family and LYN kinase signaling downstream of FLT3 and KIT (both already mapped) supports the survival of the leukemic monocytes of chronic myelomonocytic leukemia."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy supports the survival and differentiation of the clonal myelomonocytic cells of chronic myelomonocytic leukemia."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked metabolic signaling participates in the metabolic adaptation of the clonal hematopoietic cells of chronic myelomonocytic leukemia."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -597,6 +606,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO regulates the hematopoietic stem-cell quiescence and oxidative-stress handling dysregulated in chronic myelomonocytic leukemia.
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the myeloid progenitor survival and differentiation signaling perturbed in chronic myelomonocytic leukemia.
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis in chronic myelomonocytic leukemia.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family and LYN kinase signaling downstream of FLT3 and KIT (both already mapped) supports the survival of the leukemic monocytes of chronic myelomonocytic leukemia.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy supports the survival and differentiation of the clonal myelomonocytic cells of chronic myelomonocytic leukemia.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the metabolic adaptation of the clonal hematopoietic cells of chronic myelomonocytic leukemia.
 
 ---
 

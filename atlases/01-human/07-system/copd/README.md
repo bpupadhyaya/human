@@ -364,6 +364,15 @@ cross_links:
   - target: 01-human/03-molecular/gsk-3b
     relation: connects-to
     note: "GSK-3β participates in the corticosteroid-insensitive inflammation and cellular senescence of COPD."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "Class I PI3K (PIK3CA)-AKT signaling (AKT already mapped) participates in the airway inflammation and corticosteroid resistance of COPD."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK signaling, coupled to mitochondrial and autophagic quality control, is dysregulated in the cellular senescence and oxidative stress of COPD."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Dysregulated autophagy contributes to the cellular senescence and impaired clearance underlying the emphysema of COPD."
 ---
 
 # COPD
@@ -622,6 +631,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors regulate the airway epithelial oxidative-stress defense and cellular senescence that drive the accelerated lung aging of COPD.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β already mapped) drives the small-airway fibrosis and remodeling of COPD.
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β participates in the corticosteroid-insensitive inflammation and cellular senescence of COPD.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Class I PI3K (PIK3CA)-AKT signaling (AKT already mapped) participates in the airway inflammation and corticosteroid resistance of COPD.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK signaling, coupled to mitochondrial and autophagic quality control, is dysregulated in the cellular senescence and oxidative stress of COPD.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Dysregulated autophagy contributes to the cellular senescence and impaired clearance underlying the emphysema of COPD.
 
 ---
 
