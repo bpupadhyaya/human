@@ -367,6 +367,15 @@ cross_links:
   - target: 01-human/03-molecular/autophagy
     relation: connects-to
     note: "Autophagy modulates the survival of the p27-deficient endocrine tumor cells of MEN4 syndrome."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked metabolic signaling participates in the metabolic adaptation of the endocrine tumors of multiple endocrine neoplasia type 4."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven myeloid recruitment shapes the tumor microenvironment of the neoplasms of multiple endocrine neoplasia type 4."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic landscape of the tumors of multiple endocrine neoplasia type 4."
 ---
 
 # MEN4 Syndrome
@@ -595,6 +604,9 @@ When clinical MEN features are present:
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of growth-factor receptors contributes to the proliferative signaling of the endocrine tumors of MEN4 syndrome.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the epigenetic dysregulation of the neuroendocrine tumors of MEN4 syndrome.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the survival of the p27-deficient endocrine tumor cells of MEN4 syndrome.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the metabolic adaptation of the endocrine tumors of multiple endocrine neoplasia type 4.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven myeloid recruitment shapes the tumor microenvironment of the neoplasms of multiple endocrine neoplasia type 4.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic landscape of the tumors of multiple endocrine neoplasia type 4.
 
 [^alrezk-2017-men4]: Alrezk R, Hannah-Shmouni F, Stratakis CA. MEN4 and CDKN1B mutations: the latest of the MEN syndromes. *Endocr Relat Cancer.* 2017;24(10):T195-T208. [doi:10.1530/ERC-17-0243](https://doi.org/10.1530/ERC-17-0243) · [PubMed 28894007](https://pubmed.ncbi.nlm.nih.gov/28894007/)
 [^pellegata-2006-cdkn1b-men4]: Pellegata NS, Quintanilla-Martinez L, Siggelkow H, et al. Germ-line mutations in p27Kip1 cause a multiple endocrine neoplasia syndrome in rats and humans. *Proc Natl Acad Sci USA.* 2006;103(42):15558-15563. [doi:10.1073/pnas.0603306103](https://doi.org/10.1073/pnas.0603306103) · [PubMed 17030811](https://pubmed.ncbi.nlm.nih.gov/17030811/)

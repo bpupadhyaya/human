@@ -367,6 +367,15 @@ cross_links:
   - target: 01-human/03-molecular/arid1a
     relation: connects-to
     note: "ARID1A and the SWI/SNF machinery (SMARCB1 already mapped) contribute to the epigenetic dysregulation of meningioma."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked metabolic signaling participates in the metabolic adaptation of meningioma."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven myeloid recruitment shapes the tumor microenvironment of meningioma."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "IL-6-STAT3 signaling (STAT3 already mapped) participates in the tumor-microenvironment and survival signaling of meningioma."
 ---
 
 # Meningioma
@@ -600,6 +609,9 @@ VEGF overexpression in meningioma (YAP target); Phase 2 COMBIT (Huang 2019, N=40
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated cytotoxic immunosurveillance is relevant to the immune response against meningioma.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the survival of the NF2/merlin-deficient cells of meningioma.
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A and the SWI/SNF machinery (SMARCB1 already mapped) contribute to the epigenetic dysregulation of meningioma.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the metabolic adaptation of meningioma.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven myeloid recruitment shapes the tumor microenvironment of meningioma.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6-STAT3 signaling (STAT3 already mapped) participates in the tumor-microenvironment and survival signaling of meningioma.
 
 [^brastianos-2013-akt1-meningioma]: Brastianos PK, Horowitz PM, Santagata S, et al. Genomic sequencing of meningiomas identifies oncogenic SMO and AKT1 mutations. *Nat Genet.* 2013;45(3):285-289. [doi:10.1038/ng.2526](https://doi.org/10.1038/ng.2526) · [PubMed 23334667](https://pubmed.ncbi.nlm.nih.gov/23334667/)
 [^nassiri-2021-meningioma-classification]: Nassiri F, Liu J, Patil V, et al. A clinically applicable integrative molecular classification of meningiomas. *Nature.* 2021;597(7874):119-125. [doi:10.1038/s41586-021-03850-3](https://doi.org/10.1038/s41586-021-03850-3) · [PubMed 34385709](https://pubmed.ncbi.nlm.nih.gov/34385709/)
