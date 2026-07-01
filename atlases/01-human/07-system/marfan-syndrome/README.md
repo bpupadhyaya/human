@@ -367,6 +367,15 @@ cross_links:
   - target: 01-human/03-molecular/src-kinase
     relation: connects-to
     note: "SRC-family kinase signaling downstream of angiotensin-II and TGF-β receptors (both already mapped) contributes to the aortic-wall remodeling of Marfan syndrome."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven leukocyte recruitment into the aortic wall contributes to the inflammatory component of the aortopathy of Marfan syndrome."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the vascular-smooth-muscle-cell phenotype in Marfan syndrome."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "NOTCH signaling participates in the vascular-smooth-muscle-cell differentiation and aortic-wall homeostasis dysregulated in Marfan syndrome."
 ---
 
 # Marfan Syndrome
@@ -622,6 +631,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic and mechanotransduction signaling participates in the vascular smooth-muscle homeostasis disrupted in the aortic wall of Marfan syndrome.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the vascular smooth-muscle-cell survival and phenotypic switching in the aortic aneurysm of Marfan syndrome.
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of angiotensin-II and TGF-β receptors (both already mapped) contributes to the aortic-wall remodeling of Marfan syndrome.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven leukocyte recruitment into the aortic wall contributes to the inflammatory component of the aortopathy of Marfan syndrome.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the vascular-smooth-muscle-cell phenotype in Marfan syndrome.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH signaling participates in the vascular-smooth-muscle-cell differentiation and aortic-wall homeostasis dysregulated in Marfan syndrome.
 
 ---
 
