@@ -355,6 +355,15 @@ cross_links:
   - target: 01-human/03-molecular/yap1
     relation: connects-to
     note: "YAP1 activity drives the invasive, drug-tolerant phenotype and contributes to BRAF/MEK-inhibitor resistance in melanoma."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "MDM2 restrains p53-mediated apoptosis in melanoma, a survival axis often intact given melanoma's typically wild-type TP53."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins from myeloid-derived suppressor cells shape the immunosuppressive premetastatic niche of melanoma."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-kinase signaling contributes to the invasion and metastatic dissemination of melanoma."
 ---
 
 # Melanoma
@@ -557,6 +566,9 @@ cross_links:
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β regulation of the Wnt/β-catenin axis and of MITF shapes the proliferative-versus-invasive phenotype switch of melanoma.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors, restrained by the BRAF-MAPK and PI3K-AKT axes, regulate the oxidative-stress balance and survival of melanoma cells.
 - `connects-to` → **[YAP1](../../03-molecular/yap1/README.md)** — YAP1 activity drives the invasive, drug-tolerant phenotype and contributes to BRAF/MEK-inhibitor resistance in melanoma.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2 restrains p53-mediated apoptosis in melanoma, a survival axis often intact given melanoma's typically wild-type TP53.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins from myeloid-derived suppressor cells shape the immunosuppressive premetastatic niche of melanoma.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-kinase signaling contributes to the invasion and metastatic dissemination of melanoma.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

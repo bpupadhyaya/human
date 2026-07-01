@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "Menin regulates Notch signalling, and its loss perturbs the Notch-dependent differentiation of the endocrine cells transformed in MEN1 syndrome."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the Wnt/β-catenin and survival signaling co-opted by menin loss in MEN1-syndrome tumors."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "MDM2-mediated p53 degradation restrains apoptosis in the endocrine tumors of MEN1 syndrome."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Perforin-mediated cytotoxic immunosurveillance is the immune clearance that the multiple neuroendocrine tumors of MEN1 syndrome must evade."
 ---
 
 # MEN1 Syndrome
@@ -579,6 +588,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the immune microenvironment of the neuroendocrine tumors that arise in MEN1 syndrome.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING modulates the inflammatory microenvironment of the MEN1-driven endocrine tumors.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — Menin regulates Notch signaling, and its loss perturbs the Notch-dependent differentiation of the endocrine cells transformed in MEN1 syndrome.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the Wnt/β-catenin and survival signaling co-opted by menin loss in MEN1-syndrome tumors.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated p53 degradation restrains apoptosis in the endocrine tumors of MEN1 syndrome.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated cytotoxic immunosurveillance is the immune clearance that the multiple neuroendocrine tumors of MEN1 syndrome must evade.
 
 ---
 
