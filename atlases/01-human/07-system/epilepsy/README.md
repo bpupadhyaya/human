@@ -364,6 +364,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "HIF-1α responses to seizure-induced metabolic and hypoxic stress shape the neurovascular remodeling and epileptogenesis of epilepsy."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the neuronal excitability, survival signaling, and mTOR crosstalk (mTOR already mapped) relevant to epileptogenesis."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-mTOR metabolic signaling regulates the neuronal energetics and mTORopathy-driven cortical hyperexcitability of epilepsy."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins reflect the neuroinflammatory activation that lowers the seizure threshold in epilepsy."
 ---
 
 # Epilepsy
@@ -631,6 +640,9 @@ Anti-NMDAR encephalitis is the most common autoimmune encephalitis (~37% of auto
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO downstream of the PTEN-PI3K-AKT-mTOR axis (PTEN, AKT, mTOR, and TSC1-TSC2 already mapped) regulates neuronal excitability and the structural plasticity implicated in epileptogenesis.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 neuroinflammatory signaling contributes to the glial activation and seizure susceptibility of epilepsy.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α responses to seizure-induced metabolic and hypoxic stress shape the neurovascular remodeling and epileptogenesis of epilepsy.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the neuronal excitability, survival signaling, and mTOR crosstalk (mTOR already mapped) relevant to epileptogenesis.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-mTOR metabolic signaling regulates the neuronal energetics and mTORopathy-driven cortical hyperexcitability of epilepsy.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins reflect the neuroinflammatory activation that lowers the seizure threshold in epilepsy.
 
 [^fisher-2017-ilae-classification]: Fisher RS, Cross JH, D'Souza C, et al. Instruction manual for the ILAE 2017 operational classification of seizure types. *Epilepsia.* 2017;58(4):531-542. [doi:10.1111/epi.13671](https://doi.org/10.1111/epi.13671) · [PubMed 28276060](https://pubmed.ncbi.nlm.nih.gov/28276060/)
 [^devinsky-2018-epilepsy-review]: Devinsky O, Vezzani A, O'Brien TJ, et al. Epilepsy. *Nat Rev Dis Primers.* 2018;4:18024. [doi:10.1038/nrdp.2018.24](https://doi.org/10.1038/nrdp.2018.24) · [PubMed 29722352](https://pubmed.ncbi.nlm.nih.gov/29722352/)

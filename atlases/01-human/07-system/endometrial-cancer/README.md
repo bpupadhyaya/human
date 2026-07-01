@@ -355,6 +355,15 @@ cross_links:
   - target: 01-human/03-molecular/s100a8-a9
     relation: connects-to
     note: "S100A8/A9 alarmins from infiltrating myeloid cells promote the inflammatory, often obesity-linked, microenvironment of endometrial cancer."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β regulates β-catenin stability (CTNNB1/Wnt already mapped), a pathway aberrantly activated in the endometrioid subtype of endometrial cancer."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling downstream of HER2 and growth-factor receptors contributes to the invasion of endometrial cancer."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation contributes to the epigenetic silencing of MLH1 and other tumor-suppressor genes in endometrial cancer."
 ---
 
 # Endometrial Cancer
@@ -592,6 +601,9 @@ cross_links:
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — PTEN-loss-driven PI3K-AKT signaling (PTEN, AKT, and PIK3CA already mapped) inactivates FOXO, removing a tumor-suppressive brake in endometrial cancer.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-delivered cytotoxic killing by CD8 T and NK cells mediates the immune clearance that the immunotherapy-responsive mismatch-repair-deficient endometrial cancer must evade.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins from infiltrating myeloid cells promote the inflammatory, often obesity-linked, microenvironment of endometrial cancer.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β regulates β-catenin stability (CTNNB1/Wnt already mapped), a pathway aberrantly activated in the endometrioid subtype of endometrial cancer.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of HER2 and growth-factor receptors contributes to the invasion of endometrial cancer.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the epigenetic silencing of MLH1 and other tumor-suppressor genes in endometrial cancer.
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)
