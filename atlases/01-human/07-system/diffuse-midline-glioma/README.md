@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/src-kinase
     relation: connects-to
     note: "SRC-kinase signaling downstream of PDGFR (PDGF already mapped) drives the invasive signaling of diffuse midline glioma."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy supports the survival and therapy resistance of the H3K27M-driven cells of diffuse midline glioma."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "ARID1A-containing SWI/SNF chromatin remodeling contributes to the epigenetic dysregulation cooperating with the H3K27M mutation of diffuse midline glioma."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked metabolic signaling participates in the metabolic adaptation of the brainstem-infiltrating cells of diffuse midline glioma."
 ---
 
 # Diffuse Midline Glioma
@@ -610,6 +619,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis in diffuse midline glioma.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins shape the immunosuppressive microenvironment of diffuse midline glioma.
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-kinase signaling downstream of PDGFR (PDGF already mapped) drives the invasive signaling of diffuse midline glioma.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy supports the survival and therapy resistance of the H3K27M-driven cells of diffuse midline glioma.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling contributes to the epigenetic dysregulation cooperating with the H3K27M mutation of diffuse midline glioma.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the metabolic adaptation of the brainstem-infiltrating cells of diffuse midline glioma.
 
 ---
 
