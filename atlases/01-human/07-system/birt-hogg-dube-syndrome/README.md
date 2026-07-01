@@ -367,6 +367,15 @@ cross_links:
   - target: 01-human/03-molecular/src-kinase
     relation: connects-to
     note: "SRC-family kinase signaling downstream of MET and other receptor tyrosine kinases (MET already mapped) contributes to the survival signaling of the renal tumors of Birt-Hogg-Dubé syndrome."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation contributes to the epigenetic dysregulation implicated in the tumorigenesis of Birt-Hogg-Dubé syndrome."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven myeloid recruitment shapes the tumor microenvironment of the renal tumors of Birt-Hogg-Dubé syndrome."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic landscape of the renal tumors of Birt-Hogg-Dubé syndrome."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -624,6 +633,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis in the renal tumors of Birt-Hogg-Dubé syndrome.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins shape the inflammatory microenvironment of the tumors of Birt-Hogg-Dubé syndrome.
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of MET and other receptor tyrosine kinases (MET already mapped) contributes to the survival signaling of the renal tumors of Birt-Hogg-Dubé syndrome.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the epigenetic dysregulation implicated in the tumorigenesis of Birt-Hogg-Dubé syndrome.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven myeloid recruitment shapes the tumor microenvironment of the renal tumors of Birt-Hogg-Dubé syndrome.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic landscape of the renal tumors of Birt-Hogg-Dubé syndrome.
 
 ---
 
