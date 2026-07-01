@@ -364,6 +364,15 @@ cross_links:
   - target: 01-human/03-molecular/erk1-2
     relation: connects-to
     note: "ERK-MAPK signaling downstream of cytokine and complement stimuli contributes to the astrocyte and immune-cell activation of neuromyelitis optica."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the NF-κB-driven inflammatory and B-cell survival signaling of neuromyelitis optica."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "HIF-1α in the hypoxic, astrocyte-damaged CNS lesion contributes to the tissue injury of neuromyelitis optica."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped) supports the survival of the autoreactive plasmablasts that produce anti-AQP4 antibodies in neuromyelitis optica."
 ---
 
 # NMOSD
@@ -625,6 +634,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO regulates the oxidative-stress and survival responses of the astrocytes targeted by AQP4-IgG in neuromyelitis optica.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins released by infiltrating granulocytes amplify the inflammatory tissue damage of the eosinophil- and neutrophil-rich lesions of neuromyelitis optica.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling downstream of cytokine and complement stimuli contributes to the astrocyte and immune-cell activation of neuromyelitis optica.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the NF-κB-driven inflammatory and B-cell survival signaling of neuromyelitis optica.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α in the hypoxic, astrocyte-damaged CNS lesion contributes to the tissue injury of neuromyelitis optica.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) supports the survival of the autoreactive plasmablasts that produce anti-AQP4 antibodies in neuromyelitis optica.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)

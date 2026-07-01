@@ -361,6 +361,15 @@ cross_links:
   - target: 01-human/03-molecular/erk1-2
     relation: connects-to
     note: "ERK-MAPK signaling contributes to adipogenesis and the inflammatory adipocyte stress response of obese adipose tissue."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Perforin-bearing cytotoxic CD8 T cells accumulate in obese adipose tissue and drive the immune activation underlying obesity-associated insulin resistance."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling participates in the inflammatory and insulin-resistance signaling of obese adipose tissue."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "CDK4/6-cyclin-D signaling regulates adipocyte differentiation and the metabolic-inflammatory programming of adipose tissue in obesity."
 ---
 
 # Obesity
@@ -615,6 +624,9 @@ This **metainflammation** mechanistically links obesity to type 2 diabetes, athe
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO1 integrates insulin-PI3K-AKT signaling (AKT and PIK3CA already mapped) to control adipocyte differentiation and hepatic metabolism dysregulated in obesity.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins released by adipose-tissue macrophages amplify the chronic low-grade metabolic inflammation of obesity.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling contributes to adipogenesis and the inflammatory adipocyte stress response of obese adipose tissue.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-bearing cytotoxic CD8 T cells accumulate in obese adipose tissue and drive the immune activation underlying obesity-associated insulin resistance.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the inflammatory and insulin-resistance signaling of obese adipose tissue.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6-cyclin-D signaling regulates adipocyte differentiation and the metabolic-inflammatory programming of adipose tissue in obesity.
 
 [^bluher-2019-obesity-review]: Blüher M. Obesity: global epidemiology and pathogenesis. *Nat Rev Endocrinol.* 2019;15(5):288-298. [doi:10.1038/s41574-019-0176-8](https://doi.org/10.1038/s41574-019-0176-8) · [PubMed 30814686](https://pubmed.ncbi.nlm.nih.gov/30814686/)
 [^wilding-2021-semaglutide-step1]: Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. *N Engl J Med.* 2021;384(11):989-1002. [doi:10.1056/NEJMoa2032183](https://doi.org/10.1056/NEJMoa2032183) · [PubMed 33567185](https://pubmed.ncbi.nlm.nih.gov/33567185/)
