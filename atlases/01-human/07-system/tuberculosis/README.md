@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/src-kinase
     relation: connects-to
     note: "SRC-family kinase signaling in macrophages modulates the phagosome maturation and inflammatory response to Mycobacterium tuberculosis."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation and macrophage epigenetic reprogramming (trained immunity) shape the host response to tuberculosis."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "IL-33 alarmin signaling participates in the type-2 and regulatory immune balance of the tuberculosis granuloma."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven chemokine signaling recruits leukocytes into the granuloma that walls off Mycobacterium tuberculosis."
 ---
 
 # Tuberculosis
@@ -605,6 +614,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the macrophage IL-10/IL-12 balance that tips protective immunity versus pathology in tuberculosis.
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-driven autophagy (autophagy already mapped) is a host xenophagy defense that Mycobacterium tuberculosis subverts.
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling in macrophages modulates the phagosome maturation and inflammatory response to Mycobacterium tuberculosis.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation and macrophage epigenetic reprogramming (trained immunity) shape the host response to tuberculosis.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the type-2 and regulatory immune balance of the tuberculosis granuloma.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven chemokine signaling recruits leukocytes into the granuloma that walls off Mycobacterium tuberculosis.
 
 ## See Also
 

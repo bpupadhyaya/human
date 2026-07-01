@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/src-kinase
     relation: connects-to
     note: "SRC-family kinase signaling downstream of PDGFR (PDGF already mapped) contributes to the proliferative and migratory phenotype of the angiomyolipoma and LAM cells of tuberous sclerosis complex."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation contributes to the epigenetic regulation of the hamartomatous lesions of tuberous sclerosis complex."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Perforin-mediated cytotoxic immunosurveillance is relevant to the immune context of the tumors of tuberous sclerosis complex."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "ARID1A-containing SWI/SNF chromatin remodeling contributes to the epigenetic dysregulation of the tumors of tuberous sclerosis complex."
 ---
 
 # Tuberous Sclerosis Complex
@@ -611,6 +620,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated p53 degradation restrains apoptosis in the mTORC1-driven hamartomatous lesions of tuberous sclerosis complex.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins reflect the inflammatory component of the hamartoma and SEGA microenvironment of tuberous sclerosis complex.
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of PDGFR (PDGF already mapped) contributes to the proliferative and migratory phenotype of the angiomyolipoma and LAM cells of tuberous sclerosis complex.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the epigenetic regulation of the hamartomatous lesions of tuberous sclerosis complex.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated cytotoxic immunosurveillance is relevant to the immune context of the tumors of tuberous sclerosis complex.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling contributes to the epigenetic dysregulation of the tumors of tuberous sclerosis complex.
 
 ---
 
