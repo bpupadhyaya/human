@@ -373,6 +373,15 @@ cross_links:
   - target: 01-human/03-molecular/pik3ca
     relation: connects-to
     note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped) participates in the neuronal excitability and trigeminal sensitization of migraine."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked neuronal energy sensing participates in the metabolic-stress and cortical-excitability mechanisms of migraine."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy modulates the neuronal and glial homeostasis relevant to the cortical spreading depression of migraine."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation contributes to the epigenetic regulation implicated in migraine susceptibility."
 ---
 
 # Migraine
@@ -628,6 +637,9 @@ Episodic migraine (EM, <15 headache days/month) transforms to **chronic migraine
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α responses to the metabolic and hypoxic stress of cortical spreading depression contribute to migraine pathophysiology.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins reflect the neurogenic and meningeal inflammatory activation implicated in migraine.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) participates in the neuronal excitability and trigeminal sensitization of migraine.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked neuronal energy sensing participates in the metabolic-stress and cortical-excitability mechanisms of migraine.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the neuronal and glial homeostasis relevant to the cortical spreading depression of migraine.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the epigenetic regulation implicated in migraine susceptibility.
 
 [^gbd-2016-migraine-burden]: GBD 2016 Headache Collaborators. Global, regional, and national burden of migraine and tension-type headache, 1990-2016. *Lancet Neurol.* 2018;17(11):954-976. [doi:10.1016/S1474-4422(18)30322-3](https://doi.org/10.1016/S1474-4422(18)30322-3) · [PubMed 30353868](https://pubmed.ncbi.nlm.nih.gov/30353868/)
 [^goadsby-2002-migraine-review]: Goadsby PJ, Lipton RB, Ferrari MD. Migraine — current understanding and treatment. *N Engl J Med.* 2002;346(4):257-270. [doi:10.1056/NEJMra010917](https://doi.org/10.1056/NEJMra010917) · [PubMed 11807151](https://pubmed.ncbi.nlm.nih.gov/11807151/)
