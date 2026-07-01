@@ -362,6 +362,15 @@ cross_links:
   - target: 01-human/03-molecular/foxo
     relation: connects-to
     note: "FOXO regulates the lymphocyte survival and oxidative-stress responses relevant to the profound immune suppression and memory-cell depletion of measles."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the innate antiviral and inflammatory signaling of the immune response to measles virus."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "Class I PI3K (PIK3CA)-AKT signaling (AKT already mapped) is exploited by measles virus to support its replication and modulate infected-cell survival."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Measles virus induces and subverts host autophagy to support its replication and spread."
 ---
 
 # Measles
@@ -621,6 +630,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic nucleic-acid sensing through cGAS-STING, augmented by mitochondrial DNA from damaged cells, contributes to the innate antiviral response to measles virus.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins released by recruited myeloid cells amplify the inflammation of measles, relevant to its respiratory complications.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO regulates the lymphocyte survival and oxidative-stress responses relevant to the profound immune suppression and memory-cell depletion of measles.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the innate antiviral and inflammatory signaling of the immune response to measles virus.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Class I PI3K (PIK3CA)-AKT signaling (AKT already mapped) is exploited by measles virus to support its replication and modulate infected-cell survival.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Measles virus induces and subverts host autophagy to support its replication and spread.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)
