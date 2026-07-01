@@ -361,6 +361,15 @@ cross_links:
   - target: 01-human/03-molecular/jak1-2
     relation: connects-to
     note: "JAK1/2-STAT cytokine signaling (IL-6-STAT3 already mapped) amplifies the inflammatory endothelial activation driving the vaso-occlusive crises of sickle-cell disease."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the endothelial and platelet activation signaling relevant to the vaso-occlusion of sickle-cell disease."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped) participates in the endothelial activation and adhesion that drive the vaso-occlusive crises of sickle-cell disease."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK metabolic signaling participates in the response to the hypoxic-ischemic tissue stress of sickle-cell disease."
 ---
 
 # Sickle Cell Disease
@@ -634,6 +643,9 @@ SCD vaso-occlusion is not just from sickled RBCs mechanically blocking vessels �
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO regulates the erythroid and endothelial oxidative-stress responses to the chronic hemolysis and ischemia-reperfusion of sickle-cell disease.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the chronic inflammatory and endothelial activation underlying the vaso-occlusion of sickle-cell disease.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK1/2-STAT cytokine signaling (IL-6-STAT3 already mapped) amplifies the inflammatory endothelial activation driving the vaso-occlusive crises of sickle-cell disease.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the endothelial and platelet activation signaling relevant to the vaso-occlusion of sickle-cell disease.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) participates in the endothelial activation and adhesion that drive the vaso-occlusive crises of sickle-cell disease.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK metabolic signaling participates in the response to the hypoxic-ischemic tissue stress of sickle-cell disease.
 
 [^steinberg-1999-scd-management]: Steinberg MH. Management of sickle cell disease. *N Engl J Med.* 1999;340(13):1021-1030. [doi:10.1056/NEJM199904013401307](https://doi.org/10.1056/NEJM199904013401307) · [PubMed 10099145](https://pubmed.ncbi.nlm.nih.gov/10099145/)
 [^vichinsky-2000-acs-scd]: Vichinsky EP, Neumayr LD, Earles AN, et al. Causes and outcomes of the acute chest syndrome in sickle cell disease. *N Engl J Med.* 2000;342(25):1855-1865. [doi:10.1056/NEJM200006223422502](https://doi.org/10.1056/NEJM200006223422502) · [PubMed 10861320](https://pubmed.ncbi.nlm.nih.gov/10861320/)
