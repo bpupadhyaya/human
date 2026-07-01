@@ -360,6 +360,15 @@ cross_links:
   - target: 01-human/03-molecular/erk1-2
     relation: connects-to
     note: "ERK-MAPK signaling downstream of growth factors (FGFR already mapped) drives airway epithelial proliferation, repair, and remodeling in the respiratory system."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the airway inflammatory and epithelial-repair signaling of the respiratory system."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped) governs the airway epithelial proliferation, survival, and immune responses of the respiratory system."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins participate in the innate inflammatory signaling of the airway and alveolar responses of the respiratory system."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -555,6 +564,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Connects-to** → [FOXO](../../03-molecular/foxo/README.md): epithelial stress defense: FOXO transcription factors regulate the airway epithelial oxidative-stress defense and immune-metabolic balance across respiratory disorders.
 - **Connects-to** → [STAT1](../../03-molecular/stat1/README.md): antiviral airway response: IFN-STAT1 signaling shapes the antiviral and inflammatory responses of the airway epithelium across the respiratory system.
 - **Connects-to** → [ERK1/2](../../03-molecular/erk1-2/README.md): epithelial repair: ERK-MAPK signaling downstream of growth factors (FGFR already mapped) drives airway epithelial proliferation, repair, and remodeling in the respiratory system.
+- **Connects-to** → [GSK-3β](../../03-molecular/gsk-3b/README.md): airway inflammation: GSK-3β modulates the airway inflammatory and epithelial-repair signaling of the respiratory system.
+- **Connects-to** → [PIK3CA](../../03-molecular/pik3ca/README.md): epithelial growth and immunity: PI3K (PIK3CA)-AKT signaling (AKT already mapped) governs the airway epithelial proliferation, survival, and immune responses of the respiratory system.
+- **Connects-to** → [S100A8/A9](../../03-molecular/s100a8-a9/README.md): innate airway inflammation: S100A8/A9 alarmins participate in the innate inflammatory signaling of the airway and alveolar responses of the respiratory system.
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.
 
 ## Pathology

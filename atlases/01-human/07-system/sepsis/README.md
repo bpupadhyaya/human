@@ -361,6 +361,15 @@ cross_links:
   - target: 01-human/03-molecular/perforin
     relation: connects-to
     note: "Perforin-mediated cytotoxic activity and the lymphocyte exhaustion and depletion of sepsis-induced immunoparalysis shape sepsis outcome."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the NF-κB-driven hyperinflammatory and immunometabolic signaling of the dysregulated host response of sepsis."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "Class I PI3K (PIK3CA)-AKT signaling (AKT already mapped) governs the immune-cell activation and later immunoparalysis of sepsis."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK signaling regulates the immunometabolic reprogramming and autophagy that shape the host response and organ dysfunction of sepsis."
 ---
 
 # Sepsis
@@ -581,6 +590,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors regulate the lymphocyte apoptosis and metabolic reprogramming underlying the immunosuppressive phase of sepsis.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling downstream of pattern-recognition receptors amplifies the cytokine storm of the dysregulated immune response in sepsis.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated cytotoxic activity and the lymphocyte exhaustion and depletion of sepsis-induced immunoparalysis shape sepsis outcome.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the NF-κB-driven hyperinflammatory and immunometabolic signaling of the dysregulated host response of sepsis.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Class I PI3K (PIK3CA)-AKT signaling (AKT already mapped) governs the immune-cell activation and later immunoparalysis of sepsis.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK signaling regulates the immunometabolic reprogramming and autophagy that shape the host response and organ dysfunction of sepsis.
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
