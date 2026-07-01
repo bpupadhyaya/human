@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "HIF-1α responses to stimulant-associated vasoconstrictive and metabolic stress contribute to the neurovascular injury of stimulant use disorder."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped) mediates the synaptic-plasticity neuroadaptations of the reward circuit in stimulant use disorder."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK metabolic signaling participates in the neuronal energetic and oxidative stress of chronic stimulant exposure in stimulant use disorder."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation in the reward circuit contributes to the persistent neuroadaptations and relapse vulnerability of stimulant use disorder."
 ---
 
 # Stimulant Use Disorder
@@ -593,6 +602,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO downstream of the PTEN-PI3K-AKT axis (PTEN and AKT already mapped) regulates the neuronal plasticity and oxidative-stress handling relevant to the reward neuroadaptations of stimulant use disorder.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins reflect the peripheral myeloid inflammatory activation linked to chronic stimulant use disorder.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α responses to stimulant-associated vasoconstrictive and metabolic stress contribute to the neurovascular injury of stimulant use disorder.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) mediates the synaptic-plasticity neuroadaptations of the reward circuit in stimulant use disorder.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK metabolic signaling participates in the neuronal energetic and oxidative stress of chronic stimulant exposure in stimulant use disorder.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation in the reward circuit contributes to the persistent neuroadaptations and relapse vulnerability of stimulant use disorder.
 
 ## Treatment
 

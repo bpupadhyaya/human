@@ -361,6 +361,15 @@ cross_links:
   - target: 01-human/03-molecular/erk1-2
     relation: connects-to
     note: "ERK-MAPK signaling participates in both the excitotoxic neuronal injury and the reparative neuroplasticity that follow stroke."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β activation contributes to the neuronal apoptosis and blood-brain-barrier injury of ischemic stroke, a target for neuroprotection."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped) mediates the neuronal survival and pro-recovery pathways in stroke."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK signaling, activated by the energy crisis of cerebral ischemia, shapes the metabolic and autophagic response to stroke."
 ---
 
 # Stroke
@@ -579,6 +588,9 @@ Normal brain maintains CBF constant (50-150 mmHg MAP range) via autoregulation (
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO regulates the neuronal oxidative-stress and autophagy responses to the ischemia-reperfusion injury of stroke.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins released by infiltrating myeloid cells amplify the post-ischemic neuroinflammation of stroke.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling participates in both the excitotoxic neuronal injury and the reparative neuroplasticity that follow stroke.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β activation contributes to the neuronal apoptosis and blood-brain-barrier injury of ischemic stroke, a target for neuroprotection.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) mediates the neuronal survival and pro-recovery pathways in stroke.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK signaling, activated by the energy crisis of cerebral ischemia, shapes the metabolic and autophagic response to stroke.
 
 [^powers-2019-aha-stroke]: Powers WJ, Rabinstein AA, Ackerson T, et al. Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines. *Stroke.* 2019;50(12):e344-e418. [doi:10.1161/STR.0000000000000211](https://doi.org/10.1161/STR.0000000000000211) · [PubMed 31662037](https://pubmed.ncbi.nlm.nih.gov/31662037/)
 [^feigin-2021-gbd-stroke]: Feigin VL, Krishnamurthi RV, Parmar P, et al. Update on the Global Burden of Ischemic and Hemorrhagic Stroke in 1990-2013. *Neuroepidemiology.* 2015;45(3):161-176. [doi:10.1159/000441085](https://doi.org/10.1159/000441085) · [PubMed 26505981](https://pubmed.ncbi.nlm.nih.gov/26505981/)
