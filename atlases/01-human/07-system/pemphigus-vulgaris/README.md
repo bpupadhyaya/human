@@ -364,6 +364,15 @@ cross_links:
   - target: 01-human/03-molecular/perforin
     relation: connects-to
     note: "Perforin-mediated cytotoxic activity by desmoglein-3-specific CD8 T cells contributes to the keratinocyte injury of pemphigus vulgaris."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy modulates the keratinocyte stress responses to the desmoglein-3-antibody-induced signaling of pemphigus vulgaris."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation contributes to the epigenetic regulation of the autoreactive immune responses of pemphigus vulgaris."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "CCL2-driven monocyte recruitment contributes to the inflammatory infiltrate of the lesional skin of pemphigus vulgaris."
 ---
 
 # Pemphigus Vulgaris
@@ -623,6 +632,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins amplify the innate inflammation of the pemphigus vulgaris blistering lesion.
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β participates in the intracellular signaling downstream of desmoglein-3 antibody binding that promotes acantholysis in pemphigus vulgaris.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated cytotoxic activity by desmoglein-3-specific CD8 T cells contributes to the keratinocyte injury of pemphigus vulgaris.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the keratinocyte stress responses to the desmoglein-3-antibody-induced signaling of pemphigus vulgaris.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the epigenetic regulation of the autoreactive immune responses of pemphigus vulgaris.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2-driven monocyte recruitment contributes to the inflammatory infiltrate of the lesional skin of pemphigus vulgaris.
 
 ---
 
