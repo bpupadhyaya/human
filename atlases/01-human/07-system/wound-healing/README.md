@@ -364,6 +364,15 @@ cross_links:
   - target: 01-human/03-molecular/cdk4-6
     relation: connects-to
     note: "CDK4/6-cyclin-D-driven proliferation of keratinocytes and fibroblasts sustains the proliferative phase of wound healing."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked metabolic signaling regulates the energy state and metabolic transitions of the cells across the phases of wound healing."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy modulates the keratinocyte, fibroblast, and immune-cell responses across the phases of wound healing."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "NOTCH signaling participates in the re-epithelialization and angiogenesis of the proliferative phase of wound healing."
 ---
 
 # Wound Healing
@@ -598,6 +607,9 @@ cross_links:
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β regulates the Wnt/β-catenin and metabolic signaling that governs keratinocyte migration and fibroblast activation during wound healing.
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling drives the keratinocyte migration and focal-adhesion turnover of re-epithelialization in wound healing.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6-cyclin-D-driven proliferation of keratinocytes and fibroblasts sustains the proliferative phase of wound healing.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling regulates the energy state and metabolic transitions of the cells across the phases of wound healing.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the keratinocyte, fibroblast, and immune-cell responses across the phases of wound healing.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH signaling participates in the re-epithelialization and angiogenesis of the proliferative phase of wound healing.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)
