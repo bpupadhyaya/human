@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/perforin
     relation: connects-to
     note: "Perforin-mediated CD8 cytotoxicity contributes to the immune surveillance of the neoantigen-rich tumours of MUTYH-associated polyposis."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis during the adenoma-carcinoma progression of MUTYH-associated polyposis."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins shape the inflammatory colonic microenvironment that promotes tumor progression in MUTYH-associated polyposis."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "EZH2-mediated polycomb repression contributes to the epigenetic dysregulation of the colorectal tumors of MUTYH-associated polyposis."
 ---
 
 # MUTYH-Associated Polyposis
@@ -576,6 +585,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — The mutational burden of MUTYH-deficient tumors drives IFN-STAT1 signaling, shaping their antitumor immune response and immunotherapy potential.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors govern the oxidative-stress defenses whose failure, with the loss of MUTYH base-excision repair of oxidized guanine, drives the mutagenesis of MUTYH-associated polyposis.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated CD8 cytotoxicity contributes to the immune surveillance of the neoantigen-rich tumors of MUTYH-associated polyposis.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis during the adenoma-carcinoma progression of MUTYH-associated polyposis.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins shape the inflammatory colonic microenvironment that promotes tumor progression in MUTYH-associated polyposis.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — EZH2-mediated polycomb repression contributes to the epigenetic dysregulation of the colorectal tumors of MUTYH-associated polyposis.
 
 ---
 
