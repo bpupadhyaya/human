@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/foxo
     relation: connects-to
     note: "FOXO transcription factors, antagonised by the constitutive RAS-PI3K-AKT signalling of Noonan syndrome, modulate the growth and developmental programmes it disrupts."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "CDK4/6-cyclin-D activity (cyclin-D1 and RB1 already mapped) downstream of the RAS-MAPK hyperactivation contributes to the proliferative and developmental effects of Noonan syndrome."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins reflect the myeloid inflammatory activation relevant to the juvenile-myelomonocytic-leukemia predisposition of Noonan syndrome."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "HIF-1α-linked metabolic signaling contributes to the cardiac hypertrophy and developmental features of Noonan syndrome."
 ---
 
 # Noonan Syndrome
@@ -597,6 +606,9 @@ NS is characterized by four cardinal features: **(1) short stature** (below 3rd 
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the immune surveillance relevant to the leukemia predisposition of Noonan syndrome.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING contributes to the inflammatory tone associated with the RAS-MAPK dysregulation of Noonan syndrome.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors, antagonized by the constitutive RAS-PI3K-AKT signaling of Noonan syndrome, modulate the growth and developmental programs it disrupts.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6-cyclin-D activity (cyclin-D1 and RB1 already mapped) downstream of the RAS-MAPK hyperactivation contributes to the proliferative and developmental effects of Noonan syndrome.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins reflect the myeloid inflammatory activation relevant to the juvenile-myelomonocytic-leukemia predisposition of Noonan syndrome.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α-linked metabolic signaling contributes to the cardiac hypertrophy and developmental features of Noonan syndrome.
 
 [^tartaglia-2001-ptpn11-noonan]: Tartaglia M, Mehler EL, Goldberg R, et al. Mutations in PTPN11, encoding the protein tyrosine phosphatase SHP-2, cause Noonan syndrome. *Nat Genet.* 2001;29(4):465-468. [doi:10.1038/ng772](https://doi.org/10.1038/ng772) · [PubMed 11704759](https://pubmed.ncbi.nlm.nih.gov/11704759/)
 [^van-der-burgt-2007-noonan-review]: van der Burgt I. Noonan syndrome. *Orphanet J Rare Dis.* 2007;2:4. [doi:10.1186/1750-1172-2-4](https://doi.org/10.1186/1750-1172-2-4) · [PubMed 17222357](https://pubmed.ncbi.nlm.nih.gov/17222357/)
