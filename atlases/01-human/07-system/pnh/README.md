@@ -361,6 +361,15 @@ cross_links:
   - target: 01-human/03-molecular/pik3ca
     relation: connects-to
     note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped) supports the survival and clonal advantage of the GPI-anchor-deficient clone of paroxysmal nocturnal hemoglobinuria."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling downstream of platelet and endothelial receptors participates in the platelet activation and thrombosis of paroxysmal nocturnal hemoglobinuria."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked metabolic signaling participates in the clonal hematopoietic-stem-cell adaptation of paroxysmal nocturnal hemoglobinuria."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy modulates the survival of the PIGA-mutant clonal hematopoietic cells of paroxysmal nocturnal hemoglobinuria."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -567,6 +576,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the platelet-activation and survival signaling relevant to the thrombotic complications of paroxysmal nocturnal hemoglobinuria.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR signaling supports the clonal expansion of the PIGA-mutant hematopoietic stem cells of paroxysmal nocturnal hemoglobinuria.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) supports the survival and clonal advantage of the GPI-anchor-deficient clone of paroxysmal nocturnal hemoglobinuria.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of platelet and endothelial receptors participates in the platelet activation and thrombosis of paroxysmal nocturnal hemoglobinuria.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the clonal hematopoietic-stem-cell adaptation of paroxysmal nocturnal hemoglobinuria.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the survival of the PIGA-mutant clonal hematopoietic cells of paroxysmal nocturnal hemoglobinuria.
 
 ---
 
