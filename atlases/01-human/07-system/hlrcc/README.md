@@ -367,6 +367,15 @@ cross_links:
   - target: 01-human/03-molecular/s100a8-a9
     relation: connects-to
     note: "S100A8/A9 alarmins shape the inflammatory microenvironment of the aggressive type 2 papillary renal tumors of HLRCC."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven myeloid recruitment shapes the tumor microenvironment of the renal tumors of hereditary leiomyomatosis and renal cell cancer."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic landscape of hereditary leiomyomatosis and renal cell cancer."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling downstream of MET and other receptor tyrosine kinases (MET already mapped) participates in the invasive signaling of the renal tumors of hereditary leiomyomatosis and renal cell cancer."
 ---
 
 # Hereditary Leiomyomatosis and Renal Cell Carcinoma
@@ -615,6 +624,9 @@ Cutaneous:
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β regulates the NRF2 and survival signaling (NFE2L2 already mapped) that the fumarate accumulation of HLRCC dysregulates.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy supports the survival of the FH-deficient cells of HLRCC under metabolic and oxidative stress.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins shape the inflammatory microenvironment of the aggressive type 2 papillary renal tumors of HLRCC.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven myeloid recruitment shapes the tumor microenvironment of the renal tumors of hereditary leiomyomatosis and renal cell cancer.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic landscape of hereditary leiomyomatosis and renal cell cancer.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of MET and other receptor tyrosine kinases (MET already mapped) participates in the invasive signaling of the renal tumors of hereditary leiomyomatosis and renal cell cancer.
 
 [^tomlinson-2002-fh]: Tomlinson IP, Alam NA, Rowan AJ, et al. Germline mutations in FH predispose to dominantly inherited uterine fibroids, skin leiomyomata and papillary renal cell cancer. *Nat Genet.* 2002;30(4):406-410. [doi:10.1038/ng849](https://doi.org/10.1038/ng849) · [PubMed 11865300](https://pubmed.ncbi.nlm.nih.gov/11865300/)
 [^linehan-2013-fh-review]: Linehan WM, Rouault TA. Molecular pathways: fumarate hydratase-deficient kidney cancer — targeting the Warburg effect in cancer. *Clin Cancer Res.* 2013;19(13):3345-3352. [doi:10.1158/1078-0432.CCR-13-0304](https://doi.org/10.1158/1078-0432.CCR-13-0304) · [PubMed 23836472](https://pubmed.ncbi.nlm.nih.gov/23836472/)
