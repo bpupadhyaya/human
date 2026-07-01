@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/cdk4-6
     relation: connects-to
     note: "CDK4/6-driven cyclin-D1-RB1 cell-cycle entry (cyclin-D1 and RB1 mapped) sustains proliferation in uveal melanoma."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β acts downstream of the GNAQ/GNA11-PKC-YAP axis, modulating the survival signaling of uveal melanoma."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins shape the immunosuppressive, immune-cold microenvironment of uveal melanoma."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling downstream of the GNAQ/11-activated pathways contributes to the invasion and hepatic-metastatic tropism of uveal melanoma."
 ---
 
 # Uveal Melanoma
@@ -596,6 +605,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling shapes EMT and the hepatic metastatic niche that dictates the liver-tropic spread of uveal melanoma.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — PI3K-AKT-mediated FOXO inactivation removes a pro-apoptotic brake, supporting survival of uveal melanoma cells (PI3K-AKT already mapped).
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6-driven cyclin-D1-RB1 cell-cycle entry (cyclin-D1 and RB1 mapped) sustains proliferation in uveal melanoma.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β acts downstream of the GNAQ/GNA11-PKC-YAP axis, modulating the survival signaling of uveal melanoma.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins shape the immunosuppressive, immune-cold microenvironment of uveal melanoma.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of the GNAQ/11-activated pathways contributes to the invasion and hepatic-metastatic tropism of uveal melanoma.
 
 ---
 

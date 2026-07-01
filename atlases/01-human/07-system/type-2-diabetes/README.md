@@ -355,6 +355,15 @@ cross_links:
   - target: 01-human/03-molecular/s100a8-a9
     relation: connects-to
     note: "Calprotectin (S100A8/A9) released by myeloid cells amplifies the chronic low-grade adipose-tissue inflammation that drives insulin resistance in type 2 diabetes."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors (distinct from FOXO1 already mapped) integrate insulin-PI3K-AKT signaling to regulate hepatic gluconeogenesis and β-cell stress responses in type 2 diabetes."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling participates in the inflammatory insulin-resistance signaling of adipose and hepatic tissue in type 2 diabetes."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Perforin-bearing cytotoxic CD8 T cells contribute to the adipose-tissue immune activation that drives insulin resistance in type 2 diabetes."
 ---
 
 # Type 2 Diabetes
@@ -570,6 +579,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK1/2 signaling downstream of IL-6 and other cytokines (IL-6 mapped) propagates the inflammatory insulin resistance of adipose and liver in type 2 diabetes.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling contributes to islet inflammation and β-cell stress in the metabolic-immune milieu of type 2 diabetes.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Calprotectin (S100A8/A9) released by myeloid cells amplifies the chronic low-grade adipose-tissue inflammation that drives insulin resistance in type 2 diabetes.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors (distinct from FOXO1 already mapped) integrate insulin-PI3K-AKT signaling to regulate hepatic gluconeogenesis and β-cell stress responses in type 2 diabetes.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the inflammatory insulin-resistance signaling of adipose and hepatic tissue in type 2 diabetes.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-bearing cytotoxic CD8 T cells contribute to the adipose-tissue immune activation that drives insulin resistance in type 2 diabetes.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
