@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/galectin-3
     relation: connects-to
     note: "Galectin-3 is expressed in TSC-associated tumors such as angiomyolipoma and LAM, shaping their inflammatory and fibrotic stroma."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "MDM2-mediated p53 degradation restrains apoptosis in the mTORC1-driven hamartomatous lesions of tuberous sclerosis complex."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins reflect the inflammatory component of the hamartoma and SEGA microenvironment of tuberous sclerosis complex."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling downstream of PDGFR (PDGF already mapped) contributes to the proliferative and migratory phenotype of the angiomyolipoma and LAM cells of tuberous sclerosis complex."
 ---
 
 # Tuberous Sclerosis Complex
@@ -599,6 +608,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — TSC1/TSC2 loss drives mTORC1-AKT activity that inactivates FOXO, removing a growth-restraining, pro-autophagy brake in TSC hamartomas.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6-driven cyclin-D1-RB1 cell-cycle entry (cyclin-D1 and RB1 already mapped) sustains the proliferative hamartomatous growth of TSC lesions.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 is expressed in TSC-associated tumors such as angiomyolipoma and LAM, shaping their inflammatory and fibrotic stroma.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated p53 degradation restrains apoptosis in the mTORC1-driven hamartomatous lesions of tuberous sclerosis complex.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins reflect the inflammatory component of the hamartoma and SEGA microenvironment of tuberous sclerosis complex.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of PDGFR (PDGF already mapped) contributes to the proliferative and migratory phenotype of the angiomyolipoma and LAM cells of tuberous sclerosis complex.
 
 ---
 

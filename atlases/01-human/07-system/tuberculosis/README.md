@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/s100a8-a9
     relation: connects-to
     note: "Calprotectin (S100A8/A9) released by neutrophils in TB granulomas amplifies inflammation and contributes to tissue destruction and cavitation."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the macrophage IL-10/IL-12 balance that tips protective immunity versus pathology in tuberculosis."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-driven autophagy (autophagy already mapped) is a host xenophagy defense that Mycobacterium tuberculosis subverts."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling in macrophages modulates the phagosome maturation and inflammatory response to Mycobacterium tuberculosis."
 ---
 
 # Tuberculosis
@@ -593,6 +602,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors regulate macrophage autophagy and antimicrobial gene programs that determine control of intracellular Mtb.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Class I PI3K (PIK3CA) signaling shapes macrophage autophagy and the inflammatory cytokine output that tips containment versus progression of Mtb.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Calprotectin (S100A8/A9) released by neutrophils in TB granulomas amplifies inflammation and contributes to tissue destruction and cavitation.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the macrophage IL-10/IL-12 balance that tips protective immunity versus pathology in tuberculosis.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-driven autophagy (autophagy already mapped) is a host xenophagy defense that Mycobacterium tuberculosis subverts.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling in macrophages modulates the phagosome maturation and inflammatory response to Mycobacterium tuberculosis.
 
 ## See Also
 
