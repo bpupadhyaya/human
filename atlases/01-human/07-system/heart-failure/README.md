@@ -361,6 +361,15 @@ cross_links:
   - target: 01-human/03-molecular/perforin
     relation: connects-to
     note: "Cytotoxic-lymphocyte perforin activity contributes to the immune-mediated myocardial injury in inflammatory heart failure."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked metabolic signaling governs the cardiomyocyte energy homeostasis whose failure drives the metabolic remodeling of heart failure."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy modulates the cardiomyocyte survival and protein-quality control in the failing heart."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling participates in the cardiac hypertrophic and fibrotic remodeling of heart failure."
 ---
 
 # Heart Failure
@@ -548,6 +557,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Class I PI3K (PIK3CA)-AKT signaling (AKT already mapped) governs the balance between adaptive and maladaptive cardiac hypertrophy in heart failure.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins released during myocardial stress amplify the inflammatory cardiac remodeling of heart failure.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Cytotoxic-lymphocyte perforin activity contributes to the immune-mediated myocardial injury in inflammatory heart failure.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling governs the cardiomyocyte energy homeostasis whose failure drives the metabolic remodeling of heart failure.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the cardiomyocyte survival and protein-quality control in the failing heart.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the cardiac hypertrophic and fibrotic remodeling of heart failure.
 
 ## Pathology
 
