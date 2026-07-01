@@ -365,6 +365,15 @@ cross_links:
   - target: 01-human/03-molecular/nf-kb
     relation: connects-to
     note: "NF-κB inflammatory signaling participates in the autoimmune and stress-related dysregulation of the endocrine glands."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy maintains the endocrine-cell homeostasis and hormone-secretory-granule turnover of the endocrine system."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling participates in the growth-factor and hormone-receptor signal transduction of the endocrine system."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation participates in the epigenetic regulation of hormone-gene expression and endocrine-cell identity of the endocrine system."
 ---
 
 # Endocrine System
@@ -638,6 +647,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) transduces the growth-factor and insulin signals that govern endocrine-cell proliferation and hormone secretion across the endocrine system.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING links cellular stress to the autoimmune and inflammatory endocrinopathies of the endocrine system.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB inflammatory signaling participates in the autoimmune and stress-related dysregulation of the endocrine glands.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy maintains the endocrine-cell homeostasis and hormone-secretory-granule turnover of the endocrine system.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the growth-factor and hormone-receptor signal transduction of the endocrine system.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the epigenetic regulation of hormone-gene expression and endocrine-cell identity of the endocrine system.
 
 ## Pathology
 
