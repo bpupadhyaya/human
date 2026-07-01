@@ -361,6 +361,15 @@ cross_links:
   - target: 01-human/03-molecular/ampk
     relation: connects-to
     note: "AMPK signaling, coupled to autophagy and metabolic reprogramming, shapes the macrophage's capacity to control intracellular Leishmania."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation and macrophage epigenetic reprogramming shape the host response to Leishmania."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven monocyte and macrophage recruitment shapes the granulomatous and cutaneous immune response to Leishmania."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "IL-33 alarmin signaling participates in the type-2 immune skewing that shapes susceptibility to Leishmania."
 ---
 
 # Leishmaniasis
@@ -577,3 +586,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling in infected macrophages modulates the phagosome and inflammatory response that Leishmania subverts.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Host autophagy participates in the intracellular control of Leishmania, a defense the parasite modulates to survive within macrophages.
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK signaling, coupled to autophagy and metabolic reprogramming, shapes the macrophage's capacity to control intracellular Leishmania.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation and macrophage epigenetic reprogramming shape the host response to Leishmania.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven monocyte and macrophage recruitment shapes the granulomatous and cutaneous immune response to Leishmania.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the type-2 immune skewing that shapes susceptibility to Leishmania.
