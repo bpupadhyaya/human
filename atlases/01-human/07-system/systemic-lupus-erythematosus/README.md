@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "HIF-1α shapes the metabolic reprogramming of autoreactive T cells and the hypoxic inflamed tissue of SLE."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the NF-κB-driven inflammatory and lymphocyte-activation signaling of systemic lupus erythematosus."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped) supports the survival and activation of the autoreactive T and B cells of systemic lupus erythematosus."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family (LYN) kinase signaling, whose dysregulation lowers the B-cell activation threshold, contributes to the autoimmunity of systemic lupus erythematosus."
 ---
 
 # Systemic Lupus Erythematosus
@@ -595,6 +604,9 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors regulate lymphocyte tolerance and apoptosis, processes whose dysregulation favors the autoreactive lymphocyte survival of SLE.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Reduced ERK-MAPK signaling in lupus T cells downregulates DNMT (DNMT3A already mapped), driving the DNA hypomethylation and autoreactivity of SLE.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α shapes the metabolic reprogramming of autoreactive T cells and the hypoxic inflamed tissue of SLE.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the NF-κB-driven inflammatory and lymphocyte-activation signaling of systemic lupus erythematosus.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) supports the survival and activation of the autoreactive T and B cells of systemic lupus erythematosus.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family (LYN) kinase signaling, whose dysregulation lowers the B-cell activation threshold, contributes to the autoimmunity of systemic lupus erythematosus.
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)

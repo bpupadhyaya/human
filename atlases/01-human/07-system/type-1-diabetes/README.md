@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/erk1-2
     relation: connects-to
     note: "ERK-MAPK signaling participates in the cytokine-driven β-cell stress and the T-cell activation of the islet autoimmunity of type 1 diabetes."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the NF-κB-driven β-cell inflammatory stress and the autoreactive lymphocyte signaling of type 1 diabetes."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "HIF-1α-linked metabolic and hypoxic stress responses shape the β-cell vulnerability and islet inflammation of type 1 diabetes."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped) governs both β-cell survival and the autoreactive lymphocyte activation of type 1 diabetes."
 ---
 
 # Type 1 Diabetes
@@ -567,6 +576,9 @@ cross_links:
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO regulates β-cell survival and the T-cell tolerance whose breakdown drives the autoimmune β-cell destruction of type 1 diabetes.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins released by infiltrating myeloid cells amplify the insulitis of type 1 diabetes.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling participates in the cytokine-driven β-cell stress and the T-cell activation of the islet autoimmunity of type 1 diabetes.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the NF-κB-driven β-cell inflammatory stress and the autoreactive lymphocyte signaling of type 1 diabetes.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α-linked metabolic and hypoxic stress responses shape the β-cell vulnerability and islet inflammation of type 1 diabetes.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) governs both β-cell survival and the autoreactive lymphocyte activation of type 1 diabetes.
 
 [^atkinson-2014-t1d-lancet]: Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. *Lancet.* 2014;383(9911):69-82. [doi:10.1016/S0140-6736(13)60591-7](https://doi.org/10.1016/S0140-6736(13)60591-7) · [PubMed 23890997](https://pubmed.ncbi.nlm.nih.gov/23890997/)
 [^herold-2019-teplizumab-t1d]: Herold KC, Bundy BN, Long SA, et al. An anti-CD3 antibody, teplizumab, in relatives at risk for type 1 diabetes. *N Engl J Med.* 2019;381(7):603-613. [doi:10.1056/NEJMoa1905155](https://doi.org/10.1056/NEJMoa1905155) · [PubMed 31180675](https://pubmed.ncbi.nlm.nih.gov/31180675/)
