@@ -367,6 +367,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "NOTCH signaling participates in the maintenance of the leukemic stem cells of chronic myeloid leukemia."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-family chemokine signaling (CXCL12/CXCR4 already mapped) participates in the bone-marrow homing and microenvironment of chronic myeloid leukemia."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic dysregulation of chronic myeloid leukemia."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "IL-1β signaling in the bone-marrow niche contributes to the leukemic stem-cell maintenance and inflammatory microenvironment of chronic myeloid leukemia."
 ---
 
 # Chronic Myeloid Leukemia
@@ -596,6 +605,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the metabolic adaptation and quiescence of the leukemic stem cells of chronic myeloid leukemia.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2-driven monocyte and macrophage recruitment contributes to the inflammatory bone-marrow niche of chronic myeloid leukemia.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH signaling participates in the maintenance of the leukemic stem cells of chronic myeloid leukemia.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-family chemokine signaling (CXCL12/CXCR4 already mapped) participates in the bone-marrow homing and microenvironment of chronic myeloid leukemia.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic dysregulation of chronic myeloid leukemia.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β signaling in the bone-marrow niche contributes to the leukemic stem-cell maintenance and inflammatory microenvironment of chronic myeloid leukemia.
 
 ---
 
