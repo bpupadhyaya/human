@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/perforin
     relation: connects-to
     note: "Perforin-expressing cytotoxic T cells contribute to the keratinocyte apoptosis and epidermal injury of atopic dermatitis."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the NF-κB-driven inflammatory and keratinocyte signaling of the atopic-dermatitis skin barrier and itch cycle."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped) drives the keratinocyte survival and Th2-cell activation of atopic dermatitis."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling downstream of KIT and IgE-receptor engagement (KIT already mapped) drives the mast-cell activation of atopic dermatitis."
 ---
 
 # Atopic Dermatitis
@@ -594,6 +603,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO regulates the keratinocyte differentiation and oxidative-stress responses relevant to the epidermal barrier dysfunction of atopic dermatitis.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins amplify the innate inflammation and epidermal activation of atopic dermatitis lesions.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-expressing cytotoxic T cells contribute to the keratinocyte apoptosis and epidermal injury of atopic dermatitis.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the NF-κB-driven inflammatory and keratinocyte signaling of the atopic-dermatitis skin barrier and itch cycle.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) drives the keratinocyte survival and Th2-cell activation of atopic dermatitis.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of KIT and IgE-receptor engagement (KIT already mapped) drives the mast-cell activation of atopic dermatitis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
