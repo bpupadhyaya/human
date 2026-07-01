@@ -370,6 +370,15 @@ cross_links:
   - target: 01-human/03-molecular/cdk4-6
     relation: connects-to
     note: "Aberrant CDK-driven cell-cycle re-entry of postmitotic neurons contributes to the tau hyperphosphorylation and neuronal death of Alzheimer's disease."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation contributes to the epigenetic dysregulation implicated in the late-onset risk of Alzheimer's disease."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family (FYN) kinase signaling, activated downstream of amyloid-β via cellular prion protein, mediates the tau-dependent synaptotoxicity of Alzheimer's disease."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven microglial and monocyte recruitment contributes to the neuroinflammation of Alzheimer's disease."
 ---
 
 # Alzheimer's Disease
@@ -586,6 +595,9 @@ Microglia play a central, dual role in AD:
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) governs the neuronal insulin/IGF survival pathways whose impairment contributes to Alzheimer's disease.
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK signaling, coupled to autophagy (autophagy already mapped), regulates the clearance of amyloid and tau aggregates in Alzheimer's disease.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Aberrant CDK-driven cell-cycle re-entry of postmitotic neurons contributes to the tau hyperphosphorylation and neuronal death of Alzheimer's disease.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the epigenetic dysregulation implicated in the late-onset risk of Alzheimer's disease.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family (FYN) kinase signaling, activated downstream of amyloid-β via cellular prion protein, mediates the tau-dependent synaptotoxicity of Alzheimer's disease.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven microglial and monocyte recruitment contributes to the neuroinflammation of Alzheimer's disease.
 
 [^selkoe-2016-alzheimer]: Selkoe DJ, Hardy J. The amyloid hypothesis of Alzheimer's disease at 25 years. *EMBO Mol Med.* 2016;8(6):595-608. [doi:10.15252/emmm.201606210](https://doi.org/10.15252/emmm.201606210) · [PubMed 27025652](https://pubmed.ncbi.nlm.nih.gov/27025652/)
 [^jack-2018-nia-aa]: Jack CR Jr, Bennett DA, Blennow K, et al. NIA-AA Research Framework: Toward a biological definition of Alzheimer's disease. *Alzheimers Dement.* 2018;14(4):535-562. [doi:10.1016/j.jalz.2018.02.018](https://doi.org/10.1016/j.jalz.2018.02.018) · [PubMed 29653606](https://pubmed.ncbi.nlm.nih.gov/29653606/)

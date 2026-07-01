@@ -370,6 +370,15 @@ cross_links:
   - target: 01-human/03-molecular/autophagy
     relation: connects-to
     note: "Macrophage autophagy participates in the iron-recycling and erythrophagocytosis dysregulated in anemia of chronic disease."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked metabolic signaling participates in the erythroid and macrophage iron-metabolism adaptation of anemia of chronic disease."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling downstream of cytokine and EPO receptors participates in the suppressed erythropoiesis of anemia of chronic disease."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven monocyte and macrophage activation contributes to the inflammatory iron sequestration of anemia of chronic disease."
 ---
 
 # Anemia of Chronic Disease
@@ -611,6 +620,9 @@ This adaptive rationale explains why **aggressive iron supplementation during ac
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the inflammatory signaling that drives the hepcidin-mediated iron sequestration of anemia of chronic disease.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-bearing cytotoxic lymphocytes contribute to the immune-mediated suppression of erythropoiesis in anemia of chronic disease.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Macrophage autophagy participates in the iron-recycling and erythrophagocytosis dysregulated in anemia of chronic disease.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the erythroid and macrophage iron-metabolism adaptation of anemia of chronic disease.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of cytokine and EPO receptors participates in the suppressed erythropoiesis of anemia of chronic disease.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven monocyte and macrophage activation contributes to the inflammatory iron sequestration of anemia of chronic disease.
 
 [^weiss-2005-acd-review]: Weiss G, Goodnough LT. Anemia of chronic disease. *N Engl J Med.* 2005;352(10):1011-1023. [doi:10.1056/NEJMra041809](https://doi.org/10.1056/NEJMra041809) · [PubMed 15758012](https://pubmed.ncbi.nlm.nih.gov/15758012/)
 [^nemeth-2004-il6-hepcidin]: Nemeth E, Rivera S, Gabayan V, et al. IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin. *J Clin Invest.* 2004;113(9):1271-1276. [doi:10.1172/JCI200420945](https://doi.org/10.1172/JCI200420945) · [PubMed 15124018](https://pubmed.ncbi.nlm.nih.gov/15124018/)
