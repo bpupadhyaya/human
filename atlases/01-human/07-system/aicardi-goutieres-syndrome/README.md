@@ -357,6 +357,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c5
     relation: connects-to
     note: "Complement activation through C5 amplifies the neuroinflammatory tissue damage of Aicardi-Goutières syndrome (complement C3 already mapped)."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped) supports the survival and activation of the interferon-driven immune cells of Aicardi-Goutières syndrome."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling participates in the immune-cell activation of the type-I-interferon-driven neuroinflammation of Aicardi-Goutières syndrome."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK signaling, coupled to autophagy (autophagy already mapped), participates in the clearance of the endogenous nucleic acids whose accumulation drives the interferonopathy of Aicardi-Goutières syndrome."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -564,6 +573,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO regulates neuronal and glial oxidative-stress responses to the chronic type-I interferon milieu of Aicardi-Goutières syndrome.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α responses in the inflamed, calcifying CNS tissue contribute to the neurovascular pathology of Aicardi-Goutières syndrome.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Complement activation through C5 amplifies the neuroinflammatory tissue damage of Aicardi-Goutières syndrome (complement C3 already mapped).
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) supports the survival and activation of the interferon-driven immune cells of Aicardi-Goutières syndrome.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the immune-cell activation of the type-I-interferon-driven neuroinflammation of Aicardi-Goutières syndrome.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK signaling, coupled to autophagy (autophagy already mapped), participates in the clearance of the endogenous nucleic acids whose accumulation drives the interferonopathy of Aicardi-Goutières syndrome.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
