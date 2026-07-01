@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/mdm2
     relation: connects-to
     note: "MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis, complementing the anti-apoptotic BCL2 translocation in follicular lymphoma."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family (LYN) kinase signaling downstream of the B-cell receptor supports the survival of follicular lymphoma cells."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy supports the survival and chemoresistance of the indolent follicular lymphoma cells."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "ARID1A and the CREBBP/EZH2-linked chromatin machinery (EZH2 already mapped) are recurrently altered in follicular lymphoma, dysregulating its transcriptional program."
 ---
 
 # Follicular Lymphoma
@@ -597,6 +606,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the survival and Wnt signaling of the follicular lymphoma clone.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins shape the follicular-lymphoma tumor microenvironment, a key determinant of prognosis.
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis, complementing the anti-apoptotic BCL2 translocation in follicular lymphoma.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family (LYN) kinase signaling downstream of the B-cell receptor supports the survival of follicular lymphoma cells.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy supports the survival and chemoresistance of the indolent follicular lymphoma cells.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A and the CREBBP/EZH2-linked chromatin machinery (EZH2 already mapped) are recurrently altered in follicular lymphoma, dysregulating its transcriptional program.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
