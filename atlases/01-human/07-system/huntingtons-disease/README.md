@@ -354,6 +354,15 @@ cross_links:
   - target: 01-human/03-molecular/mdm2
     relation: connects-to
     note: "MDM2-p53 signaling (p53 already mapped) participates in the neuronal apoptosis of Huntington's disease."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family (FYN) kinase signaling participates in the NMDA-receptor-mediated excitotoxicity and synaptic dysfunction of Huntington's disease."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven microglial and monocyte recruitment contributes to the neuroinflammation of Huntington's disease."
+  - target: 01-human/03-molecular/calcineurin
+    relation: connects-to
+    note: "Calcineurin-linked calcium signaling participates in the excitotoxic neuronal dysfunction of Huntington's disease."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -517,3 +526,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) participates in the neuronal survival pathways compromised in Huntington's disease.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the epigenetic dysregulation of gene expression in Huntington's disease.
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-p53 signaling (p53 already mapped) participates in the neuronal apoptosis of Huntington's disease.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family (FYN) kinase signaling participates in the NMDA-receptor-mediated excitotoxicity and synaptic dysfunction of Huntington's disease.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven microglial and monocyte recruitment contributes to the neuroinflammation of Huntington's disease.
+- `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-linked calcium signaling participates in the excitotoxic neuronal dysfunction of Huntington's disease.
