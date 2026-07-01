@@ -360,6 +360,15 @@ cross_links:
   - target: 01-human/03-molecular/erk1-2
     relation: connects-to
     note: "ERK-MAPK signaling participates in the reward and stress neuroplasticity of bulimia nervosa."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "HIF-1α-linked metabolic adaptation participates in the reward and metabolic dysregulation of bulimia nervosa."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins reflect the low-grade peripheral inflammation associated with bulimia nervosa."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped) links insulin and reward signaling to the neuroadaptations of bulimia nervosa."
 ---
 
 # Bulimia Nervosa
@@ -603,6 +612,9 @@ All of the following must be met:
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO downstream of insulin-PI3K-AKT signaling (AKT, insulin, and insulin-receptor already mapped) links the metabolic dysregulation to the reward neurocircuitry of bulimia nervosa.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 neuroinflammatory signaling contributes to the inflammatory tone associated with bulimia nervosa.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling participates in the reward and stress neuroplasticity of bulimia nervosa.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α-linked metabolic adaptation participates in the reward and metabolic dysregulation of bulimia nervosa.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins reflect the low-grade peripheral inflammation associated with bulimia nervosa.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) links insulin and reward signaling to the neuroadaptations of bulimia nervosa.
 
 ## Treatment
 

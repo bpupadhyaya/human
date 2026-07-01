@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/gsk-3b
     relation: connects-to
     note: "GSK-3β participates in the DNA-damage response and Wnt/β-catenin signaling relevant to the genomic instability and cancer predisposition of Bloom syndrome."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped) supports the survival of the genomically unstable cells of Bloom syndrome."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins reflect the inflammatory context of the tumor microenvironment in the cancer-prone Bloom syndrome."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "HIF-1α-linked metabolic and oxidative-stress adaptation participates in the cellular stress of the genomically unstable cells of Bloom syndrome."
 ---
 
 # Bloom Syndrome
@@ -609,6 +618,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 signaling shapes the inflammatory tumor-promoting microenvironment relevant to the cancer predisposition of Bloom syndrome.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated cytotoxic immunosurveillance is the immune clearance that the genomically unstable, malignancy-prone cells of Bloom syndrome depend on.
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β participates in the DNA-damage response and Wnt/β-catenin signaling relevant to the genomic instability and cancer predisposition of Bloom syndrome.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) supports the survival of the genomically unstable cells of Bloom syndrome.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins reflect the inflammatory context of the tumor microenvironment in the cancer-prone Bloom syndrome.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α-linked metabolic and oxidative-stress adaptation participates in the cellular stress of the genomically unstable cells of Bloom syndrome.
 
 ---
 
