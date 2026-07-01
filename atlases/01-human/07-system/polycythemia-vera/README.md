@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/cdk4-6
     relation: connects-to
     note: "CDK4/6-cyclin-D activity (CDKN2A already mapped) drives the JAK2-fuelled erythroid and myeloid cell-cycle progression of polycythemia vera."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "JAK2-STAT5-PI3K-AKT signaling (AKT already mapped) inactivates FOXO, supporting the survival of the clonal erythroid progenitors of polycythemia vera."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β misregulation contributes to the aberrant hematopoietic stem-cell self-renewal of polycythemia vera."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins reflect the inflammatory myeloid activation of polycythemia vera."
 ---
 
 # Polycythemia Vera
@@ -581,6 +590,9 @@ PV must be distinguished from secondary erythrocytosis (elevated EPO, JAK2 wild-
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING amplifies the chronic inflammatory marrow milieu (type-I interferon already mapped) of polycythemia vera.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling (TGF-β already mapped) drives the marrow fibrosis underlying the progression of polycythemia vera toward post-PV myelofibrosis.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6-cyclin-D activity (CDKN2A already mapped) drives the JAK2-fueled erythroid and myeloid cell-cycle progression of polycythemia vera.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — JAK2-STAT5-PI3K-AKT signaling (AKT already mapped) inactivates FOXO, supporting the survival of the clonal erythroid progenitors of polycythemia vera.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β misregulation contributes to the aberrant hematopoietic stem-cell self-renewal of polycythemia vera.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins reflect the inflammatory myeloid activation of polycythemia vera.
 
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409630](https://doi.org/10.1056/NEJMoa1409630) · [PubMed 25577388](https://pubmed.ncbi.nlm.nih.gov/25577388/)
 [^gisslinger-2020-proud-pv]: Gisslinger H, Gotic M, Holowiecki J, et al. Ropeginterferon alfa-2b versus standard therapy for polycythaemia vera (PROUD-PV and CONTINUATION-PV): a randomised, non-inferiority, phase 3 trial and its extension study. *Lancet Haematol.* 2020;7(3):e196-e208. [doi:10.1016/S2352-3026(19)30236-4](https://doi.org/10.1016/S2352-3026(19)30236-4) · [PubMed 32046833](https://pubmed.ncbi.nlm.nih.gov/32046833/)
