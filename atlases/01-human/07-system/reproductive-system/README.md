@@ -365,6 +365,15 @@ cross_links:
   - target: 01-human/03-molecular/nf-kb
     relation: connects-to
     note: "NF-κB inflammatory signaling participates in the ovarian and testicular immune and inflammatory processes of the reproductive system."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy participates in the gametogenesis, hormone-producing-cell homeostasis, and tissue remodeling of the reproductive system."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling downstream of gonadotropin and growth-factor receptors participates in the germ-cell and gonadal-somatic-cell signaling of the reproductive system."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation participates in the germ-cell epigenetic reprogramming and imprinting of the reproductive system."
 ---
 
 # Reproductive System
@@ -596,6 +605,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) transduces the gonadotropin and growth-factor signals governing gonadal function and gametogenesis of the reproductive system.
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK integrates the energy status of the reproductive axis, coupling nutritional state to fertility across the reproductive system.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB inflammatory signaling participates in the ovarian and testicular immune and inflammatory processes of the reproductive system.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy participates in the gametogenesis, hormone-producing-cell homeostasis, and tissue remodeling of the reproductive system.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of gonadotropin and growth-factor receptors participates in the germ-cell and gonadal-somatic-cell signaling of the reproductive system.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the germ-cell epigenetic reprogramming and imprinting of the reproductive system.
 
 ## Pathology
 
