@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/s100a8-a9
     relation: connects-to
     note: "S100A8/A9 alarmins from infiltrating myeloid cells shape the inflammatory microenvironment of Cowden syndrome lesions."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK signaling, in balance with the mTOR pathway (mTOR already mapped) hyperactivated by PTEN loss, regulates the metabolic homeostasis of the hamartomatous lesions of Cowden syndrome."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling downstream of growth-factor receptors contributes to the proliferative signaling of the tumors of Cowden syndrome."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation contributes to the epigenetic dysregulation of the tumors of Cowden syndrome."
 ---
 
 # Cowden Syndrome
@@ -651,6 +660,9 @@ cross_links:
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis in the PTEN-deficient tumors of Cowden syndrome.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated cytotoxic immunosurveillance is the immune clearance that the multiple hamartomas and cancers of Cowden syndrome must evade.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins from infiltrating myeloid cells shape the inflammatory microenvironment of Cowden syndrome lesions.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK signaling, in balance with the mTOR pathway (mTOR already mapped) hyperactivated by PTEN loss, regulates the metabolic homeostasis of the hamartomatous lesions of Cowden syndrome.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of growth-factor receptors contributes to the proliferative signaling of the tumors of Cowden syndrome.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the epigenetic dysregulation of the tumors of Cowden syndrome.
 
 ---
 

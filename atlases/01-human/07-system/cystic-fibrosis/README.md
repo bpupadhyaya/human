@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/perforin
     relation: connects-to
     note: "Perforin-mediated cytotoxic activity by CD8 T and NK cells contributes to the immune-mediated tissue damage of the chronically infected cystic-fibrosis airway."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped) participates in the airway epithelial and neutrophilic inflammatory responses of cystic fibrosis."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK signaling interacts with the CFTR channel and the autophagic responses (CFTR and autophagy already mapped) dysregulated in cystic fibrosis."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling contributes to the airway inflammatory and epithelial responses of cystic fibrosis."
 ---
 
 # Cystic Fibrosis
@@ -599,6 +608,9 @@ AND
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO regulates the airway epithelial oxidative-stress defense and immune-metabolic balance perturbed in the chronic infection of cystic fibrosis.
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the NF-κB-driven hyperinflammation of the cystic-fibrosis airway.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated cytotoxic activity by CD8 T and NK cells contributes to the immune-mediated tissue damage of the chronically infected cystic-fibrosis airway.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) participates in the airway epithelial and neutrophilic inflammatory responses of cystic fibrosis.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK signaling interacts with the CFTR channel and the autophagic responses (CFTR and autophagy already mapped) dysregulated in cystic fibrosis.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling contributes to the airway inflammatory and epithelial responses of cystic fibrosis.
 
 ---
 
