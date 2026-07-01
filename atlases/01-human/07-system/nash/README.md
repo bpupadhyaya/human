@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/cdk4-6
     relation: connects-to
     note: "CDK4/6-driven cell-cycle activity contributes to the hepatocyte proliferation in the progression toward NASH-related hepatocellular carcinoma."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the hepatic insulin signaling and inflammatory-fibrotic pathways of non-alcoholic steatohepatitis."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Perforin-bearing cytotoxic CD8 T and NKT cells contribute to the hepatocyte injury and progression of non-alcoholic steatohepatitis."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling participates in the hepatic stellate-cell activation driving the fibrosis of non-alcoholic steatohepatitis."
 ---
 
 # NASH
@@ -560,6 +569,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — Hepatic FOXO1 regulates gluconeogenesis and lipid metabolism, and its dysregulation in insulin resistance drives the steatosis and lipotoxicity of NASH.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins released by recruited myeloid cells amplify the lobular inflammation that distinguishes NASH from simple steatosis.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6-driven cell-cycle activity contributes to the hepatocyte proliferation in the progression toward NASH-related hepatocellular carcinoma.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the hepatic insulin signaling and inflammatory-fibrotic pathways of non-alcoholic steatohepatitis.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-bearing cytotoxic CD8 T and NKT cells contribute to the hepatocyte injury and progression of non-alcoholic steatohepatitis.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the hepatic stellate-cell activation driving the fibrosis of non-alcoholic steatohepatitis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

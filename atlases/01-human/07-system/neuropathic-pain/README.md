@@ -339,6 +339,15 @@ cross_links:
   - target: 01-human/03-molecular/foxo
     relation: connects-to
     note: "FOXO regulates neuronal oxidative-stress and survival pathways relevant to the maladaptive plasticity of neuropathic pain."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped) in dorsal-horn neurons and glia contributes to the central sensitization of neuropathic pain."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins released after nerve injury amplify the neuroinflammation underlying neuropathic pain."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "HIF-1α in injured nerve and dorsal-root ganglia contributes to the metabolic and inflammatory adaptation driving neuropathic pain."
 sources:
   - id: jensen-2011-neuropathic-pain-review
     type: peer-reviewed
@@ -609,6 +618,9 @@ Chronic neuropathic pain carries significant psychological burden:
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING in spinal microglia and macrophages contributes to the neuroinflammation that sustains neuropathic pain.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling in spinal microglia drives the neuroinflammatory sensitization that maintains neuropathic pain.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO regulates neuronal oxidative-stress and survival pathways relevant to the maladaptive plasticity of neuropathic pain.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) in dorsal-horn neurons and glia contributes to the central sensitization of neuropathic pain.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins released after nerve injury amplify the neuroinflammation underlying neuropathic pain.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α in injured nerve and dorsal-root ganglia contributes to the metabolic and inflammatory adaptation driving neuropathic pain.
 
 [^jensen-2011-neuropathic-pain-review]: Jensen TS, Baron R, Haanpää M, et al. A new definition of neuropathic pain. *Pain.* 2011;152(10):2204-2205. [doi:10.1016/j.pain.2011.06.017](https://doi.org/10.1016/j.pain.2011.06.017) · [PubMed 21764514](https://pubmed.ncbi.nlm.nih.gov/21764514/)
 [^dworkin-2010-neuropathic-pain-treatment]: Dworkin RH, O'Connor AB, Audette J, et al. Recommendations for the pharmacological management of neuropathic pain. *Mayo Clin Proc.* 2010;85(3 Suppl):S3-14. [doi:10.4065/mcp.2009.0649](https://doi.org/10.4065/mcp.2009.0649) · [PubMed 20194146](https://pubmed.ncbi.nlm.nih.gov/20194146/)
