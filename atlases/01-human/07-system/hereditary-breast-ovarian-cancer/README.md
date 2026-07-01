@@ -367,6 +367,15 @@ cross_links:
   - target: 01-human/03-molecular/autophagy
     relation: connects-to
     note: "Autophagy supports the survival of the genomically unstable, HR-deficient cells of hereditary breast and ovarian cancer."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked metabolic signaling participates in the metabolic adaptation of the tumors of hereditary breast and ovarian cancer."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven myeloid recruitment shapes the immunosuppressive microenvironment of the tumors of hereditary breast and ovarian cancer."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic landscape of the tumors of hereditary breast and ovarian cancer."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -619,6 +628,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of growth-factor receptors contributes to the proliferation and invasion of the tumors of hereditary breast and ovarian cancer.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the epigenetic dysregulation of the tumors of hereditary breast and ovarian cancer.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy supports the survival of the genomically unstable, HR-deficient cells of hereditary breast and ovarian cancer.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the metabolic adaptation of the tumors of hereditary breast and ovarian cancer.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven myeloid recruitment shapes the immunosuppressive microenvironment of the tumors of hereditary breast and ovarian cancer.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic landscape of the tumors of hereditary breast and ovarian cancer.
 
 ---
 
