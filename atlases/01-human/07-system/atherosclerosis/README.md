@@ -364,6 +364,15 @@ cross_links:
   - target: 01-human/03-molecular/cdk4-6
     relation: connects-to
     note: "CDK4/6-driven vascular smooth-muscle-cell proliferation contributes to the intimal hyperplasia of the atherosclerotic plaque."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the macrophage inflammatory and foam-cell signaling within the atherosclerotic plaque."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped) participates in the endothelial activation and macrophage survival of the atherosclerotic lesion."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK signaling, a regulator of vascular lipid metabolism and inflammation, is atheroprotective and its dysregulation promotes atherosclerosis."
 ---
 
 # Atherosclerosis
@@ -593,6 +602,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors regulate the endothelial and macrophage oxidative-stress and lipid-handling responses relevant to atherosclerotic plaque biology.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated cytotoxic CD8 and NK activity contributes to the plaque instability and necrotic-core formation of atherosclerosis.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6-driven vascular smooth-muscle-cell proliferation contributes to the intimal hyperplasia of the atherosclerotic plaque.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the macrophage inflammatory and foam-cell signaling within the atherosclerotic plaque.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) participates in the endothelial activation and macrophage survival of the atherosclerotic lesion.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK signaling, a regulator of vascular lipid metabolism and inflammation, is atheroprotective and its dysregulation promotes atherosclerosis.
 
 ---
 

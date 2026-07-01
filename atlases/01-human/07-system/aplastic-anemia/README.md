@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/gsk-3b
     relation: connects-to
     note: "GSK-3β modulates the hematopoietic stem-cell survival and self-renewal signaling whose disruption contributes to aplastic anemia."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped) supports the survival of the autoreactive T cells that attack the hematopoietic stem cells of aplastic anemia."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family (LCK) kinase signaling downstream of the T-cell receptor drives the cytotoxic T-cell activation that destroys the marrow in aplastic anemia."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy modulates the survival of the residual hematopoietic stem cells under the immune and oxidative stress of aplastic anemia."
 ---
 
 # Aplastic Anemia
@@ -584,6 +593,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α shapes the hypoxic bone-marrow niche and the stem-cell stress responses relevant to the marrow failure of aplastic anemia.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins reflect the inflammatory immune activation that accompanies the T-cell-mediated marrow destruction of aplastic anemia.
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the hematopoietic stem-cell survival and self-renewal signaling whose disruption contributes to aplastic anemia.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) supports the survival of the autoreactive T cells that attack the hematopoietic stem cells of aplastic anemia.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family (LCK) kinase signaling downstream of the T-cell receptor drives the cytotoxic T-cell activation that destroys the marrow in aplastic anemia.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the survival of the residual hematopoietic stem cells under the immune and oxidative stress of aplastic anemia.
 
 ---
 
