@@ -352,6 +352,15 @@ cross_links:
   - target: 01-human/03-molecular/cdk4-6
     relation: connects-to
     note: "CDK4/6 cell-cycle activity supports the clonal proliferation of JAK2/CALR/MPL-mutant progenitors in myelofibrosis."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Perforin-mediated cytotoxic immunosurveillance targets the neoantigen-bearing CALR-mutant clone of myelofibrosis."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis and contributes to the leukemic evolution of myelofibrosis."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family and LYN kinase signaling downstream of the constitutively active JAK2 axis supports the megakaryocyte and progenitor survival of myelofibrosis."
 ---
 
 # Myelofibrosis
@@ -591,6 +600,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors regulate hematopoietic stem-cell quiescence and oxidative-stress handling disrupted in the clonal myeloproliferation of myelofibrosis.
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β dysregulation contributes to the aberrant megakaryocyte and progenitor signaling that drives the marrow fibrosis of myelofibrosis.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6 cell-cycle activity supports the clonal proliferation of JAK2/CALR/MPL-mutant progenitors in myelofibrosis.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated cytotoxic immunosurveillance targets the neoantigen-bearing CALR-mutant clone of myelofibrosis.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis and contributes to the leukemic evolution of myelofibrosis.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family and LYN kinase signaling downstream of the constitutively active JAK2 axis supports the megakaryocyte and progenitor survival of myelofibrosis.
 
 ---
 

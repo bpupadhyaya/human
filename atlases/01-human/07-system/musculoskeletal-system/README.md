@@ -350,6 +350,15 @@ cross_links:
   - target: 01-human/03-molecular/stat1
     relation: connects-to
     note: "IFN-STAT1 signaling modulates osteoclastogenesis and the inflammatory regulation of bone and muscle in the musculoskeletal system."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β, within the Wnt/β-catenin signaling that governs osteoblast differentiation (Wnt already mapped), regulates the bone formation and remodeling of the musculoskeletal system."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins participate in the inflammatory signaling of bone and joint tissue in the musculoskeletal system."
+  - target: 01-human/03-molecular/connexin43
+    relation: connects-to
+    note: "Connexin-43 gap junctions mediate the osteocyte-network and muscle intercellular communication that coordinates mechanotransduction in the musculoskeletal system."
 ---
 
 # Musculoskeletal System
@@ -597,6 +606,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors regulate the osteoblast-osteoclast balance, the atrogene muscle-atrophy program, and oxidative-stress defense across the musculoskeletal system.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling downstream of growth factors (FGFR and IGF-1 already mapped) drives osteoblast and myocyte proliferation and differentiation in the musculoskeletal system.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling modulates osteoclastogenesis and the inflammatory regulation of bone and muscle in the musculoskeletal system.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β, within the Wnt/β-catenin signaling that governs osteoblast differentiation (Wnt already mapped), regulates the bone formation and remodeling of the musculoskeletal system.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins participate in the inflammatory signaling of bone and joint tissue in the musculoskeletal system.
+- `connects-to` → **[Connexin-43](../../03-molecular/connexin43/README.md)** — Connexin-43 gap junctions mediate the osteocyte-network and muscle intercellular communication that coordinates mechanotransduction in the musculoskeletal system.
 
 ## Pathology
 
