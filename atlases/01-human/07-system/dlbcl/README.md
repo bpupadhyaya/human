@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "NOTCH-pathway mutations occur in subsets of diffuse large B-cell lymphoma and contribute to its survival and differentiation biology."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family (LYN) kinase signaling downstream of the chronically active B-cell receptor supports the survival of the ABC subtype of diffuse large B-cell lymphoma."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation contributes to the epigenetic dysregulation of diffuse large B-cell lymphoma."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy supports the survival and chemoresistance of diffuse large B-cell lymphoma cells."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -593,6 +602,9 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the MYC stability and NF-κB-driven survival signaling of diffuse large B-cell lymphoma.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins shape the inflammatory tumor microenvironment of diffuse large B-cell lymphoma.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH-pathway mutations occur in subsets of diffuse large B-cell lymphoma and contribute to its survival and differentiation biology.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family (LYN) kinase signaling downstream of the chronically active B-cell receptor supports the survival of the ABC subtype of diffuse large B-cell lymphoma.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the epigenetic dysregulation of diffuse large B-cell lymphoma.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy supports the survival and chemoresistance of diffuse large B-cell lymphoma cells.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

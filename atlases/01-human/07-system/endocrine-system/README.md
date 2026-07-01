@@ -356,6 +356,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "HIF-1α couples the oxygen and metabolic status of endocrine glands to their hormone-secretory and proliferative responses."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped) transduces the growth-factor and insulin signals that govern endocrine-cell proliferation and hormone secretion across the endocrine system."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic DNA sensing through cGAS-STING links cellular stress to the autoimmune and inflammatory endocrinopathies of the endocrine system."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "NF-κB inflammatory signaling participates in the autoimmune and stress-related dysregulation of the endocrine glands."
 ---
 
 # Endocrine System
@@ -626,6 +635,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors integrate insulin/IGF and stress signaling across endocrine tissues, governing metabolism and hormone-secreting-cell homeostasis.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the autoimmune and inflammatory processes that target endocrine glands across the endocrine system.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α couples the oxygen and metabolic status of endocrine glands to their hormone-secretory and proliferative responses.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) transduces the growth-factor and insulin signals that govern endocrine-cell proliferation and hormone secretion across the endocrine system.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic DNA sensing through cGAS-STING links cellular stress to the autoimmune and inflammatory endocrinopathies of the endocrine system.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB inflammatory signaling participates in the autoimmune and stress-related dysregulation of the endocrine glands.
 
 ## Pathology
 
