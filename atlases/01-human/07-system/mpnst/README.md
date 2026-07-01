@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/foxo
     relation: connects-to
     note: "FOXO transcription factors, antagonised by NF1-loss-driven RAS-PI3K-AKT signalling, modulate the survival of MPNST cells."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the Wnt/β-catenin and survival signaling of the NF1-deficient cells of MPNST."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins shape the inflammatory microenvironment of the NF1-associated MPNST."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-kinase signaling downstream of receptor tyrosine kinases (EGFR, KIT, MET, and PDGFR already mapped) drives the invasive signaling of MPNST."
 ---
 
 # MPNST
@@ -591,6 +600,9 @@ Wide local excision with negative margins is the only potentially curative inter
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the immunologically cold microenvironment of MPNST, a barrier to its immunotherapy.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling shapes the mesenchymal microenvironment and aggressive progression of the NF1-driven MPNST.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors, antagonized by NF1-loss-driven RAS-PI3K-AKT signaling, modulate the survival of MPNST cells.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the Wnt/β-catenin and survival signaling of the NF1-deficient cells of MPNST.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins shape the inflammatory microenvironment of the NF1-associated MPNST.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-kinase signaling downstream of receptor tyrosine kinases (EGFR, KIT, MET, and PDGFR already mapped) drives the invasive signaling of MPNST.
 
 [^evans-2002-mpnst-nf1]: Evans DGR, Baser ME, McGaughran J, et al. Malignant peripheral nerve sheath tumours in neurofibromatosis 1. *J Med Genet.* 2002;39(5):311-314. [doi:10.1136/jmg.39.5.311](https://doi.org/10.1136/jmg.39.5.311) · [PubMed 12011145](https://pubmed.ncbi.nlm.nih.gov/12011145/)
 [^lee-2014-mpnst-prc2]: Lee W, Teckie S, Wiesner T, et al. PRC2 is recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve sheath tumors. *Nat Genet.* 2014;46(11):1227-1232. [doi:10.1038/ng.3095](https://doi.org/10.1038/ng.3095) · [PubMed 25240281](https://pubmed.ncbi.nlm.nih.gov/25240281/)
