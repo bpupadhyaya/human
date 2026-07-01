@@ -354,6 +354,15 @@ cross_links:
   - target: 01-human/03-molecular/cdk4-6
     relation: connects-to
     note: "HBx dysregulates the cyclin-D-CDK4/6-RB axis to drive hepatocyte cell-cycle entry in hepatitis-B-associated hepatocellular carcinoma."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β regulates the β-catenin stability (CTNNB1 already mapped) and survival signaling relevant to HBV-driven hepatocarcinogenesis."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis, cooperating with HBx in the malignant progression of chronic hepatitis B."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins amplify the necroinflammatory liver injury of chronic hepatitis B."
 ---
 
 # Hepatitis B
@@ -601,3 +610,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — HBx-driven PI3K-AKT signaling inactivates FOXO, removing a pro-apoptotic brake and promoting hepatocyte survival in the progression toward hepatitis-B-associated HCC.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α induced by the HBx protein supports the angiogenesis and metabolic reprogramming of hepatitis-B-associated hepatocarcinogenesis.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — HBx dysregulates the cyclin-D-CDK4/6-RB axis to drive hepatocyte cell-cycle entry in hepatitis-B-associated hepatocellular carcinoma.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β regulates the β-catenin stability (CTNNB1 already mapped) and survival signaling relevant to HBV-driven hepatocarcinogenesis.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis, cooperating with HBx in the malignant progression of chronic hepatitis B.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins amplify the necroinflammatory liver injury of chronic hepatitis B.

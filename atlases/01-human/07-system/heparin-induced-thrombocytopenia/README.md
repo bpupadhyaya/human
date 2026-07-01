@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/foxo
     relation: connects-to
     note: "FOXO downstream of PI3K-AKT signaling (AKT and PIK3CA already mapped) helps set the platelet and endothelial activation balance in heparin-induced thrombocytopenia."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β participates in the platelet-activation signaling downstream of FcγRIIa engagement in heparin-induced thrombocytopenia."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "mTOR signaling in activated platelets and immune cells participates in the prothrombotic immune activation of heparin-induced thrombocytopenia."
+  - target: 01-human/03-molecular/endothelin-1
+    relation: connects-to
+    note: "Endothelin-1 released by the activated endothelium contributes to the prothrombotic vascular tone of heparin-induced thrombocytopenia."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -615,6 +624,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK1/2 cytokine signaling (IL-6 already mapped) amplifies the inflammatory milieu accompanying the prothrombotic immune response of heparin-induced thrombocytopenia.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the immune activation underlying the anti-PF4/heparin antibody response in heparin-induced thrombocytopenia.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO downstream of PI3K-AKT signaling (AKT and PIK3CA already mapped) helps set the platelet and endothelial activation balance in heparin-induced thrombocytopenia.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β participates in the platelet-activation signaling downstream of FcγRIIa engagement in heparin-induced thrombocytopenia.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR signaling in activated platelets and immune cells participates in the prothrombotic immune activation of heparin-induced thrombocytopenia.
+- `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Endothelin-1 released by the activated endothelium contributes to the prothrombotic vascular tone of heparin-induced thrombocytopenia.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)
