@@ -352,6 +352,15 @@ cross_links:
   - target: 01-human/03-molecular/stat1
     relation: connects-to
     note: "IFN-STAT1 signaling promotes cardiomyocyte apoptosis and the inflammatory remodeling of the failing myocardium in heart failure."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "Class I PI3K (PIK3CA)-AKT signaling (AKT already mapped) governs the balance between adaptive and maladaptive cardiac hypertrophy in heart failure."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins released during myocardial stress amplify the inflammatory cardiac remodeling of heart failure."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Cytotoxic-lymphocyte perforin activity contributes to the immune-mediated myocardial injury in inflammatory heart failure."
 ---
 
 # Heart Failure
@@ -536,6 +545,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors regulate cardiomyocyte autophagy, atrophy, and oxidative-stress defense, processes that shape adverse remodeling in heart failure.
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates pathological cardiac hypertrophy and fibrosis, acting as a brake whose dysregulation contributes to heart failure remodeling.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling promotes cardiomyocyte apoptosis and the inflammatory remodeling of the failing myocardium in heart failure.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Class I PI3K (PIK3CA)-AKT signaling (AKT already mapped) governs the balance between adaptive and maladaptive cardiac hypertrophy in heart failure.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins released during myocardial stress amplify the inflammatory cardiac remodeling of heart failure.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Cytotoxic-lymphocyte perforin activity contributes to the immune-mediated myocardial injury in inflammatory heart failure.
 
 ## Pathology
 
