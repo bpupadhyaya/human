@@ -367,6 +367,15 @@ cross_links:
   - target: 01-human/03-molecular/ampk
     relation: connects-to
     note: "AMPK signaling, coupled to nitric-oxide-dependent endothelial function (nitric-oxide already mapped), is a vasodilatory regulator dysregulated in hypertension."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy maintains the vascular-smooth-muscle and endothelial homeostasis whose dysregulation contributes to hypertension."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling downstream of angiotensin-II and other vasoactive receptors participates in the vascular remodeling of hypertension."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven immune-cell recruitment into the vasculature and kidney contributes to the inflammation of hypertension."
 ---
 
 # Hypertension
@@ -574,6 +583,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β participates in the vascular smooth-muscle and cardiac hypertrophic signaling relevant to hypertension.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) transduces the angiotensin-II and growth-factor signals driving vascular remodeling in hypertension.
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK signaling, coupled to nitric-oxide-dependent endothelial function (nitric-oxide already mapped), is a vasodilatory regulator dysregulated in hypertension.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy maintains the vascular-smooth-muscle and endothelial homeostasis whose dysregulation contributes to hypertension.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of angiotensin-II and other vasoactive receptors participates in the vascular remodeling of hypertension.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven immune-cell recruitment into the vasculature and kidney contributes to the inflammation of hypertension.
 
 ## Pathology
 
