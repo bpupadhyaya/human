@@ -361,6 +361,15 @@ cross_links:
   - target: 01-human/03-molecular/gsk-3b
     relation: connects-to
     note: "GSK-3β integrates microbial pattern-recognition signaling to modulate the NF-κB inflammatory tone and Wnt-dependent epithelial renewal shaped by the gut microbiome."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK, activated by microbiota-derived short-chain fatty acids, links the gut microbiome to host energy metabolism."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped) in the intestinal epithelium responds to the microbial signals of the gut microbiome."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy in intestinal epithelial and immune cells shapes the host response to and tolerance of the gut microbiome."
 ---
 
 # Gut Microbiome
@@ -553,6 +562,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Microbial metabolites and pattern-recognition signals feed into host PI3K-AKT signaling that governs the intestinal epithelial homeostasis shaped by the gut microbiome.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling transduces the microbial and metabolite stimuli that modulate the epithelial and immune responses to the gut microbiome.
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β integrates microbial pattern-recognition signaling to modulate the NF-κB inflammatory tone and Wnt-dependent epithelial renewal shaped by the gut microbiome.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK, activated by microbiota-derived short-chain fatty acids, links the gut microbiome to host energy metabolism.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) in the intestinal epithelium responds to the microbial signals of the gut microbiome.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy in intestinal epithelial and immune cells shapes the host response to and tolerance of the gut microbiome.
 
 ## Pathology
 
