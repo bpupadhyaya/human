@@ -356,6 +356,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "HIF-1α couples the hypoxic niches of the ovarian follicle and testis to the angiogenesis and metabolic adaptation of the reproductive system."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped) transduces the gonadotropin and growth-factor signals governing gonadal function and gametogenesis of the reproductive system."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK integrates the energy status of the reproductive axis, coupling nutritional state to fertility across the reproductive system."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "NF-κB inflammatory signaling participates in the ovarian and testicular immune and inflammatory processes of the reproductive system."
 ---
 
 # Reproductive System
@@ -584,6 +593,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors (notably FOXO3) govern the ovarian follicle reserve and spermatogenic-cell survival across the reproductive system.
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β signaling regulates oocyte maturation and the Wnt-dependent gonadal and uterine developmental programs of the reproductive system.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α couples the hypoxic niches of the ovarian follicle and testis to the angiogenesis and metabolic adaptation of the reproductive system.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) transduces the gonadotropin and growth-factor signals governing gonadal function and gametogenesis of the reproductive system.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK integrates the energy status of the reproductive axis, coupling nutritional state to fertility across the reproductive system.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB inflammatory signaling participates in the ovarian and testicular immune and inflammatory processes of the reproductive system.
 
 ## Pathology
 
