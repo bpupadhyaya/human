@@ -364,6 +364,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "HIF-1α in the hypoxic inflamed glandular tissue contributes to the metabolic and inflammatory adaptation of Sjögren's syndrome."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped) supports the survival and activation of the autoreactive B and T cells of Sjögren's syndrome."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family (LYN) kinase signaling downstream of the B-cell receptor participates in the autoreactive B-cell activation of Sjögren's syndrome."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy modulates the salivary-gland epithelial and immune-cell responses of Sjögren's syndrome."
 ---
 
 # Sjögren's Syndrome
@@ -609,6 +618,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the NF-κB-driven inflammatory and B-cell survival signaling of Sjögren's syndrome.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins amplify the innate inflammation of the salivary and lacrimal gland lesions of Sjögren's syndrome.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α in the hypoxic inflamed glandular tissue contributes to the metabolic and inflammatory adaptation of Sjögren's syndrome.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) supports the survival and activation of the autoreactive B and T cells of Sjögren's syndrome.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family (LYN) kinase signaling downstream of the B-cell receptor participates in the autoreactive B-cell activation of Sjögren's syndrome.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the salivary-gland epithelial and immune-cell responses of Sjögren's syndrome.
 
 ---
 
