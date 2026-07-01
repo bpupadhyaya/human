@@ -375,6 +375,15 @@ cross_links:
   - target: 01-human/03-molecular/s100a8-a9
     relation: connects-to
     note: "S100A8/A9 alarmins participate in the inflammatory signaling of atherosclerosis and myocardial injury in the cardiovascular system."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy maintains the cardiomyocyte and vascular-cell protein-quality control and metabolic resilience of the cardiovascular system."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling participates in the vascular endothelial and smooth-muscle mechanotransduction and remodeling of the cardiovascular system."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Perforin-mediated cytotoxic immunosurveillance participates in the immune-mediated myocardial and vascular injury relevant to the cardiovascular system."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"
@@ -576,6 +585,9 @@ Each major vascular bed has **autoregulation** — a local mechanism that holds 
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the cardiac hypertrophy and vascular remodeling signaling of the cardiovascular system.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) governs the physiological cardiac growth and endothelial survival of the cardiovascular system.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins participate in the inflammatory signaling of atherosclerosis and myocardial injury in the cardiovascular system.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy maintains the cardiomyocyte and vascular-cell protein-quality control and metabolic resilience of the cardiovascular system.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the vascular endothelial and smooth-muscle mechanotransduction and remodeling of the cardiovascular system.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated cytotoxic immunosurveillance participates in the immune-mediated myocardial and vascular injury relevant to the cardiovascular system.
 
 ## Pathology
 

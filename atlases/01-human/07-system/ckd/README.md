@@ -369,6 +369,15 @@ cross_links:
   - target: 01-human/03-molecular/perforin
     relation: connects-to
     note: "Perforin-bearing cytotoxic lymphocytes contribute to the immune-mediated tubulointerstitial injury of chronic kidney disease."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked metabolic signaling maintains the tubular-cell energy homeostasis whose failure drives the progression of chronic kidney disease."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy maintains the podocyte and tubular-cell homeostasis whose decline accelerates chronic kidney disease."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling participates in the tubulointerstitial fibrosis and myofibroblast activation of chronic kidney disease."
 ---
 
 # Chronic Kidney Disease
@@ -562,6 +571,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β, within the Wnt/β-catenin signaling that drives tubulointerstitial fibrosis (Wnt already mapped), modulates the progressive fibrosis of chronic kidney disease.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) governs the tubular-cell survival and hypertrophic responses of chronic kidney disease.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-bearing cytotoxic lymphocytes contribute to the immune-mediated tubulointerstitial injury of chronic kidney disease.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling maintains the tubular-cell energy homeostasis whose failure drives the progression of chronic kidney disease.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy maintains the podocyte and tubular-cell homeostasis whose decline accelerates chronic kidney disease.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the tubulointerstitial fibrosis and myofibroblast activation of chronic kidney disease.
 
 ## Pathology
 
