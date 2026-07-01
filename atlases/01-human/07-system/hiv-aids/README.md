@@ -364,6 +364,15 @@ cross_links:
   - target: 01-human/03-molecular/pik3ca
     relation: connects-to
     note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped) governs the T-cell survival pathways dysregulated in the profound immunodeficiency of HIV/AIDS."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family (LCK) kinase signaling downstream of the T-cell receptor participates in the T-cell activation and immune dysfunction of HIV/AIDS."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked immunometabolic signaling shapes the T-cell metabolism and exhaustion of HIV/AIDS."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation contributes to the proviral latency and T-cell-exhaustion epigenetics of HIV/AIDS."
 ---
 
 # HIV/AIDS
@@ -594,6 +603,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the T-cell survival and inflammatory signaling relevant to the immune exhaustion and reservoir persistence of HIV/AIDS.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — HIV subverts host autophagy in CD4 T cells and macrophages, contributing to the immune-cell depletion and viral persistence of HIV/AIDS.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) governs the T-cell survival pathways dysregulated in the profound immunodeficiency of HIV/AIDS.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family (LCK) kinase signaling downstream of the T-cell receptor participates in the T-cell activation and immune dysfunction of HIV/AIDS.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked immunometabolic signaling shapes the T-cell metabolism and exhaustion of HIV/AIDS.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the proviral latency and T-cell-exhaustion epigenetics of HIV/AIDS.
 
 ## See Also
 

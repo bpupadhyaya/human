@@ -364,6 +364,15 @@ cross_links:
   - target: 01-human/03-molecular/autophagy
     relation: connects-to
     note: "Influenza modulates host autophagy through its M2 and NS1 proteins to favor its replication and evade degradation."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling participates in the airway epithelial and immune-cell responses to influenza and in viral entry."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked metabolic signaling, exploited by influenza for its replication, participates in the host response to influenza."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven leukocyte recruitment contributes to the pulmonary inflammation of severe influenza."
 ---
 
 # Influenza
@@ -615,3 +624,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the innate antiviral signaling and inflammatory response to influenza and is also exploited by the virus for replication.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Class I PI3K (PIK3CA)-AKT signaling (AKT already mapped) is activated by influenza NS1 to support viral replication and modulate apoptosis.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Influenza modulates host autophagy through its M2 and NS1 proteins to favor its replication and evade degradation.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the airway epithelial and immune-cell responses to influenza and in viral entry.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling, exploited by influenza for its replication, participates in the host response to influenza.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven leukocyte recruitment contributes to the pulmonary inflammation of severe influenza.
