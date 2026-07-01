@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/s100a8-a9
     relation: connects-to
     note: "S100A8/A9 is a senescence-associated secretory-phenotype alarmin that amplifies the chronic inflammaging underlying Werner syndrome tissue damage."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the Wnt/β-catenin and metabolic signaling relevant to the accelerated cellular aging of Werner syndrome."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "Dysregulated CDK4/6-cyclin-D activity (cyclin-D1 already mapped) contributes to the replicative-senescence dynamics and cancer predisposition of Werner syndrome."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling contributes to the mesenchymal-tumor (sarcoma) predisposition of Werner syndrome."
 ---
 
 # Werner Syndrome
@@ -622,6 +631,9 @@ cross_links:
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO longevity transcription factors govern the oxidative-stress resistance and senescence programs whose dysregulation accelerates the aging phenotype of Werner syndrome.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated cytotoxic clearance of senescent cells by NK and T cells is a surveillance axis whose failure lets senescent cells accumulate in Werner syndrome.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 is a senescence-associated secretory-phenotype alarmin that amplifies the chronic inflammaging underlying Werner syndrome tissue damage.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the Wnt/β-catenin and metabolic signaling relevant to the accelerated cellular aging of Werner syndrome.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Dysregulated CDK4/6-cyclin-D activity (cyclin-D1 already mapped) contributes to the replicative-senescence dynamics and cancer predisposition of Werner syndrome.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling contributes to the mesenchymal-tumor (sarcoma) predisposition of Werner syndrome.
 
 [^yu-1996-wrn]: Yu CE, Oshima J, Fu YH, et al. Positional cloning of the Werner's syndrome gene. *Science.* 1996;272(5259):258-262. [doi:10.1126/science.272.5259.258](https://doi.org/10.1126/science.272.5259.258) · [PubMed 8602509](https://pubmed.ncbi.nlm.nih.gov/8602509/)
 [^lauper-2013-wrn-neoplasia]: Lauper JM, Krause A, Vaughan TL, Monnat RJ Jr. Spectrum and risk of neoplasia in Werner syndrome: a systematic review. *PLoS One.* 2013;8(4):e59709. [doi:10.1371/journal.pone.0059709](https://doi.org/10.1371/journal.pone.0059709) · [PubMed 23579047](https://pubmed.ncbi.nlm.nih.gov/23579047/)
