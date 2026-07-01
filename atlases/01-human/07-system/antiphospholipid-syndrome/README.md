@@ -355,6 +355,15 @@ cross_links:
   - target: 01-human/03-molecular/foxo
     relation: connects-to
     note: "FOXO downstream of antiphospholipid-antibody-triggered PI3K-AKT-mTOR signaling (AKT, PIK3CA, and mTOR already mapped) regulates the endothelial activation balance in antiphospholipid syndrome."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the platelet-activation and mTOR-linked endothelial signaling that drive the thrombosis of antiphospholipid syndrome."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling downstream of β2GPI-antibody engagement of platelet and endothelial receptors contributes to the prothrombotic activation of antiphospholipid syndrome."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "HIF-1α in the ischemic placenta contributes to the pregnancy morbidity of obstetric antiphospholipid syndrome."
 ---
 
 # Antiphospholipid Syndrome
@@ -613,6 +622,9 @@ In APS, anti-B2GPI IgG bound to B2GPI on phospholipid surfaces converts this ant
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK1/2-STAT cytokine signaling (IL-6-STAT3 already mapped) amplifies the endothelial and monocyte inflammatory activation that drives the thrombosis of antiphospholipid syndrome.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling, reflecting the type-I interferon signature of APS, shapes the immune activation underlying antiphospholipid syndrome.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO downstream of antiphospholipid-antibody-triggered PI3K-AKT-mTOR signaling (AKT, PIK3CA, and mTOR already mapped) regulates the endothelial activation balance in antiphospholipid syndrome.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the platelet-activation and mTOR-linked endothelial signaling that drive the thrombosis of antiphospholipid syndrome.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of β2GPI-antibody engagement of platelet and endothelial receptors contributes to the prothrombotic activation of antiphospholipid syndrome.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α in the ischemic placenta contributes to the pregnancy morbidity of obstetric antiphospholipid syndrome.
 
 [^miyakis-2006-sydney-aps]: Miyakis S, Lockshin MD, Atsumi T, et al. International consensus statement on an update of the classification criteria for definite antiphospholipid syndrome (APS). *J Thromb Haemost.* 2006;4(2):295-306. [doi:10.1111/j.1538-7836.2006.01753.x](https://doi.org/10.1111/j.1538-7836.2006.01753.x) · [PubMed 16420554](https://pubmed.ncbi.nlm.nih.gov/16420554/)
 [^barbhaiya-2023-acreular-aps]: Barbhaiya M, Zuily S, Naden R, et al. The 2023 ACR/EULAR antiphospholipid syndrome classification criteria. *Ann Rheum Dis.* 2023;82(10):1258-1270. [doi:10.1136/ard-2023-224609](https://doi.org/10.1136/ard-2023-224609) · [PubMed 37643823](https://pubmed.ncbi.nlm.nih.gov/37643823/)
