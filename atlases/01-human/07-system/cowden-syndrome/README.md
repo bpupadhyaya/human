@@ -367,6 +367,15 @@ cross_links:
   - target: 01-human/03-molecular/dnmt3a
     relation: connects-to
     note: "DNMT3A-mediated DNA methylation contributes to the epigenetic dysregulation of the tumors of Cowden syndrome."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven myeloid recruitment shapes the tumor microenvironment of the neoplasms of Cowden syndrome."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic landscape of the tumors of Cowden syndrome."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "CDKN2A-p16 cell-cycle control participates in the tumor-suppressor network whose disruption cooperates with PTEN loss in Cowden syndrome."
 ---
 
 # Cowden Syndrome
@@ -663,6 +672,9 @@ cross_links:
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK signaling, in balance with the mTOR pathway (mTOR already mapped) hyperactivated by PTEN loss, regulates the metabolic homeostasis of the hamartomatous lesions of Cowden syndrome.
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of growth-factor receptors contributes to the proliferative signaling of the tumors of Cowden syndrome.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the epigenetic dysregulation of the tumors of Cowden syndrome.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven myeloid recruitment shapes the tumor microenvironment of the neoplasms of Cowden syndrome.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic landscape of the tumors of Cowden syndrome.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A-p16 cell-cycle control participates in the tumor-suppressor network whose disruption cooperates with PTEN loss in Cowden syndrome.
 
 ---
 

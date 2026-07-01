@@ -367,6 +367,15 @@ cross_links:
   - target: 01-human/03-molecular/src-kinase
     relation: connects-to
     note: "SRC-family kinase signaling contributes to the airway inflammatory and epithelial responses of cystic fibrosis."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven leukocyte recruitment contributes to the chronic neutrophilic airway inflammation of cystic fibrosis."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation contributes to the epigenetic modulation of the inflammatory responses in cystic fibrosis."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Complement C5a-driven inflammation contributes to the neutrophilic airway inflammation of cystic fibrosis."
 ---
 
 # Cystic Fibrosis
@@ -611,6 +620,9 @@ AND
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) participates in the airway epithelial and neutrophilic inflammatory responses of cystic fibrosis.
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK signaling interacts with the CFTR channel and the autophagic responses (CFTR and autophagy already mapped) dysregulated in cystic fibrosis.
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling contributes to the airway inflammatory and epithelial responses of cystic fibrosis.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven leukocyte recruitment contributes to the chronic neutrophilic airway inflammation of cystic fibrosis.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the epigenetic modulation of the inflammatory responses in cystic fibrosis.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Complement C5a-driven inflammation contributes to the neutrophilic airway inflammation of cystic fibrosis.
 
 ---
 
