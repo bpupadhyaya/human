@@ -367,6 +367,15 @@ cross_links:
   - target: 01-human/03-molecular/autophagy
     relation: connects-to
     note: "Autophagy supports the survival of the ARID1A-deficient, oxidative-stress-adapted cells of ovarian clear cell carcinoma."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked metabolic signaling participates in the metabolic adaptation of ovarian clear cell carcinoma."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven myeloid recruitment shapes the immunosuppressive microenvironment of ovarian clear cell carcinoma."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Perforin-mediated cytotoxic immunosurveillance is a component of the immune response to ovarian clear cell carcinoma."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -625,6 +634,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of MET and growth-factor receptors (MET already mapped) contributes to the invasion of ovarian clear cell carcinoma.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the epigenetic dysregulation, alongside ARID1A loss (ARID1A already mapped), of ovarian clear cell carcinoma.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy supports the survival of the ARID1A-deficient, oxidative-stress-adapted cells of ovarian clear cell carcinoma.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the metabolic adaptation of ovarian clear cell carcinoma.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven myeloid recruitment shapes the immunosuppressive microenvironment of ovarian clear cell carcinoma.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated cytotoxic immunosurveillance is a component of the immune response to ovarian clear cell carcinoma.
 
 ---
 

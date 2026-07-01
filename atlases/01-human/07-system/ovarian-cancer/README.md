@@ -367,6 +367,15 @@ cross_links:
   - target: 01-human/03-molecular/ampk
     relation: connects-to
     note: "AMPK-linked metabolic signaling participates in the metabolic adaptation of ovarian cancer within the omental adipose niche."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven macrophage recruitment shapes the immunosuppressive ascites microenvironment of ovarian cancer."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "IL-1β-driven inflammation in the peritoneal microenvironment participates in the progression of ovarian cancer."
+  - target: 01-human/03-molecular/endothelin-1
+    relation: connects-to
+    note: "Endothelin-1 autocrine signaling participates in the proliferation, angiogenesis, and invasion of ovarian cancer."
 ---
 
 # Ovarian Cancer
@@ -599,6 +608,9 @@ FTSEC ciliated and secretory cells line the Fallopian tube; secretory cells are 
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the epigenetic dysregulation of ovarian cancer.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy supports the survival and chemoresistance of ovarian cancer cells, particularly in dormant peritoneal micrometastases.
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the metabolic adaptation of ovarian cancer within the omental adipose niche.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven macrophage recruitment shapes the immunosuppressive ascites microenvironment of ovarian cancer.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation in the peritoneal microenvironment participates in the progression of ovarian cancer.
+- `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Endothelin-1 autocrine signaling participates in the proliferation, angiogenesis, and invasion of ovarian cancer.
 
 [^burger-2011-gog0218]: Burger RA, Brady MF, Bookman MA, et al. Incorporation of bevacizumab in the primary treatment of ovarian cancer. *N Engl J Med.* 2011;365(26):2473-2483. [doi:10.1056/NEJMoa1104390](https://doi.org/10.1056/NEJMoa1104390) · [PubMed 22204724](https://pubmed.ncbi.nlm.nih.gov/22204724/)
 [^moore-2018-olaparib-solo1]: Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. *N Engl J Med.* 2018;379(26):2495-2505. [doi:10.1056/NEJMoa1810858](https://doi.org/10.1056/NEJMoa1810858) · [PubMed 30345884](https://pubmed.ncbi.nlm.nih.gov/30345884/)
