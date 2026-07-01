@@ -385,6 +385,15 @@ cross_links:
   - target: 01-human/03-molecular/erk1-2
     relation: connects-to
     note: "ERK-MAPK signaling downstream of antigen and cytokine receptors transduces the activation and differentiation of immune cells."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "Class I PI3K (PIK3CA)-AKT signaling downstream of immune receptors drives the activation and expansion of lymphocytes across the immune system."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "mTOR integrates nutrient and immune signals to program the differentiation and effector function of T cells and other immune cells of the immune system."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "CCL2 and the chemokine network orchestrate the trafficking of monocytes and other leukocytes throughout the immune system."
 ---
 
 # Immune System
@@ -505,6 +514,9 @@ After primary response contraction, long-lived memory cells persist:
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors regulate lymphocyte homeostasis, tolerance, and the memory-versus-effector balance across the immune system.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β-SMAD signaling governs the regulatory-T-cell induction and peripheral immune tolerance central to the immune system.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling downstream of antigen and cytokine receptors transduces the activation and differentiation of immune cells.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Class I PI3K (PIK3CA)-AKT signaling downstream of immune receptors drives the activation and expansion of lymphocytes across the immune system.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR integrates nutrient and immune signals to program the differentiation and effector function of T cells and other immune cells of the immune system.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 and the chemokine network orchestrate the trafficking of monocytes and other leukocytes throughout the immune system.
 
 ## Pathology
 

@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/perforin
     relation: connects-to
     note: "Perforin-mediated cytotoxic T-cell activity contributes to the cellular immune injury of crescentic IgA nephropathy."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked metabolic signaling participates in the podocyte and mesangial-cell stress responses of IgA nephropathy."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "mTOR signaling in mesangial and immune cells participates in the proliferative response to IgA immune-complex deposition in IgA nephropathy."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy modulates the podocyte survival and mesangial-cell responses to immune-complex-driven injury in IgA nephropathy."
 ---
 
 # IgA Nephropathy
@@ -555,6 +564,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO regulates the mesangial-cell and immune-cell oxidative-stress responses relevant to the glomerular injury of IgA nephropathy.
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β participates in the podocyte and mesangial signaling that drives the proteinuria and glomerulosclerosis of IgA nephropathy.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated cytotoxic T-cell activity contributes to the cellular immune injury of crescentic IgA nephropathy.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the podocyte and mesangial-cell stress responses of IgA nephropathy.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR signaling in mesangial and immune cells participates in the proliferative response to IgA immune-complex deposition in IgA nephropathy.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the podocyte survival and mesangial-cell responses to immune-complex-driven injury in IgA nephropathy.
 
 ---
 
