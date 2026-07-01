@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/src-kinase
     relation: connects-to
     note: "SRC-kinase signaling downstream of receptor tyrosine kinases (EGFR, KIT, MET, and PDGFR already mapped) drives the invasive signaling of MPNST."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy supports the survival and therapy resistance of malignant peripheral nerve sheath tumor cells."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "ARID1A-containing SWI/SNF chromatin remodeling contributes, alongside PRC2 loss, to the epigenetic dysregulation of malignant peripheral nerve sheath tumor."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked metabolic signaling participates in the metabolic adaptation of malignant peripheral nerve sheath tumor."
 ---
 
 # MPNST
@@ -603,6 +612,9 @@ Wide local excision with negative margins is the only potentially curative inter
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the Wnt/β-catenin and survival signaling of the NF1-deficient cells of MPNST.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins shape the inflammatory microenvironment of the NF1-associated MPNST.
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-kinase signaling downstream of receptor tyrosine kinases (EGFR, KIT, MET, and PDGFR already mapped) drives the invasive signaling of MPNST.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy supports the survival and therapy resistance of malignant peripheral nerve sheath tumor cells.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling contributes, alongside PRC2 loss, to the epigenetic dysregulation of malignant peripheral nerve sheath tumor.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the metabolic adaptation of malignant peripheral nerve sheath tumor.
 
 [^evans-2002-mpnst-nf1]: Evans DGR, Baser ME, McGaughran J, et al. Malignant peripheral nerve sheath tumours in neurofibromatosis 1. *J Med Genet.* 2002;39(5):311-314. [doi:10.1136/jmg.39.5.311](https://doi.org/10.1136/jmg.39.5.311) · [PubMed 12011145](https://pubmed.ncbi.nlm.nih.gov/12011145/)
 [^lee-2014-mpnst-prc2]: Lee W, Teckie S, Wiesner T, et al. PRC2 is recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve sheath tumors. *Nat Genet.* 2014;46(11):1227-1232. [doi:10.1038/ng.3095](https://doi.org/10.1038/ng.3095) · [PubMed 25240281](https://pubmed.ncbi.nlm.nih.gov/25240281/)
