@@ -364,6 +364,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "HIF-1α-linked mitochondrial and metabolic dysfunction is implicated in the bioenergetic dysregulation of bipolar disorder."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK signaling, coupled to mitochondrial energetics (mTOR already mapped), participates in the bioenergetic dysfunction implicated in bipolar disorder."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation contributes to the epigenetic dysregulation of neuronal gene expression associated with bipolar disorder."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy, induced by the mood stabilizer lithium, participates in the neuroprotective mechanisms relevant to bipolar disorder."
 ---
 
 # Bipolar Disorder
@@ -609,6 +618,9 @@ During bipolar depression (often longer and more disabling than mania):
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO downstream of the PI3K-AKT-GSK-3β axis (AKT, PIK3CA, and the lithium target GSK-3β already mapped) regulates neuronal resilience and oxidative-stress handling implicated in bipolar disorder.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins reflect the peripheral myeloid inflammatory activation linked to mood episodes in bipolar disorder.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α-linked mitochondrial and metabolic dysfunction is implicated in the bioenergetic dysregulation of bipolar disorder.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK signaling, coupled to mitochondrial energetics (mTOR already mapped), participates in the bioenergetic dysfunction implicated in bipolar disorder.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the epigenetic dysregulation of neuronal gene expression associated with bipolar disorder.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy, induced by the mood stabilizer lithium, participates in the neuroprotective mechanisms relevant to bipolar disorder.
 
 [^grande-2016-bipolar-review]: Grande I, Berk M, Birmaher B, Vieta E. Bipolar disorder. *Lancet.* 2016;387(10027):1561-1572. [doi:10.1016/S0140-6736(15)00241-X](https://doi.org/10.1016/S0140-6736(15)00241-X) · [PubMed 26388529](https://pubmed.ncbi.nlm.nih.gov/26388529/)
 [^geddes-2013-bipolar-treatment]: Geddes JR, Miklowitz DJ. Treatment of bipolar disorder. *Lancet.* 2013;381(9878):1672-1682. [doi:10.1016/S0140-6736(13)60857-0](https://doi.org/10.1016/S0140-6736(13)60857-0) · [PubMed 23663953](https://pubmed.ncbi.nlm.nih.gov/23663953/)
