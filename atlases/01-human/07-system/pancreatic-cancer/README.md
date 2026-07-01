@@ -355,6 +355,15 @@ cross_links:
   - target: 01-human/03-molecular/foxo
     relation: connects-to
     note: "FOXO tumour-suppressor activity, antagonised by KRAS-driven PI3K-AKT signalling, is lost in the progression of pancreatic cancer."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Perforin-delivered cytotoxic killing by CD8 T and NK cells is the immune-clearance axis that the immune-cold, desmoplastic pancreatic cancer evades."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis in pancreatic cancer."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins from myeloid-derived suppressor cells shape the immunosuppressive desmoplastic stroma of pancreatic cancer."
 ---
 
 # Pancreatic Cancer
@@ -587,6 +596,9 @@ cross_links:
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the weak antitumor immunity of the immunologically cold pancreatic ductal adenocarcinoma.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDKN2A loss (CDKN2A and cyclin-D1 already mapped) releases CDK4/6-cyclin-D control of the cell cycle, a near-universal lesion in pancreatic cancer.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO tumor-suppressor activity, antagonized by KRAS-driven PI3K-AKT signaling, is lost in the progression of pancreatic cancer.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-delivered cytotoxic killing by CD8 T and NK cells is the immune-clearance axis that the immune-cold, desmoplastic pancreatic cancer evades.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis in pancreatic cancer.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins from myeloid-derived suppressor cells shape the immunosuppressive desmoplastic stroma of pancreatic cancer.
 
 ---
 
