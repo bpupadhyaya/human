@@ -354,6 +354,15 @@ cross_links:
   - target: 01-human/03-molecular/cdk4-6
     relation: connects-to
     note: "HCV core and NS proteins dysregulate the cyclin-D-CDK4/6-RB axis to drive hepatocyte cell-cycle entry in hepatitis-C-related hepatocellular carcinoma."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the Wnt/β-catenin and survival signaling implicated in HCV-driven hepatocarcinogenesis."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "MDM2-mediated p53 degradation contributes to the malignant progression of chronic hepatitis C."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins amplify the necroinflammatory liver injury of chronic hepatitis C."
 ---
 
 # Hepatitis C
@@ -592,3 +601,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — HCV-induced PI3K-AKT signaling inactivates FOXO, promoting hepatocyte survival and the metabolic dysregulation of chronic hepatitis C.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HCV proteins induce HIF-1α, supporting the angiogenesis and metabolic reprogramming of hepatitis-C-associated steatosis and hepatocarcinogenesis.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — HCV core and NS proteins dysregulate the cyclin-D-CDK4/6-RB axis to drive hepatocyte cell-cycle entry in hepatitis-C-related hepatocellular carcinoma.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the Wnt/β-catenin and survival signaling implicated in HCV-driven hepatocarcinogenesis.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated p53 degradation contributes to the malignant progression of chronic hepatitis C.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins amplify the necroinflammatory liver injury of chronic hepatitis C.

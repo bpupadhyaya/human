@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/foxo
     relation: connects-to
     note: "FOXO downstream of bradykinin-PI3K-AKT signaling (AKT and PIK3CA already mapped) regulates the endothelial oxidative-stress and barrier responses in hereditary angioedema."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the endothelial and inflammatory signaling relevant to the vascular permeability of hereditary angioedema attacks."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins reflect the inflammatory activation accompanying hereditary angioedema attacks."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "mTOR signaling downstream of PI3K-AKT (AKT already mapped) participates in the endothelial-barrier regulation relevant to the swelling of hereditary angioedema."
 ---
 
 # Hereditary Angioedema
@@ -606,6 +615,9 @@ Fluid extravasation → ANGIOEDEMA
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK1/2-STAT cytokine signaling (IL-6 already mapped) modulates the endothelial inflammatory tone that influences attack susceptibility in hereditary angioedema.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α-VEGF signaling (VEGF already mapped) heightens the vascular permeability that underlies the bradykinin-driven swelling of hereditary angioedema.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO downstream of bradykinin-PI3K-AKT signaling (AKT and PIK3CA already mapped) regulates the endothelial oxidative-stress and barrier responses in hereditary angioedema.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the endothelial and inflammatory signaling relevant to the vascular permeability of hereditary angioedema attacks.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins reflect the inflammatory activation accompanying hereditary angioedema attacks.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR signaling downstream of PI3K-AKT (AKT already mapped) participates in the endothelial-barrier regulation relevant to the swelling of hereditary angioedema.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)
