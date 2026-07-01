@@ -360,6 +360,15 @@ cross_links:
   - target: 01-human/03-molecular/s100a8-a9
     relation: connects-to
     note: "S100A8/A9 alarmins reflect the chronic myeloid inflammatory activation linked to the iron overload of thalassemia."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the erythroid-progenitor survival and metabolic signaling relevant to the ineffective erythropoiesis of thalassemia."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped) transduces the erythropoietin survival signal in the expanded but ineffective erythroid precursors of thalassemia."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK metabolic signaling participates in the oxidative and iron-overload stress responses of thalassemia."
 ---
 
 # Thalassemia
@@ -618,6 +627,9 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO regulates the erythroid progenitor oxidative-stress and survival programs disrupted in the ineffective erythropoiesis of thalassemia.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the inflammatory tone accompanying the chronic hemolysis and transfusion exposure of thalassemia.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins reflect the chronic myeloid inflammatory activation linked to the iron overload of thalassemia.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the erythroid-progenitor survival and metabolic signaling relevant to the ineffective erythropoiesis of thalassemia.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) transduces the erythropoietin survival signal in the expanded but ineffective erythroid precursors of thalassemia.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK metabolic signaling participates in the oxidative and iron-overload stress responses of thalassemia.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.

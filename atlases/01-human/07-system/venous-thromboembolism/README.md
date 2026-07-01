@@ -361,6 +361,15 @@ cross_links:
   - target: 01-human/03-molecular/jak1-2
     relation: connects-to
     note: "JAK1/2-STAT cytokine signaling (IL-6-STAT3 already mapped) amplifies the inflammatory endothelial and platelet activation driving the thromboinflammation of venous thromboembolism."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the platelet-activation and endothelial signaling relevant to the thrombus formation of venous thromboembolism."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "mTOR signaling in activated endothelium and immune cells participates in the immunothrombosis of venous thromboembolism."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK metabolic signaling in endothelial cells modulates the vascular homeostasis whose disruption promotes venous thromboembolism."
 ---
 
 # Venous Thromboembolism
@@ -594,6 +603,9 @@ cross_links:
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO downstream of PI3K-AKT signaling (AKT and PIK3CA already mapped) regulates the endothelial quiescence-versus-activation balance relevant to venous thromboembolism.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling modulates the endothelial inflammatory activation that contributes to venous thrombosis.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK1/2-STAT cytokine signaling (IL-6-STAT3 already mapped) amplifies the inflammatory endothelial and platelet activation driving the thromboinflammation of venous thromboembolism.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the platelet-activation and endothelial signaling relevant to the thrombus formation of venous thromboembolism.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR signaling in activated endothelium and immune cells participates in the immunothrombosis of venous thromboembolism.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK metabolic signaling in endothelial cells modulates the vascular homeostasis whose disruption promotes venous thromboembolism.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)
