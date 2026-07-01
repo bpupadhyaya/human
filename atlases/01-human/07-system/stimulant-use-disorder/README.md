@@ -367,6 +367,15 @@ cross_links:
   - target: 01-human/03-molecular/dnmt3a
     relation: connects-to
     note: "DNMT3A-mediated DNA methylation in the reward circuit contributes to the persistent neuroadaptations and relapse vulnerability of stimulant use disorder."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy modulates the neuronal and reward-circuit homeostasis implicated in stimulant use disorder."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling participates in the dopamine-transporter regulation and synaptic plasticity of stimulant use disorder."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven neuroimmune signaling participates in the neuroinflammation associated with stimulant use disorder."
 ---
 
 # Stimulant Use Disorder
@@ -605,6 +614,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) mediates the synaptic-plasticity neuroadaptations of the reward circuit in stimulant use disorder.
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK metabolic signaling participates in the neuronal energetic and oxidative stress of chronic stimulant exposure in stimulant use disorder.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation in the reward circuit contributes to the persistent neuroadaptations and relapse vulnerability of stimulant use disorder.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the neuronal and reward-circuit homeostasis implicated in stimulant use disorder.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the dopamine-transporter regulation and synaptic plasticity of stimulant use disorder.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven neuroimmune signaling participates in the neuroinflammation associated with stimulant use disorder.
 
 ## Treatment
 

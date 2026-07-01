@@ -370,6 +370,15 @@ cross_links:
   - target: 01-human/03-molecular/ampk
     relation: connects-to
     note: "AMPK signaling, activated by the energy crisis of cerebral ischemia, shapes the metabolic and autophagic response to stroke."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy modulates the neuronal survival and injury responses to the ischemic and reperfusion stress of stroke."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling participates in the blood-brain-barrier disruption and excitotoxic injury of stroke."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven leukocyte infiltration contributes to the post-ischemic neuroinflammation and modulates recovery after stroke."
 ---
 
 # Stroke
@@ -591,6 +600,9 @@ Normal brain maintains CBF constant (50-150 mmHg MAP range) via autoregulation (
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β activation contributes to the neuronal apoptosis and blood-brain-barrier injury of ischemic stroke, a target for neuroprotection.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) mediates the neuronal survival and pro-recovery pathways in stroke.
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK signaling, activated by the energy crisis of cerebral ischemia, shapes the metabolic and autophagic response to stroke.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the neuronal survival and injury responses to the ischemic and reperfusion stress of stroke.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the blood-brain-barrier disruption and excitotoxic injury of stroke.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven leukocyte infiltration contributes to the post-ischemic neuroinflammation and modulates recovery after stroke.
 
 [^powers-2019-aha-stroke]: Powers WJ, Rabinstein AA, Ackerson T, et al. Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines. *Stroke.* 2019;50(12):e344-e418. [doi:10.1161/STR.0000000000000211](https://doi.org/10.1161/STR.0000000000000211) · [PubMed 31662037](https://pubmed.ncbi.nlm.nih.gov/31662037/)
 [^feigin-2021-gbd-stroke]: Feigin VL, Krishnamurthi RV, Parmar P, et al. Update on the Global Burden of Ischemic and Hemorrhagic Stroke in 1990-2013. *Neuroepidemiology.* 2015;45(3):161-176. [doi:10.1159/000441085](https://doi.org/10.1159/000441085) · [PubMed 26505981](https://pubmed.ncbi.nlm.nih.gov/26505981/)
