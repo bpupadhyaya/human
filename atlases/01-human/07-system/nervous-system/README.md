@@ -376,6 +376,15 @@ cross_links:
   - target: 01-human/03-molecular/ampk
     relation: connects-to
     note: "AMPK integrates the energy status of neurons and glia to their metabolic and autophagic homeostasis across the nervous system."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy maintains the neuronal proteostasis and synaptic homeostasis of the nervous system."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling downstream of neurotrophin and glutamate receptors participates in the synaptic plasticity of the nervous system."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation participates in the epigenetic regulation of neuronal identity and synaptic-plasticity gene expression of the nervous system."
 ---
 
 # Nervous System
@@ -531,6 +540,9 @@ Distributed cortical networks underlie language (Broca's area, Wernicke's area, 
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped), downstream of neurotrophin-TrkB (BDNF and NTRK already mapped), governs the neuronal survival and synaptic plasticity of the nervous system.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB signaling in neurons and glia regulates the neuroinflammatory and synaptic-plasticity responses of the nervous system.
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK integrates the energy status of neurons and glia to their metabolic and autophagic homeostasis across the nervous system.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy maintains the neuronal proteostasis and synaptic homeostasis of the nervous system.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of neurotrophin and glutamate receptors participates in the synaptic plasticity of the nervous system.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the epigenetic regulation of neuronal identity and synaptic-plasticity gene expression of the nervous system.
 
 ## Pathology
 
