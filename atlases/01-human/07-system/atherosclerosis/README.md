@@ -373,6 +373,15 @@ cross_links:
   - target: 01-human/03-molecular/ampk
     relation: connects-to
     note: "AMPK signaling, a regulator of vascular lipid metabolism and inflammation, is atheroprotective and its dysregulation promotes atherosclerosis."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy (including macrophage lipophagy) modulates the foam-cell formation and plaque stability of atherosclerosis."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling participates in the endothelial activation and vascular-smooth-muscle responses of atherosclerosis."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven monocyte recruitment into the arterial wall drives the inflammation of atherosclerosis."
 ---
 
 # Atherosclerosis
@@ -605,6 +614,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the macrophage inflammatory and foam-cell signaling within the atherosclerotic plaque.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) participates in the endothelial activation and macrophage survival of the atherosclerotic lesion.
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK signaling, a regulator of vascular lipid metabolism and inflammation, is atheroprotective and its dysregulation promotes atherosclerosis.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy (including macrophage lipophagy) modulates the foam-cell formation and plaque stability of atherosclerosis.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the endothelial activation and vascular-smooth-muscle responses of atherosclerosis.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven monocyte recruitment into the arterial wall drives the inflammation of atherosclerosis.
 
 ---
 

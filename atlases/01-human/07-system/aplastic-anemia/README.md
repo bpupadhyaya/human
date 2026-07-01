@@ -367,6 +367,15 @@ cross_links:
   - target: 01-human/03-molecular/autophagy
     relation: connects-to
     note: "Autophagy modulates the survival of the residual hematopoietic stem cells under the immune and oxidative stress of aplastic anemia."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked immunometabolic signaling shapes the autoreactive T-cell metabolism driving the marrow failure of aplastic anemia."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven T-cell recruitment into the bone marrow contributes to the immune destruction of hematopoietic stem cells in aplastic anemia."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "MDM2-p53 signaling participates in the apoptotic destruction of hematopoietic stem and progenitor cells in aplastic anemia."
 ---
 
 # Aplastic Anemia
@@ -596,6 +605,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) supports the survival of the autoreactive T cells that attack the hematopoietic stem cells of aplastic anemia.
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family (LCK) kinase signaling downstream of the T-cell receptor drives the cytotoxic T-cell activation that destroys the marrow in aplastic anemia.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the survival of the residual hematopoietic stem cells under the immune and oxidative stress of aplastic anemia.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked immunometabolic signaling shapes the autoreactive T-cell metabolism driving the marrow failure of aplastic anemia.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven T-cell recruitment into the bone marrow contributes to the immune destruction of hematopoietic stem cells in aplastic anemia.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-p53 signaling participates in the apoptotic destruction of hematopoietic stem and progenitor cells in aplastic anemia.
 
 ---
 
