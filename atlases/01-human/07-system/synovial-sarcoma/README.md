@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/perforin
     relation: connects-to
     note: "Perforin-mediated CD8 cytotoxicity is the effector mechanism of the NY-ESO-1-directed cell therapy used in synovial sarcoma."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the Wnt/β-catenin signaling aberrantly activated by the SS18-SSX fusion of synovial sarcoma."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins shape the immunosuppressive tumor microenvironment of synovial sarcoma."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation contributes to the epigenetic dysregulation that cooperates with the BAF-complex disruption of synovial sarcoma."
 ---
 
 # Synovial Sarcoma
@@ -585,6 +594,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antitumor immune response of synovial sarcoma, relevant to its NY-ESO-1-directed cell therapy.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors, restrained by the PI3K-AKT axis, modulate the survival of the SS18-SSX-driven cells of synovial sarcoma.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated CD8 cytotoxicity is the effector mechanism of the NY-ESO-1-directed cell therapy used in synovial sarcoma.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the Wnt/β-catenin signaling aberrantly activated by the SS18-SSX fusion of synovial sarcoma.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins shape the immunosuppressive tumor microenvironment of synovial sarcoma.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the epigenetic dysregulation that cooperates with the BAF-complex disruption of synovial sarcoma.
 
 ---
 
