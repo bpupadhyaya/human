@@ -347,6 +347,15 @@ cross_links:
   - target: 01-human/03-molecular/stat1
     relation: connects-to
     note: "IFN-STAT1 signalling shapes the antimicrobial and immune defence of the reproductive tract, balancing protection against tolerance."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO transcription factors (notably FOXO3) govern the ovarian follicle reserve and spermatogenic-cell survival across the reproductive system."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β signaling regulates oocyte maturation and the Wnt-dependent gonadal and uterine developmental programs of the reproductive system."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "HIF-1α couples the hypoxic niches of the ovarian follicle and testis to the angiogenesis and metabolic adaptation of the reproductive system."
 ---
 
 # Reproductive System
@@ -572,6 +581,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 (JAK1/2 already mapped) transduces gonadal cytokine and hormone signals governing ovarian, testicular and uterine function in the reproductive system.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 contributes to the immune tolerance and tissue remodeling of the maternal-fetal interface and reproductive tissues.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the antimicrobial and immune defense of the reproductive tract, balancing protection against tolerance.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors (notably FOXO3) govern the ovarian follicle reserve and spermatogenic-cell survival across the reproductive system.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β signaling regulates oocyte maturation and the Wnt-dependent gonadal and uterine developmental programs of the reproductive system.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α couples the hypoxic niches of the ovarian follicle and testis to the angiogenesis and metabolic adaptation of the reproductive system.
 
 ## Pathology
 
