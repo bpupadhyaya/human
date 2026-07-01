@@ -366,6 +366,15 @@ cross_links:
   - target: 01-human/03-molecular/s100a8-a9
     relation: connects-to
     note: "S100A8/A9 alarmins from infiltrating macrophages amplify the inflammatory nerve injury of CIDP."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the T-cell and macrophage inflammatory signaling that drives the demyelination of chronic inflammatory demyelinating polyneuropathy."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped) supports the survival and activation of the autoreactive T and B cells of chronic inflammatory demyelinating polyneuropathy."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "HIF-1α in the inflamed peripheral nerve contributes to the metabolic and inflammatory milieu of chronic inflammatory demyelinating polyneuropathy."
 ---
 
 # CIDP
@@ -624,6 +633,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO regulates the autoreactive lymphocyte tolerance and Schwann-cell oxidative-stress responses relevant to the demyelination of CIDP.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ERK-MAPK signaling transduces the macrophage and Schwann-cell responses driving the demyelination of CIDP.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins from infiltrating macrophages amplify the inflammatory nerve injury of CIDP.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the T-cell and macrophage inflammatory signaling that drives the demyelination of chronic inflammatory demyelinating polyneuropathy.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) supports the survival and activation of the autoreactive T and B cells of chronic inflammatory demyelinating polyneuropathy.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α in the inflamed peripheral nerve contributes to the metabolic and inflammatory milieu of chronic inflammatory demyelinating polyneuropathy.
 
 ---
 
