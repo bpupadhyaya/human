@@ -367,6 +367,15 @@ cross_links:
   - target: 01-human/03-molecular/src-kinase
     relation: connects-to
     note: "SRC-family kinase signaling contributes to the invasive and survival signaling of atypical teratoid/rhabdoid tumor."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked metabolic signaling participates in the metabolic vulnerabilities of the SMARCB1-deficient cells of atypical teratoid/rhabdoid tumor."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven myeloid recruitment shapes the immunosuppressive microenvironment of atypical teratoid/rhabdoid tumor."
+  - target: 01-human/03-molecular/yap1
+    relation: connects-to
+    note: "YAP1-Hippo signaling, de-repressed by SMARCB1 loss, contributes to the proliferation of atypical teratoid/rhabdoid tumor."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -602,6 +611,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β regulates the GLI and β-catenin stability (SHH/SMO and WNT already mapped) of the developmental-signaling programs of atypical teratoid/rhabdoid tumor.
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis in atypical teratoid/rhabdoid tumor.
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling contributes to the invasive and survival signaling of atypical teratoid/rhabdoid tumor.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the metabolic vulnerabilities of the SMARCB1-deficient cells of atypical teratoid/rhabdoid tumor.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven myeloid recruitment shapes the immunosuppressive microenvironment of atypical teratoid/rhabdoid tumor.
+- `connects-to` → **[YAP1](../../03-molecular/yap1/README.md)** — YAP1-Hippo signaling, de-repressed by SMARCB1 loss, contributes to the proliferation of atypical teratoid/rhabdoid tumor.
 
 ---
 
