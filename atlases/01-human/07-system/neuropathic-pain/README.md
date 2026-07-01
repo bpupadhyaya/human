@@ -348,6 +348,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "HIF-1α in injured nerve and dorsal-root ganglia contributes to the metabolic and inflammatory adaptation driving neuropathic pain."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked metabolic signaling modulates the neuronal and glial responses underlying the central sensitization of neuropathic pain."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling, via microglial P2X4 and NMDA-receptor phosphorylation, participates in the central sensitization of neuropathic pain."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation contributes to the epigenetic reprogramming of the dorsal-root-ganglion neurons in neuropathic pain."
 sources:
   - id: jensen-2011-neuropathic-pain-review
     type: peer-reviewed
@@ -621,6 +630,9 @@ Chronic neuropathic pain carries significant psychological burden:
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) in dorsal-horn neurons and glia contributes to the central sensitization of neuropathic pain.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins released after nerve injury amplify the neuroinflammation underlying neuropathic pain.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α in injured nerve and dorsal-root ganglia contributes to the metabolic and inflammatory adaptation driving neuropathic pain.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling modulates the neuronal and glial responses underlying the central sensitization of neuropathic pain.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling, via microglial P2X4 and NMDA-receptor phosphorylation, participates in the central sensitization of neuropathic pain.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the epigenetic reprogramming of the dorsal-root-ganglion neurons in neuropathic pain.
 
 [^jensen-2011-neuropathic-pain-review]: Jensen TS, Baron R, Haanpää M, et al. A new definition of neuropathic pain. *Pain.* 2011;152(10):2204-2205. [doi:10.1016/j.pain.2011.06.017](https://doi.org/10.1016/j.pain.2011.06.017) · [PubMed 21764514](https://pubmed.ncbi.nlm.nih.gov/21764514/)
 [^dworkin-2010-neuropathic-pain-treatment]: Dworkin RH, O'Connor AB, Audette J, et al. Recommendations for the pharmacological management of neuropathic pain. *Mayo Clin Proc.* 2010;85(3 Suppl):S3-14. [doi:10.4065/mcp.2009.0649](https://doi.org/10.4065/mcp.2009.0649) · [PubMed 20194146](https://pubmed.ncbi.nlm.nih.gov/20194146/)

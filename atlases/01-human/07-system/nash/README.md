@@ -367,6 +367,15 @@ cross_links:
   - target: 01-human/03-molecular/src-kinase
     relation: connects-to
     note: "SRC-family kinase signaling participates in the hepatic stellate-cell activation driving the fibrosis of non-alcoholic steatohepatitis."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped), downstream of insulin, participates in the hepatic lipogenesis and insulin resistance of non-alcoholic steatohepatitis."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy (lipophagy) modulates the hepatocyte lipid handling and survival whose failure contributes to non-alcoholic steatohepatitis."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven monocyte recruitment amplifies the hepatic inflammation and fibrosis of non-alcoholic steatohepatitis."
 ---
 
 # NASH
@@ -572,6 +581,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the hepatic insulin signaling and inflammatory-fibrotic pathways of non-alcoholic steatohepatitis.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-bearing cytotoxic CD8 T and NKT cells contribute to the hepatocyte injury and progression of non-alcoholic steatohepatitis.
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the hepatic stellate-cell activation driving the fibrosis of non-alcoholic steatohepatitis.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped), downstream of insulin, participates in the hepatic lipogenesis and insulin resistance of non-alcoholic steatohepatitis.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy (lipophagy) modulates the hepatocyte lipid handling and survival whose failure contributes to non-alcoholic steatohepatitis.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven monocyte recruitment amplifies the hepatic inflammation and fibrosis of non-alcoholic steatohepatitis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
