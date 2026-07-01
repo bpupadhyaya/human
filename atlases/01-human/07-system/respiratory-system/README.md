@@ -369,6 +369,15 @@ cross_links:
   - target: 01-human/03-molecular/s100a8-a9
     relation: connects-to
     note: "S100A8/A9 alarmins participate in the innate inflammatory signaling of the airway and alveolar responses of the respiratory system."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked metabolic signaling participates in the airway epithelial and alveolar energy homeostasis of the respiratory system."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy maintains the airway epithelial and alveolar-macrophage homeostasis and host defense of the respiratory system."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "mTOR signaling coordinates the growth, surfactant metabolism, and immune responses of the respiratory system."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -567,6 +576,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Connects-to** → [GSK-3β](../../03-molecular/gsk-3b/README.md): airway inflammation: GSK-3β modulates the airway inflammatory and epithelial-repair signaling of the respiratory system.
 - **Connects-to** → [PIK3CA](../../03-molecular/pik3ca/README.md): epithelial growth and immunity: PI3K (PIK3CA)-AKT signaling (AKT already mapped) governs the airway epithelial proliferation, survival, and immune responses of the respiratory system.
 - **Connects-to** → [S100A8/A9](../../03-molecular/s100a8-a9/README.md): innate airway inflammation: S100A8/A9 alarmins participate in the innate inflammatory signaling of the airway and alveolar responses of the respiratory system.
+- **Connects-to** → [AMPK](../../03-molecular/ampk/README.md): airway energy homeostasis: AMPK-linked metabolic signaling participates in the airway epithelial and alveolar energy homeostasis of the respiratory system.
+- **Connects-to** → [Autophagy](../../03-molecular/autophagy/README.md): epithelial homeostasis and defense: Autophagy maintains the airway epithelial and alveolar-macrophage homeostasis and host defense of the respiratory system.
+- **Connects-to** → [mTOR](../../03-molecular/mtor/README.md): growth and surfactant metabolism: mTOR signaling coordinates the growth, surfactant metabolism, and immune responses of the respiratory system.
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.
 
 ## Pathology

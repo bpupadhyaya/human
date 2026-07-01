@@ -370,6 +370,15 @@ cross_links:
   - target: 01-human/03-molecular/ampk
     relation: connects-to
     note: "AMPK signaling regulates the immunometabolic reprogramming and autophagy that shape the host response and organ dysfunction of sepsis."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy modulates the immune-cell and organ-parenchymal responses whose dysregulation contributes to the organ dysfunction of sepsis."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling participates in the endothelial barrier dysfunction and leukocyte activation of sepsis."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven leukocyte recruitment contributes to the dysregulated immune response of sepsis."
 ---
 
 # Sepsis
@@ -593,6 +602,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the NF-κB-driven hyperinflammatory and immunometabolic signaling of the dysregulated host response of sepsis.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Class I PI3K (PIK3CA)-AKT signaling (AKT already mapped) governs the immune-cell activation and later immunoparalysis of sepsis.
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK signaling regulates the immunometabolic reprogramming and autophagy that shape the host response and organ dysfunction of sepsis.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the immune-cell and organ-parenchymal responses whose dysregulation contributes to the organ dysfunction of sepsis.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the endothelial barrier dysfunction and leukocyte activation of sepsis.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven leukocyte recruitment contributes to the dysregulated immune response of sepsis.
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
