@@ -361,6 +361,15 @@ cross_links:
   - target: 01-human/03-molecular/jak1-2
     relation: connects-to
     note: "JAK1/2-STAT cytokine signaling (IL-6-STAT3 already mapped) amplifies the vascular inflammation driving premature atherosclerosis in familial hypercholesterolemia."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the inflammatory and metabolic signaling in the vascular wall that accelerates atherosclerosis in familial hypercholesterolemia."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK signaling, a regulator of hepatic and vascular lipid metabolism, participates in the metabolic context of familial hypercholesterolemia."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Perforin-bearing cytotoxic T cells in the atherosclerotic plaque contribute to the vascular inflammation and plaque instability of familial hypercholesterolemia."
 ---
 
 # Familial Hypercholesterolemia
@@ -583,6 +592,9 @@ FH is a **monogenic autosomal dominant disorder** caused by mutations in three g
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors regulate hepatic lipid metabolism and the endothelial oxidative-stress response relevant to the accelerated atherosclerosis of familial hypercholesterolemia.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling shapes the macrophage inflammatory activation within the cholesterol-laden atherosclerotic plaques of familial hypercholesterolemia.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK1/2-STAT cytokine signaling (IL-6-STAT3 already mapped) amplifies the vascular inflammation driving premature atherosclerosis in familial hypercholesterolemia.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the inflammatory and metabolic signaling in the vascular wall that accelerates atherosclerosis in familial hypercholesterolemia.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK signaling, a regulator of hepatic and vascular lipid metabolism, participates in the metabolic context of familial hypercholesterolemia.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-bearing cytotoxic T cells in the atherosclerotic plaque contribute to the vascular inflammation and plaque instability of familial hypercholesterolemia.
 
 [^goldstein-1985-ldlr-nobel]: Goldstein JL, Brown MS. The LDL receptor. *Arterioscler Thromb Vasc Biol.* 2009;29(4):431-438. [doi:10.1161/ATVBAHA.108.179564](https://doi.org/10.1161/ATVBAHA.108.179564) · [PubMed 19299327](https://pubmed.ncbi.nlm.nih.gov/19299327/)
 [^raal-2020-inclisiran-fh]: Raal FJ, Kallend D, Ray KK, et al. Inclisiran for the Treatment of Heterozygous Familial Hypercholesterolemia. *N Engl J Med.* 2020;382(16):1520-1530. [doi:10.1056/NEJMoa1913805](https://doi.org/10.1056/NEJMoa1913805) · [PubMed 32197277](https://pubmed.ncbi.nlm.nih.gov/32197277/)
