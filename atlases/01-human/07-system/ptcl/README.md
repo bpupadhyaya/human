@@ -367,6 +367,15 @@ cross_links:
   - target: 01-human/03-molecular/autophagy
     relation: connects-to
     note: "Autophagy supports the survival and chemoresistance of peripheral T-cell lymphoma cells."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked metabolic signaling participates in the metabolic adaptation of peripheral T-cell lymphoma."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-family chemokine signaling participates in the trafficking and microenvironment of peripheral T-cell lymphoma."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic dysregulation (alongside TET2/DNMT3A/IDH2 mutations) of peripheral T-cell lymphoma."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -628,6 +637,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family (LCK/FYN) kinase signaling downstream of the T-cell receptor supports the survival of the malignant T cells of peripheral T-cell lymphoma.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins shape the inflammatory microenvironment of peripheral T-cell lymphoma.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy supports the survival and chemoresistance of peripheral T-cell lymphoma cells.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the metabolic adaptation of peripheral T-cell lymphoma.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-family chemokine signaling participates in the trafficking and microenvironment of peripheral T-cell lymphoma.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic dysregulation (alongside TET2/DNMT3A/IDH2 mutations) of peripheral T-cell lymphoma.
 
 ---
 

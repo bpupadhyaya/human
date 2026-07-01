@@ -373,6 +373,15 @@ cross_links:
   - target: 01-human/03-molecular/ampk
     relation: connects-to
     note: "AMPK-linked metabolic signaling participates in the Warburg-like metabolic shift of the remodeled pulmonary vasculature in pulmonary arterial hypertension."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy modulates the pulmonary-vascular-cell survival and proliferation in the vascular remodeling of pulmonary arterial hypertension."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven leukocyte recruitment contributes to the perivascular inflammation of pulmonary arterial hypertension."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation participates in the epigenetic dysregulation of the pulmonary-vascular-cell phenotype in pulmonary arterial hypertension."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -614,6 +623,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) drives the proliferation and apoptosis resistance of the pulmonary-artery smooth-muscle and endothelial cells in pulmonary arterial hypertension.
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of PDGFR and other receptors (PDGF already mapped) contributes to the vascular remodeling of pulmonary arterial hypertension.
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the Warburg-like metabolic shift of the remodeled pulmonary vasculature in pulmonary arterial hypertension.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the pulmonary-vascular-cell survival and proliferation in the vascular remodeling of pulmonary arterial hypertension.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven leukocyte recruitment contributes to the perivascular inflammation of pulmonary arterial hypertension.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the epigenetic dysregulation of the pulmonary-vascular-cell phenotype in pulmonary arterial hypertension.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
