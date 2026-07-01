@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/mdm2
     relation: connects-to
     note: "MDM2 participates in p53 regulation (p53 already mapped) that, alongside HPV-E6-mediated p53 degradation, restrains apoptosis in cervical cancer."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "Aberrant CDK4/6-cyclin-D activity (cyclin-D1 already mapped), reinforced by HPV-E7-driven RB degradation, drives the cell-cycle progression of cervical cancer."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling downstream of EGFR (EGFR already mapped) contributes to the invasion of cervical cancer."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation contributes to the epigenetic silencing of tumor-suppressor genes in HPV-driven cervical cancer."
 ---
 
 # Cervical Cancer
@@ -594,6 +603,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins from infiltrating myeloid cells shape the inflammatory microenvironment of cervical cancer.
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β regulates β-catenin and MYC stability (WNT-β-catenin and MYC already mapped), modulating the proliferative signaling of cervical cancer.
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2 participates in p53 regulation (p53 already mapped) that, alongside HPV-E6-mediated p53 degradation, restrains apoptosis in cervical cancer.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Aberrant CDK4/6-cyclin-D activity (cyclin-D1 already mapped), reinforced by HPV-E7-driven RB degradation, drives the cell-cycle progression of cervical cancer.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of EGFR (EGFR already mapped) contributes to the invasion of cervical cancer.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the epigenetic silencing of tumor-suppressor genes in HPV-driven cervical cancer.
 
 ---
 
