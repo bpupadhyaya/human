@@ -370,6 +370,15 @@ cross_links:
   - target: 01-human/03-molecular/foxo
     relation: connects-to
     note: "FOXO transcription factors regulate intestinal stem-cell homeostasis and the metabolic and oxidative-stress responses of the gut epithelium."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K-AKT signaling governs the proliferation and survival of the rapidly renewing intestinal epithelium of the digestive system."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "ERK-MAPK signaling downstream of growth-factor and hormone receptors drives the epithelial renewal and secretory responses of the digestive system."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β, within the Wnt destruction complex (Wnt already mapped), governs the crypt stem-cell renewal of the intestinal epithelium of the digestive system."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -576,6 +585,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [SMAD4](../../03-molecular/smad4/README.md) — epithelial homeostasis and fibrosis: TGF-β-SMAD signaling (TGF-β already mapped) governs epithelial homeostasis, mucosal fibrosis, and the regulatory immune tone of the digestive tract.
 - **Connects to:** [STAT3](../../03-molecular/stat3/README.md) — mucosal regeneration: IL-6-STAT3 signaling drives the epithelial regeneration and mucosal inflammatory tone of the gastrointestinal tract.
 - **Connects to:** [FOXO](../../03-molecular/foxo/README.md) — epithelial stem-cell homeostasis: FOXO transcription factors regulate intestinal stem-cell homeostasis and the metabolic and oxidative-stress responses of the gut epithelium.
+- **Connects to:** [AKT](../../03-molecular/akt/README.md) — epithelial renewal: PI3K-AKT signaling governs the proliferation and survival of the rapidly renewing intestinal epithelium of the digestive system.
+- **Connects to:** [ERK1/2](../../03-molecular/erk1-2/README.md) — growth-factor signaling: ERK-MAPK signaling downstream of growth-factor and hormone receptors drives the epithelial renewal and secretory responses of the digestive system.
+- **Connects to:** [GSK-3β](../../03-molecular/gsk-3b/README.md) — crypt stem-cell renewal: GSK-3β, within the Wnt destruction complex (Wnt already mapped), governs the crypt stem-cell renewal of the intestinal epithelium of the digestive system.
 
 ## Pathology
 

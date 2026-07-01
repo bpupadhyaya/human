@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/s100a8-a9
     relation: connects-to
     note: "S100A8/A9-RAGE signaling (RAGE already mapped) amplifies the inflammatory microvascular damage of diabetic retinopathy."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the inflammatory and Wnt/β-catenin signaling that drives the neovascularization and blood-retinal-barrier breakdown of diabetic retinopathy."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling downstream of VEGF (VEGF already mapped) mediates the vascular permeability and endothelial junctional disruption of diabetic retinopathy."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "CDK4/6-driven endothelial proliferation contributes to the pathological retinal neovascularization of proliferative diabetic retinopathy."
 ---
 
 # Diabetic Retinopathy
@@ -581,6 +590,9 @@ DR encompasses a spectrum from subtle vascular changes to sight-threatening neov
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling in retinal microglia and endothelium contributes to the chronic neuroinflammation of diabetic retinopathy.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO1 in retinal endothelial cells drives pericyte loss and the breakdown of the blood-retinal barrier in diabetic retinopathy.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9-RAGE signaling (RAGE already mapped) amplifies the inflammatory microvascular damage of diabetic retinopathy.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the inflammatory and Wnt/β-catenin signaling that drives the neovascularization and blood-retinal-barrier breakdown of diabetic retinopathy.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of VEGF (VEGF already mapped) mediates the vascular permeability and endothelial junctional disruption of diabetic retinopathy.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6-driven endothelial proliferation contributes to the pathological retinal neovascularization of proliferative diabetic retinopathy.
 
 [^fong-2004-dr-review]: Fong DS, Aiello L, Gardner TW, et al. Diabetic retinopathy. *Diabetes Care.* 2004;27(10):2540-2553. [doi:10.2337/diacare.27.10.2540](https://doi.org/10.2337/diacare.27.10.2540) · [PubMed 15451934](https://pubmed.ncbi.nlm.nih.gov/15451934/)
 [^brown-2015-aflibercept-protocol-t]: Diabetic Retinopathy Clinical Research Network; Wells JA, Glassman AR, et al. Aflibercept, Bevacizumab, or Ranibizumab for Diabetic Macular Edema. *N Engl J Med.* 2015;372(13):1193-1203. [doi:10.1056/NEJMoa1414264](https://doi.org/10.1056/NEJMoa1414264) · [PubMed 25692915](https://pubmed.ncbi.nlm.nih.gov/25692915/)
