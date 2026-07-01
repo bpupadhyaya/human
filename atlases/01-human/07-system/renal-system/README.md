@@ -370,6 +370,15 @@ cross_links:
   - target: 01-human/03-molecular/s100a8-a9
     relation: connects-to
     note: "S100A8/A9 alarmins participate in the inflammatory signaling of tubulointerstitial injury in the renal system."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK integrates the high energy demand of tubular transport, coupling the metabolism of the renal system to its reabsorptive function."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "NF-κB inflammatory signaling participates in the tubulointerstitial inflammation and injury responses of the renal system."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy maintains the podocyte and tubular-cell homeostasis and stress resilience of the renal system."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -582,6 +591,9 @@ Natriuretic counterpoint:
 - **Connects to:** [GSK-3β](../../03-molecular/gsk-3b/README.md) — nephron homeostasis: GSK-3β, within the Wnt/β-catenin signaling that governs nephron development and repair (Wnt already mapped), regulates the tubular and podocyte homeostasis of the renal system.
 - **Connects to:** [PIK3CA](../../03-molecular/pik3ca/README.md) — tubular growth and survival: PI3K (PIK3CA)-AKT signaling (AKT already mapped) governs the growth, survival, and metabolic homeostasis of the renal tubular epithelium.
 - **Connects to:** [S100A8/A9](../../03-molecular/s100a8-a9/README.md) — tubulointerstitial inflammation: S100A8/A9 alarmins participate in the inflammatory signaling of tubulointerstitial injury in the renal system.
+- **Connects to:** [AMPK](../../03-molecular/ampk/README.md) — tubular energy sensing: AMPK integrates the high energy demand of tubular transport, coupling the metabolism of the renal system to its reabsorptive function.
+- **Connects to:** [NF-κB](../../03-molecular/nf-kb/README.md) — tubulointerstitial inflammation: NF-κB inflammatory signaling participates in the tubulointerstitial inflammation and injury responses of the renal system.
+- **Connects to:** [Autophagy](../../03-molecular/autophagy/README.md) — podocyte homeostasis: Autophagy maintains the podocyte and tubular-cell homeostasis and stress resilience of the renal system.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 

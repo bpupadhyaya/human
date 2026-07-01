@@ -363,6 +363,15 @@ cross_links:
   - target: 01-human/03-molecular/pik3ca
     relation: connects-to
     note: "Class I PI3K (PIK3CA)-AKT signaling (AKT already mapped) is exploited by respiratory syncytial virus to support its replication and modulate airway epithelial survival."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Respiratory syncytial virus modulates host autophagy, which shapes the innate immune and inflammatory response to infection."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling participates in the airway epithelial and immune-cell responses to respiratory syncytial virus."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked metabolic signaling modulates the airway epithelial and immune-cell responses to respiratory syncytial virus."
 ---
 
 # RSV
@@ -622,3 +631,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the NF-κB-driven airway inflammation and the innate immune response to respiratory syncytial virus.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR signaling regulates the immune-cell metabolism and memory-response programming to respiratory syncytial virus.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Class I PI3K (PIK3CA)-AKT signaling (AKT already mapped) is exploited by respiratory syncytial virus to support its replication and modulate airway epithelial survival.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Respiratory syncytial virus modulates host autophagy, which shapes the innate immune and inflammatory response to infection.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the airway epithelial and immune-cell responses to respiratory syncytial virus.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling modulates the airway epithelial and immune-cell responses to respiratory syncytial virus.
