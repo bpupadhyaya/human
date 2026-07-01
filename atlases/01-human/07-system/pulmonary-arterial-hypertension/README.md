@@ -364,6 +364,15 @@ cross_links:
   - target: 01-human/03-molecular/cdk4-6
     relation: connects-to
     note: "CDK4/6-cyclin-D-driven proliferation of pulmonary-artery smooth-muscle cells contributes to the occlusive vascular remodeling of pulmonary arterial hypertension."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped) drives the proliferation and apoptosis resistance of the pulmonary-artery smooth-muscle and endothelial cells in pulmonary arterial hypertension."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling downstream of PDGFR and other receptors (PDGF already mapped) contributes to the vascular remodeling of pulmonary arterial hypertension."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked metabolic signaling participates in the Warburg-like metabolic shift of the remodeled pulmonary vasculature in pulmonary arterial hypertension."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -602,6 +611,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β signaling contributes to the proliferative, apoptosis-resistant phenotype of the pulmonary-artery smooth-muscle cells in pulmonary arterial hypertension.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins reflect the perivascular inflammation that drives the vascular remodeling of pulmonary arterial hypertension.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6-cyclin-D-driven proliferation of pulmonary-artery smooth-muscle cells contributes to the occlusive vascular remodeling of pulmonary arterial hypertension.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) drives the proliferation and apoptosis resistance of the pulmonary-artery smooth-muscle and endothelial cells in pulmonary arterial hypertension.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of PDGFR and other receptors (PDGF already mapped) contributes to the vascular remodeling of pulmonary arterial hypertension.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the Warburg-like metabolic shift of the remodeled pulmonary vasculature in pulmonary arterial hypertension.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

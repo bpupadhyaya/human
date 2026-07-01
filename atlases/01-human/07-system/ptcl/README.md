@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/mdm2
     relation: connects-to
     note: "MDM2-mediated p53 degradation restrains apoptosis in peripheral T-cell lymphoma."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family (LCK/FYN) kinase signaling downstream of the T-cell receptor supports the survival of the malignant T cells of peripheral T-cell lymphoma."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "S100A8/A9 alarmins shape the inflammatory microenvironment of peripheral T-cell lymphoma."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy supports the survival and chemoresistance of peripheral T-cell lymphoma cells."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -616,6 +625,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — PI3K-AKT signaling (AKT already mapped) inactivates FOXO, supporting the survival of the malignant T cells of peripheral T-cell lymphoma.
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the survival and Wnt/NF-κB signaling of peripheral T-cell lymphoma.
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated p53 degradation restrains apoptosis in peripheral T-cell lymphoma.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family (LCK/FYN) kinase signaling downstream of the T-cell receptor supports the survival of the malignant T cells of peripheral T-cell lymphoma.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins shape the inflammatory microenvironment of peripheral T-cell lymphoma.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy supports the survival and chemoresistance of peripheral T-cell lymphoma cells.
 
 ---
 
