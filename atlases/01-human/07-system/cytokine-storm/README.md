@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/btk
     relation: connects-to
     note: "BTK signaling in macrophages amplifies the inflammatory cytokine release of cytokine storm, the rationale for BTK inhibition in severe cases."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK signaling regulates the immunometabolic reprogramming of the hyperactivated immune cells driving the cytokine storm."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling downstream of Fc and cytokine receptors amplifies the myeloid and lymphocyte activation of the cytokine storm."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy modulates inflammasome activation and the survival of the hyperinflammatory immune cells in the cytokine storm."
 ---
 
 # Cytokine Storm
@@ -562,6 +571,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors regulate the immune-cell survival and metabolic reprogramming that shape the hyperinflammatory response of cytokine storm.
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the NF-κB- and inflammasome-driven cytokine production that sustains cytokine storm.
 - `connects-to` → **[BTK](../../03-molecular/btk/README.md)** — BTK signaling in macrophages amplifies the inflammatory cytokine release of cytokine storm, the rationale for BTK inhibition in severe cases.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK signaling regulates the immunometabolic reprogramming of the hyperactivated immune cells driving the cytokine storm.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of Fc and cytokine receptors amplifies the myeloid and lymphocyte activation of the cytokine storm.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates inflammasome activation and the survival of the hyperinflammatory immune cells in the cytokine storm.
 
 ## Pathology
 

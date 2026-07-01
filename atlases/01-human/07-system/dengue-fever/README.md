@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/s100a8-a9
     relation: connects-to
     note: "S100A8/A9 alarmins amplify the myeloid inflammation and correlate with disease severity in dengue."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β modulates the innate inflammatory signaling and endothelial activation relevant to the vascular leak of severe dengue."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Dengue virus induces and subverts host autophagy to support its replication and lipid metabolism."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked metabolic signaling, exploited by dengue for its lipid-dependent replication, participates in dengue infection."
 ---
 
 # Dengue Fever
@@ -583,3 +592,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO downstream of PI3K-AKT signaling (AKT and PIK3CA already mapped) regulates the endothelial and immune-cell responses to dengue virus.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α contributes to the vascular permeability and metabolic reprogramming of the plasma-leakage phase of severe dengue.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins amplify the myeloid inflammation and correlate with disease severity in dengue.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the innate inflammatory signaling and endothelial activation relevant to the vascular leak of severe dengue.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Dengue virus induces and subverts host autophagy to support its replication and lipid metabolism.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling, exploited by dengue for its lipid-dependent replication, participates in dengue infection.
