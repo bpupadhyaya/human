@@ -361,6 +361,15 @@ cross_links:
   - target: 01-human/03-molecular/src-kinase
     relation: connects-to
     note: "SRC-family and LYN kinase signaling downstream of the constitutively active JAK2 axis supports the megakaryocyte and progenitor survival of myelofibrosis."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped), downstream of JAK2, supports the survival of the clonal cells of myelofibrosis."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy modulates the survival of the megakaryocytes and clonal cells of myelofibrosis."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked metabolic signaling participates in the metabolic adaptation of the clonal hematopoietic cells of myelofibrosis."
 ---
 
 # Myelofibrosis
@@ -603,6 +612,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated cytotoxic immunosurveillance targets the neoantigen-bearing CALR-mutant clone of myelofibrosis.
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-mediated p53 degradation (p53 already mapped) restrains apoptosis and contributes to the leukemic evolution of myelofibrosis.
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family and LYN kinase signaling downstream of the constitutively active JAK2 axis supports the megakaryocyte and progenitor survival of myelofibrosis.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped), downstream of JAK2, supports the survival of the clonal cells of myelofibrosis.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the survival of the megakaryocytes and clonal cells of myelofibrosis.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the metabolic adaptation of the clonal hematopoietic cells of myelofibrosis.
 
 ---
 

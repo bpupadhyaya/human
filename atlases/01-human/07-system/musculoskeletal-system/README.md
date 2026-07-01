@@ -359,6 +359,15 @@ cross_links:
   - target: 01-human/03-molecular/connexin43
     relation: connects-to
     note: "Connexin-43 gap junctions mediate the osteocyte-network and muscle intercellular communication that coordinates mechanotransduction in the musculoskeletal system."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K (PIK3CA)-AKT signaling (AKT already mapped) governs the osteoblast, chondrocyte, and myocyte growth and survival of the musculoskeletal system."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK integrates the energy status of muscle and bone, coupling metabolism to musculoskeletal adaptation."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "NF-κB signaling drives the osteoclastogenesis (RANKL already mapped) and inflammatory remodeling of the musculoskeletal system."
 ---
 
 # Musculoskeletal System
@@ -609,6 +618,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β, within the Wnt/β-catenin signaling that governs osteoblast differentiation (Wnt already mapped), regulates the bone formation and remodeling of the musculoskeletal system.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins participate in the inflammatory signaling of bone and joint tissue in the musculoskeletal system.
 - `connects-to` → **[Connexin-43](../../03-molecular/connexin43/README.md)** — Connexin-43 gap junctions mediate the osteocyte-network and muscle intercellular communication that coordinates mechanotransduction in the musculoskeletal system.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) governs the osteoblast, chondrocyte, and myocyte growth and survival of the musculoskeletal system.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK integrates the energy status of muscle and bone, coupling metabolism to musculoskeletal adaptation.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB signaling drives the osteoclastogenesis (RANKL already mapped) and inflammatory remodeling of the musculoskeletal system.
 
 ## Pathology
 
