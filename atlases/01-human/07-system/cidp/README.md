@@ -375,6 +375,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "HIF-1α in the inflamed peripheral nerve contributes to the metabolic and inflammatory milieu of chronic inflammatory demyelinating polyneuropathy."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked immunometabolic signaling shapes the autoreactive T-cell and macrophage metabolism of chronic inflammatory demyelinating polyneuropathy."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy modulates the autoreactive-immune-cell and Schwann-cell responses of chronic inflammatory demyelinating polyneuropathy."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven leukocyte recruitment into the peripheral nerve contributes to the demyelinating inflammation of chronic inflammatory demyelinating polyneuropathy."
 ---
 
 # CIDP
@@ -636,6 +645,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β modulates the T-cell and macrophage inflammatory signaling that drives the demyelination of chronic inflammatory demyelinating polyneuropathy.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) supports the survival and activation of the autoreactive T and B cells of chronic inflammatory demyelinating polyneuropathy.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF-1α in the inflamed peripheral nerve contributes to the metabolic and inflammatory milieu of chronic inflammatory demyelinating polyneuropathy.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked immunometabolic signaling shapes the autoreactive T-cell and macrophage metabolism of chronic inflammatory demyelinating polyneuropathy.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the autoreactive-immune-cell and Schwann-cell responses of chronic inflammatory demyelinating polyneuropathy.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven leukocyte recruitment into the peripheral nerve contributes to the demyelinating inflammation of chronic inflammatory demyelinating polyneuropathy.
 
 ---
 

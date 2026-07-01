@@ -367,6 +367,15 @@ cross_links:
   - target: 01-human/03-molecular/arid1a
     relation: connects-to
     note: "ARID1A-containing SWI/SNF chromatin remodeling (SMARCB1 already mapped) is disrupted in the poorly differentiated variants of chordoma."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked metabolic signaling participates in the metabolic adaptation of chordoma."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven myeloid recruitment shapes the tumor microenvironment of chordoma."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "IL-6-STAT3 signaling (STAT3 already mapped) participates in the inflammatory tumor-microenvironment and survival signaling of chordoma."
 ---
 
 # Chordoma
@@ -618,6 +627,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the epigenetic dysregulation of the brachyury-driven program of chordoma.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy supports the survival and therapy resistance of the notochordal-derived cells of chordoma.
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling (SMARCB1 already mapped) is disrupted in the poorly differentiated variants of chordoma.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the metabolic adaptation of chordoma.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven myeloid recruitment shapes the tumor microenvironment of chordoma.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6-STAT3 signaling (STAT3 already mapped) participates in the inflammatory tumor-microenvironment and survival signaling of chordoma.
 
 ---
 
