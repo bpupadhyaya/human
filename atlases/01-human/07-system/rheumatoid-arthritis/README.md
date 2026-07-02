@@ -382,6 +382,15 @@ cross_links:
   - target: 01-human/03-molecular/cxcl12
     relation: connects-to
     note: "CXCL12-CXCR4 signaling participates in the leukocyte and fibroblast recruitment into the inflamed synovium of rheumatoid arthritis."
+  - target: 01-human/03-molecular/adenosine
+    relation: connects-to
+    note: "Adenosine signaling, the mechanism of methotrexate's anti-inflammatory action, participates in the immunomodulation of rheumatoid arthritis."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Type I interferon signaling participates in the interferon signature and immune dysregulation of rheumatoid arthritis."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Osteopontin participates in the synovial inflammation and bone/cartilage destruction of rheumatoid arthritis."
 ---
 
 # Rheumatoid Arthritis
@@ -645,6 +654,9 @@ RA patients have:
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the epigenetic dysregulation of the synovial fibroblasts and immune cells of rheumatoid arthritis.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling, a target of immunosuppressive therapy, participates in the autoreactive T-cell activation of rheumatoid arthritis.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the leukocyte and fibroblast recruitment into the inflamed synovium of rheumatoid arthritis.
+- `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine signaling, the mechanism of methotrexate's anti-inflammatory action, participates in the immunomodulation of rheumatoid arthritis.
+- `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — Type I interferon signaling participates in the interferon signature and immune dysregulation of rheumatoid arthritis.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the synovial inflammation and bone/cartilage destruction of rheumatoid arthritis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
