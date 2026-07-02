@@ -388,6 +388,15 @@ cross_links:
   - target: 01-human/03-molecular/stat1
     relation: connects-to
     note: "IFN-STAT1 signaling shapes the mucosal immune surveillance of the digestive system."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy maintains the epithelial homeostasis, Paneth-cell function, and mucosal barrier of the digestive system."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling participates in the epithelial junction dynamics and growth-factor responses of the digestive system."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the epithelial renewal and immune tolerance of the digestive system."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -600,6 +609,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [PIK3CA](../../03-molecular/pik3ca/README.md) — epithelial proliferation: PI3K (PIK3CA)-AKT signaling (AKT already mapped) drives the epithelial proliferation and renewal of the gastrointestinal mucosa of the digestive system.
 - **Connects to:** [AMPK](../../03-molecular/ampk/README.md) — nutrient sensing: AMPK integrates the nutrient and energy status of the enterocytes and hepatocytes of the digestive system.
 - **Connects to:** [STAT1](../../03-molecular/stat1/README.md) — mucosal immunity: IFN-STAT1 signaling shapes the mucosal immune surveillance of the digestive system.
+- **Connects to:** [Autophagy](../../03-molecular/autophagy/README.md) — epithelial homeostasis: Autophagy maintains the epithelial homeostasis, Paneth-cell function, and mucosal barrier of the digestive system.
+- **Connects to:** [SRC Kinase](../../03-molecular/src-kinase/README.md) — junction dynamics: SRC-family kinase signaling participates in the epithelial junction dynamics and growth-factor responses of the digestive system.
+- **Connects to:** [DNMT3A](../../03-molecular/dnmt3a/README.md) — epigenetic renewal: DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the epithelial renewal and immune tolerance of the digestive system.
 
 ## Pathology
 
