@@ -376,6 +376,15 @@ cross_links:
   - target: 01-human/03-molecular/ccr5
     relation: connects-to
     note: "CCR5-driven myeloid recruitment shapes the desmoplastic, immunosuppressive microenvironment of cholangiocarcinoma."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation participates in the epigenetic dysregulation of cholangiocarcinoma."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "IL-1β-driven inflammation participates in the inflammation-driven tumorigenesis and microenvironment of cholangiocarcinoma."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "IL-33 alarmin signaling participates in the biliary inflammation and tumor microenvironment of cholangiocarcinoma."
 ---
 
 # Cholangiocarcinoma
@@ -592,6 +601,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the metabolic adaptation of cholangiocarcinoma (interacting with the IDH-mutant metabolism; IDH1/2 already mapped).
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy supports the survival and therapy resistance of cholangiocarcinoma cells.
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven myeloid recruitment shapes the desmoplastic, immunosuppressive microenvironment of cholangiocarcinoma.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the epigenetic dysregulation of cholangiocarcinoma.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the inflammation-driven tumorigenesis and microenvironment of cholangiocarcinoma.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the biliary inflammation and tumor microenvironment of cholangiocarcinoma.
 
 ---
 
