@@ -376,6 +376,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "VEGF-driven vascular permeability contributes to the endothelial leak and hypotension of a cytokine storm."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "CXCL12-CXCR4 signaling participates in the leukocyte trafficking and immune-cell recruitment of the cytokine storm."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "IL-33 alarmin signaling amplifies the innate immune activation of the cytokine storm."
+  - target: 01-human/03-molecular/adenosine
+    relation: connects-to
+    note: "Adenosine signaling provides immunoregulatory counter-signaling that modulates the hyperinflammation of the cytokine storm."
 ---
 
 # Cytokine Storm
@@ -586,6 +595,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven leukocyte recruitment amplifies the immune-cell infiltration and hyperinflammation of a cytokine storm.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated epigenetic regulation of immune-cell activation modulates the hyperinflammatory response of a cytokine storm.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VEGF-driven vascular permeability contributes to the endothelial leak and hypotension of a cytokine storm.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the leukocyte trafficking and immune-cell recruitment of the cytokine storm.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling amplifies the innate immune activation of the cytokine storm.
+- `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine signaling provides immunoregulatory counter-signaling that modulates the hyperinflammation of the cytokine storm.
 
 ## Pathology
 

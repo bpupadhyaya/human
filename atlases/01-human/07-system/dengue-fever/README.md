@@ -376,6 +376,15 @@ cross_links:
   - target: 01-human/03-molecular/dnmt3a
     relation: connects-to
     note: "DNMT3A-mediated DNA methylation modulates the host immune-cell responses to dengue virus infection."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "CXCL12-CXCR4 signaling participates in the leukocyte trafficking and endothelial responses of dengue fever."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "IL-33 alarmin signaling participates in the endothelial activation and vascular leakage of dengue fever."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "mTOR signaling, exploited by dengue virus for replication, participates in the host response to dengue fever."
 ---
 
 # Dengue Fever
@@ -607,3 +616,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the endothelial barrier dysfunction and vascular leak of severe dengue.
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven leukocyte recruitment contributes to the immune response and immunopathology of dengue fever.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation modulates the host immune-cell responses to dengue virus infection.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the leukocyte trafficking and endothelial responses of dengue fever.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the endothelial activation and vascular leakage of dengue fever.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR signaling, exploited by dengue virus for replication, participates in the host response to dengue fever.
