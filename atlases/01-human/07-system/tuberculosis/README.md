@@ -376,6 +376,15 @@ cross_links:
   - target: 01-human/03-molecular/adenosine
     relation: connects-to
     note: "Adenosine signaling participates in the immunosuppressive and anti-inflammatory modulation of the tuberculous granuloma."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Osteopontin participates in the macrophage recruitment and granuloma formation of tuberculosis."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the macrophage epigenetic reprogramming (trained immunity) of tuberculosis."
+  - target: 01-human/03-molecular/calcineurin
+    relation: connects-to
+    note: "Calcineurin-NFAT signaling participates in the T-cell activation of the immune response to tuberculosis."
 ---
 
 # Tuberculosis
@@ -629,6 +638,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the leukocyte trafficking and granuloma organization of tuberculosis.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3-mediated opsonization participates in the macrophage uptake of Mycobacterium tuberculosis and the innate response to tuberculosis.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine signaling participates in the immunosuppressive and anti-inflammatory modulation of the tuberculous granuloma.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the macrophage recruitment and granuloma formation of tuberculosis.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the macrophage epigenetic reprogramming (trained immunity) of tuberculosis.
+- `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the T-cell activation of the immune response to tuberculosis.
 
 ## See Also
 
