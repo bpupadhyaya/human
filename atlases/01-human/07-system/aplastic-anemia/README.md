@@ -376,6 +376,15 @@ cross_links:
   - target: 01-human/03-molecular/mdm2
     relation: connects-to
     note: "MDM2-p53 signaling participates in the apoptotic destruction of hematopoietic stem and progenitor cells in aplastic anemia."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "IL-1β-driven inflammation participates in the inflammatory bone-marrow microenvironment of aplastic anemia."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "IL-33 alarmin signaling participates in the immune dysregulation and marrow microenvironment of aplastic anemia."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement activation participates in the immune-mediated marrow injury (including PNH-overlap clones) of aplastic anemia."
 ---
 
 # Aplastic Anemia
@@ -608,6 +617,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked immunometabolic signaling shapes the autoreactive T-cell metabolism driving the marrow failure of aplastic anemia.
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven T-cell recruitment into the bone marrow contributes to the immune destruction of hematopoietic stem cells in aplastic anemia.
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-p53 signaling participates in the apoptotic destruction of hematopoietic stem and progenitor cells in aplastic anemia.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the inflammatory bone-marrow microenvironment of aplastic anemia.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the immune dysregulation and marrow microenvironment of aplastic anemia.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement activation participates in the immune-mediated marrow injury (including PNH-overlap clones) of aplastic anemia.
 
 ---
 

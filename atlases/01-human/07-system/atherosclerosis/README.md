@@ -382,6 +382,15 @@ cross_links:
   - target: 01-human/03-molecular/ccr5
     relation: connects-to
     note: "CCR5-driven monocyte recruitment into the arterial wall drives the inflammation of atherosclerosis."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation (including clonal hematopoiesis) participates in the vascular inflammation and atherogenesis of atherosclerosis."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "CXCL12-CXCR4 signaling participates in the smooth-muscle-cell and leukocyte dynamics of atherosclerotic plaques."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "IL-33 alarmin signaling participates in the vascular inflammation and plaque immunobiology of atherosclerosis."
 ---
 
 # Atherosclerosis
@@ -617,6 +626,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy (including macrophage lipophagy) modulates the foam-cell formation and plaque stability of atherosclerosis.
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the endothelial activation and vascular-smooth-muscle responses of atherosclerosis.
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven monocyte recruitment into the arterial wall drives the inflammation of atherosclerosis.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation (including clonal hematopoiesis) participates in the vascular inflammation and atherogenesis of atherosclerosis.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the smooth-muscle-cell and leukocyte dynamics of atherosclerotic plaques.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the vascular inflammation and plaque immunobiology of atherosclerosis.
 
 ---
 
