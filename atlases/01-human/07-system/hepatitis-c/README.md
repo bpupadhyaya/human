@@ -381,6 +381,15 @@ cross_links:
   - target: 01-human/03-molecular/src-kinase
     relation: connects-to
     note: "SRC-family kinase signaling participates in the hepatocyte signaling and fibrogenic and oncogenic pathways of hepatitis C."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "CXCL12-CXCR4 signaling participates in the intrahepatic leukocyte recruitment and fibrosis of hepatitis C."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "IL-1β-driven inflammation participates in the hepatic inflammation of hepatitis C."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "IL-33 alarmin signaling participates in the hepatic immune responses and fibrosis of hepatitis C."
 ---
 
 # Hepatitis C
@@ -628,3 +637,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the hepatocyte lipid metabolism exploited by HCV replication in hepatitis C.
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven leukocyte recruitment contributes to the immune-mediated liver inflammation of hepatitis C.
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the hepatocyte signaling and fibrogenic and oncogenic pathways of hepatitis C.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the intrahepatic leukocyte recruitment and fibrosis of hepatitis C.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the hepatic inflammation of hepatitis C.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the hepatic immune responses and fibrosis of hepatitis C.
