@@ -379,6 +379,15 @@ cross_links:
   - target: 01-human/03-molecular/cxcl12
     relation: connects-to
     note: "CXCL12-CXCR4 signaling participates in the hematopoietic-stem-cell niche interactions relevant to the clonal expansion of paroxysmal nocturnal hemoglobinuria."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "IL-1β-driven inflammation participates in the thromboinflammation of paroxysmal nocturnal hemoglobinuria."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "IL-33 alarmin signaling participates in the endothelial and immune activation relevant to paroxysmal nocturnal hemoglobinuria."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "IL-17A signaling participates in the immune dysregulation relevant to the associated marrow failure of paroxysmal nocturnal hemoglobinuria."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -591,6 +600,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven leukocyte recruitment participates in the thrombo-inflammatory milieu of paroxysmal nocturnal hemoglobinuria.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation, as part of the clonal hematopoiesis underlying the disorder, participates in the aberrant marrow biology of paroxysmal nocturnal hemoglobinuria.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the hematopoietic-stem-cell niche interactions relevant to the clonal expansion of paroxysmal nocturnal hemoglobinuria.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the thromboinflammation of paroxysmal nocturnal hemoglobinuria.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the endothelial and immune activation relevant to paroxysmal nocturnal hemoglobinuria.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the immune dysregulation relevant to the associated marrow failure of paroxysmal nocturnal hemoglobinuria.
 
 ---
 
