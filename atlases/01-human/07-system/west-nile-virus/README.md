@@ -372,6 +372,15 @@ cross_links:
   - target: 01-human/03-molecular/ampk
     relation: connects-to
     note: "AMPK-linked metabolic signaling, exploited for the lipid-dependent replication of West Nile virus, participates in the host response."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the host immune response to West Nile virus."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "IL-33 alarmin signaling participates in the neuroinflammatory and immune responses to West Nile virus."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "IL-17A signaling participates in the blood-brain-barrier permeability and neuroinflammation of West Nile virus neuroinvasive disease."
 ---
 
 # West Nile Virus
@@ -610,3 +619,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — West Nile virus modulates host autophagy to support its replication in neurons and other cells.
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the endothelial and blood-brain-barrier responses to West Nile virus neuroinvasion.
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling, exploited for the lipid-dependent replication of West Nile virus, participates in the host response.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the host immune response to West Nile virus.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the neuroinflammatory and immune responses to West Nile virus.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the blood-brain-barrier permeability and neuroinflammation of West Nile virus neuroinvasive disease.
