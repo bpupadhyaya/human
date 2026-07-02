@@ -376,6 +376,15 @@ cross_links:
   - target: 01-human/03-molecular/ccr5
     relation: connects-to
     note: "CCR5-driven immune-cell recruitment into the vasculature and kidney contributes to the inflammation of hypertension."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the vascular and renal gene programs relevant to hypertension."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "CXCL12-CXCR4 signaling participates in the vascular inflammation and immune-cell recruitment of hypertension."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "IL-33 alarmin signaling participates in the vascular inflammation and immune activation relevant to hypertension."
 ---
 
 # Hypertension
@@ -586,6 +595,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy maintains the vascular-smooth-muscle and endothelial homeostasis whose dysregulation contributes to hypertension.
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of angiotensin-II and other vasoactive receptors participates in the vascular remodeling of hypertension.
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven immune-cell recruitment into the vasculature and kidney contributes to the inflammation of hypertension.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the vascular and renal gene programs relevant to hypertension.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the vascular inflammation and immune-cell recruitment of hypertension.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the vascular inflammation and immune activation relevant to hypertension.
 
 ## Pathology
 
