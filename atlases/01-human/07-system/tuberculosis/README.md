@@ -367,6 +367,15 @@ cross_links:
   - target: 01-human/03-molecular/ccr5
     relation: connects-to
     note: "CCR5-driven chemokine signaling recruits leukocytes into the granuloma that walls off Mycobacterium tuberculosis."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "CXCL12-CXCR4 signaling participates in the leukocyte trafficking and granuloma organization of tuberculosis."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement C3-mediated opsonization participates in the macrophage uptake of Mycobacterium tuberculosis and the innate response to tuberculosis."
+  - target: 01-human/03-molecular/adenosine
+    relation: connects-to
+    note: "Adenosine signaling participates in the immunosuppressive and anti-inflammatory modulation of the tuberculous granuloma."
 ---
 
 # Tuberculosis
@@ -617,6 +626,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation and macrophage epigenetic reprogramming (trained immunity) shape the host response to tuberculosis.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the type-2 and regulatory immune balance of the tuberculosis granuloma.
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven chemokine signaling recruits leukocytes into the granuloma that walls off Mycobacterium tuberculosis.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the leukocyte trafficking and granuloma organization of tuberculosis.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3-mediated opsonization participates in the macrophage uptake of Mycobacterium tuberculosis and the innate response to tuberculosis.
+- `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine signaling participates in the immunosuppressive and anti-inflammatory modulation of the tuberculous granuloma.
 
 ## See Also
 
