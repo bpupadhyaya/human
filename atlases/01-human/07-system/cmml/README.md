@@ -376,6 +376,15 @@ cross_links:
   - target: 01-human/03-molecular/idh1
     relation: connects-to
     note: "IDH1 mutation (IDH2 already mapped) contributes to the epigenetic (2-hydroxyglutarate-driven) dysregulation of a subset of chronic myelomonocytic leukemia."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "IL-33 alarmin signaling participates in the inflammatory bone-marrow microenvironment of chronic myelomonocytic leukemia."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "IL-17A signaling participates in the inflammatory bone-marrow microenvironment of chronic myelomonocytic leukemia."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement C3 participates in the inflammatory microenvironment of chronic myelomonocytic leukemia."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -621,6 +630,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-family chemokine signaling (CXCL12/CXCR4 already mapped) participates in the marrow homing and monocyte trafficking of chronic myelomonocytic leukemia.
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic dysregulation of chronic myelomonocytic leukemia.
 - `connects-to` → **[IDH1](../../03-molecular/idh1/README.md)** — IDH1 mutation (IDH2 already mapped) contributes to the epigenetic (2-hydroxyglutarate-driven) dysregulation of a subset of chronic myelomonocytic leukemia.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the inflammatory bone-marrow microenvironment of chronic myelomonocytic leukemia.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory bone-marrow microenvironment of chronic myelomonocytic leukemia.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory microenvironment of chronic myelomonocytic leukemia.
 
 ---
 

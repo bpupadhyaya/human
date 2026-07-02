@@ -382,6 +382,15 @@ cross_links:
   - target: 01-human/03-molecular/dnmt3a
     relation: connects-to
     note: "DNMT3A-mediated DNA methylation contributes to the smoking-linked epigenetic dysregulation of chronic obstructive pulmonary disease."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "CXCL12-CXCR4 signaling participates in the airway leukocyte trafficking and lung-repair processes of chronic obstructive pulmonary disease."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "IL-33 alarmin signaling participates in the airway epithelial and innate immune responses of chronic obstructive pulmonary disease."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement C3 participates in the airway inflammation of chronic obstructive pulmonary disease."
 ---
 
 # COPD
@@ -646,6 +655,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the airway epithelial and neutrophil responses of chronic obstructive pulmonary disease.
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven leukocyte recruitment contributes to the airway and parenchymal inflammation of chronic obstructive pulmonary disease.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the smoking-linked epigenetic dysregulation of chronic obstructive pulmonary disease.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the airway leukocyte trafficking and lung-repair processes of chronic obstructive pulmonary disease.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the airway epithelial and innate immune responses of chronic obstructive pulmonary disease.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the airway inflammation of chronic obstructive pulmonary disease.
 
 ---
 
