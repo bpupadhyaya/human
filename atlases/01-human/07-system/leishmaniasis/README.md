@@ -379,6 +379,15 @@ cross_links:
   - target: 01-human/03-molecular/collagen
     relation: connects-to
     note: "Collagen deposition contributes to the tissue remodeling and scarring of cutaneous and mucocutaneous leishmaniasis."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the macrophage responses to leishmaniasis."
+  - target: 01-human/03-molecular/calcineurin
+    relation: connects-to
+    note: "Calcineurin-NFAT signaling participates in the T-cell activation of the immune response to leishmaniasis."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Osteopontin participates in the macrophage activation and granulomatous response to leishmaniasis."
 ---
 
 # Leishmaniasis
@@ -601,3 +610,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the leukocyte trafficking and granuloma organization of leishmaniasis.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VEGF-driven angiogenesis and lymphangiogenesis participate in the lesion vascularization and remodeling of leishmaniasis.
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Collagen deposition contributes to the tissue remodeling and scarring of cutaneous and mucocutaneous leishmaniasis.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the macrophage responses to leishmaniasis.
+- `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the T-cell activation of the immune response to leishmaniasis.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the macrophage activation and granulomatous response to leishmaniasis.
