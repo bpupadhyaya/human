@@ -384,6 +384,15 @@ cross_links:
   - target: 01-human/03-molecular/ccr5
     relation: connects-to
     note: "CCR5-driven leukocyte recruitment into the peripheral nerve contributes to the demyelinating inflammation of chronic inflammatory demyelinating polyneuropathy."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the autoreactive immune response of chronic inflammatory demyelinating polyneuropathy."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling participates in the immune-cell and Schwann-cell signaling of chronic inflammatory demyelinating polyneuropathy."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "IL-33 alarmin signaling participates in the neuroinflammatory and immune responses of chronic inflammatory demyelinating polyneuropathy."
 ---
 
 # CIDP
@@ -648,6 +657,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked immunometabolic signaling shapes the autoreactive T-cell and macrophage metabolism of chronic inflammatory demyelinating polyneuropathy.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the autoreactive-immune-cell and Schwann-cell responses of chronic inflammatory demyelinating polyneuropathy.
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven leukocyte recruitment into the peripheral nerve contributes to the demyelinating inflammation of chronic inflammatory demyelinating polyneuropathy.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the autoreactive immune response of chronic inflammatory demyelinating polyneuropathy.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the immune-cell and Schwann-cell signaling of chronic inflammatory demyelinating polyneuropathy.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the neuroinflammatory and immune responses of chronic inflammatory demyelinating polyneuropathy.
 
 ---
 
