@@ -379,6 +379,15 @@ cross_links:
   - target: 01-human/03-molecular/il-1b
     relation: connects-to
     note: "IL-1β-driven inflammation contributes to the myocardial inflammation and adverse remodeling of heart failure."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "CXCL12-CXCR4 signaling participates in the cardiac repair, inflammatory-cell recruitment, and remodeling of heart failure."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "IL-17A signaling participates in the cardiac inflammation and fibrosis of heart failure."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the cardiac remodeling gene programs of heart failure."
 ---
 
 # Heart Failure
@@ -572,6 +581,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven monocyte recruitment contributes to the myocardial inflammation and adverse remodeling of heart failure.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the epigenetic reprogramming of the failing myocardium in heart failure.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation contributes to the myocardial inflammation and adverse remodeling of heart failure.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the cardiac repair, inflammatory-cell recruitment, and remodeling of heart failure.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the cardiac inflammation and fibrosis of heart failure.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the cardiac remodeling gene programs of heart failure.
 
 ## Pathology
 
