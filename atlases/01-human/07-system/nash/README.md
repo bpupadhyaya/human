@@ -376,6 +376,15 @@ cross_links:
   - target: 01-human/03-molecular/ccr5
     relation: connects-to
     note: "CCR5-driven monocyte recruitment amplifies the hepatic inflammation and fibrosis of non-alcoholic steatohepatitis."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the hepatocyte and stellate-cell responses of non-alcoholic steatohepatitis."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "CXCL12-CXCR4 signaling participates in the hepatic-stellate-cell activation and leukocyte recruitment of non-alcoholic steatohepatitis."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "IL-17A signaling participates in the hepatic inflammation and fibrogenesis of non-alcoholic steatohepatitis."
 ---
 
 # NASH
@@ -584,6 +593,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped), downstream of insulin, participates in the hepatic lipogenesis and insulin resistance of non-alcoholic steatohepatitis.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy (lipophagy) modulates the hepatocyte lipid handling and survival whose failure contributes to non-alcoholic steatohepatitis.
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven monocyte recruitment amplifies the hepatic inflammation and fibrosis of non-alcoholic steatohepatitis.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the hepatocyte and stellate-cell responses of non-alcoholic steatohepatitis.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the hepatic-stellate-cell activation and leukocyte recruitment of non-alcoholic steatohepatitis.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the hepatic inflammation and fibrogenesis of non-alcoholic steatohepatitis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
