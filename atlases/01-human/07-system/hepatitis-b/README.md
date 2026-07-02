@@ -372,6 +372,15 @@ cross_links:
   - target: 01-human/03-molecular/dnmt3a
     relation: connects-to
     note: "DNMT3A-mediated DNA methylation, including HBV-driven silencing of tumor suppressors, contributes to the hepatocarcinogenesis of chronic hepatitis B."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked metabolic signaling participates in the hepatocyte metabolism exploited during HBV replication in hepatitis B."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven leukocyte recruitment contributes to the immune-mediated liver inflammation of hepatitis B."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling participates in the hepatocyte signaling and HBx-associated oncogenic pathways of hepatitis B."
 ---
 
 # Hepatitis B
@@ -625,3 +634,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) is modulated by HBV proteins to support hepatocyte survival and viral persistence.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — HBV subverts host autophagy to support its replication, and autophagy shapes the hepatocyte response to hepatitis B.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation, including HBV-driven silencing of tumor suppressors, contributes to the hepatocarcinogenesis of chronic hepatitis B.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the hepatocyte metabolism exploited during HBV replication in hepatitis B.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven leukocyte recruitment contributes to the immune-mediated liver inflammation of hepatitis B.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the hepatocyte signaling and HBx-associated oncogenic pathways of hepatitis B.

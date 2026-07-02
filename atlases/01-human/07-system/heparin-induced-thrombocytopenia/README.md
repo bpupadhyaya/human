@@ -376,6 +376,15 @@ cross_links:
   - target: 01-human/03-molecular/ampk
     relation: connects-to
     note: "AMPK-linked metabolic signaling participates in the platelet and immune-cell activation of heparin-induced thrombocytopenia."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the immune response generating anti-PF4/heparin antibodies in heparin-induced thrombocytopenia."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "IL-1β-driven inflammation participates in the prothrombotic inflammatory milieu of heparin-induced thrombocytopenia."
+  - target: 01-human/03-molecular/cd20
+    relation: connects-to
+    note: "CD20-expressing B cells produce the pathogenic anti-PF4/heparin antibodies of heparin-induced thrombocytopenia, a rationale for B-cell-depleting therapy in refractory cases."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -639,6 +648,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven monocyte recruitment contributes to the tissue-factor-bearing prothrombotic monocyte activation of heparin-induced thrombocytopenia.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the platelet and endothelial activation responses relevant to heparin-induced thrombocytopenia.
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the platelet and immune-cell activation of heparin-induced thrombocytopenia.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the immune response generating anti-PF4/heparin antibodies in heparin-induced thrombocytopenia.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the prothrombotic inflammatory milieu of heparin-induced thrombocytopenia.
+- `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — CD20-expressing B cells produce the pathogenic anti-PF4/heparin antibodies of heparin-induced thrombocytopenia, a rationale for B-cell-depleting therapy in refractory cases.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)
