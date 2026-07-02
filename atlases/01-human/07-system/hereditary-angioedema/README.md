@@ -376,6 +376,15 @@ cross_links:
   - target: 01-human/03-molecular/nfe2l2
     relation: connects-to
     note: "NRF2 (NFE2L2)-mediated oxidative-stress defense modulates the endothelial responses relevant to hereditary angioedema."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked metabolic and eNOS-coupled signaling participates in the endothelial homeostasis relevant to the vascular permeability of hereditary angioedema."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy modulates the endothelial-cell homeostasis and stress responses relevant to hereditary angioedema."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation participates in the epigenetic modulation of the contact-system and endothelial gene expression relevant to hereditary angioedema."
 ---
 
 # Hereditary Angioedema
@@ -630,6 +639,9 @@ Fluid extravasation → ANGIOEDEMA
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of the bradykinin B2 receptor participates in the VE-cadherin disruption and endothelial-barrier breakdown of hereditary angioedema.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-STAT1 signaling participates in the endothelial and immune context modulating the attacks of hereditary angioedema.
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NRF2 (NFE2L2)-mediated oxidative-stress defense modulates the endothelial responses relevant to hereditary angioedema.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic and eNOS-coupled signaling participates in the endothelial homeostasis relevant to the vascular permeability of hereditary angioedema.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the endothelial-cell homeostasis and stress responses relevant to hereditary angioedema.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the epigenetic modulation of the contact-system and endothelial gene expression relevant to hereditary angioedema.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)

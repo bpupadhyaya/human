@@ -372,6 +372,15 @@ cross_links:
   - target: 01-human/03-molecular/dnmt3a
     relation: connects-to
     note: "DNMT3A-mediated DNA methylation contributes to the epigenetic dysregulation and hepatocarcinogenesis of chronic hepatitis C."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked metabolic signaling participates in the hepatocyte lipid metabolism exploited by HCV replication in hepatitis C."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven leukocyte recruitment contributes to the immune-mediated liver inflammation of hepatitis C."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling participates in the hepatocyte signaling and fibrogenic and oncogenic pathways of hepatitis C."
 ---
 
 # Hepatitis C
@@ -616,3 +625,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) is co-opted by HCV to support hepatocyte survival and viral persistence.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — HCV induces and subverts host autophagy to support its replication in hepatocytes.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the epigenetic dysregulation and hepatocarcinogenesis of chronic hepatitis C.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the hepatocyte lipid metabolism exploited by HCV replication in hepatitis C.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven leukocyte recruitment contributes to the immune-mediated liver inflammation of hepatitis C.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the hepatocyte signaling and fibrogenic and oncogenic pathways of hepatitis C.
