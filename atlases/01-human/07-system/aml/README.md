@@ -385,6 +385,15 @@ cross_links:
   - target: 01-human/03-molecular/il-1b
     relation: connects-to
     note: "IL-1β-driven inflammation in the bone-marrow niche contributes to the leukemic stem-cell maintenance of acute myeloid leukemia."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "IL-33 alarmin signaling participates in the inflammatory bone-marrow microenvironment of acute myeloid leukemia."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "IL-17A signaling participates in the inflammatory bone-marrow microenvironment of acute myeloid leukemia."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement C3 participates in the inflammatory bone-marrow microenvironment of acute myeloid leukemia."
 ---
 
 # AML
@@ -618,6 +627,9 @@ AML requires cooperative mutations in at least 2 functional categories (Gillilan
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-family chemokine signaling participates in the bone-marrow niche interactions of acute myeloid leukemia.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6-STAT3 signaling (STAT3 already mapped) participates in the inflammatory bone-marrow microenvironment of acute myeloid leukemia.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation in the bone-marrow niche contributes to the leukemic stem-cell maintenance of acute myeloid leukemia.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the inflammatory bone-marrow microenvironment of acute myeloid leukemia.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory bone-marrow microenvironment of acute myeloid leukemia.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory bone-marrow microenvironment of acute myeloid leukemia.
 
 [^dinardo-2020-viale-a]: DiNardo CD, Jonas BA, Pullarkat V, et al. Azacitidine and venetoclax in previously untreated acute myeloid leukemia. *N Engl J Med.* 2020;383(7):617-629. [doi:10.1056/NEJMoa2012971](https://doi.org/10.1056/NEJMoa2012971) · [PubMed 32786187](https://pubmed.ncbi.nlm.nih.gov/32786187/)
 [^stone-2017-midostaurin]: Stone RM, Mandrekar SJ, Sanford BL, et al. Midostaurin plus chemotherapy for acute myeloid leukemia with a FLT3 mutation. *N Engl J Med.* 2017;377(5):454-464. [doi:10.1056/NEJMoa1614359](https://doi.org/10.1056/NEJMoa1614359) · [PubMed 28644114](https://pubmed.ncbi.nlm.nih.gov/28644114/)
