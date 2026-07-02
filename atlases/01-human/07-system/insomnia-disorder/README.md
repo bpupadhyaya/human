@@ -382,6 +382,15 @@ cross_links:
   - target: 01-human/03-molecular/dnmt3a
     relation: connects-to
     note: "DNMT3A-mediated DNA methylation contributes to the epigenetic regulation of circadian and stress genes implicated in insomnia disorder."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling participates in the synaptic-plasticity and arousal-circuit mechanisms implicated in insomnia disorder."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven neuroimmune signaling participates in the low-grade neuroinflammation associated with insomnia disorder."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "CXCL12-CXCR4 signaling participates in the neuroimmune processes implicated in insomnia disorder."
 ---
 
 # Insomnia Disorder
@@ -640,6 +649,9 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the sleep-wake energy homeostasis dysregulated in insomnia disorder.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy, which follows a circadian rhythm and is modulated by sleep, participates in the neuronal homeostasis disrupted in insomnia disorder.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the epigenetic regulation of circadian and stress genes implicated in insomnia disorder.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the synaptic-plasticity and arousal-circuit mechanisms implicated in insomnia disorder.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven neuroimmune signaling participates in the low-grade neuroinflammation associated with insomnia disorder.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the neuroimmune processes implicated in insomnia disorder.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)

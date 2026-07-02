@@ -372,6 +372,15 @@ cross_links:
   - target: 01-human/03-molecular/dnmt3a
     relation: connects-to
     note: "DNMT3A-mediated DNA methylation participates in the transcriptional regulation of erythroid differentiation relevant to iron deficiency anemia."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-family chemokine signaling participates in the bone-marrow niche and inflammatory interactions relevant to iron deficiency anemia."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "CXCL12-CXCR4 signaling participates in the erythroid bone-marrow-niche interactions relevant to iron deficiency anemia."
+  - target: 01-human/03-molecular/kit
+    relation: connects-to
+    note: "KIT (stem-cell-factor receptor) signaling participates in the erythroid-progenitor proliferation and survival compromised in iron deficiency anemia."
 ---
 
 # Iron Deficiency Anemia
@@ -610,6 +619,9 @@ Iron is essential for:
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy (including the erythroid mitophagy of reticulocyte maturation) participates in the erythropoiesis impaired in iron deficiency anemia.
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of the EPO and cytokine receptors participates in the erythroid signaling disrupted in iron deficiency anemia.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the transcriptional regulation of erythroid differentiation relevant to iron deficiency anemia.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-family chemokine signaling participates in the bone-marrow niche and inflammatory interactions relevant to iron deficiency anemia.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the erythroid bone-marrow-niche interactions relevant to iron deficiency anemia.
+- `connects-to` → **[KIT](../../03-molecular/kit/README.md)** — KIT (stem-cell-factor receptor) signaling participates in the erythroid-progenitor proliferation and survival compromised in iron deficiency anemia.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)
