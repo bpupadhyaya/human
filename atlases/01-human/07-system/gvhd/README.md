@@ -379,6 +379,15 @@ cross_links:
   - target: 01-human/03-molecular/ccr5
     relation: connects-to
     note: "CCR5-driven donor-T-cell trafficking into target organs drives the tissue injury of graft-versus-host disease."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement C3 activation participates in the tissue injury of graft-versus-host disease."
+  - target: 01-human/03-molecular/adenosine
+    relation: connects-to
+    note: "Adenosine (A2A-receptor) immunoregulatory signaling modulates the alloreactive T-cell responses of graft-versus-host disease."
+  - target: 01-human/03-molecular/cd20
+    relation: connects-to
+    note: "CD20-expressing B cells contribute to the alloantibody and immune dysregulation of chronic graft-versus-host disease, a rationale for B-cell-depleting therapy."
 ---
 
 # Graft-Versus-Host Disease
@@ -637,6 +646,9 @@ The protective Treg/IL-10 axis is the key biological counterbalance to alloreact
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked immunometabolic signaling shapes the alloreactive T-cell metabolism of graft-versus-host disease.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the alloreactive T-cell and target-tissue responses of graft-versus-host disease.
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven donor-T-cell trafficking into target organs drives the tissue injury of graft-versus-host disease.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 activation participates in the tissue injury of graft-versus-host disease.
+- `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine (A2A-receptor) immunoregulatory signaling modulates the alloreactive T-cell responses of graft-versus-host disease.
+- `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — CD20-expressing B cells contribute to the alloantibody and immune dysregulation of chronic graft-versus-host disease, a rationale for B-cell-depleting therapy.
 
 [^ferrara-2009-gvhd-review]: Ferrara JL, Levine JE, Reddy P, Holler E. Graft-versus-host disease. *Lancet.* 2009;373(9674):1550-1561. [doi:10.1016/S0140-6736(09)60237-3](https://doi.org/10.1016/S0140-6736(09)60237-3) · [PubMed 19380114](https://pubmed.ncbi.nlm.nih.gov/19380114/)
 [^zeiser-2020-ruxolitinib-gvhd-reach]: Zeiser R, von Bubnoff N, Butler J, et al. Ruxolitinib for Glucocorticoid-Refractory Acute Graft-versus-Host Disease. *N Engl J Med.* 2020;382(19):1800-1810. [doi:10.1056/NEJMoa1917635](https://doi.org/10.1056/NEJMoa1917635) · [PubMed 32374962](https://pubmed.ncbi.nlm.nih.gov/32374962/)
