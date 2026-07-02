@@ -376,6 +376,15 @@ cross_links:
   - target: 01-human/03-molecular/arid1a
     relation: connects-to
     note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic landscape of the tumors of MUTYH-associated polyposis."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "CXCL12-CXCR4 signaling participates in the tumor-stromal interactions of the adenomas and carcinomas of MUTYH-associated polyposis."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "IL-1β-driven inflammation participates in the polyp and tumor microenvironment of MUTYH-associated polyposis."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "IL-33 alarmin signaling participates in the intestinal-tumor immune microenvironment of MUTYH-associated polyposis."
 ---
 
 # MUTYH-Associated Polyposis
@@ -612,6 +621,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the metabolic adaptation of the tumors of MUTYH-associated polyposis.
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven myeloid recruitment shapes the inflammatory microenvironment of the tumors of MUTYH-associated polyposis.
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic landscape of the tumors of MUTYH-associated polyposis.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the tumor-stromal interactions of the adenomas and carcinomas of MUTYH-associated polyposis.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the polyp and tumor microenvironment of MUTYH-associated polyposis.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the intestinal-tumor immune microenvironment of MUTYH-associated polyposis.
 
 ---
 
