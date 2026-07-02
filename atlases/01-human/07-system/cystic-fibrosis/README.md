@@ -376,6 +376,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c5
     relation: connects-to
     note: "Complement C5a-driven inflammation contributes to the neutrophilic airway inflammation of cystic fibrosis."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "CXCL12-CXCR4 signaling participates in the airway leukocyte trafficking of the chronic neutrophilic inflammation of cystic fibrosis."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "IL-33 alarmin signaling participates in the airway epithelial and innate immune responses of cystic fibrosis."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "Collagen deposition contributes to the airway remodeling and fibrosis of chronic cystic-fibrosis lung disease."
 ---
 
 # Cystic Fibrosis
@@ -623,6 +632,9 @@ AND
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven leukocyte recruitment contributes to the chronic neutrophilic airway inflammation of cystic fibrosis.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the epigenetic modulation of the inflammatory responses in cystic fibrosis.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Complement C5a-driven inflammation contributes to the neutrophilic airway inflammation of cystic fibrosis.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the airway leukocyte trafficking of the chronic neutrophilic inflammation of cystic fibrosis.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the airway epithelial and innate immune responses of cystic fibrosis.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Collagen deposition contributes to the airway remodeling and fibrosis of chronic cystic-fibrosis lung disease.
 
 ---
 
