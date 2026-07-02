@@ -374,6 +374,15 @@ cross_links:
   - target: 01-human/03-molecular/dnmt3a
     relation: connects-to
     note: "DNMT3A-mediated DNA methylation participates in the epigenetic regulation of hormone-gene expression and endocrine-cell identity of the endocrine system."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven leukocyte recruitment participates in the immune surveillance and endocrine-autoimmune responses of the endocrine system."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "CXCL12-CXCR4 signaling participates in the endocrine-gland vascularization and cell homeostasis of the endocrine system."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "IL-6-STAT3 signaling (STAT3 already mapped) participates in the neuroendocrine-immune interactions of the endocrine system."
 ---
 
 # Endocrine System
@@ -650,6 +659,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy maintains the endocrine-cell homeostasis and hormone-secretory-granule turnover of the endocrine system.
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the growth-factor and hormone-receptor signal transduction of the endocrine system.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the epigenetic regulation of hormone-gene expression and endocrine-cell identity of the endocrine system.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven leukocyte recruitment participates in the immune surveillance and endocrine-autoimmune responses of the endocrine system.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the endocrine-gland vascularization and cell homeostasis of the endocrine system.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6-STAT3 signaling (STAT3 already mapped) participates in the neuroendocrine-immune interactions of the endocrine system.
 
 ## Pathology
 
