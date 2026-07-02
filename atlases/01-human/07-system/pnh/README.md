@@ -370,6 +370,15 @@ cross_links:
   - target: 01-human/03-molecular/autophagy
     relation: connects-to
     note: "Autophagy modulates the survival of the PIGA-mutant clonal hematopoietic cells of paroxysmal nocturnal hemoglobinuria."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven leukocyte recruitment participates in the thrombo-inflammatory milieu of paroxysmal nocturnal hemoglobinuria."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation, as part of the clonal hematopoiesis underlying the disorder, participates in the aberrant marrow biology of paroxysmal nocturnal hemoglobinuria."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "CXCL12-CXCR4 signaling participates in the hematopoietic-stem-cell niche interactions relevant to the clonal expansion of paroxysmal nocturnal hemoglobinuria."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -579,6 +588,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of platelet and endothelial receptors participates in the platelet activation and thrombosis of paroxysmal nocturnal hemoglobinuria.
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the clonal hematopoietic-stem-cell adaptation of paroxysmal nocturnal hemoglobinuria.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the survival of the PIGA-mutant clonal hematopoietic cells of paroxysmal nocturnal hemoglobinuria.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven leukocyte recruitment participates in the thrombo-inflammatory milieu of paroxysmal nocturnal hemoglobinuria.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation, as part of the clonal hematopoiesis underlying the disorder, participates in the aberrant marrow biology of paroxysmal nocturnal hemoglobinuria.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the hematopoietic-stem-cell niche interactions relevant to the clonal expansion of paroxysmal nocturnal hemoglobinuria.
 
 ---
 
