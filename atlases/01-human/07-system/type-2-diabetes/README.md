@@ -382,6 +382,15 @@ cross_links:
   - target: 01-human/03-molecular/cdkn2a
     relation: connects-to
     note: "CDKN2A-p16 senescence signaling (a genome-wide-association-study locus for type 2 diabetes) participates in the β-cell senescence and dysfunction of type 2 diabetes."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "IL-33 alarmin signaling participates in the adipose-tissue immune regulation and metaflammation of type 2 diabetes."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "IL-17A signaling participates in the chronic inflammation of type 2 diabetes."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the metabolic gene programs relevant to type 2 diabetes."
 ---
 
 # Type 2 Diabetes
@@ -606,6 +615,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the islet-cell and immune-cell interactions of type 2 diabetes.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 and the complement system participate in the metabolic inflammation and insulin resistance of type 2 diabetes.
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A-p16 senescence signaling (a genome-wide-association-study locus for type 2 diabetes) participates in the β-cell senescence and dysfunction of type 2 diabetes.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the adipose-tissue immune regulation and metaflammation of type 2 diabetes.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the chronic inflammation of type 2 diabetes.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the metabolic gene programs relevant to type 2 diabetes.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
