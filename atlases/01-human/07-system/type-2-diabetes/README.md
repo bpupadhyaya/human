@@ -373,6 +373,15 @@ cross_links:
   - target: 01-human/03-molecular/ccr5
     relation: connects-to
     note: "CCR5-driven chemokine signaling recruits macrophages into adipose tissue, amplifying the inflammation that drives insulin resistance in type 2 diabetes."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "CXCL12-CXCR4 signaling participates in the islet-cell and immune-cell interactions of type 2 diabetes."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement C3 and the complement system participate in the metabolic inflammation and insulin resistance of type 2 diabetes."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "CDKN2A-p16 senescence signaling (a genome-wide-association-study locus for type 2 diabetes) participates in the β-cell senescence and dysfunction of type 2 diabetes."
 ---
 
 # Type 2 Diabetes
@@ -594,6 +603,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the pancreatic β-cell survival and insulin-target-tissue homeostasis whose failure contributes to type 2 diabetes.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the epigenetic (metabolic-memory) programming of type 2 diabetes.
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven chemokine signaling recruits macrophages into adipose tissue, amplifying the inflammation that drives insulin resistance in type 2 diabetes.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the islet-cell and immune-cell interactions of type 2 diabetes.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 and the complement system participate in the metabolic inflammation and insulin resistance of type 2 diabetes.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A-p16 senescence signaling (a genome-wide-association-study locus for type 2 diabetes) participates in the β-cell senescence and dysfunction of type 2 diabetes.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

@@ -367,6 +367,15 @@ cross_links:
   - target: 01-human/03-molecular/arid1a
     relation: connects-to
     note: "ARID1A-containing SWI/SNF chromatin remodeling contributes to the epigenetic dysregulation of uveal melanoma."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked metabolic signaling participates in the metabolic adaptation of uveal melanoma."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven myeloid recruitment shapes the immunosuppressive microenvironment of uveal melanoma."
+  - target: 01-human/03-molecular/calcineurin
+    relation: connects-to
+    note: "Calcineurin-NFAT signaling downstream of GNAQ/GNA11-PLCβ participates in the oncogenic signaling of uveal melanoma."
 ---
 
 # Uveal Melanoma
@@ -620,6 +629,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the epigenetic dysregulation, alongside BAP1 loss (BAP1 already mapped), of uveal melanoma.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy supports the survival and dormancy of the hepatic-metastatic cells of uveal melanoma.
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling contributes to the epigenetic dysregulation of uveal melanoma.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the metabolic adaptation of uveal melanoma.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven myeloid recruitment shapes the immunosuppressive microenvironment of uveal melanoma.
+- `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling downstream of GNAQ/GNA11-PLCβ participates in the oncogenic signaling of uveal melanoma.
 
 ---
 
