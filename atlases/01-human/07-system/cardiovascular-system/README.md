@@ -384,6 +384,15 @@ cross_links:
   - target: 01-human/03-molecular/perforin
     relation: connects-to
     note: "Perforin-mediated cytotoxic immunosurveillance participates in the immune-mediated myocardial and vascular injury relevant to the cardiovascular system."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the cardiomyocyte and vascular gene programs of the cardiovascular system."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven leukocyte recruitment participates in the vascular inflammation and atherogenesis of the cardiovascular system."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "CXCL12-CXCR4 signaling participates in the endothelial homeostasis, angiogenesis, and cardiac-progenitor mobilization of the cardiovascular system."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"
@@ -588,6 +597,9 @@ Each major vascular bed has **autoregulation** — a local mechanism that holds 
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy maintains the cardiomyocyte and vascular-cell protein-quality control and metabolic resilience of the cardiovascular system.
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the vascular endothelial and smooth-muscle mechanotransduction and remodeling of the cardiovascular system.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated cytotoxic immunosurveillance participates in the immune-mediated myocardial and vascular injury relevant to the cardiovascular system.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the cardiomyocyte and vascular gene programs of the cardiovascular system.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven leukocyte recruitment participates in the vascular inflammation and atherogenesis of the cardiovascular system.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the endothelial homeostasis, angiogenesis, and cardiac-progenitor mobilization of the cardiovascular system.
 
 ## Pathology
 

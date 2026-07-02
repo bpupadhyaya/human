@@ -378,6 +378,15 @@ cross_links:
   - target: 01-human/03-molecular/src-kinase
     relation: connects-to
     note: "SRC-family kinase signaling participates in the tubulointerstitial fibrosis and myofibroblast activation of chronic kidney disease."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the tubular and fibrotic gene programs of chronic kidney disease."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven leukocyte recruitment contributes to the tubulointerstitial inflammation and fibrosis of chronic kidney disease."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "CXCL12-CXCR4 signaling participates in the renal fibrosis and leukocyte trafficking of chronic kidney disease."
 ---
 
 # Chronic Kidney Disease
@@ -574,6 +583,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling maintains the tubular-cell energy homeostasis whose failure drives the progression of chronic kidney disease.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy maintains the podocyte and tubular-cell homeostasis whose decline accelerates chronic kidney disease.
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the tubulointerstitial fibrosis and myofibroblast activation of chronic kidney disease.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the tubular and fibrotic gene programs of chronic kidney disease.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven leukocyte recruitment contributes to the tubulointerstitial inflammation and fibrosis of chronic kidney disease.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the renal fibrosis and leukocyte trafficking of chronic kidney disease.
 
 ## Pathology
 
