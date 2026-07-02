@@ -363,6 +363,15 @@ cross_links:
   - target: 01-human/03-molecular/calcineurin
     relation: connects-to
     note: "Calcineurin-linked calcium signaling participates in the excitotoxic neuronal dysfunction of Huntington's disease."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "CXCL12-CXCR4 signaling participates in the microglial and neuroinflammatory responses of Huntington's disease."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "IL-33 alarmin signaling participates in the microglial and neuroinflammatory responses of Huntington's disease."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "IL-17A signaling participates in the neuroinflammation of Huntington's disease."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -529,3 +538,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family (FYN) kinase signaling participates in the NMDA-receptor-mediated excitotoxicity and synaptic dysfunction of Huntington's disease.
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven microglial and monocyte recruitment contributes to the neuroinflammation of Huntington's disease.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-linked calcium signaling participates in the excitotoxic neuronal dysfunction of Huntington's disease.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the microglial and neuroinflammatory responses of Huntington's disease.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the microglial and neuroinflammatory responses of Huntington's disease.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the neuroinflammation of Huntington's disease.
