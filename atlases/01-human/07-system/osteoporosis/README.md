@@ -379,6 +379,15 @@ cross_links:
   - target: 01-human/03-molecular/src-kinase
     relation: connects-to
     note: "SRC-family kinase signaling is essential for osteoclast function and bone resorption, a validated therapeutic target in osteoporosis."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the osteoblast and osteoclast differentiation programs of osteoporosis."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven leukocyte and osteoclast-precursor recruitment participates in the bone-resorption processes of osteoporosis."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "CXCL12-CXCR4 signaling participates in the osteoclast-precursor and mesenchymal-stem-cell recruitment in the bone remodeling of osteoporosis."
 ---
 
 # Osteoporosis
@@ -607,6 +616,9 @@ All newly diagnosed osteoporosis should be evaluated for secondary causes: CBC (
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the osteoblast and osteoclast energy metabolism that shapes bone remodeling in osteoporosis.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy maintains the osteocyte, osteoblast, and osteoclast homeostasis whose decline contributes to osteoporosis.
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling is essential for osteoclast function and bone resorption, a validated therapeutic target in osteoporosis.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the osteoblast and osteoclast differentiation programs of osteoporosis.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven leukocyte and osteoclast-precursor recruitment participates in the bone-resorption processes of osteoporosis.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the osteoclast-precursor and mesenchymal-stem-cell recruitment in the bone remodeling of osteoporosis.
 
 [^kanis-2019-who-osteoporosis]: Kanis JA, Cooper C, Rizzoli R, Reginster JY. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. *Osteoporos Int.* 2019;30(1):3-44. [doi:10.1007/s00198-018-4704-5](https://doi.org/10.1007/s00198-018-4704-5) · [PubMed 30324412](https://pubmed.ncbi.nlm.nih.gov/30324412/)
 [^cosman-2016-romosozumab]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)

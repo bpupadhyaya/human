@@ -373,6 +373,15 @@ cross_links:
   - target: 01-human/03-molecular/ccr5
     relation: connects-to
     note: "CCR5-driven leukocyte recruitment contributes to the dermal inflammation of prurigo nodularis."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the immune and neural responses of prurigo nodularis."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "CXCL12-CXCR4 signaling participates in the leukocyte recruitment and neuroimmune interactions of prurigo nodularis."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement C3 participates in the inflammatory milieu of the chronic skin lesions of prurigo nodularis."
 ---
 
 # Prurigo Nodularis
@@ -574,6 +583,9 @@ PN affects approximately **72,000 patients** in the US; true prevalence is likel
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the keratinocyte and immune-cell metabolism relevant to prurigo nodularis.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the keratinocyte and immune-cell homeostasis implicated in prurigo nodularis.
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven leukocyte recruitment contributes to the dermal inflammation of prurigo nodularis.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the immune and neural responses of prurigo nodularis.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the leukocyte recruitment and neuroimmune interactions of prurigo nodularis.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory milieu of the chronic skin lesions of prurigo nodularis.
 
 [^stander-2020-nemolizumab-pn]: Ständer S, Yosipovitch G, Legat FJ, et al. Trial of nemolizumab in moderate-to-severe prurigo nodularis. *N Engl J Med.* 2020;382(8):706-716. [doi:10.1056/NEJMoa1908316](https://doi.org/10.1056/NEJMoa1908316) · [PubMed 32053299](https://pubmed.ncbi.nlm.nih.gov/32053299/)
 [^briggs-2022-dupilumab-pn-liberty]: Briggs JN, Cho YY, Khanna R, et al. Dupilumab for prurigo nodularis: the LIBERTY-PN PRIME and PRIME2 trials. *N Engl J Med.* 2022;387(18):1683-1693. [doi:10.1056/NEJMoa2205093](https://doi.org/10.1056/NEJMoa2205093) · [PubMed 36300905](https://pubmed.ncbi.nlm.nih.gov/36300905/)
