@@ -368,6 +368,15 @@ cross_links:
   - target: 01-human/03-molecular/nf-kb
     relation: connects-to
     note: "NF-κB signaling drives the osteoclastogenesis (RANKL already mapped) and inflammatory remodeling of the musculoskeletal system."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy maintains the myofiber, chondrocyte, and osteocyte homeostasis of the musculoskeletal system."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling participates in the osteoclast function and mechanotransduction of the musculoskeletal system."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the osteogenic, chondrogenic, and myogenic differentiation of the musculoskeletal system."
 ---
 
 # Musculoskeletal System
@@ -621,6 +630,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) governs the osteoblast, chondrocyte, and myocyte growth and survival of the musculoskeletal system.
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK integrates the energy status of muscle and bone, coupling metabolism to musculoskeletal adaptation.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB signaling drives the osteoclastogenesis (RANKL already mapped) and inflammatory remodeling of the musculoskeletal system.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy maintains the myofiber, chondrocyte, and osteocyte homeostasis of the musculoskeletal system.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the osteoclast function and mechanotransduction of the musculoskeletal system.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the osteogenic, chondrogenic, and myogenic differentiation of the musculoskeletal system.
 
 ## Pathology
 

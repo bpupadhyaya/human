@@ -370,6 +370,15 @@ cross_links:
   - target: 01-human/03-molecular/ampk
     relation: connects-to
     note: "AMPK-linked metabolic signaling participates in the metabolic adaptation of the clonal hematopoietic cells of myelofibrosis."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-family chemokine signaling participates in the bone-marrow niche and immune interactions of myelofibrosis."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic landscape of myelofibrosis."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "IL-33 alarmin signaling participates in the inflammatory bone-marrow microenvironment and fibrosis of myelofibrosis."
 ---
 
 # Myelofibrosis
@@ -615,6 +624,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped), downstream of JAK2, supports the survival of the clonal cells of myelofibrosis.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the survival of the megakaryocytes and clonal cells of myelofibrosis.
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the metabolic adaptation of the clonal hematopoietic cells of myelofibrosis.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-family chemokine signaling participates in the bone-marrow niche and immune interactions of myelofibrosis.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic landscape of myelofibrosis.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the inflammatory bone-marrow microenvironment and fibrosis of myelofibrosis.
 
 ---
 
