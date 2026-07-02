@@ -397,6 +397,15 @@ cross_links:
   - target: 01-human/03-molecular/dnmt3a
     relation: connects-to
     note: "DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the epithelial renewal and immune tolerance of the digestive system."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven chemokine signaling participates in the mucosal immune trafficking of the digestive system."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "CXCL12-CXCR4 signaling participates in the epithelial-stromal and immune interactions of the digestive system."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "IL-6 signaling participates in the mucosal immune and epithelial-regeneration processes of the digestive system."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -612,6 +621,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [Autophagy](../../03-molecular/autophagy/README.md) — epithelial homeostasis: Autophagy maintains the epithelial homeostasis, Paneth-cell function, and mucosal barrier of the digestive system.
 - **Connects to:** [SRC Kinase](../../03-molecular/src-kinase/README.md) — junction dynamics: SRC-family kinase signaling participates in the epithelial junction dynamics and growth-factor responses of the digestive system.
 - **Connects to:** [DNMT3A](../../03-molecular/dnmt3a/README.md) — epigenetic renewal: DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the epithelial renewal and immune tolerance of the digestive system.
+- **Connects to:** [CCR5](../../03-molecular/ccr5/README.md) — mucosal trafficking: CCR5-driven chemokine signaling participates in the mucosal immune trafficking of the digestive system.
+- **Connects to:** [CXCL12](../../03-molecular/cxcl12/README.md) — epithelial-stromal crosstalk: CXCL12-CXCR4 signaling participates in the epithelial-stromal and immune interactions of the digestive system.
+- **Connects to:** [Interleukin-6](../../03-molecular/il-6/README.md) — mucosal regeneration: IL-6 signaling participates in the mucosal immune and epithelial-regeneration processes of the digestive system.
 
 ## Pathology
 
