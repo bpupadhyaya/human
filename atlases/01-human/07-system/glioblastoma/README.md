@@ -376,6 +376,15 @@ cross_links:
   - target: 01-human/03-molecular/calcineurin
     relation: connects-to
     note: "Calcineurin-NFAT signaling participates in the invasion and proliferation of glioblastoma."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "IL-1β-driven inflammation participates in the immunosuppressive tumor microenvironment of glioblastoma."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "IL-33 alarmin signaling participates in the microglial and tumor-immune microenvironment of glioblastoma."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "IL-17A signaling participates in the neuroinflammatory tumor microenvironment of glioblastoma."
 ---
 
 # Glioblastoma
@@ -625,6 +634,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven tumor-associated-macrophage recruitment shapes the immunosuppressive microenvironment of glioblastoma.
 - `connects-to` → **[YAP1](../../03-molecular/yap1/README.md)** — YAP1-Hippo signaling participates in the mesenchymal transition and glioma-stem-cell biology of glioblastoma.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the invasion and proliferation of glioblastoma.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the immunosuppressive tumor microenvironment of glioblastoma.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the microglial and tumor-immune microenvironment of glioblastoma.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the neuroinflammatory tumor microenvironment of glioblastoma.
 
 ---
 
