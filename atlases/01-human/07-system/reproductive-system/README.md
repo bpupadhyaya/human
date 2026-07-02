@@ -374,6 +374,15 @@ cross_links:
   - target: 01-human/03-molecular/dnmt3a
     relation: connects-to
     note: "DNMT3A-mediated DNA methylation participates in the germ-cell epigenetic reprogramming and imprinting of the reproductive system."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven chemokine signaling participates in the immune trafficking within the reproductive tissues of the reproductive system."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "CXCL12-CXCR4 signaling participates in the germ-cell migration and gonadal-niche interactions of the reproductive system."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "IL-6 signaling participates in the ovarian and testicular immune-endocrine processes of the reproductive system."
 ---
 
 # Reproductive System
@@ -608,6 +617,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy participates in the gametogenesis, hormone-producing-cell homeostasis, and tissue remodeling of the reproductive system.
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of gonadotropin and growth-factor receptors participates in the germ-cell and gonadal-somatic-cell signaling of the reproductive system.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the germ-cell epigenetic reprogramming and imprinting of the reproductive system.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven chemokine signaling participates in the immune trafficking within the reproductive tissues of the reproductive system.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the germ-cell migration and gonadal-niche interactions of the reproductive system.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 signaling participates in the ovarian and testicular immune-endocrine processes of the reproductive system.
 
 ## Pathology
 
