@@ -388,6 +388,15 @@ cross_links:
   - target: 01-human/03-molecular/ccr5
     relation: connects-to
     note: "CCR5-driven leukocyte recruitment participates in the renal immune surveillance and inflammatory responses of the renal system."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "CXCL12-CXCR4 signaling participates in the renal development and immune-cell trafficking of the renal system."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "IL-6 signaling participates in the renal inflammatory responses of the renal system."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "IL-1β-driven inflammation participates in the renal inflammatory responses of the renal system."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -606,6 +615,9 @@ Natriuretic counterpoint:
 - **Connects to:** [SRC Kinase](../../03-molecular/src-kinase/README.md) — podocyte and tubular signaling: SRC-family kinase signaling participates in the podocyte, tubular-epithelial, and growth-factor responses of the renal system.
 - **Connects to:** [DNMT3A](../../03-molecular/dnmt3a/README.md) — epigenetic regulation: DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the nephron development and tubular gene expression of the renal system.
 - **Connects to:** [CCR5](../../03-molecular/ccr5/README.md) — renal immune recruitment: CCR5-driven leukocyte recruitment participates in the renal immune surveillance and inflammatory responses of the renal system.
+- **Connects to:** [CXCL12](../../03-molecular/cxcl12/README.md) — renal development: CXCL12-CXCR4 signaling participates in the renal development and immune-cell trafficking of the renal system.
+- **Connects to:** [Interleukin-6](../../03-molecular/il-6/README.md) — renal inflammation: IL-6 signaling participates in the renal inflammatory responses of the renal system.
+- **Connects to:** [IL-1β](../../03-molecular/il-1b/README.md) — inflammasome injury: IL-1β-driven inflammation participates in the renal inflammatory responses of the renal system.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 
