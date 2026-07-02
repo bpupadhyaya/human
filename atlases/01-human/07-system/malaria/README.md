@@ -384,6 +384,15 @@ cross_links:
   - target: 01-human/03-molecular/cxcl12
     relation: connects-to
     note: "CXCL12-CXCR4 signaling participates in the leukocyte trafficking and splenic and marrow responses of malaria."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "IL-33 alarmin signaling participates in the immune response and immunopathology of malaria."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "IL-17A signaling participates in the inflammatory immunopathology of malaria."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Osteopontin participates in the macrophage activation and splenic immune response of malaria."
 ---
 
 # Malaria
@@ -664,6 +673,9 @@ cross_links:
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy participates in the hepatocyte and immune-cell responses to the liver and blood stages of malaria.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the host immune response to Plasmodium in malaria.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the leukocyte trafficking and splenic and marrow responses of malaria.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the immune response and immunopathology of malaria.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory immunopathology of malaria.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the macrophage activation and splenic immune response of malaria.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)
