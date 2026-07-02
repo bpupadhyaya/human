@@ -377,6 +377,15 @@ cross_links:
   - target: 01-human/03-molecular/src-kinase
     relation: connects-to
     note: "SRC-family kinase signaling participates in the keratinocyte adhesion, migration, and growth-factor responses of the integumentary system."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven chemokine signaling participates in the cutaneous immune-cell trafficking of the integumentary system."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "CXCL12-CXCR4 signaling participates in the dermal-epidermal and immune-cell interactions of the integumentary system."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the keratinocyte differentiation and skin-immune gene programs of the integumentary system."
 ---
 
 # Integumentary System
@@ -602,6 +611,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the keratinocyte and sebocyte energy metabolism of the integumentary system.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy maintains the keratinocyte differentiation, barrier formation, and melanocyte homeostasis of the integumentary system.
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the keratinocyte adhesion, migration, and growth-factor responses of the integumentary system.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven chemokine signaling participates in the cutaneous immune-cell trafficking of the integumentary system.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the dermal-epidermal and immune-cell interactions of the integumentary system.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the keratinocyte differentiation and skin-immune gene programs of the integumentary system.
 
 ## Pathology
 
