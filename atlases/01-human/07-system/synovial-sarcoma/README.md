@@ -376,6 +376,15 @@ cross_links:
   - target: 01-human/03-molecular/cdkn1a
     relation: connects-to
     note: "CDKN1A-p21 cell-cycle control participates in the checkpoint regulation dysregulated in synovial sarcoma."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "IL-33 alarmin signaling participates in the tumor-immune microenvironment of synovial sarcoma."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "IL-17A signaling participates in the inflammatory tumor microenvironment of synovial sarcoma."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement C3 participates in the inflammatory tumor microenvironment of synovial sarcoma."
 ---
 
 # Synovial Sarcoma
@@ -621,6 +630,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven myeloid recruitment shapes the immunosuppressive microenvironment of synovial sarcoma.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the tumor microenvironment of synovial sarcoma.
 - `connects-to` → **[CDKN1A](../../03-molecular/cdkn1a/README.md)** — CDKN1A-p21 cell-cycle control participates in the checkpoint regulation dysregulated in synovial sarcoma.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the tumor-immune microenvironment of synovial sarcoma.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory tumor microenvironment of synovial sarcoma.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory tumor microenvironment of synovial sarcoma.
 
 ---
 
