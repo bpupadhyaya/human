@@ -376,6 +376,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "NOTCH signaling participates in the vascular-smooth-muscle-cell differentiation and aortic-wall homeostasis dysregulated in Marfan syndrome."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "CXCL12-CXCR4 signaling participates in the vascular smooth-muscle-cell and endothelial responses of the aortopathy of Marfan syndrome."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the connective-tissue gene programs relevant to Marfan syndrome."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "IL-33 alarmin signaling participates in the vascular inflammation relevant to the aortopathy of Marfan syndrome."
 ---
 
 # Marfan Syndrome
@@ -634,6 +643,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven leukocyte recruitment into the aortic wall contributes to the inflammatory component of the aortopathy of Marfan syndrome.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the vascular-smooth-muscle-cell phenotype in Marfan syndrome.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH signaling participates in the vascular-smooth-muscle-cell differentiation and aortic-wall homeostasis dysregulated in Marfan syndrome.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the vascular smooth-muscle-cell and endothelial responses of the aortopathy of Marfan syndrome.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the connective-tissue gene programs relevant to Marfan syndrome.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the vascular inflammation relevant to the aortopathy of Marfan syndrome.
 
 ---
 
