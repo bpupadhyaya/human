@@ -370,6 +370,15 @@ cross_links:
   - target: 01-human/03-molecular/autophagy
     relation: connects-to
     note: "Autophagy in intestinal epithelial and immune cells shapes the host response to and tolerance of the gut microbiome."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling participates in the epithelial-barrier junction dynamics at the host-microbiome interface of the gut."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation, shaped by microbial metabolites, participates in the epigenetic host-microbiome crosstalk of the gut."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven leukocyte recruitment participates in the mucosal immune responses shaped by the gut microbiome."
 ---
 
 # Gut Microbiome
@@ -565,6 +574,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK, activated by microbiota-derived short-chain fatty acids, links the gut microbiome to host energy metabolism.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) in the intestinal epithelium responds to the microbial signals of the gut microbiome.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy in intestinal epithelial and immune cells shapes the host response to and tolerance of the gut microbiome.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the epithelial-barrier junction dynamics at the host-microbiome interface of the gut.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation, shaped by microbial metabolites, participates in the epigenetic host-microbiome crosstalk of the gut.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven leukocyte recruitment participates in the mucosal immune responses shaped by the gut microbiome.
 
 ## Pathology
 
