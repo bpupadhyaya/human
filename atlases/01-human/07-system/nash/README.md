@@ -385,6 +385,15 @@ cross_links:
   - target: 01-human/03-molecular/il-17a
     relation: connects-to
     note: "IL-17A signaling participates in the hepatic inflammation and fibrogenesis of non-alcoholic steatohepatitis."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "IL-33 alarmin signaling participates in the hepatic inflammation and fibrosis of NASH."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the hepatic metabolic and fibrotic gene programs of NASH."
+  - target: 01-human/03-molecular/calcineurin
+    relation: connects-to
+    note: "Calcineurin-NFAT signaling participates in the hepatic-stellate-cell activation and fibrosis of NASH."
 ---
 
 # NASH
@@ -596,6 +605,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the hepatocyte and stellate-cell responses of non-alcoholic steatohepatitis.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the hepatic-stellate-cell activation and leukocyte recruitment of non-alcoholic steatohepatitis.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the hepatic inflammation and fibrogenesis of non-alcoholic steatohepatitis.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the hepatic inflammation and fibrosis of NASH.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the hepatic metabolic and fibrotic gene programs of NASH.
+- `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the hepatic-stellate-cell activation and fibrosis of NASH.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

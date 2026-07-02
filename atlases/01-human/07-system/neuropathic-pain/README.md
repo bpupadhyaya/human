@@ -366,6 +366,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Complement C3 signaling participates in the microglial synaptic remodeling and neuroinflammation of neuropathic pain."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "IL-33 alarmin signaling participates in the glial and neuroinflammatory responses of neuropathic pain."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the pain-sensitization gene programs of neuropathic pain."
+  - target: 01-human/03-molecular/calcineurin
+    relation: connects-to
+    note: "Calcineurin-NFAT signaling participates in the neuroimmune and glial activation of neuropathic pain."
 sources:
   - id: jensen-2011-neuropathic-pain-review
     type: peer-reviewed
@@ -645,6 +654,9 @@ Chronic neuropathic pain carries significant psychological burden:
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the neuronal and glial homeostasis and the Wallerian degeneration implicated in neuropathic pain.
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven microglial and macrophage recruitment participates in the neuroinflammation driving neuropathic pain.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 signaling participates in the microglial synaptic remodeling and neuroinflammation of neuropathic pain.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the glial and neuroinflammatory responses of neuropathic pain.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the pain-sensitization gene programs of neuropathic pain.
+- `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the neuroimmune and glial activation of neuropathic pain.
 
 [^jensen-2011-neuropathic-pain-review]: Jensen TS, Baron R, Haanpää M, et al. A new definition of neuropathic pain. *Pain.* 2011;152(10):2204-2205. [doi:10.1016/j.pain.2011.06.017](https://doi.org/10.1016/j.pain.2011.06.017) · [PubMed 21764514](https://pubmed.ncbi.nlm.nih.gov/21764514/)
 [^dworkin-2010-neuropathic-pain-treatment]: Dworkin RH, O'Connor AB, Audette J, et al. Recommendations for the pharmacological management of neuropathic pain. *Mayo Clin Proc.* 2010;85(3 Suppl):S3-14. [doi:10.4065/mcp.2009.0649](https://doi.org/10.4065/mcp.2009.0649) · [PubMed 20194146](https://pubmed.ncbi.nlm.nih.gov/20194146/)
