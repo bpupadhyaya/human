@@ -378,6 +378,15 @@ cross_links:
   - target: 01-human/03-molecular/dnmt3a
     relation: connects-to
     note: "DNMT3A-mediated DNA methylation participates in the epigenetic regulation of globin genes and erythroid differentiation relevant to thalassemia."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-family chemokine signaling participates in the bone-marrow niche and inflammatory interactions of thalassemia."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "CXCL12-CXCR4 signaling participates in the erythroid bone-marrow-niche interactions and extramedullary hematopoiesis of thalassemia."
+  - target: 01-human/03-molecular/kit
+    relation: connects-to
+    note: "KIT (stem-cell-factor receptor) signaling participates in the erythroid-progenitor proliferation and the ineffective erythropoiesis of thalassemia."
 ---
 
 # Thalassemia
@@ -642,6 +651,9 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy (including erythroid mitophagy and clearance of excess globin chains) participates in the ineffective erythropoiesis of thalassemia.
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of EPO and cytokine receptors participates in the erythroid signaling of thalassemia.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the epigenetic regulation of globin genes and erythroid differentiation relevant to thalassemia.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-family chemokine signaling participates in the bone-marrow niche and inflammatory interactions of thalassemia.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the erythroid bone-marrow-niche interactions and extramedullary hematopoiesis of thalassemia.
+- `connects-to` → **[KIT](../../03-molecular/kit/README.md)** — KIT (stem-cell-factor receptor) signaling participates in the erythroid-progenitor proliferation and the ineffective erythropoiesis of thalassemia.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.
