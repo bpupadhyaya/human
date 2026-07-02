@@ -370,6 +370,15 @@ cross_links:
   - target: 01-human/03-molecular/il-33
     relation: connects-to
     note: "IL-33 alarmin signaling participates in the type-2 immune skewing that shapes susceptibility to Leishmania."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "CXCL12-CXCR4 signaling participates in the leukocyte trafficking and granuloma organization of leishmaniasis."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "VEGF-driven angiogenesis and lymphangiogenesis participate in the lesion vascularization and remodeling of leishmaniasis."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "Collagen deposition contributes to the tissue remodeling and scarring of cutaneous and mucocutaneous leishmaniasis."
 ---
 
 # Leishmaniasis
@@ -589,3 +598,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation and macrophage epigenetic reprogramming shape the host response to Leishmania.
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven monocyte and macrophage recruitment shapes the granulomatous and cutaneous immune response to Leishmania.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the type-2 immune skewing that shapes susceptibility to Leishmania.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the leukocyte trafficking and granuloma organization of leishmaniasis.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VEGF-driven angiogenesis and lymphangiogenesis participate in the lesion vascularization and remodeling of leishmaniasis.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Collagen deposition contributes to the tissue remodeling and scarring of cutaneous and mucocutaneous leishmaniasis.
