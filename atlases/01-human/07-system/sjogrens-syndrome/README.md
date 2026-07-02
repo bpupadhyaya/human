@@ -382,6 +382,15 @@ cross_links:
   - target: 01-human/03-molecular/dnmt3a
     relation: connects-to
     note: "DNMT3A-mediated DNA methylation participates in the epigenetic dysregulation of the immune responses of Sjögren's syndrome."
+  - target: 01-human/03-molecular/calcineurin
+    relation: connects-to
+    note: "Calcineurin-NFAT signaling participates in the autoreactive T-cell activation of the salivary and lacrimal gland infiltrates of Sjögren's syndrome."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "IL-10-mediated immunoregulation participates in the dysregulated immune balance of Sjögren's syndrome."
+  - target: 01-human/03-molecular/adenosine
+    relation: connects-to
+    note: "Adenosine and purinergic signaling participate in the salivary-gland dysfunction and immunomodulation of Sjögren's syndrome."
 ---
 
 # Sjögren's Syndrome
@@ -633,6 +642,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked immunometabolic signaling shapes the autoreactive T- and B-cell metabolism of Sjögren's syndrome.
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven leukocyte recruitment into the exocrine glands contributes to the lymphocytic infiltration of Sjögren's syndrome.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the epigenetic dysregulation of the immune responses of Sjögren's syndrome.
+- `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the autoreactive T-cell activation of the salivary and lacrimal gland infiltrates of Sjögren's syndrome.
+- `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — IL-10-mediated immunoregulation participates in the dysregulated immune balance of Sjögren's syndrome.
+- `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine and purinergic signaling participate in the salivary-gland dysfunction and immunomodulation of Sjögren's syndrome.
 
 ---
 
