@@ -378,6 +378,15 @@ cross_links:
   - target: 01-human/03-molecular/mtor
     relation: connects-to
     note: "mTOR signaling coordinates the growth, surfactant metabolism, and immune responses of the respiratory system."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the airway epithelial and immune gene programs of the respiratory system."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven leukocyte recruitment participates in the airway immune surveillance and inflammatory responses of the respiratory system."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling participates in the airway epithelial junction dynamics and growth-factor responses of the respiratory system."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -579,6 +588,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Connects-to** → [AMPK](../../03-molecular/ampk/README.md): airway energy homeostasis: AMPK-linked metabolic signaling participates in the airway epithelial and alveolar energy homeostasis of the respiratory system.
 - **Connects-to** → [Autophagy](../../03-molecular/autophagy/README.md): epithelial homeostasis and defense: Autophagy maintains the airway epithelial and alveolar-macrophage homeostasis and host defense of the respiratory system.
 - **Connects-to** → [mTOR](../../03-molecular/mtor/README.md): growth and surfactant metabolism: mTOR signaling coordinates the growth, surfactant metabolism, and immune responses of the respiratory system.
+- **Connects-to** → [DNMT3A](../../03-molecular/dnmt3a/README.md): epigenetic regulation: DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the airway epithelial and immune gene programs of the respiratory system.
+- **Connects-to** → [CCR5](../../03-molecular/ccr5/README.md): airway immune recruitment: CCR5-driven leukocyte recruitment participates in the airway immune surveillance and inflammatory responses of the respiratory system.
+- **Connects-to** → [SRC Kinase](../../03-molecular/src-kinase/README.md): epithelial junctions: SRC-family kinase signaling participates in the airway epithelial junction dynamics and growth-factor responses of the respiratory system.
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.
 
 ## Pathology
