@@ -373,6 +373,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "NOTCH signaling participates in the re-epithelialization and angiogenesis of the proliferative phase of wound healing."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven monocyte and macrophage recruitment participates in the inflammatory phase of wound healing."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the macrophage and fibroblast phenotype transitions of wound healing."
+  - target: 01-human/03-molecular/fibrinogen
+    relation: connects-to
+    note: "Fibrinogen and the fibrin clot provide the provisional matrix of the hemostasis phase that initiates wound healing."
 ---
 
 # Wound Healing
@@ -610,6 +619,9 @@ cross_links:
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling regulates the energy state and metabolic transitions of the cells across the phases of wound healing.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the keratinocyte, fibroblast, and immune-cell responses across the phases of wound healing.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH signaling participates in the re-epithelialization and angiogenesis of the proliferative phase of wound healing.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven monocyte and macrophage recruitment participates in the inflammatory phase of wound healing.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the macrophage and fibroblast phenotype transitions of wound healing.
+- `connects-to` → **[Fibrinogen](../../03-molecular/fibrinogen/README.md)** — Fibrinogen and the fibrin clot provide the provisional matrix of the hemostasis phase that initiates wound healing.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)
