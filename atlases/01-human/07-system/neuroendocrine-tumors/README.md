@@ -376,6 +376,15 @@ cross_links:
   - target: 01-human/03-molecular/arid1a
     relation: connects-to
     note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic landscape of neuroendocrine tumors."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "IL-1β-driven inflammation participates in the tumor microenvironment of neuroendocrine tumors."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "IL-33 alarmin signaling participates in the tumor-immune microenvironment of neuroendocrine tumors."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "IL-6-STAT3 signaling (STAT3 already mapped) participates in the tumor-microenvironment and survival signaling of neuroendocrine tumors."
 ---
 
 # Neuroendocrine Tumors
@@ -600,6 +609,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the metabolic adaptation of neuroendocrine tumors.
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven myeloid recruitment shapes the tumor microenvironment of neuroendocrine tumors.
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic landscape of neuroendocrine tumors.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the tumor microenvironment of neuroendocrine tumors.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the tumor-immune microenvironment of neuroendocrine tumors.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6-STAT3 signaling (STAT3 already mapped) participates in the tumor-microenvironment and survival signaling of neuroendocrine tumors.
 
 [^yao-2011-radiant3]: Yao JC, Shah MH, Ito T, et al. Everolimus for advanced pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):514-523. [doi:10.1056/NEJMoa1009290](https://doi.org/10.1056/NEJMoa1009290) · [PubMed 21306237](https://pubmed.ncbi.nlm.nih.gov/21306237/)
 [^raymond-2011-sunitinib-pnet]: Raymond E, Dahan L, Raoul JL, et al. Sunitinib malate for the treatment of pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):501-513. [doi:10.1056/NEJMoa1003825](https://doi.org/10.1056/NEJMoa1003825) · [PubMed 21306236](https://pubmed.ncbi.nlm.nih.gov/21306236/)

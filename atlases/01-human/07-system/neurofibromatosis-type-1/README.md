@@ -376,6 +376,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "IL-6-STAT3 signaling (STAT3 already mapped) participates in the inflammatory tumor-microenvironment of the neurofibromas of neurofibromatosis type 1."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "IL-1β-driven inflammation participates in the tumor microenvironment (including mast-cell-rich neurofibromas) of neurofibromatosis type 1."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "IL-33 alarmin signaling participates in the mast-cell and immune microenvironment of the neurofibromas of neurofibromatosis type 1."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "IL-17A signaling participates in the inflammatory tumor microenvironment of neurofibromatosis type 1."
 ---
 
 # Neurofibromatosis Type 1
@@ -608,6 +617,9 @@ In glioma and MPNST: additional alterations required — MPNST requires CDKN2A/2
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven myeloid recruitment (including tumor-associated macrophages) shapes the microenvironment of the neurofibromas of neurofibromatosis type 1.
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic landscape of the tumors of neurofibromatosis type 1.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6-STAT3 signaling (STAT3 already mapped) participates in the inflammatory tumor-microenvironment of the neurofibromas of neurofibromatosis type 1.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the tumor microenvironment (including mast-cell-rich neurofibromas) of neurofibromatosis type 1.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the mast-cell and immune microenvironment of the neurofibromas of neurofibromatosis type 1.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory tumor microenvironment of neurofibromatosis type 1.
 
 [^gutmann-2017-nf1-primer]: Gutmann DH, Ferner RE, Listernick RH, et al. Neurofibromatosis type 1. *Nat Rev Dis Primers.* 2017;3:17004. [doi:10.1038/nrdp.2017.4](https://doi.org/10.1038/nrdp.2017.4) · [PubMed 28230061](https://pubmed.ncbi.nlm.nih.gov/28230061/)
 [^dombi-2016-selumetinib]: Dombi E, Baldwin A, Marcus LJ, et al. Activity of Selumetinib in Neurofibromatosis Type 1-Related Plexiform Neurofibromas. *N Engl J Med.* 2016;375(26):2550-2560. [doi:10.1056/NEJMoa1605943](https://doi.org/10.1056/NEJMoa1605943) · [PubMed 28029918](https://pubmed.ncbi.nlm.nih.gov/28029918/)
