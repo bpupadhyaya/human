@@ -373,6 +373,15 @@ cross_links:
   - target: 01-human/03-molecular/dnmt3a
     relation: connects-to
     note: "DNMT3A-mediated DNA methylation contributes to the proviral latency and T-cell-exhaustion epigenetics of HIV/AIDS."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "IL-33 alarmin signaling participates in the mucosal and immune dysregulation of HIV/AIDS."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "IL-17A signaling and the loss of Th17 cells participate in the mucosal barrier dysfunction and opportunistic-infection susceptibility of HIV/AIDS."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement C3 participates in the innate immune responses and immune-complex processes of HIV/AIDS."
 ---
 
 # HIV/AIDS
@@ -606,6 +615,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family (LCK) kinase signaling downstream of the T-cell receptor participates in the T-cell activation and immune dysfunction of HIV/AIDS.
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked immunometabolic signaling shapes the T-cell metabolism and exhaustion of HIV/AIDS.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the proviral latency and T-cell-exhaustion epigenetics of HIV/AIDS.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the mucosal and immune dysregulation of HIV/AIDS.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling and the loss of Th17 cells participate in the mucosal barrier dysfunction and opportunistic-infection susceptibility of HIV/AIDS.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the innate immune responses and immune-complex processes of HIV/AIDS.
 
 ## See Also
 
