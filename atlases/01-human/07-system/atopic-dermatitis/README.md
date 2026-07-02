@@ -376,6 +376,15 @@ cross_links:
   - target: 01-human/03-molecular/ccr5
     relation: connects-to
     note: "CCR5-driven leukocyte recruitment contributes to the dermal T-helper-cell infiltration of atopic dermatitis."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the keratinocyte-barrier and immune gene programs of atopic dermatitis."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "CXCL12-CXCR4 signaling participates in the leukocyte recruitment and skin-immune interactions of atopic dermatitis."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement C3 participates in the innate immune and inflammatory milieu of atopic-dermatitis skin lesions."
 ---
 
 # Atopic Dermatitis
@@ -618,6 +627,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the keratinocyte and immune-cell metabolism relevant to atopic dermatitis.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the keratinocyte differentiation, barrier function, and innate immune responses of atopic dermatitis.
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven leukocyte recruitment contributes to the dermal T-helper-cell infiltration of atopic dermatitis.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the keratinocyte-barrier and immune gene programs of atopic dermatitis.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the leukocyte recruitment and skin-immune interactions of atopic dermatitis.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the innate immune and inflammatory milieu of atopic-dermatitis skin lesions.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
