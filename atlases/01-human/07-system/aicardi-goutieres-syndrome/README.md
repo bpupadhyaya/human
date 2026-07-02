@@ -375,6 +375,15 @@ cross_links:
   - target: 01-human/03-molecular/mdm2
     relation: connects-to
     note: "MDM2-p53 signaling participates in the cellular stress and apoptosis responses to the chronic interferon activation of Aicardi-Goutières syndrome."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "CXCL12-CXCR4 signaling participates in the leukocyte trafficking and interferon-driven neuroinflammation of Aicardi-Goutières syndrome."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "IL-33 alarmin signaling participates in the neuroinflammatory responses of Aicardi-Goutières syndrome."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "IL-10-mediated immunoregulation participates in the balance of the chronic interferon-driven inflammation of Aicardi-Goutières syndrome."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -588,6 +597,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation and the broader epigenetic control of interferon-stimulated genes shape the interferon signature of Aicardi-Goutières syndrome.
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven leukocyte recruitment contributes to the neuroinflammation of Aicardi-Goutières syndrome.
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2-p53 signaling participates in the cellular stress and apoptosis responses to the chronic interferon activation of Aicardi-Goutières syndrome.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the leukocyte trafficking and interferon-driven neuroinflammation of Aicardi-Goutières syndrome.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the neuroinflammatory responses of Aicardi-Goutières syndrome.
+- `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — IL-10-mediated immunoregulation participates in the balance of the chronic interferon-driven inflammation of Aicardi-Goutières syndrome.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
