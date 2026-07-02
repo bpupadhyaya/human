@@ -374,6 +374,15 @@ cross_links:
   - target: 01-human/03-molecular/ccr5
     relation: connects-to
     note: "CCR5-family chemokine signaling participates in the trafficking of leukocytes through the lymphatic vessels and nodes of the lymphatic system."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the lymphocyte and lymphatic-endothelial gene programs of the lymphatic system."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling participates in the lymphatic-endothelial junction dynamics and immune-cell activation of the lymphatic system."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "IL-33 alarmin signaling participates in the lymphatic-endothelial and immune responses of the lymphatic system."
 ---
 
 # Lymphatic System
@@ -602,6 +611,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the lymphatic-endothelial and immune-cell metabolism of the lymphatic system.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy participates in the lymphocyte homeostasis and lymphatic-endothelial maintenance of the lymphatic system.
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-family chemokine signaling participates in the trafficking of leukocytes through the lymphatic vessels and nodes of the lymphatic system.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the lymphocyte and lymphatic-endothelial gene programs of the lymphatic system.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the lymphatic-endothelial junction dynamics and immune-cell activation of the lymphatic system.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the lymphatic-endothelial and immune responses of the lymphatic system.
 
 ## Pathology
 
