@@ -388,6 +388,15 @@ cross_links:
   - target: 01-human/03-molecular/dnmt3a
     relation: connects-to
     note: "DNMT3A-mediated DNA methylation participates in the epigenetic modulation of the complement and endothelial gene expression relevant to atypical hemolytic uremic syndrome."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "CXCL12-CXCR4 signaling participates in the endothelial and leukocyte interactions of the thrombotic microangiopathy of atypical hemolytic uremic syndrome."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "IL-1β-driven inflammation participates in the endothelial injury and thromboinflammation of atypical hemolytic uremic syndrome."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "IL-33 alarmin signaling participates in the endothelial activation of atypical hemolytic uremic syndrome."
 ---
 
 # Atypical HUS
@@ -673,6 +682,9 @@ Repeated TMA episodes → glomerular fibrosis → CKD → ESRD
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the endothelial-cell homeostasis relevant to the thrombotic microangiopathy of atypical hemolytic uremic syndrome.
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven leukocyte recruitment participates in the endothelial inflammation and renal injury of atypical hemolytic uremic syndrome.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the epigenetic modulation of the complement and endothelial gene expression relevant to atypical hemolytic uremic syndrome.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the endothelial and leukocyte interactions of the thrombotic microangiopathy of atypical hemolytic uremic syndrome.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the endothelial injury and thromboinflammation of atypical hemolytic uremic syndrome.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the endothelial activation of atypical hemolytic uremic syndrome.
 
 [^fakhouri-2017-ahus-lancet]: Fakhouri F, Zuber J, Frémeaux-Bacchi V, Loirat C. Haemolytic uraemic syndrome. *Lancet.* 2017;390(10095):681-696. [doi:10.1016/S0140-6736(17)30062-4](https://doi.org/10.1016/S0140-6736(17)30062-4) · [PubMed 28242109](https://pubmed.ncbi.nlm.nih.gov/28242109/)
 [^legendre-2013-eculizumab-ahus-nejm]: Legendre CM, Licht C, Muus P, et al. Terminal complement inhibitor eculizumab in atypical hemolytic-uremic syndrome. *N Engl J Med.* 2013;368(23):2169-2181. [doi:10.1056/NEJMoa1208981](https://doi.org/10.1056/NEJMoa1208981) · [PubMed 23738544](https://pubmed.ncbi.nlm.nih.gov/23738544/)

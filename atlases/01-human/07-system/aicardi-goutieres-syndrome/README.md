@@ -384,6 +384,15 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "IL-10-mediated immunoregulation participates in the balance of the chronic interferon-driven inflammation of Aicardi-Goutières syndrome."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "IL-17A signaling participates in the neuroinflammatory response of Aicardi-Goutières syndrome."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the interferon-driven gene programs of Aicardi-Goutières syndrome."
+  - target: 01-human/03-molecular/calcineurin
+    relation: connects-to
+    note: "Calcineurin-NFAT signaling participates in the T-cell and immune activation of Aicardi-Goutières syndrome."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -600,6 +609,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the leukocyte trafficking and interferon-driven neuroinflammation of Aicardi-Goutières syndrome.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the neuroinflammatory responses of Aicardi-Goutières syndrome.
 - `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — IL-10-mediated immunoregulation participates in the balance of the chronic interferon-driven inflammation of Aicardi-Goutières syndrome.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the neuroinflammatory response of Aicardi-Goutières syndrome.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the interferon-driven gene programs of Aicardi-Goutières syndrome.
+- `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the T-cell and immune activation of Aicardi-Goutières syndrome.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
