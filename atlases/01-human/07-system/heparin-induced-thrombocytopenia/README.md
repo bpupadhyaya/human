@@ -385,6 +385,15 @@ cross_links:
   - target: 01-human/03-molecular/cd20
     relation: connects-to
     note: "CD20-expressing B cells produce the pathogenic anti-PF4/heparin antibodies of heparin-induced thrombocytopenia, a rationale for B-cell-depleting therapy in refractory cases."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "IL-33 alarmin signaling participates in the endothelial and immune activation relevant to heparin-induced thrombocytopenia."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "IL-17A signaling participates in the T-cell-mediated immune dysregulation of heparin-induced thrombocytopenia."
+  - target: 01-human/03-molecular/calcineurin
+    relation: connects-to
+    note: "Calcineurin-NFAT signaling participates in the T-cell help driving the anti-PF4/heparin antibody response of heparin-induced thrombocytopenia."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -651,6 +660,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the immune response generating anti-PF4/heparin antibodies in heparin-induced thrombocytopenia.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the prothrombotic inflammatory milieu of heparin-induced thrombocytopenia.
 - `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — CD20-expressing B cells produce the pathogenic anti-PF4/heparin antibodies of heparin-induced thrombocytopenia, a rationale for B-cell-depleting therapy in refractory cases.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the endothelial and immune activation relevant to heparin-induced thrombocytopenia.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the T-cell-mediated immune dysregulation of heparin-induced thrombocytopenia.
+- `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the T-cell help driving the anti-PF4/heparin antibody response of heparin-induced thrombocytopenia.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)
