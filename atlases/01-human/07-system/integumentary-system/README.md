@@ -368,6 +368,15 @@ cross_links:
   - target: 01-human/03-molecular/nf-kb
     relation: connects-to
     note: "NF-κB signaling governs the keratinocyte inflammatory and barrier-defense responses of the integumentary system."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK-linked metabolic signaling participates in the keratinocyte and sebocyte energy metabolism of the integumentary system."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy maintains the keratinocyte differentiation, barrier formation, and melanocyte homeostasis of the integumentary system."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling participates in the keratinocyte adhesion, migration, and growth-factor responses of the integumentary system."
 ---
 
 # Integumentary System
@@ -590,6 +599,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) governs the keratinocyte and hair-follicle proliferation and survival of the integumentary system.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR signaling integrates nutrient and growth-factor cues to drive the epidermal proliferation and barrier renewal of the integumentary system.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB signaling governs the keratinocyte inflammatory and barrier-defense responses of the integumentary system.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the keratinocyte and sebocyte energy metabolism of the integumentary system.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy maintains the keratinocyte differentiation, barrier formation, and melanocyte homeostasis of the integumentary system.
+- `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the keratinocyte adhesion, migration, and growth-factor responses of the integumentary system.
 
 ## Pathology
 
