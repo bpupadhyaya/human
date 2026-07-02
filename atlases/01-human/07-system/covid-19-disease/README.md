@@ -376,6 +376,15 @@ cross_links:
   - target: 01-human/03-molecular/src-kinase
     relation: connects-to
     note: "SRC-family kinase signaling participates in the endothelial and platelet activation of COVID-19 coagulopathy."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven leukocyte recruitment contributes to the hyperinflammation and lung immunopathology of COVID-19."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the immune responses to SARS-CoV-2 in COVID-19."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "CXCL12-CXCR4 signaling participates in the immune-cell trafficking and vascular responses of COVID-19."
 ---
 
 # COVID-19 Disease
@@ -560,6 +569,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked immunometabolic signaling shapes the immune-cell metabolism of the hyperinflammatory response to SARS-CoV-2.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — SARS-CoV-2 modulates host autophagy to support its replication, and autophagy shapes the innate immune response to COVID-19.
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the endothelial and platelet activation of COVID-19 coagulopathy.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven leukocyte recruitment contributes to the hyperinflammation and lung immunopathology of COVID-19.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the immune responses to SARS-CoV-2 in COVID-19.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the immune-cell trafficking and vascular responses of COVID-19.
 
 ## Pathology
 
