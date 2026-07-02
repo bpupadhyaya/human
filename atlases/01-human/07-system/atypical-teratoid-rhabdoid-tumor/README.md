@@ -376,6 +376,15 @@ cross_links:
   - target: 01-human/03-molecular/yap1
     relation: connects-to
     note: "YAP1-Hippo signaling, de-repressed by SMARCB1 loss, contributes to the proliferation of atypical teratoid/rhabdoid tumor."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "IL-1β-driven inflammation participates in the tumor microenvironment of atypical teratoid/rhabdoid tumor."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "IL-33 alarmin signaling participates in the tumor-immune microenvironment of atypical teratoid/rhabdoid tumor."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "IL-6-STAT3 signaling (STAT3 already mapped) participates in the tumor-microenvironment and survival signaling of atypical teratoid/rhabdoid tumor."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -614,6 +623,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the metabolic vulnerabilities of the SMARCB1-deficient cells of atypical teratoid/rhabdoid tumor.
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven myeloid recruitment shapes the immunosuppressive microenvironment of atypical teratoid/rhabdoid tumor.
 - `connects-to` → **[YAP1](../../03-molecular/yap1/README.md)** — YAP1-Hippo signaling, de-repressed by SMARCB1 loss, contributes to the proliferation of atypical teratoid/rhabdoid tumor.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the tumor microenvironment of atypical teratoid/rhabdoid tumor.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the tumor-immune microenvironment of atypical teratoid/rhabdoid tumor.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6-STAT3 signaling (STAT3 already mapped) participates in the tumor-microenvironment and survival signaling of atypical teratoid/rhabdoid tumor.
 
 ---
 
