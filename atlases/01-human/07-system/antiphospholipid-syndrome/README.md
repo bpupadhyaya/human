@@ -373,6 +373,15 @@ cross_links:
   - target: 01-human/03-molecular/ccr5
     relation: connects-to
     note: "CCR5-driven monocyte recruitment contributes to the inflammation-linked thrombosis of antiphospholipid syndrome."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the autoreactive immune response of antiphospholipid syndrome."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "CXCL12-CXCR4 signaling participates in the endothelial and leukocyte interactions of the thrombo-inflammation of antiphospholipid syndrome."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "IL-1β-driven inflammasome activation participates in the prothrombotic and placental inflammation of antiphospholipid syndrome."
 ---
 
 # Antiphospholipid Syndrome
@@ -637,6 +646,9 @@ In APS, anti-B2GPI IgG bound to B2GPI on phospholipid surfaces converts this ant
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked endothelial metabolic signaling modulates the vascular homeostasis relevant to the thrombosis of antiphospholipid syndrome.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the endothelial, platelet, and trophoblast responses relevant to antiphospholipid syndrome.
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven monocyte recruitment contributes to the inflammation-linked thrombosis of antiphospholipid syndrome.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the autoreactive immune response of antiphospholipid syndrome.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the endothelial and leukocyte interactions of the thrombo-inflammation of antiphospholipid syndrome.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammasome activation participates in the prothrombotic and placental inflammation of antiphospholipid syndrome.
 
 [^miyakis-2006-sydney-aps]: Miyakis S, Lockshin MD, Atsumi T, et al. International consensus statement on an update of the classification criteria for definite antiphospholipid syndrome (APS). *J Thromb Haemost.* 2006;4(2):295-306. [doi:10.1111/j.1538-7836.2006.01753.x](https://doi.org/10.1111/j.1538-7836.2006.01753.x) · [PubMed 16420554](https://pubmed.ncbi.nlm.nih.gov/16420554/)
 [^barbhaiya-2023-acreular-aps]: Barbhaiya M, Zuily S, Naden R, et al. The 2023 ACR/EULAR antiphospholipid syndrome classification criteria. *Ann Rheum Dis.* 2023;82(10):1258-1270. [doi:10.1136/ard-2023-224609](https://doi.org/10.1136/ard-2023-224609) · [PubMed 37643823](https://pubmed.ncbi.nlm.nih.gov/37643823/)
