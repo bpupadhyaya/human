@@ -391,6 +391,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c5
     relation: connects-to
     note: "Complement signaling, alongside complement-mediated synaptic pruning (complement-C3 already mapped), participates in the synaptic remodeling implicated in autism spectrum disorder."
+  - target: 01-human/03-molecular/adenosine
+    relation: connects-to
+    note: "Adenosine signaling participates in the synaptic and neuroimmune modulation implicated in autism spectrum disorder."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Osteopontin participates in the microglial activation and neuroinflammation implicated in autism spectrum disorder."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "CCL2 (MCP-1) chemokine signaling participates in the neuroinflammatory and microglial responses (including maternal immune activation) implicated in autism spectrum disorder."
 ---
 
 # Autism Spectrum Disorder
@@ -652,6 +661,9 @@ The neural basis of ASD social deficits involves dysfunction of the **social bra
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the neuronal migration and neurodevelopmental processes implicated in autism spectrum disorder.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the microglial synaptic pruning and neuroinflammation implicated in autism spectrum disorder.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Complement signaling, alongside complement-mediated synaptic pruning (complement-C3 already mapped), participates in the synaptic remodeling implicated in autism spectrum disorder.
+- `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine signaling participates in the synaptic and neuroimmune modulation implicated in autism spectrum disorder.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the microglial activation and neuroinflammation implicated in autism spectrum disorder.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 (MCP-1) chemokine signaling participates in the neuroinflammatory and microglial responses (including maternal immune activation) implicated in autism spectrum disorder.
 
 [^maenner-2023-asd-prevalence]: Maenner MJ, Warren Z, Williams AR, et al. Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 2020. *MMWR Surveill Summ.* 2023;72(2):1-14. [doi:10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1) · [PubMed 36952216](https://pubmed.ncbi.nlm.nih.gov/36952216/)
 [^lord-2020-asd-review]: Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum disorder. *Lancet.* 2018;392(10146):508-520. [doi:10.1016/S0140-6736(18)31129-2](https://doi.org/10.1016/S0140-6736(18)31129-2) · [PubMed 30078460](https://pubmed.ncbi.nlm.nih.gov/30078460/)
