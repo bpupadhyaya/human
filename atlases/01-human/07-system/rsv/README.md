@@ -372,6 +372,15 @@ cross_links:
   - target: 01-human/03-molecular/ampk
     relation: connects-to
     note: "AMPK-linked metabolic signaling modulates the airway epithelial and immune-cell responses to respiratory syncytial virus."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven leukocyte recruitment into the airways contributes to the bronchiolitis and immunopathology of RSV infection."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the immune response to respiratory syncytial virus."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "CXCL12-CXCR4 signaling participates in the airway leukocyte trafficking of RSV infection."
 ---
 
 # RSV
@@ -634,3 +643,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Respiratory syncytial virus modulates host autophagy, which shapes the innate immune and inflammatory response to infection.
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the airway epithelial and immune-cell responses to respiratory syncytial virus.
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling modulates the airway epithelial and immune-cell responses to respiratory syncytial virus.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven leukocyte recruitment into the airways contributes to the bronchiolitis and immunopathology of RSV infection.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the immune response to respiratory syncytial virus.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the airway leukocyte trafficking of RSV infection.

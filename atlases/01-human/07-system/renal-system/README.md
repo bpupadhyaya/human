@@ -379,6 +379,15 @@ cross_links:
   - target: 01-human/03-molecular/autophagy
     relation: connects-to
     note: "Autophagy maintains the podocyte and tubular-cell homeostasis and stress resilience of the renal system."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC-family kinase signaling participates in the podocyte, tubular-epithelial, and growth-factor responses of the renal system."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the nephron development and tubular gene expression of the renal system."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven leukocyte recruitment participates in the renal immune surveillance and inflammatory responses of the renal system."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -594,6 +603,9 @@ Natriuretic counterpoint:
 - **Connects to:** [AMPK](../../03-molecular/ampk/README.md) — tubular energy sensing: AMPK integrates the high energy demand of tubular transport, coupling the metabolism of the renal system to its reabsorptive function.
 - **Connects to:** [NF-κB](../../03-molecular/nf-kb/README.md) — tubulointerstitial inflammation: NF-κB inflammatory signaling participates in the tubulointerstitial inflammation and injury responses of the renal system.
 - **Connects to:** [Autophagy](../../03-molecular/autophagy/README.md) — podocyte homeostasis: Autophagy maintains the podocyte and tubular-cell homeostasis and stress resilience of the renal system.
+- **Connects to:** [SRC Kinase](../../03-molecular/src-kinase/README.md) — podocyte and tubular signaling: SRC-family kinase signaling participates in the podocyte, tubular-epithelial, and growth-factor responses of the renal system.
+- **Connects to:** [DNMT3A](../../03-molecular/dnmt3a/README.md) — epigenetic regulation: DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the nephron development and tubular gene expression of the renal system.
+- **Connects to:** [CCR5](../../03-molecular/ccr5/README.md) — renal immune recruitment: CCR5-driven leukocyte recruitment participates in the renal immune surveillance and inflammatory responses of the renal system.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 
