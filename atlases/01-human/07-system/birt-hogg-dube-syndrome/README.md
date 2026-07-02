@@ -376,6 +376,15 @@ cross_links:
   - target: 01-human/03-molecular/arid1a
     relation: connects-to
     note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic landscape of the renal tumors of Birt-Hogg-Dubé syndrome."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "CXCL12-CXCR4 signaling participates in the tumor-stromal interactions of the renal tumors of Birt-Hogg-Dubé syndrome."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "IL-1β-driven inflammation participates in the tumor microenvironment of the neoplasms of Birt-Hogg-Dubé syndrome."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "IL-6-STAT3 signaling (STAT3 already mapped) participates in the tumor-microenvironment and survival signaling of Birt-Hogg-Dubé syndrome."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -636,6 +645,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the epigenetic dysregulation implicated in the tumorigenesis of Birt-Hogg-Dubé syndrome.
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven myeloid recruitment shapes the tumor microenvironment of the renal tumors of Birt-Hogg-Dubé syndrome.
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic landscape of the renal tumors of Birt-Hogg-Dubé syndrome.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the tumor-stromal interactions of the renal tumors of Birt-Hogg-Dubé syndrome.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the tumor microenvironment of the neoplasms of Birt-Hogg-Dubé syndrome.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6-STAT3 signaling (STAT3 already mapped) participates in the tumor-microenvironment and survival signaling of Birt-Hogg-Dubé syndrome.
 
 ---
 
