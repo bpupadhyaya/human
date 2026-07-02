@@ -375,6 +375,15 @@ cross_links:
   - target: 01-human/03-molecular/ccr5
     relation: connects-to
     note: "CCR5-driven monocyte recruitment contributes to the inflammatory sequestration and cerebral pathology of severe malaria."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy participates in the hepatocyte and immune-cell responses to the liver and blood stages of malaria."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the host immune response to Plasmodium in malaria."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "CXCL12-CXCR4 signaling participates in the leukocyte trafficking and splenic and marrow responses of malaria."
 ---
 
 # Malaria
@@ -652,6 +661,9 @@ cross_links:
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) participates in the endothelial activation and immune-cell responses of severe malaria.
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked metabolic signaling participates in the host and parasite metabolic interplay of malaria.
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven monocyte recruitment contributes to the inflammatory sequestration and cerebral pathology of severe malaria.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy participates in the hepatocyte and immune-cell responses to the liver and blood stages of malaria.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the host immune response to Plasmodium in malaria.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the leukocyte trafficking and splenic and marrow responses of malaria.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)
