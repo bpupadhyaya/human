@@ -376,6 +376,15 @@ cross_links:
   - target: 01-human/03-molecular/dnmt3a
     relation: connects-to
     note: "DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the IgA1-glycosylation and immune abnormalities of IgA nephropathy."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "CXCL12-CXCR4 signaling participates in the leukocyte trafficking and mesangial interactions of IgA nephropathy."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "IL-33 alarmin signaling participates in the mucosal and renal immune responses of IgA nephropathy."
+  - target: 01-human/03-molecular/cd20
+    relation: connects-to
+    note: "CD20-expressing B cells contribute to the production of the galactose-deficient IgA1 and autoantibodies of IgA nephropathy."
 ---
 
 # IgA Nephropathy
@@ -579,6 +588,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the mesangial-cell activation and proliferation of IgA nephropathy.
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven leukocyte recruitment contributes to the glomerular and tubulointerstitial inflammation of IgA nephropathy.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the IgA1-glycosylation and immune abnormalities of IgA nephropathy.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the leukocyte trafficking and mesangial interactions of IgA nephropathy.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the mucosal and renal immune responses of IgA nephropathy.
+- `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — CD20-expressing B cells contribute to the production of the galactose-deficient IgA1 and autoantibodies of IgA nephropathy.
 
 ---
 

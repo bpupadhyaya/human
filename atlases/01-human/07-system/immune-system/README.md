@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/src-kinase
     relation: connects-to
     note: "SRC-family kinase signaling downstream of antigen and Fc receptors participates in the activation of the lymphocytes and myeloid cells of the immune system."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven chemokine signaling directs the leukocyte trafficking and immune-cell recruitment of the immune system."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "CXCL12-CXCR4 signaling directs the lymphocyte homing and hematopoietic-niche interactions of the immune system."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the immune-cell differentiation and identity of the immune system."
 ---
 
 # Immune System
@@ -529,6 +538,9 @@ After primary response contraction, long-lived memory cells persist:
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked immunometabolic signaling shapes the differentiation and effector metabolism of the immune cells of the immune system.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy participates in the antigen presentation, lymphocyte homeostasis, and innate immune responses of the immune system.
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling downstream of antigen and Fc receptors participates in the activation of the lymphocytes and myeloid cells of the immune system.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven chemokine signaling directs the leukocyte trafficking and immune-cell recruitment of the immune system.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling directs the lymphocyte homing and hematopoietic-niche interactions of the immune system.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the immune-cell differentiation and identity of the immune system.
 
 ## Pathology
 
