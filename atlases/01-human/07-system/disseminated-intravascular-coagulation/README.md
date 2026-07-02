@@ -382,6 +382,15 @@ cross_links:
   - target: 01-human/03-molecular/ccr5
     relation: connects-to
     note: "CCR5-driven leukocyte recruitment contributes to the thrombo-inflammation of disseminated intravascular coagulation."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy modulates the endothelial and immune-cell responses relevant to the thrombo-inflammation of disseminated intravascular coagulation."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A-mediated DNA methylation participates in the epigenetic modulation of the coagulation and endothelial gene expression relevant to disseminated intravascular coagulation."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "CXCL12-CXCR4 signaling participates in the endothelial and leukocyte interactions of the thrombo-inflammation of disseminated intravascular coagulation."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -634,6 +643,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the platelet activation and endothelial responses of disseminated intravascular coagulation.
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK-linked endothelial metabolic signaling modulates the vascular homeostasis disrupted in disseminated intravascular coagulation.
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven leukocyte recruitment contributes to the thrombo-inflammation of disseminated intravascular coagulation.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy modulates the endothelial and immune-cell responses relevant to the thrombo-inflammation of disseminated intravascular coagulation.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the epigenetic modulation of the coagulation and endothelial gene expression relevant to disseminated intravascular coagulation.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the endothelial and leukocyte interactions of the thrombo-inflammation of disseminated intravascular coagulation.
 
 ---
 

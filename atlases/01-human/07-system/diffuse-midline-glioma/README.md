@@ -376,6 +376,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "Wnt-β-catenin signaling participates in the glioma-stem-cell maintenance of diffuse midline glioma."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "IL-1β-driven inflammation participates in the tumor microenvironment of diffuse midline glioma."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "IL-33 alarmin signaling participates in the tumor-immune microenvironment of diffuse midline glioma."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "IL-17A signaling participates in the neuroinflammatory microenvironment of diffuse midline glioma."
 ---
 
 # Diffuse Midline Glioma
@@ -634,6 +643,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven microglial and myeloid recruitment shapes the immunosuppressive microenvironment of diffuse midline glioma.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6-STAT3 signaling (STAT3 already mapped) participates in the tumor-microenvironment and survival signaling of diffuse midline glioma.
 - `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Wnt-β-catenin signaling participates in the glioma-stem-cell maintenance of diffuse midline glioma.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the tumor microenvironment of diffuse midline glioma.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the tumor-immune microenvironment of diffuse midline glioma.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the neuroinflammatory microenvironment of diffuse midline glioma.
 
 ---
 
