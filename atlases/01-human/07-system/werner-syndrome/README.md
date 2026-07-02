@@ -367,6 +367,15 @@ cross_links:
   - target: 01-human/03-molecular/autophagy
     relation: connects-to
     note: "Autophagy declines with the cellular senescence of Werner syndrome, contributing to its premature-aging phenotype."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5-driven leukocyte recruitment contributes to the inflammaging and tissue inflammation of Werner syndrome."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic landscape accompanying the genomic instability of Werner syndrome."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "IL-1β-driven senescence-associated inflammation (inflammaging) participates in the premature-aging phenotypes of Werner syndrome."
 ---
 
 # Werner Syndrome
@@ -646,6 +655,9 @@ cross_links:
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K (PIK3CA)-AKT signaling (AKT already mapped) supports the survival of the genomically unstable cells and participates in the metabolic aging of Werner syndrome.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation contributes to the epigenetic-aging-clock alterations of Werner syndrome.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy declines with the cellular senescence of Werner syndrome, contributing to its premature-aging phenotype.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven leukocyte recruitment contributes to the inflammaging and tissue inflammation of Werner syndrome.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic landscape accompanying the genomic instability of Werner syndrome.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven senescence-associated inflammation (inflammaging) participates in the premature-aging phenotypes of Werner syndrome.
 
 [^yu-1996-wrn]: Yu CE, Oshima J, Fu YH, et al. Positional cloning of the Werner's syndrome gene. *Science.* 1996;272(5259):258-262. [doi:10.1126/science.272.5259.258](https://doi.org/10.1126/science.272.5259.258) · [PubMed 8602509](https://pubmed.ncbi.nlm.nih.gov/8602509/)
 [^lauper-2013-wrn-neoplasia]: Lauper JM, Krause A, Vaughan TL, Monnat RJ Jr. Spectrum and risk of neoplasia in Werner syndrome: a systematic review. *PLoS One.* 2013;8(4):e59709. [doi:10.1371/journal.pone.0059709](https://doi.org/10.1371/journal.pone.0059709) · [PubMed 23579047](https://pubmed.ncbi.nlm.nih.gov/23579047/)
