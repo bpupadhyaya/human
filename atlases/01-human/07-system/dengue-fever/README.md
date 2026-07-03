@@ -385,6 +385,15 @@ cross_links:
   - target: 01-human/03-molecular/mtor
     relation: connects-to
     note: "mTOR signaling, exploited by dengue virus for replication, participates in the host response to dengue fever."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the antiviral and immune gene programs of dengue fever."
+  - target: 01-human/03-molecular/calcineurin
+    relation: connects-to
+    note: "Calcineurin-NFAT signaling participates in the T-cell activation of the immune response to dengue fever."
+  - target: 01-human/03-molecular/adenosine
+    relation: connects-to
+    note: "Adenosine signaling participates in the immunomodulation and vascular-permeability responses of dengue fever."
 ---
 
 # Dengue Fever
@@ -619,3 +628,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the leukocyte trafficking and endothelial responses of dengue fever.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the endothelial activation and vascular leakage of dengue fever.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR signaling, exploited by dengue virus for replication, participates in the host response to dengue fever.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the antiviral and immune gene programs of dengue fever.
+- `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the T-cell activation of the immune response to dengue fever.
+- `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine signaling participates in the immunomodulation and vascular-permeability responses of dengue fever.

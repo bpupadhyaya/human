@@ -385,6 +385,15 @@ cross_links:
   - target: 01-human/03-molecular/adenosine
     relation: connects-to
     note: "Adenosine signaling provides immunoregulatory counter-signaling that modulates the hyperinflammation of the cytokine storm."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the hyperinflammatory immune gene programs of cytokine storm."
+  - target: 01-human/03-molecular/calcineurin
+    relation: connects-to
+    note: "Calcineurin-NFAT signaling participates in the T-cell hyperactivation of cytokine storm (a target of calcineurin inhibitors in HLH/macrophage-activation syndrome)."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Osteopontin participates in the macrophage activation and hyperinflammatory responses of cytokine storm."
 ---
 
 # Cytokine Storm
@@ -598,6 +607,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the leukocyte trafficking and immune-cell recruitment of the cytokine storm.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling amplifies the innate immune activation of the cytokine storm.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine signaling provides immunoregulatory counter-signaling that modulates the hyperinflammation of the cytokine storm.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the hyperinflammatory immune gene programs of cytokine storm.
+- `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the T-cell hyperactivation of cytokine storm (a target of calcineurin inhibitors in HLH/macrophage-activation syndrome).
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the macrophage activation and hyperinflammatory responses of cytokine storm.
 
 ## Pathology
 
