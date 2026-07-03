@@ -388,6 +388,15 @@ cross_links:
   - target: 01-human/03-molecular/cd20
     relation: connects-to
     note: "CD20-expressing B cells contribute to the alloantibody and immune dysregulation of chronic graft-versus-host disease, a rationale for B-cell-depleting therapy."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the alloreactive immune responses of graft-versus-host disease."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Osteopontin participates in the T-cell activation and target-organ inflammation of graft-versus-host disease."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Type I interferon signaling participates in the tissue-damage and immune activation of graft-versus-host disease."
 ---
 
 # Graft-Versus-Host Disease
@@ -649,6 +658,9 @@ The protective Treg/IL-10 axis is the key biological counterbalance to alloreact
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 activation participates in the tissue injury of graft-versus-host disease.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine (A2A-receptor) immunoregulatory signaling modulates the alloreactive T-cell responses of graft-versus-host disease.
 - `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — CD20-expressing B cells contribute to the alloantibody and immune dysregulation of chronic graft-versus-host disease, a rationale for B-cell-depleting therapy.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the alloreactive immune responses of graft-versus-host disease.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the T-cell activation and target-organ inflammation of graft-versus-host disease.
+- `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — Type I interferon signaling participates in the tissue-damage and immune activation of graft-versus-host disease.
 
 [^ferrara-2009-gvhd-review]: Ferrara JL, Levine JE, Reddy P, Holler E. Graft-versus-host disease. *Lancet.* 2009;373(9674):1550-1561. [doi:10.1016/S0140-6736(09)60237-3](https://doi.org/10.1016/S0140-6736(09)60237-3) · [PubMed 19380114](https://pubmed.ncbi.nlm.nih.gov/19380114/)
 [^zeiser-2020-ruxolitinib-gvhd-reach]: Zeiser R, von Bubnoff N, Butler J, et al. Ruxolitinib for Glucocorticoid-Refractory Acute Graft-versus-Host Disease. *N Engl J Med.* 2020;382(19):1800-1810. [doi:10.1056/NEJMoa1917635](https://doi.org/10.1056/NEJMoa1917635) · [PubMed 32374962](https://pubmed.ncbi.nlm.nih.gov/32374962/)
