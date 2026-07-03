@@ -385,6 +385,15 @@ cross_links:
   - target: 01-human/03-molecular/il-17a
     relation: connects-to
     note: "IL-17A signaling participates in the neuroinflammatory tumor microenvironment of glioblastoma."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement C3 participates in the immunosuppressive tumor microenvironment of glioblastoma."
+  - target: 01-human/03-molecular/adenosine
+    relation: connects-to
+    note: "Adenosine (CD39/CD73-adenosine) signaling participates in the immunosuppressive tumor microenvironment of glioblastoma."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Osteopontin (SPP1) participates in the microglial/macrophage-rich tumor microenvironment and invasion of glioblastoma."
 ---
 
 # Glioblastoma
@@ -637,6 +646,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the immunosuppressive tumor microenvironment of glioblastoma.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the microglial and tumor-immune microenvironment of glioblastoma.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the neuroinflammatory tumor microenvironment of glioblastoma.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the immunosuppressive tumor microenvironment of glioblastoma.
+- `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine (CD39/CD73-adenosine) signaling participates in the immunosuppressive tumor microenvironment of glioblastoma.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin (SPP1) participates in the microglial/macrophage-rich tumor microenvironment and invasion of glioblastoma.
 
 ---
 
