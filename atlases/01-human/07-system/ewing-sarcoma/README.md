@@ -385,6 +385,15 @@ cross_links:
   - target: 01-human/03-molecular/il-17a
     relation: connects-to
     note: "IL-17A signaling participates in the inflammatory tumor microenvironment of Ewing sarcoma."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement C3 participates in the inflammatory tumor microenvironment of Ewing sarcoma."
+  - target: 01-human/03-molecular/calcineurin
+    relation: connects-to
+    note: "Calcineurin-NFAT signaling participates in the tumor microenvironment and immune signaling of Ewing sarcoma."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Osteopontin participates in the bone tumor microenvironment and metastatic interactions of Ewing sarcoma."
 ---
 
 # Ewing Sarcoma
@@ -630,6 +639,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the tumor microenvironment of Ewing sarcoma.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the tumor-immune microenvironment of Ewing sarcoma.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory tumor microenvironment of Ewing sarcoma.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory tumor microenvironment of Ewing sarcoma.
+- `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the tumor microenvironment and immune signaling of Ewing sarcoma.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the bone tumor microenvironment and metastatic interactions of Ewing sarcoma.
 
 ---
 
