@@ -383,6 +383,15 @@ cross_links:
   - target: 01-human/03-molecular/il-33
     relation: connects-to
     note: "IL-33 alarmin signaling participates in the lymphatic-endothelial and immune responses of the lymphatic system."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "IL-1β signaling participates in the inflammatory and immune-trafficking responses of the lymphatic system."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "IL-17A signaling participates in the lymphocyte-mediated immune responses of the lymphatic system."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of lymphocyte differentiation in the lymphatic system."
 ---
 
 # Lymphatic System
@@ -614,6 +623,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the lymphocyte and lymphatic-endothelial gene programs of the lymphatic system.
 - `connects-to` → **[SRC Kinase](../../03-molecular/src-kinase/README.md)** — SRC-family kinase signaling participates in the lymphatic-endothelial junction dynamics and immune-cell activation of the lymphatic system.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the lymphatic-endothelial and immune responses of the lymphatic system.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β signaling participates in the inflammatory and immune-trafficking responses of the lymphatic system.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the lymphocyte-mediated immune responses of the lymphatic system.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of lymphocyte differentiation in the lymphatic system.
 
 ## Pathology
 
