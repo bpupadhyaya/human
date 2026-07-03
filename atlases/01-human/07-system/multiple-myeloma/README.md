@@ -391,6 +391,15 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "IL-10-mediated immunosuppression participates in the immune evasion of multiple myeloma."
+  - target: 01-human/03-molecular/calcineurin
+    relation: connects-to
+    note: "Calcineurin-NFAT signaling participates in the plasma-cell survival signaling of multiple myeloma."
+  - target: 01-human/03-molecular/adenosine
+    relation: connects-to
+    note: "Adenosine (CD38/CD73-adenosine) signaling participates in the immunosuppressive bone-marrow microenvironment of multiple myeloma."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Osteopontin participates in the myeloma-bone-disease and bone-marrow-microenvironment interactions of multiple myeloma."
 ---
 
 # Multiple Myeloma
@@ -644,6 +653,9 @@ MM evolves from precursor conditions through a well-defined continuum:
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the inflammatory bone-marrow microenvironment of multiple myeloma.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the myeloma-cell growth and osteoclast-driven bone disease of multiple myeloma.
 - `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — IL-10-mediated immunosuppression participates in the immune evasion of multiple myeloma.
+- `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the plasma-cell survival signaling of multiple myeloma.
+- `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine (CD38/CD73-adenosine) signaling participates in the immunosuppressive bone-marrow microenvironment of multiple myeloma.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the myeloma-bone-disease and bone-marrow-microenvironment interactions of multiple myeloma.
 
 [^kumar-2022-imwg-criteria]: Kumar SK, Callander NS, Adekola K, et al. Multiple myeloma, version 3.2021, NCCN clinical practice guidelines in oncology. *J Natl Compr Canc Netw.* 2020;18(12):1685-1717. [doi:10.6004/jnccn.2020.0057](https://doi.org/10.6004/jnccn.2020.0057) · [PubMed 33285519](https://pubmed.ncbi.nlm.nih.gov/33285519/)
 [^moreau-2022-teclistamab]: Moreau P, Garfall AL, van de Donk NWCJ, et al. Teclistamab in relapsed or refractory multiple myeloma. *N Engl J Med.* 2022;387(6):495-505. [doi:10.1056/NEJMoa2203478](https://doi.org/10.1056/NEJMoa2203478) · [PubMed 35661166](https://pubmed.ncbi.nlm.nih.gov/35661166/)
