@@ -381,6 +381,15 @@ cross_links:
   - target: 01-human/03-molecular/kit
     relation: connects-to
     note: "KIT (stem-cell-factor receptor) signaling participates in the erythroid-progenitor proliferation and survival compromised in iron deficiency anemia."
+  - target: 01-human/03-molecular/runx1
+    relation: connects-to
+    note: "RUNX1 transcription-factor activity participates in the erythroid and hematopoietic differentiation impaired in iron deficiency anemia."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "BCL-2 anti-apoptotic signaling participates in the erythroblast survival (dependent on adequate iron and erythropoietin) relevant to iron deficiency anemia."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "NOTCH signaling participates in the hematopoietic-stem-cell and erythroid-progenitor regulation relevant to iron deficiency anemia."
 ---
 
 # Iron Deficiency Anemia
@@ -622,6 +631,9 @@ Iron is essential for:
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-family chemokine signaling participates in the bone-marrow niche and inflammatory interactions relevant to iron deficiency anemia.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the erythroid bone-marrow-niche interactions relevant to iron deficiency anemia.
 - `connects-to` → **[KIT](../../03-molecular/kit/README.md)** — KIT (stem-cell-factor receptor) signaling participates in the erythroid-progenitor proliferation and survival compromised in iron deficiency anemia.
+- `connects-to` → **[RUNX1](../../03-molecular/runx1/README.md)** — RUNX1 transcription-factor activity participates in the erythroid and hematopoietic differentiation impaired in iron deficiency anemia.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — BCL-2 anti-apoptotic signaling participates in the erythroblast survival (dependent on adequate iron and erythropoietin) relevant to iron deficiency anemia.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH signaling participates in the hematopoietic-stem-cell and erythroid-progenitor regulation relevant to iron deficiency anemia.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)
