@@ -385,6 +385,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Complement C3 participates in the innate immune and inflammatory milieu of atopic-dermatitis skin lesions."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the keratinocyte-barrier and immune gene programs of atopic dermatitis."
+  - target: 01-human/03-molecular/calcineurin
+    relation: connects-to
+    note: "Calcineurin-NFAT signaling, a target of topical calcineurin inhibitors (tacrolimus/pimecrolimus), participates in the T-cell activation of atopic dermatitis."
+  - target: 01-human/03-molecular/adenosine
+    relation: connects-to
+    note: "Adenosine signaling participates in the neuroimmune and itch modulation of atopic dermatitis."
 ---
 
 # Atopic Dermatitis
@@ -630,6 +639,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the keratinocyte-barrier and immune gene programs of atopic dermatitis.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the leukocyte recruitment and skin-immune interactions of atopic dermatitis.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the innate immune and inflammatory milieu of atopic-dermatitis skin lesions.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the keratinocyte-barrier and immune gene programs of atopic dermatitis.
+- `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling, a target of topical calcineurin inhibitors (tacrolimus/pimecrolimus), participates in the T-cell activation of atopic dermatitis.
+- `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine signaling participates in the neuroimmune and itch modulation of atopic dermatitis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
