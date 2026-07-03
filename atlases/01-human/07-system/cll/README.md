@@ -385,6 +385,15 @@ cross_links:
   - target: 01-human/03-molecular/il-17a
     relation: connects-to
     note: "IL-17A signaling participates in the inflammatory microenvironment of chronic lymphocytic leukemia."
+  - target: 01-human/03-molecular/calcineurin
+    relation: connects-to
+    note: "Calcineurin-NFAT signaling downstream of the B-cell receptor participates in the survival signaling of chronic lymphocytic leukemia."
+  - target: 01-human/03-molecular/adenosine
+    relation: connects-to
+    note: "Adenosine (CD39/CD73-adenosine) signaling participates in the immunosuppressive tumor microenvironment of chronic lymphocytic leukemia."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Osteopontin participates in the microenvironment and stromal interactions of chronic lymphocytic leukemia."
 ---
 
 # CLL
@@ -620,6 +629,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the tumor-microenvironment and lymphoid-niche interactions of chronic lymphocytic leukemia.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the tumor-immune microenvironment of chronic lymphocytic leukemia.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory microenvironment of chronic lymphocytic leukemia.
+- `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling downstream of the B-cell receptor participates in the survival signaling of chronic lymphocytic leukemia.
+- `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine (CD39/CD73-adenosine) signaling participates in the immunosuppressive tumor microenvironment of chronic lymphocytic leukemia.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the microenvironment and stromal interactions of chronic lymphocytic leukemia.
 
 ---
 
