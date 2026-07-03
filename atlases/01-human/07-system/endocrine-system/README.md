@@ -383,6 +383,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "IL-6-STAT3 signaling (STAT3 already mapped) participates in the neuroendocrine-immune interactions of the endocrine system."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "IL-1β signaling participates in the neuroendocrine-immune regulation of the hypothalamic-pituitary-adrenal axis of the endocrine system."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "IL-33 alarmin signaling participates in the neuroendocrine-immune interactions of the endocrine system."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement C3 participates in the immune-endocrine interactions of the endocrine system."
 ---
 
 # Endocrine System
@@ -662,6 +671,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven leukocyte recruitment participates in the immune surveillance and endocrine-autoimmune responses of the endocrine system.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the endocrine-gland vascularization and cell homeostasis of the endocrine system.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6-STAT3 signaling (STAT3 already mapped) participates in the neuroendocrine-immune interactions of the endocrine system.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β signaling participates in the neuroendocrine-immune regulation of the hypothalamic-pituitary-adrenal axis of the endocrine system.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the neuroendocrine-immune interactions of the endocrine system.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the immune-endocrine interactions of the endocrine system.
 
 ## Pathology
 
