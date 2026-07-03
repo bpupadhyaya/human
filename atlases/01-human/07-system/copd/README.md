@@ -391,6 +391,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Complement C3 participates in the airway inflammation of chronic obstructive pulmonary disease."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the airway-epithelial and immune gene programs of chronic obstructive pulmonary disease."
+  - target: 01-human/03-molecular/calcineurin
+    relation: connects-to
+    note: "Calcineurin-NFAT signaling participates in the T-cell-mediated inflammation of chronic obstructive pulmonary disease."
+  - target: 01-human/03-molecular/adenosine
+    relation: connects-to
+    note: "Adenosine signaling participates in the airway inflammation and emphysema-related tissue remodeling of chronic obstructive pulmonary disease."
 ---
 
 # COPD
@@ -658,6 +667,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the airway leukocyte trafficking and lung-repair processes of chronic obstructive pulmonary disease.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the airway epithelial and innate immune responses of chronic obstructive pulmonary disease.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the airway inflammation of chronic obstructive pulmonary disease.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the airway-epithelial and immune gene programs of chronic obstructive pulmonary disease.
+- `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the T-cell-mediated inflammation of chronic obstructive pulmonary disease.
+- `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine signaling participates in the airway inflammation and emphysema-related tissue remodeling of chronic obstructive pulmonary disease.
 
 ---
 

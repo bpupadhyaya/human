@@ -385,6 +385,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Complement C3 participates in the inflammatory microenvironment of chronic myelomonocytic leukemia."
+  - target: 01-human/03-molecular/calcineurin
+    relation: connects-to
+    note: "Calcineurin-NFAT signaling participates in the myelomonocytic proliferation and immune signaling of chronic myelomonocytic leukemia."
+  - target: 01-human/03-molecular/adenosine
+    relation: connects-to
+    note: "Adenosine signaling participates in the immunosuppressive bone-marrow microenvironment of chronic myelomonocytic leukemia."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Osteopontin participates in the leukemic-stem-cell-niche and bone-marrow-microenvironment interactions of chronic myelomonocytic leukemia."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -633,6 +642,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the inflammatory bone-marrow microenvironment of chronic myelomonocytic leukemia.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory bone-marrow microenvironment of chronic myelomonocytic leukemia.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory microenvironment of chronic myelomonocytic leukemia.
+- `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the myelomonocytic proliferation and immune signaling of chronic myelomonocytic leukemia.
+- `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine signaling participates in the immunosuppressive bone-marrow microenvironment of chronic myelomonocytic leukemia.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the leukemic-stem-cell-niche and bone-marrow-microenvironment interactions of chronic myelomonocytic leukemia.
 
 ---
 
