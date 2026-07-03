@@ -385,6 +385,15 @@ cross_links:
   - target: 01-human/03-molecular/il-17a
     relation: connects-to
     note: "IL-17A signaling participates in the chronic inflammation and fibrogenesis of hereditary pancreatitis."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement C3 participates in the inflammatory milieu of the recurrent pancreatic inflammation of hereditary pancreatitis."
+  - target: 01-human/03-molecular/adenosine
+    relation: connects-to
+    note: "Adenosine signaling participates in the immunomodulation of the pancreatic inflammation of hereditary pancreatitis."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Osteopontin participates in the pancreatic stellate-cell activation and fibrosis of hereditary pancreatitis."
 ---
 
 # Hereditary Pancreatitis
@@ -651,6 +660,9 @@ cross_links:
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the pancreatic-stellate-cell activation and leukocyte trafficking of hereditary pancreatitis.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the pancreatic inflammation and fibrosis of hereditary pancreatitis.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the chronic inflammation and fibrogenesis of hereditary pancreatitis.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory milieu of the recurrent pancreatic inflammation of hereditary pancreatitis.
+- `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine signaling participates in the immunomodulation of the pancreatic inflammation of hereditary pancreatitis.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the pancreatic stellate-cell activation and fibrosis of hereditary pancreatitis.
 
 [^whitcomb-1996-prss1]: Whitcomb DC, Gorry MC, Preston RA, et al. Hereditary pancreatitis is caused by a mutation in the cationic trypsinogen gene. *Nat Genet.* 1996;14(2):141-145. [doi:10.1038/ng1096-141](https://doi.org/10.1038/ng1096-141) · [PubMed 8841182](https://pubmed.ncbi.nlm.nih.gov/8841182/)
 [^lowenfels-2001-hp-pdac]: Lowenfels AB, Maisonneuve P, DiMagno EP, et al. Hereditary pancreatitis and the risk of pancreatic cancer. *J Natl Cancer Inst.* 2001;93(1):26-31. [doi:10.1093/jnci/93.1.26](https://doi.org/10.1093/jnci/93.1.26) · [PubMed 11136838](https://pubmed.ncbi.nlm.nih.gov/11136838/)
