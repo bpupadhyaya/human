@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/il-33
     relation: connects-to
     note: "IL-33 alarmin signaling participates in the glial and neuroinflammatory responses of the nervous system."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "IL-1β signaling participates in the neuroinflammatory responses of the nervous system."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "IL-6-STAT3 signaling (STAT3 already mapped) participates in the neuroinflammatory and neuromodulatory responses of the nervous system."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "IL-17A signaling participates in the neuroinflammatory responses of the nervous system."
 ---
 
 # Nervous System
@@ -555,6 +564,9 @@ Distributed cortical networks underlie language (Broca's area, Wernicke's area, 
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven chemokine signaling participates in the neuroimmune trafficking and microglial responses of the nervous system.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the neural-progenitor migration and neuroimmune interactions of the nervous system.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the glial and neuroinflammatory responses of the nervous system.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β signaling participates in the neuroinflammatory responses of the nervous system.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6-STAT3 signaling (STAT3 already mapped) participates in the neuroinflammatory and neuromodulatory responses of the nervous system.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the neuroinflammatory responses of the nervous system.
 
 ## Pathology
 
