@@ -382,6 +382,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Complement C3 participates in the innate immune responses and immune-complex processes of HIV/AIDS."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "IL-1β-driven inflammasome activation participates in the chronic immune activation of AIDS."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "CCL2 (MCP-1) chemokine signaling participates in the monocyte trafficking and HIV-associated neurocognitive and tissue inflammation of AIDS."
+  - target: 01-human/03-molecular/adenosine
+    relation: connects-to
+    note: "Adenosine signaling (the CD73/CD39 pathway) participates in the immunosuppression and immune exhaustion of AIDS."
 ---
 
 # HIV/AIDS
@@ -618,6 +627,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the mucosal and immune dysregulation of HIV/AIDS.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling and the loss of Th17 cells participate in the mucosal barrier dysfunction and opportunistic-infection susceptibility of HIV/AIDS.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the innate immune responses and immune-complex processes of HIV/AIDS.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammasome activation participates in the chronic immune activation of AIDS.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 (MCP-1) chemokine signaling participates in the monocyte trafficking and HIV-associated neurocognitive and tissue inflammation of AIDS.
+- `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine signaling (the CD73/CD39 pathway) participates in the immunosuppression and immune exhaustion of AIDS.
 
 ## See Also
 
