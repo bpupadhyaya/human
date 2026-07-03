@@ -391,6 +391,15 @@ cross_links:
   - target: 01-human/03-molecular/il-33
     relation: connects-to
     note: "IL-33 alarmin signaling participates in the vascular inflammation and plaque immunobiology of atherosclerosis."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "IL-17A signaling participates in the vascular inflammation and plaque instability of atherosclerosis."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement C3 participates in the inflammatory and lipid-driven vascular injury of atherosclerosis."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the macrophage and vascular-cell gene programs of atherosclerosis."
 ---
 
 # Atherosclerosis
@@ -629,6 +638,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation (including clonal hematopoiesis) participates in the vascular inflammation and atherogenesis of atherosclerosis.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the smooth-muscle-cell and leukocyte dynamics of atherosclerotic plaques.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the vascular inflammation and plaque immunobiology of atherosclerosis.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the vascular inflammation and plaque instability of atherosclerosis.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory and lipid-driven vascular injury of atherosclerosis.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the macrophage and vascular-cell gene programs of atherosclerosis.
 
 ---
 

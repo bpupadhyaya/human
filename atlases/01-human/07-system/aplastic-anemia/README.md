@@ -385,6 +385,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Complement activation participates in the immune-mediated marrow injury (including PNH-overlap clones) of aplastic anemia."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the hematopoietic and immune gene programs relevant to aplastic anemia."
+  - target: 01-human/03-molecular/adenosine
+    relation: connects-to
+    note: "Adenosine signaling participates in the immunomodulation of the T-cell-mediated marrow failure of aplastic anemia."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Osteopontin participates in the T-cell activation and hematopoietic-stem-cell-niche interactions of aplastic anemia."
 ---
 
 # Aplastic Anemia
@@ -620,6 +629,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the inflammatory bone-marrow microenvironment of aplastic anemia.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the immune dysregulation and marrow microenvironment of aplastic anemia.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement activation participates in the immune-mediated marrow injury (including PNH-overlap clones) of aplastic anemia.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the hematopoietic and immune gene programs relevant to aplastic anemia.
+- `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine signaling participates in the immunomodulation of the T-cell-mediated marrow failure of aplastic anemia.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the T-cell activation and hematopoietic-stem-cell-niche interactions of aplastic anemia.
 
 ---
 
