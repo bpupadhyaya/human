@@ -391,6 +391,15 @@ cross_links:
   - target: 01-human/03-molecular/il-17a
     relation: connects-to
     note: "IL-17A signaling participates in the neuroinflammation of Lewy body dementia."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the neuronal gene programs of Lewy body dementia."
+  - target: 01-human/03-molecular/adenosine
+    relation: connects-to
+    note: "Adenosine (A2A receptor) signaling participates in the synaptic dysfunction and neuroinflammation of Lewy body dementia."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Osteopontin participates in the microglial activation and neuroinflammation of Lewy body dementia."
 ---
 
 # Lewy Body Dementia
@@ -641,6 +650,9 @@ Approximately 25-50% of clinically diagnosed DLB cases have significant AD co-pa
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the microglial and neuroinflammatory responses of Lewy body dementia.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the microglial and neuroinflammatory responses of Lewy body dementia.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the neuroinflammation of Lewy body dementia.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the neuronal gene programs of Lewy body dementia.
+- `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine (A2A receptor) signaling participates in the synaptic dysfunction and neuroinflammation of Lewy body dementia.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the microglial activation and neuroinflammation of Lewy body dementia.
 
 [^mckeith-2017-dlb-criteria]: McKeith IG, Boeve BF, Dickson DW, et al. Diagnosis and management of dementia with Lewy bodies: Fourth consensus report of the DLB Consortium. *Neurology.* 2017;89(1):88-100. [doi:10.1212/WNL.0000000000004058](https://doi.org/10.1212/WNL.0000000000004058) · [PubMed 28592453](https://pubmed.ncbi.nlm.nih.gov/28592453/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)

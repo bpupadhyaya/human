@@ -389,6 +389,15 @@ cross_links:
   - target: 01-human/03-molecular/il-33
     relation: connects-to
     note: "IL-33 alarmin signaling participates in the airway and immune responses to measles virus."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "IL-1β-driven inflammation participates in the acute inflammatory response to measles."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "IL-17A signaling participates in the immune response and immunopathology of measles."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the host response to measles."
 ---
 
 # Measles
@@ -657,6 +666,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the host immune response to measles virus.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the leukocyte trafficking and immune responses of measles.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the airway and immune responses to measles virus.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the acute inflammatory response to measles.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the immune response and immunopathology of measles.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the host response to measles.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)
