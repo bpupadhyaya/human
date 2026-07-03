@@ -385,6 +385,15 @@ cross_links:
   - target: 01-human/03-molecular/cd20
     relation: connects-to
     note: "CD20-expressing B cells contribute to the production of the galactose-deficient IgA1 and autoantibodies of IgA nephropathy."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the mucosal-immune and B-cell gene programs of IgA nephropathy."
+  - target: 01-human/03-molecular/calcineurin
+    relation: connects-to
+    note: "Calcineurin-NFAT signaling participates in the T-cell activation of IgA nephropathy, and calcineurin inhibitors are used in its treatment."
+  - target: 01-human/03-molecular/adenosine
+    relation: connects-to
+    note: "Adenosine signaling participates in the immunomodulation and renal responses of IgA nephropathy."
 ---
 
 # IgA Nephropathy
@@ -591,6 +600,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the leukocyte trafficking and mesangial interactions of IgA nephropathy.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the mucosal and renal immune responses of IgA nephropathy.
 - `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — CD20-expressing B cells contribute to the production of the galactose-deficient IgA1 and autoantibodies of IgA nephropathy.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the mucosal-immune and B-cell gene programs of IgA nephropathy.
+- `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the T-cell activation of IgA nephropathy, and calcineurin inhibitors are used in its treatment.
+- `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine signaling participates in the immunomodulation and renal responses of IgA nephropathy.
 
 ---
 
