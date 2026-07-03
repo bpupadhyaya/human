@@ -388,6 +388,15 @@ cross_links:
   - target: 01-human/03-molecular/il-33
     relation: connects-to
     note: "IL-33 alarmin signaling participates in the dysregulated innate immune response of sepsis."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the dysregulated immune response (and immunoparalysis) of sepsis."
+  - target: 01-human/03-molecular/calcineurin
+    relation: connects-to
+    note: "Calcineurin-NFAT signaling participates in the T-cell activation and immune dysregulation of sepsis."
+  - target: 01-human/03-molecular/adenosine
+    relation: connects-to
+    note: "Adenosine signaling participates in the immunosuppression and vascular dysfunction of sepsis."
 ---
 
 # Sepsis
@@ -617,6 +626,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the epigenetic reprogramming of the immune cells (including immunoparalysis) of sepsis.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the leukocyte trafficking and endothelial responses of sepsis.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the dysregulated innate immune response of sepsis.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the dysregulated immune response (and immunoparalysis) of sepsis.
+- `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the T-cell activation and immune dysregulation of sepsis.
+- `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine signaling participates in the immunosuppression and vascular dysfunction of sepsis.
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

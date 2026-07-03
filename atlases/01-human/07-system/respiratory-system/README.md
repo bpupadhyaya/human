@@ -387,6 +387,15 @@ cross_links:
   - target: 01-human/03-molecular/src-kinase
     relation: connects-to
     note: "SRC-family kinase signaling participates in the airway epithelial junction dynamics and growth-factor responses of the respiratory system."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "CXCL12-CXCR4 signaling participates in the airway immune-cell trafficking and repair of the respiratory system."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "IL-1β-driven inflammation participates in the airway inflammatory responses of the respiratory system."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "IL-33 alarmin signaling participates in the airway epithelial and innate immune responses of the respiratory system."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -591,6 +600,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Connects-to** → [DNMT3A](../../03-molecular/dnmt3a/README.md): epigenetic regulation: DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the airway epithelial and immune gene programs of the respiratory system.
 - **Connects-to** → [CCR5](../../03-molecular/ccr5/README.md): airway immune recruitment: CCR5-driven leukocyte recruitment participates in the airway immune surveillance and inflammatory responses of the respiratory system.
 - **Connects-to** → [SRC Kinase](../../03-molecular/src-kinase/README.md): epithelial junctions: SRC-family kinase signaling participates in the airway epithelial junction dynamics and growth-factor responses of the respiratory system.
+- **Connects-to** → [CXCL12](../../03-molecular/cxcl12/README.md): immune trafficking: CXCL12-CXCR4 signaling participates in the airway immune-cell trafficking and repair of the respiratory system.
+- **Connects-to** → [IL-1β](../../03-molecular/il-1b/README.md): airway inflammation: IL-1β-driven inflammation participates in the airway inflammatory responses of the respiratory system.
+- **Connects-to** → [IL-33](../../03-molecular/il-33/README.md): epithelial alarmin: IL-33 alarmin signaling participates in the airway epithelial and innate immune responses of the respiratory system.
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.
 
 ## Pathology
