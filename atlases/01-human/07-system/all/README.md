@@ -385,6 +385,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "IL-6-STAT3 signaling (STAT3 already mapped) participates in the bone-marrow microenvironment and survival signaling of acute lymphoblastic leukemia."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "IL-17A signaling participates in the inflammatory bone-marrow microenvironment of acute lymphoblastic leukemia."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement C3 participates in the inflammatory bone-marrow microenvironment of acute lymphoblastic leukemia."
+  - target: 01-human/03-molecular/calcineurin
+    relation: connects-to
+    note: "Calcineurin-NFAT signaling participates in the antigen-receptor (pre-B-cell-receptor/T-cell-receptor) and survival signaling of acute lymphoblastic leukemia."
 ---
 
 # Acute Lymphoblastic Leukemia
@@ -647,6 +656,9 @@ Childhood ALL survivors (now majority of patients): neurocognitive impairment (M
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation in the bone-marrow niche contributes to the leukemic-cell maintenance of acute lymphoblastic leukemia.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the inflammatory bone-marrow microenvironment of acute lymphoblastic leukemia.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6-STAT3 signaling (STAT3 already mapped) participates in the bone-marrow microenvironment and survival signaling of acute lymphoblastic leukemia.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory bone-marrow microenvironment of acute lymphoblastic leukemia.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory bone-marrow microenvironment of acute lymphoblastic leukemia.
+- `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the antigen-receptor (pre-B-cell-receptor/T-cell-receptor) and survival signaling of acute lymphoblastic leukemia.
 
 [^pui-2018-all-cure]: Pui CH, Yang JJ, Bhakta N, et al. Global efforts toward the cure of childhood acute lymphoblastic leukemia. *Lancet Child Adolesc Health.* 2018;2(6):440-454. [doi:10.1016/S2352-4642(18)30066-X](https://doi.org/10.1016/S2352-4642(18)30066-X) · [PubMed 29976322](https://pubmed.ncbi.nlm.nih.gov/29976322/)
 [^maude-2018-tisagenlecleucel]: Maude SL, Laetsch TW, Buechner J, et al. Tisagenlecleucel in children and young adults with B-cell lymphoblastic leukemia. *N Engl J Med.* 2018;378(5):439-448. [doi:10.1056/NEJMoa1709866](https://doi.org/10.1056/NEJMoa1709866) · [PubMed 29385370](https://pubmed.ncbi.nlm.nih.gov/29385370/)
