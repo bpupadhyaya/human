@@ -385,6 +385,15 @@ cross_links:
   - target: 01-human/03-molecular/il-33
     relation: connects-to
     note: "IL-33 alarmin signaling participates in the inflammatory bone-marrow microenvironment of essential thrombocythemia."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "IL-17A signaling participates in the inflammatory bone-marrow microenvironment of essential thrombocythemia."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the clonal hematopoiesis of essential thrombocythemia."
+  - target: 01-human/03-molecular/calcineurin
+    relation: connects-to
+    note: "Calcineurin-NFAT signaling participates in the megakaryocyte and immune signaling of essential thrombocythemia."
 ---
 
 # Essential Thrombocythemia
@@ -625,6 +634,9 @@ Management:
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-family chemokine signaling participates in the bone-marrow niche and inflammatory interactions of essential thrombocythemia.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the megakaryocyte and bone-marrow-niche interactions of essential thrombocythemia.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the inflammatory bone-marrow microenvironment of essential thrombocythemia.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory bone-marrow microenvironment of essential thrombocythemia.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the clonal hematopoiesis of essential thrombocythemia.
+- `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the megakaryocyte and immune signaling of essential thrombocythemia.
 
 [^harrison-2005-pt1-et]: Harrison CN, Campbell PJ, Buck G, et al. Hydroxyurea compared with anagrelide in high-risk essential thrombocythemia. *N Engl J Med.* 2005;353(1):33-45. [doi:10.1056/NEJMoa043800](https://doi.org/10.1056/NEJMoa043800) · [PubMed 16000354](https://pubmed.ncbi.nlm.nih.gov/16000354/)
 [^barbui-2012-ipset]: Barbui T, Finazzi G, Carobbio A, et al. Development and validation of an International Prognostic Score of thrombosis in World Health Organization-essential thrombocythemia (IPSET-thrombosis). *Blood.* 2012;120(26):5128-5133. [doi:10.1182/blood-2012-07-444067](https://doi.org/10.1182/blood-2012-07-444067) · [PubMed 23086758](https://pubmed.ncbi.nlm.nih.gov/23086758/)
