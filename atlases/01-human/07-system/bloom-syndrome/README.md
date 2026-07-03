@@ -385,6 +385,15 @@ cross_links:
   - target: 01-human/03-molecular/arid1a
     relation: connects-to
     note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic landscape accompanying the genomic instability of Bloom syndrome."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "BCL-2 anti-apoptotic signaling participates in the survival of the genomically unstable cells and the lymphoid-neoplasia predisposition of Bloom syndrome."
+  - target: 01-human/03-molecular/runx1
+    relation: connects-to
+    note: "RUNX1 transcription-factor activity participates in the hematopoietic differentiation and leukemia predisposition of Bloom syndrome."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "IL-6-STAT3 signaling (STAT3 already mapped) participates in the inflammatory and tumor-microenvironment processes of Bloom syndrome."
 ---
 
 # Bloom Syndrome
@@ -645,6 +654,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven myeloid recruitment shapes the tumor microenvironment of the malignancies of Bloom syndrome.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the tumor-stromal and marrow interactions relevant to Bloom syndrome.
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic landscape accompanying the genomic instability of Bloom syndrome.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — BCL-2 anti-apoptotic signaling participates in the survival of the genomically unstable cells and the lymphoid-neoplasia predisposition of Bloom syndrome.
+- `connects-to` → **[RUNX1](../../03-molecular/runx1/README.md)** — RUNX1 transcription-factor activity participates in the hematopoietic differentiation and leukemia predisposition of Bloom syndrome.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6-STAT3 signaling (STAT3 already mapped) participates in the inflammatory and tumor-microenvironment processes of Bloom syndrome.
 
 ---
 
