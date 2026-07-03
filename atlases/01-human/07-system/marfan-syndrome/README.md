@@ -385,6 +385,15 @@ cross_links:
   - target: 01-human/03-molecular/il-33
     relation: connects-to
     note: "IL-33 alarmin signaling participates in the vascular inflammation relevant to the aortopathy of Marfan syndrome."
+  - target: 01-human/03-molecular/calcineurin
+    relation: connects-to
+    note: "Calcineurin-NFAT signaling participates in the cardiovascular-smooth-muscle and immune responses relevant to Marfan syndrome."
+  - target: 01-human/03-molecular/adenosine
+    relation: connects-to
+    note: "Adenosine signaling participates in the vascular-tone regulation relevant to the aortopathy of Marfan syndrome."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Osteopontin participates in the aortic extracellular-matrix remodeling and aneurysm pathology of Marfan syndrome."
 ---
 
 # Marfan Syndrome
@@ -646,6 +655,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the vascular smooth-muscle-cell and endothelial responses of the aortopathy of Marfan syndrome.
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the connective-tissue gene programs relevant to Marfan syndrome.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the vascular inflammation relevant to the aortopathy of Marfan syndrome.
+- `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the cardiovascular-smooth-muscle and immune responses relevant to Marfan syndrome.
+- `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine signaling participates in the vascular-tone regulation relevant to the aortopathy of Marfan syndrome.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the aortic extracellular-matrix remodeling and aneurysm pathology of Marfan syndrome.
 
 ---
 
