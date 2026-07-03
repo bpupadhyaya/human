@@ -382,6 +382,15 @@ cross_links:
   - target: 01-human/03-molecular/il-33
     relation: connects-to
     note: "IL-33 alarmin signaling participates in the tumor-immune microenvironment of endometrial cancer."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "IL-17A signaling participates in the inflammatory tumor microenvironment of endometrial cancer."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement C3 participates in the inflammatory tumor microenvironment of endometrial cancer."
+  - target: 01-human/03-molecular/calcineurin
+    relation: connects-to
+    note: "Calcineurin-NFAT signaling participates in the estrogen-linked proliferative and immune signaling of endometrial cancer."
 ---
 
 # Endometrial Cancer
@@ -628,6 +637,9 @@ cross_links:
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation, linked to the obesity-associated pathogenesis, participates in the tumor microenvironment of endometrial cancer.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH signaling participates in the proliferation and differentiation programs dysregulated in endometrial cancer.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the tumor-immune microenvironment of endometrial cancer.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory tumor microenvironment of endometrial cancer.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory tumor microenvironment of endometrial cancer.
+- `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the estrogen-linked proliferative and immune signaling of endometrial cancer.
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)
