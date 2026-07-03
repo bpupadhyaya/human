@@ -393,6 +393,15 @@ cross_links:
   - target: 01-human/03-molecular/cxcl12
     relation: connects-to
     note: "CXCL12-CXCR4 signaling participates in the endothelial homeostasis, angiogenesis, and cardiac-progenitor mobilization of the cardiovascular system."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "IL-33 alarmin signaling participates in the cardiac and vascular immune responses of the cardiovascular system."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "IL-17A signaling participates in the vascular inflammation and cardiac remodeling of the cardiovascular system."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement C3 participates in the vascular inflammation and injury responses of the cardiovascular system."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"
@@ -600,6 +609,9 @@ Each major vascular bed has **autoregulation** — a local mechanism that holds 
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the cardiomyocyte and vascular gene programs of the cardiovascular system.
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven leukocyte recruitment participates in the vascular inflammation and atherogenesis of the cardiovascular system.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the endothelial homeostasis, angiogenesis, and cardiac-progenitor mobilization of the cardiovascular system.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the cardiac and vascular immune responses of the cardiovascular system.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the vascular inflammation and cardiac remodeling of the cardiovascular system.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the vascular inflammation and injury responses of the cardiovascular system.
 
 ## Pathology
 
