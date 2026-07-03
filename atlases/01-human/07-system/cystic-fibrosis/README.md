@@ -385,6 +385,15 @@ cross_links:
   - target: 01-human/03-molecular/collagen
     relation: connects-to
     note: "Collagen deposition contributes to the airway remodeling and fibrosis of chronic cystic-fibrosis lung disease."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the airway-epithelial and immune gene programs of cystic fibrosis."
+  - target: 01-human/03-molecular/calcineurin
+    relation: connects-to
+    note: "Calcineurin-NFAT signaling participates in the airway T-cell inflammation of cystic fibrosis."
+  - target: 01-human/03-molecular/adenosine
+    relation: connects-to
+    note: "Adenosine signaling participates in the airway-surface-liquid regulation and inflammation of cystic fibrosis."
 ---
 
 # Cystic Fibrosis
@@ -635,6 +644,9 @@ AND
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the airway leukocyte trafficking of the chronic neutrophilic inflammation of cystic fibrosis.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the airway epithelial and innate immune responses of cystic fibrosis.
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Collagen deposition contributes to the airway remodeling and fibrosis of chronic cystic-fibrosis lung disease.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the airway-epithelial and immune gene programs of cystic fibrosis.
+- `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the airway T-cell inflammation of cystic fibrosis.
+- `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine signaling participates in the airway-surface-liquid regulation and inflammation of cystic fibrosis.
 
 ---
 
