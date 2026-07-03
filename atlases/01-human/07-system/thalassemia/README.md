@@ -387,6 +387,15 @@ cross_links:
   - target: 01-human/03-molecular/kit
     relation: connects-to
     note: "KIT (stem-cell-factor receptor) signaling participates in the erythroid-progenitor proliferation and the ineffective erythropoiesis of thalassemia."
+  - target: 01-human/03-molecular/runx1
+    relation: connects-to
+    note: "RUNX1 transcription-factor activity participates in the erythroid differentiation dysregulated in the ineffective erythropoiesis of thalassemia."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "NOTCH signaling participates in the hematopoietic-stem-cell and erythroid-progenitor regulation relevant to thalassemia."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of globin-gene switching and erythroid gene programs relevant to thalassemia."
 ---
 
 # Thalassemia
@@ -654,6 +663,9 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-family chemokine signaling participates in the bone-marrow niche and inflammatory interactions of thalassemia.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the erythroid bone-marrow-niche interactions and extramedullary hematopoiesis of thalassemia.
 - `connects-to` → **[KIT](../../03-molecular/kit/README.md)** — KIT (stem-cell-factor receptor) signaling participates in the erythroid-progenitor proliferation and the ineffective erythropoiesis of thalassemia.
+- `connects-to` → **[RUNX1](../../03-molecular/runx1/README.md)** — RUNX1 transcription-factor activity participates in the erythroid differentiation dysregulated in the ineffective erythropoiesis of thalassemia.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH signaling participates in the hematopoietic-stem-cell and erythroid-progenitor regulation relevant to thalassemia.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of globin-gene switching and erythroid gene programs relevant to thalassemia.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.
