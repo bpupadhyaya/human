@@ -378,6 +378,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Complement C3 participates in the microglial and neuroinflammatory processes implicated in gambling disorder."
+  - target: 01-human/03-molecular/progesterone
+    relation: connects-to
+    note: "Sex differences: gambling disorder is more common in men, and reproductive-hormone influences including progesterone-derived neurosteroid modulation of reward and stress circuits may contribute to the sex differences in vulnerability (estrogen already mapped)."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Reward-circuit signalling: nitric oxide modulates the dopaminergic reward and impulse-control circuits (dopamine already mapped) implicated in the compulsive risk-taking and chasing behaviour of gambling disorder."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Metabolic comorbidity: gambling disorder is associated with sedentary behaviour, obesity and metabolic dysfunction, and insulin resistance links the behavioural addiction to the cardiometabolic morbidity that accompanies it."
 sources:
   - id: grant-2016-gambling-review
     type: peer-reviewed
@@ -644,6 +653,9 @@ Persistent and recurrent problematic gambling behavior causing distress (≥4 of
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the reward-circuit gene programs implicated in gambling disorder.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the reward-related synaptic plasticity implicated in gambling disorder.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the microglial and neuroinflammatory processes implicated in gambling disorder.
+- `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Sex differences: gambling disorder is more common in men, and reproductive-hormone influences including progesterone-derived neurosteroid modulation of reward and stress circuits may contribute to the sex differences in vulnerability (estrogen already mapped).
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Reward-circuit signalling: nitric oxide modulates the dopaminergic reward and impulse-control circuits (dopamine already mapped) implicated in the compulsive risk-taking and chasing behaviour of gambling disorder.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Metabolic comorbidity: gambling disorder is associated with sedentary behaviour, obesity and metabolic dysfunction, and insulin resistance links the behavioural addiction to the cardiometabolic morbidity that accompanies it.
 
 [^potenza-2014-gambling-neuroscience]: Potenza MN. The neurobiology of pathological gambling and drug addiction: an overview and new findings. *Philos Trans R Soc Lond B Biol Sci.* 2008;363(1507):3181-3189. [doi:10.1098/rstb.2008.0100](https://doi.org/10.1098/rstb.2008.0100) · [PubMed 18640909](https://pubmed.ncbi.nlm.nih.gov/18640909/)
 [^grant-2016-gambling-review]: Grant JE, Chamberlain SR. Gambling disorder and its relationship with substance use disorders. *Am J Addict.* 2015;24(2):126-131. [doi:10.1111/ajad.12112](https://doi.org/10.1111/ajad.12112) · [PubMed 25376793](https://pubmed.ncbi.nlm.nih.gov/25376793/)

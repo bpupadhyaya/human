@@ -397,6 +397,15 @@ cross_links:
   - target: 01-human/03-molecular/arid1a
     relation: connects-to
     note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the lipid-metabolism and vascular gene programs relevant to familial hypercholesterolemia."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Premature infarction: untreated familial hypercholesterolaemia causes early myocardial infarction, and troponin release marks the myocardial injury of the coronary events that are its leading cause of death, driving aggressive lipid lowering from childhood."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "LDL oxidation: xanthine-oxidase-derived reactive oxygen species help oxidise the excess LDL of familial hypercholesterolaemia, and oxidised LDL is the form avidly taken up by macrophages (already mapped) to form the foam cells of atheroma."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Plaque adaptive immunity: atherosclerosis in familial hypercholesterolaemia has an adaptive immune component, with MHC class II presentation of oxidised-LDL and ApoB peptides to T cells shaping the inflammatory plaque beyond the lipid burden."
 ---
 
 # Familial Hypercholesterolemia
@@ -631,6 +640,9 @@ FH is a **monogenic autosomal dominant disorder** caused by mutations in three g
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the vascular inflammation of the atherosclerosis of familial hypercholesterolemia.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the atherosclerotic vascular inflammation of familial hypercholesterolemia.
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the lipid-metabolism and vascular gene programs relevant to familial hypercholesterolemia.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Premature infarction: untreated familial hypercholesterolaemia causes early myocardial infarction, and troponin release marks the myocardial injury of the coronary events that are its leading cause of death, driving aggressive lipid lowering from childhood.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — LDL oxidation: xanthine-oxidase-derived reactive oxygen species help oxidise the excess LDL of familial hypercholesterolaemia, and oxidised LDL is the form avidly taken up by macrophages (already mapped) to form the foam cells of atheroma.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Plaque adaptive immunity: atherosclerosis in familial hypercholesterolaemia has an adaptive immune component, with MHC class II presentation of oxidised-LDL and ApoB peptides to T cells shaping the inflammatory plaque beyond the lipid burden.
 
 [^goldstein-1985-ldlr-nobel]: Goldstein JL, Brown MS. The LDL receptor. *Arterioscler Thromb Vasc Biol.* 2009;29(4):431-438. [doi:10.1161/ATVBAHA.108.179564](https://doi.org/10.1161/ATVBAHA.108.179564) · [PubMed 19299327](https://pubmed.ncbi.nlm.nih.gov/19299327/)
 [^raal-2020-inclisiran-fh]: Raal FJ, Kallend D, Ray KK, et al. Inclisiran for the Treatment of Heterozygous Familial Hypercholesterolemia. *N Engl J Med.* 2020;382(16):1520-1530. [doi:10.1056/NEJMoa1913805](https://doi.org/10.1056/NEJMoa1913805) · [PubMed 32197277](https://pubmed.ncbi.nlm.nih.gov/32197277/)
