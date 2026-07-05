@@ -387,6 +387,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Reward signalling: nitric oxide modulates the dopaminergic reward circuitry (dopamine already mapped) implicated in the loss of control and compulsive overeating that define binge-eating disorder."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Metabolic oxidative stress: the obesity and metabolic dysregulation of binge-eating disorder raise xanthine-oxidase activity and serum urate, linking the disorder to hyperuricaemia and the oxidative stress of its cardiometabolic risk."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Sex differences: binge-eating disorder is the eating disorder with the smallest female predominance, and androgens alongside estrogen and progesterone (already mapped) are implicated in the sex differences in its prevalence and expression."
+  - target: 01-human/03-molecular/pcsk9
+    relation: connects-to
+    note: "Atherogenic dyslipidaemia: the obesity that accompanies binge-eating disorder raises triglycerides and small dense LDL, and PCSK9-regulated LDL handling (cholesterol already mapped) contributes to the dyslipidaemia driving its cardiovascular risk."
 sources:
   - id: american-psychiatric-2013-bed-dsm5
     type: clinical-guideline
@@ -671,6 +680,9 @@ BED is among the most psychiatrically comorbid of all eating disorders:
 - `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Menstrual-cycle modulation: binge eating tends to worsen in the luteal phase, implicating the fall in progesterone-derived neurosteroids and reproductive-hormone fluctuation (estrogen already mapped) in the cyclical variation of symptoms.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Metabolic comorbidity: binge-eating disorder strongly associates with obesity and insulin resistance, and the adipokine resistin links the adipose inflammation to the metabolic syndrome that accompanies it beyond the leptin and adiponectin already mapped.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Reward signalling: nitric oxide modulates the dopaminergic reward circuitry (dopamine already mapped) implicated in the loss of control and compulsive overeating that define binge-eating disorder.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Metabolic oxidative stress: the obesity and metabolic dysregulation of binge-eating disorder raise xanthine-oxidase activity and serum urate, linking the disorder to hyperuricaemia and the oxidative stress of its cardiometabolic risk.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Sex differences: binge-eating disorder is the eating disorder with the smallest female predominance, and androgens alongside estrogen and progesterone (already mapped) are implicated in the sex differences in its prevalence and expression.
+- `connects-to` → **[PCSK9](../../03-molecular/pcsk9/README.md)** — Atherogenic dyslipidaemia: the obesity that accompanies binge-eating disorder raises triglycerides and small dense LDL, and PCSK9-regulated LDL handling (cholesterol already mapped) contributes to the dyslipidaemia driving its cardiovascular risk.
 
 [^american-psychiatric-2013-bed-dsm5]: American Psychiatric Association. Binge Eating Disorder (307.51). In: *Diagnostic and Statistical Manual of Mental Disorders, 5th ed.* Arlington, VA: APA; 2013. [doi:10.1176/appi.books.9780890425596](https://doi.org/10.1176/appi.books.9780890425596)
 [^mccallum-2003-bed-review]: McCallum K, Bruton AM. Binge eating disorder: eating disorder or somatic syndrome? *Prim Care Companion J Clin Psychiatry.* 2003;5(Suppl 4):20-25. [PubMed 15213784](https://pubmed.ncbi.nlm.nih.gov/15213784/)
