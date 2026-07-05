@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "T-cell immunity: reduced IL-2-driven T-cell responses form part of the cellular immunodeficiency of Bloom syndrome, compounding the antibody deficiency and predisposing to the infections that accompany its genome instability."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Genome-instability interferon: unrepaired DNA and micronuclei in Bloom syndrome cells release cytosolic DNA that, through cGAS-STING (already mapped), triggers a type I interferon response, part of the chronic inflammatory signature of genome-instability disorders."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Inflammatory dysregulation: the immune dysfunction of Bloom syndrome includes dysregulated pro-inflammatory cytokines such as TNF, contributing to the inflammatory milieu that accompanies its immunodeficiency and cancer predisposition."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Humoral immune defect: the immunodeficiency of Bloom syndrome extends beyond low immunoglobulins (already mapped) to impaired complement-supported humoral defence, part of the broad immune vulnerability to infection."
 ---
 
 # Bloom Syndrome
@@ -669,6 +678,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immunodeficiency: Bloom syndrome features immunodeficiency with reduced immunoglobulins (already mapped), and impaired MHC class II-restricted antigen presentation contributes to the recurrent infections that complicate the disorder.
 - `connects-to` → **[Insulin receptor](../../03-molecular/insulin-receptor/README.md)** — Metabolic risk: Bloom syndrome carries a strikingly high risk of early type 2 diabetes with insulin resistance, so impaired insulin-receptor signalling is a common endocrine complication alongside the short stature already mapped.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell immunity: reduced IL-2-driven T-cell responses form part of the cellular immunodeficiency of Bloom syndrome, compounding the antibody deficiency and predisposing to the infections that accompany its genome instability.
+- `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — Genome-instability interferon: unrepaired DNA and micronuclei in Bloom syndrome cells release cytosolic DNA that, through cGAS-STING (already mapped), triggers a type I interferon response, part of the chronic inflammatory signature of genome-instability disorders.
+- `connects-to` → **[TNF-alpha](../../03-molecular/tnf-alpha/README.md)** — Inflammatory dysregulation: the immune dysfunction of Bloom syndrome includes dysregulated pro-inflammatory cytokines such as TNF, contributing to the inflammatory milieu that accompanies its immunodeficiency and cancer predisposition.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Humoral immune defect: the immunodeficiency of Bloom syndrome extends beyond low immunoglobulins (already mapped) to impaired complement-supported humoral defence, part of the broad immune vulnerability to infection.
 
 ---
 

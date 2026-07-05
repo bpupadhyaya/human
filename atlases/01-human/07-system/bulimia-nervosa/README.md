@@ -405,6 +405,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "Refeeding hypophosphataemia: when nutrition is restored after periods of restriction, an insulin surge drives phosphate into cells, and the resulting hypophosphataemia is the dangerous core of refeeding syndrome in bulimia nervosa."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Metabolic alkalosis: self-induced vomiting loses gastric hydrochloric acid, and the loss of protons produces the hypochloraemic metabolic alkalosis characteristic of purging, a clue to covert bulimia on blood testing."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Volume depletion: purging depletes sodium and fluid, activating the aldosterone (already mapped) response, and the resulting pseudo-Bartter physiology causes rebound oedema and swings in sodium during recovery."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Laxative abuse: chronic stimulant-laxative abuse for purging damages the large intestine, causing cathartic colon, electrolyte loss and dependence, a harmful and ineffective weight-control method in bulimia."
 ---
 
 # Bulimia Nervosa
@@ -663,6 +672,9 @@ All of the following must be met:
 - `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Metabolic alkalosis: self-induced vomiting removes protons and chloride as gastric acid, producing the hypochloraemic hypokalaemic metabolic alkalosis characteristic of purging behaviour in bulimia nervosa.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiac risk: the electrolyte derangements of purging, and cardiotoxic ipecac abuse, can injure the myocardium, and troponin elevation may mark the cardiomyopathy and arrhythmias that make cardiac arrest a cause of death in bulimia.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Refeeding hypophosphataemia: when nutrition is restored after periods of restriction, an insulin surge drives phosphate into cells, and the resulting hypophosphataemia is the dangerous core of refeeding syndrome in bulimia nervosa.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Metabolic alkalosis: self-induced vomiting loses gastric hydrochloric acid, and the loss of protons produces the hypochloraemic metabolic alkalosis characteristic of purging, a clue to covert bulimia on blood testing.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Volume depletion: purging depletes sodium and fluid, activating the aldosterone (already mapped) response, and the resulting pseudo-Bartter physiology causes rebound oedema and swings in sodium during recovery.
+- `connects-to` → **[Large intestine](../../06-organ/large-intestine/README.md)** — Laxative abuse: chronic stimulant-laxative abuse for purging damages the large intestine, causing cathartic colon, electrolyte loss and dependence, a harmful and ineffective weight-control method in bulimia.
 
 ## Treatment
 
