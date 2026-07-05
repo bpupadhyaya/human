@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/secretory-iga
     relation: connects-to
     note: "Mucosal barrier: secretory IgA at the airway surface shapes the response to inhaled allergens and microbes, and altered IgA production is associated with allergic sensitisation and asthma susceptibility in early life."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Theophylline and oxidative stress: theophylline, a methylxanthine bronchodilator and phosphodiesterase inhibitor, is metabolised via xanthine oxidase, whose reactive oxygen species also contribute to the airway oxidative stress of asthma."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Allergen presentation: MHC class II presentation of inhaled allergens by airway dendritic cells drives the Th2 sensitisation (IL-4/IL-13 already mapped) of allergic asthma, and HLA associations contribute to susceptibility."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Airway macrophages: alveolar and airway macrophages, polarised toward an alternatively activated phenotype in type-2 asthma, contribute to the inflammation, remodelling and impaired resolution of the disease."
 ---
 
 # Asthma
@@ -640,6 +649,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Sex-hormone modulation: asthma prevalence and severity shift at puberty and across the menstrual cycle, and estrogen modulates airway inflammation and smooth-muscle tone, underlying the female predominance of adult asthma and premenstrual exacerbations.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Anaphylatoxins: the complement fragments C3a and C5a (C3 already mapped) generated in allergic airways amplify mast-cell and eosinophil recruitment and smooth-muscle contraction, bridging innate complement to the type-2 inflammation of asthma.
 - `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — Mucosal barrier: secretory IgA at the airway surface shapes the response to inhaled allergens and microbes, and altered IgA production is associated with allergic sensitisation and asthma susceptibility in early life.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Theophylline and oxidative stress: theophylline, a methylxanthine bronchodilator and phosphodiesterase inhibitor, is metabolised via xanthine oxidase, whose reactive oxygen species also contribute to the airway oxidative stress of asthma.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Allergen presentation: MHC class II presentation of inhaled allergens by airway dendritic cells drives the Th2 sensitisation (IL-4/IL-13 already mapped) of allergic asthma, and HLA associations contribute to susceptibility.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Airway macrophages: alveolar and airway macrophages, polarised toward an alternatively activated phenotype in type-2 asthma, contribute to the inflammation, remodelling and impaired resolution of the disease.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)

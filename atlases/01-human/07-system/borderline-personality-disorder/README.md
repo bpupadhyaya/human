@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/histamine
     relation: connects-to
     note: "Arousal and reactivity: central histaminergic neurotransmission regulates wakefulness and emotional arousal, systems dysregulated in the affective instability and hyperreactivity that characterise borderline personality disorder."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "Brain renin-angiotensin: central angiotensin II modulates stress reactivity and the HPA axis (cortisol already mapped), and this pressor neuroendocrine system is implicated in the exaggerated stress responses of borderline personality disorder."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Metabolic dysregulation: borderline personality disorder carries higher rates of obesity and insulin resistance, driven partly by binge-eating comorbidity (leptin already mapped) and psychotropic medication, linking the disorder to metabolic health."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Mineralocorticoid stress axis: aldosterone acts on brain mineralocorticoid receptors that, balanced against glucocorticoid receptors (already mapped), tune the stress response dysregulated in the affective instability of borderline personality disorder."
 ---
 
 # Borderline Personality Disorder
@@ -671,6 +680,9 @@ This model directly informs DBT treatment: validate emotional experience (the bi
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Impulsive aggression: nitric oxide from neuronal nNOS modulates the serotonergic and dopaminergic circuits governing impulse control, and NOS1 variation is associated with the impulsive aggression that features in borderline personality disorder.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Eating-disorder comorbidity: borderline personality disorder frequently co-occurs with bulimia and emotional binge eating, and the satiety adipokine leptin links the affective dysregulation to the disordered appetite control seen in these patients.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Arousal and reactivity: central histaminergic neurotransmission regulates wakefulness and emotional arousal, systems dysregulated in the affective instability and hyperreactivity that characterise borderline personality disorder.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — Brain renin-angiotensin: central angiotensin II modulates stress reactivity and the HPA axis (cortisol already mapped), and this pressor neuroendocrine system is implicated in the exaggerated stress responses of borderline personality disorder.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Metabolic dysregulation: borderline personality disorder carries higher rates of obesity and insulin resistance, driven partly by binge-eating comorbidity (leptin already mapped) and psychotropic medication, linking the disorder to metabolic health.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Mineralocorticoid stress axis: aldosterone acts on brain mineralocorticoid receptors that, balanced against glucocorticoid receptors (already mapped), tune the stress response dysregulated in the affective instability of borderline personality disorder.
 
 [^linehan-1993-dbt]: Linehan MM. *Cognitive-Behavioral Treatment of Borderline Personality Disorder.* Guilford; 1993. [PubMed 8192506](https://pubmed.ncbi.nlm.nih.gov/8192506/)
 [^skodol-2002-bpd-neurobiology]: Siever LJ, Davis KL. A psychobiological perspective on the personality disorders. *Am J Psychiatry.* 1991;148(12):1647-1658. [doi:10.1176/ajp.148.12.1647](https://doi.org/10.1176/ajp.148.12.1647) · [PubMed 1957927](https://pubmed.ncbi.nlm.nih.gov/1957927/)
