@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/calcineurin
     relation: connects-to
     note: "Calcineurin-NFAT signaling participates in the immune and proliferative signaling of the endocrine tumors of Carney complex."
+  - target: 01-human/03-molecular/atp
+    relation: connects-to
+    note: "cAMP-PKA pathway: the PRKAR1A defect of Carney complex releases the catalytic subunit of protein kinase A from regulation, so ATP-dependent PKA phosphorylation runs unchecked, driving the endocrine tumours and pigmented lesions of the syndrome."
+  - target: 01-human/03-molecular/endothelin-1
+    relation: connects-to
+    note: "Lentiginous pigmentation: endothelin-1 signalling through EDNRB regulates melanocyte survival and pigment production, contributing to the spotty lentigines and blue naevi that are hallmark cutaneous features of Carney complex."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Cardiac myxoma: recurrent cardiac myxomas (heart already mapped) can obstruct valves or embolise, and troponin release may mark the myocardial injury of these tumours, the leading cause of death in Carney complex."
 ---
 
 # Carney Complex
@@ -641,6 +650,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory tumor microenvironment of the neoplasms of Carney complex.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory tumor microenvironment of Carney complex.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the immune and proliferative signaling of the endocrine tumors of Carney complex.
+- `connects-to` → **[ATP](../../03-molecular/atp/README.md)** — cAMP-PKA pathway: the PRKAR1A defect of Carney complex releases the catalytic subunit of protein kinase A from regulation, so ATP-dependent PKA phosphorylation runs unchecked, driving the endocrine tumours and pigmented lesions of the syndrome.
+- `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Lentiginous pigmentation: endothelin-1 signalling through EDNRB regulates melanocyte survival and pigment production, contributing to the spotty lentigines and blue naevi that are hallmark cutaneous features of Carney complex.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiac myxoma: recurrent cardiac myxomas (heart already mapped) can obstruct valves or embolise, and troponin release may mark the myocardial injury of these tumours, the leading cause of death in Carney complex.
 
 ---
 

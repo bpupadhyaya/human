@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/calcineurin
     relation: connects-to
     note: "Calcineurin-NFAT signaling downstream of the B-cell receptor participates in the survival signaling of Burkitt lymphoma."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "EBV immune escape: MHC class II presentation of Epstein-Barr-virus antigens (LMP1 already mapped) shapes the immune control of EBV-driven Burkitt lymphoma, and downregulation of antigen presentation is one route by which the tumour evades T cells."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Cellular immunotherapy: IL-2-driven T-cell expansion supports the CD19-directed CAR-T and EBV-specific T-cell therapies (perforin already mapped) explored for relapsed and immunodeficiency-associated Burkitt lymphoma."
+  - target: 01-human/03-molecular/ctla-4
+    relation: connects-to
+    note: "Checkpoint context: CTLA-4 restrains the anti-tumour T-cell response, and its role in immune tolerance is relevant to the impaired EBV surveillance underlying the endemic and immunodeficiency-associated forms of Burkitt lymphoma."
 ---
 
 # Burkitt Lymphoma
@@ -654,6 +663,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory tumor microenvironment of Burkitt lymphoma.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory tumor microenvironment of Burkitt lymphoma.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling downstream of the B-cell receptor participates in the survival signaling of Burkitt lymphoma.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — EBV immune escape: MHC class II presentation of Epstein-Barr-virus antigens (LMP1 already mapped) shapes the immune control of EBV-driven Burkitt lymphoma, and downregulation of antigen presentation is one route by which the tumour evades T cells.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Cellular immunotherapy: IL-2-driven T-cell expansion supports the CD19-directed CAR-T and EBV-specific T-cell therapies (perforin already mapped) explored for relapsed and immunodeficiency-associated Burkitt lymphoma.
+- `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Checkpoint context: CTLA-4 restrains the anti-tumour T-cell response, and its role in immune tolerance is relevant to the impaired EBV surveillance underlying the endemic and immunodeficiency-associated forms of Burkitt lymphoma.
 
 ---
 
