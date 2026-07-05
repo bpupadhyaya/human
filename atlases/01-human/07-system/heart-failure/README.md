@@ -397,6 +397,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative stress and urate: xanthine oxidase generates reactive oxygen species and uric acid in the failing heart, and elevated serum urate is an independent marker of severity, reflecting the oxidative burden of impaired myocardial energetics."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Anaemia of heart failure: anaemia is common in heart failure from iron deficiency (already mapped), inflammation and renal dysfunction, and low haemoglobin worsens symptoms, exercise capacity and prognosis."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Sex differences and peripartum disease: estrogen influences the sex differences in heart failure, with women predominating in HFpEF, and its abrupt fall postpartum is implicated in peripartum cardiomyopathy."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Viral cardiac injury: COVID-19 can cause myocarditis and precipitate or worsen heart failure (troponin already mapped), one of several viral illnesses that acutely stress the failing or vulnerable myocardium."
 ---
 
 # Heart Failure
@@ -596,6 +605,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[Thyroid hormones](../../03-molecular/thyroid-hormones/README.md)** — Thyroid cardiomyopathy: both hyper- and hypothyroidism impair cardiac output, and the low-T3 syndrome of advanced heart failure is a marker of poor prognosis, making thyroid-hormone status a modifiable contributor to the failing heart.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Diabetic cardiomyopathy: insulin resistance and hyperglycaemia produce a distinct diabetic cardiomyopathy and worsen outcomes in heart failure, the bidirectional metabolic link that underlies the cardiac benefit of SGLT2 inhibitors (already mapped).
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative stress and urate: xanthine oxidase generates reactive oxygen species and uric acid in the failing heart, and elevated serum urate is an independent marker of severity, reflecting the oxidative burden of impaired myocardial energetics.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Anaemia of heart failure: anaemia is common in heart failure from iron deficiency (already mapped), inflammation and renal dysfunction, and low haemoglobin worsens symptoms, exercise capacity and prognosis.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Sex differences and peripartum disease: estrogen influences the sex differences in heart failure, with women predominating in HFpEF, and its abrupt fall postpartum is implicated in peripartum cardiomyopathy.
+- `connects-to` → **[COVID-19](../covid-19-disease/README.md)** — Viral cardiac injury: COVID-19 can cause myocarditis and precipitate or worsen heart failure (troponin already mapped), one of several viral illnesses that acutely stress the failing or vulnerable myocardium.
 
 ## Pathology
 
