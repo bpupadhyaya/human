@@ -400,6 +400,15 @@ cross_links:
   - target: 01-human/03-molecular/il-33
     relation: connects-to
     note: "IL-33 alarmin signaling participates in the skin and muscle inflammation of dermatomyositis."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Muscle and cardiac injury: the inflammatory myopathy of dermatomyositis damages striated muscle, and cardiac involvement with troponin elevation is an underrecognised source of morbidity that warrants surveillance beyond the proximal muscle weakness."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Interstitial lung fibrosis: interstitial lung disease, rapidly progressive in the anti-MDA5 subtype, is a leading cause of death in dermatomyositis, and TGF-beta drives the fibroblast activation and collagen deposition of the fibrosing lung."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Capillary vasculopathy: dermatomyositis is a complement-mediated microangiopathy with capillary dropout and perifascicular ischaemia, where impaired endothelial nitric-oxide signalling contributes to the vascular injury underlying the muscle and skin damage."
 ---
 ---
 
@@ -653,6 +662,9 @@ DM carries a ~3–7× elevated cancer risk overall. Anti-TIF1γ (TRIM33) suppres
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the leukocyte trafficking into the inflamed skin and muscle of dermatomyositis.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the epigenetic dysregulation of the immune responses of dermatomyositis.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the skin and muscle inflammation of dermatomyositis.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Muscle and cardiac injury: the inflammatory myopathy of dermatomyositis damages striated muscle, and cardiac involvement with troponin elevation is an underrecognised source of morbidity that warrants surveillance beyond the proximal muscle weakness.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Interstitial lung fibrosis: interstitial lung disease, rapidly progressive in the anti-MDA5 subtype, is a leading cause of death in dermatomyositis, and TGF-beta drives the fibroblast activation and collagen deposition of the fibrosing lung.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Capillary vasculopathy: dermatomyositis is a complement-mediated microangiopathy with capillary dropout and perifascicular ischaemia, where impaired endothelial nitric-oxide signalling contributes to the vascular injury underlying the muscle and skin damage.
 
 [^bohan-peter-1975-dm-criteria]: Bohan A, Peter JB. Polymyositis and dermatomyositis. *N Engl J Med.* 1975;292(7):344-347. [doi:10.1056/NEJM197502132920706](https://doi.org/10.1056/NEJM197502132920706) · [PubMed 1090839](https://pubmed.ncbi.nlm.nih.gov/1090839/)
 [^lundberg-2021-iim-classification]: Lundberg IE, et al. 2017 EULAR/ACR classification criteria for adult and juvenile idiopathic inflammatory myopathies. *Arthritis Rheumatol.* 2017;69(12):2271-2282. [doi:10.1002/art.40320](https://doi.org/10.1002/art.40320) · [PubMed 29106061](https://pubmed.ncbi.nlm.nih.gov/29106061/)

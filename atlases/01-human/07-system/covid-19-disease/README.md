@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/arid1a
     relation: connects-to
     note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the host immune response of COVID-19 disease."
+  - target: 01-human/03-molecular/immunoglobulin-g
+    relation: connects-to
+    note: "Neutralising immunity: protective and vaccine-induced immunity to SARS-CoV-2 is carried largely by neutralising IgG against the spike protein (already mapped), and monoclonal IgG antibodies were an early therapeutic before variant escape blunted them."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Cardiac injury: myocardial injury marked by troponin elevation is common in severe COVID-19 and independently predicts mortality, reflecting myocarditis, microthrombosis and demand ischaemia from the systemic illness."
+  - target: 01-human/03-molecular/surfactant
+    relation: connects-to
+    note: "Alveolar injury: SARS-CoV-2 infects and kills the type II pneumocytes that produce surfactant, and the resulting surfactant deficiency contributes to the alveolar collapse and ARDS of severe COVID-19 pneumonia."
 ---
 
 # COVID-19 Disease
@@ -584,6 +593,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the lung inflammation and cytokine storm of COVID-19 disease.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory and immunopathologic response of COVID-19 disease.
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the host immune response of COVID-19 disease.
+- `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Neutralising immunity: protective and vaccine-induced immunity to SARS-CoV-2 is carried largely by neutralising IgG against the spike protein (already mapped), and monoclonal IgG antibodies were an early therapeutic before variant escape blunted them.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiac injury: myocardial injury marked by troponin elevation is common in severe COVID-19 and independently predicts mortality, reflecting myocarditis, microthrombosis and demand ischaemia from the systemic illness.
+- `connects-to` → **[Surfactant](../../03-molecular/surfactant/README.md)** — Alveolar injury: SARS-CoV-2 infects and kills the type II pneumocytes that produce surfactant, and the resulting surfactant deficiency contributes to the alveolar collapse and ARDS of severe COVID-19 pneumonia.
 
 ## Pathology
 
