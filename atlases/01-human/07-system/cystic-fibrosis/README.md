@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/mhc-class-ii
     relation: connects-to
     note: "Chronic-infection immunity: MHC class II antigen presentation shapes the adaptive response to the chronic Pseudomonas and other airway infections of cystic fibrosis, a response that both defends and, through persistent inflammation, damages the lung."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Respiratory acidosis: advanced cystic-fibrosis lung disease retains carbon dioxide, and the resulting proton accumulation produces the respiratory acidosis of end-stage respiratory failure that heralds the need for transplant."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 and ABPA: IL-13 and the type-2 response drive the allergic bronchopulmonary aspergillosis that complicates cystic fibrosis, adding a Th2 arm to the neutrophilic and Th17 (IL-17 already mapped) inflammation of the airway."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Cor pulmonale: chronic hypoxaemia in advanced cystic fibrosis raises pulmonary pressures and strains the right heart, and troponin elevation can mark the myocardial injury of the cor pulmonale of end-stage lung disease."
 ---
 
 # Cystic Fibrosis
@@ -659,6 +668,9 @@ AND
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Salt-wasting alkalosis: excessive loss of salt in the abnormally salty sweat of cystic fibrosis, worsened by heat, can cause a hypochloraemic hypokalaemic metabolic alkalosis (pseudo-Bartter syndrome), a recognised presentation in infants.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Bone disease: pancreatic insufficiency in cystic fibrosis impairs fat and fat-soluble vitamin D absorption (vitamin D already mapped), reducing calcium availability and contributing to the low bone density and fracture risk of the disease.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Chronic-infection immunity: MHC class II antigen presentation shapes the adaptive response to the chronic Pseudomonas and other airway infections of cystic fibrosis, a response that both defends and, through persistent inflammation, damages the lung.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Respiratory acidosis: advanced cystic-fibrosis lung disease retains carbon dioxide, and the resulting proton accumulation produces the respiratory acidosis of end-stage respiratory failure that heralds the need for transplant.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 and ABPA: IL-13 and the type-2 response drive the allergic bronchopulmonary aspergillosis that complicates cystic fibrosis, adding a Th2 arm to the neutrophilic and Th17 (IL-17 already mapped) inflammation of the airway.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cor pulmonale: chronic hypoxaemia in advanced cystic fibrosis raises pulmonary pressures and strains the right heart, and troponin elevation can mark the myocardial injury of the cor pulmonale of end-stage lung disease.
 
 ---
 

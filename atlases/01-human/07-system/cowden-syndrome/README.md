@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/mhc-class-ii
     relation: connects-to
     note: "Cancer immunosurveillance: MHC class II-restricted T-cell surveillance influences which of the many hamartomas and early cancers of Cowden syndrome progress, and antigen presentation is relevant to immunotherapy of any advanced tumours."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "T-cell immunity: IL-2-driven T-cell responses (MHC class II already mapped) provide the immune surveillance influencing progression of the hamartomas and cancers of Cowden syndrome, and underlie the immunotherapy of any advanced tumours."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Hamartoma stroma: tumour-associated macrophages populate the many hamartomas and early cancers of Cowden syndrome, contributing to the growth-factor-rich stroma (VEGF and TGF-beta already mapped) that supports these PTEN-driven proliferations."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Vascular anomalies: Cowden syndrome includes vascular malformations, and nitric oxide with VEGF (already mapped) regulates the endothelial biology behind these anomalies, part of the broad tissue overgrowth of PTEN loss."
 ---
 
 # Cowden Syndrome
@@ -711,6 +720,9 @@ cross_links:
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — PI3K-insulin axis: PTEN opposes PI3K signalling downstream of the insulin receptor, so its loss in Cowden syndrome heightens insulin/PI3K-AKT signalling (both already mapped), the basis of both the hamartoma-tumour predisposition and reported insulin sensitivity.
 - `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Endometrial hormonal axis: Cowden syndrome confers a high endometrial cancer risk, an estrogen-driven cancer (estrogen already mapped) that progesterone opposes, so the estrogen-progesterone balance is central to the gynaecological surveillance and prevention.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Cancer immunosurveillance: MHC class II-restricted T-cell surveillance influences which of the many hamartomas and early cancers of Cowden syndrome progress, and antigen presentation is relevant to immunotherapy of any advanced tumours.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell immunity: IL-2-driven T-cell responses (MHC class II already mapped) provide the immune surveillance influencing progression of the hamartomas and cancers of Cowden syndrome, and underlie the immunotherapy of any advanced tumours.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Hamartoma stroma: tumour-associated macrophages populate the many hamartomas and early cancers of Cowden syndrome, contributing to the growth-factor-rich stroma (VEGF and TGF-beta already mapped) that supports these PTEN-driven proliferations.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Vascular anomalies: Cowden syndrome includes vascular malformations, and nitric oxide with VEGF (already mapped) regulates the endothelial biology behind these anomalies, part of the broad tissue overgrowth of PTEN loss.
 
 ---
 
