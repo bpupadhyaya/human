@@ -388,6 +388,15 @@ cross_links:
   - target: 01-human/03-molecular/calcineurin
     relation: connects-to
     note: "Calcineurin-NFAT signaling participates in the B-cell-receptor and downstream survival signaling of Waldenström macroglobulinemia."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Anaemia: anaemia from marrow infiltration and IgM-mediated cold-agglutinin haemolysis is the most common presenting feature of Waldenström macroglobulinaemia and a primary indication to begin treatment."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Anaemia of inflammation: IL-6-driven hepcidin (IL-6 already mapped) restricts iron availability in Waldenström macroglobulinaemia, compounding the marrow-infiltration anaemia with a functional iron-restricted component."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Antigen presentation: the lymphoplasmacytic clone of Waldenström may be antigen-driven, and MHC class II shapes the T-cell microenvironment and antigen presentation that support its survival alongside the MYD88-driven signalling already mapped."
 ---
 
 # Waldenström Macroglobulinemia
@@ -629,6 +638,9 @@ For symptomatic hyperviscosity → removes IgM immediately; does not treat under
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the tumor-immune bone-marrow microenvironment of Waldenström macroglobulinemia.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory bone-marrow microenvironment of Waldenström macroglobulinemia.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the B-cell-receptor and downstream survival signaling of Waldenström macroglobulinemia.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Anaemia: anaemia from marrow infiltration and IgM-mediated cold-agglutinin haemolysis is the most common presenting feature of Waldenström macroglobulinaemia and a primary indication to begin treatment.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of inflammation: IL-6-driven hepcidin (IL-6 already mapped) restricts iron availability in Waldenström macroglobulinaemia, compounding the marrow-infiltration anaemia with a functional iron-restricted component.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Antigen presentation: the lymphoplasmacytic clone of Waldenström may be antigen-driven, and MHC class II shapes the T-cell microenvironment and antigen presentation that support its survival alongside the MYD88-driven signalling already mapped.
 
 [^treon-2015-ibrutinib-wm]: Treon SP, Tripsas CK, Meid K, et al. Ibrutinib in previously treated Waldenström's macroglobulinemia. *N Engl J Med.* 2015;373(18):1765-1774. [doi:10.1056/NEJMoa1501548](https://doi.org/10.1056/NEJMoa1501548) · [PubMed 26352686](https://pubmed.ncbi.nlm.nih.gov/26352686/)
 [^tam-2020-aspen]: Tam CS, Opat S, D'Sa S, et al. A randomized phase 3 trial of zanubrutinib vs ibrutinib in symptomatic Waldenström macroglobulinemia: the ASPEN study. *Blood.* 2020;136(18):2038-2050. [doi:10.1182/blood.2020006844](https://doi.org/10.1182/blood.2020006844) · [PubMed 32828187](https://pubmed.ncbi.nlm.nih.gov/32828187/)

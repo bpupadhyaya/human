@@ -390,6 +390,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Osteopontin participates in the leukocyte recruitment and neuroinflammatory response to West Nile virus."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Blood-brain-barrier injury: neuroinflammatory nitric oxide contributes to the blood-brain-barrier disruption and neuronal damage of West Nile encephalitis, part of the immunopathology that accompanies viral clearance from the brain."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "T-cell control: IL-2-driven expansion of the CD8 T cells that clear West Nile virus from infected neurons (perforin already mapped) is essential to controlling neuroinvasive infection, and waning T-cell immunity underlies severe disease in the elderly."
+  - target: 01-human/03-molecular/acetylcholine
+    relation: connects-to
+    note: "Acute flaccid paralysis: West Nile virus can infect anterior-horn motor neurons to cause a poliomyelitis-like acute flaccid paralysis, disrupting cholinergic transmission at the neuromuscular junction and leaving lasting weakness."
 ---
 
 # West Nile Virus
@@ -634,3 +643,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the host response to West Nile virus.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the T-cell activation of the antiviral immune response to West Nile virus.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the leukocyte recruitment and neuroinflammatory response to West Nile virus.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Blood-brain-barrier injury: neuroinflammatory nitric oxide contributes to the blood-brain-barrier disruption and neuronal damage of West Nile encephalitis, part of the immunopathology that accompanies viral clearance from the brain.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell control: IL-2-driven expansion of the CD8 T cells that clear West Nile virus from infected neurons (perforin already mapped) is essential to controlling neuroinvasive infection, and waning T-cell immunity underlies severe disease in the elderly.
+- `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Acute flaccid paralysis: West Nile virus can infect anterior-horn motor neurons to cause a poliomyelitis-like acute flaccid paralysis, disrupting cholinergic transmission at the neuromuscular junction and leaving lasting weakness.
