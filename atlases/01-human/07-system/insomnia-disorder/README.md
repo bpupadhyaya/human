@@ -400,6 +400,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Complement C3 participates in the microglial and neuroinflammatory processes implicated in insomnia disorder."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Sleep and metabolism: sleep restriction lowers leptin and raises appetite (ghrelin already mapped), linking chronic insomnia to weight gain and metabolic dysregulation in a bidirectional sleep-metabolism relationship."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Sleep homeostasis: nitric oxide in the basal forebrain and brainstem participates in the buildup of sleep pressure and the sleep-wake switch, one of the gaseous modulators of sleep regulation."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Sleep-dependent secretion: testosterone release peaks during sleep, so the fragmented sleep of insomnia lowers testosterone, and low testosterone in turn worsens sleep quality, a reciprocal endocrine link."
 ---
 
 # Insomnia Disorder
@@ -664,6 +673,9 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the neuroinflammatory processes implicated in insomnia disorder.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the neuroinflammation associated with insomnia disorder.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the microglial and neuroinflammatory processes implicated in insomnia disorder.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Sleep and metabolism: sleep restriction lowers leptin and raises appetite (ghrelin already mapped), linking chronic insomnia to weight gain and metabolic dysregulation in a bidirectional sleep-metabolism relationship.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Sleep homeostasis: nitric oxide in the basal forebrain and brainstem participates in the buildup of sleep pressure and the sleep-wake switch, one of the gaseous modulators of sleep regulation.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Sleep-dependent secretion: testosterone release peaks during sleep, so the fragmented sleep of insomnia lowers testosterone, and low testosterone in turn worsens sleep quality, a reciprocal endocrine link.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)

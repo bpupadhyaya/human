@@ -390,6 +390,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "NOTCH signaling participates in the hematopoietic-stem-cell and erythroid-progenitor regulation relevant to iron deficiency anemia."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Acid-dependent absorption: dietary ferric iron is reduced and absorbed only in the acidic duodenum, so gastric proton secretion is required for uptake, and achlorhydria or proton-pump inhibitors cause or worsen iron deficiency."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Menstrual blood loss: heavy menstrual bleeding from the estrogen-driven endometrial cycle is the leading cause of iron deficiency anaemia in premenopausal women, and its cessation at menopause shifts the differential toward gastrointestinal loss."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Copper-iron interaction: copper-dependent ferroxidases such as ceruloplasmin load iron onto transferrin (already mapped), so copper deficiency produces an iron-deficiency-like anaemia despite adequate iron, a key differential."
 ---
 
 # Iron Deficiency Anemia
@@ -634,6 +643,9 @@ Iron is essential for:
 - `connects-to` → **[RUNX1](../../03-molecular/runx1/README.md)** — RUNX1 transcription-factor activity participates in the erythroid and hematopoietic differentiation impaired in iron deficiency anemia.
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — BCL-2 anti-apoptotic signaling participates in the erythroblast survival (dependent on adequate iron and erythropoietin) relevant to iron deficiency anemia.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH signaling participates in the hematopoietic-stem-cell and erythroid-progenitor regulation relevant to iron deficiency anemia.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Acid-dependent absorption: dietary ferric iron is reduced and absorbed only in the acidic duodenum, so gastric proton secretion is required for uptake, and achlorhydria or proton-pump inhibitors cause or worsen iron deficiency.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Menstrual blood loss: heavy menstrual bleeding from the estrogen-driven endometrial cycle is the leading cause of iron deficiency anaemia in premenopausal women, and its cessation at menopause shifts the differential toward gastrointestinal loss.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper-iron interaction: copper-dependent ferroxidases such as ceruloplasmin load iron onto transferrin (already mapped), so copper deficiency produces an iron-deficiency-like anaemia despite adequate iron, a key differential.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)
