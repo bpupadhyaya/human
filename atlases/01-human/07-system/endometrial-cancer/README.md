@@ -400,6 +400,15 @@ cross_links:
   - target: 01-human/03-molecular/axl-receptor
     relation: connects-to
     note: "Treatment resistance: the AXL receptor tyrosine kinase promotes epithelial-mesenchymal transition and therapy resistance in endometrial cancer, a route of progression beyond the hormonal and PI3K-pathway drivers already mapped."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "MSI immunotherapy: the mismatch-repair-deficient endometrial cancers (MLH1/MSH2 already mapped) are neoantigen-rich and respond to checkpoint blockade (PD-1 already mapped), and IL-2-driven T-cell activity underlies this immune sensitivity."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Bleeding anaemia: abnormal uterine and postmenopausal bleeding is the cardinal presentation of endometrial cancer, and the chronic blood loss produces an iron-deficiency anaemia lowering haemoglobin that often prompts diagnosis."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Metabolic dyslipidaemia: the obesity and insulin resistance (already mapped) that drive endometrial cancer come with atherogenic dyslipidaemia, and cholesterol metabolism intersects the estrogen and mTOR pathways fuelling the tumour."
 ---
 
 # Endometrial Cancer
@@ -652,6 +661,9 @@ cross_links:
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immunotherapy subtypes: the mismatch-repair-deficient (MSI, MLH1/MSH2 already mapped) and POLE-ultramutated endometrial cancers generate abundant neoantigens presented on MHC, making them the subtypes most responsive to checkpoint inhibitors.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Obesity risk: obesity is the leading modifiable risk factor for endometrial cancer, and low adiponectin alongside the leptin excess already mapped links adipose dysfunction and insulin resistance to endometrial carcinogenesis.
 - `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — Treatment resistance: the AXL receptor tyrosine kinase promotes epithelial-mesenchymal transition and therapy resistance in endometrial cancer, a route of progression beyond the hormonal and PI3K-pathway drivers already mapped.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — MSI immunotherapy: the mismatch-repair-deficient endometrial cancers (MLH1/MSH2 already mapped) are neoantigen-rich and respond to checkpoint blockade (PD-1 already mapped), and IL-2-driven T-cell activity underlies this immune sensitivity.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Bleeding anaemia: abnormal uterine and postmenopausal bleeding is the cardinal presentation of endometrial cancer, and the chronic blood loss produces an iron-deficiency anaemia lowering haemoglobin that often prompts diagnosis.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Metabolic dyslipidaemia: the obesity and insulin resistance (already mapped) that drive endometrial cancer come with atherogenic dyslipidaemia, and cholesterol metabolism intersects the estrogen and mTOR pathways fuelling the tumour.
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)

@@ -409,6 +409,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Seizure signalling: nitric oxide has a dual, context-dependent role in seizure generation and termination through its modulation of the glutamatergic and GABAergic transmission already mapped."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "Noradrenergic seizure threshold: the noradrenergic system raises the seizure threshold, and vagus-nerve stimulation exerts part of its anticonvulsant effect through norepinephrine, complementing the serotonergic modulation (already mapped) of seizure control."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Histaminergic modulation: central histamine raises the seizure threshold, which is why H1-antihistamines that cross into the brain can lower it, implicating the histaminergic system in seizure susceptibility."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Metabolic seizures: hypoglycaemia from excess insulin provokes seizures, and the metabolic fuel switch underlies the ketogenic diet's efficacy, linking glucose and insulin handling to seizure control in epilepsy."
 ---
 
 # Epilepsy
@@ -691,6 +700,9 @@ Anti-NMDAR encephalitis is the most common autoimmune encephalitis (~37% of auto
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Synaptic zinc: zinc is co-released with glutamate at hippocampal mossy-fibre synapses and modulates GABA-A and NMDA receptors, so disturbances of synaptic zinc alter seizure susceptibility in temporal lobe epilepsy.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Chronobiology: seizures often cluster with circadian and sleep-wake patterns, and melatonin, which regulates sleep and shows anticonvulsant properties, is used adjunctively in some epilepsy syndromes.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Seizure signalling: nitric oxide has a dual, context-dependent role in seizure generation and termination through its modulation of the glutamatergic and GABAergic transmission already mapped.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Noradrenergic seizure threshold: the noradrenergic system raises the seizure threshold, and vagus-nerve stimulation exerts part of its anticonvulsant effect through norepinephrine, complementing the serotonergic modulation (already mapped) of seizure control.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histaminergic modulation: central histamine raises the seizure threshold, which is why H1-antihistamines that cross into the brain can lower it, implicating the histaminergic system in seizure susceptibility.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Metabolic seizures: hypoglycaemia from excess insulin provokes seizures, and the metabolic fuel switch underlies the ketogenic diet's efficacy, linking glucose and insulin handling to seizure control in epilepsy.
 
 [^fisher-2017-ilae-classification]: Fisher RS, Cross JH, D'Souza C, et al. Instruction manual for the ILAE 2017 operational classification of seizure types. *Epilepsia.* 2017;58(4):531-542. [doi:10.1111/epi.13671](https://doi.org/10.1111/epi.13671) · [PubMed 28276060](https://pubmed.ncbi.nlm.nih.gov/28276060/)
 [^devinsky-2018-epilepsy-review]: Devinsky O, Vezzani A, O'Brien TJ, et al. Epilepsy. *Nat Rev Dis Primers.* 2018;4:18024. [doi:10.1038/nrdp.2018.24](https://doi.org/10.1038/nrdp.2018.24) · [PubMed 29722352](https://pubmed.ncbi.nlm.nih.gov/29722352/)
