@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "T-cell response: IL-2-driven T-cell expansion contributes to dengue immunity, but cross-reactive memory T cells from a previous serotype can produce a suboptimal, inflammation-amplifying response (original antigenic sin) in secondary infection."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Dengue myocarditis: dengue can cause myocarditis and myocardial dysfunction, and troponin elevation marks the cardiac injury of this recognised manifestation of severe infection that contributes to the shock of dengue."
+  - target: 01-human/03-molecular/protein-c
+    relation: connects-to
+    note: "Coagulopathy: severe dengue consumes the natural anticoagulant protein C, and this with thrombocytopenia and the fibrinogen and thrombin derangements already mapped drives the bleeding and disseminated intravascular coagulation of dengue haemorrhagic fever."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative endothelial injury: oxidative stress, to which xanthine-oxidase-derived reactive oxygen species contribute, damages the endothelium (already mapped) in severe dengue, adding to the vascular dysfunction behind the plasma leak."
 ---
 
 # Dengue Fever
@@ -643,3 +652,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Haemoconcentration: the plasma leakage of severe dengue concentrates the blood, and a rising haematocrit and haemoglobin is a cardinal warning sign of impending dengue shock, while haemorrhage can conversely drop it.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immunity and vaccine: MHC class II-restricted T-cell help shapes dengue immunity and vaccine responses, and cross-reactive immunity from a prior serotype underlies the antibody-dependent enhancement (IgG already mapped) that worsens secondary infection.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell response: IL-2-driven T-cell expansion contributes to dengue immunity, but cross-reactive memory T cells from a previous serotype can produce a suboptimal, inflammation-amplifying response (original antigenic sin) in secondary infection.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Dengue myocarditis: dengue can cause myocarditis and myocardial dysfunction, and troponin elevation marks the cardiac injury of this recognised manifestation of severe infection that contributes to the shock of dengue.
+- `connects-to` → **[Protein C](../../03-molecular/protein-c/README.md)** — Coagulopathy: severe dengue consumes the natural anticoagulant protein C, and this with thrombocytopenia and the fibrinogen and thrombin derangements already mapped drives the bleeding and disseminated intravascular coagulation of dengue haemorrhagic fever.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative endothelial injury: oxidative stress, to which xanthine-oxidase-derived reactive oxygen species contribute, damages the endothelium (already mapped) in severe dengue, adding to the vascular dysfunction behind the plasma leak.

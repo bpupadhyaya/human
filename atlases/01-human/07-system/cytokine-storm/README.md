@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/mhc-class-ii
     relation: connects-to
     note: "Antigen-driven hyperactivation: MHC class II presentation of pathogen or superantigen drives the T-cell hyperactivation that ignites many cytokine storms, and antigen presentation is central to the CAR-T-associated cytokine-release syndrome."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "Endothelial leak: activated endothelium in cytokine storm releases angiopoietin-2, destabilising the vasculature and, with the cytokines already mapped, producing the capillary leak, oedema and shock that cause organ failure."
+  - target: 01-human/03-molecular/von-willebrand-factor
+    relation: connects-to
+    note: "Thromboinflammation: endothelial activation releases von Willebrand factor multimers that promote platelet microthrombi, part of the thromboinflammation and disseminated intravascular coagulation (thrombin already mapped) of severe cytokine storm."
+  - target: 01-human/03-molecular/protein-c
+    relation: connects-to
+    note: "Anticoagulant consumption: the coagulopathy of cytokine storm consumes the natural anticoagulant protein C, tipping the balance toward the microthrombosis and disseminated intravascular coagulation that damage organs."
 ---
 
 # Cytokine Storm
@@ -622,6 +631,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiac injury: the hyperinflammation of cytokine storm, including CAR-T cytokine-release syndrome and macrophage-activation syndrome, injures the myocardium, and troponin elevation marks the cardiac dysfunction that contributes to its mortality.
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Cytopenias: haemophagocytic lymphohistiocytosis at the severe end of cytokine storm consumes blood cells, dropping haemoglobin along with platelets and neutrophils, one of the diagnostic features of the syndrome.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Antigen-driven hyperactivation: MHC class II presentation of pathogen or superantigen drives the T-cell hyperactivation that ignites many cytokine storms, and antigen presentation is central to the CAR-T-associated cytokine-release syndrome.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Endothelial leak: activated endothelium in cytokine storm releases angiopoietin-2, destabilising the vasculature and, with the cytokines already mapped, producing the capillary leak, oedema and shock that cause organ failure.
+- `connects-to` → **[Von Willebrand factor](../../03-molecular/von-willebrand-factor/README.md)** — Thromboinflammation: endothelial activation releases von Willebrand factor multimers that promote platelet microthrombi, part of the thromboinflammation and disseminated intravascular coagulation (thrombin already mapped) of severe cytokine storm.
+- `connects-to` → **[Protein C](../../03-molecular/protein-c/README.md)** — Anticoagulant consumption: the coagulopathy of cytokine storm consumes the natural anticoagulant protein C, tipping the balance toward the microthrombosis and disseminated intravascular coagulation that damage organs.
 
 ## Pathology
 
