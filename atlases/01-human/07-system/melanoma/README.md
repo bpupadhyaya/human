@@ -400,6 +400,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Osteopontin (SPP1) participates in the tumor microenvironment, invasion, and metastasis of melanoma, and is a recognized prognostic marker."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Neoantigen immunotherapy: melanoma's ultraviolet-driven high mutational burden (photon already mapped) yields abundant MHC-presented neoantigens, underlying its landmark responsiveness to checkpoint inhibitors (PD-1/CTLA-4 already mapped) and neoantigen vaccines."
+  - target: 01-human/03-molecular/axl-receptor
+    relation: connects-to
+    note: "Targeted-therapy resistance: an AXL-high dedifferentiated cell state drives resistance to BRAF/MEK inhibitors (BRAF already mapped) in melanoma, a phenotype-switching escape route beyond secondary genetic mutations."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Immunotherapy myocarditis: checkpoint inhibitors, the mainstay of melanoma therapy, can cause immune-mediated myocarditis, a rare but often fatal adverse event that troponin elevation helps detect early."
 ---
 
 # Melanoma
@@ -617,6 +626,9 @@ cross_links:
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory tumor microenvironment of melanoma.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the tumor microenvironment and immune signaling of melanoma.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin (SPP1) participates in the tumor microenvironment, invasion, and metastasis of melanoma, and is a recognized prognostic marker.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Neoantigen immunotherapy: melanoma's ultraviolet-driven high mutational burden (photon already mapped) yields abundant MHC-presented neoantigens, underlying its landmark responsiveness to checkpoint inhibitors (PD-1/CTLA-4 already mapped) and neoantigen vaccines.
+- `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — Targeted-therapy resistance: an AXL-high dedifferentiated cell state drives resistance to BRAF/MEK inhibitors (BRAF already mapped) in melanoma, a phenotype-switching escape route beyond secondary genetic mutations.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Immunotherapy myocarditis: checkpoint inhibitors, the mainstay of melanoma therapy, can cause immune-mediated myocarditis, a rare but often fatal adverse event that troponin elevation helps detect early.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

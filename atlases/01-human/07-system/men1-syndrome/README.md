@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Complement C3 participates in the inflammatory tumor microenvironment of MEN1 syndrome."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Gastrinoma acid hypersecretion: the gastrinomas of MEN1 (Zollinger-Ellison syndrome) drive massive gastric acid (proton) secretion, causing the refractory multiple peptic ulcers controlled with high-dose proton-pump inhibitors."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "Insulinoma hypoglycaemia: the insulinomas of MEN1 oversecrete insulin (already mapped), which acting through the insulin receptor drives the fasting hypoglycaemia that is a classic functional pancreatic-tumour presentation."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Carcinoid heart disease: serotonin-secreting foregut and thymic neuroendocrine tumours in MEN1 (serotonin already mapped) can cause carcinoid heart disease with valvular fibrosis, and troponin marks the associated myocardial strain."
 ---
 
 # MEN1 Syndrome
@@ -639,6 +648,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the tumor-immune microenvironment of the neuroendocrine neoplasms of MEN1 syndrome.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory tumor microenvironment of MEN1 syndrome.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory tumor microenvironment of MEN1 syndrome.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Gastrinoma acid hypersecretion: the gastrinomas of MEN1 (Zollinger-Ellison syndrome) drive massive gastric acid (proton) secretion, causing the refractory multiple peptic ulcers controlled with high-dose proton-pump inhibitors.
+- `connects-to` → **[Insulin receptor](../../03-molecular/insulin-receptor/README.md)** — Insulinoma hypoglycaemia: the insulinomas of MEN1 oversecrete insulin (already mapped), which acting through the insulin receptor drives the fasting hypoglycaemia that is a classic functional pancreatic-tumour presentation.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Carcinoid heart disease: serotonin-secreting foregut and thymic neuroendocrine tumours in MEN1 (serotonin already mapped) can cause carcinoid heart disease with valvular fibrosis, and troponin marks the associated myocardial strain.
 
 ---
 
