@@ -411,6 +411,15 @@ cross_links:
   - target: 01-human/03-molecular/atp
     relation: connects-to
     note: "Cardiac energetics: the heart consumes and regenerates an enormous mass of ATP each day to power contraction, and the energy starvation of failing myocardium reflects a breakdown in this ATP supply-demand balance."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Atherosclerotic inflammation: macrophages ingest oxidised lipid to become the foam cells of the atherosclerotic plaque, and their inflammation and death drive the plaque growth and rupture behind most cardiovascular events."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Pulmonary circulation: the right heart pumps blood through the lungs for gas exchange, and this pulmonary circulation is an integral loop of the cardiovascular system whose failure produces pulmonary hypertension and congestion."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Oxygen transport and deficiency: iron in haemoglobin (already mapped) carries the oxygen the circulation delivers, and iron deficiency independently worsens heart failure, linking the metal to cardiovascular function beyond anaemia."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"
@@ -624,6 +633,9 @@ Each major vascular bed has **autoregulation** — a local mechanism that holds 
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Repolarisation: potassium channels set cardiac repolarisation and resting membrane potential, so disturbances of potassium cause the QT changes and life-threatening arrhythmias that make electrolyte balance central to cardiovascular safety.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Depolarisation and pressure: sodium channels drive the cardiac action-potential upstroke and conduction, while renal sodium handling sets blood volume and long-term blood pressure, tying the ion to both electrophysiology and haemodynamics.
 - `connects-to` → **[ATP](../../03-molecular/atp/README.md)** — Cardiac energetics: the heart consumes and regenerates an enormous mass of ATP each day to power contraction, and the energy starvation of failing myocardium reflects a breakdown in this ATP supply-demand balance.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Atherosclerotic inflammation: macrophages ingest oxidised lipid to become the foam cells of the atherosclerotic plaque, and their inflammation and death drive the plaque growth and rupture behind most cardiovascular events.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Pulmonary circulation: the right heart pumps blood through the lungs for gas exchange, and this pulmonary circulation is an integral loop of the cardiovascular system whose failure produces pulmonary hypertension and congestion.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Oxygen transport and deficiency: iron in haemoglobin (already mapped) carries the oxygen the circulation delivers, and iron deficiency independently worsens heart failure, linking the metal to cardiovascular function beyond anaemia.
 
 ## Pathology
 

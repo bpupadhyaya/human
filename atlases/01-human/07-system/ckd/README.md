@@ -405,6 +405,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin
     relation: connects-to
     note: "Insulin handling: chronic kidney disease induces peripheral insulin resistance yet also reduces renal insulin clearance, a combination that complicates glucose control and contributes to the metabolic disturbance of uraemia."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Cardiorenal injury: cardiovascular disease is the leading cause of death in chronic kidney disease, and chronically elevated troponin reflects the ongoing myocardial injury of the cardiorenal syndrome even without acute infarction."
+  - target: 01-human/03-molecular/mu-opioid-receptor
+    relation: connects-to
+    note: "Drug clearance and pruritus: many opioids and their active metabolites accumulate in renal failure, requiring dose adjustment, and altered opioid signalling contributes to the distressing uraemic pruritus of advanced chronic kidney disease."
+  - target: 01-human/03-molecular/secretory-iga
+    relation: connects-to
+    note: "IgA nephropathy: deposition of galactose-deficient IgA immune complexes in the glomerular mesangium causes IgA nephropathy, one of the commonest primary glomerular diseases progressing to chronic kidney disease worldwide."
 ---
 
 # Chronic Kidney Disease
@@ -610,6 +619,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Metabolic acidosis: the failing kidney cannot excrete the daily acid load or regenerate enough bicarbonate, so protons accumulate, and the resulting metabolic acidosis accelerates bone loss and muscle wasting, treated with oral alkali.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium retention: as kidney function declines, magnesium excretion falls and hypermagnesaemia can develop, while magnesium also modulates the vascular calcification that drives cardiovascular death in chronic kidney disease.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Insulin handling: chronic kidney disease induces peripheral insulin resistance yet also reduces renal insulin clearance, a combination that complicates glucose control and contributes to the metabolic disturbance of uraemia.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiorenal injury: cardiovascular disease is the leading cause of death in chronic kidney disease, and chronically elevated troponin reflects the ongoing myocardial injury of the cardiorenal syndrome even without acute infarction.
+- `connects-to` → **[Mu-opioid receptor](../../03-molecular/mu-opioid-receptor/README.md)** — Drug clearance and pruritus: many opioids and their active metabolites accumulate in renal failure, requiring dose adjustment, and altered opioid signalling contributes to the distressing uraemic pruritus of advanced chronic kidney disease.
+- `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — IgA nephropathy: deposition of galactose-deficient IgA immune complexes in the glomerular mesangium causes IgA nephropathy, one of the commonest primary glomerular diseases progressing to chronic kidney disease worldwide.
 
 ## Pathology
 
