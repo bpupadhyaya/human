@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/mhc-class-ii
     relation: connects-to
     note: "Antigen presentation: MHC class II-restricted T-cell responses shape immune surveillance of the renal tumours of Birt-Hogg-Dubé, relevant to immunotherapy of any that progress to a more aggressive renal cell carcinoma."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Renal immunotherapy: IL-2-driven T-cell responses underlie the immunotherapy of the rare aggressive renal cell carcinomas that can arise in Birt-Hogg-Dubé (MHC class II already mapped), the treatment reserved for tumours that progress."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Immune surveillance: cytotoxic CD8 T cells provide the surveillance against the renal tumours of Birt-Hogg-Dubé (perforin already mapped), and their function is central to the checkpoint immunotherapy of any that become aggressive."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Metabolic oxidative stress: loss of the FLCN-AMPK-mTOR axis (already mapped) dysregulates cellular metabolism, and the resulting oxidative stress, to which xanthine oxidase contributes, is part of the tumour-promoting milieu in Birt-Hogg-Dubé cells."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -672,6 +681,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Metabolic reprogramming: folliculin loss dysregulates the AMPK energy sensor it partners with (AMPK already mapped) and the mTOR pathway, shifting cellular metabolism and mitochondrial biogenesis in a way that also links the syndrome to insulin-responsive energy handling.
 - `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — Renal tumour invasion: the AXL receptor tyrosine kinase can drive epithelial-mesenchymal transition and invasion in the renal tumours of Birt-Hogg-Dubé, a signalling route relevant to the rare aggressive lesions beyond the usually indolent chromophobe and oncocytic tumours.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Antigen presentation: MHC class II-restricted T-cell responses shape immune surveillance of the renal tumours of Birt-Hogg-Dubé, relevant to immunotherapy of any that progress to a more aggressive renal cell carcinoma.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Renal immunotherapy: IL-2-driven T-cell responses underlie the immunotherapy of the rare aggressive renal cell carcinomas that can arise in Birt-Hogg-Dubé (MHC class II already mapped), the treatment reserved for tumours that progress.
+- `connects-to` → **[T-cytotoxic cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Immune surveillance: cytotoxic CD8 T cells provide the surveillance against the renal tumours of Birt-Hogg-Dubé (perforin already mapped), and their function is central to the checkpoint immunotherapy of any that become aggressive.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Metabolic oxidative stress: loss of the FLCN-AMPK-mTOR axis (already mapped) dysregulates cellular metabolism, and the resulting oxidative stress, to which xanthine oxidase contributes, is part of the tumour-promoting milieu in Birt-Hogg-Dubé cells.
 
 ---
 

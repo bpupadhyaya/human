@@ -409,6 +409,15 @@ cross_links:
   - target: 01-human/03-molecular/axl-receptor
     relation: connects-to
     note: "Invasion and resistance: the AXL receptor tyrosine kinase drives the epithelial-mesenchymal transition and treatment resistance of muscle-invasive bladder cancer, a mechanism of progression beyond the FGFR and HER2 targets already mapped."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Painless haematuria: painless visible haematuria is the cardinal presentation of bladder cancer, and the blood loss can lower haemoglobin, the sign that prompts the cystoscopy which diagnoses the tumour."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Carcinogen oxidative damage: smoking and occupational aromatic amines, the leading causes of bladder cancer, generate oxidative stress, to which xanthine oxidase contributes, driving the DNA damage of urothelial carcinogenesis."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive microenvironment: the anti-inflammatory cytokine IL-10 in the tumour microenvironment blunts anti-tumour immunity, opposing the BCG- and checkpoint-driven responses (PD-1 already mapped) that treat bladder cancer."
 ---
 
 # Bladder Cancer
@@ -660,6 +669,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — BCG immunotherapy: intravesical BCG for high-risk non-muscle-invasive bladder cancer induces a Th1 immune response with MHC-restricted antigen presentation and interferon-gamma (already mapped), and antigen presentation also governs the checkpoint-inhibitor response.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell response: IL-2-driven T-cell expansion underlies both the BCG-induced antitumour immunity and the checkpoint-inhibitor responses (PD-1 already mapped) that have expanded treatment of advanced bladder cancer.
 - `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — Invasion and resistance: the AXL receptor tyrosine kinase drives the epithelial-mesenchymal transition and treatment resistance of muscle-invasive bladder cancer, a mechanism of progression beyond the FGFR and HER2 targets already mapped.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Painless haematuria: painless visible haematuria is the cardinal presentation of bladder cancer, and the blood loss can lower haemoglobin, the sign that prompts the cystoscopy which diagnoses the tumour.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Carcinogen oxidative damage: smoking and occupational aromatic amines, the leading causes of bladder cancer, generate oxidative stress, to which xanthine oxidase contributes, driving the DNA damage of urothelial carcinogenesis.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: the anti-inflammatory cytokine IL-10 in the tumour microenvironment blunts anti-tumour immunity, opposing the BCG- and checkpoint-driven responses (PD-1 already mapped) that treat bladder cancer.
 
 ---
 
