@@ -397,6 +397,15 @@ cross_links:
   - target: 01-human/03-molecular/calcineurin
     relation: connects-to
     note: "Calcineurin-NFAT signaling participates in the excitotoxic calcium-mediated neuronal injury of stroke."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Stroke-heart axis: acute stroke frequently raises cardiac troponin through neurogenic myocardial injury and takotsubo cardiomyopathy, and the elevation predicts worse outcomes, reflecting a bidirectional brain-heart interaction."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Hormonal risk: estrogen influences stroke risk in complex ways, with oral contraceptives and hormone therapy raising thrombotic risk while endogenous estrogen may be neuroprotective before menopause, shaping the sex differences in stroke."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Post-stroke immunosuppression: stroke induces a systemic immunosuppression with reduced monocyte MHC class II, impairing antigen presentation and predisposing to the pneumonia and infections that are a leading cause of post-stroke death."
 ---
 
 # Stroke
@@ -627,6 +636,9 @@ Normal brain maintains CBF constant (50-150 mmHg MAP range) via autoregulation (
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the post-ischemic neuroinflammation of stroke.
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the neuronal injury and repair gene programs of stroke.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the excitotoxic calcium-mediated neuronal injury of stroke.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Stroke-heart axis: acute stroke frequently raises cardiac troponin through neurogenic myocardial injury and takotsubo cardiomyopathy, and the elevation predicts worse outcomes, reflecting a bidirectional brain-heart interaction.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Hormonal risk: estrogen influences stroke risk in complex ways, with oral contraceptives and hormone therapy raising thrombotic risk while endogenous estrogen may be neuroprotective before menopause, shaping the sex differences in stroke.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Post-stroke immunosuppression: stroke induces a systemic immunosuppression with reduced monocyte MHC class II, impairing antigen presentation and predisposing to the pneumonia and infections that are a leading cause of post-stroke death.
 
 [^powers-2019-aha-stroke]: Powers WJ, Rabinstein AA, Ackerson T, et al. Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines. *Stroke.* 2019;50(12):e344-e418. [doi:10.1161/STR.0000000000000211](https://doi.org/10.1161/STR.0000000000000211) · [PubMed 31662037](https://pubmed.ncbi.nlm.nih.gov/31662037/)
 [^feigin-2021-gbd-stroke]: Feigin VL, Krishnamurthi RV, Parmar P, et al. Update on the Global Burden of Ischemic and Hemorrhagic Stroke in 1990-2013. *Neuroepidemiology.* 2015;45(3):161-176. [doi:10.1159/000441085](https://doi.org/10.1159/000441085) · [PubMed 26505981](https://pubmed.ncbi.nlm.nih.gov/26505981/)

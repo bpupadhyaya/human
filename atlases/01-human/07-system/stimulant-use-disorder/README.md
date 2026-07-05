@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/arid1a
     relation: connects-to
     note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the reward-circuit gene programs implicated in stimulant use disorder."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Sex differences: estrogen amplifies the dopaminergic response to stimulants, and women show a faster progression to dependence (telescoping) and menstrual-cycle variation in cocaine craving, implicating sex hormones in stimulant use disorder."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Social reward: oxytocin modulates the social bonding and reward circuits disrupted by chronic stimulant use, and is under investigation as a treatment to reduce craving and stress-induced relapse."
+  - target: 01-human/03-molecular/mu-opioid-receptor
+    relation: connects-to
+    note: "Polysubstance overlap: stimulant use disorder increasingly co-occurs with opioid use, and mu-opioid signalling interacts with the dopaminergic reward system (dopamine already mapped), a combination behind rising stimulant-opioid overdose deaths."
 ---
 
 # Stimulant Use Disorder
@@ -641,6 +650,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the neuroinflammation associated with stimulant use disorder.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the microglial and neuroinflammatory processes implicated in stimulant use disorder.
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the reward-circuit gene programs implicated in stimulant use disorder.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Sex differences: estrogen amplifies the dopaminergic response to stimulants, and women show a faster progression to dependence (telescoping) and menstrual-cycle variation in cocaine craving, implicating sex hormones in stimulant use disorder.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Social reward: oxytocin modulates the social bonding and reward circuits disrupted by chronic stimulant use, and is under investigation as a treatment to reduce craving and stress-induced relapse.
+- `connects-to` → **[Mu-opioid receptor](../../03-molecular/mu-opioid-receptor/README.md)** — Polysubstance overlap: stimulant use disorder increasingly co-occurs with opioid use, and mu-opioid signalling interacts with the dopaminergic reward system (dopamine already mapped), a combination behind rising stimulant-opioid overdose deaths.
 
 ## Treatment
 
