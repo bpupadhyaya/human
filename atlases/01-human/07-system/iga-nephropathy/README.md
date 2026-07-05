@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/adenosine
     relation: connects-to
     note: "Adenosine signaling participates in the immunomodulation and renal responses of IgA nephropathy."
+  - target: 01-human/03-molecular/immunoglobulin-g
+    relation: connects-to
+    note: "Anti-glycan autoantibodies: the four-hit pathogenesis of IgA nephropathy involves IgG (and IgA) autoantibodies against galactose-deficient IgA1 (secretory IgA already mapped), forming the immune complexes that deposit in the glomerular mesangium."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Haematuria: mesangial injury in IgA nephropathy lets red cells escape into the urine, and episodic visible or persistent microscopic haematuria (often after mucosal infection) is the cardinal clinical sign, with haemoglobin appearing in the urine."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Mucosal IgA dysregulation: Th2 cytokines including IL-4 promote IgA class-switching and the aberrant mucosal-type IgA response that, when galactose-deficient, drives IgA nephropathy, linking the gut-associated immune system to the kidney."
 ---
 
 # IgA Nephropathy
@@ -603,6 +612,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the mucosal-immune and B-cell gene programs of IgA nephropathy.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the T-cell activation of IgA nephropathy, and calcineurin inhibitors are used in its treatment.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine signaling participates in the immunomodulation and renal responses of IgA nephropathy.
+- `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Anti-glycan autoantibodies: the four-hit pathogenesis of IgA nephropathy involves IgG (and IgA) autoantibodies against galactose-deficient IgA1 (secretory IgA already mapped), forming the immune complexes that deposit in the glomerular mesangium.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Haematuria: mesangial injury in IgA nephropathy lets red cells escape into the urine, and episodic visible or persistent microscopic haematuria (often after mucosal infection) is the cardinal clinical sign, with haemoglobin appearing in the urine.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Mucosal IgA dysregulation: Th2 cytokines including IL-4 promote IgA class-switching and the aberrant mucosal-type IgA response that, when galactose-deficient, drives IgA nephropathy, linking the gut-associated immune system to the kidney.
 
 ---
 

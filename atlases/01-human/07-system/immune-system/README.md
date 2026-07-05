@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/il-33
     relation: connects-to
     note: "IL-33 alarmin signaling participates in the type-2 innate and adaptive immune responses of the immune system."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "T-cell clonal expansion: IL-2 is the central growth factor driving the proliferation of antigen-activated T cells, the reaction that turns a few specific lymphocytes into the army of the adaptive immune response, and the basis of IL-2-based immunotherapies."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Type-2 and humoral immunity: IL-4 directs the Th2 arm of the immune system, driving B-cell antibody class-switching and the response to parasites and allergens, balancing the Th1/interferon-gamma (already mapped) axis."
+  - target: 01-human/03-molecular/ctla-4
+    relation: connects-to
+    note: "Peripheral tolerance: CTLA-4 is a key inhibitory checkpoint that restrains T-cell activation and enforces self-tolerance (alongside PD-1 already mapped), preventing autoimmunity and serving as a target that immunotherapy releases against tumours."
 ---
 
 # Immune System
@@ -553,6 +562,9 @@ After primary response contraction, long-lived memory cells persist:
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β signaling participates in the innate-immune inflammatory responses of the immune system.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the Th17-mediated adaptive immune responses of the immune system.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the type-2 innate and adaptive immune responses of the immune system.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell clonal expansion: IL-2 is the central growth factor driving the proliferation of antigen-activated T cells, the reaction that turns a few specific lymphocytes into the army of the adaptive immune response, and the basis of IL-2-based immunotherapies.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Type-2 and humoral immunity: IL-4 directs the Th2 arm of the immune system, driving B-cell antibody class-switching and the response to parasites and allergens, balancing the Th1/interferon-gamma (already mapped) axis.
+- `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Peripheral tolerance: CTLA-4 is a key inhibitory checkpoint that restrains T-cell activation and enforces self-tolerance (alongside PD-1 already mapped), preventing autoimmunity and serving as a target that immunotherapy releases against tumours.
 
 ## Pathology
 
