@@ -391,6 +391,15 @@ cross_links:
   - target: 01-human/03-molecular/calcineurin
     relation: connects-to
     note: "Calcineurin-NFAT signaling participates in the estrogen-linked proliferative and immune signaling of endometrial cancer."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Immunotherapy subtypes: the mismatch-repair-deficient (MSI, MLH1/MSH2 already mapped) and POLE-ultramutated endometrial cancers generate abundant neoantigens presented on MHC, making them the subtypes most responsive to checkpoint inhibitors."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Obesity risk: obesity is the leading modifiable risk factor for endometrial cancer, and low adiponectin alongside the leptin excess already mapped links adipose dysfunction and insulin resistance to endometrial carcinogenesis."
+  - target: 01-human/03-molecular/axl-receptor
+    relation: connects-to
+    note: "Treatment resistance: the AXL receptor tyrosine kinase promotes epithelial-mesenchymal transition and therapy resistance in endometrial cancer, a route of progression beyond the hormonal and PI3K-pathway drivers already mapped."
 ---
 
 # Endometrial Cancer
@@ -640,6 +649,9 @@ cross_links:
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory tumor microenvironment of endometrial cancer.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory tumor microenvironment of endometrial cancer.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the estrogen-linked proliferative and immune signaling of endometrial cancer.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immunotherapy subtypes: the mismatch-repair-deficient (MSI, MLH1/MSH2 already mapped) and POLE-ultramutated endometrial cancers generate abundant neoantigens presented on MHC, making them the subtypes most responsive to checkpoint inhibitors.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Obesity risk: obesity is the leading modifiable risk factor for endometrial cancer, and low adiponectin alongside the leptin excess already mapped links adipose dysfunction and insulin resistance to endometrial carcinogenesis.
+- `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — Treatment resistance: the AXL receptor tyrosine kinase promotes epithelial-mesenchymal transition and therapy resistance in endometrial cancer, a route of progression beyond the hormonal and PI3K-pathway drivers already mapped.
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)

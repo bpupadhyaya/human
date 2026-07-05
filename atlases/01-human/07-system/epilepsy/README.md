@@ -400,6 +400,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Complement C3 participates in the microglial synaptic remodeling and neuroinflammation of epilepsy."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Synaptic zinc: zinc is co-released with glutamate at hippocampal mossy-fibre synapses and modulates GABA-A and NMDA receptors, so disturbances of synaptic zinc alter seizure susceptibility in temporal lobe epilepsy."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Chronobiology: seizures often cluster with circadian and sleep-wake patterns, and melatonin, which regulates sleep and shows anticonvulsant properties, is used adjunctively in some epilepsy syndromes."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Seizure signalling: nitric oxide has a dual, context-dependent role in seizure generation and termination through its modulation of the glutamatergic and GABAergic transmission already mapped."
 ---
 
 # Epilepsy
@@ -679,6 +688,9 @@ Anti-NMDAR encephalitis is the most common autoimmune encephalitis (~37% of auto
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the glial and neuroinflammatory responses of epilepsy.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the neuroinflammation of epilepsy.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the microglial synaptic remodeling and neuroinflammation of epilepsy.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Synaptic zinc: zinc is co-released with glutamate at hippocampal mossy-fibre synapses and modulates GABA-A and NMDA receptors, so disturbances of synaptic zinc alter seizure susceptibility in temporal lobe epilepsy.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Chronobiology: seizures often cluster with circadian and sleep-wake patterns, and melatonin, which regulates sleep and shows anticonvulsant properties, is used adjunctively in some epilepsy syndromes.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Seizure signalling: nitric oxide has a dual, context-dependent role in seizure generation and termination through its modulation of the glutamatergic and GABAergic transmission already mapped.
 
 [^fisher-2017-ilae-classification]: Fisher RS, Cross JH, D'Souza C, et al. Instruction manual for the ILAE 2017 operational classification of seizure types. *Epilepsia.* 2017;58(4):531-542. [doi:10.1111/epi.13671](https://doi.org/10.1111/epi.13671) · [PubMed 28276060](https://pubmed.ncbi.nlm.nih.gov/28276060/)
 [^devinsky-2018-epilepsy-review]: Devinsky O, Vezzani A, O'Brien TJ, et al. Epilepsy. *Nat Rev Dis Primers.* 2018;4:18024. [doi:10.1038/nrdp.2018.24](https://doi.org/10.1038/nrdp.2018.24) · [PubMed 29722352](https://pubmed.ncbi.nlm.nih.gov/29722352/)
