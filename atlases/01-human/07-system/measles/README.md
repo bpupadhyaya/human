@@ -407,6 +407,15 @@ cross_links:
   - target: 01-human/03-molecular/leptin
     relation: connects-to
     note: "Malnutrition severity: protein-energy malnutrition, reflected in low leptin, markedly worsens measles outcomes, which is why the disease is far more lethal in undernourished children and why nutritional support is central to management."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Exanthem: the morbilliform measles rash reflects a T-cell attack on infected dermal endothelium with vasodilation and increased vascular permeability, to which histamine contributes, producing the confluent erythematous eruption spreading from the face."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Antibody help: IL-4 and type-2 T-cell help drive the B-cell (already mapped) production of the lifelong neutralising antibodies (IgG already mapped) against the H protein that mediate measles immunity and vaccine protection."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Antiviral and inflammatory nitric oxide: inducible nitric oxide contributes to antiviral defence against measles, and in excess to the tissue inflammation of severe disease, one of the innate effectors engaged by the infection."
 ---
 
 # Measles
@@ -681,6 +690,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[Surfactant](../../03-molecular/surfactant/README.md)** — Giant-cell pneumonia: measles infects and fuses respiratory epithelium into multinucleated giant cells, damaging the type II pneumocytes that make surfactant, and the resulting pneumonia is a leading cause of measles death.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell response and lymphopenia: IL-2-driven T-cell expansion clears measles, but the acute infection also causes a transient lymphopenia, part of the immune disruption that leaves children vulnerable to secondary infections.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Malnutrition severity: protein-energy malnutrition, reflected in low leptin, markedly worsens measles outcomes, which is why the disease is far more lethal in undernourished children and why nutritional support is central to management.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Exanthem: the morbilliform measles rash reflects a T-cell attack on infected dermal endothelium with vasodilation and increased vascular permeability, to which histamine contributes, producing the confluent erythematous eruption spreading from the face.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Antibody help: IL-4 and type-2 T-cell help drive the B-cell (already mapped) production of the lifelong neutralising antibodies (IgG already mapped) against the H protein that mediate measles immunity and vaccine protection.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Antiviral and inflammatory nitric oxide: inducible nitric oxide contributes to antiviral defence against measles, and in excess to the tissue inflammation of severe disease, one of the innate effectors engaged by the infection.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)
