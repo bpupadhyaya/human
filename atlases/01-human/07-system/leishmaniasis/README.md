@@ -388,6 +388,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Osteopontin participates in the macrophage activation and granulomatous response to leishmaniasis."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Visceral anaemia: visceral leishmaniasis (kala-azar) causes marked anaemia and pancytopenia from bone-marrow infiltration, haemolysis and splenic sequestration, and the falling haemoglobin is a hallmark of severe, untreated disease."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "T-cell expansion: IL-2-driven proliferation of Th1 cells sustains the interferon-gamma response (already mapped) that activates macrophages to kill Leishmania, and adequate T-cell immunity determines whether infection is controlled or progresses."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Intracellular survival: Leishmania modulates host macrophage calcium signalling to blunt microbicidal responses, and the parasite's own calcium-dependent processes are being explored as antileishmanial drug targets."
 ---
 
 # Leishmaniasis
@@ -613,3 +622,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the macrophage responses to leishmaniasis.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the T-cell activation of the immune response to leishmaniasis.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the macrophage activation and granulomatous response to leishmaniasis.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Visceral anaemia: visceral leishmaniasis (kala-azar) causes marked anaemia and pancytopenia from bone-marrow infiltration, haemolysis and splenic sequestration, and the falling haemoglobin is a hallmark of severe, untreated disease.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell expansion: IL-2-driven proliferation of Th1 cells sustains the interferon-gamma response (already mapped) that activates macrophages to kill Leishmania, and adequate T-cell immunity determines whether infection is controlled or progresses.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Intracellular survival: Leishmania modulates host macrophage calcium signalling to blunt microbicidal responses, and the parasite's own calcium-dependent processes are being explored as antileishmanial drug targets.
