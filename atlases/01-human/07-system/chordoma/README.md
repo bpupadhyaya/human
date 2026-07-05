@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "Cellular immunotherapy: IL-2-driven T-cell expansion supports the adoptive and vaccine-primed T-cell approaches (perforin already mapped) being explored against chordoma's brachyury antigen."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Vaccine T-cell help: helper T cells provide the CD4 help needed for durable CD8 responses (already mapped) against the brachyury antigen, the basis of the therapeutic cancer vaccines tested in chordoma."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive microenvironment: the anti-inflammatory cytokine IL-10 in the chordoma microenvironment blunts anti-tumour immunity, part of the immune evasion that limits the checkpoint and vaccine approaches (PD-1 already mapped)."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Tumour vasculature: nitric oxide regulates the vascular tone and, with VEGF (already mapped), the angiogenesis supplying the slow-growing chordoma, a mediator of the tumour microenvironment beyond the growth-factor drivers."
 ---
 
 # Chordoma
@@ -666,6 +675,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Brachyury immunotherapy: brachyury (TBXT already mapped) is a chordoma-defining shared tumour antigen, and brachyury-targeting vaccines and T-cell therapies depend on MHC-restricted antigen presentation, a distinctive immune strategy for this otherwise chemoresistant tumour.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Checkpoint blockade: chordomas can express PD-L1, and checkpoint inhibitors are under investigation to unleash T-cell attack on a tumour that resists conventional systemic therapy.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Cellular immunotherapy: IL-2-driven T-cell expansion supports the adoptive and vaccine-primed T-cell approaches (perforin already mapped) being explored against chordoma's brachyury antigen.
+- `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — Vaccine T-cell help: helper T cells provide the CD4 help needed for durable CD8 responses (already mapped) against the brachyury antigen, the basis of the therapeutic cancer vaccines tested in chordoma.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: the anti-inflammatory cytokine IL-10 in the chordoma microenvironment blunts anti-tumour immunity, part of the immune evasion that limits the checkpoint and vaccine approaches (PD-1 already mapped).
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide regulates the vascular tone and, with VEGF (already mapped), the angiogenesis supplying the slow-growing chordoma, a mediator of the tumour microenvironment beyond the growth-factor drivers.
 
 ---
 

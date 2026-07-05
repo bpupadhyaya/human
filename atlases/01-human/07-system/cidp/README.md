@@ -411,6 +411,15 @@ cross_links:
   - target: 01-human/03-molecular/pd-1
     relation: connects-to
     note: "Immune checkpoint: PD-1 normally restrains autoreactive T cells, and checkpoint-inhibitor cancer therapy can trigger a CIDP-like neuropathy, revealing the role of this checkpoint in protecting peripheral nerve from autoimmunity."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 humoral help: IL-13, with the IL-4 (already mapped) type-2 response, supports the B-cell autoantibody production against nodal and myelin antigens that drives the demyelination of chronic inflammatory demyelinating polyneuropathy."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Nerve inflammatory injury: nitric oxide from activated macrophages (already mapped) in the inflamed nerve contributes to the demyelination and secondary axonal injury of CIDP, part of the effector damage beyond antibody and complement."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "Endoneurial fibrosis: chronic and relapsing inflammation in CIDP leads to onion-bulb formation and endoneurial collagen deposition, the fibrotic scarring of repeated demyelination and remyelination that underlies fixed disability."
 ---
 
 # CIDP
@@ -684,6 +693,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Nerve support and repair: BDNF and neurotrophic signalling support axonal survival and remyelination, and their adequacy shapes recovery from the demyelinating injury of chronic inflammatory demyelinating polyneuropathy.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Th2 help: IL-4-driven type-2 help supports the B-cell and autoantibody responses (immunoglobulin G already mapped) against nodal and myelin antigens in chronic inflammatory demyelinating polyneuropathy.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Immune checkpoint: PD-1 normally restrains autoreactive T cells, and checkpoint-inhibitor cancer therapy can trigger a CIDP-like neuropathy, revealing the role of this checkpoint in protecting peripheral nerve from autoimmunity.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 humoral help: IL-13, with the IL-4 (already mapped) type-2 response, supports the B-cell autoantibody production against nodal and myelin antigens that drives the demyelination of chronic inflammatory demyelinating polyneuropathy.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Nerve inflammatory injury: nitric oxide from activated macrophages (already mapped) in the inflamed nerve contributes to the demyelination and secondary axonal injury of CIDP, part of the effector damage beyond antibody and complement.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Endoneurial fibrosis: chronic and relapsing inflammation in CIDP leads to onion-bulb formation and endoneurial collagen deposition, the fibrotic scarring of repeated demyelination and remyelination that underlies fixed disability.
 
 ---
 
