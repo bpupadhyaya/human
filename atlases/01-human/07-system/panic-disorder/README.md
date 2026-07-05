@@ -400,6 +400,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Gaseous neurotransmission: nitric oxide signalling in the amygdala and periaqueductal grey shapes the fear and defensive responses underlying panic, and nNOS activity modulates the exaggerated CO2/chemosensory alarm that provokes attacks."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "CO2 suffocation alarm: panic disorder features a hypersensitive suffocation alarm, and inhaled carbon dioxide or infused lactate, which shift acid-base balance by raising protons, reliably provoke attacks, implicating acid-base chemosensing in panic."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Hypoglycaemia trigger: falling glucose from insulin action provokes an adrenergic counter-regulatory surge (epinephrine already mapped) whose palpitations, sweating and tremor mimic and can trigger panic attacks, one of the metabolic precipitants of panic."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Cardiac mimic: the chest pain, palpitations and tachycardia of a panic attack closely mimic myocardial infarction, so troponin is often measured to exclude it, and panic disorder is a frequent presentation to emergency cardiology."
 ---
 
 # Panic Disorder
@@ -672,6 +681,9 @@ The **interoceptive fear conditioning model** (Bouton, Mineka, Barlow) explains 
 - `connects-to` → **[Thyroid hormones](../../03-molecular/thyroid-hormones/README.md)** — Endocrine mimic: thyrotoxicosis produces palpitations, tremor and anxiety that mimic and precipitate panic attacks, which is why thyroid-hormone screening is a standard part of the panic-disorder workup to exclude a treatable endocrine driver.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — Brain renin-angiotensin: central angiotensin II modulates sympathetic outflow and HPA-axis reactivity, and angiotensin blockade attenuates stress and anxiety responses, linking panic vulnerability to a neuroendocrine pressor axis beyond classical neurotransmitters.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Gaseous neurotransmission: nitric oxide signalling in the amygdala and periaqueductal grey shapes the fear and defensive responses underlying panic, and nNOS activity modulates the exaggerated CO2/chemosensory alarm that provokes attacks.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — CO2 suffocation alarm: panic disorder features a hypersensitive suffocation alarm, and inhaled carbon dioxide or infused lactate, which shift acid-base balance by raising protons, reliably provoke attacks, implicating acid-base chemosensing in panic.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Hypoglycaemia trigger: falling glucose from insulin action provokes an adrenergic counter-regulatory surge (epinephrine already mapped) whose palpitations, sweating and tremor mimic and can trigger panic attacks, one of the metabolic precipitants of panic.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiac mimic: the chest pain, palpitations and tachycardia of a panic attack closely mimic myocardial infarction, so troponin is often measured to exclude it, and panic disorder is a frequent presentation to emergency cardiology.
 
 [^gorman-2000-panic-neurobiology]: Gorman JM, Kent JM, Sullivan GM, Coplan JD. Neuroanatomical hypothesis of panic disorder, revised. *Am J Psychiatry.* 2000;157(4):493-505. [doi:10.1176/appi.ajp.157.4.493](https://doi.org/10.1176/appi.ajp.157.4.493) · [PubMed 10739407](https://pubmed.ncbi.nlm.nih.gov/10739407/)
 [^nardi-2009-clonazepam-panic]: Nardi AE, Freire RC, Zin WA. Panic disorder and control of breathing. *Respir Physiol Neurobiol.* 2009;167(1):133-143. [doi:10.1016/j.resp.2008.07.011](https://doi.org/10.1016/j.resp.2008.07.011) · [PubMed 18708168](https://pubmed.ncbi.nlm.nih.gov/18708168/)

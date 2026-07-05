@@ -400,6 +400,15 @@ cross_links:
   - target: 01-human/03-molecular/cftr
     relation: connects-to
     note: "Predisposing pancreatitis: CFTR dysfunction causes chronic pancreatitis, and the resulting recurrent inflammation is a recognised risk pathway to pancreatic cancer alongside the hereditary-pancreatitis PRSS1 axis already mapped."
+  - target: 01-human/03-molecular/mu-opioid-receptor
+    relation: connects-to
+    note: "Cancer pain: pancreatic cancer causes severe visceral and back pain from coeliac-plexus involvement, managed with opioids acting at the mu-opioid receptor and with coeliac-plexus neurolysis, a defining palliative challenge of the disease."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Cold-tumour immunotherapy: IL-2-driven T-cell expansion underlies the adoptive and vaccine approaches being tried to overcome the immunosuppressive stroma of pancreatic cancer, in which checkpoint blockade (MHC class II already mapped) has largely failed."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Anaemia: pancreatic cancer lowers haemoglobin through chronic disease, occult gastrointestinal blood loss from duodenal invasion and chemotherapy myelosuppression, adding to the fatigue and cachexia (activin-A already mapped) of advanced disease."
 ---
 
 # Pancreatic Cancer
@@ -647,6 +656,9 @@ cross_links:
 - `connects-to` → **[Activin A](../../03-molecular/activin-a/README.md)** — Cancer cachexia: pancreatic cancer causes profound skeletal-muscle wasting, and tumour-derived activin A signalling through the ActRIIB receptor is a principal driver of that muscle atrophy, the dominant cause of the weakness and weight loss that shorten survival.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Cold immune evasion: pancreatic cancer is immunologically cold with a dense suppressive stroma, and impaired MHC class II antigen presentation blunts the CD4 T-cell help needed for anti-tumour immunity, part of why checkpoint blockade has largely failed here.
 - `connects-to` → **[CFTR](../../03-molecular/cftr/README.md)** — Predisposing pancreatitis: CFTR dysfunction causes chronic pancreatitis, and the resulting recurrent inflammation is a recognised risk pathway to pancreatic cancer alongside the hereditary-pancreatitis PRSS1 axis already mapped.
+- `connects-to` → **[Mu-opioid receptor](../../03-molecular/mu-opioid-receptor/README.md)** — Cancer pain: pancreatic cancer causes severe visceral and back pain from coeliac-plexus involvement, managed with opioids acting at the mu-opioid receptor and with coeliac-plexus neurolysis, a defining palliative challenge of the disease.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Cold-tumour immunotherapy: IL-2-driven T-cell expansion underlies the adoptive and vaccine approaches being tried to overcome the immunosuppressive stroma of pancreatic cancer, in which checkpoint blockade (MHC class II already mapped) has largely failed.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Anaemia: pancreatic cancer lowers haemoglobin through chronic disease, occult gastrointestinal blood loss from duodenal invasion and chemotherapy myelosuppression, adding to the fatigue and cachexia (activin-A already mapped) of advanced disease.
 
 ---
 
