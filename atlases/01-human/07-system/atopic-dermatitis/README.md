@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/adenosine
     relation: connects-to
     note: "Adenosine signaling participates in the neuroimmune and itch modulation of atopic dermatitis."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Antigen presentation: HLA-restricted presentation of allergens by skin dendritic cells drives the Th2 response (IL-4/IL-13 already mapped) of atopic dermatitis, and HLA associations contribute to genetic susceptibility."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Hormonal flares: atopic dermatitis often fluctuates with the menstrual cycle and pregnancy, implicating estrogen and reproductive-hormone changes in the variation of disease activity in affected women."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Itch and inflammation: nitric oxide modulates the cutaneous sensory neurons and vasodilation of the itch response, contributing to the neurogenic inflammation and flare erythema of atopic dermatitis."
 ---
 
 # Atopic Dermatitis
@@ -642,6 +651,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the keratinocyte-barrier and immune gene programs of atopic dermatitis.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling, a target of topical calcineurin inhibitors (tacrolimus/pimecrolimus), participates in the T-cell activation of atopic dermatitis.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine signaling participates in the neuroimmune and itch modulation of atopic dermatitis.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Antigen presentation: HLA-restricted presentation of allergens by skin dendritic cells drives the Th2 response (IL-4/IL-13 already mapped) of atopic dermatitis, and HLA associations contribute to genetic susceptibility.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Hormonal flares: atopic dermatitis often fluctuates with the menstrual cycle and pregnancy, implicating estrogen and reproductive-hormone changes in the variation of disease activity in affected women.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Itch and inflammation: nitric oxide modulates the cutaneous sensory neurons and vasodilation of the itch response, contributing to the neurogenic inflammation and flare erythema of atopic dermatitis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
