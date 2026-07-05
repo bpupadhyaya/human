@@ -406,6 +406,15 @@ cross_links:
   - target: 01-human/03-molecular/leptin
     relation: connects-to
     note: "Obesity risk: obesity raises postmenopausal breast-cancer risk through adipose aromatase-derived estrogen (already mapped) and the adipokine leptin, which promotes tumour-cell proliferation, linking metabolism to breast carcinogenesis."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Cardiotoxicity: HER2-directed trastuzumab (already mapped) and anthracycline chemotherapy are cardiotoxic, and troponin elevation helps detect the myocardial injury that limits these effective breast-cancer treatments."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Immunotherapy: IL-2-driven T-cell responses underlie the tumour-infiltrating lymphocytes and checkpoint benefit (PD-1 already mapped) seen mainly in triple-negative breast cancer, the immunogenic subset where immunotherapy is effective."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Chemotherapy anaemia: breast-cancer chemotherapy is myelosuppressive and lowers haemoglobin, and marrow replacement by metastatic disease compounds the anaemia that contributes to fatigue in advanced breast cancer."
 ---
 
 # Breast Cancer
@@ -641,6 +650,9 @@ cross_links:
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — TNBC immunotherapy: triple-negative breast cancer, lacking hormone and HER2 targets, is the subtype most responsive to checkpoint inhibitors, and MHC class II antigen presentation with tumour-infiltrating lymphocytes predicts that immune response.
 - `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — Therapy resistance: the AXL receptor tyrosine kinase drives epithelial-mesenchymal transition, metastasis and resistance to endocrine and targeted therapy in breast cancer, a candidate target for reversing treatment escape.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Obesity risk: obesity raises postmenopausal breast-cancer risk through adipose aromatase-derived estrogen (already mapped) and the adipokine leptin, which promotes tumour-cell proliferation, linking metabolism to breast carcinogenesis.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiotoxicity: HER2-directed trastuzumab (already mapped) and anthracycline chemotherapy are cardiotoxic, and troponin elevation helps detect the myocardial injury that limits these effective breast-cancer treatments.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Immunotherapy: IL-2-driven T-cell responses underlie the tumour-infiltrating lymphocytes and checkpoint benefit (PD-1 already mapped) seen mainly in triple-negative breast cancer, the immunogenic subset where immunotherapy is effective.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Chemotherapy anaemia: breast-cancer chemotherapy is myelosuppressive and lowers haemoglobin, and marrow replacement by metastatic disease compounds the anaemia that contributes to fatigue in advanced breast cancer.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

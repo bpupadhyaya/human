@@ -409,6 +409,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Nitrosative stress: increased nitric oxide and nitrosative stress accompany mood episodes in bipolar disorder, contributing to the mitochondrial and neuronal dysfunction implicated in its pathophysiology."
+  - target: 01-human/03-molecular/progesterone
+    relation: connects-to
+    note: "Reproductive-cycle mood: mood episodes in bipolar disorder cluster around the perinatal period and menstrual cycle, implicating progesterone and its neurosteroid metabolites, alongside estrogen (already mapped), in the hormonal triggering of episodes."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "Stress reactivity: central angiotensin II modulates stress responses and interacts with the HPA axis (cortisol already mapped), a neuroendocrine system implicated in the stress sensitivity that precipitates mood episodes in bipolar disorder."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Mineralocorticoid stress axis: aldosterone acts on brain mineralocorticoid receptors that, balanced against glucocorticoid receptors (already mapped), tune the stress response and mood regulation dysregulated in bipolar disorder."
 ---
 
 # Bipolar Disorder
@@ -669,6 +678,9 @@ During bipolar depression (often longer and more disabling than mania):
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Purinergic mania: elevated uric acid produced by xanthine oxidase is associated with manic episodes, and the xanthine-oxidase inhibitor allopurinol has shown antimanic effects, supporting a purinergic dimension (adenosine already mapped) of bipolar disorder.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Metabolic comorbidity: bipolar disorder carries a heavy burden of obesity and metabolic syndrome, worsened by mood stabilisers and antipsychotics, and leptin dysregulation links the affective illness to its cardiometabolic morbidity.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Nitrosative stress: increased nitric oxide and nitrosative stress accompany mood episodes in bipolar disorder, contributing to the mitochondrial and neuronal dysfunction implicated in its pathophysiology.
+- `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Reproductive-cycle mood: mood episodes in bipolar disorder cluster around the perinatal period and menstrual cycle, implicating progesterone and its neurosteroid metabolites, alongside estrogen (already mapped), in the hormonal triggering of episodes.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — Stress reactivity: central angiotensin II modulates stress responses and interacts with the HPA axis (cortisol already mapped), a neuroendocrine system implicated in the stress sensitivity that precipitates mood episodes in bipolar disorder.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Mineralocorticoid stress axis: aldosterone acts on brain mineralocorticoid receptors that, balanced against glucocorticoid receptors (already mapped), tune the stress response and mood regulation dysregulated in bipolar disorder.
 
 [^grande-2016-bipolar-review]: Grande I, Berk M, Birmaher B, Vieta E. Bipolar disorder. *Lancet.* 2016;387(10027):1561-1572. [doi:10.1016/S0140-6736(15)00241-X](https://doi.org/10.1016/S0140-6736(15)00241-X) · [PubMed 26388529](https://pubmed.ncbi.nlm.nih.gov/26388529/)
 [^geddes-2013-bipolar-treatment]: Geddes JR, Miklowitz DJ. Treatment of bipolar disorder. *Lancet.* 2013;381(9878):1672-1682. [doi:10.1016/S0140-6736(13)60857-0](https://doi.org/10.1016/S0140-6736(13)60857-0) · [PubMed 23663953](https://pubmed.ncbi.nlm.nih.gov/23663953/)
