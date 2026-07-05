@@ -400,6 +400,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Hyperuricaemia and oxidative stress: xanthine oxidase generates uric acid and reactive oxygen species, and the hyperuricaemia clustering with metabolic syndrome contributes to the insulin resistance and endothelial dysfunction of type 2 diabetes."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Silent myocardial infarction: type 2 diabetes accelerates coronary disease (atherosclerosis already mapped) and blunts anginal warning through autonomic neuropathy, so myocardial infarction is often silent, and troponin marks the cardiac injury when it occurs."
+  - target: 01-human/03-molecular/mu-opioid-receptor
+    relation: connects-to
+    note: "Neuropathic pain: painful diabetic peripheral neuropathy (peripheral nerve already mapped) is a major burden, and when other agents fail it is treated with opioids acting at the mu-opioid receptor, at the cost of dependence risk."
+  - target: 01-human/03-molecular/dopamine
+    relation: connects-to
+    note: "Dopaminergic glucose control: central dopaminergic tone influences glucose metabolism, and the dopamine agonist bromocriptine, given as a morning quick-release formulation, is an approved glucose-lowering therapy for type 2 diabetes."
 ---
 
 # Type 2 Diabetes
@@ -630,6 +639,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Beta-cell secretion: after glucose closes the KATP channel and depolarises the beta cell, calcium influx triggers the exocytosis of insulin granules, the final step of secretion whose progressive failure underlies the beta-cell dysfunction of type 2 diabetes.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Male hypogonadism: low testosterone is bidirectionally linked with type 2 diabetes in men, as visceral adiposity and insulin resistance suppress testosterone while the resulting hypogonadism further worsens metabolic control and body composition.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Hyperuricaemia and oxidative stress: xanthine oxidase generates uric acid and reactive oxygen species, and the hyperuricaemia clustering with metabolic syndrome contributes to the insulin resistance and endothelial dysfunction of type 2 diabetes.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Silent myocardial infarction: type 2 diabetes accelerates coronary disease (atherosclerosis already mapped) and blunts anginal warning through autonomic neuropathy, so myocardial infarction is often silent, and troponin marks the cardiac injury when it occurs.
+- `connects-to` → **[Mu-opioid receptor](../../03-molecular/mu-opioid-receptor/README.md)** — Neuropathic pain: painful diabetic peripheral neuropathy (peripheral nerve already mapped) is a major burden, and when other agents fail it is treated with opioids acting at the mu-opioid receptor, at the cost of dependence risk.
+- `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — Dopaminergic glucose control: central dopaminergic tone influences glucose metabolism, and the dopamine agonist bromocriptine, given as a morning quick-release formulation, is an approved glucose-lowering therapy for type 2 diabetes.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

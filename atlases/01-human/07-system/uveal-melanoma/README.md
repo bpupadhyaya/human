@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/caspase-3
     relation: connects-to
     note: "Radiotherapy execution: primary uveal melanoma is controlled by plaque brachytherapy and proton-beam radiation that kill tumour cells via caspase-3-mediated apoptosis, the pathway whose evasion (BCL-2 already mapped) underlies radioresistant relapse."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Tebentafusp immunotherapy: tebentafusp, a gp100-directed T-cell engager, is the first therapy to extend survival in metastatic uveal melanoma (in HLA-A*02:01 patients; MHC class II already mapped), and IL-2-driven T-cell activity underlies the adoptive approaches."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Cytokine-release cardiotoxicity: the T-cell-engaging immunotherapy for uveal melanoma can provoke cytokine-release syndrome with hypotension and cardiac stress, and troponin elevation helps detect the myocardial injury of these reactions."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Metastatic anaemia: extensive hepatic metastasis (liver already mapped) and its treatment lower haemoglobin in advanced uveal melanoma, contributing to the fatigue and decline of the metastatic disease that dominates prognosis."
 ---
 
 # Uveal Melanoma
@@ -656,6 +665,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — HLA-restricted immunotherapy: uveal melanoma resists checkpoint blockade, yet the bispecific tebentafusp, the first agent to extend survival, redirects T cells to gp100 presented on HLA, underscoring the central role of antigen presentation in its treatment.
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — Intact p53 vulnerability: uveal melanoma rarely mutates TP53 and instead suppresses wild-type p53 through MDM2 (already mapped), making pharmacologic p53 reactivation a rational strategy distinct from the mutant-p53 biology of many cancers.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Radiotherapy execution: primary uveal melanoma is controlled by plaque brachytherapy and proton-beam radiation that kill tumour cells via caspase-3-mediated apoptosis, the pathway whose evasion (BCL-2 already mapped) underlies radioresistant relapse.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Tebentafusp immunotherapy: tebentafusp, a gp100-directed T-cell engager, is the first therapy to extend survival in metastatic uveal melanoma (in HLA-A*02:01 patients; MHC class II already mapped), and IL-2-driven T-cell activity underlies the adoptive approaches.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cytokine-release cardiotoxicity: the T-cell-engaging immunotherapy for uveal melanoma can provoke cytokine-release syndrome with hypotension and cardiac stress, and troponin elevation helps detect the myocardial injury of these reactions.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Metastatic anaemia: extensive hepatic metastasis (liver already mapped) and its treatment lower haemoglobin in advanced uveal melanoma, contributing to the fatigue and decline of the metastatic disease that dominates prognosis.
 
 ---
 
