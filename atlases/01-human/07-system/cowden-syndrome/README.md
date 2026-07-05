@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Complement C3 participates in the inflammatory tumor microenvironment of Cowden syndrome."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "PI3K-insulin axis: PTEN opposes PI3K signalling downstream of the insulin receptor, so its loss in Cowden syndrome heightens insulin/PI3K-AKT signalling (both already mapped), the basis of both the hamartoma-tumour predisposition and reported insulin sensitivity."
+  - target: 01-human/03-molecular/progesterone
+    relation: connects-to
+    note: "Endometrial hormonal axis: Cowden syndrome confers a high endometrial cancer risk, an estrogen-driven cancer (estrogen already mapped) that progesterone opposes, so the estrogen-progesterone balance is central to the gynaecological surveillance and prevention."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Cancer immunosurveillance: MHC class II-restricted T-cell surveillance influences which of the many hamartomas and early cancers of Cowden syndrome progress, and antigen presentation is relevant to immunotherapy of any advanced tumours."
 ---
 
 # Cowden Syndrome
@@ -699,6 +708,9 @@ cross_links:
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the tumor-immune microenvironment of the neoplasms of Cowden syndrome.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory tumor microenvironment of Cowden syndrome.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory tumor microenvironment of Cowden syndrome.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — PI3K-insulin axis: PTEN opposes PI3K signalling downstream of the insulin receptor, so its loss in Cowden syndrome heightens insulin/PI3K-AKT signalling (both already mapped), the basis of both the hamartoma-tumour predisposition and reported insulin sensitivity.
+- `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Endometrial hormonal axis: Cowden syndrome confers a high endometrial cancer risk, an estrogen-driven cancer (estrogen already mapped) that progesterone opposes, so the estrogen-progesterone balance is central to the gynaecological surveillance and prevention.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Cancer immunosurveillance: MHC class II-restricted T-cell surveillance influences which of the many hamartomas and early cancers of Cowden syndrome progress, and antigen presentation is relevant to immunotherapy of any advanced tumours.
 
 ---
 

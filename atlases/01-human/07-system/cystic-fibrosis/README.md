@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/adenosine
     relation: connects-to
     note: "Adenosine signaling participates in the airway-surface-liquid regulation and inflammation of cystic fibrosis."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Salt-wasting alkalosis: excessive loss of salt in the abnormally salty sweat of cystic fibrosis, worsened by heat, can cause a hypochloraemic hypokalaemic metabolic alkalosis (pseudo-Bartter syndrome), a recognised presentation in infants."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Bone disease: pancreatic insufficiency in cystic fibrosis impairs fat and fat-soluble vitamin D absorption (vitamin D already mapped), reducing calcium availability and contributing to the low bone density and fracture risk of the disease."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Chronic-infection immunity: MHC class II antigen presentation shapes the adaptive response to the chronic Pseudomonas and other airway infections of cystic fibrosis, a response that both defends and, through persistent inflammation, damages the lung."
 ---
 
 # Cystic Fibrosis
@@ -647,6 +656,9 @@ AND
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the airway-epithelial and immune gene programs of cystic fibrosis.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the airway T-cell inflammation of cystic fibrosis.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine signaling participates in the airway-surface-liquid regulation and inflammation of cystic fibrosis.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Salt-wasting alkalosis: excessive loss of salt in the abnormally salty sweat of cystic fibrosis, worsened by heat, can cause a hypochloraemic hypokalaemic metabolic alkalosis (pseudo-Bartter syndrome), a recognised presentation in infants.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Bone disease: pancreatic insufficiency in cystic fibrosis impairs fat and fat-soluble vitamin D absorption (vitamin D already mapped), reducing calcium availability and contributing to the low bone density and fracture risk of the disease.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Chronic-infection immunity: MHC class II antigen presentation shapes the adaptive response to the chronic Pseudomonas and other airway infections of cystic fibrosis, a response that both defends and, through persistent inflammation, damages the lung.
 
 ---
 
