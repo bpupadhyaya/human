@@ -391,6 +391,15 @@ cross_links:
   - target: 01-human/03-molecular/calcineurin
     relation: connects-to
     note: "Calcineurin-NFAT signaling participates in the T-cell help driving the anti-β2GPI autoantibody response of antiphospholipid syndrome."
+  - target: 01-human/03-molecular/cd20
+    relation: connects-to
+    note: "B-cell depletion: refractory and catastrophic antiphospholipid syndrome is treated with the anti-CD20 antibody rituximab to deplete the B cells producing anti-β2GPI antibodies (immunoglobulin G already mapped), a targeted immunotherapy beyond anticoagulation."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "T-cell help: IL-2-driven expansion of the T cells that help autoreactive B cells sustains the antiphospholipid antibody response, and impaired regulatory-T-cell control contributes to the persistence of the autoimmunity."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Autoreactive survival: anti-apoptotic BCL-2 family proteins prolong the survival of the autoreactive B cells producing antiphospholipid antibodies, helping the autoimmune clone persist despite the normal checkpoints that should delete it."
 ---
 
 # Antiphospholipid Syndrome
@@ -661,6 +670,9 @@ In APS, anti-B2GPI IgG bound to B2GPI on phospholipid surfaces converts this ant
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the endothelial and immune activation of antiphospholipid syndrome.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the thromboinflammatory immune response of antiphospholipid syndrome.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the T-cell help driving the anti-β2GPI autoantibody response of antiphospholipid syndrome.
+- `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — B-cell depletion: refractory and catastrophic antiphospholipid syndrome is treated with the anti-CD20 antibody rituximab to deplete the B cells producing anti-β2GPI antibodies (immunoglobulin G already mapped), a targeted immunotherapy beyond anticoagulation.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell help: IL-2-driven expansion of the T cells that help autoreactive B cells sustains the antiphospholipid antibody response, and impaired regulatory-T-cell control contributes to the persistence of the autoimmunity.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Autoreactive survival: anti-apoptotic BCL-2 family proteins prolong the survival of the autoreactive B cells producing antiphospholipid antibodies, helping the autoimmune clone persist despite the normal checkpoints that should delete it.
 
 [^miyakis-2006-sydney-aps]: Miyakis S, Lockshin MD, Atsumi T, et al. International consensus statement on an update of the classification criteria for definite antiphospholipid syndrome (APS). *J Thromb Haemost.* 2006;4(2):295-306. [doi:10.1111/j.1538-7836.2006.01753.x](https://doi.org/10.1111/j.1538-7836.2006.01753.x) · [PubMed 16420554](https://pubmed.ncbi.nlm.nih.gov/16420554/)
 [^barbhaiya-2023-acreular-aps]: Barbhaiya M, Zuily S, Naden R, et al. The 2023 ACR/EULAR antiphospholipid syndrome classification criteria. *Ann Rheum Dis.* 2023;82(10):1258-1270. [doi:10.1136/ard-2023-224609](https://doi.org/10.1136/ard-2023-224609) · [PubMed 37643823](https://pubmed.ncbi.nlm.nih.gov/37643823/)

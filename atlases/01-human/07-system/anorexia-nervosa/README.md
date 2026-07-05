@@ -400,6 +400,15 @@ cross_links:
   - target: 01-human/03-molecular/il-17a
     relation: connects-to
     note: "IL-17A signaling participates in the neuroinflammation associated with anorexia nervosa."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Cardiac atrophy: severe anorexia shrinks the myocardium and causes bradycardia and reduced cardiac mass, and troponin elevation can mark the myocardial injury of profound malnutrition and refeeding, part of why cardiac arrest is a leading cause of death."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Micronutrient deficiency: zinc deficiency is common in anorexia nervosa and itself blunts appetite and taste, potentially reinforcing restriction, which is why zinc supplementation is used as an adjunct in refeeding."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Starvation cytopenias: prolonged starvation produces gelatinous marrow transformation with anaemia and pancytopenia, lowering haemoglobin as the marrow itself atrophies under severe malnutrition."
 ---
 
 # Anorexia Nervosa
@@ -668,6 +677,9 @@ In healthy individuals, food cues activate the mesolimbic reward circuit (VTA �
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the neuroimmune and metabolic alterations implicated in anorexia nervosa.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the neuroinflammatory responses implicated in anorexia nervosa.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the neuroinflammation associated with anorexia nervosa.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiac atrophy: severe anorexia shrinks the myocardium and causes bradycardia and reduced cardiac mass, and troponin elevation can mark the myocardial injury of profound malnutrition and refeeding, part of why cardiac arrest is a leading cause of death.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Micronutrient deficiency: zinc deficiency is common in anorexia nervosa and itself blunts appetite and taste, potentially reinforcing restriction, which is why zinc supplementation is used as an adjunct in refeeding.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Starvation cytopenias: prolonged starvation produces gelatinous marrow transformation with anaemia and pancytopenia, lowering haemoglobin as the marrow itself atrophies under severe malnutrition.
 
 [^treasure-2010-an-lancet]: Treasure J, Claudino AM, Zucker N. Eating disorders. *Lancet.* 2010;375(9714):583-593. [doi:10.1016/S0140-6736(09)61748-7](https://doi.org/10.1016/S0140-6736(09)61748-7) · [PubMed 19931176](https://pubmed.ncbi.nlm.nih.gov/19931176/)
 [^lock-2010-fbt-an]: Lock J, Le Grange D, Agras WS, et al. Randomized clinical trial comparing family-based treatment with adolescent-focused individual therapy for adolescents with anorexia nervosa. *Arch Gen Psychiatry.* 2010;67(10):1025-1032. [doi:10.1001/archgenpsychiatry.2010.128](https://doi.org/10.1001/archgenpsychiatry.2010.128) · [PubMed 20921118](https://pubmed.ncbi.nlm.nih.gov/20921118/)
