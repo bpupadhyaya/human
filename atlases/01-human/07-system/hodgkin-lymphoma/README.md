@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Osteopontin participates in the microenvironment and stromal interactions of Hodgkin lymphoma."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Radiotherapy: involved-site radiation with photons is part of curative therapy for early-stage Hodgkin lymphoma, though its long-term cardiac and second-cancer risks drive efforts to reduce or omit it in favourable cases."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Treatment cardiotoxicity: cured Hodgkin lymphoma survivors face late cardiovascular disease from anthracyclines and mediastinal radiation, and troponin elevation marks the cardiac injury that is a leading cause of their late mortality."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "T-cell microenvironment: the Reed-Sternberg cells sit in a T-cell-rich, immunosuppressive infiltrate, and IL-2-driven T-cell responses are unleashed by the checkpoint inhibitors (PD-1 already mapped) to which Hodgkin lymphoma is exquisitely sensitive."
 ---
 
 # Hodgkin Lymphoma
@@ -641,6 +650,9 @@ Modern protocols minimize RT fields and doses (ISRT replacing extended-field RT)
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the survival and immune signaling of Hodgkin lymphoma.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine (CD39/CD73-adenosine) signaling participates in the immunosuppressive tumor microenvironment of Hodgkin lymphoma.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the microenvironment and stromal interactions of Hodgkin lymphoma.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiotherapy: involved-site radiation with photons is part of curative therapy for early-stage Hodgkin lymphoma, though its long-term cardiac and second-cancer risks drive efforts to reduce or omit it in favourable cases.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Treatment cardiotoxicity: cured Hodgkin lymphoma survivors face late cardiovascular disease from anthracyclines and mediastinal radiation, and troponin elevation marks the cardiac injury that is a leading cause of their late mortality.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell microenvironment: the Reed-Sternberg cells sit in a T-cell-rich, immunosuppressive infiltrate, and IL-2-driven T-cell responses are unleashed by the checkpoint inhibitors (PD-1 already mapped) to which Hodgkin lymphoma is exquisitely sensitive.
 
 [^connors-2018-echelon1]: Connors JM, Jurczak W, Straus DJ, et al. Brentuximab vedotin with chemotherapy for stage III or IV Hodgkin's lymphoma. *N Engl J Med.* 2018;378(4):331-344. [doi:10.1056/NEJMoa1708984](https://doi.org/10.1056/NEJMoa1708984) · [PubMed 29360494](https://pubmed.ncbi.nlm.nih.gov/29360494/)
 [^armand-2018-nivo-hl]: Armand P, Engert A, Younes A, et al. Nivolumab for relapsed/refractory classic Hodgkin lymphoma after failure of autologous hematopoietic cell transplantation: extended follow-up of the multicohort single-arm phase II CheckMate 205 trial. *J Clin Oncol.* 2018;36(14):1428-1439. [doi:10.1200/JCO.2017.77.6717](https://doi.org/10.1200/JCO.2017.77.6717) · [PubMed 29584546](https://pubmed.ncbi.nlm.nih.gov/29584546/)

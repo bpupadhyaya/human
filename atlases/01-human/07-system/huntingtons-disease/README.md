@@ -381,6 +381,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Osteopontin participates in the microglial activation and neuroinflammation of Huntington's disease."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Hypermetabolic weight loss: despite adequate intake, Huntington's disease causes progressive weight loss from a hypermetabolic state with impaired insulin signalling and mitochondrial energy failure (ATP already mapped), a metabolic feature tracking disease severity."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Energy dysregulation: falling fat stores and altered leptin signalling accompany the relentless weight loss of Huntington's disease, reflecting hypothalamic involvement and the systemic metabolic disturbance beyond the movement disorder."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Neuroinflammation: MHC class II is upregulated on activated microglia (already mapped) in the Huntington striatum, marking the neuroinflammatory response that accompanies and may accelerate the degeneration of medium spiny neurons."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -553,3 +562,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic dysregulation of the neuronal gene programs of Huntington's disease.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine (A2A receptor) signaling participates in the striatal-neuron dysfunction and neuroinflammation of Huntington's disease.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the microglial activation and neuroinflammation of Huntington's disease.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Hypermetabolic weight loss: despite adequate intake, Huntington's disease causes progressive weight loss from a hypermetabolic state with impaired insulin signalling and mitochondrial energy failure (ATP already mapped), a metabolic feature tracking disease severity.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Energy dysregulation: falling fat stores and altered leptin signalling accompany the relentless weight loss of Huntington's disease, reflecting hypothalamic involvement and the systemic metabolic disturbance beyond the movement disorder.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Neuroinflammation: MHC class II is upregulated on activated microglia (already mapped) in the Huntington striatum, marking the neuroinflammatory response that accompanies and may accelerate the degeneration of medium spiny neurons.
