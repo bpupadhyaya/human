@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Osteopontin participates in the bone-invasion and tumor-microenvironment interactions of chordoma."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Brachyury immunotherapy: brachyury (TBXT already mapped) is a chordoma-defining shared tumour antigen, and brachyury-targeting vaccines and T-cell therapies depend on MHC-restricted antigen presentation, a distinctive immune strategy for this otherwise chemoresistant tumour."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Checkpoint blockade: chordomas can express PD-L1, and checkpoint inhibitors are under investigation to unleash T-cell attack on a tumour that resists conventional systemic therapy."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Cellular immunotherapy: IL-2-driven T-cell expansion supports the adoptive and vaccine-primed T-cell approaches (perforin already mapped) being explored against chordoma's brachyury antigen."
 ---
 
 # Chordoma
@@ -654,6 +663,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory tumor microenvironment of chordoma.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the tumor microenvironment and immune signaling of chordoma.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the bone-invasion and tumor-microenvironment interactions of chordoma.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Brachyury immunotherapy: brachyury (TBXT already mapped) is a chordoma-defining shared tumour antigen, and brachyury-targeting vaccines and T-cell therapies depend on MHC-restricted antigen presentation, a distinctive immune strategy for this otherwise chemoresistant tumour.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Checkpoint blockade: chordomas can express PD-L1, and checkpoint inhibitors are under investigation to unleash T-cell attack on a tumour that resists conventional systemic therapy.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Cellular immunotherapy: IL-2-driven T-cell expansion supports the adoptive and vaccine-primed T-cell approaches (perforin already mapped) being explored against chordoma's brachyury antigen.
 
 ---
 

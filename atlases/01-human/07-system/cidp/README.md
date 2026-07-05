@@ -402,6 +402,15 @@ cross_links:
   - target: 01-human/03-molecular/adenosine
     relation: connects-to
     note: "Adenosine signaling participates in the immunomodulation and neuroinflammatory processes of chronic inflammatory demyelinating polyneuropathy."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "Nerve support and repair: BDNF and neurotrophic signalling support axonal survival and remyelination, and their adequacy shapes recovery from the demyelinating injury of chronic inflammatory demyelinating polyneuropathy."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Th2 help: IL-4-driven type-2 help supports the B-cell and autoantibody responses (immunoglobulin G already mapped) against nodal and myelin antigens in chronic inflammatory demyelinating polyneuropathy."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Immune checkpoint: PD-1 normally restrains autoreactive T cells, and checkpoint-inhibitor cancer therapy can trigger a CIDP-like neuropathy, revealing the role of this checkpoint in protecting peripheral nerve from autoimmunity."
 ---
 
 # CIDP
@@ -672,6 +681,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the autoreactive immune responses of chronic inflammatory demyelinating polyneuropathy.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the T-cell activation of chronic inflammatory demyelinating polyneuropathy.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine signaling participates in the immunomodulation and neuroinflammatory processes of chronic inflammatory demyelinating polyneuropathy.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Nerve support and repair: BDNF and neurotrophic signalling support axonal survival and remyelination, and their adequacy shapes recovery from the demyelinating injury of chronic inflammatory demyelinating polyneuropathy.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Th2 help: IL-4-driven type-2 help supports the B-cell and autoantibody responses (immunoglobulin G already mapped) against nodal and myelin antigens in chronic inflammatory demyelinating polyneuropathy.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Immune checkpoint: PD-1 normally restrains autoreactive T cells, and checkpoint-inhibitor cancer therapy can trigger a CIDP-like neuropathy, revealing the role of this checkpoint in protecting peripheral nerve from autoimmunity.
 
 ---
 
