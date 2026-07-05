@@ -409,6 +409,15 @@ cross_links:
   - target: 01-human/03-molecular/testosterone
     relation: connects-to
     note: "Sex differences: migraine is far more common in women, and testosterone appears protective by dampening trigeminal nociception and cortical excitability (estrogen and progesterone already mapped), part of the hormonal basis of the sex disparity."
+  - target: 01-human/03-molecular/mu-opioid-receptor
+    relation: connects-to
+    note: "Medication-overuse headache: opioids acting on the mu-opioid receptor relieve acute headache but, overused, cause medication-overuse headache and dependence, a major reason opioids are discouraged in migraine management."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Mineralocorticoid arm of the RAAS: alongside the angiotensin II already mapped, aldosterone and mineralocorticoid signalling are implicated in migraine, consistent with the preventive benefit of the renin-angiotensin blockade used in prophylaxis."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Metabolic association: migraine is associated with insulin resistance and the metabolic syndrome, and impaired brain energy metabolism is one proposed contributor to the neuronal hyperexcitability underlying attacks."
 ---
 
 # Migraine
@@ -676,6 +685,9 @@ Episodic migraine (EM, <15 headache days/month) transforms to **chronic migraine
 - `connects-to` → **[Beta-1 adrenergic receptor](../../03-molecular/beta1-adrenergic-receptor/README.md)** — Beta-blocker prophylaxis: propranolol and metoprolol are first-line migraine preventives acting through beta-adrenergic blockade (norepinephrine already mapped), among the oldest effective prophylactic classes despite an incompletely understood mechanism.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — RAAS prophylaxis: the angiotensin-receptor blocker candesartan and ACE inhibitors reduce migraine frequency, implicating the renin-angiotensin system in migraine and providing a preventive option for patients with comorbid hypertension.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Sex differences: migraine is far more common in women, and testosterone appears protective by dampening trigeminal nociception and cortical excitability (estrogen and progesterone already mapped), part of the hormonal basis of the sex disparity.
+- `connects-to` → **[Mu-opioid receptor](../../03-molecular/mu-opioid-receptor/README.md)** — Medication-overuse headache: opioids acting on the mu-opioid receptor relieve acute headache but, overused, cause medication-overuse headache and dependence, a major reason opioids are discouraged in migraine management.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Mineralocorticoid arm of the RAAS: alongside the angiotensin II already mapped, aldosterone and mineralocorticoid signalling are implicated in migraine, consistent with the preventive benefit of the renin-angiotensin blockade used in prophylaxis.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Metabolic association: migraine is associated with insulin resistance and the metabolic syndrome, and impaired brain energy metabolism is one proposed contributor to the neuronal hyperexcitability underlying attacks.
 
 [^gbd-2016-migraine-burden]: GBD 2016 Headache Collaborators. Global, regional, and national burden of migraine and tension-type headache, 1990-2016. *Lancet Neurol.* 2018;17(11):954-976. [doi:10.1016/S1474-4422(18)30322-3](https://doi.org/10.1016/S1474-4422(18)30322-3) · [PubMed 30353868](https://pubmed.ncbi.nlm.nih.gov/30353868/)
 [^goadsby-2002-migraine-review]: Goadsby PJ, Lipton RB, Ferrari MD. Migraine — current understanding and treatment. *N Engl J Med.* 2002;346(4):257-270. [doi:10.1056/NEJMra010917](https://doi.org/10.1056/NEJMra010917) · [PubMed 11807151](https://pubmed.ncbi.nlm.nih.gov/11807151/)

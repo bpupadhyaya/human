@@ -406,6 +406,15 @@ cross_links:
   - target: 01-human/03-molecular/bcl-2
     relation: connects-to
     note: "Autoreactive survival: anti-apoptotic BCL-2 family proteins prolong the survival of the autoreactive lymphocytes that attack myelin, and shifting this balance toward apoptosis is one way immune-reconstitution therapies reset the disease."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Th2 counter-response: IL-4 drives the protective type-2 T-cell response, and shifting the balance away from the pathogenic Th17 and Th1 arms (IL-17/IFN-gamma already mapped) toward IL-4-driven immunity is a long-sought therapeutic aim in multiple sclerosis."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Regulatory suppression: IL-10 from regulatory B and T cells restrains the autoimmune attack on myelin, and deficient IL-10-mediated regulation contributes to the unchecked inflammation of multiple sclerosis."
+  - target: 01-human/03-molecular/progesterone
+    relation: connects-to
+    note: "Pregnancy protection: relapses fall markedly in the third trimester of pregnancy, when progesterone and estrogen (already mapped) are high, implicating these neurosteroids in the immune modulation and remyelination potential in multiple sclerosis."
 ---
 
 # Multiple Sclerosis
@@ -645,6 +654,9 @@ MS affects approximately **2.8 million people worldwide** (~1 million in the US)
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Sex and pregnancy: multiple sclerosis is far more common in women, and relapses fall sharply in the third trimester when estrogen and progesterone are high, implicating sex hormones in disease modulation and inspiring estriol trials.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Obesity risk: adolescent obesity raises the risk of multiple sclerosis, and the proinflammatory adipokine leptin promotes the Th17 responses (IL-17A already mapped) that drive autoimmune demyelination.
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Autoreactive survival: anti-apoptotic BCL-2 family proteins prolong the survival of the autoreactive lymphocytes that attack myelin, and shifting this balance toward apoptosis is one way immune-reconstitution therapies reset the disease.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Th2 counter-response: IL-4 drives the protective type-2 T-cell response, and shifting the balance away from the pathogenic Th17 and Th1 arms (IL-17/IFN-gamma already mapped) toward IL-4-driven immunity is a long-sought therapeutic aim in multiple sclerosis.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Regulatory suppression: IL-10 from regulatory B and T cells restrains the autoimmune attack on myelin, and deficient IL-10-mediated regulation contributes to the unchecked inflammation of multiple sclerosis.
+- `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Pregnancy protection: relapses fall markedly in the third trimester of pregnancy, when progesterone and estrogen (already mapped) are high, implicating these neurosteroids in the immune modulation and remyelination potential in multiple sclerosis.
 
 [^compston-2008-ms-review]: Compston A, Coles A. Multiple sclerosis. *Lancet.* 2008;372(9648):1502-1517. [doi:10.1016/S0140-6736(08)61620-7](https://doi.org/10.1016/S0140-6736(08)61620-7) · [PubMed 18970977](https://pubmed.ncbi.nlm.nih.gov/18970977/)
 [^kappos-2006-natalizumab]: Polman CH, O'Connor PW, Havrdova E, et al. A randomized, placebo-controlled trial of natalizumab for relapsing multiple sclerosis. *N Engl J Med.* 2006;354(9):899-910. [doi:10.1056/NEJMoa044397](https://doi.org/10.1056/NEJMoa044397) · [PubMed 16510744](https://pubmed.ncbi.nlm.nih.gov/16510744/)
