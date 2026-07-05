@@ -396,6 +396,15 @@ cross_links:
   - target: 01-human/03-molecular/il-17a
     relation: connects-to
     note: "IL-17A signaling participates in the renal inflammation and fibrosis of chronic kidney disease."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Metabolic acidosis: the failing kidney cannot excrete the daily acid load or regenerate enough bicarbonate, so protons accumulate, and the resulting metabolic acidosis accelerates bone loss and muscle wasting, treated with oral alkali."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Magnesium retention: as kidney function declines, magnesium excretion falls and hypermagnesaemia can develop, while magnesium also modulates the vascular calcification that drives cardiovascular death in chronic kidney disease."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Insulin handling: chronic kidney disease induces peripheral insulin resistance yet also reduces renal insulin clearance, a combination that complicates glucose control and contributes to the metabolic disturbance of uraemia."
 ---
 
 # Chronic Kidney Disease
@@ -598,6 +607,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the chronic inflammation and fibrosis of chronic kidney disease.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the renal inflammation and fibrosis of chronic kidney disease.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the renal inflammation and fibrosis of chronic kidney disease.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Metabolic acidosis: the failing kidney cannot excrete the daily acid load or regenerate enough bicarbonate, so protons accumulate, and the resulting metabolic acidosis accelerates bone loss and muscle wasting, treated with oral alkali.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium retention: as kidney function declines, magnesium excretion falls and hypermagnesaemia can develop, while magnesium also modulates the vascular calcification that drives cardiovascular death in chronic kidney disease.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Insulin handling: chronic kidney disease induces peripheral insulin resistance yet also reduces renal insulin clearance, a combination that complicates glucose control and contributes to the metabolic disturbance of uraemia.
 
 ## Pathology
 

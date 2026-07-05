@@ -402,6 +402,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Complement C3 participates in the vascular inflammation and injury responses of the cardiovascular system."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Repolarisation: potassium channels set cardiac repolarisation and resting membrane potential, so disturbances of potassium cause the QT changes and life-threatening arrhythmias that make electrolyte balance central to cardiovascular safety."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Depolarisation and pressure: sodium channels drive the cardiac action-potential upstroke and conduction, while renal sodium handling sets blood volume and long-term blood pressure, tying the ion to both electrophysiology and haemodynamics."
+  - target: 01-human/03-molecular/atp
+    relation: connects-to
+    note: "Cardiac energetics: the heart consumes and regenerates an enormous mass of ATP each day to power contraction, and the energy starvation of failing myocardium reflects a breakdown in this ATP supply-demand balance."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"
@@ -612,6 +621,9 @@ Each major vascular bed has **autoregulation** — a local mechanism that holds 
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the cardiac and vascular immune responses of the cardiovascular system.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the vascular inflammation and cardiac remodeling of the cardiovascular system.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the vascular inflammation and injury responses of the cardiovascular system.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Repolarisation: potassium channels set cardiac repolarisation and resting membrane potential, so disturbances of potassium cause the QT changes and life-threatening arrhythmias that make electrolyte balance central to cardiovascular safety.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Depolarisation and pressure: sodium channels drive the cardiac action-potential upstroke and conduction, while renal sodium handling sets blood volume and long-term blood pressure, tying the ion to both electrophysiology and haemodynamics.
+- `connects-to` → **[ATP](../../03-molecular/atp/README.md)** — Cardiac energetics: the heart consumes and regenerates an enormous mass of ATP each day to power contraction, and the energy starvation of failing myocardium reflects a breakdown in this ATP supply-demand balance.
 
 ## Pathology
 
