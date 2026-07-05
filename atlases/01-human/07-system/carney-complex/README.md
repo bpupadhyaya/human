@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/troponin-complex
     relation: connects-to
     note: "Cardiac myxoma: recurrent cardiac myxomas (heart already mapped) can obstruct valves or embolise, and troponin release may mark the myocardial injury of these tumours, the leading cause of death in Carney complex."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "Myxoma stroma: the myxomas of Carney complex are myxoid mesenchymal tumours whose fibroblast (already mapped) proliferation and matrix are supported by PDGF and TGF-beta (already mapped) signalling in the loose stroma."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "Growth-factor signalling: FGFR and other receptor tyrosine kinases feed into the AKT and MAPK pathways (already mapped) that, unleashed by PRKAR1A loss and constitutive PKA activity, drive the endocrine and mesenchymal tumours of Carney complex."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Vascular and pigment biology: endothelin-1 signalling (already mapped) in the lentigines and myxomas intersects with nitric oxide in regulating the cutaneous vascular tone and melanocyte biology behind the pigmented lesions of Carney complex."
 ---
 
 # Carney Complex
@@ -653,6 +662,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[ATP](../../03-molecular/atp/README.md)** — cAMP-PKA pathway: the PRKAR1A defect of Carney complex releases the catalytic subunit of protein kinase A from regulation, so ATP-dependent PKA phosphorylation runs unchecked, driving the endocrine tumours and pigmented lesions of the syndrome.
 - `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Lentiginous pigmentation: endothelin-1 signalling through EDNRB regulates melanocyte survival and pigment production, contributing to the spotty lentigines and blue naevi that are hallmark cutaneous features of Carney complex.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiac myxoma: recurrent cardiac myxomas (heart already mapped) can obstruct valves or embolise, and troponin release may mark the myocardial injury of these tumours, the leading cause of death in Carney complex.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Myxoma stroma: the myxomas of Carney complex are myxoid mesenchymal tumours whose fibroblast (already mapped) proliferation and matrix are supported by PDGF and TGF-beta (already mapped) signalling in the loose stroma.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Growth-factor signalling: FGFR and other receptor tyrosine kinases feed into the AKT and MAPK pathways (already mapped) that, unleashed by PRKAR1A loss and constitutive PKA activity, drive the endocrine and mesenchymal tumours of Carney complex.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Vascular and pigment biology: endothelin-1 signalling (already mapped) in the lentigines and myxomas intersects with nitric oxide in regulating the cutaneous vascular tone and melanocyte biology behind the pigmented lesions of Carney complex.
 
 ---
 

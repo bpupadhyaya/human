@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/ctla-4
     relation: connects-to
     note: "Checkpoint context: CTLA-4 restrains the anti-tumour T-cell response, and its role in immune tolerance is relevant to the impaired EBV surveillance underlying the endemic and immunodeficiency-associated forms of Burkitt lymphoma."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Marrow involvement: bone-marrow infiltration by Burkitt lymphoma and its intensive chemotherapy lower haemoglobin, and the resulting anaemia, with the other cytopenias, adds to the acute morbidity of this rapidly growing tumour."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Tumour-lysis acidosis: the extreme proliferation of Burkitt lymphoma, lysed by chemotherapy, releases acids that, with lactate from the metabolic stress, produce the metabolic acidosis of tumour-lysis syndrome (potassium and urate already mapped)."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Anthracycline cardiotoxicity: the intensive anthracycline-containing chemotherapy that cures most Burkitt lymphoma is cardiotoxic, and troponin elevation helps detect the myocardial injury threatening long-term survivors."
 ---
 
 # Burkitt Lymphoma
@@ -666,6 +675,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — EBV immune escape: MHC class II presentation of Epstein-Barr-virus antigens (LMP1 already mapped) shapes the immune control of EBV-driven Burkitt lymphoma, and downregulation of antigen presentation is one route by which the tumour evades T cells.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Cellular immunotherapy: IL-2-driven T-cell expansion supports the CD19-directed CAR-T and EBV-specific T-cell therapies (perforin already mapped) explored for relapsed and immunodeficiency-associated Burkitt lymphoma.
 - `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Checkpoint context: CTLA-4 restrains the anti-tumour T-cell response, and its role in immune tolerance is relevant to the impaired EBV surveillance underlying the endemic and immunodeficiency-associated forms of Burkitt lymphoma.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Marrow involvement: bone-marrow infiltration by Burkitt lymphoma and its intensive chemotherapy lower haemoglobin, and the resulting anaemia, with the other cytopenias, adds to the acute morbidity of this rapidly growing tumour.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Tumour-lysis acidosis: the extreme proliferation of Burkitt lymphoma, lysed by chemotherapy, releases acids that, with lactate from the metabolic stress, produce the metabolic acidosis of tumour-lysis syndrome (potassium and urate already mapped).
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Anthracycline cardiotoxicity: the intensive anthracycline-containing chemotherapy that cures most Burkitt lymphoma is cardiotoxic, and troponin elevation helps detect the myocardial injury threatening long-term survivors.
 
 ---
 
