@@ -406,6 +406,15 @@ cross_links:
   - target: 01-human/03-molecular/leptin
     relation: connects-to
     note: "Obesity risk: obesity is a strong independent risk factor for venous thromboembolism through venous stasis and a prothrombotic state, and the adipokine leptin promotes platelet activation and coagulation."
+  - target: 01-human/03-molecular/progesterone
+    relation: connects-to
+    note: "Pregnancy hypercoagulability: pregnancy, sustained by progesterone and estrogen (already mapped), is a strongly prothrombotic state with venous stasis, making venous thromboembolism a leading cause of maternal death and a target for prophylaxis."
+  - target: 01-human/07-system/myeloproliferative-neoplasms
+    relation: connects-to
+    note: "Clonal thrombophilia: JAK2-driven myeloproliferative neoplasms create an acquired hypercoagulable state, often presenting as venous thrombosis at unusual sites such as the splanchnic or cerebral veins, an important cause to screen for."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Metabolic prothrombotic state: insulin resistance and the metabolic syndrome raise PAI-1 and fibrinogen (already mapped), an acquired prothrombotic tendency that compounds the venous-thromboembolism risk of the obesity (leptin already mapped) it accompanies."
 ---
 
 # Venous Thromboembolism
@@ -654,6 +663,9 @@ cross_links:
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Pulmonary embolism strain: a large pulmonary embolism strains the right ventricle, and troponin release marking that myocardial injury identifies the intermediate-to-high-risk patients who may need thrombolysis rather than anticoagulation alone.
 - `connects-to` → **[BNP](../../03-molecular/bnp/README.md)** — Right-ventricular stretch: BNP released from the pressure-loaded right ventricle in pulmonary embolism complements troponin in risk stratification, flagging the ventricular dysfunction that predicts adverse outcomes.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Obesity risk: obesity is a strong independent risk factor for venous thromboembolism through venous stasis and a prothrombotic state, and the adipokine leptin promotes platelet activation and coagulation.
+- `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Pregnancy hypercoagulability: pregnancy, sustained by progesterone and estrogen (already mapped), is a strongly prothrombotic state with venous stasis, making venous thromboembolism a leading cause of maternal death and a target for prophylaxis.
+- `connects-to` → **[Myeloproliferative neoplasms](../myeloproliferative-neoplasms/README.md)** — Clonal thrombophilia: JAK2-driven myeloproliferative neoplasms create an acquired hypercoagulable state, often presenting as venous thrombosis at unusual sites such as the splanchnic or cerebral veins, an important cause to screen for.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Metabolic prothrombotic state: insulin resistance and the metabolic syndrome raise PAI-1 and fibrinogen (already mapped), an acquired prothrombotic tendency that compounds the venous-thromboembolism risk of the obesity (leptin already mapped) it accompanies.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)
