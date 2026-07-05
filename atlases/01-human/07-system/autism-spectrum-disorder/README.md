@@ -400,6 +400,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "CCL2 (MCP-1) chemokine signaling participates in the neuroinflammatory and microglial responses (including maternal immune activation) implicated in autism spectrum disorder."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Female protective effect: autism is diagnosed about four times more often in males, and estrogen's neuroprotective and synaptic effects are proposed to raise the mutational threshold in females (fetal testosterone already mapped), contributing to the sex bias."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Oxidative stress: children with autism show evidence of glutathione depletion and oxidative stress, and the NRF2 antioxidant response modulated here is implicated in the redox imbalance affecting neurodevelopment."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Nitrosative signalling: nitric oxide is both a synaptic messenger shaping the excitatory-inhibitory balance and a source of nitrosative stress, and altered NO signalling is reported in autism spectrum disorder."
 ---
 
 # Autism Spectrum Disorder
@@ -664,6 +673,9 @@ The neural basis of ASD social deficits involves dysfunction of the **social bra
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine signaling participates in the synaptic and neuroimmune modulation implicated in autism spectrum disorder.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the microglial activation and neuroinflammation implicated in autism spectrum disorder.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 (MCP-1) chemokine signaling participates in the neuroinflammatory and microglial responses (including maternal immune activation) implicated in autism spectrum disorder.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Female protective effect: autism is diagnosed about four times more often in males, and estrogen's neuroprotective and synaptic effects are proposed to raise the mutational threshold in females (fetal testosterone already mapped), contributing to the sex bias.
+- `connects-to` → **[NFE2L2](../../03-molecular/nfe2l2/README.md)** — Oxidative stress: children with autism show evidence of glutathione depletion and oxidative stress, and the NRF2 antioxidant response modulated here is implicated in the redox imbalance affecting neurodevelopment.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Nitrosative signalling: nitric oxide is both a synaptic messenger shaping the excitatory-inhibitory balance and a source of nitrosative stress, and altered NO signalling is reported in autism spectrum disorder.
 
 [^maenner-2023-asd-prevalence]: Maenner MJ, Warren Z, Williams AR, et al. Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 2020. *MMWR Surveill Summ.* 2023;72(2):1-14. [doi:10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1) · [PubMed 36952216](https://pubmed.ncbi.nlm.nih.gov/36952216/)
 [^lord-2020-asd-review]: Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum disorder. *Lancet.* 2018;392(10146):508-520. [doi:10.1016/S0140-6736(18)31129-2](https://doi.org/10.1016/S0140-6736(18)31129-2) · [PubMed 30078460](https://pubmed.ncbi.nlm.nih.gov/30078460/)

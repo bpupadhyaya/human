@@ -378,6 +378,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Complement C3 participates in the microglial and neuroinflammatory processes implicated in binge-eating disorder."
+  - target: 01-human/03-molecular/progesterone
+    relation: connects-to
+    note: "Menstrual-cycle modulation: binge eating tends to worsen in the luteal phase, implicating the fall in progesterone-derived neurosteroids and reproductive-hormone fluctuation (estrogen already mapped) in the cyclical variation of symptoms."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Metabolic comorbidity: binge-eating disorder strongly associates with obesity and insulin resistance, and the adipokine resistin links the adipose inflammation to the metabolic syndrome that accompanies it beyond the leptin and adiponectin already mapped."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Reward signalling: nitric oxide modulates the dopaminergic reward circuitry (dopamine already mapped) implicated in the loss of control and compulsive overeating that define binge-eating disorder."
 sources:
   - id: american-psychiatric-2013-bed-dsm5
     type: clinical-guideline
@@ -659,6 +668,9 @@ BED is among the most psychiatrically comorbid of all eating disorders:
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the neuroinflammatory responses implicated in binge-eating disorder.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the neuroinflammation associated with binge-eating disorder.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the microglial and neuroinflammatory processes implicated in binge-eating disorder.
+- `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Menstrual-cycle modulation: binge eating tends to worsen in the luteal phase, implicating the fall in progesterone-derived neurosteroids and reproductive-hormone fluctuation (estrogen already mapped) in the cyclical variation of symptoms.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Metabolic comorbidity: binge-eating disorder strongly associates with obesity and insulin resistance, and the adipokine resistin links the adipose inflammation to the metabolic syndrome that accompanies it beyond the leptin and adiponectin already mapped.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Reward signalling: nitric oxide modulates the dopaminergic reward circuitry (dopamine already mapped) implicated in the loss of control and compulsive overeating that define binge-eating disorder.
 
 [^american-psychiatric-2013-bed-dsm5]: American Psychiatric Association. Binge Eating Disorder (307.51). In: *Diagnostic and Statistical Manual of Mental Disorders, 5th ed.* Arlington, VA: APA; 2013. [doi:10.1176/appi.books.9780890425596](https://doi.org/10.1176/appi.books.9780890425596)
 [^mccallum-2003-bed-review]: McCallum K, Bruton AM. Binge eating disorder: eating disorder or somatic syndrome? *Prim Care Companion J Clin Psychiatry.* 2003;5(Suppl 4):20-25. [PubMed 15213784](https://pubmed.ncbi.nlm.nih.gov/15213784/)
