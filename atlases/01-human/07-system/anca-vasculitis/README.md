@@ -415,6 +415,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Endothelial injury: impaired endothelial nitric-oxide function accompanies the small-vessel inflammation of ANCA-associated vasculitis, contributing to the vascular damage that underlies its ischaemic organ manifestations."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Alveolar-haemorrhage anaemia: diffuse alveolar haemorrhage in the lung (already mapped) and the anaemia of chronic inflammation lower haemoglobin in ANCA-associated vasculitis, a fall in haemoglobin that can signal active pulmonary bleeding."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Th2 axis in EGPA: IL-13 with IL-4 and IL-5 (already mapped) drives the type-2 eosinophilic inflammation of eosinophilic granulomatosis with polyangiitis, the subset increasingly treated with anti-type-2 biologics."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative burst injury: ANCA-activated neutrophils (already mapped) release reactive oxygen species, including from xanthine oxidase, that damage the small-vessel endothelium, part of the oxidative injury of the vasculitic lesion."
 ---
 
 # ANCA Vasculitis
@@ -679,6 +688,9 @@ EGPA is mechanistically distinct — eosinophils, not neutrophils, mediate tissu
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — EGPA allergic axis: eosinophilic granulomatosis with polyangiitis, the asthma-associated subtype (asthma already mapped), features elevated IgE and an allergic, eosinophil-driven inflammation distinct from the PR3/MPO autoimmunity of the other AAV subtypes.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Th2 eosinophilia: IL-4 and the type-2 response (IL-5 already mapped) drive the eosinophil expansion and tissue infiltration of eosinophilic granulomatosis with polyangiitis, targeted by anti-IL-5 and emerging anti-IL-4/13 therapy.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Endothelial injury: impaired endothelial nitric-oxide function accompanies the small-vessel inflammation of ANCA-associated vasculitis, contributing to the vascular damage that underlies its ischaemic organ manifestations.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Alveolar-haemorrhage anaemia: diffuse alveolar haemorrhage in the lung (already mapped) and the anaemia of chronic inflammation lower haemoglobin in ANCA-associated vasculitis, a fall in haemoglobin that can signal active pulmonary bleeding.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Th2 axis in EGPA: IL-13 with IL-4 and IL-5 (already mapped) drives the type-2 eosinophilic inflammation of eosinophilic granulomatosis with polyangiitis, the subset increasingly treated with anti-type-2 biologics.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative burst injury: ANCA-activated neutrophils (already mapped) release reactive oxygen species, including from xanthine oxidase, that damage the small-vessel endothelium, part of the oxidative injury of the vasculitic lesion.
 
 [^yates-2022-anca-review]: Yates M, Watts RA, Bajema IM, et al. EULAR/ERA-EDTA recommendations for the management of ANCA-associated vasculitis. *Ann Rheum Dis.* 2016;75(9):1583-1594. [doi:10.1136/annrheumdis-2016-209133](https://doi.org/10.1136/annrheumdis-2016-209133) · [PubMed 27338776](https://pubmed.ncbi.nlm.nih.gov/27338776/)
 [^stone-2010-rituximab-gpa-rave]: Stone JH, Merkel PA, Spiera R, et al. Rituximab versus cyclophosphamide for ANCA-associated vasculitis. *N Engl J Med.* 2010;363(3):221-232. [doi:10.1056/NEJMoa0909905](https://doi.org/10.1056/NEJMoa0909905) · [PubMed 20647199](https://pubmed.ncbi.nlm.nih.gov/20647199/)

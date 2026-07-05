@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin
     relation: connects-to
     note: "Hypermetabolism: ALS features a hypermetabolic state with altered glucose and lipid handling, and insulin resistance is associated with faster progression, a metabolic dimension increasingly targeted in trials."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Regulatory T-cell therapy: low-dose IL-2 expands regulatory T cells that restrain the neuroinflammation (microglia already mapped) driving ALS, a strategy tested in trials to slow the non-cell-autonomous motor neuron death."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Lipid and survival: higher LDL cholesterol and dyslipidaemia are paradoxically associated with longer survival in ALS, part of the hypermetabolic and lipid dysregulation (insulin already mapped) that shapes its metabolic phenotype."
+  - target: 01-human/03-molecular/progesterone
+    relation: connects-to
+    note: "Neurosteroid protection: progesterone-derived neurosteroids are neuroprotective for motor neurons, and together with estrogen (already mapped) may contribute to the modest sex difference in ALS risk and progression."
 ---
 
 # ALS
@@ -683,6 +692,9 @@ ALS diagnosis is **clinical** — no single definitive biomarker test (though Nf
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Neuroinflammation: MHC class II is upregulated on activated microglia (already mapped) in the ALS spinal cord and motor cortex, marking the antigen-presenting inflammatory state that contributes to the non-cell-autonomous killing of motor neurons.
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Sex differences: ALS is somewhat more common and earlier-onset in men, and estrogen's neuroprotective effects are proposed to contribute to the sex difference in risk and progression.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Hypermetabolism: ALS features a hypermetabolic state with altered glucose and lipid handling, and insulin resistance is associated with faster progression, a metabolic dimension increasingly targeted in trials.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Regulatory T-cell therapy: low-dose IL-2 expands regulatory T cells that restrain the neuroinflammation (microglia already mapped) driving ALS, a strategy tested in trials to slow the non-cell-autonomous motor neuron death.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Lipid and survival: higher LDL cholesterol and dyslipidaemia are paradoxically associated with longer survival in ALS, part of the hypermetabolic and lipid dysregulation (insulin already mapped) that shapes its metabolic phenotype.
+- `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Neurosteroid protection: progesterone-derived neurosteroids are neuroprotective for motor neurons, and together with estrogen (already mapped) may contribute to the modest sex difference in ALS risk and progression.
 
 [^brown-2017-als-review]: Brown RH, Al-Chalabi A. Amyotrophic lateral sclerosis. *N Engl J Med.* 2017;377(2):162-172. [doi:10.1056/NEJMra1603471](https://doi.org/10.1056/NEJMra1603471) · [PubMed 28700839](https://pubmed.ncbi.nlm.nih.gov/28700839/)
 [^edaravone-als-2017]: Writing Group, Edaravone ALS 19 Study Group. Safety and efficacy of edaravone in well defined patients with amyotrophic lateral sclerosis. *Lancet Neurol.* 2017;16(7):505-512. [doi:10.1016/S1474-4422(17)30115-1](https://doi.org/10.1016/S1474-4422(17)30115-1) · [PubMed 28522180](https://pubmed.ncbi.nlm.nih.gov/28522180/)
