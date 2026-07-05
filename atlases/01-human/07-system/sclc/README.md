@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "Ectopic neuroendocrine secretion: as a neuroendocrine tumour small cell lung cancer can ectopically secrete calcitonin alongside ACTH and vasopressin (both already mapped), a paraneoplastic hormone output reflecting its chromaffin-like differentiation."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Immunotherapy: IL-2-driven T-cell expansion complements the checkpoint inhibitors (PD-1/CTLA-4 already mapped) now added to chemotherapy for small cell lung cancer, one of the few advances in a disease with otherwise poor durable control."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Tumour lysis: small cell lung cancer is highly chemosensitive with rapid, bulky responses, and the resulting tumour-lysis syndrome releases purines that xanthine oxidase converts to uric acid, managed with allopurinol or rasburicase."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Anaemia: the intensive chemotherapy and marrow involvement of small cell lung cancer suppress erythropoiesis, lowering haemoglobin and causing the anaemia that adds to the fatigue of this aggressive disease."
 ---
 
 # Small Cell Lung Cancer
@@ -629,6 +638,9 @@ SCLC has highest rate of brain metastases among solid tumors (~50% at 2 years); 
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immunotherapy target: small cell lung cancer is now treated with checkpoint inhibitors added to chemotherapy, and MHC class II antigen presentation shapes the T-cell response, with its frequent downregulation contributing to the tumour's immune evasion.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Autocrine growth loop: small cell lung cancer cells express IGF-1 receptor and drive an autocrine IGF-1/IGF-1R signalling loop that sustains proliferation and survival, a growth-factor dependency explored as a therapeutic vulnerability.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Ectopic neuroendocrine secretion: as a neuroendocrine tumour small cell lung cancer can ectopically secrete calcitonin alongside ACTH and vasopressin (both already mapped), a paraneoplastic hormone output reflecting its chromaffin-like differentiation.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Immunotherapy: IL-2-driven T-cell expansion complements the checkpoint inhibitors (PD-1/CTLA-4 already mapped) now added to chemotherapy for small cell lung cancer, one of the few advances in a disease with otherwise poor durable control.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Tumour lysis: small cell lung cancer is highly chemosensitive with rapid, bulky responses, and the resulting tumour-lysis syndrome releases purines that xanthine oxidase converts to uric acid, managed with allopurinol or rasburicase.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Anaemia: the intensive chemotherapy and marrow involvement of small cell lung cancer suppress erythropoiesis, lowering haemoglobin and causing the anaemia that adds to the fatigue of this aggressive disease.
 
 [^horn-2018-impower133]: Horn L, Mansfield AS, Szczęsna A, et al. First-line atezolizumab plus chemotherapy in extensive-stage small-cell lung cancer. *N Engl J Med.* 2018;379(23):2220-2229. [doi:10.1056/NEJMoa1809064](https://doi.org/10.1056/NEJMoa1809064) · [PubMed 30280641](https://pubmed.ncbi.nlm.nih.gov/30280641/)
 [^paz-ares-2019-caspian]: Paz-Ares L, Dvorkin M, Chen Y, et al. Durvalumab plus platinum-etoposide versus platinum-etoposide in first-line treatment of extensive-stage small-cell lung cancer (CASPIAN). *Lancet.* 2019;394(10212):1929-1939. [doi:10.1016/S0140-6736(19)32222-6](https://doi.org/10.1016/S0140-6736(19)32222-6) · [PubMed 31590988](https://pubmed.ncbi.nlm.nih.gov/31590988/)

@@ -400,6 +400,15 @@ cross_links:
   - target: 01-human/03-molecular/secretory-iga
     relation: connects-to
     note: "Mucosal secretory failure: lymphocytic destruction of exocrine glands reduces secretory IgA output into saliva and tears, weakening the mucosal immune barrier at the ocular and oral surfaces damaged by the sicca disease."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Anaemia and cytopenias: chronic inflammation and autoimmune cytopenias in Sjögren's syndrome lower haemoglobin, and anaemia with leukopenia is a common systemic feature alongside the hypergammaglobulinaemia (immunoglobulin G already mapped)."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Th2 B-cell help: IL-4 and type-2 T-cell help support the intense B-cell activation (BAFF already mapped) that produces the anti-Ro/La autoantibodies and drives the germinal-centre-like lymphoid organisation of the affected glands in Sjögren's."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Congenital heart block: anti-Ro/SSA antibodies from mothers with Sjögren's cross the placenta and damage the fetal cardiac conduction system, causing neonatal lupus with congenital complete heart block, a serious pregnancy complication."
 ---
 
 # Sjögren's Syndrome
@@ -657,6 +666,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Hypergammaglobulinaemia: polyclonal B-cell activation in Sjögren's produces marked IgG elevation and the diagnostic anti-Ro/SSA and anti-La/SSB autoantibodies, and this sustained IgG autoreactivity underlies the risk of transformation to MALT lymphoma.
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Sex-hormone dimension: the striking female predominance and typical postmenopausal onset implicate declining estrogen in the glandular epithelial apoptosis and loss of immune tolerance that characterise Sjögren's syndrome.
 - `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — Mucosal secretory failure: lymphocytic destruction of exocrine glands reduces secretory IgA output into saliva and tears, weakening the mucosal immune barrier at the ocular and oral surfaces damaged by the sicca disease.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Anaemia and cytopenias: chronic inflammation and autoimmune cytopenias in Sjögren's syndrome lower haemoglobin, and anaemia with leukopenia is a common systemic feature alongside the hypergammaglobulinaemia (immunoglobulin G already mapped).
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Th2 B-cell help: IL-4 and type-2 T-cell help support the intense B-cell activation (BAFF already mapped) that produces the anti-Ro/La autoantibodies and drives the germinal-centre-like lymphoid organisation of the affected glands in Sjögren's.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Congenital heart block: anti-Ro/SSA antibodies from mothers with Sjögren's cross the placenta and damage the fetal cardiac conduction system, causing neonatal lupus with congenital complete heart block, a serious pregnancy complication.
 
 ---
 
