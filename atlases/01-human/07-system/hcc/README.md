@@ -400,6 +400,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "Growth-factor axis: reactivation of IGF-2 and IGF-1R signalling is common in hepatocellular carcinoma, driving proliferation and survival, and links the tumour to the metabolic and NASH pathways that increasingly cause it."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "Cirrhotic field: most hepatocellular carcinoma arises in cirrhosis, the collagen scarring laid down by activated stellate cells (TGF-beta and PDGF already mapped), and the degree of this fibrosis governs both cancer risk and treatment tolerance."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Immunotherapy: IL-2-driven T-cell responses underlie the checkpoint immunotherapy (PD-1 and CTLA-4 already mapped) that, with anti-VEGF, is now first-line for advanced hepatocellular carcinoma, reflecting its immunogenic biology."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Bleeding and anaemia: hepatocellular carcinoma on cirrhosis causes variceal and tumour bleeding, and the anaemia of chronic liver disease (hepcidin already mapped) lowers haemoglobin, both contributing to the morbidity of advanced disease."
 ---
 
 # Hepatocellular Carcinoma
@@ -665,6 +674,9 @@ In high-risk patients (cirrhosis, HBV regardless of cirrhosis): ultrasound ± AF
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immunotherapy: the checkpoint-inhibitor combination atezolizumab-bevacizumab is now first-line for advanced hepatocellular carcinoma, and MHC class II antigen presentation shapes the T-cell response that determines immunotherapy benefit.
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Male predominance: hepatocellular carcinoma is far more common in men, and estrogen is thought to protect the female liver by dampening IL-6-driven inflammation (androgen receptor already mapped), contributing to the sex difference in incidence.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Growth-factor axis: reactivation of IGF-2 and IGF-1R signalling is common in hepatocellular carcinoma, driving proliferation and survival, and links the tumour to the metabolic and NASH pathways that increasingly cause it.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Cirrhotic field: most hepatocellular carcinoma arises in cirrhosis, the collagen scarring laid down by activated stellate cells (TGF-beta and PDGF already mapped), and the degree of this fibrosis governs both cancer risk and treatment tolerance.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Immunotherapy: IL-2-driven T-cell responses underlie the checkpoint immunotherapy (PD-1 and CTLA-4 already mapped) that, with anti-VEGF, is now first-line for advanced hepatocellular carcinoma, reflecting its immunogenic biology.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Bleeding and anaemia: hepatocellular carcinoma on cirrhosis causes variceal and tumour bleeding, and the anaemia of chronic liver disease (hepcidin already mapped) lowers haemoglobin, both contributing to the morbidity of advanced disease.
 
 [^llovet-2008-sorafenib]: Llovet JM, Ricci S, Mazzaferro V, et al. Sorafenib in advanced hepatocellular carcinoma. *N Engl J Med.* 2008;359(4):378-390. [doi:10.1056/NEJMoa0708857](https://doi.org/10.1056/NEJMoa0708857) · [PubMed 18650514](https://pubmed.ncbi.nlm.nih.gov/18650514/)
 [^finn-2020-imbrave150]: Finn RS, Qin S, Ikeda M, et al. Atezolizumab plus bevacizumab in unresectable hepatocellular carcinoma. *N Engl J Med.* 2020;382(20):1894-1905. [doi:10.1056/NEJMoa1915745](https://doi.org/10.1056/NEJMoa1915745) · [PubMed 32402160](https://pubmed.ncbi.nlm.nih.gov/32402160/)

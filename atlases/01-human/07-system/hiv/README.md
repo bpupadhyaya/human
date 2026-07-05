@@ -409,6 +409,15 @@ cross_links:
   - target: 01-human/03-molecular/hemoglobin
     relation: connects-to
     note: "HIV anaemia: anaemia is common in HIV from chronic inflammation, marrow suppression, opportunistic infection and drug toxicity, lowering haemoglobin and independently predicting worse outcomes."
+  - target: 01-human/03-molecular/immunoglobulin-g
+    relation: connects-to
+    note: "Broadly neutralising antibodies: rare broadly neutralising IgG antibodies against conserved envelope epitopes (gp120 already mapped) can control diverse HIV strains, and eliciting them is the central goal of HIV vaccine and antibody-therapy research."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Th2 shift: progression of HIV is accompanied by a shift from protective Th1 toward IL-4-driven type-2 responses and B-cell hyperactivation (BAFF already mapped), a change in the cytokine balance that tracks with immune deterioration."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Antiretroviral metabolic effects: some antiretroviral drugs cause insulin resistance, lipodystrophy and metabolic syndrome, a treatment-related metabolic burden that contributes to the cardiovascular risk of people living with HIV."
 ---
 
 # HIV
@@ -674,6 +683,9 @@ The **latent reservoir** — HIV integrated into quiescent resting memory CD4+ T
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — CD4 target and evasion: HIV infects the MHC class II-restricted CD4 helper T cells whose progressive loss defines the immunodeficiency, and the virus downregulates MHC to evade cytotoxic recognition.
 - `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — Mucosal transmission: HIV establishes infection by crossing genital and rectal mucosae, and secretory IgA at these surfaces is part of the mucosal immunity that vaccine and prevention efforts aim to strengthen against transmission.
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — HIV anaemia: anaemia is common in HIV from chronic inflammation, marrow suppression, opportunistic infection and drug toxicity, lowering haemoglobin and independently predicting worse outcomes.
+- `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Broadly neutralising antibodies: rare broadly neutralising IgG antibodies against conserved envelope epitopes (gp120 already mapped) can control diverse HIV strains, and eliciting them is the central goal of HIV vaccine and antibody-therapy research.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Th2 shift: progression of HIV is accompanied by a shift from protective Th1 toward IL-4-driven type-2 responses and B-cell hyperactivation (BAFF already mapped), a change in the cytokine balance that tracks with immune deterioration.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Antiretroviral metabolic effects: some antiretroviral drugs cause insulin resistance, lipodystrophy and metabolic syndrome, a treatment-related metabolic burden that contributes to the cardiovascular risk of people living with HIV.
 
 [^barre-sinoussi-1983-hiv-isolation]: Barré-Sinoussi F, Chermann JC, Rey F, et al. Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS). *Science.* 1983;220(4599):868-871. [doi:10.1126/science.6189183](https://doi.org/10.1126/science.6189183) · [PubMed 6189183](https://pubmed.ncbi.nlm.nih.gov/6189183/)
 [^ho-1995-viral-dynamics]: Ho DD, Neumann AU, Perelson AS, et al. Rapid turnover of plasma virions and CD4 lymphocytes in HIV-1 infection. *Nature.* 1995;373(6510):123-126. [doi:10.1038/373123a0](https://doi.org/10.1038/373123a0) · [PubMed 7816094](https://pubmed.ncbi.nlm.nih.gov/7816094/)
