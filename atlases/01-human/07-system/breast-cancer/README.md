@@ -397,6 +397,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Complement C3 participates in the inflammatory tumor microenvironment of breast cancer."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "TNBC immunotherapy: triple-negative breast cancer, lacking hormone and HER2 targets, is the subtype most responsive to checkpoint inhibitors, and MHC class II antigen presentation with tumour-infiltrating lymphocytes predicts that immune response."
+  - target: 01-human/03-molecular/axl-receptor
+    relation: connects-to
+    note: "Therapy resistance: the AXL receptor tyrosine kinase drives epithelial-mesenchymal transition, metastasis and resistance to endocrine and targeted therapy in breast cancer, a candidate target for reversing treatment escape."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Obesity risk: obesity raises postmenopausal breast-cancer risk through adipose aromatase-derived estrogen (already mapped) and the adipokine leptin, which promotes tumour-cell proliferation, linking metabolism to breast carcinogenesis."
 ---
 
 # Breast Cancer
@@ -629,6 +638,9 @@ cross_links:
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the tumor-immune microenvironment of breast cancer.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory tumor microenvironment of breast cancer.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory tumor microenvironment of breast cancer.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — TNBC immunotherapy: triple-negative breast cancer, lacking hormone and HER2 targets, is the subtype most responsive to checkpoint inhibitors, and MHC class II antigen presentation with tumour-infiltrating lymphocytes predicts that immune response.
+- `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — Therapy resistance: the AXL receptor tyrosine kinase drives epithelial-mesenchymal transition, metastasis and resistance to endocrine and targeted therapy in breast cancer, a candidate target for reversing treatment escape.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Obesity risk: obesity raises postmenopausal breast-cancer risk through adipose aromatase-derived estrogen (already mapped) and the adipokine leptin, which promotes tumour-cell proliferation, linking metabolism to breast carcinogenesis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

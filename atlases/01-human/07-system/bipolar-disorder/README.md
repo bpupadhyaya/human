@@ -400,6 +400,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Complement C3 participates in the microglial and neuroinflammatory processes implicated in bipolar disorder."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Purinergic mania: elevated uric acid produced by xanthine oxidase is associated with manic episodes, and the xanthine-oxidase inhibitor allopurinol has shown antimanic effects, supporting a purinergic dimension (adenosine already mapped) of bipolar disorder."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Metabolic comorbidity: bipolar disorder carries a heavy burden of obesity and metabolic syndrome, worsened by mood stabilisers and antipsychotics, and leptin dysregulation links the affective illness to its cardiometabolic morbidity."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Nitrosative stress: increased nitric oxide and nitrosative stress accompany mood episodes in bipolar disorder, contributing to the mitochondrial and neuronal dysfunction implicated in its pathophysiology."
 ---
 
 # Bipolar Disorder
@@ -657,6 +666,9 @@ During bipolar depression (often longer and more disabling than mania):
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the neurodevelopmental gene programs implicated in bipolar disorder.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine signaling participates in the neuromodulation and sleep-circadian processes implicated in bipolar disorder.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the microglial and neuroinflammatory processes implicated in bipolar disorder.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Purinergic mania: elevated uric acid produced by xanthine oxidase is associated with manic episodes, and the xanthine-oxidase inhibitor allopurinol has shown antimanic effects, supporting a purinergic dimension (adenosine already mapped) of bipolar disorder.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Metabolic comorbidity: bipolar disorder carries a heavy burden of obesity and metabolic syndrome, worsened by mood stabilisers and antipsychotics, and leptin dysregulation links the affective illness to its cardiometabolic morbidity.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Nitrosative stress: increased nitric oxide and nitrosative stress accompany mood episodes in bipolar disorder, contributing to the mitochondrial and neuronal dysfunction implicated in its pathophysiology.
 
 [^grande-2016-bipolar-review]: Grande I, Berk M, Birmaher B, Vieta E. Bipolar disorder. *Lancet.* 2016;387(10027):1561-1572. [doi:10.1016/S0140-6736(15)00241-X](https://doi.org/10.1016/S0140-6736(15)00241-X) · [PubMed 26388529](https://pubmed.ncbi.nlm.nih.gov/26388529/)
 [^geddes-2013-bipolar-treatment]: Geddes JR, Miklowitz DJ. Treatment of bipolar disorder. *Lancet.* 2013;381(9878):1672-1682. [doi:10.1016/S0140-6736(13)60857-0](https://doi.org/10.1016/S0140-6736(13)60857-0) · [PubMed 23663953](https://pubmed.ncbi.nlm.nih.gov/23663953/)
