@@ -393,6 +393,15 @@ cross_links:
   - target: 01-human/03-molecular/calcineurin
     relation: connects-to
     note: "Calcineurin-NFAT signaling participates in the T-cell and immune activation of Aicardi-Goutières syndrome."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Vasculopathy: the small-vessel inflammatory vasculopathy of Aicardi-Goutières, which causes chilblain skin lesions and cerebral vascular changes, involves endothelial dysfunction with impaired nitric-oxide signalling (endothelin-1 already mapped)."
+  - target: 01-human/03-molecular/immunoglobulin-g
+    relation: connects-to
+    note: "Lupus-like autoantibodies: many patients with Aicardi-Goutières develop antinuclear and other IgG autoantibodies, reflecting the shared type I interferon signature (already mapped) that links this monogenic interferonopathy to systemic lupus."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "Encephalopathy: the chronic type I interferon-driven neuroinflammation of Aicardi-Goutières damages white matter and neurons, and loss of neurotrophic BDNF support contributes to the developmental regression and progressive encephalopathy."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -612,6 +621,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the neuroinflammatory response of Aicardi-Goutières syndrome.
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the interferon-driven gene programs of Aicardi-Goutières syndrome.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the T-cell and immune activation of Aicardi-Goutières syndrome.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Vasculopathy: the small-vessel inflammatory vasculopathy of Aicardi-Goutières, which causes chilblain skin lesions and cerebral vascular changes, involves endothelial dysfunction with impaired nitric-oxide signalling (endothelin-1 already mapped).
+- `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Lupus-like autoantibodies: many patients with Aicardi-Goutières develop antinuclear and other IgG autoantibodies, reflecting the shared type I interferon signature (already mapped) that links this monogenic interferonopathy to systemic lupus.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Encephalopathy: the chronic type I interferon-driven neuroinflammation of Aicardi-Goutières damages white matter and neurons, and loss of neurotrophic BDNF support contributes to the developmental regression and progressive encephalopathy.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
