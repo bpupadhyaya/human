@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/mhc-class-ii
     relation: connects-to
     note: "Immune-cold tumour: retinoblastoma grows in the immune-privileged eye with low MHC class II antigen presentation, limiting T-cell recognition, a barrier to the immunotherapies increasingly explored for refractory and metastatic disease."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Cellular immunotherapy: IL-2-driven T-cell expansion supports the CAR-T and adoptive approaches (GD2 and others) being explored for refractory or metastatic retinoblastoma, which resists immune attack in its privileged ocular site (MHC class II already mapped)."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Checkpoint context: PD-1 checkpoint blockade is of limited benefit in the immune-cold, low-mutation retinoblastoma, motivating combination strategies for the rare metastatic cases that escape local control."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Chemotherapy myelosuppression: the systemic and intra-arterial chemotherapy used to preserve the eye in retinoblastoma is myelosuppressive, lowering haemoglobin and requiring supportive care in these young children."
 ---
 
 # Retinoblastoma
@@ -632,6 +641,9 @@ Standard regimen: **vincristine + carboplatin + etoposide (VCE)**, 6 cycles; red
 - `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — Neurotrophin survival: retinoblastoma cells express the TrkB receptor for BDNF (BDNF already mapped), and this neurotrophin signalling supports tumour-cell survival and chemoresistance, a targetable axis in this photoreceptor-derived cancer.
 - `connects-to` → **[Thyroid hormones](../../03-molecular/thyroid-hormones/README.md)** — Cone-precursor origin: retinoblastoma arises from cone photoreceptor precursors whose identity depends on thyroid-hormone-receptor (TRbeta) signalling, tying the tumour's cell of origin to thyroid-hormone-driven cone specification in the developing retina.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immune-cold tumour: retinoblastoma grows in the immune-privileged eye with low MHC class II antigen presentation, limiting T-cell recognition, a barrier to the immunotherapies increasingly explored for refractory and metastatic disease.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Cellular immunotherapy: IL-2-driven T-cell expansion supports the CAR-T and adoptive approaches (GD2 and others) being explored for refractory or metastatic retinoblastoma, which resists immune attack in its privileged ocular site (MHC class II already mapped).
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Checkpoint context: PD-1 checkpoint blockade is of limited benefit in the immune-cold, low-mutation retinoblastoma, motivating combination strategies for the rare metastatic cases that escape local control.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Chemotherapy myelosuppression: the systemic and intra-arterial chemotherapy used to preserve the eye in retinoblastoma is myelosuppressive, lowering haemoglobin and requiring supportive care in these young children.
 
 [^knudson-1971-two-hit]: Knudson AG Jr. Mutation and cancer: statistical study of retinoblastoma. *Proc Natl Acad Sci USA.* 1971;68(4):820-823. [doi:10.1073/pnas.68.4.820](https://doi.org/10.1073/pnas.68.4.820) · [PubMed 5279523](https://pubmed.ncbi.nlm.nih.gov/5279523/)
 [^shields-2008-retinoblastoma]: Shields CL, Shields JA. Retinoblastoma management: advances in enucleation, intravenous chemoreduction, and intra-arterial chemotherapy. *Curr Opin Ophthalmol.* 2010;21(3):203-212. [doi:10.1097/ICU.0b013e328338676a](https://doi.org/10.1097/ICU.0b013e328338676a) · [PubMed 20224400](https://pubmed.ncbi.nlm.nih.gov/20224400/)

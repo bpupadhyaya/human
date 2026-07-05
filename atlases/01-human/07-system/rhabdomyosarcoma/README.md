@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/mhc-class-ii
     relation: connects-to
     note: "Immune-cold sarcoma: rhabdomyosarcoma presents few neoantigens and low MHC class II-mediated antigen presentation, contributing to the poor responses to checkpoint blockade seen in this paediatric sarcoma."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Cellular immunotherapy: IL-2-driven T-cell expansion supports the HER2- and other antigen-directed CAR-T therapies (perforin already mapped) being tested against rhabdomyosarcoma, an approach to overcome its poor response to checkpoint blockade."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Marrow infiltration and chemotherapy: alveolar rhabdomyosarcoma can infiltrate the bone marrow (already mapped), and the intensive VAC chemotherapy is myelosuppressive, both lowering haemoglobin and causing the anaemia that requires transfusion support."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Checkpoint resistance: rhabdomyosarcoma's low mutational burden and cold microenvironment (MHC class II already mapped) blunt PD-1 checkpoint blockade, driving interest in combinations and antigen-directed cellular therapy instead."
 ---
 
 # Rhabdomyosarcoma
@@ -647,6 +656,9 @@ Maximal safe resection with negative margins (R0) wherever achievable without mu
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Muscle differentiation hallmark: rhabdomyosarcoma is defined by skeletal-muscle differentiation, and its rhabdomyoblasts assemble the sarcomeric contractile apparatus including troponin, the myogenic phenotype that anchors diagnosis alongside desmin and myogenin.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Bone and marrow spread: rhabdomyosarcoma frequently metastasises to bone and marrow, where RANKL-driven osteoclast activation produces the osteolysis and marrow infiltration that can mimic leukaemia and cause skeletal events.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immune-cold sarcoma: rhabdomyosarcoma presents few neoantigens and low MHC class II-mediated antigen presentation, contributing to the poor responses to checkpoint blockade seen in this paediatric sarcoma.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Cellular immunotherapy: IL-2-driven T-cell expansion supports the HER2- and other antigen-directed CAR-T therapies (perforin already mapped) being tested against rhabdomyosarcoma, an approach to overcome its poor response to checkpoint blockade.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Marrow infiltration and chemotherapy: alveolar rhabdomyosarcoma can infiltrate the bone marrow (already mapped), and the intensive VAC chemotherapy is myelosuppressive, both lowering haemoglobin and causing the anaemia that requires transfusion support.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Checkpoint resistance: rhabdomyosarcoma's low mutational burden and cold microenvironment (MHC class II already mapped) blunt PD-1 checkpoint blockade, driving interest in combinations and antigen-directed cellular therapy instead.
 
 [^crist-2001-irs4-rms]: Crist WM, Anderson JR, Meza JL, et al. Intergroup rhabdomyosarcoma study-IV: results for patients with nonmetastatic disease. *J Clin Oncol.* 2001;19(12):3091-3102. [doi:10.1200/JCO.2001.19.12.3091](https://doi.org/10.1200/JCO.2001.19.12.3091) · [PubMed 11408506](https://pubmed.ncbi.nlm.nih.gov/11408506/)
 [^oberlin-2012-mmt95-rms]: Oberlin O, Rey A, Sanchez de Toledo J, et al. Randomized comparison of intensified six-drug versus standard three-drug chemotherapy for high-risk nonmetastatic rhabdomyosarcoma and other chemotherapy-sensitive childhood soft tissue sarcomas. *J Clin Oncol.* 2012;30(19):2457-2465. [doi:10.1200/JCO.2011.39.3538](https://doi.org/10.1200/JCO.2011.39.3538) · [PubMed 22665546](https://pubmed.ncbi.nlm.nih.gov/22665546/)
