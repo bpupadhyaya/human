@@ -399,6 +399,15 @@ cross_links:
   - target: 01-human/03-molecular/glucocorticoid-receptor
     relation: connects-to
     note: "Reactivation risk: immunosuppression, notably corticosteroids acting through the glucocorticoid receptor and B-cell-depleting therapy, can trigger HBV reactivation, mandating antiviral prophylaxis in HBsAg or anti-HBc-positive patients."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "T-cell exhaustion reversal: chronic hepatitis B is marked by exhausted HBV-specific T cells (PD-1 already mapped), and restoring IL-2-driven T-cell function is a goal of the therapeutic vaccines and immunomodulators pursued for functional cure."
+  - target: 01-human/03-molecular/ctla-4
+    relation: connects-to
+    note: "Immune checkpoints: alongside PD-1 (already mapped), CTLA-4 contributes to the T-cell exhaustion that lets hepatitis B persist, and checkpoint modulation is being explored to reinvigorate the antiviral response toward a cure."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Iron and fibrosis: chronic hepatitis B disturbs the hepatocyte production of hepcidin, and the resulting hepatic iron accumulation promotes the oxidative injury and fibrosis that accelerate progression to cirrhosis and liver cancer."
 ---
 
 # Hepatitis B
@@ -661,3 +670,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Clearance and vaccine: MHC class II-restricted CD4 T-cell help is essential for clearing HBV and for the protective anti-HBs antibody response raised by vaccination, and its failure to sustain help contributes to progression to chronic infection.
 - `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — Hepatocellular carcinoma: chronic hepatitis B is a leading cause of hepatocellular carcinoma, where the AXL receptor tyrosine kinase drives the invasion and treatment resistance of the resulting liver cancer beyond the viral integration and beta-catenin drivers already mapped.
 - `connects-to` → **[Glucocorticoid receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Reactivation risk: immunosuppression, notably corticosteroids acting through the glucocorticoid receptor and B-cell-depleting therapy, can trigger HBV reactivation, mandating antiviral prophylaxis in HBsAg or anti-HBc-positive patients.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell exhaustion reversal: chronic hepatitis B is marked by exhausted HBV-specific T cells (PD-1 already mapped), and restoring IL-2-driven T-cell function is a goal of the therapeutic vaccines and immunomodulators pursued for functional cure.
+- `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Immune checkpoints: alongside PD-1 (already mapped), CTLA-4 contributes to the T-cell exhaustion that lets hepatitis B persist, and checkpoint modulation is being explored to reinvigorate the antiviral response toward a cure.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Iron and fibrosis: chronic hepatitis B disturbs the hepatocyte production of hepcidin, and the resulting hepatic iron accumulation promotes the oxidative injury and fibrosis that accelerate progression to cirrhosis and liver cancer.
