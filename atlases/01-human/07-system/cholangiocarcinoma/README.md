@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "T-cell response: IL-2-driven T-cell expansion supports the anti-tumour immunity and adoptive-cell approaches under investigation for cholangiocarcinoma alongside checkpoint blockade (PD-1 already mapped)."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "Desmoplastic fibrosis: the collagen-rich stroma laid down by cancer-associated fibroblasts (already mapped) forms the dense desmoplastic tumour characteristic of cholangiocarcinoma, obstructing bile ducts and limiting drug penetration."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Cholestasis and anaemia: biliary obstruction, chronic inflammation and gastrointestinal bleeding in cholangiocarcinoma lower haemoglobin, and the anaemia of chronic disease compounds the malaise of the advanced tumour."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative carcinogenesis: chronic biliary inflammation and cholestasis (from stones, flukes or sclerosing cholangitis) generate oxidative stress, to which xanthine oxidase contributes, driving the DNA damage that initiates cholangiocarcinoma."
 ---
 
 # Cholangiocarcinoma
@@ -628,6 +637,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immunotherapy: adding the checkpoint inhibitor durvalumab to chemotherapy is now standard for advanced biliary tract cancer, and MHC class II antigen presentation shapes the T-cell response that determines the benefit.
 - `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — Invasion and resistance: the AXL receptor tyrosine kinase drives the epithelial-mesenchymal transition and treatment resistance of cholangiocarcinoma, a mechanism of progression beyond the FGFR and IDH targets already mapped.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell response: IL-2-driven T-cell expansion supports the anti-tumour immunity and adoptive-cell approaches under investigation for cholangiocarcinoma alongside checkpoint blockade (PD-1 already mapped).
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Desmoplastic fibrosis: the collagen-rich stroma laid down by cancer-associated fibroblasts (already mapped) forms the dense desmoplastic tumour characteristic of cholangiocarcinoma, obstructing bile ducts and limiting drug penetration.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Cholestasis and anaemia: biliary obstruction, chronic inflammation and gastrointestinal bleeding in cholangiocarcinoma lower haemoglobin, and the anaemia of chronic disease compounds the malaise of the advanced tumour.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative carcinogenesis: chronic biliary inflammation and cholestasis (from stones, flukes or sclerosing cholangitis) generate oxidative stress, to which xanthine oxidase contributes, driving the DNA damage that initiates cholangiocarcinoma.
 
 ---
 

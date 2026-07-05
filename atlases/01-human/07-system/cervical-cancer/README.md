@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/axl-receptor
     relation: connects-to
     note: "Invasion and resistance: the AXL receptor tyrosine kinase promotes the epithelial-mesenchymal transition and treatment resistance of advanced cervical cancer, a mechanism of progression beyond the HPV-driven oncogenes already mapped."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "TIL immunotherapy: IL-2-driven expansion of tumour-infiltrating lymphocytes (perforin and PD-1 already mapped) underlies the TIL cell therapy now approved for HPV-associated cervical cancer, exploiting its viral neoantigens."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Bleeding and anaemia: abnormal vaginal bleeding is the cardinal symptom of cervical cancer, and the chronic blood loss with chemoradiotherapy myelosuppression lowers haemoglobin, the anaemia that itself worsens radiotherapy outcomes."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive microenvironment: HPV and the cervical tumour induce IL-10 and other immunosuppressive signals that blunt the anti-viral T-cell response, helping the infection persist and the cancer evade immunity."
 ---
 
 # Cervical Cancer
@@ -654,6 +663,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — HPV immunity and vaccine: MHC class II-restricted T-cell help underlies the antibody response (IgG already mapped) to the HPV vaccine, and HPV's downregulation of antigen presentation helps established cervical cancers evade immune clearance.
 - `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — Mucosal defence: secretory IgA at the cervicovaginal mucosa contributes to local immunity against HPV, part of the mucosal barrier that the vaccine and natural infection engage at the site of transmission.
 - `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — Invasion and resistance: the AXL receptor tyrosine kinase promotes the epithelial-mesenchymal transition and treatment resistance of advanced cervical cancer, a mechanism of progression beyond the HPV-driven oncogenes already mapped.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — TIL immunotherapy: IL-2-driven expansion of tumour-infiltrating lymphocytes (perforin and PD-1 already mapped) underlies the TIL cell therapy now approved for HPV-associated cervical cancer, exploiting its viral neoantigens.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Bleeding and anaemia: abnormal vaginal bleeding is the cardinal symptom of cervical cancer, and the chronic blood loss with chemoradiotherapy myelosuppression lowers haemoglobin, the anaemia that itself worsens radiotherapy outcomes.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: HPV and the cervical tumour induce IL-10 and other immunosuppressive signals that blunt the anti-viral T-cell response, helping the infection persist and the cancer evade immunity.
 
 ---
 
