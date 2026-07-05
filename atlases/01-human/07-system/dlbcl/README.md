@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Tumour lysis: bulky, rapidly proliferating diffuse large B-cell lymphoma is prone to tumour-lysis syndrome on treatment, releasing purines that xanthine oxidase converts to uric acid, managed with allopurinol or rasburicase."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Anthracycline cardiotoxicity: the doxorubicin in R-CHOP is cardiotoxic, and troponin elevation helps detect the myocardial injury that limits the cumulative anthracycline dose curing diffuse large B-cell lymphoma."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Marrow involvement and anaemia: bone-marrow infiltration by diffuse large B-cell lymphoma and its immunochemotherapy lower haemoglobin, the anaemia adding to the constitutional symptoms and treatment morbidity of the disease."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Tumour-lysis acidosis: the rapid lysis of bulky diffuse large B-cell lymphoma by chemotherapy releases acids that, with lactate, produce the metabolic acidosis of tumour-lysis syndrome (urate and potassium already mapped)."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -653,6 +662,9 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immune escape: DLBCL frequently loses MHC antigen presentation to evade T cells, especially the ABC subtype, and preserved antigen presentation shapes the response to the bispecific-antibody and CAR-T therapies now central to treatment.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell therapies: IL-2-driven T-cell expansion underlies the CD19 CAR-T and CD20xCD3 bispecific therapies (perforin already mapped) that have transformed the treatment of relapsed diffuse large B-cell lymphoma.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Tumour lysis: bulky, rapidly proliferating diffuse large B-cell lymphoma is prone to tumour-lysis syndrome on treatment, releasing purines that xanthine oxidase converts to uric acid, managed with allopurinol or rasburicase.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Anthracycline cardiotoxicity: the doxorubicin in R-CHOP is cardiotoxic, and troponin elevation helps detect the myocardial injury that limits the cumulative anthracycline dose curing diffuse large B-cell lymphoma.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Marrow involvement and anaemia: bone-marrow infiltration by diffuse large B-cell lymphoma and its immunochemotherapy lower haemoglobin, the anaemia adding to the constitutional symptoms and treatment morbidity of the disease.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Tumour-lysis acidosis: the rapid lysis of bulky diffuse large B-cell lymphoma by chemotherapy releases acids that, with lactate, produce the metabolic acidosis of tumour-lysis syndrome (urate and potassium already mapped).
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

@@ -401,6 +401,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Gasotransmitter signalling: nitric oxide is a diffusible gaseous messenger released by endothelium and neurons, a non-classical endocrine/paracrine signal that regulates vascular tone and complements peptide and steroid hormone systems."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Steroid precursor: cholesterol is the common precursor of every steroid hormone, converted in the adrenal cortex and gonads to cortisol, aldosterone and the sex steroids (all already mapped), the biochemical root of the steroid endocrine axes."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Thyroid activation: selenium-dependent deiodinase enzymes convert thyroxine to the active triiodothyronine (thyroid hormones already mapped), making this trace element essential to the peripheral regulation of thyroid hormone action."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Cutaneous endocrine function: the skin synthesises vitamin D from cholesterol under ultraviolet light, an endocrine role that feeds the calcium-regulating axis (PTH and FGF23 already mapped) and illustrates hormone production beyond the classical glands."
 ---
 
 # Endocrine System
@@ -686,6 +695,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Neuroendocrine signalling: serotonin is a neuroendocrine hormone made by gut enterochromaffin cells and the pineal gland, and its overproduction by neuroendocrine (carcinoid) tumours illustrates the diffuse endocrine tissue beyond the classic glands.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Paracrine hormones: prostaglandins are locally acting lipid mediators that, alongside the circulating hormones, exemplify the paracrine and autocrine signalling that broadens the endocrine system beyond gland-to-bloodstream secretion.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Gasotransmitter signalling: nitric oxide is a diffusible gaseous messenger released by endothelium and neurons, a non-classical endocrine/paracrine signal that regulates vascular tone and complements peptide and steroid hormone systems.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Steroid precursor: cholesterol is the common precursor of every steroid hormone, converted in the adrenal cortex and gonads to cortisol, aldosterone and the sex steroids (all already mapped), the biochemical root of the steroid endocrine axes.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Thyroid activation: selenium-dependent deiodinase enzymes convert thyroxine to the active triiodothyronine (thyroid hormones already mapped), making this trace element essential to the peripheral regulation of thyroid hormone action.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Cutaneous endocrine function: the skin synthesises vitamin D from cholesterol under ultraviolet light, an endocrine role that feeds the calcium-regulating axis (PTH and FGF23 already mapped) and illustrates hormone production beyond the classical glands.
 
 ## Pathology
 
