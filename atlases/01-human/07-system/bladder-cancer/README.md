@@ -400,6 +400,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Complement C3 participates in the inflammatory tumor microenvironment of bladder cancer."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "BCG immunotherapy: intravesical BCG for high-risk non-muscle-invasive bladder cancer induces a Th1 immune response with MHC-restricted antigen presentation and interferon-gamma (already mapped), and antigen presentation also governs the checkpoint-inhibitor response."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "T-cell response: IL-2-driven T-cell expansion underlies both the BCG-induced antitumour immunity and the checkpoint-inhibitor responses (PD-1 already mapped) that have expanded treatment of advanced bladder cancer."
+  - target: 01-human/03-molecular/axl-receptor
+    relation: connects-to
+    note: "Invasion and resistance: the AXL receptor tyrosine kinase drives the epithelial-mesenchymal transition and treatment resistance of muscle-invasive bladder cancer, a mechanism of progression beyond the FGFR and HER2 targets already mapped."
 ---
 
 # Bladder Cancer
@@ -648,6 +657,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the tumor-immune microenvironment of bladder cancer.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory tumor microenvironment (and BCG-response immunology) of bladder cancer.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory tumor microenvironment of bladder cancer.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — BCG immunotherapy: intravesical BCG for high-risk non-muscle-invasive bladder cancer induces a Th1 immune response with MHC-restricted antigen presentation and interferon-gamma (already mapped), and antigen presentation also governs the checkpoint-inhibitor response.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell response: IL-2-driven T-cell expansion underlies both the BCG-induced antitumour immunity and the checkpoint-inhibitor responses (PD-1 already mapped) that have expanded treatment of advanced bladder cancer.
+- `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — Invasion and resistance: the AXL receptor tyrosine kinase drives the epithelial-mesenchymal transition and treatment resistance of muscle-invasive bladder cancer, a mechanism of progression beyond the FGFR and HER2 targets already mapped.
 
 ---
 

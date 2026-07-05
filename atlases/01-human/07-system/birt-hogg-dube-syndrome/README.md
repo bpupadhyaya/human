@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Complement C3 participates in the inflammatory tumor microenvironment of Birt-Hogg-Dubé syndrome."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Metabolic reprogramming: folliculin loss dysregulates the AMPK energy sensor it partners with (AMPK already mapped) and the mTOR pathway, shifting cellular metabolism and mitochondrial biogenesis in a way that also links the syndrome to insulin-responsive energy handling."
+  - target: 01-human/03-molecular/axl-receptor
+    relation: connects-to
+    note: "Renal tumour invasion: the AXL receptor tyrosine kinase can drive epithelial-mesenchymal transition and invasion in the renal tumours of Birt-Hogg-Dubé, a signalling route relevant to the rare aggressive lesions beyond the usually indolent chromophobe and oncocytic tumours."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Antigen presentation: MHC class II-restricted T-cell responses shape immune surveillance of the renal tumours of Birt-Hogg-Dubé, relevant to immunotherapy of any that progress to a more aggressive renal cell carcinoma."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -660,6 +669,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the tumor-immune microenvironment of the renal tumors of Birt-Hogg-Dubé syndrome.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory tumor microenvironment of Birt-Hogg-Dubé syndrome.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory tumor microenvironment of Birt-Hogg-Dubé syndrome.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Metabolic reprogramming: folliculin loss dysregulates the AMPK energy sensor it partners with (AMPK already mapped) and the mTOR pathway, shifting cellular metabolism and mitochondrial biogenesis in a way that also links the syndrome to insulin-responsive energy handling.
+- `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — Renal tumour invasion: the AXL receptor tyrosine kinase can drive epithelial-mesenchymal transition and invasion in the renal tumours of Birt-Hogg-Dubé, a signalling route relevant to the rare aggressive lesions beyond the usually indolent chromophobe and oncocytic tumours.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Antigen presentation: MHC class II-restricted T-cell responses shape immune surveillance of the renal tumours of Birt-Hogg-Dubé, relevant to immunotherapy of any that progress to a more aggressive renal cell carcinoma.
 
 ---
 
