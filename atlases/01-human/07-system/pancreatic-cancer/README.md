@@ -391,6 +391,15 @@ cross_links:
   - target: 01-human/03-molecular/il-33
     relation: connects-to
     note: "IL-33 alarmin signaling participates in the tumor-immune microenvironment of pancreatic cancer."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "Cancer cachexia: pancreatic cancer causes profound skeletal-muscle wasting, and tumour-derived activin A signalling through the ActRIIB receptor is a principal driver of that muscle atrophy, the dominant cause of the weakness and weight loss that shorten survival."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Cold immune evasion: pancreatic cancer is immunologically cold with a dense suppressive stroma, and impaired MHC class II antigen presentation blunts the CD4 T-cell help needed for anti-tumour immunity, part of why checkpoint blockade has largely failed here."
+  - target: 01-human/03-molecular/cftr
+    relation: connects-to
+    note: "Predisposing pancreatitis: CFTR dysfunction causes chronic pancreatitis, and the resulting recurrent inflammation is a recognised risk pathway to pancreatic cancer alongside the hereditary-pancreatitis PRSS1 axis already mapped."
 ---
 
 # Pancreatic Cancer
@@ -635,6 +644,9 @@ cross_links:
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic landscape of pancreatic cancer.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the desmoplastic tumor microenvironment of pancreatic cancer.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the tumor-immune microenvironment of pancreatic cancer.
+- `connects-to` → **[Activin A](../../03-molecular/activin-a/README.md)** — Cancer cachexia: pancreatic cancer causes profound skeletal-muscle wasting, and tumour-derived activin A signalling through the ActRIIB receptor is a principal driver of that muscle atrophy, the dominant cause of the weakness and weight loss that shorten survival.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Cold immune evasion: pancreatic cancer is immunologically cold with a dense suppressive stroma, and impaired MHC class II antigen presentation blunts the CD4 T-cell help needed for anti-tumour immunity, part of why checkpoint blockade has largely failed here.
+- `connects-to` → **[CFTR](../../03-molecular/cftr/README.md)** — Predisposing pancreatitis: CFTR dysfunction causes chronic pancreatitis, and the resulting recurrent inflammation is a recognised risk pathway to pancreatic cancer alongside the hereditary-pancreatitis PRSS1 axis already mapped.
 
 ---
 

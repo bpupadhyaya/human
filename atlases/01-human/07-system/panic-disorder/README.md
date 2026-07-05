@@ -391,6 +391,15 @@ cross_links:
   - target: 01-human/03-molecular/il-33
     relation: connects-to
     note: "IL-33 alarmin signaling participates in the neuroinflammatory responses implicated in panic disorder."
+  - target: 01-human/03-molecular/thyroid-hormones
+    relation: connects-to
+    note: "Endocrine mimic: thyrotoxicosis produces palpitations, tremor and anxiety that mimic and precipitate panic attacks, which is why thyroid-hormone screening is a standard part of the panic-disorder workup to exclude a treatable endocrine driver."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "Brain renin-angiotensin: central angiotensin II modulates sympathetic outflow and HPA-axis reactivity, and angiotensin blockade attenuates stress and anxiety responses, linking panic vulnerability to a neuroendocrine pressor axis beyond classical neurotransmitters."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Gaseous neurotransmission: nitric oxide signalling in the amygdala and periaqueductal grey shapes the fear and defensive responses underlying panic, and nNOS activity modulates the exaggerated CO2/chemosensory alarm that provokes attacks."
 ---
 
 # Panic Disorder
@@ -660,6 +669,9 @@ The **interoceptive fear conditioning model** (Bouton, Mineka, Barlow) explains 
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven chemokine signaling participates in the neuroimmune and microglial responses implicated in panic disorder.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the neuroimmune interactions implicated in panic disorder.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the neuroinflammatory responses implicated in panic disorder.
+- `connects-to` → **[Thyroid hormones](../../03-molecular/thyroid-hormones/README.md)** — Endocrine mimic: thyrotoxicosis produces palpitations, tremor and anxiety that mimic and precipitate panic attacks, which is why thyroid-hormone screening is a standard part of the panic-disorder workup to exclude a treatable endocrine driver.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — Brain renin-angiotensin: central angiotensin II modulates sympathetic outflow and HPA-axis reactivity, and angiotensin blockade attenuates stress and anxiety responses, linking panic vulnerability to a neuroendocrine pressor axis beyond classical neurotransmitters.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Gaseous neurotransmission: nitric oxide signalling in the amygdala and periaqueductal grey shapes the fear and defensive responses underlying panic, and nNOS activity modulates the exaggerated CO2/chemosensory alarm that provokes attacks.
 
 [^gorman-2000-panic-neurobiology]: Gorman JM, Kent JM, Sullivan GM, Coplan JD. Neuroanatomical hypothesis of panic disorder, revised. *Am J Psychiatry.* 2000;157(4):493-505. [doi:10.1176/appi.ajp.157.4.493](https://doi.org/10.1176/appi.ajp.157.4.493) · [PubMed 10739407](https://pubmed.ncbi.nlm.nih.gov/10739407/)
 [^nardi-2009-clonazepam-panic]: Nardi AE, Freire RC, Zin WA. Panic disorder and control of breathing. *Respir Physiol Neurobiol.* 2009;167(1):133-143. [doi:10.1016/j.resp.2008.07.011](https://doi.org/10.1016/j.resp.2008.07.011) · [PubMed 18708168](https://pubmed.ncbi.nlm.nih.gov/18708168/)
