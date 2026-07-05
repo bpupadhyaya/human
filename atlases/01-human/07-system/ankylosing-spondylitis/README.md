@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/angiopoietin
     relation: connects-to
     note: "Entheseal neovascularisation: inflamed entheses in ankylosing spondylitis show increased vascularity on Doppler imaging, driven by angiopoietin-Tie2 and VEGF (VEGF already mapped), the angiogenic response accompanying the enthesitis before new bone forms."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Anaemia of inflammation: sustained systemic inflammation in active ankylosing spondylitis suppresses erythropoiesis, and a normocytic anaemia lowering haemoglobin is a common systemic feature that tracks with disease activity."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Cardiac involvement: ankylosing spondylitis causes aortitis, aortic-root disease and atrioventricular conduction block (heart already mapped), and troponin elevation can mark the myocardial injury of its cardiovascular manifestations."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Antigen presentation: although the risk allele HLA-B27 is class I, MHC class II presentation and the broader HLA landscape shape the autoreactive and IL-17-driven T-cell response of ankylosing spondylitis."
 ---
 
 # Ankylosing Spondylitis
@@ -640,6 +649,9 @@ AS originates at the **enthesis** — the site where tendons, ligaments, and joi
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Cardiovascular risk: the chronic systemic inflammation of ankylosing spondylitis impairs endothelial nitric-oxide function, accelerating atherosclerosis and raising the cardiovascular mortality that accompanies the axial disease.
 - `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — Gut-joint axis: subclinical gut inflammation with an altered secretory IgA response is part of the spondyloarthritis gut-joint axis, linking the intestinal microbiome and mucosal immunity to the enthesitis and sacroiliitis of ankylosing spondylitis.
 - `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Entheseal neovascularisation: inflamed entheses in ankylosing spondylitis show increased vascularity on Doppler imaging, driven by angiopoietin-Tie2 and VEGF (VEGF already mapped), the angiogenic response accompanying the enthesitis before new bone forms.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Anaemia of inflammation: sustained systemic inflammation in active ankylosing spondylitis suppresses erythropoiesis, and a normocytic anaemia lowering haemoglobin is a common systemic feature that tracks with disease activity.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiac involvement: ankylosing spondylitis causes aortitis, aortic-root disease and atrioventricular conduction block (heart already mapped), and troponin elevation can mark the myocardial injury of its cardiovascular manifestations.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Antigen presentation: although the risk allele HLA-B27 is class I, MHC class II presentation and the broader HLA landscape shape the autoreactive and IL-17-driven T-cell response of ankylosing spondylitis.
 
 [^sieper-2015-ankylosing-spondylitis-review]: Sieper J, Poddubnyy D. Ankylosing spondylitis. *Lancet.* 2017;390(10089):73-84. [doi:10.1016/S0140-6736(16)31591-4](https://doi.org/10.1016/S0140-6736(16)31591-4) · [PubMed 28110981](https://pubmed.ncbi.nlm.nih.gov/28110981/)
 [^baeten-2015-secukinumab-as]: Baeten D, Sieper J, Braun J, et al. Secukinumab, an Interleukin-17A Inhibitor, in Ankylosing Spondylitis. *N Engl J Med.* 2015;373(26):2534-2548. [doi:10.1056/NEJMoa1505066](https://doi.org/10.1056/NEJMoa1505066) · [PubMed 26699169](https://pubmed.ncbi.nlm.nih.gov/26699169/)

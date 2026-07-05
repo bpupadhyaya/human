@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/fibrinogen
     relation: connects-to
     note: "APL coagulopathy: acute promyelocytic leukaemia triggers disseminated intravascular coagulation and hyperfibrinolysis that consume fibrinogen, causing the catastrophic early haemorrhage that is the leading cause of induction death before ATRA takes effect."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Marrow failure cytopenias: AML replaces normal marrow, and the resulting anaemia with falling haemoglobin, alongside thrombocytopenia and neutropenia, produces the fatigue, bleeding and infection that present the disease."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Tumour lysis: the high blast burden of AML, especially on induction chemotherapy, releases purines that xanthine oxidase converts to uric acid, causing the tumour-lysis syndrome prevented with allopurinol or rasburicase."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Graft-versus-leukaemia: IL-2-driven T- and NK-cell activity underlies the graft-versus-leukaemia effect of allogeneic transplant (perforin already mapped) that cures many AML patients, and the CAR-T and NK approaches under investigation."
 ---
 
 # AML
@@ -642,6 +651,9 @@ AML requires cooperative mutations in at least 2 functional categories (Gillilan
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immune-evasion relapse: AML relapsing after allogeneic transplant characteristically downregulates HLA class II to escape donor T-cell recognition, so MHC class II expression governs the graft-versus-leukaemia response that underpins cure by transplant.
 - `connects-to` → **[SF3B1](../../03-molecular/sf3b1/README.md)** — Spliceosome drivers: SF3B1 and related splicing-factor mutations drive myelodysplasia-related and secondary AML, a class of spliceosomal lesions complementing the SRSF2 mutations already mapped in the disease's mutational landscape.
 - `connects-to` → **[Fibrinogen](../../03-molecular/fibrinogen/README.md)** — APL coagulopathy: acute promyelocytic leukaemia triggers disseminated intravascular coagulation and hyperfibrinolysis that consume fibrinogen, causing the catastrophic early haemorrhage that is the leading cause of induction death before ATRA takes effect.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Marrow failure cytopenias: AML replaces normal marrow, and the resulting anaemia with falling haemoglobin, alongside thrombocytopenia and neutropenia, produces the fatigue, bleeding and infection that present the disease.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Tumour lysis: the high blast burden of AML, especially on induction chemotherapy, releases purines that xanthine oxidase converts to uric acid, causing the tumour-lysis syndrome prevented with allopurinol or rasburicase.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Graft-versus-leukaemia: IL-2-driven T- and NK-cell activity underlies the graft-versus-leukaemia effect of allogeneic transplant (perforin already mapped) that cures many AML patients, and the CAR-T and NK approaches under investigation.
 
 [^dinardo-2020-viale-a]: DiNardo CD, Jonas BA, Pullarkat V, et al. Azacitidine and venetoclax in previously untreated acute myeloid leukemia. *N Engl J Med.* 2020;383(7):617-629. [doi:10.1056/NEJMoa2012971](https://doi.org/10.1056/NEJMoa2012971) · [PubMed 32786187](https://pubmed.ncbi.nlm.nih.gov/32786187/)
 [^stone-2017-midostaurin]: Stone RM, Mandrekar SJ, Sanford BL, et al. Midostaurin plus chemotherapy for acute myeloid leukemia with a FLT3 mutation. *N Engl J Med.* 2017;377(5):454-464. [doi:10.1056/NEJMoa1614359](https://doi.org/10.1056/NEJMoa1614359) · [PubMed 28644114](https://pubmed.ncbi.nlm.nih.gov/28644114/)
