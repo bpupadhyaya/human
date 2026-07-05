@@ -400,6 +400,15 @@ cross_links:
   - target: 01-human/03-molecular/angiopoietin
     relation: connects-to
     note: "Pannus angiogenesis: the invasive rheumatoid pannus depends on new blood vessels driven by angiopoietin-Tie2 and VEGF (VEGF already mapped) to feed the hyperplastic, hypoxic synovium that erodes cartilage and bone."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Anaemia of chronic disease: the sustained IL-6-driven inflammation of rheumatoid arthritis (hepcidin pathway) suppresses erythropoiesis, and the resulting anaemia lowering haemoglobin is the commonest extra-articular manifestation."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Cardiovascular mortality: accelerated atherosclerosis from chronic inflammation (nitric oxide already mapped) raises the risk of myocardial infarction in rheumatoid arthritis, and troponin marks the cardiac injury of the events that drive its excess death."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Sex and hormonal modulation: rheumatoid arthritis is about three times more common in women, and estrogen influences the disease, which often improves in pregnancy and can flare postpartum and around the menopause."
 ---
 
 # Rheumatoid Arthritis
@@ -669,6 +678,9 @@ RA patients have:
 - `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Rheumatoid factor: RF is an autoantibody directed against the Fc portion of IgG, one of the two classic RA serologies alongside anti-CCP, and the resulting immune complexes fix complement (C3/C5 already mapped) to drive synovial inflammation.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Cardiovascular mortality: chronic systemic inflammation in rheumatoid arthritis impairs endothelial nitric-oxide function, driving the accelerated atherosclerosis that is the leading cause of the excess cardiovascular death seen in RA.
 - `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Pannus angiogenesis: the invasive rheumatoid pannus depends on new blood vessels driven by angiopoietin-Tie2 and VEGF (VEGF already mapped) to feed the hyperplastic, hypoxic synovium that erodes cartilage and bone.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Anaemia of chronic disease: the sustained IL-6-driven inflammation of rheumatoid arthritis (hepcidin pathway) suppresses erythropoiesis, and the resulting anaemia lowering haemoglobin is the commonest extra-articular manifestation.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiovascular mortality: accelerated atherosclerosis from chronic inflammation (nitric oxide already mapped) raises the risk of myocardial infarction in rheumatoid arthritis, and troponin marks the cardiac injury of the events that drive its excess death.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Sex and hormonal modulation: rheumatoid arthritis is about three times more common in women, and estrogen influences the disease, which often improves in pregnancy and can flare postpartum and around the menopause.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
