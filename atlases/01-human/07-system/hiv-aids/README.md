@@ -391,6 +391,15 @@ cross_links:
   - target: 01-human/03-molecular/adenosine
     relation: connects-to
     note: "Adenosine signaling (the CD73/CD39 pathway) participates in the immunosuppression and immune exhaustion of AIDS."
+  - target: 01-human/03-molecular/lmp1
+    relation: connects-to
+    note: "EBV malignancies: profound immunosuppression in AIDS permits Epstein-Barr-virus-driven lymphomas including primary CNS lymphoma (already mapped), where the viral oncoprotein LMP1 drives B-cell transformation unchecked by the lost T-cell surveillance."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Wasting and lipodystrophy: AIDS wasting syndrome and antiretroviral lipodystrophy involve dysregulated leptin and adipose signalling, driving the loss of lean mass and the metabolic complications that persist even with treatment."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Advanced anaemia: anaemia deepens as HIV progresses to AIDS through marrow suppression, opportunistic infection and drug toxicity, and a low haemoglobin is a strong independent predictor of mortality."
 ---
 
 # HIV/AIDS
@@ -630,6 +639,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammasome activation participates in the chronic immune activation of AIDS.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 (MCP-1) chemokine signaling participates in the monocyte trafficking and HIV-associated neurocognitive and tissue inflammation of AIDS.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine signaling (the CD73/CD39 pathway) participates in the immunosuppression and immune exhaustion of AIDS.
+- `connects-to` → **[LMP1](../../03-molecular/lmp1/README.md)** — EBV malignancies: profound immunosuppression in AIDS permits Epstein-Barr-virus-driven lymphomas including primary CNS lymphoma (already mapped), where the viral oncoprotein LMP1 drives B-cell transformation unchecked by the lost T-cell surveillance.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Wasting and lipodystrophy: AIDS wasting syndrome and antiretroviral lipodystrophy involve dysregulated leptin and adipose signalling, driving the loss of lean mass and the metabolic complications that persist even with treatment.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Advanced anaemia: anaemia deepens as HIV progresses to AIDS through marrow suppression, opportunistic infection and drug toxicity, and a low haemoglobin is a strong independent predictor of mortality.
 
 ## See Also
 

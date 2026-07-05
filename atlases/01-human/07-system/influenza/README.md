@@ -391,6 +391,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Osteopontin participates in the leukocyte recruitment and pulmonary inflammation of influenza."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Vaccine and clearance: MHC class II-restricted CD4 help drives the antibody response to haemagglutinin (already mapped) elicited by influenza vaccines, and cross-reactive T-cell help contributes to the heterosubtypic immunity sought by universal-vaccine efforts."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Cardiac complications: influenza can cause myocarditis and sharply raises the short-term risk of myocardial infarction, with troponin release marking the cardiac injury that contributes to influenza-associated deaths."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "T-cell response: IL-2 drives the expansion of the effector and memory T cells (perforin already mapped) that clear influenza-infected airway epithelium, and the strength of this response shapes recovery and cross-protection."
 ---
 
 # Influenza
@@ -651,3 +660,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the host antiviral response to influenza.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the T-cell activation of the antiviral immune response to influenza.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the leukocyte recruitment and pulmonary inflammation of influenza.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Vaccine and clearance: MHC class II-restricted CD4 help drives the antibody response to haemagglutinin (already mapped) elicited by influenza vaccines, and cross-reactive T-cell help contributes to the heterosubtypic immunity sought by universal-vaccine efforts.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiac complications: influenza can cause myocarditis and sharply raises the short-term risk of myocardial infarction, with troponin release marking the cardiac injury that contributes to influenza-associated deaths.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell response: IL-2 drives the expansion of the effector and memory T cells (perforin already mapped) that clear influenza-infected airway epithelium, and the strength of this response shapes recovery and cross-protection.
