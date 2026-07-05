@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/progesterone
     relation: connects-to
     note: "Hormonal fluctuation: ADHD symptoms in women often worsen when progesterone-derived neurosteroids fall across the menstrual cycle, part of the reproductive-hormone influence (estrogen already mapped) on the disorder's expression."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Mineralocorticoid stress axis: aldosterone acts on brain mineralocorticoid receptors that, balanced against glucocorticoid receptors (already mapped), tune the stress reactivity and arousal systems dysregulated alongside the catecholamine deficits of ADHD."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Metabolic association: ADHD is associated with higher rates of obesity and insulin resistance, linked partly to impulsive eating and shared dopaminergic (already mapped) reward pathways, a metabolic dimension of the disorder."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Neuroimmune balance: the anti-inflammatory cytokine IL-10 counters the elevated IL-6 and TNF (already mapped) reported in ADHD, part of the low-grade neuroinflammation implicated in a subset of the disorder."
 ---
 
 # Attention-Deficit/Hyperactivity Disorder
@@ -689,6 +698,9 @@ ADHD is a clinical diagnosis requiring [^biederman-2005-adhd-adults]:
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Social cognition: oxytocin shapes the social-cognitive and reward circuits implicated in the interpersonal difficulties of ADHD, and is being explored as an adjunct to address social deficits beyond the core dopaminergic symptoms.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — Brain renin-angiotensin: central angiotensin II modulates dopaminergic transmission and stress reactivity, a neuroendocrine axis distinct from the catecholamine systems (dopamine already mapped) targeted by stimulants in ADHD.
 - `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Hormonal fluctuation: ADHD symptoms in women often worsen when progesterone-derived neurosteroids fall across the menstrual cycle, part of the reproductive-hormone influence (estrogen already mapped) on the disorder's expression.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Mineralocorticoid stress axis: aldosterone acts on brain mineralocorticoid receptors that, balanced against glucocorticoid receptors (already mapped), tune the stress reactivity and arousal systems dysregulated alongside the catecholamine deficits of ADHD.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Metabolic association: ADHD is associated with higher rates of obesity and insulin resistance, linked partly to impulsive eating and shared dopaminergic (already mapped) reward pathways, a metabolic dimension of the disorder.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Neuroimmune balance: the anti-inflammatory cytokine IL-10 counters the elevated IL-6 and TNF (already mapped) reported in ADHD, part of the low-grade neuroinflammation implicated in a subset of the disorder.
 
 [^faraone-2021-adhd-primer]: Faraone SV, Banaschewski T, Coghill D, et al. The World Federation of ADHD International Consensus Statement: 208 Evidence-based conclusions about the disorder. *Neurosci Biobehav Rev.* 2021;128:789-818. [doi:10.1016/j.neubiorev.2021.01.022](https://doi.org/10.1016/j.neubiorev.2021.01.022) · [PubMed 33549739](https://pubmed.ncbi.nlm.nih.gov/33549739/)
 [^arnsten-2009-adhd-neuroscience]: Arnsten AF. Toward a new understanding of ADHD pathophysiology: an important role for prefrontal cortex dysfunction. *CNS Drugs.* 2009;23(Suppl 1):33-41. [doi:10.2165/00023210-200923000-00005](https://doi.org/10.2165/00023210-200923000-00005) · [PubMed 19621976](https://pubmed.ncbi.nlm.nih.gov/19621976/)

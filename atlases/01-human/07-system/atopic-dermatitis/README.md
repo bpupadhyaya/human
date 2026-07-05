@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Itch and inflammation: nitric oxide modulates the cutaneous sensory neurons and vasodilation of the itch response, contributing to the neurogenic inflammation and flare erythema of atopic dermatitis."
+  - target: 01-human/03-molecular/progesterone
+    relation: connects-to
+    note: "Hormonal flares: atopic dermatitis often fluctuates with the menstrual cycle and pregnancy, implicating progesterone alongside estrogen (already mapped) in the reproductive-hormone variation of disease activity in affected women."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Type-2 macrophages: alternatively activated (M2) macrophages, polarised by the IL-4 and IL-13 (already mapped) of the lesion, contribute to the chronic inflammation and tissue remodelling of long-standing atopic dermatitis."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative skin stress: scratching and chronic inflammation in atopic dermatitis generate oxidative stress, to which xanthine-oxidase-derived reactive oxygen species contribute, further damaging the epidermal barrier already weakened in the disease."
 ---
 
 # Atopic Dermatitis
@@ -654,6 +663,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Antigen presentation: HLA-restricted presentation of allergens by skin dendritic cells drives the Th2 response (IL-4/IL-13 already mapped) of atopic dermatitis, and HLA associations contribute to genetic susceptibility.
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Hormonal flares: atopic dermatitis often fluctuates with the menstrual cycle and pregnancy, implicating estrogen and reproductive-hormone changes in the variation of disease activity in affected women.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Itch and inflammation: nitric oxide modulates the cutaneous sensory neurons and vasodilation of the itch response, contributing to the neurogenic inflammation and flare erythema of atopic dermatitis.
+- `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Hormonal flares: atopic dermatitis often fluctuates with the menstrual cycle and pregnancy, implicating progesterone alongside estrogen (already mapped) in the reproductive-hormone variation of disease activity in affected women.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Type-2 macrophages: alternatively activated (M2) macrophages, polarised by the IL-4 and IL-13 (already mapped) of the lesion, contribute to the chronic inflammation and tissue remodelling of long-standing atopic dermatitis.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative skin stress: scratching and chronic inflammation in atopic dermatitis generate oxidative stress, to which xanthine-oxidase-derived reactive oxygen species contribute, further damaging the epidermal barrier already weakened in the disease.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
