@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/calcineurin
     relation: connects-to
     note: "Calcineurin-NFAT signaling participates in the intestinal inflammation and tumor microenvironment of familial adenomatous polyposis."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "Gardner osteomas: the benign osteomas of the skull and jaw in the Gardner variant of FAP form through RANKL-regulated bone remodelling, part of the extraintestinal manifestations (skin cysts and eye CHRPE already mapped) that can signal the diagnosis before colonic symptoms."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Desmoid hormonal axis: the desmoid tumours (already mapped) that afflict familial adenomatous polyposis are hormone-responsive, often growing during pregnancy, implicating estrogen in the extracolonic fibromatosis that is a leading cause of death after colectomy."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Immunosurveillance: MHC class II-restricted T-cell surveillance influences which of the thousands of adenomas in familial adenomatous polyposis progress along the adenoma-carcinoma sequence, and antigen presentation is relevant to chemoprevention and vaccine strategies."
 ---
 
 # Familial Adenomatous Polyposis
@@ -659,6 +668,9 @@ With modern surveillance and prophylactic colectomy: FAP is no longer an inevita
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory tumor microenvironment of familial adenomatous polyposis.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory tumor microenvironment of familial adenomatous polyposis.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the intestinal inflammation and tumor microenvironment of familial adenomatous polyposis.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Gardner osteomas: the benign osteomas of the skull and jaw in the Gardner variant of FAP form through RANKL-regulated bone remodelling, part of the extraintestinal manifestations (skin cysts and eye CHRPE already mapped) that can signal the diagnosis before colonic symptoms.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Desmoid hormonal axis: the desmoid tumours (already mapped) that afflict familial adenomatous polyposis are hormone-responsive, often growing during pregnancy, implicating estrogen in the extracolonic fibromatosis that is a leading cause of death after colectomy.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immunosurveillance: MHC class II-restricted T-cell surveillance influences which of the thousands of adenomas in familial adenomatous polyposis progress along the adenoma-carcinoma sequence, and antigen presentation is relevant to chemoprevention and vaccine strategies.
 
 [^kinzler-1991-apc]: Kinzler KW, Nilbert MC, Su LK, et al. Identification of FAP locus genes from chromosome 5q21. *Science.* 1991;253(5020):661-665. [doi:10.1126/science.1651562](https://doi.org/10.1126/science.1651562) · [PubMed 1651562](https://pubmed.ncbi.nlm.nih.gov/1651562/)
 [^fearon-1990-vogelstein]: Fearon ER, Vogelstein B. A genetic model for colorectal tumorigenesis. *Cell.* 1990;61(5):759-767. [doi:10.1016/0092-8674(90)90186-i](https://doi.org/10.1016/0092-8674(90)90186-i) · [PubMed 2188735](https://pubmed.ncbi.nlm.nih.gov/2188735/)

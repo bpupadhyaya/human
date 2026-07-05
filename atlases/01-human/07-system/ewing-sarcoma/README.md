@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Osteopontin participates in the bone tumor microenvironment and metastatic interactions of Ewing sarcoma."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Osteolytic bone destruction: Ewing sarcoma arises in and destroys bone, dissolving the calcium-rich mineralised matrix, so the osteolysis produces the pain, pathological fracture and occasional hypercalcaemia that accompany the tumour."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "IGF/insulin signalling: Ewing sarcoma depends heavily on IGF-1R signalling (IGF-1 already mapped), and compensatory signalling through the related insulin receptor is a mechanism of resistance to IGF-1R-targeted therapy."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Immunotherapy: Ewing sarcoma is an immunologically cold tumour with low MHC expression, and restoring antigen presentation is part of the strategy for the cellular and checkpoint immunotherapies being explored for relapsed disease."
 ---
 
 # Ewing Sarcoma
@@ -642,6 +651,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory tumor microenvironment of Ewing sarcoma.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the tumor microenvironment and immune signaling of Ewing sarcoma.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the bone tumor microenvironment and metastatic interactions of Ewing sarcoma.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Osteolytic bone destruction: Ewing sarcoma arises in and destroys bone, dissolving the calcium-rich mineralised matrix, so the osteolysis produces the pain, pathological fracture and occasional hypercalcaemia that accompany the tumour.
+- `connects-to` → **[Insulin receptor](../../03-molecular/insulin-receptor/README.md)** — IGF/insulin signalling: Ewing sarcoma depends heavily on IGF-1R signalling (IGF-1 already mapped), and compensatory signalling through the related insulin receptor is a mechanism of resistance to IGF-1R-targeted therapy.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immunotherapy: Ewing sarcoma is an immunologically cold tumour with low MHC expression, and restoring antigen presentation is part of the strategy for the cellular and checkpoint immunotherapies being explored for relapsed disease.
 
 ---
 
