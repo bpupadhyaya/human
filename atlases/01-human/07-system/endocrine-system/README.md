@@ -392,6 +392,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Complement C3 participates in the immune-endocrine interactions of the endocrine system."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Neuroendocrine signalling: serotonin is a neuroendocrine hormone made by gut enterochromaffin cells and the pineal gland, and its overproduction by neuroendocrine (carcinoid) tumours illustrates the diffuse endocrine tissue beyond the classic glands."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Paracrine hormones: prostaglandins are locally acting lipid mediators that, alongside the circulating hormones, exemplify the paracrine and autocrine signalling that broadens the endocrine system beyond gland-to-bloodstream secretion."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Gasotransmitter signalling: nitric oxide is a diffusible gaseous messenger released by endothelium and neurons, a non-classical endocrine/paracrine signal that regulates vascular tone and complements peptide and steroid hormone systems."
 ---
 
 # Endocrine System
@@ -674,6 +683,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β signaling participates in the neuroendocrine-immune regulation of the hypothalamic-pituitary-adrenal axis of the endocrine system.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the neuroendocrine-immune interactions of the endocrine system.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the immune-endocrine interactions of the endocrine system.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Neuroendocrine signalling: serotonin is a neuroendocrine hormone made by gut enterochromaffin cells and the pineal gland, and its overproduction by neuroendocrine (carcinoid) tumours illustrates the diffuse endocrine tissue beyond the classic glands.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Paracrine hormones: prostaglandins are locally acting lipid mediators that, alongside the circulating hormones, exemplify the paracrine and autocrine signalling that broadens the endocrine system beyond gland-to-bloodstream secretion.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Gasotransmitter signalling: nitric oxide is a diffusible gaseous messenger released by endothelium and neurons, a non-classical endocrine/paracrine signal that regulates vascular tone and complements peptide and steroid hormone systems.
 
 ## Pathology
 

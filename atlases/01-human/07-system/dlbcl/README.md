@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Osteopontin participates in the microenvironment and stromal interactions of diffuse large B-cell lymphoma."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Immune escape: DLBCL frequently loses MHC antigen presentation to evade T cells, especially the ABC subtype, and preserved antigen presentation shapes the response to the bispecific-antibody and CAR-T therapies now central to treatment."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "T-cell therapies: IL-2-driven T-cell expansion underlies the CD19 CAR-T and CD20xCD3 bispecific therapies (perforin already mapped) that have transformed the treatment of relapsed diffuse large B-cell lymphoma."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Tumour lysis: bulky, rapidly proliferating diffuse large B-cell lymphoma is prone to tumour-lysis syndrome on treatment, releasing purines that xanthine oxidase converts to uric acid, managed with allopurinol or rasburicase."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -641,6 +650,9 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling downstream of the B-cell receptor participates in the survival signaling of diffuse large B-cell lymphoma.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine (CD39/CD73-adenosine) signaling participates in the immunosuppressive tumor microenvironment of diffuse large B-cell lymphoma.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the microenvironment and stromal interactions of diffuse large B-cell lymphoma.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immune escape: DLBCL frequently loses MHC antigen presentation to evade T cells, especially the ABC subtype, and preserved antigen presentation shapes the response to the bispecific-antibody and CAR-T therapies now central to treatment.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell therapies: IL-2-driven T-cell expansion underlies the CD19 CAR-T and CD20xCD3 bispecific therapies (perforin already mapped) that have transformed the treatment of relapsed diffuse large B-cell lymphoma.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Tumour lysis: bulky, rapidly proliferating diffuse large B-cell lymphoma is prone to tumour-lysis syndrome on treatment, releasing purines that xanthine oxidase converts to uric acid, managed with allopurinol or rasburicase.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
