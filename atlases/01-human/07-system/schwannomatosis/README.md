@@ -385,6 +385,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Complement C3 participates in the inflammatory tumor microenvironment of schwannomatosis."
+  - target: 01-human/03-molecular/mu-opioid-receptor
+    relation: connects-to
+    note: "Pain as the defining burden: chronic, often disabling pain out of proportion to tumour size is the hallmark of schwannomatosis, and the mu-opioid receptor mediates the opioid analgesia central to its frequently refractory pain management."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Neuropathic-pain mechanism: the neuropathic pain of schwannomatosis is treated with gabapentinoids that act on the voltage-gated calcium-channel alpha-2-delta subunit, and calcium influx drives the ectopic nociceptor firing from tumour-compressed nerves."
+  - target: 01-human/03-molecular/axl-receptor
+    relation: connects-to
+    note: "YAP-driven signaling: SMARCB1- and NF2/merlin-related loss de-represses YAP (already mapped), upregulating the AXL receptor tyrosine kinase that promotes schwannoma growth and offers a targetable node downstream of the core tumour-suppressor defect."
 ---
 
 # Schwannomatosis
@@ -609,6 +618,9 @@ Both NF2 (22q12.2), SMARCB1 (22q11.23), and LZTR1 (22q11.21) are on chromosome 2
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the tumor-immune microenvironment of the schwannomas of schwannomatosis.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory and pain-associated microenvironment of schwannomatosis.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory tumor microenvironment of schwannomatosis.
+- `connects-to` → **[Mu-opioid receptor](../../03-molecular/mu-opioid-receptor/README.md)** — Pain as the defining burden: chronic, often disabling pain out of proportion to tumour size is the hallmark of schwannomatosis, and the mu-opioid receptor mediates the opioid analgesia central to its frequently refractory pain management.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Neuropathic-pain mechanism: the neuropathic pain of schwannomatosis is treated with gabapentinoids that act on the voltage-gated calcium-channel alpha-2-delta subunit, and calcium influx drives the ectopic nociceptor firing from tumour-compressed nerves.
+- `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — YAP-driven signaling: SMARCB1- and NF2/merlin-related loss de-represses YAP (already mapped), upregulating the AXL receptor tyrosine kinase that promotes schwannoma growth and offers a targetable node downstream of the core tumour-suppressor defect.
 
 [^merker-2012-schwannomatosis]: Merker VL, Esparza S, Smith MJ, Stemmer-Rachamimov A, Plotkin SR. Clinical features of schwannomatosis: a retrospective analysis of 87 patients. *Oncologist.* 2012;17(10):1317-1322. [doi:10.1634/theoncologist.2012-0162](https://doi.org/10.1634/theoncologist.2012-0162) · [PubMed 22927469](https://pubmed.ncbi.nlm.nih.gov/22927469/)
 [^piotrowski-2014-lztr1]: Piotrowski A, Xie J, Liu YF, et al. Germline loss-of-function mutations in LZTR1 predispose to an inherited disorder of multiple schwannomas. *Nat Genet.* 2014;46(2):182-187. [doi:10.1038/ng.2855](https://doi.org/10.1038/ng.2855) · [PubMed 24362817](https://pubmed.ncbi.nlm.nih.gov/24362817/)

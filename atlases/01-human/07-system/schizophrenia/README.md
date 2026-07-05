@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/il-17a
     relation: connects-to
     note: "IL-17A signaling participates in the maternal-immune-activation and neuroinflammatory processes implicated in schizophrenia."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Estrogen-protection hypothesis: estrogen modulates dopaminergic transmission, women show later onset and a second incidence peak at menopause, and estrogen adjuncts improve symptoms, a neuroendocrine dimension of schizophrenia beyond the neurotransmitter models."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Antipsychotic metabolic syndrome: second-generation antipsychotics disrupt leptin signalling and drive the weight gain, dyslipidaemia and diabetes that dominate the physical-health morbidity and shortened lifespan of schizophrenia."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative stress: schizophrenia is associated with impaired antioxidant defence and raised oxidative markers, and xanthine-oxidase-derived reactive oxygen species and purine dysregulation contribute to the redox imbalance implicated in its neuropathology."
 ---
 
 # Schizophrenia
@@ -683,6 +692,9 @@ Notably, schizophrenia shares genetic loci with bipolar disorder, ASD, ADHD, maj
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the neurodevelopmental interneuron migration and neuroimmune interactions implicated in schizophrenia.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the microglial and neuroinflammatory responses implicated in schizophrenia.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the maternal-immune-activation and neuroinflammatory processes implicated in schizophrenia.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Estrogen-protection hypothesis: estrogen modulates dopaminergic transmission, women show later onset and a second incidence peak at menopause, and estrogen adjuncts improve symptoms, a neuroendocrine dimension of schizophrenia beyond the neurotransmitter models.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Antipsychotic metabolic syndrome: second-generation antipsychotics disrupt leptin signalling and drive the weight gain, dyslipidaemia and diabetes that dominate the physical-health morbidity and shortened lifespan of schizophrenia.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative stress: schizophrenia is associated with impaired antioxidant defence and raised oxidative markers, and xanthine-oxidase-derived reactive oxygen species and purine dysregulation contribute to the redox imbalance implicated in its neuropathology.
 
 [^howes-2009-dopamine-hypothesis]: Howes OD, Kapur S. The dopamine hypothesis of schizophrenia: version III—the final common pathway. *Schizophr Bull.* 2009;35(3):549-562. [doi:10.1093/schbul/sbp006](https://doi.org/10.1093/schbul/sbp006) · [PubMed 19325164](https://pubmed.ncbi.nlm.nih.gov/19325164/)
 [^moghaddam-2012-glutamate]: Moghaddam B, Javitt D. From revolution to evolution: the glutamate hypothesis of schizophrenia and its implication for treatment. *Neuropsychopharmacology.* 2012;37(1):4-15. [doi:10.1038/npp.2011.181](https://doi.org/10.1038/npp.2011.181) · [PubMed 21956446](https://pubmed.ncbi.nlm.nih.gov/21956446/)
