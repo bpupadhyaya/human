@@ -397,6 +397,15 @@ cross_links:
   - target: 01-human/03-molecular/arid1a
     relation: connects-to
     note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the erythroid and inflammatory gene programs of the anemia of chronic disease."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Androgen erythropoiesis: testosterone stimulates erythropoietin production and erythroid progenitors, so the hypogonadism common in chronic illness and aging deepens the anemia of chronic disease beyond the inflammatory iron restriction."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Erythroid support: IGF-1 promotes the proliferation and survival of erythroid progenitors, and its suppression in chronic illness and malnutrition contributes to the blunted erythropoiesis of the anemia of chronic disease."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Oxidative red-cell loss: the inflammatory oxidative milieu accelerates eryptosis and shortens red-cell survival, and the NRF2 antioxidant response modulates this stress, adding a haemolytic component to the anemia of chronic disease."
 ---
 
 # Anemia of Chronic Disease
@@ -647,6 +656,9 @@ This adaptive rationale explains why **aggressive iron supplementation during ac
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the chronic inflammation driving the anemia of chronic disease.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory milieu of the anemia of chronic disease.
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the erythroid and inflammatory gene programs of the anemia of chronic disease.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen erythropoiesis: testosterone stimulates erythropoietin production and erythroid progenitors, so the hypogonadism common in chronic illness and aging deepens the anemia of chronic disease beyond the inflammatory iron restriction.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Erythroid support: IGF-1 promotes the proliferation and survival of erythroid progenitors, and its suppression in chronic illness and malnutrition contributes to the blunted erythropoiesis of the anemia of chronic disease.
+- `connects-to` → **[NFE2L2](../../03-molecular/nfe2l2/README.md)** — Oxidative red-cell loss: the inflammatory oxidative milieu accelerates eryptosis and shortens red-cell survival, and the NRF2 antioxidant response modulates this stress, adding a haemolytic component to the anemia of chronic disease.
 
 [^weiss-2005-acd-review]: Weiss G, Goodnough LT. Anemia of chronic disease. *N Engl J Med.* 2005;352(10):1011-1023. [doi:10.1056/NEJMra041809](https://doi.org/10.1056/NEJMra041809) · [PubMed 15758012](https://pubmed.ncbi.nlm.nih.gov/15758012/)
 [^nemeth-2004-il6-hepcidin]: Nemeth E, Rivera S, Gabayan V, et al. IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin. *J Clin Invest.* 2004;113(9):1271-1276. [doi:10.1172/JCI200420945](https://doi.org/10.1172/JCI200420945) · [PubMed 15124018](https://pubmed.ncbi.nlm.nih.gov/15124018/)

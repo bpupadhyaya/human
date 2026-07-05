@@ -397,6 +397,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Osteopontin participates in the microglial activation and neuroinflammation of Alzheimer's disease."
+  - target: 01-human/03-molecular/immunoglobulin-g
+    relation: connects-to
+    note: "Anti-amyloid immunotherapy: the first disease-modifying Alzheimer's drugs, lecanemab and donanemab, are IgG monoclonal antibodies that clear amyloid-beta (APP already mapped) from the brain, validating the amyloid target through passive immunisation."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Sex differences: women bear a disproportionate share of Alzheimer's disease, and the loss of neuroprotective estrogen at menopause is one proposed contributor to their elevated risk and the faster progression seen after diagnosis."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Microglial neuroinflammation: MHC class II is upregulated on activated microglia in Alzheimer's disease, marking the antigen-presenting, inflammatory microglial state (TREM2-driven) that shapes plaque clearance and neurodegeneration."
 ---
 
 # Alzheimer's Disease
@@ -622,6 +631,9 @@ Microglia play a central, dual role in AD:
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the neuronal and microglial gene programs of Alzheimer's disease.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine (A2A receptor) signaling participates in the synaptic dysfunction and neuroinflammation of Alzheimer's disease.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the microglial activation and neuroinflammation of Alzheimer's disease.
+- `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Anti-amyloid immunotherapy: the first disease-modifying Alzheimer's drugs, lecanemab and donanemab, are IgG monoclonal antibodies that clear amyloid-beta (APP already mapped) from the brain, validating the amyloid target through passive immunisation.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Sex differences: women bear a disproportionate share of Alzheimer's disease, and the loss of neuroprotective estrogen at menopause is one proposed contributor to their elevated risk and the faster progression seen after diagnosis.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Microglial neuroinflammation: MHC class II is upregulated on activated microglia in Alzheimer's disease, marking the antigen-presenting, inflammatory microglial state (TREM2-driven) that shapes plaque clearance and neurodegeneration.
 
 [^selkoe-2016-alzheimer]: Selkoe DJ, Hardy J. The amyloid hypothesis of Alzheimer's disease at 25 years. *EMBO Mol Med.* 2016;8(6):595-608. [doi:10.15252/emmm.201606210](https://doi.org/10.15252/emmm.201606210) · [PubMed 27025652](https://pubmed.ncbi.nlm.nih.gov/27025652/)
 [^jack-2018-nia-aa]: Jack CR Jr, Bennett DA, Blennow K, et al. NIA-AA Research Framework: Toward a biological definition of Alzheimer's disease. *Alzheimers Dement.* 2018;14(4):535-562. [doi:10.1016/j.jalz.2018.02.018](https://doi.org/10.1016/j.jalz.2018.02.018) · [PubMed 29653606](https://pubmed.ncbi.nlm.nih.gov/29653606/)
