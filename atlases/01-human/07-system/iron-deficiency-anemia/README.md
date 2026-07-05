@@ -399,6 +399,15 @@ cross_links:
   - target: 01-human/02-atomic/copper
     relation: connects-to
     note: "Copper-iron interaction: copper-dependent ferroxidases such as ceruloplasmin load iron onto transferrin (already mapped), so copper deficiency produces an iron-deficiency-like anaemia despite adequate iron, a key differential."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Androgen erythropoiesis: testosterone stimulates erythropoiesis and suppresses hepcidin (already mapped), so androgens raise the baseline haemoglobin, and hypogonadism worsens the anaemia against which iron deficiency develops."
+  - target: 01-human/03-molecular/progesterone
+    relation: connects-to
+    note: "Pregnancy iron demand: pregnancy, sustained by progesterone, sharply raises iron requirements for the expanding red-cell mass and the fetus, making iron-deficiency anaemia common in pregnancy and a target for routine supplementation."
+  - target: 01-human/03-molecular/secretory-iga
+    relation: connects-to
+    note: "Coeliac malabsorption: coeliac disease is a common cause of iron malabsorption and refractory iron-deficiency anaemia, screened for with anti-transglutaminase IgA, linking the disorder to mucosal immunity of the small intestine (already mapped)."
 ---
 
 # Iron Deficiency Anemia
@@ -646,6 +655,9 @@ Iron is essential for:
 - `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Acid-dependent absorption: dietary ferric iron is reduced and absorbed only in the acidic duodenum, so gastric proton secretion is required for uptake, and achlorhydria or proton-pump inhibitors cause or worsen iron deficiency.
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Menstrual blood loss: heavy menstrual bleeding from the estrogen-driven endometrial cycle is the leading cause of iron deficiency anaemia in premenopausal women, and its cessation at menopause shifts the differential toward gastrointestinal loss.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper-iron interaction: copper-dependent ferroxidases such as ceruloplasmin load iron onto transferrin (already mapped), so copper deficiency produces an iron-deficiency-like anaemia despite adequate iron, a key differential.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen erythropoiesis: testosterone stimulates erythropoiesis and suppresses hepcidin (already mapped), so androgens raise the baseline haemoglobin, and hypogonadism worsens the anaemia against which iron deficiency develops.
+- `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Pregnancy iron demand: pregnancy, sustained by progesterone, sharply raises iron requirements for the expanding red-cell mass and the fetus, making iron-deficiency anaemia common in pregnancy and a target for routine supplementation.
+- `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — Coeliac malabsorption: coeliac disease is a common cause of iron malabsorption and refractory iron-deficiency anaemia, screened for with anti-transglutaminase IgA, linking the disorder to mucosal immunity of the small intestine (already mapped).
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)

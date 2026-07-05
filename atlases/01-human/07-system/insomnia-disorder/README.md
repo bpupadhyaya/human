@@ -409,6 +409,15 @@ cross_links:
   - target: 01-human/03-molecular/testosterone
     relation: connects-to
     note: "Sleep-dependent secretion: testosterone release peaks during sleep, so the fragmented sleep of insomnia lowers testosterone, and low testosterone in turn worsens sleep quality, a reciprocal endocrine link."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Metabolic consequence: short and disrupted sleep in insomnia promotes insulin resistance and impaired glucose tolerance, part of the metabolic burden that links chronic insomnia to the raised risk of type 2 diabetes (already mapped)."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Neuroimmune balance: sleep loss shifts the cytokine balance, raising the pro-inflammatory IL-6 and TNF (already mapped) that IL-10 normally restrains, contributing to the low-grade inflammation associated with chronic insomnia."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative stress: sleep deprivation increases oxidative stress, to which xanthine-oxidase-derived reactive oxygen species contribute, one mechanism proposed to link chronic insomnia to accelerated cellular ageing and cardiometabolic risk."
 ---
 
 # Insomnia Disorder
@@ -676,6 +685,9 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Sleep and metabolism: sleep restriction lowers leptin and raises appetite (ghrelin already mapped), linking chronic insomnia to weight gain and metabolic dysregulation in a bidirectional sleep-metabolism relationship.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Sleep homeostasis: nitric oxide in the basal forebrain and brainstem participates in the buildup of sleep pressure and the sleep-wake switch, one of the gaseous modulators of sleep regulation.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Sleep-dependent secretion: testosterone release peaks during sleep, so the fragmented sleep of insomnia lowers testosterone, and low testosterone in turn worsens sleep quality, a reciprocal endocrine link.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Metabolic consequence: short and disrupted sleep in insomnia promotes insulin resistance and impaired glucose tolerance, part of the metabolic burden that links chronic insomnia to the raised risk of type 2 diabetes (already mapped).
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Neuroimmune balance: sleep loss shifts the cytokine balance, raising the pro-inflammatory IL-6 and TNF (already mapped) that IL-10 normally restrains, contributing to the low-grade inflammation associated with chronic insomnia.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative stress: sleep deprivation increases oxidative stress, to which xanthine-oxidase-derived reactive oxygen species contribute, one mechanism proposed to link chronic insomnia to accelerated cellular ageing and cardiometabolic risk.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)
