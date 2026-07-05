@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/sdhb
     relation: connects-to
     note: "Pseudohypoxic driver: SDHB loss defines a metabolic subset of neuroendocrine tumours and paragangliomas where succinate accumulation stabilises HIF (HIF-1α already mapped), driving the intense vascularity and DOTATATE avidity characteristic of these lesions."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Carcinoid heart disease: serotonin-secreting midgut neuroendocrine tumours (serotonin already mapped) cause fibrotic plaques on the right-sided heart valves, and troponin marks the myocardial strain of the resulting right heart failure."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Gastrinoma acid: gastrin-secreting neuroendocrine tumours drive massive gastric acid (proton) secretion (Zollinger-Ellison syndrome), causing refractory peptic ulceration controlled with high-dose proton-pump inhibitors."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "Adrenal medullary tumours: phaeochromocytomas and paragangliomas are catecholamine-secreting neuroendocrine tumours of the adrenal medulla and sympathetic ganglia (SDHB already mapped), part of the spectrum that DOTATATE and MIBG imaging localise."
 ---
 
 # Neuroendocrine Tumors
@@ -586,6 +595,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[CDKN1B (p27)](../../03-molecular/cdkn1b/README.md)** — p27 gatekeeper: germline CDKN1B (p27Kip1) loss causes MEN4, an inherited pancreatic/pituitary neuroendocrine tumour syndrome, and somatic p27 loss releases the cell-cycle brake that restrains well-differentiated NET proliferation, complementing the MEN1 axis already mapped.
 - `connects-to` → **[PTH](../../03-molecular/pth/README.md)** — Syndromic co-secretion: in MEN1-associated NET the parathyroid glands hypersecrete PTH, so primary hyperparathyroidism and hypercalcaemia frequently accompany the pancreatic and pituitary neuroendocrine tumours, tying the NET syndrome to calcium-endocrine physiology.
 - `connects-to` → **[SDHB](../../03-molecular/sdhb/README.md)** — Pseudohypoxic driver: SDHB loss defines a metabolic subset of neuroendocrine tumours and paragangliomas where succinate accumulation stabilises HIF (HIF-1α already mapped), driving the intense vascularity and DOTATATE avidity characteristic of these lesions.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Carcinoid heart disease: serotonin-secreting midgut neuroendocrine tumours (serotonin already mapped) cause fibrotic plaques on the right-sided heart valves, and troponin marks the myocardial strain of the resulting right heart failure.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Gastrinoma acid: gastrin-secreting neuroendocrine tumours drive massive gastric acid (proton) secretion (Zollinger-Ellison syndrome), causing refractory peptic ulceration controlled with high-dose proton-pump inhibitors.
+- `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — Adrenal medullary tumours: phaeochromocytomas and paragangliomas are catecholamine-secreting neuroendocrine tumours of the adrenal medulla and sympathetic ganglia (SDHB already mapped), part of the spectrum that DOTATATE and MIBG imaging localise.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Hypervascular tumours: HIF-1α-driven, VEGF-rich angiogenesis makes neuroendocrine tumours strikingly vascular, the rationale for anti-angiogenic agents such as sunitinib.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Grade and progression: TERT activation maintaining telomeres accompanies the progression of neuroendocrine tumours toward higher-grade, more aggressive disease.
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Proliferative drive: MYC activation drives the higher proliferative rate of poorly differentiated neuroendocrine carcinomas, marking their aggressive behaviour.
