@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/bcl-2
     relation: connects-to
     note: "Lipoapoptosis: lipotoxic hepatocyte death is a driver of NASH inflammation, and the balance between anti-apoptotic BCL-2 family proteins and the caspase-3 execution already mapped determines the hepatocyte apoptosis that fuels stellate-cell fibrosis."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Cardiac mortality: cardiovascular disease is the leading cause of death in NASH (PCSK9 already mapped), and troponin elevation marks the myocardial injury of the accelerated atherosclerosis that ultimately kills most of these patients."
+  - target: 01-human/06-organ/pancreas
+    relation: connects-to
+    note: "Insulin resistance: NASH is tightly coupled to pancreatic beta-cell dysfunction and the insulin resistance (insulin already mapped) of the metabolic syndrome, and worsening glucose control accelerates the progression of the fatty liver."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Sex and menopause: estrogen is hepatoprotective, and its loss after menopause raises the incidence and severity of NASH in women, contributing to the sex differences in fatty liver disease and its progression."
 ---
 
 # NASH
@@ -620,6 +629,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — Fibrogenic signalling: GAS6 activation of the AXL receptor tyrosine kinase drives hepatic stellate cell activation and the fibrosis progression of NASH, and is implicated in the transition to the hepatocellular carcinoma already mapped.
 - `connects-to` → **[PCSK9](../../03-molecular/pcsk9/README.md)** — Cardiovascular mortality: NASH is accompanied by atherogenic dyslipidaemia, and because cardiovascular disease is the leading cause of death in these patients, PCSK9-regulated LDL handling ties the fatty liver to its dominant fatal outcome.
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Lipoapoptosis: lipotoxic hepatocyte death is a driver of NASH inflammation, and the balance between anti-apoptotic BCL-2 family proteins and the caspase-3 execution already mapped determines the hepatocyte apoptosis that fuels stellate-cell fibrosis.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiac mortality: cardiovascular disease is the leading cause of death in NASH (PCSK9 already mapped), and troponin elevation marks the myocardial injury of the accelerated atherosclerosis that ultimately kills most of these patients.
+- `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Insulin resistance: NASH is tightly coupled to pancreatic beta-cell dysfunction and the insulin resistance (insulin already mapped) of the metabolic syndrome, and worsening glucose control accelerates the progression of the fatty liver.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Sex and menopause: estrogen is hepatoprotective, and its loss after menopause raises the incidence and severity of NASH in women, contributing to the sex differences in fatty liver disease and its progression.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

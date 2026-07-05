@@ -384,6 +384,15 @@ cross_links:
   - target: 01-human/03-molecular/glucocorticoid-receptor
     relation: connects-to
     note: "Anti-inflammatory therapy: corticosteroids acting through the glucocorticoid receptor are used, including as epidural injections, to relieve the inflammatory and compressive components of radicular neuropathic pain by dampening neuroinflammation."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Reparative immunity: IL-4 polarises macrophages toward a reparative M2 phenotype and, with IL-10 (already mapped), dampens the neuroinflammation after nerve injury, so the type-2 immune arm helps resolve neuropathic pain."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative sensitisation: reactive oxygen species from xanthine oxidase and other sources accumulate after nerve injury and sensitise nociceptive pathways, an oxidative mechanism contributing to the persistence of neuropathic pain."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Histaminergic modulation: histamine acting on H1 and H3 receptors modulates both itch and pain signalling in sensory pathways, one of the neuromodulator systems (substance P already mapped) that shape the neuropathic pain and itch of nerve injury."
 sources:
   - id: jensen-2011-neuropathic-pain-review
     type: peer-reviewed
@@ -669,6 +678,9 @@ Chronic neuropathic pain carries significant psychological burden:
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Diabetic neuropathy: the most common cause of neuropathic pain is diabetic peripheral neuropathy, where hyperglycaemia and impaired insulin signalling injure sensory axons through metabolic and microvascular mechanisms (RAGE already mapped).
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Sex differences: chronic and neuropathic pain are more prevalent and often more severe in women, and estrogen modulates nociceptive processing and glial activity, contributing to the sex differences in pain sensitivity and treatment response.
 - `connects-to` → **[Glucocorticoid receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Anti-inflammatory therapy: corticosteroids acting through the glucocorticoid receptor are used, including as epidural injections, to relieve the inflammatory and compressive components of radicular neuropathic pain by dampening neuroinflammation.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Reparative immunity: IL-4 polarises macrophages toward a reparative M2 phenotype and, with IL-10 (already mapped), dampens the neuroinflammation after nerve injury, so the type-2 immune arm helps resolve neuropathic pain.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative sensitisation: reactive oxygen species from xanthine oxidase and other sources accumulate after nerve injury and sensitise nociceptive pathways, an oxidative mechanism contributing to the persistence of neuropathic pain.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histaminergic modulation: histamine acting on H1 and H3 receptors modulates both itch and pain signalling in sensory pathways, one of the neuromodulator systems (substance P already mapped) that shape the neuropathic pain and itch of nerve injury.
 
 [^jensen-2011-neuropathic-pain-review]: Jensen TS, Baron R, Haanpää M, et al. A new definition of neuropathic pain. *Pain.* 2011;152(10):2204-2205. [doi:10.1016/j.pain.2011.06.017](https://doi.org/10.1016/j.pain.2011.06.017) · [PubMed 21764514](https://pubmed.ncbi.nlm.nih.gov/21764514/)
 [^dworkin-2010-neuropathic-pain-treatment]: Dworkin RH, O'Connor AB, Audette J, et al. Recommendations for the pharmacological management of neuropathic pain. *Mayo Clin Proc.* 2010;85(3 Suppl):S3-14. [doi:10.4065/mcp.2009.0649](https://doi.org/10.4065/mcp.2009.0649) · [PubMed 20194146](https://pubmed.ncbi.nlm.nih.gov/20194146/)
