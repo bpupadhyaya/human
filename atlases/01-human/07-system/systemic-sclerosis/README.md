@@ -391,6 +391,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Complement C3 participates in the vascular injury and immune activation of systemic sclerosis."
+  - target: 01-human/03-molecular/immunoglobulin-g
+    relation: connects-to
+    note: "Autoantibody serology: systemic sclerosis is defined serologically by IgG autoantibodies, anti-topoisomerase-1 (Scl-70), anti-centromere and anti-RNA-polymerase-III, that stratify the risk of diffuse skin, lung fibrosis and renal crisis."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Vascular therapy: prostacyclin, a prostaglandin, and its analogues such as iloprost dilate vessels and inhibit platelets to treat the digital ischaemia, ulcers and pulmonary hypertension of the systemic-sclerosis vasculopathy."
+  - target: 01-human/03-molecular/bnp
+    relation: connects-to
+    note: "Pulmonary hypertension screening: systemic sclerosis is a leading cause of connective-tissue-disease pulmonary arterial hypertension, and BNP/NT-proBNP release from the strained right ventricle guides the annual screening that detects this lethal complication."
 ---
 
 # Systemic Sclerosis
@@ -629,6 +638,9 @@ Identical to IPAH: medial hypertrophy, intimal fibrosis, concentric laminar inti
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the vasculopathy and fibrotic-cell recruitment of systemic sclerosis.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the inflammatory and fibrotic processes of systemic sclerosis.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the vascular injury and immune activation of systemic sclerosis.
+- `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Autoantibody serology: systemic sclerosis is defined serologically by IgG autoantibodies, anti-topoisomerase-1 (Scl-70), anti-centromere and anti-RNA-polymerase-III, that stratify the risk of diffuse skin, lung fibrosis and renal crisis.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Vascular therapy: prostacyclin, a prostaglandin, and its analogues such as iloprost dilate vessels and inhibit platelets to treat the digital ischaemia, ulcers and pulmonary hypertension of the systemic-sclerosis vasculopathy.
+- `connects-to` → **[BNP](../../03-molecular/bnp/README.md)** — Pulmonary hypertension screening: systemic sclerosis is a leading cause of connective-tissue-disease pulmonary arterial hypertension, and BNP/NT-proBNP release from the strained right ventricle guides the annual screening that detects this lethal complication.
 
 [^denton-2017-ssc-review]: Denton CP, Khanna D. Systemic sclerosis. *Lancet.* 2017;390(10103):1685-1699. [doi:10.1016/S0140-6736(17)30933-9](https://doi.org/10.1016/S0140-6736(17)30933-9) · [PubMed 28413064](https://pubmed.ncbi.nlm.nih.gov/28413064/)
 [^distler-2019-nintedanib-senscis]: Distler O, Highland KB, Gahlemann M, et al. Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease. *N Engl J Med.* 2019;380(26):2518-2528. [doi:10.1056/NEJMoa1903076](https://doi.org/10.1056/NEJMoa1903076) · [PubMed 31112379](https://pubmed.ncbi.nlm.nih.gov/31112379/)

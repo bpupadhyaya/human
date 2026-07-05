@@ -385,6 +385,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Complement C3 participates in the inflammatory tumor microenvironment of synovial sarcoma."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "TCR immunotherapy: synovial sarcoma frequently expresses the cancer-testis antigens NY-ESO-1 and MAGE-A4 and is the leading solid tumour for HLA-restricted engineered T-cell therapy, so antigen-presentation machinery governs its landmark response to TCR-T cells."
+  - target: 01-human/03-molecular/axl-receptor
+    relation: connects-to
+    note: "Invasion and resistance: the AXL receptor tyrosine kinase is expressed in synovial sarcoma and drives the mesenchymal invasion and drug-tolerant phenotype behind its lung-tropic metastatic course, a candidate target beyond conventional chemotherapy."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "Tumour angiogenesis: synovial sarcoma is a vascular soft-tissue sarcoma whose growth depends on neovascularisation driven by angiopoietin-Tie2 and VEGF (VEGF already mapped), the rationale for antiangiogenic tyrosine-kinase inhibitors like pazopanib."
 ---
 
 # Synovial Sarcoma
@@ -633,6 +642,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the tumor-immune microenvironment of synovial sarcoma.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory tumor microenvironment of synovial sarcoma.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory tumor microenvironment of synovial sarcoma.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — TCR immunotherapy: synovial sarcoma frequently expresses the cancer-testis antigens NY-ESO-1 and MAGE-A4 and is the leading solid tumour for HLA-restricted engineered T-cell therapy, so antigen-presentation machinery governs its landmark response to TCR-T cells.
+- `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — Invasion and resistance: the AXL receptor tyrosine kinase is expressed in synovial sarcoma and drives the mesenchymal invasion and drug-tolerant phenotype behind its lung-tropic metastatic course, a candidate target beyond conventional chemotherapy.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Tumour angiogenesis: synovial sarcoma is a vascular soft-tissue sarcoma whose growth depends on neovascularisation driven by angiopoietin-Tie2 and VEGF (VEGF already mapped), the rationale for antiangiogenic tyrosine-kinase inhibitors like pazopanib.
 
 ---
 
