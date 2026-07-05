@@ -409,6 +409,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Capillary vasculopathy: dermatomyositis is a complement-mediated microangiopathy with capillary dropout and perifascicular ischaemia, where impaired endothelial nitric-oxide signalling contributes to the vascular injury underlying the muscle and skin damage."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "T-cell immunity: IL-2-driven T-cell responses participate in the muscle and skin inflammation of dermatomyositis, and the calcineurin/JAK inhibitors (already mapped) used to treat it converge on the T-cell IL-2 signalling axis."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Female predominance: dermatomyositis, like most autoimmune myopathies, is more common in women, and estrogen's enhancement of immune and interferon responses is thought to contribute to this sex difference in susceptibility."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Th2 humoral help: IL-4 and type-2 T-cell help support the B-cell autoantibody responses (immunoglobulin G already mapped) against Mi-2, MDA5 and TIF1-gamma that define the clinical subtypes of dermatomyositis."
 ---
 ---
 
@@ -665,6 +674,9 @@ DM carries a ~3–7× elevated cancer risk overall. Anti-TIF1γ (TRIM33) suppres
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Muscle and cardiac injury: the inflammatory myopathy of dermatomyositis damages striated muscle, and cardiac involvement with troponin elevation is an underrecognised source of morbidity that warrants surveillance beyond the proximal muscle weakness.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Interstitial lung fibrosis: interstitial lung disease, rapidly progressive in the anti-MDA5 subtype, is a leading cause of death in dermatomyositis, and TGF-beta drives the fibroblast activation and collagen deposition of the fibrosing lung.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Capillary vasculopathy: dermatomyositis is a complement-mediated microangiopathy with capillary dropout and perifascicular ischaemia, where impaired endothelial nitric-oxide signalling contributes to the vascular injury underlying the muscle and skin damage.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell immunity: IL-2-driven T-cell responses participate in the muscle and skin inflammation of dermatomyositis, and the calcineurin/JAK inhibitors (already mapped) used to treat it converge on the T-cell IL-2 signalling axis.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Female predominance: dermatomyositis, like most autoimmune myopathies, is more common in women, and estrogen's enhancement of immune and interferon responses is thought to contribute to this sex difference in susceptibility.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Th2 humoral help: IL-4 and type-2 T-cell help support the B-cell autoantibody responses (immunoglobulin G already mapped) against Mi-2, MDA5 and TIF1-gamma that define the clinical subtypes of dermatomyositis.
 
 [^bohan-peter-1975-dm-criteria]: Bohan A, Peter JB. Polymyositis and dermatomyositis. *N Engl J Med.* 1975;292(7):344-347. [doi:10.1056/NEJM197502132920706](https://doi.org/10.1056/NEJM197502132920706) · [PubMed 1090839](https://pubmed.ncbi.nlm.nih.gov/1090839/)
 [^lundberg-2021-iim-classification]: Lundberg IE, et al. 2017 EULAR/ACR classification criteria for adult and juvenile idiopathic inflammatory myopathies. *Arthritis Rheumatol.* 2017;69(12):2271-2282. [doi:10.1002/art.40320](https://doi.org/10.1002/art.40320) · [PubMed 29106061](https://pubmed.ncbi.nlm.nih.gov/29106061/)

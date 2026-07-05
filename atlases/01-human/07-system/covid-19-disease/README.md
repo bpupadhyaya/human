@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/surfactant
     relation: connects-to
     note: "Alveolar injury: SARS-CoV-2 infects and kills the type II pneumocytes that produce surfactant, and the resulting surfactant deficiency contributes to the alveolar collapse and ARDS of severe COVID-19 pneumonia."
+  - target: 01-human/03-molecular/secretory-iga
+    relation: connects-to
+    note: "Mucosal immunity: secretory IgA on the nasal and airway mucosa is a first line of defence against SARS-CoV-2 and a correlate of protection, motivating the intranasal vaccines designed to raise mucosal immunity at the site of entry."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Antigen presentation and vaccines: MHC class II presentation of viral antigens drives the CD4 T-cell help underlying antibody responses to SARS-CoV-2 infection and vaccination, and HLA variation influences the severity of COVID-19."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "T-cell response: IL-2-driven T-cell expansion generates the SARS-CoV-2-specific T cells that clear the virus (perforin already mapped) and provide durable protection, while the lymphopenia of severe disease reflects failure of this response."
 ---
 
 # COVID-19 Disease
@@ -596,6 +605,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Neutralising immunity: protective and vaccine-induced immunity to SARS-CoV-2 is carried largely by neutralising IgG against the spike protein (already mapped), and monoclonal IgG antibodies were an early therapeutic before variant escape blunted them.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiac injury: myocardial injury marked by troponin elevation is common in severe COVID-19 and independently predicts mortality, reflecting myocarditis, microthrombosis and demand ischaemia from the systemic illness.
 - `connects-to` → **[Surfactant](../../03-molecular/surfactant/README.md)** — Alveolar injury: SARS-CoV-2 infects and kills the type II pneumocytes that produce surfactant, and the resulting surfactant deficiency contributes to the alveolar collapse and ARDS of severe COVID-19 pneumonia.
+- `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — Mucosal immunity: secretory IgA on the nasal and airway mucosa is a first line of defence against SARS-CoV-2 and a correlate of protection, motivating the intranasal vaccines designed to raise mucosal immunity at the site of entry.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Antigen presentation and vaccines: MHC class II presentation of viral antigens drives the CD4 T-cell help underlying antibody responses to SARS-CoV-2 infection and vaccination, and HLA variation influences the severity of COVID-19.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell response: IL-2-driven T-cell expansion generates the SARS-CoV-2-specific T cells that clear the virus (perforin already mapped) and provide durable protection, while the lymphopenia of severe disease reflects failure of this response.
 
 ## Pathology
 
