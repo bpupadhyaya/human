@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/calcineurin
     relation: connects-to
     note: "Calcineurin-NFAT signaling participates in the hepatic-stellate-cell activation and fibrosis of NASH."
+  - target: 01-human/03-molecular/axl-receptor
+    relation: connects-to
+    note: "Fibrogenic signalling: GAS6 activation of the AXL receptor tyrosine kinase drives hepatic stellate cell activation and the fibrosis progression of NASH, and is implicated in the transition to the hepatocellular carcinoma already mapped."
+  - target: 01-human/03-molecular/pcsk9
+    relation: connects-to
+    note: "Cardiovascular mortality: NASH is accompanied by atherogenic dyslipidaemia, and because cardiovascular disease is the leading cause of death in these patients, PCSK9-regulated LDL handling ties the fatty liver to its dominant fatal outcome."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Lipoapoptosis: lipotoxic hepatocyte death is a driver of NASH inflammation, and the balance between anti-apoptotic BCL-2 family proteins and the caspase-3 execution already mapped determines the hepatocyte apoptosis that fuels stellate-cell fibrosis."
 ---
 
 # NASH
@@ -608,6 +617,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the hepatic inflammation and fibrosis of NASH.
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the hepatic metabolic and fibrotic gene programs of NASH.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the hepatic-stellate-cell activation and fibrosis of NASH.
+- `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — Fibrogenic signalling: GAS6 activation of the AXL receptor tyrosine kinase drives hepatic stellate cell activation and the fibrosis progression of NASH, and is implicated in the transition to the hepatocellular carcinoma already mapped.
+- `connects-to` → **[PCSK9](../../03-molecular/pcsk9/README.md)** — Cardiovascular mortality: NASH is accompanied by atherogenic dyslipidaemia, and because cardiovascular disease is the leading cause of death in these patients, PCSK9-regulated LDL handling ties the fatty liver to its dominant fatal outcome.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Lipoapoptosis: lipotoxic hepatocyte death is a driver of NASH inflammation, and the balance between anti-apoptotic BCL-2 family proteins and the caspase-3 execution already mapped determines the hepatocyte apoptosis that fuels stellate-cell fibrosis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
