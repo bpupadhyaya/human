@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Osteopontin participates in the leukemic-stem-cell-niche and bone-marrow-microenvironment interactions of chronic myelomonocytic leukemia."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Hyperuricaemia: the increased cell turnover of proliferative chronic myelomonocytic leukaemia raises uric acid through xanthine oxidase, causing the hyperuricaemia and gout risk managed with allopurinol during cytoreduction."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Dysplastic anaemia: as a myelodysplastic/myeloproliferative overlap, CMML impairs effective erythropoiesis, lowering haemoglobin and making transfusion-dependent anaemia a common and prognostically important feature."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Monocyte dysfunction: the clonal monocytes of CMML have altered HLA-DR (MHC class II) expression and impaired antigen presentation, contributing to the immune dysfunction and the autoinflammatory conditions that accompany the disease."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -645,6 +654,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the myelomonocytic proliferation and immune signaling of chronic myelomonocytic leukemia.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine signaling participates in the immunosuppressive bone-marrow microenvironment of chronic myelomonocytic leukemia.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the leukemic-stem-cell-niche and bone-marrow-microenvironment interactions of chronic myelomonocytic leukemia.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Hyperuricaemia: the increased cell turnover of proliferative chronic myelomonocytic leukaemia raises uric acid through xanthine oxidase, causing the hyperuricaemia and gout risk managed with allopurinol during cytoreduction.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Dysplastic anaemia: as a myelodysplastic/myeloproliferative overlap, CMML impairs effective erythropoiesis, lowering haemoglobin and making transfusion-dependent anaemia a common and prognostically important feature.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Monocyte dysfunction: the clonal monocytes of CMML have altered HLA-DR (MHC class II) expression and impaired antigen presentation, contributing to the immune dysfunction and the autoinflammatory conditions that accompany the disease.
 
 ---
 

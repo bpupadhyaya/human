@@ -400,6 +400,15 @@ cross_links:
   - target: 01-human/03-molecular/adenosine
     relation: connects-to
     note: "Adenosine signaling participates in the airway inflammation and emphysema-related tissue remodeling of chronic obstructive pulmonary disease."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Secondary polycythaemia: chronic hypoxaemia in COPD drives erythropoietin (already mapped) and raises haemoglobin and haematocrit, a compensatory polycythaemia that increases blood viscosity and thrombotic risk."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Cardiac comorbidity: COPD strongly associates with cardiovascular disease, and troponin elevation from cor pulmonale, demand ischaemia and comorbid coronary disease marks the cardiac injury that contributes to its mortality."
+  - target: 01-human/03-molecular/secretory-iga
+    relation: connects-to
+    note: "Airway mucosal defence: reduced secretory IgA over the remodelled small airways of COPD weakens the mucosal barrier against inhaled microbes, promoting the bacterial colonisation and infective exacerbations that drive disease progression."
 ---
 
 # COPD
@@ -670,6 +679,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the airway-epithelial and immune gene programs of chronic obstructive pulmonary disease.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the T-cell-mediated inflammation of chronic obstructive pulmonary disease.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine signaling participates in the airway inflammation and emphysema-related tissue remodeling of chronic obstructive pulmonary disease.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Secondary polycythaemia: chronic hypoxaemia in COPD drives erythropoietin (already mapped) and raises haemoglobin and haematocrit, a compensatory polycythaemia that increases blood viscosity and thrombotic risk.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiac comorbidity: COPD strongly associates with cardiovascular disease, and troponin elevation from cor pulmonale, demand ischaemia and comorbid coronary disease marks the cardiac injury that contributes to its mortality.
+- `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — Airway mucosal defence: reduced secretory IgA over the remodelled small airways of COPD weakens the mucosal barrier against inhaled microbes, promoting the bacterial colonisation and infective exacerbations that drive disease progression.
 
 ---
 
