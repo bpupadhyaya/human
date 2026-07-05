@@ -400,6 +400,15 @@ cross_links:
   - target: 01-human/03-molecular/hemoglobin
     relation: connects-to
     note: "Advanced anaemia: anaemia deepens as HIV progresses to AIDS through marrow suppression, opportunistic infection and drug toxicity, and a low haemoglobin is a strong independent predictor of mortality."
+  - target: 01-human/03-molecular/immunoglobulin-g
+    relation: connects-to
+    note: "Polyclonal hypergammaglobulinaemia: AIDS produces high but poorly targeted IgG from dysregulated B cells (BAFF-driven), an ineffective antibody excess that coexists with failing specific immunity and raises the risk of B-cell lymphomas."
+  - target: 01-human/03-molecular/secretory-iga
+    relation: connects-to
+    note: "Mucosal immunity loss: destruction of gut-associated lymphoid tissue in AIDS impairs secretory IgA at mucosal surfaces, weakening the barrier and contributing to the enteric opportunistic infections and HIV enteropathy that drive wasting."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Th1-to-Th2 shift: progression to AIDS is accompanied by a shift away from the protective Th1 response (IL-12/IFN-gamma already mapped) toward IL-4-driven type-2 immunity, a cytokine reorientation that tracks with immune collapse."
 ---
 
 # HIV/AIDS
@@ -642,6 +651,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[LMP1](../../03-molecular/lmp1/README.md)** — EBV malignancies: profound immunosuppression in AIDS permits Epstein-Barr-virus-driven lymphomas including primary CNS lymphoma (already mapped), where the viral oncoprotein LMP1 drives B-cell transformation unchecked by the lost T-cell surveillance.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Wasting and lipodystrophy: AIDS wasting syndrome and antiretroviral lipodystrophy involve dysregulated leptin and adipose signalling, driving the loss of lean mass and the metabolic complications that persist even with treatment.
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Advanced anaemia: anaemia deepens as HIV progresses to AIDS through marrow suppression, opportunistic infection and drug toxicity, and a low haemoglobin is a strong independent predictor of mortality.
+- `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Polyclonal hypergammaglobulinaemia: AIDS produces high but poorly targeted IgG from dysregulated B cells (BAFF-driven), an ineffective antibody excess that coexists with failing specific immunity and raises the risk of B-cell lymphomas.
+- `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — Mucosal immunity loss: destruction of gut-associated lymphoid tissue in AIDS impairs secretory IgA at mucosal surfaces, weakening the barrier and contributing to the enteric opportunistic infections and HIV enteropathy that drive wasting.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Th1-to-Th2 shift: progression to AIDS is accompanied by a shift away from the protective Th1 response (IL-12/IFN-gamma already mapped) toward IL-4-driven type-2 immunity, a cytokine reorientation that tracks with immune collapse.
 
 ## See Also
 

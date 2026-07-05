@@ -400,6 +400,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "T-cell response: IL-2 drives the expansion of the effector and memory T cells (perforin already mapped) that clear influenza-infected airway epithelium, and the strength of this response shapes recovery and cross-protection."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Fever response: prostaglandin E2 generated during influenza acts on the hypothalamus to produce the fever and malaise of the illness, which is why cyclooxygenase-inhibiting antipyretics relieve these systemic symptoms."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Airway nitric oxide: inducible nitric oxide rises in the influenza-infected airway, contributing both to antiviral defence and, in excess, to the airway inflammation and lung injury of severe infection."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Antibody help: IL-4 and type-2 T-cell help drive the B-cell (already mapped) production of the neutralising antibodies (IgG already mapped) against haemagglutinin that mediate influenza immunity and vaccine protection."
 ---
 
 # Influenza
@@ -663,3 +672,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Vaccine and clearance: MHC class II-restricted CD4 help drives the antibody response to haemagglutinin (already mapped) elicited by influenza vaccines, and cross-reactive T-cell help contributes to the heterosubtypic immunity sought by universal-vaccine efforts.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiac complications: influenza can cause myocarditis and sharply raises the short-term risk of myocardial infarction, with troponin release marking the cardiac injury that contributes to influenza-associated deaths.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell response: IL-2 drives the expansion of the effector and memory T cells (perforin already mapped) that clear influenza-infected airway epithelium, and the strength of this response shapes recovery and cross-protection.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Fever response: prostaglandin E2 generated during influenza acts on the hypothalamus to produce the fever and malaise of the illness, which is why cyclooxygenase-inhibiting antipyretics relieve these systemic symptoms.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Airway nitric oxide: inducible nitric oxide rises in the influenza-infected airway, contributing both to antiviral defence and, in excess, to the airway inflammation and lung injury of severe infection.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Antibody help: IL-4 and type-2 T-cell help drive the B-cell (already mapped) production of the neutralising antibodies (IgG already mapped) against haemagglutinin that mediate influenza immunity and vaccine protection.
