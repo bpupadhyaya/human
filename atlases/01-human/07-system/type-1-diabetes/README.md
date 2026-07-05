@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/calcineurin
     relation: connects-to
     note: "Calcineurin-NFAT signaling participates in the autoreactive T-cell activation driving the β-cell destruction of type 1 diabetes."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Beta-cell exocytosis: calcium influx triggers the exocytosis of insulin granules from beta cells, the secretory step progressively lost as autoimmune destruction eliminates the beta-cell mass in type 1 diabetes."
+  - target: 01-human/03-molecular/immunoglobulin-g
+    relation: connects-to
+    note: "Islet autoantibodies: IgG autoantibodies against insulin, GAD65, IA-2 and ZnT8 appear years before symptoms and are the basis for presymptomatic staging and screening of type 1 diabetes."
+  - target: 01-human/03-molecular/glutamate
+    relation: connects-to
+    note: "GAD65 autoantigen: glutamic acid decarboxylase, which converts glutamate to GABA (already mapped) in beta cells, is a principal type 1 diabetes autoantigen, so the glutamate-GAD axis is central to the islet autoimmunity."
 ---
 
 # Type 1 Diabetes
@@ -615,6 +624,9 @@ cross_links:
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the islet immune microenvironment of type 1 diabetes.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the immune-mediated islet inflammation of type 1 diabetes.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the autoreactive T-cell activation driving the β-cell destruction of type 1 diabetes.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Beta-cell exocytosis: calcium influx triggers the exocytosis of insulin granules from beta cells, the secretory step progressively lost as autoimmune destruction eliminates the beta-cell mass in type 1 diabetes.
+- `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Islet autoantibodies: IgG autoantibodies against insulin, GAD65, IA-2 and ZnT8 appear years before symptoms and are the basis for presymptomatic staging and screening of type 1 diabetes.
+- `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — GAD65 autoantigen: glutamic acid decarboxylase, which converts glutamate to GABA (already mapped) in beta cells, is a principal type 1 diabetes autoantigen, so the glutamate-GAD axis is central to the islet autoimmunity.
 
 [^atkinson-2014-t1d-lancet]: Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. *Lancet.* 2014;383(9911):69-82. [doi:10.1016/S0140-6736(13)60591-7](https://doi.org/10.1016/S0140-6736(13)60591-7) · [PubMed 23890997](https://pubmed.ncbi.nlm.nih.gov/23890997/)
 [^herold-2019-teplizumab-t1d]: Herold KC, Bundy BN, Long SA, et al. An anti-CD3 antibody, teplizumab, in relatives at risk for type 1 diabetes. *N Engl J Med.* 2019;381(7):603-613. [doi:10.1056/NEJMoa1905155](https://doi.org/10.1056/NEJMoa1905155) · [PubMed 31180675](https://pubmed.ncbi.nlm.nih.gov/31180675/)

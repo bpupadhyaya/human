@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Osteopontin participates in the interferon-driven and autoimmune inflammation of systemic lupus erythematosus."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Accelerated atherosclerosis: chronic inflammation and type I interferon (already mapped) in lupus impair endothelial nitric-oxide function, driving the premature atherosclerosis that is a leading cause of death in SLE."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Immunostimulatory hormone: prolactin promotes lymphocyte survival and autoantibody production, and hyperprolactinaemia is associated with higher lupus disease activity, part of the sex-hormone milieu behind the strong female predominance (estrogen already mapped)."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Defective apoptosis: impaired clearance of apoptotic debris and prolonged survival of autoreactive lymphocytes, supported by anti-apoptotic BCL-2 family proteins, help break tolerance and sustain the autoimmunity of systemic lupus erythematosus."
 ---
 
 # Systemic Lupus Erythematosus
@@ -643,6 +652,9 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic dysregulation of the immune responses of systemic lupus erythematosus.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine signaling, a mechanism of methotrexate and immunomodulation, participates in the immune regulation of systemic lupus erythematosus.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the interferon-driven and autoimmune inflammation of systemic lupus erythematosus.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Accelerated atherosclerosis: chronic inflammation and type I interferon (already mapped) in lupus impair endothelial nitric-oxide function, driving the premature atherosclerosis that is a leading cause of death in SLE.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Immunostimulatory hormone: prolactin promotes lymphocyte survival and autoantibody production, and hyperprolactinaemia is associated with higher lupus disease activity, part of the sex-hormone milieu behind the strong female predominance (estrogen already mapped).
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Defective apoptosis: impaired clearance of apoptotic debris and prolonged survival of autoreactive lymphocytes, supported by anti-apoptotic BCL-2 family proteins, help break tolerance and sustain the autoimmunity of systemic lupus erythematosus.
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)
