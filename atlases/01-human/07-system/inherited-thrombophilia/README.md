@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/leptin
     relation: connects-to
     note: "Obesity multiplier: obesity is a strong independent risk factor for venous thrombosis, and the adipokine leptin promotes platelet activation and a prothrombotic state that multiplies the risk conferred by an inherited thrombophilia."
+  - target: 01-human/03-molecular/progesterone
+    relation: connects-to
+    note: "Pregnancy risk: pregnancy is a hypercoagulable state driven by progesterone and estrogen (already mapped), and an inherited thrombophilia sharply raises the risk of pregnancy-associated venous thromboembolism and placental thrombotic complications."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Pulmonary embolism strain: a large pulmonary embolism from an inherited thrombophilia strains the right ventricle, and troponin elevation marks the myocardial injury that identifies high-risk PE needing more aggressive treatment."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Metabolic hypercoagulability: insulin resistance and the metabolic syndrome raise PAI-1 and fibrinogen (already mapped) to create an acquired prothrombotic state that compounds the risk of an inherited thrombophilia."
 ---
 
 # Inherited Thrombophilia
@@ -690,6 +699,9 @@ Antithrombin (ATIII) is the primary plasma inhibitor of thrombin, FXa, FIXa, and
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen risk: exogenous testosterone therapy raises venous thromboembolism risk partly by inducing erythrocytosis, a modifiable exposure that compounds the baseline hypercoagulability of an inherited thrombophilia.
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Hyperviscosity: a raised haemoglobin and haematocrit increase blood viscosity and thrombosis risk, so polycythaemia, whether from JAK2-driven disease or other causes, acts synergistically with an inherited thrombophilia to precipitate clots.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Obesity multiplier: obesity is a strong independent risk factor for venous thrombosis, and the adipokine leptin promotes platelet activation and a prothrombotic state that multiplies the risk conferred by an inherited thrombophilia.
+- `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Pregnancy risk: pregnancy is a hypercoagulable state driven by progesterone and estrogen (already mapped), and an inherited thrombophilia sharply raises the risk of pregnancy-associated venous thromboembolism and placental thrombotic complications.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Pulmonary embolism strain: a large pulmonary embolism from an inherited thrombophilia strains the right ventricle, and troponin elevation marks the myocardial injury that identifies high-risk PE needing more aggressive treatment.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Metabolic hypercoagulability: insulin resistance and the metabolic syndrome raise PAI-1 and fibrinogen (already mapped) to create an acquired prothrombotic state that compounds the risk of an inherited thrombophilia.
 
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)

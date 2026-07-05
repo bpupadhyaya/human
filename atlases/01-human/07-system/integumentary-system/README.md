@@ -395,6 +395,15 @@ cross_links:
   - target: 01-human/03-molecular/melatonin
     relation: connects-to
     note: "Cutaneous protection: the skin both produces and responds to melatonin, which acts as a local antioxidant against ultraviolet damage and participates in the circadian regulation of the hair follicle cycle."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Antioxidant selenoproteins: selenium-dependent glutathione peroxidases protect skin and hair from oxidative and ultraviolet damage (NFE2L2 already mapped), and selenium deficiency causes skin and hair changes, part of the integument's antioxidant defence."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Cutaneous serotonin: the skin synthesises and responds to serotonin, which modulates itch, keratinocyte proliferation and dermal blood flow, one of several neurotransmitter systems (substance P already mapped) active in the integument."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Adipokine signalling: subcutaneous adipose tissue is part of the integument, and its adipokine leptin influences hair-follicle cycling, wound healing and dermal homeostasis, linking the skin's fat layer to its regenerative biology."
 ---
 
 # Integumentary System
@@ -626,6 +635,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Metabolic skin signs: insulin and IGF acting on keratinocytes drive acanthosis nigricans, the velvety hyperpigmentation that signals insulin resistance, making the skin a visible window onto systemic metabolic disease.
 - `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Pigmentation and vascular tone: endothelin-1 signalling through EDNRB supports melanocyte survival and pigment production and regulates dermal vascular tone, contributing to both skin colour and cutaneous blood flow.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Cutaneous protection: the skin both produces and responds to melatonin, which acts as a local antioxidant against ultraviolet damage and participates in the circadian regulation of the hair follicle cycle.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Antioxidant selenoproteins: selenium-dependent glutathione peroxidases protect skin and hair from oxidative and ultraviolet damage (NFE2L2 already mapped), and selenium deficiency causes skin and hair changes, part of the integument's antioxidant defence.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Cutaneous serotonin: the skin synthesises and responds to serotonin, which modulates itch, keratinocyte proliferation and dermal blood flow, one of several neurotransmitter systems (substance P already mapped) active in the integument.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adipokine signalling: subcutaneous adipose tissue is part of the integument, and its adipokine leptin influences hair-follicle cycling, wound healing and dermal homeostasis, linking the skin's fat layer to its regenerative biology.
 
 ## Pathology
 
