@@ -397,6 +397,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Complement C3 participates in the microglial and neuroinflammatory processes implicated in social anxiety disorder."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "Brain renin-angiotensin: central angiotensin II modulates the HPA and sympathetic stress response, and angiotensin blockade is associated with lower anxiety, a neuroendocrine axis beyond the monoamine systems already mapped in social anxiety."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Fear circuitry: nitric oxide from neuronal nNOS modulates the amygdala and prefrontal circuits that process social threat, implicating NO signalling in the exaggerated fear response of social anxiety disorder."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Arousal and blushing: central histamine drives arousal and vigilance, systems heightened in the anticipatory anxiety, and peripheral vasomotor responses contribute to the blushing that is a hallmark somatic symptom of social anxiety."
 ---
 
 # Social Anxiety Disorder
@@ -653,6 +662,9 @@ The unique **dopaminergic social reward deficit** in SAD has clinical implicatio
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the microglial and neuroinflammatory responses implicated in social anxiety disorder.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the neuroinflammation associated with social anxiety disorder.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the microglial and neuroinflammatory processes implicated in social anxiety disorder.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — Brain renin-angiotensin: central angiotensin II modulates the HPA and sympathetic stress response, and angiotensin blockade is associated with lower anxiety, a neuroendocrine axis beyond the monoamine systems already mapped in social anxiety.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Fear circuitry: nitric oxide from neuronal nNOS modulates the amygdala and prefrontal circuits that process social threat, implicating NO signalling in the exaggerated fear response of social anxiety disorder.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Arousal and blushing: central histamine drives arousal and vigilance, systems heightened in the anticipatory anxiety, and peripheral vasomotor responses contribute to the blushing that is a hallmark somatic symptom of social anxiety.
 
 [^liebowitz-1987-sad-scale]: Liebowitz MR. Social phobia. *Mod Probl Pharmacopsychiatry.* 1987;22:141-173. [PubMed 2885745](https://pubmed.ncbi.nlm.nih.gov/2885745/)
 [^stein-2008-sad-review]: Stein MB, Stein DJ. Social anxiety disorder. *Lancet.* 2008;371(9618):1115-1125. [doi:10.1016/S0140-6736(08)60488-2](https://doi.org/10.1016/S0140-6736(08)60488-2) · [PubMed 18374843](https://pubmed.ncbi.nlm.nih.gov/18374843/)

@@ -397,6 +397,15 @@ cross_links:
   - target: 01-human/03-molecular/il-17a
     relation: connects-to
     note: "IL-17A signaling participates in the chronic inflammation of sickle cell disease."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Red-cell dehydration: sickling opens a calcium-permeable pathway (Psickle) whose calcium influx activates the Gardos potassium channel (potassium already mapped), driving the water loss that concentrates HbS and accelerates polymerisation."
+  - target: 01-human/03-molecular/mu-opioid-receptor
+    relation: connects-to
+    note: "Pain crisis: recurrent vaso-occlusive pain is the dominant symptom of sickle cell disease and is managed with opioids acting on the mu-opioid receptor, creating a difficult balance between analgesia and dependence."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Transfusion alloimmunisation: chronic red-cell transfusion in sickle cell disease provokes alloantibodies against minor blood-group antigens presented on MHC, a major complication that complicates future transfusion."
 ---
 
 # Sickle Cell Disease
@@ -682,6 +691,9 @@ SCD vaso-occlusion is not just from sickled RBCs mechanically blocking vessels �
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the vaso-occlusive and inflammatory crises of sickle cell disease.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the endothelial and immune activation of sickle cell disease.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the chronic inflammation of sickle cell disease.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Red-cell dehydration: sickling opens a calcium-permeable pathway (Psickle) whose calcium influx activates the Gardos potassium channel (potassium already mapped), driving the water loss that concentrates HbS and accelerates polymerisation.
+- `connects-to` → **[Mu-opioid receptor](../../03-molecular/mu-opioid-receptor/README.md)** — Pain crisis: recurrent vaso-occlusive pain is the dominant symptom of sickle cell disease and is managed with opioids acting on the mu-opioid receptor, creating a difficult balance between analgesia and dependence.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Transfusion alloimmunisation: chronic red-cell transfusion in sickle cell disease provokes alloantibodies against minor blood-group antigens presented on MHC, a major complication that complicates future transfusion.
 
 [^steinberg-1999-scd-management]: Steinberg MH. Management of sickle cell disease. *N Engl J Med.* 1999;340(13):1021-1030. [doi:10.1056/NEJM199904013401307](https://doi.org/10.1056/NEJM199904013401307) · [PubMed 10099145](https://pubmed.ncbi.nlm.nih.gov/10099145/)
 [^vichinsky-2000-acs-scd]: Vichinsky EP, Neumayr LD, Earles AN, et al. Causes and outcomes of the acute chest syndrome in sickle cell disease. *N Engl J Med.* 2000;342(25):1855-1865. [doi:10.1056/NEJM200006223422502](https://doi.org/10.1056/NEJM200006223422502) · [PubMed 10861320](https://pubmed.ncbi.nlm.nih.gov/10861320/)
