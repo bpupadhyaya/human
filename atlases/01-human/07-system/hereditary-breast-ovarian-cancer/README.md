@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/calcineurin
     relation: connects-to
     note: "Calcineurin-NFAT signaling participates in the tumor microenvironment and immune signaling of hereditary breast and ovarian cancer syndrome."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "HRD immunogenicity: BRCA-deficient tumours accumulate genomic scars and neoantigens from failed homologous recombination (RAD51 already mapped), and MHC class II antigen presentation shapes the immunotherapy responses seen in these more immunogenic cancers."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "T-cell immunity: IL-2-driven T-cell expansion supports the anti-tumour immunity and checkpoint responses (PD-1 already mapped) that are more active in the neoantigen-rich BRCA-mutant breast and ovarian cancers."
+  - target: 01-human/03-molecular/axl-receptor
+    relation: connects-to
+    note: "Therapy resistance: the AXL receptor tyrosine kinase drives epithelial-mesenchymal transition and can contribute to resistance to PARP inhibitors and platinum, the mainstays that exploit the homologous-recombination defect of BRCA-mutant tumours."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -655,6 +664,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory tumor microenvironment of hereditary breast and ovarian cancer syndrome.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory tumor microenvironment of hereditary breast and ovarian cancer syndrome.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the tumor microenvironment and immune signaling of hereditary breast and ovarian cancer syndrome.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — HRD immunogenicity: BRCA-deficient tumours accumulate genomic scars and neoantigens from failed homologous recombination (RAD51 already mapped), and MHC class II antigen presentation shapes the immunotherapy responses seen in these more immunogenic cancers.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell immunity: IL-2-driven T-cell expansion supports the anti-tumour immunity and checkpoint responses (PD-1 already mapped) that are more active in the neoantigen-rich BRCA-mutant breast and ovarian cancers.
+- `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — Therapy resistance: the AXL receptor tyrosine kinase drives epithelial-mesenchymal transition and can contribute to resistance to PARP inhibitors and platinum, the mainstays that exploit the homologous-recombination defect of BRCA-mutant tumours.
 
 ---
 

@@ -400,6 +400,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Osteopontin participates in the neutrophil/macrophage crystal-induced inflammation and tophus formation of gout."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Uricosuric hormone: estrogen promotes renal uric-acid excretion, which is why gout is uncommon in premenopausal women and its incidence rises after menopause, one of the clearest sex and age patterns in the disease."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Cardiovascular risk: hyperuricaemia and gout are associated with an increased risk of myocardial infarction and cardiovascular death, and troponin elevation marks the cardiac injury of these events that complicate the disease."
+  - target: 01-human/03-molecular/bnp
+    relation: connects-to
+    note: "Cardiorenal link: diuretics used for heart failure raise serum urate and precipitate gout, and hyperuricaemia tracks with heart-failure severity, so the natriuretic-peptide axis connects gout to the cardiorenal syndrome."
 ---
 
 # Gout
@@ -620,6 +629,9 @@ The central mechanism linking MSU crystals to acute gouty arthritis is **NLRP3 i
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the innate-immune gene programs of gout.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the myeloid-cell activation and inflammatory responses of gout.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the neutrophil/macrophage crystal-induced inflammation and tophus formation of gout.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Uricosuric hormone: estrogen promotes renal uric-acid excretion, which is why gout is uncommon in premenopausal women and its incidence rises after menopause, one of the clearest sex and age patterns in the disease.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiovascular risk: hyperuricaemia and gout are associated with an increased risk of myocardial infarction and cardiovascular death, and troponin elevation marks the cardiac injury of these events that complicate the disease.
+- `connects-to` → **[BNP](../../03-molecular/bnp/README.md)** — Cardiorenal link: diuretics used for heart failure raise serum urate and precipitate gout, and hyperuricaemia tracks with heart-failure severity, so the natriuretic-peptide axis connects gout to the cardiorenal syndrome.
 
 [^dalbeth-2019-gout-primer]: Dalbeth N, Choi HK, Joosten LAB, et al. Gout. *Nat Rev Dis Primers.* 2019;5(1):69. [doi:10.1038/s41572-019-0115-y](https://doi.org/10.1038/s41572-019-0115-y) · [PubMed 31558729](https://pubmed.ncbi.nlm.nih.gov/31558729/)
 [^martinon-2006-nlrp3-gout]: Martinon F, Pétrilli V, Mayor A, Tardivel A, Tschopp J. Gout-associated uric acid crystals activate the NALP3 inflammasome. *Nature.* 2006;440(7081):237-241. [doi:10.1038/nature04516](https://doi.org/10.1038/nature04516) · [PubMed 16407889](https://pubmed.ncbi.nlm.nih.gov/16407889/)
