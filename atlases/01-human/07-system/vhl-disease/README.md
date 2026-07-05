@@ -385,6 +385,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "IL-6-STAT3 signaling (STAT3 already mapped) participates in the tumor-microenvironment and survival signaling of von Hippel-Lindau disease."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "RCC immunotherapy: the clear cell renal cell carcinomas that dominate VHL disease are immunogenic, historically responsive to high-dose IL-2 and now to checkpoint inhibitors, an immune-targetable dimension complementing the HIF-directed belzutifan."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Chromaffin secretion: the phaeochromocytomas of VHL disease release catecholamines by calcium-triggered granule exocytosis, tying the syndrome's adrenal tumours to the same secretory physiology as sporadic phaeochromocytoma."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Iron and erythrocytosis: HIF stabilisation in VHL disease drives erythropoietin (already mapped) and reshapes iron handling, with transferrin-delivered iron supplying the erythrocytosis and the intensely vascular hemangioblastomas."
 ---
 
 # VHL Disease
@@ -629,6 +638,9 @@ The genotype-phenotype correlation reflects the degree of pVHL function retained
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the tumor microenvironment of the tumors of von Hippel-Lindau disease.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the tumor-immune microenvironment of von Hippel-Lindau disease.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6-STAT3 signaling (STAT3 already mapped) participates in the tumor-microenvironment and survival signaling of von Hippel-Lindau disease.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — RCC immunotherapy: the clear cell renal cell carcinomas that dominate VHL disease are immunogenic, historically responsive to high-dose IL-2 and now to checkpoint inhibitors, an immune-targetable dimension complementing the HIF-directed belzutifan.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Chromaffin secretion: the phaeochromocytomas of VHL disease release catecholamines by calcium-triggered granule exocytosis, tying the syndrome's adrenal tumours to the same secretory physiology as sporadic phaeochromocytoma.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Iron and erythrocytosis: HIF stabilisation in VHL disease drives erythropoietin (already mapped) and reshapes iron handling, with transferrin-delivered iron supplying the erythrocytosis and the intensely vascular hemangioblastomas.
 
 [^lonser-2003-vhl-disease]: Lonser RR, Glenn GM, Walther M, et al. von Hippel-Lindau disease. *Lancet.* 2003;361(9374):2059-2067. [doi:10.1016/S0140-6736(03)13643-4](https://doi.org/10.1016/S0140-6736(03)13643-4) · [PubMed 12814730](https://pubmed.ncbi.nlm.nih.gov/12814730/)
 [^choueiri-2020-hif2-rcc]: Choueiri TK, Kaelin WG Jr. Targeting the HIF2-VEGF axis in renal cell carcinoma. *Nat Med.* 2020;26(10):1519-1530. [doi:10.1038/s41591-020-1093-z](https://doi.org/10.1038/s41591-020-1093-z) · [PubMed 33020650](https://pubmed.ncbi.nlm.nih.gov/33020650/)

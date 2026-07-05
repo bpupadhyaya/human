@@ -385,6 +385,15 @@ cross_links:
   - target: 01-human/03-molecular/il-17a
     relation: connects-to
     note: "IL-17A signaling participates in the chronic inflammation (inflammaging) of Werner syndrome."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Premature atherosclerosis: Werner patients develop early, severe atherosclerosis that is a leading cause of death, with endothelial nitric-oxide dysfunction driving the accelerated vascular aging of this adult progeroid syndrome."
+  - target: 01-human/03-molecular/sclerostin
+    relation: connects-to
+    note: "Accelerated osteoporosis: Werner syndrome causes early, characteristically distal-limb osteoporosis, and sclerostin, the osteocyte Wnt brake on bone formation, is central to the deficient bone accrual of this premature skeletal aging."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Insulin resistance: Werner syndrome features visceral adiposity and severe insulin resistance, and the adipokine resistin links the dysfunctional fat to the metabolic syndrome and diabetes (insulin already mapped) that mark its accelerated aging."
 ---
 
 # Werner Syndrome
@@ -670,6 +679,9 @@ cross_links:
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the senescence-associated secretory and tumor-stromal interactions of Werner syndrome.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the inflammaging and immune microenvironment of Werner syndrome.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the chronic inflammation (inflammaging) of Werner syndrome.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Premature atherosclerosis: Werner patients develop early, severe atherosclerosis that is a leading cause of death, with endothelial nitric-oxide dysfunction driving the accelerated vascular aging of this adult progeroid syndrome.
+- `connects-to` → **[Sclerostin](../../03-molecular/sclerostin/README.md)** — Accelerated osteoporosis: Werner syndrome causes early, characteristically distal-limb osteoporosis, and sclerostin, the osteocyte Wnt brake on bone formation, is central to the deficient bone accrual of this premature skeletal aging.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Insulin resistance: Werner syndrome features visceral adiposity and severe insulin resistance, and the adipokine resistin links the dysfunctional fat to the metabolic syndrome and diabetes (insulin already mapped) that mark its accelerated aging.
 
 [^yu-1996-wrn]: Yu CE, Oshima J, Fu YH, et al. Positional cloning of the Werner's syndrome gene. *Science.* 1996;272(5259):258-262. [doi:10.1126/science.272.5259.258](https://doi.org/10.1126/science.272.5259.258) · [PubMed 8602509](https://pubmed.ncbi.nlm.nih.gov/8602509/)
 [^lauper-2013-wrn-neoplasia]: Lauper JM, Krause A, Vaughan TL, Monnat RJ Jr. Spectrum and risk of neoplasia in Werner syndrome: a systematic review. *PLoS One.* 2013;8(4):e59709. [doi:10.1371/journal.pone.0059709](https://doi.org/10.1371/journal.pone.0059709) · [PubMed 23579047](https://pubmed.ncbi.nlm.nih.gov/23579047/)
