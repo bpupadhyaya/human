@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Osteopontin participates in the tumor microenvironment, hypoxia response, and metastatic interactions of head and neck squamous cell carcinoma."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "HPV immunity: MHC class II presentation of HPV oncoproteins underlies the stronger immune response and better prognosis of HPV-positive oropharyngeal cancer (p16/CDKN2A already mapped) and shapes the benefit from checkpoint inhibitors."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Immunotherapy: IL-2-driven T-cell expansion supports the checkpoint-inhibitor and adoptive-cell therapies (PD-1 already mapped) that are now standard for recurrent or metastatic head and neck squamous cell carcinoma."
+  - target: 01-human/03-molecular/axl-receptor
+    relation: connects-to
+    note: "Cetuximab resistance: the AXL receptor tyrosine kinase drives epithelial-mesenchymal transition and resistance to EGFR-targeted therapy (EGFR already mapped) in head and neck squamous cell carcinoma."
 ---
 
 # HNSCC
@@ -634,6 +643,9 @@ HPV+ oropharyngeal: Node staging based on number (not laterality); HPV-negative 
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory tumor microenvironment of head and neck squamous cell carcinoma.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the tumor microenvironment and immune signaling of head and neck squamous cell carcinoma.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the tumor microenvironment, hypoxia response, and metastatic interactions of head and neck squamous cell carcinoma.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — HPV immunity: MHC class II presentation of HPV oncoproteins underlies the stronger immune response and better prognosis of HPV-positive oropharyngeal cancer (p16/CDKN2A already mapped) and shapes the benefit from checkpoint inhibitors.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Immunotherapy: IL-2-driven T-cell expansion supports the checkpoint-inhibitor and adoptive-cell therapies (PD-1 already mapped) that are now standard for recurrent or metastatic head and neck squamous cell carcinoma.
+- `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — Cetuximab resistance: the AXL receptor tyrosine kinase drives epithelial-mesenchymal transition and resistance to EGFR-targeted therapy (EGFR already mapped) in head and neck squamous cell carcinoma.
 
 [^burtness-2019-keynote048]: Burtness B, Harrington KJ, Greil R, et al. Pembrolizumab alone or with chemotherapy versus cetuximab with chemotherapy for recurrent or metastatic squamous cell carcinoma of the head and neck (KEYNOTE-048). *Lancet.* 2019;394(10212):1915-1928. [doi:10.1016/S0140-6736(19)32591-7](https://doi.org/10.1016/S0140-6736(19)32591-7) · [PubMed 31679945](https://pubmed.ncbi.nlm.nih.gov/31679945/)
 [^vermorken-2008-extreme]: Vermorken JB, Mesia R, Rivera F, et al. Platinum-based chemotherapy plus cetuximab in head and neck cancer. *N Engl J Med.* 2008;359(11):1116-1127. [doi:10.1056/NEJMoa0802656](https://doi.org/10.1056/NEJMoa0802656) · [PubMed 18784101](https://pubmed.ncbi.nlm.nih.gov/18784101/)

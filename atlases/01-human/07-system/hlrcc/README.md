@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/calcineurin
     relation: connects-to
     note: "Calcineurin-NFAT signaling participates in the tumor microenvironment and immune signaling of hereditary leiomyomatosis and renal cell cancer."
+  - target: 01-human/03-molecular/progesterone
+    relation: connects-to
+    note: "Uterine leiomyoma hormones: the uterine smooth-muscle tumours of HLRCC, like common fibroids, are hormone-responsive, so progesterone and estrogen (already mapped) drive the growth that causes heavy bleeding and often early hysterectomy in affected women."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "RCC immunotherapy: MHC class II antigen presentation shapes the T-cell response to the aggressive FH-deficient renal cell carcinoma of HLRCC, whose systemic treatment increasingly combines antiangiogenics with immune checkpoint blockade."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "T-cell response: IL-2-driven T-cell expansion underlies the immunotherapy of the metastatic renal cell carcinoma that makes HLRCC dangerous, complementing the bevacizumab-erlotinib regimen aimed at its pseudohypoxic biology (HIF already mapped)."
 ---
 
 # Hereditary Leiomyomatosis and Renal Cell Carcinoma
@@ -651,6 +660,9 @@ Cutaneous:
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory tumor microenvironment of hereditary leiomyomatosis and renal cell cancer.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory tumor microenvironment of hereditary leiomyomatosis and renal cell cancer.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the tumor microenvironment and immune signaling of hereditary leiomyomatosis and renal cell cancer.
+- `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Uterine leiomyoma hormones: the uterine smooth-muscle tumours of HLRCC, like common fibroids, are hormone-responsive, so progesterone and estrogen (already mapped) drive the growth that causes heavy bleeding and often early hysterectomy in affected women.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — RCC immunotherapy: MHC class II antigen presentation shapes the T-cell response to the aggressive FH-deficient renal cell carcinoma of HLRCC, whose systemic treatment increasingly combines antiangiogenics with immune checkpoint blockade.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell response: IL-2-driven T-cell expansion underlies the immunotherapy of the metastatic renal cell carcinoma that makes HLRCC dangerous, complementing the bevacizumab-erlotinib regimen aimed at its pseudohypoxic biology (HIF already mapped).
 
 [^tomlinson-2002-fh]: Tomlinson IP, Alam NA, Rowan AJ, et al. Germline mutations in FH predispose to dominantly inherited uterine fibroids, skin leiomyomata and papillary renal cell cancer. *Nat Genet.* 2002;30(4):406-410. [doi:10.1038/ng849](https://doi.org/10.1038/ng849) · [PubMed 11865300](https://pubmed.ncbi.nlm.nih.gov/11865300/)
 [^linehan-2013-fh-review]: Linehan WM, Rouault TA. Molecular pathways: fumarate hydratase-deficient kidney cancer — targeting the Warburg effect in cancer. *Clin Cancer Res.* 2013;19(13):3345-3352. [doi:10.1158/1078-0432.CCR-13-0304](https://doi.org/10.1158/1078-0432.CCR-13-0304) · [PubMed 23836472](https://pubmed.ncbi.nlm.nih.gov/23836472/)
