@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Osteopontin participates in the microglial/macrophage tumor microenvironment of IDH-mutant glioma (which is comparatively immune-cold relative to IDH-wildtype glioblastoma)."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "IDH neoantigen vaccine: the IDH1-R132H mutation (IDH1 already mapped) creates a shared neoantigen, and MHC class II-restricted presentation of it underlies the IDH peptide vaccines being tested to mobilise T cells against IDH-mutant glioma."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "T-cell mobilisation: IL-2-driven T-cell expansion supports the vaccine and cellular immunotherapy approaches for IDH-mutant glioma, whose 2-hydroxyglutarate-rich microenvironment otherwise suppresses effective T-cell responses."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Immune-cold checkpoint: IDH-mutant glioma is relatively immune-cold, the oncometabolite 2-hydroxyglutarate dampening immune infiltration, which blunts PD-1 checkpoint-blockade responses and motivates combination strategies with IDH inhibitors."
 ---
 
 # IDH-Mutant Glioma
@@ -651,6 +660,9 @@ IDH-mutant glioma with MGMT methylation shows strong alkylating agent sensitivit
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the tumor microenvironment of IDH-mutant glioma.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the tumor microenvironment and immune signaling of IDH-mutant glioma.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the microglial/macrophage tumor microenvironment of IDH-mutant glioma (which is comparatively immune-cold relative to IDH-wildtype glioblastoma).
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — IDH neoantigen vaccine: the IDH1-R132H mutation (IDH1 already mapped) creates a shared neoantigen, and MHC class II-restricted presentation of it underlies the IDH peptide vaccines being tested to mobilise T cells against IDH-mutant glioma.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell mobilisation: IL-2-driven T-cell expansion supports the vaccine and cellular immunotherapy approaches for IDH-mutant glioma, whose 2-hydroxyglutarate-rich microenvironment otherwise suppresses effective T-cell responses.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Immune-cold checkpoint: IDH-mutant glioma is relatively immune-cold, the oncometabolite 2-hydroxyglutarate dampening immune infiltration, which blunts PD-1 checkpoint-blockade responses and motivates combination strategies with IDH inhibitors.
 
 [^mellinghoff-2023-vorasidenib-lgg]: Mellinghoff IK, van den Bent MJ, Blumenthal DT, et al. Vorasidenib in IDH1- or IDH2-mutant low-grade glioma. *N Engl J Med.* 2023;389(7):589-601. [doi:10.1056/NEJMoa2304194](https://doi.org/10.1056/NEJMoa2304194) · [PubMed 37272530](https://pubmed.ncbi.nlm.nih.gov/37272530/)
 [^jiao-2012-atrx-glioma]: Jiao Y, Killela PJ, Reitman ZJ, et al. Frequent ATRX, CIC, FUBP1 and IDH mutations refine the classification of malignant gliomas. *Oncotarget.* 2012;3(7):709-722. [doi:10.18632/oncotarget.588](https://doi.org/10.18632/oncotarget.588) · [PubMed 22869205](https://pubmed.ncbi.nlm.nih.gov/22869205/)

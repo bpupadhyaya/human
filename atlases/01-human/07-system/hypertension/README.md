@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/adenosine
     relation: connects-to
     note: "Adenosine signaling participates in the vascular-tone and renal regulation relevant to hypertension."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Magnesium and vascular tone: magnesium relaxes vascular smooth muscle and modulates the sodium, potassium and calcium (all already mapped) handling that sets blood pressure, and low magnesium is associated with higher blood pressure."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Hypertensive heart disease: sustained pressure overload thickens the left ventricle and predisposes to myocardial infarction, and troponin elevation marks the cardiac injury of the hypertensive heart disease that is a major end-organ complication."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Sex differences: premenopausal women have lower blood pressure than men, an advantage attributed to estrogen's vasodilatory and RAAS-modulating effects that is lost after menopause, when hypertension prevalence rises."
 ---
 
 # Hypertension
@@ -610,6 +619,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the vascular and immune gene programs of hypertension.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the vascular-smooth-muscle and T-cell responses of hypertension (calcineurin-inhibitor therapy is a recognized cause of secondary hypertension).
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine signaling participates in the vascular-tone and renal regulation relevant to hypertension.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium and vascular tone: magnesium relaxes vascular smooth muscle and modulates the sodium, potassium and calcium (all already mapped) handling that sets blood pressure, and low magnesium is associated with higher blood pressure.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Hypertensive heart disease: sustained pressure overload thickens the left ventricle and predisposes to myocardial infarction, and troponin elevation marks the cardiac injury of the hypertensive heart disease that is a major end-organ complication.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Sex differences: premenopausal women have lower blood pressure than men, an advantage attributed to estrogen's vasodilatory and RAAS-modulating effects that is lost after menopause, when hypertension prevalence rises.
 
 ## Pathology
 
