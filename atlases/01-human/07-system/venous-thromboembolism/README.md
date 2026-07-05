@@ -397,6 +397,15 @@ cross_links:
   - target: 01-human/03-molecular/adenosine
     relation: connects-to
     note: "Adenosine signaling provides platelet-inhibitory and vascular modulation relevant to venous thromboembolism."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Pulmonary embolism strain: a large pulmonary embolism strains the right ventricle, and troponin release marking that myocardial injury identifies the intermediate-to-high-risk patients who may need thrombolysis rather than anticoagulation alone."
+  - target: 01-human/03-molecular/bnp
+    relation: connects-to
+    note: "Right-ventricular stretch: BNP released from the pressure-loaded right ventricle in pulmonary embolism complements troponin in risk stratification, flagging the ventricular dysfunction that predicts adverse outcomes."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Obesity risk: obesity is a strong independent risk factor for venous thromboembolism through venous stasis and a prothrombotic state, and the adipokine leptin promotes platelet activation and coagulation."
 ---
 
 # Venous Thromboembolism
@@ -642,6 +651,9 @@ cross_links:
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the thromboinflammation of venous thromboembolism.
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the endothelial and coagulation gene programs relevant to venous thromboembolism.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine signaling provides platelet-inhibitory and vascular modulation relevant to venous thromboembolism.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Pulmonary embolism strain: a large pulmonary embolism strains the right ventricle, and troponin release marking that myocardial injury identifies the intermediate-to-high-risk patients who may need thrombolysis rather than anticoagulation alone.
+- `connects-to` → **[BNP](../../03-molecular/bnp/README.md)** — Right-ventricular stretch: BNP released from the pressure-loaded right ventricle in pulmonary embolism complements troponin in risk stratification, flagging the ventricular dysfunction that predicts adverse outcomes.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Obesity risk: obesity is a strong independent risk factor for venous thromboembolism through venous stasis and a prothrombotic state, and the adipokine leptin promotes platelet activation and coagulation.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)

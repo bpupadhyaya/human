@@ -396,6 +396,15 @@ cross_links:
   - target: 01-human/03-molecular/arid1a
     relation: connects-to
     note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of globin-gene switching and erythroid gene programs relevant to thalassemia."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Iron-induced diabetes: iron deposition in the pancreatic islets of transfusion-dependent thalassaemia impairs insulin secretion, producing a secondary diabetes that is a common endocrine complication of the iron overload."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Hypogonadism: iron loading of the pituitary and gonads causes hypogonadotropic hypogonadism with delayed puberty and infertility, among the most frequent endocrine complications of thalassaemia and its iron burden."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Transfusion alloimmunisation: lifelong red-cell transfusion in thalassaemia provokes alloantibodies against blood-group antigens presented on MHC, complicating future cross-matching and transfusion support."
 ---
 
 # Thalassemia
@@ -666,6 +675,9 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[RUNX1](../../03-molecular/runx1/README.md)** — RUNX1 transcription-factor activity participates in the erythroid differentiation dysregulated in the ineffective erythropoiesis of thalassemia.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH signaling participates in the hematopoietic-stem-cell and erythroid-progenitor regulation relevant to thalassemia.
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of globin-gene switching and erythroid gene programs relevant to thalassemia.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Iron-induced diabetes: iron deposition in the pancreatic islets of transfusion-dependent thalassaemia impairs insulin secretion, producing a secondary diabetes that is a common endocrine complication of the iron overload.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Hypogonadism: iron loading of the pituitary and gonads causes hypogonadotropic hypogonadism with delayed puberty and infertility, among the most frequent endocrine complications of thalassaemia and its iron burden.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Transfusion alloimmunisation: lifelong red-cell transfusion in thalassaemia provokes alloantibodies against blood-group antigens presented on MHC, complicating future cross-matching and transfusion support.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.
