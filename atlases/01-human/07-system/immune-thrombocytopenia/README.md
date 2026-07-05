@@ -402,6 +402,15 @@ cross_links:
   - target: 01-human/03-molecular/adenosine
     relation: connects-to
     note: "Adenosine signaling participates in the immunomodulation of immune thrombocytopenia."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Evans syndrome: when immune thrombocytopenia occurs together with autoimmune haemolytic anaemia (Evans syndrome), haemoglobin falls alongside the platelets, reflecting a broader breakdown of tolerance to blood-cell antigens."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Autoantibody help: Th2 cytokines including IL-4 support the B cells that produce the anti-platelet (anti-GPIIb/IIIa) autoantibodies (IgG already mapped) central to the platelet destruction of immune thrombocytopenia."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Female predominance: immune thrombocytopenia, like many autoimmune diseases, is more common in young women, and estrogen's enhancement of antibody responses is thought to contribute to this sex difference in susceptibility."
 ---
 
 # Immune Thrombocytopenia
@@ -665,6 +674,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the autoreactive immune responses of immune thrombocytopenia.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the T-cell activation of immune thrombocytopenia, and calcineurin inhibitors are used in refractory disease.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine signaling participates in the immunomodulation of immune thrombocytopenia.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Evans syndrome: when immune thrombocytopenia occurs together with autoimmune haemolytic anaemia (Evans syndrome), haemoglobin falls alongside the platelets, reflecting a broader breakdown of tolerance to blood-cell antigens.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Autoantibody help: Th2 cytokines including IL-4 support the B cells that produce the anti-platelet (anti-GPIIb/IIIa) autoantibodies (IgG already mapped) central to the platelet destruction of immune thrombocytopenia.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Female predominance: immune thrombocytopenia, like many autoimmune diseases, is more common in young women, and estrogen's enhancement of antibody responses is thought to contribute to this sex difference in susceptibility.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)

@@ -400,6 +400,15 @@ cross_links:
   - target: 01-human/03-molecular/type-i-interferon
     relation: connects-to
     note: "Type I interferon signaling participates in the mucosal immune dysregulation of inflammatory bowel disease."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Anaemia: anaemia is the commonest systemic complication of inflammatory bowel disease, from chronic gut blood loss (iron already mapped) and inflammation-driven suppression of erythropoiesis, lowering haemoglobin and worsening fatigue."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Type-2 mucosal inflammation: IL-4 and the Th2 axis contribute to the mucosal immune response of ulcerative colitis, complementing the Th17/IL-23 and Th1 pathways (already mapped) that dominate Crohn's disease."
+  - target: 03-medicine/03-food/omega-3-fatty-acids
+    relation: connects-to
+    note: "Dietary modulation: omega-3 fatty acids give rise to pro-resolving and anti-inflammatory mediators, and dietary fat composition influences the mucosal inflammation of inflammatory bowel disease, one of the diet-related factors shaping disease activity."
 ---
 
 # Inflammatory Bowel Disease
@@ -655,6 +664,9 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the intestinal-epithelial and immune gene programs of inflammatory bowel disease.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the macrophage-driven mucosal inflammation and fibrosis of inflammatory bowel disease.
 - `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — Type I interferon signaling participates in the mucosal immune dysregulation of inflammatory bowel disease.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Anaemia: anaemia is the commonest systemic complication of inflammatory bowel disease, from chronic gut blood loss (iron already mapped) and inflammation-driven suppression of erythropoiesis, lowering haemoglobin and worsening fatigue.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Type-2 mucosal inflammation: IL-4 and the Th2 axis contribute to the mucosal immune response of ulcerative colitis, complementing the Th17/IL-23 and Th1 pathways (already mapped) that dominate Crohn's disease.
+- `connects-to` → **[Omega-3 Fatty Acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Dietary modulation: omega-3 fatty acids give rise to pro-resolving and anti-inflammatory mediators, and dietary fat composition influences the mucosal inflammation of inflammatory bowel disease, one of the diet-related factors shaping disease activity.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)
