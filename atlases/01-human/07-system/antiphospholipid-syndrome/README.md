@@ -400,6 +400,15 @@ cross_links:
   - target: 01-human/03-molecular/bcl-2
     relation: connects-to
     note: "Autoreactive survival: anti-apoptotic BCL-2 family proteins prolong the survival of the autoreactive B cells producing antiphospholipid antibodies, helping the autoimmune clone persist despite the normal checkpoints that should delete it."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Pregnancy morbidity: antiphospholipid syndrome causes recurrent pregnancy loss and placental thrombosis, and the oestrogen-rich prothrombotic state of pregnancy (and of oestrogen contraception) heightens the thrombotic risk it confers."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Cardiac thrombosis: antiphospholipid syndrome causes coronary thrombosis, myocardial infarction and Libman-Sacks valve lesions, and troponin elevation marks the myocardial injury of these cardiac thrombotic manifestations."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Microangiopathic haemolysis: catastrophic antiphospholipid syndrome and its thrombotic microangiopathy fragment red cells and, with autoimmune haemolysis, lower haemoglobin, adding a haematological dimension to the widespread thrombosis."
 ---
 
 # Antiphospholipid Syndrome
@@ -673,6 +682,9 @@ In APS, anti-B2GPI IgG bound to B2GPI on phospholipid surfaces converts this ant
 - `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — B-cell depletion: refractory and catastrophic antiphospholipid syndrome is treated with the anti-CD20 antibody rituximab to deplete the B cells producing anti-β2GPI antibodies (immunoglobulin G already mapped), a targeted immunotherapy beyond anticoagulation.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell help: IL-2-driven expansion of the T cells that help autoreactive B cells sustains the antiphospholipid antibody response, and impaired regulatory-T-cell control contributes to the persistence of the autoimmunity.
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Autoreactive survival: anti-apoptotic BCL-2 family proteins prolong the survival of the autoreactive B cells producing antiphospholipid antibodies, helping the autoimmune clone persist despite the normal checkpoints that should delete it.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Pregnancy morbidity: antiphospholipid syndrome causes recurrent pregnancy loss and placental thrombosis, and the oestrogen-rich prothrombotic state of pregnancy (and of oestrogen contraception) heightens the thrombotic risk it confers.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiac thrombosis: antiphospholipid syndrome causes coronary thrombosis, myocardial infarction and Libman-Sacks valve lesions, and troponin elevation marks the myocardial injury of these cardiac thrombotic manifestations.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Microangiopathic haemolysis: catastrophic antiphospholipid syndrome and its thrombotic microangiopathy fragment red cells and, with autoimmune haemolysis, lower haemoglobin, adding a haematological dimension to the widespread thrombosis.
 
 [^miyakis-2006-sydney-aps]: Miyakis S, Lockshin MD, Atsumi T, et al. International consensus statement on an update of the classification criteria for definite antiphospholipid syndrome (APS). *J Thromb Haemost.* 2006;4(2):295-306. [doi:10.1111/j.1538-7836.2006.01753.x](https://doi.org/10.1111/j.1538-7836.2006.01753.x) · [PubMed 16420554](https://pubmed.ncbi.nlm.nih.gov/16420554/)
 [^barbhaiya-2023-acreular-aps]: Barbhaiya M, Zuily S, Naden R, et al. The 2023 ACR/EULAR antiphospholipid syndrome classification criteria. *Ann Rheum Dis.* 2023;82(10):1258-1270. [doi:10.1136/ard-2023-224609](https://doi.org/10.1136/ard-2023-224609) · [PubMed 37643823](https://pubmed.ncbi.nlm.nih.gov/37643823/)

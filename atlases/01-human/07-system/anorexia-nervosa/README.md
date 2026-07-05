@@ -409,6 +409,15 @@ cross_links:
   - target: 01-human/03-molecular/hemoglobin
     relation: connects-to
     note: "Starvation cytopenias: prolonged starvation produces gelatinous marrow transformation with anaemia and pancytopenia, lowering haemoglobin as the marrow itself atrophies under severe malnutrition."
+  - target: 01-human/03-molecular/progesterone
+    relation: connects-to
+    note: "Hypothalamic amenorrhoea: severe energy deficit shuts down the reproductive axis, and the loss of the cyclical progesterone and estrogen (already mapped) rise causes the amenorrhoea and infertility characteristic of anorexia nervosa."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Pseudo-Bartter syndrome: purging and volume depletion in anorexia drive secondary hyperaldosteronism, and the resulting sodium and fluid retention on refeeding produces the oedema and electrolyte swings that complicate recovery."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Refeeding oxidative stress: starvation and the metabolic surge of refeeding generate oxidative stress, to which xanthine-oxidase-derived reactive oxygen species contribute, adding to the cellular injury of severe malnutrition and its correction."
 ---
 
 # Anorexia Nervosa
@@ -680,6 +689,9 @@ In healthy individuals, food cues activate the mesolimbic reward circuit (VTA �
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiac atrophy: severe anorexia shrinks the myocardium and causes bradycardia and reduced cardiac mass, and troponin elevation can mark the myocardial injury of profound malnutrition and refeeding, part of why cardiac arrest is a leading cause of death.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Micronutrient deficiency: zinc deficiency is common in anorexia nervosa and itself blunts appetite and taste, potentially reinforcing restriction, which is why zinc supplementation is used as an adjunct in refeeding.
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Starvation cytopenias: prolonged starvation produces gelatinous marrow transformation with anaemia and pancytopenia, lowering haemoglobin as the marrow itself atrophies under severe malnutrition.
+- `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Hypothalamic amenorrhoea: severe energy deficit shuts down the reproductive axis, and the loss of the cyclical progesterone and estrogen (already mapped) rise causes the amenorrhoea and infertility characteristic of anorexia nervosa.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Pseudo-Bartter syndrome: purging and volume depletion in anorexia drive secondary hyperaldosteronism, and the resulting sodium and fluid retention on refeeding produces the oedema and electrolyte swings that complicate recovery.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Refeeding oxidative stress: starvation and the metabolic surge of refeeding generate oxidative stress, to which xanthine-oxidase-derived reactive oxygen species contribute, adding to the cellular injury of severe malnutrition and its correction.
 
 [^treasure-2010-an-lancet]: Treasure J, Claudino AM, Zucker N. Eating disorders. *Lancet.* 2010;375(9714):583-593. [doi:10.1016/S0140-6736(09)61748-7](https://doi.org/10.1016/S0140-6736(09)61748-7) · [PubMed 19931176](https://pubmed.ncbi.nlm.nih.gov/19931176/)
 [^lock-2010-fbt-an]: Lock J, Le Grange D, Agras WS, et al. Randomized clinical trial comparing family-based treatment with adolescent-focused individual therapy for adolescents with anorexia nervosa. *Arch Gen Psychiatry.* 2010;67(10):1025-1032. [doi:10.1001/archgenpsychiatry.2010.128](https://doi.org/10.1001/archgenpsychiatry.2010.128) · [PubMed 20921118](https://pubmed.ncbi.nlm.nih.gov/20921118/)
