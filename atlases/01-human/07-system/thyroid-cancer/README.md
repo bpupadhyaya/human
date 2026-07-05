@@ -385,6 +385,15 @@ cross_links:
   - target: 01-human/03-molecular/il-33
     relation: connects-to
     note: "IL-33 alarmin signaling participates in the tumor-immune microenvironment of thyroid cancer."
+  - target: 01-human/03-molecular/axl-receptor
+    relation: connects-to
+    note: "Dedifferentiation and RAI-resistance: the AXL receptor tyrosine kinase is upregulated as thyroid cancers dedifferentiate and lose iodine uptake, driving the invasion and radioiodine-refractory phenotype that pushes treatment toward kinase inhibitors."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Female predominance: thyroid cancer is roughly threefold more common in women, and estrogen-receptor signalling promotes thyroid follicular-cell proliferation, a hormonal contribution to the sex bias in its incidence."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Anaplastic immunotherapy: antigen presentation via MHC class II shapes the T-cell response now targeted with checkpoint inhibitors in anaplastic thyroid cancer, and its loss contributes to immune escape in this most aggressive thyroid malignancy."
 ---
 
 # Thyroid Cancer
@@ -651,6 +660,9 @@ Calcitonin doubling time <6 months → poor prognosis → early systemic therapy
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the tumor-stromal interactions and invasion of thyroid cancer.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the tumor microenvironment of thyroid cancer.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the tumor-immune microenvironment of thyroid cancer.
+- `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — Dedifferentiation and RAI-resistance: the AXL receptor tyrosine kinase is upregulated as thyroid cancers dedifferentiate and lose iodine uptake, driving the invasion and radioiodine-refractory phenotype that pushes treatment toward kinase inhibitors.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Female predominance: thyroid cancer is roughly threefold more common in women, and estrogen-receptor signalling promotes thyroid follicular-cell proliferation, a hormonal contribution to the sex bias in its incidence.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Anaplastic immunotherapy: antigen presentation via MHC class II shapes the T-cell response now targeted with checkpoint inhibitors in anaplastic thyroid cancer, and its loss contributes to immune escape in this most aggressive thyroid malignancy.
 
 [^schlumberger-2015-lenvatinib]: Schlumberger M, Tahara M, Wirth LJ, et al. Lenvatinib versus placebo in radioiodine-refractory differentiated thyroid cancer. *N Engl J Med.* 2015;372(7):621-630. [doi:10.1056/NEJMoa1406470](https://doi.org/10.1056/NEJMoa1406470) · [PubMed 25671254](https://pubmed.ncbi.nlm.nih.gov/25671254/)
 [^subbiah-2018-atc-dabrafenib]: Subbiah V, Kreitman RJ, Wainberg ZA, et al. Dabrafenib and trametinib treatment in patients with locally advanced or metastatic BRAF V600-mutant anaplastic thyroid cancer. *J Clin Oncol.* 2018;36(1):7-13. [doi:10.1200/JCO.2017.73.6785](https://doi.org/10.1200/JCO.2017.73.6785) · [PubMed 28892432](https://pubmed.ncbi.nlm.nih.gov/28892432/)

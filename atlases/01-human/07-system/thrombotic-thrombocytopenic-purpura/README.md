@@ -391,6 +391,15 @@ cross_links:
   - target: 01-human/03-molecular/il-17a
     relation: connects-to
     note: "IL-17A signaling participates in the immune dysregulation of immune-mediated thrombotic thrombocytopenic purpura."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Cardiac microthrombosis: myocardial capillary platelet microthrombi in TTP release cardiac troponin, and troponin elevation on presentation predicts mortality, tying the systemic microangiopathy to the frequently fatal cardiac injury."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "Adhesion anchor: von Willebrand factor (already mapped) normally binds subendothelial collagen to tether platelets at injury sites, the physiological adhesion axis that becomes pathological when uncleaved ultra-large multimers bind platelets under shear in TTP."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Platelet amplification: platelets recruited into the TTP microthrombi release thromboxane, a prostaglandin that amplifies aggregation and vasoconstriction, reinforcing the growing platelet plugs that occlude the microcirculation."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -670,6 +679,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the platelet and endothelial interactions relevant to thrombotic thrombocytopenic purpura.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the endothelial and immune activation relevant to thrombotic thrombocytopenic purpura.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the immune dysregulation of immune-mediated thrombotic thrombocytopenic purpura.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiac microthrombosis: myocardial capillary platelet microthrombi in TTP release cardiac troponin, and troponin elevation on presentation predicts mortality, tying the systemic microangiopathy to the frequently fatal cardiac injury.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Adhesion anchor: von Willebrand factor (already mapped) normally binds subendothelial collagen to tether platelets at injury sites, the physiological adhesion axis that becomes pathological when uncleaved ultra-large multimers bind platelets under shear in TTP.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Platelet amplification: platelets recruited into the TTP microthrombi release thromboxane, a prostaglandin that amplifies aggregation and vasoconstriction, reinforcing the growing platelet plugs that occlude the microcirculation.
 
 ---
 
