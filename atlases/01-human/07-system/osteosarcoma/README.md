@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/mhc-class-ii
     relation: connects-to
     note: "Immune recognition: MHC class II expression on osteosarcoma and its antigen-presenting infiltrate shapes CD4 T-cell help, and its downregulation contributes to the immune evasion that has limited checkpoint-inhibitor efficacy in this immunologically cold sarcoma."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Immune stimulation: IL-2-driven immune-cell activation, alongside the macrophage-activating drug mifamurtide (macrophages already mapped) used in osteosarcoma, aims to mobilise anti-tumour immunity against this chemoresistant sarcoma."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Anthracycline cardiotoxicity: the doxorubicin in the MAP chemotherapy backbone of osteosarcoma is cardiotoxic, and troponin elevation helps detect the cumulative myocardial injury that limits the dose and threatens long-term survivors."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Checkpoint context: PD-1 checkpoint blockade has had limited single-agent activity in the cold, low-mutation osteosarcoma, motivating combinations aimed at converting it into an immunoresponsive tumour."
 ---
 
 # Osteosarcoma
@@ -650,6 +659,9 @@ OS is relatively radiation-resistant (high-dose radiation ~70+ Gy may achieve lo
 - `connects-to` → **[PTH](../../03-molecular/pth/README.md)** — Osteoblast-lineage signaling: osteosarcoma arises from the osteoblast lineage whose anabolic program is governed by PTH/PTH1R signaling, the same pathway whose agonism (teriparatide) carries an osteosarcoma safety signal, tying the tumour to bone-anabolic endocrinology.
 - `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — Invasion and drug resistance: the AXL receptor tyrosine kinase is expressed in osteosarcoma and drives the mesenchymal-like invasion, pulmonary metastasis and chemoresistance that dominate its course, making AXL a candidate target beyond conventional cytotoxics.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immune recognition: MHC class II expression on osteosarcoma and its antigen-presenting infiltrate shapes CD4 T-cell help, and its downregulation contributes to the immune evasion that has limited checkpoint-inhibitor efficacy in this immunologically cold sarcoma.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Immune stimulation: IL-2-driven immune-cell activation, alongside the macrophage-activating drug mifamurtide (macrophages already mapped) used in osteosarcoma, aims to mobilise anti-tumour immunity against this chemoresistant sarcoma.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Anthracycline cardiotoxicity: the doxorubicin in the MAP chemotherapy backbone of osteosarcoma is cardiotoxic, and troponin elevation helps detect the cumulative myocardial injury that limits the dose and threatens long-term survivors.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Checkpoint context: PD-1 checkpoint blockade has had limited single-agent activity in the cold, low-mutation osteosarcoma, motivating combinations aimed at converting it into an immunoresponsive tumour.
 
 [^bielack-2002-coss-osteosarcoma]: Bielack SS, Kempf-Bielack B, Delling G, et al. Prognostic factors in high-grade osteosarcoma of the extremities or trunk: an analysis of 1,702 patients treated on neoadjuvant Cooperative Osteosarcoma Study Group protocols. *J Clin Oncol.* 2002;20(3):776-790. [doi:10.1200/JCO.2002.20.3.776](https://doi.org/10.1200/JCO.2002.20.3.776) · [PubMed 11821461](https://pubmed.ncbi.nlm.nih.gov/11821461/)
 [^marina-2016-euramos1-osteosarcoma]: Marina NM, Smeland S, Bielack SS, et al. Comparison of MAPIE versus MAP in patients with a poor response to preoperative chemotherapy for newly diagnosed high-grade osteosarcoma (EURAMOS-1). *Lancet Oncol.* 2016;17(10):1396-1408. [doi:10.1016/S1470-2045(16)30214-5](https://doi.org/10.1016/S1470-2045(16)30214-5) · [PubMed 27569442](https://pubmed.ncbi.nlm.nih.gov/27569442/)
