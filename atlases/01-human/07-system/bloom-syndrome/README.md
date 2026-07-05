@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "IL-6-STAT3 signaling (STAT3 already mapped) participates in the inflammatory and tumor-microenvironment processes of Bloom syndrome."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Immunodeficiency: Bloom syndrome features immunodeficiency with reduced immunoglobulins (already mapped), and impaired MHC class II-restricted antigen presentation contributes to the recurrent infections that complicate the disorder."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "Metabolic risk: Bloom syndrome carries a strikingly high risk of early type 2 diabetes with insulin resistance, so impaired insulin-receptor signalling is a common endocrine complication alongside the short stature already mapped."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "T-cell immunity: reduced IL-2-driven T-cell responses form part of the cellular immunodeficiency of Bloom syndrome, compounding the antibody deficiency and predisposing to the infections that accompany its genome instability."
 ---
 
 # Bloom Syndrome
@@ -657,6 +666,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — BCL-2 anti-apoptotic signaling participates in the survival of the genomically unstable cells and the lymphoid-neoplasia predisposition of Bloom syndrome.
 - `connects-to` → **[RUNX1](../../03-molecular/runx1/README.md)** — RUNX1 transcription-factor activity participates in the hematopoietic differentiation and leukemia predisposition of Bloom syndrome.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6-STAT3 signaling (STAT3 already mapped) participates in the inflammatory and tumor-microenvironment processes of Bloom syndrome.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immunodeficiency: Bloom syndrome features immunodeficiency with reduced immunoglobulins (already mapped), and impaired MHC class II-restricted antigen presentation contributes to the recurrent infections that complicate the disorder.
+- `connects-to` → **[Insulin receptor](../../03-molecular/insulin-receptor/README.md)** — Metabolic risk: Bloom syndrome carries a strikingly high risk of early type 2 diabetes with insulin resistance, so impaired insulin-receptor signalling is a common endocrine complication alongside the short stature already mapped.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell immunity: reduced IL-2-driven T-cell responses form part of the cellular immunodeficiency of Bloom syndrome, compounding the antibody deficiency and predisposing to the infections that accompany its genome instability.
 
 ---
 

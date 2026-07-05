@@ -396,6 +396,15 @@ cross_links:
   - target: 01-human/03-molecular/il-17a
     relation: connects-to
     note: "IL-17A signaling participates in the neuroinflammation associated with bulimia nervosa."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Metabolic alkalosis: self-induced vomiting removes protons and chloride as gastric acid, producing the hypochloraemic hypokalaemic metabolic alkalosis characteristic of purging behaviour in bulimia nervosa."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Cardiac risk: the electrolyte derangements of purging, and cardiotoxic ipecac abuse, can injure the myocardium, and troponin elevation may mark the cardiomyopathy and arrhythmias that make cardiac arrest a cause of death in bulimia."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "Refeeding hypophosphataemia: when nutrition is restored after periods of restriction, an insulin surge drives phosphate into cells, and the resulting hypophosphataemia is the dangerous core of refeeding syndrome in bulimia nervosa."
 ---
 
 # Bulimia Nervosa
@@ -651,6 +660,9 @@ All of the following must be met:
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the neuroimmune and metabolic alterations implicated in bulimia nervosa.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the neuroinflammatory responses implicated in bulimia nervosa.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the neuroinflammation associated with bulimia nervosa.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Metabolic alkalosis: self-induced vomiting removes protons and chloride as gastric acid, producing the hypochloraemic hypokalaemic metabolic alkalosis characteristic of purging behaviour in bulimia nervosa.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiac risk: the electrolyte derangements of purging, and cardiotoxic ipecac abuse, can injure the myocardium, and troponin elevation may mark the cardiomyopathy and arrhythmias that make cardiac arrest a cause of death in bulimia.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Refeeding hypophosphataemia: when nutrition is restored after periods of restriction, an insulin surge drives phosphate into cells, and the resulting hypophosphataemia is the dangerous core of refeeding syndrome in bulimia nervosa.
 
 ## Treatment
 
