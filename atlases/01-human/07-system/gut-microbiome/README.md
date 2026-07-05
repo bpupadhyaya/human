@@ -397,6 +397,15 @@ cross_links:
   - target: 03-medicine/03-food/omega-3-fatty-acids
     relation: connects-to
     note: "Diet-microbiome interaction: omega-3 fatty acids shift microbiome composition toward anti-inflammatory, short-chain-fatty-acid-producing taxa, illustrating the reciprocal diet-microbiome relationship that modulates host inflammation."
+  - target: 01-human/06-organ/pancreas
+    relation: connects-to
+    note: "Islet autoimmunity: the gut microbiome influences the development of type-1-diabetes (already mapped) by shaping mucosal immunity and permeability, linking microbial dysbiosis in early life to the islet autoimmunity of the pancreas."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Luminal iron competition: dietary and unabsorbed iron in the gut lumen shapes the microbiome, favouring some pathobionts, so iron supplementation can worsen dysbiosis, a nutrient-microbe interaction relevant to anaemia treatment."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Microbe-driven oxytocin: specific commensals such as Lactobacillus reuteri raise systemic oxytocin through the vagus, influencing social behaviour and wound healing, a striking example of the microbiome-gut-brain axis reaching neuroendocrine signalling."
 ---
 
 # Gut Microbiome
@@ -601,6 +610,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Metabolic axis: microbiome composition and its short-chain fatty acids influence host insulin sensitivity and energy harvest, so dysbiosis is mechanistically linked to obesity and type 2 diabetes through altered insulin signalling.
 - `connects-to` → **[Mu-opioid receptor](../../03-molecular/mu-opioid-receptor/README.md)** — Gut-brain visceral pain: the microbiome shapes enteric opioid signalling and visceral nociception, and germ-free or antibiotic-altered states change mu-opioid-mediated analgesia, part of the microbiome-gut-brain axis governing pain in disorders like IBS.
 - `connects-to` → **[Omega-3 fatty acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Diet-microbiome interaction: omega-3 fatty acids shift microbiome composition toward anti-inflammatory, short-chain-fatty-acid-producing taxa, illustrating the reciprocal diet-microbiome relationship that modulates host inflammation.
+- `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Islet autoimmunity: the gut microbiome influences the development of type-1-diabetes (already mapped) by shaping mucosal immunity and permeability, linking microbial dysbiosis in early life to the islet autoimmunity of the pancreas.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Luminal iron competition: dietary and unabsorbed iron in the gut lumen shapes the microbiome, favouring some pathobionts, so iron supplementation can worsen dysbiosis, a nutrient-microbe interaction relevant to anaemia treatment.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Microbe-driven oxytocin: specific commensals such as Lactobacillus reuteri raise systemic oxytocin through the vagus, influencing social behaviour and wound healing, a striking example of the microbiome-gut-brain axis reaching neuroendocrine signalling.
 
 ## Pathology
 

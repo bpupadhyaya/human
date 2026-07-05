@@ -384,6 +384,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative stress: increased oxidative stress, to which xanthine-oxidase-derived reactive oxygen species contribute, is reported in fibromyalgia and may aggravate the mitochondrial dysfunction and muscle pain of the syndrome."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "Brain renin-angiotensin: central angiotensin II modulates stress reactivity and pain processing, and the RAS interacts with the HPA axis (cortisol already mapped), a neuroendocrine dimension of the stress-linked pathophysiology of fibromyalgia."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Metabolic overlap: fibromyalgia is associated with insulin resistance and metabolic dysregulation beyond what obesity explains (leptin already mapped), a metabolic dimension increasingly recognised alongside the pain and fatigue."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Mineralocorticoid stress axis: aldosterone acts on brain mineralocorticoid receptors that, balanced against glucocorticoid receptors (already mapped), tune the stress response implicated in the HPA-axis dysregulation of fibromyalgia."
 sources:
   - id: wolfe-2016-fibromyalgia-criteria
     type: peer-reviewed
@@ -666,6 +675,9 @@ FM is not a single-etiology disorder but a convergent syndrome resulting from th
 - `connects-to` → **[Thyroid hormones](../../03-molecular/thyroid-hormones/README.md)** — Thyroid overlap: hypothyroidism produces widespread pain, fatigue and cognitive slowing that mimic and worsen fibromyalgia, so thyroid-hormone status is a standard part of the assessment to exclude a treatable contributor.
 - `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Neurosteroid modulation: progesterone-derived allopregnanolone potentiates GABA-A signalling, and its cyclical fall is linked to premenstrual worsening of fibromyalgia pain, part of the sex-hormone influence on central pain processing behind the female predominance.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative stress: increased oxidative stress, to which xanthine-oxidase-derived reactive oxygen species contribute, is reported in fibromyalgia and may aggravate the mitochondrial dysfunction and muscle pain of the syndrome.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — Brain renin-angiotensin: central angiotensin II modulates stress reactivity and pain processing, and the RAS interacts with the HPA axis (cortisol already mapped), a neuroendocrine dimension of the stress-linked pathophysiology of fibromyalgia.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Metabolic overlap: fibromyalgia is associated with insulin resistance and metabolic dysregulation beyond what obesity explains (leptin already mapped), a metabolic dimension increasingly recognised alongside the pain and fatigue.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Mineralocorticoid stress axis: aldosterone acts on brain mineralocorticoid receptors that, balanced against glucocorticoid receptors (already mapped), tune the stress response implicated in the HPA-axis dysregulation of fibromyalgia.
 
 [^wolfe-2016-fibromyalgia-criteria]: Wolfe F, Clauw DJ, Fitzcharles MA, et al. 2016 Revisions to the 2010/2011 fibromyalgia diagnostic criteria. *Semin Arthritis Rheum.* 2016;46(3):319-329. [doi:10.1016/j.semarthrit.2016.08.012](https://doi.org/10.1016/j.semarthrit.2016.08.012) · [PubMed 27916278](https://pubmed.ncbi.nlm.nih.gov/27916278/)
 [^clauw-2014-fibromyalgia-review]: Clauw DJ. Fibromyalgia: a clinical review. *JAMA.* 2014;311(15):1547-1555. [doi:10.1001/jama.2014.3266](https://doi.org/10.1001/jama.2014.3266) · [PubMed 24737367](https://pubmed.ncbi.nlm.nih.gov/24737367/)
