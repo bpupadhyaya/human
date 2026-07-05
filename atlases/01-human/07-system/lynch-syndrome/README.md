@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/calcineurin
     relation: connects-to
     note: "Calcineurin-NFAT signaling participates in the tumor microenvironment and immune signaling of Lynch syndrome."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "MSI neoantigens: mismatch-repair deficiency generates abundant frameshift neoantigens presented on MHC, making Lynch tumours highly immunogenic and checkpoint-responsive (PD-1/CTLA-4 already mapped), and the rationale for shared frameshift-neoantigen vaccines."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "T-cell expansion: IL-2-driven proliferation of the tumour-infiltrating T cells underlies the strong immune response to the microsatellite-instable cancers of Lynch syndrome, the basis of their responsiveness to immunotherapy."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 antitumour immunity: the microsatellite-instable tumours of Lynch syndrome elicit a brisk Th1 and cytotoxic infiltrate, and IL-12-driven Th1 polarisation (interferon-gamma already mapped) is part of the antitumour immunity that immunotherapy amplifies."
 ---
 
 # Lynch Syndrome
@@ -659,6 +668,9 @@ MSI-H stage II CRC: adjuvant 5-FU/leucovorin does NOT improve OS (may be harmful
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory tumor microenvironment of Lynch syndrome.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory tumor microenvironment of Lynch syndrome.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the tumor microenvironment and immune signaling of Lynch syndrome.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — MSI neoantigens: mismatch-repair deficiency generates abundant frameshift neoantigens presented on MHC, making Lynch tumours highly immunogenic and checkpoint-responsive (PD-1/CTLA-4 already mapped), and the rationale for shared frameshift-neoantigen vaccines.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell expansion: IL-2-driven proliferation of the tumour-infiltrating T cells underlies the strong immune response to the microsatellite-instable cancers of Lynch syndrome, the basis of their responsiveness to immunotherapy.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 antitumour immunity: the microsatellite-instable tumours of Lynch syndrome elicit a brisk Th1 and cytotoxic infiltrate, and IL-12-driven Th1 polarisation (interferon-gamma already mapped) is part of the antitumour immunity that immunotherapy amplifies.
 
 [^bonadona-2011-lynch-risks]: Bonadona V, Bonaïti B, Olschwang S, et al. Cancer risks associated with germline mutations in MLH1, MSH2, and MSH6 genes in Lynch syndrome. *JAMA.* 2011;305(22):2304-2310. [doi:10.1001/jama.2011.743](https://doi.org/10.1001/jama.2011.743) · [PubMed 21642683](https://pubmed.ncbi.nlm.nih.gov/21642683/)
 [^lynch-2015-lynch-review]: Lynch HT, Snyder CL, Shaw TG, et al. Milestones of Lynch syndrome: 1895-2015. *Nat Rev Cancer.* 2015;15(3):181-194. [doi:10.1038/nrc3878](https://doi.org/10.1038/nrc3878) · [PubMed 25673086](https://pubmed.ncbi.nlm.nih.gov/25673086/)

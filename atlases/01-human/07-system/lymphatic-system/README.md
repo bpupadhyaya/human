@@ -392,6 +392,15 @@ cross_links:
   - target: 01-human/03-molecular/arid1a
     relation: connects-to
     note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of lymphocyte differentiation in the lymphatic system."
+  - target: 01-human/03-molecular/ctla-4
+    relation: connects-to
+    note: "Peripheral tolerance: CTLA-4 restrains T-cell activation in lymph nodes and enforces self-tolerance (alongside PD-1 already mapped), a checkpoint that keeps the lymphatic system's constant immune surveillance from turning on the host."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Type-2 and humoral arm: IL-4 drives the Th2 response and B-cell antibody class-switching within lymphoid tissue, one of the polarised programmes (balanced against Th1) the lymphatic system uses to tailor immunity to different threats."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 differentiation: IL-12 from dendritic cells drives naive T cells toward the Th1 programme and activates NK cells, directing the cell-mediated immunity that the lymphatic system mounts against intracellular pathogens."
 ---
 
 # Lymphatic System
@@ -626,6 +635,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β signaling participates in the inflammatory and immune-trafficking responses of the lymphatic system.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the lymphocyte-mediated immune responses of the lymphatic system.
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of lymphocyte differentiation in the lymphatic system.
+- `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Peripheral tolerance: CTLA-4 restrains T-cell activation in lymph nodes and enforces self-tolerance (alongside PD-1 already mapped), a checkpoint that keeps the lymphatic system's constant immune surveillance from turning on the host.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Type-2 and humoral arm: IL-4 drives the Th2 response and B-cell antibody class-switching within lymphoid tissue, one of the polarised programmes (balanced against Th1) the lymphatic system uses to tailor immunity to different threats.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 differentiation: IL-12 from dendritic cells drives naive T cells toward the Th1 programme and activates NK cells, directing the cell-mediated immunity that the lymphatic system mounts against intracellular pathogens.
 
 ## Pathology
 
