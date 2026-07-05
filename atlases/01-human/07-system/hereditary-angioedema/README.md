@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/il-17a
     relation: connects-to
     note: "Inflammatory amplification: IL-17A-driven inflammation participates in the endothelial activation and inflammatory milieu that can aggravate the severity of hereditary angioedema attacks beyond the core bradykinin pathway."
+  - target: 01-human/03-molecular/immunoglobulin-g
+    relation: connects-to
+    note: "Acquired C1-INH deficiency: an acquired angioedema mimicking the hereditary disease arises from IgG autoantibodies against C1-inhibitor (already mapped), usually with an underlying B-cell lymphoproliferative disorder, a key differential of bradykinin-mediated swelling."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Autoantibody presentation: in acquired C1-inhibitor deficiency, MHC class II-restricted T-cell help underlies the anti-C1-INH autoantibody response, distinguishing this immune-mediated form from the genetic deficiency of hereditary angioedema."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Lymphoproliferative association: IL-2-driven lymphocyte proliferation underlies the B-cell disorders linked to acquired C1-inhibitor deficiency, the clonal expansions that consume C1-inhibitor or generate the autoantibodies causing acquired angioedema."
 ---
 
 # Hereditary Angioedema
@@ -666,6 +675,9 @@ Fluid extravasation → ANGIOEDEMA
 - `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Hormonal modulation: estrogen worsens hereditary angioedema (already mapped) while progestins and attenuated androgens (testosterone already mapped) reduce attacks, so progesterone-based contraception is a preferred option in the estrogen-sensitive and type III forms.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — Endothelial alarmin: IL-33 released from activated or injured endothelium increases vascular permeability, a mechanism that can amplify the bradykinin-driven endothelial leak underlying the swelling of an angioedema attack.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Inflammatory amplification: IL-17A-driven inflammation participates in the endothelial activation and inflammatory milieu that can aggravate the severity of hereditary angioedema attacks beyond the core bradykinin pathway.
+- `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Acquired C1-INH deficiency: an acquired angioedema mimicking the hereditary disease arises from IgG autoantibodies against C1-inhibitor (already mapped), usually with an underlying B-cell lymphoproliferative disorder, a key differential of bradykinin-mediated swelling.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Autoantibody presentation: in acquired C1-inhibitor deficiency, MHC class II-restricted T-cell help underlies the anti-C1-INH autoantibody response, distinguishing this immune-mediated form from the genetic deficiency of hereditary angioedema.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Lymphoproliferative association: IL-2-driven lymphocyte proliferation underlies the B-cell disorders linked to acquired C1-inhibitor deficiency, the clonal expansions that consume C1-inhibitor or generate the autoantibodies causing acquired angioedema.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)

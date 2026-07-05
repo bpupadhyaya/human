@@ -399,6 +399,15 @@ cross_links:
   - target: 01-human/03-molecular/hepcidin
     relation: connects-to
     note: "Hepatic iron: chronic HCV suppresses hepcidin and promotes hepatic iron accumulation, and this iron overload accelerates the oxidative injury and fibrosis progression that lead toward cirrhosis and hepatocellular carcinoma."
+  - target: 01-human/03-molecular/immunoglobulin-g
+    relation: connects-to
+    note: "Cryoglobulinaemia: chronic HCV drives B-cell (already mapped) production of mixed cryoglobulins, cold-precipitating IgM-IgG immune complexes that cause a systemic vasculitis, the commonest extrahepatic manifestation of the infection."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Ribavirin haemolysis: the ribavirin used in older HCV regimens causes a dose-limiting haemolytic anaemia that lowers haemoglobin, a toxicity now largely avoided by the interferon- and ribavirin-free direct-acting antivirals."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Antiviral T-cell response: IL-2-driven T-cell expansion generates the HCV-specific T cells needed to clear the virus, and their functional exhaustion (PD-1 already mapped) is central to the establishment of chronic infection."
 ---
 
 # Hepatitis C
@@ -652,3 +661,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — B-cell lymphoproliferation: chronic HCV drives clonal expansion of CD20-positive B cells, causing mixed cryoglobulinaemia and marginal-zone lymphoma that often regress with viral cure or rituximab, a defining extrahepatic manifestation.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — T-cell clearance: MHC class II-restricted CD4 T-cell help is required to clear acute HCV, and its failure permits the CD8 exhaustion (PD-1 already mapped) that establishes lifelong chronic infection.
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Hepatic iron: chronic HCV suppresses hepcidin and promotes hepatic iron accumulation, and this iron overload accelerates the oxidative injury and fibrosis progression that lead toward cirrhosis and hepatocellular carcinoma.
+- `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Cryoglobulinaemia: chronic HCV drives B-cell (already mapped) production of mixed cryoglobulins, cold-precipitating IgM-IgG immune complexes that cause a systemic vasculitis, the commonest extrahepatic manifestation of the infection.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Ribavirin haemolysis: the ribavirin used in older HCV regimens causes a dose-limiting haemolytic anaemia that lowers haemoglobin, a toxicity now largely avoided by the interferon- and ribavirin-free direct-acting antivirals.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Antiviral T-cell response: IL-2-driven T-cell expansion generates the HCV-specific T cells needed to clear the virus, and their functional exhaustion (PD-1 already mapped) is central to the establishment of chronic infection.
