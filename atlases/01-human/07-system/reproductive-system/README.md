@@ -383,6 +383,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "IL-6 signaling participates in the ovarian and testicular immune-endocrine processes of the reproductive system."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "GnRH neuron development: FGF8-FGFR1 signalling guides the embryonic migration of GnRH neurons from the olfactory placode to the hypothalamus, and its disruption causes Kallmann syndrome, hypogonadotropic hypogonadism with anosmia."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Ovulation as inflammation: the mid-cycle LH surge triggers an IL-1beta and prostaglandin-driven (prostaglandins already mapped) inflammatory cascade that ruptures the ovarian follicle, and related cytokine signalling governs endometrial receptivity for implantation."
+  - target: 01-human/03-molecular/endothelin-1
+    relation: connects-to
+    note: "Reproductive vascular tone: endothelin-1 regulates uterine and ovarian vascular flow and constricts penile corpus cavernosum smooth muscle, contributing to menstrual vascular control, placental perfusion and the balance underlying erectile function."
 ---
 
 # Reproductive System
@@ -620,6 +629,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven chemokine signaling participates in the immune trafficking within the reproductive tissues of the reproductive system.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the germ-cell migration and gonadal-niche interactions of the reproductive system.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 signaling participates in the ovarian and testicular immune-endocrine processes of the reproductive system.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — GnRH neuron development: FGF8-FGFR1 signalling guides the embryonic migration of GnRH neurons from the olfactory placode to the hypothalamus, and its disruption causes Kallmann syndrome, hypogonadotropic hypogonadism with anosmia.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Ovulation as inflammation: the mid-cycle LH surge triggers an IL-1beta and prostaglandin-driven (prostaglandins already mapped) inflammatory cascade that ruptures the ovarian follicle, and related cytokine signalling governs endometrial receptivity for implantation.
+- `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Reproductive vascular tone: endothelin-1 regulates uterine and ovarian vascular flow and constricts penile corpus cavernosum smooth muscle, contributing to menstrual vascular control, placental perfusion and the balance underlying erectile function.
 
 ## Pathology
 

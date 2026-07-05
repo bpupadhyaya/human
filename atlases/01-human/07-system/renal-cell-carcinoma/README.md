@@ -385,6 +385,15 @@ cross_links:
   - target: 01-human/03-molecular/il-17a
     relation: connects-to
     note: "IL-17A signaling participates in the inflammatory tumor microenvironment of renal cell carcinoma."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Immunotherapy legacy: renal cell carcinoma was one of the first cancers cured in a minority by high-dose IL-2, reflecting an intrinsic immunogenicity that today underlies its strong response to checkpoint inhibitors (PD-1 already mapped)."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "Osteolytic metastasis: renal cell carcinoma frequently spreads to bone as destructive lytic lesions, where tumour-driven RANKL activates osteoclasts to cause fractures and skeletal events, the rationale for denosumab in metastatic disease."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Obesity risk: excess adiposity is a major modifiable risk factor for renal cell carcinoma, and the adipokine leptin, elevated in obesity, promotes tumour-cell proliferation, linking metabolic state to renal carcinogenesis."
 ---
 
 # Renal Cell Carcinoma
@@ -626,6 +635,9 @@ Kidney → primary site of EPO production under hypoxia; VHL-intact renal inters
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the tumor microenvironment of renal cell carcinoma.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the tumor-immune microenvironment of renal cell carcinoma.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory tumor microenvironment of renal cell carcinoma.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Immunotherapy legacy: renal cell carcinoma was one of the first cancers cured in a minority by high-dose IL-2, reflecting an intrinsic immunogenicity that today underlies its strong response to checkpoint inhibitors (PD-1 already mapped).
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Osteolytic metastasis: renal cell carcinoma frequently spreads to bone as destructive lytic lesions, where tumour-driven RANKL activates osteoclasts to cause fractures and skeletal events, the rationale for denosumab in metastatic disease.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Obesity risk: excess adiposity is a major modifiable risk factor for renal cell carcinoma, and the adipokine leptin, elevated in obesity, promotes tumour-cell proliferation, linking metabolic state to renal carcinogenesis.
 
 [^motzer-2018-checkmate214]: Motzer RJ, Tannir NM, McDermott DF, et al. Nivolumab plus ipilimumab versus sunitinib in advanced renal-cell carcinoma. *N Engl J Med.* 2018;378(14):1277-1290. [doi:10.1056/NEJMoa1712126](https://doi.org/10.1056/NEJMoa1712126) · [PubMed 29562145](https://pubmed.ncbi.nlm.nih.gov/29562145/)
 [^rini-2019-keynote426]: Rini BI, Plimack ER, Stus V, et al. Pembrolizumab plus axitinib versus sunitinib for advanced renal-cell carcinoma. *N Engl J Med.* 2019;380(12):1116-1127. [doi:10.1056/NEJMoa1816714](https://doi.org/10.1056/NEJMoa1816714) · [PubMed 30779529](https://pubmed.ncbi.nlm.nih.gov/30779529/)
