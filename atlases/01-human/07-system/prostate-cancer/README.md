@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Complement C3 participates in the inflammatory tumor microenvironment of prostate cancer."
+  - target: 01-human/03-molecular/dll3
+    relation: connects-to
+    note: "Neuroendocrine transformation: androgen-receptor-directed therapy can drive lineage plasticity to aggressive treatment-emergent neuroendocrine prostate cancer, which expresses DLL3, the target of DLL3-directed agents beyond hormonal treatment."
+  - target: 01-human/03-molecular/axl-receptor
+    relation: connects-to
+    note: "Castration resistance: AXL receptor tyrosine kinase signalling promotes the epithelial-mesenchymal transition and therapy tolerance underlying progression to castration-resistant, metastatic prostate cancer despite androgen-receptor blockade."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Immune-cold tumour: prostate cancer generally presents few neoantigens and low MHC class II-driven antigen presentation, the basis of its poor checkpoint response, with exceptions in the MSI and CDK12-altered subsets and the sipuleucel-T vaccine."
 ---
 
 # Prostate Cancer
@@ -646,6 +655,9 @@ cross_links:
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the tumor-immune microenvironment of prostate cancer.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory tumor microenvironment of prostate cancer.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory tumor microenvironment of prostate cancer.
+- `connects-to` → **[DLL3](../../03-molecular/dll3/README.md)** — Neuroendocrine transformation: androgen-receptor-directed therapy can drive lineage plasticity to aggressive treatment-emergent neuroendocrine prostate cancer, which expresses DLL3, the target of DLL3-directed agents beyond hormonal treatment.
+- `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — Castration resistance: AXL receptor tyrosine kinase signalling promotes the epithelial-mesenchymal transition and therapy tolerance underlying progression to castration-resistant, metastatic prostate cancer despite androgen-receptor blockade.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immune-cold tumour: prostate cancer generally presents few neoantigens and low MHC class II-driven antigen presentation, the basis of its poor checkpoint response, with exceptions in the MSI and CDK12-altered subsets and the sipuleucel-T vaccine.
 
 [^beer-2014-prevail]: Beer TM, Armstrong AJ, Rathkopf D, et al. Enzalutamide in metastatic prostate cancer before chemotherapy. *N Engl J Med.* 2014;371(5):424-433. [doi:10.1056/NEJMoa1405095](https://doi.org/10.1056/NEJMoa1405095) · [PubMed 24881730](https://pubmed.ncbi.nlm.nih.gov/24881730/)
 [^sartor-2021-vision]: Sartor O, de Bono J, Chi KN, et al. Lutetium-PSMA-617 for metastatic castration-resistant prostate cancer. *N Engl J Med.* 2021;385(12):1091-1103. [doi:10.1056/NEJMoa2107322](https://doi.org/10.1056/NEJMoa2107322) · [PubMed 34161051](https://pubmed.ncbi.nlm.nih.gov/34161051/)

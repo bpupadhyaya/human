@@ -388,6 +388,15 @@ cross_links:
   - target: 01-human/03-molecular/il-17a
     relation: connects-to
     note: "IL-17A signaling participates in the immune dysregulation relevant to the associated marrow failure of paroxysmal nocturnal hemoglobinuria."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Clonal immune escape: the leading model of PNH holds that an autoimmune T-cell attack targets GPI-anchored antigens presented on normal stem cells, so the GPI-negative PNH clone escapes MHC-restricted recognition and expands on a marrow-failure background."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "T-cell marrow attack: IL-2-driven expansion of the cytotoxic T cells that suppress haematopoiesis in the associated aplastic anaemia (interferon-gamma already mapped) creates the selective pressure under which the GPI-negative PNH clone is favoured."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Thrombosis mechanism: sublytic complement C5b-9 attack on platelets triggers calcium influx that activates them and releases procoagulant microparticles, a calcium-dependent step in the thrombosis that is the leading cause of death in PNH."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -603,6 +612,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the thromboinflammation of paroxysmal nocturnal hemoglobinuria.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the endothelial and immune activation relevant to paroxysmal nocturnal hemoglobinuria.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the immune dysregulation relevant to the associated marrow failure of paroxysmal nocturnal hemoglobinuria.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Clonal immune escape: the leading model of PNH holds that an autoimmune T-cell attack targets GPI-anchored antigens presented on normal stem cells, so the GPI-negative PNH clone escapes MHC-restricted recognition and expands on a marrow-failure background.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell marrow attack: IL-2-driven expansion of the cytotoxic T cells that suppress haematopoiesis in the associated aplastic anaemia (interferon-gamma already mapped) creates the selective pressure under which the GPI-negative PNH clone is favoured.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Thrombosis mechanism: sublytic complement C5b-9 attack on platelets triggers calcium influx that activates them and releases procoagulant microparticles, a calcium-dependent step in the thrombosis that is the leading cause of death in PNH.
 
 ---
 
