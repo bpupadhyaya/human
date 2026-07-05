@@ -397,6 +397,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "Thrombosis mechanism: sublytic complement C5b-9 attack on platelets triggers calcium influx that activates them and releases procoagulant microparticles, a calcium-dependent step in the thrombosis that is the leading cause of death in PNH."
+  - target: 01-human/03-molecular/mu-opioid-receptor
+    relation: connects-to
+    note: "Smooth-muscle dystonia: scavenging of nitric oxide (already mapped) by free haemoglobin causes the oesophageal spasm, abdominal pain and dystonia of PNH, symptoms often severe enough to require opioids acting on the mu-opioid receptor."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative haemolysis: chronic intravascular haemolysis releases haem and purines, and xanthine-oxidase-derived reactive oxygen species and uric acid add oxidative stress and hyperuricaemia to the burden of PNH."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Inflammatory amplification: complement activation in PNH drives IL-6 and other cytokines (TNF already mapped) that sustain an inflammatory, prothrombotic milieu compounding the haemolytic and thrombotic disease."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -615,6 +624,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Clonal immune escape: the leading model of PNH holds that an autoimmune T-cell attack targets GPI-anchored antigens presented on normal stem cells, so the GPI-negative PNH clone escapes MHC-restricted recognition and expands on a marrow-failure background.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell marrow attack: IL-2-driven expansion of the cytotoxic T cells that suppress haematopoiesis in the associated aplastic anaemia (interferon-gamma already mapped) creates the selective pressure under which the GPI-negative PNH clone is favoured.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Thrombosis mechanism: sublytic complement C5b-9 attack on platelets triggers calcium influx that activates them and releases procoagulant microparticles, a calcium-dependent step in the thrombosis that is the leading cause of death in PNH.
+- `connects-to` → **[Mu-opioid receptor](../../03-molecular/mu-opioid-receptor/README.md)** — Smooth-muscle dystonia: scavenging of nitric oxide (already mapped) by free haemoglobin causes the oesophageal spasm, abdominal pain and dystonia of PNH, symptoms often severe enough to require opioids acting on the mu-opioid receptor.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative haemolysis: chronic intravascular haemolysis releases haem and purines, and xanthine-oxidase-derived reactive oxygen species and uric acid add oxidative stress and hyperuricaemia to the burden of PNH.
+- `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Inflammatory amplification: complement activation in PNH drives IL-6 and other cytokines (TNF already mapped) that sustain an inflammatory, prothrombotic milieu compounding the haemolytic and thrombotic disease.
 
 ---
 

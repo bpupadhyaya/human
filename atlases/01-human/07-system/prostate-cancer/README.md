@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/mhc-class-ii
     relation: connects-to
     note: "Immune-cold tumour: prostate cancer generally presents few neoantigens and low MHC class II-driven antigen presentation, the basis of its poor checkpoint response, with exceptions in the MSI and CDK12-altered subsets and the sipuleucel-T vaccine."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Sipuleucel-T vaccine: IL-2-driven T-cell responses underlie sipuleucel-T, the autologous cellular immunotherapy that improves survival in castration-resistant prostate cancer (MHC and PD-1 already mapped) despite this tumour's poor response to checkpoint blockade."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Anaemia: prostate cancer lowers haemoglobin through marrow replacement by bone metastases (RANKL already mapped), androgen-deprivation therapy and chemotherapy, and the resulting anaemia contributes to fatigue in advanced disease."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Androgen-deprivation cardiotoxicity: long-term androgen-deprivation therapy raises cardiovascular risk through adverse metabolic changes, and troponin elevation marks the myocardial injury of the cardiac events that complicate this mainstay treatment."
 ---
 
 # Prostate Cancer
@@ -658,6 +667,9 @@ cross_links:
 - `connects-to` → **[DLL3](../../03-molecular/dll3/README.md)** — Neuroendocrine transformation: androgen-receptor-directed therapy can drive lineage plasticity to aggressive treatment-emergent neuroendocrine prostate cancer, which expresses DLL3, the target of DLL3-directed agents beyond hormonal treatment.
 - `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — Castration resistance: AXL receptor tyrosine kinase signalling promotes the epithelial-mesenchymal transition and therapy tolerance underlying progression to castration-resistant, metastatic prostate cancer despite androgen-receptor blockade.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immune-cold tumour: prostate cancer generally presents few neoantigens and low MHC class II-driven antigen presentation, the basis of its poor checkpoint response, with exceptions in the MSI and CDK12-altered subsets and the sipuleucel-T vaccine.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Sipuleucel-T vaccine: IL-2-driven T-cell responses underlie sipuleucel-T, the autologous cellular immunotherapy that improves survival in castration-resistant prostate cancer (MHC and PD-1 already mapped) despite this tumour's poor response to checkpoint blockade.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Anaemia: prostate cancer lowers haemoglobin through marrow replacement by bone metastases (RANKL already mapped), androgen-deprivation therapy and chemotherapy, and the resulting anaemia contributes to fatigue in advanced disease.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Androgen-deprivation cardiotoxicity: long-term androgen-deprivation therapy raises cardiovascular risk through adverse metabolic changes, and troponin elevation marks the myocardial injury of the cardiac events that complicate this mainstay treatment.
 
 [^beer-2014-prevail]: Beer TM, Armstrong AJ, Rathkopf D, et al. Enzalutamide in metastatic prostate cancer before chemotherapy. *N Engl J Med.* 2014;371(5):424-433. [doi:10.1056/NEJMoa1405095](https://doi.org/10.1056/NEJMoa1405095) · [PubMed 24881730](https://pubmed.ncbi.nlm.nih.gov/24881730/)
 [^sartor-2021-vision]: Sartor O, de Bono J, Chi KN, et al. Lutetium-PSMA-617 for metastatic castration-resistant prostate cancer. *N Engl J Med.* 2021;385(12):1091-1103. [doi:10.1056/NEJMoa2107322](https://doi.org/10.1056/NEJMoa2107322) · [PubMed 34161051](https://pubmed.ncbi.nlm.nih.gov/34161051/)
