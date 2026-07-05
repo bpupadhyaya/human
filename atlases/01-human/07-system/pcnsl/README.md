@@ -385,6 +385,15 @@ cross_links:
   - target: 01-human/03-molecular/il-17a
     relation: connects-to
     note: "IL-17A signaling participates in the inflammatory tumor microenvironment of primary CNS lymphoma."
+  - target: 01-human/03-molecular/lmp1
+    relation: connects-to
+    note: "EBV-driven variant: in immunocompromised hosts primary CNS lymphoma is typically EBV-positive, and the viral oncoprotein LMP1 mimics constitutive CD40 signalling to activate NF-kB (already mapped), driving the B-cell transformation of this immunodeficiency-associated subtype."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "IL-4/STAT6 survival axis: an IL-4 signature expressed by tumour vasculature in primary CNS lymphoma engages STAT6 to support malignant B-cell survival and correlates with outcome, a microenvironmental dependency beyond the intrinsic MYD88/BTK signalling."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Inflammatory milieu: TNF-alpha is an NF-kB-driven cytokine (NF-kB already mapped) enriched in the primary CNS lymphoma microenvironment, sustaining the reactive perivascular inflammation and blood-brain-barrier disruption that accompany the tumour."
 ---
 
 # Primary CNS Lymphoma
@@ -621,6 +630,9 @@ Score 0-1: 2-year OS ~80%; Score 2-3: ~48%; Score 4-5: ~15%
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the tumor microenvironment of primary CNS lymphoma.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the neuroinflammatory tumor-immune microenvironment of primary CNS lymphoma.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory tumor microenvironment of primary CNS lymphoma.
+- `connects-to` → **[LMP1](../../03-molecular/lmp1/README.md)** — EBV-driven variant: in immunocompromised hosts primary CNS lymphoma is typically EBV-positive, and the viral oncoprotein LMP1 mimics constitutive CD40 signalling to activate NF-kB (already mapped), driving the B-cell transformation of this immunodeficiency-associated subtype.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — IL-4/STAT6 survival axis: an IL-4 signature expressed by tumour vasculature in primary CNS lymphoma engages STAT6 to support malignant B-cell survival and correlates with outcome, a microenvironmental dependency beyond the intrinsic MYD88/BTK signalling.
+- `connects-to` → **[TNF-alpha](../../03-molecular/tnf-alpha/README.md)** — Inflammatory milieu: TNF-alpha is an NF-kB-driven cytokine (NF-kB already mapped) enriched in the primary CNS lymphoma microenvironment, sustaining the reactive perivascular inflammation and blood-brain-barrier disruption that accompany the tumour.
 
 [^bromberg-2019-hovon105]: Bromberg JE, Issa S, Bakunina K, et al. Rituximab in patients with primary CNS lymphoma (HOVON 105/ALLG NHL 24): a randomised, open-label, phase 3 intergroup study. *Lancet Oncol.* 2019;20(2):216-228. [doi:10.1016/S1470-2045(18)30747-2](https://doi.org/10.1016/S1470-2045(18)30747-2) · [PubMed 30528440](https://pubmed.ncbi.nlm.nih.gov/30528440/)
 [^grommes-2017-ibrutinib-pcnsl]: Grommes C, Pastore A, Palaskas N, et al. Ibrutinib unmasks critical role of Bruton tyrosine kinase in primary CNS lymphoma. *Cancer Cell.* 2017;31(6):833-843. [doi:10.1016/j.ccell.2017.04.012](https://doi.org/10.1016/j.ccell.2017.04.012) · [PubMed 28552327](https://pubmed.ncbi.nlm.nih.gov/28552327/)

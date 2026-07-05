@@ -391,6 +391,15 @@ cross_links:
   - target: 01-human/03-molecular/type-i-interferon
     relation: connects-to
     note: "Type I interferon signaling participates in the autoimmune activation of pemphigus vulgaris."
+  - target: 01-human/03-molecular/glucocorticoid-receptor
+    relation: connects-to
+    note: "Corticosteroid cornerstone: systemic glucocorticoids remain first-line for pemphigus, acting through the glucocorticoid receptor to suppress the autoreactive T- and B-cell response and cytokine output, the axis underlying rapid disease control before steroid-sparing agents work."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "IgE autoantibody subset: alongside pathogenic IgG, a fraction of pemphigus patients harbour IgE anti-desmoglein antibodies that correlate with disease activity, a rationale for anti-IgE (omalizumab) trials and a mechanism distinct from the dominant IgG4 acantholysis."
+  - target: 01-human/03-molecular/thyroid-hormones
+    relation: connects-to
+    note: "Autoimmune clustering: pemphigus vulgaris co-occurs with autoimmune thyroid disease at elevated rates, reflecting the shared tendency to break tolerance, so thyroid-hormone dysfunction is a recognised comorbidity of the pemphigus autoimmune diathesis."
 ---
 
 # Pemphigus Vulgaris
@@ -659,6 +668,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the leukocyte skin-infiltration and lymphoid interactions of pemphigus vulgaris.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the skin inflammation of pemphigus vulgaris.
 - `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — Type I interferon signaling participates in the autoimmune activation of pemphigus vulgaris.
+- `connects-to` → **[Glucocorticoid receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Corticosteroid cornerstone: systemic glucocorticoids remain first-line for pemphigus, acting through the glucocorticoid receptor to suppress the autoreactive T- and B-cell response and cytokine output, the axis underlying rapid disease control before steroid-sparing agents work.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — IgE autoantibody subset: alongside pathogenic IgG, a fraction of pemphigus patients harbour IgE anti-desmoglein antibodies that correlate with disease activity, a rationale for anti-IgE (omalizumab) trials and a mechanism distinct from the dominant IgG4 acantholysis.
+- `connects-to` → **[Thyroid hormones](../../03-molecular/thyroid-hormones/README.md)** — Autoimmune clustering: pemphigus vulgaris co-occurs with autoimmune thyroid disease at elevated rates, reflecting the shared tendency to break tolerance, so thyroid-hormone dysfunction is a recognised comorbidity of the pemphigus autoimmune diathesis.
 
 ---
 
