@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/calcineurin
     relation: connects-to
     note: "Calcineurin-NFAT signaling participates in the fibroblast and immune signaling of desmoid tumor."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "Hormonal responsiveness: desmoid tumours express hormone receptors and can respond to anti-hormonal therapy, so the androgen axis, alongside the estrogen and progesterone already mapped, modulates their growth and pregnancy-associated flares."
+  - target: 01-human/03-molecular/axl-receptor
+    relation: connects-to
+    note: "Fibroblast activation: GAS6-AXL receptor tyrosine kinase signalling promotes the myofibroblast activation and invasive growth of desmoid tumours, a candidate target beyond the Wnt/beta-catenin driver already mapped."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Immune microenvironment: MHC class II-restricted T-cell surveillance shapes the immune microenvironment of desmoid tumours, and antigen presentation is relevant to the immunotherapy explored for these locally aggressive but non-metastasising fibromatoses."
 ---
 
 # Desmoid Tumor
@@ -653,6 +662,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory tumor microenvironment of desmoid tumor.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory tumor microenvironment of desmoid tumor.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the fibroblast and immune signaling of desmoid tumor.
+- `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — Hormonal responsiveness: desmoid tumours express hormone receptors and can respond to anti-hormonal therapy, so the androgen axis, alongside the estrogen and progesterone already mapped, modulates their growth and pregnancy-associated flares.
+- `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — Fibroblast activation: GAS6-AXL receptor tyrosine kinase signalling promotes the myofibroblast activation and invasive growth of desmoid tumours, a candidate target beyond the Wnt/beta-catenin driver already mapped.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immune microenvironment: MHC class II-restricted T-cell surveillance shapes the immune microenvironment of desmoid tumours, and antigen presentation is relevant to the immunotherapy explored for these locally aggressive but non-metastasising fibromatoses.
 
 ---
 

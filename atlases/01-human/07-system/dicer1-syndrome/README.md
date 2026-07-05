@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Complement C3 participates in the inflammatory tumor microenvironment of DICER1 syndrome."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Immunosurveillance: MHC class II-restricted T-cell surveillance influences which of the diverse embryonal and stromal tumours of DICER1 syndrome progress, and antigen presentation is relevant to immunotherapy of the aggressive ones such as pleuropulmonary blastoma."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "T-cell expansion: IL-2-driven T-cell proliferation supports the adaptive immune responses and cellular immunotherapy approaches being considered for the childhood cancers of DICER1 syndrome (perforin already mapped)."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Checkpoint context: PD-1-mediated exhaustion limits anti-tumour immunity, and checkpoint blockade is explored for the rare high-risk DICER1-associated cancers that recur or metastasise."
 ---
 
 # DICER1 Syndrome
@@ -634,6 +643,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the tumor microenvironment of the neoplasms of DICER1 syndrome.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the tumor-immune microenvironment of DICER1 syndrome.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory tumor microenvironment of DICER1 syndrome.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immunosurveillance: MHC class II-restricted T-cell surveillance influences which of the diverse embryonal and stromal tumours of DICER1 syndrome progress, and antigen presentation is relevant to immunotherapy of the aggressive ones such as pleuropulmonary blastoma.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell expansion: IL-2-driven T-cell proliferation supports the adaptive immune responses and cellular immunotherapy approaches being considered for the childhood cancers of DICER1 syndrome (perforin already mapped).
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Checkpoint context: PD-1-mediated exhaustion limits anti-tumour immunity, and checkpoint blockade is explored for the rare high-risk DICER1-associated cancers that recur or metastasise.
 
 ---
 
