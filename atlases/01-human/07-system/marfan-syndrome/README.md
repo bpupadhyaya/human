@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Osteopontin participates in the aortic extracellular-matrix remodeling and aneurysm pathology of Marfan syndrome."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative aortic degeneration: oxidative stress in the Marfan aortic wall, to which xanthine oxidase contributes, activates matrix metalloproteinases and promotes the smooth-muscle (already mapped) loss and elastic-fibre fragmentation that drive aneurysm formation."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "Growth axis: the tall stature and long limbs of Marfan syndrome reflect the growth-hormone/IGF-1 axis (both already mapped) signalling through the insulin/IGF receptors, and modulating this overgrowth has been explored to limit skeletal disproportion."
+  - target: 01-human/03-molecular/progesterone
+    relation: connects-to
+    note: "Pregnancy aortic risk: pregnancy sharply raises the risk of aortic dissection in Marfan syndrome, as the haemodynamic load and the hormonal effects of progesterone and estrogen (already mapped) on the vessel wall weaken the already-fragile aorta."
 ---
 
 # Marfan Syndrome
@@ -658,6 +667,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the cardiovascular-smooth-muscle and immune responses relevant to Marfan syndrome.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine signaling participates in the vascular-tone regulation relevant to the aortopathy of Marfan syndrome.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the aortic extracellular-matrix remodeling and aneurysm pathology of Marfan syndrome.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative aortic degeneration: oxidative stress in the Marfan aortic wall, to which xanthine oxidase contributes, activates matrix metalloproteinases and promotes the smooth-muscle (already mapped) loss and elastic-fibre fragmentation that drive aneurysm formation.
+- `connects-to` → **[Insulin receptor](../../03-molecular/insulin-receptor/README.md)** — Growth axis: the tall stature and long limbs of Marfan syndrome reflect the growth-hormone/IGF-1 axis (both already mapped) signalling through the insulin/IGF receptors, and modulating this overgrowth has been explored to limit skeletal disproportion.
+- `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Pregnancy aortic risk: pregnancy sharply raises the risk of aortic dissection in Marfan syndrome, as the haemodynamic load and the hormonal effects of progesterone and estrogen (already mapped) on the vessel wall weaken the already-fragile aorta.
 
 ---
 

@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Osteopontin (SPP1) participates in the microglial/macrophage tumor microenvironment and metastatic dissemination of medulloblastoma."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Immunotherapy: medulloblastoma is largely immunologically cold, and MHC-based antigen presentation is central to the vaccine and cellular immunotherapy strategies being explored, particularly for the high-risk Group 3 subtype (MYC already mapped)."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Cellular immunotherapy: IL-2-driven T-cell expansion supports the CAR-T and adoptive approaches under investigation for medulloblastoma, aiming to reach the tumour cells that seed the cerebrospinal fluid (perforin already mapped)."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Checkpoint context: PD-1 checkpoint blockade has limited single-agent activity in the cold medulloblastoma microenvironment, motivating combinations with radiation and targeted therapy to render it immunoresponsive."
 ---
 
 # Medulloblastoma
@@ -649,6 +658,9 @@ MB survivors face substantial late effects — inversely proportional to age at 
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the tumor microenvironment of medulloblastoma.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the tumor microenvironment and immune signaling of medulloblastoma.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin (SPP1) participates in the microglial/macrophage tumor microenvironment and metastatic dissemination of medulloblastoma.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immunotherapy: medulloblastoma is largely immunologically cold, and MHC-based antigen presentation is central to the vaccine and cellular immunotherapy strategies being explored, particularly for the high-risk Group 3 subtype (MYC already mapped).
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Cellular immunotherapy: IL-2-driven T-cell expansion supports the CAR-T and adoptive approaches under investigation for medulloblastoma, aiming to reach the tumour cells that seed the cerebrospinal fluid (perforin already mapped).
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Checkpoint context: PD-1 checkpoint blockade has limited single-agent activity in the cold medulloblastoma microenvironment, motivating combinations with radiation and targeted therapy to render it immunoresponsive.
 
 [^packer-2006-std-risk-mb]: Packer RJ, Gajjar A, Vezina G, et al. Phase III study of craniospinal radiation therapy followed by adjuvant chemotherapy for newly diagnosed average-risk medulloblastoma. *J Clin Oncol.* 2006;24(25):4202-4208. [doi:10.1200/JCO.2006.06.4980](https://doi.org/10.1200/JCO.2006.06.4980) · [PubMed 16943538](https://pubmed.ncbi.nlm.nih.gov/16943538/)
 [^taylor-2012-mb-subgroups]: Taylor MD, Northcott PA, Korshunov A, et al. Molecular subgroups of medulloblastoma: the current consensus. *Acta Neuropathol.* 2012;123(4):465-472. [doi:10.1007/s00401-011-0922-z](https://doi.org/10.1007/s00401-011-0922-z) · [PubMed 22134537](https://pubmed.ncbi.nlm.nih.gov/22134537/)
