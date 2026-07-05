@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/calcineurin
     relation: connects-to
     note: "Calcineurin-NFAT signaling participates in the tumor microenvironment and immune signaling of cervical cancer."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "HPV immunity and vaccine: MHC class II-restricted T-cell help underlies the antibody response (IgG already mapped) to the HPV vaccine, and HPV's downregulation of antigen presentation helps established cervical cancers evade immune clearance."
+  - target: 01-human/03-molecular/secretory-iga
+    relation: connects-to
+    note: "Mucosal defence: secretory IgA at the cervicovaginal mucosa contributes to local immunity against HPV, part of the mucosal barrier that the vaccine and natural infection engage at the site of transmission."
+  - target: 01-human/03-molecular/axl-receptor
+    relation: connects-to
+    note: "Invasion and resistance: the AXL receptor tyrosine kinase promotes the epithelial-mesenchymal transition and treatment resistance of advanced cervical cancer, a mechanism of progression beyond the HPV-driven oncogenes already mapped."
 ---
 
 # Cervical Cancer
@@ -642,6 +651,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory tumor microenvironment of cervical cancer.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory tumor microenvironment of cervical cancer.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the tumor microenvironment and immune signaling of cervical cancer.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — HPV immunity and vaccine: MHC class II-restricted T-cell help underlies the antibody response (IgG already mapped) to the HPV vaccine, and HPV's downregulation of antigen presentation helps established cervical cancers evade immune clearance.
+- `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — Mucosal defence: secretory IgA at the cervicovaginal mucosa contributes to local immunity against HPV, part of the mucosal barrier that the vaccine and natural infection engage at the site of transmission.
+- `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — Invasion and resistance: the AXL receptor tyrosine kinase promotes the epithelial-mesenchymal transition and treatment resistance of advanced cervical cancer, a mechanism of progression beyond the HPV-driven oncogenes already mapped.
 
 ---
 

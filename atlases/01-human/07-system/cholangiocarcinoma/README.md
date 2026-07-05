@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/calcineurin
     relation: connects-to
     note: "Calcineurin-NFAT signaling participates in the tumor microenvironment and biliary-inflammation-linked signaling of cholangiocarcinoma."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Immunotherapy: adding the checkpoint inhibitor durvalumab to chemotherapy is now standard for advanced biliary tract cancer, and MHC class II antigen presentation shapes the T-cell response that determines the benefit."
+  - target: 01-human/03-molecular/axl-receptor
+    relation: connects-to
+    note: "Invasion and resistance: the AXL receptor tyrosine kinase drives the epithelial-mesenchymal transition and treatment resistance of cholangiocarcinoma, a mechanism of progression beyond the FGFR and IDH targets already mapped."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "T-cell response: IL-2-driven T-cell expansion supports the anti-tumour immunity and adoptive-cell approaches under investigation for cholangiocarcinoma alongside checkpoint blockade (PD-1 already mapped)."
 ---
 
 # Cholangiocarcinoma
@@ -616,6 +625,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory tumor microenvironment of cholangiocarcinoma.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory tumor microenvironment of cholangiocarcinoma.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the tumor microenvironment and biliary-inflammation-linked signaling of cholangiocarcinoma.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immunotherapy: adding the checkpoint inhibitor durvalumab to chemotherapy is now standard for advanced biliary tract cancer, and MHC class II antigen presentation shapes the T-cell response that determines the benefit.
+- `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — Invasion and resistance: the AXL receptor tyrosine kinase drives the epithelial-mesenchymal transition and treatment resistance of cholangiocarcinoma, a mechanism of progression beyond the FGFR and IDH targets already mapped.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell response: IL-2-driven T-cell expansion supports the anti-tumour immunity and adoptive-cell approaches under investigation for cholangiocarcinoma alongside checkpoint blockade (PD-1 already mapped).
 
 ---
 
