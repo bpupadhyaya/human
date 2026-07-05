@@ -397,6 +397,15 @@ cross_links:
   - target: 01-human/03-molecular/adenosine
     relation: connects-to
     note: "Adenosine signaling participates in the immunosuppression and vascular dysfunction of sepsis."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Immunoparalysis: sepsis induces a compensatory immunosuppression marked by downregulation of monocyte HLA-DR (MHC class II), a biomarker of the impaired antigen presentation that predisposes survivors to secondary infections."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Nutritional immunity: the IL-6 surge of sepsis (IL-6 already mapped) drives hepcidin to sequester iron away from pathogens, a host-defence strategy that also contributes to the anaemia of critical illness."
+  - target: 01-human/03-molecular/von-willebrand-factor
+    relation: connects-to
+    note: "Endothelial activation: widespread endothelial injury in sepsis releases von Willebrand factor multimers that promote platelet microthrombi, part of the thromboinflammation and disseminated intravascular coagulation that damage organs."
 ---
 
 # Sepsis
@@ -629,6 +638,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the dysregulated immune response (and immunoparalysis) of sepsis.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the T-cell activation and immune dysregulation of sepsis.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine signaling participates in the immunosuppression and vascular dysfunction of sepsis.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immunoparalysis: sepsis induces a compensatory immunosuppression marked by downregulation of monocyte HLA-DR (MHC class II), a biomarker of the impaired antigen presentation that predisposes survivors to secondary infections.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Nutritional immunity: the IL-6 surge of sepsis (IL-6 already mapped) drives hepcidin to sequester iron away from pathogens, a host-defence strategy that also contributes to the anaemia of critical illness.
+- `connects-to` → **[Von Willebrand factor](../../03-molecular/von-willebrand-factor/README.md)** — Endothelial activation: widespread endothelial injury in sepsis releases von Willebrand factor multimers that promote platelet microthrombi, part of the thromboinflammation and disseminated intravascular coagulation that damage organs.
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

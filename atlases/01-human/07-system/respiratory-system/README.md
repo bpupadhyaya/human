@@ -396,6 +396,15 @@ cross_links:
   - target: 01-human/03-molecular/il-33
     relation: connects-to
     note: "IL-33 alarmin signaling participates in the airway epithelial and innate immune responses of the respiratory system."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Acid-base and drive: the lungs set systemic pH by adjusting carbon-dioxide excretion, and central and peripheral chemoreceptors sensing protons and CO2 tune the ventilatory drive minute to minute."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Airway smooth muscle: calcium-dependent contraction of airway smooth muscle sets bronchomotor tone, the target of the bronchodilators and bronchoconstrictors that widen or narrow the conducting airways."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Bronchodilation and muscle: magnesium relaxes airway smooth muscle by antagonising calcium entry, the basis of intravenous magnesium in severe bronchospasm, and is required for normal respiratory-muscle function."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -603,6 +612,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Connects-to** → [CXCL12](../../03-molecular/cxcl12/README.md): immune trafficking: CXCL12-CXCR4 signaling participates in the airway immune-cell trafficking and repair of the respiratory system.
 - **Connects-to** → [IL-1β](../../03-molecular/il-1b/README.md): airway inflammation: IL-1β-driven inflammation participates in the airway inflammatory responses of the respiratory system.
 - **Connects-to** → [IL-33](../../03-molecular/il-33/README.md): epithelial alarmin: IL-33 alarmin signaling participates in the airway epithelial and innate immune responses of the respiratory system.
+- **Connects-to** → [Proton](../../01-subatomic/proton/README.md): acid-base and drive: the lungs set systemic pH by adjusting carbon-dioxide excretion, and central and peripheral chemoreceptors sensing protons and CO2 tune the ventilatory drive minute to minute.
+- **Connects-to** → [Calcium](../../02-atomic/calcium/README.md): airway smooth muscle: calcium-dependent contraction of airway smooth muscle sets bronchomotor tone, the target of the bronchodilators and bronchoconstrictors that widen or narrow the conducting airways.
+- **Connects-to** → [Magnesium](../../02-atomic/magnesium/README.md): bronchodilation and muscle: magnesium relaxes airway smooth muscle by antagonising calcium entry, the basis of intravenous magnesium in severe bronchospasm, and is required for normal respiratory-muscle function.
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.
 
 ## Pathology
