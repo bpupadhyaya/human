@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/axl-receptor
     relation: connects-to
     note: "YAP-induced RTK: merlin loss de-represses YAP (already mapped), which upregulates the AXL receptor tyrosine kinase driving schwannoma and NF2-mutant mesothelioma proliferation, making AXL a targetable node downstream of the core NF2 defect."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Tumour immunotherapy: MHC class II antigen presentation shapes the T-cell response to the schwannomas and meningiomas of NF2, of growing interest as immunotherapy is explored for these otherwise surgery- and radiation-limited tumours."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Meningioma hormones: the meningiomas of NF2 express hormone receptors (progesterone already mapped), and estrogen contributes to the female predominance and pregnancy-associated growth seen with these tumours."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "T-cell immunity: IL-2-driven T-cell expansion supports the immunotherapy approaches being investigated for the multiple nervous-system tumours of NF2, which recur despite surgery and stereotactic radiation."
 ---
 
 # Neurofibromatosis Type 2
@@ -639,6 +648,9 @@ Merlin has an N-terminal FERM domain (α, β, γ lobes) that binds membrane lipi
 - `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Hormone-driven growth: NF2 meningiomas characteristically express progesterone receptors and enlarge under progesterone exposure such as pregnancy, so the tumour biology is partly endocrine, informing anti-progestin and surveillance strategies distinct from the merlin-YAP driver.
 - `connects-to` → **[BAP1](../../03-molecular/bap1/README.md)** — Mesothelioma co-driver: NF2/merlin loss recurrently co-occurs with BAP1 inactivation in malignant mesothelioma, so the two tumour suppressors converge on one of the few cancers where somatic NF2 mutation is a defining driver, linking the syndrome to sporadic serosal malignancy.
 - `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — YAP-induced RTK: merlin loss de-represses YAP (already mapped), which upregulates the AXL receptor tyrosine kinase driving schwannoma and NF2-mutant mesothelioma proliferation, making AXL a targetable node downstream of the core NF2 defect.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Tumour immunotherapy: MHC class II antigen presentation shapes the T-cell response to the schwannomas and meningiomas of NF2, of growing interest as immunotherapy is explored for these otherwise surgery- and radiation-limited tumours.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Meningioma hormones: the meningiomas of NF2 express hormone receptors (progesterone already mapped), and estrogen contributes to the female predominance and pregnancy-associated growth seen with these tumours.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell immunity: IL-2-driven T-cell expansion supports the immunotherapy approaches being investigated for the multiple nervous-system tumours of NF2, which recur despite surgery and stereotactic radiation.
 
 [^asthagiri-2009-nf2-lancet]: Asthagiri AR, Parry DM, Butman JA, et al. Neurofibromatosis type 2. *Lancet.* 2009;373(9679):1974-1986. [doi:10.1016/S0140-6736(09)60259-2](https://doi.org/10.1016/S0140-6736(09)60259-2) · [PubMed 19476995](https://pubmed.ncbi.nlm.nih.gov/19476995/)
 [^plotkin-2009-nf2-bevacizumab]: Plotkin SR, Stemmer-Rachamimov AO, Barker FG 2nd, et al. Hearing improvement after bevacizumab in patients with neurofibromatosis type 2. *N Engl J Med.* 2009;361(4):358-367. [doi:10.1056/NEJMoa0902579](https://doi.org/10.1056/NEJMoa0902579) · [PubMed 19587327](https://pubmed.ncbi.nlm.nih.gov/19587327/)
