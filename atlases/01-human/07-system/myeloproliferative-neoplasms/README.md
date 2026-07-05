@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Osteopontin participates in the bone-marrow-fibrosis and stromal interactions of myeloproliferative neoplasms."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Erythrocytosis: in polycythaemia vera the JAK2-driven erythroid overproduction (erythropoietin already mapped) raises haemoglobin and haematocrit, thickening the blood and driving the thrombosis managed with phlebotomy and cytoreduction."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Arterial thrombosis: myeloproliferative neoplasms markedly raise the risk of arterial events including myocardial infarction and stroke, and troponin elevation marks the cardiac injury of these thrombotic complications that dominate their morbidity."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Endothelial-platelet imbalance: impaired endothelial nitric-oxide function, with the excess activated blood cells of myeloproliferative neoplasms, tips the vascular balance toward the thrombosis (vWF already mapped) that is a leading cause of death."
 ---
 
 # Myeloproliferative Neoplasms
@@ -663,6 +672,9 @@ In PV and ET, JAK2 V617F also affects myeloid progenitors → granulocytosis and
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the megakaryocyte and clonal-myeloproliferation signaling of myeloproliferative neoplasms.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine signaling participates in the immunosuppressive bone-marrow microenvironment of myeloproliferative neoplasms.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the bone-marrow-fibrosis and stromal interactions of myeloproliferative neoplasms.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Erythrocytosis: in polycythaemia vera the JAK2-driven erythroid overproduction (erythropoietin already mapped) raises haemoglobin and haematocrit, thickening the blood and driving the thrombosis managed with phlebotomy and cytoreduction.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Arterial thrombosis: myeloproliferative neoplasms markedly raise the risk of arterial events including myocardial infarction and stroke, and troponin elevation marks the cardiac injury of these thrombotic complications that dominate their morbidity.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Endothelial-platelet imbalance: impaired endothelial nitric-oxide function, with the excess activated blood cells of myeloproliferative neoplasms, tips the vascular balance toward the thrombosis (vWF already mapped) that is a leading cause of death.
 
 [^verstovsek-2012-comfort-i]: Verstovsek S, Mesa RA, Gotlib J, et al. A double-blind, placebo-controlled trial of ruxolitinib for myelofibrosis. *N Engl J Med.* 2012;366(9):799-807. [doi:10.1056/NEJMoa1110557](https://doi.org/10.1056/NEJMoa1110557) · [PubMed 22375971](https://pubmed.ncbi.nlm.nih.gov/22375971/)
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409002](https://doi.org/10.1056/NEJMoa1409002) · [PubMed 25426978](https://pubmed.ncbi.nlm.nih.gov/25426978/)

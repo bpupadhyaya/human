@@ -381,6 +381,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Osteopontin participates in the neuroinflammation and T-cell activation implicated in narcolepsy."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Immune tolerance: PD-1 helps enforce the T-cell tolerance whose breakdown permits the autoimmune destruction of orexin neurons in narcolepsy, and checkpoint-inhibitor cancer therapy has been reported to trigger narcolepsy-like syndromes."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 autoimmunity: IL-12-driven Th1 polarisation supports the interferon-gamma-producing and cytotoxic T-cell responses (both already mapped) implicated in the HLA-DQB1*06:02-restricted autoimmune attack on the orexin neurons."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Sleep and neuroinflammation: nitric oxide is a gaseous modulator of sleep-wake regulation and, released during the neuroinflammatory response, participates in the hypothalamic environment in which orexin neurons are lost in narcolepsy."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -642,6 +651,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the autoreactive T-cell responses of narcolepsy.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the T-cell activation of the autoimmune orexin-neuron destruction of narcolepsy.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the neuroinflammation and T-cell activation implicated in narcolepsy.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Immune tolerance: PD-1 helps enforce the T-cell tolerance whose breakdown permits the autoimmune destruction of orexin neurons in narcolepsy, and checkpoint-inhibitor cancer therapy has been reported to trigger narcolepsy-like syndromes.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 autoimmunity: IL-12-driven Th1 polarisation supports the interferon-gamma-producing and cytotoxic T-cell responses (both already mapped) implicated in the HLA-DQB1*06:02-restricted autoimmune attack on the orexin neurons.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Sleep and neuroinflammation: nitric oxide is a gaseous modulator of sleep-wake regulation and, released during the neuroinflammatory response, participates in the hypothalamic environment in which orexin neurons are lost in narcolepsy.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)
