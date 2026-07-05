@@ -402,6 +402,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Cardiovascular risk: the systemic inflammation of psoriatic arthritis impairs endothelial nitric-oxide function, a mechanism underlying the accelerated atherosclerosis and elevated cardiovascular mortality that accompany the joint disease."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "HLA and antigen presentation: beyond the HLA-B27 (already mapped) axial association, HLA class II and MHC-restricted antigen presentation shape the autoreactive T-cell response driving the synovial and entheseal inflammation of psoriatic arthritis."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "T-cell activation: IL-2-driven expansion of the autoreactive and IL-17-producing T cells sustains the joint inflammation of psoriatic arthritis, and the T-cell costimulation blocker abatacept (CTLA-4 already mapped) exploits this dependency."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Cardiovascular comorbidity: the accelerated atherosclerosis of psoriatic arthritis (nitric oxide already mapped) raises the risk of myocardial infarction, and troponin elevation marks the cardiac injury of the events that shorten patients' lives."
 ---
 
 # Psoriatic Arthritis
@@ -677,6 +686,9 @@ Risankizumab (anti-IL-23p19) **failed primary endpoints** in the SURPASS trial f
 - `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Vascular synovitis: psoriatic synovium shows tortuous, elongated vessels driven by angiopoietin-Tie2 and VEGF (VEGF already mapped), a distinctive angiogenic pattern that separates it morphologically from rheumatoid synovitis.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Metabolic comorbidity: psoriatic arthritis clusters with obesity and insulin resistance, and the adipokine resistin links inflamed adipose tissue to systemic inflammation, extending the leptin/adiponectin metabolic axis already mapped.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Cardiovascular risk: the systemic inflammation of psoriatic arthritis impairs endothelial nitric-oxide function, a mechanism underlying the accelerated atherosclerosis and elevated cardiovascular mortality that accompany the joint disease.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — HLA and antigen presentation: beyond the HLA-B27 (already mapped) axial association, HLA class II and MHC-restricted antigen presentation shape the autoreactive T-cell response driving the synovial and entheseal inflammation of psoriatic arthritis.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell activation: IL-2-driven expansion of the autoreactive and IL-17-producing T cells sustains the joint inflammation of psoriatic arthritis, and the T-cell costimulation blocker abatacept (CTLA-4 already mapped) exploits this dependency.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiovascular comorbidity: the accelerated atherosclerosis of psoriatic arthritis (nitric oxide already mapped) raises the risk of myocardial infarction, and troponin elevation marks the cardiac injury of the events that shorten patients' lives.
 
 [^ritchlin-2017-psa-review]: Ritchlin CT, Colbert RA, Gladman DD. Psoriatic arthritis. *N Engl J Med.* 2017;376(10):957-970. [doi:10.1056/NEJMra1505557](https://doi.org/10.1056/NEJMra1505557) · [PubMed 28273019](https://pubmed.ncbi.nlm.nih.gov/28273019/)
 [^mease-2015-secukinumab-psa-future2]: Mease PJ, et al. Secukinumab inhibition of interleukin-17A in patients with psoriatic arthritis. *N Engl J Med.* 2015;373(14):1329-1339. [doi:10.1056/NEJMoa1503317](https://doi.org/10.1056/NEJMoa1503317) · [PubMed 26422723](https://pubmed.ncbi.nlm.nih.gov/26422723/)

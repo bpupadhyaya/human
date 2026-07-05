@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Hyperviscosity thrombosis: the raised haematocrit of polycythaemia vera increases blood viscosity and shear, impairing endothelial nitric-oxide bioavailability and promoting the arterial and venous thrombosis that is the leading cause of death."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Arterial thrombosis: polycythaemia vera markedly raises the risk of arterial events including myocardial infarction and stroke (nitric oxide already mapped), and troponin elevation marks the cardiac injury of these thromboses."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Platelet-mediated microvascular events: platelets are the body's main serotonin store, released on aggregation to constrict vessels, so the excess and activated platelets of polycythaemia vera contribute to the erythromelalgia and microvascular symptoms it causes."
+  - target: 01-human/03-molecular/endothelin-1
+    relation: connects-to
+    note: "Endothelial vasoconstriction: the hyperviscous, inflamed circulation of polycythaemia vera favours endothelin-1-driven vasoconstriction over nitric-oxide vasodilation (already mapped), tipping the vascular balance further toward its characteristic thrombosis."
 ---
 
 # Polycythemia Vera
@@ -641,6 +650,9 @@ PV must be distinguished from secondary erythrocytosis (elevated EPO, JAK2 wild-
 - `connects-to` → **[EGLN1 (PHD2)](../../03-molecular/egln1/README.md)** — Erythrocytosis differential: loss-of-function EGLN1/PHD2 stabilises HIF to cause hereditary erythrocytosis, the germline oxygen-sensing counterpart to JAK2-driven polycythaemia vera (HIF/EPAS1 already mapped), a key distinction in the erythrocytosis workup.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Iron-restricted erythropoiesis: the expanded red-cell production of polycythaemia vera consumes iron and repeated phlebotomy induces deficiency, so transferrin-bound iron delivery becomes rate-limiting, the physiologic rationale behind therapeutic iron restriction.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Hyperviscosity thrombosis: the raised haematocrit of polycythaemia vera increases blood viscosity and shear, impairing endothelial nitric-oxide bioavailability and promoting the arterial and venous thrombosis that is the leading cause of death.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Arterial thrombosis: polycythaemia vera markedly raises the risk of arterial events including myocardial infarction and stroke (nitric oxide already mapped), and troponin elevation marks the cardiac injury of these thromboses.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Platelet-mediated microvascular events: platelets are the body's main serotonin store, released on aggregation to constrict vessels, so the excess and activated platelets of polycythaemia vera contribute to the erythromelalgia and microvascular symptoms it causes.
+- `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Endothelial vasoconstriction: the hyperviscous, inflamed circulation of polycythaemia vera favours endothelin-1-driven vasoconstriction over nitric-oxide vasodilation (already mapped), tipping the vascular balance further toward its characteristic thrombosis.
 
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409630](https://doi.org/10.1056/NEJMoa1409630) · [PubMed 25577388](https://pubmed.ncbi.nlm.nih.gov/25577388/)
 [^gisslinger-2020-proud-pv]: Gisslinger H, Gotic M, Holowiecki J, et al. Ropeginterferon alfa-2b versus standard therapy for polycythaemia vera (PROUD-PV and CONTINUATION-PV): a randomised, non-inferiority, phase 3 trial and its extension study. *Lancet Haematol.* 2020;7(3):e196-e208. [doi:10.1016/S2352-3026(19)30236-4](https://doi.org/10.1016/S2352-3026(19)30236-4) · [PubMed 32046833](https://pubmed.ncbi.nlm.nih.gov/32046833/)
