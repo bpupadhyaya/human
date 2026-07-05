@@ -399,6 +399,15 @@ cross_links:
   - target: 01-human/03-molecular/acetylcholine
     relation: connects-to
     note: "Acute flaccid paralysis: West Nile virus can infect anterior-horn motor neurons to cause a poliomyelitis-like acute flaccid paralysis, disrupting cholinergic transmission at the neuromuscular junction and leaving lasting weakness."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Antibody help: IL-4 and type-2 T-cell help support the B-cell (already mapped) production of the neutralising antibodies (IgG already mapped) that protect against West Nile virus, the humoral immunity whose failure permits neuroinvasion."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative neuronal injury: reactive oxygen species from xanthine oxidase and other sources contribute to the oxidative stress that damages neurons during West Nile encephalitis, compounding the direct viral and immune-mediated injury."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Myocarditis: West Nile virus can rarely cause myocarditis, and troponin elevation marks the myocardial injury of this cardiac involvement, one of the recognised extraneural manifestations of severe infection."
 ---
 
 # West Nile Virus
@@ -646,3 +655,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Blood-brain-barrier injury: neuroinflammatory nitric oxide contributes to the blood-brain-barrier disruption and neuronal damage of West Nile encephalitis, part of the immunopathology that accompanies viral clearance from the brain.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell control: IL-2-driven expansion of the CD8 T cells that clear West Nile virus from infected neurons (perforin already mapped) is essential to controlling neuroinvasive infection, and waning T-cell immunity underlies severe disease in the elderly.
 - `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Acute flaccid paralysis: West Nile virus can infect anterior-horn motor neurons to cause a poliomyelitis-like acute flaccid paralysis, disrupting cholinergic transmission at the neuromuscular junction and leaving lasting weakness.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Antibody help: IL-4 and type-2 T-cell help support the B-cell (already mapped) production of the neutralising antibodies (IgG already mapped) that protect against West Nile virus, the humoral immunity whose failure permits neuroinvasion.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative neuronal injury: reactive oxygen species from xanthine oxidase and other sources contribute to the oxidative stress that damages neurons during West Nile encephalitis, compounding the direct viral and immune-mediated injury.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Myocarditis: West Nile virus can rarely cause myocarditis, and troponin elevation marks the myocardial injury of this cardiac involvement, one of the recognised extraneural manifestations of severe infection.
