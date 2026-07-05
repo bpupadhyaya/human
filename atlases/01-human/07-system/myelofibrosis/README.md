@@ -388,6 +388,15 @@ cross_links:
   - target: 01-human/03-molecular/calcineurin
     relation: connects-to
     note: "Calcineurin-NFAT signaling participates in the megakaryocyte and stromal-cell signaling contributing to the marrow fibrosis of myelofibrosis."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "Anaemia and fibrosis: activin A signalling through ACVR2 both suppresses erythropoiesis, the target of luspatercept and momelotinib for myelofibrosis anaemia, and promotes fibroblast activation, giving it a dual role in the disease."
+  - target: 01-human/03-molecular/sclerostin
+    relation: connects-to
+    note: "Osteosclerosis: advanced myelofibrosis develops osteosclerosis with increased bone density, and dysregulated Wnt signalling with altered sclerostin contributes to the bone remodelling that accompanies the marrow fibrosis."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Iron and anaemia: chronic inflammation in myelofibrosis raises IL-6-driven hepcidin (IL-6 already mapped), contributing to the anaemia of inflammation, while transfusion dependence adds iron overload requiring chelation."
 ---
 
 # Myelofibrosis
@@ -639,6 +648,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory and fibrotic bone-marrow microenvironment of myelofibrosis.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory bone-marrow microenvironment of myelofibrosis.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the megakaryocyte and stromal-cell signaling contributing to the marrow fibrosis of myelofibrosis.
+- `connects-to` → **[Activin A](../../03-molecular/activin-a/README.md)** — Anaemia and fibrosis: activin A signalling through ACVR2 both suppresses erythropoiesis, the target of luspatercept and momelotinib for myelofibrosis anaemia, and promotes fibroblast activation, giving it a dual role in the disease.
+- `connects-to` → **[Sclerostin](../../03-molecular/sclerostin/README.md)** — Osteosclerosis: advanced myelofibrosis develops osteosclerosis with increased bone density, and dysregulated Wnt signalling with altered sclerostin contributes to the bone remodelling that accompanies the marrow fibrosis.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Iron and anaemia: chronic inflammation in myelofibrosis raises IL-6-driven hepcidin (IL-6 already mapped), contributing to the anaemia of inflammation, while transfusion dependence adds iron overload requiring chelation.
 
 ---
 

@@ -386,6 +386,15 @@ cross_links:
   - target: 01-human/03-molecular/il-1b
     relation: connects-to
     note: "IL-1β-driven inflammation participates in the bone and joint remodeling of the musculoskeletal system."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Bone and muscle mineral: roughly 60% of body magnesium is stored in bone, and magnesium is essential for neuromuscular excitability and as an enzyme cofactor, so deficiency produces cramps, weakness and impaired bone quality."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Muscle excitability: potassium gradients set the resting membrane potential of skeletal muscle, and hypo- or hyperkalaemia cause the weakness and paralysis that link electrolyte balance directly to musculoskeletal function."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Gut-bone axis: gut-derived serotonin acts on osteoblasts to restrain bone formation, a systemic regulator of skeletal mass that connects the musculoskeletal system to enteric endocrine signalling beyond the local bone factors."
 ---
 
 # Musculoskeletal System
@@ -645,6 +654,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven chemokine signaling participates in the immune-cell trafficking within the bone and muscle tissues of the musculoskeletal system.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the bone-marrow-niche, osteogenic, and muscle-stem-cell interactions of the musculoskeletal system.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the bone and joint remodeling of the musculoskeletal system.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Bone and muscle mineral: roughly 60% of body magnesium is stored in bone, and magnesium is essential for neuromuscular excitability and as an enzyme cofactor, so deficiency produces cramps, weakness and impaired bone quality.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Muscle excitability: potassium gradients set the resting membrane potential of skeletal muscle, and hypo- or hyperkalaemia cause the weakness and paralysis that link electrolyte balance directly to musculoskeletal function.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Gut-bone axis: gut-derived serotonin acts on osteoblasts to restrain bone formation, a systemic regulator of skeletal mass that connects the musculoskeletal system to enteric endocrine signalling beyond the local bone factors.
 
 ## Pathology
 
