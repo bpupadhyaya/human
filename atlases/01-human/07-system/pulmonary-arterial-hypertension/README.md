@@ -391,6 +391,15 @@ cross_links:
   - target: 01-human/03-molecular/il-33
     relation: connects-to
     note: "IL-33 alarmin signaling participates in the perivascular inflammation and vascular remodeling of pulmonary arterial hypertension."
+  - target: 01-human/03-molecular/serotonin-transporter
+    relation: connects-to
+    note: "Serotonin hypothesis: the serotonin transporter (SERT) delivers 5-HT (serotonin already mapped) into pulmonary artery smooth muscle to drive proliferation, and SERT is the mechanistic link behind anorexigen (fenfluramine)-associated pulmonary arterial hypertension."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Channelopathy: loss-of-function mutations in the KCNK3/TASK-1 potassium channel cause heritable pulmonary arterial hypertension, since impaired potassium efflux depolarises smooth muscle to raise calcium and promote vasoconstriction and remodeling."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Right-heart failure: pulmonary arterial hypertension ultimately kills through right ventricular failure, and troponin released from the strained, ischaemic RV myocardium is a prognostic biomarker linking the pulmonary vasculopathy to cardiac decompensation."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -638,6 +647,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the perivascular inflammatory-cell recruitment and vascular remodeling of pulmonary arterial hypertension.
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the vascular gene programs relevant to pulmonary arterial hypertension.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the perivascular inflammation and vascular remodeling of pulmonary arterial hypertension.
+- `connects-to` → **[Serotonin transporter](../../03-molecular/serotonin-transporter/README.md)** — Serotonin hypothesis: the serotonin transporter (SERT) delivers 5-HT (serotonin already mapped) into pulmonary artery smooth muscle to drive proliferation, and SERT is the mechanistic link behind anorexigen (fenfluramine)-associated pulmonary arterial hypertension.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Channelopathy: loss-of-function mutations in the KCNK3/TASK-1 potassium channel cause heritable pulmonary arterial hypertension, since impaired potassium efflux depolarises smooth muscle to raise calcium and promote vasoconstriction and remodeling.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Right-heart failure: pulmonary arterial hypertension ultimately kills through right ventricular failure, and troponin released from the strained, ischaemic RV myocardium is a prognostic biomarker linking the pulmonary vasculopathy to cardiac decompensation.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

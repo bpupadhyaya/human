@@ -385,6 +385,15 @@ cross_links:
   - target: 01-human/03-molecular/il-33
     relation: connects-to
     note: "IL-33 alarmin signaling participates in the tumor-immune microenvironment of peripheral T-cell lymphoma."
+  - target: 01-human/03-molecular/lmp1
+    relation: connects-to
+    note: "EBV-driven subtypes: extranodal NK/T-cell lymphoma and EBV-positive nodal T-cell lymphomas depend on Epstein-Barr virus, whose oncoprotein LMP1 mimics CD40 to activate NF-kB (already mapped), and EBV+ B-blasts also populate angioimmunoblastic PTCL."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "TFH biology: angioimmunoblastic PTCL arises from follicular helper T cells whose physiological role is MHC class II-restricted help to B cells, and this retained programme drives the polyclonal B-cell expansion and hypergammaglobulinaemia typical of the disease."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Chemotherapy execution: CHOP-based anthracycline chemotherapy, the standard PTCL regimen, kills lymphoma cells through caspase-3-mediated apoptosis, and resistance to this executioner pathway contributes to the poor outcomes that characterise most peripheral T-cell lymphomas."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -652,6 +661,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the tumor-microenvironment and lymphoid interactions of peripheral T-cell lymphoma.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the tumor microenvironment of peripheral T-cell lymphoma.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the tumor-immune microenvironment of peripheral T-cell lymphoma.
+- `connects-to` → **[LMP1](../../03-molecular/lmp1/README.md)** — EBV-driven subtypes: extranodal NK/T-cell lymphoma and EBV-positive nodal T-cell lymphomas depend on Epstein-Barr virus, whose oncoprotein LMP1 mimics CD40 to activate NF-kB (already mapped), and EBV+ B-blasts also populate angioimmunoblastic PTCL.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — TFH biology: angioimmunoblastic PTCL arises from follicular helper T cells whose physiological role is MHC class II-restricted help to B cells, and this retained programme drives the polyclonal B-cell expansion and hypergammaglobulinaemia typical of the disease.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Chemotherapy execution: CHOP-based anthracycline chemotherapy, the standard PTCL regimen, kills lymphoma cells through caspase-3-mediated apoptosis, and resistance to this executioner pathway contributes to the poor outcomes that characterise most peripheral T-cell lymphomas.
 
 ---
 
