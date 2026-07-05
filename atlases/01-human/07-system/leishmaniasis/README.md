@@ -397,6 +397,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "Intracellular survival: Leishmania modulates host macrophage calcium signalling to blunt microbicidal responses, and the parasite's own calcium-dependent processes are being explored as antileishmanial drug targets."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative burst: alongside nitric oxide (already mapped), macrophage-derived reactive oxygen species help kill intracellular Leishmania, and the parasite deploys antioxidant defences to survive this oxidative arm of the microbicidal response."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Nutritional immunity: the host restricts zinc and other metals to starve intracellular Leishmania, and adequate zinc also supports the Th1 response (IL-12 already mapped), so deficiency worsens susceptibility to the infection."
+  - target: 01-human/03-molecular/glucocorticoid-receptor
+    relation: connects-to
+    note: "Immunosuppression and reactivation: corticosteroid therapy acting through the glucocorticoid receptor, like HIV (already mapped), suppresses the Th1 immunity that contains Leishmania, precipitating progression to or reactivation of visceral disease."
 ---
 
 # Leishmaniasis
@@ -625,3 +634,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Visceral anaemia: visceral leishmaniasis (kala-azar) causes marked anaemia and pancytopenia from bone-marrow infiltration, haemolysis and splenic sequestration, and the falling haemoglobin is a hallmark of severe, untreated disease.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell expansion: IL-2-driven proliferation of Th1 cells sustains the interferon-gamma response (already mapped) that activates macrophages to kill Leishmania, and adequate T-cell immunity determines whether infection is controlled or progresses.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Intracellular survival: Leishmania modulates host macrophage calcium signalling to blunt microbicidal responses, and the parasite's own calcium-dependent processes are being explored as antileishmanial drug targets.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative burst: alongside nitric oxide (already mapped), macrophage-derived reactive oxygen species help kill intracellular Leishmania, and the parasite deploys antioxidant defences to survive this oxidative arm of the microbicidal response.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Nutritional immunity: the host restricts zinc and other metals to starve intracellular Leishmania, and adequate zinc also supports the Th1 response (IL-12 already mapped), so deficiency worsens susceptibility to the infection.
+- `connects-to` → **[Glucocorticoid receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Immunosuppression and reactivation: corticosteroid therapy acting through the glucocorticoid receptor, like HIV (already mapped), suppresses the Th1 immunity that contains Leishmania, precipitating progression to or reactivation of visceral disease.

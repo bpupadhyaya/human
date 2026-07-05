@@ -384,6 +384,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Reward-circuit signalling: nitric oxide modulates the dopaminergic and glutamatergic transmission (both already mapped) of the reward and impulse-control circuits implicated in the compulsive engagement of internet gaming disorder."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "Stress reactivity: central angiotensin II modulates stress responses and interacts with the HPA axis (cortisol already mapped), a neuroendocrine system implicated in the heightened stress and craving that accompany compulsive gaming."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Mineralocorticoid stress axis: aldosterone acts on brain mineralocorticoid receptors that, balanced against glucocorticoid receptors (already mapped), tune the stress response linked to the emotional dysregulation underlying internet gaming disorder."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Neuroinflammatory balance: the anti-inflammatory cytokine IL-10 counters the elevated TNF and IL-1 (already mapped) reported in behavioural addictions, part of the low-grade neuroinflammation associated with compulsive internet gaming."
 sources:
   - id: kuss-2012-gaming-disorder-review
     type: peer-reviewed
@@ -680,6 +689,9 @@ A pattern of persistent or recurrent gaming behavior characterized by:
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Sex differences: internet gaming disorder is markedly more common in males, and estrogen's modulation of dopaminergic reward signalling may contribute to the sex difference in vulnerability and clinical course.
 - `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Neurosteroid stress buffering: progesterone-derived allopregnanolone potentiates GABA-A signalling and buffers stress reactivity, a hormonal influence on the affect regulation and craving that drive compulsive gaming, distinct from estrogen's reward effects.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Reward-circuit signalling: nitric oxide modulates the dopaminergic and glutamatergic transmission (both already mapped) of the reward and impulse-control circuits implicated in the compulsive engagement of internet gaming disorder.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — Stress reactivity: central angiotensin II modulates stress responses and interacts with the HPA axis (cortisol already mapped), a neuroendocrine system implicated in the heightened stress and craving that accompany compulsive gaming.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Mineralocorticoid stress axis: aldosterone acts on brain mineralocorticoid receptors that, balanced against glucocorticoid receptors (already mapped), tune the stress response linked to the emotional dysregulation underlying internet gaming disorder.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Neuroinflammatory balance: the anti-inflammatory cytokine IL-10 counters the elevated TNF and IL-1 (already mapped) reported in behavioural addictions, part of the low-grade neuroinflammation associated with compulsive internet gaming.
 
 [^kuss-2012-gaming-disorder-review]: Kuss DJ, Griffiths MD. Internet gaming addiction: a systematic review of empirical research. *Int J Ment Health Addict.* 2012;10(2):278-296. [doi:10.1007/s11469-011-9318-5](https://doi.org/10.1007/s11469-011-9318-5)
 [^who-icd11-gaming-disorder]: World Health Organization. ICD-11: Gaming Disorder (6C51). Geneva: WHO; 2019. [icd.who.int](https://icd.who.int/browse/2025-01/mms/en#1448597234)
