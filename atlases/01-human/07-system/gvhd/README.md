@@ -406,6 +406,15 @@ cross_links:
   - target: 01-human/03-molecular/bcl-2
     relation: connects-to
     note: "Apoptosis balance: anti-apoptotic BCL-2 family proteins set the survival threshold of alloreactive donor T cells and of the target-organ epithelium they attack, influencing both the graft-versus-host injury and the beneficial graft-versus-leukaemia effect."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "Sclerodermatous fibrosis: chronic graft-versus-host disease drives fibroblast collagen deposition (TGF-beta and PDGF already mapped), producing the sclerodermatous skin thickening, joint contractures and fibrosis that define the chronic form."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 fibrosis: IL-13 and the type-2 cytokine response promote the macrophage and fibroblast activation that drives the fibrosis of chronic graft-versus-host disease, complementing the TGF-beta (already mapped) pathway."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Post-transplant cytopenias: marrow graft-versus-host effects, drug toxicity and infection lower haemoglobin after transplant, and the resulting anaemia adds to the morbidity of graft-versus-host disease and its treatment."
 ---
 
 # Graft-Versus-Host Disease
@@ -673,6 +682,9 @@ The protective Treg/IL-10 axis is the key biological counterbalance to alloreact
 - `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Costimulation blockade: abatacept, a CTLA-4-Ig fusion protein, blocks the CD28 costimulation that donor T cells need to activate against host tissue, and it is approved to help prevent graft-versus-host disease after mismatched transplant.
 - `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — Mucosal barrier: conditioning and gut graft-versus-host disease disrupt the secretory IgA that protects the intestinal mucosa, weakening the barrier that normally restrains the microbiota and amplifying the gut inflammation.
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Apoptosis balance: anti-apoptotic BCL-2 family proteins set the survival threshold of alloreactive donor T cells and of the target-organ epithelium they attack, influencing both the graft-versus-host injury and the beneficial graft-versus-leukaemia effect.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Sclerodermatous fibrosis: chronic graft-versus-host disease drives fibroblast collagen deposition (TGF-beta and PDGF already mapped), producing the sclerodermatous skin thickening, joint contractures and fibrosis that define the chronic form.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 fibrosis: IL-13 and the type-2 cytokine response promote the macrophage and fibroblast activation that drives the fibrosis of chronic graft-versus-host disease, complementing the TGF-beta (already mapped) pathway.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Post-transplant cytopenias: marrow graft-versus-host effects, drug toxicity and infection lower haemoglobin after transplant, and the resulting anaemia adds to the morbidity of graft-versus-host disease and its treatment.
 
 [^ferrara-2009-gvhd-review]: Ferrara JL, Levine JE, Reddy P, Holler E. Graft-versus-host disease. *Lancet.* 2009;373(9674):1550-1561. [doi:10.1016/S0140-6736(09)60237-3](https://doi.org/10.1016/S0140-6736(09)60237-3) · [PubMed 19380114](https://pubmed.ncbi.nlm.nih.gov/19380114/)
 [^zeiser-2020-ruxolitinib-gvhd-reach]: Zeiser R, von Bubnoff N, Butler J, et al. Ruxolitinib for Glucocorticoid-Refractory Acute Graft-versus-Host Disease. *N Engl J Med.* 2020;382(19):1800-1810. [doi:10.1056/NEJMoa1917635](https://doi.org/10.1056/NEJMoa1917635) · [PubMed 32374962](https://pubmed.ncbi.nlm.nih.gov/32374962/)

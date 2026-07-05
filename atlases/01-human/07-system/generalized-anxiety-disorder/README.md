@@ -409,6 +409,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Fear circuitry: nitric oxide from neuronal nNOS modulates the amygdala and hippocampal circuits that generate anxiety, implicating NO signalling in the regulation of anxiety-like states."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Mineralocorticoid stress axis: aldosterone acts on brain mineralocorticoid receptors that, balanced against glucocorticoid receptors (already mapped), tune the stress response and threat appraisal dysregulated in generalized anxiety disorder."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Metabolic stress load: chronic anxiety and HPA activation (cortisol already mapped) promote insulin resistance and metabolic dysregulation, part of the cardiometabolic burden that accompanies long-standing generalized anxiety disorder."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Sex differences: generalized anxiety disorder is roughly twice as common in women, and androgens, which have anxiolytic effects, alongside estrogen and progesterone (already mapped) are implicated in these sex differences in vulnerability."
 ---
 
 # Generalized Anxiety Disorder
@@ -677,6 +686,9 @@ Allow **4-8 weeks** for onset of anxiolytic effect. Continue treatment ≥12 mon
 - `connects-to` → **[Beta-1 adrenergic receptor](../../03-molecular/beta1-adrenergic-receptor/README.md)** — Somatic symptoms: the palpitations, tremor and tachycardia of anxiety are peripheral beta-adrenergic effects, which is why beta-blockers relieve the somatic manifestations of generalized anxiety even without acting on the core worry.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — Brain renin-angiotensin: central angiotensin II modulates the HPA and sympathetic stress response, and angiotensin-receptor blockade is associated with reduced anxiety, a neuroendocrine axis beyond the monoamine and GABA systems already mapped.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Fear circuitry: nitric oxide from neuronal nNOS modulates the amygdala and hippocampal circuits that generate anxiety, implicating NO signalling in the regulation of anxiety-like states.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Mineralocorticoid stress axis: aldosterone acts on brain mineralocorticoid receptors that, balanced against glucocorticoid receptors (already mapped), tune the stress response and threat appraisal dysregulated in generalized anxiety disorder.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Metabolic stress load: chronic anxiety and HPA activation (cortisol already mapped) promote insulin resistance and metabolic dysregulation, part of the cardiometabolic burden that accompanies long-standing generalized anxiety disorder.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Sex differences: generalized anxiety disorder is roughly twice as common in women, and androgens, which have anxiolytic effects, alongside estrogen and progesterone (already mapped) are implicated in these sex differences in vulnerability.
 
 [^kessler-2005-gad-prevalence]: Kessler RC, Berglund P, Demler O, et al. Lifetime prevalence and age-of-onset distributions of DSM-IV disorders in the NCS Replication. *Arch Gen Psychiatry.* 2005;62(6):593-602. [doi:10.1001/archpsyc.62.6.593](https://doi.org/10.1001/archpsyc.62.6.593) · [PubMed 15939837](https://pubmed.ncbi.nlm.nih.gov/15939837/)
 [^bandelow-2015-anxiety-biology]: Bandelow B, Michaelis S. Epidemiology of anxiety disorders in the 21st century. *Dialogues Clin Neurosci.* 2015;17(3):327-335. [doi:10.31887/DCNS.2015.17.3/bbandelow](https://doi.org/10.31887/DCNS.2015.17.3/bbandelow) · [PubMed 26487812](https://pubmed.ncbi.nlm.nih.gov/26487812/)
