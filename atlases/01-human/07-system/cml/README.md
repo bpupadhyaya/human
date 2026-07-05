@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Osteopontin participates in the leukemic-stem-cell-niche and bone-marrow-microenvironment interactions of chronic myeloid leukemia."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Immune control and remission: CML is the model for treatment-free remission, where MHC-restricted T-cell and NK responses against the BCR-ABL-driven clone help maintain remission after stopping tyrosine-kinase inhibitors."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Hyperuricaemia: the high cell turnover of chronic myeloid leukaemia releases purines that xanthine oxidase converts to uric acid, causing the hyperuricaemia and gout risk managed with allopurinol at diagnosis and during cytoreduction."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Immune surveillance: IL-2 drives the expansion of the T and NK cells that provide the immunological control believed to sustain treatment-free remission in chronic myeloid leukaemia after tyrosine-kinase-inhibitor withdrawal."
 ---
 
 # Chronic Myeloid Leukemia
@@ -632,6 +641,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the leukemic-stem-cell and immune signaling of chronic myeloid leukemia.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine signaling participates in the immunosuppressive bone-marrow microenvironment of chronic myeloid leukemia.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the leukemic-stem-cell-niche and bone-marrow-microenvironment interactions of chronic myeloid leukemia.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immune control and remission: CML is the model for treatment-free remission, where MHC-restricted T-cell and NK responses against the BCR-ABL-driven clone help maintain remission after stopping tyrosine-kinase inhibitors.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Hyperuricaemia: the high cell turnover of chronic myeloid leukaemia releases purines that xanthine oxidase converts to uric acid, causing the hyperuricaemia and gout risk managed with allopurinol at diagnosis and during cytoreduction.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Immune surveillance: IL-2 drives the expansion of the T and NK cells that provide the immunological control believed to sustain treatment-free remission in chronic myeloid leukaemia after tyrosine-kinase-inhibitor withdrawal.
 
 ---
 

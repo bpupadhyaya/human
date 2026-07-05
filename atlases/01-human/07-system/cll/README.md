@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Osteopontin participates in the microenvironment and stromal interactions of chronic lymphocytic leukemia."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Immune dysfunction: CLL causes profound immune impairment with hypogammaglobulinaemia (IgG already mapped) and defective antigen presentation, driving the infections that are a leading cause of death, while antigen presentation also underlies CAR-T therapy."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Autoimmune haemolysis: CLL is complicated by autoimmune haemolytic anaemia and pure red-cell aplasia, lowering haemoglobin through immune-mediated red-cell destruction (complement C3 already mapped) beyond marrow infiltration alone."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "T-cell dysfunction: the T cells in CLL are functionally exhausted with impaired IL-2 responses, a defect that both weakens immunity and is engineered around by CD19-directed CAR-T cells."
 ---
 
 # CLL
@@ -632,6 +641,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling downstream of the B-cell receptor participates in the survival signaling of chronic lymphocytic leukemia.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine (CD39/CD73-adenosine) signaling participates in the immunosuppressive tumor microenvironment of chronic lymphocytic leukemia.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the microenvironment and stromal interactions of chronic lymphocytic leukemia.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immune dysfunction: CLL causes profound immune impairment with hypogammaglobulinaemia (IgG already mapped) and defective antigen presentation, driving the infections that are a leading cause of death, while antigen presentation also underlies CAR-T therapy.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Autoimmune haemolysis: CLL is complicated by autoimmune haemolytic anaemia and pure red-cell aplasia, lowering haemoglobin through immune-mediated red-cell destruction (complement C3 already mapped) beyond marrow infiltration alone.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell dysfunction: the T cells in CLL are functionally exhausted with impaired IL-2 responses, a defect that both weakens immunity and is engineered around by CD19-directed CAR-T cells.
 
 ---
 
