@@ -409,6 +409,15 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: connects-to
     note: "Tissue hypoxia: fibrin microthrombi occlude the microcirculation in DIC, cutting off oxygen delivery and causing the ischaemic organ dysfunction, from kidneys (already mapped) to skin, that defines its thrombotic phase."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Cytokine balance: the anti-inflammatory cytokine IL-10 counters the TNF, IL-1 and IL-6 (already mapped) that ignite the coagulation of sepsis-induced DIC, and the balance between them shapes the severity of the coagulopathy."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Inflammatory iron handling: the IL-6 surge (already mapped) of the sepsis that commonly triggers DIC raises hepcidin, sequestering iron and contributing to the anaemia (haemoglobin already mapped) of the critical illness."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "Endothelial vasodilation: adrenomedullin rises with the endothelial activation (already mapped) of the sepsis and DIC, contributing to the vasodilation and vascular leak of shock, and is studied as a biomarker and therapeutic target."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -670,6 +679,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Lactic acidosis: the microvascular thrombosis and shock of severe DIC starve tissues of oxygen (already mapped), forcing anaerobic metabolism that generates protons and lactate, so a worsening metabolic acidosis tracks the severity of the coagulopathy.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Multi-organ injury: the widespread microthrombi of DIC injure organs including the heart, and troponin elevation marks the myocardial damage that is part of the multi-organ failure driving its high mortality.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Tissue hypoxia: fibrin microthrombi occlude the microcirculation in DIC, cutting off oxygen delivery and causing the ischaemic organ dysfunction, from kidneys (already mapped) to skin, that defines its thrombotic phase.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Cytokine balance: the anti-inflammatory cytokine IL-10 counters the TNF, IL-1 and IL-6 (already mapped) that ignite the coagulation of sepsis-induced DIC, and the balance between them shapes the severity of the coagulopathy.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Inflammatory iron handling: the IL-6 surge (already mapped) of the sepsis that commonly triggers DIC raises hepcidin, sequestering iron and contributing to the anaemia (haemoglobin already mapped) of the critical illness.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — Endothelial vasodilation: adrenomedullin rises with the endothelial activation (already mapped) of the sepsis and DIC, contributing to the vasodilation and vascular leak of shock, and is studied as a biomarker and therapeutic target.
 
 ---
 

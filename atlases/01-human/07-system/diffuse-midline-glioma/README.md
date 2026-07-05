@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/pd-1
     relation: connects-to
     note: "Checkpoint context: diffuse midline glioma is an immunologically cold tumour, and PD-1 checkpoint blockade is explored in combination with CAR-T and vaccine strategies to sustain the anti-tumour T-cell response."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive microenvironment: the anti-inflammatory cytokine IL-10 helps make diffuse midline glioma an immunologically cold tumour (PD-1 already mapped), blunting the T-cell response that CAR-T and vaccine strategies aim to mount."
+  - target: 01-human/03-molecular/gaba
+    relation: connects-to
+    note: "Neuronal activity: alongside the glutamatergic neuron-glioma synapses (glutamate already mapped), GABAergic signalling modulates the neuronal electrical activity that drives the growth of diffuse midline glioma, an emerging neuro-oncology target."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Tumour vasculature: nitric oxide regulates vascular tone and, with VEGF (already mapped), the angiogenesis and hypoxic microenvironment of diffuse midline glioma, part of the stromal biology of this infiltrative brainstem tumour."
 ---
 
 # Diffuse Midline Glioma
@@ -670,6 +679,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — GD2 CAR-T therapy: IL-2-driven T-cell expansion powers the GD2-directed CAR-T therapy that has produced striking early responses in H3K27M diffuse midline glioma, a landmark immunotherapy for this otherwise uniformly fatal tumour.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Antigen presentation: MHC class II-restricted antigen presentation shapes the T-cell response to diffuse midline glioma, relevant to the peptide vaccines targeting the H3K27M neoantigen (already mapped) being tested in this tumour.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Checkpoint context: diffuse midline glioma is an immunologically cold tumour, and PD-1 checkpoint blockade is explored in combination with CAR-T and vaccine strategies to sustain the anti-tumour T-cell response.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: the anti-inflammatory cytokine IL-10 helps make diffuse midline glioma an immunologically cold tumour (PD-1 already mapped), blunting the T-cell response that CAR-T and vaccine strategies aim to mount.
+- `connects-to` → **[GABA](../../03-molecular/gaba/README.md)** — Neuronal activity: alongside the glutamatergic neuron-glioma synapses (glutamate already mapped), GABAergic signalling modulates the neuronal electrical activity that drives the growth of diffuse midline glioma, an emerging neuro-oncology target.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide regulates vascular tone and, with VEGF (already mapped), the angiogenesis and hypoxic microenvironment of diffuse midline glioma, part of the stromal biology of this infiltrative brainstem tumour.
 
 ---
 
