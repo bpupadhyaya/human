@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "Exocytosis and MEN2: calcium influx triggers the granule exocytosis releasing catecholamines from chromaffin cells, and in RET-driven MEN2 the tumour co-occurs with parathyroid hyperplasia and calcium dysregulation, linking secretion to syndromic mineral endocrinology."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "EPAS1 polycythaemia: EPAS1/HIF2-driven paragangliomas (EPAS1 already mapped) can secrete erythropoietin, causing the polycythaemia of the Pacak-Zhuang syndrome, a distinctive pseudohypoxic feature of this tumour subtype."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Metastatic immunotherapy: MHC class II antigen presentation shapes the T-cell response to metastatic pheochromocytoma/paraganglioma, for which checkpoint and other immunotherapies are being explored given the limited options for malignant disease."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "T-cell therapy: IL-2-driven T-cell expansion supports the immunotherapy approaches under investigation for metastatic paraganglioma, complementing MIBG and peptide-receptor radionuclide therapy (SSTR2 already mapped)."
 ---
 
 # Pheochromocytoma/Paraganglioma
@@ -661,6 +670,9 @@ Active in Cluster 1 (MET/AXL co-expressed in SDH-deficient tumors); Phase 2 CABO
 - `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Secretory trigger: adrenal chromaffin cells are innervated by cholinergic splanchnic preganglionic fibres, so acetylcholine is the physiological signal that evokes catecholamine exocytosis, the pathway whose dysregulated tumour activity underlies paroxysmal secretion.
 - `connects-to` → **[NPY](../../03-molecular/npy/README.md)** — Co-secreted vasoconstrictor: neuropeptide Y is stored and released alongside catecholamines by pheochromocytoma and sympathetic paraganglia, contributing to the vasoconstriction and hypertension and serving as an additional secretory marker beyond the metanephrines.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Exocytosis and MEN2: calcium influx triggers the granule exocytosis releasing catecholamines from chromaffin cells, and in RET-driven MEN2 the tumour co-occurs with parathyroid hyperplasia and calcium dysregulation, linking secretion to syndromic mineral endocrinology.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — EPAS1 polycythaemia: EPAS1/HIF2-driven paragangliomas (EPAS1 already mapped) can secrete erythropoietin, causing the polycythaemia of the Pacak-Zhuang syndrome, a distinctive pseudohypoxic feature of this tumour subtype.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Metastatic immunotherapy: MHC class II antigen presentation shapes the T-cell response to metastatic pheochromocytoma/paraganglioma, for which checkpoint and other immunotherapies are being explored given the limited options for malignant disease.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell therapy: IL-2-driven T-cell expansion supports the immunotherapy approaches under investigation for metastatic paraganglioma, complementing MIBG and peptide-receptor radionuclide therapy (SSTR2 already mapped).
 
 [^lenders-2014-pheo-guideline]: Lenders JW, Duh QY, Eisenhofer G, et al. Pheochromocytoma and paraganglioma: an endocrine society clinical practice guideline. *J Clin Endocrinol Metab.* 2014;99(6):1915-1942. [doi:10.1210/jc.2014-1498](https://doi.org/10.1210/jc.2014-1498) · [PubMed 24893135](https://pubmed.ncbi.nlm.nih.gov/24893135/)
 [^baudin-2021-firstmappp-sunitinib]: Baudin E, Goichot B, Berruti A, et al. First International Randomized Study in Malignant Progressive Pheochromocytoma and Paragangliomas (FIRSTMAPPP). *Ann Oncol.* 2021;32(10):1245-1254. [doi:10.1016/j.annonc.2021.07.009](https://doi.org/10.1016/j.annonc.2021.07.009) · [PubMed 34246769](https://pubmed.ncbi.nlm.nih.gov/34246769/)

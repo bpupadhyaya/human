@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/activin-a
     relation: connects-to
     note: "Sex-cord secretory marker: the ovarian sex-cord tumours with annular tubules and gonadal stromal tumours of Peutz-Jeghers secrete inhibin/activin-family peptides, so activin signalling marks and drives this characteristic gonadal neoplasia."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Bleeding anaemia: the hamartomatous polyps of Peutz-Jeghers bleed chronically and cause acute haemorrhage with intussusception, producing the iron-deficiency anaemia that lowers haemoglobin and often prompts the endoscopy that reveals the polyposis."
+  - target: 01-human/03-molecular/endothelin-1
+    relation: connects-to
+    note: "Mucocutaneous pigmentation: the dark lentiginous macules of the lips, buccal mucosa and digits arise from melanocyte activity, which endothelin-1 through EDNRB regulates, underlying the pathognomonic pigmentation of Peutz-Jeghers syndrome."
+  - target: 01-human/03-molecular/progesterone
+    relation: connects-to
+    note: "Gonadal sex-cord tumours: the ovarian sex-cord and testicular Sertoli-cell tumours of Peutz-Jeghers disturb sex-hormone balance (estrogen and testosterone already mapped), so progesterone and the reproductive-hormone axis figure in their endocrine effects."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -643,6 +652,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Energy-sensing axis: LKB1 loss in Peutz-Jeghers cripples the AMPK energy sensor it activates, and leptin is the adipokine that signals through hypothalamic AMPK to regulate energy balance, extending the metabolic dysregulation beyond the adiponectin link already mapped.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Feminising gonadal tumours: Peutz-Jeghers boys develop large-cell calcifying Sertoli cell tumours that aromatise androgens to estrogen, causing gynaecomastia and disrupting the testosterone-estrogen balance (estrogen already mapped), a distinctive endocrine feature.
 - `connects-to` → **[Activin A](../../03-molecular/activin-a/README.md)** — Sex-cord secretory marker: the ovarian sex-cord tumours with annular tubules and gonadal stromal tumours of Peutz-Jeghers secrete inhibin/activin-family peptides, so activin signalling marks and drives this characteristic gonadal neoplasia.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Bleeding anaemia: the hamartomatous polyps of Peutz-Jeghers bleed chronically and cause acute haemorrhage with intussusception, producing the iron-deficiency anaemia that lowers haemoglobin and often prompts the endoscopy that reveals the polyposis.
+- `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Mucocutaneous pigmentation: the dark lentiginous macules of the lips, buccal mucosa and digits arise from melanocyte activity, which endothelin-1 through EDNRB regulates, underlying the pathognomonic pigmentation of Peutz-Jeghers syndrome.
+- `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Gonadal sex-cord tumours: the ovarian sex-cord and testicular Sertoli-cell tumours of Peutz-Jeghers disturb sex-hormone balance (estrogen and testosterone already mapped), so progesterone and the reproductive-hormone axis figure in their endocrine effects.
 
 ---
 
