@@ -385,6 +385,15 @@ cross_links:
   - target: 01-human/03-molecular/il-17a
     relation: connects-to
     note: "IL-17A signaling participates in the inflammatory tumor microenvironment of retinoblastoma."
+  - target: 01-human/03-molecular/ntrk
+    relation: connects-to
+    note: "Neurotrophin survival: retinoblastoma cells express the TrkB receptor for BDNF (BDNF already mapped), and this neurotrophin signalling supports tumour-cell survival and chemoresistance, a targetable axis in this photoreceptor-derived cancer."
+  - target: 01-human/03-molecular/thyroid-hormones
+    relation: connects-to
+    note: "Cone-precursor origin: retinoblastoma arises from cone photoreceptor precursors whose identity depends on thyroid-hormone-receptor (TRbeta) signalling, tying the tumour's cell of origin to thyroid-hormone-driven cone specification in the developing retina."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Immune-cold tumour: retinoblastoma grows in the immune-privileged eye with low MHC class II antigen presentation, limiting T-cell recognition, a barrier to the immunotherapies increasingly explored for refractory and metastatic disease."
 ---
 
 # Retinoblastoma
@@ -620,6 +629,9 @@ Standard regimen: **vincristine + carboplatin + etoposide (VCE)**, 6 cycles; red
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the tumor microenvironment of retinoblastoma.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the tumor-immune microenvironment of retinoblastoma.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory tumor microenvironment of retinoblastoma.
+- `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — Neurotrophin survival: retinoblastoma cells express the TrkB receptor for BDNF (BDNF already mapped), and this neurotrophin signalling supports tumour-cell survival and chemoresistance, a targetable axis in this photoreceptor-derived cancer.
+- `connects-to` → **[Thyroid hormones](../../03-molecular/thyroid-hormones/README.md)** — Cone-precursor origin: retinoblastoma arises from cone photoreceptor precursors whose identity depends on thyroid-hormone-receptor (TRbeta) signalling, tying the tumour's cell of origin to thyroid-hormone-driven cone specification in the developing retina.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immune-cold tumour: retinoblastoma grows in the immune-privileged eye with low MHC class II antigen presentation, limiting T-cell recognition, a barrier to the immunotherapies increasingly explored for refractory and metastatic disease.
 
 [^knudson-1971-two-hit]: Knudson AG Jr. Mutation and cancer: statistical study of retinoblastoma. *Proc Natl Acad Sci USA.* 1971;68(4):820-823. [doi:10.1073/pnas.68.4.820](https://doi.org/10.1073/pnas.68.4.820) · [PubMed 5279523](https://pubmed.ncbi.nlm.nih.gov/5279523/)
 [^shields-2008-retinoblastoma]: Shields CL, Shields JA. Retinoblastoma management: advances in enucleation, intravenous chemoreduction, and intra-arterial chemotherapy. *Curr Opin Ophthalmol.* 2010;21(3):203-212. [doi:10.1097/ICU.0b013e328338676a](https://doi.org/10.1097/ICU.0b013e328338676a) · [PubMed 20224400](https://pubmed.ncbi.nlm.nih.gov/20224400/)
