@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Complement C3 participates in the microglial and neuroinflammatory processes implicated in alcohol use disorder."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Sex differences: women develop alcohol-related organ damage at lower exposures (telescoping), and estrogen with sex-based differences in alcohol metabolism contributes to this greater vulnerability in alcohol use disorder."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative metabolism: ethanol metabolism and xanthine-oxidase activity generate reactive oxygen species and uric acid, contributing to the oxidative liver injury and the hyperuricaemia and gout associated with heavy drinking."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Alcoholic cardiomyopathy: chronic heavy drinking causes a dilated cardiomyopathy, and troponin release can mark the myocardial injury of this under-recognised cardiac complication of alcohol use disorder."
 ---
 
 # Alcohol Use Disorder
@@ -711,6 +720,9 @@ Prenatal alcohol exposure → leading preventable cause of intellectual disabili
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the neuroinflammatory responses implicated in alcohol use disorder.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the neuroinflammation associated with alcohol use disorder.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the microglial and neuroinflammatory processes implicated in alcohol use disorder.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Sex differences: women develop alcohol-related organ damage at lower exposures (telescoping), and estrogen with sex-based differences in alcohol metabolism contributes to this greater vulnerability in alcohol use disorder.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative metabolism: ethanol metabolism and xanthine-oxidase activity generate reactive oxygen species and uric acid, contributing to the oxidative liver injury and the hyperuricaemia and gout associated with heavy drinking.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Alcoholic cardiomyopathy: chronic heavy drinking causes a dilated cardiomyopathy, and troponin release can mark the myocardial injury of this under-recognised cardiac complication of alcohol use disorder.
 
 [^koob-2013-addiction-neuroscience]: Koob GF, Volkow ND. Neurocircuitry of addiction. *Neuropsychopharmacology.* 2010;35(1):217-238. [doi:10.1038/npp.2009.110](https://doi.org/10.1038/npp.2009.110) · [PubMed 19710631](https://pubmed.ncbi.nlm.nih.gov/19710631/)
 [^anton-2006-combine]: Anton RF, O'Malley SS, Ciraulo DA, et al. Combined pharmacotherapies and behavioral interventions for alcohol dependence: the COMBINE study. *JAMA.* 2006;295(17):2003-2017. [doi:10.1001/jama.295.17.2003](https://doi.org/10.1001/jama.295.17.2003) · [PubMed 16670409](https://pubmed.ncbi.nlm.nih.gov/16670409/)
