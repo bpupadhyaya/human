@@ -385,6 +385,15 @@ cross_links:
   - target: 01-human/03-molecular/il-33
     relation: connects-to
     note: "IL-33 alarmin signaling participates in the inflammatory bone-marrow microenvironment of polycythemia vera."
+  - target: 01-human/03-molecular/egln1
+    relation: connects-to
+    note: "Erythrocytosis differential: loss-of-function EGLN1/PHD2 stabilises HIF to cause hereditary erythrocytosis, the germline oxygen-sensing counterpart to JAK2-driven polycythaemia vera (HIF/EPAS1 already mapped), a key distinction in the erythrocytosis workup."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Iron-restricted erythropoiesis: the expanded red-cell production of polycythaemia vera consumes iron and repeated phlebotomy induces deficiency, so transferrin-bound iron delivery becomes rate-limiting, the physiologic rationale behind therapeutic iron restriction."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Hyperviscosity thrombosis: the raised haematocrit of polycythaemia vera increases blood viscosity and shear, impairing endothelial nitric-oxide bioavailability and promoting the arterial and venous thrombosis that is the leading cause of death."
 ---
 
 # Polycythemia Vera
@@ -629,6 +638,9 @@ PV must be distinguished from secondary erythrocytosis (elevated EPO, JAK2 wild-
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the bone-marrow-niche and megakaryocyte interactions of polycythemia vera.
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic dysregulation of polycythemia vera.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the inflammatory bone-marrow microenvironment of polycythemia vera.
+- `connects-to` → **[EGLN1 (PHD2)](../../03-molecular/egln1/README.md)** — Erythrocytosis differential: loss-of-function EGLN1/PHD2 stabilises HIF to cause hereditary erythrocytosis, the germline oxygen-sensing counterpart to JAK2-driven polycythaemia vera (HIF/EPAS1 already mapped), a key distinction in the erythrocytosis workup.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Iron-restricted erythropoiesis: the expanded red-cell production of polycythaemia vera consumes iron and repeated phlebotomy induces deficiency, so transferrin-bound iron delivery becomes rate-limiting, the physiologic rationale behind therapeutic iron restriction.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Hyperviscosity thrombosis: the raised haematocrit of polycythaemia vera increases blood viscosity and shear, impairing endothelial nitric-oxide bioavailability and promoting the arterial and venous thrombosis that is the leading cause of death.
 
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409630](https://doi.org/10.1056/NEJMoa1409630) · [PubMed 25577388](https://pubmed.ncbi.nlm.nih.gov/25577388/)
 [^gisslinger-2020-proud-pv]: Gisslinger H, Gotic M, Holowiecki J, et al. Ropeginterferon alfa-2b versus standard therapy for polycythaemia vera (PROUD-PV and CONTINUATION-PV): a randomised, non-inferiority, phase 3 trial and its extension study. *Lancet Haematol.* 2020;7(3):e196-e208. [doi:10.1016/S2352-3026(19)30236-4](https://doi.org/10.1016/S2352-3026(19)30236-4) · [PubMed 32046833](https://pubmed.ncbi.nlm.nih.gov/32046833/)

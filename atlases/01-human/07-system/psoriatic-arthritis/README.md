@@ -393,6 +393,15 @@ cross_links:
   - target: 01-human/03-molecular/calcineurin
     relation: connects-to
     note: "Calcineurin-NFAT signaling, a target of ciclosporin, participates in the T-cell activation of psoriatic arthritis."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "Vascular synovitis: psoriatic synovium shows tortuous, elongated vessels driven by angiopoietin-Tie2 and VEGF (VEGF already mapped), a distinctive angiogenic pattern that separates it morphologically from rheumatoid synovitis."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Metabolic comorbidity: psoriatic arthritis clusters with obesity and insulin resistance, and the adipokine resistin links inflamed adipose tissue to systemic inflammation, extending the leptin/adiponectin metabolic axis already mapped."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Cardiovascular risk: the systemic inflammation of psoriatic arthritis impairs endothelial nitric-oxide function, a mechanism underlying the accelerated atherosclerosis and elevated cardiovascular mortality that accompany the joint disease."
 ---
 
 # Psoriatic Arthritis
@@ -665,6 +674,9 @@ Risankizumab (anti-IL-23p19) **failed primary endpoints** in the SURPASS trial f
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the leukocyte trafficking into the inflamed synovium and entheses of psoriatic arthritis.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the innate immune activation of psoriatic arthritis.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling, a target of ciclosporin, participates in the T-cell activation of psoriatic arthritis.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Vascular synovitis: psoriatic synovium shows tortuous, elongated vessels driven by angiopoietin-Tie2 and VEGF (VEGF already mapped), a distinctive angiogenic pattern that separates it morphologically from rheumatoid synovitis.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Metabolic comorbidity: psoriatic arthritis clusters with obesity and insulin resistance, and the adipokine resistin links inflamed adipose tissue to systemic inflammation, extending the leptin/adiponectin metabolic axis already mapped.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Cardiovascular risk: the systemic inflammation of psoriatic arthritis impairs endothelial nitric-oxide function, a mechanism underlying the accelerated atherosclerosis and elevated cardiovascular mortality that accompany the joint disease.
 
 [^ritchlin-2017-psa-review]: Ritchlin CT, Colbert RA, Gladman DD. Psoriatic arthritis. *N Engl J Med.* 2017;376(10):957-970. [doi:10.1056/NEJMra1505557](https://doi.org/10.1056/NEJMra1505557) · [PubMed 28273019](https://pubmed.ncbi.nlm.nih.gov/28273019/)
 [^mease-2015-secukinumab-psa-future2]: Mease PJ, et al. Secukinumab inhibition of interleukin-17A in patients with psoriatic arthritis. *N Engl J Med.* 2015;373(14):1329-1339. [doi:10.1056/NEJMoa1503317](https://doi.org/10.1056/NEJMoa1503317) · [PubMed 26422723](https://pubmed.ncbi.nlm.nih.gov/26422723/)
