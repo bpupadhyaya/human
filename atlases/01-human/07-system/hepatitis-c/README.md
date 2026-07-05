@@ -390,6 +390,15 @@ cross_links:
   - target: 01-human/03-molecular/il-33
     relation: connects-to
     note: "IL-33 alarmin signaling participates in the hepatic immune responses and fibrosis of hepatitis C."
+  - target: 01-human/03-molecular/cd20
+    relation: connects-to
+    note: "B-cell lymphoproliferation: chronic HCV drives clonal expansion of CD20-positive B cells, causing mixed cryoglobulinaemia and marginal-zone lymphoma that often regress with viral cure or rituximab, a defining extrahepatic manifestation."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "T-cell clearance: MHC class II-restricted CD4 T-cell help is required to clear acute HCV, and its failure permits the CD8 exhaustion (PD-1 already mapped) that establishes lifelong chronic infection."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Hepatic iron: chronic HCV suppresses hepcidin and promotes hepatic iron accumulation, and this iron overload accelerates the oxidative injury and fibrosis progression that lead toward cirrhosis and hepatocellular carcinoma."
 ---
 
 # Hepatitis C
@@ -640,3 +649,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the intrahepatic leukocyte recruitment and fibrosis of hepatitis C.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the hepatic inflammation of hepatitis C.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the hepatic immune responses and fibrosis of hepatitis C.
+- `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — B-cell lymphoproliferation: chronic HCV drives clonal expansion of CD20-positive B cells, causing mixed cryoglobulinaemia and marginal-zone lymphoma that often regress with viral cure or rituximab, a defining extrahepatic manifestation.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — T-cell clearance: MHC class II-restricted CD4 T-cell help is required to clear acute HCV, and its failure permits the CD8 exhaustion (PD-1 already mapped) that establishes lifelong chronic infection.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Hepatic iron: chronic HCV suppresses hepcidin and promotes hepatic iron accumulation, and this iron overload accelerates the oxidative injury and fibrosis progression that lead toward cirrhosis and hepatocellular carcinoma.

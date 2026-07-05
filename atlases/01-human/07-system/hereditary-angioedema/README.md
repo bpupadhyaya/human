@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/il-1b
     relation: connects-to
     note: "IL-1β-driven inflammation participates in the inflammatory amplification of the angioedema attacks of hereditary angioedema."
+  - target: 01-human/03-molecular/progesterone
+    relation: connects-to
+    note: "Hormonal modulation: estrogen worsens hereditary angioedema (already mapped) while progestins and attenuated androgens (testosterone already mapped) reduce attacks, so progesterone-based contraception is a preferred option in the estrogen-sensitive and type III forms."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "Endothelial alarmin: IL-33 released from activated or injured endothelium increases vascular permeability, a mechanism that can amplify the bradykinin-driven endothelial leak underlying the swelling of an angioedema attack."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "Inflammatory amplification: IL-17A-driven inflammation participates in the endothelial activation and inflammatory milieu that can aggravate the severity of hereditary angioedema attacks beyond the core bradykinin pathway."
 ---
 
 # Hereditary Angioedema
@@ -654,6 +663,9 @@ Fluid extravasation → ANGIOEDEMA
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the endothelial and vascular responses relevant to hereditary angioedema.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine signaling participates in the vascular-tone and permeability modulation relevant to hereditary angioedema.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the inflammatory amplification of the angioedema attacks of hereditary angioedema.
+- `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Hormonal modulation: estrogen worsens hereditary angioedema (already mapped) while progestins and attenuated androgens (testosterone already mapped) reduce attacks, so progesterone-based contraception is a preferred option in the estrogen-sensitive and type III forms.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — Endothelial alarmin: IL-33 released from activated or injured endothelium increases vascular permeability, a mechanism that can amplify the bradykinin-driven endothelial leak underlying the swelling of an angioedema attack.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Inflammatory amplification: IL-17A-driven inflammation participates in the endothelial activation and inflammatory milieu that can aggravate the severity of hereditary angioedema attacks beyond the core bradykinin pathway.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)
