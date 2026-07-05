@@ -390,6 +390,15 @@ cross_links:
   - target: 01-human/03-molecular/il-33
     relation: connects-to
     note: "IL-33 alarmin signaling participates in the hepatic immune responses and fibrosis of hepatitis B."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Clearance and vaccine: MHC class II-restricted CD4 T-cell help is essential for clearing HBV and for the protective anti-HBs antibody response raised by vaccination, and its failure to sustain help contributes to progression to chronic infection."
+  - target: 01-human/03-molecular/axl-receptor
+    relation: connects-to
+    note: "Hepatocellular carcinoma: chronic hepatitis B is a leading cause of hepatocellular carcinoma, where the AXL receptor tyrosine kinase drives the invasion and treatment resistance of the resulting liver cancer beyond the viral integration and beta-catenin drivers already mapped."
+  - target: 01-human/03-molecular/glucocorticoid-receptor
+    relation: connects-to
+    note: "Reactivation risk: immunosuppression, notably corticosteroids acting through the glucocorticoid receptor and B-cell-depleting therapy, can trigger HBV reactivation, mandating antiviral prophylaxis in HBsAg or anti-HBc-positive patients."
 ---
 
 # Hepatitis B
@@ -649,3 +658,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the intrahepatic leukocyte recruitment of hepatitis B.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the hepatic inflammation of hepatitis B.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the hepatic immune responses and fibrosis of hepatitis B.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Clearance and vaccine: MHC class II-restricted CD4 T-cell help is essential for clearing HBV and for the protective anti-HBs antibody response raised by vaccination, and its failure to sustain help contributes to progression to chronic infection.
+- `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — Hepatocellular carcinoma: chronic hepatitis B is a leading cause of hepatocellular carcinoma, where the AXL receptor tyrosine kinase drives the invasion and treatment resistance of the resulting liver cancer beyond the viral integration and beta-catenin drivers already mapped.
+- `connects-to` → **[Glucocorticoid receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Reactivation risk: immunosuppression, notably corticosteroids acting through the glucocorticoid receptor and B-cell-depleting therapy, can trigger HBV reactivation, mandating antiviral prophylaxis in HBsAg or anti-HBc-positive patients.

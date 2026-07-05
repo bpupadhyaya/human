@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/calcineurin
     relation: connects-to
     note: "Calcineurin-NFAT signaling participates in the T-cell help driving the anti-PF4/heparin antibody response of heparin-induced thrombocytopenia."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "T-cell help: the transient anti-PF4/heparin IgG response depends on MHC class II-restricted CD4 T-cell help (T-helper cells already mapped), so antigen presentation of the PF4-heparin complex is central to how HIT antibodies arise."
+  - target: 01-human/03-molecular/ctla-4
+    relation: connects-to
+    note: "Immune regulation: the characteristically self-limited, transient nature of the HIT antibody response reflects immune checkpoints such as CTLA-4 restraining the autoreactive T-cell help, unlike the persistent antibodies of chronic autoimmunity."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Alpha-granule release: massive FcgammaRIIa-driven platelet activation in HIT discharges alpha-granule contents including PF4 (already mapped) and VEGF, contributing to the endothelial activation and inflammatory milieu of the prothrombotic state."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -663,6 +672,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the endothelial and immune activation relevant to heparin-induced thrombocytopenia.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the T-cell-mediated immune dysregulation of heparin-induced thrombocytopenia.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the T-cell help driving the anti-PF4/heparin antibody response of heparin-induced thrombocytopenia.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — T-cell help: the transient anti-PF4/heparin IgG response depends on MHC class II-restricted CD4 T-cell help (T-helper cells already mapped), so antigen presentation of the PF4-heparin complex is central to how HIT antibodies arise.
+- `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Immune regulation: the characteristically self-limited, transient nature of the HIT antibody response reflects immune checkpoints such as CTLA-4 restraining the autoreactive T-cell help, unlike the persistent antibodies of chronic autoimmunity.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Alpha-granule release: massive FcgammaRIIa-driven platelet activation in HIT discharges alpha-granule contents including PF4 (already mapped) and VEGF, contributing to the endothelial activation and inflammatory milieu of the prothrombotic state.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)
