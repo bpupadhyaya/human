@@ -402,6 +402,15 @@ cross_links:
   - target: 01-human/03-molecular/bdnf
     relation: connects-to
     note: "Encephalopathy: the chronic type I interferon-driven neuroinflammation of Aicardi-Goutières damages white matter and neurons, and loss of neurotrophic BDNF support contributes to the developmental regression and progressive encephalopathy."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative injury: reactive oxygen species from xanthine oxidase and other sources add oxidative stress to the type I interferon-driven neuroinflammation (already mapped) that damages the developing brain in Aicardi-Goutières syndrome."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 amplification: IL-12 driving interferon-gamma (already mapped) production adds a type-1 inflammatory arm to the dominant type I interferon signature, amplifying the immune dysregulation of this monogenic interferonopathy."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Neonatal presentation: the congenital-infection-mimicking form of Aicardi-Goutières presents with thrombocytopenia, anaemia lowering haemoglobin and hepatosplenomegaly (liver already mapped), the haematological picture of the systemic interferonopathy."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -624,6 +633,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Vasculopathy: the small-vessel inflammatory vasculopathy of Aicardi-Goutières, which causes chilblain skin lesions and cerebral vascular changes, involves endothelial dysfunction with impaired nitric-oxide signalling (endothelin-1 already mapped).
 - `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Lupus-like autoantibodies: many patients with Aicardi-Goutières develop antinuclear and other IgG autoantibodies, reflecting the shared type I interferon signature (already mapped) that links this monogenic interferonopathy to systemic lupus.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Encephalopathy: the chronic type I interferon-driven neuroinflammation of Aicardi-Goutières damages white matter and neurons, and loss of neurotrophic BDNF support contributes to the developmental regression and progressive encephalopathy.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative injury: reactive oxygen species from xanthine oxidase and other sources add oxidative stress to the type I interferon-driven neuroinflammation (already mapped) that damages the developing brain in Aicardi-Goutières syndrome.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 amplification: IL-12 driving interferon-gamma (already mapped) production adds a type-1 inflammatory arm to the dominant type I interferon signature, amplifying the immune dysregulation of this monogenic interferonopathy.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Neonatal presentation: the congenital-infection-mimicking form of Aicardi-Goutières presents with thrombocytopenia, anaemia lowering haemoglobin and hepatosplenomegaly (liver already mapped), the haematological picture of the systemic interferonopathy.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
