@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Osteopontin participates in the pancreatic stellate-cell activation and fibrosis of hereditary pancreatitis."
+  - target: 01-human/03-molecular/mu-opioid-receptor
+    relation: connects-to
+    note: "Chronic pain: recurrent and then constant abdominal pain from childhood is the dominant clinical burden of hereditary pancreatitis, and its management with opioids acting at the mu-opioid receptor risks dependence, a major therapeutic dilemma."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "Neurogenic pancreatic pain: chronic pancreatitis sensitises and remodels pancreatic sensory nerves, with substance P and neurogenic inflammation amplifying the visceral pain that persists even as the gland burns out."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Immune inflammation: MHC class II-restricted T-cell responses participate in the immune component of chronic pancreatitis and its overlap with autoimmune pancreatitis, alongside the innate inflammasome signalling (NLRP3 already mapped)."
 ---
 
 # Hereditary Pancreatitis
@@ -663,6 +672,9 @@ cross_links:
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory milieu of the recurrent pancreatic inflammation of hereditary pancreatitis.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine signaling participates in the immunomodulation of the pancreatic inflammation of hereditary pancreatitis.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the pancreatic stellate-cell activation and fibrosis of hereditary pancreatitis.
+- `connects-to` → **[Mu-opioid receptor](../../03-molecular/mu-opioid-receptor/README.md)** — Chronic pain: recurrent and then constant abdominal pain from childhood is the dominant clinical burden of hereditary pancreatitis, and its management with opioids acting at the mu-opioid receptor risks dependence, a major therapeutic dilemma.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — Neurogenic pancreatic pain: chronic pancreatitis sensitises and remodels pancreatic sensory nerves, with substance P and neurogenic inflammation amplifying the visceral pain that persists even as the gland burns out.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immune inflammation: MHC class II-restricted T-cell responses participate in the immune component of chronic pancreatitis and its overlap with autoimmune pancreatitis, alongside the innate inflammasome signalling (NLRP3 already mapped).
 
 [^whitcomb-1996-prss1]: Whitcomb DC, Gorry MC, Preston RA, et al. Hereditary pancreatitis is caused by a mutation in the cationic trypsinogen gene. *Nat Genet.* 1996;14(2):141-145. [doi:10.1038/ng1096-141](https://doi.org/10.1038/ng1096-141) · [PubMed 8841182](https://pubmed.ncbi.nlm.nih.gov/8841182/)
 [^lowenfels-2001-hp-pdac]: Lowenfels AB, Maisonneuve P, DiMagno EP, et al. Hereditary pancreatitis and the risk of pancreatic cancer. *J Natl Cancer Inst.* 2001;93(1):26-31. [doi:10.1093/jnci/93.1.26](https://doi.org/10.1093/jnci/93.1.26) · [PubMed 11136838](https://pubmed.ncbi.nlm.nih.gov/11136838/)

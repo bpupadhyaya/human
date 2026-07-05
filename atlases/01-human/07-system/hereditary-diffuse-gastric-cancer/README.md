@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Osteopontin participates in the tumor microenvironment and metastatic interactions of hereditary diffuse gastric cancer."
+  - target: 01-human/03-molecular/axl-receptor
+    relation: connects-to
+    note: "E-cadherin loss and EMT: germline loss of E-cadherin (CDH1 already mapped) releases the epithelial brake on invasion, and AXL-driven epithelial-mesenchymal transition promotes the discohesive, infiltrative signet-ring growth that defines diffuse gastric cancer."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Immunotherapy: MHC class II antigen presentation shapes the T-cell response in diffuse gastric cancer, relevant to the checkpoint-based therapies explored for these often microsatellite-stable but sometimes immunogenic tumours."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Checkpoint blockade: PD-1 inhibitors are part of the systemic therapy for advanced diffuse gastric cancer, though the discohesive, stroma-rich histology of the CDH1-driven tumour tends to respond less than intestinal-type disease."
 ---
 
 # Hereditary Diffuse Gastric Cancer
@@ -627,6 +636,9 @@ Testing for CDH1 (and CTNNA1) is indicated in any of the following:
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory tumor microenvironment of hereditary diffuse gastric cancer.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the tumor microenvironment and immune signaling of hereditary diffuse gastric cancer.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the tumor microenvironment and metastatic interactions of hereditary diffuse gastric cancer.
+- `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — E-cadherin loss and EMT: germline loss of E-cadherin (CDH1 already mapped) releases the epithelial brake on invasion, and AXL-driven epithelial-mesenchymal transition promotes the discohesive, infiltrative signet-ring growth that defines diffuse gastric cancer.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immunotherapy: MHC class II antigen presentation shapes the T-cell response in diffuse gastric cancer, relevant to the checkpoint-based therapies explored for these often microsatellite-stable but sometimes immunogenic tumours.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Checkpoint blockade: PD-1 inhibitors are part of the systemic therapy for advanced diffuse gastric cancer, though the discohesive, stroma-rich histology of the CDH1-driven tumour tends to respond less than intestinal-type disease.
 
 [^van-der-post-2015-hdgc-guidelines]: van der Post RS, Vogelaar IP, Carneiro F, et al. Hereditary diffuse gastric cancer: updated clinical guidelines with an emphasis on germline CDH1 mutation carriers. *J Med Genet.* 2015;52(6):361-374. [doi:10.1136/jmedgenet-2015-103094](https://doi.org/10.1136/jmedgenet-2015-103094) · [PubMed 25979631](https://pubmed.ncbi.nlm.nih.gov/25979631/)
 [^hansford-2015-hdgc]: Hansford S, Kaurah P, Li-Chang H, et al. Hereditary Diffuse Gastric Cancer Syndrome: CDH1 Mutations and Beyond. *JAMA Oncol.* 2015;1(1):23-32. [doi:10.1001/jamaoncol.2014.168](https://doi.org/10.1001/jamaoncol.2014.168) · [PubMed 26182300](https://pubmed.ncbi.nlm.nih.gov/26182300/)
