@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/calcineurin
     relation: connects-to
     note: "Calcineurin-NFAT signaling participates in the tumor microenvironment of basal cell carcinoma (calcineurin-inhibitor immunosuppression is a recognized risk factor)."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Immune surveillance: chronic immunosuppression, as in transplant recipients, markedly raises basal cell carcinoma risk, and MHC class II antigen presentation underlies the T-cell control whose loss permits these UV-driven tumours to grow."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "T-cell response: IL-2-driven T-cell expansion mediates the immune control of basal cell carcinoma, and the cutaneous immunosuppression from ultraviolet light (photon already mapped) weakens this response to favour tumour development."
+  - target: 01-human/03-molecular/ctla-4
+    relation: connects-to
+    note: "Checkpoint therapy: advanced or Hedgehog-inhibitor-resistant basal cell carcinoma responds to checkpoint blockade, and CTLA-4, alongside PD-1, restrains the anti-tumour T-cell response that immunotherapy aims to unleash."
 ---
 
 # Basal Cell Carcinoma
@@ -641,6 +650,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory tumor microenvironment of basal cell carcinoma.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory tumor microenvironment of basal cell carcinoma.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the tumor microenvironment of basal cell carcinoma (calcineurin-inhibitor immunosuppression is a recognized risk factor).
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immune surveillance: chronic immunosuppression, as in transplant recipients, markedly raises basal cell carcinoma risk, and MHC class II antigen presentation underlies the T-cell control whose loss permits these UV-driven tumours to grow.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell response: IL-2-driven T-cell expansion mediates the immune control of basal cell carcinoma, and the cutaneous immunosuppression from ultraviolet light (photon already mapped) weakens this response to favour tumour development.
+- `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Checkpoint therapy: advanced or Hedgehog-inhibitor-resistant basal cell carcinoma responds to checkpoint blockade, and CTLA-4, alongside PD-1, restrains the anti-tumour T-cell response that immunotherapy aims to unleash.
 
 ---
 

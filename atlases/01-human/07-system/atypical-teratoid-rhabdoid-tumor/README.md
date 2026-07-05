@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/calcineurin
     relation: connects-to
     note: "Calcineurin-NFAT signaling participates in the tumor-cell survival and immune signaling of atypical teratoid/rhabdoid tumor."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Immunotherapy target: this poor-prognosis infant brain tumour is being explored for checkpoint and cellular immunotherapy (PD-1 already mapped), and MHC class II antigen presentation shapes the T-cell response in an otherwise immunologically cold tumour."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Cellular immunotherapy: IL-2 drives the expansion of the engineered and endogenous T cells behind the CAR-T and adoptive approaches under investigation for atypical teratoid/rhabdoid tumour given its dismal outcomes with conventional therapy."
+  - target: 01-human/03-molecular/ctla-4
+    relation: connects-to
+    note: "Checkpoint blockade: CTLA-4 restrains anti-tumour T-cell activation, and blocking it, alongside PD-1, is part of the immunotherapy strategy being tested to overcome the immune evasion of atypical teratoid/rhabdoid tumour."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -638,6 +647,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory tumor microenvironment of atypical teratoid/rhabdoid tumor.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory tumor microenvironment of atypical teratoid/rhabdoid tumor.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the tumor-cell survival and immune signaling of atypical teratoid/rhabdoid tumor.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immunotherapy target: this poor-prognosis infant brain tumour is being explored for checkpoint and cellular immunotherapy (PD-1 already mapped), and MHC class II antigen presentation shapes the T-cell response in an otherwise immunologically cold tumour.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Cellular immunotherapy: IL-2 drives the expansion of the engineered and endogenous T cells behind the CAR-T and adoptive approaches under investigation for atypical teratoid/rhabdoid tumour given its dismal outcomes with conventional therapy.
+- `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Checkpoint blockade: CTLA-4 restrains anti-tumour T-cell activation, and blocking it, alongside PD-1, is part of the immunotherapy strategy being tested to overcome the immune evasion of atypical teratoid/rhabdoid tumour.
 
 ---
 
