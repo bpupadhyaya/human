@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/bcl-2
     relation: connects-to
     note: "Defective apoptosis: impaired clearance of apoptotic debris and prolonged survival of autoreactive lymphocytes, supported by anti-apoptotic BCL-2 family proteins, help break tolerance and sustain the autoimmunity of systemic lupus erythematosus."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Autoimmune cytopenias: lupus causes autoimmune haemolytic anaemia and other cytopenias that lower haemoglobin, one of the classification criteria, reflecting antibody- and complement-mediated (already mapped) destruction of blood cells."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Th2 antibody help: IL-4 and type-2 T-cell help drive the B-cell (already mapped) production of the anti-nuclear and anti-dsDNA autoantibodies that define lupus, part of the T-cell help sustaining the autoreactive humoral response."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Cardiac lupus: lupus can cause myocarditis and, with accelerated atherosclerosis and Libman-Sacks endocarditis, affect the heart (already mapped), and troponin elevation marks the myocardial injury of these cardiac manifestations."
 ---
 
 # Systemic Lupus Erythematosus
@@ -655,6 +664,9 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Accelerated atherosclerosis: chronic inflammation and type I interferon (already mapped) in lupus impair endothelial nitric-oxide function, driving the premature atherosclerosis that is a leading cause of death in SLE.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Immunostimulatory hormone: prolactin promotes lymphocyte survival and autoantibody production, and hyperprolactinaemia is associated with higher lupus disease activity, part of the sex-hormone milieu behind the strong female predominance (estrogen already mapped).
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Defective apoptosis: impaired clearance of apoptotic debris and prolonged survival of autoreactive lymphocytes, supported by anti-apoptotic BCL-2 family proteins, help break tolerance and sustain the autoimmunity of systemic lupus erythematosus.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Autoimmune cytopenias: lupus causes autoimmune haemolytic anaemia and other cytopenias that lower haemoglobin, one of the classification criteria, reflecting antibody- and complement-mediated (already mapped) destruction of blood cells.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Th2 antibody help: IL-4 and type-2 T-cell help drive the B-cell (already mapped) production of the anti-nuclear and anti-dsDNA autoantibodies that define lupus, part of the T-cell help sustaining the autoreactive humoral response.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiac lupus: lupus can cause myocarditis and, with accelerated atherosclerosis and Libman-Sacks endocarditis, affect the heart (already mapped), and troponin elevation marks the myocardial injury of these cardiac manifestations.
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)

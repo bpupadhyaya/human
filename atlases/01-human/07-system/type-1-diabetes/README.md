@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/glutamate
     relation: connects-to
     note: "GAD65 autoantigen: glutamic acid decarboxylase, which converts glutamate to GABA (already mapped) in beta cells, is a principal type 1 diabetes autoantigen, so the glutamate-GAD axis is central to the islet autoimmunity."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Diabetic ketoacidosis: absolute insulin deficiency drives lipolysis and ketogenesis, and the accumulating ketoacids release protons that cause the metabolic acidosis of diabetic ketoacidosis, a life-threatening presentation of type 1 diabetes."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Cerebral oedema: cerebral oedema is the most feared complication of diabetic ketoacidosis in children, a swelling of the brain during treatment that remains a leading cause of death and disability in paediatric type 1 diabetes."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Th1/Th2 balance: a shift away from IL-4-driven type-2 responses toward the Th1 cytokines (IFN-gamma/IL-12 already mapped) favours the destructive islet autoimmunity, so the Th1/Th2 balance shapes progression to type 1 diabetes."
 ---
 
 # Type 1 Diabetes
@@ -627,6 +636,9 @@ cross_links:
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Beta-cell exocytosis: calcium influx triggers the exocytosis of insulin granules from beta cells, the secretory step progressively lost as autoimmune destruction eliminates the beta-cell mass in type 1 diabetes.
 - `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Islet autoantibodies: IgG autoantibodies against insulin, GAD65, IA-2 and ZnT8 appear years before symptoms and are the basis for presymptomatic staging and screening of type 1 diabetes.
 - `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — GAD65 autoantigen: glutamic acid decarboxylase, which converts glutamate to GABA (already mapped) in beta cells, is a principal type 1 diabetes autoantigen, so the glutamate-GAD axis is central to the islet autoimmunity.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Diabetic ketoacidosis: absolute insulin deficiency drives lipolysis and ketogenesis, and the accumulating ketoacids release protons that cause the metabolic acidosis of diabetic ketoacidosis, a life-threatening presentation of type 1 diabetes.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Cerebral oedema: cerebral oedema is the most feared complication of diabetic ketoacidosis in children, a swelling of the brain during treatment that remains a leading cause of death and disability in paediatric type 1 diabetes.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Th1/Th2 balance: a shift away from IL-4-driven type-2 responses toward the Th1 cytokines (IFN-gamma/IL-12 already mapped) favours the destructive islet autoimmunity, so the Th1/Th2 balance shapes progression to type 1 diabetes.
 
 [^atkinson-2014-t1d-lancet]: Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. *Lancet.* 2014;383(9911):69-82. [doi:10.1016/S0140-6736(13)60591-7](https://doi.org/10.1016/S0140-6736(13)60591-7) · [PubMed 23890997](https://pubmed.ncbi.nlm.nih.gov/23890997/)
 [^herold-2019-teplizumab-t1d]: Herold KC, Bundy BN, Long SA, et al. An anti-CD3 antibody, teplizumab, in relatives at risk for type 1 diabetes. *N Engl J Med.* 2019;381(7):603-613. [doi:10.1056/NEJMoa1905155](https://doi.org/10.1056/NEJMoa1905155) · [PubMed 31180675](https://pubmed.ncbi.nlm.nih.gov/31180675/)
