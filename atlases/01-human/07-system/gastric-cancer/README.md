@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Osteopontin participates in the tumor microenvironment and metastatic interactions of gastric cancer."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Immunotherapy subtypes: the microsatellite-instable and EBV-associated (LMP1 already mapped) subtypes of gastric cancer are neoantigen-rich and respond to checkpoint inhibitors, with MHC class II antigen presentation shaping the T-cell response."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Hypochlorhydria and carcinogenesis: Helicobacter-induced atrophic gastritis reduces gastric acid (proton) secretion, and the resulting hypochlorhydria fosters bacterial overgrowth and nitrosamine formation that promote the intestinal-type gastric carcinogenesis cascade."
+  - target: 01-human/03-molecular/axl-receptor
+    relation: connects-to
+    note: "Diffuse-type invasion: the AXL receptor tyrosine kinase drives the epithelial-mesenchymal transition and treatment resistance of gastric cancer, particularly the diffuse E-cadherin-deficient type (CDH1 already mapped)."
 ---
 
 # Gastric Cancer
@@ -666,6 +675,9 @@ H. pylori eradication: Reduces GC incidence by ~35-40% (meta-analyses); most ben
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory tumor microenvironment of gastric cancer.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the tumor microenvironment and immune signaling of gastric cancer.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the tumor microenvironment and metastatic interactions of gastric cancer.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immunotherapy subtypes: the microsatellite-instable and EBV-associated (LMP1 already mapped) subtypes of gastric cancer are neoantigen-rich and respond to checkpoint inhibitors, with MHC class II antigen presentation shaping the T-cell response.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Hypochlorhydria and carcinogenesis: Helicobacter-induced atrophic gastritis reduces gastric acid (proton) secretion, and the resulting hypochlorhydria fosters bacterial overgrowth and nitrosamine formation that promote the intestinal-type gastric carcinogenesis cascade.
+- `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — Diffuse-type invasion: the AXL receptor tyrosine kinase drives the epithelial-mesenchymal transition and treatment resistance of gastric cancer, particularly the diffuse E-cadherin-deficient type (CDH1 already mapped).
 
 [^bang-2010-toga]: Bang YJ, Van Cutsem E, Feyereislova A, et al. Trastuzumab in combination with chemotherapy versus chemotherapy alone for treatment of HER2-positive advanced gastric or gastro-oesophageal junction cancer (ToGA): a phase 3, open-label, randomised controlled trial. *Lancet.* 2010;376(9742):687-697. [doi:10.1016/S0140-6736(10)61121-X](https://doi.org/10.1016/S0140-6736(10)61121-X) · [PubMed 20728210](https://pubmed.ncbi.nlm.nih.gov/20728210/)
 [^janjigian-2021-checkmate649]: Janjigian YY, Shitara K, Moehler M, et al. First-line nivolumab plus chemotherapy versus chemotherapy alone for advanced gastric, gastro-oesophageal junction, and oesophageal adenocarcinoma (CheckMate 649). *Lancet.* 2021;398(10294):27-40. [doi:10.1016/S0140-6736(21)00797-2](https://doi.org/10.1016/S0140-6736(21)00797-2) · [PubMed 34102137](https://pubmed.ncbi.nlm.nih.gov/34102137/)

@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Osteopontin participates in the microenvironment and stromal interactions of follicular lymphoma."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Microenvironment dependence: follicular lymphoma relies on its germinal-centre-like niche, and MHC class II antigen presentation to follicular helper T cells sustains it, while MHC loss accompanies transformation and immune escape."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "T-cell therapies: IL-2-driven T-cell expansion powers the CD19 CAR-T and CD20xCD3 bispecific therapies (perforin already mapped) increasingly used for relapsed follicular lymphoma."
+  - target: 01-human/03-molecular/ctla-4
+    relation: connects-to
+    note: "Immune checkpoint: CTLA-4 on the regulatory T cells enriched in the follicular lymphoma microenvironment helps the tumour evade immunity, part of the immunosuppressive niche that distinguishes this microenvironment-dependent lymphoma."
 ---
 
 # Follicular Lymphoma
@@ -645,6 +654,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling downstream of the B-cell receptor participates in the survival signaling of follicular lymphoma.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine (CD39/CD73-adenosine) signaling participates in the immunosuppressive tumor microenvironment of follicular lymphoma.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the microenvironment and stromal interactions of follicular lymphoma.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Microenvironment dependence: follicular lymphoma relies on its germinal-centre-like niche, and MHC class II antigen presentation to follicular helper T cells sustains it, while MHC loss accompanies transformation and immune escape.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell therapies: IL-2-driven T-cell expansion powers the CD19 CAR-T and CD20xCD3 bispecific therapies (perforin already mapped) increasingly used for relapsed follicular lymphoma.
+- `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Immune checkpoint: CTLA-4 on the regulatory T cells enriched in the follicular lymphoma microenvironment helps the tumour evade immunity, part of the immunosuppressive niche that distinguishes this microenvironment-dependent lymphoma.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
