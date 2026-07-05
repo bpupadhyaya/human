@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative stress: schizophrenia is associated with impaired antioxidant defence and raised oxidative markers, and xanthine-oxidase-derived reactive oxygen species and purine dysregulation contribute to the redox imbalance implicated in its neuropathology."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "Brain renin-angiotensin: central angiotensin II modulates dopamine transmission, neuroinflammation and stress reactivity, and angiotensin-blocking drugs are being investigated as adjuncts, implicating the brain RAS beyond the classical neurotransmitters already mapped."
+  - target: 01-human/03-molecular/progesterone
+    relation: connects-to
+    note: "Neurosteroids: progesterone-derived allopregnanolone modulates GABA-A signalling (GABA already mapped), and fluctuations across the reproductive cycle influence psychosis, part of the neurosteroid and sex-hormone contribution to schizophrenia (estrogen already mapped)."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Developmental iron: iron is a cofactor for dopamine synthesis, and prenatal iron deficiency is an epidemiological risk factor for schizophrenia, linking early-life micronutrient status to the neurodevelopmental origins of the disorder."
 ---
 
 # Schizophrenia
@@ -695,6 +704,9 @@ Notably, schizophrenia shares genetic loci with bipolar disorder, ASD, ADHD, maj
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Estrogen-protection hypothesis: estrogen modulates dopaminergic transmission, women show later onset and a second incidence peak at menopause, and estrogen adjuncts improve symptoms, a neuroendocrine dimension of schizophrenia beyond the neurotransmitter models.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Antipsychotic metabolic syndrome: second-generation antipsychotics disrupt leptin signalling and drive the weight gain, dyslipidaemia and diabetes that dominate the physical-health morbidity and shortened lifespan of schizophrenia.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative stress: schizophrenia is associated with impaired antioxidant defence and raised oxidative markers, and xanthine-oxidase-derived reactive oxygen species and purine dysregulation contribute to the redox imbalance implicated in its neuropathology.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — Brain renin-angiotensin: central angiotensin II modulates dopamine transmission, neuroinflammation and stress reactivity, and angiotensin-blocking drugs are being investigated as adjuncts, implicating the brain RAS beyond the classical neurotransmitters already mapped.
+- `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Neurosteroids: progesterone-derived allopregnanolone modulates GABA-A signalling (GABA already mapped), and fluctuations across the reproductive cycle influence psychosis, part of the neurosteroid and sex-hormone contribution to schizophrenia (estrogen already mapped).
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Developmental iron: iron is a cofactor for dopamine synthesis, and prenatal iron deficiency is an epidemiological risk factor for schizophrenia, linking early-life micronutrient status to the neurodevelopmental origins of the disorder.
 
 [^howes-2009-dopamine-hypothesis]: Howes OD, Kapur S. The dopamine hypothesis of schizophrenia: version III—the final common pathway. *Schizophr Bull.* 2009;35(3):549-562. [doi:10.1093/schbul/sbp006](https://doi.org/10.1093/schbul/sbp006) · [PubMed 19325164](https://pubmed.ncbi.nlm.nih.gov/19325164/)
 [^moghaddam-2012-glutamate]: Moghaddam B, Javitt D. From revolution to evolution: the glutamate hypothesis of schizophrenia and its implication for treatment. *Neuropsychopharmacology.* 2012;37(1):4-15. [doi:10.1038/npp.2011.181](https://doi.org/10.1038/npp.2011.181) · [PubMed 21956446](https://pubmed.ncbi.nlm.nih.gov/21956446/)

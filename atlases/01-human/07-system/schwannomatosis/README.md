@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/axl-receptor
     relation: connects-to
     note: "YAP-driven signaling: SMARCB1- and NF2/merlin-related loss de-represses YAP (already mapped), upregulating the AXL receptor tyrosine kinase that promotes schwannoma growth and offers a targetable node downstream of the core tumour-suppressor defect."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Neurogenic pain: nitric oxide participates in the neuroinflammation and sensitisation of the nerves compressed by schwannomas, contributing to the chronic pain that is the dominant and often disabling symptom of schwannomatosis."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Tumour immune microenvironment: MHC class II-mediated antigen presentation shapes the T-cell and macrophage infiltrate of schwannomas, of interest as immunotherapy and anti-inflammatory approaches to their growth and pain are explored."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Hormone sensitivity: like the related meningiomas and schwannomas of NF2, the tumours of schwannomatosis can express hormone receptors, and estrogen may influence their growth, including reports of enlargement during pregnancy."
 ---
 
 # Schwannomatosis
@@ -621,6 +630,9 @@ Both NF2 (22q12.2), SMARCB1 (22q11.23), and LZTR1 (22q11.21) are on chromosome 2
 - `connects-to` → **[Mu-opioid receptor](../../03-molecular/mu-opioid-receptor/README.md)** — Pain as the defining burden: chronic, often disabling pain out of proportion to tumour size is the hallmark of schwannomatosis, and the mu-opioid receptor mediates the opioid analgesia central to its frequently refractory pain management.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Neuropathic-pain mechanism: the neuropathic pain of schwannomatosis is treated with gabapentinoids that act on the voltage-gated calcium-channel alpha-2-delta subunit, and calcium influx drives the ectopic nociceptor firing from tumour-compressed nerves.
 - `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — YAP-driven signaling: SMARCB1- and NF2/merlin-related loss de-represses YAP (already mapped), upregulating the AXL receptor tyrosine kinase that promotes schwannoma growth and offers a targetable node downstream of the core tumour-suppressor defect.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Neurogenic pain: nitric oxide participates in the neuroinflammation and sensitisation of the nerves compressed by schwannomas, contributing to the chronic pain that is the dominant and often disabling symptom of schwannomatosis.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Tumour immune microenvironment: MHC class II-mediated antigen presentation shapes the T-cell and macrophage infiltrate of schwannomas, of interest as immunotherapy and anti-inflammatory approaches to their growth and pain are explored.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Hormone sensitivity: like the related meningiomas and schwannomas of NF2, the tumours of schwannomatosis can express hormone receptors, and estrogen may influence their growth, including reports of enlargement during pregnancy.
 
 [^merker-2012-schwannomatosis]: Merker VL, Esparza S, Smith MJ, Stemmer-Rachamimov A, Plotkin SR. Clinical features of schwannomatosis: a retrospective analysis of 87 patients. *Oncologist.* 2012;17(10):1317-1322. [doi:10.1634/theoncologist.2012-0162](https://doi.org/10.1634/theoncologist.2012-0162) · [PubMed 22927469](https://pubmed.ncbi.nlm.nih.gov/22927469/)
 [^piotrowski-2014-lztr1]: Piotrowski A, Xie J, Liu YF, et al. Germline loss-of-function mutations in LZTR1 predispose to an inherited disorder of multiple schwannomas. *Nat Genet.* 2014;46(2):182-187. [doi:10.1038/ng.2855](https://doi.org/10.1038/ng.2855) · [PubMed 24362817](https://pubmed.ncbi.nlm.nih.gov/24362817/)
