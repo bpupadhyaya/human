@@ -385,6 +385,15 @@ cross_links:
   - target: 01-human/03-molecular/il-17a
     relation: connects-to
     note: "IL-17A signaling participates in the inflammatory tumor microenvironment of neurofibromatosis type 1."
+  - target: 01-human/03-molecular/ptpn11
+    relation: connects-to
+    note: "RASopathy convergence: PTPN11/SHP2 sits directly upstream of RAS, and because neurofibromin is a RAS-GAP, NF1 and PTPN11-driven Noonan syndrome converge on the same hyperactive RAS-MAPK pathway (ERK already mapped), making SHP2 inhibitors a rational shared therapeutic node."
+  - target: 01-human/03-molecular/lztr1
+    relation: connects-to
+    note: "RAS-dosage regulator: LZTR1 controls RAS ubiquitination and degradation, so its loss (schwannomatosis, Noonan spectrum) raises RAS output much as neurofibromin loss removes RAS-GAP braking, placing NF1 among disorders that dysregulate RAS abundance, not only its activation."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "NF1 vasculopathy: neurofibromin is expressed in vascular smooth muscle and endothelium, and its loss drives neointimal proliferation with impaired nitric-oxide vasodilation, the basis for the renal artery stenosis, moyamoya and hypertension that complicate NF1."
 ---
 
 # Neurofibromatosis Type 1
@@ -620,6 +629,9 @@ In glioma and MPNST: additional alterations required — MPNST requires CDKN2A/2
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the tumor microenvironment (including mast-cell-rich neurofibromas) of neurofibromatosis type 1.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the mast-cell and immune microenvironment of the neurofibromas of neurofibromatosis type 1.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory tumor microenvironment of neurofibromatosis type 1.
+- `connects-to` → **[PTPN11 (SHP2)](../../03-molecular/ptpn11/README.md)** — RASopathy convergence: PTPN11/SHP2 sits directly upstream of RAS, and because neurofibromin is a RAS-GAP, NF1 and PTPN11-driven Noonan syndrome converge on the same hyperactive RAS-MAPK pathway (ERK already mapped), making SHP2 inhibitors a rational shared therapeutic node.
+- `connects-to` → **[LZTR1](../../03-molecular/lztr1/README.md)** — RAS-dosage regulator: LZTR1 controls RAS ubiquitination and degradation, so its loss (schwannomatosis, Noonan spectrum) raises RAS output much as neurofibromin loss removes RAS-GAP braking, placing NF1 among disorders that dysregulate RAS abundance, not only its activation.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — NF1 vasculopathy: neurofibromin is expressed in vascular smooth muscle and endothelium, and its loss drives neointimal proliferation with impaired nitric-oxide vasodilation, the basis for the renal artery stenosis, moyamoya and hypertension that complicate NF1.
 
 [^gutmann-2017-nf1-primer]: Gutmann DH, Ferner RE, Listernick RH, et al. Neurofibromatosis type 1. *Nat Rev Dis Primers.* 2017;3:17004. [doi:10.1038/nrdp.2017.4](https://doi.org/10.1038/nrdp.2017.4) · [PubMed 28230061](https://pubmed.ncbi.nlm.nih.gov/28230061/)
 [^dombi-2016-selumetinib]: Dombi E, Baldwin A, Marcus LJ, et al. Activity of Selumetinib in Neurofibromatosis Type 1-Related Plexiform Neurofibromas. *N Engl J Med.* 2016;375(26):2550-2560. [doi:10.1056/NEJMoa1605943](https://doi.org/10.1056/NEJMoa1605943) · [PubMed 28029918](https://pubmed.ncbi.nlm.nih.gov/28029918/)

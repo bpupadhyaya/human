@@ -385,6 +385,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "IL-6-STAT3 signaling (STAT3 already mapped) participates in the tumor-microenvironment and survival signaling of neuroendocrine tumors."
+  - target: 01-human/03-molecular/cdkn1b
+    relation: connects-to
+    note: "p27 gatekeeper: germline CDKN1B (p27Kip1) loss causes MEN4, an inherited pancreatic/pituitary neuroendocrine tumour syndrome, and somatic p27 loss releases the cell-cycle brake that restrains well-differentiated NET proliferation, complementing the MEN1 axis already mapped."
+  - target: 01-human/03-molecular/pth
+    relation: connects-to
+    note: "Syndromic co-secretion: in MEN1-associated NET the parathyroid glands hypersecrete PTH, so primary hyperparathyroidism and hypercalcaemia frequently accompany the pancreatic and pituitary neuroendocrine tumours, tying the NET syndrome to calcium-endocrine physiology."
+  - target: 01-human/03-molecular/sdhb
+    relation: connects-to
+    note: "Pseudohypoxic driver: SDHB loss defines a metabolic subset of neuroendocrine tumours and paragangliomas where succinate accumulation stabilises HIF (HIF-1α already mapped), driving the intense vascularity and DOTATATE avidity characteristic of these lesions."
 ---
 
 # Neuroendocrine Tumors
@@ -574,6 +583,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — Gastric carcinoids: ECL-cell neuroendocrine tumours of the stomach (types 1-2 driven by hypergastrinaemia) are a distinct entity from gastric adenocarcinoma, with different drivers, behaviour and management.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — The carcinoid cell of origin: midgut carcinoids arise from enterochromaffin cells scattered through the intestinal epithelium, the serotonin-secreting source whose liver metastases produce carcinoid syndrome.
 - `connects-to` → **[DLL3](../../03-molecular/dll3/README.md)** — High-grade target: DLL3 is expressed on poorly differentiated neuroendocrine carcinomas, the target of DLL3-directed agents like tarlatamab that extend beyond somatostatin-based therapy.
+- `connects-to` → **[CDKN1B (p27)](../../03-molecular/cdkn1b/README.md)** — p27 gatekeeper: germline CDKN1B (p27Kip1) loss causes MEN4, an inherited pancreatic/pituitary neuroendocrine tumour syndrome, and somatic p27 loss releases the cell-cycle brake that restrains well-differentiated NET proliferation, complementing the MEN1 axis already mapped.
+- `connects-to` → **[PTH](../../03-molecular/pth/README.md)** — Syndromic co-secretion: in MEN1-associated NET the parathyroid glands hypersecrete PTH, so primary hyperparathyroidism and hypercalcaemia frequently accompany the pancreatic and pituitary neuroendocrine tumours, tying the NET syndrome to calcium-endocrine physiology.
+- `connects-to` → **[SDHB](../../03-molecular/sdhb/README.md)** — Pseudohypoxic driver: SDHB loss defines a metabolic subset of neuroendocrine tumours and paragangliomas where succinate accumulation stabilises HIF (HIF-1α already mapped), driving the intense vascularity and DOTATATE avidity characteristic of these lesions.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Hypervascular tumours: HIF-1α-driven, VEGF-rich angiogenesis makes neuroendocrine tumours strikingly vascular, the rationale for anti-angiogenic agents such as sunitinib.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Grade and progression: TERT activation maintaining telomeres accompanies the progression of neuroendocrine tumours toward higher-grade, more aggressive disease.
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Proliferative drive: MYC activation drives the higher proliferative rate of poorly differentiated neuroendocrine carcinomas, marking their aggressive behaviour.
