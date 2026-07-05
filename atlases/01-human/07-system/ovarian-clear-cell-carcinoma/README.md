@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/progesterone
     relation: connects-to
     note: "Endometriosis origin: clear cell carcinoma arises from endometriosis, an estrogen-driven lesion whose growth progesterone opposes, so the progesterone-signalling axis that governs endometriotic precursors underlies the tumour's characteristic epidemiology and hormonal context."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "MSI immunotherapy: IL-2-driven T-cell expansion underlies the immunotherapy of the mismatch-repair-deficient clear cell carcinomas (MHC class II already mapped) that respond to checkpoint blockade despite the tumour's general chemoresistance."
+  - target: 01-human/03-molecular/ctla-4
+    relation: connects-to
+    note: "Checkpoint combination: CTLA-4 blockade, combined with PD-1 inhibition (already mapped), is being tested to boost responses in the immunogenic microsatellite-unstable subset of ovarian clear cell carcinoma."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Treatment cardiotoxicity: the platinum, taxane and anti-angiogenic therapy used in ovarian clear cell carcinoma can injure the heart, and troponin elevation helps detect the cardiac toxicity that complicates treatment of this chemoresistant tumour."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -661,6 +670,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — Chemoresistance driver: ovarian clear cell carcinoma is notoriously platinum-resistant, and the AXL receptor tyrosine kinase promotes the mesenchymal, drug-tolerant phenotype behind that resistance, a rational target where conventional cytotoxics underperform.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immunotherapy subset: a fraction of clear cell carcinomas are mismatch-repair-deficient and microsatellite-unstable, generating neoantigens presented on MHC class II that render this subset responsive to checkpoint blockade despite the tumour's general chemoresistance.
 - `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Endometriosis origin: clear cell carcinoma arises from endometriosis, an estrogen-driven lesion whose growth progesterone opposes, so the progesterone-signalling axis that governs endometriotic precursors underlies the tumour's characteristic epidemiology and hormonal context.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — MSI immunotherapy: IL-2-driven T-cell expansion underlies the immunotherapy of the mismatch-repair-deficient clear cell carcinomas (MHC class II already mapped) that respond to checkpoint blockade despite the tumour's general chemoresistance.
+- `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Checkpoint combination: CTLA-4 blockade, combined with PD-1 inhibition (already mapped), is being tested to boost responses in the immunogenic microsatellite-unstable subset of ovarian clear cell carcinoma.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Treatment cardiotoxicity: the platinum, taxane and anti-angiogenic therapy used in ovarian clear cell carcinoma can injure the heart, and troponin elevation helps detect the cardiac toxicity that complicates treatment of this chemoresistant tumour.
 
 ---
 

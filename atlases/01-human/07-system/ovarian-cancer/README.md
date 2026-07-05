@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/bcl-2
     relation: connects-to
     note: "Apoptotic evasion: high-grade serous ovarian cancer resists chemotherapy partly through anti-apoptotic BCL-2 family proteins that raise the threshold for caspase activation (caspase-3 already mapped), a target of BH3-mimetic sensitisation strategies."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Cellular immunotherapy: IL-2-driven T-cell expansion supports the adoptive and tumour-infiltrating-lymphocyte therapies being explored for ovarian cancer, whose response to single-agent checkpoint blockade (PD-1 already mapped) has been modest."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Anaemia: ovarian cancer lowers haemoglobin through chronic disease, occult blood loss and platinum-chemotherapy myelosuppression, contributing to the fatigue that burdens patients and often requiring transfusion or growth-factor support."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Treatment cardiotoxicity: the anti-angiogenic bevacizumab (VEGF already mapped) and chemotherapy used in ovarian cancer can injure the heart, and troponin elevation helps detect the cardiac toxicity that complicates prolonged treatment."
 ---
 
 # Ovarian Cancer
@@ -635,6 +644,9 @@ FTSEC ciliated and secretory cells line the Fallopian tube; secretory cells are 
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immune prognosis: intratumoral T-cell infiltration is one of the strongest prognostic factors in ovarian cancer, and MHC class II antigen presentation shapes the CD4 help behind that response, with loss of presentation a route to immune escape and immunotherapy resistance.
 - `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — Platinum resistance: the AXL receptor tyrosine kinase drives epithelial-mesenchymal transition, peritoneal metastatic spread and acquired platinum resistance in ovarian cancer, positioning AXL inhibition as a strategy against the chemoresistant relapse that defines the disease.
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Apoptotic evasion: high-grade serous ovarian cancer resists chemotherapy partly through anti-apoptotic BCL-2 family proteins that raise the threshold for caspase activation (caspase-3 already mapped), a target of BH3-mimetic sensitisation strategies.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Cellular immunotherapy: IL-2-driven T-cell expansion supports the adoptive and tumour-infiltrating-lymphocyte therapies being explored for ovarian cancer, whose response to single-agent checkpoint blockade (PD-1 already mapped) has been modest.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Anaemia: ovarian cancer lowers haemoglobin through chronic disease, occult blood loss and platinum-chemotherapy myelosuppression, contributing to the fatigue that burdens patients and often requiring transfusion or growth-factor support.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Treatment cardiotoxicity: the anti-angiogenic bevacizumab (VEGF already mapped) and chemotherapy used in ovarian cancer can injure the heart, and troponin elevation helps detect the cardiac toxicity that complicates prolonged treatment.
 
 [^burger-2011-gog0218]: Burger RA, Brady MF, Bookman MA, et al. Incorporation of bevacizumab in the primary treatment of ovarian cancer. *N Engl J Med.* 2011;365(26):2473-2483. [doi:10.1056/NEJMoa1104390](https://doi.org/10.1056/NEJMoa1104390) · [PubMed 22204724](https://pubmed.ncbi.nlm.nih.gov/22204724/)
 [^moore-2018-olaparib-solo1]: Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. *N Engl J Med.* 2018;379(26):2495-2505. [doi:10.1056/NEJMoa1810858](https://doi.org/10.1056/NEJMoa1810858) · [PubMed 30345884](https://pubmed.ncbi.nlm.nih.gov/30345884/)
