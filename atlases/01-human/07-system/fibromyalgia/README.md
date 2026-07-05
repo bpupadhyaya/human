@@ -375,6 +375,15 @@ cross_links:
   - target: 01-human/03-molecular/il-33
     relation: connects-to
     note: "IL-33 alarmin signaling participates in the neuroinflammatory and glial responses implicated in fibromyalgia."
+  - target: 01-human/03-molecular/thyroid-hormones
+    relation: connects-to
+    note: "Thyroid overlap: hypothyroidism produces widespread pain, fatigue and cognitive slowing that mimic and worsen fibromyalgia, so thyroid-hormone status is a standard part of the assessment to exclude a treatable contributor."
+  - target: 01-human/03-molecular/progesterone
+    relation: connects-to
+    note: "Neurosteroid modulation: progesterone-derived allopregnanolone potentiates GABA-A signalling, and its cyclical fall is linked to premenstrual worsening of fibromyalgia pain, part of the sex-hormone influence on central pain processing behind the female predominance."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative stress: increased oxidative stress, to which xanthine-oxidase-derived reactive oxygen species contribute, is reported in fibromyalgia and may aggravate the mitochondrial dysfunction and muscle pain of the syndrome."
 sources:
   - id: wolfe-2016-fibromyalgia-criteria
     type: peer-reviewed
@@ -654,6 +663,9 @@ FM is not a single-etiology disorder but a convergent syndrome resulting from th
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven chemokine signaling participates in the neuroimmune and glial responses implicated in fibromyalgia.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the neuroimmune and pain-sensitization interactions implicated in fibromyalgia.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the neuroinflammatory and glial responses implicated in fibromyalgia.
+- `connects-to` → **[Thyroid hormones](../../03-molecular/thyroid-hormones/README.md)** — Thyroid overlap: hypothyroidism produces widespread pain, fatigue and cognitive slowing that mimic and worsen fibromyalgia, so thyroid-hormone status is a standard part of the assessment to exclude a treatable contributor.
+- `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Neurosteroid modulation: progesterone-derived allopregnanolone potentiates GABA-A signalling, and its cyclical fall is linked to premenstrual worsening of fibromyalgia pain, part of the sex-hormone influence on central pain processing behind the female predominance.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative stress: increased oxidative stress, to which xanthine-oxidase-derived reactive oxygen species contribute, is reported in fibromyalgia and may aggravate the mitochondrial dysfunction and muscle pain of the syndrome.
 
 [^wolfe-2016-fibromyalgia-criteria]: Wolfe F, Clauw DJ, Fitzcharles MA, et al. 2016 Revisions to the 2010/2011 fibromyalgia diagnostic criteria. *Semin Arthritis Rheum.* 2016;46(3):319-329. [doi:10.1016/j.semarthrit.2016.08.012](https://doi.org/10.1016/j.semarthrit.2016.08.012) · [PubMed 27916278](https://pubmed.ncbi.nlm.nih.gov/27916278/)
 [^clauw-2014-fibromyalgia-review]: Clauw DJ. Fibromyalgia: a clinical review. *JAMA.* 2014;311(15):1547-1555. [doi:10.1001/jama.2014.3266](https://doi.org/10.1001/jama.2014.3266) · [PubMed 24737367](https://pubmed.ncbi.nlm.nih.gov/24737367/)

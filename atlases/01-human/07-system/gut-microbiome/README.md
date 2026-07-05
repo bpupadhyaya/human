@@ -388,6 +388,15 @@ cross_links:
   - target: 01-human/03-molecular/il-33
     relation: connects-to
     note: "IL-33 alarmin signaling participates in the mucosal immune responses shaped by the gut microbiome."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Metabolic axis: microbiome composition and its short-chain fatty acids influence host insulin sensitivity and energy harvest, so dysbiosis is mechanistically linked to obesity and type 2 diabetes through altered insulin signalling."
+  - target: 01-human/03-molecular/mu-opioid-receptor
+    relation: connects-to
+    note: "Gut-brain visceral pain: the microbiome shapes enteric opioid signalling and visceral nociception, and germ-free or antibiotic-altered states change mu-opioid-mediated analgesia, part of the microbiome-gut-brain axis governing pain in disorders like IBS."
+  - target: 03-medicine/03-food/omega-3-fatty-acids
+    relation: connects-to
+    note: "Diet-microbiome interaction: omega-3 fatty acids shift microbiome composition toward anti-inflammatory, short-chain-fatty-acid-producing taxa, illustrating the reciprocal diet-microbiome relationship that modulates host inflammation."
 ---
 
 # Gut Microbiome
@@ -589,6 +598,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the epithelial-immune interactions shaped by the gut microbiome.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the microbiome-immune signaling of the gut microbiome.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the mucosal immune responses shaped by the gut microbiome.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Metabolic axis: microbiome composition and its short-chain fatty acids influence host insulin sensitivity and energy harvest, so dysbiosis is mechanistically linked to obesity and type 2 diabetes through altered insulin signalling.
+- `connects-to` → **[Mu-opioid receptor](../../03-molecular/mu-opioid-receptor/README.md)** — Gut-brain visceral pain: the microbiome shapes enteric opioid signalling and visceral nociception, and germ-free or antibiotic-altered states change mu-opioid-mediated analgesia, part of the microbiome-gut-brain axis governing pain in disorders like IBS.
+- `connects-to` → **[Omega-3 fatty acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Diet-microbiome interaction: omega-3 fatty acids shift microbiome composition toward anti-inflammatory, short-chain-fatty-acid-producing taxa, illustrating the reciprocal diet-microbiome relationship that modulates host inflammation.
 
 ## Pathology
 
