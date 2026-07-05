@@ -409,6 +409,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "T-cell expansion: IL-2-driven proliferation of the follicular helper T cells that provide help for anti-AQP4 antibody production sustains the autoreactive B-cell response, complementing the checkpoint and antigen-presentation controls already mapped."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Th2 antibody help: IL-4 and type-2 T-cell help support the B-cell production of the pathogenic anti-AQP4 IgG (immunoglobulin G already mapped), part of the humoral response that drives the astrocyte-targeting autoimmunity of neuromyelitis optica."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Regulatory balance: deficient IL-10-mediated regulatory B- and T-cell control contributes to the unchecked anti-AQP4 response in neuromyelitis optica, and restoring this regulatory arm is a goal of tolerising therapies."
+  - target: 01-human/03-molecular/progesterone
+    relation: connects-to
+    note: "Pregnancy relapse pattern: falling progesterone and estrogen (already mapped) postpartum coincides with a rise in neuromyelitis optica attacks, implicating sex-hormone fluctuation in the timing of relapses in this female-predominant disease."
 ---
 
 # NMOSD
@@ -685,6 +694,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Astrocyte ion homeostasis: AQP4 water channels co-localise with the Kir4.1 potassium channel at astrocyte endfeet, so the anti-AQP4 attack of NMO disrupts both water and potassium buffering, contributing to the oedema and neuronal dysfunction of lesions.
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Female predominance: neuromyelitis optica shows a striking roughly ninefold female predominance with relapse patterns tied to pregnancy and the postpartum period, implicating estrogen and sex hormones in disease susceptibility.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell expansion: IL-2-driven proliferation of the follicular helper T cells that provide help for anti-AQP4 antibody production sustains the autoreactive B-cell response, complementing the checkpoint and antigen-presentation controls already mapped.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Th2 antibody help: IL-4 and type-2 T-cell help support the B-cell production of the pathogenic anti-AQP4 IgG (immunoglobulin G already mapped), part of the humoral response that drives the astrocyte-targeting autoimmunity of neuromyelitis optica.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Regulatory balance: deficient IL-10-mediated regulatory B- and T-cell control contributes to the unchecked anti-AQP4 response in neuromyelitis optica, and restoring this regulatory arm is a goal of tolerising therapies.
+- `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Pregnancy relapse pattern: falling progesterone and estrogen (already mapped) postpartum coincides with a rise in neuromyelitis optica attacks, implicating sex-hormone fluctuation in the timing of relapses in this female-predominant disease.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)
