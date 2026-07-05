@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Iron and erythrocytosis: HIF stabilisation in VHL disease drives erythropoietin (already mapped) and reshapes iron handling, with transferrin-delivered iron supplying the erythrocytosis and the intensely vascular hemangioblastomas."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "RCC immunotherapy: the clear-cell renal cell carcinoma of VHL disease is among the most immunotherapy-responsive cancers, and MHC class II antigen presentation shapes the T-cell response to the checkpoint inhibitors used in its metastatic form."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Checkpoint blockade: PD-1 inhibitors, alone or with antiangiogenics targeting the HIF-driven VEGF (already mapped), are standard for advanced VHL-associated clear-cell renal cell carcinoma, exploiting its immunogenicity."
+  - target: 01-human/03-molecular/ctla-4
+    relation: connects-to
+    note: "Combination immunotherapy: CTLA-4 blockade combined with PD-1 inhibition (already mapped) is a frontline option for the metastatic clear-cell renal cell carcinoma that develops in VHL disease, deepening responses in this immunoresponsive tumour."
 ---
 
 # VHL Disease
@@ -641,6 +650,9 @@ The genotype-phenotype correlation reflects the degree of pVHL function retained
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — RCC immunotherapy: the clear cell renal cell carcinomas that dominate VHL disease are immunogenic, historically responsive to high-dose IL-2 and now to checkpoint inhibitors, an immune-targetable dimension complementing the HIF-directed belzutifan.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Chromaffin secretion: the phaeochromocytomas of VHL disease release catecholamines by calcium-triggered granule exocytosis, tying the syndrome's adrenal tumours to the same secretory physiology as sporadic phaeochromocytoma.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Iron and erythrocytosis: HIF stabilisation in VHL disease drives erythropoietin (already mapped) and reshapes iron handling, with transferrin-delivered iron supplying the erythrocytosis and the intensely vascular hemangioblastomas.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — RCC immunotherapy: the clear-cell renal cell carcinoma of VHL disease is among the most immunotherapy-responsive cancers, and MHC class II antigen presentation shapes the T-cell response to the checkpoint inhibitors used in its metastatic form.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Checkpoint blockade: PD-1 inhibitors, alone or with antiangiogenics targeting the HIF-driven VEGF (already mapped), are standard for advanced VHL-associated clear-cell renal cell carcinoma, exploiting its immunogenicity.
+- `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Combination immunotherapy: CTLA-4 blockade combined with PD-1 inhibition (already mapped) is a frontline option for the metastatic clear-cell renal cell carcinoma that develops in VHL disease, deepening responses in this immunoresponsive tumour.
 
 [^lonser-2003-vhl-disease]: Lonser RR, Glenn GM, Walther M, et al. von Hippel-Lindau disease. *Lancet.* 2003;361(9374):2059-2067. [doi:10.1016/S0140-6736(03)13643-4](https://doi.org/10.1016/S0140-6736(03)13643-4) · [PubMed 12814730](https://pubmed.ncbi.nlm.nih.gov/12814730/)
 [^choueiri-2020-hif2-rcc]: Choueiri TK, Kaelin WG Jr. Targeting the HIF2-VEGF axis in renal cell carcinoma. *Nat Med.* 2020;26(10):1519-1530. [doi:10.1038/s41591-020-1093-z](https://doi.org/10.1038/s41591-020-1093-z) · [PubMed 33020650](https://pubmed.ncbi.nlm.nih.gov/33020650/)
