@@ -400,6 +400,15 @@ cross_links:
   - target: 01-human/03-molecular/arid1a
     relation: connects-to
     note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the endothelial and inflammatory gene programs of disseminated intravascular coagulation."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Lactic acidosis: the microvascular thrombosis and shock of severe DIC starve tissues of oxygen (already mapped), forcing anaerobic metabolism that generates protons and lactate, so a worsening metabolic acidosis tracks the severity of the coagulopathy."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Multi-organ injury: the widespread microthrombi of DIC injure organs including the heart, and troponin elevation marks the myocardial damage that is part of the multi-organ failure driving its high mortality."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Tissue hypoxia: fibrin microthrombi occlude the microcirculation in DIC, cutting off oxygen delivery and causing the ischaemic organ dysfunction, from kidneys (already mapped) to skin, that defines its thrombotic phase."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -658,6 +667,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the endothelial activation and thromboinflammation of disseminated intravascular coagulation.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the thromboinflammation of disseminated intravascular coagulation.
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the endothelial and inflammatory gene programs of disseminated intravascular coagulation.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Lactic acidosis: the microvascular thrombosis and shock of severe DIC starve tissues of oxygen (already mapped), forcing anaerobic metabolism that generates protons and lactate, so a worsening metabolic acidosis tracks the severity of the coagulopathy.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Multi-organ injury: the widespread microthrombi of DIC injure organs including the heart, and troponin elevation marks the myocardial damage that is part of the multi-organ failure driving its high mortality.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Tissue hypoxia: fibrin microthrombi occlude the microcirculation in DIC, cutting off oxygen delivery and causing the ischaemic organ dysfunction, from kidneys (already mapped) to skin, that defines its thrombotic phase.
 
 ---
 

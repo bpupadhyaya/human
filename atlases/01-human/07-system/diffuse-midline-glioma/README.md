@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Osteopontin participates in the microglial/macrophage-rich tumor microenvironment and invasion of diffuse midline glioma."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "GD2 CAR-T therapy: IL-2-driven T-cell expansion powers the GD2-directed CAR-T therapy that has produced striking early responses in H3K27M diffuse midline glioma, a landmark immunotherapy for this otherwise uniformly fatal tumour."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Antigen presentation: MHC class II-restricted antigen presentation shapes the T-cell response to diffuse midline glioma, relevant to the peptide vaccines targeting the H3K27M neoantigen (already mapped) being tested in this tumour."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Checkpoint context: diffuse midline glioma is an immunologically cold tumour, and PD-1 checkpoint blockade is explored in combination with CAR-T and vaccine strategies to sustain the anti-tumour T-cell response."
 ---
 
 # Diffuse Midline Glioma
@@ -658,6 +667,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory tumor microenvironment of diffuse midline glioma.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the tumor microenvironment and immune signaling of diffuse midline glioma.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the microglial/macrophage-rich tumor microenvironment and invasion of diffuse midline glioma.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — GD2 CAR-T therapy: IL-2-driven T-cell expansion powers the GD2-directed CAR-T therapy that has produced striking early responses in H3K27M diffuse midline glioma, a landmark immunotherapy for this otherwise uniformly fatal tumour.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Antigen presentation: MHC class II-restricted antigen presentation shapes the T-cell response to diffuse midline glioma, relevant to the peptide vaccines targeting the H3K27M neoantigen (already mapped) being tested in this tumour.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Checkpoint context: diffuse midline glioma is an immunologically cold tumour, and PD-1 checkpoint blockade is explored in combination with CAR-T and vaccine strategies to sustain the anti-tumour T-cell response.
 
 ---
 
