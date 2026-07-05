@@ -385,6 +385,15 @@ cross_links:
   - target: 01-human/03-molecular/il-17a
     relation: connects-to
     note: "IL-17A signaling participates in the inflammatory tumor microenvironment of Wilms tumor."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Gonadal development: WT1 is essential for forming both kidney and gonad, so WT1 mutations cause Denys-Drash and Frasier syndromes with gonadal dysgenesis and disorders of sex development, disrupting the testosterone-dependent programme alongside the renal tumour."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "WT1 tumour antigen: WT1 is itself a shared tumour antigen targeted by WT1 peptide vaccines and T-cell therapies, so MHC-restricted antigen presentation is central to the immunotherapy directed at Wilms tumour and other WT1-expressing cancers."
+  - target: 01-human/03-molecular/growth-hormone
+    relation: connects-to
+    note: "Overgrowth predisposition: Wilms tumour arises excessively in overgrowth syndromes such as Beckwith-Wiedemann and hemihypertrophy, where the GH-IGF2 axis (IGF already mapped) drives the somatic overgrowth that mandates renal-tumour surveillance."
 ---
 
 # Wilms Tumor
@@ -636,6 +645,9 @@ Wilms tumor survivors face late effects proportional to treatment intensity:
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the tumor microenvironment of Wilms tumor.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the tumor-immune microenvironment of Wilms tumor.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory tumor microenvironment of Wilms tumor.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Gonadal development: WT1 is essential for forming both kidney and gonad, so WT1 mutations cause Denys-Drash and Frasier syndromes with gonadal dysgenesis and disorders of sex development, disrupting the testosterone-dependent programme alongside the renal tumour.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — WT1 tumour antigen: WT1 is itself a shared tumour antigen targeted by WT1 peptide vaccines and T-cell therapies, so MHC-restricted antigen presentation is central to the immunotherapy directed at Wilms tumour and other WT1-expressing cancers.
+- `connects-to` → **[Growth hormone](../../03-molecular/growth-hormone/README.md)** — Overgrowth predisposition: Wilms tumour arises excessively in overgrowth syndromes such as Beckwith-Wiedemann and hemihypertrophy, where the GH-IGF2 axis (IGF already mapped) drives the somatic overgrowth that mandates renal-tumour surveillance.
 
 [^dome-2015-wilms]: Dome JS, Graf N, Geller JI, et al. Advances in Wilms tumor treatment and biology: progress through international collaboration. *J Clin Oncol.* 2015;33(27):2999-3007. [doi:10.1200/JCO.2015.62.1888](https://doi.org/10.1200/JCO.2015.62.1888) · [PubMed 26261251](https://pubmed.ncbi.nlm.nih.gov/26261251/)
 [^dix-2006-arenl0002]: Dix DB, Bhatt SM, Geller JI, et al. Treatment of Stage IV favorable histology Wilms tumor with incomplete lung metastasis response after chemotherapy: a report from Children's Oncology Group Study AREN0533. *J Clin Oncol.* 2018;36(16):1564-1570. [doi:10.1200/JCO.2017.77.1877](https://doi.org/10.1200/JCO.2017.77.1877) · [PubMed 29584550](https://pubmed.ncbi.nlm.nih.gov/29584550/)
