@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/calcineurin
     relation: connects-to
     note: "Calcineurin-NFAT signaling participates in the T-cell help driving the anti-FVIII inhibitor formation (a target of immune-tolerance induction) of hemophilia A."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Gene-therapy barrier: AAV gene therapy delivering a factor VIII transgene to the liver triggers innate type I interferon and adaptive responses against the capsid, the immune hurdle that limits durable expression and drives the corticosteroid prophylaxis used with these vectors."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Blood-loss anaemia: recurrent and sometimes occult bleeding in hemophilia A causes chronic blood loss that lowers haemoglobin, producing an iron-deficiency anaemia that compounds the disability and can require transfusion in severe bleeds."
+  - target: 01-human/03-molecular/mu-opioid-receptor
+    relation: connects-to
+    note: "Chronic pain: the progressive hemophilic arthropathy from repeated joint bleeds causes chronic pain frequently managed with opioids acting on the mu-opioid receptor, a persistent burden and dependence risk in the aging hemophilia population."
 ---
 
 # Hemophilia A
@@ -640,6 +649,9 @@ FVIII is a critical **amplifier** of the coagulation cascade at the junction bet
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the immune response contributing to the anti-FVIII inhibitor formation of hemophilia A.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the immune activation influencing the anti-FVIII inhibitor response of hemophilia A.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the T-cell help driving the anti-FVIII inhibitor formation (a target of immune-tolerance induction) of hemophilia A.
+- `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — Gene-therapy barrier: AAV gene therapy delivering a factor VIII transgene to the liver triggers innate type I interferon and adaptive responses against the capsid, the immune hurdle that limits durable expression and drives the corticosteroid prophylaxis used with these vectors.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Blood-loss anaemia: recurrent and sometimes occult bleeding in hemophilia A causes chronic blood loss that lowers haemoglobin, producing an iron-deficiency anaemia that compounds the disability and can require transfusion in severe bleeds.
+- `connects-to` → **[Mu-opioid receptor](../../03-molecular/mu-opioid-receptor/README.md)** — Chronic pain: the progressive hemophilic arthropathy from repeated joint bleeds causes chronic pain frequently managed with opioids acting on the mu-opioid receptor, a persistent burden and dependence risk in the aging hemophilia population.
 
 [^oldenburg-2017-emicizumab-haven1]: Oldenburg J, Mahlangu JN, Kim B, et al. Emicizumab prophylaxis in hemophilia A with inhibitors. *N Engl J Med.* 2017;377(9):809-818. [doi:10.1056/NEJMoa1703068](https://doi.org/10.1056/NEJMoa1703068) · [PubMed 28691557](https://pubmed.ncbi.nlm.nih.gov/28691557/)
 [^mahlangu-2018-emicizumab-haven3]: Mahlangu J, Oldenburg J, Paz-Priel I, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors. *N Engl J Med.* 2018;379(9):811-822. [doi:10.1056/NEJMoa1803550](https://doi.org/10.1056/NEJMoa1803550) · [PubMed 30157389](https://pubmed.ncbi.nlm.nih.gov/30157389/)

@@ -388,6 +388,15 @@ cross_links:
   - target: 01-human/03-molecular/arid1a
     relation: connects-to
     note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the cardiac remodeling gene programs of heart failure."
+  - target: 01-human/03-molecular/thyroid-hormones
+    relation: connects-to
+    note: "Thyroid cardiomyopathy: both hyper- and hypothyroidism impair cardiac output, and the low-T3 syndrome of advanced heart failure is a marker of poor prognosis, making thyroid-hormone status a modifiable contributor to the failing heart."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Diabetic cardiomyopathy: insulin resistance and hyperglycaemia produce a distinct diabetic cardiomyopathy and worsen outcomes in heart failure, the bidirectional metabolic link that underlies the cardiac benefit of SGLT2 inhibitors (already mapped)."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative stress and urate: xanthine oxidase generates reactive oxygen species and uric acid in the failing heart, and elevated serum urate is an independent marker of severity, reflecting the oxidative burden of impaired myocardial energetics."
 ---
 
 # Heart Failure
@@ -584,6 +593,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the cardiac repair, inflammatory-cell recruitment, and remodeling of heart failure.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the cardiac inflammation and fibrosis of heart failure.
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the cardiac remodeling gene programs of heart failure.
+- `connects-to` → **[Thyroid hormones](../../03-molecular/thyroid-hormones/README.md)** — Thyroid cardiomyopathy: both hyper- and hypothyroidism impair cardiac output, and the low-T3 syndrome of advanced heart failure is a marker of poor prognosis, making thyroid-hormone status a modifiable contributor to the failing heart.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Diabetic cardiomyopathy: insulin resistance and hyperglycaemia produce a distinct diabetic cardiomyopathy and worsen outcomes in heart failure, the bidirectional metabolic link that underlies the cardiac benefit of SGLT2 inhibitors (already mapped).
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative stress and urate: xanthine oxidase generates reactive oxygen species and uric acid in the failing heart, and elevated serum urate is an independent marker of severity, reflecting the oxidative burden of impaired myocardial energetics.
 
 ## Pathology
 
