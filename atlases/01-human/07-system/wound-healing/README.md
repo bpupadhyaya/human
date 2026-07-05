@@ -400,6 +400,15 @@ cross_links:
   - target: 01-human/03-molecular/nlrp3-inflammasome
     relation: connects-to
     note: "Inflammatory phase: the NLRP3 inflammasome matures IL-1beta (already mapped) during the inflammatory phase of healing, and its persistent activation sustains the chronic inflammation that stalls diabetic and pressure-ulcer wounds."
+  - target: 03-medicine/03-food/omega-3-fatty-acids
+    relation: connects-to
+    note: "Resolution of inflammation: omega-3 fatty acids are converted to specialised pro-resolving mediators (resolvins, protectins) that actively terminate the inflammatory phase of healing, a process whose failure perpetuates chronic non-healing wounds."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Adipokine support: leptin promotes keratinocyte proliferation and angiogenesis in healing skin, and leptin resistance in obesity and diabetes contributes to the impaired wound repair seen in those conditions."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Fibrotic remodeling: IL-13, with IL-4 (already mapped), polarises macrophages to the reparative M2 phenotype and drives fibroblast collagen production, and its excess underlies the hypertrophic scars and keloids of dysregulated healing."
 ---
 
 # Wound Healing
@@ -646,6 +655,9 @@ cross_links:
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Metabolic control of repair: insulin signalling promotes keratinocyte migration and collagen synthesis, and its impairment in diabetes is a leading cause of chronic non-healing wounds, the rationale for glucose control and even topical insulin.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Hemostasis and contraction: platelet-released serotonin drives the early vasoconstriction of hemostasis and later stimulates fibroblast proliferation and wound contraction, linking the platelet plug to the remodeling phase of repair.
 - `connects-to` → **[NLRP3 inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Inflammatory phase: the NLRP3 inflammasome matures IL-1beta (already mapped) during the inflammatory phase of healing, and its persistent activation sustains the chronic inflammation that stalls diabetic and pressure-ulcer wounds.
+- `connects-to` → **[Omega-3 Fatty Acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Resolution of inflammation: omega-3 fatty acids are converted to specialised pro-resolving mediators (resolvins, protectins) that actively terminate the inflammatory phase of healing, a process whose failure perpetuates chronic non-healing wounds.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adipokine support: leptin promotes keratinocyte proliferation and angiogenesis in healing skin, and leptin resistance in obesity and diabetes contributes to the impaired wound repair seen in those conditions.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Fibrotic remodeling: IL-13, with IL-4 (already mapped), polarises macrophages to the reparative M2 phenotype and drives fibroblast collagen production, and its excess underlies the hypertrophic scars and keloids of dysregulated healing.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)

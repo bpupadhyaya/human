@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/growth-hormone
     relation: connects-to
     note: "Overgrowth predisposition: Wilms tumour arises excessively in overgrowth syndromes such as Beckwith-Wiedemann and hemihypertrophy, where the GH-IGF2 axis (IGF already mapped) drives the somatic overgrowth that mandates renal-tumour surveillance."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "WT1 immunotherapy: IL-2-driven T-cell expansion supports the WT1-directed vaccine and adoptive T-cell therapies (MHC class II already mapped) explored for Wilms tumour and other WT1-expressing cancers."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Anthracycline cardiotoxicity: the doxorubicin used for higher-risk Wilms tumour is cardiotoxic, and troponin elevation helps detect the cumulative myocardial injury that threatens these otherwise highly curable children long-term."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Blood-count changes: Wilms tumour can raise haemoglobin through ectopic erythropoietin (already mapped), while its chemotherapy is myelosuppressive and lowers it, giving the disease a variable effect on the blood count."
 ---
 
 # Wilms Tumor
@@ -648,6 +657,9 @@ Wilms tumor survivors face late effects proportional to treatment intensity:
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Gonadal development: WT1 is essential for forming both kidney and gonad, so WT1 mutations cause Denys-Drash and Frasier syndromes with gonadal dysgenesis and disorders of sex development, disrupting the testosterone-dependent programme alongside the renal tumour.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — WT1 tumour antigen: WT1 is itself a shared tumour antigen targeted by WT1 peptide vaccines and T-cell therapies, so MHC-restricted antigen presentation is central to the immunotherapy directed at Wilms tumour and other WT1-expressing cancers.
 - `connects-to` → **[Growth hormone](../../03-molecular/growth-hormone/README.md)** — Overgrowth predisposition: Wilms tumour arises excessively in overgrowth syndromes such as Beckwith-Wiedemann and hemihypertrophy, where the GH-IGF2 axis (IGF already mapped) drives the somatic overgrowth that mandates renal-tumour surveillance.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — WT1 immunotherapy: IL-2-driven T-cell expansion supports the WT1-directed vaccine and adoptive T-cell therapies (MHC class II already mapped) explored for Wilms tumour and other WT1-expressing cancers.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Anthracycline cardiotoxicity: the doxorubicin used for higher-risk Wilms tumour is cardiotoxic, and troponin elevation helps detect the cumulative myocardial injury that threatens these otherwise highly curable children long-term.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Blood-count changes: Wilms tumour can raise haemoglobin through ectopic erythropoietin (already mapped), while its chemotherapy is myelosuppressive and lowers it, giving the disease a variable effect on the blood count.
 
 [^dome-2015-wilms]: Dome JS, Graf N, Geller JI, et al. Advances in Wilms tumor treatment and biology: progress through international collaboration. *J Clin Oncol.* 2015;33(27):2999-3007. [doi:10.1200/JCO.2015.62.1888](https://doi.org/10.1200/JCO.2015.62.1888) · [PubMed 26261251](https://pubmed.ncbi.nlm.nih.gov/26261251/)
 [^dix-2006-arenl0002]: Dix DB, Bhatt SM, Geller JI, et al. Treatment of Stage IV favorable histology Wilms tumor with incomplete lung metastasis response after chemotherapy: a report from Children's Oncology Group Study AREN0533. *J Clin Oncol.* 2018;36(16):1564-1570. [doi:10.1200/JCO.2017.77.1877](https://doi.org/10.1200/JCO.2017.77.1877) · [PubMed 29584550](https://pubmed.ncbi.nlm.nih.gov/29584550/)
