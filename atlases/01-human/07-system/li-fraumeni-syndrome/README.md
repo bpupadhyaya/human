@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Osteopontin participates in the tumor microenvironment and metastatic interactions of the neoplasms of Li-Fraumeni syndrome."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Immunosurveillance: MHC class II-restricted T-cell surveillance shapes which of the diverse Li-Fraumeni tumours emerge and progress, and antigen presentation is central to the immunotherapy explored for the hypermutated cancers this p53-defective syndrome can produce."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "T-cell immunity: IL-2-driven T-cell expansion supports the anti-tumour immunity and cellular immunotherapy approaches being considered across the wide sarcoma-breast-brain-adrenal tumour spectrum of Li-Fraumeni syndrome."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Checkpoint context: PD-1 checkpoint blockade is of interest for the treatment-related or intrinsically hypermutated cancers of Li-Fraumeni syndrome, offering an immune approach that avoids the radiotherapy (photon already mapped) these patients must limit."
 ---
 
 # Li-Fraumeni Syndrome
@@ -670,6 +679,9 @@ Annual surveillance significantly reduces mortality in LFS carriers (Villani 201
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory tumor microenvironment of the neoplasms of Li-Fraumeni syndrome.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the tumor microenvironment and immune signaling of Li-Fraumeni syndrome.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the tumor microenvironment and metastatic interactions of the neoplasms of Li-Fraumeni syndrome.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immunosurveillance: MHC class II-restricted T-cell surveillance shapes which of the diverse Li-Fraumeni tumours emerge and progress, and antigen presentation is central to the immunotherapy explored for the hypermutated cancers this p53-defective syndrome can produce.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell immunity: IL-2-driven T-cell expansion supports the anti-tumour immunity and cellular immunotherapy approaches being considered across the wide sarcoma-breast-brain-adrenal tumour spectrum of Li-Fraumeni syndrome.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Checkpoint context: PD-1 checkpoint blockade is of interest for the treatment-related or intrinsically hypermutated cancers of Li-Fraumeni syndrome, offering an immune approach that avoids the radiotherapy (photon already mapped) these patients must limit.
 
 [^bougeard-2015-lfs-chompret]: Bougeard G, Renaux-Petel M, Flaman JM, et al. Revisiting Li-Fraumeni Syndrome From TP53 Mutation Carriers. *J Clin Oncol.* 2015;33(21):2345-2352. [doi:10.1200/JCO.2014.59.5728](https://doi.org/10.1200/JCO.2014.59.5728) · [PubMed 26014290](https://pubmed.ncbi.nlm.nih.gov/26014290/)
 [^villani-2016-lfs-surveillance]: Villani A, Shore A, Wasserman JD, et al. Biochemical and imaging surveillance in germline TP53 mutation carriers with Li-Fraumeni syndrome: 11 year follow-up of a prospective observational study. *Lancet Oncol.* 2016;17(9):1295-1305. [doi:10.1016/S1470-2045(16)30249-2](https://doi.org/10.1016/S1470-2045(16)30249-2) · [PubMed 27501770](https://pubmed.ncbi.nlm.nih.gov/27501770/)

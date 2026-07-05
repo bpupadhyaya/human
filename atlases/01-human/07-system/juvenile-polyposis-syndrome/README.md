@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Complement C3 participates in the inflammatory tumor microenvironment of juvenile polyposis syndrome."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Bleeding and HHT overlap: the juvenile polyps bleed and SMAD4 carriers also have hereditary haemorrhagic telangiectasia with epistaxis and AVMs (angiopoietin already mapped), so chronic blood loss causes the iron-deficiency anaemia that lowers haemoglobin."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Immunosurveillance: MHC class II-restricted T-cell surveillance influences which of the many hamartomatous polyps of juvenile polyposis progress to gastrointestinal cancer, and antigen presentation is relevant to chemoprevention and immunotherapy."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "T-cell immunity: IL-2-driven T-cell responses contribute to immune control of the neoplastic progression in juvenile polyposis, part of the adaptive immunity acting on its polyp-carpeted gastrointestinal tract."
 ---
 
 # Juvenile Polyposis Syndrome
@@ -649,6 +658,9 @@ No approved chemopreventive agents specifically for JPS. Options under investiga
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the tumor-immune microenvironment of the neoplasms of juvenile polyposis syndrome.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the intestinal inflammatory tumor microenvironment of juvenile polyposis syndrome.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory tumor microenvironment of juvenile polyposis syndrome.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Bleeding and HHT overlap: the juvenile polyps bleed and SMAD4 carriers also have hereditary haemorrhagic telangiectasia with epistaxis and AVMs (angiopoietin already mapped), so chronic blood loss causes the iron-deficiency anaemia that lowers haemoglobin.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immunosurveillance: MHC class II-restricted T-cell surveillance influences which of the many hamartomatous polyps of juvenile polyposis progress to gastrointestinal cancer, and antigen presentation is relevant to chemoprevention and immunotherapy.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell immunity: IL-2-driven T-cell responses contribute to immune control of the neoplastic progression in juvenile polyposis, part of the adaptive immunity acting on its polyp-carpeted gastrointestinal tract.
 
 [^howe-1998-smad4-jps]: Howe JR, Roth S, Ringold JC, et al. Mutations in the SMAD4/DPC4 gene in juvenile polyposis. *Science.* 1998;280(5366):1086-1088. [doi:10.1126/science.280.5366.1086](https://doi.org/10.1126/science.280.5366.1086) · [PubMed 9582123](https://pubmed.ncbi.nlm.nih.gov/9582123/)
 [^aretz-2007-jps-spectrum]: Aretz S, Stienen D, Uhlhaas S, et al. High proportion of large genomic deletions and a genotype-phenotype update in 80 unrelated families with juvenile polyposis syndrome. *J Med Genet.* 2007;44(11):702-709. [doi:10.1136/jmg.2007.051839](https://doi.org/10.1136/jmg.2007.051839) · [PubMed 17601924](https://pubmed.ncbi.nlm.nih.gov/17601924/)
