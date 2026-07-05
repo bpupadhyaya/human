@@ -405,6 +405,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "Bronchodilation and muscle: magnesium relaxes airway smooth muscle by antagonising calcium entry, the basis of intravenous magnesium in severe bronchospasm, and is required for normal respiratory-muscle function."
+  - target: 01-human/03-molecular/mu-opioid-receptor
+    relation: connects-to
+    note: "Central respiratory drive: opioids acting on mu-opioid receptors in the brainstem (brain already mapped) suppress the respiratory rhythm, the mechanism of opioid respiratory depression that makes the respiratory system uniquely vulnerable to these drugs."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Chemoreception and pulmonary tone: serotonergic medullary neurons contribute to central CO2 chemoreception and breathing control, while serotonin also constricts the pulmonary vasculature, linking the transmitter to both ventilation and lung perfusion."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Ventilatory drive: leptin stimulates central respiratory drive, and leptin resistance in obesity contributes to obesity hypoventilation syndrome, connecting the adipokine to the neural control of breathing."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -615,6 +624,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Connects-to** → [Proton](../../01-subatomic/proton/README.md): acid-base and drive: the lungs set systemic pH by adjusting carbon-dioxide excretion, and central and peripheral chemoreceptors sensing protons and CO2 tune the ventilatory drive minute to minute.
 - **Connects-to** → [Calcium](../../02-atomic/calcium/README.md): airway smooth muscle: calcium-dependent contraction of airway smooth muscle sets bronchomotor tone, the target of the bronchodilators and bronchoconstrictors that widen or narrow the conducting airways.
 - **Connects-to** → [Magnesium](../../02-atomic/magnesium/README.md): bronchodilation and muscle: magnesium relaxes airway smooth muscle by antagonising calcium entry, the basis of intravenous magnesium in severe bronchospasm, and is required for normal respiratory-muscle function.
+- **Connects-to** → [Mu-opioid receptor](../../03-molecular/mu-opioid-receptor/README.md): central respiratory drive: opioids acting on mu-opioid receptors in the brainstem (brain already mapped) suppress the respiratory rhythm, the mechanism of opioid respiratory depression that makes the respiratory system uniquely vulnerable to these drugs.
+- **Connects-to** → [Serotonin](../../03-molecular/serotonin/README.md): chemoreception and pulmonary tone: serotonergic medullary neurons contribute to central CO2 chemoreception and breathing control, while serotonin also constricts the pulmonary vasculature, linking the transmitter to both ventilation and lung perfusion.
+- **Connects-to** → [Leptin](../../03-molecular/leptin/README.md): ventilatory drive: leptin stimulates central respiratory drive, and leptin resistance in obesity contributes to obesity hypoventilation syndrome, connecting the adipokine to the neural control of breathing.
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.
 
 ## Pathology

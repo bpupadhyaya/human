@@ -406,6 +406,15 @@ cross_links:
   - target: 01-human/03-molecular/von-willebrand-factor
     relation: connects-to
     note: "Endothelial activation: widespread endothelial injury in sepsis releases von Willebrand factor multimers that promote platelet microthrombi, part of the thromboinflammation and disseminated intravascular coagulation that damage organs."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Lactic acidosis: tissue hypoperfusion and mitochondrial dysfunction in septic shock generate lactic acid, and the resulting proton excess produces the metabolic acidosis that is a key marker of severity and a target of resuscitation."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative burst injury: neutrophil and endothelial reactive oxygen species, including those from xanthine oxidase in ischaemia-reperfusion, damage tissues in sepsis and raise uric acid, part of the oxidative injury driving organ failure."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Anaemia of critical illness: sepsis lowers haemoglobin through hepcidin-driven iron sequestration (already mapped), marrow suppression and blood sampling, and the resulting anaemia complicates oxygen delivery in the critically ill."
 ---
 
 # Sepsis
@@ -641,6 +650,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immunoparalysis: sepsis induces a compensatory immunosuppression marked by downregulation of monocyte HLA-DR (MHC class II), a biomarker of the impaired antigen presentation that predisposes survivors to secondary infections.
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Nutritional immunity: the IL-6 surge of sepsis (IL-6 already mapped) drives hepcidin to sequester iron away from pathogens, a host-defence strategy that also contributes to the anaemia of critical illness.
 - `connects-to` → **[Von Willebrand factor](../../03-molecular/von-willebrand-factor/README.md)** — Endothelial activation: widespread endothelial injury in sepsis releases von Willebrand factor multimers that promote platelet microthrombi, part of the thromboinflammation and disseminated intravascular coagulation that damage organs.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Lactic acidosis: tissue hypoperfusion and mitochondrial dysfunction in septic shock generate lactic acid, and the resulting proton excess produces the metabolic acidosis that is a key marker of severity and a target of resuscitation.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative burst injury: neutrophil and endothelial reactive oxygen species, including those from xanthine oxidase in ischaemia-reperfusion, damage tissues in sepsis and raise uric acid, part of the oxidative injury driving organ failure.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Anaemia of critical illness: sepsis lowers haemoglobin through hepcidin-driven iron sequestration (already mapped), marrow suppression and blood sampling, and the resulting anaemia complicates oxygen delivery in the critically ill.
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
