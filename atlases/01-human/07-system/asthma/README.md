@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/calcineurin
     relation: connects-to
     note: "Calcineurin-NFAT signaling participates in the T-cell activation of the Type 2 immune response of asthma."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Sex-hormone modulation: asthma prevalence and severity shift at puberty and across the menstrual cycle, and estrogen modulates airway inflammation and smooth-muscle tone, underlying the female predominance of adult asthma and premenstrual exacerbations."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Anaphylatoxins: the complement fragments C3a and C5a (C3 already mapped) generated in allergic airways amplify mast-cell and eosinophil recruitment and smooth-muscle contraction, bridging innate complement to the type-2 inflammation of asthma."
+  - target: 01-human/03-molecular/secretory-iga
+    relation: connects-to
+    note: "Mucosal barrier: secretory IgA at the airway surface shapes the response to inhaled allergens and microbes, and altered IgA production is associated with allergic sensitisation and asthma susceptibility in early life."
 ---
 
 # Asthma
@@ -628,6 +637,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the airway leukocyte recruitment and remodeling of asthma.
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the airway immune and structural gene programs of asthma.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the T-cell activation of the Type 2 immune response of asthma.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Sex-hormone modulation: asthma prevalence and severity shift at puberty and across the menstrual cycle, and estrogen modulates airway inflammation and smooth-muscle tone, underlying the female predominance of adult asthma and premenstrual exacerbations.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Anaphylatoxins: the complement fragments C3a and C5a (C3 already mapped) generated in allergic airways amplify mast-cell and eosinophil recruitment and smooth-muscle contraction, bridging innate complement to the type-2 inflammation of asthma.
+- `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — Mucosal barrier: secretory IgA at the airway surface shapes the response to inhaled allergens and microbes, and altered IgA production is associated with allergic sensitisation and asthma susceptibility in early life.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)

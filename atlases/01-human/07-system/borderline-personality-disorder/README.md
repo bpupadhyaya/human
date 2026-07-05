@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/il-17a
     relation: connects-to
     note: "IL-17A signaling participates in the neuroinflammation associated with borderline personality disorder."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Impulsive aggression: nitric oxide from neuronal nNOS modulates the serotonergic and dopaminergic circuits governing impulse control, and NOS1 variation is associated with the impulsive aggression that features in borderline personality disorder."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Eating-disorder comorbidity: borderline personality disorder frequently co-occurs with bulimia and emotional binge eating, and the satiety adipokine leptin links the affective dysregulation to the disordered appetite control seen in these patients."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Arousal and reactivity: central histaminergic neurotransmission regulates wakefulness and emotional arousal, systems dysregulated in the affective instability and hyperreactivity that characterise borderline personality disorder."
 ---
 
 # Borderline Personality Disorder
@@ -659,6 +668,9 @@ This model directly informs DBT treatment: validate emotional experience (the bi
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the neuroimmune interactions implicated in borderline personality disorder.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the microglial and neuroinflammatory responses implicated in borderline personality disorder.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the neuroinflammation associated with borderline personality disorder.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Impulsive aggression: nitric oxide from neuronal nNOS modulates the serotonergic and dopaminergic circuits governing impulse control, and NOS1 variation is associated with the impulsive aggression that features in borderline personality disorder.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Eating-disorder comorbidity: borderline personality disorder frequently co-occurs with bulimia and emotional binge eating, and the satiety adipokine leptin links the affective dysregulation to the disordered appetite control seen in these patients.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Arousal and reactivity: central histaminergic neurotransmission regulates wakefulness and emotional arousal, systems dysregulated in the affective instability and hyperreactivity that characterise borderline personality disorder.
 
 [^linehan-1993-dbt]: Linehan MM. *Cognitive-Behavioral Treatment of Borderline Personality Disorder.* Guilford; 1993. [PubMed 8192506](https://pubmed.ncbi.nlm.nih.gov/8192506/)
 [^skodol-2002-bpd-neurobiology]: Siever LJ, Davis KL. A psychobiological perspective on the personality disorders. *Am J Psychiatry.* 1991;148(12):1647-1658. [doi:10.1176/ajp.148.12.1647](https://doi.org/10.1176/ajp.148.12.1647) · [PubMed 1957927](https://pubmed.ncbi.nlm.nih.gov/1957927/)
