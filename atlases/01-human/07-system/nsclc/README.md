@@ -391,6 +391,15 @@ cross_links:
   - target: 01-human/03-molecular/il-17a
     relation: connects-to
     note: "IL-17A signaling participates in the inflammatory tumor microenvironment of non-small cell lung cancer."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "Bone-metastatic niche: NSCLC frequently metastasises to bone, where tumour-driven RANKL activates osteoclasts to cause skeletal-related events, the rationale for denosumab, and RANKL blockade also intersects with the immune microenvironment relevant to checkpoint therapy."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Antigen presentation: MHC class II on tumour and antigen-presenting cells shapes the CD4 T-cell help that underlies the checkpoint-inhibitor responses central to modern NSCLC therapy, and its loss is a mechanism of immune escape and immunotherapy resistance."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Chemotherapy execution: platinum-doublet chemotherapy, still a backbone of NSCLC treatment, kills tumour cells by triggering caspase-3-mediated apoptosis, and defects in this executioner pathway underlie chemoresistance."
 ---
 
 # NSCLC
@@ -616,6 +625,9 @@ cross_links:
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the tumor microenvironment of non-small cell lung cancer.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the tumor-immune microenvironment of non-small cell lung cancer.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory tumor microenvironment of non-small cell lung cancer.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Bone-metastatic niche: NSCLC frequently metastasises to bone, where tumour-driven RANKL activates osteoclasts to cause skeletal-related events, the rationale for denosumab, and RANKL blockade also intersects with the immune microenvironment relevant to checkpoint therapy.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Antigen presentation: MHC class II on tumour and antigen-presenting cells shapes the CD4 T-cell help that underlies the checkpoint-inhibitor responses central to modern NSCLC therapy, and its loss is a mechanism of immune escape and immunotherapy resistance.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Chemotherapy execution: platinum-doublet chemotherapy, still a backbone of NSCLC treatment, kills tumour cells by triggering caspase-3-mediated apoptosis, and defects in this executioner pathway underlie chemoresistance.
 
 [^soria-2018-osimertinib-flaura]: Soria JC, Ohe Y, Vansteenkiste J, et al. Osimertinib in untreated EGFR-mutated advanced non-small-cell lung cancer. *N Engl J Med.* 2018;378(2):113-125. [doi:10.1056/NEJMoa1713137](https://doi.org/10.1056/NEJMoa1713137) · [PubMed 29151359](https://pubmed.ncbi.nlm.nih.gov/29151359/)
 [^reck-2016-pembrolizumab-keynote024]: Reck M, Rodríguez-Abreu D, Robinson AG, et al. Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell lung cancer. *N Engl J Med.* 2016;375(19):1823-1833. [doi:10.1056/NEJMoa1606774](https://doi.org/10.1056/NEJMoa1606774) · [PubMed 27718347](https://pubmed.ncbi.nlm.nih.gov/27718347/)

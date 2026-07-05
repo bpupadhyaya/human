@@ -385,6 +385,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Complement C3 participates in the inflammatory tumor microenvironment of osteosarcoma."
+  - target: 01-human/03-molecular/pth
+    relation: connects-to
+    note: "Osteoblast-lineage signaling: osteosarcoma arises from the osteoblast lineage whose anabolic program is governed by PTH/PTH1R signaling, the same pathway whose agonism (teriparatide) carries an osteosarcoma safety signal, tying the tumour to bone-anabolic endocrinology."
+  - target: 01-human/03-molecular/axl-receptor
+    relation: connects-to
+    note: "Invasion and drug resistance: the AXL receptor tyrosine kinase is expressed in osteosarcoma and drives the mesenchymal-like invasion, pulmonary metastasis and chemoresistance that dominate its course, making AXL a candidate target beyond conventional cytotoxics."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Immune recognition: MHC class II expression on osteosarcoma and its antigen-presenting infiltrate shapes CD4 T-cell help, and its downregulation contributes to the immune evasion that has limited checkpoint-inhibitor efficacy in this immunologically cold sarcoma."
 ---
 
 # Osteosarcoma
@@ -638,6 +647,9 @@ OS is relatively radiation-resistant (high-dose radiation ~70+ Gy may achieve lo
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the tumor-immune microenvironment of osteosarcoma.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the osteoclast-driven and inflammatory tumor microenvironment of osteosarcoma.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory tumor microenvironment of osteosarcoma.
+- `connects-to` → **[PTH](../../03-molecular/pth/README.md)** — Osteoblast-lineage signaling: osteosarcoma arises from the osteoblast lineage whose anabolic program is governed by PTH/PTH1R signaling, the same pathway whose agonism (teriparatide) carries an osteosarcoma safety signal, tying the tumour to bone-anabolic endocrinology.
+- `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — Invasion and drug resistance: the AXL receptor tyrosine kinase is expressed in osteosarcoma and drives the mesenchymal-like invasion, pulmonary metastasis and chemoresistance that dominate its course, making AXL a candidate target beyond conventional cytotoxics.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immune recognition: MHC class II expression on osteosarcoma and its antigen-presenting infiltrate shapes CD4 T-cell help, and its downregulation contributes to the immune evasion that has limited checkpoint-inhibitor efficacy in this immunologically cold sarcoma.
 
 [^bielack-2002-coss-osteosarcoma]: Bielack SS, Kempf-Bielack B, Delling G, et al. Prognostic factors in high-grade osteosarcoma of the extremities or trunk: an analysis of 1,702 patients treated on neoadjuvant Cooperative Osteosarcoma Study Group protocols. *J Clin Oncol.* 2002;20(3):776-790. [doi:10.1200/JCO.2002.20.3.776](https://doi.org/10.1200/JCO.2002.20.3.776) · [PubMed 11821461](https://pubmed.ncbi.nlm.nih.gov/11821461/)
 [^marina-2016-euramos1-osteosarcoma]: Marina NM, Smeland S, Bielack SS, et al. Comparison of MAPIE versus MAP in patients with a poor response to preoperative chemotherapy for newly diagnosed high-grade osteosarcoma (EURAMOS-1). *Lancet Oncol.* 2016;17(10):1396-1408. [doi:10.1016/S1470-2045(16)30214-5](https://doi.org/10.1016/S1470-2045(16)30214-5) · [PubMed 27569442](https://pubmed.ncbi.nlm.nih.gov/27569442/)
