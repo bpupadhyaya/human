@@ -409,6 +409,15 @@ cross_links:
   - target: 01-human/03-molecular/leptin
     relation: connects-to
     note: "Obesity and inflammation: obesity accelerates atherosclerosis, and the adipokine leptin promotes endothelial dysfunction, macrophage foam-cell formation and vascular inflammation, linking metabolic syndrome to plaque progression."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Atheroprotective cytokine: the anti-inflammatory cytokine IL-10 restrains plaque inflammation and stabilises lesions, so the balance between it and the pro-inflammatory IL-1 and TNF (already mapped) shapes plaque progression and rupture risk."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Sex protection: estrogen improves endothelial function and lipid profiles, and its premenopausal presence delays atherosclerosis in women, contributing to the sex and age differences in cardiovascular risk."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Plaque destabilisation: mast cells in the atherosclerotic plaque release proteases and histamine that degrade the fibrous cap (collagen already mapped) and promote intraplaque haemorrhage, contributing to the rupture behind acute events."
 ---
 
 # Atherosclerosis
@@ -653,6 +662,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Adaptive plaque immunity: atherosclerosis has an adaptive immune component, with MHC class II presentation of oxidised-LDL and ApoB peptides to T cells shaping the inflammation of the plaque, a target of experimental atherosclerosis vaccines.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Plaque rupture: rupture of an atherosclerotic plaque triggers coronary thrombosis and myocardial infarction, and troponin release marks the resulting myocardial injury, the acute clinical endpoint of the disease.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Obesity and inflammation: obesity accelerates atherosclerosis, and the adipokine leptin promotes endothelial dysfunction, macrophage foam-cell formation and vascular inflammation, linking metabolic syndrome to plaque progression.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Atheroprotective cytokine: the anti-inflammatory cytokine IL-10 restrains plaque inflammation and stabilises lesions, so the balance between it and the pro-inflammatory IL-1 and TNF (already mapped) shapes plaque progression and rupture risk.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Sex protection: estrogen improves endothelial function and lipid profiles, and its premenopausal presence delays atherosclerosis in women, contributing to the sex and age differences in cardiovascular risk.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Plaque destabilisation: mast cells in the atherosclerotic plaque release proteases and histamine that degrade the fibrous cap (collagen already mapped) and promote intraplaque haemorrhage, contributing to the rupture behind acute events.
 
 ---
 

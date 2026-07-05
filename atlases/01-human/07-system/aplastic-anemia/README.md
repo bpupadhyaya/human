@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/ctla-4
     relation: connects-to
     note: "T-cell checkpoint: the autoreactive T cells that destroy the marrow in aplastic anaemia are normally restrained by CTLA-4, and immunosuppressive therapy works by damping this T-cell attack to allow haematopoietic recovery."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Th1/Th2 imbalance: aplastic anaemia is driven by a Th1, interferon-gamma-dominated (already mapped) attack on the marrow, and the deficient IL-4-driven type-2 counterbalance is part of the immune dysregulation that immunosuppression corrects."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative marrow stress: transfusional iron overload (hepcidin already mapped) and inflammation generate reactive oxygen species, to which xanthine oxidase contributes, adding oxidative injury to the already failing marrow of aplastic anaemia."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Iron cardiomyopathy: chronic transfusion deposits iron in the heart, and the resulting iron-overload cardiomyopathy, marked by troponin release, is a major cause of death in transfusion-dependent aplastic anaemia."
 ---
 
 # Aplastic Anemia
@@ -644,6 +653,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Pancytopenic anaemia: destruction of haematopoietic stem cells collapses red-cell production, and the falling haemoglobin, alongside neutropenia and thrombocytopenia, is a defining and transfusion-dependent feature of aplastic anaemia.
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Transfusional iron overload: chronic transfusion for aplastic anaemia deposits iron in the heart and liver, and the disordered hepcidin-driven iron handling contributes to the overload that requires chelation therapy.
 - `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — T-cell checkpoint: the autoreactive T cells that destroy the marrow in aplastic anaemia are normally restrained by CTLA-4, and immunosuppressive therapy works by damping this T-cell attack to allow haematopoietic recovery.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Th1/Th2 imbalance: aplastic anaemia is driven by a Th1, interferon-gamma-dominated (already mapped) attack on the marrow, and the deficient IL-4-driven type-2 counterbalance is part of the immune dysregulation that immunosuppression corrects.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative marrow stress: transfusional iron overload (hepcidin already mapped) and inflammation generate reactive oxygen species, to which xanthine oxidase contributes, adding oxidative injury to the already failing marrow of aplastic anaemia.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Iron cardiomyopathy: chronic transfusion deposits iron in the heart, and the resulting iron-overload cardiomyopathy, marked by troponin release, is a major cause of death in transfusion-dependent aplastic anaemia.
 
 ---
 
