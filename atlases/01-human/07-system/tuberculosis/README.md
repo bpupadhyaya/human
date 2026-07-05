@@ -385,6 +385,15 @@ cross_links:
   - target: 01-human/03-molecular/calcineurin
     relation: connects-to
     note: "Calcineurin-NFAT signaling participates in the T-cell activation of the immune response to tuberculosis."
+  - target: 01-human/03-molecular/glucocorticoid-receptor
+    relation: connects-to
+    note: "Adjunctive corticosteroids: dexamethasone acting through the glucocorticoid receptor reduces mortality in tuberculous meningitis and pericarditis by dampening the host immunopathology that damages tissue around the granuloma."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Undernutrition and risk: malnutrition is the leading global driver of tuberculosis, and low leptin in the undernourished impairs the cell-mediated immunity that contains Mycobacterium tuberculosis, linking nutritional state to reactivation risk."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "T-cell expansion: IL-2 drives the clonal proliferation of the antigen-specific T cells that sustain granuloma control of tuberculosis, and IL-2 responses mark protective immunity, a rationale for its trial as adjunctive immunotherapy."
 ---
 
 # Tuberculosis
@@ -641,6 +650,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the macrophage recruitment and granuloma formation of tuberculosis.
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the macrophage epigenetic reprogramming (trained immunity) of tuberculosis.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the T-cell activation of the immune response to tuberculosis.
+- `connects-to` → **[Glucocorticoid receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Adjunctive corticosteroids: dexamethasone acting through the glucocorticoid receptor reduces mortality in tuberculous meningitis and pericarditis by dampening the host immunopathology that damages tissue around the granuloma.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Undernutrition and risk: malnutrition is the leading global driver of tuberculosis, and low leptin in the undernourished impairs the cell-mediated immunity that contains Mycobacterium tuberculosis, linking nutritional state to reactivation risk.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell expansion: IL-2 drives the clonal proliferation of the antigen-specific T cells that sustain granuloma control of tuberculosis, and IL-2 responses mark protective immunity, a rationale for its trial as adjunctive immunotherapy.
 
 ## See Also
 

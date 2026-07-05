@@ -385,6 +385,15 @@ cross_links:
   - target: 01-human/03-molecular/il-17a
     relation: connects-to
     note: "IL-17A signaling participates in the neuroinflammatory and lesion microenvironment of tuberous sclerosis complex."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Cardiac rhabdomyoma: the earliest tuberous sclerosis lesion is the cardiac rhabdomyoma, a striated-muscle hamartoma expressing sarcomeric proteins including troponin, often found prenatally and typically regressing after birth."
+  - target: 01-human/03-molecular/acth
+    relation: connects-to
+    note: "Infantile spasms therapy: tuberous sclerosis is a leading cause of infantile spasms, for which ACTH is a first-line hormonal treatment alongside vigabatrin, acting to suppress the epileptic encephalopathy of early infancy."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Sleep and TAND: sleep disturbance is highly prevalent in tuberous sclerosis as part of the associated neuropsychiatric disorder, and melatonin is commonly used to manage the disrupted circadian sleep that compounds epilepsy and behaviour."
 ---
 
 # Tuberous Sclerosis Complex
@@ -647,6 +656,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the tumor/hamartoma microenvironment of tuberous sclerosis complex.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the immune microenvironment of the lesions of tuberous sclerosis complex.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the neuroinflammatory and lesion microenvironment of tuberous sclerosis complex.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiac rhabdomyoma: the earliest tuberous sclerosis lesion is the cardiac rhabdomyoma, a striated-muscle hamartoma expressing sarcomeric proteins including troponin, often found prenatally and typically regressing after birth.
+- `connects-to` → **[ACTH](../../03-molecular/acth/README.md)** — Infantile spasms therapy: tuberous sclerosis is a leading cause of infantile spasms, for which ACTH is a first-line hormonal treatment alongside vigabatrin, acting to suppress the epileptic encephalopathy of early infancy.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Sleep and TAND: sleep disturbance is highly prevalent in tuberous sclerosis as part of the associated neuropsychiatric disorder, and melatonin is commonly used to manage the disrupted circadian sleep that compounds epilepsy and behaviour.
 
 ---
 
