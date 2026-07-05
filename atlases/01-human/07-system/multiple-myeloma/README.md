@@ -400,6 +400,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Osteopontin participates in the myeloma-bone-disease and bone-marrow-microenvironment interactions of multiple myeloma."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Anaemia (the A of CRAB): marrow replacement by plasma cells and inflammation (hepcidin already mapped) suppress erythropoiesis, and the resulting anaemia with fatigue is often the presenting feature of multiple myeloma."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "BCMA CAR-T: IL-2-driven T-cell expansion powers the BCMA-directed CAR-T and bispecific-antibody therapies (perforin already mapped) that have transformed treatment of relapsed multiple myeloma."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Immune microenvironment: multiple myeloma progressively suppresses T-cell immunity and antigen presentation, and MHC-based recognition underlies both the immune escape of the plasma-cell clone and the response to its immunotherapies."
 ---
 
 # Multiple Myeloma
@@ -656,6 +665,9 @@ MM evolves from precursor conditions through a well-defined continuum:
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the plasma-cell survival signaling of multiple myeloma.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine (CD38/CD73-adenosine) signaling participates in the immunosuppressive bone-marrow microenvironment of multiple myeloma.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the myeloma-bone-disease and bone-marrow-microenvironment interactions of multiple myeloma.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Anaemia (the A of CRAB): marrow replacement by plasma cells and inflammation (hepcidin already mapped) suppress erythropoiesis, and the resulting anaemia with fatigue is often the presenting feature of multiple myeloma.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — BCMA CAR-T: IL-2-driven T-cell expansion powers the BCMA-directed CAR-T and bispecific-antibody therapies (perforin already mapped) that have transformed treatment of relapsed multiple myeloma.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immune microenvironment: multiple myeloma progressively suppresses T-cell immunity and antigen presentation, and MHC-based recognition underlies both the immune escape of the plasma-cell clone and the response to its immunotherapies.
 
 [^kumar-2022-imwg-criteria]: Kumar SK, Callander NS, Adekola K, et al. Multiple myeloma, version 3.2021, NCCN clinical practice guidelines in oncology. *J Natl Compr Canc Netw.* 2020;18(12):1685-1717. [doi:10.6004/jnccn.2020.0057](https://doi.org/10.6004/jnccn.2020.0057) · [PubMed 33285519](https://pubmed.ncbi.nlm.nih.gov/33285519/)
 [^moreau-2022-teclistamab]: Moreau P, Garfall AL, van de Donk NWCJ, et al. Teclistamab in relapsed or refractory multiple myeloma. *N Engl J Med.* 2022;387(6):495-505. [doi:10.1056/NEJMoa2203478](https://doi.org/10.1056/NEJMoa2203478) · [PubMed 35661166](https://pubmed.ncbi.nlm.nih.gov/35661166/)

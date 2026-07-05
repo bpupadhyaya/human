@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/calcineurin
     relation: connects-to
     note: "Calcineurin-NFAT signaling participates in the intestinal inflammation and tumor microenvironment of MUTYH-associated polyposis."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Bleeding anaemia: the adenomatous polyps of MUTYH-associated polyposis bleed into the gut, and the resulting chronic occult blood loss causes the iron-deficiency anaemia (iron already mapped) that lowers haemoglobin and can prompt investigation."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Immunogenic mutations: the defective repair of oxidative DNA damage in MUTYH-associated polyposis raises the tumour mutational burden, generating MHC-presented neoantigens that make some of its cancers responsive to immune surveillance and immunotherapy."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Checkpoint therapy: the elevated mutational burden of MUTYH-deficient colorectal cancers can render them responsive to PD-1 checkpoint blockade, an immune approach for the advanced tumours of this polyposis syndrome."
 ---
 
 # MUTYH-Associated Polyposis
@@ -636,6 +645,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory tumor microenvironment of MUTYH-associated polyposis.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory tumor microenvironment of MUTYH-associated polyposis.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the intestinal inflammation and tumor microenvironment of MUTYH-associated polyposis.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Bleeding anaemia: the adenomatous polyps of MUTYH-associated polyposis bleed into the gut, and the resulting chronic occult blood loss causes the iron-deficiency anaemia (iron already mapped) that lowers haemoglobin and can prompt investigation.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immunogenic mutations: the defective repair of oxidative DNA damage in MUTYH-associated polyposis raises the tumour mutational burden, generating MHC-presented neoantigens that make some of its cancers responsive to immune surveillance and immunotherapy.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Checkpoint therapy: the elevated mutational burden of MUTYH-deficient colorectal cancers can render them responsive to PD-1 checkpoint blockade, an immune approach for the advanced tumours of this polyposis syndrome.
 
 ---
 
