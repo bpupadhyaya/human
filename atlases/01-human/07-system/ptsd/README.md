@@ -396,6 +396,15 @@ cross_links:
   - target: 01-human/03-molecular/calcineurin
     relation: connects-to
     note: "Calcineurin-NFAT signaling participates in the fear-memory-related synaptic plasticity and neuroimmune activation of post-traumatic stress disorder."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "Brain renin-angiotensin: central angiotensin II modulates fear consolidation and the stress response, and angiotensin-receptor blockers such as losartan are associated with reduced PTSD symptoms, a neuroendocrine target beyond the monoamine and HPA systems already mapped."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Fear-memory plasticity: nitric oxide from neuronal nNOS is required for the synaptic plasticity of fear conditioning in the amygdala, implicating NO signalling in the formation of the intrusive traumatic memories of PTSD."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Arousal regulation: central histaminergic neurotransmission drives wakefulness and arousal, systems pathologically heightened in the hypervigilance, exaggerated startle and sleep disturbance of post-traumatic stress disorder."
 ---
 
 # PTSD
@@ -657,6 +666,9 @@ Not all trauma leads to PTSD. Risk and resilience factors include:
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the neuroinflammation associated with post-traumatic stress disorder.
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic (trauma-related) programming implicated in post-traumatic stress disorder.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the fear-memory-related synaptic plasticity and neuroimmune activation of post-traumatic stress disorder.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — Brain renin-angiotensin: central angiotensin II modulates fear consolidation and the stress response, and angiotensin-receptor blockers such as losartan are associated with reduced PTSD symptoms, a neuroendocrine target beyond the monoamine and HPA systems already mapped.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Fear-memory plasticity: nitric oxide from neuronal nNOS is required for the synaptic plasticity of fear conditioning in the amygdala, implicating NO signalling in the formation of the intrusive traumatic memories of PTSD.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Arousal regulation: central histaminergic neurotransmission drives wakefulness and arousal, systems pathologically heightened in the hypervigilance, exaggerated startle and sleep disturbance of post-traumatic stress disorder.
 
 [^yehuda-2015-ptsd-review]: Yehuda R, Hoge CW, McFarlane AC, et al. Post-traumatic stress disorder. *Nat Rev Dis Primers.* 2015;1:15057. [doi:10.1038/nrdp.2015.57](https://doi.org/10.1038/nrdp.2015.57) · [PubMed 27189040](https://pubmed.ncbi.nlm.nih.gov/27189040/)
 [^foa-2019-ptsd-treatments]: Foa EB, McLean CP. The efficacy of exposure therapy for anxiety and related disorders. *Annu Rev Clin Psychol.* 2016;12:1-28. [doi:10.1146/annurev-clinpsy-021815-093533](https://doi.org/10.1146/annurev-clinpsy-021815-093533) · [PubMed 26928206](https://pubmed.ncbi.nlm.nih.gov/26928206/)

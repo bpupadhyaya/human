@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/adenosine
     relation: connects-to
     note: "Adenosine signaling, a mechanism of methotrexate's anti-inflammatory action, participates in the immunomodulation of psoriasis."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "HLA-C association: the strongest genetic risk factor for psoriasis is HLA-C*06:02 (PSORS1), an MHC allele, and antigen presentation to T cells, including of the autoantigen LL-37, initiates the IL-23/IL-17 cascade already mapped."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic comorbidity: psoriasis clusters with metabolic syndrome, and reduced levels of the protective adipokine adiponectin accompany the leptin excess already mapped, linking the systemic inflammation of psoriasis to its cardiometabolic risk."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "Plaque angiogenesis: psoriatic plaques show dilated, tortuous dermal capillaries driven by angiopoietin-Tie2 and VEGF (VEGF already mapped), the vascular change underlying the Auspitz sign of pinpoint bleeding on scale removal."
 ---
 
 # Psoriasis
@@ -634,6 +643,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the keratinocyte and immune gene programs of psoriasis.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling, a target of ciclosporin, participates in the T-cell activation of psoriasis.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine signaling, a mechanism of methotrexate's anti-inflammatory action, participates in the immunomodulation of psoriasis.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — HLA-C association: the strongest genetic risk factor for psoriasis is HLA-C*06:02 (PSORS1), an MHC allele, and antigen presentation to T cells, including of the autoantigen LL-37, initiates the IL-23/IL-17 cascade already mapped.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic comorbidity: psoriasis clusters with metabolic syndrome, and reduced levels of the protective adipokine adiponectin accompany the leptin excess already mapped, linking the systemic inflammation of psoriasis to its cardiometabolic risk.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Plaque angiogenesis: psoriatic plaques show dilated, tortuous dermal capillaries driven by angiopoietin-Tie2 and VEGF (VEGF already mapped), the vascular change underlying the Auspitz sign of pinpoint bleeding on scale removal.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
