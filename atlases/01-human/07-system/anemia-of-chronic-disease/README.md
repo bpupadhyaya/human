@@ -406,6 +406,15 @@ cross_links:
   - target: 01-human/03-molecular/nfe2l2
     relation: connects-to
     note: "Oxidative red-cell loss: the inflammatory oxidative milieu accelerates eryptosis and shortens red-cell survival, and the NRF2 antioxidant response modulates this stress, adding a haemolytic component to the anemia of chronic disease."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Sex differences in erythropoiesis: sex hormones modulate red-cell production, with testosterone (already mapped) stimulating and estrogen restraining erythropoiesis, contributing to the different baseline haemoglobin against which the anemia of chronic disease develops."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immune-regulatory tuning: the anti-inflammatory cytokine IL-10 can paradoxically raise hepcidin (already mapped) and modulate macrophage iron handling, part of the complex cytokine balance that shapes the anemia of chronic disease."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Nutritional immunity: like iron (already mapped), zinc is redistributed away from the plasma during inflammation as part of nutritional immunity, and the resulting hypozincaemia can further impair the erythropoiesis blunted in chronic disease."
 ---
 
 # Anemia of Chronic Disease
@@ -659,6 +668,9 @@ This adaptive rationale explains why **aggressive iron supplementation during ac
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen erythropoiesis: testosterone stimulates erythropoietin production and erythroid progenitors, so the hypogonadism common in chronic illness and aging deepens the anemia of chronic disease beyond the inflammatory iron restriction.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Erythroid support: IGF-1 promotes the proliferation and survival of erythroid progenitors, and its suppression in chronic illness and malnutrition contributes to the blunted erythropoiesis of the anemia of chronic disease.
 - `connects-to` → **[NFE2L2](../../03-molecular/nfe2l2/README.md)** — Oxidative red-cell loss: the inflammatory oxidative milieu accelerates eryptosis and shortens red-cell survival, and the NRF2 antioxidant response modulates this stress, adding a haemolytic component to the anemia of chronic disease.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Sex differences in erythropoiesis: sex hormones modulate red-cell production, with testosterone (already mapped) stimulating and estrogen restraining erythropoiesis, contributing to the different baseline haemoglobin against which the anemia of chronic disease develops.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immune-regulatory tuning: the anti-inflammatory cytokine IL-10 can paradoxically raise hepcidin (already mapped) and modulate macrophage iron handling, part of the complex cytokine balance that shapes the anemia of chronic disease.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Nutritional immunity: like iron (already mapped), zinc is redistributed away from the plasma during inflammation as part of nutritional immunity, and the resulting hypozincaemia can further impair the erythropoiesis blunted in chronic disease.
 
 [^weiss-2005-acd-review]: Weiss G, Goodnough LT. Anemia of chronic disease. *N Engl J Med.* 2005;352(10):1011-1023. [doi:10.1056/NEJMra041809](https://doi.org/10.1056/NEJMra041809) · [PubMed 15758012](https://pubmed.ncbi.nlm.nih.gov/15758012/)
 [^nemeth-2004-il6-hepcidin]: Nemeth E, Rivera S, Gabayan V, et al. IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin. *J Clin Invest.* 2004;113(9):1271-1276. [doi:10.1172/JCI200420945](https://doi.org/10.1172/JCI200420945) · [PubMed 15124018](https://pubmed.ncbi.nlm.nih.gov/15124018/)

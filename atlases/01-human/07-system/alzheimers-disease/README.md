@@ -406,6 +406,15 @@ cross_links:
   - target: 01-human/03-molecular/mhc-class-ii
     relation: connects-to
     note: "Microglial neuroinflammation: MHC class II is upregulated on activated microglia in Alzheimer's disease, marking the antigen-presenting, inflammatory microglial state (TREM2-driven) that shapes plaque clearance and neurodegeneration."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "Brain renin-angiotensin: a central renin-angiotensin system modulates cerebral blood flow, inflammation and amyloid handling, and antihypertensives blocking angiotensin II are associated with lower dementia risk, a vascular-metabolic target in Alzheimer's disease."
+  - target: 01-human/03-molecular/progesterone
+    relation: connects-to
+    note: "Neurosteroid protection: progesterone and its neurosteroid metabolites are neuroprotective and support myelin, and together with estrogen (already mapped) their postmenopausal loss is proposed to contribute to women's higher Alzheimer's risk."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Cholinergic and histaminergic cognition: histaminergic H3 signalling modulates cognition and was a drug target in Alzheimer's, while the cumulative anticholinergic and antihistamine burden of many drugs is itself associated with higher dementia risk."
 ---
 
 # Alzheimer's Disease
@@ -634,6 +643,9 @@ Microglia play a central, dual role in AD:
 - `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Anti-amyloid immunotherapy: the first disease-modifying Alzheimer's drugs, lecanemab and donanemab, are IgG monoclonal antibodies that clear amyloid-beta (APP already mapped) from the brain, validating the amyloid target through passive immunisation.
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Sex differences: women bear a disproportionate share of Alzheimer's disease, and the loss of neuroprotective estrogen at menopause is one proposed contributor to their elevated risk and the faster progression seen after diagnosis.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Microglial neuroinflammation: MHC class II is upregulated on activated microglia in Alzheimer's disease, marking the antigen-presenting, inflammatory microglial state (TREM2-driven) that shapes plaque clearance and neurodegeneration.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — Brain renin-angiotensin: a central renin-angiotensin system modulates cerebral blood flow, inflammation and amyloid handling, and antihypertensives blocking angiotensin II are associated with lower dementia risk, a vascular-metabolic target in Alzheimer's disease.
+- `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Neurosteroid protection: progesterone and its neurosteroid metabolites are neuroprotective and support myelin, and together with estrogen (already mapped) their postmenopausal loss is proposed to contribute to women's higher Alzheimer's risk.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Cholinergic and histaminergic cognition: histaminergic H3 signalling modulates cognition and was a drug target in Alzheimer's, while the cumulative anticholinergic and antihistamine burden of many drugs is itself associated with higher dementia risk.
 
 [^selkoe-2016-alzheimer]: Selkoe DJ, Hardy J. The amyloid hypothesis of Alzheimer's disease at 25 years. *EMBO Mol Med.* 2016;8(6):595-608. [doi:10.15252/emmm.201606210](https://doi.org/10.15252/emmm.201606210) · [PubMed 27025652](https://pubmed.ncbi.nlm.nih.gov/27025652/)
 [^jack-2018-nia-aa]: Jack CR Jr, Bennett DA, Blennow K, et al. NIA-AA Research Framework: Toward a biological definition of Alzheimer's disease. *Alzheimers Dement.* 2018;14(4):535-562. [doi:10.1016/j.jalz.2018.02.018](https://doi.org/10.1016/j.jalz.2018.02.018) · [PubMed 29653606](https://pubmed.ncbi.nlm.nih.gov/29653606/)
