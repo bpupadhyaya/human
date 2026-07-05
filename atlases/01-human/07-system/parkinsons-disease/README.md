@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin
     relation: connects-to
     note: "Insulin resistance: brain insulin resistance is common in Parkinson's disease and impairs neuronal energetics and survival, the rationale behind repurposing GLP-1 agonists (already mapped) as disease-modifying candidates."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Adaptive autoimmunity: alpha-synuclein-specific T cells recognised through IL-2-driven expansion are found in Parkinson's disease, implicating an adaptive immune response against the aggregating protein (already mapped) in dopaminergic neuron loss."
+  - target: 01-human/03-molecular/progesterone
+    relation: connects-to
+    note: "Neurosteroid protection: progesterone and its neurosteroid metabolites are neuroprotective, and together with estrogen (already mapped) may contribute to the lower incidence and later onset of Parkinson's disease in women."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Microglial polarisation: IL-4 shifts microglia (already mapped) toward a reparative, anti-inflammatory phenotype, and boosting this arm against the pro-inflammatory TNF/IL-1 response is a neuroprotective strategy explored in Parkinson's disease."
 ---
 
 # Parkinson's Disease
@@ -670,6 +679,9 @@ PD is primarily a disease of aging (mean onset ~60 years), but **~10–15% of ca
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Sex differences: Parkinson's disease is more common in men, and estrogen exerts neuroprotective effects on dopaminergic neurons, contributing to the later onset and milder early course seen in women.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — Brain renin-angiotensin: a local renin-angiotensin system in the substantia nigra amplifies microglial oxidative stress and neuroinflammation, and angiotensin-receptor blockade is neuroprotective in models, a target beyond dopamine replacement.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Insulin resistance: brain insulin resistance is common in Parkinson's disease and impairs neuronal energetics and survival, the rationale behind repurposing GLP-1 agonists (already mapped) as disease-modifying candidates.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Adaptive autoimmunity: alpha-synuclein-specific T cells recognised through IL-2-driven expansion are found in Parkinson's disease, implicating an adaptive immune response against the aggregating protein (already mapped) in dopaminergic neuron loss.
+- `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Neurosteroid protection: progesterone and its neurosteroid metabolites are neuroprotective, and together with estrogen (already mapped) may contribute to the lower incidence and later onset of Parkinson's disease in women.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Microglial polarisation: IL-4 shifts microglia (already mapped) toward a reparative, anti-inflammatory phenotype, and boosting this arm against the pro-inflammatory TNF/IL-1 response is a neuroprotective strategy explored in Parkinson's disease.
 
 [^kalia-2015-pd-review]: Kalia LV, Lang AE. Parkinson's disease. *Lancet.* 2015;386(9996):896-912. [doi:10.1016/S0140-6736(14)61393-3](https://doi.org/10.1016/S0140-6736(14)61393-3) · [PubMed 25904081](https://pubmed.ncbi.nlm.nih.gov/25904081/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
