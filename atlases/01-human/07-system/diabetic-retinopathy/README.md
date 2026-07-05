@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Osteopontin participates in the retinal gliosis and inflammatory microenvironment of diabetic retinopathy."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "Retinal neurodegeneration: diabetic retinopathy is now recognised as neurodegenerative as well as microvascular, and loss of neurotrophic BDNF support contributes to the retinal ganglion cell dysfunction that precedes visible vascular lesions."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative injury: hyperglycaemia activates xanthine oxidase and other sources of reactive oxygen species that damage retinal capillary endothelium and pericytes, an oxidative mechanism upstream of the VEGF-driven angiogenesis already mapped."
+  - target: 01-human/03-molecular/sglt2
+    relation: connects-to
+    note: "Systemic glycaemic control: SGLT2 inhibitors lower glucose and blood pressure and reduce the systemic drivers of microvascular disease, connecting the modern diabetes-treatment axis to the retinal outcomes that track with long-term glycaemia."
 ---
 
 # Diabetic Retinopathy
@@ -629,6 +638,9 @@ DR encompasses a spectrum from subtle vascular changes to sight-threatening neov
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic (metabolic-memory) regulation of the gene programs of diabetic retinopathy.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling downstream of VEGF participates in the retinal endothelial activation and angiogenesis of diabetic retinopathy.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the retinal gliosis and inflammatory microenvironment of diabetic retinopathy.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Retinal neurodegeneration: diabetic retinopathy is now recognised as neurodegenerative as well as microvascular, and loss of neurotrophic BDNF support contributes to the retinal ganglion cell dysfunction that precedes visible vascular lesions.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative injury: hyperglycaemia activates xanthine oxidase and other sources of reactive oxygen species that damage retinal capillary endothelium and pericytes, an oxidative mechanism upstream of the VEGF-driven angiogenesis already mapped.
+- `connects-to` → **[SGLT2](../../03-molecular/sglt2/README.md)** — Systemic glycaemic control: SGLT2 inhibitors lower glucose and blood pressure and reduce the systemic drivers of microvascular disease, connecting the modern diabetes-treatment axis to the retinal outcomes that track with long-term glycaemia.
 
 [^fong-2004-dr-review]: Fong DS, Aiello L, Gardner TW, et al. Diabetic retinopathy. *Diabetes Care.* 2004;27(10):2540-2553. [doi:10.2337/diacare.27.10.2540](https://doi.org/10.2337/diacare.27.10.2540) · [PubMed 15451934](https://pubmed.ncbi.nlm.nih.gov/15451934/)
 [^brown-2015-aflibercept-protocol-t]: Diabetic Retinopathy Clinical Research Network; Wells JA, Glassman AR, et al. Aflibercept, Bevacizumab, or Ranibizumab for Diabetic Macular Edema. *N Engl J Med.* 2015;372(13):1193-1203. [doi:10.1056/NEJMoa1414264](https://doi.org/10.1056/NEJMoa1414264) · [PubMed 25692915](https://pubmed.ncbi.nlm.nih.gov/25692915/)

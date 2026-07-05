@@ -406,6 +406,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "IL-6 signaling participates in the mucosal immune and epithelial-regeneration processes of the digestive system."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Gastric acid: parietal cells secrete hydrochloric acid by pumping protons through the H+/K+ ATPase, the target of proton-pump inhibitors, creating the acidic lumen that activates pepsin and provides a barrier against ingested microbes."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Mineral absorption: the small intestine absorbs dietary calcium under vitamin D control, so the digestive tract governs the calcium supply for bone and neuromuscular function and becomes a source of deficiency when absorption fails."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Enteric melatonin: the gut's enterochromaffin cells produce far more melatonin than the pineal gland, where it regulates intestinal motility and provides mucosal antioxidant protection, an under-recognised digestive-system endocrine function."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -624,6 +633,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [CCR5](../../03-molecular/ccr5/README.md) — mucosal trafficking: CCR5-driven chemokine signaling participates in the mucosal immune trafficking of the digestive system.
 - **Connects to:** [CXCL12](../../03-molecular/cxcl12/README.md) — epithelial-stromal crosstalk: CXCL12-CXCR4 signaling participates in the epithelial-stromal and immune interactions of the digestive system.
 - **Connects to:** [Interleukin-6](../../03-molecular/il-6/README.md) — mucosal regeneration: IL-6 signaling participates in the mucosal immune and epithelial-regeneration processes of the digestive system.
+- **Connects to:** [Proton](../../01-subatomic/proton/README.md) — gastric acid: parietal cells secrete hydrochloric acid by pumping protons through the H+/K+ ATPase, the target of proton-pump inhibitors, creating the acidic lumen that activates pepsin and provides a barrier against ingested microbes.
+- **Connects to:** [Calcium](../../02-atomic/calcium/README.md) — mineral absorption: the small intestine absorbs dietary calcium under vitamin D control, so the digestive tract governs the calcium supply for bone and neuromuscular function and becomes a source of deficiency when absorption fails.
+- **Connects to:** [Melatonin](../../03-molecular/melatonin/README.md) — enteric melatonin: the gut's enterochromaffin cells produce far more melatonin than the pineal gland, where it regulates intestinal motility and provides mucosal antioxidant protection, an under-recognised digestive-system endocrine function.
 
 ## Pathology
 
