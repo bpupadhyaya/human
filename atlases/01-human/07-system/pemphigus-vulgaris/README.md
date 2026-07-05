@@ -400,6 +400,15 @@ cross_links:
   - target: 01-human/03-molecular/thyroid-hormones
     relation: connects-to
     note: "Autoimmune clustering: pemphigus vulgaris co-occurs with autoimmune thyroid disease at elevated rates, reflecting the shared tendency to break tolerance, so thyroid-hormone dysfunction is a recognised comorbidity of the pemphigus autoimmune diathesis."
+  - target: 01-human/03-molecular/secretory-iga
+    relation: connects-to
+    note: "IgA pemphigus variant: while IgG drives classic pemphigus, a rarer IgA pemphigus targets desmosomal proteins with IgA autoantibodies, and secretory IgA at the oral mucosa is part of the antibody landscape of these blistering diseases."
+  - target: 01-human/03-molecular/mu-opioid-receptor
+    relation: connects-to
+    note: "Erosion pain: the widespread painful oral and skin erosions of pemphigus vulgaris are a major source of suffering, often requiring opioid analgesia acting at the mu-opioid receptor alongside disease-directed immunosuppression."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Pregnancy and neonatal disease: pemphigus can flare in pregnancy, and maternal IgG crossing the placenta (FcRn already mapped) can cause transient neonatal pemphigus, implicating the reproductive-hormone (estrogen) milieu in disease activity."
 ---
 
 # Pemphigus Vulgaris
@@ -671,6 +680,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[Glucocorticoid receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Corticosteroid cornerstone: systemic glucocorticoids remain first-line for pemphigus, acting through the glucocorticoid receptor to suppress the autoreactive T- and B-cell response and cytokine output, the axis underlying rapid disease control before steroid-sparing agents work.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — IgE autoantibody subset: alongside pathogenic IgG, a fraction of pemphigus patients harbour IgE anti-desmoglein antibodies that correlate with disease activity, a rationale for anti-IgE (omalizumab) trials and a mechanism distinct from the dominant IgG4 acantholysis.
 - `connects-to` → **[Thyroid hormones](../../03-molecular/thyroid-hormones/README.md)** — Autoimmune clustering: pemphigus vulgaris co-occurs with autoimmune thyroid disease at elevated rates, reflecting the shared tendency to break tolerance, so thyroid-hormone dysfunction is a recognised comorbidity of the pemphigus autoimmune diathesis.
+- `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — IgA pemphigus variant: while IgG drives classic pemphigus, a rarer IgA pemphigus targets desmosomal proteins with IgA autoantibodies, and secretory IgA at the oral mucosa is part of the antibody landscape of these blistering diseases.
+- `connects-to` → **[Mu-opioid receptor](../../03-molecular/mu-opioid-receptor/README.md)** — Erosion pain: the widespread painful oral and skin erosions of pemphigus vulgaris are a major source of suffering, often requiring opioid analgesia acting at the mu-opioid receptor alongside disease-directed immunosuppression.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Pregnancy and neonatal disease: pemphigus can flare in pregnancy, and maternal IgG crossing the placenta (FcRn already mapped) can cause transient neonatal pemphigus, implicating the reproductive-hormone (estrogen) milieu in disease activity.
 
 ---
 
