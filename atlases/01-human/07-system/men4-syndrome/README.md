@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/calcineurin
     relation: connects-to
     note: "Calcineurin-NFAT signaling participates in the tumor microenvironment and immune signaling of MEN4 syndrome."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Gastrinoma acid: like MEN1, MEN4 can include gastrinomas that drive massive gastric acid (proton) secretion (Zollinger-Ellison syndrome), causing refractory peptic ulceration managed with high-dose proton-pump inhibitors."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "Insulinoma hypoglycaemia: functional pancreatic neuroendocrine tumours in MEN4 can oversecrete insulin (already mapped), which through the insulin receptor produces the fasting hypoglycaemia of an insulinoma."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Carcinoid heart disease: serotonin-secreting neuroendocrine tumours in the MEN4 spectrum (serotonin already mapped) can cause carcinoid heart disease with valvular fibrosis, and troponin marks the associated myocardial strain."
 ---
 
 # MEN4 Syndrome
@@ -631,6 +640,9 @@ When clinical MEN features are present:
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory tumor microenvironment of the neuroendocrine neoplasms of MEN4 syndrome.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory tumor microenvironment of MEN4 syndrome.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the tumor microenvironment and immune signaling of MEN4 syndrome.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Gastrinoma acid: like MEN1, MEN4 can include gastrinomas that drive massive gastric acid (proton) secretion (Zollinger-Ellison syndrome), causing refractory peptic ulceration managed with high-dose proton-pump inhibitors.
+- `connects-to` → **[Insulin receptor](../../03-molecular/insulin-receptor/README.md)** — Insulinoma hypoglycaemia: functional pancreatic neuroendocrine tumours in MEN4 can oversecrete insulin (already mapped), which through the insulin receptor produces the fasting hypoglycaemia of an insulinoma.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Carcinoid heart disease: serotonin-secreting neuroendocrine tumours in the MEN4 spectrum (serotonin already mapped) can cause carcinoid heart disease with valvular fibrosis, and troponin marks the associated myocardial strain.
 
 [^alrezk-2017-men4]: Alrezk R, Hannah-Shmouni F, Stratakis CA. MEN4 and CDKN1B mutations: the latest of the MEN syndromes. *Endocr Relat Cancer.* 2017;24(10):T195-T208. [doi:10.1530/ERC-17-0243](https://doi.org/10.1530/ERC-17-0243) · [PubMed 28894007](https://pubmed.ncbi.nlm.nih.gov/28894007/)
 [^pellegata-2006-cdkn1b-men4]: Pellegata NS, Quintanilla-Martinez L, Siggelkow H, et al. Germ-line mutations in p27Kip1 cause a multiple endocrine neoplasia syndrome in rats and humans. *Proc Natl Acad Sci USA.* 2006;103(42):15558-15563. [doi:10.1073/pnas.0603306103](https://doi.org/10.1073/pnas.0603306103) · [PubMed 17030811](https://pubmed.ncbi.nlm.nih.gov/17030811/)
