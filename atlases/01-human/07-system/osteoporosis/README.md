@@ -397,6 +397,15 @@ cross_links:
   - target: 01-human/03-molecular/arid1a
     relation: connects-to
     note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the osteogenic and osteoclast gene programs of osteoporosis."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Matrix cofactor: zinc is a cofactor for alkaline phosphatase and the collagen-processing enzymes of bone formation and favours osteoblasts over osteoclasts, so zinc deficiency impairs bone accrual and quality."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Osteoclast apoptosis: bisphosphonates reduce bone resorption by shortening osteoclast lifespan, tipping the anti-apoptotic BCL-2 balance toward osteoclast death, one mechanistic basis of the mainstay antiresorptive therapy."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Diabetic bone fragility: type 2 diabetes paradoxically raises fracture risk despite normal density, as impaired insulin signalling and advanced glycation degrade bone quality, linking metabolic disease to skeletal fragility."
 ---
 
 # Osteoporosis
@@ -631,6 +640,9 @@ All newly diagnosed osteoporosis should be evaluated for secondary causes: CBC (
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the bone-remodeling immune microenvironment of osteoporosis.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the osteoclast differentiation and inflammatory bone loss of osteoporosis.
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the osteogenic and osteoclast gene programs of osteoporosis.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Matrix cofactor: zinc is a cofactor for alkaline phosphatase and the collagen-processing enzymes of bone formation and favours osteoblasts over osteoclasts, so zinc deficiency impairs bone accrual and quality.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Osteoclast apoptosis: bisphosphonates reduce bone resorption by shortening osteoclast lifespan, tipping the anti-apoptotic BCL-2 balance toward osteoclast death, one mechanistic basis of the mainstay antiresorptive therapy.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Diabetic bone fragility: type 2 diabetes paradoxically raises fracture risk despite normal density, as impaired insulin signalling and advanced glycation degrade bone quality, linking metabolic disease to skeletal fragility.
 
 [^kanis-2019-who-osteoporosis]: Kanis JA, Cooper C, Rizzoli R, Reginster JY. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. *Osteoporos Int.* 2019;30(1):3-44. [doi:10.1007/s00198-018-4704-5](https://doi.org/10.1007/s00198-018-4704-5) · [PubMed 30324412](https://pubmed.ncbi.nlm.nih.gov/30324412/)
 [^cosman-2016-romosozumab]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)
