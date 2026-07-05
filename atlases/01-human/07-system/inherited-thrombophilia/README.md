@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/adenosine
     relation: connects-to
     note: "Adenosine signaling provides platelet-inhibitory and vascular modulation relevant to inherited thrombophilia."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Androgen risk: exogenous testosterone therapy raises venous thromboembolism risk partly by inducing erythrocytosis, a modifiable exposure that compounds the baseline hypercoagulability of an inherited thrombophilia."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Hyperviscosity: a raised haemoglobin and haematocrit increase blood viscosity and thrombosis risk, so polycythaemia, whether from JAK2-driven disease or other causes, acts synergistically with an inherited thrombophilia to precipitate clots."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Obesity multiplier: obesity is a strong independent risk factor for venous thrombosis, and the adipokine leptin promotes platelet activation and a prothrombotic state that multiplies the risk conferred by an inherited thrombophilia."
 ---
 
 # Inherited Thrombophilia
@@ -678,6 +687,9 @@ Antithrombin (ATIII) is the primary plasma inhibitor of thrombin, FXa, FIXa, and
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the endothelial activation and thromboinflammation relevant to inherited thrombophilia.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the thromboinflammatory processes relevant to inherited thrombophilia.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine signaling provides platelet-inhibitory and vascular modulation relevant to inherited thrombophilia.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen risk: exogenous testosterone therapy raises venous thromboembolism risk partly by inducing erythrocytosis, a modifiable exposure that compounds the baseline hypercoagulability of an inherited thrombophilia.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Hyperviscosity: a raised haemoglobin and haematocrit increase blood viscosity and thrombosis risk, so polycythaemia, whether from JAK2-driven disease or other causes, acts synergistically with an inherited thrombophilia to precipitate clots.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Obesity multiplier: obesity is a strong independent risk factor for venous thrombosis, and the adipokine leptin promotes platelet activation and a prothrombotic state that multiplies the risk conferred by an inherited thrombophilia.
 
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)

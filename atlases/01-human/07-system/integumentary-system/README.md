@@ -386,6 +386,15 @@ cross_links:
   - target: 01-human/03-molecular/dnmt3a
     relation: connects-to
     note: "DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the keratinocyte differentiation and skin-immune gene programs of the integumentary system."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Metabolic skin signs: insulin and IGF acting on keratinocytes drive acanthosis nigricans, the velvety hyperpigmentation that signals insulin resistance, making the skin a visible window onto systemic metabolic disease."
+  - target: 01-human/03-molecular/endothelin-1
+    relation: connects-to
+    note: "Pigmentation and vascular tone: endothelin-1 signalling through EDNRB supports melanocyte survival and pigment production and regulates dermal vascular tone, contributing to both skin colour and cutaneous blood flow."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Cutaneous protection: the skin both produces and responds to melatonin, which acts as a local antioxidant against ultraviolet damage and participates in the circadian regulation of the hair follicle cycle."
 ---
 
 # Integumentary System
@@ -614,6 +623,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5-driven chemokine signaling participates in the cutaneous immune-cell trafficking of the integumentary system.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the dermal-epidermal and immune-cell interactions of the integumentary system.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the keratinocyte differentiation and skin-immune gene programs of the integumentary system.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Metabolic skin signs: insulin and IGF acting on keratinocytes drive acanthosis nigricans, the velvety hyperpigmentation that signals insulin resistance, making the skin a visible window onto systemic metabolic disease.
+- `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Pigmentation and vascular tone: endothelin-1 signalling through EDNRB supports melanocyte survival and pigment production and regulates dermal vascular tone, contributing to both skin colour and cutaneous blood flow.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Cutaneous protection: the skin both produces and responds to melatonin, which acts as a local antioxidant against ultraviolet damage and participates in the circadian regulation of the hair follicle cycle.
 
 ## Pathology
 
