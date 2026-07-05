@@ -399,6 +399,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "T-cell response: IL-2 drives the expansion of the RSV-specific effector and memory T cells that clear infected airway epithelium, and the balance of this response shapes both protection and the immunopathology of severe bronchiolitis."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Wheeze and Th2: histamine release accompanies the type-2, allergic-like response to RSV (IL-4/IL-13 already mapped), contributing to the airway oedema and wheeze of bronchiolitis and to the post-viral airway reactivity."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Airway nitric oxide: RSV alters epithelial nitric-oxide production, and NO both participates in antiviral defence and, in excess, contributes to the airway inflammation and vascular changes of severe bronchiolitis."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Inflammatory mediators: prostaglandins and other lipid mediators generated during RSV infection promote the airway inflammation, mucus secretion and bronchoconstriction that obstruct the small airways in bronchiolitis."
 ---
 
 # RSV
@@ -670,3 +679,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Vaccine immunity: MHC class II-restricted CD4 T-cell help drives the antibody responses to the RSV F protein (already mapped) targeted by maternal and older-adult vaccines, and a Th2-skewed version of this help historically caused vaccine-enhanced disease.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Airway smooth muscle: RSV infection provokes bronchospasm and the recurrent wheeze that can follow bronchiolitis through calcium-dependent airway smooth muscle contraction and heightened airway responsiveness.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell response: IL-2 drives the expansion of the RSV-specific effector and memory T cells that clear infected airway epithelium, and the balance of this response shapes both protection and the immunopathology of severe bronchiolitis.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Wheeze and Th2: histamine release accompanies the type-2, allergic-like response to RSV (IL-4/IL-13 already mapped), contributing to the airway oedema and wheeze of bronchiolitis and to the post-viral airway reactivity.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Airway nitric oxide: RSV alters epithelial nitric-oxide production, and NO both participates in antiviral defence and, in excess, contributes to the airway inflammation and vascular changes of severe bronchiolitis.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Inflammatory mediators: prostaglandins and other lipid mediators generated during RSV infection promote the airway inflammation, mucus secretion and bronchoconstriction that obstruct the small airways in bronchiolitis.

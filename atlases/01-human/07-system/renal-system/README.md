@@ -406,6 +406,15 @@ cross_links:
   - target: 01-human/03-molecular/hepcidin
     relation: connects-to
     note: "Renal anaemia: the kidney produces erythropoietin (already mapped) and its disease raises hepcidin through inflammation and reduced clearance, restricting iron availability and driving the anaemia of chronic kidney disease."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: connects-to
+    note: "Vascular tone control: smooth muscle in the afferent and efferent arterioles and the mesangium sets glomerular filtration pressure under RAAS and sympathetic control (angiotensin II already mapped), the microvascular regulation central to renal function."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Interstitial inflammation: infiltrating macrophages drive the tubulointerstitial inflammation and fibrosis (TGF-beta already mapped) that determine progression of chronic kidney disease, a key immune contributor to renal scarring."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Renal anaemia: falling erythropoietin (already mapped) production by the diseased kidney lowers haemoglobin, the renal anaemia treated with erythropoiesis-stimulating agents and, more recently, HIF stabilisers."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -630,6 +639,9 @@ Natriuretic counterpoint:
 - **Connects to:** [Proton](../../01-subatomic/proton/README.md) — acid-base balance: the kidney maintains systemic pH by secreting protons and regenerating bicarbonate in the tubules, and its failure to excrete fixed acid produces the metabolic acidosis characteristic of renal disease.
 - **Connects to:** [Insulin](../../03-molecular/insulin/README.md) — metabolic role: the kidney clears insulin and contributes to gluconeogenesis, so renal failure both prolongs insulin action, risking hypoglycaemia, and induces the insulin resistance that accompanies chronic kidney disease.
 - **Connects to:** [Hepcidin](../../03-molecular/hepcidin/README.md) — renal anaemia: the kidney produces erythropoietin (already mapped) and its disease raises hepcidin through inflammation and reduced clearance, restricting iron availability and driving the anaemia of chronic kidney disease.
+- **Connects to:** [Smooth muscle cell](../../04-cellular/smooth-muscle-cell/README.md) — vascular tone control: smooth muscle in the afferent and efferent arterioles and the mesangium sets glomerular filtration pressure under RAAS and sympathetic control (angiotensin II already mapped), the microvascular regulation central to renal function.
+- **Connects to:** [Macrophage](../../04-cellular/macrophage/README.md) — interstitial inflammation: infiltrating macrophages drive the tubulointerstitial inflammation and fibrosis (TGF-beta already mapped) that determine progression of chronic kidney disease, a key immune contributor to renal scarring.
+- **Connects to:** [Hemoglobin](../../03-molecular/hemoglobin/README.md) — renal anaemia: falling erythropoietin (already mapped) production by the diseased kidney lowers haemoglobin, the renal anaemia treated with erythropoiesis-stimulating agents and, more recently, HIF stabilisers.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 
