@@ -391,6 +391,15 @@ cross_links:
   - target: 01-human/03-molecular/adenosine
     relation: connects-to
     note: "Adenosine and purinergic signaling participate in the salivary-gland dysfunction and immunomodulation of Sjögren's syndrome."
+  - target: 01-human/03-molecular/immunoglobulin-g
+    relation: connects-to
+    note: "Hypergammaglobulinaemia: polyclonal B-cell activation in Sjögren's produces marked IgG elevation and the diagnostic anti-Ro/SSA and anti-La/SSB autoantibodies, and this sustained IgG autoreactivity underlies the risk of transformation to MALT lymphoma."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Sex-hormone dimension: the striking female predominance and typical postmenopausal onset implicate declining estrogen in the glandular epithelial apoptosis and loss of immune tolerance that characterise Sjögren's syndrome."
+  - target: 01-human/03-molecular/secretory-iga
+    relation: connects-to
+    note: "Mucosal secretory failure: lymphocytic destruction of exocrine glands reduces secretory IgA output into saliva and tears, weakening the mucosal immune barrier at the ocular and oral surfaces damaged by the sicca disease."
 ---
 
 # Sjögren's Syndrome
@@ -645,6 +654,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the autoreactive T-cell activation of the salivary and lacrimal gland infiltrates of Sjögren's syndrome.
 - `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — IL-10-mediated immunoregulation participates in the dysregulated immune balance of Sjögren's syndrome.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine and purinergic signaling participate in the salivary-gland dysfunction and immunomodulation of Sjögren's syndrome.
+- `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Hypergammaglobulinaemia: polyclonal B-cell activation in Sjögren's produces marked IgG elevation and the diagnostic anti-Ro/SSA and anti-La/SSB autoantibodies, and this sustained IgG autoreactivity underlies the risk of transformation to MALT lymphoma.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Sex-hormone dimension: the striking female predominance and typical postmenopausal onset implicate declining estrogen in the glandular epithelial apoptosis and loss of immune tolerance that characterise Sjögren's syndrome.
+- `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — Mucosal secretory failure: lymphocytic destruction of exocrine glands reduces secretory IgA output into saliva and tears, weakening the mucosal immune barrier at the ocular and oral surfaces damaged by the sicca disease.
 
 ---
 

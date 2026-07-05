@@ -385,6 +385,15 @@ cross_links:
   - target: 01-human/03-molecular/il-33
     relation: connects-to
     note: "IL-33 alarmin signaling participates in the tumor-immune microenvironment of small cell lung cancer."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Immunotherapy target: small cell lung cancer is now treated with checkpoint inhibitors added to chemotherapy, and MHC class II antigen presentation shapes the T-cell response, with its frequent downregulation contributing to the tumour's immune evasion."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Autocrine growth loop: small cell lung cancer cells express IGF-1 receptor and drive an autocrine IGF-1/IGF-1R signalling loop that sustains proliferation and survival, a growth-factor dependency explored as a therapeutic vulnerability."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "Ectopic neuroendocrine secretion: as a neuroendocrine tumour small cell lung cancer can ectopically secrete calcitonin alongside ACTH and vasopressin (both already mapped), a paraneoplastic hormone output reflecting its chromaffin-like differentiation."
 ---
 
 # Small Cell Lung Cancer
@@ -617,6 +626,9 @@ SCLC has highest rate of brain metastases among solid tumors (~50% at 2 years); 
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the tumor-stromal interactions of small cell lung cancer.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the tumor microenvironment of small cell lung cancer.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the tumor-immune microenvironment of small cell lung cancer.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immunotherapy target: small cell lung cancer is now treated with checkpoint inhibitors added to chemotherapy, and MHC class II antigen presentation shapes the T-cell response, with its frequent downregulation contributing to the tumour's immune evasion.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Autocrine growth loop: small cell lung cancer cells express IGF-1 receptor and drive an autocrine IGF-1/IGF-1R signalling loop that sustains proliferation and survival, a growth-factor dependency explored as a therapeutic vulnerability.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Ectopic neuroendocrine secretion: as a neuroendocrine tumour small cell lung cancer can ectopically secrete calcitonin alongside ACTH and vasopressin (both already mapped), a paraneoplastic hormone output reflecting its chromaffin-like differentiation.
 
 [^horn-2018-impower133]: Horn L, Mansfield AS, Szczęsna A, et al. First-line atezolizumab plus chemotherapy in extensive-stage small-cell lung cancer. *N Engl J Med.* 2018;379(23):2220-2229. [doi:10.1056/NEJMoa1809064](https://doi.org/10.1056/NEJMoa1809064) · [PubMed 30280641](https://pubmed.ncbi.nlm.nih.gov/30280641/)
 [^paz-ares-2019-caspian]: Paz-Ares L, Dvorkin M, Chen Y, et al. Durvalumab plus platinum-etoposide versus platinum-etoposide in first-line treatment of extensive-stage small-cell lung cancer (CASPIAN). *Lancet.* 2019;394(10212):1929-1939. [doi:10.1016/S0140-6736(19)32222-6](https://doi.org/10.1016/S0140-6736(19)32222-6) · [PubMed 31590988](https://pubmed.ncbi.nlm.nih.gov/31590988/)
