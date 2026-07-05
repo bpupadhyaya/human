@@ -391,6 +391,15 @@ cross_links:
   - target: 01-human/03-molecular/il-17a
     relation: connects-to
     note: "IL-17A signaling participates in the inflammatory tumor microenvironment of hepatocellular carcinoma."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Immunotherapy: the checkpoint-inhibitor combination atezolizumab-bevacizumab is now first-line for advanced hepatocellular carcinoma, and MHC class II antigen presentation shapes the T-cell response that determines immunotherapy benefit."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Male predominance: hepatocellular carcinoma is far more common in men, and estrogen is thought to protect the female liver by dampening IL-6-driven inflammation (androgen receptor already mapped), contributing to the sex difference in incidence."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Growth-factor axis: reactivation of IGF-2 and IGF-1R signalling is common in hepatocellular carcinoma, driving proliferation and survival, and links the tumour to the metabolic and NASH pathways that increasingly cause it."
 ---
 
 # Hepatocellular Carcinoma
@@ -653,6 +662,9 @@ In high-risk patients (cirrhosis, HBV regardless of cirrhosis): ultrasound ± AF
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the tumor microenvironment of hepatocellular carcinoma.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the tumor-immune microenvironment of hepatocellular carcinoma.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory tumor microenvironment of hepatocellular carcinoma.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immunotherapy: the checkpoint-inhibitor combination atezolizumab-bevacizumab is now first-line for advanced hepatocellular carcinoma, and MHC class II antigen presentation shapes the T-cell response that determines immunotherapy benefit.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Male predominance: hepatocellular carcinoma is far more common in men, and estrogen is thought to protect the female liver by dampening IL-6-driven inflammation (androgen receptor already mapped), contributing to the sex difference in incidence.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Growth-factor axis: reactivation of IGF-2 and IGF-1R signalling is common in hepatocellular carcinoma, driving proliferation and survival, and links the tumour to the metabolic and NASH pathways that increasingly cause it.
 
 [^llovet-2008-sorafenib]: Llovet JM, Ricci S, Mazzaferro V, et al. Sorafenib in advanced hepatocellular carcinoma. *N Engl J Med.* 2008;359(4):378-390. [doi:10.1056/NEJMoa0708857](https://doi.org/10.1056/NEJMoa0708857) · [PubMed 18650514](https://pubmed.ncbi.nlm.nih.gov/18650514/)
 [^finn-2020-imbrave150]: Finn RS, Qin S, Ikeda M, et al. Atezolizumab plus bevacizumab in unresectable hepatocellular carcinoma. *N Engl J Med.* 2020;382(20):1894-1905. [doi:10.1056/NEJMoa1915745](https://doi.org/10.1056/NEJMoa1915745) · [PubMed 32402160](https://pubmed.ncbi.nlm.nih.gov/32402160/)

@@ -400,6 +400,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Osteopontin participates in the chronic immune activation and inflammation of HIV infection."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "CD4 target and evasion: HIV infects the MHC class II-restricted CD4 helper T cells whose progressive loss defines the immunodeficiency, and the virus downregulates MHC to evade cytotoxic recognition."
+  - target: 01-human/03-molecular/secretory-iga
+    relation: connects-to
+    note: "Mucosal transmission: HIV establishes infection by crossing genital and rectal mucosae, and secretory IgA at these surfaces is part of the mucosal immunity that vaccine and prevention efforts aim to strengthen against transmission."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "HIV anaemia: anaemia is common in HIV from chronic inflammation, marrow suppression, opportunistic infection and drug toxicity, lowering haemoglobin and independently predicting worse outcomes."
 ---
 
 # HIV
@@ -662,6 +671,9 @@ The **latent reservoir** — HIV integrated into quiescent resting memory CD4+ T
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF (BAF) chromatin remodeling participates in the epigenetic regulation of the host response and proviral latency of HIV infection.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the T-cell activation and HIV-LTR transcription/reactivation of HIV infection.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the chronic immune activation and inflammation of HIV infection.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — CD4 target and evasion: HIV infects the MHC class II-restricted CD4 helper T cells whose progressive loss defines the immunodeficiency, and the virus downregulates MHC to evade cytotoxic recognition.
+- `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — Mucosal transmission: HIV establishes infection by crossing genital and rectal mucosae, and secretory IgA at these surfaces is part of the mucosal immunity that vaccine and prevention efforts aim to strengthen against transmission.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — HIV anaemia: anaemia is common in HIV from chronic inflammation, marrow suppression, opportunistic infection and drug toxicity, lowering haemoglobin and independently predicting worse outcomes.
 
 [^barre-sinoussi-1983-hiv-isolation]: Barré-Sinoussi F, Chermann JC, Rey F, et al. Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS). *Science.* 1983;220(4599):868-871. [doi:10.1126/science.6189183](https://doi.org/10.1126/science.6189183) · [PubMed 6189183](https://pubmed.ncbi.nlm.nih.gov/6189183/)
 [^ho-1995-viral-dynamics]: Ho DD, Neumann AU, Perelson AS, et al. Rapid turnover of plasma virions and CD4 lymphocytes in HIV-1 infection. *Nature.* 1995;373(6510):123-126. [doi:10.1038/373123a0](https://doi.org/10.1038/373123a0) · [PubMed 7816094](https://pubmed.ncbi.nlm.nih.gov/7816094/)
