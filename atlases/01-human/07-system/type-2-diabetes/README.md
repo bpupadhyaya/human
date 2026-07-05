@@ -391,6 +391,15 @@ cross_links:
   - target: 01-human/03-molecular/arid1a
     relation: connects-to
     note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the metabolic gene programs relevant to type 2 diabetes."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Beta-cell secretion: after glucose closes the KATP channel and depolarises the beta cell, calcium influx triggers the exocytosis of insulin granules, the final step of secretion whose progressive failure underlies the beta-cell dysfunction of type 2 diabetes."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Male hypogonadism: low testosterone is bidirectionally linked with type 2 diabetes in men, as visceral adiposity and insulin resistance suppress testosterone while the resulting hypogonadism further worsens metabolic control and body composition."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Hyperuricaemia and oxidative stress: xanthine oxidase generates uric acid and reactive oxygen species, and the hyperuricaemia clustering with metabolic syndrome contributes to the insulin resistance and endothelial dysfunction of type 2 diabetes."
 ---
 
 # Type 2 Diabetes
@@ -618,6 +627,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the adipose-tissue immune regulation and metaflammation of type 2 diabetes.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the chronic inflammation of type 2 diabetes.
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the metabolic gene programs relevant to type 2 diabetes.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Beta-cell secretion: after glucose closes the KATP channel and depolarises the beta cell, calcium influx triggers the exocytosis of insulin granules, the final step of secretion whose progressive failure underlies the beta-cell dysfunction of type 2 diabetes.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Male hypogonadism: low testosterone is bidirectionally linked with type 2 diabetes in men, as visceral adiposity and insulin resistance suppress testosterone while the resulting hypogonadism further worsens metabolic control and body composition.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Hyperuricaemia and oxidative stress: xanthine oxidase generates uric acid and reactive oxygen species, and the hyperuricaemia clustering with metabolic syndrome contributes to the insulin resistance and endothelial dysfunction of type 2 diabetes.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

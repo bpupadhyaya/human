@@ -385,6 +385,15 @@ cross_links:
   - target: 01-human/03-molecular/il-17a
     relation: connects-to
     note: "IL-17A signaling participates in the inflammatory tumor microenvironment of uveal melanoma."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "HLA-restricted immunotherapy: uveal melanoma resists checkpoint blockade, yet the bispecific tebentafusp, the first agent to extend survival, redirects T cells to gp100 presented on HLA, underscoring the central role of antigen presentation in its treatment."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "Intact p53 vulnerability: uveal melanoma rarely mutates TP53 and instead suppresses wild-type p53 through MDM2 (already mapped), making pharmacologic p53 reactivation a rational strategy distinct from the mutant-p53 biology of many cancers."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Radiotherapy execution: primary uveal melanoma is controlled by plaque brachytherapy and proton-beam radiation that kill tumour cells via caspase-3-mediated apoptosis, the pathway whose evasion (BCL-2 already mapped) underlies radioresistant relapse."
 ---
 
 # Uveal Melanoma
@@ -644,6 +653,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the tumor microenvironment of uveal melanoma.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the tumor-immune microenvironment of uveal melanoma.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory tumor microenvironment of uveal melanoma.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — HLA-restricted immunotherapy: uveal melanoma resists checkpoint blockade, yet the bispecific tebentafusp, the first agent to extend survival, redirects T cells to gp100 presented on HLA, underscoring the central role of antigen presentation in its treatment.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — Intact p53 vulnerability: uveal melanoma rarely mutates TP53 and instead suppresses wild-type p53 through MDM2 (already mapped), making pharmacologic p53 reactivation a rational strategy distinct from the mutant-p53 biology of many cancers.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Radiotherapy execution: primary uveal melanoma is controlled by plaque brachytherapy and proton-beam radiation that kill tumour cells via caspase-3-mediated apoptosis, the pathway whose evasion (BCL-2 already mapped) underlies radioresistant relapse.
 
 ---
 
