@@ -385,6 +385,15 @@ cross_links:
   - target: 01-human/03-molecular/il-33
     relation: connects-to
     note: "IL-33 alarmin signaling participates in the intestinal-tumor immune microenvironment of Peutz-Jeghers syndrome."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Energy-sensing axis: LKB1 loss in Peutz-Jeghers cripples the AMPK energy sensor it activates, and leptin is the adipokine that signals through hypothalamic AMPK to regulate energy balance, extending the metabolic dysregulation beyond the adiponectin link already mapped."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Feminising gonadal tumours: Peutz-Jeghers boys develop large-cell calcifying Sertoli cell tumours that aromatise androgens to estrogen, causing gynaecomastia and disrupting the testosterone-estrogen balance (estrogen already mapped), a distinctive endocrine feature."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "Sex-cord secretory marker: the ovarian sex-cord tumours with annular tubules and gonadal stromal tumours of Peutz-Jeghers secrete inhibin/activin-family peptides, so activin signalling marks and drives this characteristic gonadal neoplasia."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -631,6 +640,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the tumor-stromal interactions of the polyps and cancers of Peutz-Jeghers syndrome.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the polyp and tumor microenvironment of Peutz-Jeghers syndrome.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the intestinal-tumor immune microenvironment of Peutz-Jeghers syndrome.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Energy-sensing axis: LKB1 loss in Peutz-Jeghers cripples the AMPK energy sensor it activates, and leptin is the adipokine that signals through hypothalamic AMPK to regulate energy balance, extending the metabolic dysregulation beyond the adiponectin link already mapped.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Feminising gonadal tumours: Peutz-Jeghers boys develop large-cell calcifying Sertoli cell tumours that aromatise androgens to estrogen, causing gynaecomastia and disrupting the testosterone-estrogen balance (estrogen already mapped), a distinctive endocrine feature.
+- `connects-to` → **[Activin A](../../03-molecular/activin-a/README.md)** — Sex-cord secretory marker: the ovarian sex-cord tumours with annular tubules and gonadal stromal tumours of Peutz-Jeghers secrete inhibin/activin-family peptides, so activin signalling marks and drives this characteristic gonadal neoplasia.
 
 ---
 

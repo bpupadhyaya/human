@@ -385,6 +385,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "IL-6-STAT3 signaling (STAT3 already mapped) participates in the tumor-microenvironment and survival signaling of pheochromocytoma and paraganglioma."
+  - target: 01-human/03-molecular/acetylcholine
+    relation: connects-to
+    note: "Secretory trigger: adrenal chromaffin cells are innervated by cholinergic splanchnic preganglionic fibres, so acetylcholine is the physiological signal that evokes catecholamine exocytosis, the pathway whose dysregulated tumour activity underlies paroxysmal secretion."
+  - target: 01-human/03-molecular/npy
+    relation: connects-to
+    note: "Co-secreted vasoconstrictor: neuropeptide Y is stored and released alongside catecholamines by pheochromocytoma and sympathetic paraganglia, contributing to the vasoconstriction and hypertension and serving as an additional secretory marker beyond the metanephrines."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Exocytosis and MEN2: calcium influx triggers the granule exocytosis releasing catecholamines from chromaffin cells, and in RET-driven MEN2 the tumour co-occurs with parathyroid hyperplasia and calcium dysregulation, linking secretion to syndromic mineral endocrinology."
 ---
 
 # Pheochromocytoma/Paraganglioma
@@ -649,6 +658,9 @@ Active in Cluster 1 (MET/AXL co-expressed in SDH-deficient tumors); Phase 2 CABO
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic landscape of pheochromocytoma and paraganglioma.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the tumor-stromal and pseudohypoxic interactions of pheochromocytoma and paraganglioma.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6-STAT3 signaling (STAT3 already mapped) participates in the tumor-microenvironment and survival signaling of pheochromocytoma and paraganglioma.
+- `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Secretory trigger: adrenal chromaffin cells are innervated by cholinergic splanchnic preganglionic fibres, so acetylcholine is the physiological signal that evokes catecholamine exocytosis, the pathway whose dysregulated tumour activity underlies paroxysmal secretion.
+- `connects-to` → **[NPY](../../03-molecular/npy/README.md)** — Co-secreted vasoconstrictor: neuropeptide Y is stored and released alongside catecholamines by pheochromocytoma and sympathetic paraganglia, contributing to the vasoconstriction and hypertension and serving as an additional secretory marker beyond the metanephrines.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Exocytosis and MEN2: calcium influx triggers the granule exocytosis releasing catecholamines from chromaffin cells, and in RET-driven MEN2 the tumour co-occurs with parathyroid hyperplasia and calcium dysregulation, linking secretion to syndromic mineral endocrinology.
 
 [^lenders-2014-pheo-guideline]: Lenders JW, Duh QY, Eisenhofer G, et al. Pheochromocytoma and paraganglioma: an endocrine society clinical practice guideline. *J Clin Endocrinol Metab.* 2014;99(6):1915-1942. [doi:10.1210/jc.2014-1498](https://doi.org/10.1210/jc.2014-1498) · [PubMed 24893135](https://pubmed.ncbi.nlm.nih.gov/24893135/)
 [^baudin-2021-firstmappp-sunitinib]: Baudin E, Goichot B, Berruti A, et al. First International Randomized Study in Malignant Progressive Pheochromocytoma and Paragangliomas (FIRSTMAPPP). *Ann Oncol.* 2021;32(10):1245-1254. [doi:10.1016/j.annonc.2021.07.009](https://doi.org/10.1016/j.annonc.2021.07.009) · [PubMed 34246769](https://pubmed.ncbi.nlm.nih.gov/34246769/)
