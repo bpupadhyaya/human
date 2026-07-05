@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Complement C3 participates in the innate immune activation of ankylosing spondylitis."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Cardiovascular risk: the chronic systemic inflammation of ankylosing spondylitis impairs endothelial nitric-oxide function, accelerating atherosclerosis and raising the cardiovascular mortality that accompanies the axial disease."
+  - target: 01-human/03-molecular/secretory-iga
+    relation: connects-to
+    note: "Gut-joint axis: subclinical gut inflammation with an altered secretory IgA response is part of the spondyloarthritis gut-joint axis, linking the intestinal microbiome and mucosal immunity to the enthesitis and sacroiliitis of ankylosing spondylitis."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "Entheseal neovascularisation: inflamed entheses in ankylosing spondylitis show increased vascularity on Doppler imaging, driven by angiopoietin-Tie2 and VEGF (VEGF already mapped), the angiogenic response accompanying the enthesitis before new bone forms."
 ---
 
 # Ankylosing Spondylitis
@@ -628,6 +637,9 @@ AS originates at the **enthesis** — the site where tendons, ligaments, and joi
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the immune responses of ankylosing spondylitis.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the T-cell activation of ankylosing spondylitis.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the innate immune activation of ankylosing spondylitis.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Cardiovascular risk: the chronic systemic inflammation of ankylosing spondylitis impairs endothelial nitric-oxide function, accelerating atherosclerosis and raising the cardiovascular mortality that accompanies the axial disease.
+- `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — Gut-joint axis: subclinical gut inflammation with an altered secretory IgA response is part of the spondyloarthritis gut-joint axis, linking the intestinal microbiome and mucosal immunity to the enthesitis and sacroiliitis of ankylosing spondylitis.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Entheseal neovascularisation: inflamed entheses in ankylosing spondylitis show increased vascularity on Doppler imaging, driven by angiopoietin-Tie2 and VEGF (VEGF already mapped), the angiogenic response accompanying the enthesitis before new bone forms.
 
 [^sieper-2015-ankylosing-spondylitis-review]: Sieper J, Poddubnyy D. Ankylosing spondylitis. *Lancet.* 2017;390(10089):73-84. [doi:10.1016/S0140-6736(16)31591-4](https://doi.org/10.1016/S0140-6736(16)31591-4) · [PubMed 28110981](https://pubmed.ncbi.nlm.nih.gov/28110981/)
 [^baeten-2015-secukinumab-as]: Baeten D, Sieper J, Braun J, et al. Secukinumab, an Interleukin-17A Inhibitor, in Ankylosing Spondylitis. *N Engl J Med.* 2015;373(26):2534-2548. [doi:10.1056/NEJMoa1505066](https://doi.org/10.1056/NEJMoa1505066) · [PubMed 26699169](https://pubmed.ncbi.nlm.nih.gov/26699169/)
