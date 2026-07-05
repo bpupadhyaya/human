@@ -405,6 +405,15 @@ cross_links:
   - target: 01-human/03-molecular/histamine
     relation: connects-to
     note: "Arousal regulation: central histaminergic neurotransmission drives wakefulness and arousal, systems pathologically heightened in the hypervigilance, exaggerated startle and sleep disturbance of post-traumatic stress disorder."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Mineralocorticoid stress axis: aldosterone acts on brain mineralocorticoid receptors that, balanced against glucocorticoid receptors (already mapped), tune the stress response and fear memory dysregulated in post-traumatic stress disorder."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Metabolic dysregulation: chronic stress in PTSD promotes insulin resistance and the metabolic syndrome (cortisol already mapped), part of the cardiometabolic burden that raises long-term physical illness in affected patients."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Cardiovascular risk: the sustained sympathetic activation (norepinephrine already mapped) of PTSD raises the risk of coronary disease and myocardial infarction, and troponin elevation marks the cardiac injury of these excess cardiovascular events."
 ---
 
 # PTSD
@@ -669,6 +678,9 @@ Not all trauma leads to PTSD. Risk and resilience factors include:
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — Brain renin-angiotensin: central angiotensin II modulates fear consolidation and the stress response, and angiotensin-receptor blockers such as losartan are associated with reduced PTSD symptoms, a neuroendocrine target beyond the monoamine and HPA systems already mapped.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Fear-memory plasticity: nitric oxide from neuronal nNOS is required for the synaptic plasticity of fear conditioning in the amygdala, implicating NO signalling in the formation of the intrusive traumatic memories of PTSD.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Arousal regulation: central histaminergic neurotransmission drives wakefulness and arousal, systems pathologically heightened in the hypervigilance, exaggerated startle and sleep disturbance of post-traumatic stress disorder.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Mineralocorticoid stress axis: aldosterone acts on brain mineralocorticoid receptors that, balanced against glucocorticoid receptors (already mapped), tune the stress response and fear memory dysregulated in post-traumatic stress disorder.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Metabolic dysregulation: chronic stress in PTSD promotes insulin resistance and the metabolic syndrome (cortisol already mapped), part of the cardiometabolic burden that raises long-term physical illness in affected patients.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiovascular risk: the sustained sympathetic activation (norepinephrine already mapped) of PTSD raises the risk of coronary disease and myocardial infarction, and troponin elevation marks the cardiac injury of these excess cardiovascular events.
 
 [^yehuda-2015-ptsd-review]: Yehuda R, Hoge CW, McFarlane AC, et al. Post-traumatic stress disorder. *Nat Rev Dis Primers.* 2015;1:15057. [doi:10.1038/nrdp.2015.57](https://doi.org/10.1038/nrdp.2015.57) · [PubMed 27189040](https://pubmed.ncbi.nlm.nih.gov/27189040/)
 [^foa-2019-ptsd-treatments]: Foa EB, McLean CP. The efficacy of exposure therapy for anxiety and related disorders. *Annu Rev Clin Psychol.* 2016;12:1-28. [doi:10.1146/annurev-clinpsy-021815-093533](https://doi.org/10.1146/annurev-clinpsy-021815-093533) · [PubMed 26928206](https://pubmed.ncbi.nlm.nih.gov/26928206/)

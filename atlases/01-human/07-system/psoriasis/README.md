@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/angiopoietin
     relation: connects-to
     note: "Plaque angiogenesis: psoriatic plaques show dilated, tortuous dermal capillaries driven by angiopoietin-Tie2 and VEGF (VEGF already mapped), the vascular change underlying the Auspitz sign of pinpoint bleeding on scale removal."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "T-cell activation: IL-2-driven T-cell activation and expansion sustain the pathogenic Th17 response of psoriasis, and calcineurin inhibitors (already mapped) that block IL-2 production, like ciclosporin, are effective systemic therapies."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Cardiovascular comorbidity: the systemic inflammation of psoriasis accelerates atherosclerosis (already mapped), and troponin elevation marks the myocardial injury of the increased cardiovascular events that shorten life in severe disease."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Hyperuricaemia: the rapid epidermal turnover of psoriasis raises purine catabolism through xanthine oxidase, elevating serum urate and increasing the risk of gout that accompanies the disease."
 ---
 
 # Psoriasis
@@ -646,6 +655,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — HLA-C association: the strongest genetic risk factor for psoriasis is HLA-C*06:02 (PSORS1), an MHC allele, and antigen presentation to T cells, including of the autoantigen LL-37, initiates the IL-23/IL-17 cascade already mapped.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic comorbidity: psoriasis clusters with metabolic syndrome, and reduced levels of the protective adipokine adiponectin accompany the leptin excess already mapped, linking the systemic inflammation of psoriasis to its cardiometabolic risk.
 - `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Plaque angiogenesis: psoriatic plaques show dilated, tortuous dermal capillaries driven by angiopoietin-Tie2 and VEGF (VEGF already mapped), the vascular change underlying the Auspitz sign of pinpoint bleeding on scale removal.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell activation: IL-2-driven T-cell activation and expansion sustain the pathogenic Th17 response of psoriasis, and calcineurin inhibitors (already mapped) that block IL-2 production, like ciclosporin, are effective systemic therapies.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiovascular comorbidity: the systemic inflammation of psoriasis accelerates atherosclerosis (already mapped), and troponin elevation marks the myocardial injury of the increased cardiovascular events that shorten life in severe disease.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Hyperuricaemia: the rapid epidermal turnover of psoriasis raises purine catabolism through xanthine oxidase, elevating serum urate and increasing the risk of gout that accompanies the disease.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
