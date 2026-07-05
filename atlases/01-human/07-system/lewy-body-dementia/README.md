@@ -400,6 +400,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Osteopontin participates in the microglial activation and neuroinflammation of Lewy body dementia."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Urate and oxidative stress: low serum urate, a product of xanthine oxidase with antioxidant properties, is associated with increased risk and faster progression of synucleinopathies, implicating oxidative stress in Lewy body dementia."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Sex differences: Lewy body dementia is more common in men, and estrogen's neuroprotective effects on dopaminergic and cholinergic neurons (acetylcholine already mapped) are proposed to contribute to the sex difference in risk."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Brain insulin resistance: impaired cerebral insulin signalling is common across the dementias, including Lewy body dementia, where it worsens neuronal energetics and may accelerate the alpha-synuclein neurodegeneration."
 ---
 
 # Lewy Body Dementia
@@ -653,6 +662,9 @@ Approximately 25-50% of clinically diagnosed DLB cases have significant AD co-pa
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the neuronal gene programs of Lewy body dementia.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine (A2A receptor) signaling participates in the synaptic dysfunction and neuroinflammation of Lewy body dementia.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the microglial activation and neuroinflammation of Lewy body dementia.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Urate and oxidative stress: low serum urate, a product of xanthine oxidase with antioxidant properties, is associated with increased risk and faster progression of synucleinopathies, implicating oxidative stress in Lewy body dementia.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Sex differences: Lewy body dementia is more common in men, and estrogen's neuroprotective effects on dopaminergic and cholinergic neurons (acetylcholine already mapped) are proposed to contribute to the sex difference in risk.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Brain insulin resistance: impaired cerebral insulin signalling is common across the dementias, including Lewy body dementia, where it worsens neuronal energetics and may accelerate the alpha-synuclein neurodegeneration.
 
 [^mckeith-2017-dlb-criteria]: McKeith IG, Boeve BF, Dickson DW, et al. Diagnosis and management of dementia with Lewy bodies: Fourth consensus report of the DLB Consortium. *Neurology.* 2017;89(1):88-100. [doi:10.1212/WNL.0000000000004058](https://doi.org/10.1212/WNL.0000000000004058) · [PubMed 28592453](https://pubmed.ncbi.nlm.nih.gov/28592453/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)

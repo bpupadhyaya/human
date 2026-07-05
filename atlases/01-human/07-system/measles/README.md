@@ -398,6 +398,15 @@ cross_links:
   - target: 01-human/03-molecular/arid1a
     relation: connects-to
     note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the host response to measles."
+  - target: 01-human/03-molecular/surfactant
+    relation: connects-to
+    note: "Giant-cell pneumonia: measles infects and fuses respiratory epithelium into multinucleated giant cells, damaging the type II pneumocytes that make surfactant, and the resulting pneumonia is a leading cause of measles death."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "T-cell response and lymphopenia: IL-2-driven T-cell expansion clears measles, but the acute infection also causes a transient lymphopenia, part of the immune disruption that leaves children vulnerable to secondary infections."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Malnutrition severity: protein-energy malnutrition, reflected in low leptin, markedly worsens measles outcomes, which is why the disease is far more lethal in undernourished children and why nutritional support is central to management."
 ---
 
 # Measles
@@ -669,6 +678,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the acute inflammatory response to measles.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the immune response and immunopathology of measles.
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the host response to measles.
+- `connects-to` → **[Surfactant](../../03-molecular/surfactant/README.md)** — Giant-cell pneumonia: measles infects and fuses respiratory epithelium into multinucleated giant cells, damaging the type II pneumocytes that make surfactant, and the resulting pneumonia is a leading cause of measles death.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell response and lymphopenia: IL-2-driven T-cell expansion clears measles, but the acute infection also causes a transient lymphopenia, part of the immune disruption that leaves children vulnerable to secondary infections.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Malnutrition severity: protein-energy malnutrition, reflected in low leptin, markedly worsens measles outcomes, which is why the disease is far more lethal in undernourished children and why nutritional support is central to management.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)
