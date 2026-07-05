@@ -400,6 +400,15 @@ cross_links:
   - target: 01-human/03-molecular/arid1a
     relation: connects-to
     note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the macrophage and vascular-cell gene programs of atherosclerosis."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Adaptive plaque immunity: atherosclerosis has an adaptive immune component, with MHC class II presentation of oxidised-LDL and ApoB peptides to T cells shaping the inflammation of the plaque, a target of experimental atherosclerosis vaccines."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Plaque rupture: rupture of an atherosclerotic plaque triggers coronary thrombosis and myocardial infarction, and troponin release marks the resulting myocardial injury, the acute clinical endpoint of the disease."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Obesity and inflammation: obesity accelerates atherosclerosis, and the adipokine leptin promotes endothelial dysfunction, macrophage foam-cell formation and vascular inflammation, linking metabolic syndrome to plaque progression."
 ---
 
 # Atherosclerosis
@@ -641,6 +650,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the vascular inflammation and plaque instability of atherosclerosis.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory and lipid-driven vascular injury of atherosclerosis.
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the macrophage and vascular-cell gene programs of atherosclerosis.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Adaptive plaque immunity: atherosclerosis has an adaptive immune component, with MHC class II presentation of oxidised-LDL and ApoB peptides to T cells shaping the inflammation of the plaque, a target of experimental atherosclerosis vaccines.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Plaque rupture: rupture of an atherosclerotic plaque triggers coronary thrombosis and myocardial infarction, and troponin release marks the resulting myocardial injury, the acute clinical endpoint of the disease.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Obesity and inflammation: obesity accelerates atherosclerosis, and the adipokine leptin promotes endothelial dysfunction, macrophage foam-cell formation and vascular inflammation, linking metabolic syndrome to plaque progression.
 
 ---
 

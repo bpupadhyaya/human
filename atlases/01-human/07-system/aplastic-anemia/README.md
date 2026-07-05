@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Osteopontin participates in the T-cell activation and hematopoietic-stem-cell-niche interactions of aplastic anemia."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Pancytopenic anaemia: destruction of haematopoietic stem cells collapses red-cell production, and the falling haemoglobin, alongside neutropenia and thrombocytopenia, is a defining and transfusion-dependent feature of aplastic anaemia."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Transfusional iron overload: chronic transfusion for aplastic anaemia deposits iron in the heart and liver, and the disordered hepcidin-driven iron handling contributes to the overload that requires chelation therapy."
+  - target: 01-human/03-molecular/ctla-4
+    relation: connects-to
+    note: "T-cell checkpoint: the autoreactive T cells that destroy the marrow in aplastic anaemia are normally restrained by CTLA-4, and immunosuppressive therapy works by damping this T-cell attack to allow haematopoietic recovery."
 ---
 
 # Aplastic Anemia
@@ -632,6 +641,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the hematopoietic and immune gene programs relevant to aplastic anemia.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine signaling participates in the immunomodulation of the T-cell-mediated marrow failure of aplastic anemia.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the T-cell activation and hematopoietic-stem-cell-niche interactions of aplastic anemia.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Pancytopenic anaemia: destruction of haematopoietic stem cells collapses red-cell production, and the falling haemoglobin, alongside neutropenia and thrombocytopenia, is a defining and transfusion-dependent feature of aplastic anaemia.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Transfusional iron overload: chronic transfusion for aplastic anaemia deposits iron in the heart and liver, and the disordered hepcidin-driven iron handling contributes to the overload that requires chelation therapy.
+- `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — T-cell checkpoint: the autoreactive T cells that destroy the marrow in aplastic anaemia are normally restrained by CTLA-4, and immunosuppressive therapy works by damping this T-cell attack to allow haematopoietic recovery.
 
 ---
 
