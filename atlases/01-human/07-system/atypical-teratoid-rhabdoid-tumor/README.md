@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/ctla-4
     relation: connects-to
     note: "Checkpoint blockade: CTLA-4 restrains anti-tumour T-cell activation, and blocking it, alongside PD-1, is part of the immunotherapy strategy being tested to overcome the immune evasion of atypical teratoid/rhabdoid tumour."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Chemotherapy anaemia: the intensive multi-agent chemotherapy for atypical teratoid/rhabdoid tumour is profoundly myelosuppressive, lowering haemoglobin and causing the anaemia and cytopenias that complicate treatment in these very young children."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Anthracycline cardiotoxicity: anthracyclines in the treatment regimens are cardiotoxic, and troponin elevation helps detect the myocardial injury that threatens the few long-term survivors of atypical teratoid/rhabdoid tumour."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Tumour lysis and oxidative stress: the high proliferative rate of this embryonal tumour, lysed by chemotherapy, releases purines catabolised by xanthine oxidase to uric acid, contributing to tumour-lysis risk and oxidative stress."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -650,6 +659,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immunotherapy target: this poor-prognosis infant brain tumour is being explored for checkpoint and cellular immunotherapy (PD-1 already mapped), and MHC class II antigen presentation shapes the T-cell response in an otherwise immunologically cold tumour.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Cellular immunotherapy: IL-2 drives the expansion of the engineered and endogenous T cells behind the CAR-T and adoptive approaches under investigation for atypical teratoid/rhabdoid tumour given its dismal outcomes with conventional therapy.
 - `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Checkpoint blockade: CTLA-4 restrains anti-tumour T-cell activation, and blocking it, alongside PD-1, is part of the immunotherapy strategy being tested to overcome the immune evasion of atypical teratoid/rhabdoid tumour.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Chemotherapy anaemia: the intensive multi-agent chemotherapy for atypical teratoid/rhabdoid tumour is profoundly myelosuppressive, lowering haemoglobin and causing the anaemia and cytopenias that complicate treatment in these very young children.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Anthracycline cardiotoxicity: anthracyclines in the treatment regimens are cardiotoxic, and troponin elevation helps detect the myocardial injury that threatens the few long-term survivors of atypical teratoid/rhabdoid tumour.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Tumour lysis and oxidative stress: the high proliferative rate of this embryonal tumour, lysed by chemotherapy, releases purines catabolised by xanthine oxidase to uric acid, contributing to tumour-lysis risk and oxidative stress.
 
 ---
 

@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/ctla-4
     relation: connects-to
     note: "Checkpoint therapy: advanced or Hedgehog-inhibitor-resistant basal cell carcinoma responds to checkpoint blockade, and CTLA-4, alongside PD-1, restrains the anti-tumour T-cell response that immunotherapy aims to unleash."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "UV immunosuppression: ultraviolet light (photon already mapped) induces IL-10 and other immunosuppressive signals in the skin, dampening the T-cell surveillance that would otherwise eliminate the transformed keratinocytes of basal cell carcinoma."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "UV and tumour vasculature: ultraviolet exposure raises cutaneous nitric oxide, contributing to the immunosuppression and vasodilation of sun-damaged skin, and NO supports the angiogenesis (VEGF already mapped) of the growing tumour."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Immune surveillance: helper T cells coordinate the anti-tumour response against basal cell carcinoma, and the cutaneous immunosuppression of chronic sun exposure weakens this surveillance, favouring tumour development."
 ---
 
 # Basal Cell Carcinoma
@@ -653,6 +662,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immune surveillance: chronic immunosuppression, as in transplant recipients, markedly raises basal cell carcinoma risk, and MHC class II antigen presentation underlies the T-cell control whose loss permits these UV-driven tumours to grow.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell response: IL-2-driven T-cell expansion mediates the immune control of basal cell carcinoma, and the cutaneous immunosuppression from ultraviolet light (photon already mapped) weakens this response to favour tumour development.
 - `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Checkpoint therapy: advanced or Hedgehog-inhibitor-resistant basal cell carcinoma responds to checkpoint blockade, and CTLA-4, alongside PD-1, restrains the anti-tumour T-cell response that immunotherapy aims to unleash.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — UV immunosuppression: ultraviolet light (photon already mapped) induces IL-10 and other immunosuppressive signals in the skin, dampening the T-cell surveillance that would otherwise eliminate the transformed keratinocytes of basal cell carcinoma.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — UV and tumour vasculature: ultraviolet exposure raises cutaneous nitric oxide, contributing to the immunosuppression and vasodilation of sun-damaged skin, and NO supports the angiogenesis (VEGF already mapped) of the growing tumour.
+- `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — Immune surveillance: helper T cells coordinate the anti-tumour response against basal cell carcinoma, and the cutaneous immunosuppression of chronic sun exposure weakens this surveillance, favouring tumour development.
 
 ---
 
