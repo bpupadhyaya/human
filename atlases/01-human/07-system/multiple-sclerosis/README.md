@@ -397,6 +397,15 @@ cross_links:
   - target: 01-human/03-molecular/calcineurin
     relation: connects-to
     note: "Calcineurin-NFAT signaling participates in the autoreactive T-cell activation of multiple sclerosis."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Sex and pregnancy: multiple sclerosis is far more common in women, and relapses fall sharply in the third trimester when estrogen and progesterone are high, implicating sex hormones in disease modulation and inspiring estriol trials."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Obesity risk: adolescent obesity raises the risk of multiple sclerosis, and the proinflammatory adipokine leptin promotes the Th17 responses (IL-17A already mapped) that drive autoimmune demyelination."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Autoreactive survival: anti-apoptotic BCL-2 family proteins prolong the survival of the autoreactive lymphocytes that attack myelin, and shifting this balance toward apoptosis is one way immune-reconstitution therapies reset the disease."
 ---
 
 # Multiple Sclerosis
@@ -633,6 +642,9 @@ MS affects approximately **2.8 million people worldwide** (~1 million in the US)
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the neuroinflammation and demyelination of multiple sclerosis.
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the immune responses of multiple sclerosis.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the autoreactive T-cell activation of multiple sclerosis.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Sex and pregnancy: multiple sclerosis is far more common in women, and relapses fall sharply in the third trimester when estrogen and progesterone are high, implicating sex hormones in disease modulation and inspiring estriol trials.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Obesity risk: adolescent obesity raises the risk of multiple sclerosis, and the proinflammatory adipokine leptin promotes the Th17 responses (IL-17A already mapped) that drive autoimmune demyelination.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Autoreactive survival: anti-apoptotic BCL-2 family proteins prolong the survival of the autoreactive lymphocytes that attack myelin, and shifting this balance toward apoptosis is one way immune-reconstitution therapies reset the disease.
 
 [^compston-2008-ms-review]: Compston A, Coles A. Multiple sclerosis. *Lancet.* 2008;372(9648):1502-1517. [doi:10.1016/S0140-6736(08)61620-7](https://doi.org/10.1016/S0140-6736(08)61620-7) · [PubMed 18970977](https://pubmed.ncbi.nlm.nih.gov/18970977/)
 [^kappos-2006-natalizumab]: Polman CH, O'Connor PW, Havrdova E, et al. A randomized, placebo-controlled trial of natalizumab for relapsing multiple sclerosis. *N Engl J Med.* 2006;354(9):899-910. [doi:10.1056/NEJMoa044397](https://doi.org/10.1056/NEJMoa044397) · [PubMed 16510744](https://pubmed.ncbi.nlm.nih.gov/16510744/)
