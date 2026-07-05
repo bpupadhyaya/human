@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/mu-opioid-receptor
     relation: connects-to
     note: "Polysubstance overlap: stimulant use disorder increasingly co-occurs with opioid use, and mu-opioid signalling interacts with the dopaminergic reward system (dopamine already mapped), a combination behind rising stimulant-opioid overdose deaths."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Mineralocorticoid stress axis: aldosterone acts on brain mineralocorticoid receptors that, balanced against glucocorticoid receptors (already mapped), tune the stress response driving the craving and stress-induced relapse of stimulant use disorder."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Metabolic dysregulation: chronic stimulant use disturbs appetite, weight and glucose handling, and the resulting insulin and metabolic dysregulation add to the cardiometabolic harm of the disorder."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Neuroinflammatory balance: the anti-inflammatory cytokine IL-10 counters the TLR4-driven TNF and IL-1 (already mapped) that stimulants provoke in glia, part of the neuroinflammation implicated in stimulant neurotoxicity and dependence."
 ---
 
 # Stimulant Use Disorder
@@ -653,6 +662,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Sex differences: estrogen amplifies the dopaminergic response to stimulants, and women show a faster progression to dependence (telescoping) and menstrual-cycle variation in cocaine craving, implicating sex hormones in stimulant use disorder.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Social reward: oxytocin modulates the social bonding and reward circuits disrupted by chronic stimulant use, and is under investigation as a treatment to reduce craving and stress-induced relapse.
 - `connects-to` → **[Mu-opioid receptor](../../03-molecular/mu-opioid-receptor/README.md)** — Polysubstance overlap: stimulant use disorder increasingly co-occurs with opioid use, and mu-opioid signalling interacts with the dopaminergic reward system (dopamine already mapped), a combination behind rising stimulant-opioid overdose deaths.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Mineralocorticoid stress axis: aldosterone acts on brain mineralocorticoid receptors that, balanced against glucocorticoid receptors (already mapped), tune the stress response driving the craving and stress-induced relapse of stimulant use disorder.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Metabolic dysregulation: chronic stimulant use disturbs appetite, weight and glucose handling, and the resulting insulin and metabolic dysregulation add to the cardiometabolic harm of the disorder.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Neuroinflammatory balance: the anti-inflammatory cytokine IL-10 counters the TLR4-driven TNF and IL-1 (already mapped) that stimulants provoke in glia, part of the neuroinflammation implicated in stimulant neurotoxicity and dependence.
 
 ## Treatment
 
