@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/calcineurin
     relation: connects-to
     note: "Calcineurin-NFAT signaling participates in the tumor microenvironment of Gorlin syndrome (calcineurin-inhibitor immunosuppression is a recognized basal-cell-carcinoma risk factor)."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Immune surveillance: MHC class II-restricted T-cell surveillance limits the many basal cell carcinomas of Gorlin syndrome, and immunosuppression (calcineurin already mapped) accelerates them, while antigen presentation underlies checkpoint therapy of advanced tumours."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Checkpoint therapy: the numerous basal cell carcinomas of Gorlin syndrome that resist or escape Hedgehog inhibitors (SMO already mapped) can respond to PD-1 checkpoint blockade, offering an alternative for advanced disease."
+  - target: 01-human/03-molecular/axl-receptor
+    relation: connects-to
+    note: "Hedgehog-inhibitor resistance: the AXL receptor tyrosine kinase and other non-canonical signalling can bypass SMO blockade, contributing to the vismodegib resistance that limits Hedgehog-inhibitor therapy of Gorlin-syndrome basal cell carcinomas."
 ---
 
 # Gorlin Syndrome
@@ -630,6 +639,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory tumor microenvironment of Gorlin syndrome.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory tumor microenvironment of Gorlin syndrome.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the tumor microenvironment of Gorlin syndrome (calcineurin-inhibitor immunosuppression is a recognized basal-cell-carcinoma risk factor).
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immune surveillance: MHC class II-restricted T-cell surveillance limits the many basal cell carcinomas of Gorlin syndrome, and immunosuppression (calcineurin already mapped) accelerates them, while antigen presentation underlies checkpoint therapy of advanced tumours.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Checkpoint therapy: the numerous basal cell carcinomas of Gorlin syndrome that resist or escape Hedgehog inhibitors (SMO already mapped) can respond to PD-1 checkpoint blockade, offering an alternative for advanced disease.
+- `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — Hedgehog-inhibitor resistance: the AXL receptor tyrosine kinase and other non-canonical signalling can bypass SMO blockade, contributing to the vismodegib resistance that limits Hedgehog-inhibitor therapy of Gorlin-syndrome basal cell carcinomas.
 
 ---
 

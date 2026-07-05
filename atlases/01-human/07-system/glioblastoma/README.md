@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Osteopontin (SPP1) participates in the microglial/macrophage-rich tumor microenvironment and invasion of glioblastoma."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Cold-tumour antigen presentation: glioblastoma is profoundly immunosuppressive with low MHC-based antigen presentation, and restoring T-cell recognition is central to the vaccine and cellular immunotherapy strategies being tested against it."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "CAR-T therapy: IL-2-driven T-cell expansion supports the EGFRvIII- and other antigen-directed CAR-T therapies (EGFR already mapped) under investigation for glioblastoma, though antigen heterogeneity limits durable responses."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Checkpoint resistance: glioblastoma has largely resisted PD-1 checkpoint blockade owing to its cold, myeloid-dominated microenvironment, making it a key testbed for combinations that aim to convert it into an immunoresponsive tumour."
 ---
 
 # Glioblastoma
@@ -649,6 +658,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the immunosuppressive tumor microenvironment of glioblastoma.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine (CD39/CD73-adenosine) signaling participates in the immunosuppressive tumor microenvironment of glioblastoma.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin (SPP1) participates in the microglial/macrophage-rich tumor microenvironment and invasion of glioblastoma.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Cold-tumour antigen presentation: glioblastoma is profoundly immunosuppressive with low MHC-based antigen presentation, and restoring T-cell recognition is central to the vaccine and cellular immunotherapy strategies being tested against it.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — CAR-T therapy: IL-2-driven T-cell expansion supports the EGFRvIII- and other antigen-directed CAR-T therapies (EGFR already mapped) under investigation for glioblastoma, though antigen heterogeneity limits durable responses.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Checkpoint resistance: glioblastoma has largely resisted PD-1 checkpoint blockade owing to its cold, myeloid-dominated microenvironment, making it a key testbed for combinations that aim to convert it into an immunoresponsive tumour.
 
 ---
 
