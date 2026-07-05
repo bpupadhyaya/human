@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Osteopontin participates in the tumor microenvironment and invasion of malignant peripheral nerve sheath tumor."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Immunosurveillance: MHC class II antigen presentation shapes the T-cell response to malignant peripheral nerve sheath tumour, a chemoresistant sarcoma for which the loss of antigen presentation contributes to immune evasion."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Cellular immunotherapy: IL-2-driven T-cell expansion supports the adoptive-cell and vaccine approaches being explored for malignant peripheral nerve sheath tumour, which responds poorly to conventional chemotherapy."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Checkpoint context: PD-1-mediated T-cell exhaustion limits anti-tumour immunity in the immunologically cold malignant peripheral nerve sheath tumour, and checkpoint blockade is being tested in combination for this aggressive sarcoma."
 ---
 
 # MPNST
@@ -651,6 +660,9 @@ Wide local excision with negative margins is the only potentially curative inter
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory tumor microenvironment of malignant peripheral nerve sheath tumor.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the tumor microenvironment and immune signaling of malignant peripheral nerve sheath tumor.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the tumor microenvironment and invasion of malignant peripheral nerve sheath tumor.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immunosurveillance: MHC class II antigen presentation shapes the T-cell response to malignant peripheral nerve sheath tumour, a chemoresistant sarcoma for which the loss of antigen presentation contributes to immune evasion.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Cellular immunotherapy: IL-2-driven T-cell expansion supports the adoptive-cell and vaccine approaches being explored for malignant peripheral nerve sheath tumour, which responds poorly to conventional chemotherapy.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Checkpoint context: PD-1-mediated T-cell exhaustion limits anti-tumour immunity in the immunologically cold malignant peripheral nerve sheath tumour, and checkpoint blockade is being tested in combination for this aggressive sarcoma.
 
 [^evans-2002-mpnst-nf1]: Evans DGR, Baser ME, McGaughran J, et al. Malignant peripheral nerve sheath tumours in neurofibromatosis 1. *J Med Genet.* 2002;39(5):311-314. [doi:10.1136/jmg.39.5.311](https://doi.org/10.1136/jmg.39.5.311) · [PubMed 12011145](https://pubmed.ncbi.nlm.nih.gov/12011145/)
 [^lee-2014-mpnst-prc2]: Lee W, Teckie S, Wiesner T, et al. PRC2 is recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve sheath tumors. *Nat Genet.* 2014;46(11):1227-1232. [doi:10.1038/ng.3095](https://doi.org/10.1038/ng.3095) · [PubMed 25240281](https://pubmed.ncbi.nlm.nih.gov/25240281/)
