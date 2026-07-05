@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "T-cell expansion: IL-2 drives the clonal proliferation of the antigen-specific T cells that sustain granuloma control of tuberculosis, and IL-2 responses mark protective immunity, a rationale for its trial as adjunctive immunotherapy."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Anaemia of infection: active tuberculosis commonly causes anaemia of chronic disease through hepcidin-driven iron sequestration (hepcidin already mapped) and marrow suppression, lowering haemoglobin and marking disease severity."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Tuberculous pericarditis: tuberculosis is a major cause of pericarditis, especially in HIV, and the resulting effusive-constrictive disease can injure the myocardium, with troponin marking the cardiac involvement of this extrapulmonary form."
+  - target: 01-human/03-molecular/secretory-iga
+    relation: connects-to
+    note: "Airway mucosal defence: secretory IgA on the respiratory mucosa is part of the first-line barrier against inhaled Mycobacterium tuberculosis, and mucosal immunity is a target of next-generation tuberculosis vaccines."
 ---
 
 # Tuberculosis
@@ -653,6 +662,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[Glucocorticoid receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Adjunctive corticosteroids: dexamethasone acting through the glucocorticoid receptor reduces mortality in tuberculous meningitis and pericarditis by dampening the host immunopathology that damages tissue around the granuloma.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Undernutrition and risk: malnutrition is the leading global driver of tuberculosis, and low leptin in the undernourished impairs the cell-mediated immunity that contains Mycobacterium tuberculosis, linking nutritional state to reactivation risk.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell expansion: IL-2 drives the clonal proliferation of the antigen-specific T cells that sustain granuloma control of tuberculosis, and IL-2 responses mark protective immunity, a rationale for its trial as adjunctive immunotherapy.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Anaemia of infection: active tuberculosis commonly causes anaemia of chronic disease through hepcidin-driven iron sequestration (hepcidin already mapped) and marrow suppression, lowering haemoglobin and marking disease severity.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Tuberculous pericarditis: tuberculosis is a major cause of pericarditis, especially in HIV, and the resulting effusive-constrictive disease can injure the myocardium, with troponin marking the cardiac involvement of this extrapulmonary form.
+- `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — Airway mucosal defence: secretory IgA on the respiratory mucosa is part of the first-line barrier against inhaled Mycobacterium tuberculosis, and mucosal immunity is a target of next-generation tuberculosis vaccines.
 
 ## See Also
 

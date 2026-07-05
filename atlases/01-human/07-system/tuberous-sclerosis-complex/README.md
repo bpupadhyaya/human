@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/melatonin
     relation: connects-to
     note: "Sleep and TAND: sleep disturbance is highly prevalent in tuberous sclerosis as part of the associated neuropsychiatric disorder, and melatonin is commonly used to manage the disrupted circadian sleep that compounds epilepsy and behaviour."
+  - target: 01-human/03-molecular/progesterone
+    relation: connects-to
+    note: "LAM hormone sensitivity: the lymphangioleiomyomatosis of tuberous sclerosis occurs almost only in women and worsens with reproductive hormones, so progesterone and estrogen (already mapped) drive the smooth-muscle proliferation that destroys the lung."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "mTOR-insulin axis: the TSC1-TSC2 complex (already mapped) normally restrains mTORC1 downstream of insulin and growth-factor signalling, so its loss uncouples growth from nutrient and insulin cues, the core metabolic lesion driving the hamartomas."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Angiomyolipoma haemorrhage: the renal angiomyolipomas of tuberous sclerosis can bleed catastrophically into the retroperitoneum, and the resulting acute blood loss drops haemoglobin, a leading cause of morbidity that mTOR inhibitors and embolisation aim to prevent."
 ---
 
 # Tuberous Sclerosis Complex
@@ -659,6 +668,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiac rhabdomyoma: the earliest tuberous sclerosis lesion is the cardiac rhabdomyoma, a striated-muscle hamartoma expressing sarcomeric proteins including troponin, often found prenatally and typically regressing after birth.
 - `connects-to` → **[ACTH](../../03-molecular/acth/README.md)** — Infantile spasms therapy: tuberous sclerosis is a leading cause of infantile spasms, for which ACTH is a first-line hormonal treatment alongside vigabatrin, acting to suppress the epileptic encephalopathy of early infancy.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Sleep and TAND: sleep disturbance is highly prevalent in tuberous sclerosis as part of the associated neuropsychiatric disorder, and melatonin is commonly used to manage the disrupted circadian sleep that compounds epilepsy and behaviour.
+- `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — LAM hormone sensitivity: the lymphangioleiomyomatosis of tuberous sclerosis occurs almost only in women and worsens with reproductive hormones, so progesterone and estrogen (already mapped) drive the smooth-muscle proliferation that destroys the lung.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — mTOR-insulin axis: the TSC1-TSC2 complex (already mapped) normally restrains mTORC1 downstream of insulin and growth-factor signalling, so its loss uncouples growth from nutrient and insulin cues, the core metabolic lesion driving the hamartomas.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Angiomyolipoma haemorrhage: the renal angiomyolipomas of tuberous sclerosis can bleed catastrophically into the retroperitoneum, and the resulting acute blood loss drops haemoglobin, a leading cause of morbidity that mTOR inhibitors and embolisation aim to prevent.
 
 ---
 
