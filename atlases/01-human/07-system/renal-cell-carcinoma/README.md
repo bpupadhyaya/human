@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/leptin
     relation: connects-to
     note: "Obesity risk: excess adiposity is a major modifiable risk factor for renal cell carcinoma, and the adipokine leptin, elevated in obesity, promotes tumour-cell proliferation, linking metabolic state to renal carcinogenesis."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Immunotherapy responsiveness: renal cell carcinoma is one of the most immunotherapy-responsive cancers, and MHC class II antigen presentation shapes the T-cell response to the checkpoint inhibitors (PD-1/CTLA-4 already mapped) that anchor its modern treatment."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Paraneoplastic blood counts: renal cell carcinoma can raise haemoglobin through ectopic erythropoietin (already mapped) causing polycythaemia, or lower it via anaemia of chronic disease, one of its characteristic paraneoplastic presentations."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Immunotherapy myocarditis: the checkpoint inhibitors central to renal cell carcinoma treatment can cause immune-mediated myocarditis, and troponin elevation helps detect this rare but often fatal adverse event."
 ---
 
 # Renal Cell Carcinoma
@@ -638,6 +647,9 @@ Kidney → primary site of EPO production under hypoxia; VHL-intact renal inters
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Immunotherapy legacy: renal cell carcinoma was one of the first cancers cured in a minority by high-dose IL-2, reflecting an intrinsic immunogenicity that today underlies its strong response to checkpoint inhibitors (PD-1 already mapped).
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Osteolytic metastasis: renal cell carcinoma frequently spreads to bone as destructive lytic lesions, where tumour-driven RANKL activates osteoclasts to cause fractures and skeletal events, the rationale for denosumab in metastatic disease.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Obesity risk: excess adiposity is a major modifiable risk factor for renal cell carcinoma, and the adipokine leptin, elevated in obesity, promotes tumour-cell proliferation, linking metabolic state to renal carcinogenesis.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immunotherapy responsiveness: renal cell carcinoma is one of the most immunotherapy-responsive cancers, and MHC class II antigen presentation shapes the T-cell response to the checkpoint inhibitors (PD-1/CTLA-4 already mapped) that anchor its modern treatment.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Paraneoplastic blood counts: renal cell carcinoma can raise haemoglobin through ectopic erythropoietin (already mapped) causing polycythaemia, or lower it via anaemia of chronic disease, one of its characteristic paraneoplastic presentations.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Immunotherapy myocarditis: the checkpoint inhibitors central to renal cell carcinoma treatment can cause immune-mediated myocarditis, and troponin elevation helps detect this rare but often fatal adverse event.
 
 [^motzer-2018-checkmate214]: Motzer RJ, Tannir NM, McDermott DF, et al. Nivolumab plus ipilimumab versus sunitinib in advanced renal-cell carcinoma. *N Engl J Med.* 2018;378(14):1277-1290. [doi:10.1056/NEJMoa1712126](https://doi.org/10.1056/NEJMoa1712126) · [PubMed 29562145](https://pubmed.ncbi.nlm.nih.gov/29562145/)
 [^rini-2019-keynote426]: Rini BI, Plimack ER, Stus V, et al. Pembrolizumab plus axitinib versus sunitinib for advanced renal-cell carcinoma. *N Engl J Med.* 2019;380(12):1116-1127. [doi:10.1056/NEJMoa1816714](https://doi.org/10.1056/NEJMoa1816714) · [PubMed 30779529](https://pubmed.ncbi.nlm.nih.gov/30779529/)

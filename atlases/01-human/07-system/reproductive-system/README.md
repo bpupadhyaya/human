@@ -392,6 +392,15 @@ cross_links:
   - target: 01-human/03-molecular/endothelin-1
     relation: connects-to
     note: "Reproductive vascular tone: endothelin-1 regulates uterine and ovarian vascular flow and constricts penile corpus cavernosum smooth muscle, contributing to menstrual vascular control, placental perfusion and the balance underlying erectile function."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Maternal-fetal tolerance: the semi-allogeneic fetus is protected by specialised regulation of antigen presentation at the placenta, and HLA compatibility influences fertility and pregnancy, tying the reproductive system to the immune system."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Sperm protection: selenium, via glutathione peroxidases, shields developing sperm from oxidative damage and is built into the sperm midpiece, so selenium status affects male fertility alongside the zinc (already mapped) essential for spermatogenesis."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "Reproductive renin-angiotensin: local renin-angiotensin systems in the ovary and placenta help regulate follicular development and placental perfusion, and their dysregulation is implicated in pre-eclampsia, a pregnancy-specific vascular disorder."
 ---
 
 # Reproductive System
@@ -632,6 +641,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — GnRH neuron development: FGF8-FGFR1 signalling guides the embryonic migration of GnRH neurons from the olfactory placode to the hypothalamus, and its disruption causes Kallmann syndrome, hypogonadotropic hypogonadism with anosmia.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Ovulation as inflammation: the mid-cycle LH surge triggers an IL-1beta and prostaglandin-driven (prostaglandins already mapped) inflammatory cascade that ruptures the ovarian follicle, and related cytokine signalling governs endometrial receptivity for implantation.
 - `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Reproductive vascular tone: endothelin-1 regulates uterine and ovarian vascular flow and constricts penile corpus cavernosum smooth muscle, contributing to menstrual vascular control, placental perfusion and the balance underlying erectile function.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Maternal-fetal tolerance: the semi-allogeneic fetus is protected by specialised regulation of antigen presentation at the placenta, and HLA compatibility influences fertility and pregnancy, tying the reproductive system to the immune system.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Sperm protection: selenium, via glutathione peroxidases, shields developing sperm from oxidative damage and is built into the sperm midpiece, so selenium status affects male fertility alongside the zinc (already mapped) essential for spermatogenesis.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — Reproductive renin-angiotensin: local renin-angiotensin systems in the ovary and placenta help regulate follicular development and placental perfusion, and their dysregulation is implicated in pre-eclampsia, a pregnancy-specific vascular disorder.
 
 ## Pathology
 
