@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "Immune surveillance: IL-2 drives the expansion of the T and NK cells that provide the immunological control believed to sustain treatment-free remission in chronic myeloid leukaemia after tyrosine-kinase-inhibitor withdrawal."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Anaemia: marrow crowding by the leukaemic clone and, later, transformation lower haemoglobin, and the anaemia adds to the fatigue of chronic myeloid leukaemia, usually improving as tyrosine-kinase inhibition restores normal haematopoiesis."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "TKI vascular toxicity: nilotinib and ponatinib cause arterial-occlusive and cardiac events, and troponin elevation marks the myocardial injury of the vascular toxicity that shapes tyrosine-kinase-inhibitor selection in CML."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Nilotinib hyperglycaemia: nilotinib impairs glucose handling and raises the risk of hyperglycaemia and diabetes through effects on insulin signalling, a metabolic toxicity that factors into tyrosine-kinase-inhibitor choice in CML."
 ---
 
 # Chronic Myeloid Leukemia
@@ -644,6 +653,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immune control and remission: CML is the model for treatment-free remission, where MHC-restricted T-cell and NK responses against the BCR-ABL-driven clone help maintain remission after stopping tyrosine-kinase inhibitors.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Hyperuricaemia: the high cell turnover of chronic myeloid leukaemia releases purines that xanthine oxidase converts to uric acid, causing the hyperuricaemia and gout risk managed with allopurinol at diagnosis and during cytoreduction.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Immune surveillance: IL-2 drives the expansion of the T and NK cells that provide the immunological control believed to sustain treatment-free remission in chronic myeloid leukaemia after tyrosine-kinase-inhibitor withdrawal.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Anaemia: marrow crowding by the leukaemic clone and, later, transformation lower haemoglobin, and the anaemia adds to the fatigue of chronic myeloid leukaemia, usually improving as tyrosine-kinase inhibition restores normal haematopoiesis.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — TKI vascular toxicity: nilotinib and ponatinib cause arterial-occlusive and cardiac events, and troponin elevation marks the myocardial injury of the vascular toxicity that shapes tyrosine-kinase-inhibitor selection in CML.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Nilotinib hyperglycaemia: nilotinib impairs glucose handling and raises the risk of hyperglycaemia and diabetes through effects on insulin signalling, a metabolic toxicity that factors into tyrosine-kinase-inhibitor choice in CML.
 
 ---
 

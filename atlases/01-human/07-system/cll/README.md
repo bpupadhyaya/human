@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "T-cell dysfunction: the T cells in CLL are functionally exhausted with impaired IL-2 responses, a defect that both weakens immunity and is engineered around by CD19-directed CAR-T cells."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "BTK-inhibitor cardiotoxicity: ibrutinib and other BTK inhibitors (BTK already mapped) cause atrial fibrillation and, rarely, ventricular arrhythmia, and troponin elevation can mark the myocardial injury of this major class toxicity in CLL."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Venetoclax tumour lysis: the rapid killing of the large CLL burden by venetoclax (BCL-2 already mapped) releases purines that xanthine oxidase converts to uric acid, causing the tumour-lysis syndrome that mandates careful ramp-up dosing."
+  - target: 01-human/03-molecular/secretory-iga
+    relation: connects-to
+    note: "Immunodeficiency: the hypogammaglobulinaemia of CLL depletes normal immunoglobulins including secretory IgA (IgG already mapped), impairing mucosal defence and causing the recurrent infections that are a leading cause of death."
 ---
 
 # CLL
@@ -644,6 +653,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immune dysfunction: CLL causes profound immune impairment with hypogammaglobulinaemia (IgG already mapped) and defective antigen presentation, driving the infections that are a leading cause of death, while antigen presentation also underlies CAR-T therapy.
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Autoimmune haemolysis: CLL is complicated by autoimmune haemolytic anaemia and pure red-cell aplasia, lowering haemoglobin through immune-mediated red-cell destruction (complement C3 already mapped) beyond marrow infiltration alone.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell dysfunction: the T cells in CLL are functionally exhausted with impaired IL-2 responses, a defect that both weakens immunity and is engineered around by CD19-directed CAR-T cells.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — BTK-inhibitor cardiotoxicity: ibrutinib and other BTK inhibitors (BTK already mapped) cause atrial fibrillation and, rarely, ventricular arrhythmia, and troponin elevation can mark the myocardial injury of this major class toxicity in CLL.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Venetoclax tumour lysis: the rapid killing of the large CLL burden by venetoclax (BCL-2 already mapped) releases purines that xanthine oxidase converts to uric acid, causing the tumour-lysis syndrome that mandates careful ramp-up dosing.
+- `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — Immunodeficiency: the hypogammaglobulinaemia of CLL depletes normal immunoglobulins including secretory IgA (IgG already mapped), impairing mucosal defence and causing the recurrent infections that are a leading cause of death.
 
 ---
 
