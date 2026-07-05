@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/type-i-interferon
     relation: connects-to
     note: "Type I interferon signaling participates in the immune dysregulation of giant cell arteritis."
+  - target: 01-human/03-molecular/ctla-4
+    relation: connects-to
+    note: "T-cell costimulation: giant cell arteritis is a CD4 T-cell-driven disease, and CTLA-4-Ig (abatacept), which blocks the costimulation that activates those T cells, has shown benefit in trials, supporting the central role of T-cell activation."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Large-vessel and cardiac involvement: giant cell arteritis extends to the aorta and its branches, and the resulting aortitis, aneurysm or coronary involvement can injure the heart, with troponin elevation marking such ischaemic damage."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Anaemia of inflammation: the sustained IL-6-driven inflammation of giant cell arteritis suppresses erythropoiesis, and a normocytic anaemia with a very high ESR is a common laboratory clue to the diagnosis."
 ---
 
 # Giant Cell Arteritis
@@ -634,6 +643,9 @@ The temporal arteries supply scalp, temporalis muscle, and dura. In GCA, transmu
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the vascular-inflammatory immune gene programs of giant cell arteritis.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the macrophage and giant-cell activation of the vascular inflammation of giant cell arteritis.
 - `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — Type I interferon signaling participates in the immune dysregulation of giant cell arteritis.
+- `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — T-cell costimulation: giant cell arteritis is a CD4 T-cell-driven disease, and CTLA-4-Ig (abatacept), which blocks the costimulation that activates those T cells, has shown benefit in trials, supporting the central role of T-cell activation.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Large-vessel and cardiac involvement: giant cell arteritis extends to the aorta and its branches, and the resulting aortitis, aneurysm or coronary involvement can injure the heart, with troponin elevation marking such ischaemic damage.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Anaemia of inflammation: the sustained IL-6-driven inflammation of giant cell arteritis suppresses erythropoiesis, and a normocytic anaemia with a very high ESR is a common laboratory clue to the diagnosis.
 
 [^stone-2017-giact]: Stone JH, Tuckwell K, Dimonaco S, et al. Trial of tocilizumab in giant-cell arteritis. *N Engl J Med.* 2017;377(4):317-328. [doi:10.1056/NEJMoa1613849](https://doi.org/10.1056/NEJMoa1613849) · [PubMed 28745999](https://pubmed.ncbi.nlm.nih.gov/28745999/)
 [^weyand-2014-gca-review]: Weyand CM, Goronzy JJ. Clinical practice. Giant-cell arteritis and polymyalgia rheumatica. *N Engl J Med.* 2014;371(1):50-57. [doi:10.1056/NEJMcp1214926](https://doi.org/10.1056/NEJMcp1214926) · [PubMed 24988557](https://pubmed.ncbi.nlm.nih.gov/24988557/)

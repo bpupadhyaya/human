@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Osteopontin participates in the tumor microenvironment and metastatic interactions of gastrointestinal stromal tumor."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Imatinib immunomodulation: beyond blocking KIT, imatinib has immune effects, and MHC class II antigen presentation shapes the T-cell response that may contribute to the durable control of gastrointestinal stromal tumour."
+  - target: 01-human/03-molecular/axl-receptor
+    relation: connects-to
+    note: "Resistance signalling: the AXL receptor tyrosine kinase provides a bypass survival signal that can drive resistance to KIT-directed therapy (KIT already mapped) in gastrointestinal stromal tumour, a mechanism of escape beyond secondary KIT mutations."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Checkpoint context: PD-1-mediated T-cell exhaustion limits anti-tumour immunity in gastrointestinal stromal tumour, and checkpoint blockade is being explored alongside tyrosine-kinase inhibitors, especially in KIT/PDGFRA-wild-type disease."
 ---
 
 # GIST
@@ -650,6 +659,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory tumor microenvironment of gastrointestinal stromal tumor.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the tumor microenvironment and immune signaling of gastrointestinal stromal tumor.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the tumor microenvironment and metastatic interactions of gastrointestinal stromal tumor.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Imatinib immunomodulation: beyond blocking KIT, imatinib has immune effects, and MHC class II antigen presentation shapes the T-cell response that may contribute to the durable control of gastrointestinal stromal tumour.
+- `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — Resistance signalling: the AXL receptor tyrosine kinase provides a bypass survival signal that can drive resistance to KIT-directed therapy (KIT already mapped) in gastrointestinal stromal tumour, a mechanism of escape beyond secondary KIT mutations.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Checkpoint context: PD-1-mediated T-cell exhaustion limits anti-tumour immunity in gastrointestinal stromal tumour, and checkpoint blockade is being explored alongside tyrosine-kinase inhibitors, especially in KIT/PDGFRA-wild-type disease.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
