@@ -397,6 +397,15 @@ cross_links:
   - target: 01-human/03-molecular/adenosine
     relation: connects-to
     note: "Adenosine signaling participates in the immunomodulation and neuromuscular-junction responses relevant to myasthenia gravis."
+  - target: 01-human/03-molecular/ctla-4
+    relation: connects-to
+    note: "T-cell tolerance: CTLA-4 restrains the autoreactive T-cell help that sustains the anti-acetylcholine-receptor antibody response, and CTLA-4 polymorphisms are associated with susceptibility to myasthenia gravis."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Checkpoint-inhibitor myasthenia: PD-1-blocking cancer immunotherapy can unleash a severe de novo myasthenia gravis, an immune-related adverse event that reveals how PD-1 normally protects against this autoimmunity."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Myocarditis overlap: checkpoint-inhibitor-associated and thymoma-associated myasthenia can co-occur with myocarditis in an overlap syndrome, where troponin elevation flags the concurrent cardiac injury that raises mortality."
 ---
 
 # Myasthenia Gravis
@@ -634,6 +643,9 @@ cross_links:
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the thymic and immune dysregulation of myasthenia gravis.
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the autoreactive immune responses of myasthenia gravis.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine signaling participates in the immunomodulation and neuromuscular-junction responses relevant to myasthenia gravis.
+- `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — T-cell tolerance: CTLA-4 restrains the autoreactive T-cell help that sustains the anti-acetylcholine-receptor antibody response, and CTLA-4 polymorphisms are associated with susceptibility to myasthenia gravis.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Checkpoint-inhibitor myasthenia: PD-1-blocking cancer immunotherapy can unleash a severe de novo myasthenia gravis, an immune-related adverse event that reveals how PD-1 normally protects against this autoimmunity.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Myocarditis overlap: checkpoint-inhibitor-associated and thymoma-associated myasthenia can co-occur with myocarditis in an overlap syndrome, where troponin elevation flags the concurrent cardiac injury that raises mortality.
 
 [^gilhus-2016-mg-review]: Gilhus NE. Myasthenia Gravis. *N Engl J Med.* 2016;375(26):2570-2581. [doi:10.1056/NEJMra1602678](https://doi.org/10.1056/NEJMra1602678) · [PubMed 28029925](https://pubmed.ncbi.nlm.nih.gov/28029925/)
 [^howard-2021-efgartigimod-adapt]: Howard JF Jr, Bril V, Vu T, et al. Safety, efficacy, and tolerability of efgartigimod in patients with generalised myasthenia gravis (ADAPT). *Lancet Neurol.* 2021;20(7):526-536. [doi:10.1016/S1474-4422(21)00159-9](https://doi.org/10.1016/S1474-4422(21)00159-9) · [PubMed 34146511](https://pubmed.ncbi.nlm.nih.gov/34146511/)
