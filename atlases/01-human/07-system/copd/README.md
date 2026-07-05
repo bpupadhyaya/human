@@ -409,6 +409,15 @@ cross_links:
   - target: 01-human/03-molecular/secretory-iga
     relation: connects-to
     note: "Airway mucosal defence: reduced secretory IgA over the remodelled small airways of COPD weakens the mucosal barrier against inhaled microbes, promoting the bacterial colonisation and infective exacerbations that drive disease progression."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Respiratory acidosis: advanced COPD retains carbon dioxide, and the resulting proton accumulation produces the respiratory acidosis of type-2 respiratory failure, a hallmark of severe exacerbations that guides ventilatory support."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Smoking oxidative burden: cigarette smoke and the inflamed airway generate reactive oxygen species, to which xanthine oxidase contributes, and this oxidative stress (NRF2 already mapped) drives the tissue destruction and steroid resistance of COPD."
+  - target: 01-human/03-molecular/mu-opioid-receptor
+    relation: connects-to
+    note: "Refractory breathlessness: low-dose opioids acting on the mu-opioid receptor relieve the intractable breathlessness of advanced COPD, a mainstay of its palliative care despite the caution needed over respiratory depression."
 ---
 
 # COPD
@@ -682,6 +691,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Secondary polycythaemia: chronic hypoxaemia in COPD drives erythropoietin (already mapped) and raises haemoglobin and haematocrit, a compensatory polycythaemia that increases blood viscosity and thrombotic risk.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiac comorbidity: COPD strongly associates with cardiovascular disease, and troponin elevation from cor pulmonale, demand ischaemia and comorbid coronary disease marks the cardiac injury that contributes to its mortality.
 - `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — Airway mucosal defence: reduced secretory IgA over the remodelled small airways of COPD weakens the mucosal barrier against inhaled microbes, promoting the bacterial colonisation and infective exacerbations that drive disease progression.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Respiratory acidosis: advanced COPD retains carbon dioxide, and the resulting proton accumulation produces the respiratory acidosis of type-2 respiratory failure, a hallmark of severe exacerbations that guides ventilatory support.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Smoking oxidative burden: cigarette smoke and the inflamed airway generate reactive oxygen species, to which xanthine oxidase contributes, and this oxidative stress (NRF2 already mapped) drives the tissue destruction and steroid resistance of COPD.
+- `connects-to` → **[Mu-opioid receptor](../../03-molecular/mu-opioid-receptor/README.md)** — Refractory breathlessness: low-dose opioids acting on the mu-opioid receptor relieve the intractable breathlessness of advanced COPD, a mainstay of its palliative care despite the caution needed over respiratory depression.
 
 ---
 

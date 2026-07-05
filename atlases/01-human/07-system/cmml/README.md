@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/mhc-class-ii
     relation: connects-to
     note: "Monocyte dysfunction: the clonal monocytes of CMML have altered HLA-DR (MHC class II) expression and impaired antigen presentation, contributing to the immune dysfunction and the autoinflammatory conditions that accompany the disease."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Autoinflammation: CMML frequently associates with systemic autoinflammatory and autoimmune syndromes such as Sweet syndrome and vasculitis, and the balance of the anti-inflammatory IL-10 against the elevated TNF, IL-1 and IL-6 (already mapped) shapes this inflammatory dimension."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Iron cardiomyopathy: transfusion dependence in CMML deposits iron in the heart, and the resulting iron-overload cardiomyopathy, marked by troponin release, adds to the cardiac risk of these often elderly patients."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "T-cell immune dysfunction: the immune dysregulation of CMML includes impaired IL-2-driven T-cell responses alongside the monocyte dysfunction (already mapped), contributing to the infections and autoinflammatory syndromes that complicate the disease."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -657,6 +666,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Hyperuricaemia: the increased cell turnover of proliferative chronic myelomonocytic leukaemia raises uric acid through xanthine oxidase, causing the hyperuricaemia and gout risk managed with allopurinol during cytoreduction.
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Dysplastic anaemia: as a myelodysplastic/myeloproliferative overlap, CMML impairs effective erythropoiesis, lowering haemoglobin and making transfusion-dependent anaemia a common and prognostically important feature.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Monocyte dysfunction: the clonal monocytes of CMML have altered HLA-DR (MHC class II) expression and impaired antigen presentation, contributing to the immune dysfunction and the autoinflammatory conditions that accompany the disease.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Autoinflammation: CMML frequently associates with systemic autoinflammatory and autoimmune syndromes such as Sweet syndrome and vasculitis, and the balance of the anti-inflammatory IL-10 against the elevated TNF, IL-1 and IL-6 (already mapped) shapes this inflammatory dimension.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Iron cardiomyopathy: transfusion dependence in CMML deposits iron in the heart, and the resulting iron-overload cardiomyopathy, marked by troponin release, adds to the cardiac risk of these often elderly patients.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell immune dysfunction: the immune dysregulation of CMML includes impaired IL-2-driven T-cell responses alongside the monocyte dysfunction (already mapped), contributing to the infections and autoinflammatory syndromes that complicate the disease.
 
 ---
 
