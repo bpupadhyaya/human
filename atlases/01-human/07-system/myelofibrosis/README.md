@@ -397,6 +397,15 @@ cross_links:
   - target: 01-human/03-molecular/hepcidin
     relation: connects-to
     note: "Iron and anaemia: chronic inflammation in myelofibrosis raises IL-6-driven hepcidin (IL-6 already mapped), contributing to the anaemia of inflammation, while transfusion dependence adds iron overload requiring chelation."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Progressive anaemia: worsening anaemia with falling haemoglobin, from marrow failure, splenic sequestration and JAK-inhibitor therapy, is a defining feature of myelofibrosis driving transfusion dependence and momelotinib or luspatercept use."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "Marrow neoangiogenesis: myelofibrosis shows increased bone-marrow microvascular density supported by angiopoietin-Tie2 signalling alongside VEGF (already mapped), part of the disordered fibrotic microenvironment created by the clone."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Urate overproduction: the high cell turnover of myelofibrosis raises purine catabolism through xanthine oxidase, producing hyperuricaemia and gout that are managed with allopurinol alongside the disease-directed therapy."
 ---
 
 # Myelofibrosis
@@ -651,6 +660,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[Activin A](../../03-molecular/activin-a/README.md)** — Anaemia and fibrosis: activin A signalling through ACVR2 both suppresses erythropoiesis, the target of luspatercept and momelotinib for myelofibrosis anaemia, and promotes fibroblast activation, giving it a dual role in the disease.
 - `connects-to` → **[Sclerostin](../../03-molecular/sclerostin/README.md)** — Osteosclerosis: advanced myelofibrosis develops osteosclerosis with increased bone density, and dysregulated Wnt signalling with altered sclerostin contributes to the bone remodelling that accompanies the marrow fibrosis.
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Iron and anaemia: chronic inflammation in myelofibrosis raises IL-6-driven hepcidin (IL-6 already mapped), contributing to the anaemia of inflammation, while transfusion dependence adds iron overload requiring chelation.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Progressive anaemia: worsening anaemia with falling haemoglobin, from marrow failure, splenic sequestration and JAK-inhibitor therapy, is a defining feature of myelofibrosis driving transfusion dependence and momelotinib or luspatercept use.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Marrow neoangiogenesis: myelofibrosis shows increased bone-marrow microvascular density supported by angiopoietin-Tie2 signalling alongside VEGF (already mapped), part of the disordered fibrotic microenvironment created by the clone.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Urate overproduction: the high cell turnover of myelofibrosis raises purine catabolism through xanthine oxidase, producing hyperuricaemia and gout that are managed with allopurinol alongside the disease-directed therapy.
 
 ---
 

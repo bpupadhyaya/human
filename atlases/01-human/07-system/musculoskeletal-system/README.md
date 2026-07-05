@@ -395,6 +395,15 @@ cross_links:
   - target: 01-human/03-molecular/serotonin
     relation: connects-to
     note: "Gut-bone axis: gut-derived serotonin acts on osteoblasts to restrain bone formation, a systemic regulator of skeletal mass that connects the musculoskeletal system to enteric endocrine signalling beyond the local bone factors."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Matrix and cartilage: zinc is a cofactor for the collagen-processing and matrix metalloproteinase enzymes of bone and cartilage (collagen already mapped), and its deficiency impairs growth and skeletal development."
+  - target: 01-human/07-system/rheumatoid-arthritis
+    relation: connects-to
+    note: "Inflammatory arthritis: rheumatoid arthritis attacks the synovial joints of the musculoskeletal system, with immune-driven synovitis eroding cartilage and bone (RANKL already mapped) to cause the joint destruction and deformity of the disease."
+  - target: 01-human/03-molecular/mu-opioid-receptor
+    relation: connects-to
+    note: "Musculoskeletal pain: pain from bones, joints and muscles is among the leading reasons for analgesic use, and opioids acting on the mu-opioid receptor are used, with well-known risks, for severe musculoskeletal pain."
 ---
 
 # Musculoskeletal System
@@ -657,6 +666,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Bone and muscle mineral: roughly 60% of body magnesium is stored in bone, and magnesium is essential for neuromuscular excitability and as an enzyme cofactor, so deficiency produces cramps, weakness and impaired bone quality.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Muscle excitability: potassium gradients set the resting membrane potential of skeletal muscle, and hypo- or hyperkalaemia cause the weakness and paralysis that link electrolyte balance directly to musculoskeletal function.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Gut-bone axis: gut-derived serotonin acts on osteoblasts to restrain bone formation, a systemic regulator of skeletal mass that connects the musculoskeletal system to enteric endocrine signalling beyond the local bone factors.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Matrix and cartilage: zinc is a cofactor for the collagen-processing and matrix metalloproteinase enzymes of bone and cartilage (collagen already mapped), and its deficiency impairs growth and skeletal development.
+- `connects-to` → **[Rheumatoid arthritis](../rheumatoid-arthritis/README.md)** — Inflammatory arthritis: rheumatoid arthritis attacks the synovial joints of the musculoskeletal system, with immune-driven synovitis eroding cartilage and bone (RANKL already mapped) to cause the joint destruction and deformity of the disease.
+- `connects-to` → **[Mu-opioid receptor](../../03-molecular/mu-opioid-receptor/README.md)** — Musculoskeletal pain: pain from bones, joints and muscles is among the leading reasons for analgesic use, and opioids acting on the mu-opioid receptor are used, with well-known risks, for severe musculoskeletal pain.
 
 ## Pathology
 
