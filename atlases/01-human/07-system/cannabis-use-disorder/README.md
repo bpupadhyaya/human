@@ -375,6 +375,15 @@ cross_links:
   - target: 01-human/03-molecular/il-17a
     relation: connects-to
     note: "IL-17A signaling participates in the neuroinflammation associated with cannabis use disorder."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Sex differences: estrogen modulates CB1 cannabinoid signalling and reward circuitry, contributing to the sex differences in cannabis sensitivity and the telescoping course by which women progress to cannabis use disorder faster than men."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Neuroendocrine effect: cannabinoids act on hypothalamic dopamine to alter prolactin secretion, part of the endocrine disruption that, alongside the lowered testosterone already mapped, accompanies chronic cannabis use."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Cardiovascular events: cannabis raises heart rate and myocardial oxygen demand and can provoke coronary vasospasm, and the resulting acute myocardial injury, marked by troponin release, underlies the increased risk of heart attack in young users."
 sources:
   - id: hasin-2015-cannabis-disorder
     type: peer-reviewed
@@ -649,6 +658,9 @@ Paradoxical syndrome in heavy long-term users: cyclic vomiting relieved by hot b
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the neuroimmune interactions implicated in cannabis use disorder.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the microglial and neuroinflammatory responses implicated in cannabis use disorder.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the neuroinflammation associated with cannabis use disorder.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Sex differences: estrogen modulates CB1 cannabinoid signalling and reward circuitry, contributing to the sex differences in cannabis sensitivity and the telescoping course by which women progress to cannabis use disorder faster than men.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Neuroendocrine effect: cannabinoids act on hypothalamic dopamine to alter prolactin secretion, part of the endocrine disruption that, alongside the lowered testosterone already mapped, accompanies chronic cannabis use.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiovascular events: cannabis raises heart rate and myocardial oxygen demand and can provoke coronary vasospasm, and the resulting acute myocardial injury, marked by troponin release, underlies the increased risk of heart attack in young users.
 
 [^hasin-2015-cannabis-disorder]: Hasin DS, Saha TD, Kerridge BT, et al. Prevalence of marijuana use disorders in the United States between 2001-2002 and 2012-2013. *JAMA Psychiatry.* 2015;72(12):1235-1242. [doi:10.1001/jamapsychiatry.2015.1858](https://doi.org/10.1001/jamapsychiatry.2015.1858) · [PubMed 26502112](https://pubmed.ncbi.nlm.nih.gov/26502112/)
 [^budney-2004-cannabis-withdrawal]: Budney AJ, Moore BA, Vandrey RG, Hughes JR. The time course and significance of cannabis withdrawal. *J Abnorm Psychol.* 2003;112(3):393-402. [doi:10.1037/0021-843X.112.3.393](https://doi.org/10.1037/0021-843X.112.3.393) · [PubMed 12943018](https://pubmed.ncbi.nlm.nih.gov/12943018/)

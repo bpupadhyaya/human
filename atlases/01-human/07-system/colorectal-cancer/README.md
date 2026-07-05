@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/il-17a
     relation: connects-to
     note: "IL-17A signaling participates in the inflammatory tumor microenvironment (colitis-associated) of colorectal cancer."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "MSI immunotherapy: mismatch-repair-deficient, microsatellite-unstable colorectal cancers (MLH1/MSH2 already mapped) generate abundant neoantigens presented on MHC, making this subset uniquely responsive to checkpoint inhibitors while proficient tumours remain cold."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Iron-deficiency presentation: right-sided colorectal cancers bleed occultly, and the resulting iron-deficiency anaemia with low transferrin saturation is a classic presenting sign that should prompt colonoscopy in older adults."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Metabolic risk: obesity and insulin resistance raise circulating IGF-1, a mitogen for colonic epithelium, part of the mechanism linking metabolic syndrome and Western diet to increased colorectal cancer risk."
 ---
 
 # Colorectal Cancer
@@ -635,6 +644,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the tumor microenvironment of colorectal cancer.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the tumor-immune microenvironment of colorectal cancer.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory tumor microenvironment (colitis-associated) of colorectal cancer.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — MSI immunotherapy: mismatch-repair-deficient, microsatellite-unstable colorectal cancers (MLH1/MSH2 already mapped) generate abundant neoantigens presented on MHC, making this subset uniquely responsive to checkpoint inhibitors while proficient tumours remain cold.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Iron-deficiency presentation: right-sided colorectal cancers bleed occultly, and the resulting iron-deficiency anaemia with low transferrin saturation is a classic presenting sign that should prompt colonoscopy in older adults.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Metabolic risk: obesity and insulin resistance raise circulating IGF-1, a mitogen for colonic epithelium, part of the mechanism linking metabolic syndrome and Western diet to increased colorectal cancer risk.
 
 ---
 
