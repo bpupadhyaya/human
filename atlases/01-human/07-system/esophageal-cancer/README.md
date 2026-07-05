@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/calcineurin
     relation: connects-to
     note: "Calcineurin-NFAT signaling participates in the tumor microenvironment and immune signaling of esophageal cancer."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Acid reflux carcinogenesis: chronic reflux of gastric acid (protons) drives Barrett's metaplasia and oesophageal adenocarcinoma, the mechanism linking GERD and obesity (leptin already mapped) to the rising incidence of the lower-oesophageal tumour."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Immunotherapy: checkpoint inhibitors (PD-1 already mapped) are now standard in oesophageal cancer, and MHC class II antigen presentation shapes the T-cell response that determines benefit, especially in the squamous subtype."
+  - target: 01-human/03-molecular/axl-receptor
+    relation: connects-to
+    note: "Invasion and resistance: the AXL receptor tyrosine kinase drives the epithelial-mesenchymal transition and treatment resistance of oesophageal cancer, a mechanism of progression beyond the HER2 and FGFR targets already mapped."
 ---
 
 # Esophageal Cancer
@@ -657,6 +666,9 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory tumor microenvironment of esophageal cancer.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory tumor microenvironment of esophageal cancer.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the tumor microenvironment and immune signaling of esophageal cancer.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Acid reflux carcinogenesis: chronic reflux of gastric acid (protons) drives Barrett's metaplasia and oesophageal adenocarcinoma, the mechanism linking GERD and obesity (leptin already mapped) to the rising incidence of the lower-oesophageal tumour.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immunotherapy: checkpoint inhibitors (PD-1 already mapped) are now standard in oesophageal cancer, and MHC class II antigen presentation shapes the T-cell response that determines benefit, especially in the squamous subtype.
+- `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — Invasion and resistance: the AXL receptor tyrosine kinase drives the epithelial-mesenchymal transition and treatment resistance of oesophageal cancer, a mechanism of progression beyond the HER2 and FGFR targets already mapped.
 
 ---
 

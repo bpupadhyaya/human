@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/calcineurin
     relation: connects-to
     note: "Calcineurin-NFAT signaling participates in the megakaryocyte and immune signaling of essential thrombocythemia."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Endothelial-platelet balance: nitric oxide normally restrains platelet activation and keeps vessels dilated, so impaired endothelial nitric-oxide function alongside the excess platelets of essential thrombocythaemia tips the balance toward the thrombosis that dominates its risk."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Arterial thrombosis: the thrombocytosis of essential thrombocythaemia predisposes to arterial events including myocardial infarction and stroke, and troponin elevation marks the cardiac injury of these thrombotic complications."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Platelet mediator: platelets are the body's main store of serotonin, released on aggregation to cause vasoconstriction, so the excess dysfunctional platelets of essential thrombocythaemia contribute to microvascular events such as erythromelalgia."
 ---
 
 # Essential Thrombocythemia
@@ -637,6 +646,9 @@ Management:
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory bone-marrow microenvironment of essential thrombocythemia.
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the clonal hematopoiesis of essential thrombocythemia.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the megakaryocyte and immune signaling of essential thrombocythemia.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Endothelial-platelet balance: nitric oxide normally restrains platelet activation and keeps vessels dilated, so impaired endothelial nitric-oxide function alongside the excess platelets of essential thrombocythaemia tips the balance toward the thrombosis that dominates its risk.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Arterial thrombosis: the thrombocytosis of essential thrombocythaemia predisposes to arterial events including myocardial infarction and stroke, and troponin elevation marks the cardiac injury of these thrombotic complications.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Platelet mediator: platelets are the body's main store of serotonin, released on aggregation to cause vasoconstriction, so the excess dysfunctional platelets of essential thrombocythaemia contribute to microvascular events such as erythromelalgia.
 
 [^harrison-2005-pt1-et]: Harrison CN, Campbell PJ, Buck G, et al. Hydroxyurea compared with anagrelide in high-risk essential thrombocythemia. *N Engl J Med.* 2005;353(1):33-45. [doi:10.1056/NEJMoa043800](https://doi.org/10.1056/NEJMoa043800) · [PubMed 16000354](https://pubmed.ncbi.nlm.nih.gov/16000354/)
 [^barbui-2012-ipset]: Barbui T, Finazzi G, Carobbio A, et al. Development and validation of an International Prognostic Score of thrombosis in World Health Organization-essential thrombocythemia (IPSET-thrombosis). *Blood.* 2012;120(26):5128-5133. [doi:10.1182/blood-2012-07-444067](https://doi.org/10.1182/blood-2012-07-444067) · [PubMed 23086758](https://pubmed.ncbi.nlm.nih.gov/23086758/)
