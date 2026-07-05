@@ -397,6 +397,15 @@ cross_links:
   - target: 01-human/03-molecular/type-i-interferon
     relation: connects-to
     note: "Type I interferon signaling participates in the tissue-damage and immune activation of graft-versus-host disease."
+  - target: 01-human/03-molecular/ctla-4
+    relation: connects-to
+    note: "Costimulation blockade: abatacept, a CTLA-4-Ig fusion protein, blocks the CD28 costimulation that donor T cells need to activate against host tissue, and it is approved to help prevent graft-versus-host disease after mismatched transplant."
+  - target: 01-human/03-molecular/secretory-iga
+    relation: connects-to
+    note: "Mucosal barrier: conditioning and gut graft-versus-host disease disrupt the secretory IgA that protects the intestinal mucosa, weakening the barrier that normally restrains the microbiota and amplifying the gut inflammation."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Apoptosis balance: anti-apoptotic BCL-2 family proteins set the survival threshold of alloreactive donor T cells and of the target-organ epithelium they attack, influencing both the graft-versus-host injury and the beneficial graft-versus-leukaemia effect."
 ---
 
 # Graft-Versus-Host Disease
@@ -661,6 +670,9 @@ The protective Treg/IL-10 axis is the key biological counterbalance to alloreact
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the alloreactive immune responses of graft-versus-host disease.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the T-cell activation and target-organ inflammation of graft-versus-host disease.
 - `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — Type I interferon signaling participates in the tissue-damage and immune activation of graft-versus-host disease.
+- `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Costimulation blockade: abatacept, a CTLA-4-Ig fusion protein, blocks the CD28 costimulation that donor T cells need to activate against host tissue, and it is approved to help prevent graft-versus-host disease after mismatched transplant.
+- `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — Mucosal barrier: conditioning and gut graft-versus-host disease disrupt the secretory IgA that protects the intestinal mucosa, weakening the barrier that normally restrains the microbiota and amplifying the gut inflammation.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Apoptosis balance: anti-apoptotic BCL-2 family proteins set the survival threshold of alloreactive donor T cells and of the target-organ epithelium they attack, influencing both the graft-versus-host injury and the beneficial graft-versus-leukaemia effect.
 
 [^ferrara-2009-gvhd-review]: Ferrara JL, Levine JE, Reddy P, Holler E. Graft-versus-host disease. *Lancet.* 2009;373(9674):1550-1561. [doi:10.1016/S0140-6736(09)60237-3](https://doi.org/10.1016/S0140-6736(09)60237-3) · [PubMed 19380114](https://pubmed.ncbi.nlm.nih.gov/19380114/)
 [^zeiser-2020-ruxolitinib-gvhd-reach]: Zeiser R, von Bubnoff N, Butler J, et al. Ruxolitinib for Glucocorticoid-Refractory Acute Graft-versus-Host Disease. *N Engl J Med.* 2020;382(19):1800-1810. [doi:10.1056/NEJMoa1917635](https://doi.org/10.1056/NEJMoa1917635) · [PubMed 32374962](https://pubmed.ncbi.nlm.nih.gov/32374962/)

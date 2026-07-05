@@ -400,6 +400,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Complement C3 participates in the microglial and neuroinflammatory processes implicated in generalized anxiety disorder."
+  - target: 01-human/03-molecular/beta1-adrenergic-receptor
+    relation: connects-to
+    note: "Somatic symptoms: the palpitations, tremor and tachycardia of anxiety are peripheral beta-adrenergic effects, which is why beta-blockers relieve the somatic manifestations of generalized anxiety even without acting on the core worry."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "Brain renin-angiotensin: central angiotensin II modulates the HPA and sympathetic stress response, and angiotensin-receptor blockade is associated with reduced anxiety, a neuroendocrine axis beyond the monoamine and GABA systems already mapped."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Fear circuitry: nitric oxide from neuronal nNOS modulates the amygdala and hippocampal circuits that generate anxiety, implicating NO signalling in the regulation of anxiety-like states."
 ---
 
 # Generalized Anxiety Disorder
@@ -665,6 +674,9 @@ Allow **4-8 weeks** for onset of anxiolytic effect. Continue treatment ≥12 mon
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the microglial and neuroinflammatory responses implicated in generalized anxiety disorder.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the neuroinflammation associated with generalized anxiety disorder.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the microglial and neuroinflammatory processes implicated in generalized anxiety disorder.
+- `connects-to` → **[Beta-1 adrenergic receptor](../../03-molecular/beta1-adrenergic-receptor/README.md)** — Somatic symptoms: the palpitations, tremor and tachycardia of anxiety are peripheral beta-adrenergic effects, which is why beta-blockers relieve the somatic manifestations of generalized anxiety even without acting on the core worry.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — Brain renin-angiotensin: central angiotensin II modulates the HPA and sympathetic stress response, and angiotensin-receptor blockade is associated with reduced anxiety, a neuroendocrine axis beyond the monoamine and GABA systems already mapped.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Fear circuitry: nitric oxide from neuronal nNOS modulates the amygdala and hippocampal circuits that generate anxiety, implicating NO signalling in the regulation of anxiety-like states.
 
 [^kessler-2005-gad-prevalence]: Kessler RC, Berglund P, Demler O, et al. Lifetime prevalence and age-of-onset distributions of DSM-IV disorders in the NCS Replication. *Arch Gen Psychiatry.* 2005;62(6):593-602. [doi:10.1001/archpsyc.62.6.593](https://doi.org/10.1001/archpsyc.62.6.593) · [PubMed 15939837](https://pubmed.ncbi.nlm.nih.gov/15939837/)
 [^bandelow-2015-anxiety-biology]: Bandelow B, Michaelis S. Epidemiology of anxiety disorders in the 21st century. *Dialogues Clin Neurosci.* 2015;17(3):327-335. [doi:10.31887/DCNS.2015.17.3/bbandelow](https://doi.org/10.31887/DCNS.2015.17.3/bbandelow) · [PubMed 26487812](https://pubmed.ncbi.nlm.nih.gov/26487812/)
