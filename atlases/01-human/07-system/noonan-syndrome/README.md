@@ -385,6 +385,15 @@ cross_links:
   - target: 01-human/03-molecular/il-33
     relation: connects-to
     note: "IL-33 alarmin signaling participates in the cardiac-remodeling and immune processes relevant to Noonan syndrome."
+  - target: 01-human/03-molecular/phospholamban
+    relation: connects-to
+    note: "Diastolic calcium handling: Noonan hypertrophic cardiomyopathy impairs relaxation via the phospholamban-SERCA2a axis (SERCA already mapped) controlling diastolic calcium reuptake into the sarcoplasmic reticulum, the basis of the stiff ventricle."
+  - target: 01-human/03-molecular/sclerostin
+    relation: connects-to
+    note: "Skeletal fragility: Noonan syndrome carries reduced bone mineral density and osteopenia, and sclerostin is the osteocyte Wnt brake restraining bone formation, mechanistically linking the RASopathy to the low bone mass tracked alongside its osteoporosis risk."
+  - target: 01-human/03-molecular/thyroid-hormones
+    relation: connects-to
+    note: "Endocrine autoimmunity: Noonan syndrome is associated with an increased incidence of autoimmune thyroiditis and subclinical hypothyroidism, so thyroid-hormone deficiency is a recurrent endocrine comorbidity beyond the growth-hormone axis already mapped."
 ---
 
 # Noonan Syndrome
@@ -645,6 +654,9 @@ NS is characterized by four cardinal features: **(1) short stature** (below 3rd 
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the cardiac-developmental and vascular processes relevant to Noonan syndrome.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6-STAT3 signaling (STAT3 already mapped) participates in the inflammatory and cardiac-remodeling processes relevant to Noonan syndrome.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the cardiac-remodeling and immune processes relevant to Noonan syndrome.
+- `connects-to` → **[Phospholamban](../../03-molecular/phospholamban/README.md)** — Diastolic calcium handling: Noonan hypertrophic cardiomyopathy impairs relaxation via the phospholamban-SERCA2a axis (SERCA already mapped) controlling diastolic calcium reuptake into the sarcoplasmic reticulum, the basis of the stiff ventricle.
+- `connects-to` → **[Sclerostin](../../03-molecular/sclerostin/README.md)** — Skeletal fragility: Noonan syndrome carries reduced bone mineral density and osteopenia, and sclerostin is the osteocyte Wnt brake restraining bone formation, mechanistically linking the RASopathy to the low bone mass tracked alongside its osteoporosis risk.
+- `connects-to` → **[Thyroid hormones](../../03-molecular/thyroid-hormones/README.md)** — Endocrine autoimmunity: Noonan syndrome is associated with an increased incidence of autoimmune thyroiditis and subclinical hypothyroidism, so thyroid-hormone deficiency is a recurrent endocrine comorbidity beyond the growth-hormone axis already mapped.
 
 [^tartaglia-2001-ptpn11-noonan]: Tartaglia M, Mehler EL, Goldberg R, et al. Mutations in PTPN11, encoding the protein tyrosine phosphatase SHP-2, cause Noonan syndrome. *Nat Genet.* 2001;29(4):465-468. [doi:10.1038/ng772](https://doi.org/10.1038/ng772) · [PubMed 11704759](https://pubmed.ncbi.nlm.nih.gov/11704759/)
 [^van-der-burgt-2007-noonan-review]: van der Burgt I. Noonan syndrome. *Orphanet J Rare Dis.* 2007;2:4. [doi:10.1186/1750-1172-2-4](https://doi.org/10.1186/1750-1172-2-4) · [PubMed 17222357](https://pubmed.ncbi.nlm.nih.gov/17222357/)
