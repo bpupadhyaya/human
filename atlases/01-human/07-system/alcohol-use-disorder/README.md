@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/troponin-complex
     relation: connects-to
     note: "Alcoholic cardiomyopathy: chronic heavy drinking causes a dilated cardiomyopathy, and troponin release can mark the myocardial injury of this under-recognised cardiac complication of alcohol use disorder."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Alcohol-related anaemia: heavy drinking lowers haemoglobin through a direct marrow toxicity, folate deficiency causing macrocytosis, and gastrointestinal and variceal bleeding from the associated liver disease (already mapped)."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Pseudo-Cushing and hypertension: alcohol activates the HPA and renin-angiotensin-aldosterone systems (cortisol already mapped), contributing to the hypertension and the pseudo-Cushing state seen in alcohol use disorder."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Glucose dysregulation: alcohol acutely inhibits gluconeogenesis to cause hypoglycaemia, while chronic pancreatic damage (pancreas already mapped) impairs insulin secretion, giving alcohol use disorder complex effects on glucose control."
 ---
 
 # Alcohol Use Disorder
@@ -723,6 +732,9 @@ Prenatal alcohol exposure → leading preventable cause of intellectual disabili
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Sex differences: women develop alcohol-related organ damage at lower exposures (telescoping), and estrogen with sex-based differences in alcohol metabolism contributes to this greater vulnerability in alcohol use disorder.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative metabolism: ethanol metabolism and xanthine-oxidase activity generate reactive oxygen species and uric acid, contributing to the oxidative liver injury and the hyperuricaemia and gout associated with heavy drinking.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Alcoholic cardiomyopathy: chronic heavy drinking causes a dilated cardiomyopathy, and troponin release can mark the myocardial injury of this under-recognised cardiac complication of alcohol use disorder.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Alcohol-related anaemia: heavy drinking lowers haemoglobin through a direct marrow toxicity, folate deficiency causing macrocytosis, and gastrointestinal and variceal bleeding from the associated liver disease (already mapped).
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Pseudo-Cushing and hypertension: alcohol activates the HPA and renin-angiotensin-aldosterone systems (cortisol already mapped), contributing to the hypertension and the pseudo-Cushing state seen in alcohol use disorder.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Glucose dysregulation: alcohol acutely inhibits gluconeogenesis to cause hypoglycaemia, while chronic pancreatic damage (pancreas already mapped) impairs insulin secretion, giving alcohol use disorder complex effects on glucose control.
 
 [^koob-2013-addiction-neuroscience]: Koob GF, Volkow ND. Neurocircuitry of addiction. *Neuropsychopharmacology.* 2010;35(1):217-238. [doi:10.1038/npp.2009.110](https://doi.org/10.1038/npp.2009.110) · [PubMed 19710631](https://pubmed.ncbi.nlm.nih.gov/19710631/)
 [^anton-2006-combine]: Anton RF, O'Malley SS, Ciraulo DA, et al. Combined pharmacotherapies and behavioral interventions for alcohol dependence: the COMBINE study. *JAMA.* 2006;295(17):2003-2017. [doi:10.1001/jama.295.17.2003](https://doi.org/10.1001/jama.295.17.2003) · [PubMed 16670409](https://pubmed.ncbi.nlm.nih.gov/16670409/)

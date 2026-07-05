@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "T-cell expansion: IL-2 drives the proliferation of the engineered and endogenous T cells used against acute lymphoblastic leukaemia, and its release contributes to the cytokine-release syndrome seen with CAR-T therapy."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Marrow-failure anaemia: replacement of the marrow (already mapped) by lymphoblasts crowds out red-cell production, and the resulting anaemia with falling haemoglobin, alongside thrombocytopenia, presents acute lymphoblastic leukaemia."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Anthracycline cardiotoxicity: the anthracycline chemotherapy central to ALL regimens is cardiotoxic, and troponin elevation helps detect the cumulative myocardial injury that threatens the long-term survivors of this highly curable leukaemia."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Tumour-lysis acidosis: the high blast burden of ALL, lysed by induction chemotherapy, releases acids that, with lactate from the metabolic stress, produce the metabolic acidosis of tumour-lysis syndrome (potassium and urate already mapped)."
 ---
 
 # Acute Lymphoblastic Leukemia
@@ -671,6 +680,9 @@ Childhood ALL survivors (now majority of patients): neurocognitive impairment (M
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Tumour lysis syndrome: the rapid cell turnover of acute lymphoblastic leukaemia, especially on starting treatment, releases purines that xanthine oxidase converts to uric acid, causing the hyperuricaemia and urate nephropathy prevented by rasburicase and allopurinol.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immunotherapy: antigen presentation shapes the T-cell response harnessed by the CD19-directed CAR-T cells and bispecific antibodies (perforin already mapped) that have transformed relapsed acute lymphoblastic leukaemia.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell expansion: IL-2 drives the proliferation of the engineered and endogenous T cells used against acute lymphoblastic leukaemia, and its release contributes to the cytokine-release syndrome seen with CAR-T therapy.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Marrow-failure anaemia: replacement of the marrow (already mapped) by lymphoblasts crowds out red-cell production, and the resulting anaemia with falling haemoglobin, alongside thrombocytopenia, presents acute lymphoblastic leukaemia.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Anthracycline cardiotoxicity: the anthracycline chemotherapy central to ALL regimens is cardiotoxic, and troponin elevation helps detect the cumulative myocardial injury that threatens the long-term survivors of this highly curable leukaemia.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Tumour-lysis acidosis: the high blast burden of ALL, lysed by induction chemotherapy, releases acids that, with lactate from the metabolic stress, produce the metabolic acidosis of tumour-lysis syndrome (potassium and urate already mapped).
 
 [^pui-2018-all-cure]: Pui CH, Yang JJ, Bhakta N, et al. Global efforts toward the cure of childhood acute lymphoblastic leukemia. *Lancet Child Adolesc Health.* 2018;2(6):440-454. [doi:10.1016/S2352-4642(18)30066-X](https://doi.org/10.1016/S2352-4642(18)30066-X) · [PubMed 29976322](https://pubmed.ncbi.nlm.nih.gov/29976322/)
 [^maude-2018-tisagenlecleucel]: Maude SL, Laetsch TW, Buechner J, et al. Tisagenlecleucel in children and young adults with B-cell lymphoblastic leukemia. *N Engl J Med.* 2018;378(5):439-448. [doi:10.1056/NEJMoa1709866](https://doi.org/10.1056/NEJMoa1709866) · [PubMed 29385370](https://pubmed.ncbi.nlm.nih.gov/29385370/)
