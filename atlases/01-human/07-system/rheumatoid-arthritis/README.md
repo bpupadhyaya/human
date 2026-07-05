@@ -391,6 +391,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Osteopontin participates in the synovial inflammation and bone/cartilage destruction of rheumatoid arthritis."
+  - target: 01-human/03-molecular/immunoglobulin-g
+    relation: connects-to
+    note: "Rheumatoid factor: RF is an autoantibody directed against the Fc portion of IgG, one of the two classic RA serologies alongside anti-CCP, and the resulting immune complexes fix complement (C3/C5 already mapped) to drive synovial inflammation."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Cardiovascular mortality: chronic systemic inflammation in rheumatoid arthritis impairs endothelial nitric-oxide function, driving the accelerated atherosclerosis that is the leading cause of the excess cardiovascular death seen in RA."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "Pannus angiogenesis: the invasive rheumatoid pannus depends on new blood vessels driven by angiopoietin-Tie2 and VEGF (VEGF already mapped) to feed the hyperplastic, hypoxic synovium that erodes cartilage and bone."
 ---
 
 # Rheumatoid Arthritis
@@ -657,6 +666,9 @@ RA patients have:
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine signaling, the mechanism of methotrexate's anti-inflammatory action, participates in the immunomodulation of rheumatoid arthritis.
 - `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — Type I interferon signaling participates in the interferon signature and immune dysregulation of rheumatoid arthritis.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the synovial inflammation and bone/cartilage destruction of rheumatoid arthritis.
+- `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Rheumatoid factor: RF is an autoantibody directed against the Fc portion of IgG, one of the two classic RA serologies alongside anti-CCP, and the resulting immune complexes fix complement (C3/C5 already mapped) to drive synovial inflammation.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Cardiovascular mortality: chronic systemic inflammation in rheumatoid arthritis impairs endothelial nitric-oxide function, driving the accelerated atherosclerosis that is the leading cause of the excess cardiovascular death seen in RA.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Pannus angiogenesis: the invasive rheumatoid pannus depends on new blood vessels driven by angiopoietin-Tie2 and VEGF (VEGF already mapped) to feed the hyperplastic, hypoxic synovium that erodes cartilage and bone.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
