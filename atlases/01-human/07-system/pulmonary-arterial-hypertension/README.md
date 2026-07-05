@@ -400,6 +400,15 @@ cross_links:
   - target: 01-human/03-molecular/troponin-complex
     relation: connects-to
     note: "Right-heart failure: pulmonary arterial hypertension ultimately kills through right ventricular failure, and troponin released from the strained, ischaemic RV myocardium is a prognostic biomarker linking the pulmonary vasculopathy to cardiac decompensation."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "Vasodilator deficit: calcitonin gene-related peptide is a potent pulmonary vasodilator, and its relative deficiency contributes to the vasoconstriction of pulmonary arterial hypertension, complementing the endothelin/nitric-oxide/prostacyclin pathways already mapped."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "RAAS activation: the renin-angiotensin-aldosterone system (aldosterone already mapped) is activated in pulmonary arterial hypertension, and angiotensin II promotes the vascular remodelling and right-ventricular fibrosis that worsen the disease."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Metabolic dysfunction: pulmonary arterial hypertension is associated with insulin resistance and a shift toward glycolytic metabolism in the pulmonary vessels and right ventricle, a metabolic dimension increasingly recognised in its pathobiology."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -650,6 +659,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[Serotonin transporter](../../03-molecular/serotonin-transporter/README.md)** — Serotonin hypothesis: the serotonin transporter (SERT) delivers 5-HT (serotonin already mapped) into pulmonary artery smooth muscle to drive proliferation, and SERT is the mechanistic link behind anorexigen (fenfluramine)-associated pulmonary arterial hypertension.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Channelopathy: loss-of-function mutations in the KCNK3/TASK-1 potassium channel cause heritable pulmonary arterial hypertension, since impaired potassium efflux depolarises smooth muscle to raise calcium and promote vasoconstriction and remodeling.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Right-heart failure: pulmonary arterial hypertension ultimately kills through right ventricular failure, and troponin released from the strained, ischaemic RV myocardium is a prognostic biomarker linking the pulmonary vasculopathy to cardiac decompensation.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Vasodilator deficit: calcitonin gene-related peptide is a potent pulmonary vasodilator, and its relative deficiency contributes to the vasoconstriction of pulmonary arterial hypertension, complementing the endothelin/nitric-oxide/prostacyclin pathways already mapped.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — RAAS activation: the renin-angiotensin-aldosterone system (aldosterone already mapped) is activated in pulmonary arterial hypertension, and angiotensin II promotes the vascular remodelling and right-ventricular fibrosis that worsen the disease.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Metabolic dysfunction: pulmonary arterial hypertension is associated with insulin resistance and a shift toward glycolytic metabolism in the pulmonary vessels and right ventricle, a metabolic dimension increasingly recognised in its pathobiology.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

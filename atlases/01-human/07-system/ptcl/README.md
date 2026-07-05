@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/caspase-3
     relation: connects-to
     note: "Chemotherapy execution: CHOP-based anthracycline chemotherapy, the standard PTCL regimen, kills lymphoma cells through caspase-3-mediated apoptosis, and resistance to this executioner pathway contributes to the poor outcomes that characterise most peripheral T-cell lymphomas."
+  - target: 01-human/03-molecular/immunoglobulin-g
+    relation: connects-to
+    note: "Hypergammaglobulinaemia: angioimmunoblastic PTCL, arising from follicular helper T cells (MHC class II already mapped), drives a polyclonal B-cell expansion that produces hypergammaglobulinaemia and the autoantibodies behind its autoimmune features."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Autoimmune cytopenias: angioimmunoblastic PTCL commonly causes autoimmune haemolytic anaemia and other cytopenias through its dysregulated B-cell help (immunoglobulin G already mapped), lowering haemoglobin at presentation."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Tumour lysis: the bulky, aggressive peripheral T-cell lymphomas can develop tumour-lysis syndrome on treatment, releasing purines that xanthine oxidase converts to uric acid, managed with allopurinol or rasburicase."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -664,6 +673,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[LMP1](../../03-molecular/lmp1/README.md)** — EBV-driven subtypes: extranodal NK/T-cell lymphoma and EBV-positive nodal T-cell lymphomas depend on Epstein-Barr virus, whose oncoprotein LMP1 mimics CD40 to activate NF-kB (already mapped), and EBV+ B-blasts also populate angioimmunoblastic PTCL.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — TFH biology: angioimmunoblastic PTCL arises from follicular helper T cells whose physiological role is MHC class II-restricted help to B cells, and this retained programme drives the polyclonal B-cell expansion and hypergammaglobulinaemia typical of the disease.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Chemotherapy execution: CHOP-based anthracycline chemotherapy, the standard PTCL regimen, kills lymphoma cells through caspase-3-mediated apoptosis, and resistance to this executioner pathway contributes to the poor outcomes that characterise most peripheral T-cell lymphomas.
+- `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Hypergammaglobulinaemia: angioimmunoblastic PTCL, arising from follicular helper T cells (MHC class II already mapped), drives a polyclonal B-cell expansion that produces hypergammaglobulinaemia and the autoantibodies behind its autoimmune features.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Autoimmune cytopenias: angioimmunoblastic PTCL commonly causes autoimmune haemolytic anaemia and other cytopenias through its dysregulated B-cell help (immunoglobulin G already mapped), lowering haemoglobin at presentation.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Tumour lysis: the bulky, aggressive peripheral T-cell lymphomas can develop tumour-lysis syndrome on treatment, releasing purines that xanthine oxidase converts to uric acid, managed with allopurinol or rasburicase.
 
 ---
 
