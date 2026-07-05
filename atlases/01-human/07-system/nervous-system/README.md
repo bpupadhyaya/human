@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/il-17a
     relation: connects-to
     note: "IL-17A signaling participates in the neuroinflammatory responses of the nervous system."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Repolarisation and resting potential: potassium efflux through voltage-gated and leak channels repolarises the neuron after each action potential and sets the resting membrane potential, complementing the sodium influx (already mapped) that fires the nervous system."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "NMDA-receptor gate: magnesium blocks the NMDA glutamate receptor at rest, and its voltage-dependent removal makes the receptor a coincidence detector, a mechanism central to the synaptic plasticity and learning of the nervous system."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Synaptic modulation: zinc is co-released with glutamate (already mapped) at many synapses and modulates NMDA and other receptors, a trace-metal neuromodulator important to signalling and to neural development."
 ---
 
 # Nervous System
@@ -567,6 +576,9 @@ Distributed cortical networks underlie language (Broca's area, Wernicke's area, 
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β signaling participates in the neuroinflammatory responses of the nervous system.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6-STAT3 signaling (STAT3 already mapped) participates in the neuroinflammatory and neuromodulatory responses of the nervous system.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the neuroinflammatory responses of the nervous system.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Repolarisation and resting potential: potassium efflux through voltage-gated and leak channels repolarises the neuron after each action potential and sets the resting membrane potential, complementing the sodium influx (already mapped) that fires the nervous system.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — NMDA-receptor gate: magnesium blocks the NMDA glutamate receptor at rest, and its voltage-dependent removal makes the receptor a coincidence detector, a mechanism central to the synaptic plasticity and learning of the nervous system.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Synaptic modulation: zinc is co-released with glutamate (already mapped) at many synapses and modulates NMDA and other receptors, a trace-metal neuromodulator important to signalling and to neural development.
 
 ## Pathology
 
