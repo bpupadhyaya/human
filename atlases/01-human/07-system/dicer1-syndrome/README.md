@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/pd-1
     relation: connects-to
     note: "Checkpoint context: PD-1-mediated exhaustion limits anti-tumour immunity, and checkpoint blockade is explored for the rare high-risk DICER1-associated cancers that recur or metastasise."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Chemotherapy anaemia: the intensive chemotherapy for the childhood cancers of DICER1 syndrome, such as pleuropulmonary blastoma and embryonal rhabdomyosarcoma (already mapped), is myelosuppressive and lowers haemoglobin."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Anthracycline cardiotoxicity: anthracyclines in the sarcoma regimens for DICER1-associated tumours are cardiotoxic, and troponin elevation helps detect the cumulative myocardial injury threatening these young survivors."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Tumour lysis and oxidative stress: the high proliferative rate of the embryonal DICER1 tumours, lysed by chemotherapy, releases purines catabolised by xanthine oxidase to uric acid, contributing to tumour-lysis risk and oxidative stress."
 ---
 
 # DICER1 Syndrome
@@ -646,6 +655,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immunosurveillance: MHC class II-restricted T-cell surveillance influences which of the diverse embryonal and stromal tumours of DICER1 syndrome progress, and antigen presentation is relevant to immunotherapy of the aggressive ones such as pleuropulmonary blastoma.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell expansion: IL-2-driven T-cell proliferation supports the adaptive immune responses and cellular immunotherapy approaches being considered for the childhood cancers of DICER1 syndrome (perforin already mapped).
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Checkpoint context: PD-1-mediated exhaustion limits anti-tumour immunity, and checkpoint blockade is explored for the rare high-risk DICER1-associated cancers that recur or metastasise.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Chemotherapy anaemia: the intensive chemotherapy for the childhood cancers of DICER1 syndrome, such as pleuropulmonary blastoma and embryonal rhabdomyosarcoma (already mapped), is myelosuppressive and lowers haemoglobin.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Anthracycline cardiotoxicity: anthracyclines in the sarcoma regimens for DICER1-associated tumours are cardiotoxic, and troponin elevation helps detect the cumulative myocardial injury threatening these young survivors.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Tumour lysis and oxidative stress: the high proliferative rate of the embryonal DICER1 tumours, lysed by chemotherapy, releases purines catabolised by xanthine oxidase to uric acid, contributing to tumour-lysis risk and oxidative stress.
 
 ---
 

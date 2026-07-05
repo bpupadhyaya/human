@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/mhc-class-ii
     relation: connects-to
     note: "Immune microenvironment: MHC class II-restricted T-cell surveillance shapes the immune microenvironment of desmoid tumours, and antigen presentation is relevant to the immunotherapy explored for these locally aggressive but non-metastasising fibromatoses."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "T-cell immunity: IL-2-driven T-cell responses (MHC class II and CD8 already mapped) shape the immune surveillance of desmoid tumours, relevant to the immunotherapy explored for these locally aggressive fibromatoses."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive stroma: the anti-inflammatory cytokine IL-10 in the desmoid microenvironment dampens anti-tumour immunity, part of the immune tolerance that, with the Wnt drive (already mapped), sustains the infiltrative fibromatosis."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Tumour vasculature: nitric oxide regulates the vascular tone and, with VEGF (already mapped), the angiogenesis supplying desmoid tumours, part of the stromal microenvironment beyond the myofibroblast and growth-factor drivers."
 ---
 
 # Desmoid Tumor
@@ -665,6 +674,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — Hormonal responsiveness: desmoid tumours express hormone receptors and can respond to anti-hormonal therapy, so the androgen axis, alongside the estrogen and progesterone already mapped, modulates their growth and pregnancy-associated flares.
 - `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — Fibroblast activation: GAS6-AXL receptor tyrosine kinase signalling promotes the myofibroblast activation and invasive growth of desmoid tumours, a candidate target beyond the Wnt/beta-catenin driver already mapped.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immune microenvironment: MHC class II-restricted T-cell surveillance shapes the immune microenvironment of desmoid tumours, and antigen presentation is relevant to the immunotherapy explored for these locally aggressive but non-metastasising fibromatoses.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell immunity: IL-2-driven T-cell responses (MHC class II and CD8 already mapped) shape the immune surveillance of desmoid tumours, relevant to the immunotherapy explored for these locally aggressive fibromatoses.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive stroma: the anti-inflammatory cytokine IL-10 in the desmoid microenvironment dampens anti-tumour immunity, part of the immune tolerance that, with the Wnt drive (already mapped), sustains the infiltrative fibromatosis.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide regulates the vascular tone and, with VEGF (already mapped), the angiogenesis supplying desmoid tumours, part of the stromal microenvironment beyond the myofibroblast and growth-factor drivers.
 
 ---
 
