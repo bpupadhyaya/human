@@ -385,6 +385,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Complement C3 participates in the inflammatory tumor microenvironment and ascites of ovarian cancer."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Immune prognosis: intratumoral T-cell infiltration is one of the strongest prognostic factors in ovarian cancer, and MHC class II antigen presentation shapes the CD4 help behind that response, with loss of presentation a route to immune escape and immunotherapy resistance."
+  - target: 01-human/03-molecular/axl-receptor
+    relation: connects-to
+    note: "Platinum resistance: the AXL receptor tyrosine kinase drives epithelial-mesenchymal transition, peritoneal metastatic spread and acquired platinum resistance in ovarian cancer, positioning AXL inhibition as a strategy against the chemoresistant relapse that defines the disease."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Apoptotic evasion: high-grade serous ovarian cancer resists chemotherapy partly through anti-apoptotic BCL-2 family proteins that raise the threshold for caspase activation (caspase-3 already mapped), a target of BH3-mimetic sensitisation strategies."
 ---
 
 # Ovarian Cancer
@@ -623,6 +632,9 @@ FTSEC ciliated and secretory cells line the Fallopian tube; secretory cells are 
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the tumor-immune microenvironment of ovarian cancer.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory tumor microenvironment of ovarian cancer.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory tumor microenvironment and ascites of ovarian cancer.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immune prognosis: intratumoral T-cell infiltration is one of the strongest prognostic factors in ovarian cancer, and MHC class II antigen presentation shapes the CD4 help behind that response, with loss of presentation a route to immune escape and immunotherapy resistance.
+- `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — Platinum resistance: the AXL receptor tyrosine kinase drives epithelial-mesenchymal transition, peritoneal metastatic spread and acquired platinum resistance in ovarian cancer, positioning AXL inhibition as a strategy against the chemoresistant relapse that defines the disease.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Apoptotic evasion: high-grade serous ovarian cancer resists chemotherapy partly through anti-apoptotic BCL-2 family proteins that raise the threshold for caspase activation (caspase-3 already mapped), a target of BH3-mimetic sensitisation strategies.
 
 [^burger-2011-gog0218]: Burger RA, Brady MF, Bookman MA, et al. Incorporation of bevacizumab in the primary treatment of ovarian cancer. *N Engl J Med.* 2011;365(26):2473-2483. [doi:10.1056/NEJMoa1104390](https://doi.org/10.1056/NEJMoa1104390) · [PubMed 22204724](https://pubmed.ncbi.nlm.nih.gov/22204724/)
 [^moore-2018-olaparib-solo1]: Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. *N Engl J Med.* 2018;379(26):2495-2505. [doi:10.1056/NEJMoa1810858](https://doi.org/10.1056/NEJMoa1810858) · [PubMed 30345884](https://pubmed.ncbi.nlm.nih.gov/30345884/)

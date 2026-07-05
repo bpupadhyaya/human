@@ -385,6 +385,15 @@ cross_links:
   - target: 01-human/03-molecular/il-17a
     relation: connects-to
     note: "IL-17A signaling participates in the inflammatory tumor microenvironment of ovarian clear cell carcinoma."
+  - target: 01-human/03-molecular/axl-receptor
+    relation: connects-to
+    note: "Chemoresistance driver: ovarian clear cell carcinoma is notoriously platinum-resistant, and the AXL receptor tyrosine kinase promotes the mesenchymal, drug-tolerant phenotype behind that resistance, a rational target where conventional cytotoxics underperform."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Immunotherapy subset: a fraction of clear cell carcinomas are mismatch-repair-deficient and microsatellite-unstable, generating neoantigens presented on MHC class II that render this subset responsive to checkpoint blockade despite the tumour's general chemoresistance."
+  - target: 01-human/03-molecular/progesterone
+    relation: connects-to
+    note: "Endometriosis origin: clear cell carcinoma arises from endometriosis, an estrogen-driven lesion whose growth progesterone opposes, so the progesterone-signalling axis that governs endometriotic precursors underlies the tumour's characteristic epidemiology and hormonal context."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -649,6 +658,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the tumor-stromal interactions of ovarian clear cell carcinoma.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the endometriosis-associated inflammatory tumor microenvironment of ovarian clear cell carcinoma.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory tumor microenvironment of ovarian clear cell carcinoma.
+- `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — Chemoresistance driver: ovarian clear cell carcinoma is notoriously platinum-resistant, and the AXL receptor tyrosine kinase promotes the mesenchymal, drug-tolerant phenotype behind that resistance, a rational target where conventional cytotoxics underperform.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immunotherapy subset: a fraction of clear cell carcinomas are mismatch-repair-deficient and microsatellite-unstable, generating neoantigens presented on MHC class II that render this subset responsive to checkpoint blockade despite the tumour's general chemoresistance.
+- `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Endometriosis origin: clear cell carcinoma arises from endometriosis, an estrogen-driven lesion whose growth progesterone opposes, so the progesterone-signalling axis that governs endometriotic precursors underlies the tumour's characteristic epidemiology and hormonal context.
 
 ---
 
