@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/mhc-class-ii
     relation: connects-to
     note: "Anaplastic immunotherapy: antigen presentation via MHC class II shapes the T-cell response now targeted with checkpoint inhibitors in anaplastic thyroid cancer, and its loss contributes to immune escape in this most aggressive thyroid malignancy."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Anaplastic T-cell therapy: IL-2-driven T-cell expansion supports the immunotherapy of anaplastic thyroid cancer (MHC class II already mapped), combined with BRAF/MEK-targeted therapy in this rapidly lethal but sometimes immunoresponsive tumour."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "TKI cardiotoxicity: the multikinase and VEGFR inhibitors (lenvatinib, sorafenib; VEGF already mapped) used in radioactive-iodine-refractory thyroid cancer cause hypertension and cardiac events, and troponin elevation helps detect the resulting myocardial injury."
+  - target: 01-human/03-molecular/ctla-4
+    relation: connects-to
+    note: "Checkpoint combination: CTLA-4 blockade, with PD-1 inhibition (already mapped), is being tested to deepen responses in anaplastic thyroid cancer, whose few but sometimes striking immunotherapy responses have prompted combination trials."
 ---
 
 # Thyroid Cancer
@@ -663,6 +672,9 @@ Calcitonin doubling time <6 months → poor prognosis → early systemic therapy
 - `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — Dedifferentiation and RAI-resistance: the AXL receptor tyrosine kinase is upregulated as thyroid cancers dedifferentiate and lose iodine uptake, driving the invasion and radioiodine-refractory phenotype that pushes treatment toward kinase inhibitors.
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Female predominance: thyroid cancer is roughly threefold more common in women, and estrogen-receptor signalling promotes thyroid follicular-cell proliferation, a hormonal contribution to the sex bias in its incidence.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Anaplastic immunotherapy: antigen presentation via MHC class II shapes the T-cell response now targeted with checkpoint inhibitors in anaplastic thyroid cancer, and its loss contributes to immune escape in this most aggressive thyroid malignancy.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Anaplastic T-cell therapy: IL-2-driven T-cell expansion supports the immunotherapy of anaplastic thyroid cancer (MHC class II already mapped), combined with BRAF/MEK-targeted therapy in this rapidly lethal but sometimes immunoresponsive tumour.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — TKI cardiotoxicity: the multikinase and VEGFR inhibitors (lenvatinib, sorafenib; VEGF already mapped) used in radioactive-iodine-refractory thyroid cancer cause hypertension and cardiac events, and troponin elevation helps detect the resulting myocardial injury.
+- `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Checkpoint combination: CTLA-4 blockade, with PD-1 inhibition (already mapped), is being tested to deepen responses in anaplastic thyroid cancer, whose few but sometimes striking immunotherapy responses have prompted combination trials.
 
 [^schlumberger-2015-lenvatinib]: Schlumberger M, Tahara M, Wirth LJ, et al. Lenvatinib versus placebo in radioiodine-refractory differentiated thyroid cancer. *N Engl J Med.* 2015;372(7):621-630. [doi:10.1056/NEJMoa1406470](https://doi.org/10.1056/NEJMoa1406470) · [PubMed 25671254](https://pubmed.ncbi.nlm.nih.gov/25671254/)
 [^subbiah-2018-atc-dabrafenib]: Subbiah V, Kreitman RJ, Wainberg ZA, et al. Dabrafenib and trametinib treatment in patients with locally advanced or metastatic BRAF V600-mutant anaplastic thyroid cancer. *J Clin Oncol.* 2018;36(1):7-13. [doi:10.1200/JCO.2017.73.6785](https://doi.org/10.1200/JCO.2017.73.6785) · [PubMed 28892432](https://pubmed.ncbi.nlm.nih.gov/28892432/)

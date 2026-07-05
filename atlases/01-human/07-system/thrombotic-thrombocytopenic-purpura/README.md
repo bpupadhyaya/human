@@ -400,6 +400,15 @@ cross_links:
   - target: 01-human/03-molecular/prostaglandins
     relation: connects-to
     note: "Platelet amplification: platelets recruited into the TTP microthrombi release thromboxane, a prostaglandin that amplifies aggregation and vasoconstriction, reinforcing the growing platelet plugs that occlude the microcirculation."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Dense-granule vasoconstrictor: platelets consumed into the TTP microthrombi release their stored serotonin, which constricts vessels and further activates platelets, adding a vasoactive component to the microvascular occlusion."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Pregnancy and female predominance: TTP is more common in women and can be precipitated by pregnancy, when rising oestrogen and falling ADAMTS13 (already mapped) activity combine to trigger the thrombotic microangiopathy."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Immune tolerance: PD-1 helps restrain the autoreactive response, and checkpoint-inhibitor cancer therapy has been reported to trigger acquired TTP by breaking tolerance to ADAMTS13, revealing this checkpoint's role in the autoimmunity."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -682,6 +691,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiac microthrombosis: myocardial capillary platelet microthrombi in TTP release cardiac troponin, and troponin elevation on presentation predicts mortality, tying the systemic microangiopathy to the frequently fatal cardiac injury.
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Adhesion anchor: von Willebrand factor (already mapped) normally binds subendothelial collagen to tether platelets at injury sites, the physiological adhesion axis that becomes pathological when uncleaved ultra-large multimers bind platelets under shear in TTP.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Platelet amplification: platelets recruited into the TTP microthrombi release thromboxane, a prostaglandin that amplifies aggregation and vasoconstriction, reinforcing the growing platelet plugs that occlude the microcirculation.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Dense-granule vasoconstrictor: platelets consumed into the TTP microthrombi release their stored serotonin, which constricts vessels and further activates platelets, adding a vasoactive component to the microvascular occlusion.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Pregnancy and female predominance: TTP is more common in women and can be precipitated by pregnancy, when rising oestrogen and falling ADAMTS13 (already mapped) activity combine to trigger the thrombotic microangiopathy.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Immune tolerance: PD-1 helps restrain the autoreactive response, and checkpoint-inhibitor cancer therapy has been reported to trigger acquired TTP by breaking tolerance to ADAMTS13, revealing this checkpoint's role in the autoimmunity.
 
 ---
 
