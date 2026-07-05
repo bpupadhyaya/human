@@ -406,6 +406,15 @@ cross_links:
   - target: 01-human/03-molecular/mhc-class-ii
     relation: connects-to
     note: "Plaque adaptive immunity: atherosclerosis in familial hypercholesterolaemia has an adaptive immune component, with MHC class II presentation of oxidised-LDL and ApoB peptides to T cells shaping the inflammatory plaque beyond the lipid burden."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Plaque T-cell response: IL-2-driven T-cell activation (MHC class II already mapped) participates in the adaptive immune inflammation of the atherosclerotic plaque, contributing to lesion progression in familial hypercholesterolaemia beyond the lipid drive."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Atheroprotective regulation: the anti-inflammatory cytokine IL-10 restrains plaque inflammation, and the balance between it and the pro-inflammatory cytokines already mapped shapes the stability of the atherosclerotic lesions of familial hypercholesterolaemia."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Sex differences: estrogen is cardioprotective and lowers LDL, so premenopausal women with familial hypercholesterolaemia are relatively protected until menopause, contributing to the later onset of coronary disease in affected women."
 ---
 
 # Familial Hypercholesterolemia
@@ -643,6 +652,9 @@ FH is a **monogenic autosomal dominant disorder** caused by mutations in three g
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Premature infarction: untreated familial hypercholesterolaemia causes early myocardial infarction, and troponin release marks the myocardial injury of the coronary events that are its leading cause of death, driving aggressive lipid lowering from childhood.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — LDL oxidation: xanthine-oxidase-derived reactive oxygen species help oxidise the excess LDL of familial hypercholesterolaemia, and oxidised LDL is the form avidly taken up by macrophages (already mapped) to form the foam cells of atheroma.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Plaque adaptive immunity: atherosclerosis in familial hypercholesterolaemia has an adaptive immune component, with MHC class II presentation of oxidised-LDL and ApoB peptides to T cells shaping the inflammatory plaque beyond the lipid burden.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Plaque T-cell response: IL-2-driven T-cell activation (MHC class II already mapped) participates in the adaptive immune inflammation of the atherosclerotic plaque, contributing to lesion progression in familial hypercholesterolaemia beyond the lipid drive.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Atheroprotective regulation: the anti-inflammatory cytokine IL-10 restrains plaque inflammation, and the balance between it and the pro-inflammatory cytokines already mapped shapes the stability of the atherosclerotic lesions of familial hypercholesterolaemia.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Sex differences: estrogen is cardioprotective and lowers LDL, so premenopausal women with familial hypercholesterolaemia are relatively protected until menopause, contributing to the later onset of coronary disease in affected women.
 
 [^goldstein-1985-ldlr-nobel]: Goldstein JL, Brown MS. The LDL receptor. *Arterioscler Thromb Vasc Biol.* 2009;29(4):431-438. [doi:10.1161/ATVBAHA.108.179564](https://doi.org/10.1161/ATVBAHA.108.179564) · [PubMed 19299327](https://pubmed.ncbi.nlm.nih.gov/19299327/)
 [^raal-2020-inclisiran-fh]: Raal FJ, Kallend D, Ray KK, et al. Inclisiran for the Treatment of Heterozygous Familial Hypercholesterolemia. *N Engl J Med.* 2020;382(16):1520-1530. [doi:10.1056/NEJMoa1913805](https://doi.org/10.1056/NEJMoa1913805) · [PubMed 32197277](https://pubmed.ncbi.nlm.nih.gov/32197277/)
