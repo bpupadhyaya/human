@@ -406,6 +406,15 @@ cross_links:
   - target: 01-human/03-molecular/type-i-interferon
     relation: connects-to
     note: "Type I interferon signaling participates in the immune dysregulation of ANCA-associated vasculitis."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "EGPA allergic axis: eosinophilic granulomatosis with polyangiitis, the asthma-associated subtype (asthma already mapped), features elevated IgE and an allergic, eosinophil-driven inflammation distinct from the PR3/MPO autoimmunity of the other AAV subtypes."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Th2 eosinophilia: IL-4 and the type-2 response (IL-5 already mapped) drive the eosinophil expansion and tissue infiltration of eosinophilic granulomatosis with polyangiitis, targeted by anti-IL-5 and emerging anti-IL-4/13 therapy."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Endothelial injury: impaired endothelial nitric-oxide function accompanies the small-vessel inflammation of ANCA-associated vasculitis, contributing to the vascular damage that underlies its ischaemic organ manifestations."
 ---
 
 # ANCA Vasculitis
@@ -667,6 +676,9 @@ EGPA is mechanistically distinct — eosinophils, not neutrophils, mediate tissu
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the autoreactive immune responses (and PR3/MPO gene regulation) of ANCA-associated vasculitis.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the T-cell activation of ANCA-associated vasculitis.
 - `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — Type I interferon signaling participates in the immune dysregulation of ANCA-associated vasculitis.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — EGPA allergic axis: eosinophilic granulomatosis with polyangiitis, the asthma-associated subtype (asthma already mapped), features elevated IgE and an allergic, eosinophil-driven inflammation distinct from the PR3/MPO autoimmunity of the other AAV subtypes.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Th2 eosinophilia: IL-4 and the type-2 response (IL-5 already mapped) drive the eosinophil expansion and tissue infiltration of eosinophilic granulomatosis with polyangiitis, targeted by anti-IL-5 and emerging anti-IL-4/13 therapy.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Endothelial injury: impaired endothelial nitric-oxide function accompanies the small-vessel inflammation of ANCA-associated vasculitis, contributing to the vascular damage that underlies its ischaemic organ manifestations.
 
 [^yates-2022-anca-review]: Yates M, Watts RA, Bajema IM, et al. EULAR/ERA-EDTA recommendations for the management of ANCA-associated vasculitis. *Ann Rheum Dis.* 2016;75(9):1583-1594. [doi:10.1136/annrheumdis-2016-209133](https://doi.org/10.1136/annrheumdis-2016-209133) · [PubMed 27338776](https://pubmed.ncbi.nlm.nih.gov/27338776/)
 [^stone-2010-rituximab-gpa-rave]: Stone JH, Merkel PA, Spiera R, et al. Rituximab versus cyclophosphamide for ANCA-associated vasculitis. *N Engl J Med.* 2010;363(3):221-232. [doi:10.1056/NEJMoa0909905](https://doi.org/10.1056/NEJMoa0909905) · [PubMed 20647199](https://pubmed.ncbi.nlm.nih.gov/20647199/)

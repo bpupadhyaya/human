@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Osteopontin participates in the microglial activation and neuroinflammation of amyotrophic lateral sclerosis."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Neuroinflammation: MHC class II is upregulated on activated microglia (already mapped) in the ALS spinal cord and motor cortex, marking the antigen-presenting inflammatory state that contributes to the non-cell-autonomous killing of motor neurons."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Sex differences: ALS is somewhat more common and earlier-onset in men, and estrogen's neuroprotective effects are proposed to contribute to the sex difference in risk and progression."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Hypermetabolism: ALS features a hypermetabolic state with altered glucose and lipid handling, and insulin resistance is associated with faster progression, a metabolic dimension increasingly targeted in trials."
 ---
 
 # ALS
@@ -671,6 +680,9 @@ ALS diagnosis is **clinical** — no single definitive biomarker test (though Nf
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the motor-neuron and glial gene programs of amyotrophic lateral sclerosis.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine (A2A receptor) signaling participates in the glutamate-excitotoxicity modulation and neuroinflammation of amyotrophic lateral sclerosis.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the microglial activation and neuroinflammation of amyotrophic lateral sclerosis.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Neuroinflammation: MHC class II is upregulated on activated microglia (already mapped) in the ALS spinal cord and motor cortex, marking the antigen-presenting inflammatory state that contributes to the non-cell-autonomous killing of motor neurons.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Sex differences: ALS is somewhat more common and earlier-onset in men, and estrogen's neuroprotective effects are proposed to contribute to the sex difference in risk and progression.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Hypermetabolism: ALS features a hypermetabolic state with altered glucose and lipid handling, and insulin resistance is associated with faster progression, a metabolic dimension increasingly targeted in trials.
 
 [^brown-2017-als-review]: Brown RH, Al-Chalabi A. Amyotrophic lateral sclerosis. *N Engl J Med.* 2017;377(2):162-172. [doi:10.1056/NEJMra1603471](https://doi.org/10.1056/NEJMra1603471) · [PubMed 28700839](https://pubmed.ncbi.nlm.nih.gov/28700839/)
 [^edaravone-als-2017]: Writing Group, Edaravone ALS 19 Study Group. Safety and efficacy of edaravone in well defined patients with amyotrophic lateral sclerosis. *Lancet Neurol.* 2017;16(7):505-512. [doi:10.1016/S1474-4422(17)30115-1](https://doi.org/10.1016/S1474-4422(17)30115-1) · [PubMed 28522180](https://pubmed.ncbi.nlm.nih.gov/28522180/)
