@@ -406,6 +406,15 @@ cross_links:
   - target: 01-human/03-molecular/histamine
     relation: connects-to
     note: "Arousal and blushing: central histamine drives arousal and vigilance, systems heightened in the anticipatory anxiety, and peripheral vasomotor responses contribute to the blushing that is a hallmark somatic symptom of social anxiety."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Mineralocorticoid stress axis: aldosterone acts on brain mineralocorticoid receptors that, balanced against glucocorticoid receptors (already mapped), tune the stress response and threat appraisal exaggerated in social anxiety disorder."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Metabolic stress load: chronic anxiety and HPA activation (cortisol already mapped) promote insulin resistance, part of the cardiometabolic burden that can accompany long-standing social anxiety disorder."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Neuroimmune balance: the anti-inflammatory cytokine IL-10 counters the pro-inflammatory TNF, IL-6 and IL-1 (already mapped) reported in anxiety disorders, part of the low-grade neuroinflammation associated with chronic social anxiety."
 ---
 
 # Social Anxiety Disorder
@@ -665,6 +674,9 @@ The unique **dopaminergic social reward deficit** in SAD has clinical implicatio
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — Brain renin-angiotensin: central angiotensin II modulates the HPA and sympathetic stress response, and angiotensin blockade is associated with lower anxiety, a neuroendocrine axis beyond the monoamine systems already mapped in social anxiety.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Fear circuitry: nitric oxide from neuronal nNOS modulates the amygdala and prefrontal circuits that process social threat, implicating NO signalling in the exaggerated fear response of social anxiety disorder.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Arousal and blushing: central histamine drives arousal and vigilance, systems heightened in the anticipatory anxiety, and peripheral vasomotor responses contribute to the blushing that is a hallmark somatic symptom of social anxiety.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Mineralocorticoid stress axis: aldosterone acts on brain mineralocorticoid receptors that, balanced against glucocorticoid receptors (already mapped), tune the stress response and threat appraisal exaggerated in social anxiety disorder.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Metabolic stress load: chronic anxiety and HPA activation (cortisol already mapped) promote insulin resistance, part of the cardiometabolic burden that can accompany long-standing social anxiety disorder.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Neuroimmune balance: the anti-inflammatory cytokine IL-10 counters the pro-inflammatory TNF, IL-6 and IL-1 (already mapped) reported in anxiety disorders, part of the low-grade neuroinflammation associated with chronic social anxiety.
 
 [^liebowitz-1987-sad-scale]: Liebowitz MR. Social phobia. *Mod Probl Pharmacopsychiatry.* 1987;22:141-173. [PubMed 2885745](https://pubmed.ncbi.nlm.nih.gov/2885745/)
 [^stein-2008-sad-review]: Stein MB, Stein DJ. Social anxiety disorder. *Lancet.* 2008;371(9618):1115-1125. [doi:10.1016/S0140-6736(08)60488-2](https://doi.org/10.1016/S0140-6736(08)60488-2) · [PubMed 18374843](https://pubmed.ncbi.nlm.nih.gov/18374843/)

@@ -406,6 +406,15 @@ cross_links:
   - target: 01-human/03-molecular/mhc-class-ii
     relation: connects-to
     note: "Transfusion alloimmunisation: chronic red-cell transfusion in sickle cell disease provokes alloantibodies against minor blood-group antigens presented on MHC, a major complication that complicates future transfusion."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Deficiency and bone disease: vitamin D deficiency is very common in sickle cell disease and worsens the bone pain and low bone density, so supplementation is a routine part of comprehensive care."
+  - target: 03-medicine/03-food/omega-3-fatty-acids
+    relation: connects-to
+    note: "Membrane and inflammation: omega-3 fatty acids reduce the frequency of vaso-occlusive crises in trials, acting on red-cell membrane composition and the endothelial inflammation (already mapped) that drives sickle vaso-occlusion."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Anti-inflammatory balance: the anti-inflammatory cytokine IL-10 counters the chronic elevation of TNF, IL-6 and IL-1 (already mapped) that sustains the inflammatory, adhesive vasculopathy of sickle cell disease."
 ---
 
 # Sickle Cell Disease
@@ -694,6 +703,9 @@ SCD vaso-occlusion is not just from sickled RBCs mechanically blocking vessels �
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Red-cell dehydration: sickling opens a calcium-permeable pathway (Psickle) whose calcium influx activates the Gardos potassium channel (potassium already mapped), driving the water loss that concentrates HbS and accelerates polymerisation.
 - `connects-to` → **[Mu-opioid receptor](../../03-molecular/mu-opioid-receptor/README.md)** — Pain crisis: recurrent vaso-occlusive pain is the dominant symptom of sickle cell disease and is managed with opioids acting on the mu-opioid receptor, creating a difficult balance between analgesia and dependence.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Transfusion alloimmunisation: chronic red-cell transfusion in sickle cell disease provokes alloantibodies against minor blood-group antigens presented on MHC, a major complication that complicates future transfusion.
+- `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Deficiency and bone disease: vitamin D deficiency is very common in sickle cell disease and worsens the bone pain and low bone density, so supplementation is a routine part of comprehensive care.
+- `connects-to` → **[Omega-3 Fatty Acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Membrane and inflammation: omega-3 fatty acids reduce the frequency of vaso-occlusive crises in trials, acting on red-cell membrane composition and the endothelial inflammation (already mapped) that drives sickle vaso-occlusion.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Anti-inflammatory balance: the anti-inflammatory cytokine IL-10 counters the chronic elevation of TNF, IL-6 and IL-1 (already mapped) that sustains the inflammatory, adhesive vasculopathy of sickle cell disease.
 
 [^steinberg-1999-scd-management]: Steinberg MH. Management of sickle cell disease. *N Engl J Med.* 1999;340(13):1021-1030. [doi:10.1056/NEJM199904013401307](https://doi.org/10.1056/NEJM199904013401307) · [PubMed 10099145](https://pubmed.ncbi.nlm.nih.gov/10099145/)
 [^vichinsky-2000-acs-scd]: Vichinsky EP, Neumayr LD, Earles AN, et al. Causes and outcomes of the acute chest syndrome in sickle cell disease. *N Engl J Med.* 2000;342(25):1855-1865. [doi:10.1056/NEJM200006223422502](https://doi.org/10.1056/NEJM200006223422502) · [PubMed 10861320](https://pubmed.ncbi.nlm.nih.gov/10861320/)
