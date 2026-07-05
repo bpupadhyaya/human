@@ -400,6 +400,15 @@ cross_links:
   - target: 01-human/03-molecular/calcineurin
     relation: connects-to
     note: "Calcineurin-NFAT signaling participates in the T-cell activation (T-follicular-helper-driven anti-AQP4 response) of neuromyelitis optica."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Astrocyte ion homeostasis: AQP4 water channels co-localise with the Kir4.1 potassium channel at astrocyte endfeet, so the anti-AQP4 attack of NMO disrupts both water and potassium buffering, contributing to the oedema and neuronal dysfunction of lesions."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Female predominance: neuromyelitis optica shows a striking roughly ninefold female predominance with relapse patterns tied to pregnancy and the postpartum period, implicating estrogen and sex hormones in disease susceptibility."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "T-cell expansion: IL-2-driven proliferation of the follicular helper T cells that provide help for anti-AQP4 antibody production sustains the autoreactive B-cell response, complementing the checkpoint and antigen-presentation controls already mapped."
 ---
 
 # NMOSD
@@ -673,6 +682,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the astrocyte and neuroinflammatory responses of neuromyelitis optica.
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the immune responses of neuromyelitis optica.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the T-cell activation (T-follicular-helper-driven anti-AQP4 response) of neuromyelitis optica.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Astrocyte ion homeostasis: AQP4 water channels co-localise with the Kir4.1 potassium channel at astrocyte endfeet, so the anti-AQP4 attack of NMO disrupts both water and potassium buffering, contributing to the oedema and neuronal dysfunction of lesions.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Female predominance: neuromyelitis optica shows a striking roughly ninefold female predominance with relapse patterns tied to pregnancy and the postpartum period, implicating estrogen and sex hormones in disease susceptibility.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell expansion: IL-2-driven proliferation of the follicular helper T cells that provide help for anti-AQP4 antibody production sustains the autoreactive B-cell response, complementing the checkpoint and antigen-presentation controls already mapped.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)
