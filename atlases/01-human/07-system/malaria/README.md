@@ -393,6 +393,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Osteopontin participates in the macrophage activation and splenic immune response of malaria."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Hypoglycaemia: severe malaria and its quinine treatment cause dangerous hypoglycaemia through impaired hepatic gluconeogenesis and quinine-induced hyperinsulinaemia, a complication requiring close glucose monitoring, especially in children and pregnancy."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Vaccine immunity: MHC class II-restricted CD4 T-cell help underlies the antibody and cellular responses to the circumsporozoite antigen targeted by the RTS,S and R21 malaria vaccines, linking antigen presentation to protective immunity."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate sensing: blood-stage Plasmodium nucleic acids and hemozoin trigger a type I interferon response (cGAS-STING already mapped) that shapes early immunopathology and can both aid and impair control of the infection."
 ---
 
 # Malaria
@@ -676,6 +685,9 @@ cross_links:
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the immune response and immunopathology of malaria.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory immunopathology of malaria.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the macrophage activation and splenic immune response of malaria.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Hypoglycaemia: severe malaria and its quinine treatment cause dangerous hypoglycaemia through impaired hepatic gluconeogenesis and quinine-induced hyperinsulinaemia, a complication requiring close glucose monitoring, especially in children and pregnancy.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Vaccine immunity: MHC class II-restricted CD4 T-cell help underlies the antibody and cellular responses to the circumsporozoite antigen targeted by the RTS,S and R21 malaria vaccines, linking antigen presentation to protective immunity.
+- `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — Innate sensing: blood-stage Plasmodium nucleic acids and hemozoin trigger a type I interferon response (cGAS-STING already mapped) that shapes early immunopathology and can both aid and impair control of the infection.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)

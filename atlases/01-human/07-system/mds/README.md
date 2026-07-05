@@ -388,6 +388,15 @@ cross_links:
   - target: 01-human/03-molecular/calcineurin
     relation: connects-to
     note: "Calcineurin-NFAT signaling participates in the T-cell-mediated immune dysregulation (relevant to the immunosuppressive-therapy-responsive subset) of myelodysplastic syndrome."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Immune-mediated subset: hypoplastic MDS features T-cell-mediated suppression of haematopoiesis, where MHC class II-restricted autoreactive T cells attack progenitors, the basis for the response of this subset to immunosuppressive therapy."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Marrow angiogenesis: increased bone-marrow microvascular density and VEGF signalling accompany MDS and support the dysplastic clone, correlating with disease burden and progression toward acute myeloid leukaemia."
+  - target: 01-human/03-molecular/calr
+    relation: connects-to
+    note: "MDS/MPN overlap: CALR mutations mark the overlap syndromes such as MDS/MPN with ring sideroblasts and thrombocytosis (SF3B1 already mapped), extending the clonal driver landscape beyond the classic MDS lesions."
 ---
 
 # Myelodysplastic Syndromes
@@ -622,6 +631,9 @@ MDS → AML transformation rate: ~10% at 1 year for very-low risk; ~40-50% at 2 
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A signaling participates in the inflammatory bone-marrow microenvironment of myelodysplastic syndrome.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the inflammatory bone-marrow microenvironment of myelodysplastic syndrome.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the T-cell-mediated immune dysregulation (relevant to the immunosuppressive-therapy-responsive subset) of myelodysplastic syndrome.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immune-mediated subset: hypoplastic MDS features T-cell-mediated suppression of haematopoiesis, where MHC class II-restricted autoreactive T cells attack progenitors, the basis for the response of this subset to immunosuppressive therapy.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Marrow angiogenesis: increased bone-marrow microvascular density and VEGF signalling accompany MDS and support the dysplastic clone, correlating with disease burden and progression toward acute myeloid leukaemia.
+- `connects-to` → **[CALR](../../03-molecular/calr/README.md)** — MDS/MPN overlap: CALR mutations mark the overlap syndromes such as MDS/MPN with ring sideroblasts and thrombocytosis (SF3B1 already mapped), extending the clonal driver landscape beyond the classic MDS lesions.
 
 [^fenaux-2009-aza001]: Fenaux P, Mufti GJ, Hellstrom-Lindberg E, et al. Efficacy of azacitidine compared with conventional care regimens in patients with higher-risk myelodysplastic syndromes. *Lancet Oncol.* 2009;10(3):223-232. [doi:10.1016/S1470-2045(09)70003-8](https://doi.org/10.1016/S1470-2045(09)70003-8) · [PubMed 19230772](https://pubmed.ncbi.nlm.nih.gov/19230772/)
 [^fenaux-2020-medalist]: Fenaux P, Platzbecker U, Mufti GJ, et al. Luspatercept in patients with lower-risk myelodysplastic syndromes. *N Engl J Med.* 2020;382(2):140-151. [doi:10.1056/NEJMoa1908892](https://doi.org/10.1056/NEJMoa1908892) · [PubMed 31914241](https://pubmed.ncbi.nlm.nih.gov/31914241/)
