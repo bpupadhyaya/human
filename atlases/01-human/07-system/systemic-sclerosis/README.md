@@ -400,6 +400,15 @@ cross_links:
   - target: 01-human/03-molecular/bnp
     relation: connects-to
     note: "Pulmonary hypertension screening: systemic sclerosis is a leading cause of connective-tissue-disease pulmonary arterial hypertension, and BNP/NT-proBNP release from the strained right ventricle guides the annual screening that detects this lethal complication."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Gut bleeding and haemolysis: gastric antral vascular ectasia (watermelon stomach) causes chronic gastrointestinal bleeding in systemic sclerosis, and scleroderma renal crisis brings microangiopathic haemolysis, both lowering haemoglobin."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Myocardial fibrosis: systemic sclerosis can directly fibrose the myocardium and conduction system, and troponin elevation marks the primary cardiac involvement that, alongside pulmonary hypertension (BNP already mapped), contributes to its mortality."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "HLA and autoantibodies: specific HLA class II alleles determine which autoantibody a patient develops (anti-topoisomerase, anti-centromere or anti-RNA-polymerase III), and MHC class II antigen presentation drives the autoimmunity of systemic sclerosis."
 ---
 
 # Systemic Sclerosis
@@ -641,6 +650,9 @@ Identical to IPAH: medial hypertrophy, intimal fibrosis, concentric laminar inti
 - `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Autoantibody serology: systemic sclerosis is defined serologically by IgG autoantibodies, anti-topoisomerase-1 (Scl-70), anti-centromere and anti-RNA-polymerase-III, that stratify the risk of diffuse skin, lung fibrosis and renal crisis.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Vascular therapy: prostacyclin, a prostaglandin, and its analogues such as iloprost dilate vessels and inhibit platelets to treat the digital ischaemia, ulcers and pulmonary hypertension of the systemic-sclerosis vasculopathy.
 - `connects-to` → **[BNP](../../03-molecular/bnp/README.md)** — Pulmonary hypertension screening: systemic sclerosis is a leading cause of connective-tissue-disease pulmonary arterial hypertension, and BNP/NT-proBNP release from the strained right ventricle guides the annual screening that detects this lethal complication.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Gut bleeding and haemolysis: gastric antral vascular ectasia (watermelon stomach) causes chronic gastrointestinal bleeding in systemic sclerosis, and scleroderma renal crisis brings microangiopathic haemolysis, both lowering haemoglobin.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Myocardial fibrosis: systemic sclerosis can directly fibrose the myocardium and conduction system, and troponin elevation marks the primary cardiac involvement that, alongside pulmonary hypertension (BNP already mapped), contributes to its mortality.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — HLA and autoantibodies: specific HLA class II alleles determine which autoantibody a patient develops (anti-topoisomerase, anti-centromere or anti-RNA-polymerase III), and MHC class II antigen presentation drives the autoimmunity of systemic sclerosis.
 
 [^denton-2017-ssc-review]: Denton CP, Khanna D. Systemic sclerosis. *Lancet.* 2017;390(10103):1685-1699. [doi:10.1016/S0140-6736(17)30933-9](https://doi.org/10.1016/S0140-6736(17)30933-9) · [PubMed 28413064](https://pubmed.ncbi.nlm.nih.gov/28413064/)
 [^distler-2019-nintedanib-senscis]: Distler O, Highland KB, Gahlemann M, et al. Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease. *N Engl J Med.* 2019;380(26):2518-2528. [doi:10.1056/NEJMoa1903076](https://doi.org/10.1056/NEJMoa1903076) · [PubMed 31112379](https://pubmed.ncbi.nlm.nih.gov/31112379/)

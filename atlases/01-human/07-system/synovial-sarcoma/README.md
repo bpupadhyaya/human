@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/angiopoietin
     relation: connects-to
     note: "Tumour angiogenesis: synovial sarcoma is a vascular soft-tissue sarcoma whose growth depends on neovascularisation driven by angiopoietin-Tie2 and VEGF (VEGF already mapped), the rationale for antiangiogenic tyrosine-kinase inhibitors like pazopanib."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Engineered T-cell therapy: IL-2-driven T-cell expansion underlies the NY-ESO-1-directed TCR T-cell therapy (afamitresgene autoleucel), the first cell therapy approved for synovial sarcoma, which characteristically expresses cancer-testis antigens."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Anthracycline cardiotoxicity: the doxorubicin-based chemotherapy used for synovial sarcoma is cardiotoxic, and troponin elevation helps detect the cumulative myocardial injury that limits its cumulative dose."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Chemotherapy anaemia: the intensive chemotherapy used in synovial sarcoma is myelosuppressive, lowering haemoglobin and causing the anaemia that requires transfusion and growth-factor support during treatment."
 ---
 
 # Synovial Sarcoma
@@ -645,6 +654,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — TCR immunotherapy: synovial sarcoma frequently expresses the cancer-testis antigens NY-ESO-1 and MAGE-A4 and is the leading solid tumour for HLA-restricted engineered T-cell therapy, so antigen-presentation machinery governs its landmark response to TCR-T cells.
 - `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — Invasion and resistance: the AXL receptor tyrosine kinase is expressed in synovial sarcoma and drives the mesenchymal invasion and drug-tolerant phenotype behind its lung-tropic metastatic course, a candidate target beyond conventional chemotherapy.
 - `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Tumour angiogenesis: synovial sarcoma is a vascular soft-tissue sarcoma whose growth depends on neovascularisation driven by angiopoietin-Tie2 and VEGF (VEGF already mapped), the rationale for antiangiogenic tyrosine-kinase inhibitors like pazopanib.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Engineered T-cell therapy: IL-2-driven T-cell expansion underlies the NY-ESO-1-directed TCR T-cell therapy (afamitresgene autoleucel), the first cell therapy approved for synovial sarcoma, which characteristically expresses cancer-testis antigens.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Anthracycline cardiotoxicity: the doxorubicin-based chemotherapy used for synovial sarcoma is cardiotoxic, and troponin elevation helps detect the cumulative myocardial injury that limits its cumulative dose.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Chemotherapy anaemia: the intensive chemotherapy used in synovial sarcoma is myelosuppressive, lowering haemoglobin and causing the anaemia that requires transfusion and growth-factor support during treatment.
 
 ---
 
