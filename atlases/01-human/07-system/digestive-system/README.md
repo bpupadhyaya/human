@@ -415,6 +415,15 @@ cross_links:
   - target: 01-human/03-molecular/melatonin
     relation: connects-to
     note: "Enteric melatonin: the gut's enterochromaffin cells produce far more melatonin than the pineal gland, where it regulates intestinal motility and provides mucosal antioxidant protection, an under-recognised digestive-system endocrine function."
+  - target: 01-human/03-molecular/dopamine
+    relation: connects-to
+    note: "Enteric dopamine: the gut contains large amounts of dopamine that modulates motility and secretion, and dopamine-receptor drugs (prokinetics like metoclopramide, antiemetics) act on this enteric dopaminergic system of the digestive tract."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Colonic potassium: the colon secretes and absorbs potassium under aldosterone control (aldosterone already mapped), an electrolyte-handling role of the digestive tract that becomes clinically important in diarrhoea and renal failure."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "Enteric nervous system: BDNF and neurotrophic signalling support the enteric nervous system, the gut's intrinsic 'second brain' of over a hundred million neurons that coordinates the motility and secretion of the digestive system."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -636,6 +645,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [Proton](../../01-subatomic/proton/README.md) — gastric acid: parietal cells secrete hydrochloric acid by pumping protons through the H+/K+ ATPase, the target of proton-pump inhibitors, creating the acidic lumen that activates pepsin and provides a barrier against ingested microbes.
 - **Connects to:** [Calcium](../../02-atomic/calcium/README.md) — mineral absorption: the small intestine absorbs dietary calcium under vitamin D control, so the digestive tract governs the calcium supply for bone and neuromuscular function and becomes a source of deficiency when absorption fails.
 - **Connects to:** [Melatonin](../../03-molecular/melatonin/README.md) — enteric melatonin: the gut's enterochromaffin cells produce far more melatonin than the pineal gland, where it regulates intestinal motility and provides mucosal antioxidant protection, an under-recognised digestive-system endocrine function.
+- **Connects to:** [Dopamine](../../03-molecular/dopamine/README.md) — enteric dopamine: the gut contains large amounts of dopamine that modulates motility and secretion, and dopamine-receptor drugs (prokinetics like metoclopramide, antiemetics) act on this enteric dopaminergic system of the digestive tract.
+- **Connects to:** [Potassium](../../02-atomic/potassium/README.md) — colonic potassium: the colon secretes and absorbs potassium under aldosterone control (aldosterone already mapped), an electrolyte-handling role of the digestive tract that becomes clinically important in diarrhoea and renal failure.
+- **Connects to:** [BDNF](../../03-molecular/bdnf/README.md) — enteric nervous system: BDNF and neurotrophic signalling support the enteric nervous system, the gut's intrinsic 'second brain' of over a hundred million neurons that coordinates the motility and secretion of the digestive system.
 
 ## Pathology
 

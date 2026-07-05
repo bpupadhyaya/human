@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/sglt2
     relation: connects-to
     note: "Systemic glycaemic control: SGLT2 inhibitors lower glucose and blood pressure and reduce the systemic drivers of microvascular disease, connecting the modern diabetes-treatment axis to the retinal outcomes that track with long-term glycaemia."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Lipid exudates: the hard exudates of diabetic retinopathy are lipid deposits, and dyslipidaemia worsens the disease, so lipid-lowering with fenofibrate reduces retinopathy progression independent of its cholesterol effect."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Adipokine risk: obesity raises the adipokine leptin, which is elevated in the vitreous of proliferative diabetic retinopathy and promotes retinal angiogenesis, linking metabolic state to the neovascular drive (VEGF already mapped)."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Protective adipokine: adiponectin, which is anti-inflammatory and insulin-sensitising, tends to be lower in advanced diabetic retinopathy, complementing leptin in the adipokine imbalance that accompanies the metabolic syndrome driving microvascular disease."
 ---
 
 # Diabetic Retinopathy
@@ -641,6 +650,9 @@ DR encompasses a spectrum from subtle vascular changes to sight-threatening neov
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Retinal neurodegeneration: diabetic retinopathy is now recognised as neurodegenerative as well as microvascular, and loss of neurotrophic BDNF support contributes to the retinal ganglion cell dysfunction that precedes visible vascular lesions.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative injury: hyperglycaemia activates xanthine oxidase and other sources of reactive oxygen species that damage retinal capillary endothelium and pericytes, an oxidative mechanism upstream of the VEGF-driven angiogenesis already mapped.
 - `connects-to` → **[SGLT2](../../03-molecular/sglt2/README.md)** — Systemic glycaemic control: SGLT2 inhibitors lower glucose and blood pressure and reduce the systemic drivers of microvascular disease, connecting the modern diabetes-treatment axis to the retinal outcomes that track with long-term glycaemia.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Lipid exudates: the hard exudates of diabetic retinopathy are lipid deposits, and dyslipidaemia worsens the disease, so lipid-lowering with fenofibrate reduces retinopathy progression independent of its cholesterol effect.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adipokine risk: obesity raises the adipokine leptin, which is elevated in the vitreous of proliferative diabetic retinopathy and promotes retinal angiogenesis, linking metabolic state to the neovascular drive (VEGF already mapped).
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Protective adipokine: adiponectin, which is anti-inflammatory and insulin-sensitising, tends to be lower in advanced diabetic retinopathy, complementing leptin in the adipokine imbalance that accompanies the metabolic syndrome driving microvascular disease.
 
 [^fong-2004-dr-review]: Fong DS, Aiello L, Gardner TW, et al. Diabetic retinopathy. *Diabetes Care.* 2004;27(10):2540-2553. [doi:10.2337/diacare.27.10.2540](https://doi.org/10.2337/diacare.27.10.2540) · [PubMed 15451934](https://pubmed.ncbi.nlm.nih.gov/15451934/)
 [^brown-2015-aflibercept-protocol-t]: Diabetic Retinopathy Clinical Research Network; Wells JA, Glassman AR, et al. Aflibercept, Bevacizumab, or Ranibizumab for Diabetic Macular Edema. *N Engl J Med.* 2015;372(13):1193-1203. [doi:10.1056/NEJMoa1414264](https://doi.org/10.1056/NEJMoa1414264) · [PubMed 25692915](https://pubmed.ncbi.nlm.nih.gov/25692915/)
