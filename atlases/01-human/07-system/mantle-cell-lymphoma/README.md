@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Osteopontin participates in the microenvironment and stromal interactions of mantle cell lymphoma."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Immunotherapy: MHC class II antigen presentation shapes the T-cell response to mantle cell lymphoma, relevant to the CD19 CAR-T and bispecific-antibody therapies that have transformed treatment of relapsed disease."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "CD19 CAR-T: IL-2-driven T-cell expansion powers the brexucabtagene autoleucel CD19 CAR-T therapy (perforin already mapped) that produces durable remissions in relapsed, BTK-inhibitor-exposed mantle cell lymphoma."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Tumour lysis: the aggressive, high-burden blastoid variant of mantle cell lymphoma is prone to tumour-lysis syndrome on treatment, releasing purines that xanthine oxidase converts to uric acid, managed with allopurinol or rasburicase."
 ---
 
 # Mantle Cell Lymphoma
@@ -641,6 +650,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling downstream of the B-cell receptor participates in the survival signaling of mantle cell lymphoma.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine (CD39/CD73-adenosine) signaling participates in the immunosuppressive tumor microenvironment of mantle cell lymphoma.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the microenvironment and stromal interactions of mantle cell lymphoma.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immunotherapy: MHC class II antigen presentation shapes the T-cell response to mantle cell lymphoma, relevant to the CD19 CAR-T and bispecific-antibody therapies that have transformed treatment of relapsed disease.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — CD19 CAR-T: IL-2-driven T-cell expansion powers the brexucabtagene autoleucel CD19 CAR-T therapy (perforin already mapped) that produces durable remissions in relapsed, BTK-inhibitor-exposed mantle cell lymphoma.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Tumour lysis: the aggressive, high-burden blastoid variant of mantle cell lymphoma is prone to tumour-lysis syndrome on treatment, releasing purines that xanthine oxidase converts to uric acid, managed with allopurinol or rasburicase.
 
 ---
 
