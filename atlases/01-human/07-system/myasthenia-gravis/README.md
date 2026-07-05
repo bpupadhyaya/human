@@ -406,6 +406,15 @@ cross_links:
   - target: 01-human/03-molecular/troponin-complex
     relation: connects-to
     note: "Myocarditis overlap: checkpoint-inhibitor-associated and thymoma-associated myasthenia can co-occur with myocarditis in an overlap syndrome, where troponin elevation flags the concurrent cardiac injury that raises mortality."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Th2 antibody help: IL-4 and type-2 T-cell help drive the B-cell (already mapped) production of the anti-acetylcholine-receptor autoantibodies (IgG already mapped) that define myasthenia gravis, part of the humoral response sustaining the disease."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Thymoma T-cell dysregulation: thymoma-associated myasthenia arises from a tumour that exports abnormally selected T cells, including autoreactive CD8 cells, reflecting the failure of central tolerance in the neoplastic thymus (already mapped)."
+  - target: 01-human/03-molecular/progesterone
+    relation: connects-to
+    note: "Hormonal fluctuation: myasthenic weakness can vary across the menstrual cycle and pregnancy, implicating progesterone and estrogen (already mapped) in the hormonal modulation of the neuromuscular autoimmunity."
 ---
 
 # Myasthenia Gravis
@@ -646,6 +655,9 @@ cross_links:
 - `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — T-cell tolerance: CTLA-4 restrains the autoreactive T-cell help that sustains the anti-acetylcholine-receptor antibody response, and CTLA-4 polymorphisms are associated with susceptibility to myasthenia gravis.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Checkpoint-inhibitor myasthenia: PD-1-blocking cancer immunotherapy can unleash a severe de novo myasthenia gravis, an immune-related adverse event that reveals how PD-1 normally protects against this autoimmunity.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Myocarditis overlap: checkpoint-inhibitor-associated and thymoma-associated myasthenia can co-occur with myocarditis in an overlap syndrome, where troponin elevation flags the concurrent cardiac injury that raises mortality.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Th2 antibody help: IL-4 and type-2 T-cell help drive the B-cell (already mapped) production of the anti-acetylcholine-receptor autoantibodies (IgG already mapped) that define myasthenia gravis, part of the humoral response sustaining the disease.
+- `connects-to` → **[T-cytotoxic cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Thymoma T-cell dysregulation: thymoma-associated myasthenia arises from a tumour that exports abnormally selected T cells, including autoreactive CD8 cells, reflecting the failure of central tolerance in the neoplastic thymus (already mapped).
+- `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Hormonal fluctuation: myasthenic weakness can vary across the menstrual cycle and pregnancy, implicating progesterone and estrogen (already mapped) in the hormonal modulation of the neuromuscular autoimmunity.
 
 [^gilhus-2016-mg-review]: Gilhus NE. Myasthenia Gravis. *N Engl J Med.* 2016;375(26):2570-2581. [doi:10.1056/NEJMra1602678](https://doi.org/10.1056/NEJMra1602678) · [PubMed 28029925](https://pubmed.ncbi.nlm.nih.gov/28029925/)
 [^howard-2021-efgartigimod-adapt]: Howard JF Jr, Bril V, Vu T, et al. Safety, efficacy, and tolerability of efgartigimod in patients with generalised myasthenia gravis (ADAPT). *Lancet Neurol.* 2021;20(7):526-536. [doi:10.1016/S1474-4422(21)00159-9](https://doi.org/10.1016/S1474-4422(21)00159-9) · [PubMed 34146511](https://pubmed.ncbi.nlm.nih.gov/34146511/)

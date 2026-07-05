@@ -409,6 +409,15 @@ cross_links:
   - target: 01-human/03-molecular/melatonin
     relation: connects-to
     note: "Withdrawal insomnia: sleep and circadian disruption are prominent in opioid withdrawal and early recovery, and melatonin, the circadian sleep hormone, is studied as an adjunct for the insomnia that undermines abstinence."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Respiratory acidosis: opioid overdose depresses brainstem breathing, and the resulting carbon-dioxide and proton retention produce a respiratory acidosis that, with hypoxia, drives the fatal outcome reversed by naloxone."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Neuroimmune tolerance: opioids activate glia through TLR4 (already mapped), and the balance of pro-inflammatory cytokines against the anti-inflammatory IL-10 shapes the neuroinflammation implicated in opioid tolerance and hyperalgesia."
+  - target: 01-human/03-molecular/progesterone
+    relation: connects-to
+    note: "Neurosteroid modulation: progesterone and its metabolite allopregnanolone modulate opioid reward and withdrawal severity, contributing, with estrogen (already mapped), to the sex differences in opioid use disorder."
 ---
 
 # Opioid Use Disorder
@@ -694,6 +703,9 @@ The primary mechanism by which opioids produce euphoria:
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tolerance mechanism: nitric oxide from neuronal nNOS drives the development of opioid tolerance and dependence through NMDA-linked signalling (glutamate already mapped), and blocking nNOS attenuates tolerance in models of opioid use.
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Sex differences: estrogen modulates opioid reward and pain sensitivity, contributing to the sex differences in opioid use disorder susceptibility and treatment response beyond the testosterone axis already mapped.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Withdrawal insomnia: sleep and circadian disruption are prominent in opioid withdrawal and early recovery, and melatonin, the circadian sleep hormone, is studied as an adjunct for the insomnia that undermines abstinence.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Respiratory acidosis: opioid overdose depresses brainstem breathing, and the resulting carbon-dioxide and proton retention produce a respiratory acidosis that, with hypoxia, drives the fatal outcome reversed by naloxone.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Neuroimmune tolerance: opioids activate glia through TLR4 (already mapped), and the balance of pro-inflammatory cytokines against the anti-inflammatory IL-10 shapes the neuroinflammation implicated in opioid tolerance and hyperalgesia.
+- `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Neurosteroid modulation: progesterone and its metabolite allopregnanolone modulate opioid reward and withdrawal severity, contributing, with estrogen (already mapped), to the sex differences in opioid use disorder.
 
 [^volkow-2016-opioid-crisis]: Volkow ND, Collins FS. The role of science in addressing the opioid crisis. *N Engl J Med.* 2017;377(4):391-394. [doi:10.1056/NEJMsr1706626](https://doi.org/10.1056/NEJMsr1706626) · [PubMed 28723324](https://pubmed.ncbi.nlm.nih.gov/28723324/)
 [^mattick-2009-bupe-meta]: Mattick RP, Breen C, Kimber J, Davoli M. Buprenorphine maintenance versus placebo or methadone maintenance for opioid dependence. *Cochrane Database Syst Rev.* 2014;2:CD002207. [doi:10.1002/14651858.CD002207.pub4](https://doi.org/10.1002/14651858.CD002207.pub4) · [PubMed 24500948](https://pubmed.ncbi.nlm.nih.gov/24500948/)
