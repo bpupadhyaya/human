@@ -400,6 +400,15 @@ cross_links:
   - target: 01-human/03-molecular/thyroid-hormones
     relation: connects-to
     note: "Systemic itch cause: thyroid dysfunction is one of the systemic conditions that produce chronic pruritus, so thyroid-hormone screening is part of the workup for the intractable itch underlying prurigo nodularis."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Nodule neovascularisation: the chronically scratched prurigo nodule shows dermal fibrosis and neovascularisation driven by VEGF and PDGF (already mapped), the vascular and stromal remodelling that gives the lesions their firm, hyperkeratotic character."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative skin stress: repeated scratching and inflammation in prurigo nodularis generate oxidative stress, to which xanthine-oxidase-derived reactive oxygen species contribute, reinforcing the barrier damage and neurogenic inflammation of the itch-scratch cycle."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Metabolic comorbidity: prurigo nodularis is associated with obesity and metabolic syndrome, and the pro-inflammatory adipokine leptin may contribute to the systemic inflammatory milieu that accompanies the disease."
 ---
 
 # Prurigo Nodularis
@@ -610,6 +619,9 @@ PN affects approximately **72,000 patients** in the US; true prevalence is likel
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Gabapentinoid target: the chronic neuropathic itch of prurigo nodularis is treated with gabapentinoids that bind the alpha-2-delta subunit of voltage-gated calcium channels, dampening the sensitised itch-transmitting neurons.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Itch signalling: nitric oxide modulates the sensory neurons and vasodilation of the itch response, and altered NO signalling contributes to the neurogenic inflammation of the itch-scratch cycle that builds prurigo nodules.
 - `connects-to` → **[Thyroid hormones](../../03-molecular/thyroid-hormones/README.md)** — Systemic itch cause: thyroid dysfunction is one of the systemic conditions that produce chronic pruritus, so thyroid-hormone screening is part of the workup for the intractable itch underlying prurigo nodularis.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Nodule neovascularisation: the chronically scratched prurigo nodule shows dermal fibrosis and neovascularisation driven by VEGF and PDGF (already mapped), the vascular and stromal remodelling that gives the lesions their firm, hyperkeratotic character.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative skin stress: repeated scratching and inflammation in prurigo nodularis generate oxidative stress, to which xanthine-oxidase-derived reactive oxygen species contribute, reinforcing the barrier damage and neurogenic inflammation of the itch-scratch cycle.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Metabolic comorbidity: prurigo nodularis is associated with obesity and metabolic syndrome, and the pro-inflammatory adipokine leptin may contribute to the systemic inflammatory milieu that accompanies the disease.
 
 [^stander-2020-nemolizumab-pn]: Ständer S, Yosipovitch G, Legat FJ, et al. Trial of nemolizumab in moderate-to-severe prurigo nodularis. *N Engl J Med.* 2020;382(8):706-716. [doi:10.1056/NEJMoa1908316](https://doi.org/10.1056/NEJMoa1908316) · [PubMed 32053299](https://pubmed.ncbi.nlm.nih.gov/32053299/)
 [^briggs-2022-dupilumab-pn-liberty]: Briggs JN, Cho YY, Khanna R, et al. Dupilumab for prurigo nodularis: the LIBERTY-PN PRIME and PRIME2 trials. *N Engl J Med.* 2022;387(18):1683-1693. [doi:10.1056/NEJMoa2205093](https://doi.org/10.1056/NEJMoa2205093) · [PubMed 36300905](https://pubmed.ncbi.nlm.nih.gov/36300905/)
