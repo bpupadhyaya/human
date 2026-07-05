@@ -384,6 +384,15 @@ cross_links:
   - target: 01-human/03-molecular/troponin-complex
     relation: connects-to
     note: "Cardiovascular events: cannabis raises heart rate and myocardial oxygen demand and can provoke coronary vasospasm, and the resulting acute myocardial injury, marked by troponin release, underlies the increased risk of heart attack in young users."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Metabolic effects: cannabis has complex effects on metabolism, and chronic use is associated with altered insulin sensitivity and glucose handling despite the acute appetite stimulation (ghrelin already mapped), a metabolic dimension of the disorder."
+  - target: 01-human/03-molecular/progesterone
+    relation: connects-to
+    note: "Sex differences: reproductive hormones modulate the response to cannabis, and progesterone-derived neurosteroids alongside estrogen (already mapped) contribute to sex differences in cannabis sensitivity, use patterns and withdrawal."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative stress: chronic cannabis use is associated with markers of oxidative stress, and xanthine-oxidase-derived reactive oxygen species contribute to the redox imbalance implicated in its effects on the brain and vasculature."
 sources:
   - id: hasin-2015-cannabis-disorder
     type: peer-reviewed
@@ -661,6 +670,9 @@ Paradoxical syndrome in heavy long-term users: cyclic vomiting relieved by hot b
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Sex differences: estrogen modulates CB1 cannabinoid signalling and reward circuitry, contributing to the sex differences in cannabis sensitivity and the telescoping course by which women progress to cannabis use disorder faster than men.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Neuroendocrine effect: cannabinoids act on hypothalamic dopamine to alter prolactin secretion, part of the endocrine disruption that, alongside the lowered testosterone already mapped, accompanies chronic cannabis use.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiovascular events: cannabis raises heart rate and myocardial oxygen demand and can provoke coronary vasospasm, and the resulting acute myocardial injury, marked by troponin release, underlies the increased risk of heart attack in young users.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Metabolic effects: cannabis has complex effects on metabolism, and chronic use is associated with altered insulin sensitivity and glucose handling despite the acute appetite stimulation (ghrelin already mapped), a metabolic dimension of the disorder.
+- `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Sex differences: reproductive hormones modulate the response to cannabis, and progesterone-derived neurosteroids alongside estrogen (already mapped) contribute to sex differences in cannabis sensitivity, use patterns and withdrawal.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative stress: chronic cannabis use is associated with markers of oxidative stress, and xanthine-oxidase-derived reactive oxygen species contribute to the redox imbalance implicated in its effects on the brain and vasculature.
 
 [^hasin-2015-cannabis-disorder]: Hasin DS, Saha TD, Kerridge BT, et al. Prevalence of marijuana use disorders in the United States between 2001-2002 and 2012-2013. *JAMA Psychiatry.* 2015;72(12):1235-1242. [doi:10.1001/jamapsychiatry.2015.1858](https://doi.org/10.1001/jamapsychiatry.2015.1858) · [PubMed 26502112](https://pubmed.ncbi.nlm.nih.gov/26502112/)
 [^budney-2004-cannabis-withdrawal]: Budney AJ, Moore BA, Vandrey RG, Hughes JR. The time course and significance of cannabis withdrawal. *J Abnorm Psychol.* 2003;112(3):393-402. [doi:10.1037/0021-843X.112.3.393](https://doi.org/10.1037/0021-843X.112.3.393) · [PubMed 12943018](https://pubmed.ncbi.nlm.nih.gov/12943018/)

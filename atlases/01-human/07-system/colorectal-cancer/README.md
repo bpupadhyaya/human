@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "Metabolic risk: obesity and insulin resistance raise circulating IGF-1, a mitogen for colonic epithelium, part of the mechanism linking metabolic syndrome and Western diet to increased colorectal cancer risk."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "MSI immunotherapy: the mismatch-repair-deficient, microsatellite-unstable colorectal cancers (MLH1/MSH2 already mapped) are neoantigen-rich and respond to checkpoint blockade (PD-1 already mapped), and IL-2-driven T-cell expansion underlies this immune sensitivity."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Iron-deficiency anaemia: right-sided colorectal cancers bleed occultly (transferrin already mapped), and the iron-deficiency anaemia lowering haemoglobin is a classic presenting sign that should prompt colonoscopy in older adults."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Fluoropyrimidine cardiotoxicity: 5-fluorouracil and capecitabine, backbone chemotherapy for colorectal cancer, can provoke coronary vasospasm and myocardial injury, and troponin elevation helps detect this recognised cardiotoxicity."
 ---
 
 # Colorectal Cancer
@@ -647,6 +656,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — MSI immunotherapy: mismatch-repair-deficient, microsatellite-unstable colorectal cancers (MLH1/MSH2 already mapped) generate abundant neoantigens presented on MHC, making this subset uniquely responsive to checkpoint inhibitors while proficient tumours remain cold.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Iron-deficiency presentation: right-sided colorectal cancers bleed occultly, and the resulting iron-deficiency anaemia with low transferrin saturation is a classic presenting sign that should prompt colonoscopy in older adults.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Metabolic risk: obesity and insulin resistance raise circulating IGF-1, a mitogen for colonic epithelium, part of the mechanism linking metabolic syndrome and Western diet to increased colorectal cancer risk.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — MSI immunotherapy: the mismatch-repair-deficient, microsatellite-unstable colorectal cancers (MLH1/MSH2 already mapped) are neoantigen-rich and respond to checkpoint blockade (PD-1 already mapped), and IL-2-driven T-cell expansion underlies this immune sensitivity.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Iron-deficiency anaemia: right-sided colorectal cancers bleed occultly (transferrin already mapped), and the iron-deficiency anaemia lowering haemoglobin is a classic presenting sign that should prompt colonoscopy in older adults.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Fluoropyrimidine cardiotoxicity: 5-fluorouracil and capecitabine, backbone chemotherapy for colorectal cancer, can provoke coronary vasospasm and myocardial injury, and troponin elevation helps detect this recognised cardiotoxicity.
 
 ---
 
