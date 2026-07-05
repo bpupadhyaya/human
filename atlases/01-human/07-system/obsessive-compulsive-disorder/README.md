@@ -404,6 +404,15 @@ cross_links:
   - target: 01-human/03-molecular/arid1a
     relation: connects-to
     note: "ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the neurodevelopmental gene programs implicated in obsessive-compulsive disorder."
+  - target: 01-human/03-molecular/immunoglobulin-g
+    relation: connects-to
+    note: "PANDAS autoimmunity: paediatric acute-onset obsessive-compulsive symptoms can follow streptococcal infection, driven by IgG autoantibodies that cross-react with basal ganglia neurons, a distinct immune-mediated route into the CSTC circuitry."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Histaminergic tone: histamine-H3 signalling modulates striatal dopamine, and histidine-decarboxylase mutations link the histaminergic system to Tourette syndrome and the obsessive-compulsive spectrum."
+  - target: 01-human/03-molecular/progesterone
+    relation: connects-to
+    note: "Perinatal course: obsessive-compulsive symptoms frequently first appear or worsen in pregnancy and the postpartum period, implicating progesterone and its neurosteroid metabolites in the hormonal triggering of symptom onset."
 ---
 
 # Obsessive-Compulsive Disorder
@@ -657,6 +666,9 @@ OCD is often underdiagnosed due to shame and secrecy. Mean time from symptom ons
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling participates in the neuroimmune and neurodevelopmental interactions implicated in obsessive-compulsive disorder.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the microglial and neuroinflammatory responses implicated in obsessive-compulsive disorder.
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the neurodevelopmental gene programs implicated in obsessive-compulsive disorder.
+- `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — PANDAS autoimmunity: paediatric acute-onset obsessive-compulsive symptoms can follow streptococcal infection, driven by IgG autoantibodies that cross-react with basal ganglia neurons, a distinct immune-mediated route into the CSTC circuitry.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histaminergic tone: histamine-H3 signalling modulates striatal dopamine, and histidine-decarboxylase mutations link the histaminergic system to Tourette syndrome and the obsessive-compulsive spectrum.
+- `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Perinatal course: obsessive-compulsive symptoms frequently first appear or worsen in pregnancy and the postpartum period, implicating progesterone and its neurosteroid metabolites in the hormonal triggering of symptom onset.
 
 [^abramowitz-2009-ocd-review]: Abramowitz JS, Taylor S, McKay D. Obsessive-compulsive disorder. *Lancet.* 2009;374(9688):491-499. [doi:10.1016/S0140-6736(09)60240-3](https://doi.org/10.1016/S0140-6736(09)60240-3) · [PubMed 19665647](https://pubmed.ncbi.nlm.nih.gov/19665647/)
 [^chamberlain-2008-ocd-neuroscience]: Chamberlain SR, Menzies L, Hampshire A, et al. Orbitofrontal dysfunction in patients with OCD and their unaffected relatives. *Science.* 2008;321(5887):421-422. [doi:10.1126/science.1154433](https://doi.org/10.1126/science.1154433) · [PubMed 18635808](https://pubmed.ncbi.nlm.nih.gov/18635808/)

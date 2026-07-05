@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/adenosine
     relation: connects-to
     note: "Adenosine (A2A receptor) signaling participates in the basal-ganglia motor circuitry and neuroinflammation of Parkinson's disease."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Sex differences: Parkinson's disease is more common in men, and estrogen exerts neuroprotective effects on dopaminergic neurons, contributing to the later onset and milder early course seen in women."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "Brain renin-angiotensin: a local renin-angiotensin system in the substantia nigra amplifies microglial oxidative stress and neuroinflammation, and angiotensin-receptor blockade is neuroprotective in models, a target beyond dopamine replacement."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Insulin resistance: brain insulin resistance is common in Parkinson's disease and impairs neuronal energetics and survival, the rationale behind repurposing GLP-1 agonists (already mapped) as disease-modifying candidates."
 ---
 
 # Parkinson's Disease
@@ -658,6 +667,9 @@ PD is primarily a disease of aging (mean onset ~60 years), but **~10–15% of ca
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the neuronal and neuroinflammatory gene programs of Parkinson's disease.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the microglial activation and neuronal calcium dysregulation of Parkinson's disease.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine (A2A receptor) signaling participates in the basal-ganglia motor circuitry and neuroinflammation of Parkinson's disease.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Sex differences: Parkinson's disease is more common in men, and estrogen exerts neuroprotective effects on dopaminergic neurons, contributing to the later onset and milder early course seen in women.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — Brain renin-angiotensin: a local renin-angiotensin system in the substantia nigra amplifies microglial oxidative stress and neuroinflammation, and angiotensin-receptor blockade is neuroprotective in models, a target beyond dopamine replacement.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Insulin resistance: brain insulin resistance is common in Parkinson's disease and impairs neuronal energetics and survival, the rationale behind repurposing GLP-1 agonists (already mapped) as disease-modifying candidates.
 
 [^kalia-2015-pd-review]: Kalia LV, Lang AE. Parkinson's disease. *Lancet.* 2015;386(9996):896-912. [doi:10.1016/S0140-6736(14)61393-3](https://doi.org/10.1016/S0140-6736(14)61393-3) · [PubMed 25904081](https://pubmed.ncbi.nlm.nih.gov/25904081/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
