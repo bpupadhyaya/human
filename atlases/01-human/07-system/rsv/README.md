@@ -390,6 +390,15 @@ cross_links:
   - target: 01-human/03-molecular/calcineurin
     relation: connects-to
     note: "Calcineurin-NFAT signaling participates in the T-cell activation and airway immune response to respiratory syncytial virus."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Vaccine immunity: MHC class II-restricted CD4 T-cell help drives the antibody responses to the RSV F protein (already mapped) targeted by maternal and older-adult vaccines, and a Th2-skewed version of this help historically caused vaccine-enhanced disease."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Airway smooth muscle: RSV infection provokes bronchospasm and the recurrent wheeze that can follow bronchiolitis through calcium-dependent airway smooth muscle contraction and heightened airway responsiveness."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "T-cell response: IL-2 drives the expansion of the RSV-specific effector and memory T cells that clear infected airway epithelium, and the balance of this response shapes both protection and the immunopathology of severe bronchiolitis."
 ---
 
 # RSV
@@ -658,3 +667,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 participates in the innate antiviral and inflammatory responses to respiratory syncytial virus.
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the host response to respiratory syncytial virus.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the T-cell activation and airway immune response to respiratory syncytial virus.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Vaccine immunity: MHC class II-restricted CD4 T-cell help drives the antibody responses to the RSV F protein (already mapped) targeted by maternal and older-adult vaccines, and a Th2-skewed version of this help historically caused vaccine-enhanced disease.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Airway smooth muscle: RSV infection provokes bronchospasm and the recurrent wheeze that can follow bronchiolitis through calcium-dependent airway smooth muscle contraction and heightened airway responsiveness.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell response: IL-2 drives the expansion of the RSV-specific effector and memory T cells that clear infected airway epithelium, and the balance of this response shapes both protection and the immunopathology of severe bronchiolitis.

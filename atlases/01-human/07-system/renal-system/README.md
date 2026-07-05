@@ -397,6 +397,15 @@ cross_links:
   - target: 01-human/03-molecular/il-1b
     relation: connects-to
     note: "IL-1β-driven inflammation participates in the renal inflammatory responses of the renal system."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Acid-base balance: the kidney maintains systemic pH by secreting protons and regenerating bicarbonate in the tubules, and its failure to excrete fixed acid produces the metabolic acidosis characteristic of renal disease."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Metabolic role: the kidney clears insulin and contributes to gluconeogenesis, so renal failure both prolongs insulin action, risking hypoglycaemia, and induces the insulin resistance that accompanies chronic kidney disease."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Renal anaemia: the kidney produces erythropoietin (already mapped) and its disease raises hepcidin through inflammation and reduced clearance, restricting iron availability and driving the anaemia of chronic kidney disease."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -618,6 +627,9 @@ Natriuretic counterpoint:
 - **Connects to:** [CXCL12](../../03-molecular/cxcl12/README.md) — renal development: CXCL12-CXCR4 signaling participates in the renal development and immune-cell trafficking of the renal system.
 - **Connects to:** [Interleukin-6](../../03-molecular/il-6/README.md) — renal inflammation: IL-6 signaling participates in the renal inflammatory responses of the renal system.
 - **Connects to:** [IL-1β](../../03-molecular/il-1b/README.md) — inflammasome injury: IL-1β-driven inflammation participates in the renal inflammatory responses of the renal system.
+- **Connects to:** [Proton](../../01-subatomic/proton/README.md) — acid-base balance: the kidney maintains systemic pH by secreting protons and regenerating bicarbonate in the tubules, and its failure to excrete fixed acid produces the metabolic acidosis characteristic of renal disease.
+- **Connects to:** [Insulin](../../03-molecular/insulin/README.md) — metabolic role: the kidney clears insulin and contributes to gluconeogenesis, so renal failure both prolongs insulin action, risking hypoglycaemia, and induces the insulin resistance that accompanies chronic kidney disease.
+- **Connects to:** [Hepcidin](../../03-molecular/hepcidin/README.md) — renal anaemia: the kidney produces erythropoietin (already mapped) and its disease raises hepcidin through inflammation and reduced clearance, restricting iron availability and driving the anaemia of chronic kidney disease.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 
