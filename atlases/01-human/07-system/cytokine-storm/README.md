@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Osteopontin participates in the macrophage activation and hyperinflammatory responses of cytokine storm."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Cardiac injury: the hyperinflammation of cytokine storm, including CAR-T cytokine-release syndrome and macrophage-activation syndrome, injures the myocardium, and troponin elevation marks the cardiac dysfunction that contributes to its mortality."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Cytopenias: haemophagocytic lymphohistiocytosis at the severe end of cytokine storm consumes blood cells, dropping haemoglobin along with platelets and neutrophils, one of the diagnostic features of the syndrome."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Antigen-driven hyperactivation: MHC class II presentation of pathogen or superantigen drives the T-cell hyperactivation that ignites many cytokine storms, and antigen presentation is central to the CAR-T-associated cytokine-release syndrome."
 ---
 
 # Cytokine Storm
@@ -610,6 +619,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the hyperinflammatory immune gene programs of cytokine storm.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the T-cell hyperactivation of cytokine storm (a target of calcineurin inhibitors in HLH/macrophage-activation syndrome).
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin participates in the macrophage activation and hyperinflammatory responses of cytokine storm.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiac injury: the hyperinflammation of cytokine storm, including CAR-T cytokine-release syndrome and macrophage-activation syndrome, injures the myocardium, and troponin elevation marks the cardiac dysfunction that contributes to its mortality.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Cytopenias: haemophagocytic lymphohistiocytosis at the severe end of cytokine storm consumes blood cells, dropping haemoglobin along with platelets and neutrophils, one of the diagnostic features of the syndrome.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Antigen-driven hyperactivation: MHC class II presentation of pathogen or superantigen drives the T-cell hyperactivation that ignites many cytokine storms, and antigen presentation is central to the CAR-T-associated cytokine-release syndrome.
 
 ## Pathology
 

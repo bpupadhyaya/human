@@ -394,6 +394,15 @@ cross_links:
   - target: 01-human/03-molecular/adenosine
     relation: connects-to
     note: "Adenosine signaling participates in the immunomodulation and vascular-permeability responses of dengue fever."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Haemoconcentration: the plasma leakage of severe dengue concentrates the blood, and a rising haematocrit and haemoglobin is a cardinal warning sign of impending dengue shock, while haemorrhage can conversely drop it."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Immunity and vaccine: MHC class II-restricted T-cell help shapes dengue immunity and vaccine responses, and cross-reactive immunity from a prior serotype underlies the antibody-dependent enhancement (IgG already mapped) that worsens secondary infection."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "T-cell response: IL-2-driven T-cell expansion contributes to dengue immunity, but cross-reactive memory T cells from a previous serotype can produce a suboptimal, inflammation-amplifying response (original antigenic sin) in secondary infection."
 ---
 
 # Dengue Fever
@@ -631,3 +640,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A-containing SWI/SNF chromatin remodeling participates in the epigenetic regulation of the antiviral and immune gene programs of dengue fever.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin-NFAT signaling participates in the T-cell activation of the immune response to dengue fever.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine signaling participates in the immunomodulation and vascular-permeability responses of dengue fever.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Haemoconcentration: the plasma leakage of severe dengue concentrates the blood, and a rising haematocrit and haemoglobin is a cardinal warning sign of impending dengue shock, while haemorrhage can conversely drop it.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immunity and vaccine: MHC class II-restricted T-cell help shapes dengue immunity and vaccine responses, and cross-reactive immunity from a prior serotype underlies the antibody-dependent enhancement (IgG already mapped) that worsens secondary infection.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell response: IL-2-driven T-cell expansion contributes to dengue immunity, but cross-reactive memory T cells from a previous serotype can produce a suboptimal, inflammation-amplifying response (original antigenic sin) in secondary infection.
