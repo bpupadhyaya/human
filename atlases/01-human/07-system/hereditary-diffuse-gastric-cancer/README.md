@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/pd-1
     relation: connects-to
     note: "Checkpoint blockade: PD-1 inhibitors are part of the systemic therapy for advanced diffuse gastric cancer, though the discohesive, stroma-rich histology of the CDH1-driven tumour tends to respond less than intestinal-type disease."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Occult bleeding: the diffusely infiltrating tumour of hereditary diffuse gastric cancer bleeds and impairs nutrition, and a falling haemoglobin with anaemia can be an early clue in a CDH1 carrier under surveillance."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "T-cell immunity: IL-2-driven T-cell expansion (PD-1 and perforin already mapped) underlies the checkpoint response in diffuse gastric cancer, though the stroma-rich CDH1-driven tumour is often poorly immunogenic."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive stroma: IL-10 in the desmoplastic microenvironment (fibroblast already mapped) dampens anti-tumour immunity, part of why the diffuse, stroma-rich histology of CDH1-driven gastric cancer resists checkpoint blockade."
 ---
 
 # Hereditary Diffuse Gastric Cancer
@@ -639,6 +648,9 @@ Testing for CDH1 (and CTNNA1) is indicated in any of the following:
 - `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — E-cadherin loss and EMT: germline loss of E-cadherin (CDH1 already mapped) releases the epithelial brake on invasion, and AXL-driven epithelial-mesenchymal transition promotes the discohesive, infiltrative signet-ring growth that defines diffuse gastric cancer.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immunotherapy: MHC class II antigen presentation shapes the T-cell response in diffuse gastric cancer, relevant to the checkpoint-based therapies explored for these often microsatellite-stable but sometimes immunogenic tumours.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Checkpoint blockade: PD-1 inhibitors are part of the systemic therapy for advanced diffuse gastric cancer, though the discohesive, stroma-rich histology of the CDH1-driven tumour tends to respond less than intestinal-type disease.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Occult bleeding: the diffusely infiltrating tumour of hereditary diffuse gastric cancer bleeds and impairs nutrition, and a falling haemoglobin with anaemia can be an early clue in a CDH1 carrier under surveillance.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell immunity: IL-2-driven T-cell expansion (PD-1 and perforin already mapped) underlies the checkpoint response in diffuse gastric cancer, though the stroma-rich CDH1-driven tumour is often poorly immunogenic.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive stroma: IL-10 in the desmoplastic microenvironment (fibroblast already mapped) dampens anti-tumour immunity, part of why the diffuse, stroma-rich histology of CDH1-driven gastric cancer resists checkpoint blockade.
 
 [^van-der-post-2015-hdgc-guidelines]: van der Post RS, Vogelaar IP, Carneiro F, et al. Hereditary diffuse gastric cancer: updated clinical guidelines with an emphasis on germline CDH1 mutation carriers. *J Med Genet.* 2015;52(6):361-374. [doi:10.1136/jmedgenet-2015-103094](https://doi.org/10.1136/jmedgenet-2015-103094) · [PubMed 25979631](https://pubmed.ncbi.nlm.nih.gov/25979631/)
 [^hansford-2015-hdgc]: Hansford S, Kaurah P, Li-Chang H, et al. Hereditary Diffuse Gastric Cancer Syndrome: CDH1 Mutations and Beyond. *JAMA Oncol.* 2015;1(1):23-32. [doi:10.1001/jamaoncol.2014.168](https://doi.org/10.1001/jamaoncol.2014.168) · [PubMed 26182300](https://pubmed.ncbi.nlm.nih.gov/26182300/)

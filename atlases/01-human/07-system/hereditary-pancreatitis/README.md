@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/mhc-class-ii
     relation: connects-to
     note: "Immune inflammation: MHC class II-restricted T-cell responses participate in the immune component of chronic pancreatitis and its overlap with autoimmune pancreatitis, alongside the innate inflammasome signalling (NLRP3 already mapped)."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Malnutrition anaemia: exocrine insufficiency in hereditary pancreatitis causes fat and micronutrient malabsorption, and chronic disease with iron and vitamin deficiency lowers haemoglobin, the anaemia adding to the debility of the burnt-out gland."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "Pancreatogenic diabetes: progressive islet loss produces the type-3c diabetes of hereditary pancreatitis (insulin and glucagon already mapped), and the incretin GLP-1 axis is disturbed as the enteroinsular signalling of the damaged gland fails."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Inflammatory mediators: prostaglandins amplify the pancreatic inflammation and pain of hereditary pancreatitis, and NSAIDs that block their synthesis are used, notably rectal indomethacin to prevent post-ERCP pancreatitis."
 ---
 
 # Hereditary Pancreatitis
@@ -675,6 +684,9 @@ cross_links:
 - `connects-to` → **[Mu-opioid receptor](../../03-molecular/mu-opioid-receptor/README.md)** — Chronic pain: recurrent and then constant abdominal pain from childhood is the dominant clinical burden of hereditary pancreatitis, and its management with opioids acting at the mu-opioid receptor risks dependence, a major therapeutic dilemma.
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — Neurogenic pancreatic pain: chronic pancreatitis sensitises and remodels pancreatic sensory nerves, with substance P and neurogenic inflammation amplifying the visceral pain that persists even as the gland burns out.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immune inflammation: MHC class II-restricted T-cell responses participate in the immune component of chronic pancreatitis and its overlap with autoimmune pancreatitis, alongside the innate inflammasome signalling (NLRP3 already mapped).
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Malnutrition anaemia: exocrine insufficiency in hereditary pancreatitis causes fat and micronutrient malabsorption, and chronic disease with iron and vitamin deficiency lowers haemoglobin, the anaemia adding to the debility of the burnt-out gland.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Pancreatogenic diabetes: progressive islet loss produces the type-3c diabetes of hereditary pancreatitis (insulin and glucagon already mapped), and the incretin GLP-1 axis is disturbed as the enteroinsular signalling of the damaged gland fails.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Inflammatory mediators: prostaglandins amplify the pancreatic inflammation and pain of hereditary pancreatitis, and NSAIDs that block their synthesis are used, notably rectal indomethacin to prevent post-ERCP pancreatitis.
 
 [^whitcomb-1996-prss1]: Whitcomb DC, Gorry MC, Preston RA, et al. Hereditary pancreatitis is caused by a mutation in the cationic trypsinogen gene. *Nat Genet.* 1996;14(2):141-145. [doi:10.1038/ng1096-141](https://doi.org/10.1038/ng1096-141) · [PubMed 8841182](https://pubmed.ncbi.nlm.nih.gov/8841182/)
 [^lowenfels-2001-hp-pdac]: Lowenfels AB, Maisonneuve P, DiMagno EP, et al. Hereditary pancreatitis and the risk of pancreatic cancer. *J Natl Cancer Inst.* 2001;93(1):26-31. [doi:10.1093/jnci/93.1.26](https://doi.org/10.1093/jnci/93.1.26) · [PubMed 11136838](https://pubmed.ncbi.nlm.nih.gov/11136838/)
