@@ -404,6 +404,15 @@ cross_links:
   - target: 01-human/03-molecular/leptin
     relation: connects-to
     note: "Adipokine signalling: subcutaneous adipose tissue is part of the integument, and its adipokine leptin influences hair-follicle cycling, wound healing and dermal homeostasis, linking the skin's fat layer to its regenerative biology."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Photo-oxidative stress: ultraviolet exposure (photon already mapped) generates reactive oxygen species in the skin, to which xanthine oxidase contributes, driving the photoaging and DNA damage that the NRF2 antioxidant response (already mapped) counters."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Type-2 skin inflammation: IL-4, with IL-13 and IL-31 (already mapped), drives the itch and barrier disruption of atopic dermatitis, part of the type-2 immune axis prominent in inflammatory skin disease of the integument."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Eccrine sweat electrolytes: aldosterone drives sodium reabsorption in the eccrine sweat ducts (acetylcholine already mapped for sweat secretion), conserving salt during heat acclimatisation, a mineralocorticoid function of the integument's sweat glands."
 ---
 
 # Integumentary System
@@ -638,6 +647,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Antioxidant selenoproteins: selenium-dependent glutathione peroxidases protect skin and hair from oxidative and ultraviolet damage (NFE2L2 already mapped), and selenium deficiency causes skin and hair changes, part of the integument's antioxidant defence.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Cutaneous serotonin: the skin synthesises and responds to serotonin, which modulates itch, keratinocyte proliferation and dermal blood flow, one of several neurotransmitter systems (substance P already mapped) active in the integument.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adipokine signalling: subcutaneous adipose tissue is part of the integument, and its adipokine leptin influences hair-follicle cycling, wound healing and dermal homeostasis, linking the skin's fat layer to its regenerative biology.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Photo-oxidative stress: ultraviolet exposure (photon already mapped) generates reactive oxygen species in the skin, to which xanthine oxidase contributes, driving the photoaging and DNA damage that the NRF2 antioxidant response (already mapped) counters.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Type-2 skin inflammation: IL-4, with IL-13 and IL-31 (already mapped), drives the itch and barrier disruption of atopic dermatitis, part of the type-2 immune axis prominent in inflammatory skin disease of the integument.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Eccrine sweat electrolytes: aldosterone drives sodium reabsorption in the eccrine sweat ducts (acetylcholine already mapped for sweat secretion), conserving salt during heat acclimatisation, a mineralocorticoid function of the integument's sweat glands.
 
 ## Pathology
 

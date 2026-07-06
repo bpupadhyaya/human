@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin
     relation: connects-to
     note: "Metabolic hypercoagulability: insulin resistance and the metabolic syndrome raise PAI-1 and fibrinogen (already mapped) to create an acquired prothrombotic state that compounds the risk of an inherited thrombophilia."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative thrombogenesis: reactive oxygen species, to which xanthine oxidase contributes, promote the endothelial dysfunction and platelet activation (already mapped) that tip the balance toward thrombosis in an inherited thrombophilia."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Thrombo-inflammation balance: coagulation and inflammation are intertwined, and the anti-inflammatory IL-10 opposes the pro-inflammatory signals (IL-6, TNF and IL-1 already mapped) that amplify thrombus formation in inherited thrombophilia."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "Metabolic-thrombotic axis: the insulin resistance (already mapped) that adds an acquired prothrombotic risk disturbs the incretin GLP-1 axis, part of the metabolic-syndrome hypercoagulability compounding an inherited thrombophilia."
 ---
 
 # Inherited Thrombophilia
@@ -702,6 +711,9 @@ Antithrombin (ATIII) is the primary plasma inhibitor of thrombin, FXa, FIXa, and
 - `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Pregnancy risk: pregnancy is a hypercoagulable state driven by progesterone and estrogen (already mapped), and an inherited thrombophilia sharply raises the risk of pregnancy-associated venous thromboembolism and placental thrombotic complications.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Pulmonary embolism strain: a large pulmonary embolism from an inherited thrombophilia strains the right ventricle, and troponin elevation marks the myocardial injury that identifies high-risk PE needing more aggressive treatment.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Metabolic hypercoagulability: insulin resistance and the metabolic syndrome raise PAI-1 and fibrinogen (already mapped) to create an acquired prothrombotic state that compounds the risk of an inherited thrombophilia.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative thrombogenesis: reactive oxygen species, to which xanthine oxidase contributes, promote the endothelial dysfunction and platelet activation (already mapped) that tip the balance toward thrombosis in an inherited thrombophilia.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Thrombo-inflammation balance: coagulation and inflammation are intertwined, and the anti-inflammatory IL-10 opposes the pro-inflammatory signals (IL-6, TNF and IL-1 already mapped) that amplify thrombus formation in inherited thrombophilia.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Metabolic-thrombotic axis: the insulin resistance (already mapped) that adds an acquired prothrombotic risk disturbs the incretin GLP-1 axis, part of the metabolic-syndrome hypercoagulability compounding an inherited thrombophilia.
 
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)
