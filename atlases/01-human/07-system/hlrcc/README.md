@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "T-cell response: IL-2-driven T-cell expansion underlies the immunotherapy of the metastatic renal cell carcinoma that makes HLRCC dangerous, complementing the bevacizumab-erlotinib regimen aimed at its pseudohypoxic biology (HIF already mapped)."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Polycythaemia and haematuria: the pseudohypoxic HIF and erythropoietin drive (already mapped) can raise haemoglobin, while the renal cell carcinoma of HLRCC causes haematuria and, later, the anaemia of advanced disease."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Tumour vasculature: nitric oxide with the strongly upregulated VEGF (already mapped) supports the rich angiogenesis of the pseudohypoxic FH-deficient renal cell carcinoma, part of the vascular biology targeted by antiangiogenic therapy."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative and antioxidant stress: fumarate accumulation succinates KEAP1 to activate NRF2 (already mapped), a response to the oxidative stress, to which xanthine oxidase contributes, of the metabolically rewired FH-deficient cell."
 ---
 
 # Hereditary Leiomyomatosis and Renal Cell Carcinoma
@@ -663,6 +672,9 @@ Cutaneous:
 - `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Uterine leiomyoma hormones: the uterine smooth-muscle tumours of HLRCC, like common fibroids, are hormone-responsive, so progesterone and estrogen (already mapped) drive the growth that causes heavy bleeding and often early hysterectomy in affected women.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — RCC immunotherapy: MHC class II antigen presentation shapes the T-cell response to the aggressive FH-deficient renal cell carcinoma of HLRCC, whose systemic treatment increasingly combines antiangiogenics with immune checkpoint blockade.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell response: IL-2-driven T-cell expansion underlies the immunotherapy of the metastatic renal cell carcinoma that makes HLRCC dangerous, complementing the bevacizumab-erlotinib regimen aimed at its pseudohypoxic biology (HIF already mapped).
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Polycythaemia and haematuria: the pseudohypoxic HIF and erythropoietin drive (already mapped) can raise haemoglobin, while the renal cell carcinoma of HLRCC causes haematuria and, later, the anaemia of advanced disease.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide with the strongly upregulated VEGF (already mapped) supports the rich angiogenesis of the pseudohypoxic FH-deficient renal cell carcinoma, part of the vascular biology targeted by antiangiogenic therapy.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative and antioxidant stress: fumarate accumulation succinates KEAP1 to activate NRF2 (already mapped), a response to the oxidative stress, to which xanthine oxidase contributes, of the metabolically rewired FH-deficient cell.
 
 [^tomlinson-2002-fh]: Tomlinson IP, Alam NA, Rowan AJ, et al. Germline mutations in FH predispose to dominantly inherited uterine fibroids, skin leiomyomata and papillary renal cell cancer. *Nat Genet.* 2002;30(4):406-410. [doi:10.1038/ng849](https://doi.org/10.1038/ng849) · [PubMed 11865300](https://pubmed.ncbi.nlm.nih.gov/11865300/)
 [^linehan-2013-fh-review]: Linehan WM, Rouault TA. Molecular pathways: fumarate hydratase-deficient kidney cancer — targeting the Warburg effect in cancer. *Clin Cancer Res.* 2013;19(13):3345-3352. [doi:10.1158/1078-0432.CCR-13-0304](https://doi.org/10.1158/1078-0432.CCR-13-0304) · [PubMed 23836472](https://pubmed.ncbi.nlm.nih.gov/23836472/)

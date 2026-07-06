@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/axl-receptor
     relation: connects-to
     note: "Cetuximab resistance: the AXL receptor tyrosine kinase drives epithelial-mesenchymal transition and resistance to EGFR-targeted therapy (EGFR already mapped) in head and neck squamous cell carcinoma."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Anaemia and radioresistance: mucosal bleeding and chemoradiotherapy lower haemoglobin, and the resulting anaemia worsens tumour hypoxia (HIF already mapped), reducing radiotherapy efficacy in head and neck squamous cell carcinoma."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative carcinogenesis: tobacco and alcohol generate reactive oxygen species, to which xanthine oxidase contributes, and this oxidative DNA damage (NRF2 already mapped) drives the field carcinogenesis of HPV-negative head and neck squamous cell carcinoma."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive microenvironment: IL-10 in the tumour microenvironment dampens the T-cell response (PD-1 already mapped), part of the immune evasion that limits checkpoint-inhibitor benefit in head and neck squamous cell carcinoma."
 ---
 
 # HNSCC
@@ -646,6 +655,9 @@ HPV+ oropharyngeal: Node staging based on number (not laterality); HPV-negative 
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — HPV immunity: MHC class II presentation of HPV oncoproteins underlies the stronger immune response and better prognosis of HPV-positive oropharyngeal cancer (p16/CDKN2A already mapped) and shapes the benefit from checkpoint inhibitors.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Immunotherapy: IL-2-driven T-cell expansion supports the checkpoint-inhibitor and adoptive-cell therapies (PD-1 already mapped) that are now standard for recurrent or metastatic head and neck squamous cell carcinoma.
 - `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — Cetuximab resistance: the AXL receptor tyrosine kinase drives epithelial-mesenchymal transition and resistance to EGFR-targeted therapy (EGFR already mapped) in head and neck squamous cell carcinoma.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Anaemia and radioresistance: mucosal bleeding and chemoradiotherapy lower haemoglobin, and the resulting anaemia worsens tumour hypoxia (HIF already mapped), reducing radiotherapy efficacy in head and neck squamous cell carcinoma.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative carcinogenesis: tobacco and alcohol generate reactive oxygen species, to which xanthine oxidase contributes, and this oxidative DNA damage (NRF2 already mapped) drives the field carcinogenesis of HPV-negative head and neck squamous cell carcinoma.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the tumour microenvironment dampens the T-cell response (PD-1 already mapped), part of the immune evasion that limits checkpoint-inhibitor benefit in head and neck squamous cell carcinoma.
 
 [^burtness-2019-keynote048]: Burtness B, Harrington KJ, Greil R, et al. Pembrolizumab alone or with chemotherapy versus cetuximab with chemotherapy for recurrent or metastatic squamous cell carcinoma of the head and neck (KEYNOTE-048). *Lancet.* 2019;394(10212):1915-1928. [doi:10.1016/S0140-6736(19)32591-7](https://doi.org/10.1016/S0140-6736(19)32591-7) · [PubMed 31679945](https://pubmed.ncbi.nlm.nih.gov/31679945/)
 [^vermorken-2008-extreme]: Vermorken JB, Mesia R, Rivera F, et al. Platinum-based chemotherapy plus cetuximab in head and neck cancer. *N Engl J Med.* 2008;359(11):1116-1127. [doi:10.1056/NEJMoa0802656](https://doi.org/10.1056/NEJMoa0802656) · [PubMed 18784101](https://pubmed.ncbi.nlm.nih.gov/18784101/)
