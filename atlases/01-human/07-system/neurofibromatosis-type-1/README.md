@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/troponin-complex
     relation: connects-to
     note: "Cardiac involvement: NF1 carries congenital heart disease (heart already mapped), hypertrophic cardiomyopathy and vasculopathy, and troponin elevation can mark the myocardial injury of these cardiovascular manifestations."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell pruritus: the mast cells (already mapped) infiltrating the neurofibromas release histamine, driving the itch characteristic of the growing tumours and part of the mast-cell-rich microenvironment that supports them."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Type-2 mast-cell milieu: IL-4 supports the mast cells (already mapped) and polarises macrophages toward an M2 phenotype (IL-10 already mapped) in the neurofibroma microenvironment, part of the type-2 immune milieu that fosters tumour growth."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Inflammatory eicosanoids: prostaglandins from the mast cells (already mapped) and inflammatory infiltrate (IL-6 and IL-1 already mapped) of the neurofibroma microenvironment contribute to its inflammation, part of the stroma that supports the NF1 tumours."
 ---
 
 # Neurofibromatosis Type 1
@@ -656,6 +665,9 @@ In glioma and MPNST: additional alterations required — MPNST requires CDKN2A/2
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Neurofibroma matrix: neurofibromas are composed of Schwann cells, fibroblasts (already mapped) and mast cells in a loose, collagen-rich myxoid stroma, the abundant extracellular matrix giving these NF1 tumours their soft texture.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Tumour microenvironment: IL-10 among the cytokines of the neurofibroma microenvironment, with the mast cells (already mapped) and macrophages, shapes the immune milieu that supports the growth of these NF1 nerve-sheath tumours.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiac involvement: NF1 carries congenital heart disease (heart already mapped), hypertrophic cardiomyopathy and vasculopathy, and troponin elevation can mark the myocardial injury of these cardiovascular manifestations.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell pruritus: the mast cells (already mapped) infiltrating the neurofibromas release histamine, driving the itch characteristic of the growing tumours and part of the mast-cell-rich microenvironment that supports them.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Type-2 mast-cell milieu: IL-4 supports the mast cells (already mapped) and polarises macrophages toward an M2 phenotype (IL-10 already mapped) in the neurofibroma microenvironment, part of the type-2 immune milieu that fosters tumour growth.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Inflammatory eicosanoids: prostaglandins from the mast cells (already mapped) and inflammatory infiltrate (IL-6 and IL-1 already mapped) of the neurofibroma microenvironment contribute to its inflammation, part of the stroma that supports the NF1 tumours.
 
 [^gutmann-2017-nf1-primer]: Gutmann DH, Ferner RE, Listernick RH, et al. Neurofibromatosis type 1. *Nat Rev Dis Primers.* 2017;3:17004. [doi:10.1038/nrdp.2017.4](https://doi.org/10.1038/nrdp.2017.4) · [PubMed 28230061](https://pubmed.ncbi.nlm.nih.gov/28230061/)
 [^dombi-2016-selumetinib]: Dombi E, Baldwin A, Marcus LJ, et al. Activity of Selumetinib in Neurofibromatosis Type 1-Related Plexiform Neurofibromas. *N Engl J Med.* 2016;375(26):2550-2560. [doi:10.1056/NEJMoa1605943](https://doi.org/10.1056/NEJMoa1605943) · [PubMed 28029918](https://pubmed.ncbi.nlm.nih.gov/28029918/)
