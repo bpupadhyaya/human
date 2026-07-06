@@ -409,6 +409,15 @@ cross_links:
   - target: 01-human/03-molecular/mhc-class-ii
     relation: connects-to
     note: "Immune microenvironment: multiple myeloma progressively suppresses T-cell immunity and antigen presentation, and MHC-based recognition underlies both the immune escape of the plasma-cell clone and the response to its immunotherapies."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Tumour lysis: treating a high-burden multiple myeloma can trigger tumour-lysis syndrome, releasing purines that xanthine oxidase converts to uric acid, adding to the renal risk (kidney already mapped) already posed by light-chain cast nephropathy."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Cardiac risk: carfilzomib can be cardiotoxic and coexisting AL amyloid can infiltrate the myocardium, so troponin elevation marks the cardiac injury that complicates multiple myeloma and its treatment."
+  - target: 01-human/03-molecular/secretory-iga
+    relation: connects-to
+    note: "Immunoparesis: the expanding plasma-cell clone suppresses normal immunoglobulin production including secretory IgA (IgG already mapped), the immunoparesis that impairs mucosal defence and causes the recurrent infections central to myeloma mortality."
 ---
 
 # Multiple Myeloma
@@ -668,6 +677,9 @@ MM evolves from precursor conditions through a well-defined continuum:
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Anaemia (the A of CRAB): marrow replacement by plasma cells and inflammation (hepcidin already mapped) suppress erythropoiesis, and the resulting anaemia with fatigue is often the presenting feature of multiple myeloma.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — BCMA CAR-T: IL-2-driven T-cell expansion powers the BCMA-directed CAR-T and bispecific-antibody therapies (perforin already mapped) that have transformed treatment of relapsed multiple myeloma.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immune microenvironment: multiple myeloma progressively suppresses T-cell immunity and antigen presentation, and MHC-based recognition underlies both the immune escape of the plasma-cell clone and the response to its immunotherapies.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Tumour lysis: treating a high-burden multiple myeloma can trigger tumour-lysis syndrome, releasing purines that xanthine oxidase converts to uric acid, adding to the renal risk (kidney already mapped) already posed by light-chain cast nephropathy.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiac risk: carfilzomib can be cardiotoxic and coexisting AL amyloid can infiltrate the myocardium, so troponin elevation marks the cardiac injury that complicates multiple myeloma and its treatment.
+- `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — Immunoparesis: the expanding plasma-cell clone suppresses normal immunoglobulin production including secretory IgA (IgG already mapped), the immunoparesis that impairs mucosal defence and causes the recurrent infections central to myeloma mortality.
 
 [^kumar-2022-imwg-criteria]: Kumar SK, Callander NS, Adekola K, et al. Multiple myeloma, version 3.2021, NCCN clinical practice guidelines in oncology. *J Natl Compr Canc Netw.* 2020;18(12):1685-1717. [doi:10.6004/jnccn.2020.0057](https://doi.org/10.6004/jnccn.2020.0057) · [PubMed 33285519](https://pubmed.ncbi.nlm.nih.gov/33285519/)
 [^moreau-2022-teclistamab]: Moreau P, Garfall AL, van de Donk NWCJ, et al. Teclistamab in relapsed or refractory multiple myeloma. *N Engl J Med.* 2022;387(6):495-505. [doi:10.1056/NEJMoa2203478](https://doi.org/10.1056/NEJMoa2203478) · [PubMed 35661166](https://pubmed.ncbi.nlm.nih.gov/35661166/)
