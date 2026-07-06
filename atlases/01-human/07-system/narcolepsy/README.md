@@ -399,6 +399,15 @@ cross_links:
   - target: 01-human/03-molecular/baff
     relation: connects-to
     note: "B-cell autoimmunity: BAFF supports the B cells and any autoantibody responses that participate, alongside the dominant T-cell attack (already mapped), in the HLA-DQB1*06:02-restricted autoimmune destruction of the orexin neurons."
+  - target: 01-human/03-molecular/npy
+    relation: connects-to
+    note: "Hypothalamic arousal and feeding: neuropeptide Y and the arousal-feeding circuits interact with the lost orexin (already mapped) in the hypothalamus, part of the integrated appetite and wakefulness signalling (leptin and ghrelin already mapped) disrupted in narcolepsy."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Type-2 immune arm: IL-4, with IL-13 (already mapped), reflects the type-2 cytokine arm accompanying the dominant T-cell (already mapped) autoimmunity in the orexin-neuron destruction of narcolepsy type 1."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Metabolic dysregulation: narcolepsy is associated with metabolic disturbance and dyslipidaemia (insulin and leptin already mapped), the orexin deficiency shifting energy metabolism and lipid handling toward the obesity common in the disorder."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -666,6 +675,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with the type-2 cytokines, is part of the broader immune dysregulation surrounding the autoimmune loss of orexin neurons, complementing the Th1 and cytotoxic (already mapped) responses implicated in narcolepsy.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Metabolic dysregulation: loss of orexin disturbs energy balance, and narcolepsy carries obesity and altered glucose handling (leptin and insulin already mapped), with the incretin GLP-1 axis part of the metabolic disturbance accompanying the disorder.
 - `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — B-cell autoimmunity: BAFF supports the B cells and any autoantibody responses that participate, alongside the dominant T-cell attack (already mapped), in the HLA-DQB1*06:02-restricted autoimmune destruction of the orexin neurons.
+- `connects-to` → **[NPY](../../03-molecular/npy/README.md)** — Hypothalamic arousal and feeding: neuropeptide Y and the arousal-feeding circuits interact with the lost orexin (already mapped) in the hypothalamus, part of the integrated appetite and wakefulness signalling (leptin and ghrelin already mapped) disrupted in narcolepsy.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Type-2 immune arm: IL-4, with IL-13 (already mapped), reflects the type-2 cytokine arm accompanying the dominant T-cell (already mapped) autoimmunity in the orexin-neuron destruction of narcolepsy type 1.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Metabolic dysregulation: narcolepsy is associated with metabolic disturbance and dyslipidaemia (insulin and leptin already mapped), the orexin deficiency shifting energy metabolism and lipid handling toward the obesity common in the disorder.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)
