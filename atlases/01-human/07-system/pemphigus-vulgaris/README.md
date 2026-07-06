@@ -409,6 +409,15 @@ cross_links:
   - target: 01-human/03-molecular/estrogen
     relation: connects-to
     note: "Pregnancy and neonatal disease: pemphigus can flare in pregnancy, and maternal IgG crossing the placenta (FcRn already mapped) can cause transient neonatal pemphigus, implicating the reproductive-hormone (estrogen) milieu in disease activity."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Erosion inflammation and healing: nitric oxide from the inflamed, eroded skin participates in the local vasodilation and wound-healing response of pemphigus vulgaris lesions, alongside the immune injury driven by the autoantibodies."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Wound-healing angiogenesis: VEGF drives the angiogenesis of the granulation and re-epithelialisation that heals the extensive erosions of pemphigus vulgaris, part of the repair response once immunosuppression controls the autoantibody attack."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative injury: the inflamed, eroded skin of pemphigus vulgaris generates reactive oxygen species, to which xanthine oxidase contributes, and this oxidative stress adds to the tissue damage of the acantholytic blistering."
 ---
 
 # Pemphigus Vulgaris
@@ -683,6 +692,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — IgA pemphigus variant: while IgG drives classic pemphigus, a rarer IgA pemphigus targets desmosomal proteins with IgA autoantibodies, and secretory IgA at the oral mucosa is part of the antibody landscape of these blistering diseases.
 - `connects-to` → **[Mu-opioid receptor](../../03-molecular/mu-opioid-receptor/README.md)** — Erosion pain: the widespread painful oral and skin erosions of pemphigus vulgaris are a major source of suffering, often requiring opioid analgesia acting at the mu-opioid receptor alongside disease-directed immunosuppression.
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Pregnancy and neonatal disease: pemphigus can flare in pregnancy, and maternal IgG crossing the placenta (FcRn already mapped) can cause transient neonatal pemphigus, implicating the reproductive-hormone (estrogen) milieu in disease activity.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Erosion inflammation and healing: nitric oxide from the inflamed, eroded skin participates in the local vasodilation and wound-healing response of pemphigus vulgaris lesions, alongside the immune injury driven by the autoantibodies.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Wound-healing angiogenesis: VEGF drives the angiogenesis of the granulation and re-epithelialisation that heals the extensive erosions of pemphigus vulgaris, part of the repair response once immunosuppression controls the autoantibody attack.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative injury: the inflamed, eroded skin of pemphigus vulgaris generates reactive oxygen species, to which xanthine oxidase contributes, and this oxidative stress adds to the tissue damage of the acantholytic blistering.
 
 ---
 

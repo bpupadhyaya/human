@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/hemoglobin
     relation: connects-to
     note: "Treatment myelosuppression: the high-dose methotrexate-based chemotherapy central to primary CNS lymphoma is myelosuppressive, lowering haemoglobin and requiring transfusion and growth-factor support during treatment."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Tumour lysis: initiating chemotherapy for bulky primary CNS lymphoma can lyse the tumour rapidly, releasing purines that xanthine oxidase converts to uric acid, a tumour-lysis risk managed with allopurinol and hydration."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Tumour-lysis acidosis: the rapid lysis of primary CNS lymphoma by chemotherapy releases acids that, with lactate, produce the metabolic acidosis of tumour-lysis syndrome (urate already mapped), part of its acute metabolic risk."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the vascular tone and angiogenesis of primary CNS lymphoma, part of the microenvironment behind its characteristic angiocentric growth around cerebral vessels."
 ---
 
 # Primary CNS Lymphoma
@@ -645,6 +654,9 @@ Score 0-1: 2-year OS ~80%; Score 2-3: ~48%; Score 4-5: ~15%
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — CNS-directed CAR-T: IL-2-driven T-cell expansion powers the CD19 CAR-T therapy (perforin already mapped) that can cross into the central nervous system and produce responses in relapsed primary CNS lymphoma.
 - `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Checkpoint blockade: primary CNS lymphoma, which often amplifies PD-L1 (PD-1 already mapped), can respond to checkpoint inhibitors, and CTLA-4 blockade is explored in combination to strengthen the anti-tumour T-cell response.
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Treatment myelosuppression: the high-dose methotrexate-based chemotherapy central to primary CNS lymphoma is myelosuppressive, lowering haemoglobin and requiring transfusion and growth-factor support during treatment.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Tumour lysis: initiating chemotherapy for bulky primary CNS lymphoma can lyse the tumour rapidly, releasing purines that xanthine oxidase converts to uric acid, a tumour-lysis risk managed with allopurinol and hydration.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Tumour-lysis acidosis: the rapid lysis of primary CNS lymphoma by chemotherapy releases acids that, with lactate, produce the metabolic acidosis of tumour-lysis syndrome (urate already mapped), part of its acute metabolic risk.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the vascular tone and angiogenesis of primary CNS lymphoma, part of the microenvironment behind its characteristic angiocentric growth around cerebral vessels.
 
 [^bromberg-2019-hovon105]: Bromberg JE, Issa S, Bakunina K, et al. Rituximab in patients with primary CNS lymphoma (HOVON 105/ALLG NHL 24): a randomised, open-label, phase 3 intergroup study. *Lancet Oncol.* 2019;20(2):216-228. [doi:10.1016/S1470-2045(18)30747-2](https://doi.org/10.1016/S1470-2045(18)30747-2) · [PubMed 30528440](https://pubmed.ncbi.nlm.nih.gov/30528440/)
 [^grommes-2017-ibrutinib-pcnsl]: Grommes C, Pastore A, Palaskas N, et al. Ibrutinib unmasks critical role of Bruton tyrosine kinase in primary CNS lymphoma. *Cancer Cell.* 2017;31(6):833-843. [doi:10.1016/j.ccell.2017.04.012](https://doi.org/10.1016/j.ccell.2017.04.012) · [PubMed 28552327](https://pubmed.ncbi.nlm.nih.gov/28552327/)
