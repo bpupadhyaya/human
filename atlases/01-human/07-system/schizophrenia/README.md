@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Developmental iron: iron is a cofactor for dopamine synthesis, and prenatal iron deficiency is an epidemiological risk factor for schizophrenia, linking early-life micronutrient status to the neurodevelopmental origins of the disorder."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Neuroinflammation: prostaglandins from the low-grade neuroinflammation (IL-6 and IL-1 already mapped) and maternal infection implicated in schizophrenia modulate the developing brain, and anti-inflammatory agents are studied as adjuncts."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Clozapine myocarditis: clozapine, the most effective antipsychotic for treatment-resistant schizophrenia, can cause myocarditis and cardiomyopathy, and troponin elevation is monitored to detect this serious adverse effect early."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Neurovascular development: VEGF supports the cerebral angiogenesis and neurotrophic signalling (BDNF already mapped) implicated in the neurodevelopmental abnormalities of schizophrenia, part of its altered brain-vascular biology."
 ---
 
 # Schizophrenia
@@ -707,6 +716,9 @@ Notably, schizophrenia shares genetic loci with bipolar disorder, ASD, ADHD, maj
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — Brain renin-angiotensin: central angiotensin II modulates dopamine transmission, neuroinflammation and stress reactivity, and angiotensin-blocking drugs are being investigated as adjuncts, implicating the brain RAS beyond the classical neurotransmitters already mapped.
 - `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Neurosteroids: progesterone-derived allopregnanolone modulates GABA-A signalling (GABA already mapped), and fluctuations across the reproductive cycle influence psychosis, part of the neurosteroid and sex-hormone contribution to schizophrenia (estrogen already mapped).
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Developmental iron: iron is a cofactor for dopamine synthesis, and prenatal iron deficiency is an epidemiological risk factor for schizophrenia, linking early-life micronutrient status to the neurodevelopmental origins of the disorder.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Neuroinflammation: prostaglandins from the low-grade neuroinflammation (IL-6 and IL-1 already mapped) and maternal infection implicated in schizophrenia modulate the developing brain, and anti-inflammatory agents are studied as adjuncts.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Clozapine myocarditis: clozapine, the most effective antipsychotic for treatment-resistant schizophrenia, can cause myocarditis and cardiomyopathy, and troponin elevation is monitored to detect this serious adverse effect early.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Neurovascular development: VEGF supports the cerebral angiogenesis and neurotrophic signalling (BDNF already mapped) implicated in the neurodevelopmental abnormalities of schizophrenia, part of its altered brain-vascular biology.
 
 [^howes-2009-dopamine-hypothesis]: Howes OD, Kapur S. The dopamine hypothesis of schizophrenia: version III—the final common pathway. *Schizophr Bull.* 2009;35(3):549-562. [doi:10.1093/schbul/sbp006](https://doi.org/10.1093/schbul/sbp006) · [PubMed 19325164](https://pubmed.ncbi.nlm.nih.gov/19325164/)
 [^moghaddam-2012-glutamate]: Moghaddam B, Javitt D. From revolution to evolution: the glutamate hypothesis of schizophrenia and its implication for treatment. *Neuropsychopharmacology.* 2012;37(1):4-15. [doi:10.1038/npp.2011.181](https://doi.org/10.1038/npp.2011.181) · [PubMed 21956446](https://pubmed.ncbi.nlm.nih.gov/21956446/)
