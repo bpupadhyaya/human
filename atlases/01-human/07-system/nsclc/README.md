@@ -418,6 +418,15 @@ cross_links:
   - target: 01-human/03-molecular/mu-opioid-receptor
     relation: connects-to
     note: "Cancer pain and dyspnoea: opioids acting on the mu-opioid receptor relieve the pain of bone metastases and the refractory breathlessness of advanced NSCLC, a mainstay of its palliative and supportive care."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "COX-2 carcinogenesis: tobacco induces cyclooxygenase-2 and prostaglandin E2 in the airway, promoting the proliferation, angiogenesis (VEGF already mapped) and immunosuppression of lung carcinogenesis, and COX-2 has been studied as a target in NSCLC."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Hepatic and adrenal metastasis: NSCLC commonly metastasises to the liver and adrenal glands, the visceral spread that defines stage IV disease and shapes systemic therapy."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "PTHrP hypercalcaemia: squamous NSCLC characteristically secretes parathyroid-hormone-related peptide (PTH already mapped), raising calcium to cause the humoral hypercalcaemia of malignancy with its confusion and renal impairment."
 ---
 
 # NSCLC
@@ -652,6 +661,9 @@ cross_links:
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Anaemia of malignancy: chronic disease, marrow involvement and chemotherapy lower haemoglobin in NSCLC, and the resulting anaemia adds to the breathlessness and fatigue that already burden these patients.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Tobacco oxidative damage: cigarette smoke and chronic inflammation generate reactive oxygen species, to which xanthine oxidase contributes, and this oxidative DNA damage (NRF2 already mapped) drives the carcinogenesis of smoking-related NSCLC.
 - `connects-to` → **[Mu-opioid receptor](../../03-molecular/mu-opioid-receptor/README.md)** — Cancer pain and dyspnoea: opioids acting on the mu-opioid receptor relieve the pain of bone metastases and the refractory breathlessness of advanced NSCLC, a mainstay of its palliative and supportive care.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — COX-2 carcinogenesis: tobacco induces cyclooxygenase-2 and prostaglandin E2 in the airway, promoting the proliferation, angiogenesis (VEGF already mapped) and immunosuppression of lung carcinogenesis, and COX-2 has been studied as a target in NSCLC.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Hepatic and adrenal metastasis: NSCLC commonly metastasises to the liver and adrenal glands, the visceral spread that defines stage IV disease and shapes systemic therapy.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — PTHrP hypercalcaemia: squamous NSCLC characteristically secretes parathyroid-hormone-related peptide (PTH already mapped), raising calcium to cause the humoral hypercalcaemia of malignancy with its confusion and renal impairment.
 
 [^soria-2018-osimertinib-flaura]: Soria JC, Ohe Y, Vansteenkiste J, et al. Osimertinib in untreated EGFR-mutated advanced non-small-cell lung cancer. *N Engl J Med.* 2018;378(2):113-125. [doi:10.1056/NEJMoa1713137](https://doi.org/10.1056/NEJMoa1713137) · [PubMed 29151359](https://pubmed.ncbi.nlm.nih.gov/29151359/)
 [^reck-2016-pembrolizumab-keynote024]: Reck M, Rodríguez-Abreu D, Robinson AG, et al. Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell lung cancer. *N Engl J Med.* 2016;375(19):1823-1833. [doi:10.1056/NEJMoa1606774](https://doi.org/10.1056/NEJMoa1606774) · [PubMed 27718347](https://pubmed.ncbi.nlm.nih.gov/27718347/)

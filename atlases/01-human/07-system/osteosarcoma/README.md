@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "Immunosuppressive microenvironment: IL-10 helps make osteosarcoma an immunologically cold tumour (PD-1 already mapped), dampening the T-cell response (CD8 already mapped) that the combination immunotherapies under investigation aim to mount."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Osteolytic inflammation: prostaglandins from the tumour and its bone-resorptive microenvironment (RANKL and osteopontin already mapped) promote the osteolysis and inflammation of the bone destruction of osteosarcoma."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages (already mapped) toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the cold, immune-evasive microenvironment of osteosarcoma."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Chemotherapy anaemia: the intensive methotrexate, doxorubicin and cisplatin chemotherapy of osteosarcoma is myelosuppressive, causing anaemia (haemoglobin already mapped) that needs transfusion whose repeated support can load the young survivor with iron."
 ---
 
 # Osteosarcoma
@@ -674,6 +683,9 @@ OS is relatively radiation-resistant (high-dose radiation ~70+ Gy may achieve lo
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Chemotherapy anaemia: the MAP chemotherapy (methotrexate, doxorubicin, cisplatin) backbone of osteosarcoma is profoundly myelosuppressive, lowering haemoglobin and requiring transfusion support in these young patients.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative and lysis stress: the high-dose methotrexate and cisplatin of osteosarcoma therapy generate oxidative stress, to which xanthine oxidase contributes, and rapid cell lysis raises urate, adding tumour-lysis and renal risk.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 helps make osteosarcoma an immunologically cold tumour (PD-1 already mapped), dampening the T-cell response (CD8 already mapped) that the combination immunotherapies under investigation aim to mount.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Osteolytic inflammation: prostaglandins from the tumour and its bone-resorptive microenvironment (RANKL and osteopontin already mapped) promote the osteolysis and inflammation of the bone destruction of osteosarcoma.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages (already mapped) toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the cold, immune-evasive microenvironment of osteosarcoma.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Chemotherapy anaemia: the intensive methotrexate, doxorubicin and cisplatin chemotherapy of osteosarcoma is myelosuppressive, causing anaemia (haemoglobin already mapped) that needs transfusion whose repeated support can load the young survivor with iron.
 
 [^bielack-2002-coss-osteosarcoma]: Bielack SS, Kempf-Bielack B, Delling G, et al. Prognostic factors in high-grade osteosarcoma of the extremities or trunk: an analysis of 1,702 patients treated on neoadjuvant Cooperative Osteosarcoma Study Group protocols. *J Clin Oncol.* 2002;20(3):776-790. [doi:10.1200/JCO.2002.20.3.776](https://doi.org/10.1200/JCO.2002.20.3.776) · [PubMed 11821461](https://pubmed.ncbi.nlm.nih.gov/11821461/)
 [^marina-2016-euramos1-osteosarcoma]: Marina NM, Smeland S, Bielack SS, et al. Comparison of MAPIE versus MAP in patients with a poor response to preoperative chemotherapy for newly diagnosed high-grade osteosarcoma (EURAMOS-1). *Lancet Oncol.* 2016;17(10):1396-1408. [doi:10.1016/S1470-2045(16)30214-5](https://doi.org/10.1016/S1470-2045(16)30214-5) · [PubMed 27569442](https://pubmed.ncbi.nlm.nih.gov/27569442/)
