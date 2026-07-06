@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "Immunosuppressive stroma: the anti-inflammatory cytokine IL-10 in the polyp microenvironment dampens anti-tumour immunity (CD8 already mapped), part of the immune tolerance that allows some Peutz-Jeghers polyps and cancers to progress."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages (already mapped) toward an immunosuppressive M2 phenotype (IL-10 already mapped) in the hamartomatous polyp stroma of Peutz-Jeghers syndrome."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Bile acids and diet: dietary fat and the bile acids derived from cholesterol promote the gastrointestinal proliferation and the hamartoma-carcinoma progression, a modifiable dietary influence on the cancer risk of Peutz-Jeghers syndrome."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Polyp vasculature: nitric oxide with VEGF and endothelin-1 (already mapped) regulates the vascular tone and angiogenesis of the vascular hamartomatous polyps of Peutz-Jeghers syndrome, part of their stromal biology."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -667,6 +676,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[Mu-opioid receptor](../../03-molecular/mu-opioid-receptor/README.md)** — Obstructive pain: recurrent intussusception and bowel obstruction from the small-intestinal polyps (already mapped) of Peutz-Jeghers cause severe abdominal pain, often requiring opioid analgesia acting at the mu-opioid receptor around surgery.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative carcinogenesis: chronic mucosal turnover in the hamartomatous polyps and the loss of LKB1-AMPK metabolic control (already mapped) generate oxidative stress, to which xanthine oxidase contributes, adding DNA damage that speeds malignant progression.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive stroma: the anti-inflammatory cytokine IL-10 in the polyp microenvironment dampens anti-tumour immunity (CD8 already mapped), part of the immune tolerance that allows some Peutz-Jeghers polyps and cancers to progress.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages (already mapped) toward an immunosuppressive M2 phenotype (IL-10 already mapped) in the hamartomatous polyp stroma of Peutz-Jeghers syndrome.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Bile acids and diet: dietary fat and the bile acids derived from cholesterol promote the gastrointestinal proliferation and the hamartoma-carcinoma progression, a modifiable dietary influence on the cancer risk of Peutz-Jeghers syndrome.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Polyp vasculature: nitric oxide with VEGF and endothelin-1 (already mapped) regulates the vascular tone and angiogenesis of the vascular hamartomatous polyps of Peutz-Jeghers syndrome, part of their stromal biology.
 
 ---
 

@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "Adrenal and RAAS context: as an adrenal cause of secondary hypertension, pheochromocytoma sits alongside the aldosterone-driven primary aldosteronism of the adrenal cortex, and catecholamines stimulate renin and the aldosterone axis (angiotensin already in the RAAS)."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "RAAS activation: catecholamines from the tumour stimulate renin and the renin-angiotensin-aldosterone system (aldosterone already mapped), and angiotensin II compounds the vasoconstriction and hypertension (already mapped) of pheochromocytoma."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "Catecholamine-driven renin: the beta-adrenergic (already mapped) stimulation of renin release by the tumour catecholamines activates the RAAS (angiotensin II and aldosterone already mapped), part of the mechanism of the hypertension in pheochromocytoma."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive microenvironment: IL-10 in the microenvironment of the metastatic SDHB-driven (already mapped) pheochromocytoma-paraganglioma dampens the anti-tumour immune response, part of the immune biology relevant to its emerging immunotherapy."
 ---
 
 # Pheochromocytoma/Paraganglioma
@@ -685,6 +694,9 @@ Active in Cluster 1 (MET/AXL co-expressed in SDH-deficient tumors); Phase 2 CABO
 - `connects-to` → **[Peripheral nerve](../../05-tissue/peripheral-nerve/README.md)** — Paraganglia origin: paragangliomas arise from the paraganglia distributed along the sympathetic chain and parasympathetic nerves (head, neck, thorax, abdomen), the peripheral autonomic tissue whose chromaffin and glomus cells give rise to these tumours.
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Polycythaemia: some pseudohypoxic pheochromocytomas and paragangliomas secrete erythropoietin (already mapped) or activate HIF, raising haemoglobin, and the Pacak-Zhuang syndrome links EPAS1-driven tumours (already mapped) to polycythaemia.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Adrenal and RAAS context: as an adrenal cause of secondary hypertension, pheochromocytoma sits alongside the aldosterone-driven primary aldosteronism of the adrenal cortex, and catecholamines stimulate renin and the aldosterone axis (angiotensin already in the RAAS).
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — RAAS activation: catecholamines from the tumour stimulate renin and the renin-angiotensin-aldosterone system (aldosterone already mapped), and angiotensin II compounds the vasoconstriction and hypertension (already mapped) of pheochromocytoma.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — Catecholamine-driven renin: the beta-adrenergic (already mapped) stimulation of renin release by the tumour catecholamines activates the RAAS (angiotensin II and aldosterone already mapped), part of the mechanism of the hypertension in pheochromocytoma.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the microenvironment of the metastatic SDHB-driven (already mapped) pheochromocytoma-paraganglioma dampens the anti-tumour immune response, part of the immune biology relevant to its emerging immunotherapy.
 
 [^lenders-2014-pheo-guideline]: Lenders JW, Duh QY, Eisenhofer G, et al. Pheochromocytoma and paraganglioma: an endocrine society clinical practice guideline. *J Clin Endocrinol Metab.* 2014;99(6):1915-1942. [doi:10.1210/jc.2014-1498](https://doi.org/10.1210/jc.2014-1498) · [PubMed 24893135](https://pubmed.ncbi.nlm.nih.gov/24893135/)
 [^baudin-2021-firstmappp-sunitinib]: Baudin E, Goichot B, Berruti A, et al. First International Randomized Study in Malignant Progressive Pheochromocytoma and Paragangliomas (FIRSTMAPPP). *Ann Oncol.* 2021;32(10):1245-1254. [doi:10.1016/j.annonc.2021.07.009](https://doi.org/10.1016/j.annonc.2021.07.009) · [PubMed 34246769](https://pubmed.ncbi.nlm.nih.gov/34246769/)
