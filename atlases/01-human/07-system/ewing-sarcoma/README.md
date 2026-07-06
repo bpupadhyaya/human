@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/mhc-class-ii
     relation: connects-to
     note: "Immunotherapy: Ewing sarcoma is an immunologically cold tumour with low MHC expression, and restoring antigen presentation is part of the strategy for the cellular and checkpoint immunotherapies being explored for relapsed disease."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Marrow metastasis: Ewing sarcoma spreads to the bone marrow, and marrow involvement assessed at staging marks disseminated disease and worsens prognosis, part of the systemic spread that intensive multidrug chemotherapy targets."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Chemotherapy anaemia: the intensive multidrug chemotherapy (vincristine, doxorubicin, cyclophosphamide, ifosfamide, etoposide) for Ewing sarcoma is profoundly myelosuppressive, lowering haemoglobin and requiring transfusion support."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Anthracycline cardiotoxicity: the doxorubicin central to Ewing sarcoma regimens is cardiotoxic, and troponin elevation helps detect the cumulative myocardial injury that threatens these young, often long-term survivors."
 ---
 
 # Ewing Sarcoma
@@ -654,6 +663,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Osteolytic bone destruction: Ewing sarcoma arises in and destroys bone, dissolving the calcium-rich mineralised matrix, so the osteolysis produces the pain, pathological fracture and occasional hypercalcaemia that accompany the tumour.
 - `connects-to` → **[Insulin receptor](../../03-molecular/insulin-receptor/README.md)** — IGF/insulin signalling: Ewing sarcoma depends heavily on IGF-1R signalling (IGF-1 already mapped), and compensatory signalling through the related insulin receptor is a mechanism of resistance to IGF-1R-targeted therapy.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immunotherapy: Ewing sarcoma is an immunologically cold tumour with low MHC expression, and restoring antigen presentation is part of the strategy for the cellular and checkpoint immunotherapies being explored for relapsed disease.
+- `connects-to` → **[Bone marrow](../../05-tissue/bone-marrow/README.md)** — Marrow metastasis: Ewing sarcoma spreads to the bone marrow, and marrow involvement assessed at staging marks disseminated disease and worsens prognosis, part of the systemic spread that intensive multidrug chemotherapy targets.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Chemotherapy anaemia: the intensive multidrug chemotherapy (vincristine, doxorubicin, cyclophosphamide, ifosfamide, etoposide) for Ewing sarcoma is profoundly myelosuppressive, lowering haemoglobin and requiring transfusion support.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Anthracycline cardiotoxicity: the doxorubicin central to Ewing sarcoma regimens is cardiotoxic, and troponin elevation helps detect the cumulative myocardial injury that threatens these young, often long-term survivors.
 
 ---
 

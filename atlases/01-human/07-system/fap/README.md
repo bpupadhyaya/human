@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/mhc-class-ii
     relation: connects-to
     note: "Immunosurveillance: MHC class II-restricted T-cell surveillance influences which of the thousands of adenomas in familial adenomatous polyposis progress along the adenoma-carcinoma sequence, and antigen presentation is relevant to chemoprevention and vaccine strategies."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Occult bleeding: the carpet of adenomas in familial adenomatous polyposis bleeds chronically, and the resulting iron-deficiency anaemia lowering haemoglobin is often the sign that brings the polyposis or its cancers to attention."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Immunosurveillance effectors: cytotoxic CD8 T cells (MHC class II and perforin already mapped) police the many adenomas of familial adenomatous polyposis, and boosting this response underlies the vaccine chemoprevention being explored."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative carcinogenesis: chronic colonic inflammation and the high proliferative turnover of the adenomas generate oxidative stress, to which xanthine oxidase contributes, adding DNA damage that speeds the adenoma-carcinoma sequence in FAP."
 ---
 
 # Familial Adenomatous Polyposis
@@ -671,6 +680,9 @@ With modern surveillance and prophylactic colectomy: FAP is no longer an inevita
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Gardner osteomas: the benign osteomas of the skull and jaw in the Gardner variant of FAP form through RANKL-regulated bone remodelling, part of the extraintestinal manifestations (skin cysts and eye CHRPE already mapped) that can signal the diagnosis before colonic symptoms.
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Desmoid hormonal axis: the desmoid tumours (already mapped) that afflict familial adenomatous polyposis are hormone-responsive, often growing during pregnancy, implicating estrogen in the extracolonic fibromatosis that is a leading cause of death after colectomy.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immunosurveillance: MHC class II-restricted T-cell surveillance influences which of the thousands of adenomas in familial adenomatous polyposis progress along the adenoma-carcinoma sequence, and antigen presentation is relevant to chemoprevention and vaccine strategies.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Occult bleeding: the carpet of adenomas in familial adenomatous polyposis bleeds chronically, and the resulting iron-deficiency anaemia lowering haemoglobin is often the sign that brings the polyposis or its cancers to attention.
+- `connects-to` → **[T-cytotoxic cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Immunosurveillance effectors: cytotoxic CD8 T cells (MHC class II and perforin already mapped) police the many adenomas of familial adenomatous polyposis, and boosting this response underlies the vaccine chemoprevention being explored.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative carcinogenesis: chronic colonic inflammation and the high proliferative turnover of the adenomas generate oxidative stress, to which xanthine oxidase contributes, adding DNA damage that speeds the adenoma-carcinoma sequence in FAP.
 
 [^kinzler-1991-apc]: Kinzler KW, Nilbert MC, Su LK, et al. Identification of FAP locus genes from chromosome 5q21. *Science.* 1991;253(5020):661-665. [doi:10.1126/science.1651562](https://doi.org/10.1126/science.1651562) · [PubMed 1651562](https://pubmed.ncbi.nlm.nih.gov/1651562/)
 [^fearon-1990-vogelstein]: Fearon ER, Vogelstein B. A genetic model for colorectal tumorigenesis. *Cell.* 1990;61(5):759-767. [doi:10.1016/0092-8674(90)90186-i](https://doi.org/10.1016/0092-8674(90)90186-i) · [PubMed 2188735](https://pubmed.ncbi.nlm.nih.gov/2188735/)
