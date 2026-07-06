@@ -409,6 +409,15 @@ cross_links:
   - target: 01-human/03-molecular/estrogen
     relation: connects-to
     note: "Sex and hormonal modulation: rheumatoid arthritis is about three times more common in women, and estrogen influences the disease, which often improves in pregnancy and can flare postpartum and around the menopause."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Lipid paradox and cardiovascular risk: rheumatoid arthritis alters cholesterol handling, and despite the lipid paradox of low levels in active disease, the inflammation accelerates atherosclerosis (nitric oxide already mapped) and cardiovascular risk."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative synovitis: reactive oxygen species generated in the inflamed synovium, to which xanthine oxidase contributes, damage cartilage and amplify inflammation, and the associated hyperuricaemia links rheumatoid arthritis to coexisting gout."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Adipokine inflammation: adiponectin and other adipokines from articular and systemic fat modulate the synovial inflammation of rheumatoid arthritis, part of the metabolic-immune crosstalk shaping disease activity and its cardiovascular comorbidity."
 ---
 
 # Rheumatoid Arthritis
@@ -681,6 +690,9 @@ RA patients have:
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Anaemia of chronic disease: the sustained IL-6-driven inflammation of rheumatoid arthritis (hepcidin pathway) suppresses erythropoiesis, and the resulting anaemia lowering haemoglobin is the commonest extra-articular manifestation.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiovascular mortality: accelerated atherosclerosis from chronic inflammation (nitric oxide already mapped) raises the risk of myocardial infarction in rheumatoid arthritis, and troponin marks the cardiac injury of the events that drive its excess death.
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Sex and hormonal modulation: rheumatoid arthritis is about three times more common in women, and estrogen influences the disease, which often improves in pregnancy and can flare postpartum and around the menopause.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Lipid paradox and cardiovascular risk: rheumatoid arthritis alters cholesterol handling, and despite the lipid paradox of low levels in active disease, the inflammation accelerates atherosclerosis (nitric oxide already mapped) and cardiovascular risk.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative synovitis: reactive oxygen species generated in the inflamed synovium, to which xanthine oxidase contributes, damage cartilage and amplify inflammation, and the associated hyperuricaemia links rheumatoid arthritis to coexisting gout.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine inflammation: adiponectin and other adipokines from articular and systemic fat modulate the synovial inflammation of rheumatoid arthritis, part of the metabolic-immune crosstalk shaping disease activity and its cardiovascular comorbidity.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

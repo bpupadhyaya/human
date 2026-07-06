@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/pd-1
     relation: connects-to
     note: "Checkpoint context: the osteosarcomas of Rothmund-Thomson are immunologically cold, and PD-1 checkpoint blockade has limited single-agent activity, motivating combination strategies for the syndrome's characteristic malignancy."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Chemotherapy anaemia: the intensive chemotherapy treating the osteosarcomas (already mapped) of Rothmund-Thomson is myelosuppressive, lowering haemoglobin, and the genome-instability disorder can be sensitive to this treatment toxicity."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Anthracycline cardiotoxicity: the doxorubicin in osteosarcoma regimens for Rothmund-Thomson is cardiotoxic, and troponin elevation helps detect the cumulative myocardial injury threatening these young patients."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive microenvironment: IL-10 helps make the Rothmund-Thomson osteosarcomas immunologically cold (PD-1 already mapped), dampening the T-cell response and limiting the benefit of single-agent checkpoint blockade."
 ---
 
 # Rothmund-Thomson Syndrome
@@ -668,6 +677,9 @@ The cardinal features of RTS type II are: (1) **poikiloderma** — the defining 
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Osteosarcoma immunosurveillance: MHC class II-restricted T-cell surveillance influences the osteosarcomas that Rothmund-Thomson predisposes to (osteosarcoma already mapped), and antigen presentation is central to the immunotherapy explored for these tumours.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Cancer immunotherapy: IL-2-driven T-cell and immune-cell activation, including the macrophage-activating adjunct used in osteosarcoma, is being explored for the childhood osteosarcomas that dominate the cancer risk of Rothmund-Thomson.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Checkpoint context: the osteosarcomas of Rothmund-Thomson are immunologically cold, and PD-1 checkpoint blockade has limited single-agent activity, motivating combination strategies for the syndrome's characteristic malignancy.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Chemotherapy anaemia: the intensive chemotherapy treating the osteosarcomas (already mapped) of Rothmund-Thomson is myelosuppressive, lowering haemoglobin, and the genome-instability disorder can be sensitive to this treatment toxicity.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Anthracycline cardiotoxicity: the doxorubicin in osteosarcoma regimens for Rothmund-Thomson is cardiotoxic, and troponin elevation helps detect the cumulative myocardial injury threatening these young patients.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 helps make the Rothmund-Thomson osteosarcomas immunologically cold (PD-1 already mapped), dampening the T-cell response and limiting the benefit of single-agent checkpoint blockade.
 
 [^kitao-1999-recql4-rts]: Kitao S, Shimamoto A, Goto M, et al. Mutations in RECQL4 cause a subset of cases of Rothmund-Thomson syndrome. *Nat Genet.* 1999;22(1):82-84. [doi:10.1038/8788](https://doi.org/10.1038/8788) · [PubMed 10319867](https://pubmed.ncbi.nlm.nih.gov/10319867/)
 [^wang-2003-rts-cancer]: Wang LL, Gannavarapu A, Kozinetz CA, et al. Association between osteosarcoma and deleterious mutations in the RECQL4 gene in Rothmund-Thomson syndrome. *J Natl Cancer Inst.* 2003;95(9):669-674. [doi:10.1093/jnci/95.9.669](https://doi.org/10.1093/jnci/95.9.669) · [PubMed 12734318](https://pubmed.ncbi.nlm.nih.gov/12734318/)
