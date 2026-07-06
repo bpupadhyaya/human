@@ -396,6 +396,15 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "Neuroinflammatory balance: the anti-inflammatory cytokine IL-10 counters the elevated TNF and IL-1 (already mapped) reported in behavioural addictions, part of the low-grade neuroinflammation associated with compulsive gambling."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Neuroinflammatory eicosanoids: prostaglandins from the low-grade neuroinflammation (IL-6, TNF and IL-1 already mapped) associated with behavioural addictions modulate the reward and stress circuits implicated in compulsive gambling."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative stress: the chronic stress and sleep disruption of compulsive gambling raise oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species add to the neuroinflammation (NLRP3 already mapped)."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Metabolic and impulsivity link: the metabolic dysregulation (insulin already mapped) accompanying compulsive gambling disturbs cholesterol handling, and altered cholesterol has been associated with the impulsivity underlying behavioural addictions."
 sources:
   - id: grant-2016-gambling-review
     type: peer-reviewed
@@ -668,6 +677,9 @@ Persistent and recurrent problematic gambling behavior causing distress (≥4 of
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — Stress reactivity: central angiotensin II modulates stress and reward responses and interacts with the HPA axis (cortisol already mapped), a neuroendocrine system implicated in the craving and stress that drive compulsive gambling.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Mineralocorticoid stress axis: aldosterone acts on brain mineralocorticoid receptors that, balanced against glucocorticoid receptors (already mapped), tune the stress response linked to the urge and relapse in gambling disorder.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Neuroinflammatory balance: the anti-inflammatory cytokine IL-10 counters the elevated TNF and IL-1 (already mapped) reported in behavioural addictions, part of the low-grade neuroinflammation associated with compulsive gambling.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Neuroinflammatory eicosanoids: prostaglandins from the low-grade neuroinflammation (IL-6, TNF and IL-1 already mapped) associated with behavioural addictions modulate the reward and stress circuits implicated in compulsive gambling.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative stress: the chronic stress and sleep disruption of compulsive gambling raise oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species add to the neuroinflammation (NLRP3 already mapped).
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Metabolic and impulsivity link: the metabolic dysregulation (insulin already mapped) accompanying compulsive gambling disturbs cholesterol handling, and altered cholesterol has been associated with the impulsivity underlying behavioural addictions.
 
 [^potenza-2014-gambling-neuroscience]: Potenza MN. The neurobiology of pathological gambling and drug addiction: an overview and new findings. *Philos Trans R Soc Lond B Biol Sci.* 2008;363(1507):3181-3189. [doi:10.1098/rstb.2008.0100](https://doi.org/10.1098/rstb.2008.0100) · [PubMed 18640909](https://pubmed.ncbi.nlm.nih.gov/18640909/)
 [^grant-2016-gambling-review]: Grant JE, Chamberlain SR. Gambling disorder and its relationship with substance use disorders. *Am J Addict.* 2015;24(2):126-131. [doi:10.1111/ajad.12112](https://doi.org/10.1111/ajad.12112) · [PubMed 25376793](https://pubmed.ncbi.nlm.nih.gov/25376793/)
