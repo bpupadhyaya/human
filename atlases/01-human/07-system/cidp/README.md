@@ -420,6 +420,15 @@ cross_links:
   - target: 01-human/03-molecular/collagen
     relation: connects-to
     note: "Endoneurial fibrosis: chronic and relapsing inflammation in CIDP leads to onion-bulb formation and endoneurial collagen deposition, the fibrotic scarring of repeated demyelination and remyelination that underlies fixed disability."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Inflammatory eicosanoids: prostaglandins from the macrophages (already mapped) and infiltrating cells of the inflamed nerve amplify the demyelinating inflammation (IL-6, TNF and IL-1 already mapped) of CIDP."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative nerve injury: the inflamed nerve generates oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species (nitric oxide already mapped) add to the demyelination and secondary axonal injury of CIDP."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Myelin lipid: myelin is a cholesterol-rich membrane, and the repeated demyelination and remyelination of CIDP demand the cholesterol handling of the Schwann cells rebuilding the myelin sheath."
 ---
 
 # CIDP
@@ -696,6 +705,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 humoral help: IL-13, with the IL-4 (already mapped) type-2 response, supports the B-cell autoantibody production against nodal and myelin antigens that drives the demyelination of chronic inflammatory demyelinating polyneuropathy.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Nerve inflammatory injury: nitric oxide from activated macrophages (already mapped) in the inflamed nerve contributes to the demyelination and secondary axonal injury of CIDP, part of the effector damage beyond antibody and complement.
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Endoneurial fibrosis: chronic and relapsing inflammation in CIDP leads to onion-bulb formation and endoneurial collagen deposition, the fibrotic scarring of repeated demyelination and remyelination that underlies fixed disability.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Inflammatory eicosanoids: prostaglandins from the macrophages (already mapped) and infiltrating cells of the inflamed nerve amplify the demyelinating inflammation (IL-6, TNF and IL-1 already mapped) of CIDP.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative nerve injury: the inflamed nerve generates oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species (nitric oxide already mapped) add to the demyelination and secondary axonal injury of CIDP.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Myelin lipid: myelin is a cholesterol-rich membrane, and the repeated demyelination and remyelination of CIDP demand the cholesterol handling of the Schwann cells rebuilding the myelin sheath.
 
 ---
 

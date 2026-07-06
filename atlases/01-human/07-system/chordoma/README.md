@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Tumour vasculature: nitric oxide regulates the vascular tone and, with VEGF (already mapped), the angiogenesis supplying the slow-growing chordoma, a mediator of the tumour microenvironment beyond the growth-factor drivers."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Osteolytic inflammation: prostaglandins from the tumour and its bone-resorptive microenvironment (RANKL already mapped) promote the osteolysis and inflammation of the bone (already mapped) destruction that drives much of chordoma's local morbidity."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative microenvironment: the slow-growing chordoma generates oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species are part of the tumour microenvironment beyond the growth-factor (already mapped) drivers."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped) in chordoma, part of the immune evasion that limits the checkpoint and vaccine approaches against this tumour."
 ---
 
 # Chordoma
@@ -678,6 +687,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — Vaccine T-cell help: helper T cells provide the CD4 help needed for durable CD8 responses (already mapped) against the brachyury antigen, the basis of the therapeutic cancer vaccines tested in chordoma.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: the anti-inflammatory cytokine IL-10 in the chordoma microenvironment blunts anti-tumour immunity, part of the immune evasion that limits the checkpoint and vaccine approaches (PD-1 already mapped).
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide regulates the vascular tone and, with VEGF (already mapped), the angiogenesis supplying the slow-growing chordoma, a mediator of the tumour microenvironment beyond the growth-factor drivers.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Osteolytic inflammation: prostaglandins from the tumour and its bone-resorptive microenvironment (RANKL already mapped) promote the osteolysis and inflammation of the bone (already mapped) destruction that drives much of chordoma's local morbidity.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative microenvironment: the slow-growing chordoma generates oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species are part of the tumour microenvironment beyond the growth-factor (already mapped) drivers.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped) in chordoma, part of the immune evasion that limits the checkpoint and vaccine approaches against this tumour.
 
 ---
 
