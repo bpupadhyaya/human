@@ -418,6 +418,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative injury: the inflamed, eroded skin of pemphigus vulgaris generates reactive oxygen species, to which xanthine oxidase contributes, and this oxidative stress adds to the tissue damage of the acantholytic blistering."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Inflammatory eicosanoids: prostaglandins from the inflamed, eroded skin (IL-6, TNF and IL-1 already mapped) amplify the inflammation and pain of the acantholytic blistering of pemphigus vulgaris."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell inflammation: mast cells (already mapped) in the blistering skin release histamine, contributing to the erythema, itch and inflammation that accompany the acantholytic erosions of pemphigus vulgaris."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Wound healing and micronutrient loss: zinc is essential to the re-epithelialisation of the extensive erosions, and the exudative loss and poor intake of severe pemphigus can deplete zinc, impairing the wound healing of the skin."
 ---
 
 # Pemphigus Vulgaris
@@ -695,6 +704,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Erosion inflammation and healing: nitric oxide from the inflamed, eroded skin participates in the local vasodilation and wound-healing response of pemphigus vulgaris lesions, alongside the immune injury driven by the autoantibodies.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Wound-healing angiogenesis: VEGF drives the angiogenesis of the granulation and re-epithelialisation that heals the extensive erosions of pemphigus vulgaris, part of the repair response once immunosuppression controls the autoantibody attack.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative injury: the inflamed, eroded skin of pemphigus vulgaris generates reactive oxygen species, to which xanthine oxidase contributes, and this oxidative stress adds to the tissue damage of the acantholytic blistering.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Inflammatory eicosanoids: prostaglandins from the inflamed, eroded skin (IL-6, TNF and IL-1 already mapped) amplify the inflammation and pain of the acantholytic blistering of pemphigus vulgaris.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell inflammation: mast cells (already mapped) in the blistering skin release histamine, contributing to the erythema, itch and inflammation that accompany the acantholytic erosions of pemphigus vulgaris.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Wound healing and micronutrient loss: zinc is essential to the re-epithelialisation of the extensive erosions, and the exudative loss and poor intake of severe pemphigus can deplete zinc, impairing the wound healing of the skin.
 
 ---
 
