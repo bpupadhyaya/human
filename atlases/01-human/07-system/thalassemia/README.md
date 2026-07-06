@@ -414,6 +414,15 @@ cross_links:
   - target: 01-human/03-molecular/pth
     relation: connects-to
     note: "Iron hypoparathyroidism: iron deposition in the parathyroid glands can cause hypoparathyroidism with hypocalcaemia, another endocrine consequence of the iron overload that, with the bone disease (RANKL already mapped), harms the skeleton."
+  - target: 01-human/03-molecular/protein-c
+    relation: connects-to
+    note: "Hypercoagulable state: thalassaemia, especially after splenectomy, carries a prothrombotic tendency from abnormal red-cell membranes and reduced natural anticoagulants such as protein C, contributing to the venous and pulmonary thrombosis seen in the disease."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Inflammatory erythropoiesis: IL-1 and the inflammatory cytokines (TNF and IL-6 already mapped) accompany the ineffective erythropoiesis and iron overload of thalassaemia, part of the inflammatory milieu that also dysregulates hepcidin (already mapped)."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Low cholesterol: thalassaemia is characteristically associated with low serum cholesterol, attributed to the massively expanded erythropoiesis consuming cholesterol for red-cell membranes, an unusual lipid finding of the disease."
 ---
 
 # Thalassemia
@@ -690,6 +699,9 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[Thyroid hormones](../../03-molecular/thyroid-hormones/README.md)** — Iron hypothyroidism: iron deposition in the thyroid causes hypothyroidism, one of the endocrinopathies of transfusional iron overload (already mapped) in thalassaemia that mandate regular endocrine surveillance.
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Hypogonadism in women: iron loading of the pituitary and gonads causes hypogonadotropic hypogonadism with estrogen deficiency (testosterone already mapped), delayed puberty and infertility, a frequent complication of thalassaemia.
 - `connects-to` → **[PTH](../../03-molecular/pth/README.md)** — Iron hypoparathyroidism: iron deposition in the parathyroid glands can cause hypoparathyroidism with hypocalcaemia, another endocrine consequence of the iron overload that, with the bone disease (RANKL already mapped), harms the skeleton.
+- `connects-to` → **[Protein C](../../03-molecular/protein-c/README.md)** — Hypercoagulable state: thalassaemia, especially after splenectomy, carries a prothrombotic tendency from abnormal red-cell membranes and reduced natural anticoagulants such as protein C, contributing to the venous and pulmonary thrombosis seen in the disease.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Inflammatory erythropoiesis: IL-1 and the inflammatory cytokines (TNF and IL-6 already mapped) accompany the ineffective erythropoiesis and iron overload of thalassaemia, part of the inflammatory milieu that also dysregulates hepcidin (already mapped).
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Low cholesterol: thalassaemia is characteristically associated with low serum cholesterol, attributed to the massively expanded erythropoiesis consuming cholesterol for red-cell membranes, an unusual lipid finding of the disease.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.

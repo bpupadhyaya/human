@@ -415,6 +415,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin
     relation: connects-to
     note: "Metabolic prothrombotic state: insulin resistance and the metabolic syndrome raise PAI-1 and fibrinogen (already mapped), an acquired prothrombotic tendency that compounds the venous-thromboembolism risk of the obesity (leptin already mapped) it accompanies."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative thrombogenesis: the stasis and hypoxia of the venous thrombus generate reactive oxygen species, to which xanthine oxidase contributes, promoting the endothelial (already mapped) dysfunction and thrombo-inflammation that propagate venous thromboembolism."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Thrombo-inflammation balance: coagulation and inflammation are intertwined, and the anti-inflammatory IL-10 opposes the pro-inflammatory signals (IL-6, TNF and IL-1 already mapped) that amplify the immunothrombosis of venous thromboembolism."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Platelet serotonin: serotonin released from activated platelets (PF4 already mapped) causes vasoconstriction and amplifies platelet aggregation, contributing to the thrombus formation and propagation of venous thromboembolism."
 ---
 
 # Venous Thromboembolism
@@ -666,6 +675,9 @@ cross_links:
 - `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Pregnancy hypercoagulability: pregnancy, sustained by progesterone and estrogen (already mapped), is a strongly prothrombotic state with venous stasis, making venous thromboembolism a leading cause of maternal death and a target for prophylaxis.
 - `connects-to` → **[Myeloproliferative neoplasms](../myeloproliferative-neoplasms/README.md)** — Clonal thrombophilia: JAK2-driven myeloproliferative neoplasms create an acquired hypercoagulable state, often presenting as venous thrombosis at unusual sites such as the splanchnic or cerebral veins, an important cause to screen for.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Metabolic prothrombotic state: insulin resistance and the metabolic syndrome raise PAI-1 and fibrinogen (already mapped), an acquired prothrombotic tendency that compounds the venous-thromboembolism risk of the obesity (leptin already mapped) it accompanies.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative thrombogenesis: the stasis and hypoxia of the venous thrombus generate reactive oxygen species, to which xanthine oxidase contributes, promoting the endothelial (already mapped) dysfunction and thrombo-inflammation that propagate venous thromboembolism.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Thrombo-inflammation balance: coagulation and inflammation are intertwined, and the anti-inflammatory IL-10 opposes the pro-inflammatory signals (IL-6, TNF and IL-1 already mapped) that amplify the immunothrombosis of venous thromboembolism.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Platelet serotonin: serotonin released from activated platelets (PF4 already mapped) causes vasoconstriction and amplifies platelet aggregation, contributing to the thrombus formation and propagation of venous thromboembolism.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)
