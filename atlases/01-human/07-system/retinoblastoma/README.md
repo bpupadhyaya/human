@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/hemoglobin
     relation: connects-to
     note: "Chemotherapy myelosuppression: the systemic and intra-arterial chemotherapy used to preserve the eye in retinoblastoma is myelosuppressive, lowering haemoglobin and requiring supportive care in these young children."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Chemotherapy cardiotoxicity: the carboplatin and, in extraocular disease, anthracycline-containing regimens for retinoblastoma carry cardiotoxic risk, and troponin elevation helps detect the myocardial injury threatening these very young survivors."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive microenvironment: IL-10 helps make retinoblastoma an immunologically cold, low-mutation tumour (PD-1 already mapped), dampening the T-cell response, which limits the benefit of checkpoint blockade in the rare metastatic cases."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative and lysis stress: chemotherapy of retinoblastoma generates oxidative stress and, in bulky disease, rapid cell lysis releasing purines that xanthine oxidase converts to uric acid, contributing to tumour-lysis and oxidative burden."
 ---
 
 # Retinoblastoma
@@ -644,6 +653,9 @@ Standard regimen: **vincristine + carboplatin + etoposide (VCE)**, 6 cycles; red
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Cellular immunotherapy: IL-2-driven T-cell expansion supports the CAR-T and adoptive approaches (GD2 and others) being explored for refractory or metastatic retinoblastoma, which resists immune attack in its privileged ocular site (MHC class II already mapped).
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Checkpoint context: PD-1 checkpoint blockade is of limited benefit in the immune-cold, low-mutation retinoblastoma, motivating combination strategies for the rare metastatic cases that escape local control.
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Chemotherapy myelosuppression: the systemic and intra-arterial chemotherapy used to preserve the eye in retinoblastoma is myelosuppressive, lowering haemoglobin and requiring supportive care in these young children.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Chemotherapy cardiotoxicity: the carboplatin and, in extraocular disease, anthracycline-containing regimens for retinoblastoma carry cardiotoxic risk, and troponin elevation helps detect the myocardial injury threatening these very young survivors.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 helps make retinoblastoma an immunologically cold, low-mutation tumour (PD-1 already mapped), dampening the T-cell response, which limits the benefit of checkpoint blockade in the rare metastatic cases.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative and lysis stress: chemotherapy of retinoblastoma generates oxidative stress and, in bulky disease, rapid cell lysis releasing purines that xanthine oxidase converts to uric acid, contributing to tumour-lysis and oxidative burden.
 
 [^knudson-1971-two-hit]: Knudson AG Jr. Mutation and cancer: statistical study of retinoblastoma. *Proc Natl Acad Sci USA.* 1971;68(4):820-823. [doi:10.1073/pnas.68.4.820](https://doi.org/10.1073/pnas.68.4.820) · [PubMed 5279523](https://pubmed.ncbi.nlm.nih.gov/5279523/)
 [^shields-2008-retinoblastoma]: Shields CL, Shields JA. Retinoblastoma management: advances in enucleation, intravenous chemoreduction, and intra-arterial chemotherapy. *Curr Opin Ophthalmol.* 2010;21(3):203-212. [doi:10.1097/ICU.0b013e328338676a](https://doi.org/10.1097/ICU.0b013e328338676a) · [PubMed 20224400](https://pubmed.ncbi.nlm.nih.gov/20224400/)

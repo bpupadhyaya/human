@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/pd-1
     relation: connects-to
     note: "Checkpoint resistance: rhabdomyosarcoma's low mutational burden and cold microenvironment (MHC class II already mapped) blunt PD-1 checkpoint blockade, driving interest in combinations and antigen-directed cellular therapy instead."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Tumour lysis: the intensive VAC chemotherapy for bulky rhabdomyosarcoma can lyse the tumour rapidly, releasing purines that xanthine oxidase converts to uric acid, a tumour-lysis risk managed with allopurinol and hydration."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive microenvironment: IL-10 helps make rhabdomyosarcoma an immunologically cold tumour (PD-1 already mapped), dampening the T-cell response (CD8 already mapped) that the antigen-directed cellular therapies under investigation aim to mount."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Tumour vasculature: nitric oxide regulates the vascular tone and angiogenesis of rhabdomyosarcoma, part of the stromal microenvironment supporting this aggressive childhood sarcoma of skeletal-muscle lineage."
 ---
 
 # Rhabdomyosarcoma
@@ -659,6 +668,9 @@ Maximal safe resection with negative margins (R0) wherever achievable without mu
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Cellular immunotherapy: IL-2-driven T-cell expansion supports the HER2- and other antigen-directed CAR-T therapies (perforin already mapped) being tested against rhabdomyosarcoma, an approach to overcome its poor response to checkpoint blockade.
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Marrow infiltration and chemotherapy: alveolar rhabdomyosarcoma can infiltrate the bone marrow (already mapped), and the intensive VAC chemotherapy is myelosuppressive, both lowering haemoglobin and causing the anaemia that requires transfusion support.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Checkpoint resistance: rhabdomyosarcoma's low mutational burden and cold microenvironment (MHC class II already mapped) blunt PD-1 checkpoint blockade, driving interest in combinations and antigen-directed cellular therapy instead.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Tumour lysis: the intensive VAC chemotherapy for bulky rhabdomyosarcoma can lyse the tumour rapidly, releasing purines that xanthine oxidase converts to uric acid, a tumour-lysis risk managed with allopurinol and hydration.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 helps make rhabdomyosarcoma an immunologically cold tumour (PD-1 already mapped), dampening the T-cell response (CD8 already mapped) that the antigen-directed cellular therapies under investigation aim to mount.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide regulates the vascular tone and angiogenesis of rhabdomyosarcoma, part of the stromal microenvironment supporting this aggressive childhood sarcoma of skeletal-muscle lineage.
 
 [^crist-2001-irs4-rms]: Crist WM, Anderson JR, Meza JL, et al. Intergroup rhabdomyosarcoma study-IV: results for patients with nonmetastatic disease. *J Clin Oncol.* 2001;19(12):3091-3102. [doi:10.1200/JCO.2001.19.12.3091](https://doi.org/10.1200/JCO.2001.19.12.3091) · [PubMed 11408506](https://pubmed.ncbi.nlm.nih.gov/11408506/)
 [^oberlin-2012-mmt95-rms]: Oberlin O, Rey A, Sanchez de Toledo J, et al. Randomized comparison of intensified six-drug versus standard three-drug chemotherapy for high-risk nonmetastatic rhabdomyosarcoma and other chemotherapy-sensitive childhood soft tissue sarcomas. *J Clin Oncol.* 2012;30(19):2457-2465. [doi:10.1200/JCO.2011.39.3538](https://doi.org/10.1200/JCO.2011.39.3538) · [PubMed 22665546](https://pubmed.ncbi.nlm.nih.gov/22665546/)
