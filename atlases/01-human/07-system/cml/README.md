@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin
     relation: connects-to
     note: "Nilotinib hyperglycaemia: nilotinib impairs glucose handling and raises the risk of hyperglycaemia and diabetes through effects on insulin signalling, a metabolic toxicity that factors into tyrosine-kinase-inhibitor choice in CML."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "TKI endothelial toxicity: ponatinib and nilotinib impair endothelial nitric oxide and function, promoting the arterial-occlusive and cardiovascular events (troponin already mapped) that are a defining toxicity shaping tyrosine-kinase-inhibitor selection in CML."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Nilotinib dyslipidaemia: nilotinib raises cholesterol and drives an atherogenic dyslipidaemia that, with its glucose effects (insulin already mapped), contributes to the vascular risk of the second-generation tyrosine-kinase inhibitors in CML."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Anaemia and transfusion: the marrow disruption of CML and its tyrosine-kinase-inhibitor therapy causes anaemia (haemoglobin already mapped) that can require transfusion, whose repeated support can load the body with iron."
 ---
 
 # Chronic Myeloid Leukemia
@@ -656,6 +665,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Anaemia: marrow crowding by the leukaemic clone and, later, transformation lower haemoglobin, and the anaemia adds to the fatigue of chronic myeloid leukaemia, usually improving as tyrosine-kinase inhibition restores normal haematopoiesis.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — TKI vascular toxicity: nilotinib and ponatinib cause arterial-occlusive and cardiac events, and troponin elevation marks the myocardial injury of the vascular toxicity that shapes tyrosine-kinase-inhibitor selection in CML.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Nilotinib hyperglycaemia: nilotinib impairs glucose handling and raises the risk of hyperglycaemia and diabetes through effects on insulin signalling, a metabolic toxicity that factors into tyrosine-kinase-inhibitor choice in CML.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — TKI endothelial toxicity: ponatinib and nilotinib impair endothelial nitric oxide and function, promoting the arterial-occlusive and cardiovascular events (troponin already mapped) that are a defining toxicity shaping tyrosine-kinase-inhibitor selection in CML.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Nilotinib dyslipidaemia: nilotinib raises cholesterol and drives an atherogenic dyslipidaemia that, with its glucose effects (insulin already mapped), contributes to the vascular risk of the second-generation tyrosine-kinase inhibitors in CML.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Anaemia and transfusion: the marrow disruption of CML and its tyrosine-kinase-inhibitor therapy causes anaemia (haemoglobin already mapped) that can require transfusion, whose repeated support can load the body with iron.
 
 ---
 

@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/secretory-iga
     relation: connects-to
     note: "Immunodeficiency: the hypogammaglobulinaemia of CLL depletes normal immunoglobulins including secretory IgA (IgG already mapped), impairing mucosal defence and causing the recurrent infections that are a leading cause of death."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Anaemia and transfusion: the marrow infiltration and the autoimmune haemolytic anaemia of CLL (haemoglobin already mapped) cause anaemia often needing transfusion, whose repeated support can load the body with iron."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immune skewing: IL-13, with IL-4 (already mapped), reflects the type-2 cytokine skewing of the immune dysfunction of CLL, part of the T-cell dysregulation that accompanies the malignant B-cell clone."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Microenvironment inflammation: prostaglandins in the lymph-node and marrow microenvironment (IL-6 and TNF already mapped) support the survival signalling of the CLL clone, part of the pro-tumour inflammatory milieu."
 ---
 
 # CLL
@@ -656,6 +665,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — BTK-inhibitor cardiotoxicity: ibrutinib and other BTK inhibitors (BTK already mapped) cause atrial fibrillation and, rarely, ventricular arrhythmia, and troponin elevation can mark the myocardial injury of this major class toxicity in CLL.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Venetoclax tumour lysis: the rapid killing of the large CLL burden by venetoclax (BCL-2 already mapped) releases purines that xanthine oxidase converts to uric acid, causing the tumour-lysis syndrome that mandates careful ramp-up dosing.
 - `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — Immunodeficiency: the hypogammaglobulinaemia of CLL depletes normal immunoglobulins including secretory IgA (IgG already mapped), impairing mucosal defence and causing the recurrent infections that are a leading cause of death.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Anaemia and transfusion: the marrow infiltration and the autoimmune haemolytic anaemia of CLL (haemoglobin already mapped) cause anaemia often needing transfusion, whose repeated support can load the body with iron.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune skewing: IL-13, with IL-4 (already mapped), reflects the type-2 cytokine skewing of the immune dysfunction of CLL, part of the T-cell dysregulation that accompanies the malignant B-cell clone.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Microenvironment inflammation: prostaglandins in the lymph-node and marrow microenvironment (IL-6 and TNF already mapped) support the survival signalling of the CLL clone, part of the pro-tumour inflammatory milieu.
 
 ---
 
