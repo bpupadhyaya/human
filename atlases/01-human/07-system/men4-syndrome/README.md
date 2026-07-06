@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/troponin-complex
     relation: connects-to
     note: "Carcinoid heart disease: serotonin-secreting neuroendocrine tumours in the MEN4 spectrum (serotonin already mapped) can cause carcinoid heart disease with valvular fibrosis, and troponin marks the associated myocardial strain."
+  - target: 01-human/03-molecular/acth
+    relation: connects-to
+    note: "Ectopic Cushing: neuroendocrine tumours in MEN4 can secrete ACTH ectopically, driving cortisol excess (already mapped) and Cushing syndrome, one of the functional hormone syndromes of its pituitary and pancreatic tumours."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Adrenal adenomas: adrenocortical tumours in the MEN4 spectrum (adrenal gland already mapped) can oversecrete aldosterone, causing primary aldosteronism with hypertension and hypokalaemia beyond the classic parathyroid-pituitary-pancreas triad."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Tumour vasculature: nitric oxide with the strongly expressed VEGF (already mapped) supports the rich vasculature of the neuroendocrine tumours of MEN4, part of the angiogenic biology targeted by antiangiogenic and mTOR (already mapped) therapy."
 ---
 
 # MEN4 Syndrome
@@ -643,6 +652,9 @@ When clinical MEN features are present:
 - `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Gastrinoma acid: like MEN1, MEN4 can include gastrinomas that drive massive gastric acid (proton) secretion (Zollinger-Ellison syndrome), causing refractory peptic ulceration managed with high-dose proton-pump inhibitors.
 - `connects-to` → **[Insulin receptor](../../03-molecular/insulin-receptor/README.md)** — Insulinoma hypoglycaemia: functional pancreatic neuroendocrine tumours in MEN4 can oversecrete insulin (already mapped), which through the insulin receptor produces the fasting hypoglycaemia of an insulinoma.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Carcinoid heart disease: serotonin-secreting neuroendocrine tumours in the MEN4 spectrum (serotonin already mapped) can cause carcinoid heart disease with valvular fibrosis, and troponin marks the associated myocardial strain.
+- `connects-to` → **[ACTH](../../03-molecular/acth/README.md)** — Ectopic Cushing: neuroendocrine tumours in MEN4 can secrete ACTH ectopically, driving cortisol excess (already mapped) and Cushing syndrome, one of the functional hormone syndromes of its pituitary and pancreatic tumours.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Adrenal adenomas: adrenocortical tumours in the MEN4 spectrum (adrenal gland already mapped) can oversecrete aldosterone, causing primary aldosteronism with hypertension and hypokalaemia beyond the classic parathyroid-pituitary-pancreas triad.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide with the strongly expressed VEGF (already mapped) supports the rich vasculature of the neuroendocrine tumours of MEN4, part of the angiogenic biology targeted by antiangiogenic and mTOR (already mapped) therapy.
 
 [^alrezk-2017-men4]: Alrezk R, Hannah-Shmouni F, Stratakis CA. MEN4 and CDKN1B mutations: the latest of the MEN syndromes. *Endocr Relat Cancer.* 2017;24(10):T195-T208. [doi:10.1530/ERC-17-0243](https://doi.org/10.1530/ERC-17-0243) · [PubMed 28894007](https://pubmed.ncbi.nlm.nih.gov/28894007/)
 [^pellegata-2006-cdkn1b-men4]: Pellegata NS, Quintanilla-Martinez L, Siggelkow H, et al. Germ-line mutations in p27Kip1 cause a multiple endocrine neoplasia syndrome in rats and humans. *Proc Natl Acad Sci USA.* 2006;103(42):15558-15563. [doi:10.1073/pnas.0603306103](https://doi.org/10.1073/pnas.0603306103) · [PubMed 17030811](https://pubmed.ncbi.nlm.nih.gov/17030811/)

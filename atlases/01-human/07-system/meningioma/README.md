@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "T-cell immunity: IL-2-driven T-cell expansion supports the immunotherapy approaches under investigation for aggressive grade 2-3 meningiomas, which have a more immunosuppressive microenvironment than benign lesions."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive microenvironment: IL-10 in the microenvironment of higher-grade meningiomas dampens the anti-tumour T-cell response (IL-2 and MHC class II already mapped), part of the immune evasion that motivates the checkpoint strategies explored for aggressive tumours."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the vascular tone and angiogenesis of meningiomas, part of the stromal biology supporting these often highly vascular extra-axial tumours."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "Fibrous stroma: the fibroblastic and transitional meningioma variants (fibroblast already mapped) lay down a collagen-rich stroma with psammoma bodies, the dense connective tissue that gives these tumours their firm texture."
 ---
 
 # Meningioma
@@ -648,6 +657,9 @@ VEGF overexpression in meningioma (YAP target); Phase 2 COMBIT (Huang 2019, N=40
 - `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — Hormone-receptor expression: meningiomas express progesterone (already mapped) and androgen receptors, and their tendency to grow during pregnancy and in women reflects the hormone responsiveness of these tumours.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immunotherapy: MHC class II antigen presentation shapes the T-cell response to meningioma, of growing interest for the higher-grade and recurrent tumours that resist surgery and radiation and are being explored for checkpoint therapy.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell immunity: IL-2-driven T-cell expansion supports the immunotherapy approaches under investigation for aggressive grade 2-3 meningiomas, which have a more immunosuppressive microenvironment than benign lesions.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the microenvironment of higher-grade meningiomas dampens the anti-tumour T-cell response (IL-2 and MHC class II already mapped), part of the immune evasion that motivates the checkpoint strategies explored for aggressive tumours.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the vascular tone and angiogenesis of meningiomas, part of the stromal biology supporting these often highly vascular extra-axial tumours.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Fibrous stroma: the fibroblastic and transitional meningioma variants (fibroblast already mapped) lay down a collagen-rich stroma with psammoma bodies, the dense connective tissue that gives these tumours their firm texture.
 
 [^brastianos-2013-akt1-meningioma]: Brastianos PK, Horowitz PM, Santagata S, et al. Genomic sequencing of meningiomas identifies oncogenic SMO and AKT1 mutations. *Nat Genet.* 2013;45(3):285-289. [doi:10.1038/ng.2526](https://doi.org/10.1038/ng.2526) · [PubMed 23334667](https://pubmed.ncbi.nlm.nih.gov/23334667/)
 [^nassiri-2021-meningioma-classification]: Nassiri F, Liu J, Patil V, et al. A clinically applicable integrative molecular classification of meningiomas. *Nature.* 2021;597(7874):119-125. [doi:10.1038/s41586-021-03850-3](https://doi.org/10.1038/s41586-021-03850-3) · [PubMed 34385709](https://pubmed.ncbi.nlm.nih.gov/34385709/)
