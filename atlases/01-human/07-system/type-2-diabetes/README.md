@@ -409,6 +409,15 @@ cross_links:
   - target: 01-human/03-molecular/dopamine
     relation: connects-to
     note: "Dopaminergic glucose control: central dopaminergic tone influences glucose metabolism, and the dopamine agonist bromocriptine, given as a morning quick-release formulation, is an approved glucose-lowering therapy for type 2 diabetes."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Atherogenic dyslipidaemia: type 2 diabetes shifts cholesterol handling toward high triglycerides, low HDL and small dense LDL (PCSK9 already mapped), the dyslipidaemia driving much of its accelerated cardiovascular risk."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Anti-inflammatory balance: the anti-inflammatory IL-10 counters the chronic low-grade inflammation (TNF, IL-6 and IL-1 already mapped) of adipose tissue in type 2 diabetes, and the imbalance contributes to the insulin resistance."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Cardiorenal RAAS: aldosterone drives the fibrosis and inflammation of diabetic kidney disease (angiotensin and endothelin already mapped), and mineralocorticoid-receptor antagonists such as finerenone slow the progression of diabetic nephropathy."
 ---
 
 # Type 2 Diabetes
@@ -642,6 +651,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Silent myocardial infarction: type 2 diabetes accelerates coronary disease (atherosclerosis already mapped) and blunts anginal warning through autonomic neuropathy, so myocardial infarction is often silent, and troponin marks the cardiac injury when it occurs.
 - `connects-to` → **[Mu-opioid receptor](../../03-molecular/mu-opioid-receptor/README.md)** — Neuropathic pain: painful diabetic peripheral neuropathy (peripheral nerve already mapped) is a major burden, and when other agents fail it is treated with opioids acting at the mu-opioid receptor, at the cost of dependence risk.
 - `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — Dopaminergic glucose control: central dopaminergic tone influences glucose metabolism, and the dopamine agonist bromocriptine, given as a morning quick-release formulation, is an approved glucose-lowering therapy for type 2 diabetes.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Atherogenic dyslipidaemia: type 2 diabetes shifts cholesterol handling toward high triglycerides, low HDL and small dense LDL (PCSK9 already mapped), the dyslipidaemia driving much of its accelerated cardiovascular risk.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Anti-inflammatory balance: the anti-inflammatory IL-10 counters the chronic low-grade inflammation (TNF, IL-6 and IL-1 already mapped) of adipose tissue in type 2 diabetes, and the imbalance contributes to the insulin resistance.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Cardiorenal RAAS: aldosterone drives the fibrosis and inflammation of diabetic kidney disease (angiotensin and endothelin already mapped), and mineralocorticoid-receptor antagonists such as finerenone slow the progression of diabetic nephropathy.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

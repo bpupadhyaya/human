@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/hemoglobin
     relation: connects-to
     note: "Metastatic anaemia: extensive hepatic metastasis (liver already mapped) and its treatment lower haemoglobin in advanced uveal melanoma, contributing to the fatigue and decline of the metastatic disease that dominates prognosis."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive microenvironment: IL-10 in the uveal melanoma microenvironment, favoured by the immune privilege of the eye, dampens the anti-tumour T-cell response (PD-1 and CTLA-4 already mapped), part of the resistance to conventional checkpoint blockade."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Tumour vasculature: nitric oxide with VEGF and endothelin-1 (already mapped) shapes the vasculature of uveal melanoma, including the vasculogenic-mimicry networks that are an adverse prognostic feature of the tumour."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative stress: the metabolically active uveal melanoma generates oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species add to the biology of this pigment-cell tumour of the eye."
 ---
 
 # Uveal Melanoma
@@ -668,6 +677,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Tebentafusp immunotherapy: tebentafusp, a gp100-directed T-cell engager, is the first therapy to extend survival in metastatic uveal melanoma (in HLA-A*02:01 patients; MHC class II already mapped), and IL-2-driven T-cell activity underlies the adoptive approaches.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cytokine-release cardiotoxicity: the T-cell-engaging immunotherapy for uveal melanoma can provoke cytokine-release syndrome with hypotension and cardiac stress, and troponin elevation helps detect the myocardial injury of these reactions.
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Metastatic anaemia: extensive hepatic metastasis (liver already mapped) and its treatment lower haemoglobin in advanced uveal melanoma, contributing to the fatigue and decline of the metastatic disease that dominates prognosis.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the uveal melanoma microenvironment, favoured by the immune privilege of the eye, dampens the anti-tumour T-cell response (PD-1 and CTLA-4 already mapped), part of the resistance to conventional checkpoint blockade.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide with VEGF and endothelin-1 (already mapped) shapes the vasculature of uveal melanoma, including the vasculogenic-mimicry networks that are an adverse prognostic feature of the tumour.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative stress: the metabolically active uveal melanoma generates oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species add to the biology of this pigment-cell tumour of the eye.
 
 ---
 
