@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Vascular anomalies: Cowden syndrome includes vascular malformations, and nitric oxide with VEGF (already mapped) regulates the endothelial biology behind these anomalies, part of the broad tissue overgrowth of PTEN loss."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Metabolic overgrowth: the PI3K-AKT-mTOR pathway (already mapped) unleashed by PTEN loss intersects with leptin and the metabolic signalling (insulin already mapped) that contributes to the overgrowth and metabolic phenotype of Cowden syndrome."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Lipid metabolism: PTEN, through the PI3K-AKT pathway (already mapped), regulates cellular lipid and cholesterol metabolism, and its loss shifts the lipid handling that supports the proliferations of Cowden syndrome."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive stroma: IL-10 from the tumour-associated macrophages (already mapped) of the hamartomas and early cancers of Cowden syndrome dampens local immunity, part of the growth-permissive stroma of these PTEN-driven lesions."
 ---
 
 # Cowden Syndrome
@@ -723,6 +732,9 @@ cross_links:
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell immunity: IL-2-driven T-cell responses (MHC class II already mapped) provide the immune surveillance influencing progression of the hamartomas and cancers of Cowden syndrome, and underlie the immunotherapy of any advanced tumours.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Hamartoma stroma: tumour-associated macrophages populate the many hamartomas and early cancers of Cowden syndrome, contributing to the growth-factor-rich stroma (VEGF and TGF-beta already mapped) that supports these PTEN-driven proliferations.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Vascular anomalies: Cowden syndrome includes vascular malformations, and nitric oxide with VEGF (already mapped) regulates the endothelial biology behind these anomalies, part of the broad tissue overgrowth of PTEN loss.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Metabolic overgrowth: the PI3K-AKT-mTOR pathway (already mapped) unleashed by PTEN loss intersects with leptin and the metabolic signalling (insulin already mapped) that contributes to the overgrowth and metabolic phenotype of Cowden syndrome.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Lipid metabolism: PTEN, through the PI3K-AKT pathway (already mapped), regulates cellular lipid and cholesterol metabolism, and its loss shifts the lipid handling that supports the proliferations of Cowden syndrome.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive stroma: IL-10 from the tumour-associated macrophages (already mapped) of the hamartomas and early cancers of Cowden syndrome dampens local immunity, part of the growth-permissive stroma of these PTEN-driven lesions.
 
 ---
 

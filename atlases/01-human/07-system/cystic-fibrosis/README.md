@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/troponin-complex
     relation: connects-to
     note: "Cor pulmonale: chronic hypoxaemia in advanced cystic fibrosis raises pulmonary pressures and strains the right heart, and troponin elevation can mark the myocardial injury of the cor pulmonale of end-stage lung disease."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Airway inflammatory eicosanoids: prostaglandins from the intensely neutrophilic airway (S100A8/A9 and IL-8-type signals, IL-6 and TNF already mapped) amplify the chronic inflammation that destroys the cystic-fibrosis lung."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Malabsorption micronutrient deficiency: the exocrine pancreatic insufficiency of cystic fibrosis impairs absorption of zinc and other micronutrients, contributing to the growth failure, immune impairment and skin changes of the malnourished child."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Fat malabsorption: the exocrine pancreatic insufficiency of cystic fibrosis causes fat malabsorption, disturbing cholesterol and essential-fatty-acid handling and the absorption of fat-soluble vitamins, part of its nutritional burden."
 ---
 
 # Cystic Fibrosis
@@ -671,6 +680,9 @@ AND
 - `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Respiratory acidosis: advanced cystic-fibrosis lung disease retains carbon dioxide, and the resulting proton accumulation produces the respiratory acidosis of end-stage respiratory failure that heralds the need for transplant.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 and ABPA: IL-13 and the type-2 response drive the allergic bronchopulmonary aspergillosis that complicates cystic fibrosis, adding a Th2 arm to the neutrophilic and Th17 (IL-17 already mapped) inflammation of the airway.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cor pulmonale: chronic hypoxaemia in advanced cystic fibrosis raises pulmonary pressures and strains the right heart, and troponin elevation can mark the myocardial injury of the cor pulmonale of end-stage lung disease.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Airway inflammatory eicosanoids: prostaglandins from the intensely neutrophilic airway (S100A8/A9 and IL-8-type signals, IL-6 and TNF already mapped) amplify the chronic inflammation that destroys the cystic-fibrosis lung.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Malabsorption micronutrient deficiency: the exocrine pancreatic insufficiency of cystic fibrosis impairs absorption of zinc and other micronutrients, contributing to the growth failure, immune impairment and skin changes of the malnourished child.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Fat malabsorption: the exocrine pancreatic insufficiency of cystic fibrosis causes fat malabsorption, disturbing cholesterol and essential-fatty-acid handling and the absorption of fat-soluble vitamins, part of its nutritional burden.
 
 ---
 
