@@ -409,6 +409,15 @@ cross_links:
   - target: 01-human/03-molecular/hemoglobin
     relation: connects-to
     note: "Bleeding and anaemia: hepatocellular carcinoma on cirrhosis causes variceal and tumour bleeding, and the anaemia of chronic liver disease (hepcidin already mapped) lowers haemoglobin, both contributing to the morbidity of advanced disease."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive microenvironment: IL-10 in the tumour microenvironment dampens the anti-tumour T-cell response (PD-1 and CD8 already mapped), part of the immune evasion that shapes the response to the checkpoint immunotherapy of hepatocellular carcinoma."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Portal hypertension and vasculature: dysregulated nitric oxide drives the splanchnic vasodilation and portal hypertension of the underlying cirrhosis, and with VEGF (already mapped) shapes the vasculature of the hypervascular hepatocellular carcinoma."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative hepatocarcinogenesis: the chronic inflammation and iron overload (hepcidin already mapped) of the diseased liver generate reactive oxygen species, to which xanthine oxidase contributes, driving the oxidative DNA damage of hepatocellular carcinogenesis."
 ---
 
 # Hepatocellular Carcinoma
@@ -677,6 +686,9 @@ In high-risk patients (cirrhosis, HBV regardless of cirrhosis): ultrasound ± AF
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Cirrhotic field: most hepatocellular carcinoma arises in cirrhosis, the collagen scarring laid down by activated stellate cells (TGF-beta and PDGF already mapped), and the degree of this fibrosis governs both cancer risk and treatment tolerance.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Immunotherapy: IL-2-driven T-cell responses underlie the checkpoint immunotherapy (PD-1 and CTLA-4 already mapped) that, with anti-VEGF, is now first-line for advanced hepatocellular carcinoma, reflecting its immunogenic biology.
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Bleeding and anaemia: hepatocellular carcinoma on cirrhosis causes variceal and tumour bleeding, and the anaemia of chronic liver disease (hepcidin already mapped) lowers haemoglobin, both contributing to the morbidity of advanced disease.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the tumour microenvironment dampens the anti-tumour T-cell response (PD-1 and CD8 already mapped), part of the immune evasion that shapes the response to the checkpoint immunotherapy of hepatocellular carcinoma.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Portal hypertension and vasculature: dysregulated nitric oxide drives the splanchnic vasodilation and portal hypertension of the underlying cirrhosis, and with VEGF (already mapped) shapes the vasculature of the hypervascular hepatocellular carcinoma.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative hepatocarcinogenesis: the chronic inflammation and iron overload (hepcidin already mapped) of the diseased liver generate reactive oxygen species, to which xanthine oxidase contributes, driving the oxidative DNA damage of hepatocellular carcinogenesis.
 
 [^llovet-2008-sorafenib]: Llovet JM, Ricci S, Mazzaferro V, et al. Sorafenib in advanced hepatocellular carcinoma. *N Engl J Med.* 2008;359(4):378-390. [doi:10.1056/NEJMoa0708857](https://doi.org/10.1056/NEJMoa0708857) · [PubMed 18650514](https://pubmed.ncbi.nlm.nih.gov/18650514/)
 [^finn-2020-imbrave150]: Finn RS, Qin S, Ikeda M, et al. Atezolizumab plus bevacizumab in unresectable hepatocellular carcinoma. *N Engl J Med.* 2020;382(20):1894-1905. [doi:10.1056/NEJMoa1915745](https://doi.org/10.1056/NEJMoa1915745) · [PubMed 32402160](https://pubmed.ncbi.nlm.nih.gov/32402160/)

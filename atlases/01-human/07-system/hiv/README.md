@@ -418,6 +418,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin
     relation: connects-to
     note: "Antiretroviral metabolic effects: some antiretroviral drugs cause insulin resistance, lipodystrophy and metabolic syndrome, a treatment-related metabolic burden that contributes to the cardiovascular risk of people living with HIV."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Dyslipidaemia and atherosclerosis: some antiretroviral drugs and the chronic immune activation of HIV disturb cholesterol handling toward an atherogenic profile (insulin already mapped), contributing to the accelerated atherosclerosis of people living with HIV."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative immune activation: the chronic immune activation of HIV generates oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species add to the tissue injury and accelerated ageing of chronic infection."
+  - target: 01-human/07-system/leishmaniasis
+    relation: connects-to
+    note: "Opportunistic co-infection: HIV, by depleting the CD4 T cells (already mapped) that contain intracellular parasites, reactivates and worsens visceral leishmaniasis, one of the opportunistic co-infections of advanced immunodeficiency."
 ---
 
 # HIV
@@ -686,6 +695,9 @@ The **latent reservoir** — HIV integrated into quiescent resting memory CD4+ T
 - `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Broadly neutralising antibodies: rare broadly neutralising IgG antibodies against conserved envelope epitopes (gp120 already mapped) can control diverse HIV strains, and eliciting them is the central goal of HIV vaccine and antibody-therapy research.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Th2 shift: progression of HIV is accompanied by a shift from protective Th1 toward IL-4-driven type-2 responses and B-cell hyperactivation (BAFF already mapped), a change in the cytokine balance that tracks with immune deterioration.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Antiretroviral metabolic effects: some antiretroviral drugs cause insulin resistance, lipodystrophy and metabolic syndrome, a treatment-related metabolic burden that contributes to the cardiovascular risk of people living with HIV.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Dyslipidaemia and atherosclerosis: some antiretroviral drugs and the chronic immune activation of HIV disturb cholesterol handling toward an atherogenic profile (insulin already mapped), contributing to the accelerated atherosclerosis of people living with HIV.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative immune activation: the chronic immune activation of HIV generates oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species add to the tissue injury and accelerated ageing of chronic infection.
+- `connects-to` → **[Leishmaniasis](../leishmaniasis/README.md)** — Opportunistic co-infection: HIV, by depleting the CD4 T cells (already mapped) that contain intracellular parasites, reactivates and worsens visceral leishmaniasis, one of the opportunistic co-infections of advanced immunodeficiency.
 
 [^barre-sinoussi-1983-hiv-isolation]: Barré-Sinoussi F, Chermann JC, Rey F, et al. Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS). *Science.* 1983;220(4599):868-871. [doi:10.1126/science.6189183](https://doi.org/10.1126/science.6189183) · [PubMed 6189183](https://pubmed.ncbi.nlm.nih.gov/6189183/)
 [^ho-1995-viral-dynamics]: Ho DD, Neumann AU, Perelson AS, et al. Rapid turnover of plasma virions and CD4 lymphocytes in HIV-1 infection. *Nature.* 1995;373(6510):123-126. [doi:10.1038/373123a0](https://doi.org/10.1038/373123a0) · [PubMed 7816094](https://pubmed.ncbi.nlm.nih.gov/7816094/)
