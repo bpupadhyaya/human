@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/pd-1
     relation: connects-to
     note: "Checkpoint context: PD-1 checkpoint blockade is being investigated for the recurrent nervous-system tumours of NF2 (IL-2 and MHC class II already mapped), which resist surgery and stereotactic radiation and lack good systemic options."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages (already mapped) toward an immunosuppressive M2 phenotype (IL-10 already mapped) in the schwannoma and meningioma stroma of NF2, part of their immune microenvironment."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative microenvironment: the NF2 tumours generate oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species are part of the tumour microenvironment beyond the Hippo-YAP (already mapped) signalling."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Inflammatory eicosanoids: prostaglandins from the tumour-associated macrophages (already mapped) and infiltrate (IL-6 and IL-1 already mapped) contribute to the inflammation of the schwannoma and meningioma microenvironment in NF2."
 ---
 
 # Neurofibromatosis Type 2
@@ -663,6 +672,9 @@ Merlin has an N-terminal FERM domain (α, β, γ lobes) that binds membrane lipi
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the microenvironment of the schwannomas and meningiomas of NF2 dampens the anti-tumour T-cell response (IL-2 already mapped), part of the immune evasion relevant to the immunotherapy explored for these recurrent tumours.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the vascular tone and angiogenesis of the NF2 tumours, part of the biology behind the response of vestibular schwannomas to the antiangiogenic bevacizumab.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Checkpoint context: PD-1 checkpoint blockade is being investigated for the recurrent nervous-system tumours of NF2 (IL-2 and MHC class II already mapped), which resist surgery and stereotactic radiation and lack good systemic options.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages (already mapped) toward an immunosuppressive M2 phenotype (IL-10 already mapped) in the schwannoma and meningioma stroma of NF2, part of their immune microenvironment.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative microenvironment: the NF2 tumours generate oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species are part of the tumour microenvironment beyond the Hippo-YAP (already mapped) signalling.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Inflammatory eicosanoids: prostaglandins from the tumour-associated macrophages (already mapped) and infiltrate (IL-6 and IL-1 already mapped) contribute to the inflammation of the schwannoma and meningioma microenvironment in NF2.
 
 [^asthagiri-2009-nf2-lancet]: Asthagiri AR, Parry DM, Butman JA, et al. Neurofibromatosis type 2. *Lancet.* 2009;373(9679):1974-1986. [doi:10.1016/S0140-6736(09)60259-2](https://doi.org/10.1016/S0140-6736(09)60259-2) · [PubMed 19476995](https://pubmed.ncbi.nlm.nih.gov/19476995/)
 [^plotkin-2009-nf2-bevacizumab]: Plotkin SR, Stemmer-Rachamimov AO, Barker FG 2nd, et al. Hearing improvement after bevacizumab in patients with neurofibromatosis type 2. *N Engl J Med.* 2009;361(4):358-367. [doi:10.1056/NEJMoa0902579](https://doi.org/10.1056/NEJMoa0902579) · [PubMed 19587327](https://pubmed.ncbi.nlm.nih.gov/19587327/)

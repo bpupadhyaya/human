@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Vascular and lymphatic tone: nitric oxide regulates the vascular and lymphatic tone disturbed in Noonan syndrome, contributing to the endothelial function relevant to its cardiovascular and lymphatic (already mapped) manifestations."
+  - target: 01-human/03-molecular/fibrinogen
+    relation: connects-to
+    note: "Bleeding diathesis: Noonan syndrome carries a bleeding tendency from clotting-factor deficiencies and platelet dysfunction (von Willebrand factor already mapped), and the coagulation abnormalities involving fibrinogen and factors require care around surgery."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "RAAS and cardiac remodelling: the renin-angiotensin-aldosterone system (angiotensin II and aldosterone already mapped), overlaid on the RAS-MAPK overactivity, contributes to the fibrosis and hypertrophic cardiomyopathy of Noonan syndrome."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Cardiac electrolyte balance: magnesium, with the calcium cycling (SERCA2a and RYR2 already mapped), influences the myocardial excitability and arrhythmia risk of the hypertrophic cardiomyopathy of Noonan syndrome."
 ---
 
 # Noonan Syndrome
@@ -681,6 +690,9 @@ NS is characterized by four cardinal features: **(1) short stature** (below 3rd 
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Myeloproliferation and bleeding: PTPN11-mutant Noonan syndrome carries a juvenile myelomonocytic leukaemia-like myeloproliferation and a bleeding diathesis (von Willebrand factor already mapped), both of which can lower haemoglobin.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Cardiac RAAS: aldosterone, with angiotensin II (already mapped), drives the fibrosis of the cardiac remodelling overlaid on the RAS-MAPK overactivity that produces the hypertrophic cardiomyopathy of Noonan syndrome.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Vascular and lymphatic tone: nitric oxide regulates the vascular and lymphatic tone disturbed in Noonan syndrome, contributing to the endothelial function relevant to its cardiovascular and lymphatic (already mapped) manifestations.
+- `connects-to` → **[Fibrinogen](../../03-molecular/fibrinogen/README.md)** — Bleeding diathesis: Noonan syndrome carries a bleeding tendency from clotting-factor deficiencies and platelet dysfunction (von Willebrand factor already mapped), and the coagulation abnormalities involving fibrinogen and factors require care around surgery.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — RAAS and cardiac remodelling: the renin-angiotensin-aldosterone system (angiotensin II and aldosterone already mapped), overlaid on the RAS-MAPK overactivity, contributes to the fibrosis and hypertrophic cardiomyopathy of Noonan syndrome.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Cardiac electrolyte balance: magnesium, with the calcium cycling (SERCA2a and RYR2 already mapped), influences the myocardial excitability and arrhythmia risk of the hypertrophic cardiomyopathy of Noonan syndrome.
 
 [^tartaglia-2001-ptpn11-noonan]: Tartaglia M, Mehler EL, Goldberg R, et al. Mutations in PTPN11, encoding the protein tyrosine phosphatase SHP-2, cause Noonan syndrome. *Nat Genet.* 2001;29(4):465-468. [doi:10.1038/ng772](https://doi.org/10.1038/ng772) · [PubMed 11704759](https://pubmed.ncbi.nlm.nih.gov/11704759/)
 [^van-der-burgt-2007-noonan-review]: van der Burgt I. Noonan syndrome. *Orphanet J Rare Dis.* 2007;2:4. [doi:10.1186/1750-1172-2-4](https://doi.org/10.1186/1750-1172-2-4) · [PubMed 17222357](https://pubmed.ncbi.nlm.nih.gov/17222357/)
