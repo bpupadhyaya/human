@@ -424,6 +424,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative burst injury: ANCA-activated neutrophils (already mapped) release reactive oxygen species, including from xanthine oxidase, that damage the small-vessel endothelium, part of the oxidative injury of the vasculitic lesion."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Regulatory balance: IL-10 from regulatory T and B cells restrains the autoreactive response, and deficient IL-10-mediated regulation contributes to the unchecked autoimmunity that produces the ANCA and the vasculitis."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Inflammatory eicosanoids: prostaglandins from the neutrophil (already mapped) and infiltrating cells amplify the inflammation of the vasculitic lesion (IL-6, TNF and IL-1 already mapped), part of the eicosanoid dimension of the small-vessel injury."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Eosinophilic type-2 inflammation: mast cells, with eosinophils and the type-2 cytokines (IL-5, IL-4 and IL-13 already mapped), drive the allergic inflammation of eosinophilic granulomatosis with polyangiitis (EGPA), the type-2 subset of ANCA vasculitis."
 ---
 
 # ANCA Vasculitis
@@ -691,6 +700,9 @@ EGPA is mechanistically distinct — eosinophils, not neutrophils, mediate tissu
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Alveolar-haemorrhage anaemia: diffuse alveolar haemorrhage in the lung (already mapped) and the anaemia of chronic inflammation lower haemoglobin in ANCA-associated vasculitis, a fall in haemoglobin that can signal active pulmonary bleeding.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Th2 axis in EGPA: IL-13 with IL-4 and IL-5 (already mapped) drives the type-2 eosinophilic inflammation of eosinophilic granulomatosis with polyangiitis, the subset increasingly treated with anti-type-2 biologics.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative burst injury: ANCA-activated neutrophils (already mapped) release reactive oxygen species, including from xanthine oxidase, that damage the small-vessel endothelium, part of the oxidative injury of the vasculitic lesion.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Regulatory balance: IL-10 from regulatory T and B cells restrains the autoreactive response, and deficient IL-10-mediated regulation contributes to the unchecked autoimmunity that produces the ANCA and the vasculitis.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Inflammatory eicosanoids: prostaglandins from the neutrophil (already mapped) and infiltrating cells amplify the inflammation of the vasculitic lesion (IL-6, TNF and IL-1 already mapped), part of the eicosanoid dimension of the small-vessel injury.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Eosinophilic type-2 inflammation: mast cells, with eosinophils and the type-2 cytokines (IL-5, IL-4 and IL-13 already mapped), drive the allergic inflammation of eosinophilic granulomatosis with polyangiitis (EGPA), the type-2 subset of ANCA vasculitis.
 
 [^yates-2022-anca-review]: Yates M, Watts RA, Bajema IM, et al. EULAR/ERA-EDTA recommendations for the management of ANCA-associated vasculitis. *Ann Rheum Dis.* 2016;75(9):1583-1594. [doi:10.1136/annrheumdis-2016-209133](https://doi.org/10.1136/annrheumdis-2016-209133) · [PubMed 27338776](https://pubmed.ncbi.nlm.nih.gov/27338776/)
 [^stone-2010-rituximab-gpa-rave]: Stone JH, Merkel PA, Spiera R, et al. Rituximab versus cyclophosphamide for ANCA-associated vasculitis. *N Engl J Med.* 2010;363(3):221-232. [doi:10.1056/NEJMoa0909905](https://doi.org/10.1056/NEJMoa0909905) · [PubMed 20647199](https://pubmed.ncbi.nlm.nih.gov/20647199/)
