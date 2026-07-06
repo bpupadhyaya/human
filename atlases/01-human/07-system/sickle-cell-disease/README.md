@@ -415,6 +415,15 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "Anti-inflammatory balance: the anti-inflammatory cytokine IL-10 counters the chronic elevation of TNF, IL-6 and IL-1 (already mapped) that sustains the inflammatory, adhesive vasculopathy of sickle cell disease."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "Neurogenic pain: substance P released from sensory nerves contributes to the central and peripheral sensitisation of the sickle vaso-occlusive pain crisis (mu-opioid receptor already mapped), part of the neurogenic component of the intractable pain."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Inflammatory crisis pain: prostaglandins from the inflammation of vaso-occlusion (IL-6, TNF and IL-1 already mapped) drive the pain of the sickle crisis, and non-steroidal anti-inflammatory drugs are used alongside opioids in its management."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin pain and permeability: bradykinin generated in the ischaemic, inflamed tissue of vaso-occlusion sensitises nociceptors and raises vascular permeability, contributing to the pain and swelling of the sickle cell crisis."
 ---
 
 # Sickle Cell Disease
@@ -706,6 +715,9 @@ SCD vaso-occlusion is not just from sickled RBCs mechanically blocking vessels �
 - `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Deficiency and bone disease: vitamin D deficiency is very common in sickle cell disease and worsens the bone pain and low bone density, so supplementation is a routine part of comprehensive care.
 - `connects-to` → **[Omega-3 Fatty Acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Membrane and inflammation: omega-3 fatty acids reduce the frequency of vaso-occlusive crises in trials, acting on red-cell membrane composition and the endothelial inflammation (already mapped) that drives sickle vaso-occlusion.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Anti-inflammatory balance: the anti-inflammatory cytokine IL-10 counters the chronic elevation of TNF, IL-6 and IL-1 (already mapped) that sustains the inflammatory, adhesive vasculopathy of sickle cell disease.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — Neurogenic pain: substance P released from sensory nerves contributes to the central and peripheral sensitisation of the sickle vaso-occlusive pain crisis (mu-opioid receptor already mapped), part of the neurogenic component of the intractable pain.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Inflammatory crisis pain: prostaglandins from the inflammation of vaso-occlusion (IL-6, TNF and IL-1 already mapped) drive the pain of the sickle crisis, and non-steroidal anti-inflammatory drugs are used alongside opioids in its management.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin pain and permeability: bradykinin generated in the ischaemic, inflamed tissue of vaso-occlusion sensitises nociceptors and raises vascular permeability, contributing to the pain and swelling of the sickle cell crisis.
 
 [^steinberg-1999-scd-management]: Steinberg MH. Management of sickle cell disease. *N Engl J Med.* 1999;340(13):1021-1030. [doi:10.1056/NEJM199904013401307](https://doi.org/10.1056/NEJM199904013401307) · [PubMed 10099145](https://pubmed.ncbi.nlm.nih.gov/10099145/)
 [^vichinsky-2000-acs-scd]: Vichinsky EP, Neumayr LD, Earles AN, et al. Causes and outcomes of the acute chest syndrome in sickle cell disease. *N Engl J Med.* 2000;342(25):1855-1865. [doi:10.1056/NEJM200006223422502](https://doi.org/10.1056/NEJM200006223422502) · [PubMed 10861320](https://pubmed.ncbi.nlm.nih.gov/10861320/)

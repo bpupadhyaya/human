@@ -415,6 +415,15 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "Neuroimmune balance: the anti-inflammatory cytokine IL-10 counters the pro-inflammatory TNF, IL-6 and IL-1 (already mapped) reported in anxiety disorders, part of the low-grade neuroinflammation associated with chronic social anxiety."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Cardiometabolic burden: the chronic stress and insulin resistance (insulin already mapped) of long-standing social anxiety disorder shift cholesterol handling toward an atherogenic profile, part of its raised cardiovascular risk."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Neuroinflammatory eicosanoids: prostaglandins from the low-grade neuroinflammation (IL-6, TNF and IL-1 already mapped) reported in anxiety modulate the fear and social-threat circuits implicated in social anxiety disorder."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative stress: heightened oxidative stress, to which xanthine oxidase contributes, is reported in anxiety disorders (NRF2 already mapped), and the resulting reactive oxygen species may affect the neurons of the fear circuitry."
 ---
 
 # Social Anxiety Disorder
@@ -677,6 +686,9 @@ The unique **dopaminergic social reward deficit** in SAD has clinical implicatio
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Mineralocorticoid stress axis: aldosterone acts on brain mineralocorticoid receptors that, balanced against glucocorticoid receptors (already mapped), tune the stress response and threat appraisal exaggerated in social anxiety disorder.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Metabolic stress load: chronic anxiety and HPA activation (cortisol already mapped) promote insulin resistance, part of the cardiometabolic burden that can accompany long-standing social anxiety disorder.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Neuroimmune balance: the anti-inflammatory cytokine IL-10 counters the pro-inflammatory TNF, IL-6 and IL-1 (already mapped) reported in anxiety disorders, part of the low-grade neuroinflammation associated with chronic social anxiety.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Cardiometabolic burden: the chronic stress and insulin resistance (insulin already mapped) of long-standing social anxiety disorder shift cholesterol handling toward an atherogenic profile, part of its raised cardiovascular risk.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Neuroinflammatory eicosanoids: prostaglandins from the low-grade neuroinflammation (IL-6, TNF and IL-1 already mapped) reported in anxiety modulate the fear and social-threat circuits implicated in social anxiety disorder.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative stress: heightened oxidative stress, to which xanthine oxidase contributes, is reported in anxiety disorders (NRF2 already mapped), and the resulting reactive oxygen species may affect the neurons of the fear circuitry.
 
 [^liebowitz-1987-sad-scale]: Liebowitz MR. Social phobia. *Mod Probl Pharmacopsychiatry.* 1987;22:141-173. [PubMed 2885745](https://pubmed.ncbi.nlm.nih.gov/2885745/)
 [^stein-2008-sad-review]: Stein MB, Stein DJ. Social anxiety disorder. *Lancet.* 2008;371(9618):1115-1125. [doi:10.1016/S0140-6736(08)60488-2](https://doi.org/10.1016/S0140-6736(08)60488-2) · [PubMed 18374843](https://pubmed.ncbi.nlm.nih.gov/18374843/)
