@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/troponin-complex
     relation: connects-to
     note: "Fluoropyrimidine cardiotoxicity: 5-fluorouracil and capecitabine, backbone chemotherapy for colorectal cancer, can provoke coronary vasospasm and myocardial injury, and troponin elevation helps detect this recognised cardiotoxicity."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Diet and bile acids: a Western diet high in fat raises the cholesterol-derived bile acids that, deconjugated by gut bacteria (microbiome already mapped), promote colorectal carcinogenesis, part of the dietary risk of colorectal cancer."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive microenvironment: IL-10 in the tumour microenvironment dampens the anti-tumour T-cell response (CD8 and PD-1 already mapped), the immune evasion that is more readily overcome in the microsatellite-unstable (MLH1 already mapped) tumours."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative carcinogenesis: chronic colonic inflammation and the high epithelial turnover generate oxidative stress, to which xanthine oxidase contributes, and this oxidative DNA damage speeds the adenoma-carcinoma sequence of colorectal cancer."
 ---
 
 # Colorectal Cancer
@@ -659,6 +668,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — MSI immunotherapy: the mismatch-repair-deficient, microsatellite-unstable colorectal cancers (MLH1/MSH2 already mapped) are neoantigen-rich and respond to checkpoint blockade (PD-1 already mapped), and IL-2-driven T-cell expansion underlies this immune sensitivity.
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Iron-deficiency anaemia: right-sided colorectal cancers bleed occultly (transferrin already mapped), and the iron-deficiency anaemia lowering haemoglobin is a classic presenting sign that should prompt colonoscopy in older adults.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Fluoropyrimidine cardiotoxicity: 5-fluorouracil and capecitabine, backbone chemotherapy for colorectal cancer, can provoke coronary vasospasm and myocardial injury, and troponin elevation helps detect this recognised cardiotoxicity.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Diet and bile acids: a Western diet high in fat raises the cholesterol-derived bile acids that, deconjugated by gut bacteria (microbiome already mapped), promote colorectal carcinogenesis, part of the dietary risk of colorectal cancer.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the tumour microenvironment dampens the anti-tumour T-cell response (CD8 and PD-1 already mapped), the immune evasion that is more readily overcome in the microsatellite-unstable (MLH1 already mapped) tumours.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative carcinogenesis: chronic colonic inflammation and the high epithelial turnover generate oxidative stress, to which xanthine oxidase contributes, and this oxidative DNA damage speeds the adenoma-carcinoma sequence of colorectal cancer.
 
 ---
 
