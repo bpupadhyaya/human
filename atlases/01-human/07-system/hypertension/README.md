@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/estrogen
     relation: connects-to
     note: "Sex differences: premenopausal women have lower blood pressure than men, an advantage attributed to estrogen's vasodilatory and RAAS-modulating effects that is lost after menopause, when hypertension prevalence rises."
+  - target: 01-human/03-molecular/von-willebrand-factor
+    relation: connects-to
+    note: "Endothelial activation: the endothelial dysfunction of hypertension (nitric oxide already mapped) raises von Willebrand factor, a marker of the endothelial injury and prothrombotic state that link high blood pressure to its thrombotic complications."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "Cardiometabolic overlap: GLP-1 receptor agonists modestly lower blood pressure alongside weight and glucose (SGLT2 and insulin already mapped), linking the incretin axis to the metabolic management of the hypertension that clusters with obesity and diabetes."
+  - target: 01-human/03-molecular/pth
+    relation: connects-to
+    note: "Secondary hypertension: primary hyperparathyroidism raises blood pressure through parathyroid hormone effects on calcium (already mapped) and vascular tone, one of the endocrine secondary causes of hypertension that are potentially curable."
 ---
 
 # Hypertension
@@ -622,6 +631,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium and vascular tone: magnesium relaxes vascular smooth muscle and modulates the sodium, potassium and calcium (all already mapped) handling that sets blood pressure, and low magnesium is associated with higher blood pressure.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Hypertensive heart disease: sustained pressure overload thickens the left ventricle and predisposes to myocardial infarction, and troponin elevation marks the cardiac injury of the hypertensive heart disease that is a major end-organ complication.
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Sex differences: premenopausal women have lower blood pressure than men, an advantage attributed to estrogen's vasodilatory and RAAS-modulating effects that is lost after menopause, when hypertension prevalence rises.
+- `connects-to` → **[Von Willebrand factor](../../03-molecular/von-willebrand-factor/README.md)** — Endothelial activation: the endothelial dysfunction of hypertension (nitric oxide already mapped) raises von Willebrand factor, a marker of the endothelial injury and prothrombotic state that link high blood pressure to its thrombotic complications.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Cardiometabolic overlap: GLP-1 receptor agonists modestly lower blood pressure alongside weight and glucose (SGLT2 and insulin already mapped), linking the incretin axis to the metabolic management of the hypertension that clusters with obesity and diabetes.
+- `connects-to` → **[PTH](../../03-molecular/pth/README.md)** — Secondary hypertension: primary hyperparathyroidism raises blood pressure through parathyroid hormone effects on calcium (already mapped) and vascular tone, one of the endocrine secondary causes of hypertension that are potentially curable.
 
 ## Pathology
 
