@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/03-molecular/ctla-4
     relation: connects-to
     note: "Peripheral tolerance: CTLA-4 is a key inhibitory checkpoint that restrains T-cell activation and enforces self-tolerance (alongside PD-1 already mapped), preventing autoimmunity and serving as a target that immunotherapy releases against tumours."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "Affinity maturation: within lymphoid germinal centres, B cells (already mapped) undergo somatic hypermutation and class-switching under T-follicular-helper guidance, the reaction that refines antibody affinity and generates memory in the adaptive immune system."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Immunoregulation: TGF-beta is a central immunoregulatory cytokine driving regulatory T-cell differentiation and IgA class-switching, restraining the immune system alongside IL-10 (already mapped) to prevent excess inflammation and autoimmunity."
+  - target: 01-human/03-molecular/baff
+    relation: connects-to
+    note: "B-cell survival: BAFF is the key survival cytokine for B cells (already mapped), setting the size of the mature B-cell pool, and its excess drives the autoantibody production targeted in autoimmune disease."
 ---
 
 # Immune System
@@ -565,6 +574,9 @@ After primary response contraction, long-lived memory cells persist:
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell clonal expansion: IL-2 is the central growth factor driving the proliferation of antigen-activated T cells, the reaction that turns a few specific lymphocytes into the army of the adaptive immune response, and the basis of IL-2-based immunotherapies.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Type-2 and humoral immunity: IL-4 directs the Th2 arm of the immune system, driving B-cell antibody class-switching and the response to parasites and allergens, balancing the Th1/interferon-gamma (already mapped) axis.
 - `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Peripheral tolerance: CTLA-4 is a key inhibitory checkpoint that restrains T-cell activation and enforces self-tolerance (alongside PD-1 already mapped), preventing autoimmunity and serving as a target that immunotherapy releases against tumours.
+- `connects-to` → **[Germinal center](../../05-tissue/germinal-center/README.md)** — Affinity maturation: within lymphoid germinal centres, B cells (already mapped) undergo somatic hypermutation and class-switching under T-follicular-helper guidance, the reaction that refines antibody affinity and generates memory in the adaptive immune system.
+- `connects-to` → **[TGF-beta](../../03-molecular/tgf-beta/README.md)** — Immunoregulation: TGF-beta is a central immunoregulatory cytokine driving regulatory T-cell differentiation and IgA class-switching, restraining the immune system alongside IL-10 (already mapped) to prevent excess inflammation and autoimmunity.
+- `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — B-cell survival: BAFF is the key survival cytokine for B cells (already mapped), setting the size of the mature B-cell pool, and its excess drives the autoantibody production targeted in autoimmune disease.
 
 ## Pathology
 

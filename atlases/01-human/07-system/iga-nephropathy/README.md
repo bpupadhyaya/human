@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/il-4
     relation: connects-to
     note: "Mucosal IgA dysregulation: Th2 cytokines including IL-4 promote IgA class-switching and the aberrant mucosal-type IgA response that, when galactose-deficient, drives IgA nephropathy, linking the gut-associated immune system to the kidney."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Mineralocorticoid blockade: aldosterone drives the fibrosis and proteinuria of progressive IgA nephropathy, and mineralocorticoid-receptor antagonists add to the RAAS blockade (angiotensin II already mapped) that slows its decline."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 IgA drive: IL-13, with the IL-4 (already mapped) type-2 response, promotes the aberrant mucosal IgA class-switching that generates the galactose-deficient IgA1 initiating IgA nephropathy."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Renal anaemia: as IgA nephropathy progresses to chronic kidney disease (already mapped), failing erythropoietin production lowers red-cell production, adding the anaemia of renal failure to the haematuria (haemoglobin already mapped)."
 ---
 
 # IgA Nephropathy
@@ -615,6 +624,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Anti-glycan autoantibodies: the four-hit pathogenesis of IgA nephropathy involves IgG (and IgA) autoantibodies against galactose-deficient IgA1 (secretory IgA already mapped), forming the immune complexes that deposit in the glomerular mesangium.
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Haematuria: mesangial injury in IgA nephropathy lets red cells escape into the urine, and episodic visible or persistent microscopic haematuria (often after mucosal infection) is the cardinal clinical sign, with haemoglobin appearing in the urine.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Mucosal IgA dysregulation: Th2 cytokines including IL-4 promote IgA class-switching and the aberrant mucosal-type IgA response that, when galactose-deficient, drives IgA nephropathy, linking the gut-associated immune system to the kidney.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Mineralocorticoid blockade: aldosterone drives the fibrosis and proteinuria of progressive IgA nephropathy, and mineralocorticoid-receptor antagonists add to the RAAS blockade (angiotensin II already mapped) that slows its decline.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 IgA drive: IL-13, with the IL-4 (already mapped) type-2 response, promotes the aberrant mucosal IgA class-switching that generates the galactose-deficient IgA1 initiating IgA nephropathy.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Renal anaemia: as IgA nephropathy progresses to chronic kidney disease (already mapped), failing erythropoietin production lowers red-cell production, adding the anaemia of renal failure to the haematuria (haemoglobin already mapped).
 
 ---
 
