@@ -418,6 +418,15 @@ cross_links:
   - target: 01-human/03-molecular/progesterone
     relation: connects-to
     note: "Neurosteroid modulation: progesterone-derived neurosteroids modulate GABAergic (already mapped) signalling in the developing brain, and prenatal sex-steroid exposure alongside estrogen (already mapped) is implicated in the male preponderance of autism."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Neuroinflammatory eicosanoids: prostaglandins from the maternal immune activation and the microglial (already mapped) cyclooxygenase pathway (IL-6 and IL-17 already mapped) are implicated in the altered neurodevelopment of a subset of autism."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immune counter-regulation: IL-10 opposes the pro-inflammatory signals (IL-6, TNF and IL-1 already mapped) of the maternal immune activation and the immune dysregulation reported in a subset of autism, part of its immune dimension."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative stress: mitochondrial dysfunction and heightened oxidative stress, to which xanthine oxidase contributes, are reported in autism (NRF2 already mapped), and the resulting reactive oxygen species may affect the developing neurons (already mapped)."
 ---
 
 # Autism Spectrum Disorder
@@ -688,6 +697,9 @@ The neural basis of ASD social deficits involves dysfunction of the **social bra
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Maternal immune activation: shifts in the type-2 cytokine IL-4 balance during maternal immune activation, alongside the IL-6 and IL-17 (already mapped) implicated in animal models, are part of the prenatal immune milieu linked to autism risk.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Immune dysregulation: altered IL-2 and regulatory-T-cell function are reported in autism and in the mothers of affected children, part of the immune dysregulation that accompanies a subset of the disorder.
 - `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Neurosteroid modulation: progesterone-derived neurosteroids modulate GABAergic (already mapped) signalling in the developing brain, and prenatal sex-steroid exposure alongside estrogen (already mapped) is implicated in the male preponderance of autism.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Neuroinflammatory eicosanoids: prostaglandins from the maternal immune activation and the microglial (already mapped) cyclooxygenase pathway (IL-6 and IL-17 already mapped) are implicated in the altered neurodevelopment of a subset of autism.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immune counter-regulation: IL-10 opposes the pro-inflammatory signals (IL-6, TNF and IL-1 already mapped) of the maternal immune activation and the immune dysregulation reported in a subset of autism, part of its immune dimension.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative stress: mitochondrial dysfunction and heightened oxidative stress, to which xanthine oxidase contributes, are reported in autism (NRF2 already mapped), and the resulting reactive oxygen species may affect the developing neurons (already mapped).
 
 [^maenner-2023-asd-prevalence]: Maenner MJ, Warren Z, Williams AR, et al. Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 2020. *MMWR Surveill Summ.* 2023;72(2):1-14. [doi:10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1) · [PubMed 36952216](https://pubmed.ncbi.nlm.nih.gov/36952216/)
 [^lord-2020-asd-review]: Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum disorder. *Lancet.* 2018;392(10146):508-520. [doi:10.1016/S0140-6736(18)31129-2](https://doi.org/10.1016/S0140-6736(18)31129-2) · [PubMed 30078460](https://pubmed.ncbi.nlm.nih.gov/30078460/)
