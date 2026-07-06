@@ -418,6 +418,15 @@ cross_links:
   - target: 01-human/03-molecular/pth
     relation: connects-to
     note: "Renal-bone axis: the chronic kidney disease that both causes and results from gout disturbs the parathyroid hormone-calcium-phosphate axis, tying urate retention to the mineral-bone derangements of renal impairment."
+  - target: 01-human/03-molecular/endothelin-1
+    relation: connects-to
+    note: "Uric-acid endothelial dysfunction: soluble urate impairs endothelial nitric oxide (already mapped) and raises endothelin-1, promoting the vasoconstriction and hypertension (already mapped) through which hyperuricaemia contributes to cardiovascular risk."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "RAAS activation: hyperuricaemia activates the renin-angiotensin-aldosterone system (angiotensin-II and aldosterone already mapped), a mechanism linking urate to hypertension and renal afferent-arteriolar disease."
+  - target: 01-human/03-molecular/fibrinogen
+    relation: connects-to
+    note: "Systemic inflammation: gout is a systemic inflammatory state, and the acute-phase fibrinogen rises with the IL-6 and IL-1 (already mapped) of flares, part of the inflammatory burden that raises cardiovascular risk."
 ---
 
 # Gout
@@ -644,6 +653,9 @@ The central mechanism linking MSU crystals to acute gouty arthritis is **NLRP3 i
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Renal urate handling: the renin-angiotensin-aldosterone system (angiotensin II already mapped) and volume status modulate renal urate excretion, and the diuretic-induced volume contraction that activates it raises serum urate and precipitates gout.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Metabolic treatment overlap: GLP-1 receptor agonists lower body weight and, with SGLT2 inhibitors (already mapped), reduce serum urate and gout flares, linking the incretin axis to the metabolic management of hyperuricaemia.
 - `connects-to` → **[PTH](../../03-molecular/pth/README.md)** — Renal-bone axis: the chronic kidney disease that both causes and results from gout disturbs the parathyroid hormone-calcium-phosphate axis, tying urate retention to the mineral-bone derangements of renal impairment.
+- `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Uric-acid endothelial dysfunction: soluble urate impairs endothelial nitric oxide (already mapped) and raises endothelin-1, promoting the vasoconstriction and hypertension (already mapped) through which hyperuricaemia contributes to cardiovascular risk.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — RAAS activation: hyperuricaemia activates the renin-angiotensin-aldosterone system (angiotensin-II and aldosterone already mapped), a mechanism linking urate to hypertension and renal afferent-arteriolar disease.
+- `connects-to` → **[Fibrinogen](../../03-molecular/fibrinogen/README.md)** — Systemic inflammation: gout is a systemic inflammatory state, and the acute-phase fibrinogen rises with the IL-6 and IL-1 (already mapped) of flares, part of the inflammatory burden that raises cardiovascular risk.
 
 [^dalbeth-2019-gout-primer]: Dalbeth N, Choi HK, Joosten LAB, et al. Gout. *Nat Rev Dis Primers.* 2019;5(1):69. [doi:10.1038/s41572-019-0115-y](https://doi.org/10.1038/s41572-019-0115-y) · [PubMed 31558729](https://pubmed.ncbi.nlm.nih.gov/31558729/)
 [^martinon-2006-nlrp3-gout]: Martinon F, Pétrilli V, Mayor A, Tardivel A, Tschopp J. Gout-associated uric acid crystals activate the NALP3 inflammasome. *Nature.* 2006;440(7081):237-241. [doi:10.1038/nature04516](https://doi.org/10.1038/nature04516) · [PubMed 16407889](https://pubmed.ncbi.nlm.nih.gov/16407889/)
