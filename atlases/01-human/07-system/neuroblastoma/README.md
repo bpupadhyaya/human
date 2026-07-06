@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/pd-1
     relation: connects-to
     note: "Checkpoint context: neuroblastoma is an immunologically cold tumour with low mutational burden, and PD-1 checkpoint blockade is being tested in combination with anti-GD2 and other therapies to boost the anti-tumour response."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Marrow infiltration: bone-marrow metastasis (already mapped) by neuroblastoma and the intensive multidrug chemotherapy suppress erythropoiesis, lowering haemoglobin and requiring transfusion in high-risk disease."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Anthracycline cardiotoxicity: the doxorubicin in high-risk neuroblastoma regimens is cardiotoxic, and troponin elevation helps detect the cumulative myocardial injury that threatens these very young long-term survivors."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive microenvironment: IL-10 helps make neuroblastoma an immunologically cold tumour (PD-1 already mapped), dampening the T-cell response, one reason antibody-based anti-GD2 rather than checkpoint approaches have led its immunotherapy."
 ---
 
 # Neuroblastoma
@@ -668,6 +677,9 @@ Stage MS (metastatic, <18 months, skin/liver/bone marrow only, MYCN wild-type): 
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Anti-GD2 immunotherapy: high-risk neuroblastoma is treated with the anti-GD2 antibody dinutuximab combined with IL-2 and GM-CSF, and IL-2-driven immune-cell activation (perforin already mapped) enhances antibody-dependent killing of the tumour.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immune escape: neuroblastoma frequently downregulates MHC antigen presentation to evade T cells, one reason antibody-based (GD2) rather than T-cell approaches have led its immunotherapy, though restoring presentation is an active strategy.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Checkpoint context: neuroblastoma is an immunologically cold tumour with low mutational burden, and PD-1 checkpoint blockade is being tested in combination with anti-GD2 and other therapies to boost the anti-tumour response.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Marrow infiltration: bone-marrow metastasis (already mapped) by neuroblastoma and the intensive multidrug chemotherapy suppress erythropoiesis, lowering haemoglobin and requiring transfusion in high-risk disease.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Anthracycline cardiotoxicity: the doxorubicin in high-risk neuroblastoma regimens is cardiotoxic, and troponin elevation helps detect the cumulative myocardial injury that threatens these very young long-term survivors.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 helps make neuroblastoma an immunologically cold tumour (PD-1 already mapped), dampening the T-cell response, one reason antibody-based anti-GD2 rather than checkpoint approaches have led its immunotherapy.
 
 [^yu-2010-dinutuximab-nb]: Yu AL, Gilman AL, Ozkaynak MF, et al. Anti-GD2 antibody with GM-CSF, interleukin-2, and isotretinoin for neuroblastoma. *N Engl J Med.* 2010;363(14):1324-1334. [doi:10.1056/NEJMoa0911123](https://doi.org/10.1056/NEJMoa0911123) · [PubMed 20879881](https://pubmed.ncbi.nlm.nih.gov/20879881/)
 [^park-2019-tandem-sct-nb]: Park JR, Kreissman SG, London WB, et al. Effect of tandem autologous stem cell transplant vs single transplant on event-free survival in patients with high-risk neuroblastoma: a randomized clinical trial. *JAMA.* 2019;322(8):746-755. [doi:10.1001/jama.2019.11642](https://doi.org/10.1001/jama.2019.11642) · [PubMed 31454023](https://pubmed.ncbi.nlm.nih.gov/31454023/)

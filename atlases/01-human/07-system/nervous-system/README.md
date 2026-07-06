@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "Synaptic modulation: zinc is co-released with glutamate (already mapped) at many synapses and modulates NMDA and other receptors, a trace-metal neuromodulator important to signalling and to neural development."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Pain and fever: prostaglandins sensitise nociceptors and act on the hypothalamus to raise the temperature set-point, the eicosanoid signalling through which the nervous system generates pain and fever, targeted by NSAIDs."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Neuroinflammation and plasticity: TNF from glia (IL-6 and IL-1 already mapped) both drives neuroinflammation and, at low levels, tunes synaptic strength through homeostatic scaling, a cytokine link between the immune and nervous systems."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "Gut-brain axis: GLP-1 acts on receptors in the hypothalamus and brainstem to signal satiety and modulate reward (leptin and insulin already mapped), a gut-derived hormone integrated by the nervous system to regulate feeding."
 ---
 
 # Nervous System
@@ -579,6 +588,9 @@ Distributed cortical networks underlie language (Broca's area, Wernicke's area, 
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Repolarisation and resting potential: potassium efflux through voltage-gated and leak channels repolarises the neuron after each action potential and sets the resting membrane potential, complementing the sodium influx (already mapped) that fires the nervous system.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — NMDA-receptor gate: magnesium blocks the NMDA glutamate receptor at rest, and its voltage-dependent removal makes the receptor a coincidence detector, a mechanism central to the synaptic plasticity and learning of the nervous system.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Synaptic modulation: zinc is co-released with glutamate (already mapped) at many synapses and modulates NMDA and other receptors, a trace-metal neuromodulator important to signalling and to neural development.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Pain and fever: prostaglandins sensitise nociceptors and act on the hypothalamus to raise the temperature set-point, the eicosanoid signalling through which the nervous system generates pain and fever, targeted by NSAIDs.
+- `connects-to` → **[TNF-alpha](../../03-molecular/tnf-alpha/README.md)** — Neuroinflammation and plasticity: TNF from glia (IL-6 and IL-1 already mapped) both drives neuroinflammation and, at low levels, tunes synaptic strength through homeostatic scaling, a cytokine link between the immune and nervous systems.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Gut-brain axis: GLP-1 acts on receptors in the hypothalamus and brainstem to signal satiety and modulate reward (leptin and insulin already mapped), a gut-derived hormone integrated by the nervous system to regulate feeding.
 
 ## Pathology
 
