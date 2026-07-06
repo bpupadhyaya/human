@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/il-12
     relation: connects-to
     note: "Th1 antitumour immunity: the microsatellite-instable tumours of Lynch syndrome elicit a brisk Th1 and cytotoxic infiltrate, and IL-12-driven Th1 polarisation (interferon-gamma already mapped) is part of the antitumour immunity that immunotherapy amplifies."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Occult bleeding: the right-sided colorectal cancers of Lynch syndrome bleed chronically, and the resulting iron-deficiency anaemia lowering haemoglobin is often the sign that brings the tumour, or the syndrome, to attention."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Th1 orchestration: CD4 helper T cells polarised to Th1 (IL-12 and interferon-gamma already mapped) coordinate the brisk antitumour infiltrate of the microsatellite-instable Lynch cancers, supporting the CD8 (already mapped) response that immunotherapy amplifies."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive counter-regulation: IL-10 in the tumour microenvironment restrains the strong Th1 and cytotoxic response (PD-1 already mapped) to the microsatellite-instable Lynch tumours, one brake on the immunity that checkpoint blockade releases."
 ---
 
 # Lynch Syndrome
@@ -671,6 +680,9 @@ MSI-H stage II CRC: adjuvant 5-FU/leucovorin does NOT improve OS (may be harmful
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — MSI neoantigens: mismatch-repair deficiency generates abundant frameshift neoantigens presented on MHC, making Lynch tumours highly immunogenic and checkpoint-responsive (PD-1/CTLA-4 already mapped), and the rationale for shared frameshift-neoantigen vaccines.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell expansion: IL-2-driven proliferation of the tumour-infiltrating T cells underlies the strong immune response to the microsatellite-instable cancers of Lynch syndrome, the basis of their responsiveness to immunotherapy.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 antitumour immunity: the microsatellite-instable tumours of Lynch syndrome elicit a brisk Th1 and cytotoxic infiltrate, and IL-12-driven Th1 polarisation (interferon-gamma already mapped) is part of the antitumour immunity that immunotherapy amplifies.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Occult bleeding: the right-sided colorectal cancers of Lynch syndrome bleed chronically, and the resulting iron-deficiency anaemia lowering haemoglobin is often the sign that brings the tumour, or the syndrome, to attention.
+- `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — Th1 orchestration: CD4 helper T cells polarised to Th1 (IL-12 and interferon-gamma already mapped) coordinate the brisk antitumour infiltrate of the microsatellite-instable Lynch cancers, supporting the CD8 (already mapped) response that immunotherapy amplifies.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive counter-regulation: IL-10 in the tumour microenvironment restrains the strong Th1 and cytotoxic response (PD-1 already mapped) to the microsatellite-instable Lynch tumours, one brake on the immunity that checkpoint blockade releases.
 
 [^bonadona-2011-lynch-risks]: Bonadona V, Bonaïti B, Olschwang S, et al. Cancer risks associated with germline mutations in MLH1, MSH2, and MSH6 genes in Lynch syndrome. *JAMA.* 2011;305(22):2304-2310. [doi:10.1001/jama.2011.743](https://doi.org/10.1001/jama.2011.743) · [PubMed 21642683](https://pubmed.ncbi.nlm.nih.gov/21642683/)
 [^lynch-2015-lynch-review]: Lynch HT, Snyder CL, Shaw TG, et al. Milestones of Lynch syndrome: 1895-2015. *Nat Rev Cancer.* 2015;15(3):181-194. [doi:10.1038/nrc3878](https://doi.org/10.1038/nrc3878) · [PubMed 25673086](https://pubmed.ncbi.nlm.nih.gov/25673086/)

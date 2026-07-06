@@ -401,6 +401,15 @@ cross_links:
   - target: 01-human/03-molecular/il-12
     relation: connects-to
     note: "Th1 differentiation: IL-12 from dendritic cells drives naive T cells toward the Th1 programme and activates NK cells, directing the cell-mediated immunity that the lymphatic system mounts against intracellular pathogens."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Cell-mediated effector: interferon-gamma from the Th1 cells and NK cells the lymphatic system marshals (IL-12 already mapped) activates macrophages and cytotoxic responses, the effector cytokine of the cell-mediated immunity against intracellular pathogens."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immune regulation: IL-10 from regulatory lymphocytes in lymphoid tissue restrains the immune response, balancing the Th1 (IL-12 already mapped) and Th2 programmes to resolve inflammation and preserve tolerance within the lymphatic system."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "Vessel structure and lymphoedema: collagen forms the framework of lymphatic vessels and lymph nodes, and when lymph drainage fails, the chronic protein-rich stasis drives the fibrosis and collagen deposition of lymphoedema."
 ---
 
 # Lymphatic System
@@ -638,6 +647,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Peripheral tolerance: CTLA-4 restrains T-cell activation in lymph nodes and enforces self-tolerance (alongside PD-1 already mapped), a checkpoint that keeps the lymphatic system's constant immune surveillance from turning on the host.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Type-2 and humoral arm: IL-4 drives the Th2 response and B-cell antibody class-switching within lymphoid tissue, one of the polarised programmes (balanced against Th1) the lymphatic system uses to tailor immunity to different threats.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 differentiation: IL-12 from dendritic cells drives naive T cells toward the Th1 programme and activates NK cells, directing the cell-mediated immunity that the lymphatic system mounts against intracellular pathogens.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Cell-mediated effector: interferon-gamma from the Th1 cells and NK cells the lymphatic system marshals (IL-12 already mapped) activates macrophages and cytotoxic responses, the effector cytokine of the cell-mediated immunity against intracellular pathogens.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immune regulation: IL-10 from regulatory lymphocytes in lymphoid tissue restrains the immune response, balancing the Th1 (IL-12 already mapped) and Th2 programmes to resolve inflammation and preserve tolerance within the lymphatic system.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Vessel structure and lymphoedema: collagen forms the framework of lymphatic vessels and lymph nodes, and when lymph drainage fails, the chronic protein-rich stasis drives the fibrosis and collagen deposition of lymphoedema.
 
 ## Pathology
 
