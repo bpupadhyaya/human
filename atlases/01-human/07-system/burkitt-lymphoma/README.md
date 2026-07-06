@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/troponin-complex
     relation: connects-to
     note: "Anthracycline cardiotoxicity: the intensive anthracycline-containing chemotherapy that cures most Burkitt lymphoma is cardiotoxic, and troponin elevation helps detect the myocardial injury threatening long-term survivors."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive microenvironment: IL-10, whose viral homologue is encoded by the Epstein-Barr virus (LMP1 already mapped) of endemic Burkitt lymphoma, dampens the anti-tumour T-cell response (PD-1 already mapped), part of the immune evasion of the tumour."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Tumour angiogenesis: VEGF-driven angiogenesis supplies the extraordinarily proliferative Burkitt lymphoma (HIF-1-alpha already mapped), part of the microenvironment sustaining the fastest-growing human tumour."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Transfusion and anaemia: the anaemia of marrow involvement and intensive chemotherapy (haemoglobin already mapped) requires red-cell transfusion in Burkitt lymphoma, whose repeated support can load the body with iron."
 ---
 
 # Burkitt Lymphoma
@@ -678,6 +687,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Marrow involvement: bone-marrow infiltration by Burkitt lymphoma and its intensive chemotherapy lower haemoglobin, and the resulting anaemia, with the other cytopenias, adds to the acute morbidity of this rapidly growing tumour.
 - `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Tumour-lysis acidosis: the extreme proliferation of Burkitt lymphoma, lysed by chemotherapy, releases acids that, with lactate from the metabolic stress, produce the metabolic acidosis of tumour-lysis syndrome (potassium and urate already mapped).
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Anthracycline cardiotoxicity: the intensive anthracycline-containing chemotherapy that cures most Burkitt lymphoma is cardiotoxic, and troponin elevation helps detect the myocardial injury threatening long-term survivors.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10, whose viral homologue is encoded by the Epstein-Barr virus (LMP1 already mapped) of endemic Burkitt lymphoma, dampens the anti-tumour T-cell response (PD-1 already mapped), part of the immune evasion of the tumour.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Tumour angiogenesis: VEGF-driven angiogenesis supplies the extraordinarily proliferative Burkitt lymphoma (HIF-1-alpha already mapped), part of the microenvironment sustaining the fastest-growing human tumour.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Transfusion and anaemia: the anaemia of marrow involvement and intensive chemotherapy (haemoglobin already mapped) requires red-cell transfusion in Burkitt lymphoma, whose repeated support can load the body with iron.
 
 ---
 

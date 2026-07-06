@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Vascular and pigment biology: endothelin-1 signalling (already mapped) in the lentigines and myxomas intersects with nitric oxide in regulating the cutaneous vascular tone and melanocyte biology behind the pigmented lesions of Carney complex."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Adrenal involvement: beyond the cortisol-secreting PPNAD (cortisol and ACTH already mapped), the pigmented nodular adrenal disease of Carney complex reflects the constitutive PKA activity (PRKAR1A already mapped) that can also perturb aldosterone-producing adrenal tissue."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "GH-axis metabolic effects: the growth-hormone-secreting pituitary tumours of Carney complex (GH and IGF-1 already mapped) cause the insulin resistance and glucose intolerance of acromegaly, a metabolic consequence of the endocrine overactivity."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative tumour milieu: the constitutive PKA activity from PRKAR1A loss (already mapped) dysregulates cellular metabolism, and the resulting oxidative stress, to which xanthine oxidase contributes, is part of the milieu of the tumours of Carney complex."
 ---
 
 # Carney Complex
@@ -665,6 +674,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Myxoma stroma: the myxomas of Carney complex are myxoid mesenchymal tumours whose fibroblast (already mapped) proliferation and matrix are supported by PDGF and TGF-beta (already mapped) signalling in the loose stroma.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Growth-factor signalling: FGFR and other receptor tyrosine kinases feed into the AKT and MAPK pathways (already mapped) that, unleashed by PRKAR1A loss and constitutive PKA activity, drive the endocrine and mesenchymal tumours of Carney complex.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Vascular and pigment biology: endothelin-1 signalling (already mapped) in the lentigines and myxomas intersects with nitric oxide in regulating the cutaneous vascular tone and melanocyte biology behind the pigmented lesions of Carney complex.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Adrenal involvement: beyond the cortisol-secreting PPNAD (cortisol and ACTH already mapped), the pigmented nodular adrenal disease of Carney complex reflects the constitutive PKA activity (PRKAR1A already mapped) that can also perturb aldosterone-producing adrenal tissue.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — GH-axis metabolic effects: the growth-hormone-secreting pituitary tumours of Carney complex (GH and IGF-1 already mapped) cause the insulin resistance and glucose intolerance of acromegaly, a metabolic consequence of the endocrine overactivity.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative tumour milieu: the constitutive PKA activity from PRKAR1A loss (already mapped) dysregulates cellular metabolism, and the resulting oxidative stress, to which xanthine oxidase contributes, is part of the milieu of the tumours of Carney complex.
 
 ---
 
