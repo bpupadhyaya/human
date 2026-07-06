@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Tumour lysis: the aggressive, high-burden blastoid variant of mantle cell lymphoma is prone to tumour-lysis syndrome on treatment, releasing purines that xanthine oxidase converts to uric acid, managed with allopurinol or rasburicase."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "BTK-inhibitor cardiotoxicity: the BTK inhibitors central to mantle cell lymphoma therapy (BTK already mapped) cause atrial fibrillation and, rarely, ventricular arrhythmia, and troponin elevation marks the myocardial injury of this major class toxicity."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Marrow involvement: bone-marrow infiltration (already mapped) by mantle cell lymphoma and its intensive chemoimmunotherapy lower haemoglobin, the anaemia with other cytopenias marking advanced disease and treatment toxicity."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Tumour-lysis acidosis: the rapid lysis of the high-burden blastoid mantle cell lymphoma by chemotherapy releases acids that, with lactate, produce the metabolic acidosis of tumour-lysis syndrome (urate already mapped)."
 ---
 
 # Mantle Cell Lymphoma
@@ -653,6 +662,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immunotherapy: MHC class II antigen presentation shapes the T-cell response to mantle cell lymphoma, relevant to the CD19 CAR-T and bispecific-antibody therapies that have transformed treatment of relapsed disease.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — CD19 CAR-T: IL-2-driven T-cell expansion powers the brexucabtagene autoleucel CD19 CAR-T therapy (perforin already mapped) that produces durable remissions in relapsed, BTK-inhibitor-exposed mantle cell lymphoma.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Tumour lysis: the aggressive, high-burden blastoid variant of mantle cell lymphoma is prone to tumour-lysis syndrome on treatment, releasing purines that xanthine oxidase converts to uric acid, managed with allopurinol or rasburicase.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — BTK-inhibitor cardiotoxicity: the BTK inhibitors central to mantle cell lymphoma therapy (BTK already mapped) cause atrial fibrillation and, rarely, ventricular arrhythmia, and troponin elevation marks the myocardial injury of this major class toxicity.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Marrow involvement: bone-marrow infiltration (already mapped) by mantle cell lymphoma and its intensive chemoimmunotherapy lower haemoglobin, the anaemia with other cytopenias marking advanced disease and treatment toxicity.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Tumour-lysis acidosis: the rapid lysis of the high-burden blastoid mantle cell lymphoma by chemotherapy releases acids that, with lactate, produce the metabolic acidosis of tumour-lysis syndrome (urate already mapped).
 
 ---
 

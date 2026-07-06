@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "Mineralocorticoid receptors: aldosterone acts on brain mineralocorticoid receptors that, balanced against glucocorticoid receptors (already mapped), tune the stress response, and their dysregulation is implicated in the HPA-axis abnormalities of depression."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Neurogenesis: VEGF supports the hippocampal neurogenesis and angiogenesis (BDNF already mapped) that antidepressants promote, a vascular-neurotrophic mechanism implicated in recovery from depression and in the reduced hippocampal volume seen in the illness."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Neuroinflammation: prostaglandins from activated microglia (already mapped) contribute to the neuroinflammatory dimension of depression, and anti-inflammatory agents that block their synthesis are studied as adjuncts in the inflammatory subtype."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Nitrergic mood signalling: nitric oxide from neuronal nitric oxide synthase modulates monoamine (serotonin already mapped) and glutamatergic transmission, and dysregulated NO-cGMP signalling is implicated in the neurobiology of depression."
 ---
 
 # Major Depressive Disorder
@@ -700,6 +709,9 @@ Approximately 30–40% of MDD patients have elevated inflammatory markers:
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — Brain renin-angiotensin: central angiotensin II modulates stress reactivity and neuroinflammation, and angiotensin-blocking antihypertensives have been associated with lower depression risk, implicating the brain RAS in mood regulation.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Metabolic depression: insulin resistance and depression are bidirectionally linked, sharing inflammatory and HPA-axis (cortisol already mapped) pathways, and impaired brain insulin signalling is implicated in the metabolic subtype of major depressive disorder.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Mineralocorticoid receptors: aldosterone acts on brain mineralocorticoid receptors that, balanced against glucocorticoid receptors (already mapped), tune the stress response, and their dysregulation is implicated in the HPA-axis abnormalities of depression.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Neurogenesis: VEGF supports the hippocampal neurogenesis and angiogenesis (BDNF already mapped) that antidepressants promote, a vascular-neurotrophic mechanism implicated in recovery from depression and in the reduced hippocampal volume seen in the illness.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Neuroinflammation: prostaglandins from activated microglia (already mapped) contribute to the neuroinflammatory dimension of depression, and anti-inflammatory agents that block their synthesis are studied as adjuncts in the inflammatory subtype.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Nitrergic mood signalling: nitric oxide from neuronal nitric oxide synthase modulates monoamine (serotonin already mapped) and glutamatergic transmission, and dysregulated NO-cGMP signalling is implicated in the neurobiology of depression.
 
 [^cipriani-2018-antidepressants-meta]: Cipriani A, Furukawa TA, Salanti G, et al. Comparative efficacy and acceptability of 21 antidepressant drugs for acute treatment of adults with major depressive disorder. *Lancet.* 2018;391(10128):1357-1366. [doi:10.1016/S0140-6736(17)32802-7](https://doi.org/10.1016/S0140-6736(17)32802-7) · [PubMed 29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/)
 [^zarate-2006-ketamine-rapid]: Zarate CA Jr, Singh JB, Carlson PJ, et al. A randomized trial of an N-methyl-D-aspartate antagonist in treatment-resistant major depression. *Arch Gen Psychiatry.* 2006;63(8):856-864. [doi:10.1001/archpsyc.63.8.856](https://doi.org/10.1001/archpsyc.63.8.856) · [PubMed 16894061](https://pubmed.ncbi.nlm.nih.gov/16894061/)
