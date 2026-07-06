@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/hemoglobin
     relation: connects-to
     note: "Chemotherapy anaemia: the intensive chemotherapy used in synovial sarcoma is myelosuppressive, lowering haemoglobin and causing the anaemia that requires transfusion and growth-factor support during treatment."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive microenvironment: IL-10 in the tumour microenvironment dampens the anti-tumour T-cell response (PD-1 already mapped), part of the immune evasion relevant to the NY-ESO-1 TCR-T cell therapy (CD8 already mapped) approved for synovial sarcoma."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative and lysis stress: the doxorubicin-ifosfamide chemotherapy of synovial sarcoma generates oxidative stress and, in bulky disease, cell lysis releasing purines that xanthine oxidase converts to uric acid, adding oxidative and tumour-lysis burden."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the vascular tone and angiogenesis of synovial sarcoma, part of the stromal microenvironment of this deep soft-tissue sarcoma of young adults."
 ---
 
 # Synovial Sarcoma
@@ -657,6 +666,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Engineered T-cell therapy: IL-2-driven T-cell expansion underlies the NY-ESO-1-directed TCR T-cell therapy (afamitresgene autoleucel), the first cell therapy approved for synovial sarcoma, which characteristically expresses cancer-testis antigens.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Anthracycline cardiotoxicity: the doxorubicin-based chemotherapy used for synovial sarcoma is cardiotoxic, and troponin elevation helps detect the cumulative myocardial injury that limits its cumulative dose.
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Chemotherapy anaemia: the intensive chemotherapy used in synovial sarcoma is myelosuppressive, lowering haemoglobin and causing the anaemia that requires transfusion and growth-factor support during treatment.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the tumour microenvironment dampens the anti-tumour T-cell response (PD-1 already mapped), part of the immune evasion relevant to the NY-ESO-1 TCR-T cell therapy (CD8 already mapped) approved for synovial sarcoma.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative and lysis stress: the doxorubicin-ifosfamide chemotherapy of synovial sarcoma generates oxidative stress and, in bulky disease, cell lysis releasing purines that xanthine oxidase converts to uric acid, adding oxidative and tumour-lysis burden.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the vascular tone and angiogenesis of synovial sarcoma, part of the stromal microenvironment of this deep soft-tissue sarcoma of young adults.
 
 ---
 

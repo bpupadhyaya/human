@@ -409,6 +409,15 @@ cross_links:
   - target: 01-human/03-molecular/mhc-class-ii
     relation: connects-to
     note: "HLA and autoantibodies: specific HLA class II alleles determine which autoantibody a patient develops (anti-topoisomerase, anti-centromere or anti-RNA-polymerase III), and MHC class II antigen presentation drives the autoimmunity of systemic sclerosis."
+  - target: 01-human/03-molecular/adamts13
+    relation: connects-to
+    note: "Renal-crisis microangiopathy: scleroderma renal crisis causes a thrombotic microangiopathy with normal ADAMTS13 (unlike thrombotic thrombocytopenic purpura), the endothelial injury driving the haemolysis and acute kidney failure."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative fibrosis: reactive oxygen species, to which xanthine oxidase contributes, are generated in the hypoxic, inflamed tissues of systemic sclerosis, and this oxidative stress (NRF2 already mapped) helps drive the endothelial injury and fibroblast activation."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunoregulatory balance: the anti-inflammatory IL-10 counters the profibrotic type-2 and type-17 responses (IL-4, IL-13 and IL-17 already mapped), and the imbalance between them shapes the autoimmunity and fibrosis of systemic sclerosis."
 ---
 
 # Systemic Sclerosis
@@ -653,6 +662,9 @@ Identical to IPAH: medial hypertrophy, intimal fibrosis, concentric laminar inti
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Gut bleeding and haemolysis: gastric antral vascular ectasia (watermelon stomach) causes chronic gastrointestinal bleeding in systemic sclerosis, and scleroderma renal crisis brings microangiopathic haemolysis, both lowering haemoglobin.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Myocardial fibrosis: systemic sclerosis can directly fibrose the myocardium and conduction system, and troponin elevation marks the primary cardiac involvement that, alongside pulmonary hypertension (BNP already mapped), contributes to its mortality.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — HLA and autoantibodies: specific HLA class II alleles determine which autoantibody a patient develops (anti-topoisomerase, anti-centromere or anti-RNA-polymerase III), and MHC class II antigen presentation drives the autoimmunity of systemic sclerosis.
+- `connects-to` → **[ADAMTS13](../../03-molecular/adamts13/README.md)** — Renal-crisis microangiopathy: scleroderma renal crisis causes a thrombotic microangiopathy with normal ADAMTS13 (unlike thrombotic thrombocytopenic purpura), the endothelial injury driving the haemolysis and acute kidney failure.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative fibrosis: reactive oxygen species, to which xanthine oxidase contributes, are generated in the hypoxic, inflamed tissues of systemic sclerosis, and this oxidative stress (NRF2 already mapped) helps drive the endothelial injury and fibroblast activation.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunoregulatory balance: the anti-inflammatory IL-10 counters the profibrotic type-2 and type-17 responses (IL-4, IL-13 and IL-17 already mapped), and the imbalance between them shapes the autoimmunity and fibrosis of systemic sclerosis.
 
 [^denton-2017-ssc-review]: Denton CP, Khanna D. Systemic sclerosis. *Lancet.* 2017;390(10103):1685-1699. [doi:10.1016/S0140-6736(17)30933-9](https://doi.org/10.1016/S0140-6736(17)30933-9) · [PubMed 28413064](https://pubmed.ncbi.nlm.nih.gov/28413064/)
 [^distler-2019-nintedanib-senscis]: Distler O, Highland KB, Gahlemann M, et al. Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease. *N Engl J Med.* 2019;380(26):2518-2528. [doi:10.1056/NEJMoa1903076](https://doi.org/10.1056/NEJMoa1903076) · [PubMed 31112379](https://pubmed.ncbi.nlm.nih.gov/31112379/)
