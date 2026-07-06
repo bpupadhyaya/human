@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/troponin-complex
     relation: connects-to
     note: "Cardiac lupus: lupus can cause myocarditis and, with accelerated atherosclerosis and Libman-Sacks endocarditis, affect the heart (already mapped), and troponin elevation marks the myocardial injury of these cardiac manifestations."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Accelerated atherosclerosis: lupus, through chronic inflammation and corticosteroid use, drives an atherogenic dyslipidaemia and premature atherosclerosis, a leading cause of death that makes cardiovascular risk central to long-term lupus care."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Serositis and arthritis: prostaglandins from the inflamed serosa and synovium drive the pleuritis, pericarditis and arthritis of lupus (IL-6 and IL-1 already mapped), the NSAID-responsive musculoskeletal and serosal features."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative amplification: reactive oxygen species, to which xanthine oxidase contributes, and the neutrophil (already mapped) oxidative burst amplify the tissue injury of lupus and help sustain the type-I-interferon (already mapped) loop."
 ---
 
 # Systemic Lupus Erythematosus
@@ -667,6 +676,9 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Autoimmune cytopenias: lupus causes autoimmune haemolytic anaemia and other cytopenias that lower haemoglobin, one of the classification criteria, reflecting antibody- and complement-mediated (already mapped) destruction of blood cells.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Th2 antibody help: IL-4 and type-2 T-cell help drive the B-cell (already mapped) production of the anti-nuclear and anti-dsDNA autoantibodies that define lupus, part of the T-cell help sustaining the autoreactive humoral response.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiac lupus: lupus can cause myocarditis and, with accelerated atherosclerosis and Libman-Sacks endocarditis, affect the heart (already mapped), and troponin elevation marks the myocardial injury of these cardiac manifestations.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Accelerated atherosclerosis: lupus, through chronic inflammation and corticosteroid use, drives an atherogenic dyslipidaemia and premature atherosclerosis, a leading cause of death that makes cardiovascular risk central to long-term lupus care.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Serositis and arthritis: prostaglandins from the inflamed serosa and synovium drive the pleuritis, pericarditis and arthritis of lupus (IL-6 and IL-1 already mapped), the NSAID-responsive musculoskeletal and serosal features.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative amplification: reactive oxygen species, to which xanthine oxidase contributes, and the neutrophil (already mapped) oxidative burst amplify the tissue injury of lupus and help sustain the type-I-interferon (already mapped) loop.
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)
