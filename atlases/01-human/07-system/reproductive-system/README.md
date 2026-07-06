@@ -401,6 +401,15 @@ cross_links:
   - target: 01-human/03-molecular/angiotensin-ii
     relation: connects-to
     note: "Reproductive renin-angiotensin: local renin-angiotensin systems in the ovary and placenta help regulate follicular development and placental perfusion, and their dysregulation is implicated in pre-eclampsia, a pregnancy-specific vascular disorder."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Pregnancy volume and RAAS: aldosterone rises in pregnancy to expand plasma volume (angiotensin II already mapped), a physiological adaptation of the reproductive renin-angiotensin-aldosterone system whose failure contributes to pre-eclampsia."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Materno-fetal tolerance: regulatory and helper T cells shift toward a tolerogenic profile at the maternal-fetal interface, allowing the semi-allogeneic fetus to be carried, a controlled immune adaptation central to successful reproduction."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Uterine NK cells: specialised decidual natural killer cells regulate trophoblast invasion and spiral-artery remodelling in early pregnancy, a reproductive role distinct from their cytotoxic function elsewhere."
 ---
 
 # Reproductive System
@@ -644,6 +653,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Maternal-fetal tolerance: the semi-allogeneic fetus is protected by specialised regulation of antigen presentation at the placenta, and HLA compatibility influences fertility and pregnancy, tying the reproductive system to the immune system.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Sperm protection: selenium, via glutathione peroxidases, shields developing sperm from oxidative damage and is built into the sperm midpiece, so selenium status affects male fertility alongside the zinc (already mapped) essential for spermatogenesis.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — Reproductive renin-angiotensin: local renin-angiotensin systems in the ovary and placenta help regulate follicular development and placental perfusion, and their dysregulation is implicated in pre-eclampsia, a pregnancy-specific vascular disorder.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Pregnancy volume and RAAS: aldosterone rises in pregnancy to expand plasma volume (angiotensin II already mapped), a physiological adaptation of the reproductive renin-angiotensin-aldosterone system whose failure contributes to pre-eclampsia.
+- `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — Materno-fetal tolerance: regulatory and helper T cells shift toward a tolerogenic profile at the maternal-fetal interface, allowing the semi-allogeneic fetus to be carried, a controlled immune adaptation central to successful reproduction.
+- `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Uterine NK cells: specialised decidual natural killer cells regulate trophoblast invasion and spiral-artery remodelling in early pregnancy, a reproductive role distinct from their cytotoxic function elsewhere.
 
 ## Pathology
 

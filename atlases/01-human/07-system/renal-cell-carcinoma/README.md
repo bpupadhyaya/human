@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/troponin-complex
     relation: connects-to
     note: "Immunotherapy myocarditis: the checkpoint inhibitors central to renal cell carcinoma treatment can cause immune-mediated myocarditis, and troponin elevation helps detect this rare but often fatal adverse event."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive microenvironment: IL-10 in the renal cell carcinoma microenvironment dampens the anti-tumour T-cell response (PD-1 and CTLA-4 already mapped), a mechanism of immune evasion and resistance to the checkpoint blockade central to its treatment."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Tumour vasculature: nitric oxide with the strongly VHL-HIF-driven VEGF (already mapped) supports the rich vasculature of clear-cell renal cell carcinoma, part of the angiogenic biology targeted by the antiangiogenic tyrosine-kinase inhibitors."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative stress: the metabolically rewired, pseudohypoxic renal cell carcinoma generates oxidative stress, to which xanthine oxidase contributes, and the NRF2 antioxidant response (already mapped) is co-opted, part of its altered redox biology."
 ---
 
 # Renal Cell Carcinoma
@@ -650,6 +659,9 @@ Kidney → primary site of EPO production under hypoxia; VHL-intact renal inters
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immunotherapy responsiveness: renal cell carcinoma is one of the most immunotherapy-responsive cancers, and MHC class II antigen presentation shapes the T-cell response to the checkpoint inhibitors (PD-1/CTLA-4 already mapped) that anchor its modern treatment.
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Paraneoplastic blood counts: renal cell carcinoma can raise haemoglobin through ectopic erythropoietin (already mapped) causing polycythaemia, or lower it via anaemia of chronic disease, one of its characteristic paraneoplastic presentations.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Immunotherapy myocarditis: the checkpoint inhibitors central to renal cell carcinoma treatment can cause immune-mediated myocarditis, and troponin elevation helps detect this rare but often fatal adverse event.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the renal cell carcinoma microenvironment dampens the anti-tumour T-cell response (PD-1 and CTLA-4 already mapped), a mechanism of immune evasion and resistance to the checkpoint blockade central to its treatment.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide with the strongly VHL-HIF-driven VEGF (already mapped) supports the rich vasculature of clear-cell renal cell carcinoma, part of the angiogenic biology targeted by the antiangiogenic tyrosine-kinase inhibitors.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative stress: the metabolically rewired, pseudohypoxic renal cell carcinoma generates oxidative stress, to which xanthine oxidase contributes, and the NRF2 antioxidant response (already mapped) is co-opted, part of its altered redox biology.
 
 [^motzer-2018-checkmate214]: Motzer RJ, Tannir NM, McDermott DF, et al. Nivolumab plus ipilimumab versus sunitinib in advanced renal-cell carcinoma. *N Engl J Med.* 2018;378(14):1277-1290. [doi:10.1056/NEJMoa1712126](https://doi.org/10.1056/NEJMoa1712126) · [PubMed 29562145](https://pubmed.ncbi.nlm.nih.gov/29562145/)
 [^rini-2019-keynote426]: Rini BI, Plimack ER, Stus V, et al. Pembrolizumab plus axitinib versus sunitinib for advanced renal-cell carcinoma. *N Engl J Med.* 2019;380(12):1116-1127. [doi:10.1056/NEJMoa1816714](https://doi.org/10.1056/NEJMoa1816714) · [PubMed 30779529](https://pubmed.ncbi.nlm.nih.gov/30779529/)
