@@ -406,6 +406,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Urate overproduction: the high cell turnover of myelofibrosis raises purine catabolism through xanthine oxidase, producing hyperuricaemia and gout that are managed with allopurinol alongside the disease-directed therapy."
+  - target: 01-human/03-molecular/ferroportin
+    relation: connects-to
+    note: "Iron-restricted anaemia: the chronic inflammation of myelofibrosis raises hepcidin (already mapped), which degrades ferroportin to trap iron in macrophages, contributing to the iron-restricted anaemia that adds to the marrow-failure anaemia."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Cytokine milieu: IL-10 among the cytokines of the inflammatory myelofibrosis microenvironment counters the IL-6, TNF and IL-1 (already mapped) that drive the constitutional symptoms and fibrosis, part of the dysregulated cytokine balance of the disease."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Splenomegaly and portal flow: the massive splenomegaly of myelofibrosis raises portal blood flow, and dysregulated nitric oxide contributes to the splanchnic vasodilation and portal hypertension that can complicate the extramedullary haematopoiesis."
 ---
 
 # Myelofibrosis
@@ -663,6 +672,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Progressive anaemia: worsening anaemia with falling haemoglobin, from marrow failure, splenic sequestration and JAK-inhibitor therapy, is a defining feature of myelofibrosis driving transfusion dependence and momelotinib or luspatercept use.
 - `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Marrow neoangiogenesis: myelofibrosis shows increased bone-marrow microvascular density supported by angiopoietin-Tie2 signalling alongside VEGF (already mapped), part of the disordered fibrotic microenvironment created by the clone.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Urate overproduction: the high cell turnover of myelofibrosis raises purine catabolism through xanthine oxidase, producing hyperuricaemia and gout that are managed with allopurinol alongside the disease-directed therapy.
+- `connects-to` → **[Ferroportin](../../03-molecular/ferroportin/README.md)** — Iron-restricted anaemia: the chronic inflammation of myelofibrosis raises hepcidin (already mapped), which degrades ferroportin to trap iron in macrophages, contributing to the iron-restricted anaemia that adds to the marrow-failure anaemia.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Cytokine milieu: IL-10 among the cytokines of the inflammatory myelofibrosis microenvironment counters the IL-6, TNF and IL-1 (already mapped) that drive the constitutional symptoms and fibrosis, part of the dysregulated cytokine balance of the disease.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Splenomegaly and portal flow: the massive splenomegaly of myelofibrosis raises portal blood flow, and dysregulated nitric oxide contributes to the splanchnic vasodilation and portal hypertension that can complicate the extramedullary haematopoiesis.
 
 ---
 

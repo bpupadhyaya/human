@@ -404,6 +404,15 @@ cross_links:
   - target: 01-human/03-molecular/mu-opioid-receptor
     relation: connects-to
     note: "Musculoskeletal pain: pain from bones, joints and muscles is among the leading reasons for analgesic use, and opioids acting on the mu-opioid receptor are used, with well-known risks, for severe musculoskeletal pain."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "Nociceptive innervation: substance P released by the sensory nerves of bone, joint and muscle signals the pain of musculoskeletal injury and inflammation (mu-opioid receptor already mapped), and it also participates in the neural regulation of bone remodelling."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "Skeletal sensory nerves: CGRP-containing sensory fibres richly innervate the periosteum and bone, contributing to musculoskeletal pain (substance P already mapped) and to the regulation of bone formation and blood flow."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Urate and oxidative joint injury: xanthine oxidase produces the uric acid whose crystals cause gout in the joints, and the reactive oxygen species it generates add to the oxidative damage of inflammatory and degenerative musculoskeletal disease."
 ---
 
 # Musculoskeletal System
@@ -669,6 +678,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Matrix and cartilage: zinc is a cofactor for the collagen-processing and matrix metalloproteinase enzymes of bone and cartilage (collagen already mapped), and its deficiency impairs growth and skeletal development.
 - `connects-to` → **[Rheumatoid arthritis](../rheumatoid-arthritis/README.md)** — Inflammatory arthritis: rheumatoid arthritis attacks the synovial joints of the musculoskeletal system, with immune-driven synovitis eroding cartilage and bone (RANKL already mapped) to cause the joint destruction and deformity of the disease.
 - `connects-to` → **[Mu-opioid receptor](../../03-molecular/mu-opioid-receptor/README.md)** — Musculoskeletal pain: pain from bones, joints and muscles is among the leading reasons for analgesic use, and opioids acting on the mu-opioid receptor are used, with well-known risks, for severe musculoskeletal pain.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — Nociceptive innervation: substance P released by the sensory nerves of bone, joint and muscle signals the pain of musculoskeletal injury and inflammation (mu-opioid receptor already mapped), and it also participates in the neural regulation of bone remodelling.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Skeletal sensory nerves: CGRP-containing sensory fibres richly innervate the periosteum and bone, contributing to musculoskeletal pain (substance P already mapped) and to the regulation of bone formation and blood flow.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Urate and oxidative joint injury: xanthine oxidase produces the uric acid whose crystals cause gout in the joints, and the reactive oxygen species it generates add to the oxidative damage of inflammatory and degenerative musculoskeletal disease.
 
 ## Pathology
 
