@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/troponin-complex
     relation: connects-to
     note: "Iron cardiomyopathy: chronic transfusion deposits iron in the heart, and the resulting iron-overload cardiomyopathy, marked by troponin release, is a major cause of death in transfusion-dependent aplastic anaemia."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 cytokine dysregulation: IL-13, with IL-4 (already mapped), reflects the broader cytokine dysregulation of aplastic anaemia beyond the dominant Th1/interferon-gamma (already mapped) attack on the marrow."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Marrow vascular niche: VEGF supports the bone-marrow (already mapped) vascular niche of haematopoiesis, and the disturbed niche of the immune-attacked marrow contributes to the failure of blood-cell production in aplastic anaemia."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Inflammatory eicosanoids: prostaglandins from the inflammatory infiltrate (IL-6, TNF and IL-1 already mapped) of the immune attack on the marrow contribute to the suppression of haematopoiesis in aplastic anaemia."
 ---
 
 # Aplastic Anemia
@@ -656,6 +665,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Th1/Th2 imbalance: aplastic anaemia is driven by a Th1, interferon-gamma-dominated (already mapped) attack on the marrow, and the deficient IL-4-driven type-2 counterbalance is part of the immune dysregulation that immunosuppression corrects.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative marrow stress: transfusional iron overload (hepcidin already mapped) and inflammation generate reactive oxygen species, to which xanthine oxidase contributes, adding oxidative injury to the already failing marrow of aplastic anaemia.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Iron cardiomyopathy: chronic transfusion deposits iron in the heart, and the resulting iron-overload cardiomyopathy, marked by troponin release, is a major cause of death in transfusion-dependent aplastic anaemia.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 cytokine dysregulation: IL-13, with IL-4 (already mapped), reflects the broader cytokine dysregulation of aplastic anaemia beyond the dominant Th1/interferon-gamma (already mapped) attack on the marrow.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Marrow vascular niche: VEGF supports the bone-marrow (already mapped) vascular niche of haematopoiesis, and the disturbed niche of the immune-attacked marrow contributes to the failure of blood-cell production in aplastic anaemia.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Inflammatory eicosanoids: prostaglandins from the inflammatory infiltrate (IL-6, TNF and IL-1 already mapped) of the immune attack on the marrow contribute to the suppression of haematopoiesis in aplastic anaemia.
 
 ---
 

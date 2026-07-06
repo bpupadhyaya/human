@@ -418,6 +418,15 @@ cross_links:
   - target: 01-human/04-cellular/mast-cell
     relation: connects-to
     note: "Plaque destabilisation: mast cells in the atherosclerotic plaque release proteases and histamine that degrade the fibrous cap (collagen already mapped) and promote intraplaque haemorrhage, contributing to the rupture behind acute events."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Thromboxane and inflammation: the prostaglandin balance shifts toward the prothrombotic thromboxane on the atherosclerotic plaque, part of why low-dose aspirin is used, while inflammatory prostaglandins (IL-6 and IL-1 already mapped) drive the lesion."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Protective adipokine: adiponectin is anti-inflammatory and anti-atherogenic, and its fall in obesity and the metabolic syndrome (leptin already mapped) removes a brake on the vascular inflammation that drives atherosclerosis."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Insulin resistance: insulin resistance and hyperinsulinaemia promote endothelial dysfunction (nitric oxide already mapped) and the atherogenic dyslipidaemia (cholesterol already mapped), accelerating the atherosclerosis of the metabolic syndrome and diabetes."
 ---
 
 # Atherosclerosis
@@ -665,6 +674,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Atheroprotective cytokine: the anti-inflammatory cytokine IL-10 restrains plaque inflammation and stabilises lesions, so the balance between it and the pro-inflammatory IL-1 and TNF (already mapped) shapes plaque progression and rupture risk.
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Sex protection: estrogen improves endothelial function and lipid profiles, and its premenopausal presence delays atherosclerosis in women, contributing to the sex and age differences in cardiovascular risk.
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Plaque destabilisation: mast cells in the atherosclerotic plaque release proteases and histamine that degrade the fibrous cap (collagen already mapped) and promote intraplaque haemorrhage, contributing to the rupture behind acute events.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Thromboxane and inflammation: the prostaglandin balance shifts toward the prothrombotic thromboxane on the atherosclerotic plaque, part of why low-dose aspirin is used, while inflammatory prostaglandins (IL-6 and IL-1 already mapped) drive the lesion.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Protective adipokine: adiponectin is anti-inflammatory and anti-atherogenic, and its fall in obesity and the metabolic syndrome (leptin already mapped) removes a brake on the vascular inflammation that drives atherosclerosis.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Insulin resistance: insulin resistance and hyperinsulinaemia promote endothelial dysfunction (nitric oxide already mapped) and the atherogenic dyslipidaemia (cholesterol already mapped), accelerating the atherosclerosis of the metabolic syndrome and diabetes.
 
 ---
 
