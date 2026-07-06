@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/endothelin-1
     relation: connects-to
     note: "Endothelial vasoconstriction: the hyperviscous, inflamed circulation of polycythaemia vera favours endothelin-1-driven vasoconstriction over nitric-oxide vasodilation (already mapped), tipping the vascular balance further toward its characteristic thrombosis."
+  - target: 01-human/03-molecular/adamts13
+    relation: connects-to
+    note: "Acquired von Willebrand syndrome: when polycythaemia vera raises platelet counts markedly, the high-molecular-weight von Willebrand multimers (already mapped) are cleared, and this acquired von Willebrand syndrome causes the bleeding that can coexist with the thrombosis."
+  - target: 01-human/03-molecular/protein-c
+    relation: connects-to
+    note: "Prothrombotic tilt: the thrombosis of polycythaemia vera reflects a shift toward coagulation, and reduced activity of the natural anticoagulant protein C (thrombin already mapped) adds to the risk that drives phlebotomy, aspirin and cytoreduction."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Inflammatory milieu: polycythaemia vera carries a chronic inflammatory state, and the anti-inflammatory IL-10 counterbalances the TNF, IL-6 and IL-1 (already mapped) driven by JAK2-STAT signalling that shapes its symptoms and progression."
 ---
 
 # Polycythemia Vera
@@ -653,6 +662,9 @@ PV must be distinguished from secondary erythrocytosis (elevated EPO, JAK2 wild-
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Arterial thrombosis: polycythaemia vera markedly raises the risk of arterial events including myocardial infarction and stroke (nitric oxide already mapped), and troponin elevation marks the cardiac injury of these thromboses.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Platelet-mediated microvascular events: platelets are the body's main serotonin store, released on aggregation to constrict vessels, so the excess and activated platelets of polycythaemia vera contribute to the erythromelalgia and microvascular symptoms it causes.
 - `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Endothelial vasoconstriction: the hyperviscous, inflamed circulation of polycythaemia vera favours endothelin-1-driven vasoconstriction over nitric-oxide vasodilation (already mapped), tipping the vascular balance further toward its characteristic thrombosis.
+- `connects-to` → **[ADAMTS13](../../03-molecular/adamts13/README.md)** — Acquired von Willebrand syndrome: when polycythaemia vera raises platelet counts markedly, the high-molecular-weight von Willebrand multimers (already mapped) are cleared, and this acquired von Willebrand syndrome causes the bleeding that can coexist with the thrombosis.
+- `connects-to` → **[Protein C](../../03-molecular/protein-c/README.md)** — Prothrombotic tilt: the thrombosis of polycythaemia vera reflects a shift toward coagulation, and reduced activity of the natural anticoagulant protein C (thrombin already mapped) adds to the risk that drives phlebotomy, aspirin and cytoreduction.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Inflammatory milieu: polycythaemia vera carries a chronic inflammatory state, and the anti-inflammatory IL-10 counterbalances the TNF, IL-6 and IL-1 (already mapped) driven by JAK2-STAT signalling that shapes its symptoms and progression.
 
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409630](https://doi.org/10.1056/NEJMoa1409630) · [PubMed 25577388](https://pubmed.ncbi.nlm.nih.gov/25577388/)
 [^gisslinger-2020-proud-pv]: Gisslinger H, Gotic M, Holowiecki J, et al. Ropeginterferon alfa-2b versus standard therapy for polycythaemia vera (PROUD-PV and CONTINUATION-PV): a randomised, non-inferiority, phase 3 trial and its extension study. *Lancet Haematol.* 2020;7(3):e196-e208. [doi:10.1016/S2352-3026(19)30236-4](https://doi.org/10.1016/S2352-3026(19)30236-4) · [PubMed 32046833](https://pubmed.ncbi.nlm.nih.gov/32046833/)

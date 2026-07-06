@@ -411,6 +411,15 @@ cross_links:
   - target: 01-human/03-molecular/troponin-complex
     relation: connects-to
     note: "Cardiovascular comorbidity: the accelerated atherosclerosis of psoriatic arthritis (nitric oxide already mapped) raises the risk of myocardial infarction, and troponin elevation marks the cardiac injury of the events that shorten patients' lives."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Anaemia of inflammation: the chronic systemic inflammation of psoriatic arthritis (IL-6 already mapped) suppresses erythropoiesis, and the resulting anaemia of chronic disease lowers haemoglobin, adding to the fatigue that burdens patients."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Metabolic-vascular risk: psoriatic arthritis clusters with the metabolic syndrome and dyslipidaemia (leptin, adiponectin and resistin already mapped), and the altered cholesterol handling contributes to the accelerated atherosclerosis and cardiovascular risk."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative stress and urate: the systemic inflammation of psoriatic arthritis and the high cell turnover of psoriasis raise oxidative stress and urate through xanthine oxidase, contributing to the hyperuricaemia and gout that overlap with the disease."
 ---
 
 # Psoriatic Arthritis
@@ -689,6 +698,9 @@ Risankizumab (anti-IL-23p19) **failed primary endpoints** in the SURPASS trial f
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — HLA and antigen presentation: beyond the HLA-B27 (already mapped) axial association, HLA class II and MHC-restricted antigen presentation shape the autoreactive T-cell response driving the synovial and entheseal inflammation of psoriatic arthritis.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell activation: IL-2-driven expansion of the autoreactive and IL-17-producing T cells sustains the joint inflammation of psoriatic arthritis, and the T-cell costimulation blocker abatacept (CTLA-4 already mapped) exploits this dependency.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiovascular comorbidity: the accelerated atherosclerosis of psoriatic arthritis (nitric oxide already mapped) raises the risk of myocardial infarction, and troponin elevation marks the cardiac injury of the events that shorten patients' lives.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Anaemia of inflammation: the chronic systemic inflammation of psoriatic arthritis (IL-6 already mapped) suppresses erythropoiesis, and the resulting anaemia of chronic disease lowers haemoglobin, adding to the fatigue that burdens patients.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Metabolic-vascular risk: psoriatic arthritis clusters with the metabolic syndrome and dyslipidaemia (leptin, adiponectin and resistin already mapped), and the altered cholesterol handling contributes to the accelerated atherosclerosis and cardiovascular risk.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative stress and urate: the systemic inflammation of psoriatic arthritis and the high cell turnover of psoriasis raise oxidative stress and urate through xanthine oxidase, contributing to the hyperuricaemia and gout that overlap with the disease.
 
 [^ritchlin-2017-psa-review]: Ritchlin CT, Colbert RA, Gladman DD. Psoriatic arthritis. *N Engl J Med.* 2017;376(10):957-970. [doi:10.1056/NEJMra1505557](https://doi.org/10.1056/NEJMra1505557) · [PubMed 28273019](https://pubmed.ncbi.nlm.nih.gov/28273019/)
 [^mease-2015-secukinumab-psa-future2]: Mease PJ, et al. Secukinumab inhibition of interleukin-17A in patients with psoriatic arthritis. *N Engl J Med.* 2015;373(14):1329-1339. [doi:10.1056/NEJMoa1503317](https://doi.org/10.1056/NEJMoa1503317) · [PubMed 26422723](https://pubmed.ncbi.nlm.nih.gov/26422723/)
