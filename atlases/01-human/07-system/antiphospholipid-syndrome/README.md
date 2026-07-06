@@ -409,6 +409,15 @@ cross_links:
   - target: 01-human/03-molecular/hemoglobin
     relation: connects-to
     note: "Microangiopathic haemolysis: catastrophic antiphospholipid syndrome and its thrombotic microangiopathy fragment red cells and, with autoimmune haemolysis, lower haemoglobin, adding a haematological dimension to the widespread thrombosis."
+  - target: 01-human/03-molecular/adamts13
+    relation: connects-to
+    note: "Microangiopathy differential: the thrombotic microangiopathy of catastrophic antiphospholipid syndrome occurs with normal ADAMTS13 (von Willebrand factor already mapped), distinguishing its antibody-driven mechanism from thrombotic thrombocytopenic purpura."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Thromboxane-prostacyclin balance: antiphospholipid antibodies shift the endothelial and platelet (already mapped) prostaglandin balance toward the prothrombotic thromboxane, part of why low-dose aspirin is used in antiphospholipid syndrome."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative antigenicity: oxidative stress, to which xanthine oxidase contributes, generates the oxidised beta-2-glycoprotein-1 (already mapped) that is the key target of the pathogenic antibodies, linking oxidation to the antigenicity of antiphospholipid syndrome."
 ---
 
 # Antiphospholipid Syndrome
@@ -685,6 +694,9 @@ In APS, anti-B2GPI IgG bound to B2GPI on phospholipid surfaces converts this ant
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Pregnancy morbidity: antiphospholipid syndrome causes recurrent pregnancy loss and placental thrombosis, and the oestrogen-rich prothrombotic state of pregnancy (and of oestrogen contraception) heightens the thrombotic risk it confers.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiac thrombosis: antiphospholipid syndrome causes coronary thrombosis, myocardial infarction and Libman-Sacks valve lesions, and troponin elevation marks the myocardial injury of these cardiac thrombotic manifestations.
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Microangiopathic haemolysis: catastrophic antiphospholipid syndrome and its thrombotic microangiopathy fragment red cells and, with autoimmune haemolysis, lower haemoglobin, adding a haematological dimension to the widespread thrombosis.
+- `connects-to` → **[ADAMTS13](../../03-molecular/adamts13/README.md)** — Microangiopathy differential: the thrombotic microangiopathy of catastrophic antiphospholipid syndrome occurs with normal ADAMTS13 (von Willebrand factor already mapped), distinguishing its antibody-driven mechanism from thrombotic thrombocytopenic purpura.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Thromboxane-prostacyclin balance: antiphospholipid antibodies shift the endothelial and platelet (already mapped) prostaglandin balance toward the prothrombotic thromboxane, part of why low-dose aspirin is used in antiphospholipid syndrome.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative antigenicity: oxidative stress, to which xanthine oxidase contributes, generates the oxidised beta-2-glycoprotein-1 (already mapped) that is the key target of the pathogenic antibodies, linking oxidation to the antigenicity of antiphospholipid syndrome.
 
 [^miyakis-2006-sydney-aps]: Miyakis S, Lockshin MD, Atsumi T, et al. International consensus statement on an update of the classification criteria for definite antiphospholipid syndrome (APS). *J Thromb Haemost.* 2006;4(2):295-306. [doi:10.1111/j.1538-7836.2006.01753.x](https://doi.org/10.1111/j.1538-7836.2006.01753.x) · [PubMed 16420554](https://pubmed.ncbi.nlm.nih.gov/16420554/)
 [^barbhaiya-2023-acreular-aps]: Barbhaiya M, Zuily S, Naden R, et al. The 2023 ACR/EULAR antiphospholipid syndrome classification criteria. *Ann Rheum Dis.* 2023;82(10):1258-1270. [doi:10.1136/ard-2023-224609](https://doi.org/10.1136/ard-2023-224609) · [PubMed 37643823](https://pubmed.ncbi.nlm.nih.gov/37643823/)
