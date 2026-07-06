@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/01-subatomic/proton
     relation: connects-to
     note: "Tumour-lysis acidosis: the rapid lysis of bulky diffuse large B-cell lymphoma by chemotherapy releases acids that, with lactate, produce the metabolic acidosis of tumour-lysis syndrome (urate and potassium already mapped)."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive microenvironment: IL-10 in the lymphoma microenvironment dampens the anti-tumour T-cell response (PD-1 and MHC class II already mapped), part of the immune escape that DLBCL exploits and CAR-T therapy aims to overcome."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Tumour angiogenesis: VEGF-driven angiogenesis supplies the proliferative diffuse large B-cell lymphoma (HIF-1-alpha already mapped), the increased microvascular density part of its aggressive microenvironment."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the pro-tumour niche of diffuse large B-cell lymphoma."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -665,6 +674,9 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Anthracycline cardiotoxicity: the doxorubicin in R-CHOP is cardiotoxic, and troponin elevation helps detect the myocardial injury that limits the cumulative anthracycline dose curing diffuse large B-cell lymphoma.
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Marrow involvement and anaemia: bone-marrow infiltration by diffuse large B-cell lymphoma and its immunochemotherapy lower haemoglobin, the anaemia adding to the constitutional symptoms and treatment morbidity of the disease.
 - `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Tumour-lysis acidosis: the rapid lysis of bulky diffuse large B-cell lymphoma by chemotherapy releases acids that, with lactate, produce the metabolic acidosis of tumour-lysis syndrome (urate and potassium already mapped).
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the lymphoma microenvironment dampens the anti-tumour T-cell response (PD-1 and MHC class II already mapped), part of the immune escape that DLBCL exploits and CAR-T therapy aims to overcome.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Tumour angiogenesis: VEGF-driven angiogenesis supplies the proliferative diffuse large B-cell lymphoma (HIF-1-alpha already mapped), the increased microvascular density part of its aggressive microenvironment.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the pro-tumour niche of diffuse large B-cell lymphoma.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

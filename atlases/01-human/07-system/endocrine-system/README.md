@@ -410,6 +410,15 @@ cross_links:
   - target: 01-human/06-organ/skin
     relation: connects-to
     note: "Cutaneous endocrine function: the skin synthesises vitamin D from cholesterol under ultraviolet light, an endocrine role that feeds the calcium-regulating axis (PTH and FGF23 already mapped) and illustrates hormone production beyond the classical glands."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Iron as a hormonal axis: iron homeostasis is itself an endocrine system, governed by the liver hormone hepcidin and by erythropoietin (already mapped), illustrating hormonal control extending to a trace-metal balance."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Hormone secretion cofactor: magnesium is a cofactor for the secretion and action of many hormones, including parathyroid hormone (already mapped) and insulin (already mapped), so its deficiency disturbs the endocrine calcium and glucose axes."
+  - target: 01-human/06-organ/thymus
+    relation: connects-to
+    note: "Thymic endocrine role: the thymus secretes thymic hormones such as thymosin and thymulin that regulate T-cell maturation, an endocrine function of a lymphoid organ that links the endocrine and immune systems."
 ---
 
 # Endocrine System
@@ -698,6 +707,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Steroid precursor: cholesterol is the common precursor of every steroid hormone, converted in the adrenal cortex and gonads to cortisol, aldosterone and the sex steroids (all already mapped), the biochemical root of the steroid endocrine axes.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Thyroid activation: selenium-dependent deiodinase enzymes convert thyroxine to the active triiodothyronine (thyroid hormones already mapped), making this trace element essential to the peripheral regulation of thyroid hormone action.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Cutaneous endocrine function: the skin synthesises vitamin D from cholesterol under ultraviolet light, an endocrine role that feeds the calcium-regulating axis (PTH and FGF23 already mapped) and illustrates hormone production beyond the classical glands.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron as a hormonal axis: iron homeostasis is itself an endocrine system, governed by the liver hormone hepcidin and by erythropoietin (already mapped), illustrating hormonal control extending to a trace-metal balance.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Hormone secretion cofactor: magnesium is a cofactor for the secretion and action of many hormones, including parathyroid hormone (already mapped) and insulin (already mapped), so its deficiency disturbs the endocrine calcium and glucose axes.
+- `connects-to` → **[Thymus](../../06-organ/thymus/README.md)** — Thymic endocrine role: the thymus secretes thymic hormones such as thymosin and thymulin that regulate T-cell maturation, an endocrine function of a lymphoid organ that links the endocrine and immune systems.
 
 ## Pathology
 
