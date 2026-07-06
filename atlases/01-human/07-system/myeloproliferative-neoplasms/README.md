@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Endothelial-platelet imbalance: impaired endothelial nitric-oxide function, with the excess activated blood cells of myeloproliferative neoplasms, tips the vascular balance toward the thrombosis (vWF already mapped) that is a leading cause of death."
+  - target: 01-human/03-molecular/adamts13
+    relation: connects-to
+    note: "Acquired von Willebrand syndrome: extreme thrombocytosis clears the high-molecular-weight von Willebrand multimers (already mapped), causing the acquired von Willebrand syndrome and the paradoxical bleeding that coexists with thrombosis in these neoplasms."
+  - target: 01-human/03-molecular/protein-c
+    relation: connects-to
+    note: "Prothrombotic tilt: the thrombosis of myeloproliferative neoplasms reflects a shift toward coagulation, and reduced activity of the natural anticoagulant protein C (thrombin already mapped) further raises the risk that drives cytoreduction and antithrombotic therapy."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Inflammatory milieu: myeloproliferative neoplasms carry a chronic inflammatory state, and the anti-inflammatory IL-10 counterbalances the TNF, IL-6 and IL-1 (already mapped) driven by JAK-STAT signalling that shapes their phenotype and symptoms."
 ---
 
 # Myeloproliferative Neoplasms
@@ -675,6 +684,9 @@ In PV and ET, JAK2 V617F also affects myeloid progenitors → granulocytosis and
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Erythrocytosis: in polycythaemia vera the JAK2-driven erythroid overproduction (erythropoietin already mapped) raises haemoglobin and haematocrit, thickening the blood and driving the thrombosis managed with phlebotomy and cytoreduction.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Arterial thrombosis: myeloproliferative neoplasms markedly raise the risk of arterial events including myocardial infarction and stroke, and troponin elevation marks the cardiac injury of these thrombotic complications that dominate their morbidity.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Endothelial-platelet imbalance: impaired endothelial nitric-oxide function, with the excess activated blood cells of myeloproliferative neoplasms, tips the vascular balance toward the thrombosis (vWF already mapped) that is a leading cause of death.
+- `connects-to` → **[ADAMTS13](../../03-molecular/adamts13/README.md)** — Acquired von Willebrand syndrome: extreme thrombocytosis clears the high-molecular-weight von Willebrand multimers (already mapped), causing the acquired von Willebrand syndrome and the paradoxical bleeding that coexists with thrombosis in these neoplasms.
+- `connects-to` → **[Protein C](../../03-molecular/protein-c/README.md)** — Prothrombotic tilt: the thrombosis of myeloproliferative neoplasms reflects a shift toward coagulation, and reduced activity of the natural anticoagulant protein C (thrombin already mapped) further raises the risk that drives cytoreduction and antithrombotic therapy.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Inflammatory milieu: myeloproliferative neoplasms carry a chronic inflammatory state, and the anti-inflammatory IL-10 counterbalances the TNF, IL-6 and IL-1 (already mapped) driven by JAK-STAT signalling that shapes their phenotype and symptoms.
 
 [^verstovsek-2012-comfort-i]: Verstovsek S, Mesa RA, Gotlib J, et al. A double-blind, placebo-controlled trial of ruxolitinib for myelofibrosis. *N Engl J Med.* 2012;366(9):799-807. [doi:10.1056/NEJMoa1110557](https://doi.org/10.1056/NEJMoa1110557) · [PubMed 22375971](https://pubmed.ncbi.nlm.nih.gov/22375971/)
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409002](https://doi.org/10.1056/NEJMoa1409002) · [PubMed 25426978](https://pubmed.ncbi.nlm.nih.gov/25426978/)

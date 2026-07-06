@@ -390,6 +390,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Sleep and neuroinflammation: nitric oxide is a gaseous modulator of sleep-wake regulation and, released during the neuroinflammatory response, participates in the hypothalamic environment in which orexin neurons are lost in narcolepsy."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immune arm: IL-13, with the type-2 cytokines, is part of the broader immune dysregulation surrounding the autoimmune loss of orexin neurons, complementing the Th1 and cytotoxic (already mapped) responses implicated in narcolepsy."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "Metabolic dysregulation: loss of orexin disturbs energy balance, and narcolepsy carries obesity and altered glucose handling (leptin and insulin already mapped), with the incretin GLP-1 axis part of the metabolic disturbance accompanying the disorder."
+  - target: 01-human/03-molecular/baff
+    relation: connects-to
+    note: "B-cell autoimmunity: BAFF supports the B cells and any autoantibody responses that participate, alongside the dominant T-cell attack (already mapped), in the HLA-DQB1*06:02-restricted autoimmune destruction of the orexin neurons."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -654,6 +663,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Immune tolerance: PD-1 helps enforce the T-cell tolerance whose breakdown permits the autoimmune destruction of orexin neurons in narcolepsy, and checkpoint-inhibitor cancer therapy has been reported to trigger narcolepsy-like syndromes.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 autoimmunity: IL-12-driven Th1 polarisation supports the interferon-gamma-producing and cytotoxic T-cell responses (both already mapped) implicated in the HLA-DQB1*06:02-restricted autoimmune attack on the orexin neurons.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Sleep and neuroinflammation: nitric oxide is a gaseous modulator of sleep-wake regulation and, released during the neuroinflammatory response, participates in the hypothalamic environment in which orexin neurons are lost in narcolepsy.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with the type-2 cytokines, is part of the broader immune dysregulation surrounding the autoimmune loss of orexin neurons, complementing the Th1 and cytotoxic (already mapped) responses implicated in narcolepsy.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Metabolic dysregulation: loss of orexin disturbs energy balance, and narcolepsy carries obesity and altered glucose handling (leptin and insulin already mapped), with the incretin GLP-1 axis part of the metabolic disturbance accompanying the disorder.
+- `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — B-cell autoimmunity: BAFF supports the B cells and any autoantibody responses that participate, alongside the dominant T-cell attack (already mapped), in the HLA-DQB1*06:02-restricted autoimmune destruction of the orexin neurons.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)
