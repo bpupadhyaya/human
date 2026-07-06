@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "Mineralocorticoid stress axis: aldosterone acts on brain mineralocorticoid receptors that, balanced against glucocorticoid receptors (already mapped), tune the stress response dysregulated in the affective instability of borderline personality disorder."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Neuroinflammation: prostaglandins from the low-grade neuroinflammation (IL-6 and IL-1 already mapped) and microglial activation (already mapped) implicated in borderline personality disorder modulate the fronto-limbic circuits of emotion regulation."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative stress: heightened oxidative stress, to which xanthine oxidase contributes, is reported in borderline personality disorder and other affective conditions, and the resulting reactive oxygen species may affect the neurons of the emotion circuitry."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "Metabolic dysregulation: GLP-1 signalling links the visceral and metabolic state (insulin and leptin already mapped) to the appetite and reward pathways relevant to the binge-eating and obesity that commonly accompany borderline personality disorder."
 ---
 
 # Borderline Personality Disorder
@@ -683,6 +692,9 @@ This model directly informs DBT treatment: validate emotional experience (the bi
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — Brain renin-angiotensin: central angiotensin II modulates stress reactivity and the HPA axis (cortisol already mapped), and this pressor neuroendocrine system is implicated in the exaggerated stress responses of borderline personality disorder.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Metabolic dysregulation: borderline personality disorder carries higher rates of obesity and insulin resistance, driven partly by binge-eating comorbidity (leptin already mapped) and psychotropic medication, linking the disorder to metabolic health.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Mineralocorticoid stress axis: aldosterone acts on brain mineralocorticoid receptors that, balanced against glucocorticoid receptors (already mapped), tune the stress response dysregulated in the affective instability of borderline personality disorder.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Neuroinflammation: prostaglandins from the low-grade neuroinflammation (IL-6 and IL-1 already mapped) and microglial activation (already mapped) implicated in borderline personality disorder modulate the fronto-limbic circuits of emotion regulation.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative stress: heightened oxidative stress, to which xanthine oxidase contributes, is reported in borderline personality disorder and other affective conditions, and the resulting reactive oxygen species may affect the neurons of the emotion circuitry.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Metabolic dysregulation: GLP-1 signalling links the visceral and metabolic state (insulin and leptin already mapped) to the appetite and reward pathways relevant to the binge-eating and obesity that commonly accompany borderline personality disorder.
 
 [^linehan-1993-dbt]: Linehan MM. *Cognitive-Behavioral Treatment of Borderline Personality Disorder.* Guilford; 1993. [PubMed 8192506](https://pubmed.ncbi.nlm.nih.gov/8192506/)
 [^skodol-2002-bpd-neurobiology]: Siever LJ, Davis KL. A psychobiological perspective on the personality disorders. *Am J Psychiatry.* 1991;148(12):1647-1658. [doi:10.1176/ajp.148.12.1647](https://doi.org/10.1176/ajp.148.12.1647) · [PubMed 1957927](https://pubmed.ncbi.nlm.nih.gov/1957927/)

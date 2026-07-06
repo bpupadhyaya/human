@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Airway macrophages: alveolar and airway macrophages, polarised toward an alternatively activated phenotype in type-2 asthma, contribute to the inflammation, remodelling and impaired resolution of the disease."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Respiratory acidosis: in acute severe asthma a rising carbon dioxide as the patient tires produces respiratory acidosis, and the accumulation of protons is an ominous sign heralding respiratory failure and the need for ventilation."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "Neurogenic inflammation: CGRP released from airway sensory nerves, with substance P (already mapped), contributes to the neurogenic inflammation, vasodilation and cough of asthma, part of the neuro-immune dimension of the disease."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Cardiac strain: high-dose beta-agonists and theophylline cause tachycardia and, with the hypoxaemia of acute severe asthma, can strain the heart, and troponin elevation may mark the myocardial stress of a near-fatal attack."
 ---
 
 # Asthma
@@ -652,6 +661,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Theophylline and oxidative stress: theophylline, a methylxanthine bronchodilator and phosphodiesterase inhibitor, is metabolised via xanthine oxidase, whose reactive oxygen species also contribute to the airway oxidative stress of asthma.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Allergen presentation: MHC class II presentation of inhaled allergens by airway dendritic cells drives the Th2 sensitisation (IL-4/IL-13 already mapped) of allergic asthma, and HLA associations contribute to susceptibility.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Airway macrophages: alveolar and airway macrophages, polarised toward an alternatively activated phenotype in type-2 asthma, contribute to the inflammation, remodelling and impaired resolution of the disease.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Respiratory acidosis: in acute severe asthma a rising carbon dioxide as the patient tires produces respiratory acidosis, and the accumulation of protons is an ominous sign heralding respiratory failure and the need for ventilation.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Neurogenic inflammation: CGRP released from airway sensory nerves, with substance P (already mapped), contributes to the neurogenic inflammation, vasodilation and cough of asthma, part of the neuro-immune dimension of the disease.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiac strain: high-dose beta-agonists and theophylline cause tachycardia and, with the hypoxaemia of acute severe asthma, can strain the heart, and troponin elevation may mark the myocardial stress of a near-fatal attack.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)
