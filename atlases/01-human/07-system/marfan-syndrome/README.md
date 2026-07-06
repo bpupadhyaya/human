@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/progesterone
     relation: connects-to
     note: "Pregnancy aortic risk: pregnancy sharply raises the risk of aortic dissection in Marfan syndrome, as the haemodynamic load and the hormonal effects of progesterone and estrogen (already mapped) on the vessel wall weaken the already-fragile aorta."
+  - target: 01-human/03-molecular/von-willebrand-factor
+    relation: connects-to
+    note: "Endothelial dysfunction: the abnormal aortic wall of Marfan syndrome disturbs the endothelium (nitric oxide already mapped), raising von Willebrand factor, a marker of the endothelial activation that accompanies the aortopathy and its thrombotic risk during dissection."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Vascular eicosanoids: prostaglandins modulate the tone and inflammation of the aortic wall, contributing with the cytokines already mapped to the vascular remodelling that, driven by dysregulated TGF-beta (already mapped), weakens the Marfan aorta."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Inflammatory balance: the anti-inflammatory IL-10 counters the TNF, IL-6 and IL-1 (already mapped) infiltrating the dilating aortic wall, and this cytokine balance shapes the inflammatory component of the aneurysm formation in Marfan syndrome."
 ---
 
 # Marfan Syndrome
@@ -670,6 +679,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative aortic degeneration: oxidative stress in the Marfan aortic wall, to which xanthine oxidase contributes, activates matrix metalloproteinases and promotes the smooth-muscle (already mapped) loss and elastic-fibre fragmentation that drive aneurysm formation.
 - `connects-to` → **[Insulin receptor](../../03-molecular/insulin-receptor/README.md)** — Growth axis: the tall stature and long limbs of Marfan syndrome reflect the growth-hormone/IGF-1 axis (both already mapped) signalling through the insulin/IGF receptors, and modulating this overgrowth has been explored to limit skeletal disproportion.
 - `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Pregnancy aortic risk: pregnancy sharply raises the risk of aortic dissection in Marfan syndrome, as the haemodynamic load and the hormonal effects of progesterone and estrogen (already mapped) on the vessel wall weaken the already-fragile aorta.
+- `connects-to` → **[Von Willebrand factor](../../03-molecular/von-willebrand-factor/README.md)** — Endothelial dysfunction: the abnormal aortic wall of Marfan syndrome disturbs the endothelium (nitric oxide already mapped), raising von Willebrand factor, a marker of the endothelial activation that accompanies the aortopathy and its thrombotic risk during dissection.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Vascular eicosanoids: prostaglandins modulate the tone and inflammation of the aortic wall, contributing with the cytokines already mapped to the vascular remodelling that, driven by dysregulated TGF-beta (already mapped), weakens the Marfan aorta.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Inflammatory balance: the anti-inflammatory IL-10 counters the TNF, IL-6 and IL-1 (already mapped) infiltrating the dilating aortic wall, and this cytokine balance shapes the inflammatory component of the aneurysm formation in Marfan syndrome.
 
 ---
 
