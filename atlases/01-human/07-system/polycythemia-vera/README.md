@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "Inflammatory milieu: polycythaemia vera carries a chronic inflammatory state, and the anti-inflammatory IL-10 counterbalances the TNF, IL-6 and IL-1 (already mapped) driven by JAK2-STAT signalling that shapes its symptoms and progression."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Thromboxane and platelets: activated platelets (PF4 and serotonin already mapped) generate thromboxane A2 to amplify aggregation, the eicosanoid pathway blocked by the low-dose aspirin used to reduce thrombosis in polycythaemia vera."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "Endothelial activation: the angiopoietin-Tie2 axis reflects the endothelial activation of the prothrombotic state of polycythaemia vera, part of the endothelium's contribution (von Willebrand factor already mapped) to its thrombosis."
+  - target: 01-human/03-molecular/fibrinogen
+    relation: connects-to
+    note: "Hyperviscosity and coagulation: the raised haematocrit (haemoglobin already mapped) and fibrinogen increase blood viscosity and coagulation (thrombin already mapped), compounding the thrombotic risk that drives phlebotomy in polycythaemia vera."
 ---
 
 # Polycythemia Vera
@@ -665,6 +674,9 @@ PV must be distinguished from secondary erythrocytosis (elevated EPO, JAK2 wild-
 - `connects-to` → **[ADAMTS13](../../03-molecular/adamts13/README.md)** — Acquired von Willebrand syndrome: when polycythaemia vera raises platelet counts markedly, the high-molecular-weight von Willebrand multimers (already mapped) are cleared, and this acquired von Willebrand syndrome causes the bleeding that can coexist with the thrombosis.
 - `connects-to` → **[Protein C](../../03-molecular/protein-c/README.md)** — Prothrombotic tilt: the thrombosis of polycythaemia vera reflects a shift toward coagulation, and reduced activity of the natural anticoagulant protein C (thrombin already mapped) adds to the risk that drives phlebotomy, aspirin and cytoreduction.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Inflammatory milieu: polycythaemia vera carries a chronic inflammatory state, and the anti-inflammatory IL-10 counterbalances the TNF, IL-6 and IL-1 (already mapped) driven by JAK2-STAT signalling that shapes its symptoms and progression.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Thromboxane and platelets: activated platelets (PF4 and serotonin already mapped) generate thromboxane A2 to amplify aggregation, the eicosanoid pathway blocked by the low-dose aspirin used to reduce thrombosis in polycythaemia vera.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Endothelial activation: the angiopoietin-Tie2 axis reflects the endothelial activation of the prothrombotic state of polycythaemia vera, part of the endothelium's contribution (von Willebrand factor already mapped) to its thrombosis.
+- `connects-to` → **[Fibrinogen](../../03-molecular/fibrinogen/README.md)** — Hyperviscosity and coagulation: the raised haematocrit (haemoglobin already mapped) and fibrinogen increase blood viscosity and coagulation (thrombin already mapped), compounding the thrombotic risk that drives phlebotomy in polycythaemia vera.
 
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409630](https://doi.org/10.1056/NEJMoa1409630) · [PubMed 25577388](https://pubmed.ncbi.nlm.nih.gov/25577388/)
 [^gisslinger-2020-proud-pv]: Gisslinger H, Gotic M, Holowiecki J, et al. Ropeginterferon alfa-2b versus standard therapy for polycythaemia vera (PROUD-PV and CONTINUATION-PV): a randomised, non-inferiority, phase 3 trial and its extension study. *Lancet Haematol.* 2020;7(3):e196-e208. [doi:10.1016/S2352-3026(19)30236-4](https://doi.org/10.1016/S2352-3026(19)30236-4) · [PubMed 32046833](https://pubmed.ncbi.nlm.nih.gov/32046833/)
