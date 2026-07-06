@@ -418,6 +418,15 @@ cross_links:
   - target: 01-human/03-molecular/testosterone
     relation: connects-to
     note: "Sex differences: generalized anxiety disorder is roughly twice as common in women, and androgens, which have anxiolytic effects, alongside estrogen and progesterone (already mapped) are implicated in these sex differences in vulnerability."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Neuroinflammatory eicosanoids: prostaglandins from the low-grade neuroinflammation (IL-6, TNF and IL-1 already mapped) reported in anxiety modulate the fear and stress circuits, part of the immune-inflammatory dimension of generalized anxiety disorder."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Cardiometabolic burden: the chronic HPA activation and insulin resistance (insulin already mapped) of long-standing generalized anxiety disorder shift cholesterol handling toward an atherogenic profile, part of its raised cardiovascular risk."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative stress: heightened oxidative stress, to which xanthine oxidase contributes, is reported in anxiety disorders (NRF2 already mapped), and the resulting reactive oxygen species may affect the neurons of the fear and worry circuits."
 ---
 
 # Generalized Anxiety Disorder
@@ -689,6 +698,9 @@ Allow **4-8 weeks** for onset of anxiolytic effect. Continue treatment ≥12 mon
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Mineralocorticoid stress axis: aldosterone acts on brain mineralocorticoid receptors that, balanced against glucocorticoid receptors (already mapped), tune the stress response and threat appraisal dysregulated in generalized anxiety disorder.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Metabolic stress load: chronic anxiety and HPA activation (cortisol already mapped) promote insulin resistance and metabolic dysregulation, part of the cardiometabolic burden that accompanies long-standing generalized anxiety disorder.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Sex differences: generalized anxiety disorder is roughly twice as common in women, and androgens, which have anxiolytic effects, alongside estrogen and progesterone (already mapped) are implicated in these sex differences in vulnerability.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Neuroinflammatory eicosanoids: prostaglandins from the low-grade neuroinflammation (IL-6, TNF and IL-1 already mapped) reported in anxiety modulate the fear and stress circuits, part of the immune-inflammatory dimension of generalized anxiety disorder.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Cardiometabolic burden: the chronic HPA activation and insulin resistance (insulin already mapped) of long-standing generalized anxiety disorder shift cholesterol handling toward an atherogenic profile, part of its raised cardiovascular risk.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative stress: heightened oxidative stress, to which xanthine oxidase contributes, is reported in anxiety disorders (NRF2 already mapped), and the resulting reactive oxygen species may affect the neurons of the fear and worry circuits.
 
 [^kessler-2005-gad-prevalence]: Kessler RC, Berglund P, Demler O, et al. Lifetime prevalence and age-of-onset distributions of DSM-IV disorders in the NCS Replication. *Arch Gen Psychiatry.* 2005;62(6):593-602. [doi:10.1001/archpsyc.62.6.593](https://doi.org/10.1001/archpsyc.62.6.593) · [PubMed 15939837](https://pubmed.ncbi.nlm.nih.gov/15939837/)
 [^bandelow-2015-anxiety-biology]: Bandelow B, Michaelis S. Epidemiology of anxiety disorders in the 21st century. *Dialogues Clin Neurosci.* 2015;17(3):327-335. [doi:10.31887/DCNS.2015.17.3/bbandelow](https://doi.org/10.31887/DCNS.2015.17.3/bbandelow) · [PubMed 26487812](https://pubmed.ncbi.nlm.nih.gov/26487812/)
