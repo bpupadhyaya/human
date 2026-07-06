@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/progesterone
     relation: connects-to
     note: "Gonadal sex-cord tumours: the ovarian sex-cord and testicular Sertoli-cell tumours of Peutz-Jeghers disturb sex-hormone balance (estrogen and testosterone already mapped), so progesterone and the reproductive-hormone axis figure in their endocrine effects."
+  - target: 01-human/03-molecular/mu-opioid-receptor
+    relation: connects-to
+    note: "Obstructive pain: recurrent intussusception and bowel obstruction from the small-intestinal polyps (already mapped) of Peutz-Jeghers cause severe abdominal pain, often requiring opioid analgesia acting at the mu-opioid receptor around surgery."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative carcinogenesis: chronic mucosal turnover in the hamartomatous polyps and the loss of LKB1-AMPK metabolic control (already mapped) generate oxidative stress, to which xanthine oxidase contributes, adding DNA damage that speeds malignant progression."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive stroma: the anti-inflammatory cytokine IL-10 in the polyp microenvironment dampens anti-tumour immunity (CD8 already mapped), part of the immune tolerance that allows some Peutz-Jeghers polyps and cancers to progress."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -655,6 +664,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Bleeding anaemia: the hamartomatous polyps of Peutz-Jeghers bleed chronically and cause acute haemorrhage with intussusception, producing the iron-deficiency anaemia that lowers haemoglobin and often prompts the endoscopy that reveals the polyposis.
 - `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Mucocutaneous pigmentation: the dark lentiginous macules of the lips, buccal mucosa and digits arise from melanocyte activity, which endothelin-1 through EDNRB regulates, underlying the pathognomonic pigmentation of Peutz-Jeghers syndrome.
 - `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Gonadal sex-cord tumours: the ovarian sex-cord and testicular Sertoli-cell tumours of Peutz-Jeghers disturb sex-hormone balance (estrogen and testosterone already mapped), so progesterone and the reproductive-hormone axis figure in their endocrine effects.
+- `connects-to` → **[Mu-opioid receptor](../../03-molecular/mu-opioid-receptor/README.md)** — Obstructive pain: recurrent intussusception and bowel obstruction from the small-intestinal polyps (already mapped) of Peutz-Jeghers cause severe abdominal pain, often requiring opioid analgesia acting at the mu-opioid receptor around surgery.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative carcinogenesis: chronic mucosal turnover in the hamartomatous polyps and the loss of LKB1-AMPK metabolic control (already mapped) generate oxidative stress, to which xanthine oxidase contributes, adding DNA damage that speeds malignant progression.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive stroma: the anti-inflammatory cytokine IL-10 in the polyp microenvironment dampens anti-tumour immunity (CD8 already mapped), part of the immune tolerance that allows some Peutz-Jeghers polyps and cancers to progress.
 
 ---
 

@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "T-cell therapy: IL-2-driven T-cell expansion supports the immunotherapy approaches under investigation for metastatic paraganglioma, complementing MIBG and peptide-receptor radionuclide therapy (SSTR2 already mapped)."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Paraganglia origin: paragangliomas arise from the paraganglia distributed along the sympathetic chain and parasympathetic nerves (head, neck, thorax, abdomen), the peripheral autonomic tissue whose chromaffin and glomus cells give rise to these tumours."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Polycythaemia: some pseudohypoxic pheochromocytomas and paragangliomas secrete erythropoietin (already mapped) or activate HIF, raising haemoglobin, and the Pacak-Zhuang syndrome links EPAS1-driven tumours (already mapped) to polycythaemia."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Adrenal and RAAS context: as an adrenal cause of secondary hypertension, pheochromocytoma sits alongside the aldosterone-driven primary aldosteronism of the adrenal cortex, and catecholamines stimulate renin and the aldosterone axis (angiotensin already in the RAAS)."
 ---
 
 # Pheochromocytoma/Paraganglioma
@@ -673,6 +682,9 @@ Active in Cluster 1 (MET/AXL co-expressed in SDH-deficient tumors); Phase 2 CABO
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — EPAS1 polycythaemia: EPAS1/HIF2-driven paragangliomas (EPAS1 already mapped) can secrete erythropoietin, causing the polycythaemia of the Pacak-Zhuang syndrome, a distinctive pseudohypoxic feature of this tumour subtype.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Metastatic immunotherapy: MHC class II antigen presentation shapes the T-cell response to metastatic pheochromocytoma/paraganglioma, for which checkpoint and other immunotherapies are being explored given the limited options for malignant disease.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell therapy: IL-2-driven T-cell expansion supports the immunotherapy approaches under investigation for metastatic paraganglioma, complementing MIBG and peptide-receptor radionuclide therapy (SSTR2 already mapped).
+- `connects-to` → **[Peripheral nerve](../../05-tissue/peripheral-nerve/README.md)** — Paraganglia origin: paragangliomas arise from the paraganglia distributed along the sympathetic chain and parasympathetic nerves (head, neck, thorax, abdomen), the peripheral autonomic tissue whose chromaffin and glomus cells give rise to these tumours.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Polycythaemia: some pseudohypoxic pheochromocytomas and paragangliomas secrete erythropoietin (already mapped) or activate HIF, raising haemoglobin, and the Pacak-Zhuang syndrome links EPAS1-driven tumours (already mapped) to polycythaemia.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Adrenal and RAAS context: as an adrenal cause of secondary hypertension, pheochromocytoma sits alongside the aldosterone-driven primary aldosteronism of the adrenal cortex, and catecholamines stimulate renin and the aldosterone axis (angiotensin already in the RAAS).
 
 [^lenders-2014-pheo-guideline]: Lenders JW, Duh QY, Eisenhofer G, et al. Pheochromocytoma and paraganglioma: an endocrine society clinical practice guideline. *J Clin Endocrinol Metab.* 2014;99(6):1915-1942. [doi:10.1210/jc.2014-1498](https://doi.org/10.1210/jc.2014-1498) · [PubMed 24893135](https://pubmed.ncbi.nlm.nih.gov/24893135/)
 [^baudin-2021-firstmappp-sunitinib]: Baudin E, Goichot B, Berruti A, et al. First International Randomized Study in Malignant Progressive Pheochromocytoma and Paragangliomas (FIRSTMAPPP). *Ann Oncol.* 2021;32(10):1245-1254. [doi:10.1016/j.annonc.2021.07.009](https://doi.org/10.1016/j.annonc.2021.07.009) · [PubMed 34246769](https://pubmed.ncbi.nlm.nih.gov/34246769/)
