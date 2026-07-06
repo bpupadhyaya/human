@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/pd-1
     relation: connects-to
     note: "Checkpoint resistance: glioblastoma has largely resisted PD-1 checkpoint blockade owing to its cold, myeloid-dominated microenvironment, making it a key testbed for combinations that aim to convert it into an immunoresponsive tumour."
+  - target: 01-human/03-molecular/glucocorticoid-receptor
+    relation: connects-to
+    note: "Dexamethasone for oedema: glucocorticoids acting through the glucocorticoid receptor reduce the peritumoral vasogenic oedema (aquaporin-4 and VEGF already mapped) of glioblastoma, the mainstay symptom control despite immunosuppressive drawbacks."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive microenvironment: IL-10 from the myeloid-dominated stroma helps make glioblastoma an immunologically cold tumour (PD-1 already mapped), dampening the T-cell response that checkpoint and CAR-T strategies aim to mount."
+  - target: 01-human/03-molecular/gaba
+    relation: connects-to
+    note: "Neuronal circuit integration: alongside the glutamatergic neuron-glioma synapses (glutamate already mapped), GABAergic signalling shapes the neuronal activity that drives glioblastoma growth and the peritumoral seizures that mark it."
 ---
 
 # Glioblastoma
@@ -661,6 +670,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Cold-tumour antigen presentation: glioblastoma is profoundly immunosuppressive with low MHC-based antigen presentation, and restoring T-cell recognition is central to the vaccine and cellular immunotherapy strategies being tested against it.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — CAR-T therapy: IL-2-driven T-cell expansion supports the EGFRvIII- and other antigen-directed CAR-T therapies (EGFR already mapped) under investigation for glioblastoma, though antigen heterogeneity limits durable responses.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Checkpoint resistance: glioblastoma has largely resisted PD-1 checkpoint blockade owing to its cold, myeloid-dominated microenvironment, making it a key testbed for combinations that aim to convert it into an immunoresponsive tumour.
+- `connects-to` → **[Glucocorticoid receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Dexamethasone for oedema: glucocorticoids acting through the glucocorticoid receptor reduce the peritumoral vasogenic oedema (aquaporin-4 and VEGF already mapped) of glioblastoma, the mainstay symptom control despite immunosuppressive drawbacks.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 from the myeloid-dominated stroma helps make glioblastoma an immunologically cold tumour (PD-1 already mapped), dampening the T-cell response that checkpoint and CAR-T strategies aim to mount.
+- `connects-to` → **[GABA](../../03-molecular/gaba/README.md)** — Neuronal circuit integration: alongside the glutamatergic neuron-glioma synapses (glutamate already mapped), GABAergic signalling shapes the neuronal activity that drives glioblastoma growth and the peritumoral seizures that mark it.
 
 ---
 

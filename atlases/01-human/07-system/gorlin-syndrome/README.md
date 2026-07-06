@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/axl-receptor
     relation: connects-to
     note: "Hedgehog-inhibitor resistance: the AXL receptor tyrosine kinase and other non-canonical signalling can bypass SMO blockade, contributing to the vismodegib resistance that limits Hedgehog-inhibitor therapy of Gorlin-syndrome basal cell carcinomas."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive microenvironment: IL-10 in the microenvironment of the many basal cell carcinomas of Gorlin syndrome dampens anti-tumour immunity (PD-1 already mapped), part of the immune evasion relevant to the checkpoint therapy of advanced lesions."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Cardiac fibromas: benign cardiac fibromas are a feature of Gorlin syndrome, and when they involve the myocardium or provoke arrhythmia, troponin elevation can mark the associated cardiac injury."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Tumour vasculature: nitric oxide regulates the vascular tone and, with VEGF (already mapped), the angiogenesis supplying the basal cell carcinomas and other tumours of Gorlin syndrome, part of their stromal microenvironment."
 ---
 
 # Gorlin Syndrome
@@ -642,6 +651,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immune surveillance: MHC class II-restricted T-cell surveillance limits the many basal cell carcinomas of Gorlin syndrome, and immunosuppression (calcineurin already mapped) accelerates them, while antigen presentation underlies checkpoint therapy of advanced tumours.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Checkpoint therapy: the numerous basal cell carcinomas of Gorlin syndrome that resist or escape Hedgehog inhibitors (SMO already mapped) can respond to PD-1 checkpoint blockade, offering an alternative for advanced disease.
 - `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — Hedgehog-inhibitor resistance: the AXL receptor tyrosine kinase and other non-canonical signalling can bypass SMO blockade, contributing to the vismodegib resistance that limits Hedgehog-inhibitor therapy of Gorlin-syndrome basal cell carcinomas.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the microenvironment of the many basal cell carcinomas of Gorlin syndrome dampens anti-tumour immunity (PD-1 already mapped), part of the immune evasion relevant to the checkpoint therapy of advanced lesions.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiac fibromas: benign cardiac fibromas are a feature of Gorlin syndrome, and when they involve the myocardium or provoke arrhythmia, troponin elevation can mark the associated cardiac injury.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide regulates the vascular tone and, with VEGF (already mapped), the angiogenesis supplying the basal cell carcinomas and other tumours of Gorlin syndrome, part of their stromal microenvironment.
 
 ---
 
