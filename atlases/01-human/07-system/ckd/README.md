@@ -414,6 +414,15 @@ cross_links:
   - target: 01-human/03-molecular/secretory-iga
     relation: connects-to
     note: "IgA nephropathy: deposition of galactose-deficient IgA immune complexes in the glomerular mesangium causes IgA nephropathy, one of the commonest primary glomerular diseases progressing to chronic kidney disease worldwide."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Iron-restricted anaemia: the failing kidney's low erythropoietin (already mapped) and the raised hepcidin (already mapped) of chronic inflammation restrict iron for erythropoiesis, and intravenous iron is a mainstay of managing the anaemia of chronic kidney disease."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Renal prostaglandins: prostaglandins maintain afferent arteriolar tone and renal blood flow, so non-steroidal anti-inflammatory drugs that block them cause acute injury and accelerate chronic kidney disease, a common nephrotoxic exposure."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Inflammatory progression: IL-10 opposes the pro-inflammatory cytokines (IL-6, TNF and IL-1 already mapped) that drive the interstitial inflammation and fibrosis (TGF-beta already mapped) of progressive chronic kidney disease, part of its immune balance."
 ---
 
 # Chronic Kidney Disease
@@ -622,6 +631,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiorenal injury: cardiovascular disease is the leading cause of death in chronic kidney disease, and chronically elevated troponin reflects the ongoing myocardial injury of the cardiorenal syndrome even without acute infarction.
 - `connects-to` → **[Mu-opioid receptor](../../03-molecular/mu-opioid-receptor/README.md)** — Drug clearance and pruritus: many opioids and their active metabolites accumulate in renal failure, requiring dose adjustment, and altered opioid signalling contributes to the distressing uraemic pruritus of advanced chronic kidney disease.
 - `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — IgA nephropathy: deposition of galactose-deficient IgA immune complexes in the glomerular mesangium causes IgA nephropathy, one of the commonest primary glomerular diseases progressing to chronic kidney disease worldwide.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron-restricted anaemia: the failing kidney's low erythropoietin (already mapped) and the raised hepcidin (already mapped) of chronic inflammation restrict iron for erythropoiesis, and intravenous iron is a mainstay of managing the anaemia of chronic kidney disease.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Renal prostaglandins: prostaglandins maintain afferent arteriolar tone and renal blood flow, so non-steroidal anti-inflammatory drugs that block them cause acute injury and accelerate chronic kidney disease, a common nephrotoxic exposure.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Inflammatory progression: IL-10 opposes the pro-inflammatory cytokines (IL-6, TNF and IL-1 already mapped) that drive the interstitial inflammation and fibrosis (TGF-beta already mapped) of progressive chronic kidney disease, part of its immune balance.
 
 ## Pathology
 

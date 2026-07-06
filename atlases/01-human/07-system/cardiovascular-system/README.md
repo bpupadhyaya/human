@@ -420,6 +420,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Oxygen transport and deficiency: iron in haemoglobin (already mapped) carries the oxygen the circulation delivers, and iron deficiency independently worsens heart failure, linking the metal to cardiovascular function beyond anaemia."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Rhythm and vascular tone: magnesium stabilises cardiac membranes and rhythm and relaxes vascular smooth muscle (already mapped), and its deficiency predisposes to arrhythmias and hypertension, a mineral integral to cardiovascular function."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative and urate risk: xanthine-oxidase-derived reactive oxygen species drive the endothelial (already mapped) dysfunction of cardiovascular disease, and the uric acid it produces is itself linked to hypertension and cardiovascular risk."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Anti-inflammatory atheroprotection: the anti-inflammatory IL-10 restrains the vascular inflammation (IL-6 and IL-1 already mapped) that drives atherosclerosis (already mapped), part of the immune balance shaping cardiovascular health."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"
@@ -636,6 +645,9 @@ Each major vascular bed has **autoregulation** — a local mechanism that holds 
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Atherosclerotic inflammation: macrophages ingest oxidised lipid to become the foam cells of the atherosclerotic plaque, and their inflammation and death drive the plaque growth and rupture behind most cardiovascular events.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Pulmonary circulation: the right heart pumps blood through the lungs for gas exchange, and this pulmonary circulation is an integral loop of the cardiovascular system whose failure produces pulmonary hypertension and congestion.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Oxygen transport and deficiency: iron in haemoglobin (already mapped) carries the oxygen the circulation delivers, and iron deficiency independently worsens heart failure, linking the metal to cardiovascular function beyond anaemia.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Rhythm and vascular tone: magnesium stabilises cardiac membranes and rhythm and relaxes vascular smooth muscle (already mapped), and its deficiency predisposes to arrhythmias and hypertension, a mineral integral to cardiovascular function.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative and urate risk: xanthine-oxidase-derived reactive oxygen species drive the endothelial (already mapped) dysfunction of cardiovascular disease, and the uric acid it produces is itself linked to hypertension and cardiovascular risk.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Anti-inflammatory atheroprotection: the anti-inflammatory IL-10 restrains the vascular inflammation (IL-6 and IL-1 already mapped) that drives atherosclerosis (already mapped), part of the immune balance shaping cardiovascular health.
 
 ## Pathology
 
