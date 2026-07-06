@@ -418,6 +418,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative stress: sleep deprivation increases oxidative stress, to which xanthine-oxidase-derived reactive oxygen species contribute, one mechanism proposed to link chronic insomnia to accelerated cellular ageing and cardiometabolic risk."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Cardiometabolic risk: chronic insomnia and the insulin resistance (insulin already mapped) of sleep loss shift cholesterol handling toward an atherogenic profile, part of the cardiovascular and metabolic burden associated with poor sleep."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Stress-axis mineralocorticoid arm: aldosterone acting on brain mineralocorticoid receptors, balanced against the glucocorticoid signalling (cortisol and CRH already mapped), tunes the HPA-axis hyperarousal that maintains chronic insomnia."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "Sleep-metabolism link: sleep loss disturbs the appetite and incretin signalling (ghrelin and leptin already mapped), and the GLP-1 axis links the metabolic dysregulation of chronic insomnia to its appetite and weight effects."
 ---
 
 # Insomnia Disorder
@@ -688,6 +697,9 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Metabolic consequence: short and disrupted sleep in insomnia promotes insulin resistance and impaired glucose tolerance, part of the metabolic burden that links chronic insomnia to the raised risk of type 2 diabetes (already mapped).
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Neuroimmune balance: sleep loss shifts the cytokine balance, raising the pro-inflammatory IL-6 and TNF (already mapped) that IL-10 normally restrains, contributing to the low-grade inflammation associated with chronic insomnia.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative stress: sleep deprivation increases oxidative stress, to which xanthine-oxidase-derived reactive oxygen species contribute, one mechanism proposed to link chronic insomnia to accelerated cellular ageing and cardiometabolic risk.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Cardiometabolic risk: chronic insomnia and the insulin resistance (insulin already mapped) of sleep loss shift cholesterol handling toward an atherogenic profile, part of the cardiovascular and metabolic burden associated with poor sleep.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Stress-axis mineralocorticoid arm: aldosterone acting on brain mineralocorticoid receptors, balanced against the glucocorticoid signalling (cortisol and CRH already mapped), tunes the HPA-axis hyperarousal that maintains chronic insomnia.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Sleep-metabolism link: sleep loss disturbs the appetite and incretin signalling (ghrelin and leptin already mapped), and the GLP-1 axis links the metabolic dysregulation of chronic insomnia to its appetite and weight effects.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)

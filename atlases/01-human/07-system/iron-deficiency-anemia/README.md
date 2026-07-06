@@ -408,6 +408,15 @@ cross_links:
   - target: 01-human/03-molecular/secretory-iga
     relation: connects-to
     note: "Coeliac malabsorption: coeliac disease is a common cause of iron malabsorption and refractory iron-deficiency anaemia, screened for with anti-transglutaminase IgA, linking the disorder to mucosal immunity of the small intestine (already mapped)."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Gastric acid and absorption: gastric acid, driven by histamine, reduces dietary iron to the absorbable ferrous form, so acid suppression with proton-pump inhibitors and atrophic gastritis impair iron absorption and can cause iron-deficiency anaemia."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "NSAID gastrointestinal bleeding: non-steroidal anti-inflammatory drugs block the protective mucosal prostaglandins, causing the gastric erosions and chronic occult gastrointestinal bleeding that are a common cause of iron-deficiency anaemia."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Metabolic interplay: iron deficiency alters leptin signalling and appetite, and it is associated with pica and restless-legs symptoms (dopamine already mapped), part of the systemic effects of iron-deficiency anaemia beyond the red cells."
 ---
 
 # Iron Deficiency Anemia
@@ -658,6 +667,9 @@ Iron is essential for:
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen erythropoiesis: testosterone stimulates erythropoiesis and suppresses hepcidin (already mapped), so androgens raise the baseline haemoglobin, and hypogonadism worsens the anaemia against which iron deficiency develops.
 - `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Pregnancy iron demand: pregnancy, sustained by progesterone, sharply raises iron requirements for the expanding red-cell mass and the fetus, making iron-deficiency anaemia common in pregnancy and a target for routine supplementation.
 - `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — Coeliac malabsorption: coeliac disease is a common cause of iron malabsorption and refractory iron-deficiency anaemia, screened for with anti-transglutaminase IgA, linking the disorder to mucosal immunity of the small intestine (already mapped).
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Gastric acid and absorption: gastric acid, driven by histamine, reduces dietary iron to the absorbable ferrous form, so acid suppression with proton-pump inhibitors and atrophic gastritis impair iron absorption and can cause iron-deficiency anaemia.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — NSAID gastrointestinal bleeding: non-steroidal anti-inflammatory drugs block the protective mucosal prostaglandins, causing the gastric erosions and chronic occult gastrointestinal bleeding that are a common cause of iron-deficiency anaemia.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Metabolic interplay: iron deficiency alters leptin signalling and appetite, and it is associated with pica and restless-legs symptoms (dopamine already mapped), part of the systemic effects of iron-deficiency anaemia beyond the red cells.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)
