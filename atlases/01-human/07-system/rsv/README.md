@@ -408,6 +408,15 @@ cross_links:
   - target: 01-human/03-molecular/prostaglandins
     relation: connects-to
     note: "Inflammatory mediators: prostaglandins and other lipid mediators generated during RSV infection promote the airway inflammation, mucus secretion and bronchoconstriction that obstruct the small airways in bronchiolitis."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative airway injury: RSV infection generates reactive oxygen species, to which xanthine oxidase contributes, in the airway epithelium, and this oxidative stress amplifies the inflammation and epithelial damage of bronchiolitis."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "Neurogenic inflammation: CGRP released from airway sensory nerves, with substance P (already mapped), contributes to the neurogenic inflammation and the exaggerated airway responses of RSV bronchiolitis, part of its neuro-immune dimension."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-mediated inflammation: bradykinin generated in the RSV-infected airway raises vascular permeability and stimulates the mucus secretion and bronchoconstriction that obstruct the small airways of bronchiolitis."
 ---
 
 # RSV
@@ -682,3 +691,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Wheeze and Th2: histamine release accompanies the type-2, allergic-like response to RSV (IL-4/IL-13 already mapped), contributing to the airway oedema and wheeze of bronchiolitis and to the post-viral airway reactivity.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Airway nitric oxide: RSV alters epithelial nitric-oxide production, and NO both participates in antiviral defence and, in excess, contributes to the airway inflammation and vascular changes of severe bronchiolitis.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Inflammatory mediators: prostaglandins and other lipid mediators generated during RSV infection promote the airway inflammation, mucus secretion and bronchoconstriction that obstruct the small airways in bronchiolitis.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative airway injury: RSV infection generates reactive oxygen species, to which xanthine oxidase contributes, in the airway epithelium, and this oxidative stress amplifies the inflammation and epithelial damage of bronchiolitis.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Neurogenic inflammation: CGRP released from airway sensory nerves, with substance P (already mapped), contributes to the neurogenic inflammation and the exaggerated airway responses of RSV bronchiolitis, part of its neuro-immune dimension.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-mediated inflammation: bradykinin generated in the RSV-infected airway raises vascular permeability and stimulates the mucus secretion and bronchoconstriction that obstruct the small airways of bronchiolitis.

@@ -415,6 +415,15 @@ cross_links:
   - target: 01-human/03-molecular/hemoglobin
     relation: connects-to
     note: "Renal anaemia: falling erythropoietin (already mapped) production by the diseased kidney lowers haemoglobin, the renal anaemia treated with erythropoiesis-stimulating agents and, more recently, HIF stabilisers."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Urate handling: the kidney excretes most of the body's uric acid produced by xanthine oxidase, and impaired renal excretion causes hyperuricaemia and gout, while urate crystals and stones in turn injure the kidney."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Iron balance and anaemia: the kidney's failing erythropoietin (already mapped) and the raised hepcidin (already mapped) of chronic kidney disease disturb iron availability, producing an iron-restricted renal anaemia managed with iron and erythropoiesis-stimulating agents."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Renal inflammation: TNF and the inflammatory cytokines (IL-6 and IL-1 already mapped) drive the interstitial inflammation and fibrosis (TGF-beta already mapped) of progressive kidney disease, a target of anti-inflammatory approaches to slow renal decline."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -642,6 +651,9 @@ Natriuretic counterpoint:
 - **Connects to:** [Smooth muscle cell](../../04-cellular/smooth-muscle-cell/README.md) — vascular tone control: smooth muscle in the afferent and efferent arterioles and the mesangium sets glomerular filtration pressure under RAAS and sympathetic control (angiotensin II already mapped), the microvascular regulation central to renal function.
 - **Connects to:** [Macrophage](../../04-cellular/macrophage/README.md) — interstitial inflammation: infiltrating macrophages drive the tubulointerstitial inflammation and fibrosis (TGF-beta already mapped) that determine progression of chronic kidney disease, a key immune contributor to renal scarring.
 - **Connects to:** [Hemoglobin](../../03-molecular/hemoglobin/README.md) — renal anaemia: falling erythropoietin (already mapped) production by the diseased kidney lowers haemoglobin, the renal anaemia treated with erythropoiesis-stimulating agents and, more recently, HIF stabilisers.
+- **Connects to:** [Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md) — urate handling: the kidney excretes most of the body's uric acid produced by xanthine oxidase, and impaired renal excretion causes hyperuricaemia and gout, while urate crystals and stones in turn injure the kidney.
+- **Connects to:** [Iron](../../02-atomic/iron/README.md) — iron balance and anaemia: the kidney's failing erythropoietin (already mapped) and the raised hepcidin (already mapped) of chronic kidney disease disturb iron availability, producing an iron-restricted renal anaemia managed with iron and erythropoiesis-stimulating agents.
+- **Connects to:** [TNF-alpha](../../03-molecular/tnf-alpha/README.md) — renal inflammation: TNF and the inflammatory cytokines (IL-6 and IL-1 already mapped) drive the interstitial inflammation and fibrosis (TGF-beta already mapped) of progressive kidney disease, a target of anti-inflammatory approaches to slow renal decline.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 
