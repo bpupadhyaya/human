@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Hyperuricaemia: the rapid epidermal turnover of psoriasis raises purine catabolism through xanthine oxidase, elevating serum urate and increasing the risk of gout that accompanies the disease."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Metabolic dyslipidaemia: psoriasis is associated with an atherogenic dyslipidaemia as part of its metabolic syndrome (leptin and adiponectin already mapped), contributing to the accelerated atherosclerosis (already mapped) and cardiovascular risk of severe disease."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Insulin resistance: the systemic inflammation of psoriasis (TNF and IL-6 already mapped) promotes insulin resistance, and psoriasis is associated with an increased risk of type 2 diabetes (already mapped), part of its metabolic comorbidity."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Endothelial dysfunction: the chronic inflammation of psoriasis impairs endothelial nitric oxide, contributing to the vascular dysfunction and the increased cardiovascular events (troponin already mapped) that shorten life in severe disease."
 ---
 
 # Psoriasis
@@ -658,6 +667,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell activation: IL-2-driven T-cell activation and expansion sustain the pathogenic Th17 response of psoriasis, and calcineurin inhibitors (already mapped) that block IL-2 production, like ciclosporin, are effective systemic therapies.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiovascular comorbidity: the systemic inflammation of psoriasis accelerates atherosclerosis (already mapped), and troponin elevation marks the myocardial injury of the increased cardiovascular events that shorten life in severe disease.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Hyperuricaemia: the rapid epidermal turnover of psoriasis raises purine catabolism through xanthine oxidase, elevating serum urate and increasing the risk of gout that accompanies the disease.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Metabolic dyslipidaemia: psoriasis is associated with an atherogenic dyslipidaemia as part of its metabolic syndrome (leptin and adiponectin already mapped), contributing to the accelerated atherosclerosis (already mapped) and cardiovascular risk of severe disease.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Insulin resistance: the systemic inflammation of psoriasis (TNF and IL-6 already mapped) promotes insulin resistance, and psoriasis is associated with an increased risk of type 2 diabetes (already mapped), part of its metabolic comorbidity.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Endothelial dysfunction: the chronic inflammation of psoriasis impairs endothelial nitric oxide, contributing to the vascular dysfunction and the increased cardiovascular events (troponin already mapped) that shorten life in severe disease.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

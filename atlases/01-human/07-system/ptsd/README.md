@@ -414,6 +414,15 @@ cross_links:
   - target: 01-human/03-molecular/troponin-complex
     relation: connects-to
     note: "Cardiovascular risk: the sustained sympathetic activation (norepinephrine already mapped) of PTSD raises the risk of coronary disease and myocardial infarction, and troponin elevation marks the cardiac injury of these excess cardiovascular events."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Cardiometabolic dyslipidaemia: the chronic stress and insulin resistance (insulin already mapped) of PTSD shift cholesterol handling toward an atherogenic profile, part of the cardiometabolic burden that raises its long-term cardiovascular risk."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Neuroinflammatory eicosanoids: prostaglandins from the low-grade neuroinflammation (IL-6, TNF and IL-1 already mapped) reported in PTSD modulate the fear and stress circuits, part of the immune-inflammatory dimension of the disorder."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Anti-inflammatory balance: the anti-inflammatory IL-10 counters the chronic low-grade inflammation (IL-6, TNF and IL-1 already mapped) of PTSD, and the imbalance toward pro-inflammatory signalling is part of its cardiometabolic and neuropsychiatric burden."
 ---
 
 # PTSD
@@ -681,6 +690,9 @@ Not all trauma leads to PTSD. Risk and resilience factors include:
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Mineralocorticoid stress axis: aldosterone acts on brain mineralocorticoid receptors that, balanced against glucocorticoid receptors (already mapped), tune the stress response and fear memory dysregulated in post-traumatic stress disorder.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Metabolic dysregulation: chronic stress in PTSD promotes insulin resistance and the metabolic syndrome (cortisol already mapped), part of the cardiometabolic burden that raises long-term physical illness in affected patients.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiovascular risk: the sustained sympathetic activation (norepinephrine already mapped) of PTSD raises the risk of coronary disease and myocardial infarction, and troponin elevation marks the cardiac injury of these excess cardiovascular events.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Cardiometabolic dyslipidaemia: the chronic stress and insulin resistance (insulin already mapped) of PTSD shift cholesterol handling toward an atherogenic profile, part of the cardiometabolic burden that raises its long-term cardiovascular risk.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Neuroinflammatory eicosanoids: prostaglandins from the low-grade neuroinflammation (IL-6, TNF and IL-1 already mapped) reported in PTSD modulate the fear and stress circuits, part of the immune-inflammatory dimension of the disorder.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Anti-inflammatory balance: the anti-inflammatory IL-10 counters the chronic low-grade inflammation (IL-6, TNF and IL-1 already mapped) of PTSD, and the imbalance toward pro-inflammatory signalling is part of its cardiometabolic and neuropsychiatric burden.
 
 [^yehuda-2015-ptsd-review]: Yehuda R, Hoge CW, McFarlane AC, et al. Post-traumatic stress disorder. *Nat Rev Dis Primers.* 2015;1:15057. [doi:10.1038/nrdp.2015.57](https://doi.org/10.1038/nrdp.2015.57) · [PubMed 27189040](https://pubmed.ncbi.nlm.nih.gov/27189040/)
 [^foa-2019-ptsd-treatments]: Foa EB, McLean CP. The efficacy of exposure therapy for anxiety and related disorders. *Annu Rev Clin Psychol.* 2016;12:1-28. [doi:10.1146/annurev-clinpsy-021815-093533](https://doi.org/10.1146/annurev-clinpsy-021815-093533) · [PubMed 26928206](https://pubmed.ncbi.nlm.nih.gov/26928206/)
