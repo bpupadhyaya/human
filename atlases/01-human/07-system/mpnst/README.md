@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/pd-1
     relation: connects-to
     note: "Checkpoint context: PD-1-mediated T-cell exhaustion limits anti-tumour immunity in the immunologically cold malignant peripheral nerve sheath tumour, and checkpoint blockade is being tested in combination for this aggressive sarcoma."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Chemotherapy anaemia: the doxorubicin-ifosfamide chemotherapy used for malignant peripheral nerve sheath tumour, which responds poorly, is myelosuppressive and lowers haemoglobin, the anaemia adding to the burden of this aggressive sarcoma."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Anthracycline cardiotoxicity: the doxorubicin in sarcoma regimens for malignant peripheral nerve sheath tumour is cardiotoxic, and troponin elevation helps detect the cumulative myocardial injury of the anthracycline dose."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive microenvironment: IL-10 helps make malignant peripheral nerve sheath tumour an immunologically cold sarcoma (PD-1 already mapped), dampening the T-cell response that combination checkpoint strategies aim to mount."
 ---
 
 # MPNST
@@ -663,6 +672,9 @@ Wide local excision with negative margins is the only potentially curative inter
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immunosurveillance: MHC class II antigen presentation shapes the T-cell response to malignant peripheral nerve sheath tumour, a chemoresistant sarcoma for which the loss of antigen presentation contributes to immune evasion.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Cellular immunotherapy: IL-2-driven T-cell expansion supports the adoptive-cell and vaccine approaches being explored for malignant peripheral nerve sheath tumour, which responds poorly to conventional chemotherapy.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Checkpoint context: PD-1-mediated T-cell exhaustion limits anti-tumour immunity in the immunologically cold malignant peripheral nerve sheath tumour, and checkpoint blockade is being tested in combination for this aggressive sarcoma.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Chemotherapy anaemia: the doxorubicin-ifosfamide chemotherapy used for malignant peripheral nerve sheath tumour, which responds poorly, is myelosuppressive and lowers haemoglobin, the anaemia adding to the burden of this aggressive sarcoma.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Anthracycline cardiotoxicity: the doxorubicin in sarcoma regimens for malignant peripheral nerve sheath tumour is cardiotoxic, and troponin elevation helps detect the cumulative myocardial injury of the anthracycline dose.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 helps make malignant peripheral nerve sheath tumour an immunologically cold sarcoma (PD-1 already mapped), dampening the T-cell response that combination checkpoint strategies aim to mount.
 
 [^evans-2002-mpnst-nf1]: Evans DGR, Baser ME, McGaughran J, et al. Malignant peripheral nerve sheath tumours in neurofibromatosis 1. *J Med Genet.* 2002;39(5):311-314. [doi:10.1136/jmg.39.5.311](https://doi.org/10.1136/jmg.39.5.311) · [PubMed 12011145](https://pubmed.ncbi.nlm.nih.gov/12011145/)
 [^lee-2014-mpnst-prc2]: Lee W, Teckie S, Wiesner T, et al. PRC2 is recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve sheath tumors. *Nat Genet.* 2014;46(11):1227-1232. [doi:10.1038/ng.3095](https://doi.org/10.1038/ng.3095) · [PubMed 25240281](https://pubmed.ncbi.nlm.nih.gov/25240281/)
