@@ -409,6 +409,15 @@ cross_links:
   - target: 01-human/03-molecular/leptin
     relation: connects-to
     note: "Metabolic comorbidity: prurigo nodularis is associated with obesity and metabolic syndrome, and the pro-inflammatory adipokine leptin may contribute to the systemic inflammatory milieu that accompanies the disease."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Dyslipidaemia: prurigo nodularis is associated with an atherogenic dyslipidaemia as part of its metabolic syndrome (leptin already mapped), one of the systemic comorbidities that accompany the skin disease."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Insulin resistance: prurigo nodularis is associated with type 2 diabetes and insulin resistance, part of the metabolic-syndrome cluster (leptin already mapped) that is more common in patients with the disease."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "Stress and steroids: psychological stress worsens the itch of prurigo nodularis through cortisol and the stress axis, and topical and systemic corticosteroids acting on the glucocorticoid receptor (already mapped) are used to calm the inflammation."
 ---
 
 # Prurigo Nodularis
@@ -622,6 +631,9 @@ PN affects approximately **72,000 patients** in the US; true prevalence is likel
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Nodule neovascularisation: the chronically scratched prurigo nodule shows dermal fibrosis and neovascularisation driven by VEGF and PDGF (already mapped), the vascular and stromal remodelling that gives the lesions their firm, hyperkeratotic character.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative skin stress: repeated scratching and inflammation in prurigo nodularis generate oxidative stress, to which xanthine-oxidase-derived reactive oxygen species contribute, reinforcing the barrier damage and neurogenic inflammation of the itch-scratch cycle.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Metabolic comorbidity: prurigo nodularis is associated with obesity and metabolic syndrome, and the pro-inflammatory adipokine leptin may contribute to the systemic inflammatory milieu that accompanies the disease.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Dyslipidaemia: prurigo nodularis is associated with an atherogenic dyslipidaemia as part of its metabolic syndrome (leptin already mapped), one of the systemic comorbidities that accompany the skin disease.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Insulin resistance: prurigo nodularis is associated with type 2 diabetes and insulin resistance, part of the metabolic-syndrome cluster (leptin already mapped) that is more common in patients with the disease.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Stress and steroids: psychological stress worsens the itch of prurigo nodularis through cortisol and the stress axis, and topical and systemic corticosteroids acting on the glucocorticoid receptor (already mapped) are used to calm the inflammation.
 
 [^stander-2020-nemolizumab-pn]: Ständer S, Yosipovitch G, Legat FJ, et al. Trial of nemolizumab in moderate-to-severe prurigo nodularis. *N Engl J Med.* 2020;382(8):706-716. [doi:10.1056/NEJMoa1908316](https://doi.org/10.1056/NEJMoa1908316) · [PubMed 32053299](https://pubmed.ncbi.nlm.nih.gov/32053299/)
 [^briggs-2022-dupilumab-pn-liberty]: Briggs JN, Cho YY, Khanna R, et al. Dupilumab for prurigo nodularis: the LIBERTY-PN PRIME and PRIME2 trials. *N Engl J Med.* 2022;387(18):1683-1693. [doi:10.1056/NEJMoa2205093](https://doi.org/10.1056/NEJMoa2205093) · [PubMed 36300905](https://pubmed.ncbi.nlm.nih.gov/36300905/)

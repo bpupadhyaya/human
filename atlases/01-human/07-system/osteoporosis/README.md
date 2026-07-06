@@ -415,6 +415,15 @@ cross_links:
   - target: 01-human/03-molecular/mu-opioid-receptor
     relation: connects-to
     note: "Fracture pain: osteoporotic vertebral and hip fractures cause severe pain often managed with opioids acting on the mu-opioid receptor, whose sedative and fall-risk effects are themselves a hazard in the elderly osteoporotic population."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "Gut-bone axis: the incretin GLP-1, released after eating, links nutrient intake to bone remodelling (insulin already mapped), part of the enteroendocrine regulation of the postprandial suppression of bone resorption relevant to osteoporosis."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Mineralocorticoid bone loss: activation of the mineralocorticoid receptor by aldosterone promotes bone resorption and calcium loss, and primary aldosteronism is associated with osteoporosis and fracture, an endocrine driver of bone loss."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Osteoimmune balance: the anti-inflammatory IL-10 restrains the inflammatory osteoclastogenesis driven by TNF, IL-6, IL-1 and IL-17 (already mapped), so the cytokine balance of osteoimmunology shapes the bone loss of osteoporosis."
 ---
 
 # Osteoporosis
@@ -655,6 +664,9 @@ All newly diagnosed osteoporosis should be evaluated for secondary causes: CBC (
 - `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Osteoblast stimulation: progesterone acts on osteoblasts to promote bone formation, complementing estrogen's restraint of resorption (estrogen and testosterone already mapped), so the postmenopausal loss of both sex steroids drives bone loss.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative bone loss: reactive oxygen species from xanthine oxidase promote osteoclast differentiation and activity while impairing osteoblasts (NRF2 already mapped), so oxidative stress tips the balance toward the bone loss of osteoporosis.
 - `connects-to` → **[Mu-opioid receptor](../../03-molecular/mu-opioid-receptor/README.md)** — Fracture pain: osteoporotic vertebral and hip fractures cause severe pain often managed with opioids acting on the mu-opioid receptor, whose sedative and fall-risk effects are themselves a hazard in the elderly osteoporotic population.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Gut-bone axis: the incretin GLP-1, released after eating, links nutrient intake to bone remodelling (insulin already mapped), part of the enteroendocrine regulation of the postprandial suppression of bone resorption relevant to osteoporosis.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Mineralocorticoid bone loss: activation of the mineralocorticoid receptor by aldosterone promotes bone resorption and calcium loss, and primary aldosteronism is associated with osteoporosis and fracture, an endocrine driver of bone loss.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Osteoimmune balance: the anti-inflammatory IL-10 restrains the inflammatory osteoclastogenesis driven by TNF, IL-6, IL-1 and IL-17 (already mapped), so the cytokine balance of osteoimmunology shapes the bone loss of osteoporosis.
 
 [^kanis-2019-who-osteoporosis]: Kanis JA, Cooper C, Rizzoli R, Reginster JY. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. *Osteoporos Int.* 2019;30(1):3-44. [doi:10.1007/s00198-018-4704-5](https://doi.org/10.1007/s00198-018-4704-5) · [PubMed 30324412](https://pubmed.ncbi.nlm.nih.gov/30324412/)
 [^cosman-2016-romosozumab]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)
