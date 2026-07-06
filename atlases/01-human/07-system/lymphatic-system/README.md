@@ -410,6 +410,15 @@ cross_links:
   - target: 01-human/03-molecular/collagen
     relation: connects-to
     note: "Vessel structure and lymphoedema: collagen forms the framework of lymphatic vessels and lymph nodes, and when lymph drainage fails, the chronic protein-rich stasis drives the fibrosis and collagen deposition of lymphoedema."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Perilymphatic immunity: mast cells cluster around lymphatic vessels, releasing histamine (already mapped) and mediators that regulate lymphatic contractility and permeability, part of the immune surveillance woven through the lymphatic system."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Hepatic lymph: the liver produces a large fraction of the body's lymph from the sinusoidal fluid, and when hepatic lymph outstrips drainage in cirrhosis or heart failure it forms ascites, a major output of the lymphatic system."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Pulmonary lymphatics and chyle: the lungs are drained by a rich lymphatic network, and disruption of the thoracic duct spills lymph as a chylothorax, illustrating the lymphatic transport of fat-laden chyle."
 ---
 
 # Lymphatic System
@@ -650,6 +659,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Cell-mediated effector: interferon-gamma from the Th1 cells and NK cells the lymphatic system marshals (IL-12 already mapped) activates macrophages and cytotoxic responses, the effector cytokine of the cell-mediated immunity against intracellular pathogens.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immune regulation: IL-10 from regulatory lymphocytes in lymphoid tissue restrains the immune response, balancing the Th1 (IL-12 already mapped) and Th2 programmes to resolve inflammation and preserve tolerance within the lymphatic system.
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Vessel structure and lymphoedema: collagen forms the framework of lymphatic vessels and lymph nodes, and when lymph drainage fails, the chronic protein-rich stasis drives the fibrosis and collagen deposition of lymphoedema.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Perilymphatic immunity: mast cells cluster around lymphatic vessels, releasing histamine (already mapped) and mediators that regulate lymphatic contractility and permeability, part of the immune surveillance woven through the lymphatic system.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Hepatic lymph: the liver produces a large fraction of the body's lymph from the sinusoidal fluid, and when hepatic lymph outstrips drainage in cirrhosis or heart failure it forms ascites, a major output of the lymphatic system.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Pulmonary lymphatics and chyle: the lungs are drained by a rich lymphatic network, and disruption of the thoracic duct spills lymph as a chylothorax, illustrating the lymphatic transport of fat-laden chyle.
 
 ## Pathology
 

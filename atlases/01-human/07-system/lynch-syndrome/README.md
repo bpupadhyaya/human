@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "Immunosuppressive counter-regulation: IL-10 in the tumour microenvironment restrains the strong Th1 and cytotoxic response (PD-1 already mapped) to the microsatellite-instable Lynch tumours, one brake on the immunity that checkpoint blockade releases."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage counterbalance: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped) that counterbalances the strong Th1 infiltrate (interferon-gamma already mapped) of the microsatellite-instable Lynch tumours."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Bile acids and chemoprevention: dietary fat and the bile acids derived from cholesterol promote colonic carcinogenesis, and this modifiable influence, alongside aspirin (prostaglandins already mapped), informs the risk reduction in Lynch syndrome."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative carcinogenesis: chronic colonic inflammation generates oxidative stress, to which xanthine oxidase contributes, adding DNA damage that, atop the mismatch-repair defect (already mapped), speeds the carcinogenesis of Lynch syndrome."
 ---
 
 # Lynch Syndrome
@@ -683,6 +692,9 @@ MSI-H stage II CRC: adjuvant 5-FU/leucovorin does NOT improve OS (may be harmful
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Occult bleeding: the right-sided colorectal cancers of Lynch syndrome bleed chronically, and the resulting iron-deficiency anaemia lowering haemoglobin is often the sign that brings the tumour, or the syndrome, to attention.
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — Th1 orchestration: CD4 helper T cells polarised to Th1 (IL-12 and interferon-gamma already mapped) coordinate the brisk antitumour infiltrate of the microsatellite-instable Lynch cancers, supporting the CD8 (already mapped) response that immunotherapy amplifies.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive counter-regulation: IL-10 in the tumour microenvironment restrains the strong Th1 and cytotoxic response (PD-1 already mapped) to the microsatellite-instable Lynch tumours, one brake on the immunity that checkpoint blockade releases.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage counterbalance: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped) that counterbalances the strong Th1 infiltrate (interferon-gamma already mapped) of the microsatellite-instable Lynch tumours.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Bile acids and chemoprevention: dietary fat and the bile acids derived from cholesterol promote colonic carcinogenesis, and this modifiable influence, alongside aspirin (prostaglandins already mapped), informs the risk reduction in Lynch syndrome.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative carcinogenesis: chronic colonic inflammation generates oxidative stress, to which xanthine oxidase contributes, adding DNA damage that, atop the mismatch-repair defect (already mapped), speeds the carcinogenesis of Lynch syndrome.
 
 [^bonadona-2011-lynch-risks]: Bonadona V, Bonaïti B, Olschwang S, et al. Cancer risks associated with germline mutations in MLH1, MSH2, and MSH6 genes in Lynch syndrome. *JAMA.* 2011;305(22):2304-2310. [doi:10.1001/jama.2011.743](https://doi.org/10.1001/jama.2011.743) · [PubMed 21642683](https://pubmed.ncbi.nlm.nih.gov/21642683/)
 [^lynch-2015-lynch-review]: Lynch HT, Snyder CL, Shaw TG, et al. Milestones of Lynch syndrome: 1895-2015. *Nat Rev Cancer.* 2015;15(3):181-194. [doi:10.1038/nrc3878](https://doi.org/10.1038/nrc3878) · [PubMed 25673086](https://pubmed.ncbi.nlm.nih.gov/25673086/)
