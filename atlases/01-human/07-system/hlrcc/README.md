@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative and antioxidant stress: fumarate accumulation succinates KEAP1 to activate NRF2 (already mapped), a response to the oxidative stress, to which xanthine oxidase contributes, of the metabolically rewired FH-deficient cell."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive microenvironment: IL-10 in the tumour microenvironment of the aggressive FH-deficient renal cell carcinoma dampens the anti-tumour T-cell response (CD8 already mapped), part of the immune evasion relevant to its immunotherapy."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped) in the HLRCC tumour stroma, part of its immune-evasive microenvironment."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Leiomyoma pain and inflammation: prostaglandins contribute to the pain of the cutaneous piloleiomyomas and to the inflammatory microenvironment of the FH-deficient tumours of HLRCC."
 ---
 
 # Hereditary Leiomyomatosis and Renal Cell Carcinoma
@@ -675,6 +684,9 @@ Cutaneous:
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Polycythaemia and haematuria: the pseudohypoxic HIF and erythropoietin drive (already mapped) can raise haemoglobin, while the renal cell carcinoma of HLRCC causes haematuria and, later, the anaemia of advanced disease.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide with the strongly upregulated VEGF (already mapped) supports the rich angiogenesis of the pseudohypoxic FH-deficient renal cell carcinoma, part of the vascular biology targeted by antiangiogenic therapy.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative and antioxidant stress: fumarate accumulation succinates KEAP1 to activate NRF2 (already mapped), a response to the oxidative stress, to which xanthine oxidase contributes, of the metabolically rewired FH-deficient cell.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the tumour microenvironment of the aggressive FH-deficient renal cell carcinoma dampens the anti-tumour T-cell response (CD8 already mapped), part of the immune evasion relevant to its immunotherapy.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped) in the HLRCC tumour stroma, part of its immune-evasive microenvironment.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Leiomyoma pain and inflammation: prostaglandins contribute to the pain of the cutaneous piloleiomyomas and to the inflammatory microenvironment of the FH-deficient tumours of HLRCC.
 
 [^tomlinson-2002-fh]: Tomlinson IP, Alam NA, Rowan AJ, et al. Germline mutations in FH predispose to dominantly inherited uterine fibroids, skin leiomyomata and papillary renal cell cancer. *Nat Genet.* 2002;30(4):406-410. [doi:10.1038/ng849](https://doi.org/10.1038/ng849) · [PubMed 11865300](https://pubmed.ncbi.nlm.nih.gov/11865300/)
 [^linehan-2013-fh-review]: Linehan WM, Rouault TA. Molecular pathways: fumarate hydratase-deficient kidney cancer — targeting the Warburg effect in cancer. *Clin Cancer Res.* 2013;19(13):3345-3352. [doi:10.1158/1078-0432.CCR-13-0304](https://doi.org/10.1158/1078-0432.CCR-13-0304) · [PubMed 23836472](https://pubmed.ncbi.nlm.nih.gov/23836472/)

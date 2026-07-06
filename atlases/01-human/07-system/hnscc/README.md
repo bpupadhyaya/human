@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "Immunosuppressive microenvironment: IL-10 in the tumour microenvironment dampens the T-cell response (PD-1 already mapped), part of the immune evasion that limits checkpoint-inhibitor benefit in head and neck squamous cell carcinoma."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "COX-2 field carcinogenesis: cyclooxygenase-2 and prostaglandin E2 are induced by tobacco and inflammation in the aerodigestive mucosa, promoting the proliferation and immunosuppression of the field carcinogenesis of head and neck cancer."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune-evasive microenvironment that limits immunotherapy in head and neck cancer."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the angiogenesis and vascular tone of head and neck squamous cell carcinoma, and it also contributes to the inflammatory milieu of the tumour."
 ---
 
 # HNSCC
@@ -658,6 +667,9 @@ HPV+ oropharyngeal: Node staging based on number (not laterality); HPV-negative 
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Anaemia and radioresistance: mucosal bleeding and chemoradiotherapy lower haemoglobin, and the resulting anaemia worsens tumour hypoxia (HIF already mapped), reducing radiotherapy efficacy in head and neck squamous cell carcinoma.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative carcinogenesis: tobacco and alcohol generate reactive oxygen species, to which xanthine oxidase contributes, and this oxidative DNA damage (NRF2 already mapped) drives the field carcinogenesis of HPV-negative head and neck squamous cell carcinoma.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the tumour microenvironment dampens the T-cell response (PD-1 already mapped), part of the immune evasion that limits checkpoint-inhibitor benefit in head and neck squamous cell carcinoma.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — COX-2 field carcinogenesis: cyclooxygenase-2 and prostaglandin E2 are induced by tobacco and inflammation in the aerodigestive mucosa, promoting the proliferation and immunosuppression of the field carcinogenesis of head and neck cancer.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune-evasive microenvironment that limits immunotherapy in head and neck cancer.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the angiogenesis and vascular tone of head and neck squamous cell carcinoma, and it also contributes to the inflammatory milieu of the tumour.
 
 [^burtness-2019-keynote048]: Burtness B, Harrington KJ, Greil R, et al. Pembrolizumab alone or with chemotherapy versus cetuximab with chemotherapy for recurrent or metastatic squamous cell carcinoma of the head and neck (KEYNOTE-048). *Lancet.* 2019;394(10212):1915-1928. [doi:10.1016/S0140-6736(19)32591-7](https://doi.org/10.1016/S0140-6736(19)32591-7) · [PubMed 31679945](https://pubmed.ncbi.nlm.nih.gov/31679945/)
 [^vermorken-2008-extreme]: Vermorken JB, Mesia R, Rivera F, et al. Platinum-based chemotherapy plus cetuximab in head and neck cancer. *N Engl J Med.* 2008;359(11):1116-1127. [doi:10.1056/NEJMoa0802656](https://doi.org/10.1056/NEJMoa0802656) · [PubMed 18784101](https://pubmed.ncbi.nlm.nih.gov/18784101/)
