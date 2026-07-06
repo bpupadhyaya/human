@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/axl-receptor
     relation: connects-to
     note: "Invasion and resistance: the AXL receptor tyrosine kinase drives the epithelial-mesenchymal transition and treatment resistance of oesophageal cancer, a mechanism of progression beyond the HER2 and FGFR targets already mapped."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Dysphagia and bleeding: progressive dysphagia with weight loss is the hallmark presentation of oesophageal cancer, and chronic tumour bleeding lowers haemoglobin, the iron-deficiency anaemia that often prompts the diagnosis."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "T-cell immunity: IL-2-driven T-cell expansion (PD-1 and perforin already mapped) supports the anti-tumour response that checkpoint inhibitors unleash, now standard in oesophageal cancer, especially the squamous subtype."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative carcinogenesis: chronic reflux, alcohol and tobacco generate reactive oxygen species, to which xanthine oxidase contributes, and this oxidative DNA damage (NRF2 already mapped) drives the carcinogenesis of both oesophageal cancer subtypes."
 ---
 
 # Esophageal Cancer
@@ -669,6 +678,9 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Acid reflux carcinogenesis: chronic reflux of gastric acid (protons) drives Barrett's metaplasia and oesophageal adenocarcinoma, the mechanism linking GERD and obesity (leptin already mapped) to the rising incidence of the lower-oesophageal tumour.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immunotherapy: checkpoint inhibitors (PD-1 already mapped) are now standard in oesophageal cancer, and MHC class II antigen presentation shapes the T-cell response that determines benefit, especially in the squamous subtype.
 - `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — Invasion and resistance: the AXL receptor tyrosine kinase drives the epithelial-mesenchymal transition and treatment resistance of oesophageal cancer, a mechanism of progression beyond the HER2 and FGFR targets already mapped.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Dysphagia and bleeding: progressive dysphagia with weight loss is the hallmark presentation of oesophageal cancer, and chronic tumour bleeding lowers haemoglobin, the iron-deficiency anaemia that often prompts the diagnosis.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell immunity: IL-2-driven T-cell expansion (PD-1 and perforin already mapped) supports the anti-tumour response that checkpoint inhibitors unleash, now standard in oesophageal cancer, especially the squamous subtype.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative carcinogenesis: chronic reflux, alcohol and tobacco generate reactive oxygen species, to which xanthine oxidase contributes, and this oxidative DNA damage (NRF2 already mapped) drives the carcinogenesis of both oesophageal cancer subtypes.
 
 ---
 

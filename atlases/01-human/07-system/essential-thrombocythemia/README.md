@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/serotonin
     relation: connects-to
     note: "Platelet mediator: platelets are the body's main store of serotonin, released on aggregation to cause vasoconstriction, so the excess dysfunctional platelets of essential thrombocythaemia contribute to microvascular events such as erythromelalgia."
+  - target: 01-human/03-molecular/adamts13
+    relation: connects-to
+    note: "Acquired von Willebrand syndrome: at extreme platelet counts the high-molecular-weight von Willebrand multimers (already mapped) are adsorbed and cleared, and this acquired von Willebrand syndrome causes the paradoxical bleeding of essential thrombocythaemia."
+  - target: 01-human/03-molecular/protein-c
+    relation: connects-to
+    note: "Thrombotic risk: the thrombosis of essential thrombocythaemia reflects a prothrombotic tilt, and coexisting deficiency of the natural anticoagulant protein C (thrombin already mapped) further raises the risk that drives cytoreduction and antiplatelet therapy."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Inflammatory milieu: essential thrombocythaemia carries a chronic inflammatory state, and the anti-inflammatory IL-10 counterbalances the TNF, IL-6 and IL-1 (already mapped) driven by JAK-STAT signalling that shapes the myeloproliferative phenotype."
 ---
 
 # Essential Thrombocythemia
@@ -649,6 +658,9 @@ Management:
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Endothelial-platelet balance: nitric oxide normally restrains platelet activation and keeps vessels dilated, so impaired endothelial nitric-oxide function alongside the excess platelets of essential thrombocythaemia tips the balance toward the thrombosis that dominates its risk.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Arterial thrombosis: the thrombocytosis of essential thrombocythaemia predisposes to arterial events including myocardial infarction and stroke, and troponin elevation marks the cardiac injury of these thrombotic complications.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Platelet mediator: platelets are the body's main store of serotonin, released on aggregation to cause vasoconstriction, so the excess dysfunctional platelets of essential thrombocythaemia contribute to microvascular events such as erythromelalgia.
+- `connects-to` → **[ADAMTS13](../../03-molecular/adamts13/README.md)** — Acquired von Willebrand syndrome: at extreme platelet counts the high-molecular-weight von Willebrand multimers (already mapped) are adsorbed and cleared, and this acquired von Willebrand syndrome causes the paradoxical bleeding of essential thrombocythaemia.
+- `connects-to` → **[Protein C](../../03-molecular/protein-c/README.md)** — Thrombotic risk: the thrombosis of essential thrombocythaemia reflects a prothrombotic tilt, and coexisting deficiency of the natural anticoagulant protein C (thrombin already mapped) further raises the risk that drives cytoreduction and antiplatelet therapy.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Inflammatory milieu: essential thrombocythaemia carries a chronic inflammatory state, and the anti-inflammatory IL-10 counterbalances the TNF, IL-6 and IL-1 (already mapped) driven by JAK-STAT signalling that shapes the myeloproliferative phenotype.
 
 [^harrison-2005-pt1-et]: Harrison CN, Campbell PJ, Buck G, et al. Hydroxyurea compared with anagrelide in high-risk essential thrombocythemia. *N Engl J Med.* 2005;353(1):33-45. [doi:10.1056/NEJMoa043800](https://doi.org/10.1056/NEJMoa043800) · [PubMed 16000354](https://pubmed.ncbi.nlm.nih.gov/16000354/)
 [^barbui-2012-ipset]: Barbui T, Finazzi G, Carobbio A, et al. Development and validation of an International Prognostic Score of thrombosis in World Health Organization-essential thrombocythemia (IPSET-thrombosis). *Blood.* 2012;120(26):5128-5133. [doi:10.1182/blood-2012-07-444067](https://doi.org/10.1182/blood-2012-07-444067) · [PubMed 23086758](https://pubmed.ncbi.nlm.nih.gov/23086758/)
