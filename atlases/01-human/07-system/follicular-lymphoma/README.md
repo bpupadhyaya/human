@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/ctla-4
     relation: connects-to
     note: "Immune checkpoint: CTLA-4 on the regulatory T cells enriched in the follicular lymphoma microenvironment helps the tumour evade immunity, part of the immunosuppressive niche that distinguishes this microenvironment-dependent lymphoma."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Marrow involvement: paratrabecular bone-marrow infiltration by follicular lymphoma and its immunochemotherapy lower haemoglobin, the anaemia with other cytopenias marking advanced disease and treatment toxicity."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Anthracycline cardiotoxicity: the doxorubicin in R-CHOP regimens for follicular lymphoma is cardiotoxic, and troponin elevation helps detect the myocardial injury that constrains anthracycline use in this often long-lived indolent lymphoma."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Tumour lysis on transformation: when follicular lymphoma transforms to aggressive disease (DLBCL already mapped) and is treated, the rapid cell lysis releases purines that xanthine oxidase converts to uric acid, risking tumour-lysis syndrome."
 ---
 
 # Follicular Lymphoma
@@ -657,6 +666,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Microenvironment dependence: follicular lymphoma relies on its germinal-centre-like niche, and MHC class II antigen presentation to follicular helper T cells sustains it, while MHC loss accompanies transformation and immune escape.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell therapies: IL-2-driven T-cell expansion powers the CD19 CAR-T and CD20xCD3 bispecific therapies (perforin already mapped) increasingly used for relapsed follicular lymphoma.
 - `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Immune checkpoint: CTLA-4 on the regulatory T cells enriched in the follicular lymphoma microenvironment helps the tumour evade immunity, part of the immunosuppressive niche that distinguishes this microenvironment-dependent lymphoma.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Marrow involvement: paratrabecular bone-marrow infiltration by follicular lymphoma and its immunochemotherapy lower haemoglobin, the anaemia with other cytopenias marking advanced disease and treatment toxicity.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Anthracycline cardiotoxicity: the doxorubicin in R-CHOP regimens for follicular lymphoma is cardiotoxic, and troponin elevation helps detect the myocardial injury that constrains anthracycline use in this often long-lived indolent lymphoma.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Tumour lysis on transformation: when follicular lymphoma transforms to aggressive disease (DLBCL already mapped) and is treated, the rapid cell lysis releases purines that xanthine oxidase converts to uric acid, risking tumour-lysis syndrome.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
