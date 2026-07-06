@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/il-4
     relation: connects-to
     note: "Th2 antibody help: IL-4 and type-2 T-cell help drive the B-cell production of anti-factor-VIII inhibitors (immunoglobulin G already mapped), so the Th2 axis contributes to the alloimmune response that complicates factor replacement."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Haemophilic synovitis: prostaglandins from the inflamed synovium of recurrent haemarthrosis drive the pain and inflammation of haemophilic arthropathy, though NSAIDs are used cautiously given the bleeding risk."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Iron-catalysed joint oxidation: the iron deposited in the joint from repeated bleeds (ferroportin already mapped) catalyses reactive oxygen species, to which xanthine oxidase contributes, driving the synovial proliferation and cartilage damage of haemophilic arthropathy."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 cytokine axis: IL-13, with IL-4 (already mapped), completes the type-2 cytokine support for the B-cell inhibitor response, part of the alloimmune reaction against replacement factor VIII."
 ---
 
 # Hemophilia A
@@ -664,6 +673,9 @@ FVIII is a critical **amplifier** of the coagulation cascade at the junction bet
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Inhibitor immunology: development of neutralising anti-factor-VIII antibodies (inhibitors; IgG already mapped) depends on MHC class II presentation of factor VIII peptides to helper T cells, and HLA type influences the risk of this major treatment complication.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Tolerance and gene therapy: IL-2-driven T-cell responses shape both the immune-tolerance induction used to eradicate inhibitors and the immune reaction to the AAV vector and transgene in the liver-directed gene therapy (liver already mapped).
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Th2 antibody help: IL-4 and type-2 T-cell help drive the B-cell production of anti-factor-VIII inhibitors (immunoglobulin G already mapped), so the Th2 axis contributes to the alloimmune response that complicates factor replacement.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Haemophilic synovitis: prostaglandins from the inflamed synovium of recurrent haemarthrosis drive the pain and inflammation of haemophilic arthropathy, though NSAIDs are used cautiously given the bleeding risk.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Iron-catalysed joint oxidation: the iron deposited in the joint from repeated bleeds (ferroportin already mapped) catalyses reactive oxygen species, to which xanthine oxidase contributes, driving the synovial proliferation and cartilage damage of haemophilic arthropathy.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 cytokine axis: IL-13, with IL-4 (already mapped), completes the type-2 cytokine support for the B-cell inhibitor response, part of the alloimmune reaction against replacement factor VIII.
 
 [^oldenburg-2017-emicizumab-haven1]: Oldenburg J, Mahlangu JN, Kim B, et al. Emicizumab prophylaxis in hemophilia A with inhibitors. *N Engl J Med.* 2017;377(9):809-818. [doi:10.1056/NEJMoa1703068](https://doi.org/10.1056/NEJMoa1703068) · [PubMed 28691557](https://pubmed.ncbi.nlm.nih.gov/28691557/)
 [^mahlangu-2018-emicizumab-haven3]: Mahlangu J, Oldenburg J, Paz-Priel I, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors. *N Engl J Med.* 2018;379(9):811-822. [doi:10.1056/NEJMoa1803550](https://doi.org/10.1056/NEJMoa1803550) · [PubMed 30157389](https://pubmed.ncbi.nlm.nih.gov/30157389/)

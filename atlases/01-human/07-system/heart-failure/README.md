@@ -406,6 +406,15 @@ cross_links:
   - target: 01-human/07-system/covid-19-disease
     relation: connects-to
     note: "Viral cardiac injury: COVID-19 can cause myocarditis and precipitate or worsen heart failure (troponin already mapped), one of several viral illnesses that acutely stress the failing or vulnerable myocardium."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Ischaemic lipids: the atherogenic cholesterol (PCSK9 already mapped) driving coronary disease underlies ischaemic cardiomyopathy, the commonest cause of heart failure with reduced ejection fraction, and statins are part of its prevention."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Anti-inflammatory counter-regulation: IL-10 opposes the chronic myocardial inflammation (IL-6, TNF and IL-1 already mapped) of heart failure, and the imbalance toward pro-inflammatory signalling contributes to the adverse remodelling."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Adipokine cardiometabolism: leptin, with adiponectin (already mapped), links the adipose tissue of obesity (already mapped) to the myocardial metabolism and inflammation of heart failure, especially the HFpEF phenotype."
 ---
 
 # Heart Failure
@@ -608,6 +617,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Anaemia of heart failure: anaemia is common in heart failure from iron deficiency (already mapped), inflammation and renal dysfunction, and low haemoglobin worsens symptoms, exercise capacity and prognosis.
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Sex differences and peripartum disease: estrogen influences the sex differences in heart failure, with women predominating in HFpEF, and its abrupt fall postpartum is implicated in peripartum cardiomyopathy.
 - `connects-to` → **[COVID-19](../covid-19-disease/README.md)** — Viral cardiac injury: COVID-19 can cause myocarditis and precipitate or worsen heart failure (troponin already mapped), one of several viral illnesses that acutely stress the failing or vulnerable myocardium.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Ischaemic lipids: the atherogenic cholesterol (PCSK9 already mapped) driving coronary disease underlies ischaemic cardiomyopathy, the commonest cause of heart failure with reduced ejection fraction, and statins are part of its prevention.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Anti-inflammatory counter-regulation: IL-10 opposes the chronic myocardial inflammation (IL-6, TNF and IL-1 already mapped) of heart failure, and the imbalance toward pro-inflammatory signalling contributes to the adverse remodelling.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adipokine cardiometabolism: leptin, with adiponectin (already mapped), links the adipose tissue of obesity (already mapped) to the myocardial metabolism and inflammation of heart failure, especially the HFpEF phenotype.
 
 ## Pathology
 
