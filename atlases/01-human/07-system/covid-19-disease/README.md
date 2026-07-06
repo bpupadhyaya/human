@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "T-cell response: IL-2-driven T-cell expansion generates the SARS-CoV-2-specific T cells that clear the virus (perforin already mapped) and provide durable protection, while the lymphopenia of severe disease reflects failure of this response."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Endothelial dysfunction: SARS-CoV-2 injury to the endothelium (already mapped) reduces protective nitric oxide, contributing to the vasoconstriction and microthrombosis of COVID-19, and inhaled nitric oxide has been trialled for the hypoxaemia."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Vascular permeability: VEGF released in the inflamed COVID-19 lung raises vascular permeability, worsening the pulmonary oedema of acute respiratory distress syndrome (angiopoietin already mapped) that impairs gas exchange."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immune counter-regulation: IL-10 rises as a counter-regulatory response to the hyperinflammation of severe COVID-19 (IL-6 and IL-1 already mapped), and the balance between pro- and anti-inflammatory signals shapes whether the cytokine storm resolves."
 ---
 
 # COVID-19 Disease
@@ -608,6 +617,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — Mucosal immunity: secretory IgA on the nasal and airway mucosa is a first line of defence against SARS-CoV-2 and a correlate of protection, motivating the intranasal vaccines designed to raise mucosal immunity at the site of entry.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Antigen presentation and vaccines: MHC class II presentation of viral antigens drives the CD4 T-cell help underlying antibody responses to SARS-CoV-2 infection and vaccination, and HLA variation influences the severity of COVID-19.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell response: IL-2-driven T-cell expansion generates the SARS-CoV-2-specific T cells that clear the virus (perforin already mapped) and provide durable protection, while the lymphopenia of severe disease reflects failure of this response.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Endothelial dysfunction: SARS-CoV-2 injury to the endothelium (already mapped) reduces protective nitric oxide, contributing to the vasoconstriction and microthrombosis of COVID-19, and inhaled nitric oxide has been trialled for the hypoxaemia.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Vascular permeability: VEGF released in the inflamed COVID-19 lung raises vascular permeability, worsening the pulmonary oedema of acute respiratory distress syndrome (angiopoietin already mapped) that impairs gas exchange.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immune counter-regulation: IL-10 rises as a counter-regulatory response to the hyperinflammation of severe COVID-19 (IL-6 and IL-1 already mapped), and the balance between pro- and anti-inflammatory signals shapes whether the cytokine storm resolves.
 
 ## Pathology
 

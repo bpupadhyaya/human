@@ -418,6 +418,15 @@ cross_links:
   - target: 01-human/03-molecular/il-4
     relation: connects-to
     note: "Th2 humoral help: IL-4 and type-2 T-cell help support the B-cell autoantibody responses (immunoglobulin G already mapped) against Mi-2, MDA5 and TIF1-gamma that define the clinical subtypes of dermatomyositis."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative muscle injury: the inflamed, ischaemic perifascicular muscle of dermatomyositis (HIF already mapped) generates oxidative stress, to which xanthine oxidase contributes, and the reactive oxygen species add to the fibre damage and weakness."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Inflammatory eicosanoids: prostaglandins from the inflamed muscle and skin (IL-6 and IL-1 already mapped) contribute to the pain and inflammation of dermatomyositis, part of the eicosanoid dimension of its myositis and rash."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 cytokine axis: IL-13, with IL-4 (already mapped), completes the type-2 cytokine support for the B-cell autoantibody responses and the fibrotic remodelling seen in the interstitial lung disease of dermatomyositis."
 ---
 ---
 
@@ -677,6 +686,9 @@ DM carries a ~3–7× elevated cancer risk overall. Anti-TIF1γ (TRIM33) suppres
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell immunity: IL-2-driven T-cell responses participate in the muscle and skin inflammation of dermatomyositis, and the calcineurin/JAK inhibitors (already mapped) used to treat it converge on the T-cell IL-2 signalling axis.
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Female predominance: dermatomyositis, like most autoimmune myopathies, is more common in women, and estrogen's enhancement of immune and interferon responses is thought to contribute to this sex difference in susceptibility.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Th2 humoral help: IL-4 and type-2 T-cell help support the B-cell autoantibody responses (immunoglobulin G already mapped) against Mi-2, MDA5 and TIF1-gamma that define the clinical subtypes of dermatomyositis.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative muscle injury: the inflamed, ischaemic perifascicular muscle of dermatomyositis (HIF already mapped) generates oxidative stress, to which xanthine oxidase contributes, and the reactive oxygen species add to the fibre damage and weakness.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Inflammatory eicosanoids: prostaglandins from the inflamed muscle and skin (IL-6 and IL-1 already mapped) contribute to the pain and inflammation of dermatomyositis, part of the eicosanoid dimension of its myositis and rash.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 cytokine axis: IL-13, with IL-4 (already mapped), completes the type-2 cytokine support for the B-cell autoantibody responses and the fibrotic remodelling seen in the interstitial lung disease of dermatomyositis.
 
 [^bohan-peter-1975-dm-criteria]: Bohan A, Peter JB. Polymyositis and dermatomyositis. *N Engl J Med.* 1975;292(7):344-347. [doi:10.1056/NEJM197502132920706](https://doi.org/10.1056/NEJM197502132920706) · [PubMed 1090839](https://pubmed.ncbi.nlm.nih.gov/1090839/)
 [^lundberg-2021-iim-classification]: Lundberg IE, et al. 2017 EULAR/ACR classification criteria for adult and juvenile idiopathic inflammatory myopathies. *Arthritis Rheumatol.* 2017;69(12):2271-2282. [doi:10.1002/art.40320](https://doi.org/10.1002/art.40320) · [PubMed 29106061](https://pubmed.ncbi.nlm.nih.gov/29106061/)
