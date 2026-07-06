@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative skin stress: scratching and chronic inflammation in atopic dermatitis generate oxidative stress, to which xanthine-oxidase-derived reactive oxygen species contribute, further damaging the epidermal barrier already weakened in the disease."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Itch and inflammation: prostaglandins, especially prostaglandin D2, and the eicosanoids from the inflamed skin contribute to the itch and inflammation of atopic dermatitis (histamine already mapped), part of its pruritic biology."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Serotonergic itch: serotonin contributes to the peripheral and central itch pathways of atopic dermatitis (substance P already mapped), part of the neuroimmune signalling that drives the intractable pruritus."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Metabolic association: atopic dermatitis is associated with insulin resistance and the metabolic syndrome (cholesterol already mapped), part of the systemic comorbidity that accompanies the skin disease."
 ---
 
 # Atopic Dermatitis
@@ -666,6 +675,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Hormonal flares: atopic dermatitis often fluctuates with the menstrual cycle and pregnancy, implicating progesterone alongside estrogen (already mapped) in the reproductive-hormone variation of disease activity in affected women.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Type-2 macrophages: alternatively activated (M2) macrophages, polarised by the IL-4 and IL-13 (already mapped) of the lesion, contribute to the chronic inflammation and tissue remodelling of long-standing atopic dermatitis.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative skin stress: scratching and chronic inflammation in atopic dermatitis generate oxidative stress, to which xanthine-oxidase-derived reactive oxygen species contribute, further damaging the epidermal barrier already weakened in the disease.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Itch and inflammation: prostaglandins, especially prostaglandin D2, and the eicosanoids from the inflamed skin contribute to the itch and inflammation of atopic dermatitis (histamine already mapped), part of its pruritic biology.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Serotonergic itch: serotonin contributes to the peripheral and central itch pathways of atopic dermatitis (substance P already mapped), part of the neuroimmune signalling that drives the intractable pruritus.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Metabolic association: atopic dermatitis is associated with insulin resistance and the metabolic syndrome (cholesterol already mapped), part of the systemic comorbidity that accompanies the skin disease.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

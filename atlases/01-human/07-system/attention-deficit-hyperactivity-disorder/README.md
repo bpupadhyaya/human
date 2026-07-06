@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "Neuroimmune balance: the anti-inflammatory cytokine IL-10 counters the elevated IL-6 and TNF (already mapped) reported in ADHD, part of the low-grade neuroinflammation implicated in a subset of the disorder."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Obesity and impulsive eating: ADHD is associated with obesity and disordered eating, and the adipokine leptin, with the shared dopaminergic (already mapped) reward pathways, links the disorder to its metabolic comorbidity (insulin already mapped)."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Metabolic dyslipidaemia: the obesity and metabolic dysregulation (insulin already mapped) more common in ADHD shift cholesterol handling toward an atherogenic profile, part of the cardiometabolic dimension of the disorder."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Neuroinflammatory eicosanoids: prostaglandins from the low-grade neuroinflammation (IL-6, TNF and IL-1 already mapped) implicated in a subset of ADHD modulate the fronto-striatal circuits (dopamine already mapped) of the disorder."
 ---
 
 # Attention-Deficit/Hyperactivity Disorder
@@ -701,6 +710,9 @@ ADHD is a clinical diagnosis requiring [^biederman-2005-adhd-adults]:
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Mineralocorticoid stress axis: aldosterone acts on brain mineralocorticoid receptors that, balanced against glucocorticoid receptors (already mapped), tune the stress reactivity and arousal systems dysregulated alongside the catecholamine deficits of ADHD.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Metabolic association: ADHD is associated with higher rates of obesity and insulin resistance, linked partly to impulsive eating and shared dopaminergic (already mapped) reward pathways, a metabolic dimension of the disorder.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Neuroimmune balance: the anti-inflammatory cytokine IL-10 counters the elevated IL-6 and TNF (already mapped) reported in ADHD, part of the low-grade neuroinflammation implicated in a subset of the disorder.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Obesity and impulsive eating: ADHD is associated with obesity and disordered eating, and the adipokine leptin, with the shared dopaminergic (already mapped) reward pathways, links the disorder to its metabolic comorbidity (insulin already mapped).
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Metabolic dyslipidaemia: the obesity and metabolic dysregulation (insulin already mapped) more common in ADHD shift cholesterol handling toward an atherogenic profile, part of the cardiometabolic dimension of the disorder.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Neuroinflammatory eicosanoids: prostaglandins from the low-grade neuroinflammation (IL-6, TNF and IL-1 already mapped) implicated in a subset of ADHD modulate the fronto-striatal circuits (dopamine already mapped) of the disorder.
 
 [^faraone-2021-adhd-primer]: Faraone SV, Banaschewski T, Coghill D, et al. The World Federation of ADHD International Consensus Statement: 208 Evidence-based conclusions about the disorder. *Neurosci Biobehav Rev.* 2021;128:789-818. [doi:10.1016/j.neubiorev.2021.01.022](https://doi.org/10.1016/j.neubiorev.2021.01.022) · [PubMed 33549739](https://pubmed.ncbi.nlm.nih.gov/33549739/)
 [^arnsten-2009-adhd-neuroscience]: Arnsten AF. Toward a new understanding of ADHD pathophysiology: an important role for prefrontal cortex dysfunction. *CNS Drugs.* 2009;23(Suppl 1):33-41. [doi:10.2165/00023210-200923000-00005](https://doi.org/10.2165/00023210-200923000-00005) · [PubMed 19621976](https://pubmed.ncbi.nlm.nih.gov/19621976/)
