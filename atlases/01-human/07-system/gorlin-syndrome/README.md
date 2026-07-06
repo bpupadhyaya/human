@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Tumour vasculature: nitric oxide regulates the vascular tone and, with VEGF (already mapped), the angiogenesis supplying the basal cell carcinomas and other tumours of Gorlin syndrome, part of their stromal microenvironment."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Hedgehog-lipid link: cholesterol and its oxysterol derivatives activate Smoothened (already mapped), the driver of the Hedgehog pathway (PTCH1 already mapped) whose constitutive activity from PTCH1 loss causes the tumours of Gorlin syndrome."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative UV damage: ultraviolet exposure generates reactive oxygen species, to which xanthine oxidase contributes, and this oxidative DNA damage exacerbates the basal cell carcinomas of the sun-exposed skin in Gorlin syndrome."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped) in the stroma of the basal cell carcinomas of Gorlin syndrome, part of their immune-evasive niche."
 ---
 
 # Gorlin Syndrome
@@ -654,6 +663,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the microenvironment of the many basal cell carcinomas of Gorlin syndrome dampens anti-tumour immunity (PD-1 already mapped), part of the immune evasion relevant to the checkpoint therapy of advanced lesions.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiac fibromas: benign cardiac fibromas are a feature of Gorlin syndrome, and when they involve the myocardium or provoke arrhythmia, troponin elevation can mark the associated cardiac injury.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide regulates the vascular tone and, with VEGF (already mapped), the angiogenesis supplying the basal cell carcinomas and other tumours of Gorlin syndrome, part of their stromal microenvironment.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Hedgehog-lipid link: cholesterol and its oxysterol derivatives activate Smoothened (already mapped), the driver of the Hedgehog pathway (PTCH1 already mapped) whose constitutive activity from PTCH1 loss causes the tumours of Gorlin syndrome.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative UV damage: ultraviolet exposure generates reactive oxygen species, to which xanthine oxidase contributes, and this oxidative DNA damage exacerbates the basal cell carcinomas of the sun-exposed skin in Gorlin syndrome.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped) in the stroma of the basal cell carcinomas of Gorlin syndrome, part of their immune-evasive niche.
 
 ---
 

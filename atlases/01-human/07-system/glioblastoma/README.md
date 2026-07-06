@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/gaba
     relation: connects-to
     note: "Neuronal circuit integration: alongside the glutamatergic neuron-glioma synapses (glutamate already mapped), GABAergic signalling shapes the neuronal activity that drives glioblastoma growth and the peritumoral seizures that mark it."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 microglial polarisation: IL-4 polarises the dominant tumour-associated microglia and macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), central to the immunologically cold microenvironment of glioblastoma."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Neuroinflammatory eicosanoids: prostaglandins from the tumour-associated microglia (already mapped) and the cyclooxygenase pathway contribute to the immunosuppression and neuroinflammation (IL-6 and IL-1 already mapped) of the glioblastoma microenvironment."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative necrosis: the hypoxic (HIF-1-alpha already mapped) and necrotic glioblastoma generates oxidative stress, to which xanthine oxidase contributes, and the reactive oxygen species add to the tumour microenvironment and treatment resistance."
 ---
 
 # Glioblastoma
@@ -673,6 +682,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[Glucocorticoid receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Dexamethasone for oedema: glucocorticoids acting through the glucocorticoid receptor reduce the peritumoral vasogenic oedema (aquaporin-4 and VEGF already mapped) of glioblastoma, the mainstay symptom control despite immunosuppressive drawbacks.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 from the myeloid-dominated stroma helps make glioblastoma an immunologically cold tumour (PD-1 already mapped), dampening the T-cell response that checkpoint and CAR-T strategies aim to mount.
 - `connects-to` → **[GABA](../../03-molecular/gaba/README.md)** — Neuronal circuit integration: alongside the glutamatergic neuron-glioma synapses (glutamate already mapped), GABAergic signalling shapes the neuronal activity that drives glioblastoma growth and the peritumoral seizures that mark it.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 microglial polarisation: IL-4 polarises the dominant tumour-associated microglia and macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), central to the immunologically cold microenvironment of glioblastoma.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Neuroinflammatory eicosanoids: prostaglandins from the tumour-associated microglia (already mapped) and the cyclooxygenase pathway contribute to the immunosuppression and neuroinflammation (IL-6 and IL-1 already mapped) of the glioblastoma microenvironment.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative necrosis: the hypoxic (HIF-1-alpha already mapped) and necrotic glioblastoma generates oxidative stress, to which xanthine oxidase contributes, and the reactive oxygen species add to the tumour microenvironment and treatment resistance.
 
 ---
 
