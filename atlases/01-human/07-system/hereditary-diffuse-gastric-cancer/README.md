@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "Immunosuppressive stroma: IL-10 in the desmoplastic microenvironment (fibroblast already mapped) dampens anti-tumour immunity, part of why the diffuse, stroma-rich histology of CDH1-driven gastric cancer resists checkpoint blockade."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped) in the desmoplastic stroma, part of the poorly immunogenic microenvironment of CDH1-driven diffuse gastric cancer."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative stress: the diffuse gastric tumour and its stroma generate oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species add to the genomic instability and inflammation of the tumour."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "COX-2 inflammation: cyclooxygenase-2 and prostaglandin E2 promote the proliferation, angiogenesis (VEGF already mapped) and immunosuppression of gastric carcinogenesis, part of the inflammatory milieu of the diffuse tumour."
 ---
 
 # Hereditary Diffuse Gastric Cancer
@@ -651,6 +660,9 @@ Testing for CDH1 (and CTNNA1) is indicated in any of the following:
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Occult bleeding: the diffusely infiltrating tumour of hereditary diffuse gastric cancer bleeds and impairs nutrition, and a falling haemoglobin with anaemia can be an early clue in a CDH1 carrier under surveillance.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell immunity: IL-2-driven T-cell expansion (PD-1 and perforin already mapped) underlies the checkpoint response in diffuse gastric cancer, though the stroma-rich CDH1-driven tumour is often poorly immunogenic.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive stroma: IL-10 in the desmoplastic microenvironment (fibroblast already mapped) dampens anti-tumour immunity, part of why the diffuse, stroma-rich histology of CDH1-driven gastric cancer resists checkpoint blockade.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped) in the desmoplastic stroma, part of the poorly immunogenic microenvironment of CDH1-driven diffuse gastric cancer.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative stress: the diffuse gastric tumour and its stroma generate oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species add to the genomic instability and inflammation of the tumour.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — COX-2 inflammation: cyclooxygenase-2 and prostaglandin E2 promote the proliferation, angiogenesis (VEGF already mapped) and immunosuppression of gastric carcinogenesis, part of the inflammatory milieu of the diffuse tumour.
 
 [^van-der-post-2015-hdgc-guidelines]: van der Post RS, Vogelaar IP, Carneiro F, et al. Hereditary diffuse gastric cancer: updated clinical guidelines with an emphasis on germline CDH1 mutation carriers. *J Med Genet.* 2015;52(6):361-374. [doi:10.1136/jmedgenet-2015-103094](https://doi.org/10.1136/jmedgenet-2015-103094) · [PubMed 25979631](https://pubmed.ncbi.nlm.nih.gov/25979631/)
 [^hansford-2015-hdgc]: Hansford S, Kaurah P, Li-Chang H, et al. Hereditary Diffuse Gastric Cancer Syndrome: CDH1 Mutations and Beyond. *JAMA Oncol.* 2015;1(1):23-32. [doi:10.1001/jamaoncol.2014.168](https://doi.org/10.1001/jamaoncol.2014.168) · [PubMed 26182300](https://pubmed.ncbi.nlm.nih.gov/26182300/)

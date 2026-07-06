@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/prostaglandins
     relation: connects-to
     note: "Inflammatory mediators: prostaglandins amplify the pancreatic inflammation and pain of hereditary pancreatitis, and NSAIDs that block their synthesis are used, notably rectal indomethacin to prevent post-ERCP pancreatitis."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Anti-inflammatory counterweight: the anti-inflammatory IL-10 opposes the pro-inflammatory cytokines (TNF, IL-6 and IL-1 already mapped) driving the recurrent pancreatic inflammation, part of the immune balance shaping progression to chronic pancreatitis."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Fat malabsorption: the exocrine insufficiency of chronic hereditary pancreatitis causes fat malabsorption, disturbing cholesterol and essential-fatty-acid handling and the absorption of fat-soluble vitamins, part of its nutritional burden."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Antioxidant therapy: the oxidative stress (NRF2 and xanthine oxidase already mapped) of chronic pancreatitis has prompted antioxidant regimens including selenium to reduce pain and inflammation, a studied adjunct in hereditary pancreatitis."
 ---
 
 # Hereditary Pancreatitis
@@ -687,6 +696,9 @@ cross_links:
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Malnutrition anaemia: exocrine insufficiency in hereditary pancreatitis causes fat and micronutrient malabsorption, and chronic disease with iron and vitamin deficiency lowers haemoglobin, the anaemia adding to the debility of the burnt-out gland.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Pancreatogenic diabetes: progressive islet loss produces the type-3c diabetes of hereditary pancreatitis (insulin and glucagon already mapped), and the incretin GLP-1 axis is disturbed as the enteroinsular signalling of the damaged gland fails.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Inflammatory mediators: prostaglandins amplify the pancreatic inflammation and pain of hereditary pancreatitis, and NSAIDs that block their synthesis are used, notably rectal indomethacin to prevent post-ERCP pancreatitis.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Anti-inflammatory counterweight: the anti-inflammatory IL-10 opposes the pro-inflammatory cytokines (TNF, IL-6 and IL-1 already mapped) driving the recurrent pancreatic inflammation, part of the immune balance shaping progression to chronic pancreatitis.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Fat malabsorption: the exocrine insufficiency of chronic hereditary pancreatitis causes fat malabsorption, disturbing cholesterol and essential-fatty-acid handling and the absorption of fat-soluble vitamins, part of its nutritional burden.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Antioxidant therapy: the oxidative stress (NRF2 and xanthine oxidase already mapped) of chronic pancreatitis has prompted antioxidant regimens including selenium to reduce pain and inflammation, a studied adjunct in hereditary pancreatitis.
 
 [^whitcomb-1996-prss1]: Whitcomb DC, Gorry MC, Preston RA, et al. Hereditary pancreatitis is caused by a mutation in the cationic trypsinogen gene. *Nat Genet.* 1996;14(2):141-145. [doi:10.1038/ng1096-141](https://doi.org/10.1038/ng1096-141) · [PubMed 8841182](https://pubmed.ncbi.nlm.nih.gov/8841182/)
 [^lowenfels-2001-hp-pdac]: Lowenfels AB, Maisonneuve P, DiMagno EP, et al. Hereditary pancreatitis and the risk of pancreatic cancer. *J Natl Cancer Inst.* 2001;93(1):26-31. [doi:10.1093/jnci/93.1.26](https://doi.org/10.1093/jnci/93.1.26) · [PubMed 11136838](https://pubmed.ncbi.nlm.nih.gov/11136838/)
