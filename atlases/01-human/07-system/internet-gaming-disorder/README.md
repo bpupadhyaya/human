@@ -393,6 +393,15 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "Neuroinflammatory balance: the anti-inflammatory cytokine IL-10 counters the elevated TNF and IL-1 (already mapped) reported in behavioural addictions, part of the low-grade neuroinflammation associated with compulsive internet gaming."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Neuroinflammatory eicosanoids: prostaglandins from the low-grade neuroinflammation (IL-6, TNF and IL-1 already mapped) associated with behavioural addictions modulate the reward and stress circuits implicated in compulsive internet gaming."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative stress: the sleep deprivation and sedentary strain of compulsive gaming raise oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species add to the neuroinflammation (NLRP3 already mapped)."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "Appetite-reward crosstalk: GLP-1 signalling links the metabolic state to the appetite and reward pathways (ghrelin, leptin and NPY already mapped) relevant to the sedentary behaviour and disordered eating that accompany internet gaming disorder."
 sources:
   - id: kuss-2012-gaming-disorder-review
     type: peer-reviewed
@@ -692,6 +701,9 @@ A pattern of persistent or recurrent gaming behavior characterized by:
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — Stress reactivity: central angiotensin II modulates stress responses and interacts with the HPA axis (cortisol already mapped), a neuroendocrine system implicated in the heightened stress and craving that accompany compulsive gaming.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Mineralocorticoid stress axis: aldosterone acts on brain mineralocorticoid receptors that, balanced against glucocorticoid receptors (already mapped), tune the stress response linked to the emotional dysregulation underlying internet gaming disorder.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Neuroinflammatory balance: the anti-inflammatory cytokine IL-10 counters the elevated TNF and IL-1 (already mapped) reported in behavioural addictions, part of the low-grade neuroinflammation associated with compulsive internet gaming.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Neuroinflammatory eicosanoids: prostaglandins from the low-grade neuroinflammation (IL-6, TNF and IL-1 already mapped) associated with behavioural addictions modulate the reward and stress circuits implicated in compulsive internet gaming.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative stress: the sleep deprivation and sedentary strain of compulsive gaming raise oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species add to the neuroinflammation (NLRP3 already mapped).
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Appetite-reward crosstalk: GLP-1 signalling links the metabolic state to the appetite and reward pathways (ghrelin, leptin and NPY already mapped) relevant to the sedentary behaviour and disordered eating that accompany internet gaming disorder.
 
 [^kuss-2012-gaming-disorder-review]: Kuss DJ, Griffiths MD. Internet gaming addiction: a systematic review of empirical research. *Int J Ment Health Addict.* 2012;10(2):278-296. [doi:10.1007/s11469-011-9318-5](https://doi.org/10.1007/s11469-011-9318-5)
 [^who-icd11-gaming-disorder]: World Health Organization. ICD-11: Gaming Disorder (6C51). Geneva: WHO; 2019. [icd.who.int](https://icd.who.int/browse/2025-01/mms/en#1448597234)

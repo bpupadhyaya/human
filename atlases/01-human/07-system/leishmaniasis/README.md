@@ -406,6 +406,15 @@ cross_links:
   - target: 01-human/03-molecular/glucocorticoid-receptor
     relation: connects-to
     note: "Immunosuppression and reactivation: corticosteroid therapy acting through the glucocorticoid receptor, like HIV (already mapped), suppresses the Th1 immunity that contains Leishmania, precipitating progression to or reactivation of visceral disease."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Malnutrition and susceptibility: undernutrition lowers leptin and impairs the Th1 immunity (IL-12 already mapped) that contains Leishmania, so malnourished children are far more likely to progress to visceral leishmaniasis, a link between nutrition and outcome."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Micronutrient immunity: selenium and its antioxidant selenoproteins support the macrophage (already mapped) killing and Th1 response against Leishmania (zinc already mapped), so micronutrient deficiency compounds susceptibility to the infection."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Vitamin D and antimicrobial defence: vitamin D modulates the macrophage antimicrobial response and the Th1/Th2 balance (IL-4 already mapped), and its status influences the immunity that determines the outcome of Leishmania infection."
 ---
 
 # Leishmaniasis
@@ -637,3 +646,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative burst: alongside nitric oxide (already mapped), macrophage-derived reactive oxygen species help kill intracellular Leishmania, and the parasite deploys antioxidant defences to survive this oxidative arm of the microbicidal response.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Nutritional immunity: the host restricts zinc and other metals to starve intracellular Leishmania, and adequate zinc also supports the Th1 response (IL-12 already mapped), so deficiency worsens susceptibility to the infection.
 - `connects-to` → **[Glucocorticoid receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Immunosuppression and reactivation: corticosteroid therapy acting through the glucocorticoid receptor, like HIV (already mapped), suppresses the Th1 immunity that contains Leishmania, precipitating progression to or reactivation of visceral disease.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Malnutrition and susceptibility: undernutrition lowers leptin and impairs the Th1 immunity (IL-12 already mapped) that contains Leishmania, so malnourished children are far more likely to progress to visceral leishmaniasis, a link between nutrition and outcome.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Micronutrient immunity: selenium and its antioxidant selenoproteins support the macrophage (already mapped) killing and Th1 response against Leishmania (zinc already mapped), so micronutrient deficiency compounds susceptibility to the infection.
+- `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D and antimicrobial defence: vitamin D modulates the macrophage antimicrobial response and the Th1/Th2 balance (IL-4 already mapped), and its status influences the immunity that determines the outcome of Leishmania infection.
