@@ -415,6 +415,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "Nutritional immunity: like iron (already mapped), zinc is redistributed away from the plasma during inflammation as part of nutritional immunity, and the resulting hypozincaemia can further impair the erythropoiesis blunted in chronic disease."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Inflammatory eicosanoids: prostaglandins from the underlying inflammatory disease contribute to the cytokine milieu (IL-6, TNF and IL-1 already mapped) that raises hepcidin (already mapped) and blunts erythropoiesis in the anemia of chronic disease."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Macrophage polarisation: IL-4 polarises macrophages (already mapped) toward an iron-recycling, anti-inflammatory phenotype opposing the iron-sequestering inflammatory state, so the M1/M2 balance shapes the iron handling of the anemia of chronic disease."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Erythropoietic suppression: nitric oxide generated in inflammation impairs erythroid progenitor proliferation and shortens red-cell survival, adding to the hepcidin-driven iron restriction (already mapped) in the anemia of chronic disease."
 ---
 
 # Anemia of Chronic Disease
@@ -671,6 +680,9 @@ This adaptive rationale explains why **aggressive iron supplementation during ac
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Sex differences in erythropoiesis: sex hormones modulate red-cell production, with testosterone (already mapped) stimulating and estrogen restraining erythropoiesis, contributing to the different baseline haemoglobin against which the anemia of chronic disease develops.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immune-regulatory tuning: the anti-inflammatory cytokine IL-10 can paradoxically raise hepcidin (already mapped) and modulate macrophage iron handling, part of the complex cytokine balance that shapes the anemia of chronic disease.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Nutritional immunity: like iron (already mapped), zinc is redistributed away from the plasma during inflammation as part of nutritional immunity, and the resulting hypozincaemia can further impair the erythropoiesis blunted in chronic disease.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Inflammatory eicosanoids: prostaglandins from the underlying inflammatory disease contribute to the cytokine milieu (IL-6, TNF and IL-1 already mapped) that raises hepcidin (already mapped) and blunts erythropoiesis in the anemia of chronic disease.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Macrophage polarisation: IL-4 polarises macrophages (already mapped) toward an iron-recycling, anti-inflammatory phenotype opposing the iron-sequestering inflammatory state, so the M1/M2 balance shapes the iron handling of the anemia of chronic disease.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Erythropoietic suppression: nitric oxide generated in inflammation impairs erythroid progenitor proliferation and shortens red-cell survival, adding to the hepcidin-driven iron restriction (already mapped) in the anemia of chronic disease.
 
 [^weiss-2005-acd-review]: Weiss G, Goodnough LT. Anemia of chronic disease. *N Engl J Med.* 2005;352(10):1011-1023. [doi:10.1056/NEJMra041809](https://doi.org/10.1056/NEJMra041809) · [PubMed 15758012](https://pubmed.ncbi.nlm.nih.gov/15758012/)
 [^nemeth-2004-il6-hepcidin]: Nemeth E, Rivera S, Gabayan V, et al. IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin. *J Clin Invest.* 2004;113(9):1271-1276. [doi:10.1172/JCI200420945](https://doi.org/10.1172/JCI200420945) · [PubMed 15124018](https://pubmed.ncbi.nlm.nih.gov/15124018/)

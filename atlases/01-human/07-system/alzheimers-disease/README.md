@@ -415,6 +415,15 @@ cross_links:
   - target: 01-human/03-molecular/histamine
     relation: connects-to
     note: "Cholinergic and histaminergic cognition: histaminergic H3 signalling modulates cognition and was a drug target in Alzheimer's, while the cumulative anticholinergic and antihistamine burden of many drugs is itself associated with higher dementia risk."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative neurotoxicity: reactive oxygen species, to which xanthine oxidase contributes, are central to the amyloid- and tau-driven neurotoxicity of Alzheimer's (NRF2 already mapped), and the oxidative damage compounds the mitochondrial and metal (iron already mapped) injury."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Neuroinflammatory eicosanoids: prostaglandins from the microglial (already mapped) cyclooxygenase pathway drive the neuroinflammation of Alzheimer's (IL-6, TNF and IL-1 already mapped), and epidemiological studies link NSAID use to lower dementia risk."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Serotonergic degeneration: loss of serotonergic neurons contributes to the depression, agitation and other behavioural symptoms of Alzheimer's (norepinephrine already mapped), and serotonergic drugs are used to manage these neuropsychiatric features."
 ---
 
 # Alzheimer's Disease
@@ -646,6 +655,9 @@ Microglia play a central, dual role in AD:
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — Brain renin-angiotensin: a central renin-angiotensin system modulates cerebral blood flow, inflammation and amyloid handling, and antihypertensives blocking angiotensin II are associated with lower dementia risk, a vascular-metabolic target in Alzheimer's disease.
 - `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Neurosteroid protection: progesterone and its neurosteroid metabolites are neuroprotective and support myelin, and together with estrogen (already mapped) their postmenopausal loss is proposed to contribute to women's higher Alzheimer's risk.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Cholinergic and histaminergic cognition: histaminergic H3 signalling modulates cognition and was a drug target in Alzheimer's, while the cumulative anticholinergic and antihistamine burden of many drugs is itself associated with higher dementia risk.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative neurotoxicity: reactive oxygen species, to which xanthine oxidase contributes, are central to the amyloid- and tau-driven neurotoxicity of Alzheimer's (NRF2 already mapped), and the oxidative damage compounds the mitochondrial and metal (iron already mapped) injury.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Neuroinflammatory eicosanoids: prostaglandins from the microglial (already mapped) cyclooxygenase pathway drive the neuroinflammation of Alzheimer's (IL-6, TNF and IL-1 already mapped), and epidemiological studies link NSAID use to lower dementia risk.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Serotonergic degeneration: loss of serotonergic neurons contributes to the depression, agitation and other behavioural symptoms of Alzheimer's (norepinephrine already mapped), and serotonergic drugs are used to manage these neuropsychiatric features.
 
 [^selkoe-2016-alzheimer]: Selkoe DJ, Hardy J. The amyloid hypothesis of Alzheimer's disease at 25 years. *EMBO Mol Med.* 2016;8(6):595-608. [doi:10.15252/emmm.201606210](https://doi.org/10.15252/emmm.201606210) · [PubMed 27025652](https://pubmed.ncbi.nlm.nih.gov/27025652/)
 [^jack-2018-nia-aa]: Jack CR Jr, Bennett DA, Blennow K, et al. NIA-AA Research Framework: Toward a biological definition of Alzheimer's disease. *Alzheimers Dement.* 2018;14(4):535-562. [doi:10.1016/j.jalz.2018.02.018](https://doi.org/10.1016/j.jalz.2018.02.018) · [PubMed 29653606](https://pubmed.ncbi.nlm.nih.gov/29653606/)
