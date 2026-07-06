@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/ctla-4
     relation: connects-to
     note: "Combination immunotherapy: CTLA-4 blockade combined with PD-1 inhibition (already mapped) is a frontline option for the metastatic clear-cell renal cell carcinoma that develops in VHL disease, deepening responses in this immunoresponsive tumour."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Haemangioblastoma vasculature: nitric oxide with the strongly HIF-driven VEGF and angiopoietin (already mapped) shapes the rich vasculature of the haemangioblastomas that characterise VHL disease, part of their angiogenic biology."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive microenvironment: IL-10 in the tumour microenvironment dampens the anti-tumour T-cell response (PD-1 and CTLA-4 already mapped), part of the immune evasion of the VHL-associated clear-cell renal cell carcinoma that checkpoint blockade targets."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Erythropoietin and iron: the stabilised HIF of VHL disease drives erythropoietin (already mapped) and polycythaemia, raising the demand for iron, and paraneoplastic erythropoietin from haemangioblastomas can worsen the erythrocytosis."
 ---
 
 # VHL Disease
@@ -653,6 +662,9 @@ The genotype-phenotype correlation reflects the degree of pVHL function retained
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — RCC immunotherapy: the clear-cell renal cell carcinoma of VHL disease is among the most immunotherapy-responsive cancers, and MHC class II antigen presentation shapes the T-cell response to the checkpoint inhibitors used in its metastatic form.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Checkpoint blockade: PD-1 inhibitors, alone or with antiangiogenics targeting the HIF-driven VEGF (already mapped), are standard for advanced VHL-associated clear-cell renal cell carcinoma, exploiting its immunogenicity.
 - `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Combination immunotherapy: CTLA-4 blockade combined with PD-1 inhibition (already mapped) is a frontline option for the metastatic clear-cell renal cell carcinoma that develops in VHL disease, deepening responses in this immunoresponsive tumour.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Haemangioblastoma vasculature: nitric oxide with the strongly HIF-driven VEGF and angiopoietin (already mapped) shapes the rich vasculature of the haemangioblastomas that characterise VHL disease, part of their angiogenic biology.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the tumour microenvironment dampens the anti-tumour T-cell response (PD-1 and CTLA-4 already mapped), part of the immune evasion of the VHL-associated clear-cell renal cell carcinoma that checkpoint blockade targets.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Erythropoietin and iron: the stabilised HIF of VHL disease drives erythropoietin (already mapped) and polycythaemia, raising the demand for iron, and paraneoplastic erythropoietin from haemangioblastomas can worsen the erythrocytosis.
 
 [^lonser-2003-vhl-disease]: Lonser RR, Glenn GM, Walther M, et al. von Hippel-Lindau disease. *Lancet.* 2003;361(9374):2059-2067. [doi:10.1016/S0140-6736(03)13643-4](https://doi.org/10.1016/S0140-6736(03)13643-4) · [PubMed 12814730](https://pubmed.ncbi.nlm.nih.gov/12814730/)
 [^choueiri-2020-hif2-rcc]: Choueiri TK, Kaelin WG Jr. Targeting the HIF2-VEGF axis in renal cell carcinoma. *Nat Med.* 2020;26(10):1519-1530. [doi:10.1038/s41591-020-1093-z](https://doi.org/10.1038/s41591-020-1093-z) · [PubMed 33020650](https://pubmed.ncbi.nlm.nih.gov/33020650/)

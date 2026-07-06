@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative aging: accumulation of oxidative damage accelerates the cellular senescence of Werner syndrome, and xanthine-oxidase-derived reactive oxygen species contribute to the redox stress that compounds its genome-instability-driven premature aging."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Inflammaging balance: the anti-inflammatory IL-10 counters the senescence-associated secretory phenotype (IL-6, TNF and IL-1 already mapped) of the many senescent cells in Werner syndrome, and this cytokine imbalance drives its inflammaging."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "Metabolic dysfunction: the insulin-resistant diabetes (insulin already mapped) and visceral adiposity of Werner syndrome disturb the incretin GLP-1 axis, part of the accelerated metabolic ageing of the disorder."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Inflammaging eicosanoids: prostaglandins from the chronic low-grade inflammation of senescent tissues contribute, with the cytokines already mapped, to the atherosclerosis and tissue dysfunction of the premature ageing of Werner syndrome."
 ---
 
 # Werner Syndrome
@@ -694,6 +703,9 @@ cross_links:
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Premature myocardial infarction: the accelerated atherosclerosis of Werner syndrome (cholesterol/nitric oxide already mapped) causes myocardial infarction in the fourth to fifth decade, a leading cause of death, with troponin marking the cardiac injury.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Cancer immunosurveillance: Werner syndrome predisposes to a spectrum of cancers (melanoma, thyroid, sarcoma already mapped), and MHC class II-restricted T-cell surveillance influences which of these genome-instability-driven tumours emerge.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative aging: accumulation of oxidative damage accelerates the cellular senescence of Werner syndrome, and xanthine-oxidase-derived reactive oxygen species contribute to the redox stress that compounds its genome-instability-driven premature aging.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Inflammaging balance: the anti-inflammatory IL-10 counters the senescence-associated secretory phenotype (IL-6, TNF and IL-1 already mapped) of the many senescent cells in Werner syndrome, and this cytokine imbalance drives its inflammaging.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Metabolic dysfunction: the insulin-resistant diabetes (insulin already mapped) and visceral adiposity of Werner syndrome disturb the incretin GLP-1 axis, part of the accelerated metabolic ageing of the disorder.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Inflammaging eicosanoids: prostaglandins from the chronic low-grade inflammation of senescent tissues contribute, with the cytokines already mapped, to the atherosclerosis and tissue dysfunction of the premature ageing of Werner syndrome.
 
 [^yu-1996-wrn]: Yu CE, Oshima J, Fu YH, et al. Positional cloning of the Werner's syndrome gene. *Science.* 1996;272(5259):258-262. [doi:10.1126/science.272.5259.258](https://doi.org/10.1126/science.272.5259.258) · [PubMed 8602509](https://pubmed.ncbi.nlm.nih.gov/8602509/)
 [^lauper-2013-wrn-neoplasia]: Lauper JM, Krause A, Vaughan TL, Monnat RJ Jr. Spectrum and risk of neoplasia in Werner syndrome: a systematic review. *PLoS One.* 2013;8(4):e59709. [doi:10.1371/journal.pone.0059709](https://doi.org/10.1371/journal.pone.0059709) · [PubMed 23579047](https://pubmed.ncbi.nlm.nih.gov/23579047/)
