@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/glp-1
     relation: connects-to
     note: "Gut-brain axis: GLP-1 acts on receptors in the hypothalamus and brainstem to signal satiety and modulate reward (leptin and insulin already mapped), a gut-derived hormone integrated by the nervous system to regulate feeding."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "Sympathetic medulla: the adrenal medulla is a modified sympathetic ganglion of the nervous system, releasing adrenaline and noradrenaline (norepinephrine already mapped) into the blood as the hormonal arm of the fight-or-flight response."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Autonomic cardiac control: the sympathetic and parasympathetic nerves of the autonomic nervous system control the heart rate and contractility (noradrenaline and acetylcholine already mapped), the neural regulation of the circulation."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Somatosensory innervation: the skin is densely innervated with the sensory receptors and free nerve endings (substance P and CGRP already mapped) that convey touch, temperature and pain to the central nervous system."
 ---
 
 # Nervous System
@@ -591,6 +600,9 @@ Distributed cortical networks underlie language (Broca's area, Wernicke's area, 
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Pain and fever: prostaglandins sensitise nociceptors and act on the hypothalamus to raise the temperature set-point, the eicosanoid signalling through which the nervous system generates pain and fever, targeted by NSAIDs.
 - `connects-to` → **[TNF-alpha](../../03-molecular/tnf-alpha/README.md)** — Neuroinflammation and plasticity: TNF from glia (IL-6 and IL-1 already mapped) both drives neuroinflammation and, at low levels, tunes synaptic strength through homeostatic scaling, a cytokine link between the immune and nervous systems.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Gut-brain axis: GLP-1 acts on receptors in the hypothalamus and brainstem to signal satiety and modulate reward (leptin and insulin already mapped), a gut-derived hormone integrated by the nervous system to regulate feeding.
+- `connects-to` → **[Adrenal gland](../../06-organ/adrenal-gland/README.md)** — Sympathetic medulla: the adrenal medulla is a modified sympathetic ganglion of the nervous system, releasing adrenaline and noradrenaline (norepinephrine already mapped) into the blood as the hormonal arm of the fight-or-flight response.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Autonomic cardiac control: the sympathetic and parasympathetic nerves of the autonomic nervous system control the heart rate and contractility (noradrenaline and acetylcholine already mapped), the neural regulation of the circulation.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Somatosensory innervation: the skin is densely innervated with the sensory receptors and free nerve endings (substance P and CGRP already mapped) that convey touch, temperature and pain to the central nervous system.
 
 ## Pathology
 
