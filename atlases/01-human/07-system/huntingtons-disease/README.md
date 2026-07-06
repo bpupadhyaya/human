@@ -390,6 +390,15 @@ cross_links:
   - target: 01-human/03-molecular/mhc-class-ii
     relation: connects-to
     note: "Neuroinflammation: MHC class II is upregulated on activated microglia (already mapped) in the Huntington striatum, marking the neuroinflammatory response that accompanies and may accelerate the degeneration of medium spiny neurons."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Cardiac involvement: mutant huntingtin is expressed in the heart, and Huntington's disease carries a cardiomyopathy and autonomic dysfunction, with troponin elevation marking the myocardial injury that contributes to its cardiovascular mortality."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Excitotoxic injury: nitric oxide from neuronal nitric oxide synthase, driven by the glutamate excitotoxicity (already mapped), contributes with reactive oxygen species (xanthine oxidase already mapped) to the oxidative and nitrosative damage of the striatal neurons."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "Metabolic wasting: the relentless weight loss of Huntington's disease reflects hypothalamic and metabolic dysfunction (insulin and leptin already mapped), and GLP-1-based agents are studied for the disturbed energy and glucose handling."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -565,3 +574,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Hypermetabolic weight loss: despite adequate intake, Huntington's disease causes progressive weight loss from a hypermetabolic state with impaired insulin signalling and mitochondrial energy failure (ATP already mapped), a metabolic feature tracking disease severity.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Energy dysregulation: falling fat stores and altered leptin signalling accompany the relentless weight loss of Huntington's disease, reflecting hypothalamic involvement and the systemic metabolic disturbance beyond the movement disorder.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Neuroinflammation: MHC class II is upregulated on activated microglia (already mapped) in the Huntington striatum, marking the neuroinflammatory response that accompanies and may accelerate the degeneration of medium spiny neurons.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiac involvement: mutant huntingtin is expressed in the heart, and Huntington's disease carries a cardiomyopathy and autonomic dysfunction, with troponin elevation marking the myocardial injury that contributes to its cardiovascular mortality.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Excitotoxic injury: nitric oxide from neuronal nitric oxide synthase, driven by the glutamate excitotoxicity (already mapped), contributes with reactive oxygen species (xanthine oxidase already mapped) to the oxidative and nitrosative damage of the striatal neurons.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Metabolic wasting: the relentless weight loss of Huntington's disease reflects hypothalamic and metabolic dysfunction (insulin and leptin already mapped), and GLP-1-based agents are studied for the disturbed energy and glucose handling.

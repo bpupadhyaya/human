@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "T-cell microenvironment: the Reed-Sternberg cells sit in a T-cell-rich, immunosuppressive infiltrate, and IL-2-driven T-cell responses are unleashed by the checkpoint inhibitors (PD-1 already mapped) to which Hodgkin lymphoma is exquisitely sensitive."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Anaemia and B-symptoms: bone-marrow involvement (already mapped) and the systemic inflammatory cytokines of Hodgkin lymphoma lower haemoglobin, the anaemia accompanying the fevers, night sweats and weight loss of the B-symptoms."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Checkpoint effectors: cytotoxic CD8 T cells (perforin and IL-2 already mapped), released from PD-1 restraint, mediate the response to the checkpoint inhibitors to which Hodgkin lymphoma is exquisitely sensitive."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Tumour lysis: on initiating chemotherapy for bulky Hodgkin lymphoma, cell breakdown releases purines that xanthine oxidase converts to uric acid, a tumour-lysis risk managed with allopurinol and hydration."
 ---
 
 # Hodgkin Lymphoma
@@ -653,6 +662,9 @@ Modern protocols minimize RT fields and doses (ISRT replacing extended-field RT)
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiotherapy: involved-site radiation with photons is part of curative therapy for early-stage Hodgkin lymphoma, though its long-term cardiac and second-cancer risks drive efforts to reduce or omit it in favourable cases.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Treatment cardiotoxicity: cured Hodgkin lymphoma survivors face late cardiovascular disease from anthracyclines and mediastinal radiation, and troponin elevation marks the cardiac injury that is a leading cause of their late mortality.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell microenvironment: the Reed-Sternberg cells sit in a T-cell-rich, immunosuppressive infiltrate, and IL-2-driven T-cell responses are unleashed by the checkpoint inhibitors (PD-1 already mapped) to which Hodgkin lymphoma is exquisitely sensitive.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Anaemia and B-symptoms: bone-marrow involvement (already mapped) and the systemic inflammatory cytokines of Hodgkin lymphoma lower haemoglobin, the anaemia accompanying the fevers, night sweats and weight loss of the B-symptoms.
+- `connects-to` → **[T-cytotoxic cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Checkpoint effectors: cytotoxic CD8 T cells (perforin and IL-2 already mapped), released from PD-1 restraint, mediate the response to the checkpoint inhibitors to which Hodgkin lymphoma is exquisitely sensitive.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Tumour lysis: on initiating chemotherapy for bulky Hodgkin lymphoma, cell breakdown releases purines that xanthine oxidase converts to uric acid, a tumour-lysis risk managed with allopurinol and hydration.
 
 [^connors-2018-echelon1]: Connors JM, Jurczak W, Straus DJ, et al. Brentuximab vedotin with chemotherapy for stage III or IV Hodgkin's lymphoma. *N Engl J Med.* 2018;378(4):331-344. [doi:10.1056/NEJMoa1708984](https://doi.org/10.1056/NEJMoa1708984) · [PubMed 29360494](https://pubmed.ncbi.nlm.nih.gov/29360494/)
 [^armand-2018-nivo-hl]: Armand P, Engert A, Younes A, et al. Nivolumab for relapsed/refractory classic Hodgkin lymphoma after failure of autologous hematopoietic cell transplantation: extended follow-up of the multicohort single-arm phase II CheckMate 205 trial. *J Clin Oncol.* 2018;36(14):1428-1439. [doi:10.1200/JCO.2017.77.6717](https://doi.org/10.1200/JCO.2017.77.6717) · [PubMed 29584546](https://pubmed.ncbi.nlm.nih.gov/29584546/)
