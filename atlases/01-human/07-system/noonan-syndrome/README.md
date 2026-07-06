@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/mhc-class-ii
     relation: connects-to
     note: "Autoimmune thyroiditis: MHC class II-restricted presentation of thyroid antigens underlies the autoimmune thyroiditis (thyroid hormones already mapped) that is more common in Noonan syndrome, part of its immune-endocrine comorbidity."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Myeloproliferation and bleeding: PTPN11-mutant Noonan syndrome carries a juvenile myelomonocytic leukaemia-like myeloproliferation and a bleeding diathesis (von Willebrand factor already mapped), both of which can lower haemoglobin."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Cardiac RAAS: aldosterone, with angiotensin II (already mapped), drives the fibrosis of the cardiac remodelling overlaid on the RAS-MAPK overactivity that produces the hypertrophic cardiomyopathy of Noonan syndrome."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Vascular and lymphatic tone: nitric oxide regulates the vascular and lymphatic tone disturbed in Noonan syndrome, contributing to the endothelial function relevant to its cardiovascular and lymphatic (already mapped) manifestations."
 ---
 
 # Noonan Syndrome
@@ -669,6 +678,9 @@ NS is characterized by four cardinal features: **(1) short stature** (below 3rd 
 - `connects-to` → **[β1-adrenergic receptor](../../03-molecular/beta1-adrenergic-receptor/README.md)** — Cardiomyopathy management: the hypertrophic cardiomyopathy of Noonan syndrome (troponin/BNP already mapped) is treated with beta-blockade at the beta1-adrenergic receptor to reduce outflow obstruction and protect the RAS-driven hypertrophied heart.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — Cardiac remodelling: angiotensin II drives the fibrosis and hypertrophy of cardiac remodelling, a pathway overlaid on the RAS-MAPK (already mapped) overactivity that produces the hypertrophic cardiomyopathy of Noonan syndrome.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Autoimmune thyroiditis: MHC class II-restricted presentation of thyroid antigens underlies the autoimmune thyroiditis (thyroid hormones already mapped) that is more common in Noonan syndrome, part of its immune-endocrine comorbidity.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Myeloproliferation and bleeding: PTPN11-mutant Noonan syndrome carries a juvenile myelomonocytic leukaemia-like myeloproliferation and a bleeding diathesis (von Willebrand factor already mapped), both of which can lower haemoglobin.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Cardiac RAAS: aldosterone, with angiotensin II (already mapped), drives the fibrosis of the cardiac remodelling overlaid on the RAS-MAPK overactivity that produces the hypertrophic cardiomyopathy of Noonan syndrome.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Vascular and lymphatic tone: nitric oxide regulates the vascular and lymphatic tone disturbed in Noonan syndrome, contributing to the endothelial function relevant to its cardiovascular and lymphatic (already mapped) manifestations.
 
 [^tartaglia-2001-ptpn11-noonan]: Tartaglia M, Mehler EL, Goldberg R, et al. Mutations in PTPN11, encoding the protein tyrosine phosphatase SHP-2, cause Noonan syndrome. *Nat Genet.* 2001;29(4):465-468. [doi:10.1038/ng772](https://doi.org/10.1038/ng772) · [PubMed 11704759](https://pubmed.ncbi.nlm.nih.gov/11704759/)
 [^van-der-burgt-2007-noonan-review]: van der Burgt I. Noonan syndrome. *Orphanet J Rare Dis.* 2007;2:4. [doi:10.1186/1750-1172-2-4](https://doi.org/10.1186/1750-1172-2-4) · [PubMed 17222357](https://pubmed.ncbi.nlm.nih.gov/17222357/)
