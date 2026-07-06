@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Metabolic oxidative stress: loss of the FLCN-AMPK-mTOR axis (already mapped) dysregulates cellular metabolism, and the resulting oxidative stress, to which xanthine oxidase contributes, is part of the tumour-promoting milieu in Birt-Hogg-Dubé cells."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive microenvironment: IL-10 in the microenvironment of any aggressive Birt-Hogg-Dubé renal tumour dampens the anti-tumour T-cell response (PD-1 and CD8 already mapped), part of the immune evasion relevant to checkpoint immunotherapy."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the vascular tone and angiogenesis of the renal tumours of Birt-Hogg-Dubé, part of their stromal microenvironment."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Lipid metabolism: folliculin, through the AMPK-mTOR axis (already mapped), regulates cellular lipid and cholesterol metabolism, and its loss shifts the metabolic phenotype that contributes to tumour formation in Birt-Hogg-Dubé syndrome."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -684,6 +693,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Renal immunotherapy: IL-2-driven T-cell responses underlie the immunotherapy of the rare aggressive renal cell carcinomas that can arise in Birt-Hogg-Dubé (MHC class II already mapped), the treatment reserved for tumours that progress.
 - `connects-to` → **[T-cytotoxic cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Immune surveillance: cytotoxic CD8 T cells provide the surveillance against the renal tumours of Birt-Hogg-Dubé (perforin already mapped), and their function is central to the checkpoint immunotherapy of any that become aggressive.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Metabolic oxidative stress: loss of the FLCN-AMPK-mTOR axis (already mapped) dysregulates cellular metabolism, and the resulting oxidative stress, to which xanthine oxidase contributes, is part of the tumour-promoting milieu in Birt-Hogg-Dubé cells.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the microenvironment of any aggressive Birt-Hogg-Dubé renal tumour dampens the anti-tumour T-cell response (PD-1 and CD8 already mapped), part of the immune evasion relevant to checkpoint immunotherapy.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the vascular tone and angiogenesis of the renal tumours of Birt-Hogg-Dubé, part of their stromal microenvironment.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Lipid metabolism: folliculin, through the AMPK-mTOR axis (already mapped), regulates cellular lipid and cholesterol metabolism, and its loss shifts the metabolic phenotype that contributes to tumour formation in Birt-Hogg-Dubé syndrome.
 
 ---
 

@@ -418,6 +418,15 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "Immunosuppressive microenvironment: the anti-inflammatory cytokine IL-10 in the tumour microenvironment blunts anti-tumour immunity, opposing the BCG- and checkpoint-driven responses (PD-1 already mapped) that treat bladder cancer."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "BCG killing and vasculature: nitric oxide from the macrophages (already mapped) of the intravesical BCG response helps kill tumour cells, and with VEGF (already mapped) it also shapes the tumour vasculature of bladder cancer."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Inflammatory eicosanoids: prostaglandins, especially cyclooxygenase-2-derived, drive the inflammation of urothelial carcinogenesis and the BCG response, and NSAID chemoprevention has been studied in bladder cancer."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Chemotherapy cardiotoxicity: the cisplatin-based chemotherapy central to bladder-cancer regimens carries cardiovascular risk, and troponin elevation helps detect the myocardial injury of the cardiac events that can complicate treatment."
 ---
 
 # Bladder Cancer
@@ -672,6 +681,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Painless haematuria: painless visible haematuria is the cardinal presentation of bladder cancer, and the blood loss can lower haemoglobin, the sign that prompts the cystoscopy which diagnoses the tumour.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Carcinogen oxidative damage: smoking and occupational aromatic amines, the leading causes of bladder cancer, generate oxidative stress, to which xanthine oxidase contributes, driving the DNA damage of urothelial carcinogenesis.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: the anti-inflammatory cytokine IL-10 in the tumour microenvironment blunts anti-tumour immunity, opposing the BCG- and checkpoint-driven responses (PD-1 already mapped) that treat bladder cancer.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — BCG killing and vasculature: nitric oxide from the macrophages (already mapped) of the intravesical BCG response helps kill tumour cells, and with VEGF (already mapped) it also shapes the tumour vasculature of bladder cancer.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Inflammatory eicosanoids: prostaglandins, especially cyclooxygenase-2-derived, drive the inflammation of urothelial carcinogenesis and the BCG response, and NSAID chemoprevention has been studied in bladder cancer.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Chemotherapy cardiotoxicity: the cisplatin-based chemotherapy central to bladder-cancer regimens carries cardiovascular risk, and troponin elevation helps detect the myocardial injury of the cardiac events that can complicate treatment.
 
 ---
 
