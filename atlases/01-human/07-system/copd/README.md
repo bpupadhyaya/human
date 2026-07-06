@@ -418,6 +418,15 @@ cross_links:
   - target: 01-human/03-molecular/mu-opioid-receptor
     relation: connects-to
     note: "Refractory breathlessness: low-dose opioids acting on the mu-opioid receptor relieve the intractable breathlessness of advanced COPD, a mainstay of its palliative care despite the caution needed over respiratory depression."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Airway inflammatory eicosanoids: prostaglandins from the inflamed airway (IL-6, TNF and IL-1 already mapped) contribute to the inflammation and mucus of COPD, and prostaglandin E2 has complex effects on the airway smooth muscle and cough."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Eosinophilic phenotype: IL-5, with IL-13 (already mapped), drives the eosinophilic inflammation of a COPD subset, the blood eosinophil count guiding inhaled-corticosteroid (glucocorticoid receptor already mapped) use and anti-IL-5 biologic trials."
+  - target: 01-human/03-molecular/endothelin-1
+    relation: connects-to
+    note: "Hypoxic pulmonary hypertension: hypoxia (HIF-1-alpha already mapped) raises endothelin-1, constricting the pulmonary vasculature to produce the pulmonary hypertension and cor pulmonale (troponin already mapped) of advanced COPD."
 ---
 
 # COPD
@@ -694,6 +703,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Respiratory acidosis: advanced COPD retains carbon dioxide, and the resulting proton accumulation produces the respiratory acidosis of type-2 respiratory failure, a hallmark of severe exacerbations that guides ventilatory support.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Smoking oxidative burden: cigarette smoke and the inflamed airway generate reactive oxygen species, to which xanthine oxidase contributes, and this oxidative stress (NRF2 already mapped) drives the tissue destruction and steroid resistance of COPD.
 - `connects-to` → **[Mu-opioid receptor](../../03-molecular/mu-opioid-receptor/README.md)** — Refractory breathlessness: low-dose opioids acting on the mu-opioid receptor relieve the intractable breathlessness of advanced COPD, a mainstay of its palliative care despite the caution needed over respiratory depression.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Airway inflammatory eicosanoids: prostaglandins from the inflamed airway (IL-6, TNF and IL-1 already mapped) contribute to the inflammation and mucus of COPD, and prostaglandin E2 has complex effects on the airway smooth muscle and cough.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Eosinophilic phenotype: IL-5, with IL-13 (already mapped), drives the eosinophilic inflammation of a COPD subset, the blood eosinophil count guiding inhaled-corticosteroid (glucocorticoid receptor already mapped) use and anti-IL-5 biologic trials.
+- `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Hypoxic pulmonary hypertension: hypoxia (HIF-1-alpha already mapped) raises endothelin-1, constricting the pulmonary vasculature to produce the pulmonary hypertension and cor pulmonale (troponin already mapped) of advanced COPD.
 
 ---
 

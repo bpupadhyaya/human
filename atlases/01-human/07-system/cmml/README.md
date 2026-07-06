@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "T-cell immune dysfunction: the immune dysregulation of CMML includes impaired IL-2-driven T-cell responses alongside the monocyte dysfunction (already mapped), contributing to the infections and autoinflammatory syndromes that complicate the disease."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Anaemia and ESAs: the ineffective erythropoiesis of the dysplastic CMML marrow causes anaemia (haemoglobin already mapped), and erythropoiesis-stimulating agents raising erythropoietin are used in lower-risk disease to reduce transfusion need."
+  - target: 01-human/03-molecular/thrombopoietin
+    relation: connects-to
+    note: "Thrombocytopenia and dysplasia: the dysplastic megakaryocytes of CMML disturb thrombopoietin-driven platelet production, contributing to the thrombocytopenia that complicates the disease and its treatment."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Autoinflammatory eicosanoids: prostaglandins from the clonal monocytes (already mapped) amplify the inflammation (IL-1, TNF and NLRP3 already mapped) behind the systemic autoinflammatory syndromes that frequently accompany CMML."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -669,6 +678,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Autoinflammation: CMML frequently associates with systemic autoinflammatory and autoimmune syndromes such as Sweet syndrome and vasculitis, and the balance of the anti-inflammatory IL-10 against the elevated TNF, IL-1 and IL-6 (already mapped) shapes this inflammatory dimension.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Iron cardiomyopathy: transfusion dependence in CMML deposits iron in the heart, and the resulting iron-overload cardiomyopathy, marked by troponin release, adds to the cardiac risk of these often elderly patients.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell immune dysfunction: the immune dysregulation of CMML includes impaired IL-2-driven T-cell responses alongside the monocyte dysfunction (already mapped), contributing to the infections and autoinflammatory syndromes that complicate the disease.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Anaemia and ESAs: the ineffective erythropoiesis of the dysplastic CMML marrow causes anaemia (haemoglobin already mapped), and erythropoiesis-stimulating agents raising erythropoietin are used in lower-risk disease to reduce transfusion need.
+- `connects-to` → **[Thrombopoietin](../../03-molecular/thrombopoietin/README.md)** — Thrombocytopenia and dysplasia: the dysplastic megakaryocytes of CMML disturb thrombopoietin-driven platelet production, contributing to the thrombocytopenia that complicates the disease and its treatment.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Autoinflammatory eicosanoids: prostaglandins from the clonal monocytes (already mapped) amplify the inflammation (IL-1, TNF and NLRP3 already mapped) behind the systemic autoinflammatory syndromes that frequently accompany CMML.
 
 ---
 
