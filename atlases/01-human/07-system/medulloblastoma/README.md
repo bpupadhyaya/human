@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "Immunosuppressive microenvironment: IL-10 helps make medulloblastoma an immunologically cold tumour (PD-1 already mapped), dampening the T-cell response that the CAR-T and checkpoint strategies under investigation aim to mount."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Hedgehog-lipid link: cholesterol and its oxysterol derivatives activate Smoothened (already mapped), the driver of the Hedgehog pathway (PTCH1 already mapped) in the SHH subtype of medulloblastoma, linking cellular lipid handling to the oncogenic signalling."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 microglial polarisation: IL-4 polarises the tumour-associated microglia and macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immunologically cold microenvironment of medulloblastoma."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Neuroinflammatory eicosanoids: prostaglandins from the tumour-associated microglia and the cyclooxygenase pathway contribute to the neuroinflammation (IL-6 and IL-1 already mapped) of the medulloblastoma microenvironment."
 ---
 
 # Medulloblastoma
@@ -673,6 +682,9 @@ MB survivors face substantial late effects — inversely proportional to age at 
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Chemotherapy anaemia: the intensive multidrug chemotherapy that, with craniospinal radiation, treats medulloblastoma is myelosuppressive, lowering haemoglobin and requiring transfusion support in these young patients.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiac late effect: the craniospinal radiation for medulloblastoma exposes the heart, and any anthracycline adds cardiotoxicity, with troponin elevation marking the myocardial injury that threatens the many long-term survivors.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 helps make medulloblastoma an immunologically cold tumour (PD-1 already mapped), dampening the T-cell response that the CAR-T and checkpoint strategies under investigation aim to mount.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Hedgehog-lipid link: cholesterol and its oxysterol derivatives activate Smoothened (already mapped), the driver of the Hedgehog pathway (PTCH1 already mapped) in the SHH subtype of medulloblastoma, linking cellular lipid handling to the oncogenic signalling.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 microglial polarisation: IL-4 polarises the tumour-associated microglia and macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immunologically cold microenvironment of medulloblastoma.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Neuroinflammatory eicosanoids: prostaglandins from the tumour-associated microglia and the cyclooxygenase pathway contribute to the neuroinflammation (IL-6 and IL-1 already mapped) of the medulloblastoma microenvironment.
 
 [^packer-2006-std-risk-mb]: Packer RJ, Gajjar A, Vezina G, et al. Phase III study of craniospinal radiation therapy followed by adjuvant chemotherapy for newly diagnosed average-risk medulloblastoma. *J Clin Oncol.* 2006;24(25):4202-4208. [doi:10.1200/JCO.2006.06.4980](https://doi.org/10.1200/JCO.2006.06.4980) · [PubMed 16943538](https://pubmed.ncbi.nlm.nih.gov/16943538/)
 [^taylor-2012-mb-subgroups]: Taylor MD, Northcott PA, Korshunov A, et al. Molecular subgroups of medulloblastoma: the current consensus. *Acta Neuropathol.* 2012;123(4):465-472. [doi:10.1007/s00401-011-0922-z](https://doi.org/10.1007/s00401-011-0922-z) · [PubMed 22134537](https://pubmed.ncbi.nlm.nih.gov/22134537/)
