@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/pth
     relation: connects-to
     note: "Secondary hypertension: primary hyperparathyroidism raises blood pressure through parathyroid hormone effects on calcium (already mapped) and vascular tone, one of the endocrine secondary causes of hypertension that are potentially curable."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Metabolic clustering: hypertension clusters with dyslipidaemia in the metabolic syndrome (insulin, leptin and adiponectin already mapped), the raised cholesterol compounding the cardiovascular risk that drives combined blood-pressure and lipid treatment."
+  - target: 01-human/03-molecular/pcsk9
+    relation: connects-to
+    note: "Shared cardiovascular risk: the LDL-cholesterol handling governed by PCSK9 (cholesterol already mapped) is the co-target of cardiovascular prevention, statins and PCSK9 inhibitors treating the atherosclerotic risk that hypertension amplifies."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "Diuretic mechanism: the thiazide and loop diuretics that treat hypertension block sodium-chloride cotransport (sodium already mapped), and the resulting chloride and volume loss lowers blood pressure, sometimes causing a hypochloraemic alkalosis."
 ---
 
 # Hypertension
@@ -634,6 +643,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[Von Willebrand factor](../../03-molecular/von-willebrand-factor/README.md)** — Endothelial activation: the endothelial dysfunction of hypertension (nitric oxide already mapped) raises von Willebrand factor, a marker of the endothelial injury and prothrombotic state that link high blood pressure to its thrombotic complications.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Cardiometabolic overlap: GLP-1 receptor agonists modestly lower blood pressure alongside weight and glucose (SGLT2 and insulin already mapped), linking the incretin axis to the metabolic management of the hypertension that clusters with obesity and diabetes.
 - `connects-to` → **[PTH](../../03-molecular/pth/README.md)** — Secondary hypertension: primary hyperparathyroidism raises blood pressure through parathyroid hormone effects on calcium (already mapped) and vascular tone, one of the endocrine secondary causes of hypertension that are potentially curable.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Metabolic clustering: hypertension clusters with dyslipidaemia in the metabolic syndrome (insulin, leptin and adiponectin already mapped), the raised cholesterol compounding the cardiovascular risk that drives combined blood-pressure and lipid treatment.
+- `connects-to` → **[PCSK9](../../03-molecular/pcsk9/README.md)** — Shared cardiovascular risk: the LDL-cholesterol handling governed by PCSK9 (cholesterol already mapped) is the co-target of cardiovascular prevention, statins and PCSK9 inhibitors treating the atherosclerotic risk that hypertension amplifies.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Diuretic mechanism: the thiazide and loop diuretics that treat hypertension block sodium-chloride cotransport (sodium already mapped), and the resulting chloride and volume loss lowers blood pressure, sometimes causing a hypochloraemic alkalosis.
 
 ## Pathology
 

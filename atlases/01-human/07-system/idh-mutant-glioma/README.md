@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the vascular tone and angiogenesis of IDH-mutant glioma, part of the stromal microenvironment of this more indolent but ultimately progressive diffuse glioma."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Neuroinflammatory eicosanoids: prostaglandins from the tumour-associated microglia (already mapped) and the cyclooxygenase pathway contribute to the neuroinflammation (IL-6 and IL-1 already mapped) of the IDH-mutant glioma microenvironment."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 microglial polarisation: IL-4 polarises the tumour-associated microglia and macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune-evasive niche of IDH-mutant glioma."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative and metabolic stress: the 2-hydroxyglutarate-driven metabolic rewiring of the IDH-mutant cell generates oxidative stress (NRF2 already mapped), to which xanthine oxidase contributes, part of the tumour microenvironment."
 ---
 
 # IDH-Mutant Glioma
@@ -675,6 +684,9 @@ IDH-mutant glioma with MGMT methylation shows strong alkylating agent sensitivit
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive metabolite: the oncometabolite 2-hydroxyglutarate and IL-10 in the microenvironment blunt T-cell responses (PD-1 already mapped), part of the immune-cold state of IDH-mutant glioma that IDH inhibitors aim to reverse.
 - `connects-to` → **[GABA](../../03-molecular/gaba/README.md)** — Neuronal signalling: alongside the glutamatergic input (glutamate already mapped), GABAergic signalling shapes the neuronal activity of the infiltrated cortex, contributing to the seizures that frequently present IDH-mutant glioma.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the vascular tone and angiogenesis of IDH-mutant glioma, part of the stromal microenvironment of this more indolent but ultimately progressive diffuse glioma.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Neuroinflammatory eicosanoids: prostaglandins from the tumour-associated microglia (already mapped) and the cyclooxygenase pathway contribute to the neuroinflammation (IL-6 and IL-1 already mapped) of the IDH-mutant glioma microenvironment.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 microglial polarisation: IL-4 polarises the tumour-associated microglia and macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune-evasive niche of IDH-mutant glioma.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative and metabolic stress: the 2-hydroxyglutarate-driven metabolic rewiring of the IDH-mutant cell generates oxidative stress (NRF2 already mapped), to which xanthine oxidase contributes, part of the tumour microenvironment.
 
 [^mellinghoff-2023-vorasidenib-lgg]: Mellinghoff IK, van den Bent MJ, Blumenthal DT, et al. Vorasidenib in IDH1- or IDH2-mutant low-grade glioma. *N Engl J Med.* 2023;389(7):589-601. [doi:10.1056/NEJMoa2304194](https://doi.org/10.1056/NEJMoa2304194) · [PubMed 37272530](https://pubmed.ncbi.nlm.nih.gov/37272530/)
 [^jiao-2012-atrx-glioma]: Jiao Y, Killela PJ, Reitman ZJ, et al. Frequent ATRX, CIC, FUBP1 and IDH mutations refine the classification of malignant gliomas. *Oncotarget.* 2012;3(7):709-722. [doi:10.18632/oncotarget.588](https://doi.org/10.18632/oncotarget.588) · [PubMed 22869205](https://pubmed.ncbi.nlm.nih.gov/22869205/)
