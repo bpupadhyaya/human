@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Tumour lysis on transformation: when follicular lymphoma transforms to aggressive disease (DLBCL already mapped) and is treated, the rapid cell lysis releases purines that xanthine oxidase converts to uric acid, risking tumour-lysis syndrome."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 microenvironment: IL-13, with IL-4 (already mapped), reflects the type-2 cytokine milieu of the follicular helper T cells (already mapped) that support the follicular lymphoma clone in its germinal-centre-like niche."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the vascular tone and angiogenesis of the follicular lymphoma microenvironment, part of the supportive stroma of this indolent lymphoma."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Immunosuppressive eicosanoids: prostaglandin E2 in the follicular lymphoma microenvironment (IL-10 already mapped) dampens the anti-tumour immune response, part of the immune tolerance that sustains the indolent clone."
 ---
 
 # Follicular Lymphoma
@@ -669,6 +678,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Marrow involvement: paratrabecular bone-marrow infiltration by follicular lymphoma and its immunochemotherapy lower haemoglobin, the anaemia with other cytopenias marking advanced disease and treatment toxicity.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Anthracycline cardiotoxicity: the doxorubicin in R-CHOP regimens for follicular lymphoma is cardiotoxic, and troponin elevation helps detect the myocardial injury that constrains anthracycline use in this often long-lived indolent lymphoma.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Tumour lysis on transformation: when follicular lymphoma transforms to aggressive disease (DLBCL already mapped) and is treated, the rapid cell lysis releases purines that xanthine oxidase converts to uric acid, risking tumour-lysis syndrome.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 microenvironment: IL-13, with IL-4 (already mapped), reflects the type-2 cytokine milieu of the follicular helper T cells (already mapped) that support the follicular lymphoma clone in its germinal-centre-like niche.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the vascular tone and angiogenesis of the follicular lymphoma microenvironment, part of the supportive stroma of this indolent lymphoma.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Immunosuppressive eicosanoids: prostaglandin E2 in the follicular lymphoma microenvironment (IL-10 already mapped) dampens the anti-tumour immune response, part of the immune tolerance that sustains the indolent clone.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

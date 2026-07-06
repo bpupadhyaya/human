@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative carcinogenesis: Helicobacter inflammation and dietary nitrosamines generate reactive oxygen species, to which xanthine oxidase contributes, and this oxidative DNA damage drives the intestinal-type gastric carcinogenesis cascade."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "COX-2 gastric carcinogenesis: Helicobacter-driven inflammation induces cyclooxygenase-2 and prostaglandin E2 in the gastric mucosa, promoting the proliferation and angiogenesis (VEGF already mapped) of the intestinal-type carcinogenesis cascade."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive microenvironment: IL-10 in the tumour microenvironment dampens the anti-tumour T-cell response (PD-1 already mapped), part of the immune escape that the checkpoint inhibitors used in MSI-high and EBV-positive gastric cancer aim to reverse."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Iron-deficiency anaemia: chronic occult bleeding and the atrophic gastritis impairing iron absorption cause iron-deficiency anaemia (haemoglobin already mapped), often the presenting sign of gastric cancer."
 ---
 
 # Gastric Cancer
@@ -690,6 +699,9 @@ H. pylori eradication: Reduces GC incidence by ~35-40% (meta-analyses); most ben
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Bleeding and anaemia: chronic occult bleeding from gastric cancer causes iron-deficiency anaemia (iron already mapped), and the falling haemoglobin with weight loss and dyspepsia is a common presentation prompting endoscopy.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell immunotherapy: IL-2-driven T-cell expansion (PD-1 and perforin already mapped) supports the checkpoint-inhibitor response, especially effective in the EBV-positive and microsatellite-unstable (MLH1 already mapped) subtypes of gastric cancer.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative carcinogenesis: Helicobacter inflammation and dietary nitrosamines generate reactive oxygen species, to which xanthine oxidase contributes, and this oxidative DNA damage drives the intestinal-type gastric carcinogenesis cascade.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — COX-2 gastric carcinogenesis: Helicobacter-driven inflammation induces cyclooxygenase-2 and prostaglandin E2 in the gastric mucosa, promoting the proliferation and angiogenesis (VEGF already mapped) of the intestinal-type carcinogenesis cascade.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the tumour microenvironment dampens the anti-tumour T-cell response (PD-1 already mapped), part of the immune escape that the checkpoint inhibitors used in MSI-high and EBV-positive gastric cancer aim to reverse.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron-deficiency anaemia: chronic occult bleeding and the atrophic gastritis impairing iron absorption cause iron-deficiency anaemia (haemoglobin already mapped), often the presenting sign of gastric cancer.
 
 [^bang-2010-toga]: Bang YJ, Van Cutsem E, Feyereislova A, et al. Trastuzumab in combination with chemotherapy versus chemotherapy alone for treatment of HER2-positive advanced gastric or gastro-oesophageal junction cancer (ToGA): a phase 3, open-label, randomised controlled trial. *Lancet.* 2010;376(9742):687-697. [doi:10.1016/S0140-6736(10)61121-X](https://doi.org/10.1016/S0140-6736(10)61121-X) · [PubMed 20728210](https://pubmed.ncbi.nlm.nih.gov/20728210/)
 [^janjigian-2021-checkmate649]: Janjigian YY, Shitara K, Moehler M, et al. First-line nivolumab plus chemotherapy versus chemotherapy alone for advanced gastric, gastro-oesophageal junction, and oesophageal adenocarcinoma (CheckMate 649). *Lancet.* 2021;398(10294):27-40. [doi:10.1016/S0140-6736(21)00797-2](https://doi.org/10.1016/S0140-6736(21)00797-2) · [PubMed 34102137](https://pubmed.ncbi.nlm.nih.gov/34102137/)
