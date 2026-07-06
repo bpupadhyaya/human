@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/troponin-complex
     relation: connects-to
     note: "Treatment cardiotoxicity: the anti-angiogenic bevacizumab (VEGF already mapped) and chemotherapy used in ovarian cancer can injure the heart, and troponin elevation helps detect the cardiac toxicity that complicates prolonged treatment."
+  - target: 01-human/06-organ/small-intestine
+    relation: connects-to
+    note: "Bowel obstruction: transcoelomic spread of ovarian cancer over the small intestine and its mesentery causes the malignant bowel obstruction (large intestine already mapped) that is a common and difficult terminal complication."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive ascites: IL-10 in the malignant ascites and its tumour-associated macrophages (already mapped) dampens the anti-tumour T-cell response (CD8 already mapped), part of the immune evasion of ovarian cancer."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative and lysis stress: platinum chemotherapy and rapid cell turnover in ovarian cancer generate oxidative stress and release purines that xanthine oxidase converts to uric acid, adding oxidative and tumour-lysis burden."
 ---
 
 # Ovarian Cancer
@@ -647,6 +656,9 @@ FTSEC ciliated and secretory cells line the Fallopian tube; secretory cells are 
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Cellular immunotherapy: IL-2-driven T-cell expansion supports the adoptive and tumour-infiltrating-lymphocyte therapies being explored for ovarian cancer, whose response to single-agent checkpoint blockade (PD-1 already mapped) has been modest.
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Anaemia: ovarian cancer lowers haemoglobin through chronic disease, occult blood loss and platinum-chemotherapy myelosuppression, contributing to the fatigue that burdens patients and often requiring transfusion or growth-factor support.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Treatment cardiotoxicity: the anti-angiogenic bevacizumab (VEGF already mapped) and chemotherapy used in ovarian cancer can injure the heart, and troponin elevation helps detect the cardiac toxicity that complicates prolonged treatment.
+- `connects-to` → **[Small intestine](../../06-organ/small-intestine/README.md)** — Bowel obstruction: transcoelomic spread of ovarian cancer over the small intestine and its mesentery causes the malignant bowel obstruction (large intestine already mapped) that is a common and difficult terminal complication.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive ascites: IL-10 in the malignant ascites and its tumour-associated macrophages (already mapped) dampens the anti-tumour T-cell response (CD8 already mapped), part of the immune evasion of ovarian cancer.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative and lysis stress: platinum chemotherapy and rapid cell turnover in ovarian cancer generate oxidative stress and release purines that xanthine oxidase converts to uric acid, adding oxidative and tumour-lysis burden.
 
 [^burger-2011-gog0218]: Burger RA, Brady MF, Bookman MA, et al. Incorporation of bevacizumab in the primary treatment of ovarian cancer. *N Engl J Med.* 2011;365(26):2473-2483. [doi:10.1056/NEJMoa1104390](https://doi.org/10.1056/NEJMoa1104390) · [PubMed 22204724](https://pubmed.ncbi.nlm.nih.gov/22204724/)
 [^moore-2018-olaparib-solo1]: Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. *N Engl J Med.* 2018;379(26):2495-2505. [doi:10.1056/NEJMoa1810858](https://doi.org/10.1056/NEJMoa1810858) · [PubMed 30345884](https://pubmed.ncbi.nlm.nih.gov/30345884/)

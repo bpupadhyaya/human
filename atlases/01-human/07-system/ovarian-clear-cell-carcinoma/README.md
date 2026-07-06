@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/troponin-complex
     relation: connects-to
     note: "Treatment cardiotoxicity: the platinum, taxane and anti-angiogenic therapy used in ovarian clear cell carcinoma can injure the heart, and troponin elevation helps detect the cardiac toxicity that complicates treatment of this chemoresistant tumour."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Anaemia: chronic disease, occult loss and platinum chemotherapy lower haemoglobin in ovarian clear cell carcinoma, and the anaemia adds to the fatigue that burdens patients with this often chemoresistant tumour."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive microenvironment: IL-10 in the tumour microenvironment dampens the anti-tumour T-cell response (CD8 and PD-1 already mapped), part of the immune evasion opposing the checkpoint therapy tested in the microsatellite-unstable subset."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Endometriosis oxidative stress: the endometriotic cysts from which ovarian clear cell carcinoma arises are iron-rich, and the oxidative stress (NRF2 already mapped), to which xanthine oxidase contributes, drives the carcinogenesis of this subtype."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -673,6 +682,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — MSI immunotherapy: IL-2-driven T-cell expansion underlies the immunotherapy of the mismatch-repair-deficient clear cell carcinomas (MHC class II already mapped) that respond to checkpoint blockade despite the tumour's general chemoresistance.
 - `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Checkpoint combination: CTLA-4 blockade, combined with PD-1 inhibition (already mapped), is being tested to boost responses in the immunogenic microsatellite-unstable subset of ovarian clear cell carcinoma.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Treatment cardiotoxicity: the platinum, taxane and anti-angiogenic therapy used in ovarian clear cell carcinoma can injure the heart, and troponin elevation helps detect the cardiac toxicity that complicates treatment of this chemoresistant tumour.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Anaemia: chronic disease, occult loss and platinum chemotherapy lower haemoglobin in ovarian clear cell carcinoma, and the anaemia adds to the fatigue that burdens patients with this often chemoresistant tumour.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the tumour microenvironment dampens the anti-tumour T-cell response (CD8 and PD-1 already mapped), part of the immune evasion opposing the checkpoint therapy tested in the microsatellite-unstable subset.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Endometriosis oxidative stress: the endometriotic cysts from which ovarian clear cell carcinoma arises are iron-rich, and the oxidative stress (NRF2 already mapped), to which xanthine oxidase contributes, drives the carcinogenesis of this subtype.
 
 ---
 
