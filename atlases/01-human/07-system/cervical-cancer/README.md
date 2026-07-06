@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "Immunosuppressive microenvironment: HPV and the cervical tumour induce IL-10 and other immunosuppressive signals that blunt the anti-viral T-cell response, helping the infection persist and the cancer evade immunity."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "COX-2 carcinogenesis: HPV induces cyclooxygenase-2 and prostaglandin E2 in the cervical epithelium, promoting the inflammation, angiogenesis (VEGF already mapped) and immunosuppression of cervical carcinogenesis, and COX-2 has been studied as a target."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative HPV damage: persistent HPV infection and chronic cervical inflammation generate oxidative stress, to which xanthine oxidase contributes, adding oxidative DNA damage to the E6/E7-driven (p53 and Rb already mapped) carcinogenesis."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the angiogenesis and vascular tone of the cervical tumour, and it also contributes to the inflammatory milieu of persistent HPV infection."
 ---
 
 # Cervical Cancer
@@ -666,6 +675,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — TIL immunotherapy: IL-2-driven expansion of tumour-infiltrating lymphocytes (perforin and PD-1 already mapped) underlies the TIL cell therapy now approved for HPV-associated cervical cancer, exploiting its viral neoantigens.
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Bleeding and anaemia: abnormal vaginal bleeding is the cardinal symptom of cervical cancer, and the chronic blood loss with chemoradiotherapy myelosuppression lowers haemoglobin, the anaemia that itself worsens radiotherapy outcomes.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: HPV and the cervical tumour induce IL-10 and other immunosuppressive signals that blunt the anti-viral T-cell response, helping the infection persist and the cancer evade immunity.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — COX-2 carcinogenesis: HPV induces cyclooxygenase-2 and prostaglandin E2 in the cervical epithelium, promoting the inflammation, angiogenesis (VEGF already mapped) and immunosuppression of cervical carcinogenesis, and COX-2 has been studied as a target.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative HPV damage: persistent HPV infection and chronic cervical inflammation generate oxidative stress, to which xanthine oxidase contributes, adding oxidative DNA damage to the E6/E7-driven (p53 and Rb already mapped) carcinogenesis.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the angiogenesis and vascular tone of the cervical tumour, and it also contributes to the inflammatory milieu of persistent HPV infection.
 
 ---
 
