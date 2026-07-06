@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Tumour lysis and oxidative stress: the high proliferative rate of the embryonal DICER1 tumours, lysed by chemotherapy, releases purines catabolised by xanthine oxidase to uric acid, contributing to tumour-lysis risk and oxidative stress."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive microenvironment: IL-10 in the tumour microenvironment of the DICER1-associated tumours dampens the anti-tumour T-cell response (PD-1 already mapped), part of the immune evasion relevant to immunotherapy of any aggressive tumour."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the vascular tone and angiogenesis of the DICER1-associated embryonal tumours, part of their stromal microenvironment."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Transfusion and anaemia: the anaemia of the DICER1 sarcomas and their intensive chemotherapy (haemoglobin already mapped) requires transfusion support, whose repeated use can load the young survivor with iron."
 ---
 
 # DICER1 Syndrome
@@ -658,6 +667,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Chemotherapy anaemia: the intensive chemotherapy for the childhood cancers of DICER1 syndrome, such as pleuropulmonary blastoma and embryonal rhabdomyosarcoma (already mapped), is myelosuppressive and lowers haemoglobin.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Anthracycline cardiotoxicity: anthracyclines in the sarcoma regimens for DICER1-associated tumours are cardiotoxic, and troponin elevation helps detect the cumulative myocardial injury threatening these young survivors.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Tumour lysis and oxidative stress: the high proliferative rate of the embryonal DICER1 tumours, lysed by chemotherapy, releases purines catabolised by xanthine oxidase to uric acid, contributing to tumour-lysis risk and oxidative stress.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the tumour microenvironment of the DICER1-associated tumours dampens the anti-tumour T-cell response (PD-1 already mapped), part of the immune evasion relevant to immunotherapy of any aggressive tumour.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the vascular tone and angiogenesis of the DICER1-associated embryonal tumours, part of their stromal microenvironment.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Transfusion and anaemia: the anaemia of the DICER1 sarcomas and their intensive chemotherapy (haemoglobin already mapped) requires transfusion support, whose repeated use can load the young survivor with iron.
 
 ---
 

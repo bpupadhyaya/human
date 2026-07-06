@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Tumour vasculature: nitric oxide regulates the vascular tone and, with VEGF (already mapped), the angiogenesis supplying desmoid tumours, part of the stromal microenvironment beyond the myofibroblast and growth-factor drivers."
+  - target: 01-human/07-system/fap
+    relation: connects-to
+    note: "FAP-associated desmoids: desmoid tumours are a major extracolonic manifestation of familial adenomatous polyposis (APC already mapped), often arising in the mesentery after colectomy, where they are a leading cause of death in FAP."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative microenvironment: the infiltrative desmoid generates oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species are part of the fibrotic tumour microenvironment beyond the Wnt (already mapped) drive."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped) in the desmoid stroma, part of the immune tolerance that sustains the infiltrative fibromatosis."
 ---
 
 # Desmoid Tumor
@@ -677,6 +686,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell immunity: IL-2-driven T-cell responses (MHC class II and CD8 already mapped) shape the immune surveillance of desmoid tumours, relevant to the immunotherapy explored for these locally aggressive fibromatoses.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive stroma: the anti-inflammatory cytokine IL-10 in the desmoid microenvironment dampens anti-tumour immunity, part of the immune tolerance that, with the Wnt drive (already mapped), sustains the infiltrative fibromatosis.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide regulates the vascular tone and, with VEGF (already mapped), the angiogenesis supplying desmoid tumours, part of the stromal microenvironment beyond the myofibroblast and growth-factor drivers.
+- `connects-to` → **[FAP](../fap/README.md)** — FAP-associated desmoids: desmoid tumours are a major extracolonic manifestation of familial adenomatous polyposis (APC already mapped), often arising in the mesentery after colectomy, where they are a leading cause of death in FAP.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative microenvironment: the infiltrative desmoid generates oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species are part of the fibrotic tumour microenvironment beyond the Wnt (already mapped) drive.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped) in the desmoid stroma, part of the immune tolerance that sustains the infiltrative fibromatosis.
 
 ---
 
