@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Tumour lysis: the bulky, aggressive peripheral T-cell lymphomas can develop tumour-lysis syndrome on treatment, releasing purines that xanthine oxidase converts to uric acid, managed with allopurinol or rasburicase."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Anthracycline cardiotoxicity: the CHOP/CHOEP chemotherapy for peripheral T-cell lymphoma includes cardiotoxic doxorubicin, and troponin elevation helps detect the myocardial injury that limits the cumulative anthracycline dose."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Tumour-lysis acidosis: the rapid lysis of bulky peripheral T-cell lymphoma by chemotherapy releases acids that, with lactate, produce the metabolic acidosis of tumour-lysis syndrome (urate already mapped), part of its acute metabolic risk."
+  - target: 01-human/03-molecular/secretory-iga
+    relation: connects-to
+    note: "Immune dysregulation: angioimmunoblastic and other peripheral T-cell lymphomas dysregulate humoral immunity, and hypogammaglobulinaemia depleting secretory IgA (immunoglobulin G already mapped) impairs mucosal defence, contributing to the infections that complicate them."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -676,6 +685,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Hypergammaglobulinaemia: angioimmunoblastic PTCL, arising from follicular helper T cells (MHC class II already mapped), drives a polyclonal B-cell expansion that produces hypergammaglobulinaemia and the autoantibodies behind its autoimmune features.
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Autoimmune cytopenias: angioimmunoblastic PTCL commonly causes autoimmune haemolytic anaemia and other cytopenias through its dysregulated B-cell help (immunoglobulin G already mapped), lowering haemoglobin at presentation.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Tumour lysis: the bulky, aggressive peripheral T-cell lymphomas can develop tumour-lysis syndrome on treatment, releasing purines that xanthine oxidase converts to uric acid, managed with allopurinol or rasburicase.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Anthracycline cardiotoxicity: the CHOP/CHOEP chemotherapy for peripheral T-cell lymphoma includes cardiotoxic doxorubicin, and troponin elevation helps detect the myocardial injury that limits the cumulative anthracycline dose.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Tumour-lysis acidosis: the rapid lysis of bulky peripheral T-cell lymphoma by chemotherapy releases acids that, with lactate, produce the metabolic acidosis of tumour-lysis syndrome (urate already mapped), part of its acute metabolic risk.
+- `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — Immune dysregulation: angioimmunoblastic and other peripheral T-cell lymphomas dysregulate humoral immunity, and hypogammaglobulinaemia depleting secretory IgA (immunoglobulin G already mapped) impairs mucosal defence, contributing to the infections that complicate them.
 
 ---
 

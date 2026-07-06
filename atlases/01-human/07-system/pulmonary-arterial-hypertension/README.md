@@ -409,6 +409,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin
     relation: connects-to
     note: "Metabolic dysfunction: pulmonary arterial hypertension is associated with insulin resistance and a shift toward glycolytic metabolism in the pulmonary vessels and right ventricle, a metabolic dimension increasingly recognised in its pathobiology."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Hypoxaemia and iron: chronic hypoxaemia in pulmonary arterial hypertension can raise haemoglobin through secondary erythrocytosis, while the common iron deficiency (hepcidin already mapped) impairs oxygen delivery and worsens outcomes."
+  - target: 01-human/03-molecular/protein-c
+    relation: connects-to
+    note: "In-situ thrombosis: the pulmonary arteriopathy of pulmonary arterial hypertension carries a prothrombotic tendency with in-situ microthrombi, and reduced natural anticoagulants such as protein C (von Willebrand factor already mapped) contribute to this thrombotic component."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 vascular remodelling: IL-13 and the type-2 inflammatory response promote the pulmonary vascular smooth-muscle (already mapped) proliferation and remodelling, adding to the inflammatory drive (IL-6 already mapped) of pulmonary arterial hypertension."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -662,6 +671,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Vasodilator deficit: calcitonin gene-related peptide is a potent pulmonary vasodilator, and its relative deficiency contributes to the vasoconstriction of pulmonary arterial hypertension, complementing the endothelin/nitric-oxide/prostacyclin pathways already mapped.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — RAAS activation: the renin-angiotensin-aldosterone system (aldosterone already mapped) is activated in pulmonary arterial hypertension, and angiotensin II promotes the vascular remodelling and right-ventricular fibrosis that worsen the disease.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Metabolic dysfunction: pulmonary arterial hypertension is associated with insulin resistance and a shift toward glycolytic metabolism in the pulmonary vessels and right ventricle, a metabolic dimension increasingly recognised in its pathobiology.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Hypoxaemia and iron: chronic hypoxaemia in pulmonary arterial hypertension can raise haemoglobin through secondary erythrocytosis, while the common iron deficiency (hepcidin already mapped) impairs oxygen delivery and worsens outcomes.
+- `connects-to` → **[Protein C](../../03-molecular/protein-c/README.md)** — In-situ thrombosis: the pulmonary arteriopathy of pulmonary arterial hypertension carries a prothrombotic tendency with in-situ microthrombi, and reduced natural anticoagulants such as protein C (von Willebrand factor already mapped) contribute to this thrombotic component.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 vascular remodelling: IL-13 and the type-2 inflammatory response promote the pulmonary vascular smooth-muscle (already mapped) proliferation and remodelling, adding to the inflammatory drive (IL-6 already mapped) of pulmonary arterial hypertension.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
