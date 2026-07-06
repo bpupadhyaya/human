@@ -409,6 +409,15 @@ cross_links:
   - target: 01-human/03-molecular/pth
     relation: connects-to
     note: "Paraneoplastic hypercalcaemia: squamous NSCLC commonly secretes PTH-related peptide, which acts like PTH to raise calcium (already mapped), causing the paraneoplastic hypercalcaemia that marks advanced disease."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Anaemia of malignancy: chronic disease, marrow involvement and chemotherapy lower haemoglobin in NSCLC, and the resulting anaemia adds to the breathlessness and fatigue that already burden these patients."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Tobacco oxidative damage: cigarette smoke and chronic inflammation generate reactive oxygen species, to which xanthine oxidase contributes, and this oxidative DNA damage (NRF2 already mapped) drives the carcinogenesis of smoking-related NSCLC."
+  - target: 01-human/03-molecular/mu-opioid-receptor
+    relation: connects-to
+    note: "Cancer pain and dyspnoea: opioids acting on the mu-opioid receptor relieve the pain of bone metastases and the refractory breathlessness of advanced NSCLC, a mainstay of its palliative and supportive care."
 ---
 
 # NSCLC
@@ -640,6 +649,9 @@ cross_links:
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Cellular immunotherapy: IL-2-driven T-cell expansion underlies the tumour-infiltrating-lymphocyte therapy now approved for advanced NSCLC and complements the checkpoint inhibitors (PD-1/CTLA-4 already mapped) central to its treatment.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Immunotherapy cardiotoxicity: the checkpoint inhibitors widely used in NSCLC can cause immune-mediated myocarditis, and troponin elevation helps detect this rare but often fatal complication, alongside pericardial spread of the tumour.
 - `connects-to` → **[PTH](../../03-molecular/pth/README.md)** — Paraneoplastic hypercalcaemia: squamous NSCLC commonly secretes PTH-related peptide, which acts like PTH to raise calcium (already mapped), causing the paraneoplastic hypercalcaemia that marks advanced disease.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Anaemia of malignancy: chronic disease, marrow involvement and chemotherapy lower haemoglobin in NSCLC, and the resulting anaemia adds to the breathlessness and fatigue that already burden these patients.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Tobacco oxidative damage: cigarette smoke and chronic inflammation generate reactive oxygen species, to which xanthine oxidase contributes, and this oxidative DNA damage (NRF2 already mapped) drives the carcinogenesis of smoking-related NSCLC.
+- `connects-to` → **[Mu-opioid receptor](../../03-molecular/mu-opioid-receptor/README.md)** — Cancer pain and dyspnoea: opioids acting on the mu-opioid receptor relieve the pain of bone metastases and the refractory breathlessness of advanced NSCLC, a mainstay of its palliative and supportive care.
 
 [^soria-2018-osimertinib-flaura]: Soria JC, Ohe Y, Vansteenkiste J, et al. Osimertinib in untreated EGFR-mutated advanced non-small-cell lung cancer. *N Engl J Med.* 2018;378(2):113-125. [doi:10.1056/NEJMoa1713137](https://doi.org/10.1056/NEJMoa1713137) · [PubMed 29151359](https://pubmed.ncbi.nlm.nih.gov/29151359/)
 [^reck-2016-pembrolizumab-keynote024]: Reck M, Rodríguez-Abreu D, Robinson AG, et al. Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell lung cancer. *N Engl J Med.* 2016;375(19):1823-1833. [doi:10.1056/NEJMoa1606774](https://doi.org/10.1056/NEJMoa1606774) · [PubMed 27718347](https://pubmed.ncbi.nlm.nih.gov/27718347/)
