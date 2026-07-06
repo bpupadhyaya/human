@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Nitrergic mood signalling: nitric oxide from neuronal nitric oxide synthase modulates monoamine (serotonin already mapped) and glutamatergic transmission, and dysregulated NO-cGMP signalling is implicated in the neurobiology of depression."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Lipids and mood: cholesterol is essential to neuronal membranes and synaptic function, and both the metabolic-syndrome dyslipidaemia comorbid with depression and the associations of very low cholesterol with suicidality link lipids to mood."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Iron and monoamines: iron is a cofactor for the enzymes making dopamine and serotonin (already mapped), and iron deficiency is associated with the fatigue and low mood of depression, sometimes improving with repletion."
+  - target: 01-human/07-system/bipolar-disorder
+    relation: connects-to
+    note: "Unipolar-bipolar distinction: distinguishing unipolar major depression from the depressive episodes of bipolar disorder is critical, as antidepressants can precipitate mania, and the two share overlapping mood neurobiology (BDNF and glutamate already mapped)."
 ---
 
 # Major Depressive Disorder
@@ -712,6 +721,9 @@ Approximately 30–40% of MDD patients have elevated inflammatory markers:
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Neurogenesis: VEGF supports the hippocampal neurogenesis and angiogenesis (BDNF already mapped) that antidepressants promote, a vascular-neurotrophic mechanism implicated in recovery from depression and in the reduced hippocampal volume seen in the illness.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Neuroinflammation: prostaglandins from activated microglia (already mapped) contribute to the neuroinflammatory dimension of depression, and anti-inflammatory agents that block their synthesis are studied as adjuncts in the inflammatory subtype.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Nitrergic mood signalling: nitric oxide from neuronal nitric oxide synthase modulates monoamine (serotonin already mapped) and glutamatergic transmission, and dysregulated NO-cGMP signalling is implicated in the neurobiology of depression.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Lipids and mood: cholesterol is essential to neuronal membranes and synaptic function, and both the metabolic-syndrome dyslipidaemia comorbid with depression and the associations of very low cholesterol with suicidality link lipids to mood.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron and monoamines: iron is a cofactor for the enzymes making dopamine and serotonin (already mapped), and iron deficiency is associated with the fatigue and low mood of depression, sometimes improving with repletion.
+- `connects-to` → **[Bipolar disorder](../bipolar-disorder/README.md)** — Unipolar-bipolar distinction: distinguishing unipolar major depression from the depressive episodes of bipolar disorder is critical, as antidepressants can precipitate mania, and the two share overlapping mood neurobiology (BDNF and glutamate already mapped).
 
 [^cipriani-2018-antidepressants-meta]: Cipriani A, Furukawa TA, Salanti G, et al. Comparative efficacy and acceptability of 21 antidepressant drugs for acute treatment of adults with major depressive disorder. *Lancet.* 2018;391(10128):1357-1366. [doi:10.1016/S0140-6736(17)32802-7](https://doi.org/10.1016/S0140-6736(17)32802-7) · [PubMed 29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/)
 [^zarate-2006-ketamine-rapid]: Zarate CA Jr, Singh JB, Carlson PJ, et al. A randomized trial of an N-methyl-D-aspartate antagonist in treatment-resistant major depression. *Arch Gen Psychiatry.* 2006;63(8):856-864. [doi:10.1001/archpsyc.63.8.856](https://doi.org/10.1001/archpsyc.63.8.856) · [PubMed 16894061](https://pubmed.ncbi.nlm.nih.gov/16894061/)

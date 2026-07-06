@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/01-subatomic/proton
     relation: connects-to
     note: "Tumour-lysis acidosis: the rapid lysis of the high-burden blastoid mantle cell lymphoma by chemotherapy releases acids that, with lactate, produce the metabolic acidosis of tumour-lysis syndrome (urate already mapped)."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive microenvironment: IL-10 in the tumour microenvironment dampens the anti-tumour T-cell response, part of the immune evasion of mantle cell lymphoma that the CD19 CAR-T and bispecific therapies aim to overcome."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Nurse-like stromal support: IL-4 polarises the tumour-associated macrophages toward an M2 phenotype (IL-10 already mapped), the nurse-like cells of the microenvironment that support the survival of the mantle cell lymphoma clone."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the vascular tone and angiogenesis of mantle cell lymphoma, part of the supportive stroma of this aggressive lymphoma."
 ---
 
 # Mantle Cell Lymphoma
@@ -665,6 +674,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — BTK-inhibitor cardiotoxicity: the BTK inhibitors central to mantle cell lymphoma therapy (BTK already mapped) cause atrial fibrillation and, rarely, ventricular arrhythmia, and troponin elevation marks the myocardial injury of this major class toxicity.
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Marrow involvement: bone-marrow infiltration (already mapped) by mantle cell lymphoma and its intensive chemoimmunotherapy lower haemoglobin, the anaemia with other cytopenias marking advanced disease and treatment toxicity.
 - `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Tumour-lysis acidosis: the rapid lysis of the high-burden blastoid mantle cell lymphoma by chemotherapy releases acids that, with lactate, produce the metabolic acidosis of tumour-lysis syndrome (urate already mapped).
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the tumour microenvironment dampens the anti-tumour T-cell response, part of the immune evasion of mantle cell lymphoma that the CD19 CAR-T and bispecific therapies aim to overcome.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Nurse-like stromal support: IL-4 polarises the tumour-associated macrophages toward an M2 phenotype (IL-10 already mapped), the nurse-like cells of the microenvironment that support the survival of the mantle cell lymphoma clone.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the vascular tone and angiogenesis of mantle cell lymphoma, part of the supportive stroma of this aggressive lymphoma.
 
 ---
 
