@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/baff
     relation: connects-to
     note: "B-cell survival: BAFF is the key survival cytokine for B cells (already mapped), setting the size of the mature B-cell pool, and its excess drives the autoantibody production targeted in autoimmune disease."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Cytotoxic effectors: CD8 cytotoxic T cells kill virus-infected and tumour cells through perforin and granzyme (perforin already mapped), the cell-killing arm of adaptive immunity restrained by checkpoints (PD-1 already mapped)."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Peripheral tolerance: regulatory T cells suppress other immune cells through IL-10 and TGF-beta (already mapped), enforcing the peripheral tolerance whose failure causes the autoimmunity the immune system must avoid."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "Antibody maturation: germinal centres are where B cells undergo somatic hypermutation and class-switching (immunoglobulin G already mapped) to produce high-affinity antibody, the engine of the humoral immune response."
 ---
 
 # Immune System
@@ -577,6 +586,9 @@ After primary response contraction, long-lived memory cells persist:
 - `connects-to` → **[Germinal center](../../05-tissue/germinal-center/README.md)** — Affinity maturation: within lymphoid germinal centres, B cells (already mapped) undergo somatic hypermutation and class-switching under T-follicular-helper guidance, the reaction that refines antibody affinity and generates memory in the adaptive immune system.
 - `connects-to` → **[TGF-beta](../../03-molecular/tgf-beta/README.md)** — Immunoregulation: TGF-beta is a central immunoregulatory cytokine driving regulatory T-cell differentiation and IgA class-switching, restraining the immune system alongside IL-10 (already mapped) to prevent excess inflammation and autoimmunity.
 - `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — B-cell survival: BAFF is the key survival cytokine for B cells (already mapped), setting the size of the mature B-cell pool, and its excess drives the autoantibody production targeted in autoimmune disease.
+- `connects-to` → **[T-cytotoxic cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Cytotoxic effectors: CD8 cytotoxic T cells kill virus-infected and tumour cells through perforin and granzyme (perforin already mapped), the cell-killing arm of adaptive immunity restrained by checkpoints (PD-1 already mapped).
+- `connects-to` → **[Regulatory T cell](../../04-cellular/regulatory-t-cell/README.md)** — Peripheral tolerance: regulatory T cells suppress other immune cells through IL-10 and TGF-beta (already mapped), enforcing the peripheral tolerance whose failure causes the autoimmunity the immune system must avoid.
+- `connects-to` → **[Germinal center](../../05-tissue/germinal-center/README.md)** — Antibody maturation: germinal centres are where B cells undergo somatic hypermutation and class-switching (immunoglobulin G already mapped) to produce high-affinity antibody, the engine of the humoral immune response.
 
 ## Pathology
 

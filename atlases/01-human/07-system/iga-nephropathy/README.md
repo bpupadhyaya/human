@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Renal anaemia: as IgA nephropathy progresses to chronic kidney disease (already mapped), failing erythropoietin production lowers red-cell production, adding the anaemia of renal failure to the haematuria (haemoglobin already mapped)."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Glomerular haemodynamics: renal prostaglandins modulate the glomerular blood flow and inflammation of IgA nephropathy (IL-6 and TNF already mapped), and NSAIDs that block them affect proteinuria and renal function."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Endothelial dysfunction: nitric oxide regulates the glomerular endothelial function and vascular tone, and its impairment in IgA nephropathy (endothelin-1 already mapped) contributes to the hypertension and progression of the disease."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative glomerular injury: oxidative stress, to which xanthine oxidase contributes, damages the mesangium and glomerulus in IgA nephropathy, and the associated hyperuricaemia adds to the renal injury of progressive disease."
 ---
 
 # IgA Nephropathy
@@ -627,6 +636,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Mineralocorticoid blockade: aldosterone drives the fibrosis and proteinuria of progressive IgA nephropathy, and mineralocorticoid-receptor antagonists add to the RAAS blockade (angiotensin II already mapped) that slows its decline.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 IgA drive: IL-13, with the IL-4 (already mapped) type-2 response, promotes the aberrant mucosal IgA class-switching that generates the galactose-deficient IgA1 initiating IgA nephropathy.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Renal anaemia: as IgA nephropathy progresses to chronic kidney disease (already mapped), failing erythropoietin production lowers red-cell production, adding the anaemia of renal failure to the haematuria (haemoglobin already mapped).
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Glomerular haemodynamics: renal prostaglandins modulate the glomerular blood flow and inflammation of IgA nephropathy (IL-6 and TNF already mapped), and NSAIDs that block them affect proteinuria and renal function.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Endothelial dysfunction: nitric oxide regulates the glomerular endothelial function and vascular tone, and its impairment in IgA nephropathy (endothelin-1 already mapped) contributes to the hypertension and progression of the disease.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative glomerular injury: oxidative stress, to which xanthine oxidase contributes, damages the mesangium and glomerulus in IgA nephropathy, and the associated hyperuricaemia adds to the renal injury of progressive disease.
 
 ---
 
