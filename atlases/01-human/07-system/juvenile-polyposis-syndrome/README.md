@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "Immunosuppressive stroma: the anti-inflammatory cytokine IL-10 in the polyp microenvironment dampens anti-tumour immunity (MHC class II already mapped), part of the immune tolerance that allows some juvenile-polyposis polyps to progress to cancer."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages (already mapped) toward an immunosuppressive M2 phenotype (IL-10 already mapped) in the hamartomatous polyp stroma of juvenile polyposis."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Bile acids and diet: dietary fat and the bile acids derived from cholesterol promote colonic proliferation and the hamartoma-carcinoma progression, a modifiable dietary influence on the cancer risk of juvenile polyposis."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Obesity and proliferation: the adipokine leptin links obesity to colorectal carcinogenesis, promoting the epithelial proliferation (Wnt already mapped) that can accelerate the malignant progression of the polyps in juvenile polyposis."
 ---
 
 # Juvenile Polyposis Syndrome
@@ -673,6 +682,9 @@ No approved chemopreventive agents specifically for JPS. Options under investiga
 - `connects-to` → **[T-cytotoxic cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Immunosurveillance effectors: cytotoxic CD8 T cells (MHC class II and IL-2 already mapped) police the many hamartomatous polyps of juvenile polyposis for malignant transformation, the cellular arm of the immune control of neoplastic progression.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative carcinogenesis: chronic mucosal inflammation and the high epithelial turnover of the polyps generate oxidative stress, to which xanthine oxidase contributes, adding DNA damage that speeds the hamartoma-carcinoma progression of juvenile polyposis.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive stroma: the anti-inflammatory cytokine IL-10 in the polyp microenvironment dampens anti-tumour immunity (MHC class II already mapped), part of the immune tolerance that allows some juvenile-polyposis polyps to progress to cancer.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages (already mapped) toward an immunosuppressive M2 phenotype (IL-10 already mapped) in the hamartomatous polyp stroma of juvenile polyposis.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Bile acids and diet: dietary fat and the bile acids derived from cholesterol promote colonic proliferation and the hamartoma-carcinoma progression, a modifiable dietary influence on the cancer risk of juvenile polyposis.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Obesity and proliferation: the adipokine leptin links obesity to colorectal carcinogenesis, promoting the epithelial proliferation (Wnt already mapped) that can accelerate the malignant progression of the polyps in juvenile polyposis.
 
 [^howe-1998-smad4-jps]: Howe JR, Roth S, Ringold JC, et al. Mutations in the SMAD4/DPC4 gene in juvenile polyposis. *Science.* 1998;280(5366):1086-1088. [doi:10.1126/science.280.5366.1086](https://doi.org/10.1126/science.280.5366.1086) · [PubMed 9582123](https://pubmed.ncbi.nlm.nih.gov/9582123/)
 [^aretz-2007-jps-spectrum]: Aretz S, Stienen D, Uhlhaas S, et al. High proportion of large genomic deletions and a genotype-phenotype update in 80 unrelated families with juvenile polyposis syndrome. *J Med Genet.* 2007;44(11):702-709. [doi:10.1136/jmg.2007.051839](https://doi.org/10.1136/jmg.2007.051839) · [PubMed 17601924](https://pubmed.ncbi.nlm.nih.gov/17601924/)
