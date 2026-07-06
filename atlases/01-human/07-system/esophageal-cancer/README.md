@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative carcinogenesis: chronic reflux, alcohol and tobacco generate reactive oxygen species, to which xanthine oxidase contributes, and this oxidative DNA damage (NRF2 already mapped) drives the carcinogenesis of both oesophageal cancer subtypes."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "COX-2 and Barrett's: cyclooxygenase-2 and prostaglandin E2 rise in Barrett's oesophagus and the adenocarcinoma it precedes, promoting the inflammation and proliferation of carcinogenesis, and aspirin is studied for chemoprevention."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive microenvironment: IL-10 in the tumour microenvironment dampens the anti-tumour T-cell response (PD-1 and perforin already mapped), part of the immune escape that the checkpoint inhibitors now standard in oesophageal cancer aim to reverse."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Fistula and metastasis: locally advanced oesophageal cancer can erode into the airway to form a tracheo-oesophageal fistula, and the lung is a common site of the metastases of advanced disease."
 ---
 
 # Esophageal Cancer
@@ -681,6 +690,9 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Dysphagia and bleeding: progressive dysphagia with weight loss is the hallmark presentation of oesophageal cancer, and chronic tumour bleeding lowers haemoglobin, the iron-deficiency anaemia that often prompts the diagnosis.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell immunity: IL-2-driven T-cell expansion (PD-1 and perforin already mapped) supports the anti-tumour response that checkpoint inhibitors unleash, now standard in oesophageal cancer, especially the squamous subtype.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative carcinogenesis: chronic reflux, alcohol and tobacco generate reactive oxygen species, to which xanthine oxidase contributes, and this oxidative DNA damage (NRF2 already mapped) drives the carcinogenesis of both oesophageal cancer subtypes.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — COX-2 and Barrett's: cyclooxygenase-2 and prostaglandin E2 rise in Barrett's oesophagus and the adenocarcinoma it precedes, promoting the inflammation and proliferation of carcinogenesis, and aspirin is studied for chemoprevention.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the tumour microenvironment dampens the anti-tumour T-cell response (PD-1 and perforin already mapped), part of the immune escape that the checkpoint inhibitors now standard in oesophageal cancer aim to reverse.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Fistula and metastasis: locally advanced oesophageal cancer can erode into the airway to form a tracheo-oesophageal fistula, and the lung is a common site of the metastases of advanced disease.
 
 ---
 
