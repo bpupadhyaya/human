@@ -408,6 +408,15 @@ cross_links:
   - target: 01-human/03-molecular/troponin-complex
     relation: connects-to
     note: "Myocarditis: West Nile virus can rarely cause myocarditis, and troponin elevation marks the myocardial injury of this cardiac involvement, one of the recognised extraneural manifestations of severe infection."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Neuroinflammatory eicosanoids: prostaglandins from the activated microglia (already mapped) and infiltrating cells contribute to the neuroinflammation and fever of West Nile encephalitis (IL-6 and IL-1 already mapped), part of its inflammatory injury."
+  - target: 01-human/03-molecular/aquaporin-4
+    relation: connects-to
+    note: "Blood-brain-barrier and oedema: the astrocyte water channel aquaporin-4 governs brain water balance, and its disturbance in West Nile encephalitis contributes to the blood-brain-barrier disruption and cerebral oedema (glutamate excitotoxicity already mapped)."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 antibody help: IL-13, with IL-4 (already mapped), supports the B-cell (already mapped) neutralising-antibody response that controls West Nile viraemia, the humoral arm balancing the Th1 (IL-12 and interferon-gamma already mapped) response."
 ---
 
 # West Nile Virus
@@ -658,3 +667,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Antibody help: IL-4 and type-2 T-cell help support the B-cell (already mapped) production of the neutralising antibodies (IgG already mapped) that protect against West Nile virus, the humoral immunity whose failure permits neuroinvasion.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative neuronal injury: reactive oxygen species from xanthine oxidase and other sources contribute to the oxidative stress that damages neurons during West Nile encephalitis, compounding the direct viral and immune-mediated injury.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Myocarditis: West Nile virus can rarely cause myocarditis, and troponin elevation marks the myocardial injury of this cardiac involvement, one of the recognised extraneural manifestations of severe infection.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Neuroinflammatory eicosanoids: prostaglandins from the activated microglia (already mapped) and infiltrating cells contribute to the neuroinflammation and fever of West Nile encephalitis (IL-6 and IL-1 already mapped), part of its inflammatory injury.
+- `connects-to` → **[Aquaporin-4](../../03-molecular/aquaporin-4/README.md)** — Blood-brain-barrier and oedema: the astrocyte water channel aquaporin-4 governs brain water balance, and its disturbance in West Nile encephalitis contributes to the blood-brain-barrier disruption and cerebral oedema (glutamate excitotoxicity already mapped).
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 antibody help: IL-13, with IL-4 (already mapped), supports the B-cell (already mapped) neutralising-antibody response that controls West Nile viraemia, the humoral arm balancing the Th1 (IL-12 and interferon-gamma already mapped) response.

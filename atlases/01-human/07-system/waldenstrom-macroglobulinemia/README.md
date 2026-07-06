@@ -406,6 +406,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "T-cell microenvironment: IL-2-driven T cells in the marrow microenvironment support the survival of the lymphoplasmacytic clone (MHC class II already mapped), part of the immune niche sustaining Waldenström macroglobulinaemia."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Th2 clone support: IL-4 and type-2 T-cell help sustain the IgM-secreting B-cell clone (BAFF and IL-2 already mapped) of Waldenström macroglobulinaemia, part of the cytokine support of the lymphoplasmacytic proliferation."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Hyperviscosity vasculature: the high IgM raises serum viscosity and disturbs microvascular flow, and nitric-oxide-mediated vascular regulation is stressed in the hyperviscosity syndrome that causes the visual and neurological symptoms of Waldenström macroglobulinaemia."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Tumour lysis and oxidation: treating the lymphoplasmacytic clone releases purines that xanthine oxidase converts to uric acid, and the reactive oxygen species it generates add oxidative and tumour-lysis burden to therapy for Waldenström macroglobulinaemia."
 ---
 
 # Waldenström Macroglobulinemia
@@ -653,6 +662,9 @@ For symptomatic hyperviscosity → removes IgM immediately; does not treat under
 - `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Immunoparesis: the monoclonal IgM of Waldenström is accompanied by suppression of normal immunoglobulins including IgG, the immunoparesis that raises infection risk, while the paraprotein itself can cause hyperviscosity and cryoglobulinaemia.
 - `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — Coagulopathy: the monoclonal IgM interferes with fibrin polymerisation and platelet function and drives an acquired von Willebrand syndrome (vWF already mapped), and hyperviscosity disturbs the thrombin-driven coagulation balance, causing bleeding.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell microenvironment: IL-2-driven T cells in the marrow microenvironment support the survival of the lymphoplasmacytic clone (MHC class II already mapped), part of the immune niche sustaining Waldenström macroglobulinaemia.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Th2 clone support: IL-4 and type-2 T-cell help sustain the IgM-secreting B-cell clone (BAFF and IL-2 already mapped) of Waldenström macroglobulinaemia, part of the cytokine support of the lymphoplasmacytic proliferation.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Hyperviscosity vasculature: the high IgM raises serum viscosity and disturbs microvascular flow, and nitric-oxide-mediated vascular regulation is stressed in the hyperviscosity syndrome that causes the visual and neurological symptoms of Waldenström macroglobulinaemia.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Tumour lysis and oxidation: treating the lymphoplasmacytic clone releases purines that xanthine oxidase converts to uric acid, and the reactive oxygen species it generates add oxidative and tumour-lysis burden to therapy for Waldenström macroglobulinaemia.
 
 [^treon-2015-ibrutinib-wm]: Treon SP, Tripsas CK, Meid K, et al. Ibrutinib in previously treated Waldenström's macroglobulinemia. *N Engl J Med.* 2015;373(18):1765-1774. [doi:10.1056/NEJMoa1501548](https://doi.org/10.1056/NEJMoa1501548) · [PubMed 26352686](https://pubmed.ncbi.nlm.nih.gov/26352686/)
 [^tam-2020-aspen]: Tam CS, Opat S, D'Sa S, et al. A randomized phase 3 trial of zanubrutinib vs ibrutinib in symptomatic Waldenström macroglobulinemia: the ASPEN study. *Blood.* 2020;136(18):2038-2050. [doi:10.1182/blood.2020006844](https://doi.org/10.1182/blood.2020006844) · [PubMed 32828187](https://pubmed.ncbi.nlm.nih.gov/32828187/)
