@@ -409,6 +409,15 @@ cross_links:
   - target: 01-human/03-molecular/il-13
     relation: connects-to
     note: "Fibrotic remodeling: IL-13, with IL-4 (already mapped), polarises macrophages to the reparative M2 phenotype and drives fibroblast collagen production, and its excess underlies the hypertrophic scars and keloids of dysregulated healing."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Reactive oxygen species: xanthine-oxidase-derived reactive oxygen species, at low levels, support signalling and microbial killing in healing wounds, but in excess and in chronic wounds they cause oxidative damage (NRF2 already mapped) that stalls repair."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "Neurogenic repair: CGRP released from sensory nerves, with substance P (already mapped), promotes the vasodilation, angiogenesis and keratinocyte proliferation of wound healing, and denervation impairs repair as in diabetic foot ulcers."
+  - target: 01-human/03-molecular/adenosine
+    relation: connects-to
+    note: "Purinergic angiogenesis: adenosine accumulating in the hypoxic wound promotes angiogenesis and a reparative, anti-inflammatory macrophage phenotype (already mapped), a purinergic signal supporting the transition to tissue rebuilding."
 ---
 
 # Wound Healing
@@ -658,6 +667,9 @@ cross_links:
 - `connects-to` → **[Omega-3 Fatty Acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Resolution of inflammation: omega-3 fatty acids are converted to specialised pro-resolving mediators (resolvins, protectins) that actively terminate the inflammatory phase of healing, a process whose failure perpetuates chronic non-healing wounds.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adipokine support: leptin promotes keratinocyte proliferation and angiogenesis in healing skin, and leptin resistance in obesity and diabetes contributes to the impaired wound repair seen in those conditions.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Fibrotic remodeling: IL-13, with IL-4 (already mapped), polarises macrophages to the reparative M2 phenotype and drives fibroblast collagen production, and its excess underlies the hypertrophic scars and keloids of dysregulated healing.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Reactive oxygen species: xanthine-oxidase-derived reactive oxygen species, at low levels, support signalling and microbial killing in healing wounds, but in excess and in chronic wounds they cause oxidative damage (NRF2 already mapped) that stalls repair.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Neurogenic repair: CGRP released from sensory nerves, with substance P (already mapped), promotes the vasodilation, angiogenesis and keratinocyte proliferation of wound healing, and denervation impairs repair as in diabetic foot ulcers.
+- `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Purinergic angiogenesis: adenosine accumulating in the hypoxic wound promotes angiogenesis and a reparative, anti-inflammatory macrophage phenotype (already mapped), a purinergic signal supporting the transition to tissue rebuilding.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)

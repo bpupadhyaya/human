@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/hemoglobin
     relation: connects-to
     note: "Blood-count changes: Wilms tumour can raise haemoglobin through ectopic erythropoietin (already mapped), while its chemotherapy is myelosuppressive and lowers it, giving the disease a variable effect on the blood count."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "Renin-driven hypertension: Wilms tumour commonly secretes renin (already mapped), and the resulting angiotensin II raises blood pressure, the paraneoplastic hypertension that is a frequent presenting sign and resolves after nephrectomy."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Tumour lysis: treating a large Wilms tumour lyses the tumour, releasing purines that xanthine oxidase converts to uric acid, a tumour-lysis risk managed with allopurinol and hydration in this chemosensitive childhood cancer."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive microenvironment: IL-10 in the tumour microenvironment dampens the anti-tumour T-cell response (CD8 already mapped), part of the immune evasion of Wilms tumour relevant to the cellular immunotherapy being explored."
 ---
 
 # Wilms Tumor
@@ -660,6 +669,9 @@ Wilms tumor survivors face late effects proportional to treatment intensity:
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — WT1 immunotherapy: IL-2-driven T-cell expansion supports the WT1-directed vaccine and adoptive T-cell therapies (MHC class II already mapped) explored for Wilms tumour and other WT1-expressing cancers.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Anthracycline cardiotoxicity: the doxorubicin used for higher-risk Wilms tumour is cardiotoxic, and troponin elevation helps detect the cumulative myocardial injury that threatens these otherwise highly curable children long-term.
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Blood-count changes: Wilms tumour can raise haemoglobin through ectopic erythropoietin (already mapped), while its chemotherapy is myelosuppressive and lowers it, giving the disease a variable effect on the blood count.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — Renin-driven hypertension: Wilms tumour commonly secretes renin (already mapped), and the resulting angiotensin II raises blood pressure, the paraneoplastic hypertension that is a frequent presenting sign and resolves after nephrectomy.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Tumour lysis: treating a large Wilms tumour lyses the tumour, releasing purines that xanthine oxidase converts to uric acid, a tumour-lysis risk managed with allopurinol and hydration in this chemosensitive childhood cancer.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the tumour microenvironment dampens the anti-tumour T-cell response (CD8 already mapped), part of the immune evasion of Wilms tumour relevant to the cellular immunotherapy being explored.
 
 [^dome-2015-wilms]: Dome JS, Graf N, Geller JI, et al. Advances in Wilms tumor treatment and biology: progress through international collaboration. *J Clin Oncol.* 2015;33(27):2999-3007. [doi:10.1200/JCO.2015.62.1888](https://doi.org/10.1200/JCO.2015.62.1888) · [PubMed 26261251](https://pubmed.ncbi.nlm.nih.gov/26261251/)
 [^dix-2006-arenl0002]: Dix DB, Bhatt SM, Geller JI, et al. Treatment of Stage IV favorable histology Wilms tumor with incomplete lung metastasis response after chemotherapy: a report from Children's Oncology Group Study AREN0533. *J Clin Oncol.* 2018;36(16):1564-1570. [doi:10.1200/JCO.2017.77.1877](https://doi.org/10.1200/JCO.2017.77.1877) · [PubMed 29584550](https://pubmed.ncbi.nlm.nih.gov/29584550/)
