@@ -409,6 +409,15 @@ cross_links:
   - target: 01-human/03-molecular/il-4
     relation: connects-to
     note: "Th1-to-Th2 shift: progression to AIDS is accompanied by a shift away from the protective Th1 response (IL-12/IFN-gamma already mapped) toward IL-4-driven type-2 immunity, a cytokine reorientation that tracks with immune collapse."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Anaemia of AIDS: the chronic inflammation of advanced HIV raises hepcidin to sequester iron, and with marrow suppression, opportunistic infection and drug toxicity this produces the multifactorial anaemia (haemoglobin already mapped) common in AIDS."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Metabolic paradox: advanced AIDS causes wasting, yet antiretroviral therapy and chronic immune activation disturb cholesterol handling toward an atherogenic profile, part of the metabolic and cardiovascular burden that persists on treatment."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative immune activation: the persistent immune activation of AIDS generates oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species add to the tissue injury and accelerated ageing of the disease."
 ---
 
 # HIV/AIDS
@@ -654,6 +663,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Polyclonal hypergammaglobulinaemia: AIDS produces high but poorly targeted IgG from dysregulated B cells (BAFF-driven), an ineffective antibody excess that coexists with failing specific immunity and raises the risk of B-cell lymphomas.
 - `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — Mucosal immunity loss: destruction of gut-associated lymphoid tissue in AIDS impairs secretory IgA at mucosal surfaces, weakening the barrier and contributing to the enteric opportunistic infections and HIV enteropathy that drive wasting.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Th1-to-Th2 shift: progression to AIDS is accompanied by a shift away from the protective Th1 response (IL-12/IFN-gamma already mapped) toward IL-4-driven type-2 immunity, a cytokine reorientation that tracks with immune collapse.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of AIDS: the chronic inflammation of advanced HIV raises hepcidin to sequester iron, and with marrow suppression, opportunistic infection and drug toxicity this produces the multifactorial anaemia (haemoglobin already mapped) common in AIDS.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Metabolic paradox: advanced AIDS causes wasting, yet antiretroviral therapy and chronic immune activation disturb cholesterol handling toward an atherogenic profile, part of the metabolic and cardiovascular burden that persists on treatment.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative immune activation: the persistent immune activation of AIDS generates oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species add to the tissue injury and accelerated ageing of the disease.
 
 ## See Also
 

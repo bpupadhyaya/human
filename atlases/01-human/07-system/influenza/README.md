@@ -409,6 +409,15 @@ cross_links:
   - target: 01-human/03-molecular/il-4
     relation: connects-to
     note: "Antibody help: IL-4 and type-2 T-cell help drive the B-cell (already mapped) production of the neutralising antibodies (IgG already mapped) against haemagglutinin that mediate influenza immunity and vaccine protection."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Respiratory acidosis: in severe influenza pneumonia and acute respiratory distress, failing gas exchange retains carbon dioxide, and the accumulation of protons produces the respiratory acidosis that signals impending respiratory failure."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-mediated inflammation: bradykinin generated in the influenza-infected airway raises vascular permeability and stimulates the mucus and inflammation that obstruct the airways, part of the kinin contribution to the respiratory symptoms."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "Neurogenic inflammation: CGRP released from airway sensory nerves, with substance-P-type neuropeptides, contributes to the neurogenic inflammation and cough of influenza, part of the neuro-immune dimension of the respiratory infection."
 ---
 
 # Influenza
@@ -675,3 +684,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Fever response: prostaglandin E2 generated during influenza acts on the hypothalamus to produce the fever and malaise of the illness, which is why cyclooxygenase-inhibiting antipyretics relieve these systemic symptoms.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Airway nitric oxide: inducible nitric oxide rises in the influenza-infected airway, contributing both to antiviral defence and, in excess, to the airway inflammation and lung injury of severe infection.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Antibody help: IL-4 and type-2 T-cell help drive the B-cell (already mapped) production of the neutralising antibodies (IgG already mapped) against haemagglutinin that mediate influenza immunity and vaccine protection.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Respiratory acidosis: in severe influenza pneumonia and acute respiratory distress, failing gas exchange retains carbon dioxide, and the accumulation of protons produces the respiratory acidosis that signals impending respiratory failure.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-mediated inflammation: bradykinin generated in the influenza-infected airway raises vascular permeability and stimulates the mucus and inflammation that obstruct the airways, part of the kinin contribution to the respiratory symptoms.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Neurogenic inflammation: CGRP released from airway sensory nerves, with substance-P-type neuropeptides, contributes to the neurogenic inflammation and cough of influenza, part of the neuro-immune dimension of the respiratory infection.
