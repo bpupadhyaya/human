@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Tumour vasculature: nitric oxide with the strongly expressed VEGF (already mapped) supports the rich vasculature of the neuroendocrine tumours of MEN4, part of the angiogenic biology targeted by antiangiogenic and mTOR (already mapped) therapy."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Mineral dysregulation: the primary hyperparathyroidism of MEN4 (PTH and calcium already mapped) disturbs magnesium alongside calcium handling, part of the mineral derangement of the commonest manifestation of the syndrome."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "Enteropancreatic tumours: GLP-1 and the incretin axis reflect the enteropancreatic neuroendocrine biology of the MEN4 pancreatic tumours (insulin and glucagon already mapped), part of the functional-tumour spectrum shared with MEN1 (already mapped)."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive microenvironment: IL-10 in the microenvironment of the MEN4 neuroendocrine tumours dampens the anti-tumour immune response, part of the immune biology relevant to the immunotherapy of any aggressive metastatic tumour."
 ---
 
 # MEN4 Syndrome
@@ -655,6 +664,9 @@ When clinical MEN features are present:
 - `connects-to` → **[ACTH](../../03-molecular/acth/README.md)** — Ectopic Cushing: neuroendocrine tumours in MEN4 can secrete ACTH ectopically, driving cortisol excess (already mapped) and Cushing syndrome, one of the functional hormone syndromes of its pituitary and pancreatic tumours.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Adrenal adenomas: adrenocortical tumours in the MEN4 spectrum (adrenal gland already mapped) can oversecrete aldosterone, causing primary aldosteronism with hypertension and hypokalaemia beyond the classic parathyroid-pituitary-pancreas triad.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide with the strongly expressed VEGF (already mapped) supports the rich vasculature of the neuroendocrine tumours of MEN4, part of the angiogenic biology targeted by antiangiogenic and mTOR (already mapped) therapy.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Mineral dysregulation: the primary hyperparathyroidism of MEN4 (PTH and calcium already mapped) disturbs magnesium alongside calcium handling, part of the mineral derangement of the commonest manifestation of the syndrome.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Enteropancreatic tumours: GLP-1 and the incretin axis reflect the enteropancreatic neuroendocrine biology of the MEN4 pancreatic tumours (insulin and glucagon already mapped), part of the functional-tumour spectrum shared with MEN1 (already mapped).
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the microenvironment of the MEN4 neuroendocrine tumours dampens the anti-tumour immune response, part of the immune biology relevant to the immunotherapy of any aggressive metastatic tumour.
 
 [^alrezk-2017-men4]: Alrezk R, Hannah-Shmouni F, Stratakis CA. MEN4 and CDKN1B mutations: the latest of the MEN syndromes. *Endocr Relat Cancer.* 2017;24(10):T195-T208. [doi:10.1530/ERC-17-0243](https://doi.org/10.1530/ERC-17-0243) · [PubMed 28894007](https://pubmed.ncbi.nlm.nih.gov/28894007/)
 [^pellegata-2006-cdkn1b-men4]: Pellegata NS, Quintanilla-Martinez L, Siggelkow H, et al. Germ-line mutations in p27Kip1 cause a multiple endocrine neoplasia syndrome in rats and humans. *Proc Natl Acad Sci USA.* 2006;103(42):15558-15563. [doi:10.1073/pnas.0603306103](https://doi.org/10.1073/pnas.0603306103) · [PubMed 17030811](https://pubmed.ncbi.nlm.nih.gov/17030811/)

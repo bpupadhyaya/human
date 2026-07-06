@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/collagen
     relation: connects-to
     note: "Fibrous stroma: the fibroblastic and transitional meningioma variants (fibroblast already mapped) lay down a collagen-rich stroma with psammoma bodies, the dense connective tissue that gives these tumours their firm texture."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped) in the meningioma stroma, part of the immune microenvironment of these often indolent tumours."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Peritumoral inflammation: prostaglandins from the tumour and infiltrating cells (IL-6 and IL-1 already mapped) contribute to the peritumoral brain oedema and inflammation that shape the symptoms of meningiomas."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative microenvironment: the meningioma generates oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species are part of the tumour microenvironment beyond the growth-factor (already mapped) drivers."
 ---
 
 # Meningioma
@@ -660,6 +669,9 @@ VEGF overexpression in meningioma (YAP target); Phase 2 COMBIT (Huang 2019, N=40
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the microenvironment of higher-grade meningiomas dampens the anti-tumour T-cell response (IL-2 and MHC class II already mapped), part of the immune evasion that motivates the checkpoint strategies explored for aggressive tumours.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the vascular tone and angiogenesis of meningiomas, part of the stromal biology supporting these often highly vascular extra-axial tumours.
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Fibrous stroma: the fibroblastic and transitional meningioma variants (fibroblast already mapped) lay down a collagen-rich stroma with psammoma bodies, the dense connective tissue that gives these tumours their firm texture.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped) in the meningioma stroma, part of the immune microenvironment of these often indolent tumours.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Peritumoral inflammation: prostaglandins from the tumour and infiltrating cells (IL-6 and IL-1 already mapped) contribute to the peritumoral brain oedema and inflammation that shape the symptoms of meningiomas.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative microenvironment: the meningioma generates oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species are part of the tumour microenvironment beyond the growth-factor (already mapped) drivers.
 
 [^brastianos-2013-akt1-meningioma]: Brastianos PK, Horowitz PM, Santagata S, et al. Genomic sequencing of meningiomas identifies oncogenic SMO and AKT1 mutations. *Nat Genet.* 2013;45(3):285-289. [doi:10.1038/ng.2526](https://doi.org/10.1038/ng.2526) · [PubMed 23334667](https://pubmed.ncbi.nlm.nih.gov/23334667/)
 [^nassiri-2021-meningioma-classification]: Nassiri F, Liu J, Patil V, et al. A clinically applicable integrative molecular classification of meningiomas. *Nature.* 2021;597(7874):119-125. [doi:10.1038/s41586-021-03850-3](https://doi.org/10.1038/s41586-021-03850-3) · [PubMed 34385709](https://pubmed.ncbi.nlm.nih.gov/34385709/)
