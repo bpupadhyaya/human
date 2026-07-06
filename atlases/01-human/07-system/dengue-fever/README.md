@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative endothelial injury: oxidative stress, to which xanthine-oxidase-derived reactive oxygen species contribute, damages the endothelium (already mapped) in severe dengue, adding to the vascular dysfunction behind the plasma leak."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Fever and permeability: prostaglandins from the inflammatory response (IL-6, TNF and histamine already mapped) drive the fever and contribute to the vascular permeability behind the plasma leak of severe dengue."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Falling cholesterol: serum cholesterol and LDL fall in severe dengue, reflecting the hepatic (liver already mapped) dysfunction and the metabolic disturbance, and the drop tracks with disease severity and plasma leak."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Hypocalcaemia: hypocalcaemia is common in severe dengue and correlates with severity and plasma leak, part of the electrolyte derangement (sodium already mapped) of the vascular and metabolic disturbance."
 ---
 
 # Dengue Fever
@@ -655,3 +664,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Dengue myocarditis: dengue can cause myocarditis and myocardial dysfunction, and troponin elevation marks the cardiac injury of this recognised manifestation of severe infection that contributes to the shock of dengue.
 - `connects-to` → **[Protein C](../../03-molecular/protein-c/README.md)** — Coagulopathy: severe dengue consumes the natural anticoagulant protein C, and this with thrombocytopenia and the fibrinogen and thrombin derangements already mapped drives the bleeding and disseminated intravascular coagulation of dengue haemorrhagic fever.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative endothelial injury: oxidative stress, to which xanthine-oxidase-derived reactive oxygen species contribute, damages the endothelium (already mapped) in severe dengue, adding to the vascular dysfunction behind the plasma leak.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Fever and permeability: prostaglandins from the inflammatory response (IL-6, TNF and histamine already mapped) drive the fever and contribute to the vascular permeability behind the plasma leak of severe dengue.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Falling cholesterol: serum cholesterol and LDL fall in severe dengue, reflecting the hepatic (liver already mapped) dysfunction and the metabolic disturbance, and the drop tracks with disease severity and plasma leak.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Hypocalcaemia: hypocalcaemia is common in severe dengue and correlates with severity and plasma leak, part of the electrolyte derangement (sodium already mapped) of the vascular and metabolic disturbance.

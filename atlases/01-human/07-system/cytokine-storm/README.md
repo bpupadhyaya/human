@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/protein-c
     relation: connects-to
     note: "Anticoagulant consumption: the coagulopathy of cytokine storm consumes the natural anticoagulant protein C, tipping the balance toward the microthrombosis and disseminated intravascular coagulation that damage organs."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Fever and vasodilation: prostaglandin E2 driven by the IL-1 and IL-6 (already mapped) of the storm produces the high fever, and vasodilatory prostaglandins contribute to the hypotension of the hyperinflammatory state."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-mediated shock: bradykinin and the contact system amplify the vascular permeability and hypotension of cytokine storm, part of the distributive shock that, with the vasodilation (nitric oxide already mapped), causes organ hypoperfusion."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative tissue damage: the hyperinflammation generates a burst of reactive oxygen species, to which xanthine oxidase contributes, adding oxidative injury to the endothelial and organ damage of cytokine storm."
 ---
 
 # Cytokine Storm
@@ -634,6 +643,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Endothelial leak: activated endothelium in cytokine storm releases angiopoietin-2, destabilising the vasculature and, with the cytokines already mapped, producing the capillary leak, oedema and shock that cause organ failure.
 - `connects-to` → **[Von Willebrand factor](../../03-molecular/von-willebrand-factor/README.md)** — Thromboinflammation: endothelial activation releases von Willebrand factor multimers that promote platelet microthrombi, part of the thromboinflammation and disseminated intravascular coagulation (thrombin already mapped) of severe cytokine storm.
 - `connects-to` → **[Protein C](../../03-molecular/protein-c/README.md)** — Anticoagulant consumption: the coagulopathy of cytokine storm consumes the natural anticoagulant protein C, tipping the balance toward the microthrombosis and disseminated intravascular coagulation that damage organs.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Fever and vasodilation: prostaglandin E2 driven by the IL-1 and IL-6 (already mapped) of the storm produces the high fever, and vasodilatory prostaglandins contribute to the hypotension of the hyperinflammatory state.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-mediated shock: bradykinin and the contact system amplify the vascular permeability and hypotension of cytokine storm, part of the distributive shock that, with the vasodilation (nitric oxide already mapped), causes organ hypoperfusion.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative tissue damage: the hyperinflammation generates a burst of reactive oxygen species, to which xanthine oxidase contributes, adding oxidative injury to the endothelial and organ damage of cytokine storm.
 
 ## Pathology
 
