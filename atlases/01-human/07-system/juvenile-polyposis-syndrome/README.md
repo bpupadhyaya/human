@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "T-cell immunity: IL-2-driven T-cell responses contribute to immune control of the neoplastic progression in juvenile polyposis, part of the adaptive immunity acting on its polyp-carpeted gastrointestinal tract."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Immunosurveillance effectors: cytotoxic CD8 T cells (MHC class II and IL-2 already mapped) police the many hamartomatous polyps of juvenile polyposis for malignant transformation, the cellular arm of the immune control of neoplastic progression."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative carcinogenesis: chronic mucosal inflammation and the high epithelial turnover of the polyps generate oxidative stress, to which xanthine oxidase contributes, adding DNA damage that speeds the hamartoma-carcinoma progression of juvenile polyposis."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive stroma: the anti-inflammatory cytokine IL-10 in the polyp microenvironment dampens anti-tumour immunity (MHC class II already mapped), part of the immune tolerance that allows some juvenile-polyposis polyps to progress to cancer."
 ---
 
 # Juvenile Polyposis Syndrome
@@ -661,6 +670,9 @@ No approved chemopreventive agents specifically for JPS. Options under investiga
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Bleeding and HHT overlap: the juvenile polyps bleed and SMAD4 carriers also have hereditary haemorrhagic telangiectasia with epistaxis and AVMs (angiopoietin already mapped), so chronic blood loss causes the iron-deficiency anaemia that lowers haemoglobin.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Immunosurveillance: MHC class II-restricted T-cell surveillance influences which of the many hamartomatous polyps of juvenile polyposis progress to gastrointestinal cancer, and antigen presentation is relevant to chemoprevention and immunotherapy.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell immunity: IL-2-driven T-cell responses contribute to immune control of the neoplastic progression in juvenile polyposis, part of the adaptive immunity acting on its polyp-carpeted gastrointestinal tract.
+- `connects-to` → **[T-cytotoxic cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Immunosurveillance effectors: cytotoxic CD8 T cells (MHC class II and IL-2 already mapped) police the many hamartomatous polyps of juvenile polyposis for malignant transformation, the cellular arm of the immune control of neoplastic progression.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative carcinogenesis: chronic mucosal inflammation and the high epithelial turnover of the polyps generate oxidative stress, to which xanthine oxidase contributes, adding DNA damage that speeds the hamartoma-carcinoma progression of juvenile polyposis.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive stroma: the anti-inflammatory cytokine IL-10 in the polyp microenvironment dampens anti-tumour immunity (MHC class II already mapped), part of the immune tolerance that allows some juvenile-polyposis polyps to progress to cancer.
 
 [^howe-1998-smad4-jps]: Howe JR, Roth S, Ringold JC, et al. Mutations in the SMAD4/DPC4 gene in juvenile polyposis. *Science.* 1998;280(5366):1086-1088. [doi:10.1126/science.280.5366.1086](https://doi.org/10.1126/science.280.5366.1086) · [PubMed 9582123](https://pubmed.ncbi.nlm.nih.gov/9582123/)
 [^aretz-2007-jps-spectrum]: Aretz S, Stienen D, Uhlhaas S, et al. High proportion of large genomic deletions and a genotype-phenotype update in 80 unrelated families with juvenile polyposis syndrome. *J Med Genet.* 2007;44(11):702-709. [doi:10.1136/jmg.2007.051839](https://doi.org/10.1136/jmg.2007.051839) · [PubMed 17601924](https://pubmed.ncbi.nlm.nih.gov/17601924/)
