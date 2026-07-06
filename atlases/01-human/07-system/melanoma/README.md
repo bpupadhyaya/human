@@ -409,6 +409,15 @@ cross_links:
   - target: 01-human/03-molecular/troponin-complex
     relation: connects-to
     note: "Immunotherapy myocarditis: checkpoint inhibitors, the mainstay of melanoma therapy, can cause immune-mediated myocarditis, a rare but often fatal adverse event that troponin elevation helps detect early."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive microenvironment: IL-10 in the melanoma microenvironment dampens the anti-tumour T-cell response (PD-1 and CTLA-4 already mapped), a mechanism of immune evasion and resistance to the checkpoint blockade central to its treatment."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Ultraviolet oxidative damage: ultraviolet light and the inflamed skin generate reactive oxygen species, to which xanthine oxidase contributes, and this oxidative DNA damage (NRF2 already mapped) adds to the mutational burden driving cutaneous melanoma."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "CD4 help: helper T cells polarised to Th1 (interferon-gamma and IL-2 already mapped) support the cytotoxic CD8 (already mapped) response against melanoma, part of the anti-tumour immunity that checkpoint blockade and vaccines amplify."
 ---
 
 # Melanoma
@@ -629,6 +638,9 @@ cross_links:
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Neoantigen immunotherapy: melanoma's ultraviolet-driven high mutational burden (photon already mapped) yields abundant MHC-presented neoantigens, underlying its landmark responsiveness to checkpoint inhibitors (PD-1/CTLA-4 already mapped) and neoantigen vaccines.
 - `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — Targeted-therapy resistance: an AXL-high dedifferentiated cell state drives resistance to BRAF/MEK inhibitors (BRAF already mapped) in melanoma, a phenotype-switching escape route beyond secondary genetic mutations.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Immunotherapy myocarditis: checkpoint inhibitors, the mainstay of melanoma therapy, can cause immune-mediated myocarditis, a rare but often fatal adverse event that troponin elevation helps detect early.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the melanoma microenvironment dampens the anti-tumour T-cell response (PD-1 and CTLA-4 already mapped), a mechanism of immune evasion and resistance to the checkpoint blockade central to its treatment.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Ultraviolet oxidative damage: ultraviolet light and the inflamed skin generate reactive oxygen species, to which xanthine oxidase contributes, and this oxidative DNA damage (NRF2 already mapped) adds to the mutational burden driving cutaneous melanoma.
+- `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 help: helper T cells polarised to Th1 (interferon-gamma and IL-2 already mapped) support the cytotoxic CD8 (already mapped) response against melanoma, part of the anti-tumour immunity that checkpoint blockade and vaccines amplify.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/troponin-complex
     relation: connects-to
     note: "Carcinoid heart disease: serotonin-secreting foregut and thymic neuroendocrine tumours in MEN1 (serotonin already mapped) can cause carcinoid heart disease with valvular fibrosis, and troponin marks the associated myocardial strain."
+  - target: 01-human/03-molecular/acth
+    relation: connects-to
+    note: "Ectopic Cushing: neuroendocrine tumours in MEN1 can secrete ACTH ectopically, driving cortisol excess (already mapped) and Cushing syndrome, one of the functional hormone syndromes of its pancreatic and thymic tumours."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Adrenal adenomas: the adrenocortical tumours of MEN1 can oversecrete aldosterone, causing primary aldosteronism with hypertension and hypokalaemia, part of the adrenal component of the syndrome beyond the classic three glands."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Tumour vasculature: nitric oxide with the strongly expressed VEGF (already mapped) supports the rich vasculature of the neuroendocrine tumours of MEN1, part of the angiogenic biology targeted by antiangiogenic and mTOR (already mapped) therapy."
 ---
 
 # MEN1 Syndrome
@@ -651,6 +660,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Gastrinoma acid hypersecretion: the gastrinomas of MEN1 (Zollinger-Ellison syndrome) drive massive gastric acid (proton) secretion, causing the refractory multiple peptic ulcers controlled with high-dose proton-pump inhibitors.
 - `connects-to` → **[Insulin receptor](../../03-molecular/insulin-receptor/README.md)** — Insulinoma hypoglycaemia: the insulinomas of MEN1 oversecrete insulin (already mapped), which acting through the insulin receptor drives the fasting hypoglycaemia that is a classic functional pancreatic-tumour presentation.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Carcinoid heart disease: serotonin-secreting foregut and thymic neuroendocrine tumours in MEN1 (serotonin already mapped) can cause carcinoid heart disease with valvular fibrosis, and troponin marks the associated myocardial strain.
+- `connects-to` → **[ACTH](../../03-molecular/acth/README.md)** — Ectopic Cushing: neuroendocrine tumours in MEN1 can secrete ACTH ectopically, driving cortisol excess (already mapped) and Cushing syndrome, one of the functional hormone syndromes of its pancreatic and thymic tumours.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Adrenal adenomas: the adrenocortical tumours of MEN1 can oversecrete aldosterone, causing primary aldosteronism with hypertension and hypokalaemia, part of the adrenal component of the syndrome beyond the classic three glands.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide with the strongly expressed VEGF (already mapped) supports the rich vasculature of the neuroendocrine tumours of MEN1, part of the angiogenic biology targeted by antiangiogenic and mTOR (already mapped) therapy.
 
 ---
 
