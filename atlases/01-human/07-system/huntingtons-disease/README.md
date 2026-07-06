@@ -399,6 +399,15 @@ cross_links:
   - target: 01-human/03-molecular/glp-1
     relation: connects-to
     note: "Metabolic wasting: the relentless weight loss of Huntington's disease reflects hypothalamic and metabolic dysfunction (insulin and leptin already mapped), and GLP-1-based agents are studied for the disturbed energy and glucose handling."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Neuroinflammatory eicosanoids: prostaglandins from the activated microglia (already mapped) and the cyclooxygenase pathway contribute to the neuroinflammation (TNF, IL-6 and IL-1 already mapped) that accelerates the striatal neurodegeneration of Huntington's disease."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Anti-inflammatory counterweight: the anti-inflammatory IL-10 opposes the microglial pro-inflammatory response (TNF, IL-6 and IL-1 already mapped) driving the neurodegeneration, part of the neuroimmune balance in Huntington's disease."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "NMDA neuroprotection: magnesium blocks the NMDA receptor of the glutamate excitotoxicity (already mapped) that kills the striatal neurons, and its modulation is of interest for the excitotoxic injury of Huntington's disease."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -577,3 +586,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiac involvement: mutant huntingtin is expressed in the heart, and Huntington's disease carries a cardiomyopathy and autonomic dysfunction, with troponin elevation marking the myocardial injury that contributes to its cardiovascular mortality.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Excitotoxic injury: nitric oxide from neuronal nitric oxide synthase, driven by the glutamate excitotoxicity (already mapped), contributes with reactive oxygen species (xanthine oxidase already mapped) to the oxidative and nitrosative damage of the striatal neurons.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Metabolic wasting: the relentless weight loss of Huntington's disease reflects hypothalamic and metabolic dysfunction (insulin and leptin already mapped), and GLP-1-based agents are studied for the disturbed energy and glucose handling.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Neuroinflammatory eicosanoids: prostaglandins from the activated microglia (already mapped) and the cyclooxygenase pathway contribute to the neuroinflammation (TNF, IL-6 and IL-1 already mapped) that accelerates the striatal neurodegeneration of Huntington's disease.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Anti-inflammatory counterweight: the anti-inflammatory IL-10 opposes the microglial pro-inflammatory response (TNF, IL-6 and IL-1 already mapped) driving the neurodegeneration, part of the neuroimmune balance in Huntington's disease.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — NMDA neuroprotection: magnesium blocks the NMDA receptor of the glutamate excitotoxicity (already mapped) that kills the striatal neurons, and its modulation is of interest for the excitotoxic injury of Huntington's disease.

@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Tumour lysis: on initiating chemotherapy for bulky Hodgkin lymphoma, cell breakdown releases purines that xanthine oxidase converts to uric acid, a tumour-lysis risk managed with allopurinol and hydration."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Immunosuppressive eicosanoids: prostaglandin E2 in the Hodgkin microenvironment (IL-10 already mapped) dampens the anti-tumour immune response, part of the immunosuppression the minority Reed-Sternberg cells orchestrate in the reactive infiltrate."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the vascular tone and angiogenesis of the Hodgkin lymphoma microenvironment, part of its supportive reactive stroma."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Th2 eosinophilic milieu: IgE, with the type-2 cytokines IL-4, IL-5 and IL-13 (already mapped), reflects the Th2-skewed, eosinophil-rich microenvironment that the Reed-Sternberg cells cultivate in Hodgkin lymphoma."
 ---
 
 # Hodgkin Lymphoma
@@ -665,6 +674,9 @@ Modern protocols minimize RT fields and doses (ISRT replacing extended-field RT)
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Anaemia and B-symptoms: bone-marrow involvement (already mapped) and the systemic inflammatory cytokines of Hodgkin lymphoma lower haemoglobin, the anaemia accompanying the fevers, night sweats and weight loss of the B-symptoms.
 - `connects-to` → **[T-cytotoxic cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Checkpoint effectors: cytotoxic CD8 T cells (perforin and IL-2 already mapped), released from PD-1 restraint, mediate the response to the checkpoint inhibitors to which Hodgkin lymphoma is exquisitely sensitive.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Tumour lysis: on initiating chemotherapy for bulky Hodgkin lymphoma, cell breakdown releases purines that xanthine oxidase converts to uric acid, a tumour-lysis risk managed with allopurinol and hydration.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Immunosuppressive eicosanoids: prostaglandin E2 in the Hodgkin microenvironment (IL-10 already mapped) dampens the anti-tumour immune response, part of the immunosuppression the minority Reed-Sternberg cells orchestrate in the reactive infiltrate.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the vascular tone and angiogenesis of the Hodgkin lymphoma microenvironment, part of its supportive reactive stroma.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Th2 eosinophilic milieu: IgE, with the type-2 cytokines IL-4, IL-5 and IL-13 (already mapped), reflects the Th2-skewed, eosinophil-rich microenvironment that the Reed-Sternberg cells cultivate in Hodgkin lymphoma.
 
 [^connors-2018-echelon1]: Connors JM, Jurczak W, Straus DJ, et al. Brentuximab vedotin with chemotherapy for stage III or IV Hodgkin's lymphoma. *N Engl J Med.* 2018;378(4):331-344. [doi:10.1056/NEJMoa1708984](https://doi.org/10.1056/NEJMoa1708984) · [PubMed 29360494](https://pubmed.ncbi.nlm.nih.gov/29360494/)
 [^armand-2018-nivo-hl]: Armand P, Engert A, Younes A, et al. Nivolumab for relapsed/refractory classic Hodgkin lymphoma after failure of autologous hematopoietic cell transplantation: extended follow-up of the multicohort single-arm phase II CheckMate 205 trial. *J Clin Oncol.* 2018;36(14):1428-1439. [doi:10.1200/JCO.2017.77.6717](https://doi.org/10.1200/JCO.2017.77.6717) · [PubMed 29584546](https://pubmed.ncbi.nlm.nih.gov/29584546/)
