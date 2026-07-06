@@ -393,6 +393,15 @@ cross_links:
   - target: 01-human/03-molecular/histamine
     relation: connects-to
     note: "Histaminergic modulation: histamine acting on H1 and H3 receptors modulates both itch and pain signalling in sensory pathways, one of the neuromodulator systems (substance P already mapped) that shape the neuropathic pain and itch of nerve injury."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Nociceptor sensitisation: bradykinin acting on B1 and B2 receptors, induced after nerve injury and inflammation, sensitises nociceptors and lowers their firing threshold (prostaglandins and substance P already mapped), amplifying neuropathic pain."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 neuroimmune resolution: IL-13, with IL-4 (already mapped), polarises macrophages toward a reparative phenotype at the injured nerve, part of the neuroimmune balance that influences whether pain resolves or becomes chronic."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Analgesia and sleep: melatonin has analgesic and anti-inflammatory effects and restores the sleep disrupted by chronic pain (serotonin already mapped), and the pain-sleep loop it addresses is central to the burden of neuropathic pain."
 sources:
   - id: jensen-2011-neuropathic-pain-review
     type: peer-reviewed
@@ -681,6 +690,9 @@ Chronic neuropathic pain carries significant psychological burden:
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Reparative immunity: IL-4 polarises macrophages toward a reparative M2 phenotype and, with IL-10 (already mapped), dampens the neuroinflammation after nerve injury, so the type-2 immune arm helps resolve neuropathic pain.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative sensitisation: reactive oxygen species from xanthine oxidase and other sources accumulate after nerve injury and sensitise nociceptive pathways, an oxidative mechanism contributing to the persistence of neuropathic pain.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histaminergic modulation: histamine acting on H1 and H3 receptors modulates both itch and pain signalling in sensory pathways, one of the neuromodulator systems (substance P already mapped) that shape the neuropathic pain and itch of nerve injury.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Nociceptor sensitisation: bradykinin acting on B1 and B2 receptors, induced after nerve injury and inflammation, sensitises nociceptors and lowers their firing threshold (prostaglandins and substance P already mapped), amplifying neuropathic pain.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 neuroimmune resolution: IL-13, with IL-4 (already mapped), polarises macrophages toward a reparative phenotype at the injured nerve, part of the neuroimmune balance that influences whether pain resolves or becomes chronic.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Analgesia and sleep: melatonin has analgesic and anti-inflammatory effects and restores the sleep disrupted by chronic pain (serotonin already mapped), and the pain-sleep loop it addresses is central to the burden of neuropathic pain.
 
 [^jensen-2011-neuropathic-pain-review]: Jensen TS, Baron R, Haanpää M, et al. A new definition of neuropathic pain. *Pain.* 2011;152(10):2204-2205. [doi:10.1016/j.pain.2011.06.017](https://doi.org/10.1016/j.pain.2011.06.017) · [PubMed 21764514](https://pubmed.ncbi.nlm.nih.gov/21764514/)
 [^dworkin-2010-neuropathic-pain-treatment]: Dworkin RH, O'Connor AB, Audette J, et al. Recommendations for the pharmacological management of neuropathic pain. *Mayo Clin Proc.* 2010;85(3 Suppl):S3-14. [doi:10.4065/mcp.2009.0649](https://doi.org/10.4065/mcp.2009.0649) · [PubMed 20194146](https://pubmed.ncbi.nlm.nih.gov/20194146/)

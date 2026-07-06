@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/estrogen
     relation: connects-to
     note: "Sex and menopause: estrogen is hepatoprotective, and its loss after menopause raises the incidence and severity of NASH in women, contributing to the sex differences in fatty liver disease and its progression."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Endothelial and portal dysfunction: as NASH progresses to cirrhosis, dysregulated nitric oxide contributes to the intrahepatic endothelial dysfunction and the splanchnic vasodilation of portal hypertension (collagen already mapped for fibrosis)."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "RAAS and fibrosis: aldosterone, part of the renin-angiotensin system, promotes hepatic stellate-cell activation and fibrosis in NASH (TGF-beta already mapped), and it also drives the hypertension of the accompanying metabolic syndrome."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Inflammatory eicosanoids: prostaglandins and related lipid mediators from the inflamed, fat-laden liver contribute to the inflammation of steatohepatitis (IL-6, TNF and IL-1 already mapped), part of the lipotoxic inflammatory injury of NASH."
 ---
 
 # NASH
@@ -632,6 +641,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiac mortality: cardiovascular disease is the leading cause of death in NASH (PCSK9 already mapped), and troponin elevation marks the myocardial injury of the accelerated atherosclerosis that ultimately kills most of these patients.
 - `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Insulin resistance: NASH is tightly coupled to pancreatic beta-cell dysfunction and the insulin resistance (insulin already mapped) of the metabolic syndrome, and worsening glucose control accelerates the progression of the fatty liver.
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Sex and menopause: estrogen is hepatoprotective, and its loss after menopause raises the incidence and severity of NASH in women, contributing to the sex differences in fatty liver disease and its progression.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Endothelial and portal dysfunction: as NASH progresses to cirrhosis, dysregulated nitric oxide contributes to the intrahepatic endothelial dysfunction and the splanchnic vasodilation of portal hypertension (collagen already mapped for fibrosis).
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — RAAS and fibrosis: aldosterone, part of the renin-angiotensin system, promotes hepatic stellate-cell activation and fibrosis in NASH (TGF-beta already mapped), and it also drives the hypertension of the accompanying metabolic syndrome.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Inflammatory eicosanoids: prostaglandins and related lipid mediators from the inflamed, fat-laden liver contribute to the inflammation of steatohepatitis (IL-6, TNF and IL-1 already mapped), part of the lipotoxic inflammatory injury of NASH.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
