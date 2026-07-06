@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/troponin-complex
     relation: connects-to
     note: "Anthracycline cardiotoxicity: the doxorubicin central to Ewing sarcoma regimens is cardiotoxic, and troponin elevation helps detect the cumulative myocardial injury that threatens these young, often long-term survivors."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Osteolytic inflammation: prostaglandins from the tumour and its bone-resorptive microenvironment (RANKL and osteopontin already mapped) promote the osteolysis and inflammation of the bone destruction of Ewing sarcoma."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive microenvironment: IL-10 in the tumour microenvironment dampens the anti-tumour T-cell response, part of the immune evasion of this immunologically 'cold' sarcoma that limits checkpoint immunotherapy."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative stress: the proliferative Ewing sarcoma and its intensive chemotherapy generate oxidative stress, to which xanthine oxidase contributes, adding reactive oxygen species to the tumour microenvironment and treatment toxicity."
 ---
 
 # Ewing Sarcoma
@@ -666,6 +675,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[Bone marrow](../../05-tissue/bone-marrow/README.md)** — Marrow metastasis: Ewing sarcoma spreads to the bone marrow, and marrow involvement assessed at staging marks disseminated disease and worsens prognosis, part of the systemic spread that intensive multidrug chemotherapy targets.
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Chemotherapy anaemia: the intensive multidrug chemotherapy (vincristine, doxorubicin, cyclophosphamide, ifosfamide, etoposide) for Ewing sarcoma is profoundly myelosuppressive, lowering haemoglobin and requiring transfusion support.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Anthracycline cardiotoxicity: the doxorubicin central to Ewing sarcoma regimens is cardiotoxic, and troponin elevation helps detect the cumulative myocardial injury that threatens these young, often long-term survivors.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Osteolytic inflammation: prostaglandins from the tumour and its bone-resorptive microenvironment (RANKL and osteopontin already mapped) promote the osteolysis and inflammation of the bone destruction of Ewing sarcoma.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the tumour microenvironment dampens the anti-tumour T-cell response, part of the immune evasion of this immunologically 'cold' sarcoma that limits checkpoint immunotherapy.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative stress: the proliferative Ewing sarcoma and its intensive chemotherapy generate oxidative stress, to which xanthine oxidase contributes, adding reactive oxygen species to the tumour microenvironment and treatment toxicity.
 
 ---
 

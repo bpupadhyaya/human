@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative carcinogenesis: chronic colonic inflammation and the high proliferative turnover of the adenomas generate oxidative stress, to which xanthine oxidase contributes, adding DNA damage that speeds the adenoma-carcinoma sequence in FAP."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive adenoma milieu: IL-10 in the adenoma microenvironment dampens the anti-tumour T-cell response (MHC class II and perforin already mapped), part of the immune tolerance the vaccine chemoprevention explored in FAP aims to overcome."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Obesity and adenoma growth: the adipokine leptin links obesity to the colorectal adenoma-carcinoma sequence, promoting the proliferation (Wnt already mapped) that accelerates polyp growth in familial adenomatous polyposis."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Bile acids and diet: dietary fat and the bile acids derived from cholesterol promote colonic proliferation and the adenoma-carcinoma sequence, a modifiable dietary influence on the polyp burden of FAP."
 ---
 
 # Familial Adenomatous Polyposis
@@ -683,6 +692,9 @@ With modern surveillance and prophylactic colectomy: FAP is no longer an inevita
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Occult bleeding: the carpet of adenomas in familial adenomatous polyposis bleeds chronically, and the resulting iron-deficiency anaemia lowering haemoglobin is often the sign that brings the polyposis or its cancers to attention.
 - `connects-to` → **[T-cytotoxic cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Immunosurveillance effectors: cytotoxic CD8 T cells (MHC class II and perforin already mapped) police the many adenomas of familial adenomatous polyposis, and boosting this response underlies the vaccine chemoprevention being explored.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative carcinogenesis: chronic colonic inflammation and the high proliferative turnover of the adenomas generate oxidative stress, to which xanthine oxidase contributes, adding DNA damage that speeds the adenoma-carcinoma sequence in FAP.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive adenoma milieu: IL-10 in the adenoma microenvironment dampens the anti-tumour T-cell response (MHC class II and perforin already mapped), part of the immune tolerance the vaccine chemoprevention explored in FAP aims to overcome.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Obesity and adenoma growth: the adipokine leptin links obesity to the colorectal adenoma-carcinoma sequence, promoting the proliferation (Wnt already mapped) that accelerates polyp growth in familial adenomatous polyposis.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Bile acids and diet: dietary fat and the bile acids derived from cholesterol promote colonic proliferation and the adenoma-carcinoma sequence, a modifiable dietary influence on the polyp burden of FAP.
 
 [^kinzler-1991-apc]: Kinzler KW, Nilbert MC, Su LK, et al. Identification of FAP locus genes from chromosome 5q21. *Science.* 1991;253(5020):661-665. [doi:10.1126/science.1651562](https://doi.org/10.1126/science.1651562) · [PubMed 1651562](https://pubmed.ncbi.nlm.nih.gov/1651562/)
 [^fearon-1990-vogelstein]: Fearon ER, Vogelstein B. A genetic model for colorectal tumorigenesis. *Cell.* 1990;61(5):759-767. [doi:10.1016/0092-8674(90)90186-i](https://doi.org/10.1016/0092-8674(90)90186-i) · [PubMed 2188735](https://pubmed.ncbi.nlm.nih.gov/2188735/)
