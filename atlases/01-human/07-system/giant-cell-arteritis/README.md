@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/hemoglobin
     relation: connects-to
     note: "Anaemia of inflammation: the sustained IL-6-driven inflammation of giant cell arteritis suppresses erythropoiesis, and a normocytic anaemia with a very high ESR is a common laboratory clue to the diagnosis."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Endothelial dysfunction: inflammation of the arterial wall in giant cell arteritis impairs nitric oxide signalling and, with endothelin-1 (already mapped), disturbs the vascular tone and endothelial function that contribute to the ischaemic complications."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "T-cell activation: IL-2 drives the clonal expansion of the CD4 T cells (MHC class II and CTLA-4 already mapped) that infiltrate the arterial wall in giant cell arteritis, sustaining the Th1 and Th17 responses that direct the vasculitis."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative wall injury: reactive oxygen species generated in the granulomatous inflammation, to which xanthine oxidase contributes, damage the vascular smooth muscle and elastic lamina (collagen already mapped) of the artery in giant cell arteritis."
 ---
 
 # Giant Cell Arteritis
@@ -646,6 +655,9 @@ The temporal arteries supply scalp, temporalis muscle, and dura. In GCA, transmu
 - `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — T-cell costimulation: giant cell arteritis is a CD4 T-cell-driven disease, and CTLA-4-Ig (abatacept), which blocks the costimulation that activates those T cells, has shown benefit in trials, supporting the central role of T-cell activation.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Large-vessel and cardiac involvement: giant cell arteritis extends to the aorta and its branches, and the resulting aortitis, aneurysm or coronary involvement can injure the heart, with troponin elevation marking such ischaemic damage.
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Anaemia of inflammation: the sustained IL-6-driven inflammation of giant cell arteritis suppresses erythropoiesis, and a normocytic anaemia with a very high ESR is a common laboratory clue to the diagnosis.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Endothelial dysfunction: inflammation of the arterial wall in giant cell arteritis impairs nitric oxide signalling and, with endothelin-1 (already mapped), disturbs the vascular tone and endothelial function that contribute to the ischaemic complications.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell activation: IL-2 drives the clonal expansion of the CD4 T cells (MHC class II and CTLA-4 already mapped) that infiltrate the arterial wall in giant cell arteritis, sustaining the Th1 and Th17 responses that direct the vasculitis.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative wall injury: reactive oxygen species generated in the granulomatous inflammation, to which xanthine oxidase contributes, damage the vascular smooth muscle and elastic lamina (collagen already mapped) of the artery in giant cell arteritis.
 
 [^stone-2017-giact]: Stone JH, Tuckwell K, Dimonaco S, et al. Trial of tocilizumab in giant-cell arteritis. *N Engl J Med.* 2017;377(4):317-328. [doi:10.1056/NEJMoa1613849](https://doi.org/10.1056/NEJMoa1613849) · [PubMed 28745999](https://pubmed.ncbi.nlm.nih.gov/28745999/)
 [^weyand-2014-gca-review]: Weyand CM, Goronzy JJ. Clinical practice. Giant-cell arteritis and polymyalgia rheumatica. *N Engl J Med.* 2014;371(1):50-57. [doi:10.1056/NEJMcp1214926](https://doi.org/10.1056/NEJMcp1214926) · [PubMed 24988557](https://pubmed.ncbi.nlm.nih.gov/24988557/)

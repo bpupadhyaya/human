@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/pd-1
     relation: connects-to
     note: "Checkpoint context: PD-1-mediated T-cell exhaustion limits anti-tumour immunity in gastrointestinal stromal tumour, and checkpoint blockade is being explored alongside tyrosine-kinase inhibitors, especially in KIT/PDGFRA-wild-type disease."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Gastrointestinal bleeding: mucosal ulceration over a gastrointestinal stromal tumour causes acute or chronic bleeding, and the resulting anaemia with falling haemoglobin is the commonest presentation prompting endoscopy and diagnosis."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "TKI cardiotoxicity: the multitargeted kinase inhibitors sunitinib and regorafenib used after imatinib (KIT already mapped) cause hypertension and cardiac dysfunction, and troponin elevation marks the myocardial injury of this class toxicity in GIST."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "T-cell immunity: IL-2-driven T-cell expansion (PD-1 and perforin already mapped) supports the anti-tumour immunity that checkpoint blockade aims to unleash in gastrointestinal stromal tumour, especially the KIT/PDGFRA-wild-type subtype."
 ---
 
 # GIST
@@ -662,6 +671,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Imatinib immunomodulation: beyond blocking KIT, imatinib has immune effects, and MHC class II antigen presentation shapes the T-cell response that may contribute to the durable control of gastrointestinal stromal tumour.
 - `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — Resistance signalling: the AXL receptor tyrosine kinase provides a bypass survival signal that can drive resistance to KIT-directed therapy (KIT already mapped) in gastrointestinal stromal tumour, a mechanism of escape beyond secondary KIT mutations.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Checkpoint context: PD-1-mediated T-cell exhaustion limits anti-tumour immunity in gastrointestinal stromal tumour, and checkpoint blockade is being explored alongside tyrosine-kinase inhibitors, especially in KIT/PDGFRA-wild-type disease.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Gastrointestinal bleeding: mucosal ulceration over a gastrointestinal stromal tumour causes acute or chronic bleeding, and the resulting anaemia with falling haemoglobin is the commonest presentation prompting endoscopy and diagnosis.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — TKI cardiotoxicity: the multitargeted kinase inhibitors sunitinib and regorafenib used after imatinib (KIT already mapped) cause hypertension and cardiac dysfunction, and troponin elevation marks the myocardial injury of this class toxicity in GIST.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell immunity: IL-2-driven T-cell expansion (PD-1 and perforin already mapped) supports the anti-tumour immunity that checkpoint blockade aims to unleash in gastrointestinal stromal tumour, especially the KIT/PDGFRA-wild-type subtype.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
