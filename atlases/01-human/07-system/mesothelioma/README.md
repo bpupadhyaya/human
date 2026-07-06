@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "Immunosuppressive microenvironment: IL-10 in the mesothelioma microenvironment dampens the anti-tumour T-cell response (PD-1 and CTLA-4 already mapped), part of the immune evasion that the dual checkpoint blockade standard in mesothelioma aims to overcome."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Asbestos inflammation: prostaglandins from the chronic asbestos-driven inflammation (IL-6, TNF and IL-1 already mapped) promote the proliferation and immunosuppression of mesothelial carcinogenesis, part of the inflammatory pathway of the disease."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages (already mapped) toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune-evasive microenvironment of mesothelioma."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the vascular tone and angiogenesis of mesothelioma, part of the stromal biology of these often highly vascular pleural tumours."
 ---
 
 # Mesothelioma
@@ -662,6 +671,9 @@ Cytoreductive surgery (CRS) + hyperthermic intraperitoneal chemotherapy (HIPEC):
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Asbestos oxidative injury: the iron-coated asbestos fibres (iron already mapped) generate reactive oxygen species, to which xanthine oxidase contributes, and this oxidative DNA damage over decades initiates the mesothelial carcinogenesis of mesothelioma.
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Effusion and anaemia: mesothelioma causes recurrent, often blood-stained pleural effusions, and the chronic disease with any haemorrhage lowers haemoglobin, the anaemia of malignancy adding to the breathlessness and cachexia.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the mesothelioma microenvironment dampens the anti-tumour T-cell response (PD-1 and CTLA-4 already mapped), part of the immune evasion that the dual checkpoint blockade standard in mesothelioma aims to overcome.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Asbestos inflammation: prostaglandins from the chronic asbestos-driven inflammation (IL-6, TNF and IL-1 already mapped) promote the proliferation and immunosuppression of mesothelial carcinogenesis, part of the inflammatory pathway of the disease.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages (already mapped) toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune-evasive microenvironment of mesothelioma.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the vascular tone and angiogenesis of mesothelioma, part of the stromal biology of these often highly vascular pleural tumours.
 
 [^baas-2021-checkmate743]: Baas P, Scherpereel A, Nowak AK, et al. First-line nivolumab plus ipilimumab in unresectable malignant pleural mesothelioma (CheckMate 743). *Lancet.* 2021;397(10272):375-386. [doi:10.1016/S0140-6736(20)32714-8](https://doi.org/10.1016/S0140-6736(20)32714-8) · [PubMed 33485464](https://pubmed.ncbi.nlm.nih.gov/33485464/)
 [^vogelzang-2003-pemetrexed]: Vogelzang NJ, Rusthoven JJ, Symanowski J, et al. Phase III study of pemetrexed in combination with cisplatin versus cisplatin alone in patients with malignant pleural mesothelioma. *J Clin Oncol.* 2003;21(14):2636-2644. [doi:10.1200/JCO.2003.11.136](https://doi.org/10.1200/JCO.2003.11.136) · [PubMed 12860938](https://pubmed.ncbi.nlm.nih.gov/12860938/)
