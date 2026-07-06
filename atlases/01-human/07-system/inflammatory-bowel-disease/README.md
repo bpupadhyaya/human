@@ -409,6 +409,15 @@ cross_links:
   - target: 03-medicine/03-food/omega-3-fatty-acids
     relation: connects-to
     note: "Dietary modulation: omega-3 fatty acids give rise to pro-resolving and anti-inflammatory mediators, and dietary fat composition influences the mucosal inflammation of inflammatory bowel disease, one of the diet-related factors shaping disease activity."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Mucosal eicosanoids: prostaglandins both protect and inflame the gut mucosa, so NSAIDs that block their synthesis can precipitate inflammatory bowel disease flares, while their modulation is part of the mucosal inflammatory response."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Gut motility and secretion: enterochromaffin-cell serotonin, elevated in the inflamed mucosa, drives the diarrhoea, altered motility and visceral hypersensitivity that contribute to the symptoms of inflammatory bowel disease."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative mucosal injury: reactive oxygen species from the infiltrating neutrophils (already mapped) and xanthine oxidase damage the epithelial barrier in inflammatory bowel disease, and this oxidative stress (NRF2 already mapped) perpetuates the inflammation."
 ---
 
 # Inflammatory Bowel Disease
@@ -667,6 +676,9 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Anaemia: anaemia is the commonest systemic complication of inflammatory bowel disease, from chronic gut blood loss (iron already mapped) and inflammation-driven suppression of erythropoiesis, lowering haemoglobin and worsening fatigue.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Type-2 mucosal inflammation: IL-4 and the Th2 axis contribute to the mucosal immune response of ulcerative colitis, complementing the Th17/IL-23 and Th1 pathways (already mapped) that dominate Crohn's disease.
 - `connects-to` → **[Omega-3 Fatty Acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Dietary modulation: omega-3 fatty acids give rise to pro-resolving and anti-inflammatory mediators, and dietary fat composition influences the mucosal inflammation of inflammatory bowel disease, one of the diet-related factors shaping disease activity.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Mucosal eicosanoids: prostaglandins both protect and inflame the gut mucosa, so NSAIDs that block their synthesis can precipitate inflammatory bowel disease flares, while their modulation is part of the mucosal inflammatory response.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Gut motility and secretion: enterochromaffin-cell serotonin, elevated in the inflamed mucosa, drives the diarrhoea, altered motility and visceral hypersensitivity that contribute to the symptoms of inflammatory bowel disease.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative mucosal injury: reactive oxygen species from the infiltrating neutrophils (already mapped) and xanthine oxidase damage the epithelial barrier in inflammatory bowel disease, and this oxidative stress (NRF2 already mapped) perpetuates the inflammation.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)

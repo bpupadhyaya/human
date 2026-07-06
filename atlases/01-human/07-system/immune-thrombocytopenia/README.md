@@ -411,6 +411,15 @@ cross_links:
   - target: 01-human/03-molecular/estrogen
     relation: connects-to
     note: "Female predominance: immune thrombocytopenia, like many autoimmune diseases, is more common in young women, and estrogen's enhancement of antibody responses is thought to contribute to this sex difference in susceptibility."
+  - target: 01-human/03-molecular/adamts13
+    relation: connects-to
+    note: "TTP differential: a normal ADAMTS13 distinguishes immune thrombocytopenia from thrombotic thrombocytopenic purpura, where its severe deficiency lets von Willebrand factor (already mapped) multimers consume platelets, the key differential of an isolated low count."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Platelet granule store: platelets are the body's main reservoir of serotonin in their dense granules, so the platelet destruction of immune thrombocytopenia depletes this store, one facet of the loss of platelet function beyond the low count."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 autoantibody help: IL-13, with the IL-4 (already mapped) type-2 response, supports the B cells producing the anti-platelet autoantibodies that drive the platelet destruction of immune thrombocytopenia."
 ---
 
 # Immune Thrombocytopenia
@@ -677,6 +686,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Evans syndrome: when immune thrombocytopenia occurs together with autoimmune haemolytic anaemia (Evans syndrome), haemoglobin falls alongside the platelets, reflecting a broader breakdown of tolerance to blood-cell antigens.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Autoantibody help: Th2 cytokines including IL-4 support the B cells that produce the anti-platelet (anti-GPIIb/IIIa) autoantibodies (IgG already mapped) central to the platelet destruction of immune thrombocytopenia.
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Female predominance: immune thrombocytopenia, like many autoimmune diseases, is more common in young women, and estrogen's enhancement of antibody responses is thought to contribute to this sex difference in susceptibility.
+- `connects-to` → **[ADAMTS13](../../03-molecular/adamts13/README.md)** — TTP differential: a normal ADAMTS13 distinguishes immune thrombocytopenia from thrombotic thrombocytopenic purpura, where its severe deficiency lets von Willebrand factor (already mapped) multimers consume platelets, the key differential of an isolated low count.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Platelet granule store: platelets are the body's main reservoir of serotonin in their dense granules, so the platelet destruction of immune thrombocytopenia depletes this store, one facet of the loss of platelet function beyond the low count.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 autoantibody help: IL-13, with the IL-4 (already mapped) type-2 response, supports the B cells producing the anti-platelet autoantibodies that drive the platelet destruction of immune thrombocytopenia.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)
