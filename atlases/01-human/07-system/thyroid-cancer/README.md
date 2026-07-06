@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/ctla-4
     relation: connects-to
     note: "Checkpoint combination: CTLA-4 blockade, with PD-1 inhibition (already mapped), is being tested to deepen responses in anaplastic thyroid cancer, whose few but sometimes striking immunotherapy responses have prompted combination trials."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive microenvironment: IL-10 in the tumour microenvironment dampens the anti-tumour T-cell response (PD-1 and CTLA-4 already mapped), part of the immune evasion that shapes the limited but occasionally striking immunotherapy responses of anaplastic thyroid cancer."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative carcinogenesis: the thyroid's active iodine and hydrogen-peroxide chemistry, with reactive oxygen species to which xanthine oxidase contributes, generates oxidative DNA damage (NRF2 already mapped) that contributes to thyroid carcinogenesis."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the vascular tone and angiogenesis of the highly vascular thyroid cancers, part of the biology targeted by the antiangiogenic multikinase inhibitors."
 ---
 
 # Thyroid Cancer
@@ -675,6 +684,9 @@ Calcitonin doubling time <6 months → poor prognosis → early systemic therapy
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Anaplastic T-cell therapy: IL-2-driven T-cell expansion supports the immunotherapy of anaplastic thyroid cancer (MHC class II already mapped), combined with BRAF/MEK-targeted therapy in this rapidly lethal but sometimes immunoresponsive tumour.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — TKI cardiotoxicity: the multikinase and VEGFR inhibitors (lenvatinib, sorafenib; VEGF already mapped) used in radioactive-iodine-refractory thyroid cancer cause hypertension and cardiac events, and troponin elevation helps detect the resulting myocardial injury.
 - `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Checkpoint combination: CTLA-4 blockade, with PD-1 inhibition (already mapped), is being tested to deepen responses in anaplastic thyroid cancer, whose few but sometimes striking immunotherapy responses have prompted combination trials.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the tumour microenvironment dampens the anti-tumour T-cell response (PD-1 and CTLA-4 already mapped), part of the immune evasion that shapes the limited but occasionally striking immunotherapy responses of anaplastic thyroid cancer.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative carcinogenesis: the thyroid's active iodine and hydrogen-peroxide chemistry, with reactive oxygen species to which xanthine oxidase contributes, generates oxidative DNA damage (NRF2 already mapped) that contributes to thyroid carcinogenesis.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the vascular tone and angiogenesis of the highly vascular thyroid cancers, part of the biology targeted by the antiangiogenic multikinase inhibitors.
 
 [^schlumberger-2015-lenvatinib]: Schlumberger M, Tahara M, Wirth LJ, et al. Lenvatinib versus placebo in radioiodine-refractory differentiated thyroid cancer. *N Engl J Med.* 2015;372(7):621-630. [doi:10.1056/NEJMoa1406470](https://doi.org/10.1056/NEJMoa1406470) · [PubMed 25671254](https://pubmed.ncbi.nlm.nih.gov/25671254/)
 [^subbiah-2018-atc-dabrafenib]: Subbiah V, Kreitman RJ, Wainberg ZA, et al. Dabrafenib and trametinib treatment in patients with locally advanced or metastatic BRAF V600-mutant anaplastic thyroid cancer. *J Clin Oncol.* 2018;36(1):7-13. [doi:10.1200/JCO.2017.73.6785](https://doi.org/10.1200/JCO.2017.73.6785) · [PubMed 28892432](https://pubmed.ncbi.nlm.nih.gov/28892432/)

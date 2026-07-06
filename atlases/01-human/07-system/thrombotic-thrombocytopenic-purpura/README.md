@@ -409,6 +409,15 @@ cross_links:
   - target: 01-human/03-molecular/pd-1
     relation: connects-to
     note: "Immune tolerance: PD-1 helps restrain the autoreactive response, and checkpoint-inhibitor cancer therapy has been reported to trigger acquired TTP by breaking tolerance to ADAMTS13, revealing this checkpoint's role in the autoimmunity."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immune regulation: the anti-inflammatory IL-10 and regulatory T cells (CTLA-4 already mapped) normally restrain the autoreactive response, and the tolerance defect allowing anti-ADAMTS13 (already mapped) autoantibodies reflects a failure of this immunoregulation in acquired TTP."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Type-2 autoantibody help: IL-4 and the Th2 response support the B cells (already mapped) that produce the inhibitory anti-ADAMTS13 autoantibodies driving acquired thrombotic thrombocytopenic purpura."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Haemolysis and oxidative stress: the microangiopathic haemolysis of TTP releases lactate dehydrogenase and, with the endothelial injury, generates oxidative stress to which xanthine oxidase contributes, marking the intravascular cell destruction."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -694,6 +703,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Dense-granule vasoconstrictor: platelets consumed into the TTP microthrombi release their stored serotonin, which constricts vessels and further activates platelets, adding a vasoactive component to the microvascular occlusion.
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Pregnancy and female predominance: TTP is more common in women and can be precipitated by pregnancy, when rising oestrogen and falling ADAMTS13 (already mapped) activity combine to trigger the thrombotic microangiopathy.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Immune tolerance: PD-1 helps restrain the autoreactive response, and checkpoint-inhibitor cancer therapy has been reported to trigger acquired TTP by breaking tolerance to ADAMTS13, revealing this checkpoint's role in the autoimmunity.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immune regulation: the anti-inflammatory IL-10 and regulatory T cells (CTLA-4 already mapped) normally restrain the autoreactive response, and the tolerance defect allowing anti-ADAMTS13 (already mapped) autoantibodies reflects a failure of this immunoregulation in acquired TTP.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Type-2 autoantibody help: IL-4 and the Th2 response support the B cells (already mapped) that produce the inhibitory anti-ADAMTS13 autoantibodies driving acquired thrombotic thrombocytopenic purpura.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Haemolysis and oxidative stress: the microangiopathic haemolysis of TTP releases lactate dehydrogenase and, with the endothelial injury, generates oxidative stress to which xanthine oxidase contributes, marking the intravascular cell destruction.
 
 ---
 
