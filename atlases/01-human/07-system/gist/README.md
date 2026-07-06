@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "T-cell immunity: IL-2-driven T-cell expansion (PD-1 and perforin already mapped) supports the anti-tumour immunity that checkpoint blockade aims to unleash in gastrointestinal stromal tumour, especially the KIT/PDGFRA-wild-type subtype."
+  - target: 01-human/07-system/neurofibromatosis-type-1
+    relation: connects-to
+    note: "NF1-associated GIST: neurofibromatosis type 1 (NF1 already mapped) predisposes to multiple small-bowel GISTs that are typically KIT/PDGFRA-wild-type and imatinib-resistant, one of the wild-type subtypes of the tumour."
+  - target: 01-human/07-system/carney-complex
+    relation: connects-to
+    note: "Carney triad and dyad: SDH-deficient wild-type GIST (SDHB already mapped) occurs in the Carney triad with paraganglioma and pulmonary chondroma, and the Carney-Stratakis dyad, linking GIST to the paraganglioma syndromes."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive microenvironment: IL-10 in the tumour microenvironment dampens the anti-tumour T-cell response (PD-1 already mapped), part of the immune evasion relevant to the checkpoint immunotherapy explored in wild-type GIST."
 ---
 
 # GIST
@@ -674,6 +683,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Gastrointestinal bleeding: mucosal ulceration over a gastrointestinal stromal tumour causes acute or chronic bleeding, and the resulting anaemia with falling haemoglobin is the commonest presentation prompting endoscopy and diagnosis.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — TKI cardiotoxicity: the multitargeted kinase inhibitors sunitinib and regorafenib used after imatinib (KIT already mapped) cause hypertension and cardiac dysfunction, and troponin elevation marks the myocardial injury of this class toxicity in GIST.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell immunity: IL-2-driven T-cell expansion (PD-1 and perforin already mapped) supports the anti-tumour immunity that checkpoint blockade aims to unleash in gastrointestinal stromal tumour, especially the KIT/PDGFRA-wild-type subtype.
+- `connects-to` → **[Neurofibromatosis type 1](../neurofibromatosis-type-1/README.md)** — NF1-associated GIST: neurofibromatosis type 1 (NF1 already mapped) predisposes to multiple small-bowel GISTs that are typically KIT/PDGFRA-wild-type and imatinib-resistant, one of the wild-type subtypes of the tumour.
+- `connects-to` → **[Carney complex](../carney-complex/README.md)** — Carney triad and dyad: SDH-deficient wild-type GIST (SDHB already mapped) occurs in the Carney triad with paraganglioma and pulmonary chondroma, and the Carney-Stratakis dyad, linking GIST to the paraganglioma syndromes.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the tumour microenvironment dampens the anti-tumour T-cell response (PD-1 already mapped), part of the immune evasion relevant to the checkpoint immunotherapy explored in wild-type GIST.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
