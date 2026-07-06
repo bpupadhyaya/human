@@ -411,6 +411,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "Adaptive immunity: IL-2-driven T-cell expansion supports the cellular and antibody responses to Plasmodium (MHC class II already mapped), and this adaptive immunity underlies the partial, non-sterilising protection acquired after repeated infection."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Febrile paroxysms: pyrogenic prostaglandins, induced by the TNF and IL-1 (already mapped) released when infected red cells rupture, drive the characteristic cyclical fevers of malaria synchronised to the parasite's erythrocytic cycle."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "Hypoglycaemia: severe malaria causes hypoglycaemia from parasite glucose consumption and impaired gluconeogenesis, compounded by quinine-induced hyperinsulinaemia (insulin already mapped) that disturbs the incretin GLP-1 axis of glucose control."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Antibody help: IL-4 and the Th2 response support the B-cell antibody production against Plasmodium (IL-12 and interferon-gamma already mapped for Th1), the humoral arm of the partial immunity acquired with repeated malaria."
 ---
 
 # Malaria
@@ -700,6 +709,9 @@ cross_links:
 - `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Metabolic acidosis: severe malaria produces a lactic and metabolic acidosis, an excess of protons from anaerobic glycolysis in sequestered tissues and impaired hepatic clearance, and this acidosis is one of the strongest predictors of death.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Malarial ARDS: severe falciparum malaria can cause acute respiratory distress and pulmonary oedema, a non-cardiogenic lung injury from increased capillary permeability that may appear even as parasitaemia falls with treatment.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Adaptive immunity: IL-2-driven T-cell expansion supports the cellular and antibody responses to Plasmodium (MHC class II already mapped), and this adaptive immunity underlies the partial, non-sterilising protection acquired after repeated infection.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Febrile paroxysms: pyrogenic prostaglandins, induced by the TNF and IL-1 (already mapped) released when infected red cells rupture, drive the characteristic cyclical fevers of malaria synchronised to the parasite's erythrocytic cycle.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Hypoglycaemia: severe malaria causes hypoglycaemia from parasite glucose consumption and impaired gluconeogenesis, compounded by quinine-induced hyperinsulinaemia (insulin already mapped) that disturbs the incretin GLP-1 axis of glucose control.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Antibody help: IL-4 and the Th2 response support the B-cell antibody production against Plasmodium (IL-12 and interferon-gamma already mapped for Th1), the humoral arm of the partial immunity acquired with repeated malaria.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)
