@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Tumour vasculature: nitric oxide with the strongly expressed VEGF (already mapped) supports the rich vasculature of the neuroendocrine tumours of MEN1, part of the angiogenic biology targeted by antiangiogenic and mTOR (already mapped) therapy."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Mineral dysregulation: the primary hyperparathyroidism of MEN1 (PTH and calcium already mapped) disturbs magnesium alongside calcium handling, part of the mineral derangement of the commonest manifestation of the syndrome."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "Enteroinsular tumours: GLP-1 and the incretin axis reflect the enteropancreatic neuroendocrine biology of the MEN1 pancreatic tumours (insulin and glucagon already mapped), and GLP-1-secreting tumours are a rare functional subtype."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive microenvironment: IL-10 in the microenvironment of the MEN1 neuroendocrine tumours dampens the anti-tumour immune response, part of the immune biology relevant to any immunotherapy of the aggressive metastatic tumours."
 ---
 
 # MEN1 Syndrome
@@ -663,6 +672,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[ACTH](../../03-molecular/acth/README.md)** — Ectopic Cushing: neuroendocrine tumours in MEN1 can secrete ACTH ectopically, driving cortisol excess (already mapped) and Cushing syndrome, one of the functional hormone syndromes of its pancreatic and thymic tumours.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Adrenal adenomas: the adrenocortical tumours of MEN1 can oversecrete aldosterone, causing primary aldosteronism with hypertension and hypokalaemia, part of the adrenal component of the syndrome beyond the classic three glands.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide with the strongly expressed VEGF (already mapped) supports the rich vasculature of the neuroendocrine tumours of MEN1, part of the angiogenic biology targeted by antiangiogenic and mTOR (already mapped) therapy.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Mineral dysregulation: the primary hyperparathyroidism of MEN1 (PTH and calcium already mapped) disturbs magnesium alongside calcium handling, part of the mineral derangement of the commonest manifestation of the syndrome.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Enteroinsular tumours: GLP-1 and the incretin axis reflect the enteropancreatic neuroendocrine biology of the MEN1 pancreatic tumours (insulin and glucagon already mapped), and GLP-1-secreting tumours are a rare functional subtype.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the microenvironment of the MEN1 neuroendocrine tumours dampens the anti-tumour immune response, part of the immune biology relevant to any immunotherapy of the aggressive metastatic tumours.
 
 ---
 

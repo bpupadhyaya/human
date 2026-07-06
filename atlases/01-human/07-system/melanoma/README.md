@@ -418,6 +418,15 @@ cross_links:
   - target: 01-human/04-cellular/t-helper-cell
     relation: connects-to
     note: "CD4 help: helper T cells polarised to Th1 (interferon-gamma and IL-2 already mapped) support the cytotoxic CD8 (already mapped) response against melanoma, part of the anti-tumour immunity that checkpoint blockade and vaccines amplify."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "UV and immunosuppression: ultraviolet-induced cyclooxygenase-2 and prostaglandin E2 promote the inflammation and local immunosuppression of photocarcinogenesis, part of the microenvironment that fosters melanoma and blunts anti-tumour immunity."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune-evasive microenvironment that checkpoint immunotherapy must overcome in melanoma."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Tumour vasculature: nitric oxide with VEGF and endothelin-1 (already mapped) regulates the angiogenesis and vascular tone of melanoma, and it also modulates the melanocyte and immune biology of the tumour."
 ---
 
 # Melanoma
@@ -641,6 +650,9 @@ cross_links:
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the melanoma microenvironment dampens the anti-tumour T-cell response (PD-1 and CTLA-4 already mapped), a mechanism of immune evasion and resistance to the checkpoint blockade central to its treatment.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Ultraviolet oxidative damage: ultraviolet light and the inflamed skin generate reactive oxygen species, to which xanthine oxidase contributes, and this oxidative DNA damage (NRF2 already mapped) adds to the mutational burden driving cutaneous melanoma.
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 help: helper T cells polarised to Th1 (interferon-gamma and IL-2 already mapped) support the cytotoxic CD8 (already mapped) response against melanoma, part of the anti-tumour immunity that checkpoint blockade and vaccines amplify.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — UV and immunosuppression: ultraviolet-induced cyclooxygenase-2 and prostaglandin E2 promote the inflammation and local immunosuppression of photocarcinogenesis, part of the microenvironment that fosters melanoma and blunts anti-tumour immunity.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune-evasive microenvironment that checkpoint immunotherapy must overcome in melanoma.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide with VEGF and endothelin-1 (already mapped) regulates the angiogenesis and vascular tone of melanoma, and it also modulates the melanocyte and immune biology of the tumour.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
