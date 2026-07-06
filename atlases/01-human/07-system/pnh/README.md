@@ -406,6 +406,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "Inflammatory amplification: complement activation in PNH drives IL-6 and other cytokines (TNF already mapped) that sustain an inflammatory, prothrombotic milieu compounding the haemolytic and thrombotic disease."
+  - target: 01-human/03-molecular/adamts13
+    relation: connects-to
+    note: "Thrombosis differential: the thrombosis of PNH occurs with normal ADAMTS13 (von Willebrand factor already mapped), distinguishing its complement-driven mechanism from the thrombotic microangiopathy of thrombotic thrombocytopenic purpura."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Pulmonary hypertension and cardiac strain: the nitric-oxide scavenging (already mapped) of chronic haemolysis and the thromboembolism of PNH raise pulmonary pressures and strain the right heart, and troponin elevation marks the myocardial injury."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immune counter-regulation: IL-10 opposes the inflammatory cytokines (IL-6 and TNF already mapped) that the complement activation of PNH drives, part of the immune balance in the inflammatory, prothrombotic milieu of the disease."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -627,6 +636,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[Mu-opioid receptor](../../03-molecular/mu-opioid-receptor/README.md)** — Smooth-muscle dystonia: scavenging of nitric oxide (already mapped) by free haemoglobin causes the oesophageal spasm, abdominal pain and dystonia of PNH, symptoms often severe enough to require opioids acting on the mu-opioid receptor.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative haemolysis: chronic intravascular haemolysis releases haem and purines, and xanthine-oxidase-derived reactive oxygen species and uric acid add oxidative stress and hyperuricaemia to the burden of PNH.
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Inflammatory amplification: complement activation in PNH drives IL-6 and other cytokines (TNF already mapped) that sustain an inflammatory, prothrombotic milieu compounding the haemolytic and thrombotic disease.
+- `connects-to` → **[ADAMTS13](../../03-molecular/adamts13/README.md)** — Thrombosis differential: the thrombosis of PNH occurs with normal ADAMTS13 (von Willebrand factor already mapped), distinguishing its complement-driven mechanism from the thrombotic microangiopathy of thrombotic thrombocytopenic purpura.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Pulmonary hypertension and cardiac strain: the nitric-oxide scavenging (already mapped) of chronic haemolysis and the thromboembolism of PNH raise pulmonary pressures and strain the right heart, and troponin elevation marks the myocardial injury.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immune counter-regulation: IL-10 opposes the inflammatory cytokines (IL-6 and TNF already mapped) that the complement activation of PNH drives, part of the immune balance in the inflammatory, prothrombotic milieu of the disease.
 
 ---
 

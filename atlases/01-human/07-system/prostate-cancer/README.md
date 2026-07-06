@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/troponin-complex
     relation: connects-to
     note: "Androgen-deprivation cardiotoxicity: long-term androgen-deprivation therapy raises cardiovascular risk through adverse metabolic changes, and troponin elevation marks the myocardial injury of the cardiac events that complicate this mainstay treatment."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Radioligand and proton therapy: prostate cancer is treated with proton-beam radiotherapy and, in metastatic disease, the beta-emitting Lu-177-PSMA radioligand that targets the prostate-specific membrane antigen, delivering radiation to the tumour."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive cold tumour: IL-10 in the tumour microenvironment dampens the anti-tumour T-cell response (PD-1 and CD8 already mapped), part of the immune evasion that makes most prostate cancer a checkpoint-resistant 'cold' tumour."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative carcinogenesis: oxidative stress, to which xanthine oxidase contributes, and its reactive oxygen species contribute to prostate carcinogenesis and progression (NRF2-adjacent redox biology), part of the tumour's oxidative dimension."
 ---
 
 # Prostate Cancer
@@ -670,6 +679,9 @@ cross_links:
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Sipuleucel-T vaccine: IL-2-driven T-cell responses underlie sipuleucel-T, the autologous cellular immunotherapy that improves survival in castration-resistant prostate cancer (MHC and PD-1 already mapped) despite this tumour's poor response to checkpoint blockade.
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Anaemia: prostate cancer lowers haemoglobin through marrow replacement by bone metastases (RANKL already mapped), androgen-deprivation therapy and chemotherapy, and the resulting anaemia contributes to fatigue in advanced disease.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Androgen-deprivation cardiotoxicity: long-term androgen-deprivation therapy raises cardiovascular risk through adverse metabolic changes, and troponin elevation marks the myocardial injury of the cardiac events that complicate this mainstay treatment.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Radioligand and proton therapy: prostate cancer is treated with proton-beam radiotherapy and, in metastatic disease, the beta-emitting Lu-177-PSMA radioligand that targets the prostate-specific membrane antigen, delivering radiation to the tumour.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive cold tumour: IL-10 in the tumour microenvironment dampens the anti-tumour T-cell response (PD-1 and CD8 already mapped), part of the immune evasion that makes most prostate cancer a checkpoint-resistant 'cold' tumour.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative carcinogenesis: oxidative stress, to which xanthine oxidase contributes, and its reactive oxygen species contribute to prostate carcinogenesis and progression (NRF2-adjacent redox biology), part of the tumour's oxidative dimension.
 
 [^beer-2014-prevail]: Beer TM, Armstrong AJ, Rathkopf D, et al. Enzalutamide in metastatic prostate cancer before chemotherapy. *N Engl J Med.* 2014;371(5):424-433. [doi:10.1056/NEJMoa1405095](https://doi.org/10.1056/NEJMoa1405095) · [PubMed 24881730](https://pubmed.ncbi.nlm.nih.gov/24881730/)
 [^sartor-2021-vision]: Sartor O, de Bono J, Chi KN, et al. Lutetium-PSMA-617 for metastatic castration-resistant prostate cancer. *N Engl J Med.* 2021;385(12):1091-1103. [doi:10.1056/NEJMoa2107322](https://doi.org/10.1056/NEJMoa2107322) · [PubMed 34161051](https://pubmed.ncbi.nlm.nih.gov/34161051/)
