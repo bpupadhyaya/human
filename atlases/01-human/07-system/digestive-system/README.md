@@ -424,6 +424,15 @@ cross_links:
   - target: 01-human/03-molecular/bdnf
     relation: connects-to
     note: "Enteric nervous system: BDNF and neurotrophic signalling support the enteric nervous system, the gut's intrinsic 'second brain' of over a hundred million neurons that coordinates the motility and secretion of the digestive system."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Zinc absorption: the small intestine absorbs dietary zinc, essential for the many digestive enzymes and for mucosal integrity and taste, and malabsorption causes the dermatitis and diarrhoea of zinc deficiency."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mucosal mast cells: mast cells in the gut wall (histamine already mapped) defend the mucosa and, when dysregulated, contribute to the visceral hypersensitivity and altered motility of functional gastrointestinal disorders."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "Secretory chloride: chloride secretion by the intestinal epithelium drives the fluid that lubricates digestion, and its dysregulation underlies the secretory diarrhoea of infections and the defect of cystic fibrosis."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -648,6 +657,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [Dopamine](../../03-molecular/dopamine/README.md) — enteric dopamine: the gut contains large amounts of dopamine that modulates motility and secretion, and dopamine-receptor drugs (prokinetics like metoclopramide, antiemetics) act on this enteric dopaminergic system of the digestive tract.
 - **Connects to:** [Potassium](../../02-atomic/potassium/README.md) — colonic potassium: the colon secretes and absorbs potassium under aldosterone control (aldosterone already mapped), an electrolyte-handling role of the digestive tract that becomes clinically important in diarrhoea and renal failure.
 - **Connects to:** [BDNF](../../03-molecular/bdnf/README.md) — enteric nervous system: BDNF and neurotrophic signalling support the enteric nervous system, the gut's intrinsic 'second brain' of over a hundred million neurons that coordinates the motility and secretion of the digestive system.
+- **Connects to:** [Zinc](../../02-atomic/zinc/README.md) — zinc absorption: the small intestine absorbs dietary zinc, essential for the many digestive enzymes and for mucosal integrity and taste, and malabsorption causes the dermatitis and diarrhoea of zinc deficiency.
+- **Connects to:** [Mast cell](../../04-cellular/mast-cell/README.md) — mucosal mast cells: mast cells in the gut wall (histamine already mapped) defend the mucosa and, when dysregulated, contribute to the visceral hypersensitivity and altered motility of functional gastrointestinal disorders.
+- **Connects to:** [Chloride](../../02-atomic/chloride/README.md) — secretory chloride: chloride secretion by the intestinal epithelium drives the fluid that lubricates digestion, and its dysregulation underlies the secretory diarrhoea of infections and the defect of cystic fibrosis.
 
 ## Pathology
 

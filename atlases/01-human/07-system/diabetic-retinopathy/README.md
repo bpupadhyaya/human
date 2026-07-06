@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Protective adipokine: adiponectin, which is anti-inflammatory and insulin-sensitising, tends to be lower in advanced diabetic retinopathy, complementing leptin in the adipokine imbalance that accompanies the metabolic syndrome driving microvascular disease."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Anti-inflammatory counter-regulation: IL-10 opposes the chronic retinal inflammation (IL-6, TNF and IL-1 already mapped) of diabetic retinopathy, and the imbalance between pro- and anti-inflammatory cytokines shapes the progression of the microvascular damage."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Mineralocorticoid vascular injury: aldosterone, part of the renin-angiotensin system (angiotensin II already mapped) activated locally in the retina, promotes the inflammation and vascular leakage of diabetic retinopathy, and mineralocorticoid blockade is protective."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Inflammatory eicosanoids: prostaglandins from the inflamed retina contribute to the vascular leakage and macular oedema of diabetic retinopathy, and the cyclooxygenase pathway is part of the inflammatory dimension of the disease."
 ---
 
 # Diabetic Retinopathy
@@ -653,6 +662,9 @@ DR encompasses a spectrum from subtle vascular changes to sight-threatening neov
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Lipid exudates: the hard exudates of diabetic retinopathy are lipid deposits, and dyslipidaemia worsens the disease, so lipid-lowering with fenofibrate reduces retinopathy progression independent of its cholesterol effect.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adipokine risk: obesity raises the adipokine leptin, which is elevated in the vitreous of proliferative diabetic retinopathy and promotes retinal angiogenesis, linking metabolic state to the neovascular drive (VEGF already mapped).
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Protective adipokine: adiponectin, which is anti-inflammatory and insulin-sensitising, tends to be lower in advanced diabetic retinopathy, complementing leptin in the adipokine imbalance that accompanies the metabolic syndrome driving microvascular disease.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Anti-inflammatory counter-regulation: IL-10 opposes the chronic retinal inflammation (IL-6, TNF and IL-1 already mapped) of diabetic retinopathy, and the imbalance between pro- and anti-inflammatory cytokines shapes the progression of the microvascular damage.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Mineralocorticoid vascular injury: aldosterone, part of the renin-angiotensin system (angiotensin II already mapped) activated locally in the retina, promotes the inflammation and vascular leakage of diabetic retinopathy, and mineralocorticoid blockade is protective.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Inflammatory eicosanoids: prostaglandins from the inflamed retina contribute to the vascular leakage and macular oedema of diabetic retinopathy, and the cyclooxygenase pathway is part of the inflammatory dimension of the disease.
 
 [^fong-2004-dr-review]: Fong DS, Aiello L, Gardner TW, et al. Diabetic retinopathy. *Diabetes Care.* 2004;27(10):2540-2553. [doi:10.2337/diacare.27.10.2540](https://doi.org/10.2337/diacare.27.10.2540) · [PubMed 15451934](https://pubmed.ncbi.nlm.nih.gov/15451934/)
 [^brown-2015-aflibercept-protocol-t]: Diabetic Retinopathy Clinical Research Network; Wells JA, Glassman AR, et al. Aflibercept, Bevacizumab, or Ranibizumab for Diabetic Macular Edema. *N Engl J Med.* 2015;372(13):1193-1203. [doi:10.1056/NEJMoa1414264](https://doi.org/10.1056/NEJMoa1414264) · [PubMed 25692915](https://pubmed.ncbi.nlm.nih.gov/25692915/)
