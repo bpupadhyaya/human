@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Humoral immune defect: the immunodeficiency of Bloom syndrome extends beyond low immunoglobulins (already mapped) to impaired complement-supported humoral defence, part of the broad immune vulnerability to infection."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Inflammatory dysregulation: the immune dysfunction of Bloom syndrome includes dysregulated pro-inflammatory cytokines such as IL-1 (TNF and IL-6 already mapped), contributing to the inflammatory milieu of its immunodeficiency and cancer predisposition."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunoregulatory balance: the anti-inflammatory IL-10 counters the dysregulated pro-inflammatory cytokines (TNF and IL-6 already mapped) of Bloom syndrome, and the imbalance is part of the broad immune dysfunction of the disorder."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "Immunodeficiency: the spleen and the wider immune system are compromised in Bloom syndrome (immunoglobulin G already mapped), contributing to the recurrent infections that accompany its genome-instability and cancer predisposition."
 ---
 
 # Bloom Syndrome
@@ -681,6 +690,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — Genome-instability interferon: unrepaired DNA and micronuclei in Bloom syndrome cells release cytosolic DNA that, through cGAS-STING (already mapped), triggers a type I interferon response, part of the chronic inflammatory signature of genome-instability disorders.
 - `connects-to` → **[TNF-alpha](../../03-molecular/tnf-alpha/README.md)** — Inflammatory dysregulation: the immune dysfunction of Bloom syndrome includes dysregulated pro-inflammatory cytokines such as TNF, contributing to the inflammatory milieu that accompanies its immunodeficiency and cancer predisposition.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Humoral immune defect: the immunodeficiency of Bloom syndrome extends beyond low immunoglobulins (already mapped) to impaired complement-supported humoral defence, part of the broad immune vulnerability to infection.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Inflammatory dysregulation: the immune dysfunction of Bloom syndrome includes dysregulated pro-inflammatory cytokines such as IL-1 (TNF and IL-6 already mapped), contributing to the inflammatory milieu of its immunodeficiency and cancer predisposition.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunoregulatory balance: the anti-inflammatory IL-10 counters the dysregulated pro-inflammatory cytokines (TNF and IL-6 already mapped) of Bloom syndrome, and the imbalance is part of the broad immune dysfunction of the disorder.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Immunodeficiency: the spleen and the wider immune system are compromised in Bloom syndrome (immunoglobulin G already mapped), contributing to the recurrent infections that accompany its genome-instability and cancer predisposition.
 
 ---
 

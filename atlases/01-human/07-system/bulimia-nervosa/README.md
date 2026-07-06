@@ -414,6 +414,15 @@ cross_links:
   - target: 01-human/06-organ/large-intestine
     relation: connects-to
     note: "Laxative abuse: chronic stimulant-laxative abuse for purging damages the large intestine, causing cathartic colon, electrolyte loss and dependence, a harmful and ineffective weight-control method in bulimia."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Adipokine dysregulation: the disordered eating and metabolic swings of bulimia disturb the adipokines (leptin already mapped), and altered adiponectin reflects the metabolic dysregulation that accompanies the binge-purge cycle."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative stress: the metabolic swings of bingeing and purging generate oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species add to the cellular injury of the disorder and its complications."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Gastrointestinal inflammation: prostaglandins normally protect the mucosa injured by the acid reflux and vomiting of bulimia, and the oesophagitis and gastritis of purging engage the eicosanoid inflammatory response of the gut."
 ---
 
 # Bulimia Nervosa
@@ -675,6 +684,9 @@ All of the following must be met:
 - `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Metabolic alkalosis: self-induced vomiting loses gastric hydrochloric acid, and the loss of protons produces the hypochloraemic metabolic alkalosis characteristic of purging, a clue to covert bulimia on blood testing.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Volume depletion: purging depletes sodium and fluid, activating the aldosterone (already mapped) response, and the resulting pseudo-Bartter physiology causes rebound oedema and swings in sodium during recovery.
 - `connects-to` → **[Large intestine](../../06-organ/large-intestine/README.md)** — Laxative abuse: chronic stimulant-laxative abuse for purging damages the large intestine, causing cathartic colon, electrolyte loss and dependence, a harmful and ineffective weight-control method in bulimia.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine dysregulation: the disordered eating and metabolic swings of bulimia disturb the adipokines (leptin already mapped), and altered adiponectin reflects the metabolic dysregulation that accompanies the binge-purge cycle.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative stress: the metabolic swings of bingeing and purging generate oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species add to the cellular injury of the disorder and its complications.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Gastrointestinal inflammation: prostaglandins normally protect the mucosa injured by the acid reflux and vomiting of bulimia, and the oesophagitis and gastritis of purging engage the eicosanoid inflammatory response of the gut.
 
 ## Treatment
 
