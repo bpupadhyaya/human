@@ -409,6 +409,15 @@ cross_links:
   - target: 01-human/03-molecular/troponin-complex
     relation: connects-to
     note: "Cardiac mimic: the chest pain, palpitations and tachycardia of a panic attack closely mimic myocardial infarction, so troponin is often measured to exclude it, and panic disorder is a frequent presentation to emergency cardiology."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative stress: anxiety disorders including panic are associated with heightened oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species may affect the fear-circuit neurons and stress physiology."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Neuroinflammation: prostaglandins from the low-grade neuroinflammation (IL-6 and IL-1 already mapped) linked to panic disorder modulate the fear circuitry and the autonomic and stress responses that generate panic attacks."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "Gut-brain interoception: GLP-1 signalling in the brainstem and hypothalamus links visceral and metabolic state to the interoceptive processing (insulin already mapped) whose misreading contributes to the bodily alarm of a panic attack."
 ---
 
 # Panic Disorder
@@ -684,6 +693,9 @@ The **interoceptive fear conditioning model** (Bouton, Mineka, Barlow) explains 
 - `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — CO2 suffocation alarm: panic disorder features a hypersensitive suffocation alarm, and inhaled carbon dioxide or infused lactate, which shift acid-base balance by raising protons, reliably provoke attacks, implicating acid-base chemosensing in panic.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Hypoglycaemia trigger: falling glucose from insulin action provokes an adrenergic counter-regulatory surge (epinephrine already mapped) whose palpitations, sweating and tremor mimic and can trigger panic attacks, one of the metabolic precipitants of panic.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiac mimic: the chest pain, palpitations and tachycardia of a panic attack closely mimic myocardial infarction, so troponin is often measured to exclude it, and panic disorder is a frequent presentation to emergency cardiology.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative stress: anxiety disorders including panic are associated with heightened oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species may affect the fear-circuit neurons and stress physiology.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Neuroinflammation: prostaglandins from the low-grade neuroinflammation (IL-6 and IL-1 already mapped) linked to panic disorder modulate the fear circuitry and the autonomic and stress responses that generate panic attacks.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Gut-brain interoception: GLP-1 signalling in the brainstem and hypothalamus links visceral and metabolic state to the interoceptive processing (insulin already mapped) whose misreading contributes to the bodily alarm of a panic attack.
 
 [^gorman-2000-panic-neurobiology]: Gorman JM, Kent JM, Sullivan GM, Coplan JD. Neuroanatomical hypothesis of panic disorder, revised. *Am J Psychiatry.* 2000;157(4):493-505. [doi:10.1176/appi.ajp.157.4.493](https://doi.org/10.1176/appi.ajp.157.4.493) · [PubMed 10739407](https://pubmed.ncbi.nlm.nih.gov/10739407/)
 [^nardi-2009-clonazepam-panic]: Nardi AE, Freire RC, Zin WA. Panic disorder and control of breathing. *Respir Physiol Neurobiol.* 2009;167(1):133-143. [doi:10.1016/j.resp.2008.07.011](https://doi.org/10.1016/j.resp.2008.07.011) · [PubMed 18708168](https://pubmed.ncbi.nlm.nih.gov/18708168/)

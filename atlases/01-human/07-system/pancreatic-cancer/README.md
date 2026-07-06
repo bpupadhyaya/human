@@ -409,6 +409,15 @@ cross_links:
   - target: 01-human/03-molecular/hemoglobin
     relation: connects-to
     note: "Anaemia: pancreatic cancer lowers haemoglobin through chronic disease, occult gastrointestinal blood loss from duodenal invasion and chemotherapy myelosuppression, adding to the fatigue and cachexia (activin-A already mapped) of advanced disease."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive stroma: IL-10, with the TGF-beta (already mapped) of the desmoplastic stroma and its macrophages (already mapped), makes pancreatic cancer an immunologically cold tumour in which checkpoint blockade has largely failed."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative carcinogenesis: chronic pancreatitis and smoking generate reactive oxygen species, to which xanthine oxidase contributes, and this oxidative DNA damage (NRF2 already mapped) helps drive the KRAS-initiated (already mapped) carcinogenesis of pancreatic cancer."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Radiotherapy: stereotactic body and proton radiotherapy delivering ionising radiation are used for locally advanced, borderline-resectable pancreatic cancer, aiming to improve local control and resectability of this hard-to-treat tumour."
 ---
 
 # Pancreatic Cancer
@@ -659,6 +668,9 @@ cross_links:
 - `connects-to` → **[Mu-opioid receptor](../../03-molecular/mu-opioid-receptor/README.md)** — Cancer pain: pancreatic cancer causes severe visceral and back pain from coeliac-plexus involvement, managed with opioids acting at the mu-opioid receptor and with coeliac-plexus neurolysis, a defining palliative challenge of the disease.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Cold-tumour immunotherapy: IL-2-driven T-cell expansion underlies the adoptive and vaccine approaches being tried to overcome the immunosuppressive stroma of pancreatic cancer, in which checkpoint blockade (MHC class II already mapped) has largely failed.
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Anaemia: pancreatic cancer lowers haemoglobin through chronic disease, occult gastrointestinal blood loss from duodenal invasion and chemotherapy myelosuppression, adding to the fatigue and cachexia (activin-A already mapped) of advanced disease.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive stroma: IL-10, with the TGF-beta (already mapped) of the desmoplastic stroma and its macrophages (already mapped), makes pancreatic cancer an immunologically cold tumour in which checkpoint blockade has largely failed.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative carcinogenesis: chronic pancreatitis and smoking generate reactive oxygen species, to which xanthine oxidase contributes, and this oxidative DNA damage (NRF2 already mapped) helps drive the KRAS-initiated (already mapped) carcinogenesis of pancreatic cancer.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Radiotherapy: stereotactic body and proton radiotherapy delivering ionising radiation are used for locally advanced, borderline-resectable pancreatic cancer, aiming to improve local control and resectability of this hard-to-treat tumour.
 
 ---
 
