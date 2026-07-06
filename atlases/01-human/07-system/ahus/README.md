@@ -415,6 +415,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative haemolysis: mechanical fragmentation of red cells in the microthrombi releases haem and drives oxidative stress, to which xanthine-oxidase-derived reactive oxygen species contribute, compounding the microangiopathic haemolysis (haemoglobin already mapped)."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immune counter-regulation: IL-10 opposes the inflammatory cytokines (IL-6, TNF and IL-1 already mapped) amplified by the complement activation of atypical HUS, part of the immune balance in the thrombotic microangiopathy."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Renal RAAS activation: the renal injury and hypertension of atypical HUS activate the renin-angiotensin system (angiotensin II already mapped), and the resulting aldosterone drives sodium retention and further vascular and renal damage."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Haemolytic iron load: the chronic microangiopathic haemolysis (haemoglobin already mapped) and repeated transfusions of atypical HUS load the body with iron, adding an iron-overload burden to the disease and its management."
 ---
 
 # Atypical HUS
@@ -709,6 +718,9 @@ Repeated TMA episodes → glomerular fibrosis → CKD → ESRD
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Pregnancy trigger: pregnancy and the postpartum period are major triggers of atypical HUS in genetically predisposed women, the estrogen-associated haemostatic and complement changes unmasking the underlying complement dysregulation.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Complement-kinin crosstalk: complement activation intersects with the kinin system, and bradykinin-driven vascular permeability contributes to the endothelial injury (already mapped) and oedema of the thrombotic microangiopathy in atypical HUS.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative haemolysis: mechanical fragmentation of red cells in the microthrombi releases haem and drives oxidative stress, to which xanthine-oxidase-derived reactive oxygen species contribute, compounding the microangiopathic haemolysis (haemoglobin already mapped).
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immune counter-regulation: IL-10 opposes the inflammatory cytokines (IL-6, TNF and IL-1 already mapped) amplified by the complement activation of atypical HUS, part of the immune balance in the thrombotic microangiopathy.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Renal RAAS activation: the renal injury and hypertension of atypical HUS activate the renin-angiotensin system (angiotensin II already mapped), and the resulting aldosterone drives sodium retention and further vascular and renal damage.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Haemolytic iron load: the chronic microangiopathic haemolysis (haemoglobin already mapped) and repeated transfusions of atypical HUS load the body with iron, adding an iron-overload burden to the disease and its management.
 
 [^fakhouri-2017-ahus-lancet]: Fakhouri F, Zuber J, Frémeaux-Bacchi V, Loirat C. Haemolytic uraemic syndrome. *Lancet.* 2017;390(10095):681-696. [doi:10.1016/S0140-6736(17)30062-4](https://doi.org/10.1016/S0140-6736(17)30062-4) · [PubMed 28242109](https://pubmed.ncbi.nlm.nih.gov/28242109/)
 [^legendre-2013-eculizumab-ahus-nejm]: Legendre CM, Licht C, Muus P, et al. Terminal complement inhibitor eculizumab in atypical hemolytic-uremic syndrome. *N Engl J Med.* 2013;368(23):2169-2181. [doi:10.1056/NEJMoa1208981](https://doi.org/10.1056/NEJMoa1208981) · [PubMed 23738544](https://pubmed.ncbi.nlm.nih.gov/23738544/)

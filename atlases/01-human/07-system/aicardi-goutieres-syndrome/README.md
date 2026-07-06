@@ -411,6 +411,15 @@ cross_links:
   - target: 01-human/03-molecular/hemoglobin
     relation: connects-to
     note: "Neonatal presentation: the congenital-infection-mimicking form of Aicardi-Goutières presents with thrombocytopenia, anaemia lowering haemoglobin and hepatosplenomegaly (liver already mapped), the haematological picture of the systemic interferonopathy."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Neuroinflammatory eicosanoids: prostaglandins from the interferon-activated microglia (already mapped) and infiltrating cells contribute to the neuroinflammation (IL-6, TNF and IL-1 already mapped) of the Aicardi-Goutières encephalopathy."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Basal-ganglia mineralisation: iron, alongside the calcium (already mapped), deposits in the basal ganglia and white matter of Aicardi-Goutières, part of the mineralising vascular and tissue injury of the chronic interferonopathy."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Type-1/type-2 balance: IL-4 and the type-2 response counter the dominant type-1 interferon and Th1 (IL-12 already mapped) signature of Aicardi-Goutières, and the imbalance toward type-1 immunity shapes the severity of the interferonopathy."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -636,6 +645,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative injury: reactive oxygen species from xanthine oxidase and other sources add oxidative stress to the type I interferon-driven neuroinflammation (already mapped) that damages the developing brain in Aicardi-Goutières syndrome.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 amplification: IL-12 driving interferon-gamma (already mapped) production adds a type-1 inflammatory arm to the dominant type I interferon signature, amplifying the immune dysregulation of this monogenic interferonopathy.
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Neonatal presentation: the congenital-infection-mimicking form of Aicardi-Goutières presents with thrombocytopenia, anaemia lowering haemoglobin and hepatosplenomegaly (liver already mapped), the haematological picture of the systemic interferonopathy.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Neuroinflammatory eicosanoids: prostaglandins from the interferon-activated microglia (already mapped) and infiltrating cells contribute to the neuroinflammation (IL-6, TNF and IL-1 already mapped) of the Aicardi-Goutières encephalopathy.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Basal-ganglia mineralisation: iron, alongside the calcium (already mapped), deposits in the basal ganglia and white matter of Aicardi-Goutières, part of the mineralising vascular and tissue injury of the chronic interferonopathy.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Type-1/type-2 balance: IL-4 and the type-2 response counter the dominant type-1 interferon and Th1 (IL-12 already mapped) signature of Aicardi-Goutières, and the imbalance toward type-1 immunity shapes the severity of the interferonopathy.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
