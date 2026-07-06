@@ -418,6 +418,15 @@ cross_links:
   - target: 01-human/03-molecular/il-13
     relation: connects-to
     note: "Type-2 vascular remodelling: IL-13 and the type-2 inflammatory response promote the pulmonary vascular smooth-muscle (already mapped) proliferation and remodelling, adding to the inflammatory drive (IL-6 already mapped) of pulmonary arterial hypertension."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Type-2 inflammation: IL-4, with IL-13 (already mapped), drives the type-2 inflammatory arm that promotes the pulmonary vascular smooth-muscle (already mapped) remodelling, part of the inflammatory pathobiology of pulmonary arterial hypertension."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "RAAS in right-heart failure: the renin-angiotensin-aldosterone system (angiotensin II and aldosterone already mapped) is activated in the right-heart failure of pulmonary arterial hypertension, contributing to the fluid retention and remodelling."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Vasoreactivity and calcium channels: the small vasoreactive subset of pulmonary arterial hypertension responds to calcium-channel blockers, and calcium handling in the pulmonary-artery smooth muscle (already mapped) underlies the vasoconstriction targeted."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -674,6 +683,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Hypoxaemia and iron: chronic hypoxaemia in pulmonary arterial hypertension can raise haemoglobin through secondary erythrocytosis, while the common iron deficiency (hepcidin already mapped) impairs oxygen delivery and worsens outcomes.
 - `connects-to` → **[Protein C](../../03-molecular/protein-c/README.md)** — In-situ thrombosis: the pulmonary arteriopathy of pulmonary arterial hypertension carries a prothrombotic tendency with in-situ microthrombi, and reduced natural anticoagulants such as protein C (von Willebrand factor already mapped) contribute to this thrombotic component.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 vascular remodelling: IL-13 and the type-2 inflammatory response promote the pulmonary vascular smooth-muscle (already mapped) proliferation and remodelling, adding to the inflammatory drive (IL-6 already mapped) of pulmonary arterial hypertension.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Type-2 inflammation: IL-4, with IL-13 (already mapped), drives the type-2 inflammatory arm that promotes the pulmonary vascular smooth-muscle (already mapped) remodelling, part of the inflammatory pathobiology of pulmonary arterial hypertension.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — RAAS in right-heart failure: the renin-angiotensin-aldosterone system (angiotensin II and aldosterone already mapped) is activated in the right-heart failure of pulmonary arterial hypertension, contributing to the fluid retention and remodelling.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Vasoreactivity and calcium channels: the small vasoreactive subset of pulmonary arterial hypertension responds to calcium-channel blockers, and calcium handling in the pulmonary-artery smooth muscle (already mapped) underlies the vasoconstriction targeted.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

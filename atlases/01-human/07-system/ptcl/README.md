@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/secretory-iga
     relation: connects-to
     note: "Immune dysregulation: angioimmunoblastic and other peripheral T-cell lymphomas dysregulate humoral immunity, and hypogammaglobulinaemia depleting secretory IgA (immunoglobulin G already mapped) impairs mucosal defence, contributing to the infections that complicate them."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immune dysregulation: IL-13 reflects the type-2 cytokine skewing of angioimmunoblastic T-cell lymphoma, the follicular-helper-T-cell (already mapped) programme driving the polyclonal immune dysregulation and rash of this peripheral T-cell lymphoma."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Th2 cytokine milieu: IL-4, with IL-13 (already mapped), drives the type-2 immune dysregulation and eosinophilia of angioimmunoblastic and other peripheral T-cell lymphomas, part of their characteristic reactive immune microenvironment."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the prominent vascular proliferation of angioimmunoblastic T-cell lymphoma, part of the rich high-endothelial-venule vasculature of this peripheral T-cell lymphoma."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -688,6 +697,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Anthracycline cardiotoxicity: the CHOP/CHOEP chemotherapy for peripheral T-cell lymphoma includes cardiotoxic doxorubicin, and troponin elevation helps detect the myocardial injury that limits the cumulative anthracycline dose.
 - `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Tumour-lysis acidosis: the rapid lysis of bulky peripheral T-cell lymphoma by chemotherapy releases acids that, with lactate, produce the metabolic acidosis of tumour-lysis syndrome (urate already mapped), part of its acute metabolic risk.
 - `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — Immune dysregulation: angioimmunoblastic and other peripheral T-cell lymphomas dysregulate humoral immunity, and hypogammaglobulinaemia depleting secretory IgA (immunoglobulin G already mapped) impairs mucosal defence, contributing to the infections that complicate them.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune dysregulation: IL-13 reflects the type-2 cytokine skewing of angioimmunoblastic T-cell lymphoma, the follicular-helper-T-cell (already mapped) programme driving the polyclonal immune dysregulation and rash of this peripheral T-cell lymphoma.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Th2 cytokine milieu: IL-4, with IL-13 (already mapped), drives the type-2 immune dysregulation and eosinophilia of angioimmunoblastic and other peripheral T-cell lymphomas, part of their characteristic reactive immune microenvironment.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the prominent vascular proliferation of angioimmunoblastic T-cell lymphoma, part of the rich high-endothelial-venule vasculature of this peripheral T-cell lymphoma.
 
 ---
 
