@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "Neuroinflammatory balance: the anti-inflammatory cytokine IL-10 counters the TLR4-driven TNF and IL-1 (already mapped) that stimulants provoke in glia, part of the neuroinflammation implicated in stimulant neurotoxicity and dependence."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Neuroinflammatory eicosanoids: prostaglandins from the glial neuroinflammation (IL-6, TNF and IL-1 already mapped) that stimulants provoke modulate the reward and stress circuits, part of the neurotoxicity of stimulant use disorder."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative neurotoxicity: stimulants generate oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species (NLRP3 already mapped) drive the dopaminergic neurotoxicity and cardiovascular injury of the disorder."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Cardiometabolic harm: chronic stimulant use disturbs metabolism and, with the sympathetic strain (norepinephrine already mapped) on the vasculature, contributes to the atherogenic dyslipidaemia adding to the cardiovascular harm of the disorder."
 ---
 
 # Stimulant Use Disorder
@@ -665,6 +674,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Mineralocorticoid stress axis: aldosterone acts on brain mineralocorticoid receptors that, balanced against glucocorticoid receptors (already mapped), tune the stress response driving the craving and stress-induced relapse of stimulant use disorder.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Metabolic dysregulation: chronic stimulant use disturbs appetite, weight and glucose handling, and the resulting insulin and metabolic dysregulation add to the cardiometabolic harm of the disorder.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Neuroinflammatory balance: the anti-inflammatory cytokine IL-10 counters the TLR4-driven TNF and IL-1 (already mapped) that stimulants provoke in glia, part of the neuroinflammation implicated in stimulant neurotoxicity and dependence.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Neuroinflammatory eicosanoids: prostaglandins from the glial neuroinflammation (IL-6, TNF and IL-1 already mapped) that stimulants provoke modulate the reward and stress circuits, part of the neurotoxicity of stimulant use disorder.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative neurotoxicity: stimulants generate oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species (NLRP3 already mapped) drive the dopaminergic neurotoxicity and cardiovascular injury of the disorder.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Cardiometabolic harm: chronic stimulant use disturbs metabolism and, with the sympathetic strain (norepinephrine already mapped) on the vasculature, contributes to the atherogenic dyslipidaemia adding to the cardiovascular harm of the disorder.
 
 ## Treatment
 

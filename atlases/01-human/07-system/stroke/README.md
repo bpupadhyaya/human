@@ -415,6 +415,15 @@ cross_links:
   - target: 01-human/03-molecular/il-4
     relation: connects-to
     note: "Reparative microglia: IL-4 polarises microglia (already mapped) toward a reparative, anti-inflammatory phenotype that clears debris and supports recovery, so boosting this arm is explored to improve outcomes after stroke."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Ischaemic neuroinflammation: prostaglandins from the activated microglia (already mapped) and the cyclooxygenase pathway contribute to the secondary neuroinflammation of the infarct (IL-1 and TNF already mapped), and antiplatelet aspirin is central to prevention."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Anti-inflammatory recovery: the anti-inflammatory IL-10, with IL-4 (already mapped), restrains the damaging neuroinflammation after stroke and supports the reparative response, part of the immune balance shaping recovery."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "NMDA neuroprotection: magnesium blocks the NMDA receptor of the glutamate excitotoxicity (already mapped) driving neuronal death, and it has been trialled as a neuroprotectant, while hypomagnesaemia may worsen the ischaemic injury of stroke."
 ---
 
 # Stroke
@@ -651,6 +660,9 @@ Normal brain maintains CBF constant (50-150 mmHg MAP range) via autoregulation (
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Ischaemic oxygen deprivation: ischaemic stroke deprives brain tissue of oxygen, and the resulting energy failure (ATP and HIF already mapped) starts the excitotoxic cascade that kills the core while the penumbra survives on marginal perfusion.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Cardioembolic source: much ischaemic stroke is cardioembolic, from atrial fibrillation and other cardiac sources (troponin already mapped), so cardiac evaluation and anticoagulation are central to prevention.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Reparative microglia: IL-4 polarises microglia (already mapped) toward a reparative, anti-inflammatory phenotype that clears debris and supports recovery, so boosting this arm is explored to improve outcomes after stroke.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Ischaemic neuroinflammation: prostaglandins from the activated microglia (already mapped) and the cyclooxygenase pathway contribute to the secondary neuroinflammation of the infarct (IL-1 and TNF already mapped), and antiplatelet aspirin is central to prevention.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Anti-inflammatory recovery: the anti-inflammatory IL-10, with IL-4 (already mapped), restrains the damaging neuroinflammation after stroke and supports the reparative response, part of the immune balance shaping recovery.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — NMDA neuroprotection: magnesium blocks the NMDA receptor of the glutamate excitotoxicity (already mapped) driving neuronal death, and it has been trialled as a neuroprotectant, while hypomagnesaemia may worsen the ischaemic injury of stroke.
 
 [^powers-2019-aha-stroke]: Powers WJ, Rabinstein AA, Ackerson T, et al. Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines. *Stroke.* 2019;50(12):e344-e418. [doi:10.1161/STR.0000000000000211](https://doi.org/10.1161/STR.0000000000000211) · [PubMed 31662037](https://pubmed.ncbi.nlm.nih.gov/31662037/)
 [^feigin-2021-gbd-stroke]: Feigin VL, Krishnamurthi RV, Parmar P, et al. Update on the Global Burden of Ischemic and Hemorrhagic Stroke in 1990-2013. *Neuroepidemiology.* 2015;45(3):161-176. [doi:10.1159/000441085](https://doi.org/10.1159/000441085) · [PubMed 26505981](https://pubmed.ncbi.nlm.nih.gov/26505981/)
