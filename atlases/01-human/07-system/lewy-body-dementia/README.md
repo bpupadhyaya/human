@@ -418,6 +418,15 @@ cross_links:
   - target: 01-human/03-molecular/il-4
     relation: connects-to
     note: "Microglial polarisation: IL-4 shifts microglia (already mapped) toward a reparative, anti-inflammatory phenotype, and enhancing this arm against the pro-inflammatory TNF/IL-1 response is a neuroprotective strategy of interest in Lewy body dementia."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Neuroinflammatory eicosanoids: prostaglandins from the activated microglia (already mapped) contribute to the neuroinflammation that drives the alpha-synuclein pathology (already mapped) and neuronal loss of Lewy body dementia."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "APOE lipid handling: cholesterol metabolism, governed by APOE (already mapped), influences alpha-synuclein aggregation and membrane biology, part of the lipid dimension of the neurodegeneration in Lewy body dementia."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Anti-inflammatory neuroprotection: IL-10, with IL-4 (already mapped), opposes the microglial pro-inflammatory response (TNF, IL-1 and IL-6 already mapped) driving neuronal loss, and boosting this arm is a neuroprotective strategy of interest in Lewy body dementia."
 ---
 
 # Lewy Body Dementia
@@ -677,6 +686,9 @@ Approximately 25-50% of clinically diagnosed DLB cases have significant AD co-pa
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Adaptive autoimmunity: alpha-synuclein-specific T cells expanded through IL-2 signalling are found in the synucleinopathies, implicating an adaptive immune response against the aggregating protein (already mapped) in the neurodegeneration of Lewy body dementia.
 - `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Neurosteroid protection: progesterone-derived neurosteroids are neuroprotective and support cholinergic (already mapped) neurons, and together with estrogen (already mapped) may contribute to the sex differences in Lewy body dementia.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Microglial polarisation: IL-4 shifts microglia (already mapped) toward a reparative, anti-inflammatory phenotype, and enhancing this arm against the pro-inflammatory TNF/IL-1 response is a neuroprotective strategy of interest in Lewy body dementia.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Neuroinflammatory eicosanoids: prostaglandins from the activated microglia (already mapped) contribute to the neuroinflammation that drives the alpha-synuclein pathology (already mapped) and neuronal loss of Lewy body dementia.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — APOE lipid handling: cholesterol metabolism, governed by APOE (already mapped), influences alpha-synuclein aggregation and membrane biology, part of the lipid dimension of the neurodegeneration in Lewy body dementia.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Anti-inflammatory neuroprotection: IL-10, with IL-4 (already mapped), opposes the microglial pro-inflammatory response (TNF, IL-1 and IL-6 already mapped) driving neuronal loss, and boosting this arm is a neuroprotective strategy of interest in Lewy body dementia.
 
 [^mckeith-2017-dlb-criteria]: McKeith IG, Boeve BF, Dickson DW, et al. Diagnosis and management of dementia with Lewy bodies: Fourth consensus report of the DLB Consortium. *Neurology.* 2017;89(1):88-100. [doi:10.1212/WNL.0000000000004058](https://doi.org/10.1212/WNL.0000000000004058) · [PubMed 28592453](https://pubmed.ncbi.nlm.nih.gov/28592453/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)

@@ -416,6 +416,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Antiviral and inflammatory nitric oxide: inducible nitric oxide contributes to antiviral defence against measles, and in excess to the tissue inflammation of severe disease, one of the innate effectors engaged by the infection."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Febrile inflammation: prostaglandins, induced by the cytokines (IL-6, TNF and IL-1 already mapped) of the measles immune response, drive the high fever and the inflammatory component of the illness and its rash."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 antibody help: IL-13, with IL-4 (already mapped), supports the B-cell (already mapped) production of the lifelong neutralising antibodies against the H protein that mediate measles immunity and vaccine protection."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative and vitamin-A depletion: measles depletes vitamin A and antioxidant reserves, and the oxidative stress, to which xanthine oxidase contributes, worsens the epithelial and immune injury, a rationale for vitamin-A therapy."
 ---
 
 # Measles
@@ -693,6 +702,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Exanthem: the morbilliform measles rash reflects a T-cell attack on infected dermal endothelium with vasodilation and increased vascular permeability, to which histamine contributes, producing the confluent erythematous eruption spreading from the face.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Antibody help: IL-4 and type-2 T-cell help drive the B-cell (already mapped) production of the lifelong neutralising antibodies (IgG already mapped) against the H protein that mediate measles immunity and vaccine protection.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Antiviral and inflammatory nitric oxide: inducible nitric oxide contributes to antiviral defence against measles, and in excess to the tissue inflammation of severe disease, one of the innate effectors engaged by the infection.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Febrile inflammation: prostaglandins, induced by the cytokines (IL-6, TNF and IL-1 already mapped) of the measles immune response, drive the high fever and the inflammatory component of the illness and its rash.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 antibody help: IL-13, with IL-4 (already mapped), supports the B-cell (already mapped) production of the lifelong neutralising antibodies against the H protein that mediate measles immunity and vaccine protection.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative and vitamin-A depletion: measles depletes vitamin A and antioxidant reserves, and the oxidative stress, to which xanthine oxidase contributes, worsens the epithelial and immune injury, a rationale for vitamin-A therapy.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)
