@@ -393,6 +393,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "Mineralocorticoid stress axis: aldosterone acts on brain mineralocorticoid receptors that, balanced against glucocorticoid receptors (already mapped), tune the stress response implicated in the HPA-axis dysregulation of fibromyalgia."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Pain eicosanoids: prostaglandins sensitise peripheral and central pain pathways in fibromyalgia (substance P already mapped), yet the limited response to NSAIDs reflects that the dominant mechanism is central rather than inflammatory."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Neuroendocrine stress arm: vasopressin, with CRH and ACTH (already mapped), drives the hypothalamic-pituitary-adrenal axis whose dysregulation is implicated in the fatigue and stress-sensitivity of fibromyalgia."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "Neuroinflammatory signature: a mild elevation of IL-17 and other cytokines (IL-6, TNF and IL-1 already mapped) is reported in fibromyalgia, consistent with the low-grade neuroinflammation thought to contribute to central sensitisation."
 sources:
   - id: wolfe-2016-fibromyalgia-criteria
     type: peer-reviewed
@@ -678,6 +687,9 @@ FM is not a single-etiology disorder but a convergent syndrome resulting from th
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — Brain renin-angiotensin: central angiotensin II modulates stress reactivity and pain processing, and the RAS interacts with the HPA axis (cortisol already mapped), a neuroendocrine dimension of the stress-linked pathophysiology of fibromyalgia.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Metabolic overlap: fibromyalgia is associated with insulin resistance and metabolic dysregulation beyond what obesity explains (leptin already mapped), a metabolic dimension increasingly recognised alongside the pain and fatigue.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Mineralocorticoid stress axis: aldosterone acts on brain mineralocorticoid receptors that, balanced against glucocorticoid receptors (already mapped), tune the stress response implicated in the HPA-axis dysregulation of fibromyalgia.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Pain eicosanoids: prostaglandins sensitise peripheral and central pain pathways in fibromyalgia (substance P already mapped), yet the limited response to NSAIDs reflects that the dominant mechanism is central rather than inflammatory.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Neuroendocrine stress arm: vasopressin, with CRH and ACTH (already mapped), drives the hypothalamic-pituitary-adrenal axis whose dysregulation is implicated in the fatigue and stress-sensitivity of fibromyalgia.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Neuroinflammatory signature: a mild elevation of IL-17 and other cytokines (IL-6, TNF and IL-1 already mapped) is reported in fibromyalgia, consistent with the low-grade neuroinflammation thought to contribute to central sensitisation.
 
 [^wolfe-2016-fibromyalgia-criteria]: Wolfe F, Clauw DJ, Fitzcharles MA, et al. 2016 Revisions to the 2010/2011 fibromyalgia diagnostic criteria. *Semin Arthritis Rheum.* 2016;46(3):319-329. [doi:10.1016/j.semarthrit.2016.08.012](https://doi.org/10.1016/j.semarthrit.2016.08.012) · [PubMed 27916278](https://pubmed.ncbi.nlm.nih.gov/27916278/)
 [^clauw-2014-fibromyalgia-review]: Clauw DJ. Fibromyalgia: a clinical review. *JAMA.* 2014;311(15):1547-1555. [doi:10.1001/jama.2014.3266](https://doi.org/10.1001/jama.2014.3266) · [PubMed 24737367](https://pubmed.ncbi.nlm.nih.gov/24737367/)

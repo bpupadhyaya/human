@@ -406,6 +406,15 @@ cross_links:
   - target: 01-human/03-molecular/oxytocin
     relation: connects-to
     note: "Microbe-driven oxytocin: specific commensals such as Lactobacillus reuteri raise systemic oxytocin through the vagus, influencing social behaviour and wound healing, a striking example of the microbiome-gut-brain axis reaching neuroendocrine signalling."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Luminal nitric oxide: bacterial and host nitric oxide in the gut lumen shapes the microbial community and regulates the mucosal blood flow, part of the chemical crosstalk between the microbiome and its epithelial habitat."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian microbiome: gut-derived melatonin and the host circadian clock impose a diurnal rhythm on the microbiome (serotonin already mapped), and disrupted sleep or shift work perturbs the community and its metabolic output."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Mucosal barrier eicosanoids: prostaglandins maintain the mucosal barrier and blood flow that the microbiome modulates (short-chain fatty acids already GLP-1-mapped), part of how commensals and the epithelium co-regulate gut homeostasis."
 ---
 
 # Gut Microbiome
@@ -613,6 +622,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Islet autoimmunity: the gut microbiome influences the development of type-1-diabetes (already mapped) by shaping mucosal immunity and permeability, linking microbial dysbiosis in early life to the islet autoimmunity of the pancreas.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Luminal iron competition: dietary and unabsorbed iron in the gut lumen shapes the microbiome, favouring some pathobionts, so iron supplementation can worsen dysbiosis, a nutrient-microbe interaction relevant to anaemia treatment.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Microbe-driven oxytocin: specific commensals such as Lactobacillus reuteri raise systemic oxytocin through the vagus, influencing social behaviour and wound healing, a striking example of the microbiome-gut-brain axis reaching neuroendocrine signalling.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Luminal nitric oxide: bacterial and host nitric oxide in the gut lumen shapes the microbial community and regulates the mucosal blood flow, part of the chemical crosstalk between the microbiome and its epithelial habitat.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian microbiome: gut-derived melatonin and the host circadian clock impose a diurnal rhythm on the microbiome (serotonin already mapped), and disrupted sleep or shift work perturbs the community and its metabolic output.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Mucosal barrier eicosanoids: prostaglandins maintain the mucosal barrier and blood flow that the microbiome modulates (short-chain fatty acids already GLP-1-mapped), part of how commensals and the epithelium co-regulate gut homeostasis.
 
 ## Pathology
 
