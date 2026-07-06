@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/il-4
     relation: connects-to
     note: "Th2 antibody axis: IL-4 and type-2 T-cell help drive the B-cell production of the pathogenic anti-PF4/heparin antibodies of HIT, part of the humoral response that immune checkpoints (CTLA-4 already mapped) normally restrain."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immune counter-regulation: IL-10 helps restrain the transient anti-PF4/heparin antibody response of HIT (IL-6 and TNF already mapped), part of the immunoregulation that limits this typically self-limited immune reaction."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 cytokine axis: IL-13, with IL-4 (already mapped), completes the type-2 cytokine support for the B-cell production of the pathogenic anti-PF4/heparin antibodies of HIT."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative thrombo-inflammation: reactive oxygen species, to which xanthine oxidase contributes, are generated in the activated platelets and endothelium (already mapped) of HIT, adding oxidative stress to the prothrombotic, inflammatory state."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -687,6 +696,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Arterial thrombosis: HIT causes arterial as well as venous thrombosis, including myocardial infarction and limb ischaemia, and troponin elevation marks the cardiac injury of the arterial events that complicate this prothrombotic disorder.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell help: IL-2-driven T-cell help supports the rapid but transient B-cell response that generates the anti-PF4/heparin antibodies (IgG already mapped), the T-cell dependence underlying the characteristically self-limited HIT antibody response.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Th2 antibody axis: IL-4 and type-2 T-cell help drive the B-cell production of the pathogenic anti-PF4/heparin antibodies of HIT, part of the humoral response that immune checkpoints (CTLA-4 already mapped) normally restrain.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immune counter-regulation: IL-10 helps restrain the transient anti-PF4/heparin antibody response of HIT (IL-6 and TNF already mapped), part of the immunoregulation that limits this typically self-limited immune reaction.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 cytokine axis: IL-13, with IL-4 (already mapped), completes the type-2 cytokine support for the B-cell production of the pathogenic anti-PF4/heparin antibodies of HIT.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative thrombo-inflammation: reactive oxygen species, to which xanthine oxidase contributes, are generated in the activated platelets and endothelium (already mapped) of HIT, adding oxidative stress to the prothrombotic, inflammatory state.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)

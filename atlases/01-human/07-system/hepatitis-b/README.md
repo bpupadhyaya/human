@@ -408,6 +408,15 @@ cross_links:
   - target: 01-human/03-molecular/hepcidin
     relation: connects-to
     note: "Iron and fibrosis: chronic hepatitis B disturbs the hepatocyte production of hepcidin, and the resulting hepatic iron accumulation promotes the oxidative injury and fibrosis that accelerate progression to cirrhosis and liver cancer."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative hepatic injury: the iron accumulation (hepcidin already mapped) and inflammation of chronic hepatitis B generate reactive oxygen species, to which xanthine oxidase contributes, driving the hepatocyte damage and fibrosis toward cirrhosis and cancer."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Immune-complex disease: circulating hepatitis B antigen-antibody (immunoglobulin G already mapped) complexes activate complement and deposit in tissues, causing the membranous nephropathy (kidney already mapped) and polyarteritis nodosa of extrahepatic hepatitis B."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Portal hypertension: as chronic hepatitis B progresses to cirrhosis, dysregulated nitric oxide contributes to the splanchnic vasodilation and portal hypertension (collagen already mapped for fibrosis) that cause its life-threatening complications."
 ---
 
 # Hepatitis B
@@ -673,3 +682,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell exhaustion reversal: chronic hepatitis B is marked by exhausted HBV-specific T cells (PD-1 already mapped), and restoring IL-2-driven T-cell function is a goal of the therapeutic vaccines and immunomodulators pursued for functional cure.
 - `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Immune checkpoints: alongside PD-1 (already mapped), CTLA-4 contributes to the T-cell exhaustion that lets hepatitis B persist, and checkpoint modulation is being explored to reinvigorate the antiviral response toward a cure.
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Iron and fibrosis: chronic hepatitis B disturbs the hepatocyte production of hepcidin, and the resulting hepatic iron accumulation promotes the oxidative injury and fibrosis that accelerate progression to cirrhosis and liver cancer.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative hepatic injury: the iron accumulation (hepcidin already mapped) and inflammation of chronic hepatitis B generate reactive oxygen species, to which xanthine oxidase contributes, driving the hepatocyte damage and fibrosis toward cirrhosis and cancer.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Immune-complex disease: circulating hepatitis B antigen-antibody (immunoglobulin G already mapped) complexes activate complement and deposit in tissues, causing the membranous nephropathy (kidney already mapped) and polyarteritis nodosa of extrahepatic hepatitis B.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Portal hypertension: as chronic hepatitis B progresses to cirrhosis, dysregulated nitric oxide contributes to the splanchnic vasodilation and portal hypertension (collagen already mapped for fibrosis) that cause its life-threatening complications.
