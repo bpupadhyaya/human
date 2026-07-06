@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/hemoglobin
     relation: connects-to
     note: "Angiomyolipoma haemorrhage: the renal angiomyolipomas of tuberous sclerosis can bleed catastrophically into the retroperitoneum, and the resulting acute blood loss drops haemoglobin, a leading cause of morbidity that mTOR inhibitors and embolisation aim to prevent."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Hamartoma vasculature: nitric oxide with the mTOR-driven VEGF and angiopoietin (already mapped) shapes the aberrant, aneurysm-prone vasculature of the angiomyolipomas and other vascular hamartomas of tuberous sclerosis."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Hamartoma immune milieu: IL-10 among the cytokines of the tuberous-sclerosis hamartoma microenvironment shapes its immune milieu (IL-6 already mapped), part of the inflammatory dimension of these mTOR-driven lesions."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Metabolic oxidative stress: unrestrained mTORC1 anabolism (already mapped) in the tuberous-sclerosis hamartomas raises metabolic and oxidative stress, to which xanthine oxidase contributes, engaging the NRF2 antioxidant response (already mapped)."
 ---
 
 # Tuberous Sclerosis Complex
@@ -671,6 +680,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — LAM hormone sensitivity: the lymphangioleiomyomatosis of tuberous sclerosis occurs almost only in women and worsens with reproductive hormones, so progesterone and estrogen (already mapped) drive the smooth-muscle proliferation that destroys the lung.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — mTOR-insulin axis: the TSC1-TSC2 complex (already mapped) normally restrains mTORC1 downstream of insulin and growth-factor signalling, so its loss uncouples growth from nutrient and insulin cues, the core metabolic lesion driving the hamartomas.
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Angiomyolipoma haemorrhage: the renal angiomyolipomas of tuberous sclerosis can bleed catastrophically into the retroperitoneum, and the resulting acute blood loss drops haemoglobin, a leading cause of morbidity that mTOR inhibitors and embolisation aim to prevent.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Hamartoma vasculature: nitric oxide with the mTOR-driven VEGF and angiopoietin (already mapped) shapes the aberrant, aneurysm-prone vasculature of the angiomyolipomas and other vascular hamartomas of tuberous sclerosis.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Hamartoma immune milieu: IL-10 among the cytokines of the tuberous-sclerosis hamartoma microenvironment shapes its immune milieu (IL-6 already mapped), part of the inflammatory dimension of these mTOR-driven lesions.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Metabolic oxidative stress: unrestrained mTORC1 anabolism (already mapped) in the tuberous-sclerosis hamartomas raises metabolic and oxidative stress, to which xanthine oxidase contributes, engaging the NRF2 antioxidant response (already mapped).
 
 ---
 

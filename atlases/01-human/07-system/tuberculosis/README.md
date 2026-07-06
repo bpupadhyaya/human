@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/secretory-iga
     relation: connects-to
     note: "Airway mucosal defence: secretory IgA on the respiratory mucosa is part of the first-line barrier against inhaled Mycobacterium tuberculosis, and mucosal immunity is a target of next-generation tuberculosis vaccines."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Antigen priming: dendritic cells carry Mycobacterium tuberculosis antigen from the lung to the draining lymph nodes to prime the CD4 Th1 response (IL-12 and interferon-gamma already mapped), the delay in which lets the infection establish."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Iron tug-of-war: Mycobacterium tuberculosis needs iron to grow, and the host sequesters it through hepcidin (already mapped), a nutritional-immunity battle that also produces the anaemia of chronic tuberculosis."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative killing and injury: reactive oxygen species, to which xanthine oxidase contributes, help macrophages (already mapped) kill the bacillus but also drive the tissue damage of the granuloma, part of the double-edged oxidative response in tuberculosis."
 ---
 
 # Tuberculosis
@@ -665,6 +674,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Anaemia of infection: active tuberculosis commonly causes anaemia of chronic disease through hepcidin-driven iron sequestration (hepcidin already mapped) and marrow suppression, lowering haemoglobin and marking disease severity.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Tuberculous pericarditis: tuberculosis is a major cause of pericarditis, especially in HIV, and the resulting effusive-constrictive disease can injure the myocardium, with troponin marking the cardiac involvement of this extrapulmonary form.
 - `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — Airway mucosal defence: secretory IgA on the respiratory mucosa is part of the first-line barrier against inhaled Mycobacterium tuberculosis, and mucosal immunity is a target of next-generation tuberculosis vaccines.
+- `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Antigen priming: dendritic cells carry Mycobacterium tuberculosis antigen from the lung to the draining lymph nodes to prime the CD4 Th1 response (IL-12 and interferon-gamma already mapped), the delay in which lets the infection establish.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron tug-of-war: Mycobacterium tuberculosis needs iron to grow, and the host sequesters it through hepcidin (already mapped), a nutritional-immunity battle that also produces the anaemia of chronic tuberculosis.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative killing and injury: reactive oxygen species, to which xanthine oxidase contributes, help macrophages (already mapped) kill the bacillus but also drive the tissue damage of the granuloma, part of the double-edged oxidative response in tuberculosis.
 
 ## See Also
 
