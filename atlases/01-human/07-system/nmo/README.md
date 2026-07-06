@@ -418,6 +418,15 @@ cross_links:
   - target: 01-human/03-molecular/progesterone
     relation: connects-to
     note: "Pregnancy relapse pattern: falling progesterone and estrogen (already mapped) postpartum coincides with a rise in neuromyelitis optica attacks, implicating sex-hormone fluctuation in the timing of relapses in this female-predominant disease."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Excitotoxic injury: nitric oxide, generated in the inflamed lesion, contributes with glutamate excitotoxicity (already mapped) to the astrocyte and secondary neuronal injury of neuromyelitis optica after the antibody and complement attack."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative lesion injury: reactive oxygen species, to which xanthine oxidase contributes, amplify the tissue damage in the acute neuromyelitis optica lesion, adding oxidative stress to the complement-mediated (already mapped) astrocyte destruction."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Inflammatory eicosanoids: prostaglandins from the acute inflammatory infiltrate (IL-6 and TNF already mapped) of the neuromyelitis optica lesion contribute to the inflammation and blood-brain-barrier disruption of an attack."
 ---
 
 # NMOSD
@@ -697,6 +706,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Th2 antibody help: IL-4 and type-2 T-cell help support the B-cell production of the pathogenic anti-AQP4 IgG (immunoglobulin G already mapped), part of the humoral response that drives the astrocyte-targeting autoimmunity of neuromyelitis optica.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Regulatory balance: deficient IL-10-mediated regulatory B- and T-cell control contributes to the unchecked anti-AQP4 response in neuromyelitis optica, and restoring this regulatory arm is a goal of tolerising therapies.
 - `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Pregnancy relapse pattern: falling progesterone and estrogen (already mapped) postpartum coincides with a rise in neuromyelitis optica attacks, implicating sex-hormone fluctuation in the timing of relapses in this female-predominant disease.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Excitotoxic injury: nitric oxide, generated in the inflamed lesion, contributes with glutamate excitotoxicity (already mapped) to the astrocyte and secondary neuronal injury of neuromyelitis optica after the antibody and complement attack.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative lesion injury: reactive oxygen species, to which xanthine oxidase contributes, amplify the tissue damage in the acute neuromyelitis optica lesion, adding oxidative stress to the complement-mediated (already mapped) astrocyte destruction.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Inflammatory eicosanoids: prostaglandins from the acute inflammatory infiltrate (IL-6 and TNF already mapped) of the neuromyelitis optica lesion contribute to the inflammation and blood-brain-barrier disruption of an attack.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)

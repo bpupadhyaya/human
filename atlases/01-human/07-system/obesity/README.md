@@ -415,6 +415,15 @@ cross_links:
   - target: 01-human/03-molecular/pcsk9
     relation: connects-to
     note: "Atherogenic dyslipidaemia: obesity raises triglycerides and small dense LDL, and PCSK9-regulated LDL-receptor handling contributes to the dyslipidaemia driving the accelerated atherosclerosis (already mapped) of the obese state."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Dyslipidaemia: obesity shifts cholesterol handling toward high triglycerides, low HDL and small dense LDL (PCSK9 already mapped), the atherogenic dyslipidaemia that is a core component of the metabolic syndrome."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Adipose mineralocorticoid axis: adipose tissue stimulates aldosterone release, and aldosterone acting through mineralocorticoid receptors promotes the hypertension, inflammation and fibrosis (angiotensin II already mapped) that accompany obesity."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Anti-inflammatory balance: the anti-inflammatory IL-10 counters the chronic low-grade inflammation of adipose tissue (TNF, IL-6 and IL-1 already mapped), and the imbalance toward pro-inflammatory signalling drives the insulin resistance of obesity."
 ---
 
 # Obesity
@@ -687,6 +696,9 @@ This **metainflammation** mechanistically links obesity to type 2 diabetes, athe
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiac injury: obesity strains the heart (already mapped) and accelerates atherosclerosis, and troponin elevation marks the myocardial injury of the cardiovascular disease that is the leading cause of death in the obese.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — Adipose renin-angiotensin: adipose tissue produces angiotensinogen and components of a local renin-angiotensin system, and the resulting angiotensin II contributes to the hypertension (already mapped) that accompanies obesity.
 - `connects-to` → **[PCSK9](../../03-molecular/pcsk9/README.md)** — Atherogenic dyslipidaemia: obesity raises triglycerides and small dense LDL, and PCSK9-regulated LDL-receptor handling contributes to the dyslipidaemia driving the accelerated atherosclerosis (already mapped) of the obese state.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Dyslipidaemia: obesity shifts cholesterol handling toward high triglycerides, low HDL and small dense LDL (PCSK9 already mapped), the atherogenic dyslipidaemia that is a core component of the metabolic syndrome.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Adipose mineralocorticoid axis: adipose tissue stimulates aldosterone release, and aldosterone acting through mineralocorticoid receptors promotes the hypertension, inflammation and fibrosis (angiotensin II already mapped) that accompany obesity.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Anti-inflammatory balance: the anti-inflammatory IL-10 counters the chronic low-grade inflammation of adipose tissue (TNF, IL-6 and IL-1 already mapped), and the imbalance toward pro-inflammatory signalling drives the insulin resistance of obesity.
 
 [^bluher-2019-obesity-review]: Blüher M. Obesity: global epidemiology and pathogenesis. *Nat Rev Endocrinol.* 2019;15(5):288-298. [doi:10.1038/s41574-019-0176-8](https://doi.org/10.1038/s41574-019-0176-8) · [PubMed 30814686](https://pubmed.ncbi.nlm.nih.gov/30814686/)
 [^wilding-2021-semaglutide-step1]: Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. *N Engl J Med.* 2021;384(11):989-1002. [doi:10.1056/NEJMoa2032183](https://doi.org/10.1056/NEJMoa2032183) · [PubMed 33567185](https://pubmed.ncbi.nlm.nih.gov/33567185/)
