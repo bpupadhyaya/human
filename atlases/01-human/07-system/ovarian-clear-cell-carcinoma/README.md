@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Endometriosis oxidative stress: the endometriotic cysts from which ovarian clear cell carcinoma arises are iron-rich, and the oxidative stress (NRF2 already mapped), to which xanthine oxidase contributes, drives the carcinogenesis of this subtype."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Endometriosis inflammation: cyclooxygenase-2 and prostaglandin E2 drive the inflammation of the endometriotic cysts (IL-6 and IL-1 already mapped) from which ovarian clear cell carcinoma arises, part of its inflammation-driven carcinogenesis."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages (already mapped) toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune microenvironment of the chemoresistant ovarian clear cell carcinoma."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the vascular tone and angiogenesis of ovarian clear cell carcinoma, part of the stromal biology of this hypoxia-driven (HIF and EPAS1 already mapped) tumour."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -685,6 +694,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Anaemia: chronic disease, occult loss and platinum chemotherapy lower haemoglobin in ovarian clear cell carcinoma, and the anaemia adds to the fatigue that burdens patients with this often chemoresistant tumour.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the tumour microenvironment dampens the anti-tumour T-cell response (CD8 and PD-1 already mapped), part of the immune evasion opposing the checkpoint therapy tested in the microsatellite-unstable subset.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Endometriosis oxidative stress: the endometriotic cysts from which ovarian clear cell carcinoma arises are iron-rich, and the oxidative stress (NRF2 already mapped), to which xanthine oxidase contributes, drives the carcinogenesis of this subtype.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Endometriosis inflammation: cyclooxygenase-2 and prostaglandin E2 drive the inflammation of the endometriotic cysts (IL-6 and IL-1 already mapped) from which ovarian clear cell carcinoma arises, part of its inflammation-driven carcinogenesis.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages (already mapped) toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune microenvironment of the chemoresistant ovarian clear cell carcinoma.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the vascular tone and angiogenesis of ovarian clear cell carcinoma, part of the stromal biology of this hypoxia-driven (HIF and EPAS1 already mapped) tumour.
 
 ---
 

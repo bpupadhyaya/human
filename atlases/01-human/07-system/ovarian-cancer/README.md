@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative and lysis stress: platinum chemotherapy and rapid cell turnover in ovarian cancer generate oxidative stress and release purines that xanthine oxidase converts to uric acid, adding oxidative and tumour-lysis burden."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages (already mapped) of the malignant ascites toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune-evasive microenvironment of ovarian cancer."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Anaemia and transfusion: the chronic disease and the platinum chemotherapy of ovarian cancer cause anaemia (haemoglobin already mapped) that can require transfusion, whose repeated support can load the body with iron."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Tumour vasculature and ascites: nitric oxide with VEGF and endothelin-1 (already mapped) regulates the angiogenesis and vascular permeability that drive the malignant ascites of ovarian cancer."
 ---
 
 # Ovarian Cancer
@@ -659,6 +668,9 @@ FTSEC ciliated and secretory cells line the Fallopian tube; secretory cells are 
 - `connects-to` → **[Small intestine](../../06-organ/small-intestine/README.md)** — Bowel obstruction: transcoelomic spread of ovarian cancer over the small intestine and its mesentery causes the malignant bowel obstruction (large intestine already mapped) that is a common and difficult terminal complication.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive ascites: IL-10 in the malignant ascites and its tumour-associated macrophages (already mapped) dampens the anti-tumour T-cell response (CD8 already mapped), part of the immune evasion of ovarian cancer.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative and lysis stress: platinum chemotherapy and rapid cell turnover in ovarian cancer generate oxidative stress and release purines that xanthine oxidase converts to uric acid, adding oxidative and tumour-lysis burden.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages (already mapped) of the malignant ascites toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune-evasive microenvironment of ovarian cancer.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Anaemia and transfusion: the chronic disease and the platinum chemotherapy of ovarian cancer cause anaemia (haemoglobin already mapped) that can require transfusion, whose repeated support can load the body with iron.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature and ascites: nitric oxide with VEGF and endothelin-1 (already mapped) regulates the angiogenesis and vascular permeability that drive the malignant ascites of ovarian cancer.
 
 [^burger-2011-gog0218]: Burger RA, Brady MF, Bookman MA, et al. Incorporation of bevacizumab in the primary treatment of ovarian cancer. *N Engl J Med.* 2011;365(26):2473-2483. [doi:10.1056/NEJMoa1104390](https://doi.org/10.1056/NEJMoa1104390) · [PubMed 22204724](https://pubmed.ncbi.nlm.nih.gov/22204724/)
 [^moore-2018-olaparib-solo1]: Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. *N Engl J Med.* 2018;379(26):2495-2505. [doi:10.1056/NEJMoa1810858](https://doi.org/10.1056/NEJMoa1810858) · [PubMed 30345884](https://pubmed.ncbi.nlm.nih.gov/30345884/)
