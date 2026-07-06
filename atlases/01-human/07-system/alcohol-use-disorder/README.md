@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin
     relation: connects-to
     note: "Glucose dysregulation: alcohol acutely inhibits gluconeogenesis to cause hypoglycaemia, while chronic pancreatic damage (pancreas already mapped) impairs insulin secretion, giving alcohol use disorder complex effects on glucose control."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Lipid effects: alcohol raises HDL yet also drives hypertriglyceridaemia and, in heavy use, an atherogenic dyslipidaemia (insulin already mapped), giving alcohol complex, dose-dependent effects on cholesterol and cardiovascular risk."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Electrolyte depletion: the poor intake, vomiting and renal losses of alcohol use disorder deplete potassium, and with the magnesium deficiency (already mapped) this predisposes to the arrhythmias and weakness of the malnourished drinker."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Inflammatory eicosanoids: prostaglandins from the glial neuroinflammation (TLR4 and microglia already mapped) and the alcoholic hepatitis contribute to the neuro- and hepato-inflammation of alcohol use disorder."
 ---
 
 # Alcohol Use Disorder
@@ -735,6 +744,9 @@ Prenatal alcohol exposure → leading preventable cause of intellectual disabili
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Alcohol-related anaemia: heavy drinking lowers haemoglobin through a direct marrow toxicity, folate deficiency causing macrocytosis, and gastrointestinal and variceal bleeding from the associated liver disease (already mapped).
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Pseudo-Cushing and hypertension: alcohol activates the HPA and renin-angiotensin-aldosterone systems (cortisol already mapped), contributing to the hypertension and the pseudo-Cushing state seen in alcohol use disorder.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Glucose dysregulation: alcohol acutely inhibits gluconeogenesis to cause hypoglycaemia, while chronic pancreatic damage (pancreas already mapped) impairs insulin secretion, giving alcohol use disorder complex effects on glucose control.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Lipid effects: alcohol raises HDL yet also drives hypertriglyceridaemia and, in heavy use, an atherogenic dyslipidaemia (insulin already mapped), giving alcohol complex, dose-dependent effects on cholesterol and cardiovascular risk.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Electrolyte depletion: the poor intake, vomiting and renal losses of alcohol use disorder deplete potassium, and with the magnesium deficiency (already mapped) this predisposes to the arrhythmias and weakness of the malnourished drinker.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Inflammatory eicosanoids: prostaglandins from the glial neuroinflammation (TLR4 and microglia already mapped) and the alcoholic hepatitis contribute to the neuro- and hepato-inflammation of alcohol use disorder.
 
 [^koob-2013-addiction-neuroscience]: Koob GF, Volkow ND. Neurocircuitry of addiction. *Neuropsychopharmacology.* 2010;35(1):217-238. [doi:10.1038/npp.2009.110](https://doi.org/10.1038/npp.2009.110) · [PubMed 19710631](https://pubmed.ncbi.nlm.nih.gov/19710631/)
 [^anton-2006-combine]: Anton RF, O'Malley SS, Ciraulo DA, et al. Combined pharmacotherapies and behavioral interventions for alcohol dependence: the COMBINE study. *JAMA.* 2006;295(17):2003-2017. [doi:10.1001/jama.295.17.2003](https://doi.org/10.1001/jama.295.17.2003) · [PubMed 16670409](https://pubmed.ncbi.nlm.nih.gov/16670409/)
