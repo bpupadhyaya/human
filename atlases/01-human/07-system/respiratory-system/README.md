@@ -414,6 +414,15 @@ cross_links:
   - target: 01-human/03-molecular/leptin
     relation: connects-to
     note: "Ventilatory drive: leptin stimulates central respiratory drive, and leptin resistance in obesity contributes to obesity hypoventilation syndrome, connecting the adipokine to the neural control of breathing."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "Neurogenic airway control: CGRP released from airway sensory nerves contributes to the neurogenic inflammation, vasodilation and cough reflex of the respiratory system, part of the neuro-immune regulation of the airways."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "Cough and neurogenic reflex: substance P from airway sensory nerves, with CGRP (already mapped), mediates the cough reflex and the neurogenic inflammation and bronchoconstriction of the respiratory tract."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative lung injury: xanthine-oxidase-derived reactive oxygen species contribute to the oxidative stress of respiratory disease (NRF2 already mapped), driving the epithelial injury and inflammation of the airways and alveoli."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -627,6 +636,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Connects-to** → [Mu-opioid receptor](../../03-molecular/mu-opioid-receptor/README.md): central respiratory drive: opioids acting on mu-opioid receptors in the brainstem (brain already mapped) suppress the respiratory rhythm, the mechanism of opioid respiratory depression that makes the respiratory system uniquely vulnerable to these drugs.
 - **Connects-to** → [Serotonin](../../03-molecular/serotonin/README.md): chemoreception and pulmonary tone: serotonergic medullary neurons contribute to central CO2 chemoreception and breathing control, while serotonin also constricts the pulmonary vasculature, linking the transmitter to both ventilation and lung perfusion.
 - **Connects-to** → [Leptin](../../03-molecular/leptin/README.md): ventilatory drive: leptin stimulates central respiratory drive, and leptin resistance in obesity contributes to obesity hypoventilation syndrome, connecting the adipokine to the neural control of breathing.
+- **Connects-to** → [CGRP](../../03-molecular/cgrp/README.md): neurogenic airway control: CGRP released from airway sensory nerves contributes to the neurogenic inflammation, vasodilation and cough reflex of the respiratory system, part of the neuro-immune regulation of the airways.
+- **Connects-to** → [Substance P](../../03-molecular/substance-p/README.md): cough and neurogenic reflex: substance P from airway sensory nerves, with CGRP (already mapped), mediates the cough reflex and the neurogenic inflammation and bronchoconstriction of the respiratory tract.
+- **Connects-to** → [Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md): oxidative lung injury: xanthine-oxidase-derived reactive oxygen species contribute to the oxidative stress of respiratory disease (NRF2 already mapped), driving the epithelial injury and inflammation of the airways and alveoli.
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.
 
 ## Pathology

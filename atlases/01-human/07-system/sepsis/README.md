@@ -415,6 +415,15 @@ cross_links:
   - target: 01-human/03-molecular/hemoglobin
     relation: connects-to
     note: "Anaemia of critical illness: sepsis lowers haemoglobin through hepcidin-driven iron sequestration (already mapped), marrow suppression and blood sampling, and the resulting anaemia complicates oxygen delivery in the critically ill."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Fever and vasodilation: prostaglandins, induced by the cytokines (IL-6, TNF and IL-1 already mapped) of the septic response, drive the fever and contribute to the inflammatory vasodilation of sepsis, part of its eicosanoid storm."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Vasoplegia and leak: histamine and other vasoactive mediators contribute to the vasodilation and capillary leak (nitric oxide already mapped) of the distributive shock of sepsis, worsening the hypotension and oedema."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "RAAS and relative adrenal insufficiency: sepsis activates the renin-angiotensin system, yet a relative deficiency of cortisol and aldosterone (cortisol already mapped) impairs the vascular response, underlying the vasopressor resistance of septic shock."
 ---
 
 # Sepsis
@@ -653,6 +662,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Lactic acidosis: tissue hypoperfusion and mitochondrial dysfunction in septic shock generate lactic acid, and the resulting proton excess produces the metabolic acidosis that is a key marker of severity and a target of resuscitation.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative burst injury: neutrophil and endothelial reactive oxygen species, including those from xanthine oxidase in ischaemia-reperfusion, damage tissues in sepsis and raise uric acid, part of the oxidative injury driving organ failure.
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Anaemia of critical illness: sepsis lowers haemoglobin through hepcidin-driven iron sequestration (already mapped), marrow suppression and blood sampling, and the resulting anaemia complicates oxygen delivery in the critically ill.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Fever and vasodilation: prostaglandins, induced by the cytokines (IL-6, TNF and IL-1 already mapped) of the septic response, drive the fever and contribute to the inflammatory vasodilation of sepsis, part of its eicosanoid storm.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Vasoplegia and leak: histamine and other vasoactive mediators contribute to the vasodilation and capillary leak (nitric oxide already mapped) of the distributive shock of sepsis, worsening the hypotension and oedema.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — RAAS and relative adrenal insufficiency: sepsis activates the renin-angiotensin system, yet a relative deficiency of cortisol and aldosterone (cortisol already mapped) impairs the vascular response, underlying the vasopressor resistance of septic shock.
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
