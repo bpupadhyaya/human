@@ -418,6 +418,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin
     relation: connects-to
     note: "Metabolic association: migraine is associated with insulin resistance and the metabolic syndrome, and impaired brain energy metabolism is one proposed contributor to the neuronal hyperexcitability underlying attacks."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative and energy stress: mitochondrial dysfunction and oxidative stress, to which xanthine oxidase contributes, are implicated in the neuronal energy deficit and hyperexcitability of migraine (NRF2 already mapped), and antioxidant supplements are used in prophylaxis."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Vascular risk: migraine, especially with aura, is associated with dyslipidaemia and a raised risk of stroke and cardiovascular events (insulin already mapped), part of its vascular comorbidity."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Obesity link: obesity raises migraine frequency, and the adipokine leptin, with the low-grade inflammation (IL-6 and TNF already mapped) of excess adiposity, is one proposed mediator of the obesity-migraine association."
 ---
 
 # Migraine
@@ -688,6 +697,9 @@ Episodic migraine (EM, <15 headache days/month) transforms to **chronic migraine
 - `connects-to` → **[Mu-opioid receptor](../../03-molecular/mu-opioid-receptor/README.md)** — Medication-overuse headache: opioids acting on the mu-opioid receptor relieve acute headache but, overused, cause medication-overuse headache and dependence, a major reason opioids are discouraged in migraine management.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Mineralocorticoid arm of the RAAS: alongside the angiotensin II already mapped, aldosterone and mineralocorticoid signalling are implicated in migraine, consistent with the preventive benefit of the renin-angiotensin blockade used in prophylaxis.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Metabolic association: migraine is associated with insulin resistance and the metabolic syndrome, and impaired brain energy metabolism is one proposed contributor to the neuronal hyperexcitability underlying attacks.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative and energy stress: mitochondrial dysfunction and oxidative stress, to which xanthine oxidase contributes, are implicated in the neuronal energy deficit and hyperexcitability of migraine (NRF2 already mapped), and antioxidant supplements are used in prophylaxis.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Vascular risk: migraine, especially with aura, is associated with dyslipidaemia and a raised risk of stroke and cardiovascular events (insulin already mapped), part of its vascular comorbidity.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Obesity link: obesity raises migraine frequency, and the adipokine leptin, with the low-grade inflammation (IL-6 and TNF already mapped) of excess adiposity, is one proposed mediator of the obesity-migraine association.
 
 [^gbd-2016-migraine-burden]: GBD 2016 Headache Collaborators. Global, regional, and national burden of migraine and tension-type headache, 1990-2016. *Lancet Neurol.* 2018;17(11):954-976. [doi:10.1016/S1474-4422(18)30322-3](https://doi.org/10.1016/S1474-4422(18)30322-3) · [PubMed 30353868](https://pubmed.ncbi.nlm.nih.gov/30353868/)
 [^goadsby-2002-migraine-review]: Goadsby PJ, Lipton RB, Ferrari MD. Migraine — current understanding and treatment. *N Engl J Med.* 2002;346(4):257-270. [doi:10.1056/NEJMra010917](https://doi.org/10.1056/NEJMra010917) · [PubMed 11807151](https://pubmed.ncbi.nlm.nih.gov/11807151/)

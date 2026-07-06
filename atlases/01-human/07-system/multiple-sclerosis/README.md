@@ -415,6 +415,15 @@ cross_links:
   - target: 01-human/03-molecular/progesterone
     relation: connects-to
     note: "Pregnancy protection: relapses fall markedly in the third trimester of pregnancy, when progesterone and estrogen (already mapped) are high, implicating these neurosteroids in the immune modulation and remyelination potential in multiple sclerosis."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative axonal injury: reactive oxygen species, to which xanthine oxidase contributes, drive the mitochondrial and axonal injury (NRF2 already mapped) that underlies the progressive, demyelination-independent neurodegeneration of multiple sclerosis."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Myelin lipid and repair: cholesterol is a major component of myelin and is required for remyelination by oligodendrocytes (already mapped), so its metabolism shapes both the injury and the repair capacity in multiple sclerosis."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Lesion eicosanoids: prostaglandins from the activated microglia (already mapped) and infiltrating cells contribute to the neuroinflammation (IL-6, TNF and IL-1 already mapped) of the active demyelinating lesion in multiple sclerosis."
 ---
 
 # Multiple Sclerosis
@@ -657,6 +666,9 @@ MS affects approximately **2.8 million people worldwide** (~1 million in the US)
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Th2 counter-response: IL-4 drives the protective type-2 T-cell response, and shifting the balance away from the pathogenic Th17 and Th1 arms (IL-17/IFN-gamma already mapped) toward IL-4-driven immunity is a long-sought therapeutic aim in multiple sclerosis.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Regulatory suppression: IL-10 from regulatory B and T cells restrains the autoimmune attack on myelin, and deficient IL-10-mediated regulation contributes to the unchecked inflammation of multiple sclerosis.
 - `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Pregnancy protection: relapses fall markedly in the third trimester of pregnancy, when progesterone and estrogen (already mapped) are high, implicating these neurosteroids in the immune modulation and remyelination potential in multiple sclerosis.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative axonal injury: reactive oxygen species, to which xanthine oxidase contributes, drive the mitochondrial and axonal injury (NRF2 already mapped) that underlies the progressive, demyelination-independent neurodegeneration of multiple sclerosis.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Myelin lipid and repair: cholesterol is a major component of myelin and is required for remyelination by oligodendrocytes (already mapped), so its metabolism shapes both the injury and the repair capacity in multiple sclerosis.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Lesion eicosanoids: prostaglandins from the activated microglia (already mapped) and infiltrating cells contribute to the neuroinflammation (IL-6, TNF and IL-1 already mapped) of the active demyelinating lesion in multiple sclerosis.
 
 [^compston-2008-ms-review]: Compston A, Coles A. Multiple sclerosis. *Lancet.* 2008;372(9648):1502-1517. [doi:10.1016/S0140-6736(08)61620-7](https://doi.org/10.1016/S0140-6736(08)61620-7) · [PubMed 18970977](https://pubmed.ncbi.nlm.nih.gov/18970977/)
 [^kappos-2006-natalizumab]: Polman CH, O'Connor PW, Havrdova E, et al. A randomized, placebo-controlled trial of natalizumab for relapsing multiple sclerosis. *N Engl J Med.* 2006;354(9):899-910. [doi:10.1056/NEJMoa044397](https://doi.org/10.1056/NEJMoa044397) · [PubMed 16510744](https://pubmed.ncbi.nlm.nih.gov/16510744/)
