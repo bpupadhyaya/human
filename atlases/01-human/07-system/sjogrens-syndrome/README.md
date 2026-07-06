@@ -409,6 +409,15 @@ cross_links:
   - target: 01-human/06-organ/heart
     relation: connects-to
     note: "Congenital heart block: anti-Ro/SSA antibodies from mothers with Sjögren's cross the placenta and damage the fetal cardiac conduction system, causing neonatal lupus with congenital complete heart block, a serious pregnancy complication."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 B-cell help: IL-13, with the IL-4 (already mapped) type-2 response, supports the intense B-cell activation (BAFF already mapped) that produces the anti-Ro/La autoantibodies and the glandular lymphoid organisation of Sjögren's."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "T-cell and Treg balance: IL-2 drives the T-cell responses in the lymphocytic sialadenitis of Sjögren's, and low-dose IL-2 to restore regulatory T cells (CTLA-4 already mapped) is being trialled to rebalance the autoimmunity."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative glandular injury: chronic lymphocytic inflammation of the exocrine glands generates oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species add to the epithelial damage of Sjögren's."
 ---
 
 # Sjögren's Syndrome
@@ -669,6 +678,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Anaemia and cytopenias: chronic inflammation and autoimmune cytopenias in Sjögren's syndrome lower haemoglobin, and anaemia with leukopenia is a common systemic feature alongside the hypergammaglobulinaemia (immunoglobulin G already mapped).
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Th2 B-cell help: IL-4 and type-2 T-cell help support the intense B-cell activation (BAFF already mapped) that produces the anti-Ro/La autoantibodies and drives the germinal-centre-like lymphoid organisation of the affected glands in Sjögren's.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Congenital heart block: anti-Ro/SSA antibodies from mothers with Sjögren's cross the placenta and damage the fetal cardiac conduction system, causing neonatal lupus with congenital complete heart block, a serious pregnancy complication.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 B-cell help: IL-13, with the IL-4 (already mapped) type-2 response, supports the intense B-cell activation (BAFF already mapped) that produces the anti-Ro/La autoantibodies and the glandular lymphoid organisation of Sjögren's.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell and Treg balance: IL-2 drives the T-cell responses in the lymphocytic sialadenitis of Sjögren's, and low-dose IL-2 to restore regulatory T cells (CTLA-4 already mapped) is being trialled to rebalance the autoimmunity.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative glandular injury: chronic lymphocytic inflammation of the exocrine glands generates oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species add to the epithelial damage of Sjögren's.
 
 ---
 

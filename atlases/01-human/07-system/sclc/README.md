@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/hemoglobin
     relation: connects-to
     note: "Anaemia: the intensive chemotherapy and marrow involvement of small cell lung cancer suppress erythropoiesis, lowering haemoglobin and causing the anaemia that adds to the fatigue of this aggressive disease."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Tumour-lysis acidosis: the rapid, bulky response of chemosensitive small cell lung cancer releases acids that, with lactate, produce the metabolic acidosis of tumour-lysis syndrome (urate already mapped), part of its acute metabolic risk."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive microenvironment: IL-10 in the tumour microenvironment dampens the anti-tumour T-cell response (PD-1 and CTLA-4 already mapped), part of the immune evasion that limits the durability of checkpoint benefit in small cell lung cancer."
+  - target: 01-human/03-molecular/mu-opioid-receptor
+    relation: connects-to
+    note: "Cancer pain and dyspnoea: opioids acting on the mu-opioid receptor relieve the pain of bone metastases and the refractory breathlessness of advanced small cell lung cancer, a mainstay of its palliative care."
 ---
 
 # Small Cell Lung Cancer
@@ -641,6 +650,9 @@ SCLC has highest rate of brain metastases among solid tumors (~50% at 2 years); 
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Immunotherapy: IL-2-driven T-cell expansion complements the checkpoint inhibitors (PD-1/CTLA-4 already mapped) now added to chemotherapy for small cell lung cancer, one of the few advances in a disease with otherwise poor durable control.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Tumour lysis: small cell lung cancer is highly chemosensitive with rapid, bulky responses, and the resulting tumour-lysis syndrome releases purines that xanthine oxidase converts to uric acid, managed with allopurinol or rasburicase.
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Anaemia: the intensive chemotherapy and marrow involvement of small cell lung cancer suppress erythropoiesis, lowering haemoglobin and causing the anaemia that adds to the fatigue of this aggressive disease.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Tumour-lysis acidosis: the rapid, bulky response of chemosensitive small cell lung cancer releases acids that, with lactate, produce the metabolic acidosis of tumour-lysis syndrome (urate already mapped), part of its acute metabolic risk.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the tumour microenvironment dampens the anti-tumour T-cell response (PD-1 and CTLA-4 already mapped), part of the immune evasion that limits the durability of checkpoint benefit in small cell lung cancer.
+- `connects-to` → **[Mu-opioid receptor](../../03-molecular/mu-opioid-receptor/README.md)** — Cancer pain and dyspnoea: opioids acting on the mu-opioid receptor relieve the pain of bone metastases and the refractory breathlessness of advanced small cell lung cancer, a mainstay of its palliative care.
 
 [^horn-2018-impower133]: Horn L, Mansfield AS, Szczęsna A, et al. First-line atezolizumab plus chemotherapy in extensive-stage small-cell lung cancer. *N Engl J Med.* 2018;379(23):2220-2229. [doi:10.1056/NEJMoa1809064](https://doi.org/10.1056/NEJMoa1809064) · [PubMed 30280641](https://pubmed.ncbi.nlm.nih.gov/30280641/)
 [^paz-ares-2019-caspian]: Paz-Ares L, Dvorkin M, Chen Y, et al. Durvalumab plus platinum-etoposide versus platinum-etoposide in first-line treatment of extensive-stage small-cell lung cancer (CASPIAN). *Lancet.* 2019;394(10212):1929-1939. [doi:10.1016/S0140-6736(19)32222-6](https://doi.org/10.1016/S0140-6736(19)32222-6) · [PubMed 31590988](https://pubmed.ncbi.nlm.nih.gov/31590988/)
