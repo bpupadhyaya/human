@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Tumour lysis and oxidative stress: the high proliferative rate of this embryonal tumour, lysed by chemotherapy, releases purines catabolised by xanthine oxidase to uric acid, contributing to tumour-lysis risk and oxidative stress."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Proton craniospinal therapy: proton-beam radiotherapy spares the developing infant brain (already mapped) compared with photon (already mapped) craniospinal irradiation, an important consideration in the very young children with atypical teratoid/rhabdoid tumour."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive microenvironment: IL-10 in the tumour microenvironment dampens the anti-tumour T-cell response (PD-1, CTLA-4 and CD8 already mapped), part of the immune evasion of this aggressive embryonal tumour."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the vascular tone and angiogenesis of the highly vascular atypical teratoid/rhabdoid tumour, part of its stromal microenvironment."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -662,6 +671,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Chemotherapy anaemia: the intensive multi-agent chemotherapy for atypical teratoid/rhabdoid tumour is profoundly myelosuppressive, lowering haemoglobin and causing the anaemia and cytopenias that complicate treatment in these very young children.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Anthracycline cardiotoxicity: anthracyclines in the treatment regimens are cardiotoxic, and troponin elevation helps detect the myocardial injury that threatens the few long-term survivors of atypical teratoid/rhabdoid tumour.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Tumour lysis and oxidative stress: the high proliferative rate of this embryonal tumour, lysed by chemotherapy, releases purines catabolised by xanthine oxidase to uric acid, contributing to tumour-lysis risk and oxidative stress.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Proton craniospinal therapy: proton-beam radiotherapy spares the developing infant brain (already mapped) compared with photon (already mapped) craniospinal irradiation, an important consideration in the very young children with atypical teratoid/rhabdoid tumour.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the tumour microenvironment dampens the anti-tumour T-cell response (PD-1, CTLA-4 and CD8 already mapped), part of the immune evasion of this aggressive embryonal tumour.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the vascular tone and angiogenesis of the highly vascular atypical teratoid/rhabdoid tumour, part of its stromal microenvironment.
 
 ---
 

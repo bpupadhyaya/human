@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/04-cellular/t-helper-cell
     relation: connects-to
     note: "Immune surveillance: helper T cells coordinate the anti-tumour response against basal cell carcinoma, and the cutaneous immunosuppression of chronic sun exposure weakens this surveillance, favouring tumour development."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Hedgehog-lipid link: cholesterol and its oxysterol derivatives activate Smoothened (already mapped), the driver of the Hedgehog pathway (PTCH1 already mapped) in basal cell carcinoma, linking cellular lipid handling to the oncogenic signalling."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "UV photocarcinogenesis: ultraviolet exposure induces cyclooxygenase-2 and prostaglandin E2 in the skin, promoting the inflammation and immunosuppression of photocarcinogenesis, and NSAIDs are studied for basal cell carcinoma chemoprevention."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative UV damage: ultraviolet exposure generates reactive oxygen species, to which xanthine oxidase contributes, adding oxidative DNA damage (NRF2 already mapped) to the mutational burden that drives basal cell carcinoma."
 ---
 
 # Basal Cell Carcinoma
@@ -665,6 +674,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — UV immunosuppression: ultraviolet light (photon already mapped) induces IL-10 and other immunosuppressive signals in the skin, dampening the T-cell surveillance that would otherwise eliminate the transformed keratinocytes of basal cell carcinoma.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — UV and tumour vasculature: ultraviolet exposure raises cutaneous nitric oxide, contributing to the immunosuppression and vasodilation of sun-damaged skin, and NO supports the angiogenesis (VEGF already mapped) of the growing tumour.
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — Immune surveillance: helper T cells coordinate the anti-tumour response against basal cell carcinoma, and the cutaneous immunosuppression of chronic sun exposure weakens this surveillance, favouring tumour development.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Hedgehog-lipid link: cholesterol and its oxysterol derivatives activate Smoothened (already mapped), the driver of the Hedgehog pathway (PTCH1 already mapped) in basal cell carcinoma, linking cellular lipid handling to the oncogenic signalling.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — UV photocarcinogenesis: ultraviolet exposure induces cyclooxygenase-2 and prostaglandin E2 in the skin, promoting the inflammation and immunosuppression of photocarcinogenesis, and NSAIDs are studied for basal cell carcinoma chemoprevention.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative UV damage: ultraviolet exposure generates reactive oxygen species, to which xanthine oxidase contributes, adding oxidative DNA damage (NRF2 already mapped) to the mutational burden that drives basal cell carcinoma.
 
 ---
 
