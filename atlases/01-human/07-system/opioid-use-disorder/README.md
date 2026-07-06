@@ -418,6 +418,15 @@ cross_links:
   - target: 01-human/03-molecular/progesterone
     relation: connects-to
     note: "Neurosteroid modulation: progesterone and its metabolite allopregnanolone modulate opioid reward and withdrawal severity, contributing, with estrogen (already mapped), to the sex differences in opioid use disorder."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Glial hyperalgesia: prostaglandins from the opioid-activated glia (TLR4 already mapped) contribute to the neuroinflammation and the opioid-induced hyperalgesia and tolerance that complicate long-term opioid use."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative neuroinflammation: the glial activation and withdrawal stress of opioid use disorder generate oxidative stress, to which xanthine oxidase contributes, and the reactive oxygen species add to the neuroinflammation (NLRP3 already mapped) of tolerance."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "Appetite-reward crosstalk: GLP-1 signalling links the gut-hormone (ghrelin already mapped) and reward pathways, and GLP-1 receptor agonists are being investigated to reduce the drug reward and craving of opioid use disorder."
 ---
 
 # Opioid Use Disorder
@@ -706,6 +715,9 @@ The primary mechanism by which opioids produce euphoria:
 - `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Respiratory acidosis: opioid overdose depresses brainstem breathing, and the resulting carbon-dioxide and proton retention produce a respiratory acidosis that, with hypoxia, drives the fatal outcome reversed by naloxone.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Neuroimmune tolerance: opioids activate glia through TLR4 (already mapped), and the balance of pro-inflammatory cytokines against the anti-inflammatory IL-10 shapes the neuroinflammation implicated in opioid tolerance and hyperalgesia.
 - `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Neurosteroid modulation: progesterone and its metabolite allopregnanolone modulate opioid reward and withdrawal severity, contributing, with estrogen (already mapped), to the sex differences in opioid use disorder.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Glial hyperalgesia: prostaglandins from the opioid-activated glia (TLR4 already mapped) contribute to the neuroinflammation and the opioid-induced hyperalgesia and tolerance that complicate long-term opioid use.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative neuroinflammation: the glial activation and withdrawal stress of opioid use disorder generate oxidative stress, to which xanthine oxidase contributes, and the reactive oxygen species add to the neuroinflammation (NLRP3 already mapped) of tolerance.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Appetite-reward crosstalk: GLP-1 signalling links the gut-hormone (ghrelin already mapped) and reward pathways, and GLP-1 receptor agonists are being investigated to reduce the drug reward and craving of opioid use disorder.
 
 [^volkow-2016-opioid-crisis]: Volkow ND, Collins FS. The role of science in addressing the opioid crisis. *N Engl J Med.* 2017;377(4):391-394. [doi:10.1056/NEJMsr1706626](https://doi.org/10.1056/NEJMsr1706626) · [PubMed 28723324](https://pubmed.ncbi.nlm.nih.gov/28723324/)
 [^mattick-2009-bupe-meta]: Mattick RP, Breen C, Kimber J, Davoli M. Buprenorphine maintenance versus placebo or methadone maintenance for opioid dependence. *Cochrane Database Syst Rev.* 2014;2:CD002207. [doi:10.1002/14651858.CD002207.pub4](https://doi.org/10.1002/14651858.CD002207.pub4) · [PubMed 24500948](https://pubmed.ncbi.nlm.nih.gov/24500948/)
