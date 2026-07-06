@@ -409,6 +409,15 @@ cross_links:
   - target: 01-human/03-molecular/cholesterol
     relation: connects-to
     note: "Metabolic dyslipidaemia: the obesity and insulin resistance (already mapped) that drive endometrial cancer come with atherogenic dyslipidaemia, and cholesterol metabolism intersects the estrogen and mTOR pathways fuelling the tumour."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Inflammation-estrogen link: cyclooxygenase-2-derived prostaglandin E2 in the endometrial tumour and adipose stroma induces aromatase and local estrogen (already mapped) synthesis, linking the obesity-associated inflammation to the hormone drive of endometrial cancer."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive microenvironment: IL-10 in the tumour microenvironment dampens the anti-tumour T-cell response (PD-1 and CD8 already mapped), the immune evasion that is more readily overcome in the mismatch-repair-deficient (MLH1 already mapped) tumours."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative and lysis stress: the chemotherapy of advanced endometrial cancer generates oxidative stress and cell lysis releasing purines that xanthine oxidase converts to uric acid, adding an oxidative and tumour-lysis burden to treatment."
 ---
 
 # Endometrial Cancer
@@ -664,6 +673,9 @@ cross_links:
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — MSI immunotherapy: the mismatch-repair-deficient endometrial cancers (MLH1/MSH2 already mapped) are neoantigen-rich and respond to checkpoint blockade (PD-1 already mapped), and IL-2-driven T-cell activity underlies this immune sensitivity.
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Bleeding anaemia: abnormal uterine and postmenopausal bleeding is the cardinal presentation of endometrial cancer, and the chronic blood loss produces an iron-deficiency anaemia lowering haemoglobin that often prompts diagnosis.
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Metabolic dyslipidaemia: the obesity and insulin resistance (already mapped) that drive endometrial cancer come with atherogenic dyslipidaemia, and cholesterol metabolism intersects the estrogen and mTOR pathways fuelling the tumour.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Inflammation-estrogen link: cyclooxygenase-2-derived prostaglandin E2 in the endometrial tumour and adipose stroma induces aromatase and local estrogen (already mapped) synthesis, linking the obesity-associated inflammation to the hormone drive of endometrial cancer.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the tumour microenvironment dampens the anti-tumour T-cell response (PD-1 and CD8 already mapped), the immune evasion that is more readily overcome in the mismatch-repair-deficient (MLH1 already mapped) tumours.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative and lysis stress: the chemotherapy of advanced endometrial cancer generates oxidative stress and cell lysis releasing purines that xanthine oxidase converts to uric acid, adding an oxidative and tumour-lysis burden to treatment.
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)

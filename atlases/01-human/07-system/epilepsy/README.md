@@ -418,6 +418,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin
     relation: connects-to
     note: "Metabolic seizures: hypoglycaemia from excess insulin provokes seizures, and the metabolic fuel switch underlies the ketogenic diet's efficacy, linking glucose and insulin handling to seizure control in epilepsy."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative epileptogenesis: seizures and the underlying injury generate reactive oxygen species, to which xanthine oxidase contributes, and this oxidative stress (NRF2 already mapped) promotes the epileptogenesis and neuronal damage of recurrent seizures."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Neuroinflammatory balance: the anti-inflammatory IL-10 opposes the pro-inflammatory cytokines (IL-1, TNF and IL-6 already mapped) of the neuroinflammation that promotes epileptogenesis, part of the immune dimension of epilepsy."
+  - target: 01-human/03-molecular/dopamine
+    relation: connects-to
+    note: "Dopaminergic threshold: dopamine modulates the seizure threshold, with D1 receptors tending to be proconvulsant and D2 anticonvulsant (serotonin and norepinephrine already mapped), part of the neuromodulatory control of seizure susceptibility."
 ---
 
 # Epilepsy
@@ -703,6 +712,9 @@ Anti-NMDAR encephalitis is the most common autoimmune encephalitis (~37% of auto
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Noradrenergic seizure threshold: the noradrenergic system raises the seizure threshold, and vagus-nerve stimulation exerts part of its anticonvulsant effect through norepinephrine, complementing the serotonergic modulation (already mapped) of seizure control.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histaminergic modulation: central histamine raises the seizure threshold, which is why H1-antihistamines that cross into the brain can lower it, implicating the histaminergic system in seizure susceptibility.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Metabolic seizures: hypoglycaemia from excess insulin provokes seizures, and the metabolic fuel switch underlies the ketogenic diet's efficacy, linking glucose and insulin handling to seizure control in epilepsy.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative epileptogenesis: seizures and the underlying injury generate reactive oxygen species, to which xanthine oxidase contributes, and this oxidative stress (NRF2 already mapped) promotes the epileptogenesis and neuronal damage of recurrent seizures.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Neuroinflammatory balance: the anti-inflammatory IL-10 opposes the pro-inflammatory cytokines (IL-1, TNF and IL-6 already mapped) of the neuroinflammation that promotes epileptogenesis, part of the immune dimension of epilepsy.
+- `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — Dopaminergic threshold: dopamine modulates the seizure threshold, with D1 receptors tending to be proconvulsant and D2 anticonvulsant (serotonin and norepinephrine already mapped), part of the neuromodulatory control of seizure susceptibility.
 
 [^fisher-2017-ilae-classification]: Fisher RS, Cross JH, D'Souza C, et al. Instruction manual for the ILAE 2017 operational classification of seizure types. *Epilepsia.* 2017;58(4):531-542. [doi:10.1111/epi.13671](https://doi.org/10.1111/epi.13671) · [PubMed 28276060](https://pubmed.ncbi.nlm.nih.gov/28276060/)
 [^devinsky-2018-epilepsy-review]: Devinsky O, Vezzani A, O'Brien TJ, et al. Epilepsy. *Nat Rev Dis Primers.* 2018;4:18024. [doi:10.1038/nrdp.2018.24](https://doi.org/10.1038/nrdp.2018.24) · [PubMed 29722352](https://pubmed.ncbi.nlm.nih.gov/29722352/)
