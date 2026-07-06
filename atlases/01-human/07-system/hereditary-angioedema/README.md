@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "Lymphoproliferative association: IL-2-driven lymphocyte proliferation underlies the B-cell disorders linked to acquired C1-inhibitor deficiency, the clonal expansions that consume C1-inhibitor or generate the autoantibodies causing acquired angioedema."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Kinin-RAAS crosstalk: angiotensin-converting enzyme both generates angiotensin II (already mapped) toward aldosterone and degrades bradykinin (already mapped), so ACE inhibitors raise bradykinin and can precipitate angioedema attacks, contraindicated in hereditary angioedema."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immune regulation in acquired disease: IL-10 and immunoregulatory signals shape the autoreactive response of acquired C1-inhibitor deficiency (IL-6 already mapped), the immune-mediated form distinct from the genetic deficiency of hereditary angioedema."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Autoantibody help: CD4 T-cell help (MHC class II and IL-2 already mapped) supports the B cells producing the anti-C1-inhibitor autoantibodies of acquired angioedema, distinguishing it from the inherited C1-inhibitor deficiency."
 ---
 
 # Hereditary Angioedema
@@ -678,6 +687,9 @@ Fluid extravasation → ANGIOEDEMA
 - `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Acquired C1-INH deficiency: an acquired angioedema mimicking the hereditary disease arises from IgG autoantibodies against C1-inhibitor (already mapped), usually with an underlying B-cell lymphoproliferative disorder, a key differential of bradykinin-mediated swelling.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Autoantibody presentation: in acquired C1-inhibitor deficiency, MHC class II-restricted T-cell help underlies the anti-C1-INH autoantibody response, distinguishing this immune-mediated form from the genetic deficiency of hereditary angioedema.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Lymphoproliferative association: IL-2-driven lymphocyte proliferation underlies the B-cell disorders linked to acquired C1-inhibitor deficiency, the clonal expansions that consume C1-inhibitor or generate the autoantibodies causing acquired angioedema.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Kinin-RAAS crosstalk: angiotensin-converting enzyme both generates angiotensin II (already mapped) toward aldosterone and degrades bradykinin (already mapped), so ACE inhibitors raise bradykinin and can precipitate angioedema attacks, contraindicated in hereditary angioedema.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immune regulation in acquired disease: IL-10 and immunoregulatory signals shape the autoreactive response of acquired C1-inhibitor deficiency (IL-6 already mapped), the immune-mediated form distinct from the genetic deficiency of hereditary angioedema.
+- `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — Autoantibody help: CD4 T-cell help (MHC class II and IL-2 already mapped) supports the B cells producing the anti-C1-inhibitor autoantibodies of acquired angioedema, distinguishing it from the inherited C1-inhibitor deficiency.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)

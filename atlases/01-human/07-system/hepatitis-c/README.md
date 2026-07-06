@@ -408,6 +408,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "Antiviral T-cell response: IL-2-driven T-cell expansion generates the HCV-specific T cells needed to clear the virus, and their functional exhaustion (PD-1 already mapped) is central to the establishment of chronic infection."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative hepatic injury: the iron accumulation (hepcidin already mapped), steatosis and inflammation of chronic hepatitis C generate reactive oxygen species, to which xanthine oxidase contributes, driving the fibrosis toward cirrhosis and cancer."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Portal hypertension: as chronic hepatitis C progresses to cirrhosis, dysregulated nitric oxide contributes to the splanchnic vasodilation and portal hypertension (collagen already mapped for fibrosis) that cause its life-threatening complications."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Steatosis and insulin resistance: hepatitis C drives hepatic steatosis and insulin resistance (insulin already mapped), and the fall in the insulin-sensitising adiponectin contributes to the metabolic dimension that accelerates its liver disease."
 ---
 
 # Hepatitis C
@@ -664,3 +673,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Cryoglobulinaemia: chronic HCV drives B-cell (already mapped) production of mixed cryoglobulins, cold-precipitating IgM-IgG immune complexes that cause a systemic vasculitis, the commonest extrahepatic manifestation of the infection.
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Ribavirin haemolysis: the ribavirin used in older HCV regimens causes a dose-limiting haemolytic anaemia that lowers haemoglobin, a toxicity now largely avoided by the interferon- and ribavirin-free direct-acting antivirals.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Antiviral T-cell response: IL-2-driven T-cell expansion generates the HCV-specific T cells needed to clear the virus, and their functional exhaustion (PD-1 already mapped) is central to the establishment of chronic infection.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative hepatic injury: the iron accumulation (hepcidin already mapped), steatosis and inflammation of chronic hepatitis C generate reactive oxygen species, to which xanthine oxidase contributes, driving the fibrosis toward cirrhosis and cancer.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Portal hypertension: as chronic hepatitis C progresses to cirrhosis, dysregulated nitric oxide contributes to the splanchnic vasodilation and portal hypertension (collagen already mapped for fibrosis) that cause its life-threatening complications.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Steatosis and insulin resistance: hepatitis C drives hepatic steatosis and insulin resistance (insulin already mapped), and the fall in the insulin-sensitising adiponectin contributes to the metabolic dimension that accelerates its liver disease.
