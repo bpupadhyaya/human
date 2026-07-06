@@ -415,6 +415,15 @@ cross_links:
   - target: 01-human/03-molecular/hemoglobin
     relation: connects-to
     note: "Chemotherapy anaemia: breast-cancer chemotherapy is myelosuppressive and lowers haemoglobin, and marrow replacement by metastatic disease compounds the anaemia that contributes to fatigue in advanced breast cancer."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Inflammation-estrogen link: cyclooxygenase-2-derived prostaglandin E2 in the breast tumour and adipose stroma induces aromatase and local estrogen (already mapped) synthesis, linking inflammation to the hormone drive of estrogen-receptor-positive breast cancer."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive microenvironment: IL-10 in the tumour microenvironment dampens the anti-tumour T-cell response (PD-1 and CD8 already mapped), part of the immune evasion that limits checkpoint benefit outside the immunogenic triple-negative subset."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative and lysis stress: the chemotherapy of breast cancer generates oxidative stress and cell lysis releasing purines that xanthine oxidase converts to uric acid, adding an oxidative and tumour-lysis burden to treatment."
 ---
 
 # Breast Cancer
@@ -653,6 +662,9 @@ cross_links:
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiotoxicity: HER2-directed trastuzumab (already mapped) and anthracycline chemotherapy are cardiotoxic, and troponin elevation helps detect the myocardial injury that limits these effective breast-cancer treatments.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Immunotherapy: IL-2-driven T-cell responses underlie the tumour-infiltrating lymphocytes and checkpoint benefit (PD-1 already mapped) seen mainly in triple-negative breast cancer, the immunogenic subset where immunotherapy is effective.
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Chemotherapy anaemia: breast-cancer chemotherapy is myelosuppressive and lowers haemoglobin, and marrow replacement by metastatic disease compounds the anaemia that contributes to fatigue in advanced breast cancer.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Inflammation-estrogen link: cyclooxygenase-2-derived prostaglandin E2 in the breast tumour and adipose stroma induces aromatase and local estrogen (already mapped) synthesis, linking inflammation to the hormone drive of estrogen-receptor-positive breast cancer.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the tumour microenvironment dampens the anti-tumour T-cell response (PD-1 and CD8 already mapped), part of the immune evasion that limits checkpoint benefit outside the immunogenic triple-negative subset.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative and lysis stress: the chemotherapy of breast cancer generates oxidative stress and cell lysis releasing purines that xanthine oxidase converts to uric acid, adding an oxidative and tumour-lysis burden to treatment.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

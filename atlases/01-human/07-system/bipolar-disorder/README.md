@@ -418,6 +418,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "Mineralocorticoid stress axis: aldosterone acts on brain mineralocorticoid receptors that, balanced against glucocorticoid receptors (already mapped), tune the stress response and mood regulation dysregulated in bipolar disorder."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Neuroinflammatory eicosanoids: prostaglandins from the low-grade neuroinflammation (IL-6, TNF and IL-1 already mapped) implicated in bipolar disorder modulate the mood circuits, part of the inflammatory neuroprogression of the illness."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Lithium diabetes insipidus: chronic lithium induces resistance to vasopressin in the kidney (already mapped), causing nephrogenic diabetes insipidus with polyuria, and vasopressin also participates in the HPA stress axis dysregulated in bipolar disorder."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Metabolic syndrome: bipolar disorder and its antipsychotic and mood-stabiliser treatment promote an atherogenic dyslipidaemia (insulin and leptin already mapped), part of the metabolic syndrome that raises its cardiovascular mortality."
 ---
 
 # Bipolar Disorder
@@ -681,6 +690,9 @@ During bipolar depression (often longer and more disabling than mania):
 - `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Reproductive-cycle mood: mood episodes in bipolar disorder cluster around the perinatal period and menstrual cycle, implicating progesterone and its neurosteroid metabolites, alongside estrogen (already mapped), in the hormonal triggering of episodes.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — Stress reactivity: central angiotensin II modulates stress responses and interacts with the HPA axis (cortisol already mapped), a neuroendocrine system implicated in the stress sensitivity that precipitates mood episodes in bipolar disorder.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Mineralocorticoid stress axis: aldosterone acts on brain mineralocorticoid receptors that, balanced against glucocorticoid receptors (already mapped), tune the stress response and mood regulation dysregulated in bipolar disorder.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Neuroinflammatory eicosanoids: prostaglandins from the low-grade neuroinflammation (IL-6, TNF and IL-1 already mapped) implicated in bipolar disorder modulate the mood circuits, part of the inflammatory neuroprogression of the illness.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Lithium diabetes insipidus: chronic lithium induces resistance to vasopressin in the kidney (already mapped), causing nephrogenic diabetes insipidus with polyuria, and vasopressin also participates in the HPA stress axis dysregulated in bipolar disorder.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Metabolic syndrome: bipolar disorder and its antipsychotic and mood-stabiliser treatment promote an atherogenic dyslipidaemia (insulin and leptin already mapped), part of the metabolic syndrome that raises its cardiovascular mortality.
 
 [^grande-2016-bipolar-review]: Grande I, Berk M, Birmaher B, Vieta E. Bipolar disorder. *Lancet.* 2016;387(10027):1561-1572. [doi:10.1016/S0140-6736(15)00241-X](https://doi.org/10.1016/S0140-6736(15)00241-X) · [PubMed 26388529](https://pubmed.ncbi.nlm.nih.gov/26388529/)
 [^geddes-2013-bipolar-treatment]: Geddes JR, Miklowitz DJ. Treatment of bipolar disorder. *Lancet.* 2013;381(9878):1672-1682. [doi:10.1016/S0140-6736(13)60857-0](https://doi.org/10.1016/S0140-6736(13)60857-0) · [PubMed 23663953](https://pubmed.ncbi.nlm.nih.gov/23663953/)
