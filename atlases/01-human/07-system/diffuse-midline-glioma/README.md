@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Tumour vasculature: nitric oxide regulates vascular tone and, with VEGF (already mapped), the angiogenesis and hypoxic microenvironment of diffuse midline glioma, part of the stromal biology of this infiltrative brainstem tumour."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Neuroinflammatory eicosanoids: prostaglandins from the tumour-associated microglia (already mapped) and the cyclooxygenase pathway contribute to the neuroinflammation (IL-6 and IL-1 already mapped) of the diffuse midline glioma microenvironment."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative microenvironment: the infiltrative diffuse midline glioma generates oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species are part of its hypoxic (HIF-1-alpha already mapped) tumour microenvironment."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 microglial polarisation: IL-4 polarises the tumour-associated microglia and macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune-evasive niche of diffuse midline glioma."
 ---
 
 # Diffuse Midline Glioma
@@ -682,6 +691,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: the anti-inflammatory cytokine IL-10 helps make diffuse midline glioma an immunologically cold tumour (PD-1 already mapped), blunting the T-cell response that CAR-T and vaccine strategies aim to mount.
 - `connects-to` → **[GABA](../../03-molecular/gaba/README.md)** — Neuronal activity: alongside the glutamatergic neuron-glioma synapses (glutamate already mapped), GABAergic signalling modulates the neuronal electrical activity that drives the growth of diffuse midline glioma, an emerging neuro-oncology target.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide regulates vascular tone and, with VEGF (already mapped), the angiogenesis and hypoxic microenvironment of diffuse midline glioma, part of the stromal biology of this infiltrative brainstem tumour.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Neuroinflammatory eicosanoids: prostaglandins from the tumour-associated microglia (already mapped) and the cyclooxygenase pathway contribute to the neuroinflammation (IL-6 and IL-1 already mapped) of the diffuse midline glioma microenvironment.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative microenvironment: the infiltrative diffuse midline glioma generates oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species are part of its hypoxic (HIF-1-alpha already mapped) tumour microenvironment.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 microglial polarisation: IL-4 polarises the tumour-associated microglia and macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune-evasive niche of diffuse midline glioma.
 
 ---
 

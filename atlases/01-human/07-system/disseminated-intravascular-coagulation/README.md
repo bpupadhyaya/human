@@ -418,6 +418,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "Endothelial vasodilation: adrenomedullin rises with the endothelial activation (already mapped) of the sepsis and DIC, contributing to the vasodilation and vascular leak of shock, and is studied as a biomarker and therapeutic target."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Thromboxane and inflammation: the prostaglandin/thromboxane balance on the activated platelets (already mapped) and endothelium shifts toward the prothrombotic thromboxane, part of the platelet activation and inflammation of DIC."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Platelet serotonin: serotonin released from the activated, consumed platelets (PF4 already mapped) causes vasoconstriction and amplifies platelet aggregation in the widespread microthrombi of DIC."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Haemolysis and iron: the microangiopathic haemolysis of DIC fragments red cells (haemoglobin already mapped) releasing iron, while the inflammatory hepcidin (already mapped) sequesters it, part of the anaemia of the critical illness."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -682,6 +691,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Cytokine balance: the anti-inflammatory cytokine IL-10 counters the TNF, IL-1 and IL-6 (already mapped) that ignite the coagulation of sepsis-induced DIC, and the balance between them shapes the severity of the coagulopathy.
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Inflammatory iron handling: the IL-6 surge (already mapped) of the sepsis that commonly triggers DIC raises hepcidin, sequestering iron and contributing to the anaemia (haemoglobin already mapped) of the critical illness.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — Endothelial vasodilation: adrenomedullin rises with the endothelial activation (already mapped) of the sepsis and DIC, contributing to the vasodilation and vascular leak of shock, and is studied as a biomarker and therapeutic target.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Thromboxane and inflammation: the prostaglandin/thromboxane balance on the activated platelets (already mapped) and endothelium shifts toward the prothrombotic thromboxane, part of the platelet activation and inflammation of DIC.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Platelet serotonin: serotonin released from the activated, consumed platelets (PF4 already mapped) causes vasoconstriction and amplifies platelet aggregation in the widespread microthrombi of DIC.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Haemolysis and iron: the microangiopathic haemolysis of DIC fragments red cells (haemoglobin already mapped) releasing iron, while the inflammatory hepcidin (already mapped) sequesters it, part of the anaemia of the critical illness.
 
 ---
 
