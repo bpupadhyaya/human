@@ -418,6 +418,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative mucosal injury: reactive oxygen species from the infiltrating neutrophils (already mapped) and xanthine oxidase damage the epithelial barrier in inflammatory bowel disease, and this oxidative stress (NRF2 already mapped) perpetuates the inflammation."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Mucosal iNOS: inducible nitric oxide synthase is upregulated in the inflamed gut of inflammatory bowel disease, and the resulting nitric oxide, with the oxidative stress (already mapped), contributes to the epithelial injury and altered blood flow."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Bile-acid malabsorption: ileal Crohn's disease and resection disrupt the enterohepatic circulation of the bile acids derived from cholesterol, causing bile-acid diarrhoea and disturbed lipid handling, part of the malabsorption of inflammatory bowel disease."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Metabolic bone disease: the malabsorption, chronic inflammation and steroid therapy of inflammatory bowel disease deplete calcium and vitamin D, causing the osteoporosis and metabolic bone disease that complicate the illness."
 ---
 
 # Inflammatory Bowel Disease
@@ -679,6 +688,9 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Mucosal eicosanoids: prostaglandins both protect and inflame the gut mucosa, so NSAIDs that block their synthesis can precipitate inflammatory bowel disease flares, while their modulation is part of the mucosal inflammatory response.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Gut motility and secretion: enterochromaffin-cell serotonin, elevated in the inflamed mucosa, drives the diarrhoea, altered motility and visceral hypersensitivity that contribute to the symptoms of inflammatory bowel disease.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative mucosal injury: reactive oxygen species from the infiltrating neutrophils (already mapped) and xanthine oxidase damage the epithelial barrier in inflammatory bowel disease, and this oxidative stress (NRF2 already mapped) perpetuates the inflammation.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Mucosal iNOS: inducible nitric oxide synthase is upregulated in the inflamed gut of inflammatory bowel disease, and the resulting nitric oxide, with the oxidative stress (already mapped), contributes to the epithelial injury and altered blood flow.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Bile-acid malabsorption: ileal Crohn's disease and resection disrupt the enterohepatic circulation of the bile acids derived from cholesterol, causing bile-acid diarrhoea and disturbed lipid handling, part of the malabsorption of inflammatory bowel disease.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Metabolic bone disease: the malabsorption, chronic inflammation and steroid therapy of inflammatory bowel disease deplete calcium and vitamin D, causing the osteoporosis and metabolic bone disease that complicate the illness.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)
