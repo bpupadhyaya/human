@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/03-molecular/angiotensin-ii
     relation: connects-to
     note: "Renovascular hypertension: NF1 vasculopathy (nitric oxide already mapped) causes renal artery stenosis that activates the renin-angiotensin system, and angiotensin II drives the resulting renovascular hypertension seen in affected children and adults."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "Neurofibroma matrix: neurofibromas are composed of Schwann cells, fibroblasts (already mapped) and mast cells in a loose, collagen-rich myxoid stroma, the abundant extracellular matrix giving these NF1 tumours their soft texture."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Tumour microenvironment: IL-10 among the cytokines of the neurofibroma microenvironment, with the mast cells (already mapped) and macrophages, shapes the immune milieu that supports the growth of these NF1 nerve-sheath tumours."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Cardiac involvement: NF1 carries congenital heart disease (heart already mapped), hypertrophic cardiomyopathy and vasculopathy, and troponin elevation can mark the myocardial injury of these cardiovascular manifestations."
 ---
 
 # Neurofibromatosis Type 1
@@ -644,6 +653,9 @@ In glioma and MPNST: additional alterations required — MPNST requires CDKN2A/2
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Hormonal neurofibroma growth: neurofibromas often enlarge during puberty and pregnancy, implicating estrogen and the reproductive-hormone surge in the growth of these tumours, which express hormone receptors.
 - `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Pregnancy growth: progesterone receptors are expressed on many NF1 neurofibromas, and the progesterone rise of pregnancy is associated with their accelerated growth, part of the hormonal influence (estrogen already mapped) on the disease.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — Renovascular hypertension: NF1 vasculopathy (nitric oxide already mapped) causes renal artery stenosis that activates the renin-angiotensin system, and angiotensin II drives the resulting renovascular hypertension seen in affected children and adults.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Neurofibroma matrix: neurofibromas are composed of Schwann cells, fibroblasts (already mapped) and mast cells in a loose, collagen-rich myxoid stroma, the abundant extracellular matrix giving these NF1 tumours their soft texture.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Tumour microenvironment: IL-10 among the cytokines of the neurofibroma microenvironment, with the mast cells (already mapped) and macrophages, shapes the immune milieu that supports the growth of these NF1 nerve-sheath tumours.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiac involvement: NF1 carries congenital heart disease (heart already mapped), hypertrophic cardiomyopathy and vasculopathy, and troponin elevation can mark the myocardial injury of these cardiovascular manifestations.
 
 [^gutmann-2017-nf1-primer]: Gutmann DH, Ferner RE, Listernick RH, et al. Neurofibromatosis type 1. *Nat Rev Dis Primers.* 2017;3:17004. [doi:10.1038/nrdp.2017.4](https://doi.org/10.1038/nrdp.2017.4) · [PubMed 28230061](https://pubmed.ncbi.nlm.nih.gov/28230061/)
 [^dombi-2016-selumetinib]: Dombi E, Baldwin A, Marcus LJ, et al. Activity of Selumetinib in Neurofibromatosis Type 1-Related Plexiform Neurofibromas. *N Engl J Med.* 2016;375(26):2550-2560. [doi:10.1056/NEJMoa1605943](https://doi.org/10.1056/NEJMoa1605943) · [PubMed 28029918](https://pubmed.ncbi.nlm.nih.gov/28029918/)

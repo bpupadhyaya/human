@@ -403,6 +403,15 @@ cross_links:
   - target: 01-human/06-organ/adrenal-gland
     relation: connects-to
     note: "Adrenal medullary tumours: phaeochromocytomas and paragangliomas are catecholamine-secreting neuroendocrine tumours of the adrenal medulla and sympathetic ganglia (SDHB already mapped), part of the spectrum that DOTATATE and MIBG imaging localise."
+  - target: 01-human/03-molecular/acth
+    relation: connects-to
+    note: "Ectopic ACTH: bronchial and pancreatic neuroendocrine tumours can secrete ACTH ectopically, driving cortisol excess and ectopic Cushing syndrome, one of the paraneoplastic hormone syndromes of the neuroendocrine tumour spectrum."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Carcinoid mediators: prostaglandins, with the serotonin, histamine and bradykinin (already mapped) released by metastatic carcinoid tumours, contribute to the flushing and diarrhoea of the carcinoid syndrome that somatostatin analogues suppress."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Flushing and vasculature: nitric oxide contributes to the vasodilatory flushing of the carcinoid syndrome and, with VEGF (already mapped), the rich vasculature of these often highly vascular neuroendocrine tumours."
 ---
 
 # Neuroendocrine Tumors
@@ -598,6 +607,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Carcinoid heart disease: serotonin-secreting midgut neuroendocrine tumours (serotonin already mapped) cause fibrotic plaques on the right-sided heart valves, and troponin marks the myocardial strain of the resulting right heart failure.
 - `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Gastrinoma acid: gastrin-secreting neuroendocrine tumours drive massive gastric acid (proton) secretion (Zollinger-Ellison syndrome), causing refractory peptic ulceration controlled with high-dose proton-pump inhibitors.
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — Adrenal medullary tumours: phaeochromocytomas and paragangliomas are catecholamine-secreting neuroendocrine tumours of the adrenal medulla and sympathetic ganglia (SDHB already mapped), part of the spectrum that DOTATATE and MIBG imaging localise.
+- `connects-to` → **[ACTH](../../03-molecular/acth/README.md)** — Ectopic ACTH: bronchial and pancreatic neuroendocrine tumours can secrete ACTH ectopically, driving cortisol excess and ectopic Cushing syndrome, one of the paraneoplastic hormone syndromes of the neuroendocrine tumour spectrum.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Carcinoid mediators: prostaglandins, with the serotonin, histamine and bradykinin (already mapped) released by metastatic carcinoid tumours, contribute to the flushing and diarrhoea of the carcinoid syndrome that somatostatin analogues suppress.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Flushing and vasculature: nitric oxide contributes to the vasodilatory flushing of the carcinoid syndrome and, with VEGF (already mapped), the rich vasculature of these often highly vascular neuroendocrine tumours.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Hypervascular tumours: HIF-1α-driven, VEGF-rich angiogenesis makes neuroendocrine tumours strikingly vascular, the rationale for anti-angiogenic agents such as sunitinib.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Grade and progression: TERT activation maintaining telomeres accompanies the progression of neuroendocrine tumours toward higher-grade, more aggressive disease.
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Proliferative drive: MYC activation drives the higher proliferative rate of poorly differentiated neuroendocrine carcinomas, marking their aggressive behaviour.
