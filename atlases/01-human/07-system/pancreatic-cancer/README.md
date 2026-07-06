@@ -418,6 +418,15 @@ cross_links:
   - target: 01-human/01-subatomic/proton
     relation: connects-to
     note: "Radiotherapy: stereotactic body and proton radiotherapy delivering ionising radiation are used for locally advanced, borderline-resectable pancreatic cancer, aiming to improve local control and resectability of this hard-to-treat tumour."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "COX-2 carcinogenesis: cyclooxygenase-2 and prostaglandin E2 from the chronic pancreatitis and tumour inflammation (IL-6 and IL-1 already mapped) promote the proliferation and immunosuppression of the KRAS-driven (already mapped) carcinogenesis of pancreatic cancer."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped) in the dense desmoplastic stroma, part of the immune-excluded, cold microenvironment of pancreatic cancer."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Anaemia of malignancy: the chronic disease, gastrointestinal bleeding and chemotherapy of pancreatic cancer cause anaemia (haemoglobin already mapped) that can require transfusion, whose repeated support can load the body with iron."
 ---
 
 # Pancreatic Cancer
@@ -671,6 +680,9 @@ cross_links:
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive stroma: IL-10, with the TGF-beta (already mapped) of the desmoplastic stroma and its macrophages (already mapped), makes pancreatic cancer an immunologically cold tumour in which checkpoint blockade has largely failed.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative carcinogenesis: chronic pancreatitis and smoking generate reactive oxygen species, to which xanthine oxidase contributes, and this oxidative DNA damage (NRF2 already mapped) helps drive the KRAS-initiated (already mapped) carcinogenesis of pancreatic cancer.
 - `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Radiotherapy: stereotactic body and proton radiotherapy delivering ionising radiation are used for locally advanced, borderline-resectable pancreatic cancer, aiming to improve local control and resectability of this hard-to-treat tumour.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — COX-2 carcinogenesis: cyclooxygenase-2 and prostaglandin E2 from the chronic pancreatitis and tumour inflammation (IL-6 and IL-1 already mapped) promote the proliferation and immunosuppression of the KRAS-driven (already mapped) carcinogenesis of pancreatic cancer.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped) in the dense desmoplastic stroma, part of the immune-excluded, cold microenvironment of pancreatic cancer.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Anaemia of malignancy: the chronic disease, gastrointestinal bleeding and chemotherapy of pancreatic cancer cause anaemia (haemoglobin already mapped) that can require transfusion, whose repeated support can load the body with iron.
 
 ---
 

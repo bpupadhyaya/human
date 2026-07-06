@@ -418,6 +418,15 @@ cross_links:
   - target: 01-human/03-molecular/glp-1
     relation: connects-to
     note: "Gut-brain interoception: GLP-1 signalling in the brainstem and hypothalamus links visceral and metabolic state to the interoceptive processing (insulin already mapped) whose misreading contributes to the bodily alarm of a panic attack."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Metabolic association: panic disorder is associated with metabolic and cardiovascular findings, and the dyslipidaemia (insulin already mapped) that clusters with anxiety links lipid metabolism to the disorder and its cardiac risk."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Adipokine-stress link: the adipokine leptin, part of the appetite and stress-axis signalling (insulin already mapped), is altered in anxiety disorders, a metabolic dimension of the dysregulated fear and autonomic responses of panic disorder."
+  - target: 01-human/03-molecular/ghrelin
+    relation: connects-to
+    note: "Stress and appetite: ghrelin rises with stress and modulates the HPA (cortisol already mapped) and fear responses, and its dysregulation, with leptin (already mapped), links the appetite-stress axis to the anxiety of panic disorder."
 ---
 
 # Panic Disorder
@@ -696,6 +705,9 @@ The **interoceptive fear conditioning model** (Bouton, Mineka, Barlow) explains 
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative stress: anxiety disorders including panic are associated with heightened oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species may affect the fear-circuit neurons and stress physiology.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Neuroinflammation: prostaglandins from the low-grade neuroinflammation (IL-6 and IL-1 already mapped) linked to panic disorder modulate the fear circuitry and the autonomic and stress responses that generate panic attacks.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Gut-brain interoception: GLP-1 signalling in the brainstem and hypothalamus links visceral and metabolic state to the interoceptive processing (insulin already mapped) whose misreading contributes to the bodily alarm of a panic attack.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Metabolic association: panic disorder is associated with metabolic and cardiovascular findings, and the dyslipidaemia (insulin already mapped) that clusters with anxiety links lipid metabolism to the disorder and its cardiac risk.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adipokine-stress link: the adipokine leptin, part of the appetite and stress-axis signalling (insulin already mapped), is altered in anxiety disorders, a metabolic dimension of the dysregulated fear and autonomic responses of panic disorder.
+- `connects-to` → **[Ghrelin](../../03-molecular/ghrelin/README.md)** — Stress and appetite: ghrelin rises with stress and modulates the HPA (cortisol already mapped) and fear responses, and its dysregulation, with leptin (already mapped), links the appetite-stress axis to the anxiety of panic disorder.
 
 [^gorman-2000-panic-neurobiology]: Gorman JM, Kent JM, Sullivan GM, Coplan JD. Neuroanatomical hypothesis of panic disorder, revised. *Am J Psychiatry.* 2000;157(4):493-505. [doi:10.1176/appi.ajp.157.4.493](https://doi.org/10.1176/appi.ajp.157.4.493) · [PubMed 10739407](https://pubmed.ncbi.nlm.nih.gov/10739407/)
 [^nardi-2009-clonazepam-panic]: Nardi AE, Freire RC, Zin WA. Panic disorder and control of breathing. *Respir Physiol Neurobiol.* 2009;167(1):133-143. [doi:10.1016/j.resp.2008.07.011](https://doi.org/10.1016/j.resp.2008.07.011) · [PubMed 18708168](https://pubmed.ncbi.nlm.nih.gov/18708168/)
