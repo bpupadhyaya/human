@@ -442,6 +442,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Gut mucosal macrophages: the macrophages of the gut wall and the Kupffer cells of the liver sample the luminal contents and maintain tolerance (secretory IgA already mapped), a large part of the body's immune tissue serving the digestive system."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Magnesium absorption: the small intestine of the digestive system absorbs dietary magnesium, and the malabsorption of gut disease (or proton-pump inhibitors) causes the hypomagnesaemia of digestive disorders."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Gut inflammation: TNF from the gut-associated lymphoid tissue (IL-6 and IL-10 already mapped) is a central mediator of the inflammation of the digestive tract, the target of anti-TNF therapy in inflammatory bowel disease."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "Mucosal Th17 defence: IL-17 from the gut mucosal Th17 cells defends the epithelial barrier of the digestive system against invading microbes, and its dysregulation drives the inflammation of gut immune disease."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -672,6 +681,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [Nervous system](../nervous-system/README.md) — the gut-brain axis: the enteric nervous system and the vagal and serotonergic signalling (serotonin, dopamine and BDNF already mapped) link the digestive system to the nervous system, coordinating motility, secretion and appetite.
 - **Connects to:** [Sodium](../../02-atomic/sodium/README.md) — sodium-coupled absorption: sodium gradients power the absorption of glucose and amino acids across the intestinal epithelium, and sodium handling (chloride already mapped) governs the fluid balance of the digestive tract.
 - **Connects to:** [Macrophage](../../04-cellular/macrophage/README.md) — gut mucosal macrophages: the macrophages of the gut wall and the Kupffer cells of the liver sample the luminal contents and maintain tolerance (secretory IgA already mapped), a large part of the body's immune tissue serving the digestive system.
+- **Connects to:** [Magnesium](../../02-atomic/magnesium/README.md) — magnesium absorption: the small intestine of the digestive system absorbs dietary magnesium, and the malabsorption of gut disease (or proton-pump inhibitors) causes the hypomagnesaemia of digestive disorders.
+- **Connects to:** [TNF-alpha](../../03-molecular/tnf-alpha/README.md) — gut inflammation: TNF from the gut-associated lymphoid tissue (IL-6 and IL-10 already mapped) is a central mediator of the inflammation of the digestive tract, the target of anti-TNF therapy in inflammatory bowel disease.
+- **Connects to:** [IL-17a](../../03-molecular/il-17a/README.md) — mucosal Th17 defence: IL-17 from the gut mucosal Th17 cells defends the epithelial barrier of the digestive system against invading microbes, and its dysregulation drives the inflammation of gut immune disease.
 
 ## Pathology
 

@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "Retinal zinc: zinc is highly concentrated in the retina, where it supports the antioxidant and enzymatic function (xanthine oxidase already mapped) of the tissue, and disturbed zinc handling is part of the diabetic retinal injury."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Retinal neuroinflammation: IL-13, with IL-4 (already mapped), modulates the M2 macrophage and microglial arm of the neuroinflammation (TNF and IL-6 already mapped) of the diabetic retina."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipokine milieu: resistin, with leptin and adiponectin (already mapped), is part of the adipokine milieu of the obesity and insulin resistance (insulin already mapped) that drives the microvascular disease of diabetic retinopathy."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Copper and angiogenesis: copper is a cofactor for the enzymes of angiogenesis (VEGF already mapped) and collagen (already mapped) cross-linking, and disturbed copper handling is implicated in the aberrant retinal neovascularisation."
 ---
 
 # Diabetic Retinopathy
@@ -677,6 +686,9 @@ DR encompasses a spectrum from subtle vascular changes to sight-threatening neov
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Retinal microglial polarisation: IL-4 polarises the retinal microglia (already mapped) and macrophages toward an M2 phenotype (IL-10 already mapped), part of the neuroinflammatory balance that shapes the progression of diabetic retinopathy.
 - `connects-to` → **[PCSK9](../../03-molecular/pcsk9/README.md)** — Dyslipidaemia and exudates: the dyslipidaemia in which PCSK9 regulates LDL clearance (cholesterol already mapped) drives the hard exudates of diabetic maculopathy, and lipid-lowering with fenofibrate slows the retinopathy.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Retinal zinc: zinc is highly concentrated in the retina, where it supports the antioxidant and enzymatic function (xanthine oxidase already mapped) of the tissue, and disturbed zinc handling is part of the diabetic retinal injury.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Retinal neuroinflammation: IL-13, with IL-4 (already mapped), modulates the M2 macrophage and microglial arm of the neuroinflammation (TNF and IL-6 already mapped) of the diabetic retina.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine milieu: resistin, with leptin and adiponectin (already mapped), is part of the adipokine milieu of the obesity and insulin resistance (insulin already mapped) that drives the microvascular disease of diabetic retinopathy.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper and angiogenesis: copper is a cofactor for the enzymes of angiogenesis (VEGF already mapped) and collagen (already mapped) cross-linking, and disturbed copper handling is implicated in the aberrant retinal neovascularisation.
 
 [^fong-2004-dr-review]: Fong DS, Aiello L, Gardner TW, et al. Diabetic retinopathy. *Diabetes Care.* 2004;27(10):2540-2553. [doi:10.2337/diacare.27.10.2540](https://doi.org/10.2337/diacare.27.10.2540) · [PubMed 15451934](https://pubmed.ncbi.nlm.nih.gov/15451934/)
 [^brown-2015-aflibercept-protocol-t]: Diabetic Retinopathy Clinical Research Network; Wells JA, Glassman AR, et al. Aflibercept, Bevacizumab, or Ranibizumab for Diabetic Macular Edema. *N Engl J Med.* 2015;372(13):1193-1203. [doi:10.1056/NEJMoa1414264](https://doi.org/10.1056/NEJMoa1414264) · [PubMed 25692915](https://pubmed.ncbi.nlm.nih.gov/25692915/)
