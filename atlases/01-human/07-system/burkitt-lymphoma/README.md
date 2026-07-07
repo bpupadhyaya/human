@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/03-molecular/il-4
     relation: connects-to
     note: "Starry-sky macrophages: IL-4 polarises the tingible-body macrophages that engulf the abundant apoptotic cells, producing the classic 'starry-sky' appearance (IL-10 already mapped) of the M2 macrophages in Burkitt lymphoma."
+  - target: 01-human/07-system/hiv
+    relation: connects-to
+    note: "AIDS-associated lymphoma: Burkitt lymphoma is an AIDS-defining lymphoma, HIV predisposing to it via the immune dysregulation, a form distinct from the endemic EBV/malaria (LMP1 already mapped) variant."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 starry-sky arm: IL-13, with IL-4 (already mapped), supports the M2 tingible-body macrophage (already mapped) 'starry-sky' phenotype of Burkitt lymphoma."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Adipokine microenvironment: leptin signals from the adipose and marrow microenvironment to the aggressive lymphoma cells, part of the metabolic context (xanthine oxidase already mapped) of Burkitt lymphoma."
 ---
 
 # Burkitt Lymphoma
@@ -702,6 +711,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — CNS involvement: Burkitt lymphoma has a high risk of central nervous system involvement and relapse, requiring intrathecal chemotherapy prophylaxis to the brain and meninges as part of curative therapy.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Tumour-lysis hyperkalaemia: the massive, rapid cell turnover of Burkitt lymphoma (xanthine oxidase and urate already mapped) releases potassium, the hyperkalaemia of tumour-lysis syndrome being a life-threatening metabolic emergency.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Starry-sky macrophages: IL-4 polarises the tingible-body macrophages that engulf the abundant apoptotic cells, producing the classic 'starry-sky' appearance (IL-10 already mapped) of the M2 macrophages in Burkitt lymphoma.
+- `connects-to` → **[HIV](../hiv/README.md)** — AIDS-associated lymphoma: Burkitt lymphoma is an AIDS-defining lymphoma, HIV predisposing to it via the immune dysregulation, a form distinct from the endemic EBV/malaria (LMP1 already mapped) variant.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 starry-sky arm: IL-13, with IL-4 (already mapped), supports the M2 tingible-body macrophage (already mapped) 'starry-sky' phenotype of Burkitt lymphoma.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adipokine microenvironment: leptin signals from the adipose and marrow microenvironment to the aggressive lymphoma cells, part of the metabolic context (xanthine oxidase already mapped) of Burkitt lymphoma.
 
 ---
 

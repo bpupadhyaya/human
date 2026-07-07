@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/07-system/schwannomatosis
     relation: connects-to
     note: "Melanotic schwannomas: the psammomatous melanotic schwannomas — pigmented nerve-sheath tumours — are a characteristic feature of Carney complex, overlapping the schwannoma-predisposition disorders."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Steroidogenesis substrate: cholesterol is the precursor of the cortisol, aldosterone and testosterone (all already mapped) over-produced by the PPNAD (adrenal already mapped) and the gonadal tumours of Carney complex."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 tumour microenvironment: IL-4 polarises the M2 tumour-associated macrophages of the immunosuppressive microenvironment of the endocrine and myxomatous tumours of Carney complex."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Cushing metabolic adipokine: leptin reflects the metabolic disturbance of the Cushing syndrome (cortisol already mapped) and the endocrine tumours of Carney complex."
 ---
 
 # Carney Complex
@@ -689,6 +698,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Pituitary tumours: the growth-hormone-secreting somatotroph adenomas (GH and IGF-1 already mapped) of the pituitary in the brain cause the acromegaly of Carney complex, part of its multiple-endocrine-tumour phenotype.
 - `connects-to` → **[Thyroid](../../06-organ/thyroid/README.md)** — Thyroid tumours: the thyroid follicular adenomas and carcinomas (thyroid hormones already mapped) are part of the endocrine-tumour spectrum of Carney complex, driven by the constitutive PKA activity of PRKAR1A loss (already mapped).
 - `connects-to` → **[Schwannomatosis](../schwannomatosis/README.md)** — Melanotic schwannomas: the psammomatous melanotic schwannomas — pigmented nerve-sheath tumours — are a characteristic feature of Carney complex, overlapping the schwannoma-predisposition disorders.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Steroidogenesis substrate: cholesterol is the precursor of the cortisol, aldosterone and testosterone (all already mapped) over-produced by the PPNAD (adrenal already mapped) and the gonadal tumours of Carney complex.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 tumour microenvironment: IL-4 polarises the M2 tumour-associated macrophages of the immunosuppressive microenvironment of the endocrine and myxomatous tumours of Carney complex.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Cushing metabolic adipokine: leptin reflects the metabolic disturbance of the Cushing syndrome (cortisol already mapped) and the endocrine tumours of Carney complex.
 
 ---
 
