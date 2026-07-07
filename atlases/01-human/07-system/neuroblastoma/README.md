@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the angiogenesis and vascular tone of the highly vascular neuroblastoma, part of the stromal biology of the tumour."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Marrow-adipose adipokine: leptin from the marrow adipose tissue signals to the metastatic neuroblastoma cells in the bone marrow (already mapped), part of its metabolic microenvironment."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the marrow-adipose adipokine milieu of the metabolic microenvironment of metastatic neuroblastoma."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), completes the marrow-adipose adipokine signalling of the metabolic microenvironment of neuroblastoma."
 ---
 
 # Neuroblastoma
@@ -704,6 +713,9 @@ Stage MS (metastatic, <18 months, skin/liver/bone marrow only, MYCN wild-type): 
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 tumour-associated macrophage niche of the immunosuppressive microenvironment of neuroblastoma.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper and catecholamines: copper is the cofactor of dopamine-β-hydroxylase, which makes noradrenaline from dopamine (both already mapped), the catecholamine biosynthesis of the neuroblastoma cells that secrete the VMA and HVA used to diagnose and monitor the tumour.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the angiogenesis and vascular tone of the highly vascular neuroblastoma, part of the stromal biology of the tumour.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Marrow-adipose adipokine: leptin from the marrow adipose tissue signals to the metastatic neuroblastoma cells in the bone marrow (already mapped), part of its metabolic microenvironment.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the marrow-adipose adipokine milieu of the metabolic microenvironment of metastatic neuroblastoma.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), completes the marrow-adipose adipokine signalling of the metabolic microenvironment of neuroblastoma.
 
 [^yu-2010-dinutuximab-nb]: Yu AL, Gilman AL, Ozkaynak MF, et al. Anti-GD2 antibody with GM-CSF, interleukin-2, and isotretinoin for neuroblastoma. *N Engl J Med.* 2010;363(14):1324-1334. [doi:10.1056/NEJMoa0911123](https://doi.org/10.1056/NEJMoa0911123) · [PubMed 20879881](https://pubmed.ncbi.nlm.nih.gov/20879881/)
 [^park-2019-tandem-sct-nb]: Park JR, Kreissman SG, London WB, et al. Effect of tandem autologous stem cell transplant vs single transplant on event-free survival in patients with high-risk neuroblastoma: a randomized clinical trial. *JAMA.* 2019;322(8):746-755. [doi:10.1001/jama.2019.11642](https://doi.org/10.1001/jama.2019.11642) · [PubMed 31454023](https://pubmed.ncbi.nlm.nih.gov/31454023/)

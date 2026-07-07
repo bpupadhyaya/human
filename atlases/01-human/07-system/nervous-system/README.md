@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "Neuroimmune interface: the nervous and immune systems signal bidirectionally — the microglia (already mapped), the neuroinflammation (TNF, IL-1 and IL-6 already mapped) and the neural control of immunity — a deep integration of the two systems."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "Inhibitory signalling: the chloride influx through the GABA-A (GABA already mapped) and glycine receptors hyperpolarises the neurons, the fundamental inhibitory signal of the nervous system."
+  - target: 01-human/03-molecular/npy
+    relation: connects-to
+    note: "Neuropeptide Y: NPY is an abundant CNS neuropeptide regulating the appetite (leptin already mapped), anxiety and autonomic function of the nervous system."
+  - target: 01-human/03-molecular/ghrelin
+    relation: connects-to
+    note: "Gut-brain appetite hormone: ghrelin acts on the hypothalamic appetite circuits and the reward pathways of the nervous system, linking the gut hormone to the central control of feeding."
 ---
 
 # Nervous System
@@ -615,6 +624,9 @@ Distributed cortical networks underlie language (Broca's area, Wernicke's area, 
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Microglial polarisation: IL-4 polarises the microglia (already mapped) toward an anti-inflammatory M2 phenotype, the neuroimmune arm that shapes neural repair and the resolution of neuroinflammation in the nervous system.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Synaptic zinc: zinc is co-released with glutamate (already mapped) at many excitatory synapses, where it modulates the NMDA receptors and synaptic plasticity, a signalling trace metal of the nervous system.
 - `connects-to` → **[Immune system](../immune-system/README.md)** — Neuroimmune interface: the nervous and immune systems signal bidirectionally — the microglia (already mapped), the neuroinflammation (TNF, IL-1 and IL-6 already mapped) and the neural control of immunity — a deep integration of the two systems.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Inhibitory signalling: the chloride influx through the GABA-A (GABA already mapped) and glycine receptors hyperpolarises the neurons, the fundamental inhibitory signal of the nervous system.
+- `connects-to` → **[NPY](../../03-molecular/npy/README.md)** — Neuropeptide Y: NPY is an abundant CNS neuropeptide regulating the appetite (leptin already mapped), anxiety and autonomic function of the nervous system.
+- `connects-to` → **[Ghrelin](../../03-molecular/ghrelin/README.md)** — Gut-brain appetite hormone: ghrelin acts on the hypothalamic appetite circuits and the reward pathways of the nervous system, linking the gut hormone to the central control of feeding.
 
 ## Pathology
 
