@@ -427,6 +427,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "PTHrP hypercalcaemia: squamous NSCLC characteristically secretes parathyroid-hormone-related peptide (PTH already mapped), raising calcium to cause the humoral hypercalcaemia of malignancy with its confusion and renal impairment."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the microenvironment that the checkpoint immunotherapy central to NSCLC must overcome."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "Adrenal metastasis: the adrenal glands are a characteristic site of NSCLC metastasis, the visceral spread that defines stage IV disease alongside the liver (already mapped) and brain (already mapped)."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Radiotherapy: stereotactic body photon radiotherapy cures early inoperable NSCLC, and concurrent chemoradiotherapy treats stage III disease, photon radiation a mainstay of the non-metastatic tumour."
 ---
 
 # NSCLC
@@ -664,6 +673,9 @@ cross_links:
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — COX-2 carcinogenesis: tobacco induces cyclooxygenase-2 and prostaglandin E2 in the airway, promoting the proliferation, angiogenesis (VEGF already mapped) and immunosuppression of lung carcinogenesis, and COX-2 has been studied as a target in NSCLC.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Hepatic and adrenal metastasis: NSCLC commonly metastasises to the liver and adrenal glands, the visceral spread that defines stage IV disease and shapes systemic therapy.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — PTHrP hypercalcaemia: squamous NSCLC characteristically secretes parathyroid-hormone-related peptide (PTH already mapped), raising calcium to cause the humoral hypercalcaemia of malignancy with its confusion and renal impairment.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the microenvironment that the checkpoint immunotherapy central to NSCLC must overcome.
+- `connects-to` → **[Adrenal gland](../../06-organ/adrenal-gland/README.md)** — Adrenal metastasis: the adrenal glands are a characteristic site of NSCLC metastasis, the visceral spread that defines stage IV disease alongside the liver (already mapped) and brain (already mapped).
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiotherapy: stereotactic body photon radiotherapy cures early inoperable NSCLC, and concurrent chemoradiotherapy treats stage III disease, photon radiation a mainstay of the non-metastatic tumour.
 
 [^soria-2018-osimertinib-flaura]: Soria JC, Ohe Y, Vansteenkiste J, et al. Osimertinib in untreated EGFR-mutated advanced non-small-cell lung cancer. *N Engl J Med.* 2018;378(2):113-125. [doi:10.1056/NEJMoa1713137](https://doi.org/10.1056/NEJMoa1713137) · [PubMed 29151359](https://pubmed.ncbi.nlm.nih.gov/29151359/)
 [^reck-2016-pembrolizumab-keynote024]: Reck M, Rodríguez-Abreu D, Robinson AG, et al. Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell lung cancer. *N Engl J Med.* 2016;375(19):1823-1833. [doi:10.1056/NEJMoa1606774](https://doi.org/10.1056/NEJMoa1606774) · [PubMed 27718347](https://pubmed.ncbi.nlm.nih.gov/27718347/)
