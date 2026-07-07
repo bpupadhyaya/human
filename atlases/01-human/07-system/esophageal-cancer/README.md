@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "Fistula and metastasis: locally advanced oesophageal cancer can erode into the airway to form a tracheo-oesophageal fistula, and the lung is a common site of the metastases of advanced disease."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the microenvironment the checkpoint inhibitors now standard in oesophageal cancer must overcome."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Desmoplastic stroma: the cancer-associated fibroblasts lay down the desmoplastic stroma (TGF-β already mapped) of oesophageal cancer, supporting the invasion and the treatment resistance of the tumour."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Iron-deficiency anaemia: the chronic occult bleeding of the oesophageal tumour and the dysphagia-related malnutrition cause the iron-deficiency anaemia (haemoglobin already mapped) common at presentation."
 ---
 
 # Esophageal Cancer
@@ -693,6 +702,9 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — COX-2 and Barrett's: cyclooxygenase-2 and prostaglandin E2 rise in Barrett's oesophagus and the adenocarcinoma it precedes, promoting the inflammation and proliferation of carcinogenesis, and aspirin is studied for chemoprevention.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the tumour microenvironment dampens the anti-tumour T-cell response (PD-1 and perforin already mapped), part of the immune escape that the checkpoint inhibitors now standard in oesophageal cancer aim to reverse.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Fistula and metastasis: locally advanced oesophageal cancer can erode into the airway to form a tracheo-oesophageal fistula, and the lung is a common site of the metastases of advanced disease.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the microenvironment the checkpoint inhibitors now standard in oesophageal cancer must overcome.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Desmoplastic stroma: the cancer-associated fibroblasts lay down the desmoplastic stroma (TGF-β already mapped) of oesophageal cancer, supporting the invasion and the treatment resistance of the tumour.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron-deficiency anaemia: the chronic occult bleeding of the oesophageal tumour and the dysphagia-related malnutrition cause the iron-deficiency anaemia (haemoglobin already mapped) common at presentation.
 
 ---
 

@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "Pulmonary thrombosis: essential thrombocythaemia predisposes to pulmonary embolism and, over time, chronic thromboembolic pulmonary hypertension, part of the venous and arterial thrombotic burden of the disease."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Inflammatory milieu: IL-4 and the M2 macrophage arm (IL-10 already mapped) shape the chronic inflammation (IL-6 and TNF already mapped) of the myeloproliferative marrow, part of the disease biology of essential thrombocythaemia."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Marrow adipose crosstalk: the marrow adipocytes and their adipokine leptin signal to the clonal megakaryocytes, part of the bone-marrow (already mapped) microenvironment of essential thrombocythaemia."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Adipokine microenvironment: adiponectin, with leptin (already mapped), from the marrow adipose tissue signals to the myeloproliferative clone, part of the metabolic microenvironment of essential thrombocythaemia."
 ---
 
 # Essential Thrombocythemia
@@ -673,6 +682,9 @@ Management:
 - `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Microvascular vasoconstriction: endothelin-1 and the platelet-derived vasoactive mediators (serotonin already mapped) contribute to the microvascular vasoconstriction behind the erythromelalgia and neurological symptoms of essential thrombocythaemia.
 - `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Endothelial activation: the angiopoietin-Tie2 axis reflects the endothelial activation of the prothrombotic state of essential thrombocythaemia, part of the endothelium's contribution (von Willebrand factor already mapped) to its thrombosis.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Pulmonary thrombosis: essential thrombocythaemia predisposes to pulmonary embolism and, over time, chronic thromboembolic pulmonary hypertension, part of the venous and arterial thrombotic burden of the disease.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Inflammatory milieu: IL-4 and the M2 macrophage arm (IL-10 already mapped) shape the chronic inflammation (IL-6 and TNF already mapped) of the myeloproliferative marrow, part of the disease biology of essential thrombocythaemia.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Marrow adipose crosstalk: the marrow adipocytes and their adipokine leptin signal to the clonal megakaryocytes, part of the bone-marrow (already mapped) microenvironment of essential thrombocythaemia.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine microenvironment: adiponectin, with leptin (already mapped), from the marrow adipose tissue signals to the myeloproliferative clone, part of the metabolic microenvironment of essential thrombocythaemia.
 
 [^harrison-2005-pt1-et]: Harrison CN, Campbell PJ, Buck G, et al. Hydroxyurea compared with anagrelide in high-risk essential thrombocythemia. *N Engl J Med.* 2005;353(1):33-45. [doi:10.1056/NEJMoa043800](https://doi.org/10.1056/NEJMoa043800) · [PubMed 16000354](https://pubmed.ncbi.nlm.nih.gov/16000354/)
 [^barbui-2012-ipset]: Barbui T, Finazzi G, Carobbio A, et al. Development and validation of an International Prognostic Score of thrombosis in World Health Organization-essential thrombocythemia (IPSET-thrombosis). *Blood.* 2012;120(26):5128-5133. [doi:10.1182/blood-2012-07-444067](https://doi.org/10.1182/blood-2012-07-444067) · [PubMed 23086758](https://pubmed.ncbi.nlm.nih.gov/23086758/)
