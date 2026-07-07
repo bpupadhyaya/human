@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/03-molecular/leptin
     relation: connects-to
     note: "Adipose and endometriosis: leptin links the obesity and the endometriosis-associated adipose milieu to the pathogenesis of ovarian clear cell carcinoma, part of the metabolic dimension of the tumour."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Endometriosis-adipose adipokine: adiponectin, with leptin (already mapped), is part of the adipose/endometriosis-associated adipokine dimension of the metabolic pathogenesis of ovarian clear cell carcinoma."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the endometriosis-associated adipose milieu of ovarian clear cell carcinoma."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Iron-regulatory anaemia: hepcidin, driven by the IL-6 (already mapped), governs the iron handling that, with the endometriosis iron (already mapped), contributes to the anaemia of ovarian clear cell carcinoma."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -709,6 +718,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage (already mapped) and type-2 milieu of the immunosuppressive microenvironment of the chemoresistant ovarian clear cell carcinoma.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Endometriosis iron and carcinogenesis: the cyclical haemorrhage of the endometriosis from which ovarian clear cell carcinoma arises loads the cyst with iron, whose iron-catalysed oxidative stress (xanthine oxidase already mapped) drives the malignant transformation.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adipose and endometriosis: leptin links the obesity and the endometriosis-associated adipose milieu to the pathogenesis of ovarian clear cell carcinoma, part of the metabolic dimension of the tumour.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Endometriosis-adipose adipokine: adiponectin, with leptin (already mapped), is part of the adipose/endometriosis-associated adipokine dimension of the metabolic pathogenesis of ovarian clear cell carcinoma.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the endometriosis-associated adipose milieu of ovarian clear cell carcinoma.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Iron-regulatory anaemia: hepcidin, driven by the IL-6 (already mapped), governs the iron handling that, with the endometriosis iron (already mapped), contributes to the anaemia of ovarian clear cell carcinoma.
 
 ---
 
