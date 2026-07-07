@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/prostaglandins
     relation: connects-to
     note: "Neuroinflammatory eicosanoids: prostaglandins from the tumour-associated microglia and the cyclooxygenase pathway contribute to the neuroinflammation (IL-6 and IL-1 already mapped) of the medulloblastoma microenvironment."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 microglial (already mapped) niche of the immunologically cold microenvironment of medulloblastoma."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "WNT fenestrated vasculature: the WNT-subgroup medulloblastoma has an aberrant, fenestrated tumour endothelium with a leaky blood-tumour barrier (VEGF already mapped), letting in chemotherapy and helping explain its excellent prognosis."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Chemotherapy anaemia: the intensive multi-agent chemotherapy of medulloblastoma is myelosuppressive, causing anaemia (haemoglobin already mapped) needing transfusion that can load the young child with iron."
 ---
 
 # Medulloblastoma
@@ -685,6 +694,9 @@ MB survivors face substantial late effects — inversely proportional to age at 
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Hedgehog-lipid link: cholesterol and its oxysterol derivatives activate Smoothened (already mapped), the driver of the Hedgehog pathway (PTCH1 already mapped) in the SHH subtype of medulloblastoma, linking cellular lipid handling to the oncogenic signalling.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 microglial polarisation: IL-4 polarises the tumour-associated microglia and macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immunologically cold microenvironment of medulloblastoma.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Neuroinflammatory eicosanoids: prostaglandins from the tumour-associated microglia and the cyclooxygenase pathway contribute to the neuroinflammation (IL-6 and IL-1 already mapped) of the medulloblastoma microenvironment.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 microglial (already mapped) niche of the immunologically cold microenvironment of medulloblastoma.
+- `connects-to` → **[Endothelial cell](../../04-cellular/endothelial-cell/README.md)** — WNT fenestrated vasculature: the WNT-subgroup medulloblastoma has an aberrant, fenestrated tumour endothelium with a leaky blood-tumour barrier (VEGF already mapped), letting in chemotherapy and helping explain its excellent prognosis.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Chemotherapy anaemia: the intensive multi-agent chemotherapy of medulloblastoma is myelosuppressive, causing anaemia (haemoglobin already mapped) needing transfusion that can load the young child with iron.
 
 [^packer-2006-std-risk-mb]: Packer RJ, Gajjar A, Vezina G, et al. Phase III study of craniospinal radiation therapy followed by adjuvant chemotherapy for newly diagnosed average-risk medulloblastoma. *J Clin Oncol.* 2006;24(25):4202-4208. [doi:10.1200/JCO.2006.06.4980](https://doi.org/10.1200/JCO.2006.06.4980) · [PubMed 16943538](https://pubmed.ncbi.nlm.nih.gov/16943538/)
 [^taylor-2012-mb-subgroups]: Taylor MD, Northcott PA, Korshunov A, et al. Molecular subgroups of medulloblastoma: the current consensus. *Acta Neuropathol.* 2012;123(4):465-472. [doi:10.1007/s00401-011-0922-z](https://doi.org/10.1007/s00401-011-0922-z) · [PubMed 22134537](https://pubmed.ncbi.nlm.nih.gov/22134537/)

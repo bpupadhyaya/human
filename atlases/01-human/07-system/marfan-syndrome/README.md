@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/02-atomic/copper
     relation: connects-to
     note: "Lysyl-oxidase crosslinking: copper is the cofactor for lysyl oxidase, the enzyme that crosslinks collagen and elastin (collagen already mapped) into strong fibres, so this metal is essential to the connective-tissue integrity deranged in Marfan syndrome."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Matrix metalloproteinases: zinc is the cofactor of the matrix metalloproteinases that degrade the elastin and collagen (already mapped) of the aortic media, the MMP activity contributing to the aneurysm and dissection of Marfan syndrome."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Pro-fibrotic type-2: IL-4, with IL-13 (already mapped), drives the type-2/pro-fibrotic (TGF-β already mapped) programme in the remodelling of the aortic wall of Marfan syndrome."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell aortopathy: mast cells accumulate in the aneurysmal aortic wall of Marfan syndrome, releasing histamine and proteases that contribute, with the matrix metalloproteinases, to the medial degeneration."
 ---
 
 # Marfan Syndrome
@@ -694,6 +703,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Myxomatous valve degeneration: serotonergic signalling, interacting with the dysregulated TGF-beta (already mapped), contributes to the myxomatous mitral-valve degeneration and prolapse that accompanies the aortic disease of Marfan syndrome.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Fibrotic remodelling: IL-13, a profibrotic cytokine acting through TGF-beta (already mapped), contributes to the fibrotic remodelling of the aortic wall, part of the connective-tissue dysregulation of Marfan syndrome.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Lysyl-oxidase crosslinking: copper is the cofactor for lysyl oxidase, the enzyme that crosslinks collagen and elastin (collagen already mapped) into strong fibres, so this metal is essential to the connective-tissue integrity deranged in Marfan syndrome.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Matrix metalloproteinases: zinc is the cofactor of the matrix metalloproteinases that degrade the elastin and collagen (already mapped) of the aortic media, the MMP activity contributing to the aneurysm and dissection of Marfan syndrome.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Pro-fibrotic type-2: IL-4, with IL-13 (already mapped), drives the type-2/pro-fibrotic (TGF-β already mapped) programme in the remodelling of the aortic wall of Marfan syndrome.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell aortopathy: mast cells accumulate in the aneurysmal aortic wall of Marfan syndrome, releasing histamine and proteases that contribute, with the matrix metalloproteinases, to the medial degeneration.
 
 ---
 
