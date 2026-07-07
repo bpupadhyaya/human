@@ -418,6 +418,15 @@ cross_links:
   - target: 01-human/03-molecular/adenosine
     relation: connects-to
     note: "Purinergic angiogenesis: adenosine accumulating in the hypoxic wound promotes angiogenesis and a reparative, anti-inflammatory macrophage phenotype (already mapped), a purinergic signal supporting the transition to tissue rebuilding."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Inflammatory phase: neutrophils are the first cells recruited to the wound, debriding debris and killing bacteria (S100A8/A9 already mapped), and their timely clearance by macrophages (already mapped) lets healing progress to the reparative phase."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Impaired diabetic healing: type 2 diabetes impairs wound healing through microvascular disease, neuropathy (CGRP already mapped) and hyperglycaemia, producing the chronic diabetic foot ulcers that are a major cause of amputation."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Wound oxygenation: hypoxia (HIF already mapped) initiates the angiogenic signal, but adequate oxygen is needed for the collagen cross-linking and oxidative bacterial killing of repair, the rationale for hyperbaric oxygen in problem wounds."
 ---
 
 # Wound Healing
@@ -670,6 +679,9 @@ cross_links:
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Reactive oxygen species: xanthine-oxidase-derived reactive oxygen species, at low levels, support signalling and microbial killing in healing wounds, but in excess and in chronic wounds they cause oxidative damage (NRF2 already mapped) that stalls repair.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Neurogenic repair: CGRP released from sensory nerves, with substance P (already mapped), promotes the vasodilation, angiogenesis and keratinocyte proliferation of wound healing, and denervation impairs repair as in diabetic foot ulcers.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Purinergic angiogenesis: adenosine accumulating in the hypoxic wound promotes angiogenesis and a reparative, anti-inflammatory macrophage phenotype (already mapped), a purinergic signal supporting the transition to tissue rebuilding.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Inflammatory phase: neutrophils are the first cells recruited to the wound, debriding debris and killing bacteria (S100A8/A9 already mapped), and their timely clearance by macrophages (already mapped) lets healing progress to the reparative phase.
+- `connects-to` → **[Type 2 diabetes](../type-2-diabetes/README.md)** — Impaired diabetic healing: type 2 diabetes impairs wound healing through microvascular disease, neuropathy (CGRP already mapped) and hyperglycaemia, producing the chronic diabetic foot ulcers that are a major cause of amputation.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Wound oxygenation: hypoxia (HIF already mapped) initiates the angiogenic signal, but adequate oxygen is needed for the collagen cross-linking and oxidative bacterial killing of repair, the rationale for hyperbaric oxygen in problem wounds.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)
