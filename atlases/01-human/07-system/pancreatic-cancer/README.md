@@ -436,6 +436,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Metabolic risk and cachexia: adiponectin, with leptin (already mapped), links the obesity and metabolic syndrome (insulin already mapped) that raise pancreatic-cancer risk to the adipose-tissue wasting of its cachexia."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the obesity risk to the cachexia and the inflammation (IL-6 already mapped) of pancreatic cancer."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin sequesters iron and produces the anaemia of chronic disease (haemoglobin already mapped) of pancreatic cancer."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "HRD innate signalling: type-I interferon, downstream of the cGAS-STING (already mapped) sensing of the DNA damage of the BRCA/HRD (already mapped) pancreatic cancer, is explored to make the immunologically 'cold' tumour immunogenic."
 ---
 
 # Pancreatic Cancer
@@ -695,6 +704,9 @@ cross_links:
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage (already mapped) and type-2 milieu of the immune-excluded, cold desmoplastic microenvironment of pancreatic cancer.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Cancer cachexia: the profound weight loss and cancer cachexia (IL-6 and activin-A already mapped) of pancreatic cancer are reflected in the fall in the adipokine leptin as the adipose tissue is depleted.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic risk and cachexia: adiponectin, with leptin (already mapped), links the obesity and metabolic syndrome (insulin already mapped) that raise pancreatic-cancer risk to the adipose-tissue wasting of its cachexia.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the obesity risk to the cachexia and the inflammation (IL-6 already mapped) of pancreatic cancer.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin sequesters iron and produces the anaemia of chronic disease (haemoglobin already mapped) of pancreatic cancer.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — HRD innate signalling: type-I interferon, downstream of the cGAS-STING (already mapped) sensing of the DNA damage of the BRCA/HRD (already mapped) pancreatic cancer, is explored to make the immunologically 'cold' tumour immunogenic.
 
 ---
 
