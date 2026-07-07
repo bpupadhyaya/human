@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "Chemoprevention selenium: the antioxidant selenoprotein status is inversely associated with the colorectal-cancer risk, part of the micronutrient chemoprevention of the colonic epithelium."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the anti-tumour immunity, exploited by the checkpoint (PD-1 already mapped) immunotherapy of the MSI-high colorectal cancer."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) anti-tumour response of the colorectal-cancer immune microenvironment."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "NK surveillance: the NK cells (perforin already mapped) provide the innate cytotoxic surveillance of the colorectal cancer, complementing the T-cell (already mapped) checkpoint immunotherapy of the MSI-high tumours."
 ---
 
 # Colorectal Cancer
@@ -707,6 +716,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron-deficiency anaemia: the chronic occult bleeding of colorectal cancer causes the iron-deficiency anaemia (transferrin and haemoglobin already mapped), a classic presentation that prompts the diagnosis.
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — MSI immunogenicity: the cGAS-STING (already mapped) sensing of the genomic instability of the MSI-high (MLH1 and MSH2 already mapped) colorectal cancer drives the type-I interferon behind the checkpoint (PD-1 already mapped) response.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Chemoprevention selenium: the antioxidant selenoprotein status is inversely associated with the colorectal-cancer risk, part of the micronutrient chemoprevention of the colonic epithelium.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the anti-tumour immunity, exploited by the checkpoint (PD-1 already mapped) immunotherapy of the MSI-high colorectal cancer.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) anti-tumour response of the colorectal-cancer immune microenvironment.
+- `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — NK surveillance: the NK cells (perforin already mapped) provide the innate cytotoxic surveillance of the colorectal cancer, complementing the T-cell (already mapped) checkpoint immunotherapy of the MSI-high tumours.
 
 ---
 

@@ -429,6 +429,15 @@ cross_links:
   - target: 01-human/03-molecular/type-i-interferon
     relation: connects-to
     note: "Cannabinoid immunomodulation: the cannabinoids (endocannabinoid already mapped) are immunomodulatory and can suppress the type-I interferon antiviral response, part of the immune effects of chronic cannabis use."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 immunomodulation: the cannabinoids (endocannabinoid already mapped) suppress the IFN-γ Th1 response, the type-II interferon arm of the immune effects of chronic cannabis use."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: the cannabinoids modulate the IL-12-driven Th1 (IFN-γ already mapped) polarisation, part of the immunomodulation of cannabis use disorder."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 immune shift: the cannabinoids shift the balance toward the type-2 (IL-4 and IL-13 already mapped) cytokines including IL-5, part of the immune effects of chronic cannabis use."
 sources:
   - id: hasin-2015-cannabis-disorder
     type: peer-reviewed
@@ -721,6 +730,9 @@ Paradoxical syndrome in heavy long-term users: cyclic vomiting relieved by hot b
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: the endocannabinoid (already mapped) system regulates energy balance (leptin and ghrelin already mapped), and adiponectin/adipose signalling is modulated by the cannabis of cannabis use disorder.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the endocannabinoid (already mapped)-regulated energy balance disturbed in cannabis use disorder.
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Cannabinoid immunomodulation: the cannabinoids (endocannabinoid already mapped) are immunomodulatory and can suppress the type-I interferon antiviral response, part of the immune effects of chronic cannabis use.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 immunomodulation: the cannabinoids (endocannabinoid already mapped) suppress the IFN-γ Th1 response, the type-II interferon arm of the immune effects of chronic cannabis use.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: the cannabinoids modulate the IL-12-driven Th1 (IFN-γ already mapped) polarisation, part of the immunomodulation of cannabis use disorder.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 immune shift: the cannabinoids shift the balance toward the type-2 (IL-4 and IL-13 already mapped) cytokines including IL-5, part of the immune effects of chronic cannabis use.
 
 [^hasin-2015-cannabis-disorder]: Hasin DS, Saha TD, Kerridge BT, et al. Prevalence of marijuana use disorders in the United States between 2001-2002 and 2012-2013. *JAMA Psychiatry.* 2015;72(12):1235-1242. [doi:10.1001/jamapsychiatry.2015.1858](https://doi.org/10.1001/jamapsychiatry.2015.1858) · [PubMed 26502112](https://pubmed.ncbi.nlm.nih.gov/26502112/)
 [^budney-2004-cannabis-withdrawal]: Budney AJ, Moore BA, Vandrey RG, Hughes JR. The time course and significance of cannabis withdrawal. *J Abnorm Psychol.* 2003;112(3):393-402. [doi:10.1037/0021-843X.112.3.393](https://doi.org/10.1037/0021-843X.112.3.393) · [PubMed 12943018](https://pubmed.ncbi.nlm.nih.gov/12943018/)
