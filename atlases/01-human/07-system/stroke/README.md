@@ -433,6 +433,15 @@ cross_links:
   - target: 01-human/04-cellular/astrocyte
     relation: connects-to
     note: "Astrocytic oedema and scar: the astrocytes swell in the cytotoxic oedema (aquaporin-4 already mapped) and later form the glial scar that limits repair, central to both the injury and the recovery after stroke."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Ferroptosis and haemorrhage: the iron-dependent lipid-peroxidation cell death (ferroptosis) of the ischaemic neurons, and the iron released by the haemoglobin breakdown after haemorrhagic stroke, drive the secondary neuronal injury."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Reparative type-2 arm: IL-13, with IL-4 (already mapped), supports the M2 microglial (already mapped) anti-inflammatory and reparative arm of the recovery after stroke."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Adipokine and stroke: leptin links obesity to the stroke risk, and has neuroprotective and reparative actions on the ischaemic brain, part of the metabolic dimension of stroke."
 ---
 
 # Stroke
@@ -675,6 +684,9 @@ Normal brain maintains CBF constant (50-150 mmHg MAP range) via autoregulation (
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium and excitotoxic death: the glutamate (already mapped) excitotoxicity of the ischaemic penumbra floods the neurons with calcium, triggering the enzymatic cascades of neuronal death that neuroprotection aims to interrupt in stroke.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Cytotoxic oedema: the failure of the sodium-potassium pump as ATP (already mapped) runs out lets sodium and water flood the cells, causing the cytotoxic oedema (aquaporin-4 already mapped) and the spreading depolarisations (connexin43 already mapped) of stroke.
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Astrocytic oedema and scar: the astrocytes swell in the cytotoxic oedema (aquaporin-4 already mapped) and later form the glial scar that limits repair, central to both the injury and the recovery after stroke.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Ferroptosis and haemorrhage: the iron-dependent lipid-peroxidation cell death (ferroptosis) of the ischaemic neurons, and the iron released by the haemoglobin breakdown after haemorrhagic stroke, drive the secondary neuronal injury.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Reparative type-2 arm: IL-13, with IL-4 (already mapped), supports the M2 microglial (already mapped) anti-inflammatory and reparative arm of the recovery after stroke.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adipokine and stroke: leptin links obesity to the stroke risk, and has neuroprotective and reparative actions on the ischaemic brain, part of the metabolic dimension of stroke.
 
 [^powers-2019-aha-stroke]: Powers WJ, Rabinstein AA, Ackerson T, et al. Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines. *Stroke.* 2019;50(12):e344-e418. [doi:10.1161/STR.0000000000000211](https://doi.org/10.1161/STR.0000000000000211) · [PubMed 31662037](https://pubmed.ncbi.nlm.nih.gov/31662037/)
 [^feigin-2021-gbd-stroke]: Feigin VL, Krishnamurthi RV, Parmar P, et al. Update on the Global Burden of Ischemic and Hemorrhagic Stroke in 1990-2013. *Neuroepidemiology.* 2015;45(3):161-176. [doi:10.1159/000441085](https://doi.org/10.1159/000441085) · [PubMed 26505981](https://pubmed.ncbi.nlm.nih.gov/26505981/)

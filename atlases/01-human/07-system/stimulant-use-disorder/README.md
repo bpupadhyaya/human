@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/02-atomic/copper
     relation: connects-to
     note: "Copper and catecholamines: copper is the cofactor of dopamine-β-hydroxylase, which makes noradrenaline from dopamine (both already mapped), linking copper handling to the catecholamine reward and toxicity of stimulant use disorder."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Neuroimmune balance: IL-13, with IL-4 (already mapped), supports the M2 microglia (already mapped) and the anti-inflammatory arm balancing the neuroinflammation (TLR4, TNF and IL-1 already mapped) of the methamphetamine neurotoxicity of stimulant use disorder."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Adipokine and reward: leptin modulates the reward (dopamine already mapped) circuitry and the appetite suppression of the stimulants, part of the metabolic-reward crosstalk of stimulant use disorder."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic-cardiovascular adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic and cardiovascular (cholesterol already mapped) toxicity of stimulant use disorder."
 ---
 
 # Stimulant Use Disorder
@@ -689,6 +698,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Neuroimmune balance: the anti-inflammatory IL-4, with IL-10 (already mapped), counters the microglial (already mapped) pro-inflammatory cytokines (IL-6, TNF and IL-1 already mapped) of the neuroinflammation driving stimulant neurotoxicity.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and dopamine signalling: zinc modulates the dopamine transporter (dopamine already mapped) and NMDA signalling, and disturbed zinc status is linked to the reward and mood dysregulation of stimulant use disorder.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper and catecholamines: copper is the cofactor of dopamine-β-hydroxylase, which makes noradrenaline from dopamine (both already mapped), linking copper handling to the catecholamine reward and toxicity of stimulant use disorder.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Neuroimmune balance: IL-13, with IL-4 (already mapped), supports the M2 microglia (already mapped) and the anti-inflammatory arm balancing the neuroinflammation (TLR4, TNF and IL-1 already mapped) of the methamphetamine neurotoxicity of stimulant use disorder.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adipokine and reward: leptin modulates the reward (dopamine already mapped) circuitry and the appetite suppression of the stimulants, part of the metabolic-reward crosstalk of stimulant use disorder.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic-cardiovascular adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic and cardiovascular (cholesterol already mapped) toxicity of stimulant use disorder.
 
 ## Treatment
 
