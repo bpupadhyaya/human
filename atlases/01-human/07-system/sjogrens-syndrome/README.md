@@ -445,6 +445,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the immune-metabolic milieu of Sjögren's syndrome."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Innate surveillance: the NK cells (perforin already mapped) infiltrate the salivary glands and contribute to the innate inflammation and the MALT-lymphoma surveillance of Sjögren's syndrome."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension balancing the Th1/Th17 (IFN-γ and IL-17 already mapped) drive of Sjögren's syndrome."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension present in a subset of Sjögren's syndrome."
 ---
 
 # Sjögren's Syndrome
@@ -717,6 +726,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Immune-metabolic adipokine: leptin modulates the autoreactive response of Sjögren's syndrome, part of the immune-metabolic milieu of the autoimmune exocrinopathy.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the immune-metabolic milieu of Sjögren's syndrome.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the immune-metabolic milieu of Sjögren's syndrome.
+- `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Innate surveillance: the NK cells (perforin already mapped) infiltrate the salivary glands and contribute to the innate inflammation and the MALT-lymphoma surveillance of Sjögren's syndrome.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension balancing the Th1/Th17 (IFN-γ and IL-17 already mapped) drive of Sjögren's syndrome.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension present in a subset of Sjögren's syndrome.
 
 ---
 
