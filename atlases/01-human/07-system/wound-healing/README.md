@@ -445,6 +445,15 @@ cross_links:
   - target: 01-human/02-atomic/copper
     relation: connects-to
     note: "Lysyl-oxidase crosslinking: the copper-dependent lysyl oxidase cross-links the collagen (already mapped) and elastin, and the copper promotes the angiogenesis (VEGF and HIF already mapped) of wound healing."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Adaptive resolution: the T cells (perforin already mapped) accumulate in the later phases and modulate the resolution and the scar quality of wound healing."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "M1 phase regulation: the IFN-γ activates the inflammatory M1 macrophages (already mapped) and antagonises the profibrotic type-2 (IL-4 and IL-13 already mapped) arm, tuning the scarring of wound healing."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Eosinophil repair arm: IL-5 recruits the eosinophils that, via the type-2 (IL-4 and IL-13 already mapped) cytokines, promote the reparative M2 macrophage (already mapped) programme of wound healing."
 ---
 
 # Wound Healing
@@ -706,6 +715,9 @@ cross_links:
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — M1-to-M2 transition: the macrophages transition from the inflammatory M1 to the reparative M2 (IL-4 and IL-13 already mapped) phenotype, orchestrating the debridement, the angiogenesis (VEGF already mapped) and the resolution of wound healing.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Haemostatic plug: the platelets form the initial haemostatic plug (thrombin and fibrinogen already mapped) and release the PDGF and TGF-β (already mapped) growth factors that initiate wound healing.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Lysyl-oxidase crosslinking: the copper-dependent lysyl oxidase cross-links the collagen (already mapped) and elastin, and the copper promotes the angiogenesis (VEGF and HIF already mapped) of wound healing.
+- `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Adaptive resolution: the T cells (perforin already mapped) accumulate in the later phases and modulate the resolution and the scar quality of wound healing.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — M1 phase regulation: the IFN-γ activates the inflammatory M1 macrophages (already mapped) and antagonises the profibrotic type-2 (IL-4 and IL-13 already mapped) arm, tuning the scarring of wound healing.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Eosinophil repair arm: IL-5 recruits the eosinophils that, via the type-2 (IL-4 and IL-13 already mapped) cytokines, promote the reparative M2 macrophage (already mapped) programme of wound healing.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)
