@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Iron sequestration: the hepcidin-driven (already mapped) iron sequestration of the severe dengue inflammatory response contributes to the hyperferritinaemia and the transient anaemia (haemoglobin already mapped) of the illness."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immune arm: IL-13, with IL-4 (already mapped), is part of the type-2 immune arm of the dengue response, contributing to the cytokine milieu of the illness."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Marrow suppression: the dengue virus suppresses the bone marrow (thrombopoietin already mapped), causing the thrombocytopenia and leukopenia that are hallmarks of the acute febrile illness."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Cross-reactive T-cell immunopathology: the cross-reactive memory cytotoxic T cells (perforin already mapped) from a prior serotype contribute, with the antibody-dependent enhancement (immunoglobulin already mapped), to the immunopathology of severe secondary dengue."
 ---
 
 # Dengue Fever
@@ -679,3 +688,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Type-2 response: IL-4 and the type-2 cytokine skewing shape the T-cell response to dengue, and the cross-reactive memory (immunoglobulin G already mapped) of secondary infection contributes to the immunopathology of severe disease.
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Hyperferritinaemia: the intense inflammation (IL-6 already mapped) of severe dengue raises hepcidin and ferritin, the hyperferritinaemia a marker of severity that reflects the macrophage activation of the disease.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron sequestration: the hepcidin-driven (already mapped) iron sequestration of the severe dengue inflammatory response contributes to the hyperferritinaemia and the transient anaemia (haemoglobin already mapped) of the illness.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), is part of the type-2 immune arm of the dengue response, contributing to the cytokine milieu of the illness.
+- `connects-to` → **[Bone marrow](../../05-tissue/bone-marrow/README.md)** — Marrow suppression: the dengue virus suppresses the bone marrow (thrombopoietin already mapped), causing the thrombocytopenia and leukopenia that are hallmarks of the acute febrile illness.
+- `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Cross-reactive T-cell immunopathology: the cross-reactive memory cytotoxic T cells (perforin already mapped) from a prior serotype contribute, with the antibody-dependent enhancement (immunoglobulin already mapped), to the immunopathology of severe secondary dengue.

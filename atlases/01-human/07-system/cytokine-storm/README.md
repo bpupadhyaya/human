@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Adipokine severity marker: resistin, a pro-inflammatory adipokine released by the activated leukocytes, rises markedly in sepsis and cytokine storm (IL-6 already mapped) and tracks with the severity of the hyperinflammation."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Inflammatory adipokine: leptin, with resistin (already mapped), rises in the acute inflammation (IL-6 already mapped) of the cytokine storm, part of the adipokine dimension of the hyperinflammatory response."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Adipokine axis: adiponectin, with leptin and resistin (already mapped), completes the adipokine axis whose balance shapes the metabolic-inflammatory response of the cytokine storm."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Immunoparalysis exhaustion: PD-1 is upregulated on the exhausted T cells of the immunoparalysis phase that follows the cytokine storm, contributing to the secondary infections of the hyperinflammatory syndromes."
 ---
 
 # Cytokine Storm
@@ -658,6 +667,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Counter-regulatory arm: IL-4, with IL-10 (already mapped), is part of the compensatory anti-inflammatory response that tries to restrain the runaway pro-inflammatory cytokines (IL-6, TNF and IL-1 already mapped) of cytokine storm.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 balance: IL-13, with IL-4 (already mapped), is part of the type-2 arm whose balance against the pro-inflammatory signals shapes the resolution or persistence of cytokine storm.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine severity marker: resistin, a pro-inflammatory adipokine released by the activated leukocytes, rises markedly in sepsis and cytokine storm (IL-6 already mapped) and tracks with the severity of the hyperinflammation.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Inflammatory adipokine: leptin, with resistin (already mapped), rises in the acute inflammation (IL-6 already mapped) of the cytokine storm, part of the adipokine dimension of the hyperinflammatory response.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine axis: adiponectin, with leptin and resistin (already mapped), completes the adipokine axis whose balance shapes the metabolic-inflammatory response of the cytokine storm.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Immunoparalysis exhaustion: PD-1 is upregulated on the exhausted T cells of the immunoparalysis phase that follows the cytokine storm, contributing to the secondary infections of the hyperinflammatory syndromes.
 
 ## Pathology
 
