@@ -442,6 +442,15 @@ cross_links:
   - target: 01-human/04-cellular/fibroblast
     relation: connects-to
     note: "Cancer-associated fibroblasts: the CAFs (TGF-β and PDGF already mapped) of the breast-cancer stroma drive the desmoplasia, the immune exclusion and the progression of the tumour."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the obesity risk of the postmenopausal (estrogen already mapped) breast cancer."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Hepatic metastases: the liver is a common site of breast-cancer metastasis, the visceral disease of poorer prognosis."
+  - target: 01-human/04-cellular/adipocyte
+    relation: connects-to
+    note: "Mammary adipose niche: the mammary adipocytes (the source of leptin, adiponectin and resistin already mapped and the local aromatase oestrogen) form the tumour microenvironment driving the breast-cancer progression."
 ---
 
 # Breast Cancer
@@ -689,6 +698,9 @@ cross_links:
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immunosuppressive microenvironment of breast cancer, promoting the metastasis.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumour-associated macrophages: the macrophages (CCL2 already mapped) of the breast-cancer stroma, in their M2 (IL-4 already mapped) phenotype, drive the immunosuppression, angiogenesis (VEGF already mapped) and metastasis.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Cancer-associated fibroblasts: the CAFs (TGF-β and PDGF already mapped) of the breast-cancer stroma drive the desmoplasia, the immune exclusion and the progression of the tumour.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the obesity risk of the postmenopausal (estrogen already mapped) breast cancer.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Hepatic metastases: the liver is a common site of breast-cancer metastasis, the visceral disease of poorer prognosis.
+- `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Mammary adipose niche: the mammary adipocytes (the source of leptin, adiponectin and resistin already mapped and the local aromatase oestrogen) form the tumour microenvironment driving the breast-cancer progression.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

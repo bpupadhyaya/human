@@ -445,6 +445,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory milieu (IL-6 already mapped) to the metabolic comorbidity of bipolar disorder."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 neuroimmunity: IL-13, with IL-4 (already mapped), is the type-2 immune arm of the neuroinflammation (TNF and IL-6 already mapped) implicated in bipolar disorder."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Neuronal excitability: the neuronal excitability and the ion-channel (CACNA1C calcium) dysregulation and the mitochondrial (ATP already mapped) dysfunction of the neurons underlie the mood episodes of bipolar disorder."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Metabolic comorbidity: bipolar disorder carries a high type 2 diabetes and metabolic-syndrome (insulin and cholesterol already mapped) risk, worsened by the antipsychotics (leptin and adiponectin already mapped)."
 ---
 
 # Bipolar Disorder
@@ -717,6 +726,9 @@ During bipolar depression (often longer and more disabling than mania):
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histaminergic arousal: the H1/H3 histaminergic modulation of the arousal and the sleep-wake cycle (orexin and melatonin already mapped) is disturbed in the mood episodes of bipolar disorder, and H1-active drugs affect its course.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic-syndrome (insulin and cholesterol already mapped) comorbidity of bipolar disorder and its treatments.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory milieu (IL-6 already mapped) to the metabolic comorbidity of bipolar disorder.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 neuroimmunity: IL-13, with IL-4 (already mapped), is the type-2 immune arm of the neuroinflammation (TNF and IL-6 already mapped) implicated in bipolar disorder.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Neuronal excitability: the neuronal excitability and the ion-channel (CACNA1C calcium) dysregulation and the mitochondrial (ATP already mapped) dysfunction of the neurons underlie the mood episodes of bipolar disorder.
+- `connects-to` → **[Type 2 diabetes](../type-2-diabetes/README.md)** — Metabolic comorbidity: bipolar disorder carries a high type 2 diabetes and metabolic-syndrome (insulin and cholesterol already mapped) risk, worsened by the antipsychotics (leptin and adiponectin already mapped).
 
 [^grande-2016-bipolar-review]: Grande I, Berk M, Birmaher B, Vieta E. Bipolar disorder. *Lancet.* 2016;387(10027):1561-1572. [doi:10.1016/S0140-6736(15)00241-X](https://doi.org/10.1016/S0140-6736(15)00241-X) · [PubMed 26388529](https://pubmed.ncbi.nlm.nih.gov/26388529/)
 [^geddes-2013-bipolar-treatment]: Geddes JR, Miklowitz DJ. Treatment of bipolar disorder. *Lancet.* 2013;381(9878):1672-1682. [doi:10.1016/S0140-6736(13)60857-0](https://doi.org/10.1016/S0140-6736(13)60857-0) · [PubMed 23663953](https://pubmed.ncbi.nlm.nih.gov/23663953/)
