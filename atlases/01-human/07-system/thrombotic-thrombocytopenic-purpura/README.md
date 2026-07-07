@@ -445,6 +445,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Metabolic adipokine: adiponectin, with leptin and resistin (already mapped), completes the adipokine dimension of the immune-metabolic milieu of thrombotic thrombocytopenic purpura."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 autoimmunity: the IFN-γ of the T cells is the type-II interferon arm (with the type-I interferon already mapped) of the immune dysregulation driving the anti-ADAMTS13 (already mapped) autoimmunity of acquired thrombotic thrombocytopenic purpura."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the autoimmune response against ADAMTS13 (already mapped) in thrombotic thrombocytopenic purpura."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Innate immune modulation: the NK cells (perforin already mapped) contribute to the innate immune dysregulation of the acquired autoimmune thrombotic thrombocytopenic purpura."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -742,6 +751,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Cardiac microthrombi: the myocardial microthrombi of TTP cause the troponin (already mapped) rise, the arrhythmias and the sudden cardiac death, a leading cause of acute TTP mortality affecting the heart.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Immune-metabolic adipokine: leptin, with resistin (already mapped), is part of the adipokine milieu of the systemic inflammation (IL-6 already mapped) of acute thrombotic thrombocytopenic purpura.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin and resistin (already mapped), completes the adipokine dimension of the immune-metabolic milieu of thrombotic thrombocytopenic purpura.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 autoimmunity: the IFN-γ of the T cells is the type-II interferon arm (with the type-I interferon already mapped) of the immune dysregulation driving the anti-ADAMTS13 (already mapped) autoimmunity of acquired thrombotic thrombocytopenic purpura.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the autoimmune response against ADAMTS13 (already mapped) in thrombotic thrombocytopenic purpura.
+- `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Innate immune modulation: the NK cells (perforin already mapped) contribute to the innate immune dysregulation of the acquired autoimmune thrombotic thrombocytopenic purpura.
 
 ---
 
