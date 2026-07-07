@@ -442,6 +442,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Adipokine bone loss: resistin, with leptin and adiponectin (already mapped), promotes the osteoclastogenesis (RANKL already mapped) and the inflammatory bone loss, part of the adipokine influence on the skeleton in osteoporosis."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Bone-mass loss: the cortical and trabecular bone loses the mass and the microarchitecture in osteoporosis, the fragility fractures the consequence of the impaired bone tissue."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "Bone phosphate: the phosphate (with the calcium already mapped) forms the hydroxyapatite mineral, and the FGF23 and PTH (already mapped) phosphate axis governs the bone-mineral balance of osteoporosis."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Vitamin-D mineralisation: vitamin D drives the calcium (already mapped) absorption and the bone mineralisation; its deficiency causes the osteomalacia and worsens osteoporosis, the foundation of the supplementation."
 ---
 
 # Osteoporosis
@@ -691,6 +700,9 @@ All newly diagnosed osteoporosis should be evaluated for secondary causes: CBC (
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Collagen cross-linking: copper is the cofactor of lysyl oxidase that cross-links the collagen (already mapped) of the bone matrix, and copper deficiency (as in Menkes) causes a bone fragility, part of the trace-metal contribution to bone quality.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Osteoimmune type-2 cytokine: IL-13, with IL-4 (already mapped), is part of the type-2 arm that restrains the inflammatory osteoclastogenesis (RANKL, TNF and IL-17 already mapped) of the bone loss of osteoporosis.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine bone loss: resistin, with leptin and adiponectin (already mapped), promotes the osteoclastogenesis (RANKL already mapped) and the inflammatory bone loss, part of the adipokine influence on the skeleton in osteoporosis.
+- `connects-to` → **[Cortical bone](../../05-tissue/cortical-bone/README.md)** — Bone-mass loss: the cortical and trabecular bone loses the mass and the microarchitecture in osteoporosis, the fragility fractures the consequence of the impaired bone tissue.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Bone phosphate: the phosphate (with the calcium already mapped) forms the hydroxyapatite mineral, and the FGF23 and PTH (already mapped) phosphate axis governs the bone-mineral balance of osteoporosis.
+- `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin-D mineralisation: vitamin D drives the calcium (already mapped) absorption and the bone mineralisation; its deficiency causes the osteomalacia and worsens osteoporosis, the foundation of the supplementation.
 
 [^kanis-2019-who-osteoporosis]: Kanis JA, Cooper C, Rizzoli R, Reginster JY. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. *Osteoporos Int.* 2019;30(1):3-44. [doi:10.1007/s00198-018-4704-5](https://doi.org/10.1007/s00198-018-4704-5) · [PubMed 30324412](https://pubmed.ncbi.nlm.nih.gov/30324412/)
 [^cosman-2016-romosozumab]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)

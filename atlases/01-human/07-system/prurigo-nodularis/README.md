@@ -436,6 +436,15 @@ cross_links:
   - target: 01-human/07-system/gastric-cancer
     relation: connects-to
     note: "Paraneoplastic pruritus: gastric and other solid cancers, with the lymphomas (Hodgkin already mapped), can present with the paraneoplastic itch that drives prurigo nodularis, mandating malignancy screening in refractory cases."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Itch mast cells: the mast cells (KIT and histamine already mapped) contribute to the itch and the neuroimmune inflammation of prurigo nodularis, releasing the pruritogens onto the sensitised nerves."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Th2 neuroimmune itch: the CD4 Th2 cells (IL-4, IL-13 and IL-31 already mapped) drive the type-2 neuroimmune itch of prurigo nodularis, the target of the biologics."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Uraemic pruritus: the chronic kidney disease is a systemic cause of the chronic itch (uraemic pruritus) that can drive prurigo nodularis, a differential to screen in refractory cases."
 ---
 
 # Prurigo Nodularis
@@ -658,6 +667,9 @@ PN affects approximately **72,000 patients** in the US; true prevalence is likel
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic (insulin already mapped) comorbidity (type-2 diabetes already mapped) associated with prurigo nodularis.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory milieu (IL-6 already mapped) to the metabolic comorbidity of prurigo nodularis.
 - `connects-to` → **[Gastric cancer](../gastric-cancer/README.md)** — Paraneoplastic pruritus: gastric and other solid cancers, with the lymphomas (Hodgkin already mapped), can present with the paraneoplastic itch that drives prurigo nodularis, mandating malignancy screening in refractory cases.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Itch mast cells: the mast cells (KIT and histamine already mapped) contribute to the itch and the neuroimmune inflammation of prurigo nodularis, releasing the pruritogens onto the sensitised nerves.
+- `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — Th2 neuroimmune itch: the CD4 Th2 cells (IL-4, IL-13 and IL-31 already mapped) drive the type-2 neuroimmune itch of prurigo nodularis, the target of the biologics.
+- `connects-to` → **[CKD](../ckd/README.md)** — Uraemic pruritus: the chronic kidney disease is a systemic cause of the chronic itch (uraemic pruritus) that can drive prurigo nodularis, a differential to screen in refractory cases.
 
 [^stander-2020-nemolizumab-pn]: Ständer S, Yosipovitch G, Legat FJ, et al. Trial of nemolizumab in moderate-to-severe prurigo nodularis. *N Engl J Med.* 2020;382(8):706-716. [doi:10.1056/NEJMoa1908316](https://doi.org/10.1056/NEJMoa1908316) · [PubMed 32053299](https://pubmed.ncbi.nlm.nih.gov/32053299/)
 [^briggs-2022-dupilumab-pn-liberty]: Briggs JN, Cho YY, Khanna R, et al. Dupilumab for prurigo nodularis: the LIBERTY-PN PRIME and PRIME2 trials. *N Engl J Med.* 2022;387(18):1683-1693. [doi:10.1056/NEJMoa2205093](https://doi.org/10.1056/NEJMoa2205093) · [PubMed 36300905](https://pubmed.ncbi.nlm.nih.gov/36300905/)
