@@ -433,6 +433,15 @@ cross_links:
   - target: 01-human/03-molecular/cholesterol
     relation: connects-to
     note: "Metabolic prothrombotic risk: dyslipidaemia and the metabolic syndrome (leptin and insulin already mapped) add an acquired hypercoagulable state, and raised cholesterol contributes to the venous as well as arterial thrombotic risk."
+  - target: 01-human/03-molecular/immunoglobulin-g
+    relation: connects-to
+    note: "Antiphospholipid antibodies: the IgG antiphospholipid antibodies of the antiphospholipid syndrome are a major acquired thrombophilia causing venous (and arterial) thromboembolism, testing for which is part of the workup of unprovoked VTE."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 inflammation: IL-13, with IL-4 (already mapped), is part of the type-2 immune arm of the inflammation (IL-6 already mapped) that contributes to the venous-thrombus resolution and the post-thrombotic remodelling."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Obesity and hypercoagulability: the fall in adiponectin, with leptin (already mapped), of the obesity that is a major risk factor for venous thromboembolism promotes the prothrombotic and inflammatory state."
 ---
 
 # Venous Thromboembolism
@@ -690,6 +699,9 @@ cross_links:
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Thrombo-inflammation balance: IL-4 and the M2 anti-inflammatory arm (IL-10 already mapped) counter the pro-inflammatory signals (IL-6, TNF and IL-1 already mapped) of the immunothrombosis that amplifies venous thromboembolism.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Platelet zinc and coagulation: zinc released from the activated platelets (already mapped) promotes the contact pathway and fibrin formation (fibrinogen and thrombin already mapped), adding to the clotting tendency in venous thromboembolism.
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Metabolic prothrombotic risk: dyslipidaemia and the metabolic syndrome (leptin and insulin already mapped) add an acquired hypercoagulable state, and raised cholesterol contributes to the venous as well as arterial thrombotic risk.
+- `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Antiphospholipid antibodies: the IgG antiphospholipid antibodies of the antiphospholipid syndrome are a major acquired thrombophilia causing venous (and arterial) thromboembolism, testing for which is part of the workup of unprovoked VTE.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 inflammation: IL-13, with IL-4 (already mapped), is part of the type-2 immune arm of the inflammation (IL-6 already mapped) that contributes to the venous-thrombus resolution and the post-thrombotic remodelling.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Obesity and hypercoagulability: the fall in adiponectin, with leptin (already mapped), of the obesity that is a major risk factor for venous thromboembolism promotes the prothrombotic and inflammatory state.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)

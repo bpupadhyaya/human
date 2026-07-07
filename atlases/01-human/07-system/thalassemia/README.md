@@ -432,6 +432,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "Zinc depletion: zinc deficiency is common in thalassaemia, from the increased red-cell turnover and the iron-chelation therapy that also chelates zinc, contributing to the growth delay and immune dysfunction of the disease."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "M2 haemolytic clearance: IL-13, with IL-4 (already mapped), supports the M2 macrophage phenotype that clears the haemolysed and defective red cells, part of the immune and haemolytic microenvironment of thalassaemia."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Growth and endocrine axis: leptin reflects the growth delay and altered energy balance (growth hormone already mapped) of the ineffective erythropoiesis and endocrine dysfunction of thalassaemia."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Adipokine and iron-diabetes: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the iron-induced diabetes (insulin already mapped) and metabolic complications of thalassaemia."
 ---
 
 # Thalassemia
@@ -714,6 +723,9 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[Cortical bone](../../05-tissue/cortical-bone/README.md)** — Skeletal expansion: the massive marrow (already mapped) expansion of the ineffective erythropoiesis thins and deforms the cortical bone, causing the frontal bossing and the osteoporosis (RANKL and PTH already mapped) of untreated thalassaemia.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage clearance: IL-4 polarises macrophages toward an M2 phenotype that clears the haemolysed and defective red cells, part of the immune and haemolytic microenvironment of thalassaemia (IL-6 and TNF already mapped).
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc depletion: zinc deficiency is common in thalassaemia, from the increased red-cell turnover and the iron-chelation therapy that also chelates zinc, contributing to the growth delay and immune dysfunction of the disease.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — M2 haemolytic clearance: IL-13, with IL-4 (already mapped), supports the M2 macrophage phenotype that clears the haemolysed and defective red cells, part of the immune and haemolytic microenvironment of thalassaemia.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Growth and endocrine axis: leptin reflects the growth delay and altered energy balance (growth hormone already mapped) of the ineffective erythropoiesis and endocrine dysfunction of thalassaemia.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine and iron-diabetes: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the iron-induced diabetes (insulin already mapped) and metabolic complications of thalassaemia.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.
