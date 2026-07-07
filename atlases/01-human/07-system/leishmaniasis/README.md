@@ -424,6 +424,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "Early innate IFN-γ: natural killer cells provide an early source of IFN-γ (already mapped) in the innate response to Leishmania, helping activate the macrophages (already mapped) before the adaptive Th1 response matures."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 susceptibility: IL-5, with the Th2 cytokines (IL-4 and IL-13 already mapped), is part of the non-protective type-2 response that, when it dominates over the Th1 (IL-12 and IFN-γ already mapped), favours the non-healing susceptible phenotype of leishmaniasis."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Malnutrition and immunity: adiponectin, with leptin (already mapped), links the malnutrition common in endemic regions to the impaired immune response that worsens visceral leishmaniasis."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipokine milieu: resistin, with leptin and adiponectin (already mapped), is part of the adipokine milieu of the malnutrition-immunity axis that shapes the susceptibility to and severity of leishmaniasis."
 ---
 
 # Leishmaniasis
@@ -661,3 +670,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper nutritional immunity: the macrophage (already mapped) floods its phagosome with toxic copper to kill the intracellular Leishmania, part of the metal-poisoning host defence (zinc and selenium already mapped) against the parasite.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Antigen presentation and Th1 priming: dendritic cells take up Leishmania and present its antigen to prime the protective Th1 response (IL-12 and IFN-γ already mapped), a key early step in controlling the infection.
 - `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Early innate IFN-γ: natural killer cells provide an early source of IFN-γ (already mapped) in the innate response to Leishmania, helping activate the macrophages (already mapped) before the adaptive Th1 response matures.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 susceptibility: IL-5, with the Th2 cytokines (IL-4 and IL-13 already mapped), is part of the non-protective type-2 response that, when it dominates over the Th1 (IL-12 and IFN-γ already mapped), favours the non-healing susceptible phenotype of leishmaniasis.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Malnutrition and immunity: adiponectin, with leptin (already mapped), links the malnutrition common in endemic regions to the impaired immune response that worsens visceral leishmaniasis.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine milieu: resistin, with leptin and adiponectin (already mapped), is part of the adipokine milieu of the malnutrition-immunity axis that shapes the susceptibility to and severity of leishmaniasis.

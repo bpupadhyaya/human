@@ -411,6 +411,15 @@ cross_links:
   - target: 01-human/07-system/stimulant-use-disorder
     relation: connects-to
     note: "Shared reward addiction: internet gaming disorder shares the mesolimbic dopamine (already mapped) reward biology of the substance addictions such as stimulant use disorder, the behavioural and drug addictions converging on the same circuitry."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Neuroimmune balance: IL-4 and the M2 microglia (already mapped) balance the neuroinflammation (TNF, IL-6 and IL-1 already mapped) increasingly implicated in the reward-circuit changes of behavioural addictions such as internet gaming disorder."
+  - target: 01-human/07-system/alcohol-use-disorder
+    relation: connects-to
+    note: "Addiction comorbidity: alcohol and other substance-use disorders (stimulant and cannabis already mapped) commonly co-occur with internet gaming disorder, reflecting a shared vulnerability of the reward (dopamine already mapped) circuitry."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "Glutamate homeostasis: the astrocytes regulate the glutamate (already mapped) at the synapses of the reward and prefrontal circuits, and their dysfunction is part of the synaptic remodelling of behavioural addiction."
 sources:
   - id: kuss-2012-gaming-disorder-review
     type: peer-reviewed
@@ -716,6 +725,9 @@ A pattern of persistent or recurrent gaming behavior characterized by:
 - `connects-to` → **[Generalized anxiety disorder](../generalized-anxiety-disorder/README.md)** — Anxiety comorbidity: generalized anxiety disorder frequently co-occurs with internet gaming disorder (cortisol and CRH already mapped), the gaming sometimes serving as avoidance that reinforces both conditions.
 - `connects-to` → **[Social anxiety disorder](../social-anxiety-disorder/README.md)** — Social avoidance: social anxiety disorder drives the online world as a refuge from face-to-face interaction, and this avoidance can entrench the compulsive gaming of internet gaming disorder.
 - `connects-to` → **[Stimulant use disorder](../stimulant-use-disorder/README.md)** — Shared reward addiction: internet gaming disorder shares the mesolimbic dopamine (already mapped) reward biology of the substance addictions such as stimulant use disorder, the behavioural and drug addictions converging on the same circuitry.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Neuroimmune balance: IL-4 and the M2 microglia (already mapped) balance the neuroinflammation (TNF, IL-6 and IL-1 already mapped) increasingly implicated in the reward-circuit changes of behavioural addictions such as internet gaming disorder.
+- `connects-to` → **[Alcohol use disorder](../alcohol-use-disorder/README.md)** — Addiction comorbidity: alcohol and other substance-use disorders (stimulant and cannabis already mapped) commonly co-occur with internet gaming disorder, reflecting a shared vulnerability of the reward (dopamine already mapped) circuitry.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Glutamate homeostasis: the astrocytes regulate the glutamate (already mapped) at the synapses of the reward and prefrontal circuits, and their dysfunction is part of the synaptic remodelling of behavioural addiction.
 
 [^kuss-2012-gaming-disorder-review]: Kuss DJ, Griffiths MD. Internet gaming addiction: a systematic review of empirical research. *Int J Ment Health Addict.* 2012;10(2):278-296. [doi:10.1007/s11469-011-9318-5](https://doi.org/10.1007/s11469-011-9318-5)
 [^who-icd11-gaming-disorder]: World Health Organization. ICD-11: Gaming Disorder (6C51). Geneva: WHO; 2019. [icd.who.int](https://icd.who.int/browse/2025-01/mms/en#1448597234)
