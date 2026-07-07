@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/prostaglandins
     relation: connects-to
     note: "Inflammatory eicosanoids: prostaglandins from the tumour-associated macrophages (already mapped) and infiltrate (IL-6 and IL-1 already mapped) contribute to the inflammation of the schwannoma and meningioma microenvironment in NF2."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage (already mapped) and type-2 milieu of the schwannoma and meningioma microenvironment in NF2-related schwannomatosis."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Cutaneous schwannomas: the skin shows the cutaneous schwannomas and NF2 plaques, a peripheral manifestation of the syndrome alongside the vestibular schwannomas and meningiomas."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Immune microenvironment: the cytotoxic T cells (PD-1 and perforin already mapped) infiltrate the NF2 tumours, and the immunotherapy angle is explored for the otherwise surgery- and radiation-managed schwannomas and meningiomas."
 ---
 
 # Neurofibromatosis Type 2
@@ -675,6 +684,9 @@ Merlin has an N-terminal FERM domain (α, β, γ lobes) that binds membrane lipi
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages (already mapped) toward an immunosuppressive M2 phenotype (IL-10 already mapped) in the schwannoma and meningioma stroma of NF2, part of their immune microenvironment.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative microenvironment: the NF2 tumours generate oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species are part of the tumour microenvironment beyond the Hippo-YAP (already mapped) signalling.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Inflammatory eicosanoids: prostaglandins from the tumour-associated macrophages (already mapped) and infiltrate (IL-6 and IL-1 already mapped) contribute to the inflammation of the schwannoma and meningioma microenvironment in NF2.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage (already mapped) and type-2 milieu of the schwannoma and meningioma microenvironment in NF2-related schwannomatosis.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Cutaneous schwannomas: the skin shows the cutaneous schwannomas and NF2 plaques, a peripheral manifestation of the syndrome alongside the vestibular schwannomas and meningiomas.
+- `connects-to` → **[T-cytotoxic cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Immune microenvironment: the cytotoxic T cells (PD-1 and perforin already mapped) infiltrate the NF2 tumours, and the immunotherapy angle is explored for the otherwise surgery- and radiation-managed schwannomas and meningiomas.
 
 [^asthagiri-2009-nf2-lancet]: Asthagiri AR, Parry DM, Butman JA, et al. Neurofibromatosis type 2. *Lancet.* 2009;373(9679):1974-1986. [doi:10.1016/S0140-6736(09)60259-2](https://doi.org/10.1016/S0140-6736(09)60259-2) · [PubMed 19476995](https://pubmed.ncbi.nlm.nih.gov/19476995/)
 [^plotkin-2009-nf2-bevacizumab]: Plotkin SR, Stemmer-Rachamimov AO, Barker FG 2nd, et al. Hearing improvement after bevacizumab in patients with neurofibromatosis type 2. *N Engl J Med.* 2009;361(4):358-367. [doi:10.1056/NEJMoa0902579](https://doi.org/10.1056/NEJMoa0902579) · [PubMed 19587327](https://pubmed.ncbi.nlm.nih.gov/19587327/)

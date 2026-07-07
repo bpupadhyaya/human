@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "Cardiac electrolyte balance: magnesium, with the calcium cycling (SERCA2a and RYR2 already mapped), influences the myocardial excitability and arrhythmia risk of the hypertrophic cardiomyopathy of Noonan syndrome."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Myocardial excitability: potassium, with the magnesium and calcium cycling (SERCA2a and RYR2 already mapped), sets the myocardial repolarisation and the arrhythmia risk of the hypertrophic cardiomyopathy of Noonan syndrome."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Skeletal features: the short stature (growth hormone and IGF-1 already mapped), the pectus deformity and the cubitus valgus of Noonan syndrome reflect the skeletal involvement (RANKL and sclerostin already mapped) of the RASopathy."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Neurodevelopment: the mild developmental delay and the learning difficulties (BDNF already mapped) of Noonan syndrome reflect the effect of the RAS-MAPK (already mapped) overactivity on the developing brain."
 ---
 
 # Noonan Syndrome
@@ -693,6 +702,9 @@ NS is characterized by four cardinal features: **(1) short stature** (below 3rd 
 - `connects-to` → **[Fibrinogen](../../03-molecular/fibrinogen/README.md)** — Bleeding diathesis: Noonan syndrome carries a bleeding tendency from clotting-factor deficiencies and platelet dysfunction (von Willebrand factor already mapped), and the coagulation abnormalities involving fibrinogen and factors require care around surgery.
 - `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — RAAS and cardiac remodelling: the renin-angiotensin-aldosterone system (angiotensin II and aldosterone already mapped), overlaid on the RAS-MAPK overactivity, contributes to the fibrosis and hypertrophic cardiomyopathy of Noonan syndrome.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Cardiac electrolyte balance: magnesium, with the calcium cycling (SERCA2a and RYR2 already mapped), influences the myocardial excitability and arrhythmia risk of the hypertrophic cardiomyopathy of Noonan syndrome.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Myocardial excitability: potassium, with the magnesium and calcium cycling (SERCA2a and RYR2 already mapped), sets the myocardial repolarisation and the arrhythmia risk of the hypertrophic cardiomyopathy of Noonan syndrome.
+- `connects-to` → **[Cortical bone](../../05-tissue/cortical-bone/README.md)** — Skeletal features: the short stature (growth hormone and IGF-1 already mapped), the pectus deformity and the cubitus valgus of Noonan syndrome reflect the skeletal involvement (RANKL and sclerostin already mapped) of the RASopathy.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Neurodevelopment: the mild developmental delay and the learning difficulties (BDNF already mapped) of Noonan syndrome reflect the effect of the RAS-MAPK (already mapped) overactivity on the developing brain.
 
 [^tartaglia-2001-ptpn11-noonan]: Tartaglia M, Mehler EL, Goldberg R, et al. Mutations in PTPN11, encoding the protein tyrosine phosphatase SHP-2, cause Noonan syndrome. *Nat Genet.* 2001;29(4):465-468. [doi:10.1038/ng772](https://doi.org/10.1038/ng772) · [PubMed 11704759](https://pubmed.ncbi.nlm.nih.gov/11704759/)
 [^van-der-burgt-2007-noonan-review]: van der Burgt I. Noonan syndrome. *Orphanet J Rare Dis.* 2007;2:4. [doi:10.1186/1750-1172-2-4](https://doi.org/10.1186/1750-1172-2-4) · [PubMed 17222357](https://pubmed.ncbi.nlm.nih.gov/17222357/)
