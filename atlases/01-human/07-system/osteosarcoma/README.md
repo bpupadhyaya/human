@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "Bone-mineral calcium: the calcium of the bone (RANKL and collagen already mapped) mineral is disturbed by the osteoblastic bone formation and the osteolytic destruction of osteosarcoma."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Marrow-adipose adipokine: resistin, with leptin and adiponectin (already mapped), completes the marrow-adipose adipokine signalling of the bone microenvironment of osteosarcoma."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate antitumour interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment relevant to the immunotherapy of osteosarcoma."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the immune microenvironment of osteosarcoma."
 ---
 
 # Osteosarcoma
@@ -710,6 +719,9 @@ OS is relatively radiation-resistant (high-dose radiation ~70+ Gy may achieve lo
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Marrow-adipose growth adipokine: leptin from the marrow adipose tissue and the growth (GH and IGF-1 already mapped) axis signals within the bone microenvironment of the adolescent-peak osteosarcoma.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Marrow-adipose adipokine: adiponectin, with leptin (already mapped), is the marrow-adipose adipokine of the bone microenvironment of osteosarcoma.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Bone-mineral calcium: the calcium of the bone (RANKL and collagen already mapped) mineral is disturbed by the osteoblastic bone formation and the osteolytic destruction of osteosarcoma.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Marrow-adipose adipokine: resistin, with leptin and adiponectin (already mapped), completes the marrow-adipose adipokine signalling of the bone microenvironment of osteosarcoma.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate antitumour interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment relevant to the immunotherapy of osteosarcoma.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the immune microenvironment of osteosarcoma.
 
 [^bielack-2002-coss-osteosarcoma]: Bielack SS, Kempf-Bielack B, Delling G, et al. Prognostic factors in high-grade osteosarcoma of the extremities or trunk: an analysis of 1,702 patients treated on neoadjuvant Cooperative Osteosarcoma Study Group protocols. *J Clin Oncol.* 2002;20(3):776-790. [doi:10.1200/JCO.2002.20.3.776](https://doi.org/10.1200/JCO.2002.20.3.776) · [PubMed 11821461](https://pubmed.ncbi.nlm.nih.gov/11821461/)
 [^marina-2016-euramos1-osteosarcoma]: Marina NM, Smeland S, Bielack SS, et al. Comparison of MAPIE versus MAP in patients with a poor response to preoperative chemotherapy for newly diagnosed high-grade osteosarcoma (EURAMOS-1). *Lancet Oncol.* 2016;17(10):1396-1408. [doi:10.1016/S1470-2045(16)30214-5](https://doi.org/10.1016/S1470-2045(16)30214-5) · [PubMed 27569442](https://pubmed.ncbi.nlm.nih.gov/27569442/)
