@@ -436,6 +436,15 @@ cross_links:
   - target: 01-human/03-molecular/hepcidin
     relation: connects-to
     note: "Plaque iron handling: the hepcidin-regulated iron handling of the plaque macrophages (already mapped) influences the oxidative stress (xanthine oxidase already mapped) of the lesion, the basis of the iron hypothesis of atherosclerosis."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "LDL oxidation: iron catalyses the oxidation of the LDL (cholesterol already mapped) that generates the oxidised LDL taken up by the foam-cell macrophages (already mapped), the iron hypothesis (hepcidin already mapped) of atherogenesis."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "M2 plaque arm: IL-13, with IL-4 (already mapped), drives the M2 macrophage (already mapped) arm of the plaque inflammation, a potentially plaque-stabilising phenotype in atherosclerosis."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Zinc and endothelial protection: zinc is an antioxidant and endothelial-protective trace metal, and its deficiency promotes the oxidative stress and endothelial dysfunction (nitric oxide already mapped) of atherosclerosis."
 ---
 
 # Atherosclerosis
@@ -689,6 +698,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Macrophage polarisation: IL-4 polarises the plaque macrophages (already mapped) toward an M2 phenotype (IL-10 already mapped), and the balance between the inflammatory and resolving macrophages shapes the stability of the atherosclerotic lesion.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Pro-atherogenic adipokine: resistin, with leptin (already mapped) and the fall in adiponectin (already mapped), is a pro-inflammatory adipokine that promotes the endothelial dysfunction and vascular inflammation of atherosclerosis.
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Plaque iron handling: the hepcidin-regulated iron handling of the plaque macrophages (already mapped) influences the oxidative stress (xanthine oxidase already mapped) of the lesion, the basis of the iron hypothesis of atherosclerosis.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — LDL oxidation: iron catalyses the oxidation of the LDL (cholesterol already mapped) that generates the oxidised LDL taken up by the foam-cell macrophages (already mapped), the iron hypothesis (hepcidin already mapped) of atherogenesis.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — M2 plaque arm: IL-13, with IL-4 (already mapped), drives the M2 macrophage (already mapped) arm of the plaque inflammation, a potentially plaque-stabilising phenotype in atherosclerosis.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and endothelial protection: zinc is an antioxidant and endothelial-protective trace metal, and its deficiency promotes the oxidative stress and endothelial dysfunction (nitric oxide already mapped) of atherosclerosis.
 
 ---
 

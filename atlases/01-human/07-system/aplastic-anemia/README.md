@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/03-molecular/leptin
     relation: connects-to
     note: "Fatty marrow replacement: the hypocellular marrow (already mapped) of aplastic anaemia is replaced by fat, and the marrow adipocytes and their adipokine leptin signal to the residual haematopoietic cells of the failing marrow."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Immune-attack interferon: the type-I interferon, with the IFN-γ (already mapped) of the autoreactive T cells, is part of the interferon-driven immune attack on the haematopoietic stem cells in aplastic anaemia."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Marrow-adipocyte adipokine: adiponectin, with leptin (already mapped), is secreted by the marrow adipocytes of the fatty marrow that replaces the failing haematopoiesis of aplastic anaemia."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipokine milieu: resistin, with leptin and adiponectin (already mapped), completes the marrow-adipocyte adipokine signalling of the fat-replaced marrow microenvironment of aplastic anaemia."
 ---
 
 # Aplastic Anemia
@@ -680,6 +689,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper-deficiency mimic: copper is required for haematopoiesis, and its deficiency causes a marrow failure with cytopenias and vacuolated precursors that mimics aplastic anaemia and myelodysplasia (MDS already mapped).
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and haematopoiesis: zinc supports immune function and haematopoiesis, and excess zinc (or its supplementation) can induce a copper deficiency (already mapped) that causes cytopenias, part of the trace-metal balance relevant to aplastic anaemia.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Fatty marrow replacement: the hypocellular marrow (already mapped) of aplastic anaemia is replaced by fat, and the marrow adipocytes and their adipokine leptin signal to the residual haematopoietic cells of the failing marrow.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Immune-attack interferon: the type-I interferon, with the IFN-γ (already mapped) of the autoreactive T cells, is part of the interferon-driven immune attack on the haematopoietic stem cells in aplastic anaemia.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Marrow-adipocyte adipokine: adiponectin, with leptin (already mapped), is secreted by the marrow adipocytes of the fatty marrow that replaces the failing haematopoiesis of aplastic anaemia.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine milieu: resistin, with leptin and adiponectin (already mapped), completes the marrow-adipocyte adipokine signalling of the fat-replaced marrow microenvironment of aplastic anaemia.
 
 ---
 
