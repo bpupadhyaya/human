@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "Immunogenic HRD tumours: the homologous-recombination-deficient (BRCA already mapped) tumours accumulate neoantigens, making them susceptible to the cytotoxic T cells (perforin already mapped) and the checkpoint (PD-1 already mapped) immunotherapy."
+  - target: 01-human/07-system/hereditary-diffuse-gastric-cancer
+    relation: connects-to
+    note: "CDH1 lobular-breast overlap: the hereditary diffuse gastric cancer (CDH1 already mapped) and the hereditary breast-ovarian cancer overlap in the lobular breast-cancer risk, hereditary breast-cancer syndromes in the genetic differential."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "HRD innate immunogenicity: the homologous-recombination deficiency (BRCA already mapped) generates the cytosolic DNA that activates the cGAS-STING (already mapped) type-I interferon, the innate immunogenicity of the HBOC tumours."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Tumour-associated macrophages: the M2 (IL-4 and IL-13 already mapped) macrophages populate the immunosuppressive stroma of the HBOC tumours, opposing the neoantigen (T-cell already mapped) immunity."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -715,6 +724,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine milieu: resistin, with leptin and adiponectin (already mapped), is part of the obesity-related modifiable adipokine influence on the hormone-responsive cancers of hereditary breast-ovarian cancer.
 - `connects-to` → **[Melanoma](../melanoma/README.md)** — Melanoma risk: the BRCA2 (already mapped) carriers have an elevated risk of melanoma (cutaneous and uveal), part of the broader cancer spectrum of hereditary breast-ovarian cancer.
 - `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Immunogenic HRD tumours: the homologous-recombination-deficient (BRCA already mapped) tumours accumulate neoantigens, making them susceptible to the cytotoxic T cells (perforin already mapped) and the checkpoint (PD-1 already mapped) immunotherapy.
+- `connects-to` → **[Hereditary diffuse gastric cancer](../hereditary-diffuse-gastric-cancer/README.md)** — CDH1 lobular-breast overlap: the hereditary diffuse gastric cancer (CDH1 already mapped) and the hereditary breast-ovarian cancer overlap in the lobular breast-cancer risk, hereditary breast-cancer syndromes in the genetic differential.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — HRD innate immunogenicity: the homologous-recombination deficiency (BRCA already mapped) generates the cytosolic DNA that activates the cGAS-STING (already mapped) type-I interferon, the innate immunogenicity of the HBOC tumours.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumour-associated macrophages: the M2 (IL-4 and IL-13 already mapped) macrophages populate the immunosuppressive stroma of the HBOC tumours, opposing the neoantigen (T-cell already mapped) immunity.
 
 ---
 

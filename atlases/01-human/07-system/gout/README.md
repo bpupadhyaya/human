@@ -445,6 +445,15 @@ cross_links:
   - target: 01-human/03-molecular/histamine
     relation: connects-to
     note: "Mast-cell mediator: histamine from the mast cells (already mapped) contributes to the vasodilation and the early inflammation of the acute gout flare."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "Tophaceous bone erosion: the RANKL from the tophus stroma drives the osteoclastic juxta-articular bone erosion of chronic tophaceous gout."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Chronic-tophus lymphocytes: the CD4 T-helper cells infiltrate the granulomatous tophus, the adaptive component complementing the innate (NLRP3 and IL-1 already mapped) crystal inflammation of chronic gout."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 granulomatous arm: the IFN-γ of the tophus T cells is the Th1 arm of the chronic granulomatous inflammation surrounding the urate crystals in tophaceous gout."
 ---
 
 # Gout
@@ -680,6 +689,9 @@ The central mechanism linking MSU crystals to acute gouty arthritis is **NLRP3 i
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate crystal response: type-I interferon is a component of the innate-immune (NLRP3 already mapped) response to the monosodium urate crystals, part of the inflammatory signalling of the gout flare.
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Iron and metabolic syndrome: hepcidin, driven by the inflammation (IL-6 already mapped), governs the iron handling whose disturbance links the iron overload to the hyperuricaemia and metabolic syndrome (insulin already mapped) of gout.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell mediator: histamine from the mast cells (already mapped) contributes to the vasodilation and the early inflammation of the acute gout flare.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Tophaceous bone erosion: the RANKL from the tophus stroma drives the osteoclastic juxta-articular bone erosion of chronic tophaceous gout.
+- `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — Chronic-tophus lymphocytes: the CD4 T-helper cells infiltrate the granulomatous tophus, the adaptive component complementing the innate (NLRP3 and IL-1 already mapped) crystal inflammation of chronic gout.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 granulomatous arm: the IFN-γ of the tophus T cells is the Th1 arm of the chronic granulomatous inflammation surrounding the urate crystals in tophaceous gout.
 
 [^dalbeth-2019-gout-primer]: Dalbeth N, Choi HK, Joosten LAB, et al. Gout. *Nat Rev Dis Primers.* 2019;5(1):69. [doi:10.1038/s41572-019-0115-y](https://doi.org/10.1038/s41572-019-0115-y) · [PubMed 31558729](https://pubmed.ncbi.nlm.nih.gov/31558729/)
 [^martinon-2006-nlrp3-gout]: Martinon F, Pétrilli V, Mayor A, Tardivel A, Tschopp J. Gout-associated uric acid crystals activate the NALP3 inflammasome. *Nature.* 2006;440(7081):237-241. [doi:10.1038/nature04516](https://doi.org/10.1038/nature04516) · [PubMed 16407889](https://pubmed.ncbi.nlm.nih.gov/16407889/)
