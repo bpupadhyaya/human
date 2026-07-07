@@ -433,6 +433,15 @@ cross_links:
   - target: 01-human/03-molecular/leptin
     relation: connects-to
     note: "Growth and metabolism: leptin and the altered energy balance reflect the growth delay and raised metabolic expenditure of sickle cell disease, driven by the chronic haemolysis and inflammation (IL-6 already mapped)."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "M2 haemolytic milieu: IL-13, with IL-4 (already mapped), supports the M2 macrophage (already mapped) phenotype that clears the haemolysed red cells, part of the immune and haemolytic microenvironment of sickle cell disease."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Adipokine and growth: adiponectin, with leptin (already mapped), reflects the altered energy balance and adipokine milieu of the growth delay and raised metabolic expenditure of sickle cell disease."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory milieu to the chronic haemolytic-inflammatory (IL-6 already mapped) state of sickle cell disease."
 ---
 
 # Sickle Cell Disease
@@ -730,6 +739,9 @@ SCD vaso-occlusion is not just from sickled RBCs mechanically blocking vessels �
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Compensatory erythropoiesis: the chronic haemolytic anaemia (haemoglobin already mapped) of sickle cell disease drives a high erythropoietin and reticulocytosis, the marrow expansion straining the skeleton and iron demand.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage milieu: IL-4 polarises macrophages toward an M2 phenotype (IL-10 already mapped) that clears the haemolysed red cells, part of the immune and haemolytic microenvironment of sickle cell disease.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Growth and metabolism: leptin and the altered energy balance reflect the growth delay and raised metabolic expenditure of sickle cell disease, driven by the chronic haemolysis and inflammation (IL-6 already mapped).
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — M2 haemolytic milieu: IL-13, with IL-4 (already mapped), supports the M2 macrophage (already mapped) phenotype that clears the haemolysed red cells, part of the immune and haemolytic microenvironment of sickle cell disease.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine and growth: adiponectin, with leptin (already mapped), reflects the altered energy balance and adipokine milieu of the growth delay and raised metabolic expenditure of sickle cell disease.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory milieu to the chronic haemolytic-inflammatory (IL-6 already mapped) state of sickle cell disease.
 
 [^steinberg-1999-scd-management]: Steinberg MH. Management of sickle cell disease. *N Engl J Med.* 1999;340(13):1021-1030. [doi:10.1056/NEJM199904013401307](https://doi.org/10.1056/NEJM199904013401307) · [PubMed 10099145](https://pubmed.ncbi.nlm.nih.gov/10099145/)
 [^vichinsky-2000-acs-scd]: Vichinsky EP, Neumayr LD, Earles AN, et al. Causes and outcomes of the acute chest syndrome in sickle cell disease. *N Engl J Med.* 2000;342(25):1855-1865. [doi:10.1056/NEJM200006223422502](https://doi.org/10.1056/NEJM200006223422502) · [PubMed 10861320](https://pubmed.ncbi.nlm.nih.gov/10861320/)
