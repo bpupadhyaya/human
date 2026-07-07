@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the vascular tone and angiogenesis of the highly vascular thyroid cancers, part of the biology targeted by the antiangiogenic multikinase inhibitors."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune microenvironment of thyroid cancer, especially the aggressive anaplastic type."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Anaemia and TKI therapy: the advanced thyroid cancers and the multikinase-inhibitor therapy cause anaemia (haemoglobin already mapped) that can require transfusion, whose repeated support can load the body with iron."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Growth-factor signalling: IGF-1 and its receptor drive the proliferation of thyroid cancer cells (VEGF and RET already mapped), part of the growth-factor signalling that supports the tumour alongside the driver kinases."
 ---
 
 # Thyroid Cancer
@@ -687,6 +696,9 @@ Calcitonin doubling time <6 months → poor prognosis → early systemic therapy
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the tumour microenvironment dampens the anti-tumour T-cell response (PD-1 and CTLA-4 already mapped), part of the immune evasion that shapes the limited but occasionally striking immunotherapy responses of anaplastic thyroid cancer.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative carcinogenesis: the thyroid's active iodine and hydrogen-peroxide chemistry, with reactive oxygen species to which xanthine oxidase contributes, generates oxidative DNA damage (NRF2 already mapped) that contributes to thyroid carcinogenesis.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the vascular tone and angiogenesis of the highly vascular thyroid cancers, part of the biology targeted by the antiangiogenic multikinase inhibitors.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune microenvironment of thyroid cancer, especially the aggressive anaplastic type.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Anaemia and TKI therapy: the advanced thyroid cancers and the multikinase-inhibitor therapy cause anaemia (haemoglobin already mapped) that can require transfusion, whose repeated support can load the body with iron.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Growth-factor signalling: IGF-1 and its receptor drive the proliferation of thyroid cancer cells (VEGF and RET already mapped), part of the growth-factor signalling that supports the tumour alongside the driver kinases.
 
 [^schlumberger-2015-lenvatinib]: Schlumberger M, Tahara M, Wirth LJ, et al. Lenvatinib versus placebo in radioiodine-refractory differentiated thyroid cancer. *N Engl J Med.* 2015;372(7):621-630. [doi:10.1056/NEJMoa1406470](https://doi.org/10.1056/NEJMoa1406470) · [PubMed 25671254](https://pubmed.ncbi.nlm.nih.gov/25671254/)
 [^subbiah-2018-atc-dabrafenib]: Subbiah V, Kreitman RJ, Wainberg ZA, et al. Dabrafenib and trametinib treatment in patients with locally advanced or metastatic BRAF V600-mutant anaplastic thyroid cancer. *J Clin Oncol.* 2018;36(1):7-13. [doi:10.1200/JCO.2017.73.6785](https://doi.org/10.1200/JCO.2017.73.6785) · [PubMed 28892432](https://pubmed.ncbi.nlm.nih.gov/28892432/)

@@ -418,6 +418,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Haemolysis and oxidative stress: the microangiopathic haemolysis of TTP releases lactate dehydrogenase and, with the endothelial injury, generates oxidative stress to which xanthine oxidase contributes, marking the intravascular cell destruction."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Haemolysis and iron: the microangiopathic haemolysis of TTP fragments red cells (haemoglobin already mapped) into schistocytes, releasing iron and haem, part of the intravascular red-cell destruction that marks the disease."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 autoantibody help: IL-13, with IL-4 (already mapped), supports the B cells (already mapped) producing the inhibitory anti-ADAMTS13 autoantibodies that drive acquired thrombotic thrombocytopenic purpura."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Iron handling in haemolysis: the haem released by the microangiopathic haemolysis and the inflammation (IL-6 already mapped) disturb hepcidin-regulated iron handling, part of the altered iron biology of the intravascular destruction in TTP."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -706,6 +715,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immune regulation: the anti-inflammatory IL-10 and regulatory T cells (CTLA-4 already mapped) normally restrain the autoreactive response, and the tolerance defect allowing anti-ADAMTS13 (already mapped) autoantibodies reflects a failure of this immunoregulation in acquired TTP.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Type-2 autoantibody help: IL-4 and the Th2 response support the B cells (already mapped) that produce the inhibitory anti-ADAMTS13 autoantibodies driving acquired thrombotic thrombocytopenic purpura.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Haemolysis and oxidative stress: the microangiopathic haemolysis of TTP releases lactate dehydrogenase and, with the endothelial injury, generates oxidative stress to which xanthine oxidase contributes, marking the intravascular cell destruction.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Haemolysis and iron: the microangiopathic haemolysis of TTP fragments red cells (haemoglobin already mapped) into schistocytes, releasing iron and haem, part of the intravascular red-cell destruction that marks the disease.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 autoantibody help: IL-13, with IL-4 (already mapped), supports the B cells (already mapped) producing the inhibitory anti-ADAMTS13 autoantibodies that drive acquired thrombotic thrombocytopenic purpura.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Iron handling in haemolysis: the haem released by the microangiopathic haemolysis and the inflammation (IL-6 already mapped) disturb hepcidin-regulated iron handling, part of the altered iron biology of the intravascular destruction in TTP.
 
 ---
 
