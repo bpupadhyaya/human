@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/troponin-complex
     relation: connects-to
     note: "Cardiac strain: high-dose beta-agonists and theophylline cause tachycardia and, with the hypoxaemia of acute severe asthma, can strain the heart, and troponin elevation may mark the myocardial stress of a near-fatal attack."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Antioxidant defence: selenium is essential for the glutathione peroxidases that quench airway oxidative stress (xanthine oxidase already mapped), and low selenium status has been linked to asthma and worse airway inflammation."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Obesity-asthma phenotype: the adipokine resistin, with leptin and adiponectin (already mapped), links the adipose tissue of obesity to airway inflammation, part of the distinct obese-asthma phenotype that responds poorly to steroids."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "Airway surface liquid: chloride transport hydrates the airway surface liquid and mucus, and its disturbance contributes to the thick mucus plugging of the airways (smooth muscle already mapped) in severe and fatal asthma."
 ---
 
 # Asthma
@@ -664,6 +673,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Respiratory acidosis: in acute severe asthma a rising carbon dioxide as the patient tires produces respiratory acidosis, and the accumulation of protons is an ominous sign heralding respiratory failure and the need for ventilation.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Neurogenic inflammation: CGRP released from airway sensory nerves, with substance P (already mapped), contributes to the neurogenic inflammation, vasodilation and cough of asthma, part of the neuro-immune dimension of the disease.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cardiac strain: high-dose beta-agonists and theophylline cause tachycardia and, with the hypoxaemia of acute severe asthma, can strain the heart, and troponin elevation may mark the myocardial stress of a near-fatal attack.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Antioxidant defence: selenium is essential for the glutathione peroxidases that quench airway oxidative stress (xanthine oxidase already mapped), and low selenium status has been linked to asthma and worse airway inflammation.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Obesity-asthma phenotype: the adipokine resistin, with leptin and adiponectin (already mapped), links the adipose tissue of obesity to airway inflammation, part of the distinct obese-asthma phenotype that responds poorly to steroids.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Airway surface liquid: chloride transport hydrates the airway surface liquid and mucus, and its disturbance contributes to the thick mucus plugging of the airways (smooth muscle already mapped) in severe and fatal asthma.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)
