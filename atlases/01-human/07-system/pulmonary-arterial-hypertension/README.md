@@ -427,6 +427,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "Vasoreactivity and calcium channels: the small vasoreactive subset of pulmonary arterial hypertension responds to calcium-channel blockers, and calcium handling in the pulmonary-artery smooth muscle (already mapped) underlies the vasoconstriction targeted."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Adipokine and sex bias: leptin, with the oestrogen (already mapped) metabolism, is implicated in the female predominance and the metabolic dimension of pulmonary arterial hypertension, part of its adipokine dysregulation."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Protective adipokine: adiponectin, with leptin (already mapped), modulates the pulmonary-vascular remodelling, and its dysregulation is part of the metabolic contribution to pulmonary arterial hypertension."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Vascular inflammation: resistin, with leptin and adiponectin (already mapped), is a pro-inflammatory adipokine implicated in the pulmonary-vascular inflammation and remodelling of pulmonary arterial hypertension."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -686,6 +695,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Type-2 inflammation: IL-4, with IL-13 (already mapped), drives the type-2 inflammatory arm that promotes the pulmonary vascular smooth-muscle (already mapped) remodelling, part of the inflammatory pathobiology of pulmonary arterial hypertension.
 - `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — RAAS in right-heart failure: the renin-angiotensin-aldosterone system (angiotensin II and aldosterone already mapped) is activated in the right-heart failure of pulmonary arterial hypertension, contributing to the fluid retention and remodelling.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Vasoreactivity and calcium channels: the small vasoreactive subset of pulmonary arterial hypertension responds to calcium-channel blockers, and calcium handling in the pulmonary-artery smooth muscle (already mapped) underlies the vasoconstriction targeted.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adipokine and sex bias: leptin, with the oestrogen (already mapped) metabolism, is implicated in the female predominance and the metabolic dimension of pulmonary arterial hypertension, part of its adipokine dysregulation.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Protective adipokine: adiponectin, with leptin (already mapped), modulates the pulmonary-vascular remodelling, and its dysregulation is part of the metabolic contribution to pulmonary arterial hypertension.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Vascular inflammation: resistin, with leptin and adiponectin (already mapped), is a pro-inflammatory adipokine implicated in the pulmonary-vascular inflammation and remodelling of pulmonary arterial hypertension.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

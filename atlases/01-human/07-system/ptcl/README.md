@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the prominent vascular proliferation of angioimmunoblastic T-cell lymphoma, part of the rich high-endothelial-venule vasculature of this peripheral T-cell lymphoma."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Eosinophilia: IL-5, with the Th2 skewing (IL-4 and IL-13 already mapped), drives the blood and tissue eosinophilia that characterises angioimmunoblastic and other peripheral T-cell lymphomas."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2 dysregulation: the Th2-driven (IL-4 and IL-13 already mapped) polyclonal hypergammaglobulinaemia and raised IgE reflect the immune dysregulation of angioimmunoblastic T-cell lymphoma."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Tumour-lysis hyperkalaemia: the bulky, aggressive peripheral T-cell lymphoma treated with chemotherapy can release potassium in tumour-lysis syndrome (xanthine oxidase and calcium already mapped), a metabolic emergency."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -700,6 +709,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune dysregulation: IL-13 reflects the type-2 cytokine skewing of angioimmunoblastic T-cell lymphoma, the follicular-helper-T-cell (already mapped) programme driving the polyclonal immune dysregulation and rash of this peripheral T-cell lymphoma.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Th2 cytokine milieu: IL-4, with IL-13 (already mapped), drives the type-2 immune dysregulation and eosinophilia of angioimmunoblastic and other peripheral T-cell lymphomas, part of their characteristic reactive immune microenvironment.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the prominent vascular proliferation of angioimmunoblastic T-cell lymphoma, part of the rich high-endothelial-venule vasculature of this peripheral T-cell lymphoma.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Eosinophilia: IL-5, with the Th2 skewing (IL-4 and IL-13 already mapped), drives the blood and tissue eosinophilia that characterises angioimmunoblastic and other peripheral T-cell lymphomas.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 dysregulation: the Th2-driven (IL-4 and IL-13 already mapped) polyclonal hypergammaglobulinaemia and raised IgE reflect the immune dysregulation of angioimmunoblastic T-cell lymphoma.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Tumour-lysis hyperkalaemia: the bulky, aggressive peripheral T-cell lymphoma treated with chemotherapy can release potassium in tumour-lysis syndrome (xanthine oxidase and calcium already mapped), a metabolic emergency.
 
 ---
 
