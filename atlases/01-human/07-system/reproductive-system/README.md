@@ -437,6 +437,15 @@ cross_links:
   - target: 01-human/03-molecular/histamine
     relation: connects-to
     note: "Uterine histamine: the histamine of the uterine and decidual mast cells modulates the implantation, the labour and the reproductive-tract vascular function of the reproductive system."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Maternal-fetal tolerance: the regulatory T cells expand to maintain the maternal tolerance of the fetal allograft, central to the immune-reproductive interface of the reproductive system."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Decidual immunity: the IFN-γ of the uterine/decidual NK cells (already mapped) shapes the spiral-artery remodelling and the maternal-fetal immunology of the reproductive system."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Reproductive-tract antiviral: the type-I interferon defends the reproductive-tract mucosa against the sexually-transmitted viruses, part of the mucosal immunity of the reproductive system."
 ---
 
 # Reproductive System
@@ -692,6 +701,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipose-reproductive axis: adiponectin, with leptin (already mapped), links the body fat to the puberty, the fertility and the PCOS (insulin already mapped) of the reproductive system.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Metabolic-reproductive adipokine: resistin, with leptin and adiponectin (already mapped), is the adipokine of the metabolic-reproductive link (PCOS, insulin already mapped) of the reproductive system.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Uterine histamine: the histamine of the uterine and decidual mast cells modulates the implantation, the labour and the reproductive-tract vascular function of the reproductive system.
+- `connects-to` → **[Regulatory T cell](../../04-cellular/regulatory-t-cell/README.md)** — Maternal-fetal tolerance: the regulatory T cells expand to maintain the maternal tolerance of the fetal allograft, central to the immune-reproductive interface of the reproductive system.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Decidual immunity: the IFN-γ of the uterine/decidual NK cells (already mapped) shapes the spiral-artery remodelling and the maternal-fetal immunology of the reproductive system.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Reproductive-tract antiviral: the type-I interferon defends the reproductive-tract mucosa against the sexually-transmitted viruses, part of the mucosal immunity of the reproductive system.
 
 ## Pathology
 

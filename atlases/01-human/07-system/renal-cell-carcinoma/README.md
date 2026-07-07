@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/hepcidin
     relation: connects-to
     note: "Paraneoplastic iron dysregulation: hepcidin, driven by the IL-6 (already mapped), produces the anaemia of chronic disease, while conversely the paraneoplastic erythropoietin (already mapped) causes polycythaemia in renal cell carcinoma."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the immunogenic renal cell carcinoma, exploited by the checkpoint (PD-1 already mapped) immunotherapy."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) anti-tumour response of the renal-cell-carcinoma immune microenvironment."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "NK surveillance: the NK cells (perforin already mapped) provide the innate cytotoxic surveillance of the immunogenic renal cell carcinoma, complementing the T-cell (already mapped) immunotherapy."
 ---
 
 # Renal Cell Carcinoma
@@ -698,6 +707,9 @@ Kidney → primary site of EPO production under hypoxia; VHL-intact renal inters
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Historical immunotherapy: interferon-α was the pre-TKI/checkpoint immunotherapy of metastatic renal cell carcinoma, and the type-I interferon shapes the immunogenicity of the clear-cell tumour.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the obesity risk (the obesity paradox) of renal cell carcinoma.
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Paraneoplastic iron dysregulation: hepcidin, driven by the IL-6 (already mapped), produces the anaemia of chronic disease, while conversely the paraneoplastic erythropoietin (already mapped) causes polycythaemia in renal cell carcinoma.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the immunogenic renal cell carcinoma, exploited by the checkpoint (PD-1 already mapped) immunotherapy.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) anti-tumour response of the renal-cell-carcinoma immune microenvironment.
+- `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — NK surveillance: the NK cells (perforin already mapped) provide the innate cytotoxic surveillance of the immunogenic renal cell carcinoma, complementing the T-cell (already mapped) immunotherapy.
 
 [^motzer-2018-checkmate214]: Motzer RJ, Tannir NM, McDermott DF, et al. Nivolumab plus ipilimumab versus sunitinib in advanced renal-cell carcinoma. *N Engl J Med.* 2018;378(14):1277-1290. [doi:10.1056/NEJMoa1712126](https://doi.org/10.1056/NEJMoa1712126) · [PubMed 29562145](https://pubmed.ncbi.nlm.nih.gov/29562145/)
 [^rini-2019-keynote426]: Rini BI, Plimack ER, Stus V, et al. Pembrolizumab plus axitinib versus sunitinib for advanced renal-cell carcinoma. *N Engl J Med.* 2019;380(12):1116-1127. [doi:10.1056/NEJMoa1816714](https://doi.org/10.1056/NEJMoa1816714) · [PubMed 30779529](https://pubmed.ncbi.nlm.nih.gov/30779529/)
