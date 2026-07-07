@@ -436,6 +436,15 @@ cross_links:
   - target: 03-medicine/03-food/omega-3-fatty-acids
     relation: connects-to
     note: "Omega-3 prophylaxis: the omega-3 fatty acids give rise to pro-resolving mediators that counter the neurogenic inflammation (prostaglandins already mapped) of migraine, and dietary omega-3 has been studied for migraine prevention."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 neuroimmunity: IL-13, with IL-4 (already mapped), supports the M2 microglial arm balancing the neurogenic inflammation (substance-P and CGRP already mapped) implicated in migraine."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Adipokine and chronic migraine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the obesity that is a risk factor for the transformation to chronic migraine."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory milieu (IL-6 already mapped) to the chronic migraine associated with obesity."
 ---
 
 # Migraine
@@ -712,6 +721,9 @@ Episodic migraine (EM, <15 headache days/month) transforms to **chronic migraine
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Neuroimmune balance: the anti-inflammatory IL-4 counters the pro-inflammatory cytokines (IL-6, TNF and IL-1 already mapped) of the neurogenic inflammation implicated in migraine, part of its immune dimension.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and neuronal excitability: zinc modulates the glutamatergic (already mapped) signalling and, with magnesium (already mapped), the neuronal excitability implicated in the cortical spreading depression of migraine.
 - `connects-to` → **[Omega-3 fatty acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Omega-3 prophylaxis: the omega-3 fatty acids give rise to pro-resolving mediators that counter the neurogenic inflammation (prostaglandins already mapped) of migraine, and dietary omega-3 has been studied for migraine prevention.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 neuroimmunity: IL-13, with IL-4 (already mapped), supports the M2 microglial arm balancing the neurogenic inflammation (substance-P and CGRP already mapped) implicated in migraine.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine and chronic migraine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the obesity that is a risk factor for the transformation to chronic migraine.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory milieu (IL-6 already mapped) to the chronic migraine associated with obesity.
 
 [^gbd-2016-migraine-burden]: GBD 2016 Headache Collaborators. Global, regional, and national burden of migraine and tension-type headache, 1990-2016. *Lancet Neurol.* 2018;17(11):954-976. [doi:10.1016/S1474-4422(18)30322-3](https://doi.org/10.1016/S1474-4422(18)30322-3) · [PubMed 30353868](https://pubmed.ncbi.nlm.nih.gov/30353868/)
 [^goadsby-2002-migraine-review]: Goadsby PJ, Lipton RB, Ferrari MD. Migraine — current understanding and treatment. *N Engl J Med.* 2002;346(4):257-270. [doi:10.1056/NEJMra010917](https://doi.org/10.1056/NEJMra010917) · [PubMed 11807151](https://pubmed.ncbi.nlm.nih.gov/11807151/)

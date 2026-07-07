@@ -433,6 +433,15 @@ cross_links:
   - target: 03-medicine/03-food/omega-3-fatty-acids
     relation: connects-to
     note: "Omega-3 and myelin: the omega-3 fatty acids are structural lipids of myelin (cholesterol already mapped) and give rise to pro-resolving mediators, the basis of dietary interest in omega-3 for multiple sclerosis."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 counter-arm: IL-13, with IL-4 (already mapped), is part of the Th2/anti-inflammatory arm (IL-10 already mapped) that counters the Th17 and Th1 (IL-17, IL-23 and IFN-γ already mapped) drive of multiple sclerosis."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Adipokine and MS risk: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the obesity that is a risk factor for multiple sclerosis, the metabolic-immune crosstalk shaping the disease."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory milieu (IL-6 already mapped) to the obesity-associated risk and activity of multiple sclerosis."
 ---
 
 # Multiple Sclerosis
@@ -681,6 +690,9 @@ MS affects approximately **2.8 million people worldwide** (~1 million in the US)
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Astrogliosis and the glial scar: the reactive astrocytes form the sclerotic glial scar that names multiple sclerosis, and their gap junctions (connexin43 already mapped) and gliotransmission shape both the lesion and the impaired repair.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Axonal calcium overload: the glutamate (already mapped) excitotoxicity and the energy failure of the demyelinated axon load it with calcium, driving the axonal degeneration that underlies the progressive disability of multiple sclerosis.
 - `connects-to` → **[Omega-3 fatty acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Omega-3 and myelin: the omega-3 fatty acids are structural lipids of myelin (cholesterol already mapped) and give rise to pro-resolving mediators, the basis of dietary interest in omega-3 for multiple sclerosis.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 counter-arm: IL-13, with IL-4 (already mapped), is part of the Th2/anti-inflammatory arm (IL-10 already mapped) that counters the Th17 and Th1 (IL-17, IL-23 and IFN-γ already mapped) drive of multiple sclerosis.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine and MS risk: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the obesity that is a risk factor for multiple sclerosis, the metabolic-immune crosstalk shaping the disease.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory milieu (IL-6 already mapped) to the obesity-associated risk and activity of multiple sclerosis.
 
 [^compston-2008-ms-review]: Compston A, Coles A. Multiple sclerosis. *Lancet.* 2008;372(9648):1502-1517. [doi:10.1016/S0140-6736(08)61620-7](https://doi.org/10.1016/S0140-6736(08)61620-7) · [PubMed 18970977](https://pubmed.ncbi.nlm.nih.gov/18970977/)
 [^kappos-2006-natalizumab]: Polman CH, O'Connor PW, Havrdova E, et al. A randomized, placebo-controlled trial of natalizumab for relapsing multiple sclerosis. *N Engl J Med.* 2006;354(9):899-910. [doi:10.1056/NEJMoa044397](https://doi.org/10.1056/NEJMoa044397) · [PubMed 16510744](https://pubmed.ncbi.nlm.nih.gov/16510744/)
