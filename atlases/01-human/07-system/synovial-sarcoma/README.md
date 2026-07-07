@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the vascular tone and angiogenesis of synovial sarcoma, part of the stromal microenvironment of this deep soft-tissue sarcoma of young adults."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the cold, immune-evasive microenvironment of synovial sarcoma that the NY-ESO-1 TCR-T therapy must overcome."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Chemotherapy anaemia: the doxorubicin-ifosfamide chemotherapy of synovial sarcoma is myelosuppressive, causing anaemia (haemoglobin already mapped) that needs transfusion whose repeated support can load the young survivor with iron."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Proton radiotherapy: proton-beam radiotherapy provides local control of synovial sarcoma while sparing the surrounding normal tissue, an option especially valuable in the young patients typical of this sarcoma."
 ---
 
 # Synovial Sarcoma
@@ -669,6 +678,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the tumour microenvironment dampens the anti-tumour T-cell response (PD-1 already mapped), part of the immune evasion relevant to the NY-ESO-1 TCR-T cell therapy (CD8 already mapped) approved for synovial sarcoma.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative and lysis stress: the doxorubicin-ifosfamide chemotherapy of synovial sarcoma generates oxidative stress and, in bulky disease, cell lysis releasing purines that xanthine oxidase converts to uric acid, adding oxidative and tumour-lysis burden.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the vascular tone and angiogenesis of synovial sarcoma, part of the stromal microenvironment of this deep soft-tissue sarcoma of young adults.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the cold, immune-evasive microenvironment of synovial sarcoma that the NY-ESO-1 TCR-T therapy must overcome.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Chemotherapy anaemia: the doxorubicin-ifosfamide chemotherapy of synovial sarcoma is myelosuppressive, causing anaemia (haemoglobin already mapped) that needs transfusion whose repeated support can load the young survivor with iron.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Proton radiotherapy: proton-beam radiotherapy provides local control of synovial sarcoma while sparing the surrounding normal tissue, an option especially valuable in the young patients typical of this sarcoma.
 
 ---
 

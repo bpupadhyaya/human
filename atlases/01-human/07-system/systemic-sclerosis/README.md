@@ -418,6 +418,15 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "Immunoregulatory balance: the anti-inflammatory IL-10 counters the profibrotic type-2 and type-17 responses (IL-4, IL-13 and IL-17 already mapped), and the imbalance between them shapes the autoimmunity and fibrosis of systemic sclerosis."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Anaemia and GI bleeding: the chronic inflammation and the gastric antral vascular ectasia (watermelon stomach) of systemic sclerosis cause anaemia (haemoglobin already mapped) from iron loss and sequestration, a common systemic complication."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell involvement: mast cells release histamine in the early inflammatory, pruritic phase of the skin (already mapped) fibrosis of systemic sclerosis, contributing to the itch and the fibroblast-activating (already mapped) inflammation."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "Scleroderma renal crisis: the renin-angiotensin system (angiotensin II already mapped) is dramatically activated in scleroderma renal crisis, and ACE inhibitors blocking it transformed this once-fatal complication of systemic sclerosis."
 ---
 
 # Systemic Sclerosis
@@ -665,6 +674,9 @@ Identical to IPAH: medial hypertrophy, intimal fibrosis, concentric laminar inti
 - `connects-to` → **[ADAMTS13](../../03-molecular/adamts13/README.md)** — Renal-crisis microangiopathy: scleroderma renal crisis causes a thrombotic microangiopathy with normal ADAMTS13 (unlike thrombotic thrombocytopenic purpura), the endothelial injury driving the haemolysis and acute kidney failure.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative fibrosis: reactive oxygen species, to which xanthine oxidase contributes, are generated in the hypoxic, inflamed tissues of systemic sclerosis, and this oxidative stress (NRF2 already mapped) helps drive the endothelial injury and fibroblast activation.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunoregulatory balance: the anti-inflammatory IL-10 counters the profibrotic type-2 and type-17 responses (IL-4, IL-13 and IL-17 already mapped), and the imbalance between them shapes the autoimmunity and fibrosis of systemic sclerosis.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Anaemia and GI bleeding: the chronic inflammation and the gastric antral vascular ectasia (watermelon stomach) of systemic sclerosis cause anaemia (haemoglobin already mapped) from iron loss and sequestration, a common systemic complication.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell involvement: mast cells release histamine in the early inflammatory, pruritic phase of the skin (already mapped) fibrosis of systemic sclerosis, contributing to the itch and the fibroblast-activating (already mapped) inflammation.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — Scleroderma renal crisis: the renin-angiotensin system (angiotensin II already mapped) is dramatically activated in scleroderma renal crisis, and ACE inhibitors blocking it transformed this once-fatal complication of systemic sclerosis.
 
 [^denton-2017-ssc-review]: Denton CP, Khanna D. Systemic sclerosis. *Lancet.* 2017;390(10103):1685-1699. [doi:10.1016/S0140-6736(17)30933-9](https://doi.org/10.1016/S0140-6736(17)30933-9) · [PubMed 28413064](https://pubmed.ncbi.nlm.nih.gov/28413064/)
 [^distler-2019-nintedanib-senscis]: Distler O, Highland KB, Gahlemann M, et al. Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease. *N Engl J Med.* 2019;380(26):2518-2528. [doi:10.1056/NEJMoa1903076](https://doi.org/10.1056/NEJMoa1903076) · [PubMed 31112379](https://pubmed.ncbi.nlm.nih.gov/31112379/)
