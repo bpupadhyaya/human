@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Iron-deficiency anaemia: the chronic occult bleeding of the oesophageal tumour and the dysphagia-related malnutrition cause the iron-deficiency anaemia (haemoglobin already mapped) common at presentation."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Obesity-adenocarcinoma adipokine: adiponectin, with leptin (already mapped), links the obesity (already mapped) that drives the oesophageal adenocarcinoma to the metabolic-inflammatory milieu of the tumour."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "M2 desmoplastic arm: IL-13, with IL-4 (already mapped), drives the M2 macrophage (already mapped) arm of the immunosuppressive desmoplastic (fibroblast already mapped) stroma of oesophageal cancer."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the obesity-associated oesophageal adenocarcinoma."
 ---
 
 # Esophageal Cancer
@@ -705,6 +714,9 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the microenvironment the checkpoint inhibitors now standard in oesophageal cancer must overcome.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Desmoplastic stroma: the cancer-associated fibroblasts lay down the desmoplastic stroma (TGF-β already mapped) of oesophageal cancer, supporting the invasion and the treatment resistance of the tumour.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron-deficiency anaemia: the chronic occult bleeding of the oesophageal tumour and the dysphagia-related malnutrition cause the iron-deficiency anaemia (haemoglobin already mapped) common at presentation.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Obesity-adenocarcinoma adipokine: adiponectin, with leptin (already mapped), links the obesity (already mapped) that drives the oesophageal adenocarcinoma to the metabolic-inflammatory milieu of the tumour.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — M2 desmoplastic arm: IL-13, with IL-4 (already mapped), drives the M2 macrophage (already mapped) arm of the immunosuppressive desmoplastic (fibroblast already mapped) stroma of oesophageal cancer.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the obesity-associated oesophageal adenocarcinoma.
 
 ---
 

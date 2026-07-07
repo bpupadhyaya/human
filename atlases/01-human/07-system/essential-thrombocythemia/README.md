@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Adipokine microenvironment: adiponectin, with leptin (already mapped), from the marrow adipose tissue signals to the myeloproliferative clone, part of the metabolic microenvironment of essential thrombocythaemia."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipokine milieu: resistin, with leptin and adiponectin (already mapped), completes the marrow-adipocyte adipokine signalling of the metabolic microenvironment of essential thrombocythaemia."
+  - target: 01-human/07-system/aml
+    relation: connects-to
+    note: "Leukaemic transformation: essential thrombocythaemia can transform to acute myeloid leukaemia (the blast phase, RUNX1 already mapped), a feared outcome of the myeloproliferative neoplasm."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Iron deficiency and PV masking: coexisting iron deficiency can lower the haemoglobin and mask an underlying polycythaemia vera (already mapped) as essential thrombocythaemia, and drives the microcytosis of the disorder."
 ---
 
 # Essential Thrombocythemia
@@ -685,6 +694,9 @@ Management:
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Inflammatory milieu: IL-4 and the M2 macrophage arm (IL-10 already mapped) shape the chronic inflammation (IL-6 and TNF already mapped) of the myeloproliferative marrow, part of the disease biology of essential thrombocythaemia.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Marrow adipose crosstalk: the marrow adipocytes and their adipokine leptin signal to the clonal megakaryocytes, part of the bone-marrow (already mapped) microenvironment of essential thrombocythaemia.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine microenvironment: adiponectin, with leptin (already mapped), from the marrow adipose tissue signals to the myeloproliferative clone, part of the metabolic microenvironment of essential thrombocythaemia.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine milieu: resistin, with leptin and adiponectin (already mapped), completes the marrow-adipocyte adipokine signalling of the metabolic microenvironment of essential thrombocythaemia.
+- `connects-to` → **[AML](../aml/README.md)** — Leukaemic transformation: essential thrombocythaemia can transform to acute myeloid leukaemia (the blast phase, RUNX1 already mapped), a feared outcome of the myeloproliferative neoplasm.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron deficiency and PV masking: coexisting iron deficiency can lower the haemoglobin and mask an underlying polycythaemia vera (already mapped) as essential thrombocythaemia, and drives the microcytosis of the disorder.
 
 [^harrison-2005-pt1-et]: Harrison CN, Campbell PJ, Buck G, et al. Hydroxyurea compared with anagrelide in high-risk essential thrombocythemia. *N Engl J Med.* 2005;353(1):33-45. [doi:10.1056/NEJMoa043800](https://doi.org/10.1056/NEJMoa043800) · [PubMed 16000354](https://pubmed.ncbi.nlm.nih.gov/16000354/)
 [^barbui-2012-ipset]: Barbui T, Finazzi G, Carobbio A, et al. Development and validation of an International Prognostic Score of thrombosis in World Health Organization-essential thrombocythemia (IPSET-thrombosis). *Blood.* 2012;120(26):5128-5133. [doi:10.1182/blood-2012-07-444067](https://doi.org/10.1182/blood-2012-07-444067) · [PubMed 23086758](https://pubmed.ncbi.nlm.nih.gov/23086758/)
