@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/02-atomic/copper
     relation: connects-to
     note: "Biliary copper: the liver (already mapped) excretes copper into bile, and the biliary obstruction of cholangiocarcinoma disrupts this excretion, linking copper handling to the cholestasis of the biliary cancer."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "M2 desmoplastic stroma: IL-13, with IL-4 (already mapped), drives the M2 macrophage (already mapped) arm of the immunosuppressive desmoplastic stroma (collagen already mapped) of cholangiocarcinoma."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Obesity and NAFLD risk: leptin is the obesity/NAFLD-related adipokine, a rising risk factor for the intrahepatic cholangiocarcinoma (liver already mapped) via the metabolic-inflammatory milieu."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic (cholesterol already mapped) risk of cholangiocarcinoma."
 ---
 
 # Cholangiocarcinoma
@@ -664,6 +673,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages (already mapped) toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the cold desmoplastic microenvironment that limits immunotherapy in cholangiocarcinoma.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumour-associated macrophages: the macrophages (CCL2 and TLR4 already mapped) infiltrate the desmoplastic stroma of cholangiocarcinoma, and their M2 polarisation supports the immunosuppression and progression of the biliary cancer.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Biliary copper: the liver (already mapped) excretes copper into bile, and the biliary obstruction of cholangiocarcinoma disrupts this excretion, linking copper handling to the cholestasis of the biliary cancer.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — M2 desmoplastic stroma: IL-13, with IL-4 (already mapped), drives the M2 macrophage (already mapped) arm of the immunosuppressive desmoplastic stroma (collagen already mapped) of cholangiocarcinoma.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Obesity and NAFLD risk: leptin is the obesity/NAFLD-related adipokine, a rising risk factor for the intrahepatic cholangiocarcinoma (liver already mapped) via the metabolic-inflammatory milieu.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic (cholesterol already mapped) risk of cholangiocarcinoma.
 
 ---
 

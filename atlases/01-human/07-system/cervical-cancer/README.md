@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "Antioxidant defence: selenium is essential for the glutathione peroxidases that quench the oxidative stress (xanthine oxidase already mapped) of persistent HPV infection, and low selenium status has been linked to cervical dysplasia and cancer risk."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Obesity-related adipokine: leptin is the obesity-related adipokine linked to the risk and progression of the cervical adenocarcinoma and the oestrogen (already mapped) metabolic milieu of cervical cancer."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the obesity and metabolic contribution to cervical cancer."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory milieu (IL-6 already mapped) to the metabolic contribution to cervical cancer."
 ---
 
 # Cervical Cancer
@@ -690,6 +699,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages (already mapped) toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the microenvironment that helps the HPV-driven cancer evade immunity.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immunosuppressive microenvironment of cervical cancer.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Antioxidant defence: selenium is essential for the glutathione peroxidases that quench the oxidative stress (xanthine oxidase already mapped) of persistent HPV infection, and low selenium status has been linked to cervical dysplasia and cancer risk.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Obesity-related adipokine: leptin is the obesity-related adipokine linked to the risk and progression of the cervical adenocarcinoma and the oestrogen (already mapped) metabolic milieu of cervical cancer.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the obesity and metabolic contribution to cervical cancer.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory milieu (IL-6 already mapped) to the metabolic contribution to cervical cancer.
 
 ---
 
