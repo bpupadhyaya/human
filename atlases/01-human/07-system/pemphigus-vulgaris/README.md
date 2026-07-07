@@ -445,6 +445,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the steroid-related metabolic disturbance and the inflammation (IL-6 already mapped) of pemphigus."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "ADCC effectors: the NK cells mediate the antibody-dependent cellular cytotoxicity of the anti-CD20 (already mapped) rituximab (Ritux 3) against the autoreactive B cells of pemphigus vulgaris."
+  - target: 01-human/03-molecular/il-31
+    relation: connects-to
+    note: "Pruritus cytokine: IL-31, part of the type-2 (IL-4 and IL-13 already mapped) response, mediates the pruritus of the cutaneous involvement of pemphigus vulgaris."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Epithelial alarmin: the keratinocyte-derived TSLP alarmin drives the type-2 (IL-4 already mapped) skin immunity of the blistering autoimmunity of pemphigus vulgaris."
 ---
 
 # Pemphigus Vulgaris
@@ -731,6 +740,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Steroid metabolic adipokine: leptin is disturbed by the long-term corticosteroid (cortisol already mapped) therapy of pemphigus, part of the steroid metabolic complications of the disease.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the steroid-related metabolic disturbance of pemphigus vulgaris.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the steroid-related metabolic disturbance and the inflammation (IL-6 already mapped) of pemphigus.
+- `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — ADCC effectors: the NK cells mediate the antibody-dependent cellular cytotoxicity of the anti-CD20 (already mapped) rituximab (Ritux 3) against the autoreactive B cells of pemphigus vulgaris.
+- `connects-to` → **[IL-31](../../03-molecular/il-31/README.md)** — Pruritus cytokine: IL-31, part of the type-2 (IL-4 and IL-13 already mapped) response, mediates the pruritus of the cutaneous involvement of pemphigus vulgaris.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Epithelial alarmin: the keratinocyte-derived TSLP alarmin drives the type-2 (IL-4 already mapped) skin immunity of the blistering autoimmunity of pemphigus vulgaris.
 
 ---
 
