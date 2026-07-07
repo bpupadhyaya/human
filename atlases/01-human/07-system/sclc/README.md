@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Adipokine crosstalk: adiponectin, with leptin (already mapped), links the metabolic and adipose state to the systemic effects and cachexia of small cell lung cancer."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Cachexia adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the cachexia (IL-6 already mapped) of small cell lung cancer."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Bone metastases: the cortical bone is a common site of small cell lung cancer metastasis, causing the bone pain and pathological fractures of the extensive-stage disease."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin sequesters iron and produces the anaemia of chronic disease (haemoglobin already mapped) of the small cell lung cancer cachexia."
 ---
 
 # Small Cell Lung Cancer
@@ -677,6 +686,9 @@ SCLC has highest rate of brain metastases among solid tumors (~50% at 2 years); 
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immunosuppressive microenvironment of small cell lung cancer.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Cancer cachexia: the profound weight loss and cancer cachexia (IL-6 already mapped) of small cell lung cancer are reflected in the fall in the adipokine leptin as the adipose tissue is depleted.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine crosstalk: adiponectin, with leptin (already mapped), links the metabolic and adipose state to the systemic effects and cachexia of small cell lung cancer.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Cachexia adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the cachexia (IL-6 already mapped) of small cell lung cancer.
+- `connects-to` → **[Cortical bone](../../05-tissue/cortical-bone/README.md)** — Bone metastases: the cortical bone is a common site of small cell lung cancer metastasis, causing the bone pain and pathological fractures of the extensive-stage disease.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin sequesters iron and produces the anaemia of chronic disease (haemoglobin already mapped) of the small cell lung cancer cachexia.
 
 [^horn-2018-impower133]: Horn L, Mansfield AS, Szczęsna A, et al. First-line atezolizumab plus chemotherapy in extensive-stage small-cell lung cancer. *N Engl J Med.* 2018;379(23):2220-2229. [doi:10.1056/NEJMoa1809064](https://doi.org/10.1056/NEJMoa1809064) · [PubMed 30280641](https://pubmed.ncbi.nlm.nih.gov/30280641/)
 [^paz-ares-2019-caspian]: Paz-Ares L, Dvorkin M, Chen Y, et al. Durvalumab plus platinum-etoposide versus platinum-etoposide in first-line treatment of extensive-stage small-cell lung cancer (CASPIAN). *Lancet.* 2019;394(10212):1929-1939. [doi:10.1016/S0140-6736(19)32222-6](https://doi.org/10.1016/S0140-6736(19)32222-6) · [PubMed 31590988](https://pubmed.ncbi.nlm.nih.gov/31590988/)

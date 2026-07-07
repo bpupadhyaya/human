@@ -436,6 +436,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "RTA and nephrocalcinosis: the distal renal tubular acidosis of the tubulointerstitial nephritis (kidney and potassium already mapped) of Sjögren's impairs urinary acidification, causing the nephrocalcinosis and calcium stones."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Immune-metabolic adipokine: leptin modulates the autoreactive response of Sjögren's syndrome, part of the immune-metabolic milieu of the autoimmune exocrinopathy."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the immune-metabolic milieu of Sjögren's syndrome."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the immune-metabolic milieu of Sjögren's syndrome."
 ---
 
 # Sjögren's Syndrome
@@ -705,6 +714,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin sequesters iron (already mapped) to produce the anaemia of chronic disease that is part of the systemic haematological involvement of Sjögren's syndrome.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Glandular angiogenesis: VEGF drives the angiogenesis and vascular changes of the chronically inflamed exocrine glands, part of the tissue remodelling of the salivary and lacrimal glands in Sjögren's syndrome.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — RTA and nephrocalcinosis: the distal renal tubular acidosis of the tubulointerstitial nephritis (kidney and potassium already mapped) of Sjögren's impairs urinary acidification, causing the nephrocalcinosis and calcium stones.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Immune-metabolic adipokine: leptin modulates the autoreactive response of Sjögren's syndrome, part of the immune-metabolic milieu of the autoimmune exocrinopathy.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the immune-metabolic milieu of Sjögren's syndrome.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the immune-metabolic milieu of Sjögren's syndrome.
 
 ---
 
