@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: connects-to
     note: "Neurodevelopment: the mild developmental delay and the learning difficulties (BDNF already mapped) of Noonan syndrome reflect the effect of the RAS-MAPK (already mapped) overactivity on the developing brain."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Growth-metabolic adipokine: leptin reflects the short stature (growth hormone and IGF-1 already mapped) and the altered growth and metabolism of Noonan syndrome."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Type-2 allergic tendency: IL-4 is part of the type-2 immune arm of the increased allergic/atopic and autoimmune tendency reported in the RASopathies including Noonan syndrome."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immune arm: IL-13, with IL-4 (already mapped), completes the type-2 immune arm of the atopic tendency of the RAS-MAPK (already mapped) overactivity of Noonan syndrome."
 ---
 
 # Noonan Syndrome
@@ -705,6 +714,9 @@ NS is characterized by four cardinal features: **(1) short stature** (below 3rd 
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Myocardial excitability: potassium, with the magnesium and calcium cycling (SERCA2a and RYR2 already mapped), sets the myocardial repolarisation and the arrhythmia risk of the hypertrophic cardiomyopathy of Noonan syndrome.
 - `connects-to` → **[Cortical bone](../../05-tissue/cortical-bone/README.md)** — Skeletal features: the short stature (growth hormone and IGF-1 already mapped), the pectus deformity and the cubitus valgus of Noonan syndrome reflect the skeletal involvement (RANKL and sclerostin already mapped) of the RASopathy.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Neurodevelopment: the mild developmental delay and the learning difficulties (BDNF already mapped) of Noonan syndrome reflect the effect of the RAS-MAPK (already mapped) overactivity on the developing brain.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Growth-metabolic adipokine: leptin reflects the short stature (growth hormone and IGF-1 already mapped) and the altered growth and metabolism of Noonan syndrome.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Type-2 allergic tendency: IL-4 is part of the type-2 immune arm of the increased allergic/atopic and autoimmune tendency reported in the RASopathies including Noonan syndrome.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), completes the type-2 immune arm of the atopic tendency of the RAS-MAPK (already mapped) overactivity of Noonan syndrome.
 
 [^tartaglia-2001-ptpn11-noonan]: Tartaglia M, Mehler EL, Goldberg R, et al. Mutations in PTPN11, encoding the protein tyrosine phosphatase SHP-2, cause Noonan syndrome. *Nat Genet.* 2001;29(4):465-468. [doi:10.1038/ng772](https://doi.org/10.1038/ng772) · [PubMed 11704759](https://pubmed.ncbi.nlm.nih.gov/11704759/)
 [^van-der-burgt-2007-noonan-review]: van der Burgt I. Noonan syndrome. *Orphanet J Rare Dis.* 2007;2:4. [doi:10.1186/1750-1172-2-4](https://doi.org/10.1186/1750-1172-2-4) · [PubMed 17222357](https://pubmed.ncbi.nlm.nih.gov/17222357/)
