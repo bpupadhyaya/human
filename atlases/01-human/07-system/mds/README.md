@@ -424,6 +424,15 @@ cross_links:
   - target: 01-human/03-molecular/leptin
     relation: connects-to
     note: "Adipokine marrow signalling: leptin, with adiponectin (already mapped), from the marrow adipose tissue signals to the haematopoietic cells, part of the metabolic microenvironment influencing the dysplastic haematopoiesis of MDS."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "M2 marrow inflammation: IL-13, with IL-4 (already mapped), supports the M2 marrow macrophages of the inflammatory (NLRP3 and S100A8/A9 already mapped) microenvironment that shapes the ineffective haematopoiesis of MDS."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Marrow-adipocyte adipokine: resistin, with leptin and adiponectin (already mapped), is part of the marrow-adipocyte adipokine crosstalk that shapes the dysplastic haematopoietic microenvironment of MDS."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Zinc-copper balance: excess zinc induces copper (already mapped) deficiency, which causes a reversible MDS-like myelodysplasia, and zinc is itself required for normal haematopoiesis — a mimic to exclude in MDS."
 ---
 
 # Myelodysplastic Syndromes
@@ -670,6 +679,9 @@ MDS → AML transformation rate: ~10% at 1 year for very-low risk; ~40-50% at 2 
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage niche: IL-4 polarises the marrow macrophages toward an M2 phenotype (IL-10 already mapped), part of the altered immune microenvironment of the dysplastic MDS marrow that shapes the ineffective haematopoiesis.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Marrow-adipocyte crosstalk: the marrow adipocytes and their adipokine adiponectin engage in metabolic crosstalk with the dysplastic clone, the expanding marrow adipose tissue of MDS shaping the haematopoietic microenvironment.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adipokine marrow signalling: leptin, with adiponectin (already mapped), from the marrow adipose tissue signals to the haematopoietic cells, part of the metabolic microenvironment influencing the dysplastic haematopoiesis of MDS.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — M2 marrow inflammation: IL-13, with IL-4 (already mapped), supports the M2 marrow macrophages of the inflammatory (NLRP3 and S100A8/A9 already mapped) microenvironment that shapes the ineffective haematopoiesis of MDS.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Marrow-adipocyte adipokine: resistin, with leptin and adiponectin (already mapped), is part of the marrow-adipocyte adipokine crosstalk that shapes the dysplastic haematopoietic microenvironment of MDS.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc-copper balance: excess zinc induces copper (already mapped) deficiency, which causes a reversible MDS-like myelodysplasia, and zinc is itself required for normal haematopoiesis — a mimic to exclude in MDS.
 
 [^fenaux-2009-aza001]: Fenaux P, Mufti GJ, Hellstrom-Lindberg E, et al. Efficacy of azacitidine compared with conventional care regimens in patients with higher-risk myelodysplastic syndromes. *Lancet Oncol.* 2009;10(3):223-232. [doi:10.1016/S1470-2045(09)70003-8](https://doi.org/10.1016/S1470-2045(09)70003-8) · [PubMed 19230772](https://pubmed.ncbi.nlm.nih.gov/19230772/)
 [^fenaux-2020-medalist]: Fenaux P, Platzbecker U, Mufti GJ, et al. Luspatercept in patients with lower-risk myelodysplastic syndromes. *N Engl J Med.* 2020;382(2):140-151. [doi:10.1056/NEJMoa1908892](https://doi.org/10.1056/NEJMoa1908892) · [PubMed 31914241](https://pubmed.ncbi.nlm.nih.gov/31914241/)

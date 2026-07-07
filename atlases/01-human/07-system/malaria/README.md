@@ -429,6 +429,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Iron tug-of-war: Plasmodium needs iron to grow, and the host restricts it through hepcidin and ferroportin (already mapped), a nutritional-immunity battle in which iron status also influences susceptibility to malaria."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immune arm: IL-13, with IL-4 (already mapped), is part of the Th2 response whose balance against the Th1 (IL-12 and IFN-γ already mapped) shapes the immune control and immunopathology of malaria."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Zinc and nutritional immunity: zinc, with the iron (already mapped) of nutritional immunity, is important for the antimalarial immune response, and zinc deficiency in endemic malnourished children increases the malaria morbidity."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Malnutrition and immunity: the adipokine leptin links the undernutrition common in endemic regions to the impaired immune response, modulating the susceptibility to and severity of malaria in undernourished children."
 ---
 
 # Malaria
@@ -724,6 +733,9 @@ cross_links:
 - `connects-to` → **[Endothelial cell](../../04-cellular/endothelial-cell/README.md)** — Cytoadherence and sequestration: falciparum-infected red cells bind the endothelial cells via PfEMP1 (angiopoietin and von Willebrand factor already mapped), sequestering in the microvasculature to cause the cerebral and placental complications of severe malaria.
 - `connects-to` → **[Thalassemia](../thalassemia/README.md)** — Malaria-protective haemoglobinopathy: the thalassaemia trait, like sickle trait, offers partial protection against severe malaria (haemoglobin already mapped), the balancing selection that maintains these haemoglobinopathies in malaria-endemic regions.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron tug-of-war: Plasmodium needs iron to grow, and the host restricts it through hepcidin and ferroportin (already mapped), a nutritional-immunity battle in which iron status also influences susceptibility to malaria.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), is part of the Th2 response whose balance against the Th1 (IL-12 and IFN-γ already mapped) shapes the immune control and immunopathology of malaria.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and nutritional immunity: zinc, with the iron (already mapped) of nutritional immunity, is important for the antimalarial immune response, and zinc deficiency in endemic malnourished children increases the malaria morbidity.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Malnutrition and immunity: the adipokine leptin links the undernutrition common in endemic regions to the impaired immune response, modulating the susceptibility to and severity of malaria in undernourished children.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)
