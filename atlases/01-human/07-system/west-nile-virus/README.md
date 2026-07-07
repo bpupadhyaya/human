@@ -426,6 +426,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "Selenium antioxidant defence: selenium and its selenoproteins support the antioxidant defence and the antiviral immunity against West Nile virus, and deficiency can worsen the oxidative injury of the neuroinvasive infection."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "Blood-brain-barrier permeability: substance P increases the permeability of the blood-brain barrier, facilitating the neuroinvasion of West Nile virus into the brain (already mapped) and the encephalitis."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Regulatory and repair signalling: TGF-β shapes the regulatory (Treg already mapped) and tissue-repair response that resolves the neuroinflammation of West Nile encephalitis, balancing viral control against immunopathology."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "T-cell exhaustion: the PD-1 checkpoint on the cytotoxic T cells (already mapped) can limit the viral clearance in severe or persistent West Nile virus infection, part of the immune regulation of the disease."
 ---
 
 # West Nile Virus
@@ -682,3 +691,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium and excitotoxicity: magnesium blocks the NMDA receptor and buffers the glutamate (already mapped) excitotoxicity that kills infected neurons (already mapped) in West Nile encephalitis, a neuroprotective ion.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and antiviral immunity: zinc supports the interferon (already mapped) antiviral response and inhibits flavivirus replication, and zinc status influences the immunity that determines the outcome of West Nile virus infection.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Selenium antioxidant defence: selenium and its selenoproteins support the antioxidant defence and the antiviral immunity against West Nile virus, and deficiency can worsen the oxidative injury of the neuroinvasive infection.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — Blood-brain-barrier permeability: substance P increases the permeability of the blood-brain barrier, facilitating the neuroinvasion of West Nile virus into the brain (already mapped) and the encephalitis.
+- `connects-to` → **[TGF-beta](../../03-molecular/tgf-beta/README.md)** — Regulatory and repair signalling: TGF-β shapes the regulatory (Treg already mapped) and tissue-repair response that resolves the neuroinflammation of West Nile encephalitis, balancing viral control against immunopathology.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — T-cell exhaustion: the PD-1 checkpoint on the cytotoxic T cells (already mapped) can limit the viral clearance in severe or persistent West Nile virus infection, part of the immune regulation of the disease.
