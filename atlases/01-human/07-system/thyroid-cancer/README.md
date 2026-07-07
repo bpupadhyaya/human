@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "Growth-factor signalling: IGF-1 and its receptor drive the proliferation of thyroid cancer cells (VEGF and RET already mapped), part of the growth-factor signalling that supports the tumour alongside the driver kinases."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immune microenvironment of thyroid cancer."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Obesity and thyroid cancer: the adipokine leptin links obesity — a risk factor for differentiated thyroid cancer — to the proliferation of the tumour, part of its metabolic dimension."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Adipokine risk: adiponectin, with leptin (already mapped), links the obesity and metabolic state to the risk and biology of thyroid cancer, part of the adipokine influence on the tumour."
 ---
 
 # Thyroid Cancer
@@ -699,6 +708,9 @@ Calcitonin doubling time <6 months → poor prognosis → early systemic therapy
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune microenvironment of thyroid cancer, especially the aggressive anaplastic type.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Anaemia and TKI therapy: the advanced thyroid cancers and the multikinase-inhibitor therapy cause anaemia (haemoglobin already mapped) that can require transfusion, whose repeated support can load the body with iron.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Growth-factor signalling: IGF-1 and its receptor drive the proliferation of thyroid cancer cells (VEGF and RET already mapped), part of the growth-factor signalling that supports the tumour alongside the driver kinases.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immune microenvironment of thyroid cancer.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Obesity and thyroid cancer: the adipokine leptin links obesity — a risk factor for differentiated thyroid cancer — to the proliferation of the tumour, part of its metabolic dimension.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine risk: adiponectin, with leptin (already mapped), links the obesity and metabolic state to the risk and biology of thyroid cancer, part of the adipokine influence on the tumour.
 
 [^schlumberger-2015-lenvatinib]: Schlumberger M, Tahara M, Wirth LJ, et al. Lenvatinib versus placebo in radioiodine-refractory differentiated thyroid cancer. *N Engl J Med.* 2015;372(7):621-630. [doi:10.1056/NEJMoa1406470](https://doi.org/10.1056/NEJMoa1406470) · [PubMed 25671254](https://pubmed.ncbi.nlm.nih.gov/25671254/)
 [^subbiah-2018-atc-dabrafenib]: Subbiah V, Kreitman RJ, Wainberg ZA, et al. Dabrafenib and trametinib treatment in patients with locally advanced or metastatic BRAF V600-mutant anaplastic thyroid cancer. *J Clin Oncol.* 2018;36(1):7-13. [doi:10.1200/JCO.2017.73.6785](https://doi.org/10.1200/JCO.2017.73.6785) · [PubMed 28892432](https://pubmed.ncbi.nlm.nih.gov/28892432/)

@@ -427,6 +427,15 @@ cross_links:
   - target: 01-human/03-molecular/hepcidin
     relation: connects-to
     note: "Iron handling in haemolysis: the haem released by the microangiopathic haemolysis and the inflammation (IL-6 already mapped) disturb hepcidin-regulated iron handling, part of the altered iron biology of the intravascular destruction in TTP."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Autoimmune dysregulation: type-I interferon signalling is implicated in the loss of tolerance that permits the anti-ADAMTS13 (already mapped) autoantibody production of acquired thrombotic thrombocytopenic purpura."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, a pro-inflammatory adipokine, rises with the systemic inflammation (IL-6 already mapped) and endothelial activation of acute thrombotic thrombocytopenic purpura, part of its inflammatory milieu."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Plasma-exchange citrate: the citrate anticoagulant of the therapeutic plasma exchange central to TTP treatment chelates magnesium as well as calcium (already mapped), needing electrolyte replacement."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -718,6 +727,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Haemolysis and iron: the microangiopathic haemolysis of TTP fragments red cells (haemoglobin already mapped) into schistocytes, releasing iron and haem, part of the intravascular red-cell destruction that marks the disease.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 autoantibody help: IL-13, with IL-4 (already mapped), supports the B cells (already mapped) producing the inhibitory anti-ADAMTS13 autoantibodies that drive acquired thrombotic thrombocytopenic purpura.
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Iron handling in haemolysis: the haem released by the microangiopathic haemolysis and the inflammation (IL-6 already mapped) disturb hepcidin-regulated iron handling, part of the altered iron biology of the intravascular destruction in TTP.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Autoimmune dysregulation: type-I interferon signalling is implicated in the loss of tolerance that permits the anti-ADAMTS13 (already mapped) autoantibody production of acquired thrombotic thrombocytopenic purpura.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, a pro-inflammatory adipokine, rises with the systemic inflammation (IL-6 already mapped) and endothelial activation of acute thrombotic thrombocytopenic purpura, part of its inflammatory milieu.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Plasma-exchange citrate: the citrate anticoagulant of the therapeutic plasma exchange central to TTP treatment chelates magnesium as well as calcium (already mapped), needing electrolyte replacement.
 
 ---
 
