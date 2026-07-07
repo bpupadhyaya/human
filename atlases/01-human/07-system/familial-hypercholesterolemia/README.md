@@ -442,6 +442,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "LDL oxidation: iron catalyses the oxidation of the LDL (cholesterol already mapped) that generates the oxidised LDL taken up by the foam-cell macrophages (already mapped), part of the oxidative atherogenesis of familial hypercholesterolaemia."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Endothelial dysfunction: the LDL (cholesterol already mapped) retention in the arterial intima and the endothelial dysfunction (nitric oxide already mapped) initiate the atherosclerosis of familial hypercholesterolaemia."
+  - target: 01-human/04-cellular/hepatocyte
+    relation: connects-to
+    note: "LDLR hepatocytes: the hepatocytes express the LDL receptor (PCSK9 already mapped) that clears the LDL; the hepatocyte LDLR defect is the disease of familial hypercholesterolaemia and the target of the gene therapy."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: connects-to
+    note: "Fibrous cap: the vascular smooth-muscle cells migrate and form the fibrous cap (collagen already mapped) of the atherosclerotic plaque of familial hypercholesterolaemia."
 ---
 
 # Familial Hypercholesterolemia
@@ -691,6 +700,9 @@ FH is a **monogenic autosomal dominant disorder** caused by mutations in three g
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Plaque type-2 arm: IL-13, with IL-4 (already mapped), modulates the M2 macrophage (already mapped) arm of the inflammation of the atherosclerotic plaque driven by familial hypercholesterolaemia.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Atherogenic adipokine: resistin, with leptin and adiponectin (already mapped), is a pro-inflammatory adipokine that adds to the atherogenic-inflammatory (IL-6 already mapped) milieu compounding the cardiovascular risk of familial hypercholesterolaemia.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — LDL oxidation: iron catalyses the oxidation of the LDL (cholesterol already mapped) that generates the oxidised LDL taken up by the foam-cell macrophages (already mapped), part of the oxidative atherogenesis of familial hypercholesterolaemia.
+- `connects-to` → **[Endothelial cell](../../04-cellular/endothelial-cell/README.md)** — Endothelial dysfunction: the LDL (cholesterol already mapped) retention in the arterial intima and the endothelial dysfunction (nitric oxide already mapped) initiate the atherosclerosis of familial hypercholesterolaemia.
+- `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — LDLR hepatocytes: the hepatocytes express the LDL receptor (PCSK9 already mapped) that clears the LDL; the hepatocyte LDLR defect is the disease of familial hypercholesterolaemia and the target of the gene therapy.
+- `connects-to` → **[Smooth muscle cell](../../04-cellular/smooth-muscle-cell/README.md)** — Fibrous cap: the vascular smooth-muscle cells migrate and form the fibrous cap (collagen already mapped) of the atherosclerotic plaque of familial hypercholesterolaemia.
 
 [^goldstein-1985-ldlr-nobel]: Goldstein JL, Brown MS. The LDL receptor. *Arterioscler Thromb Vasc Biol.* 2009;29(4):431-438. [doi:10.1161/ATVBAHA.108.179564](https://doi.org/10.1161/ATVBAHA.108.179564) · [PubMed 19299327](https://pubmed.ncbi.nlm.nih.gov/19299327/)
 [^raal-2020-inclisiran-fh]: Raal FJ, Kallend D, Ray KK, et al. Inclisiran for the Treatment of Heterozygous Familial Hypercholesterolemia. *N Engl J Med.* 2020;382(16):1520-1530. [doi:10.1056/NEJMoa1913805](https://doi.org/10.1056/NEJMoa1913805) · [PubMed 32197277](https://pubmed.ncbi.nlm.nih.gov/32197277/)

@@ -423,6 +423,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory milieu to the neuroinflammation and metabolic dimension of behavioural addiction in gambling disorder."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Reward neurons: the dopaminergic (already mapped) reward neurons and the prefrontal control neurons mediate the impulsivity and the loss of control of gambling disorder."
+  - target: 01-human/07-system/stimulant-use-disorder
+    relation: connects-to
+    note: "Addiction overlap: gambling disorder shares the reward-circuit (dopamine already mapped) neurobiology with the substance-use disorders, notably the stimulant use disorder, and they frequently co-occur."
+  - target: 01-human/07-system/attention-deficit-hyperactivity-disorder
+    relation: connects-to
+    note: "ADHD impulsivity: ADHD is comorbid with gambling disorder, the shared impulsivity and reward-deficiency (dopamine already mapped) vulnerability."
 sources:
   - id: grant-2016-gambling-review
     type: peer-reviewed
@@ -704,6 +713,9 @@ Persistent and recurrent problematic gambling behavior causing distress (≥4 of
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Neuroimmune balance: IL-13, with IL-4 (already mapped), supports the M2 microglia (already mapped) and the anti-inflammatory arm balancing the neuroinflammation (TNF, IL-6 and IL-1 already mapped) implicated in the reward-circuit changes of gambling disorder.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic-reward (insulin already mapped) crosstalk associated with the addictive state of gambling disorder.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory milieu to the neuroinflammation and metabolic dimension of behavioural addiction in gambling disorder.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Reward neurons: the dopaminergic (already mapped) reward neurons and the prefrontal control neurons mediate the impulsivity and the loss of control of gambling disorder.
+- `connects-to` → **[Stimulant use disorder](../stimulant-use-disorder/README.md)** — Addiction overlap: gambling disorder shares the reward-circuit (dopamine already mapped) neurobiology with the substance-use disorders, notably the stimulant use disorder, and they frequently co-occur.
+- `connects-to` → **[ADHD](../attention-deficit-hyperactivity-disorder/README.md)** — ADHD impulsivity: ADHD is comorbid with gambling disorder, the shared impulsivity and reward-deficiency (dopamine already mapped) vulnerability.
 
 [^potenza-2014-gambling-neuroscience]: Potenza MN. The neurobiology of pathological gambling and drug addiction: an overview and new findings. *Philos Trans R Soc Lond B Biol Sci.* 2008;363(1507):3181-3189. [doi:10.1098/rstb.2008.0100](https://doi.org/10.1098/rstb.2008.0100) · [PubMed 18640909](https://pubmed.ncbi.nlm.nih.gov/18640909/)
 [^grant-2016-gambling-review]: Grant JE, Chamberlain SR. Gambling disorder and its relationship with substance use disorders. *Am J Addict.* 2015;24(2):126-131. [doi:10.1111/ajad.12112](https://doi.org/10.1111/ajad.12112) · [PubMed 25376793](https://pubmed.ncbi.nlm.nih.gov/25376793/)
