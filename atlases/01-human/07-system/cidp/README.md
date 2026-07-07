@@ -447,6 +447,15 @@ cross_links:
   - target: 01-human/07-system/nmo
     relation: connects-to
     note: "Antibody-mediated demyelination sibling: neuromyelitis optica and CIDP are antibody- and complement (already mapped)-mediated demyelinating diseases (CNS vs PNS), both responding to the B-cell (CD20 already mapped) and complement therapies."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Immune-metabolic adipokine: leptin is the adipokine of the immune-metabolic milieu and the steroid (cortisol already mapped)-related metabolic disturbance of CIDP."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the immune-metabolic milieu of CIDP."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the systemic inflammation (IL-6 already mapped) of CIDP."
 ---
 
 # CIDP
@@ -732,6 +741,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate immune signalling: type-I interferon is part of the innate-immune signalling of the autoimmune demyelination of the peripheral nerve (already mapped) in CIDP.
 - `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — Autoantibody source: the long-lived plasma cells secrete the anti-myelin and anti-nodal IgG (immunoglobulin already mapped) autoantibodies of CIDP, resisting the B-cell (CD20 already mapped) depletion, the rationale for the anti-plasma-cell approaches.
 - `connects-to` → **[NMO](../nmo/README.md)** — Antibody-mediated demyelination sibling: neuromyelitis optica and CIDP are antibody- and complement (already mapped)-mediated demyelinating diseases (CNS vs PNS), both responding to the B-cell (CD20 already mapped) and complement therapies.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Immune-metabolic adipokine: leptin is the adipokine of the immune-metabolic milieu and the steroid (cortisol already mapped)-related metabolic disturbance of CIDP.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the immune-metabolic milieu of CIDP.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the systemic inflammation (IL-6 already mapped) of CIDP.
 
 ---
 

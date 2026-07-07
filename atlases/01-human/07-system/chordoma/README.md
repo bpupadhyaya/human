@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/leptin
     relation: connects-to
     note: "Marrow-bone adipokine: leptin from the marrow adipose tissue of the bone (RANKL and osteoblast already mapped) microenvironment signals to the axial chordoma, part of its bone-niche metabolic crosstalk."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Marrow-bone adipokine: adiponectin, with leptin (already mapped), is part of the marrow-adipose (RANKL already mapped) bone-niche adipokine crosstalk of the axial chordoma."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipokine milieu: resistin, with leptin and adiponectin (already mapped), completes the bone-niche adipokine crosstalk of chordoma."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Prognostic neutrophils: the tumour-infiltrating neutrophils and the neutrophil-lymphocyte ratio are prognostic markers in chordoma, part of its inflammatory microenvironment (CCL2 already mapped)."
 ---
 
 # Chordoma
@@ -714,6 +723,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Matrix cross-linking: copper is the cofactor of lysyl oxidase that cross-links the collagen (already mapped) of the myxoid/chondroid matrix of chordoma, and supports the copper-dependent angiogenesis (VEGF already mapped).
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Matrix metalloproteinases: the zinc-dependent matrix metalloproteinases remodel the extracellular matrix (collagen already mapped) at the invasive front of chordoma into the skull base and sacrum.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Marrow-bone adipokine: leptin from the marrow adipose tissue of the bone (RANKL and osteoblast already mapped) microenvironment signals to the axial chordoma, part of its bone-niche metabolic crosstalk.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Marrow-bone adipokine: adiponectin, with leptin (already mapped), is part of the marrow-adipose (RANKL already mapped) bone-niche adipokine crosstalk of the axial chordoma.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine milieu: resistin, with leptin and adiponectin (already mapped), completes the bone-niche adipokine crosstalk of chordoma.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Prognostic neutrophils: the tumour-infiltrating neutrophils and the neutrophil-lymphocyte ratio are prognostic markers in chordoma, part of its inflammatory microenvironment (CCL2 already mapped).
 
 ---
 
