@@ -442,6 +442,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Adipokine axis: adiponectin, with leptin (already mapped), is part of the adipokine axis of the obesity-related and inflammatory dysregulation of iron and erythropoiesis in the anemia of chronic disease."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the obesity-related inflammation contributing to the hepcidin (already mapped) and iron dysregulation of the anemia of chronic disease."
+  - target: 01-human/07-system/inflammatory-bowel-disease
+    relation: connects-to
+    note: "IBD anemia: the inflammatory bowel disease is a common cause of the anemia of chronic disease (the inflammation-hepcidin already mapped), compounded by the iron-deficiency blood loss."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Hepcidin-producing liver: the liver (the hepatocytes already mapped) produces the hepcidin (already mapped) under the IL-6 (already mapped) drive, the endocrine hub of the iron sequestration of the anemia of chronic disease."
 ---
 
 # Anemia of Chronic Disease
@@ -707,6 +716,9 @@ This adaptive rationale explains why **aggressive iron supplementation during ac
 - `connects-to` → **[Hodgkin lymphoma](../hodgkin-lymphoma/README.md)** — Malignancy cause: Hodgkin lymphoma and other cancers commonly cause the anemia of chronic disease through their cytokine (IL-6 already mapped) drive of hepcidin (already mapped) and the marrow involvement.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adipokine and hepcidin: leptin modulates the hepcidin (already mapped) and erythropoiesis, linking the obesity (already mapped)-related inflammation to the iron and red-cell dysregulation of the anemia of chronic disease.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine axis: adiponectin, with leptin (already mapped), is part of the adipokine axis of the obesity-related and inflammatory dysregulation of iron and erythropoiesis in the anemia of chronic disease.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the obesity-related inflammation contributing to the hepcidin (already mapped) and iron dysregulation of the anemia of chronic disease.
+- `connects-to` → **[Inflammatory bowel disease](../inflammatory-bowel-disease/README.md)** — IBD anemia: the inflammatory bowel disease is a common cause of the anemia of chronic disease (the inflammation-hepcidin already mapped), compounded by the iron-deficiency blood loss.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Hepcidin-producing liver: the liver (the hepatocytes already mapped) produces the hepcidin (already mapped) under the IL-6 (already mapped) drive, the endocrine hub of the iron sequestration of the anemia of chronic disease.
 
 [^weiss-2005-acd-review]: Weiss G, Goodnough LT. Anemia of chronic disease. *N Engl J Med.* 2005;352(10):1011-1023. [doi:10.1056/NEJMra041809](https://doi.org/10.1056/NEJMra041809) · [PubMed 15758012](https://pubmed.ncbi.nlm.nih.gov/15758012/)
 [^nemeth-2004-il6-hepcidin]: Nemeth E, Rivera S, Gabayan V, et al. IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin. *J Clin Invest.* 2004;113(9):1271-1276. [doi:10.1172/JCI200420945](https://doi.org/10.1172/JCI200420945) · [PubMed 15124018](https://pubmed.ncbi.nlm.nih.gov/15124018/)

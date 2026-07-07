@@ -442,6 +442,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Adipokine inflammation: resistin, with leptin (already mapped), links the adipose-inflammatory and metabolic (insulin already mapped) state to the neuroinflammation implicated in the risk of Alzheimer's disease."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Neuroprotective adipokine: adiponectin, with leptin and resistin (already mapped), has neuroprotective actions; the adiponectin resistance and the metabolic (insulin already mapped) dysfunction are linked to Alzheimer's-disease risk."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Amyloid metal binding: copper, with zinc (already mapped), binds the amyloid-β (APP already mapped) and catalyses the oxidative damage, the metal dyshomeostasis of Alzheimer's disease."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Type-3 diabetes: the brain insulin (already mapped) resistance links Alzheimer's disease to type 2 diabetes (the shared metabolic and inflammatory pathways), the 'type-3 diabetes' concept."
 ---
 
 # Alzheimer's Disease
@@ -682,6 +691,9 @@ Microglia play a central, dual role in AD:
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 neuroimmunity: IL-13, with IL-4 (already mapped), supports the M2 microglia (already mapped) and the anti-inflammatory arm balancing the neuroinflammation (TNF, IL-6 and IL-1 already mapped) of Alzheimer's disease.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Metabolic risk: leptin has neuroprotective and pro-cognitive actions, and leptin resistance with the metabolic dysfunction (insulin already mapped) is linked to the risk of Alzheimer's disease.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine inflammation: resistin, with leptin (already mapped), links the adipose-inflammatory and metabolic (insulin already mapped) state to the neuroinflammation implicated in the risk of Alzheimer's disease.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Neuroprotective adipokine: adiponectin, with leptin and resistin (already mapped), has neuroprotective actions; the adiponectin resistance and the metabolic (insulin already mapped) dysfunction are linked to Alzheimer's-disease risk.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Amyloid metal binding: copper, with zinc (already mapped), binds the amyloid-β (APP already mapped) and catalyses the oxidative damage, the metal dyshomeostasis of Alzheimer's disease.
+- `connects-to` → **[Type 2 diabetes](../type-2-diabetes/README.md)** — Type-3 diabetes: the brain insulin (already mapped) resistance links Alzheimer's disease to type 2 diabetes (the shared metabolic and inflammatory pathways), the 'type-3 diabetes' concept.
 
 [^selkoe-2016-alzheimer]: Selkoe DJ, Hardy J. The amyloid hypothesis of Alzheimer's disease at 25 years. *EMBO Mol Med.* 2016;8(6):595-608. [doi:10.15252/emmm.201606210](https://doi.org/10.15252/emmm.201606210) · [PubMed 27025652](https://pubmed.ncbi.nlm.nih.gov/27025652/)
 [^jack-2018-nia-aa]: Jack CR Jr, Bennett DA, Blennow K, et al. NIA-AA Research Framework: Toward a biological definition of Alzheimer's disease. *Alzheimers Dement.* 2018;14(4):535-562. [doi:10.1016/j.jalz.2018.02.018](https://doi.org/10.1016/j.jalz.2018.02.018) · [PubMed 29653606](https://pubmed.ncbi.nlm.nih.gov/29653606/)
