@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/03-molecular/histamine
     relation: connects-to
     note: "Mast-cell aortopathy: mast cells accumulate in the aneurysmal aortic wall of Marfan syndrome, releasing histamine and proteases that contribute, with the matrix metalloproteinases, to the medial degeneration."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Matrix metalloproteinases: the zinc-dependent matrix metalloproteinases degrade the elastin and collagen (already mapped) of the aortic media, contributing, with the fibrillin (FBN1 already mapped) defect, to the aneurysm of Marfan syndrome."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Lean-habitus adipokine: leptin reflects the reduced fat mass and the metabolic profile of the tall, thin (dolichostenomelia) habitus of Marfan syndrome."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Body-composition adipokine: adiponectin, with leptin (already mapped), is part of the adipokine profile of the altered body composition and metabolism of Marfan syndrome."
 ---
 
 # Marfan Syndrome
@@ -706,6 +715,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Matrix metalloproteinases: zinc is the cofactor of the matrix metalloproteinases that degrade the elastin and collagen (already mapped) of the aortic media, the MMP activity contributing to the aneurysm and dissection of Marfan syndrome.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Pro-fibrotic type-2: IL-4, with IL-13 (already mapped), drives the type-2/pro-fibrotic (TGF-β already mapped) programme in the remodelling of the aortic wall of Marfan syndrome.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell aortopathy: mast cells accumulate in the aneurysmal aortic wall of Marfan syndrome, releasing histamine and proteases that contribute, with the matrix metalloproteinases, to the medial degeneration.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Matrix metalloproteinases: the zinc-dependent matrix metalloproteinases degrade the elastin and collagen (already mapped) of the aortic media, contributing, with the fibrillin (FBN1 already mapped) defect, to the aneurysm of Marfan syndrome.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Lean-habitus adipokine: leptin reflects the reduced fat mass and the metabolic profile of the tall, thin (dolichostenomelia) habitus of Marfan syndrome.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Body-composition adipokine: adiponectin, with leptin (already mapped), is part of the adipokine profile of the altered body composition and metabolism of Marfan syndrome.
 
 ---
 
