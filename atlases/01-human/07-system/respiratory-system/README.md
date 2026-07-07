@@ -432,6 +432,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "Neural control of breathing: the nervous system's brainstem respiratory centres and the chemoreceptors sense oxygen and carbon dioxide (already mapped) to drive ventilation, and the sensory nerves (CGRP and substance P already mapped) mediate cough and airway reflexes."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Type-2 airway immunity: IL-4, with IL-13 (already mapped), drives the type-2 immunity of the airways of the respiratory system, the allergic and mucus-hypersecretory response of asthma and allergic disease."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Eosinophilic inflammation: IL-5 recruits the eosinophils of the eosinophilic airway inflammation of the respiratory system, the target of the anti-IL-5 biologics in severe asthma."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "Neutrophilic airway inflammation: IL-17 drives the neutrophilic, non-type-2 airway inflammation of the respiratory system, part of the severe steroid-resistant asthma and the infective and COPD neutrophilia."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -651,6 +660,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Connects-to** → [Chloride](../../02-atomic/chloride/README.md): airway surface liquid: chloride secretion through the CFTR channel (already mapped) hydrates the airway surface liquid and mucus, and its failure causes the thick secretions of cystic fibrosis that obstruct the respiratory tract.
 - **Connects-to** → [Smooth muscle cell](../../04-cellular/smooth-muscle-cell/README.md): airway calibre: the airway smooth muscle sets the bronchial calibre, contracting to acetylcholine and relaxing to adrenaline (already mapped), and its constriction and remodelling underlie the airflow limitation of respiratory disease.
 - **Connects-to** → [Nervous system](../nervous-system/README.md): neural control of breathing: the nervous system's brainstem respiratory centres and the chemoreceptors sense oxygen and carbon dioxide (already mapped) to drive ventilation, and the sensory nerves (CGRP and substance P already mapped) mediate cough and airway reflexes.
+- **Connects-to** → [IL-4](../../03-molecular/il-4/README.md): type-2 airway immunity: IL-4, with IL-13 (already mapped), drives the type-2 immunity of the airways of the respiratory system, the allergic and mucus-hypersecretory response of asthma and allergic disease.
+- **Connects-to** → [IL-5](../../03-molecular/il-5/README.md): eosinophilic inflammation: IL-5 recruits the eosinophils of the eosinophilic airway inflammation of the respiratory system, the target of the anti-IL-5 biologics in severe asthma.
+- **Connects-to** → [IL-17a](../../03-molecular/il-17a/README.md): neutrophilic airway inflammation: IL-17 drives the neutrophilic, non-type-2 airway inflammation of the respiratory system, part of the severe steroid-resistant asthma and the infective and COPD neutrophilia.
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.
 
 ## Pathology

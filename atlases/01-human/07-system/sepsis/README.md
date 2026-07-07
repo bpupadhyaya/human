@@ -433,6 +433,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "Sepsis-induced ARDS: the lungs are a frequent target, the endothelial and epithelial injury (VEGF and vascular permeability already mapped) causing the acute respiratory distress syndrome that often complicates severe sepsis."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Septic hypocalcaemia: the hypocalcaemia common in sepsis, from the vitamin-D and parathyroid dysregulation and the calcium sequestration, is a marker of severity and a target for cautious correction."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate interferon response: type-I interferon is part of the dysregulated host response of sepsis, notably in viral sepsis, contributing to both the antiviral defence and the interferon-driven immunopathology."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Nutritional-immunity iron: the hepcidin-driven (already mapped) iron withholding of sepsis starves the pathogens, and the disturbed iron handling contributes to the anaemia (haemoglobin already mapped) of critical illness."
 ---
 
 # Sepsis
@@ -677,6 +686,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — NETs and immunothrombosis: the neutrophils release extracellular traps (S100A8/9 already mapped) that both trap pathogens and drive the immunothrombosis (thrombin already mapped) and tissue injury of sepsis, a double-edged part of the host response.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Acute kidney injury: the kidney is the commonest organ to fail in sepsis, the microcirculatory dysfunction, inflammation and hypoperfusion causing the septic acute kidney injury that predicts mortality.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Sepsis-induced ARDS: the lungs are a frequent target, the endothelial and epithelial injury (VEGF and vascular permeability already mapped) causing the acute respiratory distress syndrome that often complicates severe sepsis.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Septic hypocalcaemia: the hypocalcaemia common in sepsis, from the vitamin-D and parathyroid dysregulation and the calcium sequestration, is a marker of severity and a target for cautious correction.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate interferon response: type-I interferon is part of the dysregulated host response of sepsis, notably in viral sepsis, contributing to both the antiviral defence and the interferon-driven immunopathology.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Nutritional-immunity iron: the hepcidin-driven (already mapped) iron withholding of sepsis starves the pathogens, and the disturbed iron handling contributes to the anaemia (haemoglobin already mapped) of critical illness.
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
