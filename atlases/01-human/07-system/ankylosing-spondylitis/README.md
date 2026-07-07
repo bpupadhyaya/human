@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the systemic inflammation (IL-6 already mapped) of ankylosing spondylitis."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Neutrophilic enthesitis: the neutrophils, recruited by the IL-17 (already mapped) axis, drive the acute entheseal and axial inflammation of ankylosing spondylitis."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, is part of the innate-immune dimension of the gut-joint (secretory-IgA already mapped) axis of ankylosing spondylitis."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 counter-arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 arm balancing the dominant Th17 (IL-17 already mapped) drive of ankylosing spondylitis."
 ---
 
 # Ankylosing Spondylitis
@@ -700,6 +709,9 @@ AS originates at the **enthesis** — the site where tendons, ligaments, and joi
 - `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — Syndesmophyte new bone: the Wnt and sclerostin (already mapped)-regulated osteoblasts form the pathological new bone (the syndesmophytes; cortical bone already mapped) that fuses the spine of ankylosing spondylitis.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Bone-mineral paradox: the calcium and bone-mineral metabolism of the paradoxical osteoporosis-with-new-bone (RANKL and sclerostin already mapped) of ankylosing spondylitis.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the systemic inflammation (IL-6 already mapped) of ankylosing spondylitis.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophilic enthesitis: the neutrophils, recruited by the IL-17 (already mapped) axis, drive the acute entheseal and axial inflammation of ankylosing spondylitis.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, is part of the innate-immune dimension of the gut-joint (secretory-IgA already mapped) axis of ankylosing spondylitis.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 counter-arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 arm balancing the dominant Th17 (IL-17 already mapped) drive of ankylosing spondylitis.
 
 [^sieper-2015-ankylosing-spondylitis-review]: Sieper J, Poddubnyy D. Ankylosing spondylitis. *Lancet.* 2017;390(10089):73-84. [doi:10.1016/S0140-6736(16)31591-4](https://doi.org/10.1016/S0140-6736(16)31591-4) · [PubMed 28110981](https://pubmed.ncbi.nlm.nih.gov/28110981/)
 [^baeten-2015-secukinumab-as]: Baeten D, Sieper J, Braun J, et al. Secukinumab, an Interleukin-17A Inhibitor, in Ankylosing Spondylitis. *N Engl J Med.* 2015;373(26):2534-2548. [doi:10.1056/NEJMoa1505066](https://doi.org/10.1056/NEJMoa1505066) · [PubMed 26699169](https://pubmed.ncbi.nlm.nih.gov/26699169/)

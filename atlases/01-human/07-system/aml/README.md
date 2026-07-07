@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/04-cellular/adipocyte
     relation: connects-to
     note: "Marrow-adipocyte niche: the bone-marrow (already mapped) adipocytes — the source of the leptin, adiponectin and resistin (already mapped) — form a metabolic niche that supports the AML blasts through fatty-acid transfer."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate antileukaemic interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment and is exploited (historically) against the myeloid leukaemias including AML."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1/GVL arm: the IFN-γ of the T and NK cells (perforin already mapped) is the type-II interferon arm of the graft-versus-leukaemia immunity against AML."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the anti-leukaemic immune response of AML."
 ---
 
 # AML
@@ -702,6 +711,9 @@ AML requires cooperative mutations in at least 2 functional categories (Gillilan
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Marrow-adipocyte adipokine: resistin, with leptin and adiponectin (already mapped), is the marrow-adipocyte adipokine of the leukaemic niche microenvironment of AML.
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin adds an anaemia of chronic disease to the marrow-failure anaemia (iron and haemoglobin already mapped) of AML.
 - `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Marrow-adipocyte niche: the bone-marrow (already mapped) adipocytes — the source of the leptin, adiponectin and resistin (already mapped) — form a metabolic niche that supports the AML blasts through fatty-acid transfer.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate antileukaemic interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment and is exploited (historically) against the myeloid leukaemias including AML.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1/GVL arm: the IFN-γ of the T and NK cells (perforin already mapped) is the type-II interferon arm of the graft-versus-leukaemia immunity against AML.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the anti-leukaemic immune response of AML.
 
 [^dinardo-2020-viale-a]: DiNardo CD, Jonas BA, Pullarkat V, et al. Azacitidine and venetoclax in previously untreated acute myeloid leukemia. *N Engl J Med.* 2020;383(7):617-629. [doi:10.1056/NEJMoa2012971](https://doi.org/10.1056/NEJMoa2012971) · [PubMed 32786187](https://pubmed.ncbi.nlm.nih.gov/32786187/)
 [^stone-2017-midostaurin]: Stone RM, Mandrekar SJ, Sanford BL, et al. Midostaurin plus chemotherapy for acute myeloid leukemia with a FLT3 mutation. *N Engl J Med.* 2017;377(5):454-464. [doi:10.1056/NEJMoa1614359](https://doi.org/10.1056/NEJMoa1614359) · [PubMed 28644114](https://pubmed.ncbi.nlm.nih.gov/28644114/)
