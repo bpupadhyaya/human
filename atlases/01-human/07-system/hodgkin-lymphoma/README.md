@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "Zinc and immune dysfunction: zinc is essential for the lymphocyte and immune function, and disturbed zinc status accompanies the immune dysfunction and cachexia of Hodgkin lymphoma."
+  - target: 01-human/07-system/mantle-cell-lymphoma
+    relation: connects-to
+    note: "B-cell-neoplasm differential: Hodgkin lymphoma and mantle-cell lymphoma are lymphoid neoplasms in the diagnostic differential, distinguished by the Reed-Sternberg (CD30 already mapped) versus the cyclin-D1 mantle-cell biology."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) response opposing the Th2/immunosuppressive (IL-4, IL-13 and IL-10 already mapped) microenvironment shaped by the Reed-Sternberg cells of Hodgkin lymphoma."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Selenium immune status: the selenium selenoprotein antioxidant defence supports the lymphocyte (zinc already mapped) immune function disturbed in the immune dysfunction and cachexia of Hodgkin lymphoma."
 ---
 
 # Hodgkin Lymphoma
@@ -701,6 +710,9 @@ Modern protocols minimize RT fields and doses (ISRT replacing extended-field RT)
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Cachexia adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the systemic inflammation (IL-6 already mapped) and the B-symptom cachexia of Hodgkin lymphoma.
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate microenvironment: type-I interferon is part of the innate-immune signalling of the EBV (LMP1 already mapped)-associated and checkpoint-responsive (PD-1 already mapped) microenvironment of Hodgkin lymphoma.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and immune dysfunction: zinc is essential for the lymphocyte and immune function, and disturbed zinc status accompanies the immune dysfunction and cachexia of Hodgkin lymphoma.
+- `connects-to` → **[Mantle cell lymphoma](../mantle-cell-lymphoma/README.md)** — B-cell-neoplasm differential: Hodgkin lymphoma and mantle-cell lymphoma are lymphoid neoplasms in the diagnostic differential, distinguished by the Reed-Sternberg (CD30 already mapped) versus the cyclin-D1 mantle-cell biology.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) response opposing the Th2/immunosuppressive (IL-4, IL-13 and IL-10 already mapped) microenvironment shaped by the Reed-Sternberg cells of Hodgkin lymphoma.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Selenium immune status: the selenium selenoprotein antioxidant defence supports the lymphocyte (zinc already mapped) immune function disturbed in the immune dysfunction and cachexia of Hodgkin lymphoma.
 
 [^connors-2018-echelon1]: Connors JM, Jurczak W, Straus DJ, et al. Brentuximab vedotin with chemotherapy for stage III or IV Hodgkin's lymphoma. *N Engl J Med.* 2018;378(4):331-344. [doi:10.1056/NEJMoa1708984](https://doi.org/10.1056/NEJMoa1708984) · [PubMed 29360494](https://pubmed.ncbi.nlm.nih.gov/29360494/)
 [^armand-2018-nivo-hl]: Armand P, Engert A, Younes A, et al. Nivolumab for relapsed/refractory classic Hodgkin lymphoma after failure of autologous hematopoietic cell transplantation: extended follow-up of the multicohort single-arm phase II CheckMate 205 trial. *J Clin Oncol.* 2018;36(14):1428-1439. [doi:10.1200/JCO.2017.77.6717](https://doi.org/10.1200/JCO.2017.77.6717) · [PubMed 29584546](https://pubmed.ncbi.nlm.nih.gov/29584546/)

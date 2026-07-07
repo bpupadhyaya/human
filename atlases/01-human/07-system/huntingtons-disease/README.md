@@ -426,6 +426,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Hypermetabolism adipokine: resistin, with leptin and adiponectin (already mapped), is part of the adipokine milieu of the weight loss and hypermetabolism of Huntington's disease."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 neuroinflammation: the IFN-γ of the infiltrating T cells (with the type-I interferon already mapped) is the type-II interferon arm of the peripheral-immune activation and neuroinflammation of Huntington's disease."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) response of the systemic-immune activation accompanying the neurodegeneration of Huntington's disease."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Adaptive neuroinflammation: the cytotoxic T cells (perforin already mapped) infiltrate the neuroinflamed Huntington brain, the adaptive-immune component of the neurodegeneration."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -613,3 +622,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Weight-loss adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the weight loss and metabolic (insulin already mapped) disturbance that are features of Huntington's disease.
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — cGAS-STING neuroinflammation: type-I interferon, downstream of the cGAS-STING (already mapped) pathway activated by the mutant huntingtin (already mapped), drives the innate-immune neuroinflammation of Huntington's disease.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Hypermetabolism adipokine: resistin, with leptin and adiponectin (already mapped), is part of the adipokine milieu of the weight loss and hypermetabolism of Huntington's disease.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 neuroinflammation: the IFN-γ of the infiltrating T cells (with the type-I interferon already mapped) is the type-II interferon arm of the peripheral-immune activation and neuroinflammation of Huntington's disease.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) response of the systemic-immune activation accompanying the neurodegeneration of Huntington's disease.
+- `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Adaptive neuroinflammation: the cytotoxic T cells (perforin already mapped) infiltrate the neuroinflamed Huntington brain, the adaptive-immune component of the neurodegeneration.
