@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Erythropoietin and iron: the stabilised HIF of VHL disease drives erythropoietin (already mapped) and polycythaemia, raising the demand for iron, and paraneoplastic erythropoietin from haemangioblastomas can worsen the erythrocytosis."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped) in the VHL-associated clear-cell renal cell carcinoma, part of its immune microenvironment."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Clear-cell lipid: the VHL-driven clear-cell renal cell carcinoma accumulates cholesterol esters and lipid, giving the clear cytoplasm that names it, part of the metabolic rewiring downstream of the constitutive HIF (already mapped)."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Obesity and adipokines: obesity is a risk factor for renal cell carcinoma, and the fall in the adipokine adiponectin is part of the metabolic milieu that can promote the clear-cell renal cell carcinoma of VHL disease."
 ---
 
 # VHL Disease
@@ -665,6 +674,9 @@ The genotype-phenotype correlation reflects the degree of pVHL function retained
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Haemangioblastoma vasculature: nitric oxide with the strongly HIF-driven VEGF and angiopoietin (already mapped) shapes the rich vasculature of the haemangioblastomas that characterise VHL disease, part of their angiogenic biology.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the tumour microenvironment dampens the anti-tumour T-cell response (PD-1 and CTLA-4 already mapped), part of the immune evasion of the VHL-associated clear-cell renal cell carcinoma that checkpoint blockade targets.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Erythropoietin and iron: the stabilised HIF of VHL disease drives erythropoietin (already mapped) and polycythaemia, raising the demand for iron, and paraneoplastic erythropoietin from haemangioblastomas can worsen the erythrocytosis.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped) in the VHL-associated clear-cell renal cell carcinoma, part of its immune microenvironment.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Clear-cell lipid: the VHL-driven clear-cell renal cell carcinoma accumulates cholesterol esters and lipid, giving the clear cytoplasm that names it, part of the metabolic rewiring downstream of the constitutive HIF (already mapped).
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Obesity and adipokines: obesity is a risk factor for renal cell carcinoma, and the fall in the adipokine adiponectin is part of the metabolic milieu that can promote the clear-cell renal cell carcinoma of VHL disease.
 
 [^lonser-2003-vhl-disease]: Lonser RR, Glenn GM, Walther M, et al. von Hippel-Lindau disease. *Lancet.* 2003;361(9374):2059-2067. [doi:10.1016/S0140-6736(03)13643-4](https://doi.org/10.1016/S0140-6736(03)13643-4) · [PubMed 12814730](https://pubmed.ncbi.nlm.nih.gov/12814730/)
 [^choueiri-2020-hif2-rcc]: Choueiri TK, Kaelin WG Jr. Targeting the HIF2-VEGF axis in renal cell carcinoma. *Nat Med.* 2020;26(10):1519-1530. [doi:10.1038/s41591-020-1093-z](https://doi.org/10.1038/s41591-020-1093-z) · [PubMed 33020650](https://pubmed.ncbi.nlm.nih.gov/33020650/)

@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/prostaglandins
     relation: connects-to
     note: "Inflammaging eicosanoids: prostaglandins from the chronic low-grade inflammation of senescent tissues contribute, with the cytokines already mapped, to the atherosclerosis and tissue dysfunction of the premature ageing of Werner syndrome."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Adipokine dysfunction: the abnormal fat distribution and metabolic ageing of Werner syndrome disturb the adipokine leptin (adiponectin and resistin already mapped), part of the insulin-resistant metabolic derangement of the disorder."
+  - target: 01-human/03-molecular/pcsk9
+    relation: connects-to
+    note: "Atherogenic lipids: the dyslipidaemia of Werner syndrome, in which PCSK9 regulates LDL clearance (cholesterol already mapped), contributes to the premature atherosclerosis that is a leading cause of death in the disorder."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Growth and ageing axis: the growth-hormone-IGF-1 axis (growth hormone already mapped) underlies the short stature of Werner syndrome, and the insulin/IGF-1 signalling that this axis feeds is central to the biology of ageing."
 ---
 
 # Werner Syndrome
@@ -706,6 +715,9 @@ cross_links:
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Inflammaging balance: the anti-inflammatory IL-10 counters the senescence-associated secretory phenotype (IL-6, TNF and IL-1 already mapped) of the many senescent cells in Werner syndrome, and this cytokine imbalance drives its inflammaging.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Metabolic dysfunction: the insulin-resistant diabetes (insulin already mapped) and visceral adiposity of Werner syndrome disturb the incretin GLP-1 axis, part of the accelerated metabolic ageing of the disorder.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Inflammaging eicosanoids: prostaglandins from the chronic low-grade inflammation of senescent tissues contribute, with the cytokines already mapped, to the atherosclerosis and tissue dysfunction of the premature ageing of Werner syndrome.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adipokine dysfunction: the abnormal fat distribution and metabolic ageing of Werner syndrome disturb the adipokine leptin (adiponectin and resistin already mapped), part of the insulin-resistant metabolic derangement of the disorder.
+- `connects-to` → **[PCSK9](../../03-molecular/pcsk9/README.md)** — Atherogenic lipids: the dyslipidaemia of Werner syndrome, in which PCSK9 regulates LDL clearance (cholesterol already mapped), contributes to the premature atherosclerosis that is a leading cause of death in the disorder.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Growth and ageing axis: the growth-hormone-IGF-1 axis (growth hormone already mapped) underlies the short stature of Werner syndrome, and the insulin/IGF-1 signalling that this axis feeds is central to the biology of ageing.
 
 [^yu-1996-wrn]: Yu CE, Oshima J, Fu YH, et al. Positional cloning of the Werner's syndrome gene. *Science.* 1996;272(5259):258-262. [doi:10.1126/science.272.5259.258](https://doi.org/10.1126/science.272.5259.258) · [PubMed 8602509](https://pubmed.ncbi.nlm.nih.gov/8602509/)
 [^lauper-2013-wrn-neoplasia]: Lauper JM, Krause A, Vaughan TL, Monnat RJ Jr. Spectrum and risk of neoplasia in Werner syndrome: a systematic review. *PLoS One.* 2013;8(4):e59709. [doi:10.1371/journal.pone.0059709](https://doi.org/10.1371/journal.pone.0059709) · [PubMed 23579047](https://pubmed.ncbi.nlm.nih.gov/23579047/)
