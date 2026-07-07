@@ -432,6 +432,15 @@ cross_links:
   - target: 01-human/06-organ/kidney
     relation: connects-to
     note: "Renal consequences: the kidney bears the electrolyte and volume disturbances of purging, activating the renin-angiotensin-aldosterone system (already mapped) and risking a hypokalaemic nephropathy from the chronic potassium (already mapped) depletion of bulimia."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipokine dysregulation: resistin, with leptin and adiponectin (already mapped), is part of the disturbed adipokine and energy-balance signalling of the binge-purge cycle of bulimia nervosa."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Neuroimmune type-2 arm: IL-4 is part of the type-2 neuroimmune balance against the low-grade neuroinflammation (IL-6 and IL-1 already mapped) increasingly implicated in the mood and eating dysregulation of bulimia nervosa."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Neuroinflammatory cytokine: TNF-α, with IL-6 (already mapped), is part of the low-grade neuroinflammation associated with the binge-purge behaviour and the mood dysregulation of bulimia nervosa."
 ---
 
 # Bulimia Nervosa
@@ -699,6 +708,9 @@ All of the following must be met:
 - `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — Pseudo-Bartter syndrome: the volume depletion of chronic vomiting and laxative abuse activates renin and the aldosterone (already mapped) axis, causing the pseudo-Bartter syndrome and the rebound oedema on stopping purging in bulimia.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Alkalosis and calcium: the metabolic alkalosis of vomiting shifts the ionised calcium, and with the magnesium and potassium (already mapped) losses this contributes to the tetany and arrhythmia risk of bulimia.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Renal consequences: the kidney bears the electrolyte and volume disturbances of purging, activating the renin-angiotensin-aldosterone system (already mapped) and risking a hypokalaemic nephropathy from the chronic potassium (already mapped) depletion of bulimia.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine dysregulation: resistin, with leptin and adiponectin (already mapped), is part of the disturbed adipokine and energy-balance signalling of the binge-purge cycle of bulimia nervosa.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Neuroimmune type-2 arm: IL-4 is part of the type-2 neuroimmune balance against the low-grade neuroinflammation (IL-6 and IL-1 already mapped) increasingly implicated in the mood and eating dysregulation of bulimia nervosa.
+- `connects-to` → **[TNF-alpha](../../03-molecular/tnf-alpha/README.md)** — Neuroinflammatory cytokine: TNF-α, with IL-6 (already mapped), is part of the low-grade neuroinflammation associated with the binge-purge behaviour and the mood dysregulation of bulimia nervosa.
 
 ## Treatment
 

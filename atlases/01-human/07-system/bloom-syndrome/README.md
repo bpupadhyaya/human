@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/03-molecular/leptin
     relation: connects-to
     note: "Growth failure and low weight: the profound growth retardation and low body weight of Bloom syndrome (growth hormone and IGF-1 already mapped) are reflected in the low leptin of the depleted adipose tissue."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immune arm: IL-13, with IL-4 (already mapped), is part of the type-2/M2 immune arm of the immune dysregulation (reduced immunoglobulin already mapped) and the tumour microenvironment of the cancers of Bloom syndrome."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Adipokine and growth failure: adiponectin, with leptin (already mapped), is the adipokine of the depleted adipose tissue and the growth failure (GH and IGF-1 already mapped) of Bloom syndrome."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipokine milieu: resistin, with leptin and adiponectin (already mapped), completes the adipokine dimension of the low body weight and metabolic state of Bloom syndrome."
 ---
 
 # Bloom Syndrome
@@ -705,6 +714,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Humoral immune dysregulation: IL-4 and the type-2 response support the B-cell (already mapped) antibody production (immunoglobulin G already mapped) impaired in Bloom syndrome, part of the humoral immunodeficiency that predisposes to recurrent infections.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Cancer-therapy anaemia: the frequent and diverse cancers of Bloom syndrome and their chemotherapy cause anaemia needing transfusion, whose repeated support can load the body with iron in these cancer-prone patients.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Growth failure and low weight: the profound growth retardation and low body weight of Bloom syndrome (growth hormone and IGF-1 already mapped) are reflected in the low leptin of the depleted adipose tissue.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), is part of the type-2/M2 immune arm of the immune dysregulation (reduced immunoglobulin already mapped) and the tumour microenvironment of the cancers of Bloom syndrome.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine and growth failure: adiponectin, with leptin (already mapped), is the adipokine of the depleted adipose tissue and the growth failure (GH and IGF-1 already mapped) of Bloom syndrome.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine milieu: resistin, with leptin and adiponectin (already mapped), completes the adipokine dimension of the low body weight and metabolic state of Bloom syndrome.
 
 ---
 
