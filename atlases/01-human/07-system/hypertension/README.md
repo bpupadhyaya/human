@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Adipokine hypertension: resistin, with leptin and the fall in adiponectin (already mapped), is a pro-inflammatory adipokine of the metabolic syndrome (insulin already mapped) that promotes the endothelial dysfunction and vascular inflammation raising blood pressure."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Type-2 immune counter: IL-4 and the type-2 arm counter the pro-hypertensive Th17 (IL-17 already mapped) and inflammatory T-cell (TNF and IL-6 already mapped) response implicated in the vascular inflammation of hypertension."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immune arm: IL-13, with IL-4 (already mapped), is part of the type-2 immune arm balancing the T-cell-driven vascular inflammation of hypertension."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Serotonergic vascular tone: serotonin modulates the vascular tone and the central sympathetic (norepinephrine already mapped) control of the blood pressure in hypertension."
 ---
 
 # Hypertension
@@ -658,6 +667,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[Adrenal gland](../../06-organ/adrenal-gland/README.md)** — Endocrine hypertension: the adrenal gland's aldosterone (already mapped) in primary aldosteronism (Conn's) and its catecholamines (epinephrine already mapped) in phaeochromocytoma are the endocrine secondary causes of hypertension to screen for.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Central control and target organ: the brain sets the sympathetic (norepinephrine already mapped) drive to blood pressure, and it suffers the hypertensive stroke and encephalopathy that are the major target-organ damage of uncontrolled hypertension.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine hypertension: resistin, with leptin and the fall in adiponectin (already mapped), is a pro-inflammatory adipokine of the metabolic syndrome (insulin already mapped) that promotes the endothelial dysfunction and vascular inflammation raising blood pressure.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Type-2 immune counter: IL-4 and the type-2 arm counter the pro-hypertensive Th17 (IL-17 already mapped) and inflammatory T-cell (TNF and IL-6 already mapped) response implicated in the vascular inflammation of hypertension.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), is part of the type-2 immune arm balancing the T-cell-driven vascular inflammation of hypertension.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Serotonergic vascular tone: serotonin modulates the vascular tone and the central sympathetic (norepinephrine already mapped) control of the blood pressure in hypertension.
 
 ## Pathology
 

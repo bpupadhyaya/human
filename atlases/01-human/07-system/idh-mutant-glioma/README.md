@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "NMDA modulation: magnesium blocks the NMDA receptor and modulates the glutamate (already mapped) excitotoxicity and the neuron-glioma synaptic drive that promote the growth of IDH-mutant glioma."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Lipid metabolic reprogramming: the cholesterol and lipid metabolism of the IDH-mutant glioma, part of the metabolic reprogramming driven by the 2-hydroxyglutarate (IDH already mapped), is a therapeutic vulnerability."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Serotonergic neuromodulation: serotonin modulates the neuron-glioma (glutamate, GABA and acetylcholine already mapped) circuits whose activity drives the growth of IDH-mutant glioma."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "Noradrenergic input: noradrenaline is part of the neuronal-activity-dependent (glutamate already mapped) signalling that stimulates the proliferation of IDH-mutant glioma."
 ---
 
 # IDH-Mutant Glioma
@@ -699,6 +708,9 @@ IDH-mutant glioma with MGMT methylation shows strong alkylating agent sensitivit
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 microglial (already mapped) niche of the relatively cold immune microenvironment of IDH-mutant glioma.
 - `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Neuron-glioma signalling: alongside the glutamate and GABA (already mapped) synapses, cholinergic acetylcholine signalling is part of the neuronal activity that drives the growth of the electrically integrated IDH-mutant glioma.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — NMDA modulation: magnesium blocks the NMDA receptor and modulates the glutamate (already mapped) excitotoxicity and the neuron-glioma synaptic drive that promote the growth of IDH-mutant glioma.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Lipid metabolic reprogramming: the cholesterol and lipid metabolism of the IDH-mutant glioma, part of the metabolic reprogramming driven by the 2-hydroxyglutarate (IDH already mapped), is a therapeutic vulnerability.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Serotonergic neuromodulation: serotonin modulates the neuron-glioma (glutamate, GABA and acetylcholine already mapped) circuits whose activity drives the growth of IDH-mutant glioma.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Noradrenergic input: noradrenaline is part of the neuronal-activity-dependent (glutamate already mapped) signalling that stimulates the proliferation of IDH-mutant glioma.
 
 [^mellinghoff-2023-vorasidenib-lgg]: Mellinghoff IK, van den Bent MJ, Blumenthal DT, et al. Vorasidenib in IDH1- or IDH2-mutant low-grade glioma. *N Engl J Med.* 2023;389(7):589-601. [doi:10.1056/NEJMoa2304194](https://doi.org/10.1056/NEJMoa2304194) · [PubMed 37272530](https://pubmed.ncbi.nlm.nih.gov/37272530/)
 [^jiao-2012-atrx-glioma]: Jiao Y, Killela PJ, Reitman ZJ, et al. Frequent ATRX, CIC, FUBP1 and IDH mutations refine the classification of malignant gliomas. *Oncotarget.* 2012;3(7):709-722. [doi:10.18632/oncotarget.588](https://doi.org/10.18632/oncotarget.588) · [PubMed 22869205](https://pubmed.ncbi.nlm.nih.gov/22869205/)
