@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "Synaptic zinc: the synaptic zinc that modulates the glutamate (already mapped) and NMDA signalling is disturbed in schizophrenia, part of the trace-metal dimension of the disorder."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 neuroinflammation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the low-grade neuroinflammation (IL-6 and TNF already mapped) implicated in schizophrenia."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 neuroinflammation: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune-inflammatory dimension implicated in schizophrenia."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 immune arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune dysregulation associated with schizophrenia."
 ---
 
 # Schizophrenia
@@ -755,6 +764,9 @@ Notably, schizophrenia shares genetic loci with bipolar disorder, ASD, ADHD, maj
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin and resistin (already mapped), completes the adipokine axis of the metabolic syndrome (insulin and cholesterol already mapped) worsened by the antipsychotics in schizophrenia.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — NMDA modulation: magnesium blocks the NMDA receptor (glutamate already mapped), and magnesium dysregulation is implicated in the NMDA-hypofunction model of schizophrenia.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Synaptic zinc: the synaptic zinc that modulates the glutamate (already mapped) and NMDA signalling is disturbed in schizophrenia, part of the trace-metal dimension of the disorder.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 neuroinflammation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the low-grade neuroinflammation (IL-6 and TNF already mapped) implicated in schizophrenia.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 neuroinflammation: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune-inflammatory dimension implicated in schizophrenia.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 immune arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune dysregulation associated with schizophrenia.
 
 [^howes-2009-dopamine-hypothesis]: Howes OD, Kapur S. The dopamine hypothesis of schizophrenia: version III—the final common pathway. *Schizophr Bull.* 2009;35(3):549-562. [doi:10.1093/schbul/sbp006](https://doi.org/10.1093/schbul/sbp006) · [PubMed 19325164](https://pubmed.ncbi.nlm.nih.gov/19325164/)
 [^moghaddam-2012-glutamate]: Moghaddam B, Javitt D. From revolution to evolution: the glutamate hypothesis of schizophrenia and its implication for treatment. *Neuropsychopharmacology.* 2012;37(1):4-15. [doi:10.1038/npp.2011.181](https://doi.org/10.1038/npp.2011.181) · [PubMed 21956446](https://pubmed.ncbi.nlm.nih.gov/21956446/)
