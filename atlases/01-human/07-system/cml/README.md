@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Anaemia and transfusion iron: the anaemia (haemoglobin already mapped) of CML and the iron overload of the transfusion support during the blast-phase treatment reflect the disturbed iron handling of the leukaemia."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Thrombocytosis: CML often causes the thrombocytosis (the megakaryocytic proliferation; PF4 already mapped), part of the myeloproliferation of the leukaemia."
+  - target: 01-human/07-system/aml
+    relation: connects-to
+    note: "Myeloid blast crisis: CML can transform to the acute myeloid leukaemia (the myeloid blast crisis; RUNX1 already mapped), a terminal accelerated phase."
+  - target: 01-human/07-system/all
+    relation: connects-to
+    note: "Lymphoid blast crisis: CML can also transform to a lymphoid (Ph+ ALL-like) blast crisis (ABL1 already mapped), treated as the Ph+ ALL."
 ---
 
 # Chronic Myeloid Leukemia
@@ -692,6 +701,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Marrow-adipocyte adipokine: adiponectin, with leptin (already mapped), from the marrow adipose tissue signals to the leukaemic stem cells of the bone-marrow (already mapped) microenvironment of CML.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine milieu: resistin, with leptin and adiponectin (already mapped), completes the marrow-adipocyte adipokine signalling of the microenvironment influencing the CML clone.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Anaemia and transfusion iron: the anaemia (haemoglobin already mapped) of CML and the iron overload of the transfusion support during the blast-phase treatment reflect the disturbed iron handling of the leukaemia.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Thrombocytosis: CML often causes the thrombocytosis (the megakaryocytic proliferation; PF4 already mapped), part of the myeloproliferation of the leukaemia.
+- `connects-to` → **[AML](../aml/README.md)** — Myeloid blast crisis: CML can transform to the acute myeloid leukaemia (the myeloid blast crisis; RUNX1 already mapped), a terminal accelerated phase.
+- `connects-to` → **[ALL](../all/README.md)** — Lymphoid blast crisis: CML can also transform to a lymphoid (Ph+ ALL-like) blast crisis (ABL1 already mapped), treated as the Ph+ ALL.
 
 ---
 

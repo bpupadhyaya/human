@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Haemolytic and marrow anaemia: the iron of the autoimmune haemolytic anaemia (haemoglobin already mapped) and the anaemia of the marrow infiltration (hepcidin already mapped) of chronic lymphocytic leukaemia."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Immunosuppressive Tregs: the expanded regulatory T cells (IL-10 already mapped) contribute to the immunosuppression and the immune dysfunction (hypogammaglobulinaemia) of chronic lymphocytic leukaemia."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "ADCC effectors: the NK cells mediate the antibody-dependent cellular cytotoxicity of the anti-CD20 (already mapped) antibodies (rituximab, obinutuzumab) against the CLL B cells (already mapped)."
+  - target: 01-human/07-system/waldenstrom-macroglobulinemia
+    relation: connects-to
+    note: "Indolent mature-B relative: chronic lymphocytic leukaemia and Waldenström macroglobulinaemia are indolent mature-B-cell neoplasms (the BCR/BTK already mapped signalling), overlapping in the BTK-inhibitor therapy."
 ---
 
 # CLL
@@ -692,6 +701,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine milieu: resistin, with leptin and adiponectin (already mapped), completes the marrow-adipocyte adipokine signalling of the metabolic microenvironment sustaining the CLL clone.
 - `connects-to` → **[Regulatory T cell](../../04-cellular/regulatory-t-cell/README.md)** — Immunosuppressive Tregs: the expanded regulatory T cells contribute to the immunosuppression (IL-10 already mapped) and the immune dysfunction (hypogammaglobulinaemia, immunoglobulin already mapped) of chronic lymphocytic leukaemia.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Haemolytic and marrow anaemia: the iron of the autoimmune haemolytic anaemia (haemoglobin already mapped) and the anaemia of the marrow infiltration (hepcidin already mapped) of chronic lymphocytic leukaemia.
+- `connects-to` → **[Regulatory T-cell](../../04-cellular/regulatory-t-cell/README.md)** — Immunosuppressive Tregs: the expanded regulatory T cells (IL-10 already mapped) contribute to the immunosuppression and the immune dysfunction (hypogammaglobulinaemia) of chronic lymphocytic leukaemia.
+- `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — ADCC effectors: the NK cells mediate the antibody-dependent cellular cytotoxicity of the anti-CD20 (already mapped) antibodies (rituximab, obinutuzumab) against the CLL B cells (already mapped).
+- `connects-to` → **[Waldenström macroglobulinemia](../waldenstrom-macroglobulinemia/README.md)** — Indolent mature-B relative: chronic lymphocytic leukaemia and Waldenström macroglobulinaemia are indolent mature-B-cell neoplasms (the BCR/BTK already mapped signalling), overlapping in the BTK-inhibitor therapy.
 
 ---
 
