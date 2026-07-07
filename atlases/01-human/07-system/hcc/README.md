@@ -436,6 +436,15 @@ cross_links:
   - target: 01-human/02-atomic/copper
     relation: connects-to
     note: "Copper and hepatocarcinogenesis: the hepatic copper overload of Wilson's disease raises the HCC risk, and copper's role in angiogenesis (VEGF already mapped) and oxidative injury contributes to the cirrhotic-liver carcinogenesis."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Cirrhotic stellate cells: the activated hepatic stellate cells (myofibroblasts; TGF-β and PDGF already mapped) drive the cirrhosis (collagen already mapped) that is the field for the hepatocellular carcinoma."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Checkpoint immunity: the cytotoxic T cells (perforin and PD-1 already mapped) are unleashed by the atezolizumab (PD-L1) in the immunotherapy of hepatocellular carcinoma."
+  - target: 01-human/07-system/hepatitis-c
+    relation: connects-to
+    note: "Viral cause: the chronic hepatitis C is a leading cause of HCC (via the cirrhosis), the DAA cure reducing but not eliminating the risk."
 ---
 
 # Hepatocellular Carcinoma
@@ -713,6 +722,9 @@ In high-risk patients (cirrhosis, HBV regardless of cirrhosis): ultrasound ± AF
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune milieu: IL-13, with IL-4 (already mapped), supports the M2 macrophage (already mapped) immunosuppressive milieu of hepatocellular carcinoma that limits the checkpoint immunotherapy.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Hepatoprotective adipokine: the fall in adiponectin, a hepatoprotective adipokine (leptin already mapped), with obesity and NASH (already mapped) removes a brake on the hepatocarcinogenesis of hepatocellular carcinoma.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper and hepatocarcinogenesis: the hepatic copper overload of Wilson's disease raises the HCC risk, and copper's role in angiogenesis (VEGF already mapped) and oxidative injury contributes to the cirrhotic-liver carcinogenesis.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Cirrhotic stellate cells: the activated hepatic stellate cells (myofibroblasts; TGF-β and PDGF already mapped) drive the cirrhosis (collagen already mapped) that is the field for the hepatocellular carcinoma.
+- `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Checkpoint immunity: the cytotoxic T cells (perforin and PD-1 already mapped) are unleashed by the atezolizumab (PD-L1) in the immunotherapy of hepatocellular carcinoma.
+- `connects-to` → **[Hepatitis C](../hepatitis-c/README.md)** — Viral cause: the chronic hepatitis C is a leading cause of HCC (via the cirrhosis), the DAA cure reducing but not eliminating the risk.
 
 [^llovet-2008-sorafenib]: Llovet JM, Ricci S, Mazzaferro V, et al. Sorafenib in advanced hepatocellular carcinoma. *N Engl J Med.* 2008;359(4):378-390. [doi:10.1056/NEJMoa0708857](https://doi.org/10.1056/NEJMoa0708857) · [PubMed 18650514](https://pubmed.ncbi.nlm.nih.gov/18650514/)
 [^finn-2020-imbrave150]: Finn RS, Qin S, Ikeda M, et al. Atezolizumab plus bevacizumab in unresectable hepatocellular carcinoma. *N Engl J Med.* 2020;382(20):1894-1905. [doi:10.1056/NEJMoa1915745](https://doi.org/10.1056/NEJMoa1915745) · [PubMed 32402160](https://pubmed.ncbi.nlm.nih.gov/32402160/)
