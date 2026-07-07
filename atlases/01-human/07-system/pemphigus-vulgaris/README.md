@@ -436,6 +436,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "Magnesium depletion: the transcutaneous loss through the widespread erosions and the poor intake of severe pemphigus deplete magnesium, part of the burn-like fluid and electrolyte (sodium and potassium already mapped) disturbance."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Steroid metabolic adipokine: leptin is disturbed by the long-term corticosteroid (cortisol already mapped) therapy of pemphigus, part of the steroid metabolic complications of the disease."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the steroid-related metabolic disturbance of pemphigus vulgaris."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the steroid-related metabolic disturbance and the inflammation (IL-6 already mapped) of pemphigus."
 ---
 
 # Pemphigus Vulgaris
@@ -719,6 +728,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Anaemia and blood loss: the blood and exudate loss through the extensive erosions and the poor intake from the painful oral disease cause the anaemia and iron deficiency that accompany severe pemphigus vulgaris.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Electrolyte loss: the extensive denuded erosions of severe pemphigus lose fluid, protein and electrolytes like a burn, depleting potassium (sodium already mapped) and disturbing the fluid-electrolyte balance.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium depletion: the transcutaneous loss through the widespread erosions and the poor intake of severe pemphigus deplete magnesium, part of the burn-like fluid and electrolyte (sodium and potassium already mapped) disturbance.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Steroid metabolic adipokine: leptin is disturbed by the long-term corticosteroid (cortisol already mapped) therapy of pemphigus, part of the steroid metabolic complications of the disease.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the steroid-related metabolic disturbance of pemphigus vulgaris.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the steroid-related metabolic disturbance and the inflammation (IL-6 already mapped) of pemphigus.
 
 ---
 
