@@ -433,6 +433,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "Zinc at the endplate: zinc is required for the agrin-MuSK clustering of the acetylcholine receptors (already mapped) at the neuromuscular junction and modulates the immune response, linking the trace metal to myasthenia gravis."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Thymic interferon signature: the type-I interferon overexpression in the thymus (already mapped) is implicated in the autoimmunity of myasthenia gravis, notably with thymoma and the checkpoint-inhibitor (PD-1 and CTLA-4 already mapped) MG."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "NK immunoregulation: the natural killer cells contribute to the immunoregulation of the autoimmune response and are implicated in the thymoma (thymus already mapped)-associated myasthenia gravis."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Adipokine and thymic autoimmunity: leptin modulates the thymic (already mapped) function and promotes the autoreactive Th17 (IL-17 already mapped) responses, part of the metabolic-immune dimension of myasthenia gravis."
 ---
 
 # Myasthenia Gravis
@@ -682,6 +691,9 @@ cross_links:
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Junction and inflammatory signalling: nitric oxide participates in the neuromuscular-junction signalling and in the inflammatory injury (complement already mapped), part of the molecular environment of the endplate damaged in myasthenia gravis.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Inflammatory eicosanoids: prostaglandins from the inflammatory infiltrate (IL-6 and TNF already mapped) contribute to the immune injury at the neuromuscular junction, part of the eicosanoid dimension of the autoimmune attack in myasthenia gravis.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc at the endplate: zinc is required for the agrin-MuSK clustering of the acetylcholine receptors (already mapped) at the neuromuscular junction and modulates the immune response, linking the trace metal to myasthenia gravis.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Thymic interferon signature: the type-I interferon overexpression in the thymus (already mapped) is implicated in the autoimmunity of myasthenia gravis, notably with thymoma and the checkpoint-inhibitor (PD-1 and CTLA-4 already mapped) MG.
+- `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — NK immunoregulation: the natural killer cells contribute to the immunoregulation of the autoimmune response and are implicated in the thymoma (thymus already mapped)-associated myasthenia gravis.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adipokine and thymic autoimmunity: leptin modulates the thymic (already mapped) function and promotes the autoreactive Th17 (IL-17 already mapped) responses, part of the metabolic-immune dimension of myasthenia gravis.
 
 [^gilhus-2016-mg-review]: Gilhus NE. Myasthenia Gravis. *N Engl J Med.* 2016;375(26):2570-2581. [doi:10.1056/NEJMra1602678](https://doi.org/10.1056/NEJMra1602678) · [PubMed 28029925](https://pubmed.ncbi.nlm.nih.gov/28029925/)
 [^howard-2021-efgartigimod-adapt]: Howard JF Jr, Bril V, Vu T, et al. Safety, efficacy, and tolerability of efgartigimod in patients with generalised myasthenia gravis (ADAPT). *Lancet Neurol.* 2021;20(7):526-536. [doi:10.1016/S1474-4422(21)00159-9](https://doi.org/10.1016/S1474-4422(21)00159-9) · [PubMed 34146511](https://pubmed.ncbi.nlm.nih.gov/34146511/)

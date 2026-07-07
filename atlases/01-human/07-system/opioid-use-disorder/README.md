@@ -436,6 +436,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "Zinc and opioid signalling: zinc modulates the mu-opioid receptor (already mapped) and NMDA signalling, and disturbed zinc status is linked to the mood and reward dysregulation of opioid use disorder."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Glial neuroimmunity: IL-13, with IL-4 (already mapped), supports the M2 microglia (already mapped) and the anti-inflammatory arm balancing the opioid-glial (TLR4 already mapped) neuroinflammation of tolerance and dependence in opioid use disorder."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Injection endocarditis: the injection drug use of opioid use disorder causes right-sided infective endocarditis of the heart, a major and rising complication requiring prolonged antibiotics or surgery."
+  - target: 01-human/07-system/hepatitis-c
+    relation: connects-to
+    note: "Blood-borne transmission: the injection drug use of opioid use disorder transmits hepatitis C (and HIV), a major public-health consequence driving the coinfection burden of the epidemic."
 ---
 
 # Opioid Use Disorder
@@ -730,6 +739,9 @@ The primary mechanism by which opioids produce euphoria:
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Neuroimmune balance: the anti-inflammatory IL-4, with IL-10 (already mapped), counters the glial (microglia already mapped) pro-inflammatory cytokines (TNF, IL-6 and IL-1 already mapped) that drive the neuroinflammation of opioid tolerance.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium and tolerance: magnesium blocks the NMDA receptor and buffers the glutamate (already mapped) signalling that mediates opioid tolerance and withdrawal, and magnesium can attenuate these in opioid use disorder.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and opioid signalling: zinc modulates the mu-opioid receptor (already mapped) and NMDA signalling, and disturbed zinc status is linked to the mood and reward dysregulation of opioid use disorder.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Glial neuroimmunity: IL-13, with IL-4 (already mapped), supports the M2 microglia (already mapped) and the anti-inflammatory arm balancing the opioid-glial (TLR4 already mapped) neuroinflammation of tolerance and dependence in opioid use disorder.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Injection endocarditis: the injection drug use of opioid use disorder causes right-sided infective endocarditis of the heart, a major and rising complication requiring prolonged antibiotics or surgery.
+- `connects-to` → **[Hepatitis C](../hepatitis-c/README.md)** — Blood-borne transmission: the injection drug use of opioid use disorder transmits hepatitis C (and HIV), a major public-health consequence driving the coinfection burden of the epidemic.
 
 [^volkow-2016-opioid-crisis]: Volkow ND, Collins FS. The role of science in addressing the opioid crisis. *N Engl J Med.* 2017;377(4):391-394. [doi:10.1056/NEJMsr1706626](https://doi.org/10.1056/NEJMsr1706626) · [PubMed 28723324](https://pubmed.ncbi.nlm.nih.gov/28723324/)
 [^mattick-2009-bupe-meta]: Mattick RP, Breen C, Kimber J, Davoli M. Buprenorphine maintenance versus placebo or methadone maintenance for opioid dependence. *Cochrane Database Syst Rev.* 2014;2:CD002207. [doi:10.1002/14651858.CD002207.pub4](https://doi.org/10.1002/14651858.CD002207.pub4) · [PubMed 24500948](https://pubmed.ncbi.nlm.nih.gov/24500948/)
