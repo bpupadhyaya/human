@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory milieu (IL-6 already mapped) to the metabolic contribution to cervical cancer."
+  - target: 01-human/07-system/endometrial-cancer
+    relation: connects-to
+    note: "Gynaecological sibling: cervical and endometrial cancers are the common gynaecological cancers of the uterus, distinguished by the site (cervix vs corpus) and the HPV vs oestrogen (already mapped) aetiology."
+  - target: 01-human/07-system/ovarian-cancer
+    relation: connects-to
+    note: "Gynaecological-oncology context: cervical and ovarian cancers are gynaecological malignancies managed within the gynaecological-oncology field, differing in aetiology and screening."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Anti-HPV T-cell help: the CD4 T-helper cells (IL-2 already mapped) support the cytotoxic (already mapped) anti-HPV E6/E7 (p53 and Rb already mapped) response and the vaccine immunity of cervical cancer."
 ---
 
 # Cervical Cancer
@@ -702,6 +711,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Obesity-related adipokine: leptin is the obesity-related adipokine linked to the risk and progression of the cervical adenocarcinoma and the oestrogen (already mapped) metabolic milieu of cervical cancer.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the obesity and metabolic contribution to cervical cancer.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory milieu (IL-6 already mapped) to the metabolic contribution to cervical cancer.
+- `connects-to` → **[Endometrial cancer](../endometrial-cancer/README.md)** — Gynaecological sibling: cervical and endometrial cancers are the common gynaecological cancers of the uterus, distinguished by the site (cervix vs corpus) and the HPV vs oestrogen (already mapped) aetiology.
+- `connects-to` → **[Ovarian cancer](../ovarian-cancer/README.md)** — Gynaecological-oncology context: cervical and ovarian cancers are gynaecological malignancies managed within the gynaecological-oncology field, differing in aetiology and screening.
+- `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — Anti-HPV T-cell help: the CD4 T-helper cells (IL-2 already mapped) support the cytotoxic (already mapped) anti-HPV E6/E7 (p53 and Rb already mapped) response and the vaccine immunity of cervical cancer.
 
 ---
 

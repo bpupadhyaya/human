@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic (cholesterol already mapped) risk of cholangiocarcinoma."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the obesity/NAFLD metabolic risk of cholangiocarcinoma."
+  - target: 01-human/07-system/nash
+    relation: connects-to
+    note: "NAFLD/NASH risk: the non-alcoholic steatohepatitis (the obesity/metabolic — leptin and adiponectin already mapped) is a rising risk factor for the intrahepatic cholangiocarcinoma."
+  - target: 01-human/04-cellular/hepatocyte
+    relation: connects-to
+    note: "Combined HCC-CCA: the hepatocytes and the cholangiocytes share the progenitor origin; the combined hepatocellular-cholangiocarcinoma reflects the plasticity of the liver (already mapped)."
 ---
 
 # Cholangiocarcinoma
@@ -676,6 +685,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — M2 desmoplastic stroma: IL-13, with IL-4 (already mapped), drives the M2 macrophage (already mapped) arm of the immunosuppressive desmoplastic stroma (collagen already mapped) of cholangiocarcinoma.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Obesity and NAFLD risk: leptin is the obesity/NAFLD-related adipokine, a rising risk factor for the intrahepatic cholangiocarcinoma (liver already mapped) via the metabolic-inflammatory milieu.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic (cholesterol already mapped) risk of cholangiocarcinoma.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the obesity/NAFLD metabolic risk of cholangiocarcinoma.
+- `connects-to` → **[NASH](../nash/README.md)** — NAFLD/NASH risk: the non-alcoholic steatohepatitis (the obesity/metabolic — leptin and adiponectin already mapped) is a rising risk factor for the intrahepatic cholangiocarcinoma.
+- `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — Combined HCC-CCA: the hepatocytes and the cholangiocytes share the progenitor origin; the combined hepatocellular-cholangiocarcinoma reflects the plasticity of the liver (already mapped).
 
 ---
 
