@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the vascular tone and angiogenesis of retinoblastoma, part of the stromal microenvironment of this intraocular tumour."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage (already mapped) and type-2 milieu of the immune microenvironment of the intraocular retinoblastoma."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Inflammatory eicosanoids: prostaglandins from the tumour-associated macrophages (already mapped) and the cyclooxygenase pathway (IL-6 and IL-1 already mapped) contribute to the inflammatory microenvironment of retinoblastoma."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin adds an anaemia of chronic disease to the chemotherapy anaemia (iron and haemoglobin already mapped) of retinoblastoma."
 ---
 
 # Retinoblastoma
@@ -668,6 +677,9 @@ Standard regimen: **vincristine + carboplatin + etoposide (VCE)**, 6 cycles; red
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the cold, low-mutation microenvironment of retinoblastoma.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Chemotherapy anaemia: the systemic chemotherapy of retinoblastoma is myelosuppressive, causing anaemia (haemoglobin already mapped) that can require transfusion, whose repeated support can load the young child with iron.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the vascular tone and angiogenesis of retinoblastoma, part of the stromal microenvironment of this intraocular tumour.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage (already mapped) and type-2 milieu of the immune microenvironment of the intraocular retinoblastoma.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Inflammatory eicosanoids: prostaglandins from the tumour-associated macrophages (already mapped) and the cyclooxygenase pathway (IL-6 and IL-1 already mapped) contribute to the inflammatory microenvironment of retinoblastoma.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin adds an anaemia of chronic disease to the chemotherapy anaemia (iron and haemoglobin already mapped) of retinoblastoma.
 
 [^knudson-1971-two-hit]: Knudson AG Jr. Mutation and cancer: statistical study of retinoblastoma. *Proc Natl Acad Sci USA.* 1971;68(4):820-823. [doi:10.1073/pnas.68.4.820](https://doi.org/10.1073/pnas.68.4.820) · [PubMed 5279523](https://pubmed.ncbi.nlm.nih.gov/5279523/)
 [^shields-2008-retinoblastoma]: Shields CL, Shields JA. Retinoblastoma management: advances in enucleation, intravenous chemoreduction, and intra-arterial chemotherapy. *Curr Opin Ophthalmol.* 2010;21(3):203-212. [doi:10.1097/ICU.0b013e328338676a](https://doi.org/10.1097/ICU.0b013e328338676a) · [PubMed 20224400](https://pubmed.ncbi.nlm.nih.gov/20224400/)

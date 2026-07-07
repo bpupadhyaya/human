@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/prostaglandins
     relation: connects-to
     note: "Inflammatory eicosanoids: prostaglandins from the tumour and infiltrating cells (IL-6 and IL-1 already mapped) contribute to the inflammation of the rhabdomyosarcoma microenvironment, part of the stroma of this aggressive sarcoma."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immunosuppressive cold microenvironment of rhabdomyosarcoma."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Tumour-associated macrophages: the macrophages (CCL2 already mapped) infiltrate the rhabdomyosarcoma stroma, and their M2 polarisation (IL-4 already mapped) supports the immunosuppression of this cold sarcoma."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Bone and marrow spread: alveolar rhabdomyosarcoma frequently metastasises to the bone marrow (already mapped) and the cortical bone (RANKL already mapped), the disseminated disease that can mimic leukaemia."
 ---
 
 # Rhabdomyosarcoma
@@ -683,6 +692,9 @@ Maximal safe resection with negative margins (R0) wherever achievable without mu
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the cold, immune-evasive microenvironment of rhabdomyosarcoma.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Chemotherapy anaemia: the intensive vincristine-actinomycin-cyclophosphamide chemotherapy of rhabdomyosarcoma is myelosuppressive, causing anaemia (haemoglobin already mapped) that needs transfusion whose repeated support can load the young survivor with iron.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Inflammatory eicosanoids: prostaglandins from the tumour and infiltrating cells (IL-6 and IL-1 already mapped) contribute to the inflammation of the rhabdomyosarcoma microenvironment, part of the stroma of this aggressive sarcoma.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immunosuppressive cold microenvironment of rhabdomyosarcoma.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumour-associated macrophages: the macrophages (CCL2 already mapped) infiltrate the rhabdomyosarcoma stroma, and their M2 polarisation (IL-4 already mapped) supports the immunosuppression of this cold sarcoma.
+- `connects-to` → **[Cortical bone](../../05-tissue/cortical-bone/README.md)** — Bone and marrow spread: alveolar rhabdomyosarcoma frequently metastasises to the bone marrow (already mapped) and the cortical bone (RANKL already mapped), the disseminated disease that can mimic leukaemia.
 
 [^crist-2001-irs4-rms]: Crist WM, Anderson JR, Meza JL, et al. Intergroup rhabdomyosarcoma study-IV: results for patients with nonmetastatic disease. *J Clin Oncol.* 2001;19(12):3091-3102. [doi:10.1200/JCO.2001.19.12.3091](https://doi.org/10.1200/JCO.2001.19.12.3091) · [PubMed 11408506](https://pubmed.ncbi.nlm.nih.gov/11408506/)
 [^oberlin-2012-mmt95-rms]: Oberlin O, Rey A, Sanchez de Toledo J, et al. Randomized comparison of intensified six-drug versus standard three-drug chemotherapy for high-risk nonmetastatic rhabdomyosarcoma and other chemotherapy-sensitive childhood soft tissue sarcomas. *J Clin Oncol.* 2012;30(19):2457-2465. [doi:10.1200/JCO.2011.39.3538](https://doi.org/10.1200/JCO.2011.39.3538) · [PubMed 22665546](https://pubmed.ncbi.nlm.nih.gov/22665546/)
