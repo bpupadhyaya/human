@@ -436,6 +436,15 @@ cross_links:
   - target: 01-human/07-system/tuberculosis
     relation: connects-to
     note: "The BCG connection: intravesical BCG — the attenuated Mycobacterium bovis of the tuberculosis vaccine — is the standard immunotherapy for high-risk non-muscle-invasive bladder cancer, stimulating (via TLR4 and IFN-γ already mapped) an anti-tumour immune response."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "BCG and checkpoint T-cell immunity: the CD4 T-helper cells (IFN-γ already mapped) orchestrate the intravesical BCG (tuberculosis already mapped) granulomatous response and the checkpoint (PD-1 already mapped) anti-tumour immunity of bladder cancer."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Obesity and tumour biology: leptin links the obesity (a bladder-cancer risk factor) and the metabolic milieu (insulin already mapped) to the tumour biology of bladder cancer."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the obesity and metabolic-syndrome contribution to bladder cancer."
 ---
 
 # Bladder Cancer
@@ -696,6 +705,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune microenvironment of the urothelial cancer that intravesical BCG and checkpoint blockade must overcome.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immunosuppressive microenvironment of bladder cancer.
 - `connects-to` → **[Tuberculosis](../tuberculosis/README.md)** — The BCG connection: intravesical BCG — the attenuated Mycobacterium bovis of the tuberculosis vaccine — is the standard immunotherapy for high-risk non-muscle-invasive bladder cancer, stimulating (via TLR4 and IFN-γ already mapped) an anti-tumour immune response.
+- `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — BCG and checkpoint T-cell immunity: the CD4 T-helper cells (IFN-γ already mapped) orchestrate the intravesical BCG (tuberculosis already mapped) granulomatous response and the checkpoint (PD-1 already mapped) anti-tumour immunity of bladder cancer.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Obesity and tumour biology: leptin links the obesity (a bladder-cancer risk factor) and the metabolic milieu (insulin already mapped) to the tumour biology of bladder cancer.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the obesity and metabolic-syndrome contribution to bladder cancer.
 
 ---
 

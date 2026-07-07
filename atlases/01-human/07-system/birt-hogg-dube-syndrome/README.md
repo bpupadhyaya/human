@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Haematuria and anaemia: the renal tumours of Birt-Hogg-Dubé can bleed, causing the haematuria and iron-deficiency anaemia that reflect the systemic effects of the renal cancer beyond the tumour itself."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Folliculin energy metabolism: the FLCN-AMPK (already mapped) energy-sensing axis that folliculin regulates connects to the leptin adipokine signalling of the metabolic dimension of Birt-Hogg-Dubé syndrome."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "AMPK-activating adipokine: adiponectin, with leptin (already mapped), activates the AMPK (already mapped) energy metabolism that folliculin governs, part of the metabolic milieu of Birt-Hogg-Dubé syndrome."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipokine milieu: resistin, with leptin and adiponectin (already mapped), completes the adipokine dimension of the folliculin-AMPK (already mapped) energy metabolism of Birt-Hogg-Dubé syndrome."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -708,6 +717,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune microenvironment of the renal tumours of Birt-Hogg-Dubé syndrome.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immunosuppressive microenvironment of the renal tumours in Birt-Hogg-Dubé syndrome.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Haematuria and anaemia: the renal tumours of Birt-Hogg-Dubé can bleed, causing the haematuria and iron-deficiency anaemia that reflect the systemic effects of the renal cancer beyond the tumour itself.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Folliculin energy metabolism: the FLCN-AMPK (already mapped) energy-sensing axis that folliculin regulates connects to the leptin adipokine signalling of the metabolic dimension of Birt-Hogg-Dubé syndrome.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — AMPK-activating adipokine: adiponectin, with leptin (already mapped), activates the AMPK (already mapped) energy metabolism that folliculin governs, part of the metabolic milieu of Birt-Hogg-Dubé syndrome.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine milieu: resistin, with leptin and adiponectin (already mapped), completes the adipokine dimension of the folliculin-AMPK (already mapped) energy metabolism of Birt-Hogg-Dubé syndrome.
 
 ---
 
