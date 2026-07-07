@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Iron-deficiency anaemia: the mucosal-ulcerating GIST commonly bleeds into the gut, causing the iron-deficiency anaemia (haemoglobin already mapped) that is a frequent presenting sign of the tumour."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "M2 stromal arm: IL-13, with IL-4 (already mapped), drives the M2 macrophage (already mapped) arm of the immunosuppressive stroma relevant to the immunotherapy explored in wild-type GIST."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Mesenteric adipokine: leptin from the GI and mesenteric adipose microenvironment signals to the GIST, part of the metabolic crosstalk of the gastrointestinal stromal tumour."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin sequesters iron (already mapped) and, with the chronic gut bleeding, contributes to the anaemia (haemoglobin already mapped) of GIST."
 ---
 
 # GIST
@@ -698,6 +707,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune microenvironment of the gastrointestinal stromal tumour.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumour-associated macrophages: the macrophages (CCL2 already mapped) infiltrate the GIST stroma, and their M2 polarisation (IL-4 already mapped) supports the immunosuppression relevant to the immunotherapy explored in wild-type disease.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron-deficiency anaemia: the mucosal-ulcerating GIST commonly bleeds into the gut, causing the iron-deficiency anaemia (haemoglobin already mapped) that is a frequent presenting sign of the tumour.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — M2 stromal arm: IL-13, with IL-4 (already mapped), drives the M2 macrophage (already mapped) arm of the immunosuppressive stroma relevant to the immunotherapy explored in wild-type GIST.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Mesenteric adipokine: leptin from the GI and mesenteric adipose microenvironment signals to the GIST, part of the metabolic crosstalk of the gastrointestinal stromal tumour.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin sequesters iron (already mapped) and, with the chronic gut bleeding, contributes to the anaemia (haemoglobin already mapped) of GIST.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
