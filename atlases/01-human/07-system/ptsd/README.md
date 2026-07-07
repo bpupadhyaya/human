@@ -432,6 +432,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "Zinc and fear memory: zinc modulates the glutamatergic (already mapped) NMDA signalling of the fear-memory circuits, and low zinc status is associated with the mood and anxiety symptoms that accompany PTSD."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 neuroimmunity: IL-13, with IL-4 (already mapped), supports the M2 microglia (already mapped) and the anti-inflammatory arm balancing the neuroinflammation (TNF, IL-6 and IL-1 already mapped) implicated in PTSD."
+  - target: 01-human/07-system/borderline-personality-disorder
+    relation: connects-to
+    note: "Trauma-spectrum overlap: borderline personality disorder is strongly linked to childhood trauma and overlaps with complex PTSD, the two sharing the HPA-axis (cortisol and CRH already mapped) dysregulation and affective instability."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Anxiety comorbidity: generalized anxiety disorder commonly co-occurs with PTSD, part of the anxious-hyperarousal (noradrenaline already mapped) symptom burden that accompanies the trauma disorder."
 ---
 
 # PTSD
@@ -705,6 +714,9 @@ Not all trauma leads to PTSD. Risk and resilience factors include:
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Neuroimmune balance: the anti-inflammatory IL-4, with IL-10 (already mapped), counters the pro-inflammatory cytokines (IL-6, TNF and IL-1 already mapped) of the low-grade neuroinflammation reported in PTSD.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper and noradrenaline: copper is the cofactor of dopamine-β-hydroxylase, which makes noradrenaline from dopamine (both already mapped), linking copper handling to the noradrenergic hyperarousal central to PTSD.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and fear memory: zinc modulates the glutamatergic (already mapped) NMDA signalling of the fear-memory circuits, and low zinc status is associated with the mood and anxiety symptoms that accompany PTSD.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 neuroimmunity: IL-13, with IL-4 (already mapped), supports the M2 microglia (already mapped) and the anti-inflammatory arm balancing the neuroinflammation (TNF, IL-6 and IL-1 already mapped) implicated in PTSD.
+- `connects-to` → **[Borderline personality disorder](../borderline-personality-disorder/README.md)** — Trauma-spectrum overlap: borderline personality disorder is strongly linked to childhood trauma and overlaps with complex PTSD, the two sharing the HPA-axis (cortisol and CRH already mapped) dysregulation and affective instability.
+- `connects-to` → **[Generalized anxiety disorder](../generalized-anxiety-disorder/README.md)** — Anxiety comorbidity: generalized anxiety disorder commonly co-occurs with PTSD, part of the anxious-hyperarousal (noradrenaline already mapped) symptom burden that accompanies the trauma disorder.
 
 [^yehuda-2015-ptsd-review]: Yehuda R, Hoge CW, McFarlane AC, et al. Post-traumatic stress disorder. *Nat Rev Dis Primers.* 2015;1:15057. [doi:10.1038/nrdp.2015.57](https://doi.org/10.1038/nrdp.2015.57) · [PubMed 27189040](https://pubmed.ncbi.nlm.nih.gov/27189040/)
 [^foa-2019-ptsd-treatments]: Foa EB, McLean CP. The efficacy of exposure therapy for anxiety and related disorders. *Annu Rev Clin Psychol.* 2016;12:1-28. [doi:10.1146/annurev-clinpsy-021815-093533](https://doi.org/10.1146/annurev-clinpsy-021815-093533) · [PubMed 26928206](https://pubmed.ncbi.nlm.nih.gov/26928206/)

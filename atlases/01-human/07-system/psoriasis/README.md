@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/03-molecular/il-13
     relation: connects-to
     note: "Th2-Th17 balance: IL-13, with IL-4 (already mapped), defines the type-2 pole opposite the Th17 axis of psoriasis, the reciprocal relationship distinguishing it from the atopic dermatitis at the other end of the spectrum."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Metabolic adipokine: resistin, with leptin and adiponectin (already mapped), is part of the adipokine milieu linking psoriasis to the metabolic syndrome (insulin and cholesterol already mapped) and its systemic inflammation."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin sequesters iron to produce the anaemia of chronic disease that can accompany the systemic inflammation of severe psoriasis."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Selenium and skin oxidative defence: selenium supports the antioxidant selenoprotein defence of the skin, and low selenium status, common in psoriasis, is part of the oxidative and immune imbalance of the inflamed skin."
 ---
 
 # Psoriasis
@@ -682,6 +691,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Inflammatory eicosanoids: prostaglandins and other arachidonic-acid metabolites in the psoriatic plaque (IL-6 and TNF already mapped) contribute to the inflammation and vascular changes of the lesion, part of its eicosanoid dimension.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Type-2 counter-axis: IL-4 drives the type-2 immunity that opposes the Th17 (IL-17 and IL-23 already mapped) axis of psoriasis, and blocking IL-4 for atopic dermatitis can paradoxically unmask psoriasis, revealing the balance between the two.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Th2-Th17 balance: IL-13, with IL-4 (already mapped), defines the type-2 pole opposite the Th17 axis of psoriasis, the reciprocal relationship distinguishing it from the atopic dermatitis at the other end of the spectrum.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Metabolic adipokine: resistin, with leptin and adiponectin (already mapped), is part of the adipokine milieu linking psoriasis to the metabolic syndrome (insulin and cholesterol already mapped) and its systemic inflammation.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin sequesters iron to produce the anaemia of chronic disease that can accompany the systemic inflammation of severe psoriasis.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Selenium and skin oxidative defence: selenium supports the antioxidant selenoprotein defence of the skin, and low selenium status, common in psoriasis, is part of the oxidative and immune imbalance of the inflamed skin.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
