@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/03-molecular/leptin
     relation: connects-to
     note: "Marrow adipose crosstalk: the marrow adipocytes and their adipokine leptin signal to the clonal myeloid cells, part of the bone-marrow (already mapped) microenvironment of the myeloproliferative neoplasms."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "M2 inflammatory arm: IL-13, with IL-4 (already mapped), drives the M2 macrophage arm of the chronic inflammation (IL-6 and TNF already mapped) of the myeloproliferative marrow."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Marrow-adipocyte adipokine: adiponectin, with leptin (already mapped), from the marrow adipose tissue signals to the clonal myeloid cells of the bone-marrow (already mapped) microenvironment of the myeloproliferative neoplasms."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the inflammatory milieu of the myeloproliferative neoplasms."
 ---
 
 # Myeloproliferative Neoplasms
@@ -711,6 +720,9 @@ In PV and ET, JAK2 V617F also affects myeloid progenitors → granulocytosis and
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Iron restriction and anaemia: the hepcidin-mimetic rusfertide restricts iron (already mapped) to control the erythrocytosis of polycythaemia vera, while the raised hepcidin of chronic inflammation (IL-6 already mapped) contributes to the anaemia of myelofibrosis.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Inflammatory milieu: IL-4 and the M2 macrophage arm (IL-10 already mapped) shape the chronic inflammation (IL-6 and TNF already mapped) of the myeloproliferative marrow, part of the disease biology of the myeloproliferative neoplasms.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Marrow adipose crosstalk: the marrow adipocytes and their adipokine leptin signal to the clonal myeloid cells, part of the bone-marrow (already mapped) microenvironment of the myeloproliferative neoplasms.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — M2 inflammatory arm: IL-13, with IL-4 (already mapped), drives the M2 macrophage arm of the chronic inflammation (IL-6 and TNF already mapped) of the myeloproliferative marrow.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Marrow-adipocyte adipokine: adiponectin, with leptin (already mapped), from the marrow adipose tissue signals to the clonal myeloid cells of the bone-marrow (already mapped) microenvironment of the myeloproliferative neoplasms.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the inflammatory milieu of the myeloproliferative neoplasms.
 
 [^verstovsek-2012-comfort-i]: Verstovsek S, Mesa RA, Gotlib J, et al. A double-blind, placebo-controlled trial of ruxolitinib for myelofibrosis. *N Engl J Med.* 2012;366(9):799-807. [doi:10.1056/NEJMoa1110557](https://doi.org/10.1056/NEJMoa1110557) · [PubMed 22375971](https://pubmed.ncbi.nlm.nih.gov/22375971/)
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409002](https://doi.org/10.1056/NEJMoa1409002) · [PubMed 25426978](https://pubmed.ncbi.nlm.nih.gov/25426978/)

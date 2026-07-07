@@ -417,6 +417,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Metabolic adipokine: resistin, with leptin and adiponectin (already mapped), is part of the adipokine milieu of the metabolic dysregulation (insulin already mapped) associated with narcolepsy."
+  - target: 01-human/03-molecular/crh
+    relation: connects-to
+    note: "HPA-axis dysregulation: CRH, with the cortisol (already mapped) axis, reflects the hypothalamic-pituitary-adrenal and circadian dysregulation of the disrupted sleep-wake and stress response of narcolepsy."
+  - target: 01-human/03-molecular/acth
+    relation: connects-to
+    note: "Pituitary stress axis: ACTH, downstream of the CRH (already mapped), is part of the HPA-axis (cortisol already mapped) and circadian disturbance of narcolepsy."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Iron and dopaminergic sleep: iron is a cofactor for the dopamine (already mapped) synthesis, and iron deficiency is associated with the disrupted sleep and the periodic-limb-movement comorbidity of narcolepsy."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -690,6 +699,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper and monoamines: copper is the cofactor of dopamine-β-hydroxylase, which makes noradrenaline from dopamine (both already mapped), part of the monoamine wake-promoting systems that the orexin (already mapped) loss dysregulates in narcolepsy.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine dysregulation: adiponectin, with leptin (already mapped), is disturbed in the metabolic dysregulation of narcolepsy, the orexin loss shifting the adipokine balance toward the obesity common in the disorder.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Metabolic adipokine: resistin, with leptin and adiponectin (already mapped), is part of the adipokine milieu of the metabolic dysregulation (insulin already mapped) associated with narcolepsy.
+- `connects-to` → **[CRH](../../03-molecular/crh/README.md)** — HPA-axis dysregulation: CRH, with the cortisol (already mapped) axis, reflects the hypothalamic-pituitary-adrenal and circadian dysregulation of the disrupted sleep-wake and stress response of narcolepsy.
+- `connects-to` → **[ACTH](../../03-molecular/acth/README.md)** — Pituitary stress axis: ACTH, downstream of the CRH (already mapped), is part of the HPA-axis (cortisol already mapped) and circadian disturbance of narcolepsy.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron and dopaminergic sleep: iron is a cofactor for the dopamine (already mapped) synthesis, and iron deficiency is associated with the disrupted sleep and the periodic-limb-movement comorbidity of narcolepsy.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)
