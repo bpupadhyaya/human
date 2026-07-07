@@ -417,6 +417,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "Synaptic zinc: zinc modulates the glutamatergic (already mapped) synapses of the striatum, and the zinc dyshomeostasis of Huntington's disease contributes, with iron and copper (already mapped), to the metal-linked excitotoxic neurodegeneration."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Weight-loss adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the weight loss and metabolic (insulin already mapped) disturbance that are features of Huntington's disease."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "cGAS-STING neuroinflammation: type-I interferon, downstream of the cGAS-STING (already mapped) pathway activated by the mutant huntingtin (already mapped), drives the innate-immune neuroinflammation of Huntington's disease."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Hypermetabolism adipokine: resistin, with leptin and adiponectin (already mapped), is part of the adipokine milieu of the weight loss and hypermetabolism of Huntington's disease."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -601,3 +610,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Microglial polarisation: IL-4 polarises the microglia (already mapped) toward an anti-inflammatory M2 phenotype (IL-10 already mapped), the balance against the pro-inflammatory activation shaping the neuroinflammation of Huntington's disease.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 neuroimmunity: IL-13, with IL-4 (already mapped), supports the M2 microglial arm whose balance against the pro-inflammatory signals (TNF, IL-1 and IL-6 already mapped) shapes the neurodegeneration of Huntington's disease.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Synaptic zinc: zinc modulates the glutamatergic (already mapped) synapses of the striatum, and the zinc dyshomeostasis of Huntington's disease contributes, with iron and copper (already mapped), to the metal-linked excitotoxic neurodegeneration.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Weight-loss adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the weight loss and metabolic (insulin already mapped) disturbance that are features of Huntington's disease.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — cGAS-STING neuroinflammation: type-I interferon, downstream of the cGAS-STING (already mapped) pathway activated by the mutant huntingtin (already mapped), drives the innate-immune neuroinflammation of Huntington's disease.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Hypermetabolism adipokine: resistin, with leptin and adiponectin (already mapped), is part of the adipokine milieu of the weight loss and hypermetabolism of Huntington's disease.

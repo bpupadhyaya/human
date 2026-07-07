@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Adipokine microenvironment: adiponectin, with leptin (already mapped), links the metabolic and adipose state to the systemic inflammation of Hodgkin lymphoma, part of its metabolic dimension."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Cachexia adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the systemic inflammation (IL-6 already mapped) and the B-symptom cachexia of Hodgkin lymphoma."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate microenvironment: type-I interferon is part of the innate-immune signalling of the EBV (LMP1 already mapped)-associated and checkpoint-responsive (PD-1 already mapped) microenvironment of Hodgkin lymphoma."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Zinc and immune dysfunction: zinc is essential for the lymphocyte and immune function, and disturbed zinc status accompanies the immune dysfunction and cachexia of Hodgkin lymphoma."
 ---
 
 # Hodgkin Lymphoma
@@ -689,6 +698,9 @@ Modern protocols minimize RT fields and doses (ISRT replacing extended-field RT)
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin sequesters iron and drives the anaemia of chronic disease (haemoglobin already mapped) common in active Hodgkin lymphoma.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — B-symptom cachexia: the systemic cytokines (TNF and IL-6 already mapped) of Hodgkin lymphoma disturb leptin and the adipokine balance, part of the weight loss and B-symptom cachexia of the disease.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine microenvironment: adiponectin, with leptin (already mapped), links the metabolic and adipose state to the systemic inflammation of Hodgkin lymphoma, part of its metabolic dimension.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Cachexia adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the systemic inflammation (IL-6 already mapped) and the B-symptom cachexia of Hodgkin lymphoma.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate microenvironment: type-I interferon is part of the innate-immune signalling of the EBV (LMP1 already mapped)-associated and checkpoint-responsive (PD-1 already mapped) microenvironment of Hodgkin lymphoma.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and immune dysfunction: zinc is essential for the lymphocyte and immune function, and disturbed zinc status accompanies the immune dysfunction and cachexia of Hodgkin lymphoma.
 
 [^connors-2018-echelon1]: Connors JM, Jurczak W, Straus DJ, et al. Brentuximab vedotin with chemotherapy for stage III or IV Hodgkin's lymphoma. *N Engl J Med.* 2018;378(4):331-344. [doi:10.1056/NEJMoa1708984](https://doi.org/10.1056/NEJMoa1708984) · [PubMed 29360494](https://pubmed.ncbi.nlm.nih.gov/29360494/)
 [^armand-2018-nivo-hl]: Armand P, Engert A, Younes A, et al. Nivolumab for relapsed/refractory classic Hodgkin lymphoma after failure of autologous hematopoietic cell transplantation: extended follow-up of the multicohort single-arm phase II CheckMate 205 trial. *J Clin Oncol.* 2018;36(14):1428-1439. [doi:10.1200/JCO.2017.77.6717](https://doi.org/10.1200/JCO.2017.77.6717) · [PubMed 29584546](https://pubmed.ncbi.nlm.nih.gov/29584546/)
