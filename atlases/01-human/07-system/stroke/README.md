@@ -442,6 +442,15 @@ cross_links:
   - target: 01-human/03-molecular/leptin
     relation: connects-to
     note: "Adipokine and stroke: leptin links obesity to the stroke risk, and has neuroprotective and reparative actions on the ischaemic brain, part of the metabolic dimension of stroke."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Blood-brain barrier: the endothelial/BBB breakdown (aquaporin-4 and VEGF already mapped) drives the vasogenic oedema and the haemorrhagic transformation of the ischaemic stroke."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Thrombus platelets: the platelets form the arterial thrombus (thrombin and fibrinogen already mapped) of the ischaemic stroke, the antiplatelet (aspirin, clopidogrel) target."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Excitotoxic calcium: the glutamate (already mapped)-driven calcium influx triggers the excitotoxic neuronal (already mapped) death of the ischaemic penumbra of stroke."
 ---
 
 # Stroke
@@ -687,6 +696,9 @@ Normal brain maintains CBF constant (50-150 mmHg MAP range) via autoregulation (
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Ferroptosis and haemorrhage: the iron-dependent lipid-peroxidation cell death (ferroptosis) of the ischaemic neurons, and the iron released by the haemoglobin breakdown after haemorrhagic stroke, drive the secondary neuronal injury.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Reparative type-2 arm: IL-13, with IL-4 (already mapped), supports the M2 microglial (already mapped) anti-inflammatory and reparative arm of the recovery after stroke.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adipokine and stroke: leptin links obesity to the stroke risk, and has neuroprotective and reparative actions on the ischaemic brain, part of the metabolic dimension of stroke.
+- `connects-to` → **[Endothelial cell](../../04-cellular/endothelial-cell/README.md)** — Blood-brain barrier: the endothelial/BBB breakdown (aquaporin-4 and VEGF already mapped) drives the vasogenic oedema and the haemorrhagic transformation of the ischaemic stroke.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Thrombus platelets: the platelets form the arterial thrombus (thrombin and fibrinogen already mapped) of the ischaemic stroke, the antiplatelet (aspirin, clopidogrel) target.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Excitotoxic calcium: the glutamate (already mapped)-driven calcium influx triggers the excitotoxic neuronal (already mapped) death of the ischaemic penumbra of stroke.
 
 [^powers-2019-aha-stroke]: Powers WJ, Rabinstein AA, Ackerson T, et al. Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines. *Stroke.* 2019;50(12):e344-e418. [doi:10.1161/STR.0000000000000211](https://doi.org/10.1161/STR.0000000000000211) · [PubMed 31662037](https://pubmed.ncbi.nlm.nih.gov/31662037/)
 [^feigin-2021-gbd-stroke]: Feigin VL, Krishnamurthi RV, Parmar P, et al. Update on the Global Burden of Ischemic and Hemorrhagic Stroke in 1990-2013. *Neuroepidemiology.* 2015;45(3):161-176. [doi:10.1159/000441085](https://doi.org/10.1159/000441085) · [PubMed 26505981](https://pubmed.ncbi.nlm.nih.gov/26505981/)

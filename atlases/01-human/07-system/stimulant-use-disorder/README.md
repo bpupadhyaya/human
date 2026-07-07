@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Metabolic-cardiovascular adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic and cardiovascular (cholesterol already mapped) toxicity of stimulant use disorder."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the metabolic-cardiovascular (cholesterol already mapped) toxicity of stimulant use disorder."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Dopaminergic neurotoxicity: the methamphetamine damages the dopaminergic (already mapped) and serotonergic neurons (the terminal loss), the neurotoxicity of stimulant use disorder."
+  - target: 01-human/07-system/opioid-use-disorder
+    relation: connects-to
+    note: "Polysubstance comorbidity: the stimulant and opioid use disorders commonly co-occur (the 'speedball', the stimulant-adulterated opioid supply), the shared reward-circuit (dopamine already mapped) vulnerability."
 ---
 
 # Stimulant Use Disorder
@@ -701,6 +710,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Neuroimmune balance: IL-13, with IL-4 (already mapped), supports the M2 microglia (already mapped) and the anti-inflammatory arm balancing the neuroinflammation (TLR4, TNF and IL-1 already mapped) of the methamphetamine neurotoxicity of stimulant use disorder.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adipokine and reward: leptin modulates the reward (dopamine already mapped) circuitry and the appetite suppression of the stimulants, part of the metabolic-reward crosstalk of stimulant use disorder.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic-cardiovascular adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic and cardiovascular (cholesterol already mapped) toxicity of stimulant use disorder.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the metabolic-cardiovascular (cholesterol already mapped) toxicity of stimulant use disorder.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Dopaminergic neurotoxicity: the methamphetamine damages the dopaminergic (already mapped) and serotonergic neurons (the terminal loss), the neurotoxicity of stimulant use disorder.
+- `connects-to` → **[Opioid use disorder](../opioid-use-disorder/README.md)** — Polysubstance comorbidity: the stimulant and opioid use disorders commonly co-occur (the 'speedball', the stimulant-adulterated opioid supply), the shared reward-circuit (dopamine already mapped) vulnerability.
 
 ## Treatment
 
