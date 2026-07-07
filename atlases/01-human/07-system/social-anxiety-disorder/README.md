@@ -424,6 +424,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative stress: heightened oxidative stress, to which xanthine oxidase contributes, is reported in anxiety disorders (NRF2 already mapped), and the resulting reactive oxygen species may affect the neurons of the fear circuitry."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Neuroimmune balance: the anti-inflammatory IL-4, with IL-10 (already mapped), counters the pro-inflammatory cytokines (IL-6, TNF and IL-1 already mapped) of the low-grade neuroinflammation reported in social anxiety disorder."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 neuroimmunity: IL-13, with IL-4 (already mapped), is part of the type-2 response whose balance against the pro-inflammatory signals shapes the neuroinflammatory dimension of social anxiety disorder."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Copper and noradrenaline: copper is the cofactor of dopamine-β-hydroxylase, which makes noradrenaline from dopamine (both already mapped), linking copper handling to the noradrenergic arousal (beta1-adrenergic receptor already mapped) of social anxiety disorder."
 ---
 
 # Social Anxiety Disorder
@@ -689,6 +698,9 @@ The unique **dopaminergic social reward deficit** in SAD has clinical implicatio
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Cardiometabolic burden: the chronic stress and insulin resistance (insulin already mapped) of long-standing social anxiety disorder shift cholesterol handling toward an atherogenic profile, part of its raised cardiovascular risk.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Neuroinflammatory eicosanoids: prostaglandins from the low-grade neuroinflammation (IL-6, TNF and IL-1 already mapped) reported in anxiety modulate the fear and social-threat circuits implicated in social anxiety disorder.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative stress: heightened oxidative stress, to which xanthine oxidase contributes, is reported in anxiety disorders (NRF2 already mapped), and the resulting reactive oxygen species may affect the neurons of the fear circuitry.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Neuroimmune balance: the anti-inflammatory IL-4, with IL-10 (already mapped), counters the pro-inflammatory cytokines (IL-6, TNF and IL-1 already mapped) of the low-grade neuroinflammation reported in social anxiety disorder.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 neuroimmunity: IL-13, with IL-4 (already mapped), is part of the type-2 response whose balance against the pro-inflammatory signals shapes the neuroinflammatory dimension of social anxiety disorder.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper and noradrenaline: copper is the cofactor of dopamine-β-hydroxylase, which makes noradrenaline from dopamine (both already mapped), linking copper handling to the noradrenergic arousal (beta1-adrenergic receptor already mapped) of social anxiety disorder.
 
 [^liebowitz-1987-sad-scale]: Liebowitz MR. Social phobia. *Mod Probl Pharmacopsychiatry.* 1987;22:141-173. [PubMed 2885745](https://pubmed.ncbi.nlm.nih.gov/2885745/)
 [^stein-2008-sad-review]: Stein MB, Stein DJ. Social anxiety disorder. *Lancet.* 2008;371(9618):1115-1125. [doi:10.1016/S0140-6736(08)60488-2](https://doi.org/10.1016/S0140-6736(08)60488-2) · [PubMed 18374843](https://pubmed.ncbi.nlm.nih.gov/18374843/)

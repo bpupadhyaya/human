@@ -424,6 +424,15 @@ cross_links:
   - target: 01-human/03-molecular/bradykinin
     relation: connects-to
     note: "Kinin pain and permeability: bradykinin generated in the ischaemic, inflamed tissue of vaso-occlusion sensitises nociceptors and raises vascular permeability, contributing to the pain and swelling of the sickle cell crisis."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Compensatory erythropoiesis: the chronic haemolytic anaemia (haemoglobin already mapped) of sickle cell disease drives a high erythropoietin and reticulocytosis, the marrow expansion straining the skeleton and iron demand."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage milieu: IL-4 polarises macrophages toward an M2 phenotype (IL-10 already mapped) that clears the haemolysed red cells, part of the immune and haemolytic microenvironment of sickle cell disease."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Growth and metabolism: leptin and the altered energy balance reflect the growth delay and raised metabolic expenditure of sickle cell disease, driven by the chronic haemolysis and inflammation (IL-6 already mapped)."
 ---
 
 # Sickle Cell Disease
@@ -718,6 +727,9 @@ SCD vaso-occlusion is not just from sickled RBCs mechanically blocking vessels �
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — Neurogenic pain: substance P released from sensory nerves contributes to the central and peripheral sensitisation of the sickle vaso-occlusive pain crisis (mu-opioid receptor already mapped), part of the neurogenic component of the intractable pain.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Inflammatory crisis pain: prostaglandins from the inflammation of vaso-occlusion (IL-6, TNF and IL-1 already mapped) drive the pain of the sickle crisis, and non-steroidal anti-inflammatory drugs are used alongside opioids in its management.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin pain and permeability: bradykinin generated in the ischaemic, inflamed tissue of vaso-occlusion sensitises nociceptors and raises vascular permeability, contributing to the pain and swelling of the sickle cell crisis.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Compensatory erythropoiesis: the chronic haemolytic anaemia (haemoglobin already mapped) of sickle cell disease drives a high erythropoietin and reticulocytosis, the marrow expansion straining the skeleton and iron demand.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage milieu: IL-4 polarises macrophages toward an M2 phenotype (IL-10 already mapped) that clears the haemolysed red cells, part of the immune and haemolytic microenvironment of sickle cell disease.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Growth and metabolism: leptin and the altered energy balance reflect the growth delay and raised metabolic expenditure of sickle cell disease, driven by the chronic haemolysis and inflammation (IL-6 already mapped).
 
 [^steinberg-1999-scd-management]: Steinberg MH. Management of sickle cell disease. *N Engl J Med.* 1999;340(13):1021-1030. [doi:10.1056/NEJM199904013401307](https://doi.org/10.1056/NEJM199904013401307) · [PubMed 10099145](https://pubmed.ncbi.nlm.nih.gov/10099145/)
 [^vichinsky-2000-acs-scd]: Vichinsky EP, Neumayr LD, Earles AN, et al. Causes and outcomes of the acute chest syndrome in sickle cell disease. *N Engl J Med.* 2000;342(25):1855-1865. [doi:10.1056/NEJM200006223422502](https://doi.org/10.1056/NEJM200006223422502) · [PubMed 10861320](https://pubmed.ncbi.nlm.nih.gov/10861320/)
