@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/06-organ/small-intestine
     relation: connects-to
     note: "Peritoneal spread: the peritoneal mesothelioma also envelops the small intestine, the mesothelial lining of the peritoneal cavity coating the bowel loops in the diffuse peritoneal form."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Omental adipose adipokine: leptin from the omental and peritoneal adipose tissue signals to the peritoneal mesothelioma, part of the metabolic microenvironment of the tumour."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Peritoneal adipokine: adiponectin, with leptin (already mapped), from the omental and peritoneal adipose signals within the microenvironment of peritoneal mesothelioma."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the peritoneal mesothelioma microenvironment."
 ---
 
 # Mesothelioma
@@ -686,6 +695,9 @@ Cytoreductive surgery (CRS) + hyperthermic intraperitoneal chemotherapy (HIPEC):
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage (already mapped) and type-2 milieu of the immunosuppressive microenvironment of mesothelioma.
 - `connects-to` → **[Large intestine](../../06-organ/large-intestine/README.md)** — Peritoneal mesothelioma: the peritoneal mesothelium lining the large intestine is the second commonest site of mesothelioma, the peritoneal form treated with cytoreductive surgery and heated intraperitoneal chemotherapy.
 - `connects-to` → **[Small intestine](../../06-organ/small-intestine/README.md)** — Peritoneal spread: the peritoneal mesothelioma also envelops the small intestine, the mesothelial lining of the peritoneal cavity coating the bowel loops in the diffuse peritoneal form.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Omental adipose adipokine: leptin from the omental and peritoneal adipose tissue signals to the peritoneal mesothelioma, part of the metabolic microenvironment of the tumour.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Peritoneal adipokine: adiponectin, with leptin (already mapped), from the omental and peritoneal adipose signals within the microenvironment of peritoneal mesothelioma.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the peritoneal mesothelioma microenvironment.
 
 [^baas-2021-checkmate743]: Baas P, Scherpereel A, Nowak AK, et al. First-line nivolumab plus ipilimumab in unresectable malignant pleural mesothelioma (CheckMate 743). *Lancet.* 2021;397(10272):375-386. [doi:10.1016/S0140-6736(20)32714-8](https://doi.org/10.1016/S0140-6736(20)32714-8) · [PubMed 33485464](https://pubmed.ncbi.nlm.nih.gov/33485464/)
 [^vogelzang-2003-pemetrexed]: Vogelzang NJ, Rusthoven JJ, Symanowski J, et al. Phase III study of pemetrexed in combination with cisplatin versus cisplatin alone in patients with malignant pleural mesothelioma. *J Clin Oncol.* 2003;21(14):2636-2644. [doi:10.1200/JCO.2003.11.136](https://doi.org/10.1200/JCO.2003.11.136) · [PubMed 12860938](https://pubmed.ncbi.nlm.nih.gov/12860938/)

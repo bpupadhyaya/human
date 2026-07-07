@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/05-tissue/cortical-bone
     relation: connects-to
     note: "Bone invasion: the aggressive malignant peripheral nerve sheath tumour invades the adjacent bone, and the paraspinal tumours can erode the vertebrae, part of its locally destructive behaviour."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Fibro-adipose adipokine: leptin from the fibro-adipose context of the plexiform neurofibroma from which MPNST arises signals to the tumour, part of its metabolic microenvironment."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Microenvironment adipokine: adiponectin, with leptin (already mapped), from the fibro-adipose microenvironment signals within the malignant peripheral nerve sheath tumour."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the microenvironment of malignant peripheral nerve sheath tumour."
 ---
 
 # MPNST
@@ -699,6 +708,9 @@ Wide local excision with negative margins is the only potentially curative inter
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage (already mapped) and type-2 milieu of the immunosuppressive microenvironment of the malignant peripheral nerve sheath tumour.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Chemotherapy anaemia: the myelosuppressive chemotherapy and the tumour burden of malignant peripheral nerve sheath tumour cause anaemia (haemoglobin already mapped) needing transfusion, whose repeated support can load the body with iron.
 - `connects-to` → **[Cortical bone](../../05-tissue/cortical-bone/README.md)** — Bone invasion: the aggressive malignant peripheral nerve sheath tumour invades the adjacent bone, and the paraspinal tumours can erode the vertebrae, part of its locally destructive behaviour.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Fibro-adipose adipokine: leptin from the fibro-adipose context of the plexiform neurofibroma from which MPNST arises signals to the tumour, part of its metabolic microenvironment.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Microenvironment adipokine: adiponectin, with leptin (already mapped), from the fibro-adipose microenvironment signals within the malignant peripheral nerve sheath tumour.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the microenvironment of malignant peripheral nerve sheath tumour.
 
 [^evans-2002-mpnst-nf1]: Evans DGR, Baser ME, McGaughran J, et al. Malignant peripheral nerve sheath tumours in neurofibromatosis 1. *J Med Genet.* 2002;39(5):311-314. [doi:10.1136/jmg.39.5.311](https://doi.org/10.1136/jmg.39.5.311) · [PubMed 12011145](https://pubmed.ncbi.nlm.nih.gov/12011145/)
 [^lee-2014-mpnst-prc2]: Lee W, Teckie S, Wiesner T, et al. PRC2 is recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve sheath tumors. *Nat Genet.* 2014;46(11):1227-1232. [doi:10.1038/ng.3095](https://doi.org/10.1038/ng.3095) · [PubMed 25240281](https://pubmed.ncbi.nlm.nih.gov/25240281/)
