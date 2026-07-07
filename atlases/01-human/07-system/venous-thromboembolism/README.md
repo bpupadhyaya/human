@@ -424,6 +424,15 @@ cross_links:
   - target: 01-human/03-molecular/serotonin
     relation: connects-to
     note: "Platelet serotonin: serotonin released from activated platelets (PF4 already mapped) causes vasoconstriction and amplifies platelet aggregation, contributing to the thrombus formation and propagation of venous thromboembolism."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Thrombo-inflammation balance: IL-4 and the M2 anti-inflammatory arm (IL-10 already mapped) counter the pro-inflammatory signals (IL-6, TNF and IL-1 already mapped) of the immunothrombosis that amplifies venous thromboembolism."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Platelet zinc and coagulation: zinc released from the activated platelets (already mapped) promotes the contact pathway and fibrin formation (fibrinogen and thrombin already mapped), adding to the clotting tendency in venous thromboembolism."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Metabolic prothrombotic risk: dyslipidaemia and the metabolic syndrome (leptin and insulin already mapped) add an acquired hypercoagulable state, and raised cholesterol contributes to the venous as well as arterial thrombotic risk."
 ---
 
 # Venous Thromboembolism
@@ -678,6 +687,9 @@ cross_links:
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative thrombogenesis: the stasis and hypoxia of the venous thrombus generate reactive oxygen species, to which xanthine oxidase contributes, promoting the endothelial (already mapped) dysfunction and thrombo-inflammation that propagate venous thromboembolism.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Thrombo-inflammation balance: coagulation and inflammation are intertwined, and the anti-inflammatory IL-10 opposes the pro-inflammatory signals (IL-6, TNF and IL-1 already mapped) that amplify the immunothrombosis of venous thromboembolism.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Platelet serotonin: serotonin released from activated platelets (PF4 already mapped) causes vasoconstriction and amplifies platelet aggregation, contributing to the thrombus formation and propagation of venous thromboembolism.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Thrombo-inflammation balance: IL-4 and the M2 anti-inflammatory arm (IL-10 already mapped) counter the pro-inflammatory signals (IL-6, TNF and IL-1 already mapped) of the immunothrombosis that amplifies venous thromboembolism.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Platelet zinc and coagulation: zinc released from the activated platelets (already mapped) promotes the contact pathway and fibrin formation (fibrinogen and thrombin already mapped), adding to the clotting tendency in venous thromboembolism.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Metabolic prothrombotic risk: dyslipidaemia and the metabolic syndrome (leptin and insulin already mapped) add an acquired hypercoagulable state, and raised cholesterol contributes to the venous as well as arterial thrombotic risk.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)
