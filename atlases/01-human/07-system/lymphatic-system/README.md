@@ -419,6 +419,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "Pulmonary lymphatics and chyle: the lungs are drained by a rich lymphatic network, and disruption of the thoracic duct spills lymph as a chylothorax, illustrating the lymphatic transport of fat-laden chyle."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 lymphatic remodelling: IL-13, with IL-4 (already mapped), is the type-2 cytokine that, alongside the lymphangiogenic VEGF (already mapped), drives the lymphatic remodelling seen in filariasis and chronic inflammation of the lymphatic system."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Lympho-adipose crosstalk: adiponectin, with leptin (already mapped), mediates the crosstalk between the lymphatic vessels and the perinodal and subcutaneous adipose tissue that supports lymphatic function."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipokine milieu: resistin, with leptin and adiponectin (already mapped), is part of the adipokine milieu of the fat surrounding the lymphatics and lymph nodes, linking metabolism to lymphatic and immune function."
 ---
 
 # Lymphatic System
@@ -662,6 +671,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Perilymphatic immunity: mast cells cluster around lymphatic vessels, releasing histamine (already mapped) and mediators that regulate lymphatic contractility and permeability, part of the immune surveillance woven through the lymphatic system.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Hepatic lymph: the liver produces a large fraction of the body's lymph from the sinusoidal fluid, and when hepatic lymph outstrips drainage in cirrhosis or heart failure it forms ascites, a major output of the lymphatic system.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Pulmonary lymphatics and chyle: the lungs are drained by a rich lymphatic network, and disruption of the thoracic duct spills lymph as a chylothorax, illustrating the lymphatic transport of fat-laden chyle.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 lymphatic remodelling: IL-13, with IL-4 (already mapped), is the type-2 cytokine that, alongside the lymphangiogenic VEGF (already mapped), drives the lymphatic remodelling seen in filariasis and chronic inflammation of the lymphatic system.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Lympho-adipose crosstalk: adiponectin, with leptin (already mapped), mediates the crosstalk between the lymphatic vessels and the perinodal and subcutaneous adipose tissue that supports lymphatic function.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine milieu: resistin, with leptin and adiponectin (already mapped), is part of the adipokine milieu of the fat surrounding the lymphatics and lymph nodes, linking metabolism to lymphatic and immune function.
 
 ## Pathology
 

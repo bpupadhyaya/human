@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative carcinogenesis: chronic colonic inflammation generates oxidative stress, to which xanthine oxidase contributes, adding DNA damage that, atop the mismatch-repair defect (already mapped), speeds the carcinogenesis of Lynch syndrome."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the microenvironment of the Lynch-associated cancers, balanced against the strong anti-tumour immunity of the MSI-high tumours."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Obesity and cancer risk: the adipokine leptin links obesity to colorectal carcinogenesis (Wnt already mapped), a modifiable factor modulating the penetrance of the cancer risk in Lynch syndrome."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Dietary chemoprevention: dietary calcium reduces colorectal adenoma recurrence, binding the bile acids (cholesterol already mapped) that promote carcinogenesis, a modifiable factor in the risk reduction of Lynch syndrome."
 ---
 
 # Lynch Syndrome
@@ -695,6 +704,9 @@ MSI-H stage II CRC: adjuvant 5-FU/leucovorin does NOT improve OS (may be harmful
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage counterbalance: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped) that counterbalances the strong Th1 infiltrate (interferon-gamma already mapped) of the microsatellite-instable Lynch tumours.
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Bile acids and chemoprevention: dietary fat and the bile acids derived from cholesterol promote colonic carcinogenesis, and this modifiable influence, alongside aspirin (prostaglandins already mapped), informs the risk reduction in Lynch syndrome.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative carcinogenesis: chronic colonic inflammation generates oxidative stress, to which xanthine oxidase contributes, adding DNA damage that, atop the mismatch-repair defect (already mapped), speeds the carcinogenesis of Lynch syndrome.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the microenvironment of the Lynch-associated cancers, balanced against the strong anti-tumour immunity of the MSI-high tumours.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Obesity and cancer risk: the adipokine leptin links obesity to colorectal carcinogenesis (Wnt already mapped), a modifiable factor modulating the penetrance of the cancer risk in Lynch syndrome.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Dietary chemoprevention: dietary calcium reduces colorectal adenoma recurrence, binding the bile acids (cholesterol already mapped) that promote carcinogenesis, a modifiable factor in the risk reduction of Lynch syndrome.
 
 [^bonadona-2011-lynch-risks]: Bonadona V, Bonaïti B, Olschwang S, et al. Cancer risks associated with germline mutations in MLH1, MSH2, and MSH6 genes in Lynch syndrome. *JAMA.* 2011;305(22):2304-2310. [doi:10.1001/jama.2011.743](https://doi.org/10.1001/jama.2011.743) · [PubMed 21642683](https://pubmed.ncbi.nlm.nih.gov/21642683/)
 [^lynch-2015-lynch-review]: Lynch HT, Snyder CL, Shaw TG, et al. Milestones of Lynch syndrome: 1895-2015. *Nat Rev Cancer.* 2015;15(3):181-194. [doi:10.1038/nrc3878](https://doi.org/10.1038/nrc3878) · [PubMed 25673086](https://pubmed.ncbi.nlm.nih.gov/25673086/)
