@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/02-atomic/chloride
     relation: connects-to
     note: "Diuretic mechanism: the thiazide and loop diuretics that treat hypertension block sodium-chloride cotransport (sodium already mapped), and the resulting chloride and volume loss lowers blood pressure, sometimes causing a hypochloraemic alkalosis."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "Endocrine hypertension: the adrenal gland's aldosterone (already mapped) in primary aldosteronism (Conn's) and its catecholamines (epinephrine already mapped) in phaeochromocytoma are the endocrine secondary causes of hypertension to screen for."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Central control and target organ: the brain sets the sympathetic (norepinephrine already mapped) drive to blood pressure, and it suffers the hypertensive stroke and encephalopathy that are the major target-organ damage of uncontrolled hypertension."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipokine hypertension: resistin, with leptin and the fall in adiponectin (already mapped), is a pro-inflammatory adipokine of the metabolic syndrome (insulin already mapped) that promotes the endothelial dysfunction and vascular inflammation raising blood pressure."
 ---
 
 # Hypertension
@@ -646,6 +655,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Metabolic clustering: hypertension clusters with dyslipidaemia in the metabolic syndrome (insulin, leptin and adiponectin already mapped), the raised cholesterol compounding the cardiovascular risk that drives combined blood-pressure and lipid treatment.
 - `connects-to` → **[PCSK9](../../03-molecular/pcsk9/README.md)** — Shared cardiovascular risk: the LDL-cholesterol handling governed by PCSK9 (cholesterol already mapped) is the co-target of cardiovascular prevention, statins and PCSK9 inhibitors treating the atherosclerotic risk that hypertension amplifies.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Diuretic mechanism: the thiazide and loop diuretics that treat hypertension block sodium-chloride cotransport (sodium already mapped), and the resulting chloride and volume loss lowers blood pressure, sometimes causing a hypochloraemic alkalosis.
+- `connects-to` → **[Adrenal gland](../../06-organ/adrenal-gland/README.md)** — Endocrine hypertension: the adrenal gland's aldosterone (already mapped) in primary aldosteronism (Conn's) and its catecholamines (epinephrine already mapped) in phaeochromocytoma are the endocrine secondary causes of hypertension to screen for.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Central control and target organ: the brain sets the sympathetic (norepinephrine already mapped) drive to blood pressure, and it suffers the hypertensive stroke and encephalopathy that are the major target-organ damage of uncontrolled hypertension.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine hypertension: resistin, with leptin and the fall in adiponectin (already mapped), is a pro-inflammatory adipokine of the metabolic syndrome (insulin already mapped) that promotes the endothelial dysfunction and vascular inflammation raising blood pressure.
 
 ## Pathology
 

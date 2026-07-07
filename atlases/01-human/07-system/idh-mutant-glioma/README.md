@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative and metabolic stress: the 2-hydroxyglutarate-driven metabolic rewiring of the IDH-mutant cell generates oxidative stress (NRF2 already mapped), to which xanthine oxidase contributes, part of the tumour microenvironment."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 microglial (already mapped) niche of the relatively cold immune microenvironment of IDH-mutant glioma."
+  - target: 01-human/03-molecular/acetylcholine
+    relation: connects-to
+    note: "Neuron-glioma signalling: alongside the glutamate and GABA (already mapped) synapses, cholinergic acetylcholine signalling is part of the neuronal activity that drives the growth of the electrically integrated IDH-mutant glioma."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "NMDA modulation: magnesium blocks the NMDA receptor and modulates the glutamate (already mapped) excitotoxicity and the neuron-glioma synaptic drive that promote the growth of IDH-mutant glioma."
 ---
 
 # IDH-Mutant Glioma
@@ -687,6 +696,9 @@ IDH-mutant glioma with MGMT methylation shows strong alkylating agent sensitivit
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Neuroinflammatory eicosanoids: prostaglandins from the tumour-associated microglia (already mapped) and the cyclooxygenase pathway contribute to the neuroinflammation (IL-6 and IL-1 already mapped) of the IDH-mutant glioma microenvironment.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 microglial polarisation: IL-4 polarises the tumour-associated microglia and macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune-evasive niche of IDH-mutant glioma.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative and metabolic stress: the 2-hydroxyglutarate-driven metabolic rewiring of the IDH-mutant cell generates oxidative stress (NRF2 already mapped), to which xanthine oxidase contributes, part of the tumour microenvironment.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 microglial (already mapped) niche of the relatively cold immune microenvironment of IDH-mutant glioma.
+- `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Neuron-glioma signalling: alongside the glutamate and GABA (already mapped) synapses, cholinergic acetylcholine signalling is part of the neuronal activity that drives the growth of the electrically integrated IDH-mutant glioma.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — NMDA modulation: magnesium blocks the NMDA receptor and modulates the glutamate (already mapped) excitotoxicity and the neuron-glioma synaptic drive that promote the growth of IDH-mutant glioma.
 
 [^mellinghoff-2023-vorasidenib-lgg]: Mellinghoff IK, van den Bent MJ, Blumenthal DT, et al. Vorasidenib in IDH1- or IDH2-mutant low-grade glioma. *N Engl J Med.* 2023;389(7):589-601. [doi:10.1056/NEJMoa2304194](https://doi.org/10.1056/NEJMoa2304194) · [PubMed 37272530](https://pubmed.ncbi.nlm.nih.gov/37272530/)
 [^jiao-2012-atrx-glioma]: Jiao Y, Killela PJ, Reitman ZJ, et al. Frequent ATRX, CIC, FUBP1 and IDH mutations refine the classification of malignant gliomas. *Oncotarget.* 2012;3(7):709-722. [doi:10.18632/oncotarget.588](https://doi.org/10.18632/oncotarget.588) · [PubMed 22869205](https://pubmed.ncbi.nlm.nih.gov/22869205/)
