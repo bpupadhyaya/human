@@ -418,6 +418,15 @@ cross_links:
   - target: 01-human/03-molecular/cgrp
     relation: connects-to
     note: "Neurogenic inflammation: CGRP released from airway sensory nerves, with substance-P-type neuropeptides, contributes to the neurogenic inflammation and cough of influenza, part of the neuro-immune dimension of the respiratory infection."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Selenium and virulence: selenium deficiency increases the virulence of influenza and worsens the disease, the antioxidant selenoproteins limiting the viral mutation and the oxidative lung injury (xanthine oxidase already mapped) of infection."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Zinc and antiviral immunity: zinc supports the interferon (already mapped) antiviral response and impairs influenza replication, and zinc status influences the immunity that determines the severity of infection."
+  - target: 03-medicine/03-food/omega-3-fatty-acids
+    relation: connects-to
+    note: "Omega-3 inflammation resolution: the omega-3 fatty acids give rise to pro-resolving mediators such as protectin D1 that limit the excessive lung inflammation (prostaglandins already mapped) of severe influenza, aiding recovery."
 ---
 
 # Influenza
@@ -687,3 +696,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Respiratory acidosis: in severe influenza pneumonia and acute respiratory distress, failing gas exchange retains carbon dioxide, and the accumulation of protons produces the respiratory acidosis that signals impending respiratory failure.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-mediated inflammation: bradykinin generated in the influenza-infected airway raises vascular permeability and stimulates the mucus and inflammation that obstruct the airways, part of the kinin contribution to the respiratory symptoms.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Neurogenic inflammation: CGRP released from airway sensory nerves, with substance-P-type neuropeptides, contributes to the neurogenic inflammation and cough of influenza, part of the neuro-immune dimension of the respiratory infection.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Selenium and virulence: selenium deficiency increases the virulence of influenza and worsens the disease, the antioxidant selenoproteins limiting the viral mutation and the oxidative lung injury (xanthine oxidase already mapped) of infection.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and antiviral immunity: zinc supports the interferon (already mapped) antiviral response and impairs influenza replication, and zinc status influences the immunity that determines the severity of infection.
+- `connects-to` → **[Omega-3 fatty acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Omega-3 inflammation resolution: the omega-3 fatty acids give rise to pro-resolving mediators such as protectin D1 that limit the excessive lung inflammation (prostaglandins already mapped) of severe influenza, aiding recovery.

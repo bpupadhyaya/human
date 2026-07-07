@@ -418,6 +418,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative immune activation: the persistent immune activation of AIDS generates oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species add to the tissue injury and accelerated ageing of the disease."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Selenium and mortality: selenium deficiency is common in AIDS and strongly predicts mortality, its antioxidant selenoproteins countering the oxidative immune activation (xanthine oxidase already mapped) of advanced disease."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Zinc and progression: zinc deficiency is common in AIDS and associated with faster progression and more opportunistic infections, reflecting zinc's role in the immune function depleted by the disease."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Immune-activation eicosanoids: prostaglandins from the chronic immune activation and inflammation (IL-6, TNF and IL-1 already mapped) of AIDS modulate the immune response and contribute to the persistent tissue injury of the disease."
 ---
 
 # HIV/AIDS
@@ -666,6 +675,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of AIDS: the chronic inflammation of advanced HIV raises hepcidin to sequester iron, and with marrow suppression, opportunistic infection and drug toxicity this produces the multifactorial anaemia (haemoglobin already mapped) common in AIDS.
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Metabolic paradox: advanced AIDS causes wasting, yet antiretroviral therapy and chronic immune activation disturb cholesterol handling toward an atherogenic profile, part of the metabolic and cardiovascular burden that persists on treatment.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative immune activation: the persistent immune activation of AIDS generates oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species add to the tissue injury and accelerated ageing of the disease.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Selenium and mortality: selenium deficiency is common in AIDS and strongly predicts mortality, its antioxidant selenoproteins countering the oxidative immune activation (xanthine oxidase already mapped) of advanced disease.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and progression: zinc deficiency is common in AIDS and associated with faster progression and more opportunistic infections, reflecting zinc's role in the immune function depleted by the disease.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Immune-activation eicosanoids: prostaglandins from the chronic immune activation and inflammation (IL-6, TNF and IL-1 already mapped) of AIDS modulate the immune response and contribute to the persistent tissue injury of the disease.
 
 ## See Also
 
