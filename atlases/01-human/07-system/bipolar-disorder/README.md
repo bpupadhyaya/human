@@ -427,6 +427,15 @@ cross_links:
   - target: 01-human/03-molecular/cholesterol
     relation: connects-to
     note: "Metabolic syndrome: bipolar disorder and its antipsychotic and mood-stabiliser treatment promote an atherogenic dyslipidaemia (insulin and leptin already mapped), part of the metabolic syndrome that raises its cardiovascular mortality."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Neuroimmune balance: the anti-inflammatory IL-4 counters the pro-inflammatory cytokines (IL-6, TNF and IL-1 already mapped) of the low-grade neuroinflammation reported in bipolar disorder, particularly during mood episodes."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Zinc and mood: zinc modulates the glutamatergic (already mapped) NMDA signalling, and low zinc status is reported in the depressive episodes of bipolar disorder, part of its trace-metal dimension."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Copper and monoamines: copper is the cofactor of dopamine-β-hydroxylase, which makes noradrenaline from dopamine (both already mapped), and disturbed copper-zinc (already mapped) balance is reported in the mood episodes of bipolar disorder."
 ---
 
 # Bipolar Disorder
@@ -693,6 +702,9 @@ During bipolar depression (often longer and more disabling than mania):
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Neuroinflammatory eicosanoids: prostaglandins from the low-grade neuroinflammation (IL-6, TNF and IL-1 already mapped) implicated in bipolar disorder modulate the mood circuits, part of the inflammatory neuroprogression of the illness.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Lithium diabetes insipidus: chronic lithium induces resistance to vasopressin in the kidney (already mapped), causing nephrogenic diabetes insipidus with polyuria, and vasopressin also participates in the HPA stress axis dysregulated in bipolar disorder.
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Metabolic syndrome: bipolar disorder and its antipsychotic and mood-stabiliser treatment promote an atherogenic dyslipidaemia (insulin and leptin already mapped), part of the metabolic syndrome that raises its cardiovascular mortality.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Neuroimmune balance: the anti-inflammatory IL-4 counters the pro-inflammatory cytokines (IL-6, TNF and IL-1 already mapped) of the low-grade neuroinflammation reported in bipolar disorder, particularly during mood episodes.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and mood: zinc modulates the glutamatergic (already mapped) NMDA signalling, and low zinc status is reported in the depressive episodes of bipolar disorder, part of its trace-metal dimension.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper and monoamines: copper is the cofactor of dopamine-β-hydroxylase, which makes noradrenaline from dopamine (both already mapped), and disturbed copper-zinc (already mapped) balance is reported in the mood episodes of bipolar disorder.
 
 [^grande-2016-bipolar-review]: Grande I, Berk M, Birmaher B, Vieta E. Bipolar disorder. *Lancet.* 2016;387(10027):1561-1572. [doi:10.1016/S0140-6736(15)00241-X](https://doi.org/10.1016/S0140-6736(15)00241-X) · [PubMed 26388529](https://pubmed.ncbi.nlm.nih.gov/26388529/)
 [^geddes-2013-bipolar-treatment]: Geddes JR, Miklowitz DJ. Treatment of bipolar disorder. *Lancet.* 2013;381(9878):1672-1682. [doi:10.1016/S0140-6736(13)60857-0](https://doi.org/10.1016/S0140-6736(13)60857-0) · [PubMed 23663953](https://pubmed.ncbi.nlm.nih.gov/23663953/)

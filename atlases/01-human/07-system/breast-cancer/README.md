@@ -424,6 +424,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative and lysis stress: the chemotherapy of breast cancer generates oxidative stress and cell lysis releasing purines that xanthine oxidase converts to uric acid, adding an oxidative and tumour-lysis burden to treatment."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune microenvironment of breast cancer outside the immunogenic triple-negative subset."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Anaemia of therapy: the chemotherapy and advanced disease of breast cancer cause anaemia (haemoglobin already mapped) that can require transfusion, whose repeated support can load the body with iron."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Obesity and breast cancer: obesity, through the adipokines leptin (already mapped) and the fall in adiponectin, and through the aromatase-driven oestrogen (already mapped), raises the risk and worsens the prognosis of postmenopausal breast cancer."
 ---
 
 # Breast Cancer
@@ -665,6 +674,9 @@ cross_links:
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Inflammation-estrogen link: cyclooxygenase-2-derived prostaglandin E2 in the breast tumour and adipose stroma induces aromatase and local estrogen (already mapped) synthesis, linking inflammation to the hormone drive of estrogen-receptor-positive breast cancer.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the tumour microenvironment dampens the anti-tumour T-cell response (PD-1 and CD8 already mapped), part of the immune evasion that limits checkpoint benefit outside the immunogenic triple-negative subset.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative and lysis stress: the chemotherapy of breast cancer generates oxidative stress and cell lysis releasing purines that xanthine oxidase converts to uric acid, adding an oxidative and tumour-lysis burden to treatment.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune microenvironment of breast cancer outside the immunogenic triple-negative subset.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Anaemia of therapy: the chemotherapy and advanced disease of breast cancer cause anaemia (haemoglobin already mapped) that can require transfusion, whose repeated support can load the body with iron.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Obesity and breast cancer: obesity, through the adipokines leptin (already mapped) and the fall in adiponectin, and through the aromatase-driven oestrogen (already mapped), raises the risk and worsens the prognosis of postmenopausal breast cancer.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
