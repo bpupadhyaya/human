@@ -427,6 +427,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Anaemia of malignancy: the chronic disease, gastrointestinal bleeding and chemotherapy of pancreatic cancer cause anaemia (haemoglobin already mapped) that can require transfusion, whose repeated support can load the body with iron."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage (already mapped) and type-2 milieu of the immune-excluded, cold desmoplastic microenvironment of pancreatic cancer."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Cancer cachexia: the profound weight loss and cancer cachexia (IL-6 and activin-A already mapped) of pancreatic cancer are reflected in the fall in the adipokine leptin as the adipose tissue is depleted."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic risk and cachexia: adiponectin, with leptin (already mapped), links the obesity and metabolic syndrome (insulin already mapped) that raise pancreatic-cancer risk to the adipose-tissue wasting of its cachexia."
 ---
 
 # Pancreatic Cancer
@@ -683,6 +692,9 @@ cross_links:
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — COX-2 carcinogenesis: cyclooxygenase-2 and prostaglandin E2 from the chronic pancreatitis and tumour inflammation (IL-6 and IL-1 already mapped) promote the proliferation and immunosuppression of the KRAS-driven (already mapped) carcinogenesis of pancreatic cancer.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped) in the dense desmoplastic stroma, part of the immune-excluded, cold microenvironment of pancreatic cancer.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Anaemia of malignancy: the chronic disease, gastrointestinal bleeding and chemotherapy of pancreatic cancer cause anaemia (haemoglobin already mapped) that can require transfusion, whose repeated support can load the body with iron.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage (already mapped) and type-2 milieu of the immune-excluded, cold desmoplastic microenvironment of pancreatic cancer.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Cancer cachexia: the profound weight loss and cancer cachexia (IL-6 and activin-A already mapped) of pancreatic cancer are reflected in the fall in the adipokine leptin as the adipose tissue is depleted.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic risk and cachexia: adiponectin, with leptin (already mapped), links the obesity and metabolic syndrome (insulin already mapped) that raise pancreatic-cancer risk to the adipose-tissue wasting of its cachexia.
 
 ---
 

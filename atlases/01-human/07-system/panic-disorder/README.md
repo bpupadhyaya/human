@@ -427,6 +427,15 @@ cross_links:
   - target: 01-human/03-molecular/ghrelin
     relation: connects-to
     note: "Stress and appetite: ghrelin rises with stress and modulates the HPA (cortisol already mapped) and fear responses, and its dysregulation, with leptin (already mapped), links the appetite-stress axis to the anxiety of panic disorder."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Neuroimmune balance: the anti-inflammatory IL-4, with IL-10 (already mapped), counters the pro-inflammatory cytokines (IL-6, TNF and IL-1 already mapped) of the low-grade neuroinflammation reported in panic and anxiety disorders."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Copper and noradrenaline: copper is the cofactor of dopamine-β-hydroxylase, which makes noradrenaline from dopamine (both already mapped), linking copper handling to the noradrenergic (locus coeruleus) arousal that drives panic attacks."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Zinc and NMDA: zinc modulates the glutamatergic (already mapped) NMDA receptors and has an anxiolytic role, and low zinc status is reported in anxiety disorders including panic disorder."
 ---
 
 # Panic Disorder
@@ -708,6 +717,9 @@ The **interoceptive fear conditioning model** (Bouton, Mineka, Barlow) explains 
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Metabolic association: panic disorder is associated with metabolic and cardiovascular findings, and the dyslipidaemia (insulin already mapped) that clusters with anxiety links lipid metabolism to the disorder and its cardiac risk.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adipokine-stress link: the adipokine leptin, part of the appetite and stress-axis signalling (insulin already mapped), is altered in anxiety disorders, a metabolic dimension of the dysregulated fear and autonomic responses of panic disorder.
 - `connects-to` → **[Ghrelin](../../03-molecular/ghrelin/README.md)** — Stress and appetite: ghrelin rises with stress and modulates the HPA (cortisol already mapped) and fear responses, and its dysregulation, with leptin (already mapped), links the appetite-stress axis to the anxiety of panic disorder.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Neuroimmune balance: the anti-inflammatory IL-4, with IL-10 (already mapped), counters the pro-inflammatory cytokines (IL-6, TNF and IL-1 already mapped) of the low-grade neuroinflammation reported in panic and anxiety disorders.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper and noradrenaline: copper is the cofactor of dopamine-β-hydroxylase, which makes noradrenaline from dopamine (both already mapped), linking copper handling to the noradrenergic (locus coeruleus) arousal that drives panic attacks.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and NMDA: zinc modulates the glutamatergic (already mapped) NMDA receptors and has an anxiolytic role, and low zinc status is reported in anxiety disorders including panic disorder.
 
 [^gorman-2000-panic-neurobiology]: Gorman JM, Kent JM, Sullivan GM, Coplan JD. Neuroanatomical hypothesis of panic disorder, revised. *Am J Psychiatry.* 2000;157(4):493-505. [doi:10.1176/appi.ajp.157.4.493](https://doi.org/10.1176/appi.ajp.157.4.493) · [PubMed 10739407](https://pubmed.ncbi.nlm.nih.gov/10739407/)
 [^nardi-2009-clonazepam-panic]: Nardi AE, Freire RC, Zin WA. Panic disorder and control of breathing. *Respir Physiol Neurobiol.* 2009;167(1):133-143. [doi:10.1016/j.resp.2008.07.011](https://doi.org/10.1016/j.resp.2008.07.011) · [PubMed 18708168](https://pubmed.ncbi.nlm.nih.gov/18708168/)
