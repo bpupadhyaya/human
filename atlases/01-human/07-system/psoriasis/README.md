@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Endothelial dysfunction: the chronic inflammation of psoriasis impairs endothelial nitric oxide, contributing to the vascular dysfunction and the increased cardiovascular events (troponin already mapped) that shorten life in severe disease."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Inflammatory eicosanoids: prostaglandins and other arachidonic-acid metabolites in the psoriatic plaque (IL-6 and TNF already mapped) contribute to the inflammation and vascular changes of the lesion, part of its eicosanoid dimension."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Type-2 counter-axis: IL-4 drives the type-2 immunity that opposes the Th17 (IL-17 and IL-23 already mapped) axis of psoriasis, and blocking IL-4 for atopic dermatitis can paradoxically unmask psoriasis, revealing the balance between the two."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Th2-Th17 balance: IL-13, with IL-4 (already mapped), defines the type-2 pole opposite the Th17 axis of psoriasis, the reciprocal relationship distinguishing it from the atopic dermatitis at the other end of the spectrum."
 ---
 
 # Psoriasis
@@ -670,6 +679,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Metabolic dyslipidaemia: psoriasis is associated with an atherogenic dyslipidaemia as part of its metabolic syndrome (leptin and adiponectin already mapped), contributing to the accelerated atherosclerosis (already mapped) and cardiovascular risk of severe disease.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Insulin resistance: the systemic inflammation of psoriasis (TNF and IL-6 already mapped) promotes insulin resistance, and psoriasis is associated with an increased risk of type 2 diabetes (already mapped), part of its metabolic comorbidity.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Endothelial dysfunction: the chronic inflammation of psoriasis impairs endothelial nitric oxide, contributing to the vascular dysfunction and the increased cardiovascular events (troponin already mapped) that shorten life in severe disease.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Inflammatory eicosanoids: prostaglandins and other arachidonic-acid metabolites in the psoriatic plaque (IL-6 and TNF already mapped) contribute to the inflammation and vascular changes of the lesion, part of its eicosanoid dimension.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Type-2 counter-axis: IL-4 drives the type-2 immunity that opposes the Th17 (IL-17 and IL-23 already mapped) axis of psoriasis, and blocking IL-4 for atopic dermatitis can paradoxically unmask psoriasis, revealing the balance between the two.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Th2-Th17 balance: IL-13, with IL-4 (already mapped), defines the type-2 pole opposite the Th17 axis of psoriasis, the reciprocal relationship distinguishing it from the atopic dermatitis at the other end of the spectrum.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

@@ -423,6 +423,15 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "Anti-inflammatory balance: the anti-inflammatory IL-10 counters the chronic low-grade inflammation (IL-6, TNF and IL-1 already mapped) of PTSD, and the imbalance toward pro-inflammatory signalling is part of its cardiometabolic and neuropsychiatric burden."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Neuroimmune balance: the anti-inflammatory IL-4, with IL-10 (already mapped), counters the pro-inflammatory cytokines (IL-6, TNF and IL-1 already mapped) of the low-grade neuroinflammation reported in PTSD."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Copper and noradrenaline: copper is the cofactor of dopamine-β-hydroxylase, which makes noradrenaline from dopamine (both already mapped), linking copper handling to the noradrenergic hyperarousal central to PTSD."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Zinc and fear memory: zinc modulates the glutamatergic (already mapped) NMDA signalling of the fear-memory circuits, and low zinc status is associated with the mood and anxiety symptoms that accompany PTSD."
 ---
 
 # PTSD
@@ -693,6 +702,9 @@ Not all trauma leads to PTSD. Risk and resilience factors include:
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Cardiometabolic dyslipidaemia: the chronic stress and insulin resistance (insulin already mapped) of PTSD shift cholesterol handling toward an atherogenic profile, part of the cardiometabolic burden that raises its long-term cardiovascular risk.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Neuroinflammatory eicosanoids: prostaglandins from the low-grade neuroinflammation (IL-6, TNF and IL-1 already mapped) reported in PTSD modulate the fear and stress circuits, part of the immune-inflammatory dimension of the disorder.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Anti-inflammatory balance: the anti-inflammatory IL-10 counters the chronic low-grade inflammation (IL-6, TNF and IL-1 already mapped) of PTSD, and the imbalance toward pro-inflammatory signalling is part of its cardiometabolic and neuropsychiatric burden.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Neuroimmune balance: the anti-inflammatory IL-4, with IL-10 (already mapped), counters the pro-inflammatory cytokines (IL-6, TNF and IL-1 already mapped) of the low-grade neuroinflammation reported in PTSD.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper and noradrenaline: copper is the cofactor of dopamine-β-hydroxylase, which makes noradrenaline from dopamine (both already mapped), linking copper handling to the noradrenergic hyperarousal central to PTSD.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and fear memory: zinc modulates the glutamatergic (already mapped) NMDA signalling of the fear-memory circuits, and low zinc status is associated with the mood and anxiety symptoms that accompany PTSD.
 
 [^yehuda-2015-ptsd-review]: Yehuda R, Hoge CW, McFarlane AC, et al. Post-traumatic stress disorder. *Nat Rev Dis Primers.* 2015;1:15057. [doi:10.1038/nrdp.2015.57](https://doi.org/10.1038/nrdp.2015.57) · [PubMed 27189040](https://pubmed.ncbi.nlm.nih.gov/27189040/)
 [^foa-2019-ptsd-treatments]: Foa EB, McLean CP. The efficacy of exposure therapy for anxiety and related disorders. *Annu Rev Clin Psychol.* 2016;12:1-28. [doi:10.1146/annurev-clinpsy-021815-093533](https://doi.org/10.1146/annurev-clinpsy-021815-093533) · [PubMed 26928206](https://pubmed.ncbi.nlm.nih.gov/26928206/)
