@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/prostaglandins
     relation: connects-to
     note: "Neuroinflammatory eicosanoids: prostaglandins from the activated microglia (already mapped) contribute to the neuroinflammation that drives dopaminergic neuron loss, and the cyclooxygenase pathway has been studied as a neuroprotective target in Parkinson's disease."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Nitrosative stress: nitric oxide from the activated microglia (already mapped) forms peroxynitrite that nitrosylates proteins and adds to the oxidative injury (ferroportin-linked iron already mapped) killing the dopaminergic neurons of Parkinson's disease."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Zinc dyshomeostasis: disturbed zinc handling in the substantia nigra, alongside the iron (already mapped) and copper accumulation, contributes to the metal-catalysed oxidative stress that damages the dopaminergic neurons of Parkinson's disease."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Magnesium neuroprotection: magnesium blocks the NMDA receptor and buffers the glutamate (already mapped) excitotoxicity on the vulnerable nigral neurons, a proposed neuroprotective factor in Parkinson's disease."
 ---
 
 # Parkinson's Disease
@@ -694,6 +703,9 @@ PD is primarily a disease of aging (mean onset ~60 years), but **~10–15% of ca
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Anti-inflammatory neuroprotection: IL-10, with IL-4 (already mapped), opposes the microglial pro-inflammatory response (TNF, IL-1 and IL-6 already mapped) driving dopaminergic neuron loss, and boosting this arm is a neuroprotective strategy in Parkinson's disease.
 - `connects-to` → **[Small intestine](../../06-organ/small-intestine/README.md)** — Enteric origin: alpha-synuclein pathology (already mapped) may begin in the enteric nervous system, and the small intestine, like the large intestine (already mapped), is affected early, with altered motility and the prodromal gut symptoms of Parkinson's disease.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Neuroinflammatory eicosanoids: prostaglandins from the activated microglia (already mapped) contribute to the neuroinflammation that drives dopaminergic neuron loss, and the cyclooxygenase pathway has been studied as a neuroprotective target in Parkinson's disease.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Nitrosative stress: nitric oxide from the activated microglia (already mapped) forms peroxynitrite that nitrosylates proteins and adds to the oxidative injury (ferroportin-linked iron already mapped) killing the dopaminergic neurons of Parkinson's disease.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc dyshomeostasis: disturbed zinc handling in the substantia nigra, alongside the iron (already mapped) and copper accumulation, contributes to the metal-catalysed oxidative stress that damages the dopaminergic neurons of Parkinson's disease.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium neuroprotection: magnesium blocks the NMDA receptor and buffers the glutamate (already mapped) excitotoxicity on the vulnerable nigral neurons, a proposed neuroprotective factor in Parkinson's disease.
 
 [^kalia-2015-pd-review]: Kalia LV, Lang AE. Parkinson's disease. *Lancet.* 2015;386(9996):896-912. [doi:10.1016/S0140-6736(14)61393-3](https://doi.org/10.1016/S0140-6736(14)61393-3) · [PubMed 25904081](https://pubmed.ncbi.nlm.nih.gov/25904081/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)

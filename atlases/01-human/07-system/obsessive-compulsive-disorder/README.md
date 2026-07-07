@@ -431,6 +431,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative stress: heightened oxidative stress, to which xanthine oxidase contributes, is reported in obsessive-compulsive disorder, and the resulting reactive oxygen species (NLRP3 already mapped) may affect the neurons of the affected circuits."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Neuroimmune balance: the anti-inflammatory IL-4, with IL-10 (already mapped), counters the pro-inflammatory cytokines (IL-6, TNF and IL-1 already mapped) of the low-grade neuroinflammation and PANDAS autoimmunity implicated in obsessive-compulsive disorder."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Copper and monoamines: copper is the cofactor of dopamine-β-hydroxylase, which makes noradrenaline from dopamine (both already mapped), linking copper handling to the monoamine signalling of the circuits implicated in obsessive-compulsive disorder."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Vitamin D and neuroimmunity: low vitamin D status has been reported in obsessive-compulsive disorder, and its modulation of neuroimmune and monoaminergic (serotonin already mapped) function is a proposed contributor."
 ---
 
 # Obsessive-Compulsive Disorder
@@ -693,6 +702,9 @@ OCD is often underdiagnosed due to shame and secrecy. Mean time from symptom ons
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immune counter-regulation: IL-10 opposes the pro-inflammatory signals (IL-6, TNF and IL-1 already mapped) implicated in obsessive-compulsive disorder and its autoimmune PANDAS subtype (complement already mapped), part of the immune dimension of the disorder.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Neuroinflammatory eicosanoids: prostaglandins from the low-grade neuroinflammation (IL-6 and IL-1 already mapped) modulate the cortico-striatal circuits implicated in obsessive-compulsive disorder, part of its immune-inflammatory contribution.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative stress: heightened oxidative stress, to which xanthine oxidase contributes, is reported in obsessive-compulsive disorder, and the resulting reactive oxygen species (NLRP3 already mapped) may affect the neurons of the affected circuits.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Neuroimmune balance: the anti-inflammatory IL-4, with IL-10 (already mapped), counters the pro-inflammatory cytokines (IL-6, TNF and IL-1 already mapped) of the low-grade neuroinflammation and PANDAS autoimmunity implicated in obsessive-compulsive disorder.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper and monoamines: copper is the cofactor of dopamine-β-hydroxylase, which makes noradrenaline from dopamine (both already mapped), linking copper handling to the monoamine signalling of the circuits implicated in obsessive-compulsive disorder.
+- `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D and neuroimmunity: low vitamin D status has been reported in obsessive-compulsive disorder, and its modulation of neuroimmune and monoaminergic (serotonin already mapped) function is a proposed contributor.
 
 [^abramowitz-2009-ocd-review]: Abramowitz JS, Taylor S, McKay D. Obsessive-compulsive disorder. *Lancet.* 2009;374(9688):491-499. [doi:10.1016/S0140-6736(09)60240-3](https://doi.org/10.1016/S0140-6736(09)60240-3) · [PubMed 19665647](https://pubmed.ncbi.nlm.nih.gov/19665647/)
 [^chamberlain-2008-ocd-neuroscience]: Chamberlain SR, Menzies L, Hampshire A, et al. Orbitofrontal dysfunction in patients with OCD and their unaffected relatives. *Science.* 2008;321(5887):421-422. [doi:10.1126/science.1154433](https://doi.org/10.1126/science.1154433) · [PubMed 18635808](https://pubmed.ncbi.nlm.nih.gov/18635808/)
