@@ -434,6 +434,15 @@ cross_links:
   - target: 03-medicine/03-food/omega-3-fatty-acids
     relation: connects-to
     note: "Omega-3 inflammation resolution: the omega-3 fatty acids give rise to pro-resolving mediators that limit the excessive lung (already mapped) inflammation (prostaglandins already mapped) of measles pneumonia, aiding recovery from the commonest fatal complication."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Malnutrition and immunity: adiponectin, with leptin (already mapped), links the malnutrition common in the endemic setting to the impaired immune response that determines the severity of measles."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 eosinophil arm: IL-5, with the Th2 cytokines (IL-4 and IL-13 already mapped), drives the eosinophil-associated type-2 response of the immune shift that accompanies the immunosuppression of measles."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipokine milieu: resistin, with leptin and adiponectin (already mapped), is part of the adipokine milieu of the malnutrition-immunity axis that shapes the susceptibility to and severity of measles."
 ---
 
 # Measles
@@ -717,6 +726,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and epithelial defence: zinc, with vitamin A, supports the epithelial integrity and the antiviral immunity against measles, and deficiency worsens the severity of the infection and its complications.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Selenium antioxidant defence: selenium and its selenoproteins support the antioxidant defence (xanthine oxidase and vitamin-A depletion already mapped) against the oxidative injury of measles, and deficiency aggravates the disease.
 - `connects-to` → **[Omega-3 fatty acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Omega-3 inflammation resolution: the omega-3 fatty acids give rise to pro-resolving mediators that limit the excessive lung (already mapped) inflammation (prostaglandins already mapped) of measles pneumonia, aiding recovery from the commonest fatal complication.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Malnutrition and immunity: adiponectin, with leptin (already mapped), links the malnutrition common in the endemic setting to the impaired immune response that determines the severity of measles.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 eosinophil arm: IL-5, with the Th2 cytokines (IL-4 and IL-13 already mapped), drives the eosinophil-associated type-2 response of the immune shift that accompanies the immunosuppression of measles.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine milieu: resistin, with leptin and adiponectin (already mapped), is part of the adipokine milieu of the malnutrition-immunity axis that shapes the susceptibility to and severity of measles.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)
