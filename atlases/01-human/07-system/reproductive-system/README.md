@@ -428,6 +428,15 @@ cross_links:
   - target: 01-human/07-system/endometrial-cancer
     relation: connects-to
     note: "Hormone-driven cancer: unopposed oestrogen (already mapped) drives endometrial cancer of the female reproductive tract, a hormone-dependent malignancy of the reproductive system's target organs."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Adipose-reproductive axis: adiponectin, with leptin (already mapped), links the body fat to the puberty, the fertility and the PCOS (insulin already mapped) of the reproductive system."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Metabolic-reproductive adipokine: resistin, with leptin and adiponectin (already mapped), is the adipokine of the metabolic-reproductive link (PCOS, insulin already mapped) of the reproductive system."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Uterine histamine: the histamine of the uterine and decidual mast cells modulates the implantation, the labour and the reproductive-tract vascular function of the reproductive system."
 ---
 
 # Reproductive System
@@ -680,6 +689,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Reproductive iron demand: hepcidin governs the iron (already mapped) balance stressed by the menstrual blood loss and, in pregnancy, the large iron demand of the growing fetus, linking reproduction to systemic iron handling.
 - `connects-to` → **[Nervous system](../nervous-system/README.md)** — Neuroendocrine control: the hypothalamic GnRH pulse generator of the nervous system (via the brain already mapped) drives the pituitary gonadotrophins that command the reproductive system, the neural control of reproduction.
 - `connects-to` → **[Endometrial cancer](../endometrial-cancer/README.md)** — Hormone-driven cancer: unopposed oestrogen (already mapped) drives endometrial cancer of the female reproductive tract, a hormone-dependent malignancy of the reproductive system's target organs.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipose-reproductive axis: adiponectin, with leptin (already mapped), links the body fat to the puberty, the fertility and the PCOS (insulin already mapped) of the reproductive system.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Metabolic-reproductive adipokine: resistin, with leptin and adiponectin (already mapped), is the adipokine of the metabolic-reproductive link (PCOS, insulin already mapped) of the reproductive system.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Uterine histamine: the histamine of the uterine and decidual mast cells modulates the implantation, the labour and the reproductive-tract vascular function of the reproductive system.
 
 ## Pathology
 

@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/05-tissue/cortical-bone
     relation: connects-to
     note: "Osteolytic metastasis: renal cell carcinoma is notable for its destructive, hypervascular osteolytic bone metastases (RANKL already mapped), causing pathological fractures and requiring targeted management."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Historical immunotherapy: interferon-α was the pre-TKI/checkpoint immunotherapy of metastatic renal cell carcinoma, and the type-I interferon shapes the immunogenicity of the clear-cell tumour."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the obesity risk (the obesity paradox) of renal cell carcinoma."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Paraneoplastic iron dysregulation: hepcidin, driven by the IL-6 (already mapped), produces the anaemia of chronic disease, while conversely the paraneoplastic erythropoietin (already mapped) causes polycythaemia in renal cell carcinoma."
 ---
 
 # Renal Cell Carcinoma
@@ -686,6 +695,9 @@ Kidney → primary site of EPO production under hypoxia; VHL-intact renal inters
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage (already mapped) and type-2 milieu of the immune microenvironment of renal cell carcinoma.
 - `connects-to` → **[Birt-Hogg-Dubé syndrome](../birt-hogg-dube-syndrome/README.md)** — Hereditary-RCC syndromes: Birt-Hogg-Dubé (FLCN already mapped), with VHL and HLRCC (already mapped), completes the group of hereditary renal cell carcinoma syndromes causing distinct RCC subtypes requiring surveillance.
 - `connects-to` → **[Cortical bone](../../05-tissue/cortical-bone/README.md)** — Osteolytic metastasis: renal cell carcinoma is notable for its destructive, hypervascular osteolytic bone metastases (RANKL already mapped), causing pathological fractures and requiring targeted management.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Historical immunotherapy: interferon-α was the pre-TKI/checkpoint immunotherapy of metastatic renal cell carcinoma, and the type-I interferon shapes the immunogenicity of the clear-cell tumour.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the obesity risk (the obesity paradox) of renal cell carcinoma.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Paraneoplastic iron dysregulation: hepcidin, driven by the IL-6 (already mapped), produces the anaemia of chronic disease, while conversely the paraneoplastic erythropoietin (already mapped) causes polycythaemia in renal cell carcinoma.
 
 [^motzer-2018-checkmate214]: Motzer RJ, Tannir NM, McDermott DF, et al. Nivolumab plus ipilimumab versus sunitinib in advanced renal-cell carcinoma. *N Engl J Med.* 2018;378(14):1277-1290. [doi:10.1056/NEJMoa1712126](https://doi.org/10.1056/NEJMoa1712126) · [PubMed 29562145](https://pubmed.ncbi.nlm.nih.gov/29562145/)
 [^rini-2019-keynote426]: Rini BI, Plimack ER, Stus V, et al. Pembrolizumab plus axitinib versus sunitinib for advanced renal-cell carcinoma. *N Engl J Med.* 2019;380(12):1116-1127. [doi:10.1056/NEJMoa1816714](https://doi.org/10.1056/NEJMoa1816714) · [PubMed 30779529](https://pubmed.ncbi.nlm.nih.gov/30779529/)
