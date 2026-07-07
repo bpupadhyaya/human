@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/leptin
     relation: connects-to
     note: "Cushing metabolic adipokine: leptin reflects the metabolic disturbance of the Cushing syndrome (cortisol already mapped) and the endocrine tumours of Carney complex."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "PPNAD: the primary pigmented nodular adrenocortical disease of the adrenal gland causes the ACTH-independent (cortisol and ACTH already mapped) Cushing syndrome of Carney complex."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "Thyroid tumours: the thyroid nodules and follicular tumours (thyroid-hormones already mapped) are part of the tumour spectrum of Carney complex."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 microenvironment: IL-13, with IL-4 (already mapped), drives the M2 tumour-associated macrophages of the endocrine and myxomatous tumours of Carney complex."
 ---
 
 # Carney Complex
@@ -701,6 +710,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Steroidogenesis substrate: cholesterol is the precursor of the cortisol, aldosterone and testosterone (all already mapped) over-produced by the PPNAD (adrenal already mapped) and the gonadal tumours of Carney complex.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 tumour microenvironment: IL-4 polarises the M2 tumour-associated macrophages of the immunosuppressive microenvironment of the endocrine and myxomatous tumours of Carney complex.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Cushing metabolic adipokine: leptin reflects the metabolic disturbance of the Cushing syndrome (cortisol already mapped) and the endocrine tumours of Carney complex.
+- `connects-to` → **[Adrenal gland](../../06-organ/adrenal-gland/README.md)** — PPNAD: the primary pigmented nodular adrenocortical disease of the adrenal gland causes the ACTH-independent (cortisol and ACTH already mapped) Cushing syndrome of Carney complex.
+- `connects-to` → **[Thyroid](../../06-organ/thyroid/README.md)** — Thyroid tumours: the thyroid nodules and follicular tumours (thyroid-hormones already mapped) are part of the tumour spectrum of Carney complex.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 microenvironment: IL-13, with IL-4 (already mapped), drives the M2 tumour-associated macrophages of the endocrine and myxomatous tumours of Carney complex.
 
 ---
 

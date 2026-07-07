@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/leptin
     relation: connects-to
     note: "Adipokine microenvironment: leptin signals from the adipose and marrow microenvironment to the aggressive lymphoma cells, part of the metabolic context (xanthine oxidase already mapped) of Burkitt lymphoma."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Adipokine microenvironment: adiponectin, with leptin (already mapped), is part of the adipose/marrow-microenvironment adipokine signalling to the aggressive Burkitt lymphoma cells."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipokine microenvironment: resistin, with leptin and adiponectin (already mapped), completes the adipokine dimension of the microenvironment of Burkitt lymphoma."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "EBV antiviral interferon: the type-I interferon antiviral response to the EBV (LMP1 already mapped) is part of the host-virus biology of the endemic EBV-driven Burkitt lymphoma."
 ---
 
 # Burkitt Lymphoma
@@ -714,6 +723,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[HIV](../hiv/README.md)** — AIDS-associated lymphoma: Burkitt lymphoma is an AIDS-defining lymphoma, HIV predisposing to it via the immune dysregulation, a form distinct from the endemic EBV/malaria (LMP1 already mapped) variant.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 starry-sky arm: IL-13, with IL-4 (already mapped), supports the M2 tingible-body macrophage (already mapped) 'starry-sky' phenotype of Burkitt lymphoma.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adipokine microenvironment: leptin signals from the adipose and marrow microenvironment to the aggressive lymphoma cells, part of the metabolic context (xanthine oxidase already mapped) of Burkitt lymphoma.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine microenvironment: adiponectin, with leptin (already mapped), is part of the adipose/marrow-microenvironment adipokine signalling to the aggressive Burkitt lymphoma cells.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine microenvironment: resistin, with leptin and adiponectin (already mapped), completes the adipokine dimension of the microenvironment of Burkitt lymphoma.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — EBV antiviral interferon: the type-I interferon antiviral response to the EBV (LMP1 already mapped) is part of the host-virus biology of the endemic EBV-driven Burkitt lymphoma.
 
 ---
 
