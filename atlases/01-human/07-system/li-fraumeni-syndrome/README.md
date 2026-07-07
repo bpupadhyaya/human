@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Chemotherapy anaemia: because radiotherapy must be limited, Li-Fraumeni cancers rely heavily on chemotherapy, whose myelosuppression causes anaemia (haemoglobin already mapped) needing transfusion that can load the body with iron."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Tissue-sparing proton therapy: when radiation is unavoidable in Li-Fraumeni syndrome (TP53 already mapped), proton-beam therapy spares the surrounding tissue (versus the photon already mapped) to reduce the radiation-induced second-cancer risk."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Metabolic cancer modulation: leptin is the adipokine of the metabolic influence on the diverse cancers of Li-Fraumeni syndrome, part of the modifiable milieu modulating the penetrance."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic modulation of the Li-Fraumeni cancer penetrance."
 ---
 
 # Li-Fraumeni Syndrome
@@ -718,6 +727,9 @@ Annual surveillance significantly reduces mortality in LFS carriers (Villani 201
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immunosuppressive microenvironment of the diverse Li-Fraumeni cancers.
 - `connects-to` → **[T-cytotoxic cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Immunotherapy: the cytotoxic T cells (PD-1 and perforin already mapped) are the target of the checkpoint immunotherapy explored across the diverse cancers of Li-Fraumeni syndrome, a radiation-sparing option.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Chemotherapy anaemia: because radiotherapy must be limited, Li-Fraumeni cancers rely heavily on chemotherapy, whose myelosuppression causes anaemia (haemoglobin already mapped) needing transfusion that can load the body with iron.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Tissue-sparing proton therapy: when radiation is unavoidable in Li-Fraumeni syndrome (TP53 already mapped), proton-beam therapy spares the surrounding tissue (versus the photon already mapped) to reduce the radiation-induced second-cancer risk.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Metabolic cancer modulation: leptin is the adipokine of the metabolic influence on the diverse cancers of Li-Fraumeni syndrome, part of the modifiable milieu modulating the penetrance.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic modulation of the Li-Fraumeni cancer penetrance.
 
 [^bougeard-2015-lfs-chompret]: Bougeard G, Renaux-Petel M, Flaman JM, et al. Revisiting Li-Fraumeni Syndrome From TP53 Mutation Carriers. *J Clin Oncol.* 2015;33(21):2345-2352. [doi:10.1200/JCO.2014.59.5728](https://doi.org/10.1200/JCO.2014.59.5728) · [PubMed 26014290](https://pubmed.ncbi.nlm.nih.gov/26014290/)
 [^villani-2016-lfs-surveillance]: Villani A, Shore A, Wasserman JD, et al. Biochemical and imaging surveillance in germline TP53 mutation carriers with Li-Fraumeni syndrome: 11 year follow-up of a prospective observational study. *Lancet Oncol.* 2016;17(9):1295-1305. [doi:10.1016/S1470-2045(16)30249-2](https://doi.org/10.1016/S1470-2045(16)30249-2) · [PubMed 27501770](https://pubmed.ncbi.nlm.nih.gov/27501770/)

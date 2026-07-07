@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Adipokine modulation: adiponectin, with leptin (already mapped), links the metabolic state to the colorectal carcinogenesis, part of the modifiable adipokine influence on the cancer risk of juvenile polyposis."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the metabolic influence on the colorectal carcinogenesis of juvenile polyposis."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Malabsorption zinc: the zinc deficiency from the malabsorption and protein-losing enteropathy of the extensive GI polyposis of juvenile polyposis impairs the healing and immunity."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Micronutrient malabsorption: the calcium and micronutrient malabsorption of the protein-losing enteropathy and extensive polyposis of juvenile polyposis, contributing to the nutritional depletion."
 ---
 
 # Juvenile Polyposis Syndrome
@@ -697,6 +706,9 @@ No approved chemopreventive agents specifically for JPS. Options under investiga
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the microenvironment of the hamartomatous polyps of juvenile polyposis.
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin adds an anaemia of chronic disease to the iron-deficiency (already mapped) anaemia of the chronically bleeding polyps of juvenile polyposis.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine modulation: adiponectin, with leptin (already mapped), links the metabolic state to the colorectal carcinogenesis, part of the modifiable adipokine influence on the cancer risk of juvenile polyposis.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the metabolic influence on the colorectal carcinogenesis of juvenile polyposis.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Malabsorption zinc: the zinc deficiency from the malabsorption and protein-losing enteropathy of the extensive GI polyposis of juvenile polyposis impairs the healing and immunity.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Micronutrient malabsorption: the calcium and micronutrient malabsorption of the protein-losing enteropathy and extensive polyposis of juvenile polyposis, contributing to the nutritional depletion.
 
 [^howe-1998-smad4-jps]: Howe JR, Roth S, Ringold JC, et al. Mutations in the SMAD4/DPC4 gene in juvenile polyposis. *Science.* 1998;280(5366):1086-1088. [doi:10.1126/science.280.5366.1086](https://doi.org/10.1126/science.280.5366.1086) · [PubMed 9582123](https://pubmed.ncbi.nlm.nih.gov/9582123/)
 [^aretz-2007-jps-spectrum]: Aretz S, Stienen D, Uhlhaas S, et al. High proportion of large genomic deletions and a genotype-phenotype update in 80 unrelated families with juvenile polyposis syndrome. *J Med Genet.* 2007;44(11):702-709. [doi:10.1136/jmg.2007.051839](https://doi.org/10.1136/jmg.2007.051839) · [PubMed 17601924](https://pubmed.ncbi.nlm.nih.gov/17601924/)
