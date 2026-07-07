@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/04-cellular/osteoblast
     relation: connects-to
     note: "Tumour-bone interface: the osteoblasts and the bone remodelling (RANKL and osteopontin already mapped) at the interface with the destructive axial chordoma respond to the tumour invading the skull base and sacrum."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Matrix cross-linking: copper is the cofactor of lysyl oxidase that cross-links the collagen (already mapped) of the myxoid/chondroid matrix of chordoma, and supports the copper-dependent angiogenesis (VEGF already mapped)."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Matrix metalloproteinases: the zinc-dependent matrix metalloproteinases remodel the extracellular matrix (collagen already mapped) at the invasive front of chordoma into the skull base and sacrum."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Marrow-bone adipokine: leptin from the marrow adipose tissue of the bone (RANKL and osteoblast already mapped) microenvironment signals to the axial chordoma, part of its bone-niche metabolic crosstalk."
 ---
 
 # Chordoma
@@ -702,6 +711,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immunosuppressive microenvironment of chordoma.
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photon radiotherapy: conventional and stereotactic photon radiotherapy treats chordoma where proton therapy (already mapped) is unavailable, though the dose is limited by the nearby brainstem and spinal cord.
 - `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — Tumour-bone interface: the osteoblasts and the bone remodelling (RANKL and osteopontin already mapped) at the interface with the destructive axial chordoma respond to the tumour invading the skull base and sacrum.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Matrix cross-linking: copper is the cofactor of lysyl oxidase that cross-links the collagen (already mapped) of the myxoid/chondroid matrix of chordoma, and supports the copper-dependent angiogenesis (VEGF already mapped).
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Matrix metalloproteinases: the zinc-dependent matrix metalloproteinases remodel the extracellular matrix (collagen already mapped) at the invasive front of chordoma into the skull base and sacrum.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Marrow-bone adipokine: leptin from the marrow adipose tissue of the bone (RANKL and osteoblast already mapped) microenvironment signals to the axial chordoma, part of its bone-niche metabolic crosstalk.
 
 ---
 

@@ -438,6 +438,15 @@ cross_links:
   - target: 01-human/02-atomic/copper
     relation: connects-to
     note: "Copper-deficiency mimic: copper deficiency causes a myeloneuropathy with demyelination that can clinically mimic CIDP, an important metabolic differential in the chronic neuropathies."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate immune signalling: type-I interferon is part of the innate-immune signalling of the autoimmune demyelination of the peripheral nerve (already mapped) in CIDP."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "Autoantibody source: the long-lived plasma cells secrete the anti-myelin and anti-nodal IgG (immunoglobulin already mapped) autoantibodies of CIDP, resisting the B-cell (CD20 already mapped) depletion, the rationale for the anti-plasma-cell approaches."
+  - target: 01-human/07-system/nmo
+    relation: connects-to
+    note: "Antibody-mediated demyelination sibling: neuromyelitis optica and CIDP are antibody- and complement (already mapped)-mediated demyelinating diseases (CNS vs PNS), both responding to the B-cell (CD20 already mapped) and complement therapies."
 ---
 
 # CIDP
@@ -720,6 +729,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Neurotrophic remyelination: IGF-1 supports the Schwann-cell remyelination and axonal maintenance (BDNF already mapped), part of the reparative response to the repeated demyelination of CIDP.
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Schwann-cell proliferation: PDGF drives the Schwann-cell proliferation of the onion-bulb remyelination that characterises the chronic, relapsing demyelination and repair of CIDP.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper-deficiency mimic: copper deficiency causes a myeloneuropathy with demyelination that can clinically mimic CIDP, an important metabolic differential in the chronic neuropathies.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate immune signalling: type-I interferon is part of the innate-immune signalling of the autoimmune demyelination of the peripheral nerve (already mapped) in CIDP.
+- `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — Autoantibody source: the long-lived plasma cells secrete the anti-myelin and anti-nodal IgG (immunoglobulin already mapped) autoantibodies of CIDP, resisting the B-cell (CD20 already mapped) depletion, the rationale for the anti-plasma-cell approaches.
+- `connects-to` → **[NMO](../nmo/README.md)** — Antibody-mediated demyelination sibling: neuromyelitis optica and CIDP are antibody- and complement (already mapped)-mediated demyelinating diseases (CNS vs PNS), both responding to the B-cell (CD20 already mapped) and complement therapies.
 
 ---
 
