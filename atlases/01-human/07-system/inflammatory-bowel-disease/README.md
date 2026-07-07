@@ -445,6 +445,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "Diarrhoeal magnesium loss: the profuse diarrhoea of active inflammatory bowel disease depletes magnesium (with sodium already mapped), contributing to the electrolyte disturbance of flares."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Eosinophil arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), recruits the eosinophils prominent in the ulcerative-colitis mucosa of inflammatory bowel disease."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "IBD bone loss: the chronic inflammation, the malabsorption and the corticosteroid (glucocorticoid-receptor already mapped) use cause the osteoporosis and the low bone density of the cortical bone in inflammatory bowel disease."
+  - target: 01-human/07-system/gvhd
+    relation: connects-to
+    note: "Gut-GVHD parallel: the gastrointestinal graft-versus-host disease resembles inflammatory bowel disease histologically and mechanistically, both driven by the microbiome (TLR4 already mapped)-immune dysregulation of the gut."
 ---
 
 # Inflammatory Bowel Disease
@@ -715,6 +724,9 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Creeping-fat adipokine: adiponectin, with leptin (already mapped), is an adipokine of the 'creeping fat' — the mesenteric adipose that wraps the inflamed Crohn's bowel — a distinctive feature of inflammatory bowel disease.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory creeping-fat adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the creeping fat and the systemic inflammation (IL-6 already mapped) of inflammatory bowel disease.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Diarrhoeal magnesium loss: the profuse diarrhoea of active inflammatory bowel disease depletes magnesium (with sodium already mapped), contributing to the electrolyte disturbance of flares.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Eosinophil arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), recruits the eosinophils prominent in the ulcerative-colitis mucosa of inflammatory bowel disease.
+- `connects-to` → **[Cortical bone](../../05-tissue/cortical-bone/README.md)** — IBD bone loss: the chronic inflammation, the malabsorption and the corticosteroid (glucocorticoid-receptor already mapped) use cause the osteoporosis and the low bone density of the cortical bone in inflammatory bowel disease.
+- `connects-to` → **[GVHD](../gvhd/README.md)** — Gut-GVHD parallel: the gastrointestinal graft-versus-host disease resembles inflammatory bowel disease histologically and mechanistically, both driven by the microbiome (TLR4 already mapped)-immune dysregulation of the gut.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)
