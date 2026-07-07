@@ -433,6 +433,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Endothelial injury: nitric oxide is dysregulated in the endothelial damage of graft-versus-host disease, part of the vascular injury (with the epithelial attack) that underlies the transplant-associated microangiopathy and organ damage."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Vascular injury: VEGF and the dysregulated angiogenesis (nitric oxide already mapped) reflect the endothelial damage of the transplant-associated microangiopathy and the vascular component of graft-versus-host disease."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "TA-TMA complement: the complement C5 (C3 already mapped) drives the transplant-associated thrombotic microangiopathy that complicates graft-versus-host disease, the target of eculizumab."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Eosinophilic GVHD: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), recruits the eosinophils whose presence is a marker of graft-versus-host disease, notably the chronic and gastrointestinal forms."
 ---
 
 # Graft-Versus-Host Disease
@@ -709,6 +718,9 @@ The protective Treg/IL-10 axis is the key biological counterbalance to alloreact
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Transfusional iron overload: the repeated transfusions before and after the transplant load the patient with iron (haemoglobin already mapped), and the resulting iron overload adds oxidative burden to the tissues attacked in graft-versus-host disease.
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Iron-restricted anaemia: the inflammation (IL-6 already mapped) of graft-versus-host disease raises hepcidin, sequestering iron and contributing to the anaemia (haemoglobin already mapped) that complicates the post-transplant course.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Endothelial injury: nitric oxide is dysregulated in the endothelial damage of graft-versus-host disease, part of the vascular injury (with the epithelial attack) that underlies the transplant-associated microangiopathy and organ damage.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Vascular injury: VEGF and the dysregulated angiogenesis (nitric oxide already mapped) reflect the endothelial damage of the transplant-associated microangiopathy and the vascular component of graft-versus-host disease.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — TA-TMA complement: the complement C5 (C3 already mapped) drives the transplant-associated thrombotic microangiopathy that complicates graft-versus-host disease, the target of eculizumab.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Eosinophilic GVHD: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), recruits the eosinophils whose presence is a marker of graft-versus-host disease, notably the chronic and gastrointestinal forms.
 
 [^ferrara-2009-gvhd-review]: Ferrara JL, Levine JE, Reddy P, Holler E. Graft-versus-host disease. *Lancet.* 2009;373(9674):1550-1561. [doi:10.1016/S0140-6736(09)60237-3](https://doi.org/10.1016/S0140-6736(09)60237-3) · [PubMed 19380114](https://pubmed.ncbi.nlm.nih.gov/19380114/)
 [^zeiser-2020-ruxolitinib-gvhd-reach]: Zeiser R, von Bubnoff N, Butler J, et al. Ruxolitinib for Glucocorticoid-Refractory Acute Graft-versus-Host Disease. *N Engl J Med.* 2020;382(19):1800-1810. [doi:10.1056/NEJMoa1917635](https://doi.org/10.1056/NEJMoa1917635) · [PubMed 32374962](https://pubmed.ncbi.nlm.nih.gov/32374962/)
