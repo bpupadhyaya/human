@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/04-cellular/t-helper-cell
     relation: connects-to
     note: "Autoantibody help: CD4 T-cell help (MHC class II and IL-2 already mapped) supports the B cells producing the anti-C1-inhibitor autoantibodies of acquired angioedema, distinguishing it from the inherited C1-inhibitor deficiency."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Contact-system activation: zinc is required for the assembly of factor XII and high-molecular-weight kininogen on surfaces that triggers the kallikrein-kinin cascade generating the bradykinin (already mapped) of hereditary angioedema."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Histaminergic differential: IL-4 drives the mast-cell (already mapped) type-2 response of the far commoner histamine-mediated (already mapped) allergic angioedema, the differential that must be excluded before treating the bradykinin-mediated hereditary form."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 differential: IL-13, with IL-4 (already mapped), supports the type-2 mast-cell (already mapped) response of the allergic angioedema differential, which unlike hereditary angioedema responds to antihistamines and steroids."
 ---
 
 # Hereditary Angioedema
@@ -690,6 +699,9 @@ Fluid extravasation → ANGIOEDEMA
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Kinin-RAAS crosstalk: angiotensin-converting enzyme both generates angiotensin II (already mapped) toward aldosterone and degrades bradykinin (already mapped), so ACE inhibitors raise bradykinin and can precipitate angioedema attacks, contraindicated in hereditary angioedema.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immune regulation in acquired disease: IL-10 and immunoregulatory signals shape the autoreactive response of acquired C1-inhibitor deficiency (IL-6 already mapped), the immune-mediated form distinct from the genetic deficiency of hereditary angioedema.
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — Autoantibody help: CD4 T-cell help (MHC class II and IL-2 already mapped) supports the B cells producing the anti-C1-inhibitor autoantibodies of acquired angioedema, distinguishing it from the inherited C1-inhibitor deficiency.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Contact-system activation: zinc is required for the assembly of factor XII and high-molecular-weight kininogen on surfaces that triggers the kallikrein-kinin cascade generating the bradykinin (already mapped) of hereditary angioedema.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Histaminergic differential: IL-4 drives the mast-cell (already mapped) type-2 response of the far commoner histamine-mediated (already mapped) allergic angioedema, the differential that must be excluded before treating the bradykinin-mediated hereditary form.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 differential: IL-13, with IL-4 (already mapped), supports the type-2 mast-cell (already mapped) response of the allergic angioedema differential, which unlike hereditary angioedema responds to antihistamines and steroids.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)

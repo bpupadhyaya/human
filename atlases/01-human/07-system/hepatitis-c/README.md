@@ -417,6 +417,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Steatosis and insulin resistance: hepatitis C drives hepatic steatosis and insulin resistance (insulin already mapped), and the fall in the insulin-sensitising adiponectin contributes to the metabolic dimension that accelerates its liver disease."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Th1/Th2 balance: IL-4 drives the Th2 arm, and the balance between it and the Th1 response (IFN-γ already mapped) helps determine whether hepatitis C is cleared or persists as the chronic infection that DAAs now cure."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "Th17 fibrogenesis: IL-17 from Th17 cells contributes to the immune-mediated liver injury and the fibrosis (TGF-β and collagen already mapped) of chronic hepatitis C, part of the inflammation driving cirrhosis."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Adipokine and steatosis: leptin, with the fall in adiponectin (already mapped), links the metabolic state to the hepatic steatosis and insulin resistance (already mapped) that accelerate the fibrosis of chronic hepatitis C."
 ---
 
 # Hepatitis C
@@ -676,3 +685,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative hepatic injury: the iron accumulation (hepcidin already mapped), steatosis and inflammation of chronic hepatitis C generate reactive oxygen species, to which xanthine oxidase contributes, driving the fibrosis toward cirrhosis and cancer.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Portal hypertension: as chronic hepatitis C progresses to cirrhosis, dysregulated nitric oxide contributes to the splanchnic vasodilation and portal hypertension (collagen already mapped for fibrosis) that cause its life-threatening complications.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Steatosis and insulin resistance: hepatitis C drives hepatic steatosis and insulin resistance (insulin already mapped), and the fall in the insulin-sensitising adiponectin contributes to the metabolic dimension that accelerates its liver disease.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Th1/Th2 balance: IL-4 drives the Th2 arm, and the balance between it and the Th1 response (IFN-γ already mapped) helps determine whether hepatitis C is cleared or persists as the chronic infection that DAAs now cure.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Th17 fibrogenesis: IL-17 from Th17 cells contributes to the immune-mediated liver injury and the fibrosis (TGF-β and collagen already mapped) of chronic hepatitis C, part of the inflammation driving cirrhosis.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adipokine and steatosis: leptin, with the fall in adiponectin (already mapped), links the metabolic state to the hepatic steatosis and insulin resistance (already mapped) that accelerate the fibrosis of chronic hepatitis C.
