@@ -427,6 +427,15 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: connects-to
     note: "Wound oxygenation: hypoxia (HIF already mapped) initiates the angiogenic signal, but adequate oxygen is needed for the collagen cross-linking and oxidative bacterial killing of repair, the rationale for hyperbaric oxygen in problem wounds."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Reparative adipokine: adiponectin promotes the keratinocyte and fibroblast (already mapped) proliferation and migration of wound repair, and its deficiency in obesity contributes to the impaired healing (leptin already mapped)."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipokine inflammation: resistin, with leptin and adiponectin (already mapped), links the adipose state to the inflammation of the wound, contributing to the impaired healing of the obese and diabetic (insulin already mapped) wound."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Chronic-wound iron: the persistent inflammation (IL-6 already mapped) of the chronic non-healing wound raises hepcidin, sequestering the iron (already mapped) needed for the repair and the oxygen (already mapped) delivery."
 ---
 
 # Wound Healing
@@ -682,6 +691,9 @@ cross_links:
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Inflammatory phase: neutrophils are the first cells recruited to the wound, debriding debris and killing bacteria (S100A8/A9 already mapped), and their timely clearance by macrophages (already mapped) lets healing progress to the reparative phase.
 - `connects-to` → **[Type 2 diabetes](../type-2-diabetes/README.md)** — Impaired diabetic healing: type 2 diabetes impairs wound healing through microvascular disease, neuropathy (CGRP already mapped) and hyperglycaemia, producing the chronic diabetic foot ulcers that are a major cause of amputation.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Wound oxygenation: hypoxia (HIF already mapped) initiates the angiogenic signal, but adequate oxygen is needed for the collagen cross-linking and oxidative bacterial killing of repair, the rationale for hyperbaric oxygen in problem wounds.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Reparative adipokine: adiponectin promotes the keratinocyte and fibroblast (already mapped) proliferation and migration of wound repair, and its deficiency in obesity contributes to the impaired healing (leptin already mapped).
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine inflammation: resistin, with leptin and adiponectin (already mapped), links the adipose state to the inflammation of the wound, contributing to the impaired healing of the obese and diabetic (insulin already mapped) wound.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Chronic-wound iron: the persistent inflammation (IL-6 already mapped) of the chronic non-healing wound raises hepcidin, sequestering the iron (already mapped) needed for the repair and the oxygen (already mapped) delivery.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)

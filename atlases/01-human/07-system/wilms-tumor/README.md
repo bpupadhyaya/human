@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/01-subatomic/proton
     relation: connects-to
     note: "Proton radiotherapy: proton-beam radiotherapy can treat higher-stage Wilms tumour while sparing the developing abdominal organs and spine, an option valued in these very young patients."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immune microenvironment of the Wilms tumour."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Intravascular extension: Wilms tumour can grow up the renal vein and inferior vena cava into the right atrium of the heart, a tumour thrombus that complicates surgery and can embolise."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Immune microenvironment: the cytotoxic T cells (perforin already mapped) of the tumour microenvironment are the focus of the immunotherapy explored for the relapsed and anaplastic Wilms tumour that resists chemotherapy."
 ---
 
 # Wilms Tumor
@@ -684,6 +693,9 @@ Wilms tumor survivors face late effects proportional to treatment intensity:
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune microenvironment of Wilms tumour, this childhood cancer of the kidney.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Chemotherapy anaemia: the vincristine-actinomycin-doxorubicin chemotherapy of Wilms tumour is myelosuppressive, causing anaemia (haemoglobin already mapped) that needs transfusion whose repeated support can load the young child with iron.
 - `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Proton radiotherapy: proton-beam radiotherapy can treat higher-stage Wilms tumour while sparing the developing abdominal organs and spine, an option valued in these very young patients.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immune microenvironment of the Wilms tumour.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Intravascular extension: Wilms tumour can grow up the renal vein and inferior vena cava into the right atrium of the heart, a tumour thrombus that complicates surgery and can embolise.
+- `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Immune microenvironment: the cytotoxic T cells (perforin already mapped) of the tumour microenvironment are the focus of the immunotherapy explored for the relapsed and anaplastic Wilms tumour that resists chemotherapy.
 
 [^dome-2015-wilms]: Dome JS, Graf N, Geller JI, et al. Advances in Wilms tumor treatment and biology: progress through international collaboration. *J Clin Oncol.* 2015;33(27):2999-3007. [doi:10.1200/JCO.2015.62.1888](https://doi.org/10.1200/JCO.2015.62.1888) · [PubMed 26261251](https://pubmed.ncbi.nlm.nih.gov/26261251/)
 [^dix-2006-arenl0002]: Dix DB, Bhatt SM, Geller JI, et al. Treatment of Stage IV favorable histology Wilms tumor with incomplete lung metastasis response after chemotherapy: a report from Children's Oncology Group Study AREN0533. *J Clin Oncol.* 2018;36(16):1564-1570. [doi:10.1200/JCO.2017.77.1877](https://doi.org/10.1200/JCO.2017.77.1877) · [PubMed 29584550](https://pubmed.ncbi.nlm.nih.gov/29584550/)
