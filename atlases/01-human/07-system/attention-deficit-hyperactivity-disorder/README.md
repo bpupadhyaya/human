@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/03-molecular/hepcidin
     relation: connects-to
     note: "Iron-regulatory hormone: hepcidin governs the iron (transferrin and iron already mapped) handling whose disturbance underlies the low-iron state associated with ADHD, affecting the dopamine (already mapped) synthesis."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Dopaminergic circuits: the prefrontal-striatal dopaminergic and noradrenergic (already mapped) neurons and their synaptic signalling underlie ADHD, the stimulant (methylphenidate) target."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Zinc cofactor: zinc (a cofactor for the dopamine — already mapped — metabolism and the melatonin — already mapped — pathway) is often low in ADHD, and the supplementation is studied as an adjunct."
+  - target: 01-human/07-system/stimulant-use-disorder
+    relation: connects-to
+    note: "Substance-use link: ADHD raises the risk of the (stimulant and other) substance use disorder, and the properly treated stimulant medication modifies that risk."
 ---
 
 # Attention-Deficit/Hyperactivity Disorder
@@ -737,6 +746,9 @@ ADHD is a clinical diagnosis requiring [^biederman-2005-adhd-adults]:
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic (insulin already mapped) comorbidity reported in ADHD.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory milieu (IL-6 already mapped) to the metabolic-inflammatory dimension associated with ADHD.
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Iron-regulatory hormone: hepcidin governs the iron (transferrin and iron already mapped) handling whose disturbance underlies the low-iron state associated with ADHD, affecting the dopamine (already mapped) synthesis.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Dopaminergic circuits: the prefrontal-striatal dopaminergic and noradrenergic (already mapped) neurons and their synaptic signalling underlie ADHD, the stimulant (methylphenidate) target.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc cofactor: zinc (a cofactor for the dopamine — already mapped — metabolism and the melatonin — already mapped — pathway) is often low in ADHD, and the supplementation is studied as an adjunct.
+- `connects-to` → **[Stimulant use disorder](../stimulant-use-disorder/README.md)** — Substance-use link: ADHD raises the risk of the (stimulant and other) substance use disorder, and the properly treated stimulant medication modifies that risk.
 
 [^faraone-2021-adhd-primer]: Faraone SV, Banaschewski T, Coghill D, et al. The World Federation of ADHD International Consensus Statement: 208 Evidence-based conclusions about the disorder. *Neurosci Biobehav Rev.* 2021;128:789-818. [doi:10.1016/j.neubiorev.2021.01.022](https://doi.org/10.1016/j.neubiorev.2021.01.022) · [PubMed 33549739](https://pubmed.ncbi.nlm.nih.gov/33549739/)
 [^arnsten-2009-adhd-neuroscience]: Arnsten AF. Toward a new understanding of ADHD pathophysiology: an important role for prefrontal cortex dysfunction. *CNS Drugs.* 2009;23(Suppl 1):33-41. [doi:10.2165/00023210-200923000-00005](https://doi.org/10.2165/00023210-200923000-00005) · [PubMed 19621976](https://pubmed.ncbi.nlm.nih.gov/19621976/)

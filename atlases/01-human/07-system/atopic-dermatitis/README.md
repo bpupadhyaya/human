@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "Selenium and skin oxidative defence: selenium supports the antioxidant selenoprotein defence of the skin, and its deficiency contributes to the oxidative and barrier dysfunction of atopic dermatitis."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Itch mast cells: the mast cells (KIT and histamine already mapped) release the pruritogens and the type-2 mediators onto the sensitised nerves (substance-P and NGF already mapped) of atopic dermatitis."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Langerhans sensitisation: the epidermal Langerhans/dendritic cells present the allergen and drive the Th2 (already mapped) sensitisation of atopic dermatitis."
+  - target: 01-human/07-system/prurigo-nodularis
+    relation: connects-to
+    note: "Itch overlap: atopic dermatitis and prurigo nodularis share the type-2 (IL-31, IL-4 and IL-13 already mapped) neuroimmune itch, and the dupilumab treats both."
 ---
 
 # Atopic Dermatitis
@@ -702,6 +711,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine comorbidity: adiponectin, with leptin and resistin (already mapped), is part of the adipokine dimension of the metabolic-syndrome comorbidity that accompanies atopic dermatitis.
 - `connects-to` → **[Psoriasis](../psoriasis/README.md)** — Reciprocal skin disease: atopic dermatitis (type-2, IL-4 and IL-13 already mapped) sits at the opposite immunological pole to psoriasis (Th17, IL-17 already mapped), and blocking IL-4 can occasionally unmask a psoriasiform eruption.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Selenium and skin oxidative defence: selenium supports the antioxidant selenoprotein defence of the skin, and its deficiency contributes to the oxidative and barrier dysfunction of atopic dermatitis.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Itch mast cells: the mast cells (KIT and histamine already mapped) release the pruritogens and the type-2 mediators onto the sensitised nerves (substance-P and NGF already mapped) of atopic dermatitis.
+- `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Langerhans sensitisation: the epidermal Langerhans/dendritic cells present the allergen and drive the Th2 (already mapped) sensitisation of atopic dermatitis.
+- `connects-to` → **[Prurigo nodularis](../prurigo-nodularis/README.md)** — Itch overlap: atopic dermatitis and prurigo nodularis share the type-2 (IL-31, IL-4 and IL-13 already mapped) neuroimmune itch, and the dupilumab treats both.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
