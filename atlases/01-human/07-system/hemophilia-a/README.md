@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/baff
     relation: connects-to
     note: "Inhibitor B-cell survival: BAFF supports the survival of the alloreactive B cells (already mapped) that produce the factor VIII inhibitors, part of the humoral response that complicates haemophilia A replacement therapy."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Bleeding iron balance: the recurrent bleeding and the anaemia (haemoglobin already mapped) of haemophilia A interact with the iron-regulatory hepcidin and the ferroportin (already mapped) iron export."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Metabolic-arthropathy adipokine: leptin is the adipokine of the marrow and synovial adipose signalling in the arthropathy and the immune-metabolic milieu of haemophilia A."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic milieu of haemophilia A."
 ---
 
 # Hemophilia A
@@ -700,6 +709,9 @@ FVIII is a critical **amplifier** of the coagulation cascade at the junction bet
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Immune tolerance: the PD-1 checkpoint and the peripheral tolerance mechanisms are relevant to the immune-tolerance induction used to eradicate the factor VIII inhibitors (immunoglobulin already mapped) of haemophilia A.
 - `connects-to` → **[Regulatory T cell](../../04-cellular/regulatory-t-cell/README.md)** — Tolerance induction: the regulatory T cells are central to the immune-tolerance induction that re-establishes tolerance to factor VIII and eradicates the alloantibody inhibitors of haemophilia A.
 - `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — Inhibitor B-cell survival: BAFF supports the survival of the alloreactive B cells (already mapped) that produce the factor VIII inhibitors, part of the humoral response that complicates haemophilia A replacement therapy.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Bleeding iron balance: the recurrent bleeding and the anaemia (haemoglobin already mapped) of haemophilia A interact with the iron-regulatory hepcidin and the ferroportin (already mapped) iron export.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Metabolic-arthropathy adipokine: leptin is the adipokine of the marrow and synovial adipose signalling in the arthropathy and the immune-metabolic milieu of haemophilia A.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic milieu of haemophilia A.
 
 [^oldenburg-2017-emicizumab-haven1]: Oldenburg J, Mahlangu JN, Kim B, et al. Emicizumab prophylaxis in hemophilia A with inhibitors. *N Engl J Med.* 2017;377(9):809-818. [doi:10.1056/NEJMoa1703068](https://doi.org/10.1056/NEJMoa1703068) · [PubMed 28691557](https://pubmed.ncbi.nlm.nih.gov/28691557/)
 [^mahlangu-2018-emicizumab-haven3]: Mahlangu J, Oldenburg J, Paz-Priel I, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors. *N Engl J Med.* 2018;379(9):811-822. [doi:10.1056/NEJMoa1803550](https://doi.org/10.1056/NEJMoa1803550) · [PubMed 30157389](https://pubmed.ncbi.nlm.nih.gov/30157389/)

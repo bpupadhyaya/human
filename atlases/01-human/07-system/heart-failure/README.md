@@ -433,6 +433,15 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: connects-to
     note: "Tissue hypoxia: the low-output failing heart impairs oxygen delivery, causing the tissue hypoxia (HIF already mapped) and exertional limitation, and supplemental oxygen is used in acute decompensation."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Diabetic HFpEF: type 2 diabetes (insulin already mapped) causes the diabetic cardiomyopathy and HFpEF, the SGLT2 (already mapped) inhibitors benefiting both conditions."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Hyponatraemia and congestion: the dilutional hyponatraemia (vasopressin already mapped) is a poor-prognosis marker in heart failure, and the dietary sodium restriction manages the fluid congestion."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Cardiac inflammation: the cardiac macrophages (the inflammation, TNF, IL-6 and NLRP3 already mapped) drive the adverse remodelling and the fibrosis (TGF-β already mapped) of heart failure."
 ---
 
 # Heart Failure
@@ -644,6 +653,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Fibrotic remodelling: IL-13, with IL-4 (already mapped), drives the M2 macrophage and profibrotic (TGF-β already mapped) response in the myocardial remodelling of heart failure.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine milieu: resistin, with leptin and adiponectin (already mapped), is part of the adipokine and inflammatory milieu of the metabolic comorbidity and cachexia (myostatin already mapped) of heart failure.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Tissue hypoxia: the low-output failing heart impairs oxygen delivery, causing the tissue hypoxia (HIF already mapped) and exertional limitation, and supplemental oxygen is used in acute decompensation.
+- `connects-to` → **[Type 2 diabetes](../type-2-diabetes/README.md)** — Diabetic HFpEF: type 2 diabetes (insulin already mapped) causes the diabetic cardiomyopathy and HFpEF, the SGLT2 (already mapped) inhibitors benefiting both conditions.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Hyponatraemia and congestion: the dilutional hyponatraemia (vasopressin already mapped) is a poor-prognosis marker in heart failure, and the dietary sodium restriction manages the fluid congestion.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Cardiac inflammation: the cardiac macrophages (the inflammation, TNF, IL-6 and NLRP3 already mapped) drive the adverse remodelling and the fibrosis (TGF-β already mapped) of heart failure.
 
 ## Pathology
 
