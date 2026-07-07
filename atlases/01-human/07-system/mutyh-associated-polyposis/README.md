@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "Dietary chemoprevention: dietary calcium reduces colorectal adenoma recurrence, binding the bile acids (cholesterol already mapped) that promote carcinogenesis, a modifiable factor in the risk reduction of MUTYH-associated polyposis."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the obesity-related modifiable colorectal-cancer risk of MUTYH-associated polyposis."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Iron-regulatory anaemia: hepcidin drives the iron sequestration that, with the chronic occult bleeding of the numerous adenomas (iron and haemoglobin already mapped), produces the anaemia of MUTYH-associated polyposis."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "DNA-damage innate signalling: type-I interferon, downstream of the cGAS-STING (already mapped) sensing of the DNA damage of the base-excision-repair-defective (MUTYH already mapped) cells, is part of the innate-immune response of MUTYH-associated polyposis."
 ---
 
 # MUTYH-Associated Polyposis
@@ -684,6 +693,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the microenvironment of the polyps of MUTYH-associated polyposis.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine modulation: adiponectin, with leptin (already mapped), links the metabolic state to the colorectal carcinogenesis, part of the modifiable adipokine influence on the cancer risk of MUTYH-associated polyposis.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Dietary chemoprevention: dietary calcium reduces colorectal adenoma recurrence, binding the bile acids (cholesterol already mapped) that promote carcinogenesis, a modifiable factor in the risk reduction of MUTYH-associated polyposis.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the obesity-related modifiable colorectal-cancer risk of MUTYH-associated polyposis.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Iron-regulatory anaemia: hepcidin drives the iron sequestration that, with the chronic occult bleeding of the numerous adenomas (iron and haemoglobin already mapped), produces the anaemia of MUTYH-associated polyposis.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — DNA-damage innate signalling: type-I interferon, downstream of the cGAS-STING (already mapped) sensing of the DNA damage of the base-excision-repair-defective (MUTYH already mapped) cells, is part of the innate-immune response of MUTYH-associated polyposis.
 
 ---
 

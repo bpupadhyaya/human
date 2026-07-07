@@ -436,6 +436,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Protective adipokine: adiponectin is low in obesity, and its fall (leptin already mapped) removes a brake on the plasma-cell clone, part of the marrow-adipose crosstalk linking obesity to multiple myeloma."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Marrow-adipose adipokine: resistin, with leptin and adiponectin (already mapped), is part of the marrow-adipocyte adipokine crosstalk of the obesity-myeloma link and the metabolic niche of the plasma-cell clone."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Interferon maintenance: type-I interferon was a historical maintenance therapy of multiple myeloma, and its signalling shapes the immune (NK cell already mapped) microenvironment of the marrow."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Immunosuppressive Tregs: the regulatory T cells of the myeloma marrow microenvironment (IL-10 and TGF-β already mapped) dampen the anti-myeloma immunity, a barrier to the T-cell (already mapped) therapies."
 ---
 
 # Multiple Myeloma
@@ -704,6 +713,9 @@ MM evolves from precursor conditions through a well-defined continuum:
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 marrow niche: IL-13, with IL-4 (already mapped), supports the M2 marrow-macrophage niche that nurtures the malignant plasma cells of multiple myeloma.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Marrow adipose support: the marrow adipocytes and their adipokine leptin support the myeloma plasma cells, and obesity — a leptin-high state — is an established risk factor for multiple myeloma.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Protective adipokine: adiponectin is low in obesity, and its fall (leptin already mapped) removes a brake on the plasma-cell clone, part of the marrow-adipose crosstalk linking obesity to multiple myeloma.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Marrow-adipose adipokine: resistin, with leptin and adiponectin (already mapped), is part of the marrow-adipocyte adipokine crosstalk of the obesity-myeloma link and the metabolic niche of the plasma-cell clone.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Interferon maintenance: type-I interferon was a historical maintenance therapy of multiple myeloma, and its signalling shapes the immune (NK cell already mapped) microenvironment of the marrow.
+- `connects-to` → **[Regulatory T cell](../../04-cellular/regulatory-t-cell/README.md)** — Immunosuppressive Tregs: the regulatory T cells of the myeloma marrow microenvironment (IL-10 and TGF-β already mapped) dampen the anti-myeloma immunity, a barrier to the T-cell (already mapped) therapies.
 
 [^kumar-2022-imwg-criteria]: Kumar SK, Callander NS, Adekola K, et al. Multiple myeloma, version 3.2021, NCCN clinical practice guidelines in oncology. *J Natl Compr Canc Netw.* 2020;18(12):1685-1717. [doi:10.6004/jnccn.2020.0057](https://doi.org/10.6004/jnccn.2020.0057) · [PubMed 33285519](https://pubmed.ncbi.nlm.nih.gov/33285519/)
 [^moreau-2022-teclistamab]: Moreau P, Garfall AL, van de Donk NWCJ, et al. Teclistamab in relapsed or refractory multiple myeloma. *N Engl J Med.* 2022;387(6):495-505. [doi:10.1056/NEJMoa2203478](https://doi.org/10.1056/NEJMoa2203478) · [PubMed 35661166](https://pubmed.ncbi.nlm.nih.gov/35661166/)
