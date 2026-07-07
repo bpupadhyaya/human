@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the vascular tone and angiogenesis of ovarian clear cell carcinoma, part of the stromal biology of this hypoxia-driven (HIF and EPAS1 already mapped) tumour."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage (already mapped) and type-2 milieu of the immunosuppressive microenvironment of the chemoresistant ovarian clear cell carcinoma."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Endometriosis iron and carcinogenesis: the cyclical haemorrhage of the endometriosis from which ovarian clear cell carcinoma arises loads the cyst with iron, whose iron-catalysed oxidative stress (xanthine oxidase already mapped) drives the malignant transformation."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Adipose and endometriosis: leptin links the obesity and the endometriosis-associated adipose milieu to the pathogenesis of ovarian clear cell carcinoma, part of the metabolic dimension of the tumour."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -697,6 +706,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Endometriosis inflammation: cyclooxygenase-2 and prostaglandin E2 drive the inflammation of the endometriotic cysts (IL-6 and IL-1 already mapped) from which ovarian clear cell carcinoma arises, part of its inflammation-driven carcinogenesis.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages (already mapped) toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune microenvironment of the chemoresistant ovarian clear cell carcinoma.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the vascular tone and angiogenesis of ovarian clear cell carcinoma, part of the stromal biology of this hypoxia-driven (HIF and EPAS1 already mapped) tumour.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage (already mapped) and type-2 milieu of the immunosuppressive microenvironment of the chemoresistant ovarian clear cell carcinoma.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Endometriosis iron and carcinogenesis: the cyclical haemorrhage of the endometriosis from which ovarian clear cell carcinoma arises loads the cyst with iron, whose iron-catalysed oxidative stress (xanthine oxidase already mapped) drives the malignant transformation.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adipose and endometriosis: leptin links the obesity and the endometriosis-associated adipose milieu to the pathogenesis of ovarian clear cell carcinoma, part of the metabolic dimension of the tumour.
 
 ---
 

@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Tumour vasculature and ascites: nitric oxide with VEGF and endothelin-1 (already mapped) regulates the angiogenesis and vascular permeability that drive the malignant ascites of ovarian cancer."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage (already mapped) and type-2 milieu of the immunosuppressive ascites and omental microenvironment of ovarian cancer."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Omental adipose niche: leptin links obesity to ovarian-cancer risk, and the adipocyte-rich omentum — a favoured metastatic site — supplies the fatty acids and adipokines that fuel the peritoneal spread."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin sequesters iron and adds an anaemia of chronic disease to the platinum-chemotherapy anaemia (iron and haemoglobin already mapped) of ovarian cancer."
 ---
 
 # Ovarian Cancer
@@ -671,6 +680,9 @@ FTSEC ciliated and secretory cells line the Fallopian tube; secretory cells are 
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages (already mapped) of the malignant ascites toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune-evasive microenvironment of ovarian cancer.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Anaemia and transfusion: the chronic disease and the platinum chemotherapy of ovarian cancer cause anaemia (haemoglobin already mapped) that can require transfusion, whose repeated support can load the body with iron.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature and ascites: nitric oxide with VEGF and endothelin-1 (already mapped) regulates the angiogenesis and vascular permeability that drive the malignant ascites of ovarian cancer.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage (already mapped) and type-2 milieu of the immunosuppressive ascites and omental microenvironment of ovarian cancer.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Omental adipose niche: leptin links obesity to ovarian-cancer risk, and the adipocyte-rich omentum — a favoured metastatic site — supplies the fatty acids and adipokines that fuel the peritoneal spread.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin sequesters iron and adds an anaemia of chronic disease to the platinum-chemotherapy anaemia (iron and haemoglobin already mapped) of ovarian cancer.
 
 [^burger-2011-gog0218]: Burger RA, Brady MF, Bookman MA, et al. Incorporation of bevacizumab in the primary treatment of ovarian cancer. *N Engl J Med.* 2011;365(26):2473-2483. [doi:10.1056/NEJMoa1104390](https://doi.org/10.1056/NEJMoa1104390) · [PubMed 22204724](https://pubmed.ncbi.nlm.nih.gov/22204724/)
 [^moore-2018-olaparib-solo1]: Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. *N Engl J Med.* 2018;379(26):2495-2505. [doi:10.1056/NEJMoa1810858](https://doi.org/10.1056/NEJMoa1810858) · [PubMed 30345884](https://pubmed.ncbi.nlm.nih.gov/30345884/)
