@@ -424,6 +424,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative tissue injury: the conditioning regimen and the alloreactive attack generate reactive oxygen species, to which xanthine oxidase contributes, and this oxidative stress amplifies the epithelial damage of graft-versus-host disease."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Transfusional iron overload: the repeated transfusions before and after the transplant load the patient with iron (haemoglobin already mapped), and the resulting iron overload adds oxidative burden to the tissues attacked in graft-versus-host disease."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Iron-restricted anaemia: the inflammation (IL-6 already mapped) of graft-versus-host disease raises hepcidin, sequestering iron and contributing to the anaemia (haemoglobin already mapped) that complicates the post-transplant course."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Endothelial injury: nitric oxide is dysregulated in the endothelial damage of graft-versus-host disease, part of the vascular injury (with the epithelial attack) that underlies the transplant-associated microangiopathy and organ damage."
 ---
 
 # Graft-Versus-Host Disease
@@ -697,6 +706,9 @@ The protective Treg/IL-10 axis is the key biological counterbalance to alloreact
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Inflammatory eicosanoids: prostaglandins from the inflamed gut and skin (IL-6, TNF and IL-1 already mapped) contribute to the tissue injury of acute graft-versus-host disease, part of the eicosanoid dimension of the alloreactive attack.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Type-2 fibrotic axis: IL-4, with IL-13 (already mapped), polarises macrophages and fibroblasts (already mapped) toward the type-2 fibrotic response that drives the sclerotic fibrosis of chronic graft-versus-host disease.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative tissue injury: the conditioning regimen and the alloreactive attack generate reactive oxygen species, to which xanthine oxidase contributes, and this oxidative stress amplifies the epithelial damage of graft-versus-host disease.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Transfusional iron overload: the repeated transfusions before and after the transplant load the patient with iron (haemoglobin already mapped), and the resulting iron overload adds oxidative burden to the tissues attacked in graft-versus-host disease.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Iron-restricted anaemia: the inflammation (IL-6 already mapped) of graft-versus-host disease raises hepcidin, sequestering iron and contributing to the anaemia (haemoglobin already mapped) that complicates the post-transplant course.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Endothelial injury: nitric oxide is dysregulated in the endothelial damage of graft-versus-host disease, part of the vascular injury (with the epithelial attack) that underlies the transplant-associated microangiopathy and organ damage.
 
 [^ferrara-2009-gvhd-review]: Ferrara JL, Levine JE, Reddy P, Holler E. Graft-versus-host disease. *Lancet.* 2009;373(9674):1550-1561. [doi:10.1016/S0140-6736(09)60237-3](https://doi.org/10.1016/S0140-6736(09)60237-3) · [PubMed 19380114](https://pubmed.ncbi.nlm.nih.gov/19380114/)
 [^zeiser-2020-ruxolitinib-gvhd-reach]: Zeiser R, von Bubnoff N, Butler J, et al. Ruxolitinib for Glucocorticoid-Refractory Acute Graft-versus-Host Disease. *N Engl J Med.* 2020;382(19):1800-1810. [doi:10.1056/NEJMoa1917635](https://doi.org/10.1056/NEJMoa1917635) · [PubMed 32374962](https://pubmed.ncbi.nlm.nih.gov/32374962/)

@@ -427,6 +427,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative stress: heightened oxidative stress, to which xanthine oxidase contributes, is reported in anxiety disorders (NRF2 already mapped), and the resulting reactive oxygen species may affect the neurons of the fear and worry circuits."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Neuroimmune balance: the anti-inflammatory IL-4, with IL-10 (already mapped), counters the pro-inflammatory cytokines (IL-6, TNF and IL-1 already mapped) of the low-grade neuroinflammation reported in generalized anxiety disorder."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 neuroimmunity: IL-13, with IL-4 (already mapped), is part of the type-2 immune response whose balance against the pro-inflammatory signals shapes the neuroinflammatory dimension of generalized anxiety disorder."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Copper and noradrenaline: copper is the cofactor of dopamine-β-hydroxylase, which makes noradrenaline from dopamine (both already mapped), linking copper handling to the noradrenergic arousal central to generalized anxiety disorder."
 ---
 
 # Generalized Anxiety Disorder
@@ -701,6 +710,9 @@ Allow **4-8 weeks** for onset of anxiolytic effect. Continue treatment ≥12 mon
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Neuroinflammatory eicosanoids: prostaglandins from the low-grade neuroinflammation (IL-6, TNF and IL-1 already mapped) reported in anxiety modulate the fear and stress circuits, part of the immune-inflammatory dimension of generalized anxiety disorder.
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Cardiometabolic burden: the chronic HPA activation and insulin resistance (insulin already mapped) of long-standing generalized anxiety disorder shift cholesterol handling toward an atherogenic profile, part of its raised cardiovascular risk.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative stress: heightened oxidative stress, to which xanthine oxidase contributes, is reported in anxiety disorders (NRF2 already mapped), and the resulting reactive oxygen species may affect the neurons of the fear and worry circuits.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Neuroimmune balance: the anti-inflammatory IL-4, with IL-10 (already mapped), counters the pro-inflammatory cytokines (IL-6, TNF and IL-1 already mapped) of the low-grade neuroinflammation reported in generalized anxiety disorder.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 neuroimmunity: IL-13, with IL-4 (already mapped), is part of the type-2 immune response whose balance against the pro-inflammatory signals shapes the neuroinflammatory dimension of generalized anxiety disorder.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper and noradrenaline: copper is the cofactor of dopamine-β-hydroxylase, which makes noradrenaline from dopamine (both already mapped), linking copper handling to the noradrenergic arousal central to generalized anxiety disorder.
 
 [^kessler-2005-gad-prevalence]: Kessler RC, Berglund P, Demler O, et al. Lifetime prevalence and age-of-onset distributions of DSM-IV disorders in the NCS Replication. *Arch Gen Psychiatry.* 2005;62(6):593-602. [doi:10.1001/archpsyc.62.6.593](https://doi.org/10.1001/archpsyc.62.6.593) · [PubMed 15939837](https://pubmed.ncbi.nlm.nih.gov/15939837/)
 [^bandelow-2015-anxiety-biology]: Bandelow B, Michaelis S. Epidemiology of anxiety disorders in the 21st century. *Dialogues Clin Neurosci.* 2015;17(3):327-335. [doi:10.31887/DCNS.2015.17.3/bbandelow](https://doi.org/10.31887/DCNS.2015.17.3/bbandelow) · [PubMed 26487812](https://pubmed.ncbi.nlm.nih.gov/26487812/)
