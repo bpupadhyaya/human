@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "Tumour-lysis hypocalcaemia: the bulky, proliferative mantle cell lymphoma treated with intensive therapy can trigger tumour-lysis syndrome (xanthine oxidase already mapped), the hyperphosphataemia complexing calcium to cause hypocalcaemia."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "M2 stromal arm: IL-13, with IL-4 (already mapped), drives the M2 macrophage arm of the immunosuppressive microenvironment of mantle cell lymphoma."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Marrow-adipocyte adipokine: leptin from the marrow adipose tissue of the bone-marrow (already mapped) microenvironment signals to the mantle cell lymphoma cells, part of its metabolic niche crosstalk."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Adipokine microenvironment: adiponectin, with leptin (already mapped), from the marrow adipose tissue signals within the metabolic microenvironment of mantle cell lymphoma."
 ---
 
 # Mantle Cell Lymphoma
@@ -689,6 +698,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Splenomegaly: mantle cell lymphoma commonly presents with marked splenomegaly, the spleen and lymph nodes infiltrated by the cyclin-D1-positive (already mapped) clone, and splenic involvement can dominate the leukaemic-variant disease.
 - `connects-to` → **[T-cytotoxic cell](../../04-cellular/t-cytotoxic-cell/README.md)** — CAR-T immunotherapy: the cytotoxic T cells — engineered as CD19 CAR-T (brexucabtagene; perforin already mapped) — achieve deep remissions in relapsed mantle cell lymphoma that has failed BTK inhibition.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Tumour-lysis hypocalcaemia: the bulky, proliferative mantle cell lymphoma treated with intensive therapy can trigger tumour-lysis syndrome (xanthine oxidase already mapped), the hyperphosphataemia complexing calcium to cause hypocalcaemia.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — M2 stromal arm: IL-13, with IL-4 (already mapped), drives the M2 macrophage arm of the immunosuppressive microenvironment of mantle cell lymphoma.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Marrow-adipocyte adipokine: leptin from the marrow adipose tissue of the bone-marrow (already mapped) microenvironment signals to the mantle cell lymphoma cells, part of its metabolic niche crosstalk.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine microenvironment: adiponectin, with leptin (already mapped), from the marrow adipose tissue signals within the metabolic microenvironment of mantle cell lymphoma.
 
 ---
 
