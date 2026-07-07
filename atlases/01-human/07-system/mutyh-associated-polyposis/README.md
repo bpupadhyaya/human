@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/type-i-interferon
     relation: connects-to
     note: "DNA-damage innate signalling: type-I interferon, downstream of the cGAS-STING (already mapped) sensing of the DNA damage of the base-excision-repair-defective (MUTYH already mapped) cells, is part of the innate-immune response of MUTYH-associated polyposis."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 immunosurveillance: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the immunosurveillance of the colorectal-cancer risk of MUTYH-associated polyposis."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) anti-tumour response of the immune infiltrate along the adenoma-carcinoma sequence of MUTYH-associated polyposis."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Eosinophil arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), recruits the eosinophils of the immune infiltrate of the adenomas of MUTYH-associated polyposis."
 ---
 
 # MUTYH-Associated Polyposis
@@ -696,6 +705,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the obesity-related modifiable colorectal-cancer risk of MUTYH-associated polyposis.
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Iron-regulatory anaemia: hepcidin drives the iron sequestration that, with the chronic occult bleeding of the numerous adenomas (iron and haemoglobin already mapped), produces the anaemia of MUTYH-associated polyposis.
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — DNA-damage innate signalling: type-I interferon, downstream of the cGAS-STING (already mapped) sensing of the DNA damage of the base-excision-repair-defective (MUTYH already mapped) cells, is part of the innate-immune response of MUTYH-associated polyposis.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 immunosurveillance: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the immunosurveillance of the colorectal-cancer risk of MUTYH-associated polyposis.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) anti-tumour response of the immune infiltrate along the adenoma-carcinoma sequence of MUTYH-associated polyposis.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Eosinophil arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), recruits the eosinophils of the immune infiltrate of the adenomas of MUTYH-associated polyposis.
 
 ---
 

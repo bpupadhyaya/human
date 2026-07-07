@@ -445,6 +445,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "Immunosuppressive Tregs: the regulatory T cells of the myeloma marrow microenvironment (IL-10 and TGF-β already mapped) dampen the anti-myeloma immunity, a barrier to the T-cell (already mapped) therapies."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the anti-myeloma immunity opposed by the immunosuppressive (Tregs already mapped) marrow microenvironment."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) anti-myeloma response, opposing the immunosuppressive marrow microenvironment of multiple myeloma."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 arm of the immune microenvironment of the myeloma marrow."
 ---
 
 # Multiple Myeloma
@@ -716,6 +725,9 @@ MM evolves from precursor conditions through a well-defined continuum:
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Marrow-adipose adipokine: resistin, with leptin and adiponectin (already mapped), is part of the marrow-adipocyte adipokine crosstalk of the obesity-myeloma link and the metabolic niche of the plasma-cell clone.
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Interferon maintenance: type-I interferon was a historical maintenance therapy of multiple myeloma, and its signalling shapes the immune (NK cell already mapped) microenvironment of the marrow.
 - `connects-to` → **[Regulatory T cell](../../04-cellular/regulatory-t-cell/README.md)** — Immunosuppressive Tregs: the regulatory T cells of the myeloma marrow microenvironment (IL-10 and TGF-β already mapped) dampen the anti-myeloma immunity, a barrier to the T-cell (already mapped) therapies.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the anti-myeloma immunity opposed by the immunosuppressive (Tregs already mapped) marrow microenvironment.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) anti-myeloma response, opposing the immunosuppressive marrow microenvironment of multiple myeloma.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 arm of the immune microenvironment of the myeloma marrow.
 
 [^kumar-2022-imwg-criteria]: Kumar SK, Callander NS, Adekola K, et al. Multiple myeloma, version 3.2021, NCCN clinical practice guidelines in oncology. *J Natl Compr Canc Netw.* 2020;18(12):1685-1717. [doi:10.6004/jnccn.2020.0057](https://doi.org/10.6004/jnccn.2020.0057) · [PubMed 33285519](https://pubmed.ncbi.nlm.nih.gov/33285519/)
 [^moreau-2022-teclistamab]: Moreau P, Garfall AL, van de Donk NWCJ, et al. Teclistamab in relapsed or refractory multiple myeloma. *N Engl J Med.* 2022;387(6):495-505. [doi:10.1056/NEJMoa2203478](https://doi.org/10.1056/NEJMoa2203478) · [PubMed 35661166](https://pubmed.ncbi.nlm.nih.gov/35661166/)
