@@ -424,6 +424,15 @@ cross_links:
   - target: 01-human/07-system/obesity
     relation: connects-to
     note: "Microbiome and energy harvest: the composition of the gut microbiome influences energy harvest from the diet and the low-grade inflammation (leptin and adiponectin already mapped) of obesity, linking dysbiosis to metabolic disease."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Endotoxin-driven inflammation: the microbial LPS (TLR4 already mapped) drives the TNF of the gut and systemic inflammation, and the dysbiosis-driven TNF underlies much of the inflammation of gut and metabolic disease."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Type-2 balance: the IL-4/Th2 (anti-helminth) arm (IL-10 already mapped) is shaped by the microbiome and balances the Th17 (IL-17 already mapped) and regulatory arms of the mucosal immune response to the commensals."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Anti-helminth type-2 arm: IL-13, with IL-4 (already mapped), mediates the type-2 (anti-helminth) response that both shapes and is shaped by the gut microbiome, part of the host-microbe immune dialogue."
 ---
 
 # Gut Microbiome
@@ -637,6 +646,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[Regulatory T cell](../../04-cellular/regulatory-t-cell/README.md)** — SCFA-induced Tregs: the short-chain fatty acids of the microbiome induce regulatory T cells (TGF-β and IL-10 already mapped) in the gut, a central mechanism by which the commensal community maintains immune tolerance.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Gut macrophage sampling: the intestinal macrophages continuously sample the microbiota (TLR4 already mapped) and maintain a tolerant, anti-inflammatory tone, part of the immune dialogue between the host and its commensals.
 - `connects-to` → **[Obesity](../obesity/README.md)** — Microbiome and energy harvest: the composition of the gut microbiome influences energy harvest from the diet and the low-grade inflammation (leptin and adiponectin already mapped) of obesity, linking dysbiosis to metabolic disease.
+- `connects-to` → **[TNF-alpha](../../03-molecular/tnf-alpha/README.md)** — Endotoxin-driven inflammation: the microbial LPS (TLR4 already mapped) drives the TNF of the gut and systemic inflammation, and the dysbiosis-driven TNF underlies much of the inflammation of gut and metabolic disease.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Type-2 balance: the IL-4/Th2 (anti-helminth) arm (IL-10 already mapped) is shaped by the microbiome and balances the Th17 (IL-17 already mapped) and regulatory arms of the mucosal immune response to the commensals.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Anti-helminth type-2 arm: IL-13, with IL-4 (already mapped), mediates the type-2 (anti-helminth) response that both shapes and is shaped by the gut microbiome, part of the host-microbe immune dialogue.
 
 ## Pathology
 
