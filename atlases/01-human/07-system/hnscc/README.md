@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the angiogenesis and vascular tone of head and neck squamous cell carcinoma, and it also contributes to the inflammatory milieu of the tumour."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage (already mapped) and type-2 milieu of the immunosuppressive microenvironment that limits immunotherapy in head and neck cancer."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Metastasis and second primaries: the lung is the commonest site of distant metastasis and of the second primary cancers of the smoking-related field cancerisation in head and neck squamous cell carcinoma."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Iron-deficiency anaemia: the tumour bleeding, the dysphagia-related malnutrition and the chemoradiotherapy cause the iron-deficiency anaemia (haemoglobin already mapped) common in head and neck cancer, which also worsens radiotherapy hypoxia."
 ---
 
 # HNSCC
@@ -670,6 +679,9 @@ HPV+ oropharyngeal: Node staging based on number (not laterality); HPV-negative 
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — COX-2 field carcinogenesis: cyclooxygenase-2 and prostaglandin E2 are induced by tobacco and inflammation in the aerodigestive mucosa, promoting the proliferation and immunosuppression of the field carcinogenesis of head and neck cancer.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune-evasive microenvironment that limits immunotherapy in head and neck cancer.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the angiogenesis and vascular tone of head and neck squamous cell carcinoma, and it also contributes to the inflammatory milieu of the tumour.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage (already mapped) and type-2 milieu of the immunosuppressive microenvironment that limits immunotherapy in head and neck cancer.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Metastasis and second primaries: the lung is the commonest site of distant metastasis and of the second primary cancers of the smoking-related field cancerisation in head and neck squamous cell carcinoma.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron-deficiency anaemia: the tumour bleeding, the dysphagia-related malnutrition and the chemoradiotherapy cause the iron-deficiency anaemia (haemoglobin already mapped) common in head and neck cancer, which also worsens radiotherapy hypoxia.
 
 [^burtness-2019-keynote048]: Burtness B, Harrington KJ, Greil R, et al. Pembrolizumab alone or with chemotherapy versus cetuximab with chemotherapy for recurrent or metastatic squamous cell carcinoma of the head and neck (KEYNOTE-048). *Lancet.* 2019;394(10212):1915-1928. [doi:10.1016/S0140-6736(19)32591-7](https://doi.org/10.1016/S0140-6736(19)32591-7) · [PubMed 31679945](https://pubmed.ncbi.nlm.nih.gov/31679945/)
 [^vermorken-2008-extreme]: Vermorken JB, Mesia R, Rivera F, et al. Platinum-based chemotherapy plus cetuximab in head and neck cancer. *N Engl J Med.* 2008;359(11):1116-1127. [doi:10.1056/NEJMoa0802656](https://doi.org/10.1056/NEJMoa0802656) · [PubMed 18784101](https://pubmed.ncbi.nlm.nih.gov/18784101/)
