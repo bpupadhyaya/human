@@ -436,6 +436,15 @@ cross_links:
   - target: 01-human/03-molecular/histamine
     relation: connects-to
     note: "Vascular permeability: histamine from the activated mast cells and basophils adds to the vascular permeability (bradykinin already mapped) and the vasodilatory shock of the severe conditions that trigger DIC."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Inflammatory adipokine: leptin, with resistin (already mapped), rises in the acute inflammation (IL-6 already mapped) of the sepsis (already mapped) and severe conditions that trigger the consumptive coagulopathy of DIC."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Adipokine axis: adiponectin, with leptin and resistin (already mapped), completes the adipokine axis of the systemic inflammation driving the disseminated intravascular coagulation."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate immunothrombosis: type-I interferon is part of the innate-immune signalling of the viral and inflammatory (IL-6 already mapped) triggers of DIC, contributing to the immunothrombotic host response."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -706,6 +715,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Contact-pathway zinc: zinc released from the activated, consumed platelets (PF4 already mapped) promotes the contact pathway and fibrin (fibrinogen already mapped) formation, adding to the coagulation activation of DIC.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Sepsis-severity adipokine: resistin, a pro-inflammatory adipokine, rises markedly in the sepsis (already mapped) that commonly triggers DIC, a marker of the severity of the inflammatory drive behind the consumptive coagulopathy.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Vascular permeability: histamine from the activated mast cells and basophils adds to the vascular permeability (bradykinin already mapped) and the vasodilatory shock of the severe conditions that trigger DIC.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Inflammatory adipokine: leptin, with resistin (already mapped), rises in the acute inflammation (IL-6 already mapped) of the sepsis (already mapped) and severe conditions that trigger the consumptive coagulopathy of DIC.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine axis: adiponectin, with leptin and resistin (already mapped), completes the adipokine axis of the systemic inflammation driving the disseminated intravascular coagulation.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate immunothrombosis: type-I interferon is part of the innate-immune signalling of the viral and inflammatory (IL-6 already mapped) triggers of DIC, contributing to the immunothrombotic host response.
 
 ---
 

@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Ferroptosis vulnerability: the iron-dependent lipid peroxidation of ferroptosis is a metabolic vulnerability of diffuse midline glioma (xanthine oxidase and oxidative stress already mapped), an emerging therapeutic angle in this incurable tumour."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Serotonergic neuromodulation: serotonin modulates the neuron-glioma (glutamate, GABA and dopamine already mapped) circuits whose activity drives the growth of the electrically integrated diffuse midline glioma."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "Noradrenergic input: noradrenaline is part of the neuronal-activity-dependent (glutamate already mapped) signalling that stimulates the proliferation of diffuse midline glioma."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Lipid metabolic dependency: the cholesterol and lipid metabolism on which diffuse midline glioma depends is a metabolic vulnerability, alongside the ferroptosis (iron already mapped), being explored therapeutically."
 ---
 
 # Diffuse Midline Glioma
@@ -706,6 +715,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 arm and CAR-T target: IL-13, with IL-4 (already mapped), supports the M2 microglial niche, and the IL-13 receptor alpha-2 is a target of the CAR-T-cell approaches being trialled against diffuse midline glioma.
 - `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Neuron-glioma signalling: alongside the glutamate and GABA (already mapped) synapses, cholinergic acetylcholine signalling is part of the neuronal activity that drives the growth of the electrically integrated diffuse midline glioma.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Ferroptosis vulnerability: the iron-dependent lipid peroxidation of ferroptosis is a metabolic vulnerability of diffuse midline glioma (xanthine oxidase and oxidative stress already mapped), an emerging therapeutic angle in this incurable tumour.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Serotonergic neuromodulation: serotonin modulates the neuron-glioma (glutamate, GABA and dopamine already mapped) circuits whose activity drives the growth of the electrically integrated diffuse midline glioma.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Noradrenergic input: noradrenaline is part of the neuronal-activity-dependent (glutamate already mapped) signalling that stimulates the proliferation of diffuse midline glioma.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Lipid metabolic dependency: the cholesterol and lipid metabolism on which diffuse midline glioma depends is a metabolic vulnerability, alongside the ferroptosis (iron already mapped), being explored therapeutically.
 
 ---
 
