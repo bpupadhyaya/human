@@ -424,6 +424,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Marrow-adipocyte crosstalk: adiponectin, with leptin (already mapped), links the marrow adipocytes to the haematopoietic and stromal cells, part of the altered marrow microenvironment that accompanies the fibrosis of myelofibrosis."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Profibrotic type-2 arm: IL-13, with IL-4 (already mapped), contributes to the M2 macrophage (already mapped) and profibrotic (TGF-β already mapped) signalling that drives the marrow fibrosis of myelofibrosis."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Marrow adipokine: resistin, with leptin and adiponectin (already mapped), is part of the marrow-adipocyte adipokine crosstalk of the fibrotic marrow microenvironment of myelofibrosis."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Zinc and haematopoiesis: zinc is required for the haematopoiesis disrupted in myelofibrosis, and the zinc-copper balance is part of the trace-metal milieu of the altered marrow microenvironment."
 ---
 
 # Myelofibrosis
@@ -687,6 +696,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage niche: IL-4 polarises the marrow macrophages toward an M2 phenotype (IL-10 already mapped), part of the inflammatory, fibrotic microenvironment (TGF-β and PDGF already mapped) of the myelofibrosis marrow.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Marrow adipokine signalling: leptin from the marrow adipose tissue signals to the clonal and stromal cells, part of the metabolic microenvironment of the fibrotic myelofibrosis marrow.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Marrow-adipocyte crosstalk: adiponectin, with leptin (already mapped), links the marrow adipocytes to the haematopoietic and stromal cells, part of the altered marrow microenvironment that accompanies the fibrosis of myelofibrosis.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Profibrotic type-2 arm: IL-13, with IL-4 (already mapped), contributes to the M2 macrophage (already mapped) and profibrotic (TGF-β already mapped) signalling that drives the marrow fibrosis of myelofibrosis.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Marrow adipokine: resistin, with leptin and adiponectin (already mapped), is part of the marrow-adipocyte adipokine crosstalk of the fibrotic marrow microenvironment of myelofibrosis.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and haematopoiesis: zinc is required for the haematopoiesis disrupted in myelofibrosis, and the zinc-copper balance is part of the trace-metal milieu of the altered marrow microenvironment.
 
 ---
 

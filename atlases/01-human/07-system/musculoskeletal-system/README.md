@@ -422,6 +422,15 @@ cross_links:
   - target: 01-human/03-molecular/il-4
     relation: connects-to
     note: "Type-2 tissue repair: IL-4 drives the M2 macrophages (already mapped) that support muscle regeneration and resolve inflammation, part of the type-2 immunity that shapes repair in the musculoskeletal system."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Connective-tissue cross-linking: copper is the cofactor of lysyl oxidase that cross-links the collagen (already mapped) and elastin of bone, tendon and ligament, and its deficiency (as in Menkes) causes bone fragility and connective-tissue weakness."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Muscle antioxidant defence: selenium is essential for the selenoprotein antioxidant defence of muscle, and severe deficiency causes a myopathy (as in Keshan disease) of the musculoskeletal system."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipokine-bone crosstalk: resistin, with leptin and adiponectin (already mapped) from the marrow adipocytes (already mapped), is part of the adipokine influence on the bone and muscle metabolism of the musculoskeletal system."
 ---
 
 # Musculoskeletal System
@@ -693,6 +702,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Motor innervation: the motor neurons drive skeletal muscle at the neuromuscular junction (acetylcholine already mapped), and the sensory neurons carry the proprioception and pain (substance P and CGRP already mapped) of the musculoskeletal system.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Osteoclasts and muscle repair: the macrophage lineage gives rise to the bone-resorbing osteoclasts (RANKL already mapped) and to the muscle-repair macrophages, central to remodelling and regeneration in the musculoskeletal system.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Type-2 tissue repair: IL-4 drives the M2 macrophages (already mapped) that support muscle regeneration and resolve inflammation, part of the type-2 immunity that shapes repair in the musculoskeletal system.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Connective-tissue cross-linking: copper is the cofactor of lysyl oxidase that cross-links the collagen (already mapped) and elastin of bone, tendon and ligament, and its deficiency (as in Menkes) causes bone fragility and connective-tissue weakness.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Muscle antioxidant defence: selenium is essential for the selenoprotein antioxidant defence of muscle, and severe deficiency causes a myopathy (as in Keshan disease) of the musculoskeletal system.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine-bone crosstalk: resistin, with leptin and adiponectin (already mapped) from the marrow adipocytes (already mapped), is part of the adipokine influence on the bone and muscle metabolism of the musculoskeletal system.
 
 ## Pathology
 
