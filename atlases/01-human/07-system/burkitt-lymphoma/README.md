@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Transfusion and anaemia: the anaemia of marrow involvement and intensive chemotherapy (haemoglobin already mapped) requires red-cell transfusion in Burkitt lymphoma, whose repeated support can load the body with iron."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "CNS involvement: Burkitt lymphoma has a high risk of central nervous system involvement and relapse, requiring intrathecal chemotherapy prophylaxis to the brain and meninges as part of curative therapy."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Tumour-lysis hyperkalaemia: the massive, rapid cell turnover of Burkitt lymphoma (xanthine oxidase and urate already mapped) releases potassium, the hyperkalaemia of tumour-lysis syndrome being a life-threatening metabolic emergency."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Starry-sky macrophages: IL-4 polarises the tingible-body macrophages that engulf the abundant apoptotic cells, producing the classic 'starry-sky' appearance (IL-10 already mapped) of the M2 macrophages in Burkitt lymphoma."
 ---
 
 # Burkitt Lymphoma
@@ -690,6 +699,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10, whose viral homologue is encoded by the Epstein-Barr virus (LMP1 already mapped) of endemic Burkitt lymphoma, dampens the anti-tumour T-cell response (PD-1 already mapped), part of the immune evasion of the tumour.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Tumour angiogenesis: VEGF-driven angiogenesis supplies the extraordinarily proliferative Burkitt lymphoma (HIF-1-alpha already mapped), part of the microenvironment sustaining the fastest-growing human tumour.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Transfusion and anaemia: the anaemia of marrow involvement and intensive chemotherapy (haemoglobin already mapped) requires red-cell transfusion in Burkitt lymphoma, whose repeated support can load the body with iron.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — CNS involvement: Burkitt lymphoma has a high risk of central nervous system involvement and relapse, requiring intrathecal chemotherapy prophylaxis to the brain and meninges as part of curative therapy.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Tumour-lysis hyperkalaemia: the massive, rapid cell turnover of Burkitt lymphoma (xanthine oxidase and urate already mapped) releases potassium, the hyperkalaemia of tumour-lysis syndrome being a life-threatening metabolic emergency.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Starry-sky macrophages: IL-4 polarises the tingible-body macrophages that engulf the abundant apoptotic cells, producing the classic 'starry-sky' appearance (IL-10 already mapped) of the M2 macrophages in Burkitt lymphoma.
 
 ---
 

@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative tumour milieu: the constitutive PKA activity from PRKAR1A loss (already mapped) dysregulates cellular metabolism, and the resulting oxidative stress, to which xanthine oxidase contributes, is part of the milieu of the tumours of Carney complex."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Pituitary tumours: the growth-hormone-secreting somatotroph adenomas (GH and IGF-1 already mapped) of the pituitary in the brain cause the acromegaly of Carney complex, part of its multiple-endocrine-tumour phenotype."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "Thyroid tumours: the thyroid follicular adenomas and carcinomas (thyroid hormones already mapped) are part of the endocrine-tumour spectrum of Carney complex, driven by the constitutive PKA activity of PRKAR1A loss (already mapped)."
+  - target: 01-human/07-system/schwannomatosis
+    relation: connects-to
+    note: "Melanotic schwannomas: the psammomatous melanotic schwannomas — pigmented nerve-sheath tumours — are a characteristic feature of Carney complex, overlapping the schwannoma-predisposition disorders."
 ---
 
 # Carney Complex
@@ -677,6 +686,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Adrenal involvement: beyond the cortisol-secreting PPNAD (cortisol and ACTH already mapped), the pigmented nodular adrenal disease of Carney complex reflects the constitutive PKA activity (PRKAR1A already mapped) that can also perturb aldosterone-producing adrenal tissue.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — GH-axis metabolic effects: the growth-hormone-secreting pituitary tumours of Carney complex (GH and IGF-1 already mapped) cause the insulin resistance and glucose intolerance of acromegaly, a metabolic consequence of the endocrine overactivity.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative tumour milieu: the constitutive PKA activity from PRKAR1A loss (already mapped) dysregulates cellular metabolism, and the resulting oxidative stress, to which xanthine oxidase contributes, is part of the milieu of the tumours of Carney complex.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Pituitary tumours: the growth-hormone-secreting somatotroph adenomas (GH and IGF-1 already mapped) of the pituitary in the brain cause the acromegaly of Carney complex, part of its multiple-endocrine-tumour phenotype.
+- `connects-to` → **[Thyroid](../../06-organ/thyroid/README.md)** — Thyroid tumours: the thyroid follicular adenomas and carcinomas (thyroid hormones already mapped) are part of the endocrine-tumour spectrum of Carney complex, driven by the constitutive PKA activity of PRKAR1A loss (already mapped).
+- `connects-to` → **[Schwannomatosis](../schwannomatosis/README.md)** — Melanotic schwannomas: the psammomatous melanotic schwannomas — pigmented nerve-sheath tumours — are a characteristic feature of Carney complex, overlapping the schwannoma-predisposition disorders.
 
 ---
 
