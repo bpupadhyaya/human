@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "Immune microenvironment: the cytotoxic T cells (perforin already mapped) of the tumour microenvironment are the focus of the immunotherapy explored for the relapsed and anaplastic Wilms tumour that resists chemotherapy."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Metabolic microenvironment: leptin from the marrow and stromal adipose tissue signals within the metabolic microenvironment of the metastatic Wilms tumour."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Marrow-adipose adipokine: adiponectin, with leptin (already mapped), is the marrow-adipose adipokine of the Wilms-tumour microenvironment."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the Wilms-tumour microenvironment."
 ---
 
 # Wilms Tumor
@@ -696,6 +705,9 @@ Wilms tumor survivors face late effects proportional to treatment intensity:
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immune microenvironment of the Wilms tumour.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Intravascular extension: Wilms tumour can grow up the renal vein and inferior vena cava into the right atrium of the heart, a tumour thrombus that complicates surgery and can embolise.
 - `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Immune microenvironment: the cytotoxic T cells (perforin already mapped) of the tumour microenvironment are the focus of the immunotherapy explored for the relapsed and anaplastic Wilms tumour that resists chemotherapy.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Metabolic microenvironment: leptin from the marrow and stromal adipose tissue signals within the metabolic microenvironment of the metastatic Wilms tumour.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Marrow-adipose adipokine: adiponectin, with leptin (already mapped), is the marrow-adipose adipokine of the Wilms-tumour microenvironment.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the Wilms-tumour microenvironment.
 
 [^dome-2015-wilms]: Dome JS, Graf N, Geller JI, et al. Advances in Wilms tumor treatment and biology: progress through international collaboration. *J Clin Oncol.* 2015;33(27):2999-3007. [doi:10.1200/JCO.2015.62.1888](https://doi.org/10.1200/JCO.2015.62.1888) · [PubMed 26261251](https://pubmed.ncbi.nlm.nih.gov/26261251/)
 [^dix-2006-arenl0002]: Dix DB, Bhatt SM, Geller JI, et al. Treatment of Stage IV favorable histology Wilms tumor with incomplete lung metastasis response after chemotherapy: a report from Children's Oncology Group Study AREN0533. *J Clin Oncol.* 2018;36(16):1564-1570. [doi:10.1200/JCO.2017.77.1877](https://doi.org/10.1200/JCO.2017.77.1877) · [PubMed 29584550](https://pubmed.ncbi.nlm.nih.gov/29584550/)

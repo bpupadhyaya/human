@@ -436,6 +436,15 @@ cross_links:
   - target: 01-human/03-molecular/hepcidin
     relation: connects-to
     note: "Chronic-wound iron: the persistent inflammation (IL-6 already mapped) of the chronic non-healing wound raises hepcidin, sequestering the iron (already mapped) needed for the repair and the oxygen (already mapped) delivery."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "M1-to-M2 transition: the macrophages transition from the inflammatory M1 to the reparative M2 (IL-4 and IL-13 already mapped) phenotype, orchestrating the debridement, the angiogenesis (VEGF already mapped) and the resolution of wound healing."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Haemostatic plug: the platelets form the initial haemostatic plug (thrombin and fibrinogen already mapped) and release the PDGF and TGF-β (already mapped) growth factors that initiate wound healing."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Lysyl-oxidase crosslinking: the copper-dependent lysyl oxidase cross-links the collagen (already mapped) and elastin, and the copper promotes the angiogenesis (VEGF and HIF already mapped) of wound healing."
 ---
 
 # Wound Healing
@@ -694,6 +703,9 @@ cross_links:
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Reparative adipokine: adiponectin promotes the keratinocyte and fibroblast (already mapped) proliferation and migration of wound repair, and its deficiency in obesity contributes to the impaired healing (leptin already mapped).
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine inflammation: resistin, with leptin and adiponectin (already mapped), links the adipose state to the inflammation of the wound, contributing to the impaired healing of the obese and diabetic (insulin already mapped) wound.
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Chronic-wound iron: the persistent inflammation (IL-6 already mapped) of the chronic non-healing wound raises hepcidin, sequestering the iron (already mapped) needed for the repair and the oxygen (already mapped) delivery.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — M1-to-M2 transition: the macrophages transition from the inflammatory M1 to the reparative M2 (IL-4 and IL-13 already mapped) phenotype, orchestrating the debridement, the angiogenesis (VEGF already mapped) and the resolution of wound healing.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Haemostatic plug: the platelets form the initial haemostatic plug (thrombin and fibrinogen already mapped) and release the PDGF and TGF-β (already mapped) growth factors that initiate wound healing.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Lysyl-oxidase crosslinking: the copper-dependent lysyl oxidase cross-links the collagen (already mapped) and elastin, and the copper promotes the angiogenesis (VEGF and HIF already mapped) of wound healing.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)
