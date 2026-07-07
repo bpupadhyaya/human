@@ -433,6 +433,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Obesity and iron dysregulation: the chronic inflammation of obesity raises hepcidin, sequestering iron to cause a functional iron deficiency despite adequate stores, part of the disturbed metabolic milieu of the disease."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Adipose M2 maintenance: IL-13, with IL-4 (already mapped), maintains the anti-inflammatory M2 macrophages (already mapped) of the lean adipose tissue, and the loss of this type-2 signalling in obesity drives the inflammatory shift and insulin resistance."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Eosinophil-M2 axis: IL-5 recruits the adipose eosinophils that sustain the M2 macrophages (already mapped) and metabolic health of lean fat, and their loss contributes to the adipose inflammation of obesity."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Functional iron deficiency: the obesity inflammation (IL-6 already mapped) raises hepcidin, which sequesters iron (already mapped) to cause the functional iron deficiency characteristic of obesity despite adequate stores."
 ---
 
 # Obesity
@@ -711,6 +720,9 @@ This **metainflammation** mechanistically links obesity to type 2 diabetes, athe
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Adipose M2 macrophages: IL-4 sustains the anti-inflammatory M2 macrophages (already mapped) of healthy lean adipose tissue (IL-10 already mapped), and the shift toward pro-inflammatory macrophages in obesity drives its insulin resistance.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Adipose eicosanoids: prostaglandins regulate adipogenesis and, from the inflamed adipose tissue (TNF and IL-6 already mapped), contribute to the low-grade inflammation and metabolic dysfunction of obesity.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Obesity and iron dysregulation: the chronic inflammation of obesity raises hepcidin, sequestering iron to cause a functional iron deficiency despite adequate stores, part of the disturbed metabolic milieu of the disease.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Adipose M2 maintenance: IL-13, with IL-4 (already mapped), maintains the anti-inflammatory M2 macrophages (already mapped) of the lean adipose tissue, and the loss of this type-2 signalling in obesity drives the inflammatory shift and insulin resistance.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Eosinophil-M2 axis: IL-5 recruits the adipose eosinophils that sustain the M2 macrophages (already mapped) and metabolic health of lean fat, and their loss contributes to the adipose inflammation of obesity.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Functional iron deficiency: the obesity inflammation (IL-6 already mapped) raises hepcidin, which sequesters iron (already mapped) to cause the functional iron deficiency characteristic of obesity despite adequate stores.
 
 [^bluher-2019-obesity-review]: Blüher M. Obesity: global epidemiology and pathogenesis. *Nat Rev Endocrinol.* 2019;15(5):288-298. [doi:10.1038/s41574-019-0176-8](https://doi.org/10.1038/s41574-019-0176-8) · [PubMed 30814686](https://pubmed.ncbi.nlm.nih.gov/30814686/)
 [^wilding-2021-semaglutide-step1]: Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. *N Engl J Med.* 2021;384(11):989-1002. [doi:10.1056/NEJMoa2032183](https://doi.org/10.1056/NEJMoa2032183) · [PubMed 33567185](https://pubmed.ncbi.nlm.nih.gov/33567185/)

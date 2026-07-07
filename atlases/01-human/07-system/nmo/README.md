@@ -436,6 +436,15 @@ cross_links:
   - target: 03-medicine/03-food/omega-3-fatty-acids
     relation: connects-to
     note: "Omega-3 and inflammation resolution: the omega-3 fatty acids give rise to specialised pro-resolving mediators that counter the inflammatory eicosanoids (prostaglandins already mapped), studied as an adjunct in autoimmune neuroinflammation such as neuromyelitis optica."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Adipokine and autoimmunity: leptin, elevated in neuromyelitis optica, promotes the Th17 (IL-17 already mapped) and autoreactive responses, linking the metabolic-inflammatory state to the disease activity."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Checkpoint tolerance: the PD-1 checkpoint and the peripheral-tolerance mechanisms, when dysfunctional, permit the anti-AQP4 (already mapped) autoreactivity that drives neuromyelitis optica."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Counter-regulatory adipokine: adiponectin, the anti-inflammatory counterpart of leptin (already mapped), is part of the adipokine-immune crosstalk whose imbalance shapes the autoimmune neuroinflammation of neuromyelitis optica."
 ---
 
 # NMOSD
@@ -721,6 +730,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium and excitotoxicity: magnesium blocks the NMDA receptor and buffers the glutamate (already mapped) excitotoxicity released when astrocytes (already mapped) are destroyed in the neuromyelitis optica lesion, a neuroprotective ion.
 - `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D and autoimmunity: low vitamin D status is associated with neuromyelitis optica and other autoimmune demyelinating disease, its immunomodulation of the T- and B-cell response (type-I interferon already mapped) influencing risk and activity.
 - `connects-to` → **[Omega-3 fatty acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Omega-3 and inflammation resolution: the omega-3 fatty acids give rise to specialised pro-resolving mediators that counter the inflammatory eicosanoids (prostaglandins already mapped), studied as an adjunct in autoimmune neuroinflammation such as neuromyelitis optica.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adipokine and autoimmunity: leptin, elevated in neuromyelitis optica, promotes the Th17 (IL-17 already mapped) and autoreactive responses, linking the metabolic-inflammatory state to the disease activity.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Checkpoint tolerance: the PD-1 checkpoint and the peripheral-tolerance mechanisms, when dysfunctional, permit the anti-AQP4 (already mapped) autoreactivity that drives neuromyelitis optica.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Counter-regulatory adipokine: adiponectin, the anti-inflammatory counterpart of leptin (already mapped), is part of the adipokine-immune crosstalk whose imbalance shapes the autoimmune neuroinflammation of neuromyelitis optica.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)
