@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: connects-to
     note: "Pineoblastoma and CNS tumours: the pineoblastoma and the CNS sarcomas of the brain are part of the DICER1 tumour spectrum, reflecting the germline miRNA-processing (DICER1 already mapped) defect."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "Multinodular goitre: the thyroid gland develops the multinodular goitre (thyroid-hormones already mapped) and the differentiated thyroid cancer of the DICER1 syndrome, especially after chemotherapy/RT."
+  - target: 01-human/07-system/ovarian-cancer
+    relation: connects-to
+    note: "Sertoli-Leydig tumour: the ovarian Sertoli-Leydig cell tumour (the androgen — androgen-receptor already mapped — secreting sex-cord-stromal tumour) is a characteristic DICER1 ovarian tumour."
+  - target: 01-human/07-system/wilms-tumor
+    relation: connects-to
+    note: "Renal-tumour differential: the DICER1 renal tumours (the cystic nephroma, the anaplastic sarcoma — WT1 already mapped) are in the differential of the Wilms tumour."
 ---
 
 # DICER1 Syndrome
@@ -694,6 +703,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Cystic nephroma: the cystic nephroma (and the anaplastic sarcoma) of the kidney (WT1 already mapped) is a characteristic DICER1 renal tumour of childhood.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Ciliary-body medulloepithelioma: the intraocular ciliary-body medulloepithelioma of the eye is a rare but characteristic tumour of the DICER1 syndrome spectrum.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Pineoblastoma and CNS tumours: the pineoblastoma and the CNS sarcomas of the brain are part of the DICER1 tumour spectrum, reflecting the germline miRNA-processing (DICER1 already mapped) defect.
+- `connects-to` → **[Thyroid](../../06-organ/thyroid/README.md)** — Multinodular goitre: the thyroid gland develops the multinodular goitre (thyroid-hormones already mapped) and the differentiated thyroid cancer of the DICER1 syndrome, especially after chemotherapy/RT.
+- `connects-to` → **[Ovarian cancer](../ovarian-cancer/README.md)** — Sertoli-Leydig tumour: the ovarian Sertoli-Leydig cell tumour (the androgen — androgen-receptor already mapped — secreting sex-cord-stromal tumour) is a characteristic DICER1 ovarian tumour.
+- `connects-to` → **[Wilms tumor](../wilms-tumor/README.md)** — Renal-tumour differential: the DICER1 renal tumours (the cystic nephroma, the anaplastic sarcoma — WT1 already mapped) are in the differential of the Wilms tumour.
 
 ---
 

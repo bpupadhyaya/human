@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Fibro-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory milieu (IL-6 already mapped) to the fibro-inflammatory stroma of the desmoid tumour."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Immune microenvironment: the NK cells and the anti-tumour immune surveillance of the immunologically cold desmoid microenvironment (CCL2 already mapped), relevant to the limited immunotherapy response."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Inflammatory stroma: the tumour-associated neutrophils and the neutrophil-lymphocyte ratio are studied prognostic markers of the fibro-inflammatory (IL-6 already mapped) desmoid stroma."
+  - target: 01-human/07-system/osteosarcoma
+    relation: connects-to
+    note: "Mesenchymal-tumour differential: the desmoid and osteosarcoma are locally aggressive mesenchymal neoplasms of the deep soft tissue/bone, in the imaging and biopsy differential of a deep infiltrative mass."
 ---
 
 # Desmoid Tumor
@@ -713,6 +722,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Fibro-adipose crosstalk: leptin from the fibro-adipose tissue in which the desmoids arise engages in adipokine-fibroblast (already mapped) crosstalk, part of the tumour microenvironment of the fibromatosis.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Mesenteric adipokine: adiponectin, with leptin (already mapped), from the mesenteric and abdominal-wall fibro-adipose tissue signals within the desmoid microenvironment.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Fibro-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory milieu (IL-6 already mapped) to the fibro-inflammatory stroma of the desmoid tumour.
+- `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Immune microenvironment: the NK cells and the anti-tumour immune surveillance of the immunologically cold desmoid microenvironment (CCL2 already mapped), relevant to the limited immunotherapy response.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Inflammatory stroma: the tumour-associated neutrophils and the neutrophil-lymphocyte ratio are studied prognostic markers of the fibro-inflammatory (IL-6 already mapped) desmoid stroma.
+- `connects-to` → **[Osteosarcoma](../osteosarcoma/README.md)** — Mesenchymal-tumour differential: the desmoid and osteosarcoma are locally aggressive mesenchymal neoplasms of the deep soft tissue/bone, in the imaging and biopsy differential of a deep infiltrative mass.
 
 ---
 
