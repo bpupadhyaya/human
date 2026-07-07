@@ -445,6 +445,15 @@ cross_links:
   - target: 01-human/03-molecular/hepcidin
     relation: connects-to
     note: "Iron paradox: the inflammation (IL-6 already mapped) of anorexia raises hepcidin while the malnutrition depletes iron, together shaping the variable anaemia (haemoglobin already mapped) of the starvation state."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Refeeding hypomagnesaemia: the refeeding syndrome and the purging cause the hypomagnesaemia (with the phosphate and potassium already mapped), contributing to the arrhythmias of anorexia nervosa."
+  - target: 01-human/04-cellular/adipocyte
+    relation: connects-to
+    note: "Depleted adipocytes: the near-total loss of the adipocytes (the fat mass) in the starvation of anorexia collapses the leptin (already mapped) and adipokine (adiponectin and resistin already mapped) signalling."
+  - target: 01-human/07-system/obsessive-compulsive-disorder
+    relation: connects-to
+    note: "OCD comorbidity: obsessive-compulsive disorder and anorexia nervosa are highly comorbid, sharing the perfectionism, the rigidity and the serotonergic (already mapped) dysregulation."
 ---
 
 # Anorexia Nervosa
@@ -728,6 +737,9 @@ In healthy individuals, food cues activate the mesolimbic reward circuit (VTA �
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Starvation immunity: IL-4 and the Th2 arm (IL-10 already mapped) shift in the altered immunity of the starvation state, part of the immune dysregulation and paradoxically preserved immunity of anorexia nervosa.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 arm: IL-13, with IL-4 (already mapped), is part of the type-2 cytokine response whose alteration accompanies the immune dysregulation of the starvation state in anorexia nervosa.
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Iron paradox: the inflammation (IL-6 already mapped) of anorexia raises hepcidin while the malnutrition depletes iron, together shaping the variable anaemia (haemoglobin already mapped) of the starvation state.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Refeeding hypomagnesaemia: the refeeding syndrome and the purging cause the hypomagnesaemia (with the phosphate and potassium already mapped), contributing to the arrhythmias of anorexia nervosa.
+- `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Depleted adipocytes: the near-total loss of the adipocytes (the fat mass) in the starvation of anorexia collapses the leptin (already mapped) and adipokine (adiponectin and resistin already mapped) signalling.
+- `connects-to` → **[Obsessive-compulsive disorder](../obsessive-compulsive-disorder/README.md)** — OCD comorbidity: obsessive-compulsive disorder and anorexia nervosa are highly comorbid, sharing the perfectionism, the rigidity and the serotonergic (already mapped) dysregulation.
 
 [^treasure-2010-an-lancet]: Treasure J, Claudino AM, Zucker N. Eating disorders. *Lancet.* 2010;375(9714):583-593. [doi:10.1016/S0140-6736(09)61748-7](https://doi.org/10.1016/S0140-6736(09)61748-7) · [PubMed 19931176](https://pubmed.ncbi.nlm.nih.gov/19931176/)
 [^lock-2010-fbt-an]: Lock J, Le Grange D, Agras WS, et al. Randomized clinical trial comparing family-based treatment with adolescent-focused individual therapy for adolescents with anorexia nervosa. *Arch Gen Psychiatry.* 2010;67(10):1025-1032. [doi:10.1001/archgenpsychiatry.2010.128](https://doi.org/10.1001/archgenpsychiatry.2010.128) · [PubMed 20921118](https://pubmed.ncbi.nlm.nih.gov/20921118/)

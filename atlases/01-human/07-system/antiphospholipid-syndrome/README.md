@@ -436,6 +436,15 @@ cross_links:
   - target: 01-human/03-molecular/ctla-4
     relation: connects-to
     note: "Co-inhibitory checkpoint: CTLA-4, with PD-1 (already mapped), regulates the autoreactive T cells that help the B cells (CD20 and BAFF already mapped) produce the pathogenic antibodies of antiphospholipid syndrome."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Immune-metabolic adipokine: leptin is the adipokine of the immune-metabolic milieu that modulates the thrombo-inflammatory autoimmunity of antiphospholipid syndrome."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic-inflammatory milieu of antiphospholipid syndrome."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the thrombo-inflammatory milieu (IL-6 and TNF already mapped) of antiphospholipid syndrome."
 ---
 
 # Antiphospholipid Syndrome
@@ -721,6 +730,9 @@ In APS, anti-B2GPI IgG bound to B2GPI on phospholipid surfaces converts this ant
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Autoimmune signature: the type-I interferon of the autoimmune (lupus already mapped) background promotes the endothelial (already mapped) prothrombotic state and the autoantibody production of antiphospholipid syndrome.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Checkpoint tolerance: the PD-1 checkpoint and peripheral-tolerance mechanisms, when dysfunctional, permit the anti-β2-glycoprotein-I (already mapped) autoreactivity that drives antiphospholipid syndrome.
 - `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Co-inhibitory checkpoint: CTLA-4, with PD-1 (already mapped), regulates the autoreactive T cells that help the B cells (CD20 and BAFF already mapped) produce the pathogenic antibodies of antiphospholipid syndrome.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Immune-metabolic adipokine: leptin is the adipokine of the immune-metabolic milieu that modulates the thrombo-inflammatory autoimmunity of antiphospholipid syndrome.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic-inflammatory milieu of antiphospholipid syndrome.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the thrombo-inflammatory milieu (IL-6 and TNF already mapped) of antiphospholipid syndrome.
 
 [^miyakis-2006-sydney-aps]: Miyakis S, Lockshin MD, Atsumi T, et al. International consensus statement on an update of the classification criteria for definite antiphospholipid syndrome (APS). *J Thromb Haemost.* 2006;4(2):295-306. [doi:10.1111/j.1538-7836.2006.01753.x](https://doi.org/10.1111/j.1538-7836.2006.01753.x) · [PubMed 16420554](https://pubmed.ncbi.nlm.nih.gov/16420554/)
 [^barbhaiya-2023-acreular-aps]: Barbhaiya M, Zuily S, Naden R, et al. The 2023 ACR/EULAR antiphospholipid syndrome classification criteria. *Ann Rheum Dis.* 2023;82(10):1258-1270. [doi:10.1136/ard-2023-224609](https://doi.org/10.1136/ard-2023-224609) · [PubMed 37643823](https://pubmed.ncbi.nlm.nih.gov/37643823/)
