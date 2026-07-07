@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the obesity-associated oesophageal adenocarcinoma."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Selenium-deficiency risk: the dietary selenium deficiency (the Linxian region) is a risk factor for the oesophageal squamous-cell carcinoma, the antioxidant selenoprotein protection being chemopreventive."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "GI-bleed anaemia: the chronic tumour blood loss and the inflammation (IL-6 already mapped)-driven hepcidin produce the iron-restricted anaemia (haemoglobin already mapped) of oesophageal cancer."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate antitumour interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune tumour microenvironment relevant to the immunotherapy of oesophageal cancer."
 ---
 
 # Esophageal Cancer
@@ -717,6 +726,9 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Obesity-adenocarcinoma adipokine: adiponectin, with leptin (already mapped), links the obesity (already mapped) that drives the oesophageal adenocarcinoma to the metabolic-inflammatory milieu of the tumour.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — M2 desmoplastic arm: IL-13, with IL-4 (already mapped), drives the M2 macrophage (already mapped) arm of the immunosuppressive desmoplastic (fibroblast already mapped) stroma of oesophageal cancer.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the obesity-associated oesophageal adenocarcinoma.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Selenium-deficiency risk: the dietary selenium deficiency (the Linxian region) is a risk factor for the oesophageal squamous-cell carcinoma, the antioxidant selenoprotein protection being chemopreventive.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — GI-bleed anaemia: the chronic tumour blood loss and the inflammation (IL-6 already mapped)-driven hepcidin produce the iron-restricted anaemia (haemoglobin already mapped) of oesophageal cancer.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate antitumour interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune tumour microenvironment relevant to the immunotherapy of oesophageal cancer.
 
 ---
 

@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Iron deficiency and PV masking: coexisting iron deficiency can lower the haemoglobin and mask an underlying polycythaemia vera (already mapped) as essential thrombocythaemia, and drives the microcytosis of the disorder."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "M2 marrow microenvironment: IL-13, with IL-4 (already mapped), drives the M2 macrophage arm of the inflammatory (IL-6 already mapped) marrow microenvironment of essential thrombocythaemia."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Immune surveillance: the NK cells contribute to the immune surveillance of the JAK2 (already mapped)-mutant clone, and the interferon (type-I interferon already mapped) therapy augments the anti-clonal immunity of essential thrombocythaemia."
+  - target: 01-human/04-cellular/hepatocyte
+    relation: connects-to
+    note: "Thrombopoietin source: the hepatocytes are the main source of the thrombopoietin (already mapped), the MPL (already mapped) ligand whose signalling is dysregulated in essential thrombocythaemia."
 ---
 
 # Essential Thrombocythemia
@@ -697,6 +706,9 @@ Management:
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine milieu: resistin, with leptin and adiponectin (already mapped), completes the marrow-adipocyte adipokine signalling of the metabolic microenvironment of essential thrombocythaemia.
 - `connects-to` → **[AML](../aml/README.md)** — Leukaemic transformation: essential thrombocythaemia can transform to acute myeloid leukaemia (the blast phase, RUNX1 already mapped), a feared outcome of the myeloproliferative neoplasm.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron deficiency and PV masking: coexisting iron deficiency can lower the haemoglobin and mask an underlying polycythaemia vera (already mapped) as essential thrombocythaemia, and drives the microcytosis of the disorder.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — M2 marrow microenvironment: IL-13, with IL-4 (already mapped), drives the M2 macrophage arm of the inflammatory (IL-6 already mapped) marrow microenvironment of essential thrombocythaemia.
+- `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Immune surveillance: the NK cells contribute to the immune surveillance of the JAK2 (already mapped)-mutant clone, and the interferon (type-I interferon already mapped) therapy augments the anti-clonal immunity of essential thrombocythaemia.
+- `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — Thrombopoietin source: the hepatocytes are the main source of the thrombopoietin (already mapped), the MPL (already mapped) ligand whose signalling is dysregulated in essential thrombocythaemia.
 
 [^harrison-2005-pt1-et]: Harrison CN, Campbell PJ, Buck G, et al. Hydroxyurea compared with anagrelide in high-risk essential thrombocythemia. *N Engl J Med.* 2005;353(1):33-45. [doi:10.1056/NEJMoa043800](https://doi.org/10.1056/NEJMoa043800) · [PubMed 16000354](https://pubmed.ncbi.nlm.nih.gov/16000354/)
 [^barbui-2012-ipset]: Barbui T, Finazzi G, Carobbio A, et al. Development and validation of an International Prognostic Score of thrombosis in World Health Organization-essential thrombocythemia (IPSET-thrombosis). *Blood.* 2012;120(26):5128-5133. [doi:10.1182/blood-2012-07-444067](https://doi.org/10.1182/blood-2012-07-444067) · [PubMed 23086758](https://pubmed.ncbi.nlm.nih.gov/23086758/)
