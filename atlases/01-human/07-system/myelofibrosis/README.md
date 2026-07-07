@@ -433,6 +433,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "Zinc and haematopoiesis: zinc is required for the haematopoiesis disrupted in myelofibrosis, and the zinc-copper balance is part of the trace-metal milieu of the altered marrow microenvironment."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Pro-fibrotic macrophages: the marrow macrophages and the monocyte-derived fibrocytes contribute to the reactive fibrosis (TGF-β and PDGF already mapped) of myelofibrosis."
+  - target: 01-human/07-system/aml
+    relation: connects-to
+    note: "Blast-phase transformation: myelofibrosis carries the risk of blast-phase transformation to acute myeloid leukaemia (the increasing blasts; TP53 and RUNX1 already mapped), the terminal event."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Transfusion iron overload: the transfusion-dependent anaemia (haemoglobin already mapped) of myelofibrosis causes the iron overload (hepcidin and ferroportin already mapped), needing chelation."
 ---
 
 # Myelofibrosis
@@ -699,6 +708,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Profibrotic type-2 arm: IL-13, with IL-4 (already mapped), contributes to the M2 macrophage (already mapped) and profibrotic (TGF-β already mapped) signalling that drives the marrow fibrosis of myelofibrosis.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Marrow adipokine: resistin, with leptin and adiponectin (already mapped), is part of the marrow-adipocyte adipokine crosstalk of the fibrotic marrow microenvironment of myelofibrosis.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and haematopoiesis: zinc is required for the haematopoiesis disrupted in myelofibrosis, and the zinc-copper balance is part of the trace-metal milieu of the altered marrow microenvironment.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Pro-fibrotic macrophages: the marrow macrophages and the monocyte-derived fibrocytes contribute to the reactive fibrosis (TGF-β and PDGF already mapped) of myelofibrosis.
+- `connects-to` → **[AML](../aml/README.md)** — Blast-phase transformation: myelofibrosis carries the risk of blast-phase transformation to acute myeloid leukaemia (the increasing blasts; TP53 and RUNX1 already mapped), the terminal event.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Transfusion iron overload: the transfusion-dependent anaemia (haemoglobin already mapped) of myelofibrosis causes the iron overload (hepcidin and ferroportin already mapped), needing chelation.
 
 ---
 

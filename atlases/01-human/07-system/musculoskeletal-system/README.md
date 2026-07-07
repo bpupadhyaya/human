@@ -431,6 +431,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Adipokine-bone crosstalk: resistin, with leptin and adiponectin (already mapped) from the marrow adipocytes (already mapped), is part of the adipokine influence on the bone and muscle metabolism of the musculoskeletal system."
+  - target: 01-human/04-cellular/adipocyte
+    relation: connects-to
+    note: "Marrow adipocytes: the marrow adipocytes (the source of leptin, adiponectin and resistin already mapped) of the musculoskeletal system's bone marrow influence the bone and haematopoiesis, expanding with age and osteoporosis."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Bone mineralisation: vitamin D drives the intestinal calcium (already mapped) absorption and the bone mineralisation (PTH already mapped); its deficiency causes the rickets and osteomalacia of the musculoskeletal system."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Connective-tissue fibroblasts: the fibroblasts of the tendons, ligaments and fascia synthesise the collagen (already mapped) matrix of the musculoskeletal system's soft connective tissues."
 ---
 
 # Musculoskeletal System
@@ -705,6 +714,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Connective-tissue cross-linking: copper is the cofactor of lysyl oxidase that cross-links the collagen (already mapped) and elastin of bone, tendon and ligament, and its deficiency (as in Menkes) causes bone fragility and connective-tissue weakness.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Muscle antioxidant defence: selenium is essential for the selenoprotein antioxidant defence of muscle, and severe deficiency causes a myopathy (as in Keshan disease) of the musculoskeletal system.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine-bone crosstalk: resistin, with leptin and adiponectin (already mapped) from the marrow adipocytes (already mapped), is part of the adipokine influence on the bone and muscle metabolism of the musculoskeletal system.
+- `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Marrow adipocytes: the marrow adipocytes (the source of leptin, adiponectin and resistin already mapped) of the musculoskeletal system's bone marrow influence the bone and haematopoiesis, expanding with age and osteoporosis.
+- `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Bone mineralisation: vitamin D drives the intestinal calcium (already mapped) absorption and the bone mineralisation (PTH already mapped); its deficiency causes the rickets and osteomalacia of the musculoskeletal system.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Connective-tissue fibroblasts: the fibroblasts of the tendons, ligaments and fascia synthesise the collagen (already mapped) matrix of the musculoskeletal system's soft connective tissues.
 
 ## Pathology
 
