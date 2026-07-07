@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/07-system/renal-cell-carcinoma
     relation: connects-to
     note: "Renal cancer risk: the tuberous sclerosis (mTOR already mapped) angiomyolipomas of the kidney (already mapped) carry an elevated risk of renal cell carcinoma, requiring surveillance."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "mTOR-interferon crosstalk: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, is modulated by the mTOR (already mapped) hyperactivation and shapes the neuroinflammatory microenvironment of the tubers of tuberous sclerosis."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 neuroinflammation: the IFN-γ of the T cells is the type-II interferon arm of the neuroinflammation associated with the epileptogenic cortical tubers of tuberous sclerosis."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the inflammatory microenvironment implicated in tuberous sclerosis."
 ---
 
 # Tuberous Sclerosis Complex
@@ -719,6 +728,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Metabolic adipokine: resistin, with leptin and adiponectin (already mapped), is part of the adipokine axis of the mTOR-integrated (already mapped) metabolic dysregulation of the hamartomas of tuberous sclerosis.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Retinal hamartomas: the retinal astrocytic hamartomas of the eye are a diagnostic feature of tuberous sclerosis, part of its multi-organ hamartoma (mTOR already mapped) spectrum.
 - `connects-to` → **[Renal cell carcinoma](../renal-cell-carcinoma/README.md)** — Renal cancer risk: the tuberous sclerosis (mTOR already mapped) angiomyolipomas of the kidney (already mapped) carry an elevated risk of renal cell carcinoma, requiring surveillance.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — mTOR-interferon crosstalk: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, is modulated by the mTOR (already mapped) hyperactivation and shapes the neuroinflammatory microenvironment of the tubers of tuberous sclerosis.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 neuroinflammation: the IFN-γ of the T cells is the type-II interferon arm of the neuroinflammation associated with the epileptogenic cortical tubers of tuberous sclerosis.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the inflammatory microenvironment implicated in tuberous sclerosis.
 
 ---
 

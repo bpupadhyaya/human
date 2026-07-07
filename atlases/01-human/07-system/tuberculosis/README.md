@@ -439,6 +439,15 @@ cross_links:
   - target: 03-medicine/03-food/vitamin-d
     relation: connects-to
     note: "Cathelicidin defence: the vitamin-D-dependent macrophage (already mapped) cathelicidin antimicrobial response against Mycobacterium tuberculosis; vitamin-D deficiency raises the TB risk."
+  - target: 02-pathogen/01-viruses/hiv-1
+    relation: connects-to
+    note: "HIV-TB syndemic: the HIV-1 co-infection, by depleting the CD4 T-helper cells (already mapped), is the leading driver of the TB reactivation and progression, the deadly co-pathogen of tuberculosis."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Th2-shift arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the Th2 shift that antagonises the protective Th1 (IFN-γ already mapped) immunity and worsens tuberculosis."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) marks the type-2 immune dimension that opposes the protective cell-mediated immunity against Mycobacterium tuberculosis."
 ---
 
 # Tuberculosis
@@ -713,6 +722,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Wasting adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the wasting and the systemic inflammation (IL-6 and TNF already mapped) of chronic active tuberculosis.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Antioxidant defence: the selenoprotein antioxidant defence; the low selenium of the TB-associated malnutrition worsens the oxidative (xanthine oxidase already mapped) tissue damage and the antimycobacterial immunity.
 - `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Cathelicidin defence: the vitamin-D-dependent macrophage (already mapped) cathelicidin antimicrobial response against Mycobacterium tuberculosis; vitamin-D deficiency raises the TB risk.
+- `connects-to` → **[HIV-1](../../../02-pathogen/01-viruses/hiv-1/README.md)** — HIV-TB syndemic: the HIV-1 co-infection, by depleting the CD4 T-helper cells (already mapped), is the leading driver of the TB reactivation and progression, the deadly co-pathogen of tuberculosis.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Th2-shift arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the Th2 shift that antagonises the protective Th1 (IFN-γ already mapped) immunity and worsens tuberculosis.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) marks the type-2 immune dimension that opposes the protective cell-mediated immunity against Mycobacterium tuberculosis.
 
 ## See Also
 
