@@ -441,6 +441,15 @@ cross_links:
   - target: 01-human/03-molecular/il-17a
     relation: connects-to
     note: "Neutrophilic airway inflammation: IL-17 drives the neutrophilic, non-type-2 airway inflammation of the respiratory system, part of the severe steroid-resistant asthma and the infective and COPD neutrophilia."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Respiratory-metabolic adipokine: adiponectin, with leptin (already mapped), is the adipokine of the respiratory-metabolic crosstalk; the obesity affects the ventilation and the airway inflammation of the respiratory system."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Airway-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose to the airway inflammation and the obesity-related respiratory dysfunction."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Antiviral airway interferon: the airway epithelium's type-I interferon (with the secretory-IgA already mapped) defends the respiratory system against the inhaled respiratory viruses."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -663,6 +672,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Connects-to** → [IL-4](../../03-molecular/il-4/README.md): type-2 airway immunity: IL-4, with IL-13 (already mapped), drives the type-2 immunity of the airways of the respiratory system, the allergic and mucus-hypersecretory response of asthma and allergic disease.
 - **Connects-to** → [IL-5](../../03-molecular/il-5/README.md): eosinophilic inflammation: IL-5 recruits the eosinophils of the eosinophilic airway inflammation of the respiratory system, the target of the anti-IL-5 biologics in severe asthma.
 - **Connects-to** → [IL-17a](../../03-molecular/il-17a/README.md): neutrophilic airway inflammation: IL-17 drives the neutrophilic, non-type-2 airway inflammation of the respiratory system, part of the severe steroid-resistant asthma and the infective and COPD neutrophilia.
+- **Connects-to** → [Adiponectin](../../03-molecular/adiponectin/README.md): respiratory-metabolic adipokine: adiponectin, with leptin (already mapped), is the adipokine of the respiratory-metabolic crosstalk; the obesity affects the ventilation and the airway inflammation of the respiratory system.
+- **Connects-to** → [Resistin](../../03-molecular/resistin/README.md): airway-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose to the airway inflammation and the obesity-related respiratory dysfunction.
+- **Connects-to** → [Type I interferon](../../03-molecular/type-i-interferon/README.md): antiviral airway interferon: the airway epithelium's type-I interferon (with the secretory-IgA already mapped) defends the respiratory system against the inhaled respiratory viruses.
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.
 
 ## Pathology

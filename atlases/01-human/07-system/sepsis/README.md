@@ -442,6 +442,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Nutritional-immunity iron: the hepcidin-driven (already mapped) iron withholding of sepsis starves the pathogens, and the disturbed iron handling contributes to the anaemia (haemoglobin already mapped) of critical illness."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Septic AKI: the acute kidney injury is the commonest sepsis organ dysfunction (the microcirculatory and inflammatory injury), a major morbidity and mortality driver."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Macrophage response: the macrophages (TLR4 and MyD88 already mapped) drive the cytokine storm and, later, the immunoparalysis (the endotoxin tolerance, MHC-DR already mapped) of sepsis."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Viral sepsis: the severe COVID-19 is a form of viral sepsis (the dysregulated host response, the cytokine storm — IL-6 already mapped, the coagulopathy — thrombin already mapped)."
 ---
 
 # Sepsis
@@ -689,6 +698,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Septic hypocalcaemia: the hypocalcaemia common in sepsis, from the vitamin-D and parathyroid dysregulation and the calcium sequestration, is a marker of severity and a target for cautious correction.
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate interferon response: type-I interferon is part of the dysregulated host response of sepsis, notably in viral sepsis, contributing to both the antiviral defence and the interferon-driven immunopathology.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Nutritional-immunity iron: the hepcidin-driven (already mapped) iron withholding of sepsis starves the pathogens, and the disturbed iron handling contributes to the anaemia (haemoglobin already mapped) of critical illness.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Septic AKI: the acute kidney injury is the commonest sepsis organ dysfunction (the microcirculatory and inflammatory injury), a major morbidity and mortality driver.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophage response: the macrophages (TLR4 and MyD88 already mapped) drive the cytokine storm and, later, the immunoparalysis (the endotoxin tolerance, MHC-DR already mapped) of sepsis.
+- `connects-to` → **[COVID-19](../covid-19-disease/README.md)** — Viral sepsis: the severe COVID-19 is a form of viral sepsis (the dysregulated host response, the cytokine storm — IL-6 already mapped, the coagulopathy — thrombin already mapped).
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
