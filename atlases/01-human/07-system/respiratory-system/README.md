@@ -423,6 +423,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative lung injury: xanthine-oxidase-derived reactive oxygen species contribute to the oxidative stress of respiratory disease (NRF2 already mapped), driving the epithelial injury and inflammation of the airways and alveoli."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "Airway surface liquid: chloride secretion through the CFTR channel (already mapped) hydrates the airway surface liquid and mucus, and its failure causes the thick secretions of cystic fibrosis that obstruct the respiratory tract."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: connects-to
+    note: "Airway calibre: the airway smooth muscle sets the bronchial calibre, contracting to acetylcholine and relaxing to adrenaline (already mapped), and its constriction and remodelling underlie the airflow limitation of respiratory disease."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Neural control of breathing: the nervous system's brainstem respiratory centres and the chemoreceptors sense oxygen and carbon dioxide (already mapped) to drive ventilation, and the sensory nerves (CGRP and substance P already mapped) mediate cough and airway reflexes."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -639,6 +648,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Connects-to** → [CGRP](../../03-molecular/cgrp/README.md): neurogenic airway control: CGRP released from airway sensory nerves contributes to the neurogenic inflammation, vasodilation and cough reflex of the respiratory system, part of the neuro-immune regulation of the airways.
 - **Connects-to** → [Substance P](../../03-molecular/substance-p/README.md): cough and neurogenic reflex: substance P from airway sensory nerves, with CGRP (already mapped), mediates the cough reflex and the neurogenic inflammation and bronchoconstriction of the respiratory tract.
 - **Connects-to** → [Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md): oxidative lung injury: xanthine-oxidase-derived reactive oxygen species contribute to the oxidative stress of respiratory disease (NRF2 already mapped), driving the epithelial injury and inflammation of the airways and alveoli.
+- **Connects-to** → [Chloride](../../02-atomic/chloride/README.md): airway surface liquid: chloride secretion through the CFTR channel (already mapped) hydrates the airway surface liquid and mucus, and its failure causes the thick secretions of cystic fibrosis that obstruct the respiratory tract.
+- **Connects-to** → [Smooth muscle cell](../../04-cellular/smooth-muscle-cell/README.md): airway calibre: the airway smooth muscle sets the bronchial calibre, contracting to acetylcholine and relaxing to adrenaline (already mapped), and its constriction and remodelling underlie the airflow limitation of respiratory disease.
+- **Connects-to** → [Nervous system](../nervous-system/README.md): neural control of breathing: the nervous system's brainstem respiratory centres and the chemoreceptors sense oxygen and carbon dioxide (already mapped) to drive ventilation, and the sensory nerves (CGRP and substance P already mapped) mediate cough and airway reflexes.
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.
 
 ## Pathology

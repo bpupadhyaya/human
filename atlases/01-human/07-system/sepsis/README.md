@@ -424,6 +424,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "RAAS and relative adrenal insufficiency: sepsis activates the renin-angiotensin system, yet a relative deficiency of cortisol and aldosterone (cortisol already mapped) impairs the vascular response, underlying the vasopressor resistance of septic shock."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "NETs and immunothrombosis: the neutrophils release extracellular traps (S100A8/9 already mapped) that both trap pathogens and drive the immunothrombosis (thrombin already mapped) and tissue injury of sepsis, a double-edged part of the host response."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Acute kidney injury: the kidney is the commonest organ to fail in sepsis, the microcirculatory dysfunction, inflammation and hypoperfusion causing the septic acute kidney injury that predicts mortality."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Sepsis-induced ARDS: the lungs are a frequent target, the endothelial and epithelial injury (VEGF and vascular permeability already mapped) causing the acute respiratory distress syndrome that often complicates severe sepsis."
 ---
 
 # Sepsis
@@ -665,6 +674,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Fever and vasodilation: prostaglandins, induced by the cytokines (IL-6, TNF and IL-1 already mapped) of the septic response, drive the fever and contribute to the inflammatory vasodilation of sepsis, part of its eicosanoid storm.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Vasoplegia and leak: histamine and other vasoactive mediators contribute to the vasodilation and capillary leak (nitric oxide already mapped) of the distributive shock of sepsis, worsening the hypotension and oedema.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — RAAS and relative adrenal insufficiency: sepsis activates the renin-angiotensin system, yet a relative deficiency of cortisol and aldosterone (cortisol already mapped) impairs the vascular response, underlying the vasopressor resistance of septic shock.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — NETs and immunothrombosis: the neutrophils release extracellular traps (S100A8/9 already mapped) that both trap pathogens and drive the immunothrombosis (thrombin already mapped) and tissue injury of sepsis, a double-edged part of the host response.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Acute kidney injury: the kidney is the commonest organ to fail in sepsis, the microcirculatory dysfunction, inflammation and hypoperfusion causing the septic acute kidney injury that predicts mortality.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Sepsis-induced ARDS: the lungs are a frequent target, the endothelial and epithelial injury (VEGF and vascular permeability already mapped) causing the acute respiratory distress syndrome that often complicates severe sepsis.
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
