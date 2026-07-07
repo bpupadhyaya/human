@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/leptin
     relation: connects-to
     note: "Uraemic adipokine: leptin accumulates with the declining renal clearance of progressive IgA nephropathy, part of the metabolic and appetite disturbance of the uraemic state."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Uraemic adipokine: adiponectin, with leptin (already mapped), accumulates and is dysregulated with the declining renal clearance of progressive IgA nephropathy."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Uraemic-retention adipokine: resistin, with leptin and adiponectin (already mapped), is a uraemic-retention and inflammatory (IL-6 already mapped) adipokine of the progressive IgA nephropathy."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Mucosal-trigger interferon: the type-I interferon of the innate mucosal (secretory-IgA already mapped) antiviral response to the upper-respiratory infections triggers the synpharyngitic IgA flares of IgA nephropathy."
 ---
 
 # IgA Nephropathy
@@ -663,6 +672,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — CKD-mineral-bone calcium: the hypocalcaemia and disturbed calcium-phosphate balance of the CKD-mineral-bone disorder (PTH already mapped) of progressive IgA nephropathy.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — CKD hyperphosphataemia: the hyperphosphataemia of the CKD-mineral-bone disorder (PTH already mapped) of the declining renal function of progressive IgA nephropathy, driving the secondary hyperparathyroidism.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Uraemic adipokine: leptin accumulates with the declining renal clearance of progressive IgA nephropathy, part of the metabolic and appetite disturbance of the uraemic state.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Uraemic adipokine: adiponectin, with leptin (already mapped), accumulates and is dysregulated with the declining renal clearance of progressive IgA nephropathy.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Uraemic-retention adipokine: resistin, with leptin and adiponectin (already mapped), is a uraemic-retention and inflammatory (IL-6 already mapped) adipokine of the progressive IgA nephropathy.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Mucosal-trigger interferon: the type-I interferon of the innate mucosal (secretory-IgA already mapped) antiviral response to the upper-respiratory infections triggers the synpharyngitic IgA flares of IgA nephropathy.
 
 ---
 

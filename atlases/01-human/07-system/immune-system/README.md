@@ -466,6 +466,15 @@ cross_links:
   - target: 01-human/03-molecular/il-23
     relation: connects-to
     note: "Th17 arm: IL-23 sustains the Th17 (IL-17 already mapped) cells of the mucosal and antifungal defence of the immune system."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Barrier immunity: the skin is the first physical and immunological barrier of the immune system, with the Langerhans/dendritic (already mapped) cells and the antimicrobial peptides."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Hepatic immunity: the liver synthesises the complement (C3 and C5 already mapped) and the acute-phase proteins, houses the Kupffer macrophages (already mapped) and filters the portal antigens of the immune system."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Respiratory mucosal immunity: the lung's mucosal immune system (the alveolar macrophages already mapped, the BALT and the secretory-IgA already mapped) defends the vast air-tissue interface of the immune system."
 ---
 
 # Immune System
@@ -613,6 +622,9 @@ After primary response contraction, long-lived memory cells persist:
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immunity: IL-13, with IL-4 (already mapped), is a type-2 cytokine of the anti-parasite and allergic arm of the immune system, driving the mucus and barrier response.
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Eosinophil arm: IL-5 is the type-2 cytokine that expands and recruits the eosinophils of the anti-helminth and allergic response of the immune system.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 arm: IL-23 sustains the Th17 (IL-17 already mapped) cells of the mucosal and antifungal defence of the immune system.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Barrier immunity: the skin is the first physical and immunological barrier of the immune system, with the Langerhans/dendritic (already mapped) cells and the antimicrobial peptides.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Hepatic immunity: the liver synthesises the complement (C3 and C5 already mapped) and the acute-phase proteins, houses the Kupffer macrophages (already mapped) and filters the portal antigens of the immune system.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Respiratory mucosal immunity: the lung's mucosal immune system (the alveolar macrophages already mapped, the BALT and the secretory-IgA already mapped) defends the vast air-tissue interface of the immune system.
 
 ## Pathology
 
