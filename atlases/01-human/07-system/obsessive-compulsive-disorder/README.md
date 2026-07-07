@@ -449,6 +449,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "Zinc and glutamatergic modulation: synaptic zinc modulates the glutamate (already mapped)/NMDA signalling of the cortico-striatal circuit, and zinc has been trialled as an adjunct to the SSRIs in obsessive-compulsive disorder."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Metabolic-inflammatory adipokine: leptin is the adipokine of the metabolic-inflammatory milieu and the neuroinflammation (TNF and IL-6 already mapped) implicated in obsessive-compulsive disorder."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic-inflammatory milieu of obsessive-compulsive disorder."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the neuroinflammation (IL-1 already mapped) of obsessive-compulsive disorder."
 ---
 
 # Obsessive-Compulsive Disorder
@@ -717,6 +726,9 @@ OCD is often underdiagnosed due to shame and secrecy. Mean time from symptom ons
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 neuroimmunity: IL-13, with IL-4 (already mapped), supports the M2 microglia (already mapped) and the anti-inflammatory arm balancing the neuroinflammation of the PANDAS/neuroimmune subtype of obsessive-compulsive disorder.
 - `connects-to` → **[Generalized anxiety disorder](../generalized-anxiety-disorder/README.md)** — Anxiety-spectrum comorbidity: generalized anxiety disorder is commonly comorbid with obsessive-compulsive disorder, the two sharing the serotonergic (already mapped) treatment and the anxious-obsessional symptom overlap.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and glutamatergic modulation: synaptic zinc modulates the glutamate (already mapped)/NMDA signalling of the cortico-striatal circuit, and zinc has been trialled as an adjunct to the SSRIs in obsessive-compulsive disorder.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Metabolic-inflammatory adipokine: leptin is the adipokine of the metabolic-inflammatory milieu and the neuroinflammation (TNF and IL-6 already mapped) implicated in obsessive-compulsive disorder.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic-inflammatory milieu of obsessive-compulsive disorder.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the neuroinflammation (IL-1 already mapped) of obsessive-compulsive disorder.
 
 [^abramowitz-2009-ocd-review]: Abramowitz JS, Taylor S, McKay D. Obsessive-compulsive disorder. *Lancet.* 2009;374(9688):491-499. [doi:10.1016/S0140-6736(09)60240-3](https://doi.org/10.1016/S0140-6736(09)60240-3) · [PubMed 19665647](https://pubmed.ncbi.nlm.nih.gov/19665647/)
 [^chamberlain-2008-ocd-neuroscience]: Chamberlain SR, Menzies L, Hampshire A, et al. Orbitofrontal dysfunction in patients with OCD and their unaffected relatives. *Science.* 2008;321(5887):421-422. [doi:10.1126/science.1154433](https://doi.org/10.1126/science.1154433) · [PubMed 18635808](https://pubmed.ncbi.nlm.nih.gov/18635808/)
