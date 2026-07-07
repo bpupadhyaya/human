@@ -438,6 +438,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "T-cell dysregulation: IL-2 signalling in the regulatory T cells (already mapped) is part of the immune dysregulation of the type-I interferonopathy (already mapped) of Aicardi-Goutières."
+  - target: 01-human/07-system/nmo
+    relation: connects-to
+    note: "Interferonopathy-autoimmune overlap: Aicardi-Goutières, like systemic lupus (already mapped) and neuromyelitis optica, features the type-I interferon (already mapped) and autoimmune (BAFF already mapped) dysregulation."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Immune-metabolic adipokine: leptin is the adipokine of the immune-metabolic milieu of the type-I interferonopathy (already mapped) of Aicardi-Goutières."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the immune-metabolic milieu of Aicardi-Goutières."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -672,6 +681,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[TGF-beta](../../03-molecular/tgf-beta/README.md)** — Fibrosis and vasculopathy: TGF-β and its SMAD4 (already mapped) signalling shape the tissue response and the small-vessel vasculopathy (PDGF and endothelin already mapped) of the interferon-injured brain in Aicardi-Goutières.
 - `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — Autoimmune B cells: BAFF supports the B cells (already mapped) that produce the autoantibodies (immunoglobulin already mapped) of the SLE-like autoimmunity that accompanies the interferonopathy of Aicardi-Goutières.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell dysregulation: IL-2 signalling in the regulatory T cells (already mapped) is part of the immune dysregulation of the type-I interferonopathy (already mapped) of Aicardi-Goutières.
+- `connects-to` → **[NMO](../nmo/README.md)** — Interferonopathy-autoimmune overlap: Aicardi-Goutières, like systemic lupus (already mapped) and neuromyelitis optica, features the type-I interferon (already mapped) and autoimmune (BAFF already mapped) dysregulation.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Immune-metabolic adipokine: leptin is the adipokine of the immune-metabolic milieu of the type-I interferonopathy (already mapped) of Aicardi-Goutières.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the immune-metabolic milieu of Aicardi-Goutières.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

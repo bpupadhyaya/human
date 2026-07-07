@@ -442,6 +442,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "Electrolyte derangement: the renal impairment of atypical HUS, and the citrate of any plasma exchange, disturb the magnesium (with calcium already mapped) balance, needing replacement."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Immune-metabolic adipokine: leptin is the adipokine of the immune-metabolic milieu that modulates the endothelial (already mapped) and complement inflammation of atypical HUS."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic-inflammatory milieu of atypical HUS."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the inflammatory (IL-6 and TNF already mapped) milieu of atypical HUS."
 ---
 
 # Atypical HUS
@@ -745,6 +754,9 @@ Repeated TMA episodes → glomerular fibrosis → CKD → ESRD
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Haemolytic iron handling: the intravascular microangiopathic haemolysis (haemoglobin already mapped) and the inflammation (IL-6 already mapped) disturb the hepcidin-regulated iron handling of atypical HUS.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron loss and release: the intravascular haemolysis of atypical HUS releases iron and causes urinary iron loss, disturbing the iron balance (hepcidin already mapped) alongside the anaemia (haemoglobin already mapped).
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Electrolyte derangement: the renal impairment of atypical HUS, and the citrate of any plasma exchange, disturb the magnesium (with calcium already mapped) balance, needing replacement.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Immune-metabolic adipokine: leptin is the adipokine of the immune-metabolic milieu that modulates the endothelial (already mapped) and complement inflammation of atypical HUS.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic-inflammatory milieu of atypical HUS.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the inflammatory (IL-6 and TNF already mapped) milieu of atypical HUS.
 
 [^fakhouri-2017-ahus-lancet]: Fakhouri F, Zuber J, Frémeaux-Bacchi V, Loirat C. Haemolytic uraemic syndrome. *Lancet.* 2017;390(10095):681-696. [doi:10.1016/S0140-6736(17)30062-4](https://doi.org/10.1016/S0140-6736(17)30062-4) · [PubMed 28242109](https://pubmed.ncbi.nlm.nih.gov/28242109/)
 [^legendre-2013-eculizumab-ahus-nejm]: Legendre CM, Licht C, Muus P, et al. Terminal complement inhibitor eculizumab in atypical hemolytic-uremic syndrome. *N Engl J Med.* 2013;368(23):2169-2181. [doi:10.1056/NEJMoa1208981](https://doi.org/10.1056/NEJMoa1208981) · [PubMed 23738544](https://pubmed.ncbi.nlm.nih.gov/23738544/)
