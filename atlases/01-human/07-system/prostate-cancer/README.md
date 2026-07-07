@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/03-molecular/prostaglandins
     relation: connects-to
     note: "COX-2 and inflammation: prostaglandins from cyclooxygenase-2 in the inflamed prostate contribute to carcinogenesis and progression (IL-6 already mapped), part of the chronic-inflammation link in prostate cancer."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage (already mapped) and type-2 milieu of the immunosuppressive 'cold' microenvironment of prostate cancer."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Obesity and aggressiveness: the adipokine leptin links obesity — a risk factor for aggressive and lethal prostate cancer — to the proliferation and progression of the tumour."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Adipokine axis: adiponectin, with leptin (already mapped), links the obesity and metabolic state to the risk and aggressiveness of prostate cancer, part of the adipokine influence on the tumour."
 ---
 
 # Prostate Cancer
@@ -694,6 +703,9 @@ cross_links:
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the cold, checkpoint-resistant immune microenvironment of most prostate cancer.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Anaemia of therapy: androgen-deprivation therapy and metastatic marrow involvement cause anaemia (haemoglobin already mapped) in prostate cancer, and the transfusional support can load the body with iron.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — COX-2 and inflammation: prostaglandins from cyclooxygenase-2 in the inflamed prostate contribute to carcinogenesis and progression (IL-6 already mapped), part of the chronic-inflammation link in prostate cancer.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage (already mapped) and type-2 milieu of the immunosuppressive 'cold' microenvironment of prostate cancer.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Obesity and aggressiveness: the adipokine leptin links obesity — a risk factor for aggressive and lethal prostate cancer — to the proliferation and progression of the tumour.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine axis: adiponectin, with leptin (already mapped), links the obesity and metabolic state to the risk and aggressiveness of prostate cancer, part of the adipokine influence on the tumour.
 
 [^beer-2014-prevail]: Beer TM, Armstrong AJ, Rathkopf D, et al. Enzalutamide in metastatic prostate cancer before chemotherapy. *N Engl J Med.* 2014;371(5):424-433. [doi:10.1056/NEJMoa1405095](https://doi.org/10.1056/NEJMoa1405095) · [PubMed 24881730](https://pubmed.ncbi.nlm.nih.gov/24881730/)
 [^sartor-2021-vision]: Sartor O, de Bono J, Chi KN, et al. Lutetium-PSMA-617 for metastatic castration-resistant prostate cancer. *N Engl J Med.* 2021;385(12):1091-1103. [doi:10.1056/NEJMoa2107322](https://doi.org/10.1056/NEJMoa2107322) · [PubMed 34161051](https://pubmed.ncbi.nlm.nih.gov/34161051/)

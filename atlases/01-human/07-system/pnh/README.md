@@ -424,6 +424,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "Platelet zinc and coagulation: zinc released from the complement-activated platelets (already mapped) promotes the contact pathway and fibrin formation (fibrinogen and thrombin already mapped), adding to the prothrombotic state of PNH."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immune balance: IL-13, with IL-4 (already mapped), is part of the anti-inflammatory arm balancing the complement-driven (already mapped) inflammatory milieu of paroxysmal nocturnal haemoglobinuria."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Marrow-failure immunity: the type-I interferon and the T-cell (IFN-γ already mapped) immune attack of the aplastic-anaemia (already mapped) marrow, from which the GPI-deficient PNH clone escapes, drive the clonal expansion of PNH."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Haemolytic hyperkalaemia: the massive intravascular haemolysis (haemoglobin already mapped) of a PNH crisis releases potassium, the hyperkalaemia adding to the metabolic derangement of severe haemolysis."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -651,6 +660,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Thromboxane and platelets: the complement-activated platelets (PF4 already mapped) of PNH generate thromboxane to amplify aggregation, part of the eicosanoid contribution to the thrombosis that is the leading cause of death in the disease.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Immune balance: the anti-inflammatory IL-4, with IL-10 (already mapped), counters the pro-inflammatory cytokines (IL-6 and TNF already mapped) that the complement activation of PNH drives in its inflammatory milieu.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Platelet zinc and coagulation: zinc released from the complement-activated platelets (already mapped) promotes the contact pathway and fibrin formation (fibrinogen and thrombin already mapped), adding to the prothrombotic state of PNH.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune balance: IL-13, with IL-4 (already mapped), is part of the anti-inflammatory arm balancing the complement-driven (already mapped) inflammatory milieu of paroxysmal nocturnal haemoglobinuria.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Marrow-failure immunity: the type-I interferon and the T-cell (IFN-γ already mapped) immune attack of the aplastic-anaemia (already mapped) marrow, from which the GPI-deficient PNH clone escapes, drive the clonal expansion of PNH.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Haemolytic hyperkalaemia: the massive intravascular haemolysis (haemoglobin already mapped) of a PNH crisis releases potassium, the hyperkalaemia adding to the metabolic derangement of severe haemolysis.
 
 ---
 
