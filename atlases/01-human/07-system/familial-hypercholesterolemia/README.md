@@ -433,6 +433,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Vasoprotective adipokine: adiponectin, with leptin (already mapped), is a vascular-protective adipokine whose fall in the metabolic syndrome removes a brake on the atherogenesis driven by familial hypercholesterolaemia."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Plaque type-2 arm: IL-13, with IL-4 (already mapped), modulates the M2 macrophage (already mapped) arm of the inflammation of the atherosclerotic plaque driven by familial hypercholesterolaemia."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Atherogenic adipokine: resistin, with leptin and adiponectin (already mapped), is a pro-inflammatory adipokine that adds to the atherogenic-inflammatory (IL-6 already mapped) milieu compounding the cardiovascular risk of familial hypercholesterolaemia."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "LDL oxidation: iron catalyses the oxidation of the LDL (cholesterol already mapped) that generates the oxidised LDL taken up by the foam-cell macrophages (already mapped), part of the oxidative atherogenesis of familial hypercholesterolaemia."
 ---
 
 # Familial Hypercholesterolemia
@@ -679,6 +688,9 @@ FH is a **monogenic autosomal dominant disorder** caused by mutations in three g
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Plaque macrophage polarisation: IL-4 polarises the plaque macrophages (already mapped) toward an M2 phenotype (IL-10 already mapped), part of the immune microenvironment of the atherosclerotic lesions driven by the very high LDL of familial hypercholesterolaemia.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adipokine amplification: leptin, from adipose tissue, adds an inflammatory and atherogenic contribution (insulin already mapped) that compounds the cardiovascular risk of the monogenic LDL elevation in familial hypercholesterolaemia.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Vasoprotective adipokine: adiponectin, with leptin (already mapped), is a vascular-protective adipokine whose fall in the metabolic syndrome removes a brake on the atherogenesis driven by familial hypercholesterolaemia.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Plaque type-2 arm: IL-13, with IL-4 (already mapped), modulates the M2 macrophage (already mapped) arm of the inflammation of the atherosclerotic plaque driven by familial hypercholesterolaemia.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Atherogenic adipokine: resistin, with leptin and adiponectin (already mapped), is a pro-inflammatory adipokine that adds to the atherogenic-inflammatory (IL-6 already mapped) milieu compounding the cardiovascular risk of familial hypercholesterolaemia.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — LDL oxidation: iron catalyses the oxidation of the LDL (cholesterol already mapped) that generates the oxidised LDL taken up by the foam-cell macrophages (already mapped), part of the oxidative atherogenesis of familial hypercholesterolaemia.
 
 [^goldstein-1985-ldlr-nobel]: Goldstein JL, Brown MS. The LDL receptor. *Arterioscler Thromb Vasc Biol.* 2009;29(4):431-438. [doi:10.1161/ATVBAHA.108.179564](https://doi.org/10.1161/ATVBAHA.108.179564) · [PubMed 19299327](https://pubmed.ncbi.nlm.nih.gov/19299327/)
 [^raal-2020-inclisiran-fh]: Raal FJ, Kallend D, Ray KK, et al. Inclisiran for the Treatment of Heterozygous Familial Hypercholesterolemia. *N Engl J Med.* 2020;382(16):1520-1530. [doi:10.1056/NEJMoa1913805](https://doi.org/10.1056/NEJMoa1913805) · [PubMed 32197277](https://pubmed.ncbi.nlm.nih.gov/32197277/)
