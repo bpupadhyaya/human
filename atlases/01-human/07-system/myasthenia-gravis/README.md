@@ -442,6 +442,15 @@ cross_links:
   - target: 01-human/03-molecular/leptin
     relation: connects-to
     note: "Adipokine and thymic autoimmunity: leptin modulates the thymic (already mapped) function and promotes the autoreactive Th17 (IL-17 already mapped) responses, part of the metabolic-immune dimension of myasthenia gravis."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic-immune (the thymic already-mapped adipose) crosstalk of myasthenia gravis."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the metabolic-immune milieu of myasthenia gravis."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Steroid osteoporosis: the chronic glucocorticoid (already mapped) therapy of myasthenia gravis causes the osteoporosis (RANKL already mapped) and fracture risk of the cortical bone."
 ---
 
 # Myasthenia Gravis
@@ -694,6 +703,9 @@ cross_links:
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Thymic interferon signature: the type-I interferon overexpression in the thymus (already mapped) is implicated in the autoimmunity of myasthenia gravis, notably with thymoma and the checkpoint-inhibitor (PD-1 and CTLA-4 already mapped) MG.
 - `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — NK immunoregulation: the natural killer cells contribute to the immunoregulation of the autoimmune response and are implicated in the thymoma (thymus already mapped)-associated myasthenia gravis.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adipokine and thymic autoimmunity: leptin modulates the thymic (already mapped) function and promotes the autoreactive Th17 (IL-17 already mapped) responses, part of the metabolic-immune dimension of myasthenia gravis.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic-immune (the thymic already-mapped adipose) crosstalk of myasthenia gravis.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the metabolic-immune milieu of myasthenia gravis.
+- `connects-to` → **[Cortical bone](../../05-tissue/cortical-bone/README.md)** — Steroid osteoporosis: the chronic glucocorticoid (already mapped) therapy of myasthenia gravis causes the osteoporosis (RANKL already mapped) and fracture risk of the cortical bone.
 
 [^gilhus-2016-mg-review]: Gilhus NE. Myasthenia Gravis. *N Engl J Med.* 2016;375(26):2570-2581. [doi:10.1056/NEJMra1602678](https://doi.org/10.1056/NEJMra1602678) · [PubMed 28029925](https://pubmed.ncbi.nlm.nih.gov/28029925/)
 [^howard-2021-efgartigimod-adapt]: Howard JF Jr, Bril V, Vu T, et al. Safety, efficacy, and tolerability of efgartigimod in patients with generalised myasthenia gravis (ADAPT). *Lancet Neurol.* 2021;20(7):526-536. [doi:10.1016/S1474-4422(21)00159-9](https://doi.org/10.1016/S1474-4422(21)00159-9) · [PubMed 34146511](https://pubmed.ncbi.nlm.nih.gov/34146511/)

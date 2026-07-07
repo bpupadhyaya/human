@@ -445,6 +445,15 @@ cross_links:
   - target: 01-human/07-system/hepatitis-c
     relation: connects-to
     note: "Blood-borne transmission: the injection drug use of opioid use disorder transmits hepatitis C (and HIV), a major public-health consequence driving the coinfection burden of the epidemic."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Metabolic adipokine: the chronic opioid use disrupts the leptin and energy balance (ghrelin already mapped) and the metabolic state, part of the neuroendocrine disturbance of opioid use disorder."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic-inflammatory milieu disturbed by the chronic opioid use."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the neuroinflammation (TNF and IL-6 already mapped) of opioid use disorder."
 ---
 
 # Opioid Use Disorder
@@ -742,6 +751,9 @@ The primary mechanism by which opioids produce euphoria:
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Glial neuroimmunity: IL-13, with IL-4 (already mapped), supports the M2 microglia (already mapped) and the anti-inflammatory arm balancing the opioid-glial (TLR4 already mapped) neuroinflammation of tolerance and dependence in opioid use disorder.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Injection endocarditis: the injection drug use of opioid use disorder causes right-sided infective endocarditis of the heart, a major and rising complication requiring prolonged antibiotics or surgery.
 - `connects-to` → **[Hepatitis C](../hepatitis-c/README.md)** — Blood-borne transmission: the injection drug use of opioid use disorder transmits hepatitis C (and HIV), a major public-health consequence driving the coinfection burden of the epidemic.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Metabolic adipokine: the chronic opioid use disrupts the leptin and energy balance (ghrelin already mapped) and the metabolic state, part of the neuroendocrine disturbance of opioid use disorder.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic-inflammatory milieu disturbed by the chronic opioid use.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the neuroinflammation (TNF and IL-6 already mapped) of opioid use disorder.
 
 [^volkow-2016-opioid-crisis]: Volkow ND, Collins FS. The role of science in addressing the opioid crisis. *N Engl J Med.* 2017;377(4):391-394. [doi:10.1056/NEJMsr1706626](https://doi.org/10.1056/NEJMsr1706626) · [PubMed 28723324](https://pubmed.ncbi.nlm.nih.gov/28723324/)
 [^mattick-2009-bupe-meta]: Mattick RP, Breen C, Kimber J, Davoli M. Buprenorphine maintenance versus placebo or methadone maintenance for opioid dependence. *Cochrane Database Syst Rev.* 2014;2:CD002207. [doi:10.1002/14651858.CD002207.pub4](https://doi.org/10.1002/14651858.CD002207.pub4) · [PubMed 24500948](https://pubmed.ncbi.nlm.nih.gov/24500948/)
