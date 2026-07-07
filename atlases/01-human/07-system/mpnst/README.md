@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the vascular tone and angiogenesis of malignant peripheral nerve sheath tumour, part of the stromal biology of this aggressive sarcoma."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage (already mapped) and type-2 milieu of the immunosuppressive microenvironment of the malignant peripheral nerve sheath tumour."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Chemotherapy anaemia: the myelosuppressive chemotherapy and the tumour burden of malignant peripheral nerve sheath tumour cause anaemia (haemoglobin already mapped) needing transfusion, whose repeated support can load the body with iron."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Bone invasion: the aggressive malignant peripheral nerve sheath tumour invades the adjacent bone, and the paraspinal tumours can erode the vertebrae, part of its locally destructive behaviour."
 ---
 
 # MPNST
@@ -687,6 +696,9 @@ Wide local excision with negative margins is the only potentially curative inter
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the cold, immune-evasive microenvironment of malignant peripheral nerve sheath tumour.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative microenvironment: the aggressive sarcoma generates oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species (NRF2 already mapped) are part of the tumour microenvironment and treatment resistance.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the vascular tone and angiogenesis of malignant peripheral nerve sheath tumour, part of the stromal biology of this aggressive sarcoma.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage (already mapped) and type-2 milieu of the immunosuppressive microenvironment of the malignant peripheral nerve sheath tumour.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Chemotherapy anaemia: the myelosuppressive chemotherapy and the tumour burden of malignant peripheral nerve sheath tumour cause anaemia (haemoglobin already mapped) needing transfusion, whose repeated support can load the body with iron.
+- `connects-to` → **[Cortical bone](../../05-tissue/cortical-bone/README.md)** — Bone invasion: the aggressive malignant peripheral nerve sheath tumour invades the adjacent bone, and the paraspinal tumours can erode the vertebrae, part of its locally destructive behaviour.
 
 [^evans-2002-mpnst-nf1]: Evans DGR, Baser ME, McGaughran J, et al. Malignant peripheral nerve sheath tumours in neurofibromatosis 1. *J Med Genet.* 2002;39(5):311-314. [doi:10.1136/jmg.39.5.311](https://doi.org/10.1136/jmg.39.5.311) · [PubMed 12011145](https://pubmed.ncbi.nlm.nih.gov/12011145/)
 [^lee-2014-mpnst-prc2]: Lee W, Teckie S, Wiesner T, et al. PRC2 is recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve sheath tumors. *Nat Genet.* 2014;46(11):1227-1232. [doi:10.1038/ng.3095](https://doi.org/10.1038/ng.3095) · [PubMed 25240281](https://pubmed.ncbi.nlm.nih.gov/25240281/)
