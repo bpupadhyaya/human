@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the systemic inflammation and steroid-related metabolic disturbance of giant cell arteritis."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the systemic inflammation (IL-6 already mapped) of giant cell arteritis."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Acute inflammatory infiltrate: the neutrophils and the neutrophil-lymphocyte ratio (S100A8/9 already mapped) reflect the acute-phase systemic inflammation of giant cell arteritis."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "B-cell component: the B cells contribute to the vascular inflammation and the systemic autoantibody/IL-6 (already mapped) milieu of giant cell arteritis, a rationale explored for the B-cell-directed therapy."
 ---
 
 # Giant Cell Arteritis
@@ -694,6 +703,9 @@ The temporal arteries supply scalp, temporalis muscle, and dura. In GCA, transmu
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 counter-regulation: IL-13, with IL-4 (already mapped), is part of the M2 counter-regulatory arm balancing the Th1 and Th17 (IFN-γ and IL-17 already mapped) drive of the arterial inflammation of giant cell arteritis.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Inflammation and steroid metabolism: leptin is the adipokine of the systemic inflammation (IL-6 already mapped) and the steroid-related metabolic (insulin already mapped) disturbance of giant cell arteritis.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the systemic inflammation and steroid-related metabolic disturbance of giant cell arteritis.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the systemic inflammation (IL-6 already mapped) of giant cell arteritis.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Acute inflammatory infiltrate: the neutrophils and the neutrophil-lymphocyte ratio (S100A8/9 already mapped) reflect the acute-phase systemic inflammation of giant cell arteritis.
+- `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — B-cell component: the B cells contribute to the vascular inflammation and the systemic autoantibody/IL-6 (already mapped) milieu of giant cell arteritis, a rationale explored for the B-cell-directed therapy.
 
 [^stone-2017-giact]: Stone JH, Tuckwell K, Dimonaco S, et al. Trial of tocilizumab in giant-cell arteritis. *N Engl J Med.* 2017;377(4):317-328. [doi:10.1056/NEJMoa1613849](https://doi.org/10.1056/NEJMoa1613849) · [PubMed 28745999](https://pubmed.ncbi.nlm.nih.gov/28745999/)
 [^weyand-2014-gca-review]: Weyand CM, Goronzy JJ. Clinical practice. Giant-cell arteritis and polymyalgia rheumatica. *N Engl J Med.* 2014;371(1):50-57. [doi:10.1056/NEJMcp1214926](https://doi.org/10.1056/NEJMcp1214926) · [PubMed 24988557](https://pubmed.ncbi.nlm.nih.gov/24988557/)

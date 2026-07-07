@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/hepcidin
     relation: connects-to
     note: "Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin sequesters iron (already mapped) and, with the chronic gut bleeding, contributes to the anaemia (haemoglobin already mapped) of GIST."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Mesenteric adipokine: adiponectin, with leptin (already mapped), is part of the GI/mesenteric-adipose adipokine crosstalk of the GIST microenvironment."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), completes the adipokine dimension of the GIST microenvironment."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Prognostic neutrophils: the tumour-associated neutrophils and the neutrophil-lymphocyte ratio (S100A8/9 already mapped) are studied prognostic markers in GIST."
 ---
 
 # GIST
@@ -710,6 +719,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — M2 stromal arm: IL-13, with IL-4 (already mapped), drives the M2 macrophage (already mapped) arm of the immunosuppressive stroma relevant to the immunotherapy explored in wild-type GIST.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Mesenteric adipokine: leptin from the GI and mesenteric adipose microenvironment signals to the GIST, part of the metabolic crosstalk of the gastrointestinal stromal tumour.
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin sequesters iron (already mapped) and, with the chronic gut bleeding, contributes to the anaemia (haemoglobin already mapped) of GIST.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Mesenteric adipokine: adiponectin, with leptin (already mapped), is part of the GI/mesenteric-adipose adipokine crosstalk of the GIST microenvironment.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), completes the adipokine dimension of the GIST microenvironment.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Prognostic neutrophils: the tumour-associated neutrophils and the neutrophil-lymphocyte ratio (S100A8/9 already mapped) are studied prognostic markers in GIST.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
