@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/07-system/gist
     relation: connects-to
     note: "NF1-associated GIST: neurofibromatosis type 1 predisposes to multiple wild-type small-bowel gastrointestinal stromal tumours, part of the tumour spectrum of the syndrome beyond the nerve-sheath tumours."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Growth-metabolic adipokine: leptin reflects the distinctive growth pattern (short stature and macrocephaly, growth hormone already mapped) and the metabolic profile of neurofibromatosis type 1."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic profile of neurofibromatosis type 1."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Neurofibroma-microenvironment adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the neurofibroma microenvironment (mast cell and IL-4 already mapped) of neurofibromatosis type 1."
 ---
 
 # Neurofibromatosis Type 1
@@ -680,6 +689,9 @@ In glioma and MPNST: additional alterations required — MPNST requires CDKN2A/2
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 milieu: IL-13, with IL-4 (already mapped), supports the mast-cell (already mapped) and M2 macrophage type-2 milieu of the neurofibroma microenvironment that fosters the NF1 tumours.
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Mast-cell recruitment: the mast cells, releasing histamine (already mapped) and type-2 (IL-4 already mapped) signals, infiltrate the neurofibromas and are essential to the microenvironment that drives their growth in neurofibromatosis type 1.
 - `connects-to` → **[GIST](../gist/README.md)** — NF1-associated GIST: neurofibromatosis type 1 predisposes to multiple wild-type small-bowel gastrointestinal stromal tumours, part of the tumour spectrum of the syndrome beyond the nerve-sheath tumours.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Growth-metabolic adipokine: leptin reflects the distinctive growth pattern (short stature and macrocephaly, growth hormone already mapped) and the metabolic profile of neurofibromatosis type 1.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic profile of neurofibromatosis type 1.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Neurofibroma-microenvironment adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the neurofibroma microenvironment (mast cell and IL-4 already mapped) of neurofibromatosis type 1.
 
 [^gutmann-2017-nf1-primer]: Gutmann DH, Ferner RE, Listernick RH, et al. Neurofibromatosis type 1. *Nat Rev Dis Primers.* 2017;3:17004. [doi:10.1038/nrdp.2017.4](https://doi.org/10.1038/nrdp.2017.4) · [PubMed 28230061](https://pubmed.ncbi.nlm.nih.gov/28230061/)
 [^dombi-2016-selumetinib]: Dombi E, Baldwin A, Marcus LJ, et al. Activity of Selumetinib in Neurofibromatosis Type 1-Related Plexiform Neurofibromas. *N Engl J Med.* 2016;375(26):2550-2560. [doi:10.1056/NEJMoa1605943](https://doi.org/10.1056/NEJMoa1605943) · [PubMed 28029918](https://pubmed.ncbi.nlm.nih.gov/28029918/)

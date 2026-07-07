@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "Islet zinc: zinc is stored with insulin (already mapped) in the islet secretory granules, and the zinc-insulin hexamer is part of the biology of the insulinomas among the pancreatic neuroendocrine tumours."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Functional-tumour metabolic adipokine: leptin reflects the metabolic disturbance of the functional (insulin and glucagon already mapped) neuroendocrine tumours and the metabolic milieu of the disease."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic disturbance of the functional neuroendocrine tumours."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the metabolic milieu of the neuroendocrine tumours."
 ---
 
 # Neuroendocrine Tumors
@@ -634,6 +643,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immune microenvironment of the neuroendocrine tumours.
 - `connects-to` → **[T-cytotoxic cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Immunotherapy: the cytotoxic T cells (PD-1 and perforin already mapped) are the target of the checkpoint immunotherapy explored in the high-grade neuroendocrine carcinomas, which the immunosuppressive stroma limits.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Islet zinc: zinc is stored with insulin (already mapped) in the islet secretory granules, and the zinc-insulin hexamer is part of the biology of the insulinomas among the pancreatic neuroendocrine tumours.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Functional-tumour metabolic adipokine: leptin reflects the metabolic disturbance of the functional (insulin and glucagon already mapped) neuroendocrine tumours and the metabolic milieu of the disease.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic disturbance of the functional neuroendocrine tumours.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the metabolic milieu of the neuroendocrine tumours.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Hypervascular tumours: HIF-1α-driven, VEGF-rich angiogenesis makes neuroendocrine tumours strikingly vascular, the rationale for anti-angiogenic agents such as sunitinib.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Grade and progression: TERT activation maintaining telomeres accompanies the progression of neuroendocrine tumours toward higher-grade, more aggressive disease.
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Proliferative drive: MYC activation drives the higher proliferative rate of poorly differentiated neuroendocrine carcinomas, marking their aggressive behaviour.
