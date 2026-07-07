@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Metabolic adipokine: resistin, with leptin (already mapped), is part of the adipokine milieu of the metabolic syndrome (insulin and cholesterol already mapped) worsened by the antipsychotics and the disease in schizophrenia."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin and resistin (already mapped), completes the adipokine axis of the metabolic syndrome (insulin and cholesterol already mapped) worsened by the antipsychotics in schizophrenia."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "NMDA modulation: magnesium blocks the NMDA receptor (glutamate already mapped), and magnesium dysregulation is implicated in the NMDA-hypofunction model of schizophrenia."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Synaptic zinc: the synaptic zinc that modulates the glutamate (already mapped) and NMDA signalling is disturbed in schizophrenia, part of the trace-metal dimension of the disorder."
 ---
 
 # Schizophrenia
@@ -743,6 +752,9 @@ Notably, schizophrenia shares genetic loci with bipolar disorder, ASD, ADHD, maj
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Microglial polarisation: IL-4 polarises the microglia (already mapped) toward an anti-inflammatory M2 phenotype (IL-10 already mapped), the balance against the neuroinflammation (TNF, IL-6 and IL-1 already mapped) implicated in schizophrenia.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 neuroimmunity: IL-13, with IL-4 (already mapped), is part of the type-2 arm whose balance against the pro-inflammatory signals shapes the neuroinflammatory dimension of schizophrenia.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Metabolic adipokine: resistin, with leptin (already mapped), is part of the adipokine milieu of the metabolic syndrome (insulin and cholesterol already mapped) worsened by the antipsychotics and the disease in schizophrenia.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin and resistin (already mapped), completes the adipokine axis of the metabolic syndrome (insulin and cholesterol already mapped) worsened by the antipsychotics in schizophrenia.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — NMDA modulation: magnesium blocks the NMDA receptor (glutamate already mapped), and magnesium dysregulation is implicated in the NMDA-hypofunction model of schizophrenia.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Synaptic zinc: the synaptic zinc that modulates the glutamate (already mapped) and NMDA signalling is disturbed in schizophrenia, part of the trace-metal dimension of the disorder.
 
 [^howes-2009-dopamine-hypothesis]: Howes OD, Kapur S. The dopamine hypothesis of schizophrenia: version III—the final common pathway. *Schizophr Bull.* 2009;35(3):549-562. [doi:10.1093/schbul/sbp006](https://doi.org/10.1093/schbul/sbp006) · [PubMed 19325164](https://pubmed.ncbi.nlm.nih.gov/19325164/)
 [^moghaddam-2012-glutamate]: Moghaddam B, Javitt D. From revolution to evolution: the glutamate hypothesis of schizophrenia and its implication for treatment. *Neuropsychopharmacology.* 2012;37(1):4-15. [doi:10.1038/npp.2011.181](https://doi.org/10.1038/npp.2011.181) · [PubMed 21956446](https://pubmed.ncbi.nlm.nih.gov/21956446/)
