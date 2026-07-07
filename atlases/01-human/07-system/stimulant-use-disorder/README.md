@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/cholesterol
     relation: connects-to
     note: "Cardiometabolic harm: chronic stimulant use disturbs metabolism and, with the sympathetic strain (norepinephrine already mapped) on the vasculature, contributes to the atherogenic dyslipidaemia adding to the cardiovascular harm of the disorder."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Neuroimmune balance: the anti-inflammatory IL-4, with IL-10 (already mapped), counters the microglial (already mapped) pro-inflammatory cytokines (IL-6, TNF and IL-1 already mapped) of the neuroinflammation driving stimulant neurotoxicity."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Zinc and dopamine signalling: zinc modulates the dopamine transporter (dopamine already mapped) and NMDA signalling, and disturbed zinc status is linked to the reward and mood dysregulation of stimulant use disorder."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Copper and catecholamines: copper is the cofactor of dopamine-β-hydroxylase, which makes noradrenaline from dopamine (both already mapped), linking copper handling to the catecholamine reward and toxicity of stimulant use disorder."
 ---
 
 # Stimulant Use Disorder
@@ -677,6 +686,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Neuroinflammatory eicosanoids: prostaglandins from the glial neuroinflammation (IL-6, TNF and IL-1 already mapped) that stimulants provoke modulate the reward and stress circuits, part of the neurotoxicity of stimulant use disorder.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative neurotoxicity: stimulants generate oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species (NLRP3 already mapped) drive the dopaminergic neurotoxicity and cardiovascular injury of the disorder.
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Cardiometabolic harm: chronic stimulant use disturbs metabolism and, with the sympathetic strain (norepinephrine already mapped) on the vasculature, contributes to the atherogenic dyslipidaemia adding to the cardiovascular harm of the disorder.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Neuroimmune balance: the anti-inflammatory IL-4, with IL-10 (already mapped), counters the microglial (already mapped) pro-inflammatory cytokines (IL-6, TNF and IL-1 already mapped) of the neuroinflammation driving stimulant neurotoxicity.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and dopamine signalling: zinc modulates the dopamine transporter (dopamine already mapped) and NMDA signalling, and disturbed zinc status is linked to the reward and mood dysregulation of stimulant use disorder.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper and catecholamines: copper is the cofactor of dopamine-β-hydroxylase, which makes noradrenaline from dopamine (both already mapped), linking copper handling to the catecholamine reward and toxicity of stimulant use disorder.
 
 ## Treatment
 

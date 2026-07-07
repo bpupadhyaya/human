@@ -424,6 +424,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "NMDA neuroprotection: magnesium blocks the NMDA receptor of the glutamate excitotoxicity (already mapped) driving neuronal death, and it has been trialled as a neuroprotectant, while hypomagnesaemia may worsen the ischaemic injury of stroke."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Calcium and excitotoxic death: the glutamate (already mapped) excitotoxicity of the ischaemic penumbra floods the neurons with calcium, triggering the enzymatic cascades of neuronal death that neuroprotection aims to interrupt in stroke."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Cytotoxic oedema: the failure of the sodium-potassium pump as ATP (already mapped) runs out lets sodium and water flood the cells, causing the cytotoxic oedema (aquaporin-4 already mapped) and the spreading depolarisations (connexin43 already mapped) of stroke."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "Astrocytic oedema and scar: the astrocytes swell in the cytotoxic oedema (aquaporin-4 already mapped) and later form the glial scar that limits repair, central to both the injury and the recovery after stroke."
 ---
 
 # Stroke
@@ -663,6 +672,9 @@ Normal brain maintains CBF constant (50-150 mmHg MAP range) via autoregulation (
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Ischaemic neuroinflammation: prostaglandins from the activated microglia (already mapped) and the cyclooxygenase pathway contribute to the secondary neuroinflammation of the infarct (IL-1 and TNF already mapped), and antiplatelet aspirin is central to prevention.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Anti-inflammatory recovery: the anti-inflammatory IL-10, with IL-4 (already mapped), restrains the damaging neuroinflammation after stroke and supports the reparative response, part of the immune balance shaping recovery.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — NMDA neuroprotection: magnesium blocks the NMDA receptor of the glutamate excitotoxicity (already mapped) driving neuronal death, and it has been trialled as a neuroprotectant, while hypomagnesaemia may worsen the ischaemic injury of stroke.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium and excitotoxic death: the glutamate (already mapped) excitotoxicity of the ischaemic penumbra floods the neurons with calcium, triggering the enzymatic cascades of neuronal death that neuroprotection aims to interrupt in stroke.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Cytotoxic oedema: the failure of the sodium-potassium pump as ATP (already mapped) runs out lets sodium and water flood the cells, causing the cytotoxic oedema (aquaporin-4 already mapped) and the spreading depolarisations (connexin43 already mapped) of stroke.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Astrocytic oedema and scar: the astrocytes swell in the cytotoxic oedema (aquaporin-4 already mapped) and later form the glial scar that limits repair, central to both the injury and the recovery after stroke.
 
 [^powers-2019-aha-stroke]: Powers WJ, Rabinstein AA, Ackerson T, et al. Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines. *Stroke.* 2019;50(12):e344-e418. [doi:10.1161/STR.0000000000000211](https://doi.org/10.1161/STR.0000000000000211) · [PubMed 31662037](https://pubmed.ncbi.nlm.nih.gov/31662037/)
 [^feigin-2021-gbd-stroke]: Feigin VL, Krishnamurthi RV, Parmar P, et al. Update on the Global Burden of Ischemic and Hemorrhagic Stroke in 1990-2013. *Neuroepidemiology.* 2015;45(3):161-176. [doi:10.1159/000441085](https://doi.org/10.1159/000441085) · [PubMed 26505981](https://pubmed.ncbi.nlm.nih.gov/26505981/)
