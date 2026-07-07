@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative stress: the proliferative Ewing sarcoma and its intensive chemotherapy generate oxidative stress, to which xanthine oxidase contributes, adding reactive oxygen species to the tumour microenvironment and treatment toxicity."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immunologically cold microenvironment that limits checkpoint immunotherapy in Ewing sarcoma."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immunosuppressive cold microenvironment of Ewing sarcoma."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Chemotherapy anaemia: the intensive multi-agent chemotherapy and marrow involvement of Ewing sarcoma cause anaemia (haemoglobin already mapped) needing transfusion, whose repeated support can load the young survivor with iron."
 ---
 
 # Ewing Sarcoma
@@ -678,6 +687,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Osteolytic inflammation: prostaglandins from the tumour and its bone-resorptive microenvironment (RANKL and osteopontin already mapped) promote the osteolysis and inflammation of the bone destruction of Ewing sarcoma.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the tumour microenvironment dampens the anti-tumour T-cell response, part of the immune evasion of this immunologically 'cold' sarcoma that limits checkpoint immunotherapy.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative stress: the proliferative Ewing sarcoma and its intensive chemotherapy generate oxidative stress, to which xanthine oxidase contributes, adding reactive oxygen species to the tumour microenvironment and treatment toxicity.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immunologically cold microenvironment that limits checkpoint immunotherapy in Ewing sarcoma.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immunosuppressive cold microenvironment of Ewing sarcoma.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Chemotherapy anaemia: the intensive multi-agent chemotherapy and marrow involvement of Ewing sarcoma cause anaemia (haemoglobin already mapped) needing transfusion, whose repeated support can load the young survivor with iron.
 
 ---
 
