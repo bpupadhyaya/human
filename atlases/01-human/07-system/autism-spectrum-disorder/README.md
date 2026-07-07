@@ -427,6 +427,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative stress: mitochondrial dysfunction and heightened oxidative stress, to which xanthine oxidase contributes, are reported in autism (NRF2 already mapped), and the resulting reactive oxygen species may affect the developing neurons (already mapped)."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Maternal immune activation: IL-13, with IL-4 (already mapped), is part of the type-2 response, and the maternal cytokine milieu (IL-6 and IL-17 already mapped) during pregnancy is implicated in the maternal-immune-activation model of autism."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Histaminergic neurotransmission: histamine acting on H3 receptors modulates the neurotransmission (dopamine and serotonin already mapped) and arousal implicated in autism, and H3 ligands have been explored for its cognitive and behavioural features."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Adipokine and neurodevelopment: leptin influences neurodevelopment and is reported to be altered in autism, part of the metabolic-neurodevelopmental dimension of the disorder alongside the mTOR (already mapped) signalling."
 ---
 
 # Autism Spectrum Disorder
@@ -700,6 +709,9 @@ The neural basis of ASD social deficits involves dysfunction of the **social bra
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Neuroinflammatory eicosanoids: prostaglandins from the maternal immune activation and the microglial (already mapped) cyclooxygenase pathway (IL-6 and IL-17 already mapped) are implicated in the altered neurodevelopment of a subset of autism.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immune counter-regulation: IL-10 opposes the pro-inflammatory signals (IL-6, TNF and IL-1 already mapped) of the maternal immune activation and the immune dysregulation reported in a subset of autism, part of its immune dimension.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative stress: mitochondrial dysfunction and heightened oxidative stress, to which xanthine oxidase contributes, are reported in autism (NRF2 already mapped), and the resulting reactive oxygen species may affect the developing neurons (already mapped).
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Maternal immune activation: IL-13, with IL-4 (already mapped), is part of the type-2 response, and the maternal cytokine milieu (IL-6 and IL-17 already mapped) during pregnancy is implicated in the maternal-immune-activation model of autism.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histaminergic neurotransmission: histamine acting on H3 receptors modulates the neurotransmission (dopamine and serotonin already mapped) and arousal implicated in autism, and H3 ligands have been explored for its cognitive and behavioural features.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adipokine and neurodevelopment: leptin influences neurodevelopment and is reported to be altered in autism, part of the metabolic-neurodevelopmental dimension of the disorder alongside the mTOR (already mapped) signalling.
 
 [^maenner-2023-asd-prevalence]: Maenner MJ, Warren Z, Williams AR, et al. Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 2020. *MMWR Surveill Summ.* 2023;72(2):1-14. [doi:10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1) · [PubMed 36952216](https://pubmed.ncbi.nlm.nih.gov/36952216/)
 [^lord-2020-asd-review]: Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum disorder. *Lancet.* 2018;392(10146):508-520. [doi:10.1016/S0140-6736(18)31129-2](https://doi.org/10.1016/S0140-6736(18)31129-2) · [PubMed 30078460](https://pubmed.ncbi.nlm.nih.gov/30078460/)

@@ -405,6 +405,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "Stress-axis mineralocorticoid arm: aldosterone acting on brain mineralocorticoid receptors, balanced against the glucocorticoid signalling (cortisol, CRH and ACTH already mapped), tunes the stress response that drives the emotional and stress eating of binge-eating disorder."
+  - target: 01-human/03-molecular/glucagon
+    relation: connects-to
+    note: "Satiety and glucose counter-regulation: glucagon promotes satiety and, with GLP-1 (already mapped), is the target of the incretin and glucagon co-agonists being developed for the obesity and appetite dysregulation of binge-eating disorder."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Stress and social neuropeptide: vasopressin, with oxytocin and CRH (already mapped), tunes the stress response and social behaviour, systems that shape the emotional and stress eating of binge-eating disorder."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Zinc and appetite: zinc is required for normal taste and appetite regulation, and disturbed zinc status interacts with the leptin and neuropeptide (already mapped) signalling that governs the eating behaviour of binge-eating disorder."
 sources:
   - id: american-psychiatric-2013-bed-dsm5
     type: clinical-guideline
@@ -695,6 +704,9 @@ BED is among the most psychiatrically comorbid of all eating disorders:
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Neuroinflammatory eicosanoids: prostaglandins from the obesity-associated low-grade inflammation (IL-6, TNF and IL-1 already mapped) modulate the reward and appetite circuits implicated in binge-eating disorder, part of its metabolic-inflammatory dimension.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Anti-inflammatory balance: the anti-inflammatory IL-10 counters the chronic low-grade inflammation (TNF, IL-6 and IL-1 already mapped) of the obesity accompanying binge-eating disorder, part of the metabolic-immune dimension of the condition.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Stress-axis mineralocorticoid arm: aldosterone acting on brain mineralocorticoid receptors, balanced against the glucocorticoid signalling (cortisol, CRH and ACTH already mapped), tunes the stress response that drives the emotional and stress eating of binge-eating disorder.
+- `connects-to` → **[Glucagon](../../03-molecular/glucagon/README.md)** — Satiety and glucose counter-regulation: glucagon promotes satiety and, with GLP-1 (already mapped), is the target of the incretin and glucagon co-agonists being developed for the obesity and appetite dysregulation of binge-eating disorder.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Stress and social neuropeptide: vasopressin, with oxytocin and CRH (already mapped), tunes the stress response and social behaviour, systems that shape the emotional and stress eating of binge-eating disorder.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and appetite: zinc is required for normal taste and appetite regulation, and disturbed zinc status interacts with the leptin and neuropeptide (already mapped) signalling that governs the eating behaviour of binge-eating disorder.
 
 [^american-psychiatric-2013-bed-dsm5]: American Psychiatric Association. Binge Eating Disorder (307.51). In: *Diagnostic and Statistical Manual of Mental Disorders, 5th ed.* Arlington, VA: APA; 2013. [doi:10.1176/appi.books.9780890425596](https://doi.org/10.1176/appi.books.9780890425596)
 [^mccallum-2003-bed-review]: McCallum K, Bruton AM. Binge eating disorder: eating disorder or somatic syndrome? *Prim Care Companion J Clin Psychiatry.* 2003;5(Suppl 4):20-25. [PubMed 15213784](https://pubmed.ncbi.nlm.nih.gov/15213784/)
