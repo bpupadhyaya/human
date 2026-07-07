@@ -427,6 +427,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Marrow angiogenesis: nitric oxide with VEGF (already mapped) supports the increased bone-marrow (already mapped) angiogenesis of multiple myeloma, part of the vascular microenvironment sustaining the plasma-cell clone."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 marrow niche: IL-13, with IL-4 (already mapped), supports the M2 marrow-macrophage niche that nurtures the malignant plasma cells of multiple myeloma."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Marrow adipose support: the marrow adipocytes and their adipokine leptin support the myeloma plasma cells, and obesity — a leptin-high state — is an established risk factor for multiple myeloma."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Protective adipokine: adiponectin is low in obesity, and its fall (leptin already mapped) removes a brake on the plasma-cell clone, part of the marrow-adipose crosstalk linking obesity to multiple myeloma."
 ---
 
 # Multiple Myeloma
@@ -692,6 +701,9 @@ MM evolves from precursor conditions through a well-defined continuum:
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Osteolytic inflammation: prostaglandins from the myeloma and its marrow microenvironment amplify the osteoclast-driven bone resorption (RANKL and sclerostin already mapped), contributing to the lytic bone disease of multiple myeloma.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 marrow niche: IL-4 polarises the marrow macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), the nurturing niche cells that support the survival of the malignant plasma cells of multiple myeloma.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Marrow angiogenesis: nitric oxide with VEGF (already mapped) supports the increased bone-marrow (already mapped) angiogenesis of multiple myeloma, part of the vascular microenvironment sustaining the plasma-cell clone.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 marrow niche: IL-13, with IL-4 (already mapped), supports the M2 marrow-macrophage niche that nurtures the malignant plasma cells of multiple myeloma.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Marrow adipose support: the marrow adipocytes and their adipokine leptin support the myeloma plasma cells, and obesity — a leptin-high state — is an established risk factor for multiple myeloma.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Protective adipokine: adiponectin is low in obesity, and its fall (leptin already mapped) removes a brake on the plasma-cell clone, part of the marrow-adipose crosstalk linking obesity to multiple myeloma.
 
 [^kumar-2022-imwg-criteria]: Kumar SK, Callander NS, Adekola K, et al. Multiple myeloma, version 3.2021, NCCN clinical practice guidelines in oncology. *J Natl Compr Canc Netw.* 2020;18(12):1685-1717. [doi:10.6004/jnccn.2020.0057](https://doi.org/10.6004/jnccn.2020.0057) · [PubMed 33285519](https://pubmed.ncbi.nlm.nih.gov/33285519/)
 [^moreau-2022-teclistamab]: Moreau P, Garfall AL, van de Donk NWCJ, et al. Teclistamab in relapsed or refractory multiple myeloma. *N Engl J Med.* 2022;387(6):495-505. [doi:10.1056/NEJMoa2203478](https://doi.org/10.1056/NEJMoa2203478) · [PubMed 35661166](https://pubmed.ncbi.nlm.nih.gov/35661166/)

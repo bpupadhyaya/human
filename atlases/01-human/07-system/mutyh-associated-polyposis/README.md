@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/leptin
     relation: connects-to
     note: "Obesity and proliferation: the adipokine leptin links obesity to colorectal carcinogenesis, promoting the epithelial proliferation (Wnt already mapped) that can accelerate the adenoma-carcinoma sequence in MUTYH-associated polyposis."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the microenvironment of the polyps of MUTYH-associated polyposis."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Adipokine modulation: adiponectin, with leptin (already mapped), links the metabolic state to the colorectal carcinogenesis, part of the modifiable adipokine influence on the cancer risk of MUTYH-associated polyposis."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Dietary chemoprevention: dietary calcium reduces colorectal adenoma recurrence, binding the bile acids (cholesterol already mapped) that promote carcinogenesis, a modifiable factor in the risk reduction of MUTYH-associated polyposis."
 ---
 
 # MUTYH-Associated Polyposis
@@ -672,6 +681,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Bile acids and diet: dietary fat and the bile acids derived from cholesterol promote colonic proliferation and the adenoma-carcinoma sequence, a modifiable dietary influence on the polyp burden of MUTYH-associated polyposis.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped) in the polyp and tumour stroma of MUTYH-associated polyposis.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Obesity and proliferation: the adipokine leptin links obesity to colorectal carcinogenesis, promoting the epithelial proliferation (Wnt already mapped) that can accelerate the adenoma-carcinoma sequence in MUTYH-associated polyposis.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the microenvironment of the polyps of MUTYH-associated polyposis.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine modulation: adiponectin, with leptin (already mapped), links the metabolic state to the colorectal carcinogenesis, part of the modifiable adipokine influence on the cancer risk of MUTYH-associated polyposis.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Dietary chemoprevention: dietary calcium reduces colorectal adenoma recurrence, binding the bile acids (cholesterol already mapped) that promote carcinogenesis, a modifiable factor in the risk reduction of MUTYH-associated polyposis.
 
 ---
 
