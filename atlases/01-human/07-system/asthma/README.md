@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "Zinc and airway immunity: zinc is an antioxidant and immune-modulating trace metal, and its deficiency is associated with worse asthma control and heightened airway inflammation."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Allergen sensitisation: the airway dendritic cells sample the inhaled allergen and prime the Th2 (already mapped) response, initiating the allergic sensitisation of asthma."
+  - target: 01-human/07-system/copd
+    relation: connects-to
+    note: "Asthma-COPD overlap: the asthma-COPD overlap (ACO) shares features of both; the neutrophilic (already mapped), less steroid-responsive asthma phenotype resembles COPD."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Iron and inflammation: the IL-6-driven (already mapped) hepcidin and the airway iron dysregulation are linked to the severe, neutrophilic (already mapped) asthma and the anaemia of chronic inflammation."
 ---
 
 # Asthma
@@ -688,6 +697,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Viral exacerbation: the deficient epithelial type-I interferon response to rhinovirus in asthma permits the viral respiratory infections that are the commonest trigger of acute asthma exacerbations.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Obese-asthma metabolism: the insulin resistance of the obese-asthma phenotype (leptin, adiponectin and resistin already mapped) links the metabolic dysfunction of obesity to the airway inflammation and the poor steroid response.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and airway immunity: zinc is an antioxidant and immune-modulating trace metal, and its deficiency is associated with worse asthma control and heightened airway inflammation.
+- `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Allergen sensitisation: the airway dendritic cells sample the inhaled allergen and prime the Th2 (already mapped) response, initiating the allergic sensitisation of asthma.
+- `connects-to` → **[COPD](../copd/README.md)** — Asthma-COPD overlap: the asthma-COPD overlap (ACO) shares features of both; the neutrophilic (already mapped), less steroid-responsive asthma phenotype resembles COPD.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Iron and inflammation: the IL-6-driven (already mapped) hepcidin and the airway iron dysregulation are linked to the severe, neutrophilic (already mapped) asthma and the anaemia of chronic inflammation.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)

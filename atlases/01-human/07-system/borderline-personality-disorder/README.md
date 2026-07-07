@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Metabolic adipokine: resistin, with leptin and insulin (already mapped), links the metabolic dysregulation and adipose-inflammatory state to the neuroinflammation implicated in borderline personality disorder."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin and resistin (already mapped), is part of the adipokine axis of the metabolic-inflammatory (insulin already mapped) state linked to the neuroinflammation of borderline personality disorder."
+  - target: 01-human/07-system/bipolar-disorder
+    relation: connects-to
+    note: "Affective-instability differential: borderline personality disorder and bipolar disorder both feature affective instability, requiring differentiation of the rapid, reactive BPD mood shifts from the sustained bipolar episodes."
+  - target: 01-human/07-system/attention-deficit-hyperactivity-disorder
+    relation: connects-to
+    note: "ADHD comorbidity: attention-deficit/hyperactivity disorder is frequently comorbid with borderline personality disorder, sharing the impulsivity and emotional dysregulation that complicate diagnosis and treatment."
 ---
 
 # Borderline Personality Disorder
@@ -719,6 +728,9 @@ This model directly informs DBT treatment: validate emotional experience (the bi
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 neuroimmunity: IL-13, with IL-4 (already mapped), supports the M2 microglia (already mapped) and the anti-inflammatory arm balancing the neuroinflammation (TNF, IL-6 and IL-1 already mapped) of borderline personality disorder.
 - `connects-to` → **[ADHD](../attention-deficit-hyperactivity-disorder/README.md)** — ADHD comorbidity: attention-deficit/hyperactivity disorder is frequently comorbid with borderline personality disorder, sharing the impulsivity and emotional dysregulation that complicate the diagnosis and treatment.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Metabolic adipokine: resistin, with leptin and insulin (already mapped), links the metabolic dysregulation and adipose-inflammatory state to the neuroinflammation implicated in borderline personality disorder.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin and resistin (already mapped), is part of the adipokine axis of the metabolic-inflammatory (insulin already mapped) state linked to the neuroinflammation of borderline personality disorder.
+- `connects-to` → **[Bipolar disorder](../bipolar-disorder/README.md)** — Affective-instability differential: borderline personality disorder and bipolar disorder both feature affective instability, requiring differentiation of the rapid, reactive BPD mood shifts from the sustained bipolar episodes.
+- `connects-to` → **[ADHD](../attention-deficit-hyperactivity-disorder/README.md)** — ADHD comorbidity: attention-deficit/hyperactivity disorder is frequently comorbid with borderline personality disorder, sharing the impulsivity and emotional dysregulation that complicate diagnosis and treatment.
 
 [^linehan-1993-dbt]: Linehan MM. *Cognitive-Behavioral Treatment of Borderline Personality Disorder.* Guilford; 1993. [PubMed 8192506](https://pubmed.ncbi.nlm.nih.gov/8192506/)
 [^skodol-2002-bpd-neurobiology]: Siever LJ, Davis KL. A psychobiological perspective on the personality disorders. *Am J Psychiatry.* 1991;148(12):1647-1658. [doi:10.1176/ajp.148.12.1647](https://doi.org/10.1176/ajp.148.12.1647) · [PubMed 1957927](https://pubmed.ncbi.nlm.nih.gov/1957927/)
