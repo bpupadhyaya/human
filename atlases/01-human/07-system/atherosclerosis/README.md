@@ -445,6 +445,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "Zinc and endothelial protection: zinc is an antioxidant and endothelial-protective trace metal, and its deficiency promotes the oxidative stress and endothelial dysfunction (nitric oxide already mapped) of atherosclerosis."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Coronary disease: the coronary atherosclerosis causes the angina and the myocardial infarction (troponin already mapped) of the heart, the leading cause of death."
+  - target: 01-human/07-system/familial-hypercholesterolemia
+    relation: connects-to
+    note: "Monogenic driver: familial hypercholesterolaemia (LDL and PCSK9 already mapped) causes the premature, severe atherosclerosis, the extreme of the cholesterol-driven disease."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Atherothrombosis: the platelets aggregate on the ruptured plaque (VWF and thrombin already mapped) to form the occlusive thrombus, the atherothrombotic MI and stroke."
 ---
 
 # Atherosclerosis
@@ -701,6 +710,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — LDL oxidation: iron catalyses the oxidation of the LDL (cholesterol already mapped) that generates the oxidised LDL taken up by the foam-cell macrophages (already mapped), the iron hypothesis (hepcidin already mapped) of atherogenesis.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — M2 plaque arm: IL-13, with IL-4 (already mapped), drives the M2 macrophage (already mapped) arm of the plaque inflammation, a potentially plaque-stabilising phenotype in atherosclerosis.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and endothelial protection: zinc is an antioxidant and endothelial-protective trace metal, and its deficiency promotes the oxidative stress and endothelial dysfunction (nitric oxide already mapped) of atherosclerosis.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Coronary disease: the coronary atherosclerosis causes the angina and the myocardial infarction (troponin already mapped) of the heart, the leading cause of death.
+- `connects-to` → **[Familial hypercholesterolemia](../familial-hypercholesterolemia/README.md)** — Monogenic driver: familial hypercholesterolaemia (LDL and PCSK9 already mapped) causes the premature, severe atherosclerosis, the extreme of the cholesterol-driven disease.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Atherothrombosis: the platelets aggregate on the ruptured plaque (VWF and thrombin already mapped) to form the occlusive thrombus, the atherothrombotic MI and stroke.
 
 ---
 

@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Adipokine milieu: resistin, with leptin and adiponectin (already mapped), completes the marrow-adipocyte adipokine signalling of the fat-replaced marrow microenvironment of aplastic anaemia."
+  - target: 01-human/07-system/mds
+    relation: connects-to
+    note: "MDS overlap: the aplastic anaemia can evolve to (or overlap with) the myelodysplastic syndrome (the clonal evolution, the monosomy-7), a feared late complication."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Th1 driver: the CD4 Th1 cells (IFN-γ and IL-2 already mapped) orchestrate the immune attack on the haematopoietic stem cells of the marrow in aplastic anaemia."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Transfusion iron: the transfusion-dependent (haemoglobin already mapped) aplastic anaemia accumulates the iron overload (hepcidin already mapped), needing the chelation."
 ---
 
 # Aplastic Anemia
@@ -692,6 +701,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Immune-attack interferon: the type-I interferon, with the IFN-γ (already mapped) of the autoreactive T cells, is part of the interferon-driven immune attack on the haematopoietic stem cells in aplastic anaemia.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Marrow-adipocyte adipokine: adiponectin, with leptin (already mapped), is secreted by the marrow adipocytes of the fatty marrow that replaces the failing haematopoiesis of aplastic anaemia.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine milieu: resistin, with leptin and adiponectin (already mapped), completes the marrow-adipocyte adipokine signalling of the fat-replaced marrow microenvironment of aplastic anaemia.
+- `connects-to` → **[MDS](../mds/README.md)** — MDS overlap: the aplastic anaemia can evolve to (or overlap with) the myelodysplastic syndrome (the clonal evolution, the monosomy-7), a feared late complication.
+- `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — Th1 driver: the CD4 Th1 cells (IFN-γ and IL-2 already mapped) orchestrate the immune attack on the haematopoietic stem cells of the marrow in aplastic anaemia.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Transfusion iron: the transfusion-dependent (haemoglobin already mapped) aplastic anaemia accumulates the iron overload (hepcidin already mapped), needing the chelation.
 
 ---
 
