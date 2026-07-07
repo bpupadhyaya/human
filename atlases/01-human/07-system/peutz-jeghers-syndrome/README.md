@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "Micronutrient malabsorption: the calcium and micronutrient malabsorption of the extensive GI polyposis of Peutz-Jeghers syndrome, contributing to the nutritional depletion."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate immune surveillance: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment of the hamartomatous polyps and the cancer-risk surveillance of Peutz-Jeghers syndrome."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 immunosurveillance: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the immunosurveillance of the multi-cancer risk of Peutz-Jeghers syndrome."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) anti-tumour response along the cancer-risk pathways of Peutz-Jeghers syndrome."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -703,6 +712,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Hamartoma stroma: PDGF drives the stromal and smooth-muscle (arborising) mesenchymal component of the hamartomatous Peutz-Jeghers polyps, part of their characteristic architecture.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Malabsorption zinc: the zinc deficiency from the chronic GI blood loss and the malabsorption of the extensive polyposis of Peutz-Jeghers syndrome impairs the healing and immunity.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Micronutrient malabsorption: the calcium and micronutrient malabsorption of the extensive GI polyposis of Peutz-Jeghers syndrome, contributing to the nutritional depletion.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate immune surveillance: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment of the hamartomatous polyps and the cancer-risk surveillance of Peutz-Jeghers syndrome.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 immunosurveillance: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the immunosurveillance of the multi-cancer risk of Peutz-Jeghers syndrome.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) anti-tumour response along the cancer-risk pathways of Peutz-Jeghers syndrome.
 
 ---
 

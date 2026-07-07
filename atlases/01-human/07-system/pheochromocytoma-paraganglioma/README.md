@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the catecholamine-driven metabolic disturbance of pheochromocytoma-paraganglioma."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Metabolic adipokine: resistin, with leptin and adiponectin (already mapped), completes the adipokine dimension of the catecholamine-driven metabolic disturbance of pheochromocytoma-paraganglioma."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "EPO-erythrocytosis iron: the erythropoietin (already mapped)-secreting pheochromocytoma-paraganglioma (and the pseudohypoxia HIF already mapped) can drive the erythrocytosis, consuming the iron for the increased erythropoiesis."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate antitumour interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment relevant to the immunotherapy of the malignant pheochromocytoma-paraganglioma."
 ---
 
 # Pheochromocytoma/Paraganglioma
@@ -721,6 +730,9 @@ Active in Cluster 1 (MET/AXL co-expressed in SDH-deficient tumors); Phase 2 CABO
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Catecholamine biosynthesis: copper is the cofactor of dopamine-β-hydroxylase, which makes the noradrenaline from the dopamine (both already mapped), the copper-dependent catecholamine biosynthesis of the chromaffin tumours.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Catecholamine hypermetabolism: leptin reflects the metabolic effects of the catecholamine (already mapped) excess — the hypermetabolism and weight loss — of pheochromocytoma-paraganglioma.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the catecholamine-driven metabolic disturbance of pheochromocytoma-paraganglioma.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Metabolic adipokine: resistin, with leptin and adiponectin (already mapped), completes the adipokine dimension of the catecholamine-driven metabolic disturbance of pheochromocytoma-paraganglioma.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — EPO-erythrocytosis iron: the erythropoietin (already mapped)-secreting pheochromocytoma-paraganglioma (and the pseudohypoxia HIF already mapped) can drive the erythrocytosis, consuming the iron for the increased erythropoiesis.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate antitumour interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment relevant to the immunotherapy of the malignant pheochromocytoma-paraganglioma.
 
 [^lenders-2014-pheo-guideline]: Lenders JW, Duh QY, Eisenhofer G, et al. Pheochromocytoma and paraganglioma: an endocrine society clinical practice guideline. *J Clin Endocrinol Metab.* 2014;99(6):1915-1942. [doi:10.1210/jc.2014-1498](https://doi.org/10.1210/jc.2014-1498) · [PubMed 24893135](https://pubmed.ncbi.nlm.nih.gov/24893135/)
 [^baudin-2021-firstmappp-sunitinib]: Baudin E, Goichot B, Berruti A, et al. First International Randomized Study in Malignant Progressive Pheochromocytoma and Paragangliomas (FIRSTMAPPP). *Ann Oncol.* 2021;32(10):1245-1254. [doi:10.1016/j.annonc.2021.07.009](https://doi.org/10.1016/j.annonc.2021.07.009) · [PubMed 34246769](https://pubmed.ncbi.nlm.nih.gov/34246769/)
