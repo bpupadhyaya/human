@@ -433,6 +433,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Obesity and breast cancer: obesity, through the adipokines leptin (already mapped) and the fall in adiponectin, and through the aromatase-driven oestrogen (already mapped), raises the risk and worsens the prognosis of postmenopausal breast cancer."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immunosuppressive microenvironment of breast cancer, promoting the metastasis."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Tumour-associated macrophages: the macrophages (CCL2 already mapped) of the breast-cancer stroma, in their M2 (IL-4 already mapped) phenotype, drive the immunosuppression, angiogenesis (VEGF already mapped) and metastasis."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Cancer-associated fibroblasts: the CAFs (TGF-β and PDGF already mapped) of the breast-cancer stroma drive the desmoplasia, the immune exclusion and the progression of the tumour."
 ---
 
 # Breast Cancer
@@ -677,6 +686,9 @@ cross_links:
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune microenvironment of breast cancer outside the immunogenic triple-negative subset.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Anaemia of therapy: the chemotherapy and advanced disease of breast cancer cause anaemia (haemoglobin already mapped) that can require transfusion, whose repeated support can load the body with iron.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Obesity and breast cancer: obesity, through the adipokines leptin (already mapped) and the fall in adiponectin, and through the aromatase-driven oestrogen (already mapped), raises the risk and worsens the prognosis of postmenopausal breast cancer.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immunosuppressive microenvironment of breast cancer, promoting the metastasis.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumour-associated macrophages: the macrophages (CCL2 already mapped) of the breast-cancer stroma, in their M2 (IL-4 already mapped) phenotype, drive the immunosuppression, angiogenesis (VEGF already mapped) and metastasis.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Cancer-associated fibroblasts: the CAFs (TGF-β and PDGF already mapped) of the breast-cancer stroma drive the desmoplasia, the immune exclusion and the progression of the tumour.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

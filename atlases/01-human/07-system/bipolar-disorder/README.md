@@ -436,6 +436,15 @@ cross_links:
   - target: 01-human/02-atomic/copper
     relation: connects-to
     note: "Copper and monoamines: copper is the cofactor of dopamine-β-hydroxylase, which makes noradrenaline from dopamine (both already mapped), and disturbed copper-zinc (already mapped) balance is reported in the mood episodes of bipolar disorder."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Histaminergic arousal: the H1/H3 histaminergic modulation of the arousal and the sleep-wake cycle (orexin and melatonin already mapped) is disturbed in the mood episodes of bipolar disorder, and H1-active drugs affect its course."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic-syndrome (insulin and cholesterol already mapped) comorbidity of bipolar disorder and its treatments."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory milieu (IL-6 already mapped) to the metabolic comorbidity of bipolar disorder."
 ---
 
 # Bipolar Disorder
@@ -705,6 +714,9 @@ During bipolar depression (often longer and more disabling than mania):
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Neuroimmune balance: the anti-inflammatory IL-4 counters the pro-inflammatory cytokines (IL-6, TNF and IL-1 already mapped) of the low-grade neuroinflammation reported in bipolar disorder, particularly during mood episodes.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and mood: zinc modulates the glutamatergic (already mapped) NMDA signalling, and low zinc status is reported in the depressive episodes of bipolar disorder, part of its trace-metal dimension.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper and monoamines: copper is the cofactor of dopamine-β-hydroxylase, which makes noradrenaline from dopamine (both already mapped), and disturbed copper-zinc (already mapped) balance is reported in the mood episodes of bipolar disorder.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histaminergic arousal: the H1/H3 histaminergic modulation of the arousal and the sleep-wake cycle (orexin and melatonin already mapped) is disturbed in the mood episodes of bipolar disorder, and H1-active drugs affect its course.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic-syndrome (insulin and cholesterol already mapped) comorbidity of bipolar disorder and its treatments.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory milieu (IL-6 already mapped) to the metabolic comorbidity of bipolar disorder.
 
 [^grande-2016-bipolar-review]: Grande I, Berk M, Birmaher B, Vieta E. Bipolar disorder. *Lancet.* 2016;387(10027):1561-1572. [doi:10.1016/S0140-6736(15)00241-X](https://doi.org/10.1016/S0140-6736(15)00241-X) · [PubMed 26388529](https://pubmed.ncbi.nlm.nih.gov/26388529/)
 [^geddes-2013-bipolar-treatment]: Geddes JR, Miklowitz DJ. Treatment of bipolar disorder. *Lancet.* 2013;381(9878):1672-1682. [doi:10.1016/S0140-6736(13)60857-0](https://doi.org/10.1016/S0140-6736(13)60857-0) · [PubMed 23663953](https://pubmed.ncbi.nlm.nih.gov/23663953/)
