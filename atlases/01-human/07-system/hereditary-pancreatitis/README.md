@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "Antioxidant therapy: the oxidative stress (NRF2 and xanthine oxidase already mapped) of chronic pancreatitis has prompted antioxidant regimens including selenium to reduce pain and inflammation, a studied adjunct in hereditary pancreatitis."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Pro-fibrotic type-2: IL-4 drives the M2 macrophage and pro-fibrotic (TGF-β already mapped) programme that lays down the collagen (already mapped) fibrosis of chronic hereditary pancreatitis (IL-10 already mapped)."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 fibrosis: IL-13, with IL-4 (already mapped), is a potent pro-fibrotic cytokine driving the pancreatic stellate-cell (fibroblast already mapped) fibrosis of chronic hereditary pancreatitis."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Malabsorption anaemia: the exocrine insufficiency and the chronic inflammation of hereditary pancreatitis impair nutrient absorption and cause an anaemia (haemoglobin already mapped) with disturbed iron handling."
 ---
 
 # Hereditary Pancreatitis
@@ -699,6 +708,9 @@ cross_links:
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Anti-inflammatory counterweight: the anti-inflammatory IL-10 opposes the pro-inflammatory cytokines (TNF, IL-6 and IL-1 already mapped) driving the recurrent pancreatic inflammation, part of the immune balance shaping progression to chronic pancreatitis.
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Fat malabsorption: the exocrine insufficiency of chronic hereditary pancreatitis causes fat malabsorption, disturbing cholesterol and essential-fatty-acid handling and the absorption of fat-soluble vitamins, part of its nutritional burden.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Antioxidant therapy: the oxidative stress (NRF2 and xanthine oxidase already mapped) of chronic pancreatitis has prompted antioxidant regimens including selenium to reduce pain and inflammation, a studied adjunct in hereditary pancreatitis.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Pro-fibrotic type-2: IL-4 drives the M2 macrophage and pro-fibrotic (TGF-β already mapped) programme that lays down the collagen (already mapped) fibrosis of chronic hereditary pancreatitis (IL-10 already mapped).
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 fibrosis: IL-13, with IL-4 (already mapped), is a potent pro-fibrotic cytokine driving the pancreatic stellate-cell (fibroblast already mapped) fibrosis of chronic hereditary pancreatitis.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Malabsorption anaemia: the exocrine insufficiency and the chronic inflammation of hereditary pancreatitis impair nutrient absorption and cause an anaemia (haemoglobin already mapped) with disturbed iron handling.
 
 [^whitcomb-1996-prss1]: Whitcomb DC, Gorry MC, Preston RA, et al. Hereditary pancreatitis is caused by a mutation in the cationic trypsinogen gene. *Nat Genet.* 1996;14(2):141-145. [doi:10.1038/ng1096-141](https://doi.org/10.1038/ng1096-141) · [PubMed 8841182](https://pubmed.ncbi.nlm.nih.gov/8841182/)
 [^lowenfels-2001-hp-pdac]: Lowenfels AB, Maisonneuve P, DiMagno EP, et al. Hereditary pancreatitis and the risk of pancreatic cancer. *J Natl Cancer Inst.* 2001;93(1):26-31. [doi:10.1093/jnci/93.1.26](https://doi.org/10.1093/jnci/93.1.26) · [PubMed 11136838](https://pubmed.ncbi.nlm.nih.gov/11136838/)
