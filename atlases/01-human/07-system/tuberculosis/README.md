@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative killing and injury: reactive oxygen species, to which xanthine oxidase contributes, help macrophages (already mapped) kill the bacillus but also drive the tissue damage of the granuloma, part of the double-edged oxidative response in tuberculosis."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Cholesterol as carbon source: Mycobacterium tuberculosis catabolises host cholesterol as a carbon and energy source inside the macrophage (already mapped), the foamy lipid-laden macrophages of the granuloma reflecting this metabolic dependency."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Zinc nutritional immunity: the macrophage poisons the phagosome with a burst of zinc to kill the ingested bacillus, part of the nutritional-immunity metal warfare (iron already mapped) waged against Mycobacterium tuberculosis."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Copper nutritional immunity: the macrophage also floods the phagosome with toxic copper to kill the bacillus, and with zinc (already mapped) this metal poisoning is a key host defence that Mycobacterium tuberculosis must resist."
 ---
 
 # Tuberculosis
@@ -677,6 +686,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Antigen priming: dendritic cells carry Mycobacterium tuberculosis antigen from the lung to the draining lymph nodes to prime the CD4 Th1 response (IL-12 and interferon-gamma already mapped), the delay in which lets the infection establish.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron tug-of-war: Mycobacterium tuberculosis needs iron to grow, and the host sequesters it through hepcidin (already mapped), a nutritional-immunity battle that also produces the anaemia of chronic tuberculosis.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative killing and injury: reactive oxygen species, to which xanthine oxidase contributes, help macrophages (already mapped) kill the bacillus but also drive the tissue damage of the granuloma, part of the double-edged oxidative response in tuberculosis.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Cholesterol as carbon source: Mycobacterium tuberculosis catabolises host cholesterol as a carbon and energy source inside the macrophage (already mapped), the foamy lipid-laden macrophages of the granuloma reflecting this metabolic dependency.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc nutritional immunity: the macrophage poisons the phagosome with a burst of zinc to kill the ingested bacillus, part of the nutritional-immunity metal warfare (iron already mapped) waged against Mycobacterium tuberculosis.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper nutritional immunity: the macrophage also floods the phagosome with toxic copper to kill the bacillus, and with zinc (already mapped) this metal poisoning is a key host defence that Mycobacterium tuberculosis must resist.
 
 ## See Also
 

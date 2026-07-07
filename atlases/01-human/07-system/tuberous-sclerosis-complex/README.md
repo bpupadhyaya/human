@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Metabolic oxidative stress: unrestrained mTORC1 anabolism (already mapped) in the tuberous-sclerosis hamartomas raises metabolic and oxidative stress, to which xanthine oxidase contributes, engaging the NRF2 antioxidant response (already mapped)."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage milieu: IL-4 polarises the tumour-associated macrophages toward an M2 phenotype (IL-10 already mapped) in the tuberous-sclerosis hamartomas and the lymphangioleiomyomatosis, part of their immune microenvironment."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "mTOR-driven lipogenesis: the unrestrained mTORC1 (already mapped) of the tuberous-sclerosis hamartomas drives cholesterol and lipid synthesis, the anabolic metabolism that the mTOR inhibitors shrinking the lesions target."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Metabolic signalling: the mTOR pathway (already mapped) integrates the metabolic signals of leptin and insulin (already mapped), and its dysregulation in tuberous sclerosis links the hamartoma growth to the anabolic-metabolic state."
 ---
 
 # Tuberous Sclerosis Complex
@@ -683,6 +692,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Hamartoma vasculature: nitric oxide with the mTOR-driven VEGF and angiopoietin (already mapped) shapes the aberrant, aneurysm-prone vasculature of the angiomyolipomas and other vascular hamartomas of tuberous sclerosis.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Hamartoma immune milieu: IL-10 among the cytokines of the tuberous-sclerosis hamartoma microenvironment shapes its immune milieu (IL-6 already mapped), part of the inflammatory dimension of these mTOR-driven lesions.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Metabolic oxidative stress: unrestrained mTORC1 anabolism (already mapped) in the tuberous-sclerosis hamartomas raises metabolic and oxidative stress, to which xanthine oxidase contributes, engaging the NRF2 antioxidant response (already mapped).
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage milieu: IL-4 polarises the tumour-associated macrophages toward an M2 phenotype (IL-10 already mapped) in the tuberous-sclerosis hamartomas and the lymphangioleiomyomatosis, part of their immune microenvironment.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — mTOR-driven lipogenesis: the unrestrained mTORC1 (already mapped) of the tuberous-sclerosis hamartomas drives cholesterol and lipid synthesis, the anabolic metabolism that the mTOR inhibitors shrinking the lesions target.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Metabolic signalling: the mTOR pathway (already mapped) integrates the metabolic signals of leptin and insulin (already mapped), and its dysregulation in tuberous sclerosis links the hamartoma growth to the anabolic-metabolic state.
 
 ---
 
