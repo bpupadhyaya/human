@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "Growth and ageing axis: the growth-hormone-IGF-1 axis (growth hormone already mapped) underlies the short stature of Werner syndrome, and the insulin/IGF-1 signalling that this axis feeds is central to the biology of ageing."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Senescence and SASP: IL-4 and the M2 arm (IL-10 already mapped) balance the senescence-associated secretory phenotype (TNF, IL-6 and IL-1 already mapped) of the accelerated cellular ageing of Werner syndrome."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 arm: IL-13, with IL-4 (already mapped), is part of the type-2 cytokine response whose balance against the pro-inflammatory SASP shapes the inflammatory ageing of Werner syndrome."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Cancer-therapy anaemia: the frequent sarcomas and other cancers of Werner syndrome and their chemotherapy cause anaemia (haemoglobin already mapped) needing transfusion, whose repeated support can load the body with iron."
 ---
 
 # Werner Syndrome
@@ -718,6 +727,9 @@ cross_links:
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adipokine dysfunction: the abnormal fat distribution and metabolic ageing of Werner syndrome disturb the adipokine leptin (adiponectin and resistin already mapped), part of the insulin-resistant metabolic derangement of the disorder.
 - `connects-to` → **[PCSK9](../../03-molecular/pcsk9/README.md)** — Atherogenic lipids: the dyslipidaemia of Werner syndrome, in which PCSK9 regulates LDL clearance (cholesterol already mapped), contributes to the premature atherosclerosis that is a leading cause of death in the disorder.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Growth and ageing axis: the growth-hormone-IGF-1 axis (growth hormone already mapped) underlies the short stature of Werner syndrome, and the insulin/IGF-1 signalling that this axis feeds is central to the biology of ageing.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Senescence and SASP: IL-4 and the M2 arm (IL-10 already mapped) balance the senescence-associated secretory phenotype (TNF, IL-6 and IL-1 already mapped) of the accelerated cellular ageing of Werner syndrome.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 arm: IL-13, with IL-4 (already mapped), is part of the type-2 cytokine response whose balance against the pro-inflammatory SASP shapes the inflammatory ageing of Werner syndrome.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Cancer-therapy anaemia: the frequent sarcomas and other cancers of Werner syndrome and their chemotherapy cause anaemia (haemoglobin already mapped) needing transfusion, whose repeated support can load the body with iron.
 
 [^yu-1996-wrn]: Yu CE, Oshima J, Fu YH, et al. Positional cloning of the Werner's syndrome gene. *Science.* 1996;272(5259):258-262. [doi:10.1126/science.272.5259.258](https://doi.org/10.1126/science.272.5259.258) · [PubMed 8602509](https://pubmed.ncbi.nlm.nih.gov/8602509/)
 [^lauper-2013-wrn-neoplasia]: Lauper JM, Krause A, Vaughan TL, Monnat RJ Jr. Spectrum and risk of neoplasia in Werner syndrome: a systematic review. *PLoS One.* 2013;8(4):e59709. [doi:10.1371/journal.pone.0059709](https://doi.org/10.1371/journal.pone.0059709) · [PubMed 23579047](https://pubmed.ncbi.nlm.nih.gov/23579047/)

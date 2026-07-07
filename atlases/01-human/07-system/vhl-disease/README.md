@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Obesity and adipokines: obesity is a risk factor for renal cell carcinoma, and the fall in the adipokine adiponectin is part of the metabolic milieu that can promote the clear-cell renal cell carcinoma of VHL disease."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immune microenvironment of the VHL-associated tumours, including the clear-cell renal cell carcinoma."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Obesity and RCC risk: the adipokine leptin, with the fall in adiponectin (already mapped), links the obesity that raises renal-cell-carcinoma risk to the metabolic milieu promoting the clear-cell RCC of VHL disease."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipokine milieu: resistin, with leptin and adiponectin (already mapped), is part of the pro-inflammatory adipokine milieu of the obesity implicated in the renal-cell-carcinoma risk of VHL disease."
 ---
 
 # VHL Disease
@@ -677,6 +686,9 @@ The genotype-phenotype correlation reflects the degree of pVHL function retained
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped) in the VHL-associated clear-cell renal cell carcinoma, part of its immune microenvironment.
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Clear-cell lipid: the VHL-driven clear-cell renal cell carcinoma accumulates cholesterol esters and lipid, giving the clear cytoplasm that names it, part of the metabolic rewiring downstream of the constitutive HIF (already mapped).
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Obesity and adipokines: obesity is a risk factor for renal cell carcinoma, and the fall in the adipokine adiponectin is part of the metabolic milieu that can promote the clear-cell renal cell carcinoma of VHL disease.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immune microenvironment of the VHL-associated tumours, including the clear-cell renal cell carcinoma.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Obesity and RCC risk: the adipokine leptin, with the fall in adiponectin (already mapped), links the obesity that raises renal-cell-carcinoma risk to the metabolic milieu promoting the clear-cell RCC of VHL disease.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine milieu: resistin, with leptin and adiponectin (already mapped), is part of the pro-inflammatory adipokine milieu of the obesity implicated in the renal-cell-carcinoma risk of VHL disease.
 
 [^lonser-2003-vhl-disease]: Lonser RR, Glenn GM, Walther M, et al. von Hippel-Lindau disease. *Lancet.* 2003;361(9374):2059-2067. [doi:10.1016/S0140-6736(03)13643-4](https://doi.org/10.1016/S0140-6736(03)13643-4) · [PubMed 12814730](https://pubmed.ncbi.nlm.nih.gov/12814730/)
 [^choueiri-2020-hif2-rcc]: Choueiri TK, Kaelin WG Jr. Targeting the HIF2-VEGF axis in renal cell carcinoma. *Nat Med.* 2020;26(10):1519-1530. [doi:10.1038/s41591-020-1093-z](https://doi.org/10.1038/s41591-020-1093-z) · [PubMed 33020650](https://pubmed.ncbi.nlm.nih.gov/33020650/)
