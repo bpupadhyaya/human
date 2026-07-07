@@ -422,6 +422,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Dermal macrophages: the macrophages of the dermis provide immune surveillance, clear debris and orchestrate the repair (collagen already mapped) of the skin, part of the integument's role as an immune organ."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Inflammatory skin disease: TNF drives psoriasis and the inflammatory dermatoses (IL-17 and IL-23 already mapped), the target of the anti-TNF biologics that transformed the treatment of severe skin disease."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Type-2 dermal remodelling: periostin, a matricellular protein induced by the type-2 cytokines (IL-13 already mapped), drives the dermal remodelling and chronic itch of atopic dermatitis, a biomarker of the barrier-disrupted skin."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Keratinocyte alarmin: IL-1β released by the keratinocytes is an alarm cytokine of the skin, driving the inflammation of hidradenitis suppurativa, neutrophilic dermatoses and the response to barrier injury."
 ---
 
 # Integumentary System
@@ -662,6 +671,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — Skin-resident T cells: the CD4 T-helper cells resident in the skin, driving the Th17 and type-2 responses (IL-17, IL-23 and IL-13 already mapped), are central to the inflammatory diseases of the integument such as psoriasis and atopic dermatitis.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and skin integrity: zinc is essential for keratinocyte proliferation, wound healing and the many cutaneous enzymes, and its deficiency causes the acrodermatitis and impaired barrier of the integument.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Dermal macrophages: the macrophages of the dermis provide immune surveillance, clear debris and orchestrate the repair (collagen already mapped) of the skin, part of the integument's role as an immune organ.
+- `connects-to` → **[TNF-alpha](../../03-molecular/tnf-alpha/README.md)** — Inflammatory skin disease: TNF drives psoriasis and the inflammatory dermatoses (IL-17 and IL-23 already mapped), the target of the anti-TNF biologics that transformed the treatment of severe skin disease.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Type-2 dermal remodelling: periostin, a matricellular protein induced by the type-2 cytokines (IL-13 already mapped), drives the dermal remodelling and chronic itch of atopic dermatitis, a biomarker of the barrier-disrupted skin.
+- `connects-to` → **[IL-1b](../../03-molecular/il-1b/README.md)** — Keratinocyte alarmin: IL-1β released by the keratinocytes is an alarm cytokine of the skin, driving the inflammation of hidradenitis suppurativa, neutrophilic dermatoses and the response to barrier injury.
 
 ## Pathology
 
