@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the vascular tone and angiogenesis of the highly vascular atypical teratoid/rhabdoid tumour, part of its stromal microenvironment."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the cold immune microenvironment of atypical teratoid/rhabdoid tumour."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immunosuppressive microenvironment of atypical teratoid/rhabdoid tumour."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Chemotherapy anaemia: the intensive multi-agent chemotherapy of atypical teratoid/rhabdoid tumour is myelosuppressive, causing anaemia (haemoglobin already mapped) that needs transfusion whose repeated support can load the young child with iron."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -674,6 +683,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Proton craniospinal therapy: proton-beam radiotherapy spares the developing infant brain (already mapped) compared with photon (already mapped) craniospinal irradiation, an important consideration in the very young children with atypical teratoid/rhabdoid tumour.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the tumour microenvironment dampens the anti-tumour T-cell response (PD-1, CTLA-4 and CD8 already mapped), part of the immune evasion of this aggressive embryonal tumour.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the vascular tone and angiogenesis of the highly vascular atypical teratoid/rhabdoid tumour, part of its stromal microenvironment.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the cold immune microenvironment of atypical teratoid/rhabdoid tumour.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immunosuppressive microenvironment of atypical teratoid/rhabdoid tumour.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Chemotherapy anaemia: the intensive multi-agent chemotherapy of atypical teratoid/rhabdoid tumour is myelosuppressive, causing anaemia (haemoglobin already mapped) that needs transfusion whose repeated support can load the young child with iron.
 
 ---
 

@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative UV damage: ultraviolet exposure generates reactive oxygen species, to which xanthine oxidase contributes, adding oxidative DNA damage (NRF2 already mapped) to the mutational burden that drives basal cell carcinoma."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the UV-induced immunosuppressive microenvironment of basal cell carcinoma."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Copper and stroma: copper is the cofactor of lysyl oxidase that cross-links the tumour-stroma collagen (already mapped) and supports angiogenesis (VEGF already mapped), part of the copper-dependent biology of basal cell carcinoma."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Zinc and cutaneous defence: zinc supports the antioxidant (xanthine oxidase already mapped) and immune function of the skin, and disturbed zinc handling is part of the cutaneous defence against the photocarcinogenesis that drives basal cell carcinoma."
 ---
 
 # Basal Cell Carcinoma
@@ -677,6 +686,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Hedgehog-lipid link: cholesterol and its oxysterol derivatives activate Smoothened (already mapped), the driver of the Hedgehog pathway (PTCH1 already mapped) in basal cell carcinoma, linking cellular lipid handling to the oncogenic signalling.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — UV photocarcinogenesis: ultraviolet exposure induces cyclooxygenase-2 and prostaglandin E2 in the skin, promoting the inflammation and immunosuppression of photocarcinogenesis, and NSAIDs are studied for basal cell carcinoma chemoprevention.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative UV damage: ultraviolet exposure generates reactive oxygen species, to which xanthine oxidase contributes, adding oxidative DNA damage (NRF2 already mapped) to the mutational burden that drives basal cell carcinoma.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the UV-induced immunosuppressive microenvironment of basal cell carcinoma.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper and stroma: copper is the cofactor of lysyl oxidase that cross-links the tumour-stroma collagen (already mapped) and supports angiogenesis (VEGF already mapped), part of the copper-dependent biology of basal cell carcinoma.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and cutaneous defence: zinc supports the antioxidant (xanthine oxidase already mapped) and immune function of the skin, and disturbed zinc handling is part of the cutaneous defence against the photocarcinogenesis that drives basal cell carcinoma.
 
 ---
 
