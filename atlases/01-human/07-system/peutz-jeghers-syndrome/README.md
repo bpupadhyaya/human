@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Polyp vasculature: nitric oxide with VEGF and endothelin-1 (already mapped) regulates the vascular tone and angiogenesis of the vascular hamartomatous polyps of Peutz-Jeghers syndrome, part of their stromal biology."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the microenvironment of the hamartomatous polyps of Peutz-Jeghers syndrome."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipokine milieu: resistin, with leptin and adiponectin (already mapped), links the metabolic state governed by the STK11-AMPK (already mapped) axis to the polyp and cancer biology of Peutz-Jeghers syndrome."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin adds an anaemia of chronic disease to the iron-deficiency (already mapped) anaemia of the chronically bleeding polyps of Peutz-Jeghers syndrome."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -679,6 +688,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages (already mapped) toward an immunosuppressive M2 phenotype (IL-10 already mapped) in the hamartomatous polyp stroma of Peutz-Jeghers syndrome.
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Bile acids and diet: dietary fat and the bile acids derived from cholesterol promote the gastrointestinal proliferation and the hamartoma-carcinoma progression, a modifiable dietary influence on the cancer risk of Peutz-Jeghers syndrome.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Polyp vasculature: nitric oxide with VEGF and endothelin-1 (already mapped) regulates the vascular tone and angiogenesis of the vascular hamartomatous polyps of Peutz-Jeghers syndrome, part of their stromal biology.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the microenvironment of the hamartomatous polyps of Peutz-Jeghers syndrome.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine milieu: resistin, with leptin and adiponectin (already mapped), links the metabolic state governed by the STK11-AMPK (already mapped) axis to the polyp and cancer biology of Peutz-Jeghers syndrome.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin adds an anaemia of chronic disease to the iron-deficiency (already mapped) anaemia of the chronically bleeding polyps of Peutz-Jeghers syndrome.
 
 ---
 
