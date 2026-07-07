@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Adipokine milieu: resistin, with leptin and adiponectin (already mapped), completes the adipokine dimension of the low body weight and metabolic state of Bloom syndrome."
+  - target: 01-human/07-system/colorectal-cancer
+    relation: connects-to
+    note: "Early GI cancer: the genome instability (BLM already mapped) of Bloom syndrome predisposes to the early-onset colorectal and other GI cancers, needing the surveillance."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "SCE diagnostic: the elevated sister-chromatid exchanges (the BLM already mapped hallmark) demonstrated in the cultured fibroblasts/lymphocytes are the diagnostic test of Bloom syndrome."
+  - target: 01-human/07-system/all
+    relation: connects-to
+    note: "Leukaemia predisposition: Bloom syndrome predisposes to the acute leukaemias (ALL/AML) and the lymphomas, among its commonest and earliest malignancies."
 ---
 
 # Bloom Syndrome
@@ -717,6 +726,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), is part of the type-2/M2 immune arm of the immune dysregulation (reduced immunoglobulin already mapped) and the tumour microenvironment of the cancers of Bloom syndrome.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine and growth failure: adiponectin, with leptin (already mapped), is the adipokine of the depleted adipose tissue and the growth failure (GH and IGF-1 already mapped) of Bloom syndrome.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine milieu: resistin, with leptin and adiponectin (already mapped), completes the adipokine dimension of the low body weight and metabolic state of Bloom syndrome.
+- `connects-to` → **[Colorectal cancer](../colorectal-cancer/README.md)** — Early GI cancer: the genome instability (BLM already mapped) of Bloom syndrome predisposes to the early-onset colorectal and other GI cancers, needing the surveillance.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — SCE diagnostic: the elevated sister-chromatid exchanges (the BLM already mapped hallmark) demonstrated in the cultured fibroblasts/lymphocytes are the diagnostic test of Bloom syndrome.
+- `connects-to` → **[ALL](../all/README.md)** — Leukaemia predisposition: Bloom syndrome predisposes to the acute leukaemias (ALL/AML) and the lymphomas, among its commonest and earliest malignancies.
 
 ---
 

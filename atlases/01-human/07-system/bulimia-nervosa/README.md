@@ -441,6 +441,15 @@ cross_links:
   - target: 01-human/03-molecular/tnf-alpha
     relation: connects-to
     note: "Neuroinflammatory cytokine: TNF-α, with IL-6 (already mapped), is part of the low-grade neuroinflammation associated with the binge-purge behaviour and the mood dysregulation of bulimia nervosa."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Purging hypokalaemia: the self-induced vomiting and the laxative/diuretic abuse of bulimia nervosa cause the hypokalaemia and metabolic alkalosis (aldosterone and renin already mapped), the cause of the cardiac arrhythmias."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Arrhythmia risk: the hypokalaemia (and the ipecac cardiotoxicity) of bulimia nervosa cause the QT prolongation and the arrhythmias (troponin already mapped) of the heart."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Mood comorbidity: major depression is highly comorbid with bulimia nervosa, sharing the serotonergic (already mapped) dysregulation and the SSRI (fluoxetine) treatment."
 ---
 
 # Bulimia Nervosa
@@ -711,6 +720,9 @@ All of the following must be met:
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine dysregulation: resistin, with leptin and adiponectin (already mapped), is part of the disturbed adipokine and energy-balance signalling of the binge-purge cycle of bulimia nervosa.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Neuroimmune type-2 arm: IL-4 is part of the type-2 neuroimmune balance against the low-grade neuroinflammation (IL-6 and IL-1 already mapped) increasingly implicated in the mood and eating dysregulation of bulimia nervosa.
 - `connects-to` → **[TNF-alpha](../../03-molecular/tnf-alpha/README.md)** — Neuroinflammatory cytokine: TNF-α, with IL-6 (already mapped), is part of the low-grade neuroinflammation associated with the binge-purge behaviour and the mood dysregulation of bulimia nervosa.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Purging hypokalaemia: the self-induced vomiting and the laxative/diuretic abuse of bulimia nervosa cause the hypokalaemia and metabolic alkalosis (aldosterone and renin already mapped), the cause of the cardiac arrhythmias.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Arrhythmia risk: the hypokalaemia (and the ipecac cardiotoxicity) of bulimia nervosa cause the QT prolongation and the arrhythmias (troponin already mapped) of the heart.
+- `connects-to` → **[Major depressive disorder](../major-depressive-disorder/README.md)** — Mood comorbidity: major depression is highly comorbid with bulimia nervosa, sharing the serotonergic (already mapped) dysregulation and the SSRI (fluoxetine) treatment.
 
 ## Treatment
 
