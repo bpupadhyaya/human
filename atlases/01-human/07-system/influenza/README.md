@@ -436,6 +436,15 @@ cross_links:
   - target: 01-human/03-molecular/leptin
     relation: connects-to
     note: "Obesity and severity: obesity, signalled through the adipokine leptin, is an independent risk factor for severe influenza, the adipose-immune dysfunction impairing the antiviral response."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the obesity (a severe-influenza risk) and the immune-metabolic milieu of the influenza response."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the cytokine (IL-6 already mapped) response to influenza."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Inflammation iron: the IL-6-driven (already mapped) hepcidin of the severe influenza inflammation contributes to the anaemia and the iron dysregulation of the acute illness."
 ---
 
 # Influenza
@@ -711,3 +720,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 airway arm: IL-13, with IL-4 (already mapped), is part of the type-2 response that modulates the airway epithelium and contributes to the post-influenza wheeze and the asthma exacerbations it can trigger.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Alveolar oedema: VEGF drives the vascular permeability and the alveolar-capillary oedema of the severe influenza pneumonia (surfactant already mapped), part of the lung injury and ARDS.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Obesity and severity: obesity, signalled through the adipokine leptin, is an independent risk factor for severe influenza, the adipose-immune dysfunction impairing the antiviral response.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the obesity (a severe-influenza risk) and the immune-metabolic milieu of the influenza response.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the cytokine (IL-6 already mapped) response to influenza.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Inflammation iron: the IL-6-driven (already mapped) hepcidin of the severe influenza inflammation contributes to the anaemia and the iron dysregulation of the acute illness.

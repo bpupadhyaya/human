@@ -436,6 +436,15 @@ cross_links:
   - target: 01-human/03-molecular/baff
     relation: connects-to
     note: "B-cell hyperactivation: the raised BAFF of AIDS drives the B-cell hyperactivation and the hypergammaglobulinaemia (immunoglobulin already mapped), contributing to the B-cell lymphomas (LMP1 already mapped) of the disease."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Lipodystrophy adipokine: adiponectin, with leptin (already mapped), is disturbed by the HIV lipodystrophy and the ART-associated metabolic syndrome (insulin already mapped) of AIDS."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipokine of the HIV lipodystrophy and the metabolic-inflammatory (IL-6 already mapped) milieu of AIDS."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Kaposi angiogenesis: the Kaposi sarcoma (an AIDS-defining, HHV-8-driven malignancy) is highly angiogenic (VEGF), the vascular tumour of the profound immunosuppression of AIDS."
 ---
 
 # HIV/AIDS
@@ -690,6 +699,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Multifactorial anaemia: the anaemia of chronic infection (hepcidin and haemoglobin already mapped) combines with the marrow suppression, drugs and opportunistic infections to cause the multifactorial iron-disturbed anaemia common in AIDS.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Th2 immune shift: IL-13, with IL-4 (already mapped), reflects the Th2 shift of the immune dysregulation of AIDS, part of the loss of the Th1 (IFN-γ and IL-12 already mapped) control that permits the opportunistic infections.
 - `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — B-cell hyperactivation: the raised BAFF of AIDS drives the B-cell hyperactivation and the hypergammaglobulinaemia (immunoglobulin already mapped), contributing to the B-cell lymphomas (LMP1 already mapped) of the disease.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Lipodystrophy adipokine: adiponectin, with leptin (already mapped), is disturbed by the HIV lipodystrophy and the ART-associated metabolic syndrome (insulin already mapped) of AIDS.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipokine of the HIV lipodystrophy and the metabolic-inflammatory (IL-6 already mapped) milieu of AIDS.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Kaposi angiogenesis: the Kaposi sarcoma (an AIDS-defining, HHV-8-driven malignancy) is highly angiogenic (VEGF), the vascular tumour of the profound immunosuppression of AIDS.
 
 ## See Also
 
