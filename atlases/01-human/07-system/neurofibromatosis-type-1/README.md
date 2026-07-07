@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/prostaglandins
     relation: connects-to
     note: "Inflammatory eicosanoids: prostaglandins from the mast cells (already mapped) and inflammatory infiltrate (IL-6 and IL-1 already mapped) of the neurofibroma microenvironment contribute to its inflammation, part of the stroma that supports the NF1 tumours."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 milieu: IL-13, with IL-4 (already mapped), supports the mast-cell (already mapped) and M2 macrophage type-2 milieu of the neurofibroma microenvironment that fosters the NF1 tumours."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast-cell recruitment: the mast cells, releasing histamine (already mapped) and type-2 (IL-4 already mapped) signals, infiltrate the neurofibromas and are essential to the microenvironment that drives their growth in neurofibromatosis type 1."
+  - target: 01-human/07-system/gist
+    relation: connects-to
+    note: "NF1-associated GIST: neurofibromatosis type 1 predisposes to multiple wild-type small-bowel gastrointestinal stromal tumours, part of the tumour spectrum of the syndrome beyond the nerve-sheath tumours."
 ---
 
 # Neurofibromatosis Type 1
@@ -668,6 +677,9 @@ In glioma and MPNST: additional alterations required — MPNST requires CDKN2A/2
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell pruritus: the mast cells (already mapped) infiltrating the neurofibromas release histamine, driving the itch characteristic of the growing tumours and part of the mast-cell-rich microenvironment that supports them.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Type-2 mast-cell milieu: IL-4 supports the mast cells (already mapped) and polarises macrophages toward an M2 phenotype (IL-10 already mapped) in the neurofibroma microenvironment, part of the type-2 immune milieu that fosters tumour growth.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Inflammatory eicosanoids: prostaglandins from the mast cells (already mapped) and inflammatory infiltrate (IL-6 and IL-1 already mapped) of the neurofibroma microenvironment contribute to its inflammation, part of the stroma that supports the NF1 tumours.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 milieu: IL-13, with IL-4 (already mapped), supports the mast-cell (already mapped) and M2 macrophage type-2 milieu of the neurofibroma microenvironment that fosters the NF1 tumours.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Mast-cell recruitment: the mast cells, releasing histamine (already mapped) and type-2 (IL-4 already mapped) signals, infiltrate the neurofibromas and are essential to the microenvironment that drives their growth in neurofibromatosis type 1.
+- `connects-to` → **[GIST](../gist/README.md)** — NF1-associated GIST: neurofibromatosis type 1 predisposes to multiple wild-type small-bowel gastrointestinal stromal tumours, part of the tumour spectrum of the syndrome beyond the nerve-sheath tumours.
 
 [^gutmann-2017-nf1-primer]: Gutmann DH, Ferner RE, Listernick RH, et al. Neurofibromatosis type 1. *Nat Rev Dis Primers.* 2017;3:17004. [doi:10.1038/nrdp.2017.4](https://doi.org/10.1038/nrdp.2017.4) · [PubMed 28230061](https://pubmed.ncbi.nlm.nih.gov/28230061/)
 [^dombi-2016-selumetinib]: Dombi E, Baldwin A, Marcus LJ, et al. Activity of Selumetinib in Neurofibromatosis Type 1-Related Plexiform Neurofibromas. *N Engl J Med.* 2016;375(26):2550-2560. [doi:10.1056/NEJMoa1605943](https://doi.org/10.1056/NEJMoa1605943) · [PubMed 28029918](https://pubmed.ncbi.nlm.nih.gov/28029918/)

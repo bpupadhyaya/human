@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/il-4
     relation: connects-to
     note: "M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped) in the neuroendocrine-tumour stroma, part of its immune microenvironment."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immune microenvironment of the neuroendocrine tumours."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Immunotherapy: the cytotoxic T cells (PD-1 and perforin already mapped) are the target of the checkpoint immunotherapy explored in the high-grade neuroendocrine carcinomas, which the immunosuppressive stroma limits."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Islet zinc: zinc is stored with insulin (already mapped) in the islet secretory granules, and the zinc-insulin hexamer is part of the biology of the insulinomas among the pancreatic neuroendocrine tumours."
 ---
 
 # Neuroendocrine Tumors
@@ -622,6 +631,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the tumour microenvironment of the neuroendocrine tumours dampens the anti-tumour immune response, part of the immune biology relevant to the immunotherapy of the aggressive or metastatic tumours.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Incretin-secreting tumours: GLP-1 reflects the enteropancreatic incretin biology of the neuroendocrine tumours (insulin and glucagon already mapped), and rare GLP-1-secreting tumours cause hypoglycaemia, part of the functional-tumour spectrum.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped) in the neuroendocrine-tumour stroma, part of its immune microenvironment.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immune microenvironment of the neuroendocrine tumours.
+- `connects-to` → **[T-cytotoxic cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Immunotherapy: the cytotoxic T cells (PD-1 and perforin already mapped) are the target of the checkpoint immunotherapy explored in the high-grade neuroendocrine carcinomas, which the immunosuppressive stroma limits.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Islet zinc: zinc is stored with insulin (already mapped) in the islet secretory granules, and the zinc-insulin hexamer is part of the biology of the insulinomas among the pancreatic neuroendocrine tumours.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Hypervascular tumours: HIF-1α-driven, VEGF-rich angiogenesis makes neuroendocrine tumours strikingly vascular, the rationale for anti-angiogenic agents such as sunitinib.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Grade and progression: TERT activation maintaining telomeres accompanies the progression of neuroendocrine tumours toward higher-grade, more aggressive disease.
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Proliferative drive: MYC activation drives the higher proliferative rate of poorly differentiated neuroendocrine carcinomas, marking their aggressive behaviour.
