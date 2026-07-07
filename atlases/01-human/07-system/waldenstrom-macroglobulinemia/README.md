@@ -415,6 +415,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Tumour lysis and oxidation: treating the lymphoplasmacytic clone releases purines that xanthine oxidase converts to uric acid, and the reactive oxygen species it generates add oxidative and tumour-lysis burden to therapy for Waldenström macroglobulinaemia."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Marrow-adipocyte crosstalk: the marrow adipocytes and their adipokine adiponectin engage in metabolic crosstalk with the lymphoplasmacytic clone, the marrow adipose tissue shaping the niche that supports Waldenström macroglobulinaemia."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Adipokine marrow signalling: leptin, with adiponectin (already mapped), from the marrow adipose tissue signals to the clonal and stromal cells, part of the metabolic microenvironment of the infiltrated marrow in Waldenström macroglobulinaemia."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipokine milieu: resistin, with leptin and adiponectin (already mapped), completes the adipokine signalling of the marrow adipose niche that shapes the microenvironment of the lymphoplasmacytic infiltrate in Waldenström macroglobulinaemia."
 ---
 
 # Waldenström Macroglobulinemia
@@ -665,6 +674,9 @@ For symptomatic hyperviscosity → removes IgM immediately; does not treat under
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Th2 clone support: IL-4 and type-2 T-cell help sustain the IgM-secreting B-cell clone (BAFF and IL-2 already mapped) of Waldenström macroglobulinaemia, part of the cytokine support of the lymphoplasmacytic proliferation.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Hyperviscosity vasculature: the high IgM raises serum viscosity and disturbs microvascular flow, and nitric-oxide-mediated vascular regulation is stressed in the hyperviscosity syndrome that causes the visual and neurological symptoms of Waldenström macroglobulinaemia.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Tumour lysis and oxidation: treating the lymphoplasmacytic clone releases purines that xanthine oxidase converts to uric acid, and the reactive oxygen species it generates add oxidative and tumour-lysis burden to therapy for Waldenström macroglobulinaemia.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Marrow-adipocyte crosstalk: the marrow adipocytes and their adipokine adiponectin engage in metabolic crosstalk with the lymphoplasmacytic clone, the marrow adipose tissue shaping the niche that supports Waldenström macroglobulinaemia.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adipokine marrow signalling: leptin, with adiponectin (already mapped), from the marrow adipose tissue signals to the clonal and stromal cells, part of the metabolic microenvironment of the infiltrated marrow in Waldenström macroglobulinaemia.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine milieu: resistin, with leptin and adiponectin (already mapped), completes the adipokine signalling of the marrow adipose niche that shapes the microenvironment of the lymphoplasmacytic infiltrate in Waldenström macroglobulinaemia.
 
 [^treon-2015-ibrutinib-wm]: Treon SP, Tripsas CK, Meid K, et al. Ibrutinib in previously treated Waldenström's macroglobulinemia. *N Engl J Med.* 2015;373(18):1765-1774. [doi:10.1056/NEJMoa1501548](https://doi.org/10.1056/NEJMoa1501548) · [PubMed 26352686](https://pubmed.ncbi.nlm.nih.gov/26352686/)
 [^tam-2020-aspen]: Tam CS, Opat S, D'Sa S, et al. A randomized phase 3 trial of zanubrutinib vs ibrutinib in symptomatic Waldenström macroglobulinemia: the ASPEN study. *Blood.* 2020;136(18):2038-2050. [doi:10.1182/blood.2020006844](https://doi.org/10.1182/blood.2020006844) · [PubMed 32828187](https://pubmed.ncbi.nlm.nih.gov/32828187/)

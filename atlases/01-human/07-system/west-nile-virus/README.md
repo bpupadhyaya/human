@@ -417,6 +417,15 @@ cross_links:
   - target: 01-human/03-molecular/il-13
     relation: connects-to
     note: "Type-2 antibody help: IL-13, with IL-4 (already mapped), supports the B-cell (already mapped) neutralising-antibody response that controls West Nile viraemia, the humoral arm balancing the Th1 (IL-12 and interferon-gamma already mapped) response."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Magnesium and excitotoxicity: magnesium blocks the NMDA receptor and buffers the glutamate (already mapped) excitotoxicity that kills infected neurons (already mapped) in West Nile encephalitis, a neuroprotective ion."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Zinc and antiviral immunity: zinc supports the interferon (already mapped) antiviral response and inhibits flavivirus replication, and zinc status influences the immunity that determines the outcome of West Nile virus infection."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Selenium antioxidant defence: selenium and its selenoproteins support the antioxidant defence and the antiviral immunity against West Nile virus, and deficiency can worsen the oxidative injury of the neuroinvasive infection."
 ---
 
 # West Nile Virus
@@ -670,3 +679,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Neuroinflammatory eicosanoids: prostaglandins from the activated microglia (already mapped) and infiltrating cells contribute to the neuroinflammation and fever of West Nile encephalitis (IL-6 and IL-1 already mapped), part of its inflammatory injury.
 - `connects-to` → **[Aquaporin-4](../../03-molecular/aquaporin-4/README.md)** — Blood-brain-barrier and oedema: the astrocyte water channel aquaporin-4 governs brain water balance, and its disturbance in West Nile encephalitis contributes to the blood-brain-barrier disruption and cerebral oedema (glutamate excitotoxicity already mapped).
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 antibody help: IL-13, with IL-4 (already mapped), supports the B-cell (already mapped) neutralising-antibody response that controls West Nile viraemia, the humoral arm balancing the Th1 (IL-12 and interferon-gamma already mapped) response.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium and excitotoxicity: magnesium blocks the NMDA receptor and buffers the glutamate (already mapped) excitotoxicity that kills infected neurons (already mapped) in West Nile encephalitis, a neuroprotective ion.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and antiviral immunity: zinc supports the interferon (already mapped) antiviral response and inhibits flavivirus replication, and zinc status influences the immunity that determines the outcome of West Nile virus infection.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Selenium antioxidant defence: selenium and its selenoproteins support the antioxidant defence and the antiviral immunity against West Nile virus, and deficiency can worsen the oxidative injury of the neuroinvasive infection.
