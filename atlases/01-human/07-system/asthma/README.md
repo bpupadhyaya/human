@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/03-molecular/hepcidin
     relation: connects-to
     note: "Iron and inflammation: the IL-6-driven (already mapped) hepcidin and the airway iron dysregulation are linked to the severe, neutrophilic (already mapped) asthma and the anaemia of chronic inflammation."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "IgE class-switching: the B cells class-switch to the allergen-specific IgE (already mapped) under the IL-4 and IL-13 (already mapped), driving the allergic sensitisation of asthma."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 counter-arm: IL-12 polarises the Th1 (IFN-γ already mapped) response that counter-regulates the dominant Th2 (IL-4, IL-5 and IL-13 already mapped) axis of allergic asthma."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Innate antiviral surveillance: the NK cells (perforin already mapped) participate in the antiviral response to the respiratory viruses that trigger the asthma exacerbations."
 ---
 
 # Asthma
@@ -700,6 +709,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Allergen sensitisation: the airway dendritic cells sample the inhaled allergen and prime the Th2 (already mapped) response, initiating the allergic sensitisation of asthma.
 - `connects-to` → **[COPD](../copd/README.md)** — Asthma-COPD overlap: the asthma-COPD overlap (ACO) shares features of both; the neutrophilic (already mapped), less steroid-responsive asthma phenotype resembles COPD.
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Iron and inflammation: the IL-6-driven (already mapped) hepcidin and the airway iron dysregulation are linked to the severe, neutrophilic (already mapped) asthma and the anaemia of chronic inflammation.
+- `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — IgE class-switching: the B cells class-switch to the allergen-specific IgE (already mapped) under the IL-4 and IL-13 (already mapped), driving the allergic sensitisation of asthma.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 counter-arm: IL-12 polarises the Th1 (IFN-γ already mapped) response that counter-regulates the dominant Th2 (IL-4, IL-5 and IL-13 already mapped) axis of allergic asthma.
+- `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Innate antiviral surveillance: the NK cells (perforin already mapped) participate in the antiviral response to the respiratory viruses that trigger the asthma exacerbations.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)

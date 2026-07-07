@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/07-system/attention-deficit-hyperactivity-disorder
     relation: connects-to
     note: "ADHD comorbidity: attention-deficit/hyperactivity disorder is frequently comorbid with borderline personality disorder, sharing the impulsivity and emotional dysregulation that complicate diagnosis and treatment."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Neuroinflammation: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, is part of the low-grade neuroinflammation (IL-6 and TNF already mapped) implicated in the emotional dysregulation of borderline personality disorder."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 neuroinflammation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune-inflammatory dimension associated with borderline personality disorder."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 immune arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune dysregulation reported in borderline personality disorder."
 ---
 
 # Borderline Personality Disorder
@@ -731,6 +740,9 @@ This model directly informs DBT treatment: validate emotional experience (the bi
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin and resistin (already mapped), is part of the adipokine axis of the metabolic-inflammatory (insulin already mapped) state linked to the neuroinflammation of borderline personality disorder.
 - `connects-to` → **[Bipolar disorder](../bipolar-disorder/README.md)** — Affective-instability differential: borderline personality disorder and bipolar disorder both feature affective instability, requiring differentiation of the rapid, reactive BPD mood shifts from the sustained bipolar episodes.
 - `connects-to` → **[ADHD](../attention-deficit-hyperactivity-disorder/README.md)** — ADHD comorbidity: attention-deficit/hyperactivity disorder is frequently comorbid with borderline personality disorder, sharing the impulsivity and emotional dysregulation that complicate diagnosis and treatment.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Neuroinflammation: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, is part of the low-grade neuroinflammation (IL-6 and TNF already mapped) implicated in the emotional dysregulation of borderline personality disorder.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 neuroinflammation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune-inflammatory dimension associated with borderline personality disorder.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 immune arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune dysregulation reported in borderline personality disorder.
 
 [^linehan-1993-dbt]: Linehan MM. *Cognitive-Behavioral Treatment of Borderline Personality Disorder.* Guilford; 1993. [PubMed 8192506](https://pubmed.ncbi.nlm.nih.gov/8192506/)
 [^skodol-2002-bpd-neurobiology]: Siever LJ, Davis KL. A psychobiological perspective on the personality disorders. *Am J Psychiatry.* 1991;148(12):1647-1658. [doi:10.1176/ajp.148.12.1647](https://doi.org/10.1176/ajp.148.12.1647) · [PubMed 1957927](https://pubmed.ncbi.nlm.nih.gov/1957927/)
