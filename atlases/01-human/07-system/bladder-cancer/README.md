@@ -427,6 +427,15 @@ cross_links:
   - target: 01-human/03-molecular/troponin-complex
     relation: connects-to
     note: "Chemotherapy cardiotoxicity: the cisplatin-based chemotherapy central to bladder-cancer regimens carries cardiovascular risk, and troponin elevation helps detect the myocardial injury of the cardiac events that can complicate treatment."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune microenvironment of the urothelial cancer that intravesical BCG and checkpoint blockade must overcome."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immunosuppressive microenvironment of bladder cancer."
+  - target: 01-human/07-system/tuberculosis
+    relation: connects-to
+    note: "The BCG connection: intravesical BCG — the attenuated Mycobacterium bovis of the tuberculosis vaccine — is the standard immunotherapy for high-risk non-muscle-invasive bladder cancer, stimulating (via TLR4 and IFN-γ already mapped) an anti-tumour immune response."
 ---
 
 # Bladder Cancer
@@ -684,6 +693,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — BCG killing and vasculature: nitric oxide from the macrophages (already mapped) of the intravesical BCG response helps kill tumour cells, and with VEGF (already mapped) it also shapes the tumour vasculature of bladder cancer.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Inflammatory eicosanoids: prostaglandins, especially cyclooxygenase-2-derived, drive the inflammation of urothelial carcinogenesis and the BCG response, and NSAID chemoprevention has been studied in bladder cancer.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Chemotherapy cardiotoxicity: the cisplatin-based chemotherapy central to bladder-cancer regimens carries cardiovascular risk, and troponin elevation helps detect the myocardial injury of the cardiac events that can complicate treatment.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune microenvironment of the urothelial cancer that intravesical BCG and checkpoint blockade must overcome.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immunosuppressive microenvironment of bladder cancer.
+- `connects-to` → **[Tuberculosis](../tuberculosis/README.md)** — The BCG connection: intravesical BCG — the attenuated Mycobacterium bovis of the tuberculosis vaccine — is the standard immunotherapy for high-risk non-muscle-invasive bladder cancer, stimulating (via TLR4 and IFN-γ already mapped) an anti-tumour immune response.
 
 ---
 
