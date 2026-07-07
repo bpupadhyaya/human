@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "Neurovascular development: VEGF supports the cerebral angiogenesis and neurotrophic signalling (BDNF already mapped) implicated in the neurodevelopmental abnormalities of schizophrenia, part of its altered brain-vascular biology."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Antipsychotic dyslipidaemia: the second-generation antipsychotics raise cholesterol and drive the metabolic syndrome (insulin and leptin already mapped), a major contributor to the cardiovascular mortality that shortens life in schizophrenia."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Neuroimmune balance: the anti-inflammatory IL-10 counters the microglial pro-inflammatory cytokines (TNF, IL-6 and IL-1 already mapped) implicated in schizophrenia, part of the neuroinflammatory dimension of the disorder."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Copper and psychosis: copper is a cofactor in dopamine metabolism (dopamine already mapped), and disordered copper handling, as in Wilson's disease, can produce a psychosis that mimics schizophrenia, linking the trace metal to the disorder."
 ---
 
 # Schizophrenia
@@ -719,6 +728,9 @@ Notably, schizophrenia shares genetic loci with bipolar disorder, ASD, ADHD, maj
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Neuroinflammation: prostaglandins from the low-grade neuroinflammation (IL-6 and IL-1 already mapped) and maternal infection implicated in schizophrenia modulate the developing brain, and anti-inflammatory agents are studied as adjuncts.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Clozapine myocarditis: clozapine, the most effective antipsychotic for treatment-resistant schizophrenia, can cause myocarditis and cardiomyopathy, and troponin elevation is monitored to detect this serious adverse effect early.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Neurovascular development: VEGF supports the cerebral angiogenesis and neurotrophic signalling (BDNF already mapped) implicated in the neurodevelopmental abnormalities of schizophrenia, part of its altered brain-vascular biology.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Antipsychotic dyslipidaemia: the second-generation antipsychotics raise cholesterol and drive the metabolic syndrome (insulin and leptin already mapped), a major contributor to the cardiovascular mortality that shortens life in schizophrenia.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Neuroimmune balance: the anti-inflammatory IL-10 counters the microglial pro-inflammatory cytokines (TNF, IL-6 and IL-1 already mapped) implicated in schizophrenia, part of the neuroinflammatory dimension of the disorder.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper and psychosis: copper is a cofactor in dopamine metabolism (dopamine already mapped), and disordered copper handling, as in Wilson's disease, can produce a psychosis that mimics schizophrenia, linking the trace metal to the disorder.
 
 [^howes-2009-dopamine-hypothesis]: Howes OD, Kapur S. The dopamine hypothesis of schizophrenia: version III—the final common pathway. *Schizophr Bull.* 2009;35(3):549-562. [doi:10.1093/schbul/sbp006](https://doi.org/10.1093/schbul/sbp006) · [PubMed 19325164](https://pubmed.ncbi.nlm.nih.gov/19325164/)
 [^moghaddam-2012-glutamate]: Moghaddam B, Javitt D. From revolution to evolution: the glutamate hypothesis of schizophrenia and its implication for treatment. *Neuropsychopharmacology.* 2012;37(1):4-15. [doi:10.1038/npp.2011.181](https://doi.org/10.1038/npp.2011.181) · [PubMed 21956446](https://pubmed.ncbi.nlm.nih.gov/21956446/)

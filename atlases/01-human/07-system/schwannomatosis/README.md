@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/histamine
     relation: connects-to
     note: "Mast-cell pain: mast cells releasing histamine in and around schwannomas contribute to the neuroinflammatory environment and the sensitisation (substance P and CGRP already mapped) that produces the dominant chronic pain of schwannomatosis."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Type-2 mast-cell milieu: IL-4 supports the mast cells (already mapped) and polarises macrophages (already mapped) toward an M2 phenotype (IL-10 already mapped), part of the type-2 neuroinflammatory microenvironment that drives the pain of schwannomatosis."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 inflammation: IL-13, with IL-4 (already mapped), reflects the type-2 cytokine arm of the mast-cell-rich (already mapped) neuroinflammatory milieu of the schwannomas, part of the microenvironment behind the chronic pain of schwannomatosis."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative microenvironment: the schwannomas generate oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species are part of the tumour and neuroinflammatory microenvironment of schwannomatosis."
 ---
 
 # Schwannomatosis
@@ -645,6 +654,9 @@ Both NF2 (22q12.2), SMARCB1 (22q11.23), and LZTR1 (22q11.21) are on chromosome 2
 - `connects-to` → **[T-cytotoxic cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Immune infiltrate: cytotoxic CD8 T cells (MHC class II and perforin already mapped) form part of the immune infiltrate of schwannomas, of interest to the immunotherapy approaches explored for these painful nerve-sheath tumours.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immune microenvironment: IL-10 in the schwannoma microenvironment shapes its immune and inflammatory milieu (MHC class II already mapped), part of the neuroinflammation that drives the chronic pain characteristic of schwannomatosis.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell pain: mast cells releasing histamine in and around schwannomas contribute to the neuroinflammatory environment and the sensitisation (substance P and CGRP already mapped) that produces the dominant chronic pain of schwannomatosis.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Type-2 mast-cell milieu: IL-4 supports the mast cells (already mapped) and polarises macrophages (already mapped) toward an M2 phenotype (IL-10 already mapped), part of the type-2 neuroinflammatory microenvironment that drives the pain of schwannomatosis.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 inflammation: IL-13, with IL-4 (already mapped), reflects the type-2 cytokine arm of the mast-cell-rich (already mapped) neuroinflammatory milieu of the schwannomas, part of the microenvironment behind the chronic pain of schwannomatosis.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative microenvironment: the schwannomas generate oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species are part of the tumour and neuroinflammatory microenvironment of schwannomatosis.
 
 [^merker-2012-schwannomatosis]: Merker VL, Esparza S, Smith MJ, Stemmer-Rachamimov A, Plotkin SR. Clinical features of schwannomatosis: a retrospective analysis of 87 patients. *Oncologist.* 2012;17(10):1317-1322. [doi:10.1634/theoncologist.2012-0162](https://doi.org/10.1634/theoncologist.2012-0162) · [PubMed 22927469](https://pubmed.ncbi.nlm.nih.gov/22927469/)
 [^piotrowski-2014-lztr1]: Piotrowski A, Xie J, Liu YF, et al. Germline loss-of-function mutations in LZTR1 predispose to an inherited disorder of multiple schwannomas. *Nat Genet.* 2014;46(2):182-187. [doi:10.1038/ng.2855](https://doi.org/10.1038/ng.2855) · [PubMed 24362817](https://pubmed.ncbi.nlm.nih.gov/24362817/)
