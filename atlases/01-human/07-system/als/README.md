@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "Magnesium neuroprotection: magnesium blocks the NMDA receptor and buffers the glutamate (already mapped) excitotoxicity that drives the motor neuron death, a proposed neuroprotective factor in ALS."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Hypermetabolism adipokine: adiponectin, with leptin (already mapped), reflects the hypermetabolism and weight loss that worsen the prognosis of ALS, part of the metabolic (insulin already mapped) dimension of the disease."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipokine inflammation: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory milieu to the metabolic and neuroinflammatory (TNF and IL-1 already mapped) dimension of ALS."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Selenium and motor-neuron toxicity: the selenoprotein antioxidant defence of selenium, and the selenium-linked environmental exposures, have been implicated in the oxidative motor-neuron degeneration of ALS."
 ---
 
 # ALS
@@ -719,6 +728,9 @@ ALS diagnosis is **clinical** — no single definitive biomarker test (though Nf
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Microglial polarisation: IL-4 polarises the microglia toward a neuroprotective M2 phenotype (IL-10 already mapped), and the balance against the pro-inflammatory activation shapes the motor neuron loss of ALS.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 neuroprotection: IL-13, with IL-4 (already mapped), supports the M2 microglial arm that can be neuroprotective in ALS, part of the neuroimmune balance shaping the progression of the disease.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium neuroprotection: magnesium blocks the NMDA receptor and buffers the glutamate (already mapped) excitotoxicity that drives the motor neuron death, a proposed neuroprotective factor in ALS.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Hypermetabolism adipokine: adiponectin, with leptin (already mapped), reflects the hypermetabolism and weight loss that worsen the prognosis of ALS, part of the metabolic (insulin already mapped) dimension of the disease.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine inflammation: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory milieu to the metabolic and neuroinflammatory (TNF and IL-1 already mapped) dimension of ALS.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Selenium and motor-neuron toxicity: the selenoprotein antioxidant defence of selenium, and the selenium-linked environmental exposures, have been implicated in the oxidative motor-neuron degeneration of ALS.
 
 [^brown-2017-als-review]: Brown RH, Al-Chalabi A. Amyotrophic lateral sclerosis. *N Engl J Med.* 2017;377(2):162-172. [doi:10.1056/NEJMra1603471](https://doi.org/10.1056/NEJMra1603471) · [PubMed 28700839](https://pubmed.ncbi.nlm.nih.gov/28700839/)
 [^edaravone-als-2017]: Writing Group, Edaravone ALS 19 Study Group. Safety and efficacy of edaravone in well defined patients with amyotrophic lateral sclerosis. *Lancet Neurol.* 2017;16(7):505-512. [doi:10.1016/S1474-4422(17)30115-1](https://doi.org/10.1016/S1474-4422(17)30115-1) · [PubMed 28522180](https://pubmed.ncbi.nlm.nih.gov/28522180/)

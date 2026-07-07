@@ -442,6 +442,15 @@ cross_links:
   - target: 01-human/03-molecular/angiopoietin
     relation: connects-to
     note: "Endothelial activation: the angiopoietin-Tie2 axis reflects the endothelial activation of the small-vessel injury of ANCA vasculitis (VEGF already mapped), part of the endotheliopathy of the vasculitic lesion."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Checkpoint-triggered vasculitis: the PD-1 checkpoint whose blockade by cancer immunotherapy can trigger an ANCA-associated vasculitis, and whose peripheral-tolerance mechanisms are disturbed in the autoimmunity of the disease."
+  - target: 01-human/03-molecular/ctla-4
+    relation: connects-to
+    note: "Co-inhibitory checkpoint: CTLA-4, with PD-1 (already mapped), regulates the autoreactive T cells that help the B cells (CD20 and BAFF already mapped) produce the ANCA (immunoglobulin already mapped), and its blockade can precipitate vasculitis."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Regulatory T-cell tolerance: IL-2 signalling in the regulatory T cells maintains the tolerance whose failure permits the autoreactive response of ANCA vasculitis, and low-dose IL-2 is studied to restore it."
 ---
 
 # ANCA Vasculitis
@@ -715,6 +724,9 @@ EGPA is mechanistically distinct — eosinophils, not neutrophils, mediate tissu
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of inflammation: the chronic IL-6 (already mapped) inflammation of active ANCA vasculitis raises hepcidin, sequestering iron to produce the anaemia of chronic disease (haemoglobin already mapped) seen in active disease.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Vascular injury and repair: VEGF drives the endothelial injury and the angiogenesis of the granulomatous and healing vasculitic lesions, part of the vascular biology of the small-vessel injury in ANCA vasculitis.
 - `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Endothelial activation: the angiopoietin-Tie2 axis reflects the endothelial activation of the small-vessel injury of ANCA vasculitis (VEGF already mapped), part of the endotheliopathy of the vasculitic lesion.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Checkpoint-triggered vasculitis: the PD-1 checkpoint whose blockade by cancer immunotherapy can trigger an ANCA-associated vasculitis, and whose peripheral-tolerance mechanisms are disturbed in the autoimmunity of the disease.
+- `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Co-inhibitory checkpoint: CTLA-4, with PD-1 (already mapped), regulates the autoreactive T cells that help the B cells (CD20 and BAFF already mapped) produce the ANCA (immunoglobulin already mapped), and its blockade can precipitate vasculitis.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Regulatory T-cell tolerance: IL-2 signalling in the regulatory T cells maintains the tolerance whose failure permits the autoreactive response of ANCA vasculitis, and low-dose IL-2 is studied to restore it.
 
 [^yates-2022-anca-review]: Yates M, Watts RA, Bajema IM, et al. EULAR/ERA-EDTA recommendations for the management of ANCA-associated vasculitis. *Ann Rheum Dis.* 2016;75(9):1583-1594. [doi:10.1136/annrheumdis-2016-209133](https://doi.org/10.1136/annrheumdis-2016-209133) · [PubMed 27338776](https://pubmed.ncbi.nlm.nih.gov/27338776/)
 [^stone-2010-rituximab-gpa-rave]: Stone JH, Merkel PA, Spiera R, et al. Rituximab versus cyclophosphamide for ANCA-associated vasculitis. *N Engl J Med.* 2010;363(3):221-232. [doi:10.1056/NEJMoa0909905](https://doi.org/10.1056/NEJMoa0909905) · [PubMed 20647199](https://pubmed.ncbi.nlm.nih.gov/20647199/)
