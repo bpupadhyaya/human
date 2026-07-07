@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Wasting and metabolism: adiponectin, with leptin (already mapped), reflects the wasting and the metabolic-nutritional depletion — the classic 'consumption' — of chronic active tuberculosis."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Wasting adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the wasting and the systemic inflammation (IL-6 and TNF already mapped) of chronic active tuberculosis."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Antioxidant defence: the selenoprotein antioxidant defence; the low selenium of the TB-associated malnutrition worsens the oxidative (xanthine oxidase already mapped) tissue damage and the antimycobacterial immunity."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Cathelicidin defence: the vitamin-D-dependent macrophage (already mapped) cathelicidin antimicrobial response against Mycobacterium tuberculosis; vitamin-D deficiency raises the TB risk."
 ---
 
 # Tuberculosis
@@ -701,6 +710,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Non-protective Th2 arm: IL-4 and the Th2 response, when they dominate over the protective Th1 (IFN-γ and IL-12 already mapped) axis, are associated with poorer control of Mycobacterium tuberculosis and more progressive disease.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immunity: IL-13, with IL-4 (already mapped), is part of the type-2 arm whose balance against the Th1 response shapes the granulomatous control of tuberculosis.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Wasting and metabolism: adiponectin, with leptin (already mapped), reflects the wasting and the metabolic-nutritional depletion — the classic 'consumption' — of chronic active tuberculosis.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Wasting adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the wasting and the systemic inflammation (IL-6 and TNF already mapped) of chronic active tuberculosis.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Antioxidant defence: the selenoprotein antioxidant defence; the low selenium of the TB-associated malnutrition worsens the oxidative (xanthine oxidase already mapped) tissue damage and the antimycobacterial immunity.
+- `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Cathelicidin defence: the vitamin-D-dependent macrophage (already mapped) cathelicidin antimicrobial response against Mycobacterium tuberculosis; vitamin-D deficiency raises the TB risk.
 
 ## See Also
 

@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Metabolic adipokine: adiponectin, with leptin (already mapped), signals through the mTOR-integrated (already mapped) metabolic pathway whose dysregulation drives the anabolic hamartoma growth of tuberous sclerosis."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Metabolic adipokine: resistin, with leptin and adiponectin (already mapped), is part of the adipokine axis of the mTOR-integrated (already mapped) metabolic dysregulation of the hamartomas of tuberous sclerosis."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Retinal hamartomas: the retinal astrocytic hamartomas of the eye are a diagnostic feature of tuberous sclerosis, part of its multi-organ hamartoma (mTOR already mapped) spectrum."
+  - target: 01-human/07-system/renal-cell-carcinoma
+    relation: connects-to
+    note: "Renal cancer risk: the tuberous sclerosis (mTOR already mapped) angiomyolipomas of the kidney (already mapped) carry an elevated risk of renal cell carcinoma, requiring surveillance."
 ---
 
 # Tuberous Sclerosis Complex
@@ -707,6 +716,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Angiomyolipoma haemorrhage: the renal angiomyolipomas of tuberous sclerosis can bleed catastrophically, causing the retroperitoneal haemorrhage and the iron-deficiency anaemia (haemoglobin already mapped) that drive their surveillance and embolisation.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the microenvironment of the hamartomas of tuberous sclerosis.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), signals through the mTOR-integrated (already mapped) metabolic pathway whose dysregulation drives the anabolic hamartoma growth of tuberous sclerosis.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Metabolic adipokine: resistin, with leptin and adiponectin (already mapped), is part of the adipokine axis of the mTOR-integrated (already mapped) metabolic dysregulation of the hamartomas of tuberous sclerosis.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Retinal hamartomas: the retinal astrocytic hamartomas of the eye are a diagnostic feature of tuberous sclerosis, part of its multi-organ hamartoma (mTOR already mapped) spectrum.
+- `connects-to` → **[Renal cell carcinoma](../renal-cell-carcinoma/README.md)** — Renal cancer risk: the tuberous sclerosis (mTOR already mapped) angiomyolipomas of the kidney (already mapped) carry an elevated risk of renal cell carcinoma, requiring surveillance.
 
 ---
 
