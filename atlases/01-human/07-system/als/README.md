@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/03-molecular/leptin
     relation: connects-to
     note: "Hypermetabolism and weight loss: ALS is marked by a hypermetabolic state with weight loss, and the fall in the adipokine leptin reflects the fat depletion (cholesterol already mapped) whose faster loss predicts worse survival."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Microglial polarisation: IL-4 polarises the microglia toward a neuroprotective M2 phenotype (IL-10 already mapped), and the balance against the pro-inflammatory activation shapes the motor neuron loss of ALS."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 neuroprotection: IL-13, with IL-4 (already mapped), supports the M2 microglial arm that can be neuroprotective in ALS, part of the neuroimmune balance shaping the progression of the disease."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Magnesium neuroprotection: magnesium blocks the NMDA receptor and buffers the glutamate (already mapped) excitotoxicity that drives the motor neuron death, a proposed neuroprotective factor in ALS."
 ---
 
 # ALS
@@ -707,6 +716,9 @@ ALS diagnosis is **clinical** — no single definitive biomarker test (though Nf
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Neuroinflammatory eicosanoids: prostaglandins from the activated microglia (already mapped) and the cyclooxygenase pathway contribute to the neuroinflammation (IL-6, TNF and IL-1 already mapped) that accelerates motor neuron death in ALS.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Anti-inflammatory neuroprotection: the anti-inflammatory IL-10 opposes the microglial pro-inflammatory response (TNF, IL-1 and IL-6 already mapped) driving motor neuron loss, and boosting this arm is a neuroprotective strategy of interest in ALS.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Hypermetabolism and weight loss: ALS is marked by a hypermetabolic state with weight loss, and the fall in the adipokine leptin reflects the fat depletion (cholesterol already mapped) whose faster loss predicts worse survival.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Microglial polarisation: IL-4 polarises the microglia toward a neuroprotective M2 phenotype (IL-10 already mapped), and the balance against the pro-inflammatory activation shapes the motor neuron loss of ALS.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 neuroprotection: IL-13, with IL-4 (already mapped), supports the M2 microglial arm that can be neuroprotective in ALS, part of the neuroimmune balance shaping the progression of the disease.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium neuroprotection: magnesium blocks the NMDA receptor and buffers the glutamate (already mapped) excitotoxicity that drives the motor neuron death, a proposed neuroprotective factor in ALS.
 
 [^brown-2017-als-review]: Brown RH, Al-Chalabi A. Amyotrophic lateral sclerosis. *N Engl J Med.* 2017;377(2):162-172. [doi:10.1056/NEJMra1603471](https://doi.org/10.1056/NEJMra1603471) · [PubMed 28700839](https://pubmed.ncbi.nlm.nih.gov/28700839/)
 [^edaravone-als-2017]: Writing Group, Edaravone ALS 19 Study Group. Safety and efficacy of edaravone in well defined patients with amyotrophic lateral sclerosis. *Lancet Neurol.* 2017;16(7):505-512. [doi:10.1016/S1474-4422(17)30115-1](https://doi.org/10.1016/S1474-4422(17)30115-1) · [PubMed 28522180](https://pubmed.ncbi.nlm.nih.gov/28522180/)

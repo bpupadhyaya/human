@@ -433,6 +433,15 @@ cross_links:
   - target: 01-human/04-cellular/mast-cell
     relation: connects-to
     note: "Eosinophilic type-2 inflammation: mast cells, with eosinophils and the type-2 cytokines (IL-5, IL-4 and IL-13 already mapped), drive the allergic inflammation of eosinophilic granulomatosis with polyangiitis (EGPA), the type-2 subset of ANCA vasculitis."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Anaemia of inflammation: the chronic IL-6 (already mapped) inflammation of active ANCA vasculitis raises hepcidin, sequestering iron to produce the anaemia of chronic disease (haemoglobin already mapped) seen in active disease."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Vascular injury and repair: VEGF drives the endothelial injury and the angiogenesis of the granulomatous and healing vasculitic lesions, part of the vascular biology of the small-vessel injury in ANCA vasculitis."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "Endothelial activation: the angiopoietin-Tie2 axis reflects the endothelial activation of the small-vessel injury of ANCA vasculitis (VEGF already mapped), part of the endotheliopathy of the vasculitic lesion."
 ---
 
 # ANCA Vasculitis
@@ -703,6 +712,9 @@ EGPA is mechanistically distinct — eosinophils, not neutrophils, mediate tissu
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Regulatory balance: IL-10 from regulatory T and B cells restrains the autoreactive response, and deficient IL-10-mediated regulation contributes to the unchecked autoimmunity that produces the ANCA and the vasculitis.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Inflammatory eicosanoids: prostaglandins from the neutrophil (already mapped) and infiltrating cells amplify the inflammation of the vasculitic lesion (IL-6, TNF and IL-1 already mapped), part of the eicosanoid dimension of the small-vessel injury.
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Eosinophilic type-2 inflammation: mast cells, with eosinophils and the type-2 cytokines (IL-5, IL-4 and IL-13 already mapped), drive the allergic inflammation of eosinophilic granulomatosis with polyangiitis (EGPA), the type-2 subset of ANCA vasculitis.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of inflammation: the chronic IL-6 (already mapped) inflammation of active ANCA vasculitis raises hepcidin, sequestering iron to produce the anaemia of chronic disease (haemoglobin already mapped) seen in active disease.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Vascular injury and repair: VEGF drives the endothelial injury and the angiogenesis of the granulomatous and healing vasculitic lesions, part of the vascular biology of the small-vessel injury in ANCA vasculitis.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Endothelial activation: the angiopoietin-Tie2 axis reflects the endothelial activation of the small-vessel injury of ANCA vasculitis (VEGF already mapped), part of the endotheliopathy of the vasculitic lesion.
 
 [^yates-2022-anca-review]: Yates M, Watts RA, Bajema IM, et al. EULAR/ERA-EDTA recommendations for the management of ANCA-associated vasculitis. *Ann Rheum Dis.* 2016;75(9):1583-1594. [doi:10.1136/annrheumdis-2016-209133](https://doi.org/10.1136/annrheumdis-2016-209133) · [PubMed 27338776](https://pubmed.ncbi.nlm.nih.gov/27338776/)
 [^stone-2010-rituximab-gpa-rave]: Stone JH, Merkel PA, Spiera R, et al. Rituximab versus cyclophosphamide for ANCA-associated vasculitis. *N Engl J Med.* 2010;363(3):221-232. [doi:10.1056/NEJMoa0909905](https://doi.org/10.1056/NEJMoa0909905) · [PubMed 20647199](https://pubmed.ncbi.nlm.nih.gov/20647199/)
