@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "Magnesium neuroprotection: magnesium blocks the NMDA receptor and buffers the glutamate (already mapped) excitotoxicity on the vulnerable nigral neurons, a proposed neuroprotective factor in Parkinson's disease."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 neuroimmunity: IL-13, with IL-4 (already mapped), supports the M2 microglia (already mapped) and the anti-inflammatory arm balancing the neuroinflammation (NLRP3, TNF and IL-1 already mapped) that drives the dopaminergic loss of Parkinson's disease."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Iron regulation: hepcidin governs the iron (already mapped) handling whose dysregulation contributes to the nigral iron accumulation (ferroportin already mapped) and the metal-catalysed oxidative stress of Parkinson's disease."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Adipokine neuroprotection: the adipokine leptin has neurotrophic and neuroprotective actions on the dopaminergic neurons, and the metabolic dysregulation (insulin already mapped) it reflects is linked to Parkinson's-disease risk."
 ---
 
 # Parkinson's Disease
@@ -706,6 +715,9 @@ PD is primarily a disease of aging (mean onset ~60 years), but **~10–15% of ca
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Nitrosative stress: nitric oxide from the activated microglia (already mapped) forms peroxynitrite that nitrosylates proteins and adds to the oxidative injury (ferroportin-linked iron already mapped) killing the dopaminergic neurons of Parkinson's disease.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc dyshomeostasis: disturbed zinc handling in the substantia nigra, alongside the iron (already mapped) and copper accumulation, contributes to the metal-catalysed oxidative stress that damages the dopaminergic neurons of Parkinson's disease.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium neuroprotection: magnesium blocks the NMDA receptor and buffers the glutamate (already mapped) excitotoxicity on the vulnerable nigral neurons, a proposed neuroprotective factor in Parkinson's disease.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 neuroimmunity: IL-13, with IL-4 (already mapped), supports the M2 microglia (already mapped) and the anti-inflammatory arm balancing the neuroinflammation (NLRP3, TNF and IL-1 already mapped) that drives the dopaminergic loss of Parkinson's disease.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Iron regulation: hepcidin governs the iron (already mapped) handling whose dysregulation contributes to the nigral iron accumulation (ferroportin already mapped) and the metal-catalysed oxidative stress of Parkinson's disease.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adipokine neuroprotection: the adipokine leptin has neurotrophic and neuroprotective actions on the dopaminergic neurons, and the metabolic dysregulation (insulin already mapped) it reflects is linked to Parkinson's-disease risk.
 
 [^kalia-2015-pd-review]: Kalia LV, Lang AE. Parkinson's disease. *Lancet.* 2015;386(9996):896-912. [doi:10.1016/S0140-6736(14)61393-3](https://doi.org/10.1016/S0140-6736(14)61393-3) · [PubMed 25904081](https://pubmed.ncbi.nlm.nih.gov/25904081/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)

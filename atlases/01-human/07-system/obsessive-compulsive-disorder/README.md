@@ -440,6 +440,15 @@ cross_links:
   - target: 03-medicine/03-food/vitamin-d
     relation: connects-to
     note: "Vitamin D and neuroimmunity: low vitamin D status has been reported in obsessive-compulsive disorder, and its modulation of neuroimmune and monoaminergic (serotonin already mapped) function is a proposed contributor."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 neuroimmunity: IL-13, with IL-4 (already mapped), supports the M2 microglia (already mapped) and the anti-inflammatory arm balancing the neuroinflammation of the PANDAS/neuroimmune subtype of obsessive-compulsive disorder."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Anxiety-spectrum comorbidity: generalized anxiety disorder is commonly comorbid with obsessive-compulsive disorder, the two sharing the serotonergic (already mapped) treatment and the anxious-obsessional symptom overlap."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Zinc and glutamatergic modulation: synaptic zinc modulates the glutamate (already mapped)/NMDA signalling of the cortico-striatal circuit, and zinc has been trialled as an adjunct to the SSRIs in obsessive-compulsive disorder."
 ---
 
 # Obsessive-Compulsive Disorder
@@ -705,6 +714,9 @@ OCD is often underdiagnosed due to shame and secrecy. Mean time from symptom ons
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Neuroimmune balance: the anti-inflammatory IL-4, with IL-10 (already mapped), counters the pro-inflammatory cytokines (IL-6, TNF and IL-1 already mapped) of the low-grade neuroinflammation and PANDAS autoimmunity implicated in obsessive-compulsive disorder.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper and monoamines: copper is the cofactor of dopamine-β-hydroxylase, which makes noradrenaline from dopamine (both already mapped), linking copper handling to the monoamine signalling of the circuits implicated in obsessive-compulsive disorder.
 - `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D and neuroimmunity: low vitamin D status has been reported in obsessive-compulsive disorder, and its modulation of neuroimmune and monoaminergic (serotonin already mapped) function is a proposed contributor.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 neuroimmunity: IL-13, with IL-4 (already mapped), supports the M2 microglia (already mapped) and the anti-inflammatory arm balancing the neuroinflammation of the PANDAS/neuroimmune subtype of obsessive-compulsive disorder.
+- `connects-to` → **[Generalized anxiety disorder](../generalized-anxiety-disorder/README.md)** — Anxiety-spectrum comorbidity: generalized anxiety disorder is commonly comorbid with obsessive-compulsive disorder, the two sharing the serotonergic (already mapped) treatment and the anxious-obsessional symptom overlap.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and glutamatergic modulation: synaptic zinc modulates the glutamate (already mapped)/NMDA signalling of the cortico-striatal circuit, and zinc has been trialled as an adjunct to the SSRIs in obsessive-compulsive disorder.
 
 [^abramowitz-2009-ocd-review]: Abramowitz JS, Taylor S, McKay D. Obsessive-compulsive disorder. *Lancet.* 2009;374(9688):491-499. [doi:10.1016/S0140-6736(09)60240-3](https://doi.org/10.1016/S0140-6736(09)60240-3) · [PubMed 19665647](https://pubmed.ncbi.nlm.nih.gov/19665647/)
 [^chamberlain-2008-ocd-neuroscience]: Chamberlain SR, Menzies L, Hampshire A, et al. Orbitofrontal dysfunction in patients with OCD and their unaffected relatives. *Science.* 2008;321(5887):421-422. [doi:10.1126/science.1154433](https://doi.org/10.1126/science.1154433) · [PubMed 18635808](https://pubmed.ncbi.nlm.nih.gov/18635808/)
