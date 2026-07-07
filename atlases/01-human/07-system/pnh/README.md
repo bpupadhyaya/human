@@ -433,6 +433,15 @@ cross_links:
   - target: 01-human/02-atomic/potassium
     relation: connects-to
     note: "Haemolytic hyperkalaemia: the massive intravascular haemolysis (haemoglobin already mapped) of a PNH crisis releases potassium, the hyperkalaemia adding to the metabolic derangement of severe haemolysis."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Marrow-adipose adipokine: leptin from the marrow adipose tissue signals within the immune-metabolic milieu of the marrow-failure (aplastic anaemia already mapped) context of PNH."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin (already mapped), is the marrow-adipose adipokine of the PNH marrow microenvironment."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the immune-metabolic milieu (IL-6 already mapped) of PNH."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -663,6 +672,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune balance: IL-13, with IL-4 (already mapped), is part of the anti-inflammatory arm balancing the complement-driven (already mapped) inflammatory milieu of paroxysmal nocturnal haemoglobinuria.
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Marrow-failure immunity: the type-I interferon and the T-cell (IFN-γ already mapped) immune attack of the aplastic-anaemia (already mapped) marrow, from which the GPI-deficient PNH clone escapes, drive the clonal expansion of PNH.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Haemolytic hyperkalaemia: the massive intravascular haemolysis (haemoglobin already mapped) of a PNH crisis releases potassium, the hyperkalaemia adding to the metabolic derangement of severe haemolysis.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Marrow-adipose adipokine: leptin from the marrow adipose tissue signals within the immune-metabolic milieu of the marrow-failure (aplastic anaemia already mapped) context of PNH.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is the marrow-adipose adipokine of the PNH marrow microenvironment.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the immune-metabolic milieu (IL-6 already mapped) of PNH.
 
 ---
 

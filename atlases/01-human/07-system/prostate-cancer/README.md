@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Adipokine axis: adiponectin, with leptin (already mapped), links the obesity and metabolic state to the risk and aggressiveness of prostate cancer, part of the adipokine influence on the tumour."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the obesity risk of the aggressive prostate cancer."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Tumour-associated macrophages: the M2 (IL-4 and IL-13 already mapped) tumour-associated macrophages (CCL2 already mapped) of the immunosuppressive 'cold' microenvironment of prostate cancer."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Reactive stroma: the cancer-associated fibroblasts of the reactive prostate-cancer stroma (TGF-β already mapped) support the tumour progression and the androgen (androgen-receptor already mapped) signalling."
 ---
 
 # Prostate Cancer
@@ -706,6 +715,9 @@ cross_links:
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage (already mapped) and type-2 milieu of the immunosuppressive 'cold' microenvironment of prostate cancer.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Obesity and aggressiveness: the adipokine leptin links obesity — a risk factor for aggressive and lethal prostate cancer — to the proliferation and progression of the tumour.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine axis: adiponectin, with leptin (already mapped), links the obesity and metabolic state to the risk and aggressiveness of prostate cancer, part of the adipokine influence on the tumour.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the obesity risk of the aggressive prostate cancer.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumour-associated macrophages: the M2 (IL-4 and IL-13 already mapped) tumour-associated macrophages (CCL2 already mapped) of the immunosuppressive 'cold' microenvironment of prostate cancer.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Reactive stroma: the cancer-associated fibroblasts of the reactive prostate-cancer stroma (TGF-β already mapped) support the tumour progression and the androgen (androgen-receptor already mapped) signalling.
 
 [^beer-2014-prevail]: Beer TM, Armstrong AJ, Rathkopf D, et al. Enzalutamide in metastatic prostate cancer before chemotherapy. *N Engl J Med.* 2014;371(5):424-433. [doi:10.1056/NEJMoa1405095](https://doi.org/10.1056/NEJMoa1405095) · [PubMed 24881730](https://pubmed.ncbi.nlm.nih.gov/24881730/)
 [^sartor-2021-vision]: Sartor O, de Bono J, Chi KN, et al. Lutetium-PSMA-617 for metastatic castration-resistant prostate cancer. *N Engl J Med.* 2021;385(12):1091-1103. [doi:10.1056/NEJMoa2107322](https://doi.org/10.1056/NEJMoa2107322) · [PubMed 34161051](https://pubmed.ncbi.nlm.nih.gov/34161051/)
