@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/02-atomic/copper
     relation: connects-to
     note: "Copper and angiogenesis: copper is a cofactor for the enzymes of angiogenesis (VEGF already mapped) and collagen (already mapped) cross-linking, and disturbed copper handling is implicated in the aberrant retinal neovascularisation."
+  - target: 01-human/03-molecular/thrombin
+    relation: connects-to
+    note: "Retinal microthrombosis: the coagulation activation and thrombin contribute to the retinal capillary microthrombosis and occlusion, driving the ischaemia (HIF already mapped) of diabetic retinopathy."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Antioxidant defence: the antioxidant selenoprotein (GPX) defence of the retina; the disturbed selenium and oxidative balance (xanthine oxidase already mapped) contribute to the diabetic retinal injury."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Iron and oxidative injury: the iron dysregulation (the erythropoietin already-mapped and hepcidin axis) contributes to the retinal iron accumulation and the oxidative injury of diabetic retinopathy."
 ---
 
 # Diabetic Retinopathy
@@ -689,6 +698,9 @@ DR encompasses a spectrum from subtle vascular changes to sight-threatening neov
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Retinal neuroinflammation: IL-13, with IL-4 (already mapped), modulates the M2 macrophage and microglial arm of the neuroinflammation (TNF and IL-6 already mapped) of the diabetic retina.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine milieu: resistin, with leptin and adiponectin (already mapped), is part of the adipokine milieu of the obesity and insulin resistance (insulin already mapped) that drives the microvascular disease of diabetic retinopathy.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper and angiogenesis: copper is a cofactor for the enzymes of angiogenesis (VEGF already mapped) and collagen (already mapped) cross-linking, and disturbed copper handling is implicated in the aberrant retinal neovascularisation.
+- `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — Retinal microthrombosis: the coagulation activation and thrombin contribute to the retinal capillary microthrombosis and occlusion, driving the ischaemia (HIF already mapped) of diabetic retinopathy.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Antioxidant defence: the antioxidant selenoprotein (GPX) defence of the retina; the disturbed selenium and oxidative balance (xanthine oxidase already mapped) contribute to the diabetic retinal injury.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Iron and oxidative injury: the iron dysregulation (the erythropoietin already-mapped and hepcidin axis) contributes to the retinal iron accumulation and the oxidative injury of diabetic retinopathy.
 
 [^fong-2004-dr-review]: Fong DS, Aiello L, Gardner TW, et al. Diabetic retinopathy. *Diabetes Care.* 2004;27(10):2540-2553. [doi:10.2337/diacare.27.10.2540](https://doi.org/10.2337/diacare.27.10.2540) · [PubMed 15451934](https://pubmed.ncbi.nlm.nih.gov/15451934/)
 [^brown-2015-aflibercept-protocol-t]: Diabetic Retinopathy Clinical Research Network; Wells JA, Glassman AR, et al. Aflibercept, Bevacizumab, or Ranibizumab for Diabetic Macular Edema. *N Engl J Med.* 2015;372(13):1193-1203. [doi:10.1056/NEJMoa1414264](https://doi.org/10.1056/NEJMoa1414264) · [PubMed 25692915](https://pubmed.ncbi.nlm.nih.gov/25692915/)

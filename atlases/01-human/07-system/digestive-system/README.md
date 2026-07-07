@@ -451,6 +451,15 @@ cross_links:
   - target: 01-human/03-molecular/il-17a
     relation: connects-to
     note: "Mucosal Th17 defence: IL-17 from the gut mucosal Th17 cells defends the epithelial barrier of the digestive system against invading microbes, and its dysregulation drives the inflammation of gut immune disease."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin (already mapped), is the adipokine signalling that links the digestive system's nutrient handling to the whole-body energy and metabolic balance."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the visceral adipose and the digestive-system nutrient handling to the metabolic-inflammatory state."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "Gut IgA plasma cells: the intestinal plasma cells — the largest plasma-cell pool in the body — secrete the secretory IgA (already mapped) that defends the mucosal barrier of the digestive system."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -684,6 +693,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [Magnesium](../../02-atomic/magnesium/README.md) — magnesium absorption: the small intestine of the digestive system absorbs dietary magnesium, and the malabsorption of gut disease (or proton-pump inhibitors) causes the hypomagnesaemia of digestive disorders.
 - **Connects to:** [TNF-alpha](../../03-molecular/tnf-alpha/README.md) — gut inflammation: TNF from the gut-associated lymphoid tissue (IL-6 and IL-10 already mapped) is a central mediator of the inflammation of the digestive tract, the target of anti-TNF therapy in inflammatory bowel disease.
 - **Connects to:** [IL-17a](../../03-molecular/il-17a/README.md) — mucosal Th17 defence: IL-17 from the gut mucosal Th17 cells defends the epithelial barrier of the digestive system against invading microbes, and its dysregulation drives the inflammation of gut immune disease.
+- **Connects to:** [Adiponectin](../../03-molecular/adiponectin/README.md) — metabolic adipokine: adiponectin, with leptin (already mapped), is the adipokine signalling that links the digestive system's nutrient handling to the whole-body energy and metabolic balance.
+- **Connects to:** [Resistin](../../03-molecular/resistin/README.md) — adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the visceral adipose and the digestive-system nutrient handling to the metabolic-inflammatory state.
+- **Connects to:** [Plasma cell](../../04-cellular/plasma-cell/README.md) — gut IgA plasma cells: the intestinal plasma cells — the largest plasma-cell pool in the body — secrete the secretory IgA (already mapped) that defends the mucosal barrier of the digestive system.
 
 ## Pathology
 
