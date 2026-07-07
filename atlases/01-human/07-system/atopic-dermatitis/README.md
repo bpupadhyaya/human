@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/02-atomic/copper
     relation: connects-to
     note: "Copper and skin: copper is the cofactor of lysyl oxidase that cross-links the dermal collagen (already mapped), and copper handling supports the skin's structural and antioxidant function disturbed in atopic dermatitis."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Adipokine comorbidity: adiponectin, with leptin and resistin (already mapped), is part of the adipokine dimension of the metabolic-syndrome comorbidity that accompanies atopic dermatitis."
+  - target: 01-human/07-system/psoriasis
+    relation: connects-to
+    note: "Reciprocal skin disease: atopic dermatitis (type-2, IL-4 and IL-13 already mapped) sits at the opposite immunological pole to psoriasis (Th17, IL-17 already mapped), and blocking IL-4 can occasionally unmask a psoriasiform eruption."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Selenium and skin oxidative defence: selenium supports the antioxidant selenoprotein defence of the skin, and its deficiency contributes to the oxidative and barrier dysfunction of atopic dermatitis."
 ---
 
 # Atopic Dermatitis
@@ -690,6 +699,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Antioxidant defence: selenium is essential for the glutathione peroxidases that quench the oxidative stress (xanthine oxidase already mapped) of inflamed skin, and low selenium status has been linked to the severity of atopic dermatitis.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine comorbidity: resistin, with leptin (already mapped), is a pro-inflammatory adipokine of the metabolic syndrome (insulin already mapped) that accompanies atopic dermatitis, part of its systemic inflammatory dimension.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper and skin: copper is the cofactor of lysyl oxidase that cross-links the dermal collagen (already mapped), and copper handling supports the skin's structural and antioxidant function disturbed in atopic dermatitis.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine comorbidity: adiponectin, with leptin and resistin (already mapped), is part of the adipokine dimension of the metabolic-syndrome comorbidity that accompanies atopic dermatitis.
+- `connects-to` → **[Psoriasis](../psoriasis/README.md)** — Reciprocal skin disease: atopic dermatitis (type-2, IL-4 and IL-13 already mapped) sits at the opposite immunological pole to psoriasis (Th17, IL-17 already mapped), and blocking IL-4 can occasionally unmask a psoriasiform eruption.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Selenium and skin oxidative defence: selenium supports the antioxidant selenoprotein defence of the skin, and its deficiency contributes to the oxidative and barrier dysfunction of atopic dermatitis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
