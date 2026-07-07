@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "Immunosuppressive microenvironment: IL-10 in the microenvironment of the MEN4 neuroendocrine tumours dampens the anti-tumour immune response, part of the immune biology relevant to the immunotherapy of any aggressive metastatic tumour."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune microenvironment of the MEN4 neuroendocrine tumours."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the microenvironment of the MEN4 neuroendocrine tumours."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Islet zinc: zinc is stored with insulin (already mapped) in the islet secretory granules, and the zinc-insulin hexamer is part of the biology of the insulinomas and other pancreatic neuroendocrine tumours of MEN4."
 ---
 
 # MEN4 Syndrome
@@ -667,6 +676,9 @@ When clinical MEN features are present:
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Mineral dysregulation: the primary hyperparathyroidism of MEN4 (PTH and calcium already mapped) disturbs magnesium alongside calcium handling, part of the mineral derangement of the commonest manifestation of the syndrome.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Enteropancreatic tumours: GLP-1 and the incretin axis reflect the enteropancreatic neuroendocrine biology of the MEN4 pancreatic tumours (insulin and glucagon already mapped), part of the functional-tumour spectrum shared with MEN1 (already mapped).
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the microenvironment of the MEN4 neuroendocrine tumours dampens the anti-tumour immune response, part of the immune biology relevant to the immunotherapy of any aggressive metastatic tumour.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune microenvironment of the MEN4 neuroendocrine tumours.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the microenvironment of the MEN4 neuroendocrine tumours.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Islet zinc: zinc is stored with insulin (already mapped) in the islet secretory granules, and the zinc-insulin hexamer is part of the biology of the insulinomas and other pancreatic neuroendocrine tumours of MEN4.
 
 [^alrezk-2017-men4]: Alrezk R, Hannah-Shmouni F, Stratakis CA. MEN4 and CDKN1B mutations: the latest of the MEN syndromes. *Endocr Relat Cancer.* 2017;24(10):T195-T208. [doi:10.1530/ERC-17-0243](https://doi.org/10.1530/ERC-17-0243) · [PubMed 28894007](https://pubmed.ncbi.nlm.nih.gov/28894007/)
 [^pellegata-2006-cdkn1b-men4]: Pellegata NS, Quintanilla-Martinez L, Siggelkow H, et al. Germ-line mutations in p27Kip1 cause a multiple endocrine neoplasia syndrome in rats and humans. *Proc Natl Acad Sci USA.* 2006;103(42):15558-15563. [doi:10.1073/pnas.0603306103](https://doi.org/10.1073/pnas.0603306103) · [PubMed 17030811](https://pubmed.ncbi.nlm.nih.gov/17030811/)
