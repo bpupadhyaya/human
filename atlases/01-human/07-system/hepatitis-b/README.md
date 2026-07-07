@@ -435,6 +435,15 @@ cross_links:
   - target: 01-human/03-molecular/baff
     relation: connects-to
     note: "Antibody response: BAFF supports the B cells that produce the neutralising anti-HBs and anti-HBc antibodies (immunoglobulin already mapped) of the humoral response to hepatitis B and its vaccine."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Steatosis and fibrosis: leptin is the adipokine of the metabolic-inflammatory milieu; the hepatic steatosis and adipokine signalling modulate the fibrosis (TGF-β already mapped) progression of chronic hepatitis B."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Anti-fibrotic adipokine: adiponectin, with leptin (already mapped), is the anti-fibrotic adipokine whose fall promotes the hepatic fibrosis (collagen already mapped) progression of chronic hepatitis B."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the metabolic-inflammatory milieu and the steatosis of chronic hepatitis B."
 ---
 
 # Hepatitis B
@@ -709,3 +718,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Profibrotic type-2 arm: IL-13, with IL-4 (already mapped), drives the M2 macrophage and profibrotic (TGF-β and collagen already mapped) response in the liver fibrosis of chronic hepatitis B.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc in chronic liver disease: the zinc deficiency common in chronic hepatitis B and cirrhosis impairs immune function and hepatic metabolism, and zinc also has antiviral activity relevant to the infection.
 - `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — Antibody response: BAFF supports the B cells that produce the neutralising anti-HBs and anti-HBc antibodies (immunoglobulin already mapped) of the humoral response to hepatitis B and its vaccine.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Steatosis and fibrosis: leptin is the adipokine of the metabolic-inflammatory milieu; the hepatic steatosis and adipokine signalling modulate the fibrosis (TGF-β already mapped) progression of chronic hepatitis B.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Anti-fibrotic adipokine: adiponectin, with leptin (already mapped), is the anti-fibrotic adipokine whose fall promotes the hepatic fibrosis (collagen already mapped) progression of chronic hepatitis B.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the metabolic-inflammatory milieu and the steatosis of chronic hepatitis B.

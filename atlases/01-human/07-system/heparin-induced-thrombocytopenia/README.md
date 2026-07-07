@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/type-i-interferon
     relation: connects-to
     note: "Innate priming: the innate immune context (cGAS-STING already mapped), including type-I interferon, primes the rapid, T-cell-independent-like anti-PF4/heparin antibody response of HIT."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Immune-metabolic adipokine: leptin is the adipokine of the immune-metabolic milieu that modulates the immune-thrombotic response of heparin-induced thrombocytopenia."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic milieu of heparin-induced thrombocytopenia."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the immune-thrombotic milieu (IL-6 already mapped) of heparin-induced thrombocytopenia."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -723,6 +732,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[Regulatory T cell](../../04-cellular/regulatory-t-cell/README.md)** — Loss of tolerance: the regulatory T cells maintain tolerance to PF4 (already mapped), and the breakdown of this tolerance permits the transient anti-PF4/heparin antibody response that causes HIT.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Immune regulation: the PD-1 checkpoint and peripheral-tolerance mechanisms shape the self-limited nature of the anti-PF4 (already mapped) antibody response, which typically wanes over weeks in HIT.
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate priming: the innate immune context (cGAS-STING already mapped), including type-I interferon, primes the rapid, T-cell-independent-like anti-PF4/heparin antibody response of HIT.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Immune-metabolic adipokine: leptin is the adipokine of the immune-metabolic milieu that modulates the immune-thrombotic response of heparin-induced thrombocytopenia.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic milieu of heparin-induced thrombocytopenia.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the immune-thrombotic milieu (IL-6 already mapped) of heparin-induced thrombocytopenia.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)
