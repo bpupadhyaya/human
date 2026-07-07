@@ -420,6 +420,15 @@ cross_links:
   - target: 01-human/07-system/stimulant-use-disorder
     relation: connects-to
     note: "Polysubstance comorbidity: stimulant and other substance-use disorders commonly co-occur with cannabis use disorder, the shared reward-circuit (dopamine already mapped) vulnerability to addiction."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: the endocannabinoid (already mapped) system regulates energy balance (leptin and ghrelin already mapped), and adiponectin/adipose signalling is modulated by the cannabis of cannabis use disorder."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the endocannabinoid (already mapped)-regulated energy balance disturbed in cannabis use disorder."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Cannabinoid immunomodulation: the cannabinoids (endocannabinoid already mapped) are immunomodulatory and can suppress the type-I interferon antiviral response, part of the immune effects of chronic cannabis use."
 sources:
   - id: hasin-2015-cannabis-disorder
     type: peer-reviewed
@@ -709,6 +718,9 @@ Paradoxical syndrome in heavy long-term users: cyclic vomiting relieved by hot b
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 neuroimmunity: IL-13, with IL-4 (already mapped), supports the M2 microglia (already mapped) and the anti-inflammatory arm balancing the neuroinflammation modulated by cannabinoids in cannabis use disorder.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Cardiovascular harm: cannabis raises the heart rate and can trigger myocardial infarction and arrhythmia (troponin already mapped), a cardiac risk especially of the high-potency cannabis driving cannabis use disorder.
 - `connects-to` → **[Stimulant use disorder](../stimulant-use-disorder/README.md)** — Polysubstance comorbidity: stimulant and other substance-use disorders commonly co-occur with cannabis use disorder, the shared reward-circuit (dopamine already mapped) vulnerability to addiction.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: the endocannabinoid (already mapped) system regulates energy balance (leptin and ghrelin already mapped), and adiponectin/adipose signalling is modulated by the cannabis of cannabis use disorder.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the endocannabinoid (already mapped)-regulated energy balance disturbed in cannabis use disorder.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Cannabinoid immunomodulation: the cannabinoids (endocannabinoid already mapped) are immunomodulatory and can suppress the type-I interferon antiviral response, part of the immune effects of chronic cannabis use.
 
 [^hasin-2015-cannabis-disorder]: Hasin DS, Saha TD, Kerridge BT, et al. Prevalence of marijuana use disorders in the United States between 2001-2002 and 2012-2013. *JAMA Psychiatry.* 2015;72(12):1235-1242. [doi:10.1001/jamapsychiatry.2015.1858](https://doi.org/10.1001/jamapsychiatry.2015.1858) · [PubMed 26502112](https://pubmed.ncbi.nlm.nih.gov/26502112/)
 [^budney-2004-cannabis-withdrawal]: Budney AJ, Moore BA, Vandrey RG, Hughes JR. The time course and significance of cannabis withdrawal. *J Abnorm Psychol.* 2003;112(3):393-402. [doi:10.1037/0021-843X.112.3.393](https://doi.org/10.1037/0021-843X.112.3.393) · [PubMed 12943018](https://pubmed.ncbi.nlm.nih.gov/12943018/)

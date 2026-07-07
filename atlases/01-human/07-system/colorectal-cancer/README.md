@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Adipokine inflammation: resistin, with leptin and adiponectin (already mapped), is a pro-inflammatory adipokine of obesity that promotes the colonic proliferation and inflammation implicated in colorectal-cancer risk."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Iron-deficiency anaemia: the chronic occult bleeding of colorectal cancer causes the iron-deficiency anaemia (transferrin and haemoglobin already mapped), a classic presentation that prompts the diagnosis."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "MSI immunogenicity: the cGAS-STING (already mapped) sensing of the genomic instability of the MSI-high (MLH1 and MSH2 already mapped) colorectal cancer drives the type-I interferon behind the checkpoint (PD-1 already mapped) response."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Chemoprevention selenium: the antioxidant selenoprotein status is inversely associated with the colorectal-cancer risk, part of the micronutrient chemoprevention of the colonic epithelium."
 ---
 
 # Colorectal Cancer
@@ -695,6 +704,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immunosuppressive microenvironment of colorectal cancer.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Anti-proliferative adipokine: adiponectin falls with obesity (leptin and insulin already mapped), and this loss removes a brake on the colonic epithelial proliferation, part of the obesity link to colorectal cancer.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine inflammation: resistin, with leptin and adiponectin (already mapped), is a pro-inflammatory adipokine of obesity that promotes the colonic proliferation and inflammation implicated in colorectal-cancer risk.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron-deficiency anaemia: the chronic occult bleeding of colorectal cancer causes the iron-deficiency anaemia (transferrin and haemoglobin already mapped), a classic presentation that prompts the diagnosis.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — MSI immunogenicity: the cGAS-STING (already mapped) sensing of the genomic instability of the MSI-high (MLH1 and MSH2 already mapped) colorectal cancer drives the type-I interferon behind the checkpoint (PD-1 already mapped) response.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Chemoprevention selenium: the antioxidant selenoprotein status is inversely associated with the colorectal-cancer risk, part of the micronutrient chemoprevention of the colonic epithelium.
 
 ---
 
