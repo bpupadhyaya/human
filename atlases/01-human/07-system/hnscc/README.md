@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Iron-deficiency anaemia: the tumour bleeding, the dysphagia-related malnutrition and the chemoradiotherapy cause the iron-deficiency anaemia (haemoglobin already mapped) common in head and neck cancer, which also worsens radiotherapy hypoxia."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Anaemia and radiotherapy hypoxia: the IL-6-driven (already mapped) hepcidin sequesters iron (already mapped), producing the anaemia of chronic disease (haemoglobin already mapped) that worsens the radiotherapy hypoxia of head and neck squamous cell carcinoma."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Cachexia adipokine: leptin is the adipokine of the cachexia and the dysphagia-related malnutrition of head and neck cancer, part of its metabolic disturbance."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic and nutritional disturbance of head and neck squamous cell carcinoma."
 ---
 
 # HNSCC
@@ -682,6 +691,9 @@ HPV+ oropharyngeal: Node staging based on number (not laterality); HPV-negative 
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage (already mapped) and type-2 milieu of the immunosuppressive microenvironment that limits immunotherapy in head and neck cancer.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Metastasis and second primaries: the lung is the commonest site of distant metastasis and of the second primary cancers of the smoking-related field cancerisation in head and neck squamous cell carcinoma.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron-deficiency anaemia: the tumour bleeding, the dysphagia-related malnutrition and the chemoradiotherapy cause the iron-deficiency anaemia (haemoglobin already mapped) common in head and neck cancer, which also worsens radiotherapy hypoxia.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia and radiotherapy hypoxia: the IL-6-driven (already mapped) hepcidin sequesters iron (already mapped), producing the anaemia of chronic disease (haemoglobin already mapped) that worsens the radiotherapy hypoxia of head and neck squamous cell carcinoma.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Cachexia adipokine: leptin is the adipokine of the cachexia and the dysphagia-related malnutrition of head and neck cancer, part of its metabolic disturbance.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic and nutritional disturbance of head and neck squamous cell carcinoma.
 
 [^burtness-2019-keynote048]: Burtness B, Harrington KJ, Greil R, et al. Pembrolizumab alone or with chemotherapy versus cetuximab with chemotherapy for recurrent or metastatic squamous cell carcinoma of the head and neck (KEYNOTE-048). *Lancet.* 2019;394(10212):1915-1928. [doi:10.1016/S0140-6736(19)32591-7](https://doi.org/10.1016/S0140-6736(19)32591-7) · [PubMed 31679945](https://pubmed.ncbi.nlm.nih.gov/31679945/)
 [^vermorken-2008-extreme]: Vermorken JB, Mesia R, Rivera F, et al. Platinum-based chemotherapy plus cetuximab in head and neck cancer. *N Engl J Med.* 2008;359(11):1116-1127. [doi:10.1056/NEJMoa0802656](https://doi.org/10.1056/NEJMoa0802656) · [PubMed 18784101](https://pubmed.ncbi.nlm.nih.gov/18784101/)

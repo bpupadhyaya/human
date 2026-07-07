@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Haematuria and anaemia: the aggressive type-2 papillary renal cancer of HLRCC can bleed, causing the haematuria and iron-deficiency anaemia (haemoglobin already mapped) that reflect the renal tumour."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Metabolic reprogramming adipokine: leptin connects to the FH-driven metabolic reprogramming (AMPK already mapped) of HLRCC, part of the adipokine dimension of its altered energy metabolism."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "AMPK-linked adipokine: adiponectin, with leptin (already mapped), activates the AMPK (already mapped) energy metabolism disturbed by the fumarate-hydratase loss of HLRCC."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the metabolic milieu of HLRCC."
 ---
 
 # Hereditary Leiomyomatosis and Renal Cell Carcinoma
@@ -699,6 +708,9 @@ Cutaneous:
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immunosuppressive microenvironment of the FH-deficient tumours of HLRCC.
 - `connects-to` → **[Birt-Hogg-Dubé syndrome](../birt-hogg-dube-syndrome/README.md)** — Hereditary-RCC syndromes: HLRCC sits among the hereditary renal cell carcinoma syndromes with Birt-Hogg-Dubé and VHL (already mapped), the group of germline predispositions to distinct renal cancers requiring surveillance.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Haematuria and anaemia: the aggressive type-2 papillary renal cancer of HLRCC can bleed, causing the haematuria and iron-deficiency anaemia (haemoglobin already mapped) that reflect the renal tumour.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Metabolic reprogramming adipokine: leptin connects to the FH-driven metabolic reprogramming (AMPK already mapped) of HLRCC, part of the adipokine dimension of its altered energy metabolism.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — AMPK-linked adipokine: adiponectin, with leptin (already mapped), activates the AMPK (already mapped) energy metabolism disturbed by the fumarate-hydratase loss of HLRCC.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the metabolic milieu of HLRCC.
 
 [^tomlinson-2002-fh]: Tomlinson IP, Alam NA, Rowan AJ, et al. Germline mutations in FH predispose to dominantly inherited uterine fibroids, skin leiomyomata and papillary renal cell cancer. *Nat Genet.* 2002;30(4):406-410. [doi:10.1038/ng849](https://doi.org/10.1038/ng849) · [PubMed 11865300](https://pubmed.ncbi.nlm.nih.gov/11865300/)
 [^linehan-2013-fh-review]: Linehan WM, Rouault TA. Molecular pathways: fumarate hydratase-deficient kidney cancer — targeting the Warburg effect in cancer. *Clin Cancer Res.* 2013;19(13):3345-3352. [doi:10.1158/1078-0432.CCR-13-0304](https://doi.org/10.1158/1078-0432.CCR-13-0304) · [PubMed 23836472](https://pubmed.ncbi.nlm.nih.gov/23836472/)
