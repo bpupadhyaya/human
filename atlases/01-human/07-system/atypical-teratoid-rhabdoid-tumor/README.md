@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Chemotherapy anaemia: the intensive multi-agent chemotherapy of atypical teratoid/rhabdoid tumour is myelosuppressive, causing anaemia (haemoglobin already mapped) that needs transfusion whose repeated support can load the young child with iron."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Proton-beam therapy: proton radiotherapy is used for atypical teratoid/rhabdoid tumour to deliver the tumour dose while sparing the developing brain of the young child, reducing the neurocognitive and growth toxicity."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Photon radiotherapy: the photon (X-ray) radiotherapy, often craniospinal, is part of the intensive multimodal treatment of atypical teratoid/rhabdoid tumour, balanced against the toxicity in the infant brain."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "Tumour angiogenesis and stroma: PDGF drives the tumour angiogenesis (VEGF already mapped) and the stromal recruitment of atypical teratoid/rhabdoid tumour, part of its aggressive vascular biology."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -686,6 +695,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the cold immune microenvironment of atypical teratoid/rhabdoid tumour.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immunosuppressive microenvironment of atypical teratoid/rhabdoid tumour.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Chemotherapy anaemia: the intensive multi-agent chemotherapy of atypical teratoid/rhabdoid tumour is myelosuppressive, causing anaemia (haemoglobin already mapped) that needs transfusion whose repeated support can load the young child with iron.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Proton-beam therapy: proton radiotherapy is used for atypical teratoid/rhabdoid tumour to deliver the tumour dose while sparing the developing brain of the young child, reducing the neurocognitive and growth toxicity.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photon radiotherapy: the photon (X-ray) radiotherapy, often craniospinal, is part of the intensive multimodal treatment of atypical teratoid/rhabdoid tumour, balanced against the toxicity in the infant brain.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Tumour angiogenesis and stroma: PDGF drives the tumour angiogenesis (VEGF already mapped) and the stromal recruitment of atypical teratoid/rhabdoid tumour, part of its aggressive vascular biology.
 
 ---
 

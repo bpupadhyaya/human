@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "Zinc and cutaneous defence: zinc supports the antioxidant (xanthine oxidase already mapped) and immune function of the skin, and disturbed zinc handling is part of the cutaneous defence against the photocarcinogenesis that drives basal cell carcinoma."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "UV photocarcinogenesis: the ultraviolet photons cause the signature mutations (p53 already mapped) that drive basal cell carcinoma, and the photons of radiotherapy are a treatment for lesions unsuitable for surgery."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "M2 stromal arm: IL-13, with IL-4 (already mapped), drives the M2 macrophage (already mapped) arm of the immunosuppressive tumour stroma (collagen already mapped) of basal cell carcinoma."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Selenium antioxidant defence: selenium supports the antioxidant selenoprotein defence of the skin against the UV (photon) oxidative photocarcinogenesis (NFE2L2 already mapped) that drives basal cell carcinoma."
 ---
 
 # Basal Cell Carcinoma
@@ -689,6 +698,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the UV-induced immunosuppressive microenvironment of basal cell carcinoma.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper and stroma: copper is the cofactor of lysyl oxidase that cross-links the tumour-stroma collagen (already mapped) and supports angiogenesis (VEGF already mapped), part of the copper-dependent biology of basal cell carcinoma.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and cutaneous defence: zinc supports the antioxidant (xanthine oxidase already mapped) and immune function of the skin, and disturbed zinc handling is part of the cutaneous defence against the photocarcinogenesis that drives basal cell carcinoma.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — UV photocarcinogenesis: the ultraviolet photons cause the signature mutations (p53 already mapped) that drive basal cell carcinoma, and the photons of radiotherapy are a treatment for lesions unsuitable for surgery.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — M2 stromal arm: IL-13, with IL-4 (already mapped), drives the M2 macrophage (already mapped) arm of the immunosuppressive tumour stroma (collagen already mapped) of basal cell carcinoma.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Selenium antioxidant defence: selenium supports the antioxidant selenoprotein defence of the skin against the UV (photon) oxidative photocarcinogenesis (NFE2L2 already mapped) that drives basal cell carcinoma.
 
 ---
 
