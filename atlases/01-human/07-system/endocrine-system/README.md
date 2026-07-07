@@ -428,6 +428,15 @@ cross_links:
   - target: 01-human/07-system/type-2-diabetes
     relation: connects-to
     note: "The commonest endocrine disease: type 2 diabetes is the insulin (already mapped) resistance disorder of the endocrine pancreas, the most prevalent disease of the endocrine system."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Potassium homeostasis: the endocrine control of the potassium balance runs through aldosterone (already mapped) and the insulin (already mapped) shift, core electrolyte functions of the endocrine system."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipose as endocrine organ: resistin, with leptin and adiponectin (already mapped), is an adipokine of the adipose tissue acting as an endocrine organ that regulates the systemic metabolism."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Enteroendocrine amine: histamine from the enterochromaffin-like cells of the gastric mucosa drives the acid-secretion axis, one of the paracrine/endocrine amine signals of the endocrine system."
 ---
 
 # Endocrine System
@@ -722,6 +731,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Hepatic endocrine hub: the liver produces IGF-1 (already mapped) under growth hormone (already mapped), metabolises and clears hormones, and secretes hepatokines, an endocrine hub of the body's hormonal and metabolic network.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Osmoregulatory axis: the endocrine control of sodium and water balance runs through aldosterone and vasopressin (already mapped), the renin-angiotensin (already mapped) and osmoreceptor axes governing the body's sodium homeostasis.
 - `connects-to` → **[Type 2 diabetes](../type-2-diabetes/README.md)** — The commonest endocrine disease: type 2 diabetes is the insulin (already mapped) resistance disorder of the endocrine pancreas, the most prevalent disease of the endocrine system.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Potassium homeostasis: the endocrine control of the potassium balance runs through aldosterone (already mapped) and the insulin (already mapped) shift, core electrolyte functions of the endocrine system.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipose as endocrine organ: resistin, with leptin and adiponectin (already mapped), is an adipokine of the adipose tissue acting as an endocrine organ that regulates the systemic metabolism.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Enteroendocrine amine: histamine from the enterochromaffin-like cells of the gastric mucosa drives the acid-secretion axis, one of the paracrine/endocrine amine signals of the endocrine system.
 
 ## Pathology
 
