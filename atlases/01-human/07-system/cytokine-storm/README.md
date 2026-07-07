@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/pd-1
     relation: connects-to
     note: "Immunoparalysis exhaustion: PD-1 is upregulated on the exhausted T cells of the immunoparalysis phase that follows the cytokine storm, contributing to the secondary infections of the hyperinflammatory syndromes."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "HLH NK defect: the impaired NK/CTL cytotoxicity (perforin already mapped) of the familial and secondary HLH fails to kill the activated antigen-presenting cells, perpetuating the cytokine storm."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Endothelial leak: the endothelial activation and the glycocalyx damage (angiopoietin and VWF already mapped) drive the vascular leak, the shock and the coagulopathy of the cytokine storm."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "COVID driver: the severe COVID-19 is a major cause of the cytokine storm (the IL-6 already mapped hyperinflammation), the tocilizumab/dexamethasone target."
 ---
 
 # Cytokine Storm
@@ -670,6 +679,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Inflammatory adipokine: leptin, with resistin (already mapped), rises in the acute inflammation (IL-6 already mapped) of the cytokine storm, part of the adipokine dimension of the hyperinflammatory response.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine axis: adiponectin, with leptin and resistin (already mapped), completes the adipokine axis whose balance shapes the metabolic-inflammatory response of the cytokine storm.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Immunoparalysis exhaustion: PD-1 is upregulated on the exhausted T cells of the immunoparalysis phase that follows the cytokine storm, contributing to the secondary infections of the hyperinflammatory syndromes.
+- `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — HLH NK defect: the impaired NK/CTL cytotoxicity (perforin already mapped) of the familial and secondary HLH fails to kill the activated antigen-presenting cells, perpetuating the cytokine storm.
+- `connects-to` → **[Endothelial cell](../../04-cellular/endothelial-cell/README.md)** — Endothelial leak: the endothelial activation and the glycocalyx damage (angiopoietin and VWF already mapped) drive the vascular leak, the shock and the coagulopathy of the cytokine storm.
+- `connects-to` → **[COVID-19](../covid-19-disease/README.md)** — COVID driver: the severe COVID-19 is a major cause of the cytokine storm (the IL-6 already mapped hyperinflammation), the tocilizumab/dexamethasone target.
 
 ## Pathology
 

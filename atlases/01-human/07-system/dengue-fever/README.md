@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "Cross-reactive T-cell immunopathology: the cross-reactive memory cytotoxic T cells (perforin already mapped) from a prior serotype contribute, with the antibody-dependent enhancement (immunoglobulin already mapped), to the immunopathology of severe secondary dengue."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "ADE target: the dengue virus infects the macrophages/monocytes, and the antibody-dependent enhancement (immunoglobulin already mapped) increases the FcγR-mediated uptake, amplifying the severe secondary dengue."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Dengue hepatitis: the dengue causes the hepatocyte infection and the transaminitis/hepatitis of the liver, a marker of the disease severity."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "DC-SIGN target: the dengue virus targets the DC-SIGN-expressing dendritic cells, the skin (Aedes-bite) entry and the initial infection."
 ---
 
 # Dengue Fever
@@ -691,3 +700,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), is part of the type-2 immune arm of the dengue response, contributing to the cytokine milieu of the illness.
 - `connects-to` → **[Bone marrow](../../05-tissue/bone-marrow/README.md)** — Marrow suppression: the dengue virus suppresses the bone marrow (thrombopoietin already mapped), causing the thrombocytopenia and leukopenia that are hallmarks of the acute febrile illness.
 - `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Cross-reactive T-cell immunopathology: the cross-reactive memory cytotoxic T cells (perforin already mapped) from a prior serotype contribute, with the antibody-dependent enhancement (immunoglobulin already mapped), to the immunopathology of severe secondary dengue.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — ADE target: the dengue virus infects the macrophages/monocytes, and the antibody-dependent enhancement (immunoglobulin already mapped) increases the FcγR-mediated uptake, amplifying the severe secondary dengue.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Dengue hepatitis: the dengue causes the hepatocyte infection and the transaminitis/hepatitis of the liver, a marker of the disease severity.
+- `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — DC-SIGN target: the dengue virus targets the DC-SIGN-expressing dendritic cells, the skin (Aedes-bite) entry and the initial infection.
