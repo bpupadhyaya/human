@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "Selenium and skin oxidative defence: selenium supports the antioxidant selenoprotein defence of the skin, and low selenium status, common in psoriasis, is part of the oxidative and immune imbalance of the inflamed skin."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Skin-barrier zinc: the zinc essential for the skin barrier and immunity; the zinc status is altered in psoriasis, and topical zinc is used in its management."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "Psoriatic march: psoriasis carries an increased atherosclerosis (cholesterol already mapped) and cardiovascular risk from the systemic inflammation (TNF and IL-6 already mapped), the 'psoriatic march'."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Dermal macrophages: the dermal macrophages (TNF and IL-6 already mapped) contribute to the psoriatic skin inflammation and the systemic inflammatory comorbidity."
 ---
 
 # Psoriasis
@@ -694,6 +703,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Metabolic adipokine: resistin, with leptin and adiponectin (already mapped), is part of the adipokine milieu linking psoriasis to the metabolic syndrome (insulin and cholesterol already mapped) and its systemic inflammation.
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin sequesters iron to produce the anaemia of chronic disease that can accompany the systemic inflammation of severe psoriasis.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Selenium and skin oxidative defence: selenium supports the antioxidant selenoprotein defence of the skin, and low selenium status, common in psoriasis, is part of the oxidative and immune imbalance of the inflamed skin.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Skin-barrier zinc: the zinc essential for the skin barrier and immunity; the zinc status is altered in psoriasis, and topical zinc is used in its management.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Psoriatic march: psoriasis carries an increased atherosclerosis (cholesterol already mapped) and cardiovascular risk from the systemic inflammation (TNF and IL-6 already mapped), the 'psoriatic march'.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Dermal macrophages: the dermal macrophages (TNF and IL-6 already mapped) contribute to the psoriatic skin inflammation and the systemic inflammatory comorbidity.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

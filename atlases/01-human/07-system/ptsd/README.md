@@ -441,6 +441,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Anxiety comorbidity: generalized anxiety disorder commonly co-occurs with PTSD, part of the anxious-hyperarousal (noradrenaline already mapped) symptom burden that accompanies the trauma disorder."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Metabolic-inflammatory adipokine: leptin is the adipokine of the metabolic-inflammatory milieu; PTSD is associated with the metabolic dysregulation (insulin already mapped) and the adipokine changes."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic-inflammatory milieu of PTSD."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the metabolic-inflammatory (IL-6 and TNF already mapped) dimension of PTSD."
 ---
 
 # PTSD
@@ -717,6 +726,9 @@ Not all trauma leads to PTSD. Risk and resilience factors include:
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 neuroimmunity: IL-13, with IL-4 (already mapped), supports the M2 microglia (already mapped) and the anti-inflammatory arm balancing the neuroinflammation (TNF, IL-6 and IL-1 already mapped) implicated in PTSD.
 - `connects-to` → **[Borderline personality disorder](../borderline-personality-disorder/README.md)** — Trauma-spectrum overlap: borderline personality disorder is strongly linked to childhood trauma and overlaps with complex PTSD, the two sharing the HPA-axis (cortisol and CRH already mapped) dysregulation and affective instability.
 - `connects-to` → **[Generalized anxiety disorder](../generalized-anxiety-disorder/README.md)** — Anxiety comorbidity: generalized anxiety disorder commonly co-occurs with PTSD, part of the anxious-hyperarousal (noradrenaline already mapped) symptom burden that accompanies the trauma disorder.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Metabolic-inflammatory adipokine: leptin is the adipokine of the metabolic-inflammatory milieu; PTSD is associated with the metabolic dysregulation (insulin already mapped) and the adipokine changes.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic-inflammatory milieu of PTSD.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the metabolic-inflammatory (IL-6 and TNF already mapped) dimension of PTSD.
 
 [^yehuda-2015-ptsd-review]: Yehuda R, Hoge CW, McFarlane AC, et al. Post-traumatic stress disorder. *Nat Rev Dis Primers.* 2015;1:15057. [doi:10.1038/nrdp.2015.57](https://doi.org/10.1038/nrdp.2015.57) · [PubMed 27189040](https://pubmed.ncbi.nlm.nih.gov/27189040/)
 [^foa-2019-ptsd-treatments]: Foa EB, McLean CP. The efficacy of exposure therapy for anxiety and related disorders. *Annu Rev Clin Psychol.* 2016;12:1-28. [doi:10.1146/annurev-clinpsy-021815-093533](https://doi.org/10.1146/annurev-clinpsy-021815-093533) · [PubMed 26928206](https://pubmed.ncbi.nlm.nih.gov/26928206/)
