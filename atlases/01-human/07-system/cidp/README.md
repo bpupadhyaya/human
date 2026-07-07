@@ -429,6 +429,15 @@ cross_links:
   - target: 01-human/03-molecular/cholesterol
     relation: connects-to
     note: "Myelin lipid: myelin is a cholesterol-rich membrane, and the repeated demyelination and remyelination of CIDP demand the cholesterol handling of the Schwann cells rebuilding the myelin sheath."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Neurotrophic remyelination: IGF-1 supports the Schwann-cell remyelination and axonal maintenance (BDNF already mapped), part of the reparative response to the repeated demyelination of CIDP."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "Schwann-cell proliferation: PDGF drives the Schwann-cell proliferation of the onion-bulb remyelination that characterises the chronic, relapsing demyelination and repair of CIDP."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Copper-deficiency mimic: copper deficiency causes a myeloneuropathy with demyelination that can clinically mimic CIDP, an important metabolic differential in the chronic neuropathies."
 ---
 
 # CIDP
@@ -708,6 +717,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Inflammatory eicosanoids: prostaglandins from the macrophages (already mapped) and infiltrating cells of the inflamed nerve amplify the demyelinating inflammation (IL-6, TNF and IL-1 already mapped) of CIDP.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative nerve injury: the inflamed nerve generates oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species (nitric oxide already mapped) add to the demyelination and secondary axonal injury of CIDP.
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Myelin lipid: myelin is a cholesterol-rich membrane, and the repeated demyelination and remyelination of CIDP demand the cholesterol handling of the Schwann cells rebuilding the myelin sheath.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Neurotrophic remyelination: IGF-1 supports the Schwann-cell remyelination and axonal maintenance (BDNF already mapped), part of the reparative response to the repeated demyelination of CIDP.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Schwann-cell proliferation: PDGF drives the Schwann-cell proliferation of the onion-bulb remyelination that characterises the chronic, relapsing demyelination and repair of CIDP.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper-deficiency mimic: copper deficiency causes a myeloneuropathy with demyelination that can clinically mimic CIDP, an important metabolic differential in the chronic neuropathies.
 
 ---
 

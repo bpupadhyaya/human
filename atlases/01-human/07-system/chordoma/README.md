@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/il-4
     relation: connects-to
     note: "M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped) in chordoma, part of the immune evasion that limits the checkpoint and vaccine approaches against this tumour."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immunosuppressive microenvironment of chordoma."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Photon radiotherapy: conventional and stereotactic photon radiotherapy treats chordoma where proton therapy (already mapped) is unavailable, though the dose is limited by the nearby brainstem and spinal cord."
+  - target: 01-human/04-cellular/osteoblast
+    relation: connects-to
+    note: "Tumour-bone interface: the osteoblasts and the bone remodelling (RANKL and osteopontin already mapped) at the interface with the destructive axial chordoma respond to the tumour invading the skull base and sacrum."
 ---
 
 # Chordoma
@@ -690,6 +699,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Osteolytic inflammation: prostaglandins from the tumour and its bone-resorptive microenvironment (RANKL already mapped) promote the osteolysis and inflammation of the bone (already mapped) destruction that drives much of chordoma's local morbidity.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative microenvironment: the slow-growing chordoma generates oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species are part of the tumour microenvironment beyond the growth-factor (already mapped) drivers.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped) in chordoma, part of the immune evasion that limits the checkpoint and vaccine approaches against this tumour.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immunosuppressive microenvironment of chordoma.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photon radiotherapy: conventional and stereotactic photon radiotherapy treats chordoma where proton therapy (already mapped) is unavailable, though the dose is limited by the nearby brainstem and spinal cord.
+- `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — Tumour-bone interface: the osteoblasts and the bone remodelling (RANKL and osteopontin already mapped) at the interface with the destructive axial chordoma respond to the tumour invading the skull base and sacrum.
 
 ---
 
