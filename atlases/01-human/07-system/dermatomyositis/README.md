@@ -454,6 +454,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the systemic inflammation (IL-6 already mapped) of dermatomyositis."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Innate cytotoxicity: the NK cells (perforin already mapped) contribute to the innate immune dysregulation and the type-I interferon (already mapped) milieu of dermatomyositis."
+  - target: 01-human/07-system/rheumatoid-arthritis
+    relation: connects-to
+    note: "Autoimmune overlap: dermatomyositis can overlap with rheumatoid arthritis and other connective-tissue diseases (systemic sclerosis already mapped), sharing the autoimmune (immunoglobulin already mapped) mechanisms and the rituximab (CD20 already mapped) treatment."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension balancing the type-I interferon (already mapped) and Th1/Th17 (IFN-γ and IL-17 already mapped) drive of dermatomyositis."
 ---
 ---
 
@@ -725,6 +734,9 @@ DM carries a ~3–7× elevated cancer risk overall. Anti-TIF1γ (TRIM33) suppres
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Immune-metabolic adipokine: leptin is part of the immune-metabolic milieu and the steroid (cortisol already mapped)-related metabolic disturbance of dermatomyositis.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the immune-metabolic milieu of dermatomyositis.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the systemic inflammation (IL-6 already mapped) of dermatomyositis.
+- `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Innate cytotoxicity: the NK cells (perforin already mapped) contribute to the innate immune dysregulation and the type-I interferon (already mapped) milieu of dermatomyositis.
+- `connects-to` → **[Rheumatoid arthritis](../rheumatoid-arthritis/README.md)** — Autoimmune overlap: dermatomyositis can overlap with rheumatoid arthritis and other connective-tissue diseases (systemic sclerosis already mapped), sharing the autoimmune (immunoglobulin already mapped) mechanisms and the rituximab (CD20 already mapped) treatment.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension balancing the type-I interferon (already mapped) and Th1/Th17 (IFN-γ and IL-17 already mapped) drive of dermatomyositis.
 
 [^bohan-peter-1975-dm-criteria]: Bohan A, Peter JB. Polymyositis and dermatomyositis. *N Engl J Med.* 1975;292(7):344-347. [doi:10.1056/NEJM197502132920706](https://doi.org/10.1056/NEJM197502132920706) · [PubMed 1090839](https://pubmed.ncbi.nlm.nih.gov/1090839/)
 [^lundberg-2021-iim-classification]: Lundberg IE, et al. 2017 EULAR/ACR classification criteria for adult and juvenile idiopathic inflammatory myopathies. *Arthritis Rheumatol.* 2017;69(12):2271-2282. [doi:10.1002/art.40320](https://doi.org/10.1002/art.40320) · [PubMed 29106061](https://pubmed.ncbi.nlm.nih.gov/29106061/)

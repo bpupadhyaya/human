@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/03-molecular/il-4
     relation: connects-to
     note: "Type-2 imbalance: IL-4 and the type-2/Th2 arm; the dysregulated type-1/type-2 balance is part of the immune dysregulation of severe COVID-19."
+  - target: 02-pathogen/01-viruses/sars-cov-2
+    relation: connects-to
+    note: "Causative virus: COVID-19 is caused by SARS-CoV-2, whose spike (already mapped) engages the ACE2 (already mapped) receptor for cell entry, the coronavirus of the pandemic."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 antiviral arm: IL-12 polarises the Th1 (IFN-γ already mapped) antiviral response, part of the type-1 immunity against SARS-CoV-2 in COVID-19."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 imbalance: IL-13, with IL-4 (already mapped), completes the type-2/Th2 arm of the dysregulated type-1/type-2 balance of severe COVID-19."
 ---
 
 # COVID-19 Disease
@@ -656,6 +665,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is the adipose-derived adipokine of the obesity risk and the metabolic-inflammatory state of severe COVID-19.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the obesity risk and the cytokine milieu (IL-6 already mapped) of severe COVID-19.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Type-2 imbalance: IL-4 and the type-2/Th2 arm; the dysregulated type-1/type-2 balance is part of the immune dysregulation of severe COVID-19.
+- `connects-to` → **[SARS-CoV-2](../../../02-pathogen/01-viruses/sars-cov-2/README.md)** — Causative virus: COVID-19 is caused by SARS-CoV-2, whose spike (already mapped) engages the ACE2 (already mapped) receptor for cell entry, the coronavirus of the pandemic.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 antiviral arm: IL-12 polarises the Th1 (IFN-γ already mapped) antiviral response, part of the type-1 immunity against SARS-CoV-2 in COVID-19.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 imbalance: IL-13, with IL-4 (already mapped), completes the type-2/Th2 arm of the dysregulated type-1/type-2 balance of severe COVID-19.
 
 ## Pathology
 
