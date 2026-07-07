@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Adipokine modulation: adiponectin, with leptin (already mapped), links the metabolic state to the breast-cancer risk, part of the modifiable adipokine influence on the hormone-responsive cancers of hereditary breast-ovarian cancer."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipokine milieu: resistin, with leptin and adiponectin (already mapped), is part of the obesity-related modifiable adipokine influence on the hormone-responsive cancers of hereditary breast-ovarian cancer."
+  - target: 01-human/07-system/melanoma
+    relation: connects-to
+    note: "Melanoma risk: the BRCA2 (already mapped) carriers have an elevated risk of melanoma (cutaneous and uveal), part of the broader cancer spectrum of hereditary breast-ovarian cancer."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Immunogenic HRD tumours: the homologous-recombination-deficient (BRCA already mapped) tumours accumulate neoantigens, making them susceptible to the cytotoxic T cells (perforin already mapped) and the checkpoint (PD-1 already mapped) immunotherapy."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -703,6 +712,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immunosuppressive microenvironment of the BRCA-associated breast and ovarian cancers.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Obesity and cancer risk: the adipokine leptin links obesity to the risk of the hormone-responsive breast (estrogen already mapped) and endometrial cancers, a modifiable factor modulating the penetrance in hereditary breast-ovarian cancer.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine modulation: adiponectin, with leptin (already mapped), links the metabolic state to the breast-cancer risk, part of the modifiable adipokine influence on the hormone-responsive cancers of hereditary breast-ovarian cancer.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine milieu: resistin, with leptin and adiponectin (already mapped), is part of the obesity-related modifiable adipokine influence on the hormone-responsive cancers of hereditary breast-ovarian cancer.
+- `connects-to` → **[Melanoma](../melanoma/README.md)** — Melanoma risk: the BRCA2 (already mapped) carriers have an elevated risk of melanoma (cutaneous and uveal), part of the broader cancer spectrum of hereditary breast-ovarian cancer.
+- `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Immunogenic HRD tumours: the homologous-recombination-deficient (BRCA already mapped) tumours accumulate neoantigens, making them susceptible to the cytotoxic T cells (perforin already mapped) and the checkpoint (PD-1 already mapped) immunotherapy.
 
 ---
 

@@ -436,6 +436,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Metabolic adipokine: resistin, with leptin and the fall in adiponectin (already mapped), is a pro-inflammatory adipokine of the metabolic syndrome (insulin already mapped) that accompanies and worsens the hyperuricaemia of gout."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate crystal response: type-I interferon is a component of the innate-immune (NLRP3 already mapped) response to the monosodium urate crystals, part of the inflammatory signalling of the gout flare."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Iron and metabolic syndrome: hepcidin, driven by the inflammation (IL-6 already mapped), governs the iron handling whose disturbance links the iron overload to the hyperuricaemia and metabolic syndrome (insulin already mapped) of gout."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell mediator: histamine from the mast cells (already mapped) contributes to the vasodilation and the early inflammation of the acute gout flare."
 ---
 
 # Gout
@@ -668,6 +677,9 @@ The central mechanism linking MSU crystals to acute gouty arthritis is **NLRP3 i
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Flare resolution: IL-4 helps switch the macrophages (already mapped) toward the M2 phenotype that resolves the acute gout flare, the anti-inflammatory arm countering the NLRP3-IL-1 (already mapped) drive.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 resolution: IL-13, with IL-4 (already mapped), supports the M2 macrophage arm that clears the crystals and resolves the inflammation of the self-limiting gout flare.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Metabolic adipokine: resistin, with leptin and the fall in adiponectin (already mapped), is a pro-inflammatory adipokine of the metabolic syndrome (insulin already mapped) that accompanies and worsens the hyperuricaemia of gout.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate crystal response: type-I interferon is a component of the innate-immune (NLRP3 already mapped) response to the monosodium urate crystals, part of the inflammatory signalling of the gout flare.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Iron and metabolic syndrome: hepcidin, driven by the inflammation (IL-6 already mapped), governs the iron handling whose disturbance links the iron overload to the hyperuricaemia and metabolic syndrome (insulin already mapped) of gout.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell mediator: histamine from the mast cells (already mapped) contributes to the vasodilation and the early inflammation of the acute gout flare.
 
 [^dalbeth-2019-gout-primer]: Dalbeth N, Choi HK, Joosten LAB, et al. Gout. *Nat Rev Dis Primers.* 2019;5(1):69. [doi:10.1038/s41572-019-0115-y](https://doi.org/10.1038/s41572-019-0115-y) · [PubMed 31558729](https://pubmed.ncbi.nlm.nih.gov/31558729/)
 [^martinon-2006-nlrp3-gout]: Martinon F, Pétrilli V, Mayor A, Tardivel A, Tschopp J. Gout-associated uric acid crystals activate the NALP3 inflammasome. *Nature.* 2006;440(7081):237-241. [doi:10.1038/nature04516](https://doi.org/10.1038/nature04516) · [PubMed 16407889](https://pubmed.ncbi.nlm.nih.gov/16407889/)
