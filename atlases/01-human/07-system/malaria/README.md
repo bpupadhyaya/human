@@ -420,6 +420,15 @@ cross_links:
   - target: 01-human/03-molecular/il-4
     relation: connects-to
     note: "Antibody help: IL-4 and the Th2 response support the B-cell antibody production against Plasmodium (IL-12 and interferon-gamma already mapped for Th1), the humoral arm of the partial immunity acquired with repeated malaria."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Cytoadherence and sequestration: falciparum-infected red cells bind the endothelial cells via PfEMP1 (angiopoietin and von Willebrand factor already mapped), sequestering in the microvasculature to cause the cerebral and placental complications of severe malaria."
+  - target: 01-human/07-system/thalassemia
+    relation: connects-to
+    note: "Malaria-protective haemoglobinopathy: the thalassaemia trait, like sickle trait, offers partial protection against severe malaria (haemoglobin already mapped), the balancing selection that maintains these haemoglobinopathies in malaria-endemic regions."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Iron tug-of-war: Plasmodium needs iron to grow, and the host restricts it through hepcidin and ferroportin (already mapped), a nutritional-immunity battle in which iron status also influences susceptibility to malaria."
 ---
 
 # Malaria
@@ -712,6 +721,9 @@ cross_links:
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Febrile paroxysms: pyrogenic prostaglandins, induced by the TNF and IL-1 (already mapped) released when infected red cells rupture, drive the characteristic cyclical fevers of malaria synchronised to the parasite's erythrocytic cycle.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Hypoglycaemia: severe malaria causes hypoglycaemia from parasite glucose consumption and impaired gluconeogenesis, compounded by quinine-induced hyperinsulinaemia (insulin already mapped) that disturbs the incretin GLP-1 axis of glucose control.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Antibody help: IL-4 and the Th2 response support the B-cell antibody production against Plasmodium (IL-12 and interferon-gamma already mapped for Th1), the humoral arm of the partial immunity acquired with repeated malaria.
+- `connects-to` → **[Endothelial cell](../../04-cellular/endothelial-cell/README.md)** — Cytoadherence and sequestration: falciparum-infected red cells bind the endothelial cells via PfEMP1 (angiopoietin and von Willebrand factor already mapped), sequestering in the microvasculature to cause the cerebral and placental complications of severe malaria.
+- `connects-to` → **[Thalassemia](../thalassemia/README.md)** — Malaria-protective haemoglobinopathy: the thalassaemia trait, like sickle trait, offers partial protection against severe malaria (haemoglobin already mapped), the balancing selection that maintains these haemoglobinopathies in malaria-endemic regions.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron tug-of-war: Plasmodium needs iron to grow, and the host restricts it through hepcidin and ferroportin (already mapped), a nutritional-immunity battle in which iron status also influences susceptibility to malaria.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)

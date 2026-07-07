@@ -415,6 +415,15 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "Immune dysregulation: IL-10 among the cytokines of the inflammatory MDS marrow microenvironment (IFN-gamma, TNF and IL-6 already mapped) shapes the immune milieu that both suppresses normal haematopoiesis and is targeted by immunosuppression in a subset."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage niche: IL-4 polarises the marrow macrophages toward an M2 phenotype (IL-10 already mapped), part of the altered immune microenvironment of the dysplastic MDS marrow that shapes the ineffective haematopoiesis."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Marrow-adipocyte crosstalk: the marrow adipocytes and their adipokine adiponectin engage in metabolic crosstalk with the dysplastic clone, the expanding marrow adipose tissue of MDS shaping the haematopoietic microenvironment."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Adipokine marrow signalling: leptin, with adiponectin (already mapped), from the marrow adipose tissue signals to the haematopoietic cells, part of the metabolic microenvironment influencing the dysplastic haematopoiesis of MDS."
 ---
 
 # Myelodysplastic Syndromes
@@ -658,6 +667,9 @@ MDS → AML transformation rate: ~10% at 1 year for very-low risk; ~40-50% at 2 
 - `connects-to` → **[Ferroportin](../../03-molecular/ferroportin/README.md)** — Iron overload and sideroblasts: chronic transfusion and the SF3B1 ring-sideroblast phenotype (already mapped) disturb iron handling in MDS, and ferroportin, regulated by hepcidin (already mapped), governs the iron export relevant to the overload requiring chelation.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative dyspoiesis: the iron overload and inflammation of MDS generate reactive oxygen species, to which xanthine oxidase contributes, and this oxidative stress worsens the ineffective, apoptosis- and pyroptosis-prone (NLRP3 already mapped) haematopoiesis.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immune dysregulation: IL-10 among the cytokines of the inflammatory MDS marrow microenvironment (IFN-gamma, TNF and IL-6 already mapped) shapes the immune milieu that both suppresses normal haematopoiesis and is targeted by immunosuppression in a subset.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage niche: IL-4 polarises the marrow macrophages toward an M2 phenotype (IL-10 already mapped), part of the altered immune microenvironment of the dysplastic MDS marrow that shapes the ineffective haematopoiesis.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Marrow-adipocyte crosstalk: the marrow adipocytes and their adipokine adiponectin engage in metabolic crosstalk with the dysplastic clone, the expanding marrow adipose tissue of MDS shaping the haematopoietic microenvironment.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adipokine marrow signalling: leptin, with adiponectin (already mapped), from the marrow adipose tissue signals to the haematopoietic cells, part of the metabolic microenvironment influencing the dysplastic haematopoiesis of MDS.
 
 [^fenaux-2009-aza001]: Fenaux P, Mufti GJ, Hellstrom-Lindberg E, et al. Efficacy of azacitidine compared with conventional care regimens in patients with higher-risk myelodysplastic syndromes. *Lancet Oncol.* 2009;10(3):223-232. [doi:10.1016/S1470-2045(09)70003-8](https://doi.org/10.1016/S1470-2045(09)70003-8) · [PubMed 19230772](https://pubmed.ncbi.nlm.nih.gov/19230772/)
 [^fenaux-2020-medalist]: Fenaux P, Platzbecker U, Mufti GJ, et al. Luspatercept in patients with lower-risk myelodysplastic syndromes. *N Engl J Med.* 2020;382(2):140-151. [doi:10.1056/NEJMoa1908892](https://doi.org/10.1056/NEJMoa1908892) · [PubMed 31914241](https://pubmed.ncbi.nlm.nih.gov/31914241/)
