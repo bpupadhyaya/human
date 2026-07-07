@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/03-molecular/hepcidin
     relation: connects-to
     note: "Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin sequesters iron and contributes, with the marrow involvement, to the anaemia (haemoglobin already mapped) of follicular lymphoma."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipokine milieu: resistin, with leptin and adiponectin (already mapped), completes the marrow-adipocyte adipokine signalling of the metabolic microenvironment of follicular lymphoma."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Interferon immunity: type-I interferon shapes the innate-immune tumour microenvironment and underlay the historical interferon therapy of follicular lymphoma."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Zinc and lymphocyte immunity: zinc is essential for the lymphocyte biology and immune function, and disturbed zinc status accompanies the immune dysfunction of follicular lymphoma."
 ---
 
 # Follicular Lymphoma
@@ -693,6 +702,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Marrow adipose niche: the marrow adipocytes and their adipokine leptin engage in crosstalk with the lymphoma cells, part of the bone-marrow (already mapped) microenvironment that supports the indolent follicular lymphoma clone.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine microenvironment: adiponectin, with leptin (already mapped), from the marrow and stromal adipose tissue signals to the lymphoma cells, part of the metabolic microenvironment of follicular lymphoma.
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin sequesters iron and contributes, with the marrow involvement, to the anaemia (haemoglobin already mapped) of follicular lymphoma.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine milieu: resistin, with leptin and adiponectin (already mapped), completes the marrow-adipocyte adipokine signalling of the metabolic microenvironment of follicular lymphoma.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Interferon immunity: type-I interferon shapes the innate-immune tumour microenvironment and underlay the historical interferon therapy of follicular lymphoma.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and lymphocyte immunity: zinc is essential for the lymphocyte biology and immune function, and disturbed zinc status accompanies the immune dysfunction of follicular lymphoma.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

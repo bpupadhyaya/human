@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/03-molecular/leptin
     relation: connects-to
     note: "Obesity and cardia cancer: the adipokine leptin links obesity to gastric-cardia adenocarcinoma, its pro-proliferative signalling (Wnt already mapped) part of the metabolic contribution to the disease."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the obesity-related gastric-cardia adenocarcinoma."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory milieu (IL-6 already mapped) to the obesity-related gastric cancer."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin sequesters iron (already mapped) and, with the chronic tumour bleeding, produces the anaemia (haemoglobin already mapped) of gastric cancer."
 ---
 
 # Gastric Cancer
@@ -714,6 +723,9 @@ H. pylori eradication: Reduces GC incidence by ~35-40% (meta-analyses); most ben
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages (already mapped) toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the microenvironment that checkpoint inhibitors in MSI-high and EBV-positive gastric cancer must overcome.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immunosuppressive microenvironment of gastric cancer.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Obesity and cardia cancer: the adipokine leptin links obesity to gastric-cardia adenocarcinoma, its pro-proliferative signalling (Wnt already mapped) part of the metabolic contribution to the disease.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the obesity-related gastric-cardia adenocarcinoma.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory milieu (IL-6 already mapped) to the obesity-related gastric cancer.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin sequesters iron (already mapped) and, with the chronic tumour bleeding, produces the anaemia (haemoglobin already mapped) of gastric cancer.
 
 [^bang-2010-toga]: Bang YJ, Van Cutsem E, Feyereislova A, et al. Trastuzumab in combination with chemotherapy versus chemotherapy alone for treatment of HER2-positive advanced gastric or gastro-oesophageal junction cancer (ToGA): a phase 3, open-label, randomised controlled trial. *Lancet.* 2010;376(9742):687-697. [doi:10.1016/S0140-6736(10)61121-X](https://doi.org/10.1016/S0140-6736(10)61121-X) · [PubMed 20728210](https://pubmed.ncbi.nlm.nih.gov/20728210/)
 [^janjigian-2021-checkmate649]: Janjigian YY, Shitara K, Moehler M, et al. First-line nivolumab plus chemotherapy versus chemotherapy alone for advanced gastric, gastro-oesophageal junction, and oesophageal adenocarcinoma (CheckMate 649). *Lancet.* 2021;398(10294):27-40. [doi:10.1016/S0140-6736(21)00797-2](https://doi.org/10.1016/S0140-6736(21)00797-2) · [PubMed 34102137](https://pubmed.ncbi.nlm.nih.gov/34102137/)
