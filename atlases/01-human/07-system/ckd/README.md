@@ -423,6 +423,15 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "Inflammatory progression: IL-10 opposes the pro-inflammatory cytokines (IL-6, TNF and IL-1 already mapped) that drive the interstitial inflammation and fibrosis (TGF-beta already mapped) of progressive chronic kidney disease, part of its immune balance."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Sodium and volume overload: the failing kidney retains sodium (aldosterone already mapped), and the resulting volume overload drives the hypertension and fluid retention that accelerate chronic kidney disease and its cardiovascular risk."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Iron-restricted anaemia: the raised hepcidin (already mapped) and the failing erythropoietin (already mapped) of chronic kidney disease restrict iron for erythropoiesis, producing the renal anaemia managed with iron and erythropoiesis-stimulating agents."
+  - target: 01-human/07-system/hypertension
+    relation: connects-to
+    note: "Cause and consequence: hypertension is both a leading cause and a near-universal consequence of chronic kidney disease, the renin-angiotensin (already mapped) activation and volume overload creating a vicious cycle that hastens renal decline."
 ---
 
 # Chronic Kidney Disease
@@ -634,6 +643,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron-restricted anaemia: the failing kidney's low erythropoietin (already mapped) and the raised hepcidin (already mapped) of chronic inflammation restrict iron for erythropoiesis, and intravenous iron is a mainstay of managing the anaemia of chronic kidney disease.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Renal prostaglandins: prostaglandins maintain afferent arteriolar tone and renal blood flow, so non-steroidal anti-inflammatory drugs that block them cause acute injury and accelerate chronic kidney disease, a common nephrotoxic exposure.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Inflammatory progression: IL-10 opposes the pro-inflammatory cytokines (IL-6, TNF and IL-1 already mapped) that drive the interstitial inflammation and fibrosis (TGF-beta already mapped) of progressive chronic kidney disease, part of its immune balance.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Sodium and volume overload: the failing kidney retains sodium (aldosterone already mapped), and the resulting volume overload drives the hypertension and fluid retention that accelerate chronic kidney disease and its cardiovascular risk.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron-restricted anaemia: the raised hepcidin (already mapped) and the failing erythropoietin (already mapped) of chronic kidney disease restrict iron for erythropoiesis, producing the renal anaemia managed with iron and erythropoiesis-stimulating agents.
+- `connects-to` → **[Hypertension](../hypertension/README.md)** — Cause and consequence: hypertension is both a leading cause and a near-universal consequence of chronic kidney disease, the renin-angiotensin (already mapped) activation and volume overload creating a vicious cycle that hastens renal decline.
 
 ## Pathology
 
