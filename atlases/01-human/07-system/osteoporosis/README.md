@@ -433,6 +433,15 @@ cross_links:
   - target: 01-human/03-molecular/il-4
     relation: connects-to
     note: "Osteoimmune type-2 arm: IL-4, with IL-10 (already mapped), restrains the inflammatory osteoclastogenesis (RANKL, TNF and IL-17 already mapped), part of the osteoimmune cytokine balance that shapes the bone loss of osteoporosis."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Collagen cross-linking: copper is the cofactor of lysyl oxidase that cross-links the collagen (already mapped) of the bone matrix, and copper deficiency (as in Menkes) causes a bone fragility, part of the trace-metal contribution to bone quality."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Osteoimmune type-2 cytokine: IL-13, with IL-4 (already mapped), is part of the type-2 arm that restrains the inflammatory osteoclastogenesis (RANKL, TNF and IL-17 already mapped) of the bone loss of osteoporosis."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipokine bone loss: resistin, with leptin and adiponectin (already mapped), promotes the osteoclastogenesis (RANKL already mapped) and the inflammatory bone loss, part of the adipokine influence on the skeleton in osteoporosis."
 ---
 
 # Osteoporosis
@@ -679,6 +688,9 @@ All newly diagnosed osteoporosis should be evaluated for secondary causes: CBC (
 - `connects-to` → **[Bone marrow](../../05-tissue/bone-marrow/README.md)** — Marrow adiposity: with ageing and oestrogen (already mapped) loss the marrow stromal cells shift from osteoblast (already mapped) toward adipocyte differentiation (leptin and adiponectin already mapped), the fatty marrow accompanying the bone loss of osteoporosis.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium and bone quality: magnesium is a structural mineral of the bone matrix and a cofactor for the PTH and vitamin-D (already mapped) function, so its deficiency impairs bone quality and contributes to osteoporosis.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Osteoimmune type-2 arm: IL-4, with IL-10 (already mapped), restrains the inflammatory osteoclastogenesis (RANKL, TNF and IL-17 already mapped), part of the osteoimmune cytokine balance that shapes the bone loss of osteoporosis.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Collagen cross-linking: copper is the cofactor of lysyl oxidase that cross-links the collagen (already mapped) of the bone matrix, and copper deficiency (as in Menkes) causes a bone fragility, part of the trace-metal contribution to bone quality.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Osteoimmune type-2 cytokine: IL-13, with IL-4 (already mapped), is part of the type-2 arm that restrains the inflammatory osteoclastogenesis (RANKL, TNF and IL-17 already mapped) of the bone loss of osteoporosis.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine bone loss: resistin, with leptin and adiponectin (already mapped), promotes the osteoclastogenesis (RANKL already mapped) and the inflammatory bone loss, part of the adipokine influence on the skeleton in osteoporosis.
 
 [^kanis-2019-who-osteoporosis]: Kanis JA, Cooper C, Rizzoli R, Reginster JY. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. *Osteoporos Int.* 2019;30(1):3-44. [doi:10.1007/s00198-018-4704-5](https://doi.org/10.1007/s00198-018-4704-5) · [PubMed 30324412](https://pubmed.ncbi.nlm.nih.gov/30324412/)
 [^cosman-2016-romosozumab]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)

@@ -427,6 +427,15 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "Uraemic pruritus: chronic kidney disease causes a severe systemic itch that can drive prurigo nodularis (mu-opioid receptor already mapped), one of the internal diseases to exclude in a patient presenting with the nodules."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic (insulin already mapped) comorbidity (type-2 diabetes already mapped) associated with prurigo nodularis."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory milieu (IL-6 already mapped) to the metabolic comorbidity of prurigo nodularis."
+  - target: 01-human/07-system/gastric-cancer
+    relation: connects-to
+    note: "Paraneoplastic pruritus: gastric and other solid cancers, with the lymphomas (Hodgkin already mapped), can present with the paraneoplastic itch that drives prurigo nodularis, mandating malignancy screening in refractory cases."
 ---
 
 # Prurigo Nodularis
@@ -646,6 +655,9 @@ PN affects approximately **72,000 patients** in the US; true prevalence is likel
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — Type-2 helper T cells: the CD4 Th2 and Th22 cells drive the type-2 inflammation (IL-4, IL-13 and IL-31 already mapped) of prurigo nodularis, the cellular source of the itch cytokines targeted by dupilumab and nemolizumab.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Pruriceptor sensitisation: the sensory neurons that transmit itch sprout and sensitise in the skin of prurigo nodularis (substance P, CGRP and NGF-TrkA already mapped), the neuronal remodelling central to the intractable itch.
 - `connects-to` → **[CKD](../ckd/README.md)** — Uraemic pruritus: chronic kidney disease causes a severe systemic itch that can drive prurigo nodularis (mu-opioid receptor already mapped), one of the internal diseases to exclude in a patient presenting with the nodules.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic (insulin already mapped) comorbidity (type-2 diabetes already mapped) associated with prurigo nodularis.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory milieu (IL-6 already mapped) to the metabolic comorbidity of prurigo nodularis.
+- `connects-to` → **[Gastric cancer](../gastric-cancer/README.md)** — Paraneoplastic pruritus: gastric and other solid cancers, with the lymphomas (Hodgkin already mapped), can present with the paraneoplastic itch that drives prurigo nodularis, mandating malignancy screening in refractory cases.
 
 [^stander-2020-nemolizumab-pn]: Ständer S, Yosipovitch G, Legat FJ, et al. Trial of nemolizumab in moderate-to-severe prurigo nodularis. *N Engl J Med.* 2020;382(8):706-716. [doi:10.1056/NEJMoa1908316](https://doi.org/10.1056/NEJMoa1908316) · [PubMed 32053299](https://pubmed.ncbi.nlm.nih.gov/32053299/)
 [^briggs-2022-dupilumab-pn-liberty]: Briggs JN, Cho YY, Khanna R, et al. Dupilumab for prurigo nodularis: the LIBERTY-PN PRIME and PRIME2 trials. *N Engl J Med.* 2022;387(18):1683-1693. [doi:10.1056/NEJMoa2205093](https://doi.org/10.1056/NEJMoa2205093) · [PubMed 36300905](https://pubmed.ncbi.nlm.nih.gov/36300905/)
