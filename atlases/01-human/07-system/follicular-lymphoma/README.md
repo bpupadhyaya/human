@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/prostaglandins
     relation: connects-to
     note: "Immunosuppressive eicosanoids: prostaglandin E2 in the follicular lymphoma microenvironment (IL-10 already mapped) dampens the anti-tumour immune response, part of the immune tolerance that sustains the indolent clone."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Marrow adipose niche: the marrow adipocytes and their adipokine leptin engage in crosstalk with the lymphoma cells, part of the bone-marrow (already mapped) microenvironment that supports the indolent follicular lymphoma clone."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Adipokine microenvironment: adiponectin, with leptin (already mapped), from the marrow and stromal adipose tissue signals to the lymphoma cells, part of the metabolic microenvironment of follicular lymphoma."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin sequesters iron and contributes, with the marrow involvement, to the anaemia (haemoglobin already mapped) of follicular lymphoma."
 ---
 
 # Follicular Lymphoma
@@ -681,6 +690,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 microenvironment: IL-13, with IL-4 (already mapped), reflects the type-2 cytokine milieu of the follicular helper T cells (already mapped) that support the follicular lymphoma clone in its germinal-centre-like niche.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the vascular tone and angiogenesis of the follicular lymphoma microenvironment, part of the supportive stroma of this indolent lymphoma.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Immunosuppressive eicosanoids: prostaglandin E2 in the follicular lymphoma microenvironment (IL-10 already mapped) dampens the anti-tumour immune response, part of the immune tolerance that sustains the indolent clone.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Marrow adipose niche: the marrow adipocytes and their adipokine leptin engage in crosstalk with the lymphoma cells, part of the bone-marrow (already mapped) microenvironment that supports the indolent follicular lymphoma clone.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine microenvironment: adiponectin, with leptin (already mapped), from the marrow and stromal adipose tissue signals to the lymphoma cells, part of the metabolic microenvironment of follicular lymphoma.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin sequesters iron and contributes, with the marrow involvement, to the anaemia (haemoglobin already mapped) of follicular lymphoma.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
