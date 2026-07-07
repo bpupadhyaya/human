@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/norepinephrine
     relation: connects-to
     note: "Noradrenergic input: noradrenaline is part of the neuronal-activity-dependent (glutamate already mapped) signalling that stimulates the proliferation and invasion of glioblastoma."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (with the type-I interferon already mapped) is the type-II interferon arm largely defeated by the immunosuppressive, cold microenvironment of glioblastoma."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate cGAS-STING interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment relevant to the immunotherapy of glioblastoma."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) anti-tumour response, explored (e.g. engineered/oncolytic delivery) against the immunosuppressive glioblastoma."
 ---
 
 # Glioblastoma
@@ -709,6 +718,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Lipid metabolic dependency: glioblastoma depends on the cholesterol and lipid metabolism, importing the astrocyte (already mapped)-derived cholesterol, a metabolic vulnerability being explored therapeutically.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Serotonergic neuromodulation: serotonin modulates the neuron-glioma (glutamate, GABA and acetylcholine already mapped) circuits whose activity drives the growth and invasion of glioblastoma.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Noradrenergic input: noradrenaline is part of the neuronal-activity-dependent (glutamate already mapped) signalling that stimulates the proliferation and invasion of glioblastoma.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (with the type-I interferon already mapped) is the type-II interferon arm largely defeated by the immunosuppressive, cold microenvironment of glioblastoma.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate cGAS-STING interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment relevant to the immunotherapy of glioblastoma.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) anti-tumour response, explored (e.g. engineered/oncolytic delivery) against the immunosuppressive glioblastoma.
 
 ---
 

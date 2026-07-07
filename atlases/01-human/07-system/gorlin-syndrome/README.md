@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/leptin
     relation: connects-to
     note: "Overgrowth adipokine: leptin reflects the macrosomia and large body habitus (with the macrocephaly) that are part of the developmental overgrowth phenotype of Gorlin syndrome."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Overgrowth adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the macrosomia and overgrowth phenotype of Gorlin syndrome."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipokine milieu: resistin, with leptin and adiponectin (already mapped), completes the adipokine dimension of the metabolic/overgrowth phenotype of Gorlin syndrome."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "BCC antigen presentation: the dendritic cells present the UV-neoantigens of the multiple basal cell carcinomas (already mapped) of Gorlin syndrome, the immune surveillance of the Hedgehog (SMO already mapped)-driven tumours."
 ---
 
 # Gorlin Syndrome
@@ -690,6 +699,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and cutaneous defence: zinc supports the immune and antioxidant function of the skin against the UV (prostaglandins already mapped) photocarcinogenesis that drives the multiple basal cell carcinomas of Gorlin syndrome.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Selenium antioxidant defence: selenium supports the antioxidant selenoprotein defence of the skin against the UV oxidative (NFE2L2 already mapped) photocarcinogenesis of Gorlin syndrome.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Overgrowth adipokine: leptin reflects the macrosomia and large body habitus (with the macrocephaly) that are part of the developmental overgrowth phenotype of Gorlin syndrome.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Overgrowth adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the macrosomia and overgrowth phenotype of Gorlin syndrome.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine milieu: resistin, with leptin and adiponectin (already mapped), completes the adipokine dimension of the metabolic/overgrowth phenotype of Gorlin syndrome.
+- `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — BCC antigen presentation: the dendritic cells present the UV-neoantigens of the multiple basal cell carcinomas (already mapped) of Gorlin syndrome, the immune surveillance of the Hedgehog (SMO already mapped)-driven tumours.
 
 ---
 
