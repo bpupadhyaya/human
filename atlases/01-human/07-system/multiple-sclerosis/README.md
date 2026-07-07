@@ -424,6 +424,15 @@ cross_links:
   - target: 01-human/03-molecular/prostaglandins
     relation: connects-to
     note: "Lesion eicosanoids: prostaglandins from the activated microglia (already mapped) and infiltrating cells contribute to the neuroinflammation (IL-6, TNF and IL-1 already mapped) of the active demyelinating lesion in multiple sclerosis."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "Astrogliosis and the glial scar: the reactive astrocytes form the sclerotic glial scar that names multiple sclerosis, and their gap junctions (connexin43 already mapped) and gliotransmission shape both the lesion and the impaired repair."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Axonal calcium overload: the glutamate (already mapped) excitotoxicity and the energy failure of the demyelinated axon load it with calcium, driving the axonal degeneration that underlies the progressive disability of multiple sclerosis."
+  - target: 03-medicine/03-food/omega-3-fatty-acids
+    relation: connects-to
+    note: "Omega-3 and myelin: the omega-3 fatty acids are structural lipids of myelin (cholesterol already mapped) and give rise to pro-resolving mediators, the basis of dietary interest in omega-3 for multiple sclerosis."
 ---
 
 # Multiple Sclerosis
@@ -669,6 +678,9 @@ MS affects approximately **2.8 million people worldwide** (~1 million in the US)
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative axonal injury: reactive oxygen species, to which xanthine oxidase contributes, drive the mitochondrial and axonal injury (NRF2 already mapped) that underlies the progressive, demyelination-independent neurodegeneration of multiple sclerosis.
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Myelin lipid and repair: cholesterol is a major component of myelin and is required for remyelination by oligodendrocytes (already mapped), so its metabolism shapes both the injury and the repair capacity in multiple sclerosis.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Lesion eicosanoids: prostaglandins from the activated microglia (already mapped) and infiltrating cells contribute to the neuroinflammation (IL-6, TNF and IL-1 already mapped) of the active demyelinating lesion in multiple sclerosis.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Astrogliosis and the glial scar: the reactive astrocytes form the sclerotic glial scar that names multiple sclerosis, and their gap junctions (connexin43 already mapped) and gliotransmission shape both the lesion and the impaired repair.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Axonal calcium overload: the glutamate (already mapped) excitotoxicity and the energy failure of the demyelinated axon load it with calcium, driving the axonal degeneration that underlies the progressive disability of multiple sclerosis.
+- `connects-to` → **[Omega-3 fatty acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Omega-3 and myelin: the omega-3 fatty acids are structural lipids of myelin (cholesterol already mapped) and give rise to pro-resolving mediators, the basis of dietary interest in omega-3 for multiple sclerosis.
 
 [^compston-2008-ms-review]: Compston A, Coles A. Multiple sclerosis. *Lancet.* 2008;372(9648):1502-1517. [doi:10.1016/S0140-6736(08)61620-7](https://doi.org/10.1016/S0140-6736(08)61620-7) · [PubMed 18970977](https://pubmed.ncbi.nlm.nih.gov/18970977/)
 [^kappos-2006-natalizumab]: Polman CH, O'Connor PW, Havrdova E, et al. A randomized, placebo-controlled trial of natalizumab for relapsing multiple sclerosis. *N Engl J Med.* 2006;354(9):899-910. [doi:10.1056/NEJMoa044397](https://doi.org/10.1056/NEJMoa044397) · [PubMed 16510744](https://pubmed.ncbi.nlm.nih.gov/16510744/)
