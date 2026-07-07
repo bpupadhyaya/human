@@ -442,6 +442,15 @@ cross_links:
   - target: 01-human/03-molecular/hepcidin
     relation: connects-to
     note: "Functional iron deficiency: the obesity inflammation (IL-6 already mapped) raises hepcidin, which sequesters iron (already mapped) to cause the functional iron deficiency characteristic of obesity despite adequate stores."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "Microbiome-obesity link: the gut-microbiome composition (the energy harvest, the SCFAs, the endotoxaemia — TLR4 already mapped) influences the obesity and the metabolic state."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "Cardiovascular risk: obesity drives the atherosclerosis (cholesterol and PCSK9 already mapped) and the cardiovascular disease, a leading obesity complication."
+  - target: 01-human/06-organ/pancreas
+    relation: connects-to
+    note: "Beta-cell demand: the obesity-driven insulin (already mapped) resistance raises the demand on the pancreatic β-cells, whose eventual failure causes the type 2 diabetes."
 ---
 
 # Obesity
@@ -723,6 +732,9 @@ This **metainflammation** mechanistically links obesity to type 2 diabetes, athe
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Adipose M2 maintenance: IL-13, with IL-4 (already mapped), maintains the anti-inflammatory M2 macrophages (already mapped) of the lean adipose tissue, and the loss of this type-2 signalling in obesity drives the inflammatory shift and insulin resistance.
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Eosinophil-M2 axis: IL-5 recruits the adipose eosinophils that sustain the M2 macrophages (already mapped) and metabolic health of lean fat, and their loss contributes to the adipose inflammation of obesity.
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Functional iron deficiency: the obesity inflammation (IL-6 already mapped) raises hepcidin, which sequesters iron (already mapped) to cause the functional iron deficiency characteristic of obesity despite adequate stores.
+- `connects-to` → **[Gut microbiome](../gut-microbiome/README.md)** — Microbiome-obesity link: the gut-microbiome composition (the energy harvest, the SCFAs, the endotoxaemia — TLR4 already mapped) influences the obesity and the metabolic state.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Cardiovascular risk: obesity drives the atherosclerosis (cholesterol and PCSK9 already mapped) and the cardiovascular disease, a leading obesity complication.
+- `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Beta-cell demand: the obesity-driven insulin (already mapped) resistance raises the demand on the pancreatic β-cells, whose eventual failure causes the type 2 diabetes.
 
 [^bluher-2019-obesity-review]: Blüher M. Obesity: global epidemiology and pathogenesis. *Nat Rev Endocrinol.* 2019;15(5):288-298. [doi:10.1038/s41574-019-0176-8](https://doi.org/10.1038/s41574-019-0176-8) · [PubMed 30814686](https://pubmed.ncbi.nlm.nih.gov/30814686/)
 [^wilding-2021-semaglutide-step1]: Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. *N Engl J Med.* 2021;384(11):989-1002. [doi:10.1056/NEJMoa2032183](https://doi.org/10.1056/NEJMoa2032183) · [PubMed 33567185](https://pubmed.ncbi.nlm.nih.gov/33567185/)

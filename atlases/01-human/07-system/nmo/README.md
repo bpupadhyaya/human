@@ -445,6 +445,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Counter-regulatory adipokine: adiponectin, the anti-inflammatory counterpart of leptin (already mapped), is part of the adipokine-immune crosstalk whose imbalance shapes the autoimmune neuroinflammation of neuromyelitis optica."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the adipokine-immune crosstalk of the autoimmune neuroinflammation of neuromyelitis optica."
+  - target: 01-human/04-cellular/oligodendrocyte
+    relation: connects-to
+    note: "Secondary demyelination: the astrocyte (already mapped) destruction of NMO causes the secondary oligodendrocyte loss and demyelination, distinct from the primary oligodendrocyte demyelination of multiple sclerosis (already mapped)."
+  - target: 01-human/07-system/systemic-lupus-erythematosus
+    relation: connects-to
+    note: "Autoimmune overlap: neuromyelitis optica co-occurs with systemic lupus erythematosus and Sjögren's, sharing the autoantibody and type-I interferon (already mapped) autoimmunity."
 ---
 
 # NMOSD
@@ -733,6 +742,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adipokine and autoimmunity: leptin, elevated in neuromyelitis optica, promotes the Th17 (IL-17 already mapped) and autoreactive responses, linking the metabolic-inflammatory state to the disease activity.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Checkpoint tolerance: the PD-1 checkpoint and the peripheral-tolerance mechanisms, when dysfunctional, permit the anti-AQP4 (already mapped) autoreactivity that drives neuromyelitis optica.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Counter-regulatory adipokine: adiponectin, the anti-inflammatory counterpart of leptin (already mapped), is part of the adipokine-immune crosstalk whose imbalance shapes the autoimmune neuroinflammation of neuromyelitis optica.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the adipokine-immune crosstalk of the autoimmune neuroinflammation of neuromyelitis optica.
+- `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — Secondary demyelination: the astrocyte (already mapped) destruction of NMO causes the secondary oligodendrocyte loss and demyelination, distinct from the primary oligodendrocyte demyelination of multiple sclerosis (already mapped).
+- `connects-to` → **[Systemic lupus erythematosus](../systemic-lupus-erythematosus/README.md)** — Autoimmune overlap: neuromyelitis optica co-occurs with systemic lupus erythematosus and Sjögren's, sharing the autoantibody and type-I interferon (already mapped) autoimmunity.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)
