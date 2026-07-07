@@ -438,6 +438,15 @@ cross_links:
   - target: 01-human/07-system/inflammatory-bowel-disease
     relation: connects-to
     note: "Spondyloarthropathy overlap: psoriatic arthritis and inflammatory bowel disease co-occur within the seronegative spondyloarthropathies (IL-23 and HLA-B27 already mapped), sharing the gut-joint axis and the IL-23/17-targeting biologics."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Type-2 counter-arm: IL-4 and the type-2/regulatory arm counterbalance the dominant Th17 (IL-17 and IL-23 already mapped) axis that drives the joint and skin inflammation of psoriatic arthritis."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immune arm: IL-13, with IL-4 (already mapped), completes the type-2 immune arm balancing the Th17 (IL-17 already mapped) drive of psoriatic arthritis."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin sequesters iron and produces the anaemia of chronic disease (haemoglobin already mapped) of the chronic inflammation of psoriatic arthritis."
 ---
 
 # Psoriatic Arthritis
@@ -725,6 +734,9 @@ Risankizumab (anti-IL-23p19) **failed primary endpoints** in the SURPASS trial f
 - `connects-to` → **[Peripheral nerve](../../05-tissue/peripheral-nerve/README.md)** — Enthesis innervation: the entheses are richly innervated, and the neurogenic inflammation from the sensory nerves (substance P and CGRP already mapped) drives the enthesitis that is a defining feature of psoriatic arthritis.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophilic inflammation: the neutrophils form the pustules of the psoriatic skin and infiltrate the inflamed synovium (S100A8/9 already mapped), part of the innate arm of the inflammation of psoriatic arthritis.
 - `connects-to` → **[Inflammatory bowel disease](../inflammatory-bowel-disease/README.md)** — Spondyloarthropathy overlap: psoriatic arthritis and inflammatory bowel disease co-occur within the seronegative spondyloarthropathies (IL-23 and HLA-B27 already mapped), sharing the gut-joint axis and the IL-23/17-targeting biologics.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Type-2 counter-arm: IL-4 and the type-2/regulatory arm counterbalance the dominant Th17 (IL-17 and IL-23 already mapped) axis that drives the joint and skin inflammation of psoriatic arthritis.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), completes the type-2 immune arm balancing the Th17 (IL-17 already mapped) drive of psoriatic arthritis.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin sequesters iron and produces the anaemia of chronic disease (haemoglobin already mapped) of the chronic inflammation of psoriatic arthritis.
 
 [^ritchlin-2017-psa-review]: Ritchlin CT, Colbert RA, Gladman DD. Psoriatic arthritis. *N Engl J Med.* 2017;376(10):957-970. [doi:10.1056/NEJMra1505557](https://doi.org/10.1056/NEJMra1505557) · [PubMed 28273019](https://pubmed.ncbi.nlm.nih.gov/28273019/)
 [^mease-2015-secukinumab-psa-future2]: Mease PJ, et al. Secukinumab inhibition of interleukin-17A in patients with psoriatic arthritis. *N Engl J Med.* 2015;373(14):1329-1339. [doi:10.1056/NEJMoa1503317](https://doi.org/10.1056/NEJMoa1503317) · [PubMed 26422723](https://pubmed.ncbi.nlm.nih.gov/26422723/)

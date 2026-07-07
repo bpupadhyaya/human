@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Adipokine microenvironment: adiponectin, with leptin (already mapped), from the marrow adipose tissue signals to the myeloproliferative clone, part of the metabolic microenvironment of polycythaemia vera."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "M2 inflammatory arm: IL-13, with IL-4 (already mapped), drives the M2 macrophage arm of the inflammatory (IL-6 and TNF already mapped) microenvironment of the polycythaemia vera marrow."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Marrow-adipocyte adipokine: resistin, with leptin and adiponectin (already mapped), is the marrow-adipocyte adipokine of the metabolic microenvironment of polycythaemia vera."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Erythroblastic-island macrophages: the marrow macrophages (M2, IL-4 and IL-13 already mapped) support the erythropoiesis of the erythroblastic islands and recycle the iron (ferroportin already mapped) of polycythaemia vera."
 ---
 
 # Polycythemia Vera
@@ -689,6 +698,9 @@ PV must be distinguished from secondary erythrocytosis (elevated EPO, JAK2 wild-
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Inflammatory milieu: IL-4 and the M2 macrophage arm (IL-10 already mapped) shape the chronic inflammation (IL-6 and TNF already mapped) of the myeloproliferative marrow, part of the disease biology of polycythaemia vera.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Marrow adipose crosstalk: the marrow adipocytes and their adipokine leptin signal to the clonal erythroid cells, part of the bone-marrow (already mapped) microenvironment of polycythaemia vera.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine microenvironment: adiponectin, with leptin (already mapped), from the marrow adipose tissue signals to the myeloproliferative clone, part of the metabolic microenvironment of polycythaemia vera.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — M2 inflammatory arm: IL-13, with IL-4 (already mapped), drives the M2 macrophage arm of the inflammatory (IL-6 and TNF already mapped) microenvironment of the polycythaemia vera marrow.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Marrow-adipocyte adipokine: resistin, with leptin and adiponectin (already mapped), is the marrow-adipocyte adipokine of the metabolic microenvironment of polycythaemia vera.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Erythroblastic-island macrophages: the marrow macrophages (M2, IL-4 and IL-13 already mapped) support the erythropoiesis of the erythroblastic islands and recycle the iron (ferroportin already mapped) of polycythaemia vera.
 
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409630](https://doi.org/10.1056/NEJMoa1409630) · [PubMed 25577388](https://pubmed.ncbi.nlm.nih.gov/25577388/)
 [^gisslinger-2020-proud-pv]: Gisslinger H, Gotic M, Holowiecki J, et al. Ropeginterferon alfa-2b versus standard therapy for polycythaemia vera (PROUD-PV and CONTINUATION-PV): a randomised, non-inferiority, phase 3 trial and its extension study. *Lancet Haematol.* 2020;7(3):e196-e208. [doi:10.1016/S2352-3026(19)30236-4](https://doi.org/10.1016/S2352-3026(19)30236-4) · [PubMed 32046833](https://pubmed.ncbi.nlm.nih.gov/32046833/)
