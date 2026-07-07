@@ -418,6 +418,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative hepatocarcinogenesis: the chronic inflammation and iron overload (hepcidin already mapped) of the diseased liver generate reactive oxygen species, to which xanthine oxidase contributes, driving the oxidative DNA damage of hepatocellular carcinogenesis."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage polarisation: IL-4 polarises the Kupffer cells and tumour-associated macrophages (already mapped) toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the tolerogenic liver microenvironment of hepatocellular carcinoma."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Adipokine hepatocarcinogenesis: leptin, rising in the obesity and NASH (already mapped) that increasingly cause hepatocellular carcinoma, promotes hepatocyte proliferation and the fibro-inflammatory (TGF-β already mapped) drive of the tumour."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "COX-2 inflammation: prostaglandins from cyclooxygenase-2 in the chronically inflamed cirrhotic liver (IL-6 already mapped) promote the proliferation and angiogenesis of hepatocellular carcinoma, part of the inflammation-cancer link."
 ---
 
 # Hepatocellular Carcinoma
@@ -689,6 +698,9 @@ In high-risk patients (cirrhosis, HBV regardless of cirrhosis): ultrasound ± AF
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the tumour microenvironment dampens the anti-tumour T-cell response (PD-1 and CD8 already mapped), part of the immune evasion that shapes the response to the checkpoint immunotherapy of hepatocellular carcinoma.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Portal hypertension and vasculature: dysregulated nitric oxide drives the splanchnic vasodilation and portal hypertension of the underlying cirrhosis, and with VEGF (already mapped) shapes the vasculature of the hypervascular hepatocellular carcinoma.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative hepatocarcinogenesis: the chronic inflammation and iron overload (hepcidin already mapped) of the diseased liver generate reactive oxygen species, to which xanthine oxidase contributes, driving the oxidative DNA damage of hepatocellular carcinogenesis.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises the Kupffer cells and tumour-associated macrophages (already mapped) toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the tolerogenic liver microenvironment of hepatocellular carcinoma.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adipokine hepatocarcinogenesis: leptin, rising in the obesity and NASH (already mapped) that increasingly cause hepatocellular carcinoma, promotes hepatocyte proliferation and the fibro-inflammatory (TGF-β already mapped) drive of the tumour.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — COX-2 inflammation: prostaglandins from cyclooxygenase-2 in the chronically inflamed cirrhotic liver (IL-6 already mapped) promote the proliferation and angiogenesis of hepatocellular carcinoma, part of the inflammation-cancer link.
 
 [^llovet-2008-sorafenib]: Llovet JM, Ricci S, Mazzaferro V, et al. Sorafenib in advanced hepatocellular carcinoma. *N Engl J Med.* 2008;359(4):378-390. [doi:10.1056/NEJMoa0708857](https://doi.org/10.1056/NEJMoa0708857) · [PubMed 18650514](https://pubmed.ncbi.nlm.nih.gov/18650514/)
 [^finn-2020-imbrave150]: Finn RS, Qin S, Ikeda M, et al. Atezolizumab plus bevacizumab in unresectable hepatocellular carcinoma. *N Engl J Med.* 2020;382(20):1894-1905. [doi:10.1056/NEJMoa1915745](https://doi.org/10.1056/NEJMoa1915745) · [PubMed 32402160](https://pubmed.ncbi.nlm.nih.gov/32402160/)

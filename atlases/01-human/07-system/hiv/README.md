@@ -427,6 +427,15 @@ cross_links:
   - target: 01-human/07-system/leishmaniasis
     relation: connects-to
     note: "Opportunistic co-infection: HIV, by depleting the CD4 T cells (already mapped) that contain intracellular parasites, reactivates and worsens visceral leishmaniasis, one of the opportunistic co-infections of advanced immunodeficiency."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Immune-activation eicosanoids: prostaglandins from the chronic immune activation and inflammation (IL-6, TNF and IL-1 already mapped) of HIV modulate the immune response and contribute to the tissue injury of persistent infection."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Anaemia of chronic infection: the chronic inflammation (IL-6 already mapped) of HIV raises hepcidin, sequestering iron to produce the anaemia of chronic disease (haemoglobin already mapped) common in advanced infection."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Lipodystrophy and metabolism: HIV and its antiretroviral therapy disturb the adipokine leptin (insulin and cholesterol already mapped), part of the lipodystrophy and metabolic syndrome that complicate long-term treatment."
 ---
 
 # HIV
@@ -698,6 +707,9 @@ The **latent reservoir** — HIV integrated into quiescent resting memory CD4+ T
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Dyslipidaemia and atherosclerosis: some antiretroviral drugs and the chronic immune activation of HIV disturb cholesterol handling toward an atherogenic profile (insulin already mapped), contributing to the accelerated atherosclerosis of people living with HIV.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative immune activation: the chronic immune activation of HIV generates oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species add to the tissue injury and accelerated ageing of chronic infection.
 - `connects-to` → **[Leishmaniasis](../leishmaniasis/README.md)** — Opportunistic co-infection: HIV, by depleting the CD4 T cells (already mapped) that contain intracellular parasites, reactivates and worsens visceral leishmaniasis, one of the opportunistic co-infections of advanced immunodeficiency.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Immune-activation eicosanoids: prostaglandins from the chronic immune activation and inflammation (IL-6, TNF and IL-1 already mapped) of HIV modulate the immune response and contribute to the tissue injury of persistent infection.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of chronic infection: the chronic inflammation (IL-6 already mapped) of HIV raises hepcidin, sequestering iron to produce the anaemia of chronic disease (haemoglobin already mapped) common in advanced infection.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Lipodystrophy and metabolism: HIV and its antiretroviral therapy disturb the adipokine leptin (insulin and cholesterol already mapped), part of the lipodystrophy and metabolic syndrome that complicate long-term treatment.
 
 [^barre-sinoussi-1983-hiv-isolation]: Barré-Sinoussi F, Chermann JC, Rey F, et al. Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS). *Science.* 1983;220(4599):868-871. [doi:10.1126/science.6189183](https://doi.org/10.1126/science.6189183) · [PubMed 6189183](https://pubmed.ncbi.nlm.nih.gov/6189183/)
 [^ho-1995-viral-dynamics]: Ho DD, Neumann AU, Perelson AS, et al. Rapid turnover of plasma virions and CD4 lymphocytes in HIV-1 infection. *Nature.* 1995;373(6510):123-126. [doi:10.1038/373123a0](https://doi.org/10.1038/373123a0) · [PubMed 7816094](https://pubmed.ncbi.nlm.nih.gov/7816094/)
