@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin
     relation: connects-to
     note: "Metabolic association: atopic dermatitis is associated with insulin resistance and the metabolic syndrome (cholesterol already mapped), part of the systemic comorbidity that accompanies the skin disease."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Antioxidant defence: selenium is essential for the glutathione peroxidases that quench the oxidative stress (xanthine oxidase already mapped) of inflamed skin, and low selenium status has been linked to the severity of atopic dermatitis."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipokine comorbidity: resistin, with leptin (already mapped), is a pro-inflammatory adipokine of the metabolic syndrome (insulin already mapped) that accompanies atopic dermatitis, part of its systemic inflammatory dimension."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Copper and skin: copper is the cofactor of lysyl oxidase that cross-links the dermal collagen (already mapped), and copper handling supports the skin's structural and antioxidant function disturbed in atopic dermatitis."
 ---
 
 # Atopic Dermatitis
@@ -678,6 +687,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Itch and inflammation: prostaglandins, especially prostaglandin D2, and the eicosanoids from the inflamed skin contribute to the itch and inflammation of atopic dermatitis (histamine already mapped), part of its pruritic biology.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Serotonergic itch: serotonin contributes to the peripheral and central itch pathways of atopic dermatitis (substance P already mapped), part of the neuroimmune signalling that drives the intractable pruritus.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Metabolic association: atopic dermatitis is associated with insulin resistance and the metabolic syndrome (cholesterol already mapped), part of the systemic comorbidity that accompanies the skin disease.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Antioxidant defence: selenium is essential for the glutathione peroxidases that quench the oxidative stress (xanthine oxidase already mapped) of inflamed skin, and low selenium status has been linked to the severity of atopic dermatitis.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine comorbidity: resistin, with leptin (already mapped), is a pro-inflammatory adipokine of the metabolic syndrome (insulin already mapped) that accompanies atopic dermatitis, part of its systemic inflammatory dimension.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper and skin: copper is the cofactor of lysyl oxidase that cross-links the dermal collagen (already mapped), and copper handling supports the skin's structural and antioxidant function disturbed in atopic dermatitis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
