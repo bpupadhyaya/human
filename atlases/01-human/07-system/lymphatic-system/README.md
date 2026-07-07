@@ -437,6 +437,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "Interstitial sodium and lymphoedema: the lymphatic system clears the interstitial sodium and fluid, and its dysfunction produces the sodium-rich lymphoedema, linking the lymphatics to the body's sodium and volume balance."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Eosinophil trafficking: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), expands and traffics the eosinophils through the lymphatic system in the allergic and anti-helminth responses."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 lymphoid axis: IL-23 sustains the Th17 (IL-17 already mapped) cells generated and trafficked through the lymph nodes of the lymphatic system for the mucosal defence."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "IgE class-switch: the IgE (with IL-4 and IL-13 already mapped) is class-switched in the germinal centres of the lymph nodes (immunoglobulin already mapped) of the lymphatic system, arming the allergic response."
 ---
 
 # Lymphatic System
@@ -686,6 +695,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Sinus macrophages: the subcapsular-sinus and medullary macrophages of the lymph nodes filter the lymph and present the captured antigens, the resident phagocytes of the lymphatic system.
 - `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — NK trafficking: the natural killer cells (perforin already mapped) traffic through the lymphatic system, providing the innate cytotoxic surveillance of the circulating lymph and nodes.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Interstitial sodium and lymphoedema: the lymphatic system clears the interstitial sodium and fluid, and its dysfunction produces the sodium-rich lymphoedema, linking the lymphatics to the body's sodium and volume balance.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Eosinophil trafficking: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), expands and traffics the eosinophils through the lymphatic system in the allergic and anti-helminth responses.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 lymphoid axis: IL-23 sustains the Th17 (IL-17 already mapped) cells generated and trafficked through the lymph nodes of the lymphatic system for the mucosal defence.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — IgE class-switch: the IgE (with IL-4 and IL-13 already mapped) is class-switched in the germinal centres of the lymph nodes (immunoglobulin already mapped) of the lymphatic system, arming the allergic response.
 
 ## Pathology
 

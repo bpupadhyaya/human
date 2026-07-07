@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/type-i-interferon
     relation: connects-to
     note: "MSI-high immunogenicity: the MSI-high, MMR-deficient (already mapped) Lynch tumours activate the cGAS-STING (already mapped) pathway to produce the type-I interferon that drives the immunogenicity and the checkpoint (PD-1 already mapped) response."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Peritumoral eosinophilia: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), recruits the eosinophils of the prognostically favourable peritumoral infiltrate of the MSI-high Lynch tumours."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "IL-23/Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune infiltrate implicated in the colorectal carcinogenesis of Lynch syndrome."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell infiltrate: the mast cells and histamine are part of the dense immune microenvironment of the MSI-high (MMR-deficient already mapped) Lynch tumours."
 ---
 
 # Lynch Syndrome
@@ -719,6 +728,9 @@ MSI-H stage II CRC: adjuvant 5-FU/leucovorin does NOT improve OS (may be harmful
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Obesity-cancer adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the obesity-related modifiable colorectal-cancer risk of Lynch syndrome.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the obesity-related modifiable cancer risk of Lynch syndrome.
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — MSI-high immunogenicity: the MSI-high, MMR-deficient (already mapped) Lynch tumours activate the cGAS-STING (already mapped) pathway to produce the type-I interferon that drives the immunogenicity and the checkpoint (PD-1 already mapped) response.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Peritumoral eosinophilia: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), recruits the eosinophils of the prognostically favourable peritumoral infiltrate of the MSI-high Lynch tumours.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — IL-23/Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune infiltrate implicated in the colorectal carcinogenesis of Lynch syndrome.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell infiltrate: the mast cells and histamine are part of the dense immune microenvironment of the MSI-high (MMR-deficient already mapped) Lynch tumours.
 
 [^bonadona-2011-lynch-risks]: Bonadona V, Bonaïti B, Olschwang S, et al. Cancer risks associated with germline mutations in MLH1, MSH2, and MSH6 genes in Lynch syndrome. *JAMA.* 2011;305(22):2304-2310. [doi:10.1001/jama.2011.743](https://doi.org/10.1001/jama.2011.743) · [PubMed 21642683](https://pubmed.ncbi.nlm.nih.gov/21642683/)
 [^lynch-2015-lynch-review]: Lynch HT, Snyder CL, Shaw TG, et al. Milestones of Lynch syndrome: 1895-2015. *Nat Rev Cancer.* 2015;15(3):181-194. [doi:10.1038/nrc3878](https://doi.org/10.1038/nrc3878) · [PubMed 25673086](https://pubmed.ncbi.nlm.nih.gov/25673086/)
