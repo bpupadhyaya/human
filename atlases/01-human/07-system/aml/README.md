@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Marrow-adipocyte crosstalk: the marrow adipocytes and their adipokine adiponectin engage in metabolic crosstalk with the AML blasts, the marrow adipose tissue supporting the leukaemia's fatty-acid metabolism and survival."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Marrow-adipocyte adipokine: leptin, with adiponectin (already mapped), is part of the marrow-adipocyte adipokine crosstalk that supports the fatty-acid metabolism and survival of the AML blasts in the marrow niche."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Tumour-lysis hypocalcaemia: the hyperphosphataemia of the tumour lysis syndrome at AML induction binds calcium, causing the hypocalcaemia that accompanies the hyperkalaemia and needs monitoring."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "M2 marrow niche: IL-13, with IL-4 (already mapped), sustains the M2 marrow macrophages (already mapped) of the immunosuppressive leukaemic niche that shelters the AML blasts."
 ---
 
 # AML
@@ -678,6 +687,9 @@ AML requires cooperative mutations in at least 2 functional categories (Gillilan
 - `connects-to` → **[Myelodysplastic syndrome](../mds/README.md)** — The MDS-AML continuum: myelodysplastic syndrome transforms to secondary AML, the two sharing the clonal-haematopoiesis mutations (TET2, DNMT3A and SF3B1 already mapped) along a spectrum defined by the blast count.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage niche: IL-4 polarises the marrow macrophages toward an M2 phenotype (IL-10 already mapped), part of the immunosuppressive leukaemic marrow microenvironment that shelters the AML blasts.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Marrow-adipocyte crosstalk: the marrow adipocytes and their adipokine adiponectin engage in metabolic crosstalk with the AML blasts, the marrow adipose tissue supporting the leukaemia's fatty-acid metabolism and survival.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Marrow-adipocyte adipokine: leptin, with adiponectin (already mapped), is part of the marrow-adipocyte adipokine crosstalk that supports the fatty-acid metabolism and survival of the AML blasts in the marrow niche.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Tumour-lysis hypocalcaemia: the hyperphosphataemia of the tumour lysis syndrome at AML induction binds calcium, causing the hypocalcaemia that accompanies the hyperkalaemia and needs monitoring.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — M2 marrow niche: IL-13, with IL-4 (already mapped), sustains the M2 marrow macrophages (already mapped) of the immunosuppressive leukaemic niche that shelters the AML blasts.
 
 [^dinardo-2020-viale-a]: DiNardo CD, Jonas BA, Pullarkat V, et al. Azacitidine and venetoclax in previously untreated acute myeloid leukemia. *N Engl J Med.* 2020;383(7):617-629. [doi:10.1056/NEJMoa2012971](https://doi.org/10.1056/NEJMoa2012971) · [PubMed 32786187](https://pubmed.ncbi.nlm.nih.gov/32786187/)
 [^stone-2017-midostaurin]: Stone RM, Mandrekar SJ, Sanford BL, et al. Midostaurin plus chemotherapy for acute myeloid leukemia with a FLT3 mutation. *N Engl J Med.* 2017;377(5):454-464. [doi:10.1056/NEJMoa1614359](https://doi.org/10.1056/NEJMoa1614359) · [PubMed 28644114](https://pubmed.ncbi.nlm.nih.gov/28644114/)
