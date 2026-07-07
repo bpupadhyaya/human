@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the metabolic milieu of HLRCC."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate antitumour interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment relevant to the immunotherapy of the aggressive HLRCC papillary renal cancer."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the anti-tumour immunity of the HLRCC renal cancer."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Prognostic neutrophils: the tumour-associated neutrophils and the neutrophil-lymphocyte ratio (S100A8/9 already mapped) are prognostic in the aggressive renal cancer of HLRCC."
 ---
 
 # Hereditary Leiomyomatosis and Renal Cell Carcinoma
@@ -711,6 +720,9 @@ Cutaneous:
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Metabolic reprogramming adipokine: leptin connects to the FH-driven metabolic reprogramming (AMPK already mapped) of HLRCC, part of the adipokine dimension of its altered energy metabolism.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — AMPK-linked adipokine: adiponectin, with leptin (already mapped), activates the AMPK (already mapped) energy metabolism disturbed by the fumarate-hydratase loss of HLRCC.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the metabolic milieu of HLRCC.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate antitumour interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment relevant to the immunotherapy of the aggressive HLRCC papillary renal cancer.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the anti-tumour immunity of the HLRCC renal cancer.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Prognostic neutrophils: the tumour-associated neutrophils and the neutrophil-lymphocyte ratio (S100A8/9 already mapped) are prognostic in the aggressive renal cancer of HLRCC.
 
 [^tomlinson-2002-fh]: Tomlinson IP, Alam NA, Rowan AJ, et al. Germline mutations in FH predispose to dominantly inherited uterine fibroids, skin leiomyomata and papillary renal cell cancer. *Nat Genet.* 2002;30(4):406-410. [doi:10.1038/ng849](https://doi.org/10.1038/ng849) · [PubMed 11865300](https://pubmed.ncbi.nlm.nih.gov/11865300/)
 [^linehan-2013-fh-review]: Linehan WM, Rouault TA. Molecular pathways: fumarate hydratase-deficient kidney cancer — targeting the Warburg effect in cancer. *Clin Cancer Res.* 2013;19(13):3345-3352. [doi:10.1158/1078-0432.CCR-13-0304](https://doi.org/10.1158/1078-0432.CCR-13-0304) · [PubMed 23836472](https://pubmed.ncbi.nlm.nih.gov/23836472/)
