@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Inflammatory adipokine: resistin, with leptin (already mapped), is a pro-inflammatory adipokine elevated in systemic lupus erythematosus that correlates with disease activity and the accelerated cardiovascular risk (cholesterol already mapped)."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin and resistin (already mapped), is part of the adipokine axis of the metabolic-inflammatory milieu and the accelerated atherosclerosis (cholesterol already mapped) of systemic lupus erythematosus."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Impaired apoptotic clearance: the macrophages' impaired clearance of the apoptotic cells (the secondary necrosis exposing the nuclear autoantigens) is a source of the autoimmunity of systemic lupus erythematosus."
+  - target: 01-human/07-system/nmo
+    relation: connects-to
+    note: "Autoimmune overlap: systemic lupus erythematosus overlaps neuromyelitis optica (the shared autoimmunity, the type-I interferon already mapped signature and the anti-Ro/AQP4 association)."
 ---
 
 # Systemic Lupus Erythematosus
@@ -703,6 +712,9 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Th2 arm: IL-13, with IL-4 (already mapped), is part of the Th2 arm of the imbalanced T-helper response (IFN-γ and IL-17 already mapped) that contributes to the autoantibody production of systemic lupus erythematosus.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adipokine and autoimmunity: leptin, elevated in lupus, promotes the autoreactive Th17 and T-follicular-helper (IL-17 already mapped) responses, linking the metabolic-inflammatory state to the disease activity of systemic lupus erythematosus.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin (already mapped), is a pro-inflammatory adipokine elevated in systemic lupus erythematosus that correlates with disease activity and the accelerated cardiovascular risk (cholesterol already mapped).
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin and resistin (already mapped), is part of the adipokine axis of the metabolic-inflammatory milieu and the accelerated atherosclerosis (cholesterol already mapped) of systemic lupus erythematosus.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Impaired apoptotic clearance: the macrophages' impaired clearance of the apoptotic cells (the secondary necrosis exposing the nuclear autoantigens) is a source of the autoimmunity of systemic lupus erythematosus.
+- `connects-to` → **[NMO](../nmo/README.md)** — Autoimmune overlap: systemic lupus erythematosus overlaps neuromyelitis optica (the shared autoimmunity, the type-I interferon already mapped signature and the anti-Ro/AQP4 association).
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)
