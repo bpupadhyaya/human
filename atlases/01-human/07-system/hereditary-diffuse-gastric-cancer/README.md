@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/hepcidin
     relation: connects-to
     note: "Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin sequesters iron (already mapped) and, with the tumour bleeding, contributes to the anaemia (haemoglobin already mapped) of hereditary diffuse gastric cancer."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the metabolic influence on the gastric cancer of hereditary diffuse gastric cancer."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "HER2 ADCC: the NK cells mediate the antibody-dependent cellular cytotoxicity of the anti-HER2 (already mapped) trastuzumab against the HER2-positive diffuse gastric cancer."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate antitumour interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment of the (MSI/EBV subset) gastric cancer of HDGC."
 ---
 
 # Hereditary Diffuse Gastric Cancer
@@ -687,6 +696,9 @@ Testing for CDH1 (and CTNNA1) is indicated in any of the following:
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Metabolic adipokine: leptin is the adipokine of the metabolic-inflammatory (IL-6 already mapped) milieu contributing to the diffuse gastric cancer of hereditary diffuse gastric cancer.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine dimension: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic influence on the gastric cancer of hereditary diffuse gastric cancer.
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin sequesters iron (already mapped) and, with the tumour bleeding, contributes to the anaemia (haemoglobin already mapped) of hereditary diffuse gastric cancer.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the metabolic influence on the gastric cancer of hereditary diffuse gastric cancer.
+- `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — HER2 ADCC: the NK cells mediate the antibody-dependent cellular cytotoxicity of the anti-HER2 (already mapped) trastuzumab against the HER2-positive diffuse gastric cancer.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate antitumour interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment of the (MSI/EBV subset) gastric cancer of HDGC.
 
 [^van-der-post-2015-hdgc-guidelines]: van der Post RS, Vogelaar IP, Carneiro F, et al. Hereditary diffuse gastric cancer: updated clinical guidelines with an emphasis on germline CDH1 mutation carriers. *J Med Genet.* 2015;52(6):361-374. [doi:10.1136/jmedgenet-2015-103094](https://doi.org/10.1136/jmedgenet-2015-103094) · [PubMed 25979631](https://pubmed.ncbi.nlm.nih.gov/25979631/)
 [^hansford-2015-hdgc]: Hansford S, Kaurah P, Li-Chang H, et al. Hereditary Diffuse Gastric Cancer Syndrome: CDH1 Mutations and Beyond. *JAMA Oncol.* 2015;1(1):23-32. [doi:10.1001/jamaoncol.2014.168](https://doi.org/10.1001/jamaoncol.2014.168) · [PubMed 26182300](https://pubmed.ncbi.nlm.nih.gov/26182300/)

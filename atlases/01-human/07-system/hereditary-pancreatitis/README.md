@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic disturbance of the pancreatic insufficiency of hereditary pancreatitis."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the systemic inflammation (IL-6 already mapped) and metabolic disturbance of hereditary pancreatitis."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Immunosurveillance: the cytotoxic T cells (perforin already mapped) provide the immune surveillance of the high pancreatic-cancer risk of the chronic inflammation of hereditary pancreatitis."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate pancreatitis interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) sensing of the acinar cell-death DNA, is part of the innate-immune signalling of the recurrent inflammation of hereditary pancreatitis."
 ---
 
 # Hereditary Pancreatitis
@@ -723,6 +732,9 @@ cross_links:
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin sequesters iron (already mapped) and, with the malabsorption, produces the anaemia (haemoglobin already mapped) of chronic hereditary pancreatitis.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Malnutrition adipokine: leptin reflects the malnutrition and the pancreatogenic-diabetes (insulin already mapped) metabolic disturbance of the exocrine and endocrine insufficiency of hereditary pancreatitis.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic disturbance of the pancreatic insufficiency of hereditary pancreatitis.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the systemic inflammation (IL-6 already mapped) and metabolic disturbance of hereditary pancreatitis.
+- `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Immunosurveillance: the cytotoxic T cells (perforin already mapped) provide the immune surveillance of the high pancreatic-cancer risk of the chronic inflammation of hereditary pancreatitis.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate pancreatitis interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) sensing of the acinar cell-death DNA, is part of the innate-immune signalling of the recurrent inflammation of hereditary pancreatitis.
 
 [^whitcomb-1996-prss1]: Whitcomb DC, Gorry MC, Preston RA, et al. Hereditary pancreatitis is caused by a mutation in the cationic trypsinogen gene. *Nat Genet.* 1996;14(2):141-145. [doi:10.1038/ng1096-141](https://doi.org/10.1038/ng1096-141) · [PubMed 8841182](https://pubmed.ncbi.nlm.nih.gov/8841182/)
 [^lowenfels-2001-hp-pdac]: Lowenfels AB, Maisonneuve P, DiMagno EP, et al. Hereditary pancreatitis and the risk of pancreatic cancer. *J Natl Cancer Inst.* 2001;93(1):26-31. [doi:10.1093/jnci/93.1.26](https://doi.org/10.1093/jnci/93.1.26) · [PubMed 11136838](https://pubmed.ncbi.nlm.nih.gov/11136838/)
