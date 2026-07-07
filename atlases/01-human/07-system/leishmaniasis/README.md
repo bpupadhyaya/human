@@ -415,6 +415,15 @@ cross_links:
   - target: 03-medicine/03-food/vitamin-d
     relation: connects-to
     note: "Vitamin D and antimicrobial defence: vitamin D modulates the macrophage antimicrobial response and the Th1/Th2 balance (IL-4 already mapped), and its status influences the immunity that determines the outcome of Leishmania infection."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Copper nutritional immunity: the macrophage (already mapped) floods its phagosome with toxic copper to kill the intracellular Leishmania, part of the metal-poisoning host defence (zinc and selenium already mapped) against the parasite."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Antigen presentation and Th1 priming: dendritic cells take up Leishmania and present its antigen to prime the protective Th1 response (IL-12 and IFN-γ already mapped), a key early step in controlling the infection."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Early innate IFN-γ: natural killer cells provide an early source of IFN-γ (already mapped) in the innate response to Leishmania, helping activate the macrophages (already mapped) before the adaptive Th1 response matures."
 ---
 
 # Leishmaniasis
@@ -649,3 +658,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Malnutrition and susceptibility: undernutrition lowers leptin and impairs the Th1 immunity (IL-12 already mapped) that contains Leishmania, so malnourished children are far more likely to progress to visceral leishmaniasis, a link between nutrition and outcome.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Micronutrient immunity: selenium and its antioxidant selenoproteins support the macrophage (already mapped) killing and Th1 response against Leishmania (zinc already mapped), so micronutrient deficiency compounds susceptibility to the infection.
 - `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D and antimicrobial defence: vitamin D modulates the macrophage antimicrobial response and the Th1/Th2 balance (IL-4 already mapped), and its status influences the immunity that determines the outcome of Leishmania infection.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper nutritional immunity: the macrophage (already mapped) floods its phagosome with toxic copper to kill the intracellular Leishmania, part of the metal-poisoning host defence (zinc and selenium already mapped) against the parasite.
+- `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Antigen presentation and Th1 priming: dendritic cells take up Leishmania and present its antigen to prime the protective Th1 response (IL-12 and IFN-γ already mapped), a key early step in controlling the infection.
+- `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Early innate IFN-γ: natural killer cells provide an early source of IFN-γ (already mapped) in the innate response to Leishmania, helping activate the macrophages (already mapped) before the adaptive Th1 response matures.

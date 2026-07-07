@@ -402,6 +402,15 @@ cross_links:
   - target: 01-human/03-molecular/glp-1
     relation: connects-to
     note: "Appetite-reward crosstalk: GLP-1 signalling links the metabolic state to the appetite and reward pathways (ghrelin, leptin and NPY already mapped) relevant to the sedentary behaviour and disordered eating that accompany internet gaming disorder."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Anxiety comorbidity: generalized anxiety disorder frequently co-occurs with internet gaming disorder (cortisol and CRH already mapped), the gaming sometimes serving as avoidance that reinforces both conditions."
+  - target: 01-human/07-system/social-anxiety-disorder
+    relation: connects-to
+    note: "Social avoidance: social anxiety disorder drives the online world as a refuge from face-to-face interaction, and this avoidance can entrench the compulsive gaming of internet gaming disorder."
+  - target: 01-human/07-system/stimulant-use-disorder
+    relation: connects-to
+    note: "Shared reward addiction: internet gaming disorder shares the mesolimbic dopamine (already mapped) reward biology of the substance addictions such as stimulant use disorder, the behavioural and drug addictions converging on the same circuitry."
 sources:
   - id: kuss-2012-gaming-disorder-review
     type: peer-reviewed
@@ -704,6 +713,9 @@ A pattern of persistent or recurrent gaming behavior characterized by:
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Neuroinflammatory eicosanoids: prostaglandins from the low-grade neuroinflammation (IL-6, TNF and IL-1 already mapped) associated with behavioural addictions modulate the reward and stress circuits implicated in compulsive internet gaming.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative stress: the sleep deprivation and sedentary strain of compulsive gaming raise oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species add to the neuroinflammation (NLRP3 already mapped).
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Appetite-reward crosstalk: GLP-1 signalling links the metabolic state to the appetite and reward pathways (ghrelin, leptin and NPY already mapped) relevant to the sedentary behaviour and disordered eating that accompany internet gaming disorder.
+- `connects-to` → **[Generalized anxiety disorder](../generalized-anxiety-disorder/README.md)** — Anxiety comorbidity: generalized anxiety disorder frequently co-occurs with internet gaming disorder (cortisol and CRH already mapped), the gaming sometimes serving as avoidance that reinforces both conditions.
+- `connects-to` → **[Social anxiety disorder](../social-anxiety-disorder/README.md)** — Social avoidance: social anxiety disorder drives the online world as a refuge from face-to-face interaction, and this avoidance can entrench the compulsive gaming of internet gaming disorder.
+- `connects-to` → **[Stimulant use disorder](../stimulant-use-disorder/README.md)** — Shared reward addiction: internet gaming disorder shares the mesolimbic dopamine (already mapped) reward biology of the substance addictions such as stimulant use disorder, the behavioural and drug addictions converging on the same circuitry.
 
 [^kuss-2012-gaming-disorder-review]: Kuss DJ, Griffiths MD. Internet gaming addiction: a systematic review of empirical research. *Int J Ment Health Addict.* 2012;10(2):278-296. [doi:10.1007/s11469-011-9318-5](https://doi.org/10.1007/s11469-011-9318-5)
 [^who-icd11-gaming-disorder]: World Health Organization. ICD-11: Gaming Disorder (6C51). Geneva: WHO; 2019. [icd.who.int](https://icd.who.int/browse/2025-01/mms/en#1448597234)
