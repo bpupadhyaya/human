@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the metabolic microenvironment of peripheral T-cell lymphoma."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate antitumour interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment relevant to the immunotherapy of peripheral T-cell lymphoma."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune microenvironment of peripheral T-cell lymphoma."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 axis: IL-23 sustains the Th17 arm of the inflammatory microenvironment of peripheral T-cell lymphoma."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -724,6 +733,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Metabolic microenvironment: leptin from the marrow and stromal adipose tissue signals within the metabolic microenvironment of peripheral T-cell lymphoma.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine microenvironment: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic microenvironment of peripheral T-cell lymphoma.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the metabolic microenvironment of peripheral T-cell lymphoma.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate antitumour interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment relevant to the immunotherapy of peripheral T-cell lymphoma.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune microenvironment of peripheral T-cell lymphoma.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 arm of the inflammatory microenvironment of peripheral T-cell lymphoma.
 
 ---
 

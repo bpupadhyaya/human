@@ -445,6 +445,15 @@ cross_links:
   - target: 01-human/04-cellular/t-helper-cell
     relation: connects-to
     note: "Autoimmune vascular inflammation: the CD4 T cells and the Th17/regulatory dysregulation are implicated in the pulmonary-vascular inflammation of PAH, especially the connective-tissue-disease (systemic sclerosis already mapped) associated form."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "Th17 vascular inflammation: the IL-17 of the Th17 cells (T-helper cell already mapped) drives the perivascular inflammation and the remodelling of the pulmonary arteries in PAH."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 vascular inflammation: the IFN-γ of the T cells is the type-II interferon arm (with the type-I interferon already mapped) of the immune-mediated pulmonary-vascular inflammation of PAH."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the pulmonary-vascular inflammation of PAH."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -710,6 +719,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — In-situ thrombosis: the in-situ thrombosis of the small pulmonary arteries (von Willebrand factor and protein C already mapped) contributes to the vascular occlusion of pulmonary arterial hypertension, the historical rationale for anticoagulation.
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Interferon-associated PAH: type-I interferon, both the therapy-induced and the connective-tissue-disease (systemic sclerosis already mapped) associated, is linked to the pulmonary vascular remodelling of pulmonary arterial hypertension.
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — Autoimmune vascular inflammation: the CD4 T cells and the Th17/regulatory dysregulation are implicated in the pulmonary-vascular inflammation of PAH, especially the connective-tissue-disease (systemic sclerosis already mapped) associated form.
+- `connects-to` → **[IL-17a](../../03-molecular/il-17a/README.md)** — Th17 vascular inflammation: the IL-17 of the Th17 cells (T-helper cell already mapped) drives the perivascular inflammation and the remodelling of the pulmonary arteries in PAH.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 vascular inflammation: the IFN-γ of the T cells is the type-II interferon arm (with the type-I interferon already mapped) of the immune-mediated pulmonary-vascular inflammation of PAH.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the pulmonary-vascular inflammation of PAH.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
