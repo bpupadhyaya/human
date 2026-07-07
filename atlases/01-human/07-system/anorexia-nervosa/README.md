@@ -427,6 +427,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "Water balance: impaired vasopressin regulation in anorexia causes partial diabetes insipidus or, with water-loading to falsify weight, hyponatraemia, part of the fluid and electrolyte disturbances (aldosterone already mapped) of the disorder."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipokine dysregulation: resistin, with the low leptin and adiponectin (already mapped), reflects the profound disturbance of the adipose-derived hormones in the near-absent fat mass of anorexia nervosa."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immune balance: the anti-inflammatory IL-10 counters the altered pro-inflammatory cytokines (IL-6, TNF and IL-1 already mapped) of the starvation state, part of the immune dysregulation of anorexia nervosa."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Histaminergic appetite: histamine acting on hypothalamic H1 receptors suppresses appetite, and the H1-blocking antipsychotics used off-label in anorexia promote the weight gain that reflects this appetite pathway."
 ---
 
 # Anorexia Nervosa
@@ -704,6 +713,9 @@ In healthy individuals, food cues activate the mesolimbic reward circuit (VTA �
 - `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Purging alkalosis: self-induced vomiting loses gastric acid, producing a hypochloraemic metabolic alkalosis with a falling proton concentration, while laxative abuse can instead cause acidosis, the acid-base swings that complicate the purging subtype of anorexia.
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Paradoxical hypercholesterolaemia: cholesterol is often paradoxically elevated in anorexia despite starvation, from reduced clearance, altered bile-acid turnover and the low thyroid state (thyroid hormones already mapped), an unexpected lipid finding of the disorder.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Water balance: impaired vasopressin regulation in anorexia causes partial diabetes insipidus or, with water-loading to falsify weight, hyponatraemia, part of the fluid and electrolyte disturbances (aldosterone already mapped) of the disorder.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine dysregulation: resistin, with the low leptin and adiponectin (already mapped), reflects the profound disturbance of the adipose-derived hormones in the near-absent fat mass of anorexia nervosa.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immune balance: the anti-inflammatory IL-10 counters the altered pro-inflammatory cytokines (IL-6, TNF and IL-1 already mapped) of the starvation state, part of the immune dysregulation of anorexia nervosa.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histaminergic appetite: histamine acting on hypothalamic H1 receptors suppresses appetite, and the H1-blocking antipsychotics used off-label in anorexia promote the weight gain that reflects this appetite pathway.
 
 [^treasure-2010-an-lancet]: Treasure J, Claudino AM, Zucker N. Eating disorders. *Lancet.* 2010;375(9714):583-593. [doi:10.1016/S0140-6736(09)61748-7](https://doi.org/10.1016/S0140-6736(09)61748-7) · [PubMed 19931176](https://pubmed.ncbi.nlm.nih.gov/19931176/)
 [^lock-2010-fbt-an]: Lock J, Le Grange D, Agras WS, et al. Randomized clinical trial comparing family-based treatment with adolescent-focused individual therapy for adolescents with anorexia nervosa. *Arch Gen Psychiatry.* 2010;67(10):1025-1032. [doi:10.1001/archgenpsychiatry.2010.128](https://doi.org/10.1001/archgenpsychiatry.2010.128) · [PubMed 20921118](https://pubmed.ncbi.nlm.nih.gov/20921118/)

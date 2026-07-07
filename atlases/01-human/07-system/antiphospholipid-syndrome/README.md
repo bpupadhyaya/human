@@ -418,6 +418,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative antigenicity: oxidative stress, to which xanthine oxidase contributes, generates the oxidised beta-2-glycoprotein-1 (already mapped) that is the key target of the pathogenic antibodies, linking oxidation to the antigenicity of antiphospholipid syndrome."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "B-cell autoantibody help: IL-4 and the Th2 response support the B cells (BAFF and CD20 already mapped) that produce the anti-β2-glycoprotein-1 and anticardiolipin antibodies driving antiphospholipid syndrome."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 humoral arm: IL-13, with IL-4 (already mapped), completes the type-2 cytokine support for the autoantibody-producing B cells of antiphospholipid syndrome, the humoral autoimmunity behind the pathogenic antibodies."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Platelet zinc and coagulation: zinc released from the activated platelets (already mapped) promotes the contact pathway and fibrin formation (fibrinogen and thrombin already mapped), adding to the prothrombotic state of antiphospholipid syndrome."
 ---
 
 # Antiphospholipid Syndrome
@@ -697,6 +706,9 @@ In APS, anti-B2GPI IgG bound to B2GPI on phospholipid surfaces converts this ant
 - `connects-to` → **[ADAMTS13](../../03-molecular/adamts13/README.md)** — Microangiopathy differential: the thrombotic microangiopathy of catastrophic antiphospholipid syndrome occurs with normal ADAMTS13 (von Willebrand factor already mapped), distinguishing its antibody-driven mechanism from thrombotic thrombocytopenic purpura.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Thromboxane-prostacyclin balance: antiphospholipid antibodies shift the endothelial and platelet (already mapped) prostaglandin balance toward the prothrombotic thromboxane, part of why low-dose aspirin is used in antiphospholipid syndrome.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative antigenicity: oxidative stress, to which xanthine oxidase contributes, generates the oxidised beta-2-glycoprotein-1 (already mapped) that is the key target of the pathogenic antibodies, linking oxidation to the antigenicity of antiphospholipid syndrome.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — B-cell autoantibody help: IL-4 and the Th2 response support the B cells (BAFF and CD20 already mapped) that produce the anti-β2-glycoprotein-1 and anticardiolipin antibodies driving antiphospholipid syndrome.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 humoral arm: IL-13, with IL-4 (already mapped), completes the type-2 cytokine support for the autoantibody-producing B cells of antiphospholipid syndrome, the humoral autoimmunity behind the pathogenic antibodies.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Platelet zinc and coagulation: zinc released from the activated platelets (already mapped) promotes the contact pathway and fibrin formation (fibrinogen and thrombin already mapped), adding to the prothrombotic state of antiphospholipid syndrome.
 
 [^miyakis-2006-sydney-aps]: Miyakis S, Lockshin MD, Atsumi T, et al. International consensus statement on an update of the classification criteria for definite antiphospholipid syndrome (APS). *J Thromb Haemost.* 2006;4(2):295-306. [doi:10.1111/j.1538-7836.2006.01753.x](https://doi.org/10.1111/j.1538-7836.2006.01753.x) · [PubMed 16420554](https://pubmed.ncbi.nlm.nih.gov/16420554/)
 [^barbhaiya-2023-acreular-aps]: Barbhaiya M, Zuily S, Naden R, et al. The 2023 ACR/EULAR antiphospholipid syndrome classification criteria. *Ann Rheum Dis.* 2023;82(10):1258-1270. [doi:10.1136/ard-2023-224609](https://doi.org/10.1136/ard-2023-224609) · [PubMed 37643823](https://pubmed.ncbi.nlm.nih.gov/37643823/)
