@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Transfusional iron overload: the transfusion-dependent anaemia (haemoglobin and erythropoietin already mapped) of CMML loads the body with iron over time, an overload burden that can require chelation."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Marrow-adipocyte adipokine: leptin from the marrow adipose tissue of the bone-marrow (already mapped) microenvironment signals to the CMML clone, part of its metabolic niche crosstalk."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Adipokine microenvironment: adiponectin, with leptin (already mapped), from the marrow adipose tissue signals to the CMML cells of the bone-marrow (already mapped) microenvironment."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "M2 inflammatory arm: IL-13, with IL-4 (already mapped), drives the M2 macrophage (already mapped) arm of the inflammatory (TNF and IL-1 already mapped) microenvironment of the monocytic proliferation of CMML."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -693,6 +702,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Monocyte-macrophage polarisation: IL-4 polarises the clonal monocytes and macrophages (already mapped) toward an M2 phenotype (IL-10 already mapped), shaping the inflammatory and immunosuppressive milieu of CMML.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Dysgranulopoiesis: alongside the defining monocytosis, the dysplastic neutrophils (S100A8/9 already mapped) of the marrow dysplasia reflect the myeloid lineage involvement of the MDS/MPN overlap in CMML.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Transfusional iron overload: the transfusion-dependent anaemia (haemoglobin and erythropoietin already mapped) of CMML loads the body with iron over time, an overload burden that can require chelation.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Marrow-adipocyte adipokine: leptin from the marrow adipose tissue of the bone-marrow (already mapped) microenvironment signals to the CMML clone, part of its metabolic niche crosstalk.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine microenvironment: adiponectin, with leptin (already mapped), from the marrow adipose tissue signals to the CMML cells of the bone-marrow (already mapped) microenvironment.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — M2 inflammatory arm: IL-13, with IL-4 (already mapped), drives the M2 macrophage (already mapped) arm of the inflammatory (TNF and IL-1 already mapped) microenvironment of the monocytic proliferation of CMML.
 
 ---
 

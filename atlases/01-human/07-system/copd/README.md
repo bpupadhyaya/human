@@ -436,6 +436,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Iron dysregulation: the hypoxia (HIF-1-alpha already mapped) and chronic inflammation of COPD disturb iron handling, producing either the anaemia of chronic disease or, with hypoxaemia, the secondary polycythaemia (erythropoietin already mapped)."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Elastin cross-linking: copper is the cofactor of lysyl oxidase that cross-links the elastin and collagen (already mapped) of the lung; the copper-dependent elastin repair is overwhelmed by the protease-antiprotease imbalance of the emphysema of COPD."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Cachexia adipokine: adiponectin, with leptin (already mapped), is disturbed in the cachexia and systemic inflammation (TNF and IL-6 already mapped) of advanced COPD, contributing to the muscle wasting."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Systemic inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory milieu to the systemic inflammation (IL-6 already mapped) of COPD."
 ---
 
 # COPD
@@ -718,6 +727,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Type-2 eosinophilic arm: IL-4, with IL-13 and IL-5 (already mapped), drives the type-2 eosinophilic inflammation of the COPD subset whose blood eosinophils guide the inhaled-corticosteroid (glucocorticoid receptor already mapped) response.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Cachexia and adipokines: the systemic inflammation (TNF and IL-6 already mapped) of COPD disturbs leptin and the adipokine balance, contributing to the muscle wasting and cachexia that worsen the prognosis of advanced disease.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron dysregulation: the hypoxia (HIF-1-alpha already mapped) and chronic inflammation of COPD disturb iron handling, producing either the anaemia of chronic disease or, with hypoxaemia, the secondary polycythaemia (erythropoietin already mapped).
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Elastin cross-linking: copper is the cofactor of lysyl oxidase that cross-links the elastin and collagen (already mapped) of the lung; the copper-dependent elastin repair is overwhelmed by the protease-antiprotease imbalance of the emphysema of COPD.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Cachexia adipokine: adiponectin, with leptin (already mapped), is disturbed in the cachexia and systemic inflammation (TNF and IL-6 already mapped) of advanced COPD, contributing to the muscle wasting.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Systemic inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory milieu to the systemic inflammation (IL-6 already mapped) of COPD.
 
 ---
 
