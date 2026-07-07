@@ -445,6 +445,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Inflammatory adipokine: resistin rises with sleep deprivation, part of the metabolic-inflammatory (IL-6 already mapped) consequences of the chronic sleep loss of insomnia."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "Adenosine sleep pressure: the astrocytes release and regulate the adenosine (already mapped), the sleep-pressure signal accumulating during the wakefulness that is dysregulated in insomnia."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Anxiety comorbidity: generalized anxiety disorder and insomnia are highly comorbid, sharing the hyperarousal and the HPA (cortisol already mapped) dysregulation."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Metabolic consequence: the chronic sleep loss of insomnia raises the type 2 diabetes and metabolic-syndrome risk (the insulin, leptin and adiponectin already mapped dysregulation)."
 ---
 
 # Insomnia Disorder
@@ -724,6 +733,9 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper and monoamines: copper is the cofactor of dopamine-β-hydroxylase, which makes noradrenaline from dopamine (both already mapped), and disturbed copper handling affects the monoaminergic arousal system of the sleep-wake balance in insomnia.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic consequence: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic (insulin already mapped) consequences of the chronic sleep loss of insomnia.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin rises with sleep deprivation, part of the metabolic-inflammatory (IL-6 already mapped) consequences of the chronic sleep loss of insomnia.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Adenosine sleep pressure: the astrocytes release and regulate the adenosine (already mapped), the sleep-pressure signal accumulating during the wakefulness that is dysregulated in insomnia.
+- `connects-to` → **[Generalized anxiety disorder](../generalized-anxiety-disorder/README.md)** — Anxiety comorbidity: generalized anxiety disorder and insomnia are highly comorbid, sharing the hyperarousal and the HPA (cortisol already mapped) dysregulation.
+- `connects-to` → **[Type 2 diabetes](../type-2-diabetes/README.md)** — Metabolic consequence: the chronic sleep loss of insomnia raises the type 2 diabetes and metabolic-syndrome risk (the insulin, leptin and adiponectin already mapped dysregulation).
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)
