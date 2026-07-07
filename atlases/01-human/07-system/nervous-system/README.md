@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/03-molecular/ghrelin
     relation: connects-to
     note: "Gut-brain appetite hormone: ghrelin acts on the hypothalamic appetite circuits and the reward pathways of the nervous system, linking the gut hormone to the central control of feeding."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 neuroimmune: IL-13, with IL-4 (already mapped), is part of the type-2 neuroimmune signalling at the interface of the immune system and the nervous system."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "CNS interferon: the type-I interferon defends the nervous system against the neurotropic viruses, and its dysregulation causes the interferonopathies affecting the brain."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Neuroinflammatory Th1: the IFN-γ of the infiltrating T cells drives the Th1 neuroinflammation (TNF and IL-1 already mapped) implicated in the neurological disease of the nervous system."
 ---
 
 # Nervous System
@@ -627,6 +636,9 @@ Distributed cortical networks underlie language (Broca's area, Wernicke's area, 
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Inhibitory signalling: the chloride influx through the GABA-A (GABA already mapped) and glycine receptors hyperpolarises the neurons, the fundamental inhibitory signal of the nervous system.
 - `connects-to` → **[NPY](../../03-molecular/npy/README.md)** — Neuropeptide Y: NPY is an abundant CNS neuropeptide regulating the appetite (leptin already mapped), anxiety and autonomic function of the nervous system.
 - `connects-to` → **[Ghrelin](../../03-molecular/ghrelin/README.md)** — Gut-brain appetite hormone: ghrelin acts on the hypothalamic appetite circuits and the reward pathways of the nervous system, linking the gut hormone to the central control of feeding.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 neuroimmune: IL-13, with IL-4 (already mapped), is part of the type-2 neuroimmune signalling at the interface of the immune system and the nervous system.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — CNS interferon: the type-I interferon defends the nervous system against the neurotropic viruses, and its dysregulation causes the interferonopathies affecting the brain.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Neuroinflammatory Th1: the IFN-γ of the infiltrating T cells drives the Th1 neuroinflammation (TNF and IL-1 already mapped) implicated in the neurological disease of the nervous system.
 
 ## Pathology
 
