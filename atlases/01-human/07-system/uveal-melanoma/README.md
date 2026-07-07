@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Anaemia of advanced disease: the hepatic metastatic burden (liver already mapped) and the systemic therapy of advanced uveal melanoma cause anaemia (haemoglobin already mapped) that can require transfusion, whose repeated support can load the body with iron."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage (already mapped) and type-2 milieu of the immune-privileged (TGF-β already mapped) microenvironment of uveal melanoma."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Melanocyte metals: zinc supports the enzymes of melanogenesis and the melanocyte function, part of the trace-metal biology (copper already mapped) of the uveal melanocytes from which uveal melanoma arises."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin sequesters iron (already mapped) to add an anaemia of chronic disease to the metastatic-burden anaemia (haemoglobin already mapped) of advanced uveal melanoma."
 ---
 
 # Uveal Melanoma
@@ -692,6 +701,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), and a high macrophage infiltrate is an adverse prognostic feature of uveal melanoma.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Ocular immune privilege: TGF-β in the eye's immune-privileged microenvironment (SMAD4 already mapped) suppresses the anti-tumour response, helping uveal melanoma evade immunity, part of why checkpoint blockade works poorly against it.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Anaemia of advanced disease: the hepatic metastatic burden (liver already mapped) and the systemic therapy of advanced uveal melanoma cause anaemia (haemoglobin already mapped) that can require transfusion, whose repeated support can load the body with iron.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage (already mapped) and type-2 milieu of the immune-privileged (TGF-β already mapped) microenvironment of uveal melanoma.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Melanocyte metals: zinc supports the enzymes of melanogenesis and the melanocyte function, part of the trace-metal biology (copper already mapped) of the uveal melanocytes from which uveal melanoma arises.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin sequesters iron (already mapped) to add an anaemia of chronic disease to the metastatic-burden anaemia (haemoglobin already mapped) of advanced uveal melanoma.
 
 ---
 

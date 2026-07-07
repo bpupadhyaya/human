@@ -427,6 +427,15 @@ cross_links:
   - target: 01-human/03-molecular/serotonin
     relation: connects-to
     note: "Peripheral metabolic serotonin: gut-derived peripheral serotonin regulates pancreatic β-cell mass and adipose and hepatic metabolism, part of the neuroendocrine control of the energy balance disturbed in type 2 diabetes."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Adipose M2 maintenance: IL-13, with IL-4 (already mapped), sustains the anti-inflammatory M2 macrophages of healthy adipose tissue, and the loss of this type-2 signalling drives the inflammation and insulin resistance of type 2 diabetes."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Insulin secretion trigger: the calcium influx into the β-cell triggers the exocytosis of the insulin (already mapped) granules, the calcium signalling of the glucose-stimulated insulin secretion that fails in type 2 diabetes."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "KATP channel: the ATP-sensitive potassium channel of the β-cell closes on glucose rise to depolarise the cell and trigger insulin (already mapped) release, the target of the sulfonylureas used in type 2 diabetes."
 ---
 
 # Type 2 Diabetes
@@ -666,6 +675,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — SGLT2 and cardiorenal benefit: the SGLT2 inhibitors (SGLT2 already mapped) block renal sodium-glucose cotransport, and the resulting natriuresis and tubuloglomerular feedback underlie the cardiovascular and renal protection they confer in type 2 diabetes.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Adipose M2 macrophages: IL-4 sustains the anti-inflammatory M2 macrophages of healthy adipose tissue (IL-10 already mapped), and the shift away from this state toward pro-inflammatory macrophages (TNF already mapped) drives the insulin resistance of type 2 diabetes.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Peripheral metabolic serotonin: gut-derived peripheral serotonin regulates pancreatic β-cell mass and adipose and hepatic metabolism, part of the neuroendocrine control of the energy balance disturbed in type 2 diabetes.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Adipose M2 maintenance: IL-13, with IL-4 (already mapped), sustains the anti-inflammatory M2 macrophages of healthy adipose tissue, and the loss of this type-2 signalling drives the inflammation and insulin resistance of type 2 diabetes.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Insulin secretion trigger: the calcium influx into the β-cell triggers the exocytosis of the insulin (already mapped) granules, the calcium signalling of the glucose-stimulated insulin secretion that fails in type 2 diabetes.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — KATP channel: the ATP-sensitive potassium channel of the β-cell closes on glucose rise to depolarise the cell and trigger insulin (already mapped) release, the target of the sulfonylureas used in type 2 diabetes.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
