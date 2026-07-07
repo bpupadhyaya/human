@@ -433,6 +433,15 @@ cross_links:
   - target: 01-human/06-organ/adrenal-gland
     relation: connects-to
     note: "The adrenal-renal axis: the adrenal gland's aldosterone (already mapped) acts on the distal nephron to reabsorb sodium and excrete potassium (already mapped), closing the renin-angiotensin-aldosterone loop that the kidney initiates."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Type-2 repair and fibrosis: IL-4 drives the M2 macrophages (already mapped) and the type-2 immunity involved in the renal repair and, when dysregulated, the interstitial fibrosis (TGF-β already mapped) of chronic kidney disease."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Profibrotic type-2 cytokine: IL-13, with IL-4 (already mapped), is a profibrotic type-2 cytokine that contributes to the renal interstitial fibrosis (TGF-β already mapped) driving the progression of chronic kidney disease."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Renal adipokine clearance: leptin is cleared by the renal system and accumulates in renal failure, contributing to the cachexia, sympathetic activation and cardiovascular risk of chronic kidney disease."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -666,6 +675,9 @@ Natriuretic counterpoint:
 - **Connects to:** [Chloride](../../02-atomic/chloride/README.md) — chloride transport: chloride is co-transported with sodium (already mapped) by the NKCC2 and NCC transporters that loop and thiazide diuretics block, and its handling underlies the kidney's control of volume and acid-base balance.
 - **Connects to:** [Magnesium](../../02-atomic/magnesium/README.md) — magnesium handling: the kidney is the principal regulator of magnesium, reabsorbing it in the loop and distal tubule, and renal wasting (as with loop diuretics or Gitelman syndrome) causes the hypomagnesaemia of renal disease.
 - **Connects to:** [Adrenal gland](../adrenal-gland/README.md) — the adrenal-renal axis: the adrenal gland's aldosterone (already mapped) acts on the distal nephron to reabsorb sodium and excrete potassium (already mapped), closing the renin-angiotensin-aldosterone loop that the kidney initiates.
+- **Connects to:** [IL-4](../../03-molecular/il-4/README.md) — type-2 repair and fibrosis: IL-4 drives the M2 macrophages (already mapped) and the type-2 immunity involved in the renal repair and, when dysregulated, the interstitial fibrosis (TGF-β already mapped) of chronic kidney disease.
+- **Connects to:** [IL-13](../../03-molecular/il-13/README.md) — profibrotic type-2 cytokine: IL-13, with IL-4 (already mapped), is a profibrotic type-2 cytokine that contributes to the renal interstitial fibrosis (TGF-β already mapped) driving the progression of chronic kidney disease.
+- **Connects to:** [Leptin](../../03-molecular/leptin/README.md) — renal adipokine clearance: leptin is cleared by the renal system and accumulates in renal failure, contributing to the cachexia, sympathetic activation and cardiovascular risk of chronic kidney disease.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 

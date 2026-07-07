@@ -426,6 +426,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Th2-skewing dendritic cells: the airway dendritic cells present RSV antigen and shape the type-2-skewed (IL-4, IL-5 and IL-13 already mapped) immune response that contributes to the wheeze and the immunopathology of infection."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Zinc and antiviral immunity: zinc is an antiviral and immune-modulating trace metal, and its deficiency, common in undernourished infants, worsens the severity of the respiratory viral infections including RSV."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Airway oedema: VEGF drives the vascular permeability and airway oedema that, with the epithelial debris (surfactant already mapped), plug the small bronchioles in RSV bronchiolitis."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Bronchiolitic hypoxaemia: the small-airway plugging and ventilation-perfusion mismatch of RSV bronchiolitis cause the hypoxaemia whose correction with supplemental oxygen is the mainstay of the supportive care of infants."
 ---
 
 # RSV
@@ -706,3 +715,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Hypoxaemia of bronchiolitis: the small-airway obstruction and mucus plugging of RSV bronchiolitis impair gas exchange, causing the hypoxaemia that drives the supplemental oxygen and high-flow support that are the main reason for hospital admission.
 - `connects-to` → **[COPD](../copd/README.md)** — Exacerbations and adult burden: RSV causes exacerbations of COPD and severe respiratory illness in older adults, the burden that the new RSVpreF vaccines targeting the F protein (already mapped) aim to prevent.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Th2-skewing dendritic cells: the airway dendritic cells present RSV antigen and shape the type-2-skewed (IL-4, IL-5 and IL-13 already mapped) immune response that contributes to the wheeze and the immunopathology of infection.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and antiviral immunity: zinc is an antiviral and immune-modulating trace metal, and its deficiency, common in undernourished infants, worsens the severity of the respiratory viral infections including RSV.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Airway oedema: VEGF drives the vascular permeability and airway oedema that, with the epithelial debris (surfactant already mapped), plug the small bronchioles in RSV bronchiolitis.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Bronchiolitic hypoxaemia: the small-airway plugging and ventilation-perfusion mismatch of RSV bronchiolitis cause the hypoxaemia whose correction with supplemental oxygen is the mainstay of the supportive care of infants.
