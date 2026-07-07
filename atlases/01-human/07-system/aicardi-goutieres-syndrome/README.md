@@ -420,6 +420,15 @@ cross_links:
   - target: 01-human/03-molecular/il-4
     relation: connects-to
     note: "Type-1/type-2 balance: IL-4 and the type-2 response counter the dominant type-1 interferon and Th1 (IL-12 already mapped) signature of Aicardi-Goutières, and the imbalance toward type-1 immunity shapes the severity of the interferonopathy."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 cytokine arm: IL-13, with IL-4 (already mapped), forms the type-2 response that counters the dominant type-I interferon signature of Aicardi-Goutières, the balance between the two shaping the severity of the interferonopathy."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Magnesium and excitotoxicity: magnesium blocks the NMDA receptor and buffers the glutamate (already mapped) excitotoxicity that injures the neurons (already mapped) of the Aicardi-Goutières encephalopathy, a neuroprotective ion."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Zinc and nucleic-acid metabolism: zinc is a cofactor of many nucleases and antiviral proteins, and its role in the nucleic-acid sensing (cGAS-STING already mapped) and metabolism disrupted in Aicardi-Goutières links it to the interferonopathy."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -648,6 +657,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Neuroinflammatory eicosanoids: prostaglandins from the interferon-activated microglia (already mapped) and infiltrating cells contribute to the neuroinflammation (IL-6, TNF and IL-1 already mapped) of the Aicardi-Goutières encephalopathy.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Basal-ganglia mineralisation: iron, alongside the calcium (already mapped), deposits in the basal ganglia and white matter of Aicardi-Goutières, part of the mineralising vascular and tissue injury of the chronic interferonopathy.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Type-1/type-2 balance: IL-4 and the type-2 response counter the dominant type-1 interferon and Th1 (IL-12 already mapped) signature of Aicardi-Goutières, and the imbalance toward type-1 immunity shapes the severity of the interferonopathy.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 cytokine arm: IL-13, with IL-4 (already mapped), forms the type-2 response that counters the dominant type-I interferon signature of Aicardi-Goutières, the balance between the two shaping the severity of the interferonopathy.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium and excitotoxicity: magnesium blocks the NMDA receptor and buffers the glutamate (already mapped) excitotoxicity that injures the neurons (already mapped) of the Aicardi-Goutières encephalopathy, a neuroprotective ion.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and nucleic-acid metabolism: zinc is a cofactor of many nucleases and antiviral proteins, and its role in the nucleic-acid sensing (cGAS-STING already mapped) and metabolism disrupted in Aicardi-Goutières links it to the interferonopathy.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
