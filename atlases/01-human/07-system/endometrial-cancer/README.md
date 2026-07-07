@@ -418,6 +418,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative and lysis stress: the chemotherapy of advanced endometrial cancer generates oxidative stress and cell lysis releasing purines that xanthine oxidase converts to uric acid, adding an oxidative and tumour-lysis burden to treatment."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune microenvironment of the mismatch-repair-proficient endometrial cancers."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Bleeding and anaemia: the abnormal uterine bleeding that presents most endometrial cancer causes iron-deficiency anaemia (haemoglobin already mapped), and the chemotherapy of advanced disease adds a transfusional iron burden."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Pulmonary metastases: the lungs are a common site of metastasis of advanced and serous (p53 already mapped) endometrial cancer, the haematogenous spread driving the prognosis of high-risk disease."
 ---
 
 # Endometrial Cancer
@@ -676,6 +685,9 @@ cross_links:
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Inflammation-estrogen link: cyclooxygenase-2-derived prostaglandin E2 in the endometrial tumour and adipose stroma induces aromatase and local estrogen (already mapped) synthesis, linking the obesity-associated inflammation to the hormone drive of endometrial cancer.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the tumour microenvironment dampens the anti-tumour T-cell response (PD-1 and CD8 already mapped), the immune evasion that is more readily overcome in the mismatch-repair-deficient (MLH1 already mapped) tumours.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative and lysis stress: the chemotherapy of advanced endometrial cancer generates oxidative stress and cell lysis releasing purines that xanthine oxidase converts to uric acid, adding an oxidative and tumour-lysis burden to treatment.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune microenvironment of the mismatch-repair-proficient endometrial cancers.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Bleeding and anaemia: the abnormal uterine bleeding that presents most endometrial cancer causes iron-deficiency anaemia (haemoglobin already mapped), and the chemotherapy of advanced disease adds a transfusional iron burden.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Pulmonary metastases: the lungs are a common site of metastasis of advanced and serous (p53 already mapped) endometrial cancer, the haematogenous spread driving the prognosis of high-risk disease.
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)

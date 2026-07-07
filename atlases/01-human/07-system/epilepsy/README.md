@@ -427,6 +427,15 @@ cross_links:
   - target: 01-human/03-molecular/dopamine
     relation: connects-to
     note: "Dopaminergic threshold: dopamine modulates the seizure threshold, with D1 receptors tending to be proconvulsant and D2 anticonvulsant (serotonin and norepinephrine already mapped), part of the neuromodulatory control of seizure susceptibility."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Neuroinflammatory balance: the anti-inflammatory IL-4 counters the pro-inflammatory cytokines (IL-1, TNF and IL-6 already mapped) of the neuroinflammation that promotes epileptogenesis (IL-10 already mapped), part of the immune dimension of epilepsy."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Metabolic seizure threshold: leptin has anticonvulsant effects and links the energy state to neuronal excitability, part of the metabolic regulation of the seizure threshold exploited by the ketogenic diet used in refractory epilepsy."
+  - target: 03-medicine/03-food/omega-3-fatty-acids
+    relation: connects-to
+    note: "Dietary anticonvulsants: the omega-3 fatty acids have anticonvulsant properties and, with the ketogenic diet, form part of the dietary approaches to epilepsy that modulate neuronal excitability and neuroinflammation (prostaglandins already mapped)."
 ---
 
 # Epilepsy
@@ -715,6 +724,9 @@ Anti-NMDAR encephalitis is the most common autoimmune encephalitis (~37% of auto
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative epileptogenesis: seizures and the underlying injury generate reactive oxygen species, to which xanthine oxidase contributes, and this oxidative stress (NRF2 already mapped) promotes the epileptogenesis and neuronal damage of recurrent seizures.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Neuroinflammatory balance: the anti-inflammatory IL-10 opposes the pro-inflammatory cytokines (IL-1, TNF and IL-6 already mapped) of the neuroinflammation that promotes epileptogenesis, part of the immune dimension of epilepsy.
 - `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — Dopaminergic threshold: dopamine modulates the seizure threshold, with D1 receptors tending to be proconvulsant and D2 anticonvulsant (serotonin and norepinephrine already mapped), part of the neuromodulatory control of seizure susceptibility.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Neuroinflammatory balance: the anti-inflammatory IL-4 counters the pro-inflammatory cytokines (IL-1, TNF and IL-6 already mapped) of the neuroinflammation that promotes epileptogenesis (IL-10 already mapped), part of the immune dimension of epilepsy.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Metabolic seizure threshold: leptin has anticonvulsant effects and links the energy state to neuronal excitability, part of the metabolic regulation of the seizure threshold exploited by the ketogenic diet used in refractory epilepsy.
+- `connects-to` → **[Omega-3 fatty acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Dietary anticonvulsants: the omega-3 fatty acids have anticonvulsant properties and, with the ketogenic diet, form part of the dietary approaches to epilepsy that modulate neuronal excitability and neuroinflammation (prostaglandins already mapped).
 
 [^fisher-2017-ilae-classification]: Fisher RS, Cross JH, D'Souza C, et al. Instruction manual for the ILAE 2017 operational classification of seizure types. *Epilepsia.* 2017;58(4):531-542. [doi:10.1111/epi.13671](https://doi.org/10.1111/epi.13671) · [PubMed 28276060](https://pubmed.ncbi.nlm.nih.gov/28276060/)
 [^devinsky-2018-epilepsy-review]: Devinsky O, Vezzani A, O'Brien TJ, et al. Epilepsy. *Nat Rev Dis Primers.* 2018;4:18024. [doi:10.1038/nrdp.2018.24](https://doi.org/10.1038/nrdp.2018.24) · [PubMed 29722352](https://pubmed.ncbi.nlm.nih.gov/29722352/)
