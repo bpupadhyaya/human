@@ -418,6 +418,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "Cardiorenal RAAS: aldosterone drives the fibrosis and inflammation of diabetic kidney disease (angiotensin and endothelin already mapped), and mineralocorticoid-receptor antagonists such as finerenone slow the progression of diabetic nephropathy."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "SGLT2 and cardiorenal benefit: the SGLT2 inhibitors (SGLT2 already mapped) block renal sodium-glucose cotransport, and the resulting natriuresis and tubuloglomerular feedback underlie the cardiovascular and renal protection they confer in type 2 diabetes."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Adipose M2 macrophages: IL-4 sustains the anti-inflammatory M2 macrophages of healthy adipose tissue (IL-10 already mapped), and the shift away from this state toward pro-inflammatory macrophages (TNF already mapped) drives the insulin resistance of type 2 diabetes."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Peripheral metabolic serotonin: gut-derived peripheral serotonin regulates pancreatic β-cell mass and adipose and hepatic metabolism, part of the neuroendocrine control of the energy balance disturbed in type 2 diabetes."
 ---
 
 # Type 2 Diabetes
@@ -654,6 +663,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Atherogenic dyslipidaemia: type 2 diabetes shifts cholesterol handling toward high triglycerides, low HDL and small dense LDL (PCSK9 already mapped), the dyslipidaemia driving much of its accelerated cardiovascular risk.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Anti-inflammatory balance: the anti-inflammatory IL-10 counters the chronic low-grade inflammation (TNF, IL-6 and IL-1 already mapped) of adipose tissue in type 2 diabetes, and the imbalance contributes to the insulin resistance.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Cardiorenal RAAS: aldosterone drives the fibrosis and inflammation of diabetic kidney disease (angiotensin and endothelin already mapped), and mineralocorticoid-receptor antagonists such as finerenone slow the progression of diabetic nephropathy.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — SGLT2 and cardiorenal benefit: the SGLT2 inhibitors (SGLT2 already mapped) block renal sodium-glucose cotransport, and the resulting natriuresis and tubuloglomerular feedback underlie the cardiovascular and renal protection they confer in type 2 diabetes.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Adipose M2 macrophages: IL-4 sustains the anti-inflammatory M2 macrophages of healthy adipose tissue (IL-10 already mapped), and the shift away from this state toward pro-inflammatory macrophages (TNF already mapped) drives the insulin resistance of type 2 diabetes.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Peripheral metabolic serotonin: gut-derived peripheral serotonin regulates pancreatic β-cell mass and adipose and hepatic metabolism, part of the neuroendocrine control of the energy balance disturbed in type 2 diabetes.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

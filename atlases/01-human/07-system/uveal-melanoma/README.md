@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative stress: the metabolically active uveal melanoma generates oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species add to the biology of this pigment-cell tumour of the eye."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), and a high macrophage infiltrate is an adverse prognostic feature of uveal melanoma."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Ocular immune privilege: TGF-β in the eye's immune-privileged microenvironment (SMAD4 already mapped) suppresses the anti-tumour response, helping uveal melanoma evade immunity, part of why checkpoint blockade works poorly against it."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Anaemia of advanced disease: the hepatic metastatic burden (liver already mapped) and the systemic therapy of advanced uveal melanoma cause anaemia (haemoglobin already mapped) that can require transfusion, whose repeated support can load the body with iron."
 ---
 
 # Uveal Melanoma
@@ -680,6 +689,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the uveal melanoma microenvironment, favoured by the immune privilege of the eye, dampens the anti-tumour T-cell response (PD-1 and CTLA-4 already mapped), part of the resistance to conventional checkpoint blockade.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide with VEGF and endothelin-1 (already mapped) shapes the vasculature of uveal melanoma, including the vasculogenic-mimicry networks that are an adverse prognostic feature of the tumour.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative stress: the metabolically active uveal melanoma generates oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species add to the biology of this pigment-cell tumour of the eye.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), and a high macrophage infiltrate is an adverse prognostic feature of uveal melanoma.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Ocular immune privilege: TGF-β in the eye's immune-privileged microenvironment (SMAD4 already mapped) suppresses the anti-tumour response, helping uveal melanoma evade immunity, part of why checkpoint blockade works poorly against it.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Anaemia of advanced disease: the hepatic metastatic burden (liver already mapped) and the systemic therapy of advanced uveal melanoma cause anaemia (haemoglobin already mapped) that can require transfusion, whose repeated support can load the body with iron.
 
 ---
 
