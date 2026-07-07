@@ -427,6 +427,15 @@ cross_links:
   - target: 01-human/03-molecular/prostaglandins
     relation: connects-to
     note: "Immune-activation eicosanoids: prostaglandins from the chronic immune activation and inflammation (IL-6, TNF and IL-1 already mapped) of AIDS modulate the immune response and contribute to the persistent tissue injury of the disease."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Multifactorial anaemia: the anaemia of chronic infection (hepcidin and haemoglobin already mapped) combines with the marrow suppression, drugs and opportunistic infections to cause the multifactorial iron-disturbed anaemia common in AIDS."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Th2 immune shift: IL-13, with IL-4 (already mapped), reflects the Th2 shift of the immune dysregulation of AIDS, part of the loss of the Th1 (IFN-γ and IL-12 already mapped) control that permits the opportunistic infections."
+  - target: 01-human/03-molecular/baff
+    relation: connects-to
+    note: "B-cell hyperactivation: the raised BAFF of AIDS drives the B-cell hyperactivation and the hypergammaglobulinaemia (immunoglobulin already mapped), contributing to the B-cell lymphomas (LMP1 already mapped) of the disease."
 ---
 
 # HIV/AIDS
@@ -678,6 +687,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Selenium and mortality: selenium deficiency is common in AIDS and strongly predicts mortality, its antioxidant selenoproteins countering the oxidative immune activation (xanthine oxidase already mapped) of advanced disease.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and progression: zinc deficiency is common in AIDS and associated with faster progression and more opportunistic infections, reflecting zinc's role in the immune function depleted by the disease.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Immune-activation eicosanoids: prostaglandins from the chronic immune activation and inflammation (IL-6, TNF and IL-1 already mapped) of AIDS modulate the immune response and contribute to the persistent tissue injury of the disease.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Multifactorial anaemia: the anaemia of chronic infection (hepcidin and haemoglobin already mapped) combines with the marrow suppression, drugs and opportunistic infections to cause the multifactorial iron-disturbed anaemia common in AIDS.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Th2 immune shift: IL-13, with IL-4 (already mapped), reflects the Th2 shift of the immune dysregulation of AIDS, part of the loss of the Th1 (IFN-γ and IL-12 already mapped) control that permits the opportunistic infections.
+- `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — B-cell hyperactivation: the raised BAFF of AIDS drives the B-cell hyperactivation and the hypergammaglobulinaemia (immunoglobulin already mapped), contributing to the B-cell lymphomas (LMP1 already mapped) of the disease.
 
 ## See Also
 

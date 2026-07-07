@@ -427,6 +427,15 @@ cross_links:
   - target: 03-medicine/03-food/omega-3-fatty-acids
     relation: connects-to
     note: "Omega-3 inflammation resolution: the omega-3 fatty acids give rise to pro-resolving mediators such as protectin D1 that limit the excessive lung inflammation (prostaglandins already mapped) of severe influenza, aiding recovery."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 airway arm: IL-13, with IL-4 (already mapped), is part of the type-2 response that modulates the airway epithelium and contributes to the post-influenza wheeze and the asthma exacerbations it can trigger."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Alveolar oedema: VEGF drives the vascular permeability and the alveolar-capillary oedema of the severe influenza pneumonia (surfactant already mapped), part of the lung injury and ARDS."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Obesity and severity: obesity, signalled through the adipokine leptin, is an independent risk factor for severe influenza, the adipose-immune dysfunction impairing the antiviral response."
 ---
 
 # Influenza
@@ -699,3 +708,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Selenium and virulence: selenium deficiency increases the virulence of influenza and worsens the disease, the antioxidant selenoproteins limiting the viral mutation and the oxidative lung injury (xanthine oxidase already mapped) of infection.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and antiviral immunity: zinc supports the interferon (already mapped) antiviral response and impairs influenza replication, and zinc status influences the immunity that determines the severity of infection.
 - `connects-to` → **[Omega-3 fatty acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Omega-3 inflammation resolution: the omega-3 fatty acids give rise to pro-resolving mediators such as protectin D1 that limit the excessive lung inflammation (prostaglandins already mapped) of severe influenza, aiding recovery.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 airway arm: IL-13, with IL-4 (already mapped), is part of the type-2 response that modulates the airway epithelium and contributes to the post-influenza wheeze and the asthma exacerbations it can trigger.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Alveolar oedema: VEGF drives the vascular permeability and the alveolar-capillary oedema of the severe influenza pneumonia (surfactant already mapped), part of the lung injury and ARDS.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Obesity and severity: obesity, signalled through the adipokine leptin, is an independent risk factor for severe influenza, the adipose-immune dysfunction impairing the antiviral response.
