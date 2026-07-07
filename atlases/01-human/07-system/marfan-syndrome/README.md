@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Body-composition adipokine: adiponectin, with leptin (already mapped), is part of the adipokine profile of the altered body composition and metabolism of Marfan syndrome."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Body-composition adipokine: resistin, with leptin and adiponectin (already mapped), completes the adipokine profile of the altered body composition and metabolism of Marfan syndrome."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Aortic-wall macrophages: the macrophage infiltration and the inflammation (CCL2 and IL-6 already mapped) of the aortic media contribute to the aneurysm progression of Marfan syndrome."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Aortic Th1 inflammation: the IFN-γ of the T cells infiltrating the aortic wall is part of the immune-inflammatory (TGF-β already mapped) dimension of the Marfan aneurysm."
 ---
 
 # Marfan Syndrome
@@ -718,6 +727,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Matrix metalloproteinases: the zinc-dependent matrix metalloproteinases degrade the elastin and collagen (already mapped) of the aortic media, contributing, with the fibrillin (FBN1 already mapped) defect, to the aneurysm of Marfan syndrome.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Lean-habitus adipokine: leptin reflects the reduced fat mass and the metabolic profile of the tall, thin (dolichostenomelia) habitus of Marfan syndrome.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Body-composition adipokine: adiponectin, with leptin (already mapped), is part of the adipokine profile of the altered body composition and metabolism of Marfan syndrome.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Body-composition adipokine: resistin, with leptin and adiponectin (already mapped), completes the adipokine profile of the altered body composition and metabolism of Marfan syndrome.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Aortic-wall macrophages: the macrophage infiltration and the inflammation (CCL2 and IL-6 already mapped) of the aortic media contribute to the aneurysm progression of Marfan syndrome.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Aortic Th1 inflammation: the IFN-γ of the T cells infiltrating the aortic wall is part of the immune-inflammatory (TGF-β already mapped) dimension of the Marfan aneurysm.
 
 ---
 

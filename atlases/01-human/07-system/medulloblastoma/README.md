@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Metabolic-syndrome adipokine: resistin, with leptin and adiponectin (already mapped), is the adipokine of the metabolic syndrome that complicates the long-term survival of medulloblastoma."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Anthracycline cardiotoxicity: the anthracycline chemotherapy of the medulloblastoma regimens causes the cardiotoxicity (troponin already mapped) of the heart, a survivorship concern in the childhood survivor."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate antitumour interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment relevant to the immunotherapy of medulloblastoma."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the immune microenvironment of medulloblastoma."
 ---
 
 # Medulloblastoma
@@ -709,6 +718,9 @@ MB survivors face substantial late effects — inversely proportional to age at 
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Hypothalamic obesity: the craniospinal radiation damages the hypothalamic-pituitary (growth hormone already mapped) axis, causing the hypothalamic obesity and leptin dysregulation of the medulloblastoma survivor.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Survivorship metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic-endocrine late effects of medulloblastoma survivorship.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Metabolic-syndrome adipokine: resistin, with leptin and adiponectin (already mapped), is the adipokine of the metabolic syndrome that complicates the long-term survival of medulloblastoma.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Anthracycline cardiotoxicity: the anthracycline chemotherapy of the medulloblastoma regimens causes the cardiotoxicity (troponin already mapped) of the heart, a survivorship concern in the childhood survivor.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate antitumour interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment relevant to the immunotherapy of medulloblastoma.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the immune microenvironment of medulloblastoma.
 
 [^packer-2006-std-risk-mb]: Packer RJ, Gajjar A, Vezina G, et al. Phase III study of craniospinal radiation therapy followed by adjuvant chemotherapy for newly diagnosed average-risk medulloblastoma. *J Clin Oncol.* 2006;24(25):4202-4208. [doi:10.1200/JCO.2006.06.4980](https://doi.org/10.1200/JCO.2006.06.4980) · [PubMed 16943538](https://pubmed.ncbi.nlm.nih.gov/16943538/)
 [^taylor-2012-mb-subgroups]: Taylor MD, Northcott PA, Korshunov A, et al. Molecular subgroups of medulloblastoma: the current consensus. *Acta Neuropathol.* 2012;123(4):465-472. [doi:10.1007/s00401-011-0922-z](https://doi.org/10.1007/s00401-011-0922-z) · [PubMed 22134537](https://pubmed.ncbi.nlm.nih.gov/22134537/)
