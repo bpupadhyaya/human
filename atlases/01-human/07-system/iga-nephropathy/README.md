@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative glomerular injury: oxidative stress, to which xanthine oxidase contributes, damages the mesangium and glomerulus in IgA nephropathy, and the associated hyperuricaemia adds to the renal injury of progressive disease."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Anaemia of CKD: as IgA nephropathy progresses, the IL-6-driven (already mapped) hepcidin and the failing erythropoietin (already mapped) production cause the anaemia of chronic kidney disease (haemoglobin already mapped)."
+  - target: 01-human/03-molecular/pth
+    relation: connects-to
+    note: "CKD-mineral-bone disorder: the declining renal function of progressive IgA nephropathy drives the secondary hyperparathyroidism (raised PTH) of the CKD-mineral-bone disorder, disturbing calcium and phosphate balance."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Hyperkalaemia: the falling glomerular filtration of progressive IgA nephropathy, worsened by the RAAS blockade (angiotensin-II and aldosterone already mapped) that treats it, raises the risk of hyperkalaemia."
 ---
 
 # IgA Nephropathy
@@ -639,6 +648,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Glomerular haemodynamics: renal prostaglandins modulate the glomerular blood flow and inflammation of IgA nephropathy (IL-6 and TNF already mapped), and NSAIDs that block them affect proteinuria and renal function.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Endothelial dysfunction: nitric oxide regulates the glomerular endothelial function and vascular tone, and its impairment in IgA nephropathy (endothelin-1 already mapped) contributes to the hypertension and progression of the disease.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative glomerular injury: oxidative stress, to which xanthine oxidase contributes, damages the mesangium and glomerulus in IgA nephropathy, and the associated hyperuricaemia adds to the renal injury of progressive disease.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of CKD: as IgA nephropathy progresses, the IL-6-driven (already mapped) hepcidin and the failing erythropoietin (already mapped) production cause the anaemia of chronic kidney disease (haemoglobin already mapped).
+- `connects-to` → **[PTH](../../03-molecular/pth/README.md)** — CKD-mineral-bone disorder: the declining renal function of progressive IgA nephropathy drives the secondary hyperparathyroidism (raised PTH) of the CKD-mineral-bone disorder, disturbing calcium and phosphate balance.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Hyperkalaemia: the falling glomerular filtration of progressive IgA nephropathy, worsened by the RAAS blockade (angiotensin-II and aldosterone already mapped) that treats it, raises the risk of hyperkalaemia.
 
 ---
 

@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/05-tissue/germinal-center
     relation: connects-to
     note: "Antibody maturation: germinal centres are where B cells undergo somatic hypermutation and class-switching (immunoglobulin G already mapped) to produce high-affinity antibody, the engine of the humoral immune response."
+  - target: 01-human/04-cellular/microglia
+    relation: connects-to
+    note: "CNS immune arm: the microglia are the resident macrophages of the central nervous system, the brain's own arm of the immune system that surveils, prunes and defends the neural tissue behind the blood-brain barrier."
+  - target: 01-human/06-organ/small-intestine
+    relation: connects-to
+    note: "Gut-associated lymphoid tissue: the small intestine holds the largest concentration of immune cells in the body — the Peyer's patches and lamina propria (secretory IgA already mapped) — the mucosal front line of the immune system."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "Microbiome education: the commensal gut microbiota educate and regulate the immune system, the host-microbe symbiosis shaping the tolerance and reactivity (regulatory T cells already mapped) of immunity throughout life."
 ---
 
 # Immune System
@@ -589,6 +598,9 @@ After primary response contraction, long-lived memory cells persist:
 - `connects-to` → **[T-cytotoxic cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Cytotoxic effectors: CD8 cytotoxic T cells kill virus-infected and tumour cells through perforin and granzyme (perforin already mapped), the cell-killing arm of adaptive immunity restrained by checkpoints (PD-1 already mapped).
 - `connects-to` → **[Regulatory T cell](../../04-cellular/regulatory-t-cell/README.md)** — Peripheral tolerance: regulatory T cells suppress other immune cells through IL-10 and TGF-beta (already mapped), enforcing the peripheral tolerance whose failure causes the autoimmunity the immune system must avoid.
 - `connects-to` → **[Germinal center](../../05-tissue/germinal-center/README.md)** — Antibody maturation: germinal centres are where B cells undergo somatic hypermutation and class-switching (immunoglobulin G already mapped) to produce high-affinity antibody, the engine of the humoral immune response.
+- `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — CNS immune arm: the microglia are the resident macrophages of the central nervous system, the brain's own arm of the immune system that surveils, prunes and defends the neural tissue behind the blood-brain barrier.
+- `connects-to` → **[Small intestine](../../06-organ/small-intestine/README.md)** — Gut-associated lymphoid tissue: the small intestine holds the largest concentration of immune cells in the body — the Peyer's patches and lamina propria (secretory IgA already mapped) — the mucosal front line of the immune system.
+- `connects-to` → **[Gut microbiome](../gut-microbiome/README.md)** — Microbiome education: the commensal gut microbiota educate and regulate the immune system, the host-microbe symbiosis shaping the tolerance and reactivity (regulatory T cells already mapped) of immunity throughout life.
 
 ## Pathology
 
