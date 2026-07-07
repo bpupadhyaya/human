@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/type-i-interferon
     relation: connects-to
     note: "Autoimmune-associated angioedema: the type-I interferon of the autoimmune diseases (systemic lupus already mapped) associated with acquired C1-inhibitor deficiency reflects the immune dysregulation and complement (C3 already mapped) consumption of that differential."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Metabolic-hormonal adipokine: leptin is the adipokine of the metabolic-inflammatory milieu; the oestrogen (already mapped) and metabolic modulation of the attack frequency of hereditary angioedema."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic milieu of hereditary angioedema."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the metabolic-inflammatory milieu of hereditary angioedema."
 ---
 
 # Hereditary Angioedema
@@ -714,6 +723,9 @@ Fluid extravasation → ANGIOEDEMA
 - `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — Acquired C1-INH deficiency: BAFF supports the B cells of the lymphoproliferative disorders (CLL and lymphomas already mapped) that cause acquired C1-inhibitor deficiency, the key acquired-angioedema differential of the hereditary form.
 - `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — Rituximab in acquired AAE: the CD20 B cells of the underlying lymphoproliferative disorder are targeted by rituximab to treat the acquired C1-inhibitor deficiency, distinguishing its therapy from that of hereditary angioedema.
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Autoimmune-associated angioedema: the type-I interferon of the autoimmune diseases (systemic lupus already mapped) associated with acquired C1-inhibitor deficiency reflects the immune dysregulation and complement (C3 already mapped) consumption of that differential.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Metabolic-hormonal adipokine: leptin is the adipokine of the metabolic-inflammatory milieu; the oestrogen (already mapped) and metabolic modulation of the attack frequency of hereditary angioedema.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic milieu of hereditary angioedema.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the metabolic-inflammatory milieu of hereditary angioedema.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)

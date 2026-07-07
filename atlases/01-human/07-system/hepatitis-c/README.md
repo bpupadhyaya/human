@@ -435,6 +435,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Adipokine milieu: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory state to the steatosis and insulin resistance (already mapped) that accelerate the fibrosis of chronic hepatitis C."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "Cryoglobulinaemia B cells: the chronic HCV drives the clonal B-cell (BAFF and CD20 already mapped) expansion causing the mixed cryoglobulinaemic vasculitis and the risk of B-cell lymphoma."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Hepatic iron overload: the chronic hepatitis C causes the hepatic iron overload (the hepcidin already-mapped suppression), the iron worsening the oxidative injury and the fibrosis."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Kupffer-cell inflammation: the liver-resident macrophages (Kupffer cells) sense the HCV and drive the innate inflammation (IL-6 and TNF already mapped) and the fibrogenic signalling of chronic hepatitis C."
 ---
 
 # Hepatitis C
@@ -700,3 +709,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Profibrotic type-2 arm: IL-13, with IL-4 (already mapped), drives the M2 macrophage and profibrotic (TGF-β and collagen already mapped) response in the liver fibrosis of chronic hepatitis C.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc in chronic liver disease: the zinc deficiency common in chronic hepatitis C and cirrhosis impairs immune function and hepatic metabolism, and zinc supplementation has been studied as an antiviral adjunct.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine milieu: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory state to the steatosis and insulin resistance (already mapped) that accelerate the fibrosis of chronic hepatitis C.
+- `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Cryoglobulinaemia B cells: the chronic HCV drives the clonal B-cell (BAFF and CD20 already mapped) expansion causing the mixed cryoglobulinaemic vasculitis and the risk of B-cell lymphoma.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Hepatic iron overload: the chronic hepatitis C causes the hepatic iron overload (the hepcidin already-mapped suppression), the iron worsening the oxidative injury and the fibrosis.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Kupffer-cell inflammation: the liver-resident macrophages (Kupffer cells) sense the HCV and drive the innate inflammation (IL-6 and TNF already mapped) and the fibrogenic signalling of chronic hepatitis C.
