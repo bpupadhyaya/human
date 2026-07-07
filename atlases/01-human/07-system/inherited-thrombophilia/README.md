@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Metabolic hypercoagulability: the fall in adiponectin, with leptin (already mapped), of the metabolic syndrome (cholesterol and insulin already mapped) adds an acquired hypercoagulable state to the inherited thrombophilia."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Metabolic hypercoagulability: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the metabolic hypercoagulable state that adds an acquired thrombotic risk to the inherited thrombophilia."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Pulmonary embolism: the deep-vein thrombi of the inherited thrombophilias embolise to the lung, the pulmonary embolism the life-threatening complication."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Coagulation-factor synthesis: the liver synthesises the clotting factors and the natural anticoagulants (protein C, antithrombin already mapped) whose inherited deficiency causes thrombophilia."
 ---
 
 # Inherited Thrombophilia
@@ -738,6 +747,9 @@ Antithrombin (ATIII) is the primary plasma inhibitor of thrombin, FXa, FIXa, and
 - `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Antiphospholipid antibodies: the IgG antiphospholipid antibodies (anti-cardiolipin, anti-β2-glycoprotein-I) of the antiphospholipid syndrome are the major acquired thrombophilia that mimics and compounds the inherited forms.
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Autoimmune prothrombotic state: the type-I interferon of the autoimmune diseases (lupus, antiphospholipid syndrome) promotes the prothrombotic endothelial (already mapped) state, the acquired thrombophilia that adds to the inherited risk.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic hypercoagulability: the fall in adiponectin, with leptin (already mapped), of the metabolic syndrome (cholesterol and insulin already mapped) adds an acquired hypercoagulable state to the inherited thrombophilia.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Metabolic hypercoagulability: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the metabolic hypercoagulable state that adds an acquired thrombotic risk to the inherited thrombophilia.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Pulmonary embolism: the deep-vein thrombi of the inherited thrombophilias embolise to the lung, the pulmonary embolism the life-threatening complication.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Coagulation-factor synthesis: the liver synthesises the clotting factors and the natural anticoagulants (protein C, antithrombin already mapped) whose inherited deficiency causes thrombophilia.
 
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)

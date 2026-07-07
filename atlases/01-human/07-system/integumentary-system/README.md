@@ -431,6 +431,15 @@ cross_links:
   - target: 01-human/03-molecular/il-1b
     relation: connects-to
     note: "Keratinocyte alarmin: IL-1β released by the keratinocytes is an alarm cytokine of the skin, driving the inflammation of hidradenitis suppurativa, neutrophilic dermatoses and the response to barrier injury."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Dermal mast cells: the dermal mast cells (histamine already mapped) mediate the itch, the urticaria and the immediate hypersensitivity of the skin of the integumentary system."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Skin-integrity zinc: the zinc essential for the skin integrity and wound healing; the zinc deficiency causes the acrodermatitis enteropathica of the integumentary system."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Melanin and collagen copper: the copper-dependent tyrosinase makes the melanin (endothelin-1 already mapped), and the lysyl oxidase cross-links the dermal collagen (already mapped) and elastin of the skin."
 ---
 
 # Integumentary System
@@ -674,6 +683,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[TNF-alpha](../../03-molecular/tnf-alpha/README.md)** — Inflammatory skin disease: TNF drives psoriasis and the inflammatory dermatoses (IL-17 and IL-23 already mapped), the target of the anti-TNF biologics that transformed the treatment of severe skin disease.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Type-2 dermal remodelling: periostin, a matricellular protein induced by the type-2 cytokines (IL-13 already mapped), drives the dermal remodelling and chronic itch of atopic dermatitis, a biomarker of the barrier-disrupted skin.
 - `connects-to` → **[IL-1b](../../03-molecular/il-1b/README.md)** — Keratinocyte alarmin: IL-1β released by the keratinocytes is an alarm cytokine of the skin, driving the inflammation of hidradenitis suppurativa, neutrophilic dermatoses and the response to barrier injury.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Dermal mast cells: the dermal mast cells (histamine already mapped) mediate the itch, the urticaria and the immediate hypersensitivity of the skin of the integumentary system.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Skin-integrity zinc: the zinc essential for the skin integrity and wound healing; the zinc deficiency causes the acrodermatitis enteropathica of the integumentary system.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Melanin and collagen copper: the copper-dependent tyrosinase makes the melanin (endothelin-1 already mapped), and the lysyl oxidase cross-links the dermal collagen (already mapped) and elastin of the skin.
 
 ## Pathology
 
