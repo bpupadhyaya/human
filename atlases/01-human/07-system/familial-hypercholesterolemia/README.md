@@ -424,6 +424,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin
     relation: connects-to
     note: "Metabolic amplification: although familial hypercholesterolaemia is a monogenic LDL disorder, coexisting insulin resistance and the metabolic syndrome compound its atherogenic risk, adding to the burden of the very high LDL."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Plaque macrophage polarisation: IL-4 polarises the plaque macrophages (already mapped) toward an M2 phenotype (IL-10 already mapped), part of the immune microenvironment of the atherosclerotic lesions driven by the very high LDL of familial hypercholesterolaemia."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Adipokine amplification: leptin, from adipose tissue, adds an inflammatory and atherogenic contribution (insulin already mapped) that compounds the cardiovascular risk of the monogenic LDL elevation in familial hypercholesterolaemia."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Vasoprotective adipokine: adiponectin, with leptin (already mapped), is a vascular-protective adipokine whose fall in the metabolic syndrome removes a brake on the atherogenesis driven by familial hypercholesterolaemia."
 ---
 
 # Familial Hypercholesterolemia
@@ -667,6 +676,9 @@ FH is a **monogenic autosomal dominant disorder** caused by mutations in three g
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Thromboxane and plaque thrombosis: the prostaglandin balance shifts toward the prothrombotic thromboxane on the atherosclerotic plaques of familial hypercholesterolaemia, part of why aspirin is used to prevent the coronary events.
 - `connects-to` → **[Von Willebrand factor](../../03-molecular/von-willebrand-factor/README.md)** — Plaque-rupture thrombosis: when a plaque of familial hypercholesterolaemia ruptures, von Willebrand factor mediates the platelet adhesion that, with thrombin and fibrinogen (already mapped), forms the occlusive thrombus of myocardial infarction.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Metabolic amplification: although familial hypercholesterolaemia is a monogenic LDL disorder, coexisting insulin resistance and the metabolic syndrome compound its atherogenic risk, adding to the burden of the very high LDL.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Plaque macrophage polarisation: IL-4 polarises the plaque macrophages (already mapped) toward an M2 phenotype (IL-10 already mapped), part of the immune microenvironment of the atherosclerotic lesions driven by the very high LDL of familial hypercholesterolaemia.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adipokine amplification: leptin, from adipose tissue, adds an inflammatory and atherogenic contribution (insulin already mapped) that compounds the cardiovascular risk of the monogenic LDL elevation in familial hypercholesterolaemia.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Vasoprotective adipokine: adiponectin, with leptin (already mapped), is a vascular-protective adipokine whose fall in the metabolic syndrome removes a brake on the atherogenesis driven by familial hypercholesterolaemia.
 
 [^goldstein-1985-ldlr-nobel]: Goldstein JL, Brown MS. The LDL receptor. *Arterioscler Thromb Vasc Biol.* 2009;29(4):431-438. [doi:10.1161/ATVBAHA.108.179564](https://doi.org/10.1161/ATVBAHA.108.179564) · [PubMed 19299327](https://pubmed.ncbi.nlm.nih.gov/19299327/)
 [^raal-2020-inclisiran-fh]: Raal FJ, Kallend D, Ray KK, et al. Inclisiran for the Treatment of Heterozygous Familial Hypercholesterolemia. *N Engl J Med.* 2020;382(16):1520-1530. [doi:10.1056/NEJMoa1913805](https://doi.org/10.1056/NEJMoa1913805) · [PubMed 32197277](https://pubmed.ncbi.nlm.nih.gov/32197277/)

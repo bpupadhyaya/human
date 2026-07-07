@@ -405,6 +405,15 @@ cross_links:
   - target: 01-human/03-molecular/cholesterol
     relation: connects-to
     note: "Metabolic and impulsivity link: the metabolic dysregulation (insulin already mapped) accompanying compulsive gambling disturbs cholesterol handling, and altered cholesterol has been associated with the impulsivity underlying behavioural addictions."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Neuroimmune balance: the anti-inflammatory IL-4, with IL-10 (already mapped), counters the pro-inflammatory cytokines (IL-6, TNF and IL-1 already mapped) of the low-grade neuroinflammation reported in behavioural addictions such as gambling disorder."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Zinc and impulsivity: zinc modulates the glutamatergic (already mapped) NMDA signalling, and disturbed zinc status is linked to the impulsivity and mood dysregulation that accompany gambling disorder."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Copper and monoamines: copper is the cofactor of dopamine-β-hydroxylase, which makes noradrenaline from dopamine (both already mapped), linking copper handling to the monoamine reward signalling that drives gambling disorder."
 sources:
   - id: grant-2016-gambling-review
     type: peer-reviewed
@@ -680,6 +689,9 @@ Persistent and recurrent problematic gambling behavior causing distress (≥4 of
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Neuroinflammatory eicosanoids: prostaglandins from the low-grade neuroinflammation (IL-6, TNF and IL-1 already mapped) associated with behavioural addictions modulate the reward and stress circuits implicated in compulsive gambling.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative stress: the chronic stress and sleep disruption of compulsive gambling raise oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species add to the neuroinflammation (NLRP3 already mapped).
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Metabolic and impulsivity link: the metabolic dysregulation (insulin already mapped) accompanying compulsive gambling disturbs cholesterol handling, and altered cholesterol has been associated with the impulsivity underlying behavioural addictions.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Neuroimmune balance: the anti-inflammatory IL-4, with IL-10 (already mapped), counters the pro-inflammatory cytokines (IL-6, TNF and IL-1 already mapped) of the low-grade neuroinflammation reported in behavioural addictions such as gambling disorder.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and impulsivity: zinc modulates the glutamatergic (already mapped) NMDA signalling, and disturbed zinc status is linked to the impulsivity and mood dysregulation that accompany gambling disorder.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper and monoamines: copper is the cofactor of dopamine-β-hydroxylase, which makes noradrenaline from dopamine (both already mapped), linking copper handling to the monoamine reward signalling that drives gambling disorder.
 
 [^potenza-2014-gambling-neuroscience]: Potenza MN. The neurobiology of pathological gambling and drug addiction: an overview and new findings. *Philos Trans R Soc Lond B Biol Sci.* 2008;363(1507):3181-3189. [doi:10.1098/rstb.2008.0100](https://doi.org/10.1098/rstb.2008.0100) · [PubMed 18640909](https://pubmed.ncbi.nlm.nih.gov/18640909/)
 [^grant-2016-gambling-review]: Grant JE, Chamberlain SR. Gambling disorder and its relationship with substance use disorders. *Am J Addict.* 2015;24(2):126-131. [doi:10.1111/ajad.12112](https://doi.org/10.1111/ajad.12112) · [PubMed 25376793](https://pubmed.ncbi.nlm.nih.gov/25376793/)
