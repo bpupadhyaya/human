@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/03-molecular/leptin
     relation: connects-to
     note: "Marrow adipose crosstalk: the marrow adipocytes and their adipokine leptin signal to the leukaemic stem cells, part of the bone-marrow (already mapped) microenvironment that influences the persistence of the CML clone."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Marrow-adipocyte adipokine: adiponectin, with leptin (already mapped), from the marrow adipose tissue signals to the leukaemic stem cells of the bone-marrow (already mapped) microenvironment of CML."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipokine milieu: resistin, with leptin and adiponectin (already mapped), completes the marrow-adipocyte adipokine signalling of the microenvironment influencing the CML clone."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Anaemia and transfusion iron: the anaemia (haemoglobin already mapped) of CML and the iron overload of the transfusion support during the blast-phase treatment reflect the disturbed iron handling of the leukaemia."
 ---
 
 # Chronic Myeloid Leukemia
@@ -680,6 +689,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage niche: IL-4 polarises the marrow macrophages toward an M2 phenotype that helps shelter the leukaemic stem cells in the bone-marrow (already mapped) microenvironment of CML.
 - `connects-to` → **[PF4](../../03-molecular/pf4/README.md)** — Thrombocytosis and platelets: CML commonly raises the platelet count, and platelet factor 4 from the expanded, sometimes dysfunctional platelets reflects the thrombo-haemorrhagic dimension of the myeloproliferation.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Marrow adipose crosstalk: the marrow adipocytes and their adipokine leptin signal to the leukaemic stem cells, part of the bone-marrow (already mapped) microenvironment that influences the persistence of the CML clone.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Marrow-adipocyte adipokine: adiponectin, with leptin (already mapped), from the marrow adipose tissue signals to the leukaemic stem cells of the bone-marrow (already mapped) microenvironment of CML.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine milieu: resistin, with leptin and adiponectin (already mapped), completes the marrow-adipocyte adipokine signalling of the microenvironment influencing the CML clone.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Anaemia and transfusion iron: the anaemia (haemoglobin already mapped) of CML and the iron overload of the transfusion support during the blast-phase treatment reflect the disturbed iron handling of the leukaemia.
 
 ---
 

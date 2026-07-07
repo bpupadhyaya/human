@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Adipokine microenvironment: adiponectin, with leptin (already mapped), from the marrow and stromal adipose tissue signals to the CLL cells, part of the metabolic microenvironment sustaining the clone."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipokine milieu: resistin, with leptin and adiponectin (already mapped), completes the marrow-adipocyte adipokine signalling of the metabolic microenvironment sustaining the CLL clone."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Immunosuppressive Tregs: the expanded regulatory T cells contribute to the immunosuppression (IL-10 already mapped) and the immune dysfunction (hypogammaglobulinaemia, immunoglobulin already mapped) of chronic lymphocytic leukaemia."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Haemolytic and marrow anaemia: the iron of the autoimmune haemolytic anaemia (haemoglobin already mapped) and the anaemia of the marrow infiltration (hepcidin already mapped) of chronic lymphocytic leukaemia."
 ---
 
 # CLL
@@ -680,6 +689,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin sequesters iron and contributes, with the marrow infiltration and the autoimmune haemolysis, to the anaemia (haemoglobin already mapped) of CLL.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Marrow adipose niche: the marrow adipocytes and their adipokine leptin engage in crosstalk with the CLL clone, part of the bone-marrow microenvironment (CXCL12 already mapped) that supports its survival.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine microenvironment: adiponectin, with leptin (already mapped), from the marrow and stromal adipose tissue signals to the CLL cells, part of the metabolic microenvironment sustaining the clone.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine milieu: resistin, with leptin and adiponectin (already mapped), completes the marrow-adipocyte adipokine signalling of the metabolic microenvironment sustaining the CLL clone.
+- `connects-to` → **[Regulatory T cell](../../04-cellular/regulatory-t-cell/README.md)** — Immunosuppressive Tregs: the expanded regulatory T cells contribute to the immunosuppression (IL-10 already mapped) and the immune dysfunction (hypogammaglobulinaemia, immunoglobulin already mapped) of chronic lymphocytic leukaemia.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Haemolytic and marrow anaemia: the iron of the autoimmune haemolytic anaemia (haemoglobin already mapped) and the anaemia of the marrow infiltration (hepcidin already mapped) of chronic lymphocytic leukaemia.
 
 ---
 
