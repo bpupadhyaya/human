@@ -427,6 +427,15 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "Anti-inflammatory neuroprotection: IL-10, with IL-4 (already mapped), opposes the microglial pro-inflammatory response (TNF, IL-1 and IL-6 already mapped) driving neuronal loss, and boosting this arm is a neuroprotective strategy of interest in Lewy body dementia."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Zinc and synuclein: zinc, with the copper and iron (already mapped), binds alpha-synuclein (already mapped) and modulates its aggregation and the oxidative stress, part of the metal dyshomeostasis of the neurodegeneration in Lewy body dementia."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Magnesium neuroprotection: magnesium blocks the NMDA receptor and buffers the glutamate (already mapped) excitotoxicity on the vulnerable neurons, a proposed neuroprotective factor in Lewy body dementia."
+  - target: 03-medicine/03-food/omega-3-fatty-acids
+    relation: connects-to
+    note: "Omega-3 and brain lipids: the omega-3 fatty acid DHA is a major brain membrane lipid (cholesterol and APOE already mapped), and its pro-resolving mediators counter the neuroinflammation of Lewy body dementia, of dietary interest for neuroprotection."
 ---
 
 # Lewy Body Dementia
@@ -689,6 +698,9 @@ Approximately 25-50% of clinically diagnosed DLB cases have significant AD co-pa
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Neuroinflammatory eicosanoids: prostaglandins from the activated microglia (already mapped) contribute to the neuroinflammation that drives the alpha-synuclein pathology (already mapped) and neuronal loss of Lewy body dementia.
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — APOE lipid handling: cholesterol metabolism, governed by APOE (already mapped), influences alpha-synuclein aggregation and membrane biology, part of the lipid dimension of the neurodegeneration in Lewy body dementia.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Anti-inflammatory neuroprotection: IL-10, with IL-4 (already mapped), opposes the microglial pro-inflammatory response (TNF, IL-1 and IL-6 already mapped) driving neuronal loss, and boosting this arm is a neuroprotective strategy of interest in Lewy body dementia.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and synuclein: zinc, with the copper and iron (already mapped), binds alpha-synuclein (already mapped) and modulates its aggregation and the oxidative stress, part of the metal dyshomeostasis of the neurodegeneration in Lewy body dementia.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium neuroprotection: magnesium blocks the NMDA receptor and buffers the glutamate (already mapped) excitotoxicity on the vulnerable neurons, a proposed neuroprotective factor in Lewy body dementia.
+- `connects-to` → **[Omega-3 fatty acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Omega-3 and brain lipids: the omega-3 fatty acid DHA is a major brain membrane lipid (cholesterol and APOE already mapped), and its pro-resolving mediators counter the neuroinflammation of Lewy body dementia, of dietary interest for neuroprotection.
 
 [^mckeith-2017-dlb-criteria]: McKeith IG, Boeve BF, Dickson DW, et al. Diagnosis and management of dementia with Lewy bodies: Fourth consensus report of the DLB Consortium. *Neurology.* 2017;89(1):88-100. [doi:10.1212/WNL.0000000000004058](https://doi.org/10.1212/WNL.0000000000004058) · [PubMed 28592453](https://pubmed.ncbi.nlm.nih.gov/28592453/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)

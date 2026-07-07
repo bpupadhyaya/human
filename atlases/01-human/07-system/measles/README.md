@@ -425,6 +425,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative and vitamin-A depletion: measles depletes vitamin A and antioxidant reserves, and the oxidative stress, to which xanthine oxidase contributes, worsens the epithelial and immune injury, a rationale for vitamin-A therapy."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Zinc and epithelial defence: zinc, with vitamin A, supports the epithelial integrity and the antiviral immunity against measles, and deficiency worsens the severity of the infection and its complications."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Selenium antioxidant defence: selenium and its selenoproteins support the antioxidant defence (xanthine oxidase and vitamin-A depletion already mapped) against the oxidative injury of measles, and deficiency aggravates the disease."
+  - target: 03-medicine/03-food/omega-3-fatty-acids
+    relation: connects-to
+    note: "Omega-3 inflammation resolution: the omega-3 fatty acids give rise to pro-resolving mediators that limit the excessive lung (already mapped) inflammation (prostaglandins already mapped) of measles pneumonia, aiding recovery from the commonest fatal complication."
 ---
 
 # Measles
@@ -705,6 +714,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Febrile inflammation: prostaglandins, induced by the cytokines (IL-6, TNF and IL-1 already mapped) of the measles immune response, drive the high fever and the inflammatory component of the illness and its rash.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 antibody help: IL-13, with IL-4 (already mapped), supports the B-cell (already mapped) production of the lifelong neutralising antibodies against the H protein that mediate measles immunity and vaccine protection.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative and vitamin-A depletion: measles depletes vitamin A and antioxidant reserves, and the oxidative stress, to which xanthine oxidase contributes, worsens the epithelial and immune injury, a rationale for vitamin-A therapy.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and epithelial defence: zinc, with vitamin A, supports the epithelial integrity and the antiviral immunity against measles, and deficiency worsens the severity of the infection and its complications.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Selenium antioxidant defence: selenium and its selenoproteins support the antioxidant defence (xanthine oxidase and vitamin-A depletion already mapped) against the oxidative injury of measles, and deficiency aggravates the disease.
+- `connects-to` → **[Omega-3 fatty acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Omega-3 inflammation resolution: the omega-3 fatty acids give rise to pro-resolving mediators that limit the excessive lung (already mapped) inflammation (prostaglandins already mapped) of measles pneumonia, aiding recovery from the commonest fatal complication.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)
