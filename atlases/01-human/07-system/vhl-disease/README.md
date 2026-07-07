@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Tumour-associated macrophages: the M2 (IL-4 and IL-13 already mapped) tumour-associated macrophages of the immunosuppressive microenvironment of the clear-cell renal cell carcinoma of VHL disease."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the anti-tumour immunity of the immunogenic clear-cell renal cell carcinoma of VHL disease."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) anti-tumour response of the renal-cell-carcinoma immune microenvironment of VHL disease."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 arm of the immune microenvironment of the VHL-associated tumours."
 ---
 
 # VHL Disease
@@ -701,6 +710,9 @@ The genotype-phenotype correlation reflects the degree of pVHL function retained
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — EPO-hepcidin axis: the erythropoietin (already mapped)-driven erythroferrone suppresses the hepcidin to mobilise the iron (already mapped) for the polycythaemia of the HIF-activated (already mapped) VHL disease.
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — RCC immunogenicity: type-I interferon, downstream of the cGAS-STING (already mapped) innate sensing, shapes the immunogenicity and the checkpoint (PD-1 already mapped) response of the clear-cell renal cell carcinoma of VHL disease.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumour-associated macrophages: the M2 (IL-4 and IL-13 already mapped) tumour-associated macrophages of the immunosuppressive microenvironment of the clear-cell renal cell carcinoma of VHL disease.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the anti-tumour immunity of the immunogenic clear-cell renal cell carcinoma of VHL disease.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) anti-tumour response of the renal-cell-carcinoma immune microenvironment of VHL disease.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 arm of the immune microenvironment of the VHL-associated tumours.
 
 [^lonser-2003-vhl-disease]: Lonser RR, Glenn GM, Walther M, et al. von Hippel-Lindau disease. *Lancet.* 2003;361(9374):2059-2067. [doi:10.1016/S0140-6736(03)13643-4](https://doi.org/10.1016/S0140-6736(03)13643-4) · [PubMed 12814730](https://pubmed.ncbi.nlm.nih.gov/12814730/)
 [^choueiri-2020-hif2-rcc]: Choueiri TK, Kaelin WG Jr. Targeting the HIF2-VEGF axis in renal cell carcinoma. *Nat Med.* 2020;26(10):1519-1530. [doi:10.1038/s41591-020-1093-z](https://doi.org/10.1038/s41591-020-1093-z) · [PubMed 33020650](https://pubmed.ncbi.nlm.nih.gov/33020650/)

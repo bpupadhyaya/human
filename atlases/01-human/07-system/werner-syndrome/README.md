@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/07-system/osteosarcoma
     relation: connects-to
     note: "Sarcoma predisposition: Werner syndrome (WRN already mapped) carries a high risk of sarcomas, notably the osteosarcoma (often at unusual sites), a leading cancer of the syndrome."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Immunosenescence: the NK cells (perforin already mapped) decline as part of the accelerated immunosenescence of the premature-aging phenotype of Werner syndrome."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Inflammaging Th1 arm: the IFN-γ of the T cells is the type-II interferon arm (with the type-I interferon already mapped) of the chronic 'inflammaging' (IL-6 and TNF already mapped) of Werner syndrome."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the inflammatory dimension of the accelerated aging of Werner syndrome."
 ---
 
 # Werner Syndrome
@@ -742,6 +751,9 @@ cross_links:
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Senescence interferon: the cGAS-STING (already mapped) sensing of the genomic instability and cytoplasmic DNA of the WRN-deficient (already mapped) senescent cells drives the type-I interferon and the SASP (IL-6 and TNF already mapped) of Werner syndrome.
 - `connects-to` → **[Bloom syndrome](../bloom-syndrome/README.md)** — RecQ-helicase sibling: Bloom syndrome (BLM already mapped), with Werner (WRN already mapped) and Rothmund-Thomson (already mapped), are the RecQ-helicase genome-instability syndromes sharing the DNA-repair defect and cancer predisposition.
 - `connects-to` → **[Osteosarcoma](../osteosarcoma/README.md)** — Sarcoma predisposition: Werner syndrome (WRN already mapped) carries a high risk of sarcomas, notably the osteosarcoma (often at unusual sites), a leading cancer of the syndrome.
+- `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Immunosenescence: the NK cells (perforin already mapped) decline as part of the accelerated immunosenescence of the premature-aging phenotype of Werner syndrome.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Inflammaging Th1 arm: the IFN-γ of the T cells is the type-II interferon arm (with the type-I interferon already mapped) of the chronic 'inflammaging' (IL-6 and TNF already mapped) of Werner syndrome.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the inflammatory dimension of the accelerated aging of Werner syndrome.
 
 [^yu-1996-wrn]: Yu CE, Oshima J, Fu YH, et al. Positional cloning of the Werner's syndrome gene. *Science.* 1996;272(5259):258-262. [doi:10.1126/science.272.5259.258](https://doi.org/10.1126/science.272.5259.258) · [PubMed 8602509](https://pubmed.ncbi.nlm.nih.gov/8602509/)
 [^lauper-2013-wrn-neoplasia]: Lauper JM, Krause A, Vaughan TL, Monnat RJ Jr. Spectrum and risk of neoplasia in Werner syndrome: a systematic review. *PLoS One.* 2013;8(4):e59709. [doi:10.1371/journal.pone.0059709](https://doi.org/10.1371/journal.pone.0059709) · [PubMed 23579047](https://pubmed.ncbi.nlm.nih.gov/23579047/)
