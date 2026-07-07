@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative microenvironment: the schwannomas generate oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species are part of the tumour and neuroinflammatory microenvironment of schwannomatosis."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Analgesic magnesium: magnesium blocks the NMDA receptor of the glutamate (already mapped) signalling, and it is used as an adjunct for the chronic neuropathic pain (substance P and CGRP already mapped) that dominates schwannomatosis."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Proton radiotherapy: proton radiosurgery treats the spinal and skull-base schwannomas of schwannomatosis where surgery risks the nerve, sparing the adjacent cord and cranial nerves."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Eosinophilic milieu: IL-5, with the mast cells and the type-2 cytokines (IL-4 and IL-13 already mapped), recruits eosinophils to the neuroinflammatory schwannoma microenvironment behind the chronic pain of schwannomatosis."
 ---
 
 # Schwannomatosis
@@ -657,6 +666,9 @@ Both NF2 (22q12.2), SMARCB1 (22q11.23), and LZTR1 (22q11.21) are on chromosome 2
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Type-2 mast-cell milieu: IL-4 supports the mast cells (already mapped) and polarises macrophages (already mapped) toward an M2 phenotype (IL-10 already mapped), part of the type-2 neuroinflammatory microenvironment that drives the pain of schwannomatosis.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 inflammation: IL-13, with IL-4 (already mapped), reflects the type-2 cytokine arm of the mast-cell-rich (already mapped) neuroinflammatory milieu of the schwannomas, part of the microenvironment behind the chronic pain of schwannomatosis.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative microenvironment: the schwannomas generate oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species are part of the tumour and neuroinflammatory microenvironment of schwannomatosis.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Analgesic magnesium: magnesium blocks the NMDA receptor of the glutamate (already mapped) signalling, and it is used as an adjunct for the chronic neuropathic pain (substance P and CGRP already mapped) that dominates schwannomatosis.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Proton radiotherapy: proton radiosurgery treats the spinal and skull-base schwannomas of schwannomatosis where surgery risks the nerve, sparing the adjacent cord and cranial nerves.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Eosinophilic milieu: IL-5, with the mast cells and the type-2 cytokines (IL-4 and IL-13 already mapped), recruits eosinophils to the neuroinflammatory schwannoma microenvironment behind the chronic pain of schwannomatosis.
 
 [^merker-2012-schwannomatosis]: Merker VL, Esparza S, Smith MJ, Stemmer-Rachamimov A, Plotkin SR. Clinical features of schwannomatosis: a retrospective analysis of 87 patients. *Oncologist.* 2012;17(10):1317-1322. [doi:10.1634/theoncologist.2012-0162](https://doi.org/10.1634/theoncologist.2012-0162) · [PubMed 22927469](https://pubmed.ncbi.nlm.nih.gov/22927469/)
 [^piotrowski-2014-lztr1]: Piotrowski A, Xie J, Liu YF, et al. Germline loss-of-function mutations in LZTR1 predispose to an inherited disorder of multiple schwannomas. *Nat Genet.* 2014;46(2):182-187. [doi:10.1038/ng.2855](https://doi.org/10.1038/ng.2855) · [PubMed 24362817](https://pubmed.ncbi.nlm.nih.gov/24362817/)

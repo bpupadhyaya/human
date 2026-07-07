@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/02-atomic/copper
     relation: connects-to
     note: "Copper and psychosis: copper is a cofactor in dopamine metabolism (dopamine already mapped), and disordered copper handling, as in Wilson's disease, can produce a psychosis that mimics schizophrenia, linking the trace metal to the disorder."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Microglial polarisation: IL-4 polarises the microglia (already mapped) toward an anti-inflammatory M2 phenotype (IL-10 already mapped), the balance against the neuroinflammation (TNF, IL-6 and IL-1 already mapped) implicated in schizophrenia."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 neuroimmunity: IL-13, with IL-4 (already mapped), is part of the type-2 arm whose balance against the pro-inflammatory signals shapes the neuroinflammatory dimension of schizophrenia."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Metabolic adipokine: resistin, with leptin (already mapped), is part of the adipokine milieu of the metabolic syndrome (insulin and cholesterol already mapped) worsened by the antipsychotics and the disease in schizophrenia."
 ---
 
 # Schizophrenia
@@ -731,6 +740,9 @@ Notably, schizophrenia shares genetic loci with bipolar disorder, ASD, ADHD, maj
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Antipsychotic dyslipidaemia: the second-generation antipsychotics raise cholesterol and drive the metabolic syndrome (insulin and leptin already mapped), a major contributor to the cardiovascular mortality that shortens life in schizophrenia.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Neuroimmune balance: the anti-inflammatory IL-10 counters the microglial pro-inflammatory cytokines (TNF, IL-6 and IL-1 already mapped) implicated in schizophrenia, part of the neuroinflammatory dimension of the disorder.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper and psychosis: copper is a cofactor in dopamine metabolism (dopamine already mapped), and disordered copper handling, as in Wilson's disease, can produce a psychosis that mimics schizophrenia, linking the trace metal to the disorder.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Microglial polarisation: IL-4 polarises the microglia (already mapped) toward an anti-inflammatory M2 phenotype (IL-10 already mapped), the balance against the neuroinflammation (TNF, IL-6 and IL-1 already mapped) implicated in schizophrenia.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 neuroimmunity: IL-13, with IL-4 (already mapped), is part of the type-2 arm whose balance against the pro-inflammatory signals shapes the neuroinflammatory dimension of schizophrenia.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Metabolic adipokine: resistin, with leptin (already mapped), is part of the adipokine milieu of the metabolic syndrome (insulin and cholesterol already mapped) worsened by the antipsychotics and the disease in schizophrenia.
 
 [^howes-2009-dopamine-hypothesis]: Howes OD, Kapur S. The dopamine hypothesis of schizophrenia: version III—the final common pathway. *Schizophr Bull.* 2009;35(3):549-562. [doi:10.1093/schbul/sbp006](https://doi.org/10.1093/schbul/sbp006) · [PubMed 19325164](https://pubmed.ncbi.nlm.nih.gov/19325164/)
 [^moghaddam-2012-glutamate]: Moghaddam B, Javitt D. From revolution to evolution: the glutamate hypothesis of schizophrenia and its implication for treatment. *Neuropsychopharmacology.* 2012;37(1):4-15. [doi:10.1038/npp.2011.181](https://doi.org/10.1038/npp.2011.181) · [PubMed 21956446](https://pubmed.ncbi.nlm.nih.gov/21956446/)
