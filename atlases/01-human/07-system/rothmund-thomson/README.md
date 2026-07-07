@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "Immunosuppressive microenvironment: IL-10 helps make the Rothmund-Thomson osteosarcomas immunologically cold (PD-1 already mapped), dampening the T-cell response and limiting the benefit of single-agent checkpoint blockade."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped) in the Rothmund-Thomson osteosarcomas, part of their cold immune microenvironment."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "UV and osteolytic inflammation: prostaglandins from the sun-damaged poikilodermatous skin and from the osteosarcoma's bone-resorptive microenvironment (RANKL already mapped) contribute to the inflammation of the tissues affected in Rothmund-Thomson."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Pulmonary metastases: the lungs are the commonest site of metastasis of the osteosarcomas that arise in Rothmund-Thomson, the pulmonary spread driving the prognosis of the malignancy."
 ---
 
 # Rothmund-Thomson Syndrome
@@ -680,6 +689,9 @@ The cardinal features of RTS type II are: (1) **poikiloderma** — the defining 
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Chemotherapy anaemia: the intensive chemotherapy treating the osteosarcomas (already mapped) of Rothmund-Thomson is myelosuppressive, lowering haemoglobin, and the genome-instability disorder can be sensitive to this treatment toxicity.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Anthracycline cardiotoxicity: the doxorubicin in osteosarcoma regimens for Rothmund-Thomson is cardiotoxic, and troponin elevation helps detect the cumulative myocardial injury threatening these young patients.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 helps make the Rothmund-Thomson osteosarcomas immunologically cold (PD-1 already mapped), dampening the T-cell response and limiting the benefit of single-agent checkpoint blockade.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped) in the Rothmund-Thomson osteosarcomas, part of their cold immune microenvironment.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — UV and osteolytic inflammation: prostaglandins from the sun-damaged poikilodermatous skin and from the osteosarcoma's bone-resorptive microenvironment (RANKL already mapped) contribute to the inflammation of the tissues affected in Rothmund-Thomson.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Pulmonary metastases: the lungs are the commonest site of metastasis of the osteosarcomas that arise in Rothmund-Thomson, the pulmonary spread driving the prognosis of the malignancy.
 
 [^kitao-1999-recql4-rts]: Kitao S, Shimamoto A, Goto M, et al. Mutations in RECQL4 cause a subset of cases of Rothmund-Thomson syndrome. *Nat Genet.* 1999;22(1):82-84. [doi:10.1038/8788](https://doi.org/10.1038/8788) · [PubMed 10319867](https://pubmed.ncbi.nlm.nih.gov/10319867/)
 [^wang-2003-rts-cancer]: Wang LL, Gannavarapu A, Kozinetz CA, et al. Association between osteosarcoma and deleterious mutations in the RECQL4 gene in Rothmund-Thomson syndrome. *J Natl Cancer Inst.* 2003;95(9):669-674. [doi:10.1093/jnci/95.9.669](https://doi.org/10.1093/jnci/95.9.669) · [PubMed 12734318](https://pubmed.ncbi.nlm.nih.gov/12734318/)
