@@ -427,6 +427,15 @@ cross_links:
   - target: 01-human/03-molecular/il-13
     relation: connects-to
     note: "Type-2 cytokine axis: IL-13, with IL-4 (already mapped), completes the type-2 cytokine support for the B-cell autoantibody responses and the fibrotic remodelling seen in the interstitial lung disease of dermatomyositis."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "Vasculopathy: the angiopoietin-Tie2 axis reflects the vasculopathy of dermatomyositis (endothelin-1 and VEGF already mapped), the capillary dropout and perifascicular atrophy that are hallmarks of its muscle and skin disease."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Anaemia of inflammation: the chronic IL-6 (already mapped) inflammation of dermatomyositis raises hepcidin, sequestering iron to produce the anaemia of chronic disease seen in active disease."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Iron sequestration: the systemic inflammation of dermatomyositis sequesters iron through hepcidin (already mapped), causing the anaemia of chronic disease, part of its systemic involvement."
 ---
 ---
 
@@ -689,6 +698,9 @@ DM carries a ~3–7× elevated cancer risk overall. Anti-TIF1γ (TRIM33) suppres
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative muscle injury: the inflamed, ischaemic perifascicular muscle of dermatomyositis (HIF already mapped) generates oxidative stress, to which xanthine oxidase contributes, and the reactive oxygen species add to the fibre damage and weakness.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Inflammatory eicosanoids: prostaglandins from the inflamed muscle and skin (IL-6 and IL-1 already mapped) contribute to the pain and inflammation of dermatomyositis, part of the eicosanoid dimension of its myositis and rash.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 cytokine axis: IL-13, with IL-4 (already mapped), completes the type-2 cytokine support for the B-cell autoantibody responses and the fibrotic remodelling seen in the interstitial lung disease of dermatomyositis.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Vasculopathy: the angiopoietin-Tie2 axis reflects the vasculopathy of dermatomyositis (endothelin-1 and VEGF already mapped), the capillary dropout and perifascicular atrophy that are hallmarks of its muscle and skin disease.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of inflammation: the chronic IL-6 (already mapped) inflammation of dermatomyositis raises hepcidin, sequestering iron to produce the anaemia of chronic disease seen in active disease.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron sequestration: the systemic inflammation of dermatomyositis sequesters iron through hepcidin (already mapped), causing the anaemia of chronic disease, part of its systemic involvement.
 
 [^bohan-peter-1975-dm-criteria]: Bohan A, Peter JB. Polymyositis and dermatomyositis. *N Engl J Med.* 1975;292(7):344-347. [doi:10.1056/NEJM197502132920706](https://doi.org/10.1056/NEJM197502132920706) · [PubMed 1090839](https://pubmed.ncbi.nlm.nih.gov/1090839/)
 [^lundberg-2021-iim-classification]: Lundberg IE, et al. 2017 EULAR/ACR classification criteria for adult and juvenile idiopathic inflammatory myopathies. *Arthritis Rheumatol.* 2017;69(12):2271-2282. [doi:10.1002/art.40320](https://doi.org/10.1002/art.40320) · [PubMed 29106061](https://pubmed.ncbi.nlm.nih.gov/29106061/)

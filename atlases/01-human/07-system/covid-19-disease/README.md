@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "Immune counter-regulation: IL-10 rises as a counter-regulatory response to the hyperinflammation of severe COVID-19 (IL-6 and IL-1 already mapped), and the balance between pro- and anti-inflammatory signals shapes whether the cytokine storm resolves."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Eicosanoid inflammation: prostaglandins from the COX pathway (IL-6 and IL-1 already mapped) amplify the inflammation of COVID-19, and thromboxane on the activated platelets (PF4 already mapped) contributes to the immunothrombosis."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "RAAS dysregulation: SARS-CoV-2 downregulates ACE2 (already mapped), the enzyme that degrades angiotensin II (already mapped), shifting the renin-angiotensin balance toward vasoconstriction and inflammation in severe COVID-19."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Zinc and antiviral immunity: zinc supports antiviral immunity and inhibits coronavirus replication in vitro, and the anosmia and dysgeusia of COVID-19 have been linked to disturbed zinc-dependent taste and smell signalling."
 ---
 
 # COVID-19 Disease
@@ -620,6 +629,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Endothelial dysfunction: SARS-CoV-2 injury to the endothelium (already mapped) reduces protective nitric oxide, contributing to the vasoconstriction and microthrombosis of COVID-19, and inhaled nitric oxide has been trialled for the hypoxaemia.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Vascular permeability: VEGF released in the inflamed COVID-19 lung raises vascular permeability, worsening the pulmonary oedema of acute respiratory distress syndrome (angiopoietin already mapped) that impairs gas exchange.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immune counter-regulation: IL-10 rises as a counter-regulatory response to the hyperinflammation of severe COVID-19 (IL-6 and IL-1 already mapped), and the balance between pro- and anti-inflammatory signals shapes whether the cytokine storm resolves.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Eicosanoid inflammation: prostaglandins from the COX pathway (IL-6 and IL-1 already mapped) amplify the inflammation of COVID-19, and thromboxane on the activated platelets (PF4 already mapped) contributes to the immunothrombosis.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — RAAS dysregulation: SARS-CoV-2 downregulates ACE2 (already mapped), the enzyme that degrades angiotensin II (already mapped), shifting the renin-angiotensin balance toward vasoconstriction and inflammation in severe COVID-19.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and antiviral immunity: zinc supports antiviral immunity and inhibits coronavirus replication in vitro, and the anosmia and dysgeusia of COVID-19 have been linked to disturbed zinc-dependent taste and smell signalling.
 
 ## Pathology
 
