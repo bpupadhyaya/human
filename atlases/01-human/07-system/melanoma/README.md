@@ -436,6 +436,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "Melanocyte metals: zinc supports the melanocyte enzymes of melanogenesis and the skin's zinc-dependent function, part of the trace-metal biology of the melanocytes from which melanoma arises."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Interferon adjuvant immunotherapy: interferon-α was the historical adjuvant immunotherapy of high-risk melanoma, and the type-I interferon signalling shapes the immunogenicity and the checkpoint (PD-1 already mapped) response of the tumour."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Metabolic-immune adipokine: leptin, part of the obesity-melanoma metabolic axis, modulates the tumour and the T-cell (already mapped) immune response of melanoma."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Microenvironment adipokine: adiponectin, with leptin (already mapped), is part of the adipokine modulation of the melanoma microenvironment and the immunotherapy response."
 ---
 
 # Melanoma
@@ -665,6 +674,9 @@ cross_links:
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immunosuppressive microenvironment that checkpoint immunotherapy must overcome in melanoma.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Ferroptosis vulnerability: the iron-dependent lipid peroxidation of ferroptosis is a vulnerability of the drug-tolerant, dedifferentiated melanoma cells (NRF2 already mapped), an emerging angle against treatment-resistant disease.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Melanocyte metals: zinc supports the melanocyte enzymes of melanogenesis and the skin's zinc-dependent function, part of the trace-metal biology of the melanocytes from which melanoma arises.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Interferon adjuvant immunotherapy: interferon-α was the historical adjuvant immunotherapy of high-risk melanoma, and the type-I interferon signalling shapes the immunogenicity and the checkpoint (PD-1 already mapped) response of the tumour.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Metabolic-immune adipokine: leptin, part of the obesity-melanoma metabolic axis, modulates the tumour and the T-cell (already mapped) immune response of melanoma.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Microenvironment adipokine: adiponectin, with leptin (already mapped), is part of the adipokine modulation of the melanoma microenvironment and the immunotherapy response.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

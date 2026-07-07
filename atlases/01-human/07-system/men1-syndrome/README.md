@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "Islet zinc: zinc is stored with insulin (already mapped) in the islet secretory granules, and the zinc-insulin hexamer is part of the biology of the insulinomas and other pancreatic neuroendocrine tumours of MEN1."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Steroidogenesis substrate: cholesterol is the precursor of the cortisol and aldosterone (already mapped) of the adrenocortical (adrenal already mapped) tumours that occur in MEN1."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Islet-tumour metabolic adipokine: leptin reflects the metabolic disturbance of the insulinoma and glucagonoma (insulin and glucagon already mapped) and the endocrine tumours of MEN1."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic disturbance of the pancreatic-islet and endocrine tumours of MEN1."
 ---
 
 # MEN1 Syndrome
@@ -687,6 +696,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune microenvironment of the MEN1 neuroendocrine tumours.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the microenvironment of the MEN1 neuroendocrine tumours.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Islet zinc: zinc is stored with insulin (already mapped) in the islet secretory granules, and the zinc-insulin hexamer is part of the biology of the insulinomas and other pancreatic neuroendocrine tumours of MEN1.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Steroidogenesis substrate: cholesterol is the precursor of the cortisol and aldosterone (already mapped) of the adrenocortical (adrenal already mapped) tumours that occur in MEN1.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Islet-tumour metabolic adipokine: leptin reflects the metabolic disturbance of the insulinoma and glucagonoma (insulin and glucagon already mapped) and the endocrine tumours of MEN1.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic disturbance of the pancreatic-islet and endocrine tumours of MEN1.
 
 ---
 
