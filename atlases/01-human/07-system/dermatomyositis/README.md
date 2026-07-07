@@ -445,6 +445,15 @@ cross_links:
   - target: 01-human/07-system/gastric-cancer
     relation: connects-to
     note: "Paraneoplastic malignancy: dermatomyositis is associated with gastric and nasopharyngeal cancers (with ovarian and lung already mapped), the paraneoplastic link that makes it a marker of occult malignancy."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Immune-metabolic adipokine: leptin is part of the immune-metabolic milieu and the steroid (cortisol already mapped)-related metabolic disturbance of dermatomyositis."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the immune-metabolic milieu of dermatomyositis."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the systemic inflammation (IL-6 already mapped) of dermatomyositis."
 ---
 ---
 
@@ -713,6 +722,9 @@ DM carries a ~3–7× elevated cancer risk overall. Anti-TIF1γ (TRIM33) suppres
 - `connects-to` → **[Von Willebrand factor](../../03-molecular/von-willebrand-factor/README.md)** — Vasculopathy marker: the endothelial injury of the vasculopathy (endothelin-1 and angiopoietin already mapped) of dermatomyositis raises von Willebrand factor, reflecting the capillary damage that underlies the perifascicular pathology.
 - `connects-to` → **[NSCLC](../nsclc/README.md)** — Paraneoplastic malignancy: dermatomyositis, especially with the anti-TIF1γ antibody, carries a markedly raised cancer risk including lung cancer, mandating malignancy screening at diagnosis.
 - `connects-to` → **[Gastric cancer](../gastric-cancer/README.md)** — Paraneoplastic malignancy: dermatomyositis is associated with gastric and nasopharyngeal cancers (with ovarian and lung already mapped), the paraneoplastic link that makes it a marker of occult malignancy.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Immune-metabolic adipokine: leptin is part of the immune-metabolic milieu and the steroid (cortisol already mapped)-related metabolic disturbance of dermatomyositis.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the immune-metabolic milieu of dermatomyositis.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the systemic inflammation (IL-6 already mapped) of dermatomyositis.
 
 [^bohan-peter-1975-dm-criteria]: Bohan A, Peter JB. Polymyositis and dermatomyositis. *N Engl J Med.* 1975;292(7):344-347. [doi:10.1056/NEJM197502132920706](https://doi.org/10.1056/NEJM197502132920706) · [PubMed 1090839](https://pubmed.ncbi.nlm.nih.gov/1090839/)
 [^lundberg-2021-iim-classification]: Lundberg IE, et al. 2017 EULAR/ACR classification criteria for adult and juvenile idiopathic inflammatory myopathies. *Arthritis Rheumatol.* 2017;69(12):2271-2282. [doi:10.1002/art.40320](https://doi.org/10.1002/art.40320) · [PubMed 29106061](https://pubmed.ncbi.nlm.nih.gov/29106061/)

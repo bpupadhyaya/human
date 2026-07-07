@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/leptin
     relation: connects-to
     note: "Obesity risk: the adipokine leptin links obesity — a major risk factor for severe COVID-19 — to the metabolic-inflammatory state and impaired immunity behind the poor outcomes."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin (already mapped), is the adipose-derived adipokine of the obesity risk and the metabolic-inflammatory state of severe COVID-19."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the obesity risk and the cytokine milieu (IL-6 already mapped) of severe COVID-19."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Type-2 imbalance: IL-4 and the type-2/Th2 arm; the dysregulated type-1/type-2 balance is part of the immune dysregulation of severe COVID-19."
 ---
 
 # COVID-19 Disease
@@ -644,6 +653,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Hyperferritinaemia: the IL-6-driven (already mapped) hepcidin sequesters iron (already mapped) and drives the hyperferritinaemia that is a marker of the hyperinflammation and severity of COVID-19.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Selenium and antiviral status: the antioxidant selenoprotein status of selenium supports antiviral immunity, and low selenium has been linked to worse COVID-19 outcomes in observational studies.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Obesity risk: the adipokine leptin links obesity — a major risk factor for severe COVID-19 — to the metabolic-inflammatory state and impaired immunity behind the poor outcomes.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is the adipose-derived adipokine of the obesity risk and the metabolic-inflammatory state of severe COVID-19.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the obesity risk and the cytokine milieu (IL-6 already mapped) of severe COVID-19.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Type-2 imbalance: IL-4 and the type-2/Th2 arm; the dysregulated type-1/type-2 balance is part of the immune dysregulation of severe COVID-19.
 
 ## Pathology
 
