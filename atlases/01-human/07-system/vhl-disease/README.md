@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Adipokine milieu: resistin, with leptin and adiponectin (already mapped), is part of the pro-inflammatory adipokine milieu of the obesity implicated in the renal-cell-carcinoma risk of VHL disease."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "EPO-hepcidin axis: the erythropoietin (already mapped)-driven erythroferrone suppresses the hepcidin to mobilise the iron (already mapped) for the polycythaemia of the HIF-activated (already mapped) VHL disease."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "RCC immunogenicity: type-I interferon, downstream of the cGAS-STING (already mapped) innate sensing, shapes the immunogenicity and the checkpoint (PD-1 already mapped) response of the clear-cell renal cell carcinoma of VHL disease."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Tumour-associated macrophages: the M2 (IL-4 and IL-13 already mapped) tumour-associated macrophages of the immunosuppressive microenvironment of the clear-cell renal cell carcinoma of VHL disease."
 ---
 
 # VHL Disease
@@ -689,6 +698,9 @@ The genotype-phenotype correlation reflects the degree of pVHL function retained
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immune microenvironment of the VHL-associated tumours, including the clear-cell renal cell carcinoma.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Obesity and RCC risk: the adipokine leptin, with the fall in adiponectin (already mapped), links the obesity that raises renal-cell-carcinoma risk to the metabolic milieu promoting the clear-cell RCC of VHL disease.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine milieu: resistin, with leptin and adiponectin (already mapped), is part of the pro-inflammatory adipokine milieu of the obesity implicated in the renal-cell-carcinoma risk of VHL disease.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — EPO-hepcidin axis: the erythropoietin (already mapped)-driven erythroferrone suppresses the hepcidin to mobilise the iron (already mapped) for the polycythaemia of the HIF-activated (already mapped) VHL disease.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — RCC immunogenicity: type-I interferon, downstream of the cGAS-STING (already mapped) innate sensing, shapes the immunogenicity and the checkpoint (PD-1 already mapped) response of the clear-cell renal cell carcinoma of VHL disease.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumour-associated macrophages: the M2 (IL-4 and IL-13 already mapped) tumour-associated macrophages of the immunosuppressive microenvironment of the clear-cell renal cell carcinoma of VHL disease.
 
 [^lonser-2003-vhl-disease]: Lonser RR, Glenn GM, Walther M, et al. von Hippel-Lindau disease. *Lancet.* 2003;361(9374):2059-2067. [doi:10.1016/S0140-6736(03)13643-4](https://doi.org/10.1016/S0140-6736(03)13643-4) · [PubMed 12814730](https://pubmed.ncbi.nlm.nih.gov/12814730/)
 [^choueiri-2020-hif2-rcc]: Choueiri TK, Kaelin WG Jr. Targeting the HIF2-VEGF axis in renal cell carcinoma. *Nat Med.* 2020;26(10):1519-1530. [doi:10.1038/s41591-020-1093-z](https://doi.org/10.1038/s41591-020-1093-z) · [PubMed 33020650](https://pubmed.ncbi.nlm.nih.gov/33020650/)

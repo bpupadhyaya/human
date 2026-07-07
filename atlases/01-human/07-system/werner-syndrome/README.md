@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Cancer-therapy anaemia: the frequent sarcomas and other cancers of Werner syndrome and their chemotherapy cause anaemia (haemoglobin already mapped) needing transfusion, whose repeated support can load the body with iron."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Senescence interferon: the cGAS-STING (already mapped) sensing of the genomic instability and cytoplasmic DNA of the WRN-deficient (already mapped) senescent cells drives the type-I interferon and the SASP (IL-6 and TNF already mapped) of Werner syndrome."
+  - target: 01-human/07-system/bloom-syndrome
+    relation: connects-to
+    note: "RecQ-helicase sibling: Bloom syndrome (BLM already mapped), with Werner (WRN already mapped) and Rothmund-Thomson (already mapped), are the RecQ-helicase genome-instability syndromes sharing the DNA-repair defect and cancer predisposition."
+  - target: 01-human/07-system/osteosarcoma
+    relation: connects-to
+    note: "Sarcoma predisposition: Werner syndrome (WRN already mapped) carries a high risk of sarcomas, notably the osteosarcoma (often at unusual sites), a leading cancer of the syndrome."
 ---
 
 # Werner Syndrome
@@ -730,6 +739,9 @@ cross_links:
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Senescence and SASP: IL-4 and the M2 arm (IL-10 already mapped) balance the senescence-associated secretory phenotype (TNF, IL-6 and IL-1 already mapped) of the accelerated cellular ageing of Werner syndrome.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 arm: IL-13, with IL-4 (already mapped), is part of the type-2 cytokine response whose balance against the pro-inflammatory SASP shapes the inflammatory ageing of Werner syndrome.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Cancer-therapy anaemia: the frequent sarcomas and other cancers of Werner syndrome and their chemotherapy cause anaemia (haemoglobin already mapped) needing transfusion, whose repeated support can load the body with iron.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Senescence interferon: the cGAS-STING (already mapped) sensing of the genomic instability and cytoplasmic DNA of the WRN-deficient (already mapped) senescent cells drives the type-I interferon and the SASP (IL-6 and TNF already mapped) of Werner syndrome.
+- `connects-to` → **[Bloom syndrome](../bloom-syndrome/README.md)** — RecQ-helicase sibling: Bloom syndrome (BLM already mapped), with Werner (WRN already mapped) and Rothmund-Thomson (already mapped), are the RecQ-helicase genome-instability syndromes sharing the DNA-repair defect and cancer predisposition.
+- `connects-to` → **[Osteosarcoma](../osteosarcoma/README.md)** — Sarcoma predisposition: Werner syndrome (WRN already mapped) carries a high risk of sarcomas, notably the osteosarcoma (often at unusual sites), a leading cancer of the syndrome.
 
 [^yu-1996-wrn]: Yu CE, Oshima J, Fu YH, et al. Positional cloning of the Werner's syndrome gene. *Science.* 1996;272(5259):258-262. [doi:10.1126/science.272.5259.258](https://doi.org/10.1126/science.272.5259.258) · [PubMed 8602509](https://pubmed.ncbi.nlm.nih.gov/8602509/)
 [^lauper-2013-wrn-neoplasia]: Lauper JM, Krause A, Vaughan TL, Monnat RJ Jr. Spectrum and risk of neoplasia in Werner syndrome: a systematic review. *PLoS One.* 2013;8(4):e59709. [doi:10.1371/journal.pone.0059709](https://doi.org/10.1371/journal.pone.0059709) · [PubMed 23579047](https://pubmed.ncbi.nlm.nih.gov/23579047/)
