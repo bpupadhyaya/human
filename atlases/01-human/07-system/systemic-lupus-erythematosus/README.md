@@ -430,6 +430,15 @@ cross_links:
   - target: 03-medicine/03-food/omega-3-fatty-acids
     relation: connects-to
     note: "Omega-3 and inflammation: the omega-3 fatty acids give rise to specialised pro-resolving mediators that counter the inflammatory eicosanoids (prostaglandins already mapped), studied as a dietary adjunct to reduce disease activity in lupus."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Th2 arm: IL-13, with IL-4 (already mapped), is part of the Th2 arm of the imbalanced T-helper response (IFN-γ and IL-17 already mapped) that contributes to the autoantibody production of systemic lupus erythematosus."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Adipokine and autoimmunity: leptin, elevated in lupus, promotes the autoreactive Th17 and T-follicular-helper (IL-17 already mapped) responses, linking the metabolic-inflammatory state to the disease activity of systemic lupus erythematosus."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin (already mapped), is a pro-inflammatory adipokine elevated in systemic lupus erythematosus that correlates with disease activity and the accelerated cardiovascular risk (cholesterol already mapped)."
 ---
 
 # Systemic Lupus Erythematosus
@@ -691,6 +700,9 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of inflammation: the chronic IL-6 (already mapped) inflammation of lupus raises hepcidin, sequestering iron to produce the anaemia of chronic disease that adds to the autoimmune haemolytic anaemia (haemoglobin already mapped) of the disease.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron and anaemia: lupus causes a multifactorial anaemia — the iron sequestration of inflammation (hepcidin already mapped) and the autoimmune haemolysis (haemoglobin already mapped) — that reflects its systemic haematological involvement.
 - `connects-to` → **[Omega-3 fatty acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Omega-3 and inflammation: the omega-3 fatty acids give rise to specialised pro-resolving mediators that counter the inflammatory eicosanoids (prostaglandins already mapped), studied as a dietary adjunct to reduce disease activity in lupus.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Th2 arm: IL-13, with IL-4 (already mapped), is part of the Th2 arm of the imbalanced T-helper response (IFN-γ and IL-17 already mapped) that contributes to the autoantibody production of systemic lupus erythematosus.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adipokine and autoimmunity: leptin, elevated in lupus, promotes the autoreactive Th17 and T-follicular-helper (IL-17 already mapped) responses, linking the metabolic-inflammatory state to the disease activity of systemic lupus erythematosus.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin (already mapped), is a pro-inflammatory adipokine elevated in systemic lupus erythematosus that correlates with disease activity and the accelerated cardiovascular risk (cholesterol already mapped).
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)
