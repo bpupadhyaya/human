@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Obesity and adipokines: obesity is a major risk factor for renal cell carcinoma, and the fall in the adipokine adiponectin (leptin already mapped) is part of the metabolic milieu that promotes the tumour."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage (already mapped) and type-2 milieu of the immune microenvironment of renal cell carcinoma."
+  - target: 01-human/07-system/birt-hogg-dube-syndrome
+    relation: connects-to
+    note: "Hereditary-RCC syndromes: Birt-Hogg-Dubé (FLCN already mapped), with VHL and HLRCC (already mapped), completes the group of hereditary renal cell carcinoma syndromes causing distinct RCC subtypes requiring surveillance."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Osteolytic metastasis: renal cell carcinoma is notable for its destructive, hypervascular osteolytic bone metastases (RANKL already mapped), causing pathological fractures and requiring targeted management."
 ---
 
 # Renal Cell Carcinoma
@@ -674,6 +683,9 @@ Kidney → primary site of EPO production under hypoxia; VHL-intact renal inters
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune microenvironment of the otherwise immunoresponsive renal cell carcinoma.
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Clear-cell lipid: clear-cell renal cell carcinoma accumulates cholesterol esters and lipid, giving the clear cytoplasm that names it, and the disturbed lipid metabolism is part of the metabolically rewired biology of the VHL-HIF-driven (already mapped) tumour.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Obesity and adipokines: obesity is a major risk factor for renal cell carcinoma, and the fall in the adipokine adiponectin (leptin already mapped) is part of the metabolic milieu that promotes the tumour.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage (already mapped) and type-2 milieu of the immune microenvironment of renal cell carcinoma.
+- `connects-to` → **[Birt-Hogg-Dubé syndrome](../birt-hogg-dube-syndrome/README.md)** — Hereditary-RCC syndromes: Birt-Hogg-Dubé (FLCN already mapped), with VHL and HLRCC (already mapped), completes the group of hereditary renal cell carcinoma syndromes causing distinct RCC subtypes requiring surveillance.
+- `connects-to` → **[Cortical bone](../../05-tissue/cortical-bone/README.md)** — Osteolytic metastasis: renal cell carcinoma is notable for its destructive, hypervascular osteolytic bone metastases (RANKL already mapped), causing pathological fractures and requiring targeted management.
 
 [^motzer-2018-checkmate214]: Motzer RJ, Tannir NM, McDermott DF, et al. Nivolumab plus ipilimumab versus sunitinib in advanced renal-cell carcinoma. *N Engl J Med.* 2018;378(14):1277-1290. [doi:10.1056/NEJMoa1712126](https://doi.org/10.1056/NEJMoa1712126) · [PubMed 29562145](https://pubmed.ncbi.nlm.nih.gov/29562145/)
 [^rini-2019-keynote426]: Rini BI, Plimack ER, Stus V, et al. Pembrolizumab plus axitinib versus sunitinib for advanced renal-cell carcinoma. *N Engl J Med.* 2019;380(12):1116-1127. [doi:10.1056/NEJMoa1816714](https://doi.org/10.1056/NEJMoa1816714) · [PubMed 30779529](https://pubmed.ncbi.nlm.nih.gov/30779529/)

@@ -419,6 +419,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "Fertilisation calcium signalling: calcium is central to reproduction, from the acrosome reaction of the sperm to the calcium wave that activates the oocyte at fertilisation, triggering the start of embryonic development."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Reproductive iron demand: hepcidin governs the iron (already mapped) balance stressed by the menstrual blood loss and, in pregnancy, the large iron demand of the growing fetus, linking reproduction to systemic iron handling."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Neuroendocrine control: the hypothalamic GnRH pulse generator of the nervous system (via the brain already mapped) drives the pituitary gonadotrophins that command the reproductive system, the neural control of reproduction."
+  - target: 01-human/07-system/endometrial-cancer
+    relation: connects-to
+    note: "Hormone-driven cancer: unopposed oestrogen (already mapped) drives endometrial cancer of the female reproductive tract, a hormone-dependent malignancy of the reproductive system's target organs."
 ---
 
 # Reproductive System
@@ -668,6 +677,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[Immune system](../immune-system/README.md)** — Reproductive immunology: the reproductive system depends on the immune system for the materno-fetal tolerance (regulatory T cells and uterine NK cells already mapped) that lets a semi-allogeneic fetus be carried, a deep interface between the two systems.
 - `connects-to` → **[Breast cancer](../breast-cancer/README.md)** — Hormone-driven cancer: the sex steroids of the reproductive system (estrogen and progesterone already mapped) drive breast cancer, whose hormone-receptor status guides the endocrine therapy targeting the reproductive-endocrine axis.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Fertilisation calcium signalling: calcium is central to reproduction, from the acrosome reaction of the sperm to the calcium wave that activates the oocyte at fertilisation, triggering the start of embryonic development.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Reproductive iron demand: hepcidin governs the iron (already mapped) balance stressed by the menstrual blood loss and, in pregnancy, the large iron demand of the growing fetus, linking reproduction to systemic iron handling.
+- `connects-to` → **[Nervous system](../nervous-system/README.md)** — Neuroendocrine control: the hypothalamic GnRH pulse generator of the nervous system (via the brain already mapped) drives the pituitary gonadotrophins that command the reproductive system, the neural control of reproduction.
+- `connects-to` → **[Endometrial cancer](../endometrial-cancer/README.md)** — Hormone-driven cancer: unopposed oestrogen (already mapped) drives endometrial cancer of the female reproductive tract, a hormone-dependent malignancy of the reproductive system's target organs.
 
 ## Pathology
 
