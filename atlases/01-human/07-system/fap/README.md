@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/hepcidin
     relation: connects-to
     note: "Iron-regulatory anaemia: hepcidin drives the iron sequestration that, with the chronic occult bleeding of the numerous adenomas (iron and haemoglobin already mapped), produces the anaemia of familial adenomatous polyposis."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Polyp-burden modifier: the obesity (leptin, adiponectin and resistin already mapped) is a modifiable factor that adds to the adenoma/polyp burden and the colorectal-cancer risk of familial adenomatous polyposis."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate adenoma immunity: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment of the FAP adenomas along the adenoma-carcinoma sequence."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Adenoma antigen presentation: the dendritic cells present the neoantigens of the accumulating FAP adenomas, the immune surveillance whose evasion accompanies the progression to colorectal cancer."
 ---
 
 # Familial Adenomatous Polyposis
@@ -719,6 +728,9 @@ With modern surveillance and prophylactic colectomy: FAP is no longer an inevita
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Obesity-adenoma adipokine: adiponectin, with leptin (already mapped), links the obesity-related metabolic milieu to the adenoma-carcinoma progression of familial adenomatous polyposis.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the obesity-related contribution to the polyp burden of familial adenomatous polyposis.
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Iron-regulatory anaemia: hepcidin drives the iron sequestration that, with the chronic occult bleeding of the numerous adenomas (iron and haemoglobin already mapped), produces the anaemia of familial adenomatous polyposis.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Polyp-burden modifier: the obesity (leptin, adiponectin and resistin already mapped) is a modifiable factor that adds to the adenoma/polyp burden and the colorectal-cancer risk of familial adenomatous polyposis.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate adenoma immunity: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment of the FAP adenomas along the adenoma-carcinoma sequence.
+- `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Adenoma antigen presentation: the dendritic cells present the neoantigens of the accumulating FAP adenomas, the immune surveillance whose evasion accompanies the progression to colorectal cancer.
 
 [^kinzler-1991-apc]: Kinzler KW, Nilbert MC, Su LK, et al. Identification of FAP locus genes from chromosome 5q21. *Science.* 1991;253(5020):661-665. [doi:10.1126/science.1651562](https://doi.org/10.1126/science.1651562) · [PubMed 1651562](https://pubmed.ncbi.nlm.nih.gov/1651562/)
 [^fearon-1990-vogelstein]: Fearon ER, Vogelstein B. A genetic model for colorectal tumorigenesis. *Cell.* 1990;61(5):759-767. [doi:10.1016/0092-8674(90)90186-i](https://doi.org/10.1016/0092-8674(90)90186-i) · [PubMed 2188735](https://pubmed.ncbi.nlm.nih.gov/2188735/)

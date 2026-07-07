@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Adipokine milieu: resistin, with leptin and adiponectin (already mapped), completes the marrow-adipocyte adipokine signalling of the bone-niche microenvironment of Ewing sarcoma."
+  - target: 01-human/07-system/all
+    relation: connects-to
+    note: "Small-round-blue-cell/marrow differential: Ewing sarcoma is in the small-round-blue-cell tumour and marrow-infiltration differential with the acute lymphoblastic leukaemia in the child/young adult."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Anaemia of chronic disease: hepcidin, driven by the tumour inflammation (IL-6 already mapped), sequesters iron and produces the anaemia of chronic disease (haemoglobin already mapped) of Ewing sarcoma."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate antitumour interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment relevant to the immunotherapy of Ewing sarcoma."
 ---
 
 # Ewing Sarcoma
@@ -702,6 +711,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Marrow-bone adipokine: leptin from the marrow adipose tissue of the bone-marrow (already mapped) microenvironment signals to the Ewing sarcoma cells, part of the bone-niche metabolic crosstalk.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine niche: adiponectin, with leptin (already mapped), from the marrow adipose tissue signals within the bone-niche microenvironment of Ewing sarcoma.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine milieu: resistin, with leptin and adiponectin (already mapped), completes the marrow-adipocyte adipokine signalling of the bone-niche microenvironment of Ewing sarcoma.
+- `connects-to` → **[ALL](../all/README.md)** — Small-round-blue-cell/marrow differential: Ewing sarcoma is in the small-round-blue-cell tumour and marrow-infiltration differential with the acute lymphoblastic leukaemia in the child/young adult.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of chronic disease: hepcidin, driven by the tumour inflammation (IL-6 already mapped), sequesters iron and produces the anaemia of chronic disease (haemoglobin already mapped) of Ewing sarcoma.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate antitumour interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment relevant to the immunotherapy of Ewing sarcoma.
 
 ---
 
