@@ -436,6 +436,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Iron sequestration: the systemic inflammation of dermatomyositis sequesters iron through hepcidin (already mapped), causing the anaemia of chronic disease, part of its systemic involvement."
+  - target: 01-human/03-molecular/von-willebrand-factor
+    relation: connects-to
+    note: "Vasculopathy marker: the endothelial injury of the vasculopathy (endothelin-1 and angiopoietin already mapped) of dermatomyositis raises von Willebrand factor, reflecting the capillary damage that underlies the perifascicular pathology."
+  - target: 01-human/07-system/nsclc
+    relation: connects-to
+    note: "Paraneoplastic malignancy: dermatomyositis, especially with the anti-TIF1γ antibody, carries a markedly raised cancer risk including lung cancer, mandating malignancy screening at diagnosis."
+  - target: 01-human/07-system/gastric-cancer
+    relation: connects-to
+    note: "Paraneoplastic malignancy: dermatomyositis is associated with gastric and nasopharyngeal cancers (with ovarian and lung already mapped), the paraneoplastic link that makes it a marker of occult malignancy."
 ---
 ---
 
@@ -701,6 +710,9 @@ DM carries a ~3–7× elevated cancer risk overall. Anti-TIF1γ (TRIM33) suppres
 - `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Vasculopathy: the angiopoietin-Tie2 axis reflects the vasculopathy of dermatomyositis (endothelin-1 and VEGF already mapped), the capillary dropout and perifascicular atrophy that are hallmarks of its muscle and skin disease.
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of inflammation: the chronic IL-6 (already mapped) inflammation of dermatomyositis raises hepcidin, sequestering iron to produce the anaemia of chronic disease seen in active disease.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron sequestration: the systemic inflammation of dermatomyositis sequesters iron through hepcidin (already mapped), causing the anaemia of chronic disease, part of its systemic involvement.
+- `connects-to` → **[Von Willebrand factor](../../03-molecular/von-willebrand-factor/README.md)** — Vasculopathy marker: the endothelial injury of the vasculopathy (endothelin-1 and angiopoietin already mapped) of dermatomyositis raises von Willebrand factor, reflecting the capillary damage that underlies the perifascicular pathology.
+- `connects-to` → **[NSCLC](../nsclc/README.md)** — Paraneoplastic malignancy: dermatomyositis, especially with the anti-TIF1γ antibody, carries a markedly raised cancer risk including lung cancer, mandating malignancy screening at diagnosis.
+- `connects-to` → **[Gastric cancer](../gastric-cancer/README.md)** — Paraneoplastic malignancy: dermatomyositis is associated with gastric and nasopharyngeal cancers (with ovarian and lung already mapped), the paraneoplastic link that makes it a marker of occult malignancy.
 
 [^bohan-peter-1975-dm-criteria]: Bohan A, Peter JB. Polymyositis and dermatomyositis. *N Engl J Med.* 1975;292(7):344-347. [doi:10.1056/NEJM197502132920706](https://doi.org/10.1056/NEJM197502132920706) · [PubMed 1090839](https://pubmed.ncbi.nlm.nih.gov/1090839/)
 [^lundberg-2021-iim-classification]: Lundberg IE, et al. 2017 EULAR/ACR classification criteria for adult and juvenile idiopathic inflammatory myopathies. *Arthritis Rheumatol.* 2017;69(12):2271-2282. [doi:10.1002/art.40320](https://doi.org/10.1002/art.40320) · [PubMed 29106061](https://pubmed.ncbi.nlm.nih.gov/29106061/)

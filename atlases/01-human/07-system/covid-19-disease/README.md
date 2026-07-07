@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "Zinc and antiviral immunity: zinc supports antiviral immunity and inhibits coronavirus replication in vitro, and the anosmia and dysgeusia of COVID-19 have been linked to disturbed zinc-dependent taste and smell signalling."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Hyperferritinaemia: the IL-6-driven (already mapped) hepcidin sequesters iron (already mapped) and drives the hyperferritinaemia that is a marker of the hyperinflammation and severity of COVID-19."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Selenium and antiviral status: the antioxidant selenoprotein status of selenium supports antiviral immunity, and low selenium has been linked to worse COVID-19 outcomes in observational studies."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Obesity risk: the adipokine leptin links obesity — a major risk factor for severe COVID-19 — to the metabolic-inflammatory state and impaired immunity behind the poor outcomes."
 ---
 
 # COVID-19 Disease
@@ -632,6 +641,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Eicosanoid inflammation: prostaglandins from the COX pathway (IL-6 and IL-1 already mapped) amplify the inflammation of COVID-19, and thromboxane on the activated platelets (PF4 already mapped) contributes to the immunothrombosis.
 - `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — RAAS dysregulation: SARS-CoV-2 downregulates ACE2 (already mapped), the enzyme that degrades angiotensin II (already mapped), shifting the renin-angiotensin balance toward vasoconstriction and inflammation in severe COVID-19.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and antiviral immunity: zinc supports antiviral immunity and inhibits coronavirus replication in vitro, and the anosmia and dysgeusia of COVID-19 have been linked to disturbed zinc-dependent taste and smell signalling.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Hyperferritinaemia: the IL-6-driven (already mapped) hepcidin sequesters iron (already mapped) and drives the hyperferritinaemia that is a marker of the hyperinflammation and severity of COVID-19.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Selenium and antiviral status: the antioxidant selenoprotein status of selenium supports antiviral immunity, and low selenium has been linked to worse COVID-19 outcomes in observational studies.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Obesity risk: the adipokine leptin links obesity — a major risk factor for severe COVID-19 — to the metabolic-inflammatory state and impaired immunity behind the poor outcomes.
 
 ## Pathology
 
