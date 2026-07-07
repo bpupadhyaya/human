@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/prostaglandins
     relation: connects-to
     note: "Inflammatory carcinogenesis: cyclooxygenase-2 and prostaglandin E2 from the chronic biliary inflammation (IL-6 already mapped) promote the proliferation and survival of transformed cholangiocytes, part of the inflammation-driven pathogenesis of cholangiocarcinoma."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages (already mapped) toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the cold desmoplastic microenvironment that limits immunotherapy in cholangiocarcinoma."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Tumour-associated macrophages: the macrophages (CCL2 and TLR4 already mapped) infiltrate the desmoplastic stroma of cholangiocarcinoma, and their M2 polarisation supports the immunosuppression and progression of the biliary cancer."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Biliary copper: the liver (already mapped) excretes copper into bile, and the biliary obstruction of cholangiocarcinoma disrupts this excretion, linking copper handling to the cholestasis of the biliary cancer."
 ---
 
 # Cholangiocarcinoma
@@ -652,6 +661,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiotherapy and photodynamic therapy: photon radiotherapy, including stereotactic body radiotherapy, and photodynamic therapy are used to control unresectable cholangiocarcinoma and relieve biliary obstruction, options for a tumour often diagnosed too late for surgery.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the desmoplastic tumour microenvironment dampens the anti-tumour T-cell response (PD-1 already mapped), part of the immune evasion that limits immunotherapy in cholangiocarcinoma.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Inflammatory carcinogenesis: cyclooxygenase-2 and prostaglandin E2 from the chronic biliary inflammation (IL-6 already mapped) promote the proliferation and survival of transformed cholangiocytes, part of the inflammation-driven pathogenesis of cholangiocarcinoma.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages (already mapped) toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the cold desmoplastic microenvironment that limits immunotherapy in cholangiocarcinoma.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumour-associated macrophages: the macrophages (CCL2 and TLR4 already mapped) infiltrate the desmoplastic stroma of cholangiocarcinoma, and their M2 polarisation supports the immunosuppression and progression of the biliary cancer.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Biliary copper: the liver (already mapped) excretes copper into bile, and the biliary obstruction of cholangiocarcinoma disrupts this excretion, linking copper handling to the cholestasis of the biliary cancer.
 
 ---
 

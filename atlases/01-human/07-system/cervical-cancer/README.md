@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the angiogenesis and vascular tone of the cervical tumour, and it also contributes to the inflammatory milieu of persistent HPV infection."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages (already mapped) toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the microenvironment that helps the HPV-driven cancer evade immunity."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immunosuppressive microenvironment of cervical cancer."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Antioxidant defence: selenium is essential for the glutathione peroxidases that quench the oxidative stress (xanthine oxidase already mapped) of persistent HPV infection, and low selenium status has been linked to cervical dysplasia and cancer risk."
 ---
 
 # Cervical Cancer
@@ -678,6 +687,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — COX-2 carcinogenesis: HPV induces cyclooxygenase-2 and prostaglandin E2 in the cervical epithelium, promoting the inflammation, angiogenesis (VEGF already mapped) and immunosuppression of cervical carcinogenesis, and COX-2 has been studied as a target.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative HPV damage: persistent HPV infection and chronic cervical inflammation generate oxidative stress, to which xanthine oxidase contributes, adding oxidative DNA damage to the E6/E7-driven (p53 and Rb already mapped) carcinogenesis.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the angiogenesis and vascular tone of the cervical tumour, and it also contributes to the inflammatory milieu of persistent HPV infection.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages (already mapped) toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the microenvironment that helps the HPV-driven cancer evade immunity.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immunosuppressive microenvironment of cervical cancer.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Antioxidant defence: selenium is essential for the glutathione peroxidases that quench the oxidative stress (xanthine oxidase already mapped) of persistent HPV infection, and low selenium status has been linked to cervical dysplasia and cancer risk.
 
 ---
 
