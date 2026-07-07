@@ -408,6 +408,15 @@ cross_links:
   - target: 01-human/03-molecular/cholesterol
     relation: connects-to
     note: "Metabolic dysregulation: narcolepsy is associated with metabolic disturbance and dyslipidaemia (insulin and leptin already mapped), the orexin deficiency shifting energy metabolism and lipid handling toward the obesity common in the disorder."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Copper and monoamines: copper is the cofactor of dopamine-β-hydroxylase, which makes noradrenaline from dopamine (both already mapped), part of the monoamine wake-promoting systems that the orexin (already mapped) loss dysregulates in narcolepsy."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Adipokine dysregulation: adiponectin, with leptin (already mapped), is disturbed in the metabolic dysregulation of narcolepsy, the orexin loss shifting the adipokine balance toward the obesity common in the disorder."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Metabolic adipokine: resistin, with leptin and adiponectin (already mapped), is part of the adipokine milieu of the metabolic dysregulation (insulin already mapped) associated with narcolepsy."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -678,6 +687,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[NPY](../../03-molecular/npy/README.md)** — Hypothalamic arousal and feeding: neuropeptide Y and the arousal-feeding circuits interact with the lost orexin (already mapped) in the hypothalamus, part of the integrated appetite and wakefulness signalling (leptin and ghrelin already mapped) disrupted in narcolepsy.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Type-2 immune arm: IL-4, with IL-13 (already mapped), reflects the type-2 cytokine arm accompanying the dominant T-cell (already mapped) autoimmunity in the orexin-neuron destruction of narcolepsy type 1.
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Metabolic dysregulation: narcolepsy is associated with metabolic disturbance and dyslipidaemia (insulin and leptin already mapped), the orexin deficiency shifting energy metabolism and lipid handling toward the obesity common in the disorder.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper and monoamines: copper is the cofactor of dopamine-β-hydroxylase, which makes noradrenaline from dopamine (both already mapped), part of the monoamine wake-promoting systems that the orexin (already mapped) loss dysregulates in narcolepsy.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine dysregulation: adiponectin, with leptin (already mapped), is disturbed in the metabolic dysregulation of narcolepsy, the orexin loss shifting the adipokine balance toward the obesity common in the disorder.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Metabolic adipokine: resistin, with leptin and adiponectin (already mapped), is part of the adipokine milieu of the metabolic dysregulation (insulin already mapped) associated with narcolepsy.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)

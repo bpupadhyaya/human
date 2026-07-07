@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/angiopoietin
     relation: connects-to
     note: "Endothelial activation: the angiopoietin-Tie2 axis reflects the endothelial activation of the prothrombotic state of the myeloproliferative neoplasms, part of the endothelium's contribution (von Willebrand factor already mapped) to their thrombosis."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Iron restriction and anaemia: the hepcidin-mimetic rusfertide restricts iron (already mapped) to control the erythrocytosis of polycythaemia vera, while the raised hepcidin of chronic inflammation (IL-6 already mapped) contributes to the anaemia of myelofibrosis."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Inflammatory milieu: IL-4 and the M2 macrophage arm (IL-10 already mapped) shape the chronic inflammation (IL-6 and TNF already mapped) of the myeloproliferative marrow, part of the disease biology of the myeloproliferative neoplasms."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Marrow adipose crosstalk: the marrow adipocytes and their adipokine leptin signal to the clonal myeloid cells, part of the bone-marrow (already mapped) microenvironment of the myeloproliferative neoplasms."
 ---
 
 # Myeloproliferative Neoplasms
@@ -699,6 +708,9 @@ In PV and ET, JAK2 V617F also affects myeloid progenitors → granulocytosis and
 - `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Microvascular vasoconstriction: endothelin-1 and the platelet-derived vasoactive mediators contribute to the microvascular vasoconstriction behind the erythromelalgia and neurological symptoms of the myeloproliferative neoplasms.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Platelet serotonin: serotonin released from the abnormal, activated platelets (PF4 already mapped) causes vasoconstriction and amplifies aggregation, contributing to the microvascular symptoms and thrombosis of the myeloproliferative neoplasms.
 - `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Endothelial activation: the angiopoietin-Tie2 axis reflects the endothelial activation of the prothrombotic state of the myeloproliferative neoplasms, part of the endothelium's contribution (von Willebrand factor already mapped) to their thrombosis.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Iron restriction and anaemia: the hepcidin-mimetic rusfertide restricts iron (already mapped) to control the erythrocytosis of polycythaemia vera, while the raised hepcidin of chronic inflammation (IL-6 already mapped) contributes to the anaemia of myelofibrosis.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Inflammatory milieu: IL-4 and the M2 macrophage arm (IL-10 already mapped) shape the chronic inflammation (IL-6 and TNF already mapped) of the myeloproliferative marrow, part of the disease biology of the myeloproliferative neoplasms.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Marrow adipose crosstalk: the marrow adipocytes and their adipokine leptin signal to the clonal myeloid cells, part of the bone-marrow (already mapped) microenvironment of the myeloproliferative neoplasms.
 
 [^verstovsek-2012-comfort-i]: Verstovsek S, Mesa RA, Gotlib J, et al. A double-blind, placebo-controlled trial of ruxolitinib for myelofibrosis. *N Engl J Med.* 2012;366(9):799-807. [doi:10.1056/NEJMoa1110557](https://doi.org/10.1056/NEJMoa1110557) · [PubMed 22375971](https://pubmed.ncbi.nlm.nih.gov/22375971/)
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409002](https://doi.org/10.1056/NEJMoa1409002) · [PubMed 25426978](https://pubmed.ncbi.nlm.nih.gov/25426978/)
