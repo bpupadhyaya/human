@@ -408,6 +408,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "NMDA neuroprotection: magnesium blocks the NMDA receptor of the glutamate excitotoxicity (already mapped) that kills the striatal neurons, and its modulation is of interest for the excitotoxic injury of Huntington's disease."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Microglial polarisation: IL-4 polarises the microglia (already mapped) toward an anti-inflammatory M2 phenotype (IL-10 already mapped), the balance against the pro-inflammatory activation shaping the neuroinflammation of Huntington's disease."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 neuroimmunity: IL-13, with IL-4 (already mapped), supports the M2 microglial arm whose balance against the pro-inflammatory signals (TNF, IL-1 and IL-6 already mapped) shapes the neurodegeneration of Huntington's disease."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Synaptic zinc: zinc modulates the glutamatergic (already mapped) synapses of the striatum, and the zinc dyshomeostasis of Huntington's disease contributes, with iron and copper (already mapped), to the metal-linked excitotoxic neurodegeneration."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -589,3 +598,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Neuroinflammatory eicosanoids: prostaglandins from the activated microglia (already mapped) and the cyclooxygenase pathway contribute to the neuroinflammation (TNF, IL-6 and IL-1 already mapped) that accelerates the striatal neurodegeneration of Huntington's disease.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Anti-inflammatory counterweight: the anti-inflammatory IL-10 opposes the microglial pro-inflammatory response (TNF, IL-6 and IL-1 already mapped) driving the neurodegeneration, part of the neuroimmune balance in Huntington's disease.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — NMDA neuroprotection: magnesium blocks the NMDA receptor of the glutamate excitotoxicity (already mapped) that kills the striatal neurons, and its modulation is of interest for the excitotoxic injury of Huntington's disease.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Microglial polarisation: IL-4 polarises the microglia (already mapped) toward an anti-inflammatory M2 phenotype (IL-10 already mapped), the balance against the pro-inflammatory activation shaping the neuroinflammation of Huntington's disease.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 neuroimmunity: IL-13, with IL-4 (already mapped), supports the M2 microglial arm whose balance against the pro-inflammatory signals (TNF, IL-1 and IL-6 already mapped) shapes the neurodegeneration of Huntington's disease.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Synaptic zinc: zinc modulates the glutamatergic (already mapped) synapses of the striatum, and the zinc dyshomeostasis of Huntington's disease contributes, with iron and copper (already mapped), to the metal-linked excitotoxic neurodegeneration.

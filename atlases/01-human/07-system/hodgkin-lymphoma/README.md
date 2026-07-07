@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Th2 eosinophilic milieu: IgE, with the type-2 cytokines IL-4, IL-5 and IL-13 (already mapped), reflects the Th2-skewed, eosinophil-rich microenvironment that the Reed-Sternberg cells cultivate in Hodgkin lymphoma."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin sequesters iron and drives the anaemia of chronic disease (haemoglobin already mapped) common in active Hodgkin lymphoma."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "B-symptom cachexia: the systemic cytokines (TNF and IL-6 already mapped) of Hodgkin lymphoma disturb leptin and the adipokine balance, part of the weight loss and B-symptom cachexia of the disease."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Adipokine microenvironment: adiponectin, with leptin (already mapped), links the metabolic and adipose state to the systemic inflammation of Hodgkin lymphoma, part of its metabolic dimension."
 ---
 
 # Hodgkin Lymphoma
@@ -677,6 +686,9 @@ Modern protocols minimize RT fields and doses (ISRT replacing extended-field RT)
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Immunosuppressive eicosanoids: prostaglandin E2 in the Hodgkin microenvironment (IL-10 already mapped) dampens the anti-tumour immune response, part of the immunosuppression the minority Reed-Sternberg cells orchestrate in the reactive infiltrate.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the vascular tone and angiogenesis of the Hodgkin lymphoma microenvironment, part of its supportive reactive stroma.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Th2 eosinophilic milieu: IgE, with the type-2 cytokines IL-4, IL-5 and IL-13 (already mapped), reflects the Th2-skewed, eosinophil-rich microenvironment that the Reed-Sternberg cells cultivate in Hodgkin lymphoma.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin sequesters iron and drives the anaemia of chronic disease (haemoglobin already mapped) common in active Hodgkin lymphoma.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — B-symptom cachexia: the systemic cytokines (TNF and IL-6 already mapped) of Hodgkin lymphoma disturb leptin and the adipokine balance, part of the weight loss and B-symptom cachexia of the disease.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine microenvironment: adiponectin, with leptin (already mapped), links the metabolic and adipose state to the systemic inflammation of Hodgkin lymphoma, part of its metabolic dimension.
 
 [^connors-2018-echelon1]: Connors JM, Jurczak W, Straus DJ, et al. Brentuximab vedotin with chemotherapy for stage III or IV Hodgkin's lymphoma. *N Engl J Med.* 2018;378(4):331-344. [doi:10.1056/NEJMoa1708984](https://doi.org/10.1056/NEJMoa1708984) · [PubMed 29360494](https://pubmed.ncbi.nlm.nih.gov/29360494/)
 [^armand-2018-nivo-hl]: Armand P, Engert A, Younes A, et al. Nivolumab for relapsed/refractory classic Hodgkin lymphoma after failure of autologous hematopoietic cell transplantation: extended follow-up of the multicohort single-arm phase II CheckMate 205 trial. *J Clin Oncol.* 2018;36(14):1428-1439. [doi:10.1200/JCO.2017.77.6717](https://doi.org/10.1200/JCO.2017.77.6717) · [PubMed 29584546](https://pubmed.ncbi.nlm.nih.gov/29584546/)
