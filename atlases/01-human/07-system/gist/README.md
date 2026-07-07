@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "Immunosuppressive microenvironment: IL-10 in the tumour microenvironment dampens the anti-tumour T-cell response (PD-1 already mapped), part of the immune evasion relevant to the checkpoint immunotherapy explored in wild-type GIST."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune microenvironment of the gastrointestinal stromal tumour."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Tumour-associated macrophages: the macrophages (CCL2 already mapped) infiltrate the GIST stroma, and their M2 polarisation (IL-4 already mapped) supports the immunosuppression relevant to the immunotherapy explored in wild-type disease."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Iron-deficiency anaemia: the mucosal-ulcerating GIST commonly bleeds into the gut, causing the iron-deficiency anaemia (haemoglobin already mapped) that is a frequent presenting sign of the tumour."
 ---
 
 # GIST
@@ -686,6 +695,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[Neurofibromatosis type 1](../neurofibromatosis-type-1/README.md)** — NF1-associated GIST: neurofibromatosis type 1 (NF1 already mapped) predisposes to multiple small-bowel GISTs that are typically KIT/PDGFRA-wild-type and imatinib-resistant, one of the wild-type subtypes of the tumour.
 - `connects-to` → **[Carney complex](../carney-complex/README.md)** — Carney triad and dyad: SDH-deficient wild-type GIST (SDHB already mapped) occurs in the Carney triad with paraganglioma and pulmonary chondroma, and the Carney-Stratakis dyad, linking GIST to the paraganglioma syndromes.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the tumour microenvironment dampens the anti-tumour T-cell response (PD-1 already mapped), part of the immune evasion relevant to the checkpoint immunotherapy explored in wild-type GIST.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune microenvironment of the gastrointestinal stromal tumour.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumour-associated macrophages: the macrophages (CCL2 already mapped) infiltrate the GIST stroma, and their M2 polarisation (IL-4 already mapped) supports the immunosuppression relevant to the immunotherapy explored in wild-type disease.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron-deficiency anaemia: the mucosal-ulcerating GIST commonly bleeds into the gut, causing the iron-deficiency anaemia (haemoglobin already mapped) that is a frequent presenting sign of the tumour.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

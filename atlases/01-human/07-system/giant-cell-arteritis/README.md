@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/cholesterol
     relation: connects-to
     note: "Steroid dyslipidaemia: chronic glucocorticoid therapy raises cholesterol and drives an atherogenic dyslipidaemia, adding to the cardiovascular risk of the long steroid courses used in giant cell arteritis."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "Steroid osteoporosis: the prolonged high-dose glucocorticoids (already mapped) that treat giant cell arteritis activate RANKL-driven osteoclasts, causing the steroid-induced osteoporosis that needs bone-protective prophylaxis (calcium and vitamin D already mapped)."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Steroid hypokalaemia: the mineralocorticoid effect of the high-dose glucocorticoids used in giant cell arteritis promotes renal potassium loss, contributing to the hypokalaemia that adds to the steroid burden in these older patients."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Counter-regulatory arm: IL-4 and the M2 anti-inflammatory response (IL-10 already mapped) counter the dominant Th1 and Th17 (IFN-γ, IL-17 and IL-23 already mapped) drive of the arterial inflammation of giant cell arteritis."
 ---
 
 # Giant Cell Arteritis
@@ -670,6 +679,9 @@ The temporal arteries supply scalp, temporalis muscle, and dura. In GCA, transmu
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of inflammation: the IL-6 surge (already mapped) of giant cell arteritis raises hepcidin, sequestering iron to produce the anaemia of chronic disease (haemoglobin already mapped) common at presentation.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Steroid hyperglycaemia: the prolonged high-dose glucocorticoids (glucocorticoid receptor already mapped) that treat giant cell arteritis impair insulin action, causing the steroid-induced hyperglycaemia and diabetes that burden these older patients.
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Steroid dyslipidaemia: chronic glucocorticoid therapy raises cholesterol and drives an atherogenic dyslipidaemia, adding to the cardiovascular risk of the long steroid courses used in giant cell arteritis.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Steroid osteoporosis: the prolonged high-dose glucocorticoids (already mapped) that treat giant cell arteritis activate RANKL-driven osteoclasts, causing the steroid-induced osteoporosis that needs bone-protective prophylaxis (calcium and vitamin D already mapped).
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Steroid hypokalaemia: the mineralocorticoid effect of the high-dose glucocorticoids used in giant cell arteritis promotes renal potassium loss, contributing to the hypokalaemia that adds to the steroid burden in these older patients.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Counter-regulatory arm: IL-4 and the M2 anti-inflammatory response (IL-10 already mapped) counter the dominant Th1 and Th17 (IFN-γ, IL-17 and IL-23 already mapped) drive of the arterial inflammation of giant cell arteritis.
 
 [^stone-2017-giact]: Stone JH, Tuckwell K, Dimonaco S, et al. Trial of tocilizumab in giant-cell arteritis. *N Engl J Med.* 2017;377(4):317-328. [doi:10.1056/NEJMoa1613849](https://doi.org/10.1056/NEJMoa1613849) · [PubMed 28745999](https://pubmed.ncbi.nlm.nih.gov/28745999/)
 [^weyand-2014-gca-review]: Weyand CM, Goronzy JJ. Clinical practice. Giant-cell arteritis and polymyalgia rheumatica. *N Engl J Med.* 2014;371(1):50-57. [doi:10.1056/NEJMcp1214926](https://doi.org/10.1056/NEJMcp1214926) · [PubMed 24988557](https://pubmed.ncbi.nlm.nih.gov/24988557/)
