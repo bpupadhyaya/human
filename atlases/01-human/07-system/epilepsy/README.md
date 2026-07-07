@@ -445,6 +445,15 @@ cross_links:
   - target: 01-human/03-molecular/glp-1
     relation: connects-to
     note: "Incretin neuroprotection: GLP-1 and its receptor agonists have neuroprotective and possible anticonvulsant effects, linking the metabolic state (insulin already mapped) to the seizure threshold in epilepsy."
+  - target: 01-human/04-cellular/microglia
+    relation: connects-to
+    note: "Neuroinflammatory epileptogenesis: the microglial activation and the neuroinflammation (IL-1, TNF and IL-6 already mapped) drive the epileptogenesis and are a target of the anti-inflammatory antiseizure approaches."
+  - target: 01-human/07-system/autism-spectrum-disorder
+    relation: connects-to
+    note: "ASD comorbidity: epilepsy and autism spectrum disorder are highly comorbid, sharing the mTOR, channel and excitatory/inhibitory (glutamate and GABA already mapped) mechanisms."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "NMDA and eclampsia: magnesium blocks the NMDA/glutamate (already mapped) receptor and is the treatment of the eclamptic seizures; the hypomagnesaemia lowers the seizure threshold."
 ---
 
 # Epilepsy
@@ -739,6 +748,9 @@ Anti-NMDAR encephalitis is the most common autoimmune encephalitis (~37% of auto
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Neuroinflammation balance: IL-13, with IL-4 (already mapped), supports the M2 microglial anti-inflammatory arm that balances the neuroinflammation (TNF, IL-6 and IL-1 already mapped) which lowers the seizure threshold in epilepsy.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic seizure threshold: adiponectin, with leptin (already mapped), has neuroprotective and anticonvulsant effects, part of the metabolic regulation of the seizure threshold exploited by the ketogenic diet.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Incretin neuroprotection: GLP-1 and its receptor agonists have neuroprotective and possible anticonvulsant effects, linking the metabolic state (insulin already mapped) to the seizure threshold in epilepsy.
+- `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Neuroinflammatory epileptogenesis: the microglial activation and the neuroinflammation (IL-1, TNF and IL-6 already mapped) drive the epileptogenesis and are a target of the anti-inflammatory antiseizure approaches.
+- `connects-to` → **[Autism spectrum disorder](../autism-spectrum-disorder/README.md)** — ASD comorbidity: epilepsy and autism spectrum disorder are highly comorbid, sharing the mTOR, channel and excitatory/inhibitory (glutamate and GABA already mapped) mechanisms.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — NMDA and eclampsia: magnesium blocks the NMDA/glutamate (already mapped) receptor and is the treatment of the eclamptic seizures; the hypomagnesaemia lowers the seizure threshold.
 
 [^fisher-2017-ilae-classification]: Fisher RS, Cross JH, D'Souza C, et al. Instruction manual for the ILAE 2017 operational classification of seizure types. *Epilepsia.* 2017;58(4):531-542. [doi:10.1111/epi.13671](https://doi.org/10.1111/epi.13671) · [PubMed 28276060](https://pubmed.ncbi.nlm.nih.gov/28276060/)
 [^devinsky-2018-epilepsy-review]: Devinsky O, Vezzani A, O'Brien TJ, et al. Epilepsy. *Nat Rev Dis Primers.* 2018;4:18024. [doi:10.1038/nrdp.2018.24](https://doi.org/10.1038/nrdp.2018.24) · [PubMed 29722352](https://pubmed.ncbi.nlm.nih.gov/29722352/)
