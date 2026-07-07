@@ -441,6 +441,15 @@ cross_links:
   - target: 01-human/03-molecular/leptin
     relation: connects-to
     note: "Renal adipokine retention: leptin is cleared by the kidney and accumulates in chronic kidney disease, contributing to the uraemic cachexia, sympathetic activation and cardiovascular risk."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Uraemic adipokine: adiponectin, with leptin (already mapped), is cleared by and accumulates in the chronic kidney disease, part of the uraemic metabolic-cardiovascular milieu."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Uraemic inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), accumulates in the chronic kidney disease and contributes to the uraemic inflammatory (IL-6 already mapped) milieu."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Hepatorenal axis: the liver-kidney axis (the hepatorenal syndrome, the hepcidin already-mapped production driving the renal anaemia) links the liver to the chronic kidney disease."
 ---
 
 # Chronic Kidney Disease
@@ -658,6 +667,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Profibrotic type-2 cytokine: IL-13, with IL-4 (already mapped), is a profibrotic type-2 cytokine that contributes to the renal interstitial fibrosis (TGF-β already mapped) driving the progression of chronic kidney disease.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Type-2 fibrosis: IL-4 drives the M2 macrophages and the type-2 immunity involved in the renal interstitial fibrosis (TGF-β already mapped) that drives the progression of chronic kidney disease.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Renal adipokine retention: leptin is cleared by the kidney and accumulates in chronic kidney disease, contributing to the uraemic cachexia, sympathetic activation and cardiovascular risk.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Uraemic adipokine: adiponectin, with leptin (already mapped), is cleared by and accumulates in the chronic kidney disease, part of the uraemic metabolic-cardiovascular milieu.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Uraemic inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), accumulates in the chronic kidney disease and contributes to the uraemic inflammatory (IL-6 already mapped) milieu.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Hepatorenal axis: the liver-kidney axis (the hepatorenal syndrome, the hepcidin already-mapped production driving the renal anaemia) links the liver to the chronic kidney disease.
 
 ## Pathology
 

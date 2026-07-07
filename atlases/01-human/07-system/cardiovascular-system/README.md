@@ -447,6 +447,15 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: connects-to
     note: "Oxygen delivery: the fundamental purpose of the cardiovascular system is to deliver oxygen (carried on haemoglobin already mapped) to the tissues, the circulation matched to the metabolic demand."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "Contractile cells: the cardiomyocytes are the contractile cells of the heart (the excitation-contraction — troponin and SERCA2a already mapped) that drive the circulation of the cardiovascular system."
+  - target: 01-human/04-cellular/sa-node-cell
+    relation: connects-to
+    note: "Pacemaker cells: the sinoatrial-node cells (HCN4 already mapped, the funny current) set the heart rate and initiate the rhythm of the cardiovascular system."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Vascular-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose to the vascular inflammation and the cardiovascular risk of the cardiovascular system."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"
@@ -672,6 +681,9 @@ Each major vascular bed has **autoregulation** — a local mechanism that holds 
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Cardioprotective adipokine: adiponectin is an anti-atherogenic, cardioprotective adipokine of the cardiovascular system, and its fall in obesity and the metabolic syndrome (insulin and cholesterol already mapped) raises cardiovascular risk.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adipokine and blood pressure: leptin links the obesity to the sympathetic activation (noradrenaline already mapped) and the hypertension of the cardiovascular system, part of the adipose-cardiovascular crosstalk.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Oxygen delivery: the fundamental purpose of the cardiovascular system is to deliver oxygen (carried on haemoglobin already mapped) to the tissues, the circulation matched to the metabolic demand.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Contractile cells: the cardiomyocytes are the contractile cells of the heart (the excitation-contraction — troponin and SERCA2a already mapped) that drive the circulation of the cardiovascular system.
+- `connects-to` → **[SA node cell](../../04-cellular/sa-node-cell/README.md)** — Pacemaker cells: the sinoatrial-node cells (HCN4 already mapped, the funny current) set the heart rate and initiate the rhythm of the cardiovascular system.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Vascular-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose to the vascular inflammation and the cardiovascular risk of the cardiovascular system.
 
 ## Pathology
 
