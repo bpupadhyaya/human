@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/03-molecular/leptin
     relation: connects-to
     note: "Adipokine marrow signalling: leptin, with adiponectin (already mapped), from the marrow adipose tissue signals to the leukaemic cells, part of the metabolic microenvironment and the chemoresistance of acute lymphoblastic leukaemia."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Tumour-lysis hypocalcaemia: the hyperphosphataemia of the tumour lysis syndrome at ALL induction binds calcium, causing the hypocalcaemia that accompanies the hyperkalaemia (already mapped) and needs monitoring."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "M2 marrow niche: IL-13, with IL-4 (already mapped), sustains the M2 marrow macrophages of the immunosuppressive niche that shelters the lymphoblasts of acute lymphoblastic leukaemia."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Marrow-adipocyte adipokine: resistin, with leptin and adiponectin (already mapped), is part of the marrow-adipocyte adipokine crosstalk that shapes the leukaemic niche and the chemoresistance of acute lymphoblastic leukaemia."
 ---
 
 # Acute Lymphoblastic Leukemia
@@ -707,6 +716,9 @@ Childhood ALL survivors (now majority of patients): neurocognitive impairment (M
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage niche: IL-4 polarises the marrow macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the leukaemic bone-marrow (already mapped) microenvironment that shelters the lymphoblasts of acute lymphoblastic leukaemia.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Marrow-adipocyte crosstalk: the marrow adipocytes and their adipokine adiponectin engage in metabolic crosstalk with the lymphoblasts, the marrow adipose tissue shaping the niche that sustains the clone in acute lymphoblastic leukaemia.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adipokine marrow signalling: leptin, with adiponectin (already mapped), from the marrow adipose tissue signals to the leukaemic cells, part of the metabolic microenvironment and the chemoresistance of acute lymphoblastic leukaemia.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Tumour-lysis hypocalcaemia: the hyperphosphataemia of the tumour lysis syndrome at ALL induction binds calcium, causing the hypocalcaemia that accompanies the hyperkalaemia (already mapped) and needs monitoring.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — M2 marrow niche: IL-13, with IL-4 (already mapped), sustains the M2 marrow macrophages of the immunosuppressive niche that shelters the lymphoblasts of acute lymphoblastic leukaemia.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Marrow-adipocyte adipokine: resistin, with leptin and adiponectin (already mapped), is part of the marrow-adipocyte adipokine crosstalk that shapes the leukaemic niche and the chemoresistance of acute lymphoblastic leukaemia.
 
 [^pui-2018-all-cure]: Pui CH, Yang JJ, Bhakta N, et al. Global efforts toward the cure of childhood acute lymphoblastic leukemia. *Lancet Child Adolesc Health.* 2018;2(6):440-454. [doi:10.1016/S2352-4642(18)30066-X](https://doi.org/10.1016/S2352-4642(18)30066-X) · [PubMed 29976322](https://pubmed.ncbi.nlm.nih.gov/29976322/)
 [^maude-2018-tisagenlecleucel]: Maude SL, Laetsch TW, Buechner J, et al. Tisagenlecleucel in children and young adults with B-cell lymphoblastic leukemia. *N Engl J Med.* 2018;378(5):439-448. [doi:10.1056/NEJMoa1709866](https://doi.org/10.1056/NEJMoa1709866) · [PubMed 29385370](https://pubmed.ncbi.nlm.nih.gov/29385370/)

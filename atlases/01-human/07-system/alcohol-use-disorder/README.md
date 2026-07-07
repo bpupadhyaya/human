@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Hepatic iron overload: the hepcidin suppression (already mapped) and the direct effects of alcohol load the liver with iron (haemoglobin already mapped), the iron-catalysed oxidative stress worsening the alcoholic liver disease."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Profibrotic type-2 arm: IL-13, with IL-4 (already mapped), drives the M2 macrophage (already mapped) and profibrotic (TGF-β already mapped) response of the alcoholic liver fibrosis in alcohol use disorder."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Hepatic stellate cells: the fibroblast-like hepatic stellate cells, activated (TGF-β and IL-13 already mapped) by the alcoholic liver injury, lay down the collagen (already mapped) fibrosis that progresses to cirrhosis."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Adipokine and metabolism: alcohol alters the adipokine leptin of the appetite and craving and the metabolic (insulin already mapped) dysregulation, part of the systemic and hepatic metabolic disturbance of alcohol use disorder."
 ---
 
 # Alcohol Use Disorder
@@ -759,6 +768,9 @@ Prenatal alcohol exposure → leading preventable cause of intellectual disabili
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 anti-inflammatory arm: IL-4 polarises the microglia (already mapped) and the hepatic Kupffer cells toward an M2 phenotype, countering the TLR4-driven (already mapped) neuro- and hepato-inflammation of alcohol use disorder.
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Alcohol and iron: alcohol suppresses hepcidin, promoting the intestinal iron hyperabsorption and hepatic iron loading that aggravate the oxidative (xanthine oxidase already mapped) liver injury of alcohol use disorder.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Hepatic iron overload: the hepcidin suppression (already mapped) and the direct effects of alcohol load the liver with iron (haemoglobin already mapped), the iron-catalysed oxidative stress worsening the alcoholic liver disease.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Profibrotic type-2 arm: IL-13, with IL-4 (already mapped), drives the M2 macrophage (already mapped) and profibrotic (TGF-β already mapped) response of the alcoholic liver fibrosis in alcohol use disorder.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Hepatic stellate cells: the fibroblast-like hepatic stellate cells, activated (TGF-β and IL-13 already mapped) by the alcoholic liver injury, lay down the collagen (already mapped) fibrosis that progresses to cirrhosis.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adipokine and metabolism: alcohol alters the adipokine leptin of the appetite and craving and the metabolic (insulin already mapped) dysregulation, part of the systemic and hepatic metabolic disturbance of alcohol use disorder.
 
 [^koob-2013-addiction-neuroscience]: Koob GF, Volkow ND. Neurocircuitry of addiction. *Neuropsychopharmacology.* 2010;35(1):217-238. [doi:10.1038/npp.2009.110](https://doi.org/10.1038/npp.2009.110) · [PubMed 19710631](https://pubmed.ncbi.nlm.nih.gov/19710631/)
 [^anton-2006-combine]: Anton RF, O'Malley SS, Ciraulo DA, et al. Combined pharmacotherapies and behavioral interventions for alcohol dependence: the COMBINE study. *JAMA.* 2006;295(17):2003-2017. [doi:10.1001/jama.295.17.2003](https://doi.org/10.1001/jama.295.17.2003) · [PubMed 16670409](https://pubmed.ncbi.nlm.nih.gov/16670409/)
