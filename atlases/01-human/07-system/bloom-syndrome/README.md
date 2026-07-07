@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/06-organ/spleen
     relation: connects-to
     note: "Immunodeficiency: the spleen and the wider immune system are compromised in Bloom syndrome (immunoglobulin G already mapped), contributing to the recurrent infections that accompany its genome-instability and cancer predisposition."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Humoral immune dysregulation: IL-4 and the type-2 response support the B-cell (already mapped) antibody production (immunoglobulin G already mapped) impaired in Bloom syndrome, part of the humoral immunodeficiency that predisposes to recurrent infections."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Cancer-therapy anaemia: the frequent and diverse cancers of Bloom syndrome and their chemotherapy cause anaemia needing transfusion, whose repeated support can load the body with iron in these cancer-prone patients."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Growth failure and low weight: the profound growth retardation and low body weight of Bloom syndrome (growth hormone and IGF-1 already mapped) are reflected in the low leptin of the depleted adipose tissue."
 ---
 
 # Bloom Syndrome
@@ -693,6 +702,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Inflammatory dysregulation: the immune dysfunction of Bloom syndrome includes dysregulated pro-inflammatory cytokines such as IL-1 (TNF and IL-6 already mapped), contributing to the inflammatory milieu of its immunodeficiency and cancer predisposition.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunoregulatory balance: the anti-inflammatory IL-10 counters the dysregulated pro-inflammatory cytokines (TNF and IL-6 already mapped) of Bloom syndrome, and the imbalance is part of the broad immune dysfunction of the disorder.
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Immunodeficiency: the spleen and the wider immune system are compromised in Bloom syndrome (immunoglobulin G already mapped), contributing to the recurrent infections that accompany its genome-instability and cancer predisposition.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Humoral immune dysregulation: IL-4 and the type-2 response support the B-cell (already mapped) antibody production (immunoglobulin G already mapped) impaired in Bloom syndrome, part of the humoral immunodeficiency that predisposes to recurrent infections.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Cancer-therapy anaemia: the frequent and diverse cancers of Bloom syndrome and their chemotherapy cause anaemia needing transfusion, whose repeated support can load the body with iron in these cancer-prone patients.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Growth failure and low weight: the profound growth retardation and low body weight of Bloom syndrome (growth hormone and IGF-1 already mapped) are reflected in the low leptin of the depleted adipose tissue.
 
 ---
 

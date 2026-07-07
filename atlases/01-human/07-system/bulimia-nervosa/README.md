@@ -423,6 +423,15 @@ cross_links:
   - target: 01-human/03-molecular/prostaglandins
     relation: connects-to
     note: "Gastrointestinal inflammation: prostaglandins normally protect the mucosa injured by the acid reflux and vomiting of bulimia, and the oesophagitis and gastritis of purging engage the eicosanoid inflammatory response of the gut."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "Pseudo-Bartter syndrome: the volume depletion of chronic vomiting and laxative abuse activates renin and the aldosterone (already mapped) axis, causing the pseudo-Bartter syndrome and the rebound oedema on stopping purging in bulimia."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Alkalosis and calcium: the metabolic alkalosis of vomiting shifts the ionised calcium, and with the magnesium and potassium (already mapped) losses this contributes to the tetany and arrhythmia risk of bulimia."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Renal consequences: the kidney bears the electrolyte and volume disturbances of purging, activating the renin-angiotensin-aldosterone system (already mapped) and risking a hypokalaemic nephropathy from the chronic potassium (already mapped) depletion of bulimia."
 ---
 
 # Bulimia Nervosa
@@ -687,6 +696,9 @@ All of the following must be met:
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine dysregulation: the disordered eating and metabolic swings of bulimia disturb the adipokines (leptin already mapped), and altered adiponectin reflects the metabolic dysregulation that accompanies the binge-purge cycle.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative stress: the metabolic swings of bingeing and purging generate oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species add to the cellular injury of the disorder and its complications.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Gastrointestinal inflammation: prostaglandins normally protect the mucosa injured by the acid reflux and vomiting of bulimia, and the oesophagitis and gastritis of purging engage the eicosanoid inflammatory response of the gut.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — Pseudo-Bartter syndrome: the volume depletion of chronic vomiting and laxative abuse activates renin and the aldosterone (already mapped) axis, causing the pseudo-Bartter syndrome and the rebound oedema on stopping purging in bulimia.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Alkalosis and calcium: the metabolic alkalosis of vomiting shifts the ionised calcium, and with the magnesium and potassium (already mapped) losses this contributes to the tetany and arrhythmia risk of bulimia.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Renal consequences: the kidney bears the electrolyte and volume disturbances of purging, activating the renin-angiotensin-aldosterone system (already mapped) and risking a hypokalaemic nephropathy from the chronic potassium (already mapped) depletion of bulimia.
 
 ## Treatment
 
