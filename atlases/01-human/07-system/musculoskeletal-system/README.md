@@ -413,6 +413,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Urate and oxidative joint injury: xanthine oxidase produces the uric acid whose crystals cause gout in the joints, and the reactive oxygen species it generates add to the oxidative damage of inflammatory and degenerative musculoskeletal disease."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Motor innervation: the motor neurons drive skeletal muscle at the neuromuscular junction (acetylcholine already mapped), and the sensory neurons carry the proprioception and pain (substance P and CGRP already mapped) of the musculoskeletal system."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Osteoclasts and muscle repair: the macrophage lineage gives rise to the bone-resorbing osteoclasts (RANKL already mapped) and to the muscle-repair macrophages, central to remodelling and regeneration in the musculoskeletal system."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Type-2 tissue repair: IL-4 drives the M2 macrophages (already mapped) that support muscle regeneration and resolve inflammation, part of the type-2 immunity that shapes repair in the musculoskeletal system."
 ---
 
 # Musculoskeletal System
@@ -681,6 +690,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — Nociceptive innervation: substance P released by the sensory nerves of bone, joint and muscle signals the pain of musculoskeletal injury and inflammation (mu-opioid receptor already mapped), and it also participates in the neural regulation of bone remodelling.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Skeletal sensory nerves: CGRP-containing sensory fibres richly innervate the periosteum and bone, contributing to musculoskeletal pain (substance P already mapped) and to the regulation of bone formation and blood flow.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Urate and oxidative joint injury: xanthine oxidase produces the uric acid whose crystals cause gout in the joints, and the reactive oxygen species it generates add to the oxidative damage of inflammatory and degenerative musculoskeletal disease.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Motor innervation: the motor neurons drive skeletal muscle at the neuromuscular junction (acetylcholine already mapped), and the sensory neurons carry the proprioception and pain (substance P and CGRP already mapped) of the musculoskeletal system.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Osteoclasts and muscle repair: the macrophage lineage gives rise to the bone-resorbing osteoclasts (RANKL already mapped) and to the muscle-repair macrophages, central to remodelling and regeneration in the musculoskeletal system.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Type-2 tissue repair: IL-4 drives the M2 macrophages (already mapped) that support muscle regeneration and resolve inflammation, part of the type-2 immunity that shapes repair in the musculoskeletal system.
 
 ## Pathology
 

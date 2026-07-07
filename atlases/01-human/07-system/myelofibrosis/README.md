@@ -415,6 +415,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Splenomegaly and portal flow: the massive splenomegaly of myelofibrosis raises portal blood flow, and dysregulated nitric oxide contributes to the splanchnic vasodilation and portal hypertension that can complicate the extramedullary haematopoiesis."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage niche: IL-4 polarises the marrow macrophages toward an M2 phenotype (IL-10 already mapped), part of the inflammatory, fibrotic microenvironment (TGF-β and PDGF already mapped) of the myelofibrosis marrow."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Marrow adipokine signalling: leptin from the marrow adipose tissue signals to the clonal and stromal cells, part of the metabolic microenvironment of the fibrotic myelofibrosis marrow."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Marrow-adipocyte crosstalk: adiponectin, with leptin (already mapped), links the marrow adipocytes to the haematopoietic and stromal cells, part of the altered marrow microenvironment that accompanies the fibrosis of myelofibrosis."
 ---
 
 # Myelofibrosis
@@ -675,6 +684,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[Ferroportin](../../03-molecular/ferroportin/README.md)** — Iron-restricted anaemia: the chronic inflammation of myelofibrosis raises hepcidin (already mapped), which degrades ferroportin to trap iron in macrophages, contributing to the iron-restricted anaemia that adds to the marrow-failure anaemia.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Cytokine milieu: IL-10 among the cytokines of the inflammatory myelofibrosis microenvironment counters the IL-6, TNF and IL-1 (already mapped) that drive the constitutional symptoms and fibrosis, part of the dysregulated cytokine balance of the disease.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Splenomegaly and portal flow: the massive splenomegaly of myelofibrosis raises portal blood flow, and dysregulated nitric oxide contributes to the splanchnic vasodilation and portal hypertension that can complicate the extramedullary haematopoiesis.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage niche: IL-4 polarises the marrow macrophages toward an M2 phenotype (IL-10 already mapped), part of the inflammatory, fibrotic microenvironment (TGF-β and PDGF already mapped) of the myelofibrosis marrow.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Marrow adipokine signalling: leptin from the marrow adipose tissue signals to the clonal and stromal cells, part of the metabolic microenvironment of the fibrotic myelofibrosis marrow.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Marrow-adipocyte crosstalk: adiponectin, with leptin (already mapped), links the marrow adipocytes to the haematopoietic and stromal cells, part of the altered marrow microenvironment that accompanies the fibrosis of myelofibrosis.
 
 ---
 
