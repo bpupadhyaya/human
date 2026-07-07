@@ -427,6 +427,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin
     relation: connects-to
     note: "Insulin resistance: insulin resistance and hyperinsulinaemia promote endothelial dysfunction (nitric oxide already mapped) and the atherogenic dyslipidaemia (cholesterol already mapped), accelerating the atherosclerosis of the metabolic syndrome and diabetes."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Macrophage polarisation: IL-4 polarises the plaque macrophages (already mapped) toward an M2 phenotype (IL-10 already mapped), and the balance between the inflammatory and resolving macrophages shapes the stability of the atherosclerotic lesion."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Pro-atherogenic adipokine: resistin, with leptin (already mapped) and the fall in adiponectin (already mapped), is a pro-inflammatory adipokine that promotes the endothelial dysfunction and vascular inflammation of atherosclerosis."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Plaque iron handling: the hepcidin-regulated iron handling of the plaque macrophages (already mapped) influences the oxidative stress (xanthine oxidase already mapped) of the lesion, the basis of the iron hypothesis of atherosclerosis."
 ---
 
 # Atherosclerosis
@@ -677,6 +686,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Thromboxane and inflammation: the prostaglandin balance shifts toward the prothrombotic thromboxane on the atherosclerotic plaque, part of why low-dose aspirin is used, while inflammatory prostaglandins (IL-6 and IL-1 already mapped) drive the lesion.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Protective adipokine: adiponectin is anti-inflammatory and anti-atherogenic, and its fall in obesity and the metabolic syndrome (leptin already mapped) removes a brake on the vascular inflammation that drives atherosclerosis.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Insulin resistance: insulin resistance and hyperinsulinaemia promote endothelial dysfunction (nitric oxide already mapped) and the atherogenic dyslipidaemia (cholesterol already mapped), accelerating the atherosclerosis of the metabolic syndrome and diabetes.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Macrophage polarisation: IL-4 polarises the plaque macrophages (already mapped) toward an M2 phenotype (IL-10 already mapped), and the balance between the inflammatory and resolving macrophages shapes the stability of the atherosclerotic lesion.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Pro-atherogenic adipokine: resistin, with leptin (already mapped) and the fall in adiponectin (already mapped), is a pro-inflammatory adipokine that promotes the endothelial dysfunction and vascular inflammation of atherosclerosis.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Plaque iron handling: the hepcidin-regulated iron handling of the plaque macrophages (already mapped) influences the oxidative stress (xanthine oxidase already mapped) of the lesion, the basis of the iron hypothesis of atherosclerosis.
 
 ---
 

@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/prostaglandins
     relation: connects-to
     note: "Inflammatory eicosanoids: prostaglandins from the inflammatory infiltrate (IL-6, TNF and IL-1 already mapped) of the immune attack on the marrow contribute to the suppression of haematopoiesis in aplastic anaemia."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Copper-deficiency mimic: copper is required for haematopoiesis, and its deficiency causes a marrow failure with cytopenias and vacuolated precursors that mimics aplastic anaemia and myelodysplasia (MDS already mapped)."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Zinc and haematopoiesis: zinc supports immune function and haematopoiesis, and excess zinc (or its supplementation) can induce a copper deficiency (already mapped) that causes cytopenias, part of the trace-metal balance relevant to aplastic anaemia."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Fatty marrow replacement: the hypocellular marrow (already mapped) of aplastic anaemia is replaced by fat, and the marrow adipocytes and their adipokine leptin signal to the residual haematopoietic cells of the failing marrow."
 ---
 
 # Aplastic Anemia
@@ -668,6 +677,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 cytokine dysregulation: IL-13, with IL-4 (already mapped), reflects the broader cytokine dysregulation of aplastic anaemia beyond the dominant Th1/interferon-gamma (already mapped) attack on the marrow.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Marrow vascular niche: VEGF supports the bone-marrow (already mapped) vascular niche of haematopoiesis, and the disturbed niche of the immune-attacked marrow contributes to the failure of blood-cell production in aplastic anaemia.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Inflammatory eicosanoids: prostaglandins from the inflammatory infiltrate (IL-6, TNF and IL-1 already mapped) of the immune attack on the marrow contribute to the suppression of haematopoiesis in aplastic anaemia.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper-deficiency mimic: copper is required for haematopoiesis, and its deficiency causes a marrow failure with cytopenias and vacuolated precursors that mimics aplastic anaemia and myelodysplasia (MDS already mapped).
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and haematopoiesis: zinc supports immune function and haematopoiesis, and excess zinc (or its supplementation) can induce a copper deficiency (already mapped) that causes cytopenias, part of the trace-metal balance relevant to aplastic anaemia.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Fatty marrow replacement: the hypocellular marrow (already mapped) of aplastic anaemia is replaced by fat, and the marrow adipocytes and their adipokine leptin signal to the residual haematopoietic cells of the failing marrow.
 
 ---
 
