@@ -445,6 +445,15 @@ cross_links:
   - target: 01-human/03-molecular/hepcidin
     relation: connects-to
     note: "Brain-iron regulation: hepcidin governs the iron (already mapped) handling whose dysregulation contributes to the brain-iron accumulation (ferroportin already mapped) and the metal-catalysed oxidative injury of Lewy body dementia."
+  - target: 01-human/04-cellular/microglia
+    relation: connects-to
+    note: "Neuroinflammation: the microglial activation and the neuroinflammation (TNF, IL-1 and NLRP3 already mapped) drive the α-synuclein (already mapped) neurodegeneration of Lewy body dementia."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Neuronal loss: the cortical and the cholinergic/dopaminergic (acetylcholine and dopamine already mapped) neurons, laden with the Lewy bodies (α-synuclein already mapped), degenerate in Lewy body dementia."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Brain-iron oxidative injury: the iron accumulates in the degenerating brain (ferroportin and hepcidin already mapped) and catalyses the oxidative injury and the α-synuclein aggregation of Lewy body dementia."
 ---
 
 # Lewy Body Dementia
@@ -713,6 +722,9 @@ Approximately 25-50% of clinically diagnosed DLB cases have significant AD co-pa
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 neuroimmunity: IL-13, with IL-4 (already mapped), supports the M2 microglia (already mapped) and the anti-inflammatory arm balancing the neuroinflammation (NLRP3, TNF and IL-1 already mapped) of Lewy body dementia.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Metabolic neuroprotection: leptin has neurotrophic and neuroprotective actions on the neurons (already mapped), and the metabolic dysregulation (insulin already mapped) it reflects is linked to the neurodegeneration of Lewy body dementia.
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Brain-iron regulation: hepcidin governs the iron (already mapped) handling whose dysregulation contributes to the brain-iron accumulation (ferroportin already mapped) and the metal-catalysed oxidative injury of Lewy body dementia.
+- `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Neuroinflammation: the microglial activation and the neuroinflammation (TNF, IL-1 and NLRP3 already mapped) drive the α-synuclein (already mapped) neurodegeneration of Lewy body dementia.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Neuronal loss: the cortical and the cholinergic/dopaminergic (acetylcholine and dopamine already mapped) neurons, laden with the Lewy bodies (α-synuclein already mapped), degenerate in Lewy body dementia.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Brain-iron oxidative injury: the iron accumulates in the degenerating brain (ferroportin and hepcidin already mapped) and catalyses the oxidative injury and the α-synuclein aggregation of Lewy body dementia.
 
 [^mckeith-2017-dlb-criteria]: McKeith IG, Boeve BF, Dickson DW, et al. Diagnosis and management of dementia with Lewy bodies: Fourth consensus report of the DLB Consortium. *Neurology.* 2017;89(1):88-100. [doi:10.1212/WNL.0000000000004058](https://doi.org/10.1212/WNL.0000000000004058) · [PubMed 28592453](https://pubmed.ncbi.nlm.nih.gov/28592453/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)

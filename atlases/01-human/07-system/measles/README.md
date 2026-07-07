@@ -443,6 +443,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Adipokine milieu: resistin, with leptin and adiponectin (already mapped), is part of the adipokine milieu of the malnutrition-immunity axis that shapes the susceptibility to and severity of measles."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Measles exanthem: the maculopapular rash (with the Koplik spots) of the skin is the classic measles exanthem, the T-cell (already mapped) response to the infected dermal endothelium."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "SLAM target cells: the measles virus (H protein already mapped) targets the SLAM (CD150)-expressing dendritic cells and macrophages, the initial infection and lymphatic spread."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "Immune-amnesia B cells: the measles depletes the memory B cells (with the memory T cells already mapped), erasing the humoral immunity to other pathogens — the 'immune amnesia'."
 ---
 
 # Measles
@@ -729,6 +738,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Malnutrition and immunity: adiponectin, with leptin (already mapped), links the malnutrition common in the endemic setting to the impaired immune response that determines the severity of measles.
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 eosinophil arm: IL-5, with the Th2 cytokines (IL-4 and IL-13 already mapped), drives the eosinophil-associated type-2 response of the immune shift that accompanies the immunosuppression of measles.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine milieu: resistin, with leptin and adiponectin (already mapped), is part of the adipokine milieu of the malnutrition-immunity axis that shapes the susceptibility to and severity of measles.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Measles exanthem: the maculopapular rash (with the Koplik spots) of the skin is the classic measles exanthem, the T-cell (already mapped) response to the infected dermal endothelium.
+- `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — SLAM target cells: the measles virus (H protein already mapped) targets the SLAM (CD150)-expressing dendritic cells and macrophages, the initial infection and lymphatic spread.
+- `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Immune-amnesia B cells: the measles depletes the memory B cells (with the memory T cells already mapped), erasing the humoral immunity to other pathogens — the 'immune amnesia'.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)
