@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative carcinogenesis: chronic colonic inflammation and the high epithelial turnover generate oxidative stress, to which xanthine oxidase contributes, and this oxidative DNA damage speeds the adenoma-carcinoma sequence of colorectal cancer."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the microenvironment of the microsatellite-stable colorectal cancers that resist checkpoint blockade."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Obesity and proliferation: leptin from adipose tissue promotes the proliferation of the colonic epithelium, part of the mechanism by which obesity raises the risk of colorectal cancer alongside the insulin-IGF-1 axis (IGF-1 already mapped)."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Hyperinsulinaemia: the hyperinsulinaemia of obesity and type 2 diabetes drives colorectal carcinogenesis through insulin and the IGF-1 axis (already mapped), a modifiable metabolic risk factor for the cancer."
 ---
 
 # Colorectal Cancer
@@ -671,6 +680,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Diet and bile acids: a Western diet high in fat raises the cholesterol-derived bile acids that, deconjugated by gut bacteria (microbiome already mapped), promote colorectal carcinogenesis, part of the dietary risk of colorectal cancer.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the tumour microenvironment dampens the anti-tumour T-cell response (CD8 and PD-1 already mapped), the immune evasion that is more readily overcome in the microsatellite-unstable (MLH1 already mapped) tumours.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative carcinogenesis: chronic colonic inflammation and the high epithelial turnover generate oxidative stress, to which xanthine oxidase contributes, and this oxidative DNA damage speeds the adenoma-carcinoma sequence of colorectal cancer.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the microenvironment of the microsatellite-stable colorectal cancers that resist checkpoint blockade.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Obesity and proliferation: leptin from adipose tissue promotes the proliferation of the colonic epithelium, part of the mechanism by which obesity raises the risk of colorectal cancer alongside the insulin-IGF-1 axis (IGF-1 already mapped).
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Hyperinsulinaemia: the hyperinsulinaemia of obesity and type 2 diabetes drives colorectal carcinogenesis through insulin and the IGF-1 axis (already mapped), a modifiable metabolic risk factor for the cancer.
 
 ---
 

@@ -402,6 +402,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "Stress-axis dysregulation: aldosterone acting on brain mineralocorticoid receptors, balanced against the glucocorticoid signalling (cortisol, CRH and ACTH already mapped), tunes the stress response that is dysregulated in cannabis dependence and withdrawal."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Stress and social neuropeptide: vasopressin, with oxytocin and CRH (already mapped), tunes the social behaviour and the stress response, systems dysregulated in the dependence and withdrawal of cannabis use disorder."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Neuroimmune balance: the anti-inflammatory IL-4, with IL-10 (already mapped), counters the neuroinflammatory cytokines (TNF, IL-6 and IL-1 already mapped) that cannabinoids modulate in the brain during chronic cannabis use."
+  - target: 01-human/03-molecular/serotonin-transporter
+    relation: connects-to
+    note: "Mood and anxiety: the serotonin transporter (serotonin already mapped) shapes the mood and anxiety systems, and their disturbance contributes to the irritability and anxiety of the withdrawal syndrome of cannabis use disorder."
 sources:
   - id: hasin-2015-cannabis-disorder
     type: peer-reviewed
@@ -685,6 +694,9 @@ Paradoxical syndrome in heavy long-term users: cyclic vomiting relieved by hot b
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Appetite crosstalk: the endocannabinoid system (already mapped) that cannabis stimulates drives appetite, and it interacts with the GLP-1 and gut-hormone (ghrelin, leptin and NPY already mapped) signalling of feeding and reward.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Neuroinflammation: prostaglandins from the low-grade neuroinflammation (IL-6 and IL-1 already mapped) modulated by cannabinoids contribute to the effects of chronic cannabis use on the brain and its reward circuitry.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Stress-axis dysregulation: aldosterone acting on brain mineralocorticoid receptors, balanced against the glucocorticoid signalling (cortisol, CRH and ACTH already mapped), tunes the stress response that is dysregulated in cannabis dependence and withdrawal.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Stress and social neuropeptide: vasopressin, with oxytocin and CRH (already mapped), tunes the social behaviour and the stress response, systems dysregulated in the dependence and withdrawal of cannabis use disorder.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Neuroimmune balance: the anti-inflammatory IL-4, with IL-10 (already mapped), counters the neuroinflammatory cytokines (TNF, IL-6 and IL-1 already mapped) that cannabinoids modulate in the brain during chronic cannabis use.
+- `connects-to` → **[Serotonin transporter](../../03-molecular/serotonin-transporter/README.md)** — Mood and anxiety: the serotonin transporter (serotonin already mapped) shapes the mood and anxiety systems, and their disturbance contributes to the irritability and anxiety of the withdrawal syndrome of cannabis use disorder.
 
 [^hasin-2015-cannabis-disorder]: Hasin DS, Saha TD, Kerridge BT, et al. Prevalence of marijuana use disorders in the United States between 2001-2002 and 2012-2013. *JAMA Psychiatry.* 2015;72(12):1235-1242. [doi:10.1001/jamapsychiatry.2015.1858](https://doi.org/10.1001/jamapsychiatry.2015.1858) · [PubMed 26502112](https://pubmed.ncbi.nlm.nih.gov/26502112/)
 [^budney-2004-cannabis-withdrawal]: Budney AJ, Moore BA, Vandrey RG, Hughes JR. The time course and significance of cannabis withdrawal. *J Abnorm Psychol.* 2003;112(3):393-402. [doi:10.1037/0021-843X.112.3.393](https://doi.org/10.1037/0021-843X.112.3.393) · [PubMed 12943018](https://pubmed.ncbi.nlm.nih.gov/12943018/)
