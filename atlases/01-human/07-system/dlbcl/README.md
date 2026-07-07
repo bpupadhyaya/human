@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/il-4
     relation: connects-to
     note: "M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the pro-tumour niche of diffuse large B-cell lymphoma."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immunosuppressive microenvironment of diffuse large B-cell lymphoma."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Marrow adipose niche: the marrow adipocytes and their adipokine leptin engage in crosstalk with the lymphoma cells, part of the bone-marrow (already mapped) microenvironment that can shelter diffuse large B-cell lymphoma."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Adipokine microenvironment: adiponectin, with leptin (already mapped), from the marrow and stromal adipose tissue signals to the lymphoma cells, part of the metabolic microenvironment of diffuse large B-cell lymphoma."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -677,6 +686,9 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the lymphoma microenvironment dampens the anti-tumour T-cell response (PD-1 and MHC class II already mapped), part of the immune escape that DLBCL exploits and CAR-T therapy aims to overcome.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Tumour angiogenesis: VEGF-driven angiogenesis supplies the proliferative diffuse large B-cell lymphoma (HIF-1-alpha already mapped), the increased microvascular density part of its aggressive microenvironment.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the pro-tumour niche of diffuse large B-cell lymphoma.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immunosuppressive microenvironment of diffuse large B-cell lymphoma.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Marrow adipose niche: the marrow adipocytes and their adipokine leptin engage in crosstalk with the lymphoma cells, part of the bone-marrow (already mapped) microenvironment that can shelter diffuse large B-cell lymphoma.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine microenvironment: adiponectin, with leptin (already mapped), from the marrow and stromal adipose tissue signals to the lymphoma cells, part of the metabolic microenvironment of diffuse large B-cell lymphoma.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

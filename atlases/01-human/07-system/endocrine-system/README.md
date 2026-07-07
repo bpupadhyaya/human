@@ -419,6 +419,15 @@ cross_links:
   - target: 01-human/06-organ/thymus
     relation: connects-to
     note: "Thymic endocrine role: the thymus secretes thymic hormones such as thymosin and thymulin that regulate T-cell maturation, an endocrine function of a lymphoid organ that links the endocrine and immune systems."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Hepatic endocrine hub: the liver produces IGF-1 (already mapped) under growth hormone (already mapped), metabolises and clears hormones, and secretes hepatokines, an endocrine hub of the body's hormonal and metabolic network."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Osmoregulatory axis: the endocrine control of sodium and water balance runs through aldosterone and vasopressin (already mapped), the renin-angiotensin (already mapped) and osmoreceptor axes governing the body's sodium homeostasis."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "The commonest endocrine disease: type 2 diabetes is the insulin (already mapped) resistance disorder of the endocrine pancreas, the most prevalent disease of the endocrine system."
 ---
 
 # Endocrine System
@@ -710,6 +719,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron as a hormonal axis: iron homeostasis is itself an endocrine system, governed by the liver hormone hepcidin and by erythropoietin (already mapped), illustrating hormonal control extending to a trace-metal balance.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Hormone secretion cofactor: magnesium is a cofactor for the secretion and action of many hormones, including parathyroid hormone (already mapped) and insulin (already mapped), so its deficiency disturbs the endocrine calcium and glucose axes.
 - `connects-to` → **[Thymus](../../06-organ/thymus/README.md)** — Thymic endocrine role: the thymus secretes thymic hormones such as thymosin and thymulin that regulate T-cell maturation, an endocrine function of a lymphoid organ that links the endocrine and immune systems.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Hepatic endocrine hub: the liver produces IGF-1 (already mapped) under growth hormone (already mapped), metabolises and clears hormones, and secretes hepatokines, an endocrine hub of the body's hormonal and metabolic network.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Osmoregulatory axis: the endocrine control of sodium and water balance runs through aldosterone and vasopressin (already mapped), the renin-angiotensin (already mapped) and osmoreceptor axes governing the body's sodium homeostasis.
+- `connects-to` → **[Type 2 diabetes](../type-2-diabetes/README.md)** — The commonest endocrine disease: type 2 diabetes is the insulin (already mapped) resistance disorder of the endocrine pancreas, the most prevalent disease of the endocrine system.
 
 ## Pathology
 
