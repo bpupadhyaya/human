@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/03-molecular/il-13
     relation: connects-to
     note: "Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immunosuppressive microenvironment of pheochromocytoma-paraganglioma."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Catecholamine biosynthesis: copper is the cofactor of dopamine-β-hydroxylase, which makes the noradrenaline from the dopamine (both already mapped), the copper-dependent catecholamine biosynthesis of the chromaffin tumours."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Catecholamine hypermetabolism: leptin reflects the metabolic effects of the catecholamine (already mapped) excess — the hypermetabolism and weight loss — of pheochromocytoma-paraganglioma."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the catecholamine-driven metabolic disturbance of pheochromocytoma-paraganglioma."
 ---
 
 # Pheochromocytoma/Paraganglioma
@@ -709,6 +718,9 @@ Active in Cluster 1 (MET/AXL co-expressed in SDH-deficient tumors); Phase 2 CABO
 - `connects-to` → **[T-cytotoxic cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Emerging immunotherapy: the cytotoxic T cells (perforin already mapped) are the target of the checkpoint immunotherapy explored in metastatic SDHB-driven (already mapped) pheochromocytoma-paraganglioma, which the immunosuppressive stroma (IL-10 already mapped) limits.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune microenvironment of the metastatic pheochromocytoma-paraganglioma.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immunosuppressive microenvironment of pheochromocytoma-paraganglioma.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Catecholamine biosynthesis: copper is the cofactor of dopamine-β-hydroxylase, which makes the noradrenaline from the dopamine (both already mapped), the copper-dependent catecholamine biosynthesis of the chromaffin tumours.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Catecholamine hypermetabolism: leptin reflects the metabolic effects of the catecholamine (already mapped) excess — the hypermetabolism and weight loss — of pheochromocytoma-paraganglioma.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the catecholamine-driven metabolic disturbance of pheochromocytoma-paraganglioma.
 
 [^lenders-2014-pheo-guideline]: Lenders JW, Duh QY, Eisenhofer G, et al. Pheochromocytoma and paraganglioma: an endocrine society clinical practice guideline. *J Clin Endocrinol Metab.* 2014;99(6):1915-1942. [doi:10.1210/jc.2014-1498](https://doi.org/10.1210/jc.2014-1498) · [PubMed 24893135](https://pubmed.ncbi.nlm.nih.gov/24893135/)
 [^baudin-2021-firstmappp-sunitinib]: Baudin E, Goichot B, Berruti A, et al. First International Randomized Study in Malignant Progressive Pheochromocytoma and Paragangliomas (FIRSTMAPPP). *Ann Oncol.* 2021;32(10):1245-1254. [doi:10.1016/j.annonc.2021.07.009](https://doi.org/10.1016/j.annonc.2021.07.009) · [PubMed 34246769](https://pubmed.ncbi.nlm.nih.gov/34246769/)

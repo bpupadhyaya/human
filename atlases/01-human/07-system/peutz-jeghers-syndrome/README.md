@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/03-molecular/hepcidin
     relation: connects-to
     note: "Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin adds an anaemia of chronic disease to the iron-deficiency (already mapped) anaemia of the chronically bleeding polyps of Peutz-Jeghers syndrome."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "Hamartoma stroma: PDGF drives the stromal and smooth-muscle (arborising) mesenchymal component of the hamartomatous Peutz-Jeghers polyps, part of their characteristic architecture."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Malabsorption zinc: the zinc deficiency from the chronic GI blood loss and the malabsorption of the extensive polyposis of Peutz-Jeghers syndrome impairs the healing and immunity."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Micronutrient malabsorption: the calcium and micronutrient malabsorption of the extensive GI polyposis of Peutz-Jeghers syndrome, contributing to the nutritional depletion."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -691,6 +700,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the microenvironment of the hamartomatous polyps of Peutz-Jeghers syndrome.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine milieu: resistin, with leptin and adiponectin (already mapped), links the metabolic state governed by the STK11-AMPK (already mapped) axis to the polyp and cancer biology of Peutz-Jeghers syndrome.
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin adds an anaemia of chronic disease to the iron-deficiency (already mapped) anaemia of the chronically bleeding polyps of Peutz-Jeghers syndrome.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Hamartoma stroma: PDGF drives the stromal and smooth-muscle (arborising) mesenchymal component of the hamartomatous Peutz-Jeghers polyps, part of their characteristic architecture.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Malabsorption zinc: the zinc deficiency from the chronic GI blood loss and the malabsorption of the extensive polyposis of Peutz-Jeghers syndrome impairs the healing and immunity.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Micronutrient malabsorption: the calcium and micronutrient malabsorption of the extensive GI polyposis of Peutz-Jeghers syndrome, contributing to the nutritional depletion.
 
 ---
 
