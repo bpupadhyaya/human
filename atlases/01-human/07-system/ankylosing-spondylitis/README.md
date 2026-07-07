@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/06-organ/small-intestine
     relation: connects-to
     note: "Gut-joint axis: the subclinical terminal-ileal (Crohn's-like) inflammation of the small intestine (secretory-IgA already mapped) is characteristic of the gut-joint axis of the IL-23/IL-17 spondyloarthritis of ankylosing spondylitis."
+  - target: 01-human/04-cellular/osteoblast
+    relation: connects-to
+    note: "Syndesmophyte new bone: the Wnt and sclerostin (already mapped)-regulated osteoblasts form the pathological new bone (the syndesmophytes; cortical bone already mapped) that fuses the spine of ankylosing spondylitis."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Bone-mineral paradox: the calcium and bone-mineral metabolism of the paradoxical osteoporosis-with-new-bone (RANKL and sclerostin already mapped) of ankylosing spondylitis."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the systemic inflammation (IL-6 already mapped) of ankylosing spondylitis."
 ---
 
 # Ankylosing Spondylitis
@@ -688,6 +697,9 @@ AS originates at the **enthesis** — the site where tendons, ligaments, and joi
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Th2 counter-regulation: IL-4 and the Th2 arm (IL-10 already mapped) oppose the Th17/IL-23 (IL-17 and IL-23 already mapped) drive of the enthesitis, the anti-inflammatory balance in ankylosing spondylitis.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 arm: IL-13, with IL-4 (already mapped), is part of the type-2 cytokine response whose balance against the pro-inflammatory Th17 axis shapes the spondyloarthritis of ankylosing spondylitis.
 - `connects-to` → **[Small intestine](../../06-organ/small-intestine/README.md)** — Gut-joint axis: the subclinical terminal-ileal (Crohn's-like) inflammation of the small intestine (secretory-IgA already mapped) is characteristic of the gut-joint axis of the IL-23/IL-17 spondyloarthritis of ankylosing spondylitis.
+- `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — Syndesmophyte new bone: the Wnt and sclerostin (already mapped)-regulated osteoblasts form the pathological new bone (the syndesmophytes; cortical bone already mapped) that fuses the spine of ankylosing spondylitis.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Bone-mineral paradox: the calcium and bone-mineral metabolism of the paradoxical osteoporosis-with-new-bone (RANKL and sclerostin already mapped) of ankylosing spondylitis.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the systemic inflammation (IL-6 already mapped) of ankylosing spondylitis.
 
 [^sieper-2015-ankylosing-spondylitis-review]: Sieper J, Poddubnyy D. Ankylosing spondylitis. *Lancet.* 2017;390(10089):73-84. [doi:10.1016/S0140-6736(16)31591-4](https://doi.org/10.1016/S0140-6736(16)31591-4) · [PubMed 28110981](https://pubmed.ncbi.nlm.nih.gov/28110981/)
 [^baeten-2015-secukinumab-as]: Baeten D, Sieper J, Braun J, et al. Secukinumab, an Interleukin-17A Inhibitor, in Ankylosing Spondylitis. *N Engl J Med.* 2015;373(26):2534-2548. [doi:10.1056/NEJMoa1505066](https://doi.org/10.1056/NEJMoa1505066) · [PubMed 26699169](https://pubmed.ncbi.nlm.nih.gov/26699169/)
