@@ -436,6 +436,15 @@ cross_links:
   - target: 01-human/03-molecular/il-13
     relation: connects-to
     note: "Type-2 arm: IL-13, with IL-4 (already mapped), is part of the type-2 cytokine response whose balance against the pro-inflammatory signals shapes the joint inflammation of rheumatoid arthritis."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "MMP and inflammation: the disturbed zinc homeostasis (low serum zinc) of the active rheumatoid inflammation, and the zinc-dependent matrix metalloproteinases that degrade the joint cartilage (collagen already mapped)."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Antioxidant defence: selenium supports the antioxidant selenoprotein defence, and low selenium is associated with rheumatoid arthritis and its oxidative (xanthine oxidase already mapped) joint damage."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Synovial mast cells: the synovial mast cells release histamine that contributes to the vascular permeability and the inflammation of the rheumatoid synovitis."
 ---
 
 # Rheumatoid Arthritis
@@ -717,6 +726,9 @@ RA patients have:
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Synovial adipokine: resistin, a pro-inflammatory adipokine (leptin and adiponectin already mapped), is elevated in the synovial fluid and serum of rheumatoid arthritis and correlates with the disease activity.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Th2 counter-regulation: IL-4 and the Th2/M2 arm (IL-10 already mapped) oppose the Th17 and Th1 (IL-17, IL-23 and IFN-γ already mapped) drive of the synovitis, the anti-inflammatory balance in rheumatoid arthritis.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 arm: IL-13, with IL-4 (already mapped), is part of the type-2 cytokine response whose balance against the pro-inflammatory signals shapes the joint inflammation of rheumatoid arthritis.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — MMP and inflammation: the disturbed zinc homeostasis (low serum zinc) of the active rheumatoid inflammation, and the zinc-dependent matrix metalloproteinases that degrade the joint cartilage (collagen already mapped).
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Antioxidant defence: selenium supports the antioxidant selenoprotein defence, and low selenium is associated with rheumatoid arthritis and its oxidative (xanthine oxidase already mapped) joint damage.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Synovial mast cells: the synovial mast cells release histamine that contributes to the vascular permeability and the inflammation of the rheumatoid synovitis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
