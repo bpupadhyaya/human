@@ -429,6 +429,15 @@ cross_links:
   - target: 01-human/03-molecular/pdgf
     relation: connects-to
     note: "Synovial proliferation: PDGF drives the proliferation of the synovial fibroblasts and the pannus, and with the Wnt-driven new bone (already mapped), it contributes to the joint remodelling of psoriatic arthritis."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Enthesis innervation: the entheses are richly innervated, and the neurogenic inflammation from the sensory nerves (substance P and CGRP already mapped) drives the enthesitis that is a defining feature of psoriatic arthritis."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Neutrophilic inflammation: the neutrophils form the pustules of the psoriatic skin and infiltrate the inflamed synovium (S100A8/9 already mapped), part of the innate arm of the inflammation of psoriatic arthritis."
+  - target: 01-human/07-system/inflammatory-bowel-disease
+    relation: connects-to
+    note: "Spondyloarthropathy overlap: psoriatic arthritis and inflammatory bowel disease co-occur within the seronegative spondyloarthropathies (IL-23 and HLA-B27 already mapped), sharing the gut-joint axis and the IL-23/17-targeting biologics."
 ---
 
 # Psoriatic Arthritis
@@ -713,6 +722,9 @@ Risankizumab (anti-IL-23p19) **failed primary endpoints** in the SURPASS trial f
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Insulin resistance: psoriatic arthritis clusters with the metabolic syndrome, and insulin resistance (leptin, adiponectin and resistin already mapped) both accompanies the systemic inflammation and worsens the cardiovascular risk of the disease.
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — Neurogenic enthesitis: substance P, with CGRP (already mapped), mediates the neurogenic inflammation of the entheses, contributing to the enthesitis and pain characteristic of psoriatic arthritis.
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Synovial proliferation: PDGF drives the proliferation of the synovial fibroblasts and the pannus, and with the Wnt-driven new bone (already mapped), it contributes to the joint remodelling of psoriatic arthritis.
+- `connects-to` → **[Peripheral nerve](../../05-tissue/peripheral-nerve/README.md)** — Enthesis innervation: the entheses are richly innervated, and the neurogenic inflammation from the sensory nerves (substance P and CGRP already mapped) drives the enthesitis that is a defining feature of psoriatic arthritis.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophilic inflammation: the neutrophils form the pustules of the psoriatic skin and infiltrate the inflamed synovium (S100A8/9 already mapped), part of the innate arm of the inflammation of psoriatic arthritis.
+- `connects-to` → **[Inflammatory bowel disease](../inflammatory-bowel-disease/README.md)** — Spondyloarthropathy overlap: psoriatic arthritis and inflammatory bowel disease co-occur within the seronegative spondyloarthropathies (IL-23 and HLA-B27 already mapped), sharing the gut-joint axis and the IL-23/17-targeting biologics.
 
 [^ritchlin-2017-psa-review]: Ritchlin CT, Colbert RA, Gladman DD. Psoriatic arthritis. *N Engl J Med.* 2017;376(10):957-970. [doi:10.1056/NEJMra1505557](https://doi.org/10.1056/NEJMra1505557) · [PubMed 28273019](https://pubmed.ncbi.nlm.nih.gov/28273019/)
 [^mease-2015-secukinumab-psa-future2]: Mease PJ, et al. Secukinumab inhibition of interleukin-17A in patients with psoriatic arthritis. *N Engl J Med.* 2015;373(14):1329-1339. [doi:10.1056/NEJMoa1503317](https://doi.org/10.1056/NEJMoa1503317) · [PubMed 26422723](https://pubmed.ncbi.nlm.nih.gov/26422723/)

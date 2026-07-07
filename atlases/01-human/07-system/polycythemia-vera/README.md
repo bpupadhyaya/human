@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/fibrinogen
     relation: connects-to
     note: "Hyperviscosity and coagulation: the raised haematocrit (haemoglobin already mapped) and fibrinogen increase blood viscosity and coagulation (thrombin already mapped), compounding the thrombotic risk that drives phlebotomy in polycythaemia vera."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Inflammatory milieu: IL-4 and the M2 macrophage arm (IL-10 already mapped) shape the chronic inflammation (IL-6 and TNF already mapped) of the myeloproliferative marrow, part of the disease biology of polycythaemia vera."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Marrow adipose crosstalk: the marrow adipocytes and their adipokine leptin signal to the clonal erythroid cells, part of the bone-marrow (already mapped) microenvironment of polycythaemia vera."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Adipokine microenvironment: adiponectin, with leptin (already mapped), from the marrow adipose tissue signals to the myeloproliferative clone, part of the metabolic microenvironment of polycythaemia vera."
 ---
 
 # Polycythemia Vera
@@ -677,6 +686,9 @@ PV must be distinguished from secondary erythrocytosis (elevated EPO, JAK2 wild-
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Thromboxane and platelets: activated platelets (PF4 and serotonin already mapped) generate thromboxane A2 to amplify aggregation, the eicosanoid pathway blocked by the low-dose aspirin used to reduce thrombosis in polycythaemia vera.
 - `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Endothelial activation: the angiopoietin-Tie2 axis reflects the endothelial activation of the prothrombotic state of polycythaemia vera, part of the endothelium's contribution (von Willebrand factor already mapped) to its thrombosis.
 - `connects-to` → **[Fibrinogen](../../03-molecular/fibrinogen/README.md)** — Hyperviscosity and coagulation: the raised haematocrit (haemoglobin already mapped) and fibrinogen increase blood viscosity and coagulation (thrombin already mapped), compounding the thrombotic risk that drives phlebotomy in polycythaemia vera.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Inflammatory milieu: IL-4 and the M2 macrophage arm (IL-10 already mapped) shape the chronic inflammation (IL-6 and TNF already mapped) of the myeloproliferative marrow, part of the disease biology of polycythaemia vera.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Marrow adipose crosstalk: the marrow adipocytes and their adipokine leptin signal to the clonal erythroid cells, part of the bone-marrow (already mapped) microenvironment of polycythaemia vera.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine microenvironment: adiponectin, with leptin (already mapped), from the marrow adipose tissue signals to the myeloproliferative clone, part of the metabolic microenvironment of polycythaemia vera.
 
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409630](https://doi.org/10.1056/NEJMoa1409630) · [PubMed 25577388](https://pubmed.ncbi.nlm.nih.gov/25577388/)
 [^gisslinger-2020-proud-pv]: Gisslinger H, Gotic M, Holowiecki J, et al. Ropeginterferon alfa-2b versus standard therapy for polycythaemia vera (PROUD-PV and CONTINUATION-PV): a randomised, non-inferiority, phase 3 trial and its extension study. *Lancet Haematol.* 2020;7(3):e196-e208. [doi:10.1016/S2352-3026(19)30236-4](https://doi.org/10.1016/S2352-3026(19)30236-4) · [PubMed 32046833](https://pubmed.ncbi.nlm.nih.gov/32046833/)
