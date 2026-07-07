@@ -429,6 +429,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Endothelial platelet control: endothelial nitric oxide normally inhibits platelet activation, part of the vascular regulation of the platelets whose autoimmune destruction defines immune thrombocytopenia."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Regulatory tolerance: TGF-β, with IL-10 (already mapped), enforces the regulatory-T-cell tolerance whose failure permits the anti-platelet autoimmunity of immune thrombocytopenia."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Megakaryocyte niche: VEGF supports the marrow vascular niche of the megakaryocytes, and the impaired platelet production (thrombopoietin already mapped) of immune thrombocytopenia involves this microenvironment as well as the autoantibody attack."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Interferon dysregulation: type-I interferon signalling is implicated in the loss of tolerance of immune thrombocytopenia, and interferon therapy can itself precipitate the autoimmune platelet destruction."
 ---
 
 # Immune Thrombocytopenia
@@ -701,6 +710,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[Fibrinogen](../../03-molecular/fibrinogen/README.md)** — GPIIb/IIIa target: fibrinogen bridges platelets by binding the GPIIb/IIIa integrin that is itself the main antigen of the anti-platelet autoantibodies, so the destruction and dysfunction of platelets in immune thrombocytopenia impairs this aggregation.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Thromboxane and platelet function: activated platelets generate thromboxane A2 to amplify aggregation, and the loss of platelet numbers and function in immune thrombocytopenia diminishes this eicosanoid arm of haemostasis.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Endothelial platelet control: endothelial nitric oxide normally inhibits platelet activation, part of the vascular regulation of the platelets whose autoimmune destruction defines immune thrombocytopenia.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Regulatory tolerance: TGF-β, with IL-10 (already mapped), enforces the regulatory-T-cell tolerance whose failure permits the anti-platelet autoimmunity of immune thrombocytopenia.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Megakaryocyte niche: VEGF supports the marrow vascular niche of the megakaryocytes, and the impaired platelet production (thrombopoietin already mapped) of immune thrombocytopenia involves this microenvironment as well as the autoantibody attack.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Interferon dysregulation: type-I interferon signalling is implicated in the loss of tolerance of immune thrombocytopenia, and interferon therapy can itself precipitate the autoimmune platelet destruction.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)
