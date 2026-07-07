@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/il-4
     relation: connects-to
     note: "M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the microenvironment that the checkpoint immunotherapy sought for Li-Fraumeni cancers must overcome."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immunosuppressive microenvironment of the diverse Li-Fraumeni cancers."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Immunotherapy: the cytotoxic T cells (PD-1 and perforin already mapped) are the target of the checkpoint immunotherapy explored across the diverse cancers of Li-Fraumeni syndrome, a radiation-sparing option."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Chemotherapy anaemia: because radiotherapy must be limited, Li-Fraumeni cancers rely heavily on chemotherapy, whose myelosuppression causes anaemia (haemoglobin already mapped) needing transfusion that can load the body with iron."
 ---
 
 # Li-Fraumeni Syndrome
@@ -706,6 +715,9 @@ Annual surveillance significantly reduces mortality in LFS carriers (Villani 201
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Inflammatory eicosanoids: prostaglandins from the tumour microenvironment (IL-6 and IL-1 already mapped) promote the proliferation and immunosuppression of the diverse cancers that arise across the tissues of Li-Fraumeni syndrome.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Chemotherapy anaemia: because radiotherapy must be limited, Li-Fraumeni cancers rely heavily on chemotherapy, whose myelosuppression causes anaemia (haemoglobin already mapped) needing transfusion that can load the body with iron.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the microenvironment that the checkpoint immunotherapy sought for Li-Fraumeni cancers must overcome.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immunosuppressive microenvironment of the diverse Li-Fraumeni cancers.
+- `connects-to` → **[T-cytotoxic cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Immunotherapy: the cytotoxic T cells (PD-1 and perforin already mapped) are the target of the checkpoint immunotherapy explored across the diverse cancers of Li-Fraumeni syndrome, a radiation-sparing option.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Chemotherapy anaemia: because radiotherapy must be limited, Li-Fraumeni cancers rely heavily on chemotherapy, whose myelosuppression causes anaemia (haemoglobin already mapped) needing transfusion that can load the body with iron.
 
 [^bougeard-2015-lfs-chompret]: Bougeard G, Renaux-Petel M, Flaman JM, et al. Revisiting Li-Fraumeni Syndrome From TP53 Mutation Carriers. *J Clin Oncol.* 2015;33(21):2345-2352. [doi:10.1200/JCO.2014.59.5728](https://doi.org/10.1200/JCO.2014.59.5728) · [PubMed 26014290](https://pubmed.ncbi.nlm.nih.gov/26014290/)
 [^villani-2016-lfs-surveillance]: Villani A, Shore A, Wasserman JD, et al. Biochemical and imaging surveillance in germline TP53 mutation carriers with Li-Fraumeni syndrome: 11 year follow-up of a prospective observational study. *Lancet Oncol.* 2016;17(9):1295-1305. [doi:10.1016/S1470-2045(16)30249-2](https://doi.org/10.1016/S1470-2045(16)30249-2) · [PubMed 27501770](https://pubmed.ncbi.nlm.nih.gov/27501770/)
