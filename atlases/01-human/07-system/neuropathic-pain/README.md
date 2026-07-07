@@ -420,6 +420,15 @@ cross_links:
   - target: 01-human/07-system/stroke
     relation: connects-to
     note: "Central post-stroke pain: the thalamic and other central lesions of stroke cause central post-stroke pain, a classic central neuropathic pain arising from the reorganised brain (already mapped)."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Metabolic-pain adipokine: leptin modulates the pain via the leptin-driven microglial (already mapped) activation, linking the metabolic state to the central sensitization of neuropathic pain."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin (already mapped), modulates the neuroinflammation (TNF and IL-6 already mapped) and the pain of neuropathic pain."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine linking the metabolic state to the neuroinflammation of neuropathic pain."
 sources:
   - id: jensen-2011-neuropathic-pain-review
     type: peer-reviewed
@@ -717,6 +726,9 @@ Chronic neuropathic pain carries significant psychological burden:
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and NMDA modulation: zinc modulates the NMDA receptor of the glutamate (already mapped) signalling of central sensitisation, and disturbed zinc handling affects the pain processing of neuropathic pain.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Potassium-channel excitability: the downregulation of the voltage-gated potassium (Kv) channels after nerve injury raises the neuronal (already mapped) excitability and drives the ectopic firing of neuropathic pain.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Central post-stroke pain: the thalamic and other central lesions of stroke cause central post-stroke pain, a classic central neuropathic pain arising from the reorganised brain (already mapped).
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Metabolic-pain adipokine: leptin modulates the pain via the leptin-driven microglial (already mapped) activation, linking the metabolic state to the central sensitization of neuropathic pain.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), modulates the neuroinflammation (TNF and IL-6 already mapped) and the pain of neuropathic pain.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine linking the metabolic state to the neuroinflammation of neuropathic pain.
 
 [^jensen-2011-neuropathic-pain-review]: Jensen TS, Baron R, Haanpää M, et al. A new definition of neuropathic pain. *Pain.* 2011;152(10):2204-2205. [doi:10.1016/j.pain.2011.06.017](https://doi.org/10.1016/j.pain.2011.06.017) · [PubMed 21764514](https://pubmed.ncbi.nlm.nih.gov/21764514/)
 [^dworkin-2010-neuropathic-pain-treatment]: Dworkin RH, O'Connor AB, Audette J, et al. Recommendations for the pharmacological management of neuropathic pain. *Mayo Clin Proc.* 2010;85(3 Suppl):S3-14. [doi:10.4065/mcp.2009.0649](https://doi.org/10.4065/mcp.2009.0649) · [PubMed 20194146](https://pubmed.ncbi.nlm.nih.gov/20194146/)

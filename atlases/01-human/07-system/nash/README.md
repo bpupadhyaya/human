@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/02-atomic/copper
     relation: connects-to
     note: "Hepatic copper and steatosis: low hepatic copper is associated with more severe steatosis and NASH, reflecting copper's role in the lipid and antioxidant metabolism of the liver (the Wilson's-disease steatosis being the differential)."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "Cardiovascular risk: NASH shares the metabolic-syndrome (cholesterol and PCSK9 already mapped) drivers with the atherosclerosis, the cardiovascular disease being the leading cause of death in NASH."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Chronic-liver zinc: the zinc deficiency common in the chronic liver disease of NASH impairs the hepatic antioxidant and metabolic function."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Antioxidant selenium: the antioxidant selenoprotein (GPX) defence of the liver; the selenium status modulates the oxidative injury (xanthine oxidase already mapped) of NASH."
 ---
 
 # NASH
@@ -668,6 +677,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Profibrotic type-2 immunity: IL-4 drives the M2 macrophages (already mapped) and the profibrotic (TGF-β already mapped) type-2 response that contributes to the hepatic-stellate-cell activation and fibrosis of NASH.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Stellate-cell fibrogenesis: IL-13, with IL-4 (already mapped), is a profibrotic type-2 cytokine that activates the hepatic stellate cells to lay down the collagen (already mapped) fibrosis of NASH.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Hepatic copper and steatosis: low hepatic copper is associated with more severe steatosis and NASH, reflecting copper's role in the lipid and antioxidant metabolism of the liver (the Wilson's-disease steatosis being the differential).
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Cardiovascular risk: NASH shares the metabolic-syndrome (cholesterol and PCSK9 already mapped) drivers with the atherosclerosis, the cardiovascular disease being the leading cause of death in NASH.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Chronic-liver zinc: the zinc deficiency common in the chronic liver disease of NASH impairs the hepatic antioxidant and metabolic function.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Antioxidant selenium: the antioxidant selenoprotein (GPX) defence of the liver; the selenium status modulates the oxidative injury (xanthine oxidase already mapped) of NASH.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
