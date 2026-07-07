@@ -435,6 +435,15 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: connects-to
     note: "Bronchiolitic hypoxaemia: the small-airway plugging and ventilation-perfusion mismatch of RSV bronchiolitis cause the hypoxaemia whose correction with supplemental oxygen is the mainstay of the supportive care of infants."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Nutritional-immune adipokine: leptin is the adipokine of the immune-metabolic milieu; the infant nutritional status (leptin) modulates the immune response to RSV."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the immune-metabolic milieu of the RSV infection."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the inflammatory (IL-6 already mapped) milieu of RSV bronchiolitis."
 ---
 
 # RSV
@@ -718,3 +727,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and antiviral immunity: zinc is an antiviral and immune-modulating trace metal, and its deficiency, common in undernourished infants, worsens the severity of the respiratory viral infections including RSV.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Airway oedema: VEGF drives the vascular permeability and airway oedema that, with the epithelial debris (surfactant already mapped), plug the small bronchioles in RSV bronchiolitis.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Bronchiolitic hypoxaemia: the small-airway plugging and ventilation-perfusion mismatch of RSV bronchiolitis cause the hypoxaemia whose correction with supplemental oxygen is the mainstay of the supportive care of infants.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Nutritional-immune adipokine: leptin is the adipokine of the immune-metabolic milieu; the infant nutritional status (leptin) modulates the immune response to RSV.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the immune-metabolic milieu of the RSV infection.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the inflammatory (IL-6 already mapped) milieu of RSV bronchiolitis.

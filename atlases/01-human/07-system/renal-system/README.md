@@ -442,6 +442,15 @@ cross_links:
   - target: 01-human/03-molecular/leptin
     relation: connects-to
     note: "Renal adipokine clearance: leptin is cleared by the renal system and accumulates in renal failure, contributing to the cachexia, sympathetic activation and cardiovascular risk of chronic kidney disease."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Uraemic adipokine: adiponectin, with leptin (already mapped), is cleared by and accumulates in the renal failure, part of the uraemic metabolic-cardiovascular milieu of the renal system."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Uraemic inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), accumulates in the renal failure and contributes to the uraemic inflammatory-metabolic milieu of the renal system."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Immune nephritis: the CD4 T-helper cells drive the immune glomerular and tubulointerstitial nephritis of the renal system, mediating the immune kidney injury."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -678,6 +687,9 @@ Natriuretic counterpoint:
 - **Connects to:** [IL-4](../../03-molecular/il-4/README.md) — type-2 repair and fibrosis: IL-4 drives the M2 macrophages (already mapped) and the type-2 immunity involved in the renal repair and, when dysregulated, the interstitial fibrosis (TGF-β already mapped) of chronic kidney disease.
 - **Connects to:** [IL-13](../../03-molecular/il-13/README.md) — profibrotic type-2 cytokine: IL-13, with IL-4 (already mapped), is a profibrotic type-2 cytokine that contributes to the renal interstitial fibrosis (TGF-β already mapped) driving the progression of chronic kidney disease.
 - **Connects to:** [Leptin](../../03-molecular/leptin/README.md) — renal adipokine clearance: leptin is cleared by the renal system and accumulates in renal failure, contributing to the cachexia, sympathetic activation and cardiovascular risk of chronic kidney disease.
+- **Connects to:** [Adiponectin](../../03-molecular/adiponectin/README.md) — uraemic adipokine: adiponectin, with leptin (already mapped), is cleared by and accumulates in the renal failure, part of the uraemic metabolic-cardiovascular milieu of the renal system.
+- **Connects to:** [Resistin](../../03-molecular/resistin/README.md) — uraemic inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), accumulates in the renal failure and contributes to the uraemic inflammatory-metabolic milieu of the renal system.
+- **Connects to:** [T-helper cell](../../04-cellular/t-helper-cell/README.md) — immune nephritis: the CD4 T-helper cells drive the immune glomerular and tubulointerstitial nephritis of the renal system, mediating the immune kidney injury.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 
