@@ -442,6 +442,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory milieu (IL-6 already mapped) to the obesity-associated risk and activity of multiple sclerosis."
+  - target: 01-human/04-cellular/microglia
+    relation: connects-to
+    note: "Smouldering plaque: the microglia and macrophages (CCL2 already mapped) strip the myelin and drive the smouldering (the chronic active plaques) neuroinflammation of multiple sclerosis."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Axonal degeneration: the axonal and neuronal loss (glutamate excitotoxicity already mapped) underlies the progressive, irreversible disability of multiple sclerosis."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Vitamin-D risk: the low vitamin D (the latitude gradient, the EBV/LMP1 already mapped interaction) is a modifiable multiple-sclerosis risk factor and a candidate modifier of the disease course."
 ---
 
 # Multiple Sclerosis
@@ -693,6 +702,9 @@ MS affects approximately **2.8 million people worldwide** (~1 million in the US)
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 counter-arm: IL-13, with IL-4 (already mapped), is part of the Th2/anti-inflammatory arm (IL-10 already mapped) that counters the Th17 and Th1 (IL-17, IL-23 and IFN-γ already mapped) drive of multiple sclerosis.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine and MS risk: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the obesity that is a risk factor for multiple sclerosis, the metabolic-immune crosstalk shaping the disease.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory milieu (IL-6 already mapped) to the obesity-associated risk and activity of multiple sclerosis.
+- `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Smouldering plaque: the microglia and macrophages (CCL2 already mapped) strip the myelin and drive the smouldering (the chronic active plaques) neuroinflammation of multiple sclerosis.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Axonal degeneration: the axonal and neuronal loss (glutamate excitotoxicity already mapped) underlies the progressive, irreversible disability of multiple sclerosis.
+- `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin-D risk: the low vitamin D (the latitude gradient, the EBV/LMP1 already mapped interaction) is a modifiable multiple-sclerosis risk factor and a candidate modifier of the disease course.
 
 [^compston-2008-ms-review]: Compston A, Coles A. Multiple sclerosis. *Lancet.* 2008;372(9648):1502-1517. [doi:10.1016/S0140-6736(08)61620-7](https://doi.org/10.1016/S0140-6736(08)61620-7) · [PubMed 18970977](https://pubmed.ncbi.nlm.nih.gov/18970977/)
 [^kappos-2006-natalizumab]: Polman CH, O'Connor PW, Havrdova E, et al. A randomized, placebo-controlled trial of natalizumab for relapsing multiple sclerosis. *N Engl J Med.* 2006;354(9):899-910. [doi:10.1056/NEJMoa044397](https://doi.org/10.1056/NEJMoa044397) · [PubMed 16510744](https://pubmed.ncbi.nlm.nih.gov/16510744/)

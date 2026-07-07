@@ -445,6 +445,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory milieu (IL-6 already mapped) to the chronic migraine associated with obesity."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "Cortical spreading depression: the astrocytes propagate the cortical spreading depression (the aura; glutamate and connexin43 already mapped, the K+ waves) of migraine."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Depression comorbidity: migraine and major depression are bidirectionally comorbid, sharing the serotonergic (already mapped) dysregulation."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "Epilepsy comorbidity: migraine and epilepsy are comorbid, sharing the cortical hyperexcitability, the SCN1A (already mapped) channelopathies and the cortical spreading depression."
 ---
 
 # Migraine
@@ -724,6 +733,9 @@ Episodic migraine (EM, <15 headache days/month) transforms to **chronic migraine
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 neuroimmunity: IL-13, with IL-4 (already mapped), supports the M2 microglial arm balancing the neurogenic inflammation (substance-P and CGRP already mapped) implicated in migraine.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine and chronic migraine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the obesity that is a risk factor for the transformation to chronic migraine.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory milieu (IL-6 already mapped) to the chronic migraine associated with obesity.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Cortical spreading depression: the astrocytes propagate the cortical spreading depression (the aura; glutamate and connexin43 already mapped, the K+ waves) of migraine.
+- `connects-to` → **[Major depressive disorder](../major-depressive-disorder/README.md)** — Depression comorbidity: migraine and major depression are bidirectionally comorbid, sharing the serotonergic (already mapped) dysregulation.
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Epilepsy comorbidity: migraine and epilepsy are comorbid, sharing the cortical hyperexcitability, the SCN1A (already mapped) channelopathies and the cortical spreading depression.
 
 [^gbd-2016-migraine-burden]: GBD 2016 Headache Collaborators. Global, regional, and national burden of migraine and tension-type headache, 1990-2016. *Lancet Neurol.* 2018;17(11):954-976. [doi:10.1016/S1474-4422(18)30322-3](https://doi.org/10.1016/S1474-4422(18)30322-3) · [PubMed 30353868](https://pubmed.ncbi.nlm.nih.gov/30353868/)
 [^goadsby-2002-migraine-review]: Goadsby PJ, Lipton RB, Ferrari MD. Migraine — current understanding and treatment. *N Engl J Med.* 2002;346(4):257-270. [doi:10.1056/NEJMra010917](https://doi.org/10.1056/NEJMra010917) · [PubMed 11807151](https://pubmed.ncbi.nlm.nih.gov/11807151/)
