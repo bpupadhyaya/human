@@ -429,6 +429,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "Zinc and nucleic-acid metabolism: zinc is a cofactor of many nucleases and antiviral proteins, and its role in the nucleic-acid sensing (cGAS-STING already mapped) and metabolism disrupted in Aicardi-Goutières links it to the interferonopathy."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Fibrosis and vasculopathy: TGF-β and its SMAD4 (already mapped) signalling shape the tissue response and the small-vessel vasculopathy (PDGF and endothelin already mapped) of the interferon-injured brain in Aicardi-Goutières."
+  - target: 01-human/03-molecular/baff
+    relation: connects-to
+    note: "Autoimmune B cells: BAFF supports the B cells (already mapped) that produce the autoantibodies (immunoglobulin already mapped) of the SLE-like autoimmunity that accompanies the interferonopathy of Aicardi-Goutières."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "T-cell dysregulation: IL-2 signalling in the regulatory T cells (already mapped) is part of the immune dysregulation of the type-I interferonopathy (already mapped) of Aicardi-Goutières."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -660,6 +669,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 cytokine arm: IL-13, with IL-4 (already mapped), forms the type-2 response that counters the dominant type-I interferon signature of Aicardi-Goutières, the balance between the two shaping the severity of the interferonopathy.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium and excitotoxicity: magnesium blocks the NMDA receptor and buffers the glutamate (already mapped) excitotoxicity that injures the neurons (already mapped) of the Aicardi-Goutières encephalopathy, a neuroprotective ion.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and nucleic-acid metabolism: zinc is a cofactor of many nucleases and antiviral proteins, and its role in the nucleic-acid sensing (cGAS-STING already mapped) and metabolism disrupted in Aicardi-Goutières links it to the interferonopathy.
+- `connects-to` → **[TGF-beta](../../03-molecular/tgf-beta/README.md)** — Fibrosis and vasculopathy: TGF-β and its SMAD4 (already mapped) signalling shape the tissue response and the small-vessel vasculopathy (PDGF and endothelin already mapped) of the interferon-injured brain in Aicardi-Goutières.
+- `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — Autoimmune B cells: BAFF supports the B cells (already mapped) that produce the autoantibodies (immunoglobulin already mapped) of the SLE-like autoimmunity that accompanies the interferonopathy of Aicardi-Goutières.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell dysregulation: IL-2 signalling in the regulatory T cells (already mapped) is part of the immune dysregulation of the type-I interferonopathy (already mapped) of Aicardi-Goutières.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
