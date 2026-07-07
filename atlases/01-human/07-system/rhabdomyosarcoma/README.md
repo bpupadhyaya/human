@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Tumour vasculature: nitric oxide regulates the vascular tone and angiogenesis of rhabdomyosarcoma, part of the stromal microenvironment supporting this aggressive childhood sarcoma of skeletal-muscle lineage."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the cold, immune-evasive microenvironment of rhabdomyosarcoma."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Chemotherapy anaemia: the intensive vincristine-actinomycin-cyclophosphamide chemotherapy of rhabdomyosarcoma is myelosuppressive, causing anaemia (haemoglobin already mapped) that needs transfusion whose repeated support can load the young survivor with iron."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Inflammatory eicosanoids: prostaglandins from the tumour and infiltrating cells (IL-6 and IL-1 already mapped) contribute to the inflammation of the rhabdomyosarcoma microenvironment, part of the stroma of this aggressive sarcoma."
 ---
 
 # Rhabdomyosarcoma
@@ -671,6 +680,9 @@ Maximal safe resection with negative margins (R0) wherever achievable without mu
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Tumour lysis: the intensive VAC chemotherapy for bulky rhabdomyosarcoma can lyse the tumour rapidly, releasing purines that xanthine oxidase converts to uric acid, a tumour-lysis risk managed with allopurinol and hydration.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 helps make rhabdomyosarcoma an immunologically cold tumour (PD-1 already mapped), dampening the T-cell response (CD8 already mapped) that the antigen-directed cellular therapies under investigation aim to mount.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide regulates the vascular tone and angiogenesis of rhabdomyosarcoma, part of the stromal microenvironment supporting this aggressive childhood sarcoma of skeletal-muscle lineage.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the cold, immune-evasive microenvironment of rhabdomyosarcoma.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Chemotherapy anaemia: the intensive vincristine-actinomycin-cyclophosphamide chemotherapy of rhabdomyosarcoma is myelosuppressive, causing anaemia (haemoglobin already mapped) that needs transfusion whose repeated support can load the young survivor with iron.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Inflammatory eicosanoids: prostaglandins from the tumour and infiltrating cells (IL-6 and IL-1 already mapped) contribute to the inflammation of the rhabdomyosarcoma microenvironment, part of the stroma of this aggressive sarcoma.
 
 [^crist-2001-irs4-rms]: Crist WM, Anderson JR, Meza JL, et al. Intergroup rhabdomyosarcoma study-IV: results for patients with nonmetastatic disease. *J Clin Oncol.* 2001;19(12):3091-3102. [doi:10.1200/JCO.2001.19.12.3091](https://doi.org/10.1200/JCO.2001.19.12.3091) · [PubMed 11408506](https://pubmed.ncbi.nlm.nih.gov/11408506/)
 [^oberlin-2012-mmt95-rms]: Oberlin O, Rey A, Sanchez de Toledo J, et al. Randomized comparison of intensified six-drug versus standard three-drug chemotherapy for high-risk nonmetastatic rhabdomyosarcoma and other chemotherapy-sensitive childhood soft tissue sarcomas. *J Clin Oncol.* 2012;30(19):2457-2465. [doi:10.1200/JCO.2011.39.3538](https://doi.org/10.1200/JCO.2011.39.3538) · [PubMed 22665546](https://pubmed.ncbi.nlm.nih.gov/22665546/)

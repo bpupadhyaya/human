@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative and lysis stress: chemotherapy of retinoblastoma generates oxidative stress and, in bulky disease, rapid cell lysis releasing purines that xanthine oxidase converts to uric acid, contributing to tumour-lysis and oxidative burden."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the cold, low-mutation microenvironment of retinoblastoma."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Chemotherapy anaemia: the systemic chemotherapy of retinoblastoma is myelosuppressive, causing anaemia (haemoglobin already mapped) that can require transfusion, whose repeated support can load the young child with iron."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the vascular tone and angiogenesis of retinoblastoma, part of the stromal microenvironment of this intraocular tumour."
 ---
 
 # Retinoblastoma
@@ -656,6 +665,9 @@ Standard regimen: **vincristine + carboplatin + etoposide (VCE)**, 6 cycles; red
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Chemotherapy cardiotoxicity: the carboplatin and, in extraocular disease, anthracycline-containing regimens for retinoblastoma carry cardiotoxic risk, and troponin elevation helps detect the myocardial injury threatening these very young survivors.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 helps make retinoblastoma an immunologically cold, low-mutation tumour (PD-1 already mapped), dampening the T-cell response, which limits the benefit of checkpoint blockade in the rare metastatic cases.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative and lysis stress: chemotherapy of retinoblastoma generates oxidative stress and, in bulky disease, rapid cell lysis releasing purines that xanthine oxidase converts to uric acid, contributing to tumour-lysis and oxidative burden.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the cold, low-mutation microenvironment of retinoblastoma.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Chemotherapy anaemia: the systemic chemotherapy of retinoblastoma is myelosuppressive, causing anaemia (haemoglobin already mapped) that can require transfusion, whose repeated support can load the young child with iron.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the vascular tone and angiogenesis of retinoblastoma, part of the stromal microenvironment of this intraocular tumour.
 
 [^knudson-1971-two-hit]: Knudson AG Jr. Mutation and cancer: statistical study of retinoblastoma. *Proc Natl Acad Sci USA.* 1971;68(4):820-823. [doi:10.1073/pnas.68.4.820](https://doi.org/10.1073/pnas.68.4.820) · [PubMed 5279523](https://pubmed.ncbi.nlm.nih.gov/5279523/)
 [^shields-2008-retinoblastoma]: Shields CL, Shields JA. Retinoblastoma management: advances in enucleation, intravenous chemoreduction, and intra-arterial chemotherapy. *Curr Opin Ophthalmol.* 2010;21(3):203-212. [doi:10.1097/ICU.0b013e328338676a](https://doi.org/10.1097/ICU.0b013e328338676a) · [PubMed 20224400](https://pubmed.ncbi.nlm.nih.gov/20224400/)
