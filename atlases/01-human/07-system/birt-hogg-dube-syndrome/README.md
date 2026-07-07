@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Adipokine milieu: resistin, with leptin and adiponectin (already mapped), completes the adipokine dimension of the folliculin-AMPK (already mapped) energy metabolism of Birt-Hogg-Dubé syndrome."
+  - target: 01-human/07-system/vhl-disease
+    relation: connects-to
+    note: "Hereditary-RCC differential: Birt-Hogg-Dubé and the von Hippel-Lindau (VHL already mapped) syndromes are hereditary renal-tumour syndromes in the differential, distinguished by the FLCN versus VHL genes."
+  - target: 01-human/07-system/tuberous-sclerosis-complex
+    relation: connects-to
+    note: "mTOR-pathway overlap: Birt-Hogg-Dubé and tuberous sclerosis are mTOR/AMPK (TSC1-TSC2 already mapped) hamartoma syndromes with renal and lung (cysts, LAM) involvement."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Fibrofolliculoma stroma: the fibrofolliculomas of Birt-Hogg-Dubé are benign hair-follicle tumours with a fibroblast/collagen (PDGF already mapped) stroma."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -720,6 +729,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Folliculin energy metabolism: the FLCN-AMPK (already mapped) energy-sensing axis that folliculin regulates connects to the leptin adipokine signalling of the metabolic dimension of Birt-Hogg-Dubé syndrome.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — AMPK-activating adipokine: adiponectin, with leptin (already mapped), activates the AMPK (already mapped) energy metabolism that folliculin governs, part of the metabolic milieu of Birt-Hogg-Dubé syndrome.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine milieu: resistin, with leptin and adiponectin (already mapped), completes the adipokine dimension of the folliculin-AMPK (already mapped) energy metabolism of Birt-Hogg-Dubé syndrome.
+- `connects-to` → **[VHL disease](../vhl-disease/README.md)** — Hereditary-RCC differential: Birt-Hogg-Dubé and the von Hippel-Lindau (VHL already mapped) syndromes are hereditary renal-tumour syndromes in the differential, distinguished by the FLCN versus VHL genes.
+- `connects-to` → **[Tuberous sclerosis complex](../tuberous-sclerosis-complex/README.md)** — mTOR-pathway overlap: Birt-Hogg-Dubé and tuberous sclerosis are mTOR/AMPK (TSC1-TSC2 already mapped) hamartoma syndromes with renal and lung (cysts, LAM) involvement.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Fibrofolliculoma stroma: the fibrofolliculomas of Birt-Hogg-Dubé are benign hair-follicle tumours with a fibroblast/collagen (PDGF already mapped) stroma.
 
 ---
 

@@ -445,6 +445,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the obesity and metabolic-syndrome contribution to bladder cancer."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory (IL-6 already mapped) milieu of obesity to the tumour biology of bladder cancer."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Upper-tract urothelial: the urothelial carcinoma is a field-effect disease; the upper-tract (renal pelvis, ureter) urothelial carcinoma of the kidney shares the biology and the risk factors of bladder cancer."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "BCG antigen presentation: the dendritic cells present the intravesical BCG and the tumour antigens, initiating the adaptive (IFN-γ and IL-2 already mapped) immunity of bladder cancer."
 ---
 
 # Bladder Cancer
@@ -708,6 +717,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — BCG and checkpoint T-cell immunity: the CD4 T-helper cells (IFN-γ already mapped) orchestrate the intravesical BCG (tuberculosis already mapped) granulomatous response and the checkpoint (PD-1 already mapped) anti-tumour immunity of bladder cancer.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Obesity and tumour biology: leptin links the obesity (a bladder-cancer risk factor) and the metabolic milieu (insulin already mapped) to the tumour biology of bladder cancer.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the obesity and metabolic-syndrome contribution to bladder cancer.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory (IL-6 already mapped) milieu of obesity to the tumour biology of bladder cancer.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Upper-tract urothelial: the urothelial carcinoma is a field-effect disease; the upper-tract (renal pelvis, ureter) urothelial carcinoma of the kidney shares the biology and the risk factors of bladder cancer.
+- `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — BCG antigen presentation: the dendritic cells present the intravesical BCG and the tumour antigens, initiating the adaptive (IFN-γ and IL-2 already mapped) immunity of bladder cancer.
 
 ---
 
