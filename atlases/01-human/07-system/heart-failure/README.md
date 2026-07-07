@@ -415,6 +415,15 @@ cross_links:
   - target: 01-human/03-molecular/leptin
     relation: connects-to
     note: "Adipokine cardiometabolism: leptin, with adiponectin (already mapped), links the adipose tissue of obesity (already mapped) to the myocardial metabolism and inflammation of heart failure, especially the HFpEF phenotype."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Cardiac M2 macrophages: IL-4 polarises the cardiac macrophages toward a reparative M2 phenotype (IL-10 already mapped), part of the myocardial inflammation and remodelling (TGF-β already mapped) of heart failure."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Prostaglandins and fluid: renal prostaglandins maintain perfusion during RAAS blockade (angiotensin already mapped), and NSAIDs that block them cause fluid retention that precipitates and worsens heart failure."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "Endothelial dysfunction: the angiopoietin-Tie2 axis reflects the endothelial dysfunction of heart failure (VEGF and endothelin already mapped), the congestion-driven endothelial activation contributing to the systemic and pulmonary vascular changes."
 ---
 
 # Heart Failure
@@ -620,6 +629,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Ischaemic lipids: the atherogenic cholesterol (PCSK9 already mapped) driving coronary disease underlies ischaemic cardiomyopathy, the commonest cause of heart failure with reduced ejection fraction, and statins are part of its prevention.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Anti-inflammatory counter-regulation: IL-10 opposes the chronic myocardial inflammation (IL-6, TNF and IL-1 already mapped) of heart failure, and the imbalance toward pro-inflammatory signalling contributes to the adverse remodelling.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adipokine cardiometabolism: leptin, with adiponectin (already mapped), links the adipose tissue of obesity (already mapped) to the myocardial metabolism and inflammation of heart failure, especially the HFpEF phenotype.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Cardiac M2 macrophages: IL-4 polarises the cardiac macrophages toward a reparative M2 phenotype (IL-10 already mapped), part of the myocardial inflammation and remodelling (TGF-β already mapped) of heart failure.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Prostaglandins and fluid: renal prostaglandins maintain perfusion during RAAS blockade (angiotensin already mapped), and NSAIDs that block them cause fluid retention that precipitates and worsens heart failure.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Endothelial dysfunction: the angiopoietin-Tie2 axis reflects the endothelial dysfunction of heart failure (VEGF and endothelin already mapped), the congestion-driven endothelial activation contributing to the systemic and pulmonary vascular changes.
 
 ## Pathology
 
