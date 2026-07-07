@@ -445,6 +445,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Microenvironment adipokine: adiponectin, with leptin (already mapped), is part of the adipokine modulation of the melanoma microenvironment and the immunotherapy response."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Microenvironment adipokine: resistin, with leptin and adiponectin (already mapped), completes the adipokine dimension of the obesity-melanoma axis and the immunotherapy microenvironment."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) anti-tumour response of the immunogenic melanoma, augmenting the checkpoint (PD-1 already mapped) immunotherapy."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Eosinophil biomarker: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), drives the eosinophilia associated with the favourable response to the melanoma checkpoint immunotherapy."
 ---
 
 # Melanoma
@@ -677,6 +686,9 @@ cross_links:
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Interferon adjuvant immunotherapy: interferon-α was the historical adjuvant immunotherapy of high-risk melanoma, and the type-I interferon signalling shapes the immunogenicity and the checkpoint (PD-1 already mapped) response of the tumour.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Metabolic-immune adipokine: leptin, part of the obesity-melanoma metabolic axis, modulates the tumour and the T-cell (already mapped) immune response of melanoma.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Microenvironment adipokine: adiponectin, with leptin (already mapped), is part of the adipokine modulation of the melanoma microenvironment and the immunotherapy response.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Microenvironment adipokine: resistin, with leptin and adiponectin (already mapped), completes the adipokine dimension of the obesity-melanoma axis and the immunotherapy microenvironment.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) anti-tumour response of the immunogenic melanoma, augmenting the checkpoint (PD-1 already mapped) immunotherapy.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Eosinophil biomarker: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), drives the eosinophilia associated with the favourable response to the melanoma checkpoint immunotherapy.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
