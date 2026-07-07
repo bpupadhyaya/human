@@ -435,6 +435,15 @@ cross_links:
   - target: 01-human/03-molecular/pd-1
     relation: connects-to
     note: "T-cell exhaustion: the PD-1 checkpoint on the cytotoxic T cells (already mapped) can limit the viral clearance in severe or persistent West Nile virus infection, part of the immune regulation of the disease."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Immune-metabolic adipokine: leptin is the adipokine of the immune-metabolic milieu; the nutritional and metabolic state modulates the age-dependent (the elderly worse) susceptibility to West Nile virus."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the immune-metabolic milieu of the West Nile virus infection."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the inflammatory (IL-6 and TNF already mapped) response to West Nile virus."
 ---
 
 # West Nile Virus
@@ -694,3 +703,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — Blood-brain-barrier permeability: substance P increases the permeability of the blood-brain barrier, facilitating the neuroinvasion of West Nile virus into the brain (already mapped) and the encephalitis.
 - `connects-to` → **[TGF-beta](../../03-molecular/tgf-beta/README.md)** — Regulatory and repair signalling: TGF-β shapes the regulatory (Treg already mapped) and tissue-repair response that resolves the neuroinflammation of West Nile encephalitis, balancing viral control against immunopathology.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — T-cell exhaustion: the PD-1 checkpoint on the cytotoxic T cells (already mapped) can limit the viral clearance in severe or persistent West Nile virus infection, part of the immune regulation of the disease.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Immune-metabolic adipokine: leptin is the adipokine of the immune-metabolic milieu; the nutritional and metabolic state modulates the age-dependent (the elderly worse) susceptibility to West Nile virus.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the immune-metabolic milieu of the West Nile virus infection.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the inflammatory (IL-6 and TNF already mapped) response to West Nile virus.

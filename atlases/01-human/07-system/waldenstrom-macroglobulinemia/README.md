@@ -433,6 +433,15 @@ cross_links:
   - target: 01-human/03-molecular/ctla-4
     relation: connects-to
     note: "Checkpoint co-inhibition: CTLA-4, with PD-1 (already mapped), forms the immune-checkpoint brake on the T cells of the Waldenström tumour microenvironment, part of its immune evasion."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate B-cell signalling: type-I interferon, downstream of the TLR/MYD88 (already mapped) innate signalling of the Waldenström B cells, and the historical interferon therapy of the lymphoma."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Marrow macrophages: the marrow macrophages and tumour-associated macrophages (CCL2 already mapped) support the lymphoplasmacytic clone and the immune microenvironment of Waldenström macroglobulinaemia."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Hepatomegaly: the lymphoplasmacytic infiltration causes the hepatomegaly (with the splenomegaly already mapped) and the organomegaly of Waldenström macroglobulinaemia."
 ---
 
 # Waldenström Macroglobulinemia
@@ -689,6 +698,9 @@ For symptomatic hyperviscosity → removes IgM immediately; does not treat under
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — M2 marrow milieu: IL-13, with IL-4 (already mapped), supports the M2 macrophage (already mapped) and type-2 milieu of the marrow microenvironment of Waldenström macroglobulinaemia.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — T-cell checkpoint: the PD-1 checkpoint on the T cells of the Waldenström tumour microenvironment contributes to the immune evasion of the lymphoplasmacytic clone.
 - `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Checkpoint co-inhibition: CTLA-4, with PD-1 (already mapped), forms the immune-checkpoint brake on the T cells of the Waldenström tumour microenvironment, part of its immune evasion.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate B-cell signalling: type-I interferon, downstream of the TLR/MYD88 (already mapped) innate signalling of the Waldenström B cells, and the historical interferon therapy of the lymphoma.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Marrow macrophages: the marrow macrophages and tumour-associated macrophages (CCL2 already mapped) support the lymphoplasmacytic clone and the immune microenvironment of Waldenström macroglobulinaemia.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Hepatomegaly: the lymphoplasmacytic infiltration causes the hepatomegaly (with the splenomegaly already mapped) and the organomegaly of Waldenström macroglobulinaemia.
 
 [^treon-2015-ibrutinib-wm]: Treon SP, Tripsas CK, Meid K, et al. Ibrutinib in previously treated Waldenström's macroglobulinemia. *N Engl J Med.* 2015;373(18):1765-1774. [doi:10.1056/NEJMoa1501548](https://doi.org/10.1056/NEJMoa1501548) · [PubMed 26352686](https://pubmed.ncbi.nlm.nih.gov/26352686/)
 [^tam-2020-aspen]: Tam CS, Opat S, D'Sa S, et al. A randomized phase 3 trial of zanubrutinib vs ibrutinib in symptomatic Waldenström macroglobulinemia: the ASPEN study. *Blood.* 2020;136(18):2038-2050. [doi:10.1182/blood.2020006844](https://doi.org/10.1182/blood.2020006844) · [PubMed 32828187](https://pubmed.ncbi.nlm.nih.gov/32828187/)
