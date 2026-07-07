@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/hepcidin
     relation: connects-to
     note: "Anaemia of chronic disease: hepcidin, driven by the chronic infection and inflammation (IL-6 already mapped), sequesters iron (already mapped) and produces the anaemia of chronic disease of cystic fibrosis."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "CF liver disease: the CFTR (already mapped) defect in the biliary epithelium causes the focal biliary cirrhosis and the portal hypertension of the CF liver disease."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Sweat sodium: the elevated sweat sodium (with chloride already mapped) is the diagnostic sweat-test hallmark of cystic fibrosis, reflecting the CFTR (already mapped) defect."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "CF bone disease: the malabsorption, the chronic inflammation (RANKL already mapped) and the corticosteroid use cause the CF-related low bone density and osteoporosis."
 ---
 
 # Cystic Fibrosis
@@ -707,6 +716,9 @@ AND
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Malnutrition adipokine: adiponectin, with leptin (already mapped), is part of the adipokine disturbance of the malnutrition and the CF-related metabolic dysregulation (insulin already mapped) of cystic fibrosis.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory milieu to the chronic inflammation (IL-6 already mapped) and nutritional disturbance of cystic fibrosis.
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of chronic disease: hepcidin, driven by the chronic infection and inflammation (IL-6 already mapped), sequesters iron (already mapped) and produces the anaemia of chronic disease of cystic fibrosis.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — CF liver disease: the CFTR (already mapped) defect in the biliary epithelium causes the focal biliary cirrhosis and the portal hypertension of the CF liver disease.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Sweat sodium: the elevated sweat sodium (with chloride already mapped) is the diagnostic sweat-test hallmark of cystic fibrosis, reflecting the CFTR (already mapped) defect.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — CF bone disease: the malabsorption, the chronic inflammation (RANKL already mapped) and the corticosteroid use cause the CF-related low bone density and osteoporosis.
 
 ---
 

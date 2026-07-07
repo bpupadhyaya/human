@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/pdgf
     relation: connects-to
     note: "Hamartoma stroma: PDGF drives the mesenchymal and stromal proliferation (collagen already mapped) of the hamartomas of Cowden syndrome, part of the PTEN (already mapped)-driven overgrowth."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Lhermitte-Duclos: the dysplastic cerebellar gangliocytoma (Lhermitte-Duclos disease; PTEN/mTOR already mapped) of the brain, and the macrocephaly, are the neurological features of Cowden syndrome."
+  - target: 01-human/07-system/colorectal-cancer
+    relation: connects-to
+    note: "GI hamartomas/CRC: the hamartomatous and other colonic polyps of Cowden syndrome (PTEN already mapped) confer a raised colorectal-cancer risk, needing the surveillance."
+  - target: 01-human/07-system/autism-spectrum-disorder
+    relation: connects-to
+    note: "Macrocephaly-autism: the PTEN (already mapped) mutations cause a macrocephaly-autism spectrum, linking Cowden syndrome to the neurodevelopmental phenotype."
 ---
 
 # Cowden Syndrome
@@ -759,6 +768,9 @@ cross_links:
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine-cancer milieu: resistin, with leptin and adiponectin (already mapped), links the PTEN-PI3K (already mapped) metabolic pathway to the obesity-associated cancer risk of Cowden syndrome.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Thyroid selenoproteins: selenium supports the selenoprotein deiodinase and antioxidant function of the thyroid (already mapped), the site of the nodular disease and cancer of Cowden syndrome.
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Hamartoma stroma: PDGF drives the mesenchymal and stromal proliferation (collagen already mapped) of the hamartomas of Cowden syndrome, part of the PTEN (already mapped)-driven overgrowth.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Lhermitte-Duclos: the dysplastic cerebellar gangliocytoma (Lhermitte-Duclos disease; PTEN/mTOR already mapped) of the brain, and the macrocephaly, are the neurological features of Cowden syndrome.
+- `connects-to` → **[Colorectal cancer](../colorectal-cancer/README.md)** — GI hamartomas/CRC: the hamartomatous and other colonic polyps of Cowden syndrome (PTEN already mapped) confer a raised colorectal-cancer risk, needing the surveillance.
+- `connects-to` → **[Autism spectrum disorder](../autism-spectrum-disorder/README.md)** — Macrocephaly-autism: the PTEN (already mapped) mutations cause a macrocephaly-autism spectrum, linking Cowden syndrome to the neurodevelopmental phenotype.
 
 ---
 
