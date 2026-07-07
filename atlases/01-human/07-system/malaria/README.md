@@ -438,6 +438,15 @@ cross_links:
   - target: 01-human/03-molecular/leptin
     relation: connects-to
     note: "Malnutrition and immunity: the adipokine leptin links the undernutrition common in endemic regions to the impaired immune response, modulating the susceptibility to and severity of malaria in undernourished children."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Malnutrition adipokine: adiponectin, with leptin (already mapped), is the adipokine of the malnutrition-immunity axis of the undernourished endemic children that modulates the malaria susceptibility."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the malnutrition-immunity axis and the inflammatory (TNF and IL-6 already mapped) response of malaria."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Antigen presentation: the dendritic cells present the Plasmodium antigens and prime the T-cell (already mapped) response, though the malaria also impairs their function as immune evasion."
 ---
 
 # Malaria
@@ -736,6 +745,9 @@ cross_links:
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), is part of the Th2 response whose balance against the Th1 (IL-12 and IFN-γ already mapped) shapes the immune control and immunopathology of malaria.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and nutritional immunity: zinc, with the iron (already mapped) of nutritional immunity, is important for the antimalarial immune response, and zinc deficiency in endemic malnourished children increases the malaria morbidity.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Malnutrition and immunity: the adipokine leptin links the undernutrition common in endemic regions to the impaired immune response, modulating the susceptibility to and severity of malaria in undernourished children.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Malnutrition adipokine: adiponectin, with leptin (already mapped), is the adipokine of the malnutrition-immunity axis of the undernourished endemic children that modulates the malaria susceptibility.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the malnutrition-immunity axis and the inflammatory (TNF and IL-6 already mapped) response of malaria.
+- `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Antigen presentation: the dendritic cells present the Plasmodium antigens and prime the T-cell (already mapped) response, though the malaria also impairs their function as immune evasion.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)
