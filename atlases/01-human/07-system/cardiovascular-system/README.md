@@ -438,6 +438,15 @@ cross_links:
   - target: 01-human/07-system/hypertension
     relation: connects-to
     note: "The central vascular disorder: hypertension is the commonest disorder of the cardiovascular system, the raised pressure (RAAS and endothelin already mapped) driving the atherosclerosis, heart failure and stroke that dominate its disease burden."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Cardioprotective adipokine: adiponectin is an anti-atherogenic, cardioprotective adipokine of the cardiovascular system, and its fall in obesity and the metabolic syndrome (insulin and cholesterol already mapped) raises cardiovascular risk."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Adipokine and blood pressure: leptin links the obesity to the sympathetic activation (noradrenaline already mapped) and the hypertension of the cardiovascular system, part of the adipose-cardiovascular crosstalk."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Oxygen delivery: the fundamental purpose of the cardiovascular system is to deliver oxygen (carried on haemoglobin already mapped) to the tissues, the circulation matched to the metabolic demand."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"
@@ -660,6 +669,9 @@ Each major vascular bed has **autoregulation** — a local mechanism that holds 
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The cardiorenal partnership: the kidney regulates blood volume and pressure through the renin-angiotensin-aldosterone system (already mapped), and the heart and kidney are locked in a bidirectional partnership central to the cardiovascular system.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Cardiac and vascular excitability: potassium sets the resting membrane potential of the cardiac and vascular smooth-muscle (already mapped) cells, and dyskalaemia causes the arrhythmias that threaten the cardiovascular system.
 - `connects-to` → **[Hypertension](../hypertension/README.md)** — The central vascular disorder: hypertension is the commonest disorder of the cardiovascular system, the raised pressure (RAAS and endothelin already mapped) driving the atherosclerosis, heart failure and stroke that dominate its disease burden.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Cardioprotective adipokine: adiponectin is an anti-atherogenic, cardioprotective adipokine of the cardiovascular system, and its fall in obesity and the metabolic syndrome (insulin and cholesterol already mapped) raises cardiovascular risk.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adipokine and blood pressure: leptin links the obesity to the sympathetic activation (noradrenaline already mapped) and the hypertension of the cardiovascular system, part of the adipose-cardiovascular crosstalk.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Oxygen delivery: the fundamental purpose of the cardiovascular system is to deliver oxygen (carried on haemoglobin already mapped) to the tissues, the circulation matched to the metabolic demand.
 
 ## Pathology
 

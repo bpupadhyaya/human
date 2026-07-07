@@ -432,6 +432,15 @@ cross_links:
   - target: 01-human/07-system/hypertension
     relation: connects-to
     note: "Cause and consequence: hypertension is both a leading cause and a near-universal consequence of chronic kidney disease, the renin-angiotensin (already mapped) activation and volume overload creating a vicious cycle that hastens renal decline."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Profibrotic type-2 cytokine: IL-13, with IL-4 (already mapped), is a profibrotic type-2 cytokine that contributes to the renal interstitial fibrosis (TGF-β already mapped) driving the progression of chronic kidney disease."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Type-2 fibrosis: IL-4 drives the M2 macrophages and the type-2 immunity involved in the renal interstitial fibrosis (TGF-β already mapped) that drives the progression of chronic kidney disease."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Renal adipokine retention: leptin is cleared by the kidney and accumulates in chronic kidney disease, contributing to the uraemic cachexia, sympathetic activation and cardiovascular risk."
 ---
 
 # Chronic Kidney Disease
@@ -646,6 +655,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Sodium and volume overload: the failing kidney retains sodium (aldosterone already mapped), and the resulting volume overload drives the hypertension and fluid retention that accelerate chronic kidney disease and its cardiovascular risk.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron-restricted anaemia: the raised hepcidin (already mapped) and the failing erythropoietin (already mapped) of chronic kidney disease restrict iron for erythropoiesis, producing the renal anaemia managed with iron and erythropoiesis-stimulating agents.
 - `connects-to` → **[Hypertension](../hypertension/README.md)** — Cause and consequence: hypertension is both a leading cause and a near-universal consequence of chronic kidney disease, the renin-angiotensin (already mapped) activation and volume overload creating a vicious cycle that hastens renal decline.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Profibrotic type-2 cytokine: IL-13, with IL-4 (already mapped), is a profibrotic type-2 cytokine that contributes to the renal interstitial fibrosis (TGF-β already mapped) driving the progression of chronic kidney disease.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Type-2 fibrosis: IL-4 drives the M2 macrophages and the type-2 immunity involved in the renal interstitial fibrosis (TGF-β already mapped) that drives the progression of chronic kidney disease.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Renal adipokine retention: leptin is cleared by the kidney and accumulates in chronic kidney disease, contributing to the uraemic cachexia, sympathetic activation and cardiovascular risk.
 
 ## Pathology
 
