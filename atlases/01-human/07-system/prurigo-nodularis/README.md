@@ -418,6 +418,15 @@ cross_links:
   - target: 01-human/03-molecular/cortisol
     relation: connects-to
     note: "Stress and steroids: psychological stress worsens the itch of prurigo nodularis through cortisol and the stress axis, and topical and systemic corticosteroids acting on the glucocorticoid receptor (already mapped) are used to calm the inflammation."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Type-2 helper T cells: the CD4 Th2 and Th22 cells drive the type-2 inflammation (IL-4, IL-13 and IL-31 already mapped) of prurigo nodularis, the cellular source of the itch cytokines targeted by dupilumab and nemolizumab."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Pruriceptor sensitisation: the sensory neurons that transmit itch sprout and sensitise in the skin of prurigo nodularis (substance P, CGRP and NGF-TrkA already mapped), the neuronal remodelling central to the intractable itch."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Uraemic pruritus: chronic kidney disease causes a severe systemic itch that can drive prurigo nodularis (mu-opioid receptor already mapped), one of the internal diseases to exclude in a patient presenting with the nodules."
 ---
 
 # Prurigo Nodularis
@@ -634,6 +643,9 @@ PN affects approximately **72,000 patients** in the US; true prevalence is likel
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Dyslipidaemia: prurigo nodularis is associated with an atherogenic dyslipidaemia as part of its metabolic syndrome (leptin already mapped), one of the systemic comorbidities that accompany the skin disease.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Insulin resistance: prurigo nodularis is associated with type 2 diabetes and insulin resistance, part of the metabolic-syndrome cluster (leptin already mapped) that is more common in patients with the disease.
 - `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Stress and steroids: psychological stress worsens the itch of prurigo nodularis through cortisol and the stress axis, and topical and systemic corticosteroids acting on the glucocorticoid receptor (already mapped) are used to calm the inflammation.
+- `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — Type-2 helper T cells: the CD4 Th2 and Th22 cells drive the type-2 inflammation (IL-4, IL-13 and IL-31 already mapped) of prurigo nodularis, the cellular source of the itch cytokines targeted by dupilumab and nemolizumab.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Pruriceptor sensitisation: the sensory neurons that transmit itch sprout and sensitise in the skin of prurigo nodularis (substance P, CGRP and NGF-TrkA already mapped), the neuronal remodelling central to the intractable itch.
+- `connects-to` → **[CKD](../ckd/README.md)** — Uraemic pruritus: chronic kidney disease causes a severe systemic itch that can drive prurigo nodularis (mu-opioid receptor already mapped), one of the internal diseases to exclude in a patient presenting with the nodules.
 
 [^stander-2020-nemolizumab-pn]: Ständer S, Yosipovitch G, Legat FJ, et al. Trial of nemolizumab in moderate-to-severe prurigo nodularis. *N Engl J Med.* 2020;382(8):706-716. [doi:10.1056/NEJMoa1908316](https://doi.org/10.1056/NEJMoa1908316) · [PubMed 32053299](https://pubmed.ncbi.nlm.nih.gov/32053299/)
 [^briggs-2022-dupilumab-pn-liberty]: Briggs JN, Cho YY, Khanna R, et al. Dupilumab for prurigo nodularis: the LIBERTY-PN PRIME and PRIME2 trials. *N Engl J Med.* 2022;387(18):1683-1693. [doi:10.1056/NEJMoa2205093](https://doi.org/10.1056/NEJMoa2205093) · [PubMed 36300905](https://pubmed.ncbi.nlm.nih.gov/36300905/)
