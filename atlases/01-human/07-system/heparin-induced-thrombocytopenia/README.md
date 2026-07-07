@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "Platelet zinc and coagulation: zinc released from the activated platelets (already mapped) promotes the contact pathway and fibrin formation (fibrinogen and thrombin already mapped), contributing to the prothrombotic state of HIT."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Loss of tolerance: the regulatory T cells maintain tolerance to PF4 (already mapped), and the breakdown of this tolerance permits the transient anti-PF4/heparin antibody response that causes HIT."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Immune regulation: the PD-1 checkpoint and peripheral-tolerance mechanisms shape the self-limited nature of the anti-PF4 (already mapped) antibody response, which typically wanes over weeks in HIT."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate priming: the innate immune context (cGAS-STING already mapped), including type-I interferon, primes the rapid, T-cell-independent-like anti-PF4/heparin antibody response of HIT."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -711,6 +720,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Platelet purinergic signalling: the ADP released from the activated platelets (already mapped) amplifies aggregation, while adenosine provides counter-regulatory inhibition, part of the purinergic control of the platelet activation that drives HIT.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Basophil activation: the anti-PF4/heparin antibodies (immunoglobulin G already mapped) activate basophils as well as platelets, releasing histamine, the basis of the basophil-activation test used to help diagnose HIT.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Platelet zinc and coagulation: zinc released from the activated platelets (already mapped) promotes the contact pathway and fibrin formation (fibrinogen and thrombin already mapped), contributing to the prothrombotic state of HIT.
+- `connects-to` → **[Regulatory T cell](../../04-cellular/regulatory-t-cell/README.md)** — Loss of tolerance: the regulatory T cells maintain tolerance to PF4 (already mapped), and the breakdown of this tolerance permits the transient anti-PF4/heparin antibody response that causes HIT.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Immune regulation: the PD-1 checkpoint and peripheral-tolerance mechanisms shape the self-limited nature of the anti-PF4 (already mapped) antibody response, which typically wanes over weeks in HIT.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate priming: the innate immune context (cGAS-STING already mapped), including type-I interferon, primes the rapid, T-cell-independent-like anti-PF4/heparin antibody response of HIT.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)

@@ -426,6 +426,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Hepatic iron: chronic hepatitis B disturbs iron handling (hepcidin already mapped), and hepatic iron accumulation aggravates the oxidative liver injury and the fibrosis, raising the risk of hepatocellular carcinoma."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Profibrotic type-2 arm: IL-13, with IL-4 (already mapped), drives the M2 macrophage and profibrotic (TGF-β and collagen already mapped) response in the liver fibrosis of chronic hepatitis B."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Zinc in chronic liver disease: the zinc deficiency common in chronic hepatitis B and cirrhosis impairs immune function and hepatic metabolism, and zinc also has antiviral activity relevant to the infection."
+  - target: 01-human/03-molecular/baff
+    relation: connects-to
+    note: "Antibody response: BAFF supports the B cells that produce the neutralising anti-HBs and anti-HBc antibodies (immunoglobulin already mapped) of the humoral response to hepatitis B and its vaccine."
 ---
 
 # Hepatitis B
@@ -697,3 +706,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Th1/Th2 balance: IL-4 drives the Th2 arm, and the balance between it and the Th1 response (IFN-γ already mapped) helps determine whether hepatitis B is cleared or persists as chronic infection.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Th17 immunopathology: IL-17 from Th17 cells contributes to the immune-mediated liver injury and the fibrosis (TGF-β and collagen already mapped) of chronic hepatitis B, part of the inflammation driving cirrhosis.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Hepatic iron: chronic hepatitis B disturbs iron handling (hepcidin already mapped), and hepatic iron accumulation aggravates the oxidative liver injury and the fibrosis, raising the risk of hepatocellular carcinoma.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Profibrotic type-2 arm: IL-13, with IL-4 (already mapped), drives the M2 macrophage and profibrotic (TGF-β and collagen already mapped) response in the liver fibrosis of chronic hepatitis B.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc in chronic liver disease: the zinc deficiency common in chronic hepatitis B and cirrhosis impairs immune function and hepatic metabolism, and zinc also has antiviral activity relevant to the infection.
+- `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — Antibody response: BAFF supports the B cells that produce the neutralising anti-HBs and anti-HBc antibodies (immunoglobulin already mapped) of the humoral response to hepatitis B and its vaccine.
