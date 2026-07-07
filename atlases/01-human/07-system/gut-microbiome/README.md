@@ -415,6 +415,15 @@ cross_links:
   - target: 01-human/03-molecular/prostaglandins
     relation: connects-to
     note: "Mucosal barrier eicosanoids: prostaglandins maintain the mucosal barrier and blood flow that the microbiome modulates (short-chain fatty acids already GLP-1-mapped), part of how commensals and the epithelium co-regulate gut homeostasis."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "SCFA-induced Tregs: the short-chain fatty acids of the microbiome induce regulatory T cells (TGF-β and IL-10 already mapped) in the gut, a central mechanism by which the commensal community maintains immune tolerance."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Gut macrophage sampling: the intestinal macrophages continuously sample the microbiota (TLR4 already mapped) and maintain a tolerant, anti-inflammatory tone, part of the immune dialogue between the host and its commensals."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Microbiome and energy harvest: the composition of the gut microbiome influences energy harvest from the diet and the low-grade inflammation (leptin and adiponectin already mapped) of obesity, linking dysbiosis to metabolic disease."
 ---
 
 # Gut Microbiome
@@ -625,6 +634,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Luminal nitric oxide: bacterial and host nitric oxide in the gut lumen shapes the microbial community and regulates the mucosal blood flow, part of the chemical crosstalk between the microbiome and its epithelial habitat.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian microbiome: gut-derived melatonin and the host circadian clock impose a diurnal rhythm on the microbiome (serotonin already mapped), and disrupted sleep or shift work perturbs the community and its metabolic output.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Mucosal barrier eicosanoids: prostaglandins maintain the mucosal barrier and blood flow that the microbiome modulates (short-chain fatty acids already GLP-1-mapped), part of how commensals and the epithelium co-regulate gut homeostasis.
+- `connects-to` → **[Regulatory T cell](../../04-cellular/regulatory-t-cell/README.md)** — SCFA-induced Tregs: the short-chain fatty acids of the microbiome induce regulatory T cells (TGF-β and IL-10 already mapped) in the gut, a central mechanism by which the commensal community maintains immune tolerance.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Gut macrophage sampling: the intestinal macrophages continuously sample the microbiota (TLR4 already mapped) and maintain a tolerant, anti-inflammatory tone, part of the immune dialogue between the host and its commensals.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Microbiome and energy harvest: the composition of the gut microbiome influences energy harvest from the diet and the low-grade inflammation (leptin and adiponectin already mapped) of obesity, linking dysbiosis to metabolic disease.
 
 ## Pathology
 
