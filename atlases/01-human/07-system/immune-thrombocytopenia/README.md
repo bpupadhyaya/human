@@ -438,6 +438,15 @@ cross_links:
   - target: 01-human/03-molecular/type-i-interferon
     relation: connects-to
     note: "Interferon dysregulation: type-I interferon signalling is implicated in the loss of tolerance of immune thrombocytopenia, and interferon therapy can itself precipitate the autoimmune platelet destruction."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Immune-metabolic adipokine: leptin modulates the autoreactive T-cell (already mapped) response implicated in immune thrombocytopenia, part of the metabolic-immune axis of the autoimmune disease."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Adipokine dimension: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the immune-metabolic milieu of the autoimmune immune thrombocytopenia."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the systemic inflammation (IL-6 already mapped) accompanying immune thrombocytopenia."
 ---
 
 # Immune Thrombocytopenia
@@ -713,6 +722,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Regulatory tolerance: TGF-β, with IL-10 (already mapped), enforces the regulatory-T-cell tolerance whose failure permits the anti-platelet autoimmunity of immune thrombocytopenia.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Megakaryocyte niche: VEGF supports the marrow vascular niche of the megakaryocytes, and the impaired platelet production (thrombopoietin already mapped) of immune thrombocytopenia involves this microenvironment as well as the autoantibody attack.
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Interferon dysregulation: type-I interferon signalling is implicated in the loss of tolerance of immune thrombocytopenia, and interferon therapy can itself precipitate the autoimmune platelet destruction.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Immune-metabolic adipokine: leptin modulates the autoreactive T-cell (already mapped) response implicated in immune thrombocytopenia, part of the metabolic-immune axis of the autoimmune disease.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine dimension: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the immune-metabolic milieu of the autoimmune immune thrombocytopenia.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the systemic inflammation (IL-6 already mapped) accompanying immune thrombocytopenia.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)

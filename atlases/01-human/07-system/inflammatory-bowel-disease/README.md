@@ -436,6 +436,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "Diarrhoeal losses: the profuse diarrhoea of active inflammatory bowel disease depletes sodium and water, causing the volume depletion and electrolyte disturbance (calcium already mapped) that complicate flares."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Creeping-fat adipokine: adiponectin, with leptin (already mapped), is an adipokine of the 'creeping fat' — the mesenteric adipose that wraps the inflamed Crohn's bowel — a distinctive feature of inflammatory bowel disease."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory creeping-fat adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the creeping fat and the systemic inflammation (IL-6 already mapped) of inflammatory bowel disease."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Diarrhoeal magnesium loss: the profuse diarrhoea of active inflammatory bowel disease depletes magnesium (with sodium already mapped), contributing to the electrolyte disturbance of flares."
 ---
 
 # Inflammatory Bowel Disease
@@ -703,6 +712,9 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of inflammation: the IL-6-driven (already mapped) hepcidin sequesters iron and, with the iron-deficiency (already mapped) from blood loss, causes the mixed anaemia that is the commonest systemic complication of inflammatory bowel disease.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Mucosal angiogenesis: VEGF drives the increased microvascular density and angiogenesis of the inflamed gut mucosa, part of the vascular component of the chronic inflammation of inflammatory bowel disease.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Diarrhoeal losses: the profuse diarrhoea of active inflammatory bowel disease depletes sodium and water, causing the volume depletion and electrolyte disturbance (calcium already mapped) that complicate flares.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Creeping-fat adipokine: adiponectin, with leptin (already mapped), is an adipokine of the 'creeping fat' — the mesenteric adipose that wraps the inflamed Crohn's bowel — a distinctive feature of inflammatory bowel disease.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory creeping-fat adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the creeping fat and the systemic inflammation (IL-6 already mapped) of inflammatory bowel disease.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Diarrhoeal magnesium loss: the profuse diarrhoea of active inflammatory bowel disease depletes magnesium (with sodium already mapped), contributing to the electrolyte disturbance of flares.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)
