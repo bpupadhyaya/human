@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/type-i-interferon
     relation: connects-to
     note: "HRD immunogenicity: the homologous-recombination-deficient (BRCA already mapped) ovarian cancer activates the cGAS-STING (already mapped) pathway to produce the type-I interferon that drives the immunogenicity and the checkpoint (PD-1 already mapped) response."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the anti-tumour immunity of the immunogenic HRD ovarian cancer."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) anti-tumour response of the ovarian-cancer immune microenvironment."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 arm of the immune microenvironment of the ovarian-cancer peritoneal niche."
 ---
 
 # Ovarian Cancer
@@ -695,6 +704,9 @@ FTSEC ciliated and secretory cells line the Fallopian tube; secretory cells are 
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Omental adipokine: adiponectin, with leptin (already mapped), of the omental adipose niche modulates the ovarian-cancer growth and the peritoneal (large intestine already mapped) spread.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the omental adipose-inflammatory adipokine of the peritoneal niche of ovarian cancer.
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — HRD immunogenicity: the homologous-recombination-deficient (BRCA already mapped) ovarian cancer activates the cGAS-STING (already mapped) pathway to produce the type-I interferon that drives the immunogenicity and the checkpoint (PD-1 already mapped) response.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the anti-tumour immunity of the immunogenic HRD ovarian cancer.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) anti-tumour response of the ovarian-cancer immune microenvironment.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 arm of the immune microenvironment of the ovarian-cancer peritoneal niche.
 
 [^burger-2011-gog0218]: Burger RA, Brady MF, Bookman MA, et al. Incorporation of bevacizumab in the primary treatment of ovarian cancer. *N Engl J Med.* 2011;365(26):2473-2483. [doi:10.1056/NEJMoa1104390](https://doi.org/10.1056/NEJMoa1104390) · [PubMed 22204724](https://pubmed.ncbi.nlm.nih.gov/22204724/)
 [^moore-2018-olaparib-solo1]: Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. *N Engl J Med.* 2018;379(26):2495-2505. [doi:10.1056/NEJMoa1810858](https://doi.org/10.1056/NEJMoa1810858) · [PubMed 30345884](https://pubmed.ncbi.nlm.nih.gov/30345884/)

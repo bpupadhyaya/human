@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/hepcidin
     relation: connects-to
     note: "Iron-regulatory anaemia: hepcidin, driven by the IL-6 (already mapped), governs the iron handling that, with the endometriosis iron (already mapped), contributes to the anaemia of ovarian clear cell carcinoma."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate antitumour interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment relevant to the immunotherapy of the (MSI/ARID1A-mutant already mapped) ovarian clear cell carcinoma."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm exploited by the checkpoint (PD-1 already mapped) immunotherapy of ovarian clear cell carcinoma."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) anti-tumour response of the ovarian-clear-cell-carcinoma immune microenvironment."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -721,6 +730,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Endometriosis-adipose adipokine: adiponectin, with leptin (already mapped), is part of the adipose/endometriosis-associated adipokine dimension of the metabolic pathogenesis of ovarian clear cell carcinoma.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the endometriosis-associated adipose milieu of ovarian clear cell carcinoma.
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Iron-regulatory anaemia: hepcidin, driven by the IL-6 (already mapped), governs the iron handling that, with the endometriosis iron (already mapped), contributes to the anaemia of ovarian clear cell carcinoma.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate antitumour interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment relevant to the immunotherapy of the (MSI/ARID1A-mutant already mapped) ovarian clear cell carcinoma.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm exploited by the checkpoint (PD-1 already mapped) immunotherapy of ovarian clear cell carcinoma.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) anti-tumour response of the ovarian-clear-cell-carcinoma immune microenvironment.
 
 ---
 
