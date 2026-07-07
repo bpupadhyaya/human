@@ -417,6 +417,15 @@ cross_links:
   - target: 01-human/03-molecular/leptin
     relation: connects-to
     note: "Metabolic interplay: iron deficiency alters leptin signalling and appetite, and it is associated with pica and restless-legs symptoms (dopamine already mapped), part of the systemic effects of iron-deficiency anaemia beyond the red cells."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "Gastric absorption and loss: the stomach's acid aids iron absorption — lost in atrophic gastritis, H. pylori and acid-suppressing drugs — and gastric erosions cause the occult bleeding that is a common source of iron-deficiency anaemia."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Copper ferroxidases: copper is required by ceruloplasmin and hephaestin, the ferroxidases that oxidise iron for loading onto transferrin (already mapped), so copper deficiency causes an iron-deficiency-like anaemia despite adequate iron."
+  - target: 01-human/07-system/colorectal-cancer
+    relation: connects-to
+    note: "Occult malignancy: iron-deficiency anaemia from occult gastrointestinal blood loss in an older adult mandates investigation for colorectal cancer, of which it is often the presenting sign."
 ---
 
 # Iron Deficiency Anemia
@@ -670,6 +679,9 @@ Iron is essential for:
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Gastric acid and absorption: gastric acid, driven by histamine, reduces dietary iron to the absorbable ferrous form, so acid suppression with proton-pump inhibitors and atrophic gastritis impair iron absorption and can cause iron-deficiency anaemia.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — NSAID gastrointestinal bleeding: non-steroidal anti-inflammatory drugs block the protective mucosal prostaglandins, causing the gastric erosions and chronic occult gastrointestinal bleeding that are a common cause of iron-deficiency anaemia.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Metabolic interplay: iron deficiency alters leptin signalling and appetite, and it is associated with pica and restless-legs symptoms (dopamine already mapped), part of the systemic effects of iron-deficiency anaemia beyond the red cells.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Gastric absorption and loss: the stomach's acid aids iron absorption — lost in atrophic gastritis, H. pylori and acid-suppressing drugs — and gastric erosions cause the occult bleeding that is a common source of iron-deficiency anaemia.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper ferroxidases: copper is required by ceruloplasmin and hephaestin, the ferroxidases that oxidise iron for loading onto transferrin (already mapped), so copper deficiency causes an iron-deficiency-like anaemia despite adequate iron.
+- `connects-to` → **[Colorectal cancer](../colorectal-cancer/README.md)** — Occult malignancy: iron-deficiency anaemia from occult gastrointestinal blood loss in an older adult mandates investigation for colorectal cancer, of which it is often the presenting sign.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)
