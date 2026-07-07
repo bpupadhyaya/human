@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "Micronutrient malabsorption: the calcium and micronutrient malabsorption of the protein-losing enteropathy and extensive polyposis of juvenile polyposis, contributing to the nutritional depletion."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Eosinophilic polyps: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), recruits the eosinophils of the inflammatory infiltrate of the hamartomatous juvenile polyps."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate immune surveillance: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment of the polyps and the cancer-risk surveillance of juvenile polyposis."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 immunosurveillance: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the immunosurveillance of the colorectal-cancer risk of juvenile polyposis."
 ---
 
 # Juvenile Polyposis Syndrome
@@ -709,6 +718,9 @@ No approved chemopreventive agents specifically for JPS. Options under investiga
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the metabolic influence on the colorectal carcinogenesis of juvenile polyposis.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Malabsorption zinc: the zinc deficiency from the malabsorption and protein-losing enteropathy of the extensive GI polyposis of juvenile polyposis impairs the healing and immunity.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Micronutrient malabsorption: the calcium and micronutrient malabsorption of the protein-losing enteropathy and extensive polyposis of juvenile polyposis, contributing to the nutritional depletion.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Eosinophilic polyps: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), recruits the eosinophils of the inflammatory infiltrate of the hamartomatous juvenile polyps.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate immune surveillance: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment of the polyps and the cancer-risk surveillance of juvenile polyposis.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 immunosurveillance: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the immunosurveillance of the colorectal-cancer risk of juvenile polyposis.
 
 [^howe-1998-smad4-jps]: Howe JR, Roth S, Ringold JC, et al. Mutations in the SMAD4/DPC4 gene in juvenile polyposis. *Science.* 1998;280(5366):1086-1088. [doi:10.1126/science.280.5366.1086](https://doi.org/10.1126/science.280.5366.1086) · [PubMed 9582123](https://pubmed.ncbi.nlm.nih.gov/9582123/)
 [^aretz-2007-jps-spectrum]: Aretz S, Stienen D, Uhlhaas S, et al. High proportion of large genomic deletions and a genotype-phenotype update in 80 unrelated families with juvenile polyposis syndrome. *J Med Genet.* 2007;44(11):702-709. [doi:10.1136/jmg.2007.051839](https://doi.org/10.1136/jmg.2007.051839) · [PubMed 17601924](https://pubmed.ncbi.nlm.nih.gov/17601924/)
