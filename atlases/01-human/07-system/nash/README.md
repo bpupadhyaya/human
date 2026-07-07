@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Dysmetabolic iron overload: NASH disturbs iron handling (hepcidin already mapped), and the hepatic iron accumulation of the dysmetabolic iron-overload syndrome aggravates the oxidative injury and fibrosis of steatohepatitis."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Profibrotic type-2 immunity: IL-4 drives the M2 macrophages (already mapped) and the profibrotic (TGF-β already mapped) type-2 response that contributes to the hepatic-stellate-cell activation and fibrosis of NASH."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Stellate-cell fibrogenesis: IL-13, with IL-4 (already mapped), is a profibrotic type-2 cytokine that activates the hepatic stellate cells to lay down the collagen (already mapped) fibrosis of NASH."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Hepatic copper and steatosis: low hepatic copper is associated with more severe steatosis and NASH, reflecting copper's role in the lipid and antioxidant metabolism of the liver (the Wilson's-disease steatosis being the differential)."
 ---
 
 # NASH
@@ -656,6 +665,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[Obesity](../obesity/README.md)** — The metabolic driver: obesity drives the hepatic steatosis and insulin resistance (leptin, adiponectin and resistin already mapped) that underlie NASH, the liver being the hepatic manifestation of the metabolic syndrome.
 - `connects-to` → **[HCC](../hcc/README.md)** — Cirrhosis to cancer: NASH cirrhosis is a rapidly rising cause of hepatocellular carcinoma, and NASH-HCC can arise even without cirrhosis, driven by the chronic lipotoxic inflammation (TGF-β already mapped) of the disease.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Dysmetabolic iron overload: NASH disturbs iron handling (hepcidin already mapped), and the hepatic iron accumulation of the dysmetabolic iron-overload syndrome aggravates the oxidative injury and fibrosis of steatohepatitis.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Profibrotic type-2 immunity: IL-4 drives the M2 macrophages (already mapped) and the profibrotic (TGF-β already mapped) type-2 response that contributes to the hepatic-stellate-cell activation and fibrosis of NASH.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Stellate-cell fibrogenesis: IL-13, with IL-4 (already mapped), is a profibrotic type-2 cytokine that activates the hepatic stellate cells to lay down the collagen (already mapped) fibrosis of NASH.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Hepatic copper and steatosis: low hepatic copper is associated with more severe steatosis and NASH, reflecting copper's role in the lipid and antioxidant metabolism of the liver (the Wilson's-disease steatosis being the differential).
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
