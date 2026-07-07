@@ -460,6 +460,15 @@ cross_links:
   - target: 01-human/04-cellular/plasma-cell
     relation: connects-to
     note: "Gut IgA plasma cells: the intestinal plasma cells — the largest plasma-cell pool in the body — secrete the secretory IgA (already mapped) that defends the mucosal barrier of the digestive system."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "GALT B cells: the gut-associated lymphoid tissue B cells class-switch to the IgA (secretory-IgA already mapped) and populate the plasma-cell (already mapped) pool of the digestive-system mucosal immunity."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Oral tolerance: the intestinal regulatory T cells maintain the tolerance to the food antigens and the commensal microbiome (gut-microbiome already mapped) of the digestive system."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Gut adaptive immunity: the CD4 T-helper cells of the gut-associated lymphoid tissue coordinate the mucosal immune response and the barrier defence of the digestive system."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -696,6 +705,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [Adiponectin](../../03-molecular/adiponectin/README.md) — metabolic adipokine: adiponectin, with leptin (already mapped), is the adipokine signalling that links the digestive system's nutrient handling to the whole-body energy and metabolic balance.
 - **Connects to:** [Resistin](../../03-molecular/resistin/README.md) — adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the visceral adipose and the digestive-system nutrient handling to the metabolic-inflammatory state.
 - **Connects to:** [Plasma cell](../../04-cellular/plasma-cell/README.md) — gut IgA plasma cells: the intestinal plasma cells — the largest plasma-cell pool in the body — secrete the secretory IgA (already mapped) that defends the mucosal barrier of the digestive system.
+- **Connects to:** [B cell](../../04-cellular/b-cell/README.md) — GALT B cells: the gut-associated lymphoid tissue B cells class-switch to the IgA (secretory-IgA already mapped) and populate the plasma-cell (already mapped) pool of the digestive-system mucosal immunity.
+- **Connects to:** [Regulatory T cell](../../04-cellular/regulatory-t-cell/README.md) — oral tolerance: the intestinal regulatory T cells maintain the tolerance to the food antigens and the commensal microbiome (gut-microbiome already mapped) of the digestive system.
+- **Connects to:** [T-helper cell](../../04-cellular/t-helper-cell/README.md) — gut adaptive immunity: the CD4 T-helper cells of the gut-associated lymphoid tissue coordinate the mucosal immune response and the barrier defence of the digestive system.
 
 ## Pathology
 
