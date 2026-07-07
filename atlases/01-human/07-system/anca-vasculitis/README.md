@@ -451,6 +451,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "Regulatory T-cell tolerance: IL-2 signalling in the regulatory T cells maintains the tolerance whose failure permits the autoreactive response of ANCA vasculitis, and low-dose IL-2 is studied to restore it."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Immune-metabolic adipokine: leptin is the adipokine of the immune-metabolic milieu and the steroid (cortisol already mapped)-related metabolic disturbance of ANCA vasculitis."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the immune-metabolic milieu of ANCA vasculitis."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the systemic inflammation (IL-6 already mapped) of ANCA vasculitis."
 ---
 
 # ANCA Vasculitis
@@ -727,6 +736,9 @@ EGPA is mechanistically distinct — eosinophils, not neutrophils, mediate tissu
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Checkpoint-triggered vasculitis: the PD-1 checkpoint whose blockade by cancer immunotherapy can trigger an ANCA-associated vasculitis, and whose peripheral-tolerance mechanisms are disturbed in the autoimmunity of the disease.
 - `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Co-inhibitory checkpoint: CTLA-4, with PD-1 (already mapped), regulates the autoreactive T cells that help the B cells (CD20 and BAFF already mapped) produce the ANCA (immunoglobulin already mapped), and its blockade can precipitate vasculitis.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Regulatory T-cell tolerance: IL-2 signalling in the regulatory T cells maintains the tolerance whose failure permits the autoreactive response of ANCA vasculitis, and low-dose IL-2 is studied to restore it.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Immune-metabolic adipokine: leptin is the adipokine of the immune-metabolic milieu and the steroid (cortisol already mapped)-related metabolic disturbance of ANCA vasculitis.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the immune-metabolic milieu of ANCA vasculitis.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the systemic inflammation (IL-6 already mapped) of ANCA vasculitis.
 
 [^yates-2022-anca-review]: Yates M, Watts RA, Bajema IM, et al. EULAR/ERA-EDTA recommendations for the management of ANCA-associated vasculitis. *Ann Rheum Dis.* 2016;75(9):1583-1594. [doi:10.1136/annrheumdis-2016-209133](https://doi.org/10.1136/annrheumdis-2016-209133) · [PubMed 27338776](https://pubmed.ncbi.nlm.nih.gov/27338776/)
 [^stone-2010-rituximab-gpa-rave]: Stone JH, Merkel PA, Spiera R, et al. Rituximab versus cyclophosphamide for ANCA-associated vasculitis. *N Engl J Med.* 2010;363(3):221-232. [doi:10.1056/NEJMoa0909905](https://doi.org/10.1056/NEJMoa0909905) · [PubMed 20647199](https://pubmed.ncbi.nlm.nih.gov/20647199/)

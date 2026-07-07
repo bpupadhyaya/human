@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "Selenium and motor-neuron toxicity: the selenoprotein antioxidant defence of selenium, and the selenium-linked environmental exposures, have been implicated in the oxidative motor-neuron degeneration of ALS."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "Non-cell-autonomous astrocytes: the astrocyte toxicity (the impaired glutamate — already mapped — uptake, the reactive astrogliosis) contributes non-cell-autonomously to the motor-neuron death of ALS."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Motor axon degeneration: the lower-motor-neuron axons of the peripheral nerve degenerate (the denervation, the fasciculations and the muscle atrophy) in ALS."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "SOD1 copper toxicity: the mutant SOD1 (the Cu/Zn superoxide dismutase) and the copper-mediated oxidative toxicity are a cause of the familial ALS."
 ---
 
 # ALS
@@ -731,6 +740,9 @@ ALS diagnosis is **clinical** — no single definitive biomarker test (though Nf
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Hypermetabolism adipokine: adiponectin, with leptin (already mapped), reflects the hypermetabolism and weight loss that worsen the prognosis of ALS, part of the metabolic (insulin already mapped) dimension of the disease.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine inflammation: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory milieu to the metabolic and neuroinflammatory (TNF and IL-1 already mapped) dimension of ALS.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Selenium and motor-neuron toxicity: the selenoprotein antioxidant defence of selenium, and the selenium-linked environmental exposures, have been implicated in the oxidative motor-neuron degeneration of ALS.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Non-cell-autonomous astrocytes: the astrocyte toxicity (the impaired glutamate — already mapped — uptake, the reactive astrogliosis) contributes non-cell-autonomously to the motor-neuron death of ALS.
+- `connects-to` → **[Peripheral nerve](../../05-tissue/peripheral-nerve/README.md)** — Motor axon degeneration: the lower-motor-neuron axons of the peripheral nerve degenerate (the denervation, the fasciculations and the muscle atrophy) in ALS.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — SOD1 copper toxicity: the mutant SOD1 (the Cu/Zn superoxide dismutase) and the copper-mediated oxidative toxicity are a cause of the familial ALS.
 
 [^brown-2017-als-review]: Brown RH, Al-Chalabi A. Amyotrophic lateral sclerosis. *N Engl J Med.* 2017;377(2):162-172. [doi:10.1056/NEJMra1603471](https://doi.org/10.1056/NEJMra1603471) · [PubMed 28700839](https://pubmed.ncbi.nlm.nih.gov/28700839/)
 [^edaravone-als-2017]: Writing Group, Edaravone ALS 19 Study Group. Safety and efficacy of edaravone in well defined patients with amyotrophic lateral sclerosis. *Lancet Neurol.* 2017;16(7):505-512. [doi:10.1016/S1474-4422(17)30115-1](https://doi.org/10.1016/S1474-4422(17)30115-1) · [PubMed 28522180](https://pubmed.ncbi.nlm.nih.gov/28522180/)
