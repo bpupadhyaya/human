@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/il-4
     relation: connects-to
     note: "M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped) in the desmoid stroma, part of the immune tolerance that sustains the infiltrative fibromatosis."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Pro-fibrotic type-2: IL-13, with IL-4 (already mapped), drives the M2 macrophage and pro-fibrotic (TGF-β already mapped) programme that lays down the dense collagen (already mapped) matrix of the desmoid tumour."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Tumour-associated macrophages: the macrophages (CCL2 already mapped) infiltrate the desmoid stroma, and their M2 polarisation (IL-4 already mapped) supports the immune tolerance and fibrosis of the infiltrative fibromatosis."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Mesenteric desmoids: the intra-abdominal desmoids arise in the mesentery and encase the large intestine, a feared complication in familial adenomatous polyposis (FAP already mapped) often triggered by the colectomy."
 ---
 
 # Desmoid Tumor
@@ -689,6 +698,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[FAP](../fap/README.md)** — FAP-associated desmoids: desmoid tumours are a major extracolonic manifestation of familial adenomatous polyposis (APC already mapped), often arising in the mesentery after colectomy, where they are a leading cause of death in FAP.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative microenvironment: the infiltrative desmoid generates oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species are part of the fibrotic tumour microenvironment beyond the Wnt (already mapped) drive.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped) in the desmoid stroma, part of the immune tolerance that sustains the infiltrative fibromatosis.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Pro-fibrotic type-2: IL-13, with IL-4 (already mapped), drives the M2 macrophage and pro-fibrotic (TGF-β already mapped) programme that lays down the dense collagen (already mapped) matrix of the desmoid tumour.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumour-associated macrophages: the macrophages (CCL2 already mapped) infiltrate the desmoid stroma, and their M2 polarisation (IL-4 already mapped) supports the immune tolerance and fibrosis of the infiltrative fibromatosis.
+- `connects-to` → **[Large intestine](../../06-organ/large-intestine/README.md)** — Mesenteric desmoids: the intra-abdominal desmoids arise in the mesentery and encase the large intestine, a feared complication in familial adenomatous polyposis (FAP already mapped) often triggered by the colectomy.
 
 ---
 

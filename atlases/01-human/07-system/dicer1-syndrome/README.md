@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Transfusion and anaemia: the anaemia of the DICER1 sarcomas and their intensive chemotherapy (haemoglobin already mapped) requires transfusion support, whose repeated use can load the young survivor with iron."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune microenvironment of the DICER1-associated embryonal tumours."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immunosuppressive microenvironment of the DICER1 sarcomas."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Proton radiotherapy: proton-beam radiotherapy treats the DICER1-associated sarcomas while sparing the developing tissues of the young child, though radiation is used cautiously given the germline tumour predisposition."
 ---
 
 # DICER1 Syndrome
@@ -670,6 +679,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the tumour microenvironment of the DICER1-associated tumours dampens the anti-tumour T-cell response (PD-1 already mapped), part of the immune evasion relevant to immunotherapy of any aggressive tumour.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the vascular tone and angiogenesis of the DICER1-associated embryonal tumours, part of their stromal microenvironment.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Transfusion and anaemia: the anaemia of the DICER1 sarcomas and their intensive chemotherapy (haemoglobin already mapped) requires transfusion support, whose repeated use can load the young survivor with iron.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune microenvironment of the DICER1-associated embryonal tumours.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immunosuppressive microenvironment of the DICER1 sarcomas.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Proton radiotherapy: proton-beam radiotherapy treats the DICER1-associated sarcomas while sparing the developing tissues of the young child, though radiation is used cautiously given the germline tumour predisposition.
 
 ---
 
