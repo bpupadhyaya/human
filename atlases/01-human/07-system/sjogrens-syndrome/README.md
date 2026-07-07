@@ -427,6 +427,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Impaired secretion and vasculature: nitric oxide, disturbed in the inflamed exocrine glands, affects the secretory and vascular function (acetylcholine already mapped), part of the glandular dysfunction of Sjögren's syndrome."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin sequesters iron (already mapped) to produce the anaemia of chronic disease that is part of the systemic haematological involvement of Sjögren's syndrome."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Glandular angiogenesis: VEGF drives the angiogenesis and vascular changes of the chronically inflamed exocrine glands, part of the tissue remodelling of the salivary and lacrimal glands in Sjögren's syndrome."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "RTA and nephrocalcinosis: the distal renal tubular acidosis of the tubulointerstitial nephritis (kidney and potassium already mapped) of Sjögren's impairs urinary acidification, causing the nephrocalcinosis and calcium stones."
 ---
 
 # Sjögren's Syndrome
@@ -693,6 +702,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Glandular inflammation: prostaglandins from the lymphocytic sialadenitis (IL-6, TNF and IL-1 already mapped) amplify the inflammation of the exocrine glands, part of the inflammatory injury behind the sicca of Sjögren's syndrome.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Anaemia of inflammation: the chronic autoimmune inflammation (IL-6 already mapped) of Sjögren's causes the anaemia of chronic disease (haemoglobin already mapped) through iron sequestration, part of its systemic haematological involvement.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Impaired secretion and vasculature: nitric oxide, disturbed in the inflamed exocrine glands, affects the secretory and vascular function (acetylcholine already mapped), part of the glandular dysfunction of Sjögren's syndrome.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin sequesters iron (already mapped) to produce the anaemia of chronic disease that is part of the systemic haematological involvement of Sjögren's syndrome.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Glandular angiogenesis: VEGF drives the angiogenesis and vascular changes of the chronically inflamed exocrine glands, part of the tissue remodelling of the salivary and lacrimal glands in Sjögren's syndrome.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — RTA and nephrocalcinosis: the distal renal tubular acidosis of the tubulointerstitial nephritis (kidney and potassium already mapped) of Sjögren's impairs urinary acidification, causing the nephrocalcinosis and calcium stones.
 
 ---
 

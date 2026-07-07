@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Anaemia of malignancy: the chronic disease and the platinum-etoposide chemotherapy of small cell lung cancer cause anaemia (haemoglobin already mapped) that can require transfusion, whose repeated support can load the body with iron."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immunosuppressive microenvironment of small cell lung cancer."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Cancer cachexia: the profound weight loss and cancer cachexia (IL-6 already mapped) of small cell lung cancer are reflected in the fall in the adipokine leptin as the adipose tissue is depleted."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Adipokine crosstalk: adiponectin, with leptin (already mapped), links the metabolic and adipose state to the systemic effects and cachexia of small cell lung cancer."
 ---
 
 # Small Cell Lung Cancer
@@ -665,6 +674,9 @@ SCLC has highest rate of brain metastases among solid tumors (~50% at 2 years); 
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — COX-2 carcinogenesis: tobacco induces cyclooxygenase-2 and prostaglandin E2 in the airway, promoting the proliferation and immunosuppression of the carcinogenesis of small cell lung cancer, whose universal TP53 and RB1 loss (already mapped) it compounds.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune-evasive microenvironment of small cell lung cancer.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Anaemia of malignancy: the chronic disease and the platinum-etoposide chemotherapy of small cell lung cancer cause anaemia (haemoglobin already mapped) that can require transfusion, whose repeated support can load the body with iron.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immunosuppressive microenvironment of small cell lung cancer.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Cancer cachexia: the profound weight loss and cancer cachexia (IL-6 already mapped) of small cell lung cancer are reflected in the fall in the adipokine leptin as the adipose tissue is depleted.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine crosstalk: adiponectin, with leptin (already mapped), links the metabolic and adipose state to the systemic effects and cachexia of small cell lung cancer.
 
 [^horn-2018-impower133]: Horn L, Mansfield AS, Szczęsna A, et al. First-line atezolizumab plus chemotherapy in extensive-stage small-cell lung cancer. *N Engl J Med.* 2018;379(23):2220-2229. [doi:10.1056/NEJMoa1809064](https://doi.org/10.1056/NEJMoa1809064) · [PubMed 30280641](https://pubmed.ncbi.nlm.nih.gov/30280641/)
 [^paz-ares-2019-caspian]: Paz-Ares L, Dvorkin M, Chen Y, et al. Durvalumab plus platinum-etoposide versus platinum-etoposide in first-line treatment of extensive-stage small-cell lung cancer (CASPIAN). *Lancet.* 2019;394(10212):1929-1939. [doi:10.1016/S0140-6736(19)32222-6](https://doi.org/10.1016/S0140-6736(19)32222-6) · [PubMed 31590988](https://pubmed.ncbi.nlm.nih.gov/31590988/)
