@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/leptin
     relation: connects-to
     note: "Metabolic signalling: the mTOR pathway (already mapped) integrates the metabolic signals of leptin and insulin (already mapped), and its dysregulation in tuberous sclerosis links the hamartoma growth to the anabolic-metabolic state."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Angiomyolipoma haemorrhage: the renal angiomyolipomas of tuberous sclerosis can bleed catastrophically, causing the retroperitoneal haemorrhage and the iron-deficiency anaemia (haemoglobin already mapped) that drive their surveillance and embolisation."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the microenvironment of the hamartomas of tuberous sclerosis."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin (already mapped), signals through the mTOR-integrated (already mapped) metabolic pathway whose dysregulation drives the anabolic hamartoma growth of tuberous sclerosis."
 ---
 
 # Tuberous Sclerosis Complex
@@ -695,6 +704,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage milieu: IL-4 polarises the tumour-associated macrophages toward an M2 phenotype (IL-10 already mapped) in the tuberous-sclerosis hamartomas and the lymphangioleiomyomatosis, part of their immune microenvironment.
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — mTOR-driven lipogenesis: the unrestrained mTORC1 (already mapped) of the tuberous-sclerosis hamartomas drives cholesterol and lipid synthesis, the anabolic metabolism that the mTOR inhibitors shrinking the lesions target.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Metabolic signalling: the mTOR pathway (already mapped) integrates the metabolic signals of leptin and insulin (already mapped), and its dysregulation in tuberous sclerosis links the hamartoma growth to the anabolic-metabolic state.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Angiomyolipoma haemorrhage: the renal angiomyolipomas of tuberous sclerosis can bleed catastrophically, causing the retroperitoneal haemorrhage and the iron-deficiency anaemia (haemoglobin already mapped) that drive their surveillance and embolisation.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the microenvironment of the hamartomas of tuberous sclerosis.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), signals through the mTOR-integrated (already mapped) metabolic pathway whose dysregulation drives the anabolic hamartoma growth of tuberous sclerosis.
 
 ---
 

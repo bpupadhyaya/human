@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/02-atomic/copper
     relation: connects-to
     note: "Copper nutritional immunity: the macrophage also floods the phagosome with toxic copper to kill the bacillus, and with zinc (already mapped) this metal poisoning is a key host defence that Mycobacterium tuberculosis must resist."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Non-protective Th2 arm: IL-4 and the Th2 response, when they dominate over the protective Th1 (IFN-γ and IL-12 already mapped) axis, are associated with poorer control of Mycobacterium tuberculosis and more progressive disease."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immunity: IL-13, with IL-4 (already mapped), is part of the type-2 arm whose balance against the Th1 response shapes the granulomatous control of tuberculosis."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Wasting and metabolism: adiponectin, with leptin (already mapped), reflects the wasting and the metabolic-nutritional depletion — the classic 'consumption' — of chronic active tuberculosis."
 ---
 
 # Tuberculosis
@@ -689,6 +698,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Cholesterol as carbon source: Mycobacterium tuberculosis catabolises host cholesterol as a carbon and energy source inside the macrophage (already mapped), the foamy lipid-laden macrophages of the granuloma reflecting this metabolic dependency.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc nutritional immunity: the macrophage poisons the phagosome with a burst of zinc to kill the ingested bacillus, part of the nutritional-immunity metal warfare (iron already mapped) waged against Mycobacterium tuberculosis.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper nutritional immunity: the macrophage also floods the phagosome with toxic copper to kill the bacillus, and with zinc (already mapped) this metal poisoning is a key host defence that Mycobacterium tuberculosis must resist.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Non-protective Th2 arm: IL-4 and the Th2 response, when they dominate over the protective Th1 (IFN-γ and IL-12 already mapped) axis, are associated with poorer control of Mycobacterium tuberculosis and more progressive disease.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immunity: IL-13, with IL-4 (already mapped), is part of the type-2 arm whose balance against the Th1 response shapes the granulomatous control of tuberculosis.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Wasting and metabolism: adiponectin, with leptin (already mapped), reflects the wasting and the metabolic-nutritional depletion — the classic 'consumption' — of chronic active tuberculosis.
 
 ## See Also
 
