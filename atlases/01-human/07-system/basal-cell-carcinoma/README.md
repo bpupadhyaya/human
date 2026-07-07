@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "Selenium antioxidant defence: selenium supports the antioxidant selenoprotein defence of the skin against the UV (photon) oxidative photocarcinogenesis (NFE2L2 already mapped) that drives basal cell carcinoma."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "M2 stromal macrophages: the M2 (IL-4 and IL-13 already mapped) tumour-associated macrophages populate the immunosuppressive stroma (collagen already mapped) of basal cell carcinoma."
+  - target: 01-human/07-system/melanoma
+    relation: connects-to
+    note: "Skin-cancer sibling: basal cell carcinoma and melanoma are both UV (photon already mapped)-driven skin cancers, distinguished by the cell of origin and the metastatic behaviour."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Antigen presentation: the dendritic cells present the UV-neoantigens, and the immune surveillance whose evasion (PD-1 and CTLA-4 already mapped) permits the basal cell carcinoma."
 ---
 
 # Basal Cell Carcinoma
@@ -701,6 +710,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — UV photocarcinogenesis: the ultraviolet photons cause the signature mutations (p53 already mapped) that drive basal cell carcinoma, and the photons of radiotherapy are a treatment for lesions unsuitable for surgery.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — M2 stromal arm: IL-13, with IL-4 (already mapped), drives the M2 macrophage (already mapped) arm of the immunosuppressive tumour stroma (collagen already mapped) of basal cell carcinoma.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Selenium antioxidant defence: selenium supports the antioxidant selenoprotein defence of the skin against the UV (photon) oxidative photocarcinogenesis (NFE2L2 already mapped) that drives basal cell carcinoma.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — M2 stromal macrophages: the M2 (IL-4 and IL-13 already mapped) tumour-associated macrophages populate the immunosuppressive stroma (collagen already mapped) of basal cell carcinoma.
+- `connects-to` → **[Melanoma](../melanoma/README.md)** — Skin-cancer sibling: basal cell carcinoma and melanoma are both UV (photon already mapped)-driven skin cancers, distinguished by the cell of origin and the metastatic behaviour.
+- `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Antigen presentation: the dendritic cells present the UV-neoantigens, and the immune surveillance whose evasion (PD-1 and CTLA-4 already mapped) permits the basal cell carcinoma.
 
 ---
 

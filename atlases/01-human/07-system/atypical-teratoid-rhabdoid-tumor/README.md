@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/pdgf
     relation: connects-to
     note: "Tumour angiogenesis and stroma: PDGF drives the tumour angiogenesis (VEGF already mapped) and the stromal recruitment of atypical teratoid/rhabdoid tumour, part of its aggressive vascular biology."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Survivorship hypothalamic obesity: the craniospinal radiotherapy (photon already mapped) of ATRT can damage the hypothalamus, causing the leptin-resistant hypothalamic obesity of the survivors."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Survivorship metabolic syndrome: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic syndrome of the ATRT survivors after the craniospinal radiotherapy."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Anthracycline cardiotoxicity: the anthracycline chemotherapy of the intensive ATRT regimens causes the cardiotoxicity (troponin already mapped) of the heart, a survivorship concern in the infant."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -698,6 +707,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Proton-beam therapy: proton radiotherapy is used for atypical teratoid/rhabdoid tumour to deliver the tumour dose while sparing the developing brain of the young child, reducing the neurocognitive and growth toxicity.
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photon radiotherapy: the photon (X-ray) radiotherapy, often craniospinal, is part of the intensive multimodal treatment of atypical teratoid/rhabdoid tumour, balanced against the toxicity in the infant brain.
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Tumour angiogenesis and stroma: PDGF drives the tumour angiogenesis (VEGF already mapped) and the stromal recruitment of atypical teratoid/rhabdoid tumour, part of its aggressive vascular biology.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Survivorship hypothalamic obesity: the craniospinal radiotherapy (photon already mapped) of ATRT can damage the hypothalamus, causing the leptin-resistant hypothalamic obesity of the survivors.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Survivorship metabolic syndrome: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic syndrome of the ATRT survivors after the craniospinal radiotherapy.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Anthracycline cardiotoxicity: the anthracycline chemotherapy of the intensive ATRT regimens causes the cardiotoxicity (troponin already mapped) of the heart, a survivorship concern in the infant.
 
 ---
 
