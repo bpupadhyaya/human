@@ -436,6 +436,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "Plasma-exchange citrate: the citrate anticoagulant of the therapeutic plasma exchange central to TTP treatment chelates magnesium as well as calcium (already mapped), needing electrolyte replacement."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Cardiac microthrombi: the myocardial microthrombi of TTP cause the troponin (already mapped) rise, the arrhythmias and the sudden cardiac death, a leading cause of acute TTP mortality affecting the heart."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Immune-metabolic adipokine: leptin, with resistin (already mapped), is part of the adipokine milieu of the systemic inflammation (IL-6 already mapped) of acute thrombotic thrombocytopenic purpura."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin and resistin (already mapped), completes the adipokine dimension of the immune-metabolic milieu of thrombotic thrombocytopenic purpura."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -730,6 +739,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Autoimmune dysregulation: type-I interferon signalling is implicated in the loss of tolerance that permits the anti-ADAMTS13 (already mapped) autoantibody production of acquired thrombotic thrombocytopenic purpura.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, a pro-inflammatory adipokine, rises with the systemic inflammation (IL-6 already mapped) and endothelial activation of acute thrombotic thrombocytopenic purpura, part of its inflammatory milieu.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Plasma-exchange citrate: the citrate anticoagulant of the therapeutic plasma exchange central to TTP treatment chelates magnesium as well as calcium (already mapped), needing electrolyte replacement.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Cardiac microthrombi: the myocardial microthrombi of TTP cause the troponin (already mapped) rise, the arrhythmias and the sudden cardiac death, a leading cause of acute TTP mortality affecting the heart.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Immune-metabolic adipokine: leptin, with resistin (already mapped), is part of the adipokine milieu of the systemic inflammation (IL-6 already mapped) of acute thrombotic thrombocytopenic purpura.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin and resistin (already mapped), completes the adipokine dimension of the immune-metabolic milieu of thrombotic thrombocytopenic purpura.
 
 ---
 

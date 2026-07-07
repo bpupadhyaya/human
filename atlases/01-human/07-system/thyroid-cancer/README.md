@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Adipokine risk: adiponectin, with leptin (already mapped), links the obesity and metabolic state to the risk and biology of thyroid cancer, part of the adipokine influence on the tumour."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the obesity risk of differentiated thyroid cancer."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin sequesters iron and produces the anaemia of chronic disease of the advanced and anaplastic thyroid cancer."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Immunogenic signalling: type-I interferon, downstream of the cGAS-STING (already mapped) innate sensing, is relevant to the immunogenicity and the immunotherapy of the aggressive anaplastic thyroid cancer."
 ---
 
 # Thyroid Cancer
@@ -711,6 +720,9 @@ Calcitonin doubling time <6 months → poor prognosis → early systemic therapy
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immune microenvironment of thyroid cancer.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Obesity and thyroid cancer: the adipokine leptin links obesity — a risk factor for differentiated thyroid cancer — to the proliferation of the tumour, part of its metabolic dimension.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine risk: adiponectin, with leptin (already mapped), links the obesity and metabolic state to the risk and biology of thyroid cancer, part of the adipokine influence on the tumour.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the obesity risk of differentiated thyroid cancer.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin sequesters iron and produces the anaemia of chronic disease of the advanced and anaplastic thyroid cancer.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Immunogenic signalling: type-I interferon, downstream of the cGAS-STING (already mapped) innate sensing, is relevant to the immunogenicity and the immunotherapy of the aggressive anaplastic thyroid cancer.
 
 [^schlumberger-2015-lenvatinib]: Schlumberger M, Tahara M, Wirth LJ, et al. Lenvatinib versus placebo in radioiodine-refractory differentiated thyroid cancer. *N Engl J Med.* 2015;372(7):621-630. [doi:10.1056/NEJMoa1406470](https://doi.org/10.1056/NEJMoa1406470) · [PubMed 25671254](https://pubmed.ncbi.nlm.nih.gov/25671254/)
 [^subbiah-2018-atc-dabrafenib]: Subbiah V, Kreitman RJ, Wainberg ZA, et al. Dabrafenib and trametinib treatment in patients with locally advanced or metastatic BRAF V600-mutant anaplastic thyroid cancer. *J Clin Oncol.* 2018;36(1):7-13. [doi:10.1200/JCO.2017.73.6785](https://doi.org/10.1200/JCO.2017.73.6785) · [PubMed 28892432](https://pubmed.ncbi.nlm.nih.gov/28892432/)
