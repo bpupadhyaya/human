@@ -410,6 +410,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "Uterine NK cells: specialised decidual natural killer cells regulate trophoblast invasion and spiral-artery remodelling in early pregnancy, a reproductive role distinct from their cytotoxic function elsewhere."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Reproductive immunology: the reproductive system depends on the immune system for the materno-fetal tolerance (regulatory T cells and uterine NK cells already mapped) that lets a semi-allogeneic fetus be carried, a deep interface between the two systems."
+  - target: 01-human/07-system/breast-cancer
+    relation: connects-to
+    note: "Hormone-driven cancer: the sex steroids of the reproductive system (estrogen and progesterone already mapped) drive breast cancer, whose hormone-receptor status guides the endocrine therapy targeting the reproductive-endocrine axis."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Fertilisation calcium signalling: calcium is central to reproduction, from the acrosome reaction of the sperm to the calcium wave that activates the oocyte at fertilisation, triggering the start of embryonic development."
 ---
 
 # Reproductive System
@@ -656,6 +665,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Pregnancy volume and RAAS: aldosterone rises in pregnancy to expand plasma volume (angiotensin II already mapped), a physiological adaptation of the reproductive renin-angiotensin-aldosterone system whose failure contributes to pre-eclampsia.
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — Materno-fetal tolerance: regulatory and helper T cells shift toward a tolerogenic profile at the maternal-fetal interface, allowing the semi-allogeneic fetus to be carried, a controlled immune adaptation central to successful reproduction.
 - `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Uterine NK cells: specialised decidual natural killer cells regulate trophoblast invasion and spiral-artery remodelling in early pregnancy, a reproductive role distinct from their cytotoxic function elsewhere.
+- `connects-to` → **[Immune system](../immune-system/README.md)** — Reproductive immunology: the reproductive system depends on the immune system for the materno-fetal tolerance (regulatory T cells and uterine NK cells already mapped) that lets a semi-allogeneic fetus be carried, a deep interface between the two systems.
+- `connects-to` → **[Breast cancer](../breast-cancer/README.md)** — Hormone-driven cancer: the sex steroids of the reproductive system (estrogen and progesterone already mapped) drive breast cancer, whose hormone-receptor status guides the endocrine therapy targeting the reproductive-endocrine axis.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Fertilisation calcium signalling: calcium is central to reproduction, from the acrosome reaction of the sperm to the calcium wave that activates the oocyte at fertilisation, triggering the start of embryonic development.
 
 ## Pathology
 

@@ -412,6 +412,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative stress: the metabolically rewired, pseudohypoxic renal cell carcinoma generates oxidative stress, to which xanthine oxidase contributes, and the NRF2 antioxidant response (already mapped) is co-opted, part of its altered redox biology."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune microenvironment of the otherwise immunoresponsive renal cell carcinoma."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Clear-cell lipid: clear-cell renal cell carcinoma accumulates cholesterol esters and lipid, giving the clear cytoplasm that names it, and the disturbed lipid metabolism is part of the metabolically rewired biology of the VHL-HIF-driven (already mapped) tumour."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Obesity and adipokines: obesity is a major risk factor for renal cell carcinoma, and the fall in the adipokine adiponectin (leptin already mapped) is part of the metabolic milieu that promotes the tumour."
 ---
 
 # Renal Cell Carcinoma
@@ -662,6 +671,9 @@ Kidney → primary site of EPO production under hypoxia; VHL-intact renal inters
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the renal cell carcinoma microenvironment dampens the anti-tumour T-cell response (PD-1 and CTLA-4 already mapped), a mechanism of immune evasion and resistance to the checkpoint blockade central to its treatment.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide with the strongly VHL-HIF-driven VEGF (already mapped) supports the rich vasculature of clear-cell renal cell carcinoma, part of the angiogenic biology targeted by the antiangiogenic tyrosine-kinase inhibitors.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative stress: the metabolically rewired, pseudohypoxic renal cell carcinoma generates oxidative stress, to which xanthine oxidase contributes, and the NRF2 antioxidant response (already mapped) is co-opted, part of its altered redox biology.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune microenvironment of the otherwise immunoresponsive renal cell carcinoma.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Clear-cell lipid: clear-cell renal cell carcinoma accumulates cholesterol esters and lipid, giving the clear cytoplasm that names it, and the disturbed lipid metabolism is part of the metabolically rewired biology of the VHL-HIF-driven (already mapped) tumour.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Obesity and adipokines: obesity is a major risk factor for renal cell carcinoma, and the fall in the adipokine adiponectin (leptin already mapped) is part of the metabolic milieu that promotes the tumour.
 
 [^motzer-2018-checkmate214]: Motzer RJ, Tannir NM, McDermott DF, et al. Nivolumab plus ipilimumab versus sunitinib in advanced renal-cell carcinoma. *N Engl J Med.* 2018;378(14):1277-1290. [doi:10.1056/NEJMoa1712126](https://doi.org/10.1056/NEJMoa1712126) · [PubMed 29562145](https://pubmed.ncbi.nlm.nih.gov/29562145/)
 [^rini-2019-keynote426]: Rini BI, Plimack ER, Stus V, et al. Pembrolizumab plus axitinib versus sunitinib for advanced renal-cell carcinoma. *N Engl J Med.* 2019;380(12):1116-1127. [doi:10.1056/NEJMoa1816714](https://doi.org/10.1056/NEJMoa1816714) · [PubMed 30779529](https://pubmed.ncbi.nlm.nih.gov/30779529/)
