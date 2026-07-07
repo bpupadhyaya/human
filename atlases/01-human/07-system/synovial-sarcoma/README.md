@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/05-tissue/cortical-bone
     relation: connects-to
     note: "Bone invasion: the para-articular synovial sarcoma can invade the adjacent cortical bone, part of the locally aggressive behaviour of this deep soft-tissue sarcoma."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Metabolic microenvironment: leptin from the marrow and stromal adipose tissue signals within the metabolic microenvironment of the metastatic synovial sarcoma."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Marrow-adipose adipokine: adiponectin, with leptin (already mapped), is the marrow-adipose adipokine of the microenvironment of synovial sarcoma."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the synovial-sarcoma microenvironment."
 ---
 
 # Synovial Sarcoma
@@ -693,6 +702,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immunosuppressive cold microenvironment of synovial sarcoma.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumour-associated macrophages: the macrophages (CCL2 already mapped) infiltrate the synovial-sarcoma stroma, and their M2 polarisation (IL-4 already mapped) supports the immunosuppression relevant to the NY-ESO-1 TCR-T therapy.
 - `connects-to` → **[Cortical bone](../../05-tissue/cortical-bone/README.md)** — Bone invasion: the para-articular synovial sarcoma can invade the adjacent cortical bone, part of the locally aggressive behaviour of this deep soft-tissue sarcoma.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Metabolic microenvironment: leptin from the marrow and stromal adipose tissue signals within the metabolic microenvironment of the metastatic synovial sarcoma.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Marrow-adipose adipokine: adiponectin, with leptin (already mapped), is the marrow-adipose adipokine of the microenvironment of synovial sarcoma.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the synovial-sarcoma microenvironment.
 
 ---
 
