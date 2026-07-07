@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the vascular tone and angiogenesis of mantle cell lymphoma, part of the supportive stroma of this aggressive lymphoma."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "Splenomegaly: mantle cell lymphoma commonly presents with marked splenomegaly, the spleen and lymph nodes infiltrated by the cyclin-D1-positive (already mapped) clone, and splenic involvement can dominate the leukaemic-variant disease."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "CAR-T immunotherapy: the cytotoxic T cells — engineered as CD19 CAR-T (brexucabtagene; perforin already mapped) — achieve deep remissions in relapsed mantle cell lymphoma that has failed BTK inhibition."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Tumour-lysis hypocalcaemia: the bulky, proliferative mantle cell lymphoma treated with intensive therapy can trigger tumour-lysis syndrome (xanthine oxidase already mapped), the hyperphosphataemia complexing calcium to cause hypocalcaemia."
 ---
 
 # Mantle Cell Lymphoma
@@ -677,6 +686,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the tumour microenvironment dampens the anti-tumour T-cell response, part of the immune evasion of mantle cell lymphoma that the CD19 CAR-T and bispecific therapies aim to overcome.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Nurse-like stromal support: IL-4 polarises the tumour-associated macrophages toward an M2 phenotype (IL-10 already mapped), the nurse-like cells of the microenvironment that support the survival of the mantle cell lymphoma clone.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide with VEGF (already mapped) regulates the vascular tone and angiogenesis of mantle cell lymphoma, part of the supportive stroma of this aggressive lymphoma.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Splenomegaly: mantle cell lymphoma commonly presents with marked splenomegaly, the spleen and lymph nodes infiltrated by the cyclin-D1-positive (already mapped) clone, and splenic involvement can dominate the leukaemic-variant disease.
+- `connects-to` → **[T-cytotoxic cell](../../04-cellular/t-cytotoxic-cell/README.md)** — CAR-T immunotherapy: the cytotoxic T cells — engineered as CD19 CAR-T (brexucabtagene; perforin already mapped) — achieve deep remissions in relapsed mantle cell lymphoma that has failed BTK inhibition.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Tumour-lysis hypocalcaemia: the bulky, proliferative mantle cell lymphoma treated with intensive therapy can trigger tumour-lysis syndrome (xanthine oxidase already mapped), the hyperphosphataemia complexing calcium to cause hypocalcaemia.
 
 ---
 
