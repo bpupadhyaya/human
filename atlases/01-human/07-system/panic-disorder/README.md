@@ -445,6 +445,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the metabolic-inflammatory milieu of panic disorder."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Interferon-induced anxiety: the type-I interferon (therapy) induces the anxiety and mood symptoms, linking the innate-immune (cGAS-STING already mapped) signalling to the neuroinflammation of panic disorder."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 neuroinflammation: the IFN-γ of the T cells is the type-II interferon arm of the low-grade neuroinflammation (TNF and IL-1 already mapped) associated with panic disorder."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune-inflammatory dimension implicated in panic disorder."
 ---
 
 # Panic Disorder
@@ -732,6 +741,9 @@ The **interoceptive fear conditioning model** (Bouton, Mineka, Barlow) explains 
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 neuroimmune arm: IL-13, with IL-4 (already mapped), is part of the type-2 immune arm balancing the neuroinflammation (TNF, IL-1 and IL-6 already mapped) increasingly implicated in panic disorder.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic-inflammatory adipokine: adiponectin, with leptin (already mapped), links the metabolic-inflammatory state to the anxiety and neuroinflammation of panic disorder.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the metabolic-inflammatory milieu of panic disorder.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Interferon-induced anxiety: the type-I interferon (therapy) induces the anxiety and mood symptoms, linking the innate-immune (cGAS-STING already mapped) signalling to the neuroinflammation of panic disorder.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 neuroinflammation: the IFN-γ of the T cells is the type-II interferon arm of the low-grade neuroinflammation (TNF and IL-1 already mapped) associated with panic disorder.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune-inflammatory dimension implicated in panic disorder.
 
 [^gorman-2000-panic-neurobiology]: Gorman JM, Kent JM, Sullivan GM, Coplan JD. Neuroanatomical hypothesis of panic disorder, revised. *Am J Psychiatry.* 2000;157(4):493-505. [doi:10.1176/appi.ajp.157.4.493](https://doi.org/10.1176/appi.ajp.157.4.493) · [PubMed 10739407](https://pubmed.ncbi.nlm.nih.gov/10739407/)
 [^nardi-2009-clonazepam-panic]: Nardi AE, Freire RC, Zin WA. Panic disorder and control of breathing. *Respir Physiol Neurobiol.* 2009;167(1):133-143. [doi:10.1016/j.resp.2008.07.011](https://doi.org/10.1016/j.resp.2008.07.011) · [PubMed 18708168](https://pubmed.ncbi.nlm.nih.gov/18708168/)

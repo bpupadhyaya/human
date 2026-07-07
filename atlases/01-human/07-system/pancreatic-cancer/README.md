@@ -445,6 +445,15 @@ cross_links:
   - target: 01-human/03-molecular/type-i-interferon
     relation: connects-to
     note: "HRD innate signalling: type-I interferon, downstream of the cGAS-STING (already mapped) sensing of the DNA damage of the BRCA/HRD (already mapped) pancreatic cancer, is explored to make the immunologically 'cold' tumour immunogenic."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 antitumour arm: the IFN-γ of the (sparse) tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm largely excluded by the desmoplastic, immunosuppressive stroma of pancreatic cancer."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) anti-tumour response, explored against the immunologically cold pancreatic cancer."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 arm of the immunosuppressive microenvironment of pancreatic cancer."
 ---
 
 # Pancreatic Cancer
@@ -707,6 +716,9 @@ cross_links:
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the obesity risk to the cachexia and the inflammation (IL-6 already mapped) of pancreatic cancer.
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin sequesters iron and produces the anaemia of chronic disease (haemoglobin already mapped) of pancreatic cancer.
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — HRD innate signalling: type-I interferon, downstream of the cGAS-STING (already mapped) sensing of the DNA damage of the BRCA/HRD (already mapped) pancreatic cancer, is explored to make the immunologically 'cold' tumour immunogenic.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 antitumour arm: the IFN-γ of the (sparse) tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm largely excluded by the desmoplastic, immunosuppressive stroma of pancreatic cancer.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) anti-tumour response, explored against the immunologically cold pancreatic cancer.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 arm of the immunosuppressive microenvironment of pancreatic cancer.
 
 ---
 
