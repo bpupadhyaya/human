@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/leptin
     relation: connects-to
     note: "Growth-metabolic adipokine: leptin reflects the altered growth (growth hormone and IGF-1 already mapped) and the reduced adipose tissue of Rothmund-Thomson syndrome."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin (already mapped), reflects the reduced adipose tissue and the altered metabolic profile of Rothmund-Thomson syndrome."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Metabolic adipokine: resistin, with leptin and adiponectin (already mapped), completes the adipokine dimension of the altered adipose tissue of Rothmund-Thomson syndrome."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 interferon arm: the IFN-γ (type-II interferon), with the type-I interferon signature (already mapped) of the DNA-damage (cGAS-STING already mapped) interferonopathy, is part of the immune dysregulation of Rothmund-Thomson syndrome."
 ---
 
 # Rothmund-Thomson Syndrome
@@ -716,6 +725,9 @@ The cardinal features of RTS type II are: (1) **poikiloderma** — the defining 
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — UV photosensitivity: the ultraviolet photons cause the photosensitivity and the poikilodermatous skin (already mapped) changes of Rothmund-Thomson syndrome, the RECQL4-deficient (already mapped) cells failing to repair the UV damage.
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — DNA-damage interferon: the cGAS-STING (already mapped) sensing of the accumulated DNA damage of the RECQL4-deficient (already mapped) cells drives the type-I interferon signature of Rothmund-Thomson syndrome.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Growth-metabolic adipokine: leptin reflects the altered growth (growth hormone and IGF-1 already mapped) and the reduced adipose tissue of Rothmund-Thomson syndrome.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), reflects the reduced adipose tissue and the altered metabolic profile of Rothmund-Thomson syndrome.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Metabolic adipokine: resistin, with leptin and adiponectin (already mapped), completes the adipokine dimension of the altered adipose tissue of Rothmund-Thomson syndrome.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 interferon arm: the IFN-γ (type-II interferon), with the type-I interferon signature (already mapped) of the DNA-damage (cGAS-STING already mapped) interferonopathy, is part of the immune dysregulation of Rothmund-Thomson syndrome.
 
 [^kitao-1999-recql4-rts]: Kitao S, Shimamoto A, Goto M, et al. Mutations in RECQL4 cause a subset of cases of Rothmund-Thomson syndrome. *Nat Genet.* 1999;22(1):82-84. [doi:10.1038/8788](https://doi.org/10.1038/8788) · [PubMed 10319867](https://pubmed.ncbi.nlm.nih.gov/10319867/)
 [^wang-2003-rts-cancer]: Wang LL, Gannavarapu A, Kozinetz CA, et al. Association between osteosarcoma and deleterious mutations in the RECQL4 gene in Rothmund-Thomson syndrome. *J Natl Cancer Inst.* 2003;95(9):669-674. [doi:10.1093/jnci/95.9.669](https://doi.org/10.1093/jnci/95.9.669) · [PubMed 12734318](https://pubmed.ncbi.nlm.nih.gov/12734318/)

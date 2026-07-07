@@ -445,6 +445,15 @@ cross_links:
   - target: 01-human/03-molecular/histamine
     relation: connects-to
     note: "Synovial mast cells: the synovial mast cells release histamine that contributes to the vascular permeability and the inflammation of the rheumatoid synovitis."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm complementing the dominant Th17 (IL-17 already mapped) axis of rheumatoid arthritis."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 counter-arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 arm balancing the Th17/Th1 drive of rheumatoid arthritis."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Synovial NK cells: the NK cells (perforin already mapped) infiltrate the rheumatoid synovium and modulate the innate inflammation of rheumatoid arthritis."
 ---
 
 # Rheumatoid Arthritis
@@ -729,6 +738,9 @@ RA patients have:
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — MMP and inflammation: the disturbed zinc homeostasis (low serum zinc) of the active rheumatoid inflammation, and the zinc-dependent matrix metalloproteinases that degrade the joint cartilage (collagen already mapped).
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Antioxidant defence: selenium supports the antioxidant selenoprotein defence, and low selenium is associated with rheumatoid arthritis and its oxidative (xanthine oxidase already mapped) joint damage.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Synovial mast cells: the synovial mast cells release histamine that contributes to the vascular permeability and the inflammation of the rheumatoid synovitis.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm complementing the dominant Th17 (IL-17 already mapped) axis of rheumatoid arthritis.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 counter-arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 arm balancing the Th17/Th1 drive of rheumatoid arthritis.
+- `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Synovial NK cells: the NK cells (perforin already mapped) infiltrate the rheumatoid synovium and modulate the innate inflammation of rheumatoid arthritis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
