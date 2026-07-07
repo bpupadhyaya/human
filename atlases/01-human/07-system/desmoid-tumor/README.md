@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/06-organ/large-intestine
     relation: connects-to
     note: "Mesenteric desmoids: the intra-abdominal desmoids arise in the mesentery and encase the large intestine, a feared complication in familial adenomatous polyposis (FAP already mapped) often triggered by the colectomy."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Fibro-adipose crosstalk: leptin from the fibro-adipose tissue in which the desmoids arise engages in adipokine-fibroblast (already mapped) crosstalk, part of the tumour microenvironment of the fibromatosis."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Mesenteric adipokine: adiponectin, with leptin (already mapped), from the mesenteric and abdominal-wall fibro-adipose tissue signals within the desmoid microenvironment."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Fibro-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory milieu (IL-6 already mapped) to the fibro-inflammatory stroma of the desmoid tumour."
 ---
 
 # Desmoid Tumor
@@ -701,6 +710,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Pro-fibrotic type-2: IL-13, with IL-4 (already mapped), drives the M2 macrophage and pro-fibrotic (TGF-β already mapped) programme that lays down the dense collagen (already mapped) matrix of the desmoid tumour.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumour-associated macrophages: the macrophages (CCL2 already mapped) infiltrate the desmoid stroma, and their M2 polarisation (IL-4 already mapped) supports the immune tolerance and fibrosis of the infiltrative fibromatosis.
 - `connects-to` → **[Large intestine](../../06-organ/large-intestine/README.md)** — Mesenteric desmoids: the intra-abdominal desmoids arise in the mesentery and encase the large intestine, a feared complication in familial adenomatous polyposis (FAP already mapped) often triggered by the colectomy.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Fibro-adipose crosstalk: leptin from the fibro-adipose tissue in which the desmoids arise engages in adipokine-fibroblast (already mapped) crosstalk, part of the tumour microenvironment of the fibromatosis.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Mesenteric adipokine: adiponectin, with leptin (already mapped), from the mesenteric and abdominal-wall fibro-adipose tissue signals within the desmoid microenvironment.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Fibro-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory milieu (IL-6 already mapped) to the fibro-inflammatory stroma of the desmoid tumour.
 
 ---
 

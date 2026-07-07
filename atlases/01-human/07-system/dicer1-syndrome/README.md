@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/01-subatomic/proton
     relation: connects-to
     note: "Proton radiotherapy: proton-beam radiotherapy treats the DICER1-associated sarcomas while sparing the developing tissues of the young child, though radiation is used cautiously given the germline tumour predisposition."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Cystic nephroma: the cystic nephroma (and the anaplastic sarcoma) of the kidney (WT1 already mapped) is a characteristic DICER1 renal tumour of childhood."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Ciliary-body medulloepithelioma: the intraocular ciliary-body medulloepithelioma of the eye is a rare but characteristic tumour of the DICER1 syndrome spectrum."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Pineoblastoma and CNS tumours: the pineoblastoma and the CNS sarcomas of the brain are part of the DICER1 tumour spectrum, reflecting the germline miRNA-processing (DICER1 already mapped) defect."
 ---
 
 # DICER1 Syndrome
@@ -682,6 +691,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune microenvironment of the DICER1-associated embryonal tumours.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immunosuppressive microenvironment of the DICER1 sarcomas.
 - `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Proton radiotherapy: proton-beam radiotherapy treats the DICER1-associated sarcomas while sparing the developing tissues of the young child, though radiation is used cautiously given the germline tumour predisposition.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Cystic nephroma: the cystic nephroma (and the anaplastic sarcoma) of the kidney (WT1 already mapped) is a characteristic DICER1 renal tumour of childhood.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Ciliary-body medulloepithelioma: the intraocular ciliary-body medulloepithelioma of the eye is a rare but characteristic tumour of the DICER1 syndrome spectrum.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Pineoblastoma and CNS tumours: the pineoblastoma and the CNS sarcomas of the brain are part of the DICER1 tumour spectrum, reflecting the germline miRNA-processing (DICER1 already mapped) defect.
 
 ---
 
