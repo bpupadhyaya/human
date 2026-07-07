@@ -457,6 +457,15 @@ cross_links:
   - target: 01-human/07-system/gut-microbiome
     relation: connects-to
     note: "Microbiome education: the commensal gut microbiota educate and regulate the immune system, the host-microbe symbiosis shaping the tolerance and reactivity (regulatory T cells already mapped) of immunity throughout life."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immunity: IL-13, with IL-4 (already mapped), is a type-2 cytokine of the anti-parasite and allergic arm of the immune system, driving the mucus and barrier response."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Eosinophil arm: IL-5 is the type-2 cytokine that expands and recruits the eosinophils of the anti-helminth and allergic response of the immune system."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 arm: IL-23 sustains the Th17 (IL-17 already mapped) cells of the mucosal and antifungal defence of the immune system."
 ---
 
 # Immune System
@@ -601,6 +610,9 @@ After primary response contraction, long-lived memory cells persist:
 - `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — CNS immune arm: the microglia are the resident macrophages of the central nervous system, the brain's own arm of the immune system that surveils, prunes and defends the neural tissue behind the blood-brain barrier.
 - `connects-to` → **[Small intestine](../../06-organ/small-intestine/README.md)** — Gut-associated lymphoid tissue: the small intestine holds the largest concentration of immune cells in the body — the Peyer's patches and lamina propria (secretory IgA already mapped) — the mucosal front line of the immune system.
 - `connects-to` → **[Gut microbiome](../gut-microbiome/README.md)** — Microbiome education: the commensal gut microbiota educate and regulate the immune system, the host-microbe symbiosis shaping the tolerance and reactivity (regulatory T cells already mapped) of immunity throughout life.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immunity: IL-13, with IL-4 (already mapped), is a type-2 cytokine of the anti-parasite and allergic arm of the immune system, driving the mucus and barrier response.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Eosinophil arm: IL-5 is the type-2 cytokine that expands and recruits the eosinophils of the anti-helminth and allergic response of the immune system.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 arm: IL-23 sustains the Th17 (IL-17 already mapped) cells of the mucosal and antifungal defence of the immune system.
 
 ## Pathology
 

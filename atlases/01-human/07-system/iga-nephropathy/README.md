@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/02-atomic/potassium
     relation: connects-to
     note: "Hyperkalaemia: the falling glomerular filtration of progressive IgA nephropathy, worsened by the RAAS blockade (angiotensin-II and aldosterone already mapped) that treats it, raises the risk of hyperkalaemia."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "CKD-mineral-bone calcium: the hypocalcaemia and disturbed calcium-phosphate balance of the CKD-mineral-bone disorder (PTH already mapped) of progressive IgA nephropathy."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "CKD hyperphosphataemia: the hyperphosphataemia of the CKD-mineral-bone disorder (PTH already mapped) of the declining renal function of progressive IgA nephropathy, driving the secondary hyperparathyroidism."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Uraemic adipokine: leptin accumulates with the declining renal clearance of progressive IgA nephropathy, part of the metabolic and appetite disturbance of the uraemic state."
 ---
 
 # IgA Nephropathy
@@ -651,6 +660,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of CKD: as IgA nephropathy progresses, the IL-6-driven (already mapped) hepcidin and the failing erythropoietin (already mapped) production cause the anaemia of chronic kidney disease (haemoglobin already mapped).
 - `connects-to` → **[PTH](../../03-molecular/pth/README.md)** — CKD-mineral-bone disorder: the declining renal function of progressive IgA nephropathy drives the secondary hyperparathyroidism (raised PTH) of the CKD-mineral-bone disorder, disturbing calcium and phosphate balance.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Hyperkalaemia: the falling glomerular filtration of progressive IgA nephropathy, worsened by the RAAS blockade (angiotensin-II and aldosterone already mapped) that treats it, raises the risk of hyperkalaemia.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — CKD-mineral-bone calcium: the hypocalcaemia and disturbed calcium-phosphate balance of the CKD-mineral-bone disorder (PTH already mapped) of progressive IgA nephropathy.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — CKD hyperphosphataemia: the hyperphosphataemia of the CKD-mineral-bone disorder (PTH already mapped) of the declining renal function of progressive IgA nephropathy, driving the secondary hyperparathyroidism.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Uraemic adipokine: leptin accumulates with the declining renal clearance of progressive IgA nephropathy, part of the metabolic and appetite disturbance of the uraemic state.
 
 ---
 
