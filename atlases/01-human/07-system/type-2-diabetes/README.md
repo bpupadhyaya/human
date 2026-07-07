@@ -445,6 +445,15 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: connects-to
     note: "Central energy control: the brain's hypothalamic appetite and energy regulation (leptin, ghrelin and insulin already mapped) is central to type 2 diabetes, which also raises the risk of vascular dementia and cognitive decline."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the chronic metabolic inflammation (IL-6 and TNF already mapped) of the insulin resistance of type 2 diabetes."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate metabolic inflammation: the type-I interferon, downstream of the cGAS-STING (already mapped) sensing of the metabolic stress, contributes to the chronic low-grade inflammation (IL-6 and TNF already mapped) of the insulin resistance of type 2 diabetes."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Adipose Th1 inflammation: the IFN-γ of the adipose-tissue T cells (with the macrophages already mapped) drives the Th1 inflammation that promotes the insulin (already mapped) resistance of type 2 diabetes."
 ---
 
 # Type 2 Diabetes
@@ -690,6 +699,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Iron and insulin resistance: hepcidin, the iron-regulatory hormone; the iron overload (the ferritin, an IL-6-driven already-mapped marker) is associated with the insulin (already mapped) resistance of type 2 diabetes.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Selenoprotein-P hepatokine: selenium's selenoprotein-P (SELENOP), secreted by the liver (already mapped), acts as a hepatokine that impairs the insulin (already mapped) signalling, linking the selenium status to type 2 diabetes.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Central energy control: the brain's hypothalamic appetite and energy regulation (leptin, ghrelin and insulin already mapped) is central to type 2 diabetes, which also raises the risk of vascular dementia and cognitive decline.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the chronic metabolic inflammation (IL-6 and TNF already mapped) of the insulin resistance of type 2 diabetes.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate metabolic inflammation: the type-I interferon, downstream of the cGAS-STING (already mapped) sensing of the metabolic stress, contributes to the chronic low-grade inflammation (IL-6 and TNF already mapped) of the insulin resistance of type 2 diabetes.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Adipose Th1 inflammation: the IFN-γ of the adipose-tissue T cells (with the macrophages already mapped) drives the Th1 inflammation that promotes the insulin (already mapped) resistance of type 2 diabetes.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
