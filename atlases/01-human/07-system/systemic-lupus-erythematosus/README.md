@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative amplification: reactive oxygen species, to which xanthine oxidase contributes, and the neutrophil (already mapped) oxidative burst amplify the tissue injury of lupus and help sustain the type-I-interferon (already mapped) loop."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Anaemia of inflammation: the chronic IL-6 (already mapped) inflammation of lupus raises hepcidin, sequestering iron to produce the anaemia of chronic disease that adds to the autoimmune haemolytic anaemia (haemoglobin already mapped) of the disease."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Iron and anaemia: lupus causes a multifactorial anaemia — the iron sequestration of inflammation (hepcidin already mapped) and the autoimmune haemolysis (haemoglobin already mapped) — that reflects its systemic haematological involvement."
+  - target: 03-medicine/03-food/omega-3-fatty-acids
+    relation: connects-to
+    note: "Omega-3 and inflammation: the omega-3 fatty acids give rise to specialised pro-resolving mediators that counter the inflammatory eicosanoids (prostaglandins already mapped), studied as a dietary adjunct to reduce disease activity in lupus."
 ---
 
 # Systemic Lupus Erythematosus
@@ -679,6 +688,9 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Accelerated atherosclerosis: lupus, through chronic inflammation and corticosteroid use, drives an atherogenic dyslipidaemia and premature atherosclerosis, a leading cause of death that makes cardiovascular risk central to long-term lupus care.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Serositis and arthritis: prostaglandins from the inflamed serosa and synovium drive the pleuritis, pericarditis and arthritis of lupus (IL-6 and IL-1 already mapped), the NSAID-responsive musculoskeletal and serosal features.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative amplification: reactive oxygen species, to which xanthine oxidase contributes, and the neutrophil (already mapped) oxidative burst amplify the tissue injury of lupus and help sustain the type-I-interferon (already mapped) loop.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of inflammation: the chronic IL-6 (already mapped) inflammation of lupus raises hepcidin, sequestering iron to produce the anaemia of chronic disease that adds to the autoimmune haemolytic anaemia (haemoglobin already mapped) of the disease.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron and anaemia: lupus causes a multifactorial anaemia — the iron sequestration of inflammation (hepcidin already mapped) and the autoimmune haemolysis (haemoglobin already mapped) — that reflects its systemic haematological involvement.
+- `connects-to` → **[Omega-3 fatty acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Omega-3 and inflammation: the omega-3 fatty acids give rise to specialised pro-resolving mediators that counter the inflammatory eicosanoids (prostaglandins already mapped), studied as a dietary adjunct to reduce disease activity in lupus.
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)

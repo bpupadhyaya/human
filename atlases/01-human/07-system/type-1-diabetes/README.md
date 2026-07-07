@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Microvascular dysfunction: impaired endothelial nitric oxide from chronic hyperglycaemia contributes to the endothelial and microvascular dysfunction underlying the nephropathy (kidney already mapped) and retinopathy of type 1 diabetes."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "Incretin adjunct: GLP-1 suppresses the counter-regulatory glucagon (already mapped) and slows gastric emptying, and incretin-based agents are being studied as adjuncts to insulin in type 1 diabetes."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Th1/Th2 balance: IL-13, with IL-4 (already mapped), forms the type-2 arm whose balance against the Th1 response (IFN-γ already mapped) shapes the autoimmune destruction of the β-cells in type 1 diabetes."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Islet inflammation: prostaglandins from the insulitis (IL-1 already mapped) contribute to the inflammatory β-cell injury of type 1 diabetes, part of the eicosanoid dimension of the autoimmune attack on the islets."
 ---
 
 # Type 1 Diabetes
@@ -651,6 +660,9 @@ cross_links:
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative beta-cell injury: reactive oxygen species, to which xanthine oxidase contributes, contribute to beta-cell destruction (perforin and NLRP3 already mapped) in type 1 diabetes, and oxidative stress also adds to the burden of diabetic ketoacidosis.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Proliferative retinopathy: chronic hyperglycaemia in type 1 diabetes drives VEGF-mediated retinal neovascularisation, the proliferative diabetic retinopathy (eye already mapped) that threatens vision and is treated with anti-VEGF therapy.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Microvascular dysfunction: impaired endothelial nitric oxide from chronic hyperglycaemia contributes to the endothelial and microvascular dysfunction underlying the nephropathy (kidney already mapped) and retinopathy of type 1 diabetes.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Incretin adjunct: GLP-1 suppresses the counter-regulatory glucagon (already mapped) and slows gastric emptying, and incretin-based agents are being studied as adjuncts to insulin in type 1 diabetes.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Th1/Th2 balance: IL-13, with IL-4 (already mapped), forms the type-2 arm whose balance against the Th1 response (IFN-γ already mapped) shapes the autoimmune destruction of the β-cells in type 1 diabetes.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Islet inflammation: prostaglandins from the insulitis (IL-1 already mapped) contribute to the inflammatory β-cell injury of type 1 diabetes, part of the eicosanoid dimension of the autoimmune attack on the islets.
 
 [^atkinson-2014-t1d-lancet]: Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. *Lancet.* 2014;383(9911):69-82. [doi:10.1016/S0140-6736(13)60591-7](https://doi.org/10.1016/S0140-6736(13)60591-7) · [PubMed 23890997](https://pubmed.ncbi.nlm.nih.gov/23890997/)
 [^herold-2019-teplizumab-t1d]: Herold KC, Bundy BN, Long SA, et al. An anti-CD3 antibody, teplizumab, in relatives at risk for type 1 diabetes. *N Engl J Med.* 2019;381(7):603-613. [doi:10.1056/NEJMoa1905155](https://doi.org/10.1056/NEJMoa1905155) · [PubMed 31180675](https://pubmed.ncbi.nlm.nih.gov/31180675/)
