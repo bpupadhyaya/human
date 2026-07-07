@@ -442,6 +442,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Obesity and hypercoagulability: the fall in adiponectin, with leptin (already mapped), of the obesity that is a major risk factor for venous thromboembolism promotes the prothrombotic and inflammatory state."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the obesity (a major VTE risk) and the prothrombotic inflammatory state."
+  - target: 01-human/07-system/pulmonary-arterial-hypertension
+    relation: connects-to
+    note: "CTEPH: the chronic thromboembolic pulmonary hypertension is a long-term complication of the unresolved pulmonary embolism of venous thromboembolism."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Right-heart strain: the pulmonary embolism strains the right heart (troponin and BNP already mapped), the acute RV failure the cause of the PE death."
 ---
 
 # Venous Thromboembolism
@@ -702,6 +711,9 @@ cross_links:
 - `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Antiphospholipid antibodies: the IgG antiphospholipid antibodies of the antiphospholipid syndrome are a major acquired thrombophilia causing venous (and arterial) thromboembolism, testing for which is part of the workup of unprovoked VTE.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 inflammation: IL-13, with IL-4 (already mapped), is part of the type-2 immune arm of the inflammation (IL-6 already mapped) that contributes to the venous-thrombus resolution and the post-thrombotic remodelling.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Obesity and hypercoagulability: the fall in adiponectin, with leptin (already mapped), of the obesity that is a major risk factor for venous thromboembolism promotes the prothrombotic and inflammatory state.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the obesity (a major VTE risk) and the prothrombotic inflammatory state.
+- `connects-to` → **[Pulmonary arterial hypertension](../pulmonary-arterial-hypertension/README.md)** — CTEPH: the chronic thromboembolic pulmonary hypertension is a long-term complication of the unresolved pulmonary embolism of venous thromboembolism.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Right-heart strain: the pulmonary embolism strains the right heart (troponin and BNP already mapped), the acute RV failure the cause of the PE death.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)

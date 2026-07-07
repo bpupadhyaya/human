@@ -441,6 +441,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Adipokine and iron-diabetes: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the iron-induced diabetes (insulin already mapped) and metabolic complications of thalassaemia."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Microcytic red cells: the globin (haemoglobin already mapped) imbalance precipitates in the erythrocytes, causing the ineffective erythropoiesis and the microcytic haemolytic anaemia of thalassaemia."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "Splenomegaly: the spleen enlarges (the extramedullary haematopoiesis, the red-cell destruction), the splenectomy sometimes needed in thalassaemia."
+  - target: 01-human/07-system/malaria
+    relation: connects-to
+    note: "Malaria protection: the thalassaemia trait (haemoglobin already mapped), like sickle-cell, confers the malaria protection, the balancing selection of the endemic regions."
 ---
 
 # Thalassemia
@@ -726,6 +735,9 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — M2 haemolytic clearance: IL-13, with IL-4 (already mapped), supports the M2 macrophage phenotype that clears the haemolysed and defective red cells, part of the immune and haemolytic microenvironment of thalassaemia.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Growth and endocrine axis: leptin reflects the growth delay and altered energy balance (growth hormone already mapped) of the ineffective erythropoiesis and endocrine dysfunction of thalassaemia.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine and iron-diabetes: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the iron-induced diabetes (insulin already mapped) and metabolic complications of thalassaemia.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Microcytic red cells: the globin (haemoglobin already mapped) imbalance precipitates in the erythrocytes, causing the ineffective erythropoiesis and the microcytic haemolytic anaemia of thalassaemia.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Splenomegaly: the spleen enlarges (the extramedullary haematopoiesis, the red-cell destruction), the splenectomy sometimes needed in thalassaemia.
+- `connects-to` → **[Malaria](../malaria/README.md)** — Malaria protection: the thalassaemia trait (haemoglobin already mapped), like sickle-cell, confers the malaria protection, the balancing selection of the endemic regions.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.
