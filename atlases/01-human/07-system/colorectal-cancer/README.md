@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin
     relation: connects-to
     note: "Hyperinsulinaemia: the hyperinsulinaemia of obesity and type 2 diabetes drives colorectal carcinogenesis through insulin and the IGF-1 axis (already mapped), a modifiable metabolic risk factor for the cancer."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immunosuppressive microenvironment of colorectal cancer."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Anti-proliferative adipokine: adiponectin falls with obesity (leptin and insulin already mapped), and this loss removes a brake on the colonic epithelial proliferation, part of the obesity link to colorectal cancer."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipokine inflammation: resistin, with leptin and adiponectin (already mapped), is a pro-inflammatory adipokine of obesity that promotes the colonic proliferation and inflammation implicated in colorectal-cancer risk."
 ---
 
 # Colorectal Cancer
@@ -683,6 +692,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the microenvironment of the microsatellite-stable colorectal cancers that resist checkpoint blockade.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Obesity and proliferation: leptin from adipose tissue promotes the proliferation of the colonic epithelium, part of the mechanism by which obesity raises the risk of colorectal cancer alongside the insulin-IGF-1 axis (IGF-1 already mapped).
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Hyperinsulinaemia: the hyperinsulinaemia of obesity and type 2 diabetes drives colorectal carcinogenesis through insulin and the IGF-1 axis (already mapped), a modifiable metabolic risk factor for the cancer.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immunosuppressive microenvironment of colorectal cancer.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Anti-proliferative adipokine: adiponectin falls with obesity (leptin and insulin already mapped), and this loss removes a brake on the colonic epithelial proliferation, part of the obesity link to colorectal cancer.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine inflammation: resistin, with leptin and adiponectin (already mapped), is a pro-inflammatory adipokine of obesity that promotes the colonic proliferation and inflammation implicated in colorectal-cancer risk.
 
 ---
 
