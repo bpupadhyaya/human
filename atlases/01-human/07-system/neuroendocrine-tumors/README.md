@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the metabolic milieu of the neuroendocrine tumours."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Interferon therapy: the type-I interferon, historically used (with the somatostatin analogues — SSTR2 already mapped) to treat the carcinoid/NET, shapes the innate-immune microenvironment of the neuroendocrine tumours."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the (limited) immune response to the neuroendocrine tumours."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) anti-tumour response of the neuroendocrine-tumour immune microenvironment."
 ---
 
 # Neuroendocrine Tumors
@@ -646,6 +655,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Functional-tumour metabolic adipokine: leptin reflects the metabolic disturbance of the functional (insulin and glucagon already mapped) neuroendocrine tumours and the metabolic milieu of the disease.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic disturbance of the functional neuroendocrine tumours.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the metabolic milieu of the neuroendocrine tumours.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Interferon therapy: the type-I interferon, historically used (with the somatostatin analogues — SSTR2 already mapped) to treat the carcinoid/NET, shapes the innate-immune microenvironment of the neuroendocrine tumours.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the (limited) immune response to the neuroendocrine tumours.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) anti-tumour response of the neuroendocrine-tumour immune microenvironment.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Hypervascular tumours: HIF-1α-driven, VEGF-rich angiogenesis makes neuroendocrine tumours strikingly vascular, the rationale for anti-angiogenic agents such as sunitinib.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Grade and progression: TERT activation maintaining telomeres accompanies the progression of neuroendocrine tumours toward higher-grade, more aggressive disease.
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Proliferative drive: MYC activation drives the higher proliferative rate of poorly differentiated neuroendocrine carcinomas, marking their aggressive behaviour.
