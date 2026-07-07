@@ -427,6 +427,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "Wound healing and micronutrient loss: zinc is essential to the re-epithelialisation of the extensive erosions, and the exudative loss and poor intake of severe pemphigus can deplete zinc, impairing the wound healing of the skin."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Anaemia and blood loss: the blood and exudate loss through the extensive erosions and the poor intake from the painful oral disease cause the anaemia and iron deficiency that accompany severe pemphigus vulgaris."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Electrolyte loss: the extensive denuded erosions of severe pemphigus lose fluid, protein and electrolytes like a burn, depleting potassium (sodium already mapped) and disturbing the fluid-electrolyte balance."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Magnesium depletion: the transcutaneous loss through the widespread erosions and the poor intake of severe pemphigus deplete magnesium, part of the burn-like fluid and electrolyte (sodium and potassium already mapped) disturbance."
 ---
 
 # Pemphigus Vulgaris
@@ -707,6 +716,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Inflammatory eicosanoids: prostaglandins from the inflamed, eroded skin (IL-6, TNF and IL-1 already mapped) amplify the inflammation and pain of the acantholytic blistering of pemphigus vulgaris.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell inflammation: mast cells (already mapped) in the blistering skin release histamine, contributing to the erythema, itch and inflammation that accompany the acantholytic erosions of pemphigus vulgaris.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Wound healing and micronutrient loss: zinc is essential to the re-epithelialisation of the extensive erosions, and the exudative loss and poor intake of severe pemphigus can deplete zinc, impairing the wound healing of the skin.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Anaemia and blood loss: the blood and exudate loss through the extensive erosions and the poor intake from the painful oral disease cause the anaemia and iron deficiency that accompany severe pemphigus vulgaris.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Electrolyte loss: the extensive denuded erosions of severe pemphigus lose fluid, protein and electrolytes like a burn, depleting potassium (sodium already mapped) and disturbing the fluid-electrolyte balance.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium depletion: the transcutaneous loss through the widespread erosions and the poor intake of severe pemphigus deplete magnesium, part of the burn-like fluid and electrolyte (sodium and potassium already mapped) disturbance.
 
 ---
 

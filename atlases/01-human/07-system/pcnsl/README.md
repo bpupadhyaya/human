@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/il-13
     relation: connects-to
     note: "Type-2 immune milieu: IL-13, with IL-4 (already mapped), reflects the type-2 cytokine arm of the immune microenvironment of primary CNS lymphoma, part of the cytokine milieu shaping the tumour."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin sequesters iron and adds an anaemia of chronic disease to the high-dose-methotrexate anaemia (iron already mapped) of primary CNS lymphoma."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Metabolic and cachexia: the corticosteroids (cortisol already mapped) and the disease disturb leptin and energy balance, part of the metabolic dimension and the cachexia of the often-elderly primary-CNS-lymphoma patient."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate CNS immunity: type-I interferon signalling is part of the innate antiviral immunity of the immune-privileged CNS, relevant to the EBV-driven (LMP1 already mapped) primary CNS lymphoma of the immunosuppressed."
 ---
 
 # Primary CNS Lymphoma
@@ -669,6 +678,9 @@ Score 0-1: 2-year OS ~80%; Score 2-3: ~48%; Score 4-5: ~15%
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Neuroinflammatory eicosanoids: prostaglandins from the tumour-associated microglia and the cyclooxygenase pathway contribute to the neuroinflammation (IL-6 and IL-1 already mapped) of the primary CNS lymphoma microenvironment.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Chemotherapy anaemia: the high-dose methotrexate-based chemotherapy of primary CNS lymphoma is myelosuppressive, causing anaemia (haemoglobin already mapped) that can require transfusion, whose repeated support can load the body with iron.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune milieu: IL-13, with IL-4 (already mapped), reflects the type-2 cytokine arm of the immune microenvironment of primary CNS lymphoma, part of the cytokine milieu shaping the tumour.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin sequesters iron and adds an anaemia of chronic disease to the high-dose-methotrexate anaemia (iron already mapped) of primary CNS lymphoma.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Metabolic and cachexia: the corticosteroids (cortisol already mapped) and the disease disturb leptin and energy balance, part of the metabolic dimension and the cachexia of the often-elderly primary-CNS-lymphoma patient.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate CNS immunity: type-I interferon signalling is part of the innate antiviral immunity of the immune-privileged CNS, relevant to the EBV-driven (LMP1 already mapped) primary CNS lymphoma of the immunosuppressed.
 
 [^bromberg-2019-hovon105]: Bromberg JE, Issa S, Bakunina K, et al. Rituximab in patients with primary CNS lymphoma (HOVON 105/ALLG NHL 24): a randomised, open-label, phase 3 intergroup study. *Lancet Oncol.* 2019;20(2):216-228. [doi:10.1016/S1470-2045(18)30747-2](https://doi.org/10.1016/S1470-2045(18)30747-2) · [PubMed 30528440](https://pubmed.ncbi.nlm.nih.gov/30528440/)
 [^grommes-2017-ibrutinib-pcnsl]: Grommes C, Pastore A, Palaskas N, et al. Ibrutinib unmasks critical role of Bruton tyrosine kinase in primary CNS lymphoma. *Cancer Cell.* 2017;31(6):833-843. [doi:10.1016/j.ccell.2017.04.012](https://doi.org/10.1016/j.ccell.2017.04.012) · [PubMed 28552327](https://pubmed.ncbi.nlm.nih.gov/28552327/)
