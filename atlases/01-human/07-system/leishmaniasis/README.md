@@ -433,6 +433,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Adipokine milieu: resistin, with leptin and adiponectin (already mapped), is part of the adipokine milieu of the malnutrition-immunity axis that shapes the susceptibility to and severity of leishmaniasis."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Nutritional immunity zinc: the zinc nutrition shapes the immune response (the Th1 already-mapped function) to Leishmania; the zinc deficiency of malnutrition (leptin already mapped) worsens susceptibility, and topical zinc treats the cutaneous form."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Antioxidant selenium: the antioxidant selenoprotein status shapes the immune response and the oxidative (nitric oxide and xanthine oxidase already mapped) killing of Leishmania, the malnutrition deficiency worsening the outcome."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Sandfly-bite mast cells: the histamine from the mast cells recruited to the sandfly-bite inoculation site shapes the early inflammatory milieu that the Leishmania parasite exploits to establish infection."
 ---
 
 # Leishmaniasis
@@ -673,3 +682,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 susceptibility: IL-5, with the Th2 cytokines (IL-4 and IL-13 already mapped), is part of the non-protective type-2 response that, when it dominates over the Th1 (IL-12 and IFN-γ already mapped), favours the non-healing susceptible phenotype of leishmaniasis.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Malnutrition and immunity: adiponectin, with leptin (already mapped), links the malnutrition common in endemic regions to the impaired immune response that worsens visceral leishmaniasis.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine milieu: resistin, with leptin and adiponectin (already mapped), is part of the adipokine milieu of the malnutrition-immunity axis that shapes the susceptibility to and severity of leishmaniasis.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Nutritional immunity zinc: the zinc nutrition shapes the immune response (the Th1 already-mapped function) to Leishmania; the zinc deficiency of malnutrition (leptin already mapped) worsens susceptibility, and topical zinc treats the cutaneous form.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Antioxidant selenium: the antioxidant selenoprotein status shapes the immune response and the oxidative (nitric oxide and xanthine oxidase already mapped) killing of Leishmania, the malnutrition deficiency worsening the outcome.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Sandfly-bite mast cells: the histamine from the mast cells recruited to the sandfly-bite inoculation site shapes the early inflammatory milieu that the Leishmania parasite exploits to establish infection.

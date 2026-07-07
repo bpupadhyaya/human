@@ -420,6 +420,15 @@ cross_links:
   - target: 01-human/04-cellular/astrocyte
     relation: connects-to
     note: "Glutamate homeostasis: the astrocytes regulate the glutamate (already mapped) at the synapses of the reward and prefrontal circuits, and their dysfunction is part of the synaptic remodelling of behavioural addiction."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Sedentary metabolic adipokine: adiponectin, with leptin (already mapped), is the adipokine of the sedentary metabolic dysregulation (insulin already mapped) and the disturbed energy balance (ghrelin already mapped) of internet gaming disorder."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the sedentary metabolic-inflammatory state of internet gaming disorder."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 neuroimmunity: IL-13, with IL-4 (already mapped), is the type-2 immune arm of the low-grade neuroinflammation (TNF and IL-6 already mapped) implicated in the behavioural addiction of internet gaming disorder."
 sources:
   - id: kuss-2012-gaming-disorder-review
     type: peer-reviewed
@@ -728,6 +737,9 @@ A pattern of persistent or recurrent gaming behavior characterized by:
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Neuroimmune balance: IL-4 and the M2 microglia (already mapped) balance the neuroinflammation (TNF, IL-6 and IL-1 already mapped) increasingly implicated in the reward-circuit changes of behavioural addictions such as internet gaming disorder.
 - `connects-to` → **[Alcohol use disorder](../alcohol-use-disorder/README.md)** — Addiction comorbidity: alcohol and other substance-use disorders (stimulant and cannabis already mapped) commonly co-occur with internet gaming disorder, reflecting a shared vulnerability of the reward (dopamine already mapped) circuitry.
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Glutamate homeostasis: the astrocytes regulate the glutamate (already mapped) at the synapses of the reward and prefrontal circuits, and their dysfunction is part of the synaptic remodelling of behavioural addiction.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Sedentary metabolic adipokine: adiponectin, with leptin (already mapped), is the adipokine of the sedentary metabolic dysregulation (insulin already mapped) and the disturbed energy balance (ghrelin already mapped) of internet gaming disorder.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the sedentary metabolic-inflammatory state of internet gaming disorder.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 neuroimmunity: IL-13, with IL-4 (already mapped), is the type-2 immune arm of the low-grade neuroinflammation (TNF and IL-6 already mapped) implicated in the behavioural addiction of internet gaming disorder.
 
 [^kuss-2012-gaming-disorder-review]: Kuss DJ, Griffiths MD. Internet gaming addiction: a systematic review of empirical research. *Int J Ment Health Addict.* 2012;10(2):278-296. [doi:10.1007/s11469-011-9318-5](https://doi.org/10.1007/s11469-011-9318-5)
 [^who-icd11-gaming-disorder]: World Health Organization. ICD-11: Gaming Disorder (6C51). Geneva: WHO; 2019. [icd.who.int](https://icd.who.int/browse/2025-01/mms/en#1448597234)
