@@ -436,6 +436,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "Zinc and sleep: zinc modulates the glutamatergic (already mapped) and GABAergic (already mapped) systems and, with magnesium (already mapped), influences sleep quality, its status linked to the sleep disturbance of insomnia."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Copper and monoamines: copper is the cofactor of dopamine-β-hydroxylase, which makes noradrenaline from dopamine (both already mapped), and disturbed copper handling affects the monoaminergic arousal system of the sleep-wake balance in insomnia."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic consequence: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic (insulin already mapped) consequences of the chronic sleep loss of insomnia."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin rises with sleep deprivation, part of the metabolic-inflammatory (IL-6 already mapped) consequences of the chronic sleep loss of insomnia."
 ---
 
 # Insomnia Disorder
@@ -712,6 +721,9 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Sleep-immune balance: the anti-inflammatory IL-4, with IL-10 (already mapped), counters the sleep-regulatory pro-inflammatory cytokines (IL-6, TNF and IL-1 already mapped), part of the bidirectional link between sleep and inflammation in insomnia.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), forms the type-2 response whose balance against the pro-inflammatory sleep-regulatory cytokines shapes the neuroimmune dimension of chronic insomnia.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and sleep: zinc modulates the glutamatergic (already mapped) and GABAergic (already mapped) systems and, with magnesium (already mapped), influences sleep quality, its status linked to the sleep disturbance of insomnia.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper and monoamines: copper is the cofactor of dopamine-β-hydroxylase, which makes noradrenaline from dopamine (both already mapped), and disturbed copper handling affects the monoaminergic arousal system of the sleep-wake balance in insomnia.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic consequence: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic (insulin already mapped) consequences of the chronic sleep loss of insomnia.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin rises with sleep deprivation, part of the metabolic-inflammatory (IL-6 already mapped) consequences of the chronic sleep loss of insomnia.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)

@@ -426,6 +426,15 @@ cross_links:
   - target: 01-human/07-system/colorectal-cancer
     relation: connects-to
     note: "Occult malignancy: iron-deficiency anaemia from occult gastrointestinal blood loss in an older adult mandates investigation for colorectal cancer, of which it is often the presenting sign."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Adipokine-iron crosstalk: adiponectin, with leptin (already mapped), participates in the adipokine crosstalk with the iron metabolism (hepcidin already mapped) and erythropoiesis altered in iron-deficiency anaemia."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is part of the adipokine-inflammatory milieu that intersects with the iron and erythropoietic regulation in anaemia."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Dietary iron interaction: dietary calcium inhibits the absorption of non-haem iron in the duodenum, a dietary interaction relevant to the timing of the iron supplementation that treats iron-deficiency anaemia."
 ---
 
 # Iron Deficiency Anemia
@@ -682,6 +691,9 @@ Iron is essential for:
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Gastric absorption and loss: the stomach's acid aids iron absorption — lost in atrophic gastritis, H. pylori and acid-suppressing drugs — and gastric erosions cause the occult bleeding that is a common source of iron-deficiency anaemia.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper ferroxidases: copper is required by ceruloplasmin and hephaestin, the ferroxidases that oxidise iron for loading onto transferrin (already mapped), so copper deficiency causes an iron-deficiency-like anaemia despite adequate iron.
 - `connects-to` → **[Colorectal cancer](../colorectal-cancer/README.md)** — Occult malignancy: iron-deficiency anaemia from occult gastrointestinal blood loss in an older adult mandates investigation for colorectal cancer, of which it is often the presenting sign.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine-iron crosstalk: adiponectin, with leptin (already mapped), participates in the adipokine crosstalk with the iron metabolism (hepcidin already mapped) and erythropoiesis altered in iron-deficiency anaemia.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is part of the adipokine-inflammatory milieu that intersects with the iron and erythropoietic regulation in anaemia.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Dietary iron interaction: dietary calcium inhibits the absorption of non-haem iron in the duodenum, a dietary interaction relevant to the timing of the iron supplementation that treats iron-deficiency anaemia.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)
