@@ -442,6 +442,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory milieu to the neuroinflammation (TNF and IL-1 already mapped) associated with social anxiety disorder."
+  - target: 01-human/04-cellular/microglia
+    relation: connects-to
+    note: "Neuroinflammation: the microglial activation and the neuroinflammation (TNF, IL-6 and IL-1 already mapped) are implicated in the anxiety of social anxiety disorder."
+  - target: 01-human/07-system/panic-disorder
+    relation: connects-to
+    note: "Anxiety-spectrum overlap: social anxiety disorder and panic disorder are comorbid anxiety disorders, sharing the noradrenergic and serotonergic (already mapped) dysregulation."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Anxiolytic magnesium: magnesium modulates the NMDA/glutamate (already mapped) and the HPA (cortisol already mapped) axis; low magnesium is associated with the anxiety of social anxiety disorder."
 ---
 
 # Social Anxiety Disorder
@@ -713,6 +722,9 @@ The unique **dopaminergic social reward deficit** in SAD has clinical implicatio
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Anxiolytic adipokine: leptin has anxiolytic actions in the amygdala, linking the metabolic (insulin already mapped) state to the anxiety circuits of social anxiety disorder.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic-inflammatory (IL-6 already mapped) comorbidity of chronic anxiety.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory milieu to the neuroinflammation (TNF and IL-1 already mapped) associated with social anxiety disorder.
+- `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Neuroinflammation: the microglial activation and the neuroinflammation (TNF, IL-6 and IL-1 already mapped) are implicated in the anxiety of social anxiety disorder.
+- `connects-to` → **[Panic disorder](../panic-disorder/README.md)** — Anxiety-spectrum overlap: social anxiety disorder and panic disorder are comorbid anxiety disorders, sharing the noradrenergic and serotonergic (already mapped) dysregulation.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Anxiolytic magnesium: magnesium modulates the NMDA/glutamate (already mapped) and the HPA (cortisol already mapped) axis; low magnesium is associated with the anxiety of social anxiety disorder.
 
 [^liebowitz-1987-sad-scale]: Liebowitz MR. Social phobia. *Mod Probl Pharmacopsychiatry.* 1987;22:141-173. [PubMed 2885745](https://pubmed.ncbi.nlm.nih.gov/2885745/)
 [^stein-2008-sad-review]: Stein MB, Stein DJ. Social anxiety disorder. *Lancet.* 2008;371(9618):1115-1125. [doi:10.1016/S0140-6736(08)60488-2](https://doi.org/10.1016/S0140-6736(08)60488-2) · [PubMed 18374843](https://pubmed.ncbi.nlm.nih.gov/18374843/)
