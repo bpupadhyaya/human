@@ -436,6 +436,15 @@ cross_links:
   - target: 01-human/01-subatomic/photon
     relation: connects-to
     note: "Radiotherapy: stereotactic body photon radiotherapy cures early inoperable NSCLC, and concurrent chemoradiotherapy treats stage III disease, photon radiation a mainstay of the non-metastatic tumour."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "M2 microenvironment: IL-13, with IL-4 (already mapped), drives the M2 macrophage (already mapped) arm of the immunosuppressive microenvironment of non-small-cell lung cancer."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Cancer cachexia: leptin is the adipokine of the cancer cachexia (the weight loss) of NSCLC, and part of the obesity-paradox in the immunotherapy response."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic-cachexia adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic-cachexia axis of non-small-cell lung cancer."
 ---
 
 # NSCLC
@@ -676,6 +685,9 @@ cross_links:
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the microenvironment that the checkpoint immunotherapy central to NSCLC must overcome.
 - `connects-to` → **[Adrenal gland](../../06-organ/adrenal-gland/README.md)** — Adrenal metastasis: the adrenal glands are a characteristic site of NSCLC metastasis, the visceral spread that defines stage IV disease alongside the liver (already mapped) and brain (already mapped).
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiotherapy: stereotactic body photon radiotherapy cures early inoperable NSCLC, and concurrent chemoradiotherapy treats stage III disease, photon radiation a mainstay of the non-metastatic tumour.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — M2 microenvironment: IL-13, with IL-4 (already mapped), drives the M2 macrophage (already mapped) arm of the immunosuppressive microenvironment of non-small-cell lung cancer.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Cancer cachexia: leptin is the adipokine of the cancer cachexia (the weight loss) of NSCLC, and part of the obesity-paradox in the immunotherapy response.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic-cachexia adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic-cachexia axis of non-small-cell lung cancer.
 
 [^soria-2018-osimertinib-flaura]: Soria JC, Ohe Y, Vansteenkiste J, et al. Osimertinib in untreated EGFR-mutated advanced non-small-cell lung cancer. *N Engl J Med.* 2018;378(2):113-125. [doi:10.1056/NEJMoa1713137](https://doi.org/10.1056/NEJMoa1713137) · [PubMed 29151359](https://pubmed.ncbi.nlm.nih.gov/29151359/)
 [^reck-2016-pembrolizumab-keynote024]: Reck M, Rodríguez-Abreu D, Robinson AG, et al. Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell lung cancer. *N Engl J Med.* 2016;375(19):1823-1833. [doi:10.1056/NEJMoa1606774](https://doi.org/10.1056/NEJMoa1606774) · [PubMed 27718347](https://pubmed.ncbi.nlm.nih.gov/27718347/)
