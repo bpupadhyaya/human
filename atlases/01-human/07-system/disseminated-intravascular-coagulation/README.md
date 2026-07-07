@@ -427,6 +427,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Haemolysis and iron: the microangiopathic haemolysis of DIC fragments red cells (haemoglobin already mapped) releasing iron, while the inflammatory hepcidin (already mapped) sequesters it, part of the anaemia of the critical illness."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Contact-pathway zinc: zinc released from the activated, consumed platelets (PF4 already mapped) promotes the contact pathway and fibrin (fibrinogen already mapped) formation, adding to the coagulation activation of DIC."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Sepsis-severity adipokine: resistin, a pro-inflammatory adipokine, rises markedly in the sepsis (already mapped) that commonly triggers DIC, a marker of the severity of the inflammatory drive behind the consumptive coagulopathy."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Vascular permeability: histamine from the activated mast cells and basophils adds to the vascular permeability (bradykinin already mapped) and the vasodilatory shock of the severe conditions that trigger DIC."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -694,6 +703,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Thromboxane and inflammation: the prostaglandin/thromboxane balance on the activated platelets (already mapped) and endothelium shifts toward the prothrombotic thromboxane, part of the platelet activation and inflammation of DIC.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Platelet serotonin: serotonin released from the activated, consumed platelets (PF4 already mapped) causes vasoconstriction and amplifies platelet aggregation in the widespread microthrombi of DIC.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Haemolysis and iron: the microangiopathic haemolysis of DIC fragments red cells (haemoglobin already mapped) releasing iron, while the inflammatory hepcidin (already mapped) sequesters it, part of the anaemia of the critical illness.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Contact-pathway zinc: zinc released from the activated, consumed platelets (PF4 already mapped) promotes the contact pathway and fibrin (fibrinogen already mapped) formation, adding to the coagulation activation of DIC.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Sepsis-severity adipokine: resistin, a pro-inflammatory adipokine, rises markedly in the sepsis (already mapped) that commonly triggers DIC, a marker of the severity of the inflammatory drive behind the consumptive coagulopathy.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Vascular permeability: histamine from the activated mast cells and basophils adds to the vascular permeability (bradykinin already mapped) and the vasodilatory shock of the severe conditions that trigger DIC.
 
 ---
 

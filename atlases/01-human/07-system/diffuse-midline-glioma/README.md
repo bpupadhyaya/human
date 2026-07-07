@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/il-4
     relation: connects-to
     note: "M2 microglial polarisation: IL-4 polarises the tumour-associated microglia and macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune-evasive niche of diffuse midline glioma."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 arm and CAR-T target: IL-13, with IL-4 (already mapped), supports the M2 microglial niche, and the IL-13 receptor alpha-2 is a target of the CAR-T-cell approaches being trialled against diffuse midline glioma."
+  - target: 01-human/03-molecular/acetylcholine
+    relation: connects-to
+    note: "Neuron-glioma signalling: alongside the glutamate and GABA (already mapped) synapses, cholinergic acetylcholine signalling is part of the neuronal activity that drives the growth of the electrically integrated diffuse midline glioma."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Ferroptosis vulnerability: the iron-dependent lipid peroxidation of ferroptosis is a metabolic vulnerability of diffuse midline glioma (xanthine oxidase and oxidative stress already mapped), an emerging therapeutic angle in this incurable tumour."
 ---
 
 # Diffuse Midline Glioma
@@ -694,6 +703,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Neuroinflammatory eicosanoids: prostaglandins from the tumour-associated microglia (already mapped) and the cyclooxygenase pathway contribute to the neuroinflammation (IL-6 and IL-1 already mapped) of the diffuse midline glioma microenvironment.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative microenvironment: the infiltrative diffuse midline glioma generates oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species are part of its hypoxic (HIF-1-alpha already mapped) tumour microenvironment.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 microglial polarisation: IL-4 polarises the tumour-associated microglia and macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune-evasive niche of diffuse midline glioma.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 arm and CAR-T target: IL-13, with IL-4 (already mapped), supports the M2 microglial niche, and the IL-13 receptor alpha-2 is a target of the CAR-T-cell approaches being trialled against diffuse midline glioma.
+- `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Neuron-glioma signalling: alongside the glutamate and GABA (already mapped) synapses, cholinergic acetylcholine signalling is part of the neuronal activity that drives the growth of the electrically integrated diffuse midline glioma.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Ferroptosis vulnerability: the iron-dependent lipid peroxidation of ferroptosis is a metabolic vulnerability of diffuse midline glioma (xanthine oxidase and oxidative stress already mapped), an emerging therapeutic angle in this incurable tumour.
 
 ---
 
