@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "Immunosuppressive stroma: IL-10 from the tumour-associated macrophages (already mapped) of the hamartomas and early cancers of Cowden syndrome dampens local immunity, part of the growth-permissive stroma of these PTEN-driven lesions."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages toward an M2 phenotype (IL-10 already mapped), part of the growth-permissive immunosuppressive stroma of the hamartomas and early cancers of Cowden syndrome."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the permissive stroma around the PTEN-driven lesions of Cowden syndrome."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic-cancer link: adiponectin, with leptin (already mapped), links the PTEN-PI3K-AKT metabolic pathway (insulin already mapped) to the obesity-associated cancer risk of the proliferations of Cowden syndrome."
 ---
 
 # Cowden Syndrome
@@ -735,6 +744,9 @@ cross_links:
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Metabolic overgrowth: the PI3K-AKT-mTOR pathway (already mapped) unleashed by PTEN loss intersects with leptin and the metabolic signalling (insulin already mapped) that contributes to the overgrowth and metabolic phenotype of Cowden syndrome.
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Lipid metabolism: PTEN, through the PI3K-AKT pathway (already mapped), regulates cellular lipid and cholesterol metabolism, and its loss shifts the lipid handling that supports the proliferations of Cowden syndrome.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive stroma: IL-10 from the tumour-associated macrophages (already mapped) of the hamartomas and early cancers of Cowden syndrome dampens local immunity, part of the growth-permissive stroma of these PTEN-driven lesions.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages toward an M2 phenotype (IL-10 already mapped), part of the growth-permissive immunosuppressive stroma of the hamartomas and early cancers of Cowden syndrome.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the permissive stroma around the PTEN-driven lesions of Cowden syndrome.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic-cancer link: adiponectin, with leptin (already mapped), links the PTEN-PI3K-AKT metabolic pathway (insulin already mapped) to the obesity-associated cancer risk of the proliferations of Cowden syndrome.
 
 ---
 

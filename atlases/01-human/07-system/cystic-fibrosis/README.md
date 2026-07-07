@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/cholesterol
     relation: connects-to
     note: "Fat malabsorption: the exocrine pancreatic insufficiency of cystic fibrosis causes fat malabsorption, disturbing cholesterol and essential-fatty-acid handling and the absorption of fat-soluble vitamins, part of its nutritional burden."
+  - target: 03-medicine/03-food/omega-3-fatty-acids
+    relation: connects-to
+    note: "Essential fatty-acid deficiency: the fat malabsorption (cholesterol already mapped) of cystic fibrosis depletes the omega-3 essential fatty acids and shifts the fatty-acid profile, and their supplementation is studied for the anti-inflammatory benefit in the CF airway."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Type-2 inflammation and ABPA: IL-4, with IL-13 (already mapped), drives the type-2 response that underlies the allergic bronchopulmonary aspergillosis complicating the cystic fibrosis airway."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Malnutrition and prognosis: the low body weight and cachexia of cystic fibrosis (from malabsorption and the chronic infection) disturb leptin, and the nutrition-lung-function link makes nutritional status a key prognostic factor."
 ---
 
 # Cystic Fibrosis
@@ -683,6 +692,9 @@ AND
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Airway inflammatory eicosanoids: prostaglandins from the intensely neutrophilic airway (S100A8/A9 and IL-8-type signals, IL-6 and TNF already mapped) amplify the chronic inflammation that destroys the cystic-fibrosis lung.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Malabsorption micronutrient deficiency: the exocrine pancreatic insufficiency of cystic fibrosis impairs absorption of zinc and other micronutrients, contributing to the growth failure, immune impairment and skin changes of the malnourished child.
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Fat malabsorption: the exocrine pancreatic insufficiency of cystic fibrosis causes fat malabsorption, disturbing cholesterol and essential-fatty-acid handling and the absorption of fat-soluble vitamins, part of its nutritional burden.
+- `connects-to` → **[Omega-3 fatty acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Essential fatty-acid deficiency: the fat malabsorption (cholesterol already mapped) of cystic fibrosis depletes the omega-3 essential fatty acids and shifts the fatty-acid profile, and their supplementation is studied for the anti-inflammatory benefit in the CF airway.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Type-2 inflammation and ABPA: IL-4, with IL-13 (already mapped), drives the type-2 response that underlies the allergic bronchopulmonary aspergillosis complicating the cystic fibrosis airway.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Malnutrition and prognosis: the low body weight and cachexia of cystic fibrosis (from malabsorption and the chronic infection) disturb leptin, and the nutrition-lung-function link makes nutritional status a key prognostic factor.
 
 ---
 
