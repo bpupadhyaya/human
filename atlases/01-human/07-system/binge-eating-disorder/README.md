@@ -414,6 +414,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "Zinc and appetite: zinc is required for normal taste and appetite regulation, and disturbed zinc status interacts with the leptin and neuropeptide (already mapped) signalling that governs the eating behaviour of binge-eating disorder."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Neuroimmune balance: IL-4 and the M2 microglia (already mapped) balance the neuroinflammation (TNF, IL-6 and IL-1 already mapped) increasingly implicated in the reward-circuit dysregulation of binge-eating disorder."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 arm: IL-13, with IL-4 (already mapped), is part of the type-2 cytokine response whose balance against the neuroinflammation shapes the reward-circuit signalling of binge-eating disorder."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "Glutamate and metabolic support: the astrocytes regulate the glutamate (already mapped) and provide the metabolic support of the reward and hypothalamic circuits implicated in the loss-of-control eating of binge-eating disorder."
 sources:
   - id: american-psychiatric-2013-bed-dsm5
     type: clinical-guideline
@@ -707,6 +716,9 @@ BED is among the most psychiatrically comorbid of all eating disorders:
 - `connects-to` → **[Glucagon](../../03-molecular/glucagon/README.md)** — Satiety and glucose counter-regulation: glucagon promotes satiety and, with GLP-1 (already mapped), is the target of the incretin and glucagon co-agonists being developed for the obesity and appetite dysregulation of binge-eating disorder.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Stress and social neuropeptide: vasopressin, with oxytocin and CRH (already mapped), tunes the stress response and social behaviour, systems that shape the emotional and stress eating of binge-eating disorder.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and appetite: zinc is required for normal taste and appetite regulation, and disturbed zinc status interacts with the leptin and neuropeptide (already mapped) signalling that governs the eating behaviour of binge-eating disorder.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Neuroimmune balance: IL-4 and the M2 microglia (already mapped) balance the neuroinflammation (TNF, IL-6 and IL-1 already mapped) increasingly implicated in the reward-circuit dysregulation of binge-eating disorder.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 arm: IL-13, with IL-4 (already mapped), is part of the type-2 cytokine response whose balance against the neuroinflammation shapes the reward-circuit signalling of binge-eating disorder.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Glutamate and metabolic support: the astrocytes regulate the glutamate (already mapped) and provide the metabolic support of the reward and hypothalamic circuits implicated in the loss-of-control eating of binge-eating disorder.
 
 [^american-psychiatric-2013-bed-dsm5]: American Psychiatric Association. Binge Eating Disorder (307.51). In: *Diagnostic and Statistical Manual of Mental Disorders, 5th ed.* Arlington, VA: APA; 2013. [doi:10.1176/appi.books.9780890425596](https://doi.org/10.1176/appi.books.9780890425596)
 [^mccallum-2003-bed-review]: McCallum K, Bruton AM. Binge eating disorder: eating disorder or somatic syndrome? *Prim Care Companion J Clin Psychiatry.* 2003;5(Suppl 4):20-25. [PubMed 15213784](https://pubmed.ncbi.nlm.nih.gov/15213784/)
