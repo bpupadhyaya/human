@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/glp-1
     relation: connects-to
     note: "Metabolic-thrombotic axis: the insulin resistance (already mapped) that adds an acquired prothrombotic risk disturbs the incretin GLP-1 axis, part of the metabolic-syndrome hypercoagulability compounding an inherited thrombophilia."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Thrombo-inflammation balance: IL-4 and the M2 anti-inflammatory arm (IL-10 already mapped) counter the pro-inflammatory signals (IL-6, TNF and IL-1 already mapped) of the thrombo-inflammation that amplifies clot formation in inherited thrombophilia."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Metabolic prothrombotic risk: dyslipidaemia and the metabolic syndrome (insulin and leptin already mapped) add an acquired hypercoagulable state, and the raised cholesterol contributes to the arterial as well as venous thrombotic risk in inherited thrombophilia."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Platelet zinc and contact activation: zinc released from activated platelets (already mapped) promotes the contact pathway and fibrin formation (fibrinogen and thrombin already mapped), adding to the thrombotic tendency of inherited thrombophilia."
 ---
 
 # Inherited Thrombophilia
@@ -714,6 +723,9 @@ Antithrombin (ATIII) is the primary plasma inhibitor of thrombin, FXa, FIXa, and
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative thrombogenesis: reactive oxygen species, to which xanthine oxidase contributes, promote the endothelial dysfunction and platelet activation (already mapped) that tip the balance toward thrombosis in an inherited thrombophilia.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Thrombo-inflammation balance: coagulation and inflammation are intertwined, and the anti-inflammatory IL-10 opposes the pro-inflammatory signals (IL-6, TNF and IL-1 already mapped) that amplify thrombus formation in inherited thrombophilia.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Metabolic-thrombotic axis: the insulin resistance (already mapped) that adds an acquired prothrombotic risk disturbs the incretin GLP-1 axis, part of the metabolic-syndrome hypercoagulability compounding an inherited thrombophilia.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Thrombo-inflammation balance: IL-4 and the M2 anti-inflammatory arm (IL-10 already mapped) counter the pro-inflammatory signals (IL-6, TNF and IL-1 already mapped) of the thrombo-inflammation that amplifies clot formation in inherited thrombophilia.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Metabolic prothrombotic risk: dyslipidaemia and the metabolic syndrome (insulin and leptin already mapped) add an acquired hypercoagulable state, and the raised cholesterol contributes to the arterial as well as venous thrombotic risk in inherited thrombophilia.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Platelet zinc and contact activation: zinc released from activated platelets (already mapped) promotes the contact pathway and fibrin formation (fibrinogen and thrombin already mapped), adding to the thrombotic tendency of inherited thrombophilia.
 
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)

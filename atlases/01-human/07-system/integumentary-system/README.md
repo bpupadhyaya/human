@@ -413,6 +413,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "Eccrine sweat electrolytes: aldosterone drives sodium reabsorption in the eccrine sweat ducts (acetylcholine already mapped for sweat secretion), conserving salt during heat acclimatisation, a mineralocorticoid function of the integument's sweat glands."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Skin-resident T cells: the CD4 T-helper cells resident in the skin, driving the Th17 and type-2 responses (IL-17, IL-23 and IL-13 already mapped), are central to the inflammatory diseases of the integument such as psoriasis and atopic dermatitis."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Zinc and skin integrity: zinc is essential for keratinocyte proliferation, wound healing and the many cutaneous enzymes, and its deficiency causes the acrodermatitis and impaired barrier of the integument."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Dermal macrophages: the macrophages of the dermis provide immune surveillance, clear debris and orchestrate the repair (collagen already mapped) of the skin, part of the integument's role as an immune organ."
 ---
 
 # Integumentary System
@@ -650,6 +659,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Photo-oxidative stress: ultraviolet exposure (photon already mapped) generates reactive oxygen species in the skin, to which xanthine oxidase contributes, driving the photoaging and DNA damage that the NRF2 antioxidant response (already mapped) counters.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Type-2 skin inflammation: IL-4, with IL-13 and IL-31 (already mapped), drives the itch and barrier disruption of atopic dermatitis, part of the type-2 immune axis prominent in inflammatory skin disease of the integument.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Eccrine sweat electrolytes: aldosterone drives sodium reabsorption in the eccrine sweat ducts (acetylcholine already mapped for sweat secretion), conserving salt during heat acclimatisation, a mineralocorticoid function of the integument's sweat glands.
+- `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — Skin-resident T cells: the CD4 T-helper cells resident in the skin, driving the Th17 and type-2 responses (IL-17, IL-23 and IL-13 already mapped), are central to the inflammatory diseases of the integument such as psoriasis and atopic dermatitis.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and skin integrity: zinc is essential for keratinocyte proliferation, wound healing and the many cutaneous enzymes, and its deficiency causes the acrodermatitis and impaired barrier of the integument.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Dermal macrophages: the macrophages of the dermis provide immune surveillance, clear debris and orchestrate the repair (collagen already mapped) of the skin, part of the integument's role as an immune organ.
 
 ## Pathology
 
