@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Chemotherapy anaemia: the intensive multi-agent chemotherapy and marrow involvement of Ewing sarcoma cause anaemia (haemoglobin already mapped) needing transfusion, whose repeated support can load the young survivor with iron."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Marrow-bone adipokine: leptin from the marrow adipose tissue of the bone-marrow (already mapped) microenvironment signals to the Ewing sarcoma cells, part of the bone-niche metabolic crosstalk."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Adipokine niche: adiponectin, with leptin (already mapped), from the marrow adipose tissue signals within the bone-niche microenvironment of Ewing sarcoma."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipokine milieu: resistin, with leptin and adiponectin (already mapped), completes the marrow-adipocyte adipokine signalling of the bone-niche microenvironment of Ewing sarcoma."
 ---
 
 # Ewing Sarcoma
@@ -690,6 +699,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immunologically cold microenvironment that limits checkpoint immunotherapy in Ewing sarcoma.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immunosuppressive cold microenvironment of Ewing sarcoma.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Chemotherapy anaemia: the intensive multi-agent chemotherapy and marrow involvement of Ewing sarcoma cause anaemia (haemoglobin already mapped) needing transfusion, whose repeated support can load the young survivor with iron.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Marrow-bone adipokine: leptin from the marrow adipose tissue of the bone-marrow (already mapped) microenvironment signals to the Ewing sarcoma cells, part of the bone-niche metabolic crosstalk.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine niche: adiponectin, with leptin (already mapped), from the marrow adipose tissue signals within the bone-niche microenvironment of Ewing sarcoma.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine milieu: resistin, with leptin and adiponectin (already mapped), completes the marrow-adipocyte adipokine signalling of the bone-niche microenvironment of Ewing sarcoma.
 
 ---
 

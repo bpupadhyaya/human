@@ -430,6 +430,15 @@ cross_links:
   - target: 03-medicine/03-food/omega-3-fatty-acids
     relation: connects-to
     note: "Dietary chemoprevention: omega-3 fatty acids are studied for colorectal chemoprevention, their anti-inflammatory action (prostaglandins already mapped) reducing the polyp burden alongside the NSAIDs used in familial adenomatous polyposis."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Obesity-adenoma adipokine: adiponectin, with leptin (already mapped), links the obesity-related metabolic milieu to the adenoma-carcinoma progression of familial adenomatous polyposis."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the obesity-related contribution to the polyp burden of familial adenomatous polyposis."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Iron-regulatory anaemia: hepcidin drives the iron sequestration that, with the chronic occult bleeding of the numerous adenomas (iron and haemoglobin already mapped), produces the anaemia of familial adenomatous polyposis."
 ---
 
 # Familial Adenomatous Polyposis
@@ -707,6 +716,9 @@ With modern surveillance and prophylactic colectomy: FAP is no longer an inevita
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune microenvironment of the adenomas of familial adenomatous polyposis.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the microenvironment of the numerous adenomas in familial adenomatous polyposis.
 - `connects-to` → **[Omega-3 fatty acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Dietary chemoprevention: omega-3 fatty acids are studied for colorectal chemoprevention, their anti-inflammatory action (prostaglandins already mapped) reducing the polyp burden alongside the NSAIDs used in familial adenomatous polyposis.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Obesity-adenoma adipokine: adiponectin, with leptin (already mapped), links the obesity-related metabolic milieu to the adenoma-carcinoma progression of familial adenomatous polyposis.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the obesity-related contribution to the polyp burden of familial adenomatous polyposis.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Iron-regulatory anaemia: hepcidin drives the iron sequestration that, with the chronic occult bleeding of the numerous adenomas (iron and haemoglobin already mapped), produces the anaemia of familial adenomatous polyposis.
 
 [^kinzler-1991-apc]: Kinzler KW, Nilbert MC, Su LK, et al. Identification of FAP locus genes from chromosome 5q21. *Science.* 1991;253(5020):661-665. [doi:10.1126/science.1651562](https://doi.org/10.1126/science.1651562) · [PubMed 1651562](https://pubmed.ncbi.nlm.nih.gov/1651562/)
 [^fearon-1990-vogelstein]: Fearon ER, Vogelstein B. A genetic model for colorectal tumorigenesis. *Cell.* 1990;61(5):759-767. [doi:10.1016/0092-8674(90)90186-i](https://doi.org/10.1016/0092-8674(90)90186-i) · [PubMed 2188735](https://pubmed.ncbi.nlm.nih.gov/2188735/)
