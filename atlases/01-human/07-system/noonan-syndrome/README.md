@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/il-13
     relation: connects-to
     note: "Type-2 immune arm: IL-13, with IL-4 (already mapped), completes the type-2 immune arm of the atopic tendency of the RAS-MAPK (already mapped) overactivity of Noonan syndrome."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Eosinophil atopic arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), drives the eosinophil arm of the allergic/atopic tendency of the RASopathy Noonan syndrome."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic profile of Noonan syndrome."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Metabolic adipokine: resistin, with leptin and adiponectin (already mapped), completes the adipokine dimension of the metabolic profile of Noonan syndrome."
 ---
 
 # Noonan Syndrome
@@ -717,6 +726,9 @@ NS is characterized by four cardinal features: **(1) short stature** (below 3rd 
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Growth-metabolic adipokine: leptin reflects the short stature (growth hormone and IGF-1 already mapped) and the altered growth and metabolism of Noonan syndrome.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Type-2 allergic tendency: IL-4 is part of the type-2 immune arm of the increased allergic/atopic and autoimmune tendency reported in the RASopathies including Noonan syndrome.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), completes the type-2 immune arm of the atopic tendency of the RAS-MAPK (already mapped) overactivity of Noonan syndrome.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Eosinophil atopic arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), drives the eosinophil arm of the allergic/atopic tendency of the RASopathy Noonan syndrome.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic profile of Noonan syndrome.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Metabolic adipokine: resistin, with leptin and adiponectin (already mapped), completes the adipokine dimension of the metabolic profile of Noonan syndrome.
 
 [^tartaglia-2001-ptpn11-noonan]: Tartaglia M, Mehler EL, Goldberg R, et al. Mutations in PTPN11, encoding the protein tyrosine phosphatase SHP-2, cause Noonan syndrome. *Nat Genet.* 2001;29(4):465-468. [doi:10.1038/ng772](https://doi.org/10.1038/ng772) · [PubMed 11704759](https://pubmed.ncbi.nlm.nih.gov/11704759/)
 [^van-der-burgt-2007-noonan-review]: van der Burgt I. Noonan syndrome. *Orphanet J Rare Dis.* 2007;2:4. [doi:10.1186/1750-1172-2-4](https://doi.org/10.1186/1750-1172-2-4) · [PubMed 17222357](https://pubmed.ncbi.nlm.nih.gov/17222357/)
