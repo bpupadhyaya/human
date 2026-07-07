@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/02-atomic/potassium
     relation: connects-to
     note: "Tumour-lysis hyperkalaemia: the bulky, aggressive peripheral T-cell lymphoma treated with chemotherapy can release potassium in tumour-lysis syndrome (xanthine oxidase and calcium already mapped), a metabolic emergency."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Metabolic microenvironment: leptin from the marrow and stromal adipose tissue signals within the metabolic microenvironment of peripheral T-cell lymphoma."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Adipokine microenvironment: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic microenvironment of peripheral T-cell lymphoma."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the metabolic microenvironment of peripheral T-cell lymphoma."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -712,6 +721,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Eosinophilia: IL-5, with the Th2 skewing (IL-4 and IL-13 already mapped), drives the blood and tissue eosinophilia that characterises angioimmunoblastic and other peripheral T-cell lymphomas.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 dysregulation: the Th2-driven (IL-4 and IL-13 already mapped) polyclonal hypergammaglobulinaemia and raised IgE reflect the immune dysregulation of angioimmunoblastic T-cell lymphoma.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Tumour-lysis hyperkalaemia: the bulky, aggressive peripheral T-cell lymphoma treated with chemotherapy can release potassium in tumour-lysis syndrome (xanthine oxidase and calcium already mapped), a metabolic emergency.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Metabolic microenvironment: leptin from the marrow and stromal adipose tissue signals within the metabolic microenvironment of peripheral T-cell lymphoma.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine microenvironment: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic microenvironment of peripheral T-cell lymphoma.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the metabolic microenvironment of peripheral T-cell lymphoma.
 
 ---
 

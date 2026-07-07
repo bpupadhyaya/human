@@ -436,6 +436,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Vascular inflammation: resistin, with leptin and adiponectin (already mapped), is a pro-inflammatory adipokine implicated in the pulmonary-vascular inflammation and remodelling of pulmonary arterial hypertension."
+  - target: 01-human/03-molecular/thrombin
+    relation: connects-to
+    note: "In-situ thrombosis: the in-situ thrombosis of the small pulmonary arteries (von Willebrand factor and protein C already mapped) contributes to the vascular occlusion of pulmonary arterial hypertension, the historical rationale for anticoagulation."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Interferon-associated PAH: type-I interferon, both the therapy-induced and the connective-tissue-disease (systemic sclerosis already mapped) associated, is linked to the pulmonary vascular remodelling of pulmonary arterial hypertension."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Autoimmune vascular inflammation: the CD4 T cells and the Th17/regulatory dysregulation are implicated in the pulmonary-vascular inflammation of PAH, especially the connective-tissue-disease (systemic sclerosis already mapped) associated form."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -698,6 +707,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adipokine and sex bias: leptin, with the oestrogen (already mapped) metabolism, is implicated in the female predominance and the metabolic dimension of pulmonary arterial hypertension, part of its adipokine dysregulation.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Protective adipokine: adiponectin, with leptin (already mapped), modulates the pulmonary-vascular remodelling, and its dysregulation is part of the metabolic contribution to pulmonary arterial hypertension.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Vascular inflammation: resistin, with leptin and adiponectin (already mapped), is a pro-inflammatory adipokine implicated in the pulmonary-vascular inflammation and remodelling of pulmonary arterial hypertension.
+- `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — In-situ thrombosis: the in-situ thrombosis of the small pulmonary arteries (von Willebrand factor and protein C already mapped) contributes to the vascular occlusion of pulmonary arterial hypertension, the historical rationale for anticoagulation.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Interferon-associated PAH: type-I interferon, both the therapy-induced and the connective-tissue-disease (systemic sclerosis already mapped) associated, is linked to the pulmonary vascular remodelling of pulmonary arterial hypertension.
+- `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — Autoimmune vascular inflammation: the CD4 T cells and the Th17/regulatory dysregulation are implicated in the pulmonary-vascular inflammation of PAH, especially the connective-tissue-disease (systemic sclerosis already mapped) associated form.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
