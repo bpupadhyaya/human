@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/cholesterol
     relation: connects-to
     note: "Lipid metabolic dependency: the cholesterol and lipid metabolism on which diffuse midline glioma depends is a metabolic vulnerability, alongside the ferroptosis (iron already mapped), being explored therapeutically."
+  - target: 01-human/04-cellular/microglia
+    relation: connects-to
+    note: "Tumour-associated microglia: the microglia and macrophages (CCL2 already mapped) dominate the immunosuppressive, immunologically cold microenvironment of the diffuse midline glioma."
+  - target: 01-human/07-system/glioblastoma
+    relation: connects-to
+    note: "High-grade-glioma differential: the diffuse midline glioma (H3K27M already mapped) is a distinct WHO-grade-4 midline glioma, molecularly separate from the adult, IDH-wildtype glioblastoma."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Palliative radiotherapy: the focal photon radiotherapy is the only standard treatment of the diffuse midline glioma, providing the temporary response of the incurable tumour."
 ---
 
 # Diffuse Midline Glioma
@@ -718,6 +727,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Serotonergic neuromodulation: serotonin modulates the neuron-glioma (glutamate, GABA and dopamine already mapped) circuits whose activity drives the growth of the electrically integrated diffuse midline glioma.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Noradrenergic input: noradrenaline is part of the neuronal-activity-dependent (glutamate already mapped) signalling that stimulates the proliferation of diffuse midline glioma.
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Lipid metabolic dependency: the cholesterol and lipid metabolism on which diffuse midline glioma depends is a metabolic vulnerability, alongside the ferroptosis (iron already mapped), being explored therapeutically.
+- `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Tumour-associated microglia: the microglia and macrophages (CCL2 already mapped) dominate the immunosuppressive, immunologically cold microenvironment of the diffuse midline glioma.
+- `connects-to` → **[Glioblastoma](../glioblastoma/README.md)** — High-grade-glioma differential: the diffuse midline glioma (H3K27M already mapped) is a distinct WHO-grade-4 midline glioma, molecularly separate from the adult, IDH-wildtype glioblastoma.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Palliative radiotherapy: the focal photon radiotherapy is the only standard treatment of the diffuse midline glioma, providing the temporary response of the incurable tumour.
 
 ---
 

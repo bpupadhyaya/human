@@ -445,6 +445,15 @@ cross_links:
   - target: 01-human/03-molecular/type-i-interferon
     relation: connects-to
     note: "Innate immunothrombosis: type-I interferon is part of the innate-immune signalling of the viral and inflammatory (IL-6 already mapped) triggers of DIC, contributing to the immunothrombotic host response."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Immunothrombosis NETs: the neutrophils release the NETs (S100A8/9 already mapped) that scaffold the microthrombi, the immunothrombosis driving the disseminated intravascular coagulation."
+  - target: 01-human/07-system/aml
+    relation: connects-to
+    note: "APL emergency: the acute promyelocytic leukaemia (a subtype of AML) classically presents with the severe DIC (the procoagulant granules), a haematological emergency."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Microthrombotic AKI: the fibrin microthrombi (thrombin already mapped) lodge in the kidney, causing the acute kidney injury and the organ dysfunction of DIC."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -718,6 +727,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Inflammatory adipokine: leptin, with resistin (already mapped), rises in the acute inflammation (IL-6 already mapped) of the sepsis (already mapped) and severe conditions that trigger the consumptive coagulopathy of DIC.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine axis: adiponectin, with leptin and resistin (already mapped), completes the adipokine axis of the systemic inflammation driving the disseminated intravascular coagulation.
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate immunothrombosis: type-I interferon is part of the innate-immune signalling of the viral and inflammatory (IL-6 already mapped) triggers of DIC, contributing to the immunothrombotic host response.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Immunothrombosis NETs: the neutrophils release the NETs (S100A8/9 already mapped) that scaffold the microthrombi, the immunothrombosis driving the disseminated intravascular coagulation.
+- `connects-to` → **[AML](../aml/README.md)** — APL emergency: the acute promyelocytic leukaemia (a subtype of AML) classically presents with the severe DIC (the procoagulant granules), a haematological emergency.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Microthrombotic AKI: the fibrin microthrombi (thrombin already mapped) lodge in the kidney, causing the acute kidney injury and the organ dysfunction of DIC.
 
 ---
 
