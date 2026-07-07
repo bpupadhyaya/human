@@ -427,6 +427,15 @@ cross_links:
   - target: 01-human/03-molecular/endothelin-1
     relation: connects-to
     note: "Hypoxic pulmonary hypertension: hypoxia (HIF-1-alpha already mapped) raises endothelin-1, constricting the pulmonary vasculature to produce the pulmonary hypertension and cor pulmonale (troponin already mapped) of advanced COPD."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Type-2 eosinophilic arm: IL-4, with IL-13 and IL-5 (already mapped), drives the type-2 eosinophilic inflammation of the COPD subset whose blood eosinophils guide the inhaled-corticosteroid (glucocorticoid receptor already mapped) response."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Cachexia and adipokines: the systemic inflammation (TNF and IL-6 already mapped) of COPD disturbs leptin and the adipokine balance, contributing to the muscle wasting and cachexia that worsen the prognosis of advanced disease."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Iron dysregulation: the hypoxia (HIF-1-alpha already mapped) and chronic inflammation of COPD disturb iron handling, producing either the anaemia of chronic disease or, with hypoxaemia, the secondary polycythaemia (erythropoietin already mapped)."
 ---
 
 # COPD
@@ -706,6 +715,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Airway inflammatory eicosanoids: prostaglandins from the inflamed airway (IL-6, TNF and IL-1 already mapped) contribute to the inflammation and mucus of COPD, and prostaglandin E2 has complex effects on the airway smooth muscle and cough.
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Eosinophilic phenotype: IL-5, with IL-13 (already mapped), drives the eosinophilic inflammation of a COPD subset, the blood eosinophil count guiding inhaled-corticosteroid (glucocorticoid receptor already mapped) use and anti-IL-5 biologic trials.
 - `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Hypoxic pulmonary hypertension: hypoxia (HIF-1-alpha already mapped) raises endothelin-1, constricting the pulmonary vasculature to produce the pulmonary hypertension and cor pulmonale (troponin already mapped) of advanced COPD.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Type-2 eosinophilic arm: IL-4, with IL-13 and IL-5 (already mapped), drives the type-2 eosinophilic inflammation of the COPD subset whose blood eosinophils guide the inhaled-corticosteroid (glucocorticoid receptor already mapped) response.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Cachexia and adipokines: the systemic inflammation (TNF and IL-6 already mapped) of COPD disturbs leptin and the adipokine balance, contributing to the muscle wasting and cachexia that worsen the prognosis of advanced disease.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron dysregulation: the hypoxia (HIF-1-alpha already mapped) and chronic inflammation of COPD disturb iron handling, producing either the anaemia of chronic disease or, with hypoxaemia, the secondary polycythaemia (erythropoietin already mapped).
 
 ---
 

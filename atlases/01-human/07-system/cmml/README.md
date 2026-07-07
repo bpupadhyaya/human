@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/prostaglandins
     relation: connects-to
     note: "Autoinflammatory eicosanoids: prostaglandins from the clonal monocytes (already mapped) amplify the inflammation (IL-1, TNF and NLRP3 already mapped) behind the systemic autoinflammatory syndromes that frequently accompany CMML."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Monocyte-macrophage polarisation: IL-4 polarises the clonal monocytes and macrophages (already mapped) toward an M2 phenotype (IL-10 already mapped), shaping the inflammatory and immunosuppressive milieu of CMML."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Dysgranulopoiesis: alongside the defining monocytosis, the dysplastic neutrophils (S100A8/9 already mapped) of the marrow dysplasia reflect the myeloid lineage involvement of the MDS/MPN overlap in CMML."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Transfusional iron overload: the transfusion-dependent anaemia (haemoglobin and erythropoietin already mapped) of CMML loads the body with iron over time, an overload burden that can require chelation."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -681,6 +690,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Anaemia and ESAs: the ineffective erythropoiesis of the dysplastic CMML marrow causes anaemia (haemoglobin already mapped), and erythropoiesis-stimulating agents raising erythropoietin are used in lower-risk disease to reduce transfusion need.
 - `connects-to` → **[Thrombopoietin](../../03-molecular/thrombopoietin/README.md)** — Thrombocytopenia and dysplasia: the dysplastic megakaryocytes of CMML disturb thrombopoietin-driven platelet production, contributing to the thrombocytopenia that complicates the disease and its treatment.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Autoinflammatory eicosanoids: prostaglandins from the clonal monocytes (already mapped) amplify the inflammation (IL-1, TNF and NLRP3 already mapped) behind the systemic autoinflammatory syndromes that frequently accompany CMML.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Monocyte-macrophage polarisation: IL-4 polarises the clonal monocytes and macrophages (already mapped) toward an M2 phenotype (IL-10 already mapped), shaping the inflammatory and immunosuppressive milieu of CMML.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Dysgranulopoiesis: alongside the defining monocytosis, the dysplastic neutrophils (S100A8/9 already mapped) of the marrow dysplasia reflect the myeloid lineage involvement of the MDS/MPN overlap in CMML.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Transfusional iron overload: the transfusion-dependent anaemia (haemoglobin and erythropoietin already mapped) of CMML loads the body with iron over time, an overload burden that can require chelation.
 
 ---
 
