@@ -402,6 +402,15 @@ cross_links:
   - target: 01-human/03-molecular/melatonin
     relation: connects-to
     note: "Analgesia and sleep: melatonin has analgesic and anti-inflammatory effects and restores the sleep disrupted by chronic pain (serotonin already mapped), and the pain-sleep loop it addresses is central to the burden of neuropathic pain."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Calcium channels and the α2δ target: voltage-gated calcium channels drive the neurotransmitter release (glutamate already mapped) of pain signalling, and their α2δ subunit is the target of gabapentin and pregabalin used for neuropathic pain."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "Astrocytic sensitisation: reactive astrocytes, with the microglia (already mapped), sustain central sensitisation in the dorsal horn through gap junctions (connexin43 already mapped) and gliotransmitters, maintaining chronic neuropathic pain."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Central pain and affect: the brain reorganises in chronic neuropathic pain, with thalamocortical changes and the affective and cognitive dimensions (serotonin and noradrenaline already mapped) that the SNRIs and psychological therapies address."
 sources:
   - id: jensen-2011-neuropathic-pain-review
     type: peer-reviewed
@@ -693,6 +702,9 @@ Chronic neuropathic pain carries significant psychological burden:
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Nociceptor sensitisation: bradykinin acting on B1 and B2 receptors, induced after nerve injury and inflammation, sensitises nociceptors and lowers their firing threshold (prostaglandins and substance P already mapped), amplifying neuropathic pain.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 neuroimmune resolution: IL-13, with IL-4 (already mapped), polarises macrophages toward a reparative phenotype at the injured nerve, part of the neuroimmune balance that influences whether pain resolves or becomes chronic.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Analgesia and sleep: melatonin has analgesic and anti-inflammatory effects and restores the sleep disrupted by chronic pain (serotonin already mapped), and the pain-sleep loop it addresses is central to the burden of neuropathic pain.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium channels and the α2δ target: voltage-gated calcium channels drive the neurotransmitter release (glutamate already mapped) of pain signalling, and their α2δ subunit is the target of gabapentin and pregabalin used for neuropathic pain.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Astrocytic sensitisation: reactive astrocytes, with the microglia (already mapped), sustain central sensitisation in the dorsal horn through gap junctions (connexin43 already mapped) and gliotransmitters, maintaining chronic neuropathic pain.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Central pain and affect: the brain reorganises in chronic neuropathic pain, with thalamocortical changes and the affective and cognitive dimensions (serotonin and noradrenaline already mapped) that the SNRIs and psychological therapies address.
 
 [^jensen-2011-neuropathic-pain-review]: Jensen TS, Baron R, Haanpää M, et al. A new definition of neuropathic pain. *Pain.* 2011;152(10):2204-2205. [doi:10.1016/j.pain.2011.06.017](https://doi.org/10.1016/j.pain.2011.06.017) · [PubMed 21764514](https://pubmed.ncbi.nlm.nih.gov/21764514/)
 [^dworkin-2010-neuropathic-pain-treatment]: Dworkin RH, O'Connor AB, Audette J, et al. Recommendations for the pharmacological management of neuropathic pain. *Mayo Clin Proc.* 2010;85(3 Suppl):S3-14. [doi:10.4065/mcp.2009.0649](https://doi.org/10.4065/mcp.2009.0649) · [PubMed 20194146](https://pubmed.ncbi.nlm.nih.gov/20194146/)

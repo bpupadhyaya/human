@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/prostaglandins
     relation: connects-to
     note: "Inflammatory eicosanoids: prostaglandins and related lipid mediators from the inflamed, fat-laden liver contribute to the inflammation of steatohepatitis (IL-6, TNF and IL-1 already mapped), part of the lipotoxic inflammatory injury of NASH."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "The metabolic driver: obesity drives the hepatic steatosis and insulin resistance (leptin, adiponectin and resistin already mapped) that underlie NASH, the liver being the hepatic manifestation of the metabolic syndrome."
+  - target: 01-human/07-system/hcc
+    relation: connects-to
+    note: "Cirrhosis to cancer: NASH cirrhosis is a rapidly rising cause of hepatocellular carcinoma, and NASH-HCC can arise even without cirrhosis, driven by the chronic lipotoxic inflammation (TGF-β already mapped) of the disease."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Dysmetabolic iron overload: NASH disturbs iron handling (hepcidin already mapped), and the hepatic iron accumulation of the dysmetabolic iron-overload syndrome aggravates the oxidative injury and fibrosis of steatohepatitis."
 ---
 
 # NASH
@@ -644,6 +653,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Endothelial and portal dysfunction: as NASH progresses to cirrhosis, dysregulated nitric oxide contributes to the intrahepatic endothelial dysfunction and the splanchnic vasodilation of portal hypertension (collagen already mapped for fibrosis).
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — RAAS and fibrosis: aldosterone, part of the renin-angiotensin system, promotes hepatic stellate-cell activation and fibrosis in NASH (TGF-beta already mapped), and it also drives the hypertension of the accompanying metabolic syndrome.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Inflammatory eicosanoids: prostaglandins and related lipid mediators from the inflamed, fat-laden liver contribute to the inflammation of steatohepatitis (IL-6, TNF and IL-1 already mapped), part of the lipotoxic inflammatory injury of NASH.
+- `connects-to` → **[Obesity](../obesity/README.md)** — The metabolic driver: obesity drives the hepatic steatosis and insulin resistance (leptin, adiponectin and resistin already mapped) that underlie NASH, the liver being the hepatic manifestation of the metabolic syndrome.
+- `connects-to` → **[HCC](../hcc/README.md)** — Cirrhosis to cancer: NASH cirrhosis is a rapidly rising cause of hepatocellular carcinoma, and NASH-HCC can arise even without cirrhosis, driven by the chronic lipotoxic inflammation (TGF-β already mapped) of the disease.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Dysmetabolic iron overload: NASH disturbs iron handling (hepcidin already mapped), and the hepatic iron accumulation of the dysmetabolic iron-overload syndrome aggravates the oxidative injury and fibrosis of steatohepatitis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
