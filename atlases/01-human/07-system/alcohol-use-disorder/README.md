@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/03-molecular/leptin
     relation: connects-to
     note: "Adipokine and metabolism: alcohol alters the adipokine leptin of the appetite and craving and the metabolic (insulin already mapped) dysregulation, part of the systemic and hepatic metabolic disturbance of alcohol use disorder."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Hepatoprotective adipokine: adiponectin, with leptin (already mapped), is the hepatoprotective adipokine whose fall in the alcoholic liver disease promotes the steatosis and the fibrosis."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the alcoholic steatohepatitis and the metabolic disturbance of alcohol use disorder."
+  - target: 01-human/07-system/cannabis-use-disorder
+    relation: connects-to
+    note: "Polysubstance comorbidity: alcohol and cannabis use disorders commonly co-occur (with the opioid use disorder already mapped), the shared reward-circuit (dopamine already mapped) addiction vulnerability."
 ---
 
 # Alcohol Use Disorder
@@ -771,6 +780,9 @@ Prenatal alcohol exposure → leading preventable cause of intellectual disabili
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Profibrotic type-2 arm: IL-13, with IL-4 (already mapped), drives the M2 macrophage (already mapped) and profibrotic (TGF-β already mapped) response of the alcoholic liver fibrosis in alcohol use disorder.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Hepatic stellate cells: the fibroblast-like hepatic stellate cells, activated (TGF-β and IL-13 already mapped) by the alcoholic liver injury, lay down the collagen (already mapped) fibrosis that progresses to cirrhosis.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adipokine and metabolism: alcohol alters the adipokine leptin of the appetite and craving and the metabolic (insulin already mapped) dysregulation, part of the systemic and hepatic metabolic disturbance of alcohol use disorder.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Hepatoprotective adipokine: adiponectin, with leptin (already mapped), is the hepatoprotective adipokine whose fall in the alcoholic liver disease promotes the steatosis and the fibrosis.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the alcoholic steatohepatitis and the metabolic disturbance of alcohol use disorder.
+- `connects-to` → **[Cannabis use disorder](../cannabis-use-disorder/README.md)** — Polysubstance comorbidity: alcohol and cannabis use disorders commonly co-occur (with the opioid use disorder already mapped), the shared reward-circuit (dopamine already mapped) addiction vulnerability.
 
 [^koob-2013-addiction-neuroscience]: Koob GF, Volkow ND. Neurocircuitry of addiction. *Neuropsychopharmacology.* 2010;35(1):217-238. [doi:10.1038/npp.2009.110](https://doi.org/10.1038/npp.2009.110) · [PubMed 19710631](https://pubmed.ncbi.nlm.nih.gov/19710631/)
 [^anton-2006-combine]: Anton RF, O'Malley SS, Ciraulo DA, et al. Combined pharmacotherapies and behavioral interventions for alcohol dependence: the COMBINE study. *JAMA.* 2006;295(17):2003-2017. [doi:10.1001/jama.295.17.2003](https://doi.org/10.1001/jama.295.17.2003) · [PubMed 16670409](https://pubmed.ncbi.nlm.nih.gov/16670409/)

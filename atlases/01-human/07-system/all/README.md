@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Marrow-adipocyte adipokine: resistin, with leptin and adiponectin (already mapped), is part of the marrow-adipocyte adipokine crosstalk that shapes the leukaemic niche and the chemoresistance of acute lymphoblastic leukaemia."
+  - target: 01-human/07-system/cml
+    relation: connects-to
+    note: "Ph+ overlap: the Ph+ (BCR-ABL — ABL1 already mapped) ALL and the CML (lymphoid blast crisis) share the BCR-ABL fusion and the TKI (imatinib) therapy."
+  - target: 01-human/07-system/burkitt-lymphoma
+    relation: connects-to
+    note: "Mature-B malignancy: the Burkitt lymphoma/leukaemia (MYC already mapped, the L3/mature-B ALL) is a related aggressive B-cell malignancy of the ALL spectrum."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Transfusion iron: the transfusion-dependent anaemia (haemoglobin already mapped) of the ALL and its chemotherapy loads the body with iron."
 ---
 
 # Acute Lymphoblastic Leukemia
@@ -719,6 +728,9 @@ Childhood ALL survivors (now majority of patients): neurocognitive impairment (M
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Tumour-lysis hypocalcaemia: the hyperphosphataemia of the tumour lysis syndrome at ALL induction binds calcium, causing the hypocalcaemia that accompanies the hyperkalaemia (already mapped) and needs monitoring.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — M2 marrow niche: IL-13, with IL-4 (already mapped), sustains the M2 marrow macrophages of the immunosuppressive niche that shelters the lymphoblasts of acute lymphoblastic leukaemia.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Marrow-adipocyte adipokine: resistin, with leptin and adiponectin (already mapped), is part of the marrow-adipocyte adipokine crosstalk that shapes the leukaemic niche and the chemoresistance of acute lymphoblastic leukaemia.
+- `connects-to` → **[CML](../cml/README.md)** — Ph+ overlap: the Ph+ (BCR-ABL — ABL1 already mapped) ALL and the CML (lymphoid blast crisis) share the BCR-ABL fusion and the TKI (imatinib) therapy.
+- `connects-to` → **[Burkitt lymphoma](../burkitt-lymphoma/README.md)** — Mature-B malignancy: the Burkitt lymphoma/leukaemia (MYC already mapped, the L3/mature-B ALL) is a related aggressive B-cell malignancy of the ALL spectrum.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Transfusion iron: the transfusion-dependent anaemia (haemoglobin already mapped) of the ALL and its chemotherapy loads the body with iron.
 
 [^pui-2018-all-cure]: Pui CH, Yang JJ, Bhakta N, et al. Global efforts toward the cure of childhood acute lymphoblastic leukemia. *Lancet Child Adolesc Health.* 2018;2(6):440-454. [doi:10.1016/S2352-4642(18)30066-X](https://doi.org/10.1016/S2352-4642(18)30066-X) · [PubMed 29976322](https://pubmed.ncbi.nlm.nih.gov/29976322/)
 [^maude-2018-tisagenlecleucel]: Maude SL, Laetsch TW, Buechner J, et al. Tisagenlecleucel in children and young adults with B-cell lymphoblastic leukemia. *N Engl J Med.* 2018;378(5):439-448. [doi:10.1056/NEJMoa1709866](https://doi.org/10.1056/NEJMoa1709866) · [PubMed 29385370](https://pubmed.ncbi.nlm.nih.gov/29385370/)
