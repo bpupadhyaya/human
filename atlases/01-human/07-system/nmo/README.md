@@ -427,6 +427,15 @@ cross_links:
   - target: 01-human/03-molecular/prostaglandins
     relation: connects-to
     note: "Inflammatory eicosanoids: prostaglandins from the acute inflammatory infiltrate (IL-6 and TNF already mapped) of the neuromyelitis optica lesion contribute to the inflammation and blood-brain-barrier disruption of an attack."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Magnesium and excitotoxicity: magnesium blocks the NMDA receptor and buffers the glutamate (already mapped) excitotoxicity released when astrocytes (already mapped) are destroyed in the neuromyelitis optica lesion, a neuroprotective ion."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Vitamin D and autoimmunity: low vitamin D status is associated with neuromyelitis optica and other autoimmune demyelinating disease, its immunomodulation of the T- and B-cell response (type-I interferon already mapped) influencing risk and activity."
+  - target: 03-medicine/03-food/omega-3-fatty-acids
+    relation: connects-to
+    note: "Omega-3 and inflammation resolution: the omega-3 fatty acids give rise to specialised pro-resolving mediators that counter the inflammatory eicosanoids (prostaglandins already mapped), studied as an adjunct in autoimmune neuroinflammation such as neuromyelitis optica."
 ---
 
 # NMOSD
@@ -709,6 +718,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Excitotoxic injury: nitric oxide, generated in the inflamed lesion, contributes with glutamate excitotoxicity (already mapped) to the astrocyte and secondary neuronal injury of neuromyelitis optica after the antibody and complement attack.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative lesion injury: reactive oxygen species, to which xanthine oxidase contributes, amplify the tissue damage in the acute neuromyelitis optica lesion, adding oxidative stress to the complement-mediated (already mapped) astrocyte destruction.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Inflammatory eicosanoids: prostaglandins from the acute inflammatory infiltrate (IL-6 and TNF already mapped) of the neuromyelitis optica lesion contribute to the inflammation and blood-brain-barrier disruption of an attack.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium and excitotoxicity: magnesium blocks the NMDA receptor and buffers the glutamate (already mapped) excitotoxicity released when astrocytes (already mapped) are destroyed in the neuromyelitis optica lesion, a neuroprotective ion.
+- `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D and autoimmunity: low vitamin D status is associated with neuromyelitis optica and other autoimmune demyelinating disease, its immunomodulation of the T- and B-cell response (type-I interferon already mapped) influencing risk and activity.
+- `connects-to` → **[Omega-3 fatty acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Omega-3 and inflammation resolution: the omega-3 fatty acids give rise to specialised pro-resolving mediators that counter the inflammatory eicosanoids (prostaglandins already mapped), studied as an adjunct in autoimmune neuroinflammation such as neuromyelitis optica.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)
