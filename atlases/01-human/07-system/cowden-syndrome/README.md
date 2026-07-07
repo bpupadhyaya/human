@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Metabolic-cancer link: adiponectin, with leptin (already mapped), links the PTEN-PI3K-AKT metabolic pathway (insulin already mapped) to the obesity-associated cancer risk of the proliferations of Cowden syndrome."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipokine-cancer milieu: resistin, with leptin and adiponectin (already mapped), links the PTEN-PI3K (already mapped) metabolic pathway to the obesity-associated cancer risk of Cowden syndrome."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Thyroid selenoproteins: selenium supports the selenoprotein deiodinase and antioxidant function of the thyroid (already mapped), the site of the nodular disease and cancer of Cowden syndrome."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "Hamartoma stroma: PDGF drives the mesenchymal and stromal proliferation (collagen already mapped) of the hamartomas of Cowden syndrome, part of the PTEN (already mapped)-driven overgrowth."
 ---
 
 # Cowden Syndrome
@@ -747,6 +756,9 @@ cross_links:
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises the tumour-associated macrophages toward an M2 phenotype (IL-10 already mapped), part of the growth-permissive immunosuppressive stroma of the hamartomas and early cancers of Cowden syndrome.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the permissive stroma around the PTEN-driven lesions of Cowden syndrome.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic-cancer link: adiponectin, with leptin (already mapped), links the PTEN-PI3K-AKT metabolic pathway (insulin already mapped) to the obesity-associated cancer risk of the proliferations of Cowden syndrome.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine-cancer milieu: resistin, with leptin and adiponectin (already mapped), links the PTEN-PI3K (already mapped) metabolic pathway to the obesity-associated cancer risk of Cowden syndrome.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Thyroid selenoproteins: selenium supports the selenoprotein deiodinase and antioxidant function of the thyroid (already mapped), the site of the nodular disease and cancer of Cowden syndrome.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Hamartoma stroma: PDGF drives the mesenchymal and stromal proliferation (collagen already mapped) of the hamartomas of Cowden syndrome, part of the PTEN (already mapped)-driven overgrowth.
 
 ---
 

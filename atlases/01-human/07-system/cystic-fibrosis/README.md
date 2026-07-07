@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/03-molecular/leptin
     relation: connects-to
     note: "Malnutrition and prognosis: the low body weight and cachexia of cystic fibrosis (from malabsorption and the chronic infection) disturb leptin, and the nutrition-lung-function link makes nutritional status a key prognostic factor."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Malnutrition adipokine: adiponectin, with leptin (already mapped), is part of the adipokine disturbance of the malnutrition and the CF-related metabolic dysregulation (insulin already mapped) of cystic fibrosis."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory milieu to the chronic inflammation (IL-6 already mapped) and nutritional disturbance of cystic fibrosis."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Anaemia of chronic disease: hepcidin, driven by the chronic infection and inflammation (IL-6 already mapped), sequesters iron (already mapped) and produces the anaemia of chronic disease of cystic fibrosis."
 ---
 
 # Cystic Fibrosis
@@ -695,6 +704,9 @@ AND
 - `connects-to` → **[Omega-3 fatty acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Essential fatty-acid deficiency: the fat malabsorption (cholesterol already mapped) of cystic fibrosis depletes the omega-3 essential fatty acids and shifts the fatty-acid profile, and their supplementation is studied for the anti-inflammatory benefit in the CF airway.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Type-2 inflammation and ABPA: IL-4, with IL-13 (already mapped), drives the type-2 response that underlies the allergic bronchopulmonary aspergillosis complicating the cystic fibrosis airway.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Malnutrition and prognosis: the low body weight and cachexia of cystic fibrosis (from malabsorption and the chronic infection) disturb leptin, and the nutrition-lung-function link makes nutritional status a key prognostic factor.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Malnutrition adipokine: adiponectin, with leptin (already mapped), is part of the adipokine disturbance of the malnutrition and the CF-related metabolic dysregulation (insulin already mapped) of cystic fibrosis.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory milieu to the chronic inflammation (IL-6 already mapped) and nutritional disturbance of cystic fibrosis.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of chronic disease: hepcidin, driven by the chronic infection and inflammation (IL-6 already mapped), sequesters iron (already mapped) and produces the anaemia of chronic disease of cystic fibrosis.
 
 ---
 
