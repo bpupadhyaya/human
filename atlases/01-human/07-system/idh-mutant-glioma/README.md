@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/norepinephrine
     relation: connects-to
     note: "Noradrenergic input: noradrenaline is part of the neuronal-activity-dependent (glutamate already mapped) signalling that stimulates the proliferation of IDH-mutant glioma."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Cold-tumour interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, is suppressed by the 2-hydroxyglutarate (IDH already mapped), contributing to the immunologically cold microenvironment of IDH-mutant glioma."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells is dampened by the 2-hydroxyglutarate (IDH already mapped) immunosuppression of IDH-mutant glioma."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) response opposing the immunosuppressive, oncometabolite-driven (IDH already mapped) microenvironment of IDH-mutant glioma."
 ---
 
 # IDH-Mutant Glioma
@@ -711,6 +720,9 @@ IDH-mutant glioma with MGMT methylation shows strong alkylating agent sensitivit
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Lipid metabolic reprogramming: the cholesterol and lipid metabolism of the IDH-mutant glioma, part of the metabolic reprogramming driven by the 2-hydroxyglutarate (IDH already mapped), is a therapeutic vulnerability.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Serotonergic neuromodulation: serotonin modulates the neuron-glioma (glutamate, GABA and acetylcholine already mapped) circuits whose activity drives the growth of IDH-mutant glioma.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Noradrenergic input: noradrenaline is part of the neuronal-activity-dependent (glutamate already mapped) signalling that stimulates the proliferation of IDH-mutant glioma.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Cold-tumour interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, is suppressed by the 2-hydroxyglutarate (IDH already mapped), contributing to the immunologically cold microenvironment of IDH-mutant glioma.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells is dampened by the 2-hydroxyglutarate (IDH already mapped) immunosuppression of IDH-mutant glioma.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) response opposing the immunosuppressive, oncometabolite-driven (IDH already mapped) microenvironment of IDH-mutant glioma.
 
 [^mellinghoff-2023-vorasidenib-lgg]: Mellinghoff IK, van den Bent MJ, Blumenthal DT, et al. Vorasidenib in IDH1- or IDH2-mutant low-grade glioma. *N Engl J Med.* 2023;389(7):589-601. [doi:10.1056/NEJMoa2304194](https://doi.org/10.1056/NEJMoa2304194) · [PubMed 37272530](https://pubmed.ncbi.nlm.nih.gov/37272530/)
 [^jiao-2012-atrx-glioma]: Jiao Y, Killela PJ, Reitman ZJ, et al. Frequent ATRX, CIC, FUBP1 and IDH mutations refine the classification of malignant gliomas. *Oncotarget.* 2012;3(7):709-722. [doi:10.18632/oncotarget.588](https://doi.org/10.18632/oncotarget.588) · [PubMed 22869205](https://pubmed.ncbi.nlm.nih.gov/22869205/)

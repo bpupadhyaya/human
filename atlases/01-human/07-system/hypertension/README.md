@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/serotonin
     relation: connects-to
     note: "Serotonergic vascular tone: serotonin modulates the vascular tone and the central sympathetic (norepinephrine already mapped) control of the blood pressure in hypertension."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "T-cell hypertension: the IFN-γ of the T cells (IL-17 already mapped) infiltrating the vasculature and the kidney contributes to the immune/inflammatory component of hypertension."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Isoketal antigen presentation: the dendritic cells present the isolevuglandin-modified neoantigens that activate the T cells (IFN-γ already mapped) of the immune/inflammatory hypertension."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate vascular interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, is part of the innate-immune vascular inflammation implicated in hypertension."
 ---
 
 # Hypertension
@@ -670,6 +679,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Type-2 immune counter: IL-4 and the type-2 arm counter the pro-hypertensive Th17 (IL-17 already mapped) and inflammatory T-cell (TNF and IL-6 already mapped) response implicated in the vascular inflammation of hypertension.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), is part of the type-2 immune arm balancing the T-cell-driven vascular inflammation of hypertension.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Serotonergic vascular tone: serotonin modulates the vascular tone and the central sympathetic (norepinephrine already mapped) control of the blood pressure in hypertension.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — T-cell hypertension: the IFN-γ of the T cells (IL-17 already mapped) infiltrating the vasculature and the kidney contributes to the immune/inflammatory component of hypertension.
+- `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Isoketal antigen presentation: the dendritic cells present the isolevuglandin-modified neoantigens that activate the T cells (IFN-γ already mapped) of the immune/inflammatory hypertension.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate vascular interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, is part of the innate-immune vascular inflammation implicated in hypertension.
 
 ## Pathology
 
