@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/03-molecular/hepcidin
     relation: connects-to
     note: "Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin sequesters iron (already mapped) to add an anaemia of chronic disease to the metastatic-burden anaemia (haemoglobin already mapped) of advanced uveal melanoma."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Metastatic-niche adipokine: leptin, the adipokine of the metabolic microenvironment, signals within the hepatic (liver already mapped) metastatic niche of uveal melanoma."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin (already mapped), is the adipokine of the metabolic milieu of uveal melanoma."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the uveal-melanoma microenvironment."
 ---
 
 # Uveal Melanoma
@@ -704,6 +713,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage (already mapped) and type-2 milieu of the immune-privileged (TGF-β already mapped) microenvironment of uveal melanoma.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Melanocyte metals: zinc supports the enzymes of melanogenesis and the melanocyte function, part of the trace-metal biology (copper already mapped) of the uveal melanocytes from which uveal melanoma arises.
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin sequesters iron (already mapped) to add an anaemia of chronic disease to the metastatic-burden anaemia (haemoglobin already mapped) of advanced uveal melanoma.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Metastatic-niche adipokine: leptin, the adipokine of the metabolic microenvironment, signals within the hepatic (liver already mapped) metastatic niche of uveal melanoma.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is the adipokine of the metabolic milieu of uveal melanoma.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the uveal-melanoma microenvironment.
 
 ---
 

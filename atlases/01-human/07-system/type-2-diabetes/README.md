@@ -436,6 +436,15 @@ cross_links:
   - target: 01-human/02-atomic/potassium
     relation: connects-to
     note: "KATP channel: the ATP-sensitive potassium channel of the β-cell closes on glucose rise to depolarise the cell and trigger insulin (already mapped) release, the target of the sulfonylureas used in type 2 diabetes."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Iron and insulin resistance: hepcidin, the iron-regulatory hormone; the iron overload (the ferritin, an IL-6-driven already-mapped marker) is associated with the insulin (already mapped) resistance of type 2 diabetes."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Selenoprotein-P hepatokine: selenium's selenoprotein-P (SELENOP), secreted by the liver (already mapped), acts as a hepatokine that impairs the insulin (already mapped) signalling, linking the selenium status to type 2 diabetes."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Central energy control: the brain's hypothalamic appetite and energy regulation (leptin, ghrelin and insulin already mapped) is central to type 2 diabetes, which also raises the risk of vascular dementia and cognitive decline."
 ---
 
 # Type 2 Diabetes
@@ -678,6 +687,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Adipose M2 maintenance: IL-13, with IL-4 (already mapped), sustains the anti-inflammatory M2 macrophages of healthy adipose tissue, and the loss of this type-2 signalling drives the inflammation and insulin resistance of type 2 diabetes.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Insulin secretion trigger: the calcium influx into the β-cell triggers the exocytosis of the insulin (already mapped) granules, the calcium signalling of the glucose-stimulated insulin secretion that fails in type 2 diabetes.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — KATP channel: the ATP-sensitive potassium channel of the β-cell closes on glucose rise to depolarise the cell and trigger insulin (already mapped) release, the target of the sulfonylureas used in type 2 diabetes.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Iron and insulin resistance: hepcidin, the iron-regulatory hormone; the iron overload (the ferritin, an IL-6-driven already-mapped marker) is associated with the insulin (already mapped) resistance of type 2 diabetes.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Selenoprotein-P hepatokine: selenium's selenoprotein-P (SELENOP), secreted by the liver (already mapped), acts as a hepatokine that impairs the insulin (already mapped) signalling, linking the selenium status to type 2 diabetes.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Central energy control: the brain's hypothalamic appetite and energy regulation (leptin, ghrelin and insulin already mapped) is central to type 2 diabetes, which also raises the risk of vascular dementia and cognitive decline.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
