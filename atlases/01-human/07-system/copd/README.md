@@ -445,6 +445,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Systemic inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory milieu to the systemic inflammation (IL-6 already mapped) of COPD."
+  - target: 01-human/07-system/asthma
+    relation: connects-to
+    note: "ACOS overlap: the asthma-COPD overlap shares the airway inflammation (the eosinophilic — IL-5 already mapped, and the neutrophilic — IL-17 already mapped) and the bronchodilator/ICS therapy."
+  - target: 01-human/07-system/pulmonary-arterial-hypertension
+    relation: connects-to
+    note: "Cor pulmonale: the chronic hypoxia (HIF and EPO already mapped) and the vascular remodelling (endothelin already mapped) of COPD cause the pulmonary hypertension and the cor pulmonale."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: connects-to
+    note: "Airway/vascular remodelling: the airway smooth muscle (acetylcholine already mapped — the bronchoconstriction) and the pulmonary-vascular smooth-muscle remodelling contribute to the airflow limitation and the hypertension of COPD."
 ---
 
 # COPD
@@ -730,6 +739,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Elastin cross-linking: copper is the cofactor of lysyl oxidase that cross-links the elastin and collagen (already mapped) of the lung; the copper-dependent elastin repair is overwhelmed by the protease-antiprotease imbalance of the emphysema of COPD.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Cachexia adipokine: adiponectin, with leptin (already mapped), is disturbed in the cachexia and systemic inflammation (TNF and IL-6 already mapped) of advanced COPD, contributing to the muscle wasting.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Systemic inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory milieu to the systemic inflammation (IL-6 already mapped) of COPD.
+- `connects-to` → **[Asthma](../asthma/README.md)** — ACOS overlap: the asthma-COPD overlap shares the airway inflammation (the eosinophilic — IL-5 already mapped, and the neutrophilic — IL-17 already mapped) and the bronchodilator/ICS therapy.
+- `connects-to` → **[Pulmonary arterial hypertension](../pulmonary-arterial-hypertension/README.md)** — Cor pulmonale: the chronic hypoxia (HIF and EPO already mapped) and the vascular remodelling (endothelin already mapped) of COPD cause the pulmonary hypertension and the cor pulmonale.
+- `connects-to` → **[Smooth muscle cell](../../04-cellular/smooth-muscle-cell/README.md)** — Airway/vascular remodelling: the airway smooth muscle (acetylcholine already mapped — the bronchoconstriction) and the pulmonary-vascular smooth-muscle remodelling contribute to the airflow limitation and the hypertension of COPD.
 
 ---
 

@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/il-13
     relation: connects-to
     note: "M2 inflammatory arm: IL-13, with IL-4 (already mapped), drives the M2 macrophage (already mapped) arm of the inflammatory (TNF and IL-1 already mapped) microenvironment of the monocytic proliferation of CMML."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Marrow-adipocyte adipokine: resistin, with leptin and adiponectin (already mapped), completes the marrow-adipocyte adipokine signalling of the CMML microenvironment."
+  - target: 01-human/07-system/myeloproliferative-neoplasms
+    relation: connects-to
+    note: "MDS/MPN overlap: CMML is the MDS/MPN-overlap neoplasm, sharing the myeloproliferative (JAK2 already mapped) features with the classic myeloproliferative neoplasms."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Dysgranulopoiesis: the dysplastic granulocytes and the neutrophil dysplasia accompany the defining monocytosis (macrophage already mapped) of CMML."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -705,6 +714,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Marrow-adipocyte adipokine: leptin from the marrow adipose tissue of the bone-marrow (already mapped) microenvironment signals to the CMML clone, part of its metabolic niche crosstalk.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine microenvironment: adiponectin, with leptin (already mapped), from the marrow adipose tissue signals to the CMML cells of the bone-marrow (already mapped) microenvironment.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — M2 inflammatory arm: IL-13, with IL-4 (already mapped), drives the M2 macrophage (already mapped) arm of the inflammatory (TNF and IL-1 already mapped) microenvironment of the monocytic proliferation of CMML.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Marrow-adipocyte adipokine: resistin, with leptin and adiponectin (already mapped), completes the marrow-adipocyte adipokine signalling of the CMML microenvironment.
+- `connects-to` → **[Myeloproliferative neoplasms](../myeloproliferative-neoplasms/README.md)** — MDS/MPN overlap: CMML is the MDS/MPN-overlap neoplasm, sharing the myeloproliferative (JAK2 already mapped) features with the classic myeloproliferative neoplasms.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Dysgranulopoiesis: the dysplastic granulocytes and the neutrophil dysplasia accompany the defining monocytosis (macrophage already mapped) of CMML.
 
 ---
 
