@@ -424,6 +424,15 @@ cross_links:
   - target: 01-human/03-molecular/tnf-alpha
     relation: connects-to
     note: "Renal inflammation: TNF and the inflammatory cytokines (IL-6 and IL-1 already mapped) drive the interstitial inflammation and fibrosis (TGF-beta already mapped) of progressive kidney disease, a target of anti-inflammatory approaches to slow renal decline."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "Chloride transport: chloride is co-transported with sodium (already mapped) by the NKCC2 and NCC transporters that loop and thiazide diuretics block, and its handling underlies the kidney's control of volume and acid-base balance."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Magnesium handling: the kidney is the principal regulator of magnesium, reabsorbing it in the loop and distal tubule, and renal wasting (as with loop diuretics or Gitelman syndrome) causes the hypomagnesaemia of renal disease."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "The adrenal-renal axis: the adrenal gland's aldosterone (already mapped) acts on the distal nephron to reabsorb sodium and excrete potassium (already mapped), closing the renin-angiotensin-aldosterone loop that the kidney initiates."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -654,6 +663,9 @@ Natriuretic counterpoint:
 - **Connects to:** [Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md) — urate handling: the kidney excretes most of the body's uric acid produced by xanthine oxidase, and impaired renal excretion causes hyperuricaemia and gout, while urate crystals and stones in turn injure the kidney.
 - **Connects to:** [Iron](../../02-atomic/iron/README.md) — iron balance and anaemia: the kidney's failing erythropoietin (already mapped) and the raised hepcidin (already mapped) of chronic kidney disease disturb iron availability, producing an iron-restricted renal anaemia managed with iron and erythropoiesis-stimulating agents.
 - **Connects to:** [TNF-alpha](../../03-molecular/tnf-alpha/README.md) — renal inflammation: TNF and the inflammatory cytokines (IL-6 and IL-1 already mapped) drive the interstitial inflammation and fibrosis (TGF-beta already mapped) of progressive kidney disease, a target of anti-inflammatory approaches to slow renal decline.
+- **Connects to:** [Chloride](../../02-atomic/chloride/README.md) — chloride transport: chloride is co-transported with sodium (already mapped) by the NKCC2 and NCC transporters that loop and thiazide diuretics block, and its handling underlies the kidney's control of volume and acid-base balance.
+- **Connects to:** [Magnesium](../../02-atomic/magnesium/README.md) — magnesium handling: the kidney is the principal regulator of magnesium, reabsorbing it in the loop and distal tubule, and renal wasting (as with loop diuretics or Gitelman syndrome) causes the hypomagnesaemia of renal disease.
+- **Connects to:** [Adrenal gland](../adrenal-gland/README.md) — the adrenal-renal axis: the adrenal gland's aldosterone (already mapped) acts on the distal nephron to reabsorb sodium and excrete potassium (already mapped), closing the renin-angiotensin-aldosterone loop that the kidney initiates.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 

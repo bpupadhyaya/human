@@ -417,6 +417,15 @@ cross_links:
   - target: 01-human/03-molecular/bradykinin
     relation: connects-to
     note: "Kinin-mediated inflammation: bradykinin generated in the RSV-infected airway raises vascular permeability and stimulates the mucus secretion and bronchoconstriction that obstruct the small airways of bronchiolitis."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Hypoxaemia of bronchiolitis: the small-airway obstruction and mucus plugging of RSV bronchiolitis impair gas exchange, causing the hypoxaemia that drives the supplemental oxygen and high-flow support that are the main reason for hospital admission."
+  - target: 01-human/07-system/copd
+    relation: connects-to
+    note: "Exacerbations and adult burden: RSV causes exacerbations of COPD and severe respiratory illness in older adults, the burden that the new RSVpreF vaccines targeting the F protein (already mapped) aim to prevent."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Th2-skewing dendritic cells: the airway dendritic cells present RSV antigen and shape the type-2-skewed (IL-4, IL-5 and IL-13 already mapped) immune response that contributes to the wheeze and the immunopathology of infection."
 ---
 
 # RSV
@@ -694,3 +703,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative airway injury: RSV infection generates reactive oxygen species, to which xanthine oxidase contributes, in the airway epithelium, and this oxidative stress amplifies the inflammation and epithelial damage of bronchiolitis.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Neurogenic inflammation: CGRP released from airway sensory nerves, with substance P (already mapped), contributes to the neurogenic inflammation and the exaggerated airway responses of RSV bronchiolitis, part of its neuro-immune dimension.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-mediated inflammation: bradykinin generated in the RSV-infected airway raises vascular permeability and stimulates the mucus secretion and bronchoconstriction that obstruct the small airways of bronchiolitis.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Hypoxaemia of bronchiolitis: the small-airway obstruction and mucus plugging of RSV bronchiolitis impair gas exchange, causing the hypoxaemia that drives the supplemental oxygen and high-flow support that are the main reason for hospital admission.
+- `connects-to` → **[COPD](../copd/README.md)** — Exacerbations and adult burden: RSV causes exacerbations of COPD and severe respiratory illness in older adults, the burden that the new RSVpreF vaccines targeting the F protein (already mapped) aim to prevent.
+- `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Th2-skewing dendritic cells: the airway dendritic cells present RSV antigen and shape the type-2-skewed (IL-4, IL-5 and IL-13 already mapped) immune response that contributes to the wheeze and the immunopathology of infection.
