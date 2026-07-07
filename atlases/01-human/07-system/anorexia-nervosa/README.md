@@ -436,6 +436,15 @@ cross_links:
   - target: 01-human/03-molecular/histamine
     relation: connects-to
     note: "Histaminergic appetite: histamine acting on hypothalamic H1 receptors suppresses appetite, and the H1-blocking antipsychotics used off-label in anorexia promote the weight gain that reflects this appetite pathway."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Starvation immunity: IL-4 and the Th2 arm (IL-10 already mapped) shift in the altered immunity of the starvation state, part of the immune dysregulation and paradoxically preserved immunity of anorexia nervosa."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 arm: IL-13, with IL-4 (already mapped), is part of the type-2 cytokine response whose alteration accompanies the immune dysregulation of the starvation state in anorexia nervosa."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Iron paradox: the inflammation (IL-6 already mapped) of anorexia raises hepcidin while the malnutrition depletes iron, together shaping the variable anaemia (haemoglobin already mapped) of the starvation state."
 ---
 
 # Anorexia Nervosa
@@ -716,6 +725,9 @@ In healthy individuals, food cues activate the mesolimbic reward circuit (VTA �
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine dysregulation: resistin, with the low leptin and adiponectin (already mapped), reflects the profound disturbance of the adipose-derived hormones in the near-absent fat mass of anorexia nervosa.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immune balance: the anti-inflammatory IL-10 counters the altered pro-inflammatory cytokines (IL-6, TNF and IL-1 already mapped) of the starvation state, part of the immune dysregulation of anorexia nervosa.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histaminergic appetite: histamine acting on hypothalamic H1 receptors suppresses appetite, and the H1-blocking antipsychotics used off-label in anorexia promote the weight gain that reflects this appetite pathway.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Starvation immunity: IL-4 and the Th2 arm (IL-10 already mapped) shift in the altered immunity of the starvation state, part of the immune dysregulation and paradoxically preserved immunity of anorexia nervosa.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 arm: IL-13, with IL-4 (already mapped), is part of the type-2 cytokine response whose alteration accompanies the immune dysregulation of the starvation state in anorexia nervosa.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Iron paradox: the inflammation (IL-6 already mapped) of anorexia raises hepcidin while the malnutrition depletes iron, together shaping the variable anaemia (haemoglobin already mapped) of the starvation state.
 
 [^treasure-2010-an-lancet]: Treasure J, Claudino AM, Zucker N. Eating disorders. *Lancet.* 2010;375(9714):583-593. [doi:10.1016/S0140-6736(09)61748-7](https://doi.org/10.1016/S0140-6736(09)61748-7) · [PubMed 19931176](https://pubmed.ncbi.nlm.nih.gov/19931176/)
 [^lock-2010-fbt-an]: Lock J, Le Grange D, Agras WS, et al. Randomized clinical trial comparing family-based treatment with adolescent-focused individual therapy for adolescents with anorexia nervosa. *Arch Gen Psychiatry.* 2010;67(10):1025-1032. [doi:10.1001/archgenpsychiatry.2010.128](https://doi.org/10.1001/archgenpsychiatry.2010.128) · [PubMed 20921118](https://pubmed.ncbi.nlm.nih.gov/20921118/)
