@@ -433,6 +433,15 @@ cross_links:
   - target: 01-human/07-system/inflammatory-bowel-disease
     relation: connects-to
     note: "A common cause: inflammatory bowel disease is a frequent cause of the anemia of chronic disease (IL-6 and hepcidin already mapped), often combined with iron-deficiency anaemia from chronic gastrointestinal blood loss."
+  - target: 01-human/07-system/hodgkin-lymphoma
+    relation: connects-to
+    note: "Malignancy cause: Hodgkin lymphoma and other cancers commonly cause the anemia of chronic disease through their cytokine (IL-6 already mapped) drive of hepcidin (already mapped) and the marrow involvement."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Adipokine and hepcidin: leptin modulates the hepcidin (already mapped) and erythropoiesis, linking the obesity (already mapped)-related inflammation to the iron and red-cell dysregulation of the anemia of chronic disease."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Adipokine axis: adiponectin, with leptin (already mapped), is part of the adipokine axis of the obesity-related and inflammatory dysregulation of iron and erythropoiesis in the anemia of chronic disease."
 ---
 
 # Anemia of Chronic Disease
@@ -695,6 +704,9 @@ This adaptive rationale explains why **aggressive iron supplementation during ac
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 iron-recycling macrophages: IL-13, with IL-4 (already mapped), polarises the macrophages (already mapped) toward the anti-inflammatory iron-recycling phenotype that opposes the iron-sequestering inflammatory state of the anemia of chronic disease.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Trace-metal redistribution: the inflammation of the anemia of chronic disease redistributes zinc as well as iron (already mapped), the hypozincaemia of inflammation accompanying the hypoferraemia in the acute-phase response.
 - `connects-to` → **[Inflammatory bowel disease](../inflammatory-bowel-disease/README.md)** — A common cause: inflammatory bowel disease is a frequent cause of the anemia of chronic disease (IL-6 and hepcidin already mapped), often combined with iron-deficiency anaemia from chronic gastrointestinal blood loss.
+- `connects-to` → **[Hodgkin lymphoma](../hodgkin-lymphoma/README.md)** — Malignancy cause: Hodgkin lymphoma and other cancers commonly cause the anemia of chronic disease through their cytokine (IL-6 already mapped) drive of hepcidin (already mapped) and the marrow involvement.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adipokine and hepcidin: leptin modulates the hepcidin (already mapped) and erythropoiesis, linking the obesity (already mapped)-related inflammation to the iron and red-cell dysregulation of the anemia of chronic disease.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine axis: adiponectin, with leptin (already mapped), is part of the adipokine axis of the obesity-related and inflammatory dysregulation of iron and erythropoiesis in the anemia of chronic disease.
 
 [^weiss-2005-acd-review]: Weiss G, Goodnough LT. Anemia of chronic disease. *N Engl J Med.* 2005;352(10):1011-1023. [doi:10.1056/NEJMra041809](https://doi.org/10.1056/NEJMra041809) · [PubMed 15758012](https://pubmed.ncbi.nlm.nih.gov/15758012/)
 [^nemeth-2004-il6-hepcidin]: Nemeth E, Rivera S, Gabayan V, et al. IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin. *J Clin Invest.* 2004;113(9):1271-1276. [doi:10.1172/JCI200420945](https://doi.org/10.1172/JCI200420945) · [PubMed 15124018](https://pubmed.ncbi.nlm.nih.gov/15124018/)
