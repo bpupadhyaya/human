@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/03-molecular/prostaglandins
     relation: connects-to
     note: "UV eicosanoids: ultraviolet exposure induces cyclooxygenase-2 and prostaglandin E2 in the skin, promoting the inflammation and immunosuppression of the photocarcinogenesis that drives the basal cell carcinomas of Gorlin syndrome."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Zinc and cutaneous defence: zinc supports the immune and antioxidant function of the skin against the UV (prostaglandins already mapped) photocarcinogenesis that drives the multiple basal cell carcinomas of Gorlin syndrome."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Selenium antioxidant defence: selenium supports the antioxidant selenoprotein defence of the skin against the UV oxidative (NFE2L2 already mapped) photocarcinogenesis of Gorlin syndrome."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Overgrowth adipokine: leptin reflects the macrosomia and large body habitus (with the macrocephaly) that are part of the developmental overgrowth phenotype of Gorlin syndrome."
 ---
 
 # Gorlin Syndrome
@@ -678,6 +687,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the stroma of the multiple basal cell carcinomas of Gorlin syndrome.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper and skin: copper is the cofactor of lysyl oxidase that cross-links the dermal collagen (already mapped), part of the skin biology disturbed by the multiple basal cell carcinomas of Gorlin syndrome.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — UV eicosanoids: ultraviolet exposure induces cyclooxygenase-2 and prostaglandin E2 in the skin, promoting the inflammation and immunosuppression of the photocarcinogenesis that drives the basal cell carcinomas of Gorlin syndrome.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and cutaneous defence: zinc supports the immune and antioxidant function of the skin against the UV (prostaglandins already mapped) photocarcinogenesis that drives the multiple basal cell carcinomas of Gorlin syndrome.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Selenium antioxidant defence: selenium supports the antioxidant selenoprotein defence of the skin against the UV oxidative (NFE2L2 already mapped) photocarcinogenesis of Gorlin syndrome.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Overgrowth adipokine: leptin reflects the macrosomia and large body habitus (with the macrocephaly) that are part of the developmental overgrowth phenotype of Gorlin syndrome.
 
 ---
 

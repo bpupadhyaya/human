@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "NMDA modulation: magnesium blocks the NMDA receptor and modulates the glutamate (already mapped) excitotoxicity and the neuron-glioma synaptic drive that promote the invasion of glioblastoma."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Lipid metabolic dependency: glioblastoma depends on the cholesterol and lipid metabolism, importing the astrocyte (already mapped)-derived cholesterol, a metabolic vulnerability being explored therapeutically."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Serotonergic neuromodulation: serotonin modulates the neuron-glioma (glutamate, GABA and acetylcholine already mapped) circuits whose activity drives the growth and invasion of glioblastoma."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "Noradrenergic input: noradrenaline is part of the neuronal-activity-dependent (glutamate already mapped) signalling that stimulates the proliferation and invasion of glioblastoma."
 ---
 
 # Glioblastoma
@@ -697,6 +706,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — M2 niche and CAR-T target: IL-13, with IL-4 (already mapped), supports the M2 microglial niche, and the IL-13 receptor alpha-2 is a glioblastoma-associated antigen targeted by CAR-T and immunotoxin approaches.
 - `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Neuron-glioma signalling: alongside the glutamate and GABA (already mapped) synapses, cholinergic acetylcholine signalling is part of the neuronal activity that drives the growth of the electrically integrated glioblastoma.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — NMDA modulation: magnesium blocks the NMDA receptor and modulates the glutamate (already mapped) excitotoxicity and the neuron-glioma synaptic drive that promote the invasion of glioblastoma.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Lipid metabolic dependency: glioblastoma depends on the cholesterol and lipid metabolism, importing the astrocyte (already mapped)-derived cholesterol, a metabolic vulnerability being explored therapeutically.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Serotonergic neuromodulation: serotonin modulates the neuron-glioma (glutamate, GABA and acetylcholine already mapped) circuits whose activity drives the growth and invasion of glioblastoma.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Noradrenergic input: noradrenaline is part of the neuronal-activity-dependent (glutamate already mapped) signalling that stimulates the proliferation and invasion of glioblastoma.
 
 ---
 
