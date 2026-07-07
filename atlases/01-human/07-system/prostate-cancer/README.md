@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative carcinogenesis: oxidative stress, to which xanthine oxidase contributes, and its reactive oxygen species contribute to prostate carcinogenesis and progression (NRF2-adjacent redox biology), part of the tumour's oxidative dimension."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the cold, checkpoint-resistant immune microenvironment of most prostate cancer."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Anaemia of therapy: androgen-deprivation therapy and metastatic marrow involvement cause anaemia (haemoglobin already mapped) in prostate cancer, and the transfusional support can load the body with iron."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "COX-2 and inflammation: prostaglandins from cyclooxygenase-2 in the inflamed prostate contribute to carcinogenesis and progression (IL-6 already mapped), part of the chronic-inflammation link in prostate cancer."
 ---
 
 # Prostate Cancer
@@ -682,6 +691,9 @@ cross_links:
 - `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Radioligand and proton therapy: prostate cancer is treated with proton-beam radiotherapy and, in metastatic disease, the beta-emitting Lu-177-PSMA radioligand that targets the prostate-specific membrane antigen, delivering radiation to the tumour.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive cold tumour: IL-10 in the tumour microenvironment dampens the anti-tumour T-cell response (PD-1 and CD8 already mapped), part of the immune evasion that makes most prostate cancer a checkpoint-resistant 'cold' tumour.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative carcinogenesis: oxidative stress, to which xanthine oxidase contributes, and its reactive oxygen species contribute to prostate carcinogenesis and progression (NRF2-adjacent redox biology), part of the tumour's oxidative dimension.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the cold, checkpoint-resistant immune microenvironment of most prostate cancer.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Anaemia of therapy: androgen-deprivation therapy and metastatic marrow involvement cause anaemia (haemoglobin already mapped) in prostate cancer, and the transfusional support can load the body with iron.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — COX-2 and inflammation: prostaglandins from cyclooxygenase-2 in the inflamed prostate contribute to carcinogenesis and progression (IL-6 already mapped), part of the chronic-inflammation link in prostate cancer.
 
 [^beer-2014-prevail]: Beer TM, Armstrong AJ, Rathkopf D, et al. Enzalutamide in metastatic prostate cancer before chemotherapy. *N Engl J Med.* 2014;371(5):424-433. [doi:10.1056/NEJMoa1405095](https://doi.org/10.1056/NEJMoa1405095) · [PubMed 24881730](https://pubmed.ncbi.nlm.nih.gov/24881730/)
 [^sartor-2021-vision]: Sartor O, de Bono J, Chi KN, et al. Lutetium-PSMA-617 for metastatic castration-resistant prostate cancer. *N Engl J Med.* 2021;385(12):1091-1103. [doi:10.1056/NEJMoa2107322](https://doi.org/10.1056/NEJMoa2107322) · [PubMed 34161051](https://pubmed.ncbi.nlm.nih.gov/34161051/)

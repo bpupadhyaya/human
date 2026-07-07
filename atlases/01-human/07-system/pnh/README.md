@@ -415,6 +415,15 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "Immune counter-regulation: IL-10 opposes the inflammatory cytokines (IL-6 and TNF already mapped) that the complement activation of PNH drives, part of the immune balance in the inflammatory, prothrombotic milieu of the disease."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Thromboxane and platelets: the complement-activated platelets (PF4 already mapped) of PNH generate thromboxane to amplify aggregation, part of the eicosanoid contribution to the thrombosis that is the leading cause of death in the disease."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Immune balance: the anti-inflammatory IL-4, with IL-10 (already mapped), counters the pro-inflammatory cytokines (IL-6 and TNF already mapped) that the complement activation of PNH drives in its inflammatory milieu."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Platelet zinc and coagulation: zinc released from the complement-activated platelets (already mapped) promotes the contact pathway and fibrin formation (fibrinogen and thrombin already mapped), adding to the prothrombotic state of PNH."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -639,6 +648,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[ADAMTS13](../../03-molecular/adamts13/README.md)** — Thrombosis differential: the thrombosis of PNH occurs with normal ADAMTS13 (von Willebrand factor already mapped), distinguishing its complement-driven mechanism from the thrombotic microangiopathy of thrombotic thrombocytopenic purpura.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Pulmonary hypertension and cardiac strain: the nitric-oxide scavenging (already mapped) of chronic haemolysis and the thromboembolism of PNH raise pulmonary pressures and strain the right heart, and troponin elevation marks the myocardial injury.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immune counter-regulation: IL-10 opposes the inflammatory cytokines (IL-6 and TNF already mapped) that the complement activation of PNH drives, part of the immune balance in the inflammatory, prothrombotic milieu of the disease.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Thromboxane and platelets: the complement-activated platelets (PF4 already mapped) of PNH generate thromboxane to amplify aggregation, part of the eicosanoid contribution to the thrombosis that is the leading cause of death in the disease.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Immune balance: the anti-inflammatory IL-4, with IL-10 (already mapped), counters the pro-inflammatory cytokines (IL-6 and TNF already mapped) that the complement activation of PNH drives in its inflammatory milieu.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Platelet zinc and coagulation: zinc released from the complement-activated platelets (already mapped) promotes the contact pathway and fibrin formation (fibrinogen and thrombin already mapped), adding to the prothrombotic state of PNH.
 
 ---
 
