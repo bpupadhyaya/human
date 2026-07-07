@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/06-organ/skin
     relation: connects-to
     note: "Somatosensory innervation: the skin is densely innervated with the sensory receptors and free nerve endings (substance P and CGRP already mapped) that convey touch, temperature and pain to the central nervous system."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Microglial polarisation: IL-4 polarises the microglia (already mapped) toward an anti-inflammatory M2 phenotype, the neuroimmune arm that shapes neural repair and the resolution of neuroinflammation in the nervous system."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Synaptic zinc: zinc is co-released with glutamate (already mapped) at many excitatory synapses, where it modulates the NMDA receptors and synaptic plasticity, a signalling trace metal of the nervous system."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Neuroimmune interface: the nervous and immune systems signal bidirectionally — the microglia (already mapped), the neuroinflammation (TNF, IL-1 and IL-6 already mapped) and the neural control of immunity — a deep integration of the two systems."
 ---
 
 # Nervous System
@@ -603,6 +612,9 @@ Distributed cortical networks underlie language (Broca's area, Wernicke's area, 
 - `connects-to` → **[Adrenal gland](../../06-organ/adrenal-gland/README.md)** — Sympathetic medulla: the adrenal medulla is a modified sympathetic ganglion of the nervous system, releasing adrenaline and noradrenaline (norepinephrine already mapped) into the blood as the hormonal arm of the fight-or-flight response.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Autonomic cardiac control: the sympathetic and parasympathetic nerves of the autonomic nervous system control the heart rate and contractility (noradrenaline and acetylcholine already mapped), the neural regulation of the circulation.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Somatosensory innervation: the skin is densely innervated with the sensory receptors and free nerve endings (substance P and CGRP already mapped) that convey touch, temperature and pain to the central nervous system.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Microglial polarisation: IL-4 polarises the microglia (already mapped) toward an anti-inflammatory M2 phenotype, the neuroimmune arm that shapes neural repair and the resolution of neuroinflammation in the nervous system.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Synaptic zinc: zinc is co-released with glutamate (already mapped) at many excitatory synapses, where it modulates the NMDA receptors and synaptic plasticity, a signalling trace metal of the nervous system.
+- `connects-to` → **[Immune system](../immune-system/README.md)** — Neuroimmune interface: the nervous and immune systems signal bidirectionally — the microglia (already mapped), the neuroinflammation (TNF, IL-1 and IL-6 already mapped) and the neural control of immunity — a deep integration of the two systems.
 
 ## Pathology
 
