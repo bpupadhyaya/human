@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/01-subatomic/proton
     relation: connects-to
     note: "Proton radiotherapy: proton-beam radiotherapy provides local control of synovial sarcoma while sparing the surrounding normal tissue, an option especially valuable in the young patients typical of this sarcoma."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immunosuppressive cold microenvironment of synovial sarcoma."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Tumour-associated macrophages: the macrophages (CCL2 already mapped) infiltrate the synovial-sarcoma stroma, and their M2 polarisation (IL-4 already mapped) supports the immunosuppression relevant to the NY-ESO-1 TCR-T therapy."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Bone invasion: the para-articular synovial sarcoma can invade the adjacent cortical bone, part of the locally aggressive behaviour of this deep soft-tissue sarcoma."
 ---
 
 # Synovial Sarcoma
@@ -681,6 +690,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the cold, immune-evasive microenvironment of synovial sarcoma that the NY-ESO-1 TCR-T therapy must overcome.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Chemotherapy anaemia: the doxorubicin-ifosfamide chemotherapy of synovial sarcoma is myelosuppressive, causing anaemia (haemoglobin already mapped) that needs transfusion whose repeated support can load the young survivor with iron.
 - `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Proton radiotherapy: proton-beam radiotherapy provides local control of synovial sarcoma while sparing the surrounding normal tissue, an option especially valuable in the young patients typical of this sarcoma.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immunosuppressive cold microenvironment of synovial sarcoma.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumour-associated macrophages: the macrophages (CCL2 already mapped) infiltrate the synovial-sarcoma stroma, and their M2 polarisation (IL-4 already mapped) supports the immunosuppression relevant to the NY-ESO-1 TCR-T therapy.
+- `connects-to` → **[Cortical bone](../../05-tissue/cortical-bone/README.md)** — Bone invasion: the para-articular synovial sarcoma can invade the adjacent cortical bone, part of the locally aggressive behaviour of this deep soft-tissue sarcoma.
 
 ---
 

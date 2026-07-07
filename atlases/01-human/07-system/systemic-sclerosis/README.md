@@ -427,6 +427,15 @@ cross_links:
   - target: 01-human/03-molecular/renin
     relation: connects-to
     note: "Scleroderma renal crisis: the renin-angiotensin system (angiotensin II already mapped) is dramatically activated in scleroderma renal crisis, and ACE inhibitors blocking it transformed this once-fatal complication of systemic sclerosis."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin sequesters iron (already mapped) to produce the anaemia of chronic disease that, with the GAVE blood loss, causes the anaemia of systemic sclerosis."
+  - target: 01-human/03-molecular/von-willebrand-factor
+    relation: connects-to
+    note: "Endothelial injury marker: the endothelial injury of the vasculopathy (endothelin-1 already mapped) raises von Willebrand factor, a marker of the endothelial activation that drives the Raynaud's and vascular disease of systemic sclerosis."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Anti-fibrotic adipokine: adiponectin is an anti-fibrotic adipokine, and its fall as the dermal adipose is lost to fibrosis removes a brake on the fibroblast (already mapped) activation, promoting the fibrosis of systemic sclerosis."
 ---
 
 # Systemic Sclerosis
@@ -677,6 +686,9 @@ Identical to IPAH: medial hypertrophy, intimal fibrosis, concentric laminar inti
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Anaemia and GI bleeding: the chronic inflammation and the gastric antral vascular ectasia (watermelon stomach) of systemic sclerosis cause anaemia (haemoglobin already mapped) from iron loss and sequestration, a common systemic complication.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell involvement: mast cells release histamine in the early inflammatory, pruritic phase of the skin (already mapped) fibrosis of systemic sclerosis, contributing to the itch and the fibroblast-activating (already mapped) inflammation.
 - `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — Scleroderma renal crisis: the renin-angiotensin system (angiotensin II already mapped) is dramatically activated in scleroderma renal crisis, and ACE inhibitors blocking it transformed this once-fatal complication of systemic sclerosis.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin sequesters iron (already mapped) to produce the anaemia of chronic disease that, with the GAVE blood loss, causes the anaemia of systemic sclerosis.
+- `connects-to` → **[Von Willebrand factor](../../03-molecular/von-willebrand-factor/README.md)** — Endothelial injury marker: the endothelial injury of the vasculopathy (endothelin-1 already mapped) raises von Willebrand factor, a marker of the endothelial activation that drives the Raynaud's and vascular disease of systemic sclerosis.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Anti-fibrotic adipokine: adiponectin is an anti-fibrotic adipokine, and its fall as the dermal adipose is lost to fibrosis removes a brake on the fibroblast (already mapped) activation, promoting the fibrosis of systemic sclerosis.
 
 [^denton-2017-ssc-review]: Denton CP, Khanna D. Systemic sclerosis. *Lancet.* 2017;390(10103):1685-1699. [doi:10.1016/S0140-6736(17)30933-9](https://doi.org/10.1016/S0140-6736(17)30933-9) · [PubMed 28413064](https://pubmed.ncbi.nlm.nih.gov/28413064/)
 [^distler-2019-nintedanib-senscis]: Distler O, Highland KB, Gahlemann M, et al. Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease. *N Engl J Med.* 2019;380(26):2518-2528. [doi:10.1056/NEJMoa1903076](https://doi.org/10.1056/NEJMoa1903076) · [PubMed 31112379](https://pubmed.ncbi.nlm.nih.gov/31112379/)
