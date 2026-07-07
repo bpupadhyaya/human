@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "Dietary chemoprevention: dietary calcium reduces colorectal adenoma recurrence, binding the bile acids (cholesterol already mapped) that promote carcinogenesis, a modifiable factor in the risk reduction of Lynch syndrome."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Obesity-cancer adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the obesity-related modifiable colorectal-cancer risk of Lynch syndrome."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the obesity-related modifiable cancer risk of Lynch syndrome."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "MSI-high immunogenicity: the MSI-high, MMR-deficient (already mapped) Lynch tumours activate the cGAS-STING (already mapped) pathway to produce the type-I interferon that drives the immunogenicity and the checkpoint (PD-1 already mapped) response."
 ---
 
 # Lynch Syndrome
@@ -707,6 +716,9 @@ MSI-H stage II CRC: adjuvant 5-FU/leucovorin does NOT improve OS (may be harmful
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the microenvironment of the Lynch-associated cancers, balanced against the strong anti-tumour immunity of the MSI-high tumours.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Obesity and cancer risk: the adipokine leptin links obesity to colorectal carcinogenesis (Wnt already mapped), a modifiable factor modulating the penetrance of the cancer risk in Lynch syndrome.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Dietary chemoprevention: dietary calcium reduces colorectal adenoma recurrence, binding the bile acids (cholesterol already mapped) that promote carcinogenesis, a modifiable factor in the risk reduction of Lynch syndrome.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Obesity-cancer adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the obesity-related modifiable colorectal-cancer risk of Lynch syndrome.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the obesity-related modifiable cancer risk of Lynch syndrome.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — MSI-high immunogenicity: the MSI-high, MMR-deficient (already mapped) Lynch tumours activate the cGAS-STING (already mapped) pathway to produce the type-I interferon that drives the immunogenicity and the checkpoint (PD-1 already mapped) response.
 
 [^bonadona-2011-lynch-risks]: Bonadona V, Bonaïti B, Olschwang S, et al. Cancer risks associated with germline mutations in MLH1, MSH2, and MSH6 genes in Lynch syndrome. *JAMA.* 2011;305(22):2304-2310. [doi:10.1001/jama.2011.743](https://doi.org/10.1001/jama.2011.743) · [PubMed 21642683](https://pubmed.ncbi.nlm.nih.gov/21642683/)
 [^lynch-2015-lynch-review]: Lynch HT, Snyder CL, Shaw TG, et al. Milestones of Lynch syndrome: 1895-2015. *Nat Rev Cancer.* 2015;15(3):181-194. [doi:10.1038/nrc3878](https://doi.org/10.1038/nrc3878) · [PubMed 25673086](https://pubmed.ncbi.nlm.nih.gov/25673086/)

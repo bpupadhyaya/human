@@ -428,6 +428,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Adipokine milieu: resistin, with leptin and adiponectin (already mapped), is part of the adipokine milieu of the fat surrounding the lymphatics and lymph nodes, linking metabolism to lymphatic and immune function."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Sinus macrophages: the subcapsular-sinus and medullary macrophages of the lymph nodes filter the lymph and present the captured antigens, the resident phagocytes of the lymphatic system."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "NK trafficking: the natural killer cells (perforin already mapped) traffic through the lymphatic system, providing the innate cytotoxic surveillance of the circulating lymph and nodes."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Interstitial sodium and lymphoedema: the lymphatic system clears the interstitial sodium and fluid, and its dysfunction produces the sodium-rich lymphoedema, linking the lymphatics to the body's sodium and volume balance."
 ---
 
 # Lymphatic System
@@ -674,6 +683,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 lymphatic remodelling: IL-13, with IL-4 (already mapped), is the type-2 cytokine that, alongside the lymphangiogenic VEGF (already mapped), drives the lymphatic remodelling seen in filariasis and chronic inflammation of the lymphatic system.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Lympho-adipose crosstalk: adiponectin, with leptin (already mapped), mediates the crosstalk between the lymphatic vessels and the perinodal and subcutaneous adipose tissue that supports lymphatic function.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine milieu: resistin, with leptin and adiponectin (already mapped), is part of the adipokine milieu of the fat surrounding the lymphatics and lymph nodes, linking metabolism to lymphatic and immune function.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Sinus macrophages: the subcapsular-sinus and medullary macrophages of the lymph nodes filter the lymph and present the captured antigens, the resident phagocytes of the lymphatic system.
+- `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — NK trafficking: the natural killer cells (perforin already mapped) traffic through the lymphatic system, providing the innate cytotoxic surveillance of the circulating lymph and nodes.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Interstitial sodium and lymphoedema: the lymphatic system clears the interstitial sodium and fluid, and its dysfunction produces the sodium-rich lymphoedema, linking the lymphatics to the body's sodium and volume balance.
 
 ## Pathology
 
