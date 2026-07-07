@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "Immunosuppressive microenvironment: IL-10 in the microenvironment of the MEN1 neuroendocrine tumours dampens the anti-tumour immune response, part of the immune biology relevant to any immunotherapy of the aggressive metastatic tumours."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune microenvironment of the MEN1 neuroendocrine tumours."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the microenvironment of the MEN1 neuroendocrine tumours."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Islet zinc: zinc is stored with insulin (already mapped) in the islet secretory granules, and the zinc-insulin hexamer is part of the biology of the insulinomas and other pancreatic neuroendocrine tumours of MEN1."
 ---
 
 # MEN1 Syndrome
@@ -675,6 +684,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Mineral dysregulation: the primary hyperparathyroidism of MEN1 (PTH and calcium already mapped) disturbs magnesium alongside calcium handling, part of the mineral derangement of the commonest manifestation of the syndrome.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Enteroinsular tumours: GLP-1 and the incretin axis reflect the enteropancreatic neuroendocrine biology of the MEN1 pancreatic tumours (insulin and glucagon already mapped), and GLP-1-secreting tumours are a rare functional subtype.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive microenvironment: IL-10 in the microenvironment of the MEN1 neuroendocrine tumours dampens the anti-tumour immune response, part of the immune biology relevant to any immunotherapy of the aggressive metastatic tumours.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune microenvironment of the MEN1 neuroendocrine tumours.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the microenvironment of the MEN1 neuroendocrine tumours.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Islet zinc: zinc is stored with insulin (already mapped) in the islet secretory granules, and the zinc-insulin hexamer is part of the biology of the insulinomas and other pancreatic neuroendocrine tumours of MEN1.
 
 ---
 

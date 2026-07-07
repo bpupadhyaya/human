@@ -427,6 +427,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Tumour vasculature: nitric oxide with VEGF and endothelin-1 (already mapped) regulates the angiogenesis and vascular tone of melanoma, and it also modulates the melanocyte and immune biology of the tumour."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immunosuppressive microenvironment that checkpoint immunotherapy must overcome in melanoma."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Ferroptosis vulnerability: the iron-dependent lipid peroxidation of ferroptosis is a vulnerability of the drug-tolerant, dedifferentiated melanoma cells (NRF2 already mapped), an emerging angle against treatment-resistant disease."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Melanocyte metals: zinc supports the melanocyte enzymes of melanogenesis and the skin's zinc-dependent function, part of the trace-metal biology of the melanocytes from which melanoma arises."
 ---
 
 # Melanoma
@@ -653,6 +662,9 @@ cross_links:
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — UV and immunosuppression: ultraviolet-induced cyclooxygenase-2 and prostaglandin E2 promote the inflammation and local immunosuppression of photocarcinogenesis, part of the microenvironment that fosters melanoma and blunts anti-tumour immunity.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune-evasive microenvironment that checkpoint immunotherapy must overcome in melanoma.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Tumour vasculature: nitric oxide with VEGF and endothelin-1 (already mapped) regulates the angiogenesis and vascular tone of melanoma, and it also modulates the melanocyte and immune biology of the tumour.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immunosuppressive microenvironment that checkpoint immunotherapy must overcome in melanoma.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Ferroptosis vulnerability: the iron-dependent lipid peroxidation of ferroptosis is a vulnerability of the drug-tolerant, dedifferentiated melanoma cells (NRF2 already mapped), an emerging angle against treatment-resistant disease.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Melanocyte metals: zinc supports the melanocyte enzymes of melanogenesis and the skin's zinc-dependent function, part of the trace-metal biology of the melanocytes from which melanoma arises.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
