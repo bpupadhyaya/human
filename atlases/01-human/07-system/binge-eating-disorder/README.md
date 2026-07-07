@@ -423,6 +423,15 @@ cross_links:
   - target: 01-human/04-cellular/astrocyte
     relation: connects-to
     note: "Glutamate and metabolic support: the astrocytes regulate the glutamate (already mapped) and provide the metabolic support of the reward and hypothalamic circuits implicated in the loss-of-control eating of binge-eating disorder."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Metabolic comorbidity: the binge-eating disorder and the associated obesity (already mapped) drive the type 2 diabetes (insulin already mapped) risk."
+  - target: 01-human/07-system/attention-deficit-hyperactivity-disorder
+    relation: connects-to
+    note: "ADHD impulsivity: ADHD is comorbid with binge-eating disorder (the shared impulsivity and reward — dopamine already mapped — dysregulation), the lisdexamfetamine treating both."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Reward neurons: the dopaminergic (already mapped) reward neurons and the hypothalamic appetite neurons (leptin and NPY already mapped) mediate the loss-of-control eating of binge-eating disorder."
 sources:
   - id: american-psychiatric-2013-bed-dsm5
     type: clinical-guideline
@@ -719,6 +728,9 @@ BED is among the most psychiatrically comorbid of all eating disorders:
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Neuroimmune balance: IL-4 and the M2 microglia (already mapped) balance the neuroinflammation (TNF, IL-6 and IL-1 already mapped) increasingly implicated in the reward-circuit dysregulation of binge-eating disorder.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 arm: IL-13, with IL-4 (already mapped), is part of the type-2 cytokine response whose balance against the neuroinflammation shapes the reward-circuit signalling of binge-eating disorder.
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Glutamate and metabolic support: the astrocytes regulate the glutamate (already mapped) and provide the metabolic support of the reward and hypothalamic circuits implicated in the loss-of-control eating of binge-eating disorder.
+- `connects-to` → **[Type 2 diabetes](../type-2-diabetes/README.md)** — Metabolic comorbidity: the binge-eating disorder and the associated obesity (already mapped) drive the type 2 diabetes (insulin already mapped) risk.
+- `connects-to` → **[ADHD](../attention-deficit-hyperactivity-disorder/README.md)** — ADHD impulsivity: ADHD is comorbid with binge-eating disorder (the shared impulsivity and reward — dopamine already mapped — dysregulation), the lisdexamfetamine treating both.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Reward neurons: the dopaminergic (already mapped) reward neurons and the hypothalamic appetite neurons (leptin and NPY already mapped) mediate the loss-of-control eating of binge-eating disorder.
 
 [^american-psychiatric-2013-bed-dsm5]: American Psychiatric Association. Binge Eating Disorder (307.51). In: *Diagnostic and Statistical Manual of Mental Disorders, 5th ed.* Arlington, VA: APA; 2013. [doi:10.1176/appi.books.9780890425596](https://doi.org/10.1176/appi.books.9780890425596)
 [^mccallum-2003-bed-review]: McCallum K, Bruton AM. Binge eating disorder: eating disorder or somatic syndrome? *Prim Care Companion J Clin Psychiatry.* 2003;5(Suppl 4):20-25. [PubMed 15213784](https://pubmed.ncbi.nlm.nih.gov/15213784/)

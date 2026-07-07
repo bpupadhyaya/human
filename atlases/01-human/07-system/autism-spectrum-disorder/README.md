@@ -445,6 +445,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Adipokine inflammation: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory milieu to the metabolic and neuroinflammatory (IL-6 already mapped) dimension of autism spectrum disorder."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Neuronal connectivity: the altered neuronal migration, synaptogenesis (mTOR and PTEN already mapped) and the excitatory/inhibitory (glutamate and GABA already mapped) balance of the neurons underlie autism spectrum disorder."
+  - target: 01-human/07-system/attention-deficit-hyperactivity-disorder
+    relation: connects-to
+    note: "ADHD comorbidity: attention-deficit/hyperactivity disorder is highly comorbid with autism spectrum disorder, the two sharing the genetic and the neurodevelopmental (dopamine already mapped) overlap."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "Gut-brain axis: the altered gut microbiome and the gut-brain (serotonin already mapped) signalling are implicated in the GI symptoms and the behaviour of autism spectrum disorder."
 ---
 
 # Autism Spectrum Disorder
@@ -724,6 +733,9 @@ The neural basis of ASD social deficits involves dysfunction of the **social bra
 - `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Cholinergic neurotransmission: the cholinergic (nicotinic and muscarinic) system, implicated in the attention and social cognition (dopamine and serotonin already mapped) of autism, is a focus of the neurotransmitter research into the disorder.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine crosstalk: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic-neurodevelopmental crosstalk reported altered in autism spectrum disorder.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine inflammation: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory milieu to the metabolic and neuroinflammatory (IL-6 already mapped) dimension of autism spectrum disorder.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Neuronal connectivity: the altered neuronal migration, synaptogenesis (mTOR and PTEN already mapped) and the excitatory/inhibitory (glutamate and GABA already mapped) balance of the neurons underlie autism spectrum disorder.
+- `connects-to` → **[ADHD](../attention-deficit-hyperactivity-disorder/README.md)** — ADHD comorbidity: attention-deficit/hyperactivity disorder is highly comorbid with autism spectrum disorder, the two sharing the genetic and the neurodevelopmental (dopamine already mapped) overlap.
+- `connects-to` → **[Gut microbiome](../gut-microbiome/README.md)** — Gut-brain axis: the altered gut microbiome and the gut-brain (serotonin already mapped) signalling are implicated in the GI symptoms and the behaviour of autism spectrum disorder.
 
 [^maenner-2023-asd-prevalence]: Maenner MJ, Warren Z, Williams AR, et al. Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 2020. *MMWR Surveill Summ.* 2023;72(2):1-14. [doi:10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1) · [PubMed 36952216](https://pubmed.ncbi.nlm.nih.gov/36952216/)
 [^lord-2020-asd-review]: Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum disorder. *Lancet.* 2018;392(10146):508-520. [doi:10.1016/S0140-6736(18)31129-2](https://doi.org/10.1016/S0140-6736(18)31129-2) · [PubMed 30078460](https://pubmed.ncbi.nlm.nih.gov/30078460/)
