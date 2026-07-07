@@ -433,6 +433,15 @@ cross_links:
   - target: 01-human/02-atomic/chloride
     relation: connects-to
     note: "Secretory chloride: chloride secretion by the intestinal epithelium drives the fluid that lubricates digestion, and its dysregulation underlies the secretory diarrhoea of infections and the defect of cystic fibrosis."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "The gut-brain axis: the enteric nervous system and the vagal and serotonergic signalling (serotonin, dopamine and BDNF already mapped) link the digestive system to the nervous system, coordinating motility, secretion and appetite."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Sodium-coupled absorption: sodium gradients power the absorption of glucose and amino acids across the intestinal epithelium, and sodium handling (chloride already mapped) governs the fluid balance of the digestive tract."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Gut mucosal macrophages: the macrophages of the gut wall and the Kupffer cells of the liver sample the luminal contents and maintain tolerance (secretory IgA already mapped), a large part of the body's immune tissue serving the digestive system."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -660,6 +669,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [Zinc](../../02-atomic/zinc/README.md) — zinc absorption: the small intestine absorbs dietary zinc, essential for the many digestive enzymes and for mucosal integrity and taste, and malabsorption causes the dermatitis and diarrhoea of zinc deficiency.
 - **Connects to:** [Mast cell](../../04-cellular/mast-cell/README.md) — mucosal mast cells: mast cells in the gut wall (histamine already mapped) defend the mucosa and, when dysregulated, contribute to the visceral hypersensitivity and altered motility of functional gastrointestinal disorders.
 - **Connects to:** [Chloride](../../02-atomic/chloride/README.md) — secretory chloride: chloride secretion by the intestinal epithelium drives the fluid that lubricates digestion, and its dysregulation underlies the secretory diarrhoea of infections and the defect of cystic fibrosis.
+- **Connects to:** [Nervous system](../nervous-system/README.md) — the gut-brain axis: the enteric nervous system and the vagal and serotonergic signalling (serotonin, dopamine and BDNF already mapped) link the digestive system to the nervous system, coordinating motility, secretion and appetite.
+- **Connects to:** [Sodium](../../02-atomic/sodium/README.md) — sodium-coupled absorption: sodium gradients power the absorption of glucose and amino acids across the intestinal epithelium, and sodium handling (chloride already mapped) governs the fluid balance of the digestive tract.
+- **Connects to:** [Macrophage](../../04-cellular/macrophage/README.md) — gut mucosal macrophages: the macrophages of the gut wall and the Kupffer cells of the liver sample the luminal contents and maintain tolerance (secretory IgA already mapped), a large part of the body's immune tissue serving the digestive system.
 
 ## Pathology
 

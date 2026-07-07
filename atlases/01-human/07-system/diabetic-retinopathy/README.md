@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/prostaglandins
     relation: connects-to
     note: "Inflammatory eicosanoids: prostaglandins from the inflamed retina contribute to the vascular leakage and macular oedema of diabetic retinopathy, and the cyclooxygenase pathway is part of the inflammatory dimension of the disease."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Retinal microglial polarisation: IL-4 polarises the retinal microglia (already mapped) and macrophages toward an M2 phenotype (IL-10 already mapped), part of the neuroinflammatory balance that shapes the progression of diabetic retinopathy."
+  - target: 01-human/03-molecular/pcsk9
+    relation: connects-to
+    note: "Dyslipidaemia and exudates: the dyslipidaemia in which PCSK9 regulates LDL clearance (cholesterol already mapped) drives the hard exudates of diabetic maculopathy, and lipid-lowering with fenofibrate slows the retinopathy."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Retinal zinc: zinc is highly concentrated in the retina, where it supports the antioxidant and enzymatic function (xanthine oxidase already mapped) of the tissue, and disturbed zinc handling is part of the diabetic retinal injury."
 ---
 
 # Diabetic Retinopathy
@@ -665,6 +674,9 @@ DR encompasses a spectrum from subtle vascular changes to sight-threatening neov
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Anti-inflammatory counter-regulation: IL-10 opposes the chronic retinal inflammation (IL-6, TNF and IL-1 already mapped) of diabetic retinopathy, and the imbalance between pro- and anti-inflammatory cytokines shapes the progression of the microvascular damage.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Mineralocorticoid vascular injury: aldosterone, part of the renin-angiotensin system (angiotensin II already mapped) activated locally in the retina, promotes the inflammation and vascular leakage of diabetic retinopathy, and mineralocorticoid blockade is protective.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Inflammatory eicosanoids: prostaglandins from the inflamed retina contribute to the vascular leakage and macular oedema of diabetic retinopathy, and the cyclooxygenase pathway is part of the inflammatory dimension of the disease.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Retinal microglial polarisation: IL-4 polarises the retinal microglia (already mapped) and macrophages toward an M2 phenotype (IL-10 already mapped), part of the neuroinflammatory balance that shapes the progression of diabetic retinopathy.
+- `connects-to` → **[PCSK9](../../03-molecular/pcsk9/README.md)** — Dyslipidaemia and exudates: the dyslipidaemia in which PCSK9 regulates LDL clearance (cholesterol already mapped) drives the hard exudates of diabetic maculopathy, and lipid-lowering with fenofibrate slows the retinopathy.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Retinal zinc: zinc is highly concentrated in the retina, where it supports the antioxidant and enzymatic function (xanthine oxidase already mapped) of the tissue, and disturbed zinc handling is part of the diabetic retinal injury.
 
 [^fong-2004-dr-review]: Fong DS, Aiello L, Gardner TW, et al. Diabetic retinopathy. *Diabetes Care.* 2004;27(10):2540-2553. [doi:10.2337/diacare.27.10.2540](https://doi.org/10.2337/diacare.27.10.2540) · [PubMed 15451934](https://pubmed.ncbi.nlm.nih.gov/15451934/)
 [^brown-2015-aflibercept-protocol-t]: Diabetic Retinopathy Clinical Research Network; Wells JA, Glassman AR, et al. Aflibercept, Bevacizumab, or Ranibizumab for Diabetic Macular Edema. *N Engl J Med.* 2015;372(13):1193-1203. [doi:10.1056/NEJMoa1414264](https://doi.org/10.1056/NEJMoa1414264) · [PubMed 25692915](https://pubmed.ncbi.nlm.nih.gov/25692915/)
