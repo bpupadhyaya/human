@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/03-molecular/prostaglandins
     relation: connects-to
     note: "Inflammatory eicosanoids: prostaglandins from the glial neuroinflammation (TLR4 and microglia already mapped) and the alcoholic hepatitis contribute to the neuro- and hepato-inflammation of alcohol use disorder."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 anti-inflammatory arm: IL-4 polarises the microglia (already mapped) and the hepatic Kupffer cells toward an M2 phenotype, countering the TLR4-driven (already mapped) neuro- and hepato-inflammation of alcohol use disorder."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Alcohol and iron: alcohol suppresses hepcidin, promoting the intestinal iron hyperabsorption and hepatic iron loading that aggravate the oxidative (xanthine oxidase already mapped) liver injury of alcohol use disorder."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Hepatic iron overload: the hepcidin suppression (already mapped) and the direct effects of alcohol load the liver with iron (haemoglobin already mapped), the iron-catalysed oxidative stress worsening the alcoholic liver disease."
 ---
 
 # Alcohol Use Disorder
@@ -747,6 +756,9 @@ Prenatal alcohol exposure → leading preventable cause of intellectual disabili
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Lipid effects: alcohol raises HDL yet also drives hypertriglyceridaemia and, in heavy use, an atherogenic dyslipidaemia (insulin already mapped), giving alcohol complex, dose-dependent effects on cholesterol and cardiovascular risk.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Electrolyte depletion: the poor intake, vomiting and renal losses of alcohol use disorder deplete potassium, and with the magnesium deficiency (already mapped) this predisposes to the arrhythmias and weakness of the malnourished drinker.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Inflammatory eicosanoids: prostaglandins from the glial neuroinflammation (TLR4 and microglia already mapped) and the alcoholic hepatitis contribute to the neuro- and hepato-inflammation of alcohol use disorder.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 anti-inflammatory arm: IL-4 polarises the microglia (already mapped) and the hepatic Kupffer cells toward an M2 phenotype, countering the TLR4-driven (already mapped) neuro- and hepato-inflammation of alcohol use disorder.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Alcohol and iron: alcohol suppresses hepcidin, promoting the intestinal iron hyperabsorption and hepatic iron loading that aggravate the oxidative (xanthine oxidase already mapped) liver injury of alcohol use disorder.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Hepatic iron overload: the hepcidin suppression (already mapped) and the direct effects of alcohol load the liver with iron (haemoglobin already mapped), the iron-catalysed oxidative stress worsening the alcoholic liver disease.
 
 [^koob-2013-addiction-neuroscience]: Koob GF, Volkow ND. Neurocircuitry of addiction. *Neuropsychopharmacology.* 2010;35(1):217-238. [doi:10.1038/npp.2009.110](https://doi.org/10.1038/npp.2009.110) · [PubMed 19710631](https://pubmed.ncbi.nlm.nih.gov/19710631/)
 [^anton-2006-combine]: Anton RF, O'Malley SS, Ciraulo DA, et al. Combined pharmacotherapies and behavioral interventions for alcohol dependence: the COMBINE study. *JAMA.* 2006;295(17):2003-2017. [doi:10.1001/jama.295.17.2003](https://doi.org/10.1001/jama.295.17.2003) · [PubMed 16670409](https://pubmed.ncbi.nlm.nih.gov/16670409/)

@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "Marrow angiogenesis: increased bone-marrow (already mapped) microvascular density supported by VEGF is part of the altered leukaemic microenvironment that sustains the lymphoblastic clone in acute lymphoblastic leukaemia."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage niche: IL-4 polarises the marrow macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the leukaemic bone-marrow (already mapped) microenvironment that shelters the lymphoblasts of acute lymphoblastic leukaemia."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Marrow-adipocyte crosstalk: the marrow adipocytes and their adipokine adiponectin engage in metabolic crosstalk with the lymphoblasts, the marrow adipose tissue shaping the niche that sustains the clone in acute lymphoblastic leukaemia."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Adipokine marrow signalling: leptin, with adiponectin (already mapped), from the marrow adipose tissue signals to the leukaemic cells, part of the metabolic microenvironment and the chemoresistance of acute lymphoblastic leukaemia."
 ---
 
 # Acute Lymphoblastic Leukemia
@@ -695,6 +704,9 @@ Childhood ALL survivors (now majority of patients): neurocognitive impairment (M
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immunosuppressive marrow: IL-10 in the leukaemic marrow microenvironment dampens the anti-leukaemia T-cell response (MHC class II already mapped), part of the immune evasion that the CAR-T and bispecific immunotherapies of ALL aim to overcome.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Transfusional iron overload: the chronic red-cell transfusion support during intensive ALL therapy (haemoglobin already mapped) loads the body with iron, an overload burden that can require monitoring and chelation in the long-term survivor.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Marrow angiogenesis: increased bone-marrow (already mapped) microvascular density supported by VEGF is part of the altered leukaemic microenvironment that sustains the lymphoblastic clone in acute lymphoblastic leukaemia.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage niche: IL-4 polarises the marrow macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the leukaemic bone-marrow (already mapped) microenvironment that shelters the lymphoblasts of acute lymphoblastic leukaemia.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Marrow-adipocyte crosstalk: the marrow adipocytes and their adipokine adiponectin engage in metabolic crosstalk with the lymphoblasts, the marrow adipose tissue shaping the niche that sustains the clone in acute lymphoblastic leukaemia.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adipokine marrow signalling: leptin, with adiponectin (already mapped), from the marrow adipose tissue signals to the leukaemic cells, part of the metabolic microenvironment and the chemoresistance of acute lymphoblastic leukaemia.
 
 [^pui-2018-all-cure]: Pui CH, Yang JJ, Bhakta N, et al. Global efforts toward the cure of childhood acute lymphoblastic leukemia. *Lancet Child Adolesc Health.* 2018;2(6):440-454. [doi:10.1016/S2352-4642(18)30066-X](https://doi.org/10.1016/S2352-4642(18)30066-X) · [PubMed 29976322](https://pubmed.ncbi.nlm.nih.gov/29976322/)
 [^maude-2018-tisagenlecleucel]: Maude SL, Laetsch TW, Buechner J, et al. Tisagenlecleucel in children and young adults with B-cell lymphoblastic leukemia. *N Engl J Med.* 2018;378(5):439-448. [doi:10.1056/NEJMoa1709866](https://doi.org/10.1056/NEJMoa1709866) · [PubMed 29385370](https://pubmed.ncbi.nlm.nih.gov/29385370/)
