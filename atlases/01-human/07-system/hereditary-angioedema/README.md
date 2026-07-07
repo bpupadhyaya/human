@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/03-molecular/il-13
     relation: connects-to
     note: "Type-2 differential: IL-13, with IL-4 (already mapped), supports the type-2 mast-cell (already mapped) response of the allergic angioedema differential, which unlike hereditary angioedema responds to antihistamines and steroids."
+  - target: 01-human/03-molecular/baff
+    relation: connects-to
+    note: "Acquired C1-INH deficiency: BAFF supports the B cells of the lymphoproliferative disorders (CLL and lymphomas already mapped) that cause acquired C1-inhibitor deficiency, the key acquired-angioedema differential of the hereditary form."
+  - target: 01-human/03-molecular/cd20
+    relation: connects-to
+    note: "Rituximab in acquired AAE: the CD20 B cells of the underlying lymphoproliferative disorder are targeted by rituximab to treat the acquired C1-inhibitor deficiency, distinguishing its therapy from that of hereditary angioedema."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Autoimmune-associated angioedema: the type-I interferon of the autoimmune diseases (systemic lupus already mapped) associated with acquired C1-inhibitor deficiency reflects the immune dysregulation and complement (C3 already mapped) consumption of that differential."
 ---
 
 # Hereditary Angioedema
@@ -702,6 +711,9 @@ Fluid extravasation → ANGIOEDEMA
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Contact-system activation: zinc is required for the assembly of factor XII and high-molecular-weight kininogen on surfaces that triggers the kallikrein-kinin cascade generating the bradykinin (already mapped) of hereditary angioedema.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Histaminergic differential: IL-4 drives the mast-cell (already mapped) type-2 response of the far commoner histamine-mediated (already mapped) allergic angioedema, the differential that must be excluded before treating the bradykinin-mediated hereditary form.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 differential: IL-13, with IL-4 (already mapped), supports the type-2 mast-cell (already mapped) response of the allergic angioedema differential, which unlike hereditary angioedema responds to antihistamines and steroids.
+- `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — Acquired C1-INH deficiency: BAFF supports the B cells of the lymphoproliferative disorders (CLL and lymphomas already mapped) that cause acquired C1-inhibitor deficiency, the key acquired-angioedema differential of the hereditary form.
+- `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — Rituximab in acquired AAE: the CD20 B cells of the underlying lymphoproliferative disorder are targeted by rituximab to treat the acquired C1-inhibitor deficiency, distinguishing its therapy from that of hereditary angioedema.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Autoimmune-associated angioedema: the type-I interferon of the autoimmune diseases (systemic lupus already mapped) associated with acquired C1-inhibitor deficiency reflects the immune dysregulation and complement (C3 already mapped) consumption of that differential.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)

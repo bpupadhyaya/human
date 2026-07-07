@@ -426,6 +426,15 @@ cross_links:
   - target: 01-human/03-molecular/leptin
     relation: connects-to
     note: "Adipokine and steatosis: leptin, with the fall in adiponectin (already mapped), links the metabolic state to the hepatic steatosis and insulin resistance (already mapped) that accelerate the fibrosis of chronic hepatitis C."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Profibrotic type-2 arm: IL-13, with IL-4 (already mapped), drives the M2 macrophage and profibrotic (TGF-β and collagen already mapped) response in the liver fibrosis of chronic hepatitis C."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Zinc in chronic liver disease: the zinc deficiency common in chronic hepatitis C and cirrhosis impairs immune function and hepatic metabolism, and zinc supplementation has been studied as an antiviral adjunct."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipokine milieu: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory state to the steatosis and insulin resistance (already mapped) that accelerate the fibrosis of chronic hepatitis C."
 ---
 
 # Hepatitis C
@@ -688,3 +697,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Th1/Th2 balance: IL-4 drives the Th2 arm, and the balance between it and the Th1 response (IFN-γ already mapped) helps determine whether hepatitis C is cleared or persists as the chronic infection that DAAs now cure.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Th17 fibrogenesis: IL-17 from Th17 cells contributes to the immune-mediated liver injury and the fibrosis (TGF-β and collagen already mapped) of chronic hepatitis C, part of the inflammation driving cirrhosis.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adipokine and steatosis: leptin, with the fall in adiponectin (already mapped), links the metabolic state to the hepatic steatosis and insulin resistance (already mapped) that accelerate the fibrosis of chronic hepatitis C.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Profibrotic type-2 arm: IL-13, with IL-4 (already mapped), drives the M2 macrophage and profibrotic (TGF-β and collagen already mapped) response in the liver fibrosis of chronic hepatitis C.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc in chronic liver disease: the zinc deficiency common in chronic hepatitis C and cirrhosis impairs immune function and hepatic metabolism, and zinc supplementation has been studied as an antiviral adjunct.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine milieu: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory state to the steatosis and insulin resistance (already mapped) that accelerate the fibrosis of chronic hepatitis C.
