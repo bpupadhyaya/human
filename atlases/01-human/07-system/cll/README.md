@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/prostaglandins
     relation: connects-to
     note: "Microenvironment inflammation: prostaglandins in the lymph-node and marrow microenvironment (IL-6 and TNF already mapped) support the survival signalling of the CLL clone, part of the pro-tumour inflammatory milieu."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin sequesters iron and contributes, with the marrow infiltration and the autoimmune haemolysis, to the anaemia (haemoglobin already mapped) of CLL."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Marrow adipose niche: the marrow adipocytes and their adipokine leptin engage in crosstalk with the CLL clone, part of the bone-marrow microenvironment (CXCL12 already mapped) that supports its survival."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Adipokine microenvironment: adiponectin, with leptin (already mapped), from the marrow and stromal adipose tissue signals to the CLL cells, part of the metabolic microenvironment sustaining the clone."
 ---
 
 # CLL
@@ -668,6 +677,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Anaemia and transfusion: the marrow infiltration and the autoimmune haemolytic anaemia of CLL (haemoglobin already mapped) cause anaemia often needing transfusion, whose repeated support can load the body with iron.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune skewing: IL-13, with IL-4 (already mapped), reflects the type-2 cytokine skewing of the immune dysfunction of CLL, part of the T-cell dysregulation that accompanies the malignant B-cell clone.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Microenvironment inflammation: prostaglandins in the lymph-node and marrow microenvironment (IL-6 and TNF already mapped) support the survival signalling of the CLL clone, part of the pro-tumour inflammatory milieu.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of chronic disease: the IL-6-driven (already mapped) hepcidin sequesters iron and contributes, with the marrow infiltration and the autoimmune haemolysis, to the anaemia (haemoglobin already mapped) of CLL.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Marrow adipose niche: the marrow adipocytes and their adipokine leptin engage in crosstalk with the CLL clone, part of the bone-marrow microenvironment (CXCL12 already mapped) that supports its survival.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine microenvironment: adiponectin, with leptin (already mapped), from the marrow and stromal adipose tissue signals to the CLL cells, part of the metabolic microenvironment sustaining the clone.
 
 ---
 

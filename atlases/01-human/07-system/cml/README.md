@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Anaemia and transfusion: the marrow disruption of CML and its tyrosine-kinase-inhibitor therapy causes anaemia (haemoglobin already mapped) that can require transfusion, whose repeated support can load the body with iron."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage niche: IL-4 polarises the marrow macrophages toward an M2 phenotype that helps shelter the leukaemic stem cells in the bone-marrow (already mapped) microenvironment of CML."
+  - target: 01-human/03-molecular/pf4
+    relation: connects-to
+    note: "Thrombocytosis and platelets: CML commonly raises the platelet count, and platelet factor 4 from the expanded, sometimes dysfunctional platelets reflects the thrombo-haemorrhagic dimension of the myeloproliferation."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Marrow adipose crosstalk: the marrow adipocytes and their adipokine leptin signal to the leukaemic stem cells, part of the bone-marrow (already mapped) microenvironment that influences the persistence of the CML clone."
 ---
 
 # Chronic Myeloid Leukemia
@@ -668,6 +677,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — TKI endothelial toxicity: ponatinib and nilotinib impair endothelial nitric oxide and function, promoting the arterial-occlusive and cardiovascular events (troponin already mapped) that are a defining toxicity shaping tyrosine-kinase-inhibitor selection in CML.
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Nilotinib dyslipidaemia: nilotinib raises cholesterol and drives an atherogenic dyslipidaemia that, with its glucose effects (insulin already mapped), contributes to the vascular risk of the second-generation tyrosine-kinase inhibitors in CML.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Anaemia and transfusion: the marrow disruption of CML and its tyrosine-kinase-inhibitor therapy causes anaemia (haemoglobin already mapped) that can require transfusion, whose repeated support can load the body with iron.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage niche: IL-4 polarises the marrow macrophages toward an M2 phenotype that helps shelter the leukaemic stem cells in the bone-marrow (already mapped) microenvironment of CML.
+- `connects-to` → **[PF4](../../03-molecular/pf4/README.md)** — Thrombocytosis and platelets: CML commonly raises the platelet count, and platelet factor 4 from the expanded, sometimes dysfunctional platelets reflects the thrombo-haemorrhagic dimension of the myeloproliferation.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Marrow adipose crosstalk: the marrow adipocytes and their adipokine leptin signal to the leukaemic stem cells, part of the bone-marrow (already mapped) microenvironment that influences the persistence of the CML clone.
 
 ---
 
