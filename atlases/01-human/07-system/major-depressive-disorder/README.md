@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the metabolic-inflammatory (IL-6 already mapped) link to major depression."
+  - target: 01-human/07-system/social-anxiety-disorder
+    relation: connects-to
+    note: "Anxiety comorbidity: major depression and social anxiety disorder are highly comorbid, sharing the serotonergic (already mapped) dysregulation and the SSRI treatment."
+  - target: 01-human/07-system/panic-disorder
+    relation: connects-to
+    note: "Panic comorbidity: major depression and panic disorder are comorbid, sharing the serotonergic and noradrenergic (already mapped) dysregulation."
+  - target: 01-human/07-system/opioid-use-disorder
+    relation: connects-to
+    note: "Substance-use comorbidity: major depression is highly comorbid with opioid use disorder (the self-medication, the shared reward — dopamine already mapped — and stress — cortisol already mapped — dysregulation)."
 ---
 
 # Major Depressive Disorder
@@ -748,6 +757,9 @@ Approximately 30–40% of MDD patients have elevated inflammatory markers:
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Interferon-induced depression: interferon-α therapy is a classic cause of depression, and the type-I interferon neuroinflammatory (IFN-γ already mapped) signalling is implicated in the pathophysiology of major depression.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic-inflammatory adipokine: adiponectin, with leptin (already mapped), links the obesity and metabolic syndrome (insulin already mapped) to the inflammatory dimension of major depression.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the metabolic-inflammatory (IL-6 already mapped) link to major depression.
+- `connects-to` → **[Social anxiety disorder](../social-anxiety-disorder/README.md)** — Anxiety comorbidity: major depression and social anxiety disorder are highly comorbid, sharing the serotonergic (already mapped) dysregulation and the SSRI treatment.
+- `connects-to` → **[Panic disorder](../panic-disorder/README.md)** — Panic comorbidity: major depression and panic disorder are comorbid, sharing the serotonergic and noradrenergic (already mapped) dysregulation.
+- `connects-to` → **[Opioid use disorder](../opioid-use-disorder/README.md)** — Substance-use comorbidity: major depression is highly comorbid with opioid use disorder (the self-medication, the shared reward — dopamine already mapped — and stress — cortisol already mapped — dysregulation).
 
 [^cipriani-2018-antidepressants-meta]: Cipriani A, Furukawa TA, Salanti G, et al. Comparative efficacy and acceptability of 21 antidepressant drugs for acute treatment of adults with major depressive disorder. *Lancet.* 2018;391(10128):1357-1366. [doi:10.1016/S0140-6736(17)32802-7](https://doi.org/10.1016/S0140-6736(17)32802-7) · [PubMed 29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/)
 [^zarate-2006-ketamine-rapid]: Zarate CA Jr, Singh JB, Carlson PJ, et al. A randomized trial of an N-methyl-D-aspartate antagonist in treatment-resistant major depression. *Arch Gen Psychiatry.* 2006;63(8):856-864. [doi:10.1001/archpsyc.63.8.856](https://doi.org/10.1001/archpsyc.63.8.856) · [PubMed 16894061](https://pubmed.ncbi.nlm.nih.gov/16894061/)

@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Adipokine microenvironment: adiponectin, with leptin (already mapped), from the marrow adipose tissue signals within the metabolic microenvironment of mantle cell lymphoma."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipokine microenvironment: resistin, with leptin and adiponectin (already mapped), completes the marrow-adipocyte adipokine signalling of the microenvironment of mantle cell lymphoma."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "ADCC effectors: the NK cells mediate the antibody-dependent cellular cytotoxicity of the anti-CD20 (already mapped) rituximab against the mantle cell lymphoma B cells (already mapped)."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate antitumour interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment relevant to the immunotherapy of mantle cell lymphoma."
 ---
 
 # Mantle Cell Lymphoma
@@ -701,6 +710,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — M2 stromal arm: IL-13, with IL-4 (already mapped), drives the M2 macrophage arm of the immunosuppressive microenvironment of mantle cell lymphoma.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Marrow-adipocyte adipokine: leptin from the marrow adipose tissue of the bone-marrow (already mapped) microenvironment signals to the mantle cell lymphoma cells, part of its metabolic niche crosstalk.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine microenvironment: adiponectin, with leptin (already mapped), from the marrow adipose tissue signals within the metabolic microenvironment of mantle cell lymphoma.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine microenvironment: resistin, with leptin and adiponectin (already mapped), completes the marrow-adipocyte adipokine signalling of the microenvironment of mantle cell lymphoma.
+- `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — ADCC effectors: the NK cells mediate the antibody-dependent cellular cytotoxicity of the anti-CD20 (already mapped) rituximab against the mantle cell lymphoma B cells (already mapped).
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate antitumour interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment relevant to the immunotherapy of mantle cell lymphoma.
 
 ---
 
