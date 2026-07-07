@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/04-cellular/fibroblast
     relation: connects-to
     note: "Fibrous meningioma: the fibroblastic (fibrous) meningioma is a WHO grade-1 variant of spindled, fibroblast-like cells in a collagen-rich (already mapped) matrix, one of the histological subtypes of the tumour."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Obesity-risk adipokine: leptin links the obesity risk factor to meningioma, alongside the hormone-responsive (progesterone and estrogen already mapped) biology of the tumour."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the obesity-related meningioma risk."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the obesity-related meningioma risk."
 ---
 
 # Meningioma
@@ -684,6 +693,9 @@ VEGF overexpression in meningioma (YAP target); Phase 2 COMBIT (Huang 2019, N=40
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immune microenvironment of meningioma.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumour-associated macrophages: the macrophages (CCL2 already mapped) form a large part of the immune infiltrate of meningioma, and their M2 polarisation (IL-4 already mapped) shapes the tumour microenvironment.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Fibrous meningioma: the fibroblastic (fibrous) meningioma is a WHO grade-1 variant of spindled, fibroblast-like cells in a collagen-rich (already mapped) matrix, one of the histological subtypes of the tumour.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Obesity-risk adipokine: leptin links the obesity risk factor to meningioma, alongside the hormone-responsive (progesterone and estrogen already mapped) biology of the tumour.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the obesity-related meningioma risk.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the obesity-related meningioma risk.
 
 [^brastianos-2013-akt1-meningioma]: Brastianos PK, Horowitz PM, Santagata S, et al. Genomic sequencing of meningiomas identifies oncogenic SMO and AKT1 mutations. *Nat Genet.* 2013;45(3):285-289. [doi:10.1038/ng.2526](https://doi.org/10.1038/ng.2526) · [PubMed 23334667](https://pubmed.ncbi.nlm.nih.gov/23334667/)
 [^nassiri-2021-meningioma-classification]: Nassiri F, Liu J, Patil V, et al. A clinically applicable integrative molecular classification of meningiomas. *Nature.* 2021;597(7874):119-125. [doi:10.1038/s41586-021-03850-3](https://doi.org/10.1038/s41586-021-03850-3) · [PubMed 34385709](https://pubmed.ncbi.nlm.nih.gov/34385709/)
