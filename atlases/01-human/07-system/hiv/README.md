@@ -436,6 +436,15 @@ cross_links:
   - target: 01-human/03-molecular/leptin
     relation: connects-to
     note: "Lipodystrophy and metabolism: HIV and its antiretroviral therapy disturb the adipokine leptin (insulin and cholesterol already mapped), part of the lipodystrophy and metabolic syndrome that complicate long-term treatment."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Anaemia of chronic infection: the chronic inflammation (IL-6 already mapped) of HIV raises hepcidin (already mapped) to sequester iron, and the disturbed iron handling contributes to the anaemia (haemoglobin already mapped) of advanced infection."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Lipodystrophy adipokine: adiponectin, with leptin (already mapped), is disturbed by HIV and its antiretroviral therapy, the fall part of the insulin resistance (insulin already mapped) and metabolic syndrome of long-term treatment."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Th2 immune shift: IL-13, with IL-4 (already mapped), reflects the Th2 shift of the immune dysregulation of chronic HIV, part of the loss of the Th1 (IFN-γ already mapped) antiviral control."
 ---
 
 # HIV
@@ -710,6 +719,9 @@ The **latent reservoir** — HIV integrated into quiescent resting memory CD4+ T
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Immune-activation eicosanoids: prostaglandins from the chronic immune activation and inflammation (IL-6, TNF and IL-1 already mapped) of HIV modulate the immune response and contribute to the tissue injury of persistent infection.
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of chronic infection: the chronic inflammation (IL-6 already mapped) of HIV raises hepcidin, sequestering iron to produce the anaemia of chronic disease (haemoglobin already mapped) common in advanced infection.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Lipodystrophy and metabolism: HIV and its antiretroviral therapy disturb the adipokine leptin (insulin and cholesterol already mapped), part of the lipodystrophy and metabolic syndrome that complicate long-term treatment.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Anaemia of chronic infection: the chronic inflammation (IL-6 already mapped) of HIV raises hepcidin (already mapped) to sequester iron, and the disturbed iron handling contributes to the anaemia (haemoglobin already mapped) of advanced infection.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Lipodystrophy adipokine: adiponectin, with leptin (already mapped), is disturbed by HIV and its antiretroviral therapy, the fall part of the insulin resistance (insulin already mapped) and metabolic syndrome of long-term treatment.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Th2 immune shift: IL-13, with IL-4 (already mapped), reflects the Th2 shift of the immune dysregulation of chronic HIV, part of the loss of the Th1 (IFN-γ already mapped) antiviral control.
 
 [^barre-sinoussi-1983-hiv-isolation]: Barré-Sinoussi F, Chermann JC, Rey F, et al. Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS). *Science.* 1983;220(4599):868-871. [doi:10.1126/science.6189183](https://doi.org/10.1126/science.6189183) · [PubMed 6189183](https://pubmed.ncbi.nlm.nih.gov/6189183/)
 [^ho-1995-viral-dynamics]: Ho DD, Neumann AU, Perelson AS, et al. Rapid turnover of plasma virions and CD4 lymphocytes in HIV-1 infection. *Nature.* 1995;373(6510):123-126. [doi:10.1038/373123a0](https://doi.org/10.1038/373123a0) · [PubMed 7816094](https://pubmed.ncbi.nlm.nih.gov/7816094/)
