@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Adipokine inflammation: adiponectin and other adipokines (leptin already mapped) modulate the inflammation of ankylosing spondylitis, part of the metabolic-immune crosstalk shaping disease activity and its cardiovascular comorbidity."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Anaemia of inflammation: the chronic IL-6 (already mapped) inflammation of ankylosing spondylitis raises hepcidin, sequestering iron to produce the anaemia of chronic disease (haemoglobin already mapped) seen in active disease."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Iron sequestration: the systemic inflammation of ankylosing spondylitis sequesters iron through hepcidin (already mapped), causing the anaemia of chronic disease, part of its systemic haematological involvement."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Insulin resistance: the systemic inflammation (TNF and IL-6 already mapped) of ankylosing spondylitis and the reduced mobility promote insulin resistance (leptin and adiponectin already mapped), contributing to its metabolic and cardiovascular comorbidity."
 ---
 
 # Ankylosing Spondylitis
@@ -664,6 +673,9 @@ AS originates at the **enthesis** — the site where tendons, ligaments, and joi
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Cardiovascular risk: the chronic systemic inflammation of ankylosing spondylitis alters cholesterol handling and accelerates atherosclerosis (nitric oxide already mapped), raising the cardiovascular risk that adds to its aortitis and conduction disease.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative enthesitis: reactive oxygen species generated in the inflamed entheses, to which xanthine oxidase contributes, amplify the tissue injury, and the associated hyperuricaemia links ankylosing spondylitis to coexisting gout.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine inflammation: adiponectin and other adipokines (leptin already mapped) modulate the inflammation of ankylosing spondylitis, part of the metabolic-immune crosstalk shaping disease activity and its cardiovascular comorbidity.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of inflammation: the chronic IL-6 (already mapped) inflammation of ankylosing spondylitis raises hepcidin, sequestering iron to produce the anaemia of chronic disease (haemoglobin already mapped) seen in active disease.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron sequestration: the systemic inflammation of ankylosing spondylitis sequesters iron through hepcidin (already mapped), causing the anaemia of chronic disease, part of its systemic haematological involvement.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Insulin resistance: the systemic inflammation (TNF and IL-6 already mapped) of ankylosing spondylitis and the reduced mobility promote insulin resistance (leptin and adiponectin already mapped), contributing to its metabolic and cardiovascular comorbidity.
 
 [^sieper-2015-ankylosing-spondylitis-review]: Sieper J, Poddubnyy D. Ankylosing spondylitis. *Lancet.* 2017;390(10089):73-84. [doi:10.1016/S0140-6736(16)31591-4](https://doi.org/10.1016/S0140-6736(16)31591-4) · [PubMed 28110981](https://pubmed.ncbi.nlm.nih.gov/28110981/)
 [^baeten-2015-secukinumab-as]: Baeten D, Sieper J, Braun J, et al. Secukinumab, an Interleukin-17A Inhibitor, in Ankylosing Spondylitis. *N Engl J Med.* 2015;373(26):2534-2548. [doi:10.1056/NEJMoa1505066](https://doi.org/10.1056/NEJMoa1505066) · [PubMed 26699169](https://pubmed.ncbi.nlm.nih.gov/26699169/)

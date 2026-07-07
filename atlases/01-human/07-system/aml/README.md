@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "Immune evasion: IL-10 in the leukaemic marrow microenvironment dampens the anti-leukaemia T-cell response (MHC class II already mapped), part of the immune escape that AML exploits and that immunotherapy and transplant aim to overcome."
+  - target: 01-human/07-system/mds
+    relation: connects-to
+    note: "The MDS-AML continuum: myelodysplastic syndrome transforms to secondary AML, the two sharing the clonal-haematopoiesis mutations (TET2, DNMT3A and SF3B1 already mapped) along a spectrum defined by the blast count."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "M2 macrophage niche: IL-4 polarises the marrow macrophages toward an M2 phenotype (IL-10 already mapped), part of the immunosuppressive leukaemic marrow microenvironment that shelters the AML blasts."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Marrow-adipocyte crosstalk: the marrow adipocytes and their adipokine adiponectin engage in metabolic crosstalk with the AML blasts, the marrow adipose tissue supporting the leukaemia's fatty-acid metabolism and survival."
 ---
 
 # AML
@@ -666,6 +675,9 @@ AML requires cooperative mutations in at least 2 functional categories (Gillilan
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Anthracycline cardiotoxicity: the daunorubicin/idarubicin in 7+3 induction for AML is cardiotoxic, and troponin elevation helps detect the myocardial injury that limits the cumulative anthracycline dose in these often already-frail patients.
 - `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Tumour-lysis acidosis: the rapid lysis of the high blast burden of AML on induction releases acids that, with lactate, produce the metabolic acidosis of tumour-lysis syndrome (urate already mapped), part of its acute metabolic emergency.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immune evasion: IL-10 in the leukaemic marrow microenvironment dampens the anti-leukaemia T-cell response (MHC class II already mapped), part of the immune escape that AML exploits and that immunotherapy and transplant aim to overcome.
+- `connects-to` → **[Myelodysplastic syndrome](../mds/README.md)** — The MDS-AML continuum: myelodysplastic syndrome transforms to secondary AML, the two sharing the clonal-haematopoiesis mutations (TET2, DNMT3A and SF3B1 already mapped) along a spectrum defined by the blast count.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage niche: IL-4 polarises the marrow macrophages toward an M2 phenotype (IL-10 already mapped), part of the immunosuppressive leukaemic marrow microenvironment that shelters the AML blasts.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Marrow-adipocyte crosstalk: the marrow adipocytes and their adipokine adiponectin engage in metabolic crosstalk with the AML blasts, the marrow adipose tissue supporting the leukaemia's fatty-acid metabolism and survival.
 
 [^dinardo-2020-viale-a]: DiNardo CD, Jonas BA, Pullarkat V, et al. Azacitidine and venetoclax in previously untreated acute myeloid leukemia. *N Engl J Med.* 2020;383(7):617-629. [doi:10.1056/NEJMoa2012971](https://doi.org/10.1056/NEJMoa2012971) · [PubMed 32786187](https://pubmed.ncbi.nlm.nih.gov/32786187/)
 [^stone-2017-midostaurin]: Stone RM, Mandrekar SJ, Sanford BL, et al. Midostaurin plus chemotherapy for acute myeloid leukemia with a FLT3 mutation. *N Engl J Med.* 2017;377(5):454-464. [doi:10.1056/NEJMoa1614359](https://doi.org/10.1056/NEJMoa1614359) · [PubMed 28644114](https://pubmed.ncbi.nlm.nih.gov/28644114/)
