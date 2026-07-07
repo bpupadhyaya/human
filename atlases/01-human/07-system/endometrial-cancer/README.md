@@ -427,6 +427,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "Pulmonary metastases: the lungs are a common site of metastasis of advanced and serous (p53 already mapped) endometrial cancer, the haematogenous spread driving the prognosis of high-risk disease."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immunosuppressive microenvironment of endometrial cancer."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Tumour-associated macrophages: the macrophages (CCL2 already mapped) of the endometrial-cancer stroma, in their M2 (IL-4 already mapped) phenotype, drive the immunosuppression and angiogenesis (VEGF already mapped) of the tumour."
+  - target: 01-human/07-system/cowden-syndrome
+    relation: connects-to
+    note: "PTEN hamartoma syndrome: Cowden syndrome (germline PTEN already mapped) markedly raises the risk of endometrial cancer, part of the hereditary predisposition alongside Lynch syndrome (already mapped)."
 ---
 
 # Endometrial Cancer
@@ -688,6 +697,9 @@ cross_links:
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the immune microenvironment of the mismatch-repair-proficient endometrial cancers.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Bleeding and anaemia: the abnormal uterine bleeding that presents most endometrial cancer causes iron-deficiency anaemia (haemoglobin already mapped), and the chemotherapy of advanced disease adds a transfusional iron burden.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Pulmonary metastases: the lungs are a common site of metastasis of advanced and serous (p53 already mapped) endometrial cancer, the haematogenous spread driving the prognosis of high-risk disease.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immunosuppressive microenvironment of endometrial cancer.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumour-associated macrophages: the macrophages (CCL2 already mapped) of the endometrial-cancer stroma, in their M2 (IL-4 already mapped) phenotype, drive the immunosuppression and angiogenesis (VEGF already mapped) of the tumour.
+- `connects-to` → **[Cowden syndrome](../cowden-syndrome/README.md)** — PTEN hamartoma syndrome: Cowden syndrome (germline PTEN already mapped) markedly raises the risk of endometrial cancer, part of the hereditary predisposition alongside Lynch syndrome (already mapped).
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)
