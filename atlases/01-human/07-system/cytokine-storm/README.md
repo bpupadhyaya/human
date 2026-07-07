@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative tissue damage: the hyperinflammation generates a burst of reactive oxygen species, to which xanthine oxidase contributes, adding oxidative injury to the endothelial and organ damage of cytokine storm."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Counter-regulatory arm: IL-4, with IL-10 (already mapped), is part of the compensatory anti-inflammatory response that tries to restrain the runaway pro-inflammatory cytokines (IL-6, TNF and IL-1 already mapped) of cytokine storm."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 balance: IL-13, with IL-4 (already mapped), is part of the type-2 arm whose balance against the pro-inflammatory signals shapes the resolution or persistence of cytokine storm."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipokine severity marker: resistin, a pro-inflammatory adipokine released by the activated leukocytes, rises markedly in sepsis and cytokine storm (IL-6 already mapped) and tracks with the severity of the hyperinflammation."
 ---
 
 # Cytokine Storm
@@ -646,6 +655,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Fever and vasodilation: prostaglandin E2 driven by the IL-1 and IL-6 (already mapped) of the storm produces the high fever, and vasodilatory prostaglandins contribute to the hypotension of the hyperinflammatory state.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-mediated shock: bradykinin and the contact system amplify the vascular permeability and hypotension of cytokine storm, part of the distributive shock that, with the vasodilation (nitric oxide already mapped), causes organ hypoperfusion.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative tissue damage: the hyperinflammation generates a burst of reactive oxygen species, to which xanthine oxidase contributes, adding oxidative injury to the endothelial and organ damage of cytokine storm.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Counter-regulatory arm: IL-4, with IL-10 (already mapped), is part of the compensatory anti-inflammatory response that tries to restrain the runaway pro-inflammatory cytokines (IL-6, TNF and IL-1 already mapped) of cytokine storm.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 balance: IL-13, with IL-4 (already mapped), is part of the type-2 arm whose balance against the pro-inflammatory signals shapes the resolution or persistence of cytokine storm.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine severity marker: resistin, a pro-inflammatory adipokine released by the activated leukocytes, rises markedly in sepsis and cytokine storm (IL-6 already mapped) and tracks with the severity of the hyperinflammation.
 
 ## Pathology
 

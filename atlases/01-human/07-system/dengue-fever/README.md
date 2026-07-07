@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "Hypocalcaemia: hypocalcaemia is common in severe dengue and correlates with severity and plasma leak, part of the electrolyte derangement (sodium already mapped) of the vascular and metabolic disturbance."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Type-2 response: IL-4 and the type-2 cytokine skewing shape the T-cell response to dengue, and the cross-reactive memory (immunoglobulin G already mapped) of secondary infection contributes to the immunopathology of severe disease."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Hyperferritinaemia: the intense inflammation (IL-6 already mapped) of severe dengue raises hepcidin and ferritin, the hyperferritinaemia a marker of severity that reflects the macrophage activation of the disease."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Iron sequestration: the hepcidin-driven (already mapped) iron sequestration of the severe dengue inflammatory response contributes to the hyperferritinaemia and the transient anaemia (haemoglobin already mapped) of the illness."
 ---
 
 # Dengue Fever
@@ -667,3 +676,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Fever and permeability: prostaglandins from the inflammatory response (IL-6, TNF and histamine already mapped) drive the fever and contribute to the vascular permeability behind the plasma leak of severe dengue.
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Falling cholesterol: serum cholesterol and LDL fall in severe dengue, reflecting the hepatic (liver already mapped) dysfunction and the metabolic disturbance, and the drop tracks with disease severity and plasma leak.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Hypocalcaemia: hypocalcaemia is common in severe dengue and correlates with severity and plasma leak, part of the electrolyte derangement (sodium already mapped) of the vascular and metabolic disturbance.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Type-2 response: IL-4 and the type-2 cytokine skewing shape the T-cell response to dengue, and the cross-reactive memory (immunoglobulin G already mapped) of secondary infection contributes to the immunopathology of severe disease.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Hyperferritinaemia: the intense inflammation (IL-6 already mapped) of severe dengue raises hepcidin and ferritin, the hyperferritinaemia a marker of severity that reflects the macrophage activation of the disease.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron sequestration: the hepcidin-driven (already mapped) iron sequestration of the severe dengue inflammatory response contributes to the hyperferritinaemia and the transient anaemia (haemoglobin already mapped) of the illness.
