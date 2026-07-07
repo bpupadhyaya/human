@@ -417,6 +417,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Portal hypertension: as chronic hepatitis B progresses to cirrhosis, dysregulated nitric oxide contributes to the splanchnic vasodilation and portal hypertension (collagen already mapped for fibrosis) that cause its life-threatening complications."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Th1/Th2 balance: IL-4 drives the Th2 arm, and the balance between it and the Th1 response (IFN-γ already mapped) helps determine whether hepatitis B is cleared or persists as chronic infection."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "Th17 immunopathology: IL-17 from Th17 cells contributes to the immune-mediated liver injury and the fibrosis (TGF-β and collagen already mapped) of chronic hepatitis B, part of the inflammation driving cirrhosis."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Hepatic iron: chronic hepatitis B disturbs iron handling (hepcidin already mapped), and hepatic iron accumulation aggravates the oxidative liver injury and the fibrosis, raising the risk of hepatocellular carcinoma."
 ---
 
 # Hepatitis B
@@ -685,3 +694,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative hepatic injury: the iron accumulation (hepcidin already mapped) and inflammation of chronic hepatitis B generate reactive oxygen species, to which xanthine oxidase contributes, driving the hepatocyte damage and fibrosis toward cirrhosis and cancer.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Immune-complex disease: circulating hepatitis B antigen-antibody (immunoglobulin G already mapped) complexes activate complement and deposit in tissues, causing the membranous nephropathy (kidney already mapped) and polyarteritis nodosa of extrahepatic hepatitis B.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Portal hypertension: as chronic hepatitis B progresses to cirrhosis, dysregulated nitric oxide contributes to the splanchnic vasodilation and portal hypertension (collagen already mapped for fibrosis) that cause its life-threatening complications.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Th1/Th2 balance: IL-4 drives the Th2 arm, and the balance between it and the Th1 response (IFN-γ already mapped) helps determine whether hepatitis B is cleared or persists as chronic infection.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Th17 immunopathology: IL-17 from Th17 cells contributes to the immune-mediated liver injury and the fibrosis (TGF-β and collagen already mapped) of chronic hepatitis B, part of the inflammation driving cirrhosis.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Hepatic iron: chronic hepatitis B disturbs iron handling (hepcidin already mapped), and hepatic iron accumulation aggravates the oxidative liver injury and the fibrosis, raising the risk of hepatocellular carcinoma.

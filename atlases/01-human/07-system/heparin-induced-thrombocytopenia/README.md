@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative thrombo-inflammation: reactive oxygen species, to which xanthine oxidase contributes, are generated in the activated platelets and endothelium (already mapped) of HIT, adding oxidative stress to the prothrombotic, inflammatory state."
+  - target: 01-human/03-molecular/adenosine
+    relation: connects-to
+    note: "Platelet purinergic signalling: the ADP released from the activated platelets (already mapped) amplifies aggregation, while adenosine provides counter-regulatory inhibition, part of the purinergic control of the platelet activation that drives HIT."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Basophil activation: the anti-PF4/heparin antibodies (immunoglobulin G already mapped) activate basophils as well as platelets, releasing histamine, the basis of the basophil-activation test used to help diagnose HIT."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Platelet zinc and coagulation: zinc released from the activated platelets (already mapped) promotes the contact pathway and fibrin formation (fibrinogen and thrombin already mapped), contributing to the prothrombotic state of HIT."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -699,6 +708,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immune counter-regulation: IL-10 helps restrain the transient anti-PF4/heparin antibody response of HIT (IL-6 and TNF already mapped), part of the immunoregulation that limits this typically self-limited immune reaction.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 cytokine axis: IL-13, with IL-4 (already mapped), completes the type-2 cytokine support for the B-cell production of the pathogenic anti-PF4/heparin antibodies of HIT.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative thrombo-inflammation: reactive oxygen species, to which xanthine oxidase contributes, are generated in the activated platelets and endothelium (already mapped) of HIT, adding oxidative stress to the prothrombotic, inflammatory state.
+- `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Platelet purinergic signalling: the ADP released from the activated platelets (already mapped) amplifies aggregation, while adenosine provides counter-regulatory inhibition, part of the purinergic control of the platelet activation that drives HIT.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Basophil activation: the anti-PF4/heparin antibodies (immunoglobulin G already mapped) activate basophils as well as platelets, releasing histamine, the basis of the basophil-activation test used to help diagnose HIT.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Platelet zinc and coagulation: zinc released from the activated platelets (already mapped) promotes the contact pathway and fibrin formation (fibrinogen and thrombin already mapped), contributing to the prothrombotic state of HIT.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)
