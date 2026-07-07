@@ -424,6 +424,15 @@ cross_links:
   - target: 01-human/03-molecular/serotonin
     relation: connects-to
     note: "Serotonergic degeneration: loss of serotonergic neurons contributes to the depression, agitation and other behavioural symptoms of Alzheimer's (norepinephrine already mapped), and serotonergic drugs are used to manage these neuropsychiatric features."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Microglial polarisation: IL-4 polarises the microglia (already mapped) toward a neuroprotective M2 phenotype, and the balance against the pro-inflammatory activation shapes whether the neuroinflammation of Alzheimer's clears amyloid or damages neurons."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Neuroimmune balance: the anti-inflammatory IL-10 counters the microglial pro-inflammatory cytokines (TNF, IL-6 and IL-1 already mapped) of Alzheimer's, part of the neuroinflammatory balance that shapes the disease."
+  - target: 03-medicine/03-food/omega-3-fatty-acids
+    relation: connects-to
+    note: "Omega-3 and brain lipids: the omega-3 fatty acid DHA is a major structural lipid of the brain, and its pro-resolving mediators counter neuroinflammation (prostaglandins already mapped), the basis of dietary interest in omega-3 for cognitive decline."
 ---
 
 # Alzheimer's Disease
@@ -658,6 +667,9 @@ Microglia play a central, dual role in AD:
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative neurotoxicity: reactive oxygen species, to which xanthine oxidase contributes, are central to the amyloid- and tau-driven neurotoxicity of Alzheimer's (NRF2 already mapped), and the oxidative damage compounds the mitochondrial and metal (iron already mapped) injury.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Neuroinflammatory eicosanoids: prostaglandins from the microglial (already mapped) cyclooxygenase pathway drive the neuroinflammation of Alzheimer's (IL-6, TNF and IL-1 already mapped), and epidemiological studies link NSAID use to lower dementia risk.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Serotonergic degeneration: loss of serotonergic neurons contributes to the depression, agitation and other behavioural symptoms of Alzheimer's (norepinephrine already mapped), and serotonergic drugs are used to manage these neuropsychiatric features.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Microglial polarisation: IL-4 polarises the microglia (already mapped) toward a neuroprotective M2 phenotype, and the balance against the pro-inflammatory activation shapes whether the neuroinflammation of Alzheimer's clears amyloid or damages neurons.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Neuroimmune balance: the anti-inflammatory IL-10 counters the microglial pro-inflammatory cytokines (TNF, IL-6 and IL-1 already mapped) of Alzheimer's, part of the neuroinflammatory balance that shapes the disease.
+- `connects-to` → **[Omega-3 fatty acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Omega-3 and brain lipids: the omega-3 fatty acid DHA is a major structural lipid of the brain, and its pro-resolving mediators counter neuroinflammation (prostaglandins already mapped), the basis of dietary interest in omega-3 for cognitive decline.
 
 [^selkoe-2016-alzheimer]: Selkoe DJ, Hardy J. The amyloid hypothesis of Alzheimer's disease at 25 years. *EMBO Mol Med.* 2016;8(6):595-608. [doi:10.15252/emmm.201606210](https://doi.org/10.15252/emmm.201606210) · [PubMed 27025652](https://pubmed.ncbi.nlm.nih.gov/27025652/)
 [^jack-2018-nia-aa]: Jack CR Jr, Bennett DA, Blennow K, et al. NIA-AA Research Framework: Toward a biological definition of Alzheimer's disease. *Alzheimers Dement.* 2018;14(4):535-562. [doi:10.1016/j.jalz.2018.02.018](https://doi.org/10.1016/j.jalz.2018.02.018) · [PubMed 29653606](https://pubmed.ncbi.nlm.nih.gov/29653606/)

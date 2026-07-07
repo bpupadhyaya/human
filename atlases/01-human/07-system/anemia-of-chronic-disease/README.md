@@ -424,6 +424,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Erythropoietic suppression: nitric oxide generated in inflammation impairs erythroid progenitor proliferation and shortens red-cell survival, adding to the hepcidin-driven iron restriction (already mapped) in the anemia of chronic disease."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 iron-recycling macrophages: IL-13, with IL-4 (already mapped), polarises the macrophages (already mapped) toward the anti-inflammatory iron-recycling phenotype that opposes the iron-sequestering inflammatory state of the anemia of chronic disease."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Trace-metal redistribution: the inflammation of the anemia of chronic disease redistributes zinc as well as iron (already mapped), the hypozincaemia of inflammation accompanying the hypoferraemia in the acute-phase response."
+  - target: 01-human/07-system/inflammatory-bowel-disease
+    relation: connects-to
+    note: "A common cause: inflammatory bowel disease is a frequent cause of the anemia of chronic disease (IL-6 and hepcidin already mapped), often combined with iron-deficiency anaemia from chronic gastrointestinal blood loss."
 ---
 
 # Anemia of Chronic Disease
@@ -683,6 +692,9 @@ This adaptive rationale explains why **aggressive iron supplementation during ac
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Inflammatory eicosanoids: prostaglandins from the underlying inflammatory disease contribute to the cytokine milieu (IL-6, TNF and IL-1 already mapped) that raises hepcidin (already mapped) and blunts erythropoiesis in the anemia of chronic disease.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Macrophage polarisation: IL-4 polarises macrophages (already mapped) toward an iron-recycling, anti-inflammatory phenotype opposing the iron-sequestering inflammatory state, so the M1/M2 balance shapes the iron handling of the anemia of chronic disease.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Erythropoietic suppression: nitric oxide generated in inflammation impairs erythroid progenitor proliferation and shortens red-cell survival, adding to the hepcidin-driven iron restriction (already mapped) in the anemia of chronic disease.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 iron-recycling macrophages: IL-13, with IL-4 (already mapped), polarises the macrophages (already mapped) toward the anti-inflammatory iron-recycling phenotype that opposes the iron-sequestering inflammatory state of the anemia of chronic disease.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Trace-metal redistribution: the inflammation of the anemia of chronic disease redistributes zinc as well as iron (already mapped), the hypozincaemia of inflammation accompanying the hypoferraemia in the acute-phase response.
+- `connects-to` → **[Inflammatory bowel disease](../inflammatory-bowel-disease/README.md)** — A common cause: inflammatory bowel disease is a frequent cause of the anemia of chronic disease (IL-6 and hepcidin already mapped), often combined with iron-deficiency anaemia from chronic gastrointestinal blood loss.
 
 [^weiss-2005-acd-review]: Weiss G, Goodnough LT. Anemia of chronic disease. *N Engl J Med.* 2005;352(10):1011-1023. [doi:10.1056/NEJMra041809](https://doi.org/10.1056/NEJMra041809) · [PubMed 15758012](https://pubmed.ncbi.nlm.nih.gov/15758012/)
 [^nemeth-2004-il6-hepcidin]: Nemeth E, Rivera S, Gabayan V, et al. IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin. *J Clin Invest.* 2004;113(9):1271-1276. [doi:10.1172/JCI200420945](https://doi.org/10.1172/JCI200420945) · [PubMed 15124018](https://pubmed.ncbi.nlm.nih.gov/15124018/)
