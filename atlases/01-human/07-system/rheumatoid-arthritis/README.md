@@ -427,6 +427,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin
     relation: connects-to
     note: "Insulin resistance: the systemic inflammation (TNF and IL-6 already mapped) and the glucocorticoids used to treat rheumatoid arthritis cause insulin resistance, contributing to the metabolic and cardiovascular comorbidity of the disease."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Synovial adipokine: resistin, a pro-inflammatory adipokine (leptin and adiponectin already mapped), is elevated in the synovial fluid and serum of rheumatoid arthritis and correlates with the disease activity."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Th2 counter-regulation: IL-4 and the Th2/M2 arm (IL-10 already mapped) oppose the Th17 and Th1 (IL-17, IL-23 and IFN-γ already mapped) drive of the synovitis, the anti-inflammatory balance in rheumatoid arthritis."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 arm: IL-13, with IL-4 (already mapped), is part of the type-2 cytokine response whose balance against the pro-inflammatory signals shapes the joint inflammation of rheumatoid arthritis."
 ---
 
 # Rheumatoid Arthritis
@@ -705,6 +714,9 @@ RA patients have:
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of inflammation: the IL-6 surge (already mapped) of rheumatoid arthritis raises hepcidin, sequestering iron to produce the anaemia of chronic disease (haemoglobin already mapped) common in active disease.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Pro-inflammatory adipokine: leptin, with adiponectin (already mapped), links the articular and systemic fat to the synovial inflammation of rheumatoid arthritis, part of the adipokine-immune crosstalk shaping disease activity.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Insulin resistance: the systemic inflammation (TNF and IL-6 already mapped) and the glucocorticoids used to treat rheumatoid arthritis cause insulin resistance, contributing to the metabolic and cardiovascular comorbidity of the disease.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Synovial adipokine: resistin, a pro-inflammatory adipokine (leptin and adiponectin already mapped), is elevated in the synovial fluid and serum of rheumatoid arthritis and correlates with the disease activity.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Th2 counter-regulation: IL-4 and the Th2/M2 arm (IL-10 already mapped) oppose the Th17 and Th1 (IL-17, IL-23 and IFN-γ already mapped) drive of the synovitis, the anti-inflammatory balance in rheumatoid arthritis.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 arm: IL-13, with IL-4 (already mapped), is part of the type-2 cytokine response whose balance against the pro-inflammatory signals shapes the joint inflammation of rheumatoid arthritis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
