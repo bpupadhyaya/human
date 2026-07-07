@@ -418,6 +418,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative glandular injury: chronic lymphocytic inflammation of the exocrine glands generates oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species add to the epithelial damage of Sjögren's."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Glandular inflammation: prostaglandins from the lymphocytic sialadenitis (IL-6, TNF and IL-1 already mapped) amplify the inflammation of the exocrine glands, part of the inflammatory injury behind the sicca of Sjögren's syndrome."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Anaemia of inflammation: the chronic autoimmune inflammation (IL-6 already mapped) of Sjögren's causes the anaemia of chronic disease (haemoglobin already mapped) through iron sequestration, part of its systemic haematological involvement."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Impaired secretion and vasculature: nitric oxide, disturbed in the inflamed exocrine glands, affects the secretory and vascular function (acetylcholine already mapped), part of the glandular dysfunction of Sjögren's syndrome."
 ---
 
 # Sjögren's Syndrome
@@ -681,6 +690,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 B-cell help: IL-13, with the IL-4 (already mapped) type-2 response, supports the intense B-cell activation (BAFF already mapped) that produces the anti-Ro/La autoantibodies and the glandular lymphoid organisation of Sjögren's.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell and Treg balance: IL-2 drives the T-cell responses in the lymphocytic sialadenitis of Sjögren's, and low-dose IL-2 to restore regulatory T cells (CTLA-4 already mapped) is being trialled to rebalance the autoimmunity.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative glandular injury: chronic lymphocytic inflammation of the exocrine glands generates oxidative stress, to which xanthine oxidase contributes, and the resulting reactive oxygen species add to the epithelial damage of Sjögren's.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Glandular inflammation: prostaglandins from the lymphocytic sialadenitis (IL-6, TNF and IL-1 already mapped) amplify the inflammation of the exocrine glands, part of the inflammatory injury behind the sicca of Sjögren's syndrome.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Anaemia of inflammation: the chronic autoimmune inflammation (IL-6 already mapped) of Sjögren's causes the anaemia of chronic disease (haemoglobin already mapped) through iron sequestration, part of its systemic haematological involvement.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Impaired secretion and vasculature: nitric oxide, disturbed in the inflamed exocrine glands, affects the secretory and vascular function (acetylcholine already mapped), part of the glandular dysfunction of Sjögren's syndrome.
 
 ---
 
