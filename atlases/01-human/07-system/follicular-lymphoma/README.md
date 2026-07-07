@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "Zinc and lymphocyte immunity: zinc is essential for the lymphocyte biology and immune function, and disturbed zinc status accompanies the immune dysfunction of follicular lymphoma."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (with the type-I interferon already mapped) is the type-II interferon arm of the anti-lymphoma immunity of follicular lymphoma."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) anti-tumour response of the follicular-lymphoma microenvironment, opposing the immunosuppressive (IL-10 already mapped) milieu."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Selenium immune status: the selenium selenoprotein antioxidant defence supports the lymphocyte (zinc already mapped) immune function disturbed in follicular lymphoma."
 ---
 
 # Follicular Lymphoma
@@ -705,6 +714,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine milieu: resistin, with leptin and adiponectin (already mapped), completes the marrow-adipocyte adipokine signalling of the metabolic microenvironment of follicular lymphoma.
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Interferon immunity: type-I interferon shapes the innate-immune tumour microenvironment and underlay the historical interferon therapy of follicular lymphoma.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and lymphocyte immunity: zinc is essential for the lymphocyte biology and immune function, and disturbed zinc status accompanies the immune dysfunction of follicular lymphoma.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (with the type-I interferon already mapped) is the type-II interferon arm of the anti-lymphoma immunity of follicular lymphoma.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) anti-tumour response of the follicular-lymphoma microenvironment, opposing the immunosuppressive (IL-10 already mapped) milieu.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Selenium immune status: the selenium selenoprotein antioxidant defence supports the lymphocyte (zinc already mapped) immune function disturbed in follicular lymphoma.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
