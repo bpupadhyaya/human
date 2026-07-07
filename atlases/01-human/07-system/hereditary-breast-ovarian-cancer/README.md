@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Chemotherapy anaemia: the platinum and other chemotherapy for the BRCA-associated cancers causes anaemia (haemoglobin already mapped) often needing transfusion, whose repeated support can load the body with iron."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immunosuppressive microenvironment of the BRCA-associated breast and ovarian cancers."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Obesity and cancer risk: the adipokine leptin links obesity to the risk of the hormone-responsive breast (estrogen already mapped) and endometrial cancers, a modifiable factor modulating the penetrance in hereditary breast-ovarian cancer."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Adipokine modulation: adiponectin, with leptin (already mapped), links the metabolic state to the breast-cancer risk, part of the modifiable adipokine influence on the hormone-responsive cancers of hereditary breast-ovarian cancer."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -691,6 +700,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — COX-2 and aromatase: cyclooxygenase-2 and prostaglandin E2 promote aromatase-driven oestrogen synthesis (estrogen already mapped) and inflammation in breast tissue, part of the carcinogenesis of the BRCA-mutant breast cancers.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), part of the microenvironment that the immunotherapy explored for BRCA-mutant tumours must overcome.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Chemotherapy anaemia: the platinum and other chemotherapy for the BRCA-associated cancers causes anaemia (haemoglobin already mapped) often needing transfusion, whose repeated support can load the body with iron.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the immunosuppressive microenvironment of the BRCA-associated breast and ovarian cancers.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Obesity and cancer risk: the adipokine leptin links obesity to the risk of the hormone-responsive breast (estrogen already mapped) and endometrial cancers, a modifiable factor modulating the penetrance in hereditary breast-ovarian cancer.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine modulation: adiponectin, with leptin (already mapped), links the metabolic state to the breast-cancer risk, part of the modifiable adipokine influence on the hormone-responsive cancers of hereditary breast-ovarian cancer.
 
 ---
 
