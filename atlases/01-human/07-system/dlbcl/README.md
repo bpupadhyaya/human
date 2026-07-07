@@ -439,6 +439,15 @@ cross_links:
   - target: 01-human/03-molecular/hepcidin
     relation: connects-to
     note: "Anaemia of chronic disease: hepcidin, driven by the IL-6 (already mapped) of the lymphoma inflammation, sequesters iron and produces the anaemia of chronic disease (haemoglobin already mapped) of diffuse large B-cell lymphoma."
+  - target: 01-human/07-system/burkitt-lymphoma
+    relation: connects-to
+    note: "Double-hit differential: the diffuse large B-cell lymphoma and Burkitt lymphoma (MYC already mapped) overlap in the high-grade double-hit (MYC + BCL2 already mapped) B-cell lymphomas, a key diagnostic distinction."
+  - target: 01-human/07-system/cll
+    relation: connects-to
+    note: "Richter transformation: the chronic lymphocytic leukaemia can transform to the diffuse large B-cell lymphoma (Richter's syndrome), an aggressive turning point."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Tumour-lysis potassium: the bulky, chemosensitive DLBCL can release the potassium in the tumour-lysis syndrome at induction, a metabolic emergency."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -701,6 +710,9 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine milieu: resistin, with leptin and adiponectin (already mapped), completes the marrow-adipocyte adipokine signalling of the metabolic microenvironment of diffuse large B-cell lymphoma.
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate immune microenvironment: type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune tumour microenvironment relevant to the immunotherapy of diffuse large B-cell lymphoma.
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Anaemia of chronic disease: hepcidin, driven by the IL-6 (already mapped) of the lymphoma inflammation, sequesters iron and produces the anaemia of chronic disease (haemoglobin already mapped) of diffuse large B-cell lymphoma.
+- `connects-to` → **[Burkitt lymphoma](../burkitt-lymphoma/README.md)** — Double-hit differential: the diffuse large B-cell lymphoma and Burkitt lymphoma (MYC already mapped) overlap in the high-grade double-hit (MYC + BCL2 already mapped) B-cell lymphomas, a key diagnostic distinction.
+- `connects-to` → **[CLL](../cll/README.md)** — Richter transformation: the chronic lymphocytic leukaemia can transform to the diffuse large B-cell lymphoma (Richter's syndrome), an aggressive turning point.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Tumour-lysis potassium: the bulky, chemosensitive DLBCL can release the potassium in the tumour-lysis syndrome at induction, a metabolic emergency.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

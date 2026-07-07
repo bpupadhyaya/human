@@ -437,6 +437,15 @@ cross_links:
   - target: 01-human/03-molecular/histamine
     relation: connects-to
     note: "Enteroendocrine amine: histamine from the enterochromaffin-like cells of the gastric mucosa drives the acid-secretion axis, one of the paracrine/endocrine amine signals of the endocrine system."
+  - target: 01-human/04-cellular/hepatocyte
+    relation: connects-to
+    note: "Hepatic hormone hub: the hepatocytes produce the IGF-1 under GH (already mapped) control and the angiotensinogen (renin and angiotensin already mapped), and metabolise the steroid and thyroid hormones of the endocrine system."
+  - target: 01-human/04-cellular/osteoblast
+    relation: connects-to
+    note: "Bone as endocrine organ: the osteoblasts secrete the osteocalcin (a hormone modulating the insulin — already mapped — sensitivity and energy metabolism) and the FGF23 (already mapped), responding to the PTH (already mapped)."
+  - target: 01-human/07-system/nash
+    relation: connects-to
+    note: "Metabolic-syndrome disease: NASH is the hepatic manifestation of the metabolic syndrome (the insulin — already mapped — resistance and the adipokines already mapped), an endocrine/metabolic disease."
 ---
 
 # Endocrine System
@@ -734,6 +743,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Potassium homeostasis: the endocrine control of the potassium balance runs through aldosterone (already mapped) and the insulin (already mapped) shift, core electrolyte functions of the endocrine system.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipose as endocrine organ: resistin, with leptin and adiponectin (already mapped), is an adipokine of the adipose tissue acting as an endocrine organ that regulates the systemic metabolism.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Enteroendocrine amine: histamine from the enterochromaffin-like cells of the gastric mucosa drives the acid-secretion axis, one of the paracrine/endocrine amine signals of the endocrine system.
+- `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — Hepatic hormone hub: the hepatocytes produce the IGF-1 under GH (already mapped) control and the angiotensinogen (renin and angiotensin already mapped), and metabolise the steroid and thyroid hormones of the endocrine system.
+- `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — Bone as endocrine organ: the osteoblasts secrete the osteocalcin (a hormone modulating the insulin — already mapped — sensitivity and energy metabolism) and the FGF23 (already mapped), responding to the PTH (already mapped).
+- `connects-to` → **[NASH](../nash/README.md)** — Metabolic-syndrome disease: NASH is the hepatic manifestation of the metabolic syndrome (the insulin — already mapped — resistance and the adipokines already mapped), an endocrine/metabolic disease.
 
 ## Pathology
 
