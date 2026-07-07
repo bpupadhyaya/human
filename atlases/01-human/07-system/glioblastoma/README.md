@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "Oxidative necrosis: the hypoxic (HIF-1-alpha already mapped) and necrotic glioblastoma generates oxidative stress, to which xanthine oxidase contributes, and the reactive oxygen species add to the tumour microenvironment and treatment resistance."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "M2 niche and CAR-T target: IL-13, with IL-4 (already mapped), supports the M2 microglial niche, and the IL-13 receptor alpha-2 is a glioblastoma-associated antigen targeted by CAR-T and immunotoxin approaches."
+  - target: 01-human/03-molecular/acetylcholine
+    relation: connects-to
+    note: "Neuron-glioma signalling: alongside the glutamate and GABA (already mapped) synapses, cholinergic acetylcholine signalling is part of the neuronal activity that drives the growth of the electrically integrated glioblastoma."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "NMDA modulation: magnesium blocks the NMDA receptor and modulates the glutamate (already mapped) excitotoxicity and the neuron-glioma synaptic drive that promote the invasion of glioblastoma."
 ---
 
 # Glioblastoma
@@ -685,6 +694,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 microglial polarisation: IL-4 polarises the dominant tumour-associated microglia and macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped), central to the immunologically cold microenvironment of glioblastoma.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Neuroinflammatory eicosanoids: prostaglandins from the tumour-associated microglia (already mapped) and the cyclooxygenase pathway contribute to the immunosuppression and neuroinflammation (IL-6 and IL-1 already mapped) of the glioblastoma microenvironment.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative necrosis: the hypoxic (HIF-1-alpha already mapped) and necrotic glioblastoma generates oxidative stress, to which xanthine oxidase contributes, and the reactive oxygen species add to the tumour microenvironment and treatment resistance.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — M2 niche and CAR-T target: IL-13, with IL-4 (already mapped), supports the M2 microglial niche, and the IL-13 receptor alpha-2 is a glioblastoma-associated antigen targeted by CAR-T and immunotoxin approaches.
+- `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Neuron-glioma signalling: alongside the glutamate and GABA (already mapped) synapses, cholinergic acetylcholine signalling is part of the neuronal activity that drives the growth of the electrically integrated glioblastoma.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — NMDA modulation: magnesium blocks the NMDA receptor and modulates the glutamate (already mapped) excitotoxicity and the neuron-glioma synaptic drive that promote the invasion of glioblastoma.
 
 ---
 

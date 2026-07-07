@@ -421,6 +421,15 @@ cross_links:
   - target: 01-human/03-molecular/il-4
     relation: connects-to
     note: "M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped) in the stroma of the basal cell carcinomas of Gorlin syndrome, part of their immune-evasive niche."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the stroma of the multiple basal cell carcinomas of Gorlin syndrome."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Copper and skin: copper is the cofactor of lysyl oxidase that cross-links the dermal collagen (already mapped), part of the skin biology disturbed by the multiple basal cell carcinomas of Gorlin syndrome."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "UV eicosanoids: ultraviolet exposure induces cyclooxygenase-2 and prostaglandin E2 in the skin, promoting the inflammation and immunosuppression of the photocarcinogenesis that drives the basal cell carcinomas of Gorlin syndrome."
 ---
 
 # Gorlin Syndrome
@@ -666,6 +675,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Hedgehog-lipid link: cholesterol and its oxysterol derivatives activate Smoothened (already mapped), the driver of the Hedgehog pathway (PTCH1 already mapped) whose constitutive activity from PTCH1 loss causes the tumours of Gorlin syndrome.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Oxidative UV damage: ultraviolet exposure generates reactive oxygen species, to which xanthine oxidase contributes, and this oxidative DNA damage exacerbates the basal cell carcinomas of the sun-exposed skin in Gorlin syndrome.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — M2 macrophage polarisation: IL-4 polarises tumour-associated macrophages toward an immunosuppressive M2 phenotype (IL-10 already mapped) in the stroma of the basal cell carcinomas of Gorlin syndrome, part of their immune-evasive niche.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immune arm: IL-13, with IL-4 (already mapped), supports the M2 macrophage and type-2 milieu of the stroma of the multiple basal cell carcinomas of Gorlin syndrome.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper and skin: copper is the cofactor of lysyl oxidase that cross-links the dermal collagen (already mapped), part of the skin biology disturbed by the multiple basal cell carcinomas of Gorlin syndrome.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — UV eicosanoids: ultraviolet exposure induces cyclooxygenase-2 and prostaglandin E2 in the skin, promoting the inflammation and immunosuppression of the photocarcinogenesis that drives the basal cell carcinomas of Gorlin syndrome.
 
 ---
 
