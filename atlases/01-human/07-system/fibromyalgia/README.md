@@ -429,6 +429,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "Zinc status: the low zinc status reported in fibromyalgia; zinc modulates the NMDA and glutamate (already mapped) signalling and the antioxidant (xanthine oxidase already mapped) defence."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate neuroinflammation: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, is part of the low-grade neuroinflammation (IL-6 and TNF already mapped) implicated in the central sensitisation of fibromyalgia."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 arm: the IFN-γ of the T cells is the type-II interferon arm of the subtle immune-inflammatory dimension associated with fibromyalgia."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune-inflammatory dimension reported in fibromyalgia."
 sources:
   - id: wolfe-2016-fibromyalgia-criteria
     type: peer-reviewed
@@ -726,6 +735,9 @@ FM is not a single-etiology disorder but a convergent syndrome resulting from th
 - `connects-to` → **[Major depressive disorder](../major-depressive-disorder/README.md)** — Mood comorbidity: major depression is highly comorbid with fibromyalgia, the two sharing the serotonin-norepinephrine (already mapped) and stress (HPA and cortisol already mapped) dysregulation and the SNRI treatment.
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Neurogenic mast cells: the increased dermal mast cells (histamine already mapped) and the neurogenic (substance-P and CGRP already mapped) inflammation are implicated in the pain and the small-fibre involvement of fibromyalgia.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc status: the low zinc status reported in fibromyalgia; zinc modulates the NMDA and glutamate (already mapped) signalling and the antioxidant (xanthine oxidase already mapped) defence.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate neuroinflammation: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, is part of the low-grade neuroinflammation (IL-6 and TNF already mapped) implicated in the central sensitisation of fibromyalgia.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 arm: the IFN-γ of the T cells is the type-II interferon arm of the subtle immune-inflammatory dimension associated with fibromyalgia.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune-inflammatory dimension reported in fibromyalgia.
 
 [^wolfe-2016-fibromyalgia-criteria]: Wolfe F, Clauw DJ, Fitzcharles MA, et al. 2016 Revisions to the 2010/2011 fibromyalgia diagnostic criteria. *Semin Arthritis Rheum.* 2016;46(3):319-329. [doi:10.1016/j.semarthrit.2016.08.012](https://doi.org/10.1016/j.semarthrit.2016.08.012) · [PubMed 27916278](https://pubmed.ncbi.nlm.nih.gov/27916278/)
 [^clauw-2014-fibromyalgia-review]: Clauw DJ. Fibromyalgia: a clinical review. *JAMA.* 2014;311(15):1547-1555. [doi:10.1001/jama.2014.3266](https://doi.org/10.1001/jama.2014.3266) · [PubMed 24737367](https://pubmed.ncbi.nlm.nih.gov/24737367/)

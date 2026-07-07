@@ -442,6 +442,15 @@ cross_links:
   - target: 01-human/03-molecular/hepcidin
     relation: connects-to
     note: "Microbiome iron: the gut microbiome influences the intestinal iron absorption and competes for the luminal iron, interacting with the hepcidin (IL-6 already mapped) iron regulation."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Microbiome-NK tuning: the gut microbiome (via its metabolites and the tonic signals) tunes the NK-cell (perforin already mapped) function and the systemic innate immunity."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Tonic interferon priming: the commensal microbiome sets the tonic type-I interferon (cGAS-STING already mapped) that primes the antiviral and antitumour immunity of the host."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 induction: the microbiome-conditioned dendritic cells (already mapped) produce IL-12 to drive the Th1 (IFN-γ already mapped) arm of the gut-shaped systemic immunity."
 ---
 
 # Gut Microbiome
@@ -661,6 +670,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Metabolic adipokine: resistin, with leptin and adiponectin (already mapped), is the adipokine of the microbiome-host metabolic (insulin already mapped) crosstalk and the dysbiosis-associated inflammation.
 - `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — IgA plasma cells: the microbiome drives the expansion of the intestinal plasma cells that secrete the secretory IgA (already mapped) shaping the commensal community of the gut.
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Microbiome iron: the gut microbiome influences the intestinal iron absorption and competes for the luminal iron, interacting with the hepcidin (IL-6 already mapped) iron regulation.
+- `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Microbiome-NK tuning: the gut microbiome (via its metabolites and the tonic signals) tunes the NK-cell (perforin already mapped) function and the systemic innate immunity.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Tonic interferon priming: the commensal microbiome sets the tonic type-I interferon (cGAS-STING already mapped) that primes the antiviral and antitumour immunity of the host.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 induction: the microbiome-conditioned dendritic cells (already mapped) produce IL-12 to drive the Th1 (IFN-γ already mapped) arm of the gut-shaped systemic immunity.
 
 ## Pathology
 
