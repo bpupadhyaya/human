@@ -420,6 +420,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory state to the low-grade inflammation associated with the symptom burden of fibromyalgia."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Mood comorbidity: major depression is highly comorbid with fibromyalgia, the two sharing the serotonin-norepinephrine (already mapped) and stress (HPA and cortisol already mapped) dysregulation and the SNRI treatment."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Neurogenic mast cells: the increased dermal mast cells (histamine already mapped) and the neurogenic (substance-P and CGRP already mapped) inflammation are implicated in the pain and the small-fibre involvement of fibromyalgia."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Zinc status: the low zinc status reported in fibromyalgia; zinc modulates the NMDA and glutamate (already mapped) signalling and the antioxidant (xanthine oxidase already mapped) defence."
 sources:
   - id: wolfe-2016-fibromyalgia-criteria
     type: peer-reviewed
@@ -714,6 +723,9 @@ FM is not a single-etiology disorder but a convergent syndrome resulting from th
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 neuroimmunity: IL-13, with IL-4 (already mapped), supports the M2 microglia (already mapped) and the anti-inflammatory arm balancing the central neuroinflammation (IL-1, IL-6 and TNF already mapped) implicated in fibromyalgia.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine dimension: adiponectin, with leptin (already mapped), is part of the adipokine milieu of the metabolic and inflammatory comorbidity that accompanies the pain and fatigue of fibromyalgia.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory state to the low-grade inflammation associated with the symptom burden of fibromyalgia.
+- `connects-to` → **[Major depressive disorder](../major-depressive-disorder/README.md)** — Mood comorbidity: major depression is highly comorbid with fibromyalgia, the two sharing the serotonin-norepinephrine (already mapped) and stress (HPA and cortisol already mapped) dysregulation and the SNRI treatment.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Neurogenic mast cells: the increased dermal mast cells (histamine already mapped) and the neurogenic (substance-P and CGRP already mapped) inflammation are implicated in the pain and the small-fibre involvement of fibromyalgia.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc status: the low zinc status reported in fibromyalgia; zinc modulates the NMDA and glutamate (already mapped) signalling and the antioxidant (xanthine oxidase already mapped) defence.
 
 [^wolfe-2016-fibromyalgia-criteria]: Wolfe F, Clauw DJ, Fitzcharles MA, et al. 2016 Revisions to the 2010/2011 fibromyalgia diagnostic criteria. *Semin Arthritis Rheum.* 2016;46(3):319-329. [doi:10.1016/j.semarthrit.2016.08.012](https://doi.org/10.1016/j.semarthrit.2016.08.012) · [PubMed 27916278](https://pubmed.ncbi.nlm.nih.gov/27916278/)
 [^clauw-2014-fibromyalgia-review]: Clauw DJ. Fibromyalgia: a clinical review. *JAMA.* 2014;311(15):1547-1555. [doi:10.1001/jama.2014.3266](https://doi.org/10.1001/jama.2014.3266) · [PubMed 24737367](https://pubmed.ncbi.nlm.nih.gov/24737367/)

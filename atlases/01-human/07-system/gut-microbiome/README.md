@@ -433,6 +433,15 @@ cross_links:
   - target: 01-human/03-molecular/il-13
     relation: connects-to
     note: "Anti-helminth type-2 arm: IL-13, with IL-4 (already mapped), mediates the type-2 (anti-helminth) response that both shapes and is shaped by the gut microbiome, part of the host-microbe immune dialogue."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Metabolic adipokine: resistin, with leptin and adiponectin (already mapped), is the adipokine of the microbiome-host metabolic (insulin already mapped) crosstalk and the dysbiosis-associated inflammation."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "IgA plasma cells: the microbiome drives the expansion of the intestinal plasma cells that secrete the secretory IgA (already mapped) shaping the commensal community of the gut."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Microbiome iron: the gut microbiome influences the intestinal iron absorption and competes for the luminal iron, interacting with the hepcidin (IL-6 already mapped) iron regulation."
 ---
 
 # Gut Microbiome
@@ -649,6 +658,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[TNF-alpha](../../03-molecular/tnf-alpha/README.md)** — Endotoxin-driven inflammation: the microbial LPS (TLR4 already mapped) drives the TNF of the gut and systemic inflammation, and the dysbiosis-driven TNF underlies much of the inflammation of gut and metabolic disease.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Type-2 balance: the IL-4/Th2 (anti-helminth) arm (IL-10 already mapped) is shaped by the microbiome and balances the Th17 (IL-17 already mapped) and regulatory arms of the mucosal immune response to the commensals.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Anti-helminth type-2 arm: IL-13, with IL-4 (already mapped), mediates the type-2 (anti-helminth) response that both shapes and is shaped by the gut microbiome, part of the host-microbe immune dialogue.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Metabolic adipokine: resistin, with leptin and adiponectin (already mapped), is the adipokine of the microbiome-host metabolic (insulin already mapped) crosstalk and the dysbiosis-associated inflammation.
+- `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — IgA plasma cells: the microbiome drives the expansion of the intestinal plasma cells that secrete the secretory IgA (already mapped) shaping the commensal community of the gut.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Microbiome iron: the gut microbiome influences the intestinal iron absorption and competes for the luminal iron, interacting with the hepcidin (IL-6 already mapped) iron regulation.
 
 ## Pathology
 
