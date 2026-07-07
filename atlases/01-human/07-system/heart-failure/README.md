@@ -424,6 +424,15 @@ cross_links:
   - target: 01-human/03-molecular/angiopoietin
     relation: connects-to
     note: "Endothelial dysfunction: the angiopoietin-Tie2 axis reflects the endothelial dysfunction of heart failure (VEGF and endothelin already mapped), the congestion-driven endothelial activation contributing to the systemic and pulmonary vascular changes."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Fibrotic remodelling: IL-13, with IL-4 (already mapped), drives the M2 macrophage and profibrotic (TGF-β already mapped) response in the myocardial remodelling of heart failure."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Adipokine milieu: resistin, with leptin and adiponectin (already mapped), is part of the adipokine and inflammatory milieu of the metabolic comorbidity and cachexia (myostatin already mapped) of heart failure."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Tissue hypoxia: the low-output failing heart impairs oxygen delivery, causing the tissue hypoxia (HIF already mapped) and exertional limitation, and supplemental oxygen is used in acute decompensation."
 ---
 
 # Heart Failure
@@ -632,6 +641,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Cardiac M2 macrophages: IL-4 polarises the cardiac macrophages toward a reparative M2 phenotype (IL-10 already mapped), part of the myocardial inflammation and remodelling (TGF-β already mapped) of heart failure.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Prostaglandins and fluid: renal prostaglandins maintain perfusion during RAAS blockade (angiotensin already mapped), and NSAIDs that block them cause fluid retention that precipitates and worsens heart failure.
 - `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Endothelial dysfunction: the angiopoietin-Tie2 axis reflects the endothelial dysfunction of heart failure (VEGF and endothelin already mapped), the congestion-driven endothelial activation contributing to the systemic and pulmonary vascular changes.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Fibrotic remodelling: IL-13, with IL-4 (already mapped), drives the M2 macrophage and profibrotic (TGF-β already mapped) response in the myocardial remodelling of heart failure.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine milieu: resistin, with leptin and adiponectin (already mapped), is part of the adipokine and inflammatory milieu of the metabolic comorbidity and cachexia (myostatin already mapped) of heart failure.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Tissue hypoxia: the low-output failing heart impairs oxygen delivery, causing the tissue hypoxia (HIF already mapped) and exertional limitation, and supplemental oxygen is used in acute decompensation.
 
 ## Pathology
 

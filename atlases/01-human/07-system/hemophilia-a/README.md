@@ -430,6 +430,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Vascular and joint microenvironment: nitric oxide regulates the vascular tone and, in the iron-laden (already mapped) haemophilic joint, contributes to the synovial vascular changes and inflammation of the arthropathy."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Immune tolerance: the PD-1 checkpoint and the peripheral tolerance mechanisms are relevant to the immune-tolerance induction used to eradicate the factor VIII inhibitors (immunoglobulin already mapped) of haemophilia A."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Tolerance induction: the regulatory T cells are central to the immune-tolerance induction that re-establishes tolerance to factor VIII and eradicates the alloantibody inhibitors of haemophilia A."
+  - target: 01-human/03-molecular/baff
+    relation: connects-to
+    note: "Inhibitor B-cell survival: BAFF supports the survival of the alloreactive B cells (already mapped) that produce the factor VIII inhibitors, part of the humoral response that complicates haemophilia A replacement therapy."
 ---
 
 # Hemophilia A
@@ -688,6 +697,9 @@ FVIII is a critical **amplifier** of the coagulation cascade at the junction bet
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Coagulation factor IV: calcium is factor IV, an essential cofactor that anchors the clotting factors to membranes at the tenase and prothrombinase complexes (thrombin already mapped) where the missing factor VIII normally accelerates fibrin formation in haemophilia A.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Th17 inhibitor immunity: the IL-17-producing helper T cells, with the type-2 IL-4 and IL-13 (already mapped), support the B-cell (already mapped) alloantibody response that produces the factor VIII inhibitors of haemophilia A.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Vascular and joint microenvironment: nitric oxide regulates the vascular tone and, in the iron-laden (already mapped) haemophilic joint, contributes to the synovial vascular changes and inflammation of the arthropathy.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Immune tolerance: the PD-1 checkpoint and the peripheral tolerance mechanisms are relevant to the immune-tolerance induction used to eradicate the factor VIII inhibitors (immunoglobulin already mapped) of haemophilia A.
+- `connects-to` → **[Regulatory T cell](../../04-cellular/regulatory-t-cell/README.md)** — Tolerance induction: the regulatory T cells are central to the immune-tolerance induction that re-establishes tolerance to factor VIII and eradicates the alloantibody inhibitors of haemophilia A.
+- `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — Inhibitor B-cell survival: BAFF supports the survival of the alloreactive B cells (already mapped) that produce the factor VIII inhibitors, part of the humoral response that complicates haemophilia A replacement therapy.
 
 [^oldenburg-2017-emicizumab-haven1]: Oldenburg J, Mahlangu JN, Kim B, et al. Emicizumab prophylaxis in hemophilia A with inhibitors. *N Engl J Med.* 2017;377(9):809-818. [doi:10.1056/NEJMoa1703068](https://doi.org/10.1056/NEJMoa1703068) · [PubMed 28691557](https://pubmed.ncbi.nlm.nih.gov/28691557/)
 [^mahlangu-2018-emicizumab-haven3]: Mahlangu J, Oldenburg J, Paz-Priel I, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors. *N Engl J Med.* 2018;379(9):811-822. [doi:10.1056/NEJMoa1803550](https://doi.org/10.1056/NEJMoa1803550) · [PubMed 30157389](https://pubmed.ncbi.nlm.nih.gov/30157389/)
