@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: connects-to
     note: "Prognostic neutrophils: the tumour-infiltrating neutrophils and the neutrophil-lymphocyte ratio are prognostic markers in chordoma, part of its inflammatory microenvironment (CCL2 already mapped)."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the anti-tumour immunity, relevant to the checkpoint (PD-1 already mapped) immunotherapy and brachyury (TBXT already mapped) vaccine of chordoma."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune microenvironment of chordoma."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment of chordoma."
 ---
 
 # Chordoma
@@ -726,6 +735,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Marrow-bone adipokine: adiponectin, with leptin (already mapped), is part of the marrow-adipose (RANKL already mapped) bone-niche adipokine crosstalk of the axial chordoma.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine milieu: resistin, with leptin and adiponectin (already mapped), completes the bone-niche adipokine crosstalk of chordoma.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Prognostic neutrophils: the tumour-infiltrating neutrophils and the neutrophil-lymphocyte ratio are prognostic markers in chordoma, part of its inflammatory microenvironment (CCL2 already mapped).
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the anti-tumour immunity, relevant to the checkpoint (PD-1 already mapped) immunotherapy and brachyury (TBXT already mapped) vaccine of chordoma.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune microenvironment of chordoma.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment of chordoma.
 
 ---
 

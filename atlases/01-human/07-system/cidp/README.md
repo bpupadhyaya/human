@@ -456,6 +456,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the systemic inflammation (IL-6 already mapped) of CIDP."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Inflammatory infiltrate: the neutrophils and the neutrophil-lymphocyte ratio are part of the inflammatory infiltrate (CCL2 already mapped) of the demyelinating nerve lesions of CIDP."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension balancing the dominant Th1/Th17 (IFN-γ, IL-12 and IL-23 already mapped) drive of CIDP."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension present in a subset of CIDP."
 ---
 
 # CIDP
@@ -744,6 +753,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Immune-metabolic adipokine: leptin is the adipokine of the immune-metabolic milieu and the steroid (cortisol already mapped)-related metabolic disturbance of CIDP.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the immune-metabolic milieu of CIDP.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the systemic inflammation (IL-6 already mapped) of CIDP.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Inflammatory infiltrate: the neutrophils and the neutrophil-lymphocyte ratio are part of the inflammatory infiltrate (CCL2 already mapped) of the demyelinating nerve lesions of CIDP.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension balancing the dominant Th1/Th17 (IFN-γ, IL-12 and IL-23 already mapped) drive of CIDP.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension present in a subset of CIDP.
 
 ---
 
