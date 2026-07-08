@@ -472,6 +472,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Perivascular antigen presentation: the dendritic cells accumulate in the perivascular infiltrates and present antigen to the T cells (already mapped) in the inflammatory pulmonary-vascular remodelling of PAH."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) active on the remodelling pulmonary vasculature of PAH."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Iron deficiency: transferrin, the iron carrier, reflects the iron-deficiency (hepcidin already mapped) that is a common, prognostically important comorbidity of pulmonary arterial hypertension."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Perivascular T cells: the cytotoxic T cells (perforin pathway) of the perivascular infiltrates contribute to the adaptive-immune component of the pulmonary-vascular remodelling of PAH."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -746,6 +755,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 already mapped) contribute to the pulmonary-vascular inflammation and endothelial (already mapped) injury of PAH.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling links the complement to the perivascular myeloid recruitment in the pulmonary-vascular remodelling of PAH.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Perivascular antigen presentation: the dendritic cells accumulate in the perivascular infiltrates and present antigen to the T cells (already mapped) in the inflammatory pulmonary-vascular remodelling of PAH.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) active on the remodelling pulmonary vasculature of PAH.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Iron deficiency: transferrin, the iron carrier, reflects the iron-deficiency (hepcidin already mapped) that is a common, prognostically important comorbidity of pulmonary arterial hypertension.
+- `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Perivascular T cells: the cytotoxic T cells (perforin pathway) of the perivascular infiltrates contribute to the adaptive-immune component of the pulmonary-vascular remodelling of PAH.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

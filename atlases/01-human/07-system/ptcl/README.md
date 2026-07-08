@@ -466,6 +466,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c5
     relation: connects-to
     note: "Terminal complement: the complement C5 and its C5a provide the innate chemotactic arm within the polymorphous reactive infiltrate of peripheral T-cell lymphoma."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Central complement: the complement C3, upstream of the C5 (already mapped), is the pivot of the complement activation within the polymorphous reactive infiltrate of peripheral T-cell lymphoma."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) links the complement to the myeloid inflammation of the peripheral-T-cell-lymphoma microenvironment."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement evasion: the peripheral-T-cell-lymphoma cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), tempering the complement attack in the reactive microenvironment."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -760,6 +769,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Type-2 alarmin: TSLP, an epithelial/stromal alarmin, contributes to the type-2 (IL-4, IL-5, IL-13 and IL-31 already mapped) skewing of the polymorphous reactive microenvironment of peripheral T-cell lymphoma (especially AITL).
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Type-2 remodelling: periostin, downstream of the type-2 (IL-4 and IL-13 already mapped) cytokines, is part of the type-2 stromal-remodelling dimension of the reactive microenvironment of peripheral T-cell lymphoma.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a provide the innate chemotactic arm within the polymorphous reactive infiltrate of peripheral T-cell lymphoma.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Central complement: the complement C3, upstream of the C5 (already mapped), is the pivot of the complement activation within the polymorphous reactive infiltrate of peripheral T-cell lymphoma.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) links the complement to the myeloid inflammation of the peripheral-T-cell-lymphoma microenvironment.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the peripheral-T-cell-lymphoma cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), tempering the complement attack in the reactive microenvironment.
 
 ---
 
