@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/04-cellular/mast-cell
     relation: connects-to
     note: "Stromal mast cells: the mast cells of the tumour stroma contribute to the angiogenesis (VEGF already mapped) and the myxoid microenvironment of the Carney-complex tumours."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Tumour macrophages: the macrophages of the tumour stroma contribute to the immune microenvironment and the angiogenesis (VEGF already mapped) of the Carney-complex tumours."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement: the complement C5 and its C5a (with C3 already mapped) contribute to the inflammatory dimension of the Carney-complex tumour microenvironment."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the myeloid (macrophage already mapped) recruitment into the Carney-complex tumour stroma."
 ---
 
 # Carney Complex
@@ -749,6 +758,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Cytotoxic surveillance: the cytotoxic T cells (perforin already mapped) provide the antitumour surveillance of the myxomas and endocrine tumours of the Carney complex.
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines shaping the immune microenvironment of the Carney-complex tumours.
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Stromal mast cells: the mast cells of the tumour stroma contribute to the angiogenesis (VEGF already mapped) and the myxoid microenvironment of the Carney-complex tumours.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumour macrophages: the macrophages of the tumour stroma contribute to the immune microenvironment and the angiogenesis (VEGF already mapped) of the Carney-complex tumours.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 already mapped) contribute to the inflammatory dimension of the Carney-complex tumour microenvironment.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the myeloid (macrophage already mapped) recruitment into the Carney-complex tumour stroma.
 
 ---
 

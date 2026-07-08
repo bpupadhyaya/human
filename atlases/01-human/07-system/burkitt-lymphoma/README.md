@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/factor-h
     relation: connects-to
     note: "Complement evasion: the Burkitt-lymphoma cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), a resistance mechanism to the rituximab complement-dependent killing."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway of the anti-CD20 (already mapped) rituximab complement-dependent cytotoxicity against the Burkitt-lymphoma cells."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Microenvironment matricellular: osteopontin, a matricellular cytokine, is part of the inflammatory microenvironment of the highly proliferative Burkitt lymphoma."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "MYC-driven iron: transferrin, the iron carrier, supplies the high iron demand of the MYC-driven (already mapped) rapid proliferation of Burkitt lymphoma."
 ---
 
 # Burkitt Lymphoma
@@ -762,6 +771,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Rituximab CDC: the complement C5 (with C3 already mapped) is the effector of the complement-dependent cytotoxicity by which the anti-CD20 (already mapped) rituximab kills the Burkitt-lymphoma B cells (already mapped).
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling links the complement (C3 and C5 already mapped) to the myeloid inflammation of the Burkitt-lymphoma microenvironment.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the Burkitt-lymphoma cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), a resistance mechanism to the rituximab complement-dependent killing.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway of the anti-CD20 (already mapped) rituximab complement-dependent cytotoxicity against the Burkitt-lymphoma cells.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Microenvironment matricellular: osteopontin, a matricellular cytokine, is part of the inflammatory microenvironment of the highly proliferative Burkitt lymphoma.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — MYC-driven iron: transferrin, the iron carrier, supplies the high iron demand of the MYC-driven (already mapped) rapid proliferation of Burkitt lymphoma.
 
 ---
 
