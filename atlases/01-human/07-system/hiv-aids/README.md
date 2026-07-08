@@ -472,6 +472,15 @@ cross_links:
   - target: 01-human/03-molecular/factor-h
     relation: connects-to
     note: "Complement evasion: HIV recruits the host factor H (in part via its gp41) to protect the virion and the infected cell from the complement (C3, C5 and C5aR1 already mapped) attack in AIDS."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement/contact regulation: the C1-esterase inhibitor regulates the classical complement and the contact systems, a further layer of the complement (C3, C5, C5aR1 and factor H already mapped) balance HIV exploits for immune evasion in AIDS."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "AIDS anaemia iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the anaemia that is common and prognostically important in AIDS."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Immune-activation matricellular: osteopontin, elevated in AIDS, is a matricellular cytokine marking the chronic immune activation that drives the disease progression."
 ---
 
 # HIV/AIDS
@@ -738,6 +747,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its activation (with C3 already mapped) are part of the chronic complement activation of the immune activation of AIDS.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling links the complement to the myeloid inflammation and the persistent immune activation of AIDS.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: HIV recruits the host factor H (in part via its gp41) to protect the virion and the infected cell from the complement (C3, C5 and C5aR1 already mapped) attack in AIDS.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement/contact regulation: the C1-esterase inhibitor regulates the classical complement and the contact systems, a further layer of the complement (C3, C5, C5aR1 and factor H already mapped) balance HIV exploits for immune evasion in AIDS.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — AIDS anaemia iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the anaemia that is common and prognostically important in AIDS.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Immune-activation matricellular: osteopontin, elevated in AIDS, is a matricellular cytokine marking the chronic immune activation that drives the disease progression.
 
 ## See Also
 

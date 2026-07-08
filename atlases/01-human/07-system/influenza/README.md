@@ -472,6 +472,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "Immunopathology control: the regulatory T cells restrain the antiviral inflammation and promote the resolution and tissue repair after the influenza infection."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the complement-driven immunopathology of the severe influenza lung injury."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Lectin/classical regulation: the C1-esterase inhibitor regulates the classical and lectin (mannose-binding) complement pathways activated against the influenza virus, a candidate modulator of the lung immunopathology."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Acute-phase iron: transferrin, the iron carrier, reflects the hypoferraemia and disordered iron handling (hepcidin already mapped) of the acute-phase response to the influenza infection."
 ---
 
 # Influenza
@@ -759,3 +768,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its activation (with C3 already mapped) contribute to the innate inflammatory injury of the severe influenza pneumonia and the cytokine storm.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling drives the neutrophil (already mapped) recruitment and the immunopathology of the severe influenza lung injury.
 - `connects-to` → **[Regulatory T cell](../../04-cellular/regulatory-t-cell/README.md)** — Immunopathology control: the regulatory T cells restrain the antiviral inflammation and promote the resolution and tissue repair after the influenza infection.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the complement-driven immunopathology of the severe influenza lung injury.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Lectin/classical regulation: the C1-esterase inhibitor regulates the classical and lectin (mannose-binding) complement pathways activated against the influenza virus, a candidate modulator of the lung immunopathology.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Acute-phase iron: transferrin, the iron carrier, reflects the hypoferraemia and disordered iron handling (hepcidin already mapped) of the acute-phase response to the influenza infection.
