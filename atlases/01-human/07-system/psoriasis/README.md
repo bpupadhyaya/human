@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Dermal macrophages: the dermal macrophages (TNF and IL-6 already mapped) contribute to the psoriatic skin inflammation and the systemic inflammatory comorbidity."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Cutaneous NK/NKT: the NK and NKT cells (perforin already mapped) of the psoriatic skin contribute to the innate inflammation of the IL-17 (already mapped) axis of psoriasis."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 counter-arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 arm balancing the dominant Th17 (IL-17 and IL-23 already mapped) drive of psoriasis."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension present in a subset of psoriasis."
 ---
 
 # Psoriasis
@@ -706,6 +715,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Skin-barrier zinc: the zinc essential for the skin barrier and immunity; the zinc status is altered in psoriasis, and topical zinc is used in its management.
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Psoriatic march: psoriasis carries an increased atherosclerosis (cholesterol already mapped) and cardiovascular risk from the systemic inflammation (TNF and IL-6 already mapped), the 'psoriatic march'.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Dermal macrophages: the dermal macrophages (TNF and IL-6 already mapped) contribute to the psoriatic skin inflammation and the systemic inflammatory comorbidity.
+- `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Cutaneous NK/NKT: the NK and NKT cells (perforin already mapped) of the psoriatic skin contribute to the innate inflammation of the IL-17 (already mapped) axis of psoriasis.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 counter-arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 arm balancing the dominant Th17 (IL-17 and IL-23 already mapped) drive of psoriasis.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension present in a subset of psoriasis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
