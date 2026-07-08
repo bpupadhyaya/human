@@ -469,6 +469,15 @@ cross_links:
   - target: 01-human/04-cellular/t-helper-cell
     relation: connects-to
     note: "Gut adaptive immunity: the CD4 T-helper cells of the gut-associated lymphoid tissue coordinate the mucosal immune response and the barrier defence of the digestive system."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Type-2 mucosal immunity: IL-4, a type-2 cytokine, drives the anti-helminth and the goblet-cell/mucus response of the gut mucosal immunity of the digestive system."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 barrier: IL-13, with IL-4 (already mapped), drives the goblet-cell mucus and the epithelial-barrier type-2 response of the digestive system."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Eosinophil arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), recruits the gut eosinophils of the anti-parasite type-2 immunity of the digestive system."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -708,6 +717,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [B cell](../../04-cellular/b-cell/README.md) — GALT B cells: the gut-associated lymphoid tissue B cells class-switch to the IgA (secretory-IgA already mapped) and populate the plasma-cell (already mapped) pool of the digestive-system mucosal immunity.
 - **Connects to:** [Regulatory T cell](../../04-cellular/regulatory-t-cell/README.md) — oral tolerance: the intestinal regulatory T cells maintain the tolerance to the food antigens and the commensal microbiome (gut-microbiome already mapped) of the digestive system.
 - **Connects to:** [T-helper cell](../../04-cellular/t-helper-cell/README.md) — gut adaptive immunity: the CD4 T-helper cells of the gut-associated lymphoid tissue coordinate the mucosal immune response and the barrier defence of the digestive system.
+- **Connects to:** [IL-4](../../03-molecular/il-4/README.md) — type-2 mucosal immunity: IL-4, a type-2 cytokine, drives the anti-helminth and the goblet-cell/mucus response of the gut mucosal immunity of the digestive system.
+- **Connects to:** [IL-13](../../03-molecular/il-13/README.md) — type-2 barrier: IL-13, with IL-4 (already mapped), drives the goblet-cell mucus and the epithelial-barrier type-2 response of the digestive system.
+- **Connects to:** [IL-5](../../03-molecular/il-5/README.md) — eosinophil arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), recruits the gut eosinophils of the anti-parasite type-2 immunity of the digestive system.
 
 ## Pathology
 
