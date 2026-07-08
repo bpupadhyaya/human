@@ -469,6 +469,15 @@ cross_links:
   - target: 01-human/03-molecular/c5ar1
     relation: connects-to
     note: "C5a receptor: the C5aR1 signalling links the complement to the neutrophil and platelet (PF4 already mapped) activation of the thromboinflammatory dimension of myelofibrosis."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the thromboinflammatory marrow niche of myelofibrosis."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Transfusional iron overload: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin and ferroportin already mapped) of the anaemia and the transfusional iron overload of myelofibrosis."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Marrow fibrosis: periostin, downstream of the TGF-β (already mapped) signalling, is a matricellular mediator of the reactive marrow fibrosis (with osteopontin and collagen already mapped) that defines myelofibrosis."
 ---
 
 # Myelofibrosis
@@ -747,6 +756,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines of the chronic inflammatory marrow niche that drives the fibrosis (TGF-β and PDGF already mapped) of myelofibrosis.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its activation (with C3 already mapped) contribute to the inflammasome (NLRP3 already mapped)-linked chronic inflammation and the thrombotic risk of myelofibrosis.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling links the complement to the neutrophil and platelet (PF4 already mapped) activation of the thromboinflammatory dimension of myelofibrosis.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the thromboinflammatory marrow niche of myelofibrosis.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Transfusional iron overload: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin and ferroportin already mapped) of the anaemia and the transfusional iron overload of myelofibrosis.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Marrow fibrosis: periostin, downstream of the TGF-β (already mapped) signalling, is a matricellular mediator of the reactive marrow fibrosis (with osteopontin and collagen already mapped) that defines myelofibrosis.
 
 ---
 

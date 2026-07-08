@@ -467,6 +467,15 @@ cross_links:
   - target: 01-human/04-cellular/t-helper-cell
     relation: connects-to
     note: "CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines of the autoimmune arthritis and myositis of the musculoskeletal system."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Joint/bone complement: the complement C3 activation contributes to the inflammatory dimension of the synovium, cartilage and bone in the arthritides of the musculoskeletal system."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the neutrophil recruitment and promotes the osteoclast (already mapped) differentiation in the inflamed joints of the musculoskeletal system."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Synovial antigen presentation: the dendritic cells present antigen to the T cells (already mapped) in the autoimmune arthritis of the musculoskeletal system."
 ---
 
 # Musculoskeletal System
@@ -753,6 +762,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), reflects the type-2 immune dimension of the inflammatory and allergic disorders of the musculoskeletal system.
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Synovial/bone mast cells: the mast cells of the synovium, bone and muscle contribute to the inflammation and the tissue remodelling of the musculoskeletal system.
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines of the autoimmune arthritis and myositis of the musculoskeletal system.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Joint/bone complement: the complement C3 activation contributes to the inflammatory dimension of the synovium, cartilage and bone in the arthritides of the musculoskeletal system.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the neutrophil recruitment and promotes the osteoclast (already mapped) differentiation in the inflamed joints of the musculoskeletal system.
+- `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Synovial antigen presentation: the dendritic cells present antigen to the T cells (already mapped) in the autoimmune arthritis of the musculoskeletal system.
 
 ## Pathology
 
