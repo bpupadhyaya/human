@@ -457,6 +457,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "Innate immunity: the NK cells (perforin already mapped) are part of the innate immune dysregulation and the antiviral (eczema herpeticum) susceptibility of atopic dermatitis."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Antiviral interferon defect: the impaired type-I interferon response, downstream of the cGAS-STING (already mapped) and pDC sensing, underlies the antiviral defect and the eczema herpeticum susceptibility of atopic dermatitis."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Complement in skin: the complement C5, with C3 (already mapped), is activated in the atopic-dermatitis skin and contributes to the inflammation and the Staphylococcus aureus (already mapped) response."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling amplifies the neutrophil (already mapped) recruitment and the innate inflammation of the atopic-dermatitis skin."
 ---
 
 # Atopic Dermatitis
@@ -726,6 +735,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 chronic-phase arm: the IFN-γ of the T cells is the type-II interferon arm of the Th1 shift seen in the chronic, lichenified lesions of atopic dermatitis, counter to the acute Th2 (IL-4 and IL-13 already mapped).
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the chronic-phase inflammation of atopic dermatitis.
 - `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Innate immunity: the NK cells (perforin already mapped) are part of the innate immune dysregulation and the antiviral (eczema herpeticum) susceptibility of atopic dermatitis.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Antiviral interferon defect: the impaired type-I interferon response, downstream of the cGAS-STING (already mapped) and pDC sensing, underlies the antiviral defect and the eczema herpeticum susceptibility of atopic dermatitis.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Complement in skin: the complement C5, with C3 (already mapped), is activated in the atopic-dermatitis skin and contributes to the inflammation and the Staphylococcus aureus (already mapped) response.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling amplifies the neutrophil (already mapped) recruitment and the innate inflammation of the atopic-dermatitis skin.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
