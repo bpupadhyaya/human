@@ -457,6 +457,15 @@ cross_links:
   - target: 01-human/03-molecular/il-12
     relation: connects-to
     note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune response that drives the FVIII-inhibitor formation in haemophilia A."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the T-helper (already mapped) response to the infused FVIII in haemophilia A."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune response to the FVIII in haemophilia A."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2/anaphylaxis arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), can develop against the infused factor and underlies the rare anaphylactic reactions in haemophilia A."
 ---
 
 # Hemophilia A
@@ -724,6 +733,9 @@ FVIII is a critical **amplifier** of the coagulation cascade at the junction bet
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the synovial and metabolic milieu of the haemophilic arthropathy.
 - `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 inhibitor immunity: the IFN-γ of the T-helper cells (already mapped) is the type-II interferon arm of the anti-FVIII alloantibody (immunoglobulin already mapped) inhibitor response of haemophilia A.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune response that drives the FVIII-inhibitor formation in haemophilia A.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the T-helper (already mapped) response to the infused FVIII in haemophilia A.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune response to the FVIII in haemophilia A.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2/anaphylaxis arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), can develop against the infused factor and underlies the rare anaphylactic reactions in haemophilia A.
 
 [^oldenburg-2017-emicizumab-haven1]: Oldenburg J, Mahlangu JN, Kim B, et al. Emicizumab prophylaxis in hemophilia A with inhibitors. *N Engl J Med.* 2017;377(9):809-818. [doi:10.1056/NEJMoa1703068](https://doi.org/10.1056/NEJMoa1703068) · [PubMed 28691557](https://pubmed.ncbi.nlm.nih.gov/28691557/)
 [^mahlangu-2018-emicizumab-haven3]: Mahlangu J, Oldenburg J, Paz-Priel I, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors. *N Engl J Med.* 2018;379(9):811-822. [doi:10.1056/NEJMoa1803550](https://doi.org/10.1056/NEJMoa1803550) · [PubMed 30157389](https://pubmed.ncbi.nlm.nih.gov/30157389/)

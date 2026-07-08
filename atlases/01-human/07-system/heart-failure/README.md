@@ -451,6 +451,15 @@ cross_links:
   - target: 01-human/03-molecular/il-12
     relation: connects-to
     note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the cardiac inflammation of heart failure."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune-inflammatory remodelling of heart failure (and the eosinophilic myocarditis)."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the cardiac inflammation and fibrosis of heart failure."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the cardiac inflammation of heart failure."
 ---
 
 # Heart Failure
@@ -668,6 +677,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate cardiac interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) sensing of the cardiomyocyte (already mapped) stress and DNA damage, drives the sterile inflammation of the failing myocardium.
 - `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 cardiac inflammation: the IFN-γ of the infiltrating T cells is the type-II interferon arm of the immune-mediated inflammation (macrophages already mapped) of the adverse remodelling of heart failure.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the cardiac inflammation of heart failure.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune-inflammatory remodelling of heart failure (and the eosinophilic myocarditis).
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the cardiac inflammation and fibrosis of heart failure.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the cardiac inflammation of heart failure.
 
 ## Pathology
 
