@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/c1-esterase-inhibitor
     relation: connects-to
     note: "Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement and contact pathways activated in the inflamed atopic-dermatitis skin."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Type-2 matricellular: osteopontin, elevated in the atopic-dermatitis skin and serum, is a matricellular cytokine amplifying the type-2 (IL-4 and IL-13 already mapped) and myeloid inflammation of the eczema."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "Chronic-lesion remodelling: collagen, the dermal extracellular-matrix scaffold, is remodelled in the lichenification and dermal fibrosis of the chronic atopic-dermatitis plaque."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Chronic-inflammation iron: transferrin, the iron carrier, reflects the disordered iron handling of the systemic inflammation of severe atopic dermatitis."
 ---
 
 # Atopic Dermatitis
@@ -750,6 +759,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Tc2 skin infiltrate: the cytotoxic T cells (perforin already mapped), including the type-2 Tc2 subset, are part of the lesional infiltrate contributing to the barrier damage of atopic dermatitis.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) active in the atopic-dermatitis skin and on the Staphylococcus aureus (already mapped) surface.
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement and contact pathways activated in the inflamed atopic-dermatitis skin.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Type-2 matricellular: osteopontin, elevated in the atopic-dermatitis skin and serum, is a matricellular cytokine amplifying the type-2 (IL-4 and IL-13 already mapped) and myeloid inflammation of the eczema.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Chronic-lesion remodelling: collagen, the dermal extracellular-matrix scaffold, is remodelled in the lichenification and dermal fibrosis of the chronic atopic-dermatitis plaque.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Chronic-inflammation iron: transferrin, the iron carrier, reflects the disordered iron handling of the systemic inflammation of severe atopic dermatitis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
