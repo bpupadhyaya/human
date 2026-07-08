@@ -472,6 +472,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), reflects the type-2 immune dimension of the mixed immune profile of dermatomyositis."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Fibrotic effector: the fibroblasts and myofibroblasts drive the dermal and the pulmonary (the anti-MDA5 rapidly-progressive ILD already mapped) fibrosis of dermatomyositis."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Epithelial alarmin: TSLP, released by the injured keratinocytes and epithelium, contributes to the type-2 (IL-4 and IL-13 already mapped) dimension and the skin/lung inflammation of dermatomyositis."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Type-2 remodelling: periostin, downstream of the type-2 (IL-4 and IL-13 already mapped) cytokines, is a biomarker of the fibrotic remodelling of the skin and interstitial lung disease of dermatomyositis."
 ---
 ---
 
@@ -749,6 +758,9 @@ DM carries a ~3–7× elevated cancer risk overall. Anti-TIF1γ (TRIM33) suppres
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Mast-cell infiltrate: the mast cells infiltrate the perivascular skin and muscle lesions and contribute to the type-2 (IL-4 and IL-13 already mapped) dimension of dermatomyositis.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophil infiltrate: the neutrophils and the NETs (S100A8/9 already mapped) contribute to the vasculopathy and the anti-MDA5 rapidly-progressive ILD of dermatomyositis.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), reflects the type-2 immune dimension of the mixed immune profile of dermatomyositis.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Fibrotic effector: the fibroblasts and myofibroblasts drive the dermal and the pulmonary (the anti-MDA5 rapidly-progressive ILD already mapped) fibrosis of dermatomyositis.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Epithelial alarmin: TSLP, released by the injured keratinocytes and epithelium, contributes to the type-2 (IL-4 and IL-13 already mapped) dimension and the skin/lung inflammation of dermatomyositis.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Type-2 remodelling: periostin, downstream of the type-2 (IL-4 and IL-13 already mapped) cytokines, is a biomarker of the fibrotic remodelling of the skin and interstitial lung disease of dermatomyositis.
 
 [^bohan-peter-1975-dm-criteria]: Bohan A, Peter JB. Polymyositis and dermatomyositis. *N Engl J Med.* 1975;292(7):344-347. [doi:10.1056/NEJM197502132920706](https://doi.org/10.1056/NEJM197502132920706) · [PubMed 1090839](https://pubmed.ncbi.nlm.nih.gov/1090839/)
 [^lundberg-2021-iim-classification]: Lundberg IE, et al. 2017 EULAR/ACR classification criteria for adult and juvenile idiopathic inflammatory myopathies. *Arthritis Rheumatol.* 2017;69(12):2271-2282. [doi:10.1002/art.40320](https://doi.org/10.1002/art.40320) · [PubMed 29106061](https://pubmed.ncbi.nlm.nih.gov/29106061/)

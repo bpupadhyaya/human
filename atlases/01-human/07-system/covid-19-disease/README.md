@@ -466,6 +466,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the dysregulated type-1/type-2 balance of COVID-19."
+  - target: 02-pathogen/01-viruses/sars-cov-2
+    relation: connects-to
+    note: "Causative virus: SARS-CoV-2, entering via the ACE2 (already mapped) receptor through its spike (already mapped), is the causative agent of COVID-19."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Plasmacytoid dendritic cells: the pDCs are the major producers of the type-I interferon (already mapped), whose impaired or delayed response is a determinant of the severity of COVID-19."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the neutrophil (already mapped) recruitment and the complement-mediated thromboinflammation of severe COVID-19."
 ---
 
 # COVID-19 Disease
@@ -680,6 +689,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2/eosinophil arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension whose blood eosinopenia is a marker of severe COVID-19.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the dysregulated inflammation of severe COVID-19.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the dysregulated type-1/type-2 balance of COVID-19.
+- `connects-to` → **[SARS-CoV-2](../../../02-pathogen/01-viruses/sars-cov-2/README.md)** — Causative virus: SARS-CoV-2, entering via the ACE2 (already mapped) receptor through its spike (already mapped), is the causative agent of COVID-19.
+- `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Plasmacytoid dendritic cells: the pDCs are the major producers of the type-I interferon (already mapped), whose impaired or delayed response is a determinant of the severity of COVID-19.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the neutrophil (already mapped) recruitment and the complement-mediated thromboinflammation of severe COVID-19.
 
 ## Pathology
 
