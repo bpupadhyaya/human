@@ -456,6 +456,15 @@ cross_links:
   - target: 01-human/03-molecular/c5ar1
     relation: connects-to
     note: "Complement C5a receptor: the C5aR1 signalling (with the complement C3 already mapped), activated after nerve injury, drives the myeloid recruitment and the neuroinflammation that sensitises the nociceptors of neuropathic pain."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement: the complement C5 and its C5a (with C3 and C5aR1 already mapped) are generated after nerve injury and drive the membrane-attack and the neuroinflammation that sensitises the nociceptors of neuropathic pain."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the post-nerve-injury complement activation of neuropathic pain."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Nerve antigen presentation: the dendritic cells of the injured nerve and CNS-border compartments present antigen to the T cells (already mapped) in the neuroinflammation of neuropathic pain."
 sources:
   - id: jensen-2011-neuropathic-pain-review
     type: peer-reviewed
@@ -765,6 +774,9 @@ Chronic neuropathic pain carries significant psychological burden:
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 neuroimmune arm: the CD4 T-helper cells infiltrate the injured nerve and dorsal-root ganglion and, via the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines, modulate the neuropathic pain.
 - `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — NK nerve clearance: the NK cells (perforin already mapped) infiltrate the injured nerve and, by clearing the damaged sensory neurons (already mapped), modulate the resolution or persistence of neuropathic pain.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — Complement C5a receptor: the C5aR1 signalling (with the complement C3 already mapped), activated after nerve injury, drives the myeloid recruitment and the neuroinflammation that sensitises the nociceptors of neuropathic pain.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 and C5aR1 already mapped) are generated after nerve injury and drive the membrane-attack and the neuroinflammation that sensitises the nociceptors of neuropathic pain.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the post-nerve-injury complement activation of neuropathic pain.
+- `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Nerve antigen presentation: the dendritic cells of the injured nerve and CNS-border compartments present antigen to the T cells (already mapped) in the neuroinflammation of neuropathic pain.
 
 [^jensen-2011-neuropathic-pain-review]: Jensen TS, Baron R, Haanpää M, et al. A new definition of neuropathic pain. *Pain.* 2011;152(10):2204-2205. [doi:10.1016/j.pain.2011.06.017](https://doi.org/10.1016/j.pain.2011.06.017) · [PubMed 21764514](https://pubmed.ncbi.nlm.nih.gov/21764514/)
 [^dworkin-2010-neuropathic-pain-treatment]: Dworkin RH, O'Connor AB, Audette J, et al. Recommendations for the pharmacological management of neuropathic pain. *Mayo Clin Proc.* 2010;85(3 Suppl):S3-14. [doi:10.4065/mcp.2009.0649](https://doi.org/10.4065/mcp.2009.0649) · [PubMed 20194146](https://pubmed.ncbi.nlm.nih.gov/20194146/)

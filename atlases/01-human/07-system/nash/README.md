@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c5
     relation: connects-to
     note: "Terminal complement: the complement C5 and its activation (with C3 already mapped) contribute to the Kupffer-cell (macrophage already mapped) activation and the lobular inflammation of NASH."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the Kupffer-cell (macrophage already mapped) and myeloid activation of the lobular inflammation of NASH."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the complement-driven inflammation of NASH."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Dysmetabolic iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the dysmetabolic hepatic iron overload that aggravates the oxidative injury and fibrosis of NASH."
 ---
 
 # NASH
@@ -716,6 +725,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th17 (IFN-γ and IL-17 already mapped) cytokines that drive the lobular inflammation and the fibrosis of NASH.
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Hepatic mast cells: the mast cells accumulate in the fibrosing liver (already mapped) and, via their mediators, promote the stellate-cell (fibroblast already mapped) activation and fibrosis of NASH.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its activation (with C3 already mapped) contribute to the Kupffer-cell (macrophage already mapped) activation and the lobular inflammation of NASH.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the Kupffer-cell (macrophage already mapped) and myeloid activation of the lobular inflammation of NASH.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the complement-driven inflammation of NASH.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Dysmetabolic iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the dysmetabolic hepatic iron overload that aggravates the oxidative injury and fibrosis of NASH.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
