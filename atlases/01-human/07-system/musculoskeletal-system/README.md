@@ -449,6 +449,15 @@ cross_links:
   - target: 01-human/03-molecular/il-5
     relation: connects-to
     note: "Eosinophil arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), drives the eosinophilia of the eosinophilic myositis and fasciitis of the musculoskeletal system."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the inflammatory myopathies and arthritides of the musculoskeletal system."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the spondyloarthritis and the enthesitis of the musculoskeletal system."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Interferon myopathy: the type-I interferon signature drives the inflammatory myopathies (the dermatomyositis) of the musculoskeletal system."
 ---
 
 # Musculoskeletal System
@@ -729,6 +738,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Inflammatory myopathy: the IFN-γ of the infiltrating T cells is the type-II interferon arm of the immune-mediated inflammatory myopathies and arthritides of the musculoskeletal system.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 muscle immunity: IL-13, with IL-4 (already mapped), is the type-2 immune arm implicated in the muscle repair and the eosinophilic/fibrosing myopathies of the musculoskeletal system.
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Eosinophil arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), drives the eosinophilia of the eosinophilic myositis and fasciitis of the musculoskeletal system.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the inflammatory myopathies and arthritides of the musculoskeletal system.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the spondyloarthritis and the enthesitis of the musculoskeletal system.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Interferon myopathy: the type-I interferon signature drives the inflammatory myopathies (the dermatomyositis) of the musculoskeletal system.
 
 ## Pathology
 

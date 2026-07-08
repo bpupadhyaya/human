@@ -451,6 +451,15 @@ cross_links:
   - target: 01-human/03-molecular/il-12
     relation: connects-to
     note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the inflammatory microenvironment of myelofibrosis."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the inflammatory bone-marrow (already mapped) microenvironment of myelofibrosis."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the chronic inflammation (IL-6 and TNF already mapped) that drives the fibrosis of myelofibrosis."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the inflammatory microenvironment of myelofibrosis."
 ---
 
 # Myelofibrosis
@@ -723,6 +732,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Clonal immunosurveillance: the NK cells (perforin already mapped) provide the immune surveillance of the JAK2/CALR (already mapped)-mutant clone of myelofibrosis, an arm augmented by the interferon (type-I interferon already mapped) therapy.
 - `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 inflammatory MF: the IFN-γ of the T cells (with the type-I interferon already mapped) is the type-II interferon arm of the chronic inflammation (IL-6 and TNF already mapped) that drives the fibrosis of myelofibrosis.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the inflammatory microenvironment of myelofibrosis.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the inflammatory bone-marrow (already mapped) microenvironment of myelofibrosis.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the chronic inflammation (IL-6 and TNF already mapped) that drives the fibrosis of myelofibrosis.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the inflammatory microenvironment of myelofibrosis.
 
 ---
 
