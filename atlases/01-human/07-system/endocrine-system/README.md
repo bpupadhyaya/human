@@ -464,6 +464,15 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "Endocrine tolerance: IL-10 is the regulatory cytokine that maintains the immune tolerance and restrains the autoimmune endocrinopathies of the endocrine system."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Autoreactive CD4: the CD4 T-helper cells drive the autoreactive response (Th1/Th17, IFN-γ and IL-17 already mapped) of the autoimmune endocrinopathies (Hashimoto, Graves, type-1 diabetes) of the endocrine system."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "Endocrine autoantibodies: the plasma cells secrete the autoantibodies (anti-TPO, TSH-receptor, anti-GAD) of the autoimmune endocrinopathies of the endocrine system."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the autoimmune endocrinopathies of the endocrine system."
 ---
 
 # Endocrine System
@@ -770,6 +779,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Th17 endocrinopathy: IL-17A drives the Th17 arm of the autoimmune endocrinopathies (autoimmune thyroiditis, type-1 diabetes) of the endocrine system.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Type-2 endocrine autoimmunity: IL-4 is the prototypical type-2 cytokine of the humoral autoimmunity (e.g. the Graves TSH-receptor antibodies) of the endocrine system.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Endocrine tolerance: IL-10 is the regulatory cytokine that maintains the immune tolerance and restrains the autoimmune endocrinopathies of the endocrine system.
+- `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — Autoreactive CD4: the CD4 T-helper cells drive the autoreactive response (Th1/Th17, IFN-γ and IL-17 already mapped) of the autoimmune endocrinopathies (Hashimoto, Graves, type-1 diabetes) of the endocrine system.
+- `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — Endocrine autoantibodies: the plasma cells secrete the autoantibodies (anti-TPO, TSH-receptor, anti-GAD) of the autoimmune endocrinopathies of the endocrine system.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the autoimmune endocrinopathies of the endocrine system.
 
 ## Pathology
 
