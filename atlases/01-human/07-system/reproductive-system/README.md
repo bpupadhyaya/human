@@ -446,6 +446,15 @@ cross_links:
   - target: 01-human/03-molecular/type-i-interferon
     relation: connects-to
     note: "Reproductive-tract antiviral: the type-I interferon defends the reproductive-tract mucosa against the sexually-transmitted viruses, part of the mucosal immunity of the reproductive system."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Th2 maternal-fetal tolerance: IL-4, a type-2 cytokine, promotes the Th2-skewed immune tolerance at the maternal-fetal interface that permits the semi-allogeneic pregnancy of the reproductive system."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Th2 arm: IL-13, with IL-4 (already mapped), is part of the type-2 immune bias of the maternal-fetal tolerance of the reproductive system."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 counter-arm: IL-12 polarises the Th1 (IFN-γ already mapped) arm whose excess (opposing the Th2 tolerance) is implicated in the recurrent pregnancy loss of the reproductive system."
 ---
 
 # Reproductive System
@@ -704,6 +713,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[Regulatory T cell](../../04-cellular/regulatory-t-cell/README.md)** — Maternal-fetal tolerance: the regulatory T cells expand to maintain the maternal tolerance of the fetal allograft, central to the immune-reproductive interface of the reproductive system.
 - `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Decidual immunity: the IFN-γ of the uterine/decidual NK cells (already mapped) shapes the spiral-artery remodelling and the maternal-fetal immunology of the reproductive system.
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Reproductive-tract antiviral: the type-I interferon defends the reproductive-tract mucosa against the sexually-transmitted viruses, part of the mucosal immunity of the reproductive system.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Th2 maternal-fetal tolerance: IL-4, a type-2 cytokine, promotes the Th2-skewed immune tolerance at the maternal-fetal interface that permits the semi-allogeneic pregnancy of the reproductive system.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Th2 arm: IL-13, with IL-4 (already mapped), is part of the type-2 immune bias of the maternal-fetal tolerance of the reproductive system.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 counter-arm: IL-12 polarises the Th1 (IFN-γ already mapped) arm whose excess (opposing the Th2 tolerance) is implicated in the recurrent pregnancy loss of the reproductive system.
 
 ## Pathology
 
