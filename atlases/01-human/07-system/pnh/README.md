@@ -442,6 +442,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the immune-metabolic milieu (IL-6 already mapped) of PNH."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune dysregulation of the associated bone-marrow failure of PNH."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune milieu of PNH."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension of the immune-metabolic milieu of PNH."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -675,6 +684,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Marrow-adipose adipokine: leptin from the marrow adipose tissue signals within the immune-metabolic milieu of the marrow-failure (aplastic anaemia already mapped) context of PNH.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is the marrow-adipose adipokine of the PNH marrow microenvironment.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the immune-metabolic milieu (IL-6 already mapped) of PNH.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune dysregulation of the associated bone-marrow failure of PNH.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune milieu of PNH.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension of the immune-metabolic milieu of PNH.
 
 ---
 

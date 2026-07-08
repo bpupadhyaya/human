@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/04-cellular/fibroblast
     relation: connects-to
     note: "Reactive stroma: the cancer-associated fibroblasts of the reactive prostate-cancer stroma (TGF-β already mapped) support the tumour progression and the androgen (androgen-receptor already mapped) signalling."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 antitumour arm: the IFN-γ of the (sparse) tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm largely excluded by the immunosuppressive 'cold' microenvironment of prostate cancer."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) anti-tumour response explored against the immunologically cold prostate cancer."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "NK surveillance: the NK cells (perforin already mapped) provide the innate cytotoxic surveillance of the prostate cancer, an arm explored to overcome its immunosuppressive microenvironment."
 ---
 
 # Prostate Cancer
@@ -718,6 +727,9 @@ cross_links:
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the obesity risk of the aggressive prostate cancer.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumour-associated macrophages: the M2 (IL-4 and IL-13 already mapped) tumour-associated macrophages (CCL2 already mapped) of the immunosuppressive 'cold' microenvironment of prostate cancer.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Reactive stroma: the cancer-associated fibroblasts of the reactive prostate-cancer stroma (TGF-β already mapped) support the tumour progression and the androgen (androgen-receptor already mapped) signalling.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 antitumour arm: the IFN-γ of the (sparse) tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm largely excluded by the immunosuppressive 'cold' microenvironment of prostate cancer.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) anti-tumour response explored against the immunologically cold prostate cancer.
+- `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — NK surveillance: the NK cells (perforin already mapped) provide the innate cytotoxic surveillance of the prostate cancer, an arm explored to overcome its immunosuppressive microenvironment.
 
 [^beer-2014-prevail]: Beer TM, Armstrong AJ, Rathkopf D, et al. Enzalutamide in metastatic prostate cancer before chemotherapy. *N Engl J Med.* 2014;371(5):424-433. [doi:10.1056/NEJMoa1405095](https://doi.org/10.1056/NEJMoa1405095) · [PubMed 24881730](https://pubmed.ncbi.nlm.nih.gov/24881730/)
 [^sartor-2021-vision]: Sartor O, de Bono J, Chi KN, et al. Lutetium-PSMA-617 for metastatic castration-resistant prostate cancer. *N Engl J Med.* 2021;385(12):1091-1103. [doi:10.1056/NEJMoa2107322](https://doi.org/10.1056/NEJMoa2107322) · [PubMed 34161051](https://pubmed.ncbi.nlm.nih.gov/34161051/)
