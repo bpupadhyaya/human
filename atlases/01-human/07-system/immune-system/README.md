@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "Thromboinflammation: the platelets, beyond haemostasis, act as innate immune cells that release chemokines (PF4) and interact with the neutrophils (already mapped) in the thromboinflammation of the immune system."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "Anaphylatoxin receptor: the C5aR1 is the receptor for the C5a anaphylatoxin, transducing the complement (C3, C5, factor H and C1-esterase inhibitor already mapped) signal into the myeloid chemotaxis and inflammation of the immune system."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Type-2 matricellular: periostin, downstream of the type-2 (IL-13 already mapped) cytokines, is a matricellular effector of the tissue remodelling and eosinophilic inflammation of the immune system."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Immunomodulatory matricellular: osteopontin is a matricellular cytokine that promotes the Th1 and macrophage responses and the leukocyte migration of the immune system."
 ---
 
 # Immune System
@@ -649,6 +658,9 @@ After primary response contraction, long-lived memory cells persist:
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Epithelial alarmin: TSLP, with IL-33 (already mapped), is the epithelial-barrier alarmin that initiates the type-2 (IL-4, IL-5 and IL-13 already mapped) immune response of the immune system.
 - `connects-to` → **[IL-31](../../03-molecular/il-31/README.md)** — Itch cytokine: IL-31, a type-2 (IL-4 and IL-13 already mapped) cytokine, is the pruritogenic effector linking the immune system to the sensory nervous system in the itch response.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Thromboinflammation: the platelets, beyond haemostasis, act as innate immune cells that release chemokines (PF4) and interact with the neutrophils (already mapped) in the thromboinflammation of the immune system.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — Anaphylatoxin receptor: the C5aR1 is the receptor for the C5a anaphylatoxin, transducing the complement (C3, C5, factor H and C1-esterase inhibitor already mapped) signal into the myeloid chemotaxis and inflammation of the immune system.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Type-2 matricellular: periostin, downstream of the type-2 (IL-13 already mapped) cytokines, is a matricellular effector of the tissue remodelling and eosinophilic inflammation of the immune system.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Immunomodulatory matricellular: osteopontin is a matricellular cytokine that promotes the Th1 and macrophage responses and the leukocyte migration of the immune system.
 
 ## Pathology
 

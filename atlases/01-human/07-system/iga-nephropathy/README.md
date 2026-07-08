@@ -466,6 +466,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "Tubulointerstitial infiltrate: the cytotoxic T cells (perforin already mapped) infiltrate the tubulointerstitium and contribute to the progression of IgA nephropathy."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Lectin/classical regulation: the C1-esterase inhibitor regulates the lectin and classical complement pathways (with factor H, C3, C5 and C5aR1 already mapped) whose activation on the mesangial IgA immune complexes drives IgA nephropathy."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Renal fibrosis: periostin, downstream of the TGF-β (already mapped) signalling, is a matricellular mediator and biomarker of the tubulointerstitial fibrosis and progression of IgA nephropathy."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "CKD iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin and erythropoietin already mapped) of the anaemia of the chronic kidney disease of IgA nephropathy."
 ---
 
 # IgA Nephropathy
@@ -699,6 +708,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2/mucosal arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 mucosal immune dimension that parallels the dysregulated IgA (already mapped) response of IgA nephropathy.
 - `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Innate arm: the NK cells (perforin already mapped) are part of the innate immune dysregulation of the gut-kidney (already mapped) axis of IgA nephropathy.
 - `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Tubulointerstitial infiltrate: the cytotoxic T cells (perforin already mapped) infiltrate the tubulointerstitium and contribute to the progression of IgA nephropathy.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Lectin/classical regulation: the C1-esterase inhibitor regulates the lectin and classical complement pathways (with factor H, C3, C5 and C5aR1 already mapped) whose activation on the mesangial IgA immune complexes drives IgA nephropathy.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Renal fibrosis: periostin, downstream of the TGF-β (already mapped) signalling, is a matricellular mediator and biomarker of the tubulointerstitial fibrosis and progression of IgA nephropathy.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — CKD iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin and erythropoietin already mapped) of the anaemia of the chronic kidney disease of IgA nephropathy.
 
 ---
 
