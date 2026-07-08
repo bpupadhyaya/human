@@ -459,6 +459,15 @@ cross_links:
   - target: 01-human/03-molecular/ifn-gamma
     relation: connects-to
     note: "Th1 neuroinflammation: the IFN-γ of the T cells is the type-II interferon arm of the immune-inflammatory dimension (IL-1 and TNF already mapped) associated with bulimia nervosa."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the low-grade immune-inflammatory dimension associated with bulimia nervosa."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune dysregulation associated with bulimia nervosa."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune-inflammatory dimension associated with bulimia nervosa."
 ---
 
 # Bulimia Nervosa
@@ -735,6 +744,9 @@ All of the following must be met:
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 cytokine: IL-13, with IL-4 (already mapped), is part of the type-2 immune dimension of the low-grade inflammation associated with bulimia nervosa.
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate neuroinflammation: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, is part of the low-grade neuroinflammation (IL-6 and TNF already mapped) implicated in bulimia nervosa.
 - `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 neuroinflammation: the IFN-γ of the T cells is the type-II interferon arm of the immune-inflammatory dimension (IL-1 and TNF already mapped) associated with bulimia nervosa.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the low-grade immune-inflammatory dimension associated with bulimia nervosa.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune dysregulation associated with bulimia nervosa.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune-inflammatory dimension associated with bulimia nervosa.
 
 ## Treatment
 

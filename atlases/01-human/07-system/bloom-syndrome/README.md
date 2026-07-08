@@ -457,6 +457,15 @@ cross_links:
   - target: 01-human/03-molecular/il-5
     relation: connects-to
     note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune dysregulation of Bloom syndrome."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "Th17 axis: IL-17A drives the Th17 arm of the immune dysregulation and the recurrent-infection susceptibility of the immunodeficiency of Bloom syndrome."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 induction: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune dysregulation of Bloom syndrome."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the immune dysregulation of Bloom syndrome."
 ---
 
 # Bloom Syndrome
@@ -741,6 +750,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 immune arm: the IFN-γ of the T and NK (already mapped) cells is the type-II interferon arm of the immune dysregulation and the impaired anti-tumour/anti-infective immunity of Bloom syndrome.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune response, part of the immunodeficiency dimension of Bloom syndrome.
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune dysregulation of Bloom syndrome.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Th17 axis: IL-17A drives the Th17 arm of the immune dysregulation and the recurrent-infection susceptibility of the immunodeficiency of Bloom syndrome.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 induction: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune dysregulation of Bloom syndrome.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the immune dysregulation of Bloom syndrome.
 
 ---
 
