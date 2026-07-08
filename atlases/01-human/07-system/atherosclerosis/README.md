@@ -481,6 +481,15 @@ cross_links:
   - target: 01-human/03-molecular/factor-h
     relation: connects-to
     note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) on the oxidised LDL, and its variants are linked to the risk of atherosclerosis."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway activated by the oxidised LDL and C-reactive protein in the atherosclerotic plaque."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Plaque matricellular: osteopontin, produced by the foam-cell macrophages (already mapped) and smooth-muscle cells (already mapped), is a matricellular mediator of the plaque inflammation and the vascular calcification of atherosclerosis."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Plaque iron: transferrin, the iron carrier, reflects the disordered iron handling and the intraplaque-haemorrhage iron that aggravates the oxidative injury of the atherosclerotic plaque."
 ---
 
 # Atherosclerosis
@@ -749,6 +758,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the monocyte and mast-cell (already mapped) recruitment into the atherosclerotic plaque.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its activation (with C3 already mapped) on the oxidised LDL contribute to the plaque inflammation and the membrane-attack-complex injury of atherosclerosis.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) on the oxidised LDL, and its variants are linked to the risk of atherosclerosis.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway activated by the oxidised LDL and C-reactive protein in the atherosclerotic plaque.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Plaque matricellular: osteopontin, produced by the foam-cell macrophages (already mapped) and smooth-muscle cells (already mapped), is a matricellular mediator of the plaque inflammation and the vascular calcification of atherosclerosis.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Plaque iron: transferrin, the iron carrier, reflects the disordered iron handling and the intraplaque-haemorrhage iron that aggravates the oxidative injury of the atherosclerotic plaque.
 
 ---
 

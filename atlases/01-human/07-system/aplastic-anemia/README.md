@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Transfusional iron: transferrin, the iron carrier, reflects the iron handling of the transfusion-dependent iron overload (hepcidin already mapped) of aplastic anaemia."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose dysregulation underlies the PNH-clone (already mapped) haemolysis arising in aplastic anaemia."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway of the autoimmune marrow attack (T-cell and antibody mediated) of aplastic anaemia."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Marrow stroma: periostin, a matricellular mediator, is part of the bone-marrow (already mapped) stromal remodelling of the hypocellular marrow of aplastic anaemia."
 ---
 
 # Aplastic Anemia
@@ -740,6 +749,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) contributes to the innate inflammatory dimension of the immune-mediated marrow failure of aplastic anaemia.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 (with C3 already mapped) links to the complement-mediated haemolysis of the PNH clones (already mapped) that arise in aplastic anaemia.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Transfusional iron: transferrin, the iron carrier, reflects the iron handling of the transfusion-dependent iron overload (hepcidin already mapped) of aplastic anaemia.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose dysregulation underlies the PNH-clone (already mapped) haemolysis arising in aplastic anaemia.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway of the autoimmune marrow attack (T-cell and antibody mediated) of aplastic anaemia.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Marrow stroma: periostin, a matricellular mediator, is part of the bone-marrow (already mapped) stromal remodelling of the hypocellular marrow of aplastic anaemia.
 
 ---
 
