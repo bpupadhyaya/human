@@ -466,6 +466,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "NK vascular inflammation: the NK cells (perforin already mapped) contribute to the T-cell (already mapped) and innate immune vascular and renal (already mapped) injury of hypertension."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Vascular complement: the complement C3 activation contributes to the immune and endothelial (already mapped) vascular inflammation of the salt-sensitive and immune-mediated hypertension."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement: the complement C5 and its activation (with C3 already mapped) contribute to the end-organ (kidney and heart already mapped) damage of hypertension."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling links the complement to the myeloid (macrophage already mapped) and T-cell (already mapped) vascular inflammation of hypertension."
 ---
 
 # Hypertension
@@ -706,6 +715,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), reflects the type-2 immune dimension that counter-balances the pro-hypertensive Th1/Th17 immunity.
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Perivascular mast cells: the mast cells infiltrate the perivascular tissue and, via the renin and chymase (angiotensin already mapped), contribute to the vascular remodelling of hypertension.
 - `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — NK vascular inflammation: the NK cells (perforin already mapped) contribute to the T-cell (already mapped) and innate immune vascular and renal (already mapped) injury of hypertension.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Vascular complement: the complement C3 activation contributes to the immune and endothelial (already mapped) vascular inflammation of the salt-sensitive and immune-mediated hypertension.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its activation (with C3 already mapped) contribute to the end-organ (kidney and heart already mapped) damage of hypertension.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling links the complement to the myeloid (macrophage already mapped) and T-cell (already mapped) vascular inflammation of hypertension.
 
 ## Pathology
 
