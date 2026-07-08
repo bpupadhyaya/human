@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/07-system/all
     relation: connects-to
     note: "Leukaemia predisposition: Bloom syndrome predisposes to the acute leukaemias (ALL/AML) and the lymphomas, among its commonest and earliest malignancies."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 immune arm: the IFN-γ of the T and NK (already mapped) cells is the type-II interferon arm of the immune dysregulation and the impaired anti-tumour/anti-infective immunity of Bloom syndrome."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune response, part of the immunodeficiency dimension of Bloom syndrome."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune dysregulation of Bloom syndrome."
 ---
 
 # Bloom Syndrome
@@ -729,6 +738,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[Colorectal cancer](../colorectal-cancer/README.md)** — Early GI cancer: the genome instability (BLM already mapped) of Bloom syndrome predisposes to the early-onset colorectal and other GI cancers, needing the surveillance.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — SCE diagnostic: the elevated sister-chromatid exchanges (the BLM already mapped hallmark) demonstrated in the cultured fibroblasts/lymphocytes are the diagnostic test of Bloom syndrome.
 - `connects-to` → **[ALL](../all/README.md)** — Leukaemia predisposition: Bloom syndrome predisposes to the acute leukaemias (ALL/AML) and the lymphomas, among its commonest and earliest malignancies.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 immune arm: the IFN-γ of the T and NK (already mapped) cells is the type-II interferon arm of the immune dysregulation and the impaired anti-tumour/anti-infective immunity of Bloom syndrome.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune response, part of the immunodeficiency dimension of Bloom syndrome.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune dysregulation of Bloom syndrome.
 
 ---
 

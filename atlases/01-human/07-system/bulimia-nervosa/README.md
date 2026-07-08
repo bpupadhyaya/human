@@ -450,6 +450,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Mood comorbidity: major depression is highly comorbid with bulimia nervosa, sharing the serotonergic (already mapped) dysregulation and the SSRI (fluoxetine) treatment."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 cytokine: IL-13, with IL-4 (already mapped), is part of the type-2 immune dimension of the low-grade inflammation associated with bulimia nervosa."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate neuroinflammation: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, is part of the low-grade neuroinflammation (IL-6 and TNF already mapped) implicated in bulimia nervosa."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 neuroinflammation: the IFN-γ of the T cells is the type-II interferon arm of the immune-inflammatory dimension (IL-1 and TNF already mapped) associated with bulimia nervosa."
 ---
 
 # Bulimia Nervosa
@@ -723,6 +732,9 @@ All of the following must be met:
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Purging hypokalaemia: the self-induced vomiting and the laxative/diuretic abuse of bulimia nervosa cause the hypokalaemia and metabolic alkalosis (aldosterone and renin already mapped), the cause of the cardiac arrhythmias.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Arrhythmia risk: the hypokalaemia (and the ipecac cardiotoxicity) of bulimia nervosa cause the QT prolongation and the arrhythmias (troponin already mapped) of the heart.
 - `connects-to` → **[Major depressive disorder](../major-depressive-disorder/README.md)** — Mood comorbidity: major depression is highly comorbid with bulimia nervosa, sharing the serotonergic (already mapped) dysregulation and the SSRI (fluoxetine) treatment.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 cytokine: IL-13, with IL-4 (already mapped), is part of the type-2 immune dimension of the low-grade inflammation associated with bulimia nervosa.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate neuroinflammation: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, is part of the low-grade neuroinflammation (IL-6 and TNF already mapped) implicated in bulimia nervosa.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 neuroinflammation: the IFN-γ of the T cells is the type-II interferon arm of the immune-inflammatory dimension (IL-1 and TNF already mapped) associated with bulimia nervosa.
 
 ## Treatment
 
