@@ -466,6 +466,15 @@ cross_links:
   - target: 01-human/04-cellular/b-cell
     relation: connects-to
     note: "Humoral/TLS arm: the B cells and the tertiary lymphoid structures underpin the humoral immune response within the Wilms-tumour microenvironment."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Tumour complement: the complement C3 activation contributes to the inflammatory dimension of the Wilms-tumour (nephroblastoma) microenvironment."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid (macrophage already mapped) recruitment into the Wilms-tumour microenvironment."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement evasion: the Wilms-tumour cells recruit factor H to regulate the alternative complement pathway (C3 and C5aR1 already mapped), tempering the complement attack within the tumour microenvironment."
 ---
 
 # Wilms Tumor
@@ -744,6 +753,9 @@ Wilms tumor survivors face late effects proportional to treatment intensity:
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Stromal mast cells: the mast cells of the tumour stroma contribute to the angiogenesis (VEGF already mapped) and the type-2 microenvironment of Wilms tumour.
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines shaping the immune microenvironment of Wilms tumour.
 - `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Humoral/TLS arm: the B cells and the tertiary lymphoid structures underpin the humoral immune response within the Wilms-tumour microenvironment.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Tumour complement: the complement C3 activation contributes to the inflammatory dimension of the Wilms-tumour (nephroblastoma) microenvironment.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid (macrophage already mapped) recruitment into the Wilms-tumour microenvironment.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the Wilms-tumour cells recruit factor H to regulate the alternative complement pathway (C3 and C5aR1 already mapped), tempering the complement attack within the tumour microenvironment.
 
 [^dome-2015-wilms]: Dome JS, Graf N, Geller JI, et al. Advances in Wilms tumor treatment and biology: progress through international collaboration. *J Clin Oncol.* 2015;33(27):2999-3007. [doi:10.1200/JCO.2015.62.1888](https://doi.org/10.1200/JCO.2015.62.1888) · [PubMed 26261251](https://pubmed.ncbi.nlm.nih.gov/26261251/)
 [^dix-2006-arenl0002]: Dix DB, Bhatt SM, Geller JI, et al. Treatment of Stage IV favorable histology Wilms tumor with incomplete lung metastasis response after chemotherapy: a report from Children's Oncology Group Study AREN0533. *J Clin Oncol.* 2018;36(16):1564-1570. [doi:10.1200/JCO.2017.77.1877](https://doi.org/10.1200/JCO.2017.77.1877) · [PubMed 29584550](https://pubmed.ncbi.nlm.nih.gov/29584550/)
