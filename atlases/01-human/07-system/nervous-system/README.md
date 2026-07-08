@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "CNS antigen presentation: the dendritic cells of the meninges and choroid plexus present antigen to the T cells (already mapped) at the borders of the nervous system."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Border-associated macrophages: the CNS-border and perivascular macrophages, alongside the microglia (already mapped), form the myeloid immune interface of the nervous system."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "Complement C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the microglial (already mapped) activation and the complement-mediated synaptic pruning of the nervous system."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement: the complement C5 and its activation (with C3 already mapped) contribute to the innate complement arm of the neuroinflammation of the nervous system."
 ---
 
 # Nervous System
@@ -663,6 +672,9 @@ Distributed cortical networks underlie language (Broca's area, Wernicke's area, 
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 dimension of the neuroimmune balance of the nervous system.
 - `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — CNS-border cytotoxicity: the cytotoxic T cells (perforin already mapped) of the meningeal and perivascular compartments mediate the adaptive neuroinflammation of the nervous system.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — CNS antigen presentation: the dendritic cells of the meninges and choroid plexus present antigen to the T cells (already mapped) at the borders of the nervous system.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Border-associated macrophages: the CNS-border and perivascular macrophages, alongside the microglia (already mapped), form the myeloid immune interface of the nervous system.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — Complement C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the microglial (already mapped) activation and the complement-mediated synaptic pruning of the nervous system.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its activation (with C3 already mapped) contribute to the innate complement arm of the neuroinflammation of the nervous system.
 
 ## Pathology
 
