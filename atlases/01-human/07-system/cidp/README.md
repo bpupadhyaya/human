@@ -465,6 +465,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension present in a subset of CIDP."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast cells in nerve: the mast cells infiltrate the inflamed peripheral nerve and contribute to the type-2 (IgE already mapped) and the vascular-permeability dimension of the demyelination of CIDP."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Immunomodulatory vitamin: the low vitamin D status is associated with the autoimmune neuropathies, and its immunomodulation of the T-helper (already mapped) response is studied in CIDP."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Antioxidant micronutrient: selenium, a selenoprotein cofactor, is part of the oxidative-stress and micronutrient dimension of the peripheral-nerve inflammation of CIDP."
 ---
 
 # CIDP
@@ -756,6 +765,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Inflammatory infiltrate: the neutrophils and the neutrophil-lymphocyte ratio are part of the inflammatory infiltrate (CCL2 already mapped) of the demyelinating nerve lesions of CIDP.
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension balancing the dominant Th1/Th17 (IFN-γ, IL-12 and IL-23 already mapped) drive of CIDP.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension present in a subset of CIDP.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Mast cells in nerve: the mast cells infiltrate the inflamed peripheral nerve and contribute to the type-2 (IgE already mapped) and the vascular-permeability dimension of the demyelination of CIDP.
+- `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Immunomodulatory vitamin: the low vitamin D status is associated with the autoimmune neuropathies, and its immunomodulation of the T-helper (already mapped) response is studied in CIDP.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Antioxidant micronutrient: selenium, a selenoprotein cofactor, is part of the oxidative-stress and micronutrient dimension of the peripheral-nerve inflammation of CIDP.
 
 ---
 
