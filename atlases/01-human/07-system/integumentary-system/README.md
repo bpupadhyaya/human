@@ -467,6 +467,15 @@ cross_links:
   - target: 01-human/04-cellular/plasma-cell
     relation: connects-to
     note: "Dermal humoral arm: the plasma cells of the dermis secrete the antibodies of the humoral arm of the cutaneous immunity of the integumentary system."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement: the complement C5 and its C5a (with C3 and C5aR1 already mapped) complete the complement cascade of the innate cutaneous defence of the integumentary system."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) on the skin surface, restraining the complement attack on the host tissue of the integumentary system."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "Dermal B cells: the B cells, upstream of the plasma cells (already mapped), contribute to the humoral and organised immune response of the cutaneous immunity of the integumentary system."
 ---
 
 # Integumentary System
@@ -722,6 +731,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Cutaneous complement: the complement C3, deposited and locally produced in the skin, is part of the innate antimicrobial defence and the immune-complex dimension of the cutaneous immunity of the integumentary system.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling recruits the neutrophils and myeloid cells to the site of the cutaneous inflammation of the integumentary system.
 - `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — Dermal humoral arm: the plasma cells of the dermis secrete the antibodies of the humoral arm of the cutaneous immunity of the integumentary system.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 and C5aR1 already mapped) complete the complement cascade of the innate cutaneous defence of the integumentary system.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) on the skin surface, restraining the complement attack on the host tissue of the integumentary system.
+- `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Dermal B cells: the B cells, upstream of the plasma cells (already mapped), contribute to the humoral and organised immune response of the cutaneous immunity of the integumentary system.
 
 ## Pathology
 

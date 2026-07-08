@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/factor-h
     relation: connects-to
     note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) at the interface of the complement and coagulation systems relevant to the immunothrombosis of the inherited thrombophilias."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement/coagulation crosstalk: the C1-esterase inhibitor regulates both the complement (C3, C5, C5aR1 and factor H already mapped) and the contact-coagulation systems at the interface of immunothrombosis relevant to the inherited thrombophilias."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Thromboinflammation: osteopontin, released by the activated platelets (already mapped), is a matricellular mediator that links the inflammation to the thrombosis of the inherited thrombophilias."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Iron/thrombosis: transferrin, the iron carrier, reflects the disordered iron handling that, with the dysregulated haemostasis, is part of the thrombotic-risk context of the inherited thrombophilias."
 ---
 
 # Inherited Thrombophilia
@@ -786,6 +795,9 @@ Antithrombin (ATIII) is the primary plasma inhibitor of thrombin, FXa, FIXa, and
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the inflammatory milieu accompanying the inherited thrombophilias.
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines of the immunothrombotic inflammation accompanying the inherited thrombophilias.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) at the interface of the complement and coagulation systems relevant to the immunothrombosis of the inherited thrombophilias.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement/coagulation crosstalk: the C1-esterase inhibitor regulates both the complement (C3, C5, C5aR1 and factor H already mapped) and the contact-coagulation systems at the interface of immunothrombosis relevant to the inherited thrombophilias.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Thromboinflammation: osteopontin, released by the activated platelets (already mapped), is a matricellular mediator that links the inflammation to the thrombosis of the inherited thrombophilias.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Iron/thrombosis: transferrin, the iron carrier, reflects the disordered iron handling that, with the dysregulated haemostasis, is part of the thrombotic-risk context of the inherited thrombophilias.
 
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)
