@@ -462,6 +462,15 @@ cross_links:
   - target: 01-human/03-molecular/histamine
     relation: connects-to
     note: "Vascular permeability: the histamine, from the mast cells (already mapped), increases the vascular permeability that enhances the CNS entry of the West Nile virus."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement evasion: the West Nile virus NS1 protein recruits the host factor H to inactivate the C3 convertase (complement C3, C5 and C5aR1 already mapped) and evade the complement attack."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement/contact regulation: the C1-esterase inhibitor regulates the classical complement and the contact (bradykinin already mapped) systems whose activation contributes to the vascular permeability and neuroinvasion of the West Nile virus."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Nutritional immunity: transferrin, by sequestering iron, is part of the host nutritional-immunity response to the West Nile virus infection."
 ---
 
 # West Nile Virus
@@ -730,3 +739,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — Complement C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) is part of the complement-mediated protection and neuroinflammation of the West Nile virus infection.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — BBB permeability: the bradykinin-kinin system increases the blood-brain-barrier permeability that facilitates the neuroinvasion of the West Nile virus into the brain (already mapped).
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Vascular permeability: the histamine, from the mast cells (already mapped), increases the vascular permeability that enhances the CNS entry of the West Nile virus.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the West Nile virus NS1 protein recruits the host factor H to inactivate the C3 convertase (complement C3, C5 and C5aR1 already mapped) and evade the complement attack.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement/contact regulation: the C1-esterase inhibitor regulates the classical complement and the contact (bradykinin already mapped) systems whose activation contributes to the vascular permeability and neuroinvasion of the West Nile virus.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Nutritional immunity: transferrin, by sequestering iron, is part of the host nutritional-immunity response to the West Nile virus infection.

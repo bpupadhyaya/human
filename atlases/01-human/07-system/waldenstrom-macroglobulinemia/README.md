@@ -460,6 +460,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "CD8 antitumour arm: the cytotoxic T cells (perforin already mapped) of the immune microenvironment provide the antitumour surveillance of the clonal B cells (already mapped) of Waldenström macroglobulinaemia."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "CD4 helper source: the CD4 T-helper cells are the source of the cytokines (IL-6 already mapped) of the lymphoplasmacytic microenvironment supporting the clonal B cells (already mapped) of Waldenström macroglobulinaemia."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) contributes to the complement dimension of the IgM-mediated (immunoglobulin already mapped) immune-complex and cold-agglutinin phenomena of Waldenström macroglobulinaemia."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Antigen presentation: the dendritic cells present antigen to the T cells (already mapped) shaping the immune microenvironment of Waldenström macroglobulinaemia."
 ---
 
 # Waldenström Macroglobulinemia
@@ -725,6 +734,9 @@ For symptomatic hyperviscosity → removes IgM immediately; does not treat under
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune microenvironment of the lymphoplasmacytic lymphoma of Waldenström macroglobulinaemia.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the microenvironment (distinct from the monoclonal IgM already mapped) of Waldenström macroglobulinaemia.
 - `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — CD8 antitumour arm: the cytotoxic T cells (perforin already mapped) of the immune microenvironment provide the antitumour surveillance of the clonal B cells (already mapped) of Waldenström macroglobulinaemia.
+- `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 helper source: the CD4 T-helper cells are the source of the cytokines (IL-6 already mapped) of the lymphoplasmacytic microenvironment supporting the clonal B cells (already mapped) of Waldenström macroglobulinaemia.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) contributes to the complement dimension of the IgM-mediated (immunoglobulin already mapped) immune-complex and cold-agglutinin phenomena of Waldenström macroglobulinaemia.
+- `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Antigen presentation: the dendritic cells present antigen to the T cells (already mapped) shaping the immune microenvironment of Waldenström macroglobulinaemia.
 
 [^treon-2015-ibrutinib-wm]: Treon SP, Tripsas CK, Meid K, et al. Ibrutinib in previously treated Waldenström's macroglobulinemia. *N Engl J Med.* 2015;373(18):1765-1774. [doi:10.1056/NEJMoa1501548](https://doi.org/10.1056/NEJMoa1501548) · [PubMed 26352686](https://pubmed.ncbi.nlm.nih.gov/26352686/)
 [^tam-2020-aspen]: Tam CS, Opat S, D'Sa S, et al. A randomized phase 3 trial of zanubrutinib vs ibrutinib in symptomatic Waldenström macroglobulinemia: the ASPEN study. *Blood.* 2020;136(18):2038-2050. [doi:10.1182/blood.2020006844](https://doi.org/10.1182/blood.2020006844) · [PubMed 32828187](https://pubmed.ncbi.nlm.nih.gov/32828187/)
