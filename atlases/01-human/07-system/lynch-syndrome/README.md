@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/03-molecular/histamine
     relation: connects-to
     note: "Mast-cell infiltrate: the mast cells and histamine are part of the dense immune microenvironment of the MSI-high (MMR-deficient already mapped) Lynch tumours."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast-cell infiltrate: the mast cells (the histamine already mapped source) populate the dense immune microenvironment of the MSI-high Lynch tumours."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Neutrophil infiltrate: the tumour-associated neutrophils and the neutrophil-lymphocyte ratio (S100A8/9 already mapped) are part of the highly immune-infiltrated MSI-high Lynch tumour microenvironment."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), reflects the type-2 immune dimension of the immune microenvironment of the Lynch tumours."
 ---
 
 # Lynch Syndrome
@@ -731,6 +740,9 @@ MSI-H stage II CRC: adjuvant 5-FU/leucovorin does NOT improve OS (may be harmful
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Peritumoral eosinophilia: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), recruits the eosinophils of the prognostically favourable peritumoral infiltrate of the MSI-high Lynch tumours.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — IL-23/Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune infiltrate implicated in the colorectal carcinogenesis of Lynch syndrome.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell infiltrate: the mast cells and histamine are part of the dense immune microenvironment of the MSI-high (MMR-deficient already mapped) Lynch tumours.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Mast-cell infiltrate: the mast cells (the histamine already mapped source) populate the dense immune microenvironment of the MSI-high Lynch tumours.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophil infiltrate: the tumour-associated neutrophils and the neutrophil-lymphocyte ratio (S100A8/9 already mapped) are part of the highly immune-infiltrated MSI-high Lynch tumour microenvironment.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), reflects the type-2 immune dimension of the immune microenvironment of the Lynch tumours.
 
 [^bonadona-2011-lynch-risks]: Bonadona V, Bonaïti B, Olschwang S, et al. Cancer risks associated with germline mutations in MLH1, MSH2, and MSH6 genes in Lynch syndrome. *JAMA.* 2011;305(22):2304-2310. [doi:10.1001/jama.2011.743](https://doi.org/10.1001/jama.2011.743) · [PubMed 21642683](https://pubmed.ncbi.nlm.nih.gov/21642683/)
 [^lynch-2015-lynch-review]: Lynch HT, Snyder CL, Shaw TG, et al. Milestones of Lynch syndrome: 1895-2015. *Nat Rev Cancer.* 2015;15(3):181-194. [doi:10.1038/nrc3878](https://doi.org/10.1038/nrc3878) · [PubMed 25673086](https://pubmed.ncbi.nlm.nih.gov/25673086/)

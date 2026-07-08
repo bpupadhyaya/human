@@ -446,6 +446,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "IgE class-switch: the IgE (with IL-4 and IL-13 already mapped) is class-switched in the germinal centres of the lymph nodes (immunoglobulin already mapped) of the lymphatic system, arming the allergic response."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement (C3 already mapped) pathway in the lymph and interstitial fluid, protecting the host tissue drained by the lymphatic system."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Permeability control: the C1-esterase inhibitor regulates the complement and contact (bradykinin already mapped) systems; its deficiency causes the angioedema of the interstitial tissues drained by the lymphatic system."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Immune-complex ferrying: the erythrocytes bind the complement (C3 already mapped)-opsonised immune complexes via CR1 and deliver them to the splenic and hepatic phagocytes, complementing the lymphatic clearance of the lymphatic system."
 ---
 
 # Lymphatic System
@@ -698,6 +707,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Eosinophil trafficking: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), expands and traffics the eosinophils through the lymphatic system in the allergic and anti-helminth responses.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 lymphoid axis: IL-23 sustains the Th17 (IL-17 already mapped) cells generated and trafficked through the lymph nodes of the lymphatic system for the mucosal defence.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — IgE class-switch: the IgE (with IL-4 and IL-13 already mapped) is class-switched in the germinal centres of the lymph nodes (immunoglobulin already mapped) of the lymphatic system, arming the allergic response.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement (C3 already mapped) pathway in the lymph and interstitial fluid, protecting the host tissue drained by the lymphatic system.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Permeability control: the C1-esterase inhibitor regulates the complement and contact (bradykinin already mapped) systems; its deficiency causes the angioedema of the interstitial tissues drained by the lymphatic system.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Immune-complex ferrying: the erythrocytes bind the complement (C3 already mapped)-opsonised immune complexes via CR1 and deliver them to the splenic and hepatic phagocytes, complementing the lymphatic clearance of the lymphatic system.
 
 ## Pathology
 
