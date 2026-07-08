@@ -478,6 +478,15 @@ cross_links:
   - target: 01-human/04-cellular/fibroblast
     relation: connects-to
     note: "Adipose fibrosis: the fibroblasts/myofibroblasts drive the extracellular-matrix remodelling and fibrosis of the expanding, hypoxic (HIF-1α already mapped) adipose tissue of obesity."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement: the complement C5 and its C5a (with C3 already mapped) contribute to the adipose-tissue inflammation and the insulin resistance of obesity."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the macrophage (already mapped) recruitment into the inflamed adipose tissue of obesity."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Dysmetabolic iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the adipose-tissue and systemic iron dysregulation of obesity."
 ---
 
 # Obesity
@@ -771,6 +780,9 @@ This **metainflammation** mechanistically links obesity to type 2 diabetes, athe
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — Adipose CD4 shift: the CD4 T-helper cells shift from the lean-adipose Th2/Treg toward the Th1/Th17 (IFN-γ and IL-17 already mapped) phenotype, driving the meta-inflammation of the obese adipose tissue.
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Adipose mast cells: the mast cells accumulate in the obese adipose tissue and contribute to the chronic low-grade inflammation and the insulin resistance of obesity.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Adipose fibrosis: the fibroblasts/myofibroblasts drive the extracellular-matrix remodelling and fibrosis of the expanding, hypoxic (HIF-1α already mapped) adipose tissue of obesity.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 already mapped) contribute to the adipose-tissue inflammation and the insulin resistance of obesity.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the macrophage (already mapped) recruitment into the inflamed adipose tissue of obesity.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Dysmetabolic iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the adipose-tissue and systemic iron dysregulation of obesity.
 
 [^bluher-2019-obesity-review]: Blüher M. Obesity: global epidemiology and pathogenesis. *Nat Rev Endocrinol.* 2019;15(5):288-298. [doi:10.1038/s41574-019-0176-8](https://doi.org/10.1038/s41574-019-0176-8) · [PubMed 30814686](https://pubmed.ncbi.nlm.nih.gov/30814686/)
 [^wilding-2021-semaglutide-step1]: Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. *N Engl J Med.* 2021;384(11):989-1002. [doi:10.1056/NEJMoa2032183](https://doi.org/10.1056/NEJMoa2032183) · [PubMed 33567185](https://pubmed.ncbi.nlm.nih.gov/33567185/)
