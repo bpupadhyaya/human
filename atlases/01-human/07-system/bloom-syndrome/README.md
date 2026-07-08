@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/c5ar1
     relation: connects-to
     note: "Complement C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) is part of the innate inflammatory dimension of the immune dysregulation of Bloom syndrome."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement: the complement C5 and its C5a (with C3 and C5aR1 already mapped) complete the complement cascade of the innate immune dimension of Bloom syndrome."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the immune dysregulation of Bloom syndrome."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Chronic-disease iron: transferrin, the iron carrier, reflects the disordered iron handling of the anaemia of the recurrent infections and chronic disease of Bloom syndrome."
 ---
 
 # Bloom Syndrome
@@ -765,6 +774,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Antigen presentation: the dendritic cells present antigen (MHC already mapped) and are part of the immune-surveillance apparatus impaired in the immunodeficiency and cancer predisposition of Bloom syndrome.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Innate immunity: the macrophages are part of the innate immune compartment of the immune dysregulation and recurrent-infection susceptibility of Bloom syndrome.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — Complement C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) is part of the innate inflammatory dimension of the immune dysregulation of Bloom syndrome.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 and C5aR1 already mapped) complete the complement cascade of the innate immune dimension of Bloom syndrome.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the immune dysregulation of Bloom syndrome.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Chronic-disease iron: transferrin, the iron carrier, reflects the disordered iron handling of the anaemia of the recurrent infections and chronic disease of Bloom syndrome.
 
 ---
 
