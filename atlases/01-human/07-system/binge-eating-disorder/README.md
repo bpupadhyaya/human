@@ -432,6 +432,15 @@ cross_links:
   - target: 01-human/04-cellular/neuron
     relation: connects-to
     note: "Reward neurons: the dopaminergic (already mapped) reward neurons and the hypothalamic appetite neurons (leptin and NPY already mapped) mediate the loss-of-control eating of binge-eating disorder."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate neuroinflammation: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, is part of the low-grade neuroinflammation (IL-6 and TNF already mapped) of the metabolic-inflammatory state of binge-eating disorder."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 arm: the IFN-γ of the T cells is the type-II interferon arm of the immune-inflammatory dimension of the obesity-associated (already mapped) binge-eating disorder."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune-inflammatory dimension of binge-eating disorder."
 sources:
   - id: american-psychiatric-2013-bed-dsm5
     type: clinical-guideline
@@ -731,6 +740,9 @@ BED is among the most psychiatrically comorbid of all eating disorders:
 - `connects-to` → **[Type 2 diabetes](../type-2-diabetes/README.md)** — Metabolic comorbidity: the binge-eating disorder and the associated obesity (already mapped) drive the type 2 diabetes (insulin already mapped) risk.
 - `connects-to` → **[ADHD](../attention-deficit-hyperactivity-disorder/README.md)** — ADHD impulsivity: ADHD is comorbid with binge-eating disorder (the shared impulsivity and reward — dopamine already mapped — dysregulation), the lisdexamfetamine treating both.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Reward neurons: the dopaminergic (already mapped) reward neurons and the hypothalamic appetite neurons (leptin and NPY already mapped) mediate the loss-of-control eating of binge-eating disorder.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate neuroinflammation: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, is part of the low-grade neuroinflammation (IL-6 and TNF already mapped) of the metabolic-inflammatory state of binge-eating disorder.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 arm: the IFN-γ of the T cells is the type-II interferon arm of the immune-inflammatory dimension of the obesity-associated (already mapped) binge-eating disorder.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune-inflammatory dimension of binge-eating disorder.
 
 [^american-psychiatric-2013-bed-dsm5]: American Psychiatric Association. Binge Eating Disorder (307.51). In: *Diagnostic and Statistical Manual of Mental Disorders, 5th ed.* Arlington, VA: APA; 2013. [doi:10.1176/appi.books.9780890425596](https://doi.org/10.1176/appi.books.9780890425596)
 [^mccallum-2003-bed-review]: McCallum K, Bruton AM. Binge eating disorder: eating disorder or somatic syndrome? *Prim Care Companion J Clin Psychiatry.* 2003;5(Suppl 4):20-25. [PubMed 15213784](https://pubmed.ncbi.nlm.nih.gov/15213784/)

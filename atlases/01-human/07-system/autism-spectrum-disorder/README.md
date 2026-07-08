@@ -454,6 +454,15 @@ cross_links:
   - target: 01-human/07-system/gut-microbiome
     relation: connects-to
     note: "Gut-brain axis: the altered gut microbiome and the gut-brain (serotonin already mapped) signalling are implicated in the GI symptoms and the behaviour of autism spectrum disorder."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 maternal-immune activation: the IFN-γ of the T cells is the type-II interferon arm of the maternal immune activation (IL-6 and IL-17 already mapped) implicated in the neurodevelopment of autism spectrum disorder."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune dysregulation and the maternal immune activation of autism spectrum disorder."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune dysregulation and the atopy comorbidity of autism spectrum disorder."
 ---
 
 # Autism Spectrum Disorder
@@ -736,6 +745,9 @@ The neural basis of ASD social deficits involves dysfunction of the **social bra
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Neuronal connectivity: the altered neuronal migration, synaptogenesis (mTOR and PTEN already mapped) and the excitatory/inhibitory (glutamate and GABA already mapped) balance of the neurons underlie autism spectrum disorder.
 - `connects-to` → **[ADHD](../attention-deficit-hyperactivity-disorder/README.md)** — ADHD comorbidity: attention-deficit/hyperactivity disorder is highly comorbid with autism spectrum disorder, the two sharing the genetic and the neurodevelopmental (dopamine already mapped) overlap.
 - `connects-to` → **[Gut microbiome](../gut-microbiome/README.md)** — Gut-brain axis: the altered gut microbiome and the gut-brain (serotonin already mapped) signalling are implicated in the GI symptoms and the behaviour of autism spectrum disorder.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 maternal-immune activation: the IFN-γ of the T cells is the type-II interferon arm of the maternal immune activation (IL-6 and IL-17 already mapped) implicated in the neurodevelopment of autism spectrum disorder.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune dysregulation and the maternal immune activation of autism spectrum disorder.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune dysregulation and the atopy comorbidity of autism spectrum disorder.
 
 [^maenner-2023-asd-prevalence]: Maenner MJ, Warren Z, Williams AR, et al. Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 2020. *MMWR Surveill Summ.* 2023;72(2):1-14. [doi:10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1) · [PubMed 36952216](https://pubmed.ncbi.nlm.nih.gov/36952216/)
 [^lord-2020-asd-review]: Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum disorder. *Lancet.* 2018;392(10146):508-520. [doi:10.1016/S0140-6736(18)31129-2](https://doi.org/10.1016/S0140-6736(18)31129-2) · [PubMed 30078460](https://pubmed.ncbi.nlm.nih.gov/30078460/)
