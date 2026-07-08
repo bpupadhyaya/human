@@ -478,6 +478,15 @@ cross_links:
   - target: 01-human/04-cellular/t-helper-cell
     relation: connects-to
     note: "CD4 helper source: the CD4 T-helper cells are the source of the Th17 (IL-17 and IL-23 already mapped) cytokines of the chronic sterile inflammation of sickle cell disease."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement/contact regulation: the C1-esterase inhibitor regulates the classical complement and the contact-coagulation systems co-activated by the cell-free haem in the thromboinflammation of sickle cell disease."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Vaso-occlusion matricellular: osteopontin, released by the activated platelets (already mapped) and myeloid cells, is a matricellular mediator amplifying the endothelial (already mapped) adhesion and vaso-occlusion of sickle cell disease."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Adaptive/alloimmune arm: the cytotoxic T cells (perforin pathway) are part of the chronic inflammation and the transfusion alloimmunisation of sickle cell disease."
 ---
 
 # Sickle Cell Disease
@@ -790,6 +799,9 @@ SCD vaso-occlusion is not just from sickled RBCs mechanically blocking vessels �
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the haemolysis-triggered complement activation that amplifies the endothelial and neutrophil (already mapped) activation of the vaso-occlusion of sickle cell disease.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement dysregulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose control is impaired by the cell-free haem, contributing to the complement-driven inflammation of sickle cell disease.
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 helper source: the CD4 T-helper cells are the source of the Th17 (IL-17 and IL-23 already mapped) cytokines of the chronic sterile inflammation of sickle cell disease.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement/contact regulation: the C1-esterase inhibitor regulates the classical complement and the contact-coagulation systems co-activated by the cell-free haem in the thromboinflammation of sickle cell disease.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Vaso-occlusion matricellular: osteopontin, released by the activated platelets (already mapped) and myeloid cells, is a matricellular mediator amplifying the endothelial (already mapped) adhesion and vaso-occlusion of sickle cell disease.
+- `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Adaptive/alloimmune arm: the cytotoxic T cells (perforin pathway) are part of the chronic inflammation and the transfusion alloimmunisation of sickle cell disease.
 
 [^steinberg-1999-scd-management]: Steinberg MH. Management of sickle cell disease. *N Engl J Med.* 1999;340(13):1021-1030. [doi:10.1056/NEJM199904013401307](https://doi.org/10.1056/NEJM199904013401307) · [PubMed 10099145](https://pubmed.ncbi.nlm.nih.gov/10099145/)
 [^vichinsky-2000-acs-scd]: Vichinsky EP, Neumayr LD, Earles AN, et al. Causes and outcomes of the acute chest syndrome in sickle cell disease. *N Engl J Med.* 2000;342(25):1855-1865. [doi:10.1056/NEJM200006223422502](https://doi.org/10.1056/NEJM200006223422502) · [PubMed 10861320](https://pubmed.ncbi.nlm.nih.gov/10861320/)
