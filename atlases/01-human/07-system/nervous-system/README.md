@@ -457,6 +457,15 @@ cross_links:
   - target: 01-human/03-molecular/ifn-gamma
     relation: connects-to
     note: "Neuroinflammatory Th1: the IFN-γ of the infiltrating T cells drives the Th1 neuroinflammation (TNF and IL-1 already mapped) implicated in the neurological disease of the nervous system."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the neuroinflammation implicated in the neurological disease of the nervous system."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the neuroinflammation of the autoimmune and demyelinating diseases of the nervous system."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the neuroimmune balance of the nervous system."
 ---
 
 # Nervous System
@@ -639,6 +648,9 @@ Distributed cortical networks underlie language (Broca's area, Wernicke's area, 
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 neuroimmune: IL-13, with IL-4 (already mapped), is part of the type-2 neuroimmune signalling at the interface of the immune system and the nervous system.
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — CNS interferon: the type-I interferon defends the nervous system against the neurotropic viruses, and its dysregulation causes the interferonopathies affecting the brain.
 - `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Neuroinflammatory Th1: the IFN-γ of the infiltrating T cells drives the Th1 neuroinflammation (TNF and IL-1 already mapped) implicated in the neurological disease of the nervous system.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the neuroinflammation implicated in the neurological disease of the nervous system.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the neuroinflammation of the autoimmune and demyelinating diseases of the nervous system.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the neuroimmune balance of the nervous system.
 
 ## Pathology
 
