@@ -457,6 +457,15 @@ cross_links:
   - target: 01-human/03-molecular/il-5
     relation: connects-to
     note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune dysregulation of systemic lupus erythematosus."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm complementing the type-I interferon (already mapped) drive of systemic lupus erythematosus."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2 arm: IgE, including the anti-dsDNA IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of systemic lupus erythematosus."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast cells in nephritis: the mast cells infiltrate the lupus-nephritis kidney (already mapped) and skin lesions, contributing to the tissue inflammation of systemic lupus erythematosus."
 ---
 
 # Systemic Lupus Erythematosus
@@ -727,6 +736,9 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[Systemic sclerosis](../systemic-sclerosis/README.md)** — Connective-tissue overlap: systemic lupus erythematosus overlaps systemic sclerosis and the other connective-tissue diseases (Sjögren's already mapped), sharing the autoantibody and type-I interferon (already mapped) autoimmunity.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm complementing the type-I interferon (already mapped) and Th17 (IL-17 already mapped) drive of systemic lupus erythematosus.
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune dysregulation of systemic lupus erythematosus.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm complementing the type-I interferon (already mapped) drive of systemic lupus erythematosus.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, including the anti-dsDNA IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of systemic lupus erythematosus.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Mast cells in nephritis: the mast cells infiltrate the lupus-nephritis kidney (already mapped) and skin lesions, contributing to the tissue inflammation of systemic lupus erythematosus.
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)

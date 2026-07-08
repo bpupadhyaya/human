@@ -457,6 +457,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension and the atopic comorbidity reported in type 1 diabetes."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "Islet-autoantibody source: the plasma cells secrete the islet autoantibodies (anti-GAD, IA-2, ZnT8; immunoglobulin already mapped) that mark the autoimmunity of type 1 diabetes."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Islet inflammation: IL-6 contributes to the insulitis and the β-cell inflammation of type 1 diabetes, a target explored (with the anti-CD3 already mapped) to preserve β-cell function."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Islet mast cells: the mast cells infiltrate the inflamed islets and contribute to the innate inflammatory milieu of the insulitis of type 1 diabetes."
 ---
 
 # Type 1 Diabetes
@@ -699,6 +708,9 @@ cross_links:
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the autoimmune insulitis, complementing the dominant Th1 (IFN-γ and IL-12 already mapped) β-cell attack of type 1 diabetes.
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the broader immune dysregulation of type 1 diabetes.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension and the atopic comorbidity reported in type 1 diabetes.
+- `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — Islet-autoantibody source: the plasma cells secrete the islet autoantibodies (anti-GAD, IA-2, ZnT8; immunoglobulin already mapped) that mark the autoimmunity of type 1 diabetes.
+- `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Islet inflammation: IL-6 contributes to the insulitis and the β-cell inflammation of type 1 diabetes, a target explored (with the anti-CD3 already mapped) to preserve β-cell function.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Islet mast cells: the mast cells infiltrate the inflamed islets and contribute to the innate inflammatory milieu of the insulitis of type 1 diabetes.
 
 [^atkinson-2014-t1d-lancet]: Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. *Lancet.* 2014;383(9911):69-82. [doi:10.1016/S0140-6736(13)60591-7](https://doi.org/10.1016/S0140-6736(13)60591-7) · [PubMed 23890997](https://pubmed.ncbi.nlm.nih.gov/23890997/)
 [^herold-2019-teplizumab-t1d]: Herold KC, Bundy BN, Long SA, et al. An anti-CD3 antibody, teplizumab, in relatives at risk for type 1 diabetes. *N Engl J Med.* 2019;381(7):603-613. [doi:10.1056/NEJMoa1905155](https://doi.org/10.1056/NEJMoa1905155) · [PubMed 31180675](https://pubmed.ncbi.nlm.nih.gov/31180675/)
