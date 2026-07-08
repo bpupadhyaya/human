@@ -453,6 +453,15 @@ cross_links:
   - target: 01-human/03-molecular/il-5
     relation: connects-to
     note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune response balancing the antiviral Th1 (IFN-γ already mapped) drive of chronic hepatitis B."
+  - target: 02-pathogen/01-viruses/hepatitis-b-virus
+    relation: connects-to
+    note: "Causative virus: the hepatitis B virus (the cccDNA already mapped, the reverse-transcribed DNA genome) is the causative pathogen infecting the hepatocytes (already mapped) of hepatitis B."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune-mediated liver (already mapped) inflammation of chronic hepatitis B."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the immune response to chronic hepatitis B."
 ---
 
 # Hepatitis B
@@ -733,3 +742,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[HCC](../hcc/README.md)** — HCC outcome: chronic hepatitis B is the leading global cause of hepatocellular carcinoma, through the viral integration, the TERT and CTNNB1 (already mapped) drivers and the cirrhosis (collagen already mapped).
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 antiviral arm: IL-12 polarises the Th1 (IFN-γ already mapped) response of the cytotoxic T-cell (already mapped) clearance of the HBV-infected hepatocytes.
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune response balancing the antiviral Th1 (IFN-γ already mapped) drive of chronic hepatitis B.
+- `connects-to` → **[Hepatitis B virus](../../../02-pathogen/01-viruses/hepatitis-b-virus/README.md)** — Causative virus: the hepatitis B virus (the cccDNA already mapped, the reverse-transcribed DNA genome) is the causative pathogen infecting the hepatocytes (already mapped) of hepatitis B.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune-mediated liver (already mapped) inflammation of chronic hepatitis B.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the immune response to chronic hepatitis B.
