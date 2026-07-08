@@ -457,6 +457,15 @@ cross_links:
   - target: 01-human/03-molecular/il-12
     relation: connects-to
     note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune-inflammatory dimension accompanying hereditary angioedema."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune milieu, distinguishing the bradykinin-mediated (already mapped) angioedema from the type-2/mast-cell (histamine already mapped) angioedema."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the subtle immune-inflammatory dimension accompanying hereditary angioedema."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Antigen presentation: the dendritic cells present antigen (MHC already mapped) within the immune microenvironment accompanying hereditary angioedema."
 ---
 
 # Hereditary Angioedema
@@ -738,6 +747,9 @@ Fluid extravasation → ANGIOEDEMA
 - `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Innate immune modulation: the NK cells (perforin already mapped) are part of the broader innate immune context of hereditary angioedema, distinct from the complement (C3 already mapped) and bradykinin (already mapped) core mechanism.
 - `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 arm: the IFN-γ of the T cells is the type-II interferon arm (with the type-I interferon already mapped) of the subtle immune-inflammatory dimension of hereditary angioedema.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune-inflammatory dimension accompanying hereditary angioedema.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune milieu, distinguishing the bradykinin-mediated (already mapped) angioedema from the type-2/mast-cell (histamine already mapped) angioedema.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the subtle immune-inflammatory dimension accompanying hereditary angioedema.
+- `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Antigen presentation: the dendritic cells present antigen (MHC already mapped) within the immune microenvironment accompanying hereditary angioedema.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)

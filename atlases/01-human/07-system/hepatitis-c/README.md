@@ -453,6 +453,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension of the dysregulated type-1/type-2 balance of chronic hepatitis C."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune-mediated liver (already mapped) inflammation of chronic hepatitis C."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Treg exhaustion axis: the regulatory T cells suppress the antiviral T-cell (already mapped) response, contributing to the T-cell exhaustion (PD-1 already mapped) and the viral persistence of chronic hepatitis C."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast-cell fibrosis: the hepatic mast cells contribute to the type-2 (IL-4 and IL-13 already mapped) inflammation and the fibrosis (TGF-β already mapped) of chronic hepatitis C."
 ---
 
 # Hepatitis C
@@ -724,3 +733,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 antiviral arm: IL-12 polarises the Th1 (IFN-γ already mapped) response of the cytotoxic T-cell (already mapped) clearance of the HCV-infected hepatocytes.
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension balancing the antiviral Th1 (IFN-γ already mapped) drive of chronic hepatitis C.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension of the dysregulated type-1/type-2 balance of chronic hepatitis C.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune-mediated liver (already mapped) inflammation of chronic hepatitis C.
+- `connects-to` → **[Regulatory T cell](../../04-cellular/regulatory-t-cell/README.md)** — Treg exhaustion axis: the regulatory T cells suppress the antiviral T-cell (already mapped) response, contributing to the T-cell exhaustion (PD-1 already mapped) and the viral persistence of chronic hepatitis C.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Mast-cell fibrosis: the hepatic mast cells contribute to the type-2 (IL-4 and IL-13 already mapped) inflammation and the fibrosis (TGF-β already mapped) of chronic hepatitis C.
