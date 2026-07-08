@@ -451,6 +451,15 @@ cross_links:
   - target: 01-human/06-organ/pancreas
     relation: connects-to
     note: "Beta-cell demand: the obesity-driven insulin (already mapped) resistance raises the demand on the pancreatic β-cells, whose eventual failure causes the type 2 diabetes."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Adipose NK meta-inflammation: the adipose-tissue NK cells (perforin already mapped) and their IFN-γ drive the type-1 meta-inflammation of the obese adipose tissue (macrophages already mapped)."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Adipose Th1 inflammation: the IFN-γ of the adipose-tissue T and NK cells drives the Th1 meta-inflammation that promotes the insulin (already mapped) resistance of obesity."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the chronic adipose meta-inflammation (TNF and IL-6 already mapped) of obesity."
 ---
 
 # Obesity
@@ -735,6 +744,9 @@ This **metainflammation** mechanistically links obesity to type 2 diabetes, athe
 - `connects-to` → **[Gut microbiome](../gut-microbiome/README.md)** — Microbiome-obesity link: the gut-microbiome composition (the energy harvest, the SCFAs, the endotoxaemia — TLR4 already mapped) influences the obesity and the metabolic state.
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Cardiovascular risk: obesity drives the atherosclerosis (cholesterol and PCSK9 already mapped) and the cardiovascular disease, a leading obesity complication.
 - `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Beta-cell demand: the obesity-driven insulin (already mapped) resistance raises the demand on the pancreatic β-cells, whose eventual failure causes the type 2 diabetes.
+- `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Adipose NK meta-inflammation: the adipose-tissue NK cells (perforin already mapped) and their IFN-γ drive the type-1 meta-inflammation of the obese adipose tissue (macrophages already mapped).
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Adipose Th1 inflammation: the IFN-γ of the adipose-tissue T and NK cells drives the Th1 meta-inflammation that promotes the insulin (already mapped) resistance of obesity.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the chronic adipose meta-inflammation (TNF and IL-6 already mapped) of obesity.
 
 [^bluher-2019-obesity-review]: Blüher M. Obesity: global epidemiology and pathogenesis. *Nat Rev Endocrinol.* 2019;15(5):288-298. [doi:10.1038/s41574-019-0176-8](https://doi.org/10.1038/s41574-019-0176-8) · [PubMed 30814686](https://pubmed.ncbi.nlm.nih.gov/30814686/)
 [^wilding-2021-semaglutide-step1]: Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. *N Engl J Med.* 2021;384(11):989-1002. [doi:10.1056/NEJMoa2032183](https://doi.org/10.1056/NEJMoa2032183) · [PubMed 33567185](https://pubmed.ncbi.nlm.nih.gov/33567185/)

@@ -454,6 +454,15 @@ cross_links:
   - target: 01-human/07-system/systemic-lupus-erythematosus
     relation: connects-to
     note: "Autoimmune overlap: neuromyelitis optica co-occurs with systemic lupus erythematosus and Sjögren's, sharing the autoantibody and type-I interferon (already mapped) autoimmunity."
+  - target: 01-human/07-system/systemic-sclerosis
+    relation: connects-to
+    note: "Connective-tissue overlap: neuromyelitis optica can co-occur with systemic sclerosis and the other connective-tissue diseases (systemic lupus already mapped), part of the shared autoantibody autoimmunity."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm complementing the Th17 (IL-17 and IL-23 already mapped) drive of the AQP4 (already mapped) autoimmunity of neuromyelitis optica."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Eosinophil/type-2 IgE: the IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), reflects the eosinophil-rich type-2 dimension of the NMO lesions."
 ---
 
 # NMOSD
@@ -745,6 +754,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the adipokine-immune crosstalk of the autoimmune neuroinflammation of neuromyelitis optica.
 - `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — Secondary demyelination: the astrocyte (already mapped) destruction of NMO causes the secondary oligodendrocyte loss and demyelination, distinct from the primary oligodendrocyte demyelination of multiple sclerosis (already mapped).
 - `connects-to` → **[Systemic lupus erythematosus](../systemic-lupus-erythematosus/README.md)** — Autoimmune overlap: neuromyelitis optica co-occurs with systemic lupus erythematosus and Sjögren's, sharing the autoantibody and type-I interferon (already mapped) autoimmunity.
+- `connects-to` → **[Systemic sclerosis](../systemic-sclerosis/README.md)** — Connective-tissue overlap: neuromyelitis optica can co-occur with systemic sclerosis and the other connective-tissue diseases (systemic lupus already mapped), part of the shared autoantibody autoimmunity.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm complementing the Th17 (IL-17 and IL-23 already mapped) drive of the AQP4 (already mapped) autoimmunity of neuromyelitis optica.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Eosinophil/type-2 IgE: the IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), reflects the eosinophil-rich type-2 dimension of the NMO lesions.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)
