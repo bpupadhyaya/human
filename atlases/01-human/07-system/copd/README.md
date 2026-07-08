@@ -454,6 +454,15 @@ cross_links:
   - target: 01-human/04-cellular/smooth-muscle-cell
     relation: connects-to
     note: "Airway/vascular remodelling: the airway smooth muscle (acetylcholine already mapped — the bronchoconstriction) and the pulmonary-vascular smooth-muscle remodelling contribute to the airflow limitation and the hypertension of COPD."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 airway axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the neutrophilic (already mapped) airway inflammation of COPD."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the airway inflammation, part of the mixed immune profile of COPD."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Antiviral exacerbation interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) sensing, mediates the antiviral response to the respiratory-virus exacerbations of COPD."
 ---
 
 # COPD
@@ -742,6 +751,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[Asthma](../asthma/README.md)** — ACOS overlap: the asthma-COPD overlap shares the airway inflammation (the eosinophilic — IL-5 already mapped, and the neutrophilic — IL-17 already mapped) and the bronchodilator/ICS therapy.
 - `connects-to` → **[Pulmonary arterial hypertension](../pulmonary-arterial-hypertension/README.md)** — Cor pulmonale: the chronic hypoxia (HIF and EPO already mapped) and the vascular remodelling (endothelin already mapped) of COPD cause the pulmonary hypertension and the cor pulmonale.
 - `connects-to` → **[Smooth muscle cell](../../04-cellular/smooth-muscle-cell/README.md)** — Airway/vascular remodelling: the airway smooth muscle (acetylcholine already mapped — the bronchoconstriction) and the pulmonary-vascular smooth-muscle remodelling contribute to the airflow limitation and the hypertension of COPD.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 airway axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the neutrophilic (already mapped) airway inflammation of COPD.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the airway inflammation, part of the mixed immune profile of COPD.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Antiviral exacerbation interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) sensing, mediates the antiviral response to the respiratory-virus exacerbations of COPD.
 
 ---
 

@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: connects-to
     note: "Dysgranulopoiesis: the dysplastic granulocytes and the neutrophil dysplasia accompany the defining monocytosis (macrophage already mapped) of CMML."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 inflammation: the IFN-γ of the T cells (perforin already mapped) is the type-II interferon arm of the inflammatory dysregulation (IL-6 and TNF already mapped) of the MDS/MPN-overlap CMML."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune-inflammatory microenvironment of chronic myelomonocytic leukaemia."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) and inflammasome (NLRP3 already mapped) axis, is part of the inflammatory bone-marrow milieu of CMML."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -717,6 +726,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Marrow-adipocyte adipokine: resistin, with leptin and adiponectin (already mapped), completes the marrow-adipocyte adipokine signalling of the CMML microenvironment.
 - `connects-to` → **[Myeloproliferative neoplasms](../myeloproliferative-neoplasms/README.md)** — MDS/MPN overlap: CMML is the MDS/MPN-overlap neoplasm, sharing the myeloproliferative (JAK2 already mapped) features with the classic myeloproliferative neoplasms.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Dysgranulopoiesis: the dysplastic granulocytes and the neutrophil dysplasia accompany the defining monocytosis (macrophage already mapped) of CMML.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 inflammation: the IFN-γ of the T cells (perforin already mapped) is the type-II interferon arm of the inflammatory dysregulation (IL-6 and TNF already mapped) of the MDS/MPN-overlap CMML.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune-inflammatory microenvironment of chronic myelomonocytic leukaemia.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) and inflammasome (NLRP3 already mapped) axis, is part of the inflammatory bone-marrow milieu of CMML.
 
 ---
 
