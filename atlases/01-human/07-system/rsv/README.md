@@ -471,6 +471,15 @@ cross_links:
   - target: 01-human/07-system/prurigo-nodularis
     relation: connects-to
     note: "Atopic-march type-2: RSV bronchiolitis shares the type-2 (IL-4, IL-5, IL-13, TSLP and IL-31 already mapped) immunity of the atopic march with prurigo nodularis, another type-2 disease of the shared-biologic era."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement regulation: the C1-esterase inhibitor regulates the classical and lectin complement pathways (C3, C5, C5aR1 and factor H already mapped) engaged against RSV, a pathway the virus partially evades."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Airway matricellular: osteopontin, produced in the RSV-infected airway, is a matricellular cytokine amplifying the type-2 and myeloid inflammation of RSV bronchiolitis."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Acute-phase iron: transferrin, the iron carrier, reflects the hypoferraemia and disordered iron handling of the acute-phase response to the RSV lower-respiratory-tract infection."
 ---
 
 # RSV
@@ -766,3 +775,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) contributes to the complement-driven airway inflammation of severe RSV bronchiolitis.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: RSV recruits the host factor H (via its G glycoprotein) to inactivate the C3 convertase (complement C3, C5 and C5aR1 already mapped) and evade the complement attack.
 - `connects-to` → **[Prurigo nodularis](../prurigo-nodularis/README.md)** — Atopic-march type-2: RSV bronchiolitis shares the type-2 (IL-4, IL-5, IL-13, TSLP and IL-31 already mapped) immunity of the atopic march with prurigo nodularis, another type-2 disease of the shared-biologic era.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement regulation: the C1-esterase inhibitor regulates the classical and lectin complement pathways (C3, C5, C5aR1 and factor H already mapped) engaged against RSV, a pathway the virus partially evades.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Airway matricellular: osteopontin, produced in the RSV-infected airway, is a matricellular cytokine amplifying the type-2 and myeloid inflammation of RSV bronchiolitis.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Acute-phase iron: transferrin, the iron carrier, reflects the hypoferraemia and disordered iron handling of the acute-phase response to the RSV lower-respiratory-tract infection.

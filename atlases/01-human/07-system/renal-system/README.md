@@ -478,6 +478,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension (the allergic interstitial nephritis and minimal-change disease) of the renal system."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement: the complement C5 and its C5a (with C3 already mapped) generate the membrane-attack complex central to the membranous nephropathy and the complement-mediated glomerular injury of the renal system."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the myeloid recruitment of the glomerulonephritis and the ANCA vasculitis of the renal system."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose dysregulation causes the C3 glomerulopathy and atypical HUS of the renal system."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -726,6 +735,9 @@ Natriuretic counterpoint:
 - **Connects to:** [IL-23](../../03-molecular/il-23/README.md) — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the crescentic and ANCA-associated glomerulonephritides of the renal system.
 - **Connects to:** [IL-33](../../03-molecular/il-33/README.md) — epithelial alarmin: IL-33, released by the injured tubular and endothelial cells, activates the ILC2s and shapes the type-2 (IL-4 and IL-13 already mapped) response and the fibrosis of the renal system.
 - **Connects to:** [IgE](../../03-molecular/ige/README.md) — type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension (the allergic interstitial nephritis and minimal-change disease) of the renal system.
+- **Connects to:** [Complement C5](../../03-molecular/complement-c5/README.md) — terminal complement: the complement C5 and its C5a (with C3 already mapped) generate the membrane-attack complex central to the membranous nephropathy and the complement-mediated glomerular injury of the renal system.
+- **Connects to:** [C5aR1](../../03-molecular/c5ar1/README.md) — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the myeloid recruitment of the glomerulonephritis and the ANCA vasculitis of the renal system.
+- **Connects to:** [Factor H](../../03-molecular/factor-h/README.md) — complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose dysregulation causes the C3 glomerulopathy and atypical HUS of the renal system.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 
