@@ -466,6 +466,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "Antioxidant micronutrient: selenium, a selenoprotein cofactor, is part of the antioxidant micronutrient dimension studied in the colorectal-cancer (already mapped) chemoprevention of Lynch syndrome."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the myeloid recruitment into the immune-rich stroma of the MSI-high Lynch-syndrome tumours."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement evasion: the MMR-deficient Lynch tumour cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), tempering the complement attack against the highly immunogenic MSI-high tumours."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Bleeding iron: transferrin, the iron carrier, reflects the iron-deficiency anaemia from the occult gastrointestinal blood loss that often heralds the colorectal cancer (already mapped) of Lynch syndrome."
 ---
 
 # Lynch Syndrome
@@ -755,6 +764,9 @@ MSI-H stage II CRC: adjuvant 5-FU/leucovorin does NOT improve OS (may be harmful
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Complement in immunogenic tumours: the complement C5 and its C5a (with C3 already mapped) shape the innate inflammation of the highly immune-infiltrated MSI-high Lynch tumours.
 - `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Chemoprevention vitamin: the vitamin D status modulates the colorectal-cancer (already mapped) risk and, with aspirin, is part of the chemoprevention landscape of Lynch syndrome.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Antioxidant micronutrient: selenium, a selenoprotein cofactor, is part of the antioxidant micronutrient dimension studied in the colorectal-cancer (already mapped) chemoprevention of Lynch syndrome.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the myeloid recruitment into the immune-rich stroma of the MSI-high Lynch-syndrome tumours.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the MMR-deficient Lynch tumour cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), tempering the complement attack against the highly immunogenic MSI-high tumours.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Bleeding iron: transferrin, the iron carrier, reflects the iron-deficiency anaemia from the occult gastrointestinal blood loss that often heralds the colorectal cancer (already mapped) of Lynch syndrome.
 
 [^bonadona-2011-lynch-risks]: Bonadona V, Bonaïti B, Olschwang S, et al. Cancer risks associated with germline mutations in MLH1, MSH2, and MSH6 genes in Lynch syndrome. *JAMA.* 2011;305(22):2304-2310. [doi:10.1001/jama.2011.743](https://doi.org/10.1001/jama.2011.743) · [PubMed 21642683](https://pubmed.ncbi.nlm.nih.gov/21642683/)
 [^lynch-2015-lynch-review]: Lynch HT, Snyder CL, Shaw TG, et al. Milestones of Lynch syndrome: 1895-2015. *Nat Rev Cancer.* 2015;15(3):181-194. [doi:10.1038/nrc3878](https://doi.org/10.1038/nrc3878) · [PubMed 25673086](https://pubmed.ncbi.nlm.nih.gov/25673086/)
