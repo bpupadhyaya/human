@@ -454,6 +454,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Brain-iron oxidative injury: the iron accumulates in the degenerating brain (ferroportin and hepcidin already mapped) and catalyses the oxidative injury and the α-synuclein aggregation of Lewy body dementia."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate neuroinflammation: the type-I interferon, downstream of the cGAS-STING (already mapped) sensing of the mitochondrial DNA, drives the microglial (already mapped) neuroinflammation of Lewy body dementia."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic milieu of Lewy body dementia."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the neuroinflammation (IL-6 and TNF already mapped) of Lewy body dementia."
 ---
 
 # Lewy Body Dementia
@@ -725,6 +734,9 @@ Approximately 25-50% of clinically diagnosed DLB cases have significant AD co-pa
 - `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Neuroinflammation: the microglial activation and the neuroinflammation (TNF, IL-1 and NLRP3 already mapped) drive the α-synuclein (already mapped) neurodegeneration of Lewy body dementia.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Neuronal loss: the cortical and the cholinergic/dopaminergic (acetylcholine and dopamine already mapped) neurons, laden with the Lewy bodies (α-synuclein already mapped), degenerate in Lewy body dementia.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Brain-iron oxidative injury: the iron accumulates in the degenerating brain (ferroportin and hepcidin already mapped) and catalyses the oxidative injury and the α-synuclein aggregation of Lewy body dementia.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate neuroinflammation: the type-I interferon, downstream of the cGAS-STING (already mapped) sensing of the mitochondrial DNA, drives the microglial (already mapped) neuroinflammation of Lewy body dementia.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic milieu of Lewy body dementia.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the neuroinflammation (IL-6 and TNF already mapped) of Lewy body dementia.
 
 [^mckeith-2017-dlb-criteria]: McKeith IG, Boeve BF, Dickson DW, et al. Diagnosis and management of dementia with Lewy bodies: Fourth consensus report of the DLB Consortium. *Neurology.* 2017;89(1):88-100. [doi:10.1212/WNL.0000000000004058](https://doi.org/10.1212/WNL.0000000000004058) · [PubMed 28592453](https://pubmed.ncbi.nlm.nih.gov/28592453/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)

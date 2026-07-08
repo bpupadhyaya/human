@@ -452,6 +452,15 @@ cross_links:
   - target: 01-human/04-cellular/b-cell
     relation: connects-to
     note: "Immune-amnesia B cells: the measles depletes the memory B cells (with the memory T cells already mapped), erasing the humoral immunity to other pathogens — the 'immune amnesia'."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension of the immune response to the measles virus."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune response to the measles infection."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Inflammation iron: the IL-6-driven (already mapped) hepcidin of the acute measles inflammation contributes to the anaemia, compounded in the malnourished child."
 ---
 
 # Measles
@@ -741,6 +750,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Measles exanthem: the maculopapular rash (with the Koplik spots) of the skin is the classic measles exanthem, the T-cell (already mapped) response to the infected dermal endothelium.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — SLAM target cells: the measles virus (H protein already mapped) targets the SLAM (CD150)-expressing dendritic cells and macrophages, the initial infection and lymphatic spread.
 - `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Immune-amnesia B cells: the measles depletes the memory B cells (with the memory T cells already mapped), erasing the humoral immunity to other pathogens — the 'immune amnesia'.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension of the immune response to the measles virus.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune response to the measles infection.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Inflammation iron: the IL-6-driven (already mapped) hepcidin of the acute measles inflammation contributes to the anaemia, compounded in the malnourished child.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)
