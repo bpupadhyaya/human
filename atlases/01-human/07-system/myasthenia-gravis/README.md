@@ -451,6 +451,15 @@ cross_links:
   - target: 01-human/05-tissue/cortical-bone
     relation: connects-to
     note: "Steroid osteoporosis: the chronic glucocorticoid (already mapped) therapy of myasthenia gravis causes the osteoporosis (RANKL already mapped) and fracture risk of the cortical bone."
+  - target: 01-human/07-system/systemic-sclerosis
+    relation: connects-to
+    note: "Connective-tissue overlap: myasthenia gravis overlaps the other autoimmune connective-tissue diseases (systemic lupus already mapped), including the systemic sclerosis, part of the shared autoimmunity."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension balancing the Th1/Th17 (IFN-γ and IL-17 already mapped) drive of myasthenia gravis."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension present in a subset of myasthenia gravis."
 ---
 
 # Myasthenia Gravis
@@ -706,6 +715,9 @@ cross_links:
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic-immune (the thymic already-mapped adipose) crosstalk of myasthenia gravis.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the metabolic-immune milieu of myasthenia gravis.
 - `connects-to` → **[Cortical bone](../../05-tissue/cortical-bone/README.md)** — Steroid osteoporosis: the chronic glucocorticoid (already mapped) therapy of myasthenia gravis causes the osteoporosis (RANKL already mapped) and fracture risk of the cortical bone.
+- `connects-to` → **[Systemic sclerosis](../systemic-sclerosis/README.md)** — Connective-tissue overlap: myasthenia gravis overlaps the other autoimmune connective-tissue diseases (systemic lupus already mapped), including the systemic sclerosis, part of the shared autoimmunity.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension balancing the Th1/Th17 (IFN-γ and IL-17 already mapped) drive of myasthenia gravis.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension present in a subset of myasthenia gravis.
 
 [^gilhus-2016-mg-review]: Gilhus NE. Myasthenia Gravis. *N Engl J Med.* 2016;375(26):2570-2581. [doi:10.1056/NEJMra1602678](https://doi.org/10.1056/NEJMra1602678) · [PubMed 28029925](https://pubmed.ncbi.nlm.nih.gov/28029925/)
 [^howard-2021-efgartigimod-adapt]: Howard JF Jr, Bril V, Vu T, et al. Safety, efficacy, and tolerability of efgartigimod in patients with generalised myasthenia gravis (ADAPT). *Lancet Neurol.* 2021;20(7):526-536. [doi:10.1016/S1474-4422(21)00159-9](https://doi.org/10.1016/S1474-4422(21)00159-9) · [PubMed 34146511](https://pubmed.ncbi.nlm.nih.gov/34146511/)
