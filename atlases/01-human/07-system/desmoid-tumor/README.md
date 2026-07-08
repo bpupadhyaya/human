@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/c5ar1
     relation: connects-to
     note: "C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid recruitment into the fibroblast (already mapped)-rich stroma of the desmoid tumour."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement: the complement C5 and its C5a (with C3 and C5aR1 already mapped) contribute to the inflammatory dimension of the fibroblast-rich desmoid-tumour microenvironment."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement evasion: the desmoid-tumour cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), tempering the complement attack within the stroma."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Fibromatosis matricellular: osteopontin, a matricellular mediator, contributes to the fibroblast (already mapped) activation and the matrix remodelling (with periostin already mapped) of the desmoid tumour."
 ---
 
 # Desmoid Tumor
@@ -761,6 +770,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines shaping the immune microenvironment of the desmoid tumour.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Antigen presentation: the dendritic cells present antigen (MHC already mapped) to the T cells (already mapped) within the immune microenvironment of the desmoid tumour.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid recruitment into the fibroblast (already mapped)-rich stroma of the desmoid tumour.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 and C5aR1 already mapped) contribute to the inflammatory dimension of the fibroblast-rich desmoid-tumour microenvironment.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the desmoid-tumour cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), tempering the complement attack within the stroma.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Fibromatosis matricellular: osteopontin, a matricellular mediator, contributes to the fibroblast (already mapped) activation and the matrix remodelling (with periostin already mapped) of the desmoid tumour.
 
 ---
 
