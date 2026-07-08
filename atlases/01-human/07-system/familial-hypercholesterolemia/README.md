@@ -478,6 +478,15 @@ cross_links:
   - target: 01-human/03-molecular/factor-h
     relation: connects-to
     note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) active on the oxidised LDL and the atheroma of familial hypercholesterolaemia."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway activated by the oxidised LDL and C-reactive protein in the atheroma of familial hypercholesterolaemia."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Atheroma matricellular: osteopontin, produced by the foam-cell macrophages (already mapped), is a matricellular mediator of the plaque inflammation and the vascular calcification of familial hypercholesterolaemia."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Plaque iron: transferrin, the iron carrier, reflects the disordered iron handling and the intraplaque-haemorrhage iron that aggravates the oxidative injury of the atheroma of familial hypercholesterolaemia."
 ---
 
 # Familial Hypercholesterolemia
@@ -739,6 +748,9 @@ FH is a **monogenic autosomal dominant disorder** caused by mutations in three g
 - `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Innate plaque arm: the NK cells (perforin already mapped) infiltrate the atherosclerotic plaque and are part of the innate immune contribution to the atherosclerosis of familial hypercholesterolaemia.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the myeloid recruitment into the atherosclerotic plaque of familial hypercholesterolaemia.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) active on the oxidised LDL and the atheroma of familial hypercholesterolaemia.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway activated by the oxidised LDL and C-reactive protein in the atheroma of familial hypercholesterolaemia.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Atheroma matricellular: osteopontin, produced by the foam-cell macrophages (already mapped), is a matricellular mediator of the plaque inflammation and the vascular calcification of familial hypercholesterolaemia.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Plaque iron: transferrin, the iron carrier, reflects the disordered iron handling and the intraplaque-haemorrhage iron that aggravates the oxidative injury of the atheroma of familial hypercholesterolaemia.
 
 [^goldstein-1985-ldlr-nobel]: Goldstein JL, Brown MS. The LDL receptor. *Arterioscler Thromb Vasc Biol.* 2009;29(4):431-438. [doi:10.1161/ATVBAHA.108.179564](https://doi.org/10.1161/ATVBAHA.108.179564) · [PubMed 19299327](https://pubmed.ncbi.nlm.nih.gov/19299327/)
 [^raal-2020-inclisiran-fh]: Raal FJ, Kallend D, Ray KK, et al. Inclisiran for the Treatment of Heterozygous Familial Hypercholesterolemia. *N Engl J Med.* 2020;382(16):1520-1530. [doi:10.1056/NEJMoa1913805](https://doi.org/10.1056/NEJMoa1913805) · [PubMed 32197277](https://pubmed.ncbi.nlm.nih.gov/32197277/)
