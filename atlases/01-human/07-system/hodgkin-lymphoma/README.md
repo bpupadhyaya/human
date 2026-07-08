@@ -457,6 +457,15 @@ cross_links:
   - target: 01-human/03-molecular/il-33
     relation: connects-to
     note: "Alarmin arm: IL-33, an IL-1-family alarmin, contributes to the type-2 (IL-4, IL-5 and IL-13 already mapped) skewing of the Reed-Sternberg microenvironment of Hodgkin lymphoma."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Anti-CD20/CD30 CDC: the complement C5 and the terminal MAC (with C3 already mapped) mediate the complement-dependent cytotoxicity contributing to the anti-CD20 (rituximab in NLPHL; CD20 already mapped) killing of Hodgkin lymphoma."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling shapes the myeloid and macrophage (already mapped) response within the reactive microenvironment of Hodgkin lymphoma."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Prognostic vitamin: the low vitamin D status is associated with a worse outcome in Hodgkin lymphoma and modulates the immune microenvironment and the response to therapy."
 ---
 
 # Hodgkin Lymphoma
@@ -725,6 +734,9 @@ Modern protocols minimize RT fields and doses (ISRT replacing extended-field RT)
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the reactive inflammatory infiltrate shaped by the Reed-Sternberg cells of Hodgkin lymphoma.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1 inflammation: IL-1β, an inflammasome cytokine, is part of the pro-inflammatory cytokine milieu secreted within the reactive microenvironment of Hodgkin lymphoma.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — Alarmin arm: IL-33, an IL-1-family alarmin, contributes to the type-2 (IL-4, IL-5 and IL-13 already mapped) skewing of the Reed-Sternberg microenvironment of Hodgkin lymphoma.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Anti-CD20/CD30 CDC: the complement C5 and the terminal MAC (with C3 already mapped) mediate the complement-dependent cytotoxicity contributing to the anti-CD20 (rituximab in NLPHL; CD20 already mapped) killing of Hodgkin lymphoma.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling shapes the myeloid and macrophage (already mapped) response within the reactive microenvironment of Hodgkin lymphoma.
+- `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Prognostic vitamin: the low vitamin D status is associated with a worse outcome in Hodgkin lymphoma and modulates the immune microenvironment and the response to therapy.
 
 [^connors-2018-echelon1]: Connors JM, Jurczak W, Straus DJ, et al. Brentuximab vedotin with chemotherapy for stage III or IV Hodgkin's lymphoma. *N Engl J Med.* 2018;378(4):331-344. [doi:10.1056/NEJMoa1708984](https://doi.org/10.1056/NEJMoa1708984) · [PubMed 29360494](https://pubmed.ncbi.nlm.nih.gov/29360494/)
 [^armand-2018-nivo-hl]: Armand P, Engert A, Younes A, et al. Nivolumab for relapsed/refractory classic Hodgkin lymphoma after failure of autologous hematopoietic cell transplantation: extended follow-up of the multicohort single-arm phase II CheckMate 205 trial. *J Clin Oncol.* 2018;36(14):1428-1439. [doi:10.1200/JCO.2017.77.6717](https://doi.org/10.1200/JCO.2017.77.6717) · [PubMed 29584546](https://pubmed.ncbi.nlm.nih.gov/29584546/)

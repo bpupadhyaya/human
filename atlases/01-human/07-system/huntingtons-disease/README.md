@@ -444,6 +444,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Antigen presentation: the dendritic cells of the peripheral and CNS-border immune compartments present antigen to the T cells (already mapped) of the neuroinflammation of Huntington's disease."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the peripheral immune dysregulation of Huntington's disease."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast-cell neuroinflammation: the mast cells of the brain (already mapped) and the periphery contribute to the neuroinflammation and the type-2 (IgE already mapped) dimension of Huntington's disease."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "NK dysregulation: the NK cells (perforin already mapped), in which the mutant huntingtin (HTT already mapped) is expressed, are part of the peripheral immune dysregulation of Huntington's disease."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -637,3 +646,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the peripheral-immune dysregulation of Huntington's disease.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the peripheral-immune activation and neuroinflammation of Huntington's disease.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Antigen presentation: the dendritic cells of the peripheral and CNS-border immune compartments present antigen to the T cells (already mapped) of the neuroinflammation of Huntington's disease.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the peripheral immune dysregulation of Huntington's disease.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Mast-cell neuroinflammation: the mast cells of the brain (already mapped) and the periphery contribute to the neuroinflammation and the type-2 (IgE already mapped) dimension of Huntington's disease.
+- `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — NK dysregulation: the NK cells (perforin already mapped), in which the mutant huntingtin (HTT already mapped) is expressed, are part of the peripheral immune dysregulation of Huntington's disease.
