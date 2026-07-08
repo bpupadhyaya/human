@@ -453,6 +453,15 @@ cross_links:
   - target: 01-human/03-molecular/il-4
     relation: connects-to
     note: "Type-2 immune modulation: IL-4 and the type-2 arm modulate the macrophage (already mapped) iron handling that intersects with the iron-deficiency anaemia."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 arm: IL-13, with IL-4 (already mapped), completes the type-2 immune arm whose M2-macrophage (already mapped) polarisation shapes the iron handling intersecting with iron-deficiency anaemia."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Eosinophil/hookworm arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), drives the eosinophil response to the hookworm and other parasites that are a leading cause of the iron-deficiency anaemia through gut blood loss."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 arm: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the inflammatory milieu that, in the mixed anaemias, compounds the iron-restricted erythropoiesis of iron-deficiency anaemia."
 ---
 
 # Iron Deficiency Anemia
@@ -718,6 +727,9 @@ Iron is essential for:
 - `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — Hepatic iron sensing: the hepatocytes produce the hepcidin (already mapped) and store the ferritin iron; the low iron of iron-deficiency anaemia suppresses the hepcidin to maximise the absorption.
 - `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Inflammation-restricted erythropoiesis: the IFN-γ of the T cells suppresses the erythropoiesis and, in the mixed iron-deficiency/inflammatory anaemias, compounds the iron-restricted erythropoiesis.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Type-2 immune modulation: IL-4 and the type-2 arm modulate the macrophage (already mapped) iron handling that intersects with the iron-deficiency anaemia.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 arm: IL-13, with IL-4 (already mapped), completes the type-2 immune arm whose M2-macrophage (already mapped) polarisation shapes the iron handling intersecting with iron-deficiency anaemia.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Eosinophil/hookworm arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), drives the eosinophil response to the hookworm and other parasites that are a leading cause of the iron-deficiency anaemia through gut blood loss.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 arm: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the inflammatory milieu that, in the mixed anaemias, compounds the iron-restricted erythropoiesis of iron-deficiency anaemia.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)
