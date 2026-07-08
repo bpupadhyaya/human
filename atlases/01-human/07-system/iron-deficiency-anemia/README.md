@@ -471,6 +471,15 @@ cross_links:
   - target: 01-human/04-cellular/mast-cell
     relation: connects-to
     note: "Intestinal mast cells: the mast cells of the gut, armed by the IgE (already mapped), are effectors of the antiparasite type-2 response to the hookworm blood loss underlying much iron-deficiency anaemia."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Antiparasite complement: the complement C3 opsonises the intestinal helminths (hookworm), part of the innate mucosal defence against the blood-loss cause of much iron-deficiency anaemia."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) recruits the myeloid cells to the intestinal mucosa in the antiparasite response underlying the blood-loss iron-deficiency anaemia."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Mucosal antigen presentation: the dendritic cells of the gut present the helminth antigen to the T-helper (already mapped) cells, priming the type-2 antiparasite response to the hookworm blood loss of iron-deficiency anaemia."
 ---
 
 # Iron Deficiency Anemia
@@ -742,6 +751,9 @@ Iron is essential for:
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Antiparasite IgE: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), mediates the antiparasite response to the hookworm and other helminths whose gut blood loss is a leading global cause of iron-deficiency anaemia.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — Epithelial alarmin: IL-33, released by the injured gut epithelium, initiates the type-2 (IL-5 already mapped) antiparasite response to the intestinal helminths that cause the blood-loss iron-deficiency anaemia.
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Intestinal mast cells: the mast cells of the gut, armed by the IgE (already mapped), are effectors of the antiparasite type-2 response to the hookworm blood loss underlying much iron-deficiency anaemia.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Antiparasite complement: the complement C3 opsonises the intestinal helminths (hookworm), part of the innate mucosal defence against the blood-loss cause of much iron-deficiency anaemia.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) recruits the myeloid cells to the intestinal mucosa in the antiparasite response underlying the blood-loss iron-deficiency anaemia.
+- `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Mucosal antigen presentation: the dendritic cells of the gut present the helminth antigen to the T-helper (already mapped) cells, priming the type-2 antiparasite response to the hookworm blood loss of iron-deficiency anaemia.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)
