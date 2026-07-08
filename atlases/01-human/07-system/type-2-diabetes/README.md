@@ -454,6 +454,15 @@ cross_links:
   - target: 01-human/03-molecular/ifn-gamma
     relation: connects-to
     note: "Adipose Th1 inflammation: the IFN-γ of the adipose-tissue T cells (with the macrophages already mapped) drives the Th1 inflammation that promotes the insulin (already mapped) resistance of type 2 diabetes."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 counter-arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 arm whose loss (the reduced adipose eosinophils/ILC2s) permits the pro-inflammatory insulin resistance of type 2 diabetes."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the chronic low-grade inflammation of the insulin resistance of type 2 diabetes."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the adipose immune milieu of type 2 diabetes."
 ---
 
 # Type 2 Diabetes
@@ -702,6 +711,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the chronic metabolic inflammation (IL-6 and TNF already mapped) of the insulin resistance of type 2 diabetes.
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate metabolic inflammation: the type-I interferon, downstream of the cGAS-STING (already mapped) sensing of the metabolic stress, contributes to the chronic low-grade inflammation (IL-6 and TNF already mapped) of the insulin resistance of type 2 diabetes.
 - `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Adipose Th1 inflammation: the IFN-γ of the adipose-tissue T cells (with the macrophages already mapped) drives the Th1 inflammation that promotes the insulin (already mapped) resistance of type 2 diabetes.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 counter-arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 arm whose loss (the reduced adipose eosinophils/ILC2s) permits the pro-inflammatory insulin resistance of type 2 diabetes.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the chronic low-grade inflammation of the insulin resistance of type 2 diabetes.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the adipose immune milieu of type 2 diabetes.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
