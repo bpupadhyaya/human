@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "Autoimmune micronutrient: selenium, a selenoprotein antioxidant cofactor, is part of the micronutrient dimension (with vitamin D already mapped) of the autoimmune susceptibility of systemic lupus erythematosus."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway activated by the anti-dsDNA immune complexes (immunoglobulin already mapped) that consume the complement (C3, C5, C5aR1 and factor H already mapped) in systemic lupus erythematosus."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Fibrotic remodelling: periostin, a matricellular mediator, contributes to the tissue fibrosis (with osteopontin already mapped) of the lupus nephritis and the chronic organ damage of systemic lupus erythematosus."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Chronic-disease iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the anaemia of chronic disease of systemic lupus erythematosus."
 ---
 
 # Systemic Lupus Erythematosus
@@ -751,6 +760,9 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose consumption and the rare factor-H/complement deficiencies are tightly linked to systemic lupus erythematosus.
 - `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Cytotoxic tissue damage: the cytotoxic T cells (perforin already mapped) infiltrate the target tissues and contribute to the organ damage of systemic lupus erythematosus.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Autoimmune micronutrient: selenium, a selenoprotein antioxidant cofactor, is part of the micronutrient dimension (with vitamin D already mapped) of the autoimmune susceptibility of systemic lupus erythematosus.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway activated by the anti-dsDNA immune complexes (immunoglobulin already mapped) that consume the complement (C3, C5, C5aR1 and factor H already mapped) in systemic lupus erythematosus.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Fibrotic remodelling: periostin, a matricellular mediator, contributes to the tissue fibrosis (with osteopontin already mapped) of the lupus nephritis and the chronic organ damage of systemic lupus erythematosus.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Chronic-disease iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the anaemia of chronic disease of systemic lupus erythematosus.
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)

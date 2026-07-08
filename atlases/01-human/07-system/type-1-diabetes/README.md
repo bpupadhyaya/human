@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "Autoimmune micronutrient: selenium, a selenoprotein antioxidant cofactor, is part of the micronutrient dimension (with vitamin D already mapped) of the autoimmune susceptibility and the oxidative β-cell stress of type 1 diabetes."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the complement activation in the inflamed islets of type 1 diabetes."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway activated in the islet autoimmunity of type 1 diabetes, and C1-INH has been explored as an islet-protective therapy."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "β-cell iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) implicated in the oxidative β-cell stress of type 1 diabetes."
 ---
 
 # Type 1 Diabetes
@@ -723,6 +732,9 @@ cross_links:
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Islet complement: the complement C5 and its activation (with C3 already mapped) contribute to the innate inflammatory injury of the insulitis of type 1 diabetes.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling links the complement to the myeloid recruitment into the inflamed islets of type 1 diabetes.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Autoimmune micronutrient: selenium, a selenoprotein antioxidant cofactor, is part of the micronutrient dimension (with vitamin D already mapped) of the autoimmune susceptibility and the oxidative β-cell stress of type 1 diabetes.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the complement activation in the inflamed islets of type 1 diabetes.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway activated in the islet autoimmunity of type 1 diabetes, and C1-INH has been explored as an islet-protective therapy.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — β-cell iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) implicated in the oxidative β-cell stress of type 1 diabetes.
 
 [^atkinson-2014-t1d-lancet]: Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. *Lancet.* 2014;383(9911):69-82. [doi:10.1016/S0140-6736(13)60591-7](https://doi.org/10.1016/S0140-6736(13)60591-7) · [PubMed 23890997](https://pubmed.ncbi.nlm.nih.gov/23890997/)
 [^herold-2019-teplizumab-t1d]: Herold KC, Bundy BN, Long SA, et al. An anti-CD3 antibody, teplizumab, in relatives at risk for type 1 diabetes. *N Engl J Med.* 2019;381(7):603-613. [doi:10.1056/NEJMoa1905155](https://doi.org/10.1056/NEJMoa1905155) · [PubMed 31180675](https://pubmed.ncbi.nlm.nih.gov/31180675/)
