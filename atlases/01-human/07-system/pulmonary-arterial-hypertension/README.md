@@ -454,6 +454,15 @@ cross_links:
   - target: 01-human/03-molecular/il-12
     relation: connects-to
     note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the pulmonary-vascular inflammation of PAH."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune-mediated pulmonary-vascular inflammation of PAH."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the pulmonary-vascular inflammation and remodelling of PAH."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the pulmonary-vascular inflammation of PAH."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -722,6 +731,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[IL-17a](../../03-molecular/il-17a/README.md)** — Th17 vascular inflammation: the IL-17 of the Th17 cells (T-helper cell already mapped) drives the perivascular inflammation and the remodelling of the pulmonary arteries in PAH.
 - `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 vascular inflammation: the IFN-γ of the T cells is the type-II interferon arm (with the type-I interferon already mapped) of the immune-mediated pulmonary-vascular inflammation of PAH.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the pulmonary-vascular inflammation of PAH.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune-mediated pulmonary-vascular inflammation of PAH.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the pulmonary-vascular inflammation and remodelling of PAH.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the pulmonary-vascular inflammation of PAH.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

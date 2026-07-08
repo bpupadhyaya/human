@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/03-molecular/il-23
     relation: connects-to
     note: "Th17 axis: IL-23 sustains the Th17 arm of the inflammatory microenvironment of peripheral T-cell lymphoma."
+  - target: 01-human/03-molecular/il-31
+    relation: connects-to
+    note: "Pruritus cytokine: IL-31, produced by the malignant T cells, mediates the severe pruritus that is a characteristic paraneoplastic symptom of peripheral (and cutaneous) T-cell lymphoma."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Eosinophil/mast infiltrate: histamine, from the mast cells and the eosinophil-rich (IL-5 already mapped) polymorphous infiltrate, is part of the reactive microenvironment of peripheral T-cell lymphoma (especially AITL)."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast-cell infiltrate: the mast cells (the histamine already mapped source) populate the polymorphous reactive infiltrate of peripheral T-cell lymphoma."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -736,6 +745,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate antitumour interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment relevant to the immunotherapy of peripheral T-cell lymphoma.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune microenvironment of peripheral T-cell lymphoma.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 arm of the inflammatory microenvironment of peripheral T-cell lymphoma.
+- `connects-to` → **[IL-31](../../03-molecular/il-31/README.md)** — Pruritus cytokine: IL-31, produced by the malignant T cells, mediates the severe pruritus that is a characteristic paraneoplastic symptom of peripheral (and cutaneous) T-cell lymphoma.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Eosinophil/mast infiltrate: histamine, from the mast cells and the eosinophil-rich (IL-5 already mapped) polymorphous infiltrate, is part of the reactive microenvironment of peripheral T-cell lymphoma (especially AITL).
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Mast-cell infiltrate: the mast cells (the histamine already mapped source) populate the polymorphous reactive infiltrate of peripheral T-cell lymphoma.
 
 ---
 
