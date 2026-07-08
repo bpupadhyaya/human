@@ -463,6 +463,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the adipose immune milieu of type 2 diabetes."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Adipose CD4 arm: the CD4 T-helper cells shift toward the Th1/Th17 (IFN-γ and IL-17 already mapped) phenotype in the inflamed adipose tissue, driving the insulin resistance of type 2 diabetes."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Adipose CD8 initiator: the CD8 T cells (perforin already mapped) infiltrate the adipose tissue early and recruit and activate the macrophages (already mapped) that drive the insulin resistance of type 2 diabetes."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Adipose mast cells: the mast cells accumulate in the inflamed adipose tissue and contribute to the chronic low-grade inflammation and the insulin resistance of type 2 diabetes."
 ---
 
 # Type 2 Diabetes
@@ -714,6 +723,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 counter-arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 arm whose loss (the reduced adipose eosinophils/ILC2s) permits the pro-inflammatory insulin resistance of type 2 diabetes.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the chronic low-grade inflammation of the insulin resistance of type 2 diabetes.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the adipose immune milieu of type 2 diabetes.
+- `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — Adipose CD4 arm: the CD4 T-helper cells shift toward the Th1/Th17 (IFN-γ and IL-17 already mapped) phenotype in the inflamed adipose tissue, driving the insulin resistance of type 2 diabetes.
+- `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Adipose CD8 initiator: the CD8 T cells (perforin already mapped) infiltrate the adipose tissue early and recruit and activate the macrophages (already mapped) that drive the insulin resistance of type 2 diabetes.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Adipose mast cells: the mast cells accumulate in the inflamed adipose tissue and contribute to the chronic low-grade inflammation and the insulin resistance of type 2 diabetes.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
