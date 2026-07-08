@@ -460,6 +460,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "IgE regulation: the commensal microbiome restrains the baseline IgE (with IL-4 and IL-13 already mapped), and the dysbiosis/germ-free state raises the IgE and the allergic susceptibility."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Microbiome-shaped CD8: the commensal microbiome shapes the intraepithelial and systemic cytotoxic T cells (perforin pathway), and the dysbiosis alters the anti-tumour and anti-viral CD8 response."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast-cell crosstalk: the gut mast cells are educated by the commensal microbiome and, in dysbiosis, contribute to the barrier dysfunction and the type-2 (IgE already mapped) sensitisation of the gut-shaped immunity."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Gut-marrow axis: the commensal microbiome, via the microbial metabolites and signals, conditions the haematopoiesis and the myeloid output of the bone marrow, a systemic arm of the gut-shaped immunity."
 ---
 
 # Gut Microbiome
@@ -685,6 +694,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2/eosinophil arm: the microbiome shapes the IL-5 and the type-2 (IL-4 and IL-13 already mapped) immunity, tuning the gut eosinophils and the anti-parasite response of the host.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 induction: the segmented-filamentous and other commensal bacteria induce the IL-23/Th17 (IL-17 already mapped) axis of the gut-shaped systemic immunity.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — IgE regulation: the commensal microbiome restrains the baseline IgE (with IL-4 and IL-13 already mapped), and the dysbiosis/germ-free state raises the IgE and the allergic susceptibility.
+- `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Microbiome-shaped CD8: the commensal microbiome shapes the intraepithelial and systemic cytotoxic T cells (perforin pathway), and the dysbiosis alters the anti-tumour and anti-viral CD8 response.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Mast-cell crosstalk: the gut mast cells are educated by the commensal microbiome and, in dysbiosis, contribute to the barrier dysfunction and the type-2 (IgE already mapped) sensitisation of the gut-shaped immunity.
+- `connects-to` → **[Bone marrow](../../05-tissue/bone-marrow/README.md)** — Gut-marrow axis: the commensal microbiome, via the microbial metabolites and signals, conditions the haematopoiesis and the myeloid output of the bone marrow, a systemic arm of the gut-shaped immunity.
 
 ## Pathology
 

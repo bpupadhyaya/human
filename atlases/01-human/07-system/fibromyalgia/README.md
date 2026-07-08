@@ -447,6 +447,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension reported in a subset of fibromyalgia."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Psychoneuroimmune arm: the peripheral cytotoxic T cells (perforin pathway) reflect the adaptive-immune activation reported in the small-fibre and psychoneuroimmune dimension of fibromyalgia."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "CNS-border antigen presentation: the dendritic cells of the meningeal and CNS-border compartments present antigen to the T cells (already mapped) of the neuroinflammation implicated in the central sensitisation of fibromyalgia."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Antioxidant micronutrient: selenium, a selenoprotein antioxidant cofactor whose low status is reported in fibromyalgia, is part of the oxidative-stress and micronutrient dimension of the disorder."
 sources:
   - id: wolfe-2016-fibromyalgia-criteria
     type: peer-reviewed
@@ -750,6 +759,9 @@ FM is not a single-etiology disorder but a convergent syndrome resulting from th
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the subtle immune dysregulation reported in fibromyalgia.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune-inflammatory dimension reported in fibromyalgia.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension reported in a subset of fibromyalgia.
+- `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Psychoneuroimmune arm: the peripheral cytotoxic T cells (perforin pathway) reflect the adaptive-immune activation reported in the small-fibre and psychoneuroimmune dimension of fibromyalgia.
+- `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — CNS-border antigen presentation: the dendritic cells of the meningeal and CNS-border compartments present antigen to the T cells (already mapped) of the neuroinflammation implicated in the central sensitisation of fibromyalgia.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Antioxidant micronutrient: selenium, a selenoprotein antioxidant cofactor whose low status is reported in fibromyalgia, is part of the oxidative-stress and micronutrient dimension of the disorder.
 
 [^wolfe-2016-fibromyalgia-criteria]: Wolfe F, Clauw DJ, Fitzcharles MA, et al. 2016 Revisions to the 2010/2011 fibromyalgia diagnostic criteria. *Semin Arthritis Rheum.* 2016;46(3):319-329. [doi:10.1016/j.semarthrit.2016.08.012](https://doi.org/10.1016/j.semarthrit.2016.08.012) · [PubMed 27916278](https://pubmed.ncbi.nlm.nih.gov/27916278/)
 [^clauw-2014-fibromyalgia-review]: Clauw DJ. Fibromyalgia: a clinical review. *JAMA.* 2014;311(15):1547-1555. [doi:10.1001/jama.2014.3266](https://doi.org/10.1001/jama.2014.3266) · [PubMed 24737367](https://pubmed.ncbi.nlm.nih.gov/24737367/)
