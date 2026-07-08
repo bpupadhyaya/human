@@ -483,6 +483,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Nutritional immunity: transferrin, the iron carrier, reflects the disordered iron handling of the anaemia of the chronic inflammation of CIDP."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Neuroinflammation matricellular: osteopontin, a matricellular cytokine, amplifies the macrophage (already mapped)-mediated demyelinating inflammation of the peripheral nerve in CIDP."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Onion-bulb remodelling: periostin, a matricellular mediator, is part of the fibrotic remodelling and the onion-bulb formation of the chronically demyelinated/remyelinated nerve of CIDP."
+  - target: 01-human/03-molecular/connexin43
+    relation: connects-to
+    note: "Glial gap junctions: connexin43, a gap-junction protein of the glia, is part of the Schwann-cell coupling and the node-of-Ranvier architecture disrupted in the demyelination of CIDP."
 ---
 
 # CIDP
@@ -780,6 +789,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose activation on the paranodal antigens contributes to the demyelination of CIDP.
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway activated by the anti-nodal/paranodal IgG (immunoglobulin already mapped) at the node of Ranvier in CIDP.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Nutritional immunity: transferrin, the iron carrier, reflects the disordered iron handling of the anaemia of the chronic inflammation of CIDP.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Neuroinflammation matricellular: osteopontin, a matricellular cytokine, amplifies the macrophage (already mapped)-mediated demyelinating inflammation of the peripheral nerve in CIDP.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Onion-bulb remodelling: periostin, a matricellular mediator, is part of the fibrotic remodelling and the onion-bulb formation of the chronically demyelinated/remyelinated nerve of CIDP.
+- `connects-to` → **[Connexin43](../../03-molecular/connexin43/README.md)** — Glial gap junctions: connexin43, a gap-junction protein of the glia, is part of the Schwann-cell coupling and the node-of-Ranvier architecture disrupted in the demyelination of CIDP.
 
 ---
 
