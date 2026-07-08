@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/03-molecular/ifn-gamma
     relation: connects-to
     note: "Th1 atrophic gastritis: the IFN-γ Th1 response to the Helicobacter pylori (already mapped) drives the atrophic gastritis and the intestinal metaplasia along the Correa cascade to gastric cancer."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) response to the Helicobacter pylori (already mapped) that drives the atrophic gastritis of gastric cancer."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate/EBV interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) sensing, shapes the innate-immune microenvironment of the EBV-associated (LMP1 already mapped) and other gastric cancers."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune microenvironment of gastric cancer."
 ---
 
 # Gastric Cancer
@@ -738,6 +747,9 @@ H. pylori eradication: Reduces GC incidence by ~35-40% (meta-analyses); most ben
 - `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — MALT B-cell response: the Helicobacter pylori (already mapped)-driven chronic gastric B-cell (MALT) lymphoid response shares the aetiology with the gastric adenocarcinoma and drives the gastric MALT lymphoma.
 - `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — Mucosal IgA defence: the secretory IgA of the gastric mucosal immunity against the Helicobacter pylori (already mapped) shapes the chronic-infection microenvironment of gastric cancer.
 - `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 atrophic gastritis: the IFN-γ Th1 response to the Helicobacter pylori (already mapped) drives the atrophic gastritis and the intestinal metaplasia along the Correa cascade to gastric cancer.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) response to the Helicobacter pylori (already mapped) that drives the atrophic gastritis of gastric cancer.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate/EBV interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) sensing, shapes the innate-immune microenvironment of the EBV-associated (LMP1 already mapped) and other gastric cancers.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune microenvironment of gastric cancer.
 
 [^bang-2010-toga]: Bang YJ, Van Cutsem E, Feyereislova A, et al. Trastuzumab in combination with chemotherapy versus chemotherapy alone for treatment of HER2-positive advanced gastric or gastro-oesophageal junction cancer (ToGA): a phase 3, open-label, randomised controlled trial. *Lancet.* 2010;376(9742):687-697. [doi:10.1016/S0140-6736(10)61121-X](https://doi.org/10.1016/S0140-6736(10)61121-X) · [PubMed 20728210](https://pubmed.ncbi.nlm.nih.gov/20728210/)
 [^janjigian-2021-checkmate649]: Janjigian YY, Shitara K, Moehler M, et al. First-line nivolumab plus chemotherapy versus chemotherapy alone for advanced gastric, gastro-oesophageal junction, and oesophageal adenocarcinoma (CheckMate 649). *Lancet.* 2021;398(10294):27-40. [doi:10.1016/S0140-6736(21)00797-2](https://doi.org/10.1016/S0140-6736(21)00797-2) · [PubMed 34102137](https://pubmed.ncbi.nlm.nih.gov/34102137/)

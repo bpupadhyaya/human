@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "Selenium immune status: the selenium selenoprotein antioxidant defence supports the lymphocyte (zinc already mapped) immune function disturbed in follicular lymphoma."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the follicular-lymphoma microenvironment."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the reactive T-cell microenvironment of follicular lymphoma."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension of the follicular-lymphoma microenvironment."
 ---
 
 # Follicular Lymphoma
@@ -717,6 +726,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (with the type-I interferon already mapped) is the type-II interferon arm of the anti-lymphoma immunity of follicular lymphoma.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) anti-tumour response of the follicular-lymphoma microenvironment, opposing the immunosuppressive (IL-10 already mapped) milieu.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Selenium immune status: the selenium selenoprotein antioxidant defence supports the lymphocyte (zinc already mapped) immune function disturbed in follicular lymphoma.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the follicular-lymphoma microenvironment.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the reactive T-cell microenvironment of follicular lymphoma.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension of the follicular-lymphoma microenvironment.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
