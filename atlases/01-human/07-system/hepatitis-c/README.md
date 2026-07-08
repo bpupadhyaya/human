@@ -444,6 +444,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Kupffer-cell inflammation: the liver-resident macrophages (Kupffer cells) sense the HCV and drive the innate inflammation (IL-6 and TNF already mapped) and the fibrogenic signalling of chronic hepatitis C."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 antiviral arm: IL-12 polarises the Th1 (IFN-γ already mapped) response of the cytotoxic T-cell (already mapped) clearance of the HCV-infected hepatocytes."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension balancing the antiviral Th1 (IFN-γ already mapped) drive of chronic hepatitis C."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension of the dysregulated type-1/type-2 balance of chronic hepatitis C."
 ---
 
 # Hepatitis C
@@ -712,3 +721,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Cryoglobulinaemia B cells: the chronic HCV drives the clonal B-cell (BAFF and CD20 already mapped) expansion causing the mixed cryoglobulinaemic vasculitis and the risk of B-cell lymphoma.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Hepatic iron overload: the chronic hepatitis C causes the hepatic iron overload (the hepcidin already-mapped suppression), the iron worsening the oxidative injury and the fibrosis.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Kupffer-cell inflammation: the liver-resident macrophages (Kupffer cells) sense the HCV and drive the innate inflammation (IL-6 and TNF already mapped) and the fibrogenic signalling of chronic hepatitis C.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 antiviral arm: IL-12 polarises the Th1 (IFN-γ already mapped) response of the cytotoxic T-cell (already mapped) clearance of the HCV-infected hepatocytes.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension balancing the antiviral Th1 (IFN-γ already mapped) drive of chronic hepatitis C.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension of the dysregulated type-1/type-2 balance of chronic hepatitis C.
