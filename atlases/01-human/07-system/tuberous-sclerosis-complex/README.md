@@ -457,6 +457,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the immune milieu of tuberous sclerosis."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines of the neuroinflammation of the epileptogenic cortical tubers of tuberous sclerosis."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Cytotoxic infiltrate: the cytotoxic T cells (perforin already mapped) contribute to the adaptive-immune component of the neuroinflammation of the cortical tubers of tuberous sclerosis."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Antigen presentation: the dendritic cells of the CNS-border compartments present antigen to the T cells (already mapped) of the neuroinflammation of tuberous sclerosis."
 ---
 
 # Tuberous Sclerosis Complex
@@ -743,6 +752,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune milieu of the tuberous-sclerosis hamartomas.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the neuroinflammation of the epileptogenic cortical tubers of tuberous sclerosis.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the immune milieu of tuberous sclerosis.
+- `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines of the neuroinflammation of the epileptogenic cortical tubers of tuberous sclerosis.
+- `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Cytotoxic infiltrate: the cytotoxic T cells (perforin already mapped) contribute to the adaptive-immune component of the neuroinflammation of the cortical tubers of tuberous sclerosis.
+- `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Antigen presentation: the dendritic cells of the CNS-border compartments present antigen to the T cells (already mapped) of the neuroinflammation of tuberous sclerosis.
 
 ---
 

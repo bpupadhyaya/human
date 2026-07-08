@@ -457,6 +457,15 @@ cross_links:
   - target: 01-human/04-cellular/mast-cell
     relation: connects-to
     note: "Mast-cell response: the mast cells infiltrate the tuberculous granuloma and contribute to the innate and type-2 immune response to Mycobacterium tuberculosis."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Complement in granuloma: the complement C5 and its C5a (with C3 already mapped) contribute to the recruitment of the myeloid cells to the tuberculous granuloma."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling links the complement to the neutrophil (already mapped) and monocyte recruitment in the immune response to Mycobacterium tuberculosis."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Nutritional immunity: transferrin, by withholding iron (already mapped) from Mycobacterium tuberculosis, is part of the iron-restriction innate defence against tuberculosis, which the bacterium counters with siderophores."
 ---
 
 # Tuberculosis
@@ -737,6 +746,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Granuloma B cells: the B cells form the lymphoid follicles of the tuberculous granuloma and shape the local T-cell (already mapped) response and the emerging antibody-mediated protection against Mycobacterium tuberculosis.
 - `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — Antibody arm: the plasma cells, downstream of the B cells (already mapped), secrete the anti-mycobacterial antibodies (immunoglobulin already mapped) of the increasingly recognised humoral immunity to tuberculosis.
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Mast-cell response: the mast cells infiltrate the tuberculous granuloma and contribute to the innate and type-2 immune response to Mycobacterium tuberculosis.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Complement in granuloma: the complement C5 and its C5a (with C3 already mapped) contribute to the recruitment of the myeloid cells to the tuberculous granuloma.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling links the complement to the neutrophil (already mapped) and monocyte recruitment in the immune response to Mycobacterium tuberculosis.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Nutritional immunity: transferrin, by withholding iron (already mapped) from Mycobacterium tuberculosis, is part of the iron-restriction innate defence against tuberculosis, which the bacterium counters with siderophores.
 
 ## See Also
 
