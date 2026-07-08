@@ -451,6 +451,15 @@ cross_links:
   - target: 01-human/04-cellular/t-helper-cell
     relation: connects-to
     note: "Immune nephritis: the CD4 T-helper cells drive the immune glomerular and tubulointerstitial nephritis of the renal system, mediating the immune kidney injury."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "Humoral nephritis: the B cells, with the T-helper cells (already mapped), drive the autoantibody and immune-complex glomerulonephritis of the renal system, the rituximab (anti-CD20) target."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "Autoantibody plasma cells: the plasma cells secrete the autoantibodies (anti-GBM, immune-complex) that deposit in the glomerulus and drive the immune kidney injury of the renal system."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Renal tolerance: the regulatory T cells restrain the immune nephritis (T-helper cells already mapped) and maintain the tolerance of the renal system."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -690,6 +699,9 @@ Natriuretic counterpoint:
 - **Connects to:** [Adiponectin](../../03-molecular/adiponectin/README.md) — uraemic adipokine: adiponectin, with leptin (already mapped), is cleared by and accumulates in the renal failure, part of the uraemic metabolic-cardiovascular milieu of the renal system.
 - **Connects to:** [Resistin](../../03-molecular/resistin/README.md) — uraemic inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), accumulates in the renal failure and contributes to the uraemic inflammatory-metabolic milieu of the renal system.
 - **Connects to:** [T-helper cell](../../04-cellular/t-helper-cell/README.md) — immune nephritis: the CD4 T-helper cells drive the immune glomerular and tubulointerstitial nephritis of the renal system, mediating the immune kidney injury.
+- **Connects to:** [B cell](../../04-cellular/b-cell/README.md) — humoral nephritis: the B cells, with the T-helper cells (already mapped), drive the autoantibody and immune-complex glomerulonephritis of the renal system, the rituximab (anti-CD20) target.
+- **Connects to:** [Plasma cell](../../04-cellular/plasma-cell/README.md) — autoantibody plasma cells: the plasma cells secrete the autoantibodies (anti-GBM, immune-complex) that deposit in the glomerulus and drive the immune kidney injury of the renal system.
+- **Connects to:** [Regulatory T cell](../../04-cellular/regulatory-t-cell/README.md) — renal tolerance: the regulatory T cells restrain the immune nephritis (T-helper cells already mapped) and maintain the tolerance of the renal system.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 

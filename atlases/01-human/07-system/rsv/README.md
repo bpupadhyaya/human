@@ -444,6 +444,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the inflammatory (IL-6 already mapped) milieu of RSV bronchiolitis."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 antiviral arm: IL-12 polarises the protective Th1 (IFN-γ already mapped) antiviral response that counter-balances the pathogenic Th2 (IL-4, IL-5 and IL-13 already mapped) skewing of RSV bronchiolitis."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Th2 airway remodelling: periostin, downstream of the type-2 cytokines (IL-13 already mapped) and the alarmins (IL-33 and TSLP already mapped), marks the Th2 airway remodelling linking severe RSV bronchiolitis to the later asthma (already mapped)."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Complement immunopathology: the complement C5 activation contributes to the RSV bronchiolitis immunopathology (and the historical enhanced disease of the formalin-inactivated vaccine)."
 ---
 
 # RSV
@@ -730,3 +739,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Nutritional-immune adipokine: leptin is the adipokine of the immune-metabolic milieu; the infant nutritional status (leptin) modulates the immune response to RSV.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the immune-metabolic milieu of the RSV infection.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the inflammatory (IL-6 already mapped) milieu of RSV bronchiolitis.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 antiviral arm: IL-12 polarises the protective Th1 (IFN-γ already mapped) antiviral response that counter-balances the pathogenic Th2 (IL-4, IL-5 and IL-13 already mapped) skewing of RSV bronchiolitis.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Th2 airway remodelling: periostin, downstream of the type-2 cytokines (IL-13 already mapped) and the alarmins (IL-33 and TSLP already mapped), marks the Th2 airway remodelling linking severe RSV bronchiolitis to the later asthma (already mapped).
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Complement immunopathology: the complement C5 activation contributes to the RSV bronchiolitis immunopathology (and the historical enhanced disease of the formalin-inactivated vaccine).
