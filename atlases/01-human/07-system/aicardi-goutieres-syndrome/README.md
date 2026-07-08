@@ -447,6 +447,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the immune-metabolic milieu of Aicardi-Goutières."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the immune-metabolic milieu of the type-I interferonopathy (already mapped) of Aicardi-Goutières."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Interferon-activated NK: the NK cells (perforin already mapped), activated by the chronic type-I interferon (already mapped), contribute to the immune dysregulation of Aicardi-Goutières."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune dysregulation of Aicardi-Goutières."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -684,6 +693,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[NMO](../nmo/README.md)** — Interferonopathy-autoimmune overlap: Aicardi-Goutières, like systemic lupus (already mapped) and neuromyelitis optica, features the type-I interferon (already mapped) and autoimmune (BAFF already mapped) dysregulation.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Immune-metabolic adipokine: leptin is the adipokine of the immune-metabolic milieu of the type-I interferonopathy (already mapped) of Aicardi-Goutières.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the immune-metabolic milieu of Aicardi-Goutières.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the immune-metabolic milieu of the type-I interferonopathy (already mapped) of Aicardi-Goutières.
+- `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Interferon-activated NK: the NK cells (perforin already mapped), activated by the chronic type-I interferon (already mapped), contribute to the immune dysregulation of Aicardi-Goutières.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune dysregulation of Aicardi-Goutières.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
