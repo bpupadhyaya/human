@@ -463,6 +463,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Lipodystrophy adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the HIV/ART lipodystrophy and the immune-metabolic milieu of HIV."
+  - target: 01-human/06-organ/small-intestine
+    relation: connects-to
+    note: "GALT epicentre: the gut-associated lymphoid tissue of the small intestine is the major site of the early CD4/Th17 T-helper (already mapped) depletion and the microbial translocation driving the chronic immune activation of HIV."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 gut axis: IL-23 sustains the Th17 (IL-17 already mapped) cells that are preferentially depleted from the gut mucosa, a key lesion of the HIV immune dysfunction."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2 shift: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), reflects the Th2 shift and the atopy/allergy that accompany the immune dysregulation of progressive HIV infection."
 ---
 
 # HIV
@@ -746,6 +755,9 @@ The **latent reservoir** — HIV integrated into quiescent resting memory CD4+ T
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 antiviral arm: IL-12 polarises the Th1 (IFN-γ already mapped) response of the cytotoxic T-cell (already mapped) control of the HIV, impaired by the CD4 (T-helper cell already mapped) depletion.
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 shift: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the Th2 shift of the immune dysregulation that accompanies the progressive HIV infection.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Lipodystrophy adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the HIV/ART lipodystrophy and the immune-metabolic milieu of HIV.
+- `connects-to` → **[Small intestine](../../06-organ/small-intestine/README.md)** — GALT epicentre: the gut-associated lymphoid tissue of the small intestine is the major site of the early CD4/Th17 T-helper (already mapped) depletion and the microbial translocation driving the chronic immune activation of HIV.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 gut axis: IL-23 sustains the Th17 (IL-17 already mapped) cells that are preferentially depleted from the gut mucosa, a key lesion of the HIV immune dysfunction.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 shift: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), reflects the Th2 shift and the atopy/allergy that accompany the immune dysregulation of progressive HIV infection.
 
 [^barre-sinoussi-1983-hiv-isolation]: Barré-Sinoussi F, Chermann JC, Rey F, et al. Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS). *Science.* 1983;220(4599):868-871. [doi:10.1126/science.6189183](https://doi.org/10.1126/science.6189183) · [PubMed 6189183](https://pubmed.ncbi.nlm.nih.gov/6189183/)
 [^ho-1995-viral-dynamics]: Ho DD, Neumann AU, Perelson AS, et al. Rapid turnover of plasma virions and CD4 lymphocytes in HIV-1 infection. *Nature.* 1995;373(6510):123-126. [doi:10.1038/373123a0](https://doi.org/10.1038/373123a0) · [PubMed 7816094](https://pubmed.ncbi.nlm.nih.gov/7816094/)
