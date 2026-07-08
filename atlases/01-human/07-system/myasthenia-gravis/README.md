@@ -460,6 +460,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension present in a subset of myasthenia gravis."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Type-2 arm: the mast cells, armed by the IgE (already mapped), are part of the type-2 immune dimension of the thymic and peripheral immune milieu of myasthenia gravis."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Immunomodulatory vitamin: the low vitamin D status is associated with myasthenia gravis, and its immunomodulation of the T-helper (already mapped) response is studied as an adjunct."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Antioxidant micronutrient: selenium, a selenoprotein cofactor, is part of the micronutrient dimension shared with the autoimmune thyroid disease that frequently co-occurs with myasthenia gravis."
 ---
 
 # Myasthenia Gravis
@@ -718,6 +727,9 @@ cross_links:
 - `connects-to` → **[Systemic sclerosis](../systemic-sclerosis/README.md)** — Connective-tissue overlap: myasthenia gravis overlaps the other autoimmune connective-tissue diseases (systemic lupus already mapped), including the systemic sclerosis, part of the shared autoimmunity.
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension balancing the Th1/Th17 (IFN-γ and IL-17 already mapped) drive of myasthenia gravis.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension present in a subset of myasthenia gravis.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Type-2 arm: the mast cells, armed by the IgE (already mapped), are part of the type-2 immune dimension of the thymic and peripheral immune milieu of myasthenia gravis.
+- `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Immunomodulatory vitamin: the low vitamin D status is associated with myasthenia gravis, and its immunomodulation of the T-helper (already mapped) response is studied as an adjunct.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Antioxidant micronutrient: selenium, a selenoprotein cofactor, is part of the micronutrient dimension shared with the autoimmune thyroid disease that frequently co-occurs with myasthenia gravis.
 
 [^gilhus-2016-mg-review]: Gilhus NE. Myasthenia Gravis. *N Engl J Med.* 2016;375(26):2570-2581. [doi:10.1056/NEJMra1602678](https://doi.org/10.1056/NEJMra1602678) · [PubMed 28029925](https://pubmed.ncbi.nlm.nih.gov/28029925/)
 [^howard-2021-efgartigimod-adapt]: Howard JF Jr, Bril V, Vu T, et al. Safety, efficacy, and tolerability of efgartigimod in patients with generalised myasthenia gravis (ADAPT). *Lancet Neurol.* 2021;20(7):526-536. [doi:10.1016/S1474-4422(21)00159-9](https://doi.org/10.1016/S1474-4422(21)00159-9) · [PubMed 34146511](https://pubmed.ncbi.nlm.nih.gov/34146511/)
