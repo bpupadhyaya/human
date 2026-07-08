@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/04-cellular/hepatocyte
     relation: connects-to
     note: "Thrombopoietin source: the hepatocytes are the main source of the thrombopoietin (already mapped), the MPL (already mapped) ligand whose signalling is dysregulated in essential thrombocythaemia."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 anti-clonal arm: the IFN-γ of the T and NK (already mapped) cells is the type-II interferon arm of the anti-clonal immunity (type-I interferon therapy already mapped) of the JAK2-mutant essential thrombocythaemia."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune surveillance of the essential-thrombocythaemia clone."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the inflammatory milieu of essential thrombocythaemia."
 ---
 
 # Essential Thrombocythemia
@@ -709,6 +718,9 @@ Management:
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — M2 marrow microenvironment: IL-13, with IL-4 (already mapped), drives the M2 macrophage arm of the inflammatory (IL-6 already mapped) marrow microenvironment of essential thrombocythaemia.
 - `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Immune surveillance: the NK cells contribute to the immune surveillance of the JAK2 (already mapped)-mutant clone, and the interferon (type-I interferon already mapped) therapy augments the anti-clonal immunity of essential thrombocythaemia.
 - `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — Thrombopoietin source: the hepatocytes are the main source of the thrombopoietin (already mapped), the MPL (already mapped) ligand whose signalling is dysregulated in essential thrombocythaemia.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 anti-clonal arm: the IFN-γ of the T and NK (already mapped) cells is the type-II interferon arm of the anti-clonal immunity (type-I interferon therapy already mapped) of the JAK2-mutant essential thrombocythaemia.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune surveillance of the essential-thrombocythaemia clone.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the inflammatory milieu of essential thrombocythaemia.
 
 [^harrison-2005-pt1-et]: Harrison CN, Campbell PJ, Buck G, et al. Hydroxyurea compared with anagrelide in high-risk essential thrombocythemia. *N Engl J Med.* 2005;353(1):33-45. [doi:10.1056/NEJMoa043800](https://doi.org/10.1056/NEJMoa043800) · [PubMed 16000354](https://pubmed.ncbi.nlm.nih.gov/16000354/)
 [^barbui-2012-ipset]: Barbui T, Finazzi G, Carobbio A, et al. Development and validation of an International Prognostic Score of thrombosis in World Health Organization-essential thrombocythemia (IPSET-thrombosis). *Blood.* 2012;120(26):5128-5133. [doi:10.1182/blood-2012-07-444067](https://doi.org/10.1182/blood-2012-07-444067) · [PubMed 23086758](https://pubmed.ncbi.nlm.nih.gov/23086758/)
