@@ -459,6 +459,15 @@ cross_links:
   - target: 01-human/03-molecular/il-12
     relation: connects-to
     note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune-inflammatory dimension of thalassaemia."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune dysregulation of the ineffective erythropoiesis of thalassaemia."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "Th17 axis: IL-17A drives the Th17 arm of the chronic inflammation (IL-6 and TNF already mapped) of the iron overload and ineffective erythropoiesis of thalassaemia."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 induction: IL-23 sustains the Th17 (IL-17 already mapped) arm of the chronic immune-inflammatory dimension of thalassaemia."
 ---
 
 # Thalassemia
@@ -750,6 +759,9 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the chronic-inflammatory and iron-overload (hepcidin already mapped) milieu of thalassaemia.
 - `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 inflammation: the IFN-γ of the T cells is the type-II interferon arm of the chronic inflammation (IL-6 and TNF already mapped) of the ineffective erythropoiesis and iron overload of thalassaemia.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune-inflammatory dimension of thalassaemia.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune dysregulation of the ineffective erythropoiesis of thalassaemia.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Th17 axis: IL-17A drives the Th17 arm of the chronic inflammation (IL-6 and TNF already mapped) of the iron overload and ineffective erythropoiesis of thalassaemia.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 induction: IL-23 sustains the Th17 (IL-17 already mapped) arm of the chronic immune-inflammatory dimension of thalassaemia.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.
