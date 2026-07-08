@@ -466,6 +466,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), reflects the type-2 immune dimension balancing the dominant Th17 axis of ankylosing spondylitis."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Entheseal alarmin: TSLP, an epithelial/stromal alarmin, is part of the alarmin (IL-33 already mapped) signalling of the enthesis that contributes to the barrier-immune crosstalk of ankylosing spondylitis."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Entheseal matricellular: periostin is part of the matricellular remodelling of the enthesis that accompanies the pathological new-bone formation (sclerostin and Wnt already mapped) of ankylosing spondylitis."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "Complement C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) contributes to the neutrophil recruitment in the inflamed entheses and joints of ankylosing spondylitis."
 ---
 
 # Ankylosing Spondylitis
@@ -724,6 +733,9 @@ AS originates at the **enthesis** — the site where tendons, ligaments, and joi
 - `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Innate lymphoid arm: the NK cells and the innate lymphoid cells (perforin already mapped) are part of the innate immune dysregulation of the gut-joint axis of ankylosing spondylitis.
 - `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — Humoral arm: the plasma cells secrete the antibodies (immunoglobulin already mapped), a humoral component increasingly recognised in the axial spondyloarthritis of ankylosing spondylitis.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), reflects the type-2 immune dimension balancing the dominant Th17 axis of ankylosing spondylitis.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Entheseal alarmin: TSLP, an epithelial/stromal alarmin, is part of the alarmin (IL-33 already mapped) signalling of the enthesis that contributes to the barrier-immune crosstalk of ankylosing spondylitis.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Entheseal matricellular: periostin is part of the matricellular remodelling of the enthesis that accompanies the pathological new-bone formation (sclerostin and Wnt already mapped) of ankylosing spondylitis.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — Complement C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) contributes to the neutrophil recruitment in the inflamed entheses and joints of ankylosing spondylitis.
 
 [^sieper-2015-ankylosing-spondylitis-review]: Sieper J, Poddubnyy D. Ankylosing spondylitis. *Lancet.* 2017;390(10089):73-84. [doi:10.1016/S0140-6736(16)31591-4](https://doi.org/10.1016/S0140-6736(16)31591-4) · [PubMed 28110981](https://pubmed.ncbi.nlm.nih.gov/28110981/)
 [^baeten-2015-secukinumab-as]: Baeten D, Sieper J, Braun J, et al. Secukinumab, an Interleukin-17A Inhibitor, in Ankylosing Spondylitis. *N Engl J Med.* 2015;373(26):2534-2548. [doi:10.1056/NEJMoa1505066](https://doi.org/10.1056/NEJMoa1505066) · [PubMed 26699169](https://pubmed.ncbi.nlm.nih.gov/26699169/)
