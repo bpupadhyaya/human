@@ -457,6 +457,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Type-2/pruritus arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped) and the histamine (already mapped), reflects the type-2 dimension of the aquagenic pruritus and inflammatory milieu of polycythaemia vera."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Antigen presentation: the dendritic cells present antigen to the T cells (already mapped) within the chronic inflammatory clonal-haematopoiesis milieu of polycythaemia vera."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Thromboinflammation: the complement C5 and the terminal MAC contribute to the complement-driven thromboinflammation and the elevated thrombotic risk of polycythaemia vera."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the C5 already mapped) links the complement to the neutrophil and platelet (already mapped) activation of the thrombotic milieu of polycythaemia vera."
 ---
 
 # Polycythemia Vera
@@ -725,6 +734,9 @@ PV must be distinguished from secondary erythrocytosis (elevated EPO, JAK2 wild-
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the inflammatory milieu of polycythaemia vera.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the chronic inflammatory milieu of polycythaemia vera.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2/pruritus arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped) and the histamine (already mapped), reflects the type-2 dimension of the aquagenic pruritus and inflammatory milieu of polycythaemia vera.
+- `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Antigen presentation: the dendritic cells present antigen to the T cells (already mapped) within the chronic inflammatory clonal-haematopoiesis milieu of polycythaemia vera.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Thromboinflammation: the complement C5 and the terminal MAC contribute to the complement-driven thromboinflammation and the elevated thrombotic risk of polycythaemia vera.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the C5 already mapped) links the complement to the neutrophil and platelet (already mapped) activation of the thrombotic milieu of polycythaemia vera.
 
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409630](https://doi.org/10.1056/NEJMoa1409630) · [PubMed 25577388](https://pubmed.ncbi.nlm.nih.gov/25577388/)
 [^gisslinger-2020-proud-pv]: Gisslinger H, Gotic M, Holowiecki J, et al. Ropeginterferon alfa-2b versus standard therapy for polycythaemia vera (PROUD-PV and CONTINUATION-PV): a randomised, non-inferiority, phase 3 trial and its extension study. *Lancet Haematol.* 2020;7(3):e196-e208. [doi:10.1016/S2352-3026(19)30236-4](https://doi.org/10.1016/S2352-3026(19)30236-4) · [PubMed 32046833](https://pubmed.ncbi.nlm.nih.gov/32046833/)
