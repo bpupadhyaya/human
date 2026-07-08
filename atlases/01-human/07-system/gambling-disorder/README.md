@@ -432,6 +432,15 @@ cross_links:
   - target: 01-human/07-system/attention-deficit-hyperactivity-disorder
     relation: connects-to
     note: "ADHD impulsivity: ADHD is comorbid with gambling disorder, the shared impulsivity and reward-deficiency (dopamine already mapped) vulnerability."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate neuroinflammation: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, is part of the low-grade neuroinflammation (IL-6 and TNF already mapped) implicated in the behavioural addiction of gambling disorder."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 arm: the IFN-γ of the T cells is the type-II interferon arm of the immune-inflammatory dimension associated with gambling disorder."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune-inflammatory dimension of gambling disorder."
 sources:
   - id: grant-2016-gambling-review
     type: peer-reviewed
@@ -716,6 +725,9 @@ Persistent and recurrent problematic gambling behavior causing distress (≥4 of
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Reward neurons: the dopaminergic (already mapped) reward neurons and the prefrontal control neurons mediate the impulsivity and the loss of control of gambling disorder.
 - `connects-to` → **[Stimulant use disorder](../stimulant-use-disorder/README.md)** — Addiction overlap: gambling disorder shares the reward-circuit (dopamine already mapped) neurobiology with the substance-use disorders, notably the stimulant use disorder, and they frequently co-occur.
 - `connects-to` → **[ADHD](../attention-deficit-hyperactivity-disorder/README.md)** — ADHD impulsivity: ADHD is comorbid with gambling disorder, the shared impulsivity and reward-deficiency (dopamine already mapped) vulnerability.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate neuroinflammation: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, is part of the low-grade neuroinflammation (IL-6 and TNF already mapped) implicated in the behavioural addiction of gambling disorder.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 arm: the IFN-γ of the T cells is the type-II interferon arm of the immune-inflammatory dimension associated with gambling disorder.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune-inflammatory dimension of gambling disorder.
 
 [^potenza-2014-gambling-neuroscience]: Potenza MN. The neurobiology of pathological gambling and drug addiction: an overview and new findings. *Philos Trans R Soc Lond B Biol Sci.* 2008;363(1507):3181-3189. [doi:10.1098/rstb.2008.0100](https://doi.org/10.1098/rstb.2008.0100) · [PubMed 18640909](https://pubmed.ncbi.nlm.nih.gov/18640909/)
 [^grant-2016-gambling-review]: Grant JE, Chamberlain SR. Gambling disorder and its relationship with substance use disorders. *Am J Addict.* 2015;24(2):126-131. [doi:10.1111/ajad.12112](https://doi.org/10.1111/ajad.12112) · [PubMed 25376793](https://pubmed.ncbi.nlm.nih.gov/25376793/)

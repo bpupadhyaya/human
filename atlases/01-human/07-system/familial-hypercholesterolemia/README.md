@@ -451,6 +451,15 @@ cross_links:
   - target: 01-human/04-cellular/smooth-muscle-cell
     relation: connects-to
     note: "Fibrous cap: the vascular smooth-muscle cells migrate and form the fibrous cap (collagen already mapped) of the atherosclerotic plaque of familial hypercholesterolaemia."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 plaque inflammation: the IFN-γ of the plaque T cells is the type-II interferon arm of the Th1-driven inflammation that destabilises the atherosclerotic plaque of familial hypercholesterolaemia."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the atherosclerotic plaque inflammation of familial hypercholesterolaemia."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate plaque interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) sensing of the cholesterol-crystal and cellular stress, amplifies the macrophage (already mapped) inflammation of the atheroma of familial hypercholesterolaemia."
 ---
 
 # Familial Hypercholesterolemia
@@ -703,6 +712,9 @@ FH is a **monogenic autosomal dominant disorder** caused by mutations in three g
 - `connects-to` → **[Endothelial cell](../../04-cellular/endothelial-cell/README.md)** — Endothelial dysfunction: the LDL (cholesterol already mapped) retention in the arterial intima and the endothelial dysfunction (nitric oxide already mapped) initiate the atherosclerosis of familial hypercholesterolaemia.
 - `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — LDLR hepatocytes: the hepatocytes express the LDL receptor (PCSK9 already mapped) that clears the LDL; the hepatocyte LDLR defect is the disease of familial hypercholesterolaemia and the target of the gene therapy.
 - `connects-to` → **[Smooth muscle cell](../../04-cellular/smooth-muscle-cell/README.md)** — Fibrous cap: the vascular smooth-muscle cells migrate and form the fibrous cap (collagen already mapped) of the atherosclerotic plaque of familial hypercholesterolaemia.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 plaque inflammation: the IFN-γ of the plaque T cells is the type-II interferon arm of the Th1-driven inflammation that destabilises the atherosclerotic plaque of familial hypercholesterolaemia.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the atherosclerotic plaque inflammation of familial hypercholesterolaemia.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate plaque interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) sensing of the cholesterol-crystal and cellular stress, amplifies the macrophage (already mapped) inflammation of the atheroma of familial hypercholesterolaemia.
 
 [^goldstein-1985-ldlr-nobel]: Goldstein JL, Brown MS. The LDL receptor. *Arterioscler Thromb Vasc Biol.* 2009;29(4):431-438. [doi:10.1161/ATVBAHA.108.179564](https://doi.org/10.1161/ATVBAHA.108.179564) · [PubMed 19299327](https://pubmed.ncbi.nlm.nih.gov/19299327/)
 [^raal-2020-inclisiran-fh]: Raal FJ, Kallend D, Ray KK, et al. Inclisiran for the Treatment of Heterozygous Familial Hypercholesterolemia. *N Engl J Med.* 2020;382(16):1520-1530. [doi:10.1056/NEJMoa1913805](https://doi.org/10.1056/NEJMoa1913805) · [PubMed 32197277](https://pubmed.ncbi.nlm.nih.gov/32197277/)
