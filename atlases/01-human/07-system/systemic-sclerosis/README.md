@@ -463,6 +463,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the profibrotic autoimmunity of systemic sclerosis."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Profibrotic alarmin: TSLP, an epithelial alarmin, initiates and amplifies the type-2 (IL-4 and IL-13 already mapped) immunity that drives the fibroblast (already mapped) activation and periostin (already mapped) remodelling of systemic sclerosis."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "Complement C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) contributes to the microvascular injury and the inflammatory dimension of the vasculopathy of systemic sclerosis."
+  - target: 01-human/03-molecular/il-31
+    relation: connects-to
+    note: "Pruritus cytokine: IL-31, a type-2 (IL-4 and IL-13 already mapped) cytokine, is the pruritogenic effector of the frequent and burdensome itch of the sclerotic skin of systemic sclerosis."
 ---
 
 # Systemic Sclerosis
@@ -725,6 +734,9 @@ Identical to IPAH: medial hypertrophy, intimal fibrosis, concentric laminar inti
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 profibrotic arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the profibrotic immune drive of systemic sclerosis.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the inflammatory-fibrotic dimension of systemic sclerosis.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the profibrotic autoimmunity of systemic sclerosis.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Profibrotic alarmin: TSLP, an epithelial alarmin, initiates and amplifies the type-2 (IL-4 and IL-13 already mapped) immunity that drives the fibroblast (already mapped) activation and periostin (already mapped) remodelling of systemic sclerosis.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — Complement C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) contributes to the microvascular injury and the inflammatory dimension of the vasculopathy of systemic sclerosis.
+- `connects-to` → **[IL-31](../../03-molecular/il-31/README.md)** — Pruritus cytokine: IL-31, a type-2 (IL-4 and IL-13 already mapped) cytokine, is the pruritogenic effector of the frequent and burdensome itch of the sclerotic skin of systemic sclerosis.
 
 [^denton-2017-ssc-review]: Denton CP, Khanna D. Systemic sclerosis. *Lancet.* 2017;390(10103):1685-1699. [doi:10.1016/S0140-6736(17)30933-9](https://doi.org/10.1016/S0140-6736(17)30933-9) · [PubMed 28413064](https://pubmed.ncbi.nlm.nih.gov/28413064/)
 [^distler-2019-nintedanib-senscis]: Distler O, Highland KB, Gahlemann M, et al. Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease. *N Engl J Med.* 2019;380(26):2518-2528. [doi:10.1056/NEJMoa1903076](https://doi.org/10.1056/NEJMoa1903076) · [PubMed 31112379](https://pubmed.ncbi.nlm.nih.gov/31112379/)
