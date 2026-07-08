@@ -442,6 +442,15 @@ cross_links:
   - target: 01-human/03-molecular/histamine
     relation: connects-to
     note: "Sandfly-bite mast cells: the histamine from the mast cells recruited to the sandfly-bite inoculation site shapes the early inflammatory milieu that the Leishmania parasite exploits to establish infection."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Hypergammaglobulinaemia IgE: the polyclonal B-cell (already mapped) activation of the visceral leishmaniasis raises the IgE, part of the Th2 (IL-4, IL-5 and IL-13 already mapped) non-protective response."
+  - target: 01-human/03-molecular/secretory-iga
+    relation: connects-to
+    note: "Mucosal IgA: the secretory IgA of the mucosal immunity is relevant to the mucocutaneous leishmaniasis and the mucosal barrier response to the parasite."
+  - target: 01-human/03-molecular/il-36
+    relation: connects-to
+    note: "Epithelial IL-36: the IL-36 of the keratinocytes amplifies the skin inflammation of the cutaneous leishmaniasis lesion, part of the innate cutaneous response."
 ---
 
 # Leishmaniasis
@@ -685,3 +694,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Nutritional immunity zinc: the zinc nutrition shapes the immune response (the Th1 already-mapped function) to Leishmania; the zinc deficiency of malnutrition (leptin already mapped) worsens susceptibility, and topical zinc treats the cutaneous form.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Antioxidant selenium: the antioxidant selenoprotein status shapes the immune response and the oxidative (nitric oxide and xanthine oxidase already mapped) killing of Leishmania, the malnutrition deficiency worsening the outcome.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Sandfly-bite mast cells: the histamine from the mast cells recruited to the sandfly-bite inoculation site shapes the early inflammatory milieu that the Leishmania parasite exploits to establish infection.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Hypergammaglobulinaemia IgE: the polyclonal B-cell (already mapped) activation of the visceral leishmaniasis raises the IgE, part of the Th2 (IL-4, IL-5 and IL-13 already mapped) non-protective response.
+- `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — Mucosal IgA: the secretory IgA of the mucosal immunity is relevant to the mucocutaneous leishmaniasis and the mucosal barrier response to the parasite.
+- `connects-to` → **[IL-36](../../03-molecular/il-36/README.md)** — Epithelial IL-36: the IL-36 of the keratinocytes amplifies the skin inflammation of the cutaneous leishmaniasis lesion, part of the innate cutaneous response.

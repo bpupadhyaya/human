@@ -429,6 +429,15 @@ cross_links:
   - target: 01-human/03-molecular/il-13
     relation: connects-to
     note: "Type-2 neuroimmunity: IL-13, with IL-4 (already mapped), is the type-2 immune arm of the low-grade neuroinflammation (TNF and IL-6 already mapped) implicated in the behavioural addiction of internet gaming disorder."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate neuroinflammation: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, is part of the low-grade neuroinflammation implicated in the behavioural addiction of internet gaming disorder."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 arm: the IFN-γ of the T cells is the type-II interferon arm of the immune-inflammatory dimension (TNF and IL-6 already mapped) associated with internet gaming disorder."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune-inflammatory dimension reported in internet gaming disorder."
 sources:
   - id: kuss-2012-gaming-disorder-review
     type: peer-reviewed
@@ -740,6 +749,9 @@ A pattern of persistent or recurrent gaming behavior characterized by:
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Sedentary metabolic adipokine: adiponectin, with leptin (already mapped), is the adipokine of the sedentary metabolic dysregulation (insulin already mapped) and the disturbed energy balance (ghrelin already mapped) of internet gaming disorder.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the sedentary metabolic-inflammatory state of internet gaming disorder.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 neuroimmunity: IL-13, with IL-4 (already mapped), is the type-2 immune arm of the low-grade neuroinflammation (TNF and IL-6 already mapped) implicated in the behavioural addiction of internet gaming disorder.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate neuroinflammation: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, is part of the low-grade neuroinflammation implicated in the behavioural addiction of internet gaming disorder.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 arm: the IFN-γ of the T cells is the type-II interferon arm of the immune-inflammatory dimension (TNF and IL-6 already mapped) associated with internet gaming disorder.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune-inflammatory dimension reported in internet gaming disorder.
 
 [^kuss-2012-gaming-disorder-review]: Kuss DJ, Griffiths MD. Internet gaming addiction: a systematic review of empirical research. *Int J Ment Health Addict.* 2012;10(2):278-296. [doi:10.1007/s11469-011-9318-5](https://doi.org/10.1007/s11469-011-9318-5)
 [^who-icd11-gaming-disorder]: World Health Organization. ICD-11: Gaming Disorder (6C51). Geneva: WHO; 2019. [icd.who.int](https://icd.who.int/browse/2025-01/mms/en#1448597234)
