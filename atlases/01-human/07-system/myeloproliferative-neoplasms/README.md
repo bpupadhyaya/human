@@ -466,6 +466,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c5
     relation: connects-to
     note: "Thromboinflammation: the complement C5 and its C5a (with C3 already mapped) contribute to the complement-driven thromboinflammation and the thrombotic risk of the myeloproliferative neoplasms."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) links the complement to the myeloid inflammation and the immunothrombosis of the myeloproliferative neoplasms."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose dysregulation amplifies the thromboinflammation of the myeloproliferative neoplasms."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "MPN iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the iron deficiency of polycythaemia vera and the anaemia of myelofibrosis."
 ---
 
 # Myeloproliferative Neoplasms
@@ -759,6 +768,9 @@ In PV and ET, JAK2 V617F also affects myeloid progenitors → granulocytosis and
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Antigen presentation: the dendritic cells present antigen to the T cells (already mapped) within the inflammatory clonal-haematopoiesis microenvironment of the myeloproliferative neoplasms.
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines of the chronic inflammatory milieu that drives the constitutional symptoms of the myeloproliferative neoplasms.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Thromboinflammation: the complement C5 and its C5a (with C3 already mapped) contribute to the complement-driven thromboinflammation and the thrombotic risk of the myeloproliferative neoplasms.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) links the complement to the myeloid inflammation and the immunothrombosis of the myeloproliferative neoplasms.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose dysregulation amplifies the thromboinflammation of the myeloproliferative neoplasms.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — MPN iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the iron deficiency of polycythaemia vera and the anaemia of myelofibrosis.
 
 [^verstovsek-2012-comfort-i]: Verstovsek S, Mesa RA, Gotlib J, et al. A double-blind, placebo-controlled trial of ruxolitinib for myelofibrosis. *N Engl J Med.* 2012;366(9):799-807. [doi:10.1056/NEJMoa1110557](https://doi.org/10.1056/NEJMoa1110557) · [PubMed 22375971](https://pubmed.ncbi.nlm.nih.gov/22375971/)
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409002](https://doi.org/10.1056/NEJMoa1409002) · [PubMed 25426978](https://pubmed.ncbi.nlm.nih.gov/25426978/)

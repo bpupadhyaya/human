@@ -453,6 +453,15 @@ cross_links:
   - target: 01-human/03-molecular/oxytocin
     relation: connects-to
     note: "Hypothalamic neuropeptide: oxytocin, from the hypothalamic neurons neighbouring the lost orexin (already mapped) neurons, modulates the arousal and social-emotional dimension relevant to narcolepsy."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "Complement C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) contributes to the microglial (already mapped) and complement dimension of the autoimmune destruction of the orexin (already mapped) neurons of narcolepsy."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement: the complement C5 and its activation (with C3 already mapped) are part of the autoimmune, HLA-DQB1*06:02-associated neuroinflammatory attack on the orexin (already mapped) neurons of narcolepsy type 1."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the neuroinflammation of the autoimmune orexin-neuron loss of narcolepsy."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -738,6 +747,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Autoimmune micronutrient: selenium, a selenoprotein antioxidant cofactor, is part of the micronutrient dimension (with vitamin D already mapped) of the autoimmune susceptibility of narcolepsy type 1.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Sleep-linked hormone: prolactin, secreted in a sleep-entrained nocturnal surge, is part of the hypothalamic-pituitary neuroendocrine dimension disrupted in the disordered sleep-wake regulation of narcolepsy.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Hypothalamic neuropeptide: oxytocin, from the hypothalamic neurons neighbouring the lost orexin (already mapped) neurons, modulates the arousal and social-emotional dimension relevant to narcolepsy.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — Complement C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) contributes to the microglial (already mapped) and complement dimension of the autoimmune destruction of the orexin (already mapped) neurons of narcolepsy.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its activation (with C3 already mapped) are part of the autoimmune, HLA-DQB1*06:02-associated neuroinflammatory attack on the orexin (already mapped) neurons of narcolepsy type 1.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the neuroinflammation of the autoimmune orexin-neuron loss of narcolepsy.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)
