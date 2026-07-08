@@ -460,6 +460,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "Renal tolerance: the regulatory T cells restrain the immune nephritis (T-helper cells already mapped) and maintain the tolerance of the renal system."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 nephritis: the IFN-γ of the infiltrating T cells is the type-II interferon arm driving the crescentic and lupus nephritides of the renal system."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune nephritis of the renal system."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "Th17 nephritis: IL-17A drives the Th17 arm of the ANCA-associated and crescentic glomerulonephritides of the renal system."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -702,6 +711,9 @@ Natriuretic counterpoint:
 - **Connects to:** [B cell](../../04-cellular/b-cell/README.md) — humoral nephritis: the B cells, with the T-helper cells (already mapped), drive the autoantibody and immune-complex glomerulonephritis of the renal system, the rituximab (anti-CD20) target.
 - **Connects to:** [Plasma cell](../../04-cellular/plasma-cell/README.md) — autoantibody plasma cells: the plasma cells secrete the autoantibodies (anti-GBM, immune-complex) that deposit in the glomerulus and drive the immune kidney injury of the renal system.
 - **Connects to:** [Regulatory T cell](../../04-cellular/regulatory-t-cell/README.md) — renal tolerance: the regulatory T cells restrain the immune nephritis (T-helper cells already mapped) and maintain the tolerance of the renal system.
+- **Connects to:** [IFN-gamma](../../03-molecular/ifn-gamma/README.md) — Th1 nephritis: the IFN-γ of the infiltrating T cells is the type-II interferon arm driving the crescentic and lupus nephritides of the renal system.
+- **Connects to:** [IL-12](../../03-molecular/il-12/README.md) — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune nephritis of the renal system.
+- **Connects to:** [IL-17A](../../03-molecular/il-17a/README.md) — Th17 nephritis: IL-17A drives the Th17 arm of the ANCA-associated and crescentic glomerulonephritides of the renal system.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 

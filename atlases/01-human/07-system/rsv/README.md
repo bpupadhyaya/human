@@ -453,6 +453,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c5
     relation: connects-to
     note: "Complement immunopathology: the complement C5 activation contributes to the RSV bronchiolitis immunopathology (and the historical enhanced disease of the formalin-inactivated vaccine)."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the neutrophilic (already mapped) inflammation of severe RSV bronchiolitis."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "Antibody arm: the plasma cells secrete the anti-F-protein antibodies (already mapped); the passive antibody (palivizumab/nirsevimab, maternal RSVpreF) targets the same F protein (already mapped) to protect infants from RSV."
+  - target: 01-human/03-molecular/il-31
+    relation: connects-to
+    note: "Type-2 airway itch: IL-31, a type-2 (IL-4, IL-5 and IL-13 already mapped) cytokine, is part of the type-2 response linking the severe RSV bronchiolitis to the later atopy and asthma (already mapped)."
 ---
 
 # RSV
@@ -742,3 +751,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 antiviral arm: IL-12 polarises the protective Th1 (IFN-γ already mapped) antiviral response that counter-balances the pathogenic Th2 (IL-4, IL-5 and IL-13 already mapped) skewing of RSV bronchiolitis.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Th2 airway remodelling: periostin, downstream of the type-2 cytokines (IL-13 already mapped) and the alarmins (IL-33 and TSLP already mapped), marks the Th2 airway remodelling linking severe RSV bronchiolitis to the later asthma (already mapped).
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Complement immunopathology: the complement C5 activation contributes to the RSV bronchiolitis immunopathology (and the historical enhanced disease of the formalin-inactivated vaccine).
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the neutrophilic (already mapped) inflammation of severe RSV bronchiolitis.
+- `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — Antibody arm: the plasma cells secrete the anti-F-protein antibodies (already mapped); the passive antibody (palivizumab/nirsevimab, maternal RSVpreF) targets the same F protein (already mapped) to protect infants from RSV.
+- `connects-to` → **[IL-31](../../03-molecular/il-31/README.md)** — Type-2 airway itch: IL-31, a type-2 (IL-4, IL-5 and IL-13 already mapped) cytokine, is part of the type-2 response linking the severe RSV bronchiolitis to the later atopy and asthma (already mapped).
