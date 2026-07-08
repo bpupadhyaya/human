@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/04-cellular/fibroblast
     relation: connects-to
     note: "Fibrofolliculoma stroma: the fibrofolliculomas of Birt-Hogg-Dubé are benign hair-follicle tumours with a fibroblast/collagen (PDGF already mapped) stroma."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the anti-tumour immunity relevant to the renal tumours of Birt-Hogg-Dubé."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune microenvironment of the Birt-Hogg-Dubé renal tumours."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment of the renal tumours of Birt-Hogg-Dubé."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -732,6 +741,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[VHL disease](../vhl-disease/README.md)** — Hereditary-RCC differential: Birt-Hogg-Dubé and the von Hippel-Lindau (VHL already mapped) syndromes are hereditary renal-tumour syndromes in the differential, distinguished by the FLCN versus VHL genes.
 - `connects-to` → **[Tuberous sclerosis complex](../tuberous-sclerosis-complex/README.md)** — mTOR-pathway overlap: Birt-Hogg-Dubé and tuberous sclerosis are mTOR/AMPK (TSC1-TSC2 already mapped) hamartoma syndromes with renal and lung (cysts, LAM) involvement.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Fibrofolliculoma stroma: the fibrofolliculomas of Birt-Hogg-Dubé are benign hair-follicle tumours with a fibroblast/collagen (PDGF already mapped) stroma.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the anti-tumour immunity relevant to the renal tumours of Birt-Hogg-Dubé.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune microenvironment of the Birt-Hogg-Dubé renal tumours.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment of the renal tumours of Birt-Hogg-Dubé.
 
 ---
 

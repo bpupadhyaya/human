@@ -454,6 +454,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "BCG antigen presentation: the dendritic cells present the intravesical BCG and the tumour antigens, initiating the adaptive (IFN-γ and IL-2 already mapped) immunity of bladder cancer."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "BCG innate interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) and TLR (already mapped) sensing of the intravesical BCG, drives the innate immune response of the BCG immunotherapy of bladder cancer."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) response that mediates the BCG immunotherapy of bladder cancer."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension modulating the predominantly Th1 immune response of bladder cancer."
 ---
 
 # Bladder Cancer
@@ -720,6 +729,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose-inflammatory (IL-6 already mapped) milieu of obesity to the tumour biology of bladder cancer.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Upper-tract urothelial: the urothelial carcinoma is a field-effect disease; the upper-tract (renal pelvis, ureter) urothelial carcinoma of the kidney shares the biology and the risk factors of bladder cancer.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — BCG antigen presentation: the dendritic cells present the intravesical BCG and the tumour antigens, initiating the adaptive (IFN-γ and IL-2 already mapped) immunity of bladder cancer.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — BCG innate interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) and TLR (already mapped) sensing of the intravesical BCG, drives the innate immune response of the BCG immunotherapy of bladder cancer.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) response that mediates the BCG immunotherapy of bladder cancer.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension modulating the predominantly Th1 immune response of bladder cancer.
 
 ---
 
