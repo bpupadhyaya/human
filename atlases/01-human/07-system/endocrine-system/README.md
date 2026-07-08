@@ -473,6 +473,15 @@ cross_links:
   - target: 01-human/03-molecular/il-23
     relation: connects-to
     note: "Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the autoimmune endocrinopathies of the endocrine system."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement: the complement C5 and its C5a (with C3 already mapped) contribute to the complement-mediated glandular injury of the autoimmune endocrinopathies of the endocrine system."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the myeloid recruitment into the inflamed endocrine glands of the autoimmune endocrinopathies."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Glandular macrophages: the macrophages infiltrate the endocrine glands and, in the autoimmune endocrinopathies, contribute to the destruction of the hormone-producing cells of the endocrine system."
 ---
 
 # Endocrine System
@@ -782,6 +791,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — Autoreactive CD4: the CD4 T-helper cells drive the autoreactive response (Th1/Th17, IFN-γ and IL-17 already mapped) of the autoimmune endocrinopathies (Hashimoto, Graves, type-1 diabetes) of the endocrine system.
 - `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — Endocrine autoantibodies: the plasma cells secrete the autoantibodies (anti-TPO, TSH-receptor, anti-GAD) of the autoimmune endocrinopathies of the endocrine system.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the autoimmune endocrinopathies of the endocrine system.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 already mapped) contribute to the complement-mediated glandular injury of the autoimmune endocrinopathies of the endocrine system.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the myeloid recruitment into the inflamed endocrine glands of the autoimmune endocrinopathies.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Glandular macrophages: the macrophages infiltrate the endocrine glands and, in the autoimmune endocrinopathies, contribute to the destruction of the hormone-producing cells of the endocrine system.
 
 ## Pathology
 
