@@ -460,6 +460,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension of the immune dysregulation of multiple sclerosis."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell/remyelination axis: the histamine, from the mast cells (already mapped), modulates the blood-brain-barrier and the demyelination; the antihistamine clemastine is trialed to promote remyelination in multiple sclerosis."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Antioxidant micronutrient: selenium, a cofactor of the antioxidant selenoproteins, is part of the oxidative-stress and micronutrient dimension (with vitamin D already mapped) studied in multiple sclerosis."
+  - target: 01-human/07-system/systemic-lupus-erythematosus
+    relation: connects-to
+    note: "Autoimmune comorbidity: multiple sclerosis shares the autoimmune susceptibility with systemic lupus erythematosus, and the two can co-occur or enter the differential of CNS demyelination."
 ---
 
 # Multiple Sclerosis
@@ -717,6 +726,9 @@ MS affects approximately **2.8 million people worldwide** (~1 million in the US)
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm that, with the Th17 (IL-17 and IL-23 already mapped), drives the CNS autoimmunity of multiple sclerosis.
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 counter-arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension balancing the Th1/Th17 drive of multiple sclerosis.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension of the immune dysregulation of multiple sclerosis.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell/remyelination axis: the histamine, from the mast cells (already mapped), modulates the blood-brain-barrier and the demyelination; the antihistamine clemastine is trialed to promote remyelination in multiple sclerosis.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Antioxidant micronutrient: selenium, a cofactor of the antioxidant selenoproteins, is part of the oxidative-stress and micronutrient dimension (with vitamin D already mapped) studied in multiple sclerosis.
+- `connects-to` → **[Systemic lupus erythematosus](../systemic-lupus-erythematosus/README.md)** — Autoimmune comorbidity: multiple sclerosis shares the autoimmune susceptibility with systemic lupus erythematosus, and the two can co-occur or enter the differential of CNS demyelination.
 
 [^compston-2008-ms-review]: Compston A, Coles A. Multiple sclerosis. *Lancet.* 2008;372(9648):1502-1517. [doi:10.1016/S0140-6736(08)61620-7](https://doi.org/10.1016/S0140-6736(08)61620-7) · [PubMed 18970977](https://pubmed.ncbi.nlm.nih.gov/18970977/)
 [^kappos-2006-natalizumab]: Polman CH, O'Connor PW, Havrdova E, et al. A randomized, placebo-controlled trial of natalizumab for relapsing multiple sclerosis. *N Engl J Med.* 2006;354(9):899-910. [doi:10.1056/NEJMoa044397](https://doi.org/10.1056/NEJMoa044397) · [PubMed 16510744](https://pubmed.ncbi.nlm.nih.gov/16510744/)
