@@ -465,6 +465,15 @@ cross_links:
   - target: 01-human/04-cellular/b-cell
     relation: connects-to
     note: "Atypical memory B cells: the malaria drives the expansion of the atypical memory B cells and the polyclonal (IgE already mapped) activation, shaping the slowly-acquired antibody immunity to the parasite."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped), driven by the excess C5a, contributes to the inflammation and the endothelial injury of severe and cerebral malaria."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement evasion: Plasmodium recruits the host factor H (via the RIFIN and Pf surface proteins) to its infected erythrocytes (already mapped) to accelerate the C3-convertase decay and evade the complement attack."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Iron competition: transferrin, the iron carrier, is part of the host iron-handling that, with the disordered hepcidin (already mapped), governs the iron availability contested between the host and the intraerythrocytic parasite in malaria."
 ---
 
 # Malaria
@@ -772,6 +781,9 @@ cross_links:
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the inflammatory immune response to the malaria parasite.
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 helper balance: the CD4 T-helper cells set the Th1 (IFN-γ already mapped) protective versus Th2 (IL-4 already mapped) balance that determines the outcome of the malaria infection.
 - `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Atypical memory B cells: the malaria drives the expansion of the atypical memory B cells and the polyclonal (IgE already mapped) activation, shaping the slowly-acquired antibody immunity to the parasite.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped), driven by the excess C5a, contributes to the inflammation and the endothelial injury of severe and cerebral malaria.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: Plasmodium recruits the host factor H (via the RIFIN and Pf surface proteins) to its infected erythrocytes (already mapped) to accelerate the C3-convertase decay and evade the complement attack.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Iron competition: transferrin, the iron carrier, is part of the host iron-handling that, with the disordered hepcidin (already mapped), governs the iron availability contested between the host and the intraerythrocytic parasite in malaria.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)
