@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "DC-SIGN target: the dengue virus targets the DC-SIGN-expressing dendritic cells, the skin (Aedes-bite) entry and the initial infection."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the antiviral immune response to the dengue virus."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Immune-metabolic adipokine: leptin links the metabolic state to the immune response and is associated with the severity of the dengue plasma-leak syndrome."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, a pro-inflammatory adipokine, is elevated in severe dengue and correlates with the plasma leak (endothelial already mapped) and severity."
 ---
 
 # Dengue Fever
@@ -703,3 +712,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — ADE target: the dengue virus infects the macrophages/monocytes, and the antibody-dependent enhancement (immunoglobulin already mapped) increases the FcγR-mediated uptake, amplifying the severe secondary dengue.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Dengue hepatitis: the dengue causes the hepatocyte infection and the transaminitis/hepatitis of the liver, a marker of the disease severity.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — DC-SIGN target: the dengue virus targets the DC-SIGN-expressing dendritic cells, the skin (Aedes-bite) entry and the initial infection.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the antiviral immune response to the dengue virus.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Immune-metabolic adipokine: leptin links the metabolic state to the immune response and is associated with the severity of the dengue plasma-leak syndrome.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, a pro-inflammatory adipokine, is elevated in severe dengue and correlates with the plasma leak (endothelial already mapped) and severity.

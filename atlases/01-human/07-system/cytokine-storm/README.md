@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/07-system/covid-19-disease
     relation: connects-to
     note: "COVID driver: the severe COVID-19 is a major cause of the cytokine storm (the IL-6 already mapped hyperinflammation), the tocilizumab/dexamethasone target."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 arm: IL-23 sustains the Th17 (IL-17 already mapped) arm, one contributor to the broad cytokine milieu of the cytokine storm."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the mixed cytokine profile of the cytokine storm."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast-cell source: the mast cells (a source of IL-6 and TNF already mapped) contribute to the hyperinflammation, as in the mast-cell-activation forms of the cytokine storm."
 ---
 
 # Cytokine Storm
@@ -682,6 +691,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — HLH NK defect: the impaired NK/CTL cytotoxicity (perforin already mapped) of the familial and secondary HLH fails to kill the activated antigen-presenting cells, perpetuating the cytokine storm.
 - `connects-to` → **[Endothelial cell](../../04-cellular/endothelial-cell/README.md)** — Endothelial leak: the endothelial activation and the glycocalyx damage (angiopoietin and VWF already mapped) drive the vascular leak, the shock and the coagulopathy of the cytokine storm.
 - `connects-to` → **[COVID-19](../covid-19-disease/README.md)** — COVID driver: the severe COVID-19 is a major cause of the cytokine storm (the IL-6 already mapped hyperinflammation), the tocilizumab/dexamethasone target.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 arm: IL-23 sustains the Th17 (IL-17 already mapped) arm, one contributor to the broad cytokine milieu of the cytokine storm.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the mixed cytokine profile of the cytokine storm.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Mast-cell source: the mast cells (a source of IL-6 and TNF already mapped) contribute to the hyperinflammation, as in the mast-cell-activation forms of the cytokine storm.
 
 ## Pathology
 
