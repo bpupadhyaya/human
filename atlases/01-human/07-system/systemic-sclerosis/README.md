@@ -472,6 +472,15 @@ cross_links:
   - target: 01-human/03-molecular/il-31
     relation: connects-to
     note: "Pruritus cytokine: IL-31, a type-2 (IL-4 and IL-13 already mapped) cytokine, is the pruritogenic effector of the frequent and burdensome itch of the sclerotic skin of systemic sclerosis."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement: the complement C5 and its activation (with C3 and C5aR1 already mapped) contribute to the microvascular injury and the inflammatory vasculopathy of systemic sclerosis."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose dysregulation contributes to the endothelial (already mapped) injury of systemic sclerosis."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Cytotoxic infiltrate: the cytotoxic T cells (perforin already mapped) infiltrate the sclerotic skin and lung and contribute to the endothelial injury and the fibroblast (already mapped) activation of systemic sclerosis."
 ---
 
 # Systemic Sclerosis
@@ -737,6 +746,9 @@ Identical to IPAH: medial hypertrophy, intimal fibrosis, concentric laminar inti
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Profibrotic alarmin: TSLP, an epithelial alarmin, initiates and amplifies the type-2 (IL-4 and IL-13 already mapped) immunity that drives the fibroblast (already mapped) activation and periostin (already mapped) remodelling of systemic sclerosis.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — Complement C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) contributes to the microvascular injury and the inflammatory dimension of the vasculopathy of systemic sclerosis.
 - `connects-to` → **[IL-31](../../03-molecular/il-31/README.md)** — Pruritus cytokine: IL-31, a type-2 (IL-4 and IL-13 already mapped) cytokine, is the pruritogenic effector of the frequent and burdensome itch of the sclerotic skin of systemic sclerosis.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its activation (with C3 and C5aR1 already mapped) contribute to the microvascular injury and the inflammatory vasculopathy of systemic sclerosis.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose dysregulation contributes to the endothelial (already mapped) injury of systemic sclerosis.
+- `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Cytotoxic infiltrate: the cytotoxic T cells (perforin already mapped) infiltrate the sclerotic skin and lung and contribute to the endothelial injury and the fibroblast (already mapped) activation of systemic sclerosis.
 
 [^denton-2017-ssc-review]: Denton CP, Khanna D. Systemic sclerosis. *Lancet.* 2017;390(10103):1685-1699. [doi:10.1016/S0140-6736(17)30933-9](https://doi.org/10.1016/S0140-6736(17)30933-9) · [PubMed 28413064](https://pubmed.ncbi.nlm.nih.gov/28413064/)
 [^distler-2019-nintedanib-senscis]: Distler O, Highland KB, Gahlemann M, et al. Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease. *N Engl J Med.* 2019;380(26):2518-2528. [doi:10.1056/NEJMoa1903076](https://doi.org/10.1056/NEJMoa1903076) · [PubMed 31112379](https://pubmed.ncbi.nlm.nih.gov/31112379/)
