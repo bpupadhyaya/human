@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/07-system/all
     relation: connects-to
     note: "Lymphoid blast crisis: CML can also transform to a lymphoid (Ph+ ALL-like) blast crisis (ABL1 already mapped), treated as the Ph+ ALL."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "IFN-α therapy/immune control: the type-I interferon (IFN-α) was the pre-TKI standard therapy of CML and, downstream of cGAS-STING (already mapped), underlies the immune surveillance relevant to the treatment-free remission."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 anti-leukaemic arm: the IFN-γ of the T and NK cells (perforin already mapped) is the type-II interferon arm of the anti-leukaemic immunity relevant to the immune control of CML."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune microenvironment of chronic myeloid leukaemia."
 ---
 
 # Chronic Myeloid Leukemia
@@ -704,6 +713,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Thrombocytosis: CML often causes the thrombocytosis (the megakaryocytic proliferation; PF4 already mapped), part of the myeloproliferation of the leukaemia.
 - `connects-to` → **[AML](../aml/README.md)** — Myeloid blast crisis: CML can transform to the acute myeloid leukaemia (the myeloid blast crisis; RUNX1 already mapped), a terminal accelerated phase.
 - `connects-to` → **[ALL](../all/README.md)** — Lymphoid blast crisis: CML can also transform to a lymphoid (Ph+ ALL-like) blast crisis (ABL1 already mapped), treated as the Ph+ ALL.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — IFN-α therapy/immune control: the type-I interferon (IFN-α) was the pre-TKI standard therapy of CML and, downstream of cGAS-STING (already mapped), underlies the immune surveillance relevant to the treatment-free remission.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 anti-leukaemic arm: the IFN-γ of the T and NK cells (perforin already mapped) is the type-II interferon arm of the anti-leukaemic immunity relevant to the immune control of CML.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune microenvironment of chronic myeloid leukaemia.
 
 ---
 

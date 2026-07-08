@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/07-system/waldenstrom-macroglobulinemia
     relation: connects-to
     note: "Indolent mature-B relative: chronic lymphocytic leukaemia and Waldenström macroglobulinaemia are indolent mature-B-cell neoplasms (the BCR/BTK already mapped signalling), overlapping in the BTK-inhibitor therapy."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 antitumour arm: the IFN-γ of the T and NK (already mapped) cells (perforin already mapped) is the type-II interferon arm of the anti-tumour immunity, relevant to the immune dysfunction and CAR-T of CLL."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune microenvironment of chronic lymphocytic leukaemia."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment of chronic lymphocytic leukaemia."
 ---
 
 # CLL
@@ -704,6 +713,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[Regulatory T-cell](../../04-cellular/regulatory-t-cell/README.md)** — Immunosuppressive Tregs: the expanded regulatory T cells (IL-10 already mapped) contribute to the immunosuppression and the immune dysfunction (hypogammaglobulinaemia) of chronic lymphocytic leukaemia.
 - `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — ADCC effectors: the NK cells mediate the antibody-dependent cellular cytotoxicity of the anti-CD20 (already mapped) antibodies (rituximab, obinutuzumab) against the CLL B cells (already mapped).
 - `connects-to` → **[Waldenström macroglobulinemia](../waldenstrom-macroglobulinemia/README.md)** — Indolent mature-B relative: chronic lymphocytic leukaemia and Waldenström macroglobulinaemia are indolent mature-B-cell neoplasms (the BCR/BTK already mapped signalling), overlapping in the BTK-inhibitor therapy.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 antitumour arm: the IFN-γ of the T and NK (already mapped) cells (perforin already mapped) is the type-II interferon arm of the anti-tumour immunity, relevant to the immune dysfunction and CAR-T of CLL.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune microenvironment of chronic lymphocytic leukaemia.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment of chronic lymphocytic leukaemia.
 
 ---
 
