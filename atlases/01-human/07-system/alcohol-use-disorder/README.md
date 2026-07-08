@@ -457,6 +457,15 @@ cross_links:
   - target: 01-human/07-system/cannabis-use-disorder
     relation: connects-to
     note: "Polysubstance comorbidity: alcohol and cannabis use disorders commonly co-occur (with the opioid use disorder already mapped), the shared reward-circuit (dopamine already mapped) addiction vulnerability."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) sensing of the gut-derived (TLR4 already mapped) stress, drives the inflammation of the alcoholic liver (already mapped) of alcohol use disorder."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 inflammation: the IFN-γ of the T cells is the type-II interferon arm of the immune-mediated inflammation (IL-6 and TNF already mapped) of the alcoholic steatohepatitis of alcohol use disorder."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune-inflammatory dimension of alcohol use disorder."
 ---
 
 # Alcohol Use Disorder
@@ -783,6 +792,9 @@ Prenatal alcohol exposure → leading preventable cause of intellectual disabili
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Hepatoprotective adipokine: adiponectin, with leptin (already mapped), is the hepatoprotective adipokine whose fall in the alcoholic liver disease promotes the steatosis and the fibrosis.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the alcoholic steatohepatitis and the metabolic disturbance of alcohol use disorder.
 - `connects-to` → **[Cannabis use disorder](../cannabis-use-disorder/README.md)** — Polysubstance comorbidity: alcohol and cannabis use disorders commonly co-occur (with the opioid use disorder already mapped), the shared reward-circuit (dopamine already mapped) addiction vulnerability.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) sensing of the gut-derived (TLR4 already mapped) stress, drives the inflammation of the alcoholic liver (already mapped) of alcohol use disorder.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 inflammation: the IFN-γ of the T cells is the type-II interferon arm of the immune-mediated inflammation (IL-6 and TNF already mapped) of the alcoholic steatohepatitis of alcohol use disorder.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune-inflammatory dimension of alcohol use disorder.
 
 [^koob-2013-addiction-neuroscience]: Koob GF, Volkow ND. Neurocircuitry of addiction. *Neuropsychopharmacology.* 2010;35(1):217-238. [doi:10.1038/npp.2009.110](https://doi.org/10.1038/npp.2009.110) · [PubMed 19710631](https://pubmed.ncbi.nlm.nih.gov/19710631/)
 [^anton-2006-combine]: Anton RF, O'Malley SS, Ciraulo DA, et al. Combined pharmacotherapies and behavioral interventions for alcohol dependence: the COMBINE study. *JAMA.* 2006;295(17):2003-2017. [doi:10.1001/jama.295.17.2003](https://doi.org/10.1001/jama.295.17.2003) · [PubMed 16670409](https://pubmed.ncbi.nlm.nih.gov/16670409/)

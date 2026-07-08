@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Transfusion iron: the transfusion-dependent anaemia (haemoglobin already mapped) of the ALL and its chemotherapy loads the body with iron."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 antileukaemic arm: the IFN-γ of the T and NK cells (perforin already mapped) is the type-II interferon arm of the anti-leukaemic immunity, relevant to the blinatumomab and CAR-T (T-cell already mapped) immunotherapy of ALL."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) anti-leukaemic response of the ALL immune microenvironment."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate antileukaemic interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment relevant to the immunotherapy of ALL."
 ---
 
 # Acute Lymphoblastic Leukemia
@@ -731,6 +740,9 @@ Childhood ALL survivors (now majority of patients): neurocognitive impairment (M
 - `connects-to` → **[CML](../cml/README.md)** — Ph+ overlap: the Ph+ (BCR-ABL — ABL1 already mapped) ALL and the CML (lymphoid blast crisis) share the BCR-ABL fusion and the TKI (imatinib) therapy.
 - `connects-to` → **[Burkitt lymphoma](../burkitt-lymphoma/README.md)** — Mature-B malignancy: the Burkitt lymphoma/leukaemia (MYC already mapped, the L3/mature-B ALL) is a related aggressive B-cell malignancy of the ALL spectrum.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Transfusion iron: the transfusion-dependent anaemia (haemoglobin already mapped) of the ALL and its chemotherapy loads the body with iron.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 antileukaemic arm: the IFN-γ of the T and NK cells (perforin already mapped) is the type-II interferon arm of the anti-leukaemic immunity, relevant to the blinatumomab and CAR-T (T-cell already mapped) immunotherapy of ALL.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) anti-leukaemic response of the ALL immune microenvironment.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate antileukaemic interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment relevant to the immunotherapy of ALL.
 
 [^pui-2018-all-cure]: Pui CH, Yang JJ, Bhakta N, et al. Global efforts toward the cure of childhood acute lymphoblastic leukemia. *Lancet Child Adolesc Health.* 2018;2(6):440-454. [doi:10.1016/S2352-4642(18)30066-X](https://doi.org/10.1016/S2352-4642(18)30066-X) · [PubMed 29976322](https://pubmed.ncbi.nlm.nih.gov/29976322/)
 [^maude-2018-tisagenlecleucel]: Maude SL, Laetsch TW, Buechner J, et al. Tisagenlecleucel in children and young adults with B-cell lymphoblastic leukemia. *N Engl J Med.* 2018;378(5):439-448. [doi:10.1056/NEJMoa1709866](https://doi.org/10.1056/NEJMoa1709866) · [PubMed 29385370](https://pubmed.ncbi.nlm.nih.gov/29385370/)
