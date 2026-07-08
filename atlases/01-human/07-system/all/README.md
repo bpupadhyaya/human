@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/c5ar1
     relation: connects-to
     note: "Complement C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) contributes to the myeloid inflammation and the cytokine-release-syndrome complement activation of the CAR-T therapy of ALL."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement: the complement C5 and its C5a (with C3 and C5aR1 already mapped) are effectors of the antibody-mediated cytotoxicity and the cytokine-release-syndrome complement activation of the immunotherapy of ALL."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement evasion: the ALL blasts recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), tempering the complement attack within the marrow (already mapped) microenvironment."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Anaemia/iron overload: transferrin, the iron carrier, reflects the disordered iron handling of the marrow-failure anaemia and the transfusional iron overload of ALL."
 ---
 
 # Acute Lymphoblastic Leukemia
@@ -767,6 +776,9 @@ Childhood ALL survivors (now majority of patients): neurocognitive impairment (M
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Antigen presentation: the dendritic cells present the leukaemia antigen (MHC already mapped) to the T cells (already mapped), shaping the immune microenvironment and the antileukaemic response of ALL.
 - `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — B-cell aplasia: the normal plasma cells and their antibody (already mapped) output are lost with the CD19 (CD20 already mapped) CAR-T and blinatumomab therapy, causing the B-cell aplasia and hypogammaglobulinaemia of treated ALL.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — Complement C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) contributes to the myeloid inflammation and the cytokine-release-syndrome complement activation of the CAR-T therapy of ALL.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 and C5aR1 already mapped) are effectors of the antibody-mediated cytotoxicity and the cytokine-release-syndrome complement activation of the immunotherapy of ALL.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the ALL blasts recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), tempering the complement attack within the marrow (already mapped) microenvironment.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Anaemia/iron overload: transferrin, the iron carrier, reflects the disordered iron handling of the marrow-failure anaemia and the transfusional iron overload of ALL.
 
 [^pui-2018-all-cure]: Pui CH, Yang JJ, Bhakta N, et al. Global efforts toward the cure of childhood acute lymphoblastic leukemia. *Lancet Child Adolesc Health.* 2018;2(6):440-454. [doi:10.1016/S2352-4642(18)30066-X](https://doi.org/10.1016/S2352-4642(18)30066-X) · [PubMed 29976322](https://pubmed.ncbi.nlm.nih.gov/29976322/)
 [^maude-2018-tisagenlecleucel]: Maude SL, Laetsch TW, Buechner J, et al. Tisagenlecleucel in children and young adults with B-cell lymphoblastic leukemia. *N Engl J Med.* 2018;378(5):439-448. [doi:10.1056/NEJMoa1709866](https://doi.org/10.1056/NEJMoa1709866) · [PubMed 29385370](https://pubmed.ncbi.nlm.nih.gov/29385370/)

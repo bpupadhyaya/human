@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/04-cellular/astrocyte
     relation: connects-to
     note: "Astroglial neurotoxicity: the astrocytes of the brain (already mapped) are damaged by the chronic alcohol and, with the microglia (already mapped), mediate the neuroinflammation and the neurodegeneration of alcohol use disorder."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement: the complement C5 and its C5a (with C3 already mapped) contribute to the Kupffer-cell (macrophage already mapped) activation of the alcoholic liver disease of alcohol use disorder."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) links the complement to the hepatic and neuroinflammatory myeloid activation of alcohol use disorder."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Alcoholic iron overload: transferrin (and its carbohydrate-deficient form, a biomarker of chronic use), the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the hepatic iron overload of alcohol use disorder."
 ---
 
 # Alcohol Use Disorder
@@ -819,6 +828,9 @@ Prenatal alcohol exposure → leading preventable cause of intellectual disabili
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Meningeal mast cells: the mast cells of the meninges and the brain (already mapped) contribute to the neuroinflammation and the blood-brain-barrier disruption implicated in alcohol use disorder.
 - `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Cytotoxic arm: the cytotoxic T cells (perforin pathway) contribute both to the psychoneuroimmunology of the chronic alcohol exposure and to the hepatocyte (already mapped) injury of the alcoholic liver disease of alcohol use disorder.
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Astroglial neurotoxicity: the astrocytes of the brain (already mapped) are damaged by the chronic alcohol and, with the microglia (already mapped), mediate the neuroinflammation and the neurodegeneration of alcohol use disorder.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 already mapped) contribute to the Kupffer-cell (macrophage already mapped) activation of the alcoholic liver disease of alcohol use disorder.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) links the complement to the hepatic and neuroinflammatory myeloid activation of alcohol use disorder.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Alcoholic iron overload: transferrin (and its carbohydrate-deficient form, a biomarker of chronic use), the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the hepatic iron overload of alcohol use disorder.
 
 [^koob-2013-addiction-neuroscience]: Koob GF, Volkow ND. Neurocircuitry of addiction. *Neuropsychopharmacology.* 2010;35(1):217-238. [doi:10.1038/npp.2009.110](https://doi.org/10.1038/npp.2009.110) · [PubMed 19710631](https://pubmed.ncbi.nlm.nih.gov/19710631/)
 [^anton-2006-combine]: Anton RF, O'Malley SS, Ciraulo DA, et al. Combined pharmacotherapies and behavioral interventions for alcohol dependence: the COMBINE study. *JAMA.* 2006;295(17):2003-2017. [doi:10.1001/jama.295.17.2003](https://doi.org/10.1001/jama.295.17.2003) · [PubMed 16670409](https://pubmed.ncbi.nlm.nih.gov/16670409/)
