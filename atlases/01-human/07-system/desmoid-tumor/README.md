@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/07-system/osteosarcoma
     relation: connects-to
     note: "Mesenchymal-tumour differential: the desmoid and osteosarcoma are locally aggressive mesenchymal neoplasms of the deep soft tissue/bone, in the imaging and biopsy differential of a deep infiltrative mass."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 immune arm: the IFN-γ of the infiltrating T cells (perforin already mapped) is the type-II interferon arm of the immune contribution to the fibro-inflammatory (IL-6 already mapped) desmoid stroma."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune microenvironment of the desmoid tumour."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment of the desmoid tumour."
 ---
 
 # Desmoid Tumor
@@ -725,6 +734,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Immune microenvironment: the NK cells and the anti-tumour immune surveillance of the immunologically cold desmoid microenvironment (CCL2 already mapped), relevant to the limited immunotherapy response.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Inflammatory stroma: the tumour-associated neutrophils and the neutrophil-lymphocyte ratio are studied prognostic markers of the fibro-inflammatory (IL-6 already mapped) desmoid stroma.
 - `connects-to` → **[Osteosarcoma](../osteosarcoma/README.md)** — Mesenchymal-tumour differential: the desmoid and osteosarcoma are locally aggressive mesenchymal neoplasms of the deep soft tissue/bone, in the imaging and biopsy differential of a deep infiltrative mass.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 immune arm: the IFN-γ of the infiltrating T cells (perforin already mapped) is the type-II interferon arm of the immune contribution to the fibro-inflammatory (IL-6 already mapped) desmoid stroma.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune microenvironment of the desmoid tumour.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment of the desmoid tumour.
 
 ---
 

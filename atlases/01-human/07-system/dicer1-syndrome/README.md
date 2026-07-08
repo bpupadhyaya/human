@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/07-system/wilms-tumor
     relation: connects-to
     note: "Renal-tumour differential: the DICER1 renal tumours (the cystic nephroma, the anaplastic sarcoma — WT1 already mapped) are in the differential of the Wilms tumour."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the anti-tumour immunity relevant to the diverse DICER1 tumours (checkpoint PD-1 already mapped)."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune microenvironment of the DICER1-syndrome tumours."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment of the DICER1-syndrome tumours."
 ---
 
 # DICER1 Syndrome
@@ -706,6 +715,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[Thyroid](../../06-organ/thyroid/README.md)** — Multinodular goitre: the thyroid gland develops the multinodular goitre (thyroid-hormones already mapped) and the differentiated thyroid cancer of the DICER1 syndrome, especially after chemotherapy/RT.
 - `connects-to` → **[Ovarian cancer](../ovarian-cancer/README.md)** — Sertoli-Leydig tumour: the ovarian Sertoli-Leydig cell tumour (the androgen — androgen-receptor already mapped — secreting sex-cord-stromal tumour) is a characteristic DICER1 ovarian tumour.
 - `connects-to` → **[Wilms tumor](../wilms-tumor/README.md)** — Renal-tumour differential: the DICER1 renal tumours (the cystic nephroma, the anaplastic sarcoma — WT1 already mapped) are in the differential of the Wilms tumour.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the anti-tumour immunity relevant to the diverse DICER1 tumours (checkpoint PD-1 already mapped).
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune microenvironment of the DICER1-syndrome tumours.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment of the DICER1-syndrome tumours.
 
 ---
 
