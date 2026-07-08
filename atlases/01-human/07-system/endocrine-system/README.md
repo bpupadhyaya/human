@@ -455,6 +455,15 @@ cross_links:
   - target: 01-human/03-molecular/type-i-interferon
     relation: connects-to
     note: "Innate autoimmune interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, is implicated in the autoimmune endocrine diseases (e.g. type-1 diabetes) of the endocrine system."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "Th17 endocrinopathy: IL-17A drives the Th17 arm of the autoimmune endocrinopathies (autoimmune thyroiditis, type-1 diabetes) of the endocrine system."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Type-2 endocrine autoimmunity: IL-4 is the prototypical type-2 cytokine of the humoral autoimmunity (e.g. the Graves TSH-receptor antibodies) of the endocrine system."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Endocrine tolerance: IL-10 is the regulatory cytokine that maintains the immune tolerance and restrains the autoimmune endocrinopathies of the endocrine system."
 ---
 
 # Endocrine System
@@ -758,6 +767,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Autoimmune endocrinopathy: the IFN-γ of the T cells is the type-II interferon arm of the autoimmune destruction underlying the autoimmune endocrine diseases (type-1 diabetes, Hashimoto, Graves, Addison) of the endocrine system.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm that drives the autoimmune endocrinopathies of the endocrine system.
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate autoimmune interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, is implicated in the autoimmune endocrine diseases (e.g. type-1 diabetes) of the endocrine system.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Th17 endocrinopathy: IL-17A drives the Th17 arm of the autoimmune endocrinopathies (autoimmune thyroiditis, type-1 diabetes) of the endocrine system.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Type-2 endocrine autoimmunity: IL-4 is the prototypical type-2 cytokine of the humoral autoimmunity (e.g. the Graves TSH-receptor antibodies) of the endocrine system.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Endocrine tolerance: IL-10 is the regulatory cytokine that maintains the immune tolerance and restrains the autoimmune endocrinopathies of the endocrine system.
 
 ## Pathology
 
