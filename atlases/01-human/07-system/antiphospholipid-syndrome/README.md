@@ -472,6 +472,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Antigen presentation: the dendritic cells present the β2-glycoprotein-1 (already mapped) to the T cells (already mapped), priming the autoantibody response of antiphospholipid syndrome."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Thromboinflammation: osteopontin, released by the activated platelets (already mapped), is a matricellular mediator amplifying the neutrophil (already mapped) and endothelial thromboinflammation of antiphospholipid syndrome."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Haemolytic/thrombotic iron: transferrin, the iron carrier, reflects the disordered iron handling of the haemolysis and the microvascular thrombosis of antiphospholipid syndrome."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Adaptive arm: the cytotoxic T cells (perforin pathway), with the T-helper (already mapped) support of the anti-β2GP1 response, are part of the adaptive-immune dimension of antiphospholipid syndrome."
 ---
 
 # Antiphospholipid Syndrome
@@ -769,6 +778,9 @@ In APS, anti-B2GPI IgG bound to B2GPI on phospholipid surfaces converts this ant
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose activation on the anti-β2GPI (already mapped) immune complexes drives the thrombosis of antiphospholipid syndrome.
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement/contact regulation: the C1-esterase inhibitor regulates the classical complement and the contact-coagulation systems at the interface driving the thromboinflammation of antiphospholipid syndrome.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Antigen presentation: the dendritic cells present the β2-glycoprotein-1 (already mapped) to the T cells (already mapped), priming the autoantibody response of antiphospholipid syndrome.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Thromboinflammation: osteopontin, released by the activated platelets (already mapped), is a matricellular mediator amplifying the neutrophil (already mapped) and endothelial thromboinflammation of antiphospholipid syndrome.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Haemolytic/thrombotic iron: transferrin, the iron carrier, reflects the disordered iron handling of the haemolysis and the microvascular thrombosis of antiphospholipid syndrome.
+- `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Adaptive arm: the cytotoxic T cells (perforin pathway), with the T-helper (already mapped) support of the anti-β2GP1 response, are part of the adaptive-immune dimension of antiphospholipid syndrome.
 
 [^miyakis-2006-sydney-aps]: Miyakis S, Lockshin MD, Atsumi T, et al. International consensus statement on an update of the classification criteria for definite antiphospholipid syndrome (APS). *J Thromb Haemost.* 2006;4(2):295-306. [doi:10.1111/j.1538-7836.2006.01753.x](https://doi.org/10.1111/j.1538-7836.2006.01753.x) · [PubMed 16420554](https://pubmed.ncbi.nlm.nih.gov/16420554/)
 [^barbhaiya-2023-acreular-aps]: Barbhaiya M, Zuily S, Naden R, et al. The 2023 ACR/EULAR antiphospholipid syndrome classification criteria. *Ann Rheum Dis.* 2023;82(10):1258-1270. [doi:10.1136/ard-2023-224609](https://doi.org/10.1136/ard-2023-224609) · [PubMed 37643823](https://pubmed.ncbi.nlm.nih.gov/37643823/)

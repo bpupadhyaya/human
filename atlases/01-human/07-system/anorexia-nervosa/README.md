@@ -481,6 +481,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "Psychoneuroimmune arm: the peripheral cytotoxic T cells (perforin pathway) reflect the adaptive-immune activation of the starvation-associated immune dysregulation of anorexia nervosa."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Neuroimmune complement: the complement C3 activation is part of the low-grade neuroinflammation and the starvation-associated immune dysregulation of anorexia nervosa."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) links the complement to the microglial (already mapped) neuroinflammation of anorexia nervosa."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "CNS-border antigen presentation: the dendritic cells of the CNS-border compartments are part of the neuroimmune interface implicated in the starvation-associated immune dysregulation of anorexia nervosa."
 ---
 
 # Anorexia Nervosa
@@ -776,6 +785,9 @@ In healthy individuals, food cues activate the mesolimbic reward circuit (VTA �
 - `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Neuroinflammation: the microglia of the brain (already mapped) contribute to the neuroinflammation and the reward-circuit dysfunction implicated in anorexia nervosa.
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Meningeal mast cells: the mast cells of the meninges and the brain (already mapped) contribute to the neuroinflammation and the stress-reactive (histamine already mapped) dimension of anorexia nervosa.
 - `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Psychoneuroimmune arm: the peripheral cytotoxic T cells (perforin pathway) reflect the adaptive-immune activation of the starvation-associated immune dysregulation of anorexia nervosa.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Neuroimmune complement: the complement C3 activation is part of the low-grade neuroinflammation and the starvation-associated immune dysregulation of anorexia nervosa.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) links the complement to the microglial (already mapped) neuroinflammation of anorexia nervosa.
+- `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — CNS-border antigen presentation: the dendritic cells of the CNS-border compartments are part of the neuroimmune interface implicated in the starvation-associated immune dysregulation of anorexia nervosa.
 
 [^treasure-2010-an-lancet]: Treasure J, Claudino AM, Zucker N. Eating disorders. *Lancet.* 2010;375(9714):583-593. [doi:10.1016/S0140-6736(09)61748-7](https://doi.org/10.1016/S0140-6736(09)61748-7) · [PubMed 19931176](https://pubmed.ncbi.nlm.nih.gov/19931176/)
 [^lock-2010-fbt-an]: Lock J, Le Grange D, Agras WS, et al. Randomized clinical trial comparing family-based treatment with adolescent-focused individual therapy for adolescents with anorexia nervosa. *Arch Gen Psychiatry.* 2010;67(10):1025-1032. [doi:10.1001/archgenpsychiatry.2010.128](https://doi.org/10.1001/archgenpsychiatry.2010.128) · [PubMed 20921118](https://pubmed.ncbi.nlm.nih.gov/20921118/)
