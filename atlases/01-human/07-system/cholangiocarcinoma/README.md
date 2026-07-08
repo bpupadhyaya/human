@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/04-cellular/hepatocyte
     relation: connects-to
     note: "Combined HCC-CCA: the hepatocytes and the cholangiocytes share the progenitor origin; the combined hepatocellular-cholangiocarcinoma reflects the plasticity of the liver (already mapped)."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the anti-tumour immunity, relevant to the checkpoint (PD-1 already mapped) immunotherapy of cholangiocarcinoma."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the desmoplastic immune microenvironment of cholangiocarcinoma."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment of cholangiocarcinoma."
 ---
 
 # Cholangiocarcinoma
@@ -688,6 +697,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the obesity/NAFLD metabolic risk of cholangiocarcinoma.
 - `connects-to` → **[NASH](../nash/README.md)** — NAFLD/NASH risk: the non-alcoholic steatohepatitis (the obesity/metabolic — leptin and adiponectin already mapped) is a rising risk factor for the intrahepatic cholangiocarcinoma.
 - `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — Combined HCC-CCA: the hepatocytes and the cholangiocytes share the progenitor origin; the combined hepatocellular-cholangiocarcinoma reflects the plasticity of the liver (already mapped).
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the anti-tumour immunity, relevant to the checkpoint (PD-1 already mapped) immunotherapy of cholangiocarcinoma.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the desmoplastic immune microenvironment of cholangiocarcinoma.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment of cholangiocarcinoma.
 
 ---
 

@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/04-cellular/t-helper-cell
     relation: connects-to
     note: "Anti-HPV T-cell help: the CD4 T-helper cells (IL-2 already mapped) support the cytotoxic (already mapped) anti-HPV E6/E7 (p53 and Rb already mapped) response and the vaccine immunity of cervical cancer."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 antiviral/antitumour arm: the IFN-γ of the T cells (perforin already mapped) is the type-II interferon arm of the anti-HPV and anti-tumour immunity of cervical cancer."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the anti-HPV immune response of cervical cancer."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune microenvironment of cervical cancer."
 ---
 
 # Cervical Cancer
@@ -714,6 +723,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[Endometrial cancer](../endometrial-cancer/README.md)** — Gynaecological sibling: cervical and endometrial cancers are the common gynaecological cancers of the uterus, distinguished by the site (cervix vs corpus) and the HPV vs oestrogen (already mapped) aetiology.
 - `connects-to` → **[Ovarian cancer](../ovarian-cancer/README.md)** — Gynaecological-oncology context: cervical and ovarian cancers are gynaecological malignancies managed within the gynaecological-oncology field, differing in aetiology and screening.
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — Anti-HPV T-cell help: the CD4 T-helper cells (IL-2 already mapped) support the cytotoxic (already mapped) anti-HPV E6/E7 (p53 and Rb already mapped) response and the vaccine immunity of cervical cancer.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 antiviral/antitumour arm: the IFN-γ of the T cells (perforin already mapped) is the type-II interferon arm of the anti-HPV and anti-tumour immunity of cervical cancer.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the anti-HPV immune response of cervical cancer.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune microenvironment of cervical cancer.
 
 ---
 
