@@ -466,6 +466,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Antigen presentation: the dendritic cells of the CNS-border compartments present antigen to the T cells (already mapped) of the neuroinflammation of tuberous sclerosis."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Tuber myeloid cells: the macrophages and microglia (already mapped) of the cortical tubers contribute to the neuroinflammation implicated in the epilepsy of tuberous sclerosis."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Tuber complement: the complement C3 activation, part of the neuroinflammation of the cortical tubers, contributes to the aberrant synaptic pruning implicated in the epilepsy of tuberous sclerosis."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) links the complement to the microglial (already mapped) neuroinflammation of the cortical tubers of tuberous sclerosis."
 ---
 
 # Tuberous Sclerosis Complex
@@ -755,6 +764,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines of the neuroinflammation of the epileptogenic cortical tubers of tuberous sclerosis.
 - `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Cytotoxic infiltrate: the cytotoxic T cells (perforin already mapped) contribute to the adaptive-immune component of the neuroinflammation of the cortical tubers of tuberous sclerosis.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Antigen presentation: the dendritic cells of the CNS-border compartments present antigen to the T cells (already mapped) of the neuroinflammation of tuberous sclerosis.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tuber myeloid cells: the macrophages and microglia (already mapped) of the cortical tubers contribute to the neuroinflammation implicated in the epilepsy of tuberous sclerosis.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Tuber complement: the complement C3 activation, part of the neuroinflammation of the cortical tubers, contributes to the aberrant synaptic pruning implicated in the epilepsy of tuberous sclerosis.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) links the complement to the microglial (already mapped) neuroinflammation of the cortical tubers of tuberous sclerosis.
 
 ---
 

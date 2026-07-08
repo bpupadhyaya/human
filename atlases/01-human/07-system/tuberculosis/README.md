@@ -466,6 +466,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Nutritional immunity: transferrin, by withholding iron (already mapped) from Mycobacterium tuberculosis, is part of the iron-restriction innate defence against tuberculosis, which the bacterium counters with siderophores."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) that opsonises Mycobacterium tuberculosis for the macrophage (already mapped) uptake into its intracellular niche."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Lectin/classical regulation: the C1-esterase inhibitor regulates the classical and lectin (mannose-binding) complement pathways that opsonise Mycobacterium tuberculosis in the innate response to tuberculosis."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Cavitary fibrosis: periostin, downstream of the TGF-β (already mapped) signalling, is a matricellular mediator of the fibrotic remodelling and the cavity-wall formation of pulmonary tuberculosis."
 ---
 
 # Tuberculosis
@@ -749,6 +758,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Complement in granuloma: the complement C5 and its C5a (with C3 already mapped) contribute to the recruitment of the myeloid cells to the tuberculous granuloma.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling links the complement to the neutrophil (already mapped) and monocyte recruitment in the immune response to Mycobacterium tuberculosis.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Nutritional immunity: transferrin, by withholding iron (already mapped) from Mycobacterium tuberculosis, is part of the iron-restriction innate defence against tuberculosis, which the bacterium counters with siderophores.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) that opsonises Mycobacterium tuberculosis for the macrophage (already mapped) uptake into its intracellular niche.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Lectin/classical regulation: the C1-esterase inhibitor regulates the classical and lectin (mannose-binding) complement pathways that opsonise Mycobacterium tuberculosis in the innate response to tuberculosis.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Cavitary fibrosis: periostin, downstream of the TGF-β (already mapped) signalling, is a matricellular mediator of the fibrotic remodelling and the cavity-wall formation of pulmonary tuberculosis.
 
 ## See Also
 
