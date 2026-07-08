@@ -472,6 +472,15 @@ cross_links:
   - target: 01-human/03-molecular/substance-p
     relation: connects-to
     note: "Neurogenic inflammation: substance P, from the cutaneous sensory nerves, contributes to the neurogenic inflammation and the itch/pain of the mucocutaneous lesions of pemphigus vulgaris."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) activated on the anti-desmoglein-3 (already mapped) immune complexes at the keratinocyte surface in pemphigus vulgaris."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway activated by the anti-desmoglein-3 IgG (immunoglobulin already mapped) at the desmosome in pemphigus vulgaris."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Erosion iron: transferrin, the iron carrier, reflects the disordered iron handling of the anaemia of the chronic mucocutaneous erosions and the systemic inflammation of pemphigus vulgaris."
 ---
 
 # Pemphigus Vulgaris
@@ -767,6 +776,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) contributes to the complement-mediated inflammation at the site of the acantholytic blisters of pemphigus vulgaris.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Autoimmune micronutrient: selenium, a selenoprotein antioxidant cofactor, is part of the micronutrient dimension (with vitamin D and zinc already mapped) of the autoimmune susceptibility of pemphigus vulgaris.
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — Neurogenic inflammation: substance P, from the cutaneous sensory nerves, contributes to the neurogenic inflammation and the itch/pain of the mucocutaneous lesions of pemphigus vulgaris.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) activated on the anti-desmoglein-3 (already mapped) immune complexes at the keratinocyte surface in pemphigus vulgaris.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway activated by the anti-desmoglein-3 IgG (immunoglobulin already mapped) at the desmosome in pemphigus vulgaris.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Erosion iron: transferrin, the iron carrier, reflects the disordered iron handling of the anaemia of the chronic mucocutaneous erosions and the systemic inflammation of pemphigus vulgaris.
 
 ---
 
