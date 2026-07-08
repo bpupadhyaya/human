@@ -465,6 +465,15 @@ cross_links:
   - target: 01-human/04-cellular/t-helper-cell
     relation: connects-to
     note: "CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines of the immune dysregulation driven by the chronic interferon (already mapped) of Aicardi-Goutières."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) contributes to the innate inflammatory dimension of the interferon-driven (already mapped) immune dysregulation of Aicardi-Goutières."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "Humoral/autoimmune arm: the plasma cells secrete the antibodies (already mapped), including the autoantibodies of the lupus-overlap (SLE already mapped) that accompanies the type-I interferonopathy of Aicardi-Goutières."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Tissue mast cells: the mast cells contribute to the neuroinflammation and the type-2 (IgE already mapped) dimension of the immune dysregulation of Aicardi-Goutières."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -708,6 +717,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune dysregulation complementing the type-I interferon (already mapped) drive of Aicardi-Goutières.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the immune dysregulation of Aicardi-Goutières.
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines of the immune dysregulation driven by the chronic interferon (already mapped) of Aicardi-Goutières.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) contributes to the innate inflammatory dimension of the interferon-driven (already mapped) immune dysregulation of Aicardi-Goutières.
+- `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — Humoral/autoimmune arm: the plasma cells secrete the antibodies (already mapped), including the autoantibodies of the lupus-overlap (SLE already mapped) that accompanies the type-I interferonopathy of Aicardi-Goutières.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Tissue mast cells: the mast cells contribute to the neuroinflammation and the type-2 (IgE already mapped) dimension of the immune dysregulation of Aicardi-Goutières.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
