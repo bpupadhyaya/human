@@ -460,6 +460,15 @@ cross_links:
   - target: 01-human/03-molecular/c5ar1
     relation: connects-to
     note: "C5a receptor: the C5aR1 signalling modulates the macrophage (already mapped) response and the Th1/Th2 balance of the immune response to Leishmania."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement evasion: Leishmania recruits the host factor H to its surface to accelerate the decay of the C3 convertase (complement C3, C5 and C5aR1 already mapped), evading the complement lysis before the macrophage (already mapped) entry."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Cutaneous alarmin: TSLP, from the injured keratinocytes at the sandfly bite, contributes to the type-2 (IL-4 and IL-13 already mapped) skewing that favours the parasite persistence in cutaneous leishmaniasis."
+  - target: 01-human/03-molecular/il-31
+    relation: connects-to
+    note: "Pruritus cytokine: IL-31, a type-2 (IL-4 and IL-13 already mapped) cytokine, is the pruritogenic effector of the itch of the cutaneous leishmaniasis lesions."
 ---
 
 # Leishmaniasis
@@ -709,3 +718,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Iron acquisition: the intracellular Leishmania scavenges host iron via the transferrin-bound iron of the macrophage (already mapped), and this iron competition (hepcidin and ferroportin already mapped) shapes the parasite survival and the anaemia.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the C5 and its cleavage product C5a (with C3 already mapped) contribute to the opsonisation-mediated macrophage (already mapped) entry and the inflammatory response to Leishmania.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling modulates the macrophage (already mapped) response and the Th1/Th2 balance of the immune response to Leishmania.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: Leishmania recruits the host factor H to its surface to accelerate the decay of the C3 convertase (complement C3, C5 and C5aR1 already mapped), evading the complement lysis before the macrophage (already mapped) entry.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Cutaneous alarmin: TSLP, from the injured keratinocytes at the sandfly bite, contributes to the type-2 (IL-4 and IL-13 already mapped) skewing that favours the parasite persistence in cutaneous leishmaniasis.
+- `connects-to` → **[IL-31](../../03-molecular/il-31/README.md)** — Pruritus cytokine: IL-31, a type-2 (IL-4 and IL-13 already mapped) cytokine, is the pruritogenic effector of the itch of the cutaneous leishmaniasis lesions.
