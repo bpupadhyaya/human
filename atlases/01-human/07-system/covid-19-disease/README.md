@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/c5ar1
     relation: connects-to
     note: "C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the neutrophil (already mapped) recruitment and the complement-mediated thromboinflammation of severe COVID-19."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose dysregulation drives the complement-mediated thromboinflammation of severe COVID-19."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement/kinin regulation: the C1-esterase inhibitor regulates both the lectin/classical complement and the contact-kinin (bradykinin already mapped) systems whose dysregulation is implicated in the vascular leak and thromboinflammation of severe COVID-19."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Hypoferraemia: transferrin, the iron carrier, reflects the marked hypoferraemia and disordered iron handling (hepcidin already mapped) of the acute-phase response of severe COVID-19."
 ---
 
 # COVID-19 Disease
@@ -692,6 +701,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[SARS-CoV-2](../../../02-pathogen/01-viruses/sars-cov-2/README.md)** — Causative virus: SARS-CoV-2, entering via the ACE2 (already mapped) receptor through its spike (already mapped), is the causative agent of COVID-19.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Plasmacytoid dendritic cells: the pDCs are the major producers of the type-I interferon (already mapped), whose impaired or delayed response is a determinant of the severity of COVID-19.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the neutrophil (already mapped) recruitment and the complement-mediated thromboinflammation of severe COVID-19.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose dysregulation drives the complement-mediated thromboinflammation of severe COVID-19.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement/kinin regulation: the C1-esterase inhibitor regulates both the lectin/classical complement and the contact-kinin (bradykinin already mapped) systems whose dysregulation is implicated in the vascular leak and thromboinflammation of severe COVID-19.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Hypoferraemia: transferrin, the iron carrier, reflects the marked hypoferraemia and disordered iron handling (hepcidin already mapped) of the acute-phase response of severe COVID-19.
 
 ## Pathology
 

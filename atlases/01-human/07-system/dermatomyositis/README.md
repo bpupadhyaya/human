@@ -481,6 +481,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Type-2 remodelling: periostin, downstream of the type-2 (IL-4 and IL-13 already mapped) cytokines, is a biomarker of the fibrotic remodelling of the skin and interstitial lung disease of dermatomyositis."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose dysregulation drives the complement (MAC)-mediated capillary injury of dermatomyositis."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway that deposits the membrane-attack complex on the endomysial capillaries (endothelial cells already mapped) of dermatomyositis."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Chronic-disease iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the anaemia of the chronic systemic inflammation of dermatomyositis."
 ---
 ---
 
@@ -761,6 +770,9 @@ DM carries a ~3–7× elevated cancer risk overall. Anti-TIF1γ (TRIM33) suppres
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Fibrotic effector: the fibroblasts and myofibroblasts drive the dermal and the pulmonary (the anti-MDA5 rapidly-progressive ILD already mapped) fibrosis of dermatomyositis.
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Epithelial alarmin: TSLP, released by the injured keratinocytes and epithelium, contributes to the type-2 (IL-4 and IL-13 already mapped) dimension and the skin/lung inflammation of dermatomyositis.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Type-2 remodelling: periostin, downstream of the type-2 (IL-4 and IL-13 already mapped) cytokines, is a biomarker of the fibrotic remodelling of the skin and interstitial lung disease of dermatomyositis.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose dysregulation drives the complement (MAC)-mediated capillary injury of dermatomyositis.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway that deposits the membrane-attack complex on the endomysial capillaries (endothelial cells already mapped) of dermatomyositis.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Chronic-disease iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the anaemia of the chronic systemic inflammation of dermatomyositis.
 
 [^bohan-peter-1975-dm-criteria]: Bohan A, Peter JB. Polymyositis and dermatomyositis. *N Engl J Med.* 1975;292(7):344-347. [doi:10.1056/NEJM197502132920706](https://doi.org/10.1056/NEJM197502132920706) · [PubMed 1090839](https://pubmed.ncbi.nlm.nih.gov/1090839/)
 [^lundberg-2021-iim-classification]: Lundberg IE, et al. 2017 EULAR/ACR classification criteria for adult and juvenile idiopathic inflammatory myopathies. *Arthritis Rheumatol.* 2017;69(12):2271-2282. [doi:10.1002/art.40320](https://doi.org/10.1002/art.40320) · [PubMed 29106061](https://pubmed.ncbi.nlm.nih.gov/29106061/)
