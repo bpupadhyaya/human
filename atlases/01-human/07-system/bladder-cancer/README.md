@@ -472,6 +472,15 @@ cross_links:
   - target: 01-human/04-cellular/plasma-cell
     relation: connects-to
     note: "Humoral/BCG arm: the plasma cells secrete the antibodies (already mapped) of the humoral response, including that induced by the intravesical BCG immunotherapy of bladder cancer."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Stromal mast cells: the mast cells of the tumour stroma contribute to the angiogenesis (VEGF already mapped) and the inflammatory microenvironment of bladder cancer."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid recruitment into the bladder-cancer stroma and shapes the response to the intravesical BCG immunotherapy."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement: the complement C5 and its activation (with C3 already mapped) are part of the complement dimension of the inflammatory bladder-cancer microenvironment."
 ---
 
 # Bladder Cancer
@@ -744,6 +753,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the inflammatory dimension of the BCG-induced (TLR4 already mapped) immune response of bladder cancer.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the bladder-cancer microenvironment.
 - `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — Humoral/BCG arm: the plasma cells secrete the antibodies (already mapped) of the humoral response, including that induced by the intravesical BCG immunotherapy of bladder cancer.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Stromal mast cells: the mast cells of the tumour stroma contribute to the angiogenesis (VEGF already mapped) and the inflammatory microenvironment of bladder cancer.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid recruitment into the bladder-cancer stroma and shapes the response to the intravesical BCG immunotherapy.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its activation (with C3 already mapped) are part of the complement dimension of the inflammatory bladder-cancer microenvironment.
 
 ---
 
