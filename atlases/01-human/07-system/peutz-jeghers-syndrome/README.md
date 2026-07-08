@@ -466,6 +466,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Antigen presentation: the dendritic cells present antigen to the T cells (already mapped) shaping the immune surveillance against the malignant transformation of the Peutz-Jeghers polyps."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "Mucosal B cells: the B cells of the intestinal mucosa contribute to the humoral and organised immune response within the inflamed stroma of the Peutz-Jeghers polyps."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Polyp complement: the complement C3 activation contributes to the inflammatory dimension of the hamartomatous-polyp stroma of Peutz-Jeghers syndrome."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid (macrophage already mapped) recruitment into the inflamed stroma of the Peutz-Jeghers polyps."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -739,6 +748,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Polyp stroma mast cells: the mast cells of the inflamed hamartomatous polyp stroma contribute to the angiogenesis (VEGF already mapped) and type-2 microenvironment of Peutz-Jeghers syndrome.
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines of the inflamed polyp stroma of Peutz-Jeghers syndrome.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Antigen presentation: the dendritic cells present antigen to the T cells (already mapped) shaping the immune surveillance against the malignant transformation of the Peutz-Jeghers polyps.
+- `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Mucosal B cells: the B cells of the intestinal mucosa contribute to the humoral and organised immune response within the inflamed stroma of the Peutz-Jeghers polyps.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Polyp complement: the complement C3 activation contributes to the inflammatory dimension of the hamartomatous-polyp stroma of Peutz-Jeghers syndrome.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid (macrophage already mapped) recruitment into the inflamed stroma of the Peutz-Jeghers polyps.
 
 ---
 
