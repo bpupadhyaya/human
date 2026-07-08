@@ -457,6 +457,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension present in a subset of psoriasis."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Complement in plaques: the C5 and its C5a fragment (with C3 already mapped) recruit the neutrophils of the Munro microabscesses and amplify the innate inflammation of the psoriatic plaque."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "Regulatory B-cell arm: the B cells, including the dysregulated regulatory B cells, are an increasingly recognised adaptive-immune component of psoriasis alongside the dominant Th17 (IL-17 and IL-23 already mapped) axis."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "Lesional plasma cells: the plasma cells secreting the antibodies (already mapped) are found in the psoriatic lesions and contribute to the humoral dimension of psoriasis."
 ---
 
 # Psoriasis
@@ -718,6 +727,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Cutaneous NK/NKT: the NK and NKT cells (perforin already mapped) of the psoriatic skin contribute to the innate inflammation of the IL-17 (already mapped) axis of psoriasis.
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 counter-arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 arm balancing the dominant Th17 (IL-17 and IL-23 already mapped) drive of psoriasis.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension present in a subset of psoriasis.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Complement in plaques: the C5 and its C5a fragment (with C3 already mapped) recruit the neutrophils of the Munro microabscesses and amplify the innate inflammation of the psoriatic plaque.
+- `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Regulatory B-cell arm: the B cells, including the dysregulated regulatory B cells, are an increasingly recognised adaptive-immune component of psoriasis alongside the dominant Th17 (IL-17 and IL-23 already mapped) axis.
+- `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — Lesional plasma cells: the plasma cells secreting the antibodies (already mapped) are found in the psoriatic lesions and contribute to the humoral dimension of psoriasis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
