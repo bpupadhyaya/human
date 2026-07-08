@@ -460,6 +460,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Metabolic adipokine: adiponectin, with leptin (already mapped), falls in sepsis and is part of the adipokine dysregulation of the septic host response."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) response of the early hyperinflammatory phase, whose suppression marks the immunoparalysis of sepsis."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Compensatory anti-inflammatory arm: IL-4, a type-2 cytokine, is part of the compensatory anti-inflammatory response (IL-10 already mapped) that follows the hyperinflammation and drives the immunoparalysis of sepsis."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 immunosuppression: IL-13, with IL-4 (already mapped), completes the type-2 arm of the compensatory immunosuppression of the septic host response."
 ---
 
 # Sepsis
@@ -713,6 +722,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Sepsis biomarker: resistin, released by the neutrophils and macrophages (already mapped), is a pro-inflammatory adipokine and a prognostic biomarker of the severity of sepsis.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Immune-metabolic adipokine: leptin links the metabolic state to the immune response and is altered in the acute-phase, hypermetabolic state of sepsis.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), falls in sepsis and is part of the adipokine dysregulation of the septic host response.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) response of the early hyperinflammatory phase, whose suppression marks the immunoparalysis of sepsis.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Compensatory anti-inflammatory arm: IL-4, a type-2 cytokine, is part of the compensatory anti-inflammatory response (IL-10 already mapped) that follows the hyperinflammation and drives the immunoparalysis of sepsis.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immunosuppression: IL-13, with IL-4 (already mapped), completes the type-2 arm of the compensatory immunosuppression of the septic host response.
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

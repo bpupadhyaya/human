@@ -459,6 +459,15 @@ cross_links:
   - target: 01-human/03-molecular/il-23
     relation: connects-to
     note: "Th17 airway axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the neutrophilic airway inflammation of the respiratory system."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Allergic airway arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), arms the mast cells (already mapped) of the allergic airway (rhinitis/asthma) response of the respiratory system."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Airway tolerance: IL-10 is the regulatory cytokine that maintains the mucosal tolerance and resolves the airway inflammation of the respiratory system."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "CD4 airway helper: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines coordinating the mucosal immunity of the respiratory system."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -687,6 +696,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Connects-to** → [IFN-gamma](../../03-molecular/ifn-gamma/README.md): Th1 airway immunity: the IFN-γ of the airway T cells is the type-II interferon arm of the Th1 antiviral and antimycobacterial immunity of the respiratory system.
 - **Connects-to** → [IL-12](../../03-molecular/il-12/README.md): Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the airway immunity, counter-balancing the type-2 (IL-4, IL-5 and IL-13 already mapped) allergic response of the respiratory system.
 - **Connects-to** → [IL-23](../../03-molecular/il-23/README.md): Th17 airway axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the neutrophilic airway inflammation of the respiratory system.
+- **Connects-to** → [IgE](../../03-molecular/ige/README.md): Allergic airway arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), arms the mast cells (already mapped) of the allergic airway (rhinitis/asthma) response of the respiratory system.
+- **Connects-to** → [IL-10](../../03-molecular/il-10/README.md): Airway tolerance: IL-10 is the regulatory cytokine that maintains the mucosal tolerance and resolves the airway inflammation of the respiratory system.
+- **Connects-to** → [T-helper cell](../../04-cellular/t-helper-cell/README.md): CD4 airway helper: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines coordinating the mucosal immunity of the respiratory system.
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.
 
 ## Pathology
