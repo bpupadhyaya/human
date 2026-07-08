@@ -481,6 +481,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c5
     relation: connects-to
     note: "Terminal complement: the complement C5 and its activation (with C3 already mapped) are part of the complement dimension of the inflammatory bladder-cancer microenvironment."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement evasion: the bladder-cancer cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), tempering the complement attack within the tumour stroma."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Tumour matricellular: osteopontin, produced within the urothelial tumour, is a matricellular mediator of the invasion and the myeloid inflammation of the bladder-cancer microenvironment."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Haematuria/tumour iron: transferrin, the iron carrier, reflects the iron demand of the tumour and the iron loss of the haematuria of bladder cancer."
 ---
 
 # Bladder Cancer
@@ -756,6 +765,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Stromal mast cells: the mast cells of the tumour stroma contribute to the angiogenesis (VEGF already mapped) and the inflammatory microenvironment of bladder cancer.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid recruitment into the bladder-cancer stroma and shapes the response to the intravesical BCG immunotherapy.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its activation (with C3 already mapped) are part of the complement dimension of the inflammatory bladder-cancer microenvironment.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the bladder-cancer cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), tempering the complement attack within the tumour stroma.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Tumour matricellular: osteopontin, produced within the urothelial tumour, is a matricellular mediator of the invasion and the myeloid inflammation of the bladder-cancer microenvironment.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Haematuria/tumour iron: transferrin, the iron carrier, reflects the iron demand of the tumour and the iron loss of the haematuria of bladder cancer.
 
 ---
 
