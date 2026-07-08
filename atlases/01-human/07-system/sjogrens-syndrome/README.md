@@ -472,6 +472,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Type-2 glandular fibrosis: periostin, downstream of the type-2 (IL-4 and IL-13 already mapped) cytokines and the TSLP (already mapped), is part of the fibrotic remodelling of the exocrine glands of Sjögren's syndrome."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose consumption (the low complement) marks the disease activity and lymphoma risk of Sjögren's syndrome."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway activated by the anti-Ro/La immune complexes (immunoglobulin already mapped) in the glands of Sjögren's syndrome."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Chronic-disease iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the anaemia of the chronic systemic inflammation of Sjögren's syndrome."
 ---
 
 # Sjögren's Syndrome
@@ -753,6 +762,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[IL-31](../../03-molecular/il-31/README.md)** — Neuroimmune itch/dryness: IL-31, a type-2 (IL-4 and IL-13 already mapped) cytokine, links the type-2 immunity to the sensory-nerve dysfunction contributing to the dryness and discomfort of Sjögren's syndrome.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — Complement C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the glandular inflammation and, when consumed, the low complement marks the lymphoma risk of Sjögren's syndrome.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Type-2 glandular fibrosis: periostin, downstream of the type-2 (IL-4 and IL-13 already mapped) cytokines and the TSLP (already mapped), is part of the fibrotic remodelling of the exocrine glands of Sjögren's syndrome.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose consumption (the low complement) marks the disease activity and lymphoma risk of Sjögren's syndrome.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway activated by the anti-Ro/La immune complexes (immunoglobulin already mapped) in the glands of Sjögren's syndrome.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Chronic-disease iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the anaemia of the chronic systemic inflammation of Sjögren's syndrome.
 
 ---
 
