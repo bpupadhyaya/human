@@ -457,6 +457,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension of the immune dysregulation of aplastic anaemia."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "B-cell dysregulation: the B cells contribute the humoral and autoantibody dimension of the immune dysregulation of aplastic anaemia, a target of the rituximab used in refractory disease."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "Autoantibody arm: the plasma cells secrete the autoantibodies (immunoglobulin already mapped) of the humoral component that accompanies the T-cell-mediated marrow attack of aplastic anaemia."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Marrow mast cells: the mast cells are part of the bone-marrow (already mapped) immune microenvironment and the type-2 (IgE already mapped) dimension of aplastic anaemia."
 ---
 
 # Aplastic Anemia
@@ -716,6 +725,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension balancing the dominant Th1 (IFN-γ and IL-12 already mapped) attack of aplastic anaemia.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune attack on the haematopoietic stem cells in aplastic anaemia.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension of the immune dysregulation of aplastic anaemia.
+- `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — B-cell dysregulation: the B cells contribute the humoral and autoantibody dimension of the immune dysregulation of aplastic anaemia, a target of the rituximab used in refractory disease.
+- `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — Autoantibody arm: the plasma cells secrete the autoantibodies (immunoglobulin already mapped) of the humoral component that accompanies the T-cell-mediated marrow attack of aplastic anaemia.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Marrow mast cells: the mast cells are part of the bone-marrow (already mapped) immune microenvironment and the type-2 (IgE already mapped) dimension of aplastic anaemia.
 
 ---
 

@@ -463,6 +463,15 @@ cross_links:
   - target: 01-human/03-molecular/il-5
     relation: connects-to
     note: "Type-2 counter-arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension modulating the Th1-driven atherosclerotic inflammation."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune-inflammatory dimension of the atherosclerotic plaque."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Mast-cell arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), arms the plaque mast cells whose degranulation destabilises the atheroma."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Plaque antigen presentation: the dendritic cells present the oxidised-LDL and other plaque antigens (MHC already mapped), shaping the adaptive T-cell response of the atheroma."
 ---
 
 # Atherosclerosis
@@ -725,6 +734,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 plaque polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the plaque inflammation that destabilises the atherosclerotic lesion.
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate plaque interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) sensing of the cholesterol-crystal and cellular stress, amplifies the macrophage (already mapped) inflammation of the atheroma.
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 counter-arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension modulating the Th1-driven atherosclerotic inflammation.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune-inflammatory dimension of the atherosclerotic plaque.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Mast-cell arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), arms the plaque mast cells whose degranulation destabilises the atheroma.
+- `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Plaque antigen presentation: the dendritic cells present the oxidised-LDL and other plaque antigens (MHC already mapped), shaping the adaptive T-cell response of the atheroma.
 
 ---
 
