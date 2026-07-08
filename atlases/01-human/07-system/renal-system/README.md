@@ -469,6 +469,15 @@ cross_links:
   - target: 01-human/03-molecular/il-17a
     relation: connects-to
     note: "Th17 nephritis: IL-17A drives the Th17 arm of the ANCA-associated and crescentic glomerulonephritides of the renal system."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the crescentic and ANCA-associated glomerulonephritides of the renal system."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "Epithelial alarmin: IL-33, released by the injured tubular and endothelial cells, activates the ILC2s and shapes the type-2 (IL-4 and IL-13 already mapped) response and the fibrosis of the renal system."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension (the allergic interstitial nephritis and minimal-change disease) of the renal system."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -714,6 +723,9 @@ Natriuretic counterpoint:
 - **Connects to:** [IFN-gamma](../../03-molecular/ifn-gamma/README.md) — Th1 nephritis: the IFN-γ of the infiltrating T cells is the type-II interferon arm driving the crescentic and lupus nephritides of the renal system.
 - **Connects to:** [IL-12](../../03-molecular/il-12/README.md) — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune nephritis of the renal system.
 - **Connects to:** [IL-17A](../../03-molecular/il-17a/README.md) — Th17 nephritis: IL-17A drives the Th17 arm of the ANCA-associated and crescentic glomerulonephritides of the renal system.
+- **Connects to:** [IL-23](../../03-molecular/il-23/README.md) — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the crescentic and ANCA-associated glomerulonephritides of the renal system.
+- **Connects to:** [IL-33](../../03-molecular/il-33/README.md) — epithelial alarmin: IL-33, released by the injured tubular and endothelial cells, activates the ILC2s and shapes the type-2 (IL-4 and IL-13 already mapped) response and the fibrosis of the renal system.
+- **Connects to:** [IgE](../../03-molecular/ige/README.md) — type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension (the allergic interstitial nephritis and minimal-change disease) of the renal system.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 

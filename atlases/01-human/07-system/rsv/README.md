@@ -462,6 +462,15 @@ cross_links:
   - target: 01-human/03-molecular/il-31
     relation: connects-to
     note: "Type-2 airway itch: IL-31, a type-2 (IL-4, IL-5 and IL-13 already mapped) cytokine, is part of the type-2 response linking the severe RSV bronchiolitis to the later atopy and asthma (already mapped)."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) contributes to the complement-driven airway inflammation of severe RSV bronchiolitis."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement evasion: RSV recruits the host factor H (via its G glycoprotein) to inactivate the C3 convertase (complement C3, C5 and C5aR1 already mapped) and evade the complement attack."
+  - target: 01-human/07-system/prurigo-nodularis
+    relation: connects-to
+    note: "Atopic-march type-2: RSV bronchiolitis shares the type-2 (IL-4, IL-5, IL-13, TSLP and IL-31 already mapped) immunity of the atopic march with prurigo nodularis, another type-2 disease of the shared-biologic era."
 ---
 
 # RSV
@@ -754,3 +763,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the neutrophilic (already mapped) inflammation of severe RSV bronchiolitis.
 - `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — Antibody arm: the plasma cells secrete the anti-F-protein antibodies (already mapped); the passive antibody (palivizumab/nirsevimab, maternal RSVpreF) targets the same F protein (already mapped) to protect infants from RSV.
 - `connects-to` → **[IL-31](../../03-molecular/il-31/README.md)** — Type-2 airway itch: IL-31, a type-2 (IL-4, IL-5 and IL-13 already mapped) cytokine, is part of the type-2 response linking the severe RSV bronchiolitis to the later atopy and asthma (already mapped).
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) contributes to the complement-driven airway inflammation of severe RSV bronchiolitis.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: RSV recruits the host factor H (via its G glycoprotein) to inactivate the C3 convertase (complement C3, C5 and C5aR1 already mapped) and evade the complement attack.
+- `connects-to` → **[Prurigo nodularis](../prurigo-nodularis/README.md)** — Atopic-march type-2: RSV bronchiolitis shares the type-2 (IL-4, IL-5, IL-13, TSLP and IL-31 already mapped) immunity of the atopic march with prurigo nodularis, another type-2 disease of the shared-biologic era.
