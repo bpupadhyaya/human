@@ -469,6 +469,15 @@ cross_links:
   - target: 01-human/03-molecular/type-i-interferon
     relation: connects-to
     note: "Innate metabolic interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) sensing of the metabolic stress, contributes to the chronic adipose meta-inflammation of obesity."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Adipose CD4 shift: the CD4 T-helper cells shift from the lean-adipose Th2/Treg toward the Th1/Th17 (IFN-γ and IL-17 already mapped) phenotype, driving the meta-inflammation of the obese adipose tissue."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Adipose mast cells: the mast cells accumulate in the obese adipose tissue and contribute to the chronic low-grade inflammation and the insulin resistance of obesity."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Adipose fibrosis: the fibroblasts/myofibroblasts drive the extracellular-matrix remodelling and fibrosis of the expanding, hypoxic (HIF-1α already mapped) adipose tissue of obesity."
 ---
 
 # Obesity
@@ -759,6 +768,9 @@ This **metainflammation** mechanistically links obesity to type 2 diabetes, athe
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the chronic adipose meta-inflammation of obesity.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), reflects the type-2 immune arm whose loss accompanies the pro-inflammatory shift of the obese adipose tissue.
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate metabolic interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) sensing of the metabolic stress, contributes to the chronic adipose meta-inflammation of obesity.
+- `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — Adipose CD4 shift: the CD4 T-helper cells shift from the lean-adipose Th2/Treg toward the Th1/Th17 (IFN-γ and IL-17 already mapped) phenotype, driving the meta-inflammation of the obese adipose tissue.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Adipose mast cells: the mast cells accumulate in the obese adipose tissue and contribute to the chronic low-grade inflammation and the insulin resistance of obesity.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Adipose fibrosis: the fibroblasts/myofibroblasts drive the extracellular-matrix remodelling and fibrosis of the expanding, hypoxic (HIF-1α already mapped) adipose tissue of obesity.
 
 [^bluher-2019-obesity-review]: Blüher M. Obesity: global epidemiology and pathogenesis. *Nat Rev Endocrinol.* 2019;15(5):288-298. [doi:10.1038/s41574-019-0176-8](https://doi.org/10.1038/s41574-019-0176-8) · [PubMed 30814686](https://pubmed.ncbi.nlm.nih.gov/30814686/)
 [^wilding-2021-semaglutide-step1]: Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. *N Engl J Med.* 2021;384(11):989-1002. [doi:10.1056/NEJMoa2032183](https://doi.org/10.1056/NEJMoa2032183) · [PubMed 33567185](https://pubmed.ncbi.nlm.nih.gov/33567185/)

@@ -472,6 +472,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "CD8 infiltrate: the cytotoxic T cells (perforin already mapped) infiltrate the NMO lesions, contributing to the tissue damage alongside the complement-mediated (already mapped) astrocytopathy."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose unchecked activation drives the astrocyte (already mapped) destruction targeted by the anti-C5 (eculizumab) therapy of neuromyelitis optica."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Type-2 alarmin: TSLP, an epithelial/stromal alarmin, contributes to the type-2 (IL-4, IL-5, IL-13 and IL-31 already mapped) dimension of the immune profile of neuromyelitis optica."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Autoimmune micronutrient: selenium, a selenoprotein antioxidant cofactor, is part of the micronutrient dimension (with vitamin D already mapped) of the autoimmune susceptibility of neuromyelitis optica."
 ---
 
 # NMOSD
@@ -769,6 +778,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Mast cells in lesions: the mast cells, with the eosinophils (IL-5 already mapped), infiltrate the perivascular NMO lesions and contribute to the type-2 inflammation and the characteristic pruritus.
 - `connects-to` → **[IL-31](../../03-molecular/il-31/README.md)** — Pruritus cytokine: IL-31, a type-2 (IL-4 and IL-13 already mapped) cytokine, mediates the paroxysmal neuropathic itch that is a characteristic feature of the myelitis of neuromyelitis optica.
 - `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — CD8 infiltrate: the cytotoxic T cells (perforin already mapped) infiltrate the NMO lesions, contributing to the tissue damage alongside the complement-mediated (already mapped) astrocytopathy.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose unchecked activation drives the astrocyte (already mapped) destruction targeted by the anti-C5 (eculizumab) therapy of neuromyelitis optica.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Type-2 alarmin: TSLP, an epithelial/stromal alarmin, contributes to the type-2 (IL-4, IL-5, IL-13 and IL-31 already mapped) dimension of the immune profile of neuromyelitis optica.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Autoimmune micronutrient: selenium, a selenoprotein antioxidant cofactor, is part of the micronutrient dimension (with vitamin D already mapped) of the autoimmune susceptibility of neuromyelitis optica.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)
