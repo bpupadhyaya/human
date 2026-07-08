@@ -451,6 +451,15 @@ cross_links:
   - target: 01-human/07-system/stroke
     relation: connects-to
     note: "Sickle stroke: the vaso-occlusion and the cerebral vasculopathy cause the childhood stroke of sickle cell disease, prevented by the transfusion and the transcranial-Doppler screening."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate haemolytic interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) sensing of the free haem and cell-free DNA of the haemolysis, contributes to the chronic inflammation of sickle cell disease."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 inflammation: the IFN-γ of the T cells is the type-II interferon arm of the chronic sterile inflammation (IL-6 and TNF already mapped) of the vaso-occlusion of sickle cell disease."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune-inflammatory dimension of sickle cell disease."
 ---
 
 # Sickle Cell Disease
@@ -754,6 +763,9 @@ SCD vaso-occlusion is not just from sickled RBCs mechanically blocking vessels �
 - `connects-to` → **[Endothelial cell](../../04-cellular/endothelial-cell/README.md)** — Vaso-occlusion: the sickled cells (haemoglobin already mapped) and the leukocytes adhere to the activated endothelium (VWF and endothelin already mapped), the vaso-occlusion that causes the pain crises and the organ damage.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Adhesion neutrophils: the neutrophils adhere (P-selectin — the crizanlizumab target) and initiate the vaso-occlusion of sickle cell disease.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Sickle stroke: the vaso-occlusion and the cerebral vasculopathy cause the childhood stroke of sickle cell disease, prevented by the transfusion and the transcranial-Doppler screening.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate haemolytic interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) sensing of the free haem and cell-free DNA of the haemolysis, contributes to the chronic inflammation of sickle cell disease.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 inflammation: the IFN-γ of the T cells is the type-II interferon arm of the chronic sterile inflammation (IL-6 and TNF already mapped) of the vaso-occlusion of sickle cell disease.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune-inflammatory dimension of sickle cell disease.
 
 [^steinberg-1999-scd-management]: Steinberg MH. Management of sickle cell disease. *N Engl J Med.* 1999;340(13):1021-1030. [doi:10.1056/NEJM199904013401307](https://doi.org/10.1056/NEJM199904013401307) · [PubMed 10099145](https://pubmed.ncbi.nlm.nih.gov/10099145/)
 [^vichinsky-2000-acs-scd]: Vichinsky EP, Neumayr LD, Earles AN, et al. Causes and outcomes of the acute chest syndrome in sickle cell disease. *N Engl J Med.* 2000;342(25):1855-1865. [doi:10.1056/NEJM200006223422502](https://doi.org/10.1056/NEJM200006223422502) · [PubMed 10861320](https://pubmed.ncbi.nlm.nih.gov/10861320/)
