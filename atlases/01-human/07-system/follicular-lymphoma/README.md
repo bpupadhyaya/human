@@ -457,6 +457,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension of the follicular-lymphoma microenvironment."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Anti-CD20 CDC: the complement C5 and the terminal MAC (with C3 already mapped) mediate the complement-dependent cytotoxicity of the anti-CD20 (rituximab/obinutuzumab; CD20 already mapped) therapy of follicular lymphoma."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling shapes the myeloid and macrophage response within the immune microenvironment of follicular lymphoma."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Prognostic vitamin: the low vitamin D status is associated with a worse outcome in follicular lymphoma and modulates the immune microenvironment and the response to the immunochemotherapy."
 ---
 
 # Follicular Lymphoma
@@ -729,6 +738,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the follicular-lymphoma microenvironment.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the reactive T-cell microenvironment of follicular lymphoma.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension of the follicular-lymphoma microenvironment.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Anti-CD20 CDC: the complement C5 and the terminal MAC (with C3 already mapped) mediate the complement-dependent cytotoxicity of the anti-CD20 (rituximab/obinutuzumab; CD20 already mapped) therapy of follicular lymphoma.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling shapes the myeloid and macrophage response within the immune microenvironment of follicular lymphoma.
+- `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Prognostic vitamin: the low vitamin D status is associated with a worse outcome in follicular lymphoma and modulates the immune microenvironment and the response to the immunochemotherapy.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
