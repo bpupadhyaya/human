@@ -470,6 +470,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c5
     relation: connects-to
     note: "Complement clearance: the complement C5, with C3 (already mapped), contributes to the opsonisation and lysis of the measles virus and the immune clearance of the infection."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) links the complement to the myeloid inflammation of the measles infection."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) active during the measles complement response, part of the complement-regulator (the CD46 receptor) interface of the measles virus."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical-pathway regulation: the C1-esterase inhibitor regulates the classical and lectin complement pathways activated by the anti-measles antibodies (already mapped) during the immune clearance of the infection."
 ---
 
 # Measles
@@ -765,6 +774,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[Measles virus](../../../02-pathogen/01-viruses/measles-virus/README.md)** — Causative virus: the measles virus (the H protein already mapped, binding the SLAM/nectin-4 receptors) is the causative paramyxovirus of measles.
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Type-2/rash arm: the mast cells, with the type-2 (IL-4, IL-5 and IL-13 already mapped) immunity, contribute to the histamine-mediated (already mapped) vascular changes of the measles rash.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Complement clearance: the complement C5, with C3 (already mapped), contributes to the opsonisation and lysis of the measles virus and the immune clearance of the infection.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) links the complement to the myeloid inflammation of the measles infection.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) active during the measles complement response, part of the complement-regulator (the CD46 receptor) interface of the measles virus.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical and lectin complement pathways activated by the anti-measles antibodies (already mapped) during the immune clearance of the infection.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)
