@@ -469,6 +469,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the immune-bone crosstalk of osteoporosis."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Th17 osteoimmunology: the CD4 T-helper cells, the source of the Th17 (IL-17 and IL-23 already mapped) cytokines, drive the RANKL (already mapped)-mediated osteoclast (already mapped) bone resorption of osteoporosis."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast-cell osteoporosis: the mast cells, via their histamine and cytokines, promote the osteoclast (already mapped) resorption, a link seen most starkly in the systemic-mastocytosis osteoporosis."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "Immunoporosis: the B cells are a source of the RANKL (already mapped) and osteoprotegerin that tune the osteoclast (already mapped) balance of the immune-bone crosstalk of osteoporosis."
 ---
 
 # Osteoporosis
@@ -727,6 +736,9 @@ All newly diagnosed osteoporosis should be evaluated for secondary causes: CBC (
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 osteoimmune arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the osteoimmune crosstalk that modulates the bone loss of osteoporosis.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 osteoclast axis: IL-23 sustains the Th17 (IL-17 already mapped) cells that drive the RANKL (already mapped)-mediated osteoclast (already mapped) bone resorption of osteoporosis.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the immune-bone crosstalk of osteoporosis.
+- `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — Th17 osteoimmunology: the CD4 T-helper cells, the source of the Th17 (IL-17 and IL-23 already mapped) cytokines, drive the RANKL (already mapped)-mediated osteoclast (already mapped) bone resorption of osteoporosis.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Mast-cell osteoporosis: the mast cells, via their histamine and cytokines, promote the osteoclast (already mapped) resorption, a link seen most starkly in the systemic-mastocytosis osteoporosis.
+- `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Immunoporosis: the B cells are a source of the RANKL (already mapped) and osteoprotegerin that tune the osteoclast (already mapped) balance of the immune-bone crosstalk of osteoporosis.
 
 [^kanis-2019-who-osteoporosis]: Kanis JA, Cooper C, Rizzoli R, Reginster JY. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. *Osteoporos Int.* 2019;30(1):3-44. [doi:10.1007/s00198-018-4704-5](https://doi.org/10.1007/s00198-018-4704-5) · [PubMed 30324412](https://pubmed.ncbi.nlm.nih.gov/30324412/)
 [^cosman-2016-romosozumab]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)

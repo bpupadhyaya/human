@@ -463,6 +463,15 @@ cross_links:
   - target: 01-human/04-cellular/plasma-cell
     relation: connects-to
     note: "Humoral arm: the plasma cells secrete the antibodies (IgE already mapped) of the type-2 humoral dimension of prurigo nodularis."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Mixed dermal infiltrate: the cytotoxic T cells (perforin already mapped), including the Tc2 subset, are part of the mixed type-2/type-1 lesional infiltrate of prurigo nodularis."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Innate infiltrate: the NK cells (perforin already mapped) contribute to the innate-immune component of the mixed inflammatory infiltrate of prurigo nodularis."
+  - target: 01-human/07-system/rsv
+    relation: connects-to
+    note: "Atopic-march type-2: prurigo nodularis shares the type-2 (IL-4, IL-5, IL-13, TSLP and IL-31 already mapped) immunity of the atopic march with the severe RSV bronchiolitis, another type-2 disease of the shared-biologic era."
 ---
 
 # Prurigo Nodularis
@@ -694,6 +703,9 @@ PN affects approximately **72,000 patients** in the US; true prevalence is likel
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm that coexists with the dominant Th2 (IL-4, IL-13 and IL-31 already mapped) itch axis of prurigo nodularis.
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, is part of the innate-immune dimension of the mixed immune profile of prurigo nodularis.
 - `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — Humoral arm: the plasma cells secrete the antibodies (IgE already mapped) of the type-2 humoral dimension of prurigo nodularis.
+- `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Mixed dermal infiltrate: the cytotoxic T cells (perforin already mapped), including the Tc2 subset, are part of the mixed type-2/type-1 lesional infiltrate of prurigo nodularis.
+- `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Innate infiltrate: the NK cells (perforin already mapped) contribute to the innate-immune component of the mixed inflammatory infiltrate of prurigo nodularis.
+- `connects-to` → **[RSV](../rsv/README.md)** — Atopic-march type-2: prurigo nodularis shares the type-2 (IL-4, IL-5, IL-13, TSLP and IL-31 already mapped) immunity of the atopic march with the severe RSV bronchiolitis, another type-2 disease of the shared-biologic era.
 
 [^stander-2020-nemolizumab-pn]: Ständer S, Yosipovitch G, Legat FJ, et al. Trial of nemolizumab in moderate-to-severe prurigo nodularis. *N Engl J Med.* 2020;382(8):706-716. [doi:10.1056/NEJMoa1908316](https://doi.org/10.1056/NEJMoa1908316) · [PubMed 32053299](https://pubmed.ncbi.nlm.nih.gov/32053299/)
 [^briggs-2022-dupilumab-pn-liberty]: Briggs JN, Cho YY, Khanna R, et al. Dupilumab for prurigo nodularis: the LIBERTY-PN PRIME and PRIME2 trials. *N Engl J Med.* 2022;387(18):1683-1693. [doi:10.1056/NEJMoa2205093](https://doi.org/10.1056/NEJMoa2205093) · [PubMed 36300905](https://pubmed.ncbi.nlm.nih.gov/36300905/)
