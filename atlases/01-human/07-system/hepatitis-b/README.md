@@ -462,6 +462,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the immune response to chronic hepatitis B."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "Humoral seroconversion: the plasma cells secrete the anti-HBs and anti-HBe antibodies (immunoglobulin already mapped) whose seroconversion marks the immune control of chronic hepatitis B."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Immune-complex complement: the complement C5 and its activation (with C3 already mapped) mediate the immune-complex manifestations (polyarteritis nodosa, membranous glomerulonephritis) of chronic hepatitis B."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling links the complement to the myeloid recruitment in the immune-mediated liver (already mapped) inflammation and the extrahepatic immune-complex disease of chronic hepatitis B."
 ---
 
 # Hepatitis B
@@ -745,3 +754,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[Hepatitis B virus](../../../02-pathogen/01-viruses/hepatitis-b-virus/README.md)** — Causative virus: the hepatitis B virus (the cccDNA already mapped, the reverse-transcribed DNA genome) is the causative pathogen infecting the hepatocytes (already mapped) of hepatitis B.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune-mediated liver (already mapped) inflammation of chronic hepatitis B.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the immune response to chronic hepatitis B.
+- `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — Humoral seroconversion: the plasma cells secrete the anti-HBs and anti-HBe antibodies (immunoglobulin already mapped) whose seroconversion marks the immune control of chronic hepatitis B.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Immune-complex complement: the complement C5 and its activation (with C3 already mapped) mediate the immune-complex manifestations (polyarteritis nodosa, membranous glomerulonephritis) of chronic hepatitis B.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling links the complement to the myeloid recruitment in the immune-mediated liver (already mapped) inflammation and the extrahepatic immune-complex disease of chronic hepatitis B.

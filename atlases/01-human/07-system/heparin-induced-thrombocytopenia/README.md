@@ -466,6 +466,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the alloimmune response of heparin-induced thrombocytopenia."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway activated on the PF4-heparin immune complexes (complement C3, C5 and C5aR1 already mapped) of heparin-induced thrombocytopenia."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Contact/kinin arm: the bradykinin-kinin system, activated alongside the coagulation (thrombin already mapped), contributes to the vascular and thromboinflammatory dimension of heparin-induced thrombocytopenia."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Adaptive arm: the cytotoxic T cells (perforin already mapped), alongside the T-helper (already mapped) support of the anti-PF4 B-cell response, are part of the transient alloimmune adaptive response of heparin-induced thrombocytopenia."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -759,6 +768,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the T-helper response generating the anti-PF4 antibodies of heparin-induced thrombocytopenia.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the alloimmune response of heparin-induced thrombocytopenia.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the alloimmune response of heparin-induced thrombocytopenia.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway activated on the PF4-heparin immune complexes (complement C3, C5 and C5aR1 already mapped) of heparin-induced thrombocytopenia.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Contact/kinin arm: the bradykinin-kinin system, activated alongside the coagulation (thrombin already mapped), contributes to the vascular and thromboinflammatory dimension of heparin-induced thrombocytopenia.
+- `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Adaptive arm: the cytotoxic T cells (perforin already mapped), alongside the T-helper (already mapped) support of the anti-PF4 B-cell response, are part of the transient alloimmune adaptive response of heparin-induced thrombocytopenia.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)
