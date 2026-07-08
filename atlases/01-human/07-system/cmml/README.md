@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Transfusional iron: transferrin, the iron carrier, reflects the iron handling of the anaemia and the transfusion-dependent iron overload of CMML."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the inflammasome-driven marrow inflammation of CMML."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement and contact systems of the chronic inflammatory marrow niche of CMML."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Marrow fibrosis: periostin, a matricellular mediator, is part of the stromal remodelling and the marrow fibrosis (with osteopontin already mapped) of CMML."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -753,6 +762,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) links the complement to the monocyte and myeloid inflammation of the CMML microenvironment.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its activation (with C3 already mapped) are part of the inflammasome-driven (NLRP3 already mapped) inflammation of CMML.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Transfusional iron: transferrin, the iron carrier, reflects the iron handling of the anaemia and the transfusion-dependent iron overload of CMML.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the inflammasome-driven marrow inflammation of CMML.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement and contact systems of the chronic inflammatory marrow niche of CMML.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Marrow fibrosis: periostin, a matricellular mediator, is part of the stromal remodelling and the marrow fibrosis (with osteopontin already mapped) of CMML.
 
 ---
 

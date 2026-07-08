@@ -481,6 +481,15 @@ cross_links:
   - target: 01-human/03-molecular/tslp
     relation: connects-to
     note: "Epithelial alarmin: TSLP, released by the injured airway epithelium, is an upstream alarmin of the airway inflammation of COPD and the target of the tezepelumab studied in the disease."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement: the complement C5 and its C5a (with C3 and C5aR1 already mapped) drive the neutrophil (already mapped) recruitment and the immunopathology of the COPD airway."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) on the smoke-injured airway epithelium of COPD."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Hypoxic iron: transferrin, the iron carrier, reflects the disordered iron handling of the chronic hypoxia (erythropoietin already mapped) and systemic inflammation of COPD."
 ---
 
 # COPD
@@ -778,6 +787,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the neutrophil (already mapped) recruitment and the innate inflammation of the COPD airway and emphysema.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Type-2 remodelling: periostin, downstream of the IL-13 (already mapped) signalling, marks the type-2/eosinophilic COPD subset and the small-airway remodelling.
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Epithelial alarmin: TSLP, released by the injured airway epithelium, is an upstream alarmin of the airway inflammation of COPD and the target of the tezepelumab studied in the disease.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 and C5aR1 already mapped) drive the neutrophil (already mapped) recruitment and the immunopathology of the COPD airway.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) on the smoke-injured airway epithelium of COPD.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Hypoxic iron: transferrin, the iron carrier, reflects the disordered iron handling of the chronic hypoxia (erythropoietin already mapped) and systemic inflammation of COPD.
 
 ---
 
