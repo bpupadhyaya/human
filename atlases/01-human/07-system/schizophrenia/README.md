@@ -466,6 +466,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), reflects the type-2 immune dimension of the immune dysregulation associated with schizophrenia."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Meningeal mast cells: the mast cells of the meninges and the brain (already mapped) contribute to the neuroinflammation and the type-2 (IgE already mapped) dimension implicated in schizophrenia."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "Complement C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) links the complement to the microglial (already mapped) synaptic pruning implicated in schizophrenia."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Peripheral innate arm: the NK cells (perforin pathway) are part of the peripheral innate-immune dysregulation associated with schizophrenia."
 ---
 
 # Schizophrenia
@@ -779,6 +788,9 @@ Notably, schizophrenia shares genetic loci with bipolar disorder, ASD, ADHD, maj
 - `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Adaptive neuroinflammation: the cytotoxic T cells (perforin already mapped) of the CNS-border compartments are part of the adaptive-immune contribution to the neuroinflammation implicated in schizophrenia.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Antigen presentation: the dendritic cells of the meningeal/CNS-border immune compartments present antigen (MHC already mapped) to the T cells (already mapped) of the neuroinflammation implicated in schizophrenia.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), reflects the type-2 immune dimension of the immune dysregulation associated with schizophrenia.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Meningeal mast cells: the mast cells of the meninges and the brain (already mapped) contribute to the neuroinflammation and the type-2 (IgE already mapped) dimension implicated in schizophrenia.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — Complement C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) links the complement to the microglial (already mapped) synaptic pruning implicated in schizophrenia.
+- `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Peripheral innate arm: the NK cells (perforin pathway) are part of the peripheral innate-immune dysregulation associated with schizophrenia.
 
 [^howes-2009-dopamine-hypothesis]: Howes OD, Kapur S. The dopamine hypothesis of schizophrenia: version III—the final common pathway. *Schizophr Bull.* 2009;35(3):549-562. [doi:10.1093/schbul/sbp006](https://doi.org/10.1093/schbul/sbp006) · [PubMed 19325164](https://pubmed.ncbi.nlm.nih.gov/19325164/)
 [^moghaddam-2012-glutamate]: Moghaddam B, Javitt D. From revolution to evolution: the glutamate hypothesis of schizophrenia and its implication for treatment. *Neuropsychopharmacology.* 2012;37(1):4-15. [doi:10.1038/npp.2011.181](https://doi.org/10.1038/npp.2011.181) · [PubMed 21956446](https://pubmed.ncbi.nlm.nih.gov/21956446/)

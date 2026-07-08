@@ -457,6 +457,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Antigen presentation: the dendritic cells present antigen (MHC already mapped) within the immune microenvironment of the schwannomas of schwannomatosis."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines shaping the immune microenvironment of the schwannomas of schwannomatosis."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "Humoral arm: the plasma cells secrete the antibodies (already mapped) of the humoral response within the immune microenvironment of the schwannomas of schwannomatosis."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Innate cytotoxicity: the NK cells (perforin already mapped) provide the innate cytotoxic surveillance within the immune microenvironment of the schwannomas of schwannomatosis."
 ---
 
 # Schwannomatosis
@@ -705,6 +714,9 @@ Both NF2 (22q12.2), SMARCB1 (22q11.23), and LZTR1 (22q11.21) are on chromosome 2
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the neuroinflammatory microenvironment of the schwannomas of schwannomatosis.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the schwannoma microenvironment of schwannomatosis.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Antigen presentation: the dendritic cells present antigen (MHC already mapped) within the immune microenvironment of the schwannomas of schwannomatosis.
+- `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines shaping the immune microenvironment of the schwannomas of schwannomatosis.
+- `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — Humoral arm: the plasma cells secrete the antibodies (already mapped) of the humoral response within the immune microenvironment of the schwannomas of schwannomatosis.
+- `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Innate cytotoxicity: the NK cells (perforin already mapped) provide the innate cytotoxic surveillance within the immune microenvironment of the schwannomas of schwannomatosis.
 
 [^merker-2012-schwannomatosis]: Merker VL, Esparza S, Smith MJ, Stemmer-Rachamimov A, Plotkin SR. Clinical features of schwannomatosis: a retrospective analysis of 87 patients. *Oncologist.* 2012;17(10):1317-1322. [doi:10.1634/theoncologist.2012-0162](https://doi.org/10.1634/theoncologist.2012-0162) · [PubMed 22927469](https://pubmed.ncbi.nlm.nih.gov/22927469/)
 [^piotrowski-2014-lztr1]: Piotrowski A, Xie J, Liu YF, et al. Germline loss-of-function mutations in LZTR1 predispose to an inherited disorder of multiple schwannomas. *Nat Genet.* 2014;46(2):182-187. [doi:10.1038/ng.2855](https://doi.org/10.1038/ng.2855) · [PubMed 24362817](https://pubmed.ncbi.nlm.nih.gov/24362817/)
