@@ -458,6 +458,15 @@ cross_links:
   - target: 01-human/03-molecular/type-i-interferon
     relation: connects-to
     note: "Interferon myopathy: the type-I interferon signature drives the inflammatory myopathies (the dermatomyositis) of the musculoskeletal system."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), reflects the type-2 immune dimension of the inflammatory and allergic disorders of the musculoskeletal system."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Synovial/bone mast cells: the mast cells of the synovium, bone and muscle contribute to the inflammation and the tissue remodelling of the musculoskeletal system."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines of the autoimmune arthritis and myositis of the musculoskeletal system."
 ---
 
 # Musculoskeletal System
@@ -741,6 +750,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the inflammatory myopathies and arthritides of the musculoskeletal system.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the spondyloarthritis and the enthesitis of the musculoskeletal system.
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Interferon myopathy: the type-I interferon signature drives the inflammatory myopathies (the dermatomyositis) of the musculoskeletal system.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), reflects the type-2 immune dimension of the inflammatory and allergic disorders of the musculoskeletal system.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Synovial/bone mast cells: the mast cells of the synovium, bone and muscle contribute to the inflammation and the tissue remodelling of the musculoskeletal system.
+- `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines of the autoimmune arthritis and myositis of the musculoskeletal system.
 
 ## Pathology
 

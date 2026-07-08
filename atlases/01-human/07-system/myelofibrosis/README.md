@@ -460,6 +460,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the inflammatory microenvironment of myelofibrosis."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines of the chronic inflammatory marrow niche that drives the fibrosis (TGF-β and PDGF already mapped) of myelofibrosis."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement: the complement C5 and its activation (with C3 already mapped) contribute to the inflammasome (NLRP3 already mapped)-linked chronic inflammation and the thrombotic risk of myelofibrosis."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling links the complement to the neutrophil and platelet (PF4 already mapped) activation of the thromboinflammatory dimension of myelofibrosis."
 ---
 
 # Myelofibrosis
@@ -735,6 +744,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the inflammatory bone-marrow (already mapped) microenvironment of myelofibrosis.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the chronic inflammation (IL-6 and TNF already mapped) that drives the fibrosis of myelofibrosis.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the inflammatory microenvironment of myelofibrosis.
+- `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines of the chronic inflammatory marrow niche that drives the fibrosis (TGF-β and PDGF already mapped) of myelofibrosis.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its activation (with C3 already mapped) contribute to the inflammasome (NLRP3 already mapped)-linked chronic inflammation and the thrombotic risk of myelofibrosis.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling links the complement to the neutrophil and platelet (PF4 already mapped) activation of the thromboinflammatory dimension of myelofibrosis.
 
 ---
 
