@@ -477,6 +477,15 @@ cross_links:
   - target: 01-human/03-molecular/c5ar1
     relation: connects-to
     note: "Complement C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid recruitment and the complement-mediated tubulointerstitial injury of chronic kidney disease."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement: the complement C5 and its C5a (with C3 and C5aR1 already mapped) generate the membrane-attack complex contributing to the glomerular and tubulointerstitial injury of chronic kidney disease."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose dysregulation causes the C3 glomerulopathy contributing to chronic kidney disease."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Renal anaemia iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin and erythropoietin already mapped) of the renal anaemia of chronic kidney disease."
 ---
 
 # Chronic Kidney Disease
@@ -706,6 +715,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines driving the tubulointerstitial inflammation and the fibroblast (already mapped)-mediated fibrosis of chronic kidney disease.
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Renal mast cells: the mast cells infiltrate the interstitium and, via their profibrotic mediators, promote the tubulointerstitial fibrosis (TGF-β already mapped) of chronic kidney disease.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — Complement C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid recruitment and the complement-mediated tubulointerstitial injury of chronic kidney disease.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 and C5aR1 already mapped) generate the membrane-attack complex contributing to the glomerular and tubulointerstitial injury of chronic kidney disease.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose dysregulation causes the C3 glomerulopathy contributing to chronic kidney disease.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Renal anaemia iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin and erythropoietin already mapped) of the renal anaemia of chronic kidney disease.
 
 ## Pathology
 
