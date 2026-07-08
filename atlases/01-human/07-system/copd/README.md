@@ -463,6 +463,15 @@ cross_links:
   - target: 01-human/03-molecular/type-i-interferon
     relation: connects-to
     note: "Antiviral exacerbation interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) sensing, mediates the antiviral response to the respiratory-virus exacerbations of COPD."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2/ACO arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), reflects the type-2 dimension of the eosinophilic COPD and the asthma-COPD (already mapped) overlap."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Airway mast cells: the mast cells infiltrate the COPD airways and, armed by the IgE (already mapped), contribute to the type-2 component of the airway inflammation of COPD."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Cytotoxic emphysema: the NK cells (perforin already mapped) are increased in COPD and contribute to the cytotoxic destruction of the alveolar epithelium of the emphysema."
 ---
 
 # COPD
@@ -754,6 +763,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 airway axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the neutrophilic (already mapped) airway inflammation of COPD.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the airway inflammation, part of the mixed immune profile of COPD.
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Antiviral exacerbation interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) sensing, mediates the antiviral response to the respiratory-virus exacerbations of COPD.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2/ACO arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), reflects the type-2 dimension of the eosinophilic COPD and the asthma-COPD (already mapped) overlap.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Airway mast cells: the mast cells infiltrate the COPD airways and, armed by the IgE (already mapped), contribute to the type-2 component of the airway inflammation of COPD.
+- `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Cytotoxic emphysema: the NK cells (perforin already mapped) are increased in COPD and contribute to the cytotoxic destruction of the alveolar epithelium of the emphysema.
 
 ---
 
