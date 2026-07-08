@@ -469,6 +469,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Antigen presentation: the dendritic cells present antigen (MHC already mapped) and sustain the chronic inflammatory response (IL-6 and TNF already mapped) that drives the anemia of chronic disease."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Inflammatory mast cells: the mast cells contribute to the chronic inflammatory milieu (IL-6 and TNF already mapped) that drives the hepcidin (already mapped) induction of the anemia of chronic disease."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement: the complement C5 and its activation (with C3 already mapped) are part of the chronic inflammatory response of the infections and autoimmunity that drive the anemia of chronic disease."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling links the complement to the myeloid activation that sustains the inflammatory cytokine (IL-6 already mapped) drive of the anemia of chronic disease."
 ---
 
 # Anemia of Chronic Disease
@@ -743,6 +752,9 @@ This adaptive rationale explains why **aggressive iron supplementation during ac
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the diverse chronic inflammatory conditions underlying the anemia of chronic disease.
 - `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — Humoral arm: the plasma cells secrete the antibodies (already mapped) of the chronic infections, autoimmunity and myeloma (already mapped) that drive the inflammation of the anemia of chronic disease.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Antigen presentation: the dendritic cells present antigen (MHC already mapped) and sustain the chronic inflammatory response (IL-6 and TNF already mapped) that drives the anemia of chronic disease.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Inflammatory mast cells: the mast cells contribute to the chronic inflammatory milieu (IL-6 and TNF already mapped) that drives the hepcidin (already mapped) induction of the anemia of chronic disease.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its activation (with C3 already mapped) are part of the chronic inflammatory response of the infections and autoimmunity that drive the anemia of chronic disease.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling links the complement to the myeloid activation that sustains the inflammatory cytokine (IL-6 already mapped) drive of the anemia of chronic disease.
 
 [^weiss-2005-acd-review]: Weiss G, Goodnough LT. Anemia of chronic disease. *N Engl J Med.* 2005;352(10):1011-1023. [doi:10.1056/NEJMra041809](https://doi.org/10.1056/NEJMra041809) · [PubMed 15758012](https://pubmed.ncbi.nlm.nih.gov/15758012/)
 [^nemeth-2004-il6-hepcidin]: Nemeth E, Rivera S, Gabayan V, et al. IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin. *J Clin Invest.* 2004;113(9):1271-1276. [doi:10.1172/JCI200420945](https://doi.org/10.1172/JCI200420945) · [PubMed 15124018](https://pubmed.ncbi.nlm.nih.gov/15124018/)
