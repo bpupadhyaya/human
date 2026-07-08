@@ -472,6 +472,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c5
     relation: connects-to
     note: "Complement in mucosa: the complement C5 and its C5a (with C3 already mapped) contribute to the neutrophil (already mapped) recruitment and the mucosal inflammation of inflammatory bowel disease."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the neutrophil (already mapped) recruitment into the inflamed mucosa of inflammatory bowel disease."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped), and its dysregulation on the injured epithelium amplifies the mucosal inflammation of inflammatory bowel disease."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "IBD iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the iron-deficiency anaemia that is the commonest systemic complication of inflammatory bowel disease."
 ---
 
 # Inflammatory Bowel Disease
@@ -751,6 +760,9 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Epithelial cytotoxicity: the cytotoxic T cells (perforin already mapped), including the tissue-resident memory subset, contribute to the epithelial injury of inflammatory bowel disease.
 - `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Innate lymphoid arm: the NK cells and the innate lymphoid cells (perforin already mapped) are part of the dysregulated mucosal innate immunity of inflammatory bowel disease.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Complement in mucosa: the complement C5 and its C5a (with C3 already mapped) contribute to the neutrophil (already mapped) recruitment and the mucosal inflammation of inflammatory bowel disease.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the neutrophil (already mapped) recruitment into the inflamed mucosa of inflammatory bowel disease.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped), and its dysregulation on the injured epithelium amplifies the mucosal inflammation of inflammatory bowel disease.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — IBD iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the iron-deficiency anaemia that is the commonest systemic complication of inflammatory bowel disease.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)
