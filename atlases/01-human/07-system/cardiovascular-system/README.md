@@ -465,6 +465,15 @@ cross_links:
   - target: 01-human/03-molecular/il-13
     relation: connects-to
     note: "Type-2 vascular immunity: IL-13, with IL-4 (already mapped), completes the type-2 immune arm of the vascular and cardiac remodelling of the cardiovascular system."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 vascular inflammation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the atherosclerotic and myocardial inflammation of the cardiovascular system."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Eosinophil arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), drives the eosinophilia of the eosinophilic myocarditis and endocarditis of the cardiovascular system."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) sensing, drives the innate inflammation of the myocarditis and the atherosclerosis of the cardiovascular system."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"
@@ -696,6 +705,9 @@ Each major vascular bed has **autoregulation** — a local mechanism that holds 
 - `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 vascular inflammation: the IFN-γ of the T cells is the type-II interferon arm of the Th1-driven atherosclerotic and myocardial inflammation of the cardiovascular system.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Type-2 vascular immunity: IL-4 and the type-2/M2 (macrophage) arm modulate the vascular inflammation and the plaque remodelling of the cardiovascular system.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 vascular immunity: IL-13, with IL-4 (already mapped), completes the type-2 immune arm of the vascular and cardiac remodelling of the cardiovascular system.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 vascular inflammation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the atherosclerotic and myocardial inflammation of the cardiovascular system.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Eosinophil arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), drives the eosinophilia of the eosinophilic myocarditis and endocarditis of the cardiovascular system.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) sensing, drives the innate inflammation of the myocarditis and the atherosclerosis of the cardiovascular system.
 
 ## Pathology
 
