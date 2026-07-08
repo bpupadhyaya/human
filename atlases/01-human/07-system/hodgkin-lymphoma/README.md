@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "Selenium immune status: the selenium selenoprotein antioxidant defence supports the lymphocyte (zinc already mapped) immune function disturbed in the immune dysfunction and cachexia of Hodgkin lymphoma."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the reactive inflammatory infiltrate shaped by the Reed-Sternberg cells of Hodgkin lymphoma."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "IL-1 inflammation: IL-1β, an inflammasome cytokine, is part of the pro-inflammatory cytokine milieu secreted within the reactive microenvironment of Hodgkin lymphoma."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "Alarmin arm: IL-33, an IL-1-family alarmin, contributes to the type-2 (IL-4, IL-5 and IL-13 already mapped) skewing of the Reed-Sternberg microenvironment of Hodgkin lymphoma."
 ---
 
 # Hodgkin Lymphoma
@@ -713,6 +722,9 @@ Modern protocols minimize RT fields and doses (ISRT replacing extended-field RT)
 - `connects-to` → **[Mantle cell lymphoma](../mantle-cell-lymphoma/README.md)** — B-cell-neoplasm differential: Hodgkin lymphoma and mantle-cell lymphoma are lymphoid neoplasms in the diagnostic differential, distinguished by the Reed-Sternberg (CD30 already mapped) versus the cyclin-D1 mantle-cell biology.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) response opposing the Th2/immunosuppressive (IL-4, IL-13 and IL-10 already mapped) microenvironment shaped by the Reed-Sternberg cells of Hodgkin lymphoma.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Selenium immune status: the selenium selenoprotein antioxidant defence supports the lymphocyte (zinc already mapped) immune function disturbed in the immune dysfunction and cachexia of Hodgkin lymphoma.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the reactive inflammatory infiltrate shaped by the Reed-Sternberg cells of Hodgkin lymphoma.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1 inflammation: IL-1β, an inflammasome cytokine, is part of the pro-inflammatory cytokine milieu secreted within the reactive microenvironment of Hodgkin lymphoma.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — Alarmin arm: IL-33, an IL-1-family alarmin, contributes to the type-2 (IL-4, IL-5 and IL-13 already mapped) skewing of the Reed-Sternberg microenvironment of Hodgkin lymphoma.
 
 [^connors-2018-echelon1]: Connors JM, Jurczak W, Straus DJ, et al. Brentuximab vedotin with chemotherapy for stage III or IV Hodgkin's lymphoma. *N Engl J Med.* 2018;378(4):331-344. [doi:10.1056/NEJMoa1708984](https://doi.org/10.1056/NEJMoa1708984) · [PubMed 29360494](https://pubmed.ncbi.nlm.nih.gov/29360494/)
 [^armand-2018-nivo-hl]: Armand P, Engert A, Younes A, et al. Nivolumab for relapsed/refractory classic Hodgkin lymphoma after failure of autologous hematopoietic cell transplantation: extended follow-up of the multicohort single-arm phase II CheckMate 205 trial. *J Clin Oncol.* 2018;36(14):1428-1439. [doi:10.1200/JCO.2017.77.6717](https://doi.org/10.1200/JCO.2017.77.6717) · [PubMed 29584546](https://pubmed.ncbi.nlm.nih.gov/29584546/)

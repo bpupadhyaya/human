@@ -435,6 +435,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "Adaptive neuroinflammation: the cytotoxic T cells (perforin already mapped) infiltrate the neuroinflamed Huntington brain, the adaptive-immune component of the neurodegeneration."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the peripheral-immune dysregulation of Huntington's disease."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the peripheral-immune activation and neuroinflammation of Huntington's disease."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Antigen presentation: the dendritic cells of the peripheral and CNS-border immune compartments present antigen to the T cells (already mapped) of the neuroinflammation of Huntington's disease."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -625,3 +634,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 neuroinflammation: the IFN-γ of the infiltrating T cells (with the type-I interferon already mapped) is the type-II interferon arm of the peripheral-immune activation and neuroinflammation of Huntington's disease.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) response of the systemic-immune activation accompanying the neurodegeneration of Huntington's disease.
 - `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Adaptive neuroinflammation: the cytotoxic T cells (perforin already mapped) infiltrate the neuroinflamed Huntington brain, the adaptive-immune component of the neurodegeneration.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the peripheral-immune dysregulation of Huntington's disease.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the peripheral-immune activation and neuroinflammation of Huntington's disease.
+- `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Antigen presentation: the dendritic cells of the peripheral and CNS-border immune compartments present antigen to the T cells (already mapped) of the neuroinflammation of Huntington's disease.
