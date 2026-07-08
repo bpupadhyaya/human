@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c5
     relation: connects-to
     note: "Gene-therapy complement: the complement C5 and its activation (with C3 already mapped) are part of the innate response to the AAV vector of the FVIII gene therapy of haemophilia A."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) links the complement to the innate inflammatory response to the AAV vector of the FVIII gene therapy of haemophilia A."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the innate response to the AAV vector of the FVIII gene therapy of haemophilia A."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Bleeding iron loss: transferrin, the iron carrier, reflects the disordered iron handling (ferroportin and hepcidin already mapped) of the iron-deficiency anaemia from the recurrent bleeding of haemophilia A."
 ---
 
 # Hemophilia A
@@ -748,6 +757,9 @@ FVIII is a critical **amplifier** of the coagulation cascade at the junction bet
 - `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — Inhibitor source: the plasma cells, downstream of the B cells (already mapped), secrete the anti-FVIII inhibitor antibodies (immunoglobulin already mapped) that neutralise the infused factor in haemophilia A.
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Anaphylaxis effector: the mast cells, armed with the anti-factor IgE (already mapped), are the effectors of the rare anaphylactic reactions to the infused FVIII in haemophilia A.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Gene-therapy complement: the complement C5 and its activation (with C3 already mapped) are part of the innate response to the AAV vector of the FVIII gene therapy of haemophilia A.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) links the complement to the innate inflammatory response to the AAV vector of the FVIII gene therapy of haemophilia A.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the innate response to the AAV vector of the FVIII gene therapy of haemophilia A.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Bleeding iron loss: transferrin, the iron carrier, reflects the disordered iron handling (ferroportin and hepcidin already mapped) of the iron-deficiency anaemia from the recurrent bleeding of haemophilia A.
 
 [^oldenburg-2017-emicizumab-haven1]: Oldenburg J, Mahlangu JN, Kim B, et al. Emicizumab prophylaxis in hemophilia A with inhibitors. *N Engl J Med.* 2017;377(9):809-818. [doi:10.1056/NEJMoa1703068](https://doi.org/10.1056/NEJMoa1703068) · [PubMed 28691557](https://pubmed.ncbi.nlm.nih.gov/28691557/)
 [^mahlangu-2018-emicizumab-haven3]: Mahlangu J, Oldenburg J, Paz-Priel I, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors. *N Engl J Med.* 2018;379(9):811-822. [doi:10.1056/NEJMoa1803550](https://doi.org/10.1056/NEJMoa1803550) · [PubMed 30157389](https://pubmed.ncbi.nlm.nih.gov/30157389/)

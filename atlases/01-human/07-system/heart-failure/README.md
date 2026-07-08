@@ -469,6 +469,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Cardiac antigen presentation: the dendritic cells present the cardiac self-antigen to the T cells (already mapped) shaping the adaptive-immune contribution to the cardiac remodelling of heart failure."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Myocardial complement: the complement C3 activation contributes to the inflammatory dimension of the myocardial injury and remodelling of heart failure."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid (macrophage already mapped) recruitment into the failing myocardium of heart failure."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Iron deficiency: transferrin, the iron carrier, reflects the iron-deficiency (hepcidin already mapped) that is a common comorbidity of heart failure and a target of the intravenous-iron therapy."
 ---
 
 # Heart Failure
@@ -692,6 +701,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines driving the cardiac inflammation and fibroblast (already mapped) activation of heart failure.
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Cardiac mast cells: the mast cells accumulate in the failing myocardium and, via the chymase and mediators, promote the fibrosis (TGF-β and periostin already mapped) and remodelling of heart failure.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Cardiac antigen presentation: the dendritic cells present the cardiac self-antigen to the T cells (already mapped) shaping the adaptive-immune contribution to the cardiac remodelling of heart failure.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Myocardial complement: the complement C3 activation contributes to the inflammatory dimension of the myocardial injury and remodelling of heart failure.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid (macrophage already mapped) recruitment into the failing myocardium of heart failure.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Iron deficiency: transferrin, the iron carrier, reflects the iron-deficiency (hepcidin already mapped) that is a common comorbidity of heart failure and a target of the intravenous-iron therapy.
 
 ## Pathology
 
