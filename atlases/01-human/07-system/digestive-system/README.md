@@ -487,6 +487,15 @@ cross_links:
   - target: 01-human/03-molecular/il-33
     relation: connects-to
     note: "Epithelial alarmin: IL-33, released by the injured gut epithelium, activates the ILC2s and initiates the type-2 (IL-4, IL-5 and IL-13 already mapped) mucosal immunity of the digestive system."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Mucosal complement: the complement C3, produced locally and from the liver (already mapped), opsonises the gut microbes and is part of the innate mucosal defence of the digestive system."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the neutrophil recruitment into the intestinal mucosa during the innate immune response of the digestive system."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Mucosal neutrophils: the neutrophils are recruited into the intestinal mucosa and lumen as the innate effectors of the antimicrobial defence of the digestive system."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -732,6 +741,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [IL-23](../../03-molecular/il-23/README.md) — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the mucosal barrier defence and the inflammatory tone of the gut of the digestive system.
 - **Connects to:** [IgE](../../03-molecular/ige/README.md) — type-2/allergy arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), is the antibody arm of the anti-parasite and food-allergy type-2 immunity of the digestive system.
 - **Connects to:** [IL-33](../../03-molecular/il-33/README.md) — epithelial alarmin: IL-33, released by the injured gut epithelium, activates the ILC2s and initiates the type-2 (IL-4, IL-5 and IL-13 already mapped) mucosal immunity of the digestive system.
+- **Connects to:** [Complement C3](../../03-molecular/complement-c3/README.md) — mucosal complement: the complement C3, produced locally and from the liver (already mapped), opsonises the gut microbes and is part of the innate mucosal defence of the digestive system.
+- **Connects to:** [C5aR1](../../03-molecular/c5ar1/README.md) — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the neutrophil recruitment into the intestinal mucosa during the innate immune response of the digestive system.
+- **Connects to:** [Neutrophil](../../04-cellular/neutrophil/README.md) — mucosal neutrophils: the neutrophils are recruited into the intestinal mucosa and lumen as the innate effectors of the antimicrobial defence of the digestive system.
 
 ## Pathology
 

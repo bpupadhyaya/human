@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "Innate arm: the NK cells (perforin pathway) are part of the innate immune dysregulation contributing to the retinal inflammation of diabetic retinopathy."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose dysregulation contributes to the retinal microvascular complement injury of diabetic retinopathy."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Retinal iron: transferrin, the iron carrier, reflects the disordered retinal iron handling (hepcidin already mapped) and the iron released from the microhaemorrhages of diabetic retinopathy."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Perivascular antigen presentation: the dendritic cells of the retinal perivascular compartment present antigen to the T cells (already mapped) in the chronic low-grade inflammation of diabetic retinopathy."
 ---
 
 # Diabetic Retinopathy
@@ -737,6 +746,9 @@ DR encompasses a spectrum from subtle vascular changes to sight-threatening neov
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the leukostasis and the complement-mediated microvascular injury of diabetic retinopathy.
 - `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Adaptive infiltrate: the cytotoxic T cells (perforin pathway) are part of the adaptive-immune contribution to the chronic low-grade retinal inflammation of diabetic retinopathy.
 - `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Innate arm: the NK cells (perforin pathway) are part of the innate immune dysregulation contributing to the retinal inflammation of diabetic retinopathy.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose dysregulation contributes to the retinal microvascular complement injury of diabetic retinopathy.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Retinal iron: transferrin, the iron carrier, reflects the disordered retinal iron handling (hepcidin already mapped) and the iron released from the microhaemorrhages of diabetic retinopathy.
+- `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Perivascular antigen presentation: the dendritic cells of the retinal perivascular compartment present antigen to the T cells (already mapped) in the chronic low-grade inflammation of diabetic retinopathy.
 
 [^fong-2004-dr-review]: Fong DS, Aiello L, Gardner TW, et al. Diabetic retinopathy. *Diabetes Care.* 2004;27(10):2540-2553. [doi:10.2337/diacare.27.10.2540](https://doi.org/10.2337/diacare.27.10.2540) · [PubMed 15451934](https://pubmed.ncbi.nlm.nih.gov/15451934/)
 [^brown-2015-aflibercept-protocol-t]: Diabetic Retinopathy Clinical Research Network; Wells JA, Glassman AR, et al. Aflibercept, Bevacizumab, or Ranibizumab for Diabetic Macular Edema. *N Engl J Med.* 2015;372(13):1193-1203. [doi:10.1056/NEJMoa1414264](https://doi.org/10.1056/NEJMoa1414264) · [PubMed 25692915](https://pubmed.ncbi.nlm.nih.gov/25692915/)
