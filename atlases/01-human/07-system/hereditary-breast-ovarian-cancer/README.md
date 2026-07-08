@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Tumour-associated macrophages: the M2 (IL-4 and IL-13 already mapped) macrophages populate the immunosuppressive stroma of the HBOC tumours, opposing the neoantigen (T-cell already mapped) immunity."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the anti-tumour immunity, enhanced by the HRD (BRCA already mapped) neoantigen load and the PARP-inhibitor-induced immunogenicity of HBOC tumours."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm counter to the M2 macrophage (already mapped) immunosuppression of the HBOC tumour microenvironment."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune microenvironment of the HBOC tumours."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -727,6 +736,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[Hereditary diffuse gastric cancer](../hereditary-diffuse-gastric-cancer/README.md)** — CDH1 lobular-breast overlap: the hereditary diffuse gastric cancer (CDH1 already mapped) and the hereditary breast-ovarian cancer overlap in the lobular breast-cancer risk, hereditary breast-cancer syndromes in the genetic differential.
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — HRD innate immunogenicity: the homologous-recombination deficiency (BRCA already mapped) generates the cytosolic DNA that activates the cGAS-STING (already mapped) type-I interferon, the innate immunogenicity of the HBOC tumours.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumour-associated macrophages: the M2 (IL-4 and IL-13 already mapped) macrophages populate the immunosuppressive stroma of the HBOC tumours, opposing the neoantigen (T-cell already mapped) immunity.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the anti-tumour immunity, enhanced by the HRD (BRCA already mapped) neoantigen load and the PARP-inhibitor-induced immunogenicity of HBOC tumours.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm counter to the M2 macrophage (already mapped) immunosuppression of the HBOC tumour microenvironment.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune microenvironment of the HBOC tumours.
 
 ---
 
