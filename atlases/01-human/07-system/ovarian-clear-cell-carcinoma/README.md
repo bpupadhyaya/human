@@ -457,6 +457,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the ovarian-clear-cell-carcinoma microenvironment."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Endometriosis-associated mast cells: the mast cells, abundant in the endometriotic lesions from which the tumour arises, contribute to the angiogenesis (VEGF already mapped) and type-2 microenvironment of ovarian clear cell carcinoma."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement: the complement C5 and its C5a (with C3 already mapped) contribute to the endometriosis-associated inflammatory microenvironment of ovarian clear cell carcinoma."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling recruits and polarises the myeloid cells to an immunosuppressive phenotype in the ovarian-clear-cell-carcinoma microenvironment."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -745,6 +754,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune microenvironment of ovarian clear cell carcinoma.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the endometriosis-associated inflammatory microenvironment of ovarian clear cell carcinoma.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the ovarian-clear-cell-carcinoma microenvironment.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Endometriosis-associated mast cells: the mast cells, abundant in the endometriotic lesions from which the tumour arises, contribute to the angiogenesis (VEGF already mapped) and type-2 microenvironment of ovarian clear cell carcinoma.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 already mapped) contribute to the endometriosis-associated inflammatory microenvironment of ovarian clear cell carcinoma.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling recruits and polarises the myeloid cells to an immunosuppressive phenotype in the ovarian-clear-cell-carcinoma microenvironment.
 
 ---
 
