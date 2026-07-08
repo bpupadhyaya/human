@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Anaemia iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the anaemia of the marrow-involved follicular lymphoma."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Stromal matricellular: periostin, a matricellular mediator, is part of the stromal remodelling of the follicular-lymphoma nodal microenvironment on which the tumour depends."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "Nodal architecture: collagen, the extracellular-matrix scaffold, supports the follicular dendritic-cell network and the nodal architecture of the follicular-lymphoma microenvironment."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "FDC-network matrix: fibronectin, an extracellular-matrix glycoprotein, is part of the provisional matrix of the follicular dendritic-cell network that nurtures the follicular-lymphoma cells."
 ---
 
 # Follicular Lymphoma
@@ -753,6 +762,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the follicular-lymphoma cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), a resistance mechanism to the anti-CD20 (already mapped) complement-dependent killing by obinutuzumab and rituximab.
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway that mediates the anti-CD20 (already mapped) complement-dependent cytotoxicity of follicular lymphoma.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Anaemia iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the anaemia of the marrow-involved follicular lymphoma.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Stromal matricellular: periostin, a matricellular mediator, is part of the stromal remodelling of the follicular-lymphoma nodal microenvironment on which the tumour depends.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Nodal architecture: collagen, the extracellular-matrix scaffold, supports the follicular dendritic-cell network and the nodal architecture of the follicular-lymphoma microenvironment.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — FDC-network matrix: fibronectin, an extracellular-matrix glycoprotein, is part of the provisional matrix of the follicular dendritic-cell network that nurtures the follicular-lymphoma cells.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
