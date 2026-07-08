@@ -454,6 +454,15 @@ cross_links:
   - target: 01-human/06-organ/kidney
     relation: connects-to
     note: "Microthrombotic AKI: the fibrin microthrombi (thrombin already mapped) lodge in the kidney, causing the acute kidney injury and the organ dysfunction of DIC."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 inflammation: the IFN-γ of the T cells is the type-II interferon arm of the inflammatory drive (IL-6 and TNF already mapped) that, via the immunothrombosis, activates the coagulation of DIC."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the systemic inflammation underlying DIC."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Type-2 counter-arm: IL-4 is the type-2 cytokine arm counter-balancing the pro-inflammatory (IL-6 and TNF already mapped) drive of the coagulopathy of DIC."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -730,6 +739,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Immunothrombosis NETs: the neutrophils release the NETs (S100A8/9 already mapped) that scaffold the microthrombi, the immunothrombosis driving the disseminated intravascular coagulation.
 - `connects-to` → **[AML](../aml/README.md)** — APL emergency: the acute promyelocytic leukaemia (a subtype of AML) classically presents with the severe DIC (the procoagulant granules), a haematological emergency.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Microthrombotic AKI: the fibrin microthrombi (thrombin already mapped) lodge in the kidney, causing the acute kidney injury and the organ dysfunction of DIC.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 inflammation: the IFN-γ of the T cells is the type-II interferon arm of the inflammatory drive (IL-6 and TNF already mapped) that, via the immunothrombosis, activates the coagulation of DIC.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the systemic inflammation underlying DIC.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Type-2 counter-arm: IL-4 is the type-2 cytokine arm counter-balancing the pro-inflammatory (IL-6 and TNF already mapped) drive of the coagulopathy of DIC.
 
 ---
 

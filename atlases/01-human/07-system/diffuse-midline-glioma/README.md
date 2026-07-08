@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/01-subatomic/photon
     relation: connects-to
     note: "Palliative radiotherapy: the focal photon radiotherapy is the only standard treatment of the diffuse midline glioma, providing the temporary response of the incurable tumour."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the anti-tumour immunity, explored with the GD2 CAR-T and checkpoint (PD-1 already mapped) trials in diffuse midline glioma."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immunosuppressive microenvironment of diffuse midline glioma."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment of diffuse midline glioma."
 ---
 
 # Diffuse Midline Glioma
@@ -730,6 +739,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Tumour-associated microglia: the microglia and macrophages (CCL2 already mapped) dominate the immunosuppressive, immunologically cold microenvironment of the diffuse midline glioma.
 - `connects-to` → **[Glioblastoma](../glioblastoma/README.md)** — High-grade-glioma differential: the diffuse midline glioma (H3K27M already mapped) is a distinct WHO-grade-4 midline glioma, molecularly separate from the adult, IDH-wildtype glioblastoma.
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Palliative radiotherapy: the focal photon radiotherapy is the only standard treatment of the diffuse midline glioma, providing the temporary response of the incurable tumour.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the anti-tumour immunity, explored with the GD2 CAR-T and checkpoint (PD-1 already mapped) trials in diffuse midline glioma.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immunosuppressive microenvironment of diffuse midline glioma.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment of diffuse midline glioma.
 
 ---
 
