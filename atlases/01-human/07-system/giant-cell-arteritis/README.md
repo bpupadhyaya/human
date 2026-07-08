@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Nutritional immunity: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the anaemia of the chronic inflammation of giant cell arteritis."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement: the complement C5 and its C5a (with C3, C5aR1 and factor H already mapped) contribute to the complement-mediated injury of the inflamed arterial wall of giant cell arteritis."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway of the vascular inflammation of giant cell arteritis."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Vascular remodelling: periostin, a matricellular mediator, contributes to the intimal hyperplasia and the vascular-wall remodelling (with collagen and osteopontin already mapped) of giant cell arteritis."
 ---
 
 # Giant Cell Arteritis
@@ -742,6 +751,9 @@ The temporal arteries supply scalp, temporalis muscle, and dura. In GCA, transmu
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid recruitment into the inflamed vessel wall of giant cell arteritis.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3 and C5aR1 already mapped) active on the inflamed arterial wall of giant cell arteritis.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Nutritional immunity: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the anaemia of the chronic inflammation of giant cell arteritis.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3, C5aR1 and factor H already mapped) contribute to the complement-mediated injury of the inflamed arterial wall of giant cell arteritis.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway of the vascular inflammation of giant cell arteritis.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Vascular remodelling: periostin, a matricellular mediator, contributes to the intimal hyperplasia and the vascular-wall remodelling (with collagen and osteopontin already mapped) of giant cell arteritis.
 
 [^stone-2017-giact]: Stone JH, Tuckwell K, Dimonaco S, et al. Trial of tocilizumab in giant-cell arteritis. *N Engl J Med.* 2017;377(4):317-328. [doi:10.1056/NEJMoa1613849](https://doi.org/10.1056/NEJMoa1613849) · [PubMed 28745999](https://pubmed.ncbi.nlm.nih.gov/28745999/)
 [^weyand-2014-gca-review]: Weyand CM, Goronzy JJ. Clinical practice. Giant-cell arteritis and polymyalgia rheumatica. *N Engl J Med.* 2014;371(1):50-57. [doi:10.1056/NEJMcp1214926](https://doi.org/10.1056/NEJMcp1214926) · [PubMed 24988557](https://pubmed.ncbi.nlm.nih.gov/24988557/)
