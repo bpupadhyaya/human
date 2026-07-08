@@ -457,6 +457,15 @@ cross_links:
   - target: 01-human/03-molecular/il-5
     relation: connects-to
     note: "Type-2 counter-arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension balancing the pro-hypertensive Th1/Th17 immunity."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), reflects the type-2 immune dimension that counter-balances the pro-hypertensive Th1/Th17 immunity."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Perivascular mast cells: the mast cells infiltrate the perivascular tissue and, via the renin and chymase (angiotensin already mapped), contribute to the vascular remodelling of hypertension."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "NK vascular inflammation: the NK cells (perforin already mapped) contribute to the T-cell (already mapped) and innate immune vascular and renal (already mapped) injury of hypertension."
 ---
 
 # Hypertension
@@ -694,6 +703,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the T-cell-mediated vascular inflammation implicated in hypertension.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune/inflammatory vascular and renal injury of hypertension.
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 counter-arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension balancing the pro-hypertensive Th1/Th17 immunity.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), reflects the type-2 immune dimension that counter-balances the pro-hypertensive Th1/Th17 immunity.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Perivascular mast cells: the mast cells infiltrate the perivascular tissue and, via the renin and chymase (angiotensin already mapped), contribute to the vascular remodelling of hypertension.
+- `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — NK vascular inflammation: the NK cells (perforin already mapped) contribute to the T-cell (already mapped) and innate immune vascular and renal (already mapped) injury of hypertension.
 
 ## Pathology
 
