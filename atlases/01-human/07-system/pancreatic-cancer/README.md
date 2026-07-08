@@ -472,6 +472,15 @@ cross_links:
   - target: 03-medicine/03-food/vitamin-d
     relation: connects-to
     note: "Stromal vitamin: the vitamin D receptor ligand reprogrammes the activated stellate cells/fibroblasts (already mapped) of the desmoplastic stroma, a candidate stromal-modulating strategy in pancreatic cancer."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "Tertiary lymphoid structures: the B cells organise the tertiary lymphoid structures whose presence, with the CD8 (already mapped) TILs, marks the rare immune-responsive subset of the immunologically cold pancreatic cancer."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement: the complement C5 and its activation (with C3 and C5aR1 already mapped) contribute to the myeloid-driven immunosuppression of the pancreatic-cancer microenvironment."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement evasion: the pancreatic-cancer cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped) within the desmoplastic microenvironment."
 ---
 
 # Pancreatic Cancer
@@ -743,6 +752,9 @@ cross_links:
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Desmoplastic mast cells: the mast cells infiltrate the desmoplastic stroma (collagen already mapped) and contribute to the angiogenesis (VEGF already mapped) and type-2 microenvironment of pancreatic cancer.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) recruits and polarises the myeloid-derived suppressor cells that drive the profound immunosuppression of the pancreatic-cancer microenvironment.
 - `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Stromal vitamin: the vitamin D receptor ligand reprogrammes the activated stellate cells/fibroblasts (already mapped) of the desmoplastic stroma, a candidate stromal-modulating strategy in pancreatic cancer.
+- `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Tertiary lymphoid structures: the B cells organise the tertiary lymphoid structures whose presence, with the CD8 (already mapped) TILs, marks the rare immune-responsive subset of the immunologically cold pancreatic cancer.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its activation (with C3 and C5aR1 already mapped) contribute to the myeloid-driven immunosuppression of the pancreatic-cancer microenvironment.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the pancreatic-cancer cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped) within the desmoplastic microenvironment.
 
 ---
 
