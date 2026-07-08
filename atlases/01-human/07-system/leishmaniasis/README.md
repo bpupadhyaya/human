@@ -469,6 +469,15 @@ cross_links:
   - target: 01-human/03-molecular/il-31
     relation: connects-to
     note: "Pruritus cytokine: IL-31, a type-2 (IL-4 and IL-13 already mapped) cytokine, is the pruritogenic effector of the itch of the cutaneous leishmaniasis lesions."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement regulation: the C1-esterase inhibitor regulates the classical and lectin complement pathways (C3, C5, C5aR1 and factor H already mapped) that opsonise Leishmania promastigotes, which the parasite exploits to enter its macrophage (already mapped) niche."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "Granuloma matrix: fibronectin, an extracellular-matrix glycoprotein, is part of the provisional matrix of the granuloma and the lesion of cutaneous leishmaniasis, and Leishmania exploits fibronectin-integrin binding for the macrophage entry."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Type-2 fibrosis: periostin, downstream of the type-2 (IL-4 and IL-13 already mapped) cytokines and TSLP (already mapped), is part of the fibrotic remodelling and scarring of the cutaneous leishmaniasis lesion."
 ---
 
 # Leishmaniasis
@@ -721,3 +730,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: Leishmania recruits the host factor H to its surface to accelerate the decay of the C3 convertase (complement C3, C5 and C5aR1 already mapped), evading the complement lysis before the macrophage (already mapped) entry.
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Cutaneous alarmin: TSLP, from the injured keratinocytes at the sandfly bite, contributes to the type-2 (IL-4 and IL-13 already mapped) skewing that favours the parasite persistence in cutaneous leishmaniasis.
 - `connects-to` → **[IL-31](../../03-molecular/il-31/README.md)** — Pruritus cytokine: IL-31, a type-2 (IL-4 and IL-13 already mapped) cytokine, is the pruritogenic effector of the itch of the cutaneous leishmaniasis lesions.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement regulation: the C1-esterase inhibitor regulates the classical and lectin complement pathways (C3, C5, C5aR1 and factor H already mapped) that opsonise Leishmania promastigotes, which the parasite exploits to enter its macrophage (already mapped) niche.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Granuloma matrix: fibronectin, an extracellular-matrix glycoprotein, is part of the provisional matrix of the granuloma and the lesion of cutaneous leishmaniasis, and Leishmania exploits fibronectin-integrin binding for the macrophage entry.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Type-2 fibrosis: periostin, downstream of the type-2 (IL-4 and IL-13 already mapped) cytokines and TSLP (already mapped), is part of the fibrotic remodelling and scarring of the cutaneous leishmaniasis lesion.
