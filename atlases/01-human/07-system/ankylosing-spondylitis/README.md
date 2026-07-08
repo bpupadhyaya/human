@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/c5ar1
     relation: connects-to
     note: "Complement C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) contributes to the neutrophil recruitment in the inflamed entheses and joints of ankylosing spondylitis."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3 and C5aR1 already mapped) active in the inflamed synovium and entheses of ankylosing spondylitis."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical/lectin regulation: the C1-esterase inhibitor regulates the classical and lectin complement pathways contributing to the innate inflammation of the entheses of ankylosing spondylitis."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Chronic-disease iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the anaemia of chronic disease of ankylosing spondylitis."
 ---
 
 # Ankylosing Spondylitis
@@ -736,6 +745,9 @@ AS originates at the **enthesis** — the site where tendons, ligaments, and joi
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Entheseal alarmin: TSLP, an epithelial/stromal alarmin, is part of the alarmin (IL-33 already mapped) signalling of the enthesis that contributes to the barrier-immune crosstalk of ankylosing spondylitis.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Entheseal matricellular: periostin is part of the matricellular remodelling of the enthesis that accompanies the pathological new-bone formation (sclerostin and Wnt already mapped) of ankylosing spondylitis.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — Complement C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) contributes to the neutrophil recruitment in the inflamed entheses and joints of ankylosing spondylitis.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3 and C5aR1 already mapped) active in the inflamed synovium and entheses of ankylosing spondylitis.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical/lectin regulation: the C1-esterase inhibitor regulates the classical and lectin complement pathways contributing to the innate inflammation of the entheses of ankylosing spondylitis.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Chronic-disease iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the anaemia of chronic disease of ankylosing spondylitis.
 
 [^sieper-2015-ankylosing-spondylitis-review]: Sieper J, Poddubnyy D. Ankylosing spondylitis. *Lancet.* 2017;390(10089):73-84. [doi:10.1016/S0140-6736(16)31591-4](https://doi.org/10.1016/S0140-6736(16)31591-4) · [PubMed 28110981](https://pubmed.ncbi.nlm.nih.gov/28110981/)
 [^baeten-2015-secukinumab-as]: Baeten D, Sieper J, Braun J, et al. Secukinumab, an Interleukin-17A Inhibitor, in Ankylosing Spondylitis. *N Engl J Med.* 2015;373(26):2534-2548. [doi:10.1056/NEJMoa1505066](https://doi.org/10.1056/NEJMoa1505066) · [PubMed 26699169](https://pubmed.ncbi.nlm.nih.gov/26699169/)
