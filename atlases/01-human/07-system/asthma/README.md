@@ -475,6 +475,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/influenza-a
     relation: connects-to
     note: "Viral exacerbation: the influenza A virus (with RSV already mapped) is a respiratory-viral trigger of the acute exacerbations of asthma."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) active on the inflamed airway epithelium of asthma."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical/lectin regulation: the C1-esterase inhibitor regulates the classical and lectin complement pathways of the allergic airway inflammation of asthma."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Airway iron: transferrin, the iron carrier, reflects the disordered airway iron handling (hepcidin already mapped) associated with the inflammation and remodelling of asthma."
 ---
 
 # Asthma
@@ -736,6 +745,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — Anaphylatoxin receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) is part of the complement/anaphylatoxin contribution to the airway inflammation of asthma.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Platelet in airway: the platelets, via the platelet-eosinophil aggregates and the release of mediators, contribute to the airway inflammation and remodelling of asthma.
 - `connects-to` → **[Influenza A virus](../../../02-pathogen/01-viruses/influenza-a/README.md)** — Viral exacerbation: the influenza A virus (with RSV already mapped) is a respiratory-viral trigger of the acute exacerbations of asthma.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) active on the inflamed airway epithelium of asthma.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical/lectin regulation: the C1-esterase inhibitor regulates the classical and lectin complement pathways of the allergic airway inflammation of asthma.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Airway iron: transferrin, the iron carrier, reflects the disordered airway iron handling (hepcidin already mapped) associated with the inflammation and remodelling of asthma.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)

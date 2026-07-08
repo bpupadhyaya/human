@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "CNS antigen presentation: the dendritic cells of the meningeal and CNS-border compartments present antigen to the T cells (already mapped) of the neuroinflammation reported in borderline personality disorder."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Neuroimmune complement: the complement C3 activation is part of the low-grade neuroinflammation reported in borderline personality disorder, potentially contributing to the aberrant synaptic remodelling."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) links the complement to the microglial (already mapped) neuroinflammation reported in borderline personality disorder."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3 and C5aR1 already mapped) of the neuroinflammation reported in borderline personality disorder."
 ---
 
 # Borderline Personality Disorder
@@ -767,6 +776,9 @@ This model directly informs DBT treatment: validate emotional experience (the bi
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Meningeal mast cells: the mast cells of the meninges and the brain (already mapped) contribute to the neuroinflammation and the stress-reactive dimension reported in borderline personality disorder.
 - `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Stress-modulated NK: the NK-cell number and cytotoxicity, altered by the chronic stress and cortisol (already mapped) reactivity, are part of the peripheral immune dysregulation reported in borderline personality disorder.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — CNS antigen presentation: the dendritic cells of the meningeal and CNS-border compartments present antigen to the T cells (already mapped) of the neuroinflammation reported in borderline personality disorder.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Neuroimmune complement: the complement C3 activation is part of the low-grade neuroinflammation reported in borderline personality disorder, potentially contributing to the aberrant synaptic remodelling.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) links the complement to the microglial (already mapped) neuroinflammation reported in borderline personality disorder.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3 and C5aR1 already mapped) of the neuroinflammation reported in borderline personality disorder.
 
 [^linehan-1993-dbt]: Linehan MM. *Cognitive-Behavioral Treatment of Borderline Personality Disorder.* Guilford; 1993. [PubMed 8192506](https://pubmed.ncbi.nlm.nih.gov/8192506/)
 [^skodol-2002-bpd-neurobiology]: Siever LJ, Davis KL. A psychobiological perspective on the personality disorders. *Am J Psychiatry.* 1991;148(12):1647-1658. [doi:10.1176/ajp.148.12.1647](https://doi.org/10.1176/ajp.148.12.1647) · [PubMed 1957927](https://pubmed.ncbi.nlm.nih.gov/1957927/)
