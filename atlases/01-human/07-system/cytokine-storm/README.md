@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Hyperferritinaemic iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the extreme hyperferritinaemia that is a hallmark of the MAS/HLH cytokine storm."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "Consumptive coagulopathy: fibronectin, cross-linked into the fibrin (already mapped) matrix, is consumed alongside the coagulation factors in the disseminated intravascular coagulation of the cytokine storm."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "Fibrotic sequelae: collagen, the extracellular-matrix scaffold, is deposited in the tissue fibrosis (e.g. pulmonary) that can follow the severe organ injury of the cytokine storm."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Tissue-remodelling matricellular: periostin, a matricellular mediator, contributes to the tissue remodelling and repair after the widespread inflammatory injury of the cytokine storm."
 ---
 
 # Cytokine Storm
@@ -718,6 +727,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose consumption and dysregulation amplify the complement storm of the cytokine storm.
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement/contact regulation: the C1-esterase inhibitor regulates the classical complement and the contact (bradykinin already mapped) systems at the interface driving the vascular leak and coagulopathy of the cytokine storm.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Hyperferritinaemic iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the extreme hyperferritinaemia that is a hallmark of the MAS/HLH cytokine storm.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Consumptive coagulopathy: fibronectin, cross-linked into the fibrin (already mapped) matrix, is consumed alongside the coagulation factors in the disseminated intravascular coagulation of the cytokine storm.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Fibrotic sequelae: collagen, the extracellular-matrix scaffold, is deposited in the tissue fibrosis (e.g. pulmonary) that can follow the severe organ injury of the cytokine storm.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Tissue-remodelling matricellular: periostin, a matricellular mediator, contributes to the tissue remodelling and repair after the widespread inflammatory injury of the cytokine storm.
 
 ## Pathology
 

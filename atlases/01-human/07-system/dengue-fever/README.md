@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/c1-esterase-inhibitor
     relation: connects-to
     note: "Complement/contact regulation: the C1-esterase inhibitor regulates the classical complement and the contact (bradykinin already mapped) systems whose activation drives the plasma leakage of dengue haemorrhagic fever."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "Glycocalyx/matrix leak: the endothelial glycocalyx and the collagen basement membrane are degraded during the NS1-driven vascular injury, contributing to the plasma leakage of severe dengue."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Immune-activation matricellular: osteopontin, a matricellular cytokine, is part of the strong pro-inflammatory immune activation of the acute dengue infection."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Acute-phase iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the acute-phase response to the dengue infection."
 ---
 
 # Dengue Fever
@@ -739,3 +748,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the complement-mediated endothelial (already mapped) activation and vascular leak of severe dengue.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the dengue-virus NS1 protein recruits the host factor H to regulate the complement (C3, C5 and C5aR1 already mapped), while the NS1–complement interaction also contributes to the vascular leak of severe dengue.
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement/contact regulation: the C1-esterase inhibitor regulates the classical complement and the contact (bradykinin already mapped) systems whose activation drives the plasma leakage of dengue haemorrhagic fever.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Glycocalyx/matrix leak: the endothelial glycocalyx and the collagen basement membrane are degraded during the NS1-driven vascular injury, contributing to the plasma leakage of severe dengue.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Immune-activation matricellular: osteopontin, a matricellular cytokine, is part of the strong pro-inflammatory immune activation of the acute dengue infection.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Acute-phase iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the acute-phase response to the dengue infection.
