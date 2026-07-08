@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "Coagulation-factor synthesis: the liver synthesises the clotting factors and the natural anticoagulants (protein C, antithrombin already mapped) whose inherited deficiency causes thrombophilia."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Immunothrombosis: the NK cells (perforin already mapped) are part of the innate immune contribution to the immunothrombosis that amplifies the thrombotic tendency of the inherited thrombophilias."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 immunothrombosis: the IFN-γ of the T cells is the type-II interferon arm (with the type-I interferon already mapped) of the inflammatory dimension that potentiates the thrombosis of thrombophilia."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immunothrombotic inflammation accompanying the inherited thrombophilias."
 ---
 
 # Inherited Thrombophilia
@@ -750,6 +759,9 @@ Antithrombin (ATIII) is the primary plasma inhibitor of thrombin, FXa, FIXa, and
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Metabolic hypercoagulability: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the metabolic hypercoagulable state that adds an acquired thrombotic risk to the inherited thrombophilia.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Pulmonary embolism: the deep-vein thrombi of the inherited thrombophilias embolise to the lung, the pulmonary embolism the life-threatening complication.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Coagulation-factor synthesis: the liver synthesises the clotting factors and the natural anticoagulants (protein C, antithrombin already mapped) whose inherited deficiency causes thrombophilia.
+- `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Immunothrombosis: the NK cells (perforin already mapped) are part of the innate immune contribution to the immunothrombosis that amplifies the thrombotic tendency of the inherited thrombophilias.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 immunothrombosis: the IFN-γ of the T cells is the type-II interferon arm (with the type-I interferon already mapped) of the inflammatory dimension that potentiates the thrombosis of thrombophilia.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immunothrombotic inflammation accompanying the inherited thrombophilias.
 
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)
