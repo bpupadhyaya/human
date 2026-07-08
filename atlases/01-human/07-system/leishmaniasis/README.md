@@ -451,6 +451,15 @@ cross_links:
   - target: 01-human/03-molecular/il-36
     relation: connects-to
     note: "Epithelial IL-36: the IL-36 of the keratinocytes amplifies the skin inflammation of the cutaneous leishmaniasis lesion, part of the innate cutaneous response."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Iron acquisition: the intracellular Leishmania scavenges host iron via the transferrin-bound iron of the macrophage (already mapped), and this iron competition (hepcidin and ferroportin already mapped) shapes the parasite survival and the anaemia."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement: the C5 and its cleavage product C5a (with C3 already mapped) contribute to the opsonisation-mediated macrophage (already mapped) entry and the inflammatory response to Leishmania."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling modulates the macrophage (already mapped) response and the Th1/Th2 balance of the immune response to Leishmania."
 ---
 
 # Leishmaniasis
@@ -697,3 +706,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Hypergammaglobulinaemia IgE: the polyclonal B-cell (already mapped) activation of the visceral leishmaniasis raises the IgE, part of the Th2 (IL-4, IL-5 and IL-13 already mapped) non-protective response.
 - `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — Mucosal IgA: the secretory IgA of the mucosal immunity is relevant to the mucocutaneous leishmaniasis and the mucosal barrier response to the parasite.
 - `connects-to` → **[IL-36](../../03-molecular/il-36/README.md)** — Epithelial IL-36: the IL-36 of the keratinocytes amplifies the skin inflammation of the cutaneous leishmaniasis lesion, part of the innate cutaneous response.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Iron acquisition: the intracellular Leishmania scavenges host iron via the transferrin-bound iron of the macrophage (already mapped), and this iron competition (hepcidin and ferroportin already mapped) shapes the parasite survival and the anaemia.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the C5 and its cleavage product C5a (with C3 already mapped) contribute to the opsonisation-mediated macrophage (already mapped) entry and the inflammatory response to Leishmania.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling modulates the macrophage (already mapped) response and the Th1/Th2 balance of the immune response to Leishmania.
