@@ -458,6 +458,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "Skin innate surveillance: the NK cells (perforin already mapped) provide the innate cytotoxic surveillance against the virally-infected keratinocytes and the skin cancers of the integumentary system."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Cutaneous complement: the complement C3, deposited and locally produced in the skin, is part of the innate antimicrobial defence and the immune-complex dimension of the cutaneous immunity of the integumentary system."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling recruits the neutrophils and myeloid cells to the site of the cutaneous inflammation of the integumentary system."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "Dermal humoral arm: the plasma cells of the dermis secrete the antibodies of the humoral arm of the cutaneous immunity of the integumentary system."
 ---
 
 # Integumentary System
@@ -710,6 +719,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 skin immunity: the IFN-γ of the skin T cells is the type-II interferon arm of the Th1 immunity of the interface dermatoses and the antimicrobial defence of the integumentary system.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the cutaneous immune response of the integumentary system.
 - `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Skin innate surveillance: the NK cells (perforin already mapped) provide the innate cytotoxic surveillance against the virally-infected keratinocytes and the skin cancers of the integumentary system.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Cutaneous complement: the complement C3, deposited and locally produced in the skin, is part of the innate antimicrobial defence and the immune-complex dimension of the cutaneous immunity of the integumentary system.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling recruits the neutrophils and myeloid cells to the site of the cutaneous inflammation of the integumentary system.
+- `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — Dermal humoral arm: the plasma cells of the dermis secrete the antibodies of the humoral arm of the cutaneous immunity of the integumentary system.
 
 ## Pathology
 
