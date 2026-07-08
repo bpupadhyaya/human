@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "Antioxidant selenium: the antioxidant selenoprotein (GPX) defence of the liver; the selenium status modulates the oxidative injury (xanthine oxidase already mapped) of NASH."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate hepatic interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) sensing of the lipotoxic and mitochondrial stress, contributes to the innate inflammation of the steatohepatitis of NASH."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 hepatic inflammation: the IFN-γ of the intrahepatic T cells (perforin already mapped) is the type-II interferon arm of the immune-mediated inflammation of NASH."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune microenvironment driving the progression of NASH."
 ---
 
 # NASH
@@ -680,6 +689,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Cardiovascular risk: NASH shares the metabolic-syndrome (cholesterol and PCSK9 already mapped) drivers with the atherosclerosis, the cardiovascular disease being the leading cause of death in NASH.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Chronic-liver zinc: the zinc deficiency common in the chronic liver disease of NASH impairs the hepatic antioxidant and metabolic function.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Antioxidant selenium: the antioxidant selenoprotein (GPX) defence of the liver; the selenium status modulates the oxidative injury (xanthine oxidase already mapped) of NASH.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate hepatic interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) sensing of the lipotoxic and mitochondrial stress, contributes to the innate inflammation of the steatohepatitis of NASH.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 hepatic inflammation: the IFN-γ of the intrahepatic T cells (perforin already mapped) is the type-II interferon arm of the immune-mediated inflammation of NASH.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune microenvironment driving the progression of NASH.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
