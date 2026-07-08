@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/03-molecular/il-12
     relation: connects-to
     note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) response opposing the immunosuppressive, oncometabolite-driven (IDH already mapped) microenvironment of IDH-mutant glioma."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Immune-metabolic adipokine: leptin links the metabolic state to the immune response and, with the dexamethasone-induced metabolic syndrome, is part of the systemic milieu of IDH-mutant glioma."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic milieu, altered by the steroid therapy of IDH-mutant glioma."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), completes the adipokine dimension of the neuroinflammatory microenvironment of IDH-mutant glioma."
 ---
 
 # IDH-Mutant Glioma
@@ -723,6 +732,9 @@ IDH-mutant glioma with MGMT methylation shows strong alkylating agent sensitivit
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Cold-tumour interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, is suppressed by the 2-hydroxyglutarate (IDH already mapped), contributing to the immunologically cold microenvironment of IDH-mutant glioma.
 - `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells is dampened by the 2-hydroxyglutarate (IDH already mapped) immunosuppression of IDH-mutant glioma.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) response opposing the immunosuppressive, oncometabolite-driven (IDH already mapped) microenvironment of IDH-mutant glioma.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Immune-metabolic adipokine: leptin links the metabolic state to the immune response and, with the dexamethasone-induced metabolic syndrome, is part of the systemic milieu of IDH-mutant glioma.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic milieu, altered by the steroid therapy of IDH-mutant glioma.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), completes the adipokine dimension of the neuroinflammatory microenvironment of IDH-mutant glioma.
 
 [^mellinghoff-2023-vorasidenib-lgg]: Mellinghoff IK, van den Bent MJ, Blumenthal DT, et al. Vorasidenib in IDH1- or IDH2-mutant low-grade glioma. *N Engl J Med.* 2023;389(7):589-601. [doi:10.1056/NEJMoa2304194](https://doi.org/10.1056/NEJMoa2304194) · [PubMed 37272530](https://pubmed.ncbi.nlm.nih.gov/37272530/)
 [^jiao-2012-atrx-glioma]: Jiao Y, Killela PJ, Reitman ZJ, et al. Frequent ATRX, CIC, FUBP1 and IDH mutations refine the classification of malignant gliomas. *Oncotarget.* 2012;3(7):709-722. [doi:10.18632/oncotarget.588](https://doi.org/10.18632/oncotarget.588) · [PubMed 22869205](https://pubmed.ncbi.nlm.nih.gov/22869205/)

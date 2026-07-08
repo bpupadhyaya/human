@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/03-molecular/type-i-interferon
     relation: connects-to
     note: "Innate vascular interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, is part of the innate-immune vascular inflammation implicated in hypertension."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the T-cell-mediated vascular inflammation implicated in hypertension."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune/inflammatory vascular and renal injury of hypertension."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 counter-arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension balancing the pro-hypertensive Th1/Th17 immunity."
 ---
 
 # Hypertension
@@ -682,6 +691,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — T-cell hypertension: the IFN-γ of the T cells (IL-17 already mapped) infiltrating the vasculature and the kidney contributes to the immune/inflammatory component of hypertension.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Isoketal antigen presentation: the dendritic cells present the isolevuglandin-modified neoantigens that activate the T cells (IFN-γ already mapped) of the immune/inflammatory hypertension.
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate vascular interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, is part of the innate-immune vascular inflammation implicated in hypertension.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the T-cell-mediated vascular inflammation implicated in hypertension.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune/inflammatory vascular and renal injury of hypertension.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 counter-arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension balancing the pro-hypertensive Th1/Th17 immunity.
 
 ## Pathology
 
