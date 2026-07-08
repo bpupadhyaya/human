@@ -453,6 +453,15 @@ cross_links:
   - target: 01-human/03-molecular/il-23
     relation: connects-to
     note: "Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune response to the West Nile virus neuroinvasive infection."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "Complement C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) is part of the complement-mediated protection and neuroinflammation of the West Nile virus infection."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "BBB permeability: the bradykinin-kinin system increases the blood-brain-barrier permeability that facilitates the neuroinvasion of the West Nile virus into the brain (already mapped)."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Vascular permeability: the histamine, from the mast cells (already mapped), increases the vascular permeability that enhances the CNS entry of the West Nile virus."
 ---
 
 # West Nile Virus
@@ -718,3 +727,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension balancing the protective Th1 (IFN-γ and IL-12 already mapped) antiviral response to West Nile virus.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension of the immune response to the West Nile virus infection.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune response to the West Nile virus neuroinvasive infection.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — Complement C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) is part of the complement-mediated protection and neuroinflammation of the West Nile virus infection.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — BBB permeability: the bradykinin-kinin system increases the blood-brain-barrier permeability that facilitates the neuroinvasion of the West Nile virus into the brain (already mapped).
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Vascular permeability: the histamine, from the mast cells (already mapped), increases the vascular permeability that enhances the CNS entry of the West Nile virus.
