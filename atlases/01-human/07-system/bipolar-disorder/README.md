@@ -454,6 +454,15 @@ cross_links:
   - target: 01-human/07-system/type-2-diabetes
     relation: connects-to
     note: "Metabolic comorbidity: bipolar disorder carries a high type 2 diabetes and metabolic-syndrome (insulin and cholesterol already mapped) risk, worsened by the antipsychotics (leptin and adiponectin already mapped)."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate neuroinflammation: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, is part of the low-grade neuroinflammation (IL-6 and TNF already mapped) implicated in the mood episodes of bipolar disorder."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 neuroinflammation: the IFN-γ of the T cells is the type-II interferon arm of the immune dysregulation associated with bipolar disorder, more prominent in the manic episodes."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune-inflammatory dimension of bipolar disorder."
 ---
 
 # Bipolar Disorder
@@ -729,6 +738,9 @@ During bipolar depression (often longer and more disabling than mania):
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 neuroimmunity: IL-13, with IL-4 (already mapped), is the type-2 immune arm of the neuroinflammation (TNF and IL-6 already mapped) implicated in bipolar disorder.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Neuronal excitability: the neuronal excitability and the ion-channel (CACNA1C calcium) dysregulation and the mitochondrial (ATP already mapped) dysfunction of the neurons underlie the mood episodes of bipolar disorder.
 - `connects-to` → **[Type 2 diabetes](../type-2-diabetes/README.md)** — Metabolic comorbidity: bipolar disorder carries a high type 2 diabetes and metabolic-syndrome (insulin and cholesterol already mapped) risk, worsened by the antipsychotics (leptin and adiponectin already mapped).
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate neuroinflammation: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, is part of the low-grade neuroinflammation (IL-6 and TNF already mapped) implicated in the mood episodes of bipolar disorder.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 neuroinflammation: the IFN-γ of the T cells is the type-II interferon arm of the immune dysregulation associated with bipolar disorder, more prominent in the manic episodes.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune-inflammatory dimension of bipolar disorder.
 
 [^grande-2016-bipolar-review]: Grande I, Berk M, Birmaher B, Vieta E. Bipolar disorder. *Lancet.* 2016;387(10027):1561-1572. [doi:10.1016/S0140-6736(15)00241-X](https://doi.org/10.1016/S0140-6736(15)00241-X) · [PubMed 26388529](https://pubmed.ncbi.nlm.nih.gov/26388529/)
 [^geddes-2013-bipolar-treatment]: Geddes JR, Miklowitz DJ. Treatment of bipolar disorder. *Lancet.* 2013;381(9878):1672-1682. [doi:10.1016/S0140-6736(13)60857-0](https://doi.org/10.1016/S0140-6736(13)60857-0) · [PubMed 23663953](https://pubmed.ncbi.nlm.nih.gov/23663953/)

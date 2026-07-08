@@ -451,6 +451,15 @@ cross_links:
   - target: 01-human/04-cellular/adipocyte
     relation: connects-to
     note: "Mammary adipose niche: the mammary adipocytes (the source of leptin, adiponectin and resistin already mapped and the local aromatase oestrogen) form the tumour microenvironment driving the breast-cancer progression."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the anti-tumour immunity, exploited by the checkpoint (PD-1 already mapped) immunotherapy of triple-negative breast cancer."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) anti-tumour response of the breast-cancer immune microenvironment."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate antitumour interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment relevant to the immunotherapy of breast cancer."
 ---
 
 # Breast Cancer
@@ -701,6 +710,9 @@ cross_links:
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the obesity risk of the postmenopausal (estrogen already mapped) breast cancer.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Hepatic metastases: the liver is a common site of breast-cancer metastasis, the visceral disease of poorer prognosis.
 - `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Mammary adipose niche: the mammary adipocytes (the source of leptin, adiponectin and resistin already mapped and the local aromatase oestrogen) form the tumour microenvironment driving the breast-cancer progression.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the anti-tumour immunity, exploited by the checkpoint (PD-1 already mapped) immunotherapy of triple-negative breast cancer.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) anti-tumour response of the breast-cancer immune microenvironment.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate antitumour interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment relevant to the immunotherapy of breast cancer.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
