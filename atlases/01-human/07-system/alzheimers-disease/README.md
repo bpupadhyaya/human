@@ -478,6 +478,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Brain iron: transferrin, the iron carrier, is central to the brain-iron accumulation that, with the disordered iron handling, drives the oxidative stress and ferroptosis contributing to the neurodegeneration of Alzheimer's disease."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H, whose variants are Alzheimer's-risk loci, regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the complement-mediated synapse loss of Alzheimer's disease."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway (C1q-initiated) that tags the synapses for the microglial (already mapped) pruning of Alzheimer's disease."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "CNS-border antigen presentation: the dendritic cells of the meningeal and CNS-border compartments present antigen to the T cells (already mapped) in the neuroinflammation of Alzheimer's disease."
 ---
 
 # Alzheimer's Disease
@@ -730,6 +739,9 @@ Microglia play a central, dual role in AD:
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Meningeal mast cells: the mast cells of the meninges and the brain (already mapped) contribute to the neuroinflammation and the blood-brain-barrier dysfunction of Alzheimer's disease.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — Complement C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the microglial (already mapped) activation and the complement-mediated synapse loss of Alzheimer's disease.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Brain iron: transferrin, the iron carrier, is central to the brain-iron accumulation that, with the disordered iron handling, drives the oxidative stress and ferroptosis contributing to the neurodegeneration of Alzheimer's disease.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H, whose variants are Alzheimer's-risk loci, regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the complement-mediated synapse loss of Alzheimer's disease.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway (C1q-initiated) that tags the synapses for the microglial (already mapped) pruning of Alzheimer's disease.
+- `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — CNS-border antigen presentation: the dendritic cells of the meningeal and CNS-border compartments present antigen to the T cells (already mapped) in the neuroinflammation of Alzheimer's disease.
 
 [^selkoe-2016-alzheimer]: Selkoe DJ, Hardy J. The amyloid hypothesis of Alzheimer's disease at 25 years. *EMBO Mol Med.* 2016;8(6):595-608. [doi:10.15252/emmm.201606210](https://doi.org/10.15252/emmm.201606210) · [PubMed 27025652](https://pubmed.ncbi.nlm.nih.gov/27025652/)
 [^jack-2018-nia-aa]: Jack CR Jr, Bennett DA, Blennow K, et al. NIA-AA Research Framework: Toward a biological definition of Alzheimer's disease. *Alzheimers Dement.* 2018;14(4):535-562. [doi:10.1016/j.jalz.2018.02.018](https://doi.org/10.1016/j.jalz.2018.02.018) · [PubMed 29653606](https://pubmed.ncbi.nlm.nih.gov/29653606/)

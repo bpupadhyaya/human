@@ -478,6 +478,15 @@ cross_links:
   - target: 01-human/03-molecular/c5ar1
     relation: connects-to
     note: "C5a receptor: the C5aR1 signalling links the complement to the myeloid activation that sustains the inflammatory cytokine (IL-6 already mapped) drive of the anemia of chronic disease."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the chronic inflammatory response driving the anemia of chronic disease."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway activated by the immune complexes of the autoimmune and infectious drivers of the anemia of chronic disease."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Inflammatory matricellular: osteopontin, a pro-inflammatory matricellular cytokine, is part of the chronic-inflammatory milieu (with IL-6 and TNF-α already mapped) that suppresses the erythropoiesis of the anemia of chronic disease."
 ---
 
 # Anemia of Chronic Disease
@@ -755,6 +764,9 @@ This adaptive rationale explains why **aggressive iron supplementation during ac
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Inflammatory mast cells: the mast cells contribute to the chronic inflammatory milieu (IL-6 and TNF already mapped) that drives the hepcidin (already mapped) induction of the anemia of chronic disease.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its activation (with C3 already mapped) are part of the chronic inflammatory response of the infections and autoimmunity that drive the anemia of chronic disease.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling links the complement to the myeloid activation that sustains the inflammatory cytokine (IL-6 already mapped) drive of the anemia of chronic disease.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the chronic inflammatory response driving the anemia of chronic disease.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway activated by the immune complexes of the autoimmune and infectious drivers of the anemia of chronic disease.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Inflammatory matricellular: osteopontin, a pro-inflammatory matricellular cytokine, is part of the chronic-inflammatory milieu (with IL-6 and TNF-α already mapped) that suppresses the erythropoiesis of the anemia of chronic disease.
 
 [^weiss-2005-acd-review]: Weiss G, Goodnough LT. Anemia of chronic disease. *N Engl J Med.* 2005;352(10):1011-1023. [doi:10.1056/NEJMra041809](https://doi.org/10.1056/NEJMra041809) · [PubMed 15758012](https://pubmed.ncbi.nlm.nih.gov/15758012/)
 [^nemeth-2004-il6-hepcidin]: Nemeth E, Rivera S, Gabayan V, et al. IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin. *J Clin Invest.* 2004;113(9):1271-1276. [doi:10.1172/JCI200420945](https://doi.org/10.1172/JCI200420945) · [PubMed 15124018](https://pubmed.ncbi.nlm.nih.gov/15124018/)
