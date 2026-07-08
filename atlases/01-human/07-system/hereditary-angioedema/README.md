@@ -466,6 +466,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Antigen presentation: the dendritic cells present antigen (MHC already mapped) within the immune microenvironment accompanying hereditary angioedema."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway, complementing the C1-esterase-inhibitor (already mapped) control of the classical/lectin pathways and the contact (bradykinin already mapped) system dysregulated in hereditary angioedema."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Innate modulation: the macrophages, whose function the broadly anti-inflammatory C1-esterase inhibitor (already mapped) also modulates, are part of the innate-immune context of hereditary angioedema."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Adaptive context: the cytotoxic T cells (perforin pathway) are part of the subtle adaptive-immune dimension accompanying the complement/contact-system disorder of hereditary angioedema."
 ---
 
 # Hereditary Angioedema
@@ -750,6 +759,9 @@ Fluid extravasation → ANGIOEDEMA
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune milieu, distinguishing the bradykinin-mediated (already mapped) angioedema from the type-2/mast-cell (histamine already mapped) angioedema.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the subtle immune-inflammatory dimension accompanying hereditary angioedema.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Antigen presentation: the dendritic cells present antigen (MHC already mapped) within the immune microenvironment accompanying hereditary angioedema.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway, complementing the C1-esterase-inhibitor (already mapped) control of the classical/lectin pathways and the contact (bradykinin already mapped) system dysregulated in hereditary angioedema.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Innate modulation: the macrophages, whose function the broadly anti-inflammatory C1-esterase inhibitor (already mapped) also modulates, are part of the innate-immune context of hereditary angioedema.
+- `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Adaptive context: the cytotoxic T cells (perforin pathway) are part of the subtle adaptive-immune dimension accompanying the complement/contact-system disorder of hereditary angioedema.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)
