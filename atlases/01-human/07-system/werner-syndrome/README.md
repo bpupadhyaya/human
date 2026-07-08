@@ -466,6 +466,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Immunosenescent antigen presentation: the dendritic cells, with the age-associated decline in function, present antigen to the T cells (already mapped) in the immune dysregulation of Werner syndrome."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Inflammaging complement: the complement C3 activation is part of the chronic low-grade innate inflammation (inflammaging) of the accelerated ageing of Werner syndrome."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) links the complement to the macrophage (already mapped) inflammation of the inflammaging of Werner syndrome."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Immunosenescent surveillance: the cytotoxic T cells (perforin already mapped), with the age-associated exhaustion, provide the impaired surveillance of the senescent cells of Werner syndrome."
 ---
 
 # Werner Syndrome
@@ -778,6 +787,9 @@ cross_links:
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Aged-skin mast cells: the mast cells of the atrophic, scleroderma-like skin contribute to the type-2 (IgE already mapped) and inflammaging (IL-6 and TNF already mapped) dimension of Werner syndrome.
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 inflammaging source: the CD4 T-helper cells, with immunosenescence, are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines of the chronic inflammaging of Werner syndrome.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Immunosenescent antigen presentation: the dendritic cells, with the age-associated decline in function, present antigen to the T cells (already mapped) in the immune dysregulation of Werner syndrome.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Inflammaging complement: the complement C3 activation is part of the chronic low-grade innate inflammation (inflammaging) of the accelerated ageing of Werner syndrome.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) links the complement to the macrophage (already mapped) inflammation of the inflammaging of Werner syndrome.
+- `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Immunosenescent surveillance: the cytotoxic T cells (perforin already mapped), with the age-associated exhaustion, provide the impaired surveillance of the senescent cells of Werner syndrome.
 
 [^yu-1996-wrn]: Yu CE, Oshima J, Fu YH, et al. Positional cloning of the Werner's syndrome gene. *Science.* 1996;272(5259):258-262. [doi:10.1126/science.272.5259.258](https://doi.org/10.1126/science.272.5259.258) · [PubMed 8602509](https://pubmed.ncbi.nlm.nih.gov/8602509/)
 [^lauper-2013-wrn-neoplasia]: Lauper JM, Krause A, Vaughan TL, Monnat RJ Jr. Spectrum and risk of neoplasia in Werner syndrome: a systematic review. *PLoS One.* 2013;8(4):e59709. [doi:10.1371/journal.pone.0059709](https://doi.org/10.1371/journal.pone.0059709) · [PubMed 23579047](https://pubmed.ncbi.nlm.nih.gov/23579047/)

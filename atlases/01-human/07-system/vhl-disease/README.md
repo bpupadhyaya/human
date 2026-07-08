@@ -466,6 +466,15 @@ cross_links:
   - target: 01-human/03-molecular/c5ar1
     relation: connects-to
     note: "C5a receptor: the C5aR1 signalling recruits and polarises the myeloid cells to an immunosuppressive phenotype in the VHL-associated tumour microenvironment."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Central complement: the complement C3, upstream of the C5 and C5aR1 (already mapped), is the pivot of the complement activation within the highly vascular VHL-associated tumour microenvironment."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement evasion: the VHL-associated tumour cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), evading the complement attack within the tumour microenvironment."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical-pathway regulation: the C1-esterase inhibitor regulates the classical and lectin complement pathways within the VHL-associated tumour microenvironment, complementing the alternative-pathway control by factor H (already mapped)."
 ---
 
 # VHL Disease
@@ -737,6 +746,9 @@ The genotype-phenotype correlation reflects the degree of pVHL function retained
 - `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Tertiary lymphoid structures: the B cells organise the tertiary lymphoid structures whose presence, with the CD8 (already mapped) TILs, predicts the checkpoint (PD-1 already mapped) response of the VHL-associated clear-cell renal cell carcinoma (already mapped).
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a contribute to the inflammatory and immunosuppressive dimension of the highly vascular VHL-associated tumour microenvironment.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling recruits and polarises the myeloid cells to an immunosuppressive phenotype in the VHL-associated tumour microenvironment.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Central complement: the complement C3, upstream of the C5 and C5aR1 (already mapped), is the pivot of the complement activation within the highly vascular VHL-associated tumour microenvironment.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the VHL-associated tumour cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), evading the complement attack within the tumour microenvironment.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical and lectin complement pathways within the VHL-associated tumour microenvironment, complementing the alternative-pathway control by factor H (already mapped).
 
 [^lonser-2003-vhl-disease]: Lonser RR, Glenn GM, Walther M, et al. von Hippel-Lindau disease. *Lancet.* 2003;361(9374):2059-2067. [doi:10.1016/S0140-6736(03)13643-4](https://doi.org/10.1016/S0140-6736(03)13643-4) · [PubMed 12814730](https://pubmed.ncbi.nlm.nih.gov/12814730/)
 [^choueiri-2020-hif2-rcc]: Choueiri TK, Kaelin WG Jr. Targeting the HIF2-VEGF axis in renal cell carcinoma. *Nat Med.* 2020;26(10):1519-1530. [doi:10.1038/s41591-020-1093-z](https://doi.org/10.1038/s41591-020-1093-z) · [PubMed 33020650](https://pubmed.ncbi.nlm.nih.gov/33020650/)
