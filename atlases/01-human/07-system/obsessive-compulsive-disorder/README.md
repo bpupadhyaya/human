@@ -485,6 +485,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "Peripheral innate arm: the NK cells (perforin pathway) are part of the peripheral innate-immune dysregulation reported in obsessive-compulsive disorder."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement: the complement C5 and its C5a (with C3 already mapped) are part of the complement activation of the PANDAS/PANS autoimmune neuroinflammation implicated in obsessive-compulsive disorder."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) links the complement to the microglial (already mapped) basal-ganglia neuroinflammation of obsessive-compulsive disorder."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Autoimmune priming: the dendritic cells present the streptococcal (already mapped) antigen in the PANDAS/PANS subset, priming the T cells (already mapped) of the basal-ganglia autoimmunity of obsessive-compulsive disorder."
 ---
 
 # Obsessive-Compulsive Disorder
@@ -765,6 +774,9 @@ OCD is often underdiagnosed due to shame and secrecy. Mean time from symptom ons
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Meningeal mast cells: the mast cells of the meninges and the brain (already mapped) contribute to the neuroinflammation implicated in obsessive-compulsive disorder.
 - `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Autoimmune arm: the cytotoxic T cells (perforin pathway), in the PANDAS/PANS autoimmune subset triggered by the streptococcus (already mapped), contribute to the basal-ganglia targeting of obsessive-compulsive disorder.
 - `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Peripheral innate arm: the NK cells (perforin pathway) are part of the peripheral innate-immune dysregulation reported in obsessive-compulsive disorder.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 already mapped) are part of the complement activation of the PANDAS/PANS autoimmune neuroinflammation implicated in obsessive-compulsive disorder.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) links the complement to the microglial (already mapped) basal-ganglia neuroinflammation of obsessive-compulsive disorder.
+- `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Autoimmune priming: the dendritic cells present the streptococcal (already mapped) antigen in the PANDAS/PANS subset, priming the T cells (already mapped) of the basal-ganglia autoimmunity of obsessive-compulsive disorder.
 
 [^abramowitz-2009-ocd-review]: Abramowitz JS, Taylor S, McKay D. Obsessive-compulsive disorder. *Lancet.* 2009;374(9688):491-499. [doi:10.1016/S0140-6736(09)60240-3](https://doi.org/10.1016/S0140-6736(09)60240-3) · [PubMed 19665647](https://pubmed.ncbi.nlm.nih.gov/19665647/)
 [^chamberlain-2008-ocd-neuroscience]: Chamberlain SR, Menzies L, Hampshire A, et al. Orbitofrontal dysfunction in patients with OCD and their unaffected relatives. *Science.* 2008;321(5887):421-422. [doi:10.1126/science.1154433](https://doi.org/10.1126/science.1154433) · [PubMed 18635808](https://pubmed.ncbi.nlm.nih.gov/18635808/)

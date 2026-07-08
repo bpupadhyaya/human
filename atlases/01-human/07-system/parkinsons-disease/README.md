@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/c5ar1
     relation: connects-to
     note: "Complement C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) links the complement to the microglial (already mapped) neuroinflammation of Parkinson's disease."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement: the complement C5 and its C5a (with C3 and C5aR1 already mapped) contribute to the complement-driven microglial neuroinflammation of Parkinson's disease."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the neuroinflammation of Parkinson's disease."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Border-associated macrophages: the CNS-border and infiltrating macrophages contribute to the clearance of the alpha-synuclein (already mapped) and the neuroinflammation of Parkinson's disease."
 ---
 
 # Parkinson's Disease
@@ -766,6 +775,9 @@ PD is primarily a disease of aging (mean onset ~60 years), but **~10–15% of ca
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Nigral iron: transferrin, the iron carrier, is central to the iron accumulation in the substantia nigra that, with the disordered ferroportin and hepcidin (already mapped), drives the oxidative stress and ferroptosis of the dopaminergic neurons of Parkinson's disease.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Antigen presentation: the dendritic cells of the CNS-border and peripheral compartments present the alpha-synuclein (already mapped) epitopes to the T cells (already mapped), priming the adaptive autoimmunity implicated in Parkinson's disease.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — Complement C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) links the complement to the microglial (already mapped) neuroinflammation of Parkinson's disease.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 and C5aR1 already mapped) contribute to the complement-driven microglial neuroinflammation of Parkinson's disease.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the neuroinflammation of Parkinson's disease.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Border-associated macrophages: the CNS-border and infiltrating macrophages contribute to the clearance of the alpha-synuclein (already mapped) and the neuroinflammation of Parkinson's disease.
 
 [^kalia-2015-pd-review]: Kalia LV, Lang AE. Parkinson's disease. *Lancet.* 2015;386(9996):896-912. [doi:10.1016/S0140-6736(14)61393-3](https://doi.org/10.1016/S0140-6736(14)61393-3) · [PubMed 25904081](https://pubmed.ncbi.nlm.nih.gov/25904081/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
