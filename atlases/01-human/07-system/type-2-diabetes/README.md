@@ -472,6 +472,15 @@ cross_links:
   - target: 01-human/04-cellular/mast-cell
     relation: connects-to
     note: "Adipose mast cells: the mast cells accumulate in the inflamed adipose tissue and contribute to the chronic low-grade inflammation and the insulin resistance of type 2 diabetes."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "Adipose B cells: the B cells accumulate in the inflamed adipose tissue and, through pathogenic antibodies and cytokines, promote the insulin resistance of type 2 diabetes."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Adipose antigen presentation: the dendritic cells of the inflamed adipose tissue present antigen to the T cells (already mapped) and sustain the chronic low-grade inflammation of type 2 diabetes."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) links the complement to the macrophage (already mapped) recruitment into the inflamed adipose tissue of type 2 diabetes."
 ---
 
 # Type 2 Diabetes
@@ -726,6 +735,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — Adipose CD4 arm: the CD4 T-helper cells shift toward the Th1/Th17 (IFN-γ and IL-17 already mapped) phenotype in the inflamed adipose tissue, driving the insulin resistance of type 2 diabetes.
 - `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Adipose CD8 initiator: the CD8 T cells (perforin already mapped) infiltrate the adipose tissue early and recruit and activate the macrophages (already mapped) that drive the insulin resistance of type 2 diabetes.
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Adipose mast cells: the mast cells accumulate in the inflamed adipose tissue and contribute to the chronic low-grade inflammation and the insulin resistance of type 2 diabetes.
+- `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Adipose B cells: the B cells accumulate in the inflamed adipose tissue and, through pathogenic antibodies and cytokines, promote the insulin resistance of type 2 diabetes.
+- `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Adipose antigen presentation: the dendritic cells of the inflamed adipose tissue present antigen to the T cells (already mapped) and sustain the chronic low-grade inflammation of type 2 diabetes.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) links the complement to the macrophage (already mapped) recruitment into the inflamed adipose tissue of type 2 diabetes.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

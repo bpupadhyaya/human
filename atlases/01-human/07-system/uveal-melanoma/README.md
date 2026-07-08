@@ -466,6 +466,15 @@ cross_links:
   - target: 01-human/03-molecular/c5ar1
     relation: connects-to
     note: "C5a receptor: the C5aR1 signalling recruits and polarises the myeloid cells to an immunosuppressive phenotype in the uveal-melanoma microenvironment."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Central complement: the complement C3, upstream of the C5 and C5aR1 (already mapped), is the pivot of the complement activation within the immunosuppressive uveal-melanoma microenvironment."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement evasion: the uveal-melanoma cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), evading the complement attack in the primary tumour and its hepatic (liver already mapped) metastatic niche."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Tumour iron: transferrin, the iron carrier, supplies the iron demand of the uveal-melanoma cells and their iron-rich hepatic (liver already mapped) metastatic niche."
 ---
 
 # Uveal Melanoma
@@ -752,6 +761,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Tertiary lymphoid structures: the B cells and the tertiary lymphoid structures, though scarce in the immunologically cold uveal melanoma, are a candidate correlate of the tebentafusp response.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a contribute to the inflammatory and immunosuppressive dimension of the uveal-melanoma microenvironment and its hepatic (liver already mapped) metastatic niche.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling recruits and polarises the myeloid cells to an immunosuppressive phenotype in the uveal-melanoma microenvironment.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Central complement: the complement C3, upstream of the C5 and C5aR1 (already mapped), is the pivot of the complement activation within the immunosuppressive uveal-melanoma microenvironment.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the uveal-melanoma cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), evading the complement attack in the primary tumour and its hepatic (liver already mapped) metastatic niche.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Tumour iron: transferrin, the iron carrier, supplies the iron demand of the uveal-melanoma cells and their iron-rich hepatic (liver already mapped) metastatic niche.
 
 ---
 
