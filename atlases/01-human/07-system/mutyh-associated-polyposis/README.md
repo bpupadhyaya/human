@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/03-molecular/il-5
     relation: connects-to
     note: "Eosinophil arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), recruits the eosinophils of the immune infiltrate of the adenomas of MUTYH-associated polyposis."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the inflammatory infiltrate along the adenoma-carcinoma sequence of MUTYH-associated polyposis."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the inflamed adenoma stroma of MUTYH-associated polyposis."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Adenoma stroma: the fibroblasts and the desmoplastic stroma support the accumulating adenomas along the adenoma-carcinoma sequence of MUTYH-associated polyposis."
 ---
 
 # MUTYH-Associated Polyposis
@@ -708,6 +717,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 immunosurveillance: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the immunosurveillance of the colorectal-cancer risk of MUTYH-associated polyposis.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) anti-tumour response of the immune infiltrate along the adenoma-carcinoma sequence of MUTYH-associated polyposis.
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Eosinophil arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), recruits the eosinophils of the immune infiltrate of the adenomas of MUTYH-associated polyposis.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the inflammatory infiltrate along the adenoma-carcinoma sequence of MUTYH-associated polyposis.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the inflamed adenoma stroma of MUTYH-associated polyposis.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Adenoma stroma: the fibroblasts and the desmoplastic stroma support the accumulating adenomas along the adenoma-carcinoma sequence of MUTYH-associated polyposis.
 
 ---
 
