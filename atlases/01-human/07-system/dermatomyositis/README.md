@@ -463,6 +463,15 @@ cross_links:
   - target: 01-human/03-molecular/il-5
     relation: connects-to
     note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension balancing the type-I interferon (already mapped) and Th1/Th17 (IFN-γ and IL-17 already mapped) drive of dermatomyositis."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast-cell infiltrate: the mast cells infiltrate the perivascular skin and muscle lesions and contribute to the type-2 (IL-4 and IL-13 already mapped) dimension of dermatomyositis."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Neutrophil infiltrate: the neutrophils and the NETs (S100A8/9 already mapped) contribute to the vasculopathy and the anti-MDA5 rapidly-progressive ILD of dermatomyositis."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), reflects the type-2 immune dimension of the mixed immune profile of dermatomyositis."
 ---
 ---
 
@@ -737,6 +746,9 @@ DM carries a ~3–7× elevated cancer risk overall. Anti-TIF1γ (TRIM33) suppres
 - `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Innate cytotoxicity: the NK cells (perforin already mapped) contribute to the innate immune dysregulation and the type-I interferon (already mapped) milieu of dermatomyositis.
 - `connects-to` → **[Rheumatoid arthritis](../rheumatoid-arthritis/README.md)** — Autoimmune overlap: dermatomyositis can overlap with rheumatoid arthritis and other connective-tissue diseases (systemic sclerosis already mapped), sharing the autoimmune (immunoglobulin already mapped) mechanisms and the rituximab (CD20 already mapped) treatment.
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension balancing the type-I interferon (already mapped) and Th1/Th17 (IFN-γ and IL-17 already mapped) drive of dermatomyositis.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Mast-cell infiltrate: the mast cells infiltrate the perivascular skin and muscle lesions and contribute to the type-2 (IL-4 and IL-13 already mapped) dimension of dermatomyositis.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophil infiltrate: the neutrophils and the NETs (S100A8/9 already mapped) contribute to the vasculopathy and the anti-MDA5 rapidly-progressive ILD of dermatomyositis.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), reflects the type-2 immune dimension of the mixed immune profile of dermatomyositis.
 
 [^bohan-peter-1975-dm-criteria]: Bohan A, Peter JB. Polymyositis and dermatomyositis. *N Engl J Med.* 1975;292(7):344-347. [doi:10.1056/NEJM197502132920706](https://doi.org/10.1056/NEJM197502132920706) · [PubMed 1090839](https://pubmed.ncbi.nlm.nih.gov/1090839/)
 [^lundberg-2021-iim-classification]: Lundberg IE, et al. 2017 EULAR/ACR classification criteria for adult and juvenile idiopathic inflammatory myopathies. *Arthritis Rheumatol.* 2017;69(12):2271-2282. [doi:10.1002/art.40320](https://doi.org/10.1002/art.40320) · [PubMed 29106061](https://pubmed.ncbi.nlm.nih.gov/29106061/)

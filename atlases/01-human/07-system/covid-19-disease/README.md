@@ -457,6 +457,15 @@ cross_links:
   - target: 01-human/03-molecular/il-13
     relation: connects-to
     note: "Type-2 imbalance: IL-13, with IL-4 (already mapped), completes the type-2/Th2 arm of the dysregulated type-1/type-2 balance of severe COVID-19."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2/eosinophil arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension whose blood eosinopenia is a marker of severe COVID-19."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the dysregulated inflammation of severe COVID-19."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the dysregulated type-1/type-2 balance of COVID-19."
 ---
 
 # COVID-19 Disease
@@ -668,6 +677,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[SARS-CoV-2](../../../02-pathogen/01-viruses/sars-cov-2/README.md)** — Causative virus: COVID-19 is caused by SARS-CoV-2, whose spike (already mapped) engages the ACE2 (already mapped) receptor for cell entry, the coronavirus of the pandemic.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 antiviral arm: IL-12 polarises the Th1 (IFN-γ already mapped) antiviral response, part of the type-1 immunity against SARS-CoV-2 in COVID-19.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 imbalance: IL-13, with IL-4 (already mapped), completes the type-2/Th2 arm of the dysregulated type-1/type-2 balance of severe COVID-19.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2/eosinophil arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension whose blood eosinopenia is a marker of severe COVID-19.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the dysregulated inflammation of severe COVID-19.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the dysregulated type-1/type-2 balance of COVID-19.
 
 ## Pathology
 
