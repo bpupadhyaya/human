@@ -466,6 +466,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), reflects the type-2 immune dimension of the immune profile of Noonan syndrome."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines of the immune-inflammatory dimension of Noonan syndrome."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast cells: the mast cells (via the KIT-adjacent RAS/MAPK signalling, ERK already mapped) contribute to the type-2 (IgE already mapped) immune dimension of Noonan syndrome."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement: the complement C3 activation is part of the innate immune dimension and the lymphatic-dysplasia-associated inflammation of Noonan syndrome."
 ---
 
 # Noonan Syndrome
@@ -753,6 +762,9 @@ NS is characterized by four cardinal features: **(1) short stature** (below 3rd 
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Th17 effector: IL-17A is the Th17 effector cytokine complementing the Th1/type-2 (IFN-γ, IL-4, IL-5 and IL-13 already mapped) balance of the immune profile of Noonan syndrome.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 arm) of the immune-inflammatory dimension of Noonan syndrome.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), reflects the type-2 immune dimension of the immune profile of Noonan syndrome.
+- `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines of the immune-inflammatory dimension of Noonan syndrome.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Mast cells: the mast cells (via the KIT-adjacent RAS/MAPK signalling, ERK already mapped) contribute to the type-2 (IgE already mapped) immune dimension of Noonan syndrome.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement: the complement C3 activation is part of the innate immune dimension and the lymphatic-dysplasia-associated inflammation of Noonan syndrome.
 
 [^tartaglia-2001-ptpn11-noonan]: Tartaglia M, Mehler EL, Goldberg R, et al. Mutations in PTPN11, encoding the protein tyrosine phosphatase SHP-2, cause Noonan syndrome. *Nat Genet.* 2001;29(4):465-468. [doi:10.1038/ng772](https://doi.org/10.1038/ng772) · [PubMed 11704759](https://pubmed.ncbi.nlm.nih.gov/11704759/)
 [^van-der-burgt-2007-noonan-review]: van der Burgt I. Noonan syndrome. *Orphanet J Rare Dis.* 2007;2:4. [doi:10.1186/1750-1172-2-4](https://doi.org/10.1186/1750-1172-2-4) · [PubMed 17222357](https://pubmed.ncbi.nlm.nih.gov/17222357/)
