@@ -466,6 +466,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the immune microenvironment of NASH."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th17 (IFN-γ and IL-17 already mapped) cytokines that drive the lobular inflammation and the fibrosis of NASH."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Hepatic mast cells: the mast cells accumulate in the fibrosing liver (already mapped) and, via their mediators, promote the stellate-cell (fibroblast already mapped) activation and fibrosis of NASH."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement: the complement C5 and its activation (with C3 already mapped) contribute to the Kupffer-cell (macrophage already mapped) activation and the lobular inflammation of NASH."
 ---
 
 # NASH
@@ -704,6 +713,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune microenvironment of the steatohepatitis of NASH.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune-mediated inflammation and fibrosis of NASH.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the immune microenvironment of NASH.
+- `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th17 (IFN-γ and IL-17 already mapped) cytokines that drive the lobular inflammation and the fibrosis of NASH.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Hepatic mast cells: the mast cells accumulate in the fibrosing liver (already mapped) and, via their mediators, promote the stellate-cell (fibroblast already mapped) activation and fibrosis of NASH.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its activation (with C3 already mapped) contribute to the Kupffer-cell (macrophage already mapped) activation and the lobular inflammation of NASH.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
