@@ -454,6 +454,15 @@ cross_links:
   - target: 01-human/03-molecular/il-5
     relation: connects-to
     note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 arm of the immunosuppressive microenvironment of pancreatic cancer."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "NK dysfunction: the natural killer cells (perforin already mapped) are suppressed and excluded by the desmoplastic (fibroblast already mapped), immunologically cold microenvironment of pancreatic cancer."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the pro-tumorigenic inflammation of pancreatic cancer."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the pancreatic-cancer microenvironment."
 ---
 
 # Pancreatic Cancer
@@ -719,6 +728,9 @@ cross_links:
 - `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 antitumour arm: the IFN-γ of the (sparse) tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm largely excluded by the desmoplastic, immunosuppressive stroma of pancreatic cancer.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) anti-tumour response, explored against the immunologically cold pancreatic cancer.
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 arm of the immunosuppressive microenvironment of pancreatic cancer.
+- `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — NK dysfunction: the natural killer cells (perforin already mapped) are suppressed and excluded by the desmoplastic (fibroblast already mapped), immunologically cold microenvironment of pancreatic cancer.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the pro-tumorigenic inflammation of pancreatic cancer.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the pancreatic-cancer microenvironment.
 
 ---
 
