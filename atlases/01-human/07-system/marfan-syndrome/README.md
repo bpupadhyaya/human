@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/03-molecular/ifn-gamma
     relation: connects-to
     note: "Aortic Th1 inflammation: the IFN-γ of the T cells infiltrating the aortic wall is part of the immune-inflammatory (TGF-β already mapped) dimension of the Marfan aneurysm."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune-inflammatory dimension of the Marfan aortic-wall disease."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate vascular interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, is part of the innate-immune vascular inflammation of the Marfan aortic aneurysm."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune milieu of the Marfan aortic wall."
 ---
 
 # Marfan Syndrome
@@ -730,6 +739,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Body-composition adipokine: resistin, with leptin and adiponectin (already mapped), completes the adipokine profile of the altered body composition and metabolism of Marfan syndrome.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Aortic-wall macrophages: the macrophage infiltration and the inflammation (CCL2 and IL-6 already mapped) of the aortic media contribute to the aneurysm progression of Marfan syndrome.
 - `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Aortic Th1 inflammation: the IFN-γ of the T cells infiltrating the aortic wall is part of the immune-inflammatory (TGF-β already mapped) dimension of the Marfan aneurysm.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune-inflammatory dimension of the Marfan aortic-wall disease.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate vascular interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, is part of the innate-immune vascular inflammation of the Marfan aortic aneurysm.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune milieu of the Marfan aortic wall.
 
 ---
 
