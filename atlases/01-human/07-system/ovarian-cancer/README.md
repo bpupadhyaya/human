@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/03-molecular/il-5
     relation: connects-to
     note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 arm of the immune microenvironment of the ovarian-cancer peritoneal niche."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "Tertiary lymphoid B-cell response: the plasma cells and B cells of the tumour tertiary lymphoid structures produce antibody (already mapped) and, with the CD8 TILs (already mapped), predict a favourable prognosis in ovarian cancer."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the inflammatory dimension of the ovarian-cancer peritoneal microenvironment."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2/AllergoOncology arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), is the antibody arm explored in the AllergoOncology anti-tumour response against ovarian cancer."
 ---
 
 # Ovarian Cancer
@@ -707,6 +716,9 @@ FTSEC ciliated and secretory cells line the Fallopian tube; secretory cells are 
 - `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the anti-tumour immunity of the immunogenic HRD ovarian cancer.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) anti-tumour response of the ovarian-cancer immune microenvironment.
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 arm of the immune microenvironment of the ovarian-cancer peritoneal niche.
+- `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — Tertiary lymphoid B-cell response: the plasma cells and B cells of the tumour tertiary lymphoid structures produce antibody (already mapped) and, with the CD8 TILs (already mapped), predict a favourable prognosis in ovarian cancer.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the inflammatory dimension of the ovarian-cancer peritoneal microenvironment.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2/AllergoOncology arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), is the antibody arm explored in the AllergoOncology anti-tumour response against ovarian cancer.
 
 [^burger-2011-gog0218]: Burger RA, Brady MF, Bookman MA, et al. Incorporation of bevacizumab in the primary treatment of ovarian cancer. *N Engl J Med.* 2011;365(26):2473-2483. [doi:10.1056/NEJMoa1104390](https://doi.org/10.1056/NEJMoa1104390) · [PubMed 22204724](https://pubmed.ncbi.nlm.nih.gov/22204724/)
 [^moore-2018-olaparib-solo1]: Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. *N Engl J Med.* 2018;379(26):2495-2505. [doi:10.1056/NEJMoa1810858](https://doi.org/10.1056/NEJMoa1810858) · [PubMed 30345884](https://pubmed.ncbi.nlm.nih.gov/30345884/)
