@@ -463,6 +463,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the pancreatic-cancer microenvironment."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Desmoplastic mast cells: the mast cells infiltrate the desmoplastic stroma (collagen already mapped) and contribute to the angiogenesis (VEGF already mapped) and type-2 microenvironment of pancreatic cancer."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) recruits and polarises the myeloid-derived suppressor cells that drive the profound immunosuppression of the pancreatic-cancer microenvironment."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Stromal vitamin: the vitamin D receptor ligand reprogrammes the activated stellate cells/fibroblasts (already mapped) of the desmoplastic stroma, a candidate stromal-modulating strategy in pancreatic cancer."
 ---
 
 # Pancreatic Cancer
@@ -731,6 +740,9 @@ cross_links:
 - `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — NK dysfunction: the natural killer cells (perforin already mapped) are suppressed and excluded by the desmoplastic (fibroblast already mapped), immunologically cold microenvironment of pancreatic cancer.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the pro-tumorigenic inflammation of pancreatic cancer.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the pancreatic-cancer microenvironment.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Desmoplastic mast cells: the mast cells infiltrate the desmoplastic stroma (collagen already mapped) and contribute to the angiogenesis (VEGF already mapped) and type-2 microenvironment of pancreatic cancer.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) recruits and polarises the myeloid-derived suppressor cells that drive the profound immunosuppression of the pancreatic-cancer microenvironment.
+- `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Stromal vitamin: the vitamin D receptor ligand reprogrammes the activated stellate cells/fibroblasts (already mapped) of the desmoplastic stroma, a candidate stromal-modulating strategy in pancreatic cancer.
 
 ---
 
