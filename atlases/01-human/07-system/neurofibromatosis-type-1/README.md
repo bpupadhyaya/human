@@ -466,6 +466,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Antigen presentation: the dendritic cells present antigen to the T cells (already mapped) shaping the adaptive immune response within the neurofibromas of neurofibromatosis type 1."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "Tertiary lymphoid structures: the B cells organise the tertiary lymphoid structures whose presence, with the CD8 (already mapped) TILs, may mark the immune response within the neurofibromas of neurofibromatosis type 1."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Innate surveillance: the NK cells (perforin already mapped) provide the innate cytotoxic surveillance against the malignant (MPNST already mapped) transformation of the neurofibromas of neurofibromatosis type 1."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Neurofibroma complement: the complement C3 activation contributes to the inflammatory dimension of the mast-cell-rich (already mapped) neurofibroma microenvironment of neurofibromatosis type 1."
 ---
 
 # Neurofibromatosis Type 1
@@ -728,6 +737,9 @@ In glioma and MPNST: additional alterations required — MPNST requires CDKN2A/2
 - `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Cytotoxic infiltrate: the cytotoxic T cells (perforin already mapped) of the neurofibroma microenvironment provide the adaptive immune surveillance against the malignant transformation to MPNST (already mapped) in neurofibromatosis type 1.
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines of the mast-cell-rich (already mapped) neurofibroma microenvironment of neurofibromatosis type 1.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Antigen presentation: the dendritic cells present antigen to the T cells (already mapped) shaping the adaptive immune response within the neurofibromas of neurofibromatosis type 1.
+- `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Tertiary lymphoid structures: the B cells organise the tertiary lymphoid structures whose presence, with the CD8 (already mapped) TILs, may mark the immune response within the neurofibromas of neurofibromatosis type 1.
+- `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Innate surveillance: the NK cells (perforin already mapped) provide the innate cytotoxic surveillance against the malignant (MPNST already mapped) transformation of the neurofibromas of neurofibromatosis type 1.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Neurofibroma complement: the complement C3 activation contributes to the inflammatory dimension of the mast-cell-rich (already mapped) neurofibroma microenvironment of neurofibromatosis type 1.
 
 [^gutmann-2017-nf1-primer]: Gutmann DH, Ferner RE, Listernick RH, et al. Neurofibromatosis type 1. *Nat Rev Dis Primers.* 2017;3:17004. [doi:10.1038/nrdp.2017.4](https://doi.org/10.1038/nrdp.2017.4) · [PubMed 28230061](https://pubmed.ncbi.nlm.nih.gov/28230061/)
 [^dombi-2016-selumetinib]: Dombi E, Baldwin A, Marcus LJ, et al. Activity of Selumetinib in Neurofibromatosis Type 1-Related Plexiform Neurofibromas. *N Engl J Med.* 2016;375(26):2550-2560. [doi:10.1056/NEJMoa1605943](https://doi.org/10.1056/NEJMoa1605943) · [PubMed 28029918](https://pubmed.ncbi.nlm.nih.gov/28029918/)

@@ -466,6 +466,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Antigen presentation: the dendritic cells present the tumour antigen to the T cells (already mapped) shaping the adaptive immune response against the neuroendocrine tumours."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "Tertiary lymphoid structures: the B cells organise the tertiary lymphoid structures whose presence, with the CD8 (already mapped) TILs, may mark the immune response of the neuroendocrine tumours."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Innate cytotoxicity: the NK cells (perforin already mapped) provide the innate cytotoxic surveillance within the immune microenvironment of the neuroendocrine tumours."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Tumour complement: the complement C3 activation contributes to the inflammatory dimension of the well-vascularised (VEGF already mapped) neuroendocrine tumour stroma."
 ---
 
 # Neuroendocrine Tumors
@@ -682,6 +691,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Stromal mast cells: the mast cells of the tumour stroma contribute to the angiogenesis (VEGF already mapped) and the type-2 microenvironment of the neuroendocrine tumours.
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines shaping the immune microenvironment of the neuroendocrine tumours.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Antigen presentation: the dendritic cells present the tumour antigen to the T cells (already mapped) shaping the adaptive immune response against the neuroendocrine tumours.
+- `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Tertiary lymphoid structures: the B cells organise the tertiary lymphoid structures whose presence, with the CD8 (already mapped) TILs, may mark the immune response of the neuroendocrine tumours.
+- `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Innate cytotoxicity: the NK cells (perforin already mapped) provide the innate cytotoxic surveillance within the immune microenvironment of the neuroendocrine tumours.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Tumour complement: the complement C3 activation contributes to the inflammatory dimension of the well-vascularised (VEGF already mapped) neuroendocrine tumour stroma.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Hypervascular tumours: HIF-1α-driven, VEGF-rich angiogenesis makes neuroendocrine tumours strikingly vascular, the rationale for anti-angiogenic agents such as sunitinib.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Grade and progression: TERT activation maintaining telomeres accompanies the progression of neuroendocrine tumours toward higher-grade, more aggressive disease.
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Proliferative drive: MYC activation drives the higher proliferative rate of poorly differentiated neuroendocrine carcinomas, marking their aggressive behaviour.
