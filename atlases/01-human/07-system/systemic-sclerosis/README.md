@@ -454,6 +454,15 @@ cross_links:
   - target: 01-human/03-molecular/il-12
     relation: connects-to
     note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm balancing the Th2 (IL-4 and IL-13 already mapped) profibrotic drive of systemic sclerosis."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 profibrotic arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the profibrotic immune drive of systemic sclerosis."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the inflammatory-fibrotic dimension of systemic sclerosis."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the profibrotic autoimmunity of systemic sclerosis."
 ---
 
 # Systemic Sclerosis
@@ -713,6 +722,9 @@ Identical to IPAH: medial hypertrophy, intimal fibrosis, concentric laminar inti
 - `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — Autoantibody plasma cells: the plasma cells (from the B cells — CD20 and BAFF already mapped) secrete the anti-Scl-70/centromere autoantibodies (immunoglobulin already mapped) of systemic sclerosis.
 - `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 arm: the IFN-γ of the T cells (with the type-I interferon already mapped) is the type-II interferon arm of the immune dysregulation of systemic sclerosis.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm balancing the Th2 (IL-4 and IL-13 already mapped) profibrotic drive of systemic sclerosis.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 profibrotic arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the profibrotic immune drive of systemic sclerosis.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the inflammatory-fibrotic dimension of systemic sclerosis.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the profibrotic autoimmunity of systemic sclerosis.
 
 [^denton-2017-ssc-review]: Denton CP, Khanna D. Systemic sclerosis. *Lancet.* 2017;390(10103):1685-1699. [doi:10.1016/S0140-6736(17)30933-9](https://doi.org/10.1016/S0140-6736(17)30933-9) · [PubMed 28413064](https://pubmed.ncbi.nlm.nih.gov/28413064/)
 [^distler-2019-nintedanib-senscis]: Distler O, Highland KB, Gahlemann M, et al. Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease. *N Engl J Med.* 2019;380(26):2518-2528. [doi:10.1056/NEJMoa1903076](https://doi.org/10.1056/NEJMoa1903076) · [PubMed 31112379](https://pubmed.ncbi.nlm.nih.gov/31112379/)
