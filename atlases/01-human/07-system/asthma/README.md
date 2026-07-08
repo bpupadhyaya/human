@@ -466,6 +466,15 @@ cross_links:
   - target: 01-human/07-system/prurigo-nodularis
     relation: connects-to
     note: "Atopic-march overlap: asthma shares the type-2 (IL-4, IL-5, IL-13 and TSLP already mapped) immunity with prurigo nodularis, another atopic-spectrum type-2 disease treated with the shared biologics."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "Anaphylatoxin receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) is part of the complement/anaphylatoxin contribution to the airway inflammation of asthma."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Platelet in airway: the platelets, via the platelet-eosinophil aggregates and the release of mediators, contribute to the airway inflammation and remodelling of asthma."
+  - target: 02-pathogen/01-viruses/influenza-a
+    relation: connects-to
+    note: "Viral exacerbation: the influenza A virus (with RSV already mapped) is a respiratory-viral trigger of the acute exacerbations of asthma."
 ---
 
 # Asthma
@@ -724,6 +733,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — IgE plasma cells: the plasma cells secrete the allergen-specific IgE (already mapped) that arms the mast cells (already mapped) of allergic asthma.
 - `connects-to` → **[IL-31](../../03-molecular/il-31/README.md)** — Type-2 IL-31: IL-31, a type-2 (IL-4 and IL-13 already mapped) cytokine, is part of the broader type-2 immune response and the atopic itch shared across the atopic diseases of the allergic-asthma patient.
 - `connects-to` → **[Prurigo nodularis](../prurigo-nodularis/README.md)** — Atopic-march overlap: asthma shares the type-2 (IL-4, IL-5, IL-13 and TSLP already mapped) immunity with prurigo nodularis, another atopic-spectrum type-2 disease treated with the shared biologics.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — Anaphylatoxin receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) is part of the complement/anaphylatoxin contribution to the airway inflammation of asthma.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Platelet in airway: the platelets, via the platelet-eosinophil aggregates and the release of mediators, contribute to the airway inflammation and remodelling of asthma.
+- `connects-to` → **[Influenza A virus](../../../02-pathogen/01-viruses/influenza-a/README.md)** — Viral exacerbation: the influenza A virus (with RSV already mapped) is a respiratory-viral trigger of the acute exacerbations of asthma.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)
