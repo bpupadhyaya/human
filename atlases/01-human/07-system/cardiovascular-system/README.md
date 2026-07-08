@@ -474,6 +474,15 @@ cross_links:
   - target: 01-human/03-molecular/type-i-interferon
     relation: connects-to
     note: "Innate interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) sensing, drives the innate inflammation of the myocarditis and the atherosclerosis of the cardiovascular system."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune-inflammatory dimension of the myocarditis and the atherosclerosis of the cardiovascular system."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), reflects the type-2 immune dimension of the eosinophilic myocarditis and the hypersensitivity vasculitides of the cardiovascular system."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines of the myocarditis and the atherosclerotic inflammation of the cardiovascular system."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"
@@ -708,6 +717,9 @@ Each major vascular bed has **autoregulation** — a local mechanism that holds 
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 vascular inflammation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the atherosclerotic and myocardial inflammation of the cardiovascular system.
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Eosinophil arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), drives the eosinophilia of the eosinophilic myocarditis and endocarditis of the cardiovascular system.
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) sensing, drives the innate inflammation of the myocarditis and the atherosclerosis of the cardiovascular system.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune-inflammatory dimension of the myocarditis and the atherosclerosis of the cardiovascular system.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), reflects the type-2 immune dimension of the eosinophilic myocarditis and the hypersensitivity vasculitides of the cardiovascular system.
+- `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines of the myocarditis and the atherosclerotic inflammation of the cardiovascular system.
 
 ## Pathology
 

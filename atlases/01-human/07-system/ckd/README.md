@@ -468,6 +468,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the immune milieu of chronic kidney disease."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines driving the tubulointerstitial inflammation and the fibroblast (already mapped)-mediated fibrosis of chronic kidney disease."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Renal mast cells: the mast cells infiltrate the interstitium and, via their profibrotic mediators, promote the tubulointerstitial fibrosis (TGF-β already mapped) of chronic kidney disease."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "Complement C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid recruitment and the complement-mediated tubulointerstitial injury of chronic kidney disease."
 ---
 
 # Chronic Kidney Disease
@@ -694,6 +703,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune milieu of chronic kidney disease (and the eosinophilic interstitial nephritis).
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune-mediated tubulointerstitial inflammation of chronic kidney disease.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the immune milieu of chronic kidney disease.
+- `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines driving the tubulointerstitial inflammation and the fibroblast (already mapped)-mediated fibrosis of chronic kidney disease.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Renal mast cells: the mast cells infiltrate the interstitium and, via their profibrotic mediators, promote the tubulointerstitial fibrosis (TGF-β already mapped) of chronic kidney disease.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — Complement C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid recruitment and the complement-mediated tubulointerstitial injury of chronic kidney disease.
 
 ## Pathology
 
