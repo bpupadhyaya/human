@@ -454,6 +454,15 @@ cross_links:
   - target: 01-human/07-system/obsessive-compulsive-disorder
     relation: connects-to
     note: "OCD comorbidity: obsessive-compulsive disorder and anorexia nervosa are highly comorbid, sharing the perfectionism, the rigidity and the serotonergic (already mapped) dysregulation."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate immune shift: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, is part of the altered immune-inflammatory state of the starvation of anorexia nervosa."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 arm: the IFN-γ of the T cells is the type-II interferon arm of the immune dysregulation of the starvation (leptin already mapped) state of anorexia nervosa."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune-inflammatory dimension of anorexia nervosa."
 ---
 
 # Anorexia Nervosa
@@ -740,6 +749,9 @@ In healthy individuals, food cues activate the mesolimbic reward circuit (VTA �
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Refeeding hypomagnesaemia: the refeeding syndrome and the purging cause the hypomagnesaemia (with the phosphate and potassium already mapped), contributing to the arrhythmias of anorexia nervosa.
 - `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Depleted adipocytes: the near-total loss of the adipocytes (the fat mass) in the starvation of anorexia collapses the leptin (already mapped) and adipokine (adiponectin and resistin already mapped) signalling.
 - `connects-to` → **[Obsessive-compulsive disorder](../obsessive-compulsive-disorder/README.md)** — OCD comorbidity: obsessive-compulsive disorder and anorexia nervosa are highly comorbid, sharing the perfectionism, the rigidity and the serotonergic (already mapped) dysregulation.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate immune shift: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, is part of the altered immune-inflammatory state of the starvation of anorexia nervosa.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 arm: the IFN-γ of the T cells is the type-II interferon arm of the immune dysregulation of the starvation (leptin already mapped) state of anorexia nervosa.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune-inflammatory dimension of anorexia nervosa.
 
 [^treasure-2010-an-lancet]: Treasure J, Claudino AM, Zucker N. Eating disorders. *Lancet.* 2010;375(9714):583-593. [doi:10.1016/S0140-6736(09)61748-7](https://doi.org/10.1016/S0140-6736(09)61748-7) · [PubMed 19931176](https://pubmed.ncbi.nlm.nih.gov/19931176/)
 [^lock-2010-fbt-an]: Lock J, Le Grange D, Agras WS, et al. Randomized clinical trial comparing family-based treatment with adolescent-focused individual therapy for adolescents with anorexia nervosa. *Arch Gen Psychiatry.* 2010;67(10):1025-1032. [doi:10.1001/archgenpsychiatry.2010.128](https://doi.org/10.1001/archgenpsychiatry.2010.128) · [PubMed 20921118](https://pubmed.ncbi.nlm.nih.gov/20921118/)
