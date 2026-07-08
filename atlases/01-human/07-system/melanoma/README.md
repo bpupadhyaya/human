@@ -463,6 +463,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Type-2/AllergoOncology arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), is the antibody arm explored in the AllergoOncology anti-tumour response against melanoma."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "Tertiary lymphoid structures: the B cells organise the intratumoural tertiary lymphoid structures whose presence predicts the response to the checkpoint (PD-1 already mapped) immunotherapy of melanoma."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement: the complement C5 and its C5a (with C3 already mapped) contribute to the inflammatory and immunosuppressive dimension of the melanoma microenvironment."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling recruits and polarises the myeloid cells to an immunosuppressive phenotype in the melanoma microenvironment."
 ---
 
 # Melanoma
@@ -701,6 +710,9 @@ cross_links:
 - `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — Tertiary lymphoid B-cell response: the plasma cells and B cells of the intratumoural tertiary lymphoid structures produce antibody (already mapped) and predict a favourable response to the checkpoint (PD-1 already mapped) immunotherapy of melanoma.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the inflammatory dimension of the melanoma microenvironment.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2/AllergoOncology arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), is the antibody arm explored in the AllergoOncology anti-tumour response against melanoma.
+- `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Tertiary lymphoid structures: the B cells organise the intratumoural tertiary lymphoid structures whose presence predicts the response to the checkpoint (PD-1 already mapped) immunotherapy of melanoma.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 already mapped) contribute to the inflammatory and immunosuppressive dimension of the melanoma microenvironment.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling recruits and polarises the myeloid cells to an immunosuppressive phenotype in the melanoma microenvironment.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
