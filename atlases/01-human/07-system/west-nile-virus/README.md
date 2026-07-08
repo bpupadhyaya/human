@@ -471,6 +471,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Nutritional immunity: transferrin, by sequestering iron, is part of the host nutritional-immunity response to the West Nile virus infection."
+  - target: 01-human/03-molecular/thrombin
+    relation: connects-to
+    note: "Coagulopathy: thrombin, at the interface of the contact (bradykinin already mapped) and coagulation systems, contributes to the microvascular coagulopathy and thromboinflammation of severe West Nile virus infection."
+  - target: 01-human/03-molecular/connexin43
+    relation: connects-to
+    note: "Astrocyte gap junctions: connexin43, the astrocyte (already mapped) gap-junction protein, is disrupted during the West Nile virus neuroinvasion, compromising the blood-brain-barrier integrity and glial coupling."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Reactive gliosis: periostin, a matricellular mediator, is part of the tissue-remodelling and reactive-gliosis response of the CNS to the West Nile virus encephalitis."
 ---
 
 # West Nile Virus
@@ -742,3 +751,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the West Nile virus NS1 protein recruits the host factor H to inactivate the C3 convertase (complement C3, C5 and C5aR1 already mapped) and evade the complement attack.
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement/contact regulation: the C1-esterase inhibitor regulates the classical complement and the contact (bradykinin already mapped) systems whose activation contributes to the vascular permeability and neuroinvasion of the West Nile virus.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Nutritional immunity: transferrin, by sequestering iron, is part of the host nutritional-immunity response to the West Nile virus infection.
+- `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — Coagulopathy: thrombin, at the interface of the contact (bradykinin already mapped) and coagulation systems, contributes to the microvascular coagulopathy and thromboinflammation of severe West Nile virus infection.
+- `connects-to` → **[Connexin43](../../03-molecular/connexin43/README.md)** — Astrocyte gap junctions: connexin43, the astrocyte (already mapped) gap-junction protein, is disrupted during the West Nile virus neuroinvasion, compromising the blood-brain-barrier integrity and glial coupling.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Reactive gliosis: periostin, a matricellular mediator, is part of the tissue-remodelling and reactive-gliosis response of the CNS to the West Nile virus encephalitis.
