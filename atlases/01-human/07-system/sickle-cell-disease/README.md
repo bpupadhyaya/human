@@ -469,6 +469,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the immune dysregulation of sickle cell disease."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the haemolysis-triggered complement activation that amplifies the endothelial and neutrophil (already mapped) activation of the vaso-occlusion of sickle cell disease."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement dysregulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose control is impaired by the cell-free haem, contributing to the complement-driven inflammation of sickle cell disease."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "CD4 helper source: the CD4 T-helper cells are the source of the Th17 (IL-17 and IL-23 already mapped) cytokines of the chronic sterile inflammation of sickle cell disease."
 ---
 
 # Sickle Cell Disease
@@ -778,6 +787,9 @@ SCD vaso-occlusion is not just from sickled RBCs mechanically blocking vessels �
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune dysregulation of the chronic inflammation of sickle cell disease.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the chronic sterile inflammation of the vaso-occlusion of sickle cell disease.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the immune dysregulation of sickle cell disease.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the haemolysis-triggered complement activation that amplifies the endothelial and neutrophil (already mapped) activation of the vaso-occlusion of sickle cell disease.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement dysregulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose control is impaired by the cell-free haem, contributing to the complement-driven inflammation of sickle cell disease.
+- `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 helper source: the CD4 T-helper cells are the source of the Th17 (IL-17 and IL-23 already mapped) cytokines of the chronic sterile inflammation of sickle cell disease.
 
 [^steinberg-1999-scd-management]: Steinberg MH. Management of sickle cell disease. *N Engl J Med.* 1999;340(13):1021-1030. [doi:10.1056/NEJM199904013401307](https://doi.org/10.1056/NEJM199904013401307) · [PubMed 10099145](https://pubmed.ncbi.nlm.nih.gov/10099145/)
 [^vichinsky-2000-acs-scd]: Vichinsky EP, Neumayr LD, Earles AN, et al. Causes and outcomes of the acute chest syndrome in sickle cell disease. *N Engl J Med.* 2000;342(25):1855-1865. [doi:10.1056/NEJM200006223422502](https://doi.org/10.1056/NEJM200006223422502) · [PubMed 10861320](https://pubmed.ncbi.nlm.nih.gov/10861320/)
