@@ -454,6 +454,15 @@ cross_links:
   - target: 01-human/03-molecular/il-5
     relation: connects-to
     note: "Eosinophil biomarker: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), drives the eosinophilia associated with the favourable response to the melanoma checkpoint immunotherapy."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "Tertiary lymphoid B-cell response: the plasma cells and B cells of the intratumoural tertiary lymphoid structures produce antibody (already mapped) and predict a favourable response to the checkpoint (PD-1 already mapped) immunotherapy of melanoma."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the inflammatory dimension of the melanoma microenvironment."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2/AllergoOncology arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), is the antibody arm explored in the AllergoOncology anti-tumour response against melanoma."
 ---
 
 # Melanoma
@@ -689,6 +698,9 @@ cross_links:
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Microenvironment adipokine: resistin, with leptin and adiponectin (already mapped), completes the adipokine dimension of the obesity-melanoma axis and the immunotherapy microenvironment.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) anti-tumour response of the immunogenic melanoma, augmenting the checkpoint (PD-1 already mapped) immunotherapy.
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Eosinophil biomarker: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), drives the eosinophilia associated with the favourable response to the melanoma checkpoint immunotherapy.
+- `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — Tertiary lymphoid B-cell response: the plasma cells and B cells of the intratumoural tertiary lymphoid structures produce antibody (already mapped) and predict a favourable response to the checkpoint (PD-1 already mapped) immunotherapy of melanoma.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the inflammatory dimension of the melanoma microenvironment.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2/AllergoOncology arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), is the antibody arm explored in the AllergoOncology anti-tumour response against melanoma.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
