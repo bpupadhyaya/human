@@ -469,6 +469,15 @@ cross_links:
   - target: 01-human/04-cellular/plasma-cell
     relation: connects-to
     note: "cGVHD humoral arm: the plasma cells (BAFF and CD20 already mapped) secrete the alloantibodies of the chronic, antibody-mediated graft-versus-host disease."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) contributes to the complement-mediated tissue injury of the graft-versus-host disease."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Sclerodermatous cGVHD: the mast cells accumulate in the sclerodermatous skin and, via their profibrotic mediators, promote the fibrosis (TGF-β and PDGF already mapped) of the chronic graft-versus-host disease."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Acute tissue damage: the neutrophils, recruited by the microbiome-driven and complement (C5aR1 already mapped) signals, amplify the target-tissue injury of the acute graft-versus-host disease."
 ---
 
 # Graft-Versus-Host Disease
@@ -757,6 +766,9 @@ The protective Treg/IL-10 axis is the key biological counterbalance to alloreact
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the donor-T-cell alloreactivity of graft-versus-host disease.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), reflects the type-2 immune dimension of the chronic graft-versus-host disease.
 - `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — cGVHD humoral arm: the plasma cells (BAFF and CD20 already mapped) secrete the alloantibodies of the chronic, antibody-mediated graft-versus-host disease.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) contributes to the complement-mediated tissue injury of the graft-versus-host disease.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Sclerodermatous cGVHD: the mast cells accumulate in the sclerodermatous skin and, via their profibrotic mediators, promote the fibrosis (TGF-β and PDGF already mapped) of the chronic graft-versus-host disease.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Acute tissue damage: the neutrophils, recruited by the microbiome-driven and complement (C5aR1 already mapped) signals, amplify the target-tissue injury of the acute graft-versus-host disease.
 
 [^ferrara-2009-gvhd-review]: Ferrara JL, Levine JE, Reddy P, Holler E. Graft-versus-host disease. *Lancet.* 2009;373(9674):1550-1561. [doi:10.1016/S0140-6736(09)60237-3](https://doi.org/10.1016/S0140-6736(09)60237-3) · [PubMed 19380114](https://pubmed.ncbi.nlm.nih.gov/19380114/)
 [^zeiser-2020-ruxolitinib-gvhd-reach]: Zeiser R, von Bubnoff N, Butler J, et al. Ruxolitinib for Glucocorticoid-Refractory Acute Graft-versus-Host Disease. *N Engl J Med.* 2020;382(19):1800-1810. [doi:10.1056/NEJMoa1917635](https://doi.org/10.1056/NEJMoa1917635) · [PubMed 32374962](https://pubmed.ncbi.nlm.nih.gov/32374962/)
