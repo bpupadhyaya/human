@@ -468,6 +468,15 @@ cross_links:
   - target: 01-human/04-cellular/t-helper-cell
     relation: connects-to
     note: "CD4 airway helper: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines coordinating the mucosal immunity of the respiratory system."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Type-2 remodelling: periostin, downstream of the IL-13 (already mapped) signalling, is a matricellular marker and mediator of the type-2 airway remodelling and the subepithelial fibrosis of the respiratory system."
+  - target: 01-human/03-molecular/il-31
+    relation: connects-to
+    note: "Airway itch/cough: IL-31, a type-2 (IL-4, IL-5 and IL-13 already mapped) cytokine, is part of the neuroimmune signalling of the cough and airway sensory dimension of the respiratory system."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Airway complement: the complement C3, produced locally by the airway epithelium, is part of the innate mucosal defence and, when dysregulated, the inflammation of the respiratory system."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -699,6 +708,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Connects-to** → [IgE](../../03-molecular/ige/README.md): Allergic airway arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), arms the mast cells (already mapped) of the allergic airway (rhinitis/asthma) response of the respiratory system.
 - **Connects-to** → [IL-10](../../03-molecular/il-10/README.md): Airway tolerance: IL-10 is the regulatory cytokine that maintains the mucosal tolerance and resolves the airway inflammation of the respiratory system.
 - **Connects-to** → [T-helper cell](../../04-cellular/t-helper-cell/README.md): CD4 airway helper: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines coordinating the mucosal immunity of the respiratory system.
+- **Connects-to** → [Periostin](../../03-molecular/periostin/README.md): type-2 remodelling: periostin, downstream of the IL-13 (already mapped) signalling, is a matricellular marker and mediator of the type-2 airway remodelling and the subepithelial fibrosis of the respiratory system.
+- **Connects-to** → [IL-31](../../03-molecular/il-31/README.md): airway itch/cough: IL-31, a type-2 (IL-4, IL-5 and IL-13 already mapped) cytokine, is part of the neuroimmune signalling of the cough and airway sensory dimension of the respiratory system.
+- **Connects-to** → [Complement C3](../../03-molecular/complement-c3/README.md): airway complement: the complement C3, produced locally by the airway epithelium, is part of the innate mucosal defence and, when dysregulated, the inflammation of the respiratory system.
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.
 
 ## Pathology

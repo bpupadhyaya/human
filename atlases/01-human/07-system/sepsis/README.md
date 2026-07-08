@@ -469,6 +469,15 @@ cross_links:
   - target: 01-human/03-molecular/il-13
     relation: connects-to
     note: "Type-2 immunosuppression: IL-13, with IL-4 (already mapped), completes the type-2 arm of the compensatory immunosuppression of the septic host response."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5a/C5aR1 axis (complement C3 and C5 already mapped) is a central mediator of the sepsis complement storm, driving the neutrophil (already mapped) dysfunction and the tissue injury of septic shock."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose consumption and dysregulation amplify the sepsis complement storm."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Immunoparalysis NK: the NK cells (perforin already mapped), depleted and exhausted in the compensatory anti-inflammatory (IL-10 already mapped) phase, are part of the immunoparalysis and secondary-infection risk of sepsis."
 ---
 
 # Sepsis
@@ -725,6 +734,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) response of the early hyperinflammatory phase, whose suppression marks the immunoparalysis of sepsis.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Compensatory anti-inflammatory arm: IL-4, a type-2 cytokine, is part of the compensatory anti-inflammatory response (IL-10 already mapped) that follows the hyperinflammation and drives the immunoparalysis of sepsis.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 immunosuppression: IL-13, with IL-4 (already mapped), completes the type-2 arm of the compensatory immunosuppression of the septic host response.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5a/C5aR1 axis (complement C3 and C5 already mapped) is a central mediator of the sepsis complement storm, driving the neutrophil (already mapped) dysfunction and the tissue injury of septic shock.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose consumption and dysregulation amplify the sepsis complement storm.
+- `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Immunoparalysis NK: the NK cells (perforin already mapped), depleted and exhausted in the compensatory anti-inflammatory (IL-10 already mapped) phase, are part of the immunoparalysis and secondary-infection risk of sepsis.
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
