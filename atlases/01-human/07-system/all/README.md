@@ -466,6 +466,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the ALL marrow microenvironment."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Antigen presentation: the dendritic cells present the leukaemia antigen (MHC already mapped) to the T cells (already mapped), shaping the immune microenvironment and the antileukaemic response of ALL."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "B-cell aplasia: the normal plasma cells and their antibody (already mapped) output are lost with the CD19 (CD20 already mapped) CAR-T and blinatumomab therapy, causing the B-cell aplasia and hypogammaglobulinaemia of treated ALL."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "Complement C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) contributes to the myeloid inflammation and the cytokine-release-syndrome complement activation of the CAR-T therapy of ALL."
 ---
 
 # Acute Lymphoblastic Leukemia
@@ -755,6 +764,9 @@ Childhood ALL survivors (now majority of patients): neurocognitive impairment (M
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune microenvironment of the ALL marrow.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the inflammatory bone-marrow (already mapped) microenvironment of ALL.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the ALL marrow microenvironment.
+- `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Antigen presentation: the dendritic cells present the leukaemia antigen (MHC already mapped) to the T cells (already mapped), shaping the immune microenvironment and the antileukaemic response of ALL.
+- `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — B-cell aplasia: the normal plasma cells and their antibody (already mapped) output are lost with the CD19 (CD20 already mapped) CAR-T and blinatumomab therapy, causing the B-cell aplasia and hypogammaglobulinaemia of treated ALL.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — Complement C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) contributes to the myeloid inflammation and the cytokine-release-syndrome complement activation of the CAR-T therapy of ALL.
 
 [^pui-2018-all-cure]: Pui CH, Yang JJ, Bhakta N, et al. Global efforts toward the cure of childhood acute lymphoblastic leukemia. *Lancet Child Adolesc Health.* 2018;2(6):440-454. [doi:10.1016/S2352-4642(18)30066-X](https://doi.org/10.1016/S2352-4642(18)30066-X) · [PubMed 29976322](https://pubmed.ncbi.nlm.nih.gov/29976322/)
 [^maude-2018-tisagenlecleucel]: Maude SL, Laetsch TW, Buechner J, et al. Tisagenlecleucel in children and young adults with B-cell lymphoblastic leukemia. *N Engl J Med.* 2018;378(5):439-448. [doi:10.1056/NEJMoa1709866](https://doi.org/10.1056/NEJMoa1709866) · [PubMed 29385370](https://pubmed.ncbi.nlm.nih.gov/29385370/)

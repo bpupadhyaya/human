@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the immune dysregulation of alcohol use disorder."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Meningeal mast cells: the mast cells of the meninges and the brain (already mapped) contribute to the neuroinflammation and the blood-brain-barrier disruption implicated in alcohol use disorder."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Cytotoxic arm: the cytotoxic T cells (perforin pathway) contribute both to the psychoneuroimmunology of the chronic alcohol exposure and to the hepatocyte (already mapped) injury of the alcoholic liver disease of alcohol use disorder."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "Astroglial neurotoxicity: the astrocytes of the brain (already mapped) are damaged by the chronic alcohol and, with the microglia (already mapped), mediate the neuroinflammation and the neurodegeneration of alcohol use disorder."
 ---
 
 # Alcohol Use Disorder
@@ -807,6 +816,9 @@ Prenatal alcohol exposure → leading preventable cause of intellectual disabili
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune dysregulation of the alcoholic liver disease of alcohol use disorder.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the gut-derived (TLR4 already mapped) inflammation of the alcoholic steatohepatitis of alcohol use disorder.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the immune dysregulation of alcohol use disorder.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Meningeal mast cells: the mast cells of the meninges and the brain (already mapped) contribute to the neuroinflammation and the blood-brain-barrier disruption implicated in alcohol use disorder.
+- `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Cytotoxic arm: the cytotoxic T cells (perforin pathway) contribute both to the psychoneuroimmunology of the chronic alcohol exposure and to the hepatocyte (already mapped) injury of the alcoholic liver disease of alcohol use disorder.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Astroglial neurotoxicity: the astrocytes of the brain (already mapped) are damaged by the chronic alcohol and, with the microglia (already mapped), mediate the neuroinflammation and the neurodegeneration of alcohol use disorder.
 
 [^koob-2013-addiction-neuroscience]: Koob GF, Volkow ND. Neurocircuitry of addiction. *Neuropsychopharmacology.* 2010;35(1):217-238. [doi:10.1038/npp.2009.110](https://doi.org/10.1038/npp.2009.110) · [PubMed 19710631](https://pubmed.ncbi.nlm.nih.gov/19710631/)
 [^anton-2006-combine]: Anton RF, O'Malley SS, Ciraulo DA, et al. Combined pharmacotherapies and behavioral interventions for alcohol dependence: the COMBINE study. *JAMA.* 2006;295(17):2003-2017. [doi:10.1001/jama.295.17.2003](https://doi.org/10.1001/jama.295.17.2003) · [PubMed 16670409](https://pubmed.ncbi.nlm.nih.gov/16670409/)
