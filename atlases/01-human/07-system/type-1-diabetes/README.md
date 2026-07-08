@@ -466,6 +466,15 @@ cross_links:
   - target: 01-human/04-cellular/mast-cell
     relation: connects-to
     note: "Islet mast cells: the mast cells infiltrate the inflamed islets and contribute to the innate inflammatory milieu of the insulitis of type 1 diabetes."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Islet complement: the complement C5 and its activation (with C3 already mapped) contribute to the innate inflammatory injury of the insulitis of type 1 diabetes."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling links the complement to the myeloid recruitment into the inflamed islets of type 1 diabetes."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Autoimmune micronutrient: selenium, a selenoprotein antioxidant cofactor, is part of the micronutrient dimension (with vitamin D already mapped) of the autoimmune susceptibility and the oxidative β-cell stress of type 1 diabetes."
 ---
 
 # Type 1 Diabetes
@@ -711,6 +720,9 @@ cross_links:
 - `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — Islet-autoantibody source: the plasma cells secrete the islet autoantibodies (anti-GAD, IA-2, ZnT8; immunoglobulin already mapped) that mark the autoimmunity of type 1 diabetes.
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Islet inflammation: IL-6 contributes to the insulitis and the β-cell inflammation of type 1 diabetes, a target explored (with the anti-CD3 already mapped) to preserve β-cell function.
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Islet mast cells: the mast cells infiltrate the inflamed islets and contribute to the innate inflammatory milieu of the insulitis of type 1 diabetes.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Islet complement: the complement C5 and its activation (with C3 already mapped) contribute to the innate inflammatory injury of the insulitis of type 1 diabetes.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling links the complement to the myeloid recruitment into the inflamed islets of type 1 diabetes.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Autoimmune micronutrient: selenium, a selenoprotein antioxidant cofactor, is part of the micronutrient dimension (with vitamin D already mapped) of the autoimmune susceptibility and the oxidative β-cell stress of type 1 diabetes.
 
 [^atkinson-2014-t1d-lancet]: Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. *Lancet.* 2014;383(9911):69-82. [doi:10.1016/S0140-6736(13)60591-7](https://doi.org/10.1016/S0140-6736(13)60591-7) · [PubMed 23890997](https://pubmed.ncbi.nlm.nih.gov/23890997/)
 [^herold-2019-teplizumab-t1d]: Herold KC, Bundy BN, Long SA, et al. An anti-CD3 antibody, teplizumab, in relatives at risk for type 1 diabetes. *N Engl J Med.* 2019;381(7):603-613. [doi:10.1056/NEJMoa1905155](https://doi.org/10.1056/NEJMoa1905155) · [PubMed 31180675](https://pubmed.ncbi.nlm.nih.gov/31180675/)

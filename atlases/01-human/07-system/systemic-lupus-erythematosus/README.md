@@ -466,6 +466,15 @@ cross_links:
   - target: 01-human/04-cellular/mast-cell
     relation: connects-to
     note: "Mast cells in nephritis: the mast cells infiltrate the lupus-nephritis kidney (already mapped) and skin lesions, contributing to the tissue inflammation of systemic lupus erythematosus."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose consumption and the rare factor-H/complement deficiencies are tightly linked to systemic lupus erythematosus."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Cytotoxic tissue damage: the cytotoxic T cells (perforin already mapped) infiltrate the target tissues and contribute to the organ damage of systemic lupus erythematosus."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Autoimmune micronutrient: selenium, a selenoprotein antioxidant cofactor, is part of the micronutrient dimension (with vitamin D already mapped) of the autoimmune susceptibility of systemic lupus erythematosus."
 ---
 
 # Systemic Lupus Erythematosus
@@ -739,6 +748,9 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm complementing the type-I interferon (already mapped) drive of systemic lupus erythematosus.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, including the anti-dsDNA IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of systemic lupus erythematosus.
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Mast cells in nephritis: the mast cells infiltrate the lupus-nephritis kidney (already mapped) and skin lesions, contributing to the tissue inflammation of systemic lupus erythematosus.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose consumption and the rare factor-H/complement deficiencies are tightly linked to systemic lupus erythematosus.
+- `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Cytotoxic tissue damage: the cytotoxic T cells (perforin already mapped) infiltrate the target tissues and contribute to the organ damage of systemic lupus erythematosus.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Autoimmune micronutrient: selenium, a selenoprotein antioxidant cofactor, is part of the micronutrient dimension (with vitamin D already mapped) of the autoimmune susceptibility of systemic lupus erythematosus.
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)
