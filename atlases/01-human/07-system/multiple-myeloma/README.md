@@ -463,6 +463,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the myeloma marrow microenvironment (and the rare IgE myeloma)."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "CD4 helper source: the CD4 T-helper cells of the marrow are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines shaping the immunosuppressive myeloma microenvironment."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) shapes the myeloid and immunosuppressive dimension of the myeloma marrow microenvironment."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Bone/prognostic vitamin: the vitamin D deficiency is common in multiple myeloma, worsens the bone (RANKL already mapped) disease, and is associated with a poorer prognosis."
 ---
 
 # Multiple Myeloma
@@ -740,6 +749,9 @@ MM evolves from precursor conditions through a well-defined continuum:
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Myeloma anaemia: the relative erythropoietin deficiency (the renal — kidney already mapped — impairment and the marrow infiltration) underlies the anaemia (haemoglobin already mapped) of the 'A' of the CRAB features of multiple myeloma.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immunosuppressive marrow microenvironment of multiple myeloma.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the myeloma marrow microenvironment (and the rare IgE myeloma).
+- `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 helper source: the CD4 T-helper cells of the marrow are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines shaping the immunosuppressive myeloma microenvironment.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) shapes the myeloid and immunosuppressive dimension of the myeloma marrow microenvironment.
+- `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Bone/prognostic vitamin: the vitamin D deficiency is common in multiple myeloma, worsens the bone (RANKL already mapped) disease, and is associated with a poorer prognosis.
 
 [^kumar-2022-imwg-criteria]: Kumar SK, Callander NS, Adekola K, et al. Multiple myeloma, version 3.2021, NCCN clinical practice guidelines in oncology. *J Natl Compr Canc Netw.* 2020;18(12):1685-1717. [doi:10.6004/jnccn.2020.0057](https://doi.org/10.6004/jnccn.2020.0057) · [PubMed 33285519](https://pubmed.ncbi.nlm.nih.gov/33285519/)
 [^moreau-2022-teclistamab]: Moreau P, Garfall AL, van de Donk NWCJ, et al. Teclistamab in relapsed or refractory multiple myeloma. *N Engl J Med.* 2022;387(6):495-505. [doi:10.1056/NEJMoa2203478](https://doi.org/10.1056/NEJMoa2203478) · [PubMed 35661166](https://pubmed.ncbi.nlm.nih.gov/35661166/)

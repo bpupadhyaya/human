@@ -457,6 +457,15 @@ cross_links:
   - target: 01-human/04-cellular/fibroblast
     relation: connects-to
     note: "Adenoma stroma: the fibroblasts and the desmoplastic stroma support the accumulating adenomas along the adenoma-carcinoma sequence of MUTYH-associated polyposis."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Adenoma stroma mast cells: the mast cells infiltrate the adenoma stroma and contribute to the angiogenesis and the type-2 (IgE already mapped) microenvironment of the polyps of MUTYH-associated polyposis."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Chemoprevention vitamin: the vitamin D status modulates the colorectal-cancer (already mapped) risk along the adenoma-carcinoma sequence of MUTYH-associated polyposis."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Antioxidant micronutrient: selenium, a selenoprotein cofactor countering the oxidative DNA damage (the 8-oxoguanine that MUTYH repairs), is part of the antioxidant chemoprevention dimension of MUTYH-associated polyposis."
 ---
 
 # MUTYH-Associated Polyposis
@@ -720,6 +729,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the inflammatory infiltrate along the adenoma-carcinoma sequence of MUTYH-associated polyposis.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the inflamed adenoma stroma of MUTYH-associated polyposis.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Adenoma stroma: the fibroblasts and the desmoplastic stroma support the accumulating adenomas along the adenoma-carcinoma sequence of MUTYH-associated polyposis.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Adenoma stroma mast cells: the mast cells infiltrate the adenoma stroma and contribute to the angiogenesis and the type-2 (IgE already mapped) microenvironment of the polyps of MUTYH-associated polyposis.
+- `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Chemoprevention vitamin: the vitamin D status modulates the colorectal-cancer (already mapped) risk along the adenoma-carcinoma sequence of MUTYH-associated polyposis.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Antioxidant micronutrient: selenium, a selenoprotein cofactor countering the oxidative DNA damage (the 8-oxoguanine that MUTYH repairs), is part of the antioxidant chemoprevention dimension of MUTYH-associated polyposis.
 
 ---
 
