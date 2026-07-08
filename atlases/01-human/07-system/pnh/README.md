@@ -460,6 +460,15 @@ cross_links:
   - target: 01-human/04-cellular/b-cell
     relation: connects-to
     note: "Humoral arm: the B cells contribute the antibody (already mapped) and autoimmune dimension of the marrow-failure context (aplastic anaemia already mapped) underlying PNH."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Marrow-failure T cells: the CD4 T-helper cells, alongside the cytotoxic T cells (already mapped), drive the autoimmune attack on the bone marrow (already mapped) that provides the selective advantage for the PNH clone."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "Humoral effector: the plasma cells secrete the antibodies (already mapped) of the autoimmune marrow-failure context underlying PNH."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Iron loss: transferrin, the iron carrier, reflects the disordered iron handling of the chronic intravascular haemolysis and the haemoglobinuria (haemoglobin and hepcidin already mapped) that deplete the body iron in PNH."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -699,6 +708,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 marrow autoimmunity: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune-mediated marrow attack (aplastic anaemia already mapped) from which the GPI-negative PNH clone escapes.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Antigen presentation: the dendritic cells present antigen (MHC already mapped) in the autoimmune marrow-failure context from which the PNH clone arises.
 - `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Humoral arm: the B cells contribute the antibody (already mapped) and autoimmune dimension of the marrow-failure context (aplastic anaemia already mapped) underlying PNH.
+- `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — Marrow-failure T cells: the CD4 T-helper cells, alongside the cytotoxic T cells (already mapped), drive the autoimmune attack on the bone marrow (already mapped) that provides the selective advantage for the PNH clone.
+- `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — Humoral effector: the plasma cells secrete the antibodies (already mapped) of the autoimmune marrow-failure context underlying PNH.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Iron loss: transferrin, the iron carrier, reflects the disordered iron handling of the chronic intravascular haemolysis and the haemoglobinuria (haemoglobin and hepcidin already mapped) that deplete the body iron in PNH.
 
 ---
 
