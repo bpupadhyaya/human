@@ -466,6 +466,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "Antioxidant micronutrient: selenium, a selenoprotein cofactor countering the oxidative DNA damage (the 8-oxoguanine that MUTYH repairs), is part of the antioxidant chemoprevention dimension of MUTYH-associated polyposis."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "Mucosal B cells: the B cells of the intestinal mucosa contribute to the humoral and organised immune response within the inflamed stroma of the MUTYH-associated polyps."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid recruitment into the inflamed stroma of the MUTYH-associated polyps."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement: the complement C5 and its activation (with C3 already mapped) are part of the complement dimension of the inflamed adenoma stroma of MUTYH-associated polyposis."
 ---
 
 # MUTYH-Associated Polyposis
@@ -732,6 +741,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Adenoma stroma mast cells: the mast cells infiltrate the adenoma stroma and contribute to the angiogenesis and the type-2 (IgE already mapped) microenvironment of the polyps of MUTYH-associated polyposis.
 - `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Chemoprevention vitamin: the vitamin D status modulates the colorectal-cancer (already mapped) risk along the adenoma-carcinoma sequence of MUTYH-associated polyposis.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Antioxidant micronutrient: selenium, a selenoprotein cofactor countering the oxidative DNA damage (the 8-oxoguanine that MUTYH repairs), is part of the antioxidant chemoprevention dimension of MUTYH-associated polyposis.
+- `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Mucosal B cells: the B cells of the intestinal mucosa contribute to the humoral and organised immune response within the inflamed stroma of the MUTYH-associated polyps.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid recruitment into the inflamed stroma of the MUTYH-associated polyps.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its activation (with C3 already mapped) are part of the complement dimension of the inflamed adenoma stroma of MUTYH-associated polyposis.
 
 ---
 

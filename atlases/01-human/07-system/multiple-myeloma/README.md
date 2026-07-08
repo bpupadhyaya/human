@@ -472,6 +472,15 @@ cross_links:
   - target: 03-medicine/03-food/vitamin-d
     relation: connects-to
     note: "Bone/prognostic vitamin: the vitamin D deficiency is common in multiple myeloma, worsens the bone (RANKL already mapped) disease, and is associated with a poorer prognosis."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Daratumumab CDC: the complement C5 (with C3 and C5aR1 already mapped) is the effector of the complement-dependent cytotoxicity by which the anti-CD38 daratumumab kills the myeloma plasma cells (already mapped)."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement evasion: the myeloma cells recruit factor H (with the CD55/CD59 regulators) to restrain the alternative complement pathway (C3, C5 and C5aR1 already mapped), a resistance mechanism to the daratumumab complement-dependent killing."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Anaemia iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the anaemia of the marrow-replacing multiple myeloma."
 ---
 
 # Multiple Myeloma
@@ -752,6 +761,9 @@ MM evolves from precursor conditions through a well-defined continuum:
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 helper source: the CD4 T-helper cells of the marrow are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines shaping the immunosuppressive myeloma microenvironment.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) shapes the myeloid and immunosuppressive dimension of the myeloma marrow microenvironment.
 - `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Bone/prognostic vitamin: the vitamin D deficiency is common in multiple myeloma, worsens the bone (RANKL already mapped) disease, and is associated with a poorer prognosis.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Daratumumab CDC: the complement C5 (with C3 and C5aR1 already mapped) is the effector of the complement-dependent cytotoxicity by which the anti-CD38 daratumumab kills the myeloma plasma cells (already mapped).
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the myeloma cells recruit factor H (with the CD55/CD59 regulators) to restrain the alternative complement pathway (C3, C5 and C5aR1 already mapped), a resistance mechanism to the daratumumab complement-dependent killing.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Anaemia iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the anaemia of the marrow-replacing multiple myeloma.
 
 [^kumar-2022-imwg-criteria]: Kumar SK, Callander NS, Adekola K, et al. Multiple myeloma, version 3.2021, NCCN clinical practice guidelines in oncology. *J Natl Compr Canc Netw.* 2020;18(12):1685-1717. [doi:10.6004/jnccn.2020.0057](https://doi.org/10.6004/jnccn.2020.0057) · [PubMed 33285519](https://pubmed.ncbi.nlm.nih.gov/33285519/)
 [^moreau-2022-teclistamab]: Moreau P, Garfall AL, van de Donk NWCJ, et al. Teclistamab in relapsed or refractory multiple myeloma. *N Engl J Med.* 2022;387(6):495-505. [doi:10.1056/NEJMoa2203478](https://doi.org/10.1056/NEJMoa2203478) · [PubMed 35661166](https://pubmed.ncbi.nlm.nih.gov/35661166/)
