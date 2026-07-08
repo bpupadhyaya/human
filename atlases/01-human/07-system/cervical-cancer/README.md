@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c5
     relation: connects-to
     note: "Terminal complement: the complement C5 and its activation (with C3 already mapped) are part of the complement dimension of the HPV-driven inflammatory microenvironment of cervical cancer."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement evasion: the cervical-cancer cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), tempering the complement attack within the HPV-driven tumour microenvironment."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Tumour matricellular: osteopontin, produced within the tumour, is a matricellular mediator of the invasion and the myeloid inflammation of the cervical-cancer microenvironment."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Haemorrhage/tumour iron: transferrin, the iron carrier, reflects the iron demand of the tumour and the iron loss of the abnormal bleeding of cervical cancer."
 ---
 
 # Cervical Cancer
@@ -750,6 +759,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Stromal mast cells: the mast cells of the tumour stroma contribute to the angiogenesis (VEGF already mapped) and the inflammatory microenvironment of cervical cancer.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid recruitment into the cervical-cancer stroma.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its activation (with C3 already mapped) are part of the complement dimension of the HPV-driven inflammatory microenvironment of cervical cancer.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the cervical-cancer cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), tempering the complement attack within the HPV-driven tumour microenvironment.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Tumour matricellular: osteopontin, produced within the tumour, is a matricellular mediator of the invasion and the myeloid inflammation of the cervical-cancer microenvironment.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Haemorrhage/tumour iron: transferrin, the iron carrier, reflects the iron demand of the tumour and the iron loss of the abnormal bleeding of cervical cancer.
 
 ---
 
