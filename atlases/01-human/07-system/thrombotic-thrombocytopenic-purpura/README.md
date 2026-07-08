@@ -454,6 +454,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "Innate immune modulation: the NK cells (perforin already mapped) contribute to the innate immune dysregulation of the acquired autoimmune thrombotic thrombocytopenic purpura."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune dysregulation of the acquired autoimmune thrombotic thrombocytopenic purpura."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune dysregulation underlying the anti-ADAMTS13 (already mapped) autoimmunity of thrombotic thrombocytopenic purpura."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the autoimmune thrombotic thrombocytopenic purpura."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -754,6 +763,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 autoimmunity: the IFN-γ of the T cells is the type-II interferon arm (with the type-I interferon already mapped) of the immune dysregulation driving the anti-ADAMTS13 (already mapped) autoimmunity of acquired thrombotic thrombocytopenic purpura.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the autoimmune response against ADAMTS13 (already mapped) in thrombotic thrombocytopenic purpura.
 - `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Innate immune modulation: the NK cells (perforin already mapped) contribute to the innate immune dysregulation of the acquired autoimmune thrombotic thrombocytopenic purpura.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune dysregulation of the acquired autoimmune thrombotic thrombocytopenic purpura.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune dysregulation underlying the anti-ADAMTS13 (already mapped) autoimmunity of thrombotic thrombocytopenic purpura.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the autoimmune thrombotic thrombocytopenic purpura.
 
 ---
 
