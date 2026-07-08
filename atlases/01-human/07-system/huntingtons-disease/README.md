@@ -453,6 +453,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "NK dysregulation: the NK cells (perforin already mapped), in which the mutant huntingtin (HTT already mapped) is expressed, are part of the peripheral immune dysregulation of Huntington's disease."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "Complement C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the microglial (already mapped) activation and the complement-mediated synapse loss of the striatal degeneration of Huntington's disease."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement: the complement C5 and its activation (with C3 already mapped) contribute to the complement-driven neuroinflammation of Huntington's disease."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Striatal iron: transferrin, the iron carrier, is central to the iron accumulation in the striatum that drives the oxidative stress and ferroptosis contributing to the neurodegeneration of Huntington's disease."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -649,3 +658,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the peripheral immune dysregulation of Huntington's disease.
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Mast-cell neuroinflammation: the mast cells of the brain (already mapped) and the periphery contribute to the neuroinflammation and the type-2 (IgE already mapped) dimension of Huntington's disease.
 - `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — NK dysregulation: the NK cells (perforin already mapped), in which the mutant huntingtin (HTT already mapped) is expressed, are part of the peripheral immune dysregulation of Huntington's disease.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — Complement C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the microglial (already mapped) activation and the complement-mediated synapse loss of the striatal degeneration of Huntington's disease.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its activation (with C3 already mapped) contribute to the complement-driven neuroinflammation of Huntington's disease.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Striatal iron: transferrin, the iron carrier, is central to the iron accumulation in the striatum that drives the oxidative stress and ferroptosis contributing to the neurodegeneration of Huntington's disease.

@@ -466,6 +466,15 @@ cross_links:
   - target: 03-medicine/03-food/vitamin-d
     relation: connects-to
     note: "Prognostic vitamin: the low vitamin D status is associated with a worse outcome in Hodgkin lymphoma and modulates the immune microenvironment and the response to therapy."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement evasion: the Reed-Sternberg cells recruit factor H to regulate the alternative complement pathway (C5, C5aR1 and C3 already mapped) and evade the antibody-mediated complement attack of Hodgkin lymphoma."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway activated by the antibodies (already mapped) within the reactive microenvironment of Hodgkin lymphoma."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Anaemia iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the anaemia of the chronic inflammation of Hodgkin lymphoma."
 ---
 
 # Hodgkin Lymphoma
@@ -737,6 +746,9 @@ Modern protocols minimize RT fields and doses (ISRT replacing extended-field RT)
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Anti-CD20/CD30 CDC: the complement C5 and the terminal MAC (with C3 already mapped) mediate the complement-dependent cytotoxicity contributing to the anti-CD20 (rituximab in NLPHL; CD20 already mapped) killing of Hodgkin lymphoma.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling shapes the myeloid and macrophage (already mapped) response within the reactive microenvironment of Hodgkin lymphoma.
 - `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Prognostic vitamin: the low vitamin D status is associated with a worse outcome in Hodgkin lymphoma and modulates the immune microenvironment and the response to therapy.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the Reed-Sternberg cells recruit factor H to regulate the alternative complement pathway (C5, C5aR1 and C3 already mapped) and evade the antibody-mediated complement attack of Hodgkin lymphoma.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway activated by the antibodies (already mapped) within the reactive microenvironment of Hodgkin lymphoma.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Anaemia iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the anaemia of the chronic inflammation of Hodgkin lymphoma.
 
 [^connors-2018-echelon1]: Connors JM, Jurczak W, Straus DJ, et al. Brentuximab vedotin with chemotherapy for stage III or IV Hodgkin's lymphoma. *N Engl J Med.* 2018;378(4):331-344. [doi:10.1056/NEJMoa1708984](https://doi.org/10.1056/NEJMoa1708984) · [PubMed 29360494](https://pubmed.ncbi.nlm.nih.gov/29360494/)
 [^armand-2018-nivo-hl]: Armand P, Engert A, Younes A, et al. Nivolumab for relapsed/refractory classic Hodgkin lymphoma after failure of autologous hematopoietic cell transplantation: extended follow-up of the multicohort single-arm phase II CheckMate 205 trial. *J Clin Oncol.* 2018;36(14):1428-1439. [doi:10.1200/JCO.2017.77.6717](https://doi.org/10.1200/JCO.2017.77.6717) · [PubMed 29584546](https://pubmed.ncbi.nlm.nih.gov/29584546/)
