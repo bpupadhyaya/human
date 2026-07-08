@@ -444,6 +444,15 @@ cross_links:
   - target: 03-medicine/03-food/vitamin-d
     relation: connects-to
     note: "Autoimmune-risk vitamin: vitamin D modulates the T-cell (already mapped) autoimmunity, and its status is a candidate modifier of the HLA-DQB1*06:02 (MHC already mapped) autoimmune narcolepsy."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Autoimmune micronutrient: selenium, a selenoprotein antioxidant cofactor, is part of the micronutrient dimension (with vitamin D already mapped) of the autoimmune susceptibility of narcolepsy type 1."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Sleep-linked hormone: prolactin, secreted in a sleep-entrained nocturnal surge, is part of the hypothalamic-pituitary neuroendocrine dimension disrupted in the disordered sleep-wake regulation of narcolepsy."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Hypothalamic neuropeptide: oxytocin, from the hypothalamic neurons neighbouring the lost orexin (already mapped) neurons, modulates the arousal and social-emotional dimension relevant to narcolepsy."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -726,6 +735,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Mast-cell neuroimmune: the mast cells (the histamine already mapped source) are part of the type-2 neuroimmune dimension of the autoimmune-inflammatory milieu of narcolepsy.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), reflects the type-2 immune dimension of the T-helper cytokine balance of narcolepsy.
 - `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Autoimmune-risk vitamin: vitamin D modulates the T-cell (already mapped) autoimmunity, and its status is a candidate modifier of the HLA-DQB1*06:02 (MHC already mapped) autoimmune narcolepsy.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Autoimmune micronutrient: selenium, a selenoprotein antioxidant cofactor, is part of the micronutrient dimension (with vitamin D already mapped) of the autoimmune susceptibility of narcolepsy type 1.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Sleep-linked hormone: prolactin, secreted in a sleep-entrained nocturnal surge, is part of the hypothalamic-pituitary neuroendocrine dimension disrupted in the disordered sleep-wake regulation of narcolepsy.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Hypothalamic neuropeptide: oxytocin, from the hypothalamic neurons neighbouring the lost orexin (already mapped) neurons, modulates the arousal and social-emotional dimension relevant to narcolepsy.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)
