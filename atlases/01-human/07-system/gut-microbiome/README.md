@@ -469,6 +469,15 @@ cross_links:
   - target: 01-human/05-tissue/bone-marrow
     relation: connects-to
     note: "Gut-marrow axis: the commensal microbiome, via the microbial metabolites and signals, conditions the haematopoiesis and the myeloid output of the bone marrow, a systemic arm of the gut-shaped immunity."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Microbiome-primed complement: the commensal microbiome tunes the steady-state complement C3 expression (locally and systemically), part of the microbiome-shaped innate immunity of the host."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) links the microbiome-tuned complement to the neutrophil recruitment of the intestinal mucosa."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Microbiome-primed neutrophils: the commensal microbiome primes the neutrophils (the ageing and antimicrobial function), a systemic arm of the gut-shaped innate immunity."
 ---
 
 # Gut Microbiome
@@ -697,6 +706,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Microbiome-shaped CD8: the commensal microbiome shapes the intraepithelial and systemic cytotoxic T cells (perforin pathway), and the dysbiosis alters the anti-tumour and anti-viral CD8 response.
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Mast-cell crosstalk: the gut mast cells are educated by the commensal microbiome and, in dysbiosis, contribute to the barrier dysfunction and the type-2 (IgE already mapped) sensitisation of the gut-shaped immunity.
 - `connects-to` → **[Bone marrow](../../05-tissue/bone-marrow/README.md)** — Gut-marrow axis: the commensal microbiome, via the microbial metabolites and signals, conditions the haematopoiesis and the myeloid output of the bone marrow, a systemic arm of the gut-shaped immunity.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Microbiome-primed complement: the commensal microbiome tunes the steady-state complement C3 expression (locally and systemically), part of the microbiome-shaped innate immunity of the host.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) links the microbiome-tuned complement to the neutrophil recruitment of the intestinal mucosa.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Microbiome-primed neutrophils: the commensal microbiome primes the neutrophils (the ageing and antimicrobial function), a systemic arm of the gut-shaped innate immunity.
 
 ## Pathology
 
