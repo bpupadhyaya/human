@@ -457,6 +457,15 @@ cross_links:
   - target: 01-human/03-molecular/il-12
     relation: connects-to
     note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune microenvironment of chronic myeloid leukaemia."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune microenvironment of chronic myeloid leukaemia (and the eosinophilia of some myeloproliferative overlaps)."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 arm: IL-13, with IL-4 (already mapped), completes the type-2 immune arm of the immune microenvironment of chronic myeloid leukaemia."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the inflammatory bone-marrow (already mapped) microenvironment of chronic myeloid leukaemia."
 ---
 
 # Chronic Myeloid Leukemia
@@ -716,6 +725,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — IFN-α therapy/immune control: the type-I interferon (IFN-α) was the pre-TKI standard therapy of CML and, downstream of cGAS-STING (already mapped), underlies the immune surveillance relevant to the treatment-free remission.
 - `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 anti-leukaemic arm: the IFN-γ of the T and NK cells (perforin already mapped) is the type-II interferon arm of the anti-leukaemic immunity relevant to the immune control of CML.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune microenvironment of chronic myeloid leukaemia.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune microenvironment of chronic myeloid leukaemia (and the eosinophilia of some myeloproliferative overlaps).
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 arm: IL-13, with IL-4 (already mapped), completes the type-2 immune arm of the immune microenvironment of chronic myeloid leukaemia.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the inflammatory bone-marrow (already mapped) microenvironment of chronic myeloid leukaemia.
 
 ---
 
