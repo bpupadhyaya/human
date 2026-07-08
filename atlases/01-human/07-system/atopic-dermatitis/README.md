@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/07-system/prurigo-nodularis
     relation: connects-to
     note: "Itch overlap: atopic dermatitis and prurigo nodularis share the type-2 (IL-31, IL-4 and IL-13 already mapped) neuroimmune itch, and the dupilumab treats both."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 chronic-phase arm: the IFN-γ of the T cells is the type-II interferon arm of the Th1 shift seen in the chronic, lichenified lesions of atopic dermatitis, counter to the acute Th2 (IL-4 and IL-13 already mapped)."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the chronic-phase inflammation of atopic dermatitis."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Innate immunity: the NK cells (perforin already mapped) are part of the innate immune dysregulation and the antiviral (eczema herpeticum) susceptibility of atopic dermatitis."
 ---
 
 # Atopic Dermatitis
@@ -714,6 +723,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Itch mast cells: the mast cells (KIT and histamine already mapped) release the pruritogens and the type-2 mediators onto the sensitised nerves (substance-P and NGF already mapped) of atopic dermatitis.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Langerhans sensitisation: the epidermal Langerhans/dendritic cells present the allergen and drive the Th2 (already mapped) sensitisation of atopic dermatitis.
 - `connects-to` → **[Prurigo nodularis](../prurigo-nodularis/README.md)** — Itch overlap: atopic dermatitis and prurigo nodularis share the type-2 (IL-31, IL-4 and IL-13 already mapped) neuroimmune itch, and the dupilumab treats both.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 chronic-phase arm: the IFN-γ of the T cells is the type-II interferon arm of the Th1 shift seen in the chronic, lichenified lesions of atopic dermatitis, counter to the acute Th2 (IL-4 and IL-13 already mapped).
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the chronic-phase inflammation of atopic dermatitis.
+- `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Innate immunity: the NK cells (perforin already mapped) are part of the innate immune dysregulation and the antiviral (eczema herpeticum) susceptibility of atopic dermatitis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
