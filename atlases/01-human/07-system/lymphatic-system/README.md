@@ -455,6 +455,15 @@ cross_links:
   - target: 01-human/04-cellular/erythrocyte
     relation: connects-to
     note: "Immune-complex ferrying: the erythrocytes bind the complement (C3 already mapped)-opsonised immune complexes via CR1 and deliver them to the splenic and hepatic phagocytes, complementing the lymphatic clearance of the lymphatic system."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Mucosal alarmin: TSLP, with IL-33 (already mapped), is the epithelial/mucosal alarmin that conditions the dendritic cells (already mapped) and initiates the type-2 (IL-4, IL-5 and IL-13 already mapped) immunity coordinated through the lymphatic system."
+  - target: 01-human/03-molecular/il-31
+    relation: connects-to
+    note: "Itch cytokine: IL-31, a type-2 (IL-4 and IL-13 already mapped) cytokine, links the lymphatic-borne type-2 immunity to the sensory nervous system in the itch response."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement: the complement C5 and the MAC (with C3 already mapped) provide the lytic and chemotactic arm of the innate immunity draining through the lymphatic system."
 ---
 
 # Lymphatic System
@@ -710,6 +719,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement (C3 already mapped) pathway in the lymph and interstitial fluid, protecting the host tissue drained by the lymphatic system.
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Permeability control: the C1-esterase inhibitor regulates the complement and contact (bradykinin already mapped) systems; its deficiency causes the angioedema of the interstitial tissues drained by the lymphatic system.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Immune-complex ferrying: the erythrocytes bind the complement (C3 already mapped)-opsonised immune complexes via CR1 and deliver them to the splenic and hepatic phagocytes, complementing the lymphatic clearance of the lymphatic system.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Mucosal alarmin: TSLP, with IL-33 (already mapped), is the epithelial/mucosal alarmin that conditions the dendritic cells (already mapped) and initiates the type-2 (IL-4, IL-5 and IL-13 already mapped) immunity coordinated through the lymphatic system.
+- `connects-to` → **[IL-31](../../03-molecular/il-31/README.md)** — Itch cytokine: IL-31, a type-2 (IL-4 and IL-13 already mapped) cytokine, links the lymphatic-borne type-2 immunity to the sensory nervous system in the itch response.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and the MAC (with C3 already mapped) provide the lytic and chemotactic arm of the innate immunity draining through the lymphatic system.
 
 ## Pathology
 
