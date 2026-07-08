@@ -460,6 +460,15 @@ cross_links:
   - target: 01-human/03-molecular/type-i-interferon
     relation: connects-to
     note: "Innate osteoimmune interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, modulates the osteoclast (already mapped) differentiation in the osteoimmunology of osteoporosis."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 osteoimmune arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the osteoimmune crosstalk that modulates the bone loss of osteoporosis."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 osteoclast axis: IL-23 sustains the Th17 (IL-17 already mapped) cells that drive the RANKL (already mapped)-mediated osteoclast (already mapped) bone resorption of osteoporosis."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the immune-bone crosstalk of osteoporosis."
 ---
 
 # Osteoporosis
@@ -715,6 +724,9 @@ All newly diagnosed osteoporosis should be evaluated for secondary causes: CBC (
 - `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Osteoimmunology Th1: the IFN-γ of the T cells is the type-II interferon arm of the osteoimmune modulation of the RANKL (already mapped)-driven osteoclast (already mapped) bone loss of osteoporosis.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune-bone crosstalk contributing to the bone loss of osteoporosis.
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate osteoimmune interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, modulates the osteoclast (already mapped) differentiation in the osteoimmunology of osteoporosis.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 osteoimmune arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the osteoimmune crosstalk that modulates the bone loss of osteoporosis.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 osteoclast axis: IL-23 sustains the Th17 (IL-17 already mapped) cells that drive the RANKL (already mapped)-mediated osteoclast (already mapped) bone resorption of osteoporosis.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the immune-bone crosstalk of osteoporosis.
 
 [^kanis-2019-who-osteoporosis]: Kanis JA, Cooper C, Rizzoli R, Reginster JY. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. *Osteoporos Int.* 2019;30(1):3-44. [doi:10.1007/s00198-018-4704-5](https://doi.org/10.1007/s00198-018-4704-5) · [PubMed 30324412](https://pubmed.ncbi.nlm.nih.gov/30324412/)
 [^cosman-2016-romosozumab]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)
