@@ -451,6 +451,15 @@ cross_links:
   - target: 01-human/06-organ/heart
     relation: connects-to
     note: "Right-heart strain: the pulmonary embolism strains the right heart (troponin and BNP already mapped), the acute RV failure the cause of the PE death."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate immunothrombosis: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, is part of the innate immune contribution to the immunothrombosis (neutrophils already mapped) of venous thromboembolism."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 immunothrombosis: the IFN-γ of the T cells is the type-II interferon arm of the inflammatory dimension (IL-6 and TNF already mapped) that potentiates the venous thrombosis."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immunothrombotic inflammation of venous thromboembolism."
 ---
 
 # Venous Thromboembolism
@@ -714,6 +723,9 @@ cross_links:
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the obesity (a major VTE risk) and the prothrombotic inflammatory state.
 - `connects-to` → **[Pulmonary arterial hypertension](../pulmonary-arterial-hypertension/README.md)** — CTEPH: the chronic thromboembolic pulmonary hypertension is a long-term complication of the unresolved pulmonary embolism of venous thromboembolism.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Right-heart strain: the pulmonary embolism strains the right heart (troponin and BNP already mapped), the acute RV failure the cause of the PE death.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate immunothrombosis: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, is part of the innate immune contribution to the immunothrombosis (neutrophils already mapped) of venous thromboembolism.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 immunothrombosis: the IFN-γ of the T cells is the type-II interferon arm of the inflammatory dimension (IL-6 and TNF already mapped) that potentiates the venous thrombosis.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immunothrombotic inflammation of venous thromboembolism.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)
