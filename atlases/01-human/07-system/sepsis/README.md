@@ -451,6 +451,15 @@ cross_links:
   - target: 01-human/07-system/covid-19-disease
     relation: connects-to
     note: "Viral sepsis: the severe COVID-19 is a form of viral sepsis (the dysregulated host response, the cytokine storm — IL-6 already mapped, the coagulopathy — thrombin already mapped)."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Sepsis biomarker: resistin, released by the neutrophils and macrophages (already mapped), is a pro-inflammatory adipokine and a prognostic biomarker of the severity of sepsis."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Immune-metabolic adipokine: leptin links the metabolic state to the immune response and is altered in the acute-phase, hypermetabolic state of sepsis."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin (already mapped), falls in sepsis and is part of the adipokine dysregulation of the septic host response."
 ---
 
 # Sepsis
@@ -701,6 +710,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Septic AKI: the acute kidney injury is the commonest sepsis organ dysfunction (the microcirculatory and inflammatory injury), a major morbidity and mortality driver.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophage response: the macrophages (TLR4 and MyD88 already mapped) drive the cytokine storm and, later, the immunoparalysis (the endotoxin tolerance, MHC-DR already mapped) of sepsis.
 - `connects-to` → **[COVID-19](../covid-19-disease/README.md)** — Viral sepsis: the severe COVID-19 is a form of viral sepsis (the dysregulated host response, the cytokine storm — IL-6 already mapped, the coagulopathy — thrombin already mapped).
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Sepsis biomarker: resistin, released by the neutrophils and macrophages (already mapped), is a pro-inflammatory adipokine and a prognostic biomarker of the severity of sepsis.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Immune-metabolic adipokine: leptin links the metabolic state to the immune response and is altered in the acute-phase, hypermetabolic state of sepsis.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), falls in sepsis and is part of the adipokine dysregulation of the septic host response.
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

@@ -450,6 +450,15 @@ cross_links:
   - target: 01-human/03-molecular/type-i-interferon
     relation: connects-to
     note: "Antiviral airway interferon: the airway epithelium's type-I interferon (with the secretory-IgA already mapped) defends the respiratory system against the inhaled respiratory viruses."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 airway immunity: the IFN-γ of the airway T cells is the type-II interferon arm of the Th1 antiviral and antimycobacterial immunity of the respiratory system."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the airway immunity, counter-balancing the type-2 (IL-4, IL-5 and IL-13 already mapped) allergic response of the respiratory system."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 airway axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the neutrophilic airway inflammation of the respiratory system."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -675,6 +684,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Connects-to** → [Adiponectin](../../03-molecular/adiponectin/README.md): respiratory-metabolic adipokine: adiponectin, with leptin (already mapped), is the adipokine of the respiratory-metabolic crosstalk; the obesity affects the ventilation and the airway inflammation of the respiratory system.
 - **Connects-to** → [Resistin](../../03-molecular/resistin/README.md): airway-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose to the airway inflammation and the obesity-related respiratory dysfunction.
 - **Connects-to** → [Type I interferon](../../03-molecular/type-i-interferon/README.md): antiviral airway interferon: the airway epithelium's type-I interferon (with the secretory-IgA already mapped) defends the respiratory system against the inhaled respiratory viruses.
+- **Connects-to** → [IFN-gamma](../../03-molecular/ifn-gamma/README.md): Th1 airway immunity: the IFN-γ of the airway T cells is the type-II interferon arm of the Th1 antiviral and antimycobacterial immunity of the respiratory system.
+- **Connects-to** → [IL-12](../../03-molecular/il-12/README.md): Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the airway immunity, counter-balancing the type-2 (IL-4, IL-5 and IL-13 already mapped) allergic response of the respiratory system.
+- **Connects-to** → [IL-23](../../03-molecular/il-23/README.md): Th17 airway axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the neutrophilic airway inflammation of the respiratory system.
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.
 
 ## Pathology
