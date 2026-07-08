@@ -472,6 +472,15 @@ cross_links:
   - target: 01-human/04-cellular/t-helper-cell
     relation: connects-to
     note: "CD4 helper source: the CD4 T-helper cells, including the maternal Th17 (IL-17 already mapped), are the source of the cytokines of the immune dysregulation and the maternal immune activation of autism spectrum disorder."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Adaptive neuroimmune arm: the cytotoxic T cells (perforin pathway) of the CNS-border compartments are part of the adaptive-immune contribution to the neuroinflammation implicated in autism spectrum disorder."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Maternal/innate NK: the NK cells (perforin pathway), including the maternal NK dysregulation of the maternal immune activation, are part of the innate-immune dimension of autism spectrum disorder."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "Complement C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the microglial (already mapped) activation and the complement-mediated synaptic pruning implicated in autism spectrum disorder."
 ---
 
 # Autism Spectrum Disorder
@@ -760,6 +769,9 @@ The neural basis of ASD social deficits involves dysfunction of the **social bra
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Maternal Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm central to the maternal immune activation implicated in autism spectrum disorder.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2/atopy arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension and the atopy comorbidity of autism spectrum disorder.
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 helper source: the CD4 T-helper cells, including the maternal Th17 (IL-17 already mapped), are the source of the cytokines of the immune dysregulation and the maternal immune activation of autism spectrum disorder.
+- `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Adaptive neuroimmune arm: the cytotoxic T cells (perforin pathway) of the CNS-border compartments are part of the adaptive-immune contribution to the neuroinflammation implicated in autism spectrum disorder.
+- `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Maternal/innate NK: the NK cells (perforin pathway), including the maternal NK dysregulation of the maternal immune activation, are part of the innate-immune dimension of autism spectrum disorder.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — Complement C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the microglial (already mapped) activation and the complement-mediated synaptic pruning implicated in autism spectrum disorder.
 
 [^maenner-2023-asd-prevalence]: Maenner MJ, Warren Z, Williams AR, et al. Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 2020. *MMWR Surveill Summ.* 2023;72(2):1-14. [doi:10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1) · [PubMed 36952216](https://pubmed.ncbi.nlm.nih.gov/36952216/)
 [^lord-2020-asd-review]: Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum disorder. *Lancet.* 2018;392(10146):508-520. [doi:10.1016/S0140-6736(18)31129-2](https://doi.org/10.1016/S0140-6736(18)31129-2) · [PubMed 30078460](https://pubmed.ncbi.nlm.nih.gov/30078460/)
