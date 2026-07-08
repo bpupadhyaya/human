@@ -466,6 +466,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "Innate surveillance: the NK cells (perforin already mapped) provide the innate cytotoxic surveillance against the malignant transformation of the juvenile polyps to colorectal cancer (already mapped)."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "Mucosal B cells: the B cells of the intestinal mucosa contribute to the humoral and organised immune response within the inflamed stroma of the juvenile polyps."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid recruitment into the inflamed stroma of the juvenile polyps."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Bleeding iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the iron-deficiency anaemia from the chronic gastrointestinal blood loss of the juvenile polyps."
 ---
 
 # Juvenile Polyposis Syndrome
@@ -745,6 +754,9 @@ No approved chemopreventive agents specifically for JPS. Options under investiga
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines of the inflamed stroma of the juvenile polyps.
 - `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — Humoral arm: the plasma cells secrete the antibodies (already mapped) of the humoral response within the inflamed stroma of the juvenile polyps.
 - `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Innate surveillance: the NK cells (perforin already mapped) provide the innate cytotoxic surveillance against the malignant transformation of the juvenile polyps to colorectal cancer (already mapped).
+- `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Mucosal B cells: the B cells of the intestinal mucosa contribute to the humoral and organised immune response within the inflamed stroma of the juvenile polyps.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid recruitment into the inflamed stroma of the juvenile polyps.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Bleeding iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the iron-deficiency anaemia from the chronic gastrointestinal blood loss of the juvenile polyps.
 
 [^howe-1998-smad4-jps]: Howe JR, Roth S, Ringold JC, et al. Mutations in the SMAD4/DPC4 gene in juvenile polyposis. *Science.* 1998;280(5366):1086-1088. [doi:10.1126/science.280.5366.1086](https://doi.org/10.1126/science.280.5366.1086) · [PubMed 9582123](https://pubmed.ncbi.nlm.nih.gov/9582123/)
 [^aretz-2007-jps-spectrum]: Aretz S, Stienen D, Uhlhaas S, et al. High proportion of large genomic deletions and a genotype-phenotype update in 80 unrelated families with juvenile polyposis syndrome. *J Med Genet.* 2007;44(11):702-709. [doi:10.1136/jmg.2007.051839](https://doi.org/10.1136/jmg.2007.051839) · [PubMed 17601924](https://pubmed.ncbi.nlm.nih.gov/17601924/)
