@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/04-cellular/b-cell
     relation: connects-to
     note: "B-cell component: the B cells contribute to the vascular inflammation and the systemic autoantibody/IL-6 (already mapped) milieu of giant cell arteritis, a rationale explored for the B-cell-directed therapy."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "Plasma-cell humoral arm: the plasma cells, downstream of the B cells (already mapped), secrete the antibodies of the humoral component of giant cell arteritis."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension balancing the dominant Th1/Th17 (IFN-γ, IL-12 and IL-23 already mapped) drive of giant cell arteritis."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension present in a subset of giant cell arteritis."
 ---
 
 # Giant Cell Arteritis
@@ -706,6 +715,9 @@ The temporal arteries supply scalp, temporalis muscle, and dura. In GCA, transmu
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the systemic inflammation (IL-6 already mapped) of giant cell arteritis.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Acute inflammatory infiltrate: the neutrophils and the neutrophil-lymphocyte ratio (S100A8/9 already mapped) reflect the acute-phase systemic inflammation of giant cell arteritis.
 - `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — B-cell component: the B cells contribute to the vascular inflammation and the systemic autoantibody/IL-6 (already mapped) milieu of giant cell arteritis, a rationale explored for the B-cell-directed therapy.
+- `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — Plasma-cell humoral arm: the plasma cells, downstream of the B cells (already mapped), secrete the antibodies of the humoral component of giant cell arteritis.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension balancing the dominant Th1/Th17 (IFN-γ, IL-12 and IL-23 already mapped) drive of giant cell arteritis.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension present in a subset of giant cell arteritis.
 
 [^stone-2017-giact]: Stone JH, Tuckwell K, Dimonaco S, et al. Trial of tocilizumab in giant-cell arteritis. *N Engl J Med.* 2017;377(4):317-328. [doi:10.1056/NEJMoa1613849](https://doi.org/10.1056/NEJMoa1613849) · [PubMed 28745999](https://pubmed.ncbi.nlm.nih.gov/28745999/)
 [^weyand-2014-gca-review]: Weyand CM, Goronzy JJ. Clinical practice. Giant-cell arteritis and polymyalgia rheumatica. *N Engl J Med.* 2014;371(1):50-57. [doi:10.1056/NEJMcp1214926](https://doi.org/10.1056/NEJMcp1214926) · [PubMed 24988557](https://pubmed.ncbi.nlm.nih.gov/24988557/)

@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: connects-to
     note: "Prognostic neutrophils: the tumour-associated neutrophils and the neutrophil-lymphocyte ratio (S100A8/9 already mapped) are studied prognostic markers in GIST."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the anti-tumour immunity, relevant to the imatinib-induced immune activation and checkpoint (PD-1 already mapped) trials in GIST."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune microenvironment of the gastrointestinal stromal tumour."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment of GIST."
 ---
 
 # GIST
@@ -722,6 +731,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Mesenteric adipokine: adiponectin, with leptin (already mapped), is part of the GI/mesenteric-adipose adipokine crosstalk of the GIST microenvironment.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), completes the adipokine dimension of the GIST microenvironment.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Prognostic neutrophils: the tumour-associated neutrophils and the neutrophil-lymphocyte ratio (S100A8/9 already mapped) are studied prognostic markers in GIST.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the anti-tumour immunity, relevant to the imatinib-induced immune activation and checkpoint (PD-1 already mapped) trials in GIST.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune microenvironment of the gastrointestinal stromal tumour.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment of GIST.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
