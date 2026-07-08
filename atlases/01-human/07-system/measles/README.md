@@ -461,6 +461,15 @@ cross_links:
   - target: 01-human/03-molecular/hepcidin
     relation: connects-to
     note: "Inflammation iron: the IL-6-driven (already mapped) hepcidin of the acute measles inflammation contributes to the anaemia, compounded in the malnourished child."
+  - target: 02-pathogen/01-viruses/measles-virus
+    relation: connects-to
+    note: "Causative virus: the measles virus (the H protein already mapped, binding the SLAM/nectin-4 receptors) is the causative paramyxovirus of measles."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Type-2/rash arm: the mast cells, with the type-2 (IL-4, IL-5 and IL-13 already mapped) immunity, contribute to the histamine-mediated (already mapped) vascular changes of the measles rash."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Complement clearance: the complement C5, with C3 (already mapped), contributes to the opsonisation and lysis of the measles virus and the immune clearance of the infection."
 ---
 
 # Measles
@@ -753,6 +762,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension of the immune response to the measles virus.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune response to the measles infection.
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Inflammation iron: the IL-6-driven (already mapped) hepcidin of the acute measles inflammation contributes to the anaemia, compounded in the malnourished child.
+- `connects-to` → **[Measles virus](../../../02-pathogen/01-viruses/measles-virus/README.md)** — Causative virus: the measles virus (the H protein already mapped, binding the SLAM/nectin-4 receptors) is the causative paramyxovirus of measles.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Type-2/rash arm: the mast cells, with the type-2 (IL-4, IL-5 and IL-13 already mapped) immunity, contribute to the histamine-mediated (already mapped) vascular changes of the measles rash.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Complement clearance: the complement C5, with C3 (already mapped), contributes to the opsonisation and lysis of the measles virus and the immune clearance of the infection.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)
