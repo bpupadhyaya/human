@@ -457,6 +457,15 @@ cross_links:
   - target: 01-human/03-molecular/il-5
     relation: connects-to
     note: "Type-2 immune arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune dysregulation associated with schizophrenia."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Adaptive neuroinflammation: the cytotoxic T cells (perforin already mapped) of the CNS-border compartments are part of the adaptive-immune contribution to the neuroinflammation implicated in schizophrenia."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Antigen presentation: the dendritic cells of the meningeal/CNS-border immune compartments present antigen (MHC already mapped) to the T cells (already mapped) of the neuroinflammation implicated in schizophrenia."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), reflects the type-2 immune dimension of the immune dysregulation associated with schizophrenia."
 ---
 
 # Schizophrenia
@@ -767,6 +776,9 @@ Notably, schizophrenia shares genetic loci with bipolar disorder, ASD, ADHD, maj
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 neuroinflammation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the low-grade neuroinflammation (IL-6 and TNF already mapped) implicated in schizophrenia.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 neuroinflammation: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune-inflammatory dimension implicated in schizophrenia.
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 immune arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune dysregulation associated with schizophrenia.
+- `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Adaptive neuroinflammation: the cytotoxic T cells (perforin already mapped) of the CNS-border compartments are part of the adaptive-immune contribution to the neuroinflammation implicated in schizophrenia.
+- `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Antigen presentation: the dendritic cells of the meningeal/CNS-border immune compartments present antigen (MHC already mapped) to the T cells (already mapped) of the neuroinflammation implicated in schizophrenia.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), reflects the type-2 immune dimension of the immune dysregulation associated with schizophrenia.
 
 [^howes-2009-dopamine-hypothesis]: Howes OD, Kapur S. The dopamine hypothesis of schizophrenia: version III—the final common pathway. *Schizophr Bull.* 2009;35(3):549-562. [doi:10.1093/schbul/sbp006](https://doi.org/10.1093/schbul/sbp006) · [PubMed 19325164](https://pubmed.ncbi.nlm.nih.gov/19325164/)
 [^moghaddam-2012-glutamate]: Moghaddam B, Javitt D. From revolution to evolution: the glutamate hypothesis of schizophrenia and its implication for treatment. *Neuropsychopharmacology.* 2012;37(1):4-15. [doi:10.1038/npp.2011.181](https://doi.org/10.1038/npp.2011.181) · [PubMed 21956446](https://pubmed.ncbi.nlm.nih.gov/21956446/)
