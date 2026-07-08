@@ -466,6 +466,15 @@ cross_links:
   - target: 01-human/04-cellular/plasma-cell
     relation: connects-to
     note: "Anti-HPV antibody arm: the plasma cells secrete the anti-HPV antibodies (immunoglobulin already mapped) that mediate the protection of the prophylactic HPV vaccine against cervical cancer."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Stromal mast cells: the mast cells of the tumour stroma contribute to the angiogenesis (VEGF already mapped) and the inflammatory microenvironment of cervical cancer."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid recruitment into the cervical-cancer stroma."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement: the complement C5 and its activation (with C3 already mapped) are part of the complement dimension of the HPV-driven inflammatory microenvironment of cervical cancer."
 ---
 
 # Cervical Cancer
@@ -738,6 +747,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the tumour-promoting inflammation of the HPV-driven cervical cancer.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the cervical-cancer microenvironment.
 - `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — Anti-HPV antibody arm: the plasma cells secrete the anti-HPV antibodies (immunoglobulin already mapped) that mediate the protection of the prophylactic HPV vaccine against cervical cancer.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Stromal mast cells: the mast cells of the tumour stroma contribute to the angiogenesis (VEGF already mapped) and the inflammatory microenvironment of cervical cancer.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid recruitment into the cervical-cancer stroma.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its activation (with C3 already mapped) are part of the complement dimension of the HPV-driven inflammatory microenvironment of cervical cancer.
 
 ---
 
