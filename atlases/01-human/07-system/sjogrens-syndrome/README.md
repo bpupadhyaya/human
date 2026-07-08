@@ -454,6 +454,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension present in a subset of Sjögren's syndrome."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast-cell fibrosis: the mast cells infiltrate the salivary glands and contribute to the periductal fibrosis and the type-2 (IL-4 and IL-13 already mapped) dimension of Sjögren's syndrome."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Epithelial alarmin: the ductal-epithelial TSLP alarmin drives the type-2 (IL-4 and IL-13 already mapped) immunity of the damaged exocrine epithelium of Sjögren's syndrome."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Selenium immune status: the selenium selenoprotein antioxidant defence modulates the lymphocyte function and the autoimmune-thyroid overlap of Sjögren's syndrome."
 ---
 
 # Sjögren's Syndrome
@@ -729,6 +738,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Innate surveillance: the NK cells (perforin already mapped) infiltrate the salivary glands and contribute to the innate inflammation and the MALT-lymphoma surveillance of Sjögren's syndrome.
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension balancing the Th1/Th17 (IFN-γ and IL-17 already mapped) drive of Sjögren's syndrome.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension present in a subset of Sjögren's syndrome.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Mast-cell fibrosis: the mast cells infiltrate the salivary glands and contribute to the periductal fibrosis and the type-2 (IL-4 and IL-13 already mapped) dimension of Sjögren's syndrome.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Epithelial alarmin: the ductal-epithelial TSLP alarmin drives the type-2 (IL-4 and IL-13 already mapped) immunity of the damaged exocrine epithelium of Sjögren's syndrome.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Selenium immune status: the selenium selenoprotein antioxidant defence modulates the lymphocyte function and the autoimmune-thyroid overlap of Sjögren's syndrome.
 
 ---
 
