@@ -469,6 +469,15 @@ cross_links:
   - target: 01-human/03-molecular/type-i-interferon
     relation: connects-to
     note: "Innate interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) sensing of the ischaemic cell death, contributes to the post-stroke neuroinflammation of stroke."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Reperfusion injury: the neutrophils, recruited into the ischaemic brain, drive the reperfusion injury and the NETosis that worsen the tissue damage and the no-reflow of stroke."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "Complement C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid recruitment and the complement-mediated injury of the ischaemic brain in stroke."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Adaptive neuroinflammation: the cytotoxic T cells (perforin pathway) infiltrate the ischaemic brain in the days after stroke, contributing to the delayed adaptive-immune injury and repair."
 ---
 
 # Stroke
@@ -723,6 +732,9 @@ Normal brain maintains CBF constant (50-150 mmHg MAP range) via autoregulation (
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the post-stroke neuroinflammation and the systemic immune response of stroke.
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the neuroimmune response after stroke.
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) sensing of the ischaemic cell death, contributes to the post-stroke neuroinflammation of stroke.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Reperfusion injury: the neutrophils, recruited into the ischaemic brain, drive the reperfusion injury and the NETosis that worsen the tissue damage and the no-reflow of stroke.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — Complement C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid recruitment and the complement-mediated injury of the ischaemic brain in stroke.
+- `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Adaptive neuroinflammation: the cytotoxic T cells (perforin pathway) infiltrate the ischaemic brain in the days after stroke, contributing to the delayed adaptive-immune injury and repair.
 
 [^powers-2019-aha-stroke]: Powers WJ, Rabinstein AA, Ackerson T, et al. Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines. *Stroke.* 2019;50(12):e344-e418. [doi:10.1161/STR.0000000000000211](https://doi.org/10.1161/STR.0000000000000211) · [PubMed 31662037](https://pubmed.ncbi.nlm.nih.gov/31662037/)
 [^feigin-2021-gbd-stroke]: Feigin VL, Krishnamurthi RV, Parmar P, et al. Update on the Global Burden of Ischemic and Hemorrhagic Stroke in 1990-2013. *Neuroepidemiology.* 2015;45(3):161-176. [doi:10.1159/000441085](https://doi.org/10.1159/000441085) · [PubMed 26505981](https://pubmed.ncbi.nlm.nih.gov/26505981/)
