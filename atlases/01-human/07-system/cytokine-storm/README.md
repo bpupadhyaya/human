@@ -457,6 +457,15 @@ cross_links:
   - target: 01-human/04-cellular/mast-cell
     relation: connects-to
     note: "Mast-cell source: the mast cells (a source of IL-6 and TNF already mapped) contribute to the hyperinflammation, as in the mast-cell-activation forms of the cytokine storm."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2/mast-cell arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), arms the mast cells (already mapped) of the mast-cell-activation forms of the cytokine storm."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "Humoral arm: the plasma cells secrete the antibodies (already mapped) of the humoral response that can accompany or drive some forms of the cytokine storm."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "B-cell arm: the B cells contribute to the immune dysregulation of some cytokine storms (e.g. the B-cell-driven forms of MAS and the CAR-T-cell target-related CRS)."
 ---
 
 # Cytokine Storm
@@ -694,6 +703,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 arm: IL-23 sustains the Th17 (IL-17 already mapped) arm, one contributor to the broad cytokine milieu of the cytokine storm.
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the mixed cytokine profile of the cytokine storm.
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Mast-cell source: the mast cells (a source of IL-6 and TNF already mapped) contribute to the hyperinflammation, as in the mast-cell-activation forms of the cytokine storm.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2/mast-cell arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), arms the mast cells (already mapped) of the mast-cell-activation forms of the cytokine storm.
+- `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — Humoral arm: the plasma cells secrete the antibodies (already mapped) of the humoral response that can accompany or drive some forms of the cytokine storm.
+- `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — B-cell arm: the B cells contribute to the immune dysregulation of some cytokine storms (e.g. the B-cell-driven forms of MAS and the CAR-T-cell target-related CRS).
 
 ## Pathology
 
