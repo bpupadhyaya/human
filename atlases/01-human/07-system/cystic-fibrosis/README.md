@@ -457,6 +457,15 @@ cross_links:
   - target: 01-human/03-molecular/type-i-interferon
     relation: connects-to
     note: "Antiviral exacerbation interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) sensing, mediates the antiviral response to the respiratory-virus exacerbations of cystic fibrosis."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Eosinophil/ABPA arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), drives the eosinophilia of the allergic bronchopulmonary aspergillosis (Aspergillus already mapped) that complicates cystic fibrosis."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 antibacterial arm: IL-12 polarises the Th1 (IFN-γ arm) response of the antibacterial airway immunity against the chronic infection of cystic fibrosis."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the neutrophilic (already mapped) airway inflammation of cystic fibrosis."
 ---
 
 # Cystic Fibrosis
@@ -731,6 +740,9 @@ AND
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — ABPA/colonisation: Aspergillus fumigatus colonises the CF airway and causes the allergic bronchopulmonary aspergillosis (ABPA), a type-2 (IL-13 already mapped) hypersensitivity complication of cystic fibrosis.
 - `connects-to` → **[Type II pneumocyte](../../04-cellular/type-ii-pneumocyte/README.md)** — Alveolar CFTR: the type-II pneumocytes express the CFTR (already mapped) and produce the surfactant (already mapped); the distal-airway/alveolar involvement is part of the CF lung disease.
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Antiviral exacerbation interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) sensing, mediates the antiviral response to the respiratory-virus exacerbations of cystic fibrosis.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Eosinophil/ABPA arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), drives the eosinophilia of the allergic bronchopulmonary aspergillosis (Aspergillus already mapped) that complicates cystic fibrosis.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 antibacterial arm: IL-12 polarises the Th1 (IFN-γ arm) response of the antibacterial airway immunity against the chronic infection of cystic fibrosis.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the neutrophilic (already mapped) airway inflammation of cystic fibrosis.
 
 ---
 
