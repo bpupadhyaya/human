@@ -460,6 +460,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the systemic inflammation (IL-6 already mapped) of ANCA vasculitis."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Innate cytotoxicity: the NK cells (perforin already mapped) are part of the innate immune dysregulation of the small-vessel autoimmunity of ANCA vasculitis."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Cytotoxic effectors: the cytotoxic T cells (perforin already mapped) contribute to the endothelial and tissue injury of the ANCA vasculitis, alongside the ANCA-activated neutrophils (already mapped)."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm, which with the Th17 (IL-17 and IL-23 already mapped) drives the granulomatous inflammation of ANCA vasculitis."
 ---
 
 # ANCA Vasculitis
@@ -739,6 +748,9 @@ EGPA is mechanistically distinct — eosinophils, not neutrophils, mediate tissu
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Immune-metabolic adipokine: leptin is the adipokine of the immune-metabolic milieu and the steroid (cortisol already mapped)-related metabolic disturbance of ANCA vasculitis.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the immune-metabolic milieu of ANCA vasculitis.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the systemic inflammation (IL-6 already mapped) of ANCA vasculitis.
+- `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Innate cytotoxicity: the NK cells (perforin already mapped) are part of the innate immune dysregulation of the small-vessel autoimmunity of ANCA vasculitis.
+- `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Cytotoxic effectors: the cytotoxic T cells (perforin already mapped) contribute to the endothelial and tissue injury of the ANCA vasculitis, alongside the ANCA-activated neutrophils (already mapped).
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm, which with the Th17 (IL-17 and IL-23 already mapped) drives the granulomatous inflammation of ANCA vasculitis.
 
 [^yates-2022-anca-review]: Yates M, Watts RA, Bajema IM, et al. EULAR/ERA-EDTA recommendations for the management of ANCA-associated vasculitis. *Ann Rheum Dis.* 2016;75(9):1583-1594. [doi:10.1136/annrheumdis-2016-209133](https://doi.org/10.1136/annrheumdis-2016-209133) · [PubMed 27338776](https://pubmed.ncbi.nlm.nih.gov/27338776/)
 [^stone-2010-rituximab-gpa-rave]: Stone JH, Merkel PA, Spiera R, et al. Rituximab versus cyclophosphamide for ANCA-associated vasculitis. *N Engl J Med.* 2010;363(3):221-232. [doi:10.1056/NEJMoa0909905](https://doi.org/10.1056/NEJMoa0909905) · [PubMed 20647199](https://pubmed.ncbi.nlm.nih.gov/20647199/)

@@ -457,6 +457,15 @@ cross_links:
   - target: 01-human/02-atomic/copper
     relation: connects-to
     note: "SOD1 copper toxicity: the mutant SOD1 (the Cu/Zn superoxide dismutase) and the copper-mediated oxidative toxicity are a cause of the familial ALS."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 neuroinflammation: the IFN-γ of the infiltrating T cells is the type-II interferon arm of the neuroinflammation (type-I interferon and microglia already mapped) that accelerates the motor-neuron death of ALS."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune-inflammatory dimension of ALS."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune dysregulation associated with ALS."
 ---
 
 # ALS
@@ -743,6 +752,9 @@ ALS diagnosis is **clinical** — no single definitive biomarker test (though Nf
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Non-cell-autonomous astrocytes: the astrocyte toxicity (the impaired glutamate — already mapped — uptake, the reactive astrogliosis) contributes non-cell-autonomously to the motor-neuron death of ALS.
 - `connects-to` → **[Peripheral nerve](../../05-tissue/peripheral-nerve/README.md)** — Motor axon degeneration: the lower-motor-neuron axons of the peripheral nerve degenerate (the denervation, the fasciculations and the muscle atrophy) in ALS.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — SOD1 copper toxicity: the mutant SOD1 (the Cu/Zn superoxide dismutase) and the copper-mediated oxidative toxicity are a cause of the familial ALS.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 neuroinflammation: the IFN-γ of the infiltrating T cells is the type-II interferon arm of the neuroinflammation (type-I interferon and microglia already mapped) that accelerates the motor-neuron death of ALS.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune-inflammatory dimension of ALS.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune dysregulation associated with ALS.
 
 [^brown-2017-als-review]: Brown RH, Al-Chalabi A. Amyotrophic lateral sclerosis. *N Engl J Med.* 2017;377(2):162-172. [doi:10.1056/NEJMra1603471](https://doi.org/10.1056/NEJMra1603471) · [PubMed 28700839](https://pubmed.ncbi.nlm.nih.gov/28700839/)
 [^edaravone-als-2017]: Writing Group, Edaravone ALS 19 Study Group. Safety and efficacy of edaravone in well defined patients with amyotrophic lateral sclerosis. *Lancet Neurol.* 2017;16(7):505-512. [doi:10.1016/S1474-4422(17)30115-1](https://doi.org/10.1016/S1474-4422(17)30115-1) · [PubMed 28522180](https://pubmed.ncbi.nlm.nih.gov/28522180/)
