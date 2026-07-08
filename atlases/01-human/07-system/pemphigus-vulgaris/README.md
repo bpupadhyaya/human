@@ -454,6 +454,15 @@ cross_links:
   - target: 01-human/03-molecular/tslp
     relation: connects-to
     note: "Epithelial alarmin: the keratinocyte-derived TSLP alarmin drives the type-2 (IL-4 already mapped) skin immunity of the blistering autoimmunity of pemphigus vulgaris."
+  - target: 01-human/07-system/atopic-dermatitis
+    relation: connects-to
+    note: "Type-2 dermatosis overlap: pemphigus vulgaris shares the type-2 (IL-4, IL-13, IL-31 and TSLP already mapped) skin-immune dimension with atopic dermatitis, and the dupilumab is explored in the refractory disease."
+  - target: 01-human/07-system/prurigo-nodularis
+    relation: connects-to
+    note: "Type-2 itch overlap: the type-2 (IL-31 and TSLP already mapped) neuroimmune itch links the cutaneous pruritus of pemphigus vulgaris to prurigo nodularis."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Type-2 remodelling: periostin, downstream of the type-2 (IL-4 and IL-13 already mapped) cytokines, is part of the type-2 tissue-remodelling dimension of the cutaneous involvement of pemphigus vulgaris."
 ---
 
 # Pemphigus Vulgaris
@@ -743,6 +752,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — ADCC effectors: the NK cells mediate the antibody-dependent cellular cytotoxicity of the anti-CD20 (already mapped) rituximab (Ritux 3) against the autoreactive B cells of pemphigus vulgaris.
 - `connects-to` → **[IL-31](../../03-molecular/il-31/README.md)** — Pruritus cytokine: IL-31, part of the type-2 (IL-4 and IL-13 already mapped) response, mediates the pruritus of the cutaneous involvement of pemphigus vulgaris.
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Epithelial alarmin: the keratinocyte-derived TSLP alarmin drives the type-2 (IL-4 already mapped) skin immunity of the blistering autoimmunity of pemphigus vulgaris.
+- `connects-to` → **[Atopic dermatitis](../atopic-dermatitis/README.md)** — Type-2 dermatosis overlap: pemphigus vulgaris shares the type-2 (IL-4, IL-13, IL-31 and TSLP already mapped) skin-immune dimension with atopic dermatitis, and the dupilumab is explored in the refractory disease.
+- `connects-to` → **[Prurigo nodularis](../prurigo-nodularis/README.md)** — Type-2 itch overlap: the type-2 (IL-31 and TSLP already mapped) neuroimmune itch links the cutaneous pruritus of pemphigus vulgaris to prurigo nodularis.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Type-2 remodelling: periostin, downstream of the type-2 (IL-4 and IL-13 already mapped) cytokines, is part of the type-2 tissue-remodelling dimension of the cutaneous involvement of pemphigus vulgaris.
 
 ---
 

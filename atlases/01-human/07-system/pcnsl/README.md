@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/03-molecular/il-23
     relation: connects-to
     note: "Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune microenvironment of primary CNS lymphoma."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2 antibody arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), reflects the type-2 humoral dimension of the immune microenvironment of primary CNS lymphoma."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast-cell infiltrate: the mast cells are part of the tumour immune microenvironment infiltrate of primary CNS lymphoma, contributing to the type-2 and pro-angiogenic (VEGF already mapped) milieu."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin arm: TSLP, an epithelial/stromal alarmin, is part of the type-2 (IL-4 and IL-13 already mapped) dimension of the immune microenvironment of primary CNS lymphoma."
 ---
 
 # Primary CNS Lymphoma
@@ -705,6 +714,9 @@ Score 0-1: 2-year OS ~80%; Score 2-3: ~48%; Score 4-5: ~15%
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) anti-lymphoma response of the immune-privileged primary CNS lymphoma microenvironment.
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 arm of the immune microenvironment of primary CNS lymphoma.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune microenvironment of primary CNS lymphoma.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 antibody arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), reflects the type-2 humoral dimension of the immune microenvironment of primary CNS lymphoma.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Mast-cell infiltrate: the mast cells are part of the tumour immune microenvironment infiltrate of primary CNS lymphoma, contributing to the type-2 and pro-angiogenic (VEGF already mapped) milieu.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin arm: TSLP, an epithelial/stromal alarmin, is part of the type-2 (IL-4 and IL-13 already mapped) dimension of the immune microenvironment of primary CNS lymphoma.
 
 [^bromberg-2019-hovon105]: Bromberg JE, Issa S, Bakunina K, et al. Rituximab in patients with primary CNS lymphoma (HOVON 105/ALLG NHL 24): a randomised, open-label, phase 3 intergroup study. *Lancet Oncol.* 2019;20(2):216-228. [doi:10.1016/S1470-2045(18)30747-2](https://doi.org/10.1016/S1470-2045(18)30747-2) · [PubMed 30528440](https://pubmed.ncbi.nlm.nih.gov/30528440/)
 [^grommes-2017-ibrutinib-pcnsl]: Grommes C, Pastore A, Palaskas N, et al. Ibrutinib unmasks critical role of Bruton tyrosine kinase in primary CNS lymphoma. *Cancer Cell.* 2017;31(6):833-843. [doi:10.1016/j.ccell.2017.04.012](https://doi.org/10.1016/j.ccell.2017.04.012) · [PubMed 28552327](https://pubmed.ncbi.nlm.nih.gov/28552327/)
