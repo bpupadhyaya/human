@@ -444,6 +444,15 @@ cross_links:
   - target: 01-human/07-system/colorectal-cancer
     relation: connects-to
     note: "Occult-bleeding cause: the iron-deficiency anaemia from the chronic occult GI bleeding (transferrin already mapped) is a classic presenting sign of colorectal cancer, mandating investigation."
+  - target: 01-human/04-cellular/hepatocyte
+    relation: connects-to
+    note: "Hepatic iron sensing: the hepatocytes produce the hepcidin (already mapped) and store the ferritin iron; the low iron of iron-deficiency anaemia suppresses the hepcidin to maximise the absorption."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Inflammation-restricted erythropoiesis: the IFN-γ of the T cells suppresses the erythropoiesis and, in the mixed iron-deficiency/inflammatory anaemias, compounds the iron-restricted erythropoiesis."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Type-2 immune modulation: IL-4 and the type-2 arm modulate the macrophage (already mapped) iron handling that intersects with the iron-deficiency anaemia."
 ---
 
 # Iron Deficiency Anemia
@@ -706,6 +715,9 @@ Iron is essential for:
 - `connects-to` → **[Bone marrow](../../05-tissue/bone-marrow/README.md)** — Iron-restricted erythropoiesis: the bone-marrow erythropoiesis is limited by the iron supply (transferrin already mapped) in iron-deficiency anaemia, the iron-restricted erythropoiesis producing the microcytic red cells.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Iron-recycling macrophages: the macrophages recycle the iron from the senescent red cells (ferroportin already mapped); their iron release (blocked in the anaemia of chronic disease) is the differential of iron-deficiency anaemia.
 - `connects-to` → **[Colorectal cancer](../colorectal-cancer/README.md)** — Occult-bleeding cause: the iron-deficiency anaemia from the chronic occult GI bleeding (transferrin already mapped) is a classic presenting sign of colorectal cancer, mandating investigation.
+- `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — Hepatic iron sensing: the hepatocytes produce the hepcidin (already mapped) and store the ferritin iron; the low iron of iron-deficiency anaemia suppresses the hepcidin to maximise the absorption.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Inflammation-restricted erythropoiesis: the IFN-γ of the T cells suppresses the erythropoiesis and, in the mixed iron-deficiency/inflammatory anaemias, compounds the iron-restricted erythropoiesis.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Type-2 immune modulation: IL-4 and the type-2 arm modulate the macrophage (already mapped) iron handling that intersects with the iron-deficiency anaemia.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)

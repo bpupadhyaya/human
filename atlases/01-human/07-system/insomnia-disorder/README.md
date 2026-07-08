@@ -454,6 +454,15 @@ cross_links:
   - target: 01-human/07-system/type-2-diabetes
     relation: connects-to
     note: "Metabolic consequence: the chronic sleep loss of insomnia raises the type 2 diabetes and metabolic-syndrome risk (the insulin, leptin and adiponectin already mapped dysregulation)."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate sleep-immune: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, disrupts the sleep and drives the fatigue, linking the innate immunity to the neuroinflammation of insomnia."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 arm: the IFN-γ of the T cells is the type-II interferon arm of the immune dysregulation (IL-1 and TNF already mapped, the sleep cytokines) associated with insomnia."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune-inflammatory dimension of the chronic sleep loss of insomnia."
 ---
 
 # Insomnia Disorder
@@ -736,6 +745,9 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Adenosine sleep pressure: the astrocytes release and regulate the adenosine (already mapped), the sleep-pressure signal accumulating during the wakefulness that is dysregulated in insomnia.
 - `connects-to` → **[Generalized anxiety disorder](../generalized-anxiety-disorder/README.md)** — Anxiety comorbidity: generalized anxiety disorder and insomnia are highly comorbid, sharing the hyperarousal and the HPA (cortisol already mapped) dysregulation.
 - `connects-to` → **[Type 2 diabetes](../type-2-diabetes/README.md)** — Metabolic consequence: the chronic sleep loss of insomnia raises the type 2 diabetes and metabolic-syndrome risk (the insulin, leptin and adiponectin already mapped dysregulation).
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate sleep-immune: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, disrupts the sleep and drives the fatigue, linking the innate immunity to the neuroinflammation of insomnia.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 arm: the IFN-γ of the T cells is the type-II interferon arm of the immune dysregulation (IL-1 and TNF already mapped, the sleep cytokines) associated with insomnia.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune-inflammatory dimension of the chronic sleep loss of insomnia.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)
