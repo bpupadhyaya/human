@@ -478,6 +478,15 @@ cross_links:
   - target: 01-human/03-molecular/c1-esterase-inhibitor
     relation: connects-to
     note: "Contact/complement regulation: the C1-esterase inhibitor regulates both the classical complement and the contact (intrinsic-coagulation) pathways, a key brake at the complement–coagulation interface of venous thromboembolism."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Thromboinflammation: osteopontin, released by the activated platelets (already mapped), is a matricellular mediator amplifying the neutrophil (already mapped) NET-driven immunothrombosis of venous thromboembolism."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Thrombotic iron: transferrin, the iron carrier, reflects the disordered iron handling that, with the venous stasis and hypercoagulability, is part of the thrombotic-risk context of venous thromboembolism."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Adaptive immunothrombosis: the CD4 T-helper cells contribute to the adaptive-immune dimension of the inflammation that primes the venous endothelium (already mapped) for the immunothrombosis of venous thromboembolism."
 ---
 
 # Venous Thromboembolism
@@ -750,6 +759,9 @@ cross_links:
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the myeloid tissue-factor expression and the neutrophil (already mapped) NETosis of the immunothrombosis of venous thromboembolism.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) at the complement–coagulation interface of the immunothrombosis of venous thromboembolism.
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Contact/complement regulation: the C1-esterase inhibitor regulates both the classical complement and the contact (intrinsic-coagulation) pathways, a key brake at the complement–coagulation interface of venous thromboembolism.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Thromboinflammation: osteopontin, released by the activated platelets (already mapped), is a matricellular mediator amplifying the neutrophil (already mapped) NET-driven immunothrombosis of venous thromboembolism.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Thrombotic iron: transferrin, the iron carrier, reflects the disordered iron handling that, with the venous stasis and hypercoagulability, is part of the thrombotic-risk context of venous thromboembolism.
+- `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — Adaptive immunothrombosis: the CD4 T-helper cells contribute to the adaptive-immune dimension of the inflammation that primes the venous endothelium (already mapped) for the immunothrombosis of venous thromboembolism.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)
