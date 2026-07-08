@@ -456,6 +456,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Polyclonal IgE: the polyclonal B-cell activation of malaria raises the IgE (with IL-4 and IL-13 already mapped), part of the type-2 immune dimension of the infection."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the inflammatory immune response to the malaria parasite."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "CD4 helper balance: the CD4 T-helper cells set the Th1 (IFN-γ already mapped) protective versus Th2 (IL-4 already mapped) balance that determines the outcome of the malaria infection."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "Atypical memory B cells: the malaria drives the expansion of the atypical memory B cells and the polyclonal (IgE already mapped) activation, shaping the slowly-acquired antibody immunity to the parasite."
 ---
 
 # Malaria
@@ -760,6 +769,9 @@ cross_links:
 - `connects-to` → **[Regulatory T cell](../../04-cellular/regulatory-t-cell/README.md)** — Immunosuppressive Tregs: the Plasmodium induces the regulatory T cells (IL-10 already mapped) that dampen the protective immunity, enabling the parasite persistence in malaria.
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Eosinophil arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), drives the eosinophilia of the type-2 immune response in malaria.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Polyclonal IgE: the polyclonal B-cell activation of malaria raises the IgE (with IL-4 and IL-13 already mapped), part of the type-2 immune dimension of the infection.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the inflammatory immune response to the malaria parasite.
+- `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 helper balance: the CD4 T-helper cells set the Th1 (IFN-γ already mapped) protective versus Th2 (IL-4 already mapped) balance that determines the outcome of the malaria infection.
+- `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Atypical memory B cells: the malaria drives the expansion of the atypical memory B cells and the polyclonal (IgE already mapped) activation, shaping the slowly-acquired antibody immunity to the parasite.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)
