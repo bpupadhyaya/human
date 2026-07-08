@@ -478,6 +478,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "Adaptive neuroinflammation: the cytotoxic T cells (perforin pathway) infiltrate the ischaemic brain in the days after stroke, contributing to the delayed adaptive-immune injury and repair."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement: the complement C5 and its C5a (with C3 and C5aR1 already mapped) generate the membrane-attack complex of the complement-mediated ischaemia-reperfusion injury of the brain in stroke."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the complement-mediated injury of the ischaemic brain in stroke."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Infiltrating myeloid cells: the blood-derived macrophages, with the resident microglia (already mapped), clear the debris and shape the injury-versus-repair balance of the ischaemic brain after stroke."
 ---
 
 # Stroke
@@ -735,6 +744,9 @@ Normal brain maintains CBF constant (50-150 mmHg MAP range) via autoregulation (
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Reperfusion injury: the neutrophils, recruited into the ischaemic brain, drive the reperfusion injury and the NETosis that worsen the tissue damage and the no-reflow of stroke.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — Complement C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid recruitment and the complement-mediated injury of the ischaemic brain in stroke.
 - `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Adaptive neuroinflammation: the cytotoxic T cells (perforin pathway) infiltrate the ischaemic brain in the days after stroke, contributing to the delayed adaptive-immune injury and repair.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 and C5aR1 already mapped) generate the membrane-attack complex of the complement-mediated ischaemia-reperfusion injury of the brain in stroke.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the complement-mediated injury of the ischaemic brain in stroke.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Infiltrating myeloid cells: the blood-derived macrophages, with the resident microglia (already mapped), clear the debris and shape the injury-versus-repair balance of the ischaemic brain after stroke.
 
 [^powers-2019-aha-stroke]: Powers WJ, Rabinstein AA, Ackerson T, et al. Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines. *Stroke.* 2019;50(12):e344-e418. [doi:10.1161/STR.0000000000000211](https://doi.org/10.1161/STR.0000000000000211) · [PubMed 31662037](https://pubmed.ncbi.nlm.nih.gov/31662037/)
 [^feigin-2021-gbd-stroke]: Feigin VL, Krishnamurthi RV, Parmar P, et al. Update on the Global Burden of Ischemic and Hemorrhagic Stroke in 1990-2013. *Neuroepidemiology.* 2015;45(3):161-176. [doi:10.1159/000441085](https://doi.org/10.1159/000441085) · [PubMed 26505981](https://pubmed.ncbi.nlm.nih.gov/26505981/)
