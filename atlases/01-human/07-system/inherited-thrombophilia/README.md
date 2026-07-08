@@ -457,6 +457,15 @@ cross_links:
   - target: 01-human/03-molecular/il-12
     relation: connects-to
     note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immunothrombotic inflammation accompanying the inherited thrombophilias."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 cytokine: IL-13, with IL-4 (already mapped), is part of the type-2 immune dimension of the inflammatory milieu that modulates the immunothrombosis of the inherited thrombophilias."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the inflammatory milieu accompanying the inherited thrombophilias."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immunothrombotic inflammation of the inherited thrombophilias."
 ---
 
 # Inherited Thrombophilia
@@ -762,6 +771,9 @@ Antithrombin (ATIII) is the primary plasma inhibitor of thrombin, FXa, FIXa, and
 - `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Immunothrombosis: the NK cells (perforin already mapped) are part of the innate immune contribution to the immunothrombosis that amplifies the thrombotic tendency of the inherited thrombophilias.
 - `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 immunothrombosis: the IFN-γ of the T cells is the type-II interferon arm (with the type-I interferon already mapped) of the inflammatory dimension that potentiates the thrombosis of thrombophilia.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immunothrombotic inflammation accompanying the inherited thrombophilias.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 cytokine: IL-13, with IL-4 (already mapped), is part of the type-2 immune dimension of the inflammatory milieu that modulates the immunothrombosis of the inherited thrombophilias.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the inflammatory milieu accompanying the inherited thrombophilias.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immunothrombotic inflammation of the inherited thrombophilias.
 
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)

@@ -449,6 +449,15 @@ cross_links:
   - target: 01-human/03-molecular/type-i-interferon
     relation: connects-to
     note: "Plasmacytoid-DC interferon: the type-I interferon of the plasmacytoid dendritic cells (already mapped) drives the interface dermatoses — the cutaneous lupus and the psoriasis (IL-17 and IL-23 already mapped) — of the integumentary system."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 skin immunity: the IFN-γ of the skin T cells is the type-II interferon arm of the Th1 immunity of the interface dermatoses and the antimicrobial defence of the integumentary system."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the cutaneous immune response of the integumentary system."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Skin innate surveillance: the NK cells (perforin already mapped) provide the innate cytotoxic surveillance against the virally-infected keratinocytes and the skin cancers of the integumentary system."
 ---
 
 # Integumentary System
@@ -698,6 +707,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Cutaneous type-2 IgE: the IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped) and the alarmins (TSLP already mapped), drives the atopic and urticarial dermatoses of the integumentary system.
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Eosinophil skin arm: IL-5 recruits the eosinophils of the type-2 (IL-4 and IL-13 already mapped) inflammation of the atopic and eosinophilic dermatoses of the skin.
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Plasmacytoid-DC interferon: the type-I interferon of the plasmacytoid dendritic cells (already mapped) drives the interface dermatoses — the cutaneous lupus and the psoriasis (IL-17 and IL-23 already mapped) — of the integumentary system.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 skin immunity: the IFN-γ of the skin T cells is the type-II interferon arm of the Th1 immunity of the interface dermatoses and the antimicrobial defence of the integumentary system.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the cutaneous immune response of the integumentary system.
+- `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Skin innate surveillance: the NK cells (perforin already mapped) provide the innate cytotoxic surveillance against the virally-infected keratinocytes and the skin cancers of the integumentary system.
 
 ## Pathology
 
