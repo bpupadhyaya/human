@@ -465,6 +465,15 @@ cross_links:
   - target: 01-human/03-molecular/histamine
     relation: connects-to
     note: "Mast-cell/allergic arm: histamine, released by the mast cells and basophils, is part of the type-2/allergic component contributing to some (e.g. drug-induced) forms of immune thrombocytopenia."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Innate/FcγR arm: the neutrophils, via their Fcγ receptors, participate in the innate immune dysregulation and the drug-induced forms of immune thrombocytopenia."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "Complement C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) contributes to the complement-mediated platelet destruction of immune thrombocytopenia."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Antioxidant micronutrient: selenium, a selenoprotein cofactor, is part of the micronutrient dimension of the immune dysregulation of immune thrombocytopenia."
 ---
 
 # Immune Thrombocytopenia
@@ -749,6 +758,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — Thrombopoietin source: the hepatocytes are the main source of the thrombopoietin (already mapped), the MPL (already mapped) ligand whose relatively low level (the failure to compensate) contributes to the impaired platelet production of immune thrombocytopenia.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), reflects the type-2 dimension of the T-helper cytokine dysregulation of immune thrombocytopenia.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell/allergic arm: histamine, released by the mast cells and basophils, is part of the type-2/allergic component contributing to some (e.g. drug-induced) forms of immune thrombocytopenia.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Innate/FcγR arm: the neutrophils, via their Fcγ receptors, participate in the innate immune dysregulation and the drug-induced forms of immune thrombocytopenia.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — Complement C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) contributes to the complement-mediated platelet destruction of immune thrombocytopenia.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Antioxidant micronutrient: selenium, a selenoprotein cofactor, is part of the micronutrient dimension of the immune dysregulation of immune thrombocytopenia.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)
