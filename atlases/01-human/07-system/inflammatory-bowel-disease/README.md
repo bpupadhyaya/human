@@ -454,6 +454,15 @@ cross_links:
   - target: 01-human/07-system/gvhd
     relation: connects-to
     note: "Gut-GVHD parallel: the gastrointestinal graft-versus-host disease resembles inflammatory bowel disease histologically and mechanistically, both driven by the microbiome (TLR4 already mapped)-immune dysregulation of the gut."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "Enteric neuroimmune: substance P of the enteric nervous system drives the neurogenic inflammation and the visceral hypersensitivity/pain of inflammatory bowel disease."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Selenium status: the selenium selenoprotein antioxidant defence modulates the gut inflammation, and its deficiency (the malabsorption) is common and immunomodulatory in inflammatory bowel disease."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), reflects the type-2 immune dimension present in the UC-leaning end of inflammatory bowel disease."
 ---
 
 # Inflammatory Bowel Disease
@@ -727,6 +736,9 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Eosinophil arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), recruits the eosinophils prominent in the ulcerative-colitis mucosa of inflammatory bowel disease.
 - `connects-to` → **[Cortical bone](../../05-tissue/cortical-bone/README.md)** — IBD bone loss: the chronic inflammation, the malabsorption and the corticosteroid (glucocorticoid-receptor already mapped) use cause the osteoporosis and the low bone density of the cortical bone in inflammatory bowel disease.
 - `connects-to` → **[GVHD](../gvhd/README.md)** — Gut-GVHD parallel: the gastrointestinal graft-versus-host disease resembles inflammatory bowel disease histologically and mechanistically, both driven by the microbiome (TLR4 already mapped)-immune dysregulation of the gut.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — Enteric neuroimmune: substance P of the enteric nervous system drives the neurogenic inflammation and the visceral hypersensitivity/pain of inflammatory bowel disease.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Selenium status: the selenium selenoprotein antioxidant defence modulates the gut inflammation, and its deficiency (the malabsorption) is common and immunomodulatory in inflammatory bowel disease.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), reflects the type-2 immune dimension present in the UC-leaning end of inflammatory bowel disease.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)

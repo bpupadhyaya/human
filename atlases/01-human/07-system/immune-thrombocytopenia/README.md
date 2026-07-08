@@ -456,6 +456,15 @@ cross_links:
   - target: 01-human/03-molecular/hepcidin
     relation: connects-to
     note: "Inflammatory iron: the IL-6-driven (already mapped) hepcidin of the systemic inflammation accompanying immune thrombocytopenia contributes to any concurrent anaemia of chronic disease."
+  - target: 01-human/04-cellular/hepatocyte
+    relation: connects-to
+    note: "Thrombopoietin source: the hepatocytes are the main source of the thrombopoietin (already mapped), the MPL (already mapped) ligand whose relatively low level (the failure to compensate) contributes to the impaired platelet production of immune thrombocytopenia."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), reflects the type-2 dimension of the T-helper cytokine dysregulation of immune thrombocytopenia."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell/allergic arm: histamine, released by the mast cells and basophils, is part of the type-2/allergic component contributing to some (e.g. drug-induced) forms of immune thrombocytopenia."
 ---
 
 # Immune Thrombocytopenia
@@ -737,6 +746,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the T-helper imbalance (with the Th1 IFN-γ already mapped) that skews the autoimmune response of immune thrombocytopenia.
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Th2 counter-arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 arm of the T-helper cytokine balance dysregulated in immune thrombocytopenia.
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Inflammatory iron: the IL-6-driven (already mapped) hepcidin of the systemic inflammation accompanying immune thrombocytopenia contributes to any concurrent anaemia of chronic disease.
+- `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — Thrombopoietin source: the hepatocytes are the main source of the thrombopoietin (already mapped), the MPL (already mapped) ligand whose relatively low level (the failure to compensate) contributes to the impaired platelet production of immune thrombocytopenia.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), reflects the type-2 dimension of the T-helper cytokine dysregulation of immune thrombocytopenia.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell/allergic arm: histamine, released by the mast cells and basophils, is part of the type-2/allergic component contributing to some (e.g. drug-induced) forms of immune thrombocytopenia.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)
