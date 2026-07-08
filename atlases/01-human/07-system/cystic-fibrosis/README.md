@@ -466,6 +466,15 @@ cross_links:
   - target: 01-human/03-molecular/il-23
     relation: connects-to
     note: "Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the neutrophilic (already mapped) airway inflammation of cystic fibrosis."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the neutrophil (already mapped) recruitment and the chronic airway inflammation of cystic fibrosis."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "ABPA arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), mediates the allergic bronchopulmonary aspergillosis, a frequent Aspergillus-driven complication of cystic fibrosis."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "ABPA fungus: Aspergillus fumigatus colonises the cystic-fibrosis airways and drives the IgE-mediated (already mapped) allergic bronchopulmonary aspergillosis."
 ---
 
 # Cystic Fibrosis
@@ -743,6 +752,9 @@ AND
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Eosinophil/ABPA arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), drives the eosinophilia of the allergic bronchopulmonary aspergillosis (Aspergillus already mapped) that complicates cystic fibrosis.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 antibacterial arm: IL-12 polarises the Th1 (IFN-γ arm) response of the antibacterial airway immunity against the chronic infection of cystic fibrosis.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the neutrophilic (already mapped) airway inflammation of cystic fibrosis.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the neutrophil (already mapped) recruitment and the chronic airway inflammation of cystic fibrosis.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — ABPA arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), mediates the allergic bronchopulmonary aspergillosis, a frequent Aspergillus-driven complication of cystic fibrosis.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — ABPA fungus: Aspergillus fumigatus colonises the cystic-fibrosis airways and drives the IgE-mediated (already mapped) allergic bronchopulmonary aspergillosis.
 
 ---
 
