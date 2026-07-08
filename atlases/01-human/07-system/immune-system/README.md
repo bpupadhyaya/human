@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/04-cellular/erythrocyte
     relation: connects-to
     note: "Immune-adherence clearance: the erythrocytes bind the complement (C3 already mapped)-opsonised immune complexes via the CR1 receptor and ferry them for hepatic (already mapped) clearance, a role of the immune system."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Epithelial alarmin: TSLP, with IL-33 (already mapped), is the epithelial-barrier alarmin that initiates the type-2 (IL-4, IL-5 and IL-13 already mapped) immune response of the immune system."
+  - target: 01-human/03-molecular/il-31
+    relation: connects-to
+    note: "Itch cytokine: IL-31, a type-2 (IL-4 and IL-13 already mapped) cytokine, is the pruritogenic effector linking the immune system to the sensory nervous system in the itch response."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Thromboinflammation: the platelets, beyond haemostasis, act as innate immune cells that release chemokines (PF4) and interact with the neutrophils (already mapped) in the thromboinflammation of the immune system."
 ---
 
 # Immune System
@@ -637,6 +646,9 @@ After primary response contraction, long-lived memory cells persist:
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (C3 and C5 already mapped), protecting the host tissue from the complement self-attack, a core self/non-self control of the immune system.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2/allergic arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped) and the mast cells (already mapped), is the antibody arm of the anti-parasite and allergic immunity of the immune system.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Immune-adherence clearance: the erythrocytes bind the complement (C3 already mapped)-opsonised immune complexes via the CR1 receptor and ferry them for hepatic (already mapped) clearance, a role of the immune system.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Epithelial alarmin: TSLP, with IL-33 (already mapped), is the epithelial-barrier alarmin that initiates the type-2 (IL-4, IL-5 and IL-13 already mapped) immune response of the immune system.
+- `connects-to` → **[IL-31](../../03-molecular/il-31/README.md)** — Itch cytokine: IL-31, a type-2 (IL-4 and IL-13 already mapped) cytokine, is the pruritogenic effector linking the immune system to the sensory nervous system in the itch response.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Thromboinflammation: the platelets, beyond haemostasis, act as innate immune cells that release chemokines (PF4) and interact with the neutrophils (already mapped) in the thromboinflammation of the immune system.
 
 ## Pathology
 

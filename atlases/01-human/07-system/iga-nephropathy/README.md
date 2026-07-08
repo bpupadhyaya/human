@@ -457,6 +457,15 @@ cross_links:
   - target: 01-human/03-molecular/il-5
     relation: connects-to
     note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension shaping the mucosal IgA (secretory-IgA already mapped) response of IgA nephropathy."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2/mucosal arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 mucosal immune dimension that parallels the dysregulated IgA (already mapped) response of IgA nephropathy."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Innate arm: the NK cells (perforin already mapped) are part of the innate immune dysregulation of the gut-kidney (already mapped) axis of IgA nephropathy."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Tubulointerstitial infiltrate: the cytotoxic T cells (perforin already mapped) infiltrate the tubulointerstitium and contribute to the progression of IgA nephropathy."
 ---
 
 # IgA Nephropathy
@@ -687,6 +696,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 arm: the IFN-γ of the T cells is the type-II interferon arm of the T-cell-mediated glomerular inflammation, complementing the Th17 (IL-17 and IL-23 already mapped) drive of IgA nephropathy.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune response of IgA nephropathy.
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension shaping the mucosal IgA (secretory-IgA already mapped) response of IgA nephropathy.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2/mucosal arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 mucosal immune dimension that parallels the dysregulated IgA (already mapped) response of IgA nephropathy.
+- `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Innate arm: the NK cells (perforin already mapped) are part of the innate immune dysregulation of the gut-kidney (already mapped) axis of IgA nephropathy.
+- `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Tubulointerstitial infiltrate: the cytotoxic T cells (perforin already mapped) infiltrate the tubulointerstitium and contribute to the progression of IgA nephropathy.
 
 ---
 
