@@ -457,6 +457,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "Innate antiviral surveillance: the NK cells (perforin already mapped) participate in the antiviral response to the respiratory viruses that trigger the asthma exacerbations."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "IgE plasma cells: the plasma cells secrete the allergen-specific IgE (already mapped) that arms the mast cells (already mapped) of allergic asthma."
+  - target: 01-human/03-molecular/il-31
+    relation: connects-to
+    note: "Type-2 IL-31: IL-31, a type-2 (IL-4 and IL-13 already mapped) cytokine, is part of the broader type-2 immune response and the atopic itch shared across the atopic diseases of the allergic-asthma patient."
+  - target: 01-human/07-system/prurigo-nodularis
+    relation: connects-to
+    note: "Atopic-march overlap: asthma shares the type-2 (IL-4, IL-5, IL-13 and TSLP already mapped) immunity with prurigo nodularis, another atopic-spectrum type-2 disease treated with the shared biologics."
 ---
 
 # Asthma
@@ -712,6 +721,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — IgE class-switching: the B cells class-switch to the allergen-specific IgE (already mapped) under the IL-4 and IL-13 (already mapped), driving the allergic sensitisation of asthma.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 counter-arm: IL-12 polarises the Th1 (IFN-γ already mapped) response that counter-regulates the dominant Th2 (IL-4, IL-5 and IL-13 already mapped) axis of allergic asthma.
 - `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Innate antiviral surveillance: the NK cells (perforin already mapped) participate in the antiviral response to the respiratory viruses that trigger the asthma exacerbations.
+- `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — IgE plasma cells: the plasma cells secrete the allergen-specific IgE (already mapped) that arms the mast cells (already mapped) of allergic asthma.
+- `connects-to` → **[IL-31](../../03-molecular/il-31/README.md)** — Type-2 IL-31: IL-31, a type-2 (IL-4 and IL-13 already mapped) cytokine, is part of the broader type-2 immune response and the atopic itch shared across the atopic diseases of the allergic-asthma patient.
+- `connects-to` → **[Prurigo nodularis](../prurigo-nodularis/README.md)** — Atopic-march overlap: asthma shares the type-2 (IL-4, IL-5, IL-13 and TSLP already mapped) immunity with prurigo nodularis, another atopic-spectrum type-2 disease treated with the shared biologics.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)
