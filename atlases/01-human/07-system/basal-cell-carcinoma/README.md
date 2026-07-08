@@ -466,6 +466,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the basal-cell-carcinoma microenvironment."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "Tertiary lymphoid structures: the B cells organise the tertiary lymphoid structures whose presence, with the CD8 (already mapped) TILs, associates with the response to the cemiplimab (PD-1 already mapped) immunotherapy of advanced basal-cell carcinoma."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "Humoral arm: the plasma cells secrete the antibodies (already mapped) of the intratumoural humoral response of the basal-cell-carcinoma microenvironment."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "Complement C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid recruitment into the basal-cell-carcinoma stroma."
 ---
 
 # Basal Cell Carcinoma
@@ -737,6 +746,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune microenvironment of basal cell carcinoma.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the inflammatory dimension of the basal-cell-carcinoma microenvironment.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the basal-cell-carcinoma microenvironment.
+- `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Tertiary lymphoid structures: the B cells organise the tertiary lymphoid structures whose presence, with the CD8 (already mapped) TILs, associates with the response to the cemiplimab (PD-1 already mapped) immunotherapy of advanced basal-cell carcinoma.
+- `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — Humoral arm: the plasma cells secrete the antibodies (already mapped) of the intratumoural humoral response of the basal-cell-carcinoma microenvironment.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — Complement C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid recruitment into the basal-cell-carcinoma stroma.
 
 ---
 
