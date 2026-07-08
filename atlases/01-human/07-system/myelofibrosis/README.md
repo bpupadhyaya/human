@@ -442,6 +442,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Transfusion iron overload: the transfusion-dependent anaemia (haemoglobin already mapped) of myelofibrosis causes the iron overload (hepcidin and ferroportin already mapped), needing chelation."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Clonal immunosurveillance: the NK cells (perforin already mapped) provide the immune surveillance of the JAK2/CALR (already mapped)-mutant clone of myelofibrosis, an arm augmented by the interferon (type-I interferon already mapped) therapy."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 inflammatory MF: the IFN-γ of the T cells (with the type-I interferon already mapped) is the type-II interferon arm of the chronic inflammation (IL-6 and TNF already mapped) that drives the fibrosis of myelofibrosis."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the inflammatory microenvironment of myelofibrosis."
 ---
 
 # Myelofibrosis
@@ -711,6 +720,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Pro-fibrotic macrophages: the marrow macrophages and the monocyte-derived fibrocytes contribute to the reactive fibrosis (TGF-β and PDGF already mapped) of myelofibrosis.
 - `connects-to` → **[AML](../aml/README.md)** — Blast-phase transformation: myelofibrosis carries the risk of blast-phase transformation to acute myeloid leukaemia (the increasing blasts; TP53 and RUNX1 already mapped), the terminal event.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Transfusion iron overload: the transfusion-dependent anaemia (haemoglobin already mapped) of myelofibrosis causes the iron overload (hepcidin and ferroportin already mapped), needing chelation.
+- `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Clonal immunosurveillance: the NK cells (perforin already mapped) provide the immune surveillance of the JAK2/CALR (already mapped)-mutant clone of myelofibrosis, an arm augmented by the interferon (type-I interferon already mapped) therapy.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 inflammatory MF: the IFN-γ of the T cells (with the type-I interferon already mapped) is the type-II interferon arm of the chronic inflammation (IL-6 and TNF already mapped) that drives the fibrosis of myelofibrosis.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the inflammatory microenvironment of myelofibrosis.
 
 ---
 

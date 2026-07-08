@@ -440,6 +440,15 @@ cross_links:
   - target: 01-human/04-cellular/fibroblast
     relation: connects-to
     note: "Connective-tissue fibroblasts: the fibroblasts of the tendons, ligaments and fascia synthesise the collagen (already mapped) matrix of the musculoskeletal system's soft connective tissues."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Inflammatory myopathy: the IFN-γ of the infiltrating T cells is the type-II interferon arm of the immune-mediated inflammatory myopathies and arthritides of the musculoskeletal system."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 muscle immunity: IL-13, with IL-4 (already mapped), is the type-2 immune arm implicated in the muscle repair and the eosinophilic/fibrosing myopathies of the musculoskeletal system."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Eosinophil arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), drives the eosinophilia of the eosinophilic myositis and fasciitis of the musculoskeletal system."
 ---
 
 # Musculoskeletal System
@@ -717,6 +726,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Marrow adipocytes: the marrow adipocytes (the source of leptin, adiponectin and resistin already mapped) of the musculoskeletal system's bone marrow influence the bone and haematopoiesis, expanding with age and osteoporosis.
 - `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Bone mineralisation: vitamin D drives the intestinal calcium (already mapped) absorption and the bone mineralisation (PTH already mapped); its deficiency causes the rickets and osteomalacia of the musculoskeletal system.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Connective-tissue fibroblasts: the fibroblasts of the tendons, ligaments and fascia synthesise the collagen (already mapped) matrix of the musculoskeletal system's soft connective tissues.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Inflammatory myopathy: the IFN-γ of the infiltrating T cells is the type-II interferon arm of the immune-mediated inflammatory myopathies and arthritides of the musculoskeletal system.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 muscle immunity: IL-13, with IL-4 (already mapped), is the type-2 immune arm implicated in the muscle repair and the eosinophilic/fibrosing myopathies of the musculoskeletal system.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Eosinophil arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), drives the eosinophilia of the eosinophilic myositis and fasciitis of the musculoskeletal system.
 
 ## Pathology
 
