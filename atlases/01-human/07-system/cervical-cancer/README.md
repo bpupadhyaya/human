@@ -457,6 +457,15 @@ cross_links:
   - target: 01-human/03-molecular/il-5
     relation: connects-to
     note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune microenvironment of cervical cancer."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the tumour-promoting inflammation of the HPV-driven cervical cancer."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the cervical-cancer microenvironment."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "Anti-HPV antibody arm: the plasma cells secrete the anti-HPV antibodies (immunoglobulin already mapped) that mediate the protection of the prophylactic HPV vaccine against cervical cancer."
 ---
 
 # Cervical Cancer
@@ -726,6 +735,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 antiviral/antitumour arm: the IFN-γ of the T cells (perforin already mapped) is the type-II interferon arm of the anti-HPV and anti-tumour immunity of cervical cancer.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the anti-HPV immune response of cervical cancer.
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune microenvironment of cervical cancer.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the tumour-promoting inflammation of the HPV-driven cervical cancer.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the cervical-cancer microenvironment.
+- `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — Anti-HPV antibody arm: the plasma cells secrete the anti-HPV antibodies (immunoglobulin already mapped) that mediate the protection of the prophylactic HPV vaccine against cervical cancer.
 
 ---
 
