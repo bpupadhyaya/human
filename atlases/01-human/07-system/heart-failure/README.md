@@ -460,6 +460,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the cardiac inflammation of heart failure."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines driving the cardiac inflammation and fibroblast (already mapped) activation of heart failure."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Cardiac mast cells: the mast cells accumulate in the failing myocardium and, via the chymase and mediators, promote the fibrosis (TGF-β and periostin already mapped) and remodelling of heart failure."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Cardiac antigen presentation: the dendritic cells present the cardiac self-antigen to the T cells (already mapped) shaping the adaptive-immune contribution to the cardiac remodelling of heart failure."
 ---
 
 # Heart Failure
@@ -680,6 +689,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune-inflammatory remodelling of heart failure (and the eosinophilic myocarditis).
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the cardiac inflammation and fibrosis of heart failure.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the cardiac inflammation of heart failure.
+- `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines driving the cardiac inflammation and fibroblast (already mapped) activation of heart failure.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Cardiac mast cells: the mast cells accumulate in the failing myocardium and, via the chymase and mediators, promote the fibrosis (TGF-β and periostin already mapped) and remodelling of heart failure.
+- `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Cardiac antigen presentation: the dendritic cells present the cardiac self-antigen to the T cells (already mapped) shaping the adaptive-immune contribution to the cardiac remodelling of heart failure.
 
 ## Pathology
 

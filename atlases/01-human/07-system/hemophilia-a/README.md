@@ -466,6 +466,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Type-2/anaphylaxis arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), can develop against the infused factor and underlies the rare anaphylactic reactions in haemophilia A."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "Inhibitor source: the plasma cells, downstream of the B cells (already mapped), secrete the anti-FVIII inhibitor antibodies (immunoglobulin already mapped) that neutralise the infused factor in haemophilia A."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Anaphylaxis effector: the mast cells, armed with the anti-factor IgE (already mapped), are the effectors of the rare anaphylactic reactions to the infused FVIII in haemophilia A."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Gene-therapy complement: the complement C5 and its activation (with C3 already mapped) are part of the innate response to the AAV vector of the FVIII gene therapy of haemophilia A."
 ---
 
 # Hemophilia A
@@ -736,6 +745,9 @@ FVIII is a critical **amplifier** of the coagulation cascade at the junction bet
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the T-helper (already mapped) response to the infused FVIII in haemophilia A.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune response to the FVIII in haemophilia A.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2/anaphylaxis arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), can develop against the infused factor and underlies the rare anaphylactic reactions in haemophilia A.
+- `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — Inhibitor source: the plasma cells, downstream of the B cells (already mapped), secrete the anti-FVIII inhibitor antibodies (immunoglobulin already mapped) that neutralise the infused factor in haemophilia A.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Anaphylaxis effector: the mast cells, armed with the anti-factor IgE (already mapped), are the effectors of the rare anaphylactic reactions to the infused FVIII in haemophilia A.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Gene-therapy complement: the complement C5 and its activation (with C3 already mapped) are part of the innate response to the AAV vector of the FVIII gene therapy of haemophilia A.
 
 [^oldenburg-2017-emicizumab-haven1]: Oldenburg J, Mahlangu JN, Kim B, et al. Emicizumab prophylaxis in hemophilia A with inhibitors. *N Engl J Med.* 2017;377(9):809-818. [doi:10.1056/NEJMoa1703068](https://doi.org/10.1056/NEJMoa1703068) · [PubMed 28691557](https://pubmed.ncbi.nlm.nih.gov/28691557/)
 [^mahlangu-2018-emicizumab-haven3]: Mahlangu J, Oldenburg J, Paz-Priel I, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors. *N Engl J Med.* 2018;379(9):811-822. [doi:10.1056/NEJMoa1803550](https://doi.org/10.1056/NEJMoa1803550) · [PubMed 30157389](https://pubmed.ncbi.nlm.nih.gov/30157389/)
