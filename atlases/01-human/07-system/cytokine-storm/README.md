@@ -466,6 +466,15 @@ cross_links:
   - target: 01-human/04-cellular/b-cell
     relation: connects-to
     note: "B-cell arm: the B cells contribute to the immune dysregulation of some cytokine storms (e.g. the B-cell-driven forms of MAS and the CAR-T-cell target-related CRS)."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose consumption and dysregulation amplify the complement storm of the cytokine storm."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement/contact regulation: the C1-esterase inhibitor regulates the classical complement and the contact (bradykinin already mapped) systems at the interface driving the vascular leak and coagulopathy of the cytokine storm."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Hyperferritinaemic iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the extreme hyperferritinaemia that is a hallmark of the MAS/HLH cytokine storm."
 ---
 
 # Cytokine Storm
@@ -706,6 +715,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2/mast-cell arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), arms the mast cells (already mapped) of the mast-cell-activation forms of the cytokine storm.
 - `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — Humoral arm: the plasma cells secrete the antibodies (already mapped) of the humoral response that can accompany or drive some forms of the cytokine storm.
 - `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — B-cell arm: the B cells contribute to the immune dysregulation of some cytokine storms (e.g. the B-cell-driven forms of MAS and the CAR-T-cell target-related CRS).
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose consumption and dysregulation amplify the complement storm of the cytokine storm.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement/contact regulation: the C1-esterase inhibitor regulates the classical complement and the contact (bradykinin already mapped) systems at the interface driving the vascular leak and coagulopathy of the cytokine storm.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Hyperferritinaemic iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the extreme hyperferritinaemia that is a hallmark of the MAS/HLH cytokine storm.
 
 ## Pathology
 

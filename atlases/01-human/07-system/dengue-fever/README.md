@@ -466,6 +466,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Type-2/mast-cell arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), arms the mast cells (already mapped) whose degranulation contributes to the vascular permeability of severe dengue."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the complement-mediated endothelial (already mapped) activation and vascular leak of severe dengue."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement evasion: the dengue-virus NS1 protein recruits the host factor H to regulate the complement (C3, C5 and C5aR1 already mapped), while the NS1–complement interaction also contributes to the vascular leak of severe dengue."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement/contact regulation: the C1-esterase inhibitor regulates the classical complement and the contact (bradykinin already mapped) systems whose activation drives the plasma leakage of dengue haemorrhagic fever."
 ---
 
 # Dengue Fever
@@ -727,3 +736,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune response to the dengue virus.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune response and the vascular inflammation of dengue.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2/mast-cell arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), arms the mast cells (already mapped) whose degranulation contributes to the vascular permeability of severe dengue.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the complement-mediated endothelial (already mapped) activation and vascular leak of severe dengue.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the dengue-virus NS1 protein recruits the host factor H to regulate the complement (C3, C5 and C5aR1 already mapped), while the NS1–complement interaction also contributes to the vascular leak of severe dengue.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement/contact regulation: the C1-esterase inhibitor regulates the classical complement and the contact (bradykinin already mapped) systems whose activation drives the plasma leakage of dengue haemorrhagic fever.
