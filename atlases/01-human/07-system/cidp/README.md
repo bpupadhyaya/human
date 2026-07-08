@@ -474,6 +474,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "Antioxidant micronutrient: selenium, a selenoprotein cofactor, is part of the oxidative-stress and micronutrient dimension of the peripheral-nerve inflammation of CIDP."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose activation on the paranodal antigens contributes to the demyelination of CIDP."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway activated by the anti-nodal/paranodal IgG (immunoglobulin already mapped) at the node of Ranvier in CIDP."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Nutritional immunity: transferrin, the iron carrier, reflects the disordered iron handling of the anaemia of the chronic inflammation of CIDP."
 ---
 
 # CIDP
@@ -768,6 +777,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Mast cells in nerve: the mast cells infiltrate the inflamed peripheral nerve and contribute to the type-2 (IgE already mapped) and the vascular-permeability dimension of the demyelination of CIDP.
 - `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Immunomodulatory vitamin: the low vitamin D status is associated with the autoimmune neuropathies, and its immunomodulation of the T-helper (already mapped) response is studied in CIDP.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Antioxidant micronutrient: selenium, a selenoprotein cofactor, is part of the oxidative-stress and micronutrient dimension of the peripheral-nerve inflammation of CIDP.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose activation on the paranodal antigens contributes to the demyelination of CIDP.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway activated by the anti-nodal/paranodal IgG (immunoglobulin already mapped) at the node of Ranvier in CIDP.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Nutritional immunity: transferrin, the iron carrier, reflects the disordered iron handling of the anaemia of the chronic inflammation of CIDP.
 
 ---
 
