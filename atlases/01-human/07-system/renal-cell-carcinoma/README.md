@@ -466,6 +466,15 @@ cross_links:
   - target: 01-human/04-cellular/b-cell
     relation: connects-to
     note: "Tertiary lymphoid structures: the B cells organise the intratumoural tertiary lymphoid structures whose presence, with the CD8 (already mapped) TILs, predicts a favourable response to the checkpoint (PD-1 already mapped) immunotherapy of renal cell carcinoma."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Cancer-associated fibroblasts: the fibroblasts of the stroma remodel the extracellular matrix and shape the immune microenvironment of renal cell carcinoma."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Tumour complement: the complement C3, produced within the tumour, contributes to the inflammatory and immunosuppressive dimension of the renal-cell-carcinoma microenvironment."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Tumour iron: transferrin, the iron carrier, supplies the iron demand of the pseudohypoxic (HIF-1α and VHL already mapped) iron-avid renal cell carcinoma."
 ---
 
 # Renal Cell Carcinoma
@@ -734,6 +743,9 @@ Kidney → primary site of EPO production under hypoxia; VHL-intact renal inters
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Stromal mast cells: the mast cells of the tumour stroma contribute to the angiogenesis (VEGF already mapped) and the type-2 microenvironment of the highly vascular renal cell carcinoma.
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines shaping the immune microenvironment of renal cell carcinoma.
 - `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Tertiary lymphoid structures: the B cells organise the intratumoural tertiary lymphoid structures whose presence, with the CD8 (already mapped) TILs, predicts a favourable response to the checkpoint (PD-1 already mapped) immunotherapy of renal cell carcinoma.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Cancer-associated fibroblasts: the fibroblasts of the stroma remodel the extracellular matrix and shape the immune microenvironment of renal cell carcinoma.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Tumour complement: the complement C3, produced within the tumour, contributes to the inflammatory and immunosuppressive dimension of the renal-cell-carcinoma microenvironment.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Tumour iron: transferrin, the iron carrier, supplies the iron demand of the pseudohypoxic (HIF-1α and VHL already mapped) iron-avid renal cell carcinoma.
 
 [^motzer-2018-checkmate214]: Motzer RJ, Tannir NM, McDermott DF, et al. Nivolumab plus ipilimumab versus sunitinib in advanced renal-cell carcinoma. *N Engl J Med.* 2018;378(14):1277-1290. [doi:10.1056/NEJMoa1712126](https://doi.org/10.1056/NEJMoa1712126) · [PubMed 29562145](https://pubmed.ncbi.nlm.nih.gov/29562145/)
 [^rini-2019-keynote426]: Rini BI, Plimack ER, Stus V, et al. Pembrolizumab plus axitinib versus sunitinib for advanced renal-cell carcinoma. *N Engl J Med.* 2019;380(12):1116-1127. [doi:10.1056/NEJMoa1816714](https://doi.org/10.1056/NEJMoa1816714) · [PubMed 30779529](https://pubmed.ncbi.nlm.nih.gov/30779529/)

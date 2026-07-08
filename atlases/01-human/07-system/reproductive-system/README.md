@@ -464,6 +464,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 antibody dimension of the maternal-fetal immune bias of the reproductive system."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Placental complement: the complement C3 activation, tightly restrained by the placental complement regulators, is central to the maternal-fetal tolerance and, when dysregulated, the pre-eclampsia of the reproductive system."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Decidual antigen presentation: the tolerogenic dendritic cells of the decidua present the fetal antigen and, with the regulatory T cells (already mapped), maintain the maternal-fetal tolerance of the reproductive system."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Uterine mast cells: the mast cells of the uterus and the male tract contribute to the implantation, the tissue remodelling and the parturition of the reproductive system."
 ---
 
 # Reproductive System
@@ -728,6 +737,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the uterine and endometrial immune milieu of the reproductive system.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 arm), whose balance with the regulatory T cells governs the maternal-fetal tolerance and, in excess, the pre-eclampsia/pregnancy-loss of the reproductive system.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 antibody dimension of the maternal-fetal immune bias of the reproductive system.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Placental complement: the complement C3 activation, tightly restrained by the placental complement regulators, is central to the maternal-fetal tolerance and, when dysregulated, the pre-eclampsia of the reproductive system.
+- `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Decidual antigen presentation: the tolerogenic dendritic cells of the decidua present the fetal antigen and, with the regulatory T cells (already mapped), maintain the maternal-fetal tolerance of the reproductive system.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Uterine mast cells: the mast cells of the uterus and the male tract contribute to the implantation, the tissue remodelling and the parturition of the reproductive system.
 
 ## Pathology
 
