@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Dermal matricellular: periostin, in the psoriatic dermis, is part of the matricellular remodelling and amplification loop that sustains the chronic plaque inflammation of psoriasis."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) active in the inflamed psoriatic skin."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Dermal matricellular: osteopontin, elevated in the psoriatic skin and serum, amplifies the Th17 (IL-17 and IL-23 already mapped) and myeloid inflammation of the psoriatic plaque."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Chronic-disease iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the anaemia of the chronic systemic inflammation of psoriasis."
 ---
 
 # Psoriasis
@@ -742,6 +751,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the neutrophil (already mapped) recruitment into the epidermis (the Munro microabscesses) of psoriasis.
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Keratinocyte alarmin: TSLP, released by the injured keratinocytes, is part of the alarmin (IL-33 already mapped) signalling that helps initiate the dendritic-cell (already mapped) activation of psoriasis.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Dermal matricellular: periostin, in the psoriatic dermis, is part of the matricellular remodelling and amplification loop that sustains the chronic plaque inflammation of psoriasis.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) active in the inflamed psoriatic skin.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Dermal matricellular: osteopontin, elevated in the psoriatic skin and serum, amplifies the Th17 (IL-17 and IL-23 already mapped) and myeloid inflammation of the psoriatic plaque.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Chronic-disease iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the anaemia of the chronic systemic inflammation of psoriasis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

@@ -477,6 +477,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "Stress-modulated NK: the NK-cell number and cytotoxicity, altered by the chronic stress and cortisol (already mapped) reactivity, are part of the peripheral immune dysregulation of PTSD."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement: the complement C5 and its C5a (with C3 already mapped) are part of the low-grade complement activation of the chronic-stress neuroinflammation implicated in PTSD."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) links the complement to the microglial (already mapped) neuroinflammation implicated in PTSD."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "CNS-border antigen presentation: the dendritic cells of the CNS-border compartments are part of the neuroimmune interface implicated in the chronic-stress neuroinflammation of PTSD."
 ---
 
 # PTSD
@@ -765,6 +774,9 @@ Not all trauma leads to PTSD. Risk and resilience factors include:
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Meningeal mast cells: the mast cells of the meninges and the brain (already mapped) contribute to the neuroinflammation and the stress-reactive (histamine already mapped) dimension of PTSD.
 - `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Psychoneuroimmune arm: the peripheral cytotoxic T cells (perforin pathway) reflect the adaptive-immune activation of the psychoneuroimmunology of the chronic stress of PTSD.
 - `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Stress-modulated NK: the NK-cell number and cytotoxicity, altered by the chronic stress and cortisol (already mapped) reactivity, are part of the peripheral immune dysregulation of PTSD.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 already mapped) are part of the low-grade complement activation of the chronic-stress neuroinflammation implicated in PTSD.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) links the complement to the microglial (already mapped) neuroinflammation implicated in PTSD.
+- `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — CNS-border antigen presentation: the dendritic cells of the CNS-border compartments are part of the neuroimmune interface implicated in the chronic-stress neuroinflammation of PTSD.
 
 [^yehuda-2015-ptsd-review]: Yehuda R, Hoge CW, McFarlane AC, et al. Post-traumatic stress disorder. *Nat Rev Dis Primers.* 2015;1:15057. [doi:10.1038/nrdp.2015.57](https://doi.org/10.1038/nrdp.2015.57) · [PubMed 27189040](https://pubmed.ncbi.nlm.nih.gov/27189040/)
 [^foa-2019-ptsd-treatments]: Foa EB, McLean CP. The efficacy of exposure therapy for anxiety and related disorders. *Annu Rev Clin Psychol.* 2016;12:1-28. [doi:10.1146/annurev-clinpsy-021815-093533](https://doi.org/10.1146/annurev-clinpsy-021815-093533) · [PubMed 26928206](https://pubmed.ncbi.nlm.nih.gov/26928206/)
