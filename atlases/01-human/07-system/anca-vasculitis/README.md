@@ -487,6 +487,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Nutritional immunity: transferrin, the iron carrier, reflects the disordered iron handling of the anaemia of the chronic inflammation of ANCA vasculitis."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Vascular matricellular: osteopontin, released by the activated neutrophils (already mapped) and myeloid cells, is a matricellular mediator amplifying the vascular inflammation of ANCA vasculitis."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Crescent/granuloma fibrosis: the fibroblasts drive the fibrotic remodelling of the pauci-immune crescentic glomerulonephritis and the granulomatous inflammation of ANCA vasculitis."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "Vessel-wall matrix: collagen, the vascular extracellular-matrix scaffold, is degraded and remodelled during the necrotising vascular injury and the fibrosis of ANCA vasculitis."
 ---
 
 # ANCA Vasculitis
@@ -775,6 +784,9 @@ EGPA is mechanistically distinct — eosinophils, not neutrophils, mediate tissu
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement/contact regulation: the C1-esterase inhibitor regulates the classical complement and the contact pathways, complementing the factor H (already mapped) control of the alternative pathway (C5aR1 already mapped, the avacopan target) of ANCA vasculitis.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Antioxidant micronutrient: selenium, a selenoprotein cofactor, is part of the oxidative-stress and micronutrient dimension of the autoimmune vascular inflammation of ANCA vasculitis.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Nutritional immunity: transferrin, the iron carrier, reflects the disordered iron handling of the anaemia of the chronic inflammation of ANCA vasculitis.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Vascular matricellular: osteopontin, released by the activated neutrophils (already mapped) and myeloid cells, is a matricellular mediator amplifying the vascular inflammation of ANCA vasculitis.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Crescent/granuloma fibrosis: the fibroblasts drive the fibrotic remodelling of the pauci-immune crescentic glomerulonephritis and the granulomatous inflammation of ANCA vasculitis.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Vessel-wall matrix: collagen, the vascular extracellular-matrix scaffold, is degraded and remodelled during the necrotising vascular injury and the fibrosis of ANCA vasculitis.
 
 [^yates-2022-anca-review]: Yates M, Watts RA, Bajema IM, et al. EULAR/ERA-EDTA recommendations for the management of ANCA-associated vasculitis. *Ann Rheum Dis.* 2016;75(9):1583-1594. [doi:10.1136/annrheumdis-2016-209133](https://doi.org/10.1136/annrheumdis-2016-209133) · [PubMed 27338776](https://pubmed.ncbi.nlm.nih.gov/27338776/)
 [^stone-2010-rituximab-gpa-rave]: Stone JH, Merkel PA, Spiera R, et al. Rituximab versus cyclophosphamide for ANCA-associated vasculitis. *N Engl J Med.* 2010;363(3):221-232. [doi:10.1056/NEJMoa0909905](https://doi.org/10.1056/NEJMoa0909905) · [PubMed 20647199](https://pubmed.ncbi.nlm.nih.gov/20647199/)
