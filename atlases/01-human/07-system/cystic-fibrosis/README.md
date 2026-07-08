@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/07-system/osteoporosis
     relation: connects-to
     note: "CF bone disease: the malabsorption, the chronic inflammation (RANKL already mapped) and the corticosteroid use cause the CF-related low bone density and osteoporosis."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "ABPA/colonisation: Aspergillus fumigatus colonises the CF airway and causes the allergic bronchopulmonary aspergillosis (ABPA), a type-2 (IL-13 already mapped) hypersensitivity complication of cystic fibrosis."
+  - target: 01-human/04-cellular/type-ii-pneumocyte
+    relation: connects-to
+    note: "Alveolar CFTR: the type-II pneumocytes express the CFTR (already mapped) and produce the surfactant (already mapped); the distal-airway/alveolar involvement is part of the CF lung disease."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Antiviral exacerbation interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) sensing, mediates the antiviral response to the respiratory-virus exacerbations of cystic fibrosis."
 ---
 
 # Cystic Fibrosis
@@ -719,6 +728,9 @@ AND
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — CF liver disease: the CFTR (already mapped) defect in the biliary epithelium causes the focal biliary cirrhosis and the portal hypertension of the CF liver disease.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Sweat sodium: the elevated sweat sodium (with chloride already mapped) is the diagnostic sweat-test hallmark of cystic fibrosis, reflecting the CFTR (already mapped) defect.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — CF bone disease: the malabsorption, the chronic inflammation (RANKL already mapped) and the corticosteroid use cause the CF-related low bone density and osteoporosis.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — ABPA/colonisation: Aspergillus fumigatus colonises the CF airway and causes the allergic bronchopulmonary aspergillosis (ABPA), a type-2 (IL-13 already mapped) hypersensitivity complication of cystic fibrosis.
+- `connects-to` → **[Type II pneumocyte](../../04-cellular/type-ii-pneumocyte/README.md)** — Alveolar CFTR: the type-II pneumocytes express the CFTR (already mapped) and produce the surfactant (already mapped); the distal-airway/alveolar involvement is part of the CF lung disease.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Antiviral exacerbation interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) sensing, mediates the antiviral response to the respiratory-virus exacerbations of cystic fibrosis.
 
 ---
 

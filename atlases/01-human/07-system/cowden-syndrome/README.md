@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/07-system/autism-spectrum-disorder
     relation: connects-to
     note: "Macrocephaly-autism: the PTEN (already mapped) mutations cause a macrocephaly-autism spectrum, linking Cowden syndrome to the neurodevelopmental phenotype."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the anti-tumour immunity relevant to the breast, thyroid and endometrial cancers of Cowden syndrome."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune microenvironment of the Cowden-syndrome tumours."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment of the PTEN-hamartoma tumours of Cowden syndrome."
 ---
 
 # Cowden Syndrome
@@ -771,6 +780,9 @@ cross_links:
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Lhermitte-Duclos: the dysplastic cerebellar gangliocytoma (Lhermitte-Duclos disease; PTEN/mTOR already mapped) of the brain, and the macrocephaly, are the neurological features of Cowden syndrome.
 - `connects-to` → **[Colorectal cancer](../colorectal-cancer/README.md)** — GI hamartomas/CRC: the hamartomatous and other colonic polyps of Cowden syndrome (PTEN already mapped) confer a raised colorectal-cancer risk, needing the surveillance.
 - `connects-to` → **[Autism spectrum disorder](../autism-spectrum-disorder/README.md)** — Macrocephaly-autism: the PTEN (already mapped) mutations cause a macrocephaly-autism spectrum, linking Cowden syndrome to the neurodevelopmental phenotype.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the anti-tumour immunity relevant to the breast, thyroid and endometrial cancers of Cowden syndrome.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune microenvironment of the Cowden-syndrome tumours.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment of the PTEN-hamartoma tumours of Cowden syndrome.
 
 ---
 
