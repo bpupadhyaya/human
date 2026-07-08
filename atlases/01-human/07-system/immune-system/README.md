@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "Respiratory mucosal immunity: the lung's mucosal immune system (the alveolar macrophages already mapped, the BALT and the secretory-IgA already mapped) defends the vast air-tissue interface of the immune system."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (C3 and C5 already mapped), protecting the host tissue from the complement self-attack, a core self/non-self control of the immune system."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2/allergic arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped) and the mast cells (already mapped), is the antibody arm of the anti-parasite and allergic immunity of the immune system."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Immune-adherence clearance: the erythrocytes bind the complement (C3 already mapped)-opsonised immune complexes via the CR1 receptor and ferry them for hepatic (already mapped) clearance, a role of the immune system."
 ---
 
 # Immune System
@@ -625,6 +634,9 @@ After primary response contraction, long-lived memory cells persist:
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Barrier immunity: the skin is the first physical and immunological barrier of the immune system, with the Langerhans/dendritic (already mapped) cells and the antimicrobial peptides.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Hepatic immunity: the liver synthesises the complement (C3 and C5 already mapped) and the acute-phase proteins, houses the Kupffer macrophages (already mapped) and filters the portal antigens of the immune system.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Respiratory mucosal immunity: the lung's mucosal immune system (the alveolar macrophages already mapped, the BALT and the secretory-IgA already mapped) defends the vast air-tissue interface of the immune system.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (C3 and C5 already mapped), protecting the host tissue from the complement self-attack, a core self/non-self control of the immune system.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2/allergic arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped) and the mast cells (already mapped), is the antibody arm of the anti-parasite and allergic immunity of the immune system.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Immune-adherence clearance: the erythrocytes bind the complement (C3 already mapped)-opsonised immune complexes via the CR1 receptor and ferry them for hepatic (already mapped) clearance, a role of the immune system.
 
 ## Pathology
 

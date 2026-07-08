@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/03-molecular/type-i-interferon
     relation: connects-to
     note: "Mucosal-trigger interferon: the type-I interferon of the innate mucosal (secretory-IgA already mapped) antiviral response to the upper-respiratory infections triggers the synpharyngitic IgA flares of IgA nephropathy."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 arm: the IFN-γ of the T cells is the type-II interferon arm of the T-cell-mediated glomerular inflammation, complementing the Th17 (IL-17 and IL-23 already mapped) drive of IgA nephropathy."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune response of IgA nephropathy."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension shaping the mucosal IgA (secretory-IgA already mapped) response of IgA nephropathy."
 ---
 
 # IgA Nephropathy
@@ -675,6 +684,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Uraemic adipokine: adiponectin, with leptin (already mapped), accumulates and is dysregulated with the declining renal clearance of progressive IgA nephropathy.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Uraemic-retention adipokine: resistin, with leptin and adiponectin (already mapped), is a uraemic-retention and inflammatory (IL-6 already mapped) adipokine of the progressive IgA nephropathy.
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Mucosal-trigger interferon: the type-I interferon of the innate mucosal (secretory-IgA already mapped) antiviral response to the upper-respiratory infections triggers the synpharyngitic IgA flares of IgA nephropathy.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 arm: the IFN-γ of the T cells is the type-II interferon arm of the T-cell-mediated glomerular inflammation, complementing the Th17 (IL-17 and IL-23 already mapped) drive of IgA nephropathy.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune response of IgA nephropathy.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension shaping the mucosal IgA (secretory-IgA already mapped) response of IgA nephropathy.
 
 ---
 
