@@ -457,6 +457,15 @@ cross_links:
   - target: 01-human/03-molecular/type-i-interferon
     relation: connects-to
     note: "Innate interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment of the DICER1-syndrome tumours."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune microenvironment of the DICER1-syndrome tumours."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "Th17 arm: IL-17A drives the Th17 arm of the inflammatory dimension of the immune microenvironment of the DICER1-syndrome tumours."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 induction: IL-23 sustains the Th17 (IL-17 already mapped) arm of the inflammatory dimension of the DICER1-syndrome tumour microenvironment."
 ---
 
 # DICER1 Syndrome
@@ -718,6 +727,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the anti-tumour immunity relevant to the diverse DICER1 tumours (checkpoint PD-1 already mapped).
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune microenvironment of the DICER1-syndrome tumours.
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment of the DICER1-syndrome tumours.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune microenvironment of the DICER1-syndrome tumours.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Th17 arm: IL-17A drives the Th17 arm of the inflammatory dimension of the immune microenvironment of the DICER1-syndrome tumours.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 induction: IL-23 sustains the Th17 (IL-17 already mapped) arm of the inflammatory dimension of the DICER1-syndrome tumour microenvironment.
 
 ---
 
