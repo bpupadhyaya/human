@@ -463,6 +463,15 @@ cross_links:
   - target: 01-human/03-molecular/il-5
     relation: connects-to
     note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension modulating the predominantly Th1 immune response of bladder cancer."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the inflammatory dimension of the BCG-induced (TLR4 already mapped) immune response of bladder cancer."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the bladder-cancer microenvironment."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "Humoral/BCG arm: the plasma cells secrete the antibodies (already mapped) of the humoral response, including that induced by the intravesical BCG immunotherapy of bladder cancer."
 ---
 
 # Bladder Cancer
@@ -732,6 +741,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — BCG innate interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) and TLR (already mapped) sensing of the intravesical BCG, drives the innate immune response of the BCG immunotherapy of bladder cancer.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) response that mediates the BCG immunotherapy of bladder cancer.
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension modulating the predominantly Th1 immune response of bladder cancer.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the inflammatory dimension of the BCG-induced (TLR4 already mapped) immune response of bladder cancer.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the bladder-cancer microenvironment.
+- `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — Humoral/BCG arm: the plasma cells secrete the antibodies (already mapped) of the humoral response, including that induced by the intravesical BCG immunotherapy of bladder cancer.
 
 ---
 
