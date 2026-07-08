@@ -472,6 +472,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Plaque antigen presentation: the dendritic cells present the oxidised-LDL and other plaque antigens (MHC already mapped), shaping the adaptive T-cell response of the atheroma."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the monocyte and mast-cell (already mapped) recruitment into the atherosclerotic plaque."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement: the complement C5 and its activation (with C3 already mapped) on the oxidised LDL contribute to the plaque inflammation and the membrane-attack-complex injury of atherosclerosis."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) on the oxidised LDL, and its variants are linked to the risk of atherosclerosis."
 ---
 
 # Atherosclerosis
@@ -737,6 +746,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune-inflammatory dimension of the atherosclerotic plaque.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Mast-cell arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), arms the plaque mast cells whose degranulation destabilises the atheroma.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Plaque antigen presentation: the dendritic cells present the oxidised-LDL and other plaque antigens (MHC already mapped), shaping the adaptive T-cell response of the atheroma.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the monocyte and mast-cell (already mapped) recruitment into the atherosclerotic plaque.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its activation (with C3 already mapped) on the oxidised LDL contribute to the plaque inflammation and the membrane-attack-complex injury of atherosclerosis.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) on the oxidised LDL, and its variants are linked to the risk of atherosclerosis.
 
 ---
 

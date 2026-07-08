@@ -466,6 +466,15 @@ cross_links:
   - target: 01-human/04-cellular/mast-cell
     relation: connects-to
     note: "Marrow mast cells: the mast cells are part of the bone-marrow (already mapped) immune microenvironment and the type-2 (IgE already mapped) dimension of aplastic anaemia."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) contributes to the innate inflammatory dimension of the immune-mediated marrow failure of aplastic anaemia."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement: the complement C5 (with C3 already mapped) links to the complement-mediated haemolysis of the PNH clones (already mapped) that arise in aplastic anaemia."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Transfusional iron: transferrin, the iron carrier, reflects the iron handling of the transfusion-dependent iron overload (hepcidin already mapped) of aplastic anaemia."
 ---
 
 # Aplastic Anemia
@@ -728,6 +737,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — B-cell dysregulation: the B cells contribute the humoral and autoantibody dimension of the immune dysregulation of aplastic anaemia, a target of the rituximab used in refractory disease.
 - `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — Autoantibody arm: the plasma cells secrete the autoantibodies (immunoglobulin already mapped) of the humoral component that accompanies the T-cell-mediated marrow attack of aplastic anaemia.
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Marrow mast cells: the mast cells are part of the bone-marrow (already mapped) immune microenvironment and the type-2 (IgE already mapped) dimension of aplastic anaemia.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) contributes to the innate inflammatory dimension of the immune-mediated marrow failure of aplastic anaemia.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 (with C3 already mapped) links to the complement-mediated haemolysis of the PNH clones (already mapped) that arise in aplastic anaemia.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Transfusional iron: transferrin, the iron carrier, reflects the iron handling of the transfusion-dependent iron overload (hepcidin already mapped) of aplastic anaemia.
 
 ---
 
