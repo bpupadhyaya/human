@@ -451,6 +451,15 @@ cross_links:
   - target: 03-medicine/03-food/vitamin-d
     relation: connects-to
     note: "Vitamin-D risk: the low vitamin D (the latitude gradient, the EBV/LMP1 already mapped interaction) is a modifiable multiple-sclerosis risk factor and a candidate modifier of the disease course."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm that, with the Th17 (IL-17 and IL-23 already mapped), drives the CNS autoimmunity of multiple sclerosis."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 counter-arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension balancing the Th1/Th17 drive of multiple sclerosis."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension of the immune dysregulation of multiple sclerosis."
 ---
 
 # Multiple Sclerosis
@@ -705,6 +714,9 @@ MS affects approximately **2.8 million people worldwide** (~1 million in the US)
 - `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Smouldering plaque: the microglia and macrophages (CCL2 already mapped) strip the myelin and drive the smouldering (the chronic active plaques) neuroinflammation of multiple sclerosis.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Axonal degeneration: the axonal and neuronal loss (glutamate excitotoxicity already mapped) underlies the progressive, irreversible disability of multiple sclerosis.
 - `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin-D risk: the low vitamin D (the latitude gradient, the EBV/LMP1 already mapped interaction) is a modifiable multiple-sclerosis risk factor and a candidate modifier of the disease course.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm that, with the Th17 (IL-17 and IL-23 already mapped), drives the CNS autoimmunity of multiple sclerosis.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 counter-arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension balancing the Th1/Th17 drive of multiple sclerosis.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension of the immune dysregulation of multiple sclerosis.
 
 [^compston-2008-ms-review]: Compston A, Coles A. Multiple sclerosis. *Lancet.* 2008;372(9648):1502-1517. [doi:10.1016/S0140-6736(08)61620-7](https://doi.org/10.1016/S0140-6736(08)61620-7) · [PubMed 18970977](https://pubmed.ncbi.nlm.nih.gov/18970977/)
 [^kappos-2006-natalizumab]: Polman CH, O'Connor PW, Havrdova E, et al. A randomized, placebo-controlled trial of natalizumab for relapsing multiple sclerosis. *N Engl J Med.* 2006;354(9):899-910. [doi:10.1056/NEJMoa044397](https://doi.org/10.1056/NEJMoa044397) · [PubMed 16510744](https://pubmed.ncbi.nlm.nih.gov/16510744/)

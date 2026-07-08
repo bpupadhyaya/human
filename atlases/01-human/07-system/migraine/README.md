@@ -454,6 +454,15 @@ cross_links:
   - target: 01-human/07-system/epilepsy
     relation: connects-to
     note: "Epilepsy comorbidity: migraine and epilepsy are comorbid, sharing the cortical hyperexcitability, the SCN1A (already mapped) channelopathies and the cortical spreading depression."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate neuroinflammation: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, is part of the sterile neuroinflammation (IL-1 and TNF already mapped) of the trigeminovascular activation of migraine."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 neuroinflammation: the IFN-γ of the T cells is the type-II interferon arm of the immune-inflammatory dimension associated with migraine."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune-inflammatory dimension of migraine."
 ---
 
 # Migraine
@@ -736,6 +745,9 @@ Episodic migraine (EM, <15 headache days/month) transforms to **chronic migraine
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Cortical spreading depression: the astrocytes propagate the cortical spreading depression (the aura; glutamate and connexin43 already mapped, the K+ waves) of migraine.
 - `connects-to` → **[Major depressive disorder](../major-depressive-disorder/README.md)** — Depression comorbidity: migraine and major depression are bidirectionally comorbid, sharing the serotonergic (already mapped) dysregulation.
 - `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Epilepsy comorbidity: migraine and epilepsy are comorbid, sharing the cortical hyperexcitability, the SCN1A (already mapped) channelopathies and the cortical spreading depression.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate neuroinflammation: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, is part of the sterile neuroinflammation (IL-1 and TNF already mapped) of the trigeminovascular activation of migraine.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 neuroinflammation: the IFN-γ of the T cells is the type-II interferon arm of the immune-inflammatory dimension associated with migraine.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune-inflammatory dimension of migraine.
 
 [^gbd-2016-migraine-burden]: GBD 2016 Headache Collaborators. Global, regional, and national burden of migraine and tension-type headache, 1990-2016. *Lancet Neurol.* 2018;17(11):954-976. [doi:10.1016/S1474-4422(18)30322-3](https://doi.org/10.1016/S1474-4422(18)30322-3) · [PubMed 30353868](https://pubmed.ncbi.nlm.nih.gov/30353868/)
 [^goadsby-2002-migraine-review]: Goadsby PJ, Lipton RB, Ferrari MD. Migraine — current understanding and treatment. *N Engl J Med.* 2002;346(4):257-270. [doi:10.1056/NEJMra010917](https://doi.org/10.1056/NEJMra010917) · [PubMed 11807151](https://pubmed.ncbi.nlm.nih.gov/11807151/)
