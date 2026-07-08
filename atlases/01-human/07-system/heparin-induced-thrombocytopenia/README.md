@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "Adaptive arm: the cytotoxic T cells (perforin already mapped), alongside the T-helper (already mapped) support of the anti-PF4 B-cell response, are part of the transient alloimmune adaptive response of heparin-induced thrombocytopenia."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical/contact regulation: the C1-esterase inhibitor regulates the classical complement (C3, C5, C5aR1 and factor H already mapped) and the contact-kinin (bradykinin already mapped) systems co-activated in the thromboinflammation of heparin-induced thrombocytopenia."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Platelet thromboinflammation: osteopontin, released by the activated platelets (already mapped), is a matricellular mediator that amplifies the monocyte recruitment and the thromboinflammation of heparin-induced thrombocytopenia."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Consumptive iron: transferrin, the iron carrier, reflects the disordered iron handling accompanying the platelet consumption and the thrombotic microvascular injury of heparin-induced thrombocytopenia."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -771,6 +780,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway activated on the PF4-heparin immune complexes (complement C3, C5 and C5aR1 already mapped) of heparin-induced thrombocytopenia.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Contact/kinin arm: the bradykinin-kinin system, activated alongside the coagulation (thrombin already mapped), contributes to the vascular and thromboinflammatory dimension of heparin-induced thrombocytopenia.
 - `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Adaptive arm: the cytotoxic T cells (perforin already mapped), alongside the T-helper (already mapped) support of the anti-PF4 B-cell response, are part of the transient alloimmune adaptive response of heparin-induced thrombocytopenia.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical/contact regulation: the C1-esterase inhibitor regulates the classical complement (C3, C5, C5aR1 and factor H already mapped) and the contact-kinin (bradykinin already mapped) systems co-activated in the thromboinflammation of heparin-induced thrombocytopenia.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Platelet thromboinflammation: osteopontin, released by the activated platelets (already mapped), is a matricellular mediator that amplifies the monocyte recruitment and the thromboinflammation of heparin-induced thrombocytopenia.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Consumptive iron: transferrin, the iron carrier, reflects the disordered iron handling accompanying the platelet consumption and the thrombotic microvascular injury of heparin-induced thrombocytopenia.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)

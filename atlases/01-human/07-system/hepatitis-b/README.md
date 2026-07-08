@@ -471,6 +471,15 @@ cross_links:
   - target: 01-human/03-molecular/c5ar1
     relation: connects-to
     note: "C5a receptor: the C5aR1 signalling links the complement to the myeloid recruitment in the immune-mediated liver (already mapped) inflammation and the extrahepatic immune-complex disease of chronic hepatitis B."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) engaged by the immune complexes of the extrahepatic manifestations of chronic hepatitis B."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway activated by the HBsAg immune complexes (immunoglobulin already mapped) in the polyarteritis nodosa and membranous glomerulonephritis of chronic hepatitis B."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Hepatic iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the chronic liver injury that accelerates the fibrosis and hepatocellular-carcinoma risk of chronic hepatitis B."
 ---
 
 # Hepatitis B
@@ -757,3 +766,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — Humoral seroconversion: the plasma cells secrete the anti-HBs and anti-HBe antibodies (immunoglobulin already mapped) whose seroconversion marks the immune control of chronic hepatitis B.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Immune-complex complement: the complement C5 and its activation (with C3 already mapped) mediate the immune-complex manifestations (polyarteritis nodosa, membranous glomerulonephritis) of chronic hepatitis B.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling links the complement to the myeloid recruitment in the immune-mediated liver (already mapped) inflammation and the extrahepatic immune-complex disease of chronic hepatitis B.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) engaged by the immune complexes of the extrahepatic manifestations of chronic hepatitis B.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway activated by the HBsAg immune complexes (immunoglobulin already mapped) in the polyarteritis nodosa and membranous glomerulonephritis of chronic hepatitis B.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Hepatic iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the chronic liver injury that accelerates the fibrosis and hepatocellular-carcinoma risk of chronic hepatitis B.
