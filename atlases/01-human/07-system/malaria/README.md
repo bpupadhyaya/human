@@ -474,6 +474,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Iron competition: transferrin, the iron carrier, is part of the host iron-handling that, with the disordered hepcidin (already mapped), governs the iron availability contested between the host and the intraerythrocytic parasite in malaria."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement/contact regulation: the C1-esterase inhibitor regulates the classical/lectin complement (C3, C5, C5aR1 and factor H already mapped) and the contact-kinin systems activated in the microvascular thromboinflammation of severe malaria."
+  - target: 01-human/03-molecular/adamts13
+    relation: connects-to
+    note: "vWF microthrombosis: the ADAMTS13 protease is consumed in severe malaria, so the ultra-large von Willebrand factor (already mapped) multimers persist and drive the platelet (already mapped) microthrombosis and endothelial sequestration of cerebral malaria."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Vascular mast cells: the mast cells, activated in malaria, contribute to the vascular permeability and the intestinal and systemic inflammation accompanying the infection."
 ---
 
 # Malaria
@@ -784,6 +793,9 @@ cross_links:
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped), driven by the excess C5a, contributes to the inflammation and the endothelial injury of severe and cerebral malaria.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: Plasmodium recruits the host factor H (via the RIFIN and Pf surface proteins) to its infected erythrocytes (already mapped) to accelerate the C3-convertase decay and evade the complement attack.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Iron competition: transferrin, the iron carrier, is part of the host iron-handling that, with the disordered hepcidin (already mapped), governs the iron availability contested between the host and the intraerythrocytic parasite in malaria.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement/contact regulation: the C1-esterase inhibitor regulates the classical/lectin complement (C3, C5, C5aR1 and factor H already mapped) and the contact-kinin systems activated in the microvascular thromboinflammation of severe malaria.
+- `connects-to` → **[ADAMTS13](../../03-molecular/adamts13/README.md)** — vWF microthrombosis: the ADAMTS13 protease is consumed in severe malaria, so the ultra-large von Willebrand factor (already mapped) multimers persist and drive the platelet (already mapped) microthrombosis and endothelial sequestration of cerebral malaria.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Vascular mast cells: the mast cells, activated in malaria, contribute to the vascular permeability and the intestinal and systemic inflammation accompanying the infection.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)
