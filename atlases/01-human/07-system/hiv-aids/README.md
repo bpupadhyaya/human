@@ -445,6 +445,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "Kaposi angiogenesis: the Kaposi sarcoma (an AIDS-defining, HHV-8-driven malignancy) is highly angiogenic (VEGF), the vascular tumour of the profound immunosuppression of AIDS."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Immune dysregulation: the regulatory T cells are disproportionately altered relative to the depleted CD4 T-helper cells (already mapped), contributing to the immune dysregulation and the loss of tolerance of AIDS."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Th2 shift: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the Th2 shift of the progressive immunodeficiency of AIDS."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Elevated IgE: the polyclonal B-cell (BAFF already mapped) activation of AIDS raises the IgE (with IL-4 and IL-13 already mapped), part of the dysregulated type-2 immunity."
 ---
 
 # HIV/AIDS
@@ -702,6 +711,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Lipodystrophy adipokine: adiponectin, with leptin (already mapped), is disturbed by the HIV lipodystrophy and the ART-associated metabolic syndrome (insulin already mapped) of AIDS.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipokine of the HIV lipodystrophy and the metabolic-inflammatory (IL-6 already mapped) milieu of AIDS.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Kaposi angiogenesis: the Kaposi sarcoma (an AIDS-defining, HHV-8-driven malignancy) is highly angiogenic (VEGF), the vascular tumour of the profound immunosuppression of AIDS.
+- `connects-to` → **[Regulatory T cell](../../04-cellular/regulatory-t-cell/README.md)** — Immune dysregulation: the regulatory T cells are disproportionately altered relative to the depleted CD4 T-helper cells (already mapped), contributing to the immune dysregulation and the loss of tolerance of AIDS.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Th2 shift: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the Th2 shift of the progressive immunodeficiency of AIDS.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Elevated IgE: the polyclonal B-cell (BAFF already mapped) activation of AIDS raises the IgE (with IL-4 and IL-13 already mapped), part of the dysregulated type-2 immunity.
 
 ## See Also
 

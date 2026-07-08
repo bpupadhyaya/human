@@ -445,6 +445,15 @@ cross_links:
   - target: 01-human/03-molecular/hepcidin
     relation: connects-to
     note: "Inflammation iron: the IL-6-driven (already mapped) hepcidin of the severe influenza inflammation contributes to the anaemia and the iron dysregulation of the acute illness."
+  - target: 02-pathogen/01-viruses/influenza-a
+    relation: connects-to
+    note: "Causative virus: the influenza is caused by the influenza virus (the influenza A the pandemic-capable type; the haemagglutinin already mapped), the segmented orthomyxovirus of the antigenic drift and shift."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune response and the asthma-exacerbation link of influenza."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension of the immune response to influenza."
 ---
 
 # Influenza
@@ -723,3 +732,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the obesity (a severe-influenza risk) and the immune-metabolic milieu of the influenza response.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the cytokine (IL-6 already mapped) response to influenza.
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Inflammation iron: the IL-6-driven (already mapped) hepcidin of the severe influenza inflammation contributes to the anaemia and the iron dysregulation of the acute illness.
+- `connects-to` → **[Influenza A](../../../02-pathogen/01-viruses/influenza-a/README.md)** — Causative virus: the influenza is caused by the influenza virus (the influenza A the pandemic-capable type; the haemagglutinin already mapped), the segmented orthomyxovirus of the antigenic drift and shift.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune response and the asthma-exacerbation link of influenza.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension of the immune response to influenza.
