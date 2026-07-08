@@ -472,6 +472,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Synovial matricellular: periostin, secreted by the synovial fibroblasts (already mapped), is part of the matricellular remodelling of the pannus and the bone erosion (RANKL already mapped) of rheumatoid arthritis."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose dysregulation on the immune complexes drives the synovial complement activation of rheumatoid arthritis."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway activated by the ACPA and rheumatoid-factor (immunoglobulin already mapped) immune complexes in the rheumatoid synovium."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Chronic-disease iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the anaemia of chronic disease of rheumatoid arthritis."
 ---
 
 # Rheumatoid Arthritis
@@ -765,6 +774,9 @@ RA patients have:
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the neutrophil (already mapped) recruitment into the inflamed synovium of rheumatoid arthritis.
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Stromal alarmin: TSLP, from the synovial fibroblasts (already mapped) and stroma, conditions the dendritic cells (already mapped) and contributes to the pro-inflammatory milieu of the rheumatoid synovium.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Synovial matricellular: periostin, secreted by the synovial fibroblasts (already mapped), is part of the matricellular remodelling of the pannus and the bone erosion (RANKL already mapped) of rheumatoid arthritis.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose dysregulation on the immune complexes drives the synovial complement activation of rheumatoid arthritis.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway activated by the ACPA and rheumatoid-factor (immunoglobulin already mapped) immune complexes in the rheumatoid synovium.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Chronic-disease iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the anaemia of chronic disease of rheumatoid arthritis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
