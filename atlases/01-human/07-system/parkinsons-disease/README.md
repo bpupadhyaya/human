@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/03-molecular/type-i-interferon
     relation: connects-to
     note: "Mitochondrial-DNA interferon: the cGAS-STING (already mapped) sensing of the mitochondrial DNA from the failing mitophagy (autophagy already mapped) drives the type-I interferon neuroinflammation of Parkinson's disease."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the T-cell-mediated neuroinflammation that accelerates the dopaminergic neuron (already mapped) loss of Parkinson's disease."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 immune arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the peripheral immune dysregulation associated with Parkinson's disease."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 neuroinflammation: IL-23 sustains the Th17 (IL-17 already mapped) arm of the neuroinflammatory response implicated in Parkinson's disease."
 ---
 
 # Parkinson's Disease
@@ -730,6 +739,9 @@ PD is primarily a disease of aging (mean onset ~60 years), but **~10–15% of ca
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Neuroprotective adipokine: adiponectin, with leptin (already mapped), has neuroprotective and metabolic (insulin already mapped) actions linked to Parkinson's-disease risk and the metabolic milieu.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the neuroinflammation (TNF and IL-6 already mapped) and metabolic milieu of Parkinson's disease.
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Mitochondrial-DNA interferon: the cGAS-STING (already mapped) sensing of the mitochondrial DNA from the failing mitophagy (autophagy already mapped) drives the type-I interferon neuroinflammation of Parkinson's disease.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the T-cell-mediated neuroinflammation that accelerates the dopaminergic neuron (already mapped) loss of Parkinson's disease.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 immune arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the peripheral immune dysregulation associated with Parkinson's disease.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 neuroinflammation: IL-23 sustains the Th17 (IL-17 already mapped) arm of the neuroinflammatory response implicated in Parkinson's disease.
 
 [^kalia-2015-pd-review]: Kalia LV, Lang AE. Parkinson's disease. *Lancet.* 2015;386(9996):896-912. [doi:10.1016/S0140-6736(14)61393-3](https://doi.org/10.1016/S0140-6736(14)61393-3) · [PubMed 25904081](https://pubmed.ncbi.nlm.nih.gov/25904081/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
