@@ -478,6 +478,15 @@ cross_links:
   - target: 01-human/03-molecular/histamine
     relation: connects-to
     note: "Mast-cell/eosinophil effector: the histamine of the mast cells (already mapped) and eosinophils contributes to the type-2 vascular and tissue inflammation of the EGPA subtype of ANCA vasculitis."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement/contact regulation: the C1-esterase inhibitor regulates the classical complement and the contact pathways, complementing the factor H (already mapped) control of the alternative pathway (C5aR1 already mapped, the avacopan target) of ANCA vasculitis."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Antioxidant micronutrient: selenium, a selenoprotein cofactor, is part of the oxidative-stress and micronutrient dimension of the autoimmune vascular inflammation of ANCA vasculitis."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Nutritional immunity: transferrin, the iron carrier, reflects the disordered iron handling of the anaemia of the chronic inflammation of ANCA vasculitis."
 ---
 
 # ANCA Vasculitis
@@ -763,6 +772,9 @@ EGPA is mechanistically distinct — eosinophils, not neutrophils, mediate tissu
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Type-2 alarmin: TSLP, with IL-33 (already mapped), is the epithelial alarmin driving the eosinophilic type-2 (IL-4, IL-5 and IL-13 already mapped) inflammation of the EGPA subtype of ANCA vasculitis.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Eosinophil biomarker: periostin, downstream of the type-2 (IL-13 already mapped) cytokines, marks the eosinophilic tissue inflammation of the EGPA subtype of ANCA vasculitis.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell/eosinophil effector: the histamine of the mast cells (already mapped) and eosinophils contributes to the type-2 vascular and tissue inflammation of the EGPA subtype of ANCA vasculitis.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement/contact regulation: the C1-esterase inhibitor regulates the classical complement and the contact pathways, complementing the factor H (already mapped) control of the alternative pathway (C5aR1 already mapped, the avacopan target) of ANCA vasculitis.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Antioxidant micronutrient: selenium, a selenoprotein cofactor, is part of the oxidative-stress and micronutrient dimension of the autoimmune vascular inflammation of ANCA vasculitis.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Nutritional immunity: transferrin, the iron carrier, reflects the disordered iron handling of the anaemia of the chronic inflammation of ANCA vasculitis.
 
 [^yates-2022-anca-review]: Yates M, Watts RA, Bajema IM, et al. EULAR/ERA-EDTA recommendations for the management of ANCA-associated vasculitis. *Ann Rheum Dis.* 2016;75(9):1583-1594. [doi:10.1136/annrheumdis-2016-209133](https://doi.org/10.1136/annrheumdis-2016-209133) · [PubMed 27338776](https://pubmed.ncbi.nlm.nih.gov/27338776/)
 [^stone-2010-rituximab-gpa-rave]: Stone JH, Merkel PA, Spiera R, et al. Rituximab versus cyclophosphamide for ANCA-associated vasculitis. *N Engl J Med.* 2010;363(3):221-232. [doi:10.1056/NEJMoa0909905](https://doi.org/10.1056/NEJMoa0909905) · [PubMed 20647199](https://pubmed.ncbi.nlm.nih.gov/20647199/)
