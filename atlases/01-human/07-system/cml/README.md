@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/04-cellular/t-helper-cell
     relation: connects-to
     note: "Immune surveillance: the CD4 T-helper cells contribute to the antileukaemic immunity that supports the treatment-free remission after the tyrosine-kinase-inhibitor therapy of chronic myeloid leukaemia."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement: the complement C5 and its C5a (with C3 and C5aR1 already mapped) are part of the myeloid inflammatory dimension of the chronic-myeloid-leukaemia marrow microenvironment."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the inflammatory marrow niche of chronic myeloid leukaemia."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Leukaemia iron: transferrin, the iron carrier, reflects the disordered iron handling of the anaemia and the high cell turnover of chronic myeloid leukaemia."
 ---
 
 # Chronic Myeloid Leukemia
@@ -740,6 +749,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) links the complement to the myeloid inflammation of the chronic-myeloid-leukaemia bone-marrow (already mapped) microenvironment.
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Basophil/mast lineage: the mast cells, sharing the myeloid basophil lineage that is expanded (the basophilia) in chronic myeloid leukaemia, are part of the leukaemic myeloid output.
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — Immune surveillance: the CD4 T-helper cells contribute to the antileukaemic immunity that supports the treatment-free remission after the tyrosine-kinase-inhibitor therapy of chronic myeloid leukaemia.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 and C5aR1 already mapped) are part of the myeloid inflammatory dimension of the chronic-myeloid-leukaemia marrow microenvironment.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the inflammatory marrow niche of chronic myeloid leukaemia.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Leukaemia iron: transferrin, the iron carrier, reflects the disordered iron handling of the anaemia and the high cell turnover of chronic myeloid leukaemia.
 
 ---
 

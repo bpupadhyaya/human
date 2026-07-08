@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/factor-h
     relation: connects-to
     note: "Complement evasion: the chronic-lymphocytic-leukaemia cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), a resistance mechanism to the anti-CD20 complement-dependent killing."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway of the anti-CD20 (already mapped) rituximab/obinutuzumab complement-dependent cytotoxicity against the chronic-lymphocytic-leukaemia cells."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Autoimmune-haemolysis iron: transferrin, the iron carrier, reflects the disordered iron handling of the autoimmune haemolytic anaemia and the marrow-infiltration anaemia of chronic lymphocytic leukaemia."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Microenvironment mast cells: the mast cells of the marrow and lymph-node stroma contribute to the supportive microenvironment of chronic lymphocytic leukaemia."
 ---
 
 # CLL
@@ -740,6 +749,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Antibody CDC: the complement C5 (with C3 already mapped) is the effector of the complement-dependent cytotoxicity by which the anti-CD20 (already mapped) rituximab and obinutuzumab kill the chronic-lymphocytic-leukaemia B cells (already mapped).
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling links the complement (C3 and C5 already mapped) to the myeloid inflammation of the chronic-lymphocytic-leukaemia microenvironment.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the chronic-lymphocytic-leukaemia cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), a resistance mechanism to the anti-CD20 complement-dependent killing.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway of the anti-CD20 (already mapped) rituximab/obinutuzumab complement-dependent cytotoxicity against the chronic-lymphocytic-leukaemia cells.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Autoimmune-haemolysis iron: transferrin, the iron carrier, reflects the disordered iron handling of the autoimmune haemolytic anaemia and the marrow-infiltration anaemia of chronic lymphocytic leukaemia.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Microenvironment mast cells: the mast cells of the marrow and lymph-node stroma contribute to the supportive microenvironment of chronic lymphocytic leukaemia.
 
 ---
 
