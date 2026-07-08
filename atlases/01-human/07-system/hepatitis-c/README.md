@@ -471,6 +471,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Iron overload: transferrin, the iron carrier, reflects the hepatic iron accumulation that, with the disordered hepcidin (already mapped), aggravates the oxidative liver injury and fibrosis of chronic hepatitis C."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) engaged by the immune complexes of the mixed cryoglobulinaemic vasculitis of chronic hepatitis C."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway activated by the cryoglobulin immune complexes (immunoglobulin already mapped) of the vasculitis of chronic hepatitis C."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Fibrosis progression: osteopontin, a matricellular cytokine produced by the injured liver, is a marker and mediator of the fibrosis progression (TGF-β already mapped) of chronic hepatitis C."
 ---
 
 # Hepatitis C
@@ -748,3 +757,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Cryoglobulin complement: the complement C5 and its activation (with C3 already mapped) mediate the mixed-cryoglobulinaemic vasculitis, an immune-complex complication of chronic hepatitis C.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling links the complement to the myeloid recruitment in the hepatic inflammation and the cryoglobulinaemic vasculitis of chronic hepatitis C.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Iron overload: transferrin, the iron carrier, reflects the hepatic iron accumulation that, with the disordered hepcidin (already mapped), aggravates the oxidative liver injury and fibrosis of chronic hepatitis C.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) engaged by the immune complexes of the mixed cryoglobulinaemic vasculitis of chronic hepatitis C.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway activated by the cryoglobulin immune complexes (immunoglobulin already mapped) of the vasculitis of chronic hepatitis C.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Fibrosis progression: osteopontin, a matricellular cytokine produced by the injured liver, is a marker and mediator of the fibrosis progression (TGF-β already mapped) of chronic hepatitis C.
