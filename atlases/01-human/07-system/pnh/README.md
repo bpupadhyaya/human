@@ -469,6 +469,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Iron loss: transferrin, the iron carrier, reflects the disordered iron handling of the chronic intravascular haemolysis and the haemoglobinuria (haemoglobin and hepcidin already mapped) that deplete the body iron in PNH."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement/contact regulation: the C1-esterase inhibitor regulates the classical complement (C3, C5, C5aR1 and factor H already mapped) and the contact-coagulation systems relevant to the complement amplification and thrombosis of PNH."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Thromboinflammation: osteopontin, released by the activated platelets (already mapped), is a matricellular mediator of the thromboinflammatory dimension of the intravascular haemolysis and thrombosis of PNH."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Vascular mast cells: the mast cells contribute to the vascular tone and permeability that, with the nitric-oxide (already mapped) depletion of haemolysis, shape the vasculopathy of PNH."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -711,6 +720,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — Marrow-failure T cells: the CD4 T-helper cells, alongside the cytotoxic T cells (already mapped), drive the autoimmune attack on the bone marrow (already mapped) that provides the selective advantage for the PNH clone.
 - `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — Humoral effector: the plasma cells secrete the antibodies (already mapped) of the autoimmune marrow-failure context underlying PNH.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Iron loss: transferrin, the iron carrier, reflects the disordered iron handling of the chronic intravascular haemolysis and the haemoglobinuria (haemoglobin and hepcidin already mapped) that deplete the body iron in PNH.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement/contact regulation: the C1-esterase inhibitor regulates the classical complement (C3, C5, C5aR1 and factor H already mapped) and the contact-coagulation systems relevant to the complement amplification and thrombosis of PNH.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Thromboinflammation: osteopontin, released by the activated platelets (already mapped), is a matricellular mediator of the thromboinflammatory dimension of the intravascular haemolysis and thrombosis of PNH.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Vascular mast cells: the mast cells contribute to the vascular tone and permeability that, with the nitric-oxide (already mapped) depletion of haemolysis, shape the vasculopathy of PNH.
 
 ---
 
