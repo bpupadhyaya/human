@@ -478,6 +478,15 @@ cross_links:
   - target: 01-human/03-molecular/il-5
     relation: connects-to
     note: "Eosinophil arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), recruits the gut eosinophils of the anti-parasite type-2 immunity of the digestive system."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the mucosal barrier defence and the inflammatory tone of the gut of the digestive system."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2/allergy arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), is the antibody arm of the anti-parasite and food-allergy type-2 immunity of the digestive system."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "Epithelial alarmin: IL-33, released by the injured gut epithelium, activates the ILC2s and initiates the type-2 (IL-4, IL-5 and IL-13 already mapped) mucosal immunity of the digestive system."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -720,6 +729,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [IL-4](../../03-molecular/il-4/README.md) — type-2 mucosal immunity: IL-4, a type-2 cytokine, drives the anti-helminth and the goblet-cell/mucus response of the gut mucosal immunity of the digestive system.
 - **Connects to:** [IL-13](../../03-molecular/il-13/README.md) — type-2 barrier: IL-13, with IL-4 (already mapped), drives the goblet-cell mucus and the epithelial-barrier type-2 response of the digestive system.
 - **Connects to:** [IL-5](../../03-molecular/il-5/README.md) — eosinophil arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), recruits the gut eosinophils of the anti-parasite type-2 immunity of the digestive system.
+- **Connects to:** [IL-23](../../03-molecular/il-23/README.md) — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the mucosal barrier defence and the inflammatory tone of the gut of the digestive system.
+- **Connects to:** [IgE](../../03-molecular/ige/README.md) — type-2/allergy arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), is the antibody arm of the anti-parasite and food-allergy type-2 immunity of the digestive system.
+- **Connects to:** [IL-33](../../03-molecular/il-33/README.md) — epithelial alarmin: IL-33, released by the injured gut epithelium, activates the ILC2s and initiates the type-2 (IL-4, IL-5 and IL-13 already mapped) mucosal immunity of the digestive system.
 
 ## Pathology
 
