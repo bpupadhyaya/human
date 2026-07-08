@@ -466,6 +466,15 @@ cross_links:
   - target: 01-human/04-cellular/plasma-cell
     relation: connects-to
     note: "Humoral/MALT arm: the plasma cells secrete the antibodies (secretory IgA already mapped) of the Helicobacter (already mapped) and MALT humoral response of the gastric mucosa."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Trastuzumab ADCC: the NK cells (perforin already mapped) mediate the antibody-dependent cellular cytotoxicity of the anti-HER2 (already mapped) trastuzumab against HER2-positive gastric cancer."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines shaping the immune microenvironment of gastric cancer."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid recruitment into the Helicobacter-associated (already mapped) inflammatory gastric-cancer stroma."
 ---
 
 # Gastric Cancer
@@ -762,6 +771,9 @@ H. pylori eradication: Reduces GC incidence by ~35-40% (meta-analyses); most ben
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the Helicobacter-driven (already mapped) tumour-promoting inflammation of gastric cancer.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the gastric-cancer microenvironment.
 - `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — Humoral/MALT arm: the plasma cells secrete the antibodies (secretory IgA already mapped) of the Helicobacter (already mapped) and MALT humoral response of the gastric mucosa.
+- `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Trastuzumab ADCC: the NK cells (perforin already mapped) mediate the antibody-dependent cellular cytotoxicity of the anti-HER2 (already mapped) trastuzumab against HER2-positive gastric cancer.
+- `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines shaping the immune microenvironment of gastric cancer.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid recruitment into the Helicobacter-associated (already mapped) inflammatory gastric-cancer stroma.
 
 [^bang-2010-toga]: Bang YJ, Van Cutsem E, Feyereislova A, et al. Trastuzumab in combination with chemotherapy versus chemotherapy alone for treatment of HER2-positive advanced gastric or gastro-oesophageal junction cancer (ToGA): a phase 3, open-label, randomised controlled trial. *Lancet.* 2010;376(9742):687-697. [doi:10.1016/S0140-6736(10)61121-X](https://doi.org/10.1016/S0140-6736(10)61121-X) · [PubMed 20728210](https://pubmed.ncbi.nlm.nih.gov/20728210/)
 [^janjigian-2021-checkmate649]: Janjigian YY, Shitara K, Moehler M, et al. First-line nivolumab plus chemotherapy versus chemotherapy alone for advanced gastric, gastro-oesophageal junction, and oesophageal adenocarcinoma (CheckMate 649). *Lancet.* 2021;398(10294):27-40. [doi:10.1016/S0140-6736(21)00797-2](https://doi.org/10.1016/S0140-6736(21)00797-2) · [PubMed 34102137](https://pubmed.ncbi.nlm.nih.gov/34102137/)

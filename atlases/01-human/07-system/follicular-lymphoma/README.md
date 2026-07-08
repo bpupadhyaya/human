@@ -466,6 +466,15 @@ cross_links:
   - target: 03-medicine/03-food/vitamin-d
     relation: connects-to
     note: "Prognostic vitamin: the low vitamin D status is associated with a worse outcome in follicular lymphoma and modulates the immune microenvironment and the response to the immunochemotherapy."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement evasion: the follicular-lymphoma cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), a resistance mechanism to the anti-CD20 (already mapped) complement-dependent killing by obinutuzumab and rituximab."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway that mediates the anti-CD20 (already mapped) complement-dependent cytotoxicity of follicular lymphoma."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Anaemia iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the anaemia of the marrow-involved follicular lymphoma."
 ---
 
 # Follicular Lymphoma
@@ -741,6 +750,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Anti-CD20 CDC: the complement C5 and the terminal MAC (with C3 already mapped) mediate the complement-dependent cytotoxicity of the anti-CD20 (rituximab/obinutuzumab; CD20 already mapped) therapy of follicular lymphoma.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling shapes the myeloid and macrophage response within the immune microenvironment of follicular lymphoma.
 - `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Prognostic vitamin: the low vitamin D status is associated with a worse outcome in follicular lymphoma and modulates the immune microenvironment and the response to the immunochemotherapy.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the follicular-lymphoma cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), a resistance mechanism to the anti-CD20 (already mapped) complement-dependent killing by obinutuzumab and rituximab.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway that mediates the anti-CD20 (already mapped) complement-dependent cytotoxicity of follicular lymphoma.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Anaemia iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the anaemia of the marrow-involved follicular lymphoma.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
