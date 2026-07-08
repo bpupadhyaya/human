@@ -451,6 +451,15 @@ cross_links:
   - target: 01-human/07-system/type-2-diabetes
     relation: connects-to
     note: "Type-3 diabetes: the brain insulin (already mapped) resistance links Alzheimer's disease to type 2 diabetes (the shared metabolic and inflammatory pathways), the 'type-3 diabetes' concept."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate neuroinflammation: the type-I interferon, downstream of the cGAS-STING (already mapped) sensing of the cytosolic and mitochondrial DNA, drives the microglial (already mapped) neuroinflammation of Alzheimer's disease."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 neuroinflammation: the IFN-γ of the infiltrating T cells is the type-II interferon arm of the adaptive immune contribution to the neuroinflammation of Alzheimer's disease."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune-inflammatory dimension of Alzheimer's disease."
 ---
 
 # Alzheimer's Disease
@@ -694,6 +703,9 @@ Microglia play a central, dual role in AD:
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Neuroprotective adipokine: adiponectin, with leptin and resistin (already mapped), has neuroprotective actions; the adiponectin resistance and the metabolic (insulin already mapped) dysfunction are linked to Alzheimer's-disease risk.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Amyloid metal binding: copper, with zinc (already mapped), binds the amyloid-β (APP already mapped) and catalyses the oxidative damage, the metal dyshomeostasis of Alzheimer's disease.
 - `connects-to` → **[Type 2 diabetes](../type-2-diabetes/README.md)** — Type-3 diabetes: the brain insulin (already mapped) resistance links Alzheimer's disease to type 2 diabetes (the shared metabolic and inflammatory pathways), the 'type-3 diabetes' concept.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate neuroinflammation: the type-I interferon, downstream of the cGAS-STING (already mapped) sensing of the cytosolic and mitochondrial DNA, drives the microglial (already mapped) neuroinflammation of Alzheimer's disease.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 neuroinflammation: the IFN-γ of the infiltrating T cells is the type-II interferon arm of the adaptive immune contribution to the neuroinflammation of Alzheimer's disease.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune-inflammatory dimension of Alzheimer's disease.
 
 [^selkoe-2016-alzheimer]: Selkoe DJ, Hardy J. The amyloid hypothesis of Alzheimer's disease at 25 years. *EMBO Mol Med.* 2016;8(6):595-608. [doi:10.15252/emmm.201606210](https://doi.org/10.15252/emmm.201606210) · [PubMed 27025652](https://pubmed.ncbi.nlm.nih.gov/27025652/)
 [^jack-2018-nia-aa]: Jack CR Jr, Bennett DA, Blennow K, et al. NIA-AA Research Framework: Toward a biological definition of Alzheimer's disease. *Alzheimers Dement.* 2018;14(4):535-562. [doi:10.1016/j.jalz.2018.02.018](https://doi.org/10.1016/j.jalz.2018.02.018) · [PubMed 29653606](https://pubmed.ncbi.nlm.nih.gov/29653606/)

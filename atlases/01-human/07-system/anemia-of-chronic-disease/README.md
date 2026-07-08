@@ -451,6 +451,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "Hepcidin-producing liver: the liver (the hepatocytes already mapped) produces the hepcidin (already mapped) under the IL-6 (already mapped) drive, the endocrine hub of the iron sequestration of the anemia of chronic disease."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Innate inflammatory NK: the NK cells (perforin already mapped), via their IFN-γ (already mapped), contribute to the inflammatory cytokine milieu that drives the hepcidin (already mapped) of the anemia of chronic disease."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune milieu underlying the anemia of chronic disease."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the chronic inflammation that drives the hepcidin (already mapped) iron sequestration of the anemia of chronic disease."
 ---
 
 # Anemia of Chronic Disease
@@ -719,6 +728,9 @@ This adaptive rationale explains why **aggressive iron supplementation during ac
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the obesity-related inflammation contributing to the hepcidin (already mapped) and iron dysregulation of the anemia of chronic disease.
 - `connects-to` → **[Inflammatory bowel disease](../inflammatory-bowel-disease/README.md)** — IBD anemia: the inflammatory bowel disease is a common cause of the anemia of chronic disease (the inflammation-hepcidin already mapped), compounded by the iron-deficiency blood loss.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Hepcidin-producing liver: the liver (the hepatocytes already mapped) produces the hepcidin (already mapped) under the IL-6 (already mapped) drive, the endocrine hub of the iron sequestration of the anemia of chronic disease.
+- `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Innate inflammatory NK: the NK cells (perforin already mapped), via their IFN-γ (already mapped), contribute to the inflammatory cytokine milieu that drives the hepcidin (already mapped) of the anemia of chronic disease.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune milieu underlying the anemia of chronic disease.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the chronic inflammation that drives the hepcidin (already mapped) iron sequestration of the anemia of chronic disease.
 
 [^weiss-2005-acd-review]: Weiss G, Goodnough LT. Anemia of chronic disease. *N Engl J Med.* 2005;352(10):1011-1023. [doi:10.1056/NEJMra041809](https://doi.org/10.1056/NEJMra041809) · [PubMed 15758012](https://pubmed.ncbi.nlm.nih.gov/15758012/)
 [^nemeth-2004-il6-hepcidin]: Nemeth E, Rivera S, Gabayan V, et al. IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin. *J Clin Invest.* 2004;113(9):1271-1276. [doi:10.1172/JCI200420945](https://doi.org/10.1172/JCI200420945) · [PubMed 15124018](https://pubmed.ncbi.nlm.nih.gov/15124018/)
