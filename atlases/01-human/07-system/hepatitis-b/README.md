@@ -444,6 +444,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the metabolic-inflammatory milieu and the steatosis of chronic hepatitis B."
+  - target: 01-human/07-system/hcc
+    relation: connects-to
+    note: "HCC outcome: chronic hepatitis B is the leading global cause of hepatocellular carcinoma, through the viral integration, the TERT and CTNNB1 (already mapped) drivers and the cirrhosis (collagen already mapped)."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 antiviral arm: IL-12 polarises the Th1 (IFN-γ already mapped) response of the cytotoxic T-cell (already mapped) clearance of the HBV-infected hepatocytes."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune response balancing the antiviral Th1 (IFN-γ already mapped) drive of chronic hepatitis B."
 ---
 
 # Hepatitis B
@@ -721,3 +730,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Steatosis and fibrosis: leptin is the adipokine of the metabolic-inflammatory milieu; the hepatic steatosis and adipokine signalling modulate the fibrosis (TGF-β already mapped) progression of chronic hepatitis B.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Anti-fibrotic adipokine: adiponectin, with leptin (already mapped), is the anti-fibrotic adipokine whose fall promotes the hepatic fibrosis (collagen already mapped) progression of chronic hepatitis B.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the metabolic-inflammatory milieu and the steatosis of chronic hepatitis B.
+- `connects-to` → **[HCC](../hcc/README.md)** — HCC outcome: chronic hepatitis B is the leading global cause of hepatocellular carcinoma, through the viral integration, the TERT and CTNNB1 (already mapped) drivers and the cirrhosis (collagen already mapped).
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 antiviral arm: IL-12 polarises the Th1 (IFN-γ already mapped) response of the cytotoxic T-cell (already mapped) clearance of the HBV-infected hepatocytes.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune response balancing the antiviral Th1 (IFN-γ already mapped) drive of chronic hepatitis B.
