@@ -468,6 +468,15 @@ cross_links:
   - target: 01-human/03-molecular/il-23
     relation: connects-to
     note: "Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune-inflammatory dimension associated with bulimia nervosa."
+  - target: 01-human/04-cellular/microglia
+    relation: connects-to
+    note: "Neuroinflammation: the microglia of the brain (already mapped) contribute to the neuroinflammation and the reward-circuit dysfunction implicated in bulimia nervosa."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Meningeal mast cells: the mast cells of the meninges and the brain (already mapped) contribute to the histamine (already mapped) and neuroinflammatory dimension implicated in bulimia nervosa."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Psychoneuroimmune arm: the peripheral cytotoxic T cells (perforin pathway) reflect the adaptive-immune activation of the psychoneuroimmunology of the binge-purge cycle of bulimia nervosa."
 ---
 
 # Bulimia Nervosa
@@ -747,6 +756,9 @@ All of the following must be met:
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the low-grade immune-inflammatory dimension associated with bulimia nervosa.
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune dysregulation associated with bulimia nervosa.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune-inflammatory dimension associated with bulimia nervosa.
+- `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Neuroinflammation: the microglia of the brain (already mapped) contribute to the neuroinflammation and the reward-circuit dysfunction implicated in bulimia nervosa.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Meningeal mast cells: the mast cells of the meninges and the brain (already mapped) contribute to the histamine (already mapped) and neuroinflammatory dimension implicated in bulimia nervosa.
+- `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Psychoneuroimmune arm: the peripheral cytotoxic T cells (perforin pathway) reflect the adaptive-immune activation of the psychoneuroimmunology of the binge-purge cycle of bulimia nervosa.
 
 ## Treatment
 

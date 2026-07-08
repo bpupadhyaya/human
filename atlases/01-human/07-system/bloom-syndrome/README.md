@@ -466,6 +466,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the immune dysregulation of Bloom syndrome."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Antigen presentation: the dendritic cells present antigen (MHC already mapped) and are part of the immune-surveillance apparatus impaired in the immunodeficiency and cancer predisposition of Bloom syndrome."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Innate immunity: the macrophages are part of the innate immune compartment of the immune dysregulation and recurrent-infection susceptibility of Bloom syndrome."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "Complement C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) is part of the innate inflammatory dimension of the immune dysregulation of Bloom syndrome."
 ---
 
 # Bloom Syndrome
@@ -753,6 +762,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Th17 axis: IL-17A drives the Th17 arm of the immune dysregulation and the recurrent-infection susceptibility of the immunodeficiency of Bloom syndrome.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 induction: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune dysregulation of Bloom syndrome.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the immune dysregulation of Bloom syndrome.
+- `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Antigen presentation: the dendritic cells present antigen (MHC already mapped) and are part of the immune-surveillance apparatus impaired in the immunodeficiency and cancer predisposition of Bloom syndrome.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Innate immunity: the macrophages are part of the innate immune compartment of the immune dysregulation and recurrent-infection susceptibility of Bloom syndrome.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — Complement C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) is part of the innate inflammatory dimension of the immune dysregulation of Bloom syndrome.
 
 ---
 
