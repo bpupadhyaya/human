@@ -451,6 +451,15 @@ cross_links:
   - target: 01-human/03-molecular/il-12
     relation: connects-to
     note: "Th1 induction: the microbiome-conditioned dendritic cells (already mapped) produce IL-12 to drive the Th1 (IFN-γ already mapped) arm of the gut-shaped systemic immunity."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2/eosinophil arm: the microbiome shapes the IL-5 and the type-2 (IL-4 and IL-13 already mapped) immunity, tuning the gut eosinophils and the anti-parasite response of the host."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 induction: the segmented-filamentous and other commensal bacteria induce the IL-23/Th17 (IL-17 already mapped) axis of the gut-shaped systemic immunity."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "IgE regulation: the commensal microbiome restrains the baseline IgE (with IL-4 and IL-13 already mapped), and the dysbiosis/germ-free state raises the IgE and the allergic susceptibility."
 ---
 
 # Gut Microbiome
@@ -673,6 +682,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Microbiome-NK tuning: the gut microbiome (via its metabolites and the tonic signals) tunes the NK-cell (perforin already mapped) function and the systemic innate immunity.
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Tonic interferon priming: the commensal microbiome sets the tonic type-I interferon (cGAS-STING already mapped) that primes the antiviral and antitumour immunity of the host.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 induction: the microbiome-conditioned dendritic cells (already mapped) produce IL-12 to drive the Th1 (IFN-γ already mapped) arm of the gut-shaped systemic immunity.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2/eosinophil arm: the microbiome shapes the IL-5 and the type-2 (IL-4 and IL-13 already mapped) immunity, tuning the gut eosinophils and the anti-parasite response of the host.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 induction: the segmented-filamentous and other commensal bacteria induce the IL-23/Th17 (IL-17 already mapped) axis of the gut-shaped systemic immunity.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — IgE regulation: the commensal microbiome restrains the baseline IgE (with IL-4 and IL-13 already mapped), and the dysbiosis/germ-free state raises the IgE and the allergic susceptibility.
 
 ## Pathology
 
