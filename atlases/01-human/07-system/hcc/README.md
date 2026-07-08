@@ -472,6 +472,15 @@ cross_links:
   - target: 01-human/04-cellular/b-cell
     relation: connects-to
     note: "Tertiary lymphoid structures: the B cells organise the intratumoural tertiary lymphoid structures whose presence, with the CD8 (already mapped) TILs, associates with the immunotherapy (PD-1 already mapped) response of hepatocellular carcinoma."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Tumour complement: the complement C3, produced by the hepatocytes and within the tumour, contributes to the inflammatory and immunosuppressive dimension of the hepatocellular-carcinoma microenvironment."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid (macrophage already mapped) recruitment and immunosuppression of the hepatocellular-carcinoma microenvironment."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Hepatic iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the hepatic iron overload that promotes the oxidative carcinogenesis of hepatocellular carcinoma."
 ---
 
 # Hepatocellular Carcinoma
@@ -761,6 +770,9 @@ In high-risk patients (cirrhosis, HBV regardless of cirrhosis): ultrasound ± AF
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Stromal mast cells: the mast cells of the tumour stroma contribute to the angiogenesis (VEGF already mapped) and the type-2 microenvironment of hepatocellular carcinoma.
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines shaping the immune balance of the hepatocellular-carcinoma microenvironment.
 - `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Tertiary lymphoid structures: the B cells organise the intratumoural tertiary lymphoid structures whose presence, with the CD8 (already mapped) TILs, associates with the immunotherapy (PD-1 already mapped) response of hepatocellular carcinoma.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Tumour complement: the complement C3, produced by the hepatocytes and within the tumour, contributes to the inflammatory and immunosuppressive dimension of the hepatocellular-carcinoma microenvironment.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid (macrophage already mapped) recruitment and immunosuppression of the hepatocellular-carcinoma microenvironment.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Hepatic iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the hepatic iron overload that promotes the oxidative carcinogenesis of hepatocellular carcinoma.
 
 [^llovet-2008-sorafenib]: Llovet JM, Ricci S, Mazzaferro V, et al. Sorafenib in advanced hepatocellular carcinoma. *N Engl J Med.* 2008;359(4):378-390. [doi:10.1056/NEJMoa0708857](https://doi.org/10.1056/NEJMoa0708857) · [PubMed 18650514](https://pubmed.ncbi.nlm.nih.gov/18650514/)
 [^finn-2020-imbrave150]: Finn RS, Qin S, Ikeda M, et al. Atezolizumab plus bevacizumab in unresectable hepatocellular carcinoma. *N Engl J Med.* 2020;382(20):1894-1905. [doi:10.1056/NEJMoa1915745](https://doi.org/10.1056/NEJMoa1915745) · [PubMed 32402160](https://pubmed.ncbi.nlm.nih.gov/32402160/)

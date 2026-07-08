@@ -481,6 +481,15 @@ cross_links:
   - target: 01-human/03-molecular/factor-h
     relation: connects-to
     note: "Complement evasion: HIV recruits the host factor H (in part via its gp41) to protect the virion and the infected cell from the complement (C3, C5 and C5aR1 already mapped) attack."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement/contact regulation: the C1-esterase inhibitor regulates the classical complement and the contact systems, a further layer of the complement (C3, C5, C5aR1 and factor H already mapped) balance HIV exploits for immune evasion."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "HIV anaemia iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the anaemia and the iron dysregulation that worsen the HIV disease progression."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mucosal reservoir: the mast cells and their progenitors are a tissue reservoir for HIV and contribute to the mucosal immune dysregulation of the infection."
 ---
 
 # HIV
@@ -770,6 +779,9 @@ The **latent reservoir** — HIV integrated into quiescent resting memory CD4+ T
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its activation (with C3 already mapped) contribute to the chronic complement activation and immune activation of HIV infection.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling links the complement to the myeloid inflammation and the persistent immune activation that drives the HIV disease progression.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: HIV recruits the host factor H (in part via its gp41) to protect the virion and the infected cell from the complement (C3, C5 and C5aR1 already mapped) attack.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement/contact regulation: the C1-esterase inhibitor regulates the classical complement and the contact systems, a further layer of the complement (C3, C5, C5aR1 and factor H already mapped) balance HIV exploits for immune evasion.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — HIV anaemia iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the anaemia and the iron dysregulation that worsen the HIV disease progression.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Mucosal reservoir: the mast cells and their progenitors are a tissue reservoir for HIV and contribute to the mucosal immune dysregulation of the infection.
 
 [^barre-sinoussi-1983-hiv-isolation]: Barré-Sinoussi F, Chermann JC, Rey F, et al. Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS). *Science.* 1983;220(4599):868-871. [doi:10.1126/science.6189183](https://doi.org/10.1126/science.6189183) · [PubMed 6189183](https://pubmed.ncbi.nlm.nih.gov/6189183/)
 [^ho-1995-viral-dynamics]: Ho DD, Neumann AU, Perelson AS, et al. Rapid turnover of plasma virions and CD4 lymphocytes in HIV-1 infection. *Nature.* 1995;373(6510):123-126. [doi:10.1038/373123a0](https://doi.org/10.1038/373123a0) · [PubMed 7816094](https://pubmed.ncbi.nlm.nih.gov/7816094/)
