@@ -466,6 +466,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "Antioxidant micronutrient: selenium, a selenoprotein cofactor, is part of the oxidative-stress and micronutrient dimension of the vascular inflammation of giant cell arteritis."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid recruitment into the inflamed vessel wall of giant cell arteritis."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3 and C5aR1 already mapped) active on the inflamed arterial wall of giant cell arteritis."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Nutritional immunity: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the anaemia of the chronic inflammation of giant cell arteritis."
 ---
 
 # Giant Cell Arteritis
@@ -730,6 +739,9 @@ The temporal arteries supply scalp, temporalis muscle, and dura. In GCA, transmu
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Vascular mast cells: the mast cells are increased in the inflamed arterial wall of giant cell arteritis and contribute to the vascular remodelling and the type-2 (IgE already mapped) dimension.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell mediator: the histamine, from the vascular mast cells (already mapped), contributes to the vascular permeability and the inflammatory remodelling of the arteritis of giant cell arteritis.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Antioxidant micronutrient: selenium, a selenoprotein cofactor, is part of the oxidative-stress and micronutrient dimension of the vascular inflammation of giant cell arteritis.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid recruitment into the inflamed vessel wall of giant cell arteritis.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3 and C5aR1 already mapped) active on the inflamed arterial wall of giant cell arteritis.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Nutritional immunity: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the anaemia of the chronic inflammation of giant cell arteritis.
 
 [^stone-2017-giact]: Stone JH, Tuckwell K, Dimonaco S, et al. Trial of tocilizumab in giant-cell arteritis. *N Engl J Med.* 2017;377(4):317-328. [doi:10.1056/NEJMoa1613849](https://doi.org/10.1056/NEJMoa1613849) · [PubMed 28745999](https://pubmed.ncbi.nlm.nih.gov/28745999/)
 [^weyand-2014-gca-review]: Weyand CM, Goronzy JJ. Clinical practice. Giant-cell arteritis and polymyalgia rheumatica. *N Engl J Med.* 2014;371(1):50-57. [doi:10.1056/NEJMcp1214926](https://doi.org/10.1056/NEJMcp1214926) · [PubMed 24988557](https://pubmed.ncbi.nlm.nih.gov/24988557/)
