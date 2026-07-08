@@ -451,6 +451,15 @@ cross_links:
   - target: 01-human/07-system/systemic-sclerosis
     relation: connects-to
     note: "Scleroderma-like chronic GVHD: the chronic GVHD (the fibrosis — collagen and TGF-β already mapped) resembles the systemic sclerosis (scleroderma), sharing the fibrotic mechanisms."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Metabolic adipokine: leptin is the adipokine of the immune-metabolic milieu of graft-versus-host disease, altered by the steroid therapy and the systemic inflammation (IL-6 already mapped)."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic disturbance of graft-versus-host disease and its treatment."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the immune-metabolic milieu of graft-versus-host disease."
 ---
 
 # Graft-Versus-Host Disease
@@ -733,6 +742,9 @@ The protective Treg/IL-10 axis is the key biological counterbalance to alloreact
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Hepatic GVHD: the liver GVHD (the cholestatic hepatitis, the bile-duct destruction) is a major acute-GVHD target organ (with the skin and gut already mapped).
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — Donor CD4 cells: the donor CD4 T-helper cells (Th1 and Th17 — IFN-γ and IL-17 already mapped) orchestrate the alloreactive attack and, in the chronic form, the fibrosis of graft-versus-host disease.
 - `connects-to` → **[Systemic sclerosis](../systemic-sclerosis/README.md)** — Scleroderma-like chronic GVHD: the chronic GVHD (the fibrosis — collagen and TGF-β already mapped) resembles the systemic sclerosis (scleroderma), sharing the fibrotic mechanisms.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Metabolic adipokine: leptin is the adipokine of the immune-metabolic milieu of graft-versus-host disease, altered by the steroid therapy and the systemic inflammation (IL-6 already mapped).
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic disturbance of graft-versus-host disease and its treatment.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the immune-metabolic milieu of graft-versus-host disease.
 
 [^ferrara-2009-gvhd-review]: Ferrara JL, Levine JE, Reddy P, Holler E. Graft-versus-host disease. *Lancet.* 2009;373(9674):1550-1561. [doi:10.1016/S0140-6736(09)60237-3](https://doi.org/10.1016/S0140-6736(09)60237-3) · [PubMed 19380114](https://pubmed.ncbi.nlm.nih.gov/19380114/)
 [^zeiser-2020-ruxolitinib-gvhd-reach]: Zeiser R, von Bubnoff N, Butler J, et al. Ruxolitinib for Glucocorticoid-Refractory Acute Graft-versus-Host Disease. *N Engl J Med.* 2020;382(19):1800-1810. [doi:10.1056/NEJMoa1917635](https://doi.org/10.1056/NEJMoa1917635) · [PubMed 32374962](https://pubmed.ncbi.nlm.nih.gov/32374962/)
