@@ -457,6 +457,15 @@ cross_links:
   - target: 01-human/04-cellular/mast-cell
     relation: connects-to
     note: "Mast-cell infiltrate: the mast cells (the histamine already mapped source) populate the polymorphous reactive infiltrate of peripheral T-cell lymphoma."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Type-2 alarmin: TSLP, an epithelial/stromal alarmin, contributes to the type-2 (IL-4, IL-5, IL-13 and IL-31 already mapped) skewing of the polymorphous reactive microenvironment of peripheral T-cell lymphoma (especially AITL)."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Type-2 remodelling: periostin, downstream of the type-2 (IL-4 and IL-13 already mapped) cytokines, is part of the type-2 stromal-remodelling dimension of the reactive microenvironment of peripheral T-cell lymphoma."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement: the complement C5 and its C5a provide the innate chemotactic arm within the polymorphous reactive infiltrate of peripheral T-cell lymphoma."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -748,6 +757,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[IL-31](../../03-molecular/il-31/README.md)** — Pruritus cytokine: IL-31, produced by the malignant T cells, mediates the severe pruritus that is a characteristic paraneoplastic symptom of peripheral (and cutaneous) T-cell lymphoma.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Eosinophil/mast infiltrate: histamine, from the mast cells and the eosinophil-rich (IL-5 already mapped) polymorphous infiltrate, is part of the reactive microenvironment of peripheral T-cell lymphoma (especially AITL).
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Mast-cell infiltrate: the mast cells (the histamine already mapped source) populate the polymorphous reactive infiltrate of peripheral T-cell lymphoma.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Type-2 alarmin: TSLP, an epithelial/stromal alarmin, contributes to the type-2 (IL-4, IL-5, IL-13 and IL-31 already mapped) skewing of the polymorphous reactive microenvironment of peripheral T-cell lymphoma (especially AITL).
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Type-2 remodelling: periostin, downstream of the type-2 (IL-4 and IL-13 already mapped) cytokines, is part of the type-2 stromal-remodelling dimension of the reactive microenvironment of peripheral T-cell lymphoma.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a provide the innate chemotactic arm within the polymorphous reactive infiltrate of peripheral T-cell lymphoma.
 
 ---
 

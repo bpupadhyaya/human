@@ -463,6 +463,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the pulmonary-vascular inflammation of PAH."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement: the complement C5 and its C5a (with C3 already mapped) contribute to the pulmonary-vascular inflammation and endothelial (already mapped) injury of PAH."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling links the complement to the perivascular myeloid recruitment in the pulmonary-vascular remodelling of PAH."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Perivascular antigen presentation: the dendritic cells accumulate in the perivascular infiltrates and present antigen to the T cells (already mapped) in the inflammatory pulmonary-vascular remodelling of PAH."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -734,6 +743,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune-mediated pulmonary-vascular inflammation of PAH.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the pulmonary-vascular inflammation and remodelling of PAH.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the pulmonary-vascular inflammation of PAH.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 already mapped) contribute to the pulmonary-vascular inflammation and endothelial (already mapped) injury of PAH.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling links the complement to the perivascular myeloid recruitment in the pulmonary-vascular remodelling of PAH.
+- `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Perivascular antigen presentation: the dendritic cells accumulate in the perivascular infiltrates and present antigen to the T cells (already mapped) in the inflammatory pulmonary-vascular remodelling of PAH.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
