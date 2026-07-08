@@ -466,6 +466,15 @@ cross_links:
   - target: 01-human/03-molecular/c5ar1
     relation: connects-to
     note: "C5a receptor: the C5aR1 signalling recruits and polarises the myeloid cells to an immunosuppressive phenotype in the ovarian-clear-cell-carcinoma microenvironment."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Endometriosis iron: transferrin, the iron carrier, reflects the disordered handling of the free iron and haem of the endometriotic cysts whose oxidative DNA damage drives the ARID1A-mutant (already mapped) carcinogenesis of ovarian clear cell carcinoma."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement evasion: the ovarian-clear-cell-carcinoma cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped) within the endometriosis-associated inflammatory microenvironment."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "Tertiary lymphoid structures: the B cells organise the tertiary lymphoid structures whose presence, with the CD8 (already mapped) TILs, may mark the immune response of ovarian clear cell carcinoma."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -757,6 +766,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Endometriosis-associated mast cells: the mast cells, abundant in the endometriotic lesions from which the tumour arises, contribute to the angiogenesis (VEGF already mapped) and type-2 microenvironment of ovarian clear cell carcinoma.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 already mapped) contribute to the endometriosis-associated inflammatory microenvironment of ovarian clear cell carcinoma.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling recruits and polarises the myeloid cells to an immunosuppressive phenotype in the ovarian-clear-cell-carcinoma microenvironment.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Endometriosis iron: transferrin, the iron carrier, reflects the disordered handling of the free iron and haem of the endometriotic cysts whose oxidative DNA damage drives the ARID1A-mutant (already mapped) carcinogenesis of ovarian clear cell carcinoma.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the ovarian-clear-cell-carcinoma cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped) within the endometriosis-associated inflammatory microenvironment.
+- `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Tertiary lymphoid structures: the B cells organise the tertiary lymphoid structures whose presence, with the CD8 (already mapped) TILs, may mark the immune response of ovarian clear cell carcinoma.
 
 ---
 
