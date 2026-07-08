@@ -466,6 +466,15 @@ cross_links:
   - target: 01-human/04-cellular/mast-cell
     relation: connects-to
     note: "Stromal mast cells: the mast cells of the tumour stroma contribute to the angiogenesis (VEGF already mapped) and the type-2 microenvironment of Burkitt lymphoma."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Rituximab CDC: the complement C5 (with C3 already mapped) is the effector of the complement-dependent cytotoxicity by which the anti-CD20 (already mapped) rituximab kills the Burkitt-lymphoma B cells (already mapped)."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling links the complement (C3 and C5 already mapped) to the myeloid inflammation of the Burkitt-lymphoma microenvironment."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement evasion: the Burkitt-lymphoma cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), a resistance mechanism to the rituximab complement-dependent killing."
 ---
 
 # Burkitt Lymphoma
@@ -750,6 +759,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the inflammatory dimension of the Burkitt-lymphoma microenvironment.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the Burkitt-lymphoma microenvironment.
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Stromal mast cells: the mast cells of the tumour stroma contribute to the angiogenesis (VEGF already mapped) and the type-2 microenvironment of Burkitt lymphoma.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Rituximab CDC: the complement C5 (with C3 already mapped) is the effector of the complement-dependent cytotoxicity by which the anti-CD20 (already mapped) rituximab kills the Burkitt-lymphoma B cells (already mapped).
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling links the complement (C3 and C5 already mapped) to the myeloid inflammation of the Burkitt-lymphoma microenvironment.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the Burkitt-lymphoma cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), a resistance mechanism to the rituximab complement-dependent killing.
 
 ---
 
