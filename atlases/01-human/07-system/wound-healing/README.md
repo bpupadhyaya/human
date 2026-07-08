@@ -463,6 +463,15 @@ cross_links:
   - target: 01-human/03-molecular/type-i-interferon
     relation: connects-to
     note: "Innate wound interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) sensing of the damage- and pathogen-associated DNA, modulates the inflammatory phase of wound healing."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension that supports the proliferative and remodelling phases of wound healing."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Epithelial alarmin: TSLP, released by the injured keratinocytes, initiates the type-2 (IL-4 and IL-13 already mapped) immunity that, with periostin (already mapped), promotes the re-epithelialisation and remodelling of wound healing."
+  - target: 01-human/03-molecular/il-31
+    relation: connects-to
+    note: "Itch cytokine: IL-31, a type-2 (IL-4 and IL-13 already mapped) cytokine, is the pruritogenic effector of the itch that accompanies the proliferative and remodelling phases of wound healing."
 ---
 
 # Wound Healing
@@ -730,6 +739,9 @@ cross_links:
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — M1 Th1 arm: IL-12 polarises the Th1 (IFN-γ already mapped) and the M1 macrophage (already mapped) programme of the inflammatory phase of wound healing.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 arm: IL-23 sustains the Th17 (IL-17 already mapped) arm of the inflammatory phase and the antimicrobial defence of wound healing.
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate wound interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) sensing of the damage- and pathogen-associated DNA, modulates the inflammatory phase of wound healing.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension that supports the proliferative and remodelling phases of wound healing.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Epithelial alarmin: TSLP, released by the injured keratinocytes, initiates the type-2 (IL-4 and IL-13 already mapped) immunity that, with periostin (already mapped), promotes the re-epithelialisation and remodelling of wound healing.
+- `connects-to` → **[IL-31](../../03-molecular/il-31/README.md)** — Itch cytokine: IL-31, a type-2 (IL-4 and IL-13 already mapped) cytokine, is the pruritogenic effector of the itch that accompanies the proliferative and remodelling phases of wound healing.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)
