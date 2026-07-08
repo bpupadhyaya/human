@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Antigen presentation: the dendritic cells present the UV-neoantigens, and the immune surveillance whose evasion (PD-1 and CTLA-4 already mapped) permits the basal cell carcinoma."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the anti-tumour immunity, exploited by the checkpoint (PD-1 already mapped) immunotherapy of the advanced basal cell carcinoma."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) anti-tumour response of the basal-cell-carcinoma immune microenvironment."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate/topical interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) sensing (and the imiquimod-induced innate response), shapes the immune microenvironment relevant to the topical immunotherapy of basal cell carcinoma."
 ---
 
 # Basal Cell Carcinoma
@@ -713,6 +722,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — M2 stromal macrophages: the M2 (IL-4 and IL-13 already mapped) tumour-associated macrophages populate the immunosuppressive stroma (collagen already mapped) of basal cell carcinoma.
 - `connects-to` → **[Melanoma](../melanoma/README.md)** — Skin-cancer sibling: basal cell carcinoma and melanoma are both UV (photon already mapped)-driven skin cancers, distinguished by the cell of origin and the metastatic behaviour.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Antigen presentation: the dendritic cells present the UV-neoantigens, and the immune surveillance whose evasion (PD-1 and CTLA-4 already mapped) permits the basal cell carcinoma.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the anti-tumour immunity, exploited by the checkpoint (PD-1 already mapped) immunotherapy of the advanced basal cell carcinoma.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) anti-tumour response of the basal-cell-carcinoma immune microenvironment.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate/topical interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) sensing (and the imiquimod-induced innate response), shapes the immune microenvironment relevant to the topical immunotherapy of basal cell carcinoma.
 
 ---
 

@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/06-organ/heart
     relation: connects-to
     note: "Anthracycline cardiotoxicity: the anthracycline chemotherapy of the intensive ATRT regimens causes the cardiotoxicity (troponin already mapped) of the heart, a survivorship concern in the infant."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the anti-tumour immunity, explored with the checkpoint (PD-1 already mapped) immunotherapy of ATRT."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune microenvironment of the atypical teratoid/rhabdoid tumour."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Survivorship adipokine: resistin, with leptin and adiponectin (already mapped), completes the adipokine dimension of the metabolic syndrome of the ATRT survivors after the craniospinal radiotherapy."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -710,6 +719,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Survivorship hypothalamic obesity: the craniospinal radiotherapy (photon already mapped) of ATRT can damage the hypothalamus, causing the leptin-resistant hypothalamic obesity of the survivors.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Survivorship metabolic syndrome: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic syndrome of the ATRT survivors after the craniospinal radiotherapy.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Anthracycline cardiotoxicity: the anthracycline chemotherapy of the intensive ATRT regimens causes the cardiotoxicity (troponin already mapped) of the heart, a survivorship concern in the infant.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the anti-tumour immunity, explored with the checkpoint (PD-1 already mapped) immunotherapy of ATRT.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune microenvironment of the atypical teratoid/rhabdoid tumour.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Survivorship adipokine: resistin, with leptin and adiponectin (already mapped), completes the adipokine dimension of the metabolic syndrome of the ATRT survivors after the craniospinal radiotherapy.
 
 ---
 
