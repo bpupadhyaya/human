@@ -463,6 +463,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Type-2 remodelling: periostin, downstream of the type-2 (IL-4 and IL-13 already mapped) cytokines, is part of the type-2 tissue-remodelling dimension of the cutaneous involvement of pemphigus vulgaris."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) contributes to the complement-mediated inflammation at the site of the acantholytic blisters of pemphigus vulgaris."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Autoimmune micronutrient: selenium, a selenoprotein antioxidant cofactor, is part of the micronutrient dimension (with vitamin D and zinc already mapped) of the autoimmune susceptibility of pemphigus vulgaris."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "Neurogenic inflammation: substance P, from the cutaneous sensory nerves, contributes to the neurogenic inflammation and the itch/pain of the mucocutaneous lesions of pemphigus vulgaris."
 ---
 
 # Pemphigus Vulgaris
@@ -755,6 +764,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[Atopic dermatitis](../atopic-dermatitis/README.md)** — Type-2 dermatosis overlap: pemphigus vulgaris shares the type-2 (IL-4, IL-13, IL-31 and TSLP already mapped) skin-immune dimension with atopic dermatitis, and the dupilumab is explored in the refractory disease.
 - `connects-to` → **[Prurigo nodularis](../prurigo-nodularis/README.md)** — Type-2 itch overlap: the type-2 (IL-31 and TSLP already mapped) neuroimmune itch links the cutaneous pruritus of pemphigus vulgaris to prurigo nodularis.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Type-2 remodelling: periostin, downstream of the type-2 (IL-4 and IL-13 already mapped) cytokines, is part of the type-2 tissue-remodelling dimension of the cutaneous involvement of pemphigus vulgaris.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) contributes to the complement-mediated inflammation at the site of the acantholytic blisters of pemphigus vulgaris.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Autoimmune micronutrient: selenium, a selenoprotein antioxidant cofactor, is part of the micronutrient dimension (with vitamin D and zinc already mapped) of the autoimmune susceptibility of pemphigus vulgaris.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — Neurogenic inflammation: substance P, from the cutaneous sensory nerves, contributes to the neurogenic inflammation and the itch/pain of the mucocutaneous lesions of pemphigus vulgaris.
 
 ---
 
