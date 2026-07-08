@@ -457,6 +457,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the immune dysregulation of Werner syndrome."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Aged-skin mast cells: the mast cells of the atrophic, scleroderma-like skin contribute to the type-2 (IgE already mapped) and inflammaging (IL-6 and TNF already mapped) dimension of Werner syndrome."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "CD4 inflammaging source: the CD4 T-helper cells, with immunosenescence, are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines of the chronic inflammaging of Werner syndrome."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Immunosenescent antigen presentation: the dendritic cells, with the age-associated decline in function, present antigen to the T cells (already mapped) in the immune dysregulation of Werner syndrome."
 ---
 
 # Werner Syndrome
@@ -766,6 +775,9 @@ cross_links:
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune dysregulation of the accelerated aging of Werner syndrome.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the chronic 'inflammaging' (IL-6 and TNF already mapped) of Werner syndrome.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the immune dysregulation of Werner syndrome.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Aged-skin mast cells: the mast cells of the atrophic, scleroderma-like skin contribute to the type-2 (IgE already mapped) and inflammaging (IL-6 and TNF already mapped) dimension of Werner syndrome.
+- `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 inflammaging source: the CD4 T-helper cells, with immunosenescence, are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines of the chronic inflammaging of Werner syndrome.
+- `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Immunosenescent antigen presentation: the dendritic cells, with the age-associated decline in function, present antigen to the T cells (already mapped) in the immune dysregulation of Werner syndrome.
 
 [^yu-1996-wrn]: Yu CE, Oshima J, Fu YH, et al. Positional cloning of the Werner's syndrome gene. *Science.* 1996;272(5259):258-262. [doi:10.1126/science.272.5259.258](https://doi.org/10.1126/science.272.5259.258) · [PubMed 8602509](https://pubmed.ncbi.nlm.nih.gov/8602509/)
 [^lauper-2013-wrn-neoplasia]: Lauper JM, Krause A, Vaughan TL, Monnat RJ Jr. Spectrum and risk of neoplasia in Werner syndrome: a systematic review. *PLoS One.* 2013;8(4):e59709. [doi:10.1371/journal.pone.0059709](https://doi.org/10.1371/journal.pone.0059709) · [PubMed 23579047](https://pubmed.ncbi.nlm.nih.gov/23579047/)
