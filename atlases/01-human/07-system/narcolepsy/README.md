@@ -435,6 +435,15 @@ cross_links:
   - target: 01-human/03-molecular/il-5
     relation: connects-to
     note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is part of the T-helper cytokine balance of the autoimmune-inflammatory dimension of narcolepsy."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast-cell neuroimmune: the mast cells (the histamine already mapped source) are part of the type-2 neuroimmune dimension of the autoimmune-inflammatory milieu of narcolepsy."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), reflects the type-2 immune dimension of the T-helper cytokine balance of narcolepsy."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Autoimmune-risk vitamin: vitamin D modulates the T-cell (already mapped) autoimmunity, and its status is a candidate modifier of the HLA-DQB1*06:02 (MHC already mapped) autoimmune narcolepsy."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -714,6 +723,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Innate immune surveillance: the NK cells (perforin already mapped) are part of the innate immune surveillance implicated in the autoimmune destruction of the orexin neurons of narcolepsy.
 - `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — Autoantibody source: the plasma cells produce the autoantibodies (immunoglobulin already mapped, e.g. anti-Tribbles) reported in the autoimmune narcolepsy, complementing the cytotoxic T-cell (already mapped) attack.
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is part of the T-helper cytokine balance of the autoimmune-inflammatory dimension of narcolepsy.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Mast-cell neuroimmune: the mast cells (the histamine already mapped source) are part of the type-2 neuroimmune dimension of the autoimmune-inflammatory milieu of narcolepsy.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), reflects the type-2 immune dimension of the T-helper cytokine balance of narcolepsy.
+- `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Autoimmune-risk vitamin: vitamin D modulates the T-cell (already mapped) autoimmunity, and its status is a candidate modifier of the HLA-DQB1*06:02 (MHC already mapped) autoimmune narcolepsy.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)
