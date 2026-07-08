@@ -454,6 +454,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "Synovial NK cells: the NK cells (perforin already mapped) infiltrate the rheumatoid synovium and modulate the innate inflammation of rheumatoid arthritis."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Synovial CD8 cells: the cytotoxic (CD8) T cells (perforin already mapped) infiltrate the rheumatoid synovium and contribute to the local tissue damage of rheumatoid arthritis."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), reflects the type-2 immune dimension balancing the dominant Th17/Th1 drive of rheumatoid arthritis."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Immunomodulatory vitamin: vitamin D modulates the T-cell (already mapped) autoimmunity, and its deficiency is associated with the higher disease activity of rheumatoid arthritis."
 ---
 
 # Rheumatoid Arthritis
@@ -741,6 +750,9 @@ RA patients have:
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm complementing the dominant Th17 (IL-17 already mapped) axis of rheumatoid arthritis.
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 counter-arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 arm balancing the Th17/Th1 drive of rheumatoid arthritis.
 - `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Synovial NK cells: the NK cells (perforin already mapped) infiltrate the rheumatoid synovium and modulate the innate inflammation of rheumatoid arthritis.
+- `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Synovial CD8 cells: the cytotoxic (CD8) T cells (perforin already mapped) infiltrate the rheumatoid synovium and contribute to the local tissue damage of rheumatoid arthritis.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), reflects the type-2 immune dimension balancing the dominant Th17/Th1 drive of rheumatoid arthritis.
+- `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Immunomodulatory vitamin: vitamin D modulates the T-cell (already mapped) autoimmunity, and its deficiency is associated with the higher disease activity of rheumatoid arthritis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
