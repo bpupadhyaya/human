@@ -469,6 +469,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "Antioxidant micronutrient: selenium, a selenoprotein cofactor, is part of the micronutrient dimension shared with the autoimmune thyroid disease that frequently co-occurs with myasthenia gravis."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped, the target of eculizumab) drives the complement-mediated destruction of the neuromuscular junction in myasthenia gravis."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway activated by the anti-AChR IgG (immunoglobulin already mapped) at the endplate of myasthenia gravis."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Alternative-pathway regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) amplifying the endplate complement injury of myasthenia gravis."
 ---
 
 # Myasthenia Gravis
@@ -730,6 +739,9 @@ cross_links:
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Type-2 arm: the mast cells, armed by the IgE (already mapped), are part of the type-2 immune dimension of the thymic and peripheral immune milieu of myasthenia gravis.
 - `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Immunomodulatory vitamin: the low vitamin D status is associated with myasthenia gravis, and its immunomodulation of the T-helper (already mapped) response is studied as an adjunct.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Antioxidant micronutrient: selenium, a selenoprotein cofactor, is part of the micronutrient dimension shared with the autoimmune thyroid disease that frequently co-occurs with myasthenia gravis.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped, the target of eculizumab) drives the complement-mediated destruction of the neuromuscular junction in myasthenia gravis.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway activated by the anti-AChR IgG (immunoglobulin already mapped) at the endplate of myasthenia gravis.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Alternative-pathway regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) amplifying the endplate complement injury of myasthenia gravis.
 
 [^gilhus-2016-mg-review]: Gilhus NE. Myasthenia Gravis. *N Engl J Med.* 2016;375(26):2570-2581. [doi:10.1056/NEJMra1602678](https://doi.org/10.1056/NEJMra1602678) · [PubMed 28029925](https://pubmed.ncbi.nlm.nih.gov/28029925/)
 [^howard-2021-efgartigimod-adapt]: Howard JF Jr, Bril V, Vu T, et al. Safety, efficacy, and tolerability of efgartigimod in patients with generalised myasthenia gravis (ADAPT). *Lancet Neurol.* 2021;20(7):526-536. [doi:10.1016/S1474-4422(21)00159-9](https://doi.org/10.1016/S1474-4422(21)00159-9) · [PubMed 34146511](https://pubmed.ncbi.nlm.nih.gov/34146511/)
