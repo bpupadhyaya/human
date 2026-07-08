@@ -457,6 +457,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension present in a subset of giant cell arteritis."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Vascular mast cells: the mast cells are increased in the inflamed arterial wall of giant cell arteritis and contribute to the vascular remodelling and the type-2 (IgE already mapped) dimension."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell mediator: the histamine, from the vascular mast cells (already mapped), contributes to the vascular permeability and the inflammatory remodelling of the arteritis of giant cell arteritis."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Antioxidant micronutrient: selenium, a selenoprotein cofactor, is part of the oxidative-stress and micronutrient dimension of the vascular inflammation of giant cell arteritis."
 ---
 
 # Giant Cell Arteritis
@@ -718,6 +727,9 @@ The temporal arteries supply scalp, temporalis muscle, and dura. In GCA, transmu
 - `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — Plasma-cell humoral arm: the plasma cells, downstream of the B cells (already mapped), secrete the antibodies of the humoral component of giant cell arteritis.
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension balancing the dominant Th1/Th17 (IFN-γ, IL-12 and IL-23 already mapped) drive of giant cell arteritis.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension present in a subset of giant cell arteritis.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Vascular mast cells: the mast cells are increased in the inflamed arterial wall of giant cell arteritis and contribute to the vascular remodelling and the type-2 (IgE already mapped) dimension.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell mediator: the histamine, from the vascular mast cells (already mapped), contributes to the vascular permeability and the inflammatory remodelling of the arteritis of giant cell arteritis.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Antioxidant micronutrient: selenium, a selenoprotein cofactor, is part of the oxidative-stress and micronutrient dimension of the vascular inflammation of giant cell arteritis.
 
 [^stone-2017-giact]: Stone JH, Tuckwell K, Dimonaco S, et al. Trial of tocilizumab in giant-cell arteritis. *N Engl J Med.* 2017;377(4):317-328. [doi:10.1056/NEJMoa1613849](https://doi.org/10.1056/NEJMoa1613849) · [PubMed 28745999](https://pubmed.ncbi.nlm.nih.gov/28745999/)
 [^weyand-2014-gca-review]: Weyand CM, Goronzy JJ. Clinical practice. Giant-cell arteritis and polymyalgia rheumatica. *N Engl J Med.* 2014;371(1):50-57. [doi:10.1056/NEJMcp1214926](https://doi.org/10.1056/NEJMcp1214926) · [PubMed 24988557](https://pubmed.ncbi.nlm.nih.gov/24988557/)
