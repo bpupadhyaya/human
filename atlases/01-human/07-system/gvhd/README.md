@@ -478,6 +478,15 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: connects-to
     note: "Acute tissue damage: the neutrophils, recruited by the microbiome-driven and complement (C5aR1 already mapped) signals, amplify the target-tissue injury of the acute graft-versus-host disease."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the complement-amplified tissue injury of graft-versus-host disease."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement and contact systems activated in the endothelial and target-tissue injury of graft-versus-host disease."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Post-transplant iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the transfusional iron overload and the anaemia complicating graft-versus-host disease."
 ---
 
 # Graft-Versus-Host Disease
@@ -769,6 +778,9 @@ The protective Treg/IL-10 axis is the key biological counterbalance to alloreact
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) contributes to the complement-mediated tissue injury of the graft-versus-host disease.
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Sclerodermatous cGVHD: the mast cells accumulate in the sclerodermatous skin and, via their profibrotic mediators, promote the fibrosis (TGF-β and PDGF already mapped) of the chronic graft-versus-host disease.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Acute tissue damage: the neutrophils, recruited by the microbiome-driven and complement (C5aR1 already mapped) signals, amplify the target-tissue injury of the acute graft-versus-host disease.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the complement-amplified tissue injury of graft-versus-host disease.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement and contact systems activated in the endothelial and target-tissue injury of graft-versus-host disease.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Post-transplant iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the transfusional iron overload and the anaemia complicating graft-versus-host disease.
 
 [^ferrara-2009-gvhd-review]: Ferrara JL, Levine JE, Reddy P, Holler E. Graft-versus-host disease. *Lancet.* 2009;373(9674):1550-1561. [doi:10.1016/S0140-6736(09)60237-3](https://doi.org/10.1016/S0140-6736(09)60237-3) · [PubMed 19380114](https://pubmed.ncbi.nlm.nih.gov/19380114/)
 [^zeiser-2020-ruxolitinib-gvhd-reach]: Zeiser R, von Bubnoff N, Butler J, et al. Ruxolitinib for Glucocorticoid-Refractory Acute Graft-versus-Host Disease. *N Engl J Med.* 2020;382(19):1800-1810. [doi:10.1056/NEJMoa1917635](https://doi.org/10.1056/NEJMoa1917635) · [PubMed 32374962](https://pubmed.ncbi.nlm.nih.gov/32374962/)
