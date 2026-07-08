@@ -457,6 +457,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), completes the adipokine dimension of the neuroinflammatory microenvironment of glioblastoma."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immunosuppressive microenvironment of glioblastoma."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the neuroinflammatory dimension of the glioblastoma microenvironment."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the immune microenvironment of glioblastoma."
 ---
 
 # Glioblastoma
@@ -733,6 +742,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Immune-metabolic adipokine: leptin links the metabolic state to the immune response and, with the dexamethasone (glucocorticoid-receptor already mapped)-induced metabolic syndrome, is part of the systemic milieu of glioblastoma.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic milieu, altered by the steroid therapy of glioblastoma.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), completes the adipokine dimension of the neuroinflammatory microenvironment of glioblastoma.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immunosuppressive microenvironment of glioblastoma.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the neuroinflammatory dimension of the glioblastoma microenvironment.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the immune microenvironment of glioblastoma.
 
 ---
 
