@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c5
     relation: connects-to
     note: "Terminal complement: the complement C5 and its activation (with C3 already mapped) contribute to the chronic inflammation and the thrombotic risk of essential thrombocythaemia."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the thromboinflammatory milieu of essential thrombocythaemia."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement/coagulation crosstalk: the C1-esterase inhibitor regulates both the complement (C3, C5, C5aR1 and factor H already mapped) and the contact-coagulation systems at the interface of the immunothrombosis of essential thrombocythaemia."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Thromboinflammation: osteopontin, released by the activated platelets (already mapped), is a matricellular mediator linking the inflammation to the thrombosis of essential thrombocythaemia."
 ---
 
 # Essential Thrombocythemia
@@ -745,6 +754,9 @@ Management:
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 helper source: the CD4 T-helper cells are the source of the cytokines of the chronic inflammation and support the anti-clonal immunity engaged by the interferon (already mapped) therapy of essential thrombocythaemia.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) links the complement to the myeloid inflammation and the immunothrombosis of essential thrombocythaemia.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its activation (with C3 already mapped) contribute to the chronic inflammation and the thrombotic risk of essential thrombocythaemia.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the thromboinflammatory milieu of essential thrombocythaemia.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement/coagulation crosstalk: the C1-esterase inhibitor regulates both the complement (C3, C5, C5aR1 and factor H already mapped) and the contact-coagulation systems at the interface of the immunothrombosis of essential thrombocythaemia.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Thromboinflammation: osteopontin, released by the activated platelets (already mapped), is a matricellular mediator linking the inflammation to the thrombosis of essential thrombocythaemia.
 
 [^harrison-2005-pt1-et]: Harrison CN, Campbell PJ, Buck G, et al. Hydroxyurea compared with anagrelide in high-risk essential thrombocythemia. *N Engl J Med.* 2005;353(1):33-45. [doi:10.1056/NEJMoa043800](https://doi.org/10.1056/NEJMoa043800) · [PubMed 16000354](https://pubmed.ncbi.nlm.nih.gov/16000354/)
 [^barbui-2012-ipset]: Barbui T, Finazzi G, Carobbio A, et al. Development and validation of an International Prognostic Score of thrombosis in World Health Organization-essential thrombocythemia (IPSET-thrombosis). *Blood.* 2012;120(26):5128-5133. [doi:10.1182/blood-2012-07-444067](https://doi.org/10.1182/blood-2012-07-444067) · [PubMed 23086758](https://pubmed.ncbi.nlm.nih.gov/23086758/)
