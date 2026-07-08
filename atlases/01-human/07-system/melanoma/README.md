@@ -472,6 +472,15 @@ cross_links:
   - target: 01-human/03-molecular/c5ar1
     relation: connects-to
     note: "C5a receptor: the C5aR1 signalling recruits and polarises the myeloid cells to an immunosuppressive phenotype in the melanoma microenvironment."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement evasion: the melanoma cells recruit factor H to regulate the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) and evade the complement attack of the melanoma microenvironment."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway activated by the anti-tumour antibodies (already mapped) within the melanoma microenvironment."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Tumour iron: transferrin, the iron carrier, supplies the iron demand of the proliferating melanoma cells, which overexpress the transferrin receptor."
 ---
 
 # Melanoma
@@ -713,6 +722,9 @@ cross_links:
 - `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Tertiary lymphoid structures: the B cells organise the intratumoural tertiary lymphoid structures whose presence predicts the response to the checkpoint (PD-1 already mapped) immunotherapy of melanoma.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 already mapped) contribute to the inflammatory and immunosuppressive dimension of the melanoma microenvironment.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling recruits and polarises the myeloid cells to an immunosuppressive phenotype in the melanoma microenvironment.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the melanoma cells recruit factor H to regulate the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) and evade the complement attack of the melanoma microenvironment.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway activated by the anti-tumour antibodies (already mapped) within the melanoma microenvironment.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Tumour iron: transferrin, the iron carrier, supplies the iron demand of the proliferating melanoma cells, which overexpress the transferrin receptor.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
