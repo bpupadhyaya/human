@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "BCC antigen presentation: the dendritic cells present the UV-neoantigens of the multiple basal cell carcinomas (already mapped) of Gorlin syndrome, the immune surveillance of the Hedgehog (SMO already mapped)-driven tumours."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the anti-tumour immunity against the multiple BCCs (already mapped) and medulloblastoma of Gorlin syndrome."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune microenvironment of the Hedgehog-driven Gorlin-syndrome tumours."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment of the Gorlin-syndrome tumours."
 ---
 
 # Gorlin Syndrome
@@ -702,6 +711,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Overgrowth adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the macrosomia and overgrowth phenotype of Gorlin syndrome.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine milieu: resistin, with leptin and adiponectin (already mapped), completes the adipokine dimension of the metabolic/overgrowth phenotype of Gorlin syndrome.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — BCC antigen presentation: the dendritic cells present the UV-neoantigens of the multiple basal cell carcinomas (already mapped) of Gorlin syndrome, the immune surveillance of the Hedgehog (SMO already mapped)-driven tumours.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (perforin already mapped) is the type-II interferon arm of the anti-tumour immunity against the multiple BCCs (already mapped) and medulloblastoma of Gorlin syndrome.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune microenvironment of the Hedgehog-driven Gorlin-syndrome tumours.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment of the Gorlin-syndrome tumours.
 
 ---
 

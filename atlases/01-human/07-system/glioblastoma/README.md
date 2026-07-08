@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/03-molecular/il-12
     relation: connects-to
     note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) anti-tumour response, explored (e.g. engineered/oncolytic delivery) against the immunosuppressive glioblastoma."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Immune-metabolic adipokine: leptin links the metabolic state to the immune response and, with the dexamethasone (glucocorticoid-receptor already mapped)-induced metabolic syndrome, is part of the systemic milieu of glioblastoma."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic milieu, altered by the steroid therapy of glioblastoma."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), completes the adipokine dimension of the neuroinflammatory microenvironment of glioblastoma."
 ---
 
 # Glioblastoma
@@ -721,6 +730,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 antitumour arm: the IFN-γ of the tumour-infiltrating T cells (with the type-I interferon already mapped) is the type-II interferon arm largely defeated by the immunosuppressive, cold microenvironment of glioblastoma.
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate cGAS-STING interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment relevant to the immunotherapy of glioblastoma.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) anti-tumour response, explored (e.g. engineered/oncolytic delivery) against the immunosuppressive glioblastoma.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Immune-metabolic adipokine: leptin links the metabolic state to the immune response and, with the dexamethasone (glucocorticoid-receptor already mapped)-induced metabolic syndrome, is part of the systemic milieu of glioblastoma.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic milieu, altered by the steroid therapy of glioblastoma.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), completes the adipokine dimension of the neuroinflammatory microenvironment of glioblastoma.
 
 ---
 
