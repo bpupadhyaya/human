@@ -445,6 +445,15 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "Uraemic pruritus: the chronic kidney disease is a systemic cause of the chronic itch (uraemic pruritus) that can drive prurigo nodularis, a differential to screen in refractory cases."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Atopic IgE: the IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped) and the alarmins (TSLP and IL-33 already mapped), reflects the atopic diathesis common in prurigo nodularis."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 counter-arm: the IFN-γ of the T cells is the type-II interferon arm that, with the Th17 (IL-17 already mapped), coexists with the dominant Th2 (IL-4, IL-13 and IL-31 already mapped) itch axis of prurigo nodularis."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the mixed immune profile of prurigo nodularis."
 ---
 
 # Prurigo Nodularis
@@ -670,6 +679,9 @@ PN affects approximately **72,000 patients** in the US; true prevalence is likel
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Itch mast cells: the mast cells (KIT and histamine already mapped) contribute to the itch and the neuroimmune inflammation of prurigo nodularis, releasing the pruritogens onto the sensitised nerves.
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — Th2 neuroimmune itch: the CD4 Th2 cells (IL-4, IL-13 and IL-31 already mapped) drive the type-2 neuroimmune itch of prurigo nodularis, the target of the biologics.
 - `connects-to` → **[CKD](../ckd/README.md)** — Uraemic pruritus: the chronic kidney disease is a systemic cause of the chronic itch (uraemic pruritus) that can drive prurigo nodularis, a differential to screen in refractory cases.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Atopic IgE: the IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped) and the alarmins (TSLP and IL-33 already mapped), reflects the atopic diathesis common in prurigo nodularis.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 counter-arm: the IFN-γ of the T cells is the type-II interferon arm that, with the Th17 (IL-17 already mapped), coexists with the dominant Th2 (IL-4, IL-13 and IL-31 already mapped) itch axis of prurigo nodularis.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the mixed immune profile of prurigo nodularis.
 
 [^stander-2020-nemolizumab-pn]: Ständer S, Yosipovitch G, Legat FJ, et al. Trial of nemolizumab in moderate-to-severe prurigo nodularis. *N Engl J Med.* 2020;382(8):706-716. [doi:10.1056/NEJMoa1908316](https://doi.org/10.1056/NEJMoa1908316) · [PubMed 32053299](https://pubmed.ncbi.nlm.nih.gov/32053299/)
 [^briggs-2022-dupilumab-pn-liberty]: Briggs JN, Cho YY, Khanna R, et al. Dupilumab for prurigo nodularis: the LIBERTY-PN PRIME and PRIME2 trials. *N Engl J Med.* 2022;387(18):1683-1693. [doi:10.1056/NEJMoa2205093](https://doi.org/10.1056/NEJMoa2205093) · [PubMed 36300905](https://pubmed.ncbi.nlm.nih.gov/36300905/)

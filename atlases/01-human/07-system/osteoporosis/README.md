@@ -451,6 +451,15 @@ cross_links:
   - target: 03-medicine/03-food/vitamin-d
     relation: connects-to
     note: "Vitamin-D mineralisation: vitamin D drives the calcium (already mapped) absorption and the bone mineralisation; its deficiency causes the osteomalacia and worsens osteoporosis, the foundation of the supplementation."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Osteoimmunology Th1: the IFN-γ of the T cells is the type-II interferon arm of the osteoimmune modulation of the RANKL (already mapped)-driven osteoclast (already mapped) bone loss of osteoporosis."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune-bone crosstalk contributing to the bone loss of osteoporosis."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate osteoimmune interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, modulates the osteoclast (already mapped) differentiation in the osteoimmunology of osteoporosis."
 ---
 
 # Osteoporosis
@@ -703,6 +712,9 @@ All newly diagnosed osteoporosis should be evaluated for secondary causes: CBC (
 - `connects-to` → **[Cortical bone](../../05-tissue/cortical-bone/README.md)** — Bone-mass loss: the cortical and trabecular bone loses the mass and the microarchitecture in osteoporosis, the fragility fractures the consequence of the impaired bone tissue.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Bone phosphate: the phosphate (with the calcium already mapped) forms the hydroxyapatite mineral, and the FGF23 and PTH (already mapped) phosphate axis governs the bone-mineral balance of osteoporosis.
 - `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin-D mineralisation: vitamin D drives the calcium (already mapped) absorption and the bone mineralisation; its deficiency causes the osteomalacia and worsens osteoporosis, the foundation of the supplementation.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Osteoimmunology Th1: the IFN-γ of the T cells is the type-II interferon arm of the osteoimmune modulation of the RANKL (already mapped)-driven osteoclast (already mapped) bone loss of osteoporosis.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune-bone crosstalk contributing to the bone loss of osteoporosis.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate osteoimmune interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, modulates the osteoclast (already mapped) differentiation in the osteoimmunology of osteoporosis.
 
 [^kanis-2019-who-osteoporosis]: Kanis JA, Cooper C, Rizzoli R, Reginster JY. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. *Osteoporos Int.* 2019;30(1):3-44. [doi:10.1007/s00198-018-4704-5](https://doi.org/10.1007/s00198-018-4704-5) · [PubMed 30324412](https://pubmed.ncbi.nlm.nih.gov/30324412/)
 [^cosman-2016-romosozumab]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)
