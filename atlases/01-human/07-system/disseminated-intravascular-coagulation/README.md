@@ -472,6 +472,15 @@ cross_links:
   - target: 01-human/03-molecular/il-23
     relation: connects-to
     note: "Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the systemic inflammation (IL-6 and TNF already mapped) that drives the immunothrombosis of DIC."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose consumption and dysregulation amplify the complement–coagulation crosstalk of DIC."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Contact/complement regulation: the C1-esterase inhibitor regulates both the classical complement and the contact (intrinsic-coagulation, bradykinin already mapped) pathways, a key brake at the complement–coagulation interface consumed in DIC."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Haemolytic iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the microangiopathic haemolysis and the inflammation of DIC."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -754,6 +763,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 arm: IL-13, with IL-4 (already mapped), completes the type-2 immune arm counter-balancing the pro-inflammatory drive of the systemic coagulopathy of DIC.
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune milieu of the systemic inflammation underlying DIC.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the systemic inflammation (IL-6 and TNF already mapped) that drives the immunothrombosis of DIC.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose consumption and dysregulation amplify the complement–coagulation crosstalk of DIC.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Contact/complement regulation: the C1-esterase inhibitor regulates both the classical complement and the contact (intrinsic-coagulation, bradykinin already mapped) pathways, a key brake at the complement–coagulation interface consumed in DIC.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Haemolytic iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the microangiopathic haemolysis and the inflammation of DIC.
 
 ---
 
