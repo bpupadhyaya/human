@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/07-system/opioid-use-disorder
     relation: connects-to
     note: "Polysubstance comorbidity: the stimulant and opioid use disorders commonly co-occur (the 'speedball', the stimulant-adulterated opioid supply), the shared reward-circuit (dopamine already mapped) vulnerability."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate neuroinflammation: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, contributes to the glial (microglia already mapped) neuroinflammation and the dopaminergic neurotoxicity of stimulant use disorder."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 neuroinflammation: the IFN-γ of the T cells is the type-II interferon arm of the immune-inflammatory dimension (TNF and IL-1 already mapped) of chronic stimulant use."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune-inflammatory dimension of stimulant use disorder."
 ---
 
 # Stimulant Use Disorder
@@ -713,6 +722,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the metabolic-cardiovascular (cholesterol already mapped) toxicity of stimulant use disorder.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Dopaminergic neurotoxicity: the methamphetamine damages the dopaminergic (already mapped) and serotonergic neurons (the terminal loss), the neurotoxicity of stimulant use disorder.
 - `connects-to` → **[Opioid use disorder](../opioid-use-disorder/README.md)** — Polysubstance comorbidity: the stimulant and opioid use disorders commonly co-occur (the 'speedball', the stimulant-adulterated opioid supply), the shared reward-circuit (dopamine already mapped) vulnerability.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate neuroinflammation: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, contributes to the glial (microglia already mapped) neuroinflammation and the dopaminergic neurotoxicity of stimulant use disorder.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 neuroinflammation: the IFN-γ of the T cells is the type-II interferon arm of the immune-inflammatory dimension (TNF and IL-1 already mapped) of chronic stimulant use.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune-inflammatory dimension of stimulant use disorder.
 
 ## Treatment
 

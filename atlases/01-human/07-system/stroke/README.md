@@ -451,6 +451,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "Excitotoxic calcium: the glutamate (already mapped)-driven calcium influx triggers the excitotoxic neuronal (already mapped) death of the ischaemic penumbra of stroke."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 post-stroke neuroinflammation: the IFN-γ of the infiltrating T cells is the type-II interferon arm of the post-ischaemic neuroinflammation (IL-1 and TNF already mapped, the microglia already mapped) of stroke."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Vascular-inflammatory adipokine: resistin, with leptin (already mapped), is a pro-inflammatory adipokine and a biomarker linked to the atherosclerotic (already mapped) stroke risk and outcome."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension linking the metabolic-vascular state to the ischaemic stroke risk."
 ---
 
 # Stroke
@@ -699,6 +708,9 @@ Normal brain maintains CBF constant (50-150 mmHg MAP range) via autoregulation (
 - `connects-to` → **[Endothelial cell](../../04-cellular/endothelial-cell/README.md)** — Blood-brain barrier: the endothelial/BBB breakdown (aquaporin-4 and VEGF already mapped) drives the vasogenic oedema and the haemorrhagic transformation of the ischaemic stroke.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Thrombus platelets: the platelets form the arterial thrombus (thrombin and fibrinogen already mapped) of the ischaemic stroke, the antiplatelet (aspirin, clopidogrel) target.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Excitotoxic calcium: the glutamate (already mapped)-driven calcium influx triggers the excitotoxic neuronal (already mapped) death of the ischaemic penumbra of stroke.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 post-stroke neuroinflammation: the IFN-γ of the infiltrating T cells is the type-II interferon arm of the post-ischaemic neuroinflammation (IL-1 and TNF already mapped, the microglia already mapped) of stroke.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Vascular-inflammatory adipokine: resistin, with leptin (already mapped), is a pro-inflammatory adipokine and a biomarker linked to the atherosclerotic (already mapped) stroke risk and outcome.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension linking the metabolic-vascular state to the ischaemic stroke risk.
 
 [^powers-2019-aha-stroke]: Powers WJ, Rabinstein AA, Ackerson T, et al. Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines. *Stroke.* 2019;50(12):e344-e418. [doi:10.1161/STR.0000000000000211](https://doi.org/10.1161/STR.0000000000000211) · [PubMed 31662037](https://pubmed.ncbi.nlm.nih.gov/31662037/)
 [^feigin-2021-gbd-stroke]: Feigin VL, Krishnamurthi RV, Parmar P, et al. Update on the Global Burden of Ischemic and Hemorrhagic Stroke in 1990-2013. *Neuroepidemiology.* 2015;45(3):161-176. [doi:10.1159/000441085](https://doi.org/10.1159/000441085) · [PubMed 26505981](https://pubmed.ncbi.nlm.nih.gov/26505981/)
