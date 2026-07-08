@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic milieu of haemophilia A."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the synovial and metabolic milieu of the haemophilic arthropathy."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 inhibitor immunity: the IFN-γ of the T-helper cells (already mapped) is the type-II interferon arm of the anti-FVIII alloantibody (immunoglobulin already mapped) inhibitor response of haemophilia A."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune response that drives the FVIII-inhibitor formation in haemophilia A."
 ---
 
 # Hemophilia A
@@ -712,6 +721,9 @@ FVIII is a critical **amplifier** of the coagulation cascade at the junction bet
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Bleeding iron balance: the recurrent bleeding and the anaemia (haemoglobin already mapped) of haemophilia A interact with the iron-regulatory hepcidin and the ferroportin (already mapped) iron export.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Metabolic-arthropathy adipokine: leptin is the adipokine of the marrow and synovial adipose signalling in the arthropathy and the immune-metabolic milieu of haemophilia A.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic milieu of haemophilia A.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipose-inflammatory adipokine of the synovial and metabolic milieu of the haemophilic arthropathy.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 inhibitor immunity: the IFN-γ of the T-helper cells (already mapped) is the type-II interferon arm of the anti-FVIII alloantibody (immunoglobulin already mapped) inhibitor response of haemophilia A.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune response that drives the FVIII-inhibitor formation in haemophilia A.
 
 [^oldenburg-2017-emicizumab-haven1]: Oldenburg J, Mahlangu JN, Kim B, et al. Emicizumab prophylaxis in hemophilia A with inhibitors. *N Engl J Med.* 2017;377(9):809-818. [doi:10.1056/NEJMoa1703068](https://doi.org/10.1056/NEJMoa1703068) · [PubMed 28691557](https://pubmed.ncbi.nlm.nih.gov/28691557/)
 [^mahlangu-2018-emicizumab-haven3]: Mahlangu J, Oldenburg J, Paz-Priel I, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors. *N Engl J Med.* 2018;379(9):811-822. [doi:10.1056/NEJMoa1803550](https://doi.org/10.1056/NEJMoa1803550) · [PubMed 30157389](https://pubmed.ncbi.nlm.nih.gov/30157389/)

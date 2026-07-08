@@ -442,6 +442,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Cardiac inflammation: the cardiac macrophages (the inflammation, TNF, IL-6 and NLRP3 already mapped) drive the adverse remodelling and the fibrosis (TGF-β already mapped) of heart failure."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate cardiac interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) sensing of the cardiomyocyte (already mapped) stress and DNA damage, drives the sterile inflammation of the failing myocardium."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 cardiac inflammation: the IFN-γ of the infiltrating T cells is the type-II interferon arm of the immune-mediated inflammation (macrophages already mapped) of the adverse remodelling of heart failure."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the cardiac inflammation of heart failure."
 ---
 
 # Heart Failure
@@ -656,6 +665,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[Type 2 diabetes](../type-2-diabetes/README.md)** — Diabetic HFpEF: type 2 diabetes (insulin already mapped) causes the diabetic cardiomyopathy and HFpEF, the SGLT2 (already mapped) inhibitors benefiting both conditions.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Hyponatraemia and congestion: the dilutional hyponatraemia (vasopressin already mapped) is a poor-prognosis marker in heart failure, and the dietary sodium restriction manages the fluid congestion.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Cardiac inflammation: the cardiac macrophages (the inflammation, TNF, IL-6 and NLRP3 already mapped) drive the adverse remodelling and the fibrosis (TGF-β already mapped) of heart failure.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate cardiac interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) sensing of the cardiomyocyte (already mapped) stress and DNA damage, drives the sterile inflammation of the failing myocardium.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 cardiac inflammation: the IFN-γ of the infiltrating T cells is the type-II interferon arm of the immune-mediated inflammation (macrophages already mapped) of the adverse remodelling of heart failure.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the cardiac inflammation of heart failure.
 
 ## Pathology
 
