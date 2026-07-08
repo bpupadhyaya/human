@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) marks the type-2 immune dimension that opposes the protective cell-mediated immunity against Mycobacterium tuberculosis."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "Granuloma B cells: the B cells form the lymphoid follicles of the tuberculous granuloma and shape the local T-cell (already mapped) response and the emerging antibody-mediated protection against Mycobacterium tuberculosis."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "Antibody arm: the plasma cells, downstream of the B cells (already mapped), secrete the anti-mycobacterial antibodies (immunoglobulin already mapped) of the increasingly recognised humoral immunity to tuberculosis."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast-cell response: the mast cells infiltrate the tuberculous granuloma and contribute to the innate and type-2 immune response to Mycobacterium tuberculosis."
 ---
 
 # Tuberculosis
@@ -725,6 +734,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[HIV-1](../../../02-pathogen/01-viruses/hiv-1/README.md)** — HIV-TB syndemic: the HIV-1 co-infection, by depleting the CD4 T-helper cells (already mapped), is the leading driver of the TB reactivation and progression, the deadly co-pathogen of tuberculosis.
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Th2-shift arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the Th2 shift that antagonises the protective Th1 (IFN-γ already mapped) immunity and worsens tuberculosis.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) marks the type-2 immune dimension that opposes the protective cell-mediated immunity against Mycobacterium tuberculosis.
+- `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Granuloma B cells: the B cells form the lymphoid follicles of the tuberculous granuloma and shape the local T-cell (already mapped) response and the emerging antibody-mediated protection against Mycobacterium tuberculosis.
+- `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — Antibody arm: the plasma cells, downstream of the B cells (already mapped), secrete the anti-mycobacterial antibodies (immunoglobulin already mapped) of the increasingly recognised humoral immunity to tuberculosis.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Mast-cell response: the mast cells infiltrate the tuberculous granuloma and contribute to the innate and type-2 immune response to Mycobacterium tuberculosis.
 
 ## See Also
 
