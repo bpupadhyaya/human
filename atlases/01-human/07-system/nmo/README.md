@@ -463,6 +463,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Eosinophil/type-2 IgE: the IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), reflects the eosinophil-rich type-2 dimension of the NMO lesions."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast cells in lesions: the mast cells, with the eosinophils (IL-5 already mapped), infiltrate the perivascular NMO lesions and contribute to the type-2 inflammation and the characteristic pruritus."
+  - target: 01-human/03-molecular/il-31
+    relation: connects-to
+    note: "Pruritus cytokine: IL-31, a type-2 (IL-4 and IL-13 already mapped) cytokine, mediates the paroxysmal neuropathic itch that is a characteristic feature of the myelitis of neuromyelitis optica."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "CD8 infiltrate: the cytotoxic T cells (perforin already mapped) infiltrate the NMO lesions, contributing to the tissue damage alongside the complement-mediated (already mapped) astrocytopathy."
 ---
 
 # NMOSD
@@ -757,6 +766,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[Systemic sclerosis](../systemic-sclerosis/README.md)** — Connective-tissue overlap: neuromyelitis optica can co-occur with systemic sclerosis and the other connective-tissue diseases (systemic lupus already mapped), part of the shared autoantibody autoimmunity.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm complementing the Th17 (IL-17 and IL-23 already mapped) drive of the AQP4 (already mapped) autoimmunity of neuromyelitis optica.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Eosinophil/type-2 IgE: the IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), reflects the eosinophil-rich type-2 dimension of the NMO lesions.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Mast cells in lesions: the mast cells, with the eosinophils (IL-5 already mapped), infiltrate the perivascular NMO lesions and contribute to the type-2 inflammation and the characteristic pruritus.
+- `connects-to` → **[IL-31](../../03-molecular/il-31/README.md)** — Pruritus cytokine: IL-31, a type-2 (IL-4 and IL-13 already mapped) cytokine, mediates the paroxysmal neuropathic itch that is a characteristic feature of the myelitis of neuromyelitis optica.
+- `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — CD8 infiltrate: the cytotoxic T cells (perforin already mapped) infiltrate the NMO lesions, contributing to the tissue damage alongside the complement-mediated (already mapped) astrocytopathy.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)
