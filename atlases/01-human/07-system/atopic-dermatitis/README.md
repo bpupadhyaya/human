@@ -466,6 +466,15 @@ cross_links:
   - target: 01-human/03-molecular/c5ar1
     relation: connects-to
     note: "C5a receptor: the C5aR1 signalling amplifies the neutrophil (already mapped) recruitment and the innate inflammation of the atopic-dermatitis skin."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Tc2 skin infiltrate: the cytotoxic T cells (perforin already mapped), including the type-2 Tc2 subset, are part of the lesional infiltrate contributing to the barrier damage of atopic dermatitis."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) active in the atopic-dermatitis skin and on the Staphylococcus aureus (already mapped) surface."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement and contact pathways activated in the inflamed atopic-dermatitis skin."
 ---
 
 # Atopic Dermatitis
@@ -738,6 +747,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Antiviral interferon defect: the impaired type-I interferon response, downstream of the cGAS-STING (already mapped) and pDC sensing, underlies the antiviral defect and the eczema herpeticum susceptibility of atopic dermatitis.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Complement in skin: the complement C5, with C3 (already mapped), is activated in the atopic-dermatitis skin and contributes to the inflammation and the Staphylococcus aureus (already mapped) response.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling amplifies the neutrophil (already mapped) recruitment and the innate inflammation of the atopic-dermatitis skin.
+- `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Tc2 skin infiltrate: the cytotoxic T cells (perforin already mapped), including the type-2 Tc2 subset, are part of the lesional infiltrate contributing to the barrier damage of atopic dermatitis.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) active in the atopic-dermatitis skin and on the Staphylococcus aureus (already mapped) surface.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement and contact pathways activated in the inflamed atopic-dermatitis skin.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
