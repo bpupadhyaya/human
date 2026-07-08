@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/03-molecular/type-i-interferon
     relation: connects-to
     note: "Innate antitumour interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment relevant to the immunotherapy of mantle cell lymphoma."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 antitumour arm: the IFN-γ of the T and NK (already mapped) cells (perforin already mapped) is the type-II interferon arm of the anti-tumour immunity, relevant to the CD19 CAR-T immunotherapy of mantle cell lymphoma."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune microenvironment of mantle cell lymphoma."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune microenvironment of mantle cell lymphoma."
 ---
 
 # Mantle Cell Lymphoma
@@ -713,6 +722,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine microenvironment: resistin, with leptin and adiponectin (already mapped), completes the marrow-adipocyte adipokine signalling of the microenvironment of mantle cell lymphoma.
 - `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — ADCC effectors: the NK cells mediate the antibody-dependent cellular cytotoxicity of the anti-CD20 (already mapped) rituximab against the mantle cell lymphoma B cells (already mapped).
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate antitumour interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, shapes the innate-immune microenvironment relevant to the immunotherapy of mantle cell lymphoma.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 antitumour arm: the IFN-γ of the T and NK (already mapped) cells (perforin already mapped) is the type-II interferon arm of the anti-tumour immunity, relevant to the CD19 CAR-T immunotherapy of mantle cell lymphoma.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune microenvironment of mantle cell lymphoma.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune microenvironment of mantle cell lymphoma.
 
 ---
 

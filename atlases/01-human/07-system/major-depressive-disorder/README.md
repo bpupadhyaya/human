@@ -457,6 +457,15 @@ cross_links:
   - target: 01-human/07-system/opioid-use-disorder
     relation: connects-to
     note: "Substance-use comorbidity: major depression is highly comorbid with opioid use disorder (the self-medication, the shared reward — dopamine already mapped — and stress — cortisol already mapped — dysregulation)."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the neuroinflammation (IL-6 and TNF already mapped) implicated in major depressive disorder."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune-inflammatory dimension of major depressive disorder."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune dysregulation associated with major depressive disorder."
 ---
 
 # Major Depressive Disorder
@@ -760,6 +769,9 @@ Approximately 30–40% of MDD patients have elevated inflammatory markers:
 - `connects-to` → **[Social anxiety disorder](../social-anxiety-disorder/README.md)** — Anxiety comorbidity: major depression and social anxiety disorder are highly comorbid, sharing the serotonergic (already mapped) dysregulation and the SSRI treatment.
 - `connects-to` → **[Panic disorder](../panic-disorder/README.md)** — Panic comorbidity: major depression and panic disorder are comorbid, sharing the serotonergic and noradrenergic (already mapped) dysregulation.
 - `connects-to` → **[Opioid use disorder](../opioid-use-disorder/README.md)** — Substance-use comorbidity: major depression is highly comorbid with opioid use disorder (the self-medication, the shared reward — dopamine already mapped — and stress — cortisol already mapped — dysregulation).
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the neuroinflammation (IL-6 and TNF already mapped) implicated in major depressive disorder.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune-inflammatory dimension of major depressive disorder.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune dysregulation associated with major depressive disorder.
 
 [^cipriani-2018-antidepressants-meta]: Cipriani A, Furukawa TA, Salanti G, et al. Comparative efficacy and acceptability of 21 antidepressant drugs for acute treatment of adults with major depressive disorder. *Lancet.* 2018;391(10128):1357-1366. [doi:10.1016/S0140-6736(17)32802-7](https://doi.org/10.1016/S0140-6736(17)32802-7) · [PubMed 29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/)
 [^zarate-2006-ketamine-rapid]: Zarate CA Jr, Singh JB, Carlson PJ, et al. A randomized trial of an N-methyl-D-aspartate antagonist in treatment-resistant major depression. *Arch Gen Psychiatry.* 2006;63(8):856-864. [doi:10.1001/archpsyc.63.8.856](https://doi.org/10.1001/archpsyc.63.8.856) · [PubMed 16894061](https://pubmed.ncbi.nlm.nih.gov/16894061/)
