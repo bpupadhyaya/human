@@ -456,6 +456,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension balancing the dominant Th17 axis of psoriatic arthritis."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Innate lymphoid arm: the NK cells and the innate lymphoid cells (perforin already mapped) are part of the innate immune dysregulation of the synovium and enthesis of psoriatic arthritis."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "Synovial B cells: the B cells form the synovial lymphoid aggregates and contribute to the local autoantibody (immunoglobulin already mapped) and cytokine milieu of psoriatic arthritis."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "Plasma-cell arm: the plasma cells, downstream of the B cells (already mapped), secrete the antibodies of the synovial humoral component of psoriatic arthritis."
 ---
 
 # Psoriatic Arthritis
@@ -749,6 +758,9 @@ Risankizumab (anti-IL-23p19) **failed primary endpoints** in the SURPASS trial f
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — pDC innate interferon: the type-I interferon of the plasmacytoid dendritic cells is part of the innate-immune initiation of the psoriasis (skin already mapped) that underlies psoriatic arthritis.
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 counter-arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 arm balancing the Th17 (IL-17 already mapped) drive of psoriatic arthritis.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension balancing the dominant Th17 axis of psoriatic arthritis.
+- `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Innate lymphoid arm: the NK cells and the innate lymphoid cells (perforin already mapped) are part of the innate immune dysregulation of the synovium and enthesis of psoriatic arthritis.
+- `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Synovial B cells: the B cells form the synovial lymphoid aggregates and contribute to the local autoantibody (immunoglobulin already mapped) and cytokine milieu of psoriatic arthritis.
+- `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — Plasma-cell arm: the plasma cells, downstream of the B cells (already mapped), secrete the antibodies of the synovial humoral component of psoriatic arthritis.
 
 [^ritchlin-2017-psa-review]: Ritchlin CT, Colbert RA, Gladman DD. Psoriatic arthritis. *N Engl J Med.* 2017;376(10):957-970. [doi:10.1056/NEJMra1505557](https://doi.org/10.1056/NEJMra1505557) · [PubMed 28273019](https://pubmed.ncbi.nlm.nih.gov/28273019/)
 [^mease-2015-secukinumab-psa-future2]: Mease PJ, et al. Secukinumab inhibition of interleukin-17A in patients with psoriatic arthritis. *N Engl J Med.* 2015;373(14):1329-1339. [doi:10.1056/NEJMoa1503317](https://doi.org/10.1056/NEJMoa1503317) · [PubMed 26422723](https://pubmed.ncbi.nlm.nih.gov/26422723/)

@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/03-molecular/il-12
     relation: connects-to
     note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) response of the anti-clonal immunity of polycythaemia vera."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the inflammatory milieu of polycythaemia vera."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the chronic inflammatory milieu of polycythaemia vera."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2/pruritus arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped) and the histamine (already mapped), reflects the type-2 dimension of the aquagenic pruritus and inflammatory milieu of polycythaemia vera."
 ---
 
 # Polycythemia Vera
@@ -713,6 +722,9 @@ PV must be distinguished from secondary erythrocytosis (elevated EPO, JAK2 wild-
 - `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Clonal immunosurveillance: the cytotoxic T cells (perforin already mapped) provide the immune surveillance of the JAK2 (already mapped)-mutant clone, augmented by the interferon (type-I interferon already mapped) therapy of polycythaemia vera.
 - `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 arm: the IFN-γ of the T cells (with the type-I interferon already mapped) is the type-II interferon arm of the anti-clonal immunity and the inflammatory milieu of polycythaemia vera.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) response of the anti-clonal immunity of polycythaemia vera.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the inflammatory milieu of polycythaemia vera.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the chronic inflammatory milieu of polycythaemia vera.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2/pruritus arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped) and the histamine (already mapped), reflects the type-2 dimension of the aquagenic pruritus and inflammatory milieu of polycythaemia vera.
 
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409630](https://doi.org/10.1056/NEJMoa1409630) · [PubMed 25577388](https://pubmed.ncbi.nlm.nih.gov/25577388/)
 [^gisslinger-2020-proud-pv]: Gisslinger H, Gotic M, Holowiecki J, et al. Ropeginterferon alfa-2b versus standard therapy for polycythaemia vera (PROUD-PV and CONTINUATION-PV): a randomised, non-inferiority, phase 3 trial and its extension study. *Lancet Haematol.* 2020;7(3):e196-e208. [doi:10.1016/S2352-3026(19)30236-4](https://doi.org/10.1016/S2352-3026(19)30236-4) · [PubMed 32046833](https://pubmed.ncbi.nlm.nih.gov/32046833/)
