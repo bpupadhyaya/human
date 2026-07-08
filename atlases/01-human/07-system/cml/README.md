@@ -466,6 +466,15 @@ cross_links:
   - target: 01-human/03-molecular/il-23
     relation: connects-to
     note: "Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the inflammatory bone-marrow (already mapped) microenvironment of chronic myeloid leukaemia."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) links the complement to the myeloid inflammation of the chronic-myeloid-leukaemia bone-marrow (already mapped) microenvironment."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Basophil/mast lineage: the mast cells, sharing the myeloid basophil lineage that is expanded (the basophilia) in chronic myeloid leukaemia, are part of the leukaemic myeloid output."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Immune surveillance: the CD4 T-helper cells contribute to the antileukaemic immunity that supports the treatment-free remission after the tyrosine-kinase-inhibitor therapy of chronic myeloid leukaemia."
 ---
 
 # Chronic Myeloid Leukemia
@@ -728,6 +737,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune microenvironment of chronic myeloid leukaemia (and the eosinophilia of some myeloproliferative overlaps).
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 arm: IL-13, with IL-4 (already mapped), completes the type-2 immune arm of the immune microenvironment of chronic myeloid leukaemia.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the inflammatory bone-marrow (already mapped) microenvironment of chronic myeloid leukaemia.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) links the complement to the myeloid inflammation of the chronic-myeloid-leukaemia bone-marrow (already mapped) microenvironment.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Basophil/mast lineage: the mast cells, sharing the myeloid basophil lineage that is expanded (the basophilia) in chronic myeloid leukaemia, are part of the leukaemic myeloid output.
+- `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — Immune surveillance: the CD4 T-helper cells contribute to the antileukaemic immunity that supports the treatment-free remission after the tyrosine-kinase-inhibitor therapy of chronic myeloid leukaemia.
 
 ---
 
