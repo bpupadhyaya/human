@@ -454,6 +454,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "Atherothrombosis: the platelets aggregate on the ruptured plaque (VWF and thrombin already mapped) to form the occlusive thrombus, the atherothrombotic MI and stroke."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 plaque polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the plaque inflammation that destabilises the atherosclerotic lesion."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate plaque interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) sensing of the cholesterol-crystal and cellular stress, amplifies the macrophage (already mapped) inflammation of the atheroma."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 counter-arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension modulating the Th1-driven atherosclerotic inflammation."
 ---
 
 # Atherosclerosis
@@ -713,6 +722,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Coronary disease: the coronary atherosclerosis causes the angina and the myocardial infarction (troponin already mapped) of the heart, the leading cause of death.
 - `connects-to` → **[Familial hypercholesterolemia](../familial-hypercholesterolemia/README.md)** — Monogenic driver: familial hypercholesterolaemia (LDL and PCSK9 already mapped) causes the premature, severe atherosclerosis, the extreme of the cholesterol-driven disease.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Atherothrombosis: the platelets aggregate on the ruptured plaque (VWF and thrombin already mapped) to form the occlusive thrombus, the atherothrombotic MI and stroke.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 plaque polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the plaque inflammation that destabilises the atherosclerotic lesion.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate plaque interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) sensing of the cholesterol-crystal and cellular stress, amplifies the macrophage (already mapped) inflammation of the atheroma.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 counter-arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension modulating the Th1-driven atherosclerotic inflammation.
 
 ---
 

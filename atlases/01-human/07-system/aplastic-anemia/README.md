@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Transfusion iron: the transfusion-dependent (haemoglobin already mapped) aplastic anaemia accumulates the iron overload (hepcidin already mapped), needing the chelation."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension balancing the dominant Th1 (IFN-γ and IL-12 already mapped) attack of aplastic anaemia."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune attack on the haematopoietic stem cells in aplastic anaemia."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension of the immune dysregulation of aplastic anaemia."
 ---
 
 # Aplastic Anemia
@@ -704,6 +713,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[MDS](../mds/README.md)** — MDS overlap: the aplastic anaemia can evolve to (or overlap with) the myelodysplastic syndrome (the clonal evolution, the monosomy-7), a feared late complication.
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — Th1 driver: the CD4 Th1 cells (IFN-γ and IL-2 already mapped) orchestrate the immune attack on the haematopoietic stem cells of the marrow in aplastic anaemia.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Transfusion iron: the transfusion-dependent (haemoglobin already mapped) aplastic anaemia accumulates the iron overload (hepcidin already mapped), needing the chelation.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension balancing the dominant Th1 (IFN-γ and IL-12 already mapped) attack of aplastic anaemia.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune attack on the haematopoietic stem cells in aplastic anaemia.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension of the immune dysregulation of aplastic anaemia.
 
 ---
 
