@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Antigen presentation: the dendritic cells present the tumour antigen (MHC already mapped) to the T cells (already mapped), a rationale for the GD2 CAR-T and vaccine immunotherapy of diffuse midline glioma."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement: the complement C5 and its C5a (with C3 and C5aR1 already mapped) contribute to the microglial (already mapped) and myeloid inflammation of the diffuse-midline-glioma microenvironment."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement evasion: the diffuse-midline-glioma cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), tempering the complement attack in the immunologically cold tumour."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Tumour iron: transferrin, the iron carrier, supplies the iron demand of the H3K27M-mutant (already mapped) glioma cells and the disordered brain-iron handling of diffuse midline glioma."
 ---
 
 # Diffuse Midline Glioma
@@ -766,6 +775,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the microglial (already mapped) and myeloid activation of the immunosuppressive microenvironment of diffuse midline glioma.
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines of the sparse immune infiltrate of the immunologically cold diffuse midline glioma.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Antigen presentation: the dendritic cells present the tumour antigen (MHC already mapped) to the T cells (already mapped), a rationale for the GD2 CAR-T and vaccine immunotherapy of diffuse midline glioma.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 and C5aR1 already mapped) contribute to the microglial (already mapped) and myeloid inflammation of the diffuse-midline-glioma microenvironment.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the diffuse-midline-glioma cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), tempering the complement attack in the immunologically cold tumour.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Tumour iron: transferrin, the iron carrier, supplies the iron demand of the H3K27M-mutant (already mapped) glioma cells and the disordered brain-iron handling of diffuse midline glioma.
 
 ---
 

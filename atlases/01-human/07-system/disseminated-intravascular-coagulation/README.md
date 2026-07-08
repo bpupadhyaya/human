@@ -481,6 +481,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Haemolytic iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the microangiopathic haemolysis and the inflammation of DIC."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Thromboinflammation: osteopontin, released by the activated platelets (already mapped), is a matricellular mediator linking the inflammation to the microthrombosis of DIC."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Vascular mast cells: the mast cells contribute to the vascular permeability and, through tissue-factor and heparin release, to the coagulation-anticoagulation imbalance of DIC."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Adaptive immunothrombosis: the CD4 T-helper cells contribute to the inflammatory drive of the immunothrombosis that underlies the sepsis-associated DIC."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -766,6 +775,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose consumption and dysregulation amplify the complement–coagulation crosstalk of DIC.
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Contact/complement regulation: the C1-esterase inhibitor regulates both the classical complement and the contact (intrinsic-coagulation, bradykinin already mapped) pathways, a key brake at the complement–coagulation interface consumed in DIC.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Haemolytic iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the microangiopathic haemolysis and the inflammation of DIC.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Thromboinflammation: osteopontin, released by the activated platelets (already mapped), is a matricellular mediator linking the inflammation to the microthrombosis of DIC.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Vascular mast cells: the mast cells contribute to the vascular permeability and, through tissue-factor and heparin release, to the coagulation-anticoagulation imbalance of DIC.
+- `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — Adaptive immunothrombosis: the CD4 T-helper cells contribute to the inflammatory drive of the immunothrombosis that underlies the sepsis-associated DIC.
 
 ---
 
