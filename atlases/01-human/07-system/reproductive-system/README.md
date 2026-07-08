@@ -455,6 +455,15 @@ cross_links:
   - target: 01-human/03-molecular/il-12
     relation: connects-to
     note: "Th1 counter-arm: IL-12 polarises the Th1 (IFN-γ already mapped) arm whose excess (opposing the Th2 tolerance) is implicated in the recurrent pregnancy loss of the reproductive system."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the uterine and endometrial immune milieu of the reproductive system."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 axis: IL-23 sustains the Th17 (IL-17 arm), whose balance with the regulatory T cells governs the maternal-fetal tolerance and, in excess, the pre-eclampsia/pregnancy-loss of the reproductive system."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 antibody dimension of the maternal-fetal immune bias of the reproductive system."
 ---
 
 # Reproductive System
@@ -716,6 +725,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Th2 maternal-fetal tolerance: IL-4, a type-2 cytokine, promotes the Th2-skewed immune tolerance at the maternal-fetal interface that permits the semi-allogeneic pregnancy of the reproductive system.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Th2 arm: IL-13, with IL-4 (already mapped), is part of the type-2 immune bias of the maternal-fetal tolerance of the reproductive system.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 counter-arm: IL-12 polarises the Th1 (IFN-γ already mapped) arm whose excess (opposing the Th2 tolerance) is implicated in the recurrent pregnancy loss of the reproductive system.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the uterine and endometrial immune milieu of the reproductive system.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 arm), whose balance with the regulatory T cells governs the maternal-fetal tolerance and, in excess, the pre-eclampsia/pregnancy-loss of the reproductive system.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 antibody dimension of the maternal-fetal immune bias of the reproductive system.
 
 ## Pathology
 
