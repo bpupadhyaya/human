@@ -462,6 +462,15 @@ cross_links:
   - target: 01-human/03-molecular/il-12
     relation: connects-to
     note: "Th1 arm: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the inflammatory milieu that, in the mixed anaemias, compounds the iron-restricted erythropoiesis of iron-deficiency anaemia."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Antiparasite IgE: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), mediates the antiparasite response to the hookworm and other helminths whose gut blood loss is a leading global cause of iron-deficiency anaemia."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "Epithelial alarmin: IL-33, released by the injured gut epithelium, initiates the type-2 (IL-5 already mapped) antiparasite response to the intestinal helminths that cause the blood-loss iron-deficiency anaemia."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Intestinal mast cells: the mast cells of the gut, armed by the IgE (already mapped), are effectors of the antiparasite type-2 response to the hookworm blood loss underlying much iron-deficiency anaemia."
 ---
 
 # Iron Deficiency Anemia
@@ -730,6 +739,9 @@ Iron is essential for:
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 arm: IL-13, with IL-4 (already mapped), completes the type-2 immune arm whose M2-macrophage (already mapped) polarisation shapes the iron handling intersecting with iron-deficiency anaemia.
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Eosinophil/hookworm arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), drives the eosinophil response to the hookworm and other parasites that are a leading cause of the iron-deficiency anaemia through gut blood loss.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 arm: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the inflammatory milieu that, in the mixed anaemias, compounds the iron-restricted erythropoiesis of iron-deficiency anaemia.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Antiparasite IgE: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), mediates the antiparasite response to the hookworm and other helminths whose gut blood loss is a leading global cause of iron-deficiency anaemia.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — Epithelial alarmin: IL-33, released by the injured gut epithelium, initiates the type-2 (IL-5 already mapped) antiparasite response to the intestinal helminths that cause the blood-loss iron-deficiency anaemia.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Intestinal mast cells: the mast cells of the gut, armed by the IgE (already mapped), are effectors of the antiparasite type-2 response to the hookworm blood loss underlying much iron-deficiency anaemia.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)
