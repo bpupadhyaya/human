@@ -446,6 +446,15 @@ cross_links:
   - target: 01-human/07-system/nash
     relation: connects-to
     note: "Metabolic-syndrome disease: NASH is the hepatic manifestation of the metabolic syndrome (the insulin — already mapped — resistance and the adipokines already mapped), an endocrine/metabolic disease."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Autoimmune endocrinopathy: the IFN-γ of the T cells is the type-II interferon arm of the autoimmune destruction underlying the autoimmune endocrine diseases (type-1 diabetes, Hashimoto, Graves, Addison) of the endocrine system."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm that drives the autoimmune endocrinopathies of the endocrine system."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate autoimmune interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, is implicated in the autoimmune endocrine diseases (e.g. type-1 diabetes) of the endocrine system."
 ---
 
 # Endocrine System
@@ -746,6 +755,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — Hepatic hormone hub: the hepatocytes produce the IGF-1 under GH (already mapped) control and the angiotensinogen (renin and angiotensin already mapped), and metabolise the steroid and thyroid hormones of the endocrine system.
 - `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — Bone as endocrine organ: the osteoblasts secrete the osteocalcin (a hormone modulating the insulin — already mapped — sensitivity and energy metabolism) and the FGF23 (already mapped), responding to the PTH (already mapped).
 - `connects-to` → **[NASH](../nash/README.md)** — Metabolic-syndrome disease: NASH is the hepatic manifestation of the metabolic syndrome (the insulin — already mapped — resistance and the adipokines already mapped), an endocrine/metabolic disease.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Autoimmune endocrinopathy: the IFN-γ of the T cells is the type-II interferon arm of the autoimmune destruction underlying the autoimmune endocrine diseases (type-1 diabetes, Hashimoto, Graves, Addison) of the endocrine system.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm that drives the autoimmune endocrinopathies of the endocrine system.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate autoimmune interferon: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, is implicated in the autoimmune endocrine diseases (e.g. type-1 diabetes) of the endocrine system.
 
 ## Pathology
 
