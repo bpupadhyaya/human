@@ -466,6 +466,15 @@ cross_links:
   - target: 01-human/03-molecular/il-5
     relation: connects-to
     note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the neuroimmune balance of the nervous system."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 dimension of the neuroimmune balance of the nervous system."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "CNS-border cytotoxicity: the cytotoxic T cells (perforin already mapped) of the meningeal and perivascular compartments mediate the adaptive neuroinflammation of the nervous system."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "CNS antigen presentation: the dendritic cells of the meninges and choroid plexus present antigen to the T cells (already mapped) at the borders of the nervous system."
 ---
 
 # Nervous System
@@ -651,6 +660,9 @@ Distributed cortical networks underlie language (Broca's area, Wernicke's area, 
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the neuroinflammation implicated in the neurological disease of the nervous system.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the neuroinflammation of the autoimmune and demyelinating diseases of the nervous system.
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the neuroimmune balance of the nervous system.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 dimension of the neuroimmune balance of the nervous system.
+- `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — CNS-border cytotoxicity: the cytotoxic T cells (perforin already mapped) of the meningeal and perivascular compartments mediate the adaptive neuroinflammation of the nervous system.
+- `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — CNS antigen presentation: the dendritic cells of the meninges and choroid plexus present antigen to the T cells (already mapped) at the borders of the nervous system.
 
 ## Pathology
 
