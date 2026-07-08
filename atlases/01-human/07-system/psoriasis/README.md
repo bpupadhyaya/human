@@ -466,6 +466,15 @@ cross_links:
   - target: 01-human/04-cellular/plasma-cell
     relation: connects-to
     note: "Lesional plasma cells: the plasma cells secreting the antibodies (already mapped) are found in the psoriatic lesions and contribute to the humoral dimension of psoriasis."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the neutrophil (already mapped) recruitment into the epidermis (the Munro microabscesses) of psoriasis."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Keratinocyte alarmin: TSLP, released by the injured keratinocytes, is part of the alarmin (IL-33 already mapped) signalling that helps initiate the dendritic-cell (already mapped) activation of psoriasis."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Dermal matricellular: periostin, in the psoriatic dermis, is part of the matricellular remodelling and amplification loop that sustains the chronic plaque inflammation of psoriasis."
 ---
 
 # Psoriasis
@@ -730,6 +739,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Complement in plaques: the C5 and its C5a fragment (with C3 already mapped) recruit the neutrophils of the Munro microabscesses and amplify the innate inflammation of the psoriatic plaque.
 - `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Regulatory B-cell arm: the B cells, including the dysregulated regulatory B cells, are an increasingly recognised adaptive-immune component of psoriasis alongside the dominant Th17 (IL-17 and IL-23 already mapped) axis.
 - `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — Lesional plasma cells: the plasma cells secreting the antibodies (already mapped) are found in the psoriatic lesions and contribute to the humoral dimension of psoriasis.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the neutrophil (already mapped) recruitment into the epidermis (the Munro microabscesses) of psoriasis.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Keratinocyte alarmin: TSLP, released by the injured keratinocytes, is part of the alarmin (IL-33 already mapped) signalling that helps initiate the dendritic-cell (already mapped) activation of psoriasis.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Dermal matricellular: periostin, in the psoriatic dermis, is part of the matricellular remodelling and amplification loop that sustains the chronic plaque inflammation of psoriasis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
