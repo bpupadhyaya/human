@@ -454,6 +454,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "NMDA and eclampsia: magnesium blocks the NMDA/glutamate (already mapped) receptor and is the treatment of the eclamptic seizures; the hypomagnesaemia lowers the seizure threshold."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate neuroinflammation: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, contributes to the neuroinflammation (IL-1 and IL-6 already mapped) that lowers the seizure threshold and drives the epileptogenesis."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 neuroinflammation: the IFN-γ of the infiltrating T cells is the type-II interferon arm of the immune contribution to the epileptogenesis of epilepsy."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the metabolic-inflammatory dimension linked to epilepsy."
 ---
 
 # Epilepsy
@@ -751,6 +760,9 @@ Anti-NMDAR encephalitis is the most common autoimmune encephalitis (~37% of auto
 - `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Neuroinflammatory epileptogenesis: the microglial activation and the neuroinflammation (IL-1, TNF and IL-6 already mapped) drive the epileptogenesis and are a target of the anti-inflammatory antiseizure approaches.
 - `connects-to` → **[Autism spectrum disorder](../autism-spectrum-disorder/README.md)** — ASD comorbidity: epilepsy and autism spectrum disorder are highly comorbid, sharing the mTOR, channel and excitatory/inhibitory (glutamate and GABA already mapped) mechanisms.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — NMDA and eclampsia: magnesium blocks the NMDA/glutamate (already mapped) receptor and is the treatment of the eclamptic seizures; the hypomagnesaemia lowers the seizure threshold.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate neuroinflammation: the type-I interferon, downstream of the cGAS-STING (already mapped) pathway, contributes to the neuroinflammation (IL-1 and IL-6 already mapped) that lowers the seizure threshold and drives the epileptogenesis.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 neuroinflammation: the IFN-γ of the infiltrating T cells is the type-II interferon arm of the immune contribution to the epileptogenesis of epilepsy.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the pro-inflammatory adipokine of the metabolic-inflammatory dimension linked to epilepsy.
 
 [^fisher-2017-ilae-classification]: Fisher RS, Cross JH, D'Souza C, et al. Instruction manual for the ILAE 2017 operational classification of seizure types. *Epilepsia.* 2017;58(4):531-542. [doi:10.1111/epi.13671](https://doi.org/10.1111/epi.13671) · [PubMed 28276060](https://pubmed.ncbi.nlm.nih.gov/28276060/)
 [^devinsky-2018-epilepsy-review]: Devinsky O, Vezzani A, O'Brien TJ, et al. Epilepsy. *Nat Rev Dis Primers.* 2018;4:18024. [doi:10.1038/nrdp.2018.24](https://doi.org/10.1038/nrdp.2018.24) · [PubMed 29722352](https://pubmed.ncbi.nlm.nih.gov/29722352/)
