@@ -456,6 +456,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Vascular-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose to the vascular inflammation and the cardiovascular risk of the cardiovascular system."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 vascular inflammation: the IFN-γ of the T cells is the type-II interferon arm of the Th1-driven atherosclerotic and myocardial inflammation of the cardiovascular system."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Type-2 vascular immunity: IL-4 and the type-2/M2 (macrophage) arm modulate the vascular inflammation and the plaque remodelling of the cardiovascular system."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Type-2 vascular immunity: IL-13, with IL-4 (already mapped), completes the type-2 immune arm of the vascular and cardiac remodelling of the cardiovascular system."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"
@@ -684,6 +693,9 @@ Each major vascular bed has **autoregulation** — a local mechanism that holds 
 - `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Contractile cells: the cardiomyocytes are the contractile cells of the heart (the excitation-contraction — troponin and SERCA2a already mapped) that drive the circulation of the cardiovascular system.
 - `connects-to` → **[SA node cell](../../04-cellular/sa-node-cell/README.md)** — Pacemaker cells: the sinoatrial-node cells (HCN4 already mapped, the funny current) set the heart rate and initiate the rhythm of the cardiovascular system.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Vascular-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the adipose to the vascular inflammation and the cardiovascular risk of the cardiovascular system.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 vascular inflammation: the IFN-γ of the T cells is the type-II interferon arm of the Th1-driven atherosclerotic and myocardial inflammation of the cardiovascular system.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Type-2 vascular immunity: IL-4 and the type-2/M2 (macrophage) arm modulate the vascular inflammation and the plaque remodelling of the cardiovascular system.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 vascular immunity: IL-13, with IL-4 (already mapped), completes the type-2 immune arm of the vascular and cardiac remodelling of the cardiovascular system.
 
 ## Pathology
 

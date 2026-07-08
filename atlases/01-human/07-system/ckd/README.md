@@ -450,6 +450,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "Hepatorenal axis: the liver-kidney axis (the hepatorenal syndrome, the hepcidin already-mapped production driving the renal anaemia) links the liver to the chronic kidney disease."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Innate renal inflammation: the type-I interferon, downstream of the cGAS-STING (already mapped) sensing of the tubular stress and DNA damage, contributes to the chronic inflammation and fibrosis of chronic kidney disease."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 renal inflammation: the IFN-γ of the infiltrating T cells is the type-II interferon arm of the immune-mediated tubulointerstitial inflammation of chronic kidney disease."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune-inflammatory dimension driving the progression of chronic kidney disease."
 ---
 
 # Chronic Kidney Disease
@@ -670,6 +679,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Uraemic adipokine: adiponectin, with leptin (already mapped), is cleared by and accumulates in the chronic kidney disease, part of the uraemic metabolic-cardiovascular milieu.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Uraemic inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), accumulates in the chronic kidney disease and contributes to the uraemic inflammatory (IL-6 already mapped) milieu.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Hepatorenal axis: the liver-kidney axis (the hepatorenal syndrome, the hepcidin already-mapped production driving the renal anaemia) links the liver to the chronic kidney disease.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Innate renal inflammation: the type-I interferon, downstream of the cGAS-STING (already mapped) sensing of the tubular stress and DNA damage, contributes to the chronic inflammation and fibrosis of chronic kidney disease.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 renal inflammation: the IFN-γ of the infiltrating T cells is the type-II interferon arm of the immune-mediated tubulointerstitial inflammation of chronic kidney disease.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune-inflammatory dimension driving the progression of chronic kidney disease.
 
 ## Pathology
 
