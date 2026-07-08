@@ -451,6 +451,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension of the immune-metabolic milieu of PNH."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 marrow autoimmunity: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune-mediated marrow attack (aplastic anaemia already mapped) from which the GPI-negative PNH clone escapes."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Antigen presentation: the dendritic cells present antigen (MHC already mapped) in the autoimmune marrow-failure context from which the PNH clone arises."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "Humoral arm: the B cells contribute the antibody (already mapped) and autoimmune dimension of the marrow-failure context (aplastic anaemia already mapped) underlying PNH."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -687,6 +696,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune dysregulation of the associated bone-marrow failure of PNH.
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune milieu of PNH.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension of the immune-metabolic milieu of PNH.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 marrow autoimmunity: IL-23 sustains the Th17 (IL-17 already mapped) arm of the immune-mediated marrow attack (aplastic anaemia already mapped) from which the GPI-negative PNH clone escapes.
+- `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Antigen presentation: the dendritic cells present antigen (MHC already mapped) in the autoimmune marrow-failure context from which the PNH clone arises.
+- `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Humoral arm: the B cells contribute the antibody (already mapped) and autoimmune dimension of the marrow-failure context (aplastic anaemia already mapped) underlying PNH.
 
 ---
 
