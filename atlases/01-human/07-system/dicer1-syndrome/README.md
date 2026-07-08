@@ -466,6 +466,15 @@ cross_links:
   - target: 01-human/03-molecular/il-23
     relation: connects-to
     note: "Th17 induction: IL-23 sustains the Th17 (IL-17 already mapped) arm of the inflammatory dimension of the DICER1-syndrome tumour microenvironment."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines shaping the immune microenvironment of the DICER1-syndrome tumours."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Stromal mast cells: the mast cells of the tumour stroma contribute to the angiogenesis (VEGF already mapped) and the immune microenvironment of the DICER1-syndrome tumours."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid recruitment into the DICER1-syndrome tumour stroma."
 ---
 
 # DICER1 Syndrome
@@ -730,6 +739,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune microenvironment of the DICER1-syndrome tumours.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Th17 arm: IL-17A drives the Th17 arm of the inflammatory dimension of the immune microenvironment of the DICER1-syndrome tumours.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 induction: IL-23 sustains the Th17 (IL-17 already mapped) arm of the inflammatory dimension of the DICER1-syndrome tumour microenvironment.
+- `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines shaping the immune microenvironment of the DICER1-syndrome tumours.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Stromal mast cells: the mast cells of the tumour stroma contribute to the angiogenesis (VEGF already mapped) and the immune microenvironment of the DICER1-syndrome tumours.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid recruitment into the DICER1-syndrome tumour stroma.
 
 ---
 
