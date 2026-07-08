@@ -478,6 +478,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "Immunoparalysis NK: the NK cells (perforin already mapped), depleted and exhausted in the compensatory anti-inflammatory (IL-10 already mapped) phase, are part of the immunoparalysis and secondary-infection risk of sepsis."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Sepsis hypoferraemia: transferrin, the iron carrier, falls sharply in the hypoferraemia of sepsis (hepcidin already mapped), a nutritional-immunity response to withhold iron from the pathogens."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Inflammatory matricellular: osteopontin, elevated in sepsis, is a pro-inflammatory matricellular cytokine that correlates with the severity and outcome of the septic response."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Vascular mast cells: the mast cells contribute to the vascular permeability and the early innate response of sepsis, with their mediators shaping the septic vasodilation."
 ---
 
 # Sepsis
@@ -737,6 +746,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5a/C5aR1 axis (complement C3 and C5 already mapped) is a central mediator of the sepsis complement storm, driving the neutrophil (already mapped) dysfunction and the tissue injury of septic shock.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose consumption and dysregulation amplify the sepsis complement storm.
 - `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Immunoparalysis NK: the NK cells (perforin already mapped), depleted and exhausted in the compensatory anti-inflammatory (IL-10 already mapped) phase, are part of the immunoparalysis and secondary-infection risk of sepsis.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Sepsis hypoferraemia: transferrin, the iron carrier, falls sharply in the hypoferraemia of sepsis (hepcidin already mapped), a nutritional-immunity response to withhold iron from the pathogens.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Inflammatory matricellular: osteopontin, elevated in sepsis, is a pro-inflammatory matricellular cytokine that correlates with the severity and outcome of the septic response.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Vascular mast cells: the mast cells contribute to the vascular permeability and the early innate response of sepsis, with their mediators shaping the septic vasodilation.
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

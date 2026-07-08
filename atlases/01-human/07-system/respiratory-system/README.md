@@ -477,6 +477,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Airway complement: the complement C3, produced locally by the airway epithelium, is part of the innate mucosal defence and, when dysregulated, the inflammation of the respiratory system."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement: the complement C5 and its C5a (with C3 already mapped) generate the anaphylatoxin and membrane-attack complex of the acute lung injury and the airway inflammation of the respiratory system."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the neutrophil recruitment into the airway and alveolus in the immunopathology of the respiratory system."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) on the airway surface, restraining the complement attack on the host lung of the respiratory system."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -711,6 +720,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Connects-to** → [Periostin](../../03-molecular/periostin/README.md): type-2 remodelling: periostin, downstream of the IL-13 (already mapped) signalling, is a matricellular marker and mediator of the type-2 airway remodelling and the subepithelial fibrosis of the respiratory system.
 - **Connects-to** → [IL-31](../../03-molecular/il-31/README.md): airway itch/cough: IL-31, a type-2 (IL-4, IL-5 and IL-13 already mapped) cytokine, is part of the neuroimmune signalling of the cough and airway sensory dimension of the respiratory system.
 - **Connects-to** → [Complement C3](../../03-molecular/complement-c3/README.md): airway complement: the complement C3, produced locally by the airway epithelium, is part of the innate mucosal defence and, when dysregulated, the inflammation of the respiratory system.
+- **Connects-to** → [Complement C5](../../03-molecular/complement-c5/README.md): terminal complement: the complement C5 and its C5a (with C3 already mapped) generate the anaphylatoxin and membrane-attack complex of the acute lung injury and the airway inflammation of the respiratory system.
+- **Connects-to** → [C5aR1](../../03-molecular/c5ar1/README.md): C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the neutrophil recruitment into the airway and alveolus in the immunopathology of the respiratory system.
+- **Connects-to** → [Factor H](../../03-molecular/factor-h/README.md): complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) on the airway surface, restraining the complement attack on the host lung of the respiratory system.
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.
 
 ## Pathology
