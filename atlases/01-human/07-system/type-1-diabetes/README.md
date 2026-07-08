@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/03-molecular/hepcidin
     relation: connects-to
     note: "Inflammation iron regulation: the chronic autoimmune inflammation (IL-6 and IL-1 already mapped) of type 1 diabetes raises the hepcidin, contributing to the iron dysregulation and the anaemia of chronic disease."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the autoimmune insulitis, complementing the dominant Th1 (IFN-γ and IL-12 already mapped) β-cell attack of type 1 diabetes."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the broader immune dysregulation of type 1 diabetes."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension and the atopic comorbidity reported in type 1 diabetes."
 ---
 
 # Type 1 Diabetes
@@ -687,6 +696,9 @@ cross_links:
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), is the adipokine of the metabolic-cardiovascular-risk profile of type 1 diabetes.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Islet macrophages: the islet-resident macrophages present the β-cell antigens and, with the innate (IL-1β and type-I interferon already mapped) signals, initiate and amplify the insulitis of type 1 diabetes.
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Inflammation iron regulation: the chronic autoimmune inflammation (IL-6 and IL-1 already mapped) of type 1 diabetes raises the hepcidin, contributing to the iron dysregulation and the anaemia of chronic disease.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the autoimmune insulitis, complementing the dominant Th1 (IFN-γ and IL-12 already mapped) β-cell attack of type 1 diabetes.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the broader immune dysregulation of type 1 diabetes.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension and the atopic comorbidity reported in type 1 diabetes.
 
 [^atkinson-2014-t1d-lancet]: Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. *Lancet.* 2014;383(9911):69-82. [doi:10.1016/S0140-6736(13)60591-7](https://doi.org/10.1016/S0140-6736(13)60591-7) · [PubMed 23890997](https://pubmed.ncbi.nlm.nih.gov/23890997/)
 [^herold-2019-teplizumab-t1d]: Herold KC, Bundy BN, Long SA, et al. An anti-CD3 antibody, teplizumab, in relatives at risk for type 1 diabetes. *N Engl J Med.* 2019;381(7):603-613. [doi:10.1056/NEJMoa1905155](https://doi.org/10.1056/NEJMoa1905155) · [PubMed 31180675](https://pubmed.ncbi.nlm.nih.gov/31180675/)
