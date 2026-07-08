@@ -479,6 +479,15 @@ cross_links:
   - target: 01-human/03-molecular/c1-esterase-inhibitor
     relation: connects-to
     note: "Classical-pathway regulation: the C1-esterase inhibitor regulates the classical and lectin complement pathways activated by the anti-measles antibodies (already mapped) during the immune clearance of the infection."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Immune-activation matricellular: osteopontin, a matricellular cytokine, is part of the strong pro-inflammatory immune activation of the acute measles infection."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Airway remodelling: periostin, downstream of the type-2 (IL-4 and IL-13 already mapped) cytokines, is part of the airway inflammation and remodelling of the measles giant-cell pneumonia."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Acute-phase iron: transferrin, the iron carrier, reflects the hypoferraemia and disordered iron handling (hepcidin already mapped) of the acute-phase response to the measles infection."
 ---
 
 # Measles
@@ -777,6 +786,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) links the complement to the myeloid inflammation of the measles infection.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) active during the measles complement response, part of the complement-regulator (the CD46 receptor) interface of the measles virus.
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical and lectin complement pathways activated by the anti-measles antibodies (already mapped) during the immune clearance of the infection.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Immune-activation matricellular: osteopontin, a matricellular cytokine, is part of the strong pro-inflammatory immune activation of the acute measles infection.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Airway remodelling: periostin, downstream of the type-2 (IL-4 and IL-13 already mapped) cytokines, is part of the airway inflammation and remodelling of the measles giant-cell pneumonia.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Acute-phase iron: transferrin, the iron carrier, reflects the hypoferraemia and disordered iron handling (hepcidin already mapped) of the acute-phase response to the measles infection.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)
