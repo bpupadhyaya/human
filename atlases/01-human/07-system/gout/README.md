@@ -481,6 +481,15 @@ cross_links:
   - target: 01-human/03-molecular/c1-esterase-inhibitor
     relation: connects-to
     note: "Complement/contact regulation: the C1-esterase inhibitor regulates the classical complement and the contact (bradykinin already mapped) systems activated by the monosodium-urate crystals of the acute gout flare."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Innate arm: the NK cells (perforin pathway) are part of the innate-immune response to the monosodium-urate crystals of gout."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Tophaceous remodelling: periostin, a matricellular mediator, is part of the joint and soft-tissue remodelling around the tophi (with osteopontin already mapped) of chronic tophaceous gout."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Metabolic iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) linked to the hyperuricaemia and the metabolic-syndrome comorbidity of gout."
 ---
 
 # Gout
@@ -728,6 +737,9 @@ The central mechanism linking MSU crystals to acute gouty arthritis is **NLRP3 i
 - `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Adaptive arm: the cytotoxic T cells (perforin pathway) are part of the adaptive-immune infiltrate of the chronic tophaceous inflammation of gout.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) activated on the monosodium-urate crystals of gout.
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement/contact regulation: the C1-esterase inhibitor regulates the classical complement and the contact (bradykinin already mapped) systems activated by the monosodium-urate crystals of the acute gout flare.
+- `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Innate arm: the NK cells (perforin pathway) are part of the innate-immune response to the monosodium-urate crystals of gout.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Tophaceous remodelling: periostin, a matricellular mediator, is part of the joint and soft-tissue remodelling around the tophi (with osteopontin already mapped) of chronic tophaceous gout.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Metabolic iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) linked to the hyperuricaemia and the metabolic-syndrome comorbidity of gout.
 
 [^dalbeth-2019-gout-primer]: Dalbeth N, Choi HK, Joosten LAB, et al. Gout. *Nat Rev Dis Primers.* 2019;5(1):69. [doi:10.1038/s41572-019-0115-y](https://doi.org/10.1038/s41572-019-0115-y) · [PubMed 31558729](https://pubmed.ncbi.nlm.nih.gov/31558729/)
 [^martinon-2006-nlrp3-gout]: Martinon F, Pétrilli V, Mayor A, Tardivel A, Tschopp J. Gout-associated uric acid crystals activate the NALP3 inflammasome. *Nature.* 2006;440(7081):237-241. [doi:10.1038/nature04516](https://doi.org/10.1038/nature04516) · [PubMed 16407889](https://pubmed.ncbi.nlm.nih.gov/16407889/)
