@@ -463,6 +463,15 @@ cross_links:
   - target: 03-medicine/03-food/vitamin-d
     relation: connects-to
     note: "Immunomodulatory vitamin: vitamin D modulates the T-cell (already mapped) autoimmunity, and its deficiency is associated with the higher disease activity of rheumatoid arthritis."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the neutrophil (already mapped) recruitment into the inflamed synovium of rheumatoid arthritis."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Stromal alarmin: TSLP, from the synovial fibroblasts (already mapped) and stroma, conditions the dendritic cells (already mapped) and contributes to the pro-inflammatory milieu of the rheumatoid synovium."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Synovial matricellular: periostin, secreted by the synovial fibroblasts (already mapped), is part of the matricellular remodelling of the pannus and the bone erosion (RANKL already mapped) of rheumatoid arthritis."
 ---
 
 # Rheumatoid Arthritis
@@ -753,6 +762,9 @@ RA patients have:
 - `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Synovial CD8 cells: the cytotoxic (CD8) T cells (perforin already mapped) infiltrate the rheumatoid synovium and contribute to the local tissue damage of rheumatoid arthritis.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), reflects the type-2 immune dimension balancing the dominant Th17/Th1 drive of rheumatoid arthritis.
 - `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Immunomodulatory vitamin: vitamin D modulates the T-cell (already mapped) autoimmunity, and its deficiency is associated with the higher disease activity of rheumatoid arthritis.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the neutrophil (already mapped) recruitment into the inflamed synovium of rheumatoid arthritis.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Stromal alarmin: TSLP, from the synovial fibroblasts (already mapped) and stroma, conditions the dendritic cells (already mapped) and contributes to the pro-inflammatory milieu of the rheumatoid synovium.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Synovial matricellular: periostin, secreted by the synovial fibroblasts (already mapped), is part of the matricellular remodelling of the pannus and the bone erosion (RANKL already mapped) of rheumatoid arthritis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
