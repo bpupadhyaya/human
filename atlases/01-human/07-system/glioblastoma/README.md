@@ -466,6 +466,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the immune microenvironment of glioblastoma."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the microglial (already mapped) and glioma-associated macrophage (already mapped) activation of the immunosuppressive glioblastoma microenvironment."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines of the sparse T-cell infiltrate of the immunologically cold glioblastoma."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Meningeal mast cells: the mast cells of the meninges and the brain (already mapped) contribute to the neuroinflammation and the vascular permeability of the glioblastoma microenvironment."
 ---
 
 # Glioblastoma
@@ -745,6 +754,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immunosuppressive microenvironment of glioblastoma.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the neuroinflammatory dimension of the glioblastoma microenvironment.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the immune microenvironment of glioblastoma.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the microglial (already mapped) and glioma-associated macrophage (already mapped) activation of the immunosuppressive glioblastoma microenvironment.
+- `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines of the sparse T-cell infiltrate of the immunologically cold glioblastoma.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Meningeal mast cells: the mast cells of the meninges and the brain (already mapped) contribute to the neuroinflammation and the vascular permeability of the glioblastoma microenvironment.
 
 ---
 
