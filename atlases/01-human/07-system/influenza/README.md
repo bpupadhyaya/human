@@ -463,6 +463,15 @@ cross_links:
   - target: 01-human/04-cellular/mast-cell
     relation: connects-to
     note: "Type-2 airway arm: the mast cells, armed by the IgE (already mapped), contribute to the type-2 airway inflammation and the asthma exacerbation (already mapped) triggered by influenza."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement: the complement C5 and its activation (with C3 already mapped) contribute to the innate inflammatory injury of the severe influenza pneumonia and the cytokine storm."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling drives the neutrophil (already mapped) recruitment and the immunopathology of the severe influenza lung injury."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Immunopathology control: the regulatory T cells restrain the antiviral inflammation and promote the resolution and tissue repair after the influenza infection."
 ---
 
 # Influenza
@@ -747,3 +756,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the antiviral and antibacterial mucosal defence against influenza and its bacterial superinfection.
 - `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — Antibody arm: the plasma cells secrete the anti-haemagglutinin (HA already mapped) antibodies that provide the vaccine-induced and convalescent protection against influenza.
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Type-2 airway arm: the mast cells, armed by the IgE (already mapped), contribute to the type-2 airway inflammation and the asthma exacerbation (already mapped) triggered by influenza.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its activation (with C3 already mapped) contribute to the innate inflammatory injury of the severe influenza pneumonia and the cytokine storm.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling drives the neutrophil (already mapped) recruitment and the immunopathology of the severe influenza lung injury.
+- `connects-to` → **[Regulatory T cell](../../04-cellular/regulatory-t-cell/README.md)** — Immunopathology control: the regulatory T cells restrain the antiviral inflammation and promote the resolution and tissue repair after the influenza infection.
