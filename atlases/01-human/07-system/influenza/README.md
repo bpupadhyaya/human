@@ -454,6 +454,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension of the immune response to influenza."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the antiviral and antibacterial mucosal defence against influenza and its bacterial superinfection."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "Antibody arm: the plasma cells secrete the anti-haemagglutinin (HA already mapped) antibodies that provide the vaccine-induced and convalescent protection against influenza."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Type-2 airway arm: the mast cells, armed by the IgE (already mapped), contribute to the type-2 airway inflammation and the asthma exacerbation (already mapped) triggered by influenza."
 ---
 
 # Influenza
@@ -735,3 +744,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[Influenza A](../../../02-pathogen/01-viruses/influenza-a/README.md)** — Causative virus: the influenza is caused by the influenza virus (the influenza A the pandemic-capable type; the haemagglutinin already mapped), the segmented orthomyxovirus of the antigenic drift and shift.
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune response and the asthma-exacerbation link of influenza.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 IgE: the IgE (with IL-4 and IL-13 already mapped) reflects the type-2 immune dimension of the immune response to influenza.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the antiviral and antibacterial mucosal defence against influenza and its bacterial superinfection.
+- `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — Antibody arm: the plasma cells secrete the anti-haemagglutinin (HA already mapped) antibodies that provide the vaccine-induced and convalescent protection against influenza.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Type-2 airway arm: the mast cells, armed by the IgE (already mapped), contribute to the type-2 airway inflammation and the asthma exacerbation (already mapped) triggered by influenza.

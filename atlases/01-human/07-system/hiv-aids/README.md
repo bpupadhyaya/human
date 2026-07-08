@@ -454,6 +454,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Elevated IgE: the polyclonal B-cell (BAFF already mapped) activation of AIDS raises the IgE (with IL-4 and IL-13 already mapped), part of the dysregulated type-2 immunity."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 gut depletion: IL-23 sustains the Th17 (IL-17 already mapped) cells whose preferential gut-mucosal depletion contributes to the microbial translocation and immune activation of AIDS."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "Hypergammaglobulinaemia: the plasma cells, from the polyclonal B-cell (BAFF already mapped) activation, secrete the excess immunoglobulin (already mapped) and the elevated IgE (already mapped) of AIDS."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Type-2 dysregulation: the mast cells, armed by the elevated IgE (already mapped), reflect the type-2 immune dysregulation and the allergic manifestations of the immunodeficiency of AIDS."
 ---
 
 # HIV/AIDS
@@ -714,6 +723,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[Regulatory T cell](../../04-cellular/regulatory-t-cell/README.md)** — Immune dysregulation: the regulatory T cells are disproportionately altered relative to the depleted CD4 T-helper cells (already mapped), contributing to the immune dysregulation and the loss of tolerance of AIDS.
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Th2 shift: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the Th2 shift of the progressive immunodeficiency of AIDS.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Elevated IgE: the polyclonal B-cell (BAFF already mapped) activation of AIDS raises the IgE (with IL-4 and IL-13 already mapped), part of the dysregulated type-2 immunity.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 gut depletion: IL-23 sustains the Th17 (IL-17 already mapped) cells whose preferential gut-mucosal depletion contributes to the microbial translocation and immune activation of AIDS.
+- `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — Hypergammaglobulinaemia: the plasma cells, from the polyclonal B-cell (BAFF already mapped) activation, secrete the excess immunoglobulin (already mapped) and the elevated IgE (already mapped) of AIDS.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Type-2 dysregulation: the mast cells, armed by the elevated IgE (already mapped), reflect the type-2 immune dysregulation and the allergic manifestations of the immunodeficiency of AIDS.
 
 ## See Also
 
