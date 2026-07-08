@@ -442,6 +442,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Erythroblastic-island macrophages: the marrow macrophages (the nurse cells of the erythroblastic islands, the erythrophagocytosis) and their inflammatory (S100A8/9 already mapped) activation shape the dysplastic microenvironment of MDS."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Antigen presentation: the dendritic cells contribute to the immune surveillance and the dysregulated inflammatory (S100A8/9 and TLR4 already mapped) microenvironment of the myelodysplastic marrow."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune-mediated marrow suppression of MDS."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the dysregulated immune microenvironment of MDS."
 ---
 
 # Myelodysplastic Syndromes
@@ -694,6 +703,9 @@ MDS → AML transformation rate: ~10% at 1 year for very-low risk; ~40-50% at 2 
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Inflammaging interferon: the innate immune inflammaging (the cGAS-STING and S100A8/9 already mapped) drives the type-I interferon and the inflammatory bone-marrow (already mapped) microenvironment of MDS.
 - `connects-to` → **[Myeloproliferative neoplasms](../myeloproliferative-neoplasms/README.md)** — MDS/MPN overlap: the MDS and the myeloproliferative neoplasms overlap in the MDS/MPN syndromes (like CMML), sharing the clonal (TET2 and splicing already mapped) haematopoiesis.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Erythroblastic-island macrophages: the marrow macrophages (the nurse cells of the erythroblastic islands, the erythrophagocytosis) and their inflammatory (S100A8/9 already mapped) activation shape the dysplastic microenvironment of MDS.
+- `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Antigen presentation: the dendritic cells contribute to the immune surveillance and the dysregulated inflammatory (S100A8/9 and TLR4 already mapped) microenvironment of the myelodysplastic marrow.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune-mediated marrow suppression of MDS.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the dysregulated immune microenvironment of MDS.
 
 [^fenaux-2009-aza001]: Fenaux P, Mufti GJ, Hellstrom-Lindberg E, et al. Efficacy of azacitidine compared with conventional care regimens in patients with higher-risk myelodysplastic syndromes. *Lancet Oncol.* 2009;10(3):223-232. [doi:10.1016/S1470-2045(09)70003-8](https://doi.org/10.1016/S1470-2045(09)70003-8) · [PubMed 19230772](https://pubmed.ncbi.nlm.nih.gov/19230772/)
 [^fenaux-2020-medalist]: Fenaux P, Platzbecker U, Mufti GJ, et al. Luspatercept in patients with lower-risk myelodysplastic syndromes. *N Engl J Med.* 2020;382(2):140-151. [doi:10.1056/NEJMoa1908892](https://doi.org/10.1056/NEJMoa1908892) · [PubMed 31914241](https://pubmed.ncbi.nlm.nih.gov/31914241/)
