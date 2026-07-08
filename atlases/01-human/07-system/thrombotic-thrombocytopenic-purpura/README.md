@@ -472,6 +472,15 @@ cross_links:
   - target: 03-medicine/03-food/vitamin-d
     relation: connects-to
     note: "Immunomodulatory vitamin: vitamin D modulates the T-cell (already mapped) autoimmunity, and its deficiency is part of the micronutrient dimension of the autoimmune thrombotic thrombocytopenic purpura."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) at the injured endothelium (already mapped), overlapping the complement-mediated microangiopathy that distinguishes TTP from atypical HUS."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement/contact regulation: the C1-esterase inhibitor regulates the classical complement and the contact-coagulation systems activated by the anti-ADAMTS13 (immunoglobulin already mapped) autoimmunity of thrombotic thrombocytopenic purpura."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Haemolytic iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the microangiopathic haemolysis of thrombotic thrombocytopenic purpura."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -778,6 +787,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Adaptive autoimmunity: the cytotoxic T cells (perforin already mapped), alongside the T-helper (already mapped) support of the anti-ADAMTS13 (already mapped) B-cell response, are part of the adaptive autoimmunity of thrombotic thrombocytopenic purpura.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Antioxidant micronutrient: selenium, a selenoprotein antioxidant cofactor, is part of the micronutrient dimension of the immune dysregulation of the autoimmune thrombotic thrombocytopenic purpura.
 - `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Immunomodulatory vitamin: vitamin D modulates the T-cell (already mapped) autoimmunity, and its deficiency is part of the micronutrient dimension of the autoimmune thrombotic thrombocytopenic purpura.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) at the injured endothelium (already mapped), overlapping the complement-mediated microangiopathy that distinguishes TTP from atypical HUS.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement/contact regulation: the C1-esterase inhibitor regulates the classical complement and the contact-coagulation systems activated by the anti-ADAMTS13 (immunoglobulin already mapped) autoimmunity of thrombotic thrombocytopenic purpura.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Haemolytic iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the microangiopathic haemolysis of thrombotic thrombocytopenic purpura.
 
 ---
 
