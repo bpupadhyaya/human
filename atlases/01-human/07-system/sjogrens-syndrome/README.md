@@ -463,6 +463,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "Selenium immune status: the selenium selenoprotein antioxidant defence modulates the lymphocyte function and the autoimmune-thyroid overlap of Sjögren's syndrome."
+  - target: 01-human/03-molecular/il-31
+    relation: connects-to
+    note: "Neuroimmune itch/dryness: IL-31, a type-2 (IL-4 and IL-13 already mapped) cytokine, links the type-2 immunity to the sensory-nerve dysfunction contributing to the dryness and discomfort of Sjögren's syndrome."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "Complement C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the glandular inflammation and, when consumed, the low complement marks the lymphoma risk of Sjögren's syndrome."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Type-2 glandular fibrosis: periostin, downstream of the type-2 (IL-4 and IL-13 already mapped) cytokines and the TSLP (already mapped), is part of the fibrotic remodelling of the exocrine glands of Sjögren's syndrome."
 ---
 
 # Sjögren's Syndrome
@@ -741,6 +750,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Mast-cell fibrosis: the mast cells infiltrate the salivary glands and contribute to the periductal fibrosis and the type-2 (IL-4 and IL-13 already mapped) dimension of Sjögren's syndrome.
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Epithelial alarmin: the ductal-epithelial TSLP alarmin drives the type-2 (IL-4 and IL-13 already mapped) immunity of the damaged exocrine epithelium of Sjögren's syndrome.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Selenium immune status: the selenium selenoprotein antioxidant defence modulates the lymphocyte function and the autoimmune-thyroid overlap of Sjögren's syndrome.
+- `connects-to` → **[IL-31](../../03-molecular/il-31/README.md)** — Neuroimmune itch/dryness: IL-31, a type-2 (IL-4 and IL-13 already mapped) cytokine, links the type-2 immunity to the sensory-nerve dysfunction contributing to the dryness and discomfort of Sjögren's syndrome.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — Complement C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the glandular inflammation and, when consumed, the low complement marks the lymphoma risk of Sjögren's syndrome.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Type-2 glandular fibrosis: periostin, downstream of the type-2 (IL-4 and IL-13 already mapped) cytokines and the TSLP (already mapped), is part of the fibrotic remodelling of the exocrine glands of Sjögren's syndrome.
 
 ---
 
