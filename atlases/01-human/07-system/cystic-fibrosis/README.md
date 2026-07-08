@@ -475,6 +475,15 @@ cross_links:
   - target: 02-pathogen/03-fungi/aspergillus-fumigatus
     relation: connects-to
     note: "ABPA fungus: Aspergillus fumigatus colonises the cystic-fibrosis airways and drives the IgE-mediated (already mapped) allergic bronchopulmonary aspergillosis."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) on the chronically infected cystic-fibrosis airway, a pathway the colonising pathogens also exploit."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Airway iron: transferrin, the iron carrier, reflects the disordered airway iron handling (hepcidin already mapped) that fuels the Pseudomonas biofilm growth in the cystic-fibrosis airway."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Airway remodelling: periostin, downstream of the IL-13 (already mapped) signalling, is part of the bronchiectatic small-airway remodelling of cystic fibrosis."
 ---
 
 # Cystic Fibrosis
@@ -755,6 +764,9 @@ AND
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the neutrophil (already mapped) recruitment and the chronic airway inflammation of cystic fibrosis.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — ABPA arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), mediates the allergic bronchopulmonary aspergillosis, a frequent Aspergillus-driven complication of cystic fibrosis.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — ABPA fungus: Aspergillus fumigatus colonises the cystic-fibrosis airways and drives the IgE-mediated (already mapped) allergic bronchopulmonary aspergillosis.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) on the chronically infected cystic-fibrosis airway, a pathway the colonising pathogens also exploit.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Airway iron: transferrin, the iron carrier, reflects the disordered airway iron handling (hepcidin already mapped) that fuels the Pseudomonas biofilm growth in the cystic-fibrosis airway.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Airway remodelling: periostin, downstream of the IL-13 (already mapped) signalling, is part of the bronchiectatic small-airway remodelling of cystic fibrosis.
 
 ---
 
