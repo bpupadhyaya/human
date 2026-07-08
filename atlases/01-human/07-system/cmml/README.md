@@ -466,6 +466,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the inflammatory microenvironment of CMML."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) links the complement to the monocyte and myeloid inflammation of the CMML microenvironment."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement: the complement C5 and its activation (with C3 already mapped) are part of the inflammasome-driven (NLRP3 already mapped) inflammation of CMML."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Transfusional iron: transferrin, the iron carrier, reflects the iron handling of the anaemia and the transfusion-dependent iron overload of CMML."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -741,6 +750,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the inflammatory bone-marrow (already mapped) microenvironment of CMML.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the inflammatory bone-marrow milieu of CMML.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the inflammatory microenvironment of CMML.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) links the complement to the monocyte and myeloid inflammation of the CMML microenvironment.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its activation (with C3 already mapped) are part of the inflammasome-driven (NLRP3 already mapped) inflammation of CMML.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Transfusional iron: transferrin, the iron carrier, reflects the iron handling of the anaemia and the transfusion-dependent iron overload of CMML.
 
 ---
 

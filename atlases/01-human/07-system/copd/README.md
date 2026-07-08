@@ -472,6 +472,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "Cytotoxic emphysema: the NK cells (perforin already mapped) are increased in COPD and contribute to the cytotoxic destruction of the alveolar epithelium of the emphysema."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the neutrophil (already mapped) recruitment and the innate inflammation of the COPD airway and emphysema."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Type-2 remodelling: periostin, downstream of the IL-13 (already mapped) signalling, marks the type-2/eosinophilic COPD subset and the small-airway remodelling."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Epithelial alarmin: TSLP, released by the injured airway epithelium, is an upstream alarmin of the airway inflammation of COPD and the target of the tezepelumab studied in the disease."
 ---
 
 # COPD
@@ -766,6 +775,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2/ACO arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), reflects the type-2 dimension of the eosinophilic COPD and the asthma-COPD (already mapped) overlap.
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Airway mast cells: the mast cells infiltrate the COPD airways and, armed by the IgE (already mapped), contribute to the type-2 component of the airway inflammation of COPD.
 - `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Cytotoxic emphysema: the NK cells (perforin already mapped) are increased in COPD and contribute to the cytotoxic destruction of the alveolar epithelium of the emphysema.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the neutrophil (already mapped) recruitment and the innate inflammation of the COPD airway and emphysema.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Type-2 remodelling: periostin, downstream of the IL-13 (already mapped) signalling, marks the type-2/eosinophilic COPD subset and the small-airway remodelling.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Epithelial alarmin: TSLP, released by the injured airway epithelium, is an upstream alarmin of the airway inflammation of COPD and the target of the tezepelumab studied in the disease.
 
 ---
 
