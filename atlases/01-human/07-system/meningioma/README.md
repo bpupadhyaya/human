@@ -457,6 +457,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the meningioma microenvironment."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Peritumoural oedema: the mast cells of the meningioma stroma are associated with the peritumoural brain (already mapped) oedema and contribute to the angiogenesis (VEGF already mapped) and type-2 microenvironment."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Innate cytotoxicity: the NK cells (perforin already mapped) provide the innate cytotoxic surveillance within the immune microenvironment of meningioma."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Antigen presentation: the dendritic cells present the tumour antigen to the T cells (already mapped) shaping the adaptive immune response against meningioma."
 ---
 
 # Meningioma
@@ -720,6 +729,9 @@ VEGF overexpression in meningioma (YAP target); Phase 2 COMBIT (Huang 2019, N=40
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune microenvironment of meningioma.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the inflammatory dimension of the meningioma microenvironment.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension of the meningioma microenvironment.
+- `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Peritumoural oedema: the mast cells of the meningioma stroma are associated with the peritumoural brain (already mapped) oedema and contribute to the angiogenesis (VEGF already mapped) and type-2 microenvironment.
+- `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Innate cytotoxicity: the NK cells (perforin already mapped) provide the innate cytotoxic surveillance within the immune microenvironment of meningioma.
+- `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Antigen presentation: the dendritic cells present the tumour antigen to the T cells (already mapped) shaping the adaptive immune response against meningioma.
 
 [^brastianos-2013-akt1-meningioma]: Brastianos PK, Horowitz PM, Santagata S, et al. Genomic sequencing of meningiomas identifies oncogenic SMO and AKT1 mutations. *Nat Genet.* 2013;45(3):285-289. [doi:10.1038/ng.2526](https://doi.org/10.1038/ng.2526) · [PubMed 23334667](https://pubmed.ncbi.nlm.nih.gov/23334667/)
 [^nassiri-2021-meningioma-classification]: Nassiri F, Liu J, Patil V, et al. A clinically applicable integrative molecular classification of meningiomas. *Nature.* 2021;597(7874):119-125. [doi:10.1038/s41586-021-03850-3](https://doi.org/10.1038/s41586-021-03850-3) · [PubMed 34385709](https://pubmed.ncbi.nlm.nih.gov/34385709/)
