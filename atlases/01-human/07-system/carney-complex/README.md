@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/03-molecular/il-13
     relation: connects-to
     note: "Type-2 microenvironment: IL-13, with IL-4 (already mapped), drives the M2 tumour-associated macrophages of the endocrine and myxomatous tumours of Carney complex."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic milieu, altered by the Cushing (cortisol already mapped) of Carney complex."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), completes the adipokine dimension of the immune-metabolic microenvironment of Carney complex."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 antitumour arm: the IFN-γ of the T cells (perforin already mapped) is the type-II interferon arm counter-balancing the type-2 (IL-4 and IL-13 already mapped) macrophage polarisation of the Carney-complex tumours."
 ---
 
 # Carney Complex
@@ -713,6 +722,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[Adrenal gland](../../06-organ/adrenal-gland/README.md)** — PPNAD: the primary pigmented nodular adrenocortical disease of the adrenal gland causes the ACTH-independent (cortisol and ACTH already mapped) Cushing syndrome of Carney complex.
 - `connects-to` → **[Thyroid](../../06-organ/thyroid/README.md)** — Thyroid tumours: the thyroid nodules and follicular tumours (thyroid-hormones already mapped) are part of the tumour spectrum of Carney complex.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Type-2 microenvironment: IL-13, with IL-4 (already mapped), drives the M2 tumour-associated macrophages of the endocrine and myxomatous tumours of Carney complex.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Metabolic adipokine: adiponectin, with leptin (already mapped), is part of the adipokine dimension of the metabolic milieu, altered by the Cushing (cortisol already mapped) of Carney complex.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), completes the adipokine dimension of the immune-metabolic microenvironment of Carney complex.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 antitumour arm: the IFN-γ of the T cells (perforin already mapped) is the type-II interferon arm counter-balancing the type-2 (IL-4 and IL-13 already mapped) macrophage polarisation of the Carney-complex tumours.
 
 ---
 

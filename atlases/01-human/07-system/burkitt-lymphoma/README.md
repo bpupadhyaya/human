@@ -448,6 +448,15 @@ cross_links:
   - target: 01-human/03-molecular/type-i-interferon
     relation: connects-to
     note: "EBV antiviral interferon: the type-I interferon antiviral response to the EBV (LMP1 already mapped) is part of the host-virus biology of the endemic EBV-driven Burkitt lymphoma."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 antitumour/antiviral arm: the IFN-γ of the T cells (perforin already mapped) is the type-II interferon arm of the anti-tumour and anti-EBV (LMP1 already mapped) immunity of Burkitt lymphoma."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune microenvironment of Burkitt lymphoma."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune microenvironment of Burkitt lymphoma."
 ---
 
 # Burkitt Lymphoma
@@ -726,6 +735,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipokine microenvironment: adiponectin, with leptin (already mapped), is part of the adipose/marrow-microenvironment adipokine signalling to the aggressive Burkitt lymphoma cells.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Adipokine microenvironment: resistin, with leptin and adiponectin (already mapped), completes the adipokine dimension of the microenvironment of Burkitt lymphoma.
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — EBV antiviral interferon: the type-I interferon antiviral response to the EBV (LMP1 already mapped) is part of the host-virus biology of the endemic EBV-driven Burkitt lymphoma.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Th1 antitumour/antiviral arm: the IFN-γ of the T cells (perforin already mapped) is the type-II interferon arm of the anti-tumour and anti-EBV (LMP1 already mapped) immunity of Burkitt lymphoma.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune microenvironment of Burkitt lymphoma.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Type-2 arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), is the eosinophil/Th2 dimension of the immune microenvironment of Burkitt lymphoma.
 
 ---
 
