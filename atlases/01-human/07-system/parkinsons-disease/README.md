@@ -466,6 +466,15 @@ cross_links:
   - target: 01-human/03-molecular/ige
     relation: connects-to
     note: "Type-2 arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), reflects the type-2 immune dimension of the peripheral immune dysregulation of Parkinson's disease."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Nigral iron: transferrin, the iron carrier, is central to the iron accumulation in the substantia nigra that, with the disordered ferroportin and hepcidin (already mapped), drives the oxidative stress and ferroptosis of the dopaminergic neurons of Parkinson's disease."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Antigen presentation: the dendritic cells of the CNS-border and peripheral compartments present the alpha-synuclein (already mapped) epitopes to the T cells (already mapped), priming the adaptive autoimmunity implicated in Parkinson's disease."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "Complement C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) links the complement to the microglial (already mapped) neuroinflammation of Parkinson's disease."
 ---
 
 # Parkinson's Disease
@@ -754,6 +763,9 @@ PD is primarily a disease of aging (mean onset ~60 years), but **~10–15% of ca
 - `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Anti-α-synuclein humoral arm: the B cells produce the anti-α-synuclein (SNCA already mapped) antibodies of the emerging adaptive-immune contribution to Parkinson's disease.
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Mast-cell neuroinflammation: the mast cells of the brain and the gut (already mapped) contribute to the neuroinflammation and the gut-brain axis of Parkinson's disease.
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Type-2 arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), reflects the type-2 immune dimension of the peripheral immune dysregulation of Parkinson's disease.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Nigral iron: transferrin, the iron carrier, is central to the iron accumulation in the substantia nigra that, with the disordered ferroportin and hepcidin (already mapped), drives the oxidative stress and ferroptosis of the dopaminergic neurons of Parkinson's disease.
+- `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Antigen presentation: the dendritic cells of the CNS-border and peripheral compartments present the alpha-synuclein (already mapped) epitopes to the T cells (already mapped), priming the adaptive autoimmunity implicated in Parkinson's disease.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — Complement C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) links the complement to the microglial (already mapped) neuroinflammation of Parkinson's disease.
 
 [^kalia-2015-pd-review]: Kalia LV, Lang AE. Parkinson's disease. *Lancet.* 2015;386(9996):896-912. [doi:10.1016/S0140-6736(14)61393-3](https://doi.org/10.1016/S0140-6736(14)61393-3) · [PubMed 25904081](https://pubmed.ncbi.nlm.nih.gov/25904081/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
