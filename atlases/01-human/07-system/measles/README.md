@@ -488,6 +488,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Acute-phase iron: transferrin, the iron carrier, reflects the hypoferraemia and disordered iron handling (hepcidin already mapped) of the acute-phase response to the measles infection."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-airway axis: TSLP, from airway epithelium (already mapped) damaged by measles virus, primes dendritic cells (already mapped) and mast cells (already mapped) and amplifies the type-2 airway inflammation underlying the croup and the post-measles wheezing exacerbation."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-airway axis: bradykinin, via the kallikrein-kinin system activated by the measles-associated vascular endothelial (already mapped) injury, amplifies the airway oedema and the vascular permeability of the measles bronchopneumonia."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Post-measles anaemia: erythropoietin drives red-cell regeneration to correct the anaemia driven by the cytokine-storm (IL-6 already mapped) and the haemophagocytic (bone-marrow already mapped) suppression of the severe measles infection."
 ---
 
 # Measles
@@ -789,6 +798,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Immune-activation matricellular: osteopontin, a matricellular cytokine, is part of the strong pro-inflammatory immune activation of the acute measles infection.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Airway remodelling: periostin, downstream of the type-2 (IL-4 and IL-13 already mapped) cytokines, is part of the airway inflammation and remodelling of the measles giant-cell pneumonia.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Acute-phase iron: transferrin, the iron carrier, reflects the hypoferraemia and disordered iron handling (hepcidin already mapped) of the acute-phase response to the measles infection.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-airway axis: TSLP, from airway epithelium (already mapped) damaged by measles virus, primes dendritic cells (already mapped) and mast cells (already mapped) and amplifies the type-2 airway inflammation underlying the croup and the post-measles wheezing exacerbation.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-airway axis: bradykinin, via the kallikrein-kinin system activated by the measles-associated vascular endothelial (already mapped) injury, amplifies the airway oedema and the vascular permeability of the measles bronchopneumonia.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Post-measles anaemia: erythropoietin drives red-cell regeneration to correct the anaemia driven by the cytokine-storm (IL-6 already mapped) and the haemophagocytic (bone-marrow already mapped) suppression of the severe measles infection.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)

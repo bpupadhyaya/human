@@ -490,6 +490,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "CNS-border antigen presentation: the dendritic cells of the CNS-border compartments present the alpha-synuclein (already mapped) antigen to the T cells (already mapped) in the neuroinflammation of Lewy body dementia."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-neuroinflammatory axis: TSLP, from gut-epithelium (gut-microbiome already mapped) under the autonomic dysfunction and dysbiosis of Lewy body dementia, primes dendritic cells (already mapped) and mast cells (already mapped) and amplifies the gut-brain neuroinflammation."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-neuroinflammatory axis: bradykinin, via B2R on CNS microglia (already mapped) and neurons (already mapped), amplifies the BBB permeability and the neuroinflammation contributing to the α-synuclein (already mapped) propagation of Lewy body dementia."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Neuroprotective EPO: erythropoietin, via EpoR on neurons (already mapped) and oligodendrocytes (already mapped), exerts neuroprotective and anti-apoptotic effects relevant to the dopaminergic (dopamine already mapped) and non-dopaminergic neurodegeneration of Lewy body dementia."
 ---
 
 # Lewy Body Dementia
@@ -773,6 +782,9 @@ Approximately 25-50% of clinically diagnosed DLB cases have significant AD co-pa
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the complement-mediated synapse loss of Lewy body dementia.
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway (C1q-initiated) implicated in the synaptic pruning of the α-synucleinopathy of Lewy body dementia.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — CNS-border antigen presentation: the dendritic cells of the CNS-border compartments present the alpha-synuclein (already mapped) antigen to the T cells (already mapped) in the neuroinflammation of Lewy body dementia.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-neuroinflammatory axis: TSLP, from gut-epithelium (gut-microbiome already mapped) under the autonomic dysfunction and dysbiosis of Lewy body dementia, primes dendritic cells (already mapped) and mast cells (already mapped) and amplifies the gut-brain neuroinflammation.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-neuroinflammatory axis: bradykinin, via B2R on CNS microglia (already mapped) and neurons (already mapped), amplifies the BBB permeability and the neuroinflammation contributing to the α-synuclein (already mapped) propagation of Lewy body dementia.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Neuroprotective EPO: erythropoietin, via EpoR on neurons (already mapped) and oligodendrocytes (already mapped), exerts neuroprotective and anti-apoptotic effects relevant to the dopaminergic (dopamine already mapped) and non-dopaminergic neurodegeneration of Lewy body dementia.
 
 [^mckeith-2017-dlb-criteria]: McKeith IG, Boeve BF, Dickson DW, et al. Diagnosis and management of dementia with Lewy bodies: Fourth consensus report of the DLB Consortium. *Neurology.* 2017;89(1):88-100. [doi:10.1212/WNL.0000000000004058](https://doi.org/10.1212/WNL.0000000000004058) · [PubMed 28592453](https://pubmed.ncbi.nlm.nih.gov/28592453/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
