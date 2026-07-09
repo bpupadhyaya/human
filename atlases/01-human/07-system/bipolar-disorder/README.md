@@ -490,6 +490,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "CNS-border antigen presentation: the dendritic cells of the CNS-border compartments are part of the neuroimmune interface implicated in the low-grade neuroinflammation of bipolar disorder."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-neuroinflammatory axis: TSLP, from epithelial barriers, primes mast cells (already mapped) and dendritic cells (already mapped) and amplifies the Th17 (already mapped) neuroinflammatory bias implicated in the mood episodes of bipolar disorder."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-neuroinflammatory axis: bradykinin, via B2R on CNS microglia (already mapped) and endothelium (already mapped), amplifies the BBB permeability and the neuroinflammation contributing to the mood episodes of bipolar disorder."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement brake: C1-esterase inhibitor regulates the classical-complement pathway (C3 and C5 already mapped) contributing to the synaptic pruning excess and the neuroinflammation of the mood episodes of bipolar disorder."
 ---
 
 # Bipolar Disorder
@@ -777,6 +786,9 @@ During bipolar depression (often longer and more disabling than mania):
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 already mapped) are part of the low-grade complement activation of the neuroinflammation implicated in bipolar disorder.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) links the complement to the microglial (already mapped) neuroinflammation implicated in the mood episodes of bipolar disorder.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — CNS-border antigen presentation: the dendritic cells of the CNS-border compartments are part of the neuroimmune interface implicated in the low-grade neuroinflammation of bipolar disorder.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-neuroinflammatory axis: TSLP, from epithelial barriers, primes mast cells (already mapped) and dendritic cells (already mapped) and amplifies the Th17 (already mapped) neuroinflammatory bias implicated in the mood episodes of bipolar disorder.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-neuroinflammatory axis: bradykinin, via B2R on CNS microglia (already mapped) and endothelium (already mapped), amplifies the BBB permeability and the neuroinflammation contributing to the mood episodes of bipolar disorder.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement brake: C1-esterase inhibitor regulates the classical-complement pathway (C3 and C5 already mapped) contributing to the synaptic pruning excess and the neuroinflammation of the mood episodes of bipolar disorder.
 
 [^grande-2016-bipolar-review]: Grande I, Berk M, Birmaher B, Vieta E. Bipolar disorder. *Lancet.* 2016;387(10027):1561-1572. [doi:10.1016/S0140-6736(15)00241-X](https://doi.org/10.1016/S0140-6736(15)00241-X) · [PubMed 26388529](https://pubmed.ncbi.nlm.nih.gov/26388529/)
 [^geddes-2013-bipolar-treatment]: Geddes JR, Miklowitz DJ. Treatment of bipolar disorder. *Lancet.* 2013;381(9878):1672-1682. [doi:10.1016/S0140-6736(13)60857-0](https://doi.org/10.1016/S0140-6736(13)60857-0) · [PubMed 23663953](https://pubmed.ncbi.nlm.nih.gov/23663953/)

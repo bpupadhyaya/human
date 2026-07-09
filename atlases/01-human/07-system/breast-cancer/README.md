@@ -487,6 +487,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Antigen presentation: the dendritic cells present the tumour antigen to the CD8 (already mapped) T cells, shaping the immunotherapy response of the triple-negative breast cancer."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-tumour axis: TSLP, secreted by cancer-associated fibroblasts (already mapped) and tumour stroma, primes dendritic cells (already mapped) and mast cells (already mapped) toward the Th2 immunosuppressive bias of the breast-cancer microenvironment."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-tumour axis: bradykinin, via the kallikrein-kinin system in the breast-cancer microenvironment, amplifies the vascular permeability and the pro-tumorigenic myeloid (macrophage already mapped) recruitment via B1R and B2R."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Anaemia of cancer: erythropoietin corrects the cancer-related and chemotherapy-induced anaemia of breast cancer; EpoR expression on tumour cells also confers a potential direct growth signal."
 ---
 
 # Breast Cancer
@@ -749,6 +758,9 @@ cross_links:
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 already mapped) contribute to the inflammatory and immunosuppressive dimension of the breast-cancer microenvironment.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the myeloid (macrophage already mapped) recruitment and immunosuppression of the breast-cancer microenvironment.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Antigen presentation: the dendritic cells present the tumour antigen to the CD8 (already mapped) T cells, shaping the immunotherapy response of the triple-negative breast cancer.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-tumour axis: TSLP, secreted by cancer-associated fibroblasts (already mapped) and tumour stroma, primes dendritic cells (already mapped) and mast cells (already mapped) toward the Th2 immunosuppressive bias of the breast-cancer microenvironment.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-tumour axis: bradykinin, via the kallikrein-kinin system in the breast-cancer microenvironment, amplifies the vascular permeability and the pro-tumorigenic myeloid (macrophage already mapped) recruitment via B1R and B2R.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Anaemia of cancer: erythropoietin corrects the cancer-related and chemotherapy-induced anaemia of breast cancer; EpoR expression on tumour cells also confers a potential direct growth signal.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
