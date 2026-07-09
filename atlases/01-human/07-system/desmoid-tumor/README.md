@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Fibromatosis matricellular: osteopontin, a matricellular mediator, contributes to the fibroblast (already mapped) activation and the matrix remodelling (with periostin already mapped) of the desmoid tumour."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-desmoid axis: TSLP, from the CTNNB1-mutant desmoid stromal cells and the mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2 immunosuppressive microenvironment of the desmoid tumour."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-desmoid axis: bradykinin, via B1/B2 receptors on the desmoid endothelium (already mapped) and mast cells (already mapped), amplifies the vascular permeability, the tumour oedema, and the inflammatory stromal milieu of the desmoid tumour."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "EPO-desmoid axis: erythropoietin, via the EPOR on the CTNNB1-activated desmoid tumour cells (already mapped), activates the PI3K/AKT (already mapped) survival axis and the angiogenic (VEGF already mapped) dimension of the desmoid tumour stroma."
 ---
 
 # Desmoid Tumor
@@ -773,6 +782,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 and C5aR1 already mapped) contribute to the inflammatory dimension of the fibroblast-rich desmoid-tumour microenvironment.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the desmoid-tumour cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), tempering the complement attack within the stroma.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Fibromatosis matricellular: osteopontin, a matricellular mediator, contributes to the fibroblast (already mapped) activation and the matrix remodelling (with periostin already mapped) of the desmoid tumour.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-desmoid axis: TSLP, from the CTNNB1-mutant desmoid stromal cells and the mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2 immunosuppressive microenvironment of the desmoid tumour.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-desmoid axis: bradykinin, via B1/B2 receptors on the desmoid endothelium (already mapped) and mast cells (already mapped), amplifies the vascular permeability, the tumour oedema, and the inflammatory stromal milieu of the desmoid tumour.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — EPO-desmoid axis: erythropoietin, via the EPOR on the CTNNB1-activated desmoid tumour cells (already mapped), activates the PI3K/AKT (already mapped) survival axis and the angiogenic (VEGF already mapped) dimension of the desmoid tumour stroma.
 
 ---
 

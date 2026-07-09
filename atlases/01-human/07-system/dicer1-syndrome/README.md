@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Tumour iron: transferrin, the iron carrier, supplies the iron demand of the proliferating cells of the DICER1-syndrome tumours (pleuropulmonary blastoma and others)."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-DICER1 axis: TSLP, from the DICER1-deficient tumour stromal cells and mast cells (already mapped), primes dendritic-cell (already mapped) Th2 polarisation and shapes the immune microenvironment of the DICER1-syndrome tumours."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-tumour axis: bradykinin, via B1/B2 receptors on tumour endothelium (already mapped) and mast cells (already mapped), amplifies the vascular permeability and the inflammatory stromal milieu of the DICER1-syndrome tumours including pleuropulmonary blastoma."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "EPO-DICER1 axis: erythropoietin, via the EPOR on DICER1-syndrome tumour cells (already mapped), activates the PI3K/AKT (already mapped) survival axis and modulates the angiogenic dimension of the DICER1-driven tumour stroma."
 ---
 
 # DICER1 Syndrome
@@ -754,6 +763,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 and C5aR1 already mapped) contribute to the inflammatory dimension of the DICER1-syndrome tumour microenvironment.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the DICER1-syndrome tumour cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), tempering the complement attack within the tumour stroma.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Tumour iron: transferrin, the iron carrier, supplies the iron demand of the proliferating cells of the DICER1-syndrome tumours (pleuropulmonary blastoma and others).
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-DICER1 axis: TSLP, from the DICER1-deficient tumour stromal cells and mast cells (already mapped), primes dendritic-cell (already mapped) Th2 polarisation and shapes the immune microenvironment of the DICER1-syndrome tumours.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-tumour axis: bradykinin, via B1/B2 receptors on tumour endothelium (already mapped) and mast cells (already mapped), amplifies the vascular permeability and the inflammatory stromal milieu of the DICER1-syndrome tumours including pleuropulmonary blastoma.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — EPO-DICER1 axis: erythropoietin, via the EPOR on DICER1-syndrome tumour cells (already mapped), activates the PI3K/AKT (already mapped) survival axis and modulates the angiogenic dimension of the DICER1-driven tumour stroma.
 
 ---
 
