@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Tumour iron: transferrin, the iron carrier, supplies the iron demand of the uveal-melanoma cells and their iron-rich hepatic (liver already mapped) metastatic niche."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Stromal alarmin: TSLP released from the uveal-melanoma stromal fibroblasts (already mapped) and choroidal stroma activates mast cells (already mapped) and dendritic cells (already mapped), sustaining the type-2 immunosuppressive microenvironment that blunts cytotoxic immunity."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Tumour anaemia and EPO-R: erythropoietin corrects the anaemia of chronic disease (already mapped) of advanced uveal melanoma, and EPOR expression on choroidal melanocytes has been reported, suggesting possible direct trophic effects on tumour growth."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Invasion ECM scaffold: periostin is upregulated in the uveal-melanoma stromal niche and the hepatic (liver already mapped) metastatic microenvironment, promoting the extracellular matrix remodelling and the invasion of the GNAQ/GNA11-driven melanoma cells."
 ---
 
 # Uveal Melanoma
@@ -764,6 +773,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Central complement: the complement C3, upstream of the C5 and C5aR1 (already mapped), is the pivot of the complement activation within the immunosuppressive uveal-melanoma microenvironment.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the uveal-melanoma cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), evading the complement attack in the primary tumour and its hepatic (liver already mapped) metastatic niche.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Tumour iron: transferrin, the iron carrier, supplies the iron demand of the uveal-melanoma cells and their iron-rich hepatic (liver already mapped) metastatic niche.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Stromal alarmin: TSLP released from the uveal-melanoma stromal fibroblasts (already mapped) and choroidal stroma activates mast cells (already mapped) and dendritic cells (already mapped), sustaining the type-2 immunosuppressive microenvironment that blunts cytotoxic immunity.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Tumour anaemia and EPO-R: erythropoietin corrects the anaemia of chronic disease (already mapped) of advanced uveal melanoma, and EPOR expression on choroidal melanocytes has been reported, suggesting possible direct trophic effects on tumour growth.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Invasion ECM scaffold: periostin is upregulated in the uveal-melanoma stromal niche and the hepatic (liver already mapped) metastatic microenvironment, promoting the extracellular matrix remodelling and the invasion of the GNAQ/GNA11-driven melanoma cells.
 
 ---
 
