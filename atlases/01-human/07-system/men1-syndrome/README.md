@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/c5ar1
     relation: connects-to
     note: "C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid recruitment into the MEN1 neuroendocrine tumour stroma."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Neuroendocrine stroma alarmin: TSLP from the MEN1 pancreatic tumour stroma (pNETs) activates dendritic cells (already mapped) and shapes the immunological response in the neuroendocrine-tumour (already mapped) microenvironment of MEN1 pancreatic neoplasms."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Neuroendocrine tumour complement: complement C5 (with C3 already mapped) drives complement-dependent cytotoxicity against the neuroendocrine tumours of MEN1; C5a–C5aR1 signalling recruits myeloid cells into the pNET and parathyroid adenoma stroma of MEN1 syndrome."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Hormonal syndrome vasomotor: bradykinin contributes to the flushing and diarrhoea of the VIPoma and carcinoid-like syndromes of MEN1 neuroendocrine tumours; kinin-kallikrein activation (via VIP and somatostatin already mapped) amplifies the vasomotor secretory responses of MEN1."
 ---
 
 # MEN1 Syndrome
@@ -747,6 +756,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines shaping the immune microenvironment of the MEN1 neuroendocrine tumours.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumour-associated macrophages: the macrophages are a dominant myeloid population of the stroma of the well-vascularised (VEGF already mapped) MEN1 neuroendocrine tumours.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid recruitment into the MEN1 neuroendocrine tumour stroma.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Neuroendocrine stroma alarmin: TSLP from the MEN1 pancreatic tumour stroma (pNETs) activates dendritic cells (already mapped) and shapes the immunological response in the neuroendocrine-tumour (already mapped) microenvironment of MEN1 pancreatic neoplasms.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Neuroendocrine tumour complement: complement C5 (with C3 already mapped) drives complement-dependent cytotoxicity against the neuroendocrine tumours of MEN1; C5a–C5aR1 signalling recruits myeloid cells into the pNET and parathyroid adenoma stroma of MEN1 syndrome.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Hormonal syndrome vasomotor: bradykinin contributes to the flushing and diarrhoea of the VIPoma and carcinoid-like syndromes of MEN1 neuroendocrine tumours; kinin-kallikrein activation (via VIP and somatostatin already mapped) amplifies the vasomotor secretory responses of MEN1.
 
 ---
 

@@ -481,6 +481,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Tumour iron: transferrin, the iron carrier, supplies the iron demand of the proliferating melanoma cells, which overexpress the transferrin receptor."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Immune-polarisation alarmin: TSLP from keratinocytes and stromal cells skews the melanoma microenvironment toward Th2, suppressing the anti-tumour Th1 and NK-cell (already mapped) immunity and reducing the efficacy of the PD-1 (already mapped) checkpoint inhibitors."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Melanoma invasion stroma: periostin secreted by cancer-associated fibroblasts and TGF-β (already mapped) signalling promotes the stromal remodelling and integrin αV-mediated invasiveness of melanoma cells, facilitating the locoregional spread and metastasis of melanoma."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell immunosuppression: histamine from the mast cells (already mapped) infiltrating melanoma stroma promotes VEGF (already mapped) angiogenesis and suppresses NK-cell cytotoxicity via H2 receptor signalling, contributing to the immune-evasion of melanoma."
 ---
 
 # Melanoma
@@ -725,6 +734,9 @@ cross_links:
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the melanoma cells recruit factor H to regulate the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) and evade the complement attack of the melanoma microenvironment.
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway activated by the anti-tumour antibodies (already mapped) within the melanoma microenvironment.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Tumour iron: transferrin, the iron carrier, supplies the iron demand of the proliferating melanoma cells, which overexpress the transferrin receptor.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Immune-polarisation alarmin: TSLP from keratinocytes and stromal cells skews the melanoma microenvironment toward Th2, suppressing the anti-tumour Th1 and NK-cell (already mapped) immunity and reducing the efficacy of the PD-1 (already mapped) checkpoint inhibitors.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Melanoma invasion stroma: periostin secreted by cancer-associated fibroblasts and TGF-β (already mapped) signalling promotes the stromal remodelling and integrin αV-mediated invasiveness of melanoma cells, facilitating the locoregional spread and metastasis of melanoma.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell immunosuppression: histamine from the mast cells (already mapped) infiltrating melanoma stroma promotes VEGF (already mapped) angiogenesis and suppresses NK-cell cytotoxicity via H2 receptor signalling, contributing to the immune-evasion of melanoma.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
