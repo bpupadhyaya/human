@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/c5ar1
     relation: connects-to
     note: "C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid (macrophage already mapped) recruitment into the inflamed stroma of the Peutz-Jeghers polyps."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Intestinal alarmin: TSLP released by the inflamed intestinal epithelium of Peutz-Jeghers polyps activates mast cells and dendritic cells, promoting the type-2 inflammatory stroma and accelerating the STK11-mutant adenoma transition."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Hamartomatous ECM: periostin, a downstream target of the PI3K pathway (mTOR already mapped) dysregulated by STK11 loss, drives the mesenchymal overgrowth and fibroblast expansion of the Peutz-Jeghers polyp stroma."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Polyp mast-cell effector: histamine from the abundant stromal mast cells of Peutz-Jeghers polyps promotes angiogenesis and mucous secretion, contributing to the obstructive and intussusception episodes that dominate the clinical course."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -751,6 +760,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Mucosal B cells: the B cells of the intestinal mucosa contribute to the humoral and organised immune response within the inflamed stroma of the Peutz-Jeghers polyps.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Polyp complement: the complement C3 activation contributes to the inflammatory dimension of the hamartomatous-polyp stroma of Peutz-Jeghers syndrome.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid (macrophage already mapped) recruitment into the inflamed stroma of the Peutz-Jeghers polyps.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Intestinal alarmin: TSLP released by the inflamed intestinal epithelium of Peutz-Jeghers polyps activates mast cells and dendritic cells, promoting the type-2 inflammatory stroma and accelerating the STK11-mutant adenoma transition.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Hamartomatous ECM: periostin, a downstream target of the PI3K pathway (mTOR already mapped) dysregulated by STK11 loss, drives the mesenchymal overgrowth and fibroblast expansion of the Peutz-Jeghers polyp stroma.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Polyp mast-cell effector: histamine from the abundant stromal mast cells of Peutz-Jeghers polyps promotes angiogenesis and mucous secretion, contributing to the obstructive and intussusception episodes that dominate the clinical course.
 
 ---
 

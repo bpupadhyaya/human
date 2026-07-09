@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Tumour complement: the complement C3 activation contributes to the inflammatory dimension of the pheochromocytoma-paraganglioma microenvironment."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Neuroendocrine–immune alarmin: TSLP released in the adrenal medullary and paraganglionic microenvironment is modulated by the catecholamine-driven (noradrenaline/adrenaline already mapped) sympathetic-immune axis of pheochromocytoma-paraganglioma."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Catecholamine-co-secreted mediator: histamine is co-secreted with catecholamines by PPGL chromaffin cells and by the abundant intratumoural mast cells, contributing to the flushing and hypertensive crises that mimic carcinoid syndrome."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Vasomotor crisis amplifier: bradykinin, released from intratumoural mast cells and the kinin–kallikrein cascade activated during pheochromocytoma catecholamine surges, amplifies the vasodilation and hypotension of the post-crisis nadir."
 ---
 
 # Pheochromocytoma/Paraganglioma
@@ -769,6 +778,9 @@ Active in Cluster 1 (MET/AXL co-expressed in SDH-deficient tumors); Phase 2 CABO
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines shaping the immune microenvironment of pheochromocytoma-paraganglioma.
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Stromal mast cells: the mast cells of the tumour stroma contribute to the angiogenesis (VEGF already mapped) and the type-2 microenvironment of the highly vascular pheochromocytoma-paraganglioma.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Tumour complement: the complement C3 activation contributes to the inflammatory dimension of the pheochromocytoma-paraganglioma microenvironment.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Neuroendocrine–immune alarmin: TSLP released in the adrenal medullary and paraganglionic microenvironment is modulated by the catecholamine-driven (noradrenaline/adrenaline already mapped) sympathetic-immune axis of pheochromocytoma-paraganglioma.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Catecholamine-co-secreted mediator: histamine is co-secreted with catecholamines by PPGL chromaffin cells and by the abundant intratumoural mast cells, contributing to the flushing and hypertensive crises that mimic carcinoid syndrome.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Vasomotor crisis amplifier: bradykinin, released from intratumoural mast cells and the kinin–kallikrein cascade activated during pheochromocytoma catecholamine surges, amplifies the vasodilation and hypotension of the post-crisis nadir.
 
 [^lenders-2014-pheo-guideline]: Lenders JW, Duh QY, Eisenhofer G, et al. Pheochromocytoma and paraganglioma: an endocrine society clinical practice guideline. *J Clin Endocrinol Metab.* 2014;99(6):1915-1942. [doi:10.1210/jc.2014-1498](https://doi.org/10.1210/jc.2014-1498) · [PubMed 24893135](https://pubmed.ncbi.nlm.nih.gov/24893135/)
 [^baudin-2021-firstmappp-sunitinib]: Baudin E, Goichot B, Berruti A, et al. First International Randomized Study in Malignant Progressive Pheochromocytoma and Paragangliomas (FIRSTMAPPP). *Ann Oncol.* 2021;32(10):1245-1254. [doi:10.1016/j.annonc.2021.07.009](https://doi.org/10.1016/j.annonc.2021.07.009) · [PubMed 34246769](https://pubmed.ncbi.nlm.nih.gov/34246769/)
