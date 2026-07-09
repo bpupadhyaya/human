@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Acute-phase iron: transferrin, the iron carrier, is part of the acute-phase and vascular-permeability context accompanying the recurrent attacks of hereditary angioedema."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Mast-cell independent alarmin: TSLP, released by epithelial cells during the oedematous attacks, amplifies the type-2 polarisation of the dendritic cells (already mapped) independently of histamine (already mapped) in the immune landscape of hereditary angioedema."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Androgen-EPO axis: erythropoietin synthesis in the liver (already mapped) is enhanced by the androgen therapies (testosterone and danazol) used as prophylaxis in hereditary angioedema, linking the hormonal prevention strategy to the hepatic EPO production of the disease."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Submucosal remodelling: periostin, induced by the IL-4 and IL-13 (already mapped) released during oedematous attacks in the submucosal connective tissue, promotes the matricellular remodelling of the swollen tissues in hereditary angioedema."
 ---
 
 # Hereditary Angioedema
@@ -774,6 +783,9 @@ Fluid extravasation → ANGIOEDEMA
 - `connects-to` → **[Regulatory T cell](../../04-cellular/regulatory-t-cell/README.md)** — Immune tolerance: the regulatory T cells are part of the adaptive-immune context that the broadly anti-inflammatory C1-esterase inhibitor (already mapped) helps shape, relevant to the acquired autoimmune forms of angioedema.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Vascular matricellular: osteopontin, a matricellular cytokine of the vascular wall, is part of the endothelial (already mapped) and vascular-inflammation context of the bradykinin-mediated permeability of hereditary angioedema.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Acute-phase iron: transferrin, the iron carrier, is part of the acute-phase and vascular-permeability context accompanying the recurrent attacks of hereditary angioedema.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Mast-cell independent alarmin: TSLP, released by epithelial cells during the oedematous attacks, amplifies the type-2 polarisation of dendritic cells (already mapped) independently of histamine (already mapped) in the immune landscape of hereditary angioedema.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Androgen-EPO axis: erythropoietin synthesis in the liver (already mapped) is enhanced by the androgen therapies (testosterone and danazol) used as prophylaxis in hereditary angioedema, linking the hormonal prevention strategy to the hepatic EPO production of the disease.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Submucosal remodelling: periostin, induced by IL-4 and IL-13 (already mapped) released during oedematous attacks in the submucosal connective tissue, promotes the matricellular remodelling of the swollen tissues in hereditary angioedema.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)
