@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/c1-esterase-inhibitor
     relation: connects-to
     note: "Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway activated by the anti-tumour antibodies (already mapped) within the asbestos-driven chronic-inflammatory microenvironment of mesothelioma."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Pleural mesothelial alarmin: TSLP released by the asbestos-damaged and inflamed pleural mesothelium (respiratory system already mapped) activates the innate dendritic-cell and mast-cell response, amplifying the HMGB1-NF-kB (already mapped) inflammatory cascade of mesothelioma."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Mesothelial invasion stroma: periostin is highly expressed in the mesothelioma pleural stroma, downstream of TGF-β (already mapped) and fibroblast activation; elevated periostin promotes the integrin αV-mediated invasiveness and fibrotic pleural thickening of mesothelioma."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell stroma: histamine from the mast cells infiltrating mesothelioma stroma promotes VEGF (already mapped) angiogenesis and stromal remodelling; mast-cell histamine contributes to the pleural effusion and the immune-evasion environment of mesothelioma."
 ---
 
 # Mesothelioma
@@ -746,6 +755,9 @@ Cytoreductive surgery (CRS) + hyperthermic intraperitoneal chemotherapy (HIPEC):
 - `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Tertiary lymphoid structures: the B cells organise the tertiary lymphoid structures whose presence, with the CD8 (already mapped) TILs, associates with the nivolumab–ipilimumab (PD-1 already mapped) immunotherapy response of mesothelioma.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the mesothelioma cells recruit factor H to regulate the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) and evade the complement attack of the chronic-inflammatory microenvironment.
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway activated by the anti-tumour antibodies (already mapped) within the asbestos-driven chronic-inflammatory microenvironment of mesothelioma.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Pleural mesothelial alarmin: TSLP released by the asbestos-damaged and inflamed pleural mesothelium (respiratory system already mapped) activates the innate dendritic-cell and mast-cell response, amplifying the HMGB1-NF-kB (already mapped) inflammatory cascade of mesothelioma.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Mesothelial invasion stroma: periostin is highly expressed in the mesothelioma pleural stroma, downstream of TGF-β (already mapped) and fibroblast activation; elevated periostin promotes the integrin αV-mediated invasiveness and fibrotic pleural thickening of mesothelioma.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell stroma: histamine from the mast cells infiltrating mesothelioma stroma promotes VEGF (already mapped) angiogenesis and stromal remodelling; mast-cell histamine contributes to the pleural effusion and the immune-evasion environment of mesothelioma.
 
 [^baas-2021-checkmate743]: Baas P, Scherpereel A, Nowak AK, et al. First-line nivolumab plus ipilimumab in unresectable malignant pleural mesothelioma (CheckMate 743). *Lancet.* 2021;397(10272):375-386. [doi:10.1016/S0140-6736(20)32714-8](https://doi.org/10.1016/S0140-6736(20)32714-8) · [PubMed 33485464](https://pubmed.ncbi.nlm.nih.gov/33485464/)
 [^vogelzang-2003-pemetrexed]: Vogelzang NJ, Rusthoven JJ, Symanowski J, et al. Phase III study of pemetrexed in combination with cisplatin versus cisplatin alone in patients with malignant pleural mesothelioma. *J Clin Oncol.* 2003;21(14):2636-2644. [doi:10.1200/JCO.2003.11.136](https://doi.org/10.1200/JCO.2003.11.136) · [PubMed 12860938](https://pubmed.ncbi.nlm.nih.gov/12860938/)

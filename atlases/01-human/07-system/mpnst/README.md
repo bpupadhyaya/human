@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c5
     relation: connects-to
     note: "Terminal complement: the complement C5 and its activation (with C3 already mapped) are part of the complement dimension of the inflammatory microenvironment of the malignant peripheral nerve sheath tumour."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "NF1-nerve stroma alarmin: TSLP from the NF1-deficient (neurofibromatosis-type-1 already mapped) peripheral nerve stroma activates mast cells (already mapped) and drives the innate microenvironment that promotes the malignant transformation of neurofibromas to MPNST."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Neurofibroma mast cells: histamine, a major product of the mast cells that are uniquely abundant in NF1 neurofibromas (already mapped), promotes SCF/KIT-driven neurofibroma growth; mast-cell histamine contributes to the tumour microenvironment that enables the MPNST transition."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Peripheral nerve pain: bradykinin activates B2 receptors on peripheral nerve (already mapped) endings and MPNST cells, amplifying the neuropathic pain (already mapped) and peritumoral oedema associated with the large, rapidly growing malignant nerve sheath tumours."
 ---
 
 # MPNST
@@ -759,6 +768,9 @@ Wide local excision with negative margins is the only potentially curative inter
 - `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Tertiary lymphoid structures: the B cells organise the tertiary lymphoid structures whose presence, with the CD8 (already mapped) TILs, may mark the immune response of the malignant peripheral nerve sheath tumour.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid recruitment into the macrophage-rich (already mapped) stroma of the malignant peripheral nerve sheath tumour.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its activation (with C3 already mapped) are part of the complement dimension of the inflammatory microenvironment of the malignant peripheral nerve sheath tumour.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — NF1-nerve stroma alarmin: TSLP from the NF1-deficient (neurofibromatosis-type-1 already mapped) peripheral nerve stroma activates mast cells (already mapped) and drives the innate microenvironment that promotes the malignant transformation of neurofibromas to MPNST.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Neurofibroma mast cells: histamine, a major product of the mast cells that are uniquely abundant in NF1 neurofibromas (already mapped), promotes SCF/KIT-driven neurofibroma growth; mast-cell histamine contributes to the tumour microenvironment that enables the MPNST transition.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Peripheral nerve pain: bradykinin activates B2 receptors on peripheral nerve (already mapped) endings and MPNST cells, amplifying the neuropathic pain (already mapped) and peritumoral oedema associated with the large, rapidly growing malignant nerve sheath tumours.
 
 [^evans-2002-mpnst-nf1]: Evans DGR, Baser ME, McGaughran J, et al. Malignant peripheral nerve sheath tumours in neurofibromatosis 1. *J Med Genet.* 2002;39(5):311-314. [doi:10.1136/jmg.39.5.311](https://doi.org/10.1136/jmg.39.5.311) · [PubMed 12011145](https://pubmed.ncbi.nlm.nih.gov/12011145/)
 [^lee-2014-mpnst-prc2]: Lee W, Teckie S, Wiesner T, et al. PRC2 is recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve sheath tumors. *Nat Genet.* 2014;46(11):1227-1232. [doi:10.1038/ng.3095](https://doi.org/10.1038/ng.3095) · [PubMed 25240281](https://pubmed.ncbi.nlm.nih.gov/25240281/)
