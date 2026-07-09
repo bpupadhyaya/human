@@ -496,6 +496,15 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: connects-to
     note: "Mucosal neutrophils: the neutrophils are recruited into the intestinal mucosa and lumen as the innate effectors of the antimicrobial defence of the digestive system."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Epithelial alarmin: TSLP, secreted by intestinal epithelial cells under microbial and mechanical stress, polarises dendritic cells (already mapped) toward Th2 tolerance and tunes the mucosal immune set-point of the digestive system."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Gut EPO axis: erythropoietin, produced by the intestinal epithelium under hypoxic stress, supports epithelial repair, modulates the enteric immune tone, and links gut oxygenation to the systemic haematopoietic response of the digestive system."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement gateway: complement C5 cleavage in the intestinal lamina propria generates C5a (signalling via C5aR1 already mapped) and C5b-9 MAC, amplifying the inflammatory and tissue-remodelling responses of the digestive system."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -744,6 +753,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [Complement C3](../../03-molecular/complement-c3/README.md) — mucosal complement: the complement C3, produced locally and from the liver (already mapped), opsonises the gut microbes and is part of the innate mucosal defence of the digestive system.
 - **Connects to:** [C5aR1](../../03-molecular/c5ar1/README.md) — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the neutrophil recruitment into the intestinal mucosa during the innate immune response of the digestive system.
 - **Connects to:** [Neutrophil](../../04-cellular/neutrophil/README.md) — mucosal neutrophils: the neutrophils are recruited into the intestinal mucosa and lumen as the innate effectors of the antimicrobial defence of the digestive system.
+- **Connects to:** [TSLP](../../03-molecular/tslp/README.md) — epithelial alarmin: TSLP, secreted by intestinal epithelial cells under microbial and mechanical stress, polarises dendritic cells (already mapped) toward Th2 tolerance and tunes the mucosal immune set-point of the digestive system.
+- **Connects to:** [Erythropoietin](../../03-molecular/erythropoietin/README.md) — gut EPO axis: erythropoietin, produced by intestinal epithelium under hypoxic stress, supports epithelial repair, modulates enteric immune tone, and links gut oxygenation to the systemic haematopoietic response of the digestive system.
+- **Connects to:** [Complement C5](../../03-molecular/complement-c5/README.md) — terminal complement gateway: complement C5 cleavage in the intestinal lamina propria generates C5a (signalling via C5aR1 already mapped) and C5b-9 MAC, amplifying inflammatory and tissue-remodelling responses of the digestive system.
 
 ## Pathology
 

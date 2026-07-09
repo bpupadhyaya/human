@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Perivascular antigen presentation: the dendritic cells of the retinal perivascular compartment present antigen to the T cells (already mapped) in the chronic low-grade inflammation of diabetic retinopathy."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Retinal alarmin: TSLP, released from the Müller glia and retinal pigment epithelium under hyperglycaemic and hypoxic (HIF-1α already mapped) stress, activates mast cells (already mapped) and dendritic cells (already mapped) in the retinal microenvironment of diabetic retinopathy."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement/kinin regulation: C1-esterase inhibitor modulates the classical complement and contact-kinin (bradykinin already mapped) pathways activated by the retinal vascular injury, tempering the complement (C3, C5 and C5aR1 already mapped) cascade of diabetic retinopathy."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell permeabiliser: histamine, released by the mast cells (already mapped) in the choroid and retina of diabetic retinopathy, amplifies the vascular permeability (VEGF already mapped) and the macular oedema of the disease."
 ---
 
 # Diabetic Retinopathy
@@ -749,6 +758,9 @@ DR encompasses a spectrum from subtle vascular changes to sight-threatening neov
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose dysregulation contributes to the retinal microvascular complement injury of diabetic retinopathy.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Retinal iron: transferrin, the iron carrier, reflects the disordered retinal iron handling (hepcidin already mapped) and the iron released from the microhaemorrhages of diabetic retinopathy.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Perivascular antigen presentation: the dendritic cells of the retinal perivascular compartment present antigen to the T cells (already mapped) in the chronic low-grade inflammation of diabetic retinopathy.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Retinal alarmin: TSLP, released from Müller glia and retinal pigment epithelium under hyperglycaemic and hypoxic (HIF-1α already mapped) stress, activates mast cells (already mapped) and dendritic cells (already mapped) in the retinal microenvironment of diabetic retinopathy.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement/kinin regulation: C1-esterase inhibitor modulates the classical complement and contact-kinin (bradykinin already mapped) pathways activated by retinal vascular injury, tempering the complement (C3, C5 and C5aR1 already mapped) cascade of diabetic retinopathy.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell permeabiliser: histamine, released by mast cells (already mapped) in the choroid and retina of diabetic retinopathy, amplifies vascular permeability (VEGF already mapped) and macular oedema of the disease.
 
 [^fong-2004-dr-review]: Fong DS, Aiello L, Gardner TW, et al. Diabetic retinopathy. *Diabetes Care.* 2004;27(10):2540-2553. [doi:10.2337/diacare.27.10.2540](https://doi.org/10.2337/diacare.27.10.2540) · [PubMed 15451934](https://pubmed.ncbi.nlm.nih.gov/15451934/)
 [^brown-2015-aflibercept-protocol-t]: Diabetic Retinopathy Clinical Research Network; Wells JA, Glassman AR, et al. Aflibercept, Bevacizumab, or Ranibizumab for Diabetic Macular Edema. *N Engl J Med.* 2015;372(13):1193-1203. [doi:10.1056/NEJMoa1414264](https://doi.org/10.1056/NEJMoa1414264) · [PubMed 25692915](https://pubmed.ncbi.nlm.nih.gov/25692915/)

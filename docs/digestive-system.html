@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Digestive System — alimentary canal (~9 m) plus liver, gallbladder, and pancreas. Mechanical/chemical digestion, nutrient absorption, enteric nervous system (~100M neurons). Scale 07 of the Human Atlas. Part of the Human Engineering project.">
+  <meta name="description" content="Alimentary canal (~9 m, mouth to anus) plus accessory organs (liver, gallbladder, pancreas). Performs mechanical/chemical digestion, nutrient absorption, water ">
   <meta property="og:title" content="Digestive System — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Digestive System — Human Engineering</title>
@@ -13,18 +13,25 @@
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #b45309;
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
-    a:hover { color: var(--accent); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    a:hover { color: var(--human); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -32,46 +39,51 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(180,83,9,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #b45309, #78350f); }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
-    .detail-section p:last-child { margin-bottom: 0; }
-    .detail-section strong { color: var(--fg); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); }
-    .data-table td strong { color: var(--fg); font-weight: 700; }
-    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
-    @media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
-    .info-block { background: var(--bg); border-radius: var(--radius-sm); padding: 1rem 1.1rem; }
-    .info-block h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.4rem; }
-    .info-block p { font-size: 0.85rem; color: var(--muted); line-height: 1.55; }
-    .pathology-item { padding: 0.85rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); margin-bottom: 0.5rem; }
-    .pathology-item:last-child { margin-bottom: 0; }
-    .pathology-item h4 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.2rem; }
-    .pathology-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.5; }
-    .pathology-item.danger { border-left-color: #dc2626; }
-    .pathology-item.warn { border-left-color: var(--human); }
-    .pathology-item.info { border-left-color: var(--eng); }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
     .conn-pill.damaged .rel { color: #dc2626; }
     .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
@@ -96,7 +108,6 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
-        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
@@ -108,122 +119,216 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Scale 07 &mdash; System</div>
+    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 07 — System</div>
     <h1>Digestive System</h1>
-    <p class="tagline">Alimentary canal (~9 m, mouth to anus) plus accessory organs — transforming consumed food into absorbable molecular nutrients through coordinated mechanical, enzymatic, hormonal, neural, microbial, and immunological processes.</p>
-    <p class="subtagline">Enteric nervous system (~100 million neurons) provides semi-autonomous regulation. Absorbs ~8–9 litres of fluid per day. Portal circulation delivers all absorbed nutrients to the liver before systemic distribution. Splanchnic vasculature comprises ~25% of cardiac output.</p>
+    <p class="tagline">Alimentary canal (~9 m, mouth to anus) plus accessory organs (liver, gallbladder, pancreas). Performs mechanical/chemical digestion, nutrient absorption, water reabsorption, and waste excretion. Enteric nervous system (~100M neurons) provides semi-autonomous regulation.</p>
+    <p class="aliases">Also known as: gastrointestinal system, GI system, alimentary system</p>
     <div class="stat-row">
-      <div class="stat"><span class="stat-num">~9 m</span><span class="stat-label">Canal length</span></div>
-      <div class="stat"><span class="stat-num">250 m²</span><span class="stat-label">Small intestine surface</span></div>
-      <div class="stat"><span class="stat-num">100 M</span><span class="stat-label">ENS neurons</span></div>
-      <div class="stat"><span class="stat-num">~10¹³</span><span class="stat-label">Colonic bacteria</span></div>
+        <div class="stat"><span class="stat-num">Scale 07 — System</span><span class="stat-label">Scale</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-04</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
   <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
+
     <div class="detail-card">
-      <div class="detail-header">
-        <div class="entry-eyebrow">UBERON:0001007 &middot; Atlas One / Scale 07 &mdash; System</div>
+      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
+        <div class="entry-eyebrow">digestive-system</div>
         <h2>Digestive System</h2>
-        <p class="summary">The digestive system transforms consumed food into molecular nutrients absorbable by the body and safely expels indigestible residue as feces. It consists of the alimentary canal (mouth → anus) and accessory organs: liver (bile, nutrient processing), gallbladder (bile storage), pancreas (digestive enzymes + HCO₃⁻), and salivary glands. The enteric nervous system (~100 million neurons) provides semi-autonomous regulation of motility, secretion, and blood flow across every segment.</p>
+        <p class="summary">Alimentary canal (~9 m, mouth to anus) plus accessory organs (liver, gallbladder, pancreas). Performs mechanical/chemical digestion, nutrient absorption, water reabsorption, and waste excretion. Enteric nervous system (~100M neurons) provides semi-autonomous regulation.</p>
       </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Overview</h3>
-          <p>The digestive system coordinates mechanical, enzymatic, hormonal, neural, microbial, and immunological processes across a ~9-meter length of specialised epithelium. Three major dimensions define its physiology: <strong>mechanical</strong> (mastication, peristalsis, segmentation, defecation); <strong>chemical</strong> (salivary, gastric, pancreatic, and brush-border enzymes reduce macromolecules to monomers: starch → glucose, proteins → amino acids, triglycerides → fatty acids); and <strong>absorptive</strong> (the small intestinal villus-crypt epithelium absorbs ~8–9 litres of fluid per day along with all nutrients, vitamins, and minerals).</p>
-          <p>The <strong>enteric nervous system (ENS)</strong> — embedded in two plexuses within the gut wall and containing more neurons than the spinal cord — provides semi-autonomous regulation earning it the description "the second brain." Hirschsprung's disease (congenital absence of ENS ganglion cells in the distal colon → functional obstruction) illustrates that no other neural system can substitute for ENS function in the gut. The ENS communicates bidirectionally with the CNS via the <strong>gut-brain axis</strong> (vagal and spinal afferents), influencing mood, appetite, and stress responses; gut microbiome metabolites (short-chain fatty acids, tryptophan derivatives) modulate this axis.</p>
-          <p>The <strong>gut microbiome</strong> (~10¹³ bacteria in the colon, predominantly Firmicutes and Bacteroidetes) produces short-chain fatty acids (SCFA: butyrate, propionate, acetate), vitamin K₂, B vitamins, and secondary bile acids. It plays central roles in immune maturation (colonisation from birth drives Peyer's patch development and IgA production), metabolic regulation (butyrate is the primary colonocyte energy source), and protection against pathogen colonisation. Microbiome dysbiosis is implicated in IBD, obesity, type 2 diabetes, colorectal cancer, and anxiety/depression.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Anatomy &amp; Structure — Segment by Segment</h3>
+          <h3>Entry Metadata</h3>
           <table class="data-table">
-            <tr><th>Segment</th><th>Length / capacity</th><th>Key structures / cells</th><th>Primary function</th></tr>
-            <tr><td>Oral cavity</td><td>—</td><td>Teeth; salivary glands (parotid, submandibular, sublingual — ~1–1.5 L/day); tongue</td><td>Mastication; salivary amylase (starch → maltose); lingual lipase; antimicrobials (IgA, lysozyme, lactoferrin)</td></tr>
-            <tr><td>Esophagus</td><td>~25 cm</td><td>Upper 1/3 striated → lower 2/3 smooth muscle; lower esophageal sphincter (LES)</td><td>Peristaltic propulsion; no digestion. LES prevents acid reflux — dysfunction → GERD → Barrett's metaplasia</td></tr>
-            <tr><td>Stomach</td><td>~1 L capacity</td><td>Parietal cells (HCl via H⁺/K⁺-ATPase, intrinsic factor); chief cells (pepsinogen); G-cells (gastrin); D-cells (somatostatin); ECL cells (histamine)</td><td>Acid denaturation (pH 1.5–3.5); pepsin activation; bactericidal; gastric mixing and chyme formation; pyloric rate control → regulated nutrient delivery to duodenum</td></tr>
-            <tr><td>Duodenum</td><td>~25 cm</td><td>I-cells (CCK); S-cells (secretin); ampulla of Vater; Brunner's glands (alkaline mucus)</td><td>CCK → pancreatic enzymes + bile; secretin → HCO₃⁻ neutralisation; iron (Fe²⁺, DMT1), Ca²⁺ (TRPV6), folate absorbed here</td></tr>
-            <tr><td>Jejunum</td><td>~2.5 m</td><td>Tallest villi; SGLT1, GLUT5, PepT1; lacteals; fatty acid binding proteins (FABPs)</td><td>Primary absorption: glucose, amino acids, fatty acids, fat-soluble vitamins (A, D, E, K in micelles), most minerals</td></tr>
-            <tr><td>Ileum</td><td>~3.5 m</td><td>Peyer's patches; terminal ileum: cubilin/amnionless receptor (B₁₂-IF complex); ASBT (SLC10A2 — bile salt reabsorption); ileocecal valve</td><td>B₁₂ absorption (terminal ileum only); ~95% bile salt recovery (enterohepatic circulation — 15–30 cycles/day)</td></tr>
-            <tr><td>Large intestine</td><td>~1.5 m</td><td>Goblet cells (MUC2); colonocytes; taeniae coli; no villi; appendix (mucosa-associated lymphoid tissue)</td><td>Water/electrolyte reabsorption (~1.5 L/day → ~100 mL in feces); microbial fermentation → SCFAs; vitamin K₂ synthesis</td></tr>
-            <tr><td>Rectum / Anus</td><td>~15–20 cm</td><td>Internal anal sphincter (smooth muscle, involuntary); external anal sphincter (skeletal, voluntary, pudendal nerve S2–S4)</td><td>Fecal storage; defecation reflex (rectoanal inhibitory reflex); voluntary defecation controlled by pontine micturition centre analogue</td></tr>
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>digestive-system</td></tr>
+            <tr><td>Name</td><td>Digestive System</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-04</td></tr>
+            <tr><td>Atlas</td><td>01-human</td></tr>
+            <tr><td>Scale</td><td>07-system</td></tr>
+            <tr><td>Uberon</td><td>UBERON:0001007</td></tr>
           </table>
-          <p style="margin-top:0.75rem;"><strong>Surface area amplification in the small intestine:</strong> plicae circulares/valves of Kerckring (×3) + villi (×10) + microvilli/brush border (×20) → total ×600 amplification → ~250 m² absorptive surface — approximately the size of a tennis court.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Function — Digestion, Absorption &amp; GI Hormones</h3>
-          <div class="two-col">
-            <div class="info-block">
-              <h4>Carbohydrate Digestion</h4>
-              <p>Salivary amylase (starch → maltose); pancreatic amylase → disaccharides/oligosaccharides; brush-border disaccharidases (maltase, sucrase-isomaltase, lactase) → glucose/fructose/galactose. Absorbed: SGLT1 (Na⁺-coupled active, glucose/galactose), GLUT5 (facilitated, fructose), GLUT2 (basolateral export). Lactase deficiency → lactose intolerance (~70% of adults worldwide).</p>
-            </div>
-            <div class="info-block">
-              <h4>Protein Digestion</h4>
-              <p>Gastric pepsin (endopeptidase, active pH &lt;4); pancreatic trypsin, chymotrypsin, elastase (activated by enteropeptidase/enterokinase cascade in duodenal brush border); brush-border peptidases → amino acids, di/tripeptides. Absorbed via PepT1 (di/tripeptides, H⁺-coupled), multiple specific Na⁺-coupled AA cotransporters (SLC6, SLC7 families).</p>
-            </div>
-            <div class="info-block">
-              <h4>Lipid Digestion</h4>
-              <p>Lingual/gastric lipase (~30%); bile emulsification → mixed micelles (bile salts + monoglycerides + fatty acids); pancreatic lipase + colipase → fatty acids + monoglycerides → passive absorption → re-esterified in enterocyte ER → chylomicrons → secreted into lacteals → thoracic duct → left subclavian vein (bypasses liver first-pass). Medium-chain fatty acids (C6–C12) enter portal vein directly.</p>
-            </div>
-            <div class="info-block">
-              <h4>GI Hormones (Key)</h4>
-              <p><strong>Gastrin</strong> (G-cells, antrum): protein/distension → ↑HCl + ↑pepsinogen. <strong>CCK</strong> (I-cells, fat/protein): ↑pancreatic enzymes + ↑bile release + satiety. <strong>Secretin</strong> (S-cells, acid): ↑HCO₃⁻ + ↓gastric acid. <strong>GLP-1</strong> (L-cells, all nutrients): strong incretin, ↓glucagon, satiety, ↓gastric emptying — semaglutide/liraglutide target. <strong>Motilin</strong>: migrating motor complex (MMC) every 90 min fasting. <strong>Somatostatin</strong>: broad inhibitory.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Pathology</h3>
-          <div class="pathology-item danger">
-            <h4>Colorectal Cancer (CRC)</h4>
-            <p>Second leading cause of cancer death globally (~935,000 deaths/year). Adenoma → carcinoma sequence: APC loss (Wnt/β-catenin → crypt hyperproliferation) → KRAS → TP53 → SMAD4 mutations over 10–15 years. Lynch syndrome (MMR mutations: MLH1, MSH2, MSH6, PMS2) → hereditary non-polyposis CRC (HNPCC); MSI-H tumours respond to anti-PD-1 (pembrolizumab). FAP: APC germline → thousands of polyps by age 20s, near-certain CRC without prophylactic colectomy. Screening: colonoscopy, FIT, stool DNA. Treatment: surgery ± FOLFOX; anti-VEGF (bevacizumab), anti-EGFR (cetuximab, panitumumab for RAS-wildtype mCRC).</p>
-          </div>
-          <div class="pathology-item danger">
-            <h4>Inflammatory Bowel Disease (IBD)</h4>
-            <p><strong>Crohn's disease:</strong> transmural, skip lesions, any GI segment (ileocolonic ~45%); granulomas, fistulae, strictures, abscesses; Th1/Th17-driven; NOD2 (CARD15) mutation highest single genetic risk factor (impairs Paneth cell antimicrobial function). <strong>Ulcerative colitis:</strong> mucosal only, continuous from rectum — Th2-driven; MUC2 deficiency + tight-junction dysfunction. Both: aminosalicylates (mesalazine), corticosteroids, immunomodulators (azathioprine, 6-MP), biologics (anti-TNF: infliximab/adalimumab; anti-IL-12/23: ustekinumab; anti-integrin: vedolizumab — gut-selective homing blockade). UC: dysplasia → CRC risk with duration and extent; surveillance colonoscopy.</p>
-          </div>
-          <div class="pathology-item warn">
-            <h4>Peptic Ulcer Disease and GERD</h4>
-            <p><strong>PUD:</strong> H. pylori (disrupts mucous barrier via urease + CagA/VacA virulence factors) — ~50% of global population infected, ulcers in ~10–15%. NSAIDs: COX-1 inhibition → ↓prostaglandins → ↓mucus/bicarbonate/mucosal blood flow. Complications: haemorrhage (most common), perforation, gastric outlet obstruction. Treatment: PPI + H. pylori eradication (triple or bismuth quadruple therapy; clarithromycin resistance rising → culture-guided where possible). <strong>GERD</strong> (~20% of Western adults): LES dysfunction → acid reflux → esophagitis → Barrett's esophagus (columnar metaplasia) → 0.5%/year risk of esophageal adenocarcinoma. Treatment: PPIs, lifestyle modification, anti-reflux surgery (Nissen fundoplication) for refractory cases.</p>
-          </div>
-          <div class="pathology-item warn">
-            <h4>Pancreatitis and Gallstone Disease</h4>
-            <p><strong>Acute pancreatitis:</strong> gallstones (~40%) + alcohol (~30%) are dominant causes; premature intrapancreatic zymogen activation → autodigestion → SIRS, multi-organ failure in severe necrotising pancreatitis (mortality 20–30%). Diagnosis: serum lipase &gt;3× ULN; CT for severity. <strong>Chronic pancreatitis:</strong> fibro-inflammatory destruction → exocrine insufficiency (steatorrhoea, fat-soluble vitamin deficiencies) → endocrine insufficiency (type 3c diabetes). Main causes: alcohol, autoimmune (IgG4-related AIP), genetic (PRSS1, SPINK1, CFTR). <strong>Cholelithiasis</strong> (~15% of adults in developed countries): cholesterol stones (80%, bile supersaturation + impaired gallbladder motility) vs. pigment stones; complications: biliary colic, cholecystitis, choledocholithiasis, cholangitis, pancreatitis.</p>
-          </div>
-          <div class="pathology-item info">
-            <h4>Celiac Disease and Malabsorption</h4>
-            <p><strong>Celiac disease:</strong> gliadin (wheat/rye/barley) + HLA-DQ2/DQ8 → adaptive immune attack on enterocytes → villous atrophy → malabsorption of fat, iron, calcium, B₁₂, fat-soluble vitamins. Anti-tTG IgA serology + duodenal biopsy. Treatment: lifelong strict gluten-free diet; refractory celiac → risk of T-cell lymphoma (EATL). <strong>Tropical sprue, Whipple's disease</strong> (Tropheryma whipplei), <strong>SIBO</strong> (small intestinal bacterial overgrowth — bloating, diarrhoea, B₁₂ deficiency; diagnosed by glucose/lactulose breath test; treated with rifaximin) complete the malabsorption differential.</p>
-          </div>
         </div>
 
         <div class="detail-section">
           <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a class="conn-pill part" href="index.html#scales"><span class="rel">Part of</span>Human Body</a>
-            <a class="conn-pill" href="liver.html"><span class="rel">Contains</span>Liver</a>
-            <a class="conn-pill" href="pancreas.html"><span class="rel">Modulated by</span>Pancreas</a>
-            <a class="conn-pill" href="intestinal-epithelium.html"><span class="rel">Contains</span>Intestinal Epithelium</a>
-            <a class="conn-pill" href="cardiovascular-system.html"><span class="rel">Connects to</span>Cardiovascular System</a>
-            <a class="conn-pill" href="renal-system.html"><span class="rel">Connects to</span>Renal System</a>
-            <a class="conn-pill damaged" href="pathogens.html"><span class="rel">Damaged by</span>SARS-CoV-2</a>
-            <a class="conn-pill damaged" href="pathogens.html"><span class="rel">Damaged by</span>H. pylori</a>
-            <a class="conn-pill damaged" href="pathogens.html"><span class="rel">Damaged by</span>C. difficile</a>
-            <a class="conn-pill damaged" href="pathogens.html"><span class="rel">Damaged by</span>Rotavirus / Norovirus</a>
-            <a class="conn-pill" href="index.html#scales"><span class="rel">Modulated by</span>Serotonin (~95% in gut)</a>
-            <a class="conn-pill" href="index.html#scales"><span class="rel">Modulates</span>Insulin (incretin axis)</a>
+            <a class="conn-pill part" href="human-body.html" title="The digestive system is one of the primary organ systems of the human body, responsible for nutrient intake and processing."><span class="rel">part-of</span>Human Body</a>
+            <a class="conn-pill part" href="liver.html" title="The liver is the dominant accessory organ of digestion, processing all portal blood from the GI tract, producing bile, and regulating systemic nutrient levels."><span class="rel">contains</span>Liver</a>
+            <a class="conn-pill" href="cardiovascular-system.html" title="Portal vein drains entire GI tract to liver before entering systemic circulation; absorbed lipids enter lymphatics (chylomicrons) → thoracic duct → left subclavian vein → circulation. Splanchnic circulation comprises ~25% of cardiac output."><span class="rel">connects-to</span>Cardiovascular System</a>
+            <a class="conn-pill" href="renal-system.html" title="Water and electrolyte balance is jointly regulated between GI absorption (small/large intestine) and renal reabsorption/secretion; GI fluid losses (diarrhea, vomiting) are a major cause of prerenal AKI."><span class="rel">connects-to</span>Renal System</a>
+            <a class="conn-pill damaged" href="sars-cov-2.html" title="SARS-CoV-2 causes GI symptoms (diarrhea, nausea, vomiting) in up to 50% of patients via ACE2 expressed on enterocytes and cholangiocytes; liver injury occurs in 14-53% of COVID-19 patients."><span class="rel">damaged-by</span>Sars Cov 2</a>
+            <a class="conn-pill damaged" href="mycobacterium-tuberculosis.html" title="GI tuberculosis: ileocecal TB (most common site), peritoneal TB, hepatic TB; M. tuberculosis can infect any GI segment via swallowed sputum or hematogenous spread."><span class="rel">damaged-by</span>Mycobacterium Tuberculosis</a>
+            <a class="conn-pill" href="hepatitis-b-virus.html" title="HBV infects hepatocytes within the liver — the dominant accessory digestive organ — via NTCP receptor; cccDNA persistence drives chronic liver disease that manifests throughout the digestive system."><span class="rel">infected-by</span>Hepatitis B Virus</a>
+            <a class="conn-pill damaged" href="hepatitis-b-virus.html" title="HBV primarily damages the liver (an accessory digestive organ), causing chronic hepatitis, cirrhosis, and portal hypertension; GI manifestations include variceal bleeding, ascites, and hepatic encephalopathy."><span class="rel">damaged-by</span>Hepatitis B Virus</a>
+            <a class="conn-pill" href="serotonin.html" title="~95% of body serotonin resides in enterochromaffin cells of the GI mucosa; 5-HT4 receptor activation drives the peristaltic reflex; 5-HT3 mediates nausea and vomiting; 5-HT coordinates enteric nervous system motility throughout the gut."><span class="rel">modulated-by</span>Serotonin</a>
+            <a class="conn-pill" href="insulin.html" title="Gut-derived incretin hormones (GLP-1 from L-cells, GIP from K-cells) amplify glucose-stimulated insulin secretion; postprandial nutrient absorption in the small intestine is the primary physiological trigger for insulin release."><span class="rel">modulates</span>Insulin</a>
+            <a class="conn-pill part" href="intestinal-epithelium.html" title="The intestinal epithelium is the primary cellular barrier of the digestive system, covering ~32 m² of luminal surface."><span class="rel">contains</span>Intestinal Epithelium</a>
+            <a class="conn-pill" href="escherichia-coli.html" title="ETEC and EHEC colonise and infect the intestinal epithelium of the digestive system, causing diarrhoea, HUS, and intestinal inflammation."><span class="rel">infected-by</span>Escherichia Coli</a>
+            <a class="conn-pill" href="lactobacillus-rhamnosus.html" title="L. rhamnosus GG colonises the gut epithelium, modulating digestive system function by enhancing barrier integrity and reducing transit time in antibiotic-associated diarrhoea."><span class="rel">modulated-by</span>Lactobacillus Rhamnosus</a>
+            <a class="conn-pill" href="pancreas.html" title="The exocrine pancreas secretes ~1.5 L/day of bicarbonate-rich fluid containing amylase, lipase, and proteases into the duodenum via the pancreatic duct, providing the digestive system's principal luminal enzyme activity."><span class="rel">modulated-by</span>Pancreas</a>
+            <a class="conn-pill" href="glucagon.html" title="Modulated by Glucagon."><span class="rel">modulated-by</span>Glucagon</a>
+            <a class="conn-pill part" href="large-intestine.html" title="Composed Of by Large Intestine."><span class="rel">composed-of</span>Large Intestine</a>
+            <a class="conn-pill part" href="small-intestine.html" title="Composed Of by Small Intestine."><span class="rel">composed-of</span>Small Intestine</a>
+            <a class="conn-pill part" href="stomach.html" title="Composed Of by Stomach."><span class="rel">composed-of</span>Stomach</a>
+            <a class="conn-pill damaged" href="norovirus.html" title="Damaged by Norovirus."><span class="rel">damaged-by</span>Norovirus</a>
+            <a class="conn-pill damaged" href="rotavirus.html" title="Damaged by Rotavirus."><span class="rel">damaged-by</span>Rotavirus</a>
+            <a class="conn-pill" href="bacteroides-fragilis.html" title="Modulated by Bacteroides fragilis."><span class="rel">modulated-by</span>Bacteroides Fragilis</a>
+            <a class="conn-pill" href="akkermansia-muciniphila.html" title="Modulated by Akkermansia muciniphila."><span class="rel">modulated-by</span>Akkermansia Muciniphila</a>
+            <a class="conn-pill" href="faecalibacterium-prausnitzii.html" title="Modulated by Faecalibacterium prausnitzii."><span class="rel">modulated-by</span>Faecalibacterium Prausnitzii</a>
+            <a class="conn-pill" href="bifidobacterium-longum.html" title="Modulated by Bifidobacterium longum."><span class="rel">modulated-by</span>Bifidobacterium Longum</a>
+            <a class="conn-pill damaged" href="giardia-lamblia.html" title="Damaged by Giardia lamblia (G. intestinalis / G. duodenalis)."><span class="rel">damaged-by</span>Giardia Lamblia</a>
+            <a class="conn-pill damaged" href="leishmania-donovani.html" title="Damaged by Leishmania donovani."><span class="rel">damaged-by</span>Leishmania Donovani</a>
+            <a class="conn-pill damaged" href="salmonella-typhi.html" title="Damaged by Salmonella typhi."><span class="rel">damaged-by</span>Salmonella Typhi</a>
+            <a class="conn-pill damaged" href="clostridioides-difficile.html" title="Damaged by Clostridioides difficile."><span class="rel">damaged-by</span>Clostridioides Difficile</a>
+            <a class="conn-pill" href="listeria-monocytogenes.html" title="Infected by Listeria monocytogenes."><span class="rel">infected-by</span>Listeria Monocytogenes</a>
+            <a class="conn-pill damaged" href="helicobacter-pylori.html" title="Damaged by Helicobacter pylori."><span class="rel">damaged-by</span>Helicobacter Pylori</a>
+            <a class="conn-pill" href="dietary-fiber.html" title="Modulated by Dietary Fiber and Butyrate."><span class="rel">modulated-by</span>Dietary Fiber</a>
+            <a class="conn-pill" href="ghrelin.html" title="Ghrelin from gastric fundus X/A cells rises preprandially → vagal GHSR1a → gastric motility (prokinetic); relamorelin (GHSR1a agonist) showed Phase 2b efficacy for diabetic gastroparesis; ghrelin falls after eating, coordinating hunger and gastric emptying."><span class="rel">modulated-by</span>Ghrelin</a>
+            <a class="conn-pill" href="smooth-muscle-cell.html" title="The gut moves food by peristalsis: rings of smooth muscle contract in waves from esophagus to colon, coordinated by the enteric nervous system, so motility disorders arise when this muscle or its control fails."><span class="rel">connects-to</span>Smooth Muscle Cell</a>
+            <a class="conn-pill" href="iron.html" title="The gut is the body's gateway for iron: the duodenum absorbs dietary iron, so malabsorption or chronic GI bleeding here is a leading cause of iron-deficiency anemia."><span class="rel">connects-to</span>Iron</a>
+            <a class="conn-pill" href="photon.html" title="The digestive tract is explored with light and radiation: endoscopy shines visible-light photons into the gut lumen, while X-ray photons in barium studies and CT trace its structure and motility."><span class="rel">connects-to</span>Photon</a>
+            <a class="conn-pill" href="electron.html" title="Electron microscopy reveals how the gut absorbs so much: each enterocyte is crowned with a brush border of densely packed microvilli that multiplies the absorptive surface many times over, the ultrastructure behind nutrient uptake."><span class="rel">connects-to</span>Electron</a>
+            <a class="conn-pill" href="sodium.html" title="Sodium powers digestion's uptake: the sodium gradient set by membrane pumps drives the cotransporters that haul glucose, amino acids, and water across the gut lining — the principle that makes salt-and-sugar oral rehydration save lives."><span class="rel">connects-to</span>Sodium</a>
+            <a class="conn-pill" href="hepatocyte.html" title="The hepatocyte is the digestive system's chemical plant: it makes the bile that emulsifies fat and receives the nutrient-rich portal blood from the gut, processing and storing what the intestine absorbs."><span class="rel">connects-to</span>Hepatocyte</a>
+            <a class="conn-pill" href="nervous-system.html" title="The gut runs its own brain: the enteric nervous system, ~500 million neurons in the bowel wall, drives peristalsis and secretion largely autonomously, while the vagus-linked gut-brain axis ties digestion to mood and appetite."><span class="rel">connects-to</span>Nervous System</a>
+            <a class="conn-pill" href="immune-system.html" title="Most of the body's immune cells guard the gut: gut-associated lymphoid tissue (Peyer's patches, lamina propria) polices the vast luminal antigen load, tolerating food and flora while repelling pathogens across a single-cell barrier."><span class="rel">connects-to</span>Immune System</a>
+            <a class="conn-pill" href="gut-microbiome.html" title="The digestive tract houses an organ of microbes: trillions of gut bacteria ferment fiber into short-chain fatty acids, synthesize vitamins, train immunity, and shape motility — a metabolic partner the system feeds and depends on."><span class="rel">connects-to</span>Gut Microbiome</a>
+            <a class="conn-pill" href="antibody.html" title="The gut is the body's largest antibody factory: plasma cells in the lamina propria pump out secretory IgA that bathes the mucosa, neutralizing pathogens and shaping the flora while teaching tolerance to food and friendly microbes."><span class="rel">connects-to</span>Antibody</a>
+            <a class="conn-pill" href="endocrine-system.html" title="The gut is also the largest endocrine organ: scattered enteroendocrine cells release ghrelin, CCK, secretin, gastrin, and GLP-1 that pace digestion and signal hunger and fullness to the brain, the gut-hormone arm of metabolism."><span class="rel">connects-to</span>Endocrine System</a>
+            <a class="conn-pill" href="macrophage.html" title="A vast, restrained macrophage army lines the gut: the largest pool of macrophages in the body clears the trickle of bacteria crossing the barrier yet stays tolerant, and when that balance breaks, inflammatory bowel disease follows."><span class="rel">connects-to</span>Macrophage</a>
+            <a class="conn-pill" href="neuron.html" title="The gut runs its own nervous system: the enteric nervous system, a mesh of millions of neurons in the bowel wall, coordinates peristalsis and secretion largely on its own, earning the gut its name as the body's second brain."><span class="rel">connects-to</span>Neuron</a>
+            <a class="conn-pill" href="glp-1.html" title="The gut is an endocrine organ: L-cells release GLP-1 after a meal to spur insulin, slow gastric emptying and curb appetite, the incretin axis now harnessed by the blockbuster GLP-1 weight and diabetes drugs."><span class="rel">connects-to</span>Glp 1</a>
+            <a class="conn-pill" href="reproductive-system.html" title="Gut microbes help set circulating estrogen: the estrobolome — bacterial enzymes that deconjugate estrogens for reabsorption — links the digestive tract to reproductive and hormonal health across the body."><span class="rel">connects-to</span>Reproductive System</a>
+            <a class="conn-pill" href="inflammatory-bowel-disease.html" title="When gut tolerance breaks, the wall inflames: inflammatory bowel disease is the digestive system turning on itself, as a misfired immune response to the microbiome ulcerates the bowel — the chronic counterpart to the gut's normal restraint."><span class="rel">connects-to</span>Inflammatory Bowel Disease</a>
+            <a class="conn-pill" href="dendritic-cell.html" title="The gut decides friend from foe through dendritic cells: they reach between epithelial cells to sample luminal antigens, then teach tolerance to food and flora or mount defense against pathogens — the gatekeepers of intestinal immunity."><span class="rel">connects-to</span>Dendritic Cell</a>
+            <a class="conn-pill" href="histamine.html" title="Histamine drives the stomach's acid: enterochromaffin-like cells release it to stimulate parietal-cell acid secretion through H2 receptors, the pathway that H2-blockers shut down to treat ulcers and reflux."><span class="rel">connects-to</span>Histamine</a>
+            <a class="conn-pill" href="colorectal-cancer.html" title="Its most common cancer grows from the lining: colorectal cancer arises from the glandular epithelium of the large bowel, the digestive system's leading malignancy and the reason colonoscopy screens the tract for precancerous polyps."><span class="rel">connects-to</span>Colorectal Cancer</a>
+            <a class="conn-pill" href="gastric-cancer.html" title="Chronic injury to the stomach turns malignant: gastric cancer develops from the gastric mucosa after years of H. pylori infection, inflammation and atrophy, a digestive-tract cancer still common worldwide."><span class="rel">connects-to</span>Gastric Cancer</a>
+            <a class="conn-pill" href="pancreatic-cancer.html" title="An accessory organ harbors a lethal cancer: pancreatic adenocarcinoma arises from the ductal cells of the pancreas, a digestive gland, and its silent deep location makes it one of the deadliest cancers of the system."><span class="rel">connects-to</span>Pancreatic Cancer</a>
+            <a class="conn-pill" href="cholangiocarcinoma.html" title="Its biliary tree can turn malignant: cholangiocarcinoma arises in the bile ducts that drain the liver into the gut, a hepatobiliary cancer of the digestive system often linked to chronic inflammation of the ducts."><span class="rel">connects-to</span>Cholangiocarcinoma</a>
+            <a class="conn-pill" href="nash.html" title="The liver fattens and inflames: NASH is the inflammatory fatty-liver disease of the digestive system's largest gland, driven by metabolic excess and progressing toward cirrhosis and liver cancer."><span class="rel">connects-to</span>Nash</a>
+            <a class="conn-pill" href="candida-albicans.html" title="A commensal yeast can turn invader: Candida normally lives quietly in the gut, but disrupted flora or immunity let it overgrow into oral and esophageal candidiasis along the upper digestive tract."><span class="rel">connects-to</span>Candida Albicans</a>
+            <a class="conn-pill" href="major-depressive-disorder.html" title="Gut and brain talk constantly: most of the body's serotonin is made in the gut and the microbiome signals along the gut-brain axis, so digestive function and mood are tightly linked in both directions."><span class="rel">connects-to</span>Major Depressive Disorder</a>
+            <a class="conn-pill" href="type-2-diabetes.html" title="The gut sets the metabolic tone: intestinal incretin hormones like GLP-1, nutrient absorption and the microbiome shape insulin secretion and resistance, placing the digestive system at the heart of type 2 diabetes."><span class="rel">connects-to</span>Type 2 Diabetes</a>
+            <a class="conn-pill" href="iron-deficiency-anemia.html" title="It both absorbs iron and loses it: the gut is the sole site of iron uptake, so malabsorption or chronic bleeding from ulcers, tumors or inflammation along the tract is a leading cause of iron-deficiency anemia."><span class="rel">connects-to</span>Iron Deficiency Anemia</a>
+            <a class="conn-pill" href="lymphatic-system.html" title="The gut is the body's largest immune and lymphatic organ: gut-associated lymphoid tissue and Peyer's patches guard the lumen, while intestinal lacteals absorb dietary fat into the lymphatics as chyle."><span class="rel">connects-to</span>Lymphatic System</a>
+            <a class="conn-pill" href="respiratory-system.html" title="They share an origin and a crossroads: the gut and airways arise from the same primitive foregut and meet at the pharynx, so swallowing disorders cause aspiration and a gut-lung axis links the two."><span class="rel">connects-to</span>Respiratory System</a>
+            <a class="conn-pill" href="integumentary-system.html" title="The gut shows on the skin: malabsorption produces hair, nail and skin changes, liver disease causes jaundice, and a gut-skin axis links conditions like coeliac disease to dermatitis herpetiformis."><span class="rel">connects-to</span>Integumentary System</a>
+            <a class="conn-pill" href="musculoskeletal-system.html" title="The gut feeds the skeleton: it absorbs the calcium and vitamin D that build bone, so malabsorption from coeliac or bowel disease causes osteoporosis and osteomalacia, while inflammatory bowel disease brings enteropathic arthritis."><span class="rel">connects-to</span>Musculoskeletal System</a>
+            <a class="conn-pill" href="hepatitis-c-virus.html" title="A virus that smoulders in the liver: hepatitis C establishes chronic infection of hepatocytes, driving cirrhosis and hepatocellular carcinoma, though direct-acting antivirals now cure most cases."><span class="rel">connects-to</span>Hepatitis C Virus</a>
+            <a class="conn-pill" href="zinc-dietary.html" title="Zinc and the gut depend on each other: zinc is absorbed in the small intestine and maintains mucosal integrity, so malabsorption causes deficiency with diarrhoea and acrodermatitis, and supplementation shortens acute diarrhoea."><span class="rel">connects-to</span>Zinc Dietary</a>
+            <a class="conn-pill" href="omeprazole.html" title="A drug that quietens the stomach: proton pump inhibitors like omeprazole suppress gastric acid to heal ulcers and reflux, but long-term use can impair absorption of B12, iron, calcium and magnesium and alter the gut microbiome."><span class="rel">connects-to</span>Omeprazole</a>
+            <a class="conn-pill" href="ibuprofen.html" title="A common painkiller that ulcerates it: NSAIDs like ibuprofen block the prostaglandins that protect the gastric lining, causing peptic ulcers and gastrointestinal bleeding."><span class="rel">connects-to</span>Ibuprofen</a>
+            <a class="conn-pill" href="curcumin.html" title="A spice studied for the gut: curcumin from turmeric has anti-inflammatory effects investigated in inflammatory bowel disease, though its poor absorption limits how much reaches the bloodstream."><span class="rel">connects-to</span>Curcumin</a>
+            <a class="conn-pill" href="omega-3-fatty-acids.html" title="Dietary fats shape gut health: long-chain omega-3 fatty acids, absorbed via intestinal lacteals, have anti-inflammatory effects studied in inflammatory bowel disease and the gut-liver axis."><span class="rel">connects-to</span>Omega 3 Fatty Acids</a>
+            <a class="conn-pill" href="coxsackievirus-b.html" title="Enteroviruses pass through the gut: Coxsackie and other enteroviruses are swallowed and replicate in the intestinal lining, causing herpangina and hand-foot-and-mouth disease before systemic spread."><span class="rel">connects-to</span>Coxsackievirus B</a>
+            <a class="conn-pill" href="magnesium-dietary.html" title="The gut handles magnesium two ways: the intestine absorbs dietary magnesium, and poorly absorbed magnesium salts act as osmotic laxatives, while malabsorption causes deficiency."><span class="rel">connects-to</span>Magnesium Dietary</a>
+            <a class="conn-pill" href="esophageal-cancer.html" title="It begins at the top of the tract: esophageal cancer — squamous from smoking and alcohol, adenocarcinoma from reflux and Barrett's — completes the digestive tract's malignancies alongside gastric, colorectal and pancreatic cancer."><span class="rel">connects-to</span>Esophageal Cancer</a>
+            <a class="conn-pill" href="hepatic-lobule.html" title="The liver is its chemical factory: the hepatic lobule, the liver's functional unit, processes everything absorbed from the gut via the portal vein, secretes bile for fat digestion, and detoxifies and stores the nutrients the gut delivers."><span class="rel">connects-to</span>Hepatic Lobule</a>
+            <a class="conn-pill" href="cancer-chemotherapy.html" title="It both treats and is harmed: the gut's common cancers depend on cytotoxic chemotherapy, while the rapidly dividing intestinal lining makes the digestive tract a prime victim of chemo, producing the mucositis, nausea and diarrhoea that limit dosing."><span class="rel">connects-to</span>Cancer Chemotherapy</a>
+            <a class="conn-pill" href="peyers-patches.html" title="The gut's immune sentinels: Peyer's patches in the small-intestinal wall sample luminal antigens through M cells, the gut-associated lymphoid tissue where the digestive and immune systems meet."><span class="rel">connects-to</span>Peyers Patches</a>
+            <a class="conn-pill" href="islet-of-langerhans.html" title="The endocrine pancreas within the gut: the islets of Langerhans, embedded in the digestive organ that also makes digestive enzymes, secrete insulin and glucagon to regulate the metabolism of absorbed nutrients."><span class="rel">connects-to</span>Islet Of Langerhans</a>
+            <a class="conn-pill" href="gist.html" title="Its commonest mesenchymal tumour: gastrointestinal stromal tumours arise from the interstitial cells of Cajal—the gut's pacemaker cells—anywhere from oesophagus to rectum, distinct from the epithelial carcinomas of the digestive tract."><span class="rel">connects-to</span>Gist</a>
+            <a class="conn-pill" href="hcc.html" title="Cancer of the digestive system's largest organ: hepatocellular carcinoma arises in the chronically injured liver—from viral hepatitis, alcohol or fatty liver—the dominant primary cancer of the gut's metabolic powerhouse."><span class="rel">connects-to</span>Hcc</a>
+            <a class="conn-pill" href="obesity.html" title="The metabolic burden on the gut: obesity reshapes bile acids and the microbiome and drives fatty liver, gallstones, reflux and colorectal cancer, tying excess adiposity to disease across the digestive tract."><span class="rel">connects-to</span>Obesity</a>
+            <a class="conn-pill" href="spleen.html" title="The portal partner: the spleen drains into the portal vein, so cirrhosis and portal hypertension cause congestive splenomegaly and hypersplenism—linking digestive disease to sequestration of blood cells."><span class="rel">connects-to</span>Spleen</a>
+            <a class="conn-pill" href="parkinsons-disease.html" title="The gut-brain axis: Parkinson's may begin in the enteric nervous system, with alpha-synuclein aggregating in the gut wall and ascending the vagus nerve, and constipation often precedes the motor disease by years."><span class="rel">connects-to</span>Parkinsons Disease</a>
+            <a class="conn-pill" href="hereditary-pancreatitis.html" title="Recurrent pancreatic injury: hereditary pancreatitis (PRSS1) causes repeated attacks of pancreatitis in the digestive system's exocrine pancreas, leading to chronic pancreatitis and a high lifetime pancreatic-cancer risk."><span class="rel">connects-to</span>Hereditary Pancreatitis</a>
+            <a class="conn-pill" href="type-1-diabetes.html" title="Two roles for one organ: the pancreas is both a digestive (exocrine) and endocrine gland, and type 1 diabetes destroys its islets of Langerhans, the endocrine cells embedded within this digestive organ."><span class="rel">connects-to</span>Type 1 Diabetes</a>
+            <a class="conn-pill" href="acetylcholine.html" title="Parasympathetic drive: acetylcholine is the principal enteric and vagal neurotransmitter stimulating gut motility, secretion and sphincter function throughout the digestive tract."><span class="rel">connects-to</span>Acetylcholine</a>
+            <a class="conn-pill" href="nitric-oxide.html" title="Inhibitory neurotransmission: nitric oxide from enteric inhibitory neurons relaxes gut smooth muscle for peristalsis and sphincter opening, with its loss causing achalasia and pyloric stenosis."><span class="rel">connects-to</span>Nitric Oxide</a>
+            <a class="conn-pill" href="staphylococcus-aureus.html" title="Toxin food poisoning: preformed staphylococcal enterotoxin causes rapid-onset vomiting and diarrhoea, a classic toxin-mediated gastroenteritis of the digestive tract."><span class="rel">connects-to</span>Staphylococcus Aureus</a>
+            <a class="conn-pill" href="secretory-iga.html" title="Mucosal defence: dimeric secretory IgA transcytosed across gut epithelium coats luminal microbes and toxins, shaping the microbiota and protecting the digestive mucosal surface from invasion."><span class="rel">connects-to</span>Secretory Iga</a>
+            <a class="conn-pill" href="leptin.html" title="Satiety signalling: leptin from adipose and gastric chief cells acts on the gut-brain axis and enteric neurons to curb appetite and modulate motility, linking digestion to energy balance."><span class="rel">connects-to</span>Leptin</a>
+            <a class="conn-pill" href="tgf-beta.html" title="Barrier homeostasis: TGF-beta drives intestinal epithelial repair and oral tolerance, inducing regulatory T cells that restrain immune responses to food antigens and commensal flora in the gut."><span class="rel">connects-to</span>Tgf Beta</a>
+            <a class="conn-pill" href="prostaglandins.html" title="Mucosal cytoprotection: prostaglandins (PGE2) maintain the gastric mucus-bicarbonate barrier and mucosal blood flow, which is why NSAIDs that block their synthesis predispose to gastric and duodenal ulcers."><span class="rel">connects-to</span>Prostaglandins</a>
+            <a class="conn-pill" href="substance-p.html" title="Enteric peristalsis: substance P from enteric neurons is an excitatory tachykinin that contracts gut smooth muscle, helping coordinate the peristaltic reflex that propels contents through the digestive tract."><span class="rel">connects-to</span>Substance P</a>
+            <a class="conn-pill" href="cgrp.html" title="Sensory gastroprotection: CGRP released from gut sensory afferents increases mucosal blood flow and defends the stomach lining against acid and injury, a neural protective reflex of the gastrointestinal mucosa."><span class="rel">connects-to</span>Cgrp</a>
+            <a class="conn-pill" href="sstr2.html" title="Universal inhibitory hormone: somatostatin from gut D cells acts through SSTR2 to brake acid secretion, gastrin release and motility, the master off-switch of the gastrointestinal tract exploited therapeutically by octreotide in bleeding and secretory diarrhoea."><span class="rel">connects-to</span>Sstr2</a>
+            <a class="conn-pill" href="cholesterol.html" title="Bile-acid digestion: the liver converts cholesterol into bile acids that emulsify dietary fat into micelles for pancreatic-lipase digestion and absorption, then recovers them through the enterohepatic circulation, the GI tract's fat-handling system."><span class="rel">connects-to</span>Cholesterol</a>
+            <a class="conn-pill" href="aldosterone.html" title="Colonic fluid recovery: aldosterone drives sodium and water reabsorption across the distal colonic epithelium, the final electrolyte- and fluid-conserving step of the gastrointestinal tract that hardens stool and prevents dehydration."><span class="rel">connects-to</span>Aldosterone</a>
+            <a class="conn-pill" href="wnt-beta-catenin.html" title="Crypt stem-cell renewal: Wnt/β-catenin signalling from the intestinal crypt base drives the continuous self-renewal of the gut epithelium, the most rapidly regenerating tissue in the body and the basis of digestive-tract homeostasis."><span class="rel">connects-to</span>Wnt Beta Catenin</a>
+            <a class="conn-pill" href="notch.html" title="Cell-fate patterning: NOTCH signalling sets the choice between absorptive enterocytes and secretory (goblet, enteroendocrine, Paneth) cells in the intestinal epithelium, patterning the functional surface of the digestive lining."><span class="rel">connects-to</span>Notch</a>
+            <a class="conn-pill" href="il-10.html" title="Microbiota tolerance: regulatory IL-10 maintains immune tolerance to the gut microbiota, and its loss breaks digestive-tract homeostasis to drive the intestinal inflammation of inflammatory bowel disease."><span class="rel">connects-to</span>Il 10</a>
+            <a class="conn-pill" href="egfr.html" title="Epithelial renewal: EGF-family signalling drives the continuous renewal of the gut epithelium from Wnt-driven crypt stem cells (Wnt mapped), maintaining the rapidly turning-over digestive lining."><span class="rel">connects-to</span>Egfr</a>
+            <a class="conn-pill" href="mu-opioid-receptor.html" title="Enteric motility: μ-opioid receptors on enteric neurons slow gut motility and secretion, the basis of opioid-induced constipation and a node of the enteric nervous control of digestion."><span class="rel">connects-to</span>Mu Opioid Receptor</a>
+            <a class="conn-pill" href="tlr4.html" title="Microbiota sensing: intestinal epithelial TLR4 senses the gut microbiota, calibrating the mucosal immune tolerance (with secretory-IgA and IL-10 mapped) that maintains digestive homeostasis."><span class="rel">connects-to</span>Tlr4</a>
+            <a class="conn-pill" href="myd88.html" title="Microbiota signal transduction: epithelial and immune TLR signalling through MyD88 (TLR4 already mapped) transduces gut-microbiota cues into the mucosal homeostasis and barrier defence of the digestive tract."><span class="rel">connects-to</span>Myd88</a>
+            <a class="conn-pill" href="mtor.html" title="Crypt nutrient sensing: mTOR nutrient-sensing in intestinal crypt stem cells couples luminal nutrient availability to the continuous epithelial renewal of the gut lining."><span class="rel">connects-to</span>Mtor</a>
+            <a class="conn-pill" href="nf-kb.html" title="Mucosal inflammatory balance: NF-κB signalling in the intestinal epithelium balances antimicrobial defence against tolerance, governing the inflammatory homeostasis of the gut mucosa."><span class="rel">connects-to</span>Nf Kb</a>
+            <a class="conn-pill" href="galectin-3.html" title="Galectin-3 modulates mucosal immunity and epithelial repair in the gut and contributes to the fibrosis that follows chronic intestinal inflammation."><span class="rel">connects-to</span>Galectin 3</a>
+            <a class="conn-pill" href="cgas-sting.html" title="Cytosolic DNA sensing through cGAS-STING in the intestinal mucosa links microbial and damage-associated DNA to the inflammatory tone of the gut."><span class="rel">connects-to</span>Cgas Sting</a>
+            <a class="conn-pill" href="hif-1alpha.html" title="HIF-1α responds to the steep physiological oxygen gradient of the gut lumen and supports the barrier function and metabolism of the intestinal epithelium."><span class="rel">connects-to</span>Hif 1Alpha</a>
+            <a class="conn-pill" href="smad4.html" title="TGF-β-SMAD signaling (TGF-β already mapped) governs epithelial homeostasis, mucosal fibrosis, and the regulatory immune tone of the digestive tract."><span class="rel">connects-to</span>Smad4</a>
+            <a class="conn-pill" href="stat3.html" title="IL-6-STAT3 signaling drives the epithelial regeneration and mucosal inflammatory tone of the gastrointestinal tract."><span class="rel">connects-to</span>Stat3</a>
+            <a class="conn-pill" href="foxo.html" title="FOXO transcription factors regulate intestinal stem-cell homeostasis and the metabolic and oxidative-stress responses of the gut epithelium."><span class="rel">connects-to</span>Foxo</a>
+            <a class="conn-pill" href="akt.html" title="PI3K-AKT signaling governs the proliferation and survival of the rapidly renewing intestinal epithelium of the digestive system."><span class="rel">connects-to</span>Akt</a>
+            <a class="conn-pill" href="erk1-2.html" title="ERK-MAPK signaling downstream of growth-factor and hormone receptors drives the epithelial renewal and secretory responses of the digestive system."><span class="rel">connects-to</span>Erk1 2</a>
+            <a class="conn-pill" href="gsk-3b.html" title="GSK-3β, within the Wnt destruction complex (Wnt already mapped), governs the crypt stem-cell renewal of the intestinal epithelium of the digestive system."><span class="rel">connects-to</span>Gsk 3B</a>
+            <a class="conn-pill" href="pik3ca.html" title="PI3K (PIK3CA)-AKT signaling (AKT already mapped) drives the epithelial proliferation and renewal of the gastrointestinal mucosa of the digestive system."><span class="rel">connects-to</span>Pik3Ca</a>
+            <a class="conn-pill" href="ampk.html" title="AMPK integrates the nutrient and energy status of the enterocytes and hepatocytes of the digestive system."><span class="rel">connects-to</span>Ampk</a>
+            <a class="conn-pill" href="stat1.html" title="IFN-STAT1 signaling shapes the mucosal immune surveillance of the digestive system."><span class="rel">connects-to</span>Stat1</a>
+            <a class="conn-pill" href="autophagy.html" title="Autophagy maintains the epithelial homeostasis, Paneth-cell function, and mucosal barrier of the digestive system."><span class="rel">connects-to</span>Autophagy</a>
+            <a class="conn-pill" href="src-kinase.html" title="SRC-family kinase signaling participates in the epithelial junction dynamics and growth-factor responses of the digestive system."><span class="rel">connects-to</span>Src Kinase</a>
+            <a class="conn-pill" href="dnmt3a.html" title="DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the epithelial renewal and immune tolerance of the digestive system."><span class="rel">connects-to</span>Dnmt3A</a>
+            <a class="conn-pill" href="ccr5.html" title="CCR5-driven chemokine signaling participates in the mucosal immune trafficking of the digestive system."><span class="rel">connects-to</span>Ccr5</a>
+            <a class="conn-pill" href="cxcl12.html" title="CXCL12-CXCR4 signaling participates in the epithelial-stromal and immune interactions of the digestive system."><span class="rel">connects-to</span>Cxcl12</a>
+            <a class="conn-pill" href="il-6.html" title="IL-6 signaling participates in the mucosal immune and epithelial-regeneration processes of the digestive system."><span class="rel">connects-to</span>Il 6</a>
+            <a class="conn-pill" href="proton.html" title="Gastric acid: parietal cells secrete hydrochloric acid by pumping protons through the H+/K+ ATPase, the target of proton-pump inhibitors, creating the acidic lumen that activates pepsin and provides a barrier against ingested microbes."><span class="rel">connects-to</span>Proton</a>
+            <a class="conn-pill" href="calcium.html" title="Mineral absorption: the small intestine absorbs dietary calcium under vitamin D control, so the digestive tract governs the calcium supply for bone and neuromuscular function and becomes a source of deficiency when absorption fails."><span class="rel">connects-to</span>Calcium</a>
+            <a class="conn-pill" href="melatonin.html" title="Enteric melatonin: the gut's enterochromaffin cells produce far more melatonin than the pineal gland, where it regulates intestinal motility and provides mucosal antioxidant protection, an under-recognised digestive-system endocrine function."><span class="rel">connects-to</span>Melatonin</a>
+            <a class="conn-pill" href="dopamine.html" title="Enteric dopamine: the gut contains large amounts of dopamine that modulates motility and secretion, and dopamine-receptor drugs (prokinetics like metoclopramide, antiemetics) act on this enteric dopaminergic system of the digestive tract."><span class="rel">connects-to</span>Dopamine</a>
+            <a class="conn-pill" href="potassium.html" title="Colonic potassium: the colon secretes and absorbs potassium under aldosterone control (aldosterone already mapped), an electrolyte-handling role of the digestive tract that becomes clinically important in diarrhoea and renal failure."><span class="rel">connects-to</span>Potassium</a>
+            <a class="conn-pill" href="bdnf.html" title="Enteric nervous system: BDNF and neurotrophic signalling support the enteric nervous system, the gut's intrinsic 'second brain' of over a hundred million neurons that coordinates the motility and secretion of the digestive system."><span class="rel">connects-to</span>Bdnf</a>
+            <a class="conn-pill" href="zinc.html" title="Zinc absorption: the small intestine absorbs dietary zinc, essential for the many digestive enzymes and for mucosal integrity and taste, and malabsorption causes the dermatitis and diarrhoea of zinc deficiency."><span class="rel">connects-to</span>Zinc</a>
+            <a class="conn-pill" href="mast-cell.html" title="Mucosal mast cells: mast cells in the gut wall (histamine already mapped) defend the mucosa and, when dysregulated, contribute to the visceral hypersensitivity and altered motility of functional gastrointestinal disorders."><span class="rel">connects-to</span>Mast Cell</a>
+            <a class="conn-pill" href="chloride.html" title="Secretory chloride: chloride secretion by the intestinal epithelium drives the fluid that lubricates digestion, and its dysregulation underlies the secretory diarrhoea of infections and the defect of cystic fibrosis."><span class="rel">connects-to</span>Chloride</a>
+            <a class="conn-pill" href="nervous-system.html" title="The gut-brain axis: the enteric nervous system and the vagal and serotonergic signalling (serotonin, dopamine and BDNF already mapped) link the digestive system to the nervous system, coordinating motility, secretion and appetite."><span class="rel">connects-to</span>Nervous System</a>
+            <a class="conn-pill" href="sodium.html" title="Sodium-coupled absorption: sodium gradients power the absorption of glucose and amino acids across the intestinal epithelium, and sodium handling (chloride already mapped) governs the fluid balance of the digestive tract."><span class="rel">connects-to</span>Sodium</a>
+            <a class="conn-pill" href="macrophage.html" title="Gut mucosal macrophages: the macrophages of the gut wall and the Kupffer cells of the liver sample the luminal contents and maintain tolerance (secretory IgA already mapped), a large part of the body's immune tissue serving the digestive system."><span class="rel">connects-to</span>Macrophage</a>
+            <a class="conn-pill" href="magnesium.html" title="Magnesium absorption: the small intestine of the digestive system absorbs dietary magnesium, and the malabsorption of gut disease (or proton-pump inhibitors) causes the hypomagnesaemia of digestive disorders."><span class="rel">connects-to</span>Magnesium</a>
+            <a class="conn-pill" href="tnf-alpha.html" title="Gut inflammation: TNF from the gut-associated lymphoid tissue (IL-6 and IL-10 already mapped) is a central mediator of the inflammation of the digestive tract, the target of anti-TNF therapy in inflammatory bowel disease."><span class="rel">connects-to</span>Tnf Alpha</a>
+            <a class="conn-pill" href="il-17a.html" title="Mucosal Th17 defence: IL-17 from the gut mucosal Th17 cells defends the epithelial barrier of the digestive system against invading microbes, and its dysregulation drives the inflammation of gut immune disease."><span class="rel">connects-to</span>Il 17A</a>
+            <a class="conn-pill" href="adiponectin.html" title="Metabolic adipokine: adiponectin, with leptin (already mapped), is the adipokine signalling that links the digestive system's nutrient handling to the whole-body energy and metabolic balance."><span class="rel">connects-to</span>Adiponectin</a>
+            <a class="conn-pill" href="resistin.html" title="Adipose-inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), links the visceral adipose and the digestive-system nutrient handling to the metabolic-inflammatory state."><span class="rel">connects-to</span>Resistin</a>
+            <a class="conn-pill" href="plasma-cell.html" title="Gut IgA plasma cells: the intestinal plasma cells — the largest plasma-cell pool in the body — secrete the secretory IgA (already mapped) that defends the mucosal barrier of the digestive system."><span class="rel">connects-to</span>Plasma Cell</a>
+            <a class="conn-pill" href="b-cell.html" title="GALT B cells: the gut-associated lymphoid tissue B cells class-switch to the IgA (secretory-IgA already mapped) and populate the plasma-cell (already mapped) pool of the digestive-system mucosal immunity."><span class="rel">connects-to</span>B Cell</a>
+            <a class="conn-pill" href="regulatory-t-cell.html" title="Oral tolerance: the intestinal regulatory T cells maintain the tolerance to the food antigens and the commensal microbiome (gut-microbiome already mapped) of the digestive system."><span class="rel">connects-to</span>Regulatory T Cell</a>
+            <a class="conn-pill" href="t-helper-cell.html" title="Gut adaptive immunity: the CD4 T-helper cells of the gut-associated lymphoid tissue coordinate the mucosal immune response and the barrier defence of the digestive system."><span class="rel">connects-to</span>T Helper Cell</a>
+            <a class="conn-pill" href="il-4.html" title="Type-2 mucosal immunity: IL-4, a type-2 cytokine, drives the anti-helminth and the goblet-cell/mucus response of the gut mucosal immunity of the digestive system."><span class="rel">connects-to</span>Il 4</a>
+            <a class="conn-pill" href="il-13.html" title="Type-2 barrier: IL-13, with IL-4 (already mapped), drives the goblet-cell mucus and the epithelial-barrier type-2 response of the digestive system."><span class="rel">connects-to</span>Il 13</a>
+            <a class="conn-pill" href="il-5.html" title="Eosinophil arm: IL-5, with the type-2 cytokines (IL-4 and IL-13 already mapped), recruits the gut eosinophils of the anti-parasite type-2 immunity of the digestive system."><span class="rel">connects-to</span>Il 5</a>
+            <a class="conn-pill" href="il-23.html" title="Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the mucosal barrier defence and the inflammatory tone of the gut of the digestive system."><span class="rel">connects-to</span>Il 23</a>
+            <a class="conn-pill" href="ige.html" title="Type-2/allergy arm: IgE, with the type-2 cytokines (IL-4, IL-5 and IL-13 already mapped), is the antibody arm of the anti-parasite and food-allergy type-2 immunity of the digestive system."><span class="rel">connects-to</span>Ige</a>
+            <a class="conn-pill" href="il-33.html" title="Epithelial alarmin: IL-33, released by the injured gut epithelium, activates the ILC2s and initiates the type-2 (IL-4, IL-5 and IL-13 already mapped) mucosal immunity of the digestive system."><span class="rel">connects-to</span>Il 33</a>
+            <a class="conn-pill" href="complement-c3.html" title="Mucosal complement: the complement C3, produced locally and from the liver (already mapped), opsonises the gut microbes and is part of the innate mucosal defence of the digestive system."><span class="rel">connects-to</span>Complement C3</a>
+            <a class="conn-pill" href="c5ar1.html" title="C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the neutrophil recruitment into the intestinal mucosa during the innate immune response of the digestive system."><span class="rel">connects-to</span>C5Ar1</a>
+            <a class="conn-pill" href="neutrophil.html" title="Mucosal neutrophils: the neutrophils are recruited into the intestinal mucosa and lumen as the innate effectors of the antimicrobial defence of the digestive system."><span class="rel">connects-to</span>Neutrophil</a>
+            <a class="conn-pill" href="tslp.html" title="Epithelial alarmin: TSLP, secreted by intestinal epithelial cells under microbial and mechanical stress, polarises dendritic cells (already mapped) toward Th2 tolerance and tunes the mucosal immune set-point of the digestive system."><span class="rel">connects-to</span>Tslp</a>
+            <a class="conn-pill" href="erythropoietin.html" title="Gut EPO axis: erythropoietin, produced by the intestinal epithelium under hypoxic stress, supports epithelial repair, modulates the enteric immune tone, and links gut oxygenation to the systemic haematopoietic response of the digestive system."><span class="rel">connects-to</span>Erythropoietin</a>
+            <a class="conn-pill" href="complement-c5.html" title="Terminal complement gateway: complement C5 cleavage in the intestinal lamina propria generates C5a (signalling via C5aR1 already mapped) and C5b-9 MAC, amplifying the inflammatory and tissue-remodelling responses of the digestive system."><span class="rel">connects-to</span>Complement C5</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>References</h3>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>Hall JE. <em>Guyton and Hall Textbook of Medical Physiology.</em> 14th ed. Elsevier; 2021. Ch. 63-72. <a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener">elsevier.com</a></li>
-            <li>OpenStax. <em>Anatomy &amp; Physiology 2e</em>, Ch. 23: The Digestive System. <a href="https://openstax.org/books/anatomy-and-physiology-2e/pages/23-introduction" target="_blank" rel="noopener">openstax.org</a></li>
-            <li>Sung H, Ferlay J, Siegel RL, et al. Global Cancer Statistics 2020: GLOBOCAN. <em>CA Cancer J Clin.</em> 2021;71(3):209-249. <a href="https://doi.org/10.3322/caac.21660" target="_blank" rel="noopener">doi:10.3322/caac.21660</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/33538338/" target="_blank" rel="noopener">PubMed 33538338</a></li>
-            <li>Siegel RL, Wagle NS, Cercek A, Smith RA, Jemal A. Colorectal cancer statistics, 2023. <em>CA Cancer J Clin.</em> 2023;73(3):233-254. <a href="https://doi.org/10.3322/caac.21772" target="_blank" rel="noopener">doi:10.3322/caac.21772</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/36856579/" target="_blank" rel="noopener">PubMed 36856579</a></li>
-            <li>World Health Organization. <em>Global Hepatitis Report 2024.</em> WHO; 2024. <a href="https://www.who.int/publications/i/item/9789240091672" target="_blank" rel="noopener">who.int</a></li>
+            <li><a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener noreferrer">Hall JE. Guyton and Hall Textbook of Medical Physiology. 14th ed. Elsevier; 2021. Ch. 63-72.</a></li>
+            <li><a href="https://openstax.org/books/anatomy-and-physiology-2e/pages/23-introduction" target="_blank" rel="noopener noreferrer">OpenStax. Anatomy &amp; Physiology 2e, Ch. 23: The Digestive System.</a></li>
+            <li><a href="https://www.who.int/publications/i/item/9789240091672" target="_blank" rel="noopener noreferrer">World Health Organization. Global Hepatitis Report 2024. WHO; 2024.</a></li>
+            <li><a href="https://doi.org/10.3322/caac.21660" target="_blank" rel="noopener noreferrer">Sung H, Ferlay J, Siegel RL, et al. Global Cancer Statistics 2020: GLOBOCAN Estimates of Incidence and Mortality Worldwide for 36 Cancers in 185 Countries. CA Cancer J Clin. 2021;71(3):209-249.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/33538338/" target="_blank" rel="noopener noreferrer">PubMed 33538338</a></li>
+            <li><a href="https://doi.org/10.3322/caac.21772" target="_blank" rel="noopener noreferrer">Siegel RL, Wagle NS, Cercek A, Smith RA, Jemal A. Colorectal cancer statistics, 2023. CA Cancer J Clin. 2023;73(3):233-254.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/36856579/" target="_blank" rel="noopener noreferrer">PubMed 36856579</a></li>
           </ul>
         </div>
 
@@ -235,13 +340,11 @@
     <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="index.html#scales">Scales</a>
-      <a href="liver.html">Liver</a>
-      <a href="pancreas.html">Pancreas</a>
-      <a href="intestinal-epithelium.html">Intestinal Epithelium</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
