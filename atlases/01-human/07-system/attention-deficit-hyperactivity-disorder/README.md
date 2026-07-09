@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "CNS-border antigen presentation: the dendritic cells of the CNS-border compartments are part of the neuroimmune interface implicated in the neuroinflammation reported in ADHD."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-neuroimmune axis: TSLP, from barrier epithelium and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2/Treg imbalance of the neuroinflammatory dimension of ADHD."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-neuroinflammation axis: bradykinin, via B1/B2 receptors on microglia (already mapped) and brain endothelium, amplifies the blood-brain-barrier disruption and the neuroinflammatory milieu of ADHD."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Neuroprotective cytokine: erythropoietin, via the EPOR on neurons and microglia (already mapped), modulates the neuronal survival and the neuroinflammatory dimension of the neurodevelopmental disorder of ADHD."
 ---
 
 # Attention-Deficit/Hyperactivity Disorder
@@ -797,6 +806,9 @@ ADHD is a clinical diagnosis requiring [^biederman-2005-adhd-adults]:
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 already mapped) are part of the low-grade complement activation of the neuroinflammation implicated in ADHD.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) links the complement to the microglial neuroinflammation implicated in the neurodevelopmental dimension of ADHD.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — CNS-border antigen presentation: the dendritic cells of the CNS-border compartments are part of the neuroimmune interface implicated in the neuroinflammation reported in ADHD.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-neuroimmune axis: TSLP, from barrier epithelium and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2/Treg imbalance of the neuroinflammatory dimension of ADHD.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-neuroinflammation axis: bradykinin, via B1/B2 receptors on microglia (already mapped) and brain endothelium, amplifies the blood-brain-barrier disruption and the neuroinflammatory milieu of ADHD.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Neuroprotective cytokine: erythropoietin, via the EPOR on neurons and microglia (already mapped), modulates the neuronal survival and the neuroinflammatory dimension of the neurodevelopmental disorder of ADHD.
 
 [^faraone-2021-adhd-primer]: Faraone SV, Banaschewski T, Coghill D, et al. The World Federation of ADHD International Consensus Statement: 208 Evidence-based conclusions about the disorder. *Neurosci Biobehav Rev.* 2021;128:789-818. [doi:10.1016/j.neubiorev.2021.01.022](https://doi.org/10.1016/j.neubiorev.2021.01.022) · [PubMed 33549739](https://pubmed.ncbi.nlm.nih.gov/33549739/)
 [^arnsten-2009-adhd-neuroscience]: Arnsten AF. Toward a new understanding of ADHD pathophysiology: an important role for prefrontal cortex dysfunction. *CNS Drugs.* 2009;23(Suppl 1):33-41. [doi:10.2165/00023210-200923000-00005](https://doi.org/10.2165/00023210-200923000-00005) · [PubMed 19621976](https://pubmed.ncbi.nlm.nih.gov/19621976/)

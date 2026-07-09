@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Chronic-inflammation iron: transferrin, the iron carrier, reflects the disordered iron handling of the systemic inflammation of severe atopic dermatitis."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-skin axis: bradykinin, via B1/B2 receptors on keratinocytes (already mapped) and mast cells (already mapped), amplifies the pruritus and the vascular permeability of the acutely inflamed skin of atopic dermatitis."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Itch/neuroimmune: erythropoietin, via the EPOR on keratinocytes (already mapped) and neurons (already mapped), modulates the skin neuroimmune response and the barrier-repair dimension of atopic dermatitis."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Neuroendocrine-immune: prolactin, elevated under stress (already mapped), amplifies the T-helper cell (already mapped) and mast-cell (already mapped) activation of the neuroendocrine-immune dimension of atopic dermatitis."
 ---
 
 # Atopic Dermatitis
@@ -762,6 +771,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Type-2 matricellular: osteopontin, elevated in the atopic-dermatitis skin and serum, is a matricellular cytokine amplifying the type-2 (IL-4 and IL-13 already mapped) and myeloid inflammation of the eczema.
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Chronic-lesion remodelling: collagen, the dermal extracellular-matrix scaffold, is remodelled in the lichenification and dermal fibrosis of the chronic atopic-dermatitis plaque.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Chronic-inflammation iron: transferrin, the iron carrier, reflects the disordered iron handling of the systemic inflammation of severe atopic dermatitis.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-skin axis: bradykinin, via B1/B2 receptors on keratinocytes (already mapped) and mast cells (already mapped), amplifies the pruritus and the vascular permeability of the acutely inflamed skin of atopic dermatitis.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Itch/neuroimmune: erythropoietin, via the EPOR on keratinocytes (already mapped) and neurons (already mapped), modulates the skin neuroimmune response and the barrier-repair dimension of atopic dermatitis.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Neuroendocrine-immune: prolactin, elevated under stress (already mapped), amplifies the T-helper cell (already mapped) and mast-cell (already mapped) activation of the neuroendocrine-immune dimension of atopic dermatitis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
