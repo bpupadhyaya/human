@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/factor-h
     relation: connects-to
     note: "Complement evasion: the peripheral-T-cell-lymphoma cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), tempering the complement attack in the reactive microenvironment."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Lymphomagenesis kinin: bradykinin, released from the kallikrein–kinin system activated by the protease-rich PTCL microenvironment, amplifies tumour vasodilation and the vascular permeability that characterises the reactive angioedema variants of this lymphoma."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical complement brake: C1-esterase inhibitor modulates the classical complement pathway (C3, C5 and C5aR1 already mapped) activated on the polymorphous reactive infiltrate and tumour surface of peripheral T-cell lymphoma."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Chemotherapy anaemia: erythropoietin corrects the cytopenias of CHOP-based chemotherapy used in peripheral T-cell lymphoma, and its receptor on lymphoma T cells raises the question of a potential direct tumour-trophic effect."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -772,6 +781,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Central complement: the complement C3, upstream of the C5 (already mapped), is the pivot of the complement activation within the polymorphous reactive infiltrate of peripheral T-cell lymphoma.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) links the complement to the myeloid inflammation of the peripheral-T-cell-lymphoma microenvironment.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the peripheral-T-cell-lymphoma cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), tempering the complement attack in the reactive microenvironment.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Lymphomagenesis kinin: bradykinin, released from the kallikrein–kinin system activated by the protease-rich PTCL microenvironment, amplifies tumour vasodilation and the vascular permeability that characterises the reactive angioedema variants of this lymphoma.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical complement brake: C1-esterase inhibitor modulates the classical complement pathway (C3, C5 and C5aR1 already mapped) activated on the polymorphous reactive infiltrate and tumour surface of peripheral T-cell lymphoma.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Chemotherapy anaemia: erythropoietin corrects the cytopenias of CHOP-based chemotherapy used in peripheral T-cell lymphoma, and its receptor on lymphoma T cells raises the question of a potential direct tumour-trophic effect.
 
 ---
 
