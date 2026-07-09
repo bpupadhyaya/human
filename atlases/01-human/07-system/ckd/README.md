@@ -486,6 +486,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Renal anaemia iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin and erythropoietin already mapped) of the renal anaemia of chronic kidney disease."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-tubular axis: TSLP, from tubular epithelium under the hypoxia and proteinuria of chronic kidney disease, primes dendritic cells (already mapped) and mast cells (already mapped) toward the Th2/Th17 (already mapped) tubulointerstitial inflammation."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-renal axis: bradykinin, via the intrarenal kallikrein-kinin system and the accumulation from reduced renal clearance, amplifies the vascular permeability and the tubular injury contributing to the progression of chronic kidney disease."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement brake: C1-esterase inhibitor regulates the classical-complement pathway (C3, C5 and factor-H already mapped) contributing to the C3 glomerulopathy and the immune-complex nephritis of chronic kidney disease."
 ---
 
 # Chronic Kidney Disease
@@ -718,6 +727,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 and C5aR1 already mapped) generate the membrane-attack complex contributing to the glomerular and tubulointerstitial injury of chronic kidney disease.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose dysregulation causes the C3 glomerulopathy contributing to chronic kidney disease.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Renal anaemia iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin and erythropoietin already mapped) of the renal anaemia of chronic kidney disease.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-tubular axis: TSLP, from tubular epithelium under the hypoxia and proteinuria of chronic kidney disease, primes dendritic cells (already mapped) and mast cells (already mapped) toward the Th2/Th17 (already mapped) tubulointerstitial inflammation.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-renal axis: bradykinin, via the intrarenal kallikrein-kinin system and the accumulation from reduced renal clearance, amplifies the vascular permeability and the tubular injury contributing to the progression of chronic kidney disease.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement brake: C1-esterase inhibitor regulates the classical-complement pathway (C3, C5 and factor-H already mapped) contributing to the C3 glomerulopathy and the immune-complex nephritis of chronic kidney disease.
 
 ## Pathology
 

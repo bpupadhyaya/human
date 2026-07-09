@@ -492,6 +492,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "Cytotoxic infiltrate: the cytotoxic T cells (perforin already mapped) mediate the myocyte injury of the viral myocarditis and contribute to the atherosclerotic plaque inflammation of the cardiovascular system."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-vascular axis: TSLP, from injured endothelium (already mapped) and vascular smooth muscle, primes mast cells (already mapped) and dendritic cells (already mapped) and amplifies the Th2/eosinophil (already mapped) vascular inflammation of the cardiovascular system."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement brake: C1-esterase inhibitor regulates the contact-pathway kinin cascade (bradykinin already mapped) and the classical-complement activation (C3 and C5 already mapped) contributing to the angioedema and ischaemia-reperfusion of the cardiovascular system."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell vascular mediator: histamine, from cardiac and vascular mast cells (already mapped), amplifies the vascular permeability and the coronary vasospasm contributing to Kounis syndrome and the hypersensitivity myocarditis of the cardiovascular system."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"
@@ -732,6 +741,9 @@ Each major vascular bed has **autoregulation** — a local mechanism that holds 
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 already mapped) generate the membrane-attack complex central to the atherosclerotic and ischaemia-reperfusion injury of the cardiovascular system.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the myeloid (macrophage already mapped) recruitment of the atherosclerotic and myocarditic inflammation of the cardiovascular system.
 - `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Cytotoxic infiltrate: the cytotoxic T cells (perforin already mapped) mediate the myocyte injury of the viral myocarditis and contribute to the atherosclerotic plaque inflammation of the cardiovascular system.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-vascular axis: TSLP, from injured endothelium (already mapped) and vascular smooth muscle, primes mast cells (already mapped) and dendritic cells (already mapped) and amplifies the Th2/eosinophil (already mapped) vascular inflammation of the cardiovascular system.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement brake: C1-esterase inhibitor regulates the contact-pathway kinin cascade (bradykinin already mapped) and the classical-complement activation (C3 and C5 already mapped) contributing to the angioedema and ischaemia-reperfusion of the cardiovascular system.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell vascular mediator: histamine, from cardiac and vascular mast cells (already mapped), amplifies the vascular permeability and the coronary vasospasm contributing to Kounis syndrome and the hypersensitivity myocarditis of the cardiovascular system.
 
 ## Pathology
 
