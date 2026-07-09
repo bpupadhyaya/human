@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/c1-esterase-inhibitor
     relation: connects-to
     note: "Classical-pathway regulation: the C1-esterase inhibitor regulates the classical and lectin complement pathways within the VHL-associated tumour microenvironment, complementing the alternative-pathway control by factor H (already mapped)."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Stromal alarmin: TSLP from the VHL tumour stroma (fibroblast, VEGF already mapped) activates mast cells (already mapped) and dendritic cells (already mapped), sustaining the immunosuppressive type-2 microenvironment of haemangioblastoma and ccRCC."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "HIF-driven kinin axis: bradykinin production is enhanced by the HIF-1α (already mapped) driven upregulation of tissue kallikrein in VHL-disease tumours, amplifying the vascular permeability and angiogenesis (VEGF, angiopoietin already mapped) of the haemangioblastomas."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Hypoxic ECM remodelling: periostin expression is upregulated by HIF-1α (already mapped) in the VHL-associated tumour stroma, contributing to the desmoplastic ECM and invasion of the clear-cell RCC and pNET lesions of VHL disease."
 ---
 
 # VHL Disease
@@ -749,6 +758,9 @@ The genotype-phenotype correlation reflects the degree of pVHL function retained
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Central complement: the complement C3, upstream of the C5 and C5aR1 (already mapped), is the pivot of the complement activation within the highly vascular VHL-associated tumour microenvironment.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the VHL-associated tumour cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), evading the complement attack within the tumour microenvironment.
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical and lectin complement pathways within the VHL-associated tumour microenvironment, complementing the alternative-pathway control by factor H (already mapped).
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Tumour stromal alarmin: TSLP, released from the VHL-associated tumour stroma (fibroblast, VEGF already mapped), activates mast cells (already mapped) and dendritic cells (already mapped), sustaining the type-2 immunosuppressive microenvironment of the haemangioblastomas and ccRCC lesions.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — HIF-driven kinin axis: bradykinin production is enhanced by the HIF-1α (already mapped) driven upregulation of tissue kallikrein in VHL-disease tumours, amplifying the vascular permeability and angiogenesis (VEGF, angiopoietin already mapped) of the haemangioblastomas.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Hypoxic ECM remodelling: periostin expression is upregulated by HIF-1α (already mapped) in the VHL-associated tumour stroma, contributing to the desmoplastic ECM and invasion of the clear-cell RCC and pNET lesions of VHL disease.
 
 [^lonser-2003-vhl-disease]: Lonser RR, Glenn GM, Walther M, et al. von Hippel-Lindau disease. *Lancet.* 2003;361(9374):2059-2067. [doi:10.1016/S0140-6736(03)13643-4](https://doi.org/10.1016/S0140-6736(03)13643-4) · [PubMed 12814730](https://pubmed.ncbi.nlm.nih.gov/12814730/)
 [^choueiri-2020-hif2-rcc]: Choueiri TK, Kaelin WG Jr. Targeting the HIF2-VEGF axis in renal cell carcinoma. *Nat Med.* 2020;26(10):1519-1530. [doi:10.1038/s41591-020-1093-z](https://doi.org/10.1038/s41591-020-1093-z) · [PubMed 33020650](https://pubmed.ncbi.nlm.nih.gov/33020650/)
