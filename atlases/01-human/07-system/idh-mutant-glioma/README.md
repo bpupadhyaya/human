@@ -484,6 +484,15 @@ cross_links:
   - target: 03-medicine/03-food/vitamin-d
     relation: connects-to
     note: "Anti-glioma VDR signalling: vitamin D (VDR expressed in IDH-mutant glioma) suppresses proliferation and correlates with better prognosis; low serum levels associate with shorter time to progression in lower-grade glioma."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin in the glioma microenvironment: TSLP released by IDH-mutant glioma cells primes dendritic cells (already mapped) and mast cells (already mapped) to sustain the Th2-skewed (IL-4, IL-13 already mapped) immunosuppressive microenvironment of lower-grade glioma."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Vascular permeability mediator: bradykinin, acting on B2 receptors of the endothelial cells (already mapped) of the blood-brain barrier, amplifies its disruption in IDH-mutant glioma, contributing to peritumoral oedema and the nitric oxide (already mapped) signalling."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical complement regulation: C1-INH controls the classical-pathway arm (C3, C5, C5aR1 and factor H already mapped) of the complement-mediated immune surveillance of IDH-mutant glioma cells, whose 2-hydroxyglutarate blunts the innate immune response."
 ---
 
 # IDH-Mutant Glioma
@@ -771,6 +780,9 @@ IDH-mutant glioma with MGMT methylation shows strong alkylating agent sensitivit
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: complement C5 and its C5a anaphylatoxin (with C3 and C5aR1 already mapped) drive myeloid infiltration and the pro-tumour neuroinflammation of the IDH-mutant glioma microenvironment.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: IDH-mutant glioma cells recruit factor H to bind C3b and downregulate the alternative pathway (C3, C5 and C5aR1 already mapped), evading complement-mediated tumour surveillance.
 - `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Anti-glioma VDR signalling: vitamin D (VDR expressed in IDH-mutant glioma) suppresses proliferation and correlates with better prognosis; low serum levels associate with shorter time to progression in lower-grade glioma.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin in the glioma microenvironment: TSLP released by IDH-mutant glioma cells primes dendritic cells (already mapped) and mast cells (already mapped) to sustain the Th2-skewed (IL-4, IL-13 already mapped) immunosuppressive microenvironment of lower-grade glioma.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Vascular permeability mediator: bradykinin, acting on B2 receptors of the endothelial cells (already mapped) of the blood-brain barrier, amplifies its disruption in IDH-mutant glioma, contributing to peritumoral oedema and the nitric oxide (already mapped) signalling.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical complement regulation: C1-INH controls the classical-pathway arm (C3, C5, C5aR1 and factor H already mapped) of the complement-mediated immune surveillance of IDH-mutant glioma cells, whose 2-hydroxyglutarate blunts the innate immune response.
 
 [^mellinghoff-2023-vorasidenib-lgg]: Mellinghoff IK, van den Bent MJ, Blumenthal DT, et al. Vorasidenib in IDH1- or IDH2-mutant low-grade glioma. *N Engl J Med.* 2023;389(7):589-601. [doi:10.1056/NEJMoa2304194](https://doi.org/10.1056/NEJMoa2304194) · [PubMed 37272530](https://pubmed.ncbi.nlm.nih.gov/37272530/)
 [^jiao-2012-atrx-glioma]: Jiao Y, Killela PJ, Reitman ZJ, et al. Frequent ATRX, CIC, FUBP1 and IDH mutations refine the classification of malignant gliomas. *Oncotarget.* 2012;3(7):709-722. [doi:10.18632/oncotarget.588](https://doi.org/10.18632/oncotarget.588) · [PubMed 22869205](https://pubmed.ncbi.nlm.nih.gov/22869205/)

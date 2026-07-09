@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "EPO-mediated vasoconstriction: erythropoietin, produced by the kidney (already mapped), directly vasoconstricts endothelial cells (already mapped) and raises blood pressure; ESA therapy in CKD (already mapped) hypertension is a recognised EPO-induced side effect."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Perivascular alarmin: TSLP released by tubular epithelial cells during hypertensive nephrosclerosis primes dendritic cells (already mapped) and mast cells (already mapped) to sustain the Th2 (IL-4, IL-13 already mapped) inflammatory milieu."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Vasoactive mast-cell mediator: histamine, released by the perivascular mast cells (already mapped) in hypertension, acts on vascular H1 receptors to promote vasodilation counteracting the renin-angiotensin (angiotensin II and renin already mapped) vasoconstriction."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Profibrotic matricellular protein: periostin, secreted by cardiac fibroblasts (fibrosis already mapped) under the profibrotic TGF-β (already mapped) drive of chronic pressure overload, promotes the cardiomyocyte (already mapped) hypertrophy and cardiac fibrosis of hypertension."
 ---
 
 # Hypertension
@@ -730,6 +739,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Renal complement regulation: factor H regulates the alternative pathway (C3, C5 and C5aR1 already mapped), protecting glomerular (already mapped) and podocyte (already mapped) cells from complement-mediated injury in hypertensive nephropathy.
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement and kinin control: C1-INH regulates the classical complement pathway (C3, C5 already mapped) and the bradykinin (already mapped) kinin-kallikrein axis; deficiency amplifies complement-mediated renal injury and vascular bradykinin dysregulation in hypertension.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — EPO-mediated vasoconstriction: erythropoietin, produced by the kidney (already mapped), directly vasoconstricts endothelial cells (already mapped) and raises blood pressure; ESA therapy in CKD (already mapped) hypertension is a recognised EPO-induced side effect.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Perivascular alarmin: TSLP released by tubular epithelial cells during hypertensive nephrosclerosis primes dendritic cells (already mapped) and mast cells (already mapped) to sustain the Th2 (IL-4, IL-13 already mapped) inflammatory milieu.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Vasoactive mast-cell mediator: histamine, released by the perivascular mast cells (already mapped) in hypertension, acts on vascular H1 receptors to promote vasodilation counteracting the renin-angiotensin (angiotensin II and renin already mapped) vasoconstriction.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Profibrotic matricellular protein: periostin, secreted by cardiac fibroblasts (fibrosis already mapped) under the profibrotic TGF-β drive of chronic pressure overload, promotes the cardiomyocyte (already mapped) hypertrophy and cardiac fibrosis of hypertension.
 
 ## Pathology
 
