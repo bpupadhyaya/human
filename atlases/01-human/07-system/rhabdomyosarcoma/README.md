@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/c5ar1
     relation: connects-to
     note: "C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid (macrophage already mapped) recruitment into the rhabdomyosarcoma stroma."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Myogenic stroma alarmin: TSLP released by the rhabdomyosarcoma tumour stroma activates mast cells and promotes the Th2 and immunosuppressive microenvironment that dampens cytotoxic anti-tumour immunity in this paediatric soft-tissue sarcoma."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Muscle ECM modulator: periostin, an ECM glycoprotein expressed in the rhabdomyosarcoma tumour stroma, promotes invasion and metastasis of the dedifferentiated rhabdomyoblasts and contributes to the desmoplastic microenvironment."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Chemotherapy anaemia: erythropoietin corrects the cytopenias of VAC/ifosfamide chemotherapy regimens in rhabdomyosarcoma, and EPOR expression on tumour cells raises the question of a direct EPO-driven proliferative effect."
 ---
 
 # Rhabdomyosarcoma
@@ -755,6 +764,9 @@ Maximal safe resection with negative margins (R0) wherever achievable without mu
 - `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Tertiary lymphoid structures: the B cells organise the tertiary lymphoid structures whose presence, with the CD8 (already mapped) TILs, may mark the immune response of rhabdomyosarcoma.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Tumour complement: the complement C3 activation contributes to the inflammatory dimension of the rhabdomyosarcoma microenvironment.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid (macrophage already mapped) recruitment into the rhabdomyosarcoma stroma.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Myogenic stroma alarmin: TSLP released by the rhabdomyosarcoma tumour stroma activates mast cells and promotes the Th2 and immunosuppressive microenvironment that dampens cytotoxic anti-tumour immunity in this paediatric soft-tissue sarcoma.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Muscle ECM modulator: periostin, an ECM glycoprotein expressed in the rhabdomyosarcoma tumour stroma, promotes invasion and metastasis of the dedifferentiated rhabdomyoblasts and contributes to the desmoplastic microenvironment.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Chemotherapy anaemia: erythropoietin corrects the cytopenias of VAC/ifosfamide chemotherapy regimens in rhabdomyosarcoma, and EPOR expression on tumour cells raises the question of a direct EPO-driven proliferative effect.
 
 [^crist-2001-irs4-rms]: Crist WM, Anderson JR, Meza JL, et al. Intergroup rhabdomyosarcoma study-IV: results for patients with nonmetastatic disease. *J Clin Oncol.* 2001;19(12):3091-3102. [doi:10.1200/JCO.2001.19.12.3091](https://doi.org/10.1200/JCO.2001.19.12.3091) · [PubMed 11408506](https://pubmed.ncbi.nlm.nih.gov/11408506/)
 [^oberlin-2012-mmt95-rms]: Oberlin O, Rey A, Sanchez de Toledo J, et al. Randomized comparison of intensified six-drug versus standard three-drug chemotherapy for high-risk nonmetastatic rhabdomyosarcoma and other chemotherapy-sensitive childhood soft tissue sarcomas. *J Clin Oncol.* 2012;30(19):2457-2465. [doi:10.1200/JCO.2011.39.3538](https://doi.org/10.1200/JCO.2011.39.3538) · [PubMed 22665546](https://pubmed.ncbi.nlm.nih.gov/22665546/)

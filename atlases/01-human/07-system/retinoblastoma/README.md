@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/c5ar1
     relation: connects-to
     note: "C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid (macrophage already mapped) recruitment into the retinoblastoma microenvironment."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Chemotherapy anaemia support: erythropoietin corrects the anaemia from VAC-based chemotherapy in retinoblastoma, and EPOR expression on retinal progenitor cells hints at a developmental role in the retinoblastoma cell of origin."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Intraocular mast-cell mediator: histamine from intraocular mast cells promotes the angiogenesis (VEGF already mapped) and the vascular permeability that sustain the highly vascular growth pattern of retinoblastoma within the vitreous."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Blood-ocular-barrier modulation: bradykinin B2-receptor agonists increase the permeability of the blood-ocular barrier, a pharmacological strategy explored to enhance intra-arterial and intravitreal chemotherapy delivery in retinoblastoma."
 ---
 
 # Retinoblastoma
@@ -740,6 +749,9 @@ Standard regimen: **vincristine + carboplatin + etoposide (VCE)**, 6 cycles; red
 - `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Tertiary lymphoid structures: the B cells organise the tertiary lymphoid structures whose presence, with the CD8 (already mapped) TILs, may mark the immune response of retinoblastoma.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Tumour complement: the complement C3 activation contributes to the inflammatory dimension of the intraocular retinoblastoma microenvironment.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid (macrophage already mapped) recruitment into the retinoblastoma microenvironment.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Chemotherapy anaemia support: erythropoietin corrects the anaemia from VAC-based chemotherapy in retinoblastoma, and EPOR expression on retinal progenitor cells hints at a developmental role in the retinoblastoma cell of origin.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Intraocular mast-cell mediator: histamine from intraocular mast cells promotes the angiogenesis (VEGF already mapped) and the vascular permeability that sustain the highly vascular growth pattern of retinoblastoma within the vitreous.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Blood-ocular-barrier modulation: bradykinin B2-receptor agonists increase the permeability of the blood-ocular barrier, a pharmacological strategy explored to enhance intra-arterial and intravitreal chemotherapy delivery in retinoblastoma.
 
 [^knudson-1971-two-hit]: Knudson AG Jr. Mutation and cancer: statistical study of retinoblastoma. *Proc Natl Acad Sci USA.* 1971;68(4):820-823. [doi:10.1073/pnas.68.4.820](https://doi.org/10.1073/pnas.68.4.820) · [PubMed 5279523](https://pubmed.ncbi.nlm.nih.gov/5279523/)
 [^shields-2008-retinoblastoma]: Shields CL, Shields JA. Retinoblastoma management: advances in enucleation, intravenous chemoreduction, and intra-arterial chemotherapy. *Curr Opin Ophthalmol.* 2010;21(3):203-212. [doi:10.1097/ICU.0b013e328338676a](https://doi.org/10.1097/ICU.0b013e328338676a) · [PubMed 20224400](https://pubmed.ncbi.nlm.nih.gov/20224400/)
