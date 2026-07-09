@@ -487,6 +487,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Chronic-disease iron: transferrin, the iron carrier, reflects the disordered iron handling of the anaemia of the chronic autoimmune disease of myasthenia gravis."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-thymic axis: TSLP, from thymic (thymus already mapped) stromal cells and the hyperplastic thymic epithelium, primes dendritic cells (already mapped) and amplifies the self-reactive B-cell (already mapped) priming underlying the anti-AChR autoimmunity of myasthenia gravis."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-neuromuscular axis: bradykinin, via B2R at the neuromuscular junction, modulates the acetylcholine (already mapped) release and the local inflammatory response contributing to the muscle-fatigability and the NMJ injury of myasthenia gravis."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Chronic-disease anaemia: erythropoietin corrects the anaemia (transferrin already mapped) driven by the chronic autoimmune inflammatory state and the immunosuppressant-mediated (hepcidin already mapped) marrow (already mapped) suppression of myasthenia gravis."
 ---
 
 # Myasthenia Gravis
@@ -754,6 +763,9 @@ cross_links:
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Autoimmune matricellular: osteopontin, elevated in myasthenia gravis, is a pro-inflammatory matricellular cytokine of the thymic (already mapped) and systemic autoimmune activation of the disease.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Thymic stromal remodelling: periostin, a matricellular mediator, is part of the stromal remodelling of the thymic hyperplasia and thymoma (thymus already mapped) that drives the autoimmunity of myasthenia gravis.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Chronic-disease iron: transferrin, the iron carrier, reflects the disordered iron handling of the anaemia of the chronic autoimmune disease of myasthenia gravis.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-thymic axis: TSLP, from thymic (thymus already mapped) stromal cells and the hyperplastic thymic epithelium, primes dendritic cells (already mapped) and amplifies the self-reactive B-cell (already mapped) priming underlying the anti-AChR autoimmunity of myasthenia gravis.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-neuromuscular axis: bradykinin, via B2R at the neuromuscular junction, modulates the acetylcholine (already mapped) release and the local inflammatory response contributing to the muscle-fatigability and the NMJ injury of myasthenia gravis.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Chronic-disease anaemia: erythropoietin corrects the anaemia (transferrin already mapped) driven by the chronic autoimmune inflammatory state and the immunosuppressant-mediated (hepcidin already mapped) marrow (already mapped) suppression of myasthenia gravis.
 
 [^gilhus-2016-mg-review]: Gilhus NE. Myasthenia Gravis. *N Engl J Med.* 2016;375(26):2570-2581. [doi:10.1056/NEJMra1602678](https://doi.org/10.1056/NEJMra1602678) · [PubMed 28029925](https://pubmed.ncbi.nlm.nih.gov/28029925/)
 [^howard-2021-efgartigimod-adapt]: Howard JF Jr, Bril V, Vu T, et al. Safety, efficacy, and tolerability of efgartigimod in patients with generalised myasthenia gravis (ADAPT). *Lancet Neurol.* 2021;20(7):526-536. [doi:10.1016/S1474-4422(21)00159-9](https://doi.org/10.1016/S1474-4422(21)00159-9) · [PubMed 34146511](https://pubmed.ncbi.nlm.nih.gov/34146511/)
