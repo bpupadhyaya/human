@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Marrow stroma: periostin, a matricellular mediator, is part of the bone-marrow (already mapped) stromal remodelling of the hypocellular marrow of aplastic anaemia."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-marrow axis: TSLP, from marrow stromal cells and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2/Treg imbalance of the T-cell-mediated autoimmune marrow failure of aplastic anaemia."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-marrow axis: bradykinin, via B1/B2 receptors on marrow endothelium (already mapped) and stromal cells, amplifies the vascular permeability and the inflammatory cytokine milieu of the autoimmune marrow failure of aplastic anaemia."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell marrow inflammation: histamine, from mast cells (already mapped), amplifies the marrow stromal and vascular permeability of the T-cell-mediated autoimmune marrow failure of aplastic anaemia."
 ---
 
 # Aplastic Anemia
@@ -752,6 +761,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose dysregulation underlies the PNH-clone (already mapped) haemolysis arising in aplastic anaemia.
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway of the autoimmune marrow attack (T-cell and antibody mediated) of aplastic anaemia.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Marrow stroma: periostin, a matricellular mediator, is part of the bone-marrow (already mapped) stromal remodelling of the hypocellular marrow of aplastic anaemia.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-marrow axis: TSLP, from marrow stromal cells and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2/Treg imbalance of the T-cell-mediated autoimmune marrow failure of aplastic anaemia.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-marrow axis: bradykinin, via B1/B2 receptors on marrow endothelium (already mapped) and stromal cells, amplifies the vascular permeability and the inflammatory cytokine milieu of the autoimmune marrow failure of aplastic anaemia.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell marrow inflammation: histamine, from mast cells (already mapped), amplifies the marrow stromal and vascular permeability of the T-cell-mediated autoimmune marrow failure of aplastic anaemia.
 
 ---
 

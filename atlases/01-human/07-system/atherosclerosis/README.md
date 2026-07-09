@@ -490,6 +490,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Plaque iron: transferrin, the iron carrier, reflects the disordered iron handling and the intraplaque-haemorrhage iron that aggravates the oxidative injury of the atherosclerotic plaque."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-plaque axis: TSLP, from activated endothelium (already mapped) and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2/eosinophil plaque inflammation and the vulnerable-plaque formation of atherosclerosis."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-vascular axis: bradykinin, via B2 receptors on arterial endothelium (already mapped), releases NO and prostacyclin and modulates the vasotension and endothelial dysfunction of the atherosclerotic risk dimension of atherosclerosis."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Vascular erythropoietin: erythropoietin, via the EPOR on endothelial cells (already mapped) and smooth-muscle cells (already mapped), exerts cardioprotective and anti-inflammatory effects that modulate the vascular damage of atherosclerosis."
 ---
 
 # Atherosclerosis
@@ -761,6 +770,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway activated by the oxidised LDL and C-reactive protein in the atherosclerotic plaque.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Plaque matricellular: osteopontin, produced by the foam-cell macrophages (already mapped) and smooth-muscle cells (already mapped), is a matricellular mediator of the plaque inflammation and the vascular calcification of atherosclerosis.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Plaque iron: transferrin, the iron carrier, reflects the disordered iron handling and the intraplaque-haemorrhage iron that aggravates the oxidative injury of the atherosclerotic plaque.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-plaque axis: TSLP, from activated endothelium (already mapped) and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2/eosinophil plaque inflammation and the vulnerable-plaque formation of atherosclerosis.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-vascular axis: bradykinin, via B2 receptors on arterial endothelium (already mapped), releases NO and prostacyclin and modulates the vasotension and endothelial dysfunction of the atherosclerotic risk dimension of atherosclerosis.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Vascular erythropoietin: erythropoietin, via the EPOR on endothelial cells (already mapped) and smooth-muscle cells (already mapped), exerts cardioprotective and anti-inflammatory effects that modulate the vascular damage of atherosclerosis.
 
 ---
 
