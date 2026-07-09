@@ -490,6 +490,15 @@ cross_links:
   - target: 01-human/04-cellular/t-helper-cell
     relation: connects-to
     note: "Adaptive immunothrombosis: the CD4 T-helper cells contribute to the inflammatory drive of the immunothrombosis that underlies the sepsis-associated DIC."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-DIC axis: TSLP, from the septic or inflammatory epithelium, primes dendritic cells and mast cells (already mapped) and amplifies the cytokine storm (already mapped) and the systemic inflammatory response that triggers disseminated intravascular coagulation."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "EPO-DIC axis: erythropoietin, upregulated by the HIF-1α (already mapped) hypoxia of DIC-related multi-organ injury, mobilises erythroid progenitors and modulates macrophage (already mapped) polarisation, linking the anaemia of DIC to the inflammatory coagulopathy."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Remodelling axis: periostin, released from the injured endothelium (already mapped) and fibroblasts during the DIC-related vascular injury, contributes to the tissue remodelling and repair after the consumptive coagulopathy."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -778,6 +787,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Thromboinflammation: osteopontin, released by the activated platelets (already mapped), is a matricellular mediator linking the inflammation to the microthrombosis of DIC.
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Vascular mast cells: the mast cells contribute to the vascular permeability and, through tissue-factor and heparin release, to the coagulation-anticoagulation imbalance of DIC.
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — Adaptive immunothrombosis: the CD4 T-helper cells contribute to the inflammatory drive of the immunothrombosis that underlies the sepsis-associated DIC.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-DIC axis: TSLP, from the septic or inflammatory epithelium, primes dendritic cells and mast cells (already mapped) and amplifies the cytokine storm (already mapped) and the systemic inflammatory response that triggers disseminated intravascular coagulation.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — EPO-DIC axis: erythropoietin, upregulated by the HIF-1α (already mapped) hypoxia of DIC-related multi-organ injury, mobilises erythroid progenitors and modulates macrophage (already mapped) polarisation, linking the anaemia of DIC to the inflammatory coagulopathy.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Remodelling axis: periostin, released from the injured endothelium (already mapped) and fibroblasts during the DIC-related vascular injury, contributes to the tissue remodelling and repair after the consumptive coagulopathy.
 
 ---
 

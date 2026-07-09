@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Tumour iron: transferrin, the iron carrier, supplies the iron demand of the H3K27M-mutant (already mapped) glioma cells and the disordered brain-iron handling of diffuse midline glioma."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-DMG axis: TSLP, from the DMG stromal cells and astrocytes (already mapped), primes dendritic cells (already mapped) and amplifies the Th2-skewed immunosuppressive microenvironment of the H3K27M-mutant (already mapped) diffuse midline glioma."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-DMG axis: bradykinin, via B1/B2 receptors on the DMG tumour endothelium (already mapped) and microglia (already mapped), augments blood-brain-barrier permeability, oedema, and the inflammatory milieu of diffuse midline glioma."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "EPO-DMG axis: erythropoietin, induced by the HIF-1α (already mapped) hypoxia of the DMG tumour core, activates the EPOR on H3K27M-mutant (already mapped) glioma cells and modulates macrophage/microglia (already mapped) polarisation."
 ---
 
 # Diffuse Midline Glioma
@@ -778,6 +787,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 and C5aR1 already mapped) contribute to the microglial (already mapped) and myeloid inflammation of the diffuse-midline-glioma microenvironment.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the diffuse-midline-glioma cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), tempering the complement attack in the immunologically cold tumour.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Tumour iron: transferrin, the iron carrier, supplies the iron demand of the H3K27M-mutant (already mapped) glioma cells and the disordered brain-iron handling of diffuse midline glioma.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-DMG axis: TSLP, from the DMG stromal cells and astrocytes (already mapped), primes dendritic cells (already mapped) and amplifies the Th2-skewed immunosuppressive microenvironment of the H3K27M-mutant (already mapped) diffuse midline glioma.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-DMG axis: bradykinin, via B1/B2 receptors on the DMG tumour endothelium (already mapped) and microglia (already mapped), augments blood-brain-barrier permeability, oedema, and the inflammatory milieu of diffuse midline glioma.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — EPO-DMG axis: erythropoietin, induced by the HIF-1α (already mapped) hypoxia of the DMG tumour core, activates the EPOR on H3K27M-mutant (already mapped) glioma cells and modulates macrophage/microglia (already mapped) polarisation.
 
 ---
 
