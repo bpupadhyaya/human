@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/factor-h
     relation: connects-to
     note: "Complement evasion: the synovial-sarcoma cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped) within the immunosuppressive microenvironment."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Sarcoma stromal alarmin: TSLP released from the SYT-SSX-driven synovial sarcoma stroma activates mast cells and dendritic cells, promoting the immunosuppressive type-2 microenvironment that blunts NY-ESO-1-targeted cytotoxic immunity."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Chemotherapy anaemia: erythropoietin corrects the ifosfamide/doxorubicin-induced anaemia in synovial sarcoma, and EPOR expression on the tumour cells has been reported, suggesting possible direct trophic effects."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "ECM invasion scaffold: periostin, an ECM glycoprotein of the synovial sarcoma stromal niche, promotes the local invasion and lung metastasis of the SYT-SSX-rearranged sarcoma cells and contributes to the desmoplastic microenvironment."
 ---
 
 # Synovial Sarcoma
@@ -753,6 +762,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Tertiary lymphoid structures: the B cells organise the tertiary lymphoid structures whose presence, with the CD8 (already mapped) TILs, may mark the immune response of synovial sarcoma and the NY-ESO-1 TCR-T context.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 and C5aR1 already mapped) contribute to the myeloid-driven immunosuppression of the synovial-sarcoma microenvironment.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the synovial-sarcoma cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped) within the immunosuppressive microenvironment.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Sarcoma stromal alarmin: TSLP released from the SYT-SSX-driven synovial sarcoma stroma activates mast cells and dendritic cells, promoting the immunosuppressive type-2 microenvironment that blunts NY-ESO-1-targeted cytotoxic immunity.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Chemotherapy anaemia: erythropoietin corrects the ifosfamide/doxorubicin-induced anaemia in synovial sarcoma, and EPOR expression on the tumour cells has been reported, suggesting possible direct trophic effects.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — ECM invasion scaffold: periostin, an ECM glycoprotein of the synovial sarcoma stromal niche, promotes the local invasion and lung metastasis of the SYT-SSX-rearranged sarcoma cells and contributes to the desmoplastic microenvironment.
 
 ---
 

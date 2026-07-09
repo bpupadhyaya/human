@@ -481,6 +481,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "Cytotoxic infiltrate: the cytotoxic T cells (perforin already mapped) infiltrate the sclerotic skin and lung and contribute to the endothelial injury and the fibroblast (already mapped) activation of systemic sclerosis."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Vasomotor mediator: bradykinin, released by kallikrein activation in the ischaemia-reperfusion cycles of Raynaud's phenomenon, amplifies the vascular permeability and digital pain that accompany the microvascular disease of systemic sclerosis."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical complement brake: C1-esterase inhibitor modulates the classical complement pathway (C3, C5 and C5aR1 already mapped) activated by the anti-endothelial autoantibodies on the sclerotic vascular wall of systemic sclerosis."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Scleroderma anaemia: erythropoietin addresses the anaemia of chronic inflammation and the renal-crisis-driven erythropoietin deficiency of systemic sclerosis; EPO may also modulate the pulmonary-artery vascular remodelling (PAH already mapped)."
 ---
 
 # Systemic Sclerosis
@@ -749,6 +758,9 @@ Identical to IPAH: medial hypertrophy, intimal fibrosis, concentric laminar inti
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its activation (with C3 and C5aR1 already mapped) contribute to the microvascular injury and the inflammatory vasculopathy of systemic sclerosis.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose dysregulation contributes to the endothelial (already mapped) injury of systemic sclerosis.
 - `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Cytotoxic infiltrate: the cytotoxic T cells (perforin already mapped) infiltrate the sclerotic skin and lung and contribute to the endothelial injury and the fibroblast (already mapped) activation of systemic sclerosis.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Vasomotor mediator: bradykinin, released by kallikrein activation in the ischaemia-reperfusion cycles of Raynaud's phenomenon, amplifies the vascular permeability and digital pain that accompany the microvascular disease of systemic sclerosis.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical complement brake: C1-esterase inhibitor modulates the classical complement pathway (C3, C5 and C5aR1 already mapped) activated by the anti-endothelial autoantibodies on the sclerotic vascular wall of systemic sclerosis.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Scleroderma anaemia: erythropoietin addresses the anaemia of chronic inflammation and the renal-crisis-driven erythropoietin deficiency of systemic sclerosis; EPO may also modulate the pulmonary-artery vascular remodelling (PAH already mapped).
 
 [^denton-2017-ssc-review]: Denton CP, Khanna D. Systemic sclerosis. *Lancet.* 2017;390(10103):1685-1699. [doi:10.1016/S0140-6736(17)30933-9](https://doi.org/10.1016/S0140-6736(17)30933-9) · [PubMed 28413064](https://pubmed.ncbi.nlm.nih.gov/28413064/)
 [^distler-2019-nintedanib-senscis]: Distler O, Highland KB, Gahlemann M, et al. Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease. *N Engl J Med.* 2019;380(26):2518-2528. [doi:10.1056/NEJMoa1903076](https://doi.org/10.1056/NEJMoa1903076) · [PubMed 31112379](https://pubmed.ncbi.nlm.nih.gov/31112379/)
