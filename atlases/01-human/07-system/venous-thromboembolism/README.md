@@ -487,6 +487,15 @@ cross_links:
   - target: 01-human/04-cellular/t-helper-cell
     relation: connects-to
     note: "Adaptive immunothrombosis: the CD4 T-helper cells contribute to the adaptive-immune dimension of the inflammation that primes the venous endothelium (already mapped) for the immunothrombosis of venous thromboembolism."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-thromboinflammation axis: TSLP, from activated endothelium (already mapped) and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2/eosinophil imbalance of the thromboinflammation of venous thromboembolism."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Thrombogenic erythropoiesis: erythropoietin drives erythrocytosis and increases blood viscosity, amplifying the venous stasis and the hypercoagulability of the thrombotic-risk context of venous thromboembolism."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell venous inflammation: histamine, from mast cells (already mapped), increases venous endothelial permeability and primes the coagulation–inflammation interface of the immunothrombosis of venous thromboembolism."
 ---
 
 # Venous Thromboembolism
@@ -762,6 +771,9 @@ cross_links:
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Thromboinflammation: osteopontin, released by the activated platelets (already mapped), is a matricellular mediator amplifying the neutrophil (already mapped) NET-driven immunothrombosis of venous thromboembolism.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Thrombotic iron: transferrin, the iron carrier, reflects the disordered iron handling that, with the venous stasis and hypercoagulability, is part of the thrombotic-risk context of venous thromboembolism.
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — Adaptive immunothrombosis: the CD4 T-helper cells contribute to the adaptive-immune dimension of the inflammation that primes the venous endothelium (already mapped) for the immunothrombosis of venous thromboembolism.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-thromboinflammation axis: TSLP, from activated endothelium (already mapped) and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2/eosinophil imbalance of the thromboinflammation of venous thromboembolism.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Thrombogenic erythropoiesis: erythropoietin drives erythrocytosis and increases blood viscosity, amplifying the venous stasis and the hypercoagulability of the thrombotic-risk context of venous thromboembolism.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell venous inflammation: histamine, from mast cells (already mapped), increases venous endothelial permeability and primes the coagulation–inflammation interface of the immunothrombosis of venous thromboembolism.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)
