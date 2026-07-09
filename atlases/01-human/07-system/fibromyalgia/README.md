@@ -465,6 +465,15 @@ cross_links:
   - target: 01-human/03-molecular/factor-h
     relation: connects-to
     note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3 and C5aR1 already mapped) of the neuroinflammation implicated in fibromyalgia."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Mast-cell sensitiser: TSLP, released from keratinocytes and connective-tissue cells, activates mast cells (already mapped) in fibromyalgia, promoting the central-sensitisation cascade driven by IL-4 and IL-13 (already mapped)."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin pain amplifier: bradykinin, acting through B1 and B2 receptors, lowers the nociceptive threshold and amplifies the CGRP (already mapped) and substance P (already mapped) pain signals of fibromyalgia."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Neurotrophic EPO: erythropoietin, signalling through EPOR on neurons (already mapped), exerts neuroprotective and analgesic effects, modulating the central sensitisation and nociceptive threshold of fibromyalgia."
 sources:
   - id: wolfe-2016-fibromyalgia-criteria
     type: peer-reviewed
@@ -774,6 +783,9 @@ FM is not a single-etiology disorder but a convergent syndrome resulting from th
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Neuroimmune complement: the complement C3 activation is part of the low-grade neuroinflammation implicated in the central sensitisation of fibromyalgia.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) links the complement to the microglial (already mapped) neuroinflammation implicated in fibromyalgia.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3 and C5aR1 already mapped) of the neuroinflammation implicated in fibromyalgia.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Mast-cell sensitiser: TSLP, released from keratinocytes and connective-tissue cells, activates mast cells (already mapped) in fibromyalgia, promoting the central-sensitisation cascade driven by IL-4 and IL-13 (already mapped).
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin pain amplifier: bradykinin, acting through B1 and B2 receptors, lowers the nociceptive threshold and amplifies the CGRP (already mapped) and substance P (already mapped) pain signals of fibromyalgia.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Neurotrophic EPO: erythropoietin, signalling through EPOR on neurons (already mapped), exerts neuroprotective and analgesic effects, modulating the central sensitisation and nociceptive threshold of fibromyalgia.
 
 [^wolfe-2016-fibromyalgia-criteria]: Wolfe F, Clauw DJ, Fitzcharles MA, et al. 2016 Revisions to the 2010/2011 fibromyalgia diagnostic criteria. *Semin Arthritis Rheum.* 2016;46(3):319-329. [doi:10.1016/j.semarthrit.2016.08.012](https://doi.org/10.1016/j.semarthrit.2016.08.012) · [PubMed 27916278](https://pubmed.ncbi.nlm.nih.gov/27916278/)
 [^clauw-2014-fibromyalgia-review]: Clauw DJ. Fibromyalgia: a clinical review. *JAMA.* 2014;311(15):1547-1555. [doi:10.1001/jama.2014.3266](https://doi.org/10.1001/jama.2014.3266) · [PubMed 24737367](https://pubmed.ncbi.nlm.nih.gov/24737367/)
