@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Tumour iron: transferrin, the iron carrier, supplies the iron demand of the EWSR1-FLI1-driven (EWSR1 already mapped) proliferating cells of Ewing sarcoma."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-ES axis: TSLP, from the Ewing sarcoma stromal cells and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2-skewed immunosuppressive microenvironment of the EWSR1-FLI1-driven (already mapped) Ewing sarcoma."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-ES axis: bradykinin, via B1/B2 receptors on Ewing sarcoma endothelium (already mapped) and mast cells (already mapped), augments vascular permeability, tumour oedema, and the inflammatory dimension of the Ewing sarcoma bone-tumour microenvironment."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "EPO-ES axis: erythropoietin, induced by the HIF-1α (already mapped) hypoxia of the Ewing sarcoma tumour core, activates the EPOR on EWSR1-FLI1-mutant (already mapped) tumour cells and modulates macrophage (already mapped) polarisation in the sarcoma stroma."
 ---
 
 # Ewing Sarcoma
@@ -762,6 +771,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 and C5aR1 already mapped) contribute to the inflammatory dimension of the Ewing-sarcoma microenvironment.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the Ewing-sarcoma cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), tempering the complement attack within the tumour stroma.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Tumour iron: transferrin, the iron carrier, supplies the iron demand of the EWSR1-FLI1-driven (EWSR1 already mapped) proliferating cells of Ewing sarcoma.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-ES axis: TSLP, from the Ewing sarcoma stromal cells and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2-skewed immunosuppressive microenvironment of the EWSR1-FLI1-driven (already mapped) Ewing sarcoma.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-ES axis: bradykinin, via B1/B2 receptors on Ewing sarcoma endothelium (already mapped) and mast cells (already mapped), augments vascular permeability, tumour oedema, and the inflammatory dimension of the Ewing sarcoma bone-tumour microenvironment.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — EPO-ES axis: erythropoietin, induced by the HIF-1α (already mapped) hypoxia of the Ewing sarcoma tumour core, activates the EPOR on EWSR1-FLI1-mutant (already mapped) tumour cells and modulates macrophage (already mapped) polarisation in the sarcoma stroma.
 
 ---
 

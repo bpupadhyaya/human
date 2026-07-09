@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "GI blood-loss iron: transferrin, the iron carrier, reflects the iron-deficiency anaemia of the chronic gastrointestinal blood loss from the innumerable polyps of familial adenomatous polyposis."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-FAP axis: TSLP, from the APC-deficient (already mapped) intestinal epithelium and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2 immunosuppressive microenvironment of the polyposis stroma of FAP."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-FAP axis: bradykinin, via B1/B2 receptors on the polyp endothelium (already mapped) and mast cells (already mapped), augments vascular permeability and the inflammatory milieu of the innumerable colorectal polyps of familial adenomatous polyposis."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "EPO-FAP axis: erythropoietin, induced by the HIF-1α (already mapped) hypoxia and the iron-deficiency anaemia of FAP, activates the EPOR on APC-deficient (already mapped) tumour cells and modulates macrophage (already mapped) polarisation in the FAP polyp stroma."
 ---
 
 # Familial Adenomatous Polyposis
@@ -779,6 +788,9 @@ With modern surveillance and prophylactic colectomy: FAP is no longer an inevita
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 and C5aR1 already mapped) contribute to the inflammatory dimension of the adenoma stroma of familial adenomatous polyposis.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the inflamed adenoma stroma of familial adenomatous polyposis.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — GI blood-loss iron: transferrin, the iron carrier, reflects the iron-deficiency anaemia of the chronic gastrointestinal blood loss from the innumerable polyps of familial adenomatous polyposis.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-FAP axis: TSLP, from the APC-deficient (already mapped) intestinal epithelium and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2 immunosuppressive microenvironment of the polyposis stroma of FAP.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-FAP axis: bradykinin, via B1/B2 receptors on the polyp endothelium (already mapped) and mast cells (already mapped), augments vascular permeability and the inflammatory milieu of the innumerable colorectal polyps of familial adenomatous polyposis.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — EPO-FAP axis: erythropoietin, induced by the HIF-1α (already mapped) hypoxia and the iron-deficiency anaemia of FAP, activates the EPOR on APC-deficient (already mapped) tumour cells and modulates macrophage (already mapped) polarisation in the FAP polyp stroma.
 
 [^kinzler-1991-apc]: Kinzler KW, Nilbert MC, Su LK, et al. Identification of FAP locus genes from chromosome 5q21. *Science.* 1991;253(5020):661-665. [doi:10.1126/science.1651562](https://doi.org/10.1126/science.1651562) · [PubMed 1651562](https://pubmed.ncbi.nlm.nih.gov/1651562/)
 [^fearon-1990-vogelstein]: Fearon ER, Vogelstein B. A genetic model for colorectal tumorigenesis. *Cell.* 1990;61(5):759-767. [doi:10.1016/0092-8674(90)90186-i](https://doi.org/10.1016/0092-8674(90)90186-i) · [PubMed 2188735](https://pubmed.ncbi.nlm.nih.gov/2188735/)
