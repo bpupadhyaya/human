@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c5
     relation: connects-to
     note: "Terminal complement: the complement C5 and its activation (with C3 already mapped) are part of the complement dimension of the inflamed adenoma stroma of MUTYH-associated polyposis."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Colorectal mucosal alarmin: TSLP from the MAP intestinal epithelium (already mapped) activates dendritic cells and mast cells, driving the inflammatory stroma of MUTYH-deficient polyposis and the adenoma-carcinoma progression to colorectal cancer (already mapped)."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Bleeding anaemia: erythropoietin supports erythropoiesis in the iron-deficiency anaemia from the chronic occult blood loss of the multiple adenomas of MAP; EPO is used adjunctively in MAP patients undergoing repeated colonoscopy and polypectomy for polyp surveillance."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Colonic inflammation: bradykinin activates B2 receptors in the MAP colorectal mucosa (intestinal-epithelium already mapped), amplifying the prostaglandin (already mapped) and NF-kB (already mapped) inflammation of the MUTYH-deficient polyposis stroma and colonic pain."
 ---
 
 # MUTYH-Associated Polyposis
@@ -744,6 +753,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Mucosal B cells: the B cells of the intestinal mucosa contribute to the humoral and organised immune response within the inflamed stroma of the MUTYH-associated polyps.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid recruitment into the inflamed stroma of the MUTYH-associated polyps.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its activation (with C3 already mapped) are part of the complement dimension of the inflamed adenoma stroma of MUTYH-associated polyposis.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Colorectal mucosal alarmin: TSLP from the MAP intestinal epithelium (already mapped) activates dendritic cells and mast cells, driving the inflammatory stroma of MUTYH-deficient polyposis and the adenoma-carcinoma progression to colorectal cancer (already mapped).
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Bleeding anaemia: erythropoietin supports erythropoiesis in the iron-deficiency anaemia from the chronic occult blood loss of the multiple adenomas of MAP; EPO is used adjunctively in MAP patients undergoing repeated colonoscopy and polypectomy for polyp surveillance.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Colonic inflammation: bradykinin activates B2 receptors in the MAP colorectal mucosa (intestinal-epithelium already mapped), amplifying the prostaglandin (already mapped) and NF-kB (already mapped) inflammation of the MUTYH-deficient polyposis stroma and colonic pain.
 
 ---
 

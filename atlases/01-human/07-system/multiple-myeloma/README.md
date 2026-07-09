@@ -481,6 +481,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Anaemia iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the anaemia of the marrow-replacing multiple myeloma."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Bone marrow stroma alarmin: TSLP from bone-marrow stromal cells promotes the plasma-cell (already mapped) survival and IMiD-resistance in multiple myeloma; TSLP-driven STAT3 (already mapped) signalling augments the bone-marrow niche support for the malignant plasma-cell clone."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell angiogenesis: histamine from the bone-marrow mast cells promotes VEGF (already mapped) angiogenesis and osteoclast activation in myeloma; H2 receptor signalling amplifies the NF-kB (already mapped) survival axis of the malignant plasma cells (already mapped)."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Bone marrow ECM: periostin in the myeloma bone-marrow stroma, downstream of TGF-β (already mapped), promotes integrin αV-mediated plasma-cell (already mapped) homing and adhesion-mediated drug resistance; elevated myeloma-stroma periostin correlates with disease progression."
 ---
 
 # Multiple Myeloma
@@ -764,6 +773,9 @@ MM evolves from precursor conditions through a well-defined continuum:
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Daratumumab CDC: the complement C5 (with C3 and C5aR1 already mapped) is the effector of the complement-dependent cytotoxicity by which the anti-CD38 daratumumab kills the myeloma plasma cells (already mapped).
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the myeloma cells recruit factor H (with the CD55/CD59 regulators) to restrain the alternative complement pathway (C3, C5 and C5aR1 already mapped), a resistance mechanism to the daratumumab complement-dependent killing.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Anaemia iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the anaemia of the marrow-replacing multiple myeloma.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Bone marrow stroma alarmin: TSLP from bone-marrow stromal cells promotes the plasma-cell (already mapped) survival and IMiD-resistance in multiple myeloma; TSLP-driven STAT3 (already mapped) signalling augments the bone-marrow niche support for the malignant plasma-cell clone.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell angiogenesis: histamine from the bone-marrow mast cells promotes VEGF (already mapped) angiogenesis and osteoclast activation in myeloma; H2 receptor signalling amplifies the NF-kB (already mapped) survival axis of the malignant plasma cells (already mapped).
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Bone marrow ECM: periostin in the myeloma bone-marrow stroma, downstream of TGF-β (already mapped), promotes integrin αV-mediated plasma-cell (already mapped) homing and adhesion-mediated drug resistance; elevated myeloma-stroma periostin correlates with disease progression.
 
 [^kumar-2022-imwg-criteria]: Kumar SK, Callander NS, Adekola K, et al. Multiple myeloma, version 3.2021, NCCN clinical practice guidelines in oncology. *J Natl Compr Canc Netw.* 2020;18(12):1685-1717. [doi:10.6004/jnccn.2020.0057](https://doi.org/10.6004/jnccn.2020.0057) · [PubMed 33285519](https://pubmed.ncbi.nlm.nih.gov/33285519/)
 [^moreau-2022-teclistamab]: Moreau P, Garfall AL, van de Donk NWCJ, et al. Teclistamab in relapsed or refractory multiple myeloma. *N Engl J Med.* 2022;387(6):495-505. [doi:10.1056/NEJMoa2203478](https://doi.org/10.1056/NEJMoa2203478) · [PubMed 35661166](https://pubmed.ncbi.nlm.nih.gov/35661166/)
