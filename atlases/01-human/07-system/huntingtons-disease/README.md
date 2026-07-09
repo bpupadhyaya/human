@@ -471,6 +471,15 @@ cross_links:
   - target: 01-human/03-molecular/bradykinin
     relation: connects-to
     note: "Kinin neuroinflammation: bradykinin, via B2 receptors on astrocytes (already mapped) and neurons (already mapped), amplifies glutamate (already mapped) excitotoxicity and NF-kB (already mapped) neuroinflammation in the HD striatum."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Gut-epithelial alarmin: TSLP from the gut epithelium (already mapped) in the dysbiosis (microbiome already mapped) of Huntington's disease primes dendritic cells (already mapped) toward a Th2 (IL-4, IL-13 already mapped) tone that dampens neuroinflammation."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical complement brake: C1-INH controls the classical-pathway arm (C3, C5, C5aR1 and factor H already mapped) of the complement-mediated synaptic pruning that amplifies the striatal neurodegeneration of Huntington's disease."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Neuroprotective EPO: erythropoietin crosses the blood-brain barrier and activates JAK-STAT (JAK1/2 already mapped) and anti-apoptotic pathways in the striatal neurons (already mapped), conferring neuroprotection against mHTT toxicity in Huntington's disease."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -673,3 +682,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H downregulates the overactivated alternative pathway (C3, C5 and C5aR1 already mapped) in the HD striatum, where reduced factor-H expression contributes to complement-mediated synaptic pruning and neurodegeneration.
 - `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Neuroprotective VDR: vitamin D (VDR expressed in HD striatal neurons) reduces mHTT-mediated oxidative stress (NRF2 already mapped) and microglial activation; low serum vitamin D associates with faster motor and cognitive decline in HD.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin neuroinflammation: bradykinin, via B2 receptors on astrocytes (already mapped) and neurons (already mapped), amplifies glutamate (already mapped) excitotoxicity and NF-κB (already mapped) neuroinflammation in the HD striatum.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Gut-epithelial alarmin: TSLP from the gut epithelium (already mapped) in the dysbiosis (microbiome already mapped) of Huntington's disease primes dendritic cells (already mapped) toward a Th2 (IL-4, IL-13 already mapped) tone that dampens neuroinflammation.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical complement brake: C1-INH controls the classical-pathway arm (C3, C5, C5aR1 and factor H already mapped) of the complement-mediated synaptic pruning that amplifies the striatal neurodegeneration of Huntington's disease.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Neuroprotective EPO: erythropoietin crosses the blood-brain barrier and activates JAK-STAT (JAK1/2 already mapped) and anti-apoptotic pathways in the striatal neurons (already mapped), conferring neuroprotection against mHTT toxicity in Huntington's disease.

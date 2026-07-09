@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/histamine
     relation: connects-to
     note: "Pruritus and type-2 skewing: mast-cell-derived (already mapped) histamine causes the pruritus (a classic B symptom) and amplifies the Th2 (IL-4, IL-5 already mapped) microenvironment of Hodgkin lymphoma."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Vasoactive kinin in reactive stroma: bradykinin, from the kallikrein-kinin system activated within the reactive microenvironment of Hodgkin lymphoma, promotes vascular permeability and augments the prostaglandin (already mapped) and histamine (already mapped) B-symptom mediators."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Anaemia-of-cancer treatment: erythropoietin corrects the anemia of chronic disease (already mapped) and cancer-chemotherapy-induced (already mapped) anaemia in Hodgkin lymphoma; monitoring of EPO levels aids in distinguishing inflammatory from iron-deficiency anaemia."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Stromal matricellular remodelling: periostin, secreted by the fibroblasts (fibrosis already mapped) of the reactive stromal microenvironment of Hodgkin lymphoma, promotes the collagen (already mapped) deposition and the desmoplastic niche of the Reed-Sternberg cells."
 ---
 
 # Hodgkin Lymphoma
@@ -761,6 +770,9 @@ Modern protocols minimize RT fields and doses (ISRT replacing extended-field RT)
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Central complement: complement C3 (upstream of C5 and C5aR1 already mapped) is activated by EBV-LMP1 (already mapped) on Reed-Sternberg cells and mediates the complement-dependent cytotoxicity of anti-CD20/CD30 therapies in HL.
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Th2 microenvironment: TSLP released by Reed-Sternberg cells drives dendritic-cell and mast-cell (both already mapped) priming that skews HL toward Th2 (IL-4, IL-5, IL-13 already mapped) immune evasion.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Pruritus and type-2 skewing: mast-cell-derived (already mapped) histamine causes the pruritus (a classic B symptom) and amplifies the Th2 (IL-4, IL-5 already mapped) microenvironment of Hodgkin lymphoma.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Vasoactive kinin in reactive stroma: bradykinin, from the kallikrein-kinin system activated within the reactive microenvironment of Hodgkin lymphoma, promotes vascular permeability and augments the prostaglandin (already mapped) and histamine (already mapped) B-symptom mediators.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Anaemia-of-cancer treatment: erythropoietin corrects the anemia of chronic disease (already mapped) and cancer-chemotherapy-induced (already mapped) anaemia in Hodgkin lymphoma; monitoring of EPO levels aids in distinguishing inflammatory from iron-deficiency anaemia.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Stromal matricellular remodelling: periostin, secreted by the fibroblasts (fibrosis already mapped) of the reactive stromal microenvironment of Hodgkin lymphoma, promotes the collagen (already mapped) deposition and the desmoplastic niche of the Reed-Sternberg cells.
 
 [^connors-2018-echelon1]: Connors JM, Jurczak W, Straus DJ, et al. Brentuximab vedotin with chemotherapy for stage III or IV Hodgkin's lymphoma. *N Engl J Med.* 2018;378(4):331-344. [doi:10.1056/NEJMoa1708984](https://doi.org/10.1056/NEJMoa1708984) · [PubMed 29360494](https://pubmed.ncbi.nlm.nih.gov/29360494/)
 [^armand-2018-nivo-hl]: Armand P, Engert A, Younes A, et al. Nivolumab for relapsed/refractory classic Hodgkin lymphoma after failure of autologous hematopoietic cell transplantation: extended follow-up of the multicohort single-arm phase II CheckMate 205 trial. *J Clin Oncol.* 2018;36(14):1428-1439. [doi:10.1200/JCO.2017.77.6717](https://doi.org/10.1200/JCO.2017.77.6717) · [PubMed 29584546](https://pubmed.ncbi.nlm.nih.gov/29584546/)
