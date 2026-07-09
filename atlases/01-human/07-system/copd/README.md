@@ -490,6 +490,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Hypoxic iron: transferrin, the iron carrier, reflects the disordered iron handling of the chronic hypoxia (erythropoietin already mapped) and systemic inflammation of COPD."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-airway axis: bradykinin, via B1/B2 receptors on airway epithelium (already mapped) and mast cells (already mapped), amplifies the airway inflammation and the bronchoconstriction of the tobacco-smoke-driven obstructive lung disease of COPD."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Contact/complement brake: the C1-esterase inhibitor regulates the classical complement (C3, C5 already mapped) and contact pathways activated by the tobacco-smoke-induced airway injury and bacterial infection of COPD."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell bronchospasm: histamine, from mast cells (already mapped), amplifies the bronchoconstriction and the vascular permeability of the airway inflammation of the obstructive lung disease of COPD."
 ---
 
 # COPD
@@ -790,6 +799,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 and C5aR1 already mapped) drive the neutrophil (already mapped) recruitment and the immunopathology of the COPD airway.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) on the smoke-injured airway epithelium of COPD.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Hypoxic iron: transferrin, the iron carrier, reflects the disordered iron handling of the chronic hypoxia (erythropoietin already mapped) and systemic inflammation of COPD.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-airway axis: bradykinin, via B1/B2 receptors on airway epithelium (already mapped) and mast cells (already mapped), amplifies the airway inflammation and the bronchoconstriction of the tobacco-smoke-driven obstructive lung disease of COPD.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Contact/complement brake: the C1-esterase inhibitor regulates the classical complement (C3, C5 already mapped) and contact pathways activated by the tobacco-smoke-induced airway injury and bacterial infection of COPD.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell bronchospasm: histamine, from mast cells (already mapped), amplifies the bronchoconstriction and the vascular permeability of the airway inflammation of the obstructive lung disease of COPD.
 
 ---
 

@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Marrow fibrosis: periostin, a matricellular mediator, is part of the stromal remodelling and the marrow fibrosis (with osteopontin already mapped) of CMML."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-marrow axis: TSLP, from marrow stromal cells and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2/Treg imbalance of the inflammatory myelomonocytic marrow microenvironment of CMML."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-marrow axis: bradykinin, via B1/B2 receptors on marrow endothelium (already mapped) and monocytic cells, amplifies the vascular permeability and the inflammatory cytokine milieu of the chronic myelomonocytic leukaemia marrow."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell/basophil marrow: histamine, from mast cells (already mapped) and basophils of the CMML myeloid output, amplifies the vascular permeability and the inflammatory milieu of the CMML marrow microenvironment."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -765,6 +774,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the inflammasome-driven marrow inflammation of CMML.
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement and contact systems of the chronic inflammatory marrow niche of CMML.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Marrow fibrosis: periostin, a matricellular mediator, is part of the stromal remodelling and the marrow fibrosis (with osteopontin already mapped) of CMML.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-marrow axis: TSLP, from marrow stromal cells and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2/Treg imbalance of the inflammatory myelomonocytic marrow microenvironment of CMML.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-marrow axis: bradykinin, via B1/B2 receptors on marrow endothelium (already mapped) and monocytic cells, amplifies the vascular permeability and the inflammatory cytokine milieu of the chronic myelomonocytic leukaemia marrow.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell/basophil marrow: histamine, from mast cells (already mapped) and basophils of the CMML myeloid output, amplifies the vascular permeability and the inflammatory milieu of the CMML marrow microenvironment.
 
 ---
 
