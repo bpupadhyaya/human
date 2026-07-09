@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Thromboinflammation: osteopontin, released by the activated platelets (already mapped), is a matricellular mediator linking the inflammation to the thrombosis of essential thrombocythaemia."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-ET axis: TSLP, from the JAK2/CALR/MPL-mutant (already mapped) megakaryocyte-stromal niche, primes dendritic-cell Th2 polarisation and amplifies the inflammatory dimension of the essential-thrombocythaemia microenvironment."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-thrombosis axis: bradykinin, via B1/B2 receptors on the activated endothelium (already mapped) and platelets (already mapped), amplifies the vasomotor dysregulation and the thromboinflammation of essential thrombocythaemia."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "EPO-ET axis: erythropoietin, in the JAK2V617F (already mapped) haematopoietic niche, modulates erythroid/megakaryocyte lineage bias and macrophage (already mapped) polarisation in the bone marrow (already mapped) of essential thrombocythaemia."
 ---
 
 # Essential Thrombocythemia
@@ -757,6 +766,9 @@ Management:
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the thromboinflammatory milieu of essential thrombocythaemia.
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement/coagulation crosstalk: the C1-esterase inhibitor regulates both the complement (C3, C5, C5aR1 and factor H already mapped) and the contact-coagulation systems at the interface of the immunothrombosis of essential thrombocythaemia.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Thromboinflammation: osteopontin, released by the activated platelets (already mapped), is a matricellular mediator linking the inflammation to the thrombosis of essential thrombocythaemia.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-ET axis: TSLP, from the JAK2/CALR/MPL-mutant (already mapped) megakaryocyte-stromal niche, primes dendritic-cell Th2 polarisation and amplifies the inflammatory dimension of the essential-thrombocythaemia microenvironment.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-thrombosis axis: bradykinin, via B1/B2 receptors on the activated endothelium (already mapped) and platelets (already mapped), amplifies the vasomotor dysregulation and the thromboinflammation of essential thrombocythaemia.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — EPO-ET axis: erythropoietin, in the JAK2V617F (already mapped) haematopoietic niche, modulates erythroid/megakaryocyte lineage bias and macrophage (already mapped) polarisation in the bone marrow (already mapped) of essential thrombocythaemia.
 
 [^harrison-2005-pt1-et]: Harrison CN, Campbell PJ, Buck G, et al. Hydroxyurea compared with anagrelide in high-risk essential thrombocythemia. *N Engl J Med.* 2005;353(1):33-45. [doi:10.1056/NEJMoa043800](https://doi.org/10.1056/NEJMoa043800) · [PubMed 16000354](https://pubmed.ncbi.nlm.nih.gov/16000354/)
 [^barbui-2012-ipset]: Barbui T, Finazzi G, Carobbio A, et al. Development and validation of an International Prognostic Score of thrombosis in World Health Organization-essential thrombocythemia (IPSET-thrombosis). *Blood.* 2012;120(26):5128-5133. [doi:10.1182/blood-2012-07-444067](https://doi.org/10.1182/blood-2012-07-444067) · [PubMed 23086758](https://pubmed.ncbi.nlm.nih.gov/23086758/)
