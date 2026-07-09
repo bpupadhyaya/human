@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Anaemia iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the anaemia of the chronic inflammation of Hodgkin lymphoma."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Central complement: complement C3 (upstream of C5 and C5aR1 already mapped) is activated by EBV-LMP1 (already mapped) on Reed-Sternberg cells and mediates the complement-dependent cytotoxicity of anti-CD20/CD30 therapies in HL."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Th2 microenvironment: TSLP released by Reed-Sternberg cells drives dendritic-cell and mast-cell (both already mapped) priming that skews HL toward Th2 (IL-4, IL-5, IL-13 already mapped) immune evasion."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Pruritus and type-2 skewing: mast-cell-derived (already mapped) histamine causes the pruritus (a classic B symptom) and amplifies the Th2 (IL-4, IL-5 already mapped) microenvironment of Hodgkin lymphoma."
 ---
 
 # Hodgkin Lymphoma
@@ -749,6 +758,9 @@ Modern protocols minimize RT fields and doses (ISRT replacing extended-field RT)
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the Reed-Sternberg cells recruit factor H to regulate the alternative complement pathway (C5, C5aR1 and C3 already mapped) and evade the antibody-mediated complement attack of Hodgkin lymphoma.
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway activated by the antibodies (already mapped) within the reactive microenvironment of Hodgkin lymphoma.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Anaemia iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the anaemia of the chronic inflammation of Hodgkin lymphoma.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Central complement: complement C3 (upstream of C5 and C5aR1 already mapped) is activated by EBV-LMP1 (already mapped) on Reed-Sternberg cells and mediates the complement-dependent cytotoxicity of anti-CD20/CD30 therapies in HL.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Th2 microenvironment: TSLP released by Reed-Sternberg cells drives dendritic-cell and mast-cell (both already mapped) priming that skews HL toward Th2 (IL-4, IL-5, IL-13 already mapped) immune evasion.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Pruritus and type-2 skewing: mast-cell-derived (already mapped) histamine causes the pruritus (a classic B symptom) and amplifies the Th2 (IL-4, IL-5 already mapped) microenvironment of Hodgkin lymphoma.
 
 [^connors-2018-echelon1]: Connors JM, Jurczak W, Straus DJ, et al. Brentuximab vedotin with chemotherapy for stage III or IV Hodgkin's lymphoma. *N Engl J Med.* 2018;378(4):331-344. [doi:10.1056/NEJMoa1708984](https://doi.org/10.1056/NEJMoa1708984) · [PubMed 29360494](https://pubmed.ncbi.nlm.nih.gov/29360494/)
 [^armand-2018-nivo-hl]: Armand P, Engert A, Younes A, et al. Nivolumab for relapsed/refractory classic Hodgkin lymphoma after failure of autologous hematopoietic cell transplantation: extended follow-up of the multicohort single-arm phase II CheckMate 205 trial. *J Clin Oncol.* 2018;36(14):1428-1439. [doi:10.1200/JCO.2017.77.6717](https://doi.org/10.1200/JCO.2017.77.6717) · [PubMed 29584546](https://pubmed.ncbi.nlm.nih.gov/29584546/)

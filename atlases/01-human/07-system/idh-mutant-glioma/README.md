@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/04-cellular/b-cell
     relation: connects-to
     note: "Tertiary lymphoid structures: the B cells organise the tertiary lymphoid structures whose presence, with the CD8 (already mapped) TILs, may mark the immune response of IDH-mutant glioma."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement: complement C5 and its C5a anaphylatoxin (with C3 and C5aR1 already mapped) drive myeloid infiltration and the pro-tumour neuroinflammation of the IDH-mutant glioma microenvironment."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement evasion: IDH-mutant glioma cells recruit factor H to bind C3b and downregulate the alternative pathway (C3, C5 and C5aR1 already mapped), evading complement-mediated tumour surveillance."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Anti-glioma VDR signalling: vitamin D (VDR expressed in IDH-mutant glioma) suppresses proliferation and correlates with better prognosis; low serum levels associate with shorter time to progression in lower-grade glioma."
 ---
 
 # IDH-Mutant Glioma
@@ -759,6 +768,9 @@ IDH-mutant glioma with MGMT methylation shows strong alkylating agent sensitivit
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the microglial (already mapped) and myeloid activation of the immunosuppressive IDH-mutant-glioma microenvironment (blunted by the 2-hydroxyglutarate).
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Meningeal mast cells: the mast cells of the meninges and the brain (already mapped) contribute to the neuroinflammation and the vascular permeability of the IDH-mutant-glioma microenvironment.
 - `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Tertiary lymphoid structures: the B cells organise the tertiary lymphoid structures whose presence, with the CD8 (already mapped) TILs, may mark the immune response of IDH-mutant glioma.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: complement C5 and its C5a anaphylatoxin (with C3 and C5aR1 already mapped) drive myeloid infiltration and the pro-tumour neuroinflammation of the IDH-mutant glioma microenvironment.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: IDH-mutant glioma cells recruit factor H to bind C3b and downregulate the alternative pathway (C3, C5 and C5aR1 already mapped), evading complement-mediated tumour surveillance.
+- `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Anti-glioma VDR signalling: vitamin D (VDR expressed in IDH-mutant glioma) suppresses proliferation and correlates with better prognosis; low serum levels associate with shorter time to progression in lower-grade glioma.
 
 [^mellinghoff-2023-vorasidenib-lgg]: Mellinghoff IK, van den Bent MJ, Blumenthal DT, et al. Vorasidenib in IDH1- or IDH2-mutant low-grade glioma. *N Engl J Med.* 2023;389(7):589-601. [doi:10.1056/NEJMoa2304194](https://doi.org/10.1056/NEJMoa2304194) · [PubMed 37272530](https://pubmed.ncbi.nlm.nih.gov/37272530/)
 [^jiao-2012-atrx-glioma]: Jiao Y, Killela PJ, Reitman ZJ, et al. Frequent ATRX, CIC, FUBP1 and IDH mutations refine the classification of malignant gliomas. *Oncotarget.* 2012;3(7):709-722. [doi:10.18632/oncotarget.588](https://doi.org/10.18632/oncotarget.588) · [PubMed 22869205](https://pubmed.ncbi.nlm.nih.gov/22869205/)
