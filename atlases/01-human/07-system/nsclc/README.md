@@ -481,6 +481,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Tumour complement: the complement C3 activation contributes to the inflammatory and immunosuppressive dimension of the non-small-cell-lung-cancer microenvironment."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Airway alarmin: TSLP released by the inflamed bronchial epithelium drives mast-cell and dendritic-cell activation in the non-small-cell lung cancer stroma, promoting the type-2 microenvironment that dampens anti-tumour immunity."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "ECM invasion driver: periostin, upregulated in the non-small-cell lung cancer stroma downstream of TGF-β, promotes tumour cell adhesion, invasion and metastatic colonisation of the pleura and bone."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Immune-evasion axis: histamine H2-receptor signalling on non-small-cell lung cancer cells and their stromal mast cells promotes tumour immune evasion and angiogenesis via the PGE-2 and VEGF already mapped."
 ---
 
 # NSCLC
@@ -736,6 +745,9 @@ cross_links:
 - `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Tertiary lymphoid structures: the B cells organise the tertiary lymphoid structures whose presence, with the CD8 (already mapped) TILs, predicts the checkpoint-immunotherapy (PD-1 already mapped) response of non-small-cell lung cancer.
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines shaping the immune microenvironment of non-small-cell lung cancer.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Tumour complement: the complement C3 activation contributes to the inflammatory and immunosuppressive dimension of the non-small-cell-lung-cancer microenvironment.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Airway alarmin: TSLP released by the inflamed bronchial epithelium drives mast-cell and dendritic-cell activation in the non-small-cell lung cancer stroma, promoting the type-2 microenvironment that dampens anti-tumour immunity.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — ECM invasion driver: periostin, upregulated in the non-small-cell lung cancer stroma downstream of TGF-β, promotes tumour cell adhesion, invasion and metastatic colonisation of the pleura and bone.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Immune-evasion axis: histamine H2-receptor signalling on non-small-cell lung cancer cells and their stromal mast cells promotes tumour immune evasion and angiogenesis via the PGE-2 and VEGF already mapped.
 
 [^soria-2018-osimertinib-flaura]: Soria JC, Ohe Y, Vansteenkiste J, et al. Osimertinib in untreated EGFR-mutated advanced non-small-cell lung cancer. *N Engl J Med.* 2018;378(2):113-125. [doi:10.1056/NEJMoa1713137](https://doi.org/10.1056/NEJMoa1713137) · [PubMed 29151359](https://pubmed.ncbi.nlm.nih.gov/29151359/)
 [^reck-2016-pembrolizumab-keynote024]: Reck M, Rodríguez-Abreu D, Robinson AG, et al. Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell lung cancer. *N Engl J Med.* 2016;375(19):1823-1833. [doi:10.1056/NEJMoa1606774](https://doi.org/10.1056/NEJMoa1606774) · [PubMed 27718347](https://pubmed.ncbi.nlm.nih.gov/27718347/)

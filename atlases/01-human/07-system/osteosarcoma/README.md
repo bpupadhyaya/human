@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/c5ar1
     relation: connects-to
     note: "C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid recruitment into the macrophage-rich (already mapped) osteosarcoma stroma."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Chemotherapy anaemia: erythropoietin corrects the severe anaemia induced by MAP chemotherapy in osteosarcoma patients and its receptor (EPOR) on tumour cells suggests a potential direct mitogenic effect."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Bone-pain mediator: bradykinin released at the tumour-bone interface activates B1/B2 receptors on periosteal nociceptors, driving the deep aching bone pain of osteosarcoma—the commonest presenting symptom."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement: C5 cleavage generates C5a, which alongside C5aR1 (already mapped) amplifies myeloid recruitment and M2 macrophage polarisation in the osteosarcoma stroma, reinforcing immunosuppression."
 ---
 
 # Osteosarcoma
@@ -758,6 +767,9 @@ OS is relatively radiation-resistant (high-dose radiation ~70+ Gy may achieve lo
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines shaping the immune microenvironment of osteosarcoma.
 - `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Tertiary lymphoid structures: the B cells organise the tertiary lymphoid structures whose presence, with the CD8 (already mapped) TILs, may mark the immune response of osteosarcoma.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid recruitment into the macrophage-rich (already mapped) osteosarcoma stroma.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Chemotherapy anaemia: erythropoietin corrects the severe anaemia induced by MAP chemotherapy in osteosarcoma patients and its receptor (EPOR) on tumour cells suggests a potential direct mitogenic effect.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Bone-pain mediator: bradykinin released at the tumour-bone interface activates B1/B2 receptors on periosteal nociceptors, driving the deep aching bone pain of osteosarcoma—the commonest presenting symptom.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: C5 cleavage generates C5a, which alongside C5aR1 (already mapped) amplifies myeloid recruitment and M2 macrophage polarisation in the osteosarcoma stroma, reinforcing immunosuppression.
 
 [^bielack-2002-coss-osteosarcoma]: Bielack SS, Kempf-Bielack B, Delling G, et al. Prognostic factors in high-grade osteosarcoma of the extremities or trunk: an analysis of 1,702 patients treated on neoadjuvant Cooperative Osteosarcoma Study Group protocols. *J Clin Oncol.* 2002;20(3):776-790. [doi:10.1200/JCO.2002.20.3.776](https://doi.org/10.1200/JCO.2002.20.3.776) · [PubMed 11821461](https://pubmed.ncbi.nlm.nih.gov/11821461/)
 [^marina-2016-euramos1-osteosarcoma]: Marina NM, Smeland S, Bielack SS, et al. Comparison of MAPIE versus MAP in patients with a poor response to preoperative chemotherapy for newly diagnosed high-grade osteosarcoma (EURAMOS-1). *Lancet Oncol.* 2016;17(10):1396-1408. [doi:10.1016/S1470-2045(16)30214-5](https://doi.org/10.1016/S1470-2045(16)30214-5) · [PubMed 27569442](https://pubmed.ncbi.nlm.nih.gov/27569442/)
