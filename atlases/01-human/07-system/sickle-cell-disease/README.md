@@ -487,6 +487,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "Adaptive/alloimmune arm: the cytotoxic T cells (perforin pathway) are part of the chronic inflammation and the transfusion alloimmunisation of sickle cell disease."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-vascular axis: TSLP, from activated endothelium (already mapped) and mast cells (already mapped) in sickle cell disease, primes dendritic cells (already mapped) and amplifies the Th2/eosinophil (already mapped) vascular inflammation of sickle cell disease."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell pain axis: histamine, from the mast cells (already mapped) degranulated by sickle-erythrocyte (already mapped) contact, amplifies the vaso-occlusive pain, the pruritus, and the neurogenic inflammation of the pain crises of sickle cell disease."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Fibrotic remodelling: periostin, downstream of the IL-13 (already mapped) and TGF-β (already mapped) signalling in the sickle-cell organ injury, contributes to the pulmonary fibrosis and the renal (already mapped) remodelling of sickle cell disease."
 ---
 
 # Sickle Cell Disease
@@ -802,6 +811,9 @@ SCD vaso-occlusion is not just from sickled RBCs mechanically blocking vessels �
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement/contact regulation: the C1-esterase inhibitor regulates the classical complement and the contact-coagulation systems co-activated by the cell-free haem in the thromboinflammation of sickle cell disease.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Vaso-occlusion matricellular: osteopontin, released by the activated platelets (already mapped) and myeloid cells, is a matricellular mediator amplifying the endothelial (already mapped) adhesion and vaso-occlusion of sickle cell disease.
 - `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Adaptive/alloimmune arm: the cytotoxic T cells (perforin pathway) are part of the chronic inflammation and the transfusion alloimmunisation of sickle cell disease.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-vascular axis: TSLP, from activated endothelium (already mapped) and mast cells (already mapped) in sickle cell disease, primes dendritic cells (already mapped) and amplifies the Th2/eosinophil (already mapped) vascular inflammation of sickle cell disease.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell pain axis: histamine, from the mast cells (already mapped) degranulated by sickle-erythrocyte (already mapped) contact, amplifies the vaso-occlusive pain, the pruritus, and the neurogenic inflammation of the pain crises of sickle cell disease.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Fibrotic remodelling: periostin, downstream of the IL-13 (already mapped) and TGF-β (already mapped) signalling in the sickle-cell organ injury, contributes to the pulmonary fibrosis and the renal (already mapped) remodelling of sickle cell disease.
 
 [^steinberg-1999-scd-management]: Steinberg MH. Management of sickle cell disease. *N Engl J Med.* 1999;340(13):1021-1030. [doi:10.1056/NEJM199904013401307](https://doi.org/10.1056/NEJM199904013401307) · [PubMed 10099145](https://pubmed.ncbi.nlm.nih.gov/10099145/)
 [^vichinsky-2000-acs-scd]: Vichinsky EP, Neumayr LD, Earles AN, et al. Causes and outcomes of the acute chest syndrome in sickle cell disease. *N Engl J Med.* 2000;342(25):1855-1865. [doi:10.1056/NEJM200006223422502](https://doi.org/10.1056/NEJM200006223422502) · [PubMed 10861320](https://pubmed.ncbi.nlm.nih.gov/10861320/)
