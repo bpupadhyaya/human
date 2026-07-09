@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Bleeding iron: transferrin, the iron carrier, reflects the iron-deficiency anaemia from the occult gastrointestinal blood loss that often heralds the colorectal cancer (already mapped) of Lynch syndrome."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Colorectal mucosal alarmin: TSLP from the intestinal epithelium (already mapped) activates dendritic cells (already mapped) and mast cells (already mapped), shaping the mucosal type-2 immune environment of the MSI-H colorectal and endometrial Lynch-spectrum cancers."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Pericolorectal stroma: periostin, a SMAD4-downstream ECM protein (SMAD4 already mapped), drives cancer-associated fibroblast activation in the Lynch colorectal stroma; elevated tumour-adjacent periostin correlates with invasiveness of Lynch-spectrum cancers."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Inflammation-pain axis: bradykinin activates B2 receptors in the colorectal mucosa, amplifying prostaglandin (already mapped) and NF-kB (already mapped) signalling in the Lynch tumour microenvironment and contributing to neuropathic pain (already mapped) and inflammatory flares."
 ---
 
 # Lynch Syndrome
@@ -767,6 +776,9 @@ MSI-H stage II CRC: adjuvant 5-FU/leucovorin does NOT improve OS (may be harmful
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the myeloid recruitment into the immune-rich stroma of the MSI-high Lynch-syndrome tumours.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the MMR-deficient Lynch tumour cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), tempering the complement attack against the highly immunogenic MSI-high tumours.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Bleeding iron: transferrin, the iron carrier, reflects the iron-deficiency anaemia from the occult gastrointestinal blood loss that often heralds the colorectal cancer (already mapped) of Lynch syndrome.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Colorectal mucosal alarmin: TSLP from the intestinal epithelium (already mapped) activates dendritic cells (already mapped) and mast cells (already mapped), shaping the mucosal type-2 immune environment of the MSI-H colorectal and endometrial Lynch-spectrum cancers.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Pericolorectal stroma: periostin, a SMAD4-downstream ECM protein (SMAD4 already mapped), drives cancer-associated fibroblast activation in the Lynch colorectal stroma; elevated tumour-adjacent periostin correlates with invasiveness of Lynch-spectrum cancers.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Inflammation-pain axis: bradykinin activates B2 receptors in the colorectal mucosa, amplifying prostaglandin (already mapped) and NF-kB (already mapped) signalling in the Lynch tumour microenvironment and contributing to neuropathic pain (already mapped) and inflammatory flares.
 
 [^bonadona-2011-lynch-risks]: Bonadona V, Bonaïti B, Olschwang S, et al. Cancer risks associated with germline mutations in MLH1, MSH2, and MSH6 genes in Lynch syndrome. *JAMA.* 2011;305(22):2304-2310. [doi:10.1001/jama.2011.743](https://doi.org/10.1001/jama.2011.743) · [PubMed 21642683](https://pubmed.ncbi.nlm.nih.gov/21642683/)
 [^lynch-2015-lynch-review]: Lynch HT, Snyder CL, Shaw TG, et al. Milestones of Lynch syndrome: 1895-2015. *Nat Rev Cancer.* 2015;15(3):181-194. [doi:10.1038/nrc3878](https://doi.org/10.1038/nrc3878) · [PubMed 25673086](https://pubmed.ncbi.nlm.nih.gov/25673086/)

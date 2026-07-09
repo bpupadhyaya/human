@@ -473,6 +473,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Immunomodulatory matricellular: osteopontin is a matricellular cytokine that promotes the leukocyte migration and the T-cell (already mapped) trafficking through the lymphatic system."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Lymphangiogenesis: EPO receptors on lymphatic endothelial cells mediate JAK2/STAT5 signalling (JAK1-2 already mapped) that promotes lymphangiogenesis; EPO also counters the anaemia of chronic-disease (already mapped) arising from lymphoma-related marrow infiltration."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Iron transport via lymph: transferrin-bound iron is carried through the intestinal lacteals and lymph after gut absorption; the lymphatic system supports the redistribution of transferrin iron to marrow and spleen (already mapped) during haematopoiesis."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Lymphocyte antioxidant defence: selenium (selenoproteins in lymphocytes and NK cells already mapped) protects lymphatic endothelium from reactive oxygen species; selenium deficiency impairs NK-cell cytotoxicity and lymph-node immune surveillance."
 ---
 
 # Lymphatic System
@@ -734,6 +743,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — Anaphylatoxin receptor: the C5aR1 is the receptor for the C5a anaphylatoxin (complement C3, C5, factor H and C1-esterase inhibitor already mapped), guiding the myeloid chemotaxis within the lymphoid tissue of the lymphatic system.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Type-2 matricellular: periostin, downstream of the type-2 (IL-13 already mapped) cytokines, is a matricellular effector of the tissue remodelling and lymphangiogenesis of the lymphatic system.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Immunomodulatory matricellular: osteopontin is a matricellular cytokine that promotes the leukocyte migration and the T-cell (already mapped) trafficking through the lymphatic system.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Lymphangiogenesis: EPO receptors on lymphatic endothelial cells mediate JAK2/STAT5 signalling (JAK1-2 already mapped) that promotes lymphangiogenesis; EPO also counters the anaemia of chronic-disease (already mapped) arising from lymphoma-related marrow infiltration.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Iron transport via lymph: transferrin-bound iron is carried through the intestinal lacteals and lymph after gut absorption; the lymphatic system supports the redistribution of transferrin iron to marrow and spleen (already mapped) during haematopoiesis.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Lymphocyte antioxidant defence: selenium (selenoproteins in lymphocytes and NK cells already mapped) protects lymphatic endothelium from reactive oxygen species; selenium deficiency impairs NK-cell cytotoxicity and lymph-node immune surveillance.
 
 ## Pathology
 
