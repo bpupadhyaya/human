@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Vascular remodelling: periostin, a matricellular mediator, contributes to the intimal hyperplasia and the vascular-wall remodelling (with collagen and osteopontin already mapped) of giant cell arteritis."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-GCA axis: TSLP, from the inflamed aortic/temporal-artery wall and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th1/Th17 (IFN-γ and IL-17 already mapped) granulomatous inflammation of giant cell arteritis."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-GCA axis: bradykinin, via B1/B2 receptors on the inflamed large-vessel endothelium (already mapped) and the adventitial mast cells (already mapped), amplifies the vascular permeability, neutrophil (already mapped) recruitment, and the arteritic wall inflammation of GCA."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "EPO-GCA axis: erythropoietin, induced by the HIF-1α (already mapped) ischaemia of the inflammatory vascular occlusion of GCA, modulates macrophage (already mapped) polarisation and erythroid response to the anaemia of chronic inflammation (already mapped) in giant cell arteritis."
 ---
 
 # Giant Cell Arteritis
@@ -754,6 +763,9 @@ The temporal arteries supply scalp, temporalis muscle, and dura. In GCA, transmu
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3, C5aR1 and factor H already mapped) contribute to the complement-mediated injury of the inflamed arterial wall of giant cell arteritis.
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway of the vascular inflammation of giant cell arteritis.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Vascular remodelling: periostin, a matricellular mediator, contributes to the intimal hyperplasia and the vascular-wall remodelling (with collagen and osteopontin already mapped) of giant cell arteritis.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-GCA axis: TSLP, from the inflamed aortic/temporal-artery wall and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th1/Th17 (IFN-γ and IL-17 already mapped) granulomatous inflammation of giant cell arteritis.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-GCA axis: bradykinin, via B1/B2 receptors on the inflamed large-vessel endothelium (already mapped) and the adventitial mast cells (already mapped), amplifies the vascular permeability, neutrophil (already mapped) recruitment, and the arteritic wall inflammation of GCA.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — EPO-GCA axis: erythropoietin, induced by the HIF-1α (already mapped) ischaemia of the inflammatory vascular occlusion of GCA, modulates macrophage (already mapped) polarisation and erythroid response to the anaemia of chronic inflammation (already mapped) in giant cell arteritis.
 
 [^stone-2017-giact]: Stone JH, Tuckwell K, Dimonaco S, et al. Trial of tocilizumab in giant-cell arteritis. *N Engl J Med.* 2017;377(4):317-328. [doi:10.1056/NEJMoa1613849](https://doi.org/10.1056/NEJMoa1613849) · [PubMed 28745999](https://pubmed.ncbi.nlm.nih.gov/28745999/)
 [^weyand-2014-gca-review]: Weyand CM, Goronzy JJ. Clinical practice. Giant-cell arteritis and polymyalgia rheumatica. *N Engl J Med.* 2014;371(1):50-57. [doi:10.1056/NEJMcp1214926](https://doi.org/10.1056/NEJMcp1214926) · [PubMed 24988557](https://pubmed.ncbi.nlm.nih.gov/24988557/)

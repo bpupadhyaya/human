@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Blood-loss iron: transferrin, the iron carrier, reflects the iron-deficiency anaemia of the gastrointestinal bleeding that is a common presentation of the gastrointestinal stromal tumour."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-GIST axis: TSLP, from the KIT/PDGFRA-mutant (already mapped) GIST stromal cells and mast cells (already mapped), primes dendritic cells (already mapped) and shapes the Th2 immunosuppressive microenvironment of the gastrointestinal stromal tumour."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-GIST axis: bradykinin, via B1/B2 receptors on GIST tumour endothelium (already mapped) and mast cells (already mapped), augments vascular permeability, tumour oedema, and the inflammatory milieu of the KIT/PDGFRA-mutant (already mapped) GIST stroma."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "EPO-GIST axis: erythropoietin, induced by the HIF-1α (already mapped) hypoxia and iron-deficiency anaemia of GIST, activates the EPOR on KIT-mutant (already mapped) tumour cells and modulates macrophage (already mapped) polarisation in the GIST microenvironment."
 ---
 
 # GIST
@@ -770,6 +779,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 and C5aR1 already mapped) contribute to the inflammatory dimension of the gastrointestinal-stromal-tumour microenvironment.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the gastrointestinal-stromal-tumour cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), tempering the complement attack within the tumour stroma.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Blood-loss iron: transferrin, the iron carrier, reflects the iron-deficiency anaemia of the gastrointestinal bleeding that is a common presentation of the gastrointestinal stromal tumour.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-GIST axis: TSLP, from the KIT/PDGFRA-mutant (already mapped) GIST stromal cells and mast cells (already mapped), primes dendritic cells (already mapped) and shapes the Th2 immunosuppressive microenvironment of the gastrointestinal stromal tumour.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-GIST axis: bradykinin, via B1/B2 receptors on GIST tumour endothelium (already mapped) and mast cells (already mapped), augments vascular permeability, tumour oedema, and the inflammatory milieu of the KIT/PDGFRA-mutant (already mapped) GIST stroma.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — EPO-GIST axis: erythropoietin, induced by the HIF-1α (already mapped) hypoxia and iron-deficiency anaemia of GIST, activates the EPOR on KIT-mutant (already mapped) tumour cells and modulates macrophage (already mapped) polarisation in the GIST microenvironment.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
