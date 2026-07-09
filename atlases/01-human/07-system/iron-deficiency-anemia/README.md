@@ -480,6 +480,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Mucosal antigen presentation: the dendritic cells of the gut present the helminth antigen to the T-helper (already mapped) cells, priming the type-2 antiparasite response to the hookworm blood loss of iron-deficiency anaemia."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-gut axis: TSLP, from intestinal epithelium (already mapped) under the hookworm or blood-loss mucosal injury of iron-deficiency anaemia, primes mast cells (already mapped) and dendritic cells (already mapped) toward the type-2 antiparasite and mucosal repair response."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-GI axis: bradykinin, via the kallikrein-kinin system activated by the gastrointestinal mucosal (already mapped) injury and blood loss underlying iron-deficiency anaemia, amplifies the local vascular permeability and the inflammatory response."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement brake: C1-esterase inhibitor regulates the classical-complement pathway (C3 and C5aR1 already mapped) and the contact system (bradykinin) activated during the mucosal injury and the hookworm-driven blood loss of iron-deficiency anaemia."
 ---
 
 # Iron Deficiency Anemia
@@ -754,6 +763,9 @@ Iron is essential for:
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Antiparasite complement: the complement C3 opsonises the intestinal helminths (hookworm), part of the innate mucosal defence against the blood-loss cause of much iron-deficiency anaemia.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) recruits the myeloid cells to the intestinal mucosa in the antiparasite response underlying the blood-loss iron-deficiency anaemia.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Mucosal antigen presentation: the dendritic cells of the gut present the helminth antigen to the T-helper (already mapped) cells, priming the type-2 antiparasite response to the hookworm blood loss of iron-deficiency anaemia.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-gut axis: TSLP, from intestinal epithelium (already mapped) under the hookworm or blood-loss mucosal injury of iron-deficiency anaemia, primes mast cells (already mapped) and dendritic cells (already mapped) toward the type-2 antiparasite and mucosal repair response.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-GI axis: bradykinin, via the kallikrein-kinin system activated by the gastrointestinal mucosal (already mapped) injury and blood loss underlying iron-deficiency anaemia, amplifies the local vascular permeability and the inflammatory response.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement brake: C1-esterase inhibitor regulates the classical-complement pathway (C3 and C5aR1 already mapped) and the contact system (bradykinin) activated during the mucosal injury and the hookworm-driven blood loss of iron-deficiency anaemia.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)

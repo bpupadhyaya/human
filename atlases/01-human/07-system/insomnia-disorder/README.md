@@ -490,6 +490,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "CNS-border antigen presentation: the dendritic cells of the CNS-border compartments are part of the neuroimmune interface implicated in the low-grade inflammation of chronic insomnia."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-hyperarousal axis: TSLP, from skin (already mapped) and gut (already mapped) epithelial barriers under the chronic stress of insomnia, primes mast cells (already mapped) and dendritic cells (already mapped) and amplifies the neuroinflammatory hyperarousal of insomnia."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-sleep axis: bradykinin, via B2R on CNS neurons (already mapped) and microglia (already mapped), modulates the neuroinflammation and the autonomic arousal contributing to the sleep-onset and sleep-maintenance difficulties of insomnia disorder."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement brake: C1-esterase inhibitor regulates the classical-complement pathway (C3 and C5 already mapped) contributing to the neuroinflammation and the complement-mediated synaptic pruning of the hyperarousal circuitry of insomnia."
 ---
 
 # Insomnia Disorder
@@ -784,6 +793,9 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 already mapped) are part of the low-grade complement activation of the systemic inflammation associated with chronic insomnia.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) links the complement to the microglial (already mapped) neuroinflammation implicated in the hyperarousal of insomnia.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — CNS-border antigen presentation: the dendritic cells of the CNS-border compartments are part of the neuroimmune interface implicated in the low-grade inflammation of chronic insomnia.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-hyperarousal axis: TSLP, from skin (already mapped) and gut (already mapped) epithelial barriers under the chronic stress of insomnia, primes mast cells (already mapped) and dendritic cells (already mapped) and amplifies the neuroinflammatory hyperarousal of insomnia.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-sleep axis: bradykinin, via B2R on CNS neurons (already mapped) and microglia (already mapped), modulates the neuroinflammation and the autonomic arousal contributing to the sleep-onset and sleep-maintenance difficulties of insomnia disorder.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement brake: C1-esterase inhibitor regulates the classical-complement pathway (C3 and C5 already mapped) contributing to the neuroinflammation and the complement-mediated synaptic pruning of the hyperarousal circuitry of insomnia.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)
