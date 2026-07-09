@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Acute-phase iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the acute-phase response to the dengue infection."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-dengue axis: TSLP, from dengue-infected keratinocytes and epithelial cells, primes dendritic cells (already mapped) and amplifies the Th2 immune skew and the aberrant cytokine production of the severe dengue immunopathology."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "EPO-dengue axis: erythropoietin, induced by dengue-driven anaemia and bone-marrow (already mapped) suppression, mobilises erythroid progenitors and modulates macrophage (already mapped) polarisation in the haematopoietic recovery of dengue fever."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Vascular-remodelling axis: periostin, from the activated endothelial cells (already mapped) and fibroblasts, contributes to the vascular remodelling and repair after the endothelial leak that defines the severe dengue vascular permeability syndrome."
 ---
 
 # Dengue Fever
@@ -751,3 +760,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Glycocalyx/matrix leak: the endothelial glycocalyx and the collagen basement membrane are degraded during the NS1-driven vascular injury, contributing to the plasma leakage of severe dengue.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Immune-activation matricellular: osteopontin, a matricellular cytokine, is part of the strong pro-inflammatory immune activation of the acute dengue infection.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Acute-phase iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the acute-phase response to the dengue infection.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-dengue axis: TSLP, from dengue-infected keratinocytes and epithelial cells, primes dendritic cells (already mapped) and amplifies the Th2 immune skew and the aberrant cytokine production of the severe dengue immunopathology.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — EPO-dengue axis: erythropoietin, induced by dengue-driven anaemia and bone-marrow (already mapped) suppression, mobilises erythroid progenitors and modulates macrophage (already mapped) polarisation in the haematopoietic recovery of dengue fever.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Vascular-remodelling axis: periostin, from the activated endothelial cells (already mapped) and fibroblasts, contributes to the vascular remodelling and repair after the endothelial leak that defines the severe dengue vascular permeability syndrome.

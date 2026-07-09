@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Tissue-remodelling matricellular: periostin, a matricellular mediator, contributes to the tissue remodelling and repair after the widespread inflammatory injury of the cytokine storm."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-CS axis: TSLP, released from stromal and epithelial cells during the initial innate phase, primes dendritic cells (already mapped) and mast cells (already mapped) and biases the immunopathological Th2 dimension of cytokine-storm immune dysregulation."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "EPO-CS axis: erythropoietin, upregulated by the HIF-1α (already mapped) hypoxia of ARDS (already mapped) and multi-organ injury, modulates macrophage (already mapped) polarisation and erythrocyte (already mapped) production during cytokine-storm-driven anaemia."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell histamine: histamine, released by the activated mast cells (already mapped) and basophils, augments the vascular permeability, hypotension, and the allergic inflammatory dimension of the anaphylaxis-like cytokine storm."
 ---
 
 # Cytokine Storm
@@ -730,6 +739,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Consumptive coagulopathy: fibronectin, cross-linked into the fibrin (already mapped) matrix, is consumed alongside the coagulation factors in the disseminated intravascular coagulation of the cytokine storm.
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Fibrotic sequelae: collagen, the extracellular-matrix scaffold, is deposited in the tissue fibrosis (e.g. pulmonary) that can follow the severe organ injury of the cytokine storm.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Tissue-remodelling matricellular: periostin, a matricellular mediator, contributes to the tissue remodelling and repair after the widespread inflammatory injury of the cytokine storm.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-CS axis: TSLP, released from stromal and epithelial cells during the initial innate phase, primes dendritic cells (already mapped) and mast cells (already mapped) and biases the immunopathological Th2 dimension of cytokine-storm immune dysregulation.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — EPO-CS axis: erythropoietin, upregulated by the HIF-1α (already mapped) hypoxia of ARDS (already mapped) and multi-organ injury, modulates macrophage (already mapped) polarisation and erythrocyte (already mapped) production during cytokine-storm-driven anaemia.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell histamine: histamine, released by the activated mast cells (already mapped) and basophils, augments the vascular permeability, hypotension, and the allergic inflammatory dimension of the anaphylaxis-like cytokine storm.
 
 ## Pathology
 
