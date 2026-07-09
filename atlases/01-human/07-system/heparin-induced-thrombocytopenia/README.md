@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Consumptive iron: transferrin, the iron carrier, reflects the disordered iron handling accompanying the platelet consumption and the thrombotic microvascular injury of heparin-induced thrombocytopenia."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Thromboinflammatory alarmin: TSLP, released from endothelial cells (already mapped) and mast cells (already mapped) during the thromboinflammatory cascade, amplifies the type-2 immune polarisation at the platelet-thrombus interface of heparin-induced thrombocytopenia."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Platelet-EPO crosstalk: erythropoietin, secreted in response to the anaemia of the consumptive thrombocytopenia, also signals through EPOR on megakaryocytes to support the compensatory thrombopoiesis (thrombopoietin already mapped) in heparin-induced thrombocytopenia."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Vascular matricellular remodelling: periostin, induced by thromboinflammatory cytokines (IL-6 already mapped) in endothelial (already mapped) and smooth-muscle cells (already mapped), promotes vascular-wall fibrosis at thrombus sites in heparin-induced thrombocytopenia."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -783,6 +792,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical/contact regulation: the C1-esterase inhibitor regulates the classical complement (C3, C5, C5aR1 and factor H already mapped) and the contact-kinin (bradykinin already mapped) systems co-activated in the thromboinflammation of heparin-induced thrombocytopenia.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Platelet thromboinflammation: osteopontin, released by the activated platelets (already mapped), is a matricellular mediator that amplifies the monocyte recruitment and the thromboinflammation of heparin-induced thrombocytopenia.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Consumptive iron: transferrin, the iron carrier, reflects the disordered iron handling accompanying the platelet consumption and the thrombotic microvascular injury of heparin-induced thrombocytopenia.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Thromboinflammatory alarmin: TSLP, released from endothelial cells (already mapped) and mast cells (already mapped) during the thromboinflammatory cascade, amplifies the type-2 immune polarisation at the platelet-thrombus interface of heparin-induced thrombocytopenia.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Platelet-EPO crosstalk: erythropoietin, secreted in response to the anaemia of the consumptive thrombocytopenia, also signals through EPOR on megakaryocytes to support the compensatory thrombopoiesis (thrombopoietin already mapped) in heparin-induced thrombocytopenia.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Vascular matricellular remodelling: periostin, induced by thromboinflammatory cytokines (IL-6 already mapped) in endothelial (already mapped) and smooth-muscle cells (already mapped), promotes vascular-wall fibrosis at thrombus sites in heparin-induced thrombocytopenia.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)
