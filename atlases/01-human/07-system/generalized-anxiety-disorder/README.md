@@ -490,6 +490,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "CNS-border antigen presentation: the dendritic cells of the CNS-border compartments are part of the neuroimmune interface implicated in the low-grade inflammation of generalized anxiety disorder."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-anxiety axis: TSLP, from gut-epithelium (gut-microbiome already mapped) and mast cells (already mapped), amplifies the neuroinflammatory and the Th2/mast-cell stress axis implicated in the HPA-axis (cortisol already mapped) dysregulation of generalized anxiety disorder."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-autonomic axis: bradykinin, via B2R on CNS neurons (already mapped) and microglia (already mapped), modulates the neuroinflammation and the autonomic hyperarousal contributing to the somatic symptoms of generalized anxiety disorder."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement brake: C1-esterase inhibitor regulates the classical-complement pathway (C3, C5 and factor-H already mapped) contributing to the neuroinflammation and the complement-mediated synaptic pruning of generalized anxiety disorder."
 ---
 
 # Generalized Anxiety Disorder
@@ -785,6 +794,9 @@ Allow **4-8 weeks** for onset of anxiolytic effect. Continue treatment ≥12 mon
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 and C5aR1 already mapped) are part of the low-grade complement activation of the neuroinflammation implicated in generalized anxiety disorder.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the neuroinflammation implicated in generalized anxiety disorder.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — CNS-border antigen presentation: the dendritic cells of the CNS-border compartments are part of the neuroimmune interface implicated in the low-grade inflammation of generalized anxiety disorder.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-anxiety axis: TSLP, from gut-epithelium (gut-microbiome already mapped) and mast cells (already mapped), amplifies the neuroinflammatory and the Th2/mast-cell stress axis implicated in the HPA-axis (cortisol already mapped) dysregulation of generalized anxiety disorder.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-autonomic axis: bradykinin, via B2R on CNS neurons (already mapped) and microglia (already mapped), modulates the neuroinflammation and the autonomic hyperarousal contributing to the somatic symptoms of generalized anxiety disorder.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement brake: C1-esterase inhibitor regulates the classical-complement pathway (C3, C5 and factor-H already mapped) contributing to the neuroinflammation and the complement-mediated synaptic pruning of generalized anxiety disorder.
 
 [^kessler-2005-gad-prevalence]: Kessler RC, Berglund P, Demler O, et al. Lifetime prevalence and age-of-onset distributions of DSM-IV disorders in the NCS Replication. *Arch Gen Psychiatry.* 2005;62(6):593-602. [doi:10.1001/archpsyc.62.6.593](https://doi.org/10.1001/archpsyc.62.6.593) · [PubMed 15939837](https://pubmed.ncbi.nlm.nih.gov/15939837/)
 [^bandelow-2015-anxiety-biology]: Bandelow B, Michaelis S. Epidemiology of anxiety disorders in the 21st century. *Dialogues Clin Neurosci.* 2015;17(3):327-335. [doi:10.31887/DCNS.2015.17.3/bbandelow](https://doi.org/10.31887/DCNS.2015.17.3/bbandelow) · [PubMed 26487812](https://pubmed.ncbi.nlm.nih.gov/26487812/)

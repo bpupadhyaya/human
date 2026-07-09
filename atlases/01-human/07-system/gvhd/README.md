@@ -487,6 +487,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Post-transplant iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the transfusional iron overload and the anaemia complicating graft-versus-host disease."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-alloimmune axis: TSLP, from damaged intestinal (already mapped) and skin (already mapped) epithelium of the conditioning regimen, primes host dendritic cells (already mapped) toward alloreactive Th2 and Th17 (already mapped) responses in graft-versus-host disease."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-vascular axis: bradykinin, from the contact-pathway activation in the conditioned endothelium (already mapped), amplifies the vascular permeability and the tissue oedema contributing to the endothelial injury of graft-versus-host disease."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Engraftment anaemia: erythropoietin drives red-cell regeneration to correct the anaemia of the conditioning regimen, the myelosuppression (bone-marrow already mapped), and the haemolysis (already mapped) complicating graft-versus-host disease."
 ---
 
 # Graft-Versus-Host Disease
@@ -781,6 +790,9 @@ The protective Treg/IL-10 axis is the key biological counterbalance to alloreact
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the complement-amplified tissue injury of graft-versus-host disease.
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement and contact systems activated in the endothelial and target-tissue injury of graft-versus-host disease.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Post-transplant iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the transfusional iron overload and the anaemia complicating graft-versus-host disease.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-alloimmune axis: TSLP, from damaged intestinal (already mapped) and skin (already mapped) epithelium of the conditioning regimen, primes host dendritic cells (already mapped) toward alloreactive Th2 and Th17 (already mapped) responses in graft-versus-host disease.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-vascular axis: bradykinin, from the contact-pathway activation in the conditioned endothelium (already mapped), amplifies the vascular permeability and the tissue oedema contributing to the endothelial injury of graft-versus-host disease.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Engraftment anaemia: erythropoietin drives red-cell regeneration to correct the anaemia of the conditioning regimen, the myelosuppression (bone-marrow already mapped), and the haemolysis (already mapped) complicating graft-versus-host disease.
 
 [^ferrara-2009-gvhd-review]: Ferrara JL, Levine JE, Reddy P, Holler E. Graft-versus-host disease. *Lancet.* 2009;373(9674):1550-1561. [doi:10.1016/S0140-6736(09)60237-3](https://doi.org/10.1016/S0140-6736(09)60237-3) · [PubMed 19380114](https://pubmed.ncbi.nlm.nih.gov/19380114/)
 [^zeiser-2020-ruxolitinib-gvhd-reach]: Zeiser R, von Bubnoff N, Butler J, et al. Ruxolitinib for Glucocorticoid-Refractory Acute Graft-versus-Host Disease. *N Engl J Med.* 2020;382(19):1800-1810. [doi:10.1056/NEJMoa1917635](https://doi.org/10.1056/NEJMoa1917635) · [PubMed 32374962](https://pubmed.ncbi.nlm.nih.gov/32374962/)
