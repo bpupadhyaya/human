@@ -487,6 +487,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Lesion matricellular: periostin, a matricellular mediator, is part of the tissue remodelling and the astrocytic (already mapped) scarring of the chronic multiple-sclerosis lesion."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-BBB axis: TSLP, from choroid-plexus and CNS-border epithelium disrupted in MS, primes dendritic cells (already mapped) toward Th17 (already mapped) priming and amplifies the BBB breach driving the lesion formation of multiple sclerosis."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-demyelination axis: bradykinin, via B2R on CNS neurons (already mapped) and oligodendrocytes (already mapped), amplifies the BBB permeability and the neuroinflammation contributing to the oligodendrocyte loss and the demyelination of multiple sclerosis."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Neuroprotective EPO: erythropoietin, via EpoR on neurons (already mapped) and oligodendrocytes (already mapped), promotes remyelination and exerts anti-inflammatory neuroprotection relevant to the relapsing-remitting course of multiple sclerosis."
 ---
 
 # Multiple Sclerosis
@@ -753,6 +762,9 @@ MS affects approximately **2.8 million people worldwide** (~1 million in the US)
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway activated by the anti-myelin antibodies (immunoglobulin already mapped) that contribute to the demyelination of multiple sclerosis.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Brain iron: transferrin, the iron carrier, reflects the disordered brain-iron handling that drives the oxidative injury and the oligodendrocyte ferroptosis of the demyelination of multiple sclerosis.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Lesion matricellular: periostin, a matricellular mediator, is part of the tissue remodelling and the astrocytic (already mapped) scarring of the chronic multiple-sclerosis lesion.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-BBB axis: TSLP, from choroid-plexus and CNS-border epithelium disrupted in MS, primes dendritic cells (already mapped) toward Th17 (already mapped) priming and amplifies the BBB breach driving the lesion formation of multiple sclerosis.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-demyelination axis: bradykinin, via B2R on CNS neurons (already mapped) and oligodendrocytes (already mapped), amplifies the BBB permeability and the neuroinflammation contributing to the oligodendrocyte loss and the demyelination of multiple sclerosis.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Neuroprotective EPO: erythropoietin, via EpoR on neurons (already mapped) and oligodendrocytes (already mapped), promotes remyelination and exerts anti-inflammatory neuroprotection relevant to the relapsing-remitting course of multiple sclerosis.
 
 [^compston-2008-ms-review]: Compston A, Coles A. Multiple sclerosis. *Lancet.* 2008;372(9648):1502-1517. [doi:10.1016/S0140-6736(08)61620-7](https://doi.org/10.1016/S0140-6736(08)61620-7) · [PubMed 18970977](https://pubmed.ncbi.nlm.nih.gov/18970977/)
 [^kappos-2006-natalizumab]: Polman CH, O'Connor PW, Havrdova E, et al. A randomized, placebo-controlled trial of natalizumab for relapsing multiple sclerosis. *N Engl J Med.* 2006;354(9):899-910. [doi:10.1056/NEJMoa044397](https://doi.org/10.1056/NEJMoa044397) · [PubMed 16510744](https://pubmed.ncbi.nlm.nih.gov/16510744/)

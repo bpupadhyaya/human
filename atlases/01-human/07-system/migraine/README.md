@@ -490,6 +490,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Meningeal antigen presentation: the dendritic cells of the meningeal and CNS-border compartments are part of the neuroimmune interface implicated in the neurogenic inflammation of migraine."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-meningeal axis: TSLP, from meningeal mast cells (already mapped) and the trigeminal epithelium, primes dendritic cells (already mapped) and amplifies the neurogenic and meningeal inflammation underlying the migraine attack."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement brake: C1-esterase inhibitor regulates the classical-complement and contact-pathway activation (complement C3, C5 and bradykinin already mapped) contributing to the neurogenic oedema and vasodilation of the migraine attack."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Neuroprotective EPO: erythropoietin, via EpoR on neurons (already mapped) and microglia (already mapped), exerts anti-inflammatory and neuroprotective effects relevant to the central sensitisation and the chronic neuroinflammation of migraine."
 ---
 
 # Migraine
@@ -784,6 +793,9 @@ Episodic migraine (EM, <15 headache days/month) transforms to **chronic migraine
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 and C5aR1 already mapped) are part of the complement activation of the neurogenic inflammation of migraine.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the neuroinflammatory dimension of migraine.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Meningeal antigen presentation: the dendritic cells of the meningeal and CNS-border compartments are part of the neuroimmune interface implicated in the neurogenic inflammation of migraine.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-meningeal axis: TSLP, from meningeal mast cells (already mapped) and the trigeminal epithelium, primes dendritic cells (already mapped) and amplifies the neurogenic and meningeal inflammation underlying the migraine attack.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement brake: C1-esterase inhibitor regulates the classical-complement and contact-pathway activation (complement C3, C5 and bradykinin already mapped) contributing to the neurogenic oedema and vasodilation of the migraine attack.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Neuroprotective EPO: erythropoietin, via EpoR on neurons (already mapped) and microglia (already mapped), exerts anti-inflammatory and neuroprotective effects relevant to the central sensitisation and the chronic neuroinflammation of migraine.
 
 [^gbd-2016-migraine-burden]: GBD 2016 Headache Collaborators. Global, regional, and national burden of migraine and tension-type headache, 1990-2016. *Lancet Neurol.* 2018;17(11):954-976. [doi:10.1016/S1474-4422(18)30322-3](https://doi.org/10.1016/S1474-4422(18)30322-3) · [PubMed 30353868](https://pubmed.ncbi.nlm.nih.gov/30353868/)
 [^goadsby-2002-migraine-review]: Goadsby PJ, Lipton RB, Ferrari MD. Migraine — current understanding and treatment. *N Engl J Med.* 2002;346(4):257-270. [doi:10.1056/NEJMra010917](https://doi.org/10.1056/NEJMra010917) · [PubMed 11807151](https://pubmed.ncbi.nlm.nih.gov/11807151/)
