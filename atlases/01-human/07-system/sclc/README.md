@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/04-cellular/b-cell
     relation: connects-to
     note: "Tertiary lymphoid structures: the B cells organise the sparse tertiary lymphoid structures whose presence, with the CD8 (already mapped) TILs, marks the rare immune-responsive subset of the immunologically cold small cell lung cancer."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Bronchial epithelial alarmin: TSLP released from the bronchial epithelium activates mast cells and dendritic cells, promoting the immunosuppressive microenvironment of small cell lung cancer and the type-2 cytokine skewing that limits anti-tumour immunity."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Chemotherapy anaemia: erythropoietin corrects the severe anaemia from etoposide/platinum chemotherapy in small cell lung cancer, with EPOR expression on neuroendocrine SCLC cells raising the question of direct trophic signalling."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Neuroendocrine histamine: small cell lung cancer cells, as neuroendocrine tumours, can co-secrete histamine alongside the ectopic ACTH, ADH and other hormones causing the paraneoplastic syndromes characteristic of the disease."
 ---
 
 # Small Cell Lung Cancer
@@ -737,6 +746,9 @@ SCLC has highest rate of brain metastases among solid tumors (~50% at 2 years); 
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Central complement: the complement C3, upstream of the C5aR1 (already mapped), is the pivot of the complement activation within the immunosuppressive small-cell-lung-cancer microenvironment.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 (with C3 and C5aR1 already mapped) generates the C5a that recruits the myeloid-derived suppressor cells of the small-cell-lung-cancer microenvironment.
 - `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Tertiary lymphoid structures: the B cells organise the sparse tertiary lymphoid structures whose presence, with the CD8 (already mapped) TILs, marks the rare immune-responsive subset of the immunologically cold small cell lung cancer.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Bronchial epithelial alarmin: TSLP released from the bronchial epithelium activates mast cells and dendritic cells, promoting the immunosuppressive microenvironment of small cell lung cancer and the type-2 cytokine skewing that limits anti-tumour immunity.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Chemotherapy anaemia: erythropoietin corrects the severe anaemia from etoposide/platinum chemotherapy in small cell lung cancer, with EPOR expression on neuroendocrine SCLC cells raising the question of direct trophic signalling.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Neuroendocrine histamine: small cell lung cancer cells, as neuroendocrine tumours, can co-secrete histamine alongside the ectopic ACTH, ADH and other hormones causing the paraneoplastic syndromes characteristic of the disease.
 
 [^horn-2018-impower133]: Horn L, Mansfield AS, Szczęsna A, et al. First-line atezolizumab plus chemotherapy in extensive-stage small-cell lung cancer. *N Engl J Med.* 2018;379(23):2220-2229. [doi:10.1056/NEJMoa1809064](https://doi.org/10.1056/NEJMoa1809064) · [PubMed 30280641](https://pubmed.ncbi.nlm.nih.gov/30280641/)
 [^paz-ares-2019-caspian]: Paz-Ares L, Dvorkin M, Chen Y, et al. Durvalumab plus platinum-etoposide versus platinum-etoposide in first-line treatment of extensive-stage small-cell lung cancer (CASPIAN). *Lancet.* 2019;394(10212):1929-1939. [doi:10.1016/S0140-6736(19)32222-6](https://doi.org/10.1016/S0140-6736(19)32222-6) · [PubMed 31590988](https://pubmed.ncbi.nlm.nih.gov/31590988/)
