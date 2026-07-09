@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/factor-h
     relation: connects-to
     note: "Complement evasion: the prostate-cancer cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), tempering the complement attack within the microenvironment."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Tumour-stromal alarmin: TSLP, secreted by cancer-associated fibroblasts (already mapped) and bone-marrow (already mapped) stroma, activates mast cells (already mapped) and dendritic cells (already mapped), promoting the immunosuppressive microenvironment of prostate cancer."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-growth axis: bradykinin, generated via the kallikrein-kinin system in the tumour microenvironment, signals via B2 receptors on cancer cells and endothelial cells (already mapped) to promote proliferation and angiogenesis (VEGF already mapped) of prostate cancer."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Anemia correction: erythropoietin addresses the anemia of chronic disease (already mapped) and the myelosuppression from chemotherapy (already mapped), supporting haematopoiesis and quality of life in advanced prostate cancer."
 ---
 
 # Prostate Cancer
@@ -766,6 +775,9 @@ cross_links:
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 already mapped) contribute to the inflammatory and immunosuppressive dimension of the immunologically cold prostate-cancer microenvironment.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the myeloid (macrophage already mapped) recruitment and immunosuppression of the prostate-cancer microenvironment.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the prostate-cancer cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), tempering the complement attack within the microenvironment.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Tumour-stromal alarmin: TSLP, secreted by cancer-associated fibroblasts (already mapped) and bone-marrow (already mapped) stroma, activates mast cells (already mapped) and dendritic cells (already mapped), promoting the immunosuppressive microenvironment of prostate cancer.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-growth axis: bradykinin, generated via the kallikrein-kinin system in the tumour microenvironment, signals via B2 receptors on cancer cells and endothelial cells (already mapped) to promote proliferation and angiogenesis (VEGF already mapped) of prostate cancer.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Anemia correction: erythropoietin addresses the anemia of chronic disease (already mapped) and the myelosuppression from chemotherapy (already mapped), supporting haematopoiesis and quality of life in advanced prostate cancer.
 
 [^beer-2014-prevail]: Beer TM, Armstrong AJ, Rathkopf D, et al. Enzalutamide in metastatic prostate cancer before chemotherapy. *N Engl J Med.* 2014;371(5):424-433. [doi:10.1056/NEJMoa1405095](https://doi.org/10.1056/NEJMoa1405095) · [PubMed 24881730](https://pubmed.ncbi.nlm.nih.gov/24881730/)
 [^sartor-2021-vision]: Sartor O, de Bono J, Chi KN, et al. Lutetium-PSMA-617 for metastatic castration-resistant prostate cancer. *N Engl J Med.* 2021;385(12):1091-1103. [doi:10.1056/NEJMoa2107322](https://doi.org/10.1056/NEJMoa2107322) · [PubMed 34161051](https://pubmed.ncbi.nlm.nih.gov/34161051/)
