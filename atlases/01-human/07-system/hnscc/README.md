@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "CAF matricellular protein: periostin, secreted by cancer-associated fibroblasts (already mapped), activates TGF-beta and SMAD4 (both already mapped) signalling to promote EMT and invasion in HNSCC; elevated in serum, correlates with nodal spread."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Mucosal pain mediator: bradykinin, released from the kallikrein-kinin system in the ulcerated mucosa of HNSCC, activates B1/B2 kinin receptors on nociceptors to drive the neuropathic pain (already mapped) and tumour-promoting inflammation of head and neck SCC."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Anaemia-of-cancer therapy: erythropoietin corrects the anemia of chronic disease (already mapped) accompanying HNSCC; EPO-receptor expression on the tumour cells raises concern about unintended tumour-stimulating effects during rHuEPO treatment."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell mediator: histamine released by the intra-tumoural mast cells (already mapped) of HNSCC modulates the microvasculature and shifts the immune microenvironment toward an immunosuppressive phenotype, complementing the Th2 skew (IL-4, IL-13 already mapped)."
 ---
 
 # HNSCC
@@ -754,6 +763,9 @@ HPV+ oropharyngeal: Node staging based on number (not laterality); HPV-negative 
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical complement regulation: C1-INH controls the classical and lectin pathways (C3, C5, C5aR1 and factor H already mapped) activated by HPV/EBV (already mapped) and immune recognition of HNSCC tumour cells.
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Epithelial alarmin: TSLP released by HNSCC squamous mucosa primes dendritic cells and mast cells (both already mapped) to sustain the Th2 (IL-4, IL-5, IL-13 already mapped) pro-tumour microenvironment.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — CAF matricellular protein: periostin, secreted by cancer-associated fibroblasts (already mapped), activates TGF-β and SMAD4 (both already mapped) signalling to promote EMT and invasion in HNSCC; elevated in serum, correlates with nodal spread.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Mucosal pain mediator: bradykinin, released from the kallikrein-kinin system in the ulcerated mucosa of HNSCC, activates B1/B2 kinin receptors on nociceptors to drive the neuropathic pain (already mapped) and tumour-promoting inflammation of head and neck SCC.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Anaemia-of-cancer therapy: erythropoietin corrects the anemia of chronic disease (already mapped) accompanying HNSCC; EPO-receptor expression on the tumour cells raises concern about unintended tumour-stimulating effects during rHuEPO treatment.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell mediator: histamine released by the intra-tumoural mast cells (already mapped) of HNSCC modulates the microvasculature and shifts the immune microenvironment toward an immunosuppressive phenotype, complementing the Th2 skew (IL-4, IL-13 already mapped).
 
 [^burtness-2019-keynote048]: Burtness B, Harrington KJ, Greil R, et al. Pembrolizumab alone or with chemotherapy versus cetuximab with chemotherapy for recurrent or metastatic squamous cell carcinoma of the head and neck (KEYNOTE-048). *Lancet.* 2019;394(10212):1915-1928. [doi:10.1016/S0140-6736(19)32591-7](https://doi.org/10.1016/S0140-6736(19)32591-7) · [PubMed 31679945](https://pubmed.ncbi.nlm.nih.gov/31679945/)
 [^vermorken-2008-extreme]: Vermorken JB, Mesia R, Rivera F, et al. Platinum-based chemotherapy plus cetuximab in head and neck cancer. *N Engl J Med.* 2008;359(11):1116-1127. [doi:10.1056/NEJMoa0802656](https://doi.org/10.1056/NEJMoa0802656) · [PubMed 18784101](https://pubmed.ncbi.nlm.nih.gov/18784101/)
