@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Airway remodelling: periostin, downstream of the IL-13 (already mapped) signalling, is part of the bronchiectatic small-airway remodelling of cystic fibrosis."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-CF axis: TSLP, released from the CFTR-dysfunctional airway epithelium, drives dendritic-cell (already mapped) Th2 priming and amplifies the eosinophilic airway inflammation that overlays the neutrophilic core of cystic fibrosis."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-CF axis: bradykinin, via B1/B2 receptors on CF airway epithelium and mast cells (already mapped), augments mucus secretion, neutrophil (already mapped) recruitment, and the inflammatory vascular permeability of cystic fibrosis airways."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Hypoxia-EPO axis: erythropoietin, induced by mucus-plug hypoxia in the CF airway, mobilises erythroid progenitors and modulates macrophage (already mapped) polarisation, linking the chronic anaemia of inflammation to lung disease in cystic fibrosis."
 ---
 
 # Cystic Fibrosis
@@ -767,6 +776,9 @@ AND
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) on the chronically infected cystic-fibrosis airway, a pathway the colonising pathogens also exploit.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Airway iron: transferrin, the iron carrier, reflects the disordered airway iron handling (hepcidin already mapped) that fuels the Pseudomonas biofilm growth in the cystic-fibrosis airway.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Airway remodelling: periostin, downstream of the IL-13 (already mapped) signalling, is part of the bronchiectatic small-airway remodelling of cystic fibrosis.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-CF axis: TSLP, released from the CFTR-dysfunctional airway epithelium, drives dendritic-cell (already mapped) Th2 priming and amplifies the eosinophilic airway inflammation that overlays the neutrophilic core of cystic fibrosis.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-CF axis: bradykinin, via B1/B2 receptors on CF airway epithelium and mast cells (already mapped), augments mucus secretion, neutrophil (already mapped) recruitment, and the inflammatory vascular permeability of cystic fibrosis airways.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Hypoxia-EPO axis: erythropoietin, induced by mucus-plug hypoxia in the CF airway, mobilises erythroid progenitors and modulates macrophage (already mapped) polarisation, linking the chronic anaemia of inflammation to lung disease in cystic fibrosis.
 
 ---
 
