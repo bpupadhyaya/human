@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/c5ar1
     relation: connects-to
     note: "C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) links the complement to the microglial (already mapped) neuroinflammation of the cortical tubers of tuberous sclerosis."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "mTOR-driven alarmin: TSLP expression is amplified by mTORC1 (TSC1/TSC2 already mapped) over-activation in TSC-LAM cells and airway hamartomas, activating mast cells (already mapped) and dendritic cells (already mapped) in the TSC pulmonary microenvironment."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell effector: histamine released by mast cells (already mapped) in the TSC-LAM lung and skin angiofibromas (skin already mapped) amplifies local type-2 immunity and the angiogenesis (VEGF already mapped) within the hamartoma stroma."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Hamartoma ECM: periostin, an ECM glycoprotein downstream of mTORC1 (TSC1/TSC2 already mapped) and TGF-β (already mapped) signalling, contributes to the desmoplastic and invasive extracellular matrix of renal angiomyolipomas and the pulmonary-LAM lesions of tuberous sclerosis."
 ---
 
 # Tuberous Sclerosis Complex
@@ -767,6 +776,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tuber myeloid cells: the macrophages and microglia (already mapped) of the cortical tubers contribute to the neuroinflammation implicated in the epilepsy of tuberous sclerosis.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Tuber complement: the complement C3 activation, part of the neuroinflammation of the cortical tubers, contributes to the aberrant synaptic pruning implicated in the epilepsy of tuberous sclerosis.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) links the complement to the microglial (already mapped) neuroinflammation of the cortical tubers of tuberous sclerosis.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Epithelial-mTOR alarmin: TSLP, whose expression is amplified by the mTORC1-driven proliferation (TSC1/TSC2 already mapped) of TSC-derived LAM cells and airway epithelial hamartomas, activates mast cells (already mapped) and dendritic cells (already mapped) in the TSC pulmonary microenvironment.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell dimension: histamine, released by the mast cells (already mapped) activated in the TSC pulmonary-LAM microenvironment and the skin angiofibromas (skin already mapped), amplifies the local type-2 immune response and the angiogenesis (VEGF already mapped) of the hamartoma stroma.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Hamartoma ECM: periostin, an ECM glycoprotein downstream of mTORC1 (TSC1/TSC2 already mapped) and TGF-β (already mapped) signalling, contributes to the desmoplastic and invasive extracellular matrix of renal angiomyolipomas and the pulmonary-LAM lesions of tuberous sclerosis.
 
 ---
 
