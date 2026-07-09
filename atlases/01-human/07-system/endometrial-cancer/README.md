@@ -481,6 +481,15 @@ cross_links:
   - target: 01-human/03-molecular/factor-h
     relation: connects-to
     note: "Complement evasion: the endometrial-cancer cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), tempering the complement attack within the microenvironment."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-tumour axis: TSLP, from cancer-associated fibroblasts (already mapped) and tumour stroma, primes dendritic cells (already mapped) and mast cells (already mapped) toward the Th2 immunosuppressive bias of the endometrial-cancer microenvironment."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-tumour axis: bradykinin, via the kallikrein-kinin system in the tumour microenvironment, amplifies the vascular permeability and the pro-tumorigenic myeloid (macrophage already mapped) recruitment in endometrial cancer."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Anaemia of cancer: erythropoietin corrects the cancer-related and chemotherapy-induced anaemia of endometrial cancer; EpoR expression on tumour cells also modulates a potential direct proliferative signal."
 ---
 
 # Endometrial Cancer
@@ -760,6 +769,9 @@ cross_links:
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 already mapped) contribute to the inflammatory and immunosuppressive dimension of the endometrial-cancer microenvironment.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the myeloid (macrophage already mapped) recruitment and immunosuppression of the endometrial-cancer microenvironment.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the endometrial-cancer cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), tempering the complement attack within the microenvironment.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-tumour axis: TSLP, from cancer-associated fibroblasts (already mapped) and tumour stroma, primes dendritic cells (already mapped) and mast cells (already mapped) toward the Th2 immunosuppressive bias of the endometrial-cancer microenvironment.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-tumour axis: bradykinin, via the kallikrein-kinin system in the tumour microenvironment, amplifies the vascular permeability and the pro-tumorigenic myeloid (macrophage already mapped) recruitment in endometrial cancer.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Anaemia of cancer: erythropoietin corrects the cancer-related and chemotherapy-induced anaemia of endometrial cancer; EpoR expression on tumour cells also modulates a potential direct proliferative signal.
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)

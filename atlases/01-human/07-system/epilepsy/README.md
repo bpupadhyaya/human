@@ -490,6 +490,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Autoimmune priming: the dendritic cells present the neuronal antigen to the T cells (already mapped) in the autoimmune and limbic-encephalitis epilepsies."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-epilepsy axis: TSLP, from gut-epithelium (gut-microbiome already mapped) and mast cells (already mapped), is part of the type-2 alarmin axis linking the gut-brain and the microbiome-neuroinflammation of drug-resistant epilepsy."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-seizure axis: bradykinin, via B2R on CNS microglia (already mapped) and neurons (already mapped), amplifies the BBB permeability and the neuroinflammation contributing to the seizure threshold reduction of epilepsy."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement brake: C1-esterase inhibitor regulates the classical-complement pathway (C3 and C5 already mapped) contributing to the synaptic complement-mediated pruning excess of the epileptogenesis of epilepsy."
 ---
 
 # Epilepsy
@@ -799,6 +808,9 @@ Anti-NMDAR encephalitis is the most common autoimmune encephalitis (~37% of auto
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 already mapped) contribute to the complement-mediated synaptic and neuronal injury of the epileptogenesis of epilepsy.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) links the complement to the microglial (already mapped) neuroinflammation of the epileptogenesis of epilepsy.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Autoimmune priming: the dendritic cells present the neuronal antigen to the T cells (already mapped) in the autoimmune and limbic-encephalitis epilepsies.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-epilepsy axis: TSLP, from gut-epithelium (gut-microbiome already mapped) and mast cells (already mapped), is part of the type-2 alarmin axis linking the gut-brain and the microbiome-neuroinflammation of drug-resistant epilepsy.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-seizure axis: bradykinin, via B2R on CNS microglia (already mapped) and neurons (already mapped), amplifies the BBB permeability and the neuroinflammation contributing to the seizure threshold reduction of epilepsy.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement brake: C1-esterase inhibitor regulates the classical-complement pathway (C3 and C5 already mapped) contributing to the synaptic complement-mediated pruning excess of the epileptogenesis of epilepsy.
 
 [^fisher-2017-ilae-classification]: Fisher RS, Cross JH, D'Souza C, et al. Instruction manual for the ILAE 2017 operational classification of seizure types. *Epilepsia.* 2017;58(4):531-542. [doi:10.1111/epi.13671](https://doi.org/10.1111/epi.13671) · [PubMed 28276060](https://pubmed.ncbi.nlm.nih.gov/28276060/)
 [^devinsky-2018-epilepsy-review]: Devinsky O, Vezzani A, O'Brien TJ, et al. Epilepsy. *Nat Rev Dis Primers.* 2018;4:18024. [doi:10.1038/nrdp.2018.24](https://doi.org/10.1038/nrdp.2018.24) · [PubMed 29722352](https://pubmed.ncbi.nlm.nih.gov/29722352/)
