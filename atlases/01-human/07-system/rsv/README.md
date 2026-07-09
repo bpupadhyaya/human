@@ -480,6 +480,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Acute-phase iron: transferrin, the iron carrier, reflects the hypoferraemia and disordered iron handling of the acute-phase response to the RSV lower-respiratory-tract infection."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Erythropoiesis support: erythropoietin counteracts the anaemia driven by the cytokine storm (IL-6 already mapped) and NLRP3 inflammasome (already mapped) activation of severe RSV disease, supporting erythropoiesis during lower-respiratory-tract infection."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Antiviral immunomodulator: melatonin, acting via MT1/MT2 receptors on macrophages (already mapped) and NK cells (already mapped), inhibits NLRP3 inflammasome (already mapped) activation and attenuates the cytokine storm of severe RSV infection."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Immune stimulator: prolactin, via its receptor on NK cells (already mapped), macrophages (already mapped), and T cells (already mapped), promotes antiviral effector responses and modulates the Th1/Th2 balance of RSV immunity."
 ---
 
 # RSV
@@ -778,3 +787,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement regulation: the C1-esterase inhibitor regulates the classical and lectin complement pathways (C3, C5, C5aR1 and factor H already mapped) engaged against RSV, a pathway the virus partially evades.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Airway matricellular: osteopontin, produced in the RSV-infected airway, is a matricellular cytokine amplifying the type-2 and myeloid inflammation of RSV bronchiolitis.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Acute-phase iron: transferrin, the iron carrier, reflects the hypoferraemia and disordered iron handling of the acute-phase response to the RSV lower-respiratory-tract infection.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Erythropoiesis support: erythropoietin counteracts the anaemia driven by the cytokine storm (IL-6 already mapped) and NLRP3 inflammasome (already mapped) activation of severe RSV disease, supporting erythropoiesis during lower-respiratory-tract infection.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Antiviral immunomodulator: melatonin, acting via MT1/MT2 receptors on macrophages (already mapped) and NK cells (already mapped), inhibits NLRP3 inflammasome (already mapped) activation and attenuates the cytokine storm of severe RSV infection.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Immune stimulator: prolactin, via its receptor on NK cells (already mapped), macrophages (already mapped), and T cells (already mapped), promotes antiviral effector responses and modulates the Th1/Th2 balance of RSV immunity.

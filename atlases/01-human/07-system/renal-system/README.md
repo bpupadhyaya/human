@@ -487,6 +487,15 @@ cross_links:
   - target: 01-human/03-molecular/factor-h
     relation: connects-to
     note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose dysregulation causes the C3 glomerulopathy and atypical HUS of the renal system."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Tubulo-epithelial alarmin: TSLP, released from the injured tubular and pelvic urothelium under inflammatory and ischaemic stress, activates mast cells (already mapped) and dendritic cells (already mapped), amplifying the innate immune response of the renal system."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement/kinin gate: C1-esterase inhibitor limits classical complement (C3, C5 and C5aR1 already mapped) and contact-kinin (bradykinin already mapped) over-activation in the inflamed glomerulus and tubulointerstitium, moderating complement-mediated injury of the renal system."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell mediator: histamine, released from the peritubular mast cells (already mapped) under allergic and inflammatory stimuli, modulates vascular permeability and contributes to the allergic interstitial nephritis and minimal-change disease of the renal system."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -738,6 +747,9 @@ Natriuretic counterpoint:
 - **Connects to:** [Complement C5](../../03-molecular/complement-c5/README.md) — terminal complement: the complement C5 and its C5a (with C3 already mapped) generate the membrane-attack complex central to the membranous nephropathy and the complement-mediated glomerular injury of the renal system.
 - **Connects to:** [C5aR1](../../03-molecular/c5ar1/README.md) — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the myeloid recruitment of the glomerulonephritis and the ANCA vasculitis of the renal system.
 - **Connects to:** [Factor H](../../03-molecular/factor-h/README.md) — complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose dysregulation causes the C3 glomerulopathy and atypical HUS of the renal system.
+- **Connects to:** [TSLP](../../03-molecular/tslp/README.md) — tubulo-epithelial alarmin: TSLP, released from the injured tubular and pelvic urothelium under inflammatory and ischaemic stress, activates mast cells (already mapped) and dendritic cells (already mapped), amplifying the innate immune response of the renal system.
+- **Connects to:** [C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md) — complement/kinin gate: C1-esterase inhibitor limits classical complement (C3, C5 and C5aR1 already mapped) and contact-kinin (bradykinin already mapped) over-activation in the inflamed glomerulus and tubulointerstitium, moderating complement-mediated injury of the renal system.
+- **Connects to:** [Histamine](../../03-molecular/histamine/README.md) — mast-cell mediator: histamine, released from the peritubular mast cells (already mapped) under allergic and inflammatory stimuli, modulates vascular permeability and contributes to the allergic interstitial nephritis and minimal-change disease of the renal system.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 

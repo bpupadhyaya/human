@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Two kidneys, two ureters, bladder, and urethra. Filters 180 L plasma/day, maintains fluid/electrolyte/acid-base homeostasis, excretes nitrogenous waste, and produces EPO, renin, and calcitriol.">
+  <meta name="description" content="Two kidneys, two ureters, bladder, and urethra. Filters 180 L plasma/day, maintains fluid/electrolyte/acid-base homeostasis, excretes nitrogenous waste, and pro">
   <meta property="og:title" content="Renal System — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Renal System — Human Engineering</title>
@@ -13,14 +13,14 @@
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0891b2;
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
     body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
            background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
-    a { color: var(--accent); text-decoration: none; transition: color .15s; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
     nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
           -webkit-backdrop-filter: saturate(180%) blur(20px);
@@ -54,6 +54,9 @@
     .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
                   letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
     .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
                    border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
                    box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
@@ -67,8 +70,6 @@
     .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
                          text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
                          padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-section p { font-size: 0.93rem; color: var(--fg-soft); line-height: 1.7; margin-bottom: 0.85rem; }
-    .detail-section p:last-child { margin-bottom: 0; }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
     .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
                      font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
@@ -76,32 +77,6 @@
     .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
                      color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
     .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
-    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
-    @media (max-width: 680px) { .two-col { grid-template-columns: 1fr; } }
-    .info-block { background: var(--bg); border: 1px solid var(--border-soft);
-                  border-radius: var(--radius-sm); padding: 1.1rem 1.25rem; }
-    .info-block .ib-title { font-size: 0.78rem; font-weight: 700; letter-spacing: 0.08em;
-                            text-transform: uppercase; color: var(--accent); margin-bottom: 0.55rem; }
-    .info-block p, .info-block li { font-size: 0.86rem; color: var(--fg-soft); line-height: 1.6; }
-    .info-block ul { padding-left: 1.1rem; }
-    .info-block li { margin-bottom: 0.25rem; }
-    .circuit-diagram { background: #1c1c1e; border-radius: var(--radius-sm); padding: 1.2rem 1.4rem;
-                       font-family: "SF Mono", "Fira Code", "Fira Mono", monospace;
-                       font-size: 0.8rem; color: #e5e5ea; line-height: 1.7; overflow-x: auto;
-                       margin-top: 0.5rem; }
-    .circuit-diagram .step { color: #67e8f9; }
-    .circuit-diagram .arrow { color: #6ee7b7; }
-    .pathology-items { display: flex; flex-direction: column; gap: 0.75rem; }
-    .pathology-item { border-radius: var(--radius-sm); padding: 1rem 1.2rem;
-                      border-left: 3px solid; }
-    .pathology-item.danger { background: rgba(220,38,38,0.05); border-color: #dc2626; }
-    .pathology-item.warn   { background: rgba(234,179,8,0.06);  border-color: #ca8a04; }
-    .pathology-item.info   { background: rgba(8,145,178,0.05); border-color: #0891b2; }
-    .pathology-item .pi-title { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.35rem; }
-    .pathology-item.danger .pi-title { color: #dc2626; }
-    .pathology-item.warn .pi-title { color: #92400e; }
-    .pathology-item.info .pi-title { color: #0e7490; }
-    .pathology-item p { font-size: 0.84rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
     .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
                  background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
@@ -119,7 +94,7 @@
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
     .footer-links a { color: var(--muted); }
-    .footer-links a:hover { color: var(--accent); }
+    .footer-links a:hover { color: var(--bio); }
     .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
   </style>
 </head>
@@ -144,176 +119,215 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(8,145,178,0.1); color: #0891b2;">Atlas One &middot; Human &middot; Scale 07 &mdash; System</div>
+    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 07 — System</div>
     <h1>Renal System</h1>
-    <p class="tagline">Two kidneys, two ureters, bladder, and urethra. Filters 180 L plasma/day through ~2 million nephrons to produce 1–2 L urine. Maintains fluid/electrolyte/acid-base homeostasis, excretes nitrogenous waste, and synthesises EPO, renin, and calcitriol.</p>
-    <p class="aliases">Also known as: urinary system &middot; renal-urinary system &middot; UBERON:0001008</p>
+    <p class="tagline">Two kidneys, two ureters, bladder, and urethra. Filters 180 L plasma/day, maintains fluid/electrolyte/acid-base homeostasis, excretes nitrogenous waste, and produces EPO, renin, and calcitriol. Tightly coupled to cardiovascular system via RAAS.</p>
+    <p class="aliases">Also known as: urinary system, renal-urinary system, excretory system</p>
     <div class="stat-row">
-      <div class="stat"><span class="stat-num">180 L/day</span><span class="stat-label">GFR (filtration)</span></div>
-      <div class="stat"><span class="stat-num">~2 M</span><span class="stat-label">Nephrons (total)</span></div>
-      <div class="stat"><span class="stat-num">20–25%</span><span class="stat-label">Cardiac Output</span></div>
-      <div class="stat"><span class="stat-num">~850 M</span><span class="stat-label">CKD Cases Globally</span></div>
+        <div class="stat"><span class="stat-num">Scale 07 — System</span><span class="stat-label">Scale</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-04</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
   <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
 
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #0891b2, #164e63);">
-        <div class="entry-eyebrow">Atlas One &middot; Scale 07 &mdash; System</div>
+      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
+        <div class="entry-eyebrow">renal-system</div>
         <h2>Renal System</h2>
-        <p class="summary">The renal system is the body's primary homeostatic regulator of fluid volume, electrolyte balance, and acid-base chemistry. The kidneys filter the entire plasma volume roughly 60 times per day, reclaiming 99% of filtered water and solutes with extraordinary precision while excreting metabolic waste products. Three endocrine outputs — erythropoietin, renin, and calcitriol — extend renal influence to erythropoiesis, blood pressure, and calcium-phosphate metabolism.</p>
+        <p class="summary">Two kidneys, two ureters, bladder, and urethra. Filters 180 L plasma/day, maintains fluid/electrolyte/acid-base homeostasis, excretes nitrogenous waste, and produces EPO, renin, and calcitriol. Tightly coupled to cardiovascular system via RAAS.</p>
       </div>
       <div class="detail-body">
 
-        <!-- OVERVIEW -->
         <div class="detail-section">
-          <h3>Overview</h3>
-          <p>The kidneys receive ~1.2 L of blood per minute — representing 20–25% of resting cardiac output — through the renal arteries, a disproportionate perfusion relative to their ~300 g combined mass. This flow is not for metabolic needs but for filtration: the glomerular capillary bed generates an ultrafiltrate of plasma at ~125 mL/min (glomerular filtration rate, GFR), driven by a net filtration pressure of ~17 mmHg. From that 180 L daily ultrafiltrate, tubular segments selectively reclaim nearly all glucose, amino acids, bicarbonate, and ~67% of filtered sodium in the proximal convoluted tubule (PCT), with further regulated reabsorption in the loop of Henle, distal tubule, and collecting duct governed by aldosterone and ADH. Only ~1–2 L of urine is produced daily.</p>
-          <p>Beyond filtration, the nephron is a metabolically active segmental machine. Each of the ~1 million nephrons per kidney is specialised: the thick ascending limb (TAL) of Henle's loop drives the countercurrent multiplier that concentrates the medullary interstitium up to ~1200 mOsm/kg, enabling ADH-stimulated water reabsorption in the collecting duct; the distal convoluted tubule (DCT) fine-tunes calcium and sodium reabsorption under PTH and aldosterone control; and intercalated cells of the collecting duct handle acid-base balance through H⁺-ATPase and HCO₃⁻/Cl⁻ exchange. The renin-angiotensin-aldosterone system (RAAS) provides the dominant hormonal feedback loop between renal perfusion pressure, systemic blood pressure, and sodium/potassium homeostasis.</p>
-          <p>The kidneys also function as endocrine organs: juxtaglomerular (JG) cells release renin when renal perfusion falls; peritubular interstitial fibroblasts in the cortex and outer medulla produce erythropoietin (EPO) in response to hypoxia (HIF-2α-driven), linking renal function directly to red blood cell production; and proximal tubule epithelial cells express 1α-hydroxylase that converts 25-hydroxyvitamin D to active calcitriol (1,25-(OH)₂D₃), the primary regulator of intestinal calcium absorption. These endocrine roles explain why CKD inevitably causes anaemia, hypertension, and renal osteodystrophy — the CRAB complications.</p>
-        </div>
-
-        <!-- ANATOMY & STRUCTURE -->
-        <div class="detail-section">
-          <h3>Anatomy &amp; Structure</h3>
+          <h3>Entry Metadata</h3>
           <table class="data-table">
-            <thead><tr><th>Component</th><th>Key Features</th></tr></thead>
-            <tbody>
-              <tr><td>Kidneys</td><td>Bean-shaped, ~11 × 6 × 3 cm, ~150 g each; retroperitoneal at T12–L3; right kidney slightly lower (displaced by liver); outer cortex (glomeruli, PCT, DCT) + inner medulla (loop of Henle, collecting ducts) + renal pelvis; cortical blood supply via arcuate arteries; medullary blood by vasa recta</td></tr>
-              <tr><td>Nephron</td><td>~1–1.2 million per kidney; functional unit consisting of glomerulus + Bowman's capsule → PCT → thin descending/ascending limb of Henle → TAL → DCT → connecting tubule → cortical collecting duct → medullary collecting duct; cortical nephrons (85%) have short loops; juxtamedullary nephrons (15%) have long loops deep into medulla — critical for concentration</td></tr>
-              <tr><td>Glomerulus</td><td>Tuft of fenestrated capillaries (~150 nm pores); surrounded by Bowman's capsule; filtration barrier: fenestrated endothelium + glomerular basement membrane (GBM, type IV collagen, laminin, heparan sulfate) + podocyte foot processes with slit diaphragm (nephrin, podocin); charge and size selectivity; mesangial cells regulate capillary surface area</td></tr>
-              <tr><td>Proximal Convoluted Tubule (PCT)</td><td>Brush border (×40 surface area); reabsorbs 65–70% NaCl, 100% glucose (SGLT2 in S1/S2), 100% amino acids, 85% HCO₃⁻, 65% Ca²⁺/Mg²⁺/phosphate; Na⁺/K⁺-ATPase basolateral; NHE3 (Na⁺/H⁺ exchanger) apical — primary acid secretion site</td></tr>
-              <tr><td>Loop of Henle</td><td>Thin descending limb: water permeable, NaCl impermeable → water reabsorbed into hyperosmotic medulla; thin ascending limb: NaCl permeable, water impermeable; TAL: NKCC2 (target of loop diuretics: furosemide/bumetanide) reabsorbs 25–30% NaCl; TAL is water impermeable → dilution of tubular fluid; countercurrent multiplication establishes medullary gradient up to 1200 mOsm/kg</td></tr>
-              <tr><td>Distal Convoluted Tubule (DCT)</td><td>NCC (Na⁺/Cl⁻ cotransporter, target of thiazides); Ca²⁺ reabsorption via TRPV5 (PTH-stimulated); Mg²⁺ reabsorption via TRPM6; aldosterone increases NCC expression in early DCT; DCT2 and connecting tubule express ENaC (principal cells) for aldosterone-regulated Na⁺ reabsorption</td></tr>
-              <tr><td>Collecting Duct (CD)</td><td>Principal cells: ENaC (apical Na⁺ entry, aldosterone-regulated) + ROMK (K⁺ secretion); AQP2 water channels inserted by ADH (V2 receptor → cAMP → vesicle fusion); intercalated cells (A-type): H⁺-ATPase apical → acid excretion; B-type: HCO₃⁻ secretion (alkalosis); final urine concentration up to 1200 mOsm/kg when ADH maximal</td></tr>
-              <tr><td>Ureters, Bladder, Urethra</td><td>Ureters (25–30 cm) have 3 physiological narrowings (UPJ, pelvic brim, UVJ) — common sites for stone impaction; ureteric peristalsis 2–6 waves/min; bladder capacity 400–600 mL; detrusor muscle (smooth) + internal urethral sphincter (smooth, sympathetic) + external urethral sphincter (striated, somatic); voiding reflex: parasympathetic S2–S4 (detrusor contraction), sympathetic T10–L2 (sphincter relaxation), somatic pudendal nerve (voluntary external sphincter)</td></tr>
-            </tbody>
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>renal-system</td></tr>
+            <tr><td>Name</td><td>Renal System</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-04</td></tr>
+            <tr><td>Atlas</td><td>01-human</td></tr>
+            <tr><td>Scale</td><td>07-system</td></tr>
+            <tr><td>Uberon</td><td>UBERON:0001008</td></tr>
           </table>
         </div>
 
-        <!-- FUNCTION -->
         <div class="detail-section">
-          <h3>Function</h3>
-
-          <p>The kidneys integrate four overlapping functional imperatives: waste excretion, volume regulation, electrolyte homeostasis, and acid-base balance. These are achieved through the nephron's three-step process of filtration (glomerulus), reabsorption (tubules), and secretion (tubules), with the entire process subject to hormonal and neural modulation.</p>
-
-          <div class="circuit-diagram">
-<span class="step">RAAS — Renin-Angiotensin-Aldosterone System</span>
-↓ Renal perfusion pressure / ↓ NaCl at macula densa / ↑ sympathetic tone (β1)
-<span class="arrow">→</span> JG cells release RENIN → cleaves angiotensinogen (liver) → Angiotensin I (Ang I)
-<span class="arrow">→</span> ACE (lung endothelium) converts Ang I → Angiotensin II (Ang II)
-<span class="arrow">Ang II effects:</span>
-  · Efferent arteriole vasoconstriction → ↑ GFR (when mild) / ↓ RBF
-  · PCT NHE3 stimulation → ↑ Na⁺/HCO₃⁻ reabsorption
-  · Adrenal zona glomerulosa → ALDOSTERONE release
-  · Hypothalamus → thirst + ADH release
-  · Direct tubular Na⁺ reabsorption (AT1R on collecting duct)
-<span class="step">Aldosterone → MR in principal cells → ↑ ENaC + basolateral Na⁺/K⁺-ATPase → Na⁺ in, K⁺ out</span>
-<span class="step">Counter-regulation: ANP/BNP (heart stretch) → ↑ GFR, ↓ renin, ↓ aldosterone, ↑ natriuresis</span>
-          </div>
-
-          <div class="two-col" style="margin-top:1.2rem;">
-            <div class="info-block">
-              <div class="ib-title">Tubular Reabsorption by Segment</div>
-              <ul>
-                <li><strong>PCT:</strong> 65–70% NaCl; 100% glucose (SGLT2) &amp; amino acids; 85% HCO₃⁻; 65% Ca²⁺, Mg²⁺, phosphate</li>
-                <li><strong>TAL (Henle):</strong> 25–30% NaCl via NKCC2; Ca²⁺ via paracellular (PTH/calcitriol); Mg²⁺ via paracellular; water impermeable → dilution</li>
-                <li><strong>DCT:</strong> 5–8% NaCl via NCC; Ca²⁺ via TRPV5 (PTH-stimulated); Mg²⁺ via TRPM6</li>
-                <li><strong>CD:</strong> Na⁺ via ENaC (aldosterone); H₂O via AQP2 (ADH); K⁺ secretion via ROMK; H⁺ secretion via H⁺-ATPase</li>
-              </ul>
-            </div>
-            <div class="info-block">
-              <div class="ib-title">Acid-Base Regulation</div>
-              <ul>
-                <li><strong>HCO₃⁻ reclamation (PCT):</strong> H⁺ secreted by NHE3 combines with filtered HCO₃⁻ → H₂CO₃ → CO₂ + H₂O (carbonic anhydrase IV) → CO₂ enters cell → carbonic anhydrase II → H⁺ + HCO₃⁻ → HCO₃⁻ exits basolateral via NBC1</li>
-                <li><strong>New HCO₃⁻ generation (CD):</strong> A-type intercalated cells secrete H⁺ via H⁺-ATPase; titratable acids (H₂PO₄⁻) and NH₄⁺ buffer luminal H⁺; each H⁺ excreted generates one new HCO₃⁻ added to blood</li>
-                <li><strong>NH₄⁺ excretion:</strong> Glutamine → NH₃ + HCO₃⁻ in PCT; NH₃ diffuses to tubular lumen, binds H⁺ → NH₄⁺ (non-diffusible); medullary recycling concentrates NH₄⁺ for excretion; quantitatively the most important new HCO₃⁻ generating mechanism in acidosis</li>
-              </ul>
-            </div>
-            <div class="info-block">
-              <div class="ib-title">Endocrine Functions</div>
-              <ul>
-                <li><strong>Erythropoietin (EPO):</strong> Peritubular interstitial fibroblasts (cortex/outer medulla) sense O₂ tension via PHD/HIF-2α axis; hypoxia → HIF-2α stabilised → EPO gene transcription; EPO → bone marrow erythroid progenitors → red cell production; CKD → progressive fibrosis destroys EPO-producing cells → normocytic normochromic anaemia</li>
-                <li><strong>Renin:</strong> JG cells are modified smooth muscle cells of the afferent arteriole; three stimuli: ↓ stretch (↓ pressure), ↓ NaCl at macula densa, β1-adrenergic activation; renin is rate-limiting step of RAAS</li>
-                <li><strong>Calcitriol (1,25-(OH)₂D₃):</strong> PCT cells express CYP27B1 (1α-hydroxylase); substrate is 25-OH-D₃ (hepatic product); stimulated by PTH, hypophosphataemia, hypocalcaemia; calcitriol → intestinal Ca²⁺/phosphate absorption, renal Ca²⁺ reabsorption, bone mineralisation; CKD → impaired 1α-hydroxylation → calcitriol deficiency → hyperparathyroidism → renal osteodystrophy</li>
-              </ul>
-            </div>
-            <div class="info-block">
-              <div class="ib-title">Nitrogen Waste Excretion</div>
-              <ul>
-                <li><strong>Urea:</strong> Product of hepatic urea cycle (amino acid catabolism); freely filtered; ~50% reabsorbed in PCT; medullary collecting duct reabsorbs urea (UT-A1/UT-A3 — ADH-regulated) → medullary urea recycling contributes to concentrating gradient; BUN (blood urea nitrogen) rises in CKD and pre-renal states (dehydration raises BUN:creatinine ratio &gt;20)</li>
-                <li><strong>Creatinine:</strong> Non-enzymatic product of creatine phosphate metabolism in muscle; produced at constant rate proportional to muscle mass; freely filtered + small tubular secretion (MATE2-K, OCT2); serum creatinine inversely proportional to GFR; CKD-EPI and MDRD equations estimate GFR from creatinine</li>
-                <li><strong>Uric acid:</strong> End-product of purine catabolism; filtered, reabsorbed, secreted; net reabsorption ~90%; hyperuricaemia → gout and urate nephropathy; URAT1 (SLC22A12) is target of uricosuric agents (probenecid, lesinurad)</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <!-- PATHOLOGY -->
-        <div class="detail-section">
-          <h3>Pathology</h3>
-          <div class="pathology-items">
-
-            <div class="pathology-item danger">
-              <div class="pi-title">Chronic Kidney Disease (CKD)</div>
-              <p>Defined as GFR &lt;60 mL/min/1.73 m² and/or markers of kidney damage (proteinuria, haematuria, structural abnormalities) for &gt;3 months. ~850 million affected globally; leading causes are diabetic nephropathy (40%) and hypertensive nephrosclerosis (25%). KDIGO staging G1–G5 by GFR + A1–A3 by albuminuria. CRAB complications: hyperCalcaemia/osteodystrophy (↓ calcitriol), Renal anaemia (↓ EPO), Acidosis (impaired NH₄⁺ excretion + HCO₃⁻ loss), Blood pressure elevation (RAAS activation + Na⁺ retention). First-line renoprotection: RAAS blockade (ACEi or ARB in proteinuric CKD — RENAAL, IDNT trials); SGLT2 inhibitors reduce CKD progression by ~30–40% independent of glycaemia (CREDENCE, DAPA-CKD, EMPA-KIDNEY). G5: renal replacement therapy (haemodialysis, peritoneal dialysis) or transplant.</p>
-            </div>
-
-            <div class="pathology-item danger">
-              <div class="pi-title">Acute Kidney Injury (AKI)</div>
-              <p>KDIGO criteria: ↑ serum creatinine ≥0.3 mg/dL within 48h, or ≥1.5× baseline within 7 days, or urine output &lt;0.5 mL/kg/h for &gt;6h. Classified as pre-renal (↓ perfusion — hypovolaemia, cardiac failure, hepatorenal syndrome), intrinsic (ATN, GN, interstitial nephritis, vascular), or post-renal (obstruction). ATN (acute tubular necrosis) is the most common intrinsic cause; PCT cells are most vulnerable to ischaemia and nephrotoxins (aminoglycosides, contrast, cisplatin). Biomarkers: NGAL, KIM-1, cystatin C for early detection. Management: treat underlying cause, optimise haemodynamics, avoid nephrotoxins, renal dose adjustments; RRT if life-threatening electrolyte disturbances, acidosis, or uraemia.</p>
-            </div>
-
-            <div class="pathology-item warn">
-              <div class="pi-title">Nephrolithiasis (Kidney Stones)</div>
-              <p>Lifetime prevalence 10–15% in developed countries; calcium oxalate 75%, uric acid 10–15%, struvite (Mg·NH₄·PO₄, infection-related) 5–15%, calcium phosphate 5%, cystine (CSNU mutation) &lt;1%. Obstruction at ureteric narrowings → severe colicky flank pain radiating to groin, haematuria, nausea. Diagnosis: CT-KUB (gold standard, non-contrast); ultrasound in pregnancy. Stone passage depends on size: &lt;5 mm ~80%, 5–10 mm ~50%, &gt;10 mm &lt;20%. Medical expulsive therapy: alpha-blockers (tamsulosin) relax ureteric smooth muscle. ESWL for 5–20 mm; ureteroscopy or PCNL for larger stones. Metabolic evaluation for recurrent stones: 24h urine collection for Ca²⁺, oxalate, uric acid, citrate, pH, and volume.</p>
-            </div>
-
-            <div class="pathology-item warn">
-              <div class="pi-title">Urinary Tract Infection &amp; Pyelonephritis</div>
-              <p>Most common bacterial infection in women; ~50% lifetime prevalence. Uncomplicated UTI: E. coli (80–85%), Staphylococcus saprophyticus, Klebsiella; cystitis symptoms (dysuria, frequency, urgency) without systemic features. Pyelonephritis: ascent to upper tract → fever, flank pain, CVA tenderness, bacteraemia risk; E. coli virulence factors (P-fimbriae binding to GalGal on uroepithelium). Diagnosis: UA (pyuria, bacteriuria, nitrite); urine culture &gt;10⁵ CFU/mL. Uncomplicated: nitrofurantoin or trimethoprim-sulfamethoxazole 5–7 days; pyelonephritis: fluoroquinolone or IV beta-lactam. Complicated/recurrent UTI: evaluate for structural anomalies, stones, incomplete bladder emptying.</p>
-            </div>
-
-            <div class="pathology-item danger">
-              <div class="pi-title">Autosomal Dominant Polycystic Kidney Disease (ADPKD)</div>
-              <p>Most common inherited kidney disease (1 in 400–1000); bilateral cyst formation progressive from childhood, with median renal replacement at ~58 years. <em>PKD1</em> (polycystin-1, 85%) and <em>PKD2</em> (polycystin-2, ~15%) mutations; polycystin-1/2 form mechanosensory ion channels on primary cilia; loss → dysregulated mTOR/MAPK/cAMP → tubular cell proliferation + fluid secretion into cysts. Total kidney volume (TKV) is the primary disease progression biomarker. Cardiovascular manifestations: hypertension (RAAS-driven from renal ischaemia), intracranial aneurysm (5%), mitral valve prolapse. Treatment: tolvaptan (V2 receptor antagonist → ↓ cAMP → slows cyst growth; TEMPO 3:4 trial; monitor for hepatotoxicity); aggressive BP control; limit caffeine; eventual RRT/transplant.</p>
-            </div>
-
-            <div class="pathology-item info">
-              <div class="pi-title">Bladder Cancer</div>
-              <p>~90% urothelial (transitional cell) carcinoma; remaining 10% squamous (associated with Schistosoma haematobium infection, chronic irritation) or adenocarcinoma. Major risk factors: smoking (4× risk; accounts for ~50% of cases), occupational aromatic amine exposure (dye, rubber, leather industries), cyclophosphamide, radiation. Haematuria (painless, gross) is the cardinal symptom. Non-muscle-invasive (NMIBC, stage Ta/T1/CIS): cystoscopy + TURBT; intravesical BCG immunotherapy for high-risk NMIBC. Muscle-invasive (MIBC, T2+): radical cystectomy ± neoadjuvant cisplatin-based chemotherapy; pembrolizumab second-line for cisplatin-ineligible metastatic disease; FGFR3 mutation present in ~70% of low-grade papillary tumours → erdafitinib (FGFR inhibitor) for FGFR2/3-altered metastatic disease.</p>
-            </div>
-
-          </div>
-        </div>
-
-        <!-- CONNECTIONS -->
-        <div class="detail-section">
-          <h3>Connections</h3>
+          <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a class="conn-pill part" href="index.html"><span class="rel">part-of</span>Human Body</a>
-            <a class="conn-pill part" href="index.html"><span class="rel">contains</span>Kidney</a>
-            <a class="conn-pill part" href="index.html"><span class="rel">contains</span>Glomerulus</a>
-            <a class="conn-pill" href="cardiovascular-system.html"><span class="rel">connects-to</span>Cardiovascular System</a>
-            <a class="conn-pill" href="digestive-system.html"><span class="rel">connects-to</span>Digestive System</a>
-            <a class="conn-pill" href="bone-marrow.html"><span class="rel">modulates</span>Bone Marrow (EPO)</a>
-            <a class="conn-pill" href="medicine.html"><span class="rel">treated-by</span>ACE Inhibitors</a>
-            <a class="conn-pill" href="medicine.html"><span class="rel">treated-by</span>ARBs</a>
-            <a class="conn-pill" href="medicine.html"><span class="rel">treated-by</span>Loop Diuretics</a>
-            <a class="conn-pill" href="medicine.html"><span class="rel">treated-by</span>SGLT2 Inhibitors</a>
-            <a class="conn-pill damaged" href="pancreas.html"><span class="rel">damaged-by</span>Pancreas (diabetic nephropathy)</a>
+            <a class="conn-pill part" href="human-body.html" title="The renal system is one of the major organ systems of the integrated human body."><span class="rel">part-of</span>Human Body</a>
+            <a class="conn-pill part" href="kidney.html" title="The kidneys are the primary functional organs of the renal system — housing nephrons, performing filtration, reabsorption, secretion, and endocrine functions."><span class="rel">contains</span>Kidney</a>
+            <a class="conn-pill" href="cardiovascular-system.html" title="RAAS (renin-angiotensin-aldosterone system) bidirectionally couples renal function to cardiac output and systemic BP; ANP/BNP natriuretic peptides from the heart modulate renal Na⁺ handling."><span class="rel">connects-to</span>Cardiovascular System</a>
+            <a class="conn-pill" href="ace-inhibitors.html" title="ACE inhibitors are first-line renoprotective therapy in diabetic and non-diabetic CKD; they reduce intraglomerular pressure and proteinuria by blocking Ang II."><span class="rel">treated-by</span>Ace Inhibitors</a>
+            <a class="conn-pill" href="loop-diuretics.html" title="Loop diuretics block NKCC2 in the thick ascending limb; cornerstone of fluid management in AKI, CKD-associated edema, and nephrotic syndrome."><span class="rel">treated-by</span>Loop Diuretics</a>
+            <a class="conn-pill part" href="glomerulus.html" title="The glomerulus is the tissue-level filtration structure within each nephron of the kidney."><span class="rel">contains</span>Glomerulus</a>
+            <a class="conn-pill" href="digestive-system.html" title="Renal and intestinal Na⁺/H₂O handling are complementary; aldosterone and ANP coordinate gut and kidney fluid reabsorption; hepatorenal interactions include shared RAAS regulation."><span class="rel">connects-to</span>Digestive System</a>
+            <a class="conn-pill" href="arbs.html" title="ARBs are first-line renoprotective therapy in diabetic and non-diabetic CKD; AT1 blockade dilates the efferent arteriole, reducing intraglomerular pressure, proteinuria, and CKD progression (RENAAL, IDNT trials)."><span class="rel">treated-by</span>Arbs</a>
+            <a class="conn-pill" href="arbs.html" title="RAAS blockade by ARBs reduces angiotensin II–driven efferent vasoconstriction, decreasing glomerular hypertension and filtration of albumin; also reduces aldosterone-driven Na⁺ retention and tubular fibrosis."><span class="rel">modulated-by</span>Arbs</a>
+            <a class="conn-pill" href="vasopressin.html" title="Modulated by Vasopressin."><span class="rel">modulated-by</span>Vasopressin</a>
+            <a class="conn-pill damaged" href="streptococcus-pyogenes.html" title="Damaged by Streptococcus pyogenes."><span class="rel">damaged-by</span>Streptococcus Pyogenes</a>
+            <a class="conn-pill" href="ckd.html" title="Chronic kidney disease is the renal system's common end state: progressive nephron loss from diabetes, hypertension, or glomerular disease reduces GFR, so the kidney fails its fluid, electrolyte, acid-base, waste, and endocrine roles—ending in dialysis or transplant."><span class="rel">connects-to</span>Ckd</a>
+            <a class="conn-pill" href="endocrine-system.html" title="The renal system is also an endocrine organ within the endocrine system: the kidney secretes erythropoietin and renin and activates vitamin D, while responding to aldosterone, ADH, and PTH—so kidney disease causes anemia, bone disease, and blood-pressure dysregulation."><span class="rel">connects-to</span>Endocrine System</a>
+            <a class="conn-pill" href="iga-nephropathy.html" title="IgA nephropathy is the world's commonest primary glomerulonephritis, a core renal-system disease: galactose-deficient IgA1 immune complexes deposit in the mesangium, causing hematuria (often after mucosal infection) and, in many, progression to chronic kidney disease."><span class="rel">connects-to</span>Iga Nephropathy</a>
+            <a class="conn-pill" href="erythropoietin.html" title="The renal system is an endocrine organ via erythropoietin: peritubular cells sense low oxygen and secrete EPO to drive red-cell production, so kidney disease causes anemia while EPO excess causes polycythemia—linking renal function to oxygen-carrying capacity."><span class="rel">connects-to</span>Erythropoietin</a>
+            <a class="conn-pill" href="potassium.html" title="Potassium balance is a core renal-system job: the kidney tunes potassium excretion under aldosterone, so renal failure causes life-threatening hyperkalemia while diuretics cause hypokalemia—small shifts in this ion can stop the heart, making renal K+ handling vital."><span class="rel">connects-to</span>Potassium</a>
+            <a class="conn-pill" href="renal-cell-carcinoma.html" title="Renal cell carcinoma is the principal cancer of the renal system: arising from tubular epithelium, it can secrete erythropoietin or renin (paraneoplastic syndromes) and presents late with hematuria or a mass—turning the kidney's own physiology into its tumor's behavior."><span class="rel">connects-to</span>Renal Cell Carcinoma</a>
+            <a class="conn-pill" href="podocyte.html" title="Podocytes are the renal system's filtration gatekeepers: their interlocking foot processes form the slit diaphragm that holds protein back, so podocyte injury causes proteinuria and nephrotic syndrome—a frequent first step toward chronic kidney disease."><span class="rel">connects-to</span>Podocyte</a>
+            <a class="conn-pill" href="renin.html" title="Renin launches the renal system's blood-pressure axis: juxtaglomerular cells release it when renal perfusion or sodium falls, triggering angiotensin and aldosterone to retain salt and water—so the kidney is the body's master regulator of volume and pressure."><span class="rel">connects-to</span>Renin</a>
+            <a class="conn-pill" href="sodium.html" title="Sodium handling is the renal system's central task: the nephron filters and precisely reabsorbs sodium to set extracellular volume and blood pressure, so disordered renal sodium balance drives both hypertension and edema, and is the target of most diuretics."><span class="rel">connects-to</span>Sodium</a>
+            <a class="conn-pill" href="aldosterone.html" title="Aldosterone is the kidney's salt-retaining hormone: released via the renin axis, it makes the distal nephron reabsorb sodium and excrete potassium, so it sets blood volume and pressure—and blocking it (spironolactone) treats resistant hypertension and heart failure."><span class="rel">connects-to</span>Aldosterone</a>
+            <a class="conn-pill" href="calcium.html" title="The kidney is central to calcium balance: it activates vitamin D to absorb calcium, fine-tunes calcium excretion under PTH, and when it fails, disturbed calcium-phosphate handling drives the bone disease and stones of kidney disease."><span class="rel">connects-to</span>Calcium</a>
+            <a class="conn-pill" href="hypertension.html" title="Kidney and blood pressure are locked in a two-way grip: the kidney sets long-term pressure through salt and the renin system, yet high pressure also damages its vessels—so hypertension is both a leading cause and a consequence of kidney disease."><span class="rel">connects-to</span>Hypertension</a>
+            <a class="conn-pill" href="vitamin-d.html" title="The kidney is where vitamin D becomes active: it performs the final 1-alpha-hydroxylation to calcitriol, so kidney failure causes vitamin D deficiency and the bone disease of CKD—one of the organ's vital endocrine, non-excretory jobs."><span class="rel">connects-to</span>Vitamin D</a>
+            <a class="conn-pill" href="phosphorus.html" title="The renal system is the body's phosphate gatekeeper: kidneys excrete phosphate under FGF23 and PTH control, so failing kidneys retain it, driving the calcium-phosphate imbalance and vascular calcification of CKD-mineral bone disorder."><span class="rel">connects-to</span>Phosphorus</a>
+            <a class="conn-pill" href="pth.html" title="The kidney and PTH run the calcium-phosphate axis together: failing kidneys retain phosphate and underproduce active vitamin D, driving secondary hyperparathyroidism in which PTH soars to defend calcium—at the cost of the bones."><span class="rel">connects-to</span>Pth</a>
+            <a class="conn-pill" href="hydrogen.html" title="The kidney is the body's slow acid-base regulator through hydrogen: it excretes hydrogen ions and regenerates bicarbonate to hold blood pH steady, so kidney failure or tubular defects cause the metabolic acidosis (renal tubular acidosis) of renal disease."><span class="rel">connects-to</span>Hydrogen</a>
+            <a class="conn-pill" href="albumin.html" title="The kidney's filter is judged by albumin: a healthy glomerulus keeps this protein in the blood, so albumin leaking into urine (albuminuria) is the earliest, most sensitive sign of kidney damage and a marker that guides treatment."><span class="rel">connects-to</span>Albumin</a>
+            <a class="conn-pill" href="angiotensin-ii.html" title="The renal system controls blood pressure through angiotensin II: the kidney's renin launches the cascade that makes angiotensin II to constrict vessels and tune filtration, the loop that ACE inhibitors and ARBs block to protect the kidney."><span class="rel">connects-to</span>Angiotensin Ii</a>
+            <a class="conn-pill" href="endothelial-cell.html" title="The filtration barrier is built on endothelial cells: the glomerulus's fenestrated endothelium, with podocytes and the basement membrane, sieves the blood, so endothelial injury (as in preeclampsia or microangiopathy) leaks protein and crashes filtration."><span class="rel">connects-to</span>Endothelial Cell</a>
+            <a class="conn-pill" href="oxygen.html" title="The kidney is the body's oxygen gauge: cells sensing low oxygen release erythropoietin to make red cells, while the medulla works on the edge of hypoxia, which is why poor perfusion so readily causes acute tubular injury."><span class="rel">connects-to</span>Oxygen</a>
+            <a class="conn-pill" href="heart.html" title="The heart and kidney rise or fall together: in cardiorenal syndrome a failing heart starves and congests the kidney while fluid overload and neurohormones strain the heart, a vicious loop central to managing heart failure."><span class="rel">connects-to</span>Heart</a>
+            <a class="conn-pill" href="photon.html" title="The kidney is read by imaging: ultrasound and CT photons reveal stones, obstruction and cysts, while nuclear renography traces how well each kidney filters and drains."><span class="rel">connects-to</span>Photon</a>
+            <a class="conn-pill" href="bone-marrow.html" title="The kidney commands the bone marrow: its erythropoietin tells the marrow how many red cells to make, so kidney failure starves the marrow of that signal and causes the anemia of chronic kidney disease."><span class="rel">connects-to</span>Bone Marrow</a>
+            <a class="conn-pill" href="brain.html" title="Kidney and brain share fate: uremic toxins cloud the mind, the kidney's blood-pressure control guards against stroke, and rapid dialysis can swell the brain in disequilibrium syndrome."><span class="rel">connects-to</span>Brain</a>
+            <a class="conn-pill" href="electron.html" title="Electron microscopy reveals the kidney's exquisite filter: podocyte foot processes interdigitate over the slit diaphragm above a basement membrane and fenestrated endothelium — the three-layer barrier that holds back protein while letting water and salts pass."><span class="rel">connects-to</span>Electron</a>
+            <a class="conn-pill" href="magnesium.html" title="The kidney is the body's magnesium thermostat: it finely tunes how much of the mineral is reabsorbed or spilled into urine, so renal and tubular disorders are a leading cause of both magnesium deficiency and excess."><span class="rel">connects-to</span>Magnesium</a>
+            <a class="conn-pill" href="lung.html" title="Kidney and lung jointly hold the body's pH steady: the lungs blow off carbon dioxide while the kidney adjusts bicarbonate and acid, and when the kidney fails to clear fluid, the backed-up water floods the lungs as pulmonary edema."><span class="rel">connects-to</span>Lung</a>
+            <a class="conn-pill" href="liver.html" title="Liver and kidney share the work of detox: the liver turns ammonia into urea that the kidney then excretes, the two clear many drugs in tandem, and a failing liver can drag the kidney down with it in the hepatorenal syndrome."><span class="rel">connects-to</span>Liver</a>
+            <a class="conn-pill" href="nervous-system.html" title="The nervous system tunes the kidney minute to minute: sympathetic nerves and baroreceptors adjust renal blood flow and renin release to defend blood pressure, while the buildup of wastes in kidney failure clouds the brain into uremic encephalopathy."><span class="rel">connects-to</span>Nervous System</a>
+            <a class="conn-pill" href="immune-system.html" title="The kidney is a frequent immune battleground: circulating immune complexes and complement lodge in the glomerulus to cause the many glomerulonephritides, making renal biopsy a window onto systemic autoimmune disease like lupus."><span class="rel">connects-to</span>Immune System</a>
+            <a class="conn-pill" href="antibody.html" title="Specific autoantibodies name the kidney's diseases: anti-GBM antibodies attack the glomerular basement membrane in Goodpasture, ANCA drives the small-vessel vasculitides, and these blood tests pinpoint which glomerulonephritis is at work."><span class="rel">connects-to</span>Antibody</a>
+            <a class="conn-pill" href="gout.html" title="The kidney sets the body's urate: it excretes most uric acid, so impaired renal handling raises blood urate into gout and urate stones, while gout's crystals and its drugs in turn injure the kidney — a two-way burden."><span class="rel">connects-to</span>Gout</a>
+            <a class="conn-pill" href="skin.html" title="Failing kidneys show on the skin: uremia brings relentless itch and a sallow hue, disturbed calcium-phosphate balance calcifies skin vessels into deadly calciphylaxis, and the skin's vitamin D awaits the kidney's final activating step."><span class="rel">connects-to</span>Skin</a>
+            <a class="conn-pill" href="adrenal-gland.html" title="The kidney and adrenal run the salt axis together: the kidney's renin triggers the adrenal cortex to release aldosterone, which acts back on the nephron to retain sodium and excrete potassium, closing the loop that sets blood volume and pressure."><span class="rel">connects-to</span>Adrenal Gland</a>
+            <a class="conn-pill" href="type-2-diabetes.html" title="Diabetes is the leading destroyer of the renal system: chronic high glucose thickens and scars the glomerulus into diabetic nephropathy, the single biggest cause of kidney failure and dialysis worldwide."><span class="rel">connects-to</span>Type 2 Diabetes</a>
+            <a class="conn-pill" href="fgf23.html" title="Bone signals the kidney about phosphate: FGF23 from bone tells the nephron to dump phosphate and curb active vitamin D, and as kidneys fail FGF23 climbs early, an opening move in the mineral-bone disorder of CKD."><span class="rel">connects-to</span>Fgf23</a>
+            <a class="conn-pill" href="sglt2.html" title="The proximal tubule reclaims the body's sugar: SGLT2 there reabsorbs nearly all filtered glucose, and blocking it spills glucose into the urine — drugs that lower sugar while unexpectedly protecting the kidney and heart."><span class="rel">connects-to</span>Sglt2</a>
+            <a class="conn-pill" href="fibroblast.html" title="One kidney cell wears two hats: peritubular fibroblasts make the erythropoietin that drives red-cell production, yet when injured they transform into myofibroblasts that lay down the scar of chronic kidney disease."><span class="rel">connects-to</span>Fibroblast</a>
+            <a class="conn-pill" href="systemic-lupus-erythematosus.html" title="Autoimmunity often lands on the kidney: lupus nephritis, where immune complexes inflame the glomeruli, is among the most serious manifestations of SLE and a leading reason the disease becomes life-threatening."><span class="rel">connects-to</span>Systemic Lupus Erythematosus</a>
+            <a class="conn-pill" href="wilms-tumor.html" title="The developing kidney can spawn a cancer: Wilms tumor (nephroblastoma) arises from embryonic renal precursor cells, the most common kidney cancer of childhood and the pediatric counterpart to adult renal cell carcinoma."><span class="rel">connects-to</span>Wilms Tumor</a>
+            <a class="conn-pill" href="sepsis.html" title="The kidney is both a source and a casualty of sepsis: urinary infection ascending to pyelonephritis can seed urosepsis, while severe sepsis in turn starves the kidneys into acute kidney injury."><span class="rel">connects-to</span>Sepsis</a>
+            <a class="conn-pill" href="venous-thromboembolism.html" title="Leaky kidneys clot the blood: nephrotic syndrome spills anticoagulant proteins into the urine, leaving a hypercoagulable state prone to renal vein thrombosis and pulmonary embolism."><span class="rel">connects-to</span>Venous Thromboembolism</a>
+            <a class="conn-pill" href="escherichia-coli.html" title="Its commonest infection ascends from below: uropathogenic E. coli climbs the urinary tract to cause cystitis and pyelonephritis, the renal system's most frequent infection and a leading cause of urosepsis."><span class="rel">connects-to</span>Escherichia Coli</a>
+            <a class="conn-pill" href="multiple-myeloma.html" title="A blood cancer can clog the nephrons: multiple myeloma floods the filtrate with light chains that precipitate into casts, causing myeloma cast nephropathy — a classic route to kidney failure."><span class="rel">connects-to</span>Multiple Myeloma</a>
+            <a class="conn-pill" href="heart-failure.html" title="Heart and kidney rise and fall together: in cardiorenal syndrome, a failing heart's low output and venous congestion impair renal perfusion, while fluid overload from failing kidneys back-strains the heart."><span class="rel">connects-to</span>Heart Failure</a>
+            <a class="conn-pill" href="anemia-of-chronic-disease.html" title="Failing kidneys stop making the red-cell hormone: the kidney produces erythropoietin, so as renal function declines, EPO falls and a characteristic renal anemia develops, often needing replacement to correct."><span class="rel">connects-to</span>Anemia Of Chronic Disease</a>
+            <a class="conn-pill" href="osteoporosis.html" title="The kidney governs bone mineral balance: as renal function fails, impaired vitamin D activation and phosphate handling disturb calcium balance, producing the renal osteodystrophy and bone fragility of CKD-mineral bone disorder."><span class="rel">connects-to</span>Osteoporosis</a>
+            <a class="conn-pill" href="major-depressive-disorder.html" title="Kidney failure and dialysis weigh on mood: the fatigue, dietary and fluid restrictions and time burden of dialysis give advanced kidney disease one of the highest rates of depression among chronic illnesses."><span class="rel">connects-to</span>Major Depressive Disorder</a>
+            <a class="conn-pill" href="reproductive-system.html" title="They share the genitourinary tract: the urinary and reproductive systems develop together and run side by side, so prostatic obstruction, pelvic surgery and pregnancy all directly affect the kidneys and bladder."><span class="rel">connects-to</span>Reproductive System</a>
+            <a class="conn-pill" href="respiratory-system.html" title="Lungs and kidneys jointly balance acid and can fail together: the kidney and lung co-regulate acid-base status, and pulmonary-renal syndromes like Goodpasture and ANCA vasculitis attack both at once."><span class="rel">connects-to</span>Respiratory System</a>
+            <a class="conn-pill" href="integumentary-system.html" title="Failing kidneys are written on the skin: uraemia causes intractable pruritus and a sallow complexion, and advanced renal failure can produce calciphylaxis and, with gadolinium, nephrogenic systemic fibrosis."><span class="rel">connects-to</span>Integumentary System</a>
+            <a class="conn-pill" href="musculoskeletal-system.html" title="The kidney mineralises the skeleton: by regulating calcium, phosphate and active vitamin D, it keeps bone healthy, so renal failure causes renal osteodystrophy with weak, painful bones and fractures."><span class="rel">connects-to</span>Musculoskeletal System</a>
+            <a class="conn-pill" href="mycobacterium-tuberculosis.html" title="Tuberculosis can seed the urinary tract: genitourinary TB causes sterile pyuria, ureteric strictures and renal scarring, a quiet cause of declining kidney function in endemic regions."><span class="rel">connects-to</span>Mycobacterium Tuberculosis</a>
+            <a class="conn-pill" href="ibuprofen.html" title="Common painkillers can injure it: NSAIDs like ibuprofen reduce renal blood flow and can cause acute kidney injury, acute interstitial nephritis and, with chronic use, analgesic nephropathy."><span class="rel">connects-to</span>Ibuprofen</a>
+            <a class="conn-pill" href="lymphatic-system.html" title="A hidden network drains it: a rich renal lymphatic system clears interstitial fluid and protein from the kidney, and when overwhelmed it contributes to the oedema of nephrotic syndrome."><span class="rel">connects-to</span>Lymphatic System</a>
+            <a class="conn-pill" href="metformin.html" title="A common diabetes drug it must clear: metformin is renally excreted and accumulates in kidney failure, risking lactic acidosis, so it is dose-reduced or stopped as eGFR falls."><span class="rel">connects-to</span>Metformin</a>
+            <a class="conn-pill" href="vancomycin.html" title="A powerful antibiotic that can harm it: vancomycin is nephrotoxic and renally cleared, so it requires blood-level monitoring and dose adjustment to protect the kidney."><span class="rel">connects-to</span>Vancomycin</a>
+            <a class="conn-pill" href="hepatitis-b-virus.html" title="A virus that scars the glomerulus: chronic hepatitis B causes membranous nephropathy and polyarteritis-nodosa renal disease through immune-complex deposition, one of several viral causes of kidney disease."><span class="rel">connects-to</span>Hepatitis B Virus</a>
+            <a class="conn-pill" href="staphylococcus-aureus.html" title="Infection inflames the kidney: Staphylococcus aureus causes infection-related glomerulonephritis and is a leading organism in dialysis-access infection and septic acute kidney injury."><span class="rel">connects-to</span>Staphylococcus Aureus</a>
+            <a class="conn-pill" href="dietary-fiber.html" title="The gut talks to the kidney through diet: dietary fibre shifts the microbiome to produce fewer uraemic toxins like indoxyl sulfate, of interest in slowing chronic kidney disease."><span class="rel">connects-to</span>Dietary Fiber</a>
+            <a class="conn-pill" href="fibrosis.html" title="Scarring is the common endpoint: whatever the initial insult — diabetes, hypertension, glomerulonephritis — progressive kidney disease converges on tubulointerstitial fibrosis, the strongest histological predictor of nephron loss and renal failure."><span class="rel">connects-to</span>Fibrosis</a>
+            <a class="conn-pill" href="cancer-chemotherapy.html" title="The kidney both clears and is harmed: it excretes many cytotoxic drugs so dosing tracks GFR, while cisplatin, methotrexate and tumour-lysis from chemotherapy are major causes of acute kidney injury."><span class="rel">connects-to</span>Cancer Chemotherapy</a>
+            <a class="conn-pill" href="ahus.html" title="A renal-limited thrombotic microangiopathy: atypical haemolytic uraemic syndrome, from uncontrolled complement activation, attacks the glomerular and arteriolar endothelium to cause acute kidney injury, treated with the complement inhibitor eculizumab."><span class="rel">connects-to</span>Ahus</a>
+            <a class="conn-pill" href="arterial-wall.html" title="It governs blood pressure through the arteries: the kidney's renin-angiotensin system tunes arterial-wall tone and volume, while renal-artery atherosclerosis or stenosis drives secondary hypertension—a two-way axis between kidney and vessel."><span class="rel">connects-to</span>Arterial Wall</a>
+            <a class="conn-pill" href="tuberous-sclerosis-complex.html" title="A hereditary cause of kidney lesions: tuberous sclerosis studs the kidneys with angiomyolipomas (fat-and-vessel hamartomas that can haemorrhage) and cysts, a leading source of its morbidity treated with mTOR inhibitors."><span class="rel">connects-to</span>Tuberous Sclerosis Complex</a>
+            <a class="conn-pill" href="vhl-disease.html" title="Inherited renal cysts and cancer: von Hippel-Lindau disease fills the kidneys with cysts and multiple clear cell renal cell carcinomas, the leading cause of death in VHL and a model of hereditary kidney cancer."><span class="rel">connects-to</span>Vhl Disease</a>
+            <a class="conn-pill" href="anca-vasculitis.html" title="Crescentic glomerulonephritis: ANCA-associated vasculitis is a leading cause of rapidly progressive glomerulonephritis, its pauci-immune necrotising injury destroying nephrons within weeks unless promptly treated."><span class="rel">connects-to</span>Anca Vasculitis</a>
+            <a class="conn-pill" href="sickle-cell-disease.html" title="Sickle nephropathy: sickle cell disease injures the kidney through medullary papillary necrosis, impaired urine concentration and a FSGS-like glomerulopathy, a common path to chronic kidney disease."><span class="rel">connects-to</span>Sickle Cell Disease</a>
+            <a class="conn-pill" href="covid-19-disease.html" title="Acute kidney injury and collapsing GN: COVID-19 frequently causes acute kidney injury in severe disease and, in those with high-risk APOL1 variants, a collapsing glomerulopathy."><span class="rel">connects-to</span>Covid 19 Disease</a>
+            <a class="conn-pill" href="atherosclerosis.html" title="Cardiorenal calcification: chronic kidney disease accelerates atherosclerosis through uraemia, calcium-phosphate dysregulation and FGF23, making cardiovascular disease the leading cause of death in renal patients."><span class="rel">connects-to</span>Atherosclerosis</a>
+            <a class="conn-pill" href="sjogrens-syndrome.html" title="Autoimmune tubular disease: Sjögren's syndrome attacks the kidney as tubulointerstitial nephritis and distal renal tubular acidosis, a tubular pattern distinct from the glomerular injury of lupus nephritis."><span class="rel">connects-to</span>Sjogrens Syndrome</a>
+            <a class="conn-pill" href="cardiac-conduction-system.html" title="Potassium and the heartbeat: the kidney's control of potassium ties it to the cardiac conduction system, where the hyperkalaemia of renal failure peaks the T wave and can stop the heart."><span class="rel">connects-to</span>Cardiac Conduction System</a>
+            <a class="conn-pill" href="nitric-oxide.html" title="Renal blood flow: endothelial nitric oxide dilates the afferent arteriole and tunes glomerular pressure, and its loss in renal disease promotes hypertension and progressive injury."><span class="rel">connects-to</span>Nitric Oxide</a>
+            <a class="conn-pill" href="endothelin-1.html" title="Vasoconstrictor counterweight: endothelin-1 constricts renal vessels and drives sodium retention and fibrosis, making endothelin antagonism a target in proteinuric kidney disease."><span class="rel">connects-to</span>Endothelin 1</a>
+            <a class="conn-pill" href="tgf-beta.html" title="Fibrosis master switch: TGF-β drives the tubulointerstitial fibrosis and glomerulosclerosis that are the common final pathway of chronic kidney disease progression."><span class="rel">connects-to</span>Tgf Beta</a>
+            <a class="conn-pill" href="vegf.html" title="Filtration-barrier maintenance: podocyte-derived VEGF sustains the fenestrated glomerular endothelium, which is why anti-VEGF cancer therapy causes proteinuria, hypertension and thrombotic microangiopathy."><span class="rel">connects-to</span>Vegf</a>
+            <a class="conn-pill" href="complement-c3.html" title="Glomerular complement: C3 and the alternative pathway drive immune injury in glomerulonephritis and C3 glomerulopathy, a major mechanism of kidney damage targeted by emerging complement inhibitors."><span class="rel">connects-to</span>Complement C3</a>
+            <a class="conn-pill" href="bnp.html" title="Natriuretic counter-regulation: natriuretic peptides like BNP act on the kidney to promote sodium and water excretion, opposing the renin-angiotensin system in the cardiorenal control of volume."><span class="rel">connects-to</span>Bnp</a>
+            <a class="conn-pill" href="prostaglandins.html" title="Renal hemodynamics: prostaglandins (PGE2, prostacyclin) dilate the afferent arteriole and stimulate renin release to protect renal blood flow under stress, which is why NSAIDs that block them precipitate acute kidney injury."><span class="rel">connects-to</span>Prostaglandins</a>
+            <a class="conn-pill" href="adenosine.html" title="Tubuloglomerular feedback: adenosine released at the macula densa in response to high tubular sodium constricts the afferent arteriole through A1 receptors, the feedback loop that stabilises single-nephron GFR."><span class="rel">connects-to</span>Adenosine</a>
+            <a class="conn-pill" href="bradykinin.html" title="Kallikrein-kinin balance: the renal kallikrein-kinin system generates bradykinin that promotes vasodilation and natriuresis, a counter-regulatory arm to angiotensin II in the kidney's control of blood pressure and volume."><span class="rel">connects-to</span>Bradykinin</a>
+            <a class="conn-pill" href="calcium.html" title="Mineral homeostasis: the kidney is central to calcium balance, filtering it and reabsorbing it under PTH and vitamin-D control through channels like TRPV5 in the distal tubule, linking renal function to bone health and the disturbances of chronic kidney disease."><span class="rel">connects-to</span>Calcium</a>
+            <a class="conn-pill" href="dopamine.html" title="Intrarenal natriuresis: locally produced dopamine acts on proximal-tubule D1 receptors to inhibit sodium reabsorption and promote its excretion, an intrarenal natriuretic system that helps regulate blood pressure independent of the systemic circulation."><span class="rel">connects-to</span>Dopamine</a>
+            <a class="conn-pill" href="glp-1.html" title="Metabolic renoprotection: GLP-1 receptor agonists exert direct renal effects that reduce albuminuria and slow the decline of kidney function in diabetic kidney disease, linking the incretin axis to renal outcomes."><span class="rel">connects-to</span>Glp 1</a>
+            <a class="conn-pill" href="hif-1alpha.html" title="Oxygen sensing: the kidney is the body's oxygen sensor — peritubular cells stabilise HIF in hypoxia to produce the erythropoietin already mapped, the axis exploited by HIF-prolyl-hydroxylase inhibitors to treat renal anaemia."><span class="rel">connects-to</span>Hif 1Alpha</a>
+            <a class="conn-pill" href="wnt-beta-catenin.html" title="Development and fibrosis: Wnt/β-catenin signalling patterns nephron development and, when pathologically reactivated, drives the tubulointerstitial fibrosis that is the final common pathway of chronic kidney disease."><span class="rel">connects-to</span>Wnt Beta Catenin</a>
+            <a class="conn-pill" href="notch.html" title="Nephron patterning: NOTCH signalling directs nephron-progenitor differentiation and podocyte specification during kidney development, and its reactivation contributes to glomerular disease."><span class="rel">connects-to</span>Notch</a>
+            <a class="conn-pill" href="smad4.html" title="Fibrosis effector: TGF-β signalling through SMAD4 (TGF-β mapped) activates myofibroblasts to lay down the tubulointerstitial fibrosis that is the final common pathway of chronic kidney disease."><span class="rel">connects-to</span>Smad4</a>
+            <a class="conn-pill" href="mtor.html" title="Tubular growth and cysts: mTOR governs tubular-cell and podocyte size, and its dysregulation drives the cyst growth of polycystic kidney disease and the hypertrophy of diabetic nephropathy."><span class="rel">connects-to</span>Mtor</a>
+            <a class="conn-pill" href="nfe2l2.html" title="Antioxidant defence: NRF2 protects the kidney against oxidative injury, and pharmacological NRF2 activation (bardoxolone) raises filtration rate in chronic kidney disease."><span class="rel">connects-to</span>Nfe2L2</a>
+            <a class="conn-pill" href="akt.html" title="PI3K-AKT signalling maintains podocyte and tubular-cell survival and mediates the hypertrophic responses central to renal physiology and disease."><span class="rel">connects-to</span>Akt</a>
+            <a class="conn-pill" href="nlrp3-inflammasome.html" title="The NLRP3 inflammasome links metabolic and crystalline injury to the tubulointerstitial inflammation and fibrosis of chronic kidney disease."><span class="rel">connects-to</span>Nlrp3 Inflammasome</a>
+            <a class="conn-pill" href="galectin-3.html" title="Galectin-3 drives renal interstitial fibrosis and is a biomarker of progressive kidney disease, complementing the TGF-β/SMAD4 fibrotic axis already mapped."><span class="rel">connects-to</span>Galectin 3</a>
+            <a class="conn-pill" href="stat3.html" title="IL-6-STAT3 signalling drives tubulointerstitial inflammation and the fibrotic progression shared across chronic kidney diseases of the renal system."><span class="rel">connects-to</span>Stat3</a>
+            <a class="conn-pill" href="cgas-sting.html" title="Cytosolic DNA sensing through cGAS-STING links tubular cell injury to the sterile inflammation of acute kidney injury and progressive renal disease."><span class="rel">connects-to</span>Cgas Sting</a>
+            <a class="conn-pill" href="pdgf.html" title="PDGF signalling drives mesangial and interstitial fibroblast proliferation, a core mechanism of the glomerulosclerosis and fibrosis of the renal system."><span class="rel">connects-to</span>Pdgf</a>
+            <a class="conn-pill" href="foxo.html" title="FOXO transcription factors regulate podocyte and tubular-cell oxidative-stress defense and metabolic homeostasis across the renal system."><span class="rel">connects-to</span>Foxo</a>
+            <a class="conn-pill" href="stat1.html" title="IFN-STAT1 signaling shapes the immune-mediated glomerular and tubulointerstitial inflammation of renal disorders."><span class="rel">connects-to</span>Stat1</a>
+            <a class="conn-pill" href="erk1-2.html" title="ERK-MAPK signaling downstream of growth factors and angiotensin II (PDGF and angiotensin-II already mapped) drives mesangial and tubular proliferation and fibrosis in the renal system."><span class="rel">connects-to</span>Erk1 2</a>
+            <a class="conn-pill" href="gsk-3b.html" title="GSK-3β, within the Wnt/β-catenin signaling that governs nephron development and repair (Wnt already mapped), regulates the tubular and podocyte homeostasis of the renal system."><span class="rel">connects-to</span>Gsk 3B</a>
+            <a class="conn-pill" href="pik3ca.html" title="PI3K (PIK3CA)-AKT signaling (AKT already mapped) governs the growth, survival, and metabolic homeostasis of the renal tubular epithelium."><span class="rel">connects-to</span>Pik3Ca</a>
+            <a class="conn-pill" href="s100a8-a9.html" title="S100A8/A9 alarmins participate in the inflammatory signaling of tubulointerstitial injury in the renal system."><span class="rel">connects-to</span>S100A8 A9</a>
+            <a class="conn-pill" href="ampk.html" title="AMPK integrates the high energy demand of tubular transport, coupling the metabolism of the renal system to its reabsorptive function."><span class="rel">connects-to</span>Ampk</a>
+            <a class="conn-pill" href="nf-kb.html" title="NF-κB inflammatory signaling participates in the tubulointerstitial inflammation and injury responses of the renal system."><span class="rel">connects-to</span>Nf Kb</a>
+            <a class="conn-pill" href="autophagy.html" title="Autophagy maintains the podocyte and tubular-cell homeostasis and stress resilience of the renal system."><span class="rel">connects-to</span>Autophagy</a>
+            <a class="conn-pill" href="src-kinase.html" title="SRC-family kinase signaling participates in the podocyte, tubular-epithelial, and growth-factor responses of the renal system."><span class="rel">connects-to</span>Src Kinase</a>
+            <a class="conn-pill" href="dnmt3a.html" title="DNMT3A-mediated DNA methylation participates in the epigenetic regulation of the nephron development and tubular gene expression of the renal system."><span class="rel">connects-to</span>Dnmt3A</a>
+            <a class="conn-pill" href="ccr5.html" title="CCR5-driven leukocyte recruitment participates in the renal immune surveillance and inflammatory responses of the renal system."><span class="rel">connects-to</span>Ccr5</a>
+            <a class="conn-pill" href="cxcl12.html" title="CXCL12-CXCR4 signaling participates in the renal development and immune-cell trafficking of the renal system."><span class="rel">connects-to</span>Cxcl12</a>
+            <a class="conn-pill" href="il-6.html" title="IL-6 signaling participates in the renal inflammatory responses of the renal system."><span class="rel">connects-to</span>Il 6</a>
+            <a class="conn-pill" href="il-1b.html" title="IL-1β-driven inflammation participates in the renal inflammatory responses of the renal system."><span class="rel">connects-to</span>Il 1B</a>
+            <a class="conn-pill" href="proton.html" title="Acid-base balance: the kidney maintains systemic pH by secreting protons and regenerating bicarbonate in the tubules, and its failure to excrete fixed acid produces the metabolic acidosis characteristic of renal disease."><span class="rel">connects-to</span>Proton</a>
+            <a class="conn-pill" href="insulin.html" title="Metabolic role: the kidney clears insulin and contributes to gluconeogenesis, so renal failure both prolongs insulin action, risking hypoglycaemia, and induces the insulin resistance that accompanies chronic kidney disease."><span class="rel">connects-to</span>Insulin</a>
+            <a class="conn-pill" href="hepcidin.html" title="Renal anaemia: the kidney produces erythropoietin (already mapped) and its disease raises hepcidin through inflammation and reduced clearance, restricting iron availability and driving the anaemia of chronic kidney disease."><span class="rel">connects-to</span>Hepcidin</a>
+            <a class="conn-pill" href="smooth-muscle-cell.html" title="Vascular tone control: smooth muscle in the afferent and efferent arterioles and the mesangium sets glomerular filtration pressure under RAAS and sympathetic control (angiotensin II already mapped), the microvascular regulation central to renal function."><span class="rel">connects-to</span>Smooth Muscle Cell</a>
+            <a class="conn-pill" href="macrophage.html" title="Interstitial inflammation: infiltrating macrophages drive the tubulointerstitial inflammation and fibrosis (TGF-beta already mapped) that determine progression of chronic kidney disease, a key immune contributor to renal scarring."><span class="rel">connects-to</span>Macrophage</a>
+            <a class="conn-pill" href="hemoglobin.html" title="Renal anaemia: falling erythropoietin (already mapped) production by the diseased kidney lowers haemoglobin, the renal anaemia treated with erythropoiesis-stimulating agents and, more recently, HIF stabilisers."><span class="rel">connects-to</span>Hemoglobin</a>
+            <a class="conn-pill" href="xanthine-oxidase.html" title="Urate handling: the kidney excretes most of the body's uric acid produced by xanthine oxidase, and impaired renal excretion causes hyperuricaemia and gout, while urate crystals and stones in turn injure the kidney."><span class="rel">connects-to</span>Xanthine Oxidase</a>
+            <a class="conn-pill" href="iron.html" title="Iron balance and anaemia: the kidney's failing erythropoietin (already mapped) and the raised hepcidin (already mapped) of chronic kidney disease disturb iron availability, producing an iron-restricted renal anaemia managed with iron and erythropoiesis-stimulating agents."><span class="rel">connects-to</span>Iron</a>
+            <a class="conn-pill" href="tnf-alpha.html" title="Renal inflammation: TNF and the inflammatory cytokines (IL-6 and IL-1 already mapped) drive the interstitial inflammation and fibrosis (TGF-beta already mapped) of progressive kidney disease, a target of anti-inflammatory approaches to slow renal decline."><span class="rel">connects-to</span>Tnf Alpha</a>
+            <a class="conn-pill" href="chloride.html" title="Chloride transport: chloride is co-transported with sodium (already mapped) by the NKCC2 and NCC transporters that loop and thiazide diuretics block, and its handling underlies the kidney's control of volume and acid-base balance."><span class="rel">connects-to</span>Chloride</a>
+            <a class="conn-pill" href="magnesium.html" title="Magnesium handling: the kidney is the principal regulator of magnesium, reabsorbing it in the loop and distal tubule, and renal wasting (as with loop diuretics or Gitelman syndrome) causes the hypomagnesaemia of renal disease."><span class="rel">connects-to</span>Magnesium</a>
+            <a class="conn-pill" href="adrenal-gland.html" title="The adrenal-renal axis: the adrenal gland's aldosterone (already mapped) acts on the distal nephron to reabsorb sodium and excrete potassium (already mapped), closing the renin-angiotensin-aldosterone loop that the kidney initiates."><span class="rel">connects-to</span>Adrenal Gland</a>
+            <a class="conn-pill" href="il-4.html" title="Type-2 repair and fibrosis: IL-4 drives the M2 macrophages (already mapped) and the type-2 immunity involved in the renal repair and, when dysregulated, the interstitial fibrosis (TGF-β already mapped) of chronic kidney disease."><span class="rel">connects-to</span>Il 4</a>
+            <a class="conn-pill" href="il-13.html" title="Profibrotic type-2 cytokine: IL-13, with IL-4 (already mapped), is a profibrotic type-2 cytokine that contributes to the renal interstitial fibrosis (TGF-β already mapped) driving the progression of chronic kidney disease."><span class="rel">connects-to</span>Il 13</a>
+            <a class="conn-pill" href="leptin.html" title="Renal adipokine clearance: leptin is cleared by the renal system and accumulates in renal failure, contributing to the cachexia, sympathetic activation and cardiovascular risk of chronic kidney disease."><span class="rel">connects-to</span>Leptin</a>
+            <a class="conn-pill" href="adiponectin.html" title="Uraemic adipokine: adiponectin, with leptin (already mapped), is cleared by and accumulates in the renal failure, part of the uraemic metabolic-cardiovascular milieu of the renal system."><span class="rel">connects-to</span>Adiponectin</a>
+            <a class="conn-pill" href="resistin.html" title="Uraemic inflammatory adipokine: resistin, with leptin and adiponectin (already mapped), accumulates in the renal failure and contributes to the uraemic inflammatory-metabolic milieu of the renal system."><span class="rel">connects-to</span>Resistin</a>
+            <a class="conn-pill" href="t-helper-cell.html" title="Immune nephritis: the CD4 T-helper cells drive the immune glomerular and tubulointerstitial nephritis of the renal system, mediating the immune kidney injury."><span class="rel">connects-to</span>T Helper Cell</a>
+            <a class="conn-pill" href="b-cell.html" title="Humoral nephritis: the B cells, with the T-helper cells (already mapped), drive the autoantibody and immune-complex glomerulonephritis of the renal system, the rituximab (anti-CD20) target."><span class="rel">connects-to</span>B Cell</a>
+            <a class="conn-pill" href="plasma-cell.html" title="Autoantibody plasma cells: the plasma cells secrete the autoantibodies (anti-GBM, immune-complex) that deposit in the glomerulus and drive the immune kidney injury of the renal system."><span class="rel">connects-to</span>Plasma Cell</a>
+            <a class="conn-pill" href="regulatory-t-cell.html" title="Renal tolerance: the regulatory T cells restrain the immune nephritis (T-helper cells already mapped) and maintain the tolerance of the renal system."><span class="rel">connects-to</span>Regulatory T Cell</a>
+            <a class="conn-pill" href="ifn-gamma.html" title="Th1 nephritis: the IFN-γ of the infiltrating T cells is the type-II interferon arm driving the crescentic and lupus nephritides of the renal system."><span class="rel">connects-to</span>Ifn Gamma</a>
+            <a class="conn-pill" href="il-12.html" title="Th1 polarisation: IL-12 polarises the Th1 (IFN-γ already mapped) arm of the immune nephritis of the renal system."><span class="rel">connects-to</span>Il 12</a>
+            <a class="conn-pill" href="il-17a.html" title="Th17 nephritis: IL-17A drives the Th17 arm of the ANCA-associated and crescentic glomerulonephritides of the renal system."><span class="rel">connects-to</span>Il 17A</a>
+            <a class="conn-pill" href="il-23.html" title="Th17 axis: IL-23 sustains the Th17 (IL-17 already mapped) arm of the crescentic and ANCA-associated glomerulonephritides of the renal system."><span class="rel">connects-to</span>Il 23</a>
+            <a class="conn-pill" href="il-33.html" title="Epithelial alarmin: IL-33, released by the injured tubular and endothelial cells, activates the ILC2s and shapes the type-2 (IL-4 and IL-13 already mapped) response and the fibrosis of the renal system."><span class="rel">connects-to</span>Il 33</a>
+            <a class="conn-pill" href="ige.html" title="Type-2 arm: IgE, with the type-2 cytokines (IL-4 and IL-13 already mapped), reflects the type-2 immune dimension (the allergic interstitial nephritis and minimal-change disease) of the renal system."><span class="rel">connects-to</span>Ige</a>
+            <a class="conn-pill" href="complement-c5.html" title="Terminal complement: the complement C5 and its C5a (with C3 already mapped) generate the membrane-attack complex central to the membranous nephropathy and the complement-mediated glomerular injury of the renal system."><span class="rel">connects-to</span>Complement C5</a>
+            <a class="conn-pill" href="c5ar1.html" title="C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the myeloid recruitment of the glomerulonephritis and the ANCA vasculitis of the renal system."><span class="rel">connects-to</span>C5Ar1</a>
+            <a class="conn-pill" href="factor-h.html" title="Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose dysregulation causes the C3 glomerulopathy and atypical HUS of the renal system."><span class="rel">connects-to</span>Factor H</a>
+            <a class="conn-pill" href="tslp.html" title="Tubulo-epithelial alarmin: TSLP, released from the injured tubular and pelvic urothelium under inflammatory and ischaemic stress, activates mast cells (already mapped) and dendritic cells (already mapped), amplifying the innate immune response of the renal system."><span class="rel">connects-to</span>Tslp</a>
+            <a class="conn-pill" href="c1-esterase-inhibitor.html" title="Complement/kinin gate: C1-esterase inhibitor limits classical complement (C3, C5 and C5aR1 already mapped) and contact-kinin (bradykinin already mapped) over-activation in the inflamed glomerulus and tubulointerstitium, moderating complement-mediated injury of the renal system."><span class="rel">connects-to</span>C1 Esterase Inhibitor</a>
+            <a class="conn-pill" href="histamine.html" title="Mast-cell mediator: histamine, released from the peritubular mast cells (already mapped) under allergic and inflammatory stimuli, modulates vascular permeability and contributes to the allergic interstitial nephritis and minimal-change disease of the renal system."><span class="rel">connects-to</span>Histamine</a>
           </div>
         </div>
 
-        <!-- REFERENCES -->
         <div class="detail-section">
-          <h3>References</h3>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li><a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener noreferrer">Hall JE. Guyton and Hall Textbook of Medical Physiology. 14th ed. Elsevier; 2021. Ch. 26–32 — Urine Formation by the Kidneys.</a></li>
-            <li><a href="https://doi.org/10.1038/nrneph.2017.63" target="_blank" rel="noopener noreferrer">Vanholder R, et al. Reducing the costs of chronic kidney disease while delivering quality health care: a call to action. Nat Rev Nephrol. 2017;13(7):393–409.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/28479604/" target="_blank" rel="noopener noreferrer">PubMed 28479604</a></li>
-            <li><a href="https://kdigo.org/guidelines/ckd-evaluation-and-management/" target="_blank" rel="noopener noreferrer">KDIGO CKD Work Group. KDIGO 2012 Clinical Practice Guideline for the Evaluation and Management of CKD. Kidney Int Suppl. 2013;3(1):1–150.</a></li>
-            <li><a href="https://openstax.org/books/anatomy-and-physiology-2e/pages/25-introduction" target="_blank" rel="noopener noreferrer">OpenStax. Anatomy &amp; Physiology 2e, Ch. 25: The Urinary System. OpenStax; 2022.</a></li>
+            <li><a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener noreferrer">Hall JE. Guyton and Hall Textbook of Medical Physiology. 14th ed. Elsevier; 2021. Ch. 26-32.</a></li>
+            <li><a href="https://doi.org/10.1038/nrneph.2017.63" target="_blank" rel="noopener noreferrer">Vanholder R, Annemans L, Brown E, et al. Reducing the costs of chronic kidney disease while delivering quality health care: a call to action. Nat Rev Nephrol. 2017;13(7):393-409.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/28479604/" target="_blank" rel="noopener noreferrer">PubMed 28479604</a></li>
+            <li><a href="https://kdigo.org/guidelines/ckd-evaluation-and-management/" target="_blank" rel="noopener noreferrer">Kidney Disease: Improving Global Outcomes (KDIGO) CKD Work Group. KDIGO 2012 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease. Kidney Int Suppl. 2013;3(1):1-150.</a></li>
+            <li><a href="https://openstax.org/books/anatomy-and-physiology-2e/pages/25-introduction" target="_blank" rel="noopener noreferrer">OpenStax. Anatomy &amp; Physiology 2e, Ch. 25: The Urinary System.</a></li>
           </ul>
         </div>
 
@@ -329,8 +343,8 @@
       <a href="medicine.html">Medicine</a>
       <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; Open source &middot; <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a> &middot; bpupadhyaya@gmail.com</p>
-    <p class="footer-meta" style="margin-top:0.6rem; font-style:italic;">This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
   <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
