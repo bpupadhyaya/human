@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Blood-loss/tumour iron: transferrin, the iron carrier, reflects the iron-deficiency anaemia of the gastric blood loss and the iron demand of the CDH1-mutant (already mapped) HDGC tumours."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-HDGC axis: TSLP, from the CDH1-mutant (already mapped) gastric epithelium and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2 immunosuppressive microenvironment of HDGC signet-ring-cell tumours."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-HDGC axis: bradykinin, via B1/B2 receptors on HDGC tumour endothelium (already mapped) and mast cells (already mapped), augments vascular permeability and the inflammatory milieu of the CDH1-deficient (already mapped) HDGC gastric stroma."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "EPO-HDGC axis: erythropoietin, induced by the HIF-1α (already mapped) hypoxia and iron-deficiency anaemia of HDGC, activates the EPOR on CDH1-mutant (already mapped) tumour cells and modulates macrophage (already mapped) polarisation in the HDGC microenvironment."
 ---
 
 # Hereditary Diffuse Gastric Cancer
@@ -747,6 +756,9 @@ Testing for CDH1 (and CTNNA1) is indicated in any of the following:
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 and C5aR1 already mapped) contribute to the inflammatory dimension of the desmoplastic HDGC tumour microenvironment.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the HDGC tumour cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), tempering the complement attack within the tumour stroma.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Blood-loss/tumour iron: transferrin, the iron carrier, reflects the iron-deficiency anaemia of the gastric blood loss and the iron demand of the CDH1-mutant (already mapped) HDGC tumours.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-HDGC axis: TSLP, from the CDH1-mutant (already mapped) gastric epithelium and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2 immunosuppressive microenvironment of HDGC signet-ring-cell tumours.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-HDGC axis: bradykinin, via B1/B2 receptors on HDGC tumour endothelium (already mapped) and mast cells (already mapped), augments vascular permeability and the inflammatory milieu of the CDH1-deficient (already mapped) HDGC gastric stroma.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — EPO-HDGC axis: erythropoietin, induced by the HIF-1α (already mapped) hypoxia and iron-deficiency anaemia of HDGC, activates the EPOR on CDH1-mutant (already mapped) tumour cells and modulates macrophage (already mapped) polarisation in the HDGC microenvironment.
 
 [^van-der-post-2015-hdgc-guidelines]: van der Post RS, Vogelaar IP, Carneiro F, et al. Hereditary diffuse gastric cancer: updated clinical guidelines with an emphasis on germline CDH1 mutation carriers. *J Med Genet.* 2015;52(6):361-374. [doi:10.1136/jmedgenet-2015-103094](https://doi.org/10.1136/jmedgenet-2015-103094) · [PubMed 25979631](https://pubmed.ncbi.nlm.nih.gov/25979631/)
 [^hansford-2015-hdgc]: Hansford S, Kaurah P, Li-Chang H, et al. Hereditary Diffuse Gastric Cancer Syndrome: CDH1 Mutations and Beyond. *JAMA Oncol.* 2015;1(1):23-32. [doi:10.1001/jamaoncol.2014.168](https://doi.org/10.1001/jamaoncol.2014.168) · [PubMed 26182300](https://pubmed.ncbi.nlm.nih.gov/26182300/)

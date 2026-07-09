@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Pancreatic fibrosis: periostin, a matricellular mediator, is part of the stellate-cell-driven fibrotic remodelling (with collagen and osteopontin already mapped) of the chronic pancreatitis of hereditary pancreatitis."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-HP axis: TSLP, from the PRSS1/SPINK1-mutant (already mapped) pancreatic ductal epithelium and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the inflammatory immune response of hereditary pancreatitis."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "EPO-HP axis: erythropoietin, induced by the HIF-1α (already mapped) hypoxia of the fibrotic pancreatic tissue, modulates macrophage (already mapped) polarisation and erythroid response to the anaemia of chronic inflammation in hereditary pancreatitis."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell histamine: histamine, released by the activated mast cells (already mapped) in the inflamed pancreas, augments acinar-cell secretion, vascular permeability, and the acute-on-chronic inflammatory flares of hereditary pancreatitis."
 ---
 
 # Hereditary Pancreatitis
@@ -783,6 +792,9 @@ cross_links:
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the acinar inflammation of the recurrent pancreatitis of hereditary pancreatitis.
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Protease/contact regulation: the C1-esterase inhibitor regulates the classical complement and the contact-kinin (bradykinin already mapped) systems activated by the premature trypsin (PRSS1 already mapped) autoactivation of hereditary pancreatitis.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Pancreatic fibrosis: periostin, a matricellular mediator, is part of the stellate-cell-driven fibrotic remodelling (with collagen and osteopontin already mapped) of the chronic pancreatitis of hereditary pancreatitis.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-HP axis: TSLP, from the PRSS1/SPINK1-mutant (already mapped) pancreatic ductal epithelium and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the inflammatory immune response of hereditary pancreatitis.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — EPO-HP axis: erythropoietin, induced by the HIF-1α (already mapped) hypoxia of the fibrotic pancreatic tissue, modulates macrophage (already mapped) polarisation and erythroid response to the anaemia of chronic inflammation in hereditary pancreatitis.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell histamine: histamine, released by the activated mast cells (already mapped) in the inflamed pancreas, augments acinar-cell secretion, vascular permeability, and the acute-on-chronic inflammatory flares of hereditary pancreatitis.
 
 [^whitcomb-1996-prss1]: Whitcomb DC, Gorry MC, Preston RA, et al. Hereditary pancreatitis is caused by a mutation in the cationic trypsinogen gene. *Nat Genet.* 1996;14(2):141-145. [doi:10.1038/ng1096-141](https://doi.org/10.1038/ng1096-141) · [PubMed 8841182](https://pubmed.ncbi.nlm.nih.gov/8841182/)
 [^lowenfels-2001-hp-pdac]: Lowenfels AB, Maisonneuve P, DiMagno EP, et al. Hereditary pancreatitis and the risk of pancreatic cancer. *J Natl Cancer Inst.* 2001;93(1):26-31. [doi:10.1093/jnci/93.1.26](https://doi.org/10.1093/jnci/93.1.26) · [PubMed 11136838](https://pubmed.ncbi.nlm.nih.gov/11136838/)
