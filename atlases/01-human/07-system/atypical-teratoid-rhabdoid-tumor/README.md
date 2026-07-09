@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/factor-h
     relation: connects-to
     note: "Complement evasion: the tumour cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), tempering the complement attack within the atypical teratoid/rhabdoid tumour."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-TME axis: TSLP, from brain stromal cells and barrier epithelium, primes dendritic cells (already mapped) and amplifies the Th2/Treg imbalance of the immunosuppressive tumour microenvironment of atypical teratoid/rhabdoid tumour."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-tumour axis: bradykinin, via B1/B2 receptors on tumour endothelium (already mapped) and mast cells (already mapped), amplifies the vascular permeability and the inflammatory cytokine milieu of the tumour microenvironment of ATRT."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Survivorship-anaemia axis: erythropoietin supports the management of the anaemia from the craniospinal irradiation and the myelosuppressive chemotherapy in the treatment of atypical teratoid/rhabdoid tumour."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -758,6 +767,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 already mapped) contribute to the inflammatory dimension of the atypical teratoid/rhabdoid tumour microenvironment.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the myeloid (macrophage already mapped) recruitment into the atypical teratoid/rhabdoid tumour microenvironment.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the tumour cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), tempering the complement attack within the atypical teratoid/rhabdoid tumour.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-TME axis: TSLP, from brain stromal cells and barrier epithelium, primes dendritic cells (already mapped) and amplifies the Th2/Treg imbalance of the immunosuppressive tumour microenvironment of atypical teratoid/rhabdoid tumour.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-tumour axis: bradykinin, via B1/B2 receptors on tumour endothelium (already mapped) and mast cells (already mapped), amplifies the vascular permeability and the inflammatory cytokine milieu of the tumour microenvironment of ATRT.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Survivorship-anaemia axis: erythropoietin supports the management of the anaemia from the craniospinal irradiation and the myelosuppressive chemotherapy in the treatment of atypical teratoid/rhabdoid tumour.
 
 ---
 

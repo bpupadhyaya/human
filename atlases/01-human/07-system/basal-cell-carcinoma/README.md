@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Tumour iron: transferrin, the iron carrier, supplies the iron demand of the proliferating basal-cell-carcinoma cells of this sun-exposed cutaneous tumour."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-TME axis: TSLP, from keratinocytes (already mapped) and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2 immunosuppression of the basal-cell-carcinoma tumour microenvironment."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-tumour axis: bradykinin, via B1/B2 receptors on tumour keratinocytes (already mapped) and endothelium (already mapped), amplifies the vascular permeability and the inflammatory milieu of the basal-cell-carcinoma stroma."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Tumour-EPO axis: erythropoietin, via the EPOR on basal-cell-carcinoma keratinocytes (already mapped), modulates the survival, proliferation, and the angiogenic (already mapped) dimension of basal-cell carcinoma."
 ---
 
 # Basal Cell Carcinoma
@@ -761,6 +770,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 and C5aR1 already mapped) contribute to the inflammatory dimension of the basal-cell-carcinoma microenvironment.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the basal-cell-carcinoma cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), tempering the complement attack within the tumour stroma.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Tumour iron: transferrin, the iron carrier, supplies the iron demand of the proliferating basal-cell-carcinoma cells of this sun-exposed cutaneous tumour.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-TME axis: TSLP, from keratinocytes (already mapped) and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2 immunosuppression of the basal-cell-carcinoma tumour microenvironment.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-tumour axis: bradykinin, via B1/B2 receptors on tumour keratinocytes (already mapped) and endothelium (already mapped), amplifies the vascular permeability and the inflammatory milieu of the basal-cell-carcinoma stroma.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Tumour-EPO axis: erythropoietin, via the EPOR on basal-cell-carcinoma keratinocytes (already mapped), modulates the survival, proliferation, and the angiogenic (already mapped) dimension of basal-cell carcinoma.
 
 ---
 
