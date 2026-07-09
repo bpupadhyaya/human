@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Alcoholic iron overload: transferrin (and its carbohydrate-deficient form, a biomarker of chronic use), the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the hepatic iron overload of alcohol use disorder."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-gut axis: TSLP, from gut epithelium (already mapped) under the dysbiosis and the alcohol-induced barrier disruption, primes mast cells (already mapped) and dendritic cells (already mapped) and amplifies the hepatic neuroinflammation of alcohol use disorder."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-hepatic axis: bradykinin, via B1/B2 receptors on Kupffer cells (macrophage already mapped) and hepatic stellate cells, amplifies the portal inflammation and the fibrogenic activation of the alcoholic liver disease of alcohol use disorder."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Contact/complement brake: the C1-esterase inhibitor regulates the classical complement (C3, C5 already mapped) and contact pathways whose activation contributes to the hepatic and neuroinflammatory injury of alcohol use disorder."
 ---
 
 # Alcohol Use Disorder
@@ -831,6 +840,9 @@ Prenatal alcohol exposure → leading preventable cause of intellectual disabili
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 already mapped) contribute to the Kupffer-cell (macrophage already mapped) activation of the alcoholic liver disease of alcohol use disorder.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) links the complement to the hepatic and neuroinflammatory myeloid activation of alcohol use disorder.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Alcoholic iron overload: transferrin (and its carbohydrate-deficient form, a biomarker of chronic use), the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the hepatic iron overload of alcohol use disorder.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-gut axis: TSLP, from gut epithelium (already mapped) under the dysbiosis and the alcohol-induced barrier disruption, primes mast cells (already mapped) and dendritic cells (already mapped) and amplifies the hepatic neuroinflammation of alcohol use disorder.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-hepatic axis: bradykinin, via B1/B2 receptors on Kupffer cells (macrophage already mapped) and hepatic stellate cells, amplifies the portal inflammation and the fibrogenic activation of the alcoholic liver disease of alcohol use disorder.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Contact/complement brake: the C1-esterase inhibitor regulates the classical complement (C3, C5 already mapped) and contact pathways whose activation contributes to the hepatic and neuroinflammatory injury of alcohol use disorder.
 
 [^koob-2013-addiction-neuroscience]: Koob GF, Volkow ND. Neurocircuitry of addiction. *Neuropsychopharmacology.* 2010;35(1):217-238. [doi:10.1038/npp.2009.110](https://doi.org/10.1038/npp.2009.110) · [PubMed 19710631](https://pubmed.ncbi.nlm.nih.gov/19710631/)
 [^anton-2006-combine]: Anton RF, O'Malley SS, Ciraulo DA, et al. Combined pharmacotherapies and behavioral interventions for alcohol dependence: the COMBINE study. *JAMA.* 2006;295(17):2003-2017. [doi:10.1001/jama.295.17.2003](https://doi.org/10.1001/jama.295.17.2003) · [PubMed 16670409](https://pubmed.ncbi.nlm.nih.gov/16670409/)
