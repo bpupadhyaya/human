@@ -490,6 +490,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "CNS iron: transferrin, the iron carrier, reflects the disordered iron handling accompanying the demyelinating and necrotic CNS lesions of neuromyelitis optica."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-permeability axis: bradykinin, generated via the contact system activated by anti-AQP4 IgG (immunoglobulin already mapped) immune complexes, augments blood-brain-barrier permeability and oedema in the NMO lesions of neuromyelitis optica."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Neuroprotective signal: erythropoietin, acting via EPOR on astrocytes (already mapped) and oligodendrocytes (already mapped), promotes CNS repair and limits the necrotic lesion expansion of neuromyelitis optica."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell mediator: histamine, released from the perivascular mast cells (already mapped) recruited to NMO lesions, amplifies blood-brain-barrier disruption and leukocyte infiltration of neuromyelitis optica."
 ---
 
 # NMOSD
@@ -793,6 +802,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway activated by the anti-AQP4 IgG (immunoglobulin already mapped) that drives the C5 (eculizumab target)-mediated astrocyte (already mapped) destruction of neuromyelitis optica.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Neuroinflammation matricellular: osteopontin, elevated in the NMO lesions and CSF, is a matricellular cytokine amplifying the astrocyte (already mapped) and myeloid neuroinflammation of neuromyelitis optica.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — CNS iron: transferrin, the iron carrier, reflects the disordered iron handling accompanying the demyelinating and necrotic CNS lesions of neuromyelitis optica.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-permeability axis: bradykinin, generated via the contact system activated by anti-AQP4 IgG (immunoglobulin already mapped) immune complexes, augments blood-brain-barrier permeability and oedema in the NMO lesions of neuromyelitis optica.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Neuroprotective signal: erythropoietin, acting via EPOR on astrocytes (already mapped) and oligodendrocytes (already mapped), promotes CNS repair and limits the necrotic lesion expansion of neuromyelitis optica.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell mediator: histamine, released from the perivascular mast cells (already mapped) recruited to NMO lesions, amplifies blood-brain-barrier disruption and leukocyte infiltration of neuromyelitis optica.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)
