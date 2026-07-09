@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Haemorrhage/tumour iron: transferrin, the iron carrier, reflects the iron demand of the tumour and the iron loss of the abnormal bleeding of cervical cancer."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-TME axis: TSLP, from cervical epithelium (already mapped) and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2 immunosuppression of the HPV-driven cervical-cancer microenvironment."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-tumour axis: bradykinin, via B1/B2 receptors on cervical endothelium (already mapped) and tumour stromal cells, amplifies the vascular permeability and the inflammatory milieu of the cervical-cancer microenvironment."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Erythropoietic support: erythropoietin supports the management of the chemoradiation-induced anaemia of the combined modality treatment of locally advanced cervical cancer."
 ---
 
 # Cervical Cancer
@@ -762,6 +771,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the cervical-cancer cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), tempering the complement attack within the HPV-driven tumour microenvironment.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Tumour matricellular: osteopontin, produced within the tumour, is a matricellular mediator of the invasion and the myeloid inflammation of the cervical-cancer microenvironment.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Haemorrhage/tumour iron: transferrin, the iron carrier, reflects the iron demand of the tumour and the iron loss of the abnormal bleeding of cervical cancer.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-TME axis: TSLP, from cervical epithelium (already mapped) and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2 immunosuppression of the HPV-driven cervical-cancer microenvironment.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-tumour axis: bradykinin, via B1/B2 receptors on cervical endothelium (already mapped) and tumour stromal cells, amplifies the vascular permeability and the inflammatory milieu of the cervical-cancer microenvironment.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Erythropoietic support: erythropoietin supports the management of the chemoradiation-induced anaemia of the combined modality treatment of locally advanced cervical cancer.
 
 ---
 
