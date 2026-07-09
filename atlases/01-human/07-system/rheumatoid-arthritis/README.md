@@ -481,6 +481,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Chronic-disease iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the anaemia of chronic disease of rheumatoid arthritis."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Synovial kinin: bradykinin, released at the rheumatoid synovium by the tissue-kallikrein cascade activated by inflammatory proteases, amplifies the joint pain and hyperalgesia via B2-receptor signalling on synoviocytes and sensory nerves."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Anaemia of chronic disease: erythropoietin is used to treat the hepcidin-mediated (already mapped) anaemia of chronic inflammation in rheumatoid arthritis, and EPOR on synoviocytes has led to questions about a direct anti-inflammatory EPO effect."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Neuroendocrine autoimmune amplifier: hyperprolactinaemia worsens RA by stimulating B-cell survival and autoantibody (ACPA) production; prolactin is elevated in active disease and correlates with synovitis severity."
 ---
 
 # Rheumatoid Arthritis
@@ -777,6 +786,9 @@ RA patients have:
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose dysregulation on the immune complexes drives the synovial complement activation of rheumatoid arthritis.
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway activated by the ACPA and rheumatoid-factor (immunoglobulin already mapped) immune complexes in the rheumatoid synovium.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Chronic-disease iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the anaemia of chronic disease of rheumatoid arthritis.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Synovial kinin: bradykinin, released at the rheumatoid synovium by the tissue-kallikrein cascade activated by inflammatory proteases, amplifies the joint pain and hyperalgesia via B2-receptor signalling on synoviocytes and sensory nerves.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Anaemia of chronic disease: erythropoietin is used to treat the hepcidin-mediated (already mapped) anaemia of chronic inflammation in rheumatoid arthritis, and EPOR on synoviocytes has led to questions about a direct anti-inflammatory EPO effect.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Neuroendocrine autoimmune amplifier: hyperprolactinaemia worsens RA by stimulating B-cell survival and autoantibody (ACPA) production; prolactin is elevated in active disease and correlates with synovitis severity.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

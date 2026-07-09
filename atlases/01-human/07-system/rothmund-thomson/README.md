@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Complement: the complement C3 activation is part of the innate immune dimension of the immune dysregulation of Rothmund-Thomson syndrome."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Poikiloderma alarmin: TSLP released by the damaged keratinocytes of the RTS poikiloderma activates mast cells and dendritic cells, promoting the type-2 skin inflammation that accompanies the RECQL4-driven photosensitivity and early sun damage."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Osteosarcoma chemotherapy anaemia: the osteosarcoma risk of Rothmund-Thomson syndrome means erythropoietin is frequently used to manage the MAP-chemotherapy anaemia; EPOR expression on the tumour cells has been documented."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Skin-oedema mediator: bradykinin from the kallikrein-kinin system amplifies the oedema and vascular permeability of the inflammatory flares accompanying the acute skin lesions and the photosensitivity reactions of Rothmund-Thomson syndrome."
 ---
 
 # Rothmund-Thomson Syndrome
@@ -764,6 +773,9 @@ The cardinal features of RTS type II are: (1) **poikiloderma** — the defining 
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Innate immunity: the macrophages are part of the innate immune compartment of the immune dysregulation and the poikiloderma of Rothmund-Thomson syndrome.
 - `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Humoral B cells: the B cells, upstream of the plasma cells (already mapped), contribute to the humoral immune dysregulation of Rothmund-Thomson syndrome.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement: the complement C3 activation is part of the innate immune dimension of the immune dysregulation of Rothmund-Thomson syndrome.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Poikiloderma alarmin: TSLP released by the damaged keratinocytes of the RTS poikiloderma activates mast cells and dendritic cells, promoting the type-2 skin inflammation that accompanies the RECQL4-driven photosensitivity and early sun damage.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Osteosarcoma chemotherapy anaemia: the osteosarcoma risk of Rothmund-Thomson syndrome means erythropoietin is frequently used to manage the MAP-chemotherapy anaemia; EPOR expression on the tumour cells has been documented.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Skin-oedema mediator: bradykinin from the kallikrein-kinin system amplifies the oedema and vascular permeability of the inflammatory flares accompanying the acute skin lesions and the photosensitivity reactions of Rothmund-Thomson syndrome.
 
 [^kitao-1999-recql4-rts]: Kitao S, Shimamoto A, Goto M, et al. Mutations in RECQL4 cause a subset of cases of Rothmund-Thomson syndrome. *Nat Genet.* 1999;22(1):82-84. [doi:10.1038/8788](https://doi.org/10.1038/8788) · [PubMed 10319867](https://pubmed.ncbi.nlm.nih.gov/10319867/)
 [^wang-2003-rts-cancer]: Wang LL, Gannavarapu A, Kozinetz CA, et al. Association between osteosarcoma and deleterious mutations in the RECQL4 gene in Rothmund-Thomson syndrome. *J Natl Cancer Inst.* 2003;95(9):669-674. [doi:10.1093/jnci/95.9.669](https://doi.org/10.1093/jnci/95.9.669) · [PubMed 12734318](https://pubmed.ncbi.nlm.nih.gov/12734318/)
