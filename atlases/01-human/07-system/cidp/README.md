@@ -492,6 +492,15 @@ cross_links:
   - target: 01-human/03-molecular/connexin43
     relation: connects-to
     note: "Glial gap junctions: connexin43, a gap-junction protein of the glia, is part of the Schwann-cell coupling and the node-of-Ranvier architecture disrupted in the demyelination of CIDP."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-neuroimmune axis: TSLP, from barrier epithelium and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2/Treg imbalance of the peripheral neuroimmune inflammation of CIDP."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-peripheral nerve axis: bradykinin, via B1/B2 receptors on endoneurial endothelium (already mapped) and mast cells (already mapped), amplifies the blood-nerve-barrier disruption and the inflammatory milieu of the peripheral nerve of CIDP."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Neuroprotective cytokine: erythropoietin, via the EPOR on Schwann cells and peripheral axons, exerts neuroprotective and remyelinating effects that may modulate the demyelination of CIDP."
 ---
 
 # CIDP
@@ -792,6 +801,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Neuroinflammation matricellular: osteopontin, a matricellular cytokine, amplifies the macrophage (already mapped)-mediated demyelinating inflammation of the peripheral nerve in CIDP.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Onion-bulb remodelling: periostin, a matricellular mediator, is part of the fibrotic remodelling and the onion-bulb formation of the chronically demyelinated/remyelinated nerve of CIDP.
 - `connects-to` → **[Connexin43](../../03-molecular/connexin43/README.md)** — Glial gap junctions: connexin43, a gap-junction protein of the glia, is part of the Schwann-cell coupling and the node-of-Ranvier architecture disrupted in the demyelination of CIDP.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-neuroimmune axis: TSLP, from barrier epithelium and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2/Treg imbalance of the peripheral neuroimmune inflammation of CIDP.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-peripheral nerve axis: bradykinin, via B1/B2 receptors on endoneurial endothelium (already mapped) and mast cells (already mapped), amplifies the blood-nerve-barrier disruption and the inflammatory milieu of the peripheral nerve of CIDP.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Neuroprotective cytokine: erythropoietin, via the EPOR on Schwann cells and peripheral axons, exerts neuroprotective and remyelinating effects that may modulate the demyelination of CIDP.
 
 ---
 
