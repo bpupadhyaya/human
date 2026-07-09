@@ -478,6 +478,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Iron deficiency: transferrin, the iron carrier, reflects the iron-deficiency (hepcidin already mapped) that is a common comorbidity of heart failure and a target of the intravenous-iron therapy."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Cardiac alarmin: TSLP, released from cardiac fibroblasts (already mapped) and cardiomyocytes (already mapped) under mechanical stretch and ischaemic stress, activates mast cells (already mapped) and promotes the fibrotic remodelling of heart failure."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement/kinin regulation: C1-esterase inhibitor limits the classical complement (complement C3 and C5aR1 already mapped) and the contact-kinin (bradykinin already mapped) cascades activated by myocardial ischaemia and remodelling of heart failure."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Cardioprotective EPO: erythropoietin, beyond its haematopoietic role, signals through EPOR on cardiomyocytes (already mapped) exerting anti-apoptotic and cardioprotective effects, and supports anaemia correction (hepcidin already mapped) in heart failure."
 ---
 
 # Heart Failure
@@ -704,6 +713,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Myocardial complement: the complement C3 activation contributes to the inflammatory dimension of the myocardial injury and remodelling of heart failure.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid (macrophage already mapped) recruitment into the failing myocardium of heart failure.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Iron deficiency: transferrin, the iron carrier, reflects the iron-deficiency (hepcidin already mapped) that is a common comorbidity of heart failure and a target of the intravenous-iron therapy.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Cardiac alarmin: TSLP, released from cardiac fibroblasts (already mapped) and cardiomyocytes (already mapped) under mechanical stretch and ischaemic stress, activates mast cells (already mapped) and promotes the fibrotic remodelling of heart failure.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement/kinin regulation: C1-esterase inhibitor limits the classical complement (complement C3 and C5aR1 already mapped) and the contact-kinin (bradykinin already mapped) cascades activated by myocardial ischaemia and remodelling of heart failure.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Cardioprotective EPO: erythropoietin, beyond its haematopoietic role, signals through EPOR on cardiomyocytes (already mapped) exerting anti-apoptotic and cardioprotective effects, and supports anaemia correction (hepcidin already mapped) in heart failure.
 
 ## Pathology
 
