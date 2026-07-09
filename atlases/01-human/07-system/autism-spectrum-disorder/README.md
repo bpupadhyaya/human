@@ -490,6 +490,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Neuroimmune interface: the dendritic cells of the CNS-border compartments are part of the neuroimmune interface implicated in the maternal-immune-activation and neuroinflammation of autism spectrum disorder."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-neuroimmune axis: TSLP, from skin (already mapped) and gut (already mapped) barriers, primes dendritic cells (already mapped) and mast cells (already mapped) and amplifies the Th2/Treg (already mapped) imbalance of the maternal-immune-activation of ASD."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-neuroinflammation axis: bradykinin, via the B2R on CNS microglia (already mapped) and neurons (already mapped), amplifies the neuroinflammation and the BBB permeability contributing to the immune-activation dimension of autism spectrum disorder."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Neuroprotective EPO: erythropoietin signals through EpoR on neurons (already mapped) and oligodendrocytes (already mapped), supporting the myelination and the synaptic plasticity (already mapped) implicated in the neurodevelopmental dimension of autism spectrum disorder."
 ---
 
 # Autism Spectrum Disorder
@@ -784,6 +793,9 @@ The neural basis of ASD social deficits involves dysfunction of the **social bra
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the complement-mediated synaptic pruning implicated in autism spectrum disorder.
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway (C1q-initiated) implicated in the aberrant synaptic pruning of autism spectrum disorder.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Neuroimmune interface: the dendritic cells of the CNS-border compartments are part of the neuroimmune interface implicated in the maternal-immune-activation and neuroinflammation of autism spectrum disorder.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-neuroimmune axis: TSLP, from skin (already mapped) and gut (already mapped) barriers, primes dendritic cells (already mapped) and mast cells (already mapped) and amplifies the Th2/Treg (already mapped) imbalance of the maternal-immune-activation of ASD.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-neuroinflammation axis: bradykinin, via the B2R on CNS microglia (already mapped) and neurons (already mapped), amplifies the neuroinflammation and the BBB permeability contributing to the immune-activation dimension of autism spectrum disorder.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Neuroprotective EPO: erythropoietin signals through EpoR on neurons (already mapped) and oligodendrocytes (already mapped), supporting the myelination and the synaptic plasticity (already mapped) implicated in the neurodevelopmental dimension of autism spectrum disorder.
 
 [^maenner-2023-asd-prevalence]: Maenner MJ, Warren Z, Williams AR, et al. Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 2020. *MMWR Surveill Summ.* 2023;72(2):1-14. [doi:10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1) · [PubMed 36952216](https://pubmed.ncbi.nlm.nih.gov/36952216/)
 [^lord-2020-asd-review]: Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum disorder. *Lancet.* 2018;392(10146):508-520. [doi:10.1016/S0140-6736(18)31129-2](https://doi.org/10.1016/S0140-6736(18)31129-2) · [PubMed 30078460](https://pubmed.ncbi.nlm.nih.gov/30078460/)

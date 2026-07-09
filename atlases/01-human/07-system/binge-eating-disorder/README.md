@@ -468,6 +468,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "CNS-border antigen presentation: the dendritic cells of the CNS-border compartments are part of the neuroimmune interface implicated in the low-grade inflammation of binge-eating disorder."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-gut axis: TSLP, from gut epithelium (already mapped) under the dysbiosis and inflammation of binge-eating disorder, primes dendritic cells (already mapped) and mast cells (already mapped), linking the gut-microbiome (already mapped) axis to reward-circuit dysfunction."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-reward axis: bradykinin, via the kallikrein-kinin system activated under the autonomic and metabolic stress of binge-eating disorder, modulates the vascular and the neuroendocrine tone contributing to the binge-purge cycle."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement brake: C1-esterase inhibitor regulates the classical-complement activation (C3 and C5 already mapped) contributing to the low-grade neuroinflammation and the microglial (already mapped) activation of the reward circuitry in binge-eating disorder."
 sources:
   - id: american-psychiatric-2013-bed-dsm5
     type: clinical-guideline
@@ -779,6 +788,9 @@ BED is among the most psychiatrically comorbid of all eating disorders:
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 already mapped) are part of the low-grade complement activation of the neuroinflammation implicated in binge-eating disorder.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) links the complement to the microglial neuroinflammation of the reward-circuit dimension of binge-eating disorder.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — CNS-border antigen presentation: the dendritic cells of the CNS-border compartments are part of the neuroimmune interface implicated in the low-grade inflammation of binge-eating disorder.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-gut axis: TSLP, from gut epithelium (already mapped) under the dysbiosis and inflammation of binge-eating disorder, primes dendritic cells (already mapped) and mast cells (already mapped), linking the gut-microbiome (already mapped) axis to reward-circuit dysfunction.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-reward axis: bradykinin, via the kallikrein-kinin system activated under the autonomic and metabolic stress of binge-eating disorder, modulates the vascular and the neuroendocrine tone contributing to the binge-purge cycle.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement brake: C1-esterase inhibitor regulates the classical-complement activation (C3 and C5 already mapped) contributing to the low-grade neuroinflammation and the microglial (already mapped) activation of the reward circuitry in binge-eating disorder.
 
 [^american-psychiatric-2013-bed-dsm5]: American Psychiatric Association. Binge Eating Disorder (307.51). In: *Diagnostic and Statistical Manual of Mental Disorders, 5th ed.* Arlington, VA: APA; 2013. [doi:10.1176/appi.books.9780890425596](https://doi.org/10.1176/appi.books.9780890425596)
 [^mccallum-2003-bed-review]: McCallum K, Bruton AM. Binge eating disorder: eating disorder or somatic syndrome? *Prim Care Companion J Clin Psychiatry.* 2003;5(Suppl 4):20-25. [PubMed 15213784](https://pubmed.ncbi.nlm.nih.gov/15213784/)
