@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "Innate infiltrate: the NK cells (perforin pathway) are part of the innate immune infiltrate of the inflamed aortic wall of Marfan syndrome."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Fibrillin-deficient stroma alarmin: TSLP in the fibrillin-1-deficient (FBN1 already mapped) connective tissue promotes fibro-inflammatory stromal changes and mast-cell activation of Marfan syndrome; mast-cell-derived TSLP amplifies TGF-β (already mapped) aortopathy."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Aortic vasodilation: bradykinin (B2 receptor signalling) mediates vasodilation in the Marfan aortic wall; kinin-kallikrein system activation contributes to the accelerated aortic root dilatation and the angioedema-like episodes in vascular Marfan syndrome."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Aortic complement regulation: factor H controls the alternative complement pathway in the Marfan aortic adventitia; complement dysregulation amplifies the TGF-β (already mapped) and matrix-metalloproteinase-driven aortic wall inflammation and dilatation in Marfan syndrome."
 ---
 
 # Marfan Syndrome
@@ -766,6 +775,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid recruitment into the inflamed, medial-degenerating aortic wall of Marfan syndrome.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its activation (with C3 already mapped) contribute to the inflammatory injury of the aortic wall of Marfan syndrome.
 - `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Innate infiltrate: the NK cells (perforin pathway) are part of the innate immune infiltrate of the inflamed aortic wall of Marfan syndrome.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Fibrillin-deficient stroma alarmin: TSLP in the fibrillin-1-deficient (FBN1 already mapped) connective tissue promotes fibro-inflammatory stromal changes and mast-cell activation of Marfan syndrome; mast-cell-derived TSLP amplifies TGF-β (already mapped) aortopathy.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Aortic vasodilation: bradykinin (B2 receptor signalling) mediates vasodilation in the Marfan aortic wall; kinin-kallikrein system activation contributes to the accelerated aortic root dilatation and the angioedema-like episodes in vascular Marfan syndrome.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Aortic complement regulation: factor H controls the alternative complement pathway in the Marfan aortic adventitia; complement dysregulation amplifies the TGF-β (already mapped) and matrix-metalloproteinase-driven aortic wall inflammation and dilatation in Marfan syndrome.
 
 ---
 
