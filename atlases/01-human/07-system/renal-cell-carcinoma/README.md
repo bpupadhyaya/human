@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Tumour iron: transferrin, the iron carrier, supplies the iron demand of the pseudohypoxic (HIF-1α and VHL already mapped) iron-avid renal cell carcinoma."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Tumour microenvironment alarmin: TSLP released by RCC cells and the tumour stroma promotes mast-cell and DC-mediated immunosuppression, contributing to the angiogenic (VEGF already mapped) and immunologically cold microenvironment of renal cell carcinoma."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell histamine: mast cells of the RCC stroma secrete histamine, promoting VEGF-driven angiogenesis and dampening the NK-cell and CD8-T-cell cytotoxicity on which immunotherapy response depends in renal cell carcinoma."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "ECM invasion bridge: periostin, upregulated in RCC stroma and the pseudohypoxic (HIF-1α and VHL already mapped) tumour bed, promotes RCC cell invasion, bone metastasis formation and resistance to sunitinib-class therapies."
 ---
 
 # Renal Cell Carcinoma
@@ -746,6 +755,9 @@ Kidney → primary site of EPO production under hypoxia; VHL-intact renal inters
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Cancer-associated fibroblasts: the fibroblasts of the stroma remodel the extracellular matrix and shape the immune microenvironment of renal cell carcinoma.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Tumour complement: the complement C3, produced within the tumour, contributes to the inflammatory and immunosuppressive dimension of the renal-cell-carcinoma microenvironment.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Tumour iron: transferrin, the iron carrier, supplies the iron demand of the pseudohypoxic (HIF-1α and VHL already mapped) iron-avid renal cell carcinoma.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Tumour microenvironment alarmin: TSLP released by RCC cells and the tumour stroma promotes mast-cell and DC-mediated immunosuppression, contributing to the angiogenic (VEGF already mapped) and immunologically cold microenvironment of renal cell carcinoma.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell histamine: mast cells of the RCC stroma secrete histamine, promoting VEGF-driven angiogenesis and dampening the NK-cell and CD8-T-cell cytotoxicity on which immunotherapy response depends in renal cell carcinoma.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — ECM invasion bridge: periostin, upregulated in RCC stroma and the pseudohypoxic (HIF-1α and VHL already mapped) tumour bed, promotes RCC cell invasion, bone metastasis formation and resistance to sunitinib-class therapies.
 
 [^motzer-2018-checkmate214]: Motzer RJ, Tannir NM, McDermott DF, et al. Nivolumab plus ipilimumab versus sunitinib in advanced renal-cell carcinoma. *N Engl J Med.* 2018;378(14):1277-1290. [doi:10.1056/NEJMoa1712126](https://doi.org/10.1056/NEJMoa1712126) · [PubMed 29562145](https://pubmed.ncbi.nlm.nih.gov/29562145/)
 [^rini-2019-keynote426]: Rini BI, Plimack ER, Stus V, et al. Pembrolizumab plus axitinib versus sunitinib for advanced renal-cell carcinoma. *N Engl J Med.* 2019;380(12):1116-1127. [doi:10.1056/NEJMoa1816714](https://doi.org/10.1056/NEJMoa1816714) · [PubMed 30779529](https://pubmed.ncbi.nlm.nih.gov/30779529/)

@@ -473,6 +473,15 @@ cross_links:
   - target: 01-human/04-cellular/mast-cell
     relation: connects-to
     note: "Uterine mast cells: the mast cells of the uterus and the male tract contribute to the implantation, the tissue remodelling and the parturition of the reproductive system."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Implantation immune bias: TSLP released by the decidual stroma promotes the tolerogenic Th2 and regulatory-T-cell (already mapped) environment required for embryo implantation and the maintenance of maternal-fetal tolerance."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Gonadal and gestational EPO: erythropoietin supports spermatogenesis in the testis and increases 2-3-fold in pregnancy to meet the expanded red-cell demand, with EPOR expressed on trophoblast and placental cells."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Parturition kinin: bradykinin, released by uterine mast cells (already mapped) and kallikrein activation at term, amplifies prostaglandin-driven myometrial contractions and the cervical ripening of labour onset in the reproductive system."
 ---
 
 # Reproductive System
@@ -740,6 +749,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Placental complement: the complement C3 activation, tightly restrained by the placental complement regulators, is central to the maternal-fetal tolerance and, when dysregulated, the pre-eclampsia of the reproductive system.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Decidual antigen presentation: the tolerogenic dendritic cells of the decidua present the fetal antigen and, with the regulatory T cells (already mapped), maintain the maternal-fetal tolerance of the reproductive system.
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Uterine mast cells: the mast cells of the uterus and the male tract contribute to the implantation, the tissue remodelling and the parturition of the reproductive system.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Implantation immune bias: TSLP released by the decidual stroma promotes the tolerogenic Th2 and regulatory-T-cell (already mapped) environment required for embryo implantation and the maintenance of maternal-fetal tolerance.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Gonadal and gestational EPO: erythropoietin supports spermatogenesis in the testis and increases 2-3-fold in pregnancy to meet the expanded red-cell demand, with EPOR expressed on trophoblast and placental cells.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Parturition kinin: bradykinin, released by uterine mast cells (already mapped) and kallikrein activation at term, amplifies prostaglandin-driven myometrial contractions and the cervical ripening of labour onset in the reproductive system.
 
 ## Pathology
 
