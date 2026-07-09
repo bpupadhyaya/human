@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Dysmetabolic iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the dysmetabolic hepatic iron overload that aggravates the oxidative injury and fibrosis of NASH."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin gate: TSLP, released from injured hepatocytes and cholangiocytes (already mapped) in NASH, activates the mast cells (already mapped) and dendritic cells (already mapped) that sustain the Type-2-skewed hepatic inflammation driving fibrosis of NASH."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-oedema axis: bradykinin, generated via the kallikrein-kinin system in inflamed liver tissue, increases hepatic sinusoidal permeability and amplifies the macrophage (already mapped) and neutrophil (already mapped) recruitment of NASH."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement/kinin gate: C1-esterase inhibitor limits classical complement (C3, C5 and C5aR1 already mapped) and contact-kinin (bradykinin already mapped) over-activation in the inflamed hepatic parenchyma, moderating the immune-mediated hepatocyte injury of NASH."
 ---
 
 # NASH
@@ -728,6 +737,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the Kupffer-cell (macrophage already mapped) and myeloid activation of the lobular inflammation of NASH.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the complement-driven inflammation of NASH.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Dysmetabolic iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the dysmetabolic hepatic iron overload that aggravates the oxidative injury and fibrosis of NASH.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin gate: TSLP, released from injured hepatocytes and cholangiocytes (already mapped) in NASH, activates the mast cells (already mapped) and dendritic cells (already mapped) that sustain the Type-2-skewed hepatic inflammation driving fibrosis of NASH.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-oedema axis: bradykinin, generated via the kallikrein-kinin system in inflamed liver tissue, increases hepatic sinusoidal permeability and amplifies the macrophage (already mapped) and neutrophil (already mapped) recruitment of NASH.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement/kinin gate: C1-esterase inhibitor limits classical complement (C3, C5 and C5aR1 already mapped) and contact-kinin (bradykinin already mapped) over-activation in the inflamed hepatic parenchyma, moderating the immune-mediated hepatocyte injury of NASH.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

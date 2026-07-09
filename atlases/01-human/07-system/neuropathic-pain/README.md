@@ -465,6 +465,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Nerve antigen presentation: the dendritic cells of the injured nerve and CNS-border compartments present antigen to the T cells (already mapped) in the neuroinflammation of neuropathic pain."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Neuro-epithelial alarmin: TSLP, released from keratinocytes (skin already mapped) and glial cells under neuropathic insult, activates mast cells (already mapped) and dendritic cells (already mapped), amplifying the peripheral sensitisation of neuropathic pain."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement/kinin gate: C1-esterase inhibitor limits classical complement (C3, C5 and C5aR1 already mapped) and contact-kinin activation in the injured nerve microenvironment, restraining complement-driven neuroinflammation of neuropathic pain."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Neuroprotective cytokine: erythropoietin, acting via EPOR on neurons and Schwann cells (peripheral nerve already mapped), promotes axonal survival and remyelination and attenuates the neuro-inflammatory sensitisation of neuropathic pain."
 sources:
   - id: jensen-2011-neuropathic-pain-review
     type: peer-reviewed
@@ -777,6 +786,9 @@ Chronic neuropathic pain carries significant psychological burden:
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 and C5aR1 already mapped) are generated after nerve injury and drive the membrane-attack and the neuroinflammation that sensitises the nociceptors of neuropathic pain.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the post-nerve-injury complement activation of neuropathic pain.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Nerve antigen presentation: the dendritic cells of the injured nerve and CNS-border compartments present antigen to the T cells (already mapped) in the neuroinflammation of neuropathic pain.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Neuro-epithelial alarmin: TSLP, released from keratinocytes (skin already mapped) and glial cells under neuropathic insult, activates mast cells (already mapped) and dendritic cells (already mapped), amplifying the peripheral sensitisation of neuropathic pain.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement/kinin gate: C1-esterase inhibitor limits classical complement (C3, C5 and C5aR1 already mapped) and contact-kinin activation in the injured nerve microenvironment, restraining complement-driven neuroinflammation of neuropathic pain.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Neuroprotective cytokine: erythropoietin, acting via EPOR on neurons and Schwann cells (peripheral nerve already mapped), promotes axonal survival and remyelination and attenuates the neuro-inflammatory sensitisation of neuropathic pain.
 
 [^jensen-2011-neuropathic-pain-review]: Jensen TS, Baron R, Haanpää M, et al. A new definition of neuropathic pain. *Pain.* 2011;152(10):2204-2205. [doi:10.1016/j.pain.2011.06.017](https://doi.org/10.1016/j.pain.2011.06.017) · [PubMed 21764514](https://pubmed.ncbi.nlm.nih.gov/21764514/)
 [^dworkin-2010-neuropathic-pain-treatment]: Dworkin RH, O'Connor AB, Audette J, et al. Recommendations for the pharmacological management of neuropathic pain. *Mayo Clin Proc.* 2010;85(3 Suppl):S3-14. [doi:10.4065/mcp.2009.0649](https://doi.org/10.4065/mcp.2009.0649) · [PubMed 20194146](https://pubmed.ncbi.nlm.nih.gov/20194146/)
