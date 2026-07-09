@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Complement: the complement C3 activation is part of the innate immune dimension and the lymphatic-dysplasia-associated inflammation of Noonan syndrome."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "HCM ECM: periostin, downstream of the RAS-MAPK (already mapped) pathway and TGF-β (already mapped), drives the myocardial collagen deposition and cardiac fibrosis of the hypertrophic cardiomyopathy that is the most common cardiac defect of Noonan syndrome."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "JMML and post-cardiac treatment anaemia: erythropoietin supports erythropoiesis in the juvenile myelomonocytic leukaemia (JMML, all already mapped) and the haematological anaemia arising from the cardiac surgery and chemotherapy used in Noonan syndrome management."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell vascular permeability: histamine from mast cells (already mapped) contributes to the lymphatic and vascular permeability dysfunction of Noonan syndrome; mast-cell histamine also promotes the cardiac infiltration that amplifies the HCM fibrosis of Noonan."
 ---
 
 # Noonan Syndrome
@@ -765,6 +774,9 @@ NS is characterized by four cardinal features: **(1) short stature** (below 3rd 
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines of the immune-inflammatory dimension of Noonan syndrome.
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Mast cells: the mast cells (via the KIT-adjacent RAS/MAPK signalling, ERK already mapped) contribute to the type-2 (IgE already mapped) immune dimension of Noonan syndrome.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement: the complement C3 activation is part of the innate immune dimension and the lymphatic-dysplasia-associated inflammation of Noonan syndrome.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — HCM ECM: periostin, downstream of the RAS-MAPK (already mapped) pathway and TGF-β (already mapped), drives the myocardial collagen deposition and cardiac fibrosis of the hypertrophic cardiomyopathy that is the most common cardiac defect of Noonan syndrome.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — JMML and post-cardiac treatment anaemia: erythropoietin supports erythropoiesis in the juvenile myelomonocytic leukaemia (JMML, all already mapped) and the haematological anaemia arising from the cardiac surgery and chemotherapy used in Noonan syndrome management.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell vascular permeability: histamine from mast cells (already mapped) contributes to the lymphatic and vascular permeability dysfunction of Noonan syndrome; mast-cell histamine also promotes the cardiac infiltration that amplifies the HCM fibrosis of Noonan.
 
 [^tartaglia-2001-ptpn11-noonan]: Tartaglia M, Mehler EL, Goldberg R, et al. Mutations in PTPN11, encoding the protein tyrosine phosphatase SHP-2, cause Noonan syndrome. *Nat Genet.* 2001;29(4):465-468. [doi:10.1038/ng772](https://doi.org/10.1038/ng772) · [PubMed 11704759](https://pubmed.ncbi.nlm.nih.gov/11704759/)
 [^van-der-burgt-2007-noonan-review]: van der Burgt I. Noonan syndrome. *Orphanet J Rare Dis.* 2007;2:4. [doi:10.1186/1750-1172-2-4](https://doi.org/10.1186/1750-1172-2-4) · [PubMed 17222357](https://pubmed.ncbi.nlm.nih.gov/17222357/)

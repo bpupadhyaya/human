@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/c5ar1
     relation: connects-to
     note: "C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid recruitment into the NF2 tumour stroma."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Schwannoma stroma alarmin: TSLP from the NF2-mutant schwannoma and meningioma stroma activates dendritic cells (already mapped) and mast cells, shaping the immune microenvironment of the vestibular schwannomas and spinal tumours of neurofibromatosis type 2."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Schwannoma mast cells: histamine from the mast cells infiltrating NF2 schwannoma and meningioma stroma promotes VEGF (already mapped) angiogenesis and peritumoral oedema; H2 receptor signalling contributes to the NF2 tumour microenvironment and hearing-loss pathophysiology."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Vestibular oedema: bradykinin activates B2 receptors in the endolymph and perilymph compartments, contributing to the endolymphatic hydrops and vestibular-auditory dysfunction of the bilateral vestibular schwannomas of neurofibromatosis type 2."
 ---
 
 # Neurofibromatosis Type 2
@@ -747,6 +756,9 @@ Merlin has an N-terminal FERM domain (α, β, γ lobes) that binds membrane lipi
 - `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Tertiary lymphoid structures: the B cells organise the tertiary lymphoid structures whose presence, with the CD8 (already mapped) TILs, may mark the immune response of the NF2 schwannomas and meningiomas.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Tumour complement: the complement C3 activation contributes to the inflammatory dimension of the macrophage-rich (already mapped) NF2 schwannoma and meningioma microenvironment.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid recruitment into the NF2 tumour stroma.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Schwannoma stroma alarmin: TSLP from the NF2-mutant schwannoma and meningioma stroma activates dendritic cells (already mapped) and mast cells, shaping the immune microenvironment of the vestibular schwannomas and spinal tumours of neurofibromatosis type 2.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Schwannoma mast cells: histamine from the mast cells infiltrating NF2 schwannoma and meningioma stroma promotes VEGF (already mapped) angiogenesis and peritumoral oedema; H2 receptor signalling contributes to the NF2 tumour microenvironment and hearing-loss pathophysiology.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Vestibular oedema: bradykinin activates B2 receptors in the endolymph and perilymph compartments, contributing to the endolymphatic hydrops and vestibular-auditory dysfunction of the bilateral vestibular schwannomas of neurofibromatosis type 2.
 
 [^asthagiri-2009-nf2-lancet]: Asthagiri AR, Parry DM, Butman JA, et al. Neurofibromatosis type 2. *Lancet.* 2009;373(9679):1974-1986. [doi:10.1016/S0140-6736(09)60259-2](https://doi.org/10.1016/S0140-6736(09)60259-2) · [PubMed 19476995](https://pubmed.ncbi.nlm.nih.gov/19476995/)
 [^plotkin-2009-nf2-bevacizumab]: Plotkin SR, Stemmer-Rachamimov AO, Barker FG 2nd, et al. Hearing improvement after bevacizumab in patients with neurofibromatosis type 2. *N Engl J Med.* 2009;361(4):358-367. [doi:10.1056/NEJMoa0902579](https://doi.org/10.1056/NEJMoa0902579) · [PubMed 19587327](https://pubmed.ncbi.nlm.nih.gov/19587327/)
