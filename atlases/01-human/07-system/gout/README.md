@@ -490,6 +490,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Metabolic iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) linked to the hyperuricaemia and the metabolic-syndrome comorbidity of gout."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-gout axis: TSLP, from the urate crystal-stimulated mast cells (already mapped) and synovial epithelium, primes dendritic cells (already mapped) and amplifies the Th2 dimension of the gouty inflammation beyond the canonical NLRP3 (already mapped) neutrophilic flare."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "EPO-gout axis: erythropoietin, modulated by the CKD (already mapped) comorbidity and the HIF-1α (already mapped) renal hypoxia of gout-related nephropathy, links the renal anaemia and the disordered iron handling (hepcidin already mapped) of chronic tophaceous gout."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Melatonin-gout axis: melatonin, via its anti-inflammatory action on macrophages (already mapped) and mast cells (already mapped), attenuates NLRP3 (already mapped) inflammasome activation and the ROS (xanthine oxidase already mapped) dimension of the acute gouty inflammation."
 ---
 
 # Gout
@@ -740,6 +749,9 @@ The central mechanism linking MSU crystals to acute gouty arthritis is **NLRP3 i
 - `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Innate arm: the NK cells (perforin pathway) are part of the innate-immune response to the monosodium-urate crystals of gout.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Tophaceous remodelling: periostin, a matricellular mediator, is part of the joint and soft-tissue remodelling around the tophi (with osteopontin already mapped) of chronic tophaceous gout.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Metabolic iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) linked to the hyperuricaemia and the metabolic-syndrome comorbidity of gout.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-gout axis: TSLP, from the urate crystal-stimulated mast cells (already mapped) and synovial epithelium, primes dendritic cells (already mapped) and amplifies the Th2 dimension of the gouty inflammation beyond the canonical NLRP3 (already mapped) neutrophilic flare.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — EPO-gout axis: erythropoietin, modulated by the CKD (already mapped) comorbidity and the HIF-1α (already mapped) renal hypoxia of gout-related nephropathy, links the renal anaemia and the disordered iron handling (hepcidin already mapped) of chronic tophaceous gout.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Melatonin-gout axis: melatonin, via its anti-inflammatory action on macrophages (already mapped) and mast cells (already mapped), attenuates NLRP3 (already mapped) inflammasome activation and the ROS (xanthine oxidase already mapped) dimension of the acute gouty inflammation.
 
 [^dalbeth-2019-gout-primer]: Dalbeth N, Choi HK, Joosten LAB, et al. Gout. *Nat Rev Dis Primers.* 2019;5(1):69. [doi:10.1038/s41572-019-0115-y](https://doi.org/10.1038/s41572-019-0115-y) · [PubMed 31558729](https://pubmed.ncbi.nlm.nih.gov/31558729/)
 [^martinon-2006-nlrp3-gout]: Martinon F, Pétrilli V, Mayor A, Tardivel A, Tschopp J. Gout-associated uric acid crystals activate the NALP3 inflammasome. *Nature.* 2006;440(7081):237-241. [doi:10.1038/nature04516](https://doi.org/10.1038/nature04516) · [PubMed 16407889](https://pubmed.ncbi.nlm.nih.gov/16407889/)

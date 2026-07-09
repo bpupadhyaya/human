@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Tumour iron: transferrin, the iron carrier, supplies the iron demand of the BRCA-deficient (already mapped) proliferating cells of the HBOC tumours."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-HBOC axis: TSLP, from the BRCA-deficient (already mapped) tumour stroma and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2 immunosuppressive microenvironment of HBOC-associated breast and ovarian cancers."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-HBOC axis: bradykinin, via B1/B2 receptors on tumour endothelium (already mapped) and mast cells (already mapped), augments vascular permeability and the inflammatory stromal milieu of HBOC-associated breast and ovarian cancers."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "EPO-HBOC axis: erythropoietin, induced by the HIF-1α (already mapped) hypoxia and anaemia of HBOC-associated cancers, activates the EPOR on BRCA-deficient (already mapped) tumour cells and modulates macrophage (already mapped) polarisation in the tumour microenvironment."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -775,6 +784,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 and C5aR1 already mapped) contribute to the inflammatory dimension of the HBOC tumour microenvironment.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the HBOC tumour cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), tempering the complement attack within the tumour stroma.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Tumour iron: transferrin, the iron carrier, supplies the iron demand of the BRCA-deficient (already mapped) proliferating cells of the HBOC tumours.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-HBOC axis: TSLP, from the BRCA-deficient (already mapped) tumour stroma and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2 immunosuppressive microenvironment of HBOC-associated breast and ovarian cancers.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-HBOC axis: bradykinin, via B1/B2 receptors on tumour endothelium (already mapped) and mast cells (already mapped), augments vascular permeability and the inflammatory stromal milieu of HBOC-associated breast and ovarian cancers.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — EPO-HBOC axis: erythropoietin, induced by the HIF-1α (already mapped) hypoxia and anaemia of HBOC-associated cancers, activates the EPOR on BRCA-deficient (already mapped) tumour cells and modulates macrophage (already mapped) polarisation in the tumour microenvironment.
 
 ---
 
