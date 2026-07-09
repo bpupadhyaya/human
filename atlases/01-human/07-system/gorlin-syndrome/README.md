@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Tumour iron: transferrin, the iron carrier, supplies the iron demand of the SHH-driven (PTCH1/SMO already mapped) proliferating cells of the Gorlin-syndrome tumours."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-Gorlin axis: TSLP, from PTCH1-mutant (already mapped) skin and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2 immunosuppressive microenvironment of the SHH-driven BCCs (already mapped) of Gorlin syndrome."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-Gorlin axis: bradykinin, via B1/B2 receptors on tumour endothelium (already mapped) and mast cells (already mapped), amplifies vascular permeability and the inflammatory stroma of the BCCs (already mapped) and odontogenic keratocysts of Gorlin syndrome."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "EPO-Gorlin axis: erythropoietin, via the EPOR on the PTCH1-mutant (already mapped) tumour cells, activates the PI3K/AKT (already mapped) survival axis and modulates macrophage (already mapped) polarisation in the tumour microenvironment of Gorlin-syndrome basal-cell carcinomas."
 ---
 
 # Gorlin Syndrome
@@ -750,6 +759,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 and C5aR1 already mapped) contribute to the inflammatory dimension of the Gorlin-syndrome tumour microenvironment.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the Gorlin-syndrome tumour cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), tempering the complement attack within the tumour stroma.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Tumour iron: transferrin, the iron carrier, supplies the iron demand of the SHH-driven (PTCH1/SMO already mapped) proliferating cells of the Gorlin-syndrome tumours.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-Gorlin axis: TSLP, from the PTCH1-mutant (already mapped) skin and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2 immunosuppressive microenvironment of the SHH-driven basal-cell carcinomas (already mapped) and medulloblastomas (already mapped) of Gorlin syndrome.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-Gorlin axis: bradykinin, via B1/B2 receptors on tumour endothelium (already mapped) and mast cells (already mapped), amplifies the vascular permeability and the inflammatory stromal milieu of the basal-cell carcinomas (already mapped) and the odontogenic keratocysts of Gorlin syndrome.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — EPO-Gorlin axis: erythropoietin, via the EPOR on the PTCH1-mutant (already mapped) tumour cells, activates the PI3K/AKT (already mapped) survival axis and modulates macrophage (already mapped) polarisation in the tumour microenvironment of Gorlin-syndrome basal-cell carcinomas.
 
 ---
 

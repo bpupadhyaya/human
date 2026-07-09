@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Tumour iron: transferrin, the iron carrier, supplies the iron demand of the proliferating glioblastoma cells and the disordered brain-iron handling of the tumour."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-GBM axis: TSLP, from the glioblastoma stromal cells and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2 immunosuppressive microenvironment of the EGFR-amplified (already mapped) glioblastoma tumour niche."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-GBM axis: bradykinin, via B1/B2 receptors on glioblastoma endothelium (already mapped) and microglia (already mapped), augments blood-brain-barrier permeability, tumour oedema, and the pro-inflammatory milieu of the glioblastoma microenvironment."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "EPO-GBM axis: erythropoietin, induced by the HIF-1α (already mapped) hypoxia of the glioblastoma core, activates the EPOR on tumour cells (already mapped) and modulates microglia/macrophage (already mapped) polarisation toward a pro-tumour M2 phenotype."
 ---
 
 # Glioblastoma
@@ -769,6 +778,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 and C5aR1 already mapped) contribute to the microglial (already mapped) and myeloid inflammation of the glioblastoma microenvironment.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the glioblastoma cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), tempering the complement attack in the immunologically cold tumour.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Tumour iron: transferrin, the iron carrier, supplies the iron demand of the proliferating glioblastoma cells and the disordered brain-iron handling of the tumour.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-GBM axis: TSLP, from the glioblastoma stromal cells and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2 immunosuppressive microenvironment of the EGFR-amplified (already mapped) glioblastoma tumour niche.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-GBM axis: bradykinin, via B1/B2 receptors on glioblastoma endothelium (already mapped) and microglia (already mapped), augments blood-brain-barrier permeability, tumour oedema, and the pro-inflammatory milieu of the glioblastoma microenvironment.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — EPO-GBM axis: erythropoietin, induced by the HIF-1α (already mapped) hypoxia of the glioblastoma core, activates the EPOR on tumour cells (already mapped) and modulates microglia/macrophage (already mapped) polarisation toward a pro-tumour M2 phenotype.
 
 ---
 
