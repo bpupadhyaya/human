@@ -486,6 +486,15 @@ cross_links:
   - target: 01-human/03-molecular/factor-h
     relation: connects-to
     note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) on the airway surface, restraining the complement attack on the host lung of the respiratory system."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Airway kinin brake: C1-esterase inhibitor, by controlling the contact-pathway kinin cascade (bradykinin already mapped) and the classical complement, moderates the airway oedema, the bronchospasm, and the hereditary angioedema exacerbations of the respiratory system."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Antioxidant-airway axis: melatonin, from the pineal (already mapped) and local bronchial epithelium, exerts antioxidant and anti-inflammatory effects on the airway, modulating the nocturnal bronchoconstriction and the ROS-driven mucosal injury of the respiratory system."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Mucosal immunity: prolactin, from the pituitary (already mapped) and local airway epithelium, modulates the respiratory mucosal IgA (already mapped) secretion and the mast-cell (already mapped) responsiveness of the immune surveillance of the respiratory system."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -723,6 +732,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Connects-to** → [Complement C5](../../03-molecular/complement-c5/README.md): terminal complement: the complement C5 and its C5a (with C3 already mapped) generate the anaphylatoxin and membrane-attack complex of the acute lung injury and the airway inflammation of the respiratory system.
 - **Connects-to** → [C5aR1](../../03-molecular/c5ar1/README.md): C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the neutrophil recruitment into the airway and alveolus in the immunopathology of the respiratory system.
 - **Connects-to** → [Factor H](../../03-molecular/factor-h/README.md): complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) on the airway surface, restraining the complement attack on the host lung of the respiratory system.
+- **Connects-to** → [C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md): Airway kinin brake: C1-esterase inhibitor, by controlling the contact-pathway kinin cascade (bradykinin already mapped) and the classical complement, moderates the airway oedema, the bronchospasm, and the hereditary angioedema exacerbations of the respiratory system.
+- **Connects-to** → [Melatonin](../../03-molecular/melatonin/README.md): Antioxidant-airway axis: melatonin, from the pineal (already mapped) and local bronchial epithelium, exerts antioxidant and anti-inflammatory effects on the airway, modulating the nocturnal bronchoconstriction and the ROS-driven mucosal injury of the respiratory system.
+- **Connects-to** → [Prolactin](../../03-molecular/prolactin/README.md): Mucosal immunity: prolactin, from the pituitary (already mapped) and local airway epithelium, modulates the respiratory mucosal IgA (already mapped) secretion and the mast-cell (already mapped) responsiveness of the immune surveillance of the respiratory system.
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.
 
 ## Pathology
