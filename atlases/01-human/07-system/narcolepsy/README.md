@@ -462,6 +462,15 @@ cross_links:
   - target: 01-human/03-molecular/factor-h
     relation: connects-to
     note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the neuroinflammation of the autoimmune orexin-neuron loss of narcolepsy."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Autoimmune neuroimmune alarmin: TSLP activates dendritic cells (already mapped) in narcolepsy, potentially linking the H1N1 vaccination/infection trigger to the Th2-skewed autoimmune response that destroys the orexin (already mapped) neurons of the narcolepsy hypothalamus."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Hypothalamic neuroinflammation: bradykinin activates B2 receptors in the hypothalamus (already mapped), amplifying the autoimmune and neuroinflammatory destruction of the orexin-producing neurons (already mapped) that underlies the hypocretin deficiency of narcolepsy type 1."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical complement regulation: the C1-esterase inhibitor controls the classical complement pathway activated in the hypothalamic autoimmune infiltrate (with complement C5 and factor H already mapped) that targets the orexin neurons in narcolepsy type 1."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -750,6 +759,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — Complement C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) contributes to the microglial (already mapped) and complement dimension of the autoimmune destruction of the orexin (already mapped) neurons of narcolepsy.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its activation (with C3 already mapped) are part of the autoimmune, HLA-DQB1*06:02-associated neuroinflammatory attack on the orexin (already mapped) neurons of narcolepsy type 1.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the neuroinflammation of the autoimmune orexin-neuron loss of narcolepsy.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Autoimmune neuroimmune alarmin: TSLP activates dendritic cells (already mapped) in narcolepsy, potentially linking the H1N1 vaccination/infection trigger to the Th2-skewed autoimmune response that destroys the orexin (already mapped) neurons of the narcolepsy hypothalamus.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Hypothalamic neuroinflammation: bradykinin activates B2 receptors in the hypothalamus (already mapped), amplifying the autoimmune and neuroinflammatory destruction of the orexin-producing neurons (already mapped) that underlies the hypocretin deficiency of narcolepsy type 1.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical complement regulation: the C1-esterase inhibitor controls the classical complement pathway activated in the hypothalamic autoimmune infiltrate (with complement C5 and factor H already mapped) that targets the orexin neurons in narcolepsy type 1.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)
