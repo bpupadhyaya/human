@@ -481,6 +481,15 @@ cross_links:
   - target: 01-human/03-molecular/factor-h
     relation: connects-to
     note: "Resolution regulation: factor H regulates the alternative complement pathway (complement C3 and C5aR1 already mapped), tempering the complement activation to allow the resolution and remodelling phases of wound healing."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical-complement regulation: C1-esterase inhibitor restrains the classical complement pathway (complement C3 and C5aR1 already mapped) at the wound site, limiting collateral tissue destruction and facilitating the transition from inflammation to repair in wound healing."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Tissue-protective EPO: erythropoietin, acting via EPOR on keratinocytes (skin already mapped) and endothelial cells (already mapped), accelerates re-epithelialisation and angiogenesis (VEGF already mapped) and reduces the oxidative-stress burden during wound healing."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Inflammatory-phase C5a: complement C5 (upstream of C5aR1 already mapped) is activated at the wound site, generating C5a that amplifies the early neutrophil (already mapped) and mast-cell (already mapped) recruitment into the inflammatory phase of wound healing."
 ---
 
 # Wound Healing
@@ -754,6 +763,9 @@ cross_links:
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Inflammatory-phase complement: the complement C3 activation and its C3a anaphylatoxin amplify the early inflammatory phase, recruiting the neutrophils (already mapped) and mast cells (already mapped) of wound healing.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a chemotaxis: the C5aR1 signalling (with the complement C3 already mapped) mediates the C5a-driven chemotaxis of the neutrophils and monocytes into the wound during the inflammatory phase of healing.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Resolution regulation: factor H regulates the alternative complement pathway (complement C3 and C5aR1 already mapped), tempering the complement activation to allow the resolution and remodelling phases of wound healing.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-complement regulation: C1-esterase inhibitor restrains the classical complement pathway (complement C3 and C5aR1 already mapped) at the wound site, limiting collateral tissue destruction and facilitating the transition from inflammation to repair in wound healing.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Tissue-protective EPO: erythropoietin, acting via EPOR on keratinocytes (skin already mapped) and endothelial cells (already mapped), accelerates re-epithelialisation and angiogenesis (VEGF already mapped) and reduces the oxidative-stress burden during wound healing.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Inflammatory-phase C5a: complement C5 (upstream of C5aR1 already mapped) is activated at the wound site, generating C5a that amplifies the early neutrophil (already mapped) and mast-cell (already mapped) recruitment into the inflammatory phase of wound healing.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)
