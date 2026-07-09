@@ -481,6 +481,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Immune-activation matricellular: osteopontin, elevated in AIDS, is a matricellular cytokine marking the chronic immune activation that drives the disease progression."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-mucosal axis: TSLP, from gut-epithelium (gut-microbiome already mapped) chronically disrupted in AIDS, primes dendritic cells (already mapped) toward the Th2/Treg (already mapped) bias that accelerates the immunodeficiency of HIV/AIDS."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-vasculopathy axis: bradykinin, via the kallikrein-kinin system activated in HIV-associated endothelial (already mapped) injury, amplifies the vascular permeability and the neuroinflammation (brain already mapped) of HIV/AIDS."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "AIDS anaemia therapy: erythropoietin corrects the multifactorial AIDS-related anaemia (hepcidin and transferrin already mapped), restoring haematopoiesis (bone-marrow already mapped) suppressed by the chronic infection and opportunistic pathogens."
 ---
 
 # HIV/AIDS
@@ -750,6 +759,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement/contact regulation: the C1-esterase inhibitor regulates the classical complement and the contact systems, a further layer of the complement (C3, C5, C5aR1 and factor H already mapped) balance HIV exploits for immune evasion in AIDS.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — AIDS anaemia iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the anaemia that is common and prognostically important in AIDS.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Immune-activation matricellular: osteopontin, elevated in AIDS, is a matricellular cytokine marking the chronic immune activation that drives the disease progression.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-mucosal axis: TSLP, from gut-epithelium (gut-microbiome already mapped) chronically disrupted in AIDS, primes dendritic cells (already mapped) toward the Th2/Treg (already mapped) bias that accelerates the immunodeficiency of HIV/AIDS.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-vasculopathy axis: bradykinin, via the kallikrein-kinin system activated in HIV-associated endothelial (already mapped) injury, amplifies the vascular permeability and the neuroinflammation (brain already mapped) of HIV/AIDS.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — AIDS anaemia therapy: erythropoietin corrects the multifactorial AIDS-related anaemia (hepcidin and transferrin already mapped), restoring haematopoiesis (bone-marrow already mapped) suppressed by the chronic infection and opportunistic pathogens.
 
 ## See Also
 

@@ -481,6 +481,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Acute-phase iron: transferrin, the iron carrier, reflects the hypoferraemia and disordered iron handling (hepcidin already mapped) of the acute-phase response to the influenza infection."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-lung axis: TSLP, from airway epithelium (already mapped) damaged by influenza, primes dendritic cells (already mapped) and mast cells (already mapped) and amplifies the Th2/eosinophil (already mapped) airway inflammation during and after influenza infection."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Post-influenza anaemia: erythropoietin drives red-cell recovery after the influenza-associated haemophagocytic lymphohistiocytosis (bone-marrow already mapped) and the cytokine-storm (IL-6 already mapped) -driven anaemia of severe influenza."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell-histamine axis: histamine, from mast cells (already mapped) degranulated by the influenza NA protein, amplifies the bronchospasm and the vascular permeability of the influenza-associated airway inflammation and post-viral asthma (already mapped) exacerbation."
 ---
 
 # Influenza
@@ -771,3 +780,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the complement-driven immunopathology of the severe influenza lung injury.
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Lectin/classical regulation: the C1-esterase inhibitor regulates the classical and lectin (mannose-binding) complement pathways activated against the influenza virus, a candidate modulator of the lung immunopathology.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Acute-phase iron: transferrin, the iron carrier, reflects the hypoferraemia and disordered iron handling (hepcidin already mapped) of the acute-phase response to the influenza infection.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-lung axis: TSLP, from airway epithelium (already mapped) damaged by influenza, primes dendritic cells (already mapped) and mast cells (already mapped) and amplifies the Th2/eosinophil (already mapped) airway inflammation during and after influenza infection.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Post-influenza anaemia: erythropoietin drives red-cell recovery after the influenza-associated haemophagocytic lymphohistiocytosis (bone-marrow already mapped) and the cytokine-storm (IL-6 already mapped) -driven anaemia of severe influenza.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell-histamine axis: histamine, from mast cells (already mapped) degranulated by the influenza NA protein, amplifies the bronchospasm and the vascular permeability of the influenza-associated airway inflammation and post-viral asthma (already mapped) exacerbation.
