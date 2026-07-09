@@ -494,6 +494,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Autoimmune priming: the dendritic cells present the streptococcal (already mapped) antigen in the PANDAS/PANS subset, priming the T cells (already mapped) of the basal-ganglia autoimmunity of obsessive-compulsive disorder."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Neuro-immune alarmin: TSLP, released by skin (already mapped) and gut-epithelial (already mapped) barriers during PANDAS/PANS infections, activates mast cells (already mapped) and dendritic cells (already mapped), amplifying the systemic immune activation of OCD."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin neuro-vascular axis: bradykinin, generated during streptococcal (already mapped) and complement (C3, C5, C5aR1 already mapped) activation, augments blood-brain-barrier permeability and enables the autoantibody access to the basal ganglia of obsessive-compulsive disorder."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement/kinin gate: C1-esterase inhibitor limits classical complement (C3, C5 and C5aR1 already mapped) and contact-kinin (bradykinin already mapped) activation in the basal-ganglia neuroinflammation of obsessive-compulsive disorder."
 ---
 
 # Obsessive-Compulsive Disorder
@@ -777,6 +786,9 @@ OCD is often underdiagnosed due to shame and secrecy. Mean time from symptom ons
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 already mapped) are part of the complement activation of the PANDAS/PANS autoimmune neuroinflammation implicated in obsessive-compulsive disorder.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) links the complement to the microglial (already mapped) basal-ganglia neuroinflammation of obsessive-compulsive disorder.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Autoimmune priming: the dendritic cells present the streptococcal (already mapped) antigen in the PANDAS/PANS subset, priming the T cells (already mapped) of the basal-ganglia autoimmunity of obsessive-compulsive disorder.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Neuro-immune alarmin: TSLP, released by skin (already mapped) and gut-epithelial (already mapped) barriers during PANDAS/PANS infections, activates mast cells (already mapped) and dendritic cells (already mapped), amplifying the systemic immune activation of OCD.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin neuro-vascular axis: bradykinin, generated during streptococcal (already mapped) and complement (C3, C5, C5aR1 already mapped) activation, augments blood-brain-barrier permeability and enables the autoantibody access to the basal ganglia of obsessive-compulsive disorder.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement/kinin gate: C1-esterase inhibitor limits classical complement (C3, C5 and C5aR1 already mapped) and contact-kinin (bradykinin already mapped) activation in the basal-ganglia neuroinflammation of obsessive-compulsive disorder.
 
 [^abramowitz-2009-ocd-review]: Abramowitz JS, Taylor S, McKay D. Obsessive-compulsive disorder. *Lancet.* 2009;374(9688):491-499. [doi:10.1016/S0140-6736(09)60240-3](https://doi.org/10.1016/S0140-6736(09)60240-3) · [PubMed 19665647](https://pubmed.ncbi.nlm.nih.gov/19665647/)
 [^chamberlain-2008-ocd-neuroscience]: Chamberlain SR, Menzies L, Hampshire A, et al. Orbitofrontal dysfunction in patients with OCD and their unaffected relatives. *Science.* 2008;321(5887):421-422. [doi:10.1126/science.1154433](https://doi.org/10.1126/science.1154433) · [PubMed 18635808](https://pubmed.ncbi.nlm.nih.gov/18635808/)
