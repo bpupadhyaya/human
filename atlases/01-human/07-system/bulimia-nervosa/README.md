@@ -486,6 +486,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "CNS-border antigen presentation: the dendritic cells of the CNS-border compartments are part of the neuroimmune interface implicated in the low-grade inflammation of bulimia nervosa."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-gut axis: TSLP, from gut epithelium (already mapped) under the dysbiosis and the purging-induced barrier disruption, primes dendritic cells (already mapped) and amplifies the Th2/Treg imbalance of the neuroinflammation of bulimia nervosa."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-gut axis: bradykinin, via B1/B2 receptors on gut epithelium (already mapped) and mast cells (already mapped), amplifies the mucosal permeability and the neuroinflammatory milieu of the purging-induced dysbiosis of bulimia nervosa."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Erythropoietic support: erythropoietin supports the management of the anaemia of the malnutrition and the iron deficiency of the purging-driven nutritional depletion of bulimia nervosa."
 ---
 
 # Bulimia Nervosa
@@ -771,6 +780,9 @@ All of the following must be met:
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Neuroimmune complement: the complement C3 activation is part of the low-grade neuroinflammation implicated in the appetite-regulation and reward circuitry of bulimia nervosa.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) links the complement to the microglial (already mapped) neuroinflammation implicated in bulimia nervosa.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — CNS-border antigen presentation: the dendritic cells of the CNS-border compartments are part of the neuroimmune interface implicated in the low-grade inflammation of bulimia nervosa.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-gut axis: TSLP, from gut epithelium (already mapped) under the dysbiosis and the purging-induced barrier disruption, primes dendritic cells (already mapped) and amplifies the Th2/Treg imbalance of the neuroinflammation of bulimia nervosa.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-gut axis: bradykinin, via B1/B2 receptors on gut epithelium (already mapped) and mast cells (already mapped), amplifies the mucosal permeability and the neuroinflammatory milieu of the purging-induced dysbiosis of bulimia nervosa.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Erythropoietic support: erythropoietin supports the management of the anaemia of the malnutrition and the iron deficiency of the purging-driven nutritional depletion of bulimia nervosa.
 
 ## Treatment
 

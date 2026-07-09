@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Chronic-disease iron: transferrin, the iron carrier, reflects the disordered iron handling of the anaemia of the recurrent infections and chronic disease of Bloom syndrome."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-immune axis: TSLP, from barrier epithelium and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2/Treg imbalance of the immune dysregulation of the recurrent infections of Bloom syndrome."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-inflammatory axis: bradykinin, via B1/B2 receptors on mast cells (already mapped) and endothelium (already mapped), amplifies the vascular permeability and the inflammatory milieu of the recurrent infections of Bloom syndrome."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Erythropoietic support: erythropoietin supports the management of the anaemia of the chronic disease and the myelosuppressive treatment of the cancer predisposition dimension of Bloom syndrome."
 ---
 
 # Bloom Syndrome
@@ -777,6 +786,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 and C5aR1 already mapped) complete the complement cascade of the innate immune dimension of Bloom syndrome.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the immune dysregulation of Bloom syndrome.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Chronic-disease iron: transferrin, the iron carrier, reflects the disordered iron handling of the anaemia of the recurrent infections and chronic disease of Bloom syndrome.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-immune axis: TSLP, from barrier epithelium and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2/Treg imbalance of the immune dysregulation of the recurrent infections of Bloom syndrome.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-inflammatory axis: bradykinin, via B1/B2 receptors on mast cells (already mapped) and endothelium (already mapped), amplifies the vascular permeability and the inflammatory milieu of the recurrent infections of Bloom syndrome.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Erythropoietic support: erythropoietin supports the management of the anaemia of the chronic disease and the myelosuppressive treatment of the cancer predisposition dimension of Bloom syndrome.
 
 ---
 
