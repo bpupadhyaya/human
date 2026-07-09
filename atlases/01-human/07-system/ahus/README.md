@@ -487,6 +487,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "Adaptive milieu: the cytotoxic T cells (perforin already mapped), with the T-helper (already mapped) arm, are part of the adaptive-immune milieu accompanying the complement-mediated endothelial injury of atypical HUS."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-endothelial axis: TSLP, released from injured renal (already mapped) endothelium under complement (C3, C5, C5aR1 and factor H already mapped) stress, activates mast cells (already mapped) and dendritic cells, amplifying the thromboinflammatory cascade of atypical HUS."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell vasodilator: histamine, released from activated mast cells (already mapped) in the complement-driven vascular inflammation of atypical HUS, augments endothelial permeability and amplifies the microvascular thromboinflammation alongside nitric-oxide depletion."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Fibrotic matricellular: periostin, a matricellular mediator upregulated in the renal (already mapped) tubulointerstitium under complement-driven injury in aHUS, promotes fibroblast (already mapped) activation and the progressive renal fibrosis of atypical HUS."
 ---
 
 # Atypical HUS
@@ -805,6 +814,9 @@ Repeated TMA episodes → glomerular fibrosis → CKD → ESRD
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Thromboinflammation: osteopontin, released by the activated platelets (already mapped), is a matricellular mediator linking the complement-driven endothelial (already mapped) injury to the microthrombosis of atypical HUS.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Haemolytic iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the microangiopathic haemolysis of atypical HUS.
 - `connects-to` → **[Cytotoxic T cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Adaptive milieu: the cytotoxic T cells (perforin already mapped), with the T-helper (already mapped) arm, are part of the adaptive-immune milieu accompanying the complement-mediated endothelial injury of atypical HUS.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-endothelial axis: TSLP, released from injured renal (already mapped) endothelium under complement (C3, C5, C5aR1 and factor H already mapped) stress, activates mast cells (already mapped) and dendritic cells, amplifying the thromboinflammatory cascade of atypical HUS.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell vasodilator: histamine, released from activated mast cells (already mapped) in the complement-driven vascular inflammation of atypical HUS, augments endothelial permeability and amplifies the microvascular thromboinflammation alongside nitric-oxide depletion.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Fibrotic matricellular: periostin, a matricellular mediator upregulated in the renal (already mapped) tubulointerstitium under complement-driven injury in aHUS, promotes fibroblast (already mapped) activation and the progressive renal fibrosis of atypical HUS.
 
 [^fakhouri-2017-ahus-lancet]: Fakhouri F, Zuber J, Frémeaux-Bacchi V, Loirat C. Haemolytic uraemic syndrome. *Lancet.* 2017;390(10095):681-696. [doi:10.1016/S0140-6736(17)30062-4](https://doi.org/10.1016/S0140-6736(17)30062-4) · [PubMed 28242109](https://pubmed.ncbi.nlm.nih.gov/28242109/)
 [^legendre-2013-eculizumab-ahus-nejm]: Legendre CM, Licht C, Muus P, et al. Terminal complement inhibitor eculizumab in atypical hemolytic-uremic syndrome. *N Engl J Med.* 2013;368(23):2169-2181. [doi:10.1056/NEJMoa1208981](https://doi.org/10.1056/NEJMoa1208981) · [PubMed 23738544](https://pubmed.ncbi.nlm.nih.gov/23738544/)
