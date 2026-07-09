@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Antigen presentation: the dendritic cells present the tumour antigen to the CD8 (already mapped) T cells, shaping the checkpoint (PD-1 already mapped) response of the MSI-high colorectal cancer."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Tumour stromal alarmin: TSLP from the CRC stroma (fibroblast already mapped) and inflamed intestinal epithelium (already mapped) activates mast cells (already mapped) and dendritic cells (already mapped), promoting the type-2 immunosuppressive tumour microenvironment."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Cancer anaemia support: erythropoietin corrects the iron-deficiency and anaemia of chronic disease (already mapped) of colorectal cancer, and EPOR expression on CRC cells has been reported, raising the question of possible direct trophic effects on tumour growth."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "ECM invasion scaffold: periostin, downstream of TGF-β (already mapped) and Wnt (already mapped) signalling, is overexpressed in the colorectal-cancer stroma (fibroblast already mapped) and promotes the local invasion and hepatic (liver already mapped) metastasis of CRC."
 ---
 
 # Colorectal Cancer
@@ -755,6 +764,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Tumour complement: the complement C3 activation contributes to the inflammatory and immunosuppressive dimension of the colorectal-cancer microenvironment.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid (macrophage already mapped) recruitment into the colorectal-cancer microenvironment.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — Antigen presentation: the dendritic cells present the tumour antigen to the CD8 (already mapped) T cells, shaping the checkpoint (PD-1 already mapped) response of the MSI-high colorectal cancer.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Tumour alarmin: TSLP, released from the colorectal-cancer stroma (fibroblast already mapped) and the inflamed intestinal epithelium (already mapped), activates mast cells (already mapped) and dendritic cells (already mapped), promoting the type-2 immunosuppressive tumour microenvironment.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Cancer anaemia support: erythropoietin corrects the iron-deficiency and anaemia of chronic disease (already mapped) of colorectal cancer, and EPOR expression on CRC cells has been reported, raising the question of possible direct trophic effects on tumour growth.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — ECM invasion scaffold: periostin, downstream of TGF-β (already mapped) and Wnt (already mapped) signalling, is overexpressed in the colorectal-cancer stroma (fibroblast already mapped) and promotes the local invasion and hepatic (liver already mapped) metastasis of CRC.
 
 ---
 
