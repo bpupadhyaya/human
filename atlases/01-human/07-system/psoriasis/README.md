@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Chronic-disease iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the anaemia of the chronic systemic inflammation of psoriasis."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-itch axis: bradykinin, released in the inflamed psoriatic skin by the kallikrein-kinin system, activates B2 receptors on keratinocytes (skin already mapped) and sensory neurons (already mapped), amplifying itch and the neuro-inflammatory dimension of psoriasis."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement/kinin gate: C1-esterase inhibitor limits classical complement (C3, C5 and C5aR1 already mapped) and contact-kinin (bradykinin already mapped) over-activation in the inflamed psoriatic skin, moderating the immune-driven keratinocyte proliferation of psoriasis."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Erythropoiesis support: erythropoietin counteracts the anaemia of chronic disease (hepcidin and transferrin already mapped) driven by the sustained systemic inflammation and the cytokine (IL-6 already mapped) burden of psoriasis."
 ---
 
 # Psoriasis
@@ -754,6 +763,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) active in the inflamed psoriatic skin.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Dermal matricellular: osteopontin, elevated in the psoriatic skin and serum, amplifies the Th17 (IL-17 and IL-23 already mapped) and myeloid inflammation of the psoriatic plaque.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Chronic-disease iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the anaemia of the chronic systemic inflammation of psoriasis.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-itch axis: bradykinin, released in the inflamed psoriatic skin by the kallikrein-kinin system, activates B2 receptors on keratinocytes (skin already mapped) and sensory neurons (already mapped), amplifying itch and the neuro-inflammatory dimension of psoriasis.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement/kinin gate: C1-esterase inhibitor limits classical complement (C3, C5 and C5aR1 already mapped) and contact-kinin (bradykinin already mapped) over-activation in the inflamed psoriatic skin, moderating the immune-driven keratinocyte proliferation of psoriasis.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Erythropoiesis support: erythropoietin counteracts the anaemia of chronic disease (hepcidin and transferrin already mapped) driven by the sustained systemic inflammation and the cytokine (IL-6 already mapped) burden of psoriasis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
