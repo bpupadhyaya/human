@@ -490,6 +490,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Haematuria/tumour iron: transferrin, the iron carrier, reflects the iron demand of the tumour and the iron loss of the haematuria of bladder cancer."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-TME axis: TSLP, from urothelial cells (already mapped) and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2 immunosuppression of the bladder-cancer tumour microenvironment."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-urothelial axis: bradykinin, via B1/B2 receptors on urothelium (already mapped) and endothelium (already mapped), amplifies the vascular permeability and the inflammatory cytokine milieu of the bladder-cancer stroma."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Tumour-EPO axis: erythropoietin, via the EPOR on urothelial tumour cells (already mapped), modulates the survival, proliferation, and the angiogenic (already mapped) dimension of bladder cancer."
 ---
 
 # Bladder Cancer
@@ -768,6 +777,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the bladder-cancer cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), tempering the complement attack within the tumour stroma.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Tumour matricellular: osteopontin, produced within the urothelial tumour, is a matricellular mediator of the invasion and the myeloid inflammation of the bladder-cancer microenvironment.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Haematuria/tumour iron: transferrin, the iron carrier, reflects the iron demand of the tumour and the iron loss of the haematuria of bladder cancer.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-TME axis: TSLP, from urothelial cells (already mapped) and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2 immunosuppression of the bladder-cancer tumour microenvironment.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-urothelial axis: bradykinin, via B1/B2 receptors on urothelium (already mapped) and endothelium (already mapped), amplifies the vascular permeability and the inflammatory cytokine milieu of the bladder-cancer stroma.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Tumour-EPO axis: erythropoietin, via the EPOR on urothelial tumour cells (already mapped), modulates the survival, proliferation, and the angiogenic (already mapped) dimension of bladder cancer.
 
 ---
 

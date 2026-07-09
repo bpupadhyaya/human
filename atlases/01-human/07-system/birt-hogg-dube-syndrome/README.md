@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Tumour iron: transferrin, the iron carrier, supplies the iron demand of the FLCN-deficient (already mapped) renal tumour cells of Birt-Hogg-Dubé syndrome."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-TME axis: TSLP, from renal stromal cells and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2 immunosuppression of the renal tumour microenvironment of Birt-Hogg-Dubé syndrome."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-renal axis: bradykinin, via B1/B2 receptors on renal endothelium (already mapped) and mast cells (already mapped), amplifies the vascular permeability and the inflammatory milieu of the renal tumour of Birt-Hogg-Dubé syndrome."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Renal-EPO axis: erythropoietin production is modulated by the FLCN-deficient renal tumour cells (already mapped) of Birt-Hogg-Dubé syndrome, linking the mTOR/HIF (already mapped) dysregulation to the erythropoietic dimension."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -780,6 +789,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 and C5aR1 already mapped) contribute to the inflammatory dimension of the Birt-Hogg-Dubé renal-tumour microenvironment.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the Birt-Hogg-Dubé tumour cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), tempering the complement attack within the tumour stroma.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Tumour iron: transferrin, the iron carrier, supplies the iron demand of the FLCN-deficient (already mapped) renal tumour cells of Birt-Hogg-Dubé syndrome.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-TME axis: TSLP, from renal stromal cells and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2 immunosuppression of the renal tumour microenvironment of Birt-Hogg-Dubé syndrome.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-renal axis: bradykinin, via B1/B2 receptors on renal endothelium (already mapped) and mast cells (already mapped), amplifies the vascular permeability and the inflammatory milieu of the renal tumour of Birt-Hogg-Dubé syndrome.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Renal-EPO axis: erythropoietin production is modulated by the FLCN-deficient renal tumour cells (already mapped) of Birt-Hogg-Dubé syndrome, linking the mTOR/HIF (already mapped) dysregulation to the erythropoietic dimension.
 
 ---
 
