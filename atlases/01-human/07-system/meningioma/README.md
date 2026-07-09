@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/c5ar1
     relation: connects-to
     note: "C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid recruitment into the macrophage-rich (already mapped) meningioma stroma."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Peritumoral oedema: bradykinin (B2 receptor) increases blood–brain barrier permeability in the peritumoral zone, driving the cerebral oedema that is a major cause of neurological symptoms in meningioma; bradykinin blockade reduces the vasogenic oedema around meningioma."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell stroma: histamine from the mast cells that are notably abundant in meningioma stroma promotes VEGF (already mapped) angiogenesis and matrix-remodelling; mast-cell-derived histamine contributes to the peritumoral oedema and dural invasiveness of meningioma."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Invasive meningeal stroma: periostin secreted by the meningioma-associated fibroblasts and TGF-β (already mapped) signalling promotes the dural adhesion and invasiveness of meningioma; elevated periostin in skull-base meningioma correlates with the WHO grade and recurrence risk."
 ---
 
 # Meningioma
@@ -744,6 +753,9 @@ VEGF overexpression in meningioma (YAP target); Phase 2 COMBIT (Huang 2019, N=40
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines shaping the immune microenvironment of meningioma.
 - `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Tertiary lymphoid structures: the B cells organise the tertiary lymphoid structures whose presence, with the CD8 (already mapped) TILs, may mark the immune response of meningioma.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid recruitment into the macrophage-rich (already mapped) meningioma stroma.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Peritumoral oedema: bradykinin (B2 receptor) increases blood–brain barrier permeability in the peritumoral zone, driving the cerebral oedema that is a major cause of neurological symptoms in meningioma; bradykinin blockade reduces the vasogenic oedema around meningioma.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell stroma: histamine from the mast cells that are notably abundant in meningioma stroma promotes VEGF (already mapped) angiogenesis and matrix-remodelling; mast-cell-derived histamine contributes to the peritumoral oedema and dural invasiveness of meningioma.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Invasive meningeal stroma: periostin secreted by the meningioma-associated fibroblasts and TGF-β (already mapped) signalling promotes the dural adhesion and invasiveness of meningioma; elevated periostin in skull-base meningioma correlates with the WHO grade and recurrence risk.
 
 [^brastianos-2013-akt1-meningioma]: Brastianos PK, Horowitz PM, Santagata S, et al. Genomic sequencing of meningiomas identifies oncogenic SMO and AKT1 mutations. *Nat Genet.* 2013;45(3):285-289. [doi:10.1038/ng.2526](https://doi.org/10.1038/ng.2526) · [PubMed 23334667](https://pubmed.ncbi.nlm.nih.gov/23334667/)
 [^nassiri-2021-meningioma-classification]: Nassiri F, Liu J, Patil V, et al. A clinically applicable integrative molecular classification of meningiomas. *Nature.* 2021;597(7874):119-125. [doi:10.1038/s41586-021-03850-3](https://doi.org/10.1038/s41586-021-03850-3) · [PubMed 34385709](https://pubmed.ncbi.nlm.nih.gov/34385709/)

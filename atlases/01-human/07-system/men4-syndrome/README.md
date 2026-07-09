@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/c5ar1
     relation: connects-to
     note: "C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid recruitment into the MEN4 neuroendocrine tumour stroma."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Neuroendocrine stroma alarmin: TSLP from the MEN4 pituitary and parathyroid tumour stroma activates dendritic cells and mast cells, shaping the inflammatory microenvironment of the CDKN1B-mutant (p27 already mapped) endocrine neoplasms of MEN4 syndrome."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Neuroendocrine complement effector: complement C5 (with C3 already mapped) mediates complement-dependent cytotoxicity against the MEN4 pituitary and parathyroid tumours; C5a–C5aR1 (already mapped) recruits the myeloid infiltrate into the MEN4 neuroendocrine tumour stroma."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Multi-tumour treatment anaemia: erythropoietin supports erythropoiesis suppressed by the surgical, radiation, and pharmacological treatments used across the multiple endocrine neoplasms of MEN4 syndrome; EPO is a standard supportive care measure in MEN4 multimodal therapy."
 ---
 
 # MEN4 Syndrome
@@ -739,6 +748,9 @@ When clinical MEN features are present:
 - `connects-to` → **[T-helper cell](../../04-cellular/t-helper-cell/README.md)** — CD4 helper source: the CD4 T-helper cells are the source of the Th1/Th2/Th17 (IFN-γ, IL-4 and IL-17 already mapped) cytokines shaping the immune microenvironment of the MEN4 neuroendocrine tumours.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumour-associated macrophages: the macrophages are a dominant myeloid population of the stroma of the well-vascularised (VEGF already mapped) MEN4 neuroendocrine tumours.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid recruitment into the MEN4 neuroendocrine tumour stroma.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Neuroendocrine stroma alarmin: TSLP from the MEN4 pituitary and parathyroid tumour stroma activates dendritic cells and mast cells, shaping the inflammatory microenvironment of the CDKN1B-mutant (p27 already mapped) endocrine neoplasms of MEN4 syndrome.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Neuroendocrine complement effector: complement C5 (with C3 already mapped) mediates complement-dependent cytotoxicity against the MEN4 pituitary and parathyroid tumours; C5a–C5aR1 (already mapped) recruits the myeloid infiltrate into the MEN4 neuroendocrine tumour stroma.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Multi-tumour treatment anaemia: erythropoietin supports erythropoiesis suppressed by the surgical, radiation, and pharmacological treatments used across the multiple endocrine neoplasms of MEN4 syndrome; EPO is a standard supportive care measure in MEN4 multimodal therapy.
 
 [^alrezk-2017-men4]: Alrezk R, Hannah-Shmouni F, Stratakis CA. MEN4 and CDKN1B mutations: the latest of the MEN syndromes. *Endocr Relat Cancer.* 2017;24(10):T195-T208. [doi:10.1530/ERC-17-0243](https://doi.org/10.1530/ERC-17-0243) · [PubMed 28894007](https://pubmed.ncbi.nlm.nih.gov/28894007/)
 [^pellegata-2006-cdkn1b-men4]: Pellegata NS, Quintanilla-Martinez L, Siggelkow H, et al. Germ-line mutations in p27Kip1 cause a multiple endocrine neoplasia syndrome in rats and humans. *Proc Natl Acad Sci USA.* 2006;103(42):15558-15563. [doi:10.1073/pnas.0603306103](https://doi.org/10.1073/pnas.0603306103) · [PubMed 17030811](https://pubmed.ncbi.nlm.nih.gov/17030811/)
