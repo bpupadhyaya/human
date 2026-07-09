@@ -487,6 +487,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Plaque iron: transferrin, the iron carrier, reflects the disordered iron handling and the intraplaque-haemorrhage iron that aggravates the oxidative injury of the atheroma of familial hypercholesterolaemia."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-vascular axis: TSLP, from dysfunctional endothelium (already mapped) and mast cells (already mapped) in the atherosclerotic plaque, amplifies the Th2/eosinophil dimension of the vascular inflammation of familial hypercholesterolaemia."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-vascular axis: bradykinin, via the kallikrein-kinin system and the endothelial B2R, modulates the nitric-oxide (already mapped) and prostaglandin (already mapped) vasodilatory responses impaired in the endotheliopathy of familial hypercholesterolaemia."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Cardioprotective EPO: erythropoietin, via EpoR on cardiomyocytes (already mapped) and endothelium (already mapped), exerts cardioprotective and anti-apoptotic effects relevant to the cardiovascular (already mapped) risk of familial hypercholesterolaemia."
 ---
 
 # Familial Hypercholesterolemia
@@ -751,6 +760,9 @@ FH is a **monogenic autosomal dominant disorder** caused by mutations in three g
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway activated by the oxidised LDL and C-reactive protein in the atheroma of familial hypercholesterolaemia.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Atheroma matricellular: osteopontin, produced by the foam-cell macrophages (already mapped), is a matricellular mediator of the plaque inflammation and the vascular calcification of familial hypercholesterolaemia.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Plaque iron: transferrin, the iron carrier, reflects the disordered iron handling and the intraplaque-haemorrhage iron that aggravates the oxidative injury of the atheroma of familial hypercholesterolaemia.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-vascular axis: TSLP, from dysfunctional endothelium (already mapped) and mast cells (already mapped) in the atherosclerotic plaque, amplifies the Th2/eosinophil dimension of the vascular inflammation of familial hypercholesterolaemia.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-vascular axis: bradykinin, via the kallikrein-kinin system and the endothelial B2R, modulates the nitric-oxide (already mapped) and prostaglandin (already mapped) vasodilatory responses impaired in the endotheliopathy of familial hypercholesterolaemia.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Cardioprotective EPO: erythropoietin, via EpoR on cardiomyocytes (already mapped) and endothelium (already mapped), exerts cardioprotective and anti-apoptotic effects relevant to the cardiovascular (already mapped) risk of familial hypercholesterolaemia.
 
 [^goldstein-1985-ldlr-nobel]: Goldstein JL, Brown MS. The LDL receptor. *Arterioscler Thromb Vasc Biol.* 2009;29(4):431-438. [doi:10.1161/ATVBAHA.108.179564](https://doi.org/10.1161/ATVBAHA.108.179564) · [PubMed 19299327](https://pubmed.ncbi.nlm.nih.gov/19299327/)
 [^raal-2020-inclisiran-fh]: Raal FJ, Kallend D, Ray KK, et al. Inclisiran for the Treatment of Heterozygous Familial Hypercholesterolemia. *N Engl J Med.* 2020;382(16):1520-1530. [doi:10.1056/NEJMoa1913805](https://doi.org/10.1056/NEJMoa1913805) · [PubMed 32197277](https://pubmed.ncbi.nlm.nih.gov/32197277/)

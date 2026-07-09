@@ -468,6 +468,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "CNS-border antigen presentation: the dendritic cells of the CNS-border compartments are part of the neuroimmune interface implicated in the low-grade inflammation of gambling disorder."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-reward axis: TSLP, from gut epithelium (already mapped) under the stress and dysbiosis linked to gambling disorder, primes mast cells (already mapped) and dendritic cells (already mapped) and amplifies the neuroinflammatory tone of the reward-circuit dysfunction."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-neuroinflammatory axis: bradykinin, via B2R on CNS microglia (already mapped) and neurons (already mapped), modulates the neuroinflammation and the BBB permeability contributing to the stress-reactivity dimension of gambling disorder."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement brake: C1-esterase inhibitor regulates the classical-complement pathway (C3 and C5 already mapped) contributing to the low-grade neuroinflammation and the microglial (already mapped) activation of the reward circuitry in gambling disorder."
 sources:
   - id: grant-2016-gambling-review
     type: peer-reviewed
@@ -764,6 +773,9 @@ Persistent and recurrent problematic gambling behavior causing distress (≥4 of
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 already mapped) are part of the low-grade complement activation of the neuroinflammation implicated in gambling disorder.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) links the complement to the microglial neuroinflammation of the reward-circuit dimension of gambling disorder.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — CNS-border antigen presentation: the dendritic cells of the CNS-border compartments are part of the neuroimmune interface implicated in the low-grade inflammation of gambling disorder.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-reward axis: TSLP, from gut epithelium (already mapped) under the stress and dysbiosis linked to gambling disorder, primes mast cells (already mapped) and dendritic cells (already mapped) and amplifies the neuroinflammatory tone of the reward-circuit dysfunction.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-neuroinflammatory axis: bradykinin, via B2R on CNS microglia (already mapped) and neurons (already mapped), modulates the neuroinflammation and the BBB permeability contributing to the stress-reactivity dimension of gambling disorder.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement brake: C1-esterase inhibitor regulates the classical-complement pathway (C3 and C5 already mapped) contributing to the low-grade neuroinflammation and the microglial (already mapped) activation of the reward circuitry in gambling disorder.
 
 [^potenza-2014-gambling-neuroscience]: Potenza MN. The neurobiology of pathological gambling and drug addiction: an overview and new findings. *Philos Trans R Soc Lond B Biol Sci.* 2008;363(1507):3181-3189. [doi:10.1098/rstb.2008.0100](https://doi.org/10.1098/rstb.2008.0100) · [PubMed 18640909](https://pubmed.ncbi.nlm.nih.gov/18640909/)
 [^grant-2016-gambling-review]: Grant JE, Chamberlain SR. Gambling disorder and its relationship with substance use disorders. *Am J Addict.* 2015;24(2):126-131. [doi:10.1111/ajad.12112](https://doi.org/10.1111/ajad.12112) · [PubMed 25376793](https://pubmed.ncbi.nlm.nih.gov/25376793/)
