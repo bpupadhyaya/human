@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Neurofibroma complement: the complement C3 activation contributes to the inflammatory dimension of the mast-cell-rich (already mapped) neurofibroma microenvironment of neurofibromatosis type 1."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "NF1 nerve stroma alarmin: TSLP from the NF1-deficient peripheral nerve stroma activates mast cells (already mapped) and modulates the type-2 inflammatory microenvironment of the plexiform neurofibromas; TSLP-driven mast-cell activation promotes the NF1 neurofibroma growth."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Neurofibroma pain: bradykinin activates B2 receptors on NF1 neurofibroma cells and peripheral sensory neurons, amplifying the neuropathic pain (already mapped) and mechanical allodynia of the plexiform and dermal neurofibromas of neurofibromatosis type 1."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Neurofibroma ECM: periostin secreted by the NF1 neurofibroma-associated fibroblasts (already mapped) and mast cells (already mapped) promotes the integrin αV-mediated invasion and the fibrous matrix accumulation of the plexiform neurofibromas of neurofibromatosis type 1."
 ---
 
 # Neurofibromatosis Type 1
@@ -740,6 +749,9 @@ In glioma and MPNST: additional alterations required — MPNST requires CDKN2A/2
 - `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Tertiary lymphoid structures: the B cells organise the tertiary lymphoid structures whose presence, with the CD8 (already mapped) TILs, may mark the immune response within the neurofibromas of neurofibromatosis type 1.
 - `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Innate surveillance: the NK cells (perforin already mapped) provide the innate cytotoxic surveillance against the malignant (MPNST already mapped) transformation of the neurofibromas of neurofibromatosis type 1.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Neurofibroma complement: the complement C3 activation contributes to the inflammatory dimension of the mast-cell-rich (already mapped) neurofibroma microenvironment of neurofibromatosis type 1.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — NF1 nerve stroma alarmin: TSLP from the NF1-deficient peripheral nerve stroma activates mast cells (already mapped) and modulates the type-2 inflammatory microenvironment of the plexiform neurofibromas; TSLP-driven mast-cell activation promotes the NF1 neurofibroma growth.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Neurofibroma pain: bradykinin activates B2 receptors on NF1 neurofibroma cells and peripheral sensory neurons, amplifying the neuropathic pain (already mapped) and mechanical allodynia of the plexiform and dermal neurofibromas of neurofibromatosis type 1.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Neurofibroma ECM: periostin secreted by the NF1 neurofibroma-associated fibroblasts (already mapped) and mast cells (already mapped) promotes the integrin αV-mediated invasion and the fibrous matrix accumulation of the plexiform neurofibromas of neurofibromatosis type 1.
 
 [^gutmann-2017-nf1-primer]: Gutmann DH, Ferner RE, Listernick RH, et al. Neurofibromatosis type 1. *Nat Rev Dis Primers.* 2017;3:17004. [doi:10.1038/nrdp.2017.4](https://doi.org/10.1038/nrdp.2017.4) · [PubMed 28230061](https://pubmed.ncbi.nlm.nih.gov/28230061/)
 [^dombi-2016-selumetinib]: Dombi E, Baldwin A, Marcus LJ, et al. Activity of Selumetinib in Neurofibromatosis Type 1-Related Plexiform Neurofibromas. *N Engl J Med.* 2016;375(26):2550-2560. [doi:10.1056/NEJMoa1605943](https://doi.org/10.1056/NEJMoa1605943) · [PubMed 28029918](https://pubmed.ncbi.nlm.nih.gov/28029918/)

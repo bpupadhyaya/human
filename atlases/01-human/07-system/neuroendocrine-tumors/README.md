@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Tumour complement: the complement C3 activation contributes to the inflammatory dimension of the well-vascularised (VEGF already mapped) neuroendocrine tumour stroma."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Neuroendocrine stroma alarmin: TSLP from the desmoplastic NET stroma activates dendritic cells (already mapped) and mast cells (already mapped), shaping the immune microenvironment and driving the type-2 inflammatory stromal response of carcinoid and pancreatic NETs."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "NET immune surveillance: complement C5 (with C3 already mapped) drives complement-dependent cytotoxicity against NETs; C5a–C5aR1 (already mapped) recruits the myeloid infiltrate into the somatostatin-receptor-expressing carcinoid tumour stroma for immune surveillance."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Carcinoid desmoplastic stroma: periostin, downstream of TGF-β (already mapped), drives the fibrotic peritoneal carcinomatosis and cardiac fibrosis (heart already mapped) of the desmoplastic response to the carcinoid syndrome of midgut neuroendocrine tumours."
 ---
 
 # Neuroendocrine Tumors
@@ -732,6 +741,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β-driven inflammation participates in the tumor microenvironment of neuroendocrine tumors.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 alarmin signaling participates in the tumor-immune microenvironment of neuroendocrine tumors.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6-STAT3 signaling (STAT3 already mapped) participates in the tumor-microenvironment and survival signaling of neuroendocrine tumors.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Neuroendocrine stroma alarmin: TSLP from the desmoplastic NET stroma activates dendritic cells (already mapped) and mast cells (already mapped), shaping the immune microenvironment and driving the type-2 inflammatory stromal response of carcinoid and pancreatic NETs.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — NET immune surveillance: complement C5 (with C3 already mapped) drives complement-dependent cytotoxicity against NETs; C5a–C5aR1 (already mapped) recruits the myeloid infiltrate into the somatostatin-receptor-expressing carcinoid tumour stroma for immune surveillance.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Carcinoid desmoplastic stroma: periostin, downstream of TGF-β (already mapped), drives the fibrotic peritoneal carcinomatosis and cardiac fibrosis (heart already mapped) of the desmoplastic response to the carcinoid syndrome of midgut neuroendocrine tumours.
 
 [^yao-2011-radiant3]: Yao JC, Shah MH, Ito T, et al. Everolimus for advanced pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):514-523. [doi:10.1056/NEJMoa1009290](https://doi.org/10.1056/NEJMoa1009290) · [PubMed 21306237](https://pubmed.ncbi.nlm.nih.gov/21306237/)
 [^raymond-2011-sunitinib-pnet]: Raymond E, Dahan L, Raoul JL, et al. Sunitinib malate for the treatment of pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):501-513. [doi:10.1056/NEJMoa1003825](https://doi.org/10.1056/NEJMoa1003825) · [PubMed 21306236](https://pubmed.ncbi.nlm.nih.gov/21306236/)
