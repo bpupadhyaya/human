@@ -480,6 +480,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Reactive gliosis: periostin, a matricellular mediator, is part of the tissue-remodelling and reactive-gliosis response of the CNS to the West Nile virus encephalitis."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Neuro-epithelial alarmin: TSLP, released from the skin (already mapped) and mucosal barriers at the site of mosquito inoculation and during viraemia, activates mast cells (already mapped) and dendritic cells (already mapped), shaping the early innate response to West Nile virus."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Neuroprotective signal: erythropoietin, acting via EPOR on neurons (already mapped) and astrocytes (already mapped), attenuates the oxidative and neuroinflammatory damage of the West Nile virus encephalitis and promotes neuronal survival."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Antiviral chronobiotic: melatonin, via MT1/MT2 receptors on macrophages (already mapped) and NK cells (already mapped), inhibits NLRP3 inflammasome (already mapped) activation and reduces the neuroinflammatory cytokine storm of West Nile virus encephalitis."
 ---
 
 # West Nile Virus
@@ -754,3 +763,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — Coagulopathy: thrombin, at the interface of the contact (bradykinin already mapped) and coagulation systems, contributes to the microvascular coagulopathy and thromboinflammation of severe West Nile virus infection.
 - `connects-to` → **[Connexin43](../../03-molecular/connexin43/README.md)** — Astrocyte gap junctions: connexin43, the astrocyte (already mapped) gap-junction protein, is disrupted during the West Nile virus neuroinvasion, compromising the blood-brain-barrier integrity and glial coupling.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Reactive gliosis: periostin, a matricellular mediator, is part of the tissue-remodelling and reactive-gliosis response of the CNS to the West Nile virus encephalitis.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Neuro-epithelial alarmin: TSLP, released from the skin (already mapped) and mucosal barriers at the site of mosquito inoculation and during viraemia, activates mast cells (already mapped) and dendritic cells (already mapped), shaping the early innate response to West Nile virus.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Neuroprotective signal: erythropoietin, acting via EPOR on neurons (already mapped) and astrocytes (already mapped), attenuates the oxidative and neuroinflammatory damage of the West Nile virus encephalitis and promotes neuronal survival.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Antiviral chronobiotic: melatonin, via MT1/MT2 receptors on macrophages (already mapped) and NK cells (already mapped), inhibits NLRP3 inflammasome (already mapped) activation and reduces the neuroinflammatory cytokine storm of West Nile virus encephalitis.
