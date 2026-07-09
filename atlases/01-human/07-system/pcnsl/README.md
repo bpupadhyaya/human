@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/c5ar1
     relation: connects-to
     note: "C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) links the complement to the microglial (already mapped) and myeloid inflammation of the primary-CNS-lymphoma microenvironment."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "BBB-permeability therapy: bradykinin B2-receptor agonists (e.g. labradimil) have been used experimentally to transiently open the blood-brain barrier, enhancing the CNS delivery of the methotrexate that is central to primary-CNS-lymphoma treatment."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical-pathway brake: C1-esterase inhibitor regulates the classical complement pathway activated by the anti-CD20 (already mapped) rituximab in the CSF compartment, modulating complement-dependent cytotoxicity in primary CNS lymphoma."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Neuroinflammatory mediator: histamine, released by the CNS-infiltrating mast cells and tumour-associated macrophages (microglia already mapped) of primary CNS lymphoma, promotes the neuroinflammatory microenvironment and angiogenesis."
 ---
 
 # Primary CNS Lymphoma
@@ -741,6 +750,9 @@ Score 0-1: 2-year OS ~80%; Score 2-3: ~48%; Score 4-5: ~15%
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Rituximab CDC: the complement C3 activation is the initiating step of the complement-dependent cytotoxicity by which the anti-CD20 (already mapped) rituximab kills the primary-CNS-lymphoma B cells (already mapped).
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 (with C3 already mapped) is the effector of the membrane-attack complex of the rituximab complement-dependent cytotoxicity against primary CNS lymphoma.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) links the complement to the microglial (already mapped) and myeloid inflammation of the primary-CNS-lymphoma microenvironment.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — BBB-permeability therapy: bradykinin B2-receptor agonists (e.g. labradimil) have been used experimentally to transiently open the blood-brain barrier, enhancing the CNS delivery of the methotrexate that is central to primary-CNS-lymphoma treatment.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway brake: C1-esterase inhibitor regulates the classical complement pathway activated by the anti-CD20 (already mapped) rituximab in the CSF compartment, modulating complement-dependent cytotoxicity in primary CNS lymphoma.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Neuroinflammatory mediator: histamine, released by the CNS-infiltrating mast cells and tumour-associated macrophages (microglia already mapped) of primary CNS lymphoma, promotes the neuroinflammatory microenvironment and angiogenesis.
 
 [^bromberg-2019-hovon105]: Bromberg JE, Issa S, Bakunina K, et al. Rituximab in patients with primary CNS lymphoma (HOVON 105/ALLG NHL 24): a randomised, open-label, phase 3 intergroup study. *Lancet Oncol.* 2019;20(2):216-228. [doi:10.1016/S1470-2045(18)30747-2](https://doi.org/10.1016/S1470-2045(18)30747-2) · [PubMed 30528440](https://pubmed.ncbi.nlm.nih.gov/30528440/)
 [^grommes-2017-ibrutinib-pcnsl]: Grommes C, Pastore A, Palaskas N, et al. Ibrutinib unmasks critical role of Bruton tyrosine kinase in primary CNS lymphoma. *Cancer Cell.* 2017;31(6):833-843. [doi:10.1016/j.ccell.2017.04.012](https://doi.org/10.1016/j.ccell.2017.04.012) · [PubMed 28552327](https://pubmed.ncbi.nlm.nih.gov/28552327/)

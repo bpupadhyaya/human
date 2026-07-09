@@ -481,6 +481,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Erosion iron: transferrin, the iron carrier, reflects the disordered iron handling of the anaemia of the chronic mucocutaneous erosions and the systemic inflammation of pemphigus vulgaris."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Blister-fluid kinin: bradykinin accumulates in the blister fluid of pemphigus vulgaris, amplifying the painful mucosal oedema and pain at desmosome-disrupted erosions where the kallikrein-kinin system is activated by local proteases."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Erosion-related anaemia: the chronic cutaneous and mucosal protein loss of extensive pemphigus vulgaris drives a normocytic anaemia; erythropoietin supports erythropoiesis in patients requiring prolonged immunosuppressive therapy."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Autoimmune amplifier: hyperprolactinaemia can exacerbate autoimmune bullous diseases including pemphigus vulgaris by promoting B-cell survival and autoantibody production, a recognised neuro-endocrine–immune axis in organ-specific autoimmunity."
 ---
 
 # Pemphigus Vulgaris
@@ -779,6 +788,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) activated on the anti-desmoglein-3 (already mapped) immune complexes at the keratinocyte surface in pemphigus vulgaris.
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway activated by the anti-desmoglein-3 IgG (immunoglobulin already mapped) at the desmosome in pemphigus vulgaris.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Erosion iron: transferrin, the iron carrier, reflects the disordered iron handling of the anaemia of the chronic mucocutaneous erosions and the systemic inflammation of pemphigus vulgaris.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Blister-fluid kinin: bradykinin accumulates in the blister fluid of pemphigus vulgaris, amplifying the painful mucosal oedema and pain at desmosome-disrupted erosions where the kallikrein-kinin system is activated by local proteases.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Erosion-related anaemia: the chronic cutaneous and mucosal protein loss of extensive pemphigus vulgaris drives a normocytic anaemia; erythropoietin supports erythropoiesis in patients requiring prolonged immunosuppressive therapy.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Autoimmune amplifier: hyperprolactinaemia can exacerbate autoimmune bullous diseases including pemphigus vulgaris by promoting B-cell survival and autoantibody production, a recognised neuro-endocrine–immune axis in organ-specific autoimmunity.
 
 ---
 
