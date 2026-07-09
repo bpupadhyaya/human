@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/c5ar1
     relation: connects-to
     note: "C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid (macrophage already mapped) recruitment into the thyroid-cancer stroma."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Stromal alarmin: TSLP released from the thyroid-cancer stroma (fibroblast already mapped) activates mast cells (already mapped) and dendritic cells (already mapped), promoting the type-2 immunosuppressive microenvironment that blunts cytotoxic anti-tumour immunity."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell effector: histamine, released by the mast cells (already mapped) infiltrating the thyroid-cancer stroma, amplifies the type-2 immune bias and modulates angiogenesis (VEGF already mapped) in the thyroid-cancer microenvironment."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "ECM invasion scaffold: periostin, an extracellular matrix glycoprotein, is upregulated in the thyroid-cancer stroma (fibroblast already mapped) and promotes the invasion and the epithelial-mesenchymal transition (TGF-β already mapped) of papillary and anaplastic thyroid cancer."
 ---
 
 # Thyroid Cancer
@@ -771,6 +780,9 @@ Calcitonin doubling time <6 months → poor prognosis → early systemic therapy
 - `connects-to` → **[Plasma cell](../../04-cellular/plasma-cell/README.md)** — Anti-thyroid antibodies: the plasma cells secrete the anti-thyroglobulin/anti-TPO antibodies (already mapped) of the Hashimoto-thyroiditis background associated with the papillary thyroid cancer.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement: the complement C3 activation contributes to the inflammatory dimension of the thyroiditis-associated background and the immune microenvironment of thyroid cancer.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid (macrophage already mapped) recruitment into the thyroid-cancer stroma.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Stromal alarmin: TSLP released from the thyroid-cancer stroma (fibroblast already mapped) activates mast cells (already mapped) and dendritic cells (already mapped), promoting the type-2 immunosuppressive microenvironment that blunts cytotoxic anti-tumour immunity.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell effector: histamine, released by the mast cells (already mapped) infiltrating the thyroid-cancer stroma, amplifies the type-2 immune bias and modulates angiogenesis (VEGF already mapped) in the thyroid-cancer microenvironment.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — ECM invasion scaffold: periostin, an extracellular matrix glycoprotein, is upregulated in the thyroid-cancer stroma (fibroblast already mapped) and promotes the invasion and the epithelial-mesenchymal transition (TGF-β already mapped) of papillary and anaplastic thyroid cancer.
 
 [^schlumberger-2015-lenvatinib]: Schlumberger M, Tahara M, Wirth LJ, et al. Lenvatinib versus placebo in radioiodine-refractory differentiated thyroid cancer. *N Engl J Med.* 2015;372(7):621-630. [doi:10.1056/NEJMoa1406470](https://doi.org/10.1056/NEJMoa1406470) · [PubMed 25671254](https://pubmed.ncbi.nlm.nih.gov/25671254/)
 [^subbiah-2018-atc-dabrafenib]: Subbiah V, Kreitman RJ, Wainberg ZA, et al. Dabrafenib and trametinib treatment in patients with locally advanced or metastatic BRAF V600-mutant anaplastic thyroid cancer. *J Clin Oncol.* 2018;36(1):7-13. [doi:10.1200/JCO.2017.73.6785](https://doi.org/10.1200/JCO.2017.73.6785) · [PubMed 28892432](https://pubmed.ncbi.nlm.nih.gov/28892432/)
