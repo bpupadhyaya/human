@@ -481,6 +481,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "CNS-border antigen presentation: the dendritic cells of the CNS-border compartments are part of the neuroimmune interface implicated in the low-grade inflammation of panic disorder."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Airway-CNS axis: TSLP-driven airway inflammation underpins the asthma-panic disorder comorbidity; the shared sensitisation of the brainstem's CO2-sensitive locus coeruleus by airway alarmins links asthma and panic attacks."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Dyspnoea–panic trigger: bradykinin, released during respiratory inflammation, activates bronchial C-fibres that signal brainstem suffocation-detection circuits, directly precipitating panic attacks in sensitised individuals."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal neuroinflammation: C5 cleavage generates C5a, which via C5aR1 (already mapped) amplifies the low-grade neuroinflammation of the locus coeruleus and limbic circuits that regulate the fear-suffocation alarm implicated in panic disorder."
 ---
 
 # Panic Disorder
@@ -780,6 +789,9 @@ The **interoceptive fear conditioning model** (Bouton, Mineka, Barlow) explains 
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Neuroimmune complement: the complement C3 activation is part of the low-grade innate inflammation and the neuroinflammatory dimension implicated in panic disorder.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) contributes to the innate inflammatory dimension of the neuroimmune interaction in panic disorder.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — CNS-border antigen presentation: the dendritic cells of the CNS-border compartments are part of the neuroimmune interface implicated in the low-grade inflammation of panic disorder.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Airway-CNS axis: TSLP-driven airway inflammation underpins the asthma-panic disorder comorbidity; the shared sensitisation of the brainstem's CO2-sensitive locus coeruleus by airway alarmins links asthma and panic attacks.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Dyspnoea–panic trigger: bradykinin, released during respiratory inflammation, activates bronchial C-fibres that signal brainstem suffocation-detection circuits, directly precipitating panic attacks in sensitised individuals.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal neuroinflammation: C5 cleavage generates C5a, which via C5aR1 (already mapped) amplifies the low-grade neuroinflammation of the locus coeruleus and limbic circuits that regulate the fear-suffocation alarm implicated in panic disorder.
 
 [^gorman-2000-panic-neurobiology]: Gorman JM, Kent JM, Sullivan GM, Coplan JD. Neuroanatomical hypothesis of panic disorder, revised. *Am J Psychiatry.* 2000;157(4):493-505. [doi:10.1176/appi.ajp.157.4.493](https://doi.org/10.1176/appi.ajp.157.4.493) · [PubMed 10739407](https://pubmed.ncbi.nlm.nih.gov/10739407/)
 [^nardi-2009-clonazepam-panic]: Nardi AE, Freire RC, Zin WA. Panic disorder and control of breathing. *Respir Physiol Neurobiol.* 2009;167(1):133-143. [doi:10.1016/j.resp.2008.07.011](https://doi.org/10.1016/j.resp.2008.07.011) · [PubMed 18708168](https://pubmed.ncbi.nlm.nih.gov/18708168/)

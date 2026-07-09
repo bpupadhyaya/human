@@ -481,6 +481,15 @@ cross_links:
   - target: 01-human/03-molecular/factor-h
     relation: connects-to
     note: "Complement evasion: the pancreatic-cancer cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped) within the desmoplastic microenvironment."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Stromal alarmin: TSLP released from the desmoplastic pancreatic stroma activates mast cells and promotes the Th2-skewed, immunosuppressive microenvironment that enables pancreatic cancer to evade cytotoxic immunity."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Desmoplastic scaffold: periostin, a TGF-β-induced ECM component, is a major constituent of the desmoplastic stroma that encases pancreatic cancer, promoting tumour cell survival, invasion and resistance to gemcitabine."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Cancer-cachexia anaemia: erythropoietin addresses the anaemia of the cancer-cachexia and chemotherapy-related marrow suppression in pancreatic cancer; EPOR expression on tumour cells has been documented."
 ---
 
 # Pancreatic Cancer
@@ -755,6 +764,9 @@ cross_links:
 - `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Tertiary lymphoid structures: the B cells organise the tertiary lymphoid structures whose presence, with the CD8 (already mapped) TILs, marks the rare immune-responsive subset of the immunologically cold pancreatic cancer.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its activation (with C3 and C5aR1 already mapped) contribute to the myeloid-driven immunosuppression of the pancreatic-cancer microenvironment.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the pancreatic-cancer cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped) within the desmoplastic microenvironment.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Stromal alarmin: TSLP released from the desmoplastic pancreatic stroma activates mast cells and promotes the Th2-skewed, immunosuppressive microenvironment that enables pancreatic cancer to evade cytotoxic immunity.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Desmoplastic scaffold: periostin, a TGF-β-induced ECM component, is a major constituent of the desmoplastic stroma that encases pancreatic cancer, promoting tumour cell survival, invasion and resistance to gemcitabine.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Cancer-cachexia anaemia: erythropoietin addresses the anaemia of the cancer-cachexia and chemotherapy-related marrow suppression in pancreatic cancer; EPOR expression on tumour cells has been documented.
 
 ---
 
