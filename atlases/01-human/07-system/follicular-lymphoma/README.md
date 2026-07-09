@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/fibronectin
     relation: connects-to
     note: "FDC-network matrix: fibronectin, an extracellular-matrix glycoprotein, is part of the provisional matrix of the follicular dendritic-cell network that nurtures the follicular-lymphoma cells."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-FL axis: TSLP, from the follicular-lymphoma stromal cells and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2-skewed immunosuppressive tumour microenvironment of follicular lymphoma."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-FL axis: bradykinin, via B1/B2 receptors on follicular-lymphoma tumour endothelium (already mapped) and mast cells (already mapped), augments vascular permeability, tumour oedema, and the inflammatory milieu of the follicular-lymphoma microenvironment."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "EPO-FL axis: erythropoietin, via the EPOR on follicular-lymphoma B cells (already mapped), activates the PI3K/AKT (already mapped) survival axis and modulates macrophage (already mapped) polarisation in the anaemia of follicular lymphoma."
 ---
 
 # Follicular Lymphoma
@@ -765,6 +774,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Stromal matricellular: periostin, a matricellular mediator, is part of the stromal remodelling of the follicular-lymphoma nodal microenvironment on which the tumour depends.
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Nodal architecture: collagen, the extracellular-matrix scaffold, supports the follicular dendritic-cell network and the nodal architecture of the follicular-lymphoma microenvironment.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — FDC-network matrix: fibronectin, an extracellular-matrix glycoprotein, is part of the provisional matrix of the follicular dendritic-cell network that nurtures the follicular-lymphoma cells.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-FL axis: TSLP, from the follicular-lymphoma stromal cells and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2-skewed immunosuppressive tumour microenvironment of follicular lymphoma.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-FL axis: bradykinin, via B1/B2 receptors on follicular-lymphoma tumour endothelium (already mapped) and mast cells (already mapped), augments vascular permeability, tumour oedema, and the inflammatory milieu of the follicular-lymphoma microenvironment.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — EPO-FL axis: erythropoietin, via the EPOR on follicular-lymphoma B cells (already mapped), activates the PI3K/AKT (already mapped) survival axis and modulates macrophage (already mapped) polarisation in the anaemia of follicular lymphoma.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

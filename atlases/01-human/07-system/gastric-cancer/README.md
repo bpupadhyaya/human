@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Blood-loss iron: transferrin, the iron carrier, reflects the iron-deficiency anaemia of the chronic gastrointestinal blood loss and the iron demand of gastric cancer."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-GC axis: TSLP, from the H. pylori (already mapped)-infected gastric epithelium and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2-skewed immunosuppressive microenvironment of gastric cancer."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-GC axis: bradykinin, via B1/B2 receptors on gastric-cancer endothelium (already mapped) and mast cells (already mapped), augments the vascular permeability, tumour oedema, and the H. pylori (already mapped)-driven inflammatory milieu of gastric cancer."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "EPO-GC axis: erythropoietin, induced by the HIF-1α (already mapped) hypoxia and the iron-deficiency anaemia of gastric cancer, activates the EPOR on tumour cells (already mapped) and modulates macrophage (already mapped) polarisation in the tumour microenvironment."
 ---
 
 # Gastric Cancer
@@ -786,6 +795,9 @@ H. pylori eradication: Reduces GC incidence by ~35-40% (meta-analyses); most ben
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 and C5aR1 already mapped) contribute to the inflammatory dimension of the Helicobacter-associated gastric-cancer microenvironment.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the gastric-cancer cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), tempering the complement attack within the tumour stroma.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Blood-loss iron: transferrin, the iron carrier, reflects the iron-deficiency anaemia of the chronic gastrointestinal blood loss and the iron demand of gastric cancer.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-GC axis: TSLP, from the H. pylori (already mapped)-infected gastric epithelium and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2-skewed immunosuppressive microenvironment of gastric cancer.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-GC axis: bradykinin, via B1/B2 receptors on gastric-cancer endothelium (already mapped) and mast cells (already mapped), augments the vascular permeability, tumour oedema, and the H. pylori (already mapped)-driven inflammatory milieu of gastric cancer.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — EPO-GC axis: erythropoietin, induced by the HIF-1α (already mapped) hypoxia and the iron-deficiency anaemia of gastric cancer, activates the EPOR on tumour cells (already mapped) and modulates macrophage (already mapped) polarisation in the tumour microenvironment.
 
 [^bang-2010-toga]: Bang YJ, Van Cutsem E, Feyereislova A, et al. Trastuzumab in combination with chemotherapy versus chemotherapy alone for treatment of HER2-positive advanced gastric or gastro-oesophageal junction cancer (ToGA): a phase 3, open-label, randomised controlled trial. *Lancet.* 2010;376(9742):687-697. [doi:10.1016/S0140-6736(10)61121-X](https://doi.org/10.1016/S0140-6736(10)61121-X) · [PubMed 20728210](https://pubmed.ncbi.nlm.nih.gov/20728210/)
 [^janjigian-2021-checkmate649]: Janjigian YY, Shitara K, Moehler M, et al. First-line nivolumab plus chemotherapy versus chemotherapy alone for advanced gastric, gastro-oesophageal junction, and oesophageal adenocarcinoma (CheckMate 649). *Lancet.* 2021;398(10294):27-40. [doi:10.1016/S0140-6736(21)00797-2](https://doi.org/10.1016/S0140-6736(21)00797-2) · [PubMed 34102137](https://pubmed.ncbi.nlm.nih.gov/34102137/)
