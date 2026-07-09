@@ -462,6 +462,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Striatal iron: transferrin, the iron carrier, is central to the iron accumulation in the striatum that drives the oxidative stress and ferroptosis contributing to the neurodegeneration of Huntington's disease."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H downregulates the overactivated alternative pathway (C3, C5 and C5aR1 already mapped) in the HD striatum, where reduced factor-H expression contributes to complement-mediated synaptic pruning and neurodegeneration."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Neuroprotective VDR: vitamin D (VDR expressed in HD striatal neurons) reduces mHTT-mediated oxidative stress (NRF2 already mapped) and microglial activation; low serum vitamin D associates with faster motor and cognitive decline in HD."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin neuroinflammation: bradykinin, via B2 receptors on astrocytes (already mapped) and neurons (already mapped), amplifies glutamate (already mapped) excitotoxicity and NF-kB (already mapped) neuroinflammation in the HD striatum."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -661,3 +670,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — Complement C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the microglial (already mapped) activation and the complement-mediated synapse loss of the striatal degeneration of Huntington's disease.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its activation (with C3 already mapped) contribute to the complement-driven neuroinflammation of Huntington's disease.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Striatal iron: transferrin, the iron carrier, is central to the iron accumulation in the striatum that drives the oxidative stress and ferroptosis contributing to the neurodegeneration of Huntington's disease.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H downregulates the overactivated alternative pathway (C3, C5 and C5aR1 already mapped) in the HD striatum, where reduced factor-H expression contributes to complement-mediated synaptic pruning and neurodegeneration.
+- `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Neuroprotective VDR: vitamin D (VDR expressed in HD striatal neurons) reduces mHTT-mediated oxidative stress (NRF2 already mapped) and microglial activation; low serum vitamin D associates with faster motor and cognitive decline in HD.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin neuroinflammation: bradykinin, via B2 receptors on astrocytes (already mapped) and neurons (already mapped), amplifies glutamate (already mapped) excitotoxicity and NF-κB (already mapped) neuroinflammation in the HD striatum.

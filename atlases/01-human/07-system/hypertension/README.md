@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/c5ar1
     relation: connects-to
     note: "C5a receptor: the C5aR1 signalling links the complement to the myeloid (macrophage already mapped) and T-cell (already mapped) vascular inflammation of hypertension."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Renal complement regulation: factor H regulates the alternative pathway (C3, C5 and C5aR1 already mapped), protecting glomerular (already mapped) and podocyte (already mapped) cells from complement-mediated injury in hypertensive nephropathy."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement and kinin control: C1-INH regulates the classical complement pathway (C3, C5 already mapped) and the bradykinin (already mapped) kinin-kallikrein axis; deficiency amplifies complement-mediated renal injury and vascular bradykinin dysregulation in hypertension."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "EPO-mediated vasoconstriction: erythropoietin, produced by the kidney (already mapped), directly vasoconstricts endothelial cells (already mapped) and raises blood pressure; ESA therapy in CKD (already mapped) hypertension is a recognised EPO-induced side effect."
 ---
 
 # Hypertension
@@ -718,6 +727,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Vascular complement: the complement C3 activation contributes to the immune and endothelial (already mapped) vascular inflammation of the salt-sensitive and immune-mediated hypertension.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its activation (with C3 already mapped) contribute to the end-organ (kidney and heart already mapped) damage of hypertension.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling links the complement to the myeloid (macrophage already mapped) and T-cell (already mapped) vascular inflammation of hypertension.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Renal complement regulation: factor H regulates the alternative pathway (C3, C5 and C5aR1 already mapped), protecting glomerular (already mapped) and podocyte (already mapped) cells from complement-mediated injury in hypertensive nephropathy.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement and kinin control: C1-INH regulates the classical complement pathway (C3, C5 already mapped) and the bradykinin (already mapped) kinin-kallikrein axis; deficiency amplifies complement-mediated renal injury and vascular bradykinin dysregulation in hypertension.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — EPO-mediated vasoconstriction: erythropoietin, produced by the kidney (already mapped), directly vasoconstricts endothelial cells (already mapped) and raises blood pressure; ESA therapy in CKD (already mapped) hypertension is a recognised EPO-induced side effect.
 
 ## Pathology
 
