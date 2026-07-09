@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "CNS-border antigen presentation: the dendritic cells of the CNS-border compartments are part of the neuroimmune interface implicated in the neuroinflammation of stimulant use disorder."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-neuroimmune axis: TSLP, from barrier epithelium and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2/Treg imbalance of the neuroinflammatory dimension of stimulant use disorder."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-neuroinflammation axis: bradykinin, via B1/B2 receptors on microglia (already mapped) and endothelium, amplifies the blood-brain-barrier disruption and the neuroinflammation of stimulant use disorder."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Neuroprotective cytokine: erythropoietin, via the EPOR on neurons and microglia (already mapped), reduces oxidative stress and apoptosis in the neuroinflammatory dimension of stimulant use disorder."
 ---
 
 # Stimulant Use Disorder
@@ -761,6 +770,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 already mapped) are part of the complement activation of the neuroinflammation implicated in stimulant use disorder.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) links the complement to the microglial (already mapped) neuroinflammation of the reward-circuit dimension of stimulant use disorder.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — CNS-border antigen presentation: the dendritic cells of the CNS-border compartments are part of the neuroimmune interface implicated in the neuroinflammation of stimulant use disorder.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-neuroimmune axis: TSLP, from barrier epithelium and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2/Treg imbalance of the neuroinflammatory dimension of stimulant use disorder.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-neuroinflammation axis: bradykinin, via B1/B2 receptors on microglia (already mapped) and endothelium, amplifies the blood-brain-barrier disruption and the neuroinflammation of stimulant use disorder.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Neuroprotective cytokine: erythropoietin, via the EPOR on neurons and microglia (already mapped), reduces oxidative stress and apoptosis in the neuroinflammatory dimension of stimulant use disorder.
 
 ## Treatment
 

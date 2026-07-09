@@ -487,6 +487,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Infiltrating myeloid cells: the blood-derived macrophages, with the resident microglia (already mapped), clear the debris and shape the injury-versus-repair balance of the ischaemic brain after stroke."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-vascular axis: TSLP, from ischaemic endothelium and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2/Treg imbalance of the post-stroke neuroinflammation of stroke."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-oedema axis: bradykinin, via the B2 receptors on brain endothelium, drives the post-ischaemic blood-brain-barrier opening and the vasogenic oedema of the ischaemic brain in stroke."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Neuroprotective cytokine: erythropoietin, via the EPOR on neurons and astrocytes (already mapped), reduces the infarct volume and the apoptosis of the ischaemic neurons in stroke."
 ---
 
 # Stroke
@@ -747,6 +756,9 @@ Normal brain maintains CBF constant (50-150 mmHg MAP range) via autoregulation (
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 and C5aR1 already mapped) generate the membrane-attack complex of the complement-mediated ischaemia-reperfusion injury of the brain in stroke.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the complement-mediated injury of the ischaemic brain in stroke.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Infiltrating myeloid cells: the blood-derived macrophages, with the resident microglia (already mapped), clear the debris and shape the injury-versus-repair balance of the ischaemic brain after stroke.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-vascular axis: TSLP, from ischaemic endothelium and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2/Treg imbalance of the post-stroke neuroinflammation of stroke.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-oedema axis: bradykinin, via the B2 receptors on brain endothelium, drives the post-ischaemic blood-brain-barrier opening and the vasogenic oedema of the ischaemic brain in stroke.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Neuroprotective cytokine: erythropoietin, via the EPOR on neurons and astrocytes (already mapped), reduces the infarct volume and the apoptosis of the ischaemic neurons in stroke.
 
 [^powers-2019-aha-stroke]: Powers WJ, Rabinstein AA, Ackerson T, et al. Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines. *Stroke.* 2019;50(12):e344-e418. [doi:10.1161/STR.0000000000000211](https://doi.org/10.1161/STR.0000000000000211) · [PubMed 31662037](https://pubmed.ncbi.nlm.nih.gov/31662037/)
 [^feigin-2021-gbd-stroke]: Feigin VL, Krishnamurthi RV, Parmar P, et al. Update on the Global Burden of Ischemic and Hemorrhagic Stroke in 1990-2013. *Neuroepidemiology.* 2015;45(3):161-176. [doi:10.1159/000441085](https://doi.org/10.1159/000441085) · [PubMed 26505981](https://pubmed.ncbi.nlm.nih.gov/26505981/)
