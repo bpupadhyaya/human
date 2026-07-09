@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/04-cellular/mast-cell
     relation: connects-to
     note: "Microenvironment mast cells: the mast cells of the marrow and lymph-node stroma contribute to the supportive microenvironment of chronic lymphocytic leukaemia."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-TME axis: TSLP, from marrow stromal cells and mast cells (already mapped), drives CLL-cell survival and proliferation via the TSLPR/JAK2/STAT5 axis, promoting the immunosuppressive microenvironment of CLL."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-marrow axis: bradykinin, via B1/B2 receptors on marrow endothelium (already mapped) and stromal cells, amplifies the vascular permeability and the cytokine milieu of the CLL marrow microenvironment."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Erythropoietic support: erythropoietin supports the management of the autoimmune haemolytic and the myelosuppressive-treatment-induced anaemia of chronic lymphocytic leukaemia."
 ---
 
 # CLL
@@ -752,6 +761,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway of the anti-CD20 (already mapped) rituximab/obinutuzumab complement-dependent cytotoxicity against the chronic-lymphocytic-leukaemia cells.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Autoimmune-haemolysis iron: transferrin, the iron carrier, reflects the disordered iron handling of the autoimmune haemolytic anaemia and the marrow-infiltration anaemia of chronic lymphocytic leukaemia.
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Microenvironment mast cells: the mast cells of the marrow and lymph-node stroma contribute to the supportive microenvironment of chronic lymphocytic leukaemia.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-TME axis: TSLP, from marrow stromal cells and mast cells (already mapped), drives CLL-cell survival and proliferation via the TSLPR/JAK2/STAT5 axis, promoting the immunosuppressive microenvironment of CLL.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-marrow axis: bradykinin, via B1/B2 receptors on marrow endothelium (already mapped) and stromal cells, amplifies the vascular permeability and the cytokine milieu of the CLL marrow microenvironment.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Erythropoietic support: erythropoietin supports the management of the autoimmune haemolytic and the myelosuppressive-treatment-induced anaemia of chronic lymphocytic leukaemia.
 
 ---
 

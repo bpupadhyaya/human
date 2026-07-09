@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Leukaemia iron: transferrin, the iron carrier, reflects the disordered iron handling of the anaemia and the high cell turnover of chronic myeloid leukaemia."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-marrow axis: TSLP, from marrow stromal cells and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2/Treg imbalance of the inflammatory leukaemia marrow microenvironment of CML."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-marrow axis: bradykinin, via B1/B2 receptors on marrow endothelium (already mapped) and BCR-ABL-driven stromal cells, amplifies the vascular permeability and the cytokine milieu of the CML marrow microenvironment."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Erythropoietic failure: the BCR-ABL-driven CML leukaemia marrow (already mapped) displaces the normal erythropoiesis, and erythropoietin supports the management of the anaemia of CML."
 ---
 
 # Chronic Myeloid Leukemia
@@ -752,6 +761,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 and C5aR1 already mapped) are part of the myeloid inflammatory dimension of the chronic-myeloid-leukaemia marrow microenvironment.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the inflammatory marrow niche of chronic myeloid leukaemia.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Leukaemia iron: transferrin, the iron carrier, reflects the disordered iron handling of the anaemia and the high cell turnover of chronic myeloid leukaemia.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-marrow axis: TSLP, from marrow stromal cells and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2/Treg imbalance of the inflammatory leukaemia marrow microenvironment of CML.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-marrow axis: bradykinin, via B1/B2 receptors on marrow endothelium (already mapped) and BCR-ABL-driven stromal cells, amplifies the vascular permeability and the cytokine milieu of the CML marrow microenvironment.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Erythropoietic failure: the BCR-ABL-driven CML leukaemia marrow (already mapped) displaces the normal erythropoiesis, and erythropoietin supports the management of the anaemia of CML.
 
 ---
 
