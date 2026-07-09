@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "β-cell iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) implicated in the oxidative β-cell stress of type 1 diabetes."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-DC axis: TSLP, released from gut-epithelial (gut-microbiome already mapped) and skin (already mapped) barriers, activates mast cells (already mapped) and dendritic cells (already mapped), shaping the Th2/Th1 immune balance in the islet autoimmunity of type 1 diabetes."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-islet axis: bradykinin, generated in the inflamed pancreas (already mapped) by the kallikrein-kinin system, amplifies the macrophage (already mapped) and T-cell (already mapped) islet infiltration and augments endothelial permeability in the insulitis of type 1 diabetes."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Erythropoiesis support: erythropoietin counteracts the anaemia of chronic disease driven by the renal (already mapped) and inflammatory complications and the hepcidin (already mapped) dysregulation of advanced type 1 diabetes."
 ---
 
 # Type 1 Diabetes
@@ -735,6 +744,9 @@ cross_links:
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the complement activation in the inflamed islets of type 1 diabetes.
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway activated in the islet autoimmunity of type 1 diabetes, and C1-INH has been explored as an islet-protective therapy.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — β-cell iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) implicated in the oxidative β-cell stress of type 1 diabetes.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-DC axis: TSLP, released from gut-epithelial (gut-microbiome already mapped) and skin (already mapped) barriers, activates mast cells (already mapped) and dendritic cells (already mapped), shaping the Th2/Th1 immune balance in the islet autoimmunity of type 1 diabetes.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-islet axis: bradykinin, generated in the inflamed pancreas (already mapped) by the kallikrein-kinin system, amplifies the macrophage (already mapped) and T-cell (already mapped) islet infiltration and augments endothelial permeability in the insulitis of type 1 diabetes.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Erythropoiesis support: erythropoietin counteracts the anaemia of chronic disease driven by the renal (already mapped) and inflammatory complications and the hepcidin (already mapped) dysregulation of advanced type 1 diabetes.
 
 [^atkinson-2014-t1d-lancet]: Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. *Lancet.* 2014;383(9911):69-82. [doi:10.1016/S0140-6736(13)60591-7](https://doi.org/10.1016/S0140-6736(13)60591-7) · [PubMed 23890997](https://pubmed.ncbi.nlm.nih.gov/23890997/)
 [^herold-2019-teplizumab-t1d]: Herold KC, Bundy BN, Long SA, et al. An anti-CD3 antibody, teplizumab, in relatives at risk for type 1 diabetes. *N Engl J Med.* 2019;381(7):603-613. [doi:10.1056/NEJMoa1905155](https://doi.org/10.1056/NEJMoa1905155) · [PubMed 31180675](https://pubmed.ncbi.nlm.nih.gov/31180675/)
