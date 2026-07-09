@@ -476,6 +476,15 @@ cross_links:
   - target: 01-human/04-cellular/b-cell
     relation: connects-to
     note: "Dermal B cells: the B cells, upstream of the plasma cells (already mapped), contribute to the humoral and organised immune response of the cutaneous immunity of the integumentary system."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Cutaneous kinin signalling: bradykinin, released from skin mast cells (already mapped) and by kallikrein-driven contact activation in wounded epidermis, amplifies the vasodilatation, pruritus, and neurogenic inflammation of the integumentary system."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement/kinin gate: C1-esterase inhibitor restrains classical complement (C3, C5 and C5aR1 already mapped) and contact-kinin (bradykinin already mapped) activation at the epidermal barrier, controlling the inflammatory response of the integumentary system."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Epidermal EPO axis: erythropoietin, produced locally by dermal fibroblasts (already mapped) and keratinocytes under hypoxic stress (HIF-1α already mapped), supports wound healing (already mapped), epithelial repair, and angiogenesis of the integumentary system."
 ---
 
 # Integumentary System
@@ -734,6 +743,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 and C5aR1 already mapped) complete the complement cascade of the innate cutaneous defence of the integumentary system.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) on the skin surface, restraining the complement attack on the host tissue of the integumentary system.
 - `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Dermal B cells: the B cells, upstream of the plasma cells (already mapped), contribute to the humoral and organised immune response of the cutaneous immunity of the integumentary system.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Cutaneous kinin signalling: bradykinin, released from skin mast cells (already mapped) and by kallikrein-driven contact activation in wounded epidermis, amplifies the vasodilatation, pruritus, and neurogenic inflammation of the integumentary system.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement/kinin gate: C1-esterase inhibitor restrains classical complement (C3, C5 and C5aR1 already mapped) and contact-kinin (bradykinin already mapped) activation at the epidermal barrier, controlling the inflammatory response of the integumentary system.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Epidermal EPO axis: erythropoietin, produced locally by dermal fibroblasts (already mapped) and keratinocytes under hypoxic stress (HIF-1α already mapped), supports wound healing (already mapped), epithelial repair, and angiogenesis of the integumentary system.
 
 ## Pathology
 
