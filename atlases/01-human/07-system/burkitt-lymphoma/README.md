@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "MYC-driven iron: transferrin, the iron carrier, supplies the high iron demand of the MYC-driven (already mapped) rapid proliferation of Burkitt lymphoma."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-TME axis: TSLP, from stromal cells and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2 immunosuppression of the Burkitt-lymphoma microenvironment."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-lymphoma axis: bradykinin, via B1/B2 receptors on tumour endothelium (already mapped) and mast cells (already mapped), amplifies the vascular permeability and the cytokine milieu of the Burkitt-lymphoma microenvironment."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Erythropoietic support: erythropoietin supports the management of the myelosuppressive-chemotherapy-induced anaemia of the intensive treatment of Burkitt lymphoma."
 ---
 
 # Burkitt Lymphoma
@@ -774,6 +783,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway of the anti-CD20 (already mapped) rituximab complement-dependent cytotoxicity against the Burkitt-lymphoma cells.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Microenvironment matricellular: osteopontin, a matricellular cytokine, is part of the inflammatory microenvironment of the highly proliferative Burkitt lymphoma.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — MYC-driven iron: transferrin, the iron carrier, supplies the high iron demand of the MYC-driven (already mapped) rapid proliferation of Burkitt lymphoma.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-TME axis: TSLP, from stromal cells and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2 immunosuppression of the Burkitt-lymphoma microenvironment.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-lymphoma axis: bradykinin, via B1/B2 receptors on tumour endothelium (already mapped) and mast cells (already mapped), amplifies the vascular permeability and the cytokine milieu of the Burkitt-lymphoma microenvironment.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Erythropoietic support: erythropoietin supports the management of the myelosuppressive-chemotherapy-induced anaemia of the intensive treatment of Burkitt lymphoma.
 
 ---
 

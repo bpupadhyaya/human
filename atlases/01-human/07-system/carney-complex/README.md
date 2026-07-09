@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/c5ar1
     relation: connects-to
     note: "C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the myeloid (macrophage already mapped) recruitment into the Carney-complex tumour stroma."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-TME axis: TSLP, from skin and cardiac myxoma stromal cells (already mapped) and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2 immunosuppression of the Carney-complex tumours."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-tumour axis: bradykinin, via B1/B2 receptors on tumour endothelium (already mapped) and mast cells (already mapped), amplifies the vascular permeability and the cytokine milieu of the cardiac myxoma and the skin tumour microenvironment of Carney complex."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Tumour-EPO axis: erythropoietin, via the EPOR on tumour stromal cells (already mapped) and endothelium (already mapped), modulates the angiogenic (already mapped) and the survival dimension of the Carney-complex tumours."
 ---
 
 # Carney Complex
@@ -761,6 +770,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumour macrophages: the macrophages of the tumour stroma contribute to the immune microenvironment and the angiogenesis (VEGF already mapped) of the Carney-complex tumours.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 already mapped) contribute to the inflammatory dimension of the Carney-complex tumour microenvironment.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the myeloid (macrophage already mapped) recruitment into the Carney-complex tumour stroma.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-TME axis: TSLP, from skin and cardiac myxoma stromal cells (already mapped) and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2 immunosuppression of the Carney-complex tumours.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-tumour axis: bradykinin, via B1/B2 receptors on tumour endothelium (already mapped) and mast cells (already mapped), amplifies the vascular permeability and the cytokine milieu of the cardiac myxoma and the skin tumour microenvironment of Carney complex.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Tumour-EPO axis: erythropoietin, via the EPOR on tumour stromal cells (already mapped) and endothelium (already mapped), modulates the angiogenic (already mapped) and the survival dimension of the Carney-complex tumours.
 
 ---
 
