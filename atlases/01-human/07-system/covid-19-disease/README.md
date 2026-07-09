@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Hypoferraemia: transferrin, the iron carrier, reflects the marked hypoferraemia and disordered iron handling (hepcidin already mapped) of the acute-phase response of severe COVID-19."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Airway alarmin: TSLP from the SARS-CoV-2 (already mapped)-infected airway epithelium (alveolus already mapped) activates mast cells (already mapped) and pDCs (dendritic-cell already mapped), amplifying the type-2 hypersensitivity and cytokine storm of severe COVID-19."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Hypoxia-driven EPO: erythropoietin, induced by COVID-19 ARDS hypoxia (oxygen already mapped) via HIF-1α (already mapped), supports erythropoiesis and tissue-protective signalling; EPO may also modulate the long-COVID pulmonary-artery remodelling (PAH already mapped)."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell histamine storm: histamine, released by the mast cells (already mapped) activated by the SARS-CoV-2 (already mapped) spike protein, amplifies the vascular permeability, bronchoconstriction and the inflammatory cytokine (IL-6 already mapped) storm of severe COVID-19."
 ---
 
 # COVID-19 Disease
@@ -704,6 +713,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose dysregulation drives the complement-mediated thromboinflammation of severe COVID-19.
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement/kinin regulation: the C1-esterase inhibitor regulates both the lectin/classical complement and the contact-kinin (bradykinin already mapped) systems whose dysregulation is implicated in the vascular leak and thromboinflammation of severe COVID-19.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Hypoferraemia: transferrin, the iron carrier, reflects the marked hypoferraemia and disordered iron handling (hepcidin already mapped) of the acute-phase response of severe COVID-19.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Airway epithelial alarmin: TSLP released from the SARS-CoV-2 (already mapped)-infected airway epithelium (alveolus already mapped) and bronchial epithelium activates mast cells (already mapped) and pDCs (dendritic-cell already mapped), amplifying the type-2 hypersensitivity and cytokine storm of severe COVID-19.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Hypoxia-driven EPO: erythropoietin, induced by the severe hypoxia (oxygen already mapped) of COVID-19 ARDS via HIF-1α (already mapped), supports erythropoiesis and tissue-protective signalling; EPO may also modulate the pulmonary-artery vascular remodelling of long-COVID PAH (already mapped).
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell histamine storm: histamine, released by the mast cells (already mapped) activated by the SARS-CoV-2 (already mapped) spike protein, amplifies the vascular permeability, bronchoconstriction and the inflammatory cytokine (IL-6 already mapped) storm of severe COVID-19.
 
 ## Pathology
 
