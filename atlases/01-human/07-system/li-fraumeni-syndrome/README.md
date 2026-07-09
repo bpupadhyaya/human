@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/c5ar1
     relation: connects-to
     note: "C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid recruitment into the tumour stroma of the Li-Fraumeni cancers."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Immune-surveillance alarmin: TSLP activates NK cells and T cells, promoting anti-tumour immune surveillance that partially compensates for the p53-deficient apoptosis and immune-escape across the Li-Fraumeni tumour spectrum."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Treatment-related anaemia: erythropoietin counters the myelosuppression from chemoradiotherapy across the multiple primary cancers of Li-Fraumeni syndrome; EPO supports erythropoiesis and mitigates fatigue in TP53-germline carriers undergoing multimodal therapy."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Tumour-microenvironment mast cells: histamine released by the mast cells infiltrating LFS sarcoma and carcinoma stroma amplifies the IL-6 and NF-kB pro-tumour inflammation and promotes VEGF-driven angiogenesis of Li-Fraumeni tumours."
 ---
 
 # Li-Fraumeni Syndrome
@@ -778,6 +787,9 @@ Annual surveillance significantly reduces mortality in LFS carriers (Villani 201
 - `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Tertiary lymphoid structures: the B cells organise the tertiary lymphoid structures whose presence, with the CD8 (already mapped) TILs, may mark the immune response of the diverse Li-Fraumeni cancers.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumour-associated macrophages: the macrophages are the dominant myeloid population of the tumour microenvironment shared across the diverse TP53-mutant (p53 already mapped) Li-Fraumeni cancers.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid recruitment into the tumour stroma of the Li-Fraumeni cancers.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Immune-surveillance alarmin: TSLP activates NK cells and T cells, promoting anti-tumour immune surveillance that partially compensates for the p53-deficient apoptosis and immune-escape across the Li-Fraumeni tumour spectrum.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Treatment-related anaemia: erythropoietin counters the myelosuppression from chemoradiotherapy across the multiple primary cancers of Li-Fraumeni syndrome; EPO supports erythropoiesis and mitigates fatigue in TP53-germline carriers undergoing multimodal therapy.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Tumour-microenvironment mast cells: histamine released by the mast cells infiltrating LFS sarcoma and carcinoma stroma amplifies the IL-6 and NF-kB pro-tumour inflammation and promotes VEGF-driven angiogenesis of Li-Fraumeni tumours.
 
 [^bougeard-2015-lfs-chompret]: Bougeard G, Renaux-Petel M, Flaman JM, et al. Revisiting Li-Fraumeni Syndrome From TP53 Mutation Carriers. *J Clin Oncol.* 2015;33(21):2345-2352. [doi:10.1200/JCO.2014.59.5728](https://doi.org/10.1200/JCO.2014.59.5728) · [PubMed 26014290](https://pubmed.ncbi.nlm.nih.gov/26014290/)
 [^villani-2016-lfs-surveillance]: Villani A, Shore A, Wasserman JD, et al. Biochemical and imaging surveillance in germline TP53 mutation carriers with Li-Fraumeni syndrome: 11 year follow-up of a prospective observational study. *Lancet Oncol.* 2016;17(9):1295-1305. [doi:10.1016/S1470-2045(16)30249-2](https://doi.org/10.1016/S1470-2045(16)30249-2) · [PubMed 27501770](https://pubmed.ncbi.nlm.nih.gov/27501770/)
