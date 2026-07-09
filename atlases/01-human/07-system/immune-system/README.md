@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Immunomodulatory matricellular: osteopontin is a matricellular cytokine that promotes the Th1 and macrophage responses and the leukocyte migration of the immune system."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-contact system: bradykinin activates endothelial cells (already mapped) and mast cells (already mapped) via B2 receptors, amplifying vascular permeability and innate immune activation; the kinin-kallikrein cascade bridges complement (C3, C5 already mapped) and coagulation."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Iron delivery: transferrin shuttles iron (already mapped) to immune cells for metalloenzyme and mitochondrial function; transferrin saturation governs the iron availability that regulates lymphocyte (T- and B-cell already mapped) proliferation and activation."
+  - target: 03-medicine/03-food/curcumin
+    relation: connects-to
+    note: "NF-kB/JAK-STAT immunomodulator: curcumin inhibits NF-kB (already mapped) and JAK-STAT (already mapped) in macrophages (already mapped) and T cells (already mapped), suppressing IL-6, TNF-alpha and IL-1beta (all already mapped); a broad-spectrum phytochemical immunomodulator."
 ---
 
 # Immune System
@@ -661,6 +670,9 @@ After primary response contraction, long-lived memory cells persist:
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — Anaphylatoxin receptor: the C5aR1 is the receptor for the C5a anaphylatoxin, transducing the complement (C3, C5, factor H and C1-esterase inhibitor already mapped) signal into the myeloid chemotaxis and inflammation of the immune system.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Type-2 matricellular: periostin, downstream of the type-2 (IL-13 already mapped) cytokines, is a matricellular effector of the tissue remodelling and eosinophilic inflammation of the immune system.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Immunomodulatory matricellular: osteopontin is a matricellular cytokine that promotes the Th1 and macrophage responses and the leukocyte migration of the immune system.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-contact system: bradykinin activates endothelial cells (already mapped) and mast cells (already mapped) via B2 receptors, amplifying vascular permeability and innate immune activation; the kinin-kallikrein cascade bridges complement (C3, C5 already mapped) and coagulation.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Iron delivery: transferrin shuttles iron (already mapped) to immune cells for metalloenzyme and mitochondrial function; transferrin saturation governs the iron availability that regulates lymphocyte (T- and B-cell already mapped) proliferation and activation.
+- `connects-to` → **[Curcumin](../../../03-medicine/03-food/curcumin/README.md)** — NF-kB/JAK-STAT immunomodulator: curcumin inhibits NF-kB (already mapped) and JAK-STAT (already mapped) in macrophages (already mapped) and T cells (already mapped), suppressing IL-6, TNF-alpha and IL-1beta (all already mapped); a broad-spectrum phytochemical immunomodulator.
 
 ## Pathology
 

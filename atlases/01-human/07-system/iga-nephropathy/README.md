@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "CKD iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin and erythropoietin already mapped) of the anaemia of the chronic kidney disease of IgA nephropathy."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Epithelial alarmin: TSLP from intestinal epithelium (already mapped) and tonsil drives IgA class-switching (secretory IgA already mapped) and mucosal B-cell (already mapped) priming that underlies galactose-deficient IgA1 production in IgA nephropathy."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell mediator: histamine from renal mast cells (already mapped) increases vascular permeability and amplifies mesangial IgA (secretory IgA already mapped) deposition and complement (C3 already mapped) activation in IgA nephropathy."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin system: bradykinin activates podocytes (already mapped) and endothelial cells (already mapped) via B2 receptors, amplifying proteinuria and glomerular (already mapped) inflammation; ACE inhibitors (already mapped) reduce its catabolism, potentiating renoprotection in IgAN."
 ---
 
 # IgA Nephropathy
@@ -711,6 +720,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Lectin/classical regulation: the C1-esterase inhibitor regulates the lectin and classical complement pathways (with factor H, C3, C5 and C5aR1 already mapped) whose activation on the mesangial IgA immune complexes drives IgA nephropathy.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Renal fibrosis: periostin, downstream of the TGF-β (already mapped) signalling, is a matricellular mediator and biomarker of the tubulointerstitial fibrosis and progression of IgA nephropathy.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — CKD iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin and erythropoietin already mapped) of the anaemia of the chronic kidney disease of IgA nephropathy.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Epithelial alarmin: TSLP from intestinal epithelium (already mapped) and tonsil drives IgA class-switching (secretory IgA already mapped) and mucosal B-cell (already mapped) priming that underlies galactose-deficient IgA1 production in IgA nephropathy.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell mediator: histamine from renal mast cells (already mapped) increases vascular permeability and amplifies mesangial IgA (secretory IgA already mapped) deposition and complement (C3 already mapped) activation in IgA nephropathy.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin system: bradykinin activates podocytes (already mapped) and endothelial cells (already mapped) via B2 receptors, amplifying proteinuria and glomerular (already mapped) inflammation; ACE inhibitors (already mapped) reduce its catabolism, potentiating renoprotection in IgAN.
 
 ---
 
