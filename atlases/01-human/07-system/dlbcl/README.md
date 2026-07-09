@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Microenvironment matricellular: periostin, a matricellular mediator, is part of the stromal remodelling of the diffuse-large-B-cell-lymphoma microenvironment."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-DLBCL axis: TSLP, from the DLBCL stromal cells and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2-skewed immunosuppressive microenvironment of the diffuse-large-B-cell-lymphoma tumour niche."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-DLBCL axis: bradykinin, via B1/B2 receptors on DLBCL tumour endothelium (already mapped) and mast cells (already mapped), augments vascular permeability, tumour oedema, and the pro-inflammatory stromal milieu of diffuse-large-B-cell-lymphoma."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "EPO-DLBCL axis: erythropoietin, via the EPOR on DLBCL tumour cells (already mapped), activates the PI3K/AKT (already mapped) survival axis and modulates macrophage (already mapped) polarisation and the anaemia of the DLBCL tumour microenvironment."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -761,6 +770,9 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway of the anti-CD20 (already mapped) rituximab complement-dependent cytotoxicity against the diffuse-large-B-cell-lymphoma cells.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Lymphoma iron: transferrin, the iron carrier, supplies the iron demand of the proliferating lymphoma cells and reflects the anaemia of diffuse large B-cell lymphoma.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Microenvironment matricellular: periostin, a matricellular mediator, is part of the stromal remodelling of the diffuse-large-B-cell-lymphoma microenvironment.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-DLBCL axis: TSLP, from the DLBCL stromal cells and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2-skewed immunosuppressive microenvironment of the diffuse-large-B-cell-lymphoma tumour niche.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-DLBCL axis: bradykinin, via B1/B2 receptors on DLBCL tumour endothelium (already mapped) and mast cells (already mapped), augments vascular permeability, tumour oedema, and the pro-inflammatory stromal milieu of diffuse-large-B-cell-lymphoma.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — EPO-DLBCL axis: erythropoietin, via the EPOR on DLBCL tumour cells (already mapped), activates the PI3K/AKT (already mapped) survival axis and modulates macrophage (already mapped) polarisation and the anaemia of the DLBCL tumour microenvironment.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

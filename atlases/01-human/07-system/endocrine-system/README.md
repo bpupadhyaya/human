@@ -482,6 +482,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Glandular macrophages: the macrophages infiltrate the endocrine glands and, in the autoimmune endocrinopathies, contribute to the destruction of the hormone-producing cells of the endocrine system."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-endocrine axis: TSLP, from the thymic (already mapped) and thyroid (already mapped) epithelium, primes dendritic-cell (not yet mapped) Th2 polarisation and amplifies the autoimmune attack on the hormone-producing cells of the endocrine system."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-endocrine axis: bradykinin, via B1/B2 receptors on the vasculature of the adrenal gland (already mapped), thyroid (already mapped) and pancreas (already mapped), modulates glandular blood flow and the inflammatory response in the autoimmune endocrinopathies."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement/contact regulation: the C1-esterase inhibitor regulates the classical complement (C3 already mapped) and the contact-kinin system (bradykinin above) at the glandular vasculature of the endocrine organs, tempering autoimmune endocrine injury."
 ---
 
 # Endocrine System
@@ -794,6 +803,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 already mapped) contribute to the complement-mediated glandular injury of the autoimmune endocrinopathies of the endocrine system.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the myeloid recruitment into the inflamed endocrine glands of the autoimmune endocrinopathies.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Glandular macrophages: the macrophages infiltrate the endocrine glands and, in the autoimmune endocrinopathies, contribute to the destruction of the hormone-producing cells of the endocrine system.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-endocrine axis: TSLP, from the thymic (already mapped) and thyroid (already mapped) epithelium, primes dendritic-cell Th2 polarisation and amplifies the autoimmune attack on the hormone-producing cells of the endocrine system.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-endocrine axis: bradykinin, via B1/B2 receptors on the vasculature of the adrenal gland (already mapped), thyroid (already mapped) and pancreas (already mapped), modulates glandular blood flow and the inflammatory response in the autoimmune endocrinopathies.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement/contact regulation: the C1-esterase inhibitor regulates the classical complement (C3 already mapped) and the contact-kinin system (bradykinin above) at the glandular vasculature of the endocrine organs, tempering autoimmune endocrine injury.
 
 ## Pathology
 
