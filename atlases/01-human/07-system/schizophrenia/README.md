@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "Regulatory T cells: the regulatory T cells, reduced in the peripheral immune dysregulation of schizophrenia, normally restrain the neuroinflammation implicated in the disorder."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Neuroimmune alarmin: TSLP levels reflect the type-2 and mast-cell activation implicated in the maternal immune-activation hypothesis of schizophrenia, and the comorbid allergic/atopic conditions that frequently accompany the disorder."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "BBB neuroinflammation: bradykinin, elevated in the CSF and plasma of schizophrenia patients, increases blood-brain barrier permeability and contributes to the microglial (already mapped) neuroinflammation and complement (already mapped) activation."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Neuroprotective EPO: erythropoietin exerts neuroprotective effects on schizophrenia-relevant circuits via EPOR on neurons and glia; clinical trials of EPO have targeted the cognitive deficits and white-matter pathology of the disorder."
 ---
 
 # Schizophrenia
@@ -803,6 +812,9 @@ Notably, schizophrenia shares genetic loci with bipolar disorder, ASD, ADHD, maj
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway (C1q–C4–C3, with C3, C5 and C5aR1 already mapped) that drives the microglial (already mapped) synaptic pruning implicated in schizophrenia.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the complement-mediated synaptic pruning of schizophrenia.
 - `connects-to` → **[Regulatory T cell](../../04-cellular/regulatory-t-cell/README.md)** — Regulatory T cells: the regulatory T cells, reduced in the peripheral immune dysregulation of schizophrenia, normally restrain the neuroinflammation implicated in the disorder.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Neuroimmune alarmin: TSLP levels reflect the type-2 and mast-cell activation implicated in the maternal immune-activation hypothesis of schizophrenia, and the comorbid allergic/atopic conditions that frequently accompany the disorder.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — BBB neuroinflammation: bradykinin, elevated in the CSF and plasma of schizophrenia patients, increases blood-brain barrier permeability and contributes to the microglial (already mapped) neuroinflammation and complement (already mapped) activation.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Neuroprotective EPO: erythropoietin exerts neuroprotective effects on schizophrenia-relevant circuits via EPOR on neurons and glia; clinical trials of EPO have targeted the cognitive deficits and white-matter pathology of the disorder.
 
 [^howes-2009-dopamine-hypothesis]: Howes OD, Kapur S. The dopamine hypothesis of schizophrenia: version III—the final common pathway. *Schizophr Bull.* 2009;35(3):549-562. [doi:10.1093/schbul/sbp006](https://doi.org/10.1093/schbul/sbp006) · [PubMed 19325164](https://pubmed.ncbi.nlm.nih.gov/19325164/)
 [^moghaddam-2012-glutamate]: Moghaddam B, Javitt D. From revolution to evolution: the glutamate hypothesis of schizophrenia and its implication for treatment. *Neuropsychopharmacology.* 2012;37(1):4-15. [doi:10.1038/npp.2011.181](https://doi.org/10.1038/npp.2011.181) · [PubMed 21956446](https://pubmed.ncbi.nlm.nih.gov/21956446/)
