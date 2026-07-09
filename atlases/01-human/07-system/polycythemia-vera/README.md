@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "Innate surveillance: the NK cells (perforin already mapped) are part of the immune surveillance against the JAK2-mutant (already mapped) clone of polycythaemia vera."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Marrow alarmin: TSLP released by bone marrow stromal cells activates mast cells and dendritic cells, promoting the inflammatory myeloproliferative niche that sustains the JAK2-mutant clone of polycythaemia vera."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Thrombotic kinin: bradykinin from the kallikrein-kinin system is amplified by the polycythaemia-vera-associated erythrocytosis and thrombosis (JAK2 already mapped), promoting the vasodilatory response to the hypercoagulable state."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical-pathway brake: C1-esterase inhibitor modulates the classical complement pathway (complement C3, C5 and C5aR1 already mapped) that contributes to the thromboinflammatory state of polycythaemia vera."
 ---
 
 # Polycythemia Vera
@@ -749,6 +758,9 @@ PV must be distinguished from secondary erythrocytosis (elevated EPO, JAK2 wild-
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Central complement: the complement C3, upstream of the C5 and C5aR1 (already mapped), is the pivot of the complement-driven thromboinflammation of polycythaemia vera.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose dysregulation amplifies the thromboinflammation of polycythaemia vera.
 - `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Innate surveillance: the NK cells (perforin already mapped) are part of the immune surveillance against the JAK2-mutant (already mapped) clone of polycythaemia vera.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Marrow alarmin: TSLP released by bone marrow stromal cells activates mast cells and dendritic cells, promoting the inflammatory myeloproliferative niche that sustains the JAK2-mutant clone of polycythaemia vera.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Thrombotic kinin: bradykinin from the kallikrein-kinin system is amplified by the polycythaemia-vera-associated erythrocytosis and thrombosis (JAK2 already mapped), promoting the vasodilatory response to the hypercoagulable state.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway brake: C1-esterase inhibitor modulates the classical complement pathway (complement C3, C5 and C5aR1 already mapped) that contributes to the thromboinflammatory state of polycythaemia vera.
 
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409630](https://doi.org/10.1056/NEJMoa1409630) · [PubMed 25577388](https://pubmed.ncbi.nlm.nih.gov/25577388/)
 [^gisslinger-2020-proud-pv]: Gisslinger H, Gotic M, Holowiecki J, et al. Ropeginterferon alfa-2b versus standard therapy for polycythaemia vera (PROUD-PV and CONTINUATION-PV): a randomised, non-inferiority, phase 3 trial and its extension study. *Lancet Haematol.* 2020;7(3):e196-e208. [doi:10.1016/S2352-3026(19)30236-4](https://doi.org/10.1016/S2352-3026(19)30236-4) · [PubMed 32046833](https://pubmed.ncbi.nlm.nih.gov/32046833/)

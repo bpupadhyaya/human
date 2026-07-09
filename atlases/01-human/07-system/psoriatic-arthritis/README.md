@@ -483,6 +483,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Chronic-disease iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the anaemia of the chronic systemic inflammation of psoriatic arthritis."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Skin–joint alarmin: TSLP released by keratinocytes drives the Th2 and Th17 (IL-17A already mapped) polarisation that links psoriatic skin inflammation to the synovial and entheseal disease of psoriatic arthritis."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Synovial mast-cell effector: histamine from the abundant mast cells of the psoriatic synovium amplifies vascular permeability, IL-17A (already mapped) release and the joint swelling central to psoriatic arthritis flares."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Entheseal ECM remodelling: periostin, induced by IL-13 and TGF-β in the psoriatic entheses and synovium, promotes the fibroblast invasion and new bone formation of the enthesitis-driven joint damage that distinguishes psoriatic arthritis."
 ---
 
 # Psoriatic Arthritis
@@ -785,6 +794,9 @@ Risankizumab (anti-IL-23p19) **failed primary endpoints** in the SURPASS trial f
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the neutrophil recruitment and the innate inflammation of the psoriatic synovium and entheses.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) active in the inflamed synovium of psoriatic arthritis.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Chronic-disease iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the anaemia of the chronic systemic inflammation of psoriatic arthritis.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Skin–joint alarmin: TSLP released by keratinocytes drives the Th2 and Th17 (IL-17A already mapped) polarisation that links psoriatic skin inflammation to the synovial and entheseal disease of psoriatic arthritis.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Synovial mast-cell effector: histamine from the abundant mast cells of the psoriatic synovium amplifies vascular permeability, IL-17A (already mapped) release and the joint swelling central to psoriatic arthritis flares.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Entheseal ECM remodelling: periostin, induced by IL-13 and TGF-β in the psoriatic entheses and synovium, promotes the fibroblast invasion and new bone formation of the enthesitis-driven joint damage that distinguishes psoriatic arthritis.
 
 [^ritchlin-2017-psa-review]: Ritchlin CT, Colbert RA, Gladman DD. Psoriatic arthritis. *N Engl J Med.* 2017;376(10):957-970. [doi:10.1056/NEJMra1505557](https://doi.org/10.1056/NEJMra1505557) · [PubMed 28273019](https://pubmed.ncbi.nlm.nih.gov/28273019/)
 [^mease-2015-secukinumab-psa-future2]: Mease PJ, et al. Secukinumab inhibition of interleukin-17A in patients with psoriatic arthritis. *N Engl J Med.* 2015;373(14):1329-1339. [doi:10.1056/NEJMoa1503317](https://doi.org/10.1056/NEJMoa1503317) · [PubMed 26422723](https://pubmed.ncbi.nlm.nih.gov/26422723/)
