@@ -481,6 +481,15 @@ cross_links:
   - target: 01-human/03-molecular/factor-h
     relation: connects-to
     note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the inflamed skin of prurigo nodularis."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-pruritus axis: bradykinin, via B1R and B2R on sensory neurons (already mapped) and skin mast cells (already mapped), amplifies the neurogenic itch and the skin inflammation of the pruriceptive dimension of prurigo nodularis."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement brake: C1-esterase inhibitor regulates the classical-complement activation (C3, C5 and factor-H already mapped) contributing to the myeloid recruitment and the cutaneous neuroinflammation of the skin nodules of prurigo nodularis."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Pruritus-anaemia overlap: erythropoietin, elevated in the polycythaemia-associated prurigo and corrective in the uraemic (CKD already mapped) and iron-deficiency (already mapped) prurigo nodularis variants, links systemic anaemia to itch amplification."
 ---
 
 # Prurigo Nodularis
@@ -718,6 +727,9 @@ PN affects approximately **72,000 patients** in the US; true prevalence is likel
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 already mapped) contribute to the innate inflammatory dimension of the mixed inflammatory infiltrate of prurigo nodularis.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) links the complement to the myeloid recruitment and the neuroinflammatory itch of prurigo nodularis.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the inflamed skin of prurigo nodularis.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-pruritus axis: bradykinin, via B1R and B2R on sensory neurons (already mapped) and skin mast cells (already mapped), amplifies the neurogenic itch and the skin inflammation of the pruriceptive dimension of prurigo nodularis.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement brake: C1-esterase inhibitor regulates the classical-complement activation (C3, C5 and factor-H already mapped) contributing to the myeloid recruitment and the cutaneous neuroinflammation of the skin nodules of prurigo nodularis.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Pruritus-anaemia overlap: erythropoietin, elevated in the polycythaemia-associated prurigo and corrective in the uraemic (CKD already mapped) and iron-deficiency (already mapped) prurigo nodularis variants, links systemic anaemia to itch amplification.
 
 [^stander-2020-nemolizumab-pn]: Ständer S, Yosipovitch G, Legat FJ, et al. Trial of nemolizumab in moderate-to-severe prurigo nodularis. *N Engl J Med.* 2020;382(8):706-716. [doi:10.1056/NEJMoa1908316](https://doi.org/10.1056/NEJMoa1908316) · [PubMed 32053299](https://pubmed.ncbi.nlm.nih.gov/32053299/)
 [^briggs-2022-dupilumab-pn-liberty]: Briggs JN, Cho YY, Khanna R, et al. Dupilumab for prurigo nodularis: the LIBERTY-PN PRIME and PRIME2 trials. *N Engl J Med.* 2022;387(18):1683-1693. [doi:10.1056/NEJMoa2205093](https://doi.org/10.1056/NEJMoa2205093) · [PubMed 36300905](https://pubmed.ncbi.nlm.nih.gov/36300905/)

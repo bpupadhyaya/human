@@ -487,6 +487,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Iron-bone axis: transferrin, the iron carrier, reflects the disordered iron handling whose overload impairs the osteoblast (already mapped) function and drives the bone loss of osteoporosis."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-osteoclast axis: TSLP, from skin (already mapped) and mucosal barriers, primes dendritic cells (already mapped) and mast cells (already mapped) and activates the RANKL-osteoclast (already mapped) axis contributing to the bone loss of osteoporosis."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-bone axis: bradykinin, via B2R on osteoblasts (already mapped) and osteoclasts (already mapped), modulates the bone remodelling balance, with B2R activation promoting osteoclastogenesis and the bone resorption of osteoporosis."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Bone-marrow EPO axis: erythropoietin, via EpoR on osteoblast progenitors in the bone marrow (already mapped), modulates the osteoblast-erythroid lineage competition and the bone formation relevant to the bone loss of osteoporosis."
 ---
 
 # Osteoporosis
@@ -751,6 +760,9 @@ All newly diagnosed osteoporosis should be evaluated for secondary causes: CBC (
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its C5a (with C3 already mapped) contribute to the inflammatory osteoclastogenesis of the immune-bone crosstalk of osteoporosis.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) promotes the osteoclast (already mapped) differentiation of the inflammatory bone loss of osteoporosis.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Iron-bone axis: transferrin, the iron carrier, reflects the disordered iron handling whose overload impairs the osteoblast (already mapped) function and drives the bone loss of osteoporosis.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-osteoclast axis: TSLP, from skin (already mapped) and mucosal barriers, primes dendritic cells (already mapped) and mast cells (already mapped) and activates the RANKL-osteoclast (already mapped) axis contributing to the bone loss of osteoporosis.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-bone axis: bradykinin, via B2R on osteoblasts (already mapped) and osteoclasts (already mapped), modulates the bone remodelling balance, with B2R activation promoting osteoclastogenesis and the bone resorption of osteoporosis.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Bone-marrow EPO axis: erythropoietin, via EpoR on osteoblast progenitors in the bone marrow (already mapped), modulates the osteoblast-erythroid lineage competition and the bone formation relevant to the bone loss of osteoporosis.
 
 [^kanis-2019-who-osteoporosis]: Kanis JA, Cooper C, Rizzoli R, Reginster JY. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. *Osteoporos Int.* 2019;30(1):3-44. [doi:10.1007/s00198-018-4704-5](https://doi.org/10.1007/s00198-018-4704-5) · [PubMed 30324412](https://pubmed.ncbi.nlm.nih.gov/30324412/)
 [^cosman-2016-romosozumab]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)
