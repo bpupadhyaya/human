@@ -490,6 +490,15 @@ cross_links:
   - target: 01-human/04-cellular/mast-cell
     relation: connects-to
     note: "Mucosal reservoir: the mast cells and their progenitors are a tissue reservoir for HIV and contribute to the mucosal immune dysregulation of the infection."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-mucosal axis: TSLP, from gut-epithelium (gut-microbiome already mapped) disrupted by HIV, primes dendritic cells (already mapped) and mast cells (already mapped) and amplifies the Th2/Treg (already mapped) bias contributing to HIV immune dysregulation."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-endothelial axis: bradykinin, via the kallikrein-kinin system activated by the HIV-associated endothelial (already mapped) injury and the HIV-associated vasculopathy, amplifies the vascular permeability and the neuroinflammation of HIV infection."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell-histamine axis: histamine, from the mast cells (already mapped) that are HIV reservoirs, modulates the mucosal IgE (already mapped) and the Th2 immune bias contributing to the allergic hypersensitivity and the immune dysregulation of HIV."
 ---
 
 # HIV
@@ -782,6 +791,9 @@ The **latent reservoir** — HIV integrated into quiescent resting memory CD4+ T
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement/contact regulation: the C1-esterase inhibitor regulates the classical complement and the contact systems, a further layer of the complement (C3, C5, C5aR1 and factor H already mapped) balance HIV exploits for immune evasion.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — HIV anaemia iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the anaemia and the iron dysregulation that worsen the HIV disease progression.
 - `connects-to` → **[Mast cell](../../04-cellular/mast-cell/README.md)** — Mucosal reservoir: the mast cells and their progenitors are a tissue reservoir for HIV and contribute to the mucosal immune dysregulation of the infection.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-mucosal axis: TSLP, from gut-epithelium (gut-microbiome already mapped) disrupted by HIV, primes dendritic cells (already mapped) and mast cells (already mapped) and amplifies the Th2/Treg (already mapped) bias contributing to HIV immune dysregulation.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-endothelial axis: bradykinin, via the kallikrein-kinin system activated by the HIV-associated endothelial (already mapped) injury and the HIV-associated vasculopathy, amplifies the vascular permeability and the neuroinflammation of HIV infection.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell-histamine axis: histamine, from the mast cells (already mapped) that are HIV reservoirs, modulates the mucosal IgE (already mapped) and the Th2 immune bias contributing to the allergic hypersensitivity and the immune dysregulation of HIV.
 
 [^barre-sinoussi-1983-hiv-isolation]: Barré-Sinoussi F, Chermann JC, Rey F, et al. Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS). *Science.* 1983;220(4599):868-871. [doi:10.1126/science.6189183](https://doi.org/10.1126/science.6189183) · [PubMed 6189183](https://pubmed.ncbi.nlm.nih.gov/6189183/)
 [^ho-1995-viral-dynamics]: Ho DD, Neumann AU, Perelson AS, et al. Rapid turnover of plasma virions and CD4 lymphocytes in HIV-1 infection. *Nature.* 1995;373(6510):123-126. [doi:10.1038/373123a0](https://doi.org/10.1038/373123a0) · [PubMed 7816094](https://pubmed.ncbi.nlm.nih.gov/7816094/)

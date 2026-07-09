@@ -481,6 +481,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Hepatic iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the hepatic iron overload that promotes the oxidative carcinogenesis of hepatocellular carcinoma."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Alarmin-tumour axis: TSLP, from cancer-associated fibroblasts (already mapped) and the cirrhotic stroma (liver already mapped), primes dendritic cells (already mapped) and mast cells (already mapped) toward the Th2 immunosuppressive bias of the HCC microenvironment."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-tumour axis: bradykinin, via the kallikrein-kinin system in the cirrhotic and tumour microenvironment, amplifies the vascular permeability and the myeloid (macrophage already mapped) recruitment in hepatocellular carcinoma."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Anaemia of cancer: erythropoietin corrects the cancer-related anaemia (hepcidin already mapped) of hepatocellular carcinoma; EpoR expression on hepatoma cells also modulates a potential direct proliferative signal."
 ---
 
 # Hepatocellular Carcinoma
@@ -773,6 +782,9 @@ In high-risk patients (cirrhosis, HBV regardless of cirrhosis): ultrasound ± AF
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Tumour complement: the complement C3, produced by the hepatocytes and within the tumour, contributes to the inflammatory and immunosuppressive dimension of the hepatocellular-carcinoma microenvironment.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the myeloid (macrophage already mapped) recruitment and immunosuppression of the hepatocellular-carcinoma microenvironment.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Hepatic iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the hepatic iron overload that promotes the oxidative carcinogenesis of hepatocellular carcinoma.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-tumour axis: TSLP, from cancer-associated fibroblasts (already mapped) and the cirrhotic stroma (liver already mapped), primes dendritic cells (already mapped) and mast cells (already mapped) toward the Th2 immunosuppressive bias of the HCC microenvironment.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-tumour axis: bradykinin, via the kallikrein-kinin system in the cirrhotic and tumour microenvironment, amplifies the vascular permeability and the myeloid (macrophage already mapped) recruitment in hepatocellular carcinoma.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Anaemia of cancer: erythropoietin corrects the cancer-related anaemia (hepcidin already mapped) of hepatocellular carcinoma; EpoR expression on hepatoma cells also modulates a potential direct proliferative signal.
 
 [^llovet-2008-sorafenib]: Llovet JM, Ricci S, Mazzaferro V, et al. Sorafenib in advanced hepatocellular carcinoma. *N Engl J Med.* 2008;359(4):378-390. [doi:10.1056/NEJMoa0708857](https://doi.org/10.1056/NEJMoa0708857) · [PubMed 18650514](https://pubmed.ncbi.nlm.nih.gov/18650514/)
 [^finn-2020-imbrave150]: Finn RS, Qin S, Ikeda M, et al. Atezolizumab plus bevacizumab in unresectable hepatocellular carcinoma. *N Engl J Med.* 2020;382(20):1894-1905. [doi:10.1056/NEJMoa1915745](https://doi.org/10.1056/NEJMoa1915745) · [PubMed 32402160](https://pubmed.ncbi.nlm.nih.gov/32402160/)
