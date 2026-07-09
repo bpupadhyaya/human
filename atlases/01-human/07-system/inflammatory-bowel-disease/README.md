@@ -481,6 +481,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "IBD iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the iron-deficiency anaemia that is the commonest systemic complication of inflammatory bowel disease."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Epithelial alarmin: TSLP released by the inflamed intestinal epithelium (already mapped) drives dendritic-cell (already mapped) and mast-cell (already mapped) priming that sustains the Th2 (IL-4, IL-5, IL-13 already mapped) and Th9 arms of mucosal immunity in IBD."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin gut pain and permeability: bradykinin, via B1/B2 receptors on intestinal epithelial cells (already mapped) and mast cells (already mapped), amplifies gut pain, mucosal permeability and the NF-kB (already mapped) inflammatory cascade of IBD."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement and kinin regulation: C1-INH controls the classical complement pathway (C3, C5 and C5aR1 already mapped) and the bradykinin (already mapped) kinin-kallikrein axis; deficiency worsens mucosal oedema and complement-mediated epithelial (already mapped) injury in IBD."
 ---
 
 # Inflammatory Bowel Disease
@@ -763,6 +772,9 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 and C5 already mapped) drives the neutrophil (already mapped) recruitment into the inflamed mucosa of inflammatory bowel disease.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped), and its dysregulation on the injured epithelium amplifies the mucosal inflammation of inflammatory bowel disease.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — IBD iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the iron-deficiency anaemia that is the commonest systemic complication of inflammatory bowel disease.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Epithelial alarmin: TSLP released by the inflamed intestinal epithelium (already mapped) drives dendritic-cell (already mapped) and mast-cell (already mapped) priming that sustains the Th2 (IL-4, IL-5, IL-13 already mapped) and Th9 arms of mucosal immunity in IBD.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin gut pain and permeability: bradykinin, via B1/B2 receptors on intestinal epithelial cells (already mapped) and mast cells (already mapped), amplifies gut pain, mucosal permeability and the NF-kB (already mapped) inflammatory cascade of IBD.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement and kinin regulation: C1-INH controls the classical complement pathway (C3, C5 and C5aR1 already mapped) and the bradykinin (already mapped) kinin-kallikrein axis; deficiency worsens mucosal oedema and complement-mediated epithelial (already mapped) injury in IBD.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)

@@ -483,6 +483,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Bleeding iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the iron-deficiency anaemia from the mucocutaneous bleeding of immune thrombocytopenia."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Platelet-promoting alarmin: TSLP activates dendritic cells (already mapped) and B cells (already mapped) that produce anti-platelet IgG (immunoglobulin G already mapped), amplifying the autoimmune platelet (already mapped) destruction of immune thrombocytopenia."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin-mediated bleeding: bradykinin, via B2 receptors on endothelial cells and platelets (both already mapped), amplifies vascular permeability and mucocutaneous bleeding in severe ITP; ACE-inhibitor co-medication worsens bleeding by impairing bradykinin catabolism."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Erythropoiesis coupling: erythropoietin shares JAK2 (already mapped) signalling with thrombopoietin (MPL already mapped); anaemia commonly accompanies ITP (hepcidin and erythrocyte already mapped) and EPO levels rise in response to ITP-related blood loss."
 ---
 
 # Immune Thrombocytopenia
@@ -773,6 +782,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) whose activation on the antibody-coated (already mapped) platelets contributes to their destruction in immune thrombocytopenia.
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-pathway regulation: the C1-esterase inhibitor regulates the classical complement pathway activated by the anti-platelet IgG (immunoglobulin already mapped) on the platelet surface in immune thrombocytopenia.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Bleeding iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the iron-deficiency anaemia from the mucocutaneous bleeding of immune thrombocytopenia.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Platelet-promoting alarmin: TSLP activates dendritic cells (already mapped) and B cells (already mapped) that produce anti-platelet IgG (immunoglobulin G already mapped), amplifying the autoimmune platelet (already mapped) destruction of immune thrombocytopenia.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-mediated bleeding: bradykinin, via B2 receptors on endothelial cells and platelets (both already mapped), amplifies vascular permeability and mucocutaneous bleeding in severe ITP; ACE-inhibitor co-medication worsens bleeding by impairing bradykinin catabolism.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Erythropoiesis coupling: erythropoietin shares JAK2 (already mapped) signalling with thrombopoietin (MPL already mapped); anaemia commonly accompanies ITP (hepcidin and erythrocyte already mapped) and EPO levels rise in response to ITP-related blood loss.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)
