@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/factor-h
     relation: connects-to
     note: "Complement evasion: the mantle-cell-lymphoma cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), a resistance mechanism to the anti-CD20 complement-dependent killing."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Lymph node stroma alarmin: TSLP from lymph-node stromal cells activates the dendritic cells and B cells of the mantle zone, promoting the BCR survival signalling and NF-kB-mediated apoptosis resistance that drive the aggressive expansion of mantle-cell lymphoma."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Chemoimmunotherapy anaemia: erythropoietin counters the myelosuppression induced by the RCHOP and bendamustine-rituximab regimens used in MCL; EPO-stimulating agents are a standard supportive measure to maintain haemoglobin and treatment tolerance in mantle-cell lymphoma."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Lymphoma dissemination: bradykinin promotes vascular permeability and transendothelial migration of MCL cells, facilitating the aggressive dissemination into peripheral blood, marrow, and extranodal sites that characterise the blastoid variant of mantle-cell lymphoma."
 ---
 
 # Mantle Cell Lymphoma
@@ -749,6 +758,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Rituximab CDC: the complement C5 (with C3 already mapped) is the effector of the complement-dependent cytotoxicity by which the anti-CD20 (already mapped) rituximab kills the mantle-cell-lymphoma B cells (already mapped).
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling links the complement (C3 and C5 already mapped) to the myeloid inflammation of the mantle-cell-lymphoma microenvironment.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the mantle-cell-lymphoma cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), a resistance mechanism to the anti-CD20 complement-dependent killing.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Lymph node stroma alarmin: TSLP from lymph-node stromal cells activates the dendritic cells and B cells of the mantle zone, promoting the BCR survival signalling and NF-kB-mediated apoptosis resistance that drive the aggressive expansion of mantle-cell lymphoma.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Chemoimmunotherapy anaemia: erythropoietin counters the myelosuppression induced by the RCHOP and bendamustine-rituximab regimens used in MCL; EPO-stimulating agents are a standard supportive measure to maintain haemoglobin and treatment tolerance in mantle-cell lymphoma.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Lymphoma dissemination: bradykinin promotes vascular permeability and transendothelial migration of MCL cells, facilitating the aggressive dissemination into peripheral blood, marrow, and extranodal sites that characterise the blastoid variant of mantle-cell lymphoma.
 
 ---
 

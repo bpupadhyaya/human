@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "CNS-border antigen presentation: the dendritic cells of the CNS-border compartments are part of the neuroimmune interface implicated in the neuroinflammation of major depressive disorder."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Neuroinflammatory mediator: histamine (released by brain mast cells and tuberomammillary nucleus neurons) signals through H1/H3 receptors to modulate the HPA axis dysregulation and the norepinephrine-serotonin (already mapped) imbalance of major depressive disorder."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Neuroimmune alarmin: elevated peripheral TSLP from atopic/allergic comorbidities (mast cells already mapped) activates dendritic cells and drives the neuroinflammatory IL-6/TNF-α (already mapped) cytokine cascade that mediates the depression-allergy comorbidity in MDD."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Neuroinflammation amplifier: bradykinin activates central B2 receptors, amplifying the NF-kB (already mapped) neuroinflammation and norepinephrine (already mapped) release that characterise the stress-induced neuroinflammatory phenotype of major depressive disorder."
 ---
 
 # Major Depressive Disorder
@@ -796,6 +805,9 @@ Approximately 30–40% of MDD patients have elevated inflammatory markers:
 - `connects-to` → **[Natural killer cell](../../04-cellular/natural-killer-cell/README.md)** — Stress-modulated NK: the NK-cell number and cytotoxicity, altered by the chronic stress and cortisol (already mapped) reactivity, are part of the peripheral immune dysregulation of major depressive disorder.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — Complement C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the microglial (already mapped) activation and the complement-mediated synapse loss implicated in major depressive disorder.
 - `connects-to` → **[Dendritic cell](../../04-cellular/dendritic-cell/README.md)** — CNS-border antigen presentation: the dendritic cells of the CNS-border compartments are part of the neuroimmune interface implicated in the neuroinflammation of major depressive disorder.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Neuroinflammatory mediator: histamine (released by brain mast cells and tuberomammillary nucleus neurons) signals through H1/H3 receptors to modulate the HPA axis dysregulation and the norepinephrine-serotonin (already mapped) imbalance of major depressive disorder.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Neuroimmune alarmin: elevated peripheral TSLP from atopic/allergic comorbidities (mast cells already mapped) activates dendritic cells and drives the neuroinflammatory IL-6/TNF-α (already mapped) cytokine cascade that mediates the depression-allergy comorbidity in MDD.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Neuroinflammation amplifier: bradykinin activates central B2 receptors, amplifying the NF-kB (already mapped) neuroinflammation and norepinephrine (already mapped) release that characterise the stress-induced neuroinflammatory phenotype of major depressive disorder.
 
 [^cipriani-2018-antidepressants-meta]: Cipriani A, Furukawa TA, Salanti G, et al. Comparative efficacy and acceptability of 21 antidepressant drugs for acute treatment of adults with major depressive disorder. *Lancet.* 2018;391(10128):1357-1366. [doi:10.1016/S0140-6736(17)32802-7](https://doi.org/10.1016/S0140-6736(17)32802-7) · [PubMed 29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/)
 [^zarate-2006-ketamine-rapid]: Zarate CA Jr, Singh JB, Carlson PJ, et al. A randomized trial of an N-methyl-D-aspartate antagonist in treatment-resistant major depression. *Arch Gen Psychiatry.* 2006;63(8):856-864. [doi:10.1001/archpsyc.63.8.856](https://doi.org/10.1001/archpsyc.63.8.856) · [PubMed 16894061](https://pubmed.ncbi.nlm.nih.gov/16894061/)
