@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Ascites iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the anaemia and the iron-rich malignant ascites of ovarian cancer."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Peritoneal alarmin: TSLP released by ovarian epithelial and stromal cells activates mast cells and dendritic cells, promoting the type-2 microenvironment of the peritoneal cavity that suppresses anti-tumour cytotoxicity."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Peritoneal metastasis scaffold: periostin, upregulated in the ovarian cancer stroma and malignant ascites, promotes the peritoneal adhesion and omental colonisation that characterise the widespread intraperitoneal dissemination of this cancer."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell histamine: stromal mast-cell-derived histamine promotes VEGF-driven angiogenesis and suppresses NK and T-cell cytotoxicity in the ovarian cancer ascites, contributing to the immunosuppressive peritoneal microenvironment."
 ---
 
 # Ovarian Cancer
@@ -743,6 +752,9 @@ FTSEC ciliated and secretory cells line the Fallopian tube; secretory cells are 
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its activation (with C3 and C5aR1 already mapped) contribute to the complement-driven inflammation of the ovarian-cancer peritoneal microenvironment.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the ovarian-cancer cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped), evading the complement attack in the peritoneal microenvironment.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Ascites iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the anaemia and the iron-rich malignant ascites of ovarian cancer.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Peritoneal alarmin: TSLP released by ovarian epithelial and stromal cells activates mast cells and dendritic cells, promoting the type-2 microenvironment of the peritoneal cavity that suppresses anti-tumour cytotoxicity.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Peritoneal metastasis scaffold: periostin, upregulated in the ovarian cancer stroma and malignant ascites, promotes the peritoneal adhesion and omental colonisation that characterise the widespread intraperitoneal dissemination of this cancer.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell histamine: stromal mast-cell-derived histamine promotes VEGF-driven angiogenesis and suppresses NK and T-cell cytotoxicity in the ovarian cancer ascites, contributing to the immunosuppressive peritoneal microenvironment.
 
 [^burger-2011-gog0218]: Burger RA, Brady MF, Bookman MA, et al. Incorporation of bevacizumab in the primary treatment of ovarian cancer. *N Engl J Med.* 2011;365(26):2473-2483. [doi:10.1056/NEJMoa1104390](https://doi.org/10.1056/NEJMoa1104390) · [PubMed 22204724](https://pubmed.ncbi.nlm.nih.gov/22204724/)
 [^moore-2018-olaparib-solo1]: Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. *N Engl J Med.* 2018;379(26):2495-2505. [doi:10.1056/NEJMoa1810858](https://doi.org/10.1056/NEJMoa1810858) · [PubMed 30345884](https://pubmed.ncbi.nlm.nih.gov/30345884/)

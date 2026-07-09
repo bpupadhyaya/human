@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/04-cellular/b-cell
     relation: connects-to
     note: "Tertiary lymphoid structures: the B cells organise the tertiary lymphoid structures whose presence, with the CD8 (already mapped) TILs, may mark the immune response of ovarian clear cell carcinoma."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Treatment anaemia: erythropoietin corrects the platinum- and taxane-induced anaemia in ovarian clear cell carcinoma therapy; EPOR expression on tumour cells raises the question of direct EPO-driven growth signalling."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Ascites pain mediator: bradykinin accumulates in the malignant ascites of ovarian clear cell carcinoma, activating B1/B2 receptors on the peritoneal mesothelium and sensory fibres to drive the pelvic pain that often delays diagnosis."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement brake: C1-esterase inhibitor modulates the classical complement pathway within the endometriosis-associated peritoneal milieu of ovarian clear cell carcinoma, limiting the C3/C5 (already mapped) complement cascade."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -769,6 +778,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Endometriosis iron: transferrin, the iron carrier, reflects the disordered handling of the free iron and haem of the endometriotic cysts whose oxidative DNA damage drives the ARID1A-mutant (already mapped) carcinogenesis of ovarian clear cell carcinoma.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion: the ovarian-clear-cell-carcinoma cells recruit factor H to regulate the alternative complement pathway (C3, C5 and C5aR1 already mapped) within the endometriosis-associated inflammatory microenvironment.
 - `connects-to` → **[B cell](../../04-cellular/b-cell/README.md)** — Tertiary lymphoid structures: the B cells organise the tertiary lymphoid structures whose presence, with the CD8 (already mapped) TILs, may mark the immune response of ovarian clear cell carcinoma.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Treatment anaemia: erythropoietin corrects the platinum- and taxane-induced anaemia in ovarian clear cell carcinoma therapy; EPOR expression on tumour cells raises the question of direct EPO-driven growth signalling.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Ascites pain mediator: bradykinin accumulates in the malignant ascites of ovarian clear cell carcinoma, activating B1/B2 receptors on the peritoneal mesothelium and sensory fibres to drive the pelvic pain that often delays diagnosis.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement brake: C1-esterase inhibitor modulates the classical complement pathway within the endometriosis-associated peritoneal milieu of ovarian clear cell carcinoma, limiting the C3/C5 (already mapped) complement cascade.
 
 ---
 
