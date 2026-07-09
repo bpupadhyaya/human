@@ -475,6 +475,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Nutritional immunity: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the anaemia of the chronic inflammation and the exocrine insufficiency of hereditary pancreatitis."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the acinar inflammation of the recurrent pancreatitis of hereditary pancreatitis."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Protease/contact regulation: the C1-esterase inhibitor regulates the classical complement and the contact-kinin (bradykinin already mapped) systems activated by the premature trypsin (PRSS1 already mapped) autoactivation of hereditary pancreatitis."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Pancreatic fibrosis: periostin, a matricellular mediator, is part of the stellate-cell-driven fibrotic remodelling (with collagen and osteopontin already mapped) of the chronic pancreatitis of hereditary pancreatitis."
 ---
 
 # Hereditary Pancreatitis
@@ -771,6 +780,9 @@ cross_links:
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a receptor: the C5aR1 signalling (with the complement C3 already mapped) drives the neutrophil (already mapped) recruitment and the complement-mediated acinar injury of the recurrent attacks of hereditary pancreatitis.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: the complement C5 and its activation (with C3 already mapped) contribute to the acinar injury and the inflammation of the recurrent pancreatitis of hereditary pancreatitis.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Nutritional immunity: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) of the anaemia of the chronic inflammation and the exocrine insufficiency of hereditary pancreatitis.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3, C5 and C5aR1 already mapped) of the acinar inflammation of the recurrent pancreatitis of hereditary pancreatitis.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Protease/contact regulation: the C1-esterase inhibitor regulates the classical complement and the contact-kinin (bradykinin already mapped) systems activated by the premature trypsin (PRSS1 already mapped) autoactivation of hereditary pancreatitis.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Pancreatic fibrosis: periostin, a matricellular mediator, is part of the stellate-cell-driven fibrotic remodelling (with collagen and osteopontin already mapped) of the chronic pancreatitis of hereditary pancreatitis.
 
 [^whitcomb-1996-prss1]: Whitcomb DC, Gorry MC, Preston RA, et al. Hereditary pancreatitis is caused by a mutation in the cationic trypsinogen gene. *Nat Genet.* 1996;14(2):141-145. [doi:10.1038/ng1096-141](https://doi.org/10.1038/ng1096-141) · [PubMed 8841182](https://pubmed.ncbi.nlm.nih.gov/8841182/)
 [^lowenfels-2001-hp-pdac]: Lowenfels AB, Maisonneuve P, DiMagno EP, et al. Hereditary pancreatitis and the risk of pancreatic cancer. *J Natl Cancer Inst.* 2001;93(1):26-31. [doi:10.1093/jnci/93.1.26](https://doi.org/10.1093/jnci/93.1.26) · [PubMed 11136838](https://pubmed.ncbi.nlm.nih.gov/11136838/)
