@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Sarcoma stroma periostin: periostin secreted by the MPNST-associated fibroblasts activates the integrin-AKT (already mapped) pathway and promotes the VEGF-driven (already mapped) desmoplastic invasiveness and treatment resistance of malignant nerve sheath tumours."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Oncostatic melatonin: melatonin, via MT1/MT2 receptors on NF1-deficient MPNST cells, suppresses RAS/MAPK (already mapped) and NF-κB (already mapped) proliferative signalling, reducing VEGF-driven (already mapped) angiogenesis and invasiveness in malignant nerve sheath tumours."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Androgen-sarcoma axis: testosterone, via androgen receptor on MPNST cells and macrophages (already mapped), modulates RAS/MAPK (already mapped) and NF-κB (already mapped) signalling in NF1-deficient malignant peripheral nerve sheath tumours."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Peripheral nervous system 5-HT: serotonin from mast cells (already mapped) in the MPNST stroma activates 5-HT2 receptors on NF1-deficient tumour cells, amplifying RAS/MAPK (already mapped) proliferative signalling and VEGF-driven (already mapped) angiogenesis in MPNST."
 ---
 
 # MPNST
@@ -783,6 +792,9 @@ Wide local excision with negative margins is the only potentially curative inter
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Peripheral nerve sheath complement: C1-INH controls the classical-pathway arm (C3, C5 and C5aR1 already mapped) in the MPNST tumour microenvironment, modulating complement-mediated cytotoxicity and the NF1 (already mapped) associated neurofibromatosis-type-1 tumour stroma.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — EPOR-mediated sarcoma survival: erythropoietin receptor (EPOR) on MPNST cells activates JAK2/STAT3 (already mapped) pro-survival signalling, complementing NF1 (already mapped) loss-driven RAS/MAPK hyperactivation and VEGF (already mapped) angiogenesis in MPNST.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Sarcoma stroma periostin: periostin secreted by the MPNST-associated fibroblasts activates the integrin-AKT (already mapped) pathway and promotes the VEGF-driven (already mapped) desmoplastic invasiveness and treatment resistance of malignant nerve sheath tumours.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Oncostatic melatonin: melatonin, via MT1/MT2 receptors on NF1-deficient MPNST cells, suppresses RAS/MAPK (already mapped) and NF-κB (already mapped) proliferative signalling, reducing VEGF-driven (already mapped) angiogenesis and invasiveness in malignant nerve sheath tumours.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-sarcoma axis: testosterone, via androgen receptor on MPNST cells and macrophages (already mapped), modulates RAS/MAPK (already mapped) and NF-κB (already mapped) signalling in NF1-deficient malignant peripheral nerve sheath tumours.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Peripheral nervous system 5-HT: serotonin from mast cells (already mapped) in the MPNST stroma activates 5-HT2 receptors on NF1-deficient tumour cells, amplifying RAS/MAPK (already mapped) proliferative signalling and VEGF-driven (already mapped) angiogenesis in MPNST.
 
 [^evans-2002-mpnst-nf1]: Evans DGR, Baser ME, McGaughran J, et al. Malignant peripheral nerve sheath tumours in neurofibromatosis 1. *J Med Genet.* 2002;39(5):311-314. [doi:10.1136/jmg.39.5.311](https://doi.org/10.1136/jmg.39.5.311) · [PubMed 12011145](https://pubmed.ncbi.nlm.nih.gov/12011145/)
 [^lee-2014-mpnst-prc2]: Lee W, Teckie S, Wiesner T, et al. PRC2 is recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve sheath tumors. *Nat Genet.* 2014;46(11):1227-1232. [doi:10.1038/ng.3095](https://doi.org/10.1038/ng.3095) · [PubMed 25240281](https://pubmed.ncbi.nlm.nih.gov/25240281/)
