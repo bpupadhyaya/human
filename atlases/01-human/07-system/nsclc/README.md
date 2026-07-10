@@ -508,6 +508,15 @@ cross_links:
   - target: 01-human/03-molecular/serotonin
     relation: connects-to
     note: "NSCLC neuroendocrine serotonin: serotonin co-produced by neuroendocrine-differentiated NSCLC cells activates 5-HT2 and 5-HT4 receptors to promote KRAS (already mapped)-driven proliferation and mTOR (already mapped) pro-survival signalling in non-small-cell lung cancer."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "NSCLC prolactin: prolactin via JAK2/STAT3 (already mapped) and mTOR (already mapped) activates NSCLC tumour cells and macrophages (already mapped), promoting PD-L1 (already mapped) upregulation and immunosuppressive microenvironment in non-small-cell lung cancer."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "NSCLC oxytocin: oxytocin receptors on NSCLC tumour and mast cells (already mapped) couple to Gαq-PKC, activating KRAS (already mapped) and EGFR (already mapped) downstream proliferative signalling in non-small-cell lung cancer."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "NSCLC vasopressin: vasopressin via V1a receptors on NSCLC stroma and macrophages (already mapped) activates Gαq-PLC-IP3 signalling, cross-activating VEGF (already mapped) and mTOR (already mapped) angiogenic cascades in non-small-cell lung cancer."
 ---
 
 # NSCLC
@@ -772,6 +781,9 @@ cross_links:
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Lung tumour melatonin: melatonin inhibits NSCLC proliferation and EMT (already mapped) through MT1/MT2-mediated cAMP suppression and Wnt/β-catenin (already mapped) inhibition, sensitising NSCLC cells to EGFR-targeted (EGFR already mapped) and platinum therapies.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — NSCLC androgen axis: testosterone via androgen receptor signalling modulates PD-L1 (already mapped) expression and the immunosuppressive microenvironment in NSCLC; AR signalling intersects KRAS (already mapped) and EGFR (already mapped) tumour growth pathways.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — NSCLC neuroendocrine serotonin: serotonin co-produced by neuroendocrine-differentiated NSCLC cells activates 5-HT2 and 5-HT4 receptors to promote KRAS (already mapped)-driven proliferation and mTOR (already mapped) pro-survival signalling in non-small-cell lung cancer.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — NSCLC prolactin: prolactin via JAK2/STAT3 (already mapped) and mTOR (already mapped) activates NSCLC tumour cells and macrophages (already mapped), promoting PD-L1 (already mapped) upregulation and immunosuppressive microenvironment in non-small-cell lung cancer.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — NSCLC oxytocin: oxytocin receptors on NSCLC tumour and mast cells (already mapped) couple to Gαq-PKC, activating KRAS (already mapped) and EGFR (already mapped) downstream proliferative signalling in non-small-cell lung cancer.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — NSCLC vasopressin: vasopressin via V1a receptors on NSCLC stroma and macrophages (already mapped) activates Gαq-PLC-IP3 signalling, cross-activating VEGF (already mapped) and mTOR (already mapped) angiogenic cascades in non-small-cell lung cancer.
 
 [^soria-2018-osimertinib-flaura]: Soria JC, Ohe Y, Vansteenkiste J, et al. Osimertinib in untreated EGFR-mutated advanced non-small-cell lung cancer. *N Engl J Med.* 2018;378(2):113-125. [doi:10.1056/NEJMoa1713137](https://doi.org/10.1056/NEJMoa1713137) · [PubMed 29151359](https://pubmed.ncbi.nlm.nih.gov/29151359/)
 [^reck-2016-pembrolizumab-keynote024]: Reck M, Rodríguez-Abreu D, Robinson AG, et al. Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell lung cancer. *N Engl J Med.* 2016;375(19):1823-1833. [doi:10.1056/NEJMoa1606774](https://doi.org/10.1056/NEJMoa1606774) · [PubMed 27718347](https://pubmed.ncbi.nlm.nih.gov/27718347/)

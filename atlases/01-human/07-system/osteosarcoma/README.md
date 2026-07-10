@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/serotonin
     relation: connects-to
     note: "Osteosarcoma serotonin signalling: serotonin via 5-HT2 receptors on osteosarcoma cells activates cAMP-PKA and Wnt/β-catenin (already mapped) pathways, promoting osteosarcoma proliferation and matrix invasion via the bone tumour neuroendocrine axis."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Osteosarcoma prolactin: prolactin via JAK2/STAT3 activates osteosarcoma cells and macrophages (already mapped), upregulating mTOR (already mapped) and VEGF (already mapped) pro-proliferative signalling in the osteosarcoma immunosuppressive microenvironment."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Osteosarcoma oxytocin: oxytocin receptors on osteosarcoma cells couple to Gαq-PKC, augmenting Wnt/β-catenin (already mapped) and mTOR (already mapped) signalling to promote osteosarcoma cell proliferation and matrix invasion."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Osteosarcoma vasopressin: vasopressin via V1a receptors on osteosarcoma stroma activates Gαq-PKC-IP3 signalling, converging on mTOR (already mapped) and VEGF (already mapped) angiogenic and pro-invasive cascades in bone tumour progression."
 ---
 
 # Osteosarcoma
@@ -794,6 +803,9 @@ OS is relatively radiation-resistant (high-dose radiation ~70+ Gy may achieve lo
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Osteosarcoma melatonin: melatonin inhibits osteosarcoma proliferation and metastasis by suppressing PI3K/AKT (already mapped) and Wnt/β-catenin (already mapped) pathways through MT1/MT2 receptor-mediated cAMP reduction and apoptosis induction in osteosarcoma cells.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Osteosarcoma androgen axis: testosterone via androgen receptor modulates osteosarcoma cell proliferation and mTOR (already mapped) signalling, and the male adolescent peak of osteosarcoma incidence implicates androgen-driven bone growth as a tumour co-driver.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Osteosarcoma serotonin signalling: serotonin via 5-HT2 receptors on osteosarcoma cells activates cAMP-PKA and Wnt/β-catenin (already mapped) pathways, promoting osteosarcoma proliferation and matrix invasion via the bone tumour neuroendocrine axis.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Osteosarcoma prolactin: prolactin via JAK2/STAT3 activates osteosarcoma cells and macrophages (already mapped), upregulating mTOR (already mapped) and VEGF (already mapped) pro-proliferative signalling in the osteosarcoma immunosuppressive microenvironment.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Osteosarcoma oxytocin: oxytocin receptors on osteosarcoma cells couple to Gαq-PKC, augmenting Wnt/β-catenin (already mapped) and mTOR (already mapped) signalling to promote osteosarcoma cell proliferation and matrix invasion.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Osteosarcoma vasopressin: vasopressin via V1a receptors on osteosarcoma stroma activates Gαq-PKC-IP3 signalling, converging on mTOR (already mapped) and VEGF (already mapped) angiogenic and pro-invasive cascades in bone tumour progression.
 
 [^bielack-2002-coss-osteosarcoma]: Bielack SS, Kempf-Bielack B, Delling G, et al. Prognostic factors in high-grade osteosarcoma of the extremities or trunk: an analysis of 1,702 patients treated on neoadjuvant Cooperative Osteosarcoma Study Group protocols. *J Clin Oncol.* 2002;20(3):776-790. [doi:10.1200/JCO.2002.20.3.776](https://doi.org/10.1200/JCO.2002.20.3.776) · [PubMed 11821461](https://pubmed.ncbi.nlm.nih.gov/11821461/)
 [^marina-2016-euramos1-osteosarcoma]: Marina NM, Smeland S, Bielack SS, et al. Comparison of MAPIE versus MAP in patients with a poor response to preoperative chemotherapy for newly diagnosed high-grade osteosarcoma (EURAMOS-1). *Lancet Oncol.* 2016;17(10):1396-1408. [doi:10.1016/S1470-2045(16)30214-5](https://doi.org/10.1016/S1470-2045(16)30214-5) · [PubMed 27569442](https://pubmed.ncbi.nlm.nih.gov/27569442/)
