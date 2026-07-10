@@ -483,6 +483,15 @@ cross_links:
   - target: 01-human/03-molecular/testosterone
     relation: connects-to
     note: "Androgen neuroprotection: testosterone, acting via androgen receptors on DRG neurons and Schwann cells (peripheral nerve already mapped), promotes axonal repair and attenuates the neuro-inflammatory sensitisation underlying the sex-differential severity of neuropathic pain."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "NP vasopressin: vasopressin V1A receptors in dorsal horn neurons modulate spinal nociception; vasopressin interacts with oxytocin (already mapped) antinociceptive circuits and attenuates the serotonin (already mapped) descending pain-inhibitory dysfunction of neuropathic pain."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "NP transferrin: transferrin-mediated iron transport is essential for myelin synthesis and axonal function (peripheral nerve already mapped); iron dyshomeostasis amplifies the oxidative stress driving the neuroinflammatory sensitisation and axonal damage of neuropathic pain."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "NP copper: copper deficiency impairs the myelination of peripheral nerves (already mapped) and reduces superoxide dismutase-mediated antioxidant protection; copper dyshomeostasis amplifies the neuroinflammatory sensitisation and oxidative injury of neuropathic pain."
 sources:
   - id: jensen-2011-neuropathic-pain-review
     type: peer-reviewed
@@ -801,6 +810,9 @@ Chronic neuropathic pain carries significant psychological burden:
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — ECM-repair scaffold: periostin, expressed in injured peripheral nerve endoneurium and DRG supporting cells, promotes the re-organisation of the extracellular matrix and glial scar and modulates the fibrotic neuroinflammatory microenvironment of neuropathic pain.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Immune-endocrine pain modulator: prolactin, acting via PRLR on DRG neurons and immune cells in the nerve injury site, sensitises peripheral nociceptors and amplifies the pro-inflammatory cytokine (IL-6 and TNF-α already mapped) signalling of neuropathic pain.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen neuroprotection: testosterone, acting via androgen receptors on DRG neurons and Schwann cells (peripheral nerve already mapped), promotes axonal repair and attenuates the neuro-inflammatory sensitisation underlying the sex-differential severity of neuropathic pain.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — NP vasopressin: vasopressin V1A receptors in dorsal horn neurons modulate spinal nociception; vasopressin interacts with oxytocin (already mapped) antinociceptive circuits and attenuates the serotonin (already mapped) descending pain-inhibitory dysfunction of neuropathic pain.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — NP transferrin: transferrin-mediated iron transport is essential for myelin synthesis and axonal function (peripheral nerve already mapped); iron dyshomeostasis amplifies the oxidative stress driving the neuroinflammatory sensitisation and axonal damage of neuropathic pain.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — NP copper: copper deficiency impairs the myelination of peripheral nerves (already mapped) and reduces superoxide dismutase-mediated antioxidant protection; copper dyshomeostasis amplifies the neuroinflammatory sensitisation and oxidative injury of neuropathic pain.
 
 [^jensen-2011-neuropathic-pain-review]: Jensen TS, Baron R, Haanpää M, et al. A new definition of neuropathic pain. *Pain.* 2011;152(10):2204-2205. [doi:10.1016/j.pain.2011.06.017](https://doi.org/10.1016/j.pain.2011.06.017) · [PubMed 21764514](https://pubmed.ncbi.nlm.nih.gov/21764514/)
 [^dworkin-2010-neuropathic-pain-treatment]: Dworkin RH, O'Connor AB, Audette J, et al. Recommendations for the pharmacological management of neuropathic pain. *Mayo Clin Proc.* 2010;85(3 Suppl):S3-14. [doi:10.4065/mcp.2009.0649](https://doi.org/10.4065/mcp.2009.0649) · [PubMed 20194146](https://pubmed.ncbi.nlm.nih.gov/20194146/)

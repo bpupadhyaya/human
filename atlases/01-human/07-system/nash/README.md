@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/melatonin
     relation: connects-to
     note: "Circadian antioxidant protection: melatonin, via MT1/MT2 receptors on hepatocytes (already mapped), scavenges ROS from dysfunctional mitochondria and inhibits the NF-κB/TNF-α axis (already mapped), moderating the steatoinflammatory injury of NASH."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "NASH testosterone: androgen signalling on hepatocytes (already mapped) attenuates TGF-β (already mapped) fibrogenesis and macrophage (already mapped) lipotoxic activation; testosterone deficiency worsens the steatoinflammatory injury of NASH."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "NASH serotonin: gut-microbiome (already mapped) serotonin promotes hepatic lipogenesis via 5-HT2A receptors on hepatocytes (already mapped); 5-HT also activates macrophage (already mapped) signalling and accelerates the TGF-β (already mapped) fibrotic cascade of NASH."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "NASH prolactin: prolactin, acting via PRLR on hepatocytes (already mapped), promotes hepatic lipid synthesis; prolactin also sensitises the insulin-receptor (already mapped) pathway to the lipotoxic and macrophage (already mapped) inflammatory signals of NASH."
 ---
 
 # NASH
@@ -752,6 +761,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell effector: histamine, released by mast cells (already mapped) in the portal tract of NASH liver, activates hepatic stellate cells, amplifies the pro-inflammatory cytokine milieu (TNF-α and IL-1β already mapped) and accelerates fibrosis of NASH.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Hepato-protective cytokine: erythropoietin, acting via EPOR on hepatocytes (already mapped) and Kupffer cells (already mapped), suppresses the oxidative stress (ROS already mapped) and TGF-β-driven fibrogenic signalling, attenuating the progressive fibrosis of NASH.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian antioxidant protection: melatonin, via MT1/MT2 receptors on hepatocytes (already mapped), scavenges ROS from dysfunctional mitochondria and inhibits the NF-κB/TNF-α axis (already mapped), moderating the steatoinflammatory injury of NASH.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — NASH testosterone: androgen signalling on hepatocytes (already mapped) attenuates TGF-β (already mapped) fibrogenesis and macrophage (already mapped) lipotoxic activation; testosterone deficiency worsens the steatoinflammatory injury of NASH.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — NASH serotonin: gut-microbiome (already mapped) serotonin promotes hepatic lipogenesis via 5-HT2A receptors on hepatocytes (already mapped); 5-HT also activates macrophage (already mapped) signalling and accelerates the TGF-β (already mapped) fibrotic cascade of NASH.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — NASH prolactin: prolactin, acting via PRLR on hepatocytes (already mapped), promotes hepatic lipid synthesis; prolactin also sensitises the insulin-receptor (already mapped) pathway to the lipotoxic and macrophage (already mapped) inflammatory signals of NASH.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
