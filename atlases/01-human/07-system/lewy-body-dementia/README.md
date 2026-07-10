@@ -517,6 +517,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "LBD vasopressin: vasopressin, via V1aR on neurons (already mapped) and microglia (already mapped), modulates CSF osmolality; vasopressin dysregulation amplifies norepinephrine (already mapped) and NLRP3 (already mapped) neuroinflammation of Lewy body dementia."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "LBD selenium: selenium, via GPx and NRF2 (already mapped) antioxidants, protects neurons (already mapped) from ROS and α-synuclein (already mapped) aggregation-driven injury; selenium deficiency amplifies NF-κB (already mapped) and NLRP3 (already mapped) neuroinflammation of LBD."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "LBD iodine: iodine-dependent thyroid hormones regulate neuronal (neuron already mapped) metabolism and dopamine (already mapped) synthesis; hypothyroidism amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammation and α-synuclein (already mapped) burden in LBD."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "LBD sodium: sodium, via voltage-gated channels on neurons (already mapped), regulates action-potential firing; dysregulated sodium from microglial (already mapped) NLRP3 (already mapped) neuroinflammation amplifies NF-κB (already mapped) and dopamine (already mapped) in LBD."
 ---
 
 # Lewy Body Dementia
@@ -809,6 +818,9 @@ Approximately 25-50% of clinically diagnosed DLB cases have significant AD co-pa
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Neuroinflammatory neuroendocrine: prolactin, via PRLR on neurons (already mapped) and microglia (already mapped), modulates neuroinflammation; prolactin deficiency amplifies the dopamine (already mapped) dysregulation and the melatonin (already mapped) sleep-wake disruption of Lewy body dementia.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Anti-neuroinflammatory: oxytocin, via OXTR on neurons (already mapped) and microglia (already mapped), reduces neuroinflammation and α-synuclein (already mapped) spread; oxytocin attenuates the norepinephrine (already mapped) and IL-6 (already mapped) hyperarousal of Lewy body dementia.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — CSF osmolality modulator: vasopressin, via V1aR on neurons (already mapped) and microglia (already mapped), modulates CSF osmolality; vasopressin dysregulation amplifies norepinephrine (already mapped) and NLRP3 (already mapped) neuroinflammation of Lewy body dementia.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — LBD selenium: selenium, via GPx and NRF2 (already mapped) antioxidants, protects neurons (already mapped) from ROS and α-synuclein (already mapped) aggregation-driven injury; selenium deficiency amplifies NF-κB (already mapped) and NLRP3 (already mapped) neuroinflammation of LBD.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — LBD iodine: iodine-dependent thyroid hormones regulate neuronal (neuron already mapped) metabolism and dopamine (already mapped) synthesis; hypothyroidism amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammation and α-synuclein (already mapped) burden in LBD.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — LBD sodium: sodium, via voltage-gated channels on neurons (already mapped), regulates action-potential firing; dysregulated sodium from microglial (already mapped) NLRP3 (already mapped) neuroinflammation amplifies NF-κB (already mapped) and dopamine (already mapped) in LBD.
 
 [^mckeith-2017-dlb-criteria]: McKeith IG, Boeve BF, Dickson DW, et al. Diagnosis and management of dementia with Lewy bodies: Fourth consensus report of the DLB Consortium. *Neurology.* 2017;89(1):88-100. [doi:10.1212/WNL.0000000000004058](https://doi.org/10.1212/WNL.0000000000004058) · [PubMed 28592453](https://pubmed.ncbi.nlm.nih.gov/28592453/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)

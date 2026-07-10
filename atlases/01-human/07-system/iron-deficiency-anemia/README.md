@@ -507,6 +507,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "IDA vasopressin: vasopressin, via V2 receptors on macrophages (already mapped) and renal tubular cells, modulates fluid-iron homeostasis; elevated vasopressin in anaemic states amplifies the hepcidin (already mapped) and IL-6 (already mapped) iron-sequestration response of IDA."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "IDA selenium: selenium, via GPx and NRF2 (already mapped) antioxidant systems, protects erythrocytes (already mapped) from oxidative haemolysis; selenium deficiency amplifies the hepcidin (already mapped) and IL-6 (already mapped) iron-sequestration response, worsening IDA."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "IDA iodine: iodine-dependent thyroid hormones regulate erythropoietin (already mapped) and erythropoiesis in bone marrow (already mapped); hypothyroidism amplifies the hepcidin (already mapped) and IL-6 (already mapped) iron-withholding cascade of iron-deficiency anaemia."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "IDA sodium: sodium, via osmotic balance, regulates erythrocyte (already mapped) hydration and survival; dysregulated sodium amplifies oxidative stress in the transferrin (already mapped)-depleted and hepcidin (already mapped) iron-sequestered state of iron-deficiency anaemia."
 ---
 
 # Iron Deficiency Anemia
@@ -790,6 +799,9 @@ Iron is essential for:
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Iron-immune neuroendocrine: prolactin, via PRLR on macrophages (already mapped) and intestinal epithelium (already mapped), modulates iron absorption and immune responses; hyperprolactinaemia amplifies the IL-6 (already mapped) and hepcidin (already mapped) axis of iron sequestration in IDA.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Gut mucosal oxytocin: oxytocin, via OXTR on macrophages (already mapped) and intestinal epithelium (already mapped), attenuates gut inflammation and promotes mucosal iron absorption; oxytocin reduces the IL-6 (already mapped) and hepcidin (already mapped) iron sequestration in IDA.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Fluid-iron homeostasis: vasopressin, via V2 receptors on macrophages (already mapped) and renal tubular cells, modulates fluid-iron homeostasis; elevated vasopressin in anaemic states amplifies the hepcidin (already mapped) and IL-6 (already mapped) iron-sequestration response of IDA.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — IDA selenium: selenium, via GPx and NRF2 (already mapped) antioxidant systems, protects erythrocytes (already mapped) from oxidative haemolysis; selenium deficiency amplifies the hepcidin (already mapped) and IL-6 (already mapped) iron-sequestration response, worsening IDA.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — IDA iodine: iodine-dependent thyroid hormones regulate erythropoietin (already mapped) and erythropoiesis in bone marrow (already mapped); hypothyroidism amplifies the hepcidin (already mapped) and IL-6 (already mapped) iron-withholding cascade of iron-deficiency anaemia.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — IDA sodium: sodium, via osmotic balance, regulates erythrocyte (already mapped) hydration and survival; dysregulated sodium amplifies oxidative stress in the transferrin (already mapped)-depleted and hepcidin (already mapped) iron-sequestered state of iron-deficiency anaemia.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)
