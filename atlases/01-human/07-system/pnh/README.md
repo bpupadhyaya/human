@@ -505,6 +505,15 @@ cross_links:
   - target: 01-human/03-molecular/oxytocin
     relation: connects-to
     note: "PNH oxytocin: oxytocin, via OXTR on bone-marrow (already mapped) stromal cells, attenuates macrophage (already mapped) NF-κB (already mapped) activation; oxytocin also modulates regulatory T cells (already mapped) to suppress erythrocyte (already mapped) destruction in PNH."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "PNH vasopressin: vasopressin, via V2 receptors on endothelial cells (already mapped) and platelets (already mapped), amplifies the thrombotic risk of PNH; vasopressin activates the NF-κB (already mapped) vascular cascade and the complement-C5 (already mapped) haemolytic axis."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "PNH selenium: selenoprotein P reduces the complement-C5 (already mapped) and NF-κB (already mapped) driven oxidative injury to erythrocytes (already mapped) in PNH; selenium deficiency impairs erythropoiesis (erythropoietin already mapped) and amplifies anaemia severity."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "PNH iodine: iodine-dependent thyroid hormones regulate bone-marrow (already mapped) erythropoiesis and erythrocyte (already mapped) mitochondrial function; thyroid-hormone deficiency amplifies the NF-κB (already mapped) cascade and worsens haemolytic anaemia in PNH."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -759,6 +768,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — PNH testosterone: testosterone, via androgen receptors on erythrocytes (already mapped), suppresses complement-C5 (already mapped) activation; androgens (danazol) reduce the haemolytic burden by promoting erythropoiesis (erythropoietin already mapped) in PNH.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — PNH serotonin: platelet (already mapped) serotonin amplifies the thrombotic risk and vascular inflammation of PNH; 5-HT2 signalling on endothelial cells (already mapped) promotes nitric-oxide (already mapped) scavenging and the haemolytic vascular injury of PNH.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — PNH oxytocin: oxytocin, via OXTR on bone-marrow (already mapped) stromal cells, attenuates macrophage (already mapped) NF-κB (already mapped) activation; oxytocin also modulates regulatory T cells (already mapped) to suppress erythrocyte (already mapped) destruction in PNH.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — PNH vasopressin: vasopressin, via V2 receptors on endothelial cells (already mapped) and platelets (already mapped), amplifies the thrombotic risk of PNH; vasopressin activates the NF-κB (already mapped) vascular cascade and the complement-C5 (already mapped) haemolytic axis.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — PNH selenium: selenoprotein P reduces the complement-C5 (already mapped) and NF-κB (already mapped) driven oxidative injury to erythrocytes (already mapped) in PNH; selenium deficiency impairs erythropoiesis (erythropoietin already mapped) and amplifies anaemia severity.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — PNH iodine: iodine-dependent thyroid hormones regulate bone-marrow (already mapped) erythropoiesis and erythrocyte (already mapped) mitochondrial function; thyroid-hormone deficiency amplifies the NF-κB (already mapped) cascade and worsens haemolytic anaemia in PNH.
 
 ---
 

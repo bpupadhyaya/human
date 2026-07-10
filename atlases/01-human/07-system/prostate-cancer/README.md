@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "PC prolactin: prolactin, via PRLR on prostate cancer cells, activates mTOR (already mapped) and promotes tumour survival; prolactin also modulates macrophage (already mapped) polarisation and androgen-receptor (already mapped) signalling crosstalk in prostate cancer."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "PC oxytocin: oxytocin, via OXTR on prostate cancer cells and macrophages (already mapped), attenuates NF-κB (already mapped) tumour inflammation and androgen-receptor (already mapped) signalling; oxytocin modulates the immunosuppressive tumour microenvironment of prostate cancer."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "PC vasopressin: vasopressin V1 receptors on prostate cancer cells promote the NF-κB (already mapped) driven tumour proliferation and vascular remodelling; V2-receptor activation amplifies androgen-receptor (already mapped) signalling and tumour invasion in prostate cancer."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "PC iodine: iodine-dependent thyroid hormones regulate prostate cancer cell proliferation and androgen-receptor (already mapped) sensitivity; thyroid-hormone deficiency amplifies the NF-κB (already mapped) tumour growth and mTOR (already mapped) driven metastatic progression."
 ---
 
 # Prostate Cancer
@@ -802,6 +811,9 @@ cross_links:
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — PC serotonin: serotonin, via 5-HT receptors on prostate cancer cells and macrophages (already mapped), promotes tumour proliferation and the immunosuppressive tumour microenvironment; 5-HT also modulates the androgen-receptor (already mapped) signalling axis of prostate cancer.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — PC melatonin: melatonin, via MT1/MT2 receptors, attenuates androgen-receptor (already mapped) signalling and tumour proliferation in prostate cancer; melatonin also suppresses osteoblast (already mapped) RANKL (already mapped) bone-metastatic niche formation.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — PC prolactin: prolactin, via PRLR on prostate cancer cells, activates mTOR (already mapped) and promotes tumour survival; prolactin also modulates macrophage (already mapped) polarisation and androgen-receptor (already mapped) signalling crosstalk in prostate cancer.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — PC oxytocin: oxytocin, via OXTR on prostate cancer cells and macrophages (already mapped), attenuates NF-κB (already mapped) tumour inflammation and androgen-receptor (already mapped) signalling; oxytocin modulates the immunosuppressive tumour microenvironment of prostate cancer.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — PC vasopressin: vasopressin V1 receptors on prostate cancer cells promote the NF-κB (already mapped) driven tumour proliferation and vascular remodelling; V2-receptor activation amplifies androgen-receptor (already mapped) signalling and tumour invasion in prostate cancer.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — PC iodine: iodine-dependent thyroid hormones regulate prostate cancer cell proliferation and androgen-receptor (already mapped) sensitivity; thyroid-hormone deficiency amplifies the NF-κB (already mapped) tumour growth and mTOR (already mapped) driven metastatic progression.
 
 [^beer-2014-prevail]: Beer TM, Armstrong AJ, Rathkopf D, et al. Enzalutamide in metastatic prostate cancer before chemotherapy. *N Engl J Med.* 2014;371(5):424-433. [doi:10.1056/NEJMoa1405095](https://doi.org/10.1056/NEJMoa1405095) · [PubMed 24881730](https://pubmed.ncbi.nlm.nih.gov/24881730/)
 [^sartor-2021-vision]: Sartor O, de Bono J, Chi KN, et al. Lutetium-PSMA-617 for metastatic castration-resistant prostate cancer. *N Engl J Med.* 2021;385(12):1091-1103. [doi:10.1056/NEJMoa2107322](https://doi.org/10.1056/NEJMoa2107322) · [PubMed 34161051](https://pubmed.ncbi.nlm.nih.gov/34161051/)
