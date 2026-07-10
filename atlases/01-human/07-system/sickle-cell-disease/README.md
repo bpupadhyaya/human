@@ -496,6 +496,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Fibrotic remodelling: periostin, downstream of the IL-13 (already mapped) and TGF-β (already mapped) signalling in the sickle-cell organ injury, contributes to the pulmonary fibrosis and the renal (already mapped) remodelling of sickle cell disease."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian pain-immune axis: melatonin, with its antioxidant and vascular effects on the sickle-erythrocyte (already mapped) fragile endothelium (already mapped), modulates the nocturnal pain-crisis pattern and the oxidative stress of sickle cell disease."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Sex-hormone haematopoietic: testosterone stimulates erythropoiesis (EPO already mapped) and modulates the bone-marrow (already mapped) production of red blood cells (already mapped); the sex-hormone erythropoietic axis is relevant to the severity of sickle cell disease."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Platelet-serotonin vaso-occlusion: serotonin, released by platelets (already mapped) upon the sickle-erythrocyte-damaged endothelium (already mapped), amplifies the vasoconstriction and microvascular thrombosis of the vaso-occlusive crises of sickle cell disease."
 ---
 
 # Sickle Cell Disease
@@ -814,6 +823,9 @@ SCD vaso-occlusion is not just from sickled RBCs mechanically blocking vessels �
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-vascular axis: TSLP, from activated endothelium (already mapped) and mast cells (already mapped) in sickle cell disease, primes dendritic cells (already mapped) and amplifies the Th2/eosinophil (already mapped) vascular inflammation of sickle cell disease.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell pain axis: histamine, from the mast cells (already mapped) degranulated by sickle-erythrocyte (already mapped) contact, amplifies the vaso-occlusive pain, the pruritus, and the neurogenic inflammation of the pain crises of sickle cell disease.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Fibrotic remodelling: periostin, downstream of the IL-13 (already mapped) and TGF-β (already mapped) signalling in the sickle-cell organ injury, contributes to the pulmonary fibrosis and the renal (already mapped) remodelling of sickle cell disease.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian pain-immune axis: melatonin, with its antioxidant and vascular effects on the sickle-erythrocyte (already mapped) fragile endothelium (already mapped), modulates the nocturnal pain-crisis pattern and the oxidative stress of sickle cell disease.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Sex-hormone haematopoietic: testosterone stimulates erythropoiesis (EPO already mapped) and modulates the bone-marrow (already mapped) production of red blood cells (already mapped); the sex-hormone erythropoietic axis is relevant to the severity of sickle cell disease.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Platelet-serotonin vaso-occlusion: serotonin, released by the activated platelets (already mapped) upon the sickle-erythrocyte-damaged endothelium (already mapped), amplifies the vasoconstriction and the microvascular thrombosis of the vaso-occlusive crises of sickle cell disease.
 
 [^steinberg-1999-scd-management]: Steinberg MH. Management of sickle cell disease. *N Engl J Med.* 1999;340(13):1021-1030. [doi:10.1056/NEJM199904013401307](https://doi.org/10.1056/NEJM199904013401307) · [PubMed 10099145](https://pubmed.ncbi.nlm.nih.gov/10099145/)
 [^vichinsky-2000-acs-scd]: Vichinsky EP, Neumayr LD, Earles AN, et al. Causes and outcomes of the acute chest syndrome in sickle cell disease. *N Engl J Med.* 2000;342(25):1855-1865. [doi:10.1056/NEJM200006223422502](https://doi.org/10.1056/NEJM200006223422502) · [PubMed 10861320](https://pubmed.ncbi.nlm.nih.gov/10861320/)

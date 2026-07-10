@@ -496,6 +496,15 @@ cross_links:
   - target: 01-human/03-molecular/c1-esterase-inhibitor
     relation: connects-to
     note: "Complement brake: C1-esterase inhibitor regulates the classical-complement pathway (C3, C5 and factor-H already mapped) contributing to the neuroinflammation and the complement-mediated fear-circuit synaptic remodelling of social anxiety disorder."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Stress EPO axis: chronic social anxiety and HPA-axis (cortisol already mapped) dysregulation alters EPO signalling; EpoR on neurons (already mapped) and microglia (already mapped) provides neuroprotection relevant to the amygdala (brain already mapped) hyperreactivity of SAD."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement gate: factor H limits alternative-pathway activation at the blood-brain barrier, restraining complement-mediated synaptic pruning and the microglial (already mapped) activation (complement C5 already mapped) of the fear-circuit hyperactivity of social anxiety disorder."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "CNS-border ECM: periostin, from astrocytes (already mapped) and meningeal fibroblasts, contributes to the perivascular ECM remodelling and the neuroinflammation (IL-6, TNF already mapped) implicated in the synaptic changes of social anxiety disorder."
 ---
 
 # Social Anxiety Disorder
@@ -785,6 +794,9 @@ The unique **dopaminergic social reward deficit** in SAD has clinical implicatio
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-anxiety axis: TSLP, from gut-epithelium (gut-microbiome already mapped) and mast cells (already mapped) under the chronic social stress of social anxiety disorder, amplifies the neuroinflammatory and the Th2/mast-cell stress axis of the fear-circuit hyperactivity.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-autonomic axis: bradykinin, via B2R on CNS neurons (already mapped) and microglia (already mapped), modulates the neuroinflammation and the autonomic hyperarousal contributing to the somatic and the cardiovascular symptoms of social anxiety disorder.
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement brake: C1-esterase inhibitor regulates the classical-complement pathway (C3, C5 and factor-H already mapped) contributing to the neuroinflammation and the complement-mediated fear-circuit synaptic remodelling of social anxiety disorder.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Stress erythropoiesis: chronic social anxiety and HPA-axis (cortisol already mapped) dysregulation can alter erythropoietin signalling; EpoR on neurons (already mapped) and microglia (already mapped) mediates neuroprotective effects relevant to the amygdala (brain already mapped) changes of SAD.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement gate: factor H limits alternative-pathway activation at the blood-brain barrier, restraining complement-mediated synaptic pruning and the microglial (already mapped) activation (complement C5 already mapped) of the fear-circuit hyperactivity of social anxiety disorder.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — CNS-border ECM: periostin, from astrocytes (already mapped) and meningeal fibroblasts, contributes to the perivascular ECM remodelling and the neuroinflammation (IL-6, TNF already mapped) implicated in the synaptic changes of social anxiety disorder.
 
 [^liebowitz-1987-sad-scale]: Liebowitz MR. Social phobia. *Mod Probl Pharmacopsychiatry.* 1987;22:141-173. [PubMed 2885745](https://pubmed.ncbi.nlm.nih.gov/2885745/)
 [^stein-2008-sad-review]: Stein MB, Stein DJ. Social anxiety disorder. *Lancet.* 2008;371(9618):1115-1125. [doi:10.1016/S0140-6736(08)60488-2](https://doi.org/10.1016/S0140-6736(08)60488-2) · [PubMed 18374843](https://pubmed.ncbi.nlm.nih.gov/18374843/)
