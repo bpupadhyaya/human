@@ -526,6 +526,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "HIT phosphorus: phosphate fuels platelet (already mapped) ATP and PF4 (already mapped) exocytosis; phosphorus deficiency amplifies thrombin (already mapped) generation and NF-κB (already mapped) endothelial cell (already mapped) prothrombotic cascade in HIT."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "HIT potassium: potassium regulates platelet (already mapped) and endothelial cell (already mapped) membrane potential; potassium dysregulation amplifies NF-κB (already mapped) and thrombin (already mapped) and PF4 (already mapped) prothrombotic cascade in HIT."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "HIT iron: iron, via ferritin in macrophages (already mapped) and platelet (already mapped) stores, modulates coagulation; iron dysregulation amplifies thrombin (already mapped) generation and NF-κB (already mapped) endothelial cell (already mapped) prothrombotic cascade in HIT."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "HIT chloride: chloride, as a key ionic regulator, maintains platelet (already mapped) and endothelial cell (already mapped) ion balance; chloride dysregulation amplifies NF-κB (already mapped) and thrombin (already mapped) and PF4 (already mapped) prothrombotic cascade in HIT."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -839,6 +848,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — HIT magnesium: magnesium inhibits platelet (already mapped) activation and PF4 (already mapped) release; magnesium deficiency amplifies thrombin (already mapped) generation and NF-κB (already mapped) endothelial cell (already mapped) prothrombotic signalling in the HIT cascade.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — HIT copper: copper, via ceruloplasmin, modulates platelet (already mapped) activation and PF4 (already mapped) release; copper deficiency amplifies NF-κB (already mapped) endothelial cell (already mapped) prothrombotic signalling and thrombin (already mapped) cascade in HIT.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — HIT phosphorus: phosphate fuels platelet (already mapped) ATP and PF4 (already mapped) exocytosis; phosphorus deficiency amplifies thrombin (already mapped) generation and NF-κB (already mapped) endothelial cell (already mapped) prothrombotic cascade in HIT.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — HIT potassium: potassium regulates platelet (already mapped) and endothelial cell (already mapped) membrane potential; potassium dysregulation amplifies NF-κB (already mapped) and thrombin (already mapped) and PF4 (already mapped) prothrombotic cascade in HIT.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — HIT iron: iron, via ferritin in macrophages (already mapped) and platelet (already mapped) stores, modulates coagulation; iron dysregulation amplifies thrombin (already mapped) generation and NF-κB (already mapped) endothelial cell (already mapped) prothrombotic cascade in HIT.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — HIT chloride: chloride, as a key ionic regulator, maintains platelet (already mapped) and endothelial cell (already mapped) ion balance; chloride dysregulation amplifies NF-κB (already mapped) and thrombin (already mapped) and PF4 (already mapped) prothrombotic cascade in HIT.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)

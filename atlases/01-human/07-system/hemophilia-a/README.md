@@ -526,6 +526,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "HA selenium: selenium, via GPx in endothelial cells (already mapped), scavenges haemostatic ROS; selenium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammation and impairs VWF (already mapped) and thrombin (already mapped) generation in HA."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "HA iodine: iodine-dependent thyroid hormones modulate hepatocyte (already mapped) coagulation-protein synthesis; iodine deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and impairs thrombin (already mapped) and VWF (already mapped) generation in HA."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "HA sodium: high dietary sodium promotes endothelial cell (already mapped) activation and macrophage (already mapped) inflammation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) amplifies haemostatic impairment and thrombin (already mapped) dysfunction in HA."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "HA magnesium: magnesium cofactors hepatocyte (already mapped) coagulation-protein synthesis and endothelial cell (already mapped) function; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and impairs thrombin (already mapped) generation in HA."
 ---
 
 # Hemophilia A
@@ -816,6 +825,9 @@ FVIII is a critical **amplifier** of the coagulation cascade at the junction bet
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — HA prolactin: prolactin signalling on B-cells (already mapped) amplifies anti-FVIII inhibitor development; prolactin-driven NF-κB (already mapped) activation promotes macrophage (already mapped) synovial inflammation and thrombin (already mapped) dysregulation in arthropathy.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — HA zinc: zinc cofactors hepatocyte (already mapped) coagulation-protein synthesis and macrophage (already mapped) function; zinc deficiency amplifies NF-κB (already mapped) inhibitor development and impairs thrombin (already mapped) and platelet (already mapped) haemostasis.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — HA selenium: selenium, via GPx in endothelial cells (already mapped), scavenges haemostatic ROS; selenium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammation and impairs VWF (already mapped) and thrombin (already mapped) generation in HA.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — HA iodine: iodine-dependent thyroid hormones modulate hepatocyte (already mapped) coagulation-protein synthesis; iodine deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and impairs thrombin (already mapped) and VWF (already mapped) generation in HA.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — HA sodium: high dietary sodium promotes endothelial cell (already mapped) activation and macrophage (already mapped) inflammation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) amplifies haemostatic impairment and thrombin (already mapped) dysfunction in HA.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — HA magnesium: magnesium cofactors hepatocyte (already mapped) coagulation-protein synthesis and endothelial cell (already mapped) function; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and impairs thrombin (already mapped) generation in HA.
 
 [^oldenburg-2017-emicizumab-haven1]: Oldenburg J, Mahlangu JN, Kim B, et al. Emicizumab prophylaxis in hemophilia A with inhibitors. *N Engl J Med.* 2017;377(9):809-818. [doi:10.1056/NEJMoa1703068](https://doi.org/10.1056/NEJMoa1703068) · [PubMed 28691557](https://pubmed.ncbi.nlm.nih.gov/28691557/)
 [^mahlangu-2018-emicizumab-haven3]: Mahlangu J, Oldenburg J, Paz-Priel I, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors. *N Engl J Med.* 2018;379(9):811-822. [doi:10.1056/NEJMoa1803550](https://doi.org/10.1056/NEJMoa1803550) · [PubMed 30157389](https://pubmed.ncbi.nlm.nih.gov/30157389/)
