@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/chloride
     relation: connects-to
     note: "MDD chloride: chloride, via GABA-A Cl⁻ influx in neurons (already mapped), maintains inhibitory tone; chloride dysregulation in microglia (already mapped) amplifies the NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of major depressive disorder."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "MDD sulfur: sulfur, as cysteine precursor in neurons (already mapped) and microglia (already mapped), supports glutathione and serotonin (already mapped) synthesis; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of major depressive disorder."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "MDD nitrogen: nitrogen, as RNS in neurons (already mapped) and microglia (already mapped), drives neuroinflammatory stress; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of major depressive disorder."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "MDD oxygen: oxygen, via ROS in neurons (already mapped) and microglia (already mapped), drives oxidative neuroinflammation; oxygen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of major depressive disorder."
 ---
 
 # Major Depressive Disorder
@@ -856,6 +865,9 @@ Approximately 30–40% of MDD patients have elevated inflammatory markers:
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — MDD calcium: calcium, as a second messenger in neurons (already mapped) and microglia (already mapped), coordinates synaptic plasticity; calcium dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory burden of major depressive disorder.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — MDD phosphorus: phosphorus, as ATP precursor in neurons (already mapped) and microglia (already mapped), supports synaptic energy; phosphorus deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of major depressive disorder.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — MDD chloride: chloride, via GABA-A Cl⁻ influx in neurons (already mapped), maintains inhibitory tone; chloride dysregulation in microglia (already mapped) amplifies the NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of major depressive disorder.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — MDD sulfur: sulfur, as cysteine precursor in neurons (already mapped) and microglia (already mapped), supports glutathione and serotonin (already mapped) synthesis; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of major depressive disorder.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — MDD nitrogen: nitrogen, as RNS in neurons (already mapped) and microglia (already mapped), drives neuroinflammatory stress; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of major depressive disorder.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — MDD oxygen: oxygen, via ROS in neurons (already mapped) and microglia (already mapped), drives oxidative neuroinflammation; oxygen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of major depressive disorder.
 
 [^cipriani-2018-antidepressants-meta]: Cipriani A, Furukawa TA, Salanti G, et al. Comparative efficacy and acceptability of 21 antidepressant drugs for acute treatment of adults with major depressive disorder. *Lancet.* 2018;391(10128):1357-1366. [doi:10.1016/S0140-6736(17)32802-7](https://doi.org/10.1016/S0140-6736(17)32802-7) · [PubMed 29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/)
 [^zarate-2006-ketamine-rapid]: Zarate CA Jr, Singh JB, Carlson PJ, et al. A randomized trial of an N-methyl-D-aspartate antagonist in treatment-resistant major depression. *Arch Gen Psychiatry.* 2006;63(8):856-864. [doi:10.1001/archpsyc.63.8.856](https://doi.org/10.1001/archpsyc.63.8.856) · [PubMed 16894061](https://pubmed.ncbi.nlm.nih.gov/16894061/)
