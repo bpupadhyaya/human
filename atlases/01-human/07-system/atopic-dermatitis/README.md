@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "AD iron: iron, as cofactor of immune enzymes in T-helper cells (already mapped) and mast cells (already mapped), modulates Th2 activation; iron deficiency amplifies the IL-4 (already mapped) and IgE (already mapped) type-2 inflammatory cascade of atopic dermatitis."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "AD nitrogen: nitric oxide (NO, nitrogen-derived) in neurons (already mapped) and macrophages (already mapped) regulates neuroinflammation; NO dysregulation amplifies NF-κB (already mapped) and IL-4 (already mapped) and IL-13 (already mapped) and TSLP (already mapped) cascade."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "AD chloride: chloride channels on mast cells (already mapped) and macrophages (already mapped) regulate intracellular pH; chloride dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-4 (already mapped) and IgE (already mapped) cascade in AD."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "AD sulfur: sulfur-containing glutathione in keratinocytes and macrophages (already mapped) scavenges skin ROS; sulfur deficiency amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-4 (already mapped) and TSLP (already mapped) eczematous cascade in AD."
 ---
 
 # Atopic Dermatitis
@@ -810,6 +819,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — AD potassium: potassium channels in mast cells (already mapped) and T-helper cells (already mapped) regulate immune activation and histamine release; potassium dysregulation amplifies the IL-4 (already mapped) and IgE (already mapped) Th2 cascade of atopic dermatitis.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — AD phosphorus: phosphorus, as ATP in T-helper cells (already mapped) and mast cells (already mapped), sustains Th2 cytokine production; phosphorus deficiency impairs the IL-4 (already mapped) and IgE (already mapped) skin (already mapped) barrier cascade of atopic dermatitis.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — AD iron: iron, as cofactor of immune enzymes in T-helper cells (already mapped) and mast cells (already mapped), modulates Th2 activation; iron deficiency amplifies the IL-4 (already mapped) and IgE (already mapped) type-2 inflammatory cascade of atopic dermatitis.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — AD nitrogen: nitric oxide (NO, nitrogen-derived) in neurons (already mapped) and macrophages (already mapped) regulates neuroinflammation; NO dysregulation amplifies NF-κB (already mapped) and IL-4 (already mapped) and IL-13 (already mapped) and TSLP (already mapped) cascade.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — AD chloride: chloride channels on mast cells (already mapped) and macrophages (already mapped) regulate intracellular pH; chloride dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-4 (already mapped) and IgE (already mapped) cascade in AD.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — AD sulfur: sulfur-containing glutathione in keratinocytes and macrophages (already mapped) scavenges skin ROS; sulfur deficiency amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-4 (already mapped) and TSLP (already mapped) eczematous cascade in AD.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

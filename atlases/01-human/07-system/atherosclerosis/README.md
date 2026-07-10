@@ -526,6 +526,15 @@ cross_links:
   - target: 01-human/02-atomic/iodine
     relation: connects-to
     note: "Atherosclerosis iodine: iodine-dependent thyroid hormones modulate cholesterol (already mapped) homeostasis and endothelial (already mapped) function; iodine deficiency amplifies the NF-κB (already mapped) and NLRP3 (already mapped) atherogenic plaque cascade of atherosclerosis."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Atherosclerosis sodium: excess dietary sodium drives endothelial-cell (already mapped) inflammation; sodium amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) atherogenic plaque and thrombin (already mapped) cascade."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Atherosclerosis potassium: potassium regulates endothelial-cell (already mapped) membrane function; potassium dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) atherogenic cascade in atherosclerosis."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Atherosclerosis magnesium: magnesium stabilises endothelial-cell (already mapped) function and attenuates platelet (already mapped) aggregation; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and fibrinogen (already mapped) atherogenic cascade."
 ---
 
 # Atherosclerosis
@@ -809,6 +818,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Atherosclerosis vasopressin: vasopressin, via V1aR on smooth-muscle cells (already mapped) and endothelium (already mapped), promotes vasoconstriction; vasopressin dysregulation amplifies the NF-κB (already mapped) and NLRP3 (already mapped) plaque cascade of atherosclerosis.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Atherosclerosis selenium: selenium, as GPx in endothelial cells (already mapped) and macrophages (already mapped), scavenges atherogenic ROS; selenium deficiency amplifies the NF-κB (already mapped) and NLRP3 (already mapped) inflammatory plaque cascade of atherosclerosis.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Atherosclerosis iodine: iodine-dependent thyroid hormones modulate cholesterol (already mapped) homeostasis and endothelial (already mapped) function; iodine deficiency amplifies the NF-κB (already mapped) and NLRP3 (already mapped) atherogenic plaque cascade of atherosclerosis.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Atherosclerosis sodium: excess dietary sodium drives endothelial-cell (already mapped) inflammation; sodium amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) atherogenic plaque and thrombin (already mapped) cascade.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Atherosclerosis potassium: potassium regulates endothelial-cell (already mapped) membrane function; potassium dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) atherogenic cascade in atherosclerosis.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Atherosclerosis magnesium: magnesium stabilises endothelial-cell (already mapped) function and attenuates platelet (already mapped) aggregation; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and fibrinogen (already mapped) atherogenic cascade.
 
 ---
 
