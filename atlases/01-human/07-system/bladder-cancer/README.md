@@ -526,6 +526,15 @@ cross_links:
   - target: 01-human/02-atomic/iodine
     relation: connects-to
     note: "Bladder iodine: iodine-dependent thyroid hormones modulate urothelial cell proliferation and macrophage (already mapped) immune surveillance; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of bladder cancer."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Bladder sodium: high dietary sodium promotes macrophage (already mapped) M2-skewing and mast-cell (already mapped) activation; sodium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour-promoting cascade of bladder cancer."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Bladder potassium: potassium regulates macrophage (already mapped) and regulatory T-cell (already mapped) membrane function; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of bladder cancer."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Bladder calcium: calcium regulates macrophage (already mapped) activation and mast-cell (already mapped) degranulation; calcium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour-promoting cascade of bladder cancer."
 ---
 
 # Bladder Cancer
@@ -816,6 +825,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Bladder serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates urothelial TME neuroinflammation; serotonin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of bladder cancer.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Bladder selenium: selenium, as GPx in endothelial cells (already mapped) and macrophages (already mapped), scavenges ROS driving urothelial TME oxidative stress; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of bladder cancer.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Bladder iodine: iodine-dependent thyroid hormones modulate urothelial cell proliferation and macrophage (already mapped) immune surveillance; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of bladder cancer.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Bladder sodium: high dietary sodium promotes macrophage (already mapped) M2-skewing and mast-cell (already mapped) activation; sodium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour-promoting cascade of bladder cancer.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Bladder potassium: potassium regulates macrophage (already mapped) and regulatory T-cell (already mapped) membrane function; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of bladder cancer.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Bladder calcium: calcium regulates macrophage (already mapped) activation and mast-cell (already mapped) degranulation; calcium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour-promoting cascade of bladder cancer.
 
 ---
 

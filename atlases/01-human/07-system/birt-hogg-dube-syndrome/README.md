@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "BHD selenium: selenium, as GPx in kidney (already mapped) cells and macrophages (already mapped), scavenges ROS driving the renal TME; selenium deficiency amplifies the NF-κB (already mapped) and mTOR (already mapped) tumour-promoting cascade of Birt-Hogg-Dubé syndrome."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "BHD sodium: sodium dysregulation in kidney (already mapped) cells and macrophages (already mapped) amplifies ionic stress; osmotic changes worsen NF-κB (already mapped) and mTOR (already mapped) and IL-6 (already mapped) tumour-promoting cascade of Birt-Hogg-Dubé syndrome."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "BHD potassium: potassium regulates macrophage (already mapped) and kidney (already mapped) cell membrane function; potassium dysregulation amplifies NF-κB (already mapped) and mTOR (already mapped) and VEGF (already mapped) tumour cascade of Birt-Hogg-Dubé syndrome."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "BHD magnesium: magnesium cofactors kinase signalling in kidney (already mapped) cells and macrophages (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and mTOR (already mapped) and IL-6 (already mapped) tumour-promoting cascade of Birt-Hogg-Dubé syndrome."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -828,6 +837,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — BHD oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates renal TME inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of Birt-Hogg-Dubé syndrome.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — BHD vasopressin: vasopressin, via V1aR on macrophages (already mapped) and endothelial cells (already mapped), modulates renal tumour vascular tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and mTOR (already mapped) tumour cascade of Birt-Hogg-Dubé syndrome.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — BHD selenium: selenium, as GPx in kidney (already mapped) cells and macrophages (already mapped), scavenges ROS driving the renal TME; selenium deficiency amplifies the NF-κB (already mapped) and mTOR (already mapped) tumour-promoting cascade of Birt-Hogg-Dubé syndrome.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — BHD sodium: sodium dysregulation in kidney (already mapped) cells and macrophages (already mapped) amplifies ionic stress; osmotic changes worsen NF-κB (already mapped) and mTOR (already mapped) and IL-6 (already mapped) tumour-promoting cascade of Birt-Hogg-Dubé syndrome.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — BHD potassium: potassium regulates macrophage (already mapped) and kidney (already mapped) cell membrane function; potassium dysregulation amplifies NF-κB (already mapped) and mTOR (already mapped) and VEGF (already mapped) tumour cascade of Birt-Hogg-Dubé syndrome.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — BHD magnesium: magnesium cofactors kinase signalling in kidney (already mapped) cells and macrophages (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and mTOR (already mapped) and IL-6 (already mapped) tumour-promoting cascade of Birt-Hogg-Dubé syndrome.
 
 ---
 
