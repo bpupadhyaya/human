@@ -516,6 +516,15 @@ cross_links:
   - target: 01-human/02-atomic/potassium
     relation: connects-to
     note: "RSV potassium: potassium efflux is the canonical activating signal for NLRP3 inflammasome (already mapped) in macrophages (already mapped); disrupted K⁺ homeostasis amplifies NF-κB (already mapped) and IL-1β (already mapped) cytokine storm of severe RSV infection."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "RSV iron: iron, as cofactor for ribonucleotide reductase in type-ii-pneumocytes (already mapped) and macrophages (already mapped), supports antiviral immunity; iron overload amplifies NF-κB (already mapped) and IL-6 (already mapped) oxidative-stress cascade of RSV bronchiolitis."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "RSV phosphorus: phosphorus, as ATP precursor in neutrophils (already mapped) and macrophages (already mapped), fuels phagocytic burst; phosphorus deficiency impairs dendritic-cell (already mapped) and amplifies IL-6 (already mapped) and NF-κB (already mapped) cascade of RSV."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "RSV chloride: chloride, via CFTR in airway epithelial and type-ii-pneumocyte (already mapped) cells, regulates mucociliary clearance; chloride channel dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of RSV bronchiolitis."
 ---
 
 # RSV
@@ -826,3 +835,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — RSV iodine: iodine-dependent thyroid hormones upregulate type-I IFN (already mapped) antiviral signalling on airway epithelium; hypothyroidism impairs the NF-κB (already mapped) response and amplifies the IL-6 (already mapped) and IL-33 (already mapped) cytokine storm of RSV.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — RSV copper: copper, as SOD and ceruloplasmin cofactor, suppresses the ROS amplifying NF-κB (already mapped) and NLRP3 inflammasome (already mapped) airway cytokine burst of RSV; copper deficiency impairs macrophage (already mapped) bactericidal and antiviral function.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — RSV potassium: potassium efflux is the canonical activating signal for NLRP3 inflammasome (already mapped) in macrophages (already mapped); disrupted K⁺ homeostasis amplifies NF-κB (already mapped) and IL-1β (already mapped) cytokine storm of severe RSV infection.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — RSV iron: iron, as cofactor for ribonucleotide reductase in type-ii-pneumocytes (already mapped) and macrophages (already mapped), supports antiviral immunity; iron overload amplifies NF-κB (already mapped) and IL-6 (already mapped) oxidative-stress cascade of RSV bronchiolitis.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — RSV phosphorus: phosphorus, as ATP precursor in neutrophils (already mapped) and macrophages (already mapped), fuels phagocytic burst; phosphorus deficiency impairs dendritic-cell (already mapped) and amplifies IL-6 (already mapped) and NF-κB (already mapped) cascade of RSV.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — RSV chloride: chloride, via CFTR in airway epithelial and type-ii-pneumocyte (already mapped) cells, regulates mucociliary clearance; chloride channel dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of RSV bronchiolitis.

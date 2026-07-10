@@ -59,6 +59,15 @@ cross_links:
   - target: 01-human/03-molecular/cgas-sting
     relation: connects-to
     note: "SARS-CoV-2 generates cytosolic DNA via reverse transcription → cGAS sensing; ORF9b targets TOM70 → inhibits MAVS-cGAS-STING cross-talk; STING agonists (diABZI) activate innate immunity; STING-driven IFN-β correlates with mild COVID-19 and reduced viral load in early infection."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "SARS-CoV-2 selenium: selenoproteins quench ROS amplifying NF-κB (already mapped) and ACE2 (already mapped) downregulation; selenium deficiency impairs type-i-interferon (already mapped) antiviral signalling and worsens MAVS (already mapped) cascade of SARS-CoV-2."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "SARS-CoV-2 iodine: iodine-dependent thyroid hormones modulate MAVS (already mapped) and type-i-interferon (already mapped) innate-immune signalling; thyroid disruption by SARS-CoV-2 ACE2 (already mapped) tropism amplifies NF-κB (already mapped) cytokine-storm cascade of COVID-19."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "SARS-CoV-2 sodium: high sodium promotes pro-inflammatory immune skewing; sodium-induced NF-κB (already mapped) amplifies ACE2 (already mapped) Ang-II signalling and impairs type-i-interferon (already mapped) and MAVS (already mapped) antiviral response of SARS-CoV-2."
 ---
 
 # SARS-CoV-2
@@ -181,6 +190,9 @@ SARS-CoV-2 Spike evolves under combined selection for increased ACE2 affinity an
 - `connects-to` → **[MAVS](../../03-molecular/mavs/README.md)** — SARS-CoV-2 +ssRNA replication intermediates activate RIG-I/MDA5 → MAVS → TBK1/IRF3 → IFN-β; NSP6 sequesters MAVS; NSP13 disrupts TBK1; NSP16 2′-O-methylation evades MDA5; ORF9b blocks MAVS-TOM70 interaction at the outer mitochondrial membrane.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — SARS-CoV-2 activates NF-κB via TLR2/TLR4 Spike sensing, MAVS→IKKβ, and ACE2 downregulation→Ang II→AT1R signaling; NF-κB drives cytokine storm (IL-6, TNF-α, IL-1β) in severe COVID-19; NSP3 PLpro modulates NF-κB pathway by deubiquitinating TRAF proteins.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — SARS-CoV-2 RNA-dependent DNA synthesis products activate cGAS; ORF9b binds TOM70 at mitochondrial import channel to inhibit MAVS-cGAS-STING crosstalk; early STING-driven IFN-β correlates with mild COVID-19; cGAS-STING agonists under investigation as COVID-19 mucosal vaccine adjuvants.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — SARS-CoV-2 selenium: selenoproteins quench ROS amplifying NF-κB (already mapped) and ACE2 (already mapped) downregulation; selenium deficiency impairs type-i-interferon (already mapped) antiviral signalling and worsens MAVS (already mapped) cascade of SARS-CoV-2.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — SARS-CoV-2 iodine: iodine-dependent thyroid hormones modulate MAVS (already mapped) and type-i-interferon (already mapped) innate-immune signalling; thyroid disruption by SARS-CoV-2 ACE2 (already mapped) tropism amplifies NF-κB (already mapped) cytokine-storm cascade of COVID-19.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — SARS-CoV-2 sodium: high sodium promotes pro-inflammatory immune skewing; sodium-induced NF-κB (already mapped) amplifies ACE2 (already mapped) Ang-II signalling and impairs type-i-interferon (already mapped) and MAVS (already mapped) antiviral response of SARS-CoV-2.
 
 [^zhou-2020-sars-cov-2-identification]: Zhou P, Yang XL, Wang XG, et al. A pneumonia outbreak associated with a new coronavirus of probable bat origin. *Nature.* 2020;579(7798):270-273. [doi:10.1038/s41586-020-2012-7](https://doi.org/10.1038/s41586-020-2012-7) · [PubMed 32015507](https://pubmed.ncbi.nlm.nih.gov/32015507/)
 [^hoffmann-2020-ace2-entry]: Hoffmann M, Kleine-Weber H, Schroeder S, et al. SARS-CoV-2 Cell Entry Depends on ACE2 and TMPRSS2 and Is Blocked by a Clinically Proven Protease Inhibitor. *Cell.* 2020;181(2):271-280. [doi:10.1016/j.cell.2020.02.052](https://doi.org/10.1016/j.cell.2020.02.052) · [PubMed 32142651](https://pubmed.ncbi.nlm.nih.gov/32142651/)
