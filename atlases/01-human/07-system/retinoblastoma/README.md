@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Retinal ECM scaffold: periostin, expressed in the optic nerve and retinal stromal cells, is induced in the retinoblastoma tumour bed where it promotes tumour-cell adhesion, invasion and the choroidal and optic-nerve spread of advanced-stage retinoblastoma."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Rb androgen axis: testosterone via androgen receptor on retinoblastoma cells and retinal progenitors modulates RB1 (already mapped) tumour-suppressor pathway activity, contributing to the sex-dimorphic susceptibility and neuroretinal context of retinoblastoma."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Rb serotonin: serotonin via 5-HT receptors on retinoblastoma cells and tumour-infiltrating immune cells modulates the cAMP-PKA pathway intersecting the RB1 (already mapped) and E2F1 (already mapped) cell-cycle suppressor axis of the retinoblastoma tumour microenvironment."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Rb prolactin: prolactin via JAK2 (already mapped) and STAT3 (already mapped) signalling on retinoblastoma cells promotes tumour-cell survival, modulating the immune infiltrate that determines response to intra-arterial chemotherapy (melphalan) in retinoblastoma."
 ---
 
 # Retinoblastoma
@@ -764,6 +773,9 @@ Standard regimen: **vincristine + carboplatin + etoposide (VCE)**, 6 cycles; red
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Intraocular alarmin: TSLP released by the retinoblastoma tumour microenvironment activates mast cells (already mapped) and dendritic cells to promote the immunosuppressive Th2-skewed microenvironment that impairs immune surveillance against retinoblastoma.
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement-cascade regulation: C1-esterase inhibitor restrains the classical complement pathway (C3 and C5aR1 already mapped) within the intraocular retinoblastoma microenvironment, modulating the complement-driven inflammation of retinal tumour growth.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Retinal ECM scaffold: periostin, expressed in the optic nerve and retinal stromal cells, is induced in the retinoblastoma tumour bed where it promotes tumour-cell adhesion, invasion and the choroidal and optic-nerve spread of advanced-stage retinoblastoma.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Rb androgen axis: testosterone via androgen receptor on retinoblastoma cells and retinal progenitors modulates RB1 (already mapped) tumour-suppressor pathway activity, contributing to the sex-dimorphic susceptibility and neuroretinal context of retinoblastoma.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Rb serotonin: serotonin via 5-HT receptors on retinoblastoma cells and tumour-infiltrating immune cells modulates the cAMP-PKA pathway intersecting the RB1 (already mapped) and E2F1 (already mapped) cell-cycle suppressor axis of the retinoblastoma tumour microenvironment.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Rb prolactin: prolactin via JAK2 (already mapped) and STAT3 (already mapped) signalling on retinoblastoma cells promotes tumour-cell survival, modulating the immune infiltrate that determines response to intra-arterial chemotherapy (melphalan) in retinoblastoma.
 
 [^knudson-1971-two-hit]: Knudson AG Jr. Mutation and cancer: statistical study of retinoblastoma. *Proc Natl Acad Sci USA.* 1971;68(4):820-823. [doi:10.1073/pnas.68.4.820](https://doi.org/10.1073/pnas.68.4.820) · [PubMed 5279523](https://pubmed.ncbi.nlm.nih.gov/5279523/)
 [^shields-2008-retinoblastoma]: Shields CL, Shields JA. Retinoblastoma management: advances in enucleation, intravenous chemoreduction, and intra-arterial chemotherapy. *Curr Opin Ophthalmol.* 2010;21(3):203-212. [doi:10.1097/ICU.0b013e328338676a](https://doi.org/10.1097/ICU.0b013e328338676a) · [PubMed 20224400](https://pubmed.ncbi.nlm.nih.gov/20224400/)

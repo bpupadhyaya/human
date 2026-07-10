@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/histamine
     relation: connects-to
     note: "Stromal mast-cell mediator: histamine released by stromal mast cells (already mapped) in the rhabdomyosarcoma tumour bed promotes the VEGF-driven angiogenesis and prostaglandin-mediated immune evasion that sustain the growth of this paediatric soft-tissue sarcoma."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "RMS melatonin: melatonin via MT1/MT2 receptors on rhabdomyosarcoma cells modulates the IGF-1 (already mapped) and mTOR (already mapped) myogenic differentiation axes, exerting anti-proliferative effects and reducing the desmoplastic tumour microenvironment of rhabdomyosarcoma."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "RMS androgen axis: testosterone via androgen receptor on rhabdomyosarcoma cells promotes myogenic proliferation through IGF-1 (already mapped) and mTOR (already mapped) crosstalk, intersecting the PAX3-FOXO1 (FOXO1 already mapped) oncogenic axis of the alveolar subtype."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "RMS serotonin: serotonin via 5-HT receptors on rhabdomyosarcoma cells and tumour-associated macrophages modulates the IGF-1 (already mapped) and mTOR (already mapped) signalling and the prostaglandin (already mapped)-driven immune evasion of the rhabdomyosarcoma microenvironment."
 ---
 
 # Rhabdomyosarcoma
@@ -779,6 +788,9 @@ Maximal safe resection with negative margins (R0) wherever achievable without mu
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Tumour-pain kinin: bradykinin generated in the rhabdomyosarcoma stroma activates B1/B2 receptors on peritumoral nociceptors and endothelial cells, amplifying the vasodilation, oedema and the pain (neuropathic pain already mapped) of the bulky soft-tissue mass.
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement regulation: C1-esterase inhibitor restrains the classical complement (C3 and C5aR1 already mapped) within the rhabdomyosarcoma stroma, modulating complement-driven myeloid recruitment and the angiogenesis (VEGF already mapped) of the desmoplastic microenvironment.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Stromal mast-cell mediator: histamine released by stromal mast cells (already mapped) in the rhabdomyosarcoma tumour bed promotes the VEGF-driven angiogenesis and prostaglandin-mediated immune evasion that sustain the growth of this paediatric soft-tissue sarcoma.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — RMS melatonin: melatonin via MT1/MT2 receptors on rhabdomyosarcoma cells modulates the IGF-1 (already mapped) and mTOR (already mapped) myogenic differentiation axes, exerting anti-proliferative effects and reducing the desmoplastic tumour microenvironment of rhabdomyosarcoma.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — RMS androgen axis: testosterone via androgen receptor on rhabdomyosarcoma cells promotes myogenic proliferation through IGF-1 (already mapped) and mTOR (already mapped) crosstalk, intersecting the PAX3-FOXO1 (FOXO1 already mapped) oncogenic axis of the alveolar subtype.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — RMS serotonin: serotonin via 5-HT receptors on rhabdomyosarcoma cells and tumour-associated macrophages modulates the IGF-1 (already mapped) and mTOR (already mapped) signalling and the prostaglandin (already mapped)-driven immune evasion of the rhabdomyosarcoma microenvironment.
 
 [^crist-2001-irs4-rms]: Crist WM, Anderson JR, Meza JL, et al. Intergroup rhabdomyosarcoma study-IV: results for patients with nonmetastatic disease. *J Clin Oncol.* 2001;19(12):3091-3102. [doi:10.1200/JCO.2001.19.12.3091](https://doi.org/10.1200/JCO.2001.19.12.3091) · [PubMed 11408506](https://pubmed.ncbi.nlm.nih.gov/11408506/)
 [^oberlin-2012-mmt95-rms]: Oberlin O, Rey A, Sanchez de Toledo J, et al. Randomized comparison of intensified six-drug versus standard three-drug chemotherapy for high-risk nonmetastatic rhabdomyosarcoma and other chemotherapy-sensitive childhood soft tissue sarcomas. *J Clin Oncol.* 2012;30(19):2457-2465. [doi:10.1200/JCO.2011.39.3538](https://doi.org/10.1200/JCO.2011.39.3538) · [PubMed 22665546](https://pubmed.ncbi.nlm.nih.gov/22665546/)
