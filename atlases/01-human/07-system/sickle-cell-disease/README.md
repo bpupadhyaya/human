@@ -505,6 +505,15 @@ cross_links:
   - target: 01-human/03-molecular/serotonin
     relation: connects-to
     note: "Platelet-serotonin vaso-occlusion: serotonin, released by platelets (already mapped) upon the sickle-erythrocyte-damaged endothelium (already mapped), amplifies the vasoconstriction and microvascular thrombosis of the vaso-occlusive crises of sickle cell disease."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "SCD prolactin: prolactin, via PRLR on macrophages (already mapped) and erythrocytes (already mapped), modulates haematopoiesis; hyperprolactinaemia amplifies the IL-6 (already mapped) and TNF-α (already mapped) vaso-occlusive cascade of sickle cell disease."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "SCD oxytocin: oxytocin, via OXTR on endothelial cells (already mapped) and macrophages (already mapped), attenuates vaso-occlusive inflammation; oxytocin deficiency amplifies the IL-6 (already mapped) and NF-κB (already mapped) crisis cascade of sickle cell disease."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "SCD vasopressin: vasopressin, via V2 receptors on erythrocytes (already mapped) and endothelial cells (already mapped), modulates red-cell hydration; vasopressin excess amplifies haemolysis and the nitric-oxide (already mapped) vascular cascade of sickle cell disease."
 ---
 
 # Sickle Cell Disease
@@ -826,6 +835,9 @@ SCD vaso-occlusion is not just from sickled RBCs mechanically blocking vessels �
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian pain-immune axis: melatonin, with its antioxidant and vascular effects on the sickle-erythrocyte (already mapped) fragile endothelium (already mapped), modulates the nocturnal pain-crisis pattern and the oxidative stress of sickle cell disease.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Sex-hormone haematopoietic: testosterone stimulates erythropoiesis (EPO already mapped) and modulates the bone-marrow (already mapped) production of red blood cells (already mapped); the sex-hormone erythropoietic axis is relevant to the severity of sickle cell disease.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Platelet-serotonin vaso-occlusion: serotonin, released by the activated platelets (already mapped) upon the sickle-erythrocyte-damaged endothelium (already mapped), amplifies the vasoconstriction and the microvascular thrombosis of the vaso-occlusive crises of sickle cell disease.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Haematopoietic neuroendocrine: prolactin, via PRLR on macrophages (already mapped) and erythrocytes (already mapped), modulates haematopoiesis; hyperprolactinaemia amplifies the IL-6 (already mapped) and TNF-α (already mapped) vaso-occlusive cascade of sickle cell disease.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Vaso-occlusion attenuator: oxytocin, via OXTR on endothelial cells (already mapped) and macrophages (already mapped), attenuates vaso-occlusive inflammation; oxytocin deficiency amplifies the IL-6 (already mapped) and NF-κB (already mapped) crisis cascade of sickle cell disease.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Red-cell hydration modulator: vasopressin, via V2 receptors on erythrocytes (already mapped) and endothelial cells (already mapped), modulates red-cell hydration; vasopressin excess amplifies haemolysis and the nitric-oxide (already mapped) vascular cascade of sickle cell disease.
 
 [^steinberg-1999-scd-management]: Steinberg MH. Management of sickle cell disease. *N Engl J Med.* 1999;340(13):1021-1030. [doi:10.1056/NEJM199904013401307](https://doi.org/10.1056/NEJM199904013401307) · [PubMed 10099145](https://pubmed.ncbi.nlm.nih.gov/10099145/)
 [^vichinsky-2000-acs-scd]: Vichinsky EP, Neumayr LD, Earles AN, et al. Causes and outcomes of the acute chest syndrome in sickle cell disease. *N Engl J Med.* 2000;342(25):1855-1865. [doi:10.1056/NEJM200006223422502](https://doi.org/10.1056/NEJM200006223422502) · [PubMed 10861320](https://pubmed.ncbi.nlm.nih.gov/10861320/)
