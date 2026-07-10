@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/serotonin
     relation: connects-to
     note: "Serotonin-HP axis: serotonin, released by enterochromaffin cells in the duodenum and acinar cells in the pancreas, modulates pancreatic enzyme secretion, ductal bicarbonate output, and the pain signalling of the recurrent inflammatory episodes of hereditary pancreatitis."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "HP prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the pancreatic inflammatory milieu; hyperprolactinaemia amplifies the NF-κB (already mapped) and TNF-α (already mapped) acinar-injury cascade of hereditary pancreatitis."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "HP oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates pancreatic inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) neutrophil-dominated cascade of hereditary pancreatitis."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "HP vasopressin: vasopressin, via V2R on macrophages (already mapped) and neutrophils (already mapped), modulates pancreatic fluid homeostasis; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of hereditary pancreatitis."
 ---
 
 # Hereditary Pancreatitis
@@ -807,6 +816,9 @@ cross_links:
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Melatonin-HP axis: melatonin, via MT1/MT2 receptors on pancreatic acinar cells and stellate cells (already mapped), suppresses the NLRP3 (already mapped) inflammasome and oxidative-stress amplification of the recurrent pancreatitis of hereditary pancreatitis.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-HP axis: testosterone, via androgen receptor signalling on pancreatic stellate cells (already mapped) and acinar cells, modulates the fibrosis-promoting (TGF-β already mapped) response and the sex-biased severity of hereditary pancreatitis.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Serotonin-HP axis: serotonin, released by enterochromaffin cells in the duodenum and acinar cells in the pancreas, modulates pancreatic enzyme secretion, ductal bicarbonate output, and the pain signalling of the recurrent inflammatory episodes of hereditary pancreatitis.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — HP prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the pancreatic inflammatory milieu; hyperprolactinaemia amplifies the NF-κB (already mapped) and TNF-α (already mapped) acinar-injury cascade of hereditary pancreatitis.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — HP oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates pancreatic inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) neutrophil-dominated cascade of hereditary pancreatitis.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — HP vasopressin: vasopressin, via V2R on macrophages (already mapped) and neutrophils (already mapped), modulates pancreatic fluid homeostasis; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of hereditary pancreatitis.
 
 [^whitcomb-1996-prss1]: Whitcomb DC, Gorry MC, Preston RA, et al. Hereditary pancreatitis is caused by a mutation in the cationic trypsinogen gene. *Nat Genet.* 1996;14(2):141-145. [doi:10.1038/ng1096-141](https://doi.org/10.1038/ng1096-141) · [PubMed 8841182](https://pubmed.ncbi.nlm.nih.gov/8841182/)
 [^lowenfels-2001-hp-pdac]: Lowenfels AB, Maisonneuve P, DiMagno EP, et al. Hereditary pancreatitis and the risk of pancreatic cancer. *J Natl Cancer Inst.* 2001;93(1):26-31. [doi:10.1093/jnci/93.1.26](https://doi.org/10.1093/jnci/93.1.26) · [PubMed 11136838](https://pubmed.ncbi.nlm.nih.gov/11136838/)

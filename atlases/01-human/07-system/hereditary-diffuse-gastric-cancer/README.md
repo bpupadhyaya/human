@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/testosterone
     relation: connects-to
     note: "Androgen-HDGC axis: testosterone, via androgen receptor signalling on CDH1-mutant (already mapped) gastric tumour cells and stroma, modulates E-cadherin-loss-driven invasiveness and the sex-biased clinical presentation of hereditary diffuse gastric cancer."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "HDGC prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the immune TME; hyperprolactinaemia amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) antitumour cascade of hereditary diffuse gastric cancer."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "HDGC oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates tumour-promoting inflammation; oxytocin deficiency amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of hereditary diffuse gastric cancer."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "HDGC vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates the TME; vasopressin dysregulation amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) antitumour cascade of hereditary diffuse gastric cancer."
 ---
 
 # Hereditary Diffuse Gastric Cancer
@@ -771,6 +780,9 @@ Testing for CDH1 (and CTNNA1) is indicated in any of the following:
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histamine-HDGC axis: histamine, from mast cells in the CDH1-deficient (already mapped) HDGC gastric stroma, signals via H2 receptors on tumour cells and endothelium, modulating acid secretion, angiogenesis, and the pro-tumourigenic milieu of signet-ring-cell HDGC.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Melatonin-HDGC axis: melatonin, produced by gastric enterochromaffin cells, suppresses CDH1-deficient (already mapped) tumour-cell proliferation, modulates H. pylori co-stimulatory oxidative stress, and enhances apoptotic sensitivity in HDGC signet-ring cells.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-HDGC axis: testosterone, via androgen receptor signalling on CDH1-mutant (already mapped) gastric tumour cells and stroma, modulates E-cadherin-loss-driven invasiveness and the sex-biased clinical presentation of hereditary diffuse gastric cancer.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — HDGC prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the immune TME; hyperprolactinaemia amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) antitumour cascade of hereditary diffuse gastric cancer.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — HDGC oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates tumour-promoting inflammation; oxytocin deficiency amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of hereditary diffuse gastric cancer.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — HDGC vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates the TME; vasopressin dysregulation amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) antitumour cascade of hereditary diffuse gastric cancer.
 
 [^van-der-post-2015-hdgc-guidelines]: van der Post RS, Vogelaar IP, Carneiro F, et al. Hereditary diffuse gastric cancer: updated clinical guidelines with an emphasis on germline CDH1 mutation carriers. *J Med Genet.* 2015;52(6):361-374. [doi:10.1136/jmedgenet-2015-103094](https://doi.org/10.1136/jmedgenet-2015-103094) · [PubMed 25979631](https://pubmed.ncbi.nlm.nih.gov/25979631/)
 [^hansford-2015-hdgc]: Hansford S, Kaurah P, Li-Chang H, et al. Hereditary Diffuse Gastric Cancer Syndrome: CDH1 Mutations and Beyond. *JAMA Oncol.* 2015;1(1):23-32. [doi:10.1001/jamaoncol.2014.168](https://doi.org/10.1001/jamaoncol.2014.168) · [PubMed 26182300](https://pubmed.ncbi.nlm.nih.gov/26182300/)
