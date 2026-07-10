@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "HBOC vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates the TME; vasopressin dysregulation amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) antitumour cascade of hereditary breast-ovarian cancer."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "HBOC serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and T-cytotoxic cells (already mapped), modulates the TME; serotonin dysregulation amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of HBOC."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "HBOC selenium: selenium, as GPx in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges ROS; selenium deficiency amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) oxidative tumour cascade of HBOC."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "HBOC iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and T-cytotoxic (already mapped) immune activation; iodine deficiency amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of HBOC."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -811,6 +820,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — HBOC prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the BRCA-deficient immune TME; hyperprolactinaemia amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of HBOC.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — HBOC oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates tumour-promoting inflammation; oxytocin deficiency amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of HBOC.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — HBOC vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates the TME; vasopressin dysregulation amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) antitumour cascade of hereditary breast-ovarian cancer.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — HBOC serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and T-cytotoxic cells (already mapped), modulates the TME; serotonin dysregulation amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of HBOC.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — HBOC selenium: selenium, as GPx in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges ROS; selenium deficiency amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) oxidative tumour cascade of HBOC.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — HBOC iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and T-cytotoxic (already mapped) immune activation; iodine deficiency amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of HBOC.
 
 ---
 
