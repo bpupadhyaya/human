@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "MCL sodium: high dietary sodium promotes macrophage (already mapped) and mast-cell (already mapped) activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the B-cell (already mapped) tumour cascade of mantle-cell lymphoma."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "MCL magnesium: magnesium cofactors kinase signalling in macrophages (already mapped) and B-cells (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) tumour cascade of mantle-cell lymphoma."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "MCL copper: copper, via SOD1 in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges ROS; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and B-cell (already mapped) tumour cascade of mantle-cell lymphoma."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "MCL zinc: zinc, as cofactor of antioxidant enzymes in macrophages (already mapped) and T-cytotoxic cells (already mapped), attenuates oxidative stress; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and B-cell (already mapped) cascade of MCL."
 ---
 
 # Mantle Cell Lymphoma
@@ -809,6 +818,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — MCL selenium: selenium, as GPx in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges ROS; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) oxidative B-cell (already mapped) tumour cascade of mantle-cell lymphoma.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — MCL iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and T-cytotoxic (already mapped) immune activation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of mantle-cell lymphoma.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — MCL sodium: high dietary sodium promotes macrophage (already mapped) and mast-cell (already mapped) activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the B-cell (already mapped) tumour cascade of mantle-cell lymphoma.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — MCL magnesium: magnesium cofactors kinase signalling in macrophages (already mapped) and B-cells (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) tumour cascade of mantle-cell lymphoma.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — MCL copper: copper, via SOD1 in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges ROS; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and B-cell (already mapped) tumour cascade of mantle-cell lymphoma.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — MCL zinc: zinc, as cofactor of antioxidant enzymes in macrophages (already mapped) and T-cytotoxic cells (already mapped), attenuates oxidative stress; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and B-cell (already mapped) cascade of MCL.
 
 ---
 
