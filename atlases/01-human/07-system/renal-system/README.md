@@ -496,6 +496,15 @@ cross_links:
   - target: 01-human/03-molecular/histamine
     relation: connects-to
     note: "Mast-cell mediator: histamine, released from the peritubular mast cells (already mapped) under allergic and inflammatory stimuli, modulates vascular permeability and contributes to the allergic interstitial nephritis and minimal-change disease of the renal system."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "ECM remodelling in the tubulointerstitium: periostin, expressed by renal fibroblasts and tubular epithelial cells (already mapped) under TGF-β (already mapped) stimulation, promotes the fibrotic extracellular matrix deposition that drives CKD progression of the renal system."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian renoprotective antioxidant: melatonin, via MT1/MT2 receptors on proximal tubular cells and mesangial cells (already mapped), scavenges ROS (already mapped) and attenuates the oxidative and inflammatory tubulointerstitial injury of the renal system."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Immune-endocrine renal axis: prolactin, acting via PRLR on immune cells (macrophage and T-helper already mapped) and tubular cells, modulates the immune infiltrate and the fibrogenic cytokine (TGF-β already mapped) signalling of the renal system."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -750,6 +759,9 @@ Natriuretic counterpoint:
 - **Connects to:** [TSLP](../../03-molecular/tslp/README.md) — tubulo-epithelial alarmin: TSLP, released from the injured tubular and pelvic urothelium under inflammatory and ischaemic stress, activates mast cells (already mapped) and dendritic cells (already mapped), amplifying the innate immune response of the renal system.
 - **Connects to:** [C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md) — complement/kinin gate: C1-esterase inhibitor limits classical complement (C3, C5 and C5aR1 already mapped) and contact-kinin (bradykinin already mapped) over-activation in the inflamed glomerulus and tubulointerstitium, moderating complement-mediated injury of the renal system.
 - **Connects to:** [Histamine](../../03-molecular/histamine/README.md) — mast-cell mediator: histamine, released from the peritubular mast cells (already mapped) under allergic and inflammatory stimuli, modulates vascular permeability and contributes to the allergic interstitial nephritis and minimal-change disease of the renal system.
+- **Connects to:** [Periostin](../../03-molecular/periostin/README.md) — ECM remodelling in the tubulointerstitium: periostin, expressed by renal fibroblasts and tubular epithelial cells (already mapped) under TGF-β (already mapped) stimulation, promotes the fibrotic extracellular matrix deposition that drives CKD progression of the renal system.
+- **Connects to:** [Melatonin](../../03-molecular/melatonin/README.md) — Circadian renoprotective antioxidant: melatonin, via MT1/MT2 receptors on proximal tubular cells and mesangial cells (already mapped), scavenges ROS (already mapped) and attenuates the oxidative and inflammatory tubulointerstitial injury of the renal system.
+- **Connects to:** [Prolactin](../../03-molecular/prolactin/README.md) — Immune-endocrine renal axis: prolactin, acting via PRLR on immune cells (macrophage and T-helper already mapped) and tubular cells, modulates the immune infiltrate and the fibrogenic cytokine (TGF-β already mapped) signalling of the renal system.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 

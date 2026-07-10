@@ -489,6 +489,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Immune stimulator: prolactin, via its receptor on NK cells (already mapped), macrophages (already mapped), and T cells (already mapped), promotes antiviral effector responses and modulates the Th1/Th2 balance of RSV immunity."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Neuroimmune antiviral modulator: oxytocin, via oxytocin receptors on macrophages (already mapped) and T cells (already mapped), suppresses the pro-inflammatory cytokine (IL-6 and TNF-α already mapped) storm and the airway hyperreactivity of severe RSV infection."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Androgen-mediated sex-differential severity: testosterone, acting via androgen receptors on innate immune cells, suppresses the pro-inflammatory cytokine (IL-6 and TNF-α already mapped) responses and underlies the greater severity of RSV disease in males vs. females."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Antioxidant antiviral micronutrient: selenium, incorporated into selenoproteins (GPx and thioredoxin reductase), suppresses the ROS-driven oxidative stress and the NF-κB-mediated (already mapped) inflammatory cytokine burst in the airway epithelium during RSV infection."
 ---
 
 # RSV
@@ -790,3 +799,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Erythropoiesis support: erythropoietin counteracts the anaemia driven by the cytokine storm (IL-6 already mapped) and NLRP3 inflammasome (already mapped) activation of severe RSV disease, supporting erythropoiesis during lower-respiratory-tract infection.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Antiviral immunomodulator: melatonin, acting via MT1/MT2 receptors on macrophages (already mapped) and NK cells (already mapped), inhibits NLRP3 inflammasome (already mapped) activation and attenuates the cytokine storm of severe RSV infection.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Immune stimulator: prolactin, via its receptor on NK cells (already mapped), macrophages (already mapped), and T cells (already mapped), promotes antiviral effector responses and modulates the Th1/Th2 balance of RSV immunity.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Neuroimmune antiviral modulator: oxytocin, via oxytocin receptors on macrophages (already mapped) and T cells (already mapped), suppresses the pro-inflammatory cytokine (IL-6 and TNF-α already mapped) storm and the airway hyperreactivity of severe RSV infection.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-mediated sex-differential severity: testosterone, acting via androgen receptors on innate immune cells, suppresses the pro-inflammatory cytokine (IL-6 and TNF-α already mapped) responses and underlies the greater severity of RSV disease in males vs. females.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Antioxidant antiviral micronutrient: selenium, incorporated into selenoproteins (GPx and thioredoxin reductase), suppresses the ROS-driven oxidative stress and the NF-κB-mediated (already mapped) inflammatory cytokine burst in the airway epithelium during RSV infection.
