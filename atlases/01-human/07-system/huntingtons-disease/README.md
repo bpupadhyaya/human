@@ -507,6 +507,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "HD phosphorus: phosphorus, as ATP precursor in neurons (already mapped) and microglia (already mapped), supports cellular energy; phosphorus deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) cascade of Huntington disease."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "HD chloride: chloride channels regulate neurons (already mapped) excitability and microglia (already mapped) ion homeostasis; chloride dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of Huntington disease."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "HD sulfur: sulfur, as methionine and cysteine in neurons (already mapped) and microglia (already mapped), supports protein homeostasis; sulfur dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) neurodegeneration of Huntington disease."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "HD nitrogen: nitrogen, as the backbone of amino acids in neurons (already mapped) and microglia (already mapped), underpins protein quality; nitrogen imbalance amplifies the NF-κB (already mapped) and TNF-α (already mapped) aggregation cascade of Huntington disease."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -721,3 +730,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — HD sodium: high dietary sodium promotes microglial (already mapped) and macrophage (already mapped) activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the neuroinflammatory cascade of Huntington disease.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — HD potassium: potassium depletion promotes microglial (already mapped) and macrophage (already mapped) activation; potassium deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of Huntington disease.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — HD phosphorus: phosphorus, as ATP precursor in neurons (already mapped) and microglia (already mapped), supports cellular energy; phosphorus deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) cascade of Huntington disease.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — HD chloride: chloride channels regulate neurons (already mapped) excitability and microglia (already mapped) ion homeostasis; chloride dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of Huntington disease.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — HD sulfur: sulfur, as methionine and cysteine in neurons (already mapped) and microglia (already mapped), supports protein homeostasis; sulfur dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) neurodegeneration of Huntington disease.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — HD nitrogen: nitrogen, as the backbone of amino acids in neurons (already mapped) and microglia (already mapped), underpins protein quality; nitrogen imbalance amplifies the NF-κB (already mapped) and TNF-α (already mapped) aggregation cascade of Huntington disease.

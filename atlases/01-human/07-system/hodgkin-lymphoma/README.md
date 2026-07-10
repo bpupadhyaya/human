@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "HL magnesium: magnesium, as cofactor of immune enzymes in macrophages (already mapped) and mast cells (already mapped), restrains NF-κB (already mapped) and IL-6 (already mapped); magnesium deficiency amplifies the T-cytotoxic (already mapped) cascade of Hodgkin lymphoma."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "HL copper: copper supports macrophage (already mapped) and mast-cell (already mapped) anti-inflammatory function; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) Reed-Sternberg tumour cascade of Hodgkin lymphoma."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "HL potassium: potassium regulates macrophage (already mapped) and mast-cell (already mapped) membrane potential; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of Hodgkin lymphoma."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "HL phosphorus: phosphorus, as ATP in macrophages (already mapped) and mast cells (already mapped), fuels kinase signalling; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of Hodgkin lymphoma."
 ---
 
 # Hodgkin Lymphoma
@@ -809,6 +818,9 @@ Modern protocols minimize RT fields and doses (ISRT replacing extended-field RT)
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — HL iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and T-cytotoxic (already mapped) immune activation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of Hodgkin lymphoma.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — HL sodium: high dietary sodium promotes macrophage (already mapped) and mast-cell (already mapped) activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) cascade of Hodgkin lymphoma.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — HL magnesium: magnesium, as cofactor of immune enzymes in macrophages (already mapped) and mast cells (already mapped), restrains NF-κB (already mapped) and IL-6 (already mapped); magnesium deficiency amplifies the T-cytotoxic (already mapped) cascade of Hodgkin lymphoma.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — HL copper: copper supports macrophage (already mapped) and mast-cell (already mapped) anti-inflammatory function; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) Reed-Sternberg tumour cascade of Hodgkin lymphoma.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — HL potassium: potassium regulates macrophage (already mapped) and mast-cell (already mapped) membrane potential; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of Hodgkin lymphoma.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — HL phosphorus: phosphorus, as ATP in macrophages (already mapped) and mast cells (already mapped), fuels kinase signalling; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of Hodgkin lymphoma.
 
 [^connors-2018-echelon1]: Connors JM, Jurczak W, Straus DJ, et al. Brentuximab vedotin with chemotherapy for stage III or IV Hodgkin's lymphoma. *N Engl J Med.* 2018;378(4):331-344. [doi:10.1056/NEJMoa1708984](https://doi.org/10.1056/NEJMoa1708984) · [PubMed 29360494](https://pubmed.ncbi.nlm.nih.gov/29360494/)
 [^armand-2018-nivo-hl]: Armand P, Engert A, Younes A, et al. Nivolumab for relapsed/refractory classic Hodgkin lymphoma after failure of autologous hematopoietic cell transplantation: extended follow-up of the multicohort single-arm phase II CheckMate 205 trial. *J Clin Oncol.* 2018;36(14):1428-1439. [doi:10.1200/JCO.2017.77.6717](https://doi.org/10.1200/JCO.2017.77.6717) · [PubMed 29584546](https://pubmed.ncbi.nlm.nih.gov/29584546/)
