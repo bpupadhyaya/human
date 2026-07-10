@@ -517,6 +517,9 @@ cross_links:
   - target: 01-human/02-atomic/iodine
     relation: connects-to
     note: "APS iodine: iodine-dependent thyroid hormones modulate endothelial cell (already mapped) function and platelet (already mapped) reactivity; hypothyroidism, common in autoimmune patients, amplifies NF-κB (already mapped) thromboinflammation and aPL coagulation risk of APS."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "APS sodium: excess sodium promotes macrophage (already mapped) and neutrophil (already mapped) pro-inflammatory skewing; sodium-induced NF-κB (already mapped) amplifies endothelial-cell (already mapped) and platelet (already mapped) thromboinflammatory cascade of APS."
 ---
 
 # Antiphospholipid Syndrome
@@ -829,6 +832,7 @@ In APS, anti-B2GPI IgG bound to B2GPI on phospholipid surfaces converts this ant
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — APS vasopressin: vasopressin, via V1a receptors on platelets (already mapped) and endothelial cells (already mapped), promotes prothrombotic platelet activation; vasopressin amplifies NF-κB (already mapped) and complement-C5 (already mapped) thromboinflammatory cascade of APS.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — APS selenium: selenium-dependent GPx suppresses the ROS amplifying NF-κB (already mapped) and complement-C5 (already mapped) endothelial injury in APS; selenium deficiency promotes platelet (already mapped) hyperreactivity and the thromboinflammatory vascular injury of APS.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — APS iodine: iodine-dependent thyroid hormones modulate endothelial cell (already mapped) function and platelet (already mapped) reactivity; hypothyroidism, common in autoimmune patients, amplifies NF-κB (already mapped) thromboinflammation and aPL coagulation risk of APS.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — APS sodium: excess sodium promotes macrophage (already mapped) and neutrophil (already mapped) pro-inflammatory skewing; sodium-induced NF-κB (already mapped) amplifies endothelial-cell (already mapped) and platelet (already mapped) thromboinflammatory cascade of APS.
 
 [^miyakis-2006-sydney-aps]: Miyakis S, Lockshin MD, Atsumi T, et al. International consensus statement on an update of the classification criteria for definite antiphospholipid syndrome (APS). *J Thromb Haemost.* 2006;4(2):295-306. [doi:10.1111/j.1538-7836.2006.01753.x](https://doi.org/10.1111/j.1538-7836.2006.01753.x) · [PubMed 16420554](https://pubmed.ncbi.nlm.nih.gov/16420554/)
 [^barbhaiya-2023-acreular-aps]: Barbhaiya M, Zuily S, Naden R, et al. The 2023 ACR/EULAR antiphospholipid syndrome classification criteria. *Ann Rheum Dis.* 2023;82(10):1258-1270. [doi:10.1136/ard-2023-224609](https://doi.org/10.1136/ard-2023-224609) · [PubMed 37643823](https://pubmed.ncbi.nlm.nih.gov/37643823/)
