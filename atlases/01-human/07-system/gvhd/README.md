@@ -505,6 +505,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Stress-immune axis: prolactin, elevated by transplant stress and the immunosuppressive (calcineurin, cortisol already mapped) regimen, modulates T-cell (already mapped) and natural-killer-cell (already mapped) activity in the allograft context."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "GVHD testosterone: testosterone, via androgen receptors on T-helper cells (already mapped) and regulatory T cells (already mapped), attenuates alloreactive T-cell expansion; androgen deficiency amplifies the IL-6 (already mapped)-driven donor T-cell severity of GVHD."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "GVHD serotonin: serotonin, via 5-HT receptors on T-helper cells (already mapped) and natural-killer cells (already mapped), modulates the cytokine-storm (already mapped) immune axis; serotonin dysregulation amplifies the gut-microbiome (already mapped) dysbiosis of mucosal GVHD."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "GVHD oxytocin: oxytocin, via OXTR on regulatory T cells (already mapped) and dendritic cells (already mapped), promotes immunological tolerance by enhancing T-regulatory (Treg) expansion; oxytocin attenuates the IL-6 (already mapped)-driven donor alloreactivity of GVHD."
 ---
 
 # Graft-Versus-Host Disease
@@ -805,6 +814,9 @@ The protective Treg/IL-10 axis is the key biological counterbalance to alloreact
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell target-organ effector: mast cells (already mapped) in the target organs of GVHD — gut, skin, liver — release histamine that amplifies the vascular permeability and the tissue oedema of acute graft-versus-host disease.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian transplant biology: circadian disruption is common in transplant patients; melatonin has immunomodulatory effects on T-cell (already mapped) differentiation and alloreactivity, a property studied in the alloimmune context of GVHD.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Stress-immune axis: prolactin, elevated by transplant stress and the immunosuppressive (calcineurin, cortisol already mapped) regimen, modulates T-cell (already mapped) and natural-killer-cell (already mapped) activity in the allograft context.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen immunomodulation: testosterone, via androgen receptors on T-helper cells (already mapped) and regulatory T cells (already mapped), attenuates alloreactive T-cell expansion; androgen deficiency amplifies the IL-6 (already mapped)-driven donor T-cell severity of GVHD.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Gut-immune serotonergic axis: serotonin, via 5-HT receptors on T-helper cells (already mapped) and natural-killer cells (already mapped), modulates the cytokine-storm (already mapped) immune axis; serotonin dysregulation amplifies the gut-microbiome (already mapped) dysbiosis of mucosal GVHD.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Tolerogenic neuropeptide: oxytocin, via OXTR on regulatory T cells (already mapped) and dendritic cells (already mapped), promotes immunological tolerance by enhancing T-regulatory (Treg) expansion; oxytocin attenuates the IL-6 (already mapped)-driven donor alloreactivity of GVHD.
 
 [^ferrara-2009-gvhd-review]: Ferrara JL, Levine JE, Reddy P, Holler E. Graft-versus-host disease. *Lancet.* 2009;373(9674):1550-1561. [doi:10.1016/S0140-6736(09)60237-3](https://doi.org/10.1016/S0140-6736(09)60237-3) · [PubMed 19380114](https://pubmed.ncbi.nlm.nih.gov/19380114/)
 [^zeiser-2020-ruxolitinib-gvhd-reach]: Zeiser R, von Bubnoff N, Butler J, et al. Ruxolitinib for Glucocorticoid-Refractory Acute Graft-versus-Host Disease. *N Engl J Med.* 2020;382(19):1800-1810. [doi:10.1056/NEJMoa1917635](https://doi.org/10.1056/NEJMoa1917635) · [PubMed 32374962](https://pubmed.ncbi.nlm.nih.gov/32374962/)

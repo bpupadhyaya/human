@@ -508,6 +508,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Stress neuroendocrine probe: prolactin reflects serotonergic (already mapped) and dopaminergic tone — challenge tests use its release as a monoamine readout — and its dysregulation under chronic stress links the HPA-serotonin axis to GAD."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "GAD selenium: selenium, as neuroprotective GPx in neurons (already mapped) and microglia (already mapped), scavenges neuroinflammatory (IL-6 and TNF already mapped) ROS; selenium deficiency impairs GABAergic (GABA already mapped) inhibitory tone and exacerbates GAD."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "GAD iodine: iodine-dependent thyroid hormones modulate GABAergic (GABA already mapped) and serotonergic (serotonin already mapped) neurotransmission in neurons (already mapped); iodine deficiency impairs HPA (cortisol already mapped) axis regulation and exacerbates GAD."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "GAD sodium: sodium, via voltage-gated Na⁺ channels on neurons (already mapped) and astrocytes (already mapped), sets the action-potential threshold; sodium channel dysfunction amplifies the glutamate (already mapped) excitatory–GABA (already mapped) inhibitory imbalance of GAD."
 ---
 
 # Generalized Anxiety Disorder
@@ -809,6 +818,9 @@ Allow **4-8 weeks** for onset of anxiolytic effect. Continue treatment ≥12 mon
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Stress erythropoiesis: chronic anxiety and HPA-axis (cortisol already mapped) dysregulation can alter erythropoietin signalling; EpoR on neurons (already mapped) also mediates neuroprotective effects relevant to the hippocampal (already mapped) changes of GAD.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Neuroimmune matrix: periostin, from astrocytes (already mapped) and the CNS extracellular matrix, contributes to the glial remodelling and the neuroinflammation (IL-6, TNF, IL-1 already mapped) implicated in the synaptic changes of GAD.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Stress neuroendocrine probe: prolactin reflects serotonergic (already mapped) and dopaminergic tone — challenge tests use its release as a monoamine readout — and its dysregulation under chronic stress links the HPA-serotonin axis to GAD.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Neuroprotective antioxidant: selenium, as neuroprotective GPx in neurons (already mapped) and microglia (already mapped), scavenges neuroinflammatory (IL-6 and TNF already mapped) ROS; selenium deficiency impairs GABAergic (GABA already mapped) inhibitory tone and exacerbates GAD.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Thyroid-neuroendocrine axis: iodine-dependent thyroid hormones modulate GABAergic (GABA already mapped) and serotonergic (serotonin already mapped) neurotransmission in neurons (already mapped); iodine deficiency impairs HPA (cortisol already mapped) axis regulation and exacerbates GAD.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Neuronal excitability: sodium, via voltage-gated Na⁺ channels on neurons (already mapped) and astrocytes (already mapped), sets the action-potential threshold; sodium channel dysfunction amplifies the glutamate (already mapped) excitatory–GABA (already mapped) inhibitory imbalance of GAD.
 
 [^kessler-2005-gad-prevalence]: Kessler RC, Berglund P, Demler O, et al. Lifetime prevalence and age-of-onset distributions of DSM-IV disorders in the NCS Replication. *Arch Gen Psychiatry.* 2005;62(6):593-602. [doi:10.1001/archpsyc.62.6.593](https://doi.org/10.1001/archpsyc.62.6.593) · [PubMed 15939837](https://pubmed.ncbi.nlm.nih.gov/15939837/)
 [^bandelow-2015-anxiety-biology]: Bandelow B, Michaelis S. Epidemiology of anxiety disorders in the 21st century. *Dialogues Clin Neurosci.* 2015;17(3):327-335. [doi:10.31887/DCNS.2015.17.3/bbandelow](https://doi.org/10.31887/DCNS.2015.17.3/bbandelow) · [PubMed 26487812](https://pubmed.ncbi.nlm.nih.gov/26487812/)
