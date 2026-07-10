@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "HIV magnesium: magnesium supports macrophage (already mapped) anti-inflammatory function and natural-killer-cell (already mapped) cytotoxicity; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) immune dysregulation in HIV."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "HIV sodium: high dietary sodium promotes macrophage (already mapped) inflammatory skewing; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) amplifies immune dysregulation and natural-killer-cell (already mapped) dysfunction in HIV."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "HIV copper: copper, as cofactor of ceruloplasmin, supports macrophage (already mapped) and natural-killer-cell (already mapped) function; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) immune dysregulation in HIV."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "HIV potassium: potassium regulates macrophage (already mapped) and natural-killer-cell (already mapped) membrane potential; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) immune dysregulation in HIV."
 ---
 
 # HIV
@@ -834,6 +843,9 @@ The **latent reservoir** — HIV integrated into quiescent resting memory CD4+ T
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Stress-immune axis: vasopressin, via V1aR on macrophages (already mapped) and NK cells (already mapped), modulates innate IL-6 (already mapped) and TNF-α (already mapped) immune signalling; vasopressin dysregulation amplifies the stress-immune cascade driving HIV infection.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Thyroid-antioxidant link: iodine, a thyroid-hormone precursor (thyroid already mapped), supports selenoprotein antioxidant defence against oxidative stress of HIV; iodine deficiency amplifies immune dysfunction and the HIV-associated metabolic disruption.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — HIV magnesium: magnesium supports macrophage (already mapped) anti-inflammatory function and natural-killer-cell (already mapped) cytotoxicity; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) immune dysregulation in HIV.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — HIV sodium: high dietary sodium promotes macrophage (already mapped) inflammatory skewing; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) amplifies immune dysregulation and natural-killer-cell (already mapped) dysfunction in HIV.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — HIV copper: copper, as cofactor of ceruloplasmin, supports macrophage (already mapped) and natural-killer-cell (already mapped) function; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) immune dysregulation in HIV.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — HIV potassium: potassium regulates macrophage (already mapped) and natural-killer-cell (already mapped) membrane potential; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) immune dysregulation in HIV.
 
 [^barre-sinoussi-1983-hiv-isolation]: Barré-Sinoussi F, Chermann JC, Rey F, et al. Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS). *Science.* 1983;220(4599):868-871. [doi:10.1126/science.6189183](https://doi.org/10.1126/science.6189183) · [PubMed 6189183](https://pubmed.ncbi.nlm.nih.gov/6189183/)
 [^ho-1995-viral-dynamics]: Ho DD, Neumann AU, Perelson AS, et al. Rapid turnover of plasma virions and CD4 lymphocytes in HIV-1 infection. *Nature.* 1995;373(6510):123-126. [doi:10.1038/373123a0](https://doi.org/10.1038/373123a0) · [PubMed 7816094](https://pubmed.ncbi.nlm.nih.gov/7816094/)

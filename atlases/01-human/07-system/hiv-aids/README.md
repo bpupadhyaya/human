@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "AIDS magnesium: magnesium supports macrophage (already mapped) and natural-killer-cell (already mapped) immune function; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) chronic immune dysregulation in HIV/AIDS."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "AIDS sodium: high dietary sodium promotes macrophage (already mapped) inflammatory skewing; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) amplifies immune dysregulation and natural-killer-cell (already mapped) dysfunction in HIV/AIDS."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "AIDS copper: copper, as cofactor of ceruloplasmin, supports macrophage (already mapped) and natural-killer-cell (already mapped) function; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) immune dysregulation in HIV/AIDS."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "AIDS potassium: potassium regulates macrophage (already mapped) and natural-killer-cell (already mapped) membrane potential; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) immune dysregulation in HIV/AIDS."
 ---
 
 # HIV/AIDS
@@ -802,6 +811,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — AIDS vasopressin: vasopressin, via V1aR on macrophages (already mapped) and neurons (already mapped), modulates NF-κB (already mapped) neuroinflammation and HPA-axis dysregulation; vasopressin amplifies IL-6 (already mapped) and TNF-α (already mapped) immunopathology in HIV/AIDS.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — AIDS iodine: iodine-dependent thyroid hormones regulate macrophage (already mapped) and natural-killer cell (already mapped) immune function; iodine deficiency, common in AIDS, amplifies NF-κB (already mapped) and IL-6 (already mapped) chronic immune activation in HIV/AIDS.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — AIDS magnesium: magnesium supports macrophage (already mapped) and natural-killer-cell (already mapped) immune function; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) chronic immune dysregulation in HIV/AIDS.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — AIDS sodium: high dietary sodium promotes macrophage (already mapped) inflammatory skewing; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) amplifies immune dysregulation and natural-killer-cell (already mapped) dysfunction in HIV/AIDS.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — AIDS copper: copper, as cofactor of ceruloplasmin, supports macrophage (already mapped) and natural-killer-cell (already mapped) function; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) immune dysregulation in HIV/AIDS.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — AIDS potassium: potassium regulates macrophage (already mapped) and natural-killer-cell (already mapped) membrane potential; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) immune dysregulation in HIV/AIDS.
 
 ## See Also
 
