@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "Hypertension phosphorus: phosphorus, as ATP precursor in macrophages (already mapped) and T-cytotoxic cells (already mapped), supports immune energy; phosphorus deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of hypertension."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Hypertension iron: iron, via ferritin and ROS in macrophages (already mapped) and T-cytotoxic cells (already mapped), modulates vascular oxidative stress; iron dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of hypertension."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "Hypertension sulfur: sulfur, as hydrogen sulfide (H₂S) in macrophages (already mapped) and T-cytotoxic cells (already mapped), modulates vascular tone; sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of hypertension."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "Hypertension nitrogen: nitrogen, as NO (nitric oxide) precursor in macrophages (already mapped) and T-cytotoxic cells (already mapped), modulates vascular tone; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of hypertension."
 ---
 
 # Hypertension
@@ -778,6 +787,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Hypertension copper: copper, as cofactor of SOD1 in macrophages (already mapped) and mast cells (already mapped), neutralises ROS; copper deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) vascular oxidative cascade of hypertension.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Hypertension zinc: zinc, as cofactor of antioxidant enzymes in macrophages (already mapped) and mast cells (already mapped), neutralises ROS; zinc deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) vascular inflammatory cascade of hypertension.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Hypertension phosphorus: phosphorus, as ATP precursor in macrophages (already mapped) and T-cytotoxic cells (already mapped), supports immune energy; phosphorus deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of hypertension.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Hypertension iron: iron, via ferritin and ROS in macrophages (already mapped) and T-cytotoxic cells (already mapped), modulates vascular oxidative stress; iron dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of hypertension.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Hypertension sulfur: sulfur, as hydrogen sulfide (H₂S) in macrophages (already mapped) and T-cytotoxic cells (already mapped), modulates vascular tone; sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of hypertension.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Hypertension nitrogen: nitrogen, as NO (nitric oxide) precursor in macrophages (already mapped) and T-cytotoxic cells (already mapped), modulates vascular tone; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of hypertension.
 
 ## Pathology
 
