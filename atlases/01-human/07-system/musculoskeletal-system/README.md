@@ -494,6 +494,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Periosteal and tendon ECM: periostin, expressed in the periosteum, tendons and entheses, maintains the structural integrity of these fibrous connective tissues and promotes bone remodelling (RANKL and osteoblast already mapped) of the musculoskeletal system."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "MS melatonin: melatonin, via MT1/MT2 receptors on osteoblasts (already mapped), attenuates RANKL (already mapped) osteoclastogenesis and promotes bone anabolism; melatonin also modulates the bone-marrow (already mapped) haematopoietic niche and reduces musculoskeletal pain."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "MS prolactin: prolactin, via prolactin receptors on osteoblasts (already mapped), promotes bone anabolism and muscle protein synthesis; prolactin modulates the reproductive (already mapped) and immune (already mapped) crosstalk of the musculoskeletal system."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "MS vasopressin: vasopressin, acting on V1/V2 receptors on smooth-muscle cells, modulates the vascular tone in the musculoskeletal system; vasopressin also regulates sodium (already mapped) and water balance that affects synovial fluid composition and joint lubrication."
 ---
 
 # Musculoskeletal System
@@ -789,6 +798,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Joint complement/kinin regulator: the C1-esterase inhibitor limits the classical complement and contact-kinin (bradykinin already mapped) pathways activated in the inflamed synovium, moderating the cartilage-destructive complement cascade of the musculoskeletal system.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell joint effector: histamine, released by mast cells (already mapped) in the synovium and periosteum, amplifies the vascular permeability, nociception and the inflammatory cytokine cascade (IL-1/TNF already mapped) of the musculoskeletal system.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Periosteal and tendon ECM: periostin, expressed in the periosteum, tendons and entheses, maintains the structural integrity of these fibrous connective tissues and promotes bone remodelling (RANKL and osteoblast already mapped) of the musculoskeletal system.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — MS melatonin: melatonin, via MT1/MT2 receptors on osteoblasts (already mapped), attenuates RANKL (already mapped) osteoclastogenesis and promotes bone anabolism; melatonin also modulates the bone-marrow (already mapped) haematopoietic niche and reduces musculoskeletal pain.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — MS prolactin: prolactin, via prolactin receptors on osteoblasts (already mapped), promotes bone anabolism and muscle protein synthesis; prolactin modulates the reproductive (already mapped) and immune (already mapped) crosstalk of the musculoskeletal system.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — MS vasopressin: vasopressin, acting on V1/V2 receptors on smooth-muscle cells, modulates the vascular tone in the musculoskeletal system; vasopressin also regulates sodium (already mapped) and water balance that affects synovial fluid composition and joint lubrication.
 
 ## Pathology
 

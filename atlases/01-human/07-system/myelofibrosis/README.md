@@ -496,6 +496,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Immune-endocrine coupling: prolactin, elevated during chronic myeloproliferation, potentiates the macrophage (already mapped) and NK-cell (already mapped) signalling and may amplify the inflammatory cytokine milieu (TNF-α and IL-6 already mapped) of myelofibrosis."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "MF testosterone: androgen signalling on haematopoietic progenitors attenuates the TGF-β (already mapped) fibrotic drive in the marrow; testosterone deficiency worsens the JAK2 (already mapped) MPN anaemia and bone-marrow (already mapped) failure of myelofibrosis."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "MF serotonin: platelet (already mapped) serotonin amplifies the thrombopoietin (already mapped) megakaryocyte hyperplasia and thrombotic risk; 5-HT2 signalling on fibroblasts (already mapped) potentiates the TGF-β (already mapped) fibrotic cascade of myelofibrosis."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "MF oxytocin: oxytocin receptors on bone-marrow (already mapped) stromal cells modulate the immune-inflammatory microenvironment of myelofibrosis; oxytocin attenuates the macrophage (already mapped) and fibroblast (already mapped) TGF-β (already mapped) fibrotic signalling."
 ---
 
 # Myelofibrosis
@@ -783,6 +792,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Marrow mast-cell effector: histamine, released by mast cells in the fibrotic marrow niche of myelofibrosis, amplifies the inflammatory cytokine (TNF-α and IL-1β already mapped) signalling and the JAK2-driven (already mapped) proliferative cascade of the disease.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Antioxidant haematopoietic protection: melatonin, via MT1/MT2 receptors on haematopoietic progenitors (already mapped), scavenges ROS (already mapped) from dysfunctional mitochondria and may attenuate oxidative damage driving the clonal evolution of myelofibrosis.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Immune-endocrine coupling: prolactin, elevated during chronic myeloproliferation, potentiates the macrophage (already mapped) and NK-cell (already mapped) signalling and may amplify the inflammatory cytokine milieu (TNF-α and IL-6 already mapped) of myelofibrosis.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — MF testosterone: androgen signalling on haematopoietic progenitors attenuates the TGF-β (already mapped) fibrotic drive in the marrow; testosterone deficiency worsens the JAK2 (already mapped) MPN anaemia and bone-marrow (already mapped) failure of myelofibrosis.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — MF serotonin: platelet (already mapped) serotonin amplifies the thrombopoietin (already mapped) megakaryocyte hyperplasia and thrombotic risk; 5-HT2 signalling on fibroblasts (already mapped) potentiates the TGF-β (already mapped) fibrotic cascade of myelofibrosis.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — MF oxytocin: oxytocin receptors on bone-marrow (already mapped) stromal cells modulate the immune-inflammatory microenvironment of myelofibrosis; oxytocin attenuates the macrophage (already mapped) and fibroblast (already mapped) TGF-β (already mapped) fibrotic signalling.
 
 ---
 
