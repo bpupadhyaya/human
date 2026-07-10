@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/c1-esterase-inhibitor
     relation: connects-to
     note: "Classical complement regulation: the C1-esterase inhibitor regulates the classical complement pathway (C5 and C5aR1 already mapped) whose activation can contribute to the tumour-promoting inflammation of the Birt-Hogg-Dubé stromal microenvironment."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "BHD testosterone: testosterone, via androgen receptors on renal tumour cells (FLCN already mapped) and macrophages (already mapped), modulates the TME; testosterone deficiency amplifies the T-cytotoxic (already mapped) and mTOR (already mapped) immune cascade of BHD."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "BHD serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the renal TME neuroinflammation; serotonin dysregulation amplifies the T-cytotoxic (already mapped) and mTOR (already mapped) antitumour cascade of BHD."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "BHD prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates renal tumour immune surveillance; hyperprolactinaemia amplifies the T-cytotoxic (already mapped) and mTOR (already mapped) antitumour immune cascade of BHD."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -804,6 +813,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell BHD axis: histamine, from mast cells (already mapped) in the FLCN-deficient renal and fibrofollicular stromal microenvironment, amplifies the angiogenesis (already mapped) and immunosuppressive milieu of Birt-Hogg-Dubé syndrome.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-renal axis: melatonin, via MT1/MT2 receptors on FLCN-deficient renal tumour cells (already mapped), modulates the mTOR/HIF (already mapped) signalling and the redox homeostasis of the renal tumour of Birt-Hogg-Dubé syndrome.
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical complement regulation: the C1-esterase inhibitor regulates the classical complement pathway (C5 and C5aR1 already mapped) whose activation can contribute to the tumour-promoting inflammation of the Birt-Hogg-Dubé stromal microenvironment.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — BHD testosterone: testosterone, via androgen receptors on renal tumour cells (FLCN already mapped) and macrophages (already mapped), modulates the TME; testosterone deficiency amplifies the T-cytotoxic (already mapped) and mTOR (already mapped) immune cascade of BHD.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — BHD serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the renal TME neuroinflammation; serotonin dysregulation amplifies the T-cytotoxic (already mapped) and mTOR (already mapped) antitumour cascade of BHD.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — BHD prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates renal tumour immune surveillance; hyperprolactinaemia amplifies the T-cytotoxic (already mapped) and mTOR (already mapped) antitumour immune cascade of BHD.
 
 ---
 

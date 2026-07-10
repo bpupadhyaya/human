@@ -508,6 +508,15 @@ cross_links:
   - target: 01-human/03-molecular/testosterone
     relation: connects-to
     note: "Androgen-urothelial axis: testosterone, via androgen receptors on urothelial tumour cells (already mapped), modulates the sex-differential bladder-cancer risk (higher in males) and the immunosuppressive tumour microenvironment."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Bladder prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the urothelial TME; hyperprolactinaemia amplifies the NF-κB (already mapped) and T-cytotoxic (already mapped) antitumour cascade of bladder cancer."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Bladder oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates bladder TME inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and T-cytotoxic (already mapped) antitumour immune cascade of bladder cancer."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Bladder vasopressin: vasopressin, via V2R on smooth-muscle cells (already mapped) and endothelium (already mapped), modulates urothelial tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and mast-cell (already mapped) tumour cascade of bladder cancer."
 ---
 
 # Bladder Cancer
@@ -792,6 +801,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell urothelial axis: histamine, from mast cells (already mapped) in the bladder-cancer stroma, amplifies the angiogenesis (already mapped) and the immunosuppressive cytokine milieu that support urothelial tumour progression.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-urothelial axis: melatonin, via MT1/MT2 receptors on urothelial cells (already mapped), modulates the oxidative stress and the angiogenic (already mapped) dimension of bladder cancer.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-urothelial axis: testosterone, via androgen receptors on urothelial tumour cells (already mapped), modulates the sex-differential bladder-cancer risk (higher in males) and the immunosuppressive tumour microenvironment.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Bladder prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the urothelial TME; hyperprolactinaemia amplifies the NF-κB (already mapped) and T-cytotoxic (already mapped) antitumour cascade of bladder cancer.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Bladder oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates bladder TME inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and T-cytotoxic (already mapped) antitumour immune cascade of bladder cancer.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Bladder vasopressin: vasopressin, via V2R on smooth-muscle cells (already mapped) and endothelium (already mapped), modulates urothelial tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and mast-cell (already mapped) tumour cascade of bladder cancer.
 
 ---
 
