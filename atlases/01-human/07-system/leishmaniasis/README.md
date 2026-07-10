@@ -514,6 +514,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "Leish phosphorus: phosphorus is required for ATP-driven macrophage (already mapped) nitric-oxide (already mapped) production against Leishmania donovani (already mapped); phosphorus deficiency impairs IFN-γ (already mapped) and NF-κB (already mapped) leishmanicidal signalling."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "Leish chloride: chloride, via NKCC1-mediated ion flux in macrophages (already mapped) and neutrophils (already mapped), modulates leishmanicidal activity; chloride dysregulation impairs the NF-κB (already mapped) and TNF-α (already mapped) macrophage activation of leishmaniasis."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "Leish sulfur: sulfur, as cysteine and glutathione precursor in macrophages (already mapped) and neutrophils (already mapped), scavenges ROS; sulfur deficiency impairs the NF-κB (already mapped) and nitric-oxide (already mapped) leishmanicidal oxidative burst."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "Leish nitrogen: nitrogen, as the precursor of nitric oxide via iNOS in macrophages (already mapped) and neutrophils (already mapped), drives leishmanicidal activity; nitrogen deficiency impairs NF-κB (already mapped) and IFN-γ (already mapped) driven clearance."
 ---
 
 # Leishmaniasis
@@ -781,3 +790,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Leish iodine: thyroid-hormone signalling modulates macrophage (already mapped) activation and nitric-oxide (already mapped) production during leishmaniasis; iodine deficiency impairs NF-κB (already mapped) and IFN-γ (already mapped) driven leishmanicidal responses.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Leish potassium: potassium efflux from macrophages (already mapped) activates NLRP3 (already mapped) inflammasome and IL-1β (already mapped) secretion; potassium dysregulation dampens NF-κB (already mapped) and nitric-oxide (already mapped) driven leishmanicidal clearance.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Leish phosphorus: phosphorus is required for ATP-driven macrophage (already mapped) nitric-oxide (already mapped) production against Leishmania donovani (already mapped); phosphorus deficiency impairs IFN-γ (already mapped) and NF-κB (already mapped) leishmanicidal signalling.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Leish chloride: chloride, via NKCC1-mediated ion flux in macrophages (already mapped) and neutrophils (already mapped), modulates leishmanicidal activity; chloride dysregulation impairs the NF-κB (already mapped) and TNF-α (already mapped) macrophage activation of leishmaniasis.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Leish sulfur: sulfur, as cysteine and glutathione precursor in macrophages (already mapped) and neutrophils (already mapped), scavenges ROS; sulfur deficiency impairs the NF-κB (already mapped) and nitric-oxide (already mapped) leishmanicidal oxidative burst.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Leish nitrogen: nitrogen, as the precursor of nitric oxide via iNOS in macrophages (already mapped) and neutrophils (already mapped), drives leishmanicidal activity; nitrogen deficiency impairs NF-κB (already mapped) and IFN-γ (already mapped) driven clearance.

@@ -526,6 +526,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "LBD sodium: sodium, via voltage-gated channels on neurons (already mapped), regulates action-potential firing; dysregulated sodium from microglial (already mapped) NLRP3 (already mapped) neuroinflammation amplifies NF-κB (already mapped) and dopamine (already mapped) in LBD."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "LBD potassium: potassium efflux activates NLRP3 inflammasome (already mapped) in microglia (already mapped); potassium depletion amplifies the NF-κB (already mapped) and TNF-α (already mapped) neuroinflammatory cascade and worsens α-synuclein (already mapped) burden in LBD."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "LBD phosphorus: phosphorus, as ATP precursor in neurons (already mapped) and microglia (already mapped), supports synaptic energy; phosphorus deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of Lewy body dementia."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "LBD chloride: chloride, via GABA-A Cl⁻ influx in neurons (already mapped), maintains inhibitory tone; chloride dysregulation in microglia (already mapped) amplifies the NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of Lewy body dementia."
 ---
 
 # Lewy Body Dementia
@@ -821,6 +830,9 @@ Approximately 25-50% of clinically diagnosed DLB cases have significant AD co-pa
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — LBD selenium: selenium, via GPx and NRF2 (already mapped) antioxidants, protects neurons (already mapped) from ROS and α-synuclein (already mapped) aggregation-driven injury; selenium deficiency amplifies NF-κB (already mapped) and NLRP3 (already mapped) neuroinflammation of LBD.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — LBD iodine: iodine-dependent thyroid hormones regulate neuronal (neuron already mapped) metabolism and dopamine (already mapped) synthesis; hypothyroidism amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammation and α-synuclein (already mapped) burden in LBD.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — LBD sodium: sodium, via voltage-gated channels on neurons (already mapped), regulates action-potential firing; dysregulated sodium from microglial (already mapped) NLRP3 (already mapped) neuroinflammation amplifies NF-κB (already mapped) and dopamine (already mapped) in LBD.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — LBD potassium: potassium efflux activates NLRP3 inflammasome (already mapped) in microglia (already mapped); potassium depletion amplifies the NF-κB (already mapped) and TNF-α (already mapped) neuroinflammatory cascade and worsens α-synuclein (already mapped) burden in LBD.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — LBD phosphorus: phosphorus, as ATP precursor in neurons (already mapped) and microglia (already mapped), supports synaptic energy; phosphorus deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of Lewy body dementia.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — LBD chloride: chloride, via GABA-A Cl⁻ influx in neurons (already mapped), maintains inhibitory tone; chloride dysregulation in microglia (already mapped) amplifies the NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of Lewy body dementia.
 
 [^mckeith-2017-dlb-criteria]: McKeith IG, Boeve BF, Dickson DW, et al. Diagnosis and management of dementia with Lewy bodies: Fourth consensus report of the DLB Consortium. *Neurology.* 2017;89(1):88-100. [doi:10.1212/WNL.0000000000004058](https://doi.org/10.1212/WNL.0000000000004058) · [PubMed 28592453](https://pubmed.ncbi.nlm.nih.gov/28592453/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
