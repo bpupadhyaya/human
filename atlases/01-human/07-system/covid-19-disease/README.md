@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Immune-endocrine coupling: prolactin, elevated during the acute-phase response of severe COVID-19, potentiates macrophage (already mapped) and lymphocyte activation, contributing to the cytokine storm (IL-6 already mapped) and the hyperinflammatory state."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "COVID testosterone: androgen receptor signalling upregulates ACE2 (already mapped) in the lung (already mapped), amplifying viral entry; testosterone-driven immunosuppression worsens the male-sex COVID-19 IL-6 (already mapped) driven cytokine storm."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "COVID serotonin: SARS-CoV-2 depletes platelet serotonin via ACE2 (already mapped) mediated enterochromaffin cell damage; serotonin deficiency impairs the endothelial (already mapped) and lung (already mapped) vasoregulation, contributing to the post-COVID dysautonomia phenotype."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "COVID oxytocin: oxytocin reduces SARS-CoV-2 cytokine storm by suppressing IL-6 (already mapped) and TNF-α (already mapped) production; oxytocin also protects the endothelium (already mapped) and lung (already mapped) from COVID-19 thromboinflammatory injury."
 ---
 
 # COVID-19 Disease
@@ -728,6 +737,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — ECM/fibrosis alarmin: periostin, induced by IL-4 and IL-13 (already mapped) in the post-COVID pulmonary fibrosis (fibroblast already mapped), promotes type-2 ECM remodelling of the alveoli (already mapped) and contributes to the long-COVID fibrotic lung complication.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian antioxidant: melatonin scavenges mitochondrial ROS (already mapped) and modulates the cytokine storm (IL-6 already mapped) of severe COVID-19; disrupted circadian rhythms worsen disease severity and melatonin deficiency is observed in critically ill patients.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Immune-endocrine coupling: prolactin, elevated during the acute-phase response of severe COVID-19, potentiates macrophage (already mapped) and lymphocyte activation, contributing to the cytokine storm (IL-6 already mapped) and the hyperinflammatory state.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — COVID testosterone: androgen receptor signalling upregulates ACE2 (already mapped) in the lung (already mapped), amplifying viral entry; testosterone-driven immunosuppression worsens the male-sex COVID-19 IL-6 (already mapped) driven cytokine storm.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — COVID serotonin: SARS-CoV-2 depletes platelet serotonin via ACE2 (already mapped) mediated enterochromaffin cell damage; serotonin deficiency impairs the endothelial (already mapped) and lung (already mapped) vasoregulation, contributing to the post-COVID dysautonomia phenotype.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — COVID oxytocin: oxytocin reduces SARS-CoV-2 cytokine storm by suppressing IL-6 (already mapped) and TNF-α (already mapped) production; oxytocin also protects the endothelium (already mapped) and lung (already mapped) from COVID-19 thromboinflammatory injury.
 
 ## Pathology
 
