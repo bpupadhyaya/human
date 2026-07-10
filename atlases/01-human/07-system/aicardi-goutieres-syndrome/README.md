@@ -501,6 +501,15 @@ cross_links:
   - target: 01-human/03-molecular/melatonin
     relation: connects-to
     note: "Circadian neuroprotection: melatonin, via MT1/MT2 receptors on neurons (already mapped) and astrocytes (already mapped), scavenges ROS and suppresses the NLRP3-inflammasome and type-I-IFN (already mapped) amplification of the neuroinflammatory burden of Aicardi-Goutières."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "AGS testosterone: testosterone suppresses type-I interferon (already mapped) and cGAS-STING (already mapped) innate immune activation; androgens attenuate JAK1-2 (already mapped)/STAT1 (already mapped) neuroinflammation and microglia (already mapped) IFN-driven injury in AGS."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "AGS serotonin: serotonin, via 5-HT receptors on microglia (already mapped) and astrocyte (already mapped), modulates neuroinflammation; 5-HT also attenuates the type-I interferon (already mapped) and NF-κB (already mapped) IFN-driven injury of AGS."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "AGS prolactin: prolactin, via PRLR/JAK1-2 (already mapped), amplifies STAT1 (already mapped) and type-I interferon (already mapped); prolactin drives B-cell (already mapped) autoreactive expansion and macrophage (already mapped) NF-κB (already mapped) neuroinflammation in AGS."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -756,6 +765,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell CNS effector: histamine, released by mast cells (already mapped) in the neuroinflamed CNS of AGS, amplifies blood-brain-barrier disruption and the leukocyte infiltration that compounds the type-I-interferon (already mapped) mediated neurodegeneration of AGS.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Neuroinflammatory ECM remodelling: periostin, expressed by astrocytes (already mapped) and microglia (already mapped) under the type-I-interferon (already mapped) burden of AGS, modulates the extracellular matrix of the white matter lesions of Aicardi-Goutières syndrome.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian neuroprotection: melatonin, via MT1/MT2 receptors on neurons (already mapped) and astrocytes (already mapped), scavenges ROS and suppresses the NLRP3-inflammasome and type-I-IFN (already mapped) amplification of the neuroinflammatory burden of Aicardi-Goutières.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen IFN suppression: testosterone suppresses type-I interferon (already mapped) and cGAS-STING (already mapped) innate immune activation; androgens attenuate JAK1-2 (already mapped)/STAT1 (already mapped) neuroinflammation and microglia (already mapped) IFN-driven injury in AGS.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Neuroimmune modulation: serotonin, via 5-HT receptors on microglia (already mapped) and astrocyte (already mapped), modulates neuroinflammation; 5-HT also attenuates the type-I interferon (already mapped) and NF-κB (already mapped) IFN-driven injury of AGS.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — IFN-amplifying hormone: prolactin, via PRLR/JAK1-2 (already mapped), amplifies STAT1 (already mapped) and type-I interferon (already mapped); prolactin drives B-cell (already mapped) autoreactive expansion and macrophage (already mapped) NF-κB (already mapped) neuroinflammation in AGS.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
