@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/iodine
     relation: connects-to
     note: "ALS iodine: iodine-dependent thyroid hormones modulate motor-neuron (neuron already mapped) survival and astrocyte (already mapped) function; iodine deficiency impairs thyroid-mediated regulation of the TDP-43 (already mapped) and NF-κB (already mapped) cascade of ALS."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "ALS potassium: potassium regulates motor neuron (already mapped) membrane excitability; potassium dysregulation amplifies TDP-43 (already mapped) misfolding and NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) neuroinflammatory cascade in ALS."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "ALS phosphorus: phosphorus fuels motor neuron (already mapped) and astrocyte (already mapped) ATP; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) and TDP-43 (already mapped) neurodegeneration in ALS."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "ALS nitrogen: nitric oxide (NO, nitrogen-derived) in microglia (already mapped) and astrocytes (already mapped) amplifies neuron (already mapped) excitotoxicity; NO excess upregulates NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade in ALS."
 ---
 
 # ALS
@@ -839,6 +848,9 @@ ALS diagnosis is **clinical** — no single definitive biomarker test (though Nf
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Neuroprotective attenuator: oxytocin, via OXTR on motor neurons (already mapped) and microglia (already mapped), attenuates neuroinflammation; oxytocin deficiency amplifies the TDP-43 (already mapped) and NF-κB (already mapped) neuroinflammatory cascade of ALS.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Glutamate excitotoxicity modulator: vasopressin, via V1aR on astrocytes (already mapped) and motor neurons (already mapped), modulates glutamate (already mapped) excitotoxicity; vasopressin dysregulation amplifies the TDP-43 (already mapped) and NLRP3 (already mapped) cascade of ALS.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Thyroid-motor neuron axis: iodine-dependent thyroid hormones modulate motor-neuron (neuron already mapped) survival and astrocyte (already mapped) function; iodine deficiency impairs thyroid-mediated regulation of the TDP-43 (already mapped) and NF-κB (already mapped) cascade of ALS.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — ALS potassium: potassium regulates motor neuron (already mapped) membrane excitability; potassium dysregulation amplifies TDP-43 (already mapped) misfolding and NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) neuroinflammatory cascade in ALS.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — ALS phosphorus: phosphorus fuels motor neuron (already mapped) and astrocyte (already mapped) ATP; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) and TDP-43 (already mapped) neurodegeneration in ALS.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — ALS nitrogen: nitric oxide (NO, nitrogen-derived) in microglia (already mapped) and astrocytes (already mapped) amplifies neuron (already mapped) excitotoxicity; NO excess upregulates NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade in ALS.
 
 [^brown-2017-als-review]: Brown RH, Al-Chalabi A. Amyotrophic lateral sclerosis. *N Engl J Med.* 2017;377(2):162-172. [doi:10.1056/NEJMra1603471](https://doi.org/10.1056/NEJMra1603471) · [PubMed 28700839](https://pubmed.ncbi.nlm.nih.gov/28700839/)
 [^edaravone-als-2017]: Writing Group, Edaravone ALS 19 Study Group. Safety and efficacy of edaravone in well defined patients with amyotrophic lateral sclerosis. *Lancet Neurol.* 2017;16(7):505-512. [doi:10.1016/S1474-4422(17)30115-1](https://doi.org/10.1016/S1474-4422(17)30115-1) · [PubMed 28522180](https://pubmed.ncbi.nlm.nih.gov/28522180/)
