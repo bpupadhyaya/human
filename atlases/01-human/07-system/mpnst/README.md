@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/bradykinin
     relation: connects-to
     note: "Peripheral nerve pain: bradykinin activates B2 receptors on peripheral nerve (already mapped) endings and MPNST cells, amplifying the neuropathic pain (already mapped) and peritumoral oedema associated with the large, rapidly growing malignant nerve sheath tumours."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Peripheral nerve sheath complement: C1-INH controls the classical-pathway arm (C3, C5 and C5aR1 already mapped) in the MPNST tumour microenvironment, modulating complement-mediated cytotoxicity and the NF1 (already mapped) associated neurofibromatosis-type-1 tumour stroma."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "EPOR-mediated sarcoma survival: erythropoietin receptor (EPOR) on MPNST cells activates JAK2/STAT3 (already mapped) pro-survival signalling, complementing NF1 (already mapped) loss-driven RAS/MAPK hyperactivation and VEGF (already mapped) angiogenesis in MPNST."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Sarcoma stroma periostin: periostin secreted by the MPNST-associated fibroblasts activates the integrin-AKT (already mapped) pathway and promotes the VEGF-driven (already mapped) desmoplastic invasiveness and treatment resistance of malignant nerve sheath tumours."
 ---
 
 # MPNST
@@ -771,6 +780,9 @@ Wide local excision with negative margins is the only potentially curative inter
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — NF1-nerve stroma alarmin: TSLP from the NF1-deficient (neurofibromatosis-type-1 already mapped) peripheral nerve stroma activates mast cells (already mapped) and drives the innate microenvironment that promotes the malignant transformation of neurofibromas to MPNST.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Neurofibroma mast cells: histamine, a major product of the mast cells that are uniquely abundant in NF1 neurofibromas (already mapped), promotes SCF/KIT-driven neurofibroma growth; mast-cell histamine contributes to the tumour microenvironment that enables the MPNST transition.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Peripheral nerve pain: bradykinin activates B2 receptors on peripheral nerve (already mapped) endings and MPNST cells, amplifying the neuropathic pain (already mapped) and peritumoral oedema associated with the large, rapidly growing malignant nerve sheath tumours.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Peripheral nerve sheath complement: C1-INH controls the classical-pathway arm (C3, C5 and C5aR1 already mapped) in the MPNST tumour microenvironment, modulating complement-mediated cytotoxicity and the NF1 (already mapped) associated neurofibromatosis-type-1 tumour stroma.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — EPOR-mediated sarcoma survival: erythropoietin receptor (EPOR) on MPNST cells activates JAK2/STAT3 (already mapped) pro-survival signalling, complementing NF1 (already mapped) loss-driven RAS/MAPK hyperactivation and VEGF (already mapped) angiogenesis in MPNST.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Sarcoma stroma periostin: periostin secreted by the MPNST-associated fibroblasts activates the integrin-AKT (already mapped) pathway and promotes the VEGF-driven (already mapped) desmoplastic invasiveness and treatment resistance of malignant nerve sheath tumours.
 
 [^evans-2002-mpnst-nf1]: Evans DGR, Baser ME, McGaughran J, et al. Malignant peripheral nerve sheath tumours in neurofibromatosis 1. *J Med Genet.* 2002;39(5):311-314. [doi:10.1136/jmg.39.5.311](https://doi.org/10.1136/jmg.39.5.311) · [PubMed 12011145](https://pubmed.ncbi.nlm.nih.gov/12011145/)
 [^lee-2014-mpnst-prc2]: Lee W, Teckie S, Wiesner T, et al. PRC2 is recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve sheath tumors. *Nat Genet.* 2014;46(11):1227-1232. [doi:10.1038/ng.3095](https://doi.org/10.1038/ng.3095) · [PubMed 25240281](https://pubmed.ncbi.nlm.nih.gov/25240281/)
