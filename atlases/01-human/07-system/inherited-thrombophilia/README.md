@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "IT sodium: sodium-driven endothelial-cell (already mapped) stiffness amplifies NF-κB (already mapped) and TNF-α (already mapped) mediated prothrombotic signalling; high sodium impairs protein-c (already mapped) function and promotes platelet (already mapped) aggregation."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "IT magnesium: magnesium, as enzymatic cofactor in macrophages (already mapped) and platelets (already mapped), attenuates thrombosis; magnesium deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) prothrombotic cascade of inherited thrombophilia."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "IT copper: copper, as cofactor of SOD1 in macrophages (already mapped) and platelets (already mapped), neutralises ROS; copper deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) prothrombotic cascade of inherited thrombophilia."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "IT potassium: potassium depletion promotes macrophage (already mapped) and platelet (already mapped) pro-inflammatory activation; potassium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) prothrombotic cascade of inherited thrombophilia."
 ---
 
 # Inherited Thrombophilia
@@ -846,6 +855,9 @@ Antithrombin (ATIII) is the primary plasma inhibitor of thrombin, FXa, FIXa, and
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — IT selenium: selenoprotein antioxidants suppress ROS-driven NF-κB (already mapped) and TNF-α (already mapped) mediated endothelial-cell (already mapped) activation; selenium deficiency amplifies thrombin (already mapped) generation and platelet (already mapped) aggregation.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — IT iodine: thyroid hormones modulate coagulation factor synthesis in the liver; iodine deficiency impairs thrombin (already mapped) regulation and amplifies NF-κB (already mapped) driven endothelial-cell (already mapped) prothrombotic signalling in inherited thrombophilia.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — IT sodium: sodium-driven endothelial-cell (already mapped) stiffness amplifies NF-κB (already mapped) and TNF-α (already mapped) mediated prothrombotic signalling; high sodium impairs protein-c (already mapped) function and promotes platelet (already mapped) aggregation.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — IT magnesium: magnesium, as enzymatic cofactor in macrophages (already mapped) and platelets (already mapped), attenuates thrombosis; magnesium deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) prothrombotic cascade of inherited thrombophilia.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — IT copper: copper, as cofactor of SOD1 in macrophages (already mapped) and platelets (already mapped), neutralises ROS; copper deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) prothrombotic cascade of inherited thrombophilia.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — IT potassium: potassium depletion promotes macrophage (already mapped) and platelet (already mapped) pro-inflammatory activation; potassium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) prothrombotic cascade of inherited thrombophilia.
 
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)
