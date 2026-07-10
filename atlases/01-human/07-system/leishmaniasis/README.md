@@ -496,6 +496,15 @@ cross_links:
   - target: 01-human/03-molecular/testosterone
     relation: connects-to
     note: "Sex-hormone susceptibility: testosterone, which promotes Th2 and suppresses Th1 (IFN-γ already mapped) responses, partly explains the greater male susceptibility to visceral leishmaniasis and the worse clinical outcome of Leishmania (already mapped) infection."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Leish serotonin: serotonin modulates macrophage (already mapped) nitric-oxide (already mapped) production in leishmaniasis; 5-HT receptor signalling shifts macrophage polarisation from the IFN-γ (already mapped) leishmanicidal phenotype toward IL-10 (already mapped) tolerance."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Leish vasopressin: vasopressin (ADH) modulates macrophage (already mapped) activation and nitric-oxide (already mapped) production during leishmaniasis; vasopressin also influences the liver (already mapped) and spleen (already mapped) reticuloendothelial immune response."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Leish magnesium: magnesium supports macrophage (already mapped) nitric-oxide (already mapped) production and IFN-γ (already mapped) leishmanicidal activity; magnesium deficiency amplifies IL-10 (already mapped) tolerance in the liver (already mapped) and spleen (already mapped)."
 ---
 
 # Leishmaniasis
@@ -757,3 +766,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Macrophage–prolactin axis: prolactin, elevated during chronic Leishmania (already mapped) infection, potentiates macrophage (already mapped) activation and Th1/IFN-γ (already mapped) immune responses, enhancing the antileishmanial killing activity in visceral leishmaniasis.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Neuroimmune anti-parasitic: oxytocin, via OXT receptors on macrophages (already mapped) and T cells (already mapped), modulates the Th1/Th2 balance (IFN-γ and IL-4 already mapped) and may influence the cutaneous and visceral immune response of leishmaniasis.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Sex-hormone susceptibility: testosterone, which promotes Th2 and suppresses Th1 (IFN-γ already mapped) responses, partly explains the greater male susceptibility to visceral leishmaniasis and the worse clinical outcome of Leishmania (already mapped) infection.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Leish serotonin: serotonin modulates macrophage (already mapped) nitric-oxide (already mapped) production in leishmaniasis; 5-HT receptor signalling shifts macrophage polarisation from the IFN-γ (already mapped) leishmanicidal phenotype toward IL-10 (already mapped) tolerance.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Leish vasopressin: vasopressin (ADH) modulates macrophage (already mapped) activation and nitric-oxide (already mapped) production during leishmaniasis; vasopressin also influences the liver (already mapped) and spleen (already mapped) reticuloendothelial immune response.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Leish magnesium: magnesium supports macrophage (already mapped) nitric-oxide (already mapped) production and IFN-γ (already mapped) leishmanicidal activity; magnesium deficiency amplifies IL-10 (already mapped) tolerance in the liver (already mapped) and spleen (already mapped).

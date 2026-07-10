@@ -483,6 +483,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c5
     relation: connects-to
     note: "Neuroimmune complement: complement C5, upstream of the membrane-attack complex and C5aR1 (already mapped), amplifies the microglia (already mapped)-driven neuroinflammation and synaptic remodelling (synapse already mapped) implicated in internet gaming disorder."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "IGD prolactin: prolactin modulates the cortisol (already mapped) HPA axis and amplifies dopamine (already mapped) reward dysregulation in internet gaming disorder; elevated prolactin worsens BDNF (already mapped) signalling and NF-κB (already mapped) neuroinflammation."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "IGD selenium: selenoprotein antioxidants counter the neuroinflammatory oxidative stress (TNF-α already mapped) in internet gaming disorder; selenium supports dopamine (already mapped) and norepinephrine (already mapped) synthesis and ameliorates the BDNF (already mapped) deficit."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "IGD transferrin: transferrin delivers iron for dopamine (already mapped) and norepinephrine (already mapped) synthesis; iron deficiency amplifies glutamate (already mapped) excitotoxicity and BDNF (already mapped) signalling deficit in the IGD brain (already mapped)."
 sources:
   - id: kuss-2012-gaming-disorder-review
     type: peer-reviewed
@@ -812,6 +821,9 @@ A pattern of persistent or recurrent gaming behavior characterized by:
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Contact-pathway neuroimmune: the C1-esterase inhibitor controls the contact-pathway (bradykinin already mapped) and complement-driven neuroinflammation implicated in the reward-circuit (dopamine and nucleus-accumbens already mapped) dysregulation of internet gaming disorder.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Sedentary musculoskeletal ECM: periostin, expressed in peritendinous and fascial connective tissue and modulated by physical activity, reflects the musculoskeletal deconditioning and altered biomechanical loading of the sedentary lifestyle of internet gaming disorder.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Neuroimmune complement: complement C5, upstream of the membrane-attack complex and C5aR1 (already mapped), amplifies the microglia (already mapped)-driven neuroinflammation and synaptic remodelling (synapse already mapped) implicated in internet gaming disorder.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — IGD prolactin: prolactin modulates the cortisol (already mapped) HPA axis and amplifies dopamine (already mapped) reward dysregulation in internet gaming disorder; elevated prolactin worsens BDNF (already mapped) signalling and NF-κB (already mapped) neuroinflammation.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — IGD selenium: selenoprotein antioxidants counter the neuroinflammatory oxidative stress (TNF-α already mapped) in internet gaming disorder; selenium supports dopamine (already mapped) and norepinephrine (already mapped) synthesis and ameliorates the BDNF (already mapped) deficit.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — IGD transferrin: transferrin delivers iron for dopamine (already mapped) and norepinephrine (already mapped) synthesis; iron deficiency amplifies glutamate (already mapped) excitotoxicity and BDNF (already mapped) signalling deficit in the IGD brain (already mapped).
 
 [^kuss-2012-gaming-disorder-review]: Kuss DJ, Griffiths MD. Internet gaming addiction: a systematic review of empirical research. *Int J Ment Health Addict.* 2012;10(2):278-296. [doi:10.1007/s11469-011-9318-5](https://doi.org/10.1007/s11469-011-9318-5)
 [^who-icd11-gaming-disorder]: World Health Organization. ICD-11: Gaming Disorder (6C51). Geneva: WHO; 2019. [icd.who.int](https://icd.who.int/browse/2025-01/mms/en#1448597234)
