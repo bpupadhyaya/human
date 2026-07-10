@@ -517,6 +517,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "SjS magnesium: magnesium deficiency amplifies the NF-κB (already mapped) and BAFF (already mapped)-driven B-cell survival and autoantibody production of Sjögren syndrome; magnesium is required for salivary-gland secretory enzyme activity and mucosal repair in the sicca phenotype."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "SjS copper: copper, as ceruloplasmin cofactor in macrophages (already mapped) and dendritic-cell (already mapped), modulates ROS and BAFF (already mapped) signalling; copper deficiency impairs T-cytotoxic-cell (already mapped) and B-cell (already mapped) regulation in SjS."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "SjS zinc: zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) in macrophages (already mapped) and mast-cell (already mapped); zinc supports salivary-gland repair and BAFF (already mapped)-mediated B-cell (already mapped) tolerance in Sjögren syndrome."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "SjS phosphorus: phosphorus, as ATP precursor in dendritic-cell (already mapped) and T-cytotoxic-cell (already mapped), fuels antigen presentation; phosphorus deficiency amplifies BAFF (already mapped) and NF-κB (already mapped) cascade of Sjögren syndrome."
 ---
 
 # Sjögren's Syndrome
@@ -813,6 +822,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — SjS iodine: iodine-dependent thyroid hormones modulate Th17/Treg (IL-17A already mapped) and BAFF (already mapped)-driven autoimmune B-cell activation in Sjögren syndrome; hypothyroidism amplifies exocrine-gland inflammation and the sicca phenotype.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — SjS sodium: sodium-driven osmotic Th17 polarisation amplifies the IL-17A (already mapped) and NF-κB (already mapped)-mediated salivary and lacrimal-gland inflammation of Sjögren syndrome; high-salt diet promotes Th17/Treg imbalance worsening sicca symptoms.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — SjS magnesium: magnesium deficiency amplifies the NF-κB (already mapped) and BAFF (already mapped)-driven B-cell survival and autoantibody production of Sjögren syndrome; magnesium is required for salivary-gland secretory enzyme activity and mucosal repair in the sicca phenotype.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — SjS copper: copper, as ceruloplasmin cofactor in macrophages (already mapped) and dendritic-cell (already mapped), modulates ROS and BAFF (already mapped) signalling; copper deficiency impairs T-cytotoxic-cell (already mapped) and B-cell (already mapped) regulation in SjS.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — SjS zinc: zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) in macrophages (already mapped) and mast-cell (already mapped); zinc supports salivary-gland repair and BAFF (already mapped)-mediated B-cell (already mapped) tolerance in Sjögren syndrome.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — SjS phosphorus: phosphorus, as ATP precursor in dendritic-cell (already mapped) and T-cytotoxic-cell (already mapped), fuels antigen presentation; phosphorus deficiency amplifies BAFF (already mapped) and NF-κB (already mapped) cascade of Sjögren syndrome.
 
 ---
 

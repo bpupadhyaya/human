@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "SCLC selenium: selenium-dependent glutathione peroxidase (GPX) quenches reactive-oxygen-species driving NF-κB (already mapped)-mediated genomic instability and MYC (already mapped) amplification in the highly proliferative small cell lung cancer tumour cells."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "SCLC iodine: thyroid hormones regulate macrophage (already mapped) and T-cytotoxic-cell (already mapped) anti-tumour immunity; thyroid deficiency amplifies VEGF (already mapped) and mTOR (already mapped) and NF-κB (already mapped) cascade of SCLC."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "SCLC copper: copper, as lysyl oxidase cofactor in macrophages (already mapped), drives tumour angiogenesis; copper amplifies VEGF (already mapped); copper deficiency impairs dendritic-cell (already mapped) and T-cytotoxic-cell (already mapped) immunity in SCLC."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "SCLC zinc: zinc, as metalloproteinase cofactor in macrophages (already mapped), supports tumour invasion; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade and impairs T-cytotoxic-cell (already mapped) cytotoxicity in SCLC."
 ---
 
 # Small Cell Lung Cancer
@@ -785,6 +794,9 @@ SCLC has highest rate of brain metastases among solid tumors (~50% at 2 years); 
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — SCLC oxytocin: oxytocin modulates neuroendocrine SCLC cell differentiation and NK-cell immune response (NK-cell already mapped) against this cold tumour; receptor expression on neuroendocrine cells intersects cAMP/PKA and NF-κB (already mapped) axes of SCLC.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — SCLC prolactin: prolactin via JAK2/STAT3 (already mapped) signalling on neuroendocrine SCLC cells promotes tumour-cell survival, amplifying the MYC (already mapped) and Rb1 (already mapped)-pathway oncogenic drive of small cell lung cancer.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — SCLC selenium: selenium-dependent glutathione peroxidase (GPX) quenches reactive-oxygen-species driving NF-κB (already mapped)-mediated genomic instability and MYC (already mapped) amplification in the highly proliferative small cell lung cancer tumour cells.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — SCLC iodine: thyroid hormones regulate macrophage (already mapped) and T-cytotoxic-cell (already mapped) anti-tumour immunity; thyroid deficiency amplifies VEGF (already mapped) and mTOR (already mapped) and NF-κB (already mapped) cascade of SCLC.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — SCLC copper: copper, as lysyl oxidase cofactor in macrophages (already mapped), drives tumour angiogenesis; copper amplifies VEGF (already mapped); copper deficiency impairs dendritic-cell (already mapped) and T-cytotoxic-cell (already mapped) immunity in SCLC.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — SCLC zinc: zinc, as metalloproteinase cofactor in macrophages (already mapped), supports tumour invasion; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade and impairs T-cytotoxic-cell (already mapped) cytotoxicity in SCLC.
 
 [^horn-2018-impower133]: Horn L, Mansfield AS, Szczęsna A, et al. First-line atezolizumab plus chemotherapy in extensive-stage small-cell lung cancer. *N Engl J Med.* 2018;379(23):2220-2229. [doi:10.1056/NEJMoa1809064](https://doi.org/10.1056/NEJMoa1809064) · [PubMed 30280641](https://pubmed.ncbi.nlm.nih.gov/30280641/)
 [^paz-ares-2019-caspian]: Paz-Ares L, Dvorkin M, Chen Y, et al. Durvalumab plus platinum-etoposide versus platinum-etoposide in first-line treatment of extensive-stage small-cell lung cancer (CASPIAN). *Lancet.* 2019;394(10212):1929-1939. [doi:10.1016/S0140-6736(19)32222-6](https://doi.org/10.1016/S0140-6736(19)32222-6) · [PubMed 31590988](https://pubmed.ncbi.nlm.nih.gov/31590988/)
