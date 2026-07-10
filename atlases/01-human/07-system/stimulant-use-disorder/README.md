@@ -520,6 +520,9 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "SUD phosphorus: phosphorus, as ATP in neurons (already mapped) and synapses (already mapped), sustains dopaminergic (dopamine already mapped) vesicle release; phosphorus deficiency amplifies the NLRP3 (already mapped) neuroinflammation of stimulant use disorder."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "SUD iron: iron supports neuron (already mapped) dopamine (already mapped) and serotonin (already mapped) synthesis; iron deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammation and BDNF (already mapped) dysregulation in stimulant use disorder."
 ---
 
 # Stimulant Use Disorder
@@ -809,6 +812,7 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Dopaminergic ROS scavenger: selenium, as GPx in neurons (already mapped) and microglia (already mapped), scavenges dopaminergic (dopamine already mapped) neuroinflammatory ROS; selenium deficiency amplifies the CRH (already mapped) and NLRP3 (already mapped) cascade of stimulant use disorder.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Thyroid-reward axis: iodine-dependent thyroid hormones modulate dopaminergic (dopamine already mapped) and serotonergic (serotonin already mapped) tone; iodine deficiency impairs thyroid-mediated regulation of the CRH (already mapped) stress axis of stimulant use disorder.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Synaptic energy substrate: phosphorus, as ATP in neurons (already mapped) and synapses (already mapped), sustains dopaminergic (dopamine already mapped) vesicle release; phosphorus deficiency amplifies the NLRP3 (already mapped) neuroinflammation of stimulant use disorder.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — SUD iron: iron supports neuron (already mapped) dopamine (already mapped) and serotonin (already mapped) synthesis; iron deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammation and BDNF (already mapped) dysregulation in stimulant use disorder.
 
 ## Treatment
 
