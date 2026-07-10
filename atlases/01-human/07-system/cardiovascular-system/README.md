@@ -519,6 +519,15 @@ cross_links:
   - target: 01-human/03-molecular/oxytocin
     relation: connects-to
     note: "CV oxytocin: oxytocin, via OXTR on cardiomyocytes (already mapped) and endothelial cells (already mapped), attenuates NF-κB (already mapped) and IL-6 (already mapped) cardiac inflammation; oxytocin promotes nitric-oxide (already mapped) vasodilation and cardioprotection."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "CV selenium: selenium, via GPx and thioredoxin reductase, scavenges ROS in cardiomyocytes (already mapped) and endothelial cells (already mapped); selenium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cardiac inflammation and heart-failure severity."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "CV copper: copper, via ceruloplasmin and SOD, protects cardiomyocytes (already mapped) from oxidative injury; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cardiac inflammation and the cardiac fibrosis of heart failure (already mapped)."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "CV phosphorus: phosphorus drives ATP (already mapped) synthesis and SERCA2a (already mapped) calcium-pump function in cardiomyocytes (already mapped); hyperphosphataemia amplifies NF-κB (already mapped) vascular calcification and endothelial cell (already mapped) dysfunction."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"
@@ -768,6 +777,9 @@ Each major vascular bed has **autoregulation** — a local mechanism that holds 
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — CV testosterone: testosterone, via androgen receptors on cardiomyocytes (already mapped), attenuates NF-κB (already mapped) and IL-6 (already mapped) cardiomyopathic signalling; testosterone deficiency amplifies CVD risk and heart-failure (already mapped) morbidity.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — CV serotonin: serotonin, via 5-HT receptors on cardiomyocytes (already mapped) and endothelial cells (already mapped), modulates cardiac rhythm and vascular tone; serotonin excess amplifies the NF-κB (already mapped) and IL-6 (already mapped) cardiovascular inflammation.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — CV oxytocin: oxytocin, via OXTR on cardiomyocytes (already mapped) and endothelial cells (already mapped), attenuates NF-κB (already mapped) and IL-6 (already mapped) cardiac inflammation; oxytocin promotes nitric-oxide (already mapped) vasodilation and cardioprotection.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — CV selenium: selenium, via GPx and thioredoxin reductase, scavenges ROS in cardiomyocytes (already mapped) and endothelial cells (already mapped); selenium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cardiac inflammation and heart-failure severity.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — CV copper: copper, via ceruloplasmin and SOD, protects cardiomyocytes (already mapped) from oxidative injury; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cardiac inflammation and the cardiac fibrosis of heart failure (already mapped).
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — CV phosphorus: phosphorus drives ATP (already mapped) synthesis and SERCA2a (already mapped) calcium-pump function in cardiomyocytes (already mapped); hyperphosphataemia amplifies NF-κB (already mapped) vascular calcification and endothelial cell (already mapped) dysfunction.
 
 ## Pathology
 
