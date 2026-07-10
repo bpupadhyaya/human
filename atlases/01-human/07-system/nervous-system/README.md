@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "Antioxidant selenoprotein axis: selenium incorporates into GPX4 and selenoproteins that protect neurons from ferroptosis and oxidative lipid damage; GPx4 deficiency triggers degeneration in motor and sensory neurons of the nervous system."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Nervous-system iron: iron, the cofactor for dopamine synthesis and myelin formation in neurons (already mapped) and oligodendrocytes (already mapped), supports neural function; iron dyshomeostasis amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammation."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "Nervous-system phosphorus energy: phosphorus, the backbone of ATP and phospholipids in neurons (already mapped) and oligodendrocytes (already mapped), sustains neural metabolism; phosphorus dyshomeostasis amplifies NF-κB (already mapped) and IL-6 (already mapped) signalling."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "Nervous-system sulfur redox: sulfur, the backbone of glutathione and cysteine in neurons (already mapped) and microglia (already mapped), quenches oxidative stress; sulfur dyshomeostasis amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory burden."
 ---
 
 # Nervous System
@@ -726,6 +735,9 @@ Distributed cortical networks underlie language (Broca's area, Wernicke's area, 
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Neurosteroid modulation: testosterone and its CNS metabolite DHT bind androgen receptors to promote myelination, neuroprotection and sex-dimorphic GABAergic signalling, influencing susceptibility to neurodegenerative and psychiatric disorders in the nervous system.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Neuroprotective cytokine: prolactin receptors on neurons and microglia mediate neuroprotection, axon regeneration and myelin repair, and prolactin elevations during pregnancy drive adult hippocampal neurogenesis in the nervous system.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Antioxidant selenoprotein axis: selenium incorporates into GPX4 and selenoproteins that protect neurons from ferroptosis and oxidative lipid damage; GPx4 deficiency triggers degeneration in motor and sensory neurons of the nervous system.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Nervous-system iron: iron, the cofactor for dopamine synthesis and myelin formation in neurons (already mapped) and oligodendrocytes (already mapped), supports neural function; iron dyshomeostasis amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammation.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Nervous-system phosphorus energy: phosphorus, the backbone of ATP and phospholipids in neurons (already mapped) and oligodendrocytes (already mapped), sustains neural metabolism; phosphorus dyshomeostasis amplifies NF-κB (already mapped) and IL-6 (already mapped) signalling.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Nervous-system sulfur redox: sulfur, the backbone of glutathione and cysteine in neurons (already mapped) and microglia (already mapped), quenches oxidative stress; sulfur dyshomeostasis amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory burden.
 
 [^kandel-principles-ns]: Kandel ER, Koester JD, Mack SH, Siegelbaum SA. *Principles of Neural Science.* 6th ed. McGraw-Hill; 2021.
 [^guyton-hall-physiology]: Hall JE, Hall ME. *Guyton and Hall Textbook of Medical Physiology.* 14th ed. Elsevier; 2020.
