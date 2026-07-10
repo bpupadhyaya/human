@@ -517,6 +517,9 @@ cross_links:
   - target: 01-human/02-atomic/iodine
     relation: connects-to
     note: "AIDS iodine: iodine-dependent thyroid hormones regulate macrophage (already mapped) and natural-killer cell (already mapped) immune function; iodine deficiency, common in AIDS, amplifies NF-κB (already mapped) and IL-6 (already mapped) chronic immune activation in HIV/AIDS."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "AIDS magnesium: magnesium supports macrophage (already mapped) and natural-killer-cell (already mapped) immune function; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) chronic immune dysregulation in HIV/AIDS."
 ---
 
 # HIV/AIDS
@@ -798,6 +801,7 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — AIDS oxytocin: oxytocin, via OXTR on macrophages (already mapped) and neurons (already mapped), attenuates NF-κB (already mapped) and NLRP3 (already mapped) neuroinflammation; oxytocin buffers IL-6 (already mapped) and TNF-α (already mapped) immune exhaustion in HIV/AIDS.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — AIDS vasopressin: vasopressin, via V1aR on macrophages (already mapped) and neurons (already mapped), modulates NF-κB (already mapped) neuroinflammation and HPA-axis dysregulation; vasopressin amplifies IL-6 (already mapped) and TNF-α (already mapped) immunopathology in HIV/AIDS.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — AIDS iodine: iodine-dependent thyroid hormones regulate macrophage (already mapped) and natural-killer cell (already mapped) immune function; iodine deficiency, common in AIDS, amplifies NF-κB (already mapped) and IL-6 (already mapped) chronic immune activation in HIV/AIDS.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — AIDS magnesium: magnesium supports macrophage (already mapped) and natural-killer-cell (already mapped) immune function; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) chronic immune dysregulation in HIV/AIDS.
 
 ## See Also
 
