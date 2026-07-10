@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/bradykinin
     relation: connects-to
     note: "Pain nociception: bradykinin is the canonical peripheral pain mediator; B2 receptor activation on sensory neurons amplifies prostaglandin-driven neuroinflammation (already mapped) and is the molecular basis of acute and chronic nociception in the peripheral nervous system."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Neuroinflammation complement: C1-INH controls the classical-pathway activation (complement C3, C5 and C5aR1 already mapped) in the nervous-system neuroinflammatory microenvironment, limiting complement-mediated synaptic pruning and demyelinating neurodegeneration."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Peripheral nerve ECM: periostin, secreted by peripheral nerve Schwann-cell sheaths and fibroblasts, activates the integrin-AKT (already mapped) pathway to promote peripheral-nerve repair, remyelination and the regenerative response after axonal injury in the nervous system."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Synaptic complement control: factor H limits alternative complement activation (complement C3, C5 and C5aR1 already mapped) at the CNS synapse and blood-brain-barrier, preventing excessive complement-mediated synaptic pruning in nervous-system neurodegeneration."
 ---
 
 # Nervous System
@@ -687,6 +696,9 @@ Distributed cortical networks underlie language (Broca's area, Wernicke's area, 
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Neuroimmune alarmin: TSLP released at the mucosal and peripheral immune interfaces activates the neuroimmune axis via vagal afferents and dural immune cells; TSLP-driven type-2 signals modulate the glial (already mapped) and microglial response of the central nervous system.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Neuroprotection: erythropoietin (EPO) receptors on neurons and astrocytes (already mapped) mediate JAK2/STAT5 anti-apoptotic survival signalling; EPO is neuroprotective in hypoxic-ischaemic injury, stroke (already mapped) and neurodegenerative diseases of the nervous system.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Pain nociception: bradykinin is the canonical peripheral pain mediator; B2 receptor activation on sensory neurons amplifies prostaglandin-driven neuroinflammation (already mapped) and is the molecular basis of acute and chronic nociception in the peripheral nervous system.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Neuroinflammation complement: C1-INH controls the classical-pathway activation (complement C3, C5 and C5aR1 already mapped) in the nervous-system neuroinflammatory microenvironment, limiting complement-mediated synaptic pruning and demyelinating neurodegeneration.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Peripheral nerve ECM: periostin, secreted by peripheral nerve Schwann-cell sheaths and fibroblasts, activates the integrin-AKT (already mapped) pathway to promote peripheral-nerve repair, remyelination and the regenerative response after axonal injury in the nervous system.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Synaptic complement control: factor H limits alternative complement activation (complement C3, C5 and C5aR1 already mapped) at the CNS synapse and blood-brain-barrier, preventing excessive complement-mediated synaptic pruning in nervous-system neurodegeneration.
 
 ## Pathology
 
