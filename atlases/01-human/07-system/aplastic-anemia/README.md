@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Immunomodulatory prolactin: prolactin, via PRL receptors on T cells (already mapped) and NK cells (already mapped), amplifies the autoimmune lymphocyte-mediated marrow destruction of aplastic anaemia."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "AA oxytocin: oxytocin, via OXTR on T cells (already mapped) and natural-killer cells (already mapped), attenuates the autoimmune marrow destruction; oxytocin deficiency amplifies the IFN-γ (already mapped) and TNF-α (already mapped) cytokine cascade of aplastic anaemia."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "AA vasopressin: vasopressin, via V1aR on bone-marrow (already mapped) stromal cells and T cells (already mapped), modulates marrow immune tone; vasopressin dysregulation amplifies the IFN-γ (already mapped) and IL-6 (already mapped) autoimmune cascade of aplastic anaemia."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "AA selenium: selenium, as GPx in bone-marrow (already mapped) progenitors and T cells (already mapped), scavenges immunomodulatory ROS; selenium deficiency amplifies the IFN-γ (already mapped) and NLRP3 (already mapped) autoimmune marrow destruction of aplastic anaemia."
 ---
 
 # Aplastic Anemia
@@ -776,6 +785,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-marrow axis: melatonin, via MT1/MT2 receptors on haematopoietic progenitors (already mapped), modulates the redox balance and the immune tone of the T-cell-mediated autoimmune marrow failure of aplastic anaemia.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Serotonin-marrow axis: serotonin, via 5-HT receptors on marrow stromal cells and immune effectors (T cells already mapped), modulates the cytokine milieu and the megakaryocyte (thrombocytopenia already mapped) function in aplastic anaemia.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Immunomodulatory prolactin: prolactin, via PRL receptors on T cells (already mapped) and NK cells (already mapped), amplifies the autoimmune lymphocyte-mediated marrow destruction of aplastic anaemia.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — AA oxytocin: oxytocin, via OXTR on T cells (already mapped) and natural-killer cells (already mapped), attenuates the autoimmune marrow destruction; oxytocin deficiency amplifies the IFN-γ (already mapped) and TNF-α (already mapped) cytokine cascade of aplastic anaemia.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — AA vasopressin: vasopressin, via V1aR on bone-marrow (already mapped) stromal cells and T cells (already mapped), modulates marrow immune tone; vasopressin dysregulation amplifies the IFN-γ (already mapped) and IL-6 (already mapped) autoimmune cascade of aplastic anaemia.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — AA selenium: selenium, as GPx in bone-marrow (already mapped) progenitors and T cells (already mapped), scavenges immunomodulatory ROS; selenium deficiency amplifies the IFN-γ (already mapped) and NLRP3 (already mapped) autoimmune marrow destruction of aplastic anaemia.
 
 ---
 

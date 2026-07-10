@@ -508,6 +508,15 @@ cross_links:
   - target: 01-human/03-molecular/testosterone
     relation: connects-to
     note: "Sex-hormone vascular axis: testosterone, via androgen receptors on endothelium (already mapped) and smooth-muscle cells (already mapped), modulates the lipid profile (LDL and HDL already mapped) and vascular tone of atherosclerosis."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Atherosclerosis serotonin: serotonin, via 5-HT receptors on platelets (already mapped) and smooth-muscle cells (already mapped), amplifies vasoconstriction; serotonin worsens the nitric-oxide (already mapped) and NF-κB (already mapped) atherogenic cascade of atherosclerosis."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Atherosclerosis prolactin: prolactin, via PRLR on endothelium (already mapped) and macrophages (already mapped), promotes foam-cell formation; hyperprolactinaemia amplifies the NF-κB (already mapped) and NLRP3 (already mapped) atherogenic inflammatory cascade of atherosclerosis."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Atherosclerosis oxytocin: oxytocin, via OXTR on endothelium (already mapped) and macrophages (already mapped), attenuates atherogenic inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and NLRP3 (already mapped) inflammatory plaque cascade of atherosclerosis."
 ---
 
 # Atherosclerosis
@@ -785,6 +794,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell plaque: histamine, from mast cells in the atherosclerotic plaque (already mapped), degrades the fibrous cap (collagen already mapped) and amplifies the intraplaque inflammation and vulnerable-plaque formation of atherosclerosis.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Antioxidant-plaque axis: melatonin, via MT1/MT2 receptors and its radical-scavenging activity, reduces the oxidised-LDL (LDL already mapped) load and the endothelial dysfunction that drive the progression of atherosclerosis.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Sex-hormone vascular axis: testosterone, via androgen receptors on endothelium (already mapped) and smooth-muscle cells (already mapped), modulates the lipid profile (LDL and HDL already mapped) and vascular tone of atherosclerosis.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Atherosclerosis serotonin: serotonin, via 5-HT receptors on platelets (already mapped) and smooth-muscle cells (already mapped), amplifies vasoconstriction; serotonin worsens the nitric-oxide (already mapped) and NF-κB (already mapped) atherogenic cascade of atherosclerosis.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Atherosclerosis prolactin: prolactin, via PRLR on endothelium (already mapped) and macrophages (already mapped), promotes foam-cell formation; hyperprolactinaemia amplifies the NF-κB (already mapped) and NLRP3 (already mapped) atherogenic inflammatory cascade of atherosclerosis.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Atherosclerosis oxytocin: oxytocin, via OXTR on endothelium (already mapped) and macrophages (already mapped), attenuates atherogenic inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and NLRP3 (already mapped) inflammatory plaque cascade of atherosclerosis.
 
 ---
 
