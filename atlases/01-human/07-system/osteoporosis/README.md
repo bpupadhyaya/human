@@ -496,6 +496,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Bone-marrow EPO axis: erythropoietin, via EpoR on osteoblast progenitors in the bone marrow (already mapped), modulates the osteoblast-erythroid lineage competition and the bone formation relevant to the bone loss of osteoporosis."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Bone-protective chronobiology: melatonin, produced by bone-marrow (already mapped) stromal cells, acts on MT2 receptors on osteoblasts (already mapped) to stimulate bone formation and inhibit osteoclast (already mapped) resorption, directly opposing the bone loss of osteoporosis."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement-bone axis: C1-esterase inhibitor regulates the classical-complement (complement C5 already mapped) activation in the bone microenvironment, tempering complement-driven osteoclast (already mapped) recruitment and the inflammatory bone resorption of osteoporosis."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation in bone: factor H limits alternative-pathway activation on the bone-marrow (already mapped) surface and osteoclast (already mapped) progenitors, regulating the complement (complement C5 already mapped) contribution to the bone resorption of osteoporosis."
 ---
 
 # Osteoporosis
@@ -763,6 +772,9 @@ All newly diagnosed osteoporosis should be evaluated for secondary causes: CBC (
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-osteoclast axis: TSLP, from skin (already mapped) and mucosal barriers, primes dendritic cells (already mapped) and mast cells (already mapped) and activates the RANKL-osteoclast (already mapped) axis contributing to the bone loss of osteoporosis.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-bone axis: bradykinin, via B2R on osteoblasts (already mapped) and osteoclasts (already mapped), modulates the bone remodelling balance, with B2R activation promoting osteoclastogenesis and the bone resorption of osteoporosis.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Bone-marrow EPO axis: erythropoietin, via EpoR on osteoblast progenitors in the bone marrow (already mapped), modulates the osteoblast-erythroid lineage competition and the bone formation relevant to the bone loss of osteoporosis.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Bone-protective chronobiology: melatonin, produced by bone-marrow (already mapped) stromal cells, acts on MT2 receptors on osteoblasts (already mapped) to stimulate bone formation and inhibit osteoclast (already mapped) resorption, directly opposing the bone loss of osteoporosis.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement-bone axis: C1-esterase inhibitor regulates the classical-complement (complement C5 already mapped) activation in the bone microenvironment, tempering complement-driven osteoclast (already mapped) recruitment and the inflammatory bone resorption of osteoporosis.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation in bone: factor H limits alternative-pathway activation on the bone-marrow (already mapped) surface and osteoclast (already mapped) progenitors, regulating the complement (complement C5 already mapped) contribution to the bone resorption of osteoporosis.
 
 [^kanis-2019-who-osteoporosis]: Kanis JA, Cooper C, Rizzoli R, Reginster JY. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. *Osteoporos Int.* 2019;30(1):3-44. [doi:10.1007/s00198-018-4704-5](https://doi.org/10.1007/s00198-018-4704-5) · [PubMed 30324412](https://pubmed.ncbi.nlm.nih.gov/30324412/)
 [^cosman-2016-romosozumab]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)

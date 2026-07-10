@@ -490,6 +490,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Pruritus-anaemia overlap: erythropoietin, elevated in the polycythaemia-associated prurigo and corrective in the uraemic (CKD already mapped) and iron-deficiency (already mapped) prurigo nodularis variants, links systemic anaemia to itch amplification."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian itch modulation: prurigo nodularis shows a nocturnal itch predominance; melatonin, with its anti-inflammatory and antioxidant skin effects (skin already mapped), modulates the nocturnal itch amplification and the neuroinflammation (IL-31, IL-4 already mapped) of PN."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Sex-hormone skin neuroimmune: testosterone and its metabolite DHT exert anti-inflammatory effects on skin (already mapped) mast cells (already mapped) and sensory neurons (already mapped); sex-hormone differences modulate the neuroimmune itch sensitisation of prurigo nodularis."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Iron-prurigo overlap: transferrin, the iron carrier, reflects the iron deficiency (already mapped) and the anaemia that trigger the prurigo nodularis phenotype; iron supplementation corrects the itch in the iron-deficiency-anaemia-associated prurigo variant."
 ---
 
 # Prurigo Nodularis
@@ -730,6 +739,9 @@ PN affects approximately **72,000 patients** in the US; true prevalence is likel
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-pruritus axis: bradykinin, via B1R and B2R on sensory neurons (already mapped) and skin mast cells (already mapped), amplifies the neurogenic itch and the skin inflammation of the pruriceptive dimension of prurigo nodularis.
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement brake: C1-esterase inhibitor regulates the classical-complement activation (C3, C5 and factor-H already mapped) contributing to the myeloid recruitment and the cutaneous neuroinflammation of the skin nodules of prurigo nodularis.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Pruritus-anaemia overlap: erythropoietin, elevated in the polycythaemia-associated prurigo and corrective in the uraemic (CKD already mapped) and iron-deficiency (already mapped) prurigo nodularis variants, links systemic anaemia to itch amplification.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian itch modulation: prurigo nodularis shows a nocturnal itch predominance; melatonin, with its anti-inflammatory and antioxidant skin effects (skin already mapped), modulates the nocturnal itch amplification and the neuroinflammation (IL-31, IL-4 already mapped) of PN.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Sex-hormone skin neuroimmune: testosterone and its metabolite DHT exert anti-inflammatory effects on skin (already mapped) mast cells (already mapped) and sensory neurons (already mapped); sex-hormone differences modulate the neuroimmune itch sensitisation of prurigo nodularis.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Iron-prurigo overlap: transferrin, the iron carrier, reflects the iron deficiency (already mapped) and the anaemia that trigger the prurigo nodularis phenotype; iron supplementation corrects the itch in the iron-deficiency-anaemia-associated prurigo variant.
 
 [^stander-2020-nemolizumab-pn]: Ständer S, Yosipovitch G, Legat FJ, et al. Trial of nemolizumab in moderate-to-severe prurigo nodularis. *N Engl J Med.* 2020;382(8):706-716. [doi:10.1056/NEJMoa1908316](https://doi.org/10.1056/NEJMoa1908316) · [PubMed 32053299](https://pubmed.ncbi.nlm.nih.gov/32053299/)
 [^briggs-2022-dupilumab-pn-liberty]: Briggs JN, Cho YY, Khanna R, et al. Dupilumab for prurigo nodularis: the LIBERTY-PN PRIME and PRIME2 trials. *N Engl J Med.* 2022;387(18):1683-1693. [doi:10.1056/NEJMoa2205093](https://doi.org/10.1056/NEJMoa2205093) · [PubMed 36300905](https://pubmed.ncbi.nlm.nih.gov/36300905/)
