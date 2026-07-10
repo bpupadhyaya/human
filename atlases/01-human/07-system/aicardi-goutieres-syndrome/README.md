@@ -510,6 +510,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "AGS prolactin: prolactin, via PRLR/JAK1-2 (already mapped), amplifies STAT1 (already mapped) and type-I interferon (already mapped); prolactin drives B-cell (already mapped) autoreactive expansion and macrophage (already mapped) NF-κB (already mapped) neuroinflammation in AGS."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "AGS oxytocin: oxytocin, via OXTR on microglia (already mapped) and astrocytes (already mapped), attenuates cGAS-STING (already mapped) and type-I interferon (already mapped) neuroinflammation; oxytocin promotes regulatory T-cell (already mapped) tolerance in AGS."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "AGS vasopressin: vasopressin modulates the NF-κB (already mapped) and STAT1 (already mapped) cytokine-driven encephalopathic state; vasopressin also interacts with the brain (already mapped) fluid and type-I interferon (already mapped) cerebrospinal-fluid dysregulation of AGS."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "AGS selenium: selenium-dependent GPx in neurons (already mapped) and astrocytes (already mapped) quenches ROS amplifying cGAS-STING (already mapped) and NF-κB (already mapped); selenium deficiency worsens the type-I IFN (already mapped) neuroinflammatory burden of AGS."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -768,6 +777,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen IFN suppression: testosterone suppresses type-I interferon (already mapped) and cGAS-STING (already mapped) innate immune activation; androgens attenuate JAK1-2 (already mapped)/STAT1 (already mapped) neuroinflammation and microglia (already mapped) IFN-driven injury in AGS.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Neuroimmune modulation: serotonin, via 5-HT receptors on microglia (already mapped) and astrocyte (already mapped), modulates neuroinflammation; 5-HT also attenuates the type-I interferon (already mapped) and NF-κB (already mapped) IFN-driven injury of AGS.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — IFN-amplifying hormone: prolactin, via PRLR/JAK1-2 (already mapped), amplifies STAT1 (already mapped) and type-I interferon (already mapped); prolactin drives B-cell (already mapped) autoreactive expansion and macrophage (already mapped) NF-κB (already mapped) neuroinflammation in AGS.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — AGS oxytocin: oxytocin, via OXTR on microglia (already mapped) and astrocytes (already mapped), attenuates cGAS-STING (already mapped) and type-I interferon (already mapped) neuroinflammation; oxytocin promotes regulatory T-cell (already mapped) tolerance in AGS.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — AGS vasopressin: vasopressin modulates the NF-κB (already mapped) and STAT1 (already mapped) cytokine-driven encephalopathic state; vasopressin also interacts with the brain (already mapped) fluid and type-I interferon (already mapped) cerebrospinal-fluid dysregulation of AGS.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — AGS selenium: selenium-dependent GPx in neurons (already mapped) and astrocytes (already mapped) quenches ROS amplifying cGAS-STING (already mapped) and NF-κB (already mapped); selenium deficiency worsens the type-I IFN (already mapped) neuroinflammatory burden of AGS.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

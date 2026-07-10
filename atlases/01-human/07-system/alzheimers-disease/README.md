@@ -514,6 +514,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "AD selenium: selenium, via GPx/thioredoxin reductase, protects neurons (already mapped) and astrocytes (already mapped) from oxidative injury; selenium deficiency amplifies NF-κB (already mapped) and microglia (already mapped) amyloid-β-driven neurodegeneration in Alzheimer's."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "AD iodine: iodine-dependent thyroid hormones regulate neuronal (neuron already mapped) metabolism and synaptic (synapse already mapped) function; hypothyroidism amplifies NF-κB (already mapped) and NLRP3 inflammasome (already mapped) neuroinflammation and amyloid-β burden."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "AD sodium: sodium dysregulation in the brain (already mapped) drives neuronal (neuron already mapped) excitotoxicity via glutamate (already mapped) receptor overload; sodium imbalance amplifies NF-κB (already mapped) and NLRP3 inflammasome (already mapped) amyloid-β cascade."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "AD potassium: potassium efflux from neurons (already mapped) activates NLRP3 inflammasome (already mapped) in microglia (already mapped); disrupted K⁺ amplifies NF-κB (already mapped) and IL-1β (already mapped) amyloid-β neuroinflammation and hippocampal (already mapped) loss."
 ---
 
 # Alzheimer's Disease
@@ -778,6 +787,9 @@ Microglia play a central, dual role in AD:
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen neuroprotection: testosterone suppresses NF-κB (already mapped) neuroinflammation and amyloid-β production in neurons (already mapped); androgen deficiency amplifies microglia (already mapped) and complement-C5 (already mapped) neurodegeneration in Alzheimer's.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Brain fluid homeostasis: vasopressin, via V1/V2 receptors on neurons (already mapped), modulates brain (already mapped) fluid and synaptic homeostasis; vasopressin dysregulation amplifies NF-κB (already mapped) and microglia (already mapped) neuroinflammatory damage in Alzheimer's.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Antioxidant neuroprotection: selenium, via GPx/thioredoxin reductase, protects neurons (already mapped) and astrocytes (already mapped) from oxidative injury; selenium deficiency amplifies NF-κB (already mapped) and microglia (already mapped) amyloid-β-driven neurodegeneration in Alzheimer's.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — AD iodine: iodine-dependent thyroid hormones regulate neuronal (neuron already mapped) metabolism and synaptic (synapse already mapped) function; hypothyroidism amplifies NF-κB (already mapped) and NLRP3 inflammasome (already mapped) neuroinflammation and amyloid-β burden.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — AD sodium: sodium dysregulation in the brain (already mapped) drives neuronal (neuron already mapped) excitotoxicity via glutamate (already mapped) receptor overload; sodium imbalance amplifies NF-κB (already mapped) and NLRP3 inflammasome (already mapped) amyloid-β cascade.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — AD potassium: potassium efflux from neurons (already mapped) activates NLRP3 inflammasome (already mapped) in microglia (already mapped); disrupted K⁺ amplifies NF-κB (already mapped) and IL-1β (already mapped) amyloid-β neuroinflammation and hippocampal (already mapped) loss.
 
 [^selkoe-2016-alzheimer]: Selkoe DJ, Hardy J. The amyloid hypothesis of Alzheimer's disease at 25 years. *EMBO Mol Med.* 2016;8(6):595-608. [doi:10.15252/emmm.201606210](https://doi.org/10.15252/emmm.201606210) · [PubMed 27025652](https://pubmed.ncbi.nlm.nih.gov/27025652/)
 [^jack-2018-nia-aa]: Jack CR Jr, Bennett DA, Blennow K, et al. NIA-AA Research Framework: Toward a biological definition of Alzheimer's disease. *Alzheimers Dement.* 2018;14(4):535-562. [doi:10.1016/j.jalz.2018.02.018](https://doi.org/10.1016/j.jalz.2018.02.018) · [PubMed 29653606](https://pubmed.ncbi.nlm.nih.gov/29653606/)
