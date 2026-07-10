@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/oxytocin
     relation: connects-to
     note: "Neuroendocrine oxytocin: oxytocin, via OXT-R on MEN4 pituitary (already mapped) and pancreatic neuroendocrine tumour cells, modulates intracellular cAMP (already mapped) and the hormonal secretory activity of the MEN4 neuroendocrine tumour spectrum."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "MEN4 vasopressin neuroendocrine: vasopressin, via V1bR on pituitary adenoma cells (already mapped) and macrophages (already mapped), modulates the hypothalamic-pituitary axis; dysregulation amplifies IL-6 (already mapped) and mTOR (already mapped) signalling in MEN4 syndrome."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "MEN4 selenium antioxidant: selenium, via GPx/TrxR selenoproteins in MEN4 neuroendocrine tumour cells and macrophages (already mapped), quenches oxidative stress that amplifies mTOR (already mapped) and VEGF (already mapped) pro-tumour angiogenesis in MEN4 syndrome."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "MEN4 iodine thyroid: iodine, the essential substrate for thyroid hormone biosynthesis, supports parathyroid and pituitary (already mapped) homeostasis; iodine insufficiency deepens the IL-6 (already mapped) and mTOR (already mapped) neuroendocrine burden in MEN4 syndrome."
 ---
 
 # MEN4 Syndrome
@@ -775,6 +784,9 @@ When clinical MEN features are present:
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Neuroendocrine melatonin: melatonin, via MT1/MT2 receptors on MEN4 pituitary and pancreatic neuroendocrine tumour cells (pituitary-adenoma already mapped), suppresses cAMP-mediated (already mapped) cell-cycle progression driven by the CDKN1B/p27Kip1 loss of MEN4.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-parathyroid axis: testosterone, via androgen receptor on MEN4 pituitary adenoma (already mapped) and parathyroid tumour cells (already mapped), modulates the hormonal crosstalk and mTOR (already mapped) proliferative signalling of the MEN4 endocrine tumour spectrum.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Neuroendocrine oxytocin: oxytocin, via OXT-R on MEN4 pituitary (already mapped) and pancreatic neuroendocrine tumour cells, modulates intracellular cAMP (already mapped) and the hormonal secretory activity of the MEN4 neuroendocrine tumour spectrum.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — MEN4 vasopressin neuroendocrine: vasopressin, via V1bR on pituitary adenoma cells (already mapped) and macrophages (already mapped), modulates the hypothalamic-pituitary axis; dysregulation amplifies IL-6 (already mapped) and mTOR (already mapped) signalling in MEN4 syndrome.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — MEN4 selenium antioxidant: selenium, via GPx/TrxR selenoproteins in MEN4 neuroendocrine tumour cells and macrophages (already mapped), quenches oxidative stress that amplifies mTOR (already mapped) and VEGF (already mapped) pro-tumour angiogenesis in MEN4 syndrome.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — MEN4 iodine thyroid: iodine, the essential substrate for thyroid hormone biosynthesis, supports parathyroid and pituitary (already mapped) homeostasis; iodine insufficiency deepens the IL-6 (already mapped) and mTOR (already mapped) neuroendocrine burden in MEN4 syndrome.
 
 [^alrezk-2017-men4]: Alrezk R, Hannah-Shmouni F, Stratakis CA. MEN4 and CDKN1B mutations: the latest of the MEN syndromes. *Endocr Relat Cancer.* 2017;24(10):T195-T208. [doi:10.1530/ERC-17-0243](https://doi.org/10.1530/ERC-17-0243) · [PubMed 28894007](https://pubmed.ncbi.nlm.nih.gov/28894007/)
 [^pellegata-2006-cdkn1b-men4]: Pellegata NS, Quintanilla-Martinez L, Siggelkow H, et al. Germ-line mutations in p27Kip1 cause a multiple endocrine neoplasia syndrome in rats and humans. *Proc Natl Acad Sci USA.* 2006;103(42):15558-15563. [doi:10.1073/pnas.0603306103](https://doi.org/10.1073/pnas.0603306103) · [PubMed 17030811](https://pubmed.ncbi.nlm.nih.gov/17030811/)

@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/serotonin
     relation: connects-to
     note: "Meningeal 5-HT signalling: serotonin from mast cells (already mapped) in meningioma stroma signals via 5-HT2 receptors on meningioma cells and endothelial cells (already mapped), amplifying the VEGF (already mapped) angiogenic and peritumoral oedema cascade."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Meningioma prolactin receptor: prolactin, via PRL-R on meningioma cells and macrophages (already mapped), upregulates NF-κB (already mapped) and IL-6 (already mapped) pro-survival signalling and promotes VEGF-driven (already mapped) angiogenesis in meningioma."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Meningioma oxytocin anti-tumour: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates NF-κB (already mapped) and IL-6 (already mapped) pro-tumour signalling in the peritumoral meningeal microenvironment of meningioma."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Meningioma vasopressin vascular: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates dural tumour vascular tone; dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) angiogenic signalling in meningioma."
 ---
 
 # Meningioma
@@ -780,6 +789,9 @@ VEGF overexpression in meningioma (YAP target); Phase 2 COMBIT (Huang 2019, N=40
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Meningeal oncostasis: melatonin, via MT1/MT2 receptors on meningioma cells and the dural tumour vasculature (already mapped), suppresses VEGF-driven (already mapped) angiogenesis and NF-κB (already mapped) signalling, reducing the peritumoral oedema burden of meningioma.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-meningioma axis: testosterone, via androgen receptor on meningioma cells, modulates VEGF-driven (already mapped) and AKT1 (already mapped) proliferative signalling and contributes to the sex-dimorphic incidence and hormone-receptor positivity of meningioma.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Meningeal 5-HT signalling: serotonin from mast cells (already mapped) in meningioma stroma signals via 5-HT2 receptors on meningioma cells and endothelial cells (already mapped), amplifying the VEGF (already mapped) angiogenic and peritumoral oedema cascade.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Meningioma prolactin receptor: prolactin, via PRL-R on meningioma cells and macrophages (already mapped), upregulates NF-κB (already mapped) and IL-6 (already mapped) pro-survival signalling and promotes VEGF-driven (already mapped) angiogenesis in meningioma.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Meningioma oxytocin anti-tumour: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates NF-κB (already mapped) and IL-6 (already mapped) pro-tumour signalling in the peritumoral meningeal microenvironment of meningioma.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Meningioma vasopressin vascular: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates dural tumour vascular tone; dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) angiogenic signalling in meningioma.
 
 [^brastianos-2013-akt1-meningioma]: Brastianos PK, Horowitz PM, Santagata S, et al. Genomic sequencing of meningiomas identifies oncogenic SMO and AKT1 mutations. *Nat Genet.* 2013;45(3):285-289. [doi:10.1038/ng.2526](https://doi.org/10.1038/ng.2526) · [PubMed 23334667](https://pubmed.ncbi.nlm.nih.gov/23334667/)
 [^nassiri-2021-meningioma-classification]: Nassiri F, Liu J, Patil V, et al. A clinically applicable integrative molecular classification of meningiomas. *Nature.* 2021;597(7874):119-125. [doi:10.1038/s41586-021-03850-3](https://doi.org/10.1038/s41586-021-03850-3) · [PubMed 34385709](https://pubmed.ncbi.nlm.nih.gov/34385709/)
