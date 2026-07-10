@@ -503,6 +503,15 @@ cross_links:
   - target: 01-human/03-molecular/c1-esterase-inhibitor
     relation: connects-to
     note: "Complement/kinin gate: C1-esterase inhibitor limits classical complement (C3, C5 and C5aR1 already mapped) and contact-kinin (bradykinin already mapped) activation in the basal-ganglia neuroinflammation of obsessive-compulsive disorder."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "ECM remodelling in the cortico-striatal circuit: periostin, expressed by astrocytes (already mapped) and microglia (already mapped) under neuroinflammation, modulates the extracellular matrix of the basal ganglia that is disrupted in OCD."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Neuroprotective cytokine: erythropoietin, via EPOR on neurons and astrocytes (already mapped), suppresses neuroinflammatory cytokines (TNF-α and IL-6 already mapped) and limits the oxidative damage in the fronto-striatal circuitry of OCD."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Immune-endocrine coupling: prolactin, elevated by antipsychotic medications used as augmentation in OCD (serotonin and dopamine already mapped), modulates the T-cell (already mapped) immune function and amplifies the female-predominant endocrine skew of OCD."
 ---
 
 # Obsessive-Compulsive Disorder
@@ -789,6 +798,9 @@ OCD is often underdiagnosed due to shame and secrecy. Mean time from symptom ons
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Neuro-immune alarmin: TSLP, released by skin (already mapped) and gut-epithelial (already mapped) barriers during PANDAS/PANS infections, activates mast cells (already mapped) and dendritic cells (already mapped), amplifying the systemic immune activation of OCD.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin neuro-vascular axis: bradykinin, generated during streptococcal (already mapped) and complement (C3, C5, C5aR1 already mapped) activation, augments blood-brain-barrier permeability and enables the autoantibody access to the basal ganglia of obsessive-compulsive disorder.
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement/kinin gate: C1-esterase inhibitor limits classical complement (C3, C5 and C5aR1 already mapped) and contact-kinin (bradykinin already mapped) activation in the basal-ganglia neuroinflammation of obsessive-compulsive disorder.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — ECM remodelling in the cortico-striatal circuit: periostin, expressed by astrocytes (already mapped) and microglia (already mapped) under neuroinflammation, modulates the extracellular matrix of the basal ganglia that is disrupted in OCD.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Neuroprotective cytokine: erythropoietin, via EPOR on neurons and astrocytes (already mapped), suppresses neuroinflammatory cytokines (TNF-α and IL-6 already mapped) and limits the oxidative damage in the fronto-striatal circuitry of OCD.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Immune-endocrine coupling: prolactin, elevated by antipsychotic medications used as augmentation in OCD (serotonin and dopamine already mapped), modulates the T-cell (already mapped) immune function and amplifies the female-predominant endocrine skew of OCD.
 
 [^abramowitz-2009-ocd-review]: Abramowitz JS, Taylor S, McKay D. Obsessive-compulsive disorder. *Lancet.* 2009;374(9688):491-499. [doi:10.1016/S0140-6736(09)60240-3](https://doi.org/10.1016/S0140-6736(09)60240-3) · [PubMed 19665647](https://pubmed.ncbi.nlm.nih.gov/19665647/)
 [^chamberlain-2008-ocd-neuroscience]: Chamberlain SR, Menzies L, Hampshire A, et al. Orbitofrontal dysfunction in patients with OCD and their unaffected relatives. *Science.* 2008;321(5887):421-422. [doi:10.1126/science.1154433](https://doi.org/10.1126/science.1154433) · [PubMed 18635808](https://pubmed.ncbi.nlm.nih.gov/18635808/)
