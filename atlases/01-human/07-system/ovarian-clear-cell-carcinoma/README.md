@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/c1-esterase-inhibitor
     relation: connects-to
     note: "Complement brake: C1-esterase inhibitor modulates the classical complement pathway within the endometriosis-associated peritoneal milieu of ovarian clear cell carcinoma, limiting the C3/C5 (already mapped) complement cascade."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Stroma alarmin: TSLP released by the endometriosis-derived epithelium and peritoneal stroma activates mast cells (already mapped) and dendritic cells to shape the type-2 microenvironment of ovarian clear cell carcinoma."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Endometriosis mast-cell mediator: histamine released by mast cells (already mapped) in endometriotic lesions promotes VEGF angiogenesis and prostaglandin-mediated immune evasion in the ovarian-clear-cell-carcinoma peritoneal microenvironment."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Endometriosis stroma scaffold: periostin, upregulated in the endometriosis-derived stroma, promotes tumour cell adhesion, peritoneal invasion and desmoplastic ECM remodelling of ovarian clear cell carcinoma."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -781,6 +790,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Treatment anaemia: erythropoietin corrects the platinum- and taxane-induced anaemia in ovarian clear cell carcinoma therapy; EPOR expression on tumour cells raises the question of direct EPO-driven growth signalling.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Ascites pain mediator: bradykinin accumulates in the malignant ascites of ovarian clear cell carcinoma, activating B1/B2 receptors on the peritoneal mesothelium and sensory fibres to drive the pelvic pain that often delays diagnosis.
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement brake: C1-esterase inhibitor modulates the classical complement pathway within the endometriosis-associated peritoneal milieu of ovarian clear cell carcinoma, limiting the C3/C5 (already mapped) complement cascade.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Stroma alarmin: TSLP released by the endometriosis-derived epithelium and peritoneal stroma activates mast cells (already mapped) and dendritic cells to shape the type-2 microenvironment of ovarian clear cell carcinoma.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Endometriosis mast-cell mediator: histamine released by mast cells (already mapped) in endometriotic lesions promotes VEGF angiogenesis and prostaglandin-mediated immune evasion in the ovarian-clear-cell-carcinoma peritoneal microenvironment.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Endometriosis stroma scaffold: periostin, upregulated in the endometriosis-derived stroma, promotes tumour cell adhesion, peritoneal invasion and desmoplastic ECM remodelling of ovarian clear cell carcinoma.
 
 ---
 

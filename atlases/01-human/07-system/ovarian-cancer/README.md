@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/histamine
     relation: connects-to
     note: "Mast-cell histamine: stromal mast-cell-derived histamine promotes VEGF-driven angiogenesis and suppresses NK and T-cell cytotoxicity in the ovarian cancer ascites, contributing to the immunosuppressive peritoneal microenvironment."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Peritoneal kinin: bradykinin accumulates in the malignant ascites of ovarian cancer, activating B1/B2 receptors on peritoneal mesothelium and sensory fibres, amplifying pain and vascular permeability of the peritoneal microenvironment."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement regulation: C1-esterase inhibitor restrains the classical complement pathway in the ovarian-cancer peritoneal milieu, limiting the C3/C5/C5aR1 (all already mapped) cascade driving the immunosuppressive ascites microenvironment."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Treatment anaemia: erythropoietin corrects the chemotherapy-induced anaemia of ovarian cancer; EPOR expression on tumour cells raises the question of direct EPO-driven signalling influencing platinum- and taxane-based regimen responses."
 ---
 
 # Ovarian Cancer
@@ -755,6 +764,9 @@ FTSEC ciliated and secretory cells line the Fallopian tube; secretory cells are 
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Peritoneal alarmin: TSLP released by ovarian epithelial and stromal cells activates mast cells and dendritic cells, promoting the type-2 microenvironment of the peritoneal cavity that suppresses anti-tumour cytotoxicity.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Peritoneal metastasis scaffold: periostin, upregulated in the ovarian cancer stroma and malignant ascites, promotes the peritoneal adhesion and omental colonisation that characterise the widespread intraperitoneal dissemination of this cancer.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell histamine: stromal mast-cell-derived histamine promotes VEGF-driven angiogenesis and suppresses NK and T-cell cytotoxicity in the ovarian cancer ascites, contributing to the immunosuppressive peritoneal microenvironment.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Peritoneal kinin: bradykinin accumulates in the malignant ascites of ovarian cancer, activating B1/B2 receptors on peritoneal mesothelium and sensory fibres, amplifying pain and vascular permeability of the peritoneal microenvironment.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement regulation: C1-esterase inhibitor restrains the classical complement pathway in the ovarian-cancer peritoneal milieu, limiting the C3/C5/C5aR1 (all already mapped) cascade driving the immunosuppressive ascites microenvironment.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Treatment anaemia: erythropoietin corrects the chemotherapy-induced anaemia of ovarian cancer; EPOR expression on tumour cells raises the question of direct EPO-driven signalling influencing platinum- and taxane-based regimen responses.
 
 [^burger-2011-gog0218]: Burger RA, Brady MF, Bookman MA, et al. Incorporation of bevacizumab in the primary treatment of ovarian cancer. *N Engl J Med.* 2011;365(26):2473-2483. [doi:10.1056/NEJMoa1104390](https://doi.org/10.1056/NEJMoa1104390) · [PubMed 22204724](https://pubmed.ncbi.nlm.nih.gov/22204724/)
 [^moore-2018-olaparib-solo1]: Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. *N Engl J Med.* 2018;379(26):2495-2505. [doi:10.1056/NEJMoa1810858](https://doi.org/10.1056/NEJMoa1810858) · [PubMed 30345884](https://pubmed.ncbi.nlm.nih.gov/30345884/)
