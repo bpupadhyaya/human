@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/melatonin
     relation: connects-to
     note: "Vascular antioxidant melatonin: melatonin scavenges reactive oxygen species in the Marfan aortic wall and attenuates NF-kB (already mapped) and TGF-β (already mapped) signalling, reducing the matrix metalloproteinase activity and the progression of aortic dilatation."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Androgen-aortic axis: testosterone, via androgen receptor on aortic smooth muscle cells (already mapped), modulates TGF-β (already mapped) and NF-κB (already mapped) in the fibrillin-1-deficient Marfan aortic wall, contributing to the sex-dimorphic aortic-dilatation risk."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Perinatal cardiovascular risk: prolactin, elevated in pregnancy, signals via PRL-R on Marfan cardiovascular fibroblasts (already mapped) and endothelial cells (already mapped), potentiating aortic-root dilatation and regurgitation risk in pregnant Marfan syndrome patients."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Cardioprotective neuropeptide: oxytocin, via OXT-R on Marfan cardiomyocytes (already mapped) and endothelial cells (already mapped), activates PI3K/Akt (already mapped) cardioprotection and attenuates the mitral-valve prolapse and cardiac arrhythmia burden of Marfan syndrome."
 ---
 
 # Marfan Syndrome
@@ -790,6 +799,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Aortic complement regulation: C1-INH controls the classical and lectin complement pathways (C3, C5 and C5aR1 already mapped) in the inflamed Marfan aortic adventitia, complementing factor H (already mapped) to dampen the complement cascade driving aortic dilatation.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Cardioprotective EPO: erythropoietin, via EPOR on cardiomyocytes (already mapped) and endothelial cells (already mapped), activates the JAK2/STAT3 anti-apoptotic pathway and reduces the aortic-wall oxidative stress (NRF2 already mapped) of Marfan syndrome cardiac complications.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Vascular antioxidant melatonin: melatonin scavenges reactive oxygen species in the Marfan aortic wall and attenuates NF-kB (already mapped) and TGF-β (already mapped) signalling, reducing the matrix metalloproteinase activity and the progression of aortic dilatation.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-aortic axis: testosterone, via androgen receptor on aortic smooth muscle cells (already mapped), modulates TGF-β (already mapped) and NF-κB (already mapped) in the fibrillin-1-deficient Marfan aortic wall, contributing to the sex-dimorphic aortic-dilatation risk.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Perinatal cardiovascular risk: prolactin, elevated in pregnancy, signals via PRL-R on Marfan cardiovascular fibroblasts (already mapped) and endothelial cells (already mapped), potentiating aortic-root dilatation and regurgitation risk in pregnant Marfan syndrome patients.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Cardioprotective neuropeptide: oxytocin, via OXT-R on Marfan cardiomyocytes (already mapped) and endothelial cells (already mapped), activates PI3K/Akt (already mapped) cardioprotection and attenuates the mitral-valve prolapse and cardiac arrhythmia burden of Marfan syndrome.
 
 ---
 

@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/histamine
     relation: connects-to
     note: "Mast-cell histamine in MB microenvironment: histamine, released by the mast cells (already mapped) of the medulloblastoma stroma, modulates microvascular permeability and promotes the VEGF-driven (already mapped) angiogenesis and immunomodulation of medulloblastoma."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian antitumour melatonin: melatonin, via MT1/MT2 receptors on medulloblastoma cells and the cerebellar tumour vasculature (already mapped), suppresses SHH-pathway (already mapped) proliferation and VEGF-driven (already mapped) angiogenesis in paediatric medulloblastoma."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Androgen-SHH axis: testosterone, via androgen receptor on SHH-subgroup (already mapped) medulloblastoma cells, modulates the hedgehog proliferative pathway (already mapped) and the sex-dimorphic vulnerability to medulloblastoma in the paediatric posterior fossa."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Cerebellar neuromodulator: serotonin, via 5-HT3 receptors on cerebellar granule cells (already mapped), modulates the neuronal signalling of the medulloblastoma microenvironment; 5-HT3-driven nausea from craniospinal radiation (already mapped) is a major treatment morbidity."
 ---
 
 # Medulloblastoma
@@ -781,6 +790,9 @@ MB survivors face substantial late effects — inversely proportional to age at 
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Tumour-immune alarmin: TSLP released by the medulloblastoma stroma primes dendritic cells (already mapped) and mast cells (already mapped) toward the Th2 (IL-4, IL-13 already mapped) immune microenvironment of the WNT (wnt-beta-catenin already mapped) subgroup.
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical complement regulation: C1-INH controls the classical-pathway arm (C3, C5 and C5aR1 already mapped) in the medulloblastoma microenvironment, modulating complement-dependent cytotoxicity and the tumour-associated macrophage (already mapped) response.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell histamine in MB microenvironment: histamine, released by the mast cells (already mapped) of the medulloblastoma stroma, modulates microvascular permeability and promotes the VEGF-driven (already mapped) angiogenesis and immunomodulation of medulloblastoma.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian antitumour melatonin: melatonin, via MT1/MT2 receptors on medulloblastoma cells and the cerebellar tumour vasculature (already mapped), suppresses SHH-pathway (already mapped) proliferation and VEGF-driven (already mapped) angiogenesis in paediatric medulloblastoma.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-SHH axis: testosterone, via androgen receptor on SHH-subgroup (already mapped) medulloblastoma cells, modulates the hedgehog proliferative pathway (already mapped) and the sex-dimorphic vulnerability to medulloblastoma in the paediatric posterior fossa.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Cerebellar neuromodulator: serotonin, via 5-HT3 receptors on cerebellar granule cells (already mapped), modulates the neuronal signalling of the medulloblastoma microenvironment; 5-HT3-driven nausea from craniospinal radiation (already mapped) is a major treatment morbidity.
 
 [^packer-2006-std-risk-mb]: Packer RJ, Gajjar A, Vezina G, et al. Phase III study of craniospinal radiation therapy followed by adjuvant chemotherapy for newly diagnosed average-risk medulloblastoma. *J Clin Oncol.* 2006;24(25):4202-4208. [doi:10.1200/JCO.2006.06.4980](https://doi.org/10.1200/JCO.2006.06.4980) · [PubMed 16943538](https://pubmed.ncbi.nlm.nih.gov/16943538/)
 [^taylor-2012-mb-subgroups]: Taylor MD, Northcott PA, Korshunov A, et al. Molecular subgroups of medulloblastoma: the current consensus. *Acta Neuropathol.* 2012;123(4):465-472. [doi:10.1007/s00401-011-0922-z](https://doi.org/10.1007/s00401-011-0922-z) · [PubMed 22134537](https://pubmed.ncbi.nlm.nih.gov/22134537/)
