@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "Carney vasopressin: vasopressin, via V2R on endothelial cells (already mapped) and macrophages (already mapped), modulates adrenal vascular tone; vasopressin dysregulation amplifies the ACTH (already mapped) and cortisol (already mapped) hormonal cascade of Carney complex."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Carney selenium: selenium, as GPx in endothelial cells (already mapped) and macrophages (already mapped), scavenges ROS driving the TME oxidative stress; selenium deficiency amplifies the NF-κB (already mapped) and cortisol (already mapped) hormonal cascade of Carney complex."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "Carney iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) and endothelial-cell (already mapped) function; iodine deficiency amplifies the NF-κB (already mapped) and ACTH (already mapped) neuroendocrine tumour-promoting cascade of Carney complex."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Carney sodium: high dietary sodium promotes macrophage (already mapped) activation and endothelial (already mapped) dysfunction; sodium dysregulation amplifies the NF-κB (already mapped) and ACTH (already mapped) hormonal tumour cascade of Carney complex."
 ---
 
 # Carney Complex
@@ -797,6 +806,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Carney serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and neurons (already mapped), modulates the neuroendocrine TME; serotonin dysregulation amplifies the NF-κB (already mapped) and ACTH (already mapped) hormonal cascade of Carney complex.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Carney oxytocin: oxytocin, via OXTR on macrophages (already mapped) and endothelial cells (already mapped), attenuates neuroendocrine tumour inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and ACTH (already mapped) tumour cascade of Carney complex.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Carney vasopressin: vasopressin, via V2R on endothelial cells (already mapped) and macrophages (already mapped), modulates adrenal vascular tone; vasopressin dysregulation amplifies the ACTH (already mapped) and cortisol (already mapped) hormonal cascade of Carney complex.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Carney selenium: selenium, as GPx in endothelial cells (already mapped) and macrophages (already mapped), scavenges ROS driving the TME oxidative stress; selenium deficiency amplifies the NF-κB (already mapped) and cortisol (already mapped) hormonal cascade of Carney complex.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Carney iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) and endothelial-cell (already mapped) function; iodine deficiency amplifies the NF-κB (already mapped) and ACTH (already mapped) neuroendocrine tumour-promoting cascade of Carney complex.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Carney sodium: high dietary sodium promotes macrophage (already mapped) activation and endothelial (already mapped) dysfunction; sodium dysregulation amplifies the NF-κB (already mapped) and ACTH (already mapped) hormonal tumour cascade of Carney complex.
 
 ---
 

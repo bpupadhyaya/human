@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/oxytocin
     relation: connects-to
     note: "Burkitt oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates lymphoma TME inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of Burkitt lymphoma."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Burkitt vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates lymphoma TME immune tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of Burkitt lymphoma."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Burkitt selenium: selenium, as GPx in macrophages (already mapped) and mast cells (already mapped), scavenges ROS driving the lymphoma TME; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of Burkitt lymphoma."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "Burkitt iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) and mast-cell (already mapped) immune function; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of Burkitt lymphoma."
 ---
 
 # Burkitt Lymphoma
@@ -810,6 +819,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Burkitt serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the lymphoma TME; serotonin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) proliferative cascade of Burkitt lymphoma.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Burkitt prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), promotes lymphoma immune escape; hyperprolactinaemia amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of Burkitt lymphoma.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Burkitt oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates lymphoma TME inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of Burkitt lymphoma.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Burkitt vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates lymphoma TME immune tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of Burkitt lymphoma.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Burkitt selenium: selenium, as GPx in macrophages (already mapped) and mast cells (already mapped), scavenges ROS driving the lymphoma TME; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of Burkitt lymphoma.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Burkitt iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) and mast-cell (already mapped) immune function; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of Burkitt lymphoma.
 
 ---
 
