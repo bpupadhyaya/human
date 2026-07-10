@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Desmoplastic stroma: periostin, secreted by fibroblasts (already mapped) in MEN1 neuroendocrine tumour stroma, activates the integrin-AKT (already mapped) pathway and promotes tumour invasiveness across pancreatic (already mapped) and pulmonary neuroendocrine sites."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Neuroendocrine melatonin: melatonin, via MT1/MT2 receptors on MEN1 neuroendocrine tumour cells, suppresses cAMP-mediated (already mapped) proliferative signalling and promotes apoptosis in the pancreatic and pituitary (already mapped) neuroendocrine tumours of MEN1 syndrome."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Androgen-pituitary axis: testosterone, via androgen receptor on MEN1 pituitary adenoma cells (pituitary-adenoma already mapped) and hypothalamic-pituitary axis, modulates the prolactinoma and GH-secreting tumour (already mapped) development in MEN1 syndrome."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Pancreatic islet modulation: oxytocin, via OXT-R on pancreatic beta cells and MEN1 insulinoma cells (pancreatic-cancer and islet already mapped), modulates insulin secretion and amplifies the endocrine hyperactivity in the gastrinoma and insulinoma spectrum of MEN1."
 ---
 
 # MEN1 Syndrome
@@ -771,6 +780,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — MEN1 complement regulation: C1-INH controls the classical-pathway arm (C3, C5 and C5aR1 already mapped) of complement in MEN1 neuroendocrine tumour stroma, modulating cytotoxicity against islet-of-Langerhans (already mapped) and pituitary neoplastic cells.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Neuroendocrine EPO signalling: erythropoietin receptor (EPOR) on MEN1 neuroendocrine tumour cells activates JAK2/STAT3 (already mapped) pro-survival signalling, complementing the VHL (already mapped) and mTOR (already mapped) pathway dysregulation in MEN1 tumour progression.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Desmoplastic stroma: periostin, secreted by fibroblasts (already mapped) in MEN1 neuroendocrine tumour stroma, activates the integrin-AKT (already mapped) pathway and promotes tumour invasiveness across pancreatic (already mapped) and pulmonary neuroendocrine sites.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Neuroendocrine melatonin: melatonin, via MT1/MT2 receptors on MEN1 neuroendocrine tumour cells, suppresses cAMP-mediated (already mapped) proliferative signalling and promotes apoptosis in the pancreatic and pituitary (already mapped) neuroendocrine tumours of MEN1 syndrome.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-pituitary axis: testosterone, via androgen receptor on MEN1 pituitary adenoma cells (pituitary-adenoma already mapped) and hypothalamic-pituitary axis, modulates the prolactinoma and GH-secreting tumour (already mapped) development in MEN1 syndrome.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Pancreatic islet modulation: oxytocin, via OXT-R on pancreatic beta cells and MEN1 insulinoma cells (pancreatic-cancer and islet already mapped), modulates insulin secretion and amplifies the endocrine hyperactivity in the gastrinoma and insulinoma spectrum of MEN1.
 
 ---
 

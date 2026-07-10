@@ -499,6 +499,15 @@ cross_links:
   - target: 01-human/03-molecular/melatonin
     relation: connects-to
     note: "Oncostatic melatonin: melatonin, via MT1/MT2 receptors on melanoma cells, suppresses BRAF (already mapped) and VEGF-driven (already mapped) proliferation and invasion, reduces MMP activity and augments NK-cell (already mapped) cytotoxicity against melanoma."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Androgen-melanoma axis: testosterone, via androgen receptor on melanoma cells and macrophages (already mapped), modulates BRAF/VEGF (both already mapped) proliferative signalling and contributes to the sex-dimorphic incidence and checkpoint-inhibitor response of melanoma."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Melanocyte 5-HT axis: serotonin from UV-induced tryptophan metabolism in melanocytes (already mapped) activates 5-HT2 receptors on melanoma cells and tumour-infiltrating lymphocytes (already mapped), modulating immune evasion and the BRAF (already mapped) proliferative cascade."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Tumour-promoting prolactin: prolactin, via PRL-R on melanoma cells and tumour-associated macrophages (already mapped), activates the JAK2/STAT3 (already mapped) pro-survival pathway and promotes the VEGF-driven (already mapped) angiogenesis and immune evasion of melanoma."
 ---
 
 # Melanoma
@@ -749,6 +758,9 @@ cross_links:
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Tumour vascular permeability: bradykinin, via B2 receptor, amplifies VEGF-driven (already mapped) angiogenesis and peritumoral oedema in melanoma; kinin-kallikrein activation enhances mast-cell (already mapped) and fibroblast (already mapped) stromal recruitment.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Tumour EPOR signalling: erythropoietin receptor (EPOR) on melanoma cells activates JAK2/STAT3 (already mapped) pro-survival signalling, promotes VEGF (already mapped) angiogenesis, and blunts the apoptotic response to checkpoint-inhibitor (already mapped) immunotherapy.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Oncostatic melatonin: melatonin, via MT1/MT2 receptors on melanoma cells, suppresses BRAF (already mapped) and VEGF-driven (already mapped) proliferation and invasion, reduces MMP activity and augments NK-cell (already mapped) cytotoxicity against melanoma.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-melanoma axis: testosterone, via androgen receptor on melanoma cells and macrophages (already mapped), modulates BRAF/VEGF (both already mapped) proliferative signalling and contributes to the sex-dimorphic incidence and checkpoint-inhibitor response of melanoma.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Melanocyte 5-HT axis: serotonin from UV-induced tryptophan metabolism in melanocytes (already mapped) activates 5-HT2 receptors on melanoma cells and tumour-infiltrating lymphocytes (already mapped), modulating immune evasion and the BRAF (already mapped) proliferative cascade.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Tumour-promoting prolactin: prolactin, via PRL-R on melanoma cells and tumour-associated macrophages (already mapped), activates the JAK2/STAT3 (already mapped) pro-survival pathway and promotes the VEGF-driven (already mapped) angiogenesis and immune evasion of melanoma.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
