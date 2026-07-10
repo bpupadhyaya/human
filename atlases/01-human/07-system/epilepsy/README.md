@@ -508,6 +508,15 @@ cross_links:
   - target: 01-human/03-molecular/factor-h
     relation: connects-to
     note: "Complement brake: factor H (complement C3 and C5 already mapped) limits synaptic complement-mediated pruning excess in epileptogenesis, counteracting C3/C5-driven microglial (already mapped) phagocytosis of excitatory and inhibitory synapses."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Epilepsy testosterone: testosterone, via androgen receptors on neurons (already mapped) and astrocytes (already mapped), modulates the GABA (already mapped)/glutamate (already mapped) synaptic balance; androgen deficiency lowers seizure threshold and worsens epileptogenesis."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Epilepsy prolactin: prolactin surges post-ictally, serving as a convulsive seizure biomarker; prolactin also modulates GABAergic (GABA already mapped) inhibitory tone in neurons (already mapped) and attenuates hippocampal (hippocampus already mapped) epileptogenesis."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Epilepsy oxytocin: oxytocin, via OXTR on neurons (already mapped) and astrocytes (already mapped), potentiates GABAergic (GABA already mapped) inhibition; oxytocin neuropeptide attenuates hippocampal (hippocampus already mapped) excitability and may dampen seizure propagation."
 ---
 
 # Epilepsy
@@ -823,6 +832,9 @@ Anti-NMDAR encephalitis is the most common autoimmune encephalitis (~37% of auto
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Neuroprotective: EPO crosses the blood-brain barrier (endothelial-cell already mapped) and protects neurons (already mapped) from seizure-induced excitotoxicity, attenuating hippocampal neuronal loss (hippocampus already mapped) driving epileptogenesis.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Glial remodelling: periostin, from reactive astrocytes (already mapped) at epileptic foci, contributes to the extracellular-matrix remodelling that sustains the epileptogenic scar and impairs seizure-limiting mechanisms.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement brake: factor H (complement C3 and C5 already mapped) limits synaptic complement-mediated pruning excess in epileptogenesis, counteracting C3/C5-driven microglial (already mapped) phagocytosis of excitatory and inhibitory synapses.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Epilepsy testosterone: testosterone, via androgen receptors on neurons (already mapped) and astrocytes (already mapped), modulates the GABA (already mapped)/glutamate (already mapped) synaptic balance; androgen deficiency lowers seizure threshold and worsens epileptogenesis.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Epilepsy prolactin: prolactin surges post-ictally, serving as a convulsive seizure biomarker; prolactin also modulates GABAergic (GABA already mapped) inhibitory tone in neurons (already mapped) and attenuates hippocampal (hippocampus already mapped) epileptogenesis.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Epilepsy oxytocin: oxytocin, via OXTR on neurons (already mapped) and astrocytes (already mapped), potentiates GABAergic (GABA already mapped) inhibition; oxytocin neuropeptide attenuates hippocampal (hippocampus already mapped) excitability and may dampen seizure propagation.
 
 [^fisher-2017-ilae-classification]: Fisher RS, Cross JH, D'Souza C, et al. Instruction manual for the ILAE 2017 operational classification of seizure types. *Epilepsia.* 2017;58(4):531-542. [doi:10.1111/epi.13671](https://doi.org/10.1111/epi.13671) · [PubMed 28276060](https://pubmed.ncbi.nlm.nih.gov/28276060/)
 [^devinsky-2018-epilepsy-review]: Devinsky O, Vezzani A, O'Brien TJ, et al. Epilepsy. *Nat Rev Dis Primers.* 2018;4:18024. [doi:10.1038/nrdp.2018.24](https://doi.org/10.1038/nrdp.2018.24) · [PubMed 29722352](https://pubmed.ncbi.nlm.nih.gov/29722352/)

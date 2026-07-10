@@ -499,6 +499,15 @@ cross_links:
   - target: 01-human/03-molecular/c1-esterase-inhibitor
     relation: connects-to
     note: "Complement brake: C1-esterase inhibitor modulates the classical complement pathway (C3, C5 and C5aR1 already mapped) within the endometrial-cancer microenvironment, attenuating complement-driven myeloid recruitment."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "EC testosterone: testosterone, via androgen receptors on endometrial cells, modulates the estrogen (already mapped)-mTOR (already mapped) proliferative axis; low androgen-to-oestrogen ratios in obesity (already mapped) amplify Type I endometrial carcinogenesis."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "EC serotonin: serotonin, via 5-HT receptors on endometrial cells and macrophages (already mapped), promotes VEGF (already mapped)-driven angiogenesis; serotonin excess amplifies the estrogen (already mapped) and mTOR (already mapped) proliferative milieu of endometrial cancer."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "EC prolactin: prolactin, via PRLR on endometrial cells and macrophages (already mapped), promotes mTOR (already mapped)-driven tumour proliferation; hyperprolactinaemia amplifies the estrogen (already mapped)-linked uterine proliferative axis of Type I endometrial cancer."
 ---
 
 # Endometrial Cancer
@@ -784,6 +793,9 @@ cross_links:
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell stroma: mast cells (already mapped) in the endometrial-cancer stroma release histamine that amplifies VEGF (already mapped)-driven angiogenesis and the type-2 microenvironment (IL-4, IL-13 already mapped) of the tumour.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Stromal matricellular: periostin, secreted by cancer-associated fibroblasts (already mapped) in the endometrial-cancer stroma, promotes invasive myometrial penetration and TGF-β (already mapped)-linked epithelial-mesenchymal transition.
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement brake: C1-esterase inhibitor modulates the classical complement pathway (C3, C5 and C5aR1 already mapped) within the endometrial-cancer microenvironment, attenuating complement-driven myeloid recruitment.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — EC testosterone: testosterone, via androgen receptors on endometrial cells, modulates the estrogen (already mapped)-mTOR (already mapped) proliferative axis; low androgen-to-oestrogen ratios in obesity (already mapped) amplify Type I endometrial carcinogenesis.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — EC serotonin: serotonin, via 5-HT receptors on endometrial cells and macrophages (already mapped), promotes VEGF (already mapped)-driven angiogenesis; serotonin excess amplifies the estrogen (already mapped) and mTOR (already mapped) proliferative milieu of endometrial cancer.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — EC prolactin: prolactin, via PRLR on endometrial cells and macrophages (already mapped), promotes mTOR (already mapped)-driven tumour proliferation; hyperprolactinaemia amplifies the estrogen (already mapped)-linked uterine proliferative axis of Type I endometrial cancer.
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)
