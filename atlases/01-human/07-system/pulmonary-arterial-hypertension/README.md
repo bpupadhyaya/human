@@ -499,6 +499,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Vascular remodelling ECM: periostin, induced by TGF-β and PDGF (both already mapped) in the PAH vascular wall, promotes smooth muscle cell (already mapped) migration and the matrix stiffness that drives the progressive vascular occlusion of PAH."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "PAH melatonin: melatonin via MT1/MT2 on pulmonary arterial smooth muscle cells (already mapped) and endothelium (endothelin-1 already mapped) modulates circadian vasoconstriction and ROS (xanthine-oxidase already mapped)-driven vascular remodelling of PAH."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "PAH androgen axis: testosterone via androgen receptor on pulmonary vascular smooth muscle cells (already mapped) exerts vasodilatory effects that contrast the estrogen (already mapped)-driven PAH susceptibility and female sex predominance."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "PAH prolactin: prolactin, via JAK2 (already mapped) signalling on pulmonary arterial smooth muscle cells (already mapped), promotes their survival and proliferation, amplifying the anti-apoptotic vascular remodelling driven by PDGF (already mapped) in PAH."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -782,6 +791,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement and contact-activation brake: C1-esterase inhibitor restrains the complement (C3, C5 and C5aR1 already mapped) and kallikrein-kinin (bradykinin already mapped) pathways that amplify the endothelial injury and perivascular inflammation of PAH.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Perivascular mast-cell mediator: histamine released by perivascular mast cells (already mapped) promotes endothelial permeability (endothelin-1 already mapped), smooth muscle cell (already mapped) proliferation and angiogenesis in PAH lesions.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Vascular remodelling ECM: periostin, induced by TGF-β and PDGF (both already mapped) in the PAH vascular wall, promotes smooth muscle cell (already mapped) migration and the matrix stiffness that drives the progressive vascular occlusion of PAH.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — PAH melatonin: melatonin via MT1/MT2 on pulmonary arterial smooth muscle cells (already mapped) and endothelium (endothelin-1 already mapped) modulates circadian vasoconstriction and ROS (xanthine-oxidase already mapped)-driven vascular remodelling of PAH.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — PAH androgen axis: testosterone via androgen receptor on pulmonary vascular smooth muscle cells (already mapped) exerts vasodilatory effects that contrast the estrogen (already mapped)-driven PAH susceptibility and female sex predominance.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — PAH prolactin: prolactin, via JAK2 (already mapped) signalling on pulmonary arterial smooth muscle cells (already mapped), promotes their survival and proliferation, amplifying the anti-apoptotic vascular remodelling driven by PDGF (already mapped) in PAH.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

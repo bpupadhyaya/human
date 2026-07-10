@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/oxytocin
     relation: connects-to
     note: "Neuroendocrine immune modulation: oxytocin modulates the NK cell (already mapped) and T-cell activity restraining the peripheral T-cell lymphoma clone, with psychosocial stress—which suppresses oxytocin—being an immunosuppressive co-factor."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "PTCL androgen axis: testosterone via androgen receptor on T cells (already mapped) modulates Th1/Th17 (already mapped) differentiation and cytotoxic T-cell function, with androgen-driven immunosuppression contributing to the immune evasion of peripheral T-cell lymphoma."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "PTCL serotonin: serotonin via 5-HT receptors on T cells (already mapped) and NK cells (already mapped) modulates the cytotoxic immune response against the PTCL clone, with platelet (already mapped)-derived serotonin shaping the tumour microenvironment."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "PTCL vasopressin: vasopressin via V1aR on T cells (already mapped) and endothelial cells (nitric oxide already mapped) modulates lymphocyte trafficking, vascular tone and the haemophagocytic syndrome (HLH) complicating aggressive peripheral T-cell lymphoma."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -796,6 +805,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian immune surveillance: melatonin modulates NK cell (already mapped) and CD8 T-cell activity, with circadian disruption—common in lymphoma patients—impairing immune control of the peripheral T-cell lymphoma clone.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Lymphocyte activation: prolactin, via JAK2 (already mapped) signalling, promotes T-cell and B-cell proliferation within the reactive infiltrate of peripheral T-cell lymphoma; hyperprolactinaemia has been associated with lymphoma risk in autoimmune contexts.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Neuroendocrine immune modulation: oxytocin modulates the NK cell (already mapped) and T-cell activity restraining the peripheral T-cell lymphoma clone, with psychosocial stress—which suppresses oxytocin—being an immunosuppressive co-factor.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — PTCL androgen axis: testosterone via androgen receptor on T cells (already mapped) modulates Th1/Th17 (already mapped) differentiation and cytotoxic T-cell function, with androgen-driven immunosuppression contributing to the immune evasion of peripheral T-cell lymphoma.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — PTCL serotonin: serotonin via 5-HT receptors on T cells (already mapped) and NK cells (already mapped) modulates the cytotoxic immune response against the PTCL clone, with platelet (already mapped)-derived serotonin shaping the tumour microenvironment.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — PTCL vasopressin: vasopressin via V1aR on T cells (already mapped) and endothelial cells (nitric oxide already mapped) modulates lymphocyte trafficking, vascular tone and the haemophagocytic syndrome (HLH) complicating aggressive peripheral T-cell lymphoma.
 
 ---
 
