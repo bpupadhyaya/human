@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "EPO-oesophageal axis: erythropoietin, induced by the HIF-1α (already mapped) hypoxia and anaemia of oesophageal cancer, activates the EPOR on tumour cells (already mapped) and modulates macrophage (already mapped) polarisation in the tumour microenvironment."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Histamine-oesophageal axis: histamine, released by mast cells in the Barrett's-oesophagus and oesophageal-tumour stroma, signals via H1/H2 receptors on tumour cells and endothelium, modulating angiogenesis, immune evasion, and the pro-tumourigenic milieu of oesophageal cancer."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Melatonin-oesophageal axis: melatonin, produced by enterochromaffin cells in the oesophageal mucosa, suppresses acid-reflux-driven oxidative stress, limits Barrett's-oesophagus progression, and enhances apoptotic sensitivity in oesophageal-cancer cells."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Androgen-oesophageal axis: testosterone, via androgen receptor signalling on oesophageal squamous and adenocarcinoma cells, modulates tumour proliferation, immune evasion, and the well-established male sex bias in oesophageal-cancer incidence and mortality."
 ---
 
 # Esophageal Cancer
@@ -789,6 +798,9 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-oesophageal axis: TSLP, from the Barrett's-epithelium and the oesophageal tumour stroma, primes dendritic cells (already mapped) and mast cells (already mapped), amplifying the Th2 immunosuppressive microenvironment of oesophageal cancer.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-oesophageal axis: bradykinin, via B1/B2 receptors on tumour endothelium (already mapped) and mast cells (already mapped), augments the vascular permeability, tumour oedema, and the pro-inflammatory stromal milieu of oesophageal cancer.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — EPO-oesophageal axis: erythropoietin, induced by the HIF-1α (already mapped) hypoxia and anaemia of oesophageal cancer, activates the EPOR on tumour cells (already mapped) and modulates macrophage (already mapped) polarisation in the tumour microenvironment.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histamine-oesophageal axis: histamine, released by mast cells in the Barrett's-oesophagus and oesophageal-tumour stroma, signals via H1/H2 receptors on tumour cells and endothelium, modulating angiogenesis, immune evasion, and the pro-tumourigenic milieu of oesophageal cancer.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Melatonin-oesophageal axis: melatonin, produced by enterochromaffin cells in the oesophageal mucosa, suppresses acid-reflux-driven oxidative stress, limits Barrett's-oesophagus progression, and enhances apoptotic sensitivity in oesophageal-cancer cells.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-oesophageal axis: testosterone, via androgen receptor signalling on oesophageal squamous and adenocarcinoma cells, modulates tumour proliferation, immune evasion, and the well-established male sex bias in oesophageal-cancer incidence and mortality.
 
 ---
 

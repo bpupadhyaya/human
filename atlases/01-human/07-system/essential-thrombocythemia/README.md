@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "EPO-ET axis: erythropoietin, in the JAK2V617F (already mapped) haematopoietic niche, modulates erythroid/megakaryocyte lineage bias and macrophage (already mapped) polarisation in the bone marrow (already mapped) of essential thrombocythaemia."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Histamine-ET axis: histamine, released by the expanded mast-cell compartment in JAK2V617F-driven essential thrombocythaemia, signals via H2 receptors on megakaryocytes and bone-marrow stroma, modulating thrombopoiesis and the inflammatory milieu of the myeloproliferative niche."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Melatonin-ET axis: melatonin, via MT1/MT2 receptors on megakaryocyte precursors and bone-marrow stromal cells, modulates circadian haematopoietic rhythms, antioxidant defence, and the JAK2/STAT5-driven proliferative signalling of essential thrombocythaemia."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Androgen-ET axis: testosterone, via androgen receptor signalling on haematopoietic progenitors and bone-marrow stromal cells, modulates megakaryopoiesis, thrombopoietin sensitivity, and the sex-biased thrombotic risk of essential thrombocythaemia."
 ---
 
 # Essential Thrombocythemia
@@ -769,6 +778,9 @@ Management:
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-ET axis: TSLP, from the JAK2/CALR/MPL-mutant (already mapped) megakaryocyte-stromal niche, primes dendritic-cell Th2 polarisation and amplifies the inflammatory dimension of the essential-thrombocythaemia microenvironment.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-thrombosis axis: bradykinin, via B1/B2 receptors on the activated endothelium (already mapped) and platelets (already mapped), amplifies the vasomotor dysregulation and the thromboinflammation of essential thrombocythaemia.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — EPO-ET axis: erythropoietin, in the JAK2V617F (already mapped) haematopoietic niche, modulates erythroid/megakaryocyte lineage bias and macrophage (already mapped) polarisation in the bone marrow (already mapped) of essential thrombocythaemia.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histamine-ET axis: histamine, released by the expanded mast-cell compartment in JAK2V617F-driven essential thrombocythaemia, signals via H2 receptors on megakaryocytes and bone-marrow stroma, modulating thrombopoiesis and the inflammatory milieu of the myeloproliferative niche.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Melatonin-ET axis: melatonin, via MT1/MT2 receptors on megakaryocyte precursors and bone-marrow stromal cells, modulates circadian haematopoietic rhythms, antioxidant defence, and the JAK2/STAT5-driven proliferative signalling of essential thrombocythaemia.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-ET axis: testosterone, via androgen receptor signalling on haematopoietic progenitors and bone-marrow stromal cells, modulates megakaryopoiesis, thrombopoietin sensitivity, and the sex-biased thrombotic risk of essential thrombocythaemia.
 
 [^harrison-2005-pt1-et]: Harrison CN, Campbell PJ, Buck G, et al. Hydroxyurea compared with anagrelide in high-risk essential thrombocythemia. *N Engl J Med.* 2005;353(1):33-45. [doi:10.1056/NEJMoa043800](https://doi.org/10.1056/NEJMoa043800) · [PubMed 16000354](https://pubmed.ncbi.nlm.nih.gov/16000354/)
 [^barbui-2012-ipset]: Barbui T, Finazzi G, Carobbio A, et al. Development and validation of an International Prognostic Score of thrombosis in World Health Organization-essential thrombocythemia (IPSET-thrombosis). *Blood.* 2012;120(26):5128-5133. [doi:10.1182/blood-2012-07-444067](https://doi.org/10.1182/blood-2012-07-444067) · [PubMed 23086758](https://pubmed.ncbi.nlm.nih.gov/23086758/)
