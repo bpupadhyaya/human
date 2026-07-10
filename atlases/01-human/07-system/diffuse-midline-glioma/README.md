@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "DMG selenium: selenium, via selenoprotein activity in microglia (already mapped) and glioma cells, suppresses the oxidative stress that amplifies the NF-κB (already mapped) and IL-6 (already mapped) immunosuppressive neuroinflammatory cascade of diffuse midline glioma."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "DMG prolactin: prolactin, via PRLR on microglia (already mapped) and macrophages (already mapped), modulates neuroinflammation; hyperprolactinaemia amplifies the NF-κB (already mapped) and IL-6 (already mapped) glioma-promoting immunosuppressive cascade of diffuse midline glioma."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "DMG testosterone: testosterone, via androgen receptors on microglia (already mapped) and macrophages (already mapped), modulates the neuroinflammatory TME; testosterone deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of diffuse midline glioma."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "DMG iodine: iodine-dependent thyroid hormones modulate microglia (already mapped) polarisation and neuroinflammation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) immunosuppressive glioma cascade of diffuse midline glioma."
 ---
 
 # Diffuse Midline Glioma
@@ -814,6 +823,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — DMG oxytocin: oxytocin, via OXTR on microglia (already mapped) and macrophages (already mapped), attenuates neuroinflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) immunosuppressive cascade of diffuse midline glioma.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — DMG vasopressin: vasopressin, via V1aR on microglia (already mapped) and macrophages (already mapped), modulates neuroinflammation; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) glioma-promoting cascade of diffuse midline glioma.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — DMG selenium: selenium, via selenoprotein activity in microglia (already mapped) and glioma cells, suppresses the oxidative stress that amplifies the NF-κB (already mapped) and IL-6 (already mapped) immunosuppressive neuroinflammatory cascade of diffuse midline glioma.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — DMG prolactin: prolactin, via PRLR on microglia (already mapped) and macrophages (already mapped), modulates neuroinflammation; hyperprolactinaemia amplifies the NF-κB (already mapped) and IL-6 (already mapped) glioma-promoting immunosuppressive cascade of diffuse midline glioma.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — DMG testosterone: testosterone, via androgen receptors on microglia (already mapped) and macrophages (already mapped), modulates the neuroinflammatory TME; testosterone deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of diffuse midline glioma.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — DMG iodine: iodine-dependent thyroid hormones modulate microglia (already mapped) polarisation and neuroinflammation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) immunosuppressive glioma cascade of diffuse midline glioma.
 
 ---
 

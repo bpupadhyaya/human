@@ -517,6 +517,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "DIC selenium: selenium, via selenoprotein antioxidant activity in macrophages (already mapped) and neutrophils (already mapped), suppresses the oxidative amplification of the NF-κB (already mapped) and TNF-α (already mapped) systemic inflammatory cascade of DIC."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "DIC iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and coagulation mediators; iodine deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) consumptive coagulopathy cascade of DIC."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "DIC sodium: high dietary sodium promotes macrophage (already mapped) and neutrophil (already mapped) hyperactivation; sodium-induced NF-κB (already mapped) and TNF-α (already mapped) skewing amplifies the systemic consumptive coagulopathy cascade of DIC."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "DIC magnesium: magnesium, as cofactor of immune enzymes in macrophages (already mapped) and neutrophils (already mapped), restrains NF-κB (already mapped) and TNF-α (already mapped); magnesium deficiency amplifies the systemic inflammatory coagulopathy cascade of DIC."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -814,6 +823,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — DIC oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates the systemic inflammatory cascade; oxytocin deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) coagulopathic cascade of DIC.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — DIC vasopressin: vasopressin, via V2R on endothelium (already mapped) and macrophages (already mapped), modulates vascular tone and haemostasis; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) consumptive coagulopathy of DIC.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — DIC selenium: selenium, via selenoprotein antioxidant activity in macrophages (already mapped) and neutrophils (already mapped), suppresses the oxidative amplification of the NF-κB (already mapped) and TNF-α (already mapped) systemic inflammatory cascade of DIC.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — DIC iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and coagulation mediators; iodine deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) consumptive coagulopathy cascade of DIC.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — DIC sodium: high dietary sodium promotes macrophage (already mapped) and neutrophil (already mapped) hyperactivation; sodium-induced NF-κB (already mapped) and TNF-α (already mapped) skewing amplifies the systemic consumptive coagulopathy cascade of DIC.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — DIC magnesium: magnesium, as cofactor of immune enzymes in macrophages (already mapped) and neutrophils (already mapped), restrains NF-κB (already mapped) and TNF-α (already mapped); magnesium deficiency amplifies the systemic inflammatory coagulopathy cascade of DIC.
 
 ---
 
