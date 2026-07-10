@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/testosterone
     relation: connects-to
     note: "Androgen-FAP axis: testosterone, via androgen receptor signalling on the colonic epithelium and the desmoid-tumour (already mapped) stroma, modulates WNT/β-catenin proliferation and the sex-biased extracolonic manifestation risk in familial adenomatous polyposis."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "FAP serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the colonic TME; serotonin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of FAP."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "FAP prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the colonic immune TME; hyperprolactinaemia amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of FAP."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "FAP oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates colonic tumour-promoting inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of FAP."
 ---
 
 # Familial Adenomatous Polyposis
@@ -803,6 +812,9 @@ With modern surveillance and prophylactic colectomy: FAP is no longer an inevita
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histamine-FAP axis: histamine, released by mast cells in the adenoma stroma of familial adenomatous polyposis, signals via H1/H2 receptors on APC-deficient (already mapped) epithelium, promoting polyp-stroma angiogenesis and the immunosuppressive adenoma microenvironment.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Melatonin-FAP axis: melatonin, via MT1/MT2 receptors on APC-deficient (already mapped) colonic epithelium, suppresses Wnt-driven (already mapped) proliferation, promotes apoptosis, and modulates the antioxidant defence of the FAP mucosa.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-FAP axis: testosterone, via androgen receptor signalling on the colonic epithelium and the desmoid-tumour (already mapped) stroma, modulates WNT/β-catenin proliferation and the sex-biased extracolonic manifestation risk in familial adenomatous polyposis.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — FAP serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the colonic TME; serotonin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of FAP.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — FAP prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the colonic immune TME; hyperprolactinaemia amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of FAP.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — FAP oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates colonic tumour-promoting inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of FAP.
 
 [^kinzler-1991-apc]: Kinzler KW, Nilbert MC, Su LK, et al. Identification of FAP locus genes from chromosome 5q21. *Science.* 1991;253(5020):661-665. [doi:10.1126/science.1651562](https://doi.org/10.1126/science.1651562) · [PubMed 1651562](https://pubmed.ncbi.nlm.nih.gov/1651562/)
 [^fearon-1990-vogelstein]: Fearon ER, Vogelstein B. A genetic model for colorectal tumorigenesis. *Cell.* 1990;61(5):759-767. [doi:10.1016/0092-8674(90)90186-i](https://doi.org/10.1016/0092-8674(90)90186-i) · [PubMed 2188735](https://pubmed.ncbi.nlm.nih.gov/2188735/)

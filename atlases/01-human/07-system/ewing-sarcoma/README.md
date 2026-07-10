@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/c1-esterase-inhibitor
     relation: connects-to
     note: "Complement regulation-ES axis: the C1-esterase inhibitor limits classical and contact-pathway complement activation within the Ewing sarcoma stroma (complement C3/C5/C5aR1 already mapped), modulating the inflammatory tumour microenvironment of Ewing sarcoma."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "ES prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the immune TME; hyperprolactinaemia amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of Ewing sarcoma."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "ES oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates tumour-promoting inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of Ewing sarcoma."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "ES vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates the TME; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of Ewing sarcoma."
 ---
 
 # Ewing Sarcoma
@@ -786,6 +795,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histamine-ES axis: histamine, from mast cells in the Ewing sarcoma tumour microenvironment, signals via H1/H2 receptors on EWSR1-FLI1-mutant cells and tumour endothelium (already mapped), amplifying angiogenesis and the immunosuppressive stromal milieu of Ewing sarcoma.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Melatonin-ES axis: melatonin, via MT1/MT2 receptors on Ewing sarcoma cells, modulates circadian cell-cycle regulation, suppresses EWSR1-FLI1-driven (already mapped) proliferation, and enhances the apoptotic sensitivity of Ewing sarcoma cells to genotoxic chemotherapy.
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement regulation-ES axis: the C1-esterase inhibitor limits classical and contact-pathway complement activation within the Ewing sarcoma stroma (complement C3/C5/C5aR1 already mapped), modulating the inflammatory tumour microenvironment of Ewing sarcoma.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — ES prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the immune TME; hyperprolactinaemia amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of Ewing sarcoma.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — ES oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates tumour-promoting inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of Ewing sarcoma.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — ES vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates the TME; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of Ewing sarcoma.
 
 ---
 
