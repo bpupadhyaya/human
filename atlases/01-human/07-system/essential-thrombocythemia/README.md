@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "ET sodium: high dietary sodium promotes macrophage (already mapped) and neutrophil (already mapped) activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the megakaryoproliferative thrombotic cascade of essential thrombocythemia."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "ET magnesium: magnesium cofactors kinase signalling in macrophages (already mapped) and neutrophils (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) megakaryoproliferative cascade of ET."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "ET copper: copper supports macrophage (already mapped) and neutrophil (already mapped) antioxidant function; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) oxidative megakaryoproliferative cascade of ET."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "ET zinc: zinc cofactors macrophage (already mapped) and neutrophil (already mapped) immune function; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) megakaryoproliferative thrombotic cascade of ET."
 ---
 
 # Essential Thrombocythemia
@@ -805,6 +814,9 @@ Management:
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — ET selenium: selenium, as GPx in macrophages (already mapped) and neutrophils (already mapped), scavenges ROS; selenium deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) oxidative megakaryoproliferative cascade of essential thrombocythemia.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — ET iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and thrombopoiesis; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) megakaryoproliferative cascade of essential thrombocythemia.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — ET sodium: high dietary sodium promotes macrophage (already mapped) and neutrophil (already mapped) activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the megakaryoproliferative thrombotic cascade of essential thrombocythemia.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — ET magnesium: magnesium cofactors kinase signalling in macrophages (already mapped) and neutrophils (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) megakaryoproliferative cascade of ET.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — ET copper: copper supports macrophage (already mapped) and neutrophil (already mapped) antioxidant function; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) oxidative megakaryoproliferative cascade of ET.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — ET zinc: zinc cofactors macrophage (already mapped) and neutrophil (already mapped) immune function; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) megakaryoproliferative thrombotic cascade of ET.
 
 [^harrison-2005-pt1-et]: Harrison CN, Campbell PJ, Buck G, et al. Hydroxyurea compared with anagrelide in high-risk essential thrombocythemia. *N Engl J Med.* 2005;353(1):33-45. [doi:10.1056/NEJMoa043800](https://doi.org/10.1056/NEJMoa043800) · [PubMed 16000354](https://pubmed.ncbi.nlm.nih.gov/16000354/)
 [^barbui-2012-ipset]: Barbui T, Finazzi G, Carobbio A, et al. Development and validation of an International Prognostic Score of thrombosis in World Health Organization-essential thrombocythemia (IPSET-thrombosis). *Blood.* 2012;120(26):5128-5133. [doi:10.1182/blood-2012-07-444067](https://doi.org/10.1182/blood-2012-07-444067) · [PubMed 23086758](https://pubmed.ncbi.nlm.nih.gov/23086758/)

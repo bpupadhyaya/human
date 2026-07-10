@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "EC sodium: high dietary sodium promotes Th17 polarisation and macrophage (already mapped) activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the mast-cell (already mapped) tumour cascade of esophageal cancer."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "EC magnesium: magnesium cofactors kinase signalling in macrophages (already mapped) and T-cytotoxic cells (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) tumour cascade of esophageal cancer."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "EC copper: copper supports macrophage (already mapped) and T-cytotoxic (already mapped) anti-tumour function; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) tumour-promoting cascade of esophageal cancer."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "EC potassium: potassium regulates macrophage (already mapped) and mast-cell (already mapped) membrane function; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of esophageal cancer."
 ---
 
 # Esophageal Cancer
@@ -825,6 +834,9 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — EC serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the TME; serotonin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of esophageal cancer.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — EC iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and T-cytotoxic (already mapped) immune activation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of esophageal cancer.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — EC sodium: high dietary sodium promotes Th17 polarisation and macrophage (already mapped) activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the mast-cell (already mapped) tumour cascade of esophageal cancer.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — EC magnesium: magnesium cofactors kinase signalling in macrophages (already mapped) and T-cytotoxic cells (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) tumour cascade of esophageal cancer.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — EC copper: copper supports macrophage (already mapped) and T-cytotoxic (already mapped) anti-tumour function; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) tumour-promoting cascade of esophageal cancer.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — EC potassium: potassium regulates macrophage (already mapped) and mast-cell (already mapped) membrane function; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of esophageal cancer.
 
 ---
 
