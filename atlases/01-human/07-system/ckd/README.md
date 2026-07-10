@@ -513,6 +513,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "CKD prolactin: prolactin, via PRLR on macrophages (already mapped), promotes TGF-β (already mapped) and NF-κB (already mapped) fibrotic signalling; hyperprolactinaemia amplifies the erythropoietin (already mapped) resistance and iron (already mapped) deficiency anaemia of CKD."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "CKD oxytocin: oxytocin, via OXTR on tubular cells and macrophages (already mapped), attenuates TGF-β (already mapped) and NF-κB (already mapped) fibrotic signalling; oxytocin deficiency amplifies the glomerular (already mapped) and tubulointerstitial injury cascade of CKD."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "CKD vasopressin: vasopressin, via V2 receptors on renal tubular cells, drives hyperfiltration and renin (already mapped) activation of CKD; vasopressin excess amplifies TGF-β (already mapped) and NF-κB (already mapped) glomerular (already mapped) fibrosis of CKD."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "CKD selenium: selenium, as GPx in renal tubular cells and macrophages (already mapped), scavenges CKD oxidative-stress; selenium deficiency amplifies the NF-κB (already mapped) and TGF-β (already mapped) tubulointerstitial fibrosis and hepcidin (already mapped) anaemia of CKD."
 ---
 
 # Chronic Kidney Disease
@@ -754,6 +763,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — CKD testosterone: testosterone, via androgen receptors on tubular cells and mesangial cells, attenuates TGF-β (already mapped) and NF-κB (already mapped) renal fibrosis; androgen deficiency amplifies macrophage (already mapped) and IL-6 (already mapped) fibrotic injury of CKD.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — CKD serotonin: serotonin, via 5-HT receptors on mesangial cells and macrophages (already mapped), modulates glomerular (already mapped) haemodynamics; serotonin dysregulation amplifies the TGF-β (already mapped) and NF-κB (already mapped) tubulointerstitial fibrosis of CKD.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — CKD prolactin: prolactin, via PRLR on macrophages (already mapped), promotes TGF-β (already mapped) and NF-κB (already mapped) fibrotic signalling; hyperprolactinaemia amplifies the erythropoietin (already mapped) resistance and iron (already mapped) deficiency anaemia of CKD.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Anti-fibrotic neuropeptide: oxytocin, via OXTR on tubular cells and macrophages (already mapped), attenuates TGF-β (already mapped) and NF-κB (already mapped) fibrotic signalling; oxytocin deficiency amplifies the glomerular (already mapped) and tubulointerstitial injury cascade of CKD.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Hyperfiltration driver: vasopressin, via V2 receptors on renal tubular cells, drives hyperfiltration and renin (already mapped) activation of CKD; vasopressin excess amplifies TGF-β (already mapped) and NF-κB (already mapped) glomerular (already mapped) fibrosis of CKD.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Renal antioxidant: selenium, as GPx in renal tubular cells and macrophages (already mapped), scavenges CKD oxidative-stress; selenium deficiency amplifies the NF-κB (already mapped) and TGF-β (already mapped) tubulointerstitial fibrosis and hepcidin (already mapped) anaemia of CKD.
 
 ## Pathology
 
