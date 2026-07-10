@@ -517,6 +517,15 @@ cross_links:
   - target: 01-human/02-atomic/iodine
     relation: connects-to
     note: "Migraine iodine: iodine-dependent thyroid hormones modulate the serotonergic (serotonin already mapped) and dopaminergic (dopamine already mapped) pathways; iodine deficiency impairs the nitric-oxide (already mapped) and CGRP (already mapped) neurovascular axis of migraine."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Migraine copper: copper, via dopamine-β-hydroxylase, supports dopamine (already mapped) and norepinephrine (already mapped) neurotransmission; copper deficiency impairs NF-κB (already mapped) antioxidant signalling and CGRP (already mapped) neurovascular axis of migraine."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "Migraine phosphorus: phosphorus drives ATP (already mapped)-dependent synaptic (synapse already mapped) transmission in neurons (already mapped); phosphate dysregulation amplifies NLRP3 (already mapped) microglial (microglia already mapped) neuroinflammation and migraine attacks."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Migraine iron: iron is required for dopamine (already mapped) and serotonin (already mapped) synthesis; iron deficiency amplifies NF-κB (already mapped) and CGRP (already mapped) neuroinflammatory cascade and worsens cortical spreading depression and migraine attack burden."
 ---
 
 # Migraine
@@ -820,6 +829,9 @@ Episodic migraine (EM, <15 headache days/month) transforms to **chronic migraine
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Cerebral vasomotor tone: vasopressin, via V1aR on neurons (already mapped) and endothelial cells (already mapped), modulates cerebral vasomotor tone; vasopressin dysregulation amplifies the CGRP (already mapped) and nitric-oxide (already mapped) vasoactive cascade of migraine.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Neuroprotective antioxidant: selenium, as neuroprotective GPx in neurons (already mapped) and astrocytes (already mapped), scavenges neuroinflammatory ROS; selenium deficiency impairs GABA (already mapped) inhibitory tone and amplifies the cortical spreading depression of migraine.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Thyroid-neurovascular axis: iodine-dependent thyroid hormones modulate the serotonergic (serotonin already mapped) and dopaminergic (dopamine already mapped) pathways; iodine deficiency impairs the nitric-oxide (already mapped) and CGRP (already mapped) neurovascular axis of migraine.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Migraine copper: copper, via dopamine-β-hydroxylase, supports dopamine (already mapped) and norepinephrine (already mapped) neurotransmission; copper deficiency impairs NF-κB (already mapped) antioxidant signalling and CGRP (already mapped) neurovascular axis of migraine.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Migraine phosphorus: phosphorus drives ATP (already mapped)-dependent synaptic (synapse already mapped) transmission in neurons (already mapped); phosphate dysregulation amplifies NLRP3 (already mapped) microglial (microglia already mapped) neuroinflammation and migraine attacks.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Migraine iron: iron is required for dopamine (already mapped) and serotonin (already mapped) synthesis; iron deficiency amplifies NF-κB (already mapped) and CGRP (already mapped) neuroinflammatory cascade and worsens cortical spreading depression and migraine attack burden.
 
 [^gbd-2016-migraine-burden]: GBD 2016 Headache Collaborators. Global, regional, and national burden of migraine and tension-type headache, 1990-2016. *Lancet Neurol.* 2018;17(11):954-976. [doi:10.1016/S1474-4422(18)30322-3](https://doi.org/10.1016/S1474-4422(18)30322-3) · [PubMed 30353868](https://pubmed.ncbi.nlm.nih.gov/30353868/)
 [^goadsby-2002-migraine-review]: Goadsby PJ, Lipton RB, Ferrari MD. Migraine — current understanding and treatment. *N Engl J Med.* 2002;346(4):257-270. [doi:10.1056/NEJMra010917](https://doi.org/10.1056/NEJMra010917) · [PubMed 11807151](https://pubmed.ncbi.nlm.nih.gov/11807151/)

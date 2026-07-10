@@ -515,6 +515,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "Measles vasopressin: vasopressin, via V2 receptors on macrophages (already mapped) and neurons (already mapped), modulates fluid balance and innate immune tone; vasopressin amplifies the NLRP3 (already mapped) and IL-6 (already mapped) febrile cytokine-storm of measles."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "Measles iodine: iodine-dependent thyroid hormones regulate macrophage (already mapped) and NK-cell (already mapped) antiviral innate immunity; iodine deficiency impairs type-I-interferon (already mapped) and NF-κB (already mapped) antiviral signalling in measles immunopathology."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Measles sodium: sodium, via voltage-gated channels on macrophages (already mapped) and neurons (already mapped), shapes NF-κB (already mapped) innate immune activation; dysregulated sodium amplifies NLRP3 (already mapped) and IL-6 (already mapped) cytokine-storm of measles."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Measles magnesium: magnesium stabilises NLRP3 inflammasome (already mapped) and attenuates NF-κB (already mapped) cytokine-storm (already mapped) immunopathology; magnesium deficiency impairs macrophage (already mapped) and NK-cell (already mapped) antiviral immunity in measles."
 ---
 
 # Measles
@@ -825,6 +834,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Antiviral immune modulator: serotonin, via 5-HT receptors on macrophages (already mapped) and neurons (already mapped), modulates type-I-interferon (already mapped) and NLRP3 (already mapped) antiviral responses; serotonin dysregulation amplifies the measles cytokine-storm severity.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Immune-resolution neuropeptide: oxytocin, via OXTR on macrophages (already mapped) and regulatory T cells (already mapped), attenuates the cytokine-storm (already mapped) and NLRP3 (already mapped) immunopathology; oxytocin promotes immune resolution after severe measles infection.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Febrile fluid-immune axis: vasopressin, via V2 receptors on macrophages (already mapped) and neurons (already mapped), modulates fluid balance and innate immune tone; vasopressin amplifies the NLRP3 (already mapped) and IL-6 (already mapped) febrile cytokine-storm of measles.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Measles iodine: iodine-dependent thyroid hormones regulate macrophage (already mapped) and NK-cell (already mapped) antiviral innate immunity; iodine deficiency impairs type-I-interferon (already mapped) and NF-κB (already mapped) antiviral signalling in measles immunopathology.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Measles sodium: sodium, via voltage-gated channels on macrophages (already mapped) and neurons (already mapped), shapes NF-κB (already mapped) innate immune activation; dysregulated sodium amplifies NLRP3 (already mapped) and IL-6 (already mapped) cytokine-storm of measles.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Measles magnesium: magnesium stabilises NLRP3 inflammasome (already mapped) and attenuates NF-κB (already mapped) cytokine-storm (already mapped) immunopathology; magnesium deficiency impairs macrophage (already mapped) and NK-cell (already mapped) antiviral immunity in measles.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)
