@@ -520,6 +520,12 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "COVID sodium: hypernatraemia in severe COVID-19 ARDS activates NF-κB (already mapped) and amplifies IL-6 (already mapped) driven cytokine storm (already mapped); sodium-glucose cotransporter inhibition reduces cardiac (already mapped) and renal (already mapped) complication risk."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "COVID magnesium: magnesium supports macrophage (already mapped) anti-inflammatory resolution and endothelial integrity; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cytokine storm (already mapped) and worsens ARDS in severe COVID-19."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "COVID copper: copper, via SOD and ceruloplasmin, scavenges ARDS oxidative stress in lung (already mapped) epithelial cells; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cytokine storm (already mapped) and vascular injury in COVID-19."
 ---
 
 # COVID-19 Disease
@@ -752,6 +758,8 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — COVID vasopressin: vasopressin (ADH) modulates renal (already mapped) fluid balance in COVID-19 ARDS; AVP-driven V1 receptor activation amplifies pulmonary vascular inflammation and contributes to NF-κB (already mapped) cytokine storm (already mapped) in severe disease.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — COVID iodine: SARS-CoV-2 (already mapped) disrupts thyroid (already mapped) iodine metabolism; iodine deficiency amplifies NF-κB (already mapped) cytokine storm (already mapped) and impairs lung (already mapped) surfactant (already mapped) antioxidant defence via lactoperoxidase.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — COVID sodium: hypernatraemia in severe COVID-19 ARDS activates NF-κB (already mapped) and amplifies IL-6 (already mapped) driven cytokine storm (already mapped); sodium-glucose cotransporter inhibition reduces cardiac (already mapped) and renal (already mapped) complication risk.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — COVID magnesium: magnesium supports macrophage (already mapped) anti-inflammatory resolution and endothelial integrity; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cytokine storm (already mapped) and worsens ARDS in severe COVID-19.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — COVID copper: copper, via SOD and ceruloplasmin, scavenges ARDS oxidative stress in lung (already mapped) epithelial cells; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cytokine storm (already mapped) and vascular injury in COVID-19.
 
 ## Pathology
 

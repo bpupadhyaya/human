@@ -526,6 +526,12 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "DM sodium: high dietary sodium amplifies Th17 polarisation and IL-17A (already mapped) production in dermatomyositis; sodium-driven NF-κB (already mapped) activation sustains macrophage (already mapped) and mast-cell (already mapped) perimysial inflammation."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "DM magnesium: magnesium supports macrophage (already mapped) anti-inflammatory function and muscle-cell integrity; magnesium deficiency amplifies NF-κB (already mapped) and IFN-γ (already mapped) and TGF-β (already mapped) perimysial inflammation in dermatomyositis."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "DM zinc: zinc supports macrophage (already mapped) anti-inflammatory resolution and mast-cell (already mapped) cytokine dampening; zinc deficiency amplifies NF-κB (already mapped) and IFN-γ (already mapped) and IL-17A (already mapped) perimysial inflammation of dermatomyositis."
 ---
 ---
 
@@ -821,6 +827,8 @@ DM carries a ~3–7× elevated cancer risk overall. Anti-TIF1γ (TRIM33) suppres
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — DM selenium: selenoproteins counter IFN-γ (already mapped) and NF-κB (already mapped) driven oxidative stress in dermatomyositis; selenium deficiency amplifies mast-cell (already mapped) perimysial inflammation and impairs TGF-β (already mapped) fibrotic repair.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — DM iodine: thyroid hormones (iodine-dependent) modulate the IFN-γ (already mapped) and NF-κB (already mapped) autoimmune axis; iodine deficiency amplifies mast-cell (already mapped) skin (already mapped) inflammation and impairs macrophage (already mapped) resolution.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — DM sodium: high dietary sodium amplifies Th17 polarisation and IL-17A (already mapped) production in dermatomyositis; sodium-driven NF-κB (already mapped) activation sustains macrophage (already mapped) and mast-cell (already mapped) perimysial inflammation.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — DM magnesium: magnesium supports macrophage (already mapped) anti-inflammatory function and muscle-cell integrity; magnesium deficiency amplifies NF-κB (already mapped) and IFN-γ (already mapped) and TGF-β (already mapped) perimysial inflammation in dermatomyositis.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — DM zinc: zinc supports macrophage (already mapped) anti-inflammatory resolution and mast-cell (already mapped) cytokine dampening; zinc deficiency amplifies NF-κB (already mapped) and IFN-γ (already mapped) and IL-17A (already mapped) perimysial inflammation of dermatomyositis.
 
 [^bohan-peter-1975-dm-criteria]: Bohan A, Peter JB. Polymyositis and dermatomyositis. *N Engl J Med.* 1975;292(7):344-347. [doi:10.1056/NEJM197502132920706](https://doi.org/10.1056/NEJM197502132920706) · [PubMed 1090839](https://pubmed.ncbi.nlm.nih.gov/1090839/)
 [^lundberg-2021-iim-classification]: Lundberg IE, et al. 2017 EULAR/ACR classification criteria for adult and juvenile idiopathic inflammatory myopathies. *Arthritis Rheumatol.* 2017;69(12):2271-2282. [doi:10.1002/art.40320](https://doi.org/10.1002/art.40320) · [PubMed 29106061](https://pubmed.ncbi.nlm.nih.gov/29106061/)
