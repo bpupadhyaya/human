@@ -499,6 +499,15 @@ cross_links:
   - target: 01-human/03-molecular/c1-esterase-inhibitor
     relation: connects-to
     note: "Classical complement regulation: C1-esterase inhibitor modulates the classical complement pathway (C3 and C5aR1 already mapped) in the cirrhotic stroma, tempering the complement-driven myeloid recruitment of the HCC microenvironment."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "HCC testosterone: testosterone, via androgen-receptor (already mapped) on hepatocytes (already mapped), drives NF-κB (already mapped) and STAT3 (already mapped) tumorigenesis; androgens drive hepatitis-B (already mapped) oncogenesis and NASH (already mapped)-to-HCC progression."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "HCC serotonin: serotonin, via 5-HT receptors on hepatocytes (already mapped) and macrophages (already mapped), activates mTOR (already mapped) and STAT3 (already mapped) proliferative axes; serotonin also promotes VEGF (already mapped)-driven neoangiogenesis in HCC."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "HCC prolactin: prolactin, via PRLR on hepatocytes (already mapped) and macrophages (already mapped), activates JAK1/2 (already mapped) and STAT3 (already mapped) oncogenesis; hyperprolactinaemia amplifies IL-6 (already mapped) and NF-κB (already mapped) hepatocarcinogenesis."
 ---
 
 # Hepatocellular Carcinoma
@@ -797,6 +806,9 @@ In high-risk patients (cirrhosis, HBV regardless of cirrhosis): ultrasound ± AF
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell cirrhotic effector: mast cells (already mapped) in the cirrhotic stroma of HCC release histamine that amplifies VEGF (already mapped)-driven angiogenesis and the Th2-immunosuppressive tumour microenvironment of the HCC niche.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Cirrhotic ECM: periostin, from cancer-associated fibroblasts (already mapped) and the activated hepatic stellate cells of the cirrhotic stroma, promotes myofibroblastic remodelling and the desmoplastic HCC niche.
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical complement regulation: C1-esterase inhibitor modulates the classical complement pathway (C3 and C5aR1 already mapped) in the cirrhotic stroma, tempering the complement-driven myeloid recruitment of the HCC microenvironment.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-driven hepatocarcinogenesis: testosterone, via androgen-receptor (already mapped) on hepatocytes (already mapped), drives NF-κB (already mapped) and STAT3 (already mapped) hepatocarcinogenesis; androgens amplify hepatitis-B (already mapped) carcinogenesis and NASH (already mapped)-to-HCC progression.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Serotonergic tumour proliferation: serotonin, via 5-HT receptors on hepatocytes (already mapped) and macrophages (already mapped), activates mTOR (already mapped) and STAT3 (already mapped) proliferative axes; serotonin also promotes VEGF (already mapped)-driven neoangiogenesis in HCC.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Prolactin oncogenic axis: prolactin, via PRLR on hepatocytes (already mapped) and macrophages (already mapped), activates JAK1/2 (already mapped) and STAT3 (already mapped) oncogenesis; hyperprolactinaemia amplifies IL-6 (already mapped) and NF-κB (already mapped) hepatocarcinogenesis.
 
 [^llovet-2008-sorafenib]: Llovet JM, Ricci S, Mazzaferro V, et al. Sorafenib in advanced hepatocellular carcinoma. *N Engl J Med.* 2008;359(4):378-390. [doi:10.1056/NEJMoa0708857](https://doi.org/10.1056/NEJMoa0708857) · [PubMed 18650514](https://pubmed.ncbi.nlm.nih.gov/18650514/)
 [^finn-2020-imbrave150]: Finn RS, Qin S, Ikeda M, et al. Atezolizumab plus bevacizumab in unresectable hepatocellular carcinoma. *N Engl J Med.* 2020;382(20):1894-1905. [doi:10.1056/NEJMoa1915745](https://doi.org/10.1056/NEJMoa1915745) · [PubMed 32402160](https://pubmed.ncbi.nlm.nih.gov/32402160/)

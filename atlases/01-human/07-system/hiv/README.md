@@ -508,6 +508,15 @@ cross_links:
   - target: 01-human/03-molecular/melatonin
     relation: connects-to
     note: "Circadian immune axis: melatonin, whose nocturnal peak is blunted in HIV infection, has immunomodulatory and antioxidant effects that partially counter the chronic immune activation and oxidative stress of HIV."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "HIV testosterone: testosterone, via androgen receptors on macrophages (already mapped) and T-helper cells (already mapped), attenuates IL-6 (already mapped) and TNF-α (already mapped) activation; androgen deficiency amplifies STAT3 (already mapped)-driven HIV pathogenesis."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "HIV serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and neurons (already mapped), modulates the neuroinflammatory (IL-6 and TNF-α already mapped) cascade; serotonin dysregulation amplifies gut-microbiome (already mapped) dysbiosis in HIV."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "HIV prolactin: prolactin, via PRLR on macrophages (already mapped) and natural-killer cells (already mapped), modulates innate immune activation; hyperprolactinaemia amplifies IL-6 (already mapped) and TNF-α (already mapped) chronic immune dysregulation in HIV."
 ---
 
 # HIV
@@ -806,6 +815,9 @@ The **latent reservoir** — HIV integrated into quiescent resting memory CD4+ T
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Mucosal ECM remodelling: periostin, from gut-epithelial fibroblasts (already mapped) at the disrupted intestinal (already mapped) barrier of HIV, contributes to ECM remodelling of the gut-mucosal immune interface mediating HIV pathogenesis.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — HIV-associated anaemia: erythropoietin corrects the multifactorial anaemia of HIV, driven by direct viral bone-marrow (already mapped) suppression, hepcidin elevation, opportunistic infections and ART toxicity—a major cause of morbidity.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian immune axis: melatonin, whose nocturnal peak is blunted in HIV infection, has immunomodulatory and antioxidant effects that partially counter the chronic immune activation and oxidative stress of HIV.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen immunomodulation: testosterone, via androgen receptors on macrophages (already mapped) and T-helper cells (already mapped), attenuates IL-6 (already mapped) and TNF-α (already mapped) activation; androgen deficiency amplifies STAT3 (already mapped)-driven HIV pathogenesis.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Serotonergic neuroimmune axis: serotonin, via 5-HT receptors on macrophages (already mapped) and neurons (already mapped), modulates the neuroinflammatory (IL-6 and TNF-α already mapped) cascade; serotonin dysregulation amplifies gut-microbiome (already mapped) dysbiosis in HIV.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Stress-immune neuroendocrine: prolactin, via PRLR on macrophages (already mapped) and natural-killer cells (already mapped), modulates innate immune activation; hyperprolactinaemia amplifies IL-6 (already mapped) and TNF-α (already mapped) chronic immune dysregulation in HIV.
 
 [^barre-sinoussi-1983-hiv-isolation]: Barré-Sinoussi F, Chermann JC, Rey F, et al. Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS). *Science.* 1983;220(4599):868-871. [doi:10.1126/science.6189183](https://doi.org/10.1126/science.6189183) · [PubMed 6189183](https://pubmed.ncbi.nlm.nih.gov/6189183/)
 [^ho-1995-viral-dynamics]: Ho DD, Neumann AU, Perelson AS, et al. Rapid turnover of plasma virions and CD4 lymphocytes in HIV-1 infection. *Nature.* 1995;373(6510):123-126. [doi:10.1038/373123a0](https://doi.org/10.1038/373123a0) · [PubMed 7816094](https://pubmed.ncbi.nlm.nih.gov/7816094/)
