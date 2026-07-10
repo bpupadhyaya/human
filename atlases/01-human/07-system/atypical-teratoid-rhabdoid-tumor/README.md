@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "ATRT prolactin: prolactin, via PRLR on microglia (already mapped) and T-cytotoxic cells (already mapped), modulates the neuroimmune TME; prolactin dysregulation amplifies the neuroinflammatory (neuron already mapped) and mast-cell (already mapped) tumour cascade of ATRT."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "ATRT oxytocin: oxytocin, via OXTR on microglia (already mapped) and T-cytotoxic cells (already mapped), attenuates the neuroinflammatory TME; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of ATRT."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "ATRT vasopressin: vasopressin, via V1aR on neurons (already mapped) and microglia (already mapped), modulates the neuroimmune TME of ATRT; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory tumour cascade of ATRT."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "ATRT selenium: selenium, as GPx in neurons (already mapped) and microglia (already mapped), scavenges ROS driving the neuroinflammatory TME; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of ATRT."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -794,6 +803,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — ATRT testosterone: testosterone, via androgen receptors on neurons (already mapped) and microglia (already mapped), modulates the TME; testosterone deficiency amplifies the T-cytotoxic (already mapped) and complement-C5 (already mapped) antitumour cascade impairment of ATRT.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — ATRT serotonin: serotonin, via 5-HT receptors on microglia (already mapped) and neurons (already mapped), modulates the neuroinflammatory TME; serotonin dysregulation amplifies the T-cytotoxic (already mapped) and mast-cell (already mapped) antitumour cascade of ATRT.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — ATRT prolactin: prolactin, via PRLR on microglia (already mapped) and T-cytotoxic cells (already mapped), modulates the neuroimmune TME; prolactin dysregulation amplifies the neuroinflammatory (neuron already mapped) and mast-cell (already mapped) tumour cascade of ATRT.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — ATRT oxytocin: oxytocin, via OXTR on microglia (already mapped) and T-cytotoxic cells (already mapped), attenuates the neuroinflammatory TME; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of ATRT.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — ATRT vasopressin: vasopressin, via V1aR on neurons (already mapped) and microglia (already mapped), modulates the neuroimmune TME of ATRT; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory tumour cascade of ATRT.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — ATRT selenium: selenium, as GPx in neurons (already mapped) and microglia (already mapped), scavenges ROS driving the neuroinflammatory TME; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of ATRT.
 
 ---
 

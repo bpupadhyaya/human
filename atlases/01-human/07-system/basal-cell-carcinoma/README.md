@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/oxytocin
     relation: connects-to
     note: "BCC oxytocin: oxytocin, via OXTR on keratinocytes (already mapped) and macrophages (already mapped), attenuates skin TME inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and mast-cell (already mapped) tumour cascade of basal-cell carcinoma."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "BCC vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates skin TME immune tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of basal-cell carcinoma."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "BCC iodine: iodine-dependent thyroid hormones modulate keratinocyte proliferation and skin (already mapped) immune surveillance; iodine deficiency impairs thyroid-mediated regulation of the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of basal-cell carcinoma."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "BCC sodium: high dietary sodium promotes keratinocyte (skin already mapped) inflammation and macrophage (already mapped) M2-skewing; sodium dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of basal-cell carcinoma."
 ---
 
 # Basal Cell Carcinoma
@@ -797,6 +806,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — BCC serotonin: serotonin, via 5-HT receptors on keratinocytes (already mapped) and macrophages (already mapped), modulates skin immunity; serotonin dysregulation amplifies the NF-κB (already mapped) and mast-cell (already mapped) tumour-promoting cascade of basal-cell carcinoma.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — BCC prolactin: prolactin, via PRLR on keratinocytes (already mapped) and macrophages (already mapped), promotes tumour immune escape; hyperprolactinaemia amplifies the NF-κB (already mapped) and mast-cell (already mapped) tumour-promoting cascade of basal-cell carcinoma.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — BCC oxytocin: oxytocin, via OXTR on keratinocytes (already mapped) and macrophages (already mapped), attenuates skin TME inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and mast-cell (already mapped) tumour cascade of basal-cell carcinoma.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — BCC vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates skin TME immune tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of basal-cell carcinoma.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — BCC iodine: iodine-dependent thyroid hormones modulate keratinocyte proliferation and skin (already mapped) immune surveillance; iodine deficiency impairs thyroid-mediated regulation of the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of basal-cell carcinoma.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — BCC sodium: high dietary sodium promotes keratinocyte (skin already mapped) inflammation and macrophage (already mapped) M2-skewing; sodium dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of basal-cell carcinoma.
 
 ---
 
