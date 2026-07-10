@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Tumour-EPO axis: erythropoietin, via the EPOR on chordoma tumour cells (already mapped), modulates the survival, proliferation, and the angiogenic (already mapped) dimension of this aggressive sacral/skull-base tumour."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell chordoma axis: histamine, from mast cells (already mapped) in the notochordal tumour microenvironment, amplifies the vascular permeability, the angiogenesis (already mapped) and the immunosuppressive milieu of chordoma."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian-notochordal axis: melatonin, via MT1/MT2 receptors and its radical-scavenging activity, modulates the oxidative stress of the brachyury/TBXT-driven (already mapped) slow proliferation and angiogenic dimension of chordoma."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical complement regulation: the C1-esterase inhibitor regulates the classical complement pathway (C5 and C5aR1 already mapped) whose activation can contribute to the inflammatory milieu and the immune evasion of the chordoma microenvironment."
 ---
 
 # Chordoma
@@ -786,6 +795,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-TME axis: TSLP, from notochordal stromal cells and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2 immunosuppression of the chordoma tumour microenvironment.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-tumour axis: bradykinin, via B1/B2 receptors on tumour endothelium (already mapped) and mast cells (already mapped), amplifies the vascular permeability and the inflammatory milieu of the chordoma microenvironment.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Tumour-EPO axis: erythropoietin, via the EPOR on chordoma tumour cells (already mapped), modulates the survival, proliferation, and the angiogenic (already mapped) dimension of this aggressive sacral/skull-base tumour.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell chordoma axis: histamine, from mast cells (already mapped) in the notochordal tumour microenvironment, amplifies the vascular permeability, the angiogenesis (already mapped) and the immunosuppressive milieu of chordoma.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-notochordal axis: melatonin, via MT1/MT2 receptors and its radical-scavenging activity, modulates the oxidative stress of the brachyury/TBXT-driven (already mapped) slow proliferation and angiogenic dimension of chordoma.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical complement regulation: the C1-esterase inhibitor regulates the classical complement pathway (C5 and C5aR1 already mapped) whose activation can contribute to the inflammatory milieu and the immune evasion of the chordoma microenvironment.
 
 ---
 

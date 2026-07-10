@@ -501,6 +501,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Neuroprotective cytokine: erythropoietin, via the EPOR on Schwann cells and peripheral axons, exerts neuroprotective and remyelinating effects that may modulate the demyelination of CIDP."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell nerve-barrier axis: histamine, from mast cells (already mapped) in the endoneurium, amplifies the blood-nerve-barrier disruption and the inflammatory cytokine milieu of the autoimmune demyelination of CIDP."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian-neuroimmune axis: melatonin, via MT1/MT2 receptors on Schwann cells and peripheral immune effectors (T cells and macrophages already mapped), modulates the autoimmune inflammatory tone and the demyelination of CIDP."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Sex-hormone neuro-immunomodulatory axis: testosterone, via androgen receptors on Schwann cells (already mapped) and immune effectors (T cells already mapped), modulates the sex-differential autoimmune demyelination and neuroprotection of CIDP."
 ---
 
 # CIDP
@@ -804,6 +813,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-neuroimmune axis: TSLP, from barrier epithelium and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2/Treg imbalance of the peripheral neuroimmune inflammation of CIDP.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-peripheral nerve axis: bradykinin, via B1/B2 receptors on endoneurial endothelium (already mapped) and mast cells (already mapped), amplifies the blood-nerve-barrier disruption and the inflammatory milieu of the peripheral nerve of CIDP.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Neuroprotective cytokine: erythropoietin, via the EPOR on Schwann cells and peripheral axons, exerts neuroprotective and remyelinating effects that may modulate the demyelination of CIDP.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell nerve-barrier axis: histamine, from mast cells (already mapped) in the endoneurium, amplifies the blood-nerve-barrier disruption and the inflammatory cytokine milieu of the autoimmune demyelination of CIDP.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-neuroimmune axis: melatonin, via MT1/MT2 receptors on Schwann cells and peripheral immune effectors (T cells and macrophages already mapped), modulates the autoimmune inflammatory tone and the demyelination of CIDP.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Sex-hormone neuro-immunomodulatory axis: testosterone, via androgen receptors on Schwann cells (already mapped) and immune effectors (T cells already mapped), modulates the sex-differential autoimmune demyelination and neuroprotection of CIDP.
 
 ---
 
