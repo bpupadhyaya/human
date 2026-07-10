@@ -499,6 +499,15 @@ cross_links:
   - target: 01-human/03-molecular/melatonin
     relation: connects-to
     note: "Anti-myeloma melatonin: melatonin, via MT1 receptors on plasma cells (already mapped), triggers mitochondrial apoptosis (caspase-3 already mapped), reduces IL-6 (already mapped) signalling and augments NK-cell (already mapped) cytotoxicity against multiple myeloma."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Androgen-bone marrow axis: testosterone, via androgen receptor on myeloma plasma cells (already mapped) and osteoblasts (already mapped), modulates the IL-6 (already mapped) bone-marrow niche and contributes to the sex-dimorphic incidence and bone-disease of multiple myeloma."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Plasma-cell 5-HT signalling: serotonin from platelets (already mapped) in the myeloma vasculature signals via 5-HT2 receptors on plasma cells (already mapped) and macrophages (already mapped), modulating the IL-6 (already mapped) pro-survival cytokine milieu of multiple myeloma."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Plasma-cell trophic prolactin: prolactin, via PRL-R on myeloma plasma cells (already mapped) and bone-marrow stromal cells (already mapped), activates JAK2/STAT3 (already mapped) and IL-6 (already mapped) pro-survival signalling, promoting myeloma persistence and drug resistance."
 ---
 
 # Multiple Myeloma
@@ -788,6 +797,9 @@ MM evolves from precursor conditions through a well-defined continuum:
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Myeloma bone pain: bradykinin, via B2 receptor, amplifies prostaglandin (already mapped) and VEGF-driven (already mapped) bone pain and osteolysis in the myeloma bone microenvironment; kinins enhance osteoclast (already mapped) activation in myeloma bone lesions.
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Myeloma complement regulation: C1-INH controls the classical-pathway arm (C3, C5 and C5aR1 already mapped) in the myeloma bone-marrow microenvironment, complementing factor H (already mapped) to limit complement-mediated bystander lysis of bone-marrow stromal cells.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Anti-myeloma melatonin: melatonin, via MT1 receptors on plasma cells (already mapped), triggers mitochondrial apoptosis (caspase-3 already mapped), reduces IL-6 (already mapped) signalling and augments NK-cell (already mapped) cytotoxicity against multiple myeloma.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-bone marrow axis: testosterone, via androgen receptor on myeloma plasma cells (already mapped) and osteoblasts (already mapped), modulates the IL-6 (already mapped) bone-marrow niche and contributes to the sex-dimorphic incidence and bone-disease of multiple myeloma.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Plasma-cell 5-HT signalling: serotonin from platelets (already mapped) in the myeloma vasculature signals via 5-HT2 receptors on plasma cells (already mapped) and macrophages (already mapped), modulating the IL-6 (already mapped) pro-survival cytokine milieu of multiple myeloma.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Plasma-cell trophic prolactin: prolactin, via PRL-R on myeloma plasma cells (already mapped) and bone-marrow stromal cells (already mapped), activates JAK2/STAT3 (already mapped) and IL-6 (already mapped) pro-survival signalling, promoting myeloma persistence and drug resistance.
 
 [^kumar-2022-imwg-criteria]: Kumar SK, Callander NS, Adekola K, et al. Multiple myeloma, version 3.2021, NCCN clinical practice guidelines in oncology. *J Natl Compr Canc Netw.* 2020;18(12):1685-1717. [doi:10.6004/jnccn.2020.0057](https://doi.org/10.6004/jnccn.2020.0057) · [PubMed 33285519](https://pubmed.ncbi.nlm.nih.gov/33285519/)
 [^moreau-2022-teclistamab]: Moreau P, Garfall AL, van de Donk NWCJ, et al. Teclistamab in relapsed or refractory multiple myeloma. *N Engl J Med.* 2022;387(6):495-505. [doi:10.1056/NEJMoa2203478](https://doi.org/10.1056/NEJMoa2203478) · [PubMed 35661166](https://pubmed.ncbi.nlm.nih.gov/35661166/)

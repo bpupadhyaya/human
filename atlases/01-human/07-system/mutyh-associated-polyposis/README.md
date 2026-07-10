@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Polyposis stroma periostin: periostin secreted by MAP cancer-associated fibroblasts and downstream of TGF-β (already mapped) activates the integrin-AKT (already mapped) pathway, promoting the MUTYH-deficient colorectal adenoma-to-carcinoma invasive progression."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Colorectal antiproliferative: melatonin, via MT1/MT2 receptors on MUTYH-deficient colorectal cells (already mapped), suppresses WNT/β-catenin (already mapped) and NF-κB (already mapped) signalling, reducing polyp proliferation and adenoma-to-carcinoma progression in MAP."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Androgen receptor in MAP: testosterone, via androgen receptor on MUTYH-deficient colorectal epithelial cells (already mapped), modulates WNT/β-catenin (already mapped) proliferative signalling and may contribute to the male-skewed colorectal cancer risk of MAP."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Gut neuroendocrine axis: serotonin from enterochromaffin cells in the MUTYH-deficient colorectal mucosa regulates bowel motility and mucosal immune responses (already mapped), shaping the inflammatory microenvironment of the MAP polyp stroma and adenoma progression."
 ---
 
 # MUTYH-Associated Polyposis
@@ -768,6 +777,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Colonic complement regulation: C1-INH controls the classical and alternative complement pathways (complement C5 already mapped) in the MUTYH-associated polyposis tumour microenvironment, modulating complement-dependent cytotoxicity against MAP colorectal adenoma cells.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell histamine in polyposis: histamine from the mast cells infiltrating the MAP colorectal polyp stroma promotes VEGF (already mapped) angiogenesis and prostaglandin (already mapped) inflammation of the MUTYH-deficient adenoma mucosa.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Polyposis stroma periostin: periostin secreted by MAP cancer-associated fibroblasts and downstream of TGF-β (already mapped) activates the integrin-AKT (already mapped) pathway, promoting the MUTYH-deficient colorectal adenoma-to-carcinoma invasive progression.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Colorectal antiproliferative: melatonin, via MT1/MT2 receptors on MUTYH-deficient colorectal cells (already mapped), suppresses WNT/β-catenin (already mapped) and NF-κB (already mapped) signalling, reducing polyp proliferation and adenoma-to-carcinoma progression in MAP.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen receptor in MAP: testosterone, via androgen receptor on MUTYH-deficient colorectal epithelial cells (already mapped), modulates WNT/β-catenin (already mapped) proliferative signalling and may contribute to the male-skewed colorectal cancer risk of MAP.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Gut neuroendocrine axis: serotonin from enterochromaffin cells in the MUTYH-deficient colorectal mucosa regulates bowel motility and mucosal immune responses (already mapped), shaping the inflammatory microenvironment of the MAP polyp stroma and adenoma progression.
 
 ---
 
