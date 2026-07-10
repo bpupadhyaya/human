@@ -520,6 +520,12 @@ cross_links:
   - target: 01-human/02-atomic/iodine
     relation: connects-to
     note: "NASH iodine: thyroid-hormone deficiency impairs lipid oxidation and amplifies NASH-driven lipotoxicity; iodine deficiency worsens NF-κB (already mapped) and TNF-α (already mapped) driven macrophage (already mapped) inflammatory cascades and TGF-β (already mapped) fibrosis."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "NASH magnesium: magnesium supports hepatocyte (already mapped) mitochondrial function and macrophage (already mapped) anti-inflammatory resolution; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) hepatic inflammation."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "NASH calcium: calcium regulates hepatocyte (already mapped) mitochondrial bioenergetics and lipid metabolism; calcium dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and TNF-α (already mapped) macrophage (already mapped) hepatic inflammation in NASH."
 ---
 
 # NASH
@@ -776,6 +782,8 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — NASH oxytocin: oxytocin attenuates hepatic NF-κB (already mapped) and TNF-α (already mapped) driven macrophage (already mapped) inflammation and hepatocyte (already mapped) lipotoxicity; oxytocin also suppresses TGF-β (already mapped) mediated hepatic stellate-cell fibrosis.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — NASH vasopressin: vasopressin (ADH) via V1b receptor signalling promotes hepatic glycogen release and lipogenesis in hepatocytes (already mapped); vasopressin amplifies NF-κB (already mapped) and IL-6 (already mapped) driven macrophage (already mapped) inflammatory activation.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — NASH iodine: thyroid-hormone deficiency impairs lipid oxidation and amplifies NASH-driven lipotoxicity; iodine deficiency worsens NF-κB (already mapped) and TNF-α (already mapped) driven macrophage (already mapped) inflammatory cascades and TGF-β (already mapped) fibrosis.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — NASH magnesium: magnesium supports hepatocyte (already mapped) mitochondrial function and macrophage (already mapped) anti-inflammatory resolution; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) hepatic inflammation.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — NASH calcium: calcium regulates hepatocyte (already mapped) mitochondrial bioenergetics and lipid metabolism; calcium dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and TNF-α (already mapped) macrophage (already mapped) hepatic inflammation in NASH.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

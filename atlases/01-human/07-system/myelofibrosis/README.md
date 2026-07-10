@@ -514,6 +514,12 @@ cross_links:
   - target: 01-human/02-atomic/iodine
     relation: connects-to
     note: "MF iodine: thyroid-hormone signalling modulates bone-marrow (already mapped) erythropoiesis and macrophage (already mapped) immune surveillance; iodine deficiency amplifies NF-κB (already mapped) and TGF-β (already mapped) driven fibroblast (already mapped) fibrotic activity."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "MF magnesium: magnesium supports bone-marrow (already mapped) haematopoiesis and macrophage (already mapped) anti-inflammatory resolution; magnesium deficiency amplifies NF-κB (already mapped) and TGF-β (already mapped) fibrotic signalling in myelofibrosis."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "MF copper: copper, via ceruloplasmin and SOD, scavenges ROS in bone-marrow (already mapped) macrophages (already mapped) and fibroblasts (already mapped); copper deficiency amplifies NF-κB (already mapped) and TGF-β (already mapped) fibrotic signalling in myelofibrosis."
 ---
 
 # Myelofibrosis
@@ -807,6 +813,8 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — MF vasopressin: vasopressin (ADH) modulates the bone-marrow (already mapped) stromal microenvironment via V1/V2 receptor signalling; vasopressin amplifies NF-κB (already mapped) and TGF-β (already mapped) driven fibroblast (already mapped) activation in the myelofibrotic marrow.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — MF selenium: selenoproteins suppress ROS-driven NF-κB (already mapped) and TGF-β (already mapped) fibrotic signalling in myelofibrosis; selenium deficiency amplifies macrophage (already mapped) inflammatory cytokine release and bone-marrow (already mapped) oxidative stress.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — MF iodine: thyroid-hormone signalling modulates bone-marrow (already mapped) erythropoiesis and macrophage (already mapped) immune surveillance; iodine deficiency amplifies NF-κB (already mapped) and TGF-β (already mapped) driven fibroblast (already mapped) fibrotic activity.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — MF magnesium: magnesium supports bone-marrow (already mapped) haematopoiesis and macrophage (already mapped) anti-inflammatory resolution; magnesium deficiency amplifies NF-κB (already mapped) and TGF-β (already mapped) fibrotic signalling in myelofibrosis.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — MF copper: copper, via ceruloplasmin and SOD, scavenges ROS in bone-marrow (already mapped) macrophages (already mapped) and fibroblasts (already mapped); copper deficiency amplifies NF-κB (already mapped) and TGF-β (already mapped) fibrotic signalling in myelofibrosis.
 
 ---
 
