@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "SWN prolactin: prolactin via JAK2 (already mapped) and STAT3 (already mapped) signalling on SMARCB1-deficient schwannoma cells promotes tumour-cell survival, amplifying the proliferative drive from the EGFR (already mapped) and mTOR (already mapped) axes in schwannomatosis."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "SWN oxytocin: oxytocin via OXTR on schwannomatosis Schwann cells (already mapped) modulates the neuroinflammatory pain cascade, reducing the substance-P (already mapped) and bradykinin (already mapped)-driven chronic neuropathic pain of schwannomatosis."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "SWN vasopressin: vasopressin via V1aR on schwannomatosis macrophages (already mapped) modulates neuroinflammatory bradykinin (already mapped) and substance-P (already mapped)-driven pain sensitisation of peripheral nerve-sheath tumours in schwannomatosis."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "SWN selenium: selenium-dependent glutathione peroxidase (GPX) quenches reactive-oxygen-species in SMARCB1/LZTR1-deficient schwannoma cells, reducing oxidative-stress-driven mTOR (already mapped) and EGFR (already mapped) proliferative signalling in schwannomatosis."
 ---
 
 # Schwannomatosis
@@ -765,6 +774,9 @@ Both NF2 (22q12.2), SMARCB1 (22q11.23), and LZTR1 (22q11.21) are on chromosome 2
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — SWN melatonin: melatonin via MT1/MT2 receptors on schwannomatosis Schwann cells (already mapped) and macrophages modulates the neuroinflammatory chronic pain of schwannomatosis, counteracting the substance-P (already mapped) and bradykinin (already mapped) pain sensitisation.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — SWN androgen axis: testosterone via androgen receptor on SMARCB1/LZTR1-deficient (already mapped) Schwann cells modulates the NF2 (already mapped) tumour-suppressor pathway and the sex-dimorphic growth of peripheral nerve-sheath tumours in schwannomatosis.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — SWN prolactin: prolactin via JAK2 (already mapped) and STAT3 (already mapped) signalling on SMARCB1-deficient schwannoma cells promotes tumour-cell survival, amplifying the proliferative drive from the EGFR (already mapped) and mTOR (already mapped) axes in schwannomatosis.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — SWN oxytocin: oxytocin via OXTR on schwannomatosis Schwann cells (already mapped) modulates the neuroinflammatory pain cascade, reducing the substance-P (already mapped) and bradykinin (already mapped)-driven chronic neuropathic pain of schwannomatosis.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — SWN vasopressin: vasopressin via V1aR on schwannomatosis macrophages (already mapped) modulates neuroinflammatory bradykinin (already mapped) and substance-P (already mapped)-driven pain sensitisation of peripheral nerve-sheath tumours in schwannomatosis.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — SWN selenium: selenium-dependent glutathione peroxidase (GPX) quenches reactive-oxygen-species in SMARCB1/LZTR1-deficient schwannoma cells, reducing oxidative-stress-driven mTOR (already mapped) and EGFR (already mapped) proliferative signalling in schwannomatosis.
 
 [^merker-2012-schwannomatosis]: Merker VL, Esparza S, Smith MJ, Stemmer-Rachamimov A, Plotkin SR. Clinical features of schwannomatosis: a retrospective analysis of 87 patients. *Oncologist.* 2012;17(10):1317-1322. [doi:10.1634/theoncologist.2012-0162](https://doi.org/10.1634/theoncologist.2012-0162) · [PubMed 22927469](https://pubmed.ncbi.nlm.nih.gov/22927469/)
 [^piotrowski-2014-lztr1]: Piotrowski A, Xie J, Liu YF, et al. Germline loss-of-function mutations in LZTR1 predispose to an inherited disorder of multiple schwannomas. *Nat Genet.* 2014;46(2):182-187. [doi:10.1038/ng.2855](https://doi.org/10.1038/ng.2855) · [PubMed 24362817](https://pubmed.ncbi.nlm.nih.gov/24362817/)
