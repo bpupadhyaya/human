@@ -520,6 +520,12 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "SLE magnesium: magnesium stabilises NLRP3 inflammasome (already mapped) and attenuates NF-κB (already mapped) complement-driven (C3/C5 already mapped) flares in SLE; magnesium deficiency worsens type-I IFN (already mapped) and B-cell (already mapped) autoreactive expansion."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "SLE zinc: zinc cofactors macrophage (already mapped) anti-inflammatory function and regulatory homeostasis; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and type-i-interferon (already mapped) driven B-cell (already mapped) autoimmune cascade in SLE."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "SLE copper: copper, via ceruloplasmin and SOD in macrophages (already mapped) and neutrophils (already mapped), scavenges ROS; copper deficiency amplifies NF-κB (already mapped) and complement-c3 (already mapped) and IL-6 (already mapped) autoimmune inflammation in SLE."
 ---
 
 # Systemic Lupus Erythematosus
@@ -811,6 +817,8 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — SLE iodine: iodine-dependent thyroid hormones modulate the type-I IFN (already mapped) and NF-κB (already mapped) signalling of SLE; hypothyroidism, common in SLE, amplifies the B-cell (already mapped) autoreactive drive and lupus-nephritis (kidney already mapped) progression.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — SLE sodium: high dietary sodium amplifies the Th17 (IL-17A already mapped) and NF-κB (already mapped) inflammatory flare; sodium promotes macrophage (already mapped) activation and worsens endothelial cell (already mapped) dysfunction and lupus-nephritis (kidney already mapped).
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — SLE magnesium: magnesium stabilises NLRP3 inflammasome (already mapped) and attenuates NF-κB (already mapped) complement-driven (C3/C5 already mapped) flares in SLE; magnesium deficiency worsens type-I IFN (already mapped) and B-cell (already mapped) autoreactive expansion.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — SLE zinc: zinc cofactors macrophage (already mapped) anti-inflammatory function and regulatory homeostasis; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and type-i-interferon (already mapped) driven B-cell (already mapped) autoimmune cascade in SLE.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — SLE copper: copper, via ceruloplasmin and SOD in macrophages (already mapped) and neutrophils (already mapped), scavenges ROS; copper deficiency amplifies NF-κB (already mapped) and complement-c3 (already mapped) and IL-6 (already mapped) autoimmune inflammation in SLE.
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)

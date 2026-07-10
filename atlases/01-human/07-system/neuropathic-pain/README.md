@@ -501,6 +501,12 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "NP phosphorus: phosphorus is required for ATP-driven axonal membrane potential maintenance and synaptic vesicle release at peripheral-nerve (already mapped) termini; phosphorus deficiency impairs BDNF (already mapped) and NF-κB (already mapped) driven neuronal repair signalling."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "NP iron: iron supports macrophage (already mapped) and microglia (already mapped) function; iron deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) neuroinflammation and neuron (already mapped) sensitisation in neuropathic pain."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "NP nitrogen: nitric oxide (NO, nitrogen-derived) amplifies glutamate (already mapped) receptor activation and macrophage (already mapped) neuroinflammation; NO excess upregulates NF-κB (already mapped) and IL-6 (already mapped) sensitisation in neuropathic pain."
 sources:
   - id: jensen-2011-neuropathic-pain-review
     type: peer-reviewed
@@ -825,6 +831,8 @@ Chronic neuropathic pain carries significant psychological burden:
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — NP selenium: selenoproteins suppress ROS-driven NF-κB (already mapped) and NLRP3 (already mapped) neuroinflammation; selenium deficiency amplifies microglia (already mapped) and astrocyte (already mapped) activation and peripheral-nerve (already mapped) oxidative injury.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — NP iodine: thyroid-hormone signalling maintains peripheral-nerve (already mapped) myelin integrity and axonal conduction; iodine deficiency impairs nerve regeneration and amplifies NF-κB (already mapped) and IL-6 (already mapped) driven neuroinflammatory sensitisation.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — NP phosphorus: phosphorus is required for ATP-driven axonal membrane potential maintenance and synaptic vesicle release at peripheral-nerve (already mapped) termini; phosphorus deficiency impairs BDNF (already mapped) and NF-κB (already mapped) driven neuronal repair signalling.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — NP iron: iron supports macrophage (already mapped) and microglia (already mapped) function; iron deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) neuroinflammation and neuron (already mapped) sensitisation in neuropathic pain.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — NP nitrogen: nitric oxide (NO, nitrogen-derived) amplifies glutamate (already mapped) receptor activation and macrophage (already mapped) neuroinflammation; NO excess upregulates NF-κB (already mapped) and IL-6 (already mapped) sensitisation in neuropathic pain.
 
 [^jensen-2011-neuropathic-pain-review]: Jensen TS, Baron R, Haanpää M, et al. A new definition of neuropathic pain. *Pain.* 2011;152(10):2204-2205. [doi:10.1016/j.pain.2011.06.017](https://doi.org/10.1016/j.pain.2011.06.017) · [PubMed 21764514](https://pubmed.ncbi.nlm.nih.gov/21764514/)
 [^dworkin-2010-neuropathic-pain-treatment]: Dworkin RH, O'Connor AB, Audette J, et al. Recommendations for the pharmacological management of neuropathic pain. *Mayo Clin Proc.* 2010;85(3 Suppl):S3-14. [doi:10.4065/mcp.2009.0649](https://doi.org/10.4065/mcp.2009.0649) · [PubMed 20194146](https://pubmed.ncbi.nlm.nih.gov/20194146/)
