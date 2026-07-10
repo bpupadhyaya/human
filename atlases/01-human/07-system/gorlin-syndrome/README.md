@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "Gorlin vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates the TME; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of Gorlin syndrome."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Gorlin serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the TME; serotonin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of Gorlin syndrome."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "Gorlin iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and T-cytotoxic (already mapped) immune activation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of Gorlin syndrome."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Gorlin sodium: high dietary sodium promotes Th17 polarisation and macrophage (already mapped) activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) cascade of Gorlin syndrome."
 ---
 
 # Gorlin Syndrome
@@ -786,6 +795,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Gorlin prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the immune TME; hyperprolactinaemia amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of Gorlin syndrome.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Gorlin oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates the TME inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of Gorlin syndrome.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Gorlin vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates the TME; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of Gorlin syndrome.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Gorlin serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the TME; serotonin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of Gorlin syndrome.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Gorlin iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and T-cytotoxic (already mapped) immune activation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of Gorlin syndrome.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Gorlin sodium: high dietary sodium promotes Th17 polarisation and macrophage (already mapped) activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) cascade of Gorlin syndrome.
 
 ---
 
