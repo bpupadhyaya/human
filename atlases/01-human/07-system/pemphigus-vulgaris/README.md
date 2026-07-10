@@ -508,6 +508,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "PV calcium: calcium is required for desmoglein-3 (DSG3; the target autoantigen of pemphigus vulgaris) cadherin-based keratinocyte adhesion; calcium-dependent desmosomal assembly is disrupted by the anti-DSG3 IgG (B cell already mapped) autoantibody, triggering acantholysis."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "PV iodine: iodine-dependent thyroid hormones modulate the Th2/Treg immune balance that drives the anti-DSG3 IgG (B cell already mapped) autoimmune response of pemphigus vulgaris; iodide excess can also trigger autoimmune skin flares."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "PV copper: copper-dependent lysyl oxidase and ceruloplasmin-mediated reactive-oxygen-species modulate keratinocyte (skin already mapped) adhesion and the inflammatory microenvironment driving the anti-DSG3 IgG autoimmune acantholysis of pemphigus vulgaris."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "PV phosphorus: phosphorus as ATP drives PI3K/AKT/mTOR (mTOR already mapped) energy cascades in B cells (already mapped) and keratinocytes (skin already mapped) sustaining the anti-DSG3 autoimmune IgG response of pemphigus vulgaris."
 ---
 
 # Pemphigus Vulgaris
@@ -815,6 +824,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — PV serotonin: serotonin modulates mast-cell (already mapped) degranulation and Th2 (IL-4 already mapped) activity in pemphigus-vulgaris skin lesions; stress-induced serotonin fluctuations amplify the desmoglein-directed autoimmune IgG response of pemphigus vulgaris.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — PV vasopressin: vasopressin via V1aR on keratinocytes (skin already mapped) and T cells (already mapped) modulates the HPA-axis stress-immune response, influencing the psychosocial-stress triggered autoimmune flares of pemphigus vulgaris.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — PV calcium: calcium is required for desmoglein-3 (DSG3; the target autoantigen of pemphigus vulgaris) cadherin-based keratinocyte adhesion; calcium-dependent desmosomal assembly is disrupted by the anti-DSG3 IgG (B cell already mapped) autoantibody, triggering acantholysis.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — PV iodine: iodine-dependent thyroid hormones modulate the Th2/Treg immune balance that drives the anti-DSG3 IgG (B cell already mapped) autoimmune response of pemphigus vulgaris; iodide excess can also trigger autoimmune skin flares.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — PV copper: copper-dependent lysyl oxidase and ceruloplasmin-mediated reactive-oxygen-species modulate keratinocyte (skin already mapped) adhesion and the inflammatory microenvironment driving the anti-DSG3 IgG autoimmune acantholysis of pemphigus vulgaris.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — PV phosphorus: phosphorus as ATP drives PI3K/AKT/mTOR (mTOR already mapped) energy cascades in B cells (already mapped) and keratinocytes (skin already mapped) sustaining the anti-DSG3 autoimmune IgG response of pemphigus vulgaris.
 
 ---
 

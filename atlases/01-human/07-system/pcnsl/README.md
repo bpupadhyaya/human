@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "PCNSL prolactin: prolactin promotes B-cell survival and class-switching via JAK2/STAT5 (already mapped) signalling, amplifying the malignant CNS B-cell proliferation and CXCR4 (already mapped)-mediated CNS compartmentalisation of primary CNS lymphoma."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "PCNSL oxytocin: oxytocin modulates CNS immune surveillance and blood-brain barrier integrity, intersecting the neuroinflammatory microenvironment (microglia already mapped) and B-cell proliferation (BCR already mapped) underlying primary CNS lymphoma compartmentalisation."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "PCNSL vasopressin: vasopressin via AVPR modulates blood-brain barrier permeability and CNS fluid homeostasis, influencing the immune-privileged compartment that permits primary CNS lymphoma escape from systemic immune surveillance (NF-κB already mapped)."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "PCNSL selenium: selenium-dependent glutathione peroxidase (GPX) quenches reactive-oxygen-species driving genomic instability and lymphoma-promoting NF-κB (already mapped) signalling in the malignant B cells of primary CNS lymphoma."
 ---
 
 # Primary CNS Lymphoma
@@ -777,6 +786,9 @@ Score 0-1: 2-year OS ~80%; Score 2-3: ~48%; Score 4-5: ~15%
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — PCNSL androgen axis: testosterone via androgen receptor modulates CNS B-cell proliferation and the blood-brain barrier permeability governing PCNSL compartmentalisation, intersecting the BCR (already mapped) and PI3K/AKT (already mapped) signalling pathways.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — PCNSL serotonin: serotonin modulates CNS immune microenvironment and B-cell proliferation underlying primary CNS lymphoma, and serotonin receptor signalling on CNS B-cell lymphoma cells intersects the BCR (already mapped) and PI3K/AKT (already mapped) pathways.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — PCNSL prolactin: prolactin promotes B-cell survival and class-switching via JAK2/STAT5 (already mapped) signalling, amplifying the malignant CNS B-cell proliferation and CXCR4 (already mapped)-mediated CNS compartmentalisation of primary CNS lymphoma.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — PCNSL oxytocin: oxytocin modulates CNS immune surveillance and blood-brain barrier integrity, intersecting the neuroinflammatory microenvironment (microglia already mapped) and B-cell proliferation (BCR already mapped) underlying primary CNS lymphoma compartmentalisation.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — PCNSL vasopressin: vasopressin via AVPR modulates blood-brain barrier permeability and CNS fluid homeostasis, influencing the immune-privileged compartment that permits primary CNS lymphoma escape from systemic immune surveillance (NF-κB already mapped).
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — PCNSL selenium: selenium-dependent glutathione peroxidase (GPX) quenches reactive-oxygen-species driving genomic instability and lymphoma-promoting NF-κB (already mapped) signalling in the malignant B cells of primary CNS lymphoma.
 
 [^bromberg-2019-hovon105]: Bromberg JE, Issa S, Bakunina K, et al. Rituximab in patients with primary CNS lymphoma (HOVON 105/ALLG NHL 24): a randomised, open-label, phase 3 intergroup study. *Lancet Oncol.* 2019;20(2):216-228. [doi:10.1016/S1470-2045(18)30747-2](https://doi.org/10.1016/S1470-2045(18)30747-2) · [PubMed 30528440](https://pubmed.ncbi.nlm.nih.gov/30528440/)
 [^grommes-2017-ibrutinib-pcnsl]: Grommes C, Pastore A, Palaskas N, et al. Ibrutinib unmasks critical role of Bruton tyrosine kinase in primary CNS lymphoma. *Cancer Cell.* 2017;31(6):833-843. [doi:10.1016/j.ccell.2017.04.012](https://doi.org/10.1016/j.ccell.2017.04.012) · [PubMed 28552327](https://pubmed.ncbi.nlm.nih.gov/28552327/)
