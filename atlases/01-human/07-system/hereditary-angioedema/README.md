@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/oxytocin
     relation: connects-to
     note: "Neuroimmune–kinin modulation: oxytocin, acting via OXT receptors on vascular endothelium (already mapped), modulates the contact-kinin (bradykinin and C1-esterase inhibitor already mapped) pathway and may influence the oedema susceptibility of hereditary angioedema."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "HAE serotonin: serotonin, released by mast cells (already mapped) and platelets (already mapped) during HAE attacks, amplifies the bradykinin (already mapped) mediated vascular permeability; 5-HT receptor signalling on endothelial cells (already mapped) worsens the oedema."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "HAE vasopressin: vasopressin (ADH) is a known trigger of hereditary angioedema attacks via oestrogen-like amplification of bradykinin (already mapped) production; vasopressin potentiates endothelial-cell (already mapped) permeability and the mast-cell (already mapped) response."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "HAE selenium: selenoprotein antioxidants protect endothelial cells (already mapped) from the oxidative burst during HAE attacks; selenium deficiency amplifies NF-κB (already mapped) and the IL-6 (already mapped) mediated angioedematous mast-cell (already mapped) cascade."
 ---
 
 # Hereditary Angioedema
@@ -798,6 +807,9 @@ Fluid extravasation → ANGIOEDEMA
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian oedema rhythm: melatonin regulates the circadian pattern of the contact-kinin system (bradykinin and C1-esterase inhibitor already mapped), and disrupted circadian rhythms may influence the nocturnal attack frequency of hereditary angioedema.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Hormonal oedema trigger: prolactin, a physiological trigger of oedematous attacks in some women with hereditary angioedema, stimulates the hepatic oestrogen response element that drives the C1-esterase-inhibitor (already mapped) deficiency and bradykinin excess.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Neuroimmune–kinin modulation: oxytocin, acting via OXT receptors on vascular endothelium (already mapped), modulates the contact-kinin (bradykinin and C1-esterase inhibitor already mapped) pathway and may influence the oedema susceptibility of hereditary angioedema.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — HAE serotonin: serotonin, released by mast cells (already mapped) and platelets (already mapped) during HAE attacks, amplifies the bradykinin (already mapped) mediated vascular permeability; 5-HT receptor signalling on endothelial cells (already mapped) worsens the oedema.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — HAE vasopressin: vasopressin (ADH) is a known trigger of hereditary angioedema attacks via oestrogen-like amplification of bradykinin (already mapped) production; vasopressin potentiates endothelial-cell (already mapped) permeability and the mast-cell (already mapped) response.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — HAE selenium: selenoprotein antioxidants protect endothelial cells (already mapped) from the oxidative burst during HAE attacks; selenium deficiency amplifies NF-κB (already mapped) and the IL-6 (already mapped) mediated angioedematous mast-cell (already mapped) cascade.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)
