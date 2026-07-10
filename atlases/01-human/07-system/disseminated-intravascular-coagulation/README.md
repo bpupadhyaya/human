@@ -499,6 +499,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Remodelling axis: periostin, released from the injured endothelium (already mapped) and fibroblasts during the DIC-related vascular injury, contributes to the tissue remodelling and repair after the consumptive coagulopathy."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian-coagulopathy axis: melatonin, via MT1/MT2 receptors and its antioxidant activity, modulates the oxidative stress of the systemic inflammatory response (cytokine-storm already mapped) and the endothelial injury that triggers DIC."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Sex-hormone coagulation axis: testosterone, via androgen receptors on endothelium (already mapped) and platelets (already mapped), modulates the coagulation cascade and the sex-differential thrombotic risk of the consumptive coagulopathy of DIC."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Immunostimulatory prolactin axis: prolactin, via PRL receptors on T cells (already mapped) and macrophages (already mapped), amplifies the cytokine production and the systemic inflammatory activation that can trigger the consumptive coagulopathy of DIC."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -790,6 +799,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-DIC axis: TSLP, from the septic or inflammatory epithelium, primes dendritic cells and mast cells (already mapped) and amplifies the cytokine storm (already mapped) and the systemic inflammatory response that triggers disseminated intravascular coagulation.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — EPO-DIC axis: erythropoietin, upregulated by the HIF-1α (already mapped) hypoxia of DIC-related multi-organ injury, mobilises erythroid progenitors and modulates macrophage (already mapped) polarisation, linking the anaemia of DIC to the inflammatory coagulopathy.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Remodelling axis: periostin, released from the injured endothelium (already mapped) and fibroblasts during the DIC-related vascular injury, contributes to the tissue remodelling and repair after the consumptive coagulopathy.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-coagulopathy axis: melatonin, via MT1/MT2 receptors and its antioxidant activity, modulates the oxidative stress of the systemic inflammatory response (cytokine-storm already mapped) and the endothelial injury that triggers DIC.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Sex-hormone coagulation axis: testosterone, via androgen receptors on endothelium (already mapped) and platelets (already mapped), modulates the coagulation cascade and the sex-differential thrombotic risk of the consumptive coagulopathy of DIC.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Immunostimulatory prolactin axis: prolactin, via PRL receptors on T cells (already mapped) and macrophages (already mapped), amplifies the cytokine production and the systemic inflammatory activation that can trigger the consumptive coagulopathy of DIC.
 
 ---
 

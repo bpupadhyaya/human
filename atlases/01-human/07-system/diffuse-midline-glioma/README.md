@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "EPO-DMG axis: erythropoietin, induced by the HIF-1α (already mapped) hypoxia of the DMG tumour core, activates the EPOR on H3K27M-mutant (already mapped) glioma cells and modulates macrophage/microglia (already mapped) polarisation."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell DMG axis: histamine, from the mast cells (already mapped) in the DMG tumour microenvironment and brain border compartments, amplifies the blood-brain-barrier permeability and the immunosuppressive neuroinflammatory milieu of DMG."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian-H3K27M axis: melatonin, via MT1/MT2 receptors on H3K27M-mutant (already mapped) glioma cells and microglia (already mapped), modulates the epigenetic-hypoxic (HIF-1α already mapped) stress and the immunosuppressive milieu of DMG."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical complement regulation: the C1-esterase inhibitor regulates the classical complement pathway (C5 and C5aR1 already mapped) whose activation can contribute to the neuroinflammatory milieu and the blood-brain-barrier disruption of DMG."
 ---
 
 # Diffuse Midline Glioma
@@ -790,6 +799,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-DMG axis: TSLP, from the DMG stromal cells and astrocytes (already mapped), primes dendritic cells (already mapped) and amplifies the Th2-skewed immunosuppressive microenvironment of the H3K27M-mutant (already mapped) diffuse midline glioma.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-DMG axis: bradykinin, via B1/B2 receptors on the DMG tumour endothelium (already mapped) and microglia (already mapped), augments blood-brain-barrier permeability, oedema, and the inflammatory milieu of diffuse midline glioma.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — EPO-DMG axis: erythropoietin, induced by the HIF-1α (already mapped) hypoxia of the DMG tumour core, activates the EPOR on H3K27M-mutant (already mapped) glioma cells and modulates macrophage/microglia (already mapped) polarisation.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell DMG axis: histamine, from the mast cells (already mapped) in the DMG tumour microenvironment and brain border compartments, amplifies the blood-brain-barrier permeability and the immunosuppressive neuroinflammatory milieu of DMG.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-H3K27M axis: melatonin, via MT1/MT2 receptors on H3K27M-mutant (already mapped) glioma cells and microglia (already mapped), modulates the epigenetic-hypoxic (HIF-1α already mapped) stress and the immunosuppressive milieu of DMG.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical complement regulation: the C1-esterase inhibitor regulates the classical complement pathway (C5 and C5aR1 already mapped) whose activation can contribute to the neuroinflammatory milieu and the blood-brain-barrier disruption of DMG.
 
 ---
 
