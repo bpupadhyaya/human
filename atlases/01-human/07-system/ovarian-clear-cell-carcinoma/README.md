@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "OCCC vasopressin: vasopressin via V1a receptors on ovarian-clear-cell-carcinoma stroma activates Gαq-PKC-IP3 signalling, converging on mTOR (already mapped) and NF-κB (already mapped) pro-survival cascades in the peritoneal implantation microenvironment."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "OCCC selenium: selenium, as GPx in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges ROS in the OCCC tumour microenvironment; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "OCCC iodine: iodine-dependent thyroid hormones regulate macrophage (already mapped) polarisation and T-cytotoxic (already mapped) immune surveillance; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade of OCCC."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "OCCC sodium: excess sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) anti-tumour suppression in OCCC."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -817,6 +826,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — OCCC prolactin: prolactin via JAK2/STAT3 activates ovarian-clear-cell-carcinoma cells and macrophages (already mapped), amplifying mTOR (already mapped) and NF-κB (already mapped)-driven proliferation in the ARID1A (already mapped)-deficient microenvironment.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — OCCC oxytocin: oxytocin receptors on ovarian-clear-cell-carcinoma cells couple to Gαq-PKC, cross-activating mTOR (already mapped) and PI3K/AKT (already mapped) proliferative cascades in the chemoresistant ARID1A (already mapped)-mutant microenvironment.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — OCCC vasopressin: vasopressin via V1a receptors on ovarian-clear-cell-carcinoma stroma activates Gαq-PKC-IP3 signalling, converging on mTOR (already mapped) and NF-κB (already mapped) pro-survival cascades in the peritoneal implantation microenvironment.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — OCCC selenium: selenium, as GPx in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges ROS in the OCCC tumour microenvironment; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — OCCC iodine: iodine-dependent thyroid hormones regulate macrophage (already mapped) polarisation and T-cytotoxic (already mapped) immune surveillance; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade of OCCC.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — OCCC sodium: excess sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) anti-tumour suppression in OCCC.
 
 ---
 
