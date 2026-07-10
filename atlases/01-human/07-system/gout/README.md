@@ -508,6 +508,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Prolactin-gout axis: prolactin, acting on macrophage (already mapped) prolactin receptors, amplifies NLRP3 (already mapped) inflammasome priming and the IL-1β (already mapped) cytokine burst of the acute gouty inflammatory attack."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Gout oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates the acute gouty inflammatory cascade; oxytocin deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) neutrophil-dominated cascade of gout."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Gout vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates periarticular vascular tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) NLRP3-driven cascade of gout."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Gout selenium: selenium, via selenoprotein antioxidant activity in macrophages (already mapped) and neutrophils (already mapped), suppresses the oxidative amplification of the NF-κB (already mapped) and TNF-α (already mapped) NLRP3-inflammasome cascade of gout."
 ---
 
 # Gout
@@ -764,6 +773,9 @@ The central mechanism linking MSU crystals to acute gouty arthritis is **NLRP3 i
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-gout axis: testosterone, via androgen receptor signalling on renal tubular urate transporters (SLC22A12/URAT1 pathway) and macrophages (already mapped), modulates renal urate reabsorption and the well-established male sex predominance of gout.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Serotonin-gout axis: serotonin, released by activated platelets (already mapped) during the acute gouty attack, amplifies the periarticular vascular response, pain signalling, and the NLRP3 (already mapped) inflammasome-driven inflammatory cascade of gout.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Prolactin-gout axis: prolactin, acting on macrophage (already mapped) prolactin receptors, amplifies NLRP3 (already mapped) inflammasome priming and the IL-1β (already mapped) cytokine burst of the acute gouty inflammatory attack.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Gout oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates the acute gouty inflammatory cascade; oxytocin deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) neutrophil-dominated cascade of gout.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Gout vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates periarticular vascular tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) NLRP3-driven cascade of gout.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Gout selenium: selenium, via selenoprotein antioxidant activity in macrophages (already mapped) and neutrophils (already mapped), suppresses the oxidative amplification of the NF-κB (already mapped) and TNF-α (already mapped) NLRP3-inflammasome cascade of gout.
 
 [^dalbeth-2019-gout-primer]: Dalbeth N, Choi HK, Joosten LAB, et al. Gout. *Nat Rev Dis Primers.* 2019;5(1):69. [doi:10.1038/s41572-019-0115-y](https://doi.org/10.1038/s41572-019-0115-y) · [PubMed 31558729](https://pubmed.ncbi.nlm.nih.gov/31558729/)
 [^martinon-2006-nlrp3-gout]: Martinon F, Pétrilli V, Mayor A, Tardivel A, Tschopp J. Gout-associated uric acid crystals activate the NALP3 inflammasome. *Nature.* 2006;440(7081):237-241. [doi:10.1038/nature04516](https://doi.org/10.1038/nature04516) · [PubMed 16407889](https://pubmed.ncbi.nlm.nih.gov/16407889/)

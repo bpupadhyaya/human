@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/testosterone
     relation: connects-to
     note: "Androgen-HBOC axis: testosterone, via androgen receptor signalling on BRCA-deficient (already mapped) breast and ovarian tumour cells, modulates HER2 (already mapped) and PARP-inhibitor sensitivity, and the sex-biased hormonal milieu of HBOC-associated cancers."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "HBOC prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the BRCA-deficient immune TME; hyperprolactinaemia amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of HBOC."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "HBOC oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates tumour-promoting inflammation; oxytocin deficiency amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of HBOC."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "HBOC vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates the TME; vasopressin dysregulation amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) antitumour cascade of hereditary breast-ovarian cancer."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -799,6 +808,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histamine-HBOC axis: histamine, from mast cells in the HBOC tumour stroma, signals via H1/H2 receptors on BRCA-deficient (already mapped) tumour cells, promoting angiogenesis, immune evasion, and the pro-tumourigenic milieu of HBOC-associated breast and ovarian cancers.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Melatonin-HBOC axis: melatonin, via MT1/MT2 receptors on BRCA-deficient (already mapped) tumour cells, suppresses HIF-1α (already mapped) and oestrogen-receptor-driven proliferation, modulates circadian breast-cancer risk, and enhances PARP-inhibitor sensitivity.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-HBOC axis: testosterone, via androgen receptor signalling on BRCA-deficient (already mapped) breast and ovarian tumour cells, modulates HER2 (already mapped) and PARP-inhibitor sensitivity, and the sex-biased hormonal milieu of HBOC-associated cancers.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — HBOC prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the BRCA-deficient immune TME; hyperprolactinaemia amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of HBOC.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — HBOC oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates tumour-promoting inflammation; oxytocin deficiency amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of HBOC.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — HBOC vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates the TME; vasopressin dysregulation amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) antitumour cascade of hereditary breast-ovarian cancer.
 
 ---
 
