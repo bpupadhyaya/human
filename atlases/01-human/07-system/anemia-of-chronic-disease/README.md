@@ -526,6 +526,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "ACD magnesium: magnesium supports erythropoietin (already mapped) signalling in erythropoiesis; magnesium deficiency amplifies macrophage (already mapped) NF-κB (already mapped) and IL-6 (already mapped)-hepcidin (already mapped) iron-sequestration of anemia of chronic disease."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "ACD potassium: potassium regulates macrophage (already mapped) and erythrocyte (already mapped) membrane function; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration cascade in ACD."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "ACD calcium: calcium regulates macrophage (already mapped) NLRP3 (already mapped) inflammasome activation; calcium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepcidin (already mapped) iron-restriction cascade in ACD."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "ACD phosphorus: phosphorus fuels erythropoietin (already mapped) signalling and erythrocyte (already mapped) ATP; phosphorus deficiency amplifies macrophage (already mapped) NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration in ACD."
 ---
 
 # Anemia of Chronic Disease
@@ -819,6 +828,9 @@ This adaptive rationale explains why **aggressive iron supplementation during ac
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Thyroid-erythropoiesis axis: iodine-dependent thyroid hormones regulate erythropoiesis (erythropoietin already mapped) and erythrocyte (already mapped); iodine deficiency amplifies the IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration cascade of anemia of chronic disease.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Hepcidin-inflammatory amplifier: sodium dysregulation amplifies the macrophage (already mapped) NF-κB (already mapped) inflammatory signalling that upregulates hepcidin (already mapped); sodium excess activates the IL-6 (already mapped) cascade driving iron-sequestration of anemia of chronic disease.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — ACD magnesium: magnesium supports erythropoietin (already mapped) signalling in erythropoiesis; magnesium deficiency amplifies macrophage (already mapped) NF-κB (already mapped) and IL-6 (already mapped)-hepcidin (already mapped) iron-sequestration of anemia of chronic disease.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — ACD potassium: potassium regulates macrophage (already mapped) and erythrocyte (already mapped) membrane function; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration cascade in ACD.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — ACD calcium: calcium regulates macrophage (already mapped) NLRP3 (already mapped) inflammasome activation; calcium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepcidin (already mapped) iron-restriction cascade in ACD.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — ACD phosphorus: phosphorus fuels erythropoietin (already mapped) signalling and erythrocyte (already mapped) ATP; phosphorus deficiency amplifies macrophage (already mapped) NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration in ACD.
 
 [^weiss-2005-acd-review]: Weiss G, Goodnough LT. Anemia of chronic disease. *N Engl J Med.* 2005;352(10):1011-1023. [doi:10.1056/NEJMra041809](https://doi.org/10.1056/NEJMra041809) · [PubMed 15758012](https://pubmed.ncbi.nlm.nih.gov/15758012/)
 [^nemeth-2004-il6-hepcidin]: Nemeth E, Rivera S, Gabayan V, et al. IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin. *J Clin Invest.* 2004;113(9):1271-1276. [doi:10.1172/JCI200420945](https://doi.org/10.1172/JCI200420945) · [PubMed 15124018](https://pubmed.ncbi.nlm.nih.gov/15124018/)
