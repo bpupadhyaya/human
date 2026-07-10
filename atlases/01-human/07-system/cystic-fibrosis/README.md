@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/iodine
     relation: connects-to
     note: "CF iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and airway epithelial (already mapped) repair; iodine deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) CF airway cascade."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "CF copper: copper supports macrophage (already mapped) and neutrophil (already mapped) bactericidal function; copper deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) airway infection cascade of cystic fibrosis."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "CF phosphorus: phosphorus, as ATP in macrophages (already mapped) and neutrophils (already mapped), fuels antimicrobial signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) airway cascade of CF."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "CF sulfur: sulfur-containing glutathione in macrophages (already mapped) and neutrophils (already mapped) scavenges ROS; sulfur deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) oxidative airway cascade of CF."
 ---
 
 # Cystic Fibrosis
@@ -815,6 +824,9 @@ AND
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — CF serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates airway inflammation; serotonin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) neutrophil-dominated cascade of cystic fibrosis.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — CF selenium: selenium, as GPx in macrophages (already mapped) and neutrophils (already mapped), scavenges ROS; selenium deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) oxidative neutrophilic cascade of cystic fibrosis.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — CF iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and airway epithelial (already mapped) repair; iodine deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) CF airway cascade.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — CF copper: copper supports macrophage (already mapped) and neutrophil (already mapped) bactericidal function; copper deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) airway infection cascade of cystic fibrosis.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — CF phosphorus: phosphorus, as ATP in macrophages (already mapped) and neutrophils (already mapped), fuels antimicrobial signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) airway cascade of CF.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — CF sulfur: sulfur-containing glutathione in macrophages (already mapped) and neutrophils (already mapped) scavenges ROS; sulfur deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) oxidative airway cascade of CF.
 
 ---
 

@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "Cowden sodium: high dietary sodium promotes Th17 polarisation and disrupts T-cytotoxic (already mapped) immune tolerance; sodium-induced NF-κB and IL-6 (already mapped) skewing amplifies the mast-cell (already mapped) cascade of Cowden syndrome."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Cowden magnesium: magnesium cofactors kinase signalling in macrophages (already mapped) and mast cells (already mapped); magnesium deficiency amplifies IL-6 (already mapped) and T-cytotoxic (already mapped) and mast-cell (already mapped) cascade of Cowden syndrome."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Cowden copper: copper supports macrophage (already mapped) and mast-cell (already mapped) function; copper deficiency amplifies IL-6 (already mapped) and T-cytotoxic (already mapped) and mast-cell (already mapped) anti-tumour cascade of Cowden syndrome."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Cowden zinc: zinc cofactors macrophage (already mapped) and T-cytotoxic (already mapped) anti-tumour immune function; zinc deficiency amplifies IL-6 (already mapped) and mast-cell (already mapped) tumour-promoting cascade of Cowden syndrome."
 ---
 
 # Cowden Syndrome
@@ -867,6 +876,9 @@ cross_links:
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Cowden oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates the PTEN-hamartoma TME inflammation; oxytocin deficiency amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) antitumour cascade of Cowden syndrome.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Cowden vasopressin: vasopressin, via V1aR on mast cells (already mapped) and endothelium (already mapped), modulates the hamartoma vascular milieu; vasopressin dysregulation amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of Cowden syndrome.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Cowden sodium: high dietary sodium promotes Th17 polarisation and disrupts T-cytotoxic (already mapped) immune tolerance; sodium-induced NF-κB and IL-6 (already mapped) skewing amplifies the mast-cell (already mapped) cascade of Cowden syndrome.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Cowden magnesium: magnesium cofactors kinase signalling in macrophages (already mapped) and mast cells (already mapped); magnesium deficiency amplifies IL-6 (already mapped) and T-cytotoxic (already mapped) and mast-cell (already mapped) cascade of Cowden syndrome.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Cowden copper: copper supports macrophage (already mapped) and mast-cell (already mapped) function; copper deficiency amplifies IL-6 (already mapped) and T-cytotoxic (already mapped) and mast-cell (already mapped) anti-tumour cascade of Cowden syndrome.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Cowden zinc: zinc cofactors macrophage (already mapped) and T-cytotoxic (already mapped) anti-tumour immune function; zinc deficiency amplifies IL-6 (already mapped) and mast-cell (already mapped) tumour-promoting cascade of Cowden syndrome.
 
 ---
 
