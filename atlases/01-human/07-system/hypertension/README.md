@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/02-atomic/iodine
     relation: connects-to
     note: "Hypertension iodine: iodine, via thyroid hormone biosynthesis, modulates cardiomyocyte (already mapped) contractility and vascular tone; iodine deficiency amplifies the NF-κB (already mapped) and aldosterone (already mapped) cardiovascular cascade of hypertension."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Hypertension copper: copper, as cofactor of SOD1 in macrophages (already mapped) and mast cells (already mapped), neutralises ROS; copper deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) vascular oxidative cascade of hypertension."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Hypertension zinc: zinc, as cofactor of antioxidant enzymes in macrophages (already mapped) and mast cells (already mapped), neutralises ROS; zinc deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) vascular inflammatory cascade of hypertension."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "Hypertension phosphorus: phosphorus, as ATP precursor in macrophages (already mapped) and T-cytotoxic cells (already mapped), supports immune energy; phosphorus deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of hypertension."
 ---
 
 # Hypertension
@@ -766,6 +775,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Hypertension oxytocin: oxytocin, via OXTR on cardiomyocytes (already mapped) and macrophages (already mapped), attenuates inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of hypertension.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Hypertension selenium: selenium, as an antioxidant cofactor for glutathione peroxidases, attenuates oxidative vascular stress; selenium deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) endothelial (already mapped) cascade of hypertension.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Hypertension iodine: iodine, via thyroid hormone biosynthesis, modulates cardiomyocyte (already mapped) contractility and vascular tone; iodine deficiency amplifies the NF-κB (already mapped) and aldosterone (already mapped) cardiovascular cascade of hypertension.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Hypertension copper: copper, as cofactor of SOD1 in macrophages (already mapped) and mast cells (already mapped), neutralises ROS; copper deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) vascular oxidative cascade of hypertension.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Hypertension zinc: zinc, as cofactor of antioxidant enzymes in macrophages (already mapped) and mast cells (already mapped), neutralises ROS; zinc deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) vascular inflammatory cascade of hypertension.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Hypertension phosphorus: phosphorus, as ATP precursor in macrophages (already mapped) and T-cytotoxic cells (already mapped), supports immune energy; phosphorus deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of hypertension.
 
 ## Pathology
 
