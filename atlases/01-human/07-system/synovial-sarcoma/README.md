@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/serotonin
     relation: connects-to
     note: "SyS serotonin: serotonin produced by neuroendocrine-differentiated synovial-sarcoma cells drives autocrine 5-HT receptor proliferative signalling and promotes tumour angiogenesis (VEGF already mapped), contributing to the disease progression of this SYT-SSX-rearranged sarcoma."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "SyS oxytocin: oxytocin receptor on synovial-sarcoma cells attenuates SS18-SSX (already mapped) transcriptional reprogramming and WNT/β-catenin (already mapped) signalling; oxytocin-driven cAMP/PKA activation limits YAP1 (already mapped) co-activator-mediated tumour proliferation."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "SyS vasopressin: vasopressin V1A receptors on synovial-sarcoma cells activate SRC-kinase (already mapped) and ERK1/2 (already mapped), amplifying the SS18-SSX (already mapped)-driven transcriptional reprogramming of this SYT-rearranged soft-tissue sarcoma."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "SyS selenium: selenium-dependent GPX4 suppresses ferroptosis-resistance in synovial-sarcoma; GPX4 inhibition synergises with EZH2 (already mapped) targeted therapy to overcome epigenetic reprogramming driven by the SS18-SSX (already mapped) fusion oncoprotein."
 ---
 
 # Synovial Sarcoma
@@ -789,6 +798,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — SyS melatonin: melatonin suppresses synovial-sarcoma proliferation via MT1/MT2 receptor-mediated inhibition of mTOR (already mapped) and ERK1/2 (already mapped) signalling, while enhancing NK-cell (already mapped) cytotoxicity against the SS18-SSX-driven tumour.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — SyS testosterone: androgen receptor is expressed by a subset of synovial-sarcoma cells; testosterone drives androgen receptor-mediated upregulation of SS18-SSX (already mapped) transcriptional programme, and androgen-axis suppression reduces synovial-sarcoma tumour proliferation.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — SyS serotonin: serotonin produced by neuroendocrine-differentiated synovial-sarcoma cells drives autocrine 5-HT receptor proliferative signalling and promotes tumour angiogenesis (VEGF already mapped), contributing to the disease progression of this SYT-SSX-rearranged sarcoma.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — SyS oxytocin: oxytocin receptor on synovial-sarcoma cells attenuates SS18-SSX (already mapped) transcriptional reprogramming and WNT/β-catenin (already mapped) signalling; oxytocin-driven cAMP/PKA activation limits YAP1 (already mapped) co-activator-mediated tumour proliferation.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — SyS vasopressin: vasopressin V1A receptors on synovial-sarcoma cells activate SRC-kinase (already mapped) and ERK1/2 (already mapped), amplifying the SS18-SSX (already mapped)-driven transcriptional reprogramming of this SYT-rearranged soft-tissue sarcoma.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — SyS selenium: selenium-dependent GPX4 suppresses ferroptosis-resistance in synovial-sarcoma; GPX4 inhibition synergises with EZH2 (already mapped) targeted therapy to overcome epigenetic reprogramming driven by the SS18-SSX (already mapped) fusion oncoprotein.
 
 ---
 

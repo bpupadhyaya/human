@@ -508,6 +508,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "SSc selenium: selenium selenoproteins counter the oxidative stress driving endothelial injury and fibroblast (already mapped) activation in systemic sclerosis; selenium deficiency amplifies NF-κB (already mapped) inflammation and worsens the pulmonary fibrosis of the disease."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "SSc iodine: iodine-dependent thyroid hormones modulate fibroblast (already mapped) and TGF-β (already mapped)-driven collagen deposition in systemic sclerosis; autoimmune thyroid disease (Hashimoto thyroiditis) coexists in SSc and amplifies fibrotic and vascular manifestations."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "SSc sodium: sodium-driven osmotic Th17 polarisation amplifies NF-κB (already mapped) and IL-17A (already mapped)-mediated vascular and fibroblast (already mapped) activation in systemic sclerosis; high dietary sodium worsens inflammatory and fibrotic phases of scleroderma."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "SSc magnesium: magnesium deficiency amplifies NF-κB (already mapped) and TGF-β (already mapped)-driven fibroblast (already mapped) activation in systemic sclerosis; magnesium-dependent enzymes regulate collagen cross-linking and fibrotic remodelling of scleroderma."
 ---
 
 # Systemic Sclerosis
@@ -785,6 +794,9 @@ Identical to IPAH: medial hypertrophy, intimal fibrosis, concentric laminar inti
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — SSc testosterone: testosterone exerts anti-fibrotic effects in systemic sclerosis; androgen deficiency contributes to the female sex predominance, and androgen-receptor signalling on fibroblasts (already mapped) modulates TGF-β (already mapped)-driven collagen deposition.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — SSc vasopressin: vasopressin (ADH) modulates renal water retention (kidney already mapped) and vascular tone in systemic sclerosis; in scleroderma renal crisis, AVP-mediated vasoconstriction amplifies the angiotensin-II (already mapped)-driven hypertensive emergency.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — SSc selenium: selenium selenoproteins counter the oxidative stress driving endothelial injury and fibroblast (already mapped) activation in systemic sclerosis; selenium deficiency amplifies NF-κB (already mapped) inflammation and worsens the pulmonary fibrosis of the disease.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — SSc iodine: iodine-dependent thyroid hormones modulate fibroblast (already mapped) and TGF-β (already mapped)-driven collagen deposition in systemic sclerosis; autoimmune thyroid disease (Hashimoto thyroiditis) coexists in SSc and amplifies fibrotic and vascular manifestations.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — SSc sodium: sodium-driven osmotic Th17 polarisation amplifies NF-κB (already mapped) and IL-17A (already mapped)-mediated vascular and fibroblast (already mapped) activation in systemic sclerosis; high dietary sodium worsens inflammatory and fibrotic phases of scleroderma.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — SSc magnesium: magnesium deficiency amplifies NF-κB (already mapped) and TGF-β (already mapped)-driven fibroblast (already mapped) activation in systemic sclerosis; magnesium-dependent enzymes regulate collagen cross-linking and fibrotic remodelling of scleroderma.
 
 [^denton-2017-ssc-review]: Denton CP, Khanna D. Systemic sclerosis. *Lancet.* 2017;390(10103):1685-1699. [doi:10.1016/S0140-6736(17)30933-9](https://doi.org/10.1016/S0140-6736(17)30933-9) · [PubMed 28413064](https://pubmed.ncbi.nlm.nih.gov/28413064/)
 [^distler-2019-nintedanib-senscis]: Distler O, Highland KB, Gahlemann M, et al. Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease. *N Engl J Med.* 2019;380(26):2518-2528. [doi:10.1056/NEJMoa1903076](https://doi.org/10.1056/NEJMoa1903076) · [PubMed 31112379](https://pubmed.ncbi.nlm.nih.gov/31112379/)
