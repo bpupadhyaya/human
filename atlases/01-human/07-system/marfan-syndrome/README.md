@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/02-atomic/iodine
     relation: connects-to
     note: "Marfan iodine thyroid: iodine, the key substrate for thyroid hormone biosynthesis, supports fibroblast (already mapped) and smooth muscle (already mapped) matrix homeostasis; iodine insufficiency amplifies TGF-β (already mapped) and NF-κB (already mapped) remodelling in Marfan."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Marfan sodium: sodium-driven endothelial-cell (already mapped) stiffness amplifies NF-κB (already mapped) and TGF-β (already mapped) aortic remodelling; high sodium promotes macrophage (already mapped) and mast-cell (already mapped) activation in the Marfan aortic wall."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Marfan potassium: potassium channels regulate smooth-muscle (already mapped) contractility and endothelial-cell (already mapped) function in the Marfan aorta; potassium depletion amplifies NF-κB (already mapped) and TGF-β (already mapped) aortic remodelling cascade."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "Marfan phosphorus: phosphorus, as ATP precursor in fibroblasts (already mapped) and endothelial cells (already mapped), supports extracellular matrix homeostasis; phosphorus deficiency amplifies NF-κB (already mapped) and TGF-β (already mapped) remodelling in Marfan syndrome."
 ---
 
 # Marfan Syndrome
@@ -814,6 +823,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Marfan vasopressin cardiac: vasopressin, via V1aR on aortic smooth muscle cells (already mapped) and macrophages (already mapped), modulates vascular tone; dysregulation amplifies TGF-β (already mapped) and NF-κB (already mapped) aortic remodelling in Marfan syndrome.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Marfan selenium antioxidant: selenium, via GPx/TrxR selenoproteins in Marfan endothelial cells (already mapped) and macrophages (already mapped), quenches oxidative stress that amplifies TGF-β (already mapped) and NF-κB (already mapped) matrix remodelling in Marfan syndrome.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Marfan iodine thyroid: iodine, the key substrate for thyroid hormone biosynthesis, supports fibroblast (already mapped) and smooth muscle (already mapped) matrix homeostasis; iodine insufficiency amplifies TGF-β (already mapped) and NF-κB (already mapped) remodelling in Marfan.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Marfan sodium: sodium-driven endothelial-cell (already mapped) stiffness amplifies NF-κB (already mapped) and TGF-β (already mapped) aortic remodelling; high sodium promotes macrophage (already mapped) and mast-cell (already mapped) activation in the Marfan aortic wall.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Marfan potassium: potassium channels regulate smooth-muscle (already mapped) contractility and endothelial-cell (already mapped) function in the Marfan aorta; potassium depletion amplifies NF-κB (already mapped) and TGF-β (already mapped) aortic remodelling cascade.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Marfan phosphorus: phosphorus, as ATP precursor in fibroblasts (already mapped) and endothelial cells (already mapped), supports extracellular matrix homeostasis; phosphorus deficiency amplifies NF-κB (already mapped) and TGF-β (already mapped) remodelling in Marfan syndrome.
 
 ---
 

@@ -514,6 +514,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "MDS selenium: selenoproteins suppress ROS-driven NF-κB (already mapped) and TNF-α (already mapped) mediated bone-marrow (already mapped) inflammation; selenium deficiency amplifies oxidative DNA damage and worsens macrophage (already mapped) immune dysregulation."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "MDS iodine: iodine-dependent thyroid hormones regulate erythropoietin (already mapped) mediated erythropoiesis; iodine deficiency impairs the NF-κB (already mapped) and IL-6 (already mapped) macrophage (already mapped) immune surveillance in myelodysplastic syndrome."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "MDS sodium: sodium-driven macrophage (already mapped) and neutrophil (already mapped) activation amplifies the NF-κB (already mapped) and TNF-α (already mapped) inflammatory cascade of MDS; excess sodium worsens bone-marrow (already mapped) haematopoietic dysregulation."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "MDS magnesium: magnesium, as cofactor of nucleotide repair enzymes in erythrocytes (already mapped) and macrophages (already mapped), supports haematopoiesis; magnesium deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) cascade of MDS."
 ---
 
 # Myelodysplastic Syndromes
@@ -790,6 +799,9 @@ MDS → AML transformation rate: ~10% at 1 year for very-low risk; ~40-50% at 2 
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — MDS oxytocin: oxytocin modulates NF-κB (already mapped) and TNF-α (already mapped) driven bone-marrow (already mapped) signalling in MDS; oxytocin also supports erythropoietin (already mapped) mediated erythropoiesis and macrophage (already mapped) immune surveillance.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — MDS vasopressin: vasopressin (ADH) amplifies NF-κB (already mapped) and IL-6 (already mapped) driven bone-marrow (already mapped) inflammation; vasopressin modulates macrophage (already mapped) TGF-β (already mapped) and erythropoietin (already mapped) mediated erythropoiesis.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — MDS selenium: selenoproteins suppress ROS-driven NF-κB (already mapped) and TNF-α (already mapped) mediated bone-marrow (already mapped) inflammation; selenium deficiency amplifies oxidative DNA damage and worsens macrophage (already mapped) immune dysregulation.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — MDS iodine: iodine-dependent thyroid hormones regulate erythropoietin (already mapped) mediated erythropoiesis; iodine deficiency impairs the NF-κB (already mapped) and IL-6 (already mapped) macrophage (already mapped) immune surveillance in myelodysplastic syndrome.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — MDS sodium: sodium-driven macrophage (already mapped) and neutrophil (already mapped) activation amplifies the NF-κB (already mapped) and TNF-α (already mapped) inflammatory cascade of MDS; excess sodium worsens bone-marrow (already mapped) haematopoietic dysregulation.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — MDS magnesium: magnesium, as cofactor of nucleotide repair enzymes in erythrocytes (already mapped) and macrophages (already mapped), supports haematopoiesis; magnesium deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) cascade of MDS.
 
 [^fenaux-2009-aza001]: Fenaux P, Mufti GJ, Hellstrom-Lindberg E, et al. Efficacy of azacitidine compared with conventional care regimens in patients with higher-risk myelodysplastic syndromes. *Lancet Oncol.* 2009;10(3):223-232. [doi:10.1016/S1470-2045(09)70003-8](https://doi.org/10.1016/S1470-2045(09)70003-8) · [PubMed 19230772](https://pubmed.ncbi.nlm.nih.gov/19230772/)
 [^fenaux-2020-medalist]: Fenaux P, Platzbecker U, Mufti GJ, et al. Luspatercept in patients with lower-risk myelodysplastic syndromes. *N Engl J Med.* 2020;382(2):140-151. [doi:10.1056/NEJMoa1908892](https://doi.org/10.1056/NEJMoa1908892) · [PubMed 31914241](https://pubmed.ncbi.nlm.nih.gov/31914241/)
