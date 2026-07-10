@@ -526,6 +526,15 @@ cross_links:
   - target: 01-human/02-atomic/copper
     relation: connects-to
     note: "MM copper: copper, as cofactor of SOD1 in macrophages (already mapped) and neutrophils (already mapped), neutralises ROS; copper deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) oxidative myeloma cascade of multiple myeloma."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "MM zinc: zinc, as cofactor of metalloproteinases in macrophages (already mapped) and B-cells (already mapped), modulates bone-marrow remodelling; zinc depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) myeloma cascade of multiple myeloma."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "MM phosphorus: phosphorus, as phospholipid and ATP in macrophages (already mapped) and B-cells (already mapped), drives plasma-cell energy metabolism; phosphorus depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of multiple myeloma."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "MM chloride: chloride channels regulate macrophage (already mapped) and B-cell (already mapped) ion homeostasis in the myeloma bone-marrow niche; chloride imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) myeloma cascade of multiple myeloma."
 ---
 
 # Multiple Myeloma
@@ -824,6 +833,9 @@ MM evolves from precursor conditions through a well-defined continuum:
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — MM iodine: iodine-dependent thyroid hormones regulate macrophage (already mapped) and B-cell (already mapped) function in the myeloma bone-marrow niche; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) myeloma cascade of multiple myeloma.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — MM magnesium: magnesium, as cofactor of DNA-repair enzymes in macrophages (already mapped) and plasma cells (already mapped), supports haematopoiesis; magnesium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) pro-myeloma cascade of multiple myeloma.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — MM copper: copper, as cofactor of SOD1 in macrophages (already mapped) and neutrophils (already mapped), neutralises ROS; copper deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) oxidative myeloma cascade of multiple myeloma.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — MM zinc: zinc, as cofactor of metalloproteinases in macrophages (already mapped) and B-cells (already mapped), modulates bone-marrow remodelling; zinc depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) myeloma cascade of multiple myeloma.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — MM phosphorus: phosphorus, as phospholipid and ATP in macrophages (already mapped) and B-cells (already mapped), drives plasma-cell energy metabolism; phosphorus depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of multiple myeloma.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — MM chloride: chloride channels regulate macrophage (already mapped) and B-cell (already mapped) ion homeostasis in the myeloma bone-marrow niche; chloride imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) myeloma cascade of multiple myeloma.
 
 [^kumar-2022-imwg-criteria]: Kumar SK, Callander NS, Adekola K, et al. Multiple myeloma, version 3.2021, NCCN clinical practice guidelines in oncology. *J Natl Compr Canc Netw.* 2020;18(12):1685-1717. [doi:10.6004/jnccn.2020.0057](https://doi.org/10.6004/jnccn.2020.0057) · [PubMed 33285519](https://pubmed.ncbi.nlm.nih.gov/33285519/)
 [^moreau-2022-teclistamab]: Moreau P, Garfall AL, van de Donk NWCJ, et al. Teclistamab in relapsed or refractory multiple myeloma. *N Engl J Med.* 2022;387(6):495-505. [doi:10.1056/NEJMoa2203478](https://doi.org/10.1056/NEJMoa2203478) · [PubMed 35661166](https://pubmed.ncbi.nlm.nih.gov/35661166/)
