@@ -526,6 +526,9 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "GAD iron: iron, as cofactor of monoamine-oxidase in neurons (already mapped), supports dopamine (already mapped) and serotonin (already mapped) synthesis; iron deficiency amplifies the HPA (cortisol already mapped) and norepinephrine (already mapped) anxiety cascade of GAD."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "GAD calcium: calcium, via voltage-gated channels on neurons (already mapped), regulates GABA (already mapped) and glutamate (already mapped) balance; calcium dysregulation amplifies NLRP3 (already mapped) and cortisol (already mapped) anxiety cascade in GAD."
 ---
 
 # Generalized Anxiety Disorder
@@ -833,6 +836,7 @@ Allow **4-8 weeks** for onset of anxiolytic effect. Continue treatment ≥12 mon
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — GABAergic inhibitory tone: potassium, via K⁺ channels on neurons (already mapped), sets GABAergic (GABA already mapped) inhibitory potential; potassium dysregulation amplifies the glutamate (already mapped) excitatory imbalance and NLRP3 (already mapped) cascade of GAD.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Neuronal ATP energetics: phosphorus, as ATP backbone in neurons (already mapped), fuels the Na⁺/K⁺-ATPase maintaining GABA (already mapped) inhibitory tone; phosphorus deficiency impairs neuronal energetics and amplifies the glutamate (already mapped) excitatory cascade of GAD.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Monoamine synthesis cofactor: iron, as cofactor of monoamine-oxidase in neurons (already mapped), supports dopamine (already mapped) and serotonin (already mapped) synthesis; iron deficiency amplifies the HPA (cortisol already mapped) and norepinephrine (already mapped) anxiety cascade of GAD.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — GAD calcium: calcium, via voltage-gated channels on neurons (already mapped), regulates GABA (already mapped) and glutamate (already mapped) balance; calcium dysregulation amplifies NLRP3 (already mapped) and cortisol (already mapped) anxiety cascade in GAD.
 
 [^kessler-2005-gad-prevalence]: Kessler RC, Berglund P, Demler O, et al. Lifetime prevalence and age-of-onset distributions of DSM-IV disorders in the NCS Replication. *Arch Gen Psychiatry.* 2005;62(6):593-602. [doi:10.1001/archpsyc.62.6.593](https://doi.org/10.1001/archpsyc.62.6.593) · [PubMed 15939837](https://pubmed.ncbi.nlm.nih.gov/15939837/)
 [^bandelow-2015-anxiety-biology]: Bandelow B, Michaelis S. Epidemiology of anxiety disorders in the 21st century. *Dialogues Clin Neurosci.* 2015;17(3):327-335. [doi:10.31887/DCNS.2015.17.3/bbandelow](https://doi.org/10.31887/DCNS.2015.17.3/bbandelow) · [PubMed 26487812](https://pubmed.ncbi.nlm.nih.gov/26487812/)

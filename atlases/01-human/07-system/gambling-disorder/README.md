@@ -504,6 +504,9 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "GD iron: iron is essential for dopamine (already mapped) synthesis in neurons (already mapped); iron deficiency impairs prefrontal dopaminergic (already mapped) circuitry and hippocampal (already mapped) neuroplasticity, amplifying impulsivity of gambling disorder."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "GD chloride: chloride via GABA(A) and KCC2 on neurons (already mapped) sets inhibitory tone; chloride dysregulation converts GABA to excitatory, amplifying NLRP3 (already mapped) and NF-κB (already mapped) and IL-1β (already mapped) reward-circuit hyperexcitability in GD."
 sources:
   - id: grant-2016-gambling-review
     type: peer-reviewed
@@ -812,6 +815,7 @@ Persistent and recurrent problematic gambling behavior causing distress (≥4 of
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — GD potassium: potassium efflux activates NLRP3 inflammasome (already mapped) in microglia (already mapped); disrupted K⁺ at neurons (already mapped) and synapses (already mapped) amplifies NF-κB (already mapped) and IL-1β (already mapped) neuroinflammation in gambling disorder.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — GD phosphorus: phosphorus drives ATP (already mapped)-dependent synaptic (already mapped) plasticity in neurons (already mapped); phosphate dysregulation impairs BDNF (already mapped) signalling and worsens reward-circuit neuroadaptations in gambling disorder.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — GD iron: iron is essential for dopamine (already mapped) synthesis in neurons (already mapped); iron deficiency impairs prefrontal dopaminergic (already mapped) circuitry and hippocampal (already mapped) neuroplasticity, amplifying impulsivity of gambling disorder.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — GD chloride: chloride via GABA(A) and KCC2 on neurons (already mapped) sets inhibitory tone; chloride dysregulation converts GABA to excitatory, amplifying NLRP3 (already mapped) and NF-κB (already mapped) and IL-1β (already mapped) reward-circuit hyperexcitability in GD.
 
 [^potenza-2014-gambling-neuroscience]: Potenza MN. The neurobiology of pathological gambling and drug addiction: an overview and new findings. *Philos Trans R Soc Lond B Biol Sci.* 2008;363(1507):3181-3189. [doi:10.1098/rstb.2008.0100](https://doi.org/10.1098/rstb.2008.0100) · [PubMed 18640909](https://pubmed.ncbi.nlm.nih.gov/18640909/)
 [^grant-2016-gambling-review]: Grant JE, Chamberlain SR. Gambling disorder and its relationship with substance use disorders. *Am J Addict.* 2015;24(2):126-131. [doi:10.1111/ajad.12112](https://doi.org/10.1111/ajad.12112) · [PubMed 25376793](https://pubmed.ncbi.nlm.nih.gov/25376793/)
