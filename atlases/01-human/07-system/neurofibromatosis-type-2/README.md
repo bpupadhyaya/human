@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/bradykinin
     relation: connects-to
     note: "Vestibular oedema: bradykinin activates B2 receptors in the endolymph and perilymph compartments, contributing to the endolymphatic hydrops and vestibular-auditory dysfunction of the bilateral vestibular schwannomas of neurofibromatosis type 2."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Schwannoma complement: C1-INH controls the classical complement pathway in the NF2 vestibular schwannoma microenvironment, limiting complement-mediated Schwann-cell lysis and modulating the VEGF-driven (already mapped) oedema and endolymphatic hydrops of NF2."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Schwannoma EPOR neuroprotection: erythropoietin, via EPOR on NF2 vestibular Schwann cells, activates the JAK2/STAT3 pro-survival pathway, promoting Schwann-cell survival against the VEGF-driven (already mapped) oedema and the auditory-nerve compression of NF2 schwannomas."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Schwannoma periostin stroma: periostin secreted by the NF2 schwannoma-associated fibroblasts promotes the integrin-AKT (already mapped) and TGF-β (already mapped) desmoplastic remodelling of the internal auditory canal stroma and the invasive meningioma component of NF2."
 ---
 
 # Neurofibromatosis Type 2
@@ -759,6 +768,9 @@ Merlin has an N-terminal FERM domain (α, β, γ lobes) that binds membrane lipi
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Schwannoma stroma alarmin: TSLP from the NF2-mutant schwannoma and meningioma stroma activates dendritic cells (already mapped) and mast cells, shaping the immune microenvironment of the vestibular schwannomas and spinal tumours of neurofibromatosis type 2.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Schwannoma mast cells: histamine from the mast cells infiltrating NF2 schwannoma and meningioma stroma promotes VEGF (already mapped) angiogenesis and peritumoral oedema; H2 receptor signalling contributes to the NF2 tumour microenvironment and hearing-loss pathophysiology.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Vestibular oedema: bradykinin activates B2 receptors in the endolymph and perilymph compartments, contributing to the endolymphatic hydrops and vestibular-auditory dysfunction of the bilateral vestibular schwannomas of neurofibromatosis type 2.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Schwannoma complement: C1-INH controls the classical complement pathway in the NF2 vestibular schwannoma microenvironment, limiting complement-mediated Schwann-cell lysis and modulating the VEGF-driven (already mapped) oedema and endolymphatic hydrops of NF2.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Schwannoma EPOR neuroprotection: erythropoietin, via EPOR on NF2 vestibular Schwann cells, activates the JAK2/STAT3 pro-survival pathway, promoting Schwann-cell survival against the VEGF-driven (already mapped) oedema and the auditory-nerve compression of NF2 schwannomas.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Schwannoma periostin stroma: periostin secreted by the NF2 schwannoma-associated fibroblasts promotes the integrin-AKT (already mapped) and TGF-β (already mapped) desmoplastic remodelling of the internal auditory canal stroma and the invasive meningioma component of NF2.
 
 [^asthagiri-2009-nf2-lancet]: Asthagiri AR, Parry DM, Butman JA, et al. Neurofibromatosis type 2. *Lancet.* 2009;373(9679):1974-1986. [doi:10.1016/S0140-6736(09)60259-2](https://doi.org/10.1016/S0140-6736(09)60259-2) · [PubMed 19476995](https://pubmed.ncbi.nlm.nih.gov/19476995/)
 [^plotkin-2009-nf2-bevacizumab]: Plotkin SR, Stemmer-Rachamimov AO, Barker FG 2nd, et al. Hearing improvement after bevacizumab in patients with neurofibromatosis type 2. *N Engl J Med.* 2009;361(4):358-367. [doi:10.1056/NEJMoa0902579](https://doi.org/10.1056/NEJMoa0902579) · [PubMed 19587327](https://pubmed.ncbi.nlm.nih.gov/19587327/)
