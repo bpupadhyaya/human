@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/c1-esterase-inhibitor
     relation: connects-to
     note: "Complement-contact regulation: C1-esterase inhibitor regulates the classical complement (C3, C5 and factor H already mapped) pathway exploited by ALL blasts for complement evasion and the leukaemia-promoting marrow-niche inflammatory activation."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "ALL testosterone: testosterone, via androgen receptors on bone-marrow (already mapped) stromal cells and leukaemic blasts, modulates marrow haematopoiesis; androgen-deprivation therapy amplifies the immunosuppressive (regulatory T cell already mapped) niche of ALL."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "ALL serotonin: serotonin, via 5-HT receptors on bone-marrow (already mapped) stromal cells and leukaemic blasts, modulates the immune microenvironment; serotonin dysregulation amplifies the IL-6 (already mapped) and IL-1β (already mapped) leukaemia-niche activation of ALL."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "ALL prolactin: prolactin, via PRLR on bone-marrow (already mapped) stromal cells and leukaemic blasts, promotes leukaemic cell survival; hyperprolactinaemia amplifies the IL-6 (already mapped) and NF-κB (already mapped) leukaemia-niche activation of ALL."
 ---
 
 # Acute Lymphoblastic Leukemia
@@ -803,6 +812,9 @@ Childhood ALL survivors (now majority of patients): neurocognitive impairment (M
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell marrow niche: mast cells (already mapped) in the bone marrow (already mapped) niche of ALL release histamine that amplifies the vascular permeability and the inflammatory cytokine milieu that sustains the leukaemia-promoting microenvironment of ALL.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Oncostatic chronobiology: melatonin has pro-apoptotic and anti-proliferative effects on leukaemic cells; disrupted melatonin rhythm (common in paediatric cancer) amplifies the immune dysregulation (T-cell already mapped) and the oxidative stress of ALL.
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement-contact regulation: C1-esterase inhibitor regulates the classical complement (C3, C5 and factor H already mapped) pathway exploited by ALL blasts for complement evasion and the leukaemia-promoting marrow-niche inflammatory activation.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — ALL testosterone: testosterone, via androgen receptors on bone-marrow (already mapped) stromal cells and leukaemic blasts, modulates marrow haematopoiesis; androgen-deprivation therapy amplifies the immunosuppressive (regulatory T cell already mapped) niche of ALL.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — ALL serotonin: serotonin, via 5-HT receptors on bone-marrow (already mapped) stromal cells and leukaemic blasts, modulates the immune microenvironment; serotonin dysregulation amplifies the IL-6 (already mapped) and IL-1β (already mapped) leukaemia-niche activation of ALL.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — ALL prolactin: prolactin, via PRLR on bone-marrow (already mapped) stromal cells and leukaemic blasts, promotes leukaemic cell survival; hyperprolactinaemia amplifies the IL-6 (already mapped) and NF-κB (already mapped) leukaemia-niche activation of ALL.
 
 [^pui-2018-all-cure]: Pui CH, Yang JJ, Bhakta N, et al. Global efforts toward the cure of childhood acute lymphoblastic leukemia. *Lancet Child Adolesc Health.* 2018;2(6):440-454. [doi:10.1016/S2352-4642(18)30066-X](https://doi.org/10.1016/S2352-4642(18)30066-X) · [PubMed 29976322](https://pubmed.ncbi.nlm.nih.gov/29976322/)
 [^maude-2018-tisagenlecleucel]: Maude SL, Laetsch TW, Buechner J, et al. Tisagenlecleucel in children and young adults with B-cell lymphoblastic leukemia. *N Engl J Med.* 2018;378(5):439-448. [doi:10.1056/NEJMoa1709866](https://doi.org/10.1056/NEJMoa1709866) · [PubMed 29385370](https://pubmed.ncbi.nlm.nih.gov/29385370/)

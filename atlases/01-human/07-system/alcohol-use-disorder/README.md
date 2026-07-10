@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/factor-h
     relation: connects-to
     note: "Complement regulation: factor H limits the alternative-pathway activation (C3, C5 and C5aR1 already mapped) in the hepatic (liver already mapped) and CNS compartments, moderating the complement-driven Kupffer-cell (already mapped) activation of alcoholic liver disease."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "AUD prolactin: prolactin, via PRLR on neurons (already mapped) and microglia (already mapped), modulates HPA-axis (CRH already mapped) tone; hyperprolactinaemia amplifies the cortisol (already mapped) and dopamine (already mapped) craving cascade of alcohol use disorder."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "AUD vasopressin: vasopressin, via V1aR on neurons (already mapped) and astrocytes (already mapped), modulates HPA-axis stress; vasopressin excess amplifies the CRH (already mapped) and cortisol (already mapped) withdrawal cascade of alcohol use disorder."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "AUD selenium: selenium, as GPx in hepatocytes (already mapped) and neurons (already mapped), scavenges alcohol-induced ROS; selenium deficiency amplifies the NF-κB (already mapped) and NLRP3 (already mapped) hepatic neuroinflammatory cascade of alcohol use disorder."
 ---
 
 # Alcohol Use Disorder
@@ -855,6 +864,9 @@ Prenatal alcohol exposure → leading preventable cause of intellectual disabili
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell hepatic effector: mast cells (already mapped) in the alcoholic liver stroma release histamine that amplifies the Kupffer-cell (macrophage already mapped) activation and the portal inflammatory milieu of the alcoholic liver disease of alcohol use disorder.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Alcohol-anaemia erythropoiesis: erythropoietin drives red-cell recovery from the multifactorial anaemia of alcohol use disorder; alcohol suppresses EPO production and the bone-marrow (already mapped) response, worsening the nutritional and hepatic anaemia.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H limits the alternative-pathway activation (C3, C5 and C5aR1 already mapped) in the hepatic (liver already mapped) and CNS compartments, moderating the complement-driven Kupffer-cell (already mapped) activation of alcoholic liver disease.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — AUD prolactin: prolactin, via PRLR on neurons (already mapped) and microglia (already mapped), modulates HPA-axis (CRH already mapped) tone; hyperprolactinaemia amplifies the cortisol (already mapped) and dopamine (already mapped) craving cascade of alcohol use disorder.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — AUD vasopressin: vasopressin, via V1aR on neurons (already mapped) and astrocytes (already mapped), modulates HPA-axis stress; vasopressin excess amplifies the CRH (already mapped) and cortisol (already mapped) withdrawal cascade of alcohol use disorder.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — AUD selenium: selenium, as GPx in hepatocytes (already mapped) and neurons (already mapped), scavenges alcohol-induced ROS; selenium deficiency amplifies the NF-κB (already mapped) and NLRP3 (already mapped) hepatic neuroinflammatory cascade of alcohol use disorder.
 
 [^koob-2013-addiction-neuroscience]: Koob GF, Volkow ND. Neurocircuitry of addiction. *Neuropsychopharmacology.* 2010;35(1):217-238. [doi:10.1038/npp.2009.110](https://doi.org/10.1038/npp.2009.110) · [PubMed 19710631](https://pubmed.ncbi.nlm.nih.gov/19710631/)
 [^anton-2006-combine]: Anton RF, O'Malley SS, Ciraulo DA, et al. Combined pharmacotherapies and behavioral interventions for alcohol dependence: the COMBINE study. *JAMA.* 2006;295(17):2003-2017. [doi:10.1001/jama.295.17.2003](https://doi.org/10.1001/jama.295.17.2003) · [PubMed 16670409](https://pubmed.ncbi.nlm.nih.gov/16670409/)
