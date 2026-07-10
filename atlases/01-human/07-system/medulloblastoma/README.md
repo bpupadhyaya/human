@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/bradykinin
     relation: connects-to
     note: "BBB drug delivery: bradykinin (B2 receptor) transiently increases blood-brain barrier permeability, a mechanism exploited to enhance chemotherapy (already mapped) delivery to posterior-fossa medulloblastoma and reduce reliance on high-dose craniospinal irradiation."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Tumour-immune alarmin: TSLP released by the medulloblastoma stroma primes dendritic cells (already mapped) and mast cells (already mapped) toward the Th2 (IL-4, IL-13 already mapped) immune microenvironment of the WNT (wnt-beta-catenin already mapped) subgroup."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical complement regulation: C1-INH controls the classical-pathway arm (C3, C5 and C5aR1 already mapped) in the medulloblastoma microenvironment, modulating complement-dependent cytotoxicity and the tumour-associated macrophage (already mapped) response."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell histamine in MB microenvironment: histamine, released by the mast cells (already mapped) of the medulloblastoma stroma, modulates microvascular permeability and promotes the VEGF-driven (already mapped) angiogenesis and immunomodulation of medulloblastoma."
 ---
 
 # Medulloblastoma
@@ -769,6 +778,9 @@ MB survivors face substantial late effects — inversely proportional to age at 
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Craniospinal RT anaemia: erythropoietin counters the radiation-induced myelosuppression from the craniospinal irradiation used in medulloblastoma; EPO-stimulating agents are a standard supportive measure during and after the CSI phase of medulloblastoma treatment.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Complement-mediated lysis: the complement C5 effector (with complement C3 already mapped) participates in complement-dependent cytotoxicity against medulloblastoma cells; anti-C5 signalling modulates the immune-infiltration pattern of the immunogenic WNT-subgroup medulloblastoma.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — BBB drug delivery: bradykinin (B2 receptor) transiently increases blood-brain barrier permeability, a mechanism exploited to enhance chemotherapy (already mapped) delivery to posterior-fossa medulloblastoma and reduce reliance on high-dose craniospinal irradiation.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Tumour-immune alarmin: TSLP released by the medulloblastoma stroma primes dendritic cells (already mapped) and mast cells (already mapped) toward the Th2 (IL-4, IL-13 already mapped) immune microenvironment of the WNT (wnt-beta-catenin already mapped) subgroup.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical complement regulation: C1-INH controls the classical-pathway arm (C3, C5 and C5aR1 already mapped) in the medulloblastoma microenvironment, modulating complement-dependent cytotoxicity and the tumour-associated macrophage (already mapped) response.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell histamine in MB microenvironment: histamine, released by the mast cells (already mapped) of the medulloblastoma stroma, modulates microvascular permeability and promotes the VEGF-driven (already mapped) angiogenesis and immunomodulation of medulloblastoma.
 
 [^packer-2006-std-risk-mb]: Packer RJ, Gajjar A, Vezina G, et al. Phase III study of craniospinal radiation therapy followed by adjuvant chemotherapy for newly diagnosed average-risk medulloblastoma. *J Clin Oncol.* 2006;24(25):4202-4208. [doi:10.1200/JCO.2006.06.4980](https://doi.org/10.1200/JCO.2006.06.4980) · [PubMed 16943538](https://pubmed.ncbi.nlm.nih.gov/16943538/)
 [^taylor-2012-mb-subgroups]: Taylor MD, Northcott PA, Korshunov A, et al. Molecular subgroups of medulloblastoma: the current consensus. *Acta Neuropathol.* 2012;123(4):465-472. [doi:10.1007/s00401-011-0922-z](https://doi.org/10.1007/s00401-011-0922-z) · [PubMed 22134537](https://pubmed.ncbi.nlm.nih.gov/22134537/)

@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/factor-h
     relation: connects-to
     note: "Aortic complement regulation: factor H controls the alternative complement pathway in the Marfan aortic adventitia; complement dysregulation amplifies the TGF-β (already mapped) and matrix-metalloproteinase-driven aortic wall inflammation and dilatation in Marfan syndrome."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Aortic complement regulation: C1-INH controls the classical and lectin complement pathways (C3, C5 and C5aR1 already mapped) in the inflamed Marfan aortic adventitia, complementing factor H (already mapped) to dampen the complement cascade driving aortic dilatation."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Cardioprotective EPO: erythropoietin, via EPOR on cardiomyocytes (already mapped) and endothelial cells (already mapped), activates the JAK2/STAT3 anti-apoptotic pathway and reduces the aortic-wall oxidative stress (NRF2 already mapped) of Marfan syndrome cardiac complications."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Vascular antioxidant melatonin: melatonin scavenges reactive oxygen species in the Marfan aortic wall and attenuates NF-kB (already mapped) and TGF-β (already mapped) signalling, reducing the matrix metalloproteinase activity and the progression of aortic dilatation."
 ---
 
 # Marfan Syndrome
@@ -778,6 +787,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Fibrillin-deficient stroma alarmin: TSLP in the fibrillin-1-deficient (FBN1 already mapped) connective tissue promotes fibro-inflammatory stromal changes and mast-cell activation of Marfan syndrome; mast-cell-derived TSLP amplifies TGF-β (already mapped) aortopathy.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Aortic vasodilation: bradykinin (B2 receptor signalling) mediates vasodilation in the Marfan aortic wall; kinin-kallikrein system activation contributes to the accelerated aortic root dilatation and the angioedema-like episodes in vascular Marfan syndrome.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Aortic complement regulation: factor H controls the alternative complement pathway in the Marfan aortic adventitia; complement dysregulation amplifies the TGF-β (already mapped) and matrix-metalloproteinase-driven aortic wall inflammation and dilatation in Marfan syndrome.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Aortic complement regulation: C1-INH controls the classical and lectin complement pathways (C3, C5 and C5aR1 already mapped) in the inflamed Marfan aortic adventitia, complementing factor H (already mapped) to dampen the complement cascade driving aortic dilatation.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Cardioprotective EPO: erythropoietin, via EPOR on cardiomyocytes (already mapped) and endothelial cells (already mapped), activates the JAK2/STAT3 anti-apoptotic pathway and reduces the aortic-wall oxidative stress (NRF2 already mapped) of Marfan syndrome cardiac complications.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Vascular antioxidant melatonin: melatonin scavenges reactive oxygen species in the Marfan aortic wall and attenuates NF-kB (already mapped) and TGF-β (already mapped) signalling, reducing the matrix metalloproteinase activity and the progression of aortic dilatation.
 
 ---
 
