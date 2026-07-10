@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/iodine
     relation: connects-to
     note: "Burkitt iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) and mast-cell (already mapped) immune function; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of Burkitt lymphoma."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Burkitt sodium: sodium dysregulation in bone-marrow (already mapped) stroma and B-cells (already mapped) amplifies ionic stress; osmotic changes worsen NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) tumour-promoting cascade of Burkitt lymphoma."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Burkitt copper: copper, via ceruloplasmin in macrophages (already mapped) and B-cells (already mapped), scavenges ROS; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) tumour-promoting cascade of Burkitt lymphoma."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Burkitt zinc: zinc cofactors macrophage (already mapped) and regulatory T-cell (already mapped) function; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) and mTOR (already mapped) tumour cascade of Burkitt lymphoma."
 ---
 
 # Burkitt Lymphoma
@@ -822,6 +831,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Burkitt vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates lymphoma TME immune tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of Burkitt lymphoma.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Burkitt selenium: selenium, as GPx in macrophages (already mapped) and mast cells (already mapped), scavenges ROS driving the lymphoma TME; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of Burkitt lymphoma.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Burkitt iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) and mast-cell (already mapped) immune function; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of Burkitt lymphoma.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Burkitt sodium: sodium dysregulation in bone-marrow (already mapped) stroma and B-cells (already mapped) amplifies ionic stress; osmotic changes worsen NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) tumour-promoting cascade of Burkitt lymphoma.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Burkitt copper: copper, via ceruloplasmin in macrophages (already mapped) and B-cells (already mapped), scavenges ROS; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) tumour-promoting cascade of Burkitt lymphoma.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Burkitt zinc: zinc cofactors macrophage (already mapped) and regulatory T-cell (already mapped) function; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) and mTOR (already mapped) tumour cascade of Burkitt lymphoma.
 
 ---
 
