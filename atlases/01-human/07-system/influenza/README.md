@@ -526,6 +526,15 @@ cross_links:
   - target: 01-human/02-atomic/potassium
     relation: connects-to
     note: "Influenza potassium: potassium depletion promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory activation; potassium deficiency amplifies the NF-κB (already mapped) and NLRP3 (already mapped) cytokine-storm (already mapped) cascade of influenza."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Influenza copper: copper, in macrophages (already mapped) and NK cells (already mapped), scavenges viral-driven ROS; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cytokine cascade of influenza."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "Influenza phosphorus: phosphorus, as ATP in macrophages (already mapped) and NK cells (already mapped), fuels antiviral immune responses; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "Influenza chloride: chloride regulates macrophage (already mapped) and NK cells (already mapped) ion homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) innate immune cascade of influenza."
 ---
 
 # Influenza
@@ -831,3 +840,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Influenza calcium: calcium, as second messenger in macrophages (already mapped) and neutrophils (already mapped), coordinates antiviral signalling; calcium dysregulation amplifies the NF-κB (already mapped) and cytokine-storm (already mapped) cascade of influenza.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Influenza iron: iron, regulating innate immune enzyme activity in macrophages (already mapped) and NK cells (already mapped), supports antiviral defence; iron deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) cytokine cascade of influenza.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Influenza potassium: potassium depletion promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory activation; potassium deficiency amplifies the NF-κB (already mapped) and NLRP3 (already mapped) cytokine-storm (already mapped) cascade of influenza.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Influenza copper: copper, in macrophages (already mapped) and NK cells (already mapped), scavenges viral-driven ROS; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cytokine cascade of influenza.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Influenza phosphorus: phosphorus, as ATP in macrophages (already mapped) and NK cells (already mapped), fuels antiviral immune responses; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Influenza chloride: chloride regulates macrophage (already mapped) and NK cells (already mapped) ion homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) innate immune cascade of influenza.
