@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/c1-esterase-inhibitor
     relation: connects-to
     note: "Complement/kinin gate: C1-esterase inhibitor limits the classical complement (C3 and C5 already mapped) and bradykinin (already mapped) activation in the inflamed substantia nigra, moderating the complement-driven dopaminergic neurodegeneration of Parkinson's disease."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "PD testosterone: testosterone attenuates SNCA (already mapped) aggregation and microglial (already mapped) neuroinflammation in the substantia nigra; androgen deficiency accelerates the dopaminergic neuron (already mapped) loss of Parkinson's disease."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "PD oxytocin: oxytocin receptors on astrocytes (already mapped) and dopaminergic neurons (already mapped) attenuate SNCA (already mapped) aggregation; oxytocin also modulates the dopamine (already mapped) and serotonin (already mapped) circuits of Parkinson's disease."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "PD vasopressin: vasopressin V1A receptors on dopaminergic neurons (already mapped) modulate striatal activity and dopamine (already mapped) release; vasopressin deficiency amplifies the neuroinflammatory and autonomic (brain already mapped) dysfunction of Parkinson's disease."
 ---
 
 # Parkinson's Disease
@@ -802,6 +811,9 @@ PD is primarily a disease of aging (mean onset ~60 years), but **~10–15% of ca
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Striatal mast-cell effector: histamine, released by mast cells in the substantia nigra and striatum, promotes dopaminergic neurotoxicity via H1/H4 receptors on microglia (already mapped) and amplifies the neuroinflammatory milieu (TNF-α and IL-1β already mapped) of Parkinson's disease.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — ECM remodelling in the nigro-striatal pathway: periostin, expressed by astrocytes (already mapped) in the substantia nigra under neuroinflammation, modulates the extracellular matrix scaffold and Lewy body (alpha-synuclein already mapped) deposition in Parkinson's disease.
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement/kinin gate: C1-esterase inhibitor limits the classical complement (C3 and C5 already mapped) and bradykinin (already mapped) activation in the inflamed substantia nigra, moderating the complement-driven dopaminergic neurodegeneration of Parkinson's disease.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — PD testosterone: testosterone attenuates SNCA (already mapped) aggregation and microglial (already mapped) neuroinflammation in the substantia nigra; androgen deficiency accelerates the dopaminergic neuron (already mapped) loss of Parkinson's disease.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — PD oxytocin: oxytocin receptors on astrocytes (already mapped) and dopaminergic neurons (already mapped) attenuate SNCA (already mapped) aggregation; oxytocin also modulates the dopamine (already mapped) and serotonin (already mapped) circuits of Parkinson's disease.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — PD vasopressin: vasopressin V1A receptors on dopaminergic neurons (already mapped) modulate striatal activity and dopamine (already mapped) release; vasopressin deficiency amplifies the neuroinflammatory and autonomic (brain already mapped) dysfunction of Parkinson's disease.
 
 [^kalia-2015-pd-review]: Kalia LV, Lang AE. Parkinson's disease. *Lancet.* 2015;386(9996):896-912. [doi:10.1016/S0140-6736(14)61393-3](https://doi.org/10.1016/S0140-6736(14)61393-3) · [PubMed 25904081](https://pubmed.ncbi.nlm.nih.gov/25904081/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
