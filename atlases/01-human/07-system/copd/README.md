@@ -508,6 +508,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Neuroendocrine-immune axis: prolactin, via PRL receptors on airway immune effectors (macrophages and T cells already mapped), modulates the chronic inflammatory tone and the systemic immune activation of COPD."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "COPD oxytocin: oxytocin, via OXTR on macrophages (already mapped) and neutrophils (already mapped), attenuates airway inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) emphysematous cascade of COPD."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "COPD vasopressin: vasopressin, via V2R on endothelial cells (already mapped) and macrophages (already mapped), modulates the airway vascular tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) pulmonary cascade of COPD."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "COPD selenium: selenium, via selenoproteins in macrophages (already mapped) and neutrophils (already mapped), attenuates the oxidative airway inflammation; selenium deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) emphysematous cascade of COPD."
 ---
 
 # COPD
@@ -814,6 +823,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-airway axis: melatonin, via MT1/MT2 receptors on airway epithelium (already mapped) and immune effectors, modulates the oxidative stress of the tobacco-smoke-induced (already mapped) airway inflammation and emphysema of COPD.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Pulmonary serotonin axis: serotonin, released by the pulmonary mast cells (already mapped) and platelets, amplifies the airway smooth muscle tone and the vascular remodelling (pulmonary hypertension already mapped) of COPD.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Neuroendocrine-immune axis: prolactin, via PRL receptors on airway immune effectors (macrophages and T cells already mapped), modulates the chronic inflammatory tone and the systemic immune activation of COPD.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — COPD oxytocin: oxytocin, via OXTR on macrophages (already mapped) and neutrophils (already mapped), attenuates airway inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) emphysematous cascade of COPD.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — COPD vasopressin: vasopressin, via V2R on endothelial cells (already mapped) and macrophages (already mapped), modulates the airway vascular tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) pulmonary cascade of COPD.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — COPD selenium: selenium, via selenoproteins in macrophages (already mapped) and neutrophils (already mapped), attenuates the oxidative airway inflammation; selenium deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) emphysematous cascade of COPD.
 
 ---
 

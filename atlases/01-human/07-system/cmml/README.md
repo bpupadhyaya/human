@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Immunomodulatory prolactin: prolactin, via PRL receptors on monocytes (already mapped) and T cells (already mapped), modulates the myeloid cytokine amplification and the immune dysregulation of the chronic myelomonocytic leukaemia."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "CMML serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the CMML marrow niche; serotonin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) myeloproliferative cascade of CMML."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "CMML oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates marrow niche inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) myeloproliferative cascade of CMML."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "CMML vasopressin: vasopressin, via V1aR on endothelial cells (already mapped) and macrophages (already mapped), modulates marrow vascular tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) myeloproliferative cascade of CMML."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -789,6 +798,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-myeloid axis: melatonin, via MT1/MT2 receptors on CMML myeloid progenitors and monocytes (already mapped), modulates the inflammatory cytokine milieu (TNF-alpha and IL-6 already mapped) of the clonal myeloproliferation of CMML.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-myeloid axis: testosterone, via androgen receptors on myeloid cells (already mapped) and marrow stromal cells, modulates the sex-differential CMML incidence (higher in males) and the myeloproliferative inflammatory marrow niche.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Immunomodulatory prolactin: prolactin, via PRL receptors on monocytes (already mapped) and T cells (already mapped), modulates the myeloid cytokine amplification and the immune dysregulation of the chronic myelomonocytic leukaemia.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — CMML serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the CMML marrow niche; serotonin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) myeloproliferative cascade of CMML.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — CMML oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates marrow niche inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) myeloproliferative cascade of CMML.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — CMML vasopressin: vasopressin, via V1aR on endothelial cells (already mapped) and macrophages (already mapped), modulates marrow vascular tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) myeloproliferative cascade of CMML.
 
 ---
 
