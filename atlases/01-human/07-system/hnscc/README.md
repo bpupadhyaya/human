@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "HNSCC sodium: high dietary sodium promotes macrophage (already mapped) and mast-cell (already mapped) activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) tumour cascade of HNSCC."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "HNSCC copper: copper supports macrophage (already mapped) and mast-cell (already mapped) function; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour-promoting cascade of HNSCC."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "HNSCC potassium: potassium regulates macrophage (already mapped) and mast-cell (already mapped) membrane potential; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of HNSCC."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "HNSCC calcium: calcium signals macrophage (already mapped) and mast-cell (already mapped) activation; calcium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour-promoting cascade of HNSCC."
 ---
 
 # HNSCC
@@ -802,6 +811,9 @@ HPV+ oropharyngeal: Node staging based on number (not laterality); HPV-negative 
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — HNSCC selenium: selenium, as GPx in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges ROS; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) oxidative tumour cascade of HNSCC.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — HNSCC iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and T-cytotoxic (already mapped) immune activation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of HNSCC.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — HNSCC sodium: high dietary sodium promotes macrophage (already mapped) and mast-cell (already mapped) activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) tumour cascade of HNSCC.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — HNSCC copper: copper supports macrophage (already mapped) and mast-cell (already mapped) function; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour-promoting cascade of HNSCC.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — HNSCC potassium: potassium regulates macrophage (already mapped) and mast-cell (already mapped) membrane potential; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of HNSCC.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — HNSCC calcium: calcium signals macrophage (already mapped) and mast-cell (already mapped) activation; calcium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour-promoting cascade of HNSCC.
 
 [^burtness-2019-keynote048]: Burtness B, Harrington KJ, Greil R, et al. Pembrolizumab alone or with chemotherapy versus cetuximab with chemotherapy for recurrent or metastatic squamous cell carcinoma of the head and neck (KEYNOTE-048). *Lancet.* 2019;394(10212):1915-1928. [doi:10.1016/S0140-6736(19)32591-7](https://doi.org/10.1016/S0140-6736(19)32591-7) · [PubMed 31679945](https://pubmed.ncbi.nlm.nih.gov/31679945/)
 [^vermorken-2008-extreme]: Vermorken JB, Mesia R, Rivera F, et al. Platinum-based chemotherapy plus cetuximab in head and neck cancer. *N Engl J Med.* 2008;359(11):1116-1127. [doi:10.1056/NEJMoa0802656](https://doi.org/10.1056/NEJMoa0802656) · [PubMed 18784101](https://pubmed.ncbi.nlm.nih.gov/18784101/)
