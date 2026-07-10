@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/testosterone
     relation: connects-to
     note: "Sex-hormone biliary axis: testosterone, via androgen receptors on biliary tumour cells (already mapped), modulates the sex-differential cholangiocarcinoma risk (higher in males) and the immunosuppressive tumour microenvironment."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "CCA prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), promotes biliary tumour immune escape; hyperprolactinaemia amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of cholangiocarcinoma."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "CCA oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates biliary TME inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of cholangiocarcinoma."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "CCA vasopressin: vasopressin, via V2R on endothelial cells (already mapped) and macrophages (already mapped), modulates biliary vascular tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of cholangiocarcinoma."
 ---
 
 # Cholangiocarcinoma
@@ -760,6 +769,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell biliary axis: histamine, from mast cells (already mapped) in the cholangiocarcinoma stroma, amplifies the angiogenesis (already mapped) and the immunosuppressive inflammatory milieu of the biliary tumour microenvironment.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-biliary axis: melatonin, via MT1/MT2 receptors on biliary epithelium (already mapped), modulates the oxidative stress and the cholestasis-driven (already mapped) carcinogenesis of cholangiocarcinoma.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Sex-hormone biliary axis: testosterone, via androgen receptors on biliary tumour cells (already mapped), modulates the sex-differential cholangiocarcinoma risk (higher in males) and the immunosuppressive tumour microenvironment.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — CCA prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), promotes biliary tumour immune escape; hyperprolactinaemia amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of cholangiocarcinoma.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — CCA oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates biliary TME inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of cholangiocarcinoma.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — CCA vasopressin: vasopressin, via V2R on endothelial cells (already mapped) and macrophages (already mapped), modulates biliary vascular tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of cholangiocarcinoma.
 
 ---
 

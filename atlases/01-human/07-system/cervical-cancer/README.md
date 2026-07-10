@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Reproductive-hormone axis: prolactin, via PRL receptors on cervical epithelium (already mapped), modulates the immune surveillance and the HPV-driven (already mapped) malignant transformation of the reproductive tract in cervical cancer."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Cervical testosterone: testosterone, via androgen receptors on macrophages (already mapped) and T-cytotoxic cells (already mapped), modulates the TME; testosterone deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of cervical cancer."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Cervical serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the cervical TME; serotonin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of cervical cancer."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Cervical oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates cervical TME inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of cervical cancer."
 ---
 
 # Cervical Cancer
@@ -786,6 +795,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell tumour axis: histamine, from mast cells (already mapped) in the HPV-driven (HPV-16 already mapped) cervical-cancer stroma, amplifies the angiogenesis (already mapped) and the immunosuppressive cytokine milieu of the tumour microenvironment.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-cervical axis: melatonin, via MT1/MT2 receptors on cervical epithelium (already mapped), modulates the HPV-driven (already mapped) oxidative stress and the circadian disruption associated with the risk and progression of cervical cancer.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Reproductive-hormone axis: prolactin, via PRL receptors on cervical epithelium (already mapped), modulates the immune surveillance and the HPV-driven (already mapped) malignant transformation of the reproductive tract in cervical cancer.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Cervical testosterone: testosterone, via androgen receptors on macrophages (already mapped) and T-cytotoxic cells (already mapped), modulates the TME; testosterone deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of cervical cancer.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Cervical serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the cervical TME; serotonin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of cervical cancer.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Cervical oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates cervical TME inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of cervical cancer.
 
 ---
 
