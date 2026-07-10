@@ -514,6 +514,15 @@ cross_links:
   - target: 01-human/03-molecular/oxytocin
     relation: connects-to
     note: "GVHD oxytocin: oxytocin, via OXTR on regulatory T cells (already mapped) and dendritic cells (already mapped), promotes immunological tolerance by enhancing T-regulatory (Treg) expansion; oxytocin attenuates the IL-6 (already mapped)-driven donor alloreactivity of GVHD."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "GVHD vasopressin: vasopressin, via V1aR on regulatory T cells (already mapped) and dendritic cells (already mapped), modulates alloreactive immune activation; vasopressin dysregulation amplifies the IL-6 (already mapped) and TNF-α (already mapped) cytokine-storm cascade of GVHD."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "GVHD selenium: selenium, as GPx in macrophages (already mapped) and intestinal-epithelium (already mapped), scavenges the cytokine-storm (already mapped)-driven ROS; selenium deficiency amplifies the NLRP3 (already mapped) and NF-κB (already mapped) tissue-damage cascade of GVHD."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "GVHD iodine: iodine-dependent thyroid hormones modulate T-helper cell (already mapped) and regulatory T-cell (already mapped) differentiation; iodine deficiency amplifies the IL-6 (already mapped) and TNF-α (already mapped) alloreactive cytokine cascade of GVHD."
 ---
 
 # Graft-Versus-Host Disease
@@ -817,6 +826,9 @@ The protective Treg/IL-10 axis is the key biological counterbalance to alloreact
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen immunomodulation: testosterone, via androgen receptors on T-helper cells (already mapped) and regulatory T cells (already mapped), attenuates alloreactive T-cell expansion; androgen deficiency amplifies the IL-6 (already mapped)-driven donor T-cell severity of GVHD.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Gut-immune serotonergic axis: serotonin, via 5-HT receptors on T-helper cells (already mapped) and natural-killer cells (already mapped), modulates the cytokine-storm (already mapped) immune axis; serotonin dysregulation amplifies the gut-microbiome (already mapped) dysbiosis of mucosal GVHD.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Tolerogenic neuropeptide: oxytocin, via OXTR on regulatory T cells (already mapped) and dendritic cells (already mapped), promotes immunological tolerance by enhancing T-regulatory (Treg) expansion; oxytocin attenuates the IL-6 (already mapped)-driven donor alloreactivity of GVHD.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Alloreactive modulator: vasopressin, via V1aR on regulatory T cells (already mapped) and dendritic cells (already mapped), modulates alloreactive immune activation; vasopressin dysregulation amplifies the IL-6 (already mapped) and TNF-α (already mapped) cytokine-storm cascade of GVHD.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Cytokine-storm ROS scavenger: selenium, as GPx in macrophages (already mapped) and intestinal-epithelium (already mapped), scavenges the cytokine-storm (already mapped)-driven ROS; selenium deficiency amplifies the NLRP3 (already mapped) and NF-κB (already mapped) tissue-damage cascade of GVHD.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Thyroid-immune tolerance axis: iodine-dependent thyroid hormones modulate T-helper cell (already mapped) and regulatory T-cell (already mapped) differentiation; iodine deficiency amplifies the IL-6 (already mapped) and TNF-α (already mapped) alloreactive cytokine cascade of GVHD.
 
 [^ferrara-2009-gvhd-review]: Ferrara JL, Levine JE, Reddy P, Holler E. Graft-versus-host disease. *Lancet.* 2009;373(9674):1550-1561. [doi:10.1016/S0140-6736(09)60237-3](https://doi.org/10.1016/S0140-6736(09)60237-3) · [PubMed 19380114](https://pubmed.ncbi.nlm.nih.gov/19380114/)
 [^zeiser-2020-ruxolitinib-gvhd-reach]: Zeiser R, von Bubnoff N, Butler J, et al. Ruxolitinib for Glucocorticoid-Refractory Acute Graft-versus-Host Disease. *N Engl J Med.* 2020;382(19):1800-1810. [doi:10.1056/NEJMoa1917635](https://doi.org/10.1056/NEJMoa1917635) · [PubMed 32374962](https://pubmed.ncbi.nlm.nih.gov/32374962/)
