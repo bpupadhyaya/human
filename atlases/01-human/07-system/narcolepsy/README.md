@@ -507,6 +507,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "Narcolepsy sulfur: sulfur, as cysteine precursor in neurons (already mapped) and microglia (already mapped), supports glutathione antioxidant defence; sulfur deficiency amplifies the TNF-α (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of narcolepsy."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "Narcolepsy nitrogen: nitrogen, as nitric oxide in neurons (already mapped) and microglia (already mapped), regulates cerebral blood flow; nitrogen dysregulation amplifies TNF-α (already mapped) and IL-6 (already mapped) neuroinflammatory arousal cascade of narcolepsy."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Narcolepsy oxygen: oxygen drives aerobic energy in orexin neurons (already mapped) and microglia (already mapped); hypoxia amplifies TNF-α (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of narcolepsy disorder."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "Narcolepsy carbon: carbon, as backbone of orexin peptide in neurons (already mapped) and microglia (already mapped)-derived metabolites, shapes hypocretin synthesis; carbon dysregulation amplifies TNF-α (already mapped) and IL-6 (already mapped) cascade of narcolepsy."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -810,6 +819,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Narcolepsy phosphorus: phosphorus, as ATP precursor in neurons (already mapped) and microglia (already mapped), supports orexin neuron energy; phosphorus deficiency amplifies the TNF-α (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of narcolepsy disorder.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Narcolepsy chloride: chloride, via GABA-A Cl⁻ influx in neurons (already mapped), maintains inhibitory tone; chloride dysregulation in microglia (already mapped) amplifies the TNF-α (already mapped) and IL-6 (already mapped) neuroinflammatory arousal cascade of narcolepsy.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Narcolepsy sulfur: sulfur, as cysteine precursor in neurons (already mapped) and microglia (already mapped), supports glutathione antioxidant defence; sulfur deficiency amplifies the TNF-α (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of narcolepsy.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Narcolepsy nitrogen: nitrogen, as nitric oxide in neurons (already mapped) and microglia (already mapped), regulates cerebral blood flow; nitrogen dysregulation amplifies TNF-α (already mapped) and IL-6 (already mapped) neuroinflammatory arousal cascade of narcolepsy.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Narcolepsy oxygen: oxygen drives aerobic energy in orexin neurons (already mapped) and microglia (already mapped); hypoxia amplifies TNF-α (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of narcolepsy disorder.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Narcolepsy carbon: carbon, as backbone of orexin peptide in neurons (already mapped) and microglia (already mapped)-derived metabolites, shapes hypocretin synthesis; carbon dysregulation amplifies TNF-α (already mapped) and IL-6 (already mapped) cascade of narcolepsy.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)
