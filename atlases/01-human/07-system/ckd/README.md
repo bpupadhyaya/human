@@ -495,6 +495,15 @@ cross_links:
   - target: 01-human/03-molecular/c1-esterase-inhibitor
     relation: connects-to
     note: "Complement brake: C1-esterase inhibitor regulates the classical-complement pathway (C3, C5 and factor-H already mapped) contributing to the C3 glomerulopathy and the immune-complex nephritis of chronic kidney disease."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell renal effector: histamine, released by peritubular mast cells (already mapped) in the interstitium of CKD, promotes vascular permeability and amplifies the pro-inflammatory cytokine milieu (TGF-β and IL-6 already mapped) driving the tubulointerstitial fibrosis of CKD."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Fibrotic ECM scaffold: periostin, expressed by renal fibroblasts (already mapped) under TGF-β (already mapped) stimulation, is a key driver of the extracellular matrix deposition and the interstitial fibrosis-driven nephron loss of chronic kidney disease."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian renoprotection: melatonin, via MT1/MT2 receptors on tubular cells and mesangial cells (already mapped), scavenges ROS (already mapped) and attenuates the oxidative and inflammatory tubulointerstitial injury driving the progression of CKD."
 ---
 
 # Chronic Kidney Disease
@@ -730,6 +739,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-tubular axis: TSLP, from tubular epithelium under the hypoxia and proteinuria of chronic kidney disease, primes dendritic cells (already mapped) and mast cells (already mapped) toward the Th2/Th17 (already mapped) tubulointerstitial inflammation.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-renal axis: bradykinin, via the intrarenal kallikrein-kinin system and the accumulation from reduced renal clearance, amplifies the vascular permeability and the tubular injury contributing to the progression of chronic kidney disease.
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement brake: C1-esterase inhibitor regulates the classical-complement pathway (C3, C5 and factor-H already mapped) contributing to the C3 glomerulopathy and the immune-complex nephritis of chronic kidney disease.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell renal effector: histamine, released by peritubular mast cells (already mapped) in the interstitium of CKD, promotes vascular permeability and amplifies the pro-inflammatory cytokine milieu (TGF-β and IL-6 already mapped) driving the tubulointerstitial fibrosis of CKD.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Fibrotic ECM scaffold: periostin, expressed by renal fibroblasts (already mapped) under TGF-β (already mapped) stimulation, is a key driver of the extracellular matrix deposition and the interstitial fibrosis-driven nephron loss of chronic kidney disease.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian renoprotection: melatonin, via MT1/MT2 receptors on tubular cells and mesangial cells (already mapped), scavenges ROS (already mapped) and attenuates the oxidative and inflammatory tubulointerstitial injury driving the progression of CKD.
 
 ## Pathology
 

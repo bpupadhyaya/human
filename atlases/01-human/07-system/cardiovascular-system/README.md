@@ -501,6 +501,15 @@ cross_links:
   - target: 01-human/03-molecular/histamine
     relation: connects-to
     note: "Mast-cell vascular mediator: histamine, from cardiac and vascular mast cells (already mapped), amplifies the vascular permeability and the coronary vasospasm contributing to Kounis syndrome and the hypersensitivity myocarditis of the cardiovascular system."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Cardiac ECM remodelling: periostin, expressed by cardiac fibroblasts (already mapped) under mechanical and ischaemic stress, promotes collagen deposition and the adverse ventricular remodelling that drives hypertrophy and heart failure progression of the cardiovascular system."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian cardioprotection: melatonin, via MT1/MT2 receptors on cardiomyocytes (already mapped) and endothelial cells (already mapped), scavenges ROS, attenuates ischaemia-reperfusion injury and synchronises the circadian cardiac rhythms of the cardiovascular system."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Immune-endocrine cardiac axis: prolactin, acting via PRLR on cardiomyocytes (already mapped) and macrophages (already mapped), modulates the cardiac inflammatory cytokine milieu and is linked to peripartum cardiomyopathy and heart failure of the cardiovascular system."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"
@@ -744,6 +753,9 @@ Each major vascular bed has **autoregulation** — a local mechanism that holds 
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-vascular axis: TSLP, from injured endothelium (already mapped) and vascular smooth muscle, primes mast cells (already mapped) and dendritic cells (already mapped) and amplifies the Th2/eosinophil (already mapped) vascular inflammation of the cardiovascular system.
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement brake: C1-esterase inhibitor regulates the contact-pathway kinin cascade (bradykinin already mapped) and the classical-complement activation (C3 and C5 already mapped) contributing to the angioedema and ischaemia-reperfusion of the cardiovascular system.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell vascular mediator: histamine, from cardiac and vascular mast cells (already mapped), amplifies the vascular permeability and the coronary vasospasm contributing to Kounis syndrome and the hypersensitivity myocarditis of the cardiovascular system.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Cardiac ECM remodelling: periostin, expressed by cardiac fibroblasts (already mapped) under mechanical and ischaemic stress, promotes collagen deposition and the adverse ventricular remodelling that drives hypertrophy and heart failure progression of the cardiovascular system.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian cardioprotection: melatonin, via MT1/MT2 receptors on cardiomyocytes (already mapped) and endothelial cells (already mapped), scavenges ROS, attenuates ischaemia-reperfusion injury and synchronises the circadian cardiac rhythms of the cardiovascular system.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Immune-endocrine cardiac axis: prolactin, acting via PRLR on cardiomyocytes (already mapped) and macrophages (already mapped), modulates the cardiac inflammatory cytokine milieu and is linked to peripartum cardiomyopathy and heart failure of the cardiovascular system.
 
 ## Pathology
 
