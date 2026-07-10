@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/histamine
     relation: connects-to
     note: "Mast-cell histamine: histamine, released by the activated mast cells (already mapped) and basophils, augments the vascular permeability, hypotension, and the allergic inflammatory dimension of the anaphylaxis-like cytokine storm."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian-immunomodulation axis: melatonin, via MT1/MT2 receptors on immune effectors (macrophages, T cells, NK cells already mapped), exerts anti-inflammatory effects that can mitigate the hyperinflammatory tissue damage of the cytokine storm."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Sex-hormone immunomodulation axis: testosterone, via androgen receptors on macrophages (already mapped) and T cells (already mapped), exerts immunosuppressive effects that modulate the sex-differential severity of cytokine-storm syndromes."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Immunostimulatory prolactin axis: prolactin, via PRL receptors on T cells (already mapped), NK cells (already mapped) and macrophages (already mapped), amplifies the cytokine production and the hyperinflammatory T-cell activation of the cytokine storm."
 ---
 
 # Cytokine Storm
@@ -742,6 +751,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-CS axis: TSLP, released from stromal and epithelial cells during the initial innate phase, primes dendritic cells (already mapped) and mast cells (already mapped) and biases the immunopathological Th2 dimension of cytokine-storm immune dysregulation.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — EPO-CS axis: erythropoietin, upregulated by the HIF-1α (already mapped) hypoxia of ARDS (already mapped) and multi-organ injury, modulates macrophage (already mapped) polarisation and erythrocyte (already mapped) production during cytokine-storm-driven anaemia.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell histamine: histamine, released by the activated mast cells (already mapped) and basophils, augments the vascular permeability, hypotension, and the allergic inflammatory dimension of the anaphylaxis-like cytokine storm.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-immunomodulation axis: melatonin, via MT1/MT2 receptors on immune effectors (macrophages, T cells, NK cells already mapped), exerts anti-inflammatory effects that can mitigate the hyperinflammatory tissue damage of the cytokine storm.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Sex-hormone immunomodulation axis: testosterone, via androgen receptors on macrophages (already mapped) and T cells (already mapped), exerts immunosuppressive effects that modulate the sex-differential severity of cytokine-storm syndromes.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Immunostimulatory prolactin axis: prolactin, via PRL receptors on T cells (already mapped), NK cells (already mapped) and macrophages (already mapped), amplifies the cytokine production and the hyperinflammatory T-cell activation of the cytokine storm.
 
 ## Pathology
 
