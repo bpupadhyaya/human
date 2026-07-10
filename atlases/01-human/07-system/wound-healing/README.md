@@ -508,6 +508,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "Wound selenium: selenoprotein antioxidants (GPx) counter the ROS burst of the inflammatory phase; selenium deficiency impairs macrophage (already mapped) bactericidal activity and fibroblast (already mapped) collagen (already mapped) cross-linking in chronic wounds."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "Wound iodine: topical iodine (cadexomer-iodide) provides antimicrobial activity in wound care; systemic iodine-dependent thyroid hormones regulate macrophage (already mapped) polarisation and fibroblast (already mapped) proliferative responses in wound healing."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Wound sodium: sodium-driven osmotic signalling modulates macrophage (already mapped) inflammatory polarisation and NF-κB (already mapped) cytokine production in the wound inflammatory phase; local sodium accumulation amplifies pro-inflammatory and anti-fibrotic responses."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Wound magnesium: magnesium is required for fibroblast (already mapped) collagen (already mapped) cross-linking and matrix metalloproteinase activity in wound remodelling; magnesium deficiency impairs macrophage (already mapped) M2 polarisation and delays wound closure."
 ---
 
 # Wound Healing
@@ -790,6 +799,9 @@ cross_links:
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Wound testosterone: testosterone impairs cutaneous healing by suppressing macrophage (already mapped) M2 polarisation and fibroblast (already mapped) collagen (already mapped) synthesis; androgens explain the male sex disadvantage in wound-repair kinetics.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Wound vasopressin: vasopressin (ADH) vasoconstricts the wound-bed microcirculation and modulates platelet aggregation (nitric-oxide already mapped) in haemostasis; V1aR on fibroblasts (already mapped) promotes TGF-β (already mapped) driven wound contraction.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Wound selenium: selenoprotein antioxidants (GPx) counter the ROS burst of the inflammatory phase; selenium deficiency impairs macrophage (already mapped) bactericidal activity and fibroblast (already mapped) collagen (already mapped) cross-linking in chronic wounds.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Wound iodine: topical iodine (cadexomer-iodide) provides antimicrobial activity in wound care; systemic iodine-dependent thyroid hormones regulate macrophage (already mapped) polarisation and fibroblast (already mapped) proliferative responses in wound healing.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Wound sodium: sodium-driven osmotic signalling modulates macrophage (already mapped) inflammatory polarisation and NF-κB (already mapped) cytokine production in the wound inflammatory phase; local sodium accumulation amplifies pro-inflammatory and anti-fibrotic responses.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Wound magnesium: magnesium is required for fibroblast (already mapped) collagen (already mapped) cross-linking and matrix metalloproteinase activity in wound remodelling; magnesium deficiency impairs macrophage (already mapped) M2 polarisation and delays wound closure.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)

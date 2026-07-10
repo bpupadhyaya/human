@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Wilms prolactin: prolactin, via JAK2/STAT5, promotes nephroblastoma-cell survival through mTOR (already mapped) and IGF-1 (already mapped) crosstalk; prolactin-driven VEGF (already mapped) induction enhances the tumour vasculature in the Wilms-tumour kidney (already mapped)."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Wilms oxytocin: oxytocin receptor on nephroblastoma cells attenuates IGF-1 (already mapped) and mTOR (already mapped) proliferative signalling; oxytocin-driven cAMP/PKA activation opposes WNT/β-catenin (already mapped)-mediated WT1 transcriptional reprogramming in Wilms tumour."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Wilms vasopressin: vasopressin V1A/V2 receptors on nephroblastoma cells modulate cAMP/PKA signalling, intersecting IGF-1 (already mapped)/mTOR (already mapped) and VEGF (already mapped) proliferative axes in the renal blastema of Wilms tumour."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Wilms selenium: selenium-dependent GPX4 suppresses ferroptosis-resistance in Wilms nephroblastoma cells; selenium counters the oxidative stress driving mTOR (already mapped) hyperactivation and VEGF (already mapped)-mediated tumour angiogenesis in the renal blastema."
 ---
 
 # Wilms Tumor
@@ -792,6 +801,9 @@ Wilms tumor survivors face late effects proportional to treatment intensity:
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Wilms melatonin: melatonin suppresses nephroblastoma proliferation via MT1/MT2 receptor-mediated inhibition of IGF-1 (already mapped) and mTOR (already mapped) signalling; melatonin also modulates the immune microenvironment of the Wilms-tumour kidney (already mapped) stroma.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Wilms serotonin: 5-HT receptors on nephroblastoma cells drive IGF-1 (already mapped) and mTOR (already mapped) downstream proliferative signalling; serotonin also modulates the mast-cell (already mapped) immunosuppressive microenvironment of the Wilms-tumour stroma.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Wilms prolactin: prolactin, via JAK2/STAT5, promotes nephroblastoma-cell survival through mTOR (already mapped) and IGF-1 (already mapped) crosstalk; prolactin-driven VEGF (already mapped) induction enhances the tumour vasculature in the Wilms-tumour kidney (already mapped).
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Wilms oxytocin: oxytocin receptor on nephroblastoma cells attenuates IGF-1 (already mapped) and mTOR (already mapped) proliferative signalling; oxytocin-driven cAMP/PKA activation opposes WNT/β-catenin (already mapped)-mediated WT1 transcriptional reprogramming in Wilms tumour.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Wilms vasopressin: vasopressin V1A/V2 receptors on nephroblastoma cells modulate cAMP/PKA signalling, intersecting IGF-1 (already mapped)/mTOR (already mapped) and VEGF (already mapped) proliferative axes in the renal blastema of Wilms tumour.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Wilms selenium: selenium-dependent GPX4 suppresses ferroptosis-resistance in Wilms nephroblastoma cells; selenium counters the oxidative stress driving mTOR (already mapped) hyperactivation and VEGF (already mapped)-mediated tumour angiogenesis in the renal blastema.
 
 [^dome-2015-wilms]: Dome JS, Graf N, Geller JI, et al. Advances in Wilms tumor treatment and biology: progress through international collaboration. *J Clin Oncol.* 2015;33(27):2999-3007. [doi:10.1200/JCO.2015.62.1888](https://doi.org/10.1200/JCO.2015.62.1888) · [PubMed 26261251](https://pubmed.ncbi.nlm.nih.gov/26261251/)
 [^dix-2006-arenl0002]: Dix DB, Bhatt SM, Geller JI, et al. Treatment of Stage IV favorable histology Wilms tumor with incomplete lung metastasis response after chemotherapy: a report from Children's Oncology Group Study AREN0533. *J Clin Oncol.* 2018;36(16):1564-1570. [doi:10.1200/JCO.2017.77.1877](https://doi.org/10.1200/JCO.2017.77.1877) · [PubMed 29584550](https://pubmed.ncbi.nlm.nih.gov/29584550/)
