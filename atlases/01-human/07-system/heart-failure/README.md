@@ -496,6 +496,15 @@ cross_links:
   - target: 01-human/03-molecular/factor-h
     relation: connects-to
     note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3 and C5aR1 already mapped) in the failing myocardium, limiting the complement-driven cardiomyocyte (already mapped) injury and the inflammatory remodelling of heart failure."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "HF melatonin: melatonin reduces TGF-β (already mapped) driven cardiac fibrosis in heart failure; melatonin also suppresses TNF-α (already mapped) and IL-6 (already mapped) mediated cardiomyocyte apoptosis and protects the cardiac-conduction system (already mapped)."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "HF testosterone: testosterone deficiency worsens heart failure prognosis; androgen receptor signalling suppresses IL-6 (already mapped) driven cardiac cachexia and modulates the angiotensin-II (already mapped) neurohormonal axis and norepinephrine (already mapped) toxicity."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "HF serotonin: serotonin vasoconstriction amplifies the endothelin-1 (already mapped) and angiotensin-II (already mapped) axis in heart failure; 5-HT2 receptor signalling on cardiomyocytes potentiates TNF-α (already mapped) and IL-6 (already mapped) cardiac dysfunction."
 ---
 
 # Heart Failure
@@ -728,6 +737,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell cardiac mediator: histamine, released by the cardiac mast cells (already mapped) during the ischaemia-reperfusion injury and pressure-overload remodelling of heart failure, amplifies ventricular fibrosis (TGF-β and BNP already mapped) and the inflammatory cascade.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement myocardial injury: complement C5, upstream of the membrane-attack complex, is activated by the ischaemia-reperfusion injury (complement C3 and C5aR1 already mapped) of heart failure, contributing to the cardiomyocyte (already mapped) loss and dysfunction.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3 and C5aR1 already mapped) in the failing myocardium, limiting the complement-driven cardiomyocyte (already mapped) injury and the inflammatory remodelling of heart failure.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — HF melatonin: melatonin reduces TGF-β (already mapped) driven cardiac fibrosis in heart failure; melatonin also suppresses TNF-α (already mapped) and IL-6 (already mapped) mediated cardiomyocyte apoptosis and protects the cardiac-conduction system (already mapped).
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — HF testosterone: testosterone deficiency worsens heart failure prognosis; androgen receptor signalling suppresses IL-6 (already mapped) driven cardiac cachexia and modulates the angiotensin-II (already mapped) neurohormonal axis and norepinephrine (already mapped) toxicity.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — HF serotonin: serotonin vasoconstriction amplifies the endothelin-1 (already mapped) and angiotensin-II (already mapped) axis in heart failure; 5-HT2 receptor signalling on cardiomyocytes potentiates TNF-α (already mapped) and IL-6 (already mapped) cardiac dysfunction.
 
 ## Pathology
 

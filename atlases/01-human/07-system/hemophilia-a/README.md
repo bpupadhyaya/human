@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Synovial ECM remodelling: periostin, induced by TGF-β (already mapped) in the synovial fibroblasts (already mapped) after recurrent haemarthrosis, contributes to the cartilage destruction and the chronic haemophilic arthropathy of haemophilia A."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "HA melatonin: melatonin suppresses TNF-α (already mapped) and IL-6 (already mapped) driven synovial inflammation in haemophilic arthropathy; melatonin also reduces macrophage (already mapped) activation and attenuates the cortical-bone (already mapped) erosion cascade."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "HA testosterone: androgen receptor signalling modulates platelet (already mapped) and thrombin (already mapped) activity in haemophilia A; testosterone also drives macrophage (already mapped) and B-cell (already mapped) activity in the inhibitor-development cascade."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "HA serotonin: platelet (already mapped) serotonin release modulates thrombin (already mapped) generation in haemophilia A; 5-HT2A on endothelial cells (already mapped) amplifies the TNF-α (already mapped) and IL-6 (already mapped) joint inflammatory cascade."
 ---
 
 # Hemophilia A
@@ -784,6 +793,9 @@ FVIII is a critical **amplifier** of the coagulation cascade at the junction bet
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Contact-kinin regulation: the C1-esterase inhibitor limits the classical complement and contact-kinin (bradykinin already mapped) cascades activated by recurrent haemarthrosis and soft-tissue haematoma, moderating the inflammatory joint damage of haemophilia A.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell haemarthrosis mediator: histamine, released by mast cells (already mapped) at haemarthrosis sites in haemophilia A, amplifies the local vascular permeability and inflammatory cytokine signalling (IL-1 and TNF already mapped) of the haemophilic joint.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Synovial ECM remodelling: periostin, induced by TGF-β (already mapped) in the synovial fibroblasts (already mapped) after recurrent haemarthrosis, contributes to the cartilage destruction and the chronic haemophilic arthropathy of haemophilia A.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — HA melatonin: melatonin suppresses TNF-α (already mapped) and IL-6 (already mapped) driven synovial inflammation in haemophilic arthropathy; melatonin also reduces macrophage (already mapped) activation and attenuates the cortical-bone (already mapped) erosion cascade.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — HA testosterone: androgen receptor signalling modulates platelet (already mapped) and thrombin (already mapped) activity in haemophilia A; testosterone also drives macrophage (already mapped) and B-cell (already mapped) activity in the inhibitor-development cascade.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — HA serotonin: platelet (already mapped) serotonin release modulates thrombin (already mapped) generation in haemophilia A; 5-HT2A on endothelial cells (already mapped) amplifies the TNF-α (already mapped) and IL-6 (already mapped) joint inflammatory cascade.
 
 [^oldenburg-2017-emicizumab-haven1]: Oldenburg J, Mahlangu JN, Kim B, et al. Emicizumab prophylaxis in hemophilia A with inhibitors. *N Engl J Med.* 2017;377(9):809-818. [doi:10.1056/NEJMoa1703068](https://doi.org/10.1056/NEJMoa1703068) · [PubMed 28691557](https://pubmed.ncbi.nlm.nih.gov/28691557/)
 [^mahlangu-2018-emicizumab-haven3]: Mahlangu J, Oldenburg J, Paz-Priel I, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors. *N Engl J Med.* 2018;379(9):811-822. [doi:10.1056/NEJMoa1803550](https://doi.org/10.1056/NEJMoa1803550) · [PubMed 30157389](https://pubmed.ncbi.nlm.nih.gov/30157389/)
