@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c5
     relation: connects-to
     note: "Terminal complement in Wilms: complement C5 (upstream of C5aR1 already mapped) generates C5a in the Wilms-tumour microenvironment, amplifying myeloid immunosuppression and the complement-mediated immune escape of the nephroblastoma."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Wilms melatonin: melatonin suppresses nephroblastoma proliferation via MT1/MT2 receptor-mediated inhibition of IGF-1 (already mapped) and mTOR (already mapped) signalling; melatonin also modulates the immune microenvironment of the Wilms-tumour kidney (already mapped) stroma."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Wilms serotonin: 5-HT receptors on nephroblastoma cells drive IGF-1 (already mapped) and mTOR (already mapped) downstream proliferative signalling; serotonin also modulates the mast-cell (already mapped) immunosuppressive microenvironment of the Wilms-tumour stroma."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Wilms prolactin: prolactin, via JAK2/STAT5, promotes nephroblastoma-cell survival through mTOR (already mapped) and IGF-1 (already mapped) crosstalk; prolactin-driven VEGF (already mapped) induction enhances the tumour vasculature in the Wilms-tumour kidney (already mapped)."
 ---
 
 # Wilms Tumor
@@ -780,6 +789,9 @@ Wilms tumor survivors face late effects proportional to treatment intensity:
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical complement brake: C1-esterase inhibitor restrains the classical complement C1 and the contact system (C3/C5aR1/factor-H already mapped) activated in the Wilms-tumour microenvironment, modulating complement-dependent immune surveillance of the nephroblastoma.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell nephroblastoma mediator: histamine released by mast cells (already mapped) in the Wilms-tumour stroma promotes vascular permeability and the pro-tumourigenic type-2 microenvironment that sustains the immune evasion of the nephroblastoma.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement in Wilms: complement C5 (upstream of C5aR1 already mapped) generates C5a in the Wilms-tumour microenvironment, amplifying myeloid immunosuppression and the complement-mediated immune escape of the nephroblastoma.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Wilms melatonin: melatonin suppresses nephroblastoma proliferation via MT1/MT2 receptor-mediated inhibition of IGF-1 (already mapped) and mTOR (already mapped) signalling; melatonin also modulates the immune microenvironment of the Wilms-tumour kidney (already mapped) stroma.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Wilms serotonin: 5-HT receptors on nephroblastoma cells drive IGF-1 (already mapped) and mTOR (already mapped) downstream proliferative signalling; serotonin also modulates the mast-cell (already mapped) immunosuppressive microenvironment of the Wilms-tumour stroma.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Wilms prolactin: prolactin, via JAK2/STAT5, promotes nephroblastoma-cell survival through mTOR (already mapped) and IGF-1 (already mapped) crosstalk; prolactin-driven VEGF (already mapped) induction enhances the tumour vasculature in the Wilms-tumour kidney (already mapped).
 
 [^dome-2015-wilms]: Dome JS, Graf N, Geller JI, et al. Advances in Wilms tumor treatment and biology: progress through international collaboration. *J Clin Oncol.* 2015;33(27):2999-3007. [doi:10.1200/JCO.2015.62.1888](https://doi.org/10.1200/JCO.2015.62.1888) · [PubMed 26261251](https://pubmed.ncbi.nlm.nih.gov/26261251/)
 [^dix-2006-arenl0002]: Dix DB, Bhatt SM, Geller JI, et al. Treatment of Stage IV favorable histology Wilms tumor with incomplete lung metastasis response after chemotherapy: a report from Children's Oncology Group Study AREN0533. *J Clin Oncol.* 2018;36(16):1564-1570. [doi:10.1200/JCO.2017.77.1877](https://doi.org/10.1200/JCO.2017.77.1877) · [PubMed 29584550](https://pubmed.ncbi.nlm.nih.gov/29584550/)

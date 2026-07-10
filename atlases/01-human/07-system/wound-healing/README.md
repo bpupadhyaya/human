@@ -499,6 +499,15 @@ cross_links:
   - target: 01-human/03-molecular/oxytocin
     relation: connects-to
     note: "Neuroendocrine wound modulator: oxytocin receptors on keratinocytes (skin already mapped) and fibroblasts (already mapped) accelerate re-epithelialisation and collagen (already mapped) remodelling; oxytocin deficiency in stress and aging impairs wound healing."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Wound testosterone: testosterone impairs cutaneous healing by suppressing macrophage (already mapped) M2 polarisation and fibroblast (already mapped) collagen (already mapped) synthesis; androgens explain the male sex disadvantage in wound-repair kinetics."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Wound vasopressin: vasopressin (ADH) vasoconstricts the wound-bed microcirculation and modulates platelet aggregation (nitric-oxide already mapped) in haemostasis; V1aR on fibroblasts (already mapped) promotes TGF-β (already mapped) driven wound contraction."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Wound selenium: selenoprotein antioxidants (GPx) counter the ROS burst of the inflammatory phase; selenium deficiency impairs macrophage (already mapped) bactericidal activity and fibroblast (already mapped) collagen (already mapped) cross-linking in chronic wounds."
 ---
 
 # Wound Healing
@@ -778,6 +787,9 @@ cross_links:
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian wound repair: melatonin accelerates wound healing by promoting keratinocyte (skin already mapped) migration and fibroblast (already mapped) collagen synthesis, with antioxidant effects that reduce the oxidative damage of the inflammatory phase.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Epithelial re-epithelialisation: prolactin receptors on keratinocytes (skin already mapped) and fibroblasts (already mapped) promote cell proliferation and migration in the proliferative phase; wound-fluid prolactin is elevated above circulating levels.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Neuroendocrine wound modulator: oxytocin receptors on keratinocytes (skin already mapped) and fibroblasts (already mapped) accelerate re-epithelialisation and collagen (already mapped) remodelling; oxytocin deficiency in stress and aging impairs wound healing.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Wound testosterone: testosterone impairs cutaneous healing by suppressing macrophage (already mapped) M2 polarisation and fibroblast (already mapped) collagen (already mapped) synthesis; androgens explain the male sex disadvantage in wound-repair kinetics.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Wound vasopressin: vasopressin (ADH) vasoconstricts the wound-bed microcirculation and modulates platelet aggregation (nitric-oxide already mapped) in haemostasis; V1aR on fibroblasts (already mapped) promotes TGF-β (already mapped) driven wound contraction.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Wound selenium: selenoprotein antioxidants (GPx) counter the ROS burst of the inflammatory phase; selenium deficiency impairs macrophage (already mapped) bactericidal activity and fibroblast (already mapped) collagen (already mapped) cross-linking in chronic wounds.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)
