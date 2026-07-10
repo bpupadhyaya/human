@@ -507,6 +507,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "HBV prolactin: prolactin stimulates NF-κB (already mapped) and IL-6 (already mapped) driven hepatic immune tolerance; elevated prolactin impairs regulatory-T-cell (already mapped) mediated suppression of the HBV liver (already mapped) inflammatory injury."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "HBV oxytocin: oxytocin suppresses NF-κB (already mapped) driven TNF-α (already mapped) and IL-6 (already mapped) hepatic inflammation; oxytocin enhances regulatory-T-cell (already mapped) immune tolerance to HBV and reduces macrophage (already mapped) driven hepatic damage."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "HBV vasopressin: vasopressin V1 receptor on hepatocytes (already mapped) modulates NF-κB (already mapped) IL-6 (already mapped) and TNF-α (already mapped) hepatic inflammation; AVP modulates macrophage (already mapped) and natural-killer-cell (already mapped) antiviral function."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "HBV selenium: selenoproteins counter NF-κB (already mapped) oxidative stress in HBV-infected hepatocytes (already mapped); selenium deficiency amplifies TNF-α (already mapped) and IL-6 (already mapped) hepatic inflammation and impairs T-cytotoxic-cell (already mapped) clearance."
 ---
 
 # Hepatitis B
@@ -805,3 +814,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — HBV testosterone: testosterone modulates hepatitis B viral replication via androgen receptor binding to the HBV enhancer; testosterone suppresses IFN-γ (already mapped) and TNF-α (already mapped) antiviral immune responses and worsens the liver (already mapped) fibrosis.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — HBV serotonin: serotonin from liver (already mapped) macrophages (already mapped) amplifies NF-κB (already mapped) and TNF-α (already mapped) hepatic inflammation in HBV infection; 5-HT signalling modulates B-cell (already mapped) and IL-6 (already mapped) antiviral responses.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — HBV prolactin: prolactin stimulates NF-κB (already mapped) and IL-6 (already mapped) driven hepatic immune tolerance; elevated prolactin impairs regulatory-T-cell (already mapped) mediated suppression of the HBV liver (already mapped) inflammatory injury.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — HBV oxytocin: oxytocin suppresses NF-κB (already mapped) driven TNF-α (already mapped) and IL-6 (already mapped) hepatic inflammation; oxytocin enhances regulatory-T-cell (already mapped) immune tolerance to HBV and reduces macrophage (already mapped) driven hepatic damage.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — HBV vasopressin: vasopressin V1 receptor on hepatocytes (already mapped) modulates NF-κB (already mapped) IL-6 (already mapped) and TNF-α (already mapped) hepatic inflammation; AVP modulates macrophage (already mapped) and natural-killer-cell (already mapped) antiviral function.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — HBV selenium: selenoproteins counter NF-κB (already mapped) oxidative stress in HBV-infected hepatocytes (already mapped); selenium deficiency amplifies TNF-α (already mapped) and IL-6 (already mapped) hepatic inflammation and impairs T-cytotoxic-cell (already mapped) clearance.

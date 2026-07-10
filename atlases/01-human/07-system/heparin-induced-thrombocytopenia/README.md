@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "HIT selenium: selenoprotein antioxidants protect endothelial cells (already mapped) from the oxidative burst of platelet (already mapped) activation in HIT; selenium deficiency amplifies TNF-α (already mapped) driven NF-κB (already mapped) activation and the thrombotic cascade."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "HIT iodine: thyroid hormones (iodine-dependent) modulate platelet (already mapped) activation thresholds; iodine deficiency amplifies NF-κB (already mapped) endothelial cell (already mapped) prothrombotic activation and TNF-α (already mapped) thrombin (already mapped) cascade."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "HIT sodium: platelet (already mapped) ionic sodium modulates PF4 (already mapped) release and thrombin (already mapped) generation; sodium dysregulation amplifies NF-κB (already mapped) endothelial cell (already mapped) prothrombotic activation and IL-6 (already mapped) cascade."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "HIT magnesium: magnesium inhibits platelet (already mapped) activation and PF4 (already mapped) release; magnesium deficiency amplifies thrombin (already mapped) generation and NF-κB (already mapped) endothelial cell (already mapped) prothrombotic signalling in the HIT cascade."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -819,6 +828,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — HIT testosterone: testosterone suppresses NF-κB (already mapped) driven endothelial-cell (already mapped) activation in HIT; androgen receptor signalling also modulates platelet (already mapped) aggregation and thrombin (already mapped) generation in the HIT cascade.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — HIT vasopressin: vasopressin (ADH) potentiates platelet (already mapped) aggregation and thrombin (already mapped) generation via V1a receptor; vasopressin also amplifies the endothelial-cell (already mapped) prothrombotic NF-κB (already mapped) signalling in HIT.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — HIT selenium: selenoprotein antioxidants protect endothelial cells (already mapped) from the oxidative burst of platelet (already mapped) activation in HIT; selenium deficiency amplifies TNF-α (already mapped) driven NF-κB (already mapped) activation and the thrombotic cascade.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — HIT iodine: thyroid hormones (iodine-dependent) modulate platelet (already mapped) activation thresholds; iodine deficiency amplifies NF-κB (already mapped) endothelial cell (already mapped) prothrombotic activation and TNF-α (already mapped) thrombin (already mapped) cascade.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — HIT sodium: platelet (already mapped) ionic sodium modulates PF4 (already mapped) release and thrombin (already mapped) generation; sodium dysregulation amplifies NF-κB (already mapped) endothelial cell (already mapped) prothrombotic activation and IL-6 (already mapped) cascade.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — HIT magnesium: magnesium inhibits platelet (already mapped) activation and PF4 (already mapped) release; magnesium deficiency amplifies thrombin (already mapped) generation and NF-κB (already mapped) endothelial cell (already mapped) prothrombotic signalling in the HIT cascade.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)
