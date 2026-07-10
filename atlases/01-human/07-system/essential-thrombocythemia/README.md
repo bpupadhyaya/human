@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "ET vasopressin: vasopressin, via V2R on macrophages (already mapped) and neutrophils (already mapped), modulates vascular haemostasis; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) megakaryoproliferative cascade of ET."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "ET selenium: selenium, as GPx in macrophages (already mapped) and neutrophils (already mapped), scavenges ROS; selenium deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) oxidative megakaryoproliferative cascade of essential thrombocythemia."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "ET iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and thrombopoiesis; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) megakaryoproliferative cascade of essential thrombocythemia."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "ET sodium: high dietary sodium promotes macrophage (already mapped) and neutrophil (already mapped) activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the megakaryoproliferative thrombotic cascade of essential thrombocythemia."
 ---
 
 # Essential Thrombocythemia
@@ -793,6 +802,9 @@ Management:
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — ET prolactin: prolactin, via PRLR on macrophages (already mapped) and T-cytotoxic cells (already mapped), modulates the bone-marrow immune milieu; hyperprolactinaemia amplifies the NF-κB (already mapped) and TNF-α (already mapped) megakaryoproliferative cascade of ET.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — ET oxytocin: oxytocin, via OXTR on macrophages (already mapped) and neutrophils (already mapped), attenuates bone-marrow inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) thrombocythaemic cascade of essential thrombocythemia.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — ET vasopressin: vasopressin, via V2R on macrophages (already mapped) and neutrophils (already mapped), modulates vascular haemostasis; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) megakaryoproliferative cascade of ET.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — ET selenium: selenium, as GPx in macrophages (already mapped) and neutrophils (already mapped), scavenges ROS; selenium deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) oxidative megakaryoproliferative cascade of essential thrombocythemia.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — ET iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and thrombopoiesis; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) megakaryoproliferative cascade of essential thrombocythemia.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — ET sodium: high dietary sodium promotes macrophage (already mapped) and neutrophil (already mapped) activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the megakaryoproliferative thrombotic cascade of essential thrombocythemia.
 
 [^harrison-2005-pt1-et]: Harrison CN, Campbell PJ, Buck G, et al. Hydroxyurea compared with anagrelide in high-risk essential thrombocythemia. *N Engl J Med.* 2005;353(1):33-45. [doi:10.1056/NEJMoa043800](https://doi.org/10.1056/NEJMoa043800) · [PubMed 16000354](https://pubmed.ncbi.nlm.nih.gov/16000354/)
 [^barbui-2012-ipset]: Barbui T, Finazzi G, Carobbio A, et al. Development and validation of an International Prognostic Score of thrombosis in World Health Organization-essential thrombocythemia (IPSET-thrombosis). *Blood.* 2012;120(26):5128-5133. [doi:10.1182/blood-2012-07-444067](https://doi.org/10.1182/blood-2012-07-444067) · [PubMed 23086758](https://pubmed.ncbi.nlm.nih.gov/23086758/)
