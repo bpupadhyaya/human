@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "CML prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), promotes CML immune escape; hyperprolactinaemia amplifies the NF-κB (already mapped) and IL-6 (already mapped) leukaemic survival cascade of CML."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "CML oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates the BCR-ABL (already mapped)-driven TME inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) leukaemic survival cascade of CML."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "CML vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates the CML marrow vascular milieu; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) BCR-ABL cascade of CML."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "CML selenium: selenium, as GPx in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges BCR-ABL-driven ROS; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) oxidative leukaemia cascade of CML."
 ---
 
 # Chronic Myeloid Leukemia
@@ -788,6 +797,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — CML testosterone: testosterone, via androgen receptors on macrophages (already mapped) and T-cytotoxic cells (already mapped), modulates the CML TME; testosterone deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) BCR-ABL survival cascade of CML.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — CML serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the CML TME; serotonin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) BCR-ABL cascade of CML.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — CML prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), promotes CML immune escape; hyperprolactinaemia amplifies the NF-κB (already mapped) and IL-6 (already mapped) leukaemic survival cascade of CML.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — CML oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates the BCR-ABL (already mapped)-driven TME inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) leukaemic survival cascade of CML.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — CML vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates the CML marrow vascular milieu; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) BCR-ABL cascade of CML.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — CML selenium: selenium, as GPx in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges BCR-ABL-driven ROS; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) oxidative leukaemia cascade of CML.
 
 ---
 
