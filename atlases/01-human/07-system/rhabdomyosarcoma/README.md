@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "RMS prolactin: prolactin via JAK2/STAT5 signalling on rhabdomyosarcoma cells promotes tumour survival and activates the IGF-1 (already mapped) and mTOR (already mapped) axes, amplifying the PAX3-FOXO1 (FOXO1 already mapped) oncogenic program of alveolar rhabdomyosarcoma."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "RMS selenium: selenoproteins quench ROS from IGF-1 (already mapped) and mTOR (already mapped)-driven hyperactivation in rhabdomyosarcoma cells; selenium deficiency amplifies IL-6 (already mapped) and FOXO1 (already mapped) apoptosis-resistance cascade of RMS."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "RMS iodine: iodine-dependent thyroid hormones regulate macrophage (already mapped) and T-cytotoxic (already mapped) anti-tumour immunity; thyroid-hormone deficiency amplifies IGF-1 (already mapped) and mTOR (already mapped) cascade of rhabdomyosarcoma."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "RMS sodium: excess sodium promotes macrophage (already mapped) pro-inflammatory skewing; sodium-induced IL-6 (already mapped) amplifies the IGF-1 (already mapped) and mTOR (already mapped)-driven proliferative cascade of rhabdomyosarcoma."
 ---
 
 # Rhabdomyosarcoma
@@ -803,6 +812,9 @@ Maximal safe resection with negative margins (R0) wherever achievable without mu
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — RMS oxytocin: oxytocin modulates muscle (already mapped) progenitor cell differentiation and immune surveillance in the rhabdomyosarcoma tumour microenvironment, intersecting the IGF-1 (already mapped) and mTOR (already mapped) myogenic growth axis of rhabdomyosarcoma.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — RMS vasopressin: vasopressin via V1aR on rhabdomyosarcoma-associated endothelial cells modulates tumour vasculature formation, intersecting the VEGF (already mapped) and mTOR (already mapped)-driven angiogenic programme of this paediatric soft-tissue sarcoma.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — RMS prolactin: prolactin via JAK2/STAT5 signalling on rhabdomyosarcoma cells promotes tumour survival and activates the IGF-1 (already mapped) and mTOR (already mapped) axes, amplifying the PAX3-FOXO1 (FOXO1 already mapped) oncogenic program of alveolar rhabdomyosarcoma.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — RMS selenium: selenoproteins quench ROS from IGF-1 (already mapped) and mTOR (already mapped)-driven hyperactivation in rhabdomyosarcoma cells; selenium deficiency amplifies IL-6 (already mapped) and FOXO1 (already mapped) apoptosis-resistance cascade of RMS.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — RMS iodine: iodine-dependent thyroid hormones regulate macrophage (already mapped) and T-cytotoxic (already mapped) anti-tumour immunity; thyroid-hormone deficiency amplifies IGF-1 (already mapped) and mTOR (already mapped) cascade of rhabdomyosarcoma.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — RMS sodium: excess sodium promotes macrophage (already mapped) pro-inflammatory skewing; sodium-induced IL-6 (already mapped) amplifies the IGF-1 (already mapped) and mTOR (already mapped)-driven proliferative cascade of rhabdomyosarcoma.
 
 [^crist-2001-irs4-rms]: Crist WM, Anderson JR, Meza JL, et al. Intergroup rhabdomyosarcoma study-IV: results for patients with nonmetastatic disease. *J Clin Oncol.* 2001;19(12):3091-3102. [doi:10.1200/JCO.2001.19.12.3091](https://doi.org/10.1200/JCO.2001.19.12.3091) · [PubMed 11408506](https://pubmed.ncbi.nlm.nih.gov/11408506/)
 [^oberlin-2012-mmt95-rms]: Oberlin O, Rey A, Sanchez de Toledo J, et al. Randomized comparison of intensified six-drug versus standard three-drug chemotherapy for high-risk nonmetastatic rhabdomyosarcoma and other chemotherapy-sensitive childhood soft tissue sarcomas. *J Clin Oncol.* 2012;30(19):2457-2465. [doi:10.1200/JCO.2011.39.3538](https://doi.org/10.1200/JCO.2011.39.3538) · [PubMed 22665546](https://pubmed.ncbi.nlm.nih.gov/22665546/)

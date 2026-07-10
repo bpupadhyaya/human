@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "Rb selenium: selenium-dependent glutathione peroxidase (GPX) quenches reactive-oxygen-species driving genomic instability in RB1 (already mapped)-null retinoblastoma cells, reducing oxidative DNA damage and E2F1 (already mapped)-mediated cell-cycle deregulation."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Rb sodium: excess sodium promotes macrophage (already mapped) pro-inflammatory skewing; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) amplifies the mTOR (already mapped) and E2F1 (already mapped) proliferative cascade of retinoblastoma."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Rb copper: copper, as lysyl oxidase cofactor in endothelial cells (already mapped) and macrophages (already mapped), drives tumour angiogenesis; copper deficiency amplifies NF-κB (already mapped) and VEGF (already mapped) angiogenic cascade of retinoblastoma."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Rb zinc: zinc, as metalloproteinase cofactor in macrophages (already mapped) and T-cytotoxic cells (already mapped), supports anti-tumour cytotoxicity; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of retinoblastoma."
 ---
 
 # Retinoblastoma
@@ -788,6 +797,9 @@ Standard regimen: **vincristine + carboplatin + etoposide (VCE)**, 6 cycles; red
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Rb oxytocin: oxytocin modulates retinal immune surveillance and neuroendocrine homeostasis; oxytocin receptor expression on retinal progenitors (RB1 already mapped) intersects the JAK2 (already mapped) survival axis and the intraocular immune microenvironment of retinoblastoma.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Rb vasopressin: vasopressin via V1aR on retinal vascular endothelium and tumour-associated immune cells modulates ocular blood-flow and the complement (C3 already mapped)-driven immune microenvironment of retinoblastoma, intersecting RB1 (already mapped)-loss oncogenesis.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Rb selenium: selenium-dependent glutathione peroxidase (GPX) quenches reactive-oxygen-species driving genomic instability in RB1 (already mapped)-null retinoblastoma cells, reducing oxidative DNA damage and E2F1 (already mapped)-mediated cell-cycle deregulation.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Rb sodium: excess sodium promotes macrophage (already mapped) pro-inflammatory skewing; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) amplifies the mTOR (already mapped) and E2F1 (already mapped) proliferative cascade of retinoblastoma.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Rb copper: copper, as lysyl oxidase cofactor in endothelial cells (already mapped) and macrophages (already mapped), drives tumour angiogenesis; copper deficiency amplifies NF-κB (already mapped) and VEGF (already mapped) angiogenic cascade of retinoblastoma.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Rb zinc: zinc, as metalloproteinase cofactor in macrophages (already mapped) and T-cytotoxic cells (already mapped), supports anti-tumour cytotoxicity; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of retinoblastoma.
 
 [^knudson-1971-two-hit]: Knudson AG Jr. Mutation and cancer: statistical study of retinoblastoma. *Proc Natl Acad Sci USA.* 1971;68(4):820-823. [doi:10.1073/pnas.68.4.820](https://doi.org/10.1073/pnas.68.4.820) · [PubMed 5279523](https://pubmed.ncbi.nlm.nih.gov/5279523/)
 [^shields-2008-retinoblastoma]: Shields CL, Shields JA. Retinoblastoma management: advances in enucleation, intravenous chemoreduction, and intra-arterial chemotherapy. *Curr Opin Ophthalmol.* 2010;21(3):203-212. [doi:10.1097/ICU.0b013e328338676a](https://doi.org/10.1097/ICU.0b013e328338676a) · [PubMed 20224400](https://pubmed.ncbi.nlm.nih.gov/20224400/)
