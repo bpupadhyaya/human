@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Thyroid-cancer prolactin: prolactin via JAK2/STAT3 (already mapped) on thyroid-cancer cells promotes tumour survival and NF-κB (already mapped)-mediated anti-apoptotic expression, amplifying the oncogenic drive of BRAF (already mapped)- and RET-rearranged thyroid cancers."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Thyroid-cancer magnesium: magnesium supports iodine (already mapped) metabolism and thyroid-hormone synthesis in fibroblasts (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and mTOR (already mapped) proliferative cascade of thyroid cancer."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Thyroid-cancer copper: copper drives angiogenesis via VEGF (already mapped) in macrophages (already mapped) and fibroblasts (already mapped); copper deficiency impairs T-cytotoxic-cell (already mapped) and dendritic-cell (already mapped) immunity in thyroid cancer."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Thyroid-cancer zinc: zinc, as metalloproteinase cofactor in macrophages (already mapped), supports tumour invasion; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade and impairs T-cytotoxic-cell (already mapped) cytotoxicity in thyroid cancer."
 ---
 
 # Thyroid Cancer
@@ -819,6 +828,9 @@ Calcitonin doubling time <6 months → poor prognosis → early systemic therapy
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Thyroid-cancer oxytocin: oxytocin receptor on thyroid-cancer cells suppresses proliferation via cAMP/PKA inhibition of BRAF (already mapped)/MAPK and mTOR (already mapped) pathways; oxytocin attenuates VEGF (already mapped)-driven angiogenesis in the tumour microenvironment.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Thyroid-cancer vasopressin: vasopressin V1A/V2 receptors on thyroid-follicular cells modulate hormone secretion; V1A signalling in thyroid cancer intersects AKT (already mapped)/mTOR (already mapped) pathways, influencing tumour-cell survival and differentiation state.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Thyroid-cancer prolactin: prolactin via JAK2/STAT3 (already mapped) on thyroid-cancer cells promotes tumour survival and NF-κB (already mapped)-mediated anti-apoptotic expression, amplifying the oncogenic drive of BRAF (already mapped)- and RET-rearranged thyroid cancers.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Thyroid-cancer magnesium: magnesium supports iodine (already mapped) metabolism and thyroid-hormone synthesis in fibroblasts (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and mTOR (already mapped) proliferative cascade of thyroid cancer.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Thyroid-cancer copper: copper drives angiogenesis via VEGF (already mapped) in macrophages (already mapped) and fibroblasts (already mapped); copper deficiency impairs T-cytotoxic-cell (already mapped) and dendritic-cell (already mapped) immunity in thyroid cancer.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Thyroid-cancer zinc: zinc, as metalloproteinase cofactor in macrophages (already mapped), supports tumour invasion; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade and impairs T-cytotoxic-cell (already mapped) cytotoxicity in thyroid cancer.
 
 [^schlumberger-2015-lenvatinib]: Schlumberger M, Tahara M, Wirth LJ, et al. Lenvatinib versus placebo in radioiodine-refractory differentiated thyroid cancer. *N Engl J Med.* 2015;372(7):621-630. [doi:10.1056/NEJMoa1406470](https://doi.org/10.1056/NEJMoa1406470) · [PubMed 25671254](https://pubmed.ncbi.nlm.nih.gov/25671254/)
 [^subbiah-2018-atc-dabrafenib]: Subbiah V, Kreitman RJ, Wainberg ZA, et al. Dabrafenib and trametinib treatment in patients with locally advanced or metastatic BRAF V600-mutant anaplastic thyroid cancer. *J Clin Oncol.* 2018;36(1):7-13. [doi:10.1200/JCO.2017.73.6785](https://doi.org/10.1200/JCO.2017.73.6785) · [PubMed 28892432](https://pubmed.ncbi.nlm.nih.gov/28892432/)

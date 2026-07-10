@@ -517,6 +517,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "TTP sodium: sodium-driven Th17 polarisation amplifies NF-κB (already mapped)-mediated endothelial (already mapped) activation and VWF (already mapped) release initiating TTP microthrombus formation; high dietary sodium exacerbates autoimmune ADAMTS13 (already mapped) suppression."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "TTP copper: copper, as ceruloplasmin cofactor in endothelial-cell (already mapped) and macrophages (already mapped), modulates ROS; copper-dependent von-willebrand-factor (already mapped) multimerisation affects ADAMTS13 (already mapped) cleavage in TTP microthrombus cascade."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "TTP zinc: zinc, as metalloproteinase cofactor, supports ADAMTS13 (already mapped) cleavage of von-willebrand-factor (already mapped) multimers; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) endothelial (already mapped) activation in TTP."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "TTP phosphorus: phosphorus, as ATP precursor in platelets (already mapped) and endothelial-cell (already mapped), fuels thrombotic microangiopathy; phosphorus deficiency impairs dendritic-cell (already mapped) and T-cytotoxic-cell (already mapped) in TTP cascade."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -838,6 +847,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — TTP vasopressin: vasopressin induces VWF (already mapped) secretion from Weibel-Palade bodies, amplifying ADAMTS13 (already mapped)-cleavage demand overwhelmed in TTP; V1A receptor signalling promotes platelet (already mapped) activation and microvascular occlusion.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — TTP iodine: iodine-dependent thyroid hormones modulate platelet (already mapped) aggregation and ADAMTS13 (already mapped) activity; hypothyroidism-associated platelet hyperaggregability and impaired VWF (already mapped) cleavage may trigger or exacerbate acquired TTP episodes.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — TTP sodium: sodium-driven Th17 polarisation amplifies NF-κB (already mapped)-mediated endothelial (already mapped) activation and VWF (already mapped) release initiating TTP microthrombus formation; high dietary sodium exacerbates autoimmune ADAMTS13 (already mapped) suppression.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — TTP copper: copper, as ceruloplasmin cofactor in endothelial-cell (already mapped) and macrophages (already mapped), modulates ROS; copper-dependent von-willebrand-factor (already mapped) multimerisation affects ADAMTS13 (already mapped) cleavage in TTP microthrombus cascade.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — TTP zinc: zinc, as metalloproteinase cofactor, supports ADAMTS13 (already mapped) cleavage of von-willebrand-factor (already mapped) multimers; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) endothelial (already mapped) activation in TTP.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — TTP phosphorus: phosphorus, as ATP precursor in platelets (already mapped) and endothelial-cell (already mapped), fuels thrombotic microangiopathy; phosphorus deficiency impairs dendritic-cell (already mapped) and T-cytotoxic-cell (already mapped) in TTP cascade.
 
 ---
 
