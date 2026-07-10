@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Anemia correction: erythropoietin addresses the anemia of chronic disease (already mapped) and the myelosuppression from chemotherapy (already mapped), supporting haematopoiesis and quality of life in advanced prostate cancer."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell TME effector: histamine, released by mast cells (already mapped) in the tumour microenvironment of prostate cancer, promotes angiogenesis (VEGF already mapped), immunosuppression and androgen-receptor (already mapped) signalling crosstalk of prostate cancer."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Bone metastasis ECM scaffold: periostin, highly expressed in the bone microenvironment, promotes osteoblastic (already mapped) and mixed prostate cancer bone metastasis by facilitating tumour cell adhesion and the fibrotic remodelling of bone lesions."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement/kinin gate: C1-esterase inhibitor limits classical complement (C3 and C5 already mapped) and contact-kinin (bradykinin already mapped) activation in the tumour microenvironment, moderating complement-driven immunosuppression of prostate cancer."
 ---
 
 # Prostate Cancer
@@ -778,6 +787,9 @@ cross_links:
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Tumour-stromal alarmin: TSLP, secreted by cancer-associated fibroblasts (already mapped) and bone-marrow (already mapped) stroma, activates mast cells (already mapped) and dendritic cells (already mapped), promoting the immunosuppressive microenvironment of prostate cancer.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-growth axis: bradykinin, generated via the kallikrein-kinin system in the tumour microenvironment, signals via B2 receptors on cancer cells and endothelial cells (already mapped) to promote proliferation and angiogenesis (VEGF already mapped) of prostate cancer.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Anemia correction: erythropoietin addresses the anemia of chronic disease (already mapped) and the myelosuppression from chemotherapy (already mapped), supporting haematopoiesis and quality of life in advanced prostate cancer.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell TME effector: histamine, released by mast cells (already mapped) in the tumour microenvironment of prostate cancer, promotes angiogenesis (VEGF already mapped), immunosuppression and androgen-receptor (already mapped) signalling crosstalk of prostate cancer.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Bone metastasis ECM scaffold: periostin, highly expressed in the bone microenvironment, promotes osteoblastic (already mapped) and mixed prostate cancer bone metastasis by facilitating tumour cell adhesion and the fibrotic remodelling of bone lesions.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement/kinin gate: C1-esterase inhibitor limits classical complement (C3 and C5 already mapped) and contact-kinin (bradykinin already mapped) activation in the tumour microenvironment, moderating complement-driven immunosuppression of prostate cancer.
 
 [^beer-2014-prevail]: Beer TM, Armstrong AJ, Rathkopf D, et al. Enzalutamide in metastatic prostate cancer before chemotherapy. *N Engl J Med.* 2014;371(5):424-433. [doi:10.1056/NEJMoa1405095](https://doi.org/10.1056/NEJMoa1405095) · [PubMed 24881730](https://pubmed.ncbi.nlm.nih.gov/24881730/)
 [^sartor-2021-vision]: Sartor O, de Bono J, Chi KN, et al. Lutetium-PSMA-617 for metastatic castration-resistant prostate cancer. *N Engl J Med.* 2021;385(12):1091-1103. [doi:10.1056/NEJMoa2107322](https://doi.org/10.1056/NEJMoa2107322) · [PubMed 34161051](https://pubmed.ncbi.nlm.nih.gov/34161051/)
