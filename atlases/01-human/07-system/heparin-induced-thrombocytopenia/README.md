@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/oxytocin
     relation: connects-to
     note: "Neuroimmune anti-thrombotic: oxytocin, via OXT receptors on platelets (already mapped) and endothelial cells (already mapped), modulates platelet activation and the thromboinflammatory signalling at the PF4-heparin antibody complex sites of HIT."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "HIT testosterone: testosterone suppresses NF-κB (already mapped) driven endothelial-cell (already mapped) activation in HIT; androgen receptor signalling also modulates platelet (already mapped) aggregation and thrombin (already mapped) generation in the HIT cascade."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "HIT vasopressin: vasopressin (ADH) potentiates platelet (already mapped) aggregation and thrombin (already mapped) generation via V1a receptor; vasopressin also amplifies the endothelial-cell (already mapped) prothrombotic NF-κB (already mapped) signalling in HIT."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "HIT selenium: selenoprotein antioxidants protect endothelial cells (already mapped) from the oxidative burst of platelet (already mapped) activation in HIT; selenium deficiency amplifies TNF-α (already mapped) driven NF-κB (already mapped) activation and the thrombotic cascade."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -807,6 +816,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian platelet axis: melatonin, via MT1/MT2 receptors on platelets (already mapped), modulates platelet aggregation and the circadian oscillation of thrombotic risk, with overnight surges of coagulation (already mapped) activity amplifying HIT thrombosis.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Immune-endocrine coupling: prolactin, elevated during acute-phase inflammation (IL-6 already mapped) of HIT, potentiates B-cell (already mapped) autoantibody production (anti-PF4/heparin IgG) and may amplify the thromboinflammatory cascade.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Neuroimmune anti-thrombotic: oxytocin, via OXT receptors on platelets (already mapped) and endothelial cells (already mapped), modulates platelet activation and the thromboinflammatory signalling at the PF4-heparin antibody complex sites of HIT.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — HIT testosterone: testosterone suppresses NF-κB (already mapped) driven endothelial-cell (already mapped) activation in HIT; androgen receptor signalling also modulates platelet (already mapped) aggregation and thrombin (already mapped) generation in the HIT cascade.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — HIT vasopressin: vasopressin (ADH) potentiates platelet (already mapped) aggregation and thrombin (already mapped) generation via V1a receptor; vasopressin also amplifies the endothelial-cell (already mapped) prothrombotic NF-κB (already mapped) signalling in HIT.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — HIT selenium: selenoprotein antioxidants protect endothelial cells (already mapped) from the oxidative burst of platelet (already mapped) activation in HIT; selenium deficiency amplifies TNF-α (already mapped) driven NF-κB (already mapped) activation and the thrombotic cascade.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)
