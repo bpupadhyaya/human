@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Endometriosis stroma scaffold: periostin, upregulated in the endometriosis-derived stroma, promotes tumour cell adhesion, peritoneal invasion and desmoplastic ECM remodelling of ovarian clear cell carcinoma."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "OCCC melatonin: melatonin suppresses ovarian-clear-cell-carcinoma proliferation by inhibiting the PI3K/AKT (already mapped) and mTOR (already mapped) pathways through MT1/MT2-mediated cAMP suppression, counteracting the ARID1A-driven (already mapped) carcinogenesis."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "OCCC androgen axis: testosterone via androgen receptor promotes ovarian-clear-cell-carcinoma proliferation and intersects the PI3K/AKT (already mapped) and mTOR (already mapped) pathways upregulated in the ARID1A (already mapped)-mutant clear cell carcinoma."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "OCCC ascites serotonin: serotonin accumulates in the clear-cell-carcinoma peritoneal ascites and activates 5-HT receptors on peritoneal deposits to promote adhesion and mTOR (already mapped)-driven proliferation in the ovarian-clear-cell-carcinoma microenvironment."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -793,6 +802,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Stroma alarmin: TSLP released by the endometriosis-derived epithelium and peritoneal stroma activates mast cells (already mapped) and dendritic cells to shape the type-2 microenvironment of ovarian clear cell carcinoma.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Endometriosis mast-cell mediator: histamine released by mast cells (already mapped) in endometriotic lesions promotes VEGF angiogenesis and prostaglandin-mediated immune evasion in the ovarian-clear-cell-carcinoma peritoneal microenvironment.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Endometriosis stroma scaffold: periostin, upregulated in the endometriosis-derived stroma, promotes tumour cell adhesion, peritoneal invasion and desmoplastic ECM remodelling of ovarian clear cell carcinoma.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — OCCC melatonin: melatonin suppresses ovarian-clear-cell-carcinoma proliferation by inhibiting the PI3K/AKT (already mapped) and mTOR (already mapped) pathways through MT1/MT2-mediated cAMP suppression, counteracting the ARID1A-driven (already mapped) carcinogenesis.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — OCCC androgen axis: testosterone via androgen receptor promotes ovarian-clear-cell-carcinoma proliferation and intersects the PI3K/AKT (already mapped) and mTOR (already mapped) pathways upregulated in the ARID1A (already mapped)-mutant clear cell carcinoma.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — OCCC ascites serotonin: serotonin accumulates in the clear-cell-carcinoma peritoneal ascites and activates 5-HT receptors on peritoneal deposits to promote adhesion and mTOR (already mapped)-driven proliferation in the ovarian-clear-cell-carcinoma microenvironment.
 
 ---
 

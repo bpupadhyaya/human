@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Treatment anaemia: erythropoietin corrects the chemotherapy-induced anaemia of ovarian cancer; EPOR expression on tumour cells raises the question of direct EPO-driven signalling influencing platinum- and taxane-based regimen responses."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Peritoneal melatonin: melatonin inhibits ovarian cancer proliferation and ascites formation by suppressing VEGF (already mapped)-driven angiogenesis via MT1/MT2-mediated cAMP reduction and by enhancing NK-cell (already mapped) cytotoxicity against peritoneal deposits."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Ovarian cancer androgen axis: testosterone via androgen receptor promotes epithelial ovarian cancer proliferation (particularly low-grade serous histology) and amplifies KRAS (already mapped) and PI3K/AKT (already mapped)-driven tumour growth."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Ascites serotonin signalling: serotonin accumulates in ovarian cancer ascites, activating 5-HT2 receptors on peritoneal deposits to promote adhesion and VEGF (already mapped)-driven angiogenesis, amplifying the immunosuppressive malignant peritoneal microenvironment."
 ---
 
 # Ovarian Cancer
@@ -767,6 +776,9 @@ FTSEC ciliated and secretory cells line the Fallopian tube; secretory cells are 
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Peritoneal kinin: bradykinin accumulates in the malignant ascites of ovarian cancer, activating B1/B2 receptors on peritoneal mesothelium and sensory fibres, amplifying pain and vascular permeability of the peritoneal microenvironment.
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement regulation: C1-esterase inhibitor restrains the classical complement pathway in the ovarian-cancer peritoneal milieu, limiting the C3/C5/C5aR1 (all already mapped) cascade driving the immunosuppressive ascites microenvironment.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Treatment anaemia: erythropoietin corrects the chemotherapy-induced anaemia of ovarian cancer; EPOR expression on tumour cells raises the question of direct EPO-driven signalling influencing platinum- and taxane-based regimen responses.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Peritoneal melatonin: melatonin inhibits ovarian cancer proliferation and ascites formation by suppressing VEGF (already mapped)-driven angiogenesis via MT1/MT2-mediated cAMP reduction and by enhancing NK-cell (already mapped) cytotoxicity against peritoneal deposits.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Ovarian cancer androgen axis: testosterone via androgen receptor promotes epithelial ovarian cancer proliferation (particularly low-grade serous histology) and amplifies KRAS (already mapped) and PI3K/AKT (already mapped)-driven tumour growth.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Ascites serotonin signalling: serotonin accumulates in ovarian cancer ascites, activating 5-HT2 receptors on peritoneal deposits to promote adhesion and VEGF (already mapped)-driven angiogenesis, amplifying the immunosuppressive malignant peritoneal microenvironment.
 
 [^burger-2011-gog0218]: Burger RA, Brady MF, Bookman MA, et al. Incorporation of bevacizumab in the primary treatment of ovarian cancer. *N Engl J Med.* 2011;365(26):2473-2483. [doi:10.1056/NEJMoa1104390](https://doi.org/10.1056/NEJMoa1104390) · [PubMed 22204724](https://pubmed.ncbi.nlm.nih.gov/22204724/)
 [^moore-2018-olaparib-solo1]: Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. *N Engl J Med.* 2018;379(26):2495-2505. [doi:10.1056/NEJMoa1810858](https://doi.org/10.1056/NEJMoa1810858) · [PubMed 30345884](https://pubmed.ncbi.nlm.nih.gov/30345884/)
