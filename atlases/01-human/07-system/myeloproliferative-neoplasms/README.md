@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Myelofibrosis stroma: periostin, downstream of TGF-β (already mapped) and megakaryocyte-derived growth factors, drives the collagen deposition and fibroblast activation of the bone marrow (already mapped) fibrosis that characterises the myeloproliferative neoplasms."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "MPN complement regulation: C1-INH controls the classical-pathway arm (C3, C5 and C5aR1 already mapped) in the MPN microenvironment, complementing factor H (already mapped) to limit complement-driven thrombosis and JAK2 (already mapped) neutrophil activation."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Oncostatic melatonin in MPN: melatonin inhibits the JAK2 (already mapped)/STAT3 (already mapped) signalling cascade in myeloproliferative neoplasm progenitor cells, attenuates mast-cell (already mapped) histamine release and reduces the thrombo-inflammatory burden of MPN."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Prolactin-JAK2 axis: prolactin, via PRLR-mediated JAK2 (already mapped)/STAT5 activation, amplifies the constitutive JAK2V617F signalling of polycythaemia-vera and essential thrombocythaemia; elevated prolactin levels correlate with the inflammatory cytokine burden of MPN."
 ---
 
 # Myeloproliferative Neoplasms
@@ -783,6 +792,9 @@ In PV and ET, JAK2 V617F also affects myeloid progenitors → granulocytosis and
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Bone-marrow stroma alarmin: TSLP from the inflamed JAK2-mutant (already mapped) myeloproliferative bone marrow activates the stromal dendritic cells and mast cells, amplifying the NF-kB (already mapped) and STAT3 (already mapped) pro-inflammatory microenvironment of MPN.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Thrombosis amplifier: bradykinin activates B2 receptors on the platelets (already mapped) and vascular endothelium (already mapped), amplifying the hypercoagulability and microvascular thrombotic complications (VTE already mapped) of the JAK2-mutant myeloproliferative neoplasms.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Myelofibrosis stroma: periostin, downstream of TGF-β (already mapped) and megakaryocyte-derived growth factors, drives the collagen deposition and fibroblast activation of the bone marrow (already mapped) fibrosis that characterises the myeloproliferative neoplasms.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — MPN complement regulation: C1-INH controls the classical-pathway arm (C3, C5 and C5aR1 already mapped) in the MPN microenvironment, complementing factor H (already mapped) to limit complement-driven thrombosis and JAK2 (already mapped) neutrophil activation.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Oncostatic melatonin in MPN: melatonin inhibits the JAK2 (already mapped)/STAT3 (already mapped) signalling cascade in myeloproliferative neoplasm progenitor cells, attenuates mast-cell (already mapped) histamine release and reduces the thrombo-inflammatory burden of MPN.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Prolactin-JAK2 axis: prolactin, via PRLR-mediated JAK2 (already mapped)/STAT5 activation, amplifies the constitutive JAK2V617F signalling of polycythaemia-vera and essential thrombocythaemia; elevated prolactin levels correlate with the inflammatory cytokine burden of MPN.
 
 [^verstovsek-2012-comfort-i]: Verstovsek S, Mesa RA, Gotlib J, et al. A double-blind, placebo-controlled trial of ruxolitinib for myelofibrosis. *N Engl J Med.* 2012;366(9):799-807. [doi:10.1056/NEJMoa1110557](https://doi.org/10.1056/NEJMoa1110557) · [PubMed 22375971](https://pubmed.ncbi.nlm.nih.gov/22375971/)
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409002](https://doi.org/10.1056/NEJMoa1409002) · [PubMed 25426978](https://pubmed.ncbi.nlm.nih.gov/25426978/)
