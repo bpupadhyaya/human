@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "AD magnesium: magnesium, as cofactor for skin-barrier enzymes in keratinocytes (already mapped), modulates ceramide synthesis and barrier function; magnesium deficiency amplifies the IgE (already mapped) and IL-4 (already mapped) Th2 cascade of atopic dermatitis."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "AD potassium: potassium channels in mast cells (already mapped) and T-helper cells (already mapped) regulate immune activation and histamine release; potassium dysregulation amplifies the IL-4 (already mapped) and IgE (already mapped) Th2 cascade of atopic dermatitis."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "AD phosphorus: phosphorus, as ATP in T-helper cells (already mapped) and mast cells (already mapped), sustains Th2 cytokine production; phosphorus deficiency impairs the IL-4 (already mapped) and IgE (already mapped) skin (already mapped) barrier cascade of atopic dermatitis."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "AD iron: iron, as cofactor of immune enzymes in T-helper cells (already mapped) and mast cells (already mapped), modulates Th2 activation; iron deficiency amplifies the IL-4 (already mapped) and IgE (already mapped) type-2 inflammatory cascade of atopic dermatitis."
 ---
 
 # Atopic Dermatitis
@@ -798,6 +807,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — AD iodine: iodine-dependent thyroid hormones modulate keratinocyte (already mapped) barrier function and mast cell (already mapped) reactivity; iodine deficiency amplifies the IL-4 (already mapped) and IL-13 (already mapped) Th2 cascade of atopic dermatitis.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — AD sodium: sodium, via NaCl sensing on keratinocytes (already mapped) and dendritic cells (already mapped), modulates Th2-skewing; sodium excess amplifies the IL-4 (already mapped) and IL-13 (already mapped) type-2 inflammatory cascade of atopic dermatitis.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — AD magnesium: magnesium, as cofactor for skin-barrier enzymes in keratinocytes (already mapped), modulates ceramide synthesis and barrier function; magnesium deficiency amplifies the IgE (already mapped) and IL-4 (already mapped) Th2 cascade of atopic dermatitis.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — AD potassium: potassium channels in mast cells (already mapped) and T-helper cells (already mapped) regulate immune activation and histamine release; potassium dysregulation amplifies the IL-4 (already mapped) and IgE (already mapped) Th2 cascade of atopic dermatitis.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — AD phosphorus: phosphorus, as ATP in T-helper cells (already mapped) and mast cells (already mapped), sustains Th2 cytokine production; phosphorus deficiency impairs the IL-4 (already mapped) and IgE (already mapped) skin (already mapped) barrier cascade of atopic dermatitis.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — AD iron: iron, as cofactor of immune enzymes in T-helper cells (already mapped) and mast cells (already mapped), modulates Th2 activation; iron deficiency amplifies the IL-4 (already mapped) and IgE (already mapped) type-2 inflammatory cascade of atopic dermatitis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
