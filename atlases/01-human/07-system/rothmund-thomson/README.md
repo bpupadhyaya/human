@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Osteosarcoma microenvironment: periostin secreted by stromal fibroblasts of RECQL4-deficient osteosarcomas promotes tumour cell survival via integrin-αv signalling, amplifying the osteosarcoma risk that defines the Rothmund-Thomson cancer phenotype."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "RTS melatonin: melatonin, as a powerful antioxidant, quenches the ROS burden (xanthine-oxidase already mapped) in RECQL4-deficient skin, reducing UV-induced DNA damage and the inflammatory poikiloderma cascade of Rothmund-Thomson syndrome."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "RTS androgen axis: testosterone via androgen receptor on RECQL4-deficient osteoblasts and skin cells modulates the bone mineral density (osteosarcoma risk already mapped) and immune-surveillance of the skin in Rothmund-Thomson syndrome."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "RTS serotonin: serotonin via 5-HT2A receptors on RECQL4-deficient skin and immune cells modulates the mast-cell activation (histamine already mapped) and the UV-photosensitivity inflammatory cascade, contributing to the pruritus and erythema of Rothmund-Thomson poikiloderma."
 ---
 
 # Rothmund-Thomson Syndrome
@@ -788,6 +797,9 @@ The cardinal features of RTS type II are: (1) **poikiloderma** — the defining 
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Contact-system brake: C1-esterase inhibitor restrains the kallikrein-kinin and complement C1 cascades dysregulated in Rothmund-Thomson syndrome, limiting the bradykinin-driven skin oedema and the C3 activation already mapped in RTS.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Poikiloderma mast-cell mediator: histamine released from mast cells activated by TSLP in the inflamed skin of Rothmund-Thomson syndrome drives the erythema, pruritus, and vascular permeability of the early poikiloderma lesions.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Osteosarcoma microenvironment: periostin secreted by stromal fibroblasts of RECQL4-deficient osteosarcomas promotes tumour cell survival via integrin-αv signalling, amplifying the osteosarcoma risk that defines the Rothmund-Thomson cancer phenotype.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — RTS melatonin: melatonin, as a powerful antioxidant, quenches the ROS burden (xanthine-oxidase already mapped) in RECQL4-deficient skin, reducing UV-induced DNA damage and the inflammatory poikiloderma cascade of Rothmund-Thomson syndrome.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — RTS androgen axis: testosterone via androgen receptor on RECQL4-deficient osteoblasts and skin cells modulates the bone mineral density (osteosarcoma risk already mapped) and immune-surveillance of the skin in Rothmund-Thomson syndrome.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — RTS serotonin: serotonin via 5-HT2A receptors on RECQL4-deficient skin and immune cells modulates the mast-cell activation (histamine already mapped) and the UV-photosensitivity inflammatory cascade, contributing to the pruritus and erythema of Rothmund-Thomson poikiloderma.
 
 [^kitao-1999-recql4-rts]: Kitao S, Shimamoto A, Goto M, et al. Mutations in RECQL4 cause a subset of cases of Rothmund-Thomson syndrome. *Nat Genet.* 1999;22(1):82-84. [doi:10.1038/8788](https://doi.org/10.1038/8788) · [PubMed 10319867](https://pubmed.ncbi.nlm.nih.gov/10319867/)
 [^wang-2003-rts-cancer]: Wang LL, Gannavarapu A, Kozinetz CA, et al. Association between osteosarcoma and deleterious mutations in the RECQL4 gene in Rothmund-Thomson syndrome. *J Natl Cancer Inst.* 2003;95(9):669-674. [doi:10.1093/jnci/95.9.669](https://doi.org/10.1093/jnci/95.9.669) · [PubMed 12734318](https://pubmed.ncbi.nlm.nih.gov/12734318/)

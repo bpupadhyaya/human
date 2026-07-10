@@ -499,6 +499,15 @@ cross_links:
   - target: 01-human/03-molecular/testosterone
     relation: connects-to
     note: "Androgen deficiency axis: testosterone levels are depressed in male RA patients and inversely correlate with disease activity; androgen receptor signalling on T-helper cells suppresses IL-17A transcription, partly explaining the female predominance of RA."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "RA serotonin: serotonin via 5-HT2A/5-HT3 receptors on synovial fibroblasts, macrophages and platelets modulates the IL-6 (already mapped) and TNF-α (already mapped) production in the rheumatoid synovium, with low serum serotonin correlating with higher RA disease activity."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "RA vasopressin: vasopressin via V1aR on synoviocytes and T cells (already mapped) modulates the IL-6 (already mapped) and TNF-α (already mapped) synovial cytokine cascade; elevated synovial-fluid vasopressin correlates with joint swelling and RA flares."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "RA magnesium: magnesium deficiency amplifies the IL-1β (already mapped) and TNF-α (already mapped) synovial inflammation in rheumatoid arthritis; magnesium is also required for matrix-metalloproteinase activity and cartilage proteoglycan synthesis."
 ---
 
 # Rheumatoid Arthritis
@@ -801,6 +810,9 @@ RA patients have:
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian joint clock: nocturnal melatonin surges correlate with morning stiffness in RA; melatonin suppresses synovial macrophage TNF-α output and alters HPA-axis cortisol rhythmicity, linking circadian biology to the diurnal pattern of RA symptoms.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Neuroimmune joint modulator: oxytocin receptors on synovial fibroblasts and macrophages allow this neuropeptide to dampen NF-κB-mediated TNF-α release; serum oxytocin is reduced in active RA, implicating the oxytocin axis in immune tolerance failure.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen deficiency axis: testosterone levels are depressed in male RA patients and inversely correlate with disease activity; androgen receptor signalling on T-helper cells suppresses IL-17A transcription, partly explaining the female predominance of RA.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — RA serotonin: serotonin via 5-HT2A/5-HT3 receptors on synovial fibroblasts, macrophages and platelets modulates the IL-6 (already mapped) and TNF-α (already mapped) production in the rheumatoid synovium, with low serum serotonin correlating with higher RA disease activity.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — RA vasopressin: vasopressin via V1aR on synoviocytes and T cells (already mapped) modulates the IL-6 (already mapped) and TNF-α (already mapped) synovial cytokine cascade; elevated synovial-fluid vasopressin correlates with joint swelling and RA flares.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — RA magnesium: magnesium deficiency amplifies the IL-1β (already mapped) and TNF-α (already mapped) synovial inflammation in rheumatoid arthritis; magnesium is also required for matrix-metalloproteinase activity and cartilage proteoglycan synthesis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
