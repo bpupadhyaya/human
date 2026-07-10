@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Survivorship-anaemia axis: erythropoietin supports the management of the anaemia from the craniospinal irradiation and the myelosuppressive chemotherapy in the treatment of atypical teratoid/rhabdoid tumour."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell TME axis: histamine, from mast cells (already mapped) in the ATRT tumour microenvironment, amplifies the vascular permeability, the angiogenesis (already mapped) and the immunosuppressive cytokine milieu of the tumour stroma."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian-survivorship axis: melatonin, via MT1/MT2 receptors on tumour cells and neural progenitors (already mapped), exerts antitumour and neuroprotective effects relevant to the craniospinal-radiation survivorship of ATRT."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical complement regulation: the C1-esterase inhibitor regulates the classical complement pathway (C5 already mapped) whose activation contributes to the tumour-promoting neuroinflammation and the immunosuppressive complement dimension of ATRT."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -770,6 +779,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-TME axis: TSLP, from brain stromal cells and barrier epithelium, primes dendritic cells (already mapped) and amplifies the Th2/Treg imbalance of the immunosuppressive tumour microenvironment of atypical teratoid/rhabdoid tumour.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-tumour axis: bradykinin, via B1/B2 receptors on tumour endothelium (already mapped) and mast cells (already mapped), amplifies the vascular permeability and the inflammatory cytokine milieu of the tumour microenvironment of ATRT.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Survivorship-anaemia axis: erythropoietin supports the management of the anaemia from the craniospinal irradiation and the myelosuppressive chemotherapy in the treatment of atypical teratoid/rhabdoid tumour.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell TME axis: histamine, from mast cells (already mapped) in the ATRT tumour microenvironment, amplifies the vascular permeability, the angiogenesis (already mapped) and the immunosuppressive cytokine milieu of the tumour stroma.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-survivorship axis: melatonin, via MT1/MT2 receptors on tumour cells and neural progenitors (already mapped), exerts antitumour and neuroprotective effects relevant to the craniospinal-radiation survivorship of ATRT.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical complement regulation: the C1-esterase inhibitor regulates the classical complement pathway (C5 already mapped) whose activation contributes to the tumour-promoting neuroinflammation and the immunosuppressive complement dimension of ATRT.
 
 ---
 

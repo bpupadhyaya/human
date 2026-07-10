@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Tumour-EPO axis: erythropoietin, via the EPOR on basal-cell-carcinoma keratinocytes (already mapped), modulates the survival, proliferation, and the angiogenic (already mapped) dimension of basal-cell carcinoma."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell BCC TME axis: histamine, from mast cells (already mapped) in the basal-cell-carcinoma stroma, amplifies the angiogenesis (already mapped) and the immunosuppressive cytokine milieu that support tumour progression."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian-UV axis: melatonin, via MT1/MT2 receptors on keratinocytes (already mapped), modulates the DNA-damage response to the ultraviolet (UV/photon already mapped) radiation of the skin carcinogenesis of basal-cell carcinoma."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Androgen-skin-tumour axis: testosterone, via androgen receptors on basal-cell-carcinoma keratinocytes (already mapped) and stromal cells, modulates the immunosuppressive tumour microenvironment and the sex-differential BCC risk."
 ---
 
 # Basal Cell Carcinoma
@@ -773,6 +782,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-TME axis: TSLP, from keratinocytes (already mapped) and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2 immunosuppression of the basal-cell-carcinoma tumour microenvironment.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-tumour axis: bradykinin, via B1/B2 receptors on tumour keratinocytes (already mapped) and endothelium (already mapped), amplifies the vascular permeability and the inflammatory milieu of the basal-cell-carcinoma stroma.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Tumour-EPO axis: erythropoietin, via the EPOR on basal-cell-carcinoma keratinocytes (already mapped), modulates the survival, proliferation, and the angiogenic (already mapped) dimension of basal-cell carcinoma.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell BCC TME axis: histamine, from mast cells (already mapped) in the basal-cell-carcinoma stroma, amplifies the angiogenesis (already mapped) and the immunosuppressive cytokine milieu that support tumour progression.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-UV axis: melatonin, via MT1/MT2 receptors on keratinocytes (already mapped), modulates the DNA-damage response to the ultraviolet (UV/photon already mapped) radiation of the skin carcinogenesis of basal-cell carcinoma.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-skin-tumour axis: testosterone, via androgen receptors on basal-cell-carcinoma keratinocytes (already mapped) and stromal cells, modulates the immunosuppressive tumour microenvironment and the sex-differential BCC risk.
 
 ---
 
