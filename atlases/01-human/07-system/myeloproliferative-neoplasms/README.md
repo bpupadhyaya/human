@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Prolactin-JAK2 axis: prolactin, via PRLR-mediated JAK2 (already mapped)/STAT5 activation, amplifies the constitutive JAK2V617F signalling of polycythaemia-vera and essential thrombocythaemia; elevated prolactin levels correlate with the inflammatory cytokine burden of MPN."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Androgen-erythrocyte axis: testosterone, via androgen receptor on JAK2-V617F-mutant (already mapped) erythroid progenitor cells (already mapped), potentiates the erythrocytosis and myeloid proliferative drive of the polycythemia vera spectrum of myeloproliferative neoplasms."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Haematopoietic neuropeptide: oxytocin, via OXT-R on bone-marrow stromal cells (already mapped) and megakaryocytes (already mapped), modulates haematopoietic niche signalling and the thrombopoiesis dysregulated in essential thrombocythemia of myeloproliferative neoplasms."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Platelet-vasopressin axis: vasopressin, via V1a receptors on platelets (already mapped) and endothelial cells (already mapped), amplifies the thrombotic risk and platelet activation of the essential-thrombocythemia and polycythemia-vera spectrum of myeloproliferative neoplasms."
 ---
 
 # Myeloproliferative Neoplasms
@@ -795,6 +804,9 @@ In PV and ET, JAK2 V617F also affects myeloid progenitors → granulocytosis and
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — MPN complement regulation: C1-INH controls the classical-pathway arm (C3, C5 and C5aR1 already mapped) in the MPN microenvironment, complementing factor H (already mapped) to limit complement-driven thrombosis and JAK2 (already mapped) neutrophil activation.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Oncostatic melatonin in MPN: melatonin inhibits the JAK2 (already mapped)/STAT3 (already mapped) signalling cascade in myeloproliferative neoplasm progenitor cells, attenuates mast-cell (already mapped) histamine release and reduces the thrombo-inflammatory burden of MPN.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Prolactin-JAK2 axis: prolactin, via PRLR-mediated JAK2 (already mapped)/STAT5 activation, amplifies the constitutive JAK2V617F signalling of polycythaemia-vera and essential thrombocythaemia; elevated prolactin levels correlate with the inflammatory cytokine burden of MPN.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-erythrocyte axis: testosterone, via androgen receptor on JAK2-V617F-mutant (already mapped) erythroid progenitor cells (already mapped), potentiates the erythrocytosis and myeloid proliferative drive of the polycythemia vera spectrum of myeloproliferative neoplasms.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Haematopoietic neuropeptide: oxytocin, via OXT-R on bone-marrow stromal cells (already mapped) and megakaryocytes (already mapped), modulates haematopoietic niche signalling and the thrombopoiesis dysregulated in essential thrombocythemia of myeloproliferative neoplasms.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Platelet-vasopressin axis: vasopressin, via V1a receptors on platelets (already mapped) and endothelial cells (already mapped), amplifies the thrombotic risk and platelet activation of the essential-thrombocythemia and polycythemia-vera spectrum of myeloproliferative neoplasms.
 
 [^verstovsek-2012-comfort-i]: Verstovsek S, Mesa RA, Gotlib J, et al. A double-blind, placebo-controlled trial of ruxolitinib for myelofibrosis. *N Engl J Med.* 2012;366(9):799-807. [doi:10.1056/NEJMoa1110557](https://doi.org/10.1056/NEJMoa1110557) · [PubMed 22375971](https://pubmed.ncbi.nlm.nih.gov/22375971/)
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409002](https://doi.org/10.1056/NEJMoa1409002) · [PubMed 25426978](https://pubmed.ncbi.nlm.nih.gov/25426978/)

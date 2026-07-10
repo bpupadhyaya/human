@@ -480,6 +480,15 @@ cross_links:
   - target: 01-human/03-molecular/testosterone
     relation: connects-to
     note: "Sex hormone modulation: testosterone, via androgen receptor signalling, modulates the HLA-DQB1-linked T-cell (already mapped) immune response targeting orexin neurons in narcolepsy, influencing the sex-related susceptibility to autoimmune (already mapped) narcolepsy type 1."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Iron-transport transferrin: transferrin, the serum iron carrier (iron already mapped), delivers iron to dopaminergic neurons (already mapped) of the arousal circuitry; iron-deficiency impairs dopamine synthesis and the reward–wake cycle dysregulated in narcolepsy."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Zinc-sleep modulation: zinc (02-atomic) promotes NREM sleep depth by potentiating GABA-A receptors (already mapped) in the hypothalamus and forebrain; zinc deficiency exacerbates the orexin-deficient (already mapped) sleep–wake instability and cataplexy of narcolepsy."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Magnesium neuronal sleep: magnesium (02-atomic) activates GABA-A receptors (already mapped) and blocks NMDA receptors in the hypothalamic sleep-wake (already mapped) circuitry, reducing the arousal-system hyperactivation and cataplexy-promoting inflammation of narcolepsy."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -774,6 +783,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Hypothalamic neuroprotection: erythropoietin, via EPOR on neurons (already mapped) in the hypothalamic orexin centre, activates the JAK2/STAT3 (already mapped) anti-apoptotic pathway, reducing the autoimmune (already mapped) orexin-neuron loss in narcolepsy type 1.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Hypothalamic stromal periostin: periostin secreted by hypothalamic glia marks the autoimmune (already mapped) orexin-neuron inflammation of narcolepsy and activates the integrin-AKT (already mapped) pathway in the hypothalamic (brain already mapped) stromal response.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Sex hormone modulation: testosterone, via androgen receptor signalling, modulates the HLA-DQB1-linked T-cell (already mapped) immune response targeting orexin neurons in narcolepsy, influencing the sex-related susceptibility to autoimmune (already mapped) narcolepsy type 1.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Iron-transport transferrin: transferrin, the serum iron carrier (iron already mapped), delivers iron to dopaminergic neurons (already mapped) of the arousal circuitry; iron-deficiency impairs dopamine synthesis and the reward–wake cycle dysregulated in narcolepsy.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc-sleep modulation: zinc (02-atomic) promotes NREM sleep depth by potentiating GABA-A receptors (already mapped) in the hypothalamus and forebrain; zinc deficiency exacerbates the orexin-deficient (already mapped) sleep–wake instability and cataplexy of narcolepsy.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium neuronal sleep: magnesium (02-atomic) activates GABA-A receptors (already mapped) and blocks NMDA receptors in the hypothalamic sleep-wake (already mapped) circuitry, reducing the arousal-system hyperactivation and cataplexy-promoting inflammation of narcolepsy.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)
