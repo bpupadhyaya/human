@@ -500,6 +500,15 @@ cross_links:
   - target: 01-human/02-atomic/copper
     relation: connects-to
     note: "Reproductive copper: copper (via ceruloplasmin in placental syncytiotrophoblast) is essential for cytochrome c oxidase activity (mitochondrial respiration), fetal neurodevelopment and the oestrogen (already mapped)-biosynthetic CYP19A1 aromatase in the reproductive system."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "Reproductive iodine: iodine-dependent thyroid hormones are essential for ovarian folliculogenesis, embryo development and placental function in the reproductive system; maternal iodine deficiency causes fetal hypothyroidism, neurodevelopmental delay and miscarriage."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Reproductive sodium: sodium homeostasis via aldosterone (already mapped) and vasopressin (already mapped) governs plasma-volume expansion in pregnancy, and sodium-mediated RAAS activation regulates uteroplacental blood flow in the reproductive system."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Reproductive potassium: potassium channels (Kir7.1) on placental syncytiotrophoblast regulate membrane potential and hormone secretion; uterine smooth-muscle (already mapped) potassium conductance governs uterine quiescence and the onset of parturition."
 ---
 
 # Reproductive System
@@ -776,6 +785,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Placental complement shield: factor H on trophoblast surfaces is the primary alternative-pathway regulator protecting the semi-allogeneic placenta from complement (C3 and C5 already mapped) attack, with factor-H deficiency linked to pre-eclampsia in the reproductive system.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Reproductive iron economy: transferrin mediates iron (already mapped) transfer across the placenta to the fetus via TfR1, is regulated by erythropoietin (already mapped) in maternal erythropoiesis, and is critical for embryonic neural and haematopoietic development.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Reproductive copper: copper (via ceruloplasmin in placental syncytiotrophoblast) is essential for cytochrome c oxidase activity (mitochondrial respiration), fetal neurodevelopment and the oestrogen (already mapped)-biosynthetic CYP19A1 aromatase in the reproductive system.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Reproductive iodine: iodine-dependent thyroid hormones are essential for ovarian folliculogenesis, embryo development and placental function in the reproductive system; maternal iodine deficiency causes fetal hypothyroidism, neurodevelopmental delay and miscarriage.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Reproductive sodium: sodium homeostasis via aldosterone (already mapped) and vasopressin (already mapped) governs plasma-volume expansion in pregnancy, and sodium-mediated RAAS activation regulates uteroplacental blood flow in the reproductive system.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Reproductive potassium: potassium channels (Kir7.1) on placental syncytiotrophoblast regulate membrane potential and hormone secretion; uterine smooth-muscle (already mapped) potassium conductance governs uterine quiescence and the onset of parturition.
 
 ## Pathology
 

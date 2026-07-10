@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/serotonin
     relation: connects-to
     note: "RCC serotonin: serotonin via 5-HT receptors on RCC tumour endothelium and immune infiltrate modulates the VEGF (already mapped)-driven angiogenesis and the checkpoint-immunotherapy (PD-1 already mapped) response in the renal-cell-carcinoma microenvironment."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "RCC oxytocin: oxytocin via OXTR on renal tubular cells (kidney already mapped) and tumour vasculature modulates the VEGF (already mapped)-driven angiogenesis and mTOR (already mapped)-mediated metabolic reprogramming of VHL (already mapped)-mutant renal-cell carcinoma."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "RCC vasopressin: vasopressin via V2R on renal collecting-duct cells (kidney already mapped) activates cAMP/mTOR (already mapped) signalling; V2R co-activation amplifies the mTOR-driven tumourigenesis of VHL (already mapped)-mutant renal-cell carcinoma."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "RCC prolactin: prolactin via JAK2/STAT5 on RCC cells promotes survival and activates the mTOR (already mapped) and HIF-1α (already mapped) pseudohypoxic axes, amplifying the VHL (already mapped)-loss-driven angiogenic reprogramming of renal-cell carcinoma."
 ---
 
 # Renal Cell Carcinoma
@@ -782,6 +791,9 @@ Kidney → primary site of EPO production under hypoxia; VHL-intact renal inters
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — RCC melatonin: melatonin via MT1/MT2 receptors on RCC cells modulates the HIF-1α (already mapped) pseudohypoxic response and VHL (already mapped)-driven angiogenesis, and inhibits the VEGF (already mapped)-driven neovascularisation of renal-cell carcinoma.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — RCC androgen axis: testosterone via androgen receptor on RCC cells modulates the mTOR (already mapped) and HIF-1α (already mapped) metabolic axes and the tumour immunosurveillance of renal-cell carcinoma, intersecting the sex-dimorphic male predominance of RCC.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — RCC serotonin: serotonin via 5-HT receptors on RCC tumour endothelium and immune infiltrate modulates the VEGF (already mapped)-driven angiogenesis and the checkpoint-immunotherapy (PD-1 already mapped) response in the renal-cell-carcinoma microenvironment.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — RCC oxytocin: oxytocin via OXTR on renal tubular cells (kidney already mapped) and tumour vasculature modulates the VEGF (already mapped)-driven angiogenesis and mTOR (already mapped)-mediated metabolic reprogramming of VHL (already mapped)-mutant renal-cell carcinoma.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — RCC vasopressin: vasopressin via V2R on renal collecting-duct cells (kidney already mapped) activates cAMP/mTOR (already mapped) signalling; V2R co-activation amplifies the mTOR-driven tumourigenesis of VHL (already mapped)-mutant renal-cell carcinoma.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — RCC prolactin: prolactin via JAK2/STAT5 on RCC cells promotes survival and activates the mTOR (already mapped) and HIF-1α (already mapped) pseudohypoxic axes, amplifying the VHL (already mapped)-loss-driven angiogenic reprogramming of renal-cell carcinoma.
 
 [^motzer-2018-checkmate214]: Motzer RJ, Tannir NM, McDermott DF, et al. Nivolumab plus ipilimumab versus sunitinib in advanced renal-cell carcinoma. *N Engl J Med.* 2018;378(14):1277-1290. [doi:10.1056/NEJMoa1712126](https://doi.org/10.1056/NEJMoa1712126) · [PubMed 29562145](https://pubmed.ncbi.nlm.nih.gov/29562145/)
 [^rini-2019-keynote426]: Rini BI, Plimack ER, Stus V, et al. Pembrolizumab plus axitinib versus sunitinib for advanced renal-cell carcinoma. *N Engl J Med.* 2019;380(12):1116-1127. [doi:10.1056/NEJMoa1816714](https://doi.org/10.1056/NEJMoa1816714) · [PubMed 30779529](https://pubmed.ncbi.nlm.nih.gov/30779529/)
