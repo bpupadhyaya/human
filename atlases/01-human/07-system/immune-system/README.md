@@ -511,6 +511,15 @@ cross_links:
   - target: 03-medicine/03-food/curcumin
     relation: connects-to
     note: "NF-kB/JAK-STAT immunomodulator: curcumin inhibits NF-kB (already mapped) and JAK-STAT (already mapped) in macrophages (already mapped) and T cells (already mapped), suppressing IL-6, TNF-alpha and IL-1beta (all already mapped); a broad-spectrum phytochemical immunomodulator."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Immunomodulatory EPO: erythropoietin signals via EPOR on dendritic cells (already mapped) and T cells (already mapped), suppressing excess immune activation and complementing the erythrocyte (already mapped) production arm coordinated by the bone marrow (already mapped)."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian immunomodulator: melatonin synchronises circadian immune rhythms (cortisol already mapped), stimulates NK cells (already mapped) and T cells (already mapped), and attenuates the NF-kB (already mapped) pro-inflammatory signalling of the immune system."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Lactogenic immunostimulant: prolactin, secreted by the pituitary, binds PRL-R on lymphocytes (B cell, T cell and NK cell already mapped), amplifying proliferation, antibody (already mapped) production and the systemic immune response to infection."
 ---
 
 # Immune System
@@ -673,6 +682,9 @@ After primary response contraction, long-lived memory cells persist:
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-contact system: bradykinin activates endothelial cells (already mapped) and mast cells (already mapped) via B2 receptors, amplifying vascular permeability and innate immune activation; the kinin-kallikrein cascade bridges complement (C3, C5 already mapped) and coagulation.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Iron delivery: transferrin shuttles iron (already mapped) to immune cells for metalloenzyme and mitochondrial function; transferrin saturation governs the iron availability that regulates lymphocyte (T- and B-cell already mapped) proliferation and activation.
 - `connects-to` → **[Curcumin](../../../03-medicine/03-food/curcumin/README.md)** — NF-kB/JAK-STAT immunomodulator: curcumin inhibits NF-kB (already mapped) and JAK-STAT (already mapped) in macrophages (already mapped) and T cells (already mapped), suppressing IL-6, TNF-alpha and IL-1beta (all already mapped); a broad-spectrum phytochemical immunomodulator.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Immunomodulatory EPO: erythropoietin signals via EPOR on dendritic cells (already mapped) and T cells (already mapped), suppressing excess immune activation and complementing the erythrocyte (already mapped) production arm coordinated by the bone marrow (already mapped).
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian immunomodulator: melatonin synchronises circadian immune rhythms (cortisol already mapped), stimulates NK cells (already mapped) and T cells (already mapped), and attenuates the NF-κB (already mapped) pro-inflammatory signalling of the immune system.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Lactogenic immunostimulant: prolactin, secreted by the pituitary, binds PRL-R on lymphocytes (B cell, T cell and NK cell already mapped), amplifying proliferation, antibody (already mapped) production and the systemic immune response to infection.
 
 ## Pathology
 

@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/bradykinin
     relation: connects-to
     note: "Kinin system: bradykinin activates podocytes (already mapped) and endothelial cells (already mapped) via B2 receptors, amplifying proteinuria and glomerular (already mapped) inflammation; ACE inhibitors (already mapped) reduce its catabolism, potentiating renoprotection in IgAN."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Mesangial antioxidant: melatonin scavenges reactive oxygen species and suppresses NF-kB (already mapped) and NLRP3 (already mapped) inflammasome in mesangial cells, limiting the oxidative-stress component of the IgA immune-complex injury at the glomerulus (already mapped)."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Immunostimulatory prolactin: prolactin acts on its receptor (PRL-R) on B cells (already mapped) and lymphocytes, potentiating the mucosal immunity and IgA class-switching (secretory IgA already mapped) that underlies the galactose-deficient IgA1 production of IgA nephropathy."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Renoprotective oxytocin: oxytocin, released from the posterior pituitary, attenuates renal NF-kB (already mapped) signalling and mast-cell (already mapped) activation, reducing proteinuria and the inflammatory injury at the glomerulus (already mapped) of IgA nephropathy."
 ---
 
 # IgA Nephropathy
@@ -723,6 +732,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Epithelial alarmin: TSLP from intestinal epithelium (already mapped) and tonsil drives IgA class-switching (secretory IgA already mapped) and mucosal B-cell (already mapped) priming that underlies galactose-deficient IgA1 production in IgA nephropathy.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell mediator: histamine from renal mast cells (already mapped) increases vascular permeability and amplifies mesangial IgA (secretory IgA already mapped) deposition and complement (C3 already mapped) activation in IgA nephropathy.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin system: bradykinin activates podocytes (already mapped) and endothelial cells (already mapped) via B2 receptors, amplifying proteinuria and glomerular (already mapped) inflammation; ACE inhibitors (already mapped) reduce its catabolism, potentiating renoprotection in IgAN.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Mesangial antioxidant: melatonin scavenges reactive oxygen species and suppresses NF-κB (already mapped) and NLRP3 (already mapped) inflammasome in mesangial cells, limiting the oxidative-stress component of the IgA immune-complex injury at the glomerulus (already mapped).
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Immunostimulatory prolactin: prolactin acts on its receptor (PRL-R) on B cells (already mapped) and lymphocytes, potentiating the mucosal immunity and IgA class-switching (secretory IgA already mapped) that underlies the galactose-deficient IgA1 production of IgA nephropathy.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Renoprotective oxytocin: oxytocin, released from the posterior pituitary, attenuates renal NF-κB (already mapped) signalling and mast-cell (already mapped) activation, reducing proteinuria and the inflammatory injury at the glomerulus (already mapped) of IgA nephropathy.
 
 ---
 
