@@ -526,6 +526,15 @@ cross_links:
   - target: 01-human/02-atomic/potassium
     relation: connects-to
     note: "OUD potassium: potassium, via K⁺ channels on dopaminergic (dopamine already mapped) and GABAergic (GABA already mapped) neurons, sets membrane excitability; potassium dysregulation amplifies the withdrawal hyperalgesia of opioid use disorder."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "OUD calcium: calcium channel activation in neurons (already mapped) and microglia (already mapped) modulates opioid-dependent synaptic plasticity; calcium dysregulation by opioids amplifies the NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of OUD."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "OUD phosphorus: phosphorus, as ATP precursor in neurons (already mapped) and microglia (already mapped), sustains reward-circuit energy; phosphorus deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of opioid use disorder."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "OUD iron: iron, as cofactor of dopamine-β-hydroxylase in neurons (already mapped) and microglia (already mapped), supports dopaminergic reward tone; iron deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of OUD."
 ---
 
 # Opioid Use Disorder
@@ -850,6 +859,9 @@ The primary mechanism by which opioids produce euphoria:
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Action-potential fidelity: sodium, via Na⁺/K⁺-ATPase on dopaminergic (dopamine already mapped) and glutamatergic (NMDA-receptor already mapped) neurons, maintains action-potential fidelity; sodium dysregulation amplifies the dopamine (already mapped) withdrawal cascade of opioid use disorder.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Catecholamine-synthesis cofactor: copper, as cofactor of dopamine-β-hydroxylase, converts dopamine (already mapped) to norepinephrine (already mapped) and modulates the catecholamine cascade; copper dysregulation amplifies the HPA-axis (cortisol already mapped) tone of opioid use disorder.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Reward-circuit excitability: potassium, via K⁺ channels on dopaminergic (dopamine already mapped) and GABAergic (GABA already mapped) neurons, sets membrane excitability; potassium dysregulation amplifies the withdrawal hyperalgesia of opioid use disorder.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — OUD calcium: calcium channel activation in neurons (already mapped) and microglia (already mapped) modulates opioid-dependent synaptic plasticity; calcium dysregulation by opioids amplifies the NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of OUD.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — OUD phosphorus: phosphorus, as ATP precursor in neurons (already mapped) and microglia (already mapped), sustains reward-circuit energy; phosphorus deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of opioid use disorder.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — OUD iron: iron, as cofactor of dopamine-β-hydroxylase in neurons (already mapped) and microglia (already mapped), supports dopaminergic reward tone; iron deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of OUD.
 
 [^volkow-2016-opioid-crisis]: Volkow ND, Collins FS. The role of science in addressing the opioid crisis. *N Engl J Med.* 2017;377(4):391-394. [doi:10.1056/NEJMsr1706626](https://doi.org/10.1056/NEJMsr1706626) · [PubMed 28723324](https://pubmed.ncbi.nlm.nih.gov/28723324/)
 [^mattick-2009-bupe-meta]: Mattick RP, Breen C, Kimber J, Davoli M. Buprenorphine maintenance versus placebo or methadone maintenance for opioid dependence. *Cochrane Database Syst Rev.* 2014;2:CD002207. [doi:10.1002/14651858.CD002207.pub4](https://doi.org/10.1002/14651858.CD002207.pub4) · [PubMed 24500948](https://pubmed.ncbi.nlm.nih.gov/24500948/)
