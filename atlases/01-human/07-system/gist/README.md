@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "EPO-GIST axis: erythropoietin, induced by the HIF-1α (already mapped) hypoxia and iron-deficiency anaemia of GIST, activates the EPOR on KIT-mutant (already mapped) tumour cells and modulates macrophage (already mapped) polarisation in the GIST microenvironment."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Histamine-GIST axis: histamine, released by the ICC-derived (already mapped) mast cells in the GIST microenvironment, signals via H1/H2 receptors on KIT-mutant (already mapped) tumour cells and stroma, modulating angiogenesis and the immunosuppressive milieu of GIST."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Melatonin-GIST axis: melatonin, via MT1/MT2 receptors on KIT-mutant (already mapped) GIST cells, modulates circadian cell-cycle control, suppresses HIF-1α-driven (already mapped) proliferation, and enhances apoptotic sensitivity to imatinib in GIST."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Androgen-GIST axis: testosterone, via androgen receptor signalling on GIST tumour cells and stromal macrophages (already mapped), modulates KIT/PDGFRA-driven (already mapped) proliferation and the sex-biased incidence and natural history of GIST."
 ---
 
 # GIST
@@ -782,6 +791,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-GIST axis: TSLP, from the KIT/PDGFRA-mutant (already mapped) GIST stromal cells and mast cells (already mapped), primes dendritic cells (already mapped) and shapes the Th2 immunosuppressive microenvironment of the gastrointestinal stromal tumour.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-GIST axis: bradykinin, via B1/B2 receptors on GIST tumour endothelium (already mapped) and mast cells (already mapped), augments vascular permeability, tumour oedema, and the inflammatory milieu of the KIT/PDGFRA-mutant (already mapped) GIST stroma.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — EPO-GIST axis: erythropoietin, induced by the HIF-1α (already mapped) hypoxia and iron-deficiency anaemia of GIST, activates the EPOR on KIT-mutant (already mapped) tumour cells and modulates macrophage (already mapped) polarisation in the GIST microenvironment.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histamine-GIST axis: histamine, released by the ICC-derived (already mapped) mast cells in the GIST microenvironment, signals via H1/H2 receptors on KIT-mutant (already mapped) tumour cells and stroma, modulating angiogenesis and the immunosuppressive milieu of GIST.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Melatonin-GIST axis: melatonin, via MT1/MT2 receptors on KIT-mutant (already mapped) GIST cells, modulates circadian cell-cycle control, suppresses HIF-1α-driven (already mapped) proliferation, and enhances apoptotic sensitivity to imatinib in GIST.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-GIST axis: testosterone, via androgen receptor signalling on GIST tumour cells and stromal macrophages (already mapped), modulates KIT/PDGFRA-driven (already mapped) proliferation and the sex-biased incidence and natural history of GIST.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
